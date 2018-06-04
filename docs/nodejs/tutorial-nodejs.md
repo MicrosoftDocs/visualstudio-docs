@@ -21,9 +21,25 @@ In this tutorial, you learn how to:
 > [!div class="checklist"]
 > * Create a Node.js project
 > * Add some code
-> * Use IntelliSense
+> * Use IntelliSense to write code
 > * Run the app
-> * Hit a breakpoint
+> * Hit a breakpoint in the debugger
+
+## Before you begin
+
+Here's a quick FAQ to introduce you to some key concepts.
+
+### What is Node.js?
+
+Node.js is a server-side JavaScript runtime environment that executes JavaScript server-side.
+
+### What is npm?
+
+npm is the default package manager for the Node.js. The package manager makes it easier for programmers to publish and share source code of Node.js libraries and is designed to simplify installation, updating, and uninstallation of libraries.
+
+### What is express?
+
+Express is a web application framework, used as a server framework for Node.js to build web applications. Express allows you to use choose different front-end frameworks to create a UI, such as Pug (formerly called Jade). Pug is used in this tutorial.
 
 ## Prerequisites
 
@@ -39,8 +55,11 @@ In this tutorial, you learn how to:
 
     This tutorial was tested with Node.js 8.10.0.
 
-## Create a project
-First, you'll create an Node.js web application project.
+## Create a new Node.js project
+
+Visual Studio manages files for a single application in a *project*. The project includes source code, resources, and configuration files.
+
+In this tutorial you begin with a simple project containing code for a Node.js and express app.
 
 1. Open Visual Studio 2017.
 
@@ -52,19 +71,25 @@ First, you'll create an Node.js web application project.
 
     Visual Studio creates the new solution and opens your project. The *app.js* project file opens in the editor (left pane).
 
-    - Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, because the project file does not make custom changes to the Node.js project source.
+    ![Project structure](../nodejs/media/tutorial-project-structure.png)
 
-    - At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
+    1. Highlighted in **bold** is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, because the project file does not make custom changes to the Node.js project source.
 
-    - The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box.
+    2. At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
 
-    - Project files such as *app.js* show up under the project node. *app.js* is the project startup file.
+    3. The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box or install and update packages according to settings in *package.json*.
+
+    4. *package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages.
+
+    5. Project files such as *app.js* show up under the project node. *app.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
 
 1. Open the **npm** node and make sure that all the required npm packages are present.
 
     If any are missing (exclamation point icon), you can right-click the **npm** node and choose **Install Missing npm Packages**.
 
 ## Add some code
+
+The application uses Pug for the front-end JavaScript framework. Pug uses simple markup code that compiles to HTML. (Pug is set as the view engine in *app.js*. The code that sets the view engine in *app.js* is `app.set('view engine', 'pug');`.)
 
 1. In Solution Explorer (right pane), open the views folder, then open *index.pug*.
 
@@ -123,9 +148,11 @@ First, you'll create an Node.js web application project.
 
 ## Use IntelliSense
 
+IntelliSense is a Visual Studio tool that assists you as you write code.
+
 1. In *index.js*, go to the line of code containing `res.render`.
 
-1. Put your cursor after the `data` string, type `: get` and IntelliSense will show you the `getData` function. Select `getData`.
+1. Put your cursor after the `data` string, type `: get` and IntelliSense will show you the `getData` function defined earlier in the code. Select `getData`.
 
     ![Use IntelliSense](../nodejs/media/tutorial-nodejs-intellisense.png)
 
@@ -135,7 +162,7 @@ First, you'll create an Node.js web application project.
 
     The last line of this message tells you that the JavaScript interpreter expected a comma (`,`).
 
-1. Click the **Error List** tab.
+1. In the lower pane, click the **Error List** tab.
 
     You see the warning and description along with the filename and line number.
 
