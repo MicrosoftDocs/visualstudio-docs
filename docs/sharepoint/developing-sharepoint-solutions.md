@@ -19,26 +19,25 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Developing SharePoint Solutions
+# Develop SharePoint solutions
   Several SharePoint project type templates are available in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] for creating SharePoint sites and site elements. For a list of the available project types, see [SharePoint Project and Project Item Templates](../sharepoint/sharepoint-project-and-project-item-templates.md). Following is a description of the elements and properties of a SharePoint project.  
   
  For information about SharePoint 2013 and SharePoint add-ins, see [SharePoint 2013](http://msdn.microsoft.com/library/jj162979.aspx) and [Build SharePoint add-ins](http://msdn.microsoft.com/library/office/apps/jj163230%28v=office.15%29.aspx).  
   
-## Elements of a SharePoint Project  
+## Elements of a SharePoint project
  The nodes under a SharePoint project are known as *SharePoint items*. SharePoint items may also contain one or more subfiles, referred to as *SharePoint item files*, such as [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] configuration files, .aspx forms, and more.  
   
  Instead of creating projects by using project templates that are already populated with project item files, you can use the **Empty Project** template to create an empty SharePoint project and then add project items manually. SharePoint projects can also optionally contain one or more feature files (for activation in SharePoint) and a package file in which to distribute the project.  
   
-### Special Nodes  
+### Special nodes
  Every SharePoint project contains two nodes that cannot be renamed, deleted, cut, copied, or dragged from the project. These nodes are as follows:  
   
--   Features  
-  
+-   Features    
 -   Package  
   
  Both nodes always appear in all SharePoint projects even if no features or packages are defined for the project.  
   
-#### Features Node  
+#### Features node
  The **Features** node contains one or more SharePoint project features. A feature is a container of extensions for SharePoint. After a feature is deployed to SharePoint server, it can be included in site definitions or activated individually by SharePoint administrators on SharePoint sites. For more information, see [Working with Features](http://go.microsoft.com/fwlink/?LinkID=147704).  
   
  When you add an item, such as a content type or a list instance, to a SharePoint project, it is added to a feature in the **Features** node. The scope of the item determines whether it is added to a new or existing feature. If the new item has the same scope as an existing feature, then it is added to that feature. Otherwise, the item is added to a new feature.  
@@ -47,17 +46,17 @@ ms.workload:
   
  When a feature is added to a SharePoint project, it appears in **Solution Explorer** as a node with the default name Feature*x*.feature, where *x* is a unique number. After a feature is deployed to the SharePoint Server, a SharePoint administrator can activate it, making it available to SharePoint site users.  
   
-#### Package Node  
+#### Package node
  The **Package** node contains a single file that serves as the distribution mechanism for the SharePoint project. This file, known as a *solution package*, is .CAB-based with a .WSP extension. A solution package is a deployable, reusable file that contains a set of features, site definitions, and assemblies that apply to SharePoint sites, and that you can enable or disable individually. The **Package** node also always contains a file that is named Package.wspdef, an [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] definition file for the package. Once a package is deployed to the server that's running SharePoint, the SharePoint administrator can install it and activate its features.  
   
  You can view or change the package's contents in the Package Designer either by double-clicking the package node or by opening its shortcut menu and then choosing **Open**. For more information, see [Creating SharePoint Solution Packages](../sharepoint/creating-sharepoint-solution-packages.md).  
   
-## SharePoint Project and Project Item Properties  
+## SharePoint project and project item properties
  SharePoint projects, just like other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] projects, display properties in the Properties window and the Properties Page. The properties that are displayed depend on the node that is selected.  
   
  When a SharePoint project, project item, or project item file node is selected in **Solution Explorer**, the following properties appear in the Properties window or the Properties Page:  
   
-### Project Properties  
+### Project properties
   
 |Property Name|Description|  
 |-------------------|-----------------|  
@@ -77,7 +76,7 @@ ms.workload:
   
  When you choose a SharePoint item file (such as a workflow or a feature in the Features node), the following properties appear in the Properties window:  
   
-### Project Item Properties  
+### Project item properties
   
 |Property Name|Description|  
 |-------------------|-----------------|  
@@ -88,7 +87,7 @@ ms.workload:
 |Project Output References|Specifies a dependency, such as an assembly, that your project item needs to run. For more information, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md).|  
 |Safe Control Entries|Specifies controls that are safe for untrusted users to edit. For more information, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md).|  
   
-### Project Item File Properties  
+### Project item file properties
   
 |Property Name|Description|  
 |-------------------|-----------------|  
@@ -99,11 +98,11 @@ ms.workload:
 |Deployment Location|The fully-qualified path of the file on the SharePoint server. This path is composed of the Deployment Root and Deployment Path sub-properties.|  
 |Deployment Path|The relative path of the file on the SharePoint Server file, such as Workflow1\\. The fully-qualified path for the file is created by concatenating the *Deployment Path* value to the end of the *Deployment Root* value.<br /><br /> Selecting a value of *RootFile* for the *Deployment Type* property changes the *Deployment Root* property to {SharePointRoot}\\, resulting in a fully-qualified path of {SharePointRoot}\Workflow1\\. For more information, see [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md).|  
 |Deployment Root|String. The root folder where the file is deployed on the SharePoint Server. For example, {SharePointRoot}\Template\Features\\{FeatureName}\\.<br /><br /> The value of the *Deployment Root* property is determined by the *Deployment Type* setting.|  
-|Deployment Type|The file's deployment type, which determines its *Deployment Root* value. Can be one of the following values:<br /><br /> NoDeployment: \<no value><br /><br /> ElementManifest: {SharePointRoot}\Template\Features\\{FeatureName}\\<br /><br /> ElementFile: {SharePointRoot}\Template\Features\\{FeatureName}\\<br /><br /> TemplateFile: {SharePointRoot}\Template\\<br /><br /> RootFile: {SharePointRoot}\\<br /><br /> GlobalResource: {SharePointRoot}\Resources\\<br /><br /> ClassResource: {ClassResourcePath}\\<br /><br /> For more information, see <xref:Microsoft.VisualStudio.SharePoint.DeploymentType>.|  
+|Deployment Type|The file's deployment type, which determines its *Deployment Root* value. Can be one of the following values:<br /><br /> NoDeployment: *\<no value>*<br /><br /> ElementManifest: *{SharePointRoot}\Template\Features\\{FeatureName}*\\<br /><br /> ElementFile: *{SharePointRoot}\Template\Features\\{FeatureName}\\*<br /><br /> TemplateFile: *{SharePointRoot}\Template\\*<br /><br /> RootFile: *{SharePointRoot}\\*<br /><br /> GlobalResource: *{SharePointRoot}\Resources\\*<br /><br /> ClassResource: *{ClassResourcePath}\\*<br /><br /> For more information, see <xref:Microsoft.VisualStudio.SharePoint.DeploymentType>.|  
 |File Name|The name of the file or folder for the item file.|  
 |Full Path|The location of the file for the item. (Read-only.)|  
   
-## Related Topics  
+## Related topics
   
 |Title|Description|  
 |-----------|-----------------|  
@@ -126,7 +125,7 @@ ms.workload:
 |[Security for SharePoint Solutions](../sharepoint/security-for-sharepoint-solutions.md)|Describes security considerations for developing SharePoint solutions in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].|  
 |[URL Picker Dialog Box &#40;SharePoint development in Visual Studio&#41;](../sharepoint/url-picker-dialog-box-sharepoint-development-in-visual-studio.md)|Describes a dialog box that you can use to add path references to resources in your project or on the local SharePoint server.|  
   
-## See Also  
+## See also
  [Getting Started &#40;SharePoint Development in Visual Studio&#41;](../sharepoint/getting-started-sharepoint-development-in-visual-studio.md)   
  [Browsing SharePoint Connections Using Server Explorer](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)   
  [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)   
