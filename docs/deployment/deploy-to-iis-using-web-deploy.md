@@ -54,7 +54,7 @@ If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Us
 
 2. Restart the system (or execute **net stop was /y** followed by **net start w3svc** from a command prompt to pick up a change to the system PATH).
 
-## <a name="BKMK_install_webdeploy"></a> (Optional) Install Web Deploy 3.6 on Windows Server
+## <a name="BKMK_install_webdeploy"></a> Install Web Deploy 3.6 on Windows Server
 
 [!INCLUDE [remote-debugger-install-web-deploy](../debugger/includes/remote-debugger-install-web-deploy.md)]
 
@@ -76,7 +76,7 @@ If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Us
 
 8. With the site selected in the IIS Manager, choose **Edit Permissions**, and make sure that IUSR, IIS_IUSRS, or the user configured for the Application Pool is an authorized user with Read & Execute rights. If none of these users are present, add IUSR as a user with Read & Execute rights.
 
-## <a name="bkmk_webdeploy"></a> (Optional) Publish and deploy the app using Web Deploy from Visual Studio
+## <a name="bkmk_webdeploy"></a> Publish and deploy the app using Web Deploy from Visual Studio
 
 [!INCLUDE [deploy-app-web-deploy](../deployment/includes/deploy-app-web-deploy.md)]
 
