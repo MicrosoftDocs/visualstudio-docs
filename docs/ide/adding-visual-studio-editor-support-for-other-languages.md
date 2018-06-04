@@ -27,7 +27,7 @@ Learn about how the Visual Studio editor supports reading and navigating through
 
 Features in the Visual Studio editor such as syntax colorization, statement completion, and Navigate To can help you more easily read, create, and edit your code. The following screenshot shows an example of editing a Perl script in Visual Studio. The syntax is automatically colorized. For example, remarks in the code are colored green, code is black, paths are red, and statements are blue. The Visual Studio editor automatically applies syntax colorization to any language it supports. In addition, when you begin to enter a known language keyword or object, statement completion displays a list of possible statements and objects. Statement completion can help you create code more quickly and easily.
 
-![Syntax colorization in Perl script](../ide/media/vside_perledit.png "VSIDE_PerlEdit")
+![Syntax colorization in Perl script](../ide/media/vside_perledit.png)
 
 Visual Studio currently provides syntax colorization and basic statement completion support for the following languages using [TextMate Grammars](https://manual.macromates.com/en/language_grammars). If your favorite language isn't in the table, though, don't worry - you can add it.
 

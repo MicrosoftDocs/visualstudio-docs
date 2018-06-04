@@ -54,7 +54,7 @@ The **XML Schema Explorer** provides a hierarchal view of the schema set through
 
 The following is an example of a tree structure:
 
-![XML Schema Explorer](../xml-tools/media/xmlschemaexplorer.gif "XMLSchemaExplorer")
+![XML Schema Explorer](../xml-tools/media/xmlschemaexplorer.gif)
 
 ## Selection and activation
  To highlight and select a node, click once in the Schema Explorer.

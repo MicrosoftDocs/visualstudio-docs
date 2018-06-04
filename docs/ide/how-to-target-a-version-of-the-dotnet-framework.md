@@ -44,11 +44,11 @@ For information about how to change the target version for C++ projects, see [Ho
 
 1. In **Solution Explorer**, open the shortcut menu for the project that you want to change, and then choose **Properties**.
 
-    ![Visual Studio Solution Explorer Properties](../ide/media/vs_slnexplorer_properties.png "vs_slnExplorer_Properties")
+    ![Visual Studio Solution Explorer Properties](../ide/media/vs_slnexplorer_properties.png)
 
 1. In the left column of the **Properties** window, choose the **Application** tab.
 
-    ![Visual Studio App Properties Application tab](../ide/media/vs_slnexplorer_properties_applicationtab.png "vs_slnExplorer_Properties_ApplicationTab")
+    ![Visual Studio App Properties Application tab](../ide/media/vs_slnexplorer_properties_applicationtab.png)
 
     > [!NOTE]
     > After you create a UWP app, you can't change the targeted version of either Windows or the .NET Framework.

@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# CvIsEnabled Function
+# CvIsEnabled function
 Determines whether any session has enabled the specified ETW provider.  
   
 ## Syntax  
@@ -43,11 +43,11 @@ HRESULT CvIsEnabledEx(
  `pProvider`  
  Valid provider object. Cannot be NULL.  
   
-## Return Value  
+## Return value  
  S_OK if provider is currently enabled. S_FALSE if provider is currently disabled. Error code in case there were any errors. Use FAILED macro to check for error condition and then check for S_OK/S_FALSE.  
   
 ## Requirements  
- **Header:** cvmarkers.h  
+ **Header:** *cvmarkers.h*  
   
-## See Also  
- [C++ Library Reference](../profiling/cpp-library-reference.md)
+## See also  
+ [C++ library reference](../profiling/cpp-library-reference.md)

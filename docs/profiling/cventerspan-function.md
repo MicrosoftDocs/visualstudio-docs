@@ -27,7 +27,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# CvEnterSpan Function
+# CvEnterSpan function
 Marks the beginning of a new span.  
   
 ## Syntax  
@@ -120,11 +120,11 @@ HRESULT CvEnterSpanExVA(
  S_OK when the message is successfully written. Error code in case there were any errors. Use SUCCEEDED/FAILED macros to check for error condition.  
   
 ## Requirements  
- **Header:** cvmarkers.h  
+ **Header:** *cvmarkers.h*  
   
  **Unicode:** CvEnterSpanW, CvEnterSpanVW, CvEnterSpanExW, CvEnterSpanExVW  
   
  **ANSI:** CvEnterSpanA, CvEnterSpanVA, CvEnterSpanExA, CvEnterSpanExVW  
   
-## See Also  
- [C++ Library Reference](../profiling/cpp-library-reference.md)
+## See also  
+ [C++ library reference](../profiling/cpp-library-reference.md)
