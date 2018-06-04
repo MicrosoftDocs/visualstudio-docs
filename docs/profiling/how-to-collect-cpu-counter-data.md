@@ -17,7 +17,7 @@ ms.workload:
 ---
 # How to: Collect CPU counter data
 
-A CPU event counter is used to collect hardware-specific performance data. This topic shows you how to collect event counter data when you use the instrumentation profiling method.
+A CPU event counter is used to collect hardware-specific performance data. This article shows you how to collect event counter data when you use the instrumentation profiling method.
 
 Two types of CPU counter events occur:
 
