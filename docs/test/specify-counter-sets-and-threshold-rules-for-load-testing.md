@@ -46,7 +46,7 @@ Counter data is gathered on the server and on any computer where a test is run. 
 
 There are three counter categories: percentages, counts, and averages. Some examples are % CPU usage, SQL Server lock counts, and IIS requests per second.
 
-![Load Test Counter Sets](../test/media/loadtestcountersets.png "LoadTestCounterSets")
+![Load Test Counter Sets](../test/media/loadtestcountersets.png)
 
 Performance data for individual HTTP requests is reported by the computer that runs a test. such as an agent computer. For requests, you might monitor data such as Average Time to First Byte, Response Time, and Requests per Second.
 

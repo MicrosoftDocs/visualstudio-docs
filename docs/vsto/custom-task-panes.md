@@ -43,7 +43,7 @@ ms.workload:
 ### Familiar user interface  
  Users of applications in the Microsoft Office system are already familiar with using task panes such as the **Styles and Formatting** task pane in Word. Custom task panes behave like other task panes in the Microsoft Office system. Users can dock custom task panes to different sides of the application window, or they can drag custom task panes to any location in the window. You can create a VSTO Add-in that displays multiple custom task panes at the same time, and users can control each task pane individually.  
   
-### Windows Forms support  
+### Windows forms support  
  The user interface of a custom task pane that you create by using the Office development tools in Visual Studio is based on Windows Forms controls. You can use the familiar Windows Forms Designer to design the user interface for a custom task pane. You can also use the data binding support in Windows Forms to bind a data source to controls on the task pane.  
   
 ## Create a custom task pane  
@@ -77,15 +77,15 @@ ms.workload:
   
  Some Office applications require explicit instructions for when to create or display your task pane when more than one window is open. This makes it important to consider where to instantiate the custom task pane in your code to ensure that the task pane appears with the appropriate documents or items in the application. For more information, see [Manage custom task panes in application windows](#Managing).  
   
-## Access the application from the task pane  
+## Access the application from the Task Pane  
  If you want to automate the application from the user control, you can directly access the object model by using `Globals.ThisAddIn.Application` in your code. The static `Globals` class provides access to the `ThisAddIn` object. The `Application` field of this object is the entry point into the object model of the application.  
   
- For more information about the `Application` field of the `ThisAddIn` object, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md). For a walkthrough that demonstrates how to automate an application from a custom task pane, see [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md). For more information about the `Globals` class, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).  
+ For more information about the `Application` field of the `ThisAddIn` object, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md). For a walkthrough that demonstrates how to automate an application from a custom task pane, see [Walkthrough: Automatic an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md). For more information about the `Globals` class, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).  
   
-## Manage the user interface of the task pane  
+## Manage the user interface of the Task Pane  
  After you create the task pane, you can use properties and events of the <xref:Microsoft.Office.Tools.CustomTaskPane> object to control the user interface of the task pane and to respond when the user changes the task pane.  
   
-### Make the custom task pane visible  
+### Make the custom Task Pane visible  
  By default, the task pane is not visible. To make the task pane visible, you must set the <xref:Microsoft.Office.Tools.CustomTaskPane.Visible%2A> property to **true**.  
   
  Users can close a task pane at any time by clicking the **Close** button (X) in the corner of the task pane. However, there is no default way for users to open the custom task pane again. If a user closes a custom task pane, that user cannot view the custom task pane again unless you provide a way to display it.  
@@ -137,16 +137,11 @@ ms.workload:
  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Manage task panes in Word VSTO Add-ins?](http://go.microsoft.com/fwlink/?LinkId=136781).  
   
 ##  <a name="Outlook"></a> Outlook  
- When you create a custom task pane for Outlook, the custom task pane is associated with a specific Explorer or Inspector window. Explorers are windows that display the contents of a folder, and Inspectors are windows that display an item such as an e-mail message or a task.  
+ When you create a custom task pane for Outlook, the custom task pane is associated with a specific Explorer or Inspector window. Explorers are windows that display the contents of a folder, and Inspectors are windows that display an item such as an email message or a task.  
   
  If you want to display a custom task pane with multiple Explorer or Inspector windows, you need to create a new instance of the custom task pane when an Explorer or Inspector window opens. To do this, handle an event that is raised when an Explorer or Inspector window is created, and then create the task pane in the event handler. You can also handle Explorer and Inspector events to hide or display task panes depending on which window is visible.  
   
  To associate the task pane with a specific Explorer or Inspector, use the <xref:Microsoft.Office.Tools.CustomTaskPaneCollection.Add%2A> method to create the task pane, and pass the <xref:Microsoft.Office.Interop.Outlook.Explorer> or <xref:Microsoft.Office.Interop.Outlook.Inspector> object to the *window* parameter. For more information about creating custom task panes, see [Custom task panes overview](../vsto/custom-task-panes.md).  
-  
- For a walkthrough that demonstrates how to create a task pane for every e-mail message that is opened, see [Walkthrough: Display custom task panes with email messages in Outlook](../vsto/walkthrough-displaying-custom-task-panes-with-e-mail-messages-in-outlook.md).  
-  
-### Outlook events  
- To monitor the state of Explorer windows, you can handle the following Explorer-related events:  
   
 -   <xref:Microsoft.Office.Interop.Outlook.ExplorersEvents_Event.NewExplorer>  
   

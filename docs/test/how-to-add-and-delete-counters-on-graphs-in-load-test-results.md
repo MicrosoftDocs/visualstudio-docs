@@ -18,7 +18,7 @@ ms.technology: vs-ide-test
 
 You can use the Counters panel to add performance counters to a graph.
 
- ![Added counter to graph](../test/media/ltest_selectcounter.png "LTest_SelectCounter")
+ ![Added counter to graph](../test/media/ltest_selectcounter.png)
 
  **Performance Counter Sampling Interval Considerations**
 

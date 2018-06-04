@@ -1,17 +1,17 @@
 ---
 title: "First look at the debugger"
-description: "Take quick look at the different features of the Visual Studio debugger."
+description: "Take a quick look at the different features of the Visual Studio debugger."
 ms.custom: "mvc"
 ms.date: "03/27/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugger"
 ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # First look at the Visual Studio Debugger
@@ -71,7 +71,7 @@ While in the debugger, hover over a line of code until the **Run to Click** (Run
 
 ![Run to Click](../debugger/media/dbg-tour-run-to-click-2.png "Run to Click")
 
->  [!NOTE] 
+> [!NOTE]
 > The **Run to Click** (Run execution to here) button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
 Click the **Run to Click** (Run execution to here) button. The debugger advances to the line of code where you clicked.
@@ -99,7 +99,6 @@ If you have set breakpoints, the debugger pauses on the first breakpoint that it
 Press F5 until you reach the line of code where you selected **Run to Cursor**.
 
 This command is useful when you are editing code and want to quickly set a temporary breakpoint and start the debugger.
-
 
 > [!NOTE]
 > You can use **Run to Cursor** in the **Call Stack** window while you are debugging.
@@ -174,7 +173,7 @@ You can also use right-click menus from the **Call Stack** window to do other th
 ## Examine an exception
 
 When your app throws an exception, the debugger takes you to the line of code that threw the exception.
-     
+
 ![Exception Helper](../debugger/media/dbg-tour-exception-helper.png "Exception Helper")
 
 In this example, the **Exception Helper** shows you a `System.Argument` exception and an error message that says that the path is not a legal form. So, we know the error occurred on a method or function argument.
@@ -183,7 +182,7 @@ In this example, the `DirectoryInfo` call gave the error on the empty string sto
 
 The Exception Helper is a great feature that can help you debug errors. You can also do things like view error details and add a watch from the Exception Helper. Or, if needed, you can change conditions for throwing the particular exception.
 
->  [!NOTE] 
+>  [!NOTE]
 > The Exception Helper replaces the Exception Assistant in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
 Expand the **Exception Settings** node to see more options on how to handle this exception type, but you don't need to change anything for this tour!
@@ -204,7 +203,7 @@ For more information, see [Debug live ASP.NET apps using the Snapshot Debugger](
 
 You can navigate and view snapshots by using the **Step Backward** and **Step Forward** buttons in the Debug toolbar. These buttons navigate the events that appear in the **Events** tab in the **Diagnostic Tools** window.
 
-![Step Backward and Forward Buttons](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")  
+![Step Backward and Forward Buttons](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
 For more information, see the [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md) page.
 

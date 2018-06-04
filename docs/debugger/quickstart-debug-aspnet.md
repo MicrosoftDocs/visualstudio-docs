@@ -36,7 +36,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 1. In Solution Explorer, open About.cshtml.cs (under Pages/About.cshtml) and replace the following code
 
-    ```c#
+    ```csharp
     public void OnGet()
     {
         Message = "Your application description page.";
@@ -45,7 +45,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
     with this code:
 
-    ```c#
+    ```csharp
     public void OnGet()
     {
         LinkedList<int> result = doWork();

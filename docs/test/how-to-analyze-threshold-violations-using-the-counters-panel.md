@@ -17,21 +17,21 @@ The Counters panel is visible in the Graphs view and the Tables view in the Load
 
  Threshold violations are associated with specific performance counters, and indicate that the performance counter either exceeded or fell below a set threshold value. Icons in the counters panel communicate threshold violations.
 
- ![Counter panel's computer node](../test/media/ltest_compnode.png "LTest_CompNode")
+ ![Counter panel's computer node](../test/media/ltest_compnode.png)
 
  The icon for a threshold violation is propagated from the tree node where the failed counter resides to the root. The icon alerts the user to a violation on a counter that might not be visible in the tree because the tree has not been expanded. An example of the icon can be seen in the **Computers Node** in Counters Panel in the previous illustration.
 
  The icon will be one of the following:
 
- ![No threshold violation](../test/media/icon_ltest_1.gif "Icon_LTest_1") No threshold violation.
+ ![No threshold violation](../test/media/icon_ltest_1.gif) No threshold violation.
 
- ![A critical threshold violation on last interval](../test/media/icon_ltest_2.gif "Icon_LTest_2") A critical threshold violation occurred on the last interval.
+ ![A critical threshold violation on last interval](../test/media/icon_ltest_2.gif) A critical threshold violation occurred on the last interval.
 
- ![A critical threshold violation on a prior interval](../test/media/icon_ltest_3.gif "Icon_LTest_3") A critical threshold violation occurred on a prior interval.
+ ![A critical threshold violation on a prior interval](../test/media/icon_ltest_3.gif) A critical threshold violation occurred on a prior interval.
 
- ![A warning threshold violation on the last interval](../test/media/icon_ltest_4.gif "Icon_LTest_4") A warning threshold violation occurred on the last interval.
+ ![A warning threshold violation on the last interval](../test/media/icon_ltest_4.gif) A warning threshold violation occurred on the last interval.
 
- ![A warning threshold violation on a prior interval](../test/media/icon_ltest_5.gif "Icon_LTest_5") A warning threshold violation occurred on a prior interval.
+ ![A warning threshold violation on a prior interval](../test/media/icon_ltest_5.gif) A warning threshold violation occurred on a prior interval.
 
 ## To analyze threshold violations in the Counters panel
 

@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# CvCreateDefaultMarkerSeriesOfDefaultProvider Function
+# CvCreateDefaultMarkerSeriesOfDefaultProvider function
 Creates default marker series of a default provider.  
   
 ## Syntax  
@@ -34,11 +34,11 @@ HRESULT CvCreateDefaultMarkerSeriesOfDefaultProvider(
  `ppMarkerSeries`  
  Address of marker series object variable. Address cannot be NULL, the variable can have any value.  
   
-## Return Value  
+## Return value  
  S_OK when both provider and marker series are successfully created or error code in case there were any errors. Use SUCCEEDED/FAILED macros to check for error condition.  
   
 ## Requirements  
- **Header:** cvmarkers.h  
+ **Header:** *cvmarkers.h*  
   
-## See Also  
- [C++ Library Reference](../profiling/cpp-library-reference.md)
+## See also  
+ [C++ library reference](../profiling/cpp-library-reference.md)

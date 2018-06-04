@@ -30,7 +30,7 @@ To complete this walkthrough, you must have the optional **Data storage and proc
 
 3.  In the list of item templates, scroll down and select **Service-based Database**.
 
-     ![Item Templates dialog box](../data-tools/media/raddata-vsitemtemplates.png "raddata VSItemTemplates")
+     ![Item Templates dialog box](../data-tools/media/raddata-vsitemtemplates.png)
 
 4.  Name the database **SampleDatabase**, and then select the **Add** button.
 
@@ -83,13 +83,13 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 
 6.  Name the Customers table by updating the first line in the script pane to match the following sample:
 
-    ```
+    ```sql
     CREATE TABLE [dbo].[Customers]
     ```
 
     You should see something like this:
 
-    ![Table Designer](../data-tools/media/raddata-table-designer.png "raddata Table Designer")
+    ![Table Designer](../data-tools/media/raddata-table-designer.png)
 
 7.  In the upper-left corner of the **Table Designer**, select the **Update** button.
 
@@ -124,7 +124,7 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 ### To create a foreign key
 1.  In the context pane on the right side of the grid, open the shortcut menu for **Foreign Keys**, and then select **Add New Foreign Key**, as the following illustration shows.
 
-     ![Adding a foreign key in Table Designer](../data-tools/media/foreignkey.png "ForeignKey")
+     ![Adding a foreign key in Table Designer](../data-tools/media/foreignkey.png)
 
 2.  In the text box that appears, replace **ToTable** with `Customers`.
 

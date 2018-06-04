@@ -102,7 +102,7 @@ At this point, if you run the project again in Visual Studio (using the toolbar 
 
 Because you've made changes to your code and have tested them successfully, now is a great time to review and commit your changes to source control. Later steps in this tutorial remind you of appropriate time to commit to source control again, and refer you back to this section.
 
-1. Select the changes button along the bottom of Visual Studio (circles below), which navigates to **Team Explorer**.
+1. Select the changes button along the bottom of Visual Studio (circled below), which navigates to **Team Explorer**.
 
     ![Source control changes button on the Visual Studio status bar](media/django/step02-source-control-changes-button.png)
 
@@ -206,9 +206,7 @@ The following steps demonstrate the use of page templates:
 
 1. Run the project and observe the output. You should see a similar message to that seen step 2-2, indicating that the template works.
 
-    Observe, however, that the HTML you used in the `content` property renders only as plain text because the `render` function automatically escapes that HTML. Although you can get around escaping, you ideally should avoid using inline HTML in the first place. Formatting and styling are best kept in the page template, not in the code, and it's a simple matter to create additional variables where needed.
-
-    For example, change `templates/index.html` to match the following markup, which adds a page title and keeps all formatting in the page template:
+    Observe, however, that the HTML you used in the `content` property renders only as plain text because the `render` function automatically escapes that HTML. Automatic escaping prevent accidental vulnerabilities to injection attacks: developers often gather input from one page and use it as a value in another through a template placeholder. Escaping also serves as a reminder that it's again best to keep HTML in the page template and out of the code. Fortunately, it's a simple matter to create additional variables where needed. For example, change `templates/index.html` to match the following markup, which adds a page title and keeps all formatting in the page template:
 
     ```html
     <html>

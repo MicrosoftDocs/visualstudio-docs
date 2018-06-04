@@ -111,7 +111,7 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 
 3.  In the **Enter a SQL Statement** page, add the following WHERE clause after the `SELECT` statement in the text box.
 
-    ```
+    ```sql
     WHERE ThumbnailPhotoFileName <> 'no_image_available_small.gif'
     ```
 

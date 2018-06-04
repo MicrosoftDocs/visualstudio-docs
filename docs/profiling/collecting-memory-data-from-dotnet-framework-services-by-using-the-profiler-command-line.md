@@ -20,7 +20,7 @@ This section describes the procedures and options for collecting memory allocati
 |----------|---------------------|  
 |**Attach the profiler to a .NET service**|-   [How to: Attach the profiler to a .NET service to collect memory data](../profiling/how-to-attach-the-profiler-to-a-dotnet-service-to-collect-memory-data-by-using-the-command-line.md)|  
 |**Instrument a .NET service and collect .NET memory data**|-   [How to: Instrument a .NET Framework service and collect memory data](../profiling/how-to-instrument-a-dotnet-framework-service-and-collect-memory-data-by-using-the-profiler-command-line.md)|  
-|**Add tier-interaction data**|-   [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
+|**Add tier-interaction data**|-   [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
   
 ## Related tasks
   

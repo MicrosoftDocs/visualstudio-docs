@@ -37,7 +37,7 @@ The **Maximum Test Iterations** property controls the maximum number of test ite
 
  The **Maximum Test Iterations** property is useful for a variety of situations. Some load testers prefer to conduct iteration-based testing, whereas other load testers prefer to conduct duration-based testing.
 
- ![Specifying test iterations in a scenario](../test/media/loadtest_prop.png "LoadTest_Prop")
+ ![Specifying test iterations in a scenario](../test/media/loadtest_prop.png)
 
 ### To specify the maximum test iterations
 

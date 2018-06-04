@@ -12,7 +12,7 @@ ms.workload:
   - "multiple"
 ---
 # Attach
-The VSPerfCmd.exe **Attach** option begins sample profiling of the running process specified by the process ID (PID).  
+The *VSPerfCmd.exe* **Attach** option begins sample profiling of the running process specified by the process ID (PID).  
   
  To use the **Attach** option, you must specify the **Sample** method in the Start option.  
   

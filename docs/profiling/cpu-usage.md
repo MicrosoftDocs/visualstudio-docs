@@ -14,14 +14,14 @@ ms.workload:
 # Analyze CPU usage
 When you need to investigate performance issues in your app, a good place to start is understanding how it uses the CPU. The **CPU Usage** tool shows you where the CPU is spending time executing Visual C++, Visual C#/Visual Basic, and JavaScript code. Starting in Visual Studio 2015 Update 1, you can see a per-function breakdown of CPU usage without leaving the debugger. You can turn CPU profiling on and off while debugging, and view the results when execution is stopped, for example at a breakpoint.  
   
-You have several options for running and managing your diagnostics session. For example, you can run the **CPU Usage** tool on local or remote machines, or on in a simulator or emulator. You can analyze the performance of an open project in Visual Studio, attached to a running app, or start an app that is installed from the Microsoft Store. For more information, see [Run Profiling Tools with or without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+You have several options for running and managing your diagnostics session. For example, you can run the **CPU Usage** tool on local or remote machines, or on in a simulator or emulator. You can analyze the performance of an open project in Visual Studio, attached to a running app, or start an app that is installed from the Microsoft Store. For more information, see [Run Profiling Tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
-Here, we show you how to collect and analyze CPU usage with release builds. To analyze CPU usage while debugging, see [Beginner's Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md). 
+Here, we show you how to collect and analyze CPU usage with release builds. To analyze CPU usage while debugging, see [Beginner's guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md). 
 
 > [!NOTE]
 > For .NET Core and ASP.NET Core, the CPU Usage tool currently does not provide accurate results with portable PBDs. Use full PDBs instead.
   
-##  <a name="BKMK_Collect_CPU_usage_data"></a> Collect CPU usage data  
+##  Collect CPU usage data  
   
 1.  In Visual Studio, set the solution configuration to **Release** and choose the deployment target.  
   
@@ -67,7 +67,7 @@ Here, we show you how to collect and analyze CPU usage with release builds. To a
 |![Step 4](../profiling/media/procguid_4.png "ProcGuid_4")|Child nodes of a method contain data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|  
   
 ####  <a name="BKMK_External_Code"></a> External code  
- External code are functions in system and framework components that executed by the code you write. External code include functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage call tree gathers the external functions of a user method into one **[External Code]** node.  
+ External code are functions in system and framework components that are executed by the code you write. External code include functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage call tree gathers the external functions of a user method into one **[External Code]** node.  
   
  When you want to view the call paths of external code, choose **Show External Code** from the **Filter view** list and then choose **Apply**.  
   
@@ -88,7 +88,7 @@ Here, we show you how to collect and analyze CPU usage with release builds. To a
 |**Total CPU (%)**|![Total % data equation](../profiling/media/cpu_use_wt_totalpercentequation.png "CPU_USE_WT_TotalPercentEquation")<br /><br /> The percentage of the app's CPU activity in the selected time range that was used by calls to the function and the functions called by the function. Note that this is different from the **CPU Utilization** timeline graph, which compares the total activity of the app in a time range to the total available CPU capacity.|  
 |**Self CPU (%)**|![Self % equation](../profiling/media/cpu_use_wt_selflpercentequation.png "CPU_USE_WT_SelflPercentEquation")<br /><br /> The percentage of the app's CPU activity in the selected time range that was used by the calls to the function, excluding the activity of functions called by the function.|  
 |**Total CPU (ms)**|The number of milliseconds spent in calls to the function in the selected time range and the functions that were called by the function.|  
-|**Self CPU (ms)**|The number of milliseconds spent in calls to the function in the selected time range and the functions that were called by the function.|  
+|**Self CPU (ms)**|The number of milliseconds spent in calls to the function in the selected time range and the functions that were called by the function, excluding the activity of functions called by the function.|  
 |**Module**|The name of the module containing the function, or the number of modules containing the functions in an [External Code] node.|  
   
 ###  <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree  

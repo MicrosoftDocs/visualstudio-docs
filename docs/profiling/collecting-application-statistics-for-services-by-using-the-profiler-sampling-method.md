@@ -40,8 +40,8 @@ This section describes the procedures and options for collecting performance sta
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Profile stand-alone (client) applications**|-   [Collecting application statistics using sampling](../profiling/collecting-application-statistics-for-stand-alone-applications.md)|  
-|**Profile ASP.NET Web applications**|-   [Collecting application statistics using sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|  
+|**Profile stand-alone (client) applications**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-stand-alone-applications.md)|  
+|**Profile ASP.NET Web applications**|-   [Collect application statistics using sampling](../profiling/collecting-application-statistics-for-aspnet-using-the-profiler-sampling-method.md)|  
   
 ### Analyze sampling data views and reports  
  [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)

@@ -29,10 +29,10 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 5.  Windows 7  
   
 > [!NOTE]
->  You can collect and analyze CPU usage data and energy consumption data along with the **ApplicationTimeline** data. See [Running Profiling Tools with or without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+>  You can collect and analyze CPU usage data and energy consumption data along with the **ApplicationTimeline** data. See [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
   
-##  <a name="BKMK_Collect_Timeline_data_for_your_app"></a> Collect application timeline data  
- You can profile the responsiveness of your app on your local machine, connected device, Visual Studio simulator or emulators, or a remote device. See [Running Profiling Tools with or without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+## Collect application timeline data  
+ You can profile the responsiveness of your app on your local machine, connected device, Visual Studio simulator or emulators, or a remote device. See [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
   
 > [!TIP]
 >  If possible, run the app directly on the device. The application performance observed on the simulator or through a remote desktop connection might not be the same as the actual performance on the device. On the other hand, collecting the data by using the Visual Studio Remote Tools does not affect the performance data.  
@@ -46,7 +46,7 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 3.  Select **Application Timeline** and then click **Start** at the bottom of the window.  
   
     > [!NOTE]
-    >  You might see a User Account Control window requesting your permission to run VsEtwCollector.exe. Click **Yes**.  
+    >  You might see a User Account Control window requesting your permission to run *VsEtwCollector.exe*. Click **Yes**.  
   
 4.  Run the scenario you are interested in profiling in your app to collect performance data.  
   
@@ -56,7 +56,7 @@ Use the **Application Timeline** profiler to find and fix application-interactio
   
      ![Timeline profiler report](../profiling/media/timeline_base.png "TIMELINE_Base")  
   
-##  <a name="BKMK_Analyze_Timeline_profiling_data"></a> Analyze timeline profiling data  
+## Analyze timeline profiling data  
  After you have collected the profiling data, you can use these steps to start your analysis:  
   
 1.  Examine the information in the **UI thread utilization** and **Visual throughput (FPS)** graphs and then use the timeline navigation bars to select a time range that you want to analyze.  
@@ -91,7 +91,7 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 |||  
 |-|-|  
 |**Parsing**|Time spent parsing XAML files and creating objects.<br /><br /> Expanding a **Parsing** node in **Timeline details** displays the dependency chain of all the XAML files that were parsed as a result of the root event. This will enable you to identify unnecessary file parsing and object creation in performance sensitive scenarios and optimize them out.|  
-|**Layout**|In large applications, thousands of elements may be shown on the screen at the same time. This might result in a low UI frame rate and correspondingly poor application responsiveness. The Layout event accurately determines the cost of laying out each element (i.e. the time spent in Arrange, Measure, ApplyTemplate, ArrangeOverride, and ArrangeOverride) and builds the visual trees that took part in a Layout pass. You can use this visualization to determine which of your logical trees to prune, or to evaluate other deferral mechanisms to optimize your layout pass.|  
+|**Layout**|In large applications, thousands of elements may be shown on the screen at the same time. This might result in a low UI frame rate and correspondingly poor application responsiveness. The Layout event accurately determines the cost of laying out each element (that is, the time spent in Arrange, Measure, ApplyTemplate, ArrangeOverride, and ArrangeOverride) and builds the visual trees that took part in a Layout pass. You can use this visualization to determine which of your logical trees to prune, or to evaluate other deferral mechanisms to optimize your layout pass.|  
 |**Render**|Time spent drawing XAML elements to the screen.|  
 |**I/0**|Time spent retrieving data from the local disk or from network resources that are accessed through the [Microsoft Windows Internet (WinINet) API](https://msdn.microsoft.com/en-us/library/windows/desktop/aa385331.aspx).|  
 |**App Code**|Time spent executing application (user) code that is not related to parsing or layout.|  
@@ -107,12 +107,12 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 |-|-|  
 |**Sort by**|Sort by start time or the length of events.|  
 |![Group events by frame](../profiling/media/timeline_groupbyframes.png "TIMELINE_GroupByFrames")|Adds or removes a top-level **Frame** category that groups events by frame.|  
-|![Filter Timeline details list](../profiling/media/timeline_filter.png "TIMELINE_Filter")|Filters the list by selected categories and the length of events.|  
-|![Customize Timeline details information](../profiling/media/timeline_viewsettings.png "TIMELINE_ViewSettings")|Lets you specify the annotations to events.|  
+|![Filter timeline details list](../profiling/media/timeline_filter.png "TIMELINE_Filter")|Filters the list by selected categories and the length of events.|  
+|![Customize timeline details information](../profiling/media/timeline_viewsettings.png "TIMELINE_ViewSettings")|Lets you specify the annotations to events.|  
   
 ## See also  
- [WPF Team Blog: New UI Performance Analysis Tool for WPF Applications](http://blogs.msdn.com/b/wpf/archive/2015/01/16/new-ui-performance-analysis-tool-for-wpf-applications.aspx)  
+ [WPF team blog: New UI performance analysis tool for WPF applications](http://blogs.msdn.com/b/wpf/archive/2015/01/16/new-ui-performance-analysis-tool-for-wpf-applications.aspx)  
  [Performance best practices for UWP apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/en-us/567bcefa-5da5-4e42-a4b8-1358c71adfa2)   
- [Optimizing WPF Application Performance](/dotnet/framework/wpf/advanced/optimizing-wpf-application-performance)  
+ [Optimize WPF application performance](/dotnet/framework/wpf/advanced/optimizing-wpf-application-performance)  
  [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling Feature Tour](../profiling/profiling-feature-tour.md)
+ [Profiling feature tour](../profiling/profiling-feature-tour.md)

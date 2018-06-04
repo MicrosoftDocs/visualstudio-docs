@@ -11,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Sample XSD File: Purchase Order Schema
+# Sample XSD file: Purchase order schema
 
 The following XSD file is used in various examples in the XSD Schema Designer documentation. This file is a purchase order schema.
 
