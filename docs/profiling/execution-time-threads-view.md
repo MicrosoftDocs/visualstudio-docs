@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Execution Time (Threads View)
+# Execution time (Threads View)
 These segments in the Threads View timeline represent execution time, when the thread is actively doing work on a logical core in the system.  
   
  Changes in thread status are detected through kernel context switch events. Event Tracing for Windows (ETW) captures sample stacks every millisecond. In a very short green segment, it is possible that no sample is taken. Therefore, some short execution segments may show no call stack.  
@@ -24,6 +24,6 @@ These segments in the Threads View timeline represent execution time, when the t
   
  To see a traditional sampling profile for all execution segments in the current view, click **Execution** in the Visible Timeline Profile.  
   
-## See Also  
- [Execution Profile Report](../profiling/execution-profile-report.md)   
+## See also  
+ [Execution profile report](../profiling/execution-profile-report.md)   
  [Threads View](../profiling/threads-view-parallel-performance.md)
