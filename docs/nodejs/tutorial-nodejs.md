@@ -21,7 +21,7 @@ In this tutorial, you learn how to:
 > [!div class="checklist"]
 > * Create a Node.js project
 > * Add some code
-> * Use IntelliSense to write code
+> * Use IntelliSense to edit code
 > * Run the app
 > * Hit a breakpoint in the debugger
 
@@ -73,15 +73,15 @@ In this tutorial, you begin with a simple project containing code for a Node.js 
 
     ![Project structure](../nodejs/media/tutorial-project-structure.png)
 
-    1. Highlighted in **bold** is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, because the project file does not make custom changes to the Node.js project source.
+    (1) Highlighted in **bold** is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, because the project file does not make custom changes to the Node.js project source.
 
-    2. At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
+    (2) At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
 
-    3. The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box or install and update packages using the settings in *package.json* and right-click options in the npm node.
+    (3) The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box or install and update packages using the settings in *package.json* and right-click options in the npm node.
 
-    4. *package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages.
+    (4) *package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages.
 
-    5. Project files such as *app.js* show up under the project node. *app.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
+    (5) Project files such as *app.js* show up under the project node. *app.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
 
 1. Open the **npm** node and make sure that all the required npm packages are present.
 
