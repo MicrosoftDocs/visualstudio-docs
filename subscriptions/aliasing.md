@@ -44,49 +44,30 @@ Please follow these steps to add a new subscriber with a directory account.
 1. Visit the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx) (VLSC) and sign in.
 2. From the VLSC Admin page, click **Subscriptions** and then **Visual Studio Subscriptions**.
 
-    <img alt="Subscriptions menu" src="_img//vlsc/vlsc-subscriptions.png" style="border: 1px solid #CCCCCC" />
+    ![Subscriptions menu](_img//vlsc/vlsc-subscriptions.png)
 
 3. Click the **Agreement Number** associated with the Visual Studio Subscription.
 
-    <img alt="Select agreement" src="_img/vlsc/vlsc-agreement.png" style="border: 1px solid #CCCCCC" />
+    ![Select agreement](_img/vlsc/vlsc-agreement.png)
 
 4. Click **Assign Subscription**.
-
-    <img alt="Assign subscription" src="_img/vlsc/vlsc-assign.png" style="border: 1px solid #CCCCCC" />
-
-
 5. Select the desired **Subscription Level**.
-
-    <img alt="Subscription level" src="_img/vlsc/vlsc-subscription-level.png" style="border: 1px solid #CCCCCC" /> 
-
 6. Validate you have subscriptions available to assign, and click **Next**.
 7.  Enter the subscriber details and directory address in the Email Address field, and click **Next**.
-
-    <img alt="Email address" src="_img/vlsc/vlsc-email-address.png" style="border: 1px solid #CCCCCC" /> 
-        
 8. Validate the subscriber information, and click **Finish**.
-
 9. Notify the subscriber that their subscription has been provisioned by using the below [template](#notifying-your-subscribers-with-directory-addresses).
 
 ### Updating an existing subscriber
 Please follow the below steps to update an existing subscriber with a directory account.
 
 1. Visit the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx) (VLSC) and sign in.
-
 2. From the VLSC Admin pages, click **Subscriptions** and then **Visual Studio Subscriptions**.
-
 3. Click the **Agreement Number** associated with the Visual Studio Subscription.
-
 4. Click the **down arrow** on the Search bar.
-
 5. Search for the subscriber using the “Email Address” field.
-
 6. From the results list, click the **Last Name** of the subscriber.
-
 7. Click **Edit**.
-
 8. Change the Email Address field to the desired directory address, and click **Save**.
-
 9. Notify the subscriber that their subscription has been provisioned by using the below email template.
 
 ### Notifying your subscribers with directory addresses
@@ -117,7 +98,7 @@ Please leverage the instructions described in the [Assigning Subscribers to a Di
 > Microsoft does not recommend combining “Work or School” identities with “Personal” identities.  This action causes the organization to lose ownership and control of the account, and the employee can continue to access specific products or services, even after leaving the company.  Please reference this [blog post](https://blogs.technet.microsoft.com/enterprisemobility/2016/09/15/cleaning-up-the-azure-ad-and-microsoft-account-overlap/), from the Microsoft Identity team, for additional information.
 
 ### Defining an email address as a personal account
-After a subscription is  assigned to the Subscriber, they will receive an email asking them to visit https://my.visualstudio.com to take advantage of their subscription benefits.  When attempting to sign-in, the Visual Studio Subscription sign-in will fail with an error stating that the account isn’t recognized.  Before logging into the https://my.visualstudio.com experience, ask your subscriber to  follow these instructions.  If necessary, you can use this [template](#notifying-your-subscribers-using-personal-accounts) to notify your subscriber after you have assigned a subscription.
+After a subscription is  assigned to the Subscriber, they will receive an email asking them to visit [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) to take advantage of their subscription benefits.  When attempting to sign-in, the Visual Studio Subscription sign-in will fail with an error stating that the account isn’t recognized.  Before logging into the [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) experience, ask your subscriber to  follow these instructions.  If necessary, you can use this [template](#notifying-your-subscribers-using-personal-accounts) to notify your subscriber after you have assigned a subscription.
 
 1. Navigate to https://my.visualstudio.com, and click **Create new Microsoft account**.
 

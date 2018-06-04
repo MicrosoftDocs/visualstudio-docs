@@ -32,14 +32,6 @@ This doesn’t provide a copy of subscription to the other account; it only prov
 
 For all subscriptions, you can add a "work or school account" so you can use that account with your benefits that require a login (VS IDE, VSTS, and Azure).
 
-### Prerequisites
-
-* [VSTS project collection administrator or account owner permissions](https://docs.microsoft.com/en-us/vsts/accounts/faq-add-delete-users#find-owner).
-
-* To use the alternate account, your subscription associated with your account must include either Visual Studio Team Services or Microsoft Azure.
-
-> [!Note]
-> You can continue to use your subscription benefits with your alternate ID, however your subscription is still associated with your original account.
 
 ### Add the alternate account
 
@@ -47,19 +39,19 @@ For all subscriptions, you can add a "work or school account" so you can use tha
 
 2. Go to **Subscriptions**.
 
-  ![Add alternate account - go to subscriptions in VS](_img/vs-alternate-identity/my-vs-subscriptions.png)
+      ![Add alternate account - go to subscriptions in VS](_img/vs-alternate-identity/my-vs-subscriptions.png)
 
 3. Choose **Add alternate account**.
 
-  ![Choose add alternate account ](_img/vs-alternate-identity/choose-add-alternate-account.png)
+      ![Choose add alternate account ](_img/vs-alternate-identity/choose-add-alternate-account.png)
 
 4. Add your work or school account.
 
-  ![Add work or school account](_img/vs-alternate-identity/enter-alternate-account-my-visual-studio-com-portal.png)
+      ![Add work or school account](_img/vs-alternate-identity/enter-alternate-account-my-visual-studio-com-portal.png)
 
 5. Use your work or school account to sign in to Visual Studio (https://{youraccount}.visualstudio.com).
 
-  ![Use your work or school account](_img/vs-alternate-identity/sign-in-with-alternate-account.png)
+      ![Use your work or school account](_img/vs-alternate-identity/sign-in-with-alternate-account.png)
 
   Your alternate account is added to the Visual Studio subscription, allowing both identities to utilize the benefits of the subscription that require you to sign in with the alternate account (IDE, VSTS, and Azure).
 

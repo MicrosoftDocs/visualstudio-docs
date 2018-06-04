@@ -37,24 +37,24 @@ Only the downloads included with your subscription are displayed for you on the 
 
 When you visit the [Downloads](https://my.visualstudio.com/downloads/featured?wt.mc_id=o~msft~docs) page, you'll see popular downloads arranged in groups by product type.  You can select one of the popular downloads shown, or search for any product using the search bar at the top of the page. 
 
-![Subscriber downloads page](_img\subscriber-downloads\subscriber-downloads-resized.png)
+<img alt="Subscriber downloads page" src="_img\subscriber-downloads\subscriber-downloads-resized.png" style="border: 1px solid #CCCCCC" />
 
 For example, if you choose **Visual Studio 2017** from the Developer Tools list, you'll see a list of available Visual Studio 2017 downloads. 
 
-![Visual Studio 2017 downloads](_img\subscriber-downloads\vs2017-new-UI.png)
+<img alt="Visual Studio 2017 downloads" src="_img\subscriber-downloads\vs2017-new-UI.png" style="border: 1px solid #CCCCCC" />
 
 You easily select your architecture, language and file type using the available drop-down menus. Choose your preferred options, and click **Download** to begin downloading the product. 
 
 ### Displaying download details
 Clicking on the product name or on the **Info** link will display the details for that download and provide access to the release notes for the product.  
-
-![Visual Studio 2017 Pro download details](_img\subscriber-downloads\vs2017-pro-details.png) 
+ 
+<img alt="Visual Studio 2017 Pro download details" src="_img\subscriber-downloads\vs2017-pro-details.png" style="border: 1px solid #CCCCCC" />
 
 In the details pane, you can also click on the **Keys** tab to check the status of your product keys. 
 
-![Visual Studio 2017 Pro product keys](_img\subscriber-downloads\vs2017-pro-keys.png) 
+<img alt="Visual Studio 2017 Pro product keys" src="_img\subscriber-downloads\vs2017-pro-keys.png" style="border: 1px solid #CCCCCC" />
 
 ### Obtaining product keys
 To obtain a product key for the download, you can either click the blue key labeled **Get Key** or if you're already viewing the details pane, click on **Claim key** on the **Keys** tab.  
 
-![Visual Studio 2017 Pro claim product keys](_img\subscriber-downloads\vs2017-pro-claim-keys.png) 
+<img alt="Visual Studio 2017 Pro claim product keys" src="_img\subscriber-downloads\vs2017-pro-claim-keys.png" style="border: 1px solid #CCCCCC" />

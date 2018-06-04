@@ -77,7 +77,16 @@ To use Power BI Pro, you’ll need to set up an account or sign in using an exis
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Microsoft Valued Partner (MVP), Region Director (RD).  Excludes:  Microsoft Partner Network (MPN), FTE, Imagine.*
 
 
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
+ 
+## Frequently asked questions
+### Q:  If the benefit is free, why do I have to supply a credit card number?
+A:  The benefit is free, but activation uses the same system used to process paid orders.  There are two payment types available. 
+- Credit card.  If you provide a credit card number, your card will NOT be charged. 
+- Invoice.  If you select "Invoice" as the payment type, you don't need to provide a credit card number.  You can also set the interval to "annual".  That way, you'll receive a single email letting you know that an invoice is ready for you.  The invoice amount will be $0.00.  
+
+### Q:  Can the Power BI Pro benefit included in my subscription be used in a production environment?
+A:  Yes.  
 
 ## Support resources
 -  Need help with Power BI Pro?  

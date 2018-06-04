@@ -64,10 +64,10 @@ Once you’ve assigned subscriptions, the Subscribers tab provides detailed info
 
 On the left-hand side of this page you can see additional information about the number of subscription licenses purchased, assigned, and still available in your organization for each agreement.
 
-   ![Visual Studio Subscriptions Admin Portal Subscibers Page](_img/using-admin-portal/subscribers-page.png)
+<img alt="Visual Studio Subscriptions Admin Portal Subscibers Page" src="_img/using-admin-portal/subscribers-page.png" style="border: 1px solid #CCCCCC" />
 
 ### Understanding the Details page
 For more information about the agreement you are viewing, select the Details tab. It shows the agreement status, purchase account, org details, primary contacts (VLSC), super-admins (if available) and other pertinent information.
 
-   ![Visual Studio Subscriptions Admin Portal Details Page](_img/using-admin-portal/details-page.png)
-
+   
+<img alt="Visual Studio Subscriptions Admin Portal Details Page" src="_img/using-admin-portal/details-page.png" style="border: 1px solid #CCCCCC" />

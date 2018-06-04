@@ -17,17 +17,13 @@ In order to complete the onboarding of your organization to the subscriptions ad
 
 1. To locate your primary contact, visit the Volume Licensing Service Center at: https://www.Microsoft.com/licensing/servicecenter and click **Sign In**.
 
-    <img alt="Sign in to VLSC" src="_img/locate-primary-contact/vlsc-sign-in.png" style="border: 1px solid #CCCCCC" />
-
 2. From the Licenses tab, select **Relationship Summary** in the dropdown.
-
-    <img alt="Choose relationship" src="_img/locate-primary-contact/vlsc-relationship.png" style="border: 1px solid #CCCCCC" />
-
+    ![Choose relationship](_img/locate-primary-contact/vlsc-relationship.png)
+   
 3. Select the applicable agreement number. 
-
-    <img alt="Choose Agreement" src="_img/locate-primary-contact/vlsc-agreement.png" style="border: 1px solid #CCCCCC" />
+    ![Choose agreement](_img/locate-primary-contact/vlsc-agreement.png)
 
 4. Select the **Contacts** tab.  The Primary Contact will be listed in the list of contacts associated with the agreement. 
+    ![Choose contacts](_img/locate-primary-contact/vlsc-contacts.png)
 
-    <img alt="Choose Contacts" src="_img/locate-primary-contact/vlsc-contacts.png" style="border: 1px solid #CCCCCC" />
 
