@@ -47,7 +47,7 @@ Express is a web application framework, used as a server framework for Node.js t
 
     If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
 
-    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
 
 * You must have the Node.js runtime installed.
 
@@ -59,7 +59,7 @@ Express is a web application framework, used as a server framework for Node.js t
 
 Visual Studio manages files for a single application in a *project*. The project includes source code, resources, and configuration files.
 
-In this tutorial you begin with a simple project containing code for a Node.js and express app.
+In this tutorial, you begin with a simple project containing code for a Node.js and express app.
 
 1. Open Visual Studio 2017.
 
@@ -67,9 +67,9 @@ In this tutorial you begin with a simple project containing code for a Node.js a
 
 1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, and then choose **Node.js**. In the middle pane, select **Basic Azure Node.js Express 4 Application** and then choose **OK**.
 
-     If you don't see the **Basic Azure Node.js Express 4 Application** project template, you must install the **Node.js development** workload first.
+     If you don't see the **Basic Azure Node.js Express 4 Application** project template, you must install the **Node.js development** workload first (see the Prerequisites for instructions).
 
-    Visual Studio creates the new solution and opens your project. The *app.js* project file opens in the editor (left pane).
+    Visual Studio creates the new solution and opens your project in the right pane. The *app.js* project file opens in the editor (left pane).
 
     ![Project structure](../nodejs/media/tutorial-project-structure.png)
 
@@ -77,7 +77,7 @@ In this tutorial you begin with a simple project containing code for a Node.js a
 
     2. At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
 
-    3. The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box or install and update packages according to settings in *package.json*.
+    3. The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box or install and update packages using the settings in *package.json* and right-click options in the npm node.
 
     4. *package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages.
 
@@ -85,7 +85,7 @@ In this tutorial you begin with a simple project containing code for a Node.js a
 
 1. Open the **npm** node and make sure that all the required npm packages are present.
 
-    If any are missing (exclamation point icon), you can right-click the **npm** node and choose **Install Missing npm Packages**.
+    If any packages are missing (exclamation point icon), you can right-click the **npm** node and choose **Install Missing npm Packages**.
 
 ## Add some code
 
@@ -115,7 +115,7 @@ The application uses Pug for the front-end JavaScript framework. Pug uses simple
       a: img(id='myImage' height='200' width='200' src='')
     ```
 
-    The preceding code adds markup to dynamically generate an HTML page with a title and welcome message. The page also includes code to display an image that changes whenever you press a button.
+    The preceding code is used to dynamically generate an HTML page with a title and welcome message. The page also includes code to display an image that changes whenever you press a button.
 
 1. In the routes folder, open *index.js*.
 
@@ -142,7 +142,7 @@ The application uses Pug for the front-end JavaScript framework. Pug uses simple
     });
     ```
     
-    The preceding code sets the current page using the Express router object and renders the page, passing the title and data object to the page.
+    The preceding code sets the current page using the Express router object and renders the page, passing the title and data object to the page. The *index.pug* file is specified here as the page to load when *index.js* runs. *index.js* is configured as the default route in *app.js* code (not shown).
 
     To demonstrate several features of Visual Studio, we included an error in the line of code containing `res.render`. We need to fix the error before the app can run. We fix the error in the next section.
 
@@ -170,7 +170,11 @@ IntelliSense is a Visual Studio tool that assists you as you write code.
 
 1. Fix the code by adding the comma (`,`) before `"data"`.
 
+    When corrected, line of code should look like this: `res.render('index', { title: 'Express', "data": getData() });`
+
 ## Set a breakpoint
+
+We are going to start the app with the Visual Studio debugger attached. Before we can do that, we need to set a breakpoint.
 
 1. In *index.js*, click in the left gutter before the following line of code to set a breakpoint:
 
