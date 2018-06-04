@@ -94,7 +94,7 @@ To access the coded UI test tools and templates, install the **Coded UI test** c
 
      Close the assertion window and choose **Generate Code**.
 
-     ![Coded UI test targeting element](../test/media/codedui_1.png "CodedUI_1")
+     ![Coded UI test targeting element](../test/media/codedui_1.png)
 
     > [!TIP]
     > Alternate between recording actions and verifying values. Generate code at the end of each sequence of actions or verifications. If you want, you will be able to insert new actions and verifications later.
@@ -128,7 +128,7 @@ To access the coded UI test tools and templates, install the **Coded UI test** c
 
      Open UIMap.uitest. This file opens in the Coded UI Test Editor, where you can edit any sequence of actions that you recorded as well as edit your assertions.
 
-     ![Coded UI Test Editor](../test/media/cuit_editor_edit.png "CUIT_Editor_edit")
+     ![Coded UI Test Editor](../test/media/cuit_editor_edit.png)
 
      For more information, see [Editing Coded UI Tests Using the Coded UI Test Editor](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md).
 
@@ -158,20 +158,20 @@ You can use the **Coded UI Test Builder** to add a user interface (UI) control t
 
 To generate assertions for your UI controls, choose the **Add Assertions** tool in the Coded UI Test Builder and drag it to the control on the application under test that you want to verify is correct. When the box outlines your control, release the mouse. The control class code is immediately created in the `UIMap.Designer.cs` file.
 
-![Coded UI test targeting element](../test/media/codedui_1.png "CodedUI_1")
+![Coded UI test targeting element](../test/media/codedui_1.png)
 
 The properties for this control are now listed in the **Add Assertions** dialog box.
 
 Another way of navigating to a particular control is to choose the arrow **(<<)** to expand the view for the **UI Control Map**. To find a parent, sibling, or child control, you can click anywhere on the map and use the arrow keys to move around the tree.
 
-![Coded UI test properties](../test/media/codedui_2.png "CodedUI_2")
+![Coded UI test properties](../test/media/codedui_2.png)
 
 > [!TIP]
 > If you don't see any properties when you select a control in your application, or you don't see the control in the UI Control Map, verify that the control has a unique ID in the application code. The unique ID can be an HTML ID attribute or a WPF UId.
 
 Next, open the shortcut menu on the property for the UI control that you want to verify, and then point to **Add Assertion**. In the **Add Assertion** dialog box, select the **Comparator** for your assertion, for example <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A>, and type the value for your assertion in **Comparison Value**.
 
-![Coded UI test assertions](../test/media/codedui_3.png "CodedUI_3")
+![Coded UI test assertions](../test/media/codedui_3.png)
 
 When you have added all your assertions for your test, choose **OK**.
 
@@ -192,7 +192,7 @@ To generate the code for your assertions and add the control to the UI map, choo
 
 - Adds a method called `AssertForAddTwoNumbers` to your UI map (UIMap.uitest). This file opens in the Coded UI Test Editor, where you can edit the assertions.
 
-     ![Edit assert using Coded UI Test Editor](../test/media/cuit_editor_assert.png "CUIT_Editor_assert")
+     ![Edit assert using Coded UI Test Editor](../test/media/cuit_editor_assert.png)
 
      For more information, see [Editing Coded UI Tests Using the Coded UI Test Editor](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md).
 
@@ -211,7 +211,7 @@ If the control you want to select loses focus and disappears when you select the
 
 Sometimes, when you add controls and verify their properties, you might have to use the keyboard. For example, when you try to record a coded UI test that uses a context menu control, the list of menu items in the control will lose focus and disappear when you try to select the Add Assertions tool from the Coded UI Test Builder. This is demonstrated in the following illustration, where the context menu in Internet Explorer loses focus and disappears if you try to select it with the Add Assertions tool.
 
-![CodedUITest&#95;SelectControlKeyboard](../test/media/codeduitest_selectcontrolkeyboard.png "CodedUITest_SelectControlKeyboard")
+![CodedUITest&#95;SelectControlKeyboard](../test/media/codeduitest_selectcontrolkeyboard.png)
 
 To use the keyboard to select a UI control, hover over the control with the mouse. Then hold down the **Ctrl** key and the **I** key at the same time. Release the keys. The control is recorded by the Coded UT Test Builder.
 
@@ -226,7 +226,7 @@ Under some circumstances, a particular control that's being used in a coded UI t
 
 When you perform your coded UI test, hover over the control. Then press and hold Ctrl, while you press and hold the Shift and R keys on your keyboard. Release the keys. A mouse hover event is recorded by the Coded UT Test Builder.
 
-![CodedUI&#95;Hover](../test/media/codedui_hover.png "CodedUI_Hover")
+![CodedUI&#95;Hover](../test/media/codedui_hover.png)
 
 After you generate the test method, code similar to the following example will be added to the UIMap.Desinger.cs file:
 

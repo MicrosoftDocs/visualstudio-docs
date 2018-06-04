@@ -65,7 +65,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 1. In Visual Studio, on the **File** menu, select **New**, **Project...**.
 
-2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
 
 3. In the middle pane, select the **Windows Forms App** project type.
 

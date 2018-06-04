@@ -30,13 +30,13 @@ Visual Studio has built-in accessibility features that are compatible with scree
 
 For some folks, some colors are more difficult to see. If you want more contrast as you code but do not want to use the typical "High Contrast" themes, we now offer a “Blue (Extra Contrast)” theme.
 
-  ![Compare the Blue theme and Blue Extra Contrast theme](media/blue-extra-contrast-theme.png "See the difference between the Blue theme and the Blue Extra Contrast theme")
+  ![Compare the Blue theme and Blue Extra Contrast theme](media/blue-extra-contrast-theme.png)
 
 ## Use annotations to reveal useful information about your code
 
 The Visual Studio editor includes many text "adornments" that let you know about characteristics and features at particular points on a line of code, such as lightbulbs, error and warning “squiggles”, bookmarks, and so on. You can use the “Show Line Annotations” command set to help you discover and then navigate between these adornments.
 
-  ![Use the Show Line Annotations command set](media/show-line-annotations-command-set.png "Shows how to set the Show Line Annotations command set")
+  ![Use the Show Line Annotations command set](media/show-line-annotations-command-set.png)
 
 ## Access toolbars by using shortcut key combinations
 
@@ -78,18 +78,18 @@ Here's how.
 
 1. In the **Search** box on a computer running Windows 10, type **Change system sounds**.
 
-  ![Search box in Windows 10](media/type-here-to-search.png "Type Sounds in the Search box on a computer running Windows 10")
+  ![Search box in Windows 10](media/type-here-to-search.png)
 
   (Alternatively, if you have Cortana enabled, say "Hey Cortana", and then say "Change system sounds".)
 
 2. Double-click **Change system sounds**.
 
-  ![Search results in Windows 10](media/change-system-sounds.png "Double-click Change System Sounds in the Search results")
+  ![Search results in Windows 10](media/change-system-sounds.png)
 
 3. In the **Sound** dialog box, click the **Sounds** tab. <br><br>
  Then, in **Program Events**, scroll to **Microsoft Visual Studio**, and select the sounds that you want to apply to the events that you choose.
 
-  ![Sounds tab of the Sound applet in Windows 10](media/sound-applet.png "Double-click Change System Sounds in the Search results")
+  ![Sounds tab of the Sound applet in Windows 10](media/sound-applet.png)
 
 4. Click **OK**.
 

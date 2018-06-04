@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# CvCreateMarkerSeriesWithCodePageA Function
+# CvCreateMarkerSeriesWithCodePageA function
 Creates marker series for a given provider and specified code page. This function can be used to specify the code page explicitly for the text written out by marker API ANSI functions. Setting the code page can be useful in case the trace is captured and then analyzed on different machines with different locales/languages. By default the code page returned by GetACP() function is used.  
   
 ## Syntax  
@@ -42,11 +42,11 @@ HRESULT CvCreateMarkerSeriesWithCodePageA(
  `ppMarkerSeries`  
  Address of an output variable which will store marker series context. Cannot be NULL.  
   
-## Return Value  
+## Return value  
  S_OK when marker series is successfully created or error code in case there were any errors. Use SUCCEEDED/FAILED macros to check for error condition.  
   
 ## Requirements  
- **Header:** cvmarkers.h  
+ **Header:** *cvmarkers.h*  
   
-## See Also  
- [C++ Library Reference](../profiling/cpp-library-reference.md)
+## See also  
+ [C++ library reference](../profiling/cpp-library-reference.md)

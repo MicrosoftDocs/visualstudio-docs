@@ -26,14 +26,14 @@ If you haven't already done so, sign in to Visual Studio before you report a pro
 2. If you are not signed in, select **Sign In**; it's on the right-hand side of the tool, as shown in the following screenshot.
 3. Follow the instructions on-screen to sign in.
 
- ![Sign in to report a problem](../ide/media/sign-in-new-ux.png "Sign in to report a problem")
+ ![Sign in to report a problem](../ide/media/sign-in-new-ux.png)
 
 ## Search and vote for similar problems <a name="search_and_vote"></a>
 
 1. Search for your problem and see if others have reported it, too.
 2. If someone has reported it, "up-vote" it to let us know.
 
-  ![Search and vote for similar problems](../ide/media/search-and-vote.png "Search and vote for similar problems")
+  ![Search and vote for similar problems](../ide/media/search-and-vote.png)
 
 ## Report a new problem <a name="report_new_problem"></a>
 
@@ -41,7 +41,7 @@ If you haven't already done so, sign in to Visual Studio before you report a pro
 2. Create a descriptive title for the problem that helps us route it to the correct Visual Studio team.
 3. Give us any additional details, and if possible, provide us with the steps to reproduce the problem.
 
-  ![Report a new problem](../ide/media/report-new-problem.png "Report a new problem")
+  ![Report a new problem](../ide/media/report-new-problem.png)
 
 ## Provide a screenshot and attachments (optional) <a name="provide_screenshots"></a>
 
@@ -54,7 +54,7 @@ Trace and heap dump files are useful in helping us diagnose problems. We appreci
 1. Choose the **Record** tab.
 2. Choose **Start Recording**. Give permission to run the tool.
 
-  ![Choose "Start Recording" to provide a trace and heap dump file ](../ide/media/record-dialog-box.png "Provide trace and heap dump files")
+  ![Choose "Start Recording" to provide a trace and heap dump file ](../ide/media/record-dialog-box.png)
 
 3. When the **Steps Recorder** tool appears, perform the steps that reproduce the problem.
 4. When you are done, choose the **Stop Record** button.

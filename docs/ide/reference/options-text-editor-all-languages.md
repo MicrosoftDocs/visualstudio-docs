@@ -65,7 +65,7 @@ This dialog box allows you to change the default behavior of the Code Editor. Th
 
  When selected, a return-arrow indicator is displayed where a long line wraps onto a second line.
 
- ![LineBreakSymbol screenshot](../../ide/reference/media/linebreak.gif "linebreak")
+ ![LineBreakSymbol screenshot](../../ide/reference/media/linebreak.gif)
 
  Clear this option if you prefer not to display these indicators.
 

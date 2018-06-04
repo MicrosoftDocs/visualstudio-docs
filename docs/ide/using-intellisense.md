@@ -32,7 +32,7 @@ After selecting an item, you can insert it into your code by pressing **Tab** or
 
 In the member list, the icon to the left represents the type of the member, such as namespace, class, function, or variable. For a list of icons, see [Class View and Object Browser icons](../ide/class-view-and-object-browser-icons.md). The list may be quite long, so you can press **PgUp** and **PgDn** to move up or down in the list.
 
-![Visual Studio Member List](../ide/media/vs2015_intellisense.png "vs2015_Intellisense")
+![Visual Studio Member List](../ide/media/vs2015_intellisense.png)
 
 You can invoke the **List Members** feature manually by typing **Ctrl**+**J**, choosing **Edit** > **IntelliSense** > **List Members**, or by choosing the **List Members** button on the editor toolbar. When it is invoked on a blank line or outside a recognizable scope, the list displays symbols in the global namespace.
 
@@ -46,7 +46,7 @@ Parameter Info gives you information about the number, names, and types of param
 
 The parameter in bold indicates the next parameter that is required as you type the function. For overloaded functions, you can use the **Up** and **Down** arrow keys to view alternative parameter information for the function overloads.
 
-![Parameter Info](../ide/media/vs2015_param_info.png "VS2015_param_Info")
+![Parameter Info](../ide/media/vs2015_param_info.png)
 
 When you annotate functions and parameters with XML Documentation comments, the comments will display as Parameter Info. For more information, see [Supply XML code comments](../ide/supplying-xml-code-comments.md).
 
@@ -56,11 +56,11 @@ You can manually invoke Parameter Info by choosing **Edit** > **IntelliSense** >
 
 Quick Info displays the complete declaration for any identifier in your code.
 
-![Visual Studio Quick Info](../ide/media/vs2015_quick_info.png "VS2015_Quick_info")
+![Visual Studio Quick Info](../ide/media/vs2015_quick_info.png)
 
 When you select a member from the **List Members** box, Quick Info also appears.
 
-![Parameter Info in a C&#35; code file](../ide/media/vs2015_paraminfo.png "VS2015_ParamInfo")
+![Parameter Info in a C&#35; code file](../ide/media/vs2015_paraminfo.png)
 
 You can manually invoke Quick Info by choosing **Edit** > **IntelliSense** > **Quick Info**, by pressing **Ctrl**+**I**, or by choosing the **Quick Info** button on the editor toolbar.
 
