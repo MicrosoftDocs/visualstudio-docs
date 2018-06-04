@@ -1,5 +1,5 @@
 ---
-title: "Deploy ASP.NET to a Remote IIS Computer | Microsoft Docs"
+title: "Deploy ASP.NET to IIS using Web Deploy"
 ms.custom: ""
 ms.date: "06/04/2018"
 ms.technology: "vs-ide-deployment"
@@ -11,18 +11,16 @@ manager: douge
 ms.workload: 
   - "aspnet"
 ---
-# Deploy ASP.NET to a remote IIS Computer using Web Deploy
+# Deploy ASP.NET to a remote IIS Computer using Web Deploy in Visual Studio
 
-This article explains how to set up and configure a Visual Studio 2017 ASP.NET MVC 4.5.2 application and deploy it to IIS. This article includes steps on setting up a basic configuration of IIS on Windows server and deploying the app from Visual Studio. These steps are included to make sure that the server has required components installed and that you are ready to deploy.
+This article explains how to set up and configure a Visual Studio 2017 ASP.NET MVC 4.5.2 application and deploy it to IIS. This article includes steps on setting up a basic configuration of IIS on Windows server and deploying the app from Visual Studio. These steps are included to make sure that the server has required components installed and that you are ready to deploy. In some scenarios, it is faster to deploy to IIS by [importing publish settings](../deployment/tutorial-import-publish-settings-iis.md).
 
 These procedures have been tested on these server configurations:
 * Windows Server 2012 R2 and IIS 8 (For Windows Server 2008 R2, the server steps are different)
 
 ## Create the ASP.NET 4.5.2 application on the Visual Studio computer
   
-1. Create a new MVC ASP.NET application. (**File > New > Project**, then select **Visual C# > Web > ASP.NET Web Application. In the **ASP.NET 4.5.2** templates section, select **MVC**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.)
-
-2. Open the  HomeController.cs file, and set a breakpoint in the `About()` method.
+* In Visual Studio, create a new MVC ASP.NET application. (**File > New > Project**, then select **Visual C# > Web > ASP.NET Web Application. In the **ASP.NET 4.5.2** templates section, select **MVC**. Make sure that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.)
 
 ## <a name="bkmk_configureIIS"></a> Install and Configure IIS on Windows Server
 
@@ -61,8 +59,6 @@ If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Us
 [!INCLUDE [remote-debugger-install-web-deploy](../debugger/includes/remote-debugger-install-web-deploy.md)]
 
 ## <a name="BKMK_deploy_asp_net"></a> Configure ASP.NET Web site on the Windows Server computer
-
-If you are importing publish settings, you can skip this section.
 
 1. Open Windows Explorer and create a new folder, **C:\Publish**, where you will later deploy the ASP.NET project.
 
