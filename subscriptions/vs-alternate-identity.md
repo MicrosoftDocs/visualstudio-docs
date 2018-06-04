@@ -35,7 +35,7 @@ For all subscriptions, you can add a "work or school account" so you can use tha
 
 ### Add the alternate account
 
-1. Sign in to Visual Studio with your Microsoft account (https://{youraccount}.visualstudio.com).
+1. Sign in to Visual Studio with your Microsoft account (https://my.visualstudio.com).
 
 2. Go to **Subscriptions**.
 
@@ -49,7 +49,7 @@ For all subscriptions, you can add a "work or school account" so you can use tha
 
       ![Add work or school account](_img/vs-alternate-identity/enter-alternate-account-my-visual-studio-com-portal.png)
 
-5. Use your work or school account to sign in to Visual Studio (https://{youraccount}.visualstudio.com).
+5. Use your work or school account to sign in to Visual Studio Team Services (https://{youraccount}.visualstudio.com).
 
       ![Use your work or school account](_img/vs-alternate-identity/sign-in-with-alternate-account.png)
 
