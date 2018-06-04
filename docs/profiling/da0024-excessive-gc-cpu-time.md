@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# DA0024: Excessive GC CPU Time
+# DA0024: Excessive GC CPU time
 |||  
 |-|-|  
 |Rule Id|DA0024|  
