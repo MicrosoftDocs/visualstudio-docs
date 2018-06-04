@@ -35,7 +35,7 @@ ms.workload:
   
 |File Name|Description|  
 |---------------|-----------------|  
-|default.aspx|The default ASPX home page for the new SharePoint site.|  
+|*default.aspx*|The default ASPX home page for the new SharePoint site.|  
 |*onet.xml*|Specifies the configuration of the new site, the components of the site definition template, and default behavior. These settings can include attributes such as the content types that are enabled, the default list views, document template files, and Web parts included with the site. By default, the `Modules` section lists the files to be added to the SharePoint site and how they are configured.|  
 |*webtemp_{SiteDefinitionName}.xml*|Specifies the site definition configurations that appears in the **Template Selection** section of the **New SharePoint Site** page.|  
   

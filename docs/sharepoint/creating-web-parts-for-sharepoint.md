@@ -59,14 +59,14 @@ ms.workload:
 |Control Name|Description|  
 |------------------|-----------------|  
 |[AspMenu](http://go.microsoft.com/fwlink/?LinkId=235307)|Inserts an ASP menu. For more information, see [Menu Control Overview](http://go.microsoft.com/fwlink/?LinkId=235316).|  
-|[CssLink](http://go.microsoft.com/fwlink/?LinkId=235308)|Inserts a **LINK** element into the .aspx page and applies one or more external style sheets defined by **CssRegistration**.|  
-|[DateTimeControl](http://go.microsoft.com/fwlink/?LinkId=235306)|Inserts a DateTime control into the .aspx page.|  
-|[FormDigest](http://go.microsoft.com/fwlink/?LinkId=235309)|Inserts a security validation into the .aspx page|  
+|[CssLink](http://go.microsoft.com/fwlink/?LinkId=235308)|Inserts a **LINK** element into the *.aspx* page and applies one or more external style sheets defined by **CssRegistration**.|  
+|[DateTimeControl](http://go.microsoft.com/fwlink/?LinkId=235306)|Inserts a DateTime control into the *.aspx* page.|  
+|[FormDigest](http://go.microsoft.com/fwlink/?LinkId=235309)|Inserts a security validation into the *.aspx* page|  
 |[ListProperty](http://go.microsoft.com/fwlink/?LinkId=235310)|Returns a property of a specified list.|  
 |[ProjectProperty](http://go.microsoft.com/fwlink/?LinkId=235311)|Returns a global property of the current website.|  
-|[RssLink](http://go.microsoft.com/fwlink/?LinkId=235312)|Inserts a link to an RSS feed into the .aspx page.|  
+|[RssLink](http://go.microsoft.com/fwlink/?LinkId=235312)|Inserts a link to an RSS feed into the *.aspx* page.|  
 |[ScriptLink](http://go.microsoft.com/fwlink/?LinkId=235313)|Provides properties and methods for registering resources, such as scripts, on a page so that they can be requested when the page is rendered.|  
-|[Theme](http://go.microsoft.com/fwlink/?LinkId=235314)|Applies a theme to the .aspx page.|  
+|[Theme](http://go.microsoft.com/fwlink/?LinkId=235314)|Applies a theme to the *.aspx* page.|  
   
 ## Debug a web part
  You can debug a SharePoint project that contains a web part just as you would debug other Visual Studio projects. When you start the Visual Studio debugger, Visual Studio opens the SharePoint site.  
