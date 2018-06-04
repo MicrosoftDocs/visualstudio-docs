@@ -29,7 +29,7 @@ Most coding errors that result in security vulnerabilities occur because develop
 
 ## Build for security
 
-Security is also an important consideration in the build process. A few additional steps can improve the security of a deployed app, and help prevent unauthorized reverse engineering, spoofing, or other attacks:
+Security is also an important consideration in the build process. A few additional steps can improve the security of a deployed app and help prevent unauthorized reverse engineering, spoofing, or other attacks:
 
 - [Dotfuscator](dotfuscator/index.md) is free and helps to protect .NET assemblies from reverse-engineering and unauthorized use such as unauthorized debugging.
 - [Strong-name signing](managing-assembly-and-manifest-signing.md) can be used to uniquely identify software components and prevent name spoofing.

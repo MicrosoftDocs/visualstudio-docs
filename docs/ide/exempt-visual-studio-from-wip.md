@@ -12,6 +12,8 @@ ms.workload:
 ---
 # Configure Visual Studio as a WIP-exempt app
 
+[Windows Information Protection](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) (WIP) helps to protect enterprise data from leaking through apps like email, social media, and the public cloud, which are outside of the enterprise’s control. WIP helps to protect against accidental data leakage on enterprise-owned devices and personal devices, without requiring changes to your environment or other apps.
+
 *Enlightened* apps for WIP are expected to prevent enterprise data from going to unprotected network locations, and to avoid encrypting personal data.​ Visual Studio is not an enlightened app, so it doesn't work in WIP-enabled environments unless you exempt it. Follow the steps in this article to enable Visual Studio to function on a WIP-enabled machine.
 
 ## Configure VS as a WIP-exempt app
