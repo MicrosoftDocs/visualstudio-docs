@@ -11,21 +11,21 @@ manager: douge
 ms.workload: 
   - "cplusplus"
 ---
-# How to: Attach the Profiler to a Native Service to Collect Concurrency Data by Using the Command Line
+# How to: Attach the profiler to a native service to collect concurrency data by using the command line
 This article describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a native (C/C++) service and collect process and thread concurrency data by using the sampling method.  
   
 > [!NOTE]
 >  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. UWP apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
   
 > [!NOTE]
->  Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the Visual Studio installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler at a command prompt, you must add the tools path to the PATH environment variable of the **Command Prompt** window or to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
+>  Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the Visual Studio installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler at a command prompt, you must add the tools path to the PATH environment variable of the **Command Prompt** window or to the command itself. For more information, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
   
- While the profiler is attached to the service, you can pause and resume data collection. To end a profiling session, the Profiler must no longer be attached to the service, and the Profiler must be explicitly shut down.  
+ While the profiler is attached to the service, you can pause and resume data collection. To end a profiling session, the profiler must no longer be attached to the service, and the Profiler must be explicitly shut down.  
   
-## Attaching the Profiler  
+## Attach the profiler  
  To attach the profiler to a native service, you use the **VSPerfCmd/start** and **/attach** options to initialize the profiler and attach it to the target application. You can specify **/start** and **/attach** and their respective options on a single command line. You can also add the **/globaloff** option to pause data collection at the start of the target application. You then use **/globalon** to begin to collect data.  
   
-#### To attach the Profiler to a native service  
+#### To attach the profiler to a native service  
   
 1.  If the service is not running, start the service.  
   
@@ -54,8 +54,8 @@ This article describes how to use the [!INCLUDE[vsprvs](../code-quality/includes
   
      `PID` specifies the process ID or process name of the target application. You can view the process IDs of all running processes in Windows Task Manager.  
   
-## Controlling Data Collection  
- While the target application is running, you can control data collection by starting and stopping the writing of data to the file with VSPerfCmd.exe options. By controlling data collection, you can collect data for a specific part of program execution, such as the starting or shutting down of the application.  
+## Control data collection  
+ While the target application is running, you can control data collection by starting and stopping the writing of data to the file with *VSPerfCmd.exe* options. By controlling data collection, you can collect data for a specific part of program execution, such as the starting or shutting down of the application.  
   
 #### To start and stop data collection  
   
@@ -67,7 +67,7 @@ This article describes how to use the [!INCLUDE[vsprvs](../code-quality/includes
     |[/processon](../profiling/processon-and-processoff.md) **:** `PID` [/processoff](../profiling/processon-and-processoff.md) **:** `PID`|Starts (**/processon**) or stops (**/processoff**) data collection for the process that the process ID (`PID`) specifies.|  
     |[/attach](../profiling/attach.md) **:**{`PID`&#124;`ProcName`} [/detach](../profiling/detach.md)[**:**{`PID`&#124;`ProcName`}]|**/attach** starts to collect data for the process that the process ID (`PID`) or process name (*ProcName*) specifies. **/detach** stops data collection for the specified process or for all processes if no process is specified.|  
   
-## Ending the profiling session  
+## End the profiling session  
  To end a profiling session, the profiler must not be collecting data. You can stop collecting data from a native service that is being profiled with the concurrency method by stopping the service or by invoking the **VSPerfCmd /detach** option. You then invoke the **VSPerfCmd /shutdown** option to turn off the profiler and close the profiling data file.  
   
 #### To end a profiling session  
