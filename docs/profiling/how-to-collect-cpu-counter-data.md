@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Collect CPU Counter Data
+# How to: Collect CPU counter data
 
 A CPU event counter is used to collect hardware-specific performance data. This topic shows you how to collect event counter data when you use the instrumentation profiling method.
 
@@ -35,11 +35,11 @@ Two types of CPU counter events occur:
 
 - Branch events.
 
- You can collect performance counter data in two ways in the Profiler:
+ You can collect performance counter data in two ways in the profiler:
 
 - Collect data from one or more counters when you profile by instrumentation.
 
-- Specify a counter event as the sampling interval when you profile by sampling. For more information, see [How to: Choose Sampling Events](../profiling/how-to-choose-sampling-events.md).
+- Specify a counter event as the sampling interval when you profile by sampling. For more information, see [How to: Choose sampling events](../profiling/how-to-choose-sampling-events.md).
 
 ## To collect CPU performance counter data when you profile by instrumentation
 
@@ -56,7 +56,7 @@ Two types of CPU counter events occur:
 
 ## See also
 
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)  
-[Performance Session Properties](../profiling/performance-session-properties.md)  
-[CPU and Windows Counters](../profiling/cpu-and-windows-counters.md)  
-[How to: Choose Sampling Events](../profiling/how-to-choose-sampling-events.md)
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
+[Performance session properties](../profiling/performance-session-properties.md)  
+[CPU and Windows counters](../profiling/cpu-and-windows-counters.md)  
+[How to: Choose sampling events](../profiling/how-to-choose-sampling-events.md)

@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Collect Line-Level Sampling Data
+# How to: Collect line-level sampling data
 Line-level sampling is the ability of the profiler to determine where in the code of a processor-intensive function, such as a function that has high exclusive samples, the processor has to spend most of its time.  
   
 ## Overview  
@@ -23,7 +23,7 @@ Line-level sampling is the ability of the profiler to determine where in the cod
   
  Character begin/end information is not available for native code. For multiline statements, line begin information is not available for native code; only line end information is available.  
   
-### Available Data  
+### Available data  
  Available line-level sampling data includes the following information:  
   
 -   Function name.  
@@ -42,7 +42,7 @@ Line-level sampling is the ability of the profiler to determine where in the cod
   
  In **Modules** view, if a function has line-level statistics, the statistics are nested under each function. Additionally, IP-level statistics that are nested under each line are presented.  
   
-### Turn Off Line-level Sampling for Managed Code  
+### Turn off line-level sampling for managed code  
  By default, line-level sampling is turned on. You can turn off line-level data collection for managed code by doing one of the following:  
   
 -   Before profiling, type **VSPerfCLREnv /samplelineoff**. This affects both applications and services.  
@@ -51,6 +51,6 @@ Line-level sampling is the ability of the profiler to determine where in the cod
   
 -   When starting an application, type **VSPerfCmd /lineoff \<other arguments>**.  
   
-## See Also  
- [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
- [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)
+## See also  
+ [Configure performance sessions](../profiling/configuring-performance-sessions.md)   
+ [Analyze performance tools data](../profiling/analyzing-performance-tools-data.md)
