@@ -27,7 +27,7 @@ ms.workload:
   
 1.  On the menu bar, choose **View**, **Server Explorer**.  
   
-2.  In **Server Explorer**, choose the **SharePoint Connections** node, and then, on the menu bar, choose **Tools**, **Add SharePoint Connection**.  
+2.  In **Server Explorer**, choose the **SharePoint Connections** node, and then, on the menu bar, choose **Tools** > **Add SharePoint Connection**.  
   
 3.  In the **Add SharePoint Connection** box, enter the [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)] for the SharePoint site (for example, http://testserver/sites/unittests).  
   
@@ -37,7 +37,7 @@ ms.workload:
   
 2.  Expand the **SharePoint Connections** node to reveal the SharePoint site that you want to delete from **Server Explorer**.  
   
-3.  Choose the site, and then, on the menu bar, choose **Edit**, **Delete**.  
+3.  Choose the site, and then, on the menu bar, choose **Edit** > **Delete**.  
   
     > [!NOTE]  
     >  This step doesn't delete the underlying site; it deletes only the connection from **Server Explorer**.  

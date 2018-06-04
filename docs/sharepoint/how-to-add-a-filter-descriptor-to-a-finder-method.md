@@ -32,7 +32,7 @@ ms.workload:
   
 2.  In the **Method Details** window, choose the type descriptor of the parameter.  
   
-3.  On the menu bar, choose **View**, **Properties Window**.  
+3.  On the menu bar, choose **View** > **Properties Window**.  
   
 4.  In the **Properties** window, set the **Type Name** property to a data type that is appropriate for the filter.  
   
@@ -44,7 +44,7 @@ ms.workload:
   
      A new filter descriptor appears underneath the **Filter Descriptors** node.  
   
-7.  On the menu bar, choose **View**, **Properties Window**.  
+7.  On the menu bar, choose **View** > **Properties Window**.  
   
 8.  In the **Properties** window, choose the **Type** property.  
   

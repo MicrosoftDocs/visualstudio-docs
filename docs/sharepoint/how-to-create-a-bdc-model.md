@@ -24,10 +24,10 @@ ms.workload:
   
 ### To create a BDC project  
   
-1.  On the menu bar, choose **File**, **New**, **Project**.  
+1.  On the menu bar, choose **File** > **New** > **Project**.  
   
     > [!NOTE]  
-    >  If your IDE is set to use Visual Basic development settings, choose **File**, **New Project**.  
+    >  If your IDE is set to use Visual Basic development settings, choose **File** > **New Project**.  
   
      The **New Project** dialog box opens.  
   
@@ -46,7 +46,7 @@ ms.workload:
   
      An empty SharePoint project is created.  
   
-5.  On the menu bar, choose **Project**, **Add New Item**.  
+5.  On the menu bar, choose **Project** > **Add New Item**.  
   
 6.  In the **Add New Item** dialog box, choose the **Office/SharePoint** node.  
   

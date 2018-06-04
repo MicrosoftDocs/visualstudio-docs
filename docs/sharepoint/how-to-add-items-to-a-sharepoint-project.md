@@ -27,7 +27,7 @@ ms.workload:
   
 2.  In **Solution Explorer**, choose the project's node.  
   
-3.  On the menu bar, choose **Project**, **Add New Item** to display the **Add New Item** dialog box.  
+3.  On the menu bar, choose **Project** > **Add New Item** to display the **Add New Item** dialog box.  
   
 4.  In the **Installed Templates** list, expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -41,7 +41,7 @@ ms.workload:
   
 2.  In **Solution Explorer**, choose the project's node.  
   
-3.  On the menu bar, choose **Project**, **Add Existing Item** to display the **Add Existing Item** dialog box.  
+3.  On the menu bar, choose **Project** > **Add Existing Item** to display the **Add Existing Item** dialog box.  
   
 4.  Browse to the folder that contains the item that you want to add, choose it, and then choose the **Add** button.  
   

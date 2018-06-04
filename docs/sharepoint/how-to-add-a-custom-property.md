@@ -30,7 +30,7 @@ ms.workload:
   
 1.  In the **BDC Explorer**, choose the node that represents the model element to which you want to apply a custom property.  
   
-2.  On the menu bar, choose **View**, **Properties Window**.  
+2.  On the menu bar, choose **View** > **Properties Window**.  
   
 3.  In the **Properties** window, choose the **Custom Properties** property, and then choose the ellipsis button (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")).  
   

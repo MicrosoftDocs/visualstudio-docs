@@ -55,7 +55,7 @@ ms.workload:
   
 -   <xref:System.ComponentModel.EditorAttribute>: Specifies a custom editor to use to modify the property.  
   
-## Compiling the Code  
+## Compiling the code  
  These code examples require a class library project with references to the following assemblies:  
   
 -   Microsoft.VisualStudio.SharePoint  

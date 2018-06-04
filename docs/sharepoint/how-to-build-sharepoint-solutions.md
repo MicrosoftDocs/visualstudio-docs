@@ -27,7 +27,7 @@ ms.workload:
   
 2.  Choose the appropriate option for building or rebuilding your solution or project. For more information, see [Compiling and Building in Visual Studio](/visualstudio/ide/compiling-and-building-in-visual-studio).  
   
-3.  On the menu bar, choose **Build**, **Build Solution**.  
+3.  On the menu bar, choose **Build** > **Build Solution**.  
   
 ## See also
  [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)  

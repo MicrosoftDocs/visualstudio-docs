@@ -32,7 +32,7 @@ ms.workload:
   
 #### To add mapped folders to a project  
   
-1.  On the menu bar, choose **File**, **New**, **Project**.  
+1.  On the menu bar, choose **File** > **New** > **Project**.  
   
 2.  In the **New Project** dialog box, expand either the **Visual Basic** or **Visual C#** node, expand the **Office/SharePoint** node, and then choose the **SharePoint Solutions** node.  
   
@@ -42,15 +42,15 @@ ms.workload:
   
 5.  In the **SharePoint Customization Wizard**, choose the **Finish** button to retain the default settings.  
   
-6.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project**, **Add SharePoint "Images" Mapped Folder**.  
+6.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project** > **Add SharePoint "Images" Mapped Folder**.  
   
      A folder that's named **Images** appears in your project and contains a subfolder that's named TestProject1. This mapped folder will contain images for the visual web part project.  
   
-7.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project**, **Add SharePoint Mapped Folder** to display the **Add SharePoint Mapped Folder** dialog box.  
+7.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project** > **Add SharePoint Mapped Folder** to display the **Add SharePoint Mapped Folder** dialog box.  
   
 8.  In the tree view of folders that are available for mapping, choose the **Resources** folder, and then choose the **OK** button.  
   
-     A folder that's named **Resources** appears in your project. This folder can store items such as string resource files. Sub-folders can be useful for organizing the contents of a mapped folder, but they're not automatically created when you add a mapped folder by using the **Add SharePoint Mapped Folder** command. To add a sub-folder, choose the **Resources** folder, and then, on the menu bar, choose **Project**, **New Folder**.  
+     A folder that's named **Resources** appears in your project. This folder can store items such as string resource files. Sub-folders can be useful for organizing the contents of a mapped folder, but they're not automatically created when you add a mapped folder by using the **Add SharePoint Mapped Folder** command. To add a sub-folder, choose the **Resources** folder, and then, on the menu bar, choose **Project** > **New Folder**.  
   
 ## Change the deployment location of a mapped folder  
  By default, mapped folders are added to specific locations relative to the SharePoint root installation path, which the token {SharePointRoot} denotes. However, you can change this location by changing the **Deployment location** property of the mapped folder. Each mapped folder has its own **Deployment location** property.  

@@ -28,11 +28,11 @@ ms.workload:
   
 ### To create a specific Finder method
   
-1.  On the BDC designer, choose an entity.  
+1.  On the **BDC Designer**, choose an entity.  
   
-     For information about how to add an entity to the BDC designer in Visual Studio, see [How to: Add an Entity to a Model](../sharepoint/how-to-add-an-entity-to-a-model.md).  
+     For information about how to add an entity to the **BDC Designer** in Visual Studio, see [How to: Add an Entity to a Model](../sharepoint/how-to-add-an-entity-to-a-model.md).  
   
-2.  On the menu bar, choose **View**, **Other Windows**, **BDC Method Details**.  
+2.  On the menu bar, choose **View** > **Other Windows**, **BDC Method Details**.  
   
      The **BDC Method Details** window opens. For more information about that window, see [BDC Model Design Tools Overview](../sharepoint/bdc-model-design-tools-overview.md).  
   

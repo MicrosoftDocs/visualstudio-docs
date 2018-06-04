@@ -40,7 +40,8 @@ ms.workload:
 ## Compiling the code  
  This example requires a class library project with references to the following assemblies:  
   
--   Microsoft.VisualStudio.SharePoint    
+-   Microsoft.VisualStudio.SharePoint
+-     
 -   System.ComponentModel.Composition  
   
 ## Deploying the extension  

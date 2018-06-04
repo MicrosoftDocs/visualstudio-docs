@@ -64,10 +64,14 @@ ms.workload:
 ## Compiling the code  
  This example requires references to the following assemblies:  
   
--   Microsoft.VisualStudio.SharePoint   
--   Microsoft.VisualStudio.Shell    
--   Microsoft.VisualStudio.Shell.Interop    
--   Microsoft.VisualStudio.Shell.Interop.8.0    
+-   Microsoft.VisualStudio.SharePoint
+-    
+-   Microsoft.VisualStudio.Shell
+-     
+-   Microsoft.VisualStudio.Shell.Interop
+-     
+-   Microsoft.VisualStudio.Shell.Interop.8.0
+-     
 -   System.ComponentModel.Composition  
   
 ## Deploying the extension  

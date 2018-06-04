@@ -30,7 +30,7 @@ ms.workload:
   
 #### To open the Packaging Explorer  
   
-1.  On the menu bar, choose **View**, **Other Windows**, **Packaging Explorer**.  
+1.  On the menu bar, choose **View** > **Other Windows** > **Packaging Explorer**.  
   
      The **Packaging Explorer** appears in the **Toolbox**.  
   
