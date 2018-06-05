@@ -49,6 +49,6 @@ You can compare the results of two different profiler data files (.*vsp* or .*vs
   
 1.  On the **Analyze** menu, select **Compare Performance Reports**.  
   
-2.  In the **Select analysis files for comparison** window, browse and select the **Baseline File** analysis file (.*vsp* or .*vsps*) and the **Comparison File** (.*vsp* or .*vsps*).  
+2.  In the **Select analysis files for comparison** window, browse, and select the **Baseline File** analysis file (.*vsp* or .*vsps*) and the **Comparison File** (.*vsp* or .*vsps*).  
   
 3.  Click **OK**.
