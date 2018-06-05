@@ -17,76 +17,82 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Projects and Solutions, Options Dialog Box
-Sets [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] behavior related to projects and solutions. To access these options, select **Tools > Options** expand **Projects and Solutions**, and click **General**.
+# Projects and Solutions page, Options dialog box
+
+Sets Visual Studio behavior related to projects and solutions. To access these options, select **Tools** > **Options**, expand **Projects and Solutions**, and then select **General**.
 
 The default paths for project and template folders are set through the **Locations** tab in the same dialog box.
 
 > [!NOTE]
-> The options available in dialog boxes, and the names and locations of menu commands you see, might differ from what is described in Help depending on your active settings or edition. This Help page was written with the **General Development settings** in mind. To view or change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
+> The options available in the UI might differ from what is described here, depending on your active settings or edition. This article was written with the **General Development settings** in mind. To view or change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
 
+## General page
 
-## General tab options
+The following options are available on the **General** page.
 
-**Always show Error List if build finishes with errors**
+### Always show Error List if build finishes with errors
 
 Opens the **Error List** window on build completion, only if a project failed to build. Errors that occur during the build process are displayed. When this option is cleared, the errors still occur but the window does not open when the build is complete. This option is enabled by default.
 
-**Track Active Item in Solution Explorer**
+### Track active item in Solution Explorer
 
 When selected, **Solution Explorer** automatically opens and the active item is selected. The selected item changes as you work with different files in a project or solution, or different components in a designer. When this option is cleared, the selection in **Solution Explorer** does not change automatically. This option is enabled by default.
 
-**Show advanced build configurations**
+### Show advanced build configurations
 
-When selected, the build configuration options appear on the **Project Property Pages** dialog box and the **Solution Property Pages** dialog box. When cleared, the build configuration options do not appear on the **Project Property Pages** dialog box and the **Solution Property Pages** dialog box for [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] and [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] projects that contain one configuration or the two configurations debug and release. If a project has a user-defined configuration, the build configuration options are shown.
+When selected, the build configuration options appear on the **Project Property Pages** dialog box and the **Solution Property Pages** dialog box. When cleared, the build configuration options do not appear on the **Project Property Pages** dialog box and the **Solution Property Pages** dialog box for Visual Basic and C# projects that contain one configuration or the two configurations debug and release. If a project has a user-defined configuration, the build configuration options are shown.
 
 When unselected, the commands on the **Build** menu, such as **Build Solution**, **Rebuild Solution**, and **Clean Solution**, are performed on the Release configuration and the commands on the **Debug** menu, such as **Start Debugging** and **Start Without Debugging**, are performed on the Debug configuration.
 
-**Always show solution**
+### Always show solution
 
 When selected, the solution and all commands that act on solutions are always shown in the IDE. When cleared, all projects are created as stand-alone projects and you do not see the solution in Solution Explorer or commands that act on solutions in the IDE if the solution contains only one project.
 
-**Save new projects when created**
+### Save new projects when created
 
 When selected, you can specify a location for your project in the **New Project** dialog box. When cleared, all new projects are created as temporary projects. When you are working with temporary projects, you can create and experiment with a project without having to specify a disk location.
 
-**Warn user when the project location is not trusted**
+### Warn user when the project location is not trusted
 
 If you attempt to create a new project or open an existing project in a location that is not fully trusted (for example, on a UNC path or an HTTP path), a message is displayed. Use this option to specify whether the message is displayed each time that you attempt to create or open a project in a location that is not fully trusted.
 
-**Show Output window when build starts**
+### Show Output window when build starts
 
-Automatically displays the Output Window in the IDE at the outset of solution builds. For more information, see [How to: Control the Output Window](http://msdn.microsoft.com/Library/91aebd15-8854-4a7a-9f7d-57376fb4e858).
+Automatically displays the [Output window](../output-window.md) in the IDE at the outset of solution builds.
 
-**Prompt for symbolic renaming when renaming files**
+### Prompt for symbolic renaming when renaming files
 
-When selected, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] displays a message box asking whether or not it should also rename all references in the project to the code element.
+When selected, Visual Studio displays a message box asking whether or not it should also rename all references in the project to the code element.
 
-**Prompt before moving files to a new location**
+### Prompt before moving files to a new location
 
-When selected, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] displays a confirmation message box before the locations of files are changed by actions in Solution Explorer.
+When selected, Visual Studio displays a confirmation message box before the locations of files are changed by actions in **Solution Explorer**.
 
-**Reopen documents on solution load (Visual Studio 2017 version 15.8 preview 2 and later)**
- 
+### Reopen documents on solution load
+
+**New in Visual Studio 2017 version 15.8 preview 2 and later**
+
 During solution load, automatically reopen documents that were open in the previous session. When selected, documents that were open the previous time this solution was closed are automatically opened when the solution is loaded.
 
 Reopening certain types of files or designers can delay solution load. Uncheck this option to improve solution load performance if you don't want to restore the solution's previous context.
 
-## Locations tab options
+## Locations page
 
-**Projects location**
+The following options are available on the **Locations** page.
 
-Specifies the default location where [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] creates new projects and solution folders. Several dialog boxes also use the location set in this option for folder starting points. For example, the Open Project dialog box uses this location for the My Projects shortcut.
+### Projects location
 
-**User project templates location**
+Specifies the default location where Visual Studio creates new projects and solution folders. Several dialog boxes also use the location set in this option for folder starting points. For example, the **Open Project** dialog box uses this location for the **My Projects** shortcut.
+
+### User project templates location
 
 Specifies the default location that the **New Project** dialog box uses to create the list of **My Templates**. For more information, see [How to: Locate and Organize Templates](../../ide/how-to-locate-and-organize-project-and-item-templates.md).
 
-**User item templates location**
+### User item templates location
 
 Specifies the default location that the **Add New Item** dialog box uses to create the list of **My Templates**. For more information, see [How to: Locate and Organize Templates](../../ide/how-to-locate-and-organize-project-and-item-templates.md).
 
-## See Also
+## See also
 
-- [Options Dialog Box,  Projects and Solutions, Build and Run](../../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md)
-- [Options Dialog Box,  Projects and Solutions, Web Projects](../../ide/reference/options-dialog-box-projects-and-solutions-web-projects.md)
+- [Options Dialog Box, Projects and Solutions, Build and Run](../../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md)
+- [Options Dialog Box, Projects and Solutions, Web Projects](../../ide/reference/options-dialog-box-projects-and-solutions-web-projects.md)
