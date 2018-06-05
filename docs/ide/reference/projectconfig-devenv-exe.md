@@ -25,7 +25,7 @@ ms.workload:
 ---
 # /ProjectConfig (devenv.exe)
 
-Specifies a project build configuration to be applied when you build, clean, rebuild, or deploy the project named in the `/project` argument.
+Specifies a project build configuration to be applied when you build, clean, rebuild, or deploy the project named in the **/project** argument.
 
 ## Syntax
 
@@ -41,18 +41,18 @@ devenv SolutionName {/build|/clean|/rebuild|/deploy} SolnConfigName [/project Pr
 |/clean|Cleans all intermediary files and output directories created during a build.|
 |/rebuild|Cleans then builds the project specified by the **/project** argument.|
 |/deploy|Specifies that the project be deployed after a build or rebuild.|
-|*SolnConfigName*|Required. The name of the solution configuration that will be applied to the solution named in *SolutionName*. If multiple solution platforms are available, you must also specify the platform, for example **"Debug|Win32"**.|
+|*SolnConfigName*|Required. The name of the solution configuration that will be applied to the solution named in *SolutionName*. If multiple solution platforms are available, you must also specify the platform, for example **"Debug\|Win32"**.|
 |*SolutionName*|Required. The full path and name of the solution file.|
 |/project *ProjName*|Optional. The path and name of a project file within the solution. You can enter a relative path from the *SolutionName* folder to the project file, or the project's display name, or the full path and name of the project file.|
-|/projectconfig *ProjConfigName*|Optional. The name of a project build configuration to be applied to the project specified by the **/project** argument. If multiple solution platforms are available, you must also specify the platform, for example **"Debug|Win32"**.|
+|/projectconfig *ProjConfigName*|Optional. The name of a project build configuration to be applied to the project specified by the **/project** argument. If multiple solution platforms are available, you must also specify the platform, for example **"Debug\|Win32"**.|
 
 ## Remarks
 
-- Must be used with the **/project** switch as part of a **/build**, **/clean**, **/rebuild**, or **/deploy** command.
+The **/projectconfig** switch must be used with the **/project** switch as part of a **/build**, **/clean**, **/rebuild**, or **/deploy** command.
 
-- Enclose strings that include spaces in double quotes.
+Enclose strings that include spaces in double quotes.
 
-- Summary information for builds, including errors, can be displayed in the command window, or in any log file specified with the **/out** switch.
+Summary information for builds, including errors, can be displayed in the command window, or in any log file specified with the **/out** switch.
 
 ## Example
 
