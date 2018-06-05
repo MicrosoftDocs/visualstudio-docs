@@ -18,7 +18,7 @@ Run settings files are optional. If you don't require any special configuration,
 
 ## Specify a run settings file
 
-Run settings filese can be used to configure tests that are from the command line, in the IDE, or using the [VSTest task](/vsts/pipelines/tasks/test/vstest?view=vsts) in a CI/CD pipeline.
+Run settings files can be used to configure tests that are from the command line, in the IDE, or using the [VSTest task](/vsts/pipelines/tasks/test/vstest?view=vsts) in a CI/CD pipeline.
 
 ### Specify a run settings file in the IDE
 
@@ -42,7 +42,7 @@ To run tests from the command line, use *vstest.console.exe*. Pass the settings 
 
 ### Specify a run settings file in a build definition
 
-![Specifying runsettings in a build definition](../test/media/codecoverage-buildrunsettings.png)
+![Specify test settings file in a build definition](../test/media/codecoverage-buildrunsettings.png)
 
 1. Make sure your run settings file is checked in.
 
