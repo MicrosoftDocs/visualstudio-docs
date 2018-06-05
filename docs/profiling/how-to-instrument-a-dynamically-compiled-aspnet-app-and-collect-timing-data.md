@@ -10,20 +10,20 @@ manager: douge
 ms.workload: 
   - "aspnet"
 ---
-# How to: Instrument a Dynamically Compiled ASP.NET Web Application and Collect Detailed Timing Data with the Profiler by Using the Command Line
+# How to: Instrument a dynamically compiled ASP.NET web application and collect detailed timing data with the profiler by using the command line
 
-This topic describes how to use Visual Studio Profiling Tools command-line tools to collect detailed timing data for a dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application by using the instrumentation profiling method.
+This article describes how to use Visual Studio Profiling Tools command-line tools to collect detailed timing data for a dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application by using the instrumentation profiling method.
 
 > [!NOTE]
-> Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).
+> Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself. For more information, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).
 
-To collect performance data from a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application, you modify the web.config file of the target application to enable the [VSInstr.exe](../profiling/vsinstr.md) tool to instrument the dynamically compiled application files. You then use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to set the appropriate environment variables on the Web server to enable profiling, and then restart the computer.
+To collect performance data from a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application, you modify the *web.config* file of the target application to enable the [VSInstr.exe](../profiling/vsinstr.md) tool to instrument the dynamically compiled application files. You then use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to set the appropriate environment variables on the web server to enable profiling, and then restart the computer.
 
-Start the profiler and then run the target application. While the profiler is attached to the application, you can pause and resume data collection. When you finish profiling, close the application, close the Internet Information Services (IIS) worker process, and then shut down the profiler. When you have completed your profiling work, restore the web.config file and the Web server to their original states.
+Start the profiler and then run the target application. While the profiler is attached to the application, you can pause and resume data collection. When you finish profiling, close the application, close the Internet Information Services (IIS) worker process, and then shut down the profiler. When you have completed your profiling work, restore the *web.config* file and the web server to their original states.
 
-## Configuring the ASP.NET Web application and the Web server
+## Configure the ASP.NET web application and the web server
 
-1. Modify the web.config file of the target application. See [How to: Modify Web.Config Files to Instrument and Profile Dynamically Compiled ASP.NET Web Applications](../profiling/how-to-modify-web-config-files-to-instrument-dynamically-compiled-aspnet-apps.md).
+1. Modify the *web.config* file of the target application. See [How to: Modify web.config files to instrument and profile dynamically compiled ASP.NET web applications](../profiling/how-to-modify-web-config-files-to-instrument-dynamically-compiled-aspnet-apps.md).
 
 2. Open a Command Prompt window.
 
@@ -35,7 +35,7 @@ Start the profiler and then run the target application. While the profiler is at
 
 4. Restart the computer.
 
-## Running the profiling session
+## Run the profiling session
 
 1. Open a Command Prompt window.
 
@@ -60,13 +60,13 @@ Start the profiler and then run the target application. While the profiler is at
     |[/counter](../profiling/counter.md) **:** `Config`|Collects information from the processor performance counter that is specified in `Config`. Counter information is added to the data that is collected at each profiling event.|
     |[/wincounter](../profiling/wincounter.md) **:** `WinCounterPath`|Specifies a Windows performance counter to be collected during profiling.|
     |[/automark](../profiling/automark.md) **:** `Interval`|Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms.|
-    |[/events](../profiling/events-vsperfcmd.md) **:** `Config`|Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.etl) file.|
+    |[/events](../profiling/events-vsperfcmd.md) **:** `Config`|Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.*etl*) file.|
 
-3. Start the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application in the typical way.
+3. Start the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application in the typical way.
 
-## Controlling data collection
+## Control data collection
 
-While the target application is running, you can control data collection by starting and stopping the writing of data to the profiler data file by using **VSPerfCmd.exe** options. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.
+While the target application is running, you can control data collection by starting and stopping the writing of data to the profiler data file by using *VSPerfCmd.exe* options. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.
 
 - The following pairs of options start and stop data collection. Specify each option on a separate command line. You can turn data collection on and off multiple times.
 
@@ -78,11 +78,11 @@ While the target application is running, you can control data collection by star
 
 - You can also use the **VSPerfCmd.exe**[/mark](../profiling/mark.md) option to insert a profiling mark into the data file. The **/mark** command adds an identifier, a time stamp, and an optional user-defined text string. Marks can be used to filter the data in profiler reports and data views.
 
-## Ending the profiling session
+## End the profiling session
 
-To end a profiling session, close the target [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application, reset IIS to stop the profiled process, and then shut down the profiler.
+To end a profiling session, close the target [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application, reset IIS to stop the profiled process, and then shut down the profiler.
 
-1. Close the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application.
+1. Close the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application.
 
 2. Close the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process by resetting Internet Information Services (IIS). Type:
 
@@ -96,11 +96,11 @@ To end a profiling session, close the target [!INCLUDE[vstecasp](../code-quality
 
      **IISReset /start**
 
-## Restoring the application and computer configuration
+## Restore the application and computer configuration
 
-When you have completed all profiling, replace the web.config file, clear the profiling environment variables, and restart the computer to restore the application and server to the states that they were in before profiling.
+When you have completed all profiling, replace the *web.config* file, clear the profiling environment variables, and restart the computer to restore the application and server to the states that they were in before profiling.
 
-1. Replace the web.config file with a copy of the original file.
+1. Replace the *web.config* file with a copy of the original file.
 
 2. Clear the profiling environment variables. Type:
 
@@ -110,5 +110,5 @@ When you have completed all profiling, replace the web.config file, clear the pr
 
 ## See also
 
-[Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)  
-[Instrumentation Method Data Views](../profiling/instrumentation-method-data-views.md)
+[Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)  
+[Instrumentation method data views](../profiling/instrumentation-method-data-views.md)

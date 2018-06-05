@@ -15,8 +15,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Exclude or Include Short Functions from Instrumentation
-By default, the Profiling tools exclude *small functions* from instrumentation. Small functions are short functions that do not make any function calls. Excluding these small functions provides for less instrumentation overhead, and therefore improved instrumentation speed. The exclusion of small functions also reduces the performance profiling data file (.vsp) size and the time that is required for analysis. If small functions are excluded, the time that is spent in the small functions counts against the exclusive and inclusive time of their parent functions. Small functions can be excluded or included in instrumentation, as described in the following procedure.  
+# How to: Exclude or include short functions from instrumentation
+By default, the Profiling tools exclude *small functions* from instrumentation. Small functions are short functions that do not make any function calls. Excluding these small functions provides for less instrumentation overhead, and therefore improved instrumentation speed. The exclusion of small functions also reduces the performance profiling data file (.*vsp*) size and the time that is required for analysis. If small functions are excluded, the time that is spent in the small functions counts against the exclusive and inclusive time of their parent functions. Small functions can be excluded or included in instrumentation, as described in the following procedure.  
   
 ### To exclude or include short functions from instrumentation  
   
@@ -34,6 +34,6 @@ By default, the Profiling tools exclude *small functions* from instrumentation. 
   
 4.  Click **OK**.  
   
-## See Also  
- [Controlling Data Collection](../profiling/controlling-data-collection.md)   
- [Performance Session Properties](../profiling/performance-session-properties.md)
+## See also  
+ [Control data collection](../profiling/controlling-data-collection.md)   
+ [Performance session properties](../profiling/performance-session-properties.md)
