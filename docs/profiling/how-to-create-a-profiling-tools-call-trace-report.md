@@ -30,10 +30,9 @@ The  *call trace report* for the [!INCLUDE[vsprvs](../code-quality/includes/vspr
   
     |||  
     |-|-|  
-
     |*ToolsPath*|The path of Profiling Tools command-line tools. For more information, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).|  
     |*VSPFile*|The profiling data (.*vsp* or .*vsps*) file. Full and partial paths are accepted.|  
-    |Xml|Generates an Xml formatted report.|  
+    |Xml|Generates an XML formatted report.|  
 
   
 ## See also  
