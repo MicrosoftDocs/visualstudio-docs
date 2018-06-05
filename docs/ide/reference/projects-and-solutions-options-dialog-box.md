@@ -58,7 +58,7 @@ If you attempt to create a new project or open an existing project in a location
 
 ### Show Output window when build starts
 
-Automatically displays the [Output window](../output-window.md) in the IDE at the outset of solution builds.
+Automatically displays the [Output window](../../ide/reference/output-window.md) in the IDE at the outset of solution builds.
 
 ### Prompt for symbolic renaming when renaming files
 
