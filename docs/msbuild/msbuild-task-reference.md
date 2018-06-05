@@ -221,6 +221,9 @@ Tasks provide the code that runs during the build process. The tasks in the foll
  [XslTransformation Task](../msbuild/xsltransformation-task.md)  
  Transforms an XML input by using an *Extensible Stylesheet Language Transformation* (XSLT) or compiled XSLT and outputs to an output device or a file.  
   
+  [ZipDirectory Task](../msbuild/zipdirectory-task.md)  
+ Creates a `.zip` archive from the contents of a directory.
+  
 ## See Also  
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Task Writing](../msbuild/task-writing.md)   
