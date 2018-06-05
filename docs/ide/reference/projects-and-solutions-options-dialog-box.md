@@ -74,7 +74,7 @@ When selected, Visual Studio displays a confirmation message box before the loca
 
 When selected, documents that were left open the previous time the solution was closed are automatically opened when the solution is opened.
 
-Reopening certain types of files or designers can delay solution load. Uncheck this option to [improve solution load performance](../ide/visual-studio-performance-tips-and-tricks.md#disable-automatic-file-restore) if you don't want to restore the solution's previous context.
+Reopening certain types of files or designers can delay solution load. Uncheck this option to [improve solution load performance](../../ide/visual-studio-performance-tips-and-tricks.md#disable-automatic-file-restore) if you don't want to restore the solution's previous context.
 
 ## Locations page
 
