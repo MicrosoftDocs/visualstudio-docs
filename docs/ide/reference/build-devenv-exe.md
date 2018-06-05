@@ -46,7 +46,7 @@ Devenv SolutionName /build SolnConfigName [/project ProjName [/projectconfig Pro
 
 - The **/build** switch only builds projects that have changed since the last build. To build all projects in a solution, use [/rebuild](../../ide/reference/rebuild-devenv-exe.md) instead.
 
-- If you get an error message that says **Invalid project configuration**, make sure that you've specified a solution and/or project platform, for example **"Debug\|Win32"**.
+- If you get an error message that says **Invalid project configuration**, make sure that you've specified a solution platform or project platform, for example **"Debug\|Win32"**.
 
 ## Example
 
