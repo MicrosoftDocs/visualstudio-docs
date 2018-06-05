@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Creating a business data connectivity model
+# Create a business data connectivity model
   You can create a Business Data Connectivity (BDC) model or customize an existing BDC model by using Visual Studio. Each SharePoint project can contain only one model. For more information, see [Integrating Business Data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md).  
   
 ## Create a new model

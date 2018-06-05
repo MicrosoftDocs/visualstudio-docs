@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# DA0029: Unsupported CLR Version
+# DA0029: Unsupported CLR version
 |||  
 |-|-|  
 |Rule Id|DA0029|  

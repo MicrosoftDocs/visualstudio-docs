@@ -11,14 +11,14 @@ manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# How to: Attach the Profiler to a .NET Service to Collect Memory Data by Using the Command Line
-This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] service and collect memory data. You can collect data about the number and size of memory allocations, and you can also collect data about the lifetime of memory objects.  
+# How to: Attach the profiler to a .NET service to collect memory data by using the command line
+This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] service and collect memory data. You can collect data about the number and size of memory allocations, and you can also collect data about the lifetime of memory objects.  
   
 > [!NOTE]
 >  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. UWP apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
   
 > [!NOTE]
->  Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64 bit computers, both 64 bit and 32 bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
+>  Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
   
  To collect memory data from a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] service, you use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize the appropriate environment variables on the computer that hosts the service. The computer must be restarted to configure it for profiling.  
   
@@ -26,9 +26,9 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
  To end a profiling session, the profiler must be detached from the service and the profiler must be explicitly shut down. In most cases, we recommend clearing the profiling environment variables at the end of a session.  
   
-## Attaching the Profiler  
+## Attach the profiler  
   
-#### To attach the Profiler to a .NET Framework service  
+#### To attach the profiler to a .NET Framework service  
   
 1.  If necessary, install the service.  
   
@@ -85,8 +85,8 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
     -   **targetclr:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.  
   
-## Controlling Data Collection  
- While the service is running, you can use **VSPerfCmd.exe** options to stop and start the writing of data to the profiler data file. Controlling data collection enables you to collect data for a specific part of the program execution, such as starting or shutting down the application.  
+## Control data collection  
+ While the service is running, you can use *VSPerfCmd.exe* options to stop and start the writing of data to the profiler data file. Controlling data collection enables you to collect data for a specific part of the program execution, such as starting or shutting down the application.  
   
 #### To start and stop data collection  
   
@@ -98,7 +98,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
     |[/processon](../profiling/processon-and-processoff.md) **:** `PID` [/processoff](../profiling/processon-and-processoff.md) **:** `PID`|Starts (**/processon**) or stops (**/processoff**) data collection for the process specified by the process ID (`PID`).|  
     |**/attach:**{`PID`&#124;`ProcName`} [/detach](../profiling/detach.md)[:{`PID`&#124;`ProcName`}]|**/attach** starts to collect data for the process specified by the process ID or process name. **/detach** stops data collection for the specified process, or for all processes if a specific process is not specified.|  
   
-## Ending the Profiling Session  
+## End the profiling session  
  To end a profiling session, the profiler must not be collecting data. You can stop the collection of data from an application profiled with the sampling method by stopping the service or by calling the **VSPerfCmd /detach** option. You then call the **VSPerfCmd** [/shutdown](../profiling/shutdown.md) option to turn the profiler off and close the profiling data file. The **VSPerfClrEnv /globaloff** command clears the profiling environment variables, but the system configuration is not reset until the computer is restarted.  
   
 #### To end a profiling session  
@@ -121,6 +121,6 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
 4.  Restart the computer.  
   
-## See Also  
- [Profiling Services](../profiling/command-line-profiling-of-services.md)   
- [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)
+## See also  
+ [Profile services](../profiling/command-line-profiling-of-services.md)   
+ [.NET memory data views](../profiling/dotnet-memory-data-views.md)

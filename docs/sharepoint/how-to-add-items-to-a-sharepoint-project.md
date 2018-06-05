@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add Items to a SharePoint Project
+# How to: Add items to a SharePoint project
   SharePoint solutions contain one or more projects, each of which contains multiple SharePoint project items. After you open or create a SharePoint solution, you can add either new or existing items to these projects. For example, new workflow projects come with a default form that's named default.aspx, but you can replace that form with a new or different form, or add another ASPX form.  
   
 ### To add a new project item to a SharePoint solution  
@@ -27,7 +27,7 @@ ms.workload:
   
 2.  In **Solution Explorer**, choose the project's node.  
   
-3.  On the menu bar, choose **Project**, **Add New Item** to display the **Add New Item** dialog box.  
+3.  On the menu bar, choose **Project** > **Add New Item** to display the **Add New Item** dialog box.  
   
 4.  In the **Installed Templates** list, expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -41,12 +41,11 @@ ms.workload:
   
 2.  In **Solution Explorer**, choose the project's node.  
   
-3.  On the menu bar, choose **Project**, **Add Existing Item** to display the **Add Existing Item** dialog box.  
+3.  On the menu bar, choose **Project** > **Add Existing Item** to display the **Add Existing Item** dialog box.  
   
 4.  Browse to the folder that contains the item that you want to add, choose it, and then choose the **Add** button.  
   
-## See Also  
+## See also
  [SharePoint Project and Project Item Templates](../sharepoint/sharepoint-project-and-project-item-templates.md)   
  [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
-  
   

@@ -16,8 +16,8 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Deploying Extensions for the SharePoint Tools in Visual Studio
-  To deploy a SharePoint tools extension, create a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package that contains the extension assembly and any other files that you want to distribute with the extension. A VSIX package is a compressed file that follows the Open Packaging Conventions (OPC) standard. VSIX packages have the .vsix extension.  
+# Deploy extensions for the SharePoint tools in Visual Studio
+  To deploy a SharePoint tools extension, create a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package that contains the extension assembly and any other files that you want to distribute with the extension. A VSIX package is a compressed file that follows the Open Packaging Conventions (OPC) standard. VSIX packages have the *.vsix* extension.  
   
  After you create a VSIX package, other users can run the .vsix file to install your extension. When a user installs your extension, all of the files are installed to the %UserProfile%\AppData\Local\Microsoft\VisualStudio\11.0\Extensions folder. To deploy the extension, you can upload the VSIX package to the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site, or you can distribute the package to your customers by some other means, such as hosting the package on a network share or some other Web site.  
   
@@ -25,7 +25,7 @@ ms.workload:
   
  You can create a VSIX package by using the **VSIX Project** template in Visual Studio, or you can create a VSIX package manually.  
   
-## Using VSIX Projects to Create VSIX Packages  
+## Use VSIX projects to create VSIX packages
  You can use the **VSIX Project** template provided by the Visual Studio SDK to create VSIX packages for SharePoint tools extensions. Using a VSIX project provides several benefits over creating a VSIX package manually:  
   
 -   Visual Studio automatically generates the VSIX package when you build the project. Tasks such as adding the deployment files to the package and creating the [Content_Types].xml file for the package are done for you.  
@@ -34,7 +34,7 @@ ms.workload:
   
  For more information about using a VSIX project, see [VSIX Project Template](/visualstudio/extensibility/vsix-project-template).  
   
-### Organizing Your Projects  
+### Organize your projects
  By default, VSIX projects only generate VSIX packages, not assemblies. Therefore, you typically do not implement a SharePoint tools extension in a VSIX project. You generally work with at least two projects:  
   
 -   A VSIX project.  
@@ -51,7 +51,7 @@ ms.workload:
   
  If you include all of the projects in the same Visual Studio solution, you can modify the source.extension.vsixmanifest file in the VSIX project to include the build output of the class library projects.  
   
-### Editing the VSIX Manifest  
+### Edit the VSIX manifest
  You must edit the source.extension.vsixmanifest file in the VSIX project to include entries for all the items that you want to include in your extension. When you open the source.extension.vsixmanifest file from its shortcut menu, the file appears in a designer that provides a UI for editing the XML in the file. For more information, see [VSIX Manifest Designer](/visualstudio/extensibility/vsix-manifest-designer).  
   
  You must add entries to the source.extension.vsixmanifest file for the following items:  
@@ -162,7 +162,7 @@ ms.workload:
   
      *YourTemplateName*.zip  
   
-     For example, if you have an item template named ContosoCustomAction.zip that supports the English (United States) locale, the full path might be ItemTemplates\SharePoint\SharePoint14\1033\ContosoCustomAction.zip.  
+     For example, if you have an item template named ContosoCustomAction.zip that supports the English (United States) locale, the full path might be *ItemTemplates\SharePoint\SharePoint14\1033\ContosoCustomAction.zip*.  
   
 3.  In **Solution Explorer**, choose the template file (*YourTemplateName*.zip).  
   
@@ -180,7 +180,7 @@ ms.workload:
   
 8.  In the **Source** list, choose **File on filesystem**.  
   
-9. In the **Path** field, enter the complete path to the assembly (for example, **ItemTemplates\SharePoint\SharePoint14\1033\ContosoCustomAction.zip**, or use the **Browse** button to locate and choose the assembly, and then choose the **OK** button.  
+9. In the **Path** field, enter the complete path to the assembly (for example, *ItemTemplates\SharePoint\SharePoint14\1033\ContosoCustomAction.zip*, or use the **Browse** button to locate and choose the assembly, and then choose the **OK** button.  
   
 ##### To include a wizard for a project template or item template  
   
@@ -202,7 +202,7 @@ ms.workload:
   
 5.  Choose the **OK** button.  
   
-### Related Walkthroughs  
+### Related walkthroughs
  The following table lists walkthroughs that demonstrate how to use a VSIX project to deploy different types of SharePoint tools extensions.  
   
 |Extension type|Related walkthroughs|  
@@ -212,7 +212,7 @@ ms.workload:
 |An extension that includes a Visual Studio template|[Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md)<br /><br /> [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md)|  
 |An extension that includes a template wizard|[Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 2](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md)<br /><br /> [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md)|  
   
-## Creating VSIX Packages Manually  
+## Create VSIX packages manually
  If you want to manually create the VSIX package for your SharePoint tools extension, perform the following steps:  
   
 1.  Create the extension.vsixmanifest file and the [Content_Types].xml file in a new folder. For more information, see [Anatomy of a VSIX Package](/visualstudio/extensibility/anatomy-of-a-vsix-package).  
@@ -255,10 +255,9 @@ ms.workload:
   
 ```  
   
-## See Also  
+## See also
  [Extending the SharePoint Project System](../sharepoint/extending-the-sharepoint-project-system.md)   
  [Extending the SharePoint Connections Node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md)   
  [Calling into the SharePoint Object Models](../sharepoint/calling-into-the-sharepoint-object-models.md)   
  [Debugging Extensions for the SharePoint Tools in Visual Studio](../sharepoint/debugging-extensions-for-the-sharepoint-tools-in-visual-studio.md)  
-  
   

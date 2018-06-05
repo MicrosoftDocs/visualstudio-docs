@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Creating reusable controls for web parts or application pages
+# Create reusable controls for web parts or application pages
   In Visual Studio, you can create custom, reusable controls that can be consumed by application pages and Web Parts that run in SharePoint. These controls are called user controls. A user control is a kind of composite control that works much like an ASP.NET Web page—you can add existing Web server controls and markup to a user control, and define properties and methods for the control. You can then embed them in ASP.NET Web pages, where they act as a unit.  
   
 ## Create a user control

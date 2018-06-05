@@ -11,11 +11,11 @@ manager: douge
 ms.workload: 
   - "aspnet"
 ---
-# How to: Attach the Profiler to an ASP.NET Web Application to Collect Memory Data by Using the Command Line
-This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application and collect data about the number and size of .NET Framework memory allocations. You can also collect data about the lifetime of .NET Framework memory objects.  
+# How to: Attach the profiler to an ASP.NET web application to collect memory data by using the command line
+This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application and collect data about the number and size of .NET Framework memory allocations. You can also collect data about the lifetime of .NET Framework memory objects.  
   
 > [!NOTE]
->  Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
+>  Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself. For more information, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
   
  To collect performance data from a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application, you must use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize the appropriate environment variables on the computer that hosts the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application. You must then restart the computer to configure the Web server for profiling.  
   
@@ -23,9 +23,9 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
  To end a profiling session, the profiler must no longer be attached to the application and the profiler must be explicitly shut down. In most cases, we recommend clearing the profiling environment variables at the end of a session.  
   
-## Attaching the Profiler  
+## Attach the profiler  
   
-#### To attach the Profiler to an ASP.NET Web application  
+#### To attach the profiler to an ASP.NET web application  
   
 1.  Open a Command Prompt window.  
   
@@ -80,7 +80,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
     -   **/targetclr:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application.  
   
-## Controlling Data Collection  
+## Control data collection  
  While the application is running, you can control data collection by starting and stopping the writing of data to the profiler data file by using **VSPerfCmd.exe** options. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.  
   
 #### To start and stop data collection  
@@ -93,7 +93,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
     |[/processon](../profiling/processon-and-processoff.md) **:** `PID` [/processoff](../profiling/processon-and-processoff.md) **:** `PID`|Starts (**/processon**) or stops (**/processoff**) data collection for the process specified by the `PID`.|  
     |**/attach:**{`PID`&#124;`ProcName`} [/detach](../profiling/detach.md)[**:**{`PID`&#124;:`ProcName`}]|**/attach** starts to collect data for the process that is specified by the process ID or process name. **/detach** stops data collection for the specified process or for all processes if a specific process is not specified.|  
   
-## Ending the Profiling Session  
+## End the profiling session  
  To end a profiling session, the profiler must be detached from the Web application. You can stop the collection of data from an application that is profiled with the sampling method by restarting the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process or by calling the **VSPerfCmd /detach** option. You then call the **VSPerfCmd** [/shutdown](../profiling/shutdown.md) option to turn off the profiler and close the profiling data file. The **VSPerfClrEnv /globaloff** command clears the profiling environment variables, but the system configuration is not reset until the computer is restarted.  
   
 #### To end a profiling session  
@@ -120,6 +120,6 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
      **IISReset /start**  
   
-## See Also  
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)
+## See also  
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [.NET memory data views](../profiling/dotnet-memory-data-views.md)

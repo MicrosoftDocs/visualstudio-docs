@@ -24,7 +24,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Creating SharePoint workflow solutions
+# Create SharePoint workflow solutions
   [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] provides tools to help you create custom workflows that manage the life cycle of documents and list items in a SharePoint Web site. Items provided include a designer, a set of activity controls, and the necessary assembly references. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] also includes the **SharePoint Customization Wizard**, to help create and configure the workflows.  
   
  For the list of prerequisites for creating SharePoint projects in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], see [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md). For more information about SharePoint, see [Microsoft SharePoint Products and Technologies](http://go.microsoft.com/fwlink/?LinkId=178470).  
@@ -47,7 +47,7 @@ ms.workload:
   
  For more information about workflow types, see [Workflow Types](http://go.microsoft.com/fwlink/?LinkId=178995).  
   
-### Using the wizard
+### Use the wizard
  When you create a SharePoint workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], you first specify its settings in the **SharePoint Customization Wizard**. The wizard uses these settings to create a project in **Solution Explorer**. This project contains a code file, several files that are used to deploy the workflow, and references to assemblies that are required to create a custom SharePoint workflow.  
   
  After you create the workflow, you can modify its properties in the Properties window. Although most workflow properties can be changed directly in the Properties window, some require you to click an ellipsis button (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")) to change their values. This button restarts the **SharePoint Customization Wizard**. After you make the property value changes, choose the **Finish** button to finalize them.  
@@ -118,7 +118,7 @@ ms.workload:
  You can also collect information from users by using the properties of an item in the SharePoint library or list. The main code file (Workflow1.cs or Workflow1.vb) declares an instance of the Microsoft.SharePoint.Workflow.SPWorkflowActivationProperties.WorkflowProperties class named `workflowProperties`. Use the `workflowProperties` object to access the properties of the library or list in code. For an example, see [Walkthrough: Creating and Debugging a SharePoint Workflow Solution](../sharepoint/walkthrough-creating-and-debugging-a-sharepoint-workflow-solution.md).  
   
 ## Debug a SharePoint workflow template
- You can debug a SharePoint workflow project the same as you debug other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Web-based projects. When you start the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] uses the settings that you specify in the **SharePoint Customization Wizard** to open the appropriate SharePoint Web site and automatically associate the workflow template with the appropriate library or list. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] also attaches the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger to the [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] process named w3wp.exe.  
+ You can debug a SharePoint workflow project the same as you debug other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Web-based projects. When you start the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] uses the settings that you specify in the **SharePoint Customization Wizard** to open the appropriate SharePoint Web site and automatically associate the workflow template with the appropriate library or list. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] also attaches the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger to the [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] process named *w3wp.exe*.  
   
  To test the workflow, you must start it manually. For more information, see the section "Debugging Workflows" in [Debugging SharePoint Solutions](../sharepoint/debugging-sharepoint-solutions.md). For more information about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Web application debugging, see [Debugging Web Applications and Script](/visualstudio/debugger/debugging-web-applications-and-script).  
   
@@ -134,7 +134,7 @@ ms.workload:
 |-----------|-----------------|  
 |[Walkthrough: Creating and Debugging a SharePoint Workflow Solution](../sharepoint/walkthrough-creating-and-debugging-a-sharepoint-workflow-solution.md)|Leads you step-by-step through creating and debugging a simple [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] workflow.|  
 |[Walkthrough: Creating a Workflow with Association and Initiation Forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md)|Leads you step-by-step to creating a more full-featured [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] workflow complete with Association and Initiation forms.|  
-|[Walkthrough: Add an Application Page to a Workflow](../sharepoint/walkthrough-add-an-application-page-to-a-workflow.md)|Builds on the topic [Walkthrough: Creating a Workflow with Association and Initiation Forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md) by adding an additional .aspx application page that reports on data entered into the workflow.|  
+|[Walkthrough: Add an Application Page to a Workflow](../sharepoint/walkthrough-add-an-application-page-to-a-workflow.md)|Builds on the topic [Walkthrough: Creating a Workflow with Association and Initiation Forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md) by adding an additional *.aspx* application page that reports on data entered into the workflow.|  
 |[Walkthrough: Create a Custom Site Workflow Activity](../sharepoint/walkthrough-create-a-custom-site-workflow-activity.md)|Demonstrates how to perform two key tasks: create a site-level workflow, and create a custom workflow activity.|  
 |[Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio](../sharepoint/walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio.md)|Demonstrates how to import reusable declarative workflows created in SharePoint Designer 2010 into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project.|  
   

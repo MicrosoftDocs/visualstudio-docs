@@ -1,5 +1,5 @@
 ---
-title: "Updating Form Regions in Outlook Projects that You Migrate to the .NET Framework 4 or the .NET Framework 4.5 | Microsoft Docs"
+title: "Update form regions in Outlook projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -16,17 +16,17 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Updating Form Regions in Outlook Projects that You Migrate to the .NET Framework 4 or the .NET Framework 4.5
+# Update form regions in Outlook projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5
   If the target framework of an Outlook VSTO Add-in project with a form region is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must make some changes to the generated form region code and to any code that instantiates certain form region classes at run time.  
   
-## Updating the Generated Form Region Code  
- If the target framework of the project is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must change the generated form region code. The changes you make are different for form regions that you designed in Visual Studio and form regions that you imported from Outlook. For more information about the differences between these types of form regions, see [Creating Outlook Form Regions](../vsto/creating-outlook-form-regions.md).  
+## Update the generated form region code  
+ If the target framework of the project is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must change the generated form region code. The changes you make are different for form regions that you designed in Visual Studio and form regions that you imported from Outlook. For more information about the differences between these types of form regions, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).  
   
-#### To update the generated code for a form region that you designed in Visual Studio  
+### To update the generated code for a form region that you designed in Visual Studio  
   
 1.  Open the form region code-behind file in the code editor. This file is named *YourFormRegion*.Designer.cs or *YourFormRegion*.Designer.vb. To see this file in Visual Basic projects, click the **Show All Files** button in **Solution Explorer**.  
   
-2.  Modify the declaration of the form region class so that it derives from <xref:Microsoft.Office.Tools.Outlook.FormRegionBase> instead of Microsoft.Office.Tools.Outlook.FormRegionControl.  
+2.  Modify the declaration of the form region class so that it derives from <xref:Microsoft.Office.Tools.Outlook.FormRegionBase> instead of `Microsoft.Office.Tools.Outlook.FormRegionControl`.  
   
 3.  Modify the constructor of the form region class as shown in the following code examples.  
   
@@ -112,7 +112,7 @@ ms.workload:
   
 1.  Open the form region code-behind file in the code editor. This file is named *YourFormRegion*.Designer.cs or *YourFormRegion*.Designer.vb. To see this file in Visual Basic projects, click the **Show All Files** button in **Solution Explorer**.  
   
-2.  Modify the declaration of the form region class so that it derives from <xref:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase> instead of Microsoft.Office.Tools.Outlook.ImportedFormRegion.  
+2.  Modify the declaration of the form region class so that it derives from <xref:Microsoft.Office.Tools.Outlook.ImportedFormRegionBase> instead of `Microsoft.Office.Tools.Outlook.ImportedFormRegion`.  
   
 3.  Modify the constructor of the form region class as shown in the following code examples.  
   
@@ -152,7 +152,7 @@ ms.workload:
   
 4.  For each line of code in the `InitializeControls` method that initializes a control in the form region class, modify the code as shown below.  
   
-     The following code example shows how to initialize a control in a project that targets the .NET Framework 3.5. In this code, the GetFormRegionControl method has a type parameter that specifies the type of the control that is returned.  
+     The following code example shows how to initialize a control in a project that targets the .NET Framework 3.5. In this code, the `GetFormRegionControl` method has a type parameter that specifies the type of the control that is returned.  
   
     ```vb  
     Me.olkTextBox1 = Me.GetFormRegionControl(Of Microsoft.Office.Interop.Outlook.OlkTextBox)("OlkTextBox1")  
@@ -180,10 +180,10 @@ ms.workload:
   
 8.  In the *YourNewFormRegion*`Factory` and `WindowFormRegionCollection` classes, search for all references to the *YourNewFormRegion* class and change each reference to the *YourOriginalFormRegion* class instead. For example, if the form region you are updating is named `SalesDataFormRegion` and the new form region you created in step 5 is named `FormRegion1`, change all references of `FormRegion1` to `SalesDataFormRegion`.  
   
-## Instantiating Form Region Classes  
- You must modify any code that dynamically instantiates certain form region classes. In projects that target the .NET Framework 3.5, you can instantiate form region classes such as Microsoft.Office.Tools.Outlook.FormRegionManifest directly. In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, these classes are interfaces that you cannot instantiate directly.  
+## Instantiate form region classes  
+ You must modify any code that dynamically instantiates certain form region classes. In projects that target the .NET Framework 3.5, you can instantiate form region classes such as `Microsoft.Office.Tools.Outlook.FormRegionManifest` directly. In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, these classes are interfaces that you cannot instantiate directly.  
   
- If the target framework of your project is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must instantiate the interfaces by using methods that are provided by the Globals.Factory property. For more information about the Globals.Factory property, see [Global Access to Objects in Office Projects](../vsto/global-access-to-objects-in-office-projects.md).  
+ If the target framework of your project is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must instantiate the interfaces by using methods that are provided by the `Globals.Factory` property. For more information about the `Globals.Factory` property, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).  
   
  The following table lists the form region types and the method to use to instantiate the types in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.  
   
@@ -193,7 +193,7 @@ ms.workload:
 |<xref:Microsoft.Office.Tools.Outlook.FormRegionInitializingEventArgs>|<xref:Microsoft.Office.Tools.Outlook.Factory.CreateFormRegionInitializingEventArgs%2A>|  
 |<xref:Microsoft.Office.Tools.Outlook.FormRegionManifest>|<xref:Microsoft.Office.Tools.Outlook.Factory.CreateFormRegionManifest%2A>|  
   
-## See Also  
- [Migrating Office Solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md)   
- [Creating Outlook Form Regions](../vsto/creating-outlook-form-regions.md)  
+## See also  
+ [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md)   
+ [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)  
   
