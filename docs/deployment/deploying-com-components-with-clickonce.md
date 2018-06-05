@@ -64,7 +64,7 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
   
 4.  In Class1.vb, add the following code after the generated code for the `New` method:  
   
-    ```  
+    ```vb  
     Public Sub SayHello()  
        MsgBox "Message from the VB6Hello COM component"  
     End Sub  
@@ -97,7 +97,7 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
   
 8.  Double-click the button to add handler code, and in the code file, add code so that the handler reads as follows:  
   
-    ```  
+    ```vb  
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click  
         Dim VbObj As New VB6Hello.Class1  
         VbObj.SayHello()  

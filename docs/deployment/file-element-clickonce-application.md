@@ -30,7 +30,7 @@ Identifies all nonassembly files downloaded and used by the application.
   
 ## Syntax  
   
-```  
+```xml  
 <file  
     name  
     size  
@@ -182,7 +182,7 @@ Identifies all nonassembly files downloaded and used by the application.
 ## Example  
  The following code example illustrates `file` elements in an application manifest for an application deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)].  
   
-```  
+```xml  
 <file name="Icon.ico" size="9216">  
   <hash>  
     <dsig:Transforms>  

@@ -31,7 +31,7 @@ A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment c
   
 2.  For an operating system prerequisite, add the `supportUrl` attribute to the `dependentOS` element:  
   
-    ```  
+    ```xml  
      <dependency>  
         <dependentOS supportUrl="http://www.adatum.com/MyApplication/wrongOSFound.htm">  
           <osVersionInfo>  
@@ -43,7 +43,7 @@ A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment c
   
 3.  For a prerequisite for a certain version of the common language runtime, add the `supportUrl` attribute to the `dependentAssembly` entry that specifies the common language runtime dependency:  
   
-    ```  
+    ```xml  
       <dependency>  
         <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true" supportUrl=" http://www.adatum.com/MyApplication/wrongClrVersionFound.htm">  
           <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />  
@@ -53,7 +53,7 @@ A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment c
   
 4.  For a prerequisite for an assembly that must be preinstalled in the global assembly cache, set the `supportUrl` for the `dependentAssembly` element that specifies the required assembly:  
   
-    ```  
+    ```xml  
       <dependency>  
         <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true" supportUrl=" http://www.adatum.com/MyApplication/missingSampleGACAssembly.htm">  
           <assemblyIdentity name="SampleGACAssembly" version="5.0.0.0" publicKeyToken="04529dfb5da245c5" processorArchitecture="msil" language="neutral" />  
@@ -65,7 +65,7 @@ A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment c
   
 6.  For a .NET Framework 4 prerequisite, add the `supportUrl` attribute to the `compatibleFrameworks` element:  
   
-    ```  
+    ```xml  
     <compatibleFrameworks  xmlns="urn:schemas-microsoft-com:clickonce.v2" supportUrl="http://adatum.com/MyApplication/CompatibleFrameworks.htm">  
       <framework targetVersion="4.0" profile="Client" supportedRuntime="4.0.30319" />  
       <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />  

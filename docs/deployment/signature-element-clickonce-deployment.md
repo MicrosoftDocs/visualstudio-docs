@@ -22,7 +22,7 @@ Contains the necessary information to digitally sign this deployment manifest.
   
 ## Syntax  
   
-```  
+```xml  
   
       <Signature>   
    XML signature information   
@@ -37,7 +37,7 @@ Contains the necessary information to digitally sign this deployment manifest.
 ## Example  
  The following code example illustrates a `Signature` element in a deployment manifest used in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.  
   
-```  
+```xml  
 <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">  
   <SignedInfo>  
     <CanonicalizationMethod Algorithm=  

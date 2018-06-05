@@ -54,8 +54,6 @@ Each [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applicati
   
      **mage -s deployment manifest -cf certfile -pwd password**  
   
-2.  
-  
 ### To include a data file by using MageUI.exe  
   
 1.  Add the data file to your application directory with the rest of your application's files.  
