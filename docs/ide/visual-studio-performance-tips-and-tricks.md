@@ -18,17 +18,15 @@ Visual Studio performance recommendations are intended for low memory situations
 > [!NOTE]
 > If you’re having difficulty using the product because of memory issues, let us know through the [feedback tool](../ide/how-to-report-a-problem-with-visual-studio-2017.md).
 
-## Optimize your environment
+## Use a 64-bit OS
 
-- **Use a 64-bit OS**
+If you upgrade your system from a 32-bit version of Windows to a 64-bit version, you expand the amount of virtual memory available to Visual Studio from 2 GB to 4 GB. This enables Visual Studio to handle significantly larger workloads, even though it is 32-bit process.
 
-    If you upgrade your system from a 32-bit version of Windows to a 64-bit version, you expand the amount of virtual memory available to Visual Studio from 2 GB to 4 GB. This enables Visual Studio to handle significantly larger workloads even though it is 32-bit process.
-
-    For more information, see [Memory limits](https://msdn.microsoft.com/library/windows/desktop/aa366778(v=vs.85).aspx#memory_limits) and [Use /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
+For more information, see [Memory limits](https://msdn.microsoft.com/library/windows/desktop/aa366778(v=vs.85).aspx#memory_limits) and [Use /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
 
 ## Configure solution and projects
 
-If you have a very large solution with many projects, you may benefit by making the following optimizations:
+If you have a large solution with many projects, you may benefit by making the following optimizations:
 
 - **Unload Projects**
 
@@ -68,12 +66,12 @@ If you are typically running low on memory during debugging sessions, you can op
 
 ## Disable tools and extensions
 
-Some tools or extensions may to turned off to improve performance.
+Some tools or extensions can be turned off to improve performance.
 
 > [!TIP]
 > You can often isolate performance issues by turning off extensions one at a time and rechecking performance.
 
-### Managed Language Services (Roslyn)
+### Managed language service (Roslyn)
 
 For information about .NET Compiler Platform ("Roslyn") performance considerations, see [Performance considerations for large solutions](https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions).
 
@@ -81,7 +79,7 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
     Visual Studio performs analysis on your entire solution in order to provide a rich experience about errors before invoking a build. This feature is useful to identify errors as soon as possible. However, for very large solutions, this feature can consume significant memory resources. If you’re experiencing memory pressure or similar issues, you can disable this experience to free up these resources. By default, this option is enabled for Visual Basic and disabled for C#.
 
-    To disable **Full Solution Analysis**, choose **Tools** > **Options** > **Text Editor** > **<Visual Basic or C#>**. Then choose **Advanced** and deselect **Enable full solution analysis**.
+    To disable **Full Solution Analysis**, choose **Tools** > **Options** > **Text Editor**, then select either **Visual Basic** or **C#**. Choose **Advanced** and deselect **Enable full solution analysis**.
 
 - **Disable CodeLens**
 
@@ -109,6 +107,18 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
     You can use the Visual Studio Installer to remove workloads that are no longer used. This action can streamline the startup and runtime cost by skipping packages and assemblies that aren’t needed anymore.
 
+## Disable automatic file restore
+
+Visual Studio automatically reopens documents that were left open in the previous session. This can make it take longer for a solution to load. Solution load time can increase by up to 30% or more, depending on the project type and the documents being opened. Visual Studio notifies you in a yellow bar when solutions take significantly longer to load due to automatic document restore.
+
+You can disable automatic file reopening by following these steps:
+
+1. Select **Tools** > **Options** to open the **Options** dialog box.
+
+1. On the **Projects and Solution** > **General** page, deselect **Reopen documents on solution load**.
+
+If you disable automatic file restore, you can still search for your recent documents using [Go To](../ide/go-to.md). Select **Edit** > **Go To** > **Go To File**, or press **Ctrl**+**T**.
+
 ## Force a garbage collection
 
 The CLR uses a garbage collection memory management system. In this system, sometimes memory is used by objects that are no longer needed. This state is temporary; the garbage collector will release this memory based on its performance and resource usage heuristics. You can force the CLR to collect any unused memory by using a hotkey in Visual Studio. If there is a significant amount of garbage waiting for collection and you force a garbage collection, you should see the memory usage of the *devenv.exe* process drop in **Task Manager**. It’s rarely necessary to use this method. However, after an expensive operation has completed (such as a full build, debug session, or a solution open event), it can help you determine how much memory is really being used by the process. Because Visual Studio is mixed (managed & native), it’s occasionally possible for the native allocator and the garbage collector to compete for limited memory resources. Under conditions of high memory usage, it may help to force the garbage collector to run.
@@ -122,4 +132,4 @@ For a detailed description of the CLR garbage collector, see [Fundamentals of ga
 ## See also
 
 - [Optimize Visual Studio performance](../ide/optimize-visual-studio-performance.md)
-- [Visual Studio blog - Load solutions faster with Visual Studio 2017 version 15.6](https://blogs.msdn.microsoft.com/visualstudio/2018/04/04/load-solutions-faster-with-visual-studio-2017-version-15-6/)
+- [Load solutions faster (Visual Studio blog)](https://blogs.msdn.microsoft.com/visualstudio/2018/04/04/load-solutions-faster-with-visual-studio-2017-version-15-6/)

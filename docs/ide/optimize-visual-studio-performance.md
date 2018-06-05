@@ -30,18 +30,6 @@ You may have extensions installed that are slowing Visual Studio down. For help 
 
 Similarly, you may have tool windows that are slowing Visual Studio down. For help on managing tool windows, see [Change tool window settings to improve performance](../ide/optimize-visual-studio-startup-time.md#tool-windows).
 
-## Speed up solution load by disabling automatic file restore
-
-Visual Studio automatically reopens documents that were left open in the previous session. This can make it take longer for a solution to load. Solution load time can increase by up to 30% or more depending on the project type and the documents being opened. Visual Studio notifies you in a yellow bar when solutions take significantly longer to load due to automatic document restore.
-
-You can disable automatic file reopening by following these steps:
-
-1. Select **Tools** > **Options** to open the **Options** dialog box.
-
-1. On the **Projects and Solution** > **General** page, deselect **Reopen documents on solution load**.
-
-If you disable automatic file restore, you can still search for your recent documents using [Go To](../ide/go-to.md). Select **Edit** > **Go To** > **Go To File**, or press **Ctrl**+**T**.
-
 ## Hardware
 
 If you're thinking about upgrading your hardware, a solid state drive (SSD) has more effect on performance than additional RAM or a faster CPU.
