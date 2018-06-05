@@ -20,7 +20,7 @@ To include assemblies that aren't part of your solution, obtain the *.pdb* files
 
 ## Run settings file
 
-The [run settings file](../ide/configure-unit-tests-by-using-a-dot-runsettings-file.md) is the configuration file used by unit testing tools. Advanced code coverage settings are specified in a *.runsettings* file.
+The [run settings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) is the configuration file used by unit testing tools. Advanced code coverage settings are specified in a *.runsettings* file.
 
 To customize code coverage, follow these steps:
 
@@ -28,7 +28,7 @@ To customize code coverage, follow these steps:
 
 1. Add the content from the example file at the end of this article, and then customize it to your needs as described in the sections that follow.
 
-1. To select the run settings file, on the **Test** menu, choose **Test Settings** > **Select Test Settings File**. To specify a run settings file for running tests from the command line or in a build workflow, see [Configure unit tests by using a .runsettings file](configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file).
+1. To select the run settings file, on the **Test** menu, choose **Test Settings** > **Select Test Settings File**. To specify a run settings file for running tests from the command line or in a build workflow, see [Configure unit tests by using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file).
 
    When you select **Analyze Code Coverage**, the configuration information is read from the run settings file.
 
