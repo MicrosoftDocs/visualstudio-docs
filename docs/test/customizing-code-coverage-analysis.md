@@ -12,39 +12,32 @@ author: gewarren
 ---
 # Customize code coverage analysis
 
-By default, the Visual Studio Code Coverage tool analyzes all solution assemblies that are loaded during unit tests. We recommend that you retain this default, because it works well most of the time. For more information, see [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
+By default, code coverage analyzes all solution assemblies that are loaded during unit tests. We recommend that you use this default behavior, because it works well most of the time. For more information, see [Use code coverage to determine how much code is tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
-Before customizing the code coverage behavior, consider some alternatives:
+To exclude test code from the code coverage results and only include application code, add the <xref:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute> attribute to your test class.
 
-- *I want to exclude the test code from the code coverage results and include only the application code.*
+To include assemblies that aren't part of your solution, obtain the *.pdb* files for these assemblies and copy them into the same folder as the assembly *.dll* files.
 
-     Add the `ExcludeFromCodeCoverage Attribute` to your test class.
+## Run settings file
 
-- *I want to include assemblies that are not part of my solution.*
+The [run settings file](../ide/configure-unit-tests-by-using-a-dot-rnsettings-file.md) is the configuration file used by unit testing tools. Advanced code coverage settings are specified in a *.runsettings* file.
 
-     Obtain the .pdb files for these assemblies and copy them into the same folder as the assembly .dll files.
+To customize code coverage, follow these steps:
 
-To customize the code coverage behavior, copy the [sample at the end of this topic](#sample) and add it to your solution, using the file extension *.runsettings*. Edit it to your own needs, and then on the **Test** menu, choose **Test Settings** > **Select Test Settings** file. To specify a run settings file for running tests from the command line or as part of a team build, see [Configure unit tests by using a .runsettings file](configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file).
+1. Add a run settings file to your solution. In **Solution Explorer**, on the shortcut menu of your solution, choose **Add** > **New Item**, and select **XML File**. Save the file with a name such as *CodeCoverage.runsettings*.
 
-## The run settings file
+1. Add the content from the example file at the end of this article, and then customize it to your needs as described in the sections that follow.
 
-Advanced code coverage settings are specified in a *.runsettings* file. The run settings file is the configuration file used by unit testing tools. We recommend you copy the [sample at the end of this topic](#sample) and edit it to suit your own needs.
+1. To select the run settings file, on the **Test** menu, choose **Test Settings** > **Select Test Settings File**. To specify a run settings file for running tests from the command line or in a build workflow, see [Configure unit tests by using a .runsettings file](configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file).
 
-To customize code coverage, add a run settings file to your solution:
+   When you select **Analyze Code Coverage**, the configuration information is read from the run settings file.
 
-1. Add an XML file as a solution item with the extension *.runsettings*:
+   > [!TIP]
+   > The previous code coverage results and code coloring aren't automatically hidden when you run tests or update your code.
 
-   In **Solution Explorer**, on the shortcut menu of your solution, choose **Add** > **New Item**, and select **XML File**. Save the file with an extension such as *CodeCoverage.runsettings*.
+To turn the custom settings off and on, deselect or select the file in the **Test** > **Test Settings** menu.
 
-2. Add the content from the example at the end of this article, and then customize it to your needs as described in the sections that follow.
-
-3. On the **Test** menu, choose **Test Settings** > **Select Test Settings File** and select the file.
-
-4. Now when you run **Analyze Code Coverage**, the run settings file will control its behavior. Don't forget that you must run code coverage again. The previous coverage results and code coloring aren't automatically hidden when you run tests or update your code.
-
-5. To turn the custom settings off and on, deselect or select the file in the **Test** > **Test Settings** menu.
-
-   ![Test settings menu with custom settings file](../test/media/codecoverage-settingsfile.png)
+![Test settings menu with custom settings file](../test/media/codecoverage-settingsfile.png)
 
 ### Specify symbol search paths
 
@@ -57,8 +50,8 @@ Code coverage requires symbol files (*.pdb* files) for assemblies. For assemblie
 </SymbolSearchPaths>
 ```
 
-> [!WARNING]
-> Symbol resolution can take time, especially when using a remote file location with many assemblies. Therefore, consider copying remote .pdb files to the same local location as the binary (*.dll* and *.exe*) files.
+> [!NOTE]
+> Symbol resolution can take time, especially when using a remote file location with many assemblies. Therefore, consider copying *.pdb* files to the same local location as the binary (*.dll* and *.exe*) files.
 
 ### Exclude and include
 
@@ -124,54 +117,48 @@ For example:
 ```
 
 > [!WARNING]
-> If there is an error in a regular expression, such as an unescaped and unmatched parenthesis, then code coverage analysis will not run.
+> If there is an error in a regular expression, such as an unescaped or unmatched parenthesis, code coverage analysis won't run.
 
 ### Other ways to include or exclude elements
 
-See the [sample at the end of this topic](#sample) for examples.
+- **ModulePath** - matches assemblies specified by assembly file path.
 
-- **ModulePath** - Assemblies specified by assembly file path.
+- **CompanyName** - matches assemblies by the **Company** attribute.
 
-- **CompanyName** - matches assemblies by the Company attribute.
-
-- **PublicKeyToken** - matches signed assemblies by the public key token. For example to match all Visual Studio components and extensions, use `<PublicKeyToken>^B03F5F7F11D50A3A$</PublicKeyToken>`.
+- **PublicKeyToken** - matches signed assemblies by the public key token.
 
 - **Source** - matches elements by the path name of the source file in which they are defined.
 
-- **Attribute** - matches elements to which a particular attribute is attached. Specify the full name of the attribute, including "Attribute" at the end of the name.
+- **Attribute** - matches elements to which a particular attribute is attached. Specify the full name of the attribute, and inclue "Attribute" at the end of the name.
 
-- **Function** - matches procedures, functions, or methods by fully qualified name.
+- **Function** - matches procedures, functions, or methods by fully qualified name. To match a function name, the regular expression must match the fully qualified name of the function, including namespace, class name, method name, and parameter list. For example:
 
-**Matching a function name**
+   ```csharp
+   Fabrikam.Math.LocalMath.SquareRoot(double);
+   ```
 
-Your regular expression must match the fully qualified name of the function, including namespace, class name, method name, and parameter list. For example:
+   ```cpp
+   Fabrikam::Math::LocalMath::SquareRoot(double)
+   ```
 
-```csharp
-Fabrikam.Math.LocalMath.SquareRoot(double);
-```
+   ```xml
+   <Functions>
+     <Include>
+       <!-- Include methods in the Fabrikam namespace: -->
+       <Function>^Fabrikam\..*</Function>
+       <!-- Include all methods named EqualTo: -->
+       <Function>.*\.EqualTo\(.*</Function>
+     </Include>
+     <Exclude>
+       <!-- Exclude methods in a class or namespace named UnitTest: -->
+       <Function>.*\.UnitTest\..*</Function>
+     </Exclude>
+   </Functions>
+   ```
 
-```cpp
-Fabrikam::Math::LocalMath::SquareRoot(double)
-```
+## Sample .runsettings file
 
-```xml
-<Functions>
-  <Include>
-    <!-- Include methods in the Fabrikam namespace: -->
-    <Function>^Fabrikam\..*</Function>
-    <!-- Include all methods named EqualTo: -->
-    <Function>.*\.EqualTo\(.*</Function>
-  </Include>
-  <Exclude>
-    <!-- Exclude methods in a class or namespace named UnitTest: -->
-    <Function>.*\.UnitTest\..*</Function>
-  </Exclude>
-</Functions>
-```
-
-## <a name="sample"></a> Sample .runsettings file
-
-Copy this code and edit it to suit your own needs.
+Copy this code and edit it to suit your needs.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -287,5 +274,5 @@ Included items must then not match any entries in the exclude list to remain inc
 ## See also
 
 - [Configure unit tests by using a run settings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)
-- [Using Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)
-- [Unit Test Your Code](../test/unit-test-your-code.md)
+- [Use code coverage to determine how much code is tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)
+- [Unit test your code](../test/unit-test-your-code.md)

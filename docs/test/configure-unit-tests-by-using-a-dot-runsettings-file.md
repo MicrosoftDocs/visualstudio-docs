@@ -18,7 +18,7 @@ Run settings files are optional. If you don't require any special configuration,
 
 ## Specify a run settings file
 
-Run settings files can be used to configure tests that are from the command line, in the IDE, or using the [VSTest task](/vsts/pipelines/tasks/test/vstest?view=vsts) in a CI/CD pipeline.
+Run settings files can be used to configure tests that are run from the command line, in the IDE, or in a [build workflow](/vsts/pipelines/test/getting-started-with-continuous-testing?view=vsts) using Visual Studio Team Services (VSTS) or Team Foundation Server (TFS).
 
 ### Specify a run settings file in the IDE
 
@@ -28,7 +28,7 @@ Select **Test** > **Test Settings** > **Select Test Settings File** and then sel
 
 ### Specify a run settings file at the command line
 
-To run tests from the command line, use *vstest.console.exe*. Pass the settings file to the test program using the **/Settings** parameter.
+To run tests from the command line, use *vstest.console.exe* and specify the settings file by using the **/Settings** parameter.
 
 1. Launch the Visual Studio Developer Command Prompt:
 
@@ -39,21 +39,6 @@ To run tests from the command line, use *vstest.console.exe*. Pass the settings 
    ```cmd
    vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage /Settings:CodeCoverage.runsettings
    ```
-
-### Specify a run settings file in a build definition
-
-![Specify test settings file in a build definition](../test/media/codecoverage-buildrunsettings.png)
-
-1. Make sure your run settings file is checked in.
-
-2. In **Team Explorer**, open **Builds**, and then add or edit a build definition.
-
-3. On the **Process** page, expand **Automated Tests** > **Test Source** > **Run Settings**. Select the *.runsettings* file.
-
-   > [!TIP]
-   > If **Test Assembly** appears instead of **Test Source**, and you can only select *.testsettings* files, set the **Test Runner** property as follows. Under **Automated Tests**, select **Test Assembly**, and then choose **[...]** at the end of the line. In the **Add/Edit Test Run** dialog box, set **Test Runner** to **Visual Studio Test Runner**.
-
-   The results are visible in the summary section of the build report.
 
 ## Customize tests
 
@@ -262,3 +247,4 @@ These settings are specific to the test adapter that runs test methods that have
 ## See also
 
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
+- [Visual Studio Test task (VSTS)](/vsts/pipelines/tasks/test/vstest?view=vsts)
