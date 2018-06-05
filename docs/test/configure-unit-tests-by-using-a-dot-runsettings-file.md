@@ -34,7 +34,7 @@ To run tests from the command line, use *vstest.console.exe* and specify the set
 
    On the Windows **Start** menu, choose **Visual Studio 2017** > **Developer Command Prompt for VS 2017**.
 
-2. Enter a command similar to the following:
+2. Enter a command similar to:
 
    ```cmd
    vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage /Settings:CodeCoverage.runsettings
@@ -51,7 +51,7 @@ To customize your tests using a *.runsettings* file, follow these steps:
 
 1. Replace the file contents with the XML from the example that follows, and customize it as needed.
 
-1. On the **Test** menu, choose **Test Settings** > **Select Test Settings File**. Browse to the *.runsettings* file you created and select **OK**.
+1. On the **Test** menu, choose **Test Settings** > **Select Test Settings File**. Browse to the *.runsettings* file you created, and then select **OK**.
 
    > [!TIP]
    > You can create more than one *.runsettings* file in your solution and select one as the active test settings file as needed.
