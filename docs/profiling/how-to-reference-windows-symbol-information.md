@@ -17,12 +17,12 @@ ms.workload:
   - "multiple"
 ---
 # How to: Reference Windows Symbol Information
-The Visual Studio Profiling Tools use symbol (.pdb) files to resolve symbolic names such as function names in program binaries. You can follow these steps to automatically download and update the correct .pdb files for the version of Windows on the local computer.  
+The Visual Studio Profiling Tools use symbol (.*pdb*) files to resolve symbolic names such as function names in program binaries. You can follow these steps to automatically download and update the correct .*pdb* files for the version of Windows on the local computer.  
   
 > [!NOTE]
 >  This setting does not affect existing reports. Only reports created after specifying the symbol server will have the symbol information.  
   
- For more information, see [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  
+ For more information, see [Specify symbol (.*pdb*) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  
   
 ### To use the Microsoft symbol server  
   
@@ -42,6 +42,6 @@ The Visual Studio Profiling Tools use symbol (.pdb) files to resolve symbolic na
   
      You can also click the ellipsis button (**...**) and then select a directory from the **Browse for Folder** dialog box.  
   
-## See Also  
- [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
- [How to: Serialize Symbol Information](../profiling/how-to-serialize-symbol-information.md)
+## See also  
+ [Configure performance sessions](../profiling/configuring-performance-sessions.md)   
+ [How to: Serialize symbol information](../profiling/how-to-serialize-symbol-information.md)

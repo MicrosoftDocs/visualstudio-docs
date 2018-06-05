@@ -2,6 +2,10 @@
   href: ide/index.md
 - name: Overview
   href: ide/visual-studio-ide.md
+  expanded: true
+  items:
+    - name: Advanced features
+      href: ide/advanced-feature-overview.md
 - name: Installation
   items:
   - name: Install Visual Studio
@@ -630,6 +634,8 @@
       href: ide/how-to-customize-menus-and-toolbars-in-visual-studio.md
     - name: Customize window layouts
       href: ide/customizing-window-layouts-in-visual-studio.md
+    - name: Customize file nesting in Solution Explorer
+      href: ide/file-nesting-solution-explorer.md
     - name: Customize the Start Page
       href: ide/customizing-the-start-page-for-visual-studio.md
     - name: Find and use Visual Studio extensions
@@ -656,7 +662,7 @@
       href: ide/user-permissions-and-visual-studio.md
     - name: Security bibliography
       href: ide/security-bibliography.md
-  - name: Manage Accessibility Features
+  - name: Manage accessibility features
     href: ide/reference/accessibility-features-of-visual-studio.md
     items:
     - name: Set IDE Accessibility Options
@@ -1043,6 +1049,8 @@
       href: /visualstudio/releasenotes/vs2017-relnotes-history?context=visualstudio/default
     - name: Release rhythm
       href: /visualstudio/productinfo/vs2017-release-rhythm?context=visualstudio/default
+    - name: Visual Studio roadmap
+      href: /visualstudio/productinfo/vs2018-roadmap?context=visualstudio/default
     - name: System requirements
       href: /visualstudio/productinfo/vs2017-system-requirements-vs?context=visualstudio/default
     - name: Platform compatibility

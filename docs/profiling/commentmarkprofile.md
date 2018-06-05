@@ -15,7 +15,7 @@ ms.workload:
   - "multiple"
 ---
 # CommentMarkProfile
-The `CommentMarkProfile` function inserts a numeric marker and a text string in the .vsp file. For the mark and comment to be inserted, profiling for the thread that contains the `CommentMarkProfile` function must be ON.  
+The `CommentMarkProfile` function inserts a numeric marker and a text string in the .*vsp* file. For the mark and comment to be inserted, profiling for the thread that contains the `CommentMarkProfile` function must be ON.  
   
 ## Syntax  
   
@@ -50,7 +50,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkProfile(
 ## Remarks  
  The profiling state for the thread that contains the mark profile function must be on when marks and comments inserted with the VSInstr Mark command or with functions (CommentMarkAtProfile, CommentMarkProfile, or MarkProfile).  
   
- Profile marks are global in scope. For example, a profile mark inserted in one thread can be used to mark the start or end of a data segment in any thread in the .vsp file.  
+ Profile marks are global in scope. For example, a profile mark inserted in one thread can be used to mark the start or end of a data segment in any thread in the .*vsp* file.  
   
 > [!IMPORTANT]
 >  CommentMarkProfile method can only be used with instrumentation.  

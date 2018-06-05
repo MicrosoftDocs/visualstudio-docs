@@ -23,7 +23,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add an Entity to a Model
+# How to: Add an entity to a model
   To create an entity, add an entity control from the Visual Studio **Toolbox** onto the Business Data Connectivity (BDC) designer.  
   
 ### To add an entity to the model  
@@ -46,11 +46,11 @@ ms.workload:
      [!code-csharp[SP_BDC_Entity_Data_Class#1](../sharepoint/codesnippet/CSharp/sp_bdc_entity_data_class/bdcmodel1/contact.cs#1)]
      [!code-vb[SP_BDC_Entity_Data_Class#1](../sharepoint/codesnippet/VisualBasic/sp_bdc_entity_data_class/bdcmodel1/contact.vb#1)]  
   
-## See Also  
+## See also
  [How to: Add a Creator Method](../sharepoint/how-to-add-a-creator-method.md)   
  [How to: Add a Deleter Method](../sharepoint/how-to-add-a-deleter-method.md)   
  [How to: Add an Updater Method](../sharepoint/how-to-add-an-updater-method.md)   
  [How to: Add a Finder Method](../sharepoint/how-to-add-a-finder-method.md)   
  [How to: Add a Specific Finder Method](../sharepoint/how-to-add-a-specific-finder-method.md)  
   
-  
+ 

@@ -13,7 +13,7 @@ ms.technology: vs-ide-modeling
 # Creating a Windows Forms-Based Domain-Specific Language
 You can use Windows Forms to display the state of a domain-specific language (DSL) model, instead of using a DSL diagram. This topic walks you through binding a Windows Form to a DSL, using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK.
 
- ![DSL&#45;Wpf&#45;2](../modeling/media/dsl-wpf-2.png "DSL-Wpf-2")
+ ![DSL&#45;Wpf&#45;2](../modeling/media/dsl-wpf-2.png)
 A DSL instance, showing a Windows Form UI and the model explorer.
 
 ## Creating a Windows Forms DSL
@@ -64,7 +64,7 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 ## Updating the DSL Definition
  The following the DSL definition is used in this walkthrough.
 
- ![DSL&#45;Wpf&#45;1](../modeling/media/dsl-wpf-1.png "DSL-Wpf-1")
+ ![DSL&#45;Wpf&#45;1](../modeling/media/dsl-wpf-1.png)
 
 #### To update the DSL definition
 
@@ -123,7 +123,7 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
      The properties and relationships of your model class appear in the Data Sources window.
 
-     ![DslWpf&#45;3](../modeling/media/dslwpf-3.png "DslWpf-3")
+     ![DslWpf&#45;3](../modeling/media/dslwpf-3.png)
 
 #### To connect your model to a form
 
@@ -168,7 +168,7 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
 -   It ensures that, when the user selects a row, the Properties window displays the properties of the corresponding model element, instead of the data grid row.
 
- ![DslWpf4](../modeling/media/dslwpf4.png "DslWpf4")
+ ![DslWpf4](../modeling/media/dslwpf4.png)
 Schema of links between data sources and views.
 
 #### To complete the bindings to the DSL
@@ -298,7 +298,7 @@ Schema of links between data sources and views.
 
      You should be able to edit the name of the element in the data grid view. You can also delete it from there.
 
- ![DSL&#45;Wpf&#45;2](../modeling/media/dsl-wpf-2.png "DSL-Wpf-2")
+ ![DSL&#45;Wpf&#45;2](../modeling/media/dsl-wpf-2.png)
 
 ### About the code to add an element
  For the new element buttons, the following alternative code is slightly simpler.

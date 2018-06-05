@@ -25,9 +25,9 @@ The walkthrough uses a C# application to demonstrate how to use the [!INCLUDE[vs
   
  The Visual Studio profiler allows you to limit the collection of data. This walkthrough offers an example of how to limit the collection of data by using the profiler APIs. The Visual Studio profiler provides an API for controlling data collection from within an application.  
   
- For native code, the Visual Studio profiler APIs are in VSPerf.dll. The header file, VSPerf.h, and the import library, VSPerf.lib, are located in the Microsoft Visual Studio 9\Team Tools\Performance Tools directory.  
+ For native code, the Visual Studio profiler APIs are in *VSPerf.dll*. The header file, *VSPerf.h*, and the import library, *VSPerf.lib*, are located in the *Microsoft Visual Studio 9\Team Tools\Performance Tools* directory.  
   
- For managed code, the profiler APIs are in the Microsoft.VisualStudio.Profiler.dll. This DLL is found in the Microsoft Visual Studio 9\Team Tools\Performance Tools directory. For more information, see <xref:Microsoft.VisualStudio.Profiler>.  
+ For managed code, the profiler APIs are in the *Microsoft.VisualStudio.Profiler.dll*. This DLL is found in the *Microsoft Visual Studio 9\Team Tools\Performance Tools* directory. For more information, see <xref:Microsoft.VisualStudio.Profiler>.  
   
 ## Prerequisites  
  This walkthrough assumes your choice of development environment is configured to support debugging and sampling. The following topics provide an overview of these prerequisites:  
@@ -53,7 +53,7 @@ DataCollection.CurrentId);
 1.  Create a new C# project in Visual Studio, or use a command line build, depending on your preference.  
   
     > [!NOTE]
-    >  Your build must reference the Microsoft.VisualStudio.Profiler.dll library, located in the Microsoft Visual Studio 9\Team Tools\Performance Tools directory.  
+    >  Your build must reference the *Microsoft.VisualStudio.Profiler.dll* library, located in the*Microsoft Visual Studio 9\Team Tools\Performance Tools* directory.  
   
 2.  Copy and paste the following code into your project:  
   
@@ -112,7 +112,7 @@ DataCollection.CurrentId);
   
 #### To collect and view data in the Visual Studio IDE  
   
-1.  Open the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. On to the **Analyze** menu, point to **Profiler**, and then select **New Performance Session.**  
+1.  Open the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE. On to the **Analyze** menu, point to **Profiler**, and then select **New Performance Session**.  
   
 2.  Add your compiled binary to the **Targets** list in the **Performance Explorer** window. Right-click **Targets**, and then select **Add Target Binary**. Locate the binary in the **Add Target Binary** dialog box, and then click **Open**.  
   
@@ -152,10 +152,10 @@ DataCollection.CurrentId);
   
 8.  Type the following command:**VSPerfReport /calltrace:\<filename>.vsp**  
   
-     A .csv file is created in the current directory with the resulting performance data.  
+     A .*csv* file is created in the current directory with the resulting performance data.  
   
 ## See also  
  <xref:Microsoft.VisualStudio.Profiler>   
  [Visual Studio profiler API reference (native)](../profiling/visual-studio-profiler-api-reference-native.md)   
  [Getting started](../profiling/getting-started-with-performance-tools.md)   
- [Profiling from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)
+ [Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)

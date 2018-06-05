@@ -128,10 +128,10 @@ Threads View
  The sleep report shows the calls that are responsible for sleep blocks, together with the aggregate blocking times of each call stack. For more information, see [Sleep time](../profiling/sleep-time.md).  
   
 #### Memory management  
- The memory management report shows the calls where memory management blocks occurred, together with the aggregate blocking times of each call stack. You can use this information to identify areas that have excessive paging or garbage collection issues.  For more information, see [Memory Management Time](../profiling/memory-management-time.md).  
+ The memory management report shows the calls where memory management blocks occurred, together with the aggregate blocking times of each call stack. You can use this information to identify areas that have excessive paging or garbage collection issues.  For more information, see [Memory management time](../profiling/memory-management-time.md).  
   
 #### Preemption  
- The Preemption report shows the instances where processes on the system preempted the current process and the individual threads that replaced threads in the current process. You can use this information to identify the processes and threads that are most responsible for preemption. For more information, see [Preemption Time](../profiling/preemption-time.md).  
+ The Preemption report shows the instances where processes on the system preempted the current process and the individual threads that replaced threads in the current process. You can use this information to identify the processes and threads that are most responsible for preemption. For more information, see [Preemption time](../profiling/preemption-time.md).  
   
 #### UI processing  
  The UI processing report shows the calls that are responsible for UI processing blocks, together with the aggregate blocking times of each call stack. For more information, see [UI processing time](../profiling/ui-processing-time.md).  

@@ -17,7 +17,7 @@ ms.workload:
 
 **Previous step: [Serve static files, add pages, and use template inheritance](learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)**
 
-Now that you've explored the basics of Django by building an app upon the "Blank Django App Project" template in Visual Studio, you can easily understand the fuller app that's produced by the "Django Web Project" template.
+Now that you've explored the basics of Django by building an app upon the "Blank Django Web Project" template in Visual Studio, you can easily understand the fuller app that's produced by the "Django Web Project" template.
 
 In this step you now:
 
@@ -36,7 +36,7 @@ The template also provides basic authentication, which is covered in the Step 5.
 
 1. Because the template again includes a `requirements.txt` file, Visual Studio asks where to install those dependencies. Choose the option, **Install into a virtual environment**, and in the **Add Virtual Environment** dialog select **Create** to accept the defaults.
 
-1. Once Python finishes setting up the virtual environment, follow the instructions in the displayed `readme.html` to create a Django super user (that is, an administrator). Just right-click the Visual Studio project and select the **Python** > **Django Create Superuser** command, then follow the prompts. Make sure to record your username and password as you use it when exercising the authentication features of the app.
+1. Once Visual Studio finishes setting up the virtual environment, follow the instructions in the displayed `readme.html` to create a Django super user (that is, an administrator). Just right-click the Visual Studio project and select the **Python** > **Django Create Superuser** command, then follow the prompts. Make sure to record your username and password as you use it when exercising the authentication features of the app.
 
 1. Set the "DjangoWeb" project to be the default for the Visual Studio solution by right-clicking that project in **Solution Explorer** and selecting **Set as Startup Project**. The startup project, which is shown in bold, is what's run when you start the debugger.
 

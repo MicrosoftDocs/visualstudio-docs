@@ -194,17 +194,17 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 
  **Connection Coming in to an OutPort from a Nested Component**
 
- ![Connection Builder](../modeling/media/connectionbuilder_3.png "ConnectionBuilder_3")
+ ![Connection Builder](../modeling/media/connectionbuilder_3.png)
 
  Therefore, you might want to specify that a connection can come from a nested component to an OutPort. To specify such a connection, you set **Uses Custom Accept** on the **InPort** type as source role and the **OutPort** type as target role in the **DSL Details** window as shown in the following illustrations:
 
  **Link Connect Directive in DSL Explorer**
 
- ![Connection builder image](../modeling/media/connectionbuilder_4a.png "ConnectionBuilder_4a")
+ ![Connection builder image](../modeling/media/connectionbuilder_4a.png)
 
  **Link Connect Directive in DSL Details Window**
 
- ![](../modeling/media/connectionbuilder_4b.png "ConnectionBuilder_4b")
+ ![](../modeling/media/connectionbuilder_4b.png)
 
  You must then provide methods in the ConnectionBuilder class:
 

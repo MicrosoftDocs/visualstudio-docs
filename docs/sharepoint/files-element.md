@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Files Element
+# Files element
   Specifies the files to deploy with the SharePoint project item, such as Feature element files and the output of dependent non-SharePoint projects.  
   
 ## Syntax  
@@ -31,35 +31,35 @@ ms.workload:
 ## Type  
  **FileCollectionType**  
   
-## Attributes and Elements  
+## Attributes and elements
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements
   
 |Element|Description|  
 |-------------|-----------------|  
 |[ProjectItemFile](../sharepoint/projectitemfile-element.md)|Optional **ProjectItemFileType** element.<br /><br /> Represents a SharePoint file, such as Feature element file, to include with the project item when it is deployed to SharePoint.|  
 |[ProjectOutputFile](../sharepoint/projectoutputfile-element.md)|Optional **ProjectOutputFileType** element.<br /><br /> Represents the output of a project to include with the project item when it is deployed to SharePoint.|  
   
-### Parent Elements  
+### Parent elements
   
 |Element|Description|  
 |-------------|-----------------|  
 |[ProjectItem](../sharepoint/projectitem-element.md)|Represents a SharePoint project item. This element the required root element of the `.spdata` file.|  
   
-## Element Information  
+## Element information
   
 |||  
 |-|-|  
-|**Namespace**|http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel|  
+|**Namespace**|http<nolink>://schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|  
 |**Schema name**|SharePoint Project Item Schema|  
 |**Validation file**|ProjectItemModelSchema.xsd|  
 |**Can be empty**|No|  
   
-## See Also  
+## See also
  [SharePoint Project Item Schema Reference](../sharepoint/sharepoint-project-item-schema-reference.md)  
   
   
