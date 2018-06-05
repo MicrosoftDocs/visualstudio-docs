@@ -54,7 +54,7 @@ Because the installation directory is a protected directory by default, you must
 
 ### To build the Dia2Dump sample at the command line
 
-1. In a Developer command prompt window, change to the directory where you copied the sample files. If you did not copy the sample to another directory, you must use an elevated (run as adminstrator) Developer command prompt window.
+1. In a Developer command prompt window, change to the directory where you copied the sample files. If you did not copy the sample to another directory, you must use an elevated (run as administrator) Developer command prompt window.
 
 1. Enter the command `nmake makefile` to build the default Debug configuration of Dia2Dump.exe.
 
