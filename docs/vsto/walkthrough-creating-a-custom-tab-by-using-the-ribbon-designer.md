@@ -32,7 +32,7 @@ ms.workload:
   
 -   [Create a custom tab](#BKMK_CreateCustomTab).  
   
--   [Hide and show actions panes by using Buttons on the custom tab](#BKMK_HideShowActionsPane).  
+-   [Hide and show actions panes by using buttons on the custom tab](#BKMK_HideShowActionsPane).  
   
 > [!NOTE]  
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
@@ -156,10 +156,10 @@ ms.workload:
 -   Extend a standard or custom Microsoft Office Outlook form. For more information, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).  
   
 ## See also  
- [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)   
+ [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)   
  [Ribbon overview](../vsto/ribbon-overview.md)   
  [Ribbon Designer](../vsto/ribbon-designer.md)   
- [Customize a Ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)   
+ [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)   
  [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)   
  [How to: Change the position of a tab on the ribbon](../vsto/how-to-change-the-position-of-a-tab-on-the-ribbon.md)   
  [How to: Customize a built-in tab](../vsto/how-to-customize-a-built-in-tab.md)   

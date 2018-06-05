@@ -56,7 +56,7 @@ ms.workload:
 ## Create the VSTO Add-ins tab  
  To create the **Add-Ins** tab, add a **Ribbon (XML)** item to your project. Later in this walkthrough, you will add some buttons to this tab.  
   
-### To create the Add-Ins tab  
+### To create the Add-ins tab  
   
 1.  On the **Project** menu, click **Add New Item**.  
   
@@ -119,18 +119,18 @@ ms.workload:
      [!code-csharp[Trin_Ribbon_Custom_Tab_XML#3](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.cs#3)]
      [!code-vb[Trin_Ribbon_Custom_Tab_XML#3](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.vb#3)]  
   
-## Testing the VSTO Add-In  
- When you run the project, Word opens and the tab named **Add-Ins** appears on the Ribbon. Click the **Insert Text** and **Insert Table** buttons on the **Add-Ins** tab to test the code.  
+## Testing the VSTO Add-in  
+ When you run the project, Word opens and the tab named **Add-Ins** appears on the ribbon. Click the **Insert Text** and **Insert Table** buttons on the **Add-Ins** tab to test the code.  
   
 ### To test your VSTO Add-in  
   
 1.  Press **F5** to run your project.  
   
-2.  Confirm that the **Add-Ins** tab is visible on the Ribbon.  
+2.  Confirm that the **Add-Ins** tab is visible on the ribbon.  
   
 3.  Click the **Add-Ins** tab.  
   
-4.  Confirm that the **Content** group is visible on the Ribbon.  
+4.  Confirm that the **Content** group is visible on the ribbon.  
   
 5.  Click the **Insert Text** button in the **Content** group.  
   
@@ -143,9 +143,9 @@ ms.workload:
 ## Next steps  
  You can learn more about how to customize the Office UI from these topics:  
   
--   Customize the Ribbon of a different Office application. For more information about the applications that support customizing the Ribbon, see [Ribbon overview](../vsto/ribbon-overview.md).  
+-   Customize the ribbon of a different Office application. For more information about the applications that support customizing the ribbon, see [Ribbon overview](../vsto/ribbon-overview.md).  
   
--   Customize the Ribbon of an Office application by using the Ribbon Designer. For more information, see [Ribbon Designer](../vsto/ribbon-designer.md).  
+-   Customize the ribbon of an Office application by using the Ribbon Designer. For more information, see [Ribbon Designer](../vsto/ribbon-designer.md).  
   
 -   Create a custom actions pane. For more information, see [Actions pane overview](../vsto/actions-pane-overview.md).  
   
