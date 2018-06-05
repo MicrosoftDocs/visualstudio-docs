@@ -204,7 +204,7 @@ To customize any other type of diagnostic data adapters, use a [test settings fi
 </TestRunParameters>
 ```
 
-Test run parameters provides a way to define variables and values that are available to the tests at runtime. Access the parameters using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties%2A> property:
+Test run parameters provides a way to define variables and values that are available to the tests at runtime. Access the parameters using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties%2A?displayProperty=nameWithType> property:
 
 ```csharp
 [TestMethod]
@@ -238,7 +238,7 @@ These settings are specific to the test adapter that runs test methods that have
 |**SettingsFile**||You can specify a test settings file to use with the MSTest adapter here. You can also specify a test settings file by selecting **Test** > **Test Settings** > **Select Test Settings File**.<br /><br />If you specify this value, you must also set the **ForcedlegacyMode** to **true**.<br /><br />`<ForcedLegacyMode>true</ForcedLegacyMode>`|
 |**KeepExecutorAliveAfterLegacyRun**|false|After a test run is completed, MSTest is shut down. Any process that is launched as part of the test is also killed. If you want to keep the test executor alive, turn this configuration to true. For example, you could use this setting to keep the browser running between coded UI tests.|
 |**DeploymentEnabled**|true|If you set the value to false, deployment items that you have specified in your test method will not be copied to the deployment directory.|
-|**CaptureTraceOutput**|true|You can write to the debug trace from your test method using <xref:System.Diagnostics.Trace.WriteLine%2A>.|
+|**CaptureTraceOutput**|true|You can write to the debug trace from your test method using <xref:System.Diagnostics.Trace.WriteLine%2A?displayProperty=nameWithType>.|
 |**DeleteDeploymentDirectoryAfterTestRunIsComplete**|true|To retain the deployment directory after a test run, set this value to **false**.|
 |**MapInconclusiveToFailed**|false|If a test completes with an inconclusive status, it is usually mapped to the skipped status in **Test Explorer**. If you want inconclusive tests to be shown as failed, set the value to **true**.|
 |**InProcMode**|false|If you want your tests to be run in the same process as the MSTest adapter, set this value to **true**. This setting provides a minor performance gain. But if a test exits with an exception, the other tests will not continue.|

@@ -20,7 +20,7 @@ To include assemblies that aren't part of your solution, obtain the *.pdb* files
 
 ## Run settings file
 
-The [run settings file](../ide/configure-unit-tests-by-using-a-dot-rnsettings-file.md) is the configuration file used by unit testing tools. Advanced code coverage settings are specified in a *.runsettings* file.
+The [run settings file](../ide/configure-unit-tests-by-using-a-dot-runsettings-file.md) is the configuration file used by unit testing tools. Advanced code coverage settings are specified in a *.runsettings* file.
 
 To customize code coverage, follow these steps:
 
