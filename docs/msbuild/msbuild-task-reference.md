@@ -197,6 +197,9 @@ Tasks provide the code that runs during the build process. The tasks in the foll
  [UnregisterAssembly Task](../msbuild/unregisterassembly-task.md)  
  Unregisters the specified assemblies for COM interop purposes.  
   
+ [Unzip Task](../msbuild/unzip-task.md)  
+ Unzips a `.zip` archive to the specified location.
+  
  [UpdateManifest Task](../msbuild/updatemanifest-task.md)  
  Updates selected properties in a manifest and resigns.  
   
