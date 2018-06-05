@@ -33,7 +33,7 @@ You can allow an element to be dragged onto another, either from the toolbox or 
 
  The responsibility of an EMD is to decide how an object or group of objects should be merged into a particular location in the model. In particular, it decides what relationships should be instantiated to link the merged group into the model. You can also customize it to set properties and to create additional objects.
 
- ![DSL&#45;EMD&#95;Merge](../modeling/media/dsl-emd_merge.png "DSL-EMD_Merge")
+ ![DSL&#45;EMD&#95;Merge](../modeling/media/dsl-emd_merge.png)
 The role of an Element Merge Directive
 
  An EMD is generated automatically when you define an embedding relationship. This default EMD creates an instance of the relationship when users add new child instances to the parent. You can modify these default EMDs, for example by adding custom code.
@@ -43,7 +43,7 @@ The role of an Element Merge Directive
 ## Defining an Element Merge Directive
  You can add element merge directives to domain classes, domain relationships, shapes, connectors, and diagrams. You can add or find them in DSL Explorer under the receiving domain class. The receiving class is the domain class of the element that is already in the model, and onto which the new or copied element will be merged.
 
- ![DSL&#45;EMD&#95;Details](../modeling/media/dsl-emd_details.png "DSL-EMD_Details")
+ ![DSL&#45;EMD&#95;Details](../modeling/media/dsl-emd_details.png)
 
  The **Indexing Class** is the domain class of elements that can be merged into members of the receiving class. Instances of subclasses of the Indexing Class will also be merged by this EMD, unless you set **Applies to subclasses** to False.
 

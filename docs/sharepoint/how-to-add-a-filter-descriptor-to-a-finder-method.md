@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add a Filter Descriptor to a Finder Method
+# How to: Add a filter descriptor to a Finder method
   Filter descriptors enable consumers of the model to pass values to methods before they execute. For more information, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).  
   
  One common scenario is that users in SharePoint want to retrieve instances of an external content type that match some criteria. You can support this scenario by adding a filter descriptor to a Finder method.  
@@ -32,7 +32,7 @@ ms.workload:
   
 2.  In the **Method Details** window, choose the type descriptor of the parameter.  
   
-3.  On the menu bar, choose **View**, **Properties Window**.  
+3.  On the menu bar, choose **View** > **Properties Window**.  
   
 4.  In the **Properties** window, set the **Type Name** property to a data type that is appropriate for the filter.  
   
@@ -44,7 +44,7 @@ ms.workload:
   
      A new filter descriptor appears underneath the **Filter Descriptors** node.  
   
-7.  On the menu bar, choose **View**, **Properties Window**.  
+7.  On the menu bar, choose **View** > **Properties Window**.  
   
 8.  In the **Properties** window, choose the **Type** property.  
   
@@ -66,7 +66,7 @@ ms.workload:
      [!code-csharp[SP_BDC#11](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderservice.cs#11)]
      [!code-vb[SP_BDC#11](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderservice.vb#11)]  
   
-## See Also  
+## See also
  [How to: Add a Finder Method](../sharepoint/how-to-add-a-finder-method.md)   
  [How to: Add a Specific Finder Method](../sharepoint/how-to-add-a-specific-finder-method.md)   
  [How to: Add a Parameter to a Method](../sharepoint/how-to-add-a-parameter-to-a-method.md)   

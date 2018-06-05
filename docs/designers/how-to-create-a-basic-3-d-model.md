@@ -30,7 +30,7 @@ This article demonstrates how to use the Model Editor to create a basic 3D model
 
  When you're finished, the model should look like this:
 
- ![The completed model of the simplified house](../designers/media/gfx_model_demo_house_final.png "gfx_model_demo_house_final")
+ ![The completed model of the simplified house](../designers/media/gfx_model_demo_house_final.png)
 
  Before you begin, make sure that the **Properties** window and **Toolbox** are displayed.
 
@@ -44,27 +44,27 @@ This article demonstrates how to use the Model Editor to create a basic 3D model
 
 4.  Subdivide the top of the cube. In face selection mode, choose the cube once to activate it for selection, and then choose the top of the cube to select the top face. On the Model Editor toolbar, choose **Subdivide face**. This adds new vertices to the top of the cube that split it into four equally sized partitions.
 
-     ![The top of the cube has been subdivided](../designers/media/gfx_model_demo_house_subdiv.png "gfx_model_demo_house_subdiv")
+     ![The top of the cube has been subdivided](../designers/media/gfx_model_demo_house_subdiv.png)
 
 5.  Extrude two adjacent sides of the cube—for example, the front and right sides of the cube. In face selection mode, choose the cube once to activate it for selection and then choose one side of the cube. Press and hold the Control key, choose another side of the cube that is adjacent to the side you selected first, and then on the Model Editor toolbar, choose **Extrude face**.
 
-     ![The sides of the cube have been extruded](../designers/media/gfx_model_demo_house_extrude.png "gfx_model_demo_house_extrude")
+     ![The sides of the cube have been extruded](../designers/media/gfx_model_demo_house_extrude.png)
 
 6.  Extend one of the extrusions. Choose one of the faces that you just extruded, and then, on the Model Editor toolbar, choose the **Translate** tool and move the translation manipulator in the same direction as the extrusion.
 
-     ![One side of the cube has been extruded further.](../designers/media/gfx_model_demo_house_extend.png "gfx_model_demo_house_extend")
+     ![One side of the cube has been extruded further.](../designers/media/gfx_model_demo_house_extend.png)
 
 7.  Triangulate the model. On the Model Editor toolbar, choose **Advanced**, **Tools**, **Triangulate**.
 
 8.  Create the roof of the house. Switch to edge-selection mode by choosing **Select Edge** on the Model Editor toolbar, and then choose the cube to activate it. Press and hold the Control key as you select the edges that are shown here:
 
-     ![The edges that will form the peak of the roof](../designers/media/gfx_model_demo_house_edges.png "gfx_model_demo_house_edges")
+     ![The edges that will form the peak of the roof](../designers/media/gfx_model_demo_house_edges.png)
 
      When the edges are selected, on the Model Editor toolbar, choose the **Translate** tool and then move the translation manipulator upward to create the roof of the house.
 
  The simplified house model is complete. Here's the final model again, with flat shading applied:
 
- ![The completed model of the simplified house](../designers/media/gfx_model_demo_house_final.png "gfx_model_demo_house_final")
+ ![The completed model of the simplified house](../designers/media/gfx_model_demo_house_final.png)
 
  As a next step, you can apply a shader to this 3D model. For information, see [How to: Apply a Shader to a 3D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).
 

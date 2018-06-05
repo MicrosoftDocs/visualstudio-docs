@@ -34,10 +34,10 @@
       href: tutorial-import-publish-settings-azure.md
     - name: Import publish settings and deploy to IIS
       href: tutorial-import-publish-settings-iis.md
+    - name: Deploy to IIS using Web Deploy
+      href: deploy-iis-with-web-deploy.md
     - name: Continuous deployment of ASP.NET Core to Azure with Git
       href: /aspnet/core/publishing/azure-continuous-deployment?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json
-    - name: Deploy ASP.NET to IIS
-      href: /iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json
   - name: Native
     items:
     - name: Deployment in Visual C++...

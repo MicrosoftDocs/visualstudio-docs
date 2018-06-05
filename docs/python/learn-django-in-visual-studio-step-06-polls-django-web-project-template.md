@@ -107,7 +107,7 @@ class Choice(models.Model):
         return self.text
 ```
 
-As you can see, a Poll maintains a description in its `text` field and a publication date in `pub_date`. These fields are the only onesields that exist for the Poll in the database; the `total_votes` field is calculated at runtime.
+As you can see, a Poll maintains a description in its `text` field and a publication date in `pub_date`. These fields are the only ones that exist for the Poll in the database; the `total_votes` field is calculated at runtime.
 
 A Choice is related to a Poll through the `poll` field, contains a description in `text`, and maintains a count for that choice in `votes`. The `votes_percentage` field is calculated at runtime and is not found in the database.
 
@@ -249,7 +249,7 @@ urlpatterns = [
 ]
 ```
 
-If you're not familiar with the more complex regular expressions used here, you can paste the expression into [regex101.com](https://regex101.com/) for an explanation in plain language. (You'll need to escape the forward slashes `/` by adding a back slash, `\`h before them; escaping isn't necessary in Python because of the `r` prefix on the string, meaning "raw").
+If you're not familiar with the more complex regular expressions used here, you can paste the expression into [regex101.com](https://regex101.com/) for an explanation in plain language. (You'll need to escape the forward slashes `/` by adding a back slash, `\` before them; escaping isn't necessary in Python because of the `r` prefix on the string, meaning "raw").
 
 In Django, the syntax `?P<name>pattern` creates a group named `name`, which gets passed as arguments to views in the order they appear. In the code shown earlier, `PollsDetailView` and `PollsResultsView` receive an argument named `pk` and `app.views.vote` receives an argument named `poll_id`.
 

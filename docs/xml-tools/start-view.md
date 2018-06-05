@@ -17,7 +17,7 @@ The Start View is the launching point for the XML Schema (XSD) Designer. When yo
 
 The Start View contains two main sections, the *watermark* and the **Schema Set Details** pane. It also includes the toolbar, which is available in all the XSD Designer views.
 
-![XML Schema Designer Start View](../xml-tools/media/xsddesigner_startview.gif "XSDDesigner_StartView")
+![XML Schema Designer Start View](../xml-tools/media/xsddesigner_startview.gif)
 
 ## Watermark
 
@@ -31,7 +31,7 @@ The **Schema Set Details** pane lists the global schema node types, and displays
 
 You can navigate between the Start View, the [Content Model View](../xml-tools/content-model-view.md) and the [Graph View](../xml-tools/graph-view.md) from the XML Schema Designer toolbar.
 
-![XML Schema Designer Toolbar](../xml-tools/media/xsdstartviewtoolbar.gif "XSDStartViewToolbar")
+![XML Schema Designer Toolbar](../xml-tools/media/xsdstartviewtoolbar.gif)
 
 The following buttons are enabled in the XSD Designer toolbar when the Start View is active:
 

@@ -40,7 +40,7 @@ You can manually create Microsoft Word load test reports by copying and pasting 
 
 2.  (Optional) Zoom in on the specific graph that you want to copy to your Microsoft Word document, as shown in the following illustration. For more information, see [How to: Zoom in on a Region of the Graph](../test/how-to-zoom-in-on-a-region-of-the-graph-in-load-test-results.md).
 
-     ![Graph view zoom control](../test/media/ltest_zoomcontrol.png "LTest_ZoomControl")
+     ![Graph view zoom control](../test/media/ltest_zoomcontrol.png)
 
 3.  On the graph that you want to copy to your Microsoft Word document, right-click and select **Copy**.
 

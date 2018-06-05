@@ -30,29 +30,29 @@ When you start typing a keyword, type, function, variable name, or other program
 
 For a list of the icons and their meanings, see [Class View and Object Browser icons](../ide/class-view-and-object-browser-icons.md).
 
-![Visual C&#43;&#43; Complete Word window](../ide/media/vs2015_cpp_complete_word.png "vs2015_cpp_complete_word")
+![Visual C&#43;&#43; Complete Word window](../ide/media/vs2015_cpp_complete_word.png)
 
 The first time member list is invoked it only shows members that are accessible for the current context. If you press **Ctrl**+**J** after that, it shows all members regardless of accessibility. If you invoke it a third time, an even wider list of program elements is shown. You can turn off member list in the **Options** dialog box, under **Text Editor** > **C/C++** > **General** > **Auto list members**.
 
-![Visual C&#43;&#43; Member List](../ide/media/vs2015_cpp_list_members.png "vs2015_cpp_list_members")
+![Visual C&#43;&#43; Member List](../ide/media/vs2015_cpp_list_members.png)
 
 ### Parameter help
 
 When you type an opening brace of a function call, or angle bracket on a class template variable declaration, the editor shows a small window with the parameter types for each overload of the function or constructor. The "current" parameter&mdash;based on the cursor location&mdash;is in bold. You can turn off parameter information in the **Options** dialog box, under **Text Editor** > **C/C++** > **General** > **Parameter information**.
 
-![Visual C&#43;&#43; Parameter Help](../ide/media/vs_2015_cpp_param_help.png "vs_2015_cpp_param_help")
+![Visual C&#43;&#43; Parameter Help](../ide/media/vs_2015_cpp_param_help.png)
 
 ### Quick Info
 
 When you hover the mouse cursor over a variable, a small window appears inline that shows the type information and the header in which the type is defined. Hover over a function call to see the function's signature. You can turn off Quick Info in the **Options** dialog box, under **Text Editor** > **C/C++** > **Advanced** > **Auto Quick Info**.
 
-![Visual C&#43;&#43; QuickInfo](../ide/media/vs2015_cpp_quickinfo.png "vs2015_cpp_quickInfo")
+![Visual C&#43;&#43; QuickInfo](../ide/media/vs2015_cpp_quickinfo.png)
 
 ### Error squiggles
 
 Squiggles under a program element (variable, keyword, brace, type name, and so on) call your attention to an error or potential error in the code. A green squiggle appears when you write a forward declaration, to remind you that you still need to write the implementation. A purple squiggle appears in a shared project when there is an error in code that is not currently active, for example when you are working in the Windows context but enter something that would be an error in an Android context. A red squiggle indicates a compiler error or warning in active code that you need to deal with.
 
-![Visual C&#43;&#43; error squiggles](../ide/media/vs2015_cpp_error_quiggles.png "vs2015_cpp_error_quiggles")
+![Visual C&#43;&#43; error squiggles](../ide/media/vs2015_cpp_error_quiggles.png)
 
 ### Code colorization and fonts
 
@@ -64,7 +64,7 @@ In a shared code project, some IntelliSense features such as squiggles are avail
 
 Here's an OpenGLES Application that is configured to build for Android and iOS. The illustration shows shared code being edited. In the first image, Android is the active project:
 
-![The Android project is the active project.](../ide/media/intellisensecppcrossplatform.png "IntelliSenseCppCrossPlatform")
+![The Android project is the active project.](../ide/media/intellisensecppcrossplatform.png)
 
 Notice the following:
 
@@ -76,7 +76,7 @@ Notice the following:
 
 Now, change the active project to **iOS.StaticLibrary** and notice how the squiggles change.
 
-![iOS is selected as the active project.](../ide/media/intellisensecppcrossplatform2.png "IntelliSenseCppCrossPlatform2")
+![iOS is selected as the active project.](../ide/media/intellisensecppcrossplatform2.png)
 
 Notice the following:
 
@@ -90,11 +90,11 @@ Notice the following:
 
 When you open a single file outside of any project, you still get IntelliSense. You can enable or disable particular IntelliSense features in the **Options** dialog box, under **Text Editor** > **C/C++** > **Advanced**. To configure IntelliSense for single files that aren't part of a project, look for the **IntelliSense and browsing for non-project files** section.
 
-![Visual C&#43;&#43; single file intellisense](../ide/media/vs2015_cpp_single_file_intellisense.png "vs2015_cpp_single_file_intellisense")
+![Visual C&#43;&#43; single file intellisense](../ide/media/vs2015_cpp_single_file_intellisense.png)
 
 By default, single file IntelliSense only uses standard include directories to find header files. To add additional directories, open the shortcut menu on the **Solution** node, and add your directory to **Debug Source Code** list, as the following illustration shows:
 
-![Adding a path to a header file.](../ide/media/intellisensedebugyourcode.jpg "IntelliSenseDebugYourCode")
+![Adding a path to a header file.](../ide/media/intellisensedebugyourcode.jpg)
 
 ## See also
 

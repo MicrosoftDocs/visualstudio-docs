@@ -19,7 +19,7 @@ ms.workload:
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a "Hello World" app that runs on any Windows 10 device. To do so, you'll use a Universal Windows Platform (UWP) project template, Extensible Application Markup Language (XAML), and the C# programming language.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
 ## Create a project
 
@@ -54,7 +54,7 @@ It's time to start developing. You'll add a button control, add an action to the
 
   ![Open MainPage.xaml from the Solution Explorer ](../ide/media/uwp-solution-explorer-MainPage-xaml.png)
 
-  There are two panes: The **XAML Designer**, which includes a design canvas, and the **XAML Editor**, where you can add or change code.    
+  There are two panes: The **XAML Designer**, which includes a design canvas, and the **XAML Editor**, where you can add or change code.
 
   ![The XAML Designer pane in the XAML editor](../ide/media/uwp-xaml-editor.png)
 
@@ -125,7 +125,7 @@ It's time to build, deploy, and launch the "Hello World" UWP app to see what it 
 
 1. Choose **Local Machine** to start the application.
 
-   ![Click Local Machine to start and debug your UWP app](../ide/media/uwp-start-or-debug.png "Click Local Machine to start and debug your UWP app")
+   ![Click Local Machine to start and debug your UWP app](../ide/media/uwp-start-or-debug.png)
 
    (Alternatively, you can choose **Debug** > **Start Debugging** from the menu bar or press **F5** to start your app.)
 

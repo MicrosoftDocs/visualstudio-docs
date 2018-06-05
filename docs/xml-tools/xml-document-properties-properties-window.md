@@ -11,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# XML Document Properties, Properties Window
+# XML document properties, Properties window
 
 The **Properties** window provides basic information about the document that is active in the XML Editor. The properties that are available vary depending on the type of XML document that is currently active.
 
@@ -46,7 +46,7 @@ The **Properties** window provides basic information about the document that is 
 
  When editing an XSLT file, this property can be used to specify that a different style sheet should be used when the **Show XSLT Output** or **Debug XSLT** command is selected. For example, you may want to do this when you are editing a style sheet that is included in a parent style sheet.
 
-## See Also
+## See also
 
 - [XML Editor](../xml-tools/xml-editor.md)
-- [XML Editor Components](../xml-tools/xml-editor-components.md)
+- [XML Editor components](../xml-tools/xml-editor-components.md)

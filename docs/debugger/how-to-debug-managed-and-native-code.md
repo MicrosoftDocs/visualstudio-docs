@@ -5,15 +5,15 @@ ms.custom: ""
 ms.date: "04/27/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "mixed mode debugging"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: douge
-ms.workload: 
+ms.workload:
   - "dotnet"
   - "cplusplus"
 ---
@@ -34,7 +34,7 @@ In this tutorial, you will:
 
 * You must have Visual Studio installed and the **Desktop development with C++** workload.
 
-    If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
     If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
 
@@ -68,7 +68,7 @@ In this tutorial, you will:
     ```cpp
     #ifndef MIXED_MODE_MULTIPLY_HPP
     #define MIXED_MODE_MULTIPLY_HPP
-    
+
     extern "C"
     {
     	__declspec(dllexport) int __stdcall mixed_mode_multiply(int a, int b) {
@@ -101,7 +101,7 @@ In this tutorial, you will:
 
 1. Choose a template for your application code.
 
-    For .NET Framework, in the **New Project** dialog box, choose **Visual C#**, **Windows Classic Desktop** from the installed templates section, and then in the middle pane select **Console App (.NET Framework)**.
+    For .NET Framework, in the **New Project** dialog box, choose **Visual C#**, **Windows Desktop** from the installed templates section, and then in the middle pane select **Console App (.NET Framework)**.
 
     For .NET Core, in the **New Project** dialog box, choose **Visual C#**, **.NET Core** from the installed templates section, and then in the middle pane select **Console App (.NET Core)**.
 
@@ -114,7 +114,7 @@ In this tutorial, you will:
     ```csharp
     using System;
     using System.Runtime.InteropServices;
-    
+
     namespace Mixed_Mode_Calling_App
     {
         public class Program
@@ -128,7 +128,7 @@ In this tutorial, you will:
             "mixed_mode_multiply", CallingConvention = CallingConvention.StdCall)]
             public static extern int Multiply(int x, int y);
             public static void Main(string[] args)
-            { 
+            {
                 int result = Multiply(7, 7);
                 Console.WriteLine("The answer is {0}", result);
                 Console.ReadKey();
@@ -160,9 +160,9 @@ In most versions of Visual Studio 2017, you must enable mixed mode debugging for
     ```
     "nativeDebugging": true
     ```
-    
+
     So, for example, your file might look like the following:
-    
+
     ```
     {
       "profiles": {
