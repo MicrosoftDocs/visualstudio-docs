@@ -130,6 +130,7 @@ Here are a few more support options for you:
 
 ## See also
 
-* [Troubleshooting network-related errors in Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
-* [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
-* [Install Visual Studio 2017](install-visual-studio.md)
+* [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
+* [Troubleshoot network-related errors in Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
+* [Visual Studio administrator guide](visual-studio-administrator-guide.md)
+
