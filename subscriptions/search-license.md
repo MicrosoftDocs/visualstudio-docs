@@ -16,8 +16,7 @@ The Visual Studio Subscriptions Administration Portal allows you to find a speci
 
 1.  To search for a specific group of subscribers, at the top of the table, click **Filter**.
 
-    <img alt="Filter subscribers" src="_img\edit-license\filter-list.png" style="border: 1px solid #CCCCCC" />
-
-2.	You will see many fields appear that you can use as search criteria. Select the desired criteria you would like to 
+2.	Several fields may be used as search criteria. Enter the criteria you would like to 
 use as the basis of your search and then click **Filter**. You will then see a list of subscribers who match the criteria you chose.
-    <img alt="Find subscribers" src="_img\search-filter\search-filter-find.png" style="border: 1px solid #CCCCCC" />
+    ![Find subscribers](_img\search-filter\search-filter-find.png)
+
