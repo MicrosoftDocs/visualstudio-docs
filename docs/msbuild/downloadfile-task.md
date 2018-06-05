@@ -28,7 +28,7 @@ ms.workload:
 # DownloadFile Task
 Downloads the specified files using the Hyper-Text Transfer Protocol (HTTP).
 
-**Note:** The `DownloadFile` task is available in MSBuild 15.7 and above only.
+**Note:** The `DownloadFile` task is available in MSBuild 15.8 and above only.
   
 ## Parameters  
  The following table describes the parameters of the `DownloadFile` task.  

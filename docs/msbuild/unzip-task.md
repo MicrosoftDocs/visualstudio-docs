@@ -28,7 +28,7 @@ ms.workload:
 # Unzip Task
 Unzips a `.zip` archive to the specified location.
 
-**Note:** The `Unzip` task is available in MSBuild 15.7 and above only.
+**Note:** The `Unzip` task is available in MSBuild 15.8 and above only.
   
 ## Parameters  
  The following table describes the parameters of the `Unzip` task.  
