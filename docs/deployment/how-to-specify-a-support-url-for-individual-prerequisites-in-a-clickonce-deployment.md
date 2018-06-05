@@ -19,7 +19,7 @@ ms.workload:
   - "multiple"
 ---
 # How to: Specify a Support URL for Individual Prerequisites in a ClickOnce Deployment
-A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment can test for a number of prerequisites that must be available on the client computer for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application to run. These include the required minimum version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], the version of the operating system, and any assemblies that must be preinstalled in the global assembly cache (GAC). [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], however, cannot install any of these prerequisites itself; if a prerequisite is not found, it simply halts installation and displays a dialog box explaining why the installation failed.  
+A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment can test for a number of prerequisites that must be available on the client computer for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application to run. These dependencies include the required minimum version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], the version of the operating system, and any assemblies that must be preinstalled in the global assembly cache (GAC). [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], however, cannot install any of these prerequisites itself; if a prerequisite is not found, it simply halts installation and displays a dialog box explaining why the installation failed.  
   
  There are two methods for installing prerequisites. You can install them using a bootstrapper application. Alternatively, you can specify a support URL for individual prerequisites, which is displayed to users on the dialog box if the prerequisite is not found. The page referenced by that URL can contain links to instructions for installing the required prerequisite. If an application does not specify a support URL for an individual prerequisite, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] displays the support URL specified in the deployment manifest for the application as a whole, if it is defined.  
   
@@ -27,7 +27,7 @@ A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment c
   
 ### Specifying a support URL for an individual prerequisite  
   
-1.  Open the application manifest (the .manifest file) for your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application in a text editor.  
+1.  Open the application manifest (the `.manifest` file) for your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application in a text editor.  
   
 2.  For an operating system prerequisite, add the `supportUrl` attribute to the `dependentOS` element:  
   
@@ -61,7 +61,7 @@ A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment c
       </dependency>  
     ```  
   
-5.  Optional. For applications that target the .NET Framework 4, open the deployment manifest (the .application file) for your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application in a text editor.  
+5.  Optional. For applications that target the .NET Framework 4, open the deployment manifest (the `.application` file) for your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application in a text editor.  
   
 6.  For a .NET Framework 4 prerequisite, add the `supportUrl` attribute to the `compatibleFrameworks` element:  
   
@@ -72,7 +72,7 @@ A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment c
     </compatibleFrameworks>  
     ```  
   
-7.  Once you have manually altered the application manifest, you must re-sign the application manifest using your digital certificate, then update and re-sign the deployment manifest as well. You must use the Mage.exe or MageUI.exe SDK tools to accomplish this task, as regenerating these files using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] erases your manual changes. For more information on using Mage.exe to re-sign manifests, see [How to: Re-sign Application and Deployment Manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md).  
+7.  Once you have manually altered the application manifest, you must re-sign the application manifest using your digital certificate, then update and re-sign the deployment manifest as well. Use the Mage.exe or MageUI.exe SDK tools to accomplish this task, as regenerating these files using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] erases your manual changes. For more information on using Mage.exe to re-sign manifests, see [How to: Re-sign Application and Deployment Manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md).  
   
 ## .NET Framework Security  
  The support URL is not displayed on the dialog box if the application is marked to run in partial trust.  
