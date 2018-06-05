@@ -16,7 +16,7 @@ ms.workload:
 # MSBuild Inline Tasks with RoslynCodeTaskFactory
 Similar to the [CodeTaskFactory](../msbuild/msbuild-inline-tasks.md), RoslynCodeTaskFactory uses the cross-platform Roslyn compilers to generate in-memory task assemblies for use as inline tasks.  RolynCodeTaskFactory tasks target .NET Standard and can work on .NET Framework and .NET Core runtimes as well as other platforms such as Linux and Mac OS.
 
-**Note:** The `RolynCodeTaskFactory` is available in MSBuild 15.7 and above only.
+**Note:** The `RolynCodeTaskFactory` is available in MSBuild 15.8 and above only.
   
 ## The Structure of an Inline Task with RoslynCodeTaskFactory
  RoslynCodeTaskFactory inline tasks are declared in an identical way as [CodeTaskFactory](../msbuild/msbuild-inline-tasks.md). The only difference being that they target .NET Standard.  The inline task and the `UsingTask` element that contains it are typically included in a .targets file and imported into other project files as required. Here is a basic inline task. Notice that it does nothing.  

@@ -28,7 +28,7 @@ ms.workload:
 # ZipDirectory Task
 Creates a `.zip` archive from the contents of a directory.
 
-**Note:** The `ZipDirectory` task is available in MSBuild 15.7 and above only.
+**Note:** The `ZipDirectory` task is available in MSBuild 15.8 and above only.
   
 ## Parameters  
  The following table describes the parameters of the `ZipDirectory` task.  
