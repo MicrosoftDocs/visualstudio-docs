@@ -82,6 +82,9 @@ Tasks provide the code that runs during the build process. The tasks in the foll
   
  [Delete Task](../msbuild/delete-task.md)  
  Deletes the specified files.  
+
+ [DownloadFile Task](../msbuild/downloadfile-task.md)  
+ Downloads a file to the specified location.  
   
  [Error Task](../msbuild/error-task.md)  
  Stops a build and logs an error based on an evaluated conditional statement.  
