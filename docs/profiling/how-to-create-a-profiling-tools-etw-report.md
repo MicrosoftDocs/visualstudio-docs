@@ -31,6 +31,7 @@ The Event Tracing for Windows (ETW) report lists the ETW events that are recorde
   
     |||  
     |-|-|  
+
     |*ToolsPath*|The path of the Profiling Tools utility. For more information, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).|  
     |*VSPFile*|The profiling data (.*vsp* or .*vsps*) file. Full and partial paths are accepted.|  
     |Xml|Generates a report that is formatted in XML.|

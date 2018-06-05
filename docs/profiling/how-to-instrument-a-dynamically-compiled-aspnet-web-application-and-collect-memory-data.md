@@ -1,5 +1,5 @@
 ---
-title: "How to: Instrument a Dynamically Compiled ASP.NET Web Application and Collect Memory Data by Using the Profiler Command Line | Microsoft Docs"
+title: "How to: Instrument a Dynamically Compiled ASP.NET web Application and Collect Memory Data by Using the Profiler Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
@@ -27,6 +27,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
 #### To configure the ASP.NET web application and the web server  
   
+
 1.  Modify the *web.config* file of the target application. See [How to: Modify web.config files to instrument and profile dynamically compiled ASP.NET web applications](../profiling/how-to-modify-web-config-files-to-instrument-dynamically-compiled-aspnet-apps.md).  
   
 2.  Open a command prompt window on the computer that hosts the web application.  
@@ -47,7 +48,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
 ## Run the profiling session  
   
-#### To profile the ASP.NET Web application  
+#### To profile the ASP.NET web application  
   
 1.  Start the profiler. Type:  
   
@@ -94,7 +95,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
 #### To end a profiling session  
   
-1.  Close the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application.  
+1.  Close the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application.  
   
 2.  Close the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process by resetting Internet Information Services (IIS). Type:  
   

@@ -12,7 +12,7 @@ ms.workload:
 ---
 # How to: Instrument a .NET service and collect detailed timing data by using the profiler command line
 
-This topic describes how to use Visual Studio Profiling Tools command-line tools to instrument a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] service and collect detailed timing data.
+This article describes how to use Visual Studio Profiling Tools command-line tools to instrument a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] service and collect detailed timing data.
 
 > [!NOTE]
 > You cannot profile a service with the instrumentation method if the service cannot be restarted after the computer starts, such a service that starts only when the operating system starts.
@@ -49,7 +49,7 @@ To end a profiling session, you turn off the service and then explicitly shut do
 
     - The [/start](../profiling/start.md)**:trace** option initializes the profiler.
 
-    - The [/output](../profiling/output.md)**:**`OutputFile` option is required with **/start**. `OutputFile` specifies the name and location of the profiling data (.vsp) file.
+    - The [/output](../profiling/output.md)**:**`OutputFile` option is required with **/start**. `OutputFile` specifies the name and location of the profiling data (.*vsp*) file.
 
      You can use any one of the following options with the **/start:trace** option.
 

@@ -12,7 +12,7 @@ ms.workload:
 ---
 # How to: Instrument a dynamically compiled ASP.NET web application and collect detailed timing data with the profiler by using the command line
 
-This topic describes how to use Visual Studio Profiling Tools command-line tools to collect detailed timing data for a dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application by using the instrumentation profiling method.
+This article describes how to use Visual Studio Profiling Tools command-line tools to collect detailed timing data for a dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application by using the instrumentation profiling method.
 
 > [!NOTE]
 > Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself. For more information, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).
