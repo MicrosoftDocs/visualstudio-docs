@@ -26,9 +26,9 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Designing an interface by using Windows Forms controls on an actions pane control.  
+-   Design an interface by using Windows Forms controls on an actions pane control.  
   
--   Displaying the actions pane when the application opens.  
+-   Display the actions pane when the application opens.  
   
 > [!NOTE]  
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
@@ -172,9 +172,9 @@ ms.workload:
 ## Next steps  
  Here are some tasks that might come next:  
   
--   Creating an actions pane in Excel. For more information, see [How to: Add an actions pane to Excel workbooks](http://msdn.microsoft.com/en-us/62abfce6-e44f-419d-85d8-26bf59f33872).  
+-   Create an actions pane in Excel. For more information, see [How to: Add an actions pane to Excel workbooks](http://msdn.microsoft.com/en-us/62abfce6-e44f-419d-85d8-26bf59f33872).  
   
--   Binding data to controls on an actions pane. For more information, see [Walkthrough: Bind data to controls on a Word actions pane](../vsto/walkthrough-binding-data-to-controls-on-a-word-actions-pane.md).  
+-   Bind data to controls on an actions pane. For more information, see [Walkthrough: Bind data to controls on a Word actions pane](../vsto/walkthrough-binding-data-to-controls-on-a-word-actions-pane.md).  
   
 ## See also  
  [Actions pane overview](../vsto/actions-pane-overview.md)   

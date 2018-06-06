@@ -30,13 +30,13 @@ ms.workload:
   
  This walkthrough illustrates the following tasks:  
   
--   Creating a new Outlook VSTO Add-in project.  
+-   Create a new Outlook VSTO Add-in project.  
   
--   Designing a custom Ribbon group.  
+-   Design a custom Ribbon group.  
   
--   Adding the custom group to a built-in tab.  
+-   Add the custom group to a built-in tab.  
   
--   Updating controls on the Ribbon at run time.  
+-   Update controls on the ribbon at runtime.  
   
 > [!NOTE]  
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
@@ -72,7 +72,7 @@ ms.workload:
   
 3.  Change the name of the new Ribbon to **CustomerRibbon**, and then click **Add**.  
   
-     The **CustomerRibbon.cs** or **CustomerRibbon.vb** file opens in the Ribbon Designer and displays a default tab and group.  
+     The *CustomerRibbon.cs* or *CustomerRibbon.vb* file opens in the Ribbon Designer and displays a default tab and group.  
   
 4.  Click the Ribbon Designer to select it.  
   
@@ -294,7 +294,7 @@ ms.workload:
  [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)   
  [How to: Change the position of a tab on the ribbon](../vsto/how-to-change-the-position-of-a-tab-on-the-ribbon.md)   
  [How to: Customize a built-in tab](../vsto/how-to-customize-a-built-in-tab.md)   
- [How to: Add controls to the Backstage View](../vsto/how-to-add-controls-to-the-backstage-view.md)   
+ [How to: Add controls to the Backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md)   
  [How to: Export a ribbon from the Ribbon Designer to Ribbon XML](../vsto/how-to-export-a-ribbon-from-the-ribbon-designer-to-ribbon-xml.md)   
  [How to: Show Add-in user interface errors](../vsto/how-to-show-add-in-user-interface-errors.md)  
   

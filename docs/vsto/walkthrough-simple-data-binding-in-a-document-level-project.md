@@ -85,7 +85,7 @@ ms.workload:
   
 ### To add two named ranges  
   
-1.  Verify that the **My Simple Data Binding.xlsx** workbook is open in the Visual Studio designer, with **Sheet1** displayed.  
+1.  Verify that the *My Simple Data Binding.xlsx* workbook is open in the Visual Studio designer, with **Sheet1** displayed.  
   
 2.  Open the **Data Sources** window and expand the **Customers** node.  
   

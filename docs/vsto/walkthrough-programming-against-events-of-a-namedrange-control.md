@@ -59,7 +59,7 @@ ms.workload:
   
 ### To add a range to your worksheet  
   
-1.  Verify that the **My Named Range Events.xlsx** workbook is open in the Visual Studio designer, with `Sheet1` displayed.  
+1.  Verify that the *My Named Range Events.xlsx* workbook is open in the Visual Studio designer, with `Sheet1` displayed.  
   
 2.  From the **Excel Controls** tab of the Toolbox, drag a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to cell **A1** in `Sheet1`.  
   

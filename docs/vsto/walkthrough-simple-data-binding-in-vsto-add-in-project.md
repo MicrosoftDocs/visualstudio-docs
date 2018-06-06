@@ -143,7 +143,7 @@ ms.workload:
   
 ## See also  
  [Data in Office solutions](../vsto/data-in-office-solutions.md)   
- [Binding data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
+ [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
  [How to: Populate worksheets with data from a database](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)   
  [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md)   
  [How to: Populate documents with data from services](../vsto/how-to-populate-documents-with-data-from-services.md)   

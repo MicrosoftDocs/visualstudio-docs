@@ -129,11 +129,11 @@ ms.workload:
 ## Hide and show the custom task pane by using the toggle button  
  The last step is to add code that displays or hides the custom task pane when the user clicks the toggle button on the Ribbon.  
   
-#### To display and hide the custom task pane by using the toggle button  
+### To display and hide the custom task pane by using the toggle button  
   
 1.  In the Ribbon Designer, double-click the **Show Task Pane** toggle button.  
   
-     Visual Studio automatically generates an event handler named `toggleButton1_Click`, which handles the <xref:Microsoft.Office.Tools.Ribbon.RibbonToggleButton.Click> event of the toggle button. Visual Studio also opens the **MyRibbon.cs** or **MyRibbon.vb** file in the Code Editor.  
+     Visual Studio automatically generates an event handler named `toggleButton1_Click`, which handles the <xref:Microsoft.Office.Tools.Ribbon.RibbonToggleButton.Click> event of the toggle button. Visual Studio also opens the *MyRibbon.cs* or *MyRibbon.vb* file in the Code Editor.  
   
 2.  Replace the `toggleButton1_Click` event handler with the following code. When the user clicks the toggle button, this code displays or hides the custom task pane, depending on whether the toggle button is pressed or not pressed.  
   

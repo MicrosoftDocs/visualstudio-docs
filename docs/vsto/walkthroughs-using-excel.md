@@ -24,7 +24,7 @@ ms.workload:
  [Walkthrough: Create your first document-level customization for Excel](../vsto/walkthrough-creating-your-first-document-level-customization-for-excel.md)  
  Demonstrates how to create a basic document-level customization for Excel.  
   
- [Walkthrough: Create a custom tab by Using the Ribbon designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)  
+ [Walkthrough: Create a custom tab by using the Ribbon designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)  
  Demonstrates how to add a custom tab to the Ribbon of an Excel workbook.  
   
  [Walkthrough: Collect data using a Windows Form](../vsto/walkthrough-collecting-data-using-a-windows-form.md)  

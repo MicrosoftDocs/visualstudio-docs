@@ -137,7 +137,7 @@ ms.workload:
   
 3.  On the **Select how you want to create the form region** page, click **Import an Outlook Form Storage (.ofs) File**, and then click **Browse**.  
   
-4.  In the **Existing Outlook Form Region File Location** dialog box, browse to the location of **TaskFormRegion.ofs**, select **TaskFormRegion.ofs**, click **Open**, and then click **Next**.  
+4.  In the **Existing Outlook Form Region File Location** dialog box, browse to the location of *TaskFormRegion.ofs*, select **TaskFormRegion.ofs**, click **Open**, and then click **Next**.  
   
 5.  On the **Select the type of form region you want to create** page, click **Replace-all**, and then click **Next**.  
   
