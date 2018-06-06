@@ -29,7 +29,7 @@ This topic describes how to isolate performance problems in your apps using the 
   
 -   Visual updates that are less frequent than expected. This occurs if the UI thread is too busy to maintain a smooth frame rate. For example, if the UI thread is busy, frames might be dropped. Some non-UI thread work such as network requests, image decoding, and paints can also limit the frequency of visual updates. (Not all painting is performed on the UI thread.)  
   
-## Run the HTML UI Responsiveness Tool  
+## Run the HTML UI Responsiveness tool  
  You can use the HTML UI Responsiveness tool when you have a working UWP app open in Visual Studio.  
   
 1.  If you're running the app from Visual Studio, on the **Standard** toolbar, in the **Start Debugging** list, choose a deployment target such as **Local Machine** or **Device**.  
