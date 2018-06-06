@@ -26,15 +26,27 @@ For more information, see [Memory limits](https://msdn.microsoft.com/library/win
 
 ## Configure solution and projects
 
-If you have a large solution with many projects, you may benefit by making the following optimizations:
+If you have a large solution with many projects, you may benefit from these optimizations.
 
-- **Unload Projects**
+### Unload projects
 
-    You can manually unload rarely used individual projects from **Solution Explorer** using the right-click context menu.
+You can manually unload rarely used individual projects from **Solution Explorer** using the right-click context menu.
 
-- **Refactor the solution**
+### Refactor the solution
 
-    You can split your solution into several smaller solution files with commonly used projects. This refactoring should significantly reduce memory usage for your workflow. Smaller solutions also load faster.
+You can split your solution into several smaller solution files with commonly used projects. This refactoring should significantly reduce memory usage for your workflow. Smaller solutions also load faster.
+
+### Disable automatic file restore
+
+Visual Studio automatically reopens documents that were left open in the previous session. This can prolong the times it takes to laod a solution by up to 30% or more, depending on the project type and the documents being opened. Designers like Windows Forms and XAML, and some JavaScript and typescript files, can be slow to open.
+
+Visual Studio notifies you in a yellow bar when automatic document restore is causing a solution to load significantly slower. You can disable automatic file reopening by following these steps:
+
+1. Select **Tools** > **Options** to open the **Options** dialog box.
+
+1. On the **Projects and Solution** > **General** page, deselect **Reopen documents on solution load**.
+
+If you disable automatic file restore, a quick way to navigate to files you want to open is by using [Go To](../ide/go-to.md). Select **Edit** > **Go To** > **Go To All**, or press **Ctrl**+**T**.
 
 ## Configure debugging options
 
@@ -106,18 +118,6 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 - **Remove workloads**
 
     You can use the Visual Studio Installer to remove workloads that are no longer used. This action can streamline the startup and runtime cost by skipping packages and assemblies that aren’t needed anymore.
-
-## Disable automatic file restore
-
-Visual Studio automatically reopens documents that were left open in the previous session. This can make it take longer for a solution to load. Solution load time can increase by up to 30% or more, depending on the project type and the documents being opened. Visual Studio notifies you in a yellow bar when solutions take significantly longer to load due to automatic document restore.
-
-You can disable automatic file reopening by following these steps:
-
-1. Select **Tools** > **Options** to open the **Options** dialog box.
-
-1. On the **Projects and Solution** > **General** page, deselect **Reopen documents on solution load**.
-
-If you disable automatic file restore, you can still search for your recent documents using [Go To](../ide/go-to.md). Select **Edit** > **Go To** > **Go To File**, or press **Ctrl**+**T**.
 
 ## Force a garbage collection
 
