@@ -146,7 +146,21 @@ Bind data to provide different values to the same test, for example, to provide 
 
 3. Edit the text file and add the following:
 
+    ```soap
+    ColorId, ColorName
+    0,Red
+    1,Blue
     ```
+
+
+    ```txt
+    ColorId, ColorName
+    0,Red
+    1,Blue
+    ```
+
+
+    ```ascii
     ColorId, ColorName
     0,Red
     1,Blue
