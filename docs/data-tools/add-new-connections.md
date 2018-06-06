@@ -12,7 +12,7 @@ ms.workload:
 ---
 # Add new connections
 
-You can test your connection to a database or service, and explore database contents and schemas, by using **Server Explorer**, **Cloud Explorer**, or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:
+You can test your connection to a database or service, and explore database contents and schemas, by using **Server Explorer** > **Cloud Explorer** or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:
 
 - Server Explorer
 
@@ -20,11 +20,11 @@ You can test your connection to a database or service, and explore database cont
 
 - Cloud Explorer
 
-   Install this window manually as a Visual Studio extension by selecting **Tools**, **Extensions and Updates**, **Online**, **Visual Studio Markeplace**. Provides specialized functionality for exploring and connecting to Azure services.
+   Install this window manually as a Visual Studio extension by selecting **Tools** > **Extensions and Updates** > **Online** > **Visual Studio Markeplace**. Provides specialized functionality for exploring and connecting to Azure services.
 
 - SQL Server Object Explorer
 
-   Installed with SQL Server Data Tools and visible under the **View** menu. If you don't see it there, go to **Programs and Features** in Control Panel, find Visual Studio,  and then select **Change** to re-run the installer after selecting  the check box for SQL Server Data Tools. Use **SQL Server Object Explorer** to view SQL databases (if they have an ADO.NET provider), create new databases, modify schemas, create stored procedures, retrieve connection strings, view the data, and more. SQL databases that have no ADO.NET provider installed won't show up here, but you can still connect to them programmatically.
+   Installed with SQL Server Data Tools and visible under the **View** menu. If you don't see it there, go to **Programs and Features** in Control Panel, find Visual Studio, and then select **Change** to re-run the installer after selecting the check box for SQL Server Data Tools. Use **SQL Server Object Explorer** to view SQL databases (if they have an ADO.NET provider), create new databases, modify schemas, create stored procedures, retrieve connection strings, view the data, and more. SQL databases that have no ADO.NET provider installed won't show up here, but you can still connect to them programmatically.
 
 ## Add a connection in Server Explorer
 
