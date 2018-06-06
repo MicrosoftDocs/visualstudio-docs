@@ -192,7 +192,7 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
      As shown in the response tab, and in the JavaScript implemented earlier shown below, the query string parameter CustomQueryString is assigned a value of " jScriptQueryString___" and is also concatenated with the returned value from the var sessionId.
 
-    ```
+    ```javascript
     function jScriptQueryString()          {             var Hidden = document.getElementById("HiddenFieldSessionID");             var sessionId = Hidden.value;             window.location = 'JScriptQuery.aspx?CustomQueryString=jScriptQueryString___' + sessionId;          }
 
     ```
@@ -259,4 +259,4 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
 ### Q: Do I need to configure Visual Studio to detect dynamic parameters?
 
- **A:** The default Visual Studio configuration is to detect dynamic parameters when you record a web performance test. However, if you have Visual Studio options configured not to detect dynamic parameters, or the web application being tested gets modified with additional dynamic parameters; you can still [run dynamic parameter detection from the Web Performance Test Editor](#FindingNonDetectableDynamicParamters_QA_ReRunDetection).
+ **A:** The default Visual Studio configuration is to detect dynamic parameters when you record a web performance test. However, if you have Visual Studio options configured not to detect dynamic parameters, or the web application being tested gets modified with additional dynamic parameters; you can still run dynamic parameter detection from the Web Performance Test Editor.
