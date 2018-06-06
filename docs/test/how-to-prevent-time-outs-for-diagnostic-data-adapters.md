@@ -58,7 +58,7 @@ If you are using diagnostic data adapters in your test settings, a time-out can 
 
 4.  You must modify the test execution settings section to increase the time-out values. This section has the following format:
 
-    ```TEXT
+    ```text
     <!-- Begin: Test execution settings -->
 
         <!-- How long test runner will wait for an event raised to all local data collectors to complete.  Default is 300. -->
@@ -76,7 +76,7 @@ If you are using diagnostic data adapters in your test settings, a time-out can 
 
 7.  To increase the time-out for transferring any data collected for a bug or when a test ends to the computer that is running the tests, you must add the following time-out to **mtm.exe.config** in the appSettings section of the file:
 
-    ```TEXT
+    ```text
     <!-- How long test runner waits for data collected by diagnostic data adapters to be transferred to the computer. Default is 60 seconds. -->
     <add key="GetCollectorDataTimeout" value="300"/>
     ```

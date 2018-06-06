@@ -146,7 +146,7 @@ Bind data to provide different values to the same test, for example, to provide 
 
 3. Edit the text file and add the following:
 
-    ```TEXT
+    ```text
     ColorId, ColorName
     0,Red
     1,Blue
@@ -166,7 +166,7 @@ Bind data to provide different values to the same test, for example, to provide 
 
 2. Edit the schema.ini file to add the information that describes the structure of your data. For example, a schema file describing the CSV file might look like this:
 
-    ```TEXT
+    ```text
     [testdata.csv]
     ColNameHeader=False
     ```
@@ -249,7 +249,7 @@ Bind data to provide different values to the same test, for example, to provide 
 
 2. Replace values in the SOAP body with data-bound values by using the following syntax:
 
-    ```SOAP
+    ```xml
     {{DataSourceName.TableName.ColumnName}}
     ```
 
