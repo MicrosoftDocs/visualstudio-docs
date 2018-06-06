@@ -192,7 +192,7 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
      As shown in the response tab, and in the JavaScript implemented earlier shown below, the query string parameter CustomQueryString is assigned a value of " jScriptQueryString___" and is also concatenated with the returned value from the var sessionId.
 
-    ```
+    ```javascript
     function jScriptQueryString()          {             var Hidden = document.getElementById("HiddenFieldSessionID");             var sessionId = Hidden.value;             window.location = 'JScriptQuery.aspx?CustomQueryString=jScriptQueryString___' + sessionId;          }
 
     ```
