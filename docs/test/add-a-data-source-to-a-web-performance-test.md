@@ -146,13 +146,13 @@ Bind data to provide different values to the same test, for example, to provide 
 
 3. Edit the text file and add the following:
 
-    ```xml
+    ```TEXT
     ColorId, ColorName
     0,Red
     1,Blue
     ```
 
-4. Use the steps in [Binding the SQL data](#AddingDataBindingWebTest_BindSQLData), but choose CSV file as your data source.
+4. Use the steps in [Add the data source](#add-the-data-source), but choose CSV file as your data source.
 
      ![Enter a name and choose CSV file](../test/media/web_test_databinding_adddatasourcedialog.png)
 
@@ -166,7 +166,7 @@ Bind data to provide different values to the same test, for example, to provide 
 
 2. Edit the schema.ini file to add the information that describes the structure of your data. For example, a schema file describing the CSV file might look like this:
 
-    ```xml
+    ```TEXT
     [testdata.csv]
     ColNameHeader=False
     ```
@@ -235,7 +235,7 @@ Bind data to provide different values to the same test, for example, to provide 
     </ColorData>
     ```
 
-4. Use the steps in [Binding the SQL data](#AddingDataBindingWebTest_BindSQLData), but choose XML file as your data source.
+4. Use the steps in [Add the data source](#add-the-data-source), but choose XML file as your data source.
 
      ![Enter a name and choose XML file](../test/media/web_test_databinding_adddatasourcedialogxml.png)
 

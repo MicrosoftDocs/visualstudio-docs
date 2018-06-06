@@ -259,4 +259,4 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
 ### Q: Do I need to configure Visual Studio to detect dynamic parameters?
 
- **A:** The default Visual Studio configuration is to detect dynamic parameters when you record a web performance test. However, if you have Visual Studio options configured not to detect dynamic parameters, or the web application being tested gets modified with additional dynamic parameters; you can still [run dynamic parameter detection from the Web Performance Test Editor](#FindingNonDetectableDynamicParamters_QA_ReRunDetection).
+ **A:** The default Visual Studio configuration is to detect dynamic parameters when you record a web performance test. However, if you have Visual Studio options configured not to detect dynamic parameters, or the web application being tested gets modified with additional dynamic parameters; you can still run dynamic parameter detection from the Web Performance Test Editor.
