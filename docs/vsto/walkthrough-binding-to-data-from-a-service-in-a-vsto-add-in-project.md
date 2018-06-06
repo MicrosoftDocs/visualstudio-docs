@@ -27,7 +27,7 @@ ms.workload:
   
 -   Adding a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> control to a document at runtime.  
   
--   Binding the <xref:Microsoft.Office.Tools.Word.RichTextContentControl> control to data from a Web service.  
+-   Binding the <xref:Microsoft.Office.Tools.Word.RichTextContentControl> control to data from a web service.  
   
 -   Responding to the <xref:Microsoft.Office.Tools.Word.ContentControlBase.Entering> event of a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> control.  
   
@@ -52,7 +52,7 @@ ms.workload:
      Visual Studio opens the `ThisAddIn.vb` or `ThisAddIn.cs` file and adds the project to **Solution Explorer**.  
   
 ## Add a web service  
- For this walkthrough, use a Web service called the MTPS Content Service. This Web service returns information from a specified MSDN article in the form of an XML string or plain text. A later step shows how to display the returned information in a content control.  
+ For this walkthrough, use a web service called the MTPS Content Service. This web service returns information from a specified MSDN article in the form of an XML string or plain text. A later step shows how to display the returned information in a content control.  
   
 ### To add the MTPS content service to the project  
   
@@ -71,7 +71,7 @@ ms.workload:
 6.  In the **Add Reference Wizard** dialog box, click **Finish**.  
   
 ## Add a content control and bind to data at runtime  
- In VSTO Add-in projects, you add and bind controls at runtime. For this walkthrough, configure the content control to retrieve data from the Web service when a user clicks inside the control.  
+ In VSTO Add-in projects, you add and bind controls at runtime. For this walkthrough, configure the content control to retrieve data from the web service when a user clicks inside the control.  
   
 ### To add a content control and bind to data  
   
@@ -85,7 +85,7 @@ ms.workload:
      [!code-csharp[Trin_WordAddIn_BindingDataToContentControl#4](../vsto/codesnippet/CSharp/trin_wordaddin_bindingdatatocontentcontrol/ThisAddIn.cs#4)]
      [!code-vb[Trin_WordAddIn_BindingDataToContentControl#4](../vsto/codesnippet/VisualBasic/trin_wordaddin_bindingdatatocontentcontrol/ThisAddIn.vb#4)]  
   
-3.  Add the following method to the `ThisAddIn` class. This method initializes the objects needed to create and send a request to the Web service.  
+3.  Add the following method to the `ThisAddIn` class. This method initializes the objects needed to create and send a request to the web service.  
   
      [!code-csharp[Trin_WordAddIn_BindingDataToContentControl#6](../vsto/codesnippet/CSharp/trin_wordaddin_bindingdatatocontentcontrol/ThisAddIn.cs#6)]
      [!code-vb[Trin_WordAddIn_BindingDataToContentControl#6](../vsto/codesnippet/VisualBasic/trin_wordaddin_bindingdatatocontentcontrol/ThisAddIn.vb#6)]  
