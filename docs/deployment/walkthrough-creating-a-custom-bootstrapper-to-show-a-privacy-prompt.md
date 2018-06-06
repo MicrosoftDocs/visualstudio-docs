@@ -160,7 +160,7 @@ You can configure ClickOnce applications to automatically update when assemblies
   
 2.  In the product.xml file, add the following XML code. Make sure that you do not overwrite the existing XML code.  
   
-    ```  
+    ```xml  
     <Product  
       xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper"  
       ProductCode="Microsoft.Sample.EULA">  
@@ -192,7 +192,7 @@ You can configure ClickOnce applications to automatically update when assemblies
   
 2.  In the package.xml file, add the following XML code to define the locale and include the software license terms. Make sure that you do not overwrite the existing XML code.  
   
-    ```  
+    ```xml  
     <Package   
       xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper"  
       Name="DisplayName"  
