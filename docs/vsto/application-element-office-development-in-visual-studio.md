@@ -21,7 +21,7 @@ ms.workload:
   
 ## Syntax for Document-Level Customizations  
   
-```  
+``` 
 <application>  
   <customization  
     id  
@@ -32,7 +32,7 @@ ms.workload:
 </application>  
 ```  
   
-## Syntax for Application-Level Add-Ins  
+## Syntax for Application-Level Add-ins  
   
 ```  
 <application>  

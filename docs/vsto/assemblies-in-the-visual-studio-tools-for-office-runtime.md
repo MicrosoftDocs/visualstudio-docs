@@ -47,7 +47,7 @@ ms.workload:
   
 |Assembly name|Description|  
 |-------------------|-----------------|  
-|Microsoft.Office.Tools.Common.v9.0.dll|Provides the following types:<br /><br /> -   The Microsoft.Office.Tools.AddIn base class for VSTO Add-Ins.<br />-   Classes for creating Ribbon customizations and smart tags. **Note:**      Smart tags are deprecated in [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)] and [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].<br />-   Classes for creating actions panes in document-level customizations and custom task panes in VSTO Add-Ins.|  
+|Microsoft.Office.Tools.Common.v9.0.dll|Provides the following types:<br /><br /> -   The Microsoft.Office.Tools.AddIn base class for VSTO Add-ins.<br />-   Classes for creating Ribbon customizations and smart tags. **Note:**      Smart tags are deprecated in [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)] and [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].<br />-   Classes for creating actions panes in document-level customizations and custom task panes in VSTO Add-ins.|  
 |Microsoft.Office.Tools.Excel.v9.0.dll|Provides host items and host controls for Excel solutions. For more information, see [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md).|  
 |Microsoft.Office.Tools.Outlook.v9.0.dll|Provides classes that you can use to create custom form regions in Outlook VSTO Add-ins.|  
 |Microsoft.Office.Tools.Word.v9.0.dll|Provides host items and host controls for Word solutions. For more information, see [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md).|  

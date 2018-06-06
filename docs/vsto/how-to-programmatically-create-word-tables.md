@@ -24,7 +24,7 @@ ms.workload:
   
 ## Creating Tables in Document-Level Customizations  
   
-#### To add a simple table to a document  
+#### To add a table to a document  
   
 -   Use the <xref:Microsoft.Office.Interop.Word.Tables.Add%2A> method to add a table consisting of three rows and four columns at the beginning of the document.  
   
@@ -57,7 +57,7 @@ ms.workload:
   
 ## Creating Tables in VSTO Add-ins  
   
-#### To add a simple table to a document  
+#### To add a table to a document  
   
 -   Use the <xref:Microsoft.Office.Interop.Word.Tables.Add%2A> method to add a table consisting of three rows and four columns at the beginning of the document.  
   

@@ -60,8 +60,8 @@ ms.workload:
   
  By default, Visual Studio also does not display Just-In-Time debugging errors for Office projects; however, you can enable this feature so that you can see the errors that are raised. For more information, see [Just-In-Time debugging in Visual Studio](/visualstudio/debugger/just-in-time-debugging-in-visual-studio).  
   
-## Command line arguments  
- If the **Start Action** on the **Debug** property page is set to **Start Project**, Visual Studio does not use command line arguments when debugging the project, even if you have specified command line arguments as start options. If you want to use command line arguments when you start debugging, you must select a **Start Action** other than **Start Project**.  
+## Command-line arguments  
+ If the **Start Action** on the **Debug** property page is set to **Start Project**, Visual Studio does not use command-line arguments when debugging the project, even if you have specified command-line arguments as start options. If you want to use command-line arguments when you start debugging, you must select a **Start Action** other than **Start Project**.  
   
 ## Source control  
  Debug properties are not shared among multiple users under source control. Visual Basic and C# projects store the debugging properties in a user-specific file (*ProjectName*.vbproj.user or *ProjectName*.csproj.user), and this file is not under source control. If more than one person is debugging, each person must enter debug properties manually.  
@@ -89,7 +89,7 @@ ms.workload:
  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] writes messages to the Event Viewer in Windows for all exceptions that are thrown when you install or uninstall Office solutions. You can use these messages to resolve installation and deployment problems.  
   
 ## Troubleshoot startup errors by using a log file and error messages  
- The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] can write all errors that occur during startup to a log file or display each error in a message box. By default, these options are turned off. You can turn the options on by creating environment variables.  
+ The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] can write all errors that occur during startup to a log file or display each error in a message box. By default, these options are turned off. You can turn on the options by creating environment variables.  
   
  To display each error in a message box, create an environment variable named `VSTO_SUPPRESSDISPLAYALERTS` and set it to 0 (zero). You can suppress the messages by deleting the environment variable or setting it to 1 (one).  
   

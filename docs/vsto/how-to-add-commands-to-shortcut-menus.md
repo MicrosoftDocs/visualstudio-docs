@@ -69,7 +69,7 @@ ms.workload:
   
 8.  In **Solution Explorer**, choose **MyRibbon.cs** or **MyRibbon.vb**.  
   
-9. Add the a callback method to the `Ribbon1` class for each control that you want to handle.  
+9. Add a callback method to the `Ribbon1` class for each control that you want to handle.  
   
      The following callback method handles the **My Button** button. This code adds a string to the active document at the current location of the curser.  
   

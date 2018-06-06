@@ -369,7 +369,7 @@ ms.workload:
 ##  <a name="Update"></a> Publish an update  
  To update a solution, you publish it again by using the **Project Designer** or **Publish Wizard**, and then you copy the updated solution to the installation location. When you copy the files to the installation location, make sure that you overwrite the previous files.  
   
- The next time that the solution checks for an update, it'll find and load the new version automatically.  
+ The next time that the solution checks for an update, it will find and load the new version automatically.  
   
 ##  <a name="Location"></a> Change the installation location of a solution  
  You can add or change the installation path after a solution is published. You might want to change the installation path for one or more of the following reasons:  

@@ -195,8 +195,8 @@ GetManagedClass(pdispInteropObject Object) As Object
   
  If users install the solution from an installation folder that is different from the publish folder, you can avoid adding the VBA code in the document every time you publish the solution. When a publish update is ready to be moved from the publish folder to the installation folder, copy all of the files to the installation folder except for the document.  
   
-### On the end user computer  
- If the end users are VBA developers who are calling into services that you provide in the document-level customization, you can tell them how to call your code by using the `CallVSTOAssembly` property or the `GetManagedClass` method in their copies of the document. When you publish updates to the solution, VBA code in the document on the end user computer will not be overwritten, because the document is not modified by publish updates.  
+### On the end-user computer  
+ If the end users are VBA developers who are calling into services that you provide in the document-level customization, you can tell them how to call your code by using the `CallVSTOAssembly` property or the `GetManagedClass` method in their copies of the document. When you publish updates to the solution, VBA code in the document on the end-user computer will not be overwritten, because the document is not modified by publish updates.  
   
 ##  <a name="PropertyTasks"></a> Tasks performed by the host item properties  
  When you use the **EnableVbaCallers** and **ReferenceAssemblyFromVbaProject** properties, Visual Studio performs different sets of tasks.  

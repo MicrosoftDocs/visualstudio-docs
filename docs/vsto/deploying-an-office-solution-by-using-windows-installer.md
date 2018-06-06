@@ -116,7 +116,7 @@ You can create a Windows Installer file by using InstallShield Limited Edition (
   
 4. In the list of project types for **Setup and Deployment**, choose **InstallShield Limited Edition Project**, name the project, and then choose the **OK** button.  
   
-   The InstallShield setup project that you just created appears in your solution.  
+   The InstallShield setup project that you created appears in your solution.  
   
    The samples for this topic contain a setup project that's named **OfficeAddInSetup**. This topic will refer to the setup project in your solution by using the same name.  
   
@@ -385,7 +385,7 @@ Per-user installations require only one installer regardless of Office or Window
   
 15. In the **Value data** text box, enter **file:///[INSTALLDIR]ExcelAddIn.vsto|vstolocal**, and then choose the **OK** button.  
   
-   The Visual Studio 2010 Tools for Office Runtime uses this path to locate the deployment manifest. The **[INSTALLDIR]** portion of this path is a macro that maps to the **INSTALLDIR** property in the **General Information** property page of your InstallShield setup project. This property specifies the location on the target computer to install the VSTO Add-in. The **|vstolocal** suffix ensures that your solution is loaded from the installation folder, not the ClickOnce cache.  
+   The Visual Studio 2010 Tools for Office Runtime use this path to locate the deployment manifest. The **[INSTALLDIR]** portion of this path is a macro that maps to the **INSTALLDIR** property in the **General Information** property page of your InstallShield setup project. This property specifies the location on the target computer to install the VSTO Add-in. The **|vstolocal** suffix ensures that your solution is loaded from the installation folder, not the ClickOnce cache.  
   
 > [!IMPORTANT]  
 > If you create a custom form region in an VSTO Add-in for Outlook, you must create more registry entries to register the region with Outlook. For more information, see [Registry entries for Outlook form regions](../vsto/registry-entries-for-vsto-add-ins.md#OutlookEntries).  
@@ -396,7 +396,7 @@ This section applies only if you're deploying a document-level customization. If
   
 Document-level customizations don't use registry keys. Instead, custom document properties contain the location of the deployment manifest.  
   
-To modify custom properties, you create a program that removes the document-level customization from the document, modifies the appropriate properties, and then re-attaches customization to the document. You then create a custom action that runs the program, and you add that action to your setup project.  
+To modify custom properties, you create a program that removes the document-level customization from the document, modifies the appropriate properties, and then reattaches customization to the document. You then create a custom action that runs the program, and you add that action to your setup project.  
   
 ### To create a program that modifies document properties  
   

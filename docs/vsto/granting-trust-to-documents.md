@@ -25,7 +25,7 @@ ms.workload:
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]  
   
 ## Trusted locations  
- Applications in [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] and Office 2010 have Trust Centers where users can configure security and privacy settings, such as trusted locations. For Office solutions, the local computer is considered a trusted location. However, because of higher risk, there are certain directories that cannot ever be trusted, such as the temporary folders for the system, for each user, and for Internet Explorer.  
+ Applications in [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] and Offices 2010 have Trust Centers where users can configure security and privacy settings, such as trusted locations. For Office solutions, the local computer is considered a trusted location. However, because of higher risk, there are certain directories that cannot ever be trusted, such as the temporary folders for the system, for each user, and for Internet Explorer.  
   
  For more information about the Trust Center, see [Security and policies and settings in Office 2010](http://go.microsoft.com/fwlink/?LinkId=89202). For more information about how to create, manage, remove, and configure trusted folders, see [Configure trusted locations and trusted publishers settings in the 2007 Office system](http://go.microsoft.com/fwlink/?LinkId=89203) and [Create, remove, or change a trusted location for your files](https://support.office.com/en-au/article/Create-remove-or-change-a-trusted-location-for-your-files-f5151879-25ea-4998-80a5-4208b3540a62).  
   

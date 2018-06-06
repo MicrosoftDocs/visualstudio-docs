@@ -103,7 +103,7 @@ ms.workload:
   
  Host controls that are added to Office documents behave like the native Office objects; however, host controls have additional functionality, including events and data-binding capabilities. For example, when you want to capture the events of a native <xref:Microsoft.Office.Interop.Excel.Range> object in Excel, you must first handle the change event of the worksheet. Then you must determine whether the change occurred within the <xref:Microsoft.Office.Interop.Excel.Range>. In contrast, the <xref:Microsoft.Office.Tools.Excel.NamedRange> host control has a <xref:Microsoft.Office.Tools.Excel.NamedRange.Change> event that you can handle directly.  
   
- The relationship between a host item and host controls is very similar to the relationship between a Windows Form and Windows Forms controls. Just as you would place a text box control on a Windows Form, you place a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on a <xref:Microsoft.Office.Tools.Excel.Worksheet> host item. The following illustration shows the relationship between host items and host controls.  
+ The relationship between a host item and host controls is similar to the relationship between a Windows Form and Windows Forms controls. Just as you would place a text box control on a Windows Form, you place a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on a <xref:Microsoft.Office.Tools.Excel.Worksheet> host item. The following illustration shows the relationship between host items and host controls.  
   
  ![Relationship between host items and host controls](../vsto/media/hostitemscontrols.png "Relationship between host items and host controls")  
   
