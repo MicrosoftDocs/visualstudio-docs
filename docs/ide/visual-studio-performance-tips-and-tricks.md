@@ -24,19 +24,7 @@ If you upgrade your system from a 32-bit version of Windows to a 64-bit version,
 
 For more information, see [Memory limits](https://msdn.microsoft.com/library/windows/desktop/aa366778(v=vs.85).aspx#memory_limits) and [Use /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
 
-## Configure solution and projects
-
-If you have a large solution with many projects, you may benefit from these optimizations.
-
-### Unload projects
-
-You can manually unload rarely used individual projects from **Solution Explorer** using the right-click context menu.
-
-### Refactor the solution
-
-You can split your solution into several smaller solution files with commonly used projects. This refactoring should significantly reduce memory usage for your workflow. Smaller solutions also load faster.
-
-### Disable automatic file restore
+## Disable automatic file restore
 
 Visual Studio automatically reopens documents that were left open in the previous session. This can prolong the times it takes to load a solution by up to 30% or more, depending on the project type and the documents being opened. Designers like Windows Forms and XAML, and some JavaScript and typescript files, can be slow to open.
 
