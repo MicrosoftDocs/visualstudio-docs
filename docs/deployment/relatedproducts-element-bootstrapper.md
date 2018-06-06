@@ -29,7 +29,7 @@ The `RelatedProducts` element defines other products that either depend upon or 
   
 ## Syntax  
   
-```  
+```xml  
 <RelatedProducts>  
     <DependsOnProduct  
         Code  
@@ -72,7 +72,7 @@ The `RelatedProducts` element defines other products that either depend upon or 
 ## Example  
  The following code example specifies that the Microsoft Installer is installed with the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], and therefore will not need a separate installation.  
   
-```  
+```xml  
 <RelatedProducts>  
     <IncludesProduct Code="Microsoft.Windows.Installer.2.0" />  
 </RelatedProducts>  
