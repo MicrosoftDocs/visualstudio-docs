@@ -16,6 +16,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
   
 > [!NOTE]
 >  Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the Visual Studio installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself. For more information, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
+
   
  To collect memory data from a .NET Framework component by using the instrumentation method, you use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component and the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize profiling environment variables. You then start the profiler by using the *VSPerfCmd.exe* tool.  
   
@@ -48,7 +49,7 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
   
     -   The [/start](../profiling/start.md)**:trace** option initializes the profiler.  
   
-    -   The [/output](../profiling/output.md)**:**`OutputFile` option is required with **/start**. `OutputFile` specifies the name and location of the profiling data (.vsp) file.  
+    -   The [/output](../profiling/output.md)**:**`OutputFile` option is required with **/start**. `OutputFile` specifies the name and location of the profiling data (.*vsp*) file.  
   
      You can use any of the following options with the **/start:trace** option.  
   

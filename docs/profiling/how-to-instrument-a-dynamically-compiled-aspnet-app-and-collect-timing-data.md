@@ -17,9 +17,9 @@ This article describes how to use Visual Studio Profiling Tools command-line too
 > [!NOTE]
 > Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself. For more information, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).
 
-To collect performance data from a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application, you modify the *web.config* file of the target application to enable the [VSInstr.exe](../profiling/vsinstr.md) tool to instrument the dynamically compiled application files. You then use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to set the appropriate environment variables on the web server to enable profiling, and then restart the computer.
+To collect performance data from a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application, you modify the *web.config* file of the target application to enable the [VSInstr.exe](../profiling/vsinstr.md) tool to instrument the dynamically compiled application files. You then use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to set the appropriate environment variables on the web server to enable profiling, and then restart the computer.
 
-Start the profiler and then run the target application. While the profiler is attached to the application, you can pause and resume data collection. When you finish profiling, close the application, close the Internet Information Services (IIS) worker process, and then shut down the profiler. When you have completed your profiling work, restore the *web.config* file and the web server to their original states.
+Start the profiler and then run the target application. While the profiler is attached to the application, you can pause and resume data collection. When you finish profiling, close the application, close the Internet Information Services (IIS) worker process, and then shut down the profiler. When you have completed your profiling work, restore the *web.config* file and the Web server to their original states.
 
 ## Configure the ASP.NET web application and the web server
 
@@ -45,7 +45,7 @@ Start the profiler and then run the target application. While the profiler is at
 
     - The **/start:trace** option initializes the profiler.
 
-    - The **/output:**`OutputFile` option is required with **/start**. `OutputFile` specifies the name and location of the profiling data (.vsp) file.
+    - The **/output:**`OutputFile` option is required with **/start**. `OutputFile` specifies the name and location of the profiling data (.*vsp*) file.
 
      You can use any of the following options with the **/start:trace** option.
 
@@ -54,8 +54,8 @@ Start the profiler and then run the target application. While the profiler is at
 
     |Option|Description|
     |------------|-----------------|
-    |[/user](../profiling/user-vsperfcmd.md) **:**[`Domain`**\\**]`UserName`|Specifies the domain and user name of the account that owns the ASP.NET worker process. This option is required if the process is running as a user other than the logged-on user. The process owner is listed in the User Name column on the Processes tab of Windows Task Manager.|
-    |[/crosssession](../profiling/crosssession.md)|Enables profiling of processes in other logon sessions. This option is required if the ASP.NET application is running in a different session. The session identifier is listed in the Session ID column on the Processes tab of Windows Task Manager. **/CS** can be specified as an abbreviation for **/crosssession**.|
+    |[/user](../profiling/user-vsperfcmd.md) **:**[`Domain`**\\**]`UserName`|Specifies the domain and user name of the account that owns the ASP.NET worker process. This option is required if the process is running as a user other than the logged-on user. The process owner is listed in the **User Name** column on the **Processes** tab of Windows Task Manager.|
+    |[/crosssession](../profiling/crosssession.md)|Enables profiling of processes in other logon sessions. This option is required if the ASP.NET application is running in a different session. The session identifier is listed in the **Session ID** column on the **Processes** tab of Windows Task Manager. **/CS** can be specified as an abbreviation for **/crosssession**.|
     |[/globaloff](../profiling/globalon-and-globaloff.md)|Starts the profiler with data collection paused. Use [/globalon](../profiling/globalon-and-globaloff.md) to resume profiling.|
     |[/counter](../profiling/counter.md) **:** `Config`|Collects information from the processor performance counter that is specified in `Config`. Counter information is added to the data that is collected at each profiling event.|
     |[/wincounter](../profiling/wincounter.md) **:** `WinCounterPath`|Specifies a Windows performance counter to be collected during profiling.|

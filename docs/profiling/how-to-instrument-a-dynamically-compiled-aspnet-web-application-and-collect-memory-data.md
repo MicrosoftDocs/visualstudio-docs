@@ -17,7 +17,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 > [!NOTE]
 >  Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
   
- To collect performance data from a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application, you modify the web.config file of the target application to enable the [VSInstr.exe](../profiling/vsinstr.md) tool to instrument the dynamically compiled application files. You then use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to configure the server that hosts the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application and enable .NET memory profiling by setting the appropriate environment variables, and then restart the computer.  
+ To collect performance data from a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application, you modify the *web.config* file of the target application to enable the [VSInstr.exe](../profiling/vsinstr.md) tool to instrument the dynamically compiled application files. You then use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to configure the server that hosts the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application and enable .NET memory profiling by setting the appropriate environment variables, and then restart the computer.  
   
  To collect data, start the profiler and then run the target application. While the profiler is attached to the application, you can pause and resume data collection.When you have collected the appropriate data, close the application, close the Internet Information Services (IIS) worker process, and then shut down the profiler.  
   
@@ -26,8 +26,8 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 ## Configure the ASP.NET web application and the web server  
   
 #### To configure the ASP.NET web application and the web server  
-  
-1.  Modify the web.config file of the target application. See [How to: Modify web.config files to instrument and profile dynamically compiled ASP.NET web applications](../profiling/how-to-modify-web-config-files-to-instrument-dynamically-compiled-aspnet-apps.md).  
+
+1.  Modify the *web.config* file of the target application. See [How to: Modify web.config files to instrument and profile dynamically compiled ASP.NET web applications](../profiling/how-to-modify-web-config-files-to-instrument-dynamically-compiled-aspnet-apps.md).  
   
 2.  Open a command prompt window on the computer that hosts the web application.  
   
@@ -55,7 +55,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
     -   The **/start:trace** option initializes the profiler.  
   
-    -   The **/output:**`OutputFile` option is required with **/start**. `OutputFile` specifies the name and location of the profiling data (.vsp) file.  
+    -   The **/output:**`OutputFile` option is required with **/start**. `OutputFile` specifies the name and location of the profiling data (.*vsp*) file.  
   
      You can use any of the following options with the **/start:trace** option.  
   
@@ -64,8 +64,8 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
     |Option|Description|  
     |------------|-----------------|  
-    |[/user](../profiling/user-vsperfcmd.md) **:**[`Domain`**\\**]`UserName`|Specifies the optional domain and user name of the account that owns the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process. This option is required if the process is running as a user other than the logged on user. The name is listed in the User Name column on the Processes tab of Windows Task Manager.|  
-    |[/crosssession](../profiling/crosssession.md)|Enables profiling of processes in other sessions. This option is required if the application is running in a different session. The session id is listed in the Session ID column on the Processes tab of Windows Task Manager. **/CS** can be specified as an abbreviation for **/crosssession**.|  
+    |[/user](../profiling/user-vsperfcmd.md) **:**[`Domain`**\\**]`UserName`|Specifies the optional domain and user name of the account that owns the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process. This option is required if the process is running as a user other than the logged on user. The name is listed in the **User Name** column on the **Processes** tab of Windows Task Manager.|  
+    |[/crosssession](../profiling/crosssession.md)|Enables profiling of processes in other sessions. This option is required if the application is running in a different session. The session ID is listed in the **Session ID** column on the **Processes** tab of Windows Task Manager. **/CS** can be specified as an abbreviation for **/crosssession**.|  
     |[/globaloff](../profiling/globalon-and-globaloff.md)|Starts the profiler with data collection paused. Use [/globalon](../profiling/globalon-and-globaloff.md) to resume profiling.|  
     |[/counter](../profiling/counter.md) **:** `Config`|Collects information from the processor performance counter specified in `Config`. Counter information is added to the data collected at each profiling event.|  
     |[/wincounter](../profiling/wincounter.md) **:** `WinCounterPath`|Specifies a Windows performance counter to be collected during profiling.|  
