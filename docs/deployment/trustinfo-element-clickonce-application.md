@@ -30,7 +30,7 @@ Describes the minimum security permissions required for the application to run o
   
 ## Syntax  
   
-```  
+```xml
   
       <trustInfo>  
    <security>  
@@ -99,7 +99,7 @@ Describes the minimum security permissions required for the application to run o
   
      Required. Identifies whether the application needs an unrestricted grant of this permission. If `true`, the permission grant is unconditional. If `false`, or if this attribute is undefined, it is restricted according to the permission-specific attributes defined on the `IPermission` tag. Take the following permissions:  
   
-    ```  
+    ```xml  
     <IPermission  
       class="System.Security.Permissions.EnvironmentPermission, mscorlib, Version=1.2.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"   
       version="1"   
@@ -164,7 +164,7 @@ Describes the minimum security permissions required for the application to run o
   
  The first example illustrates the `trustInfo` element for the default permissions available in the Internet security zone.  
   
-```  
+```xml  
 <trustInfo>  
     <security>  
       <applicationRequestMinimum>  
@@ -200,7 +200,7 @@ Describes the minimum security permissions required for the application to run o
   
  The second example illustrates the `trustInfo` element for the default permissions available in the LocalIntranet security zone.  
   
-```  
+```xml  
 <trustInfo>  
     <security>  
       <applicationRequestMinimum>  
@@ -252,7 +252,7 @@ Describes the minimum security permissions required for the application to run o
   
  The third example illustrates the `trustInfo` element for the default permissions available in the FullTrust security zone.  
   
-```  
+```xml  
 <trustInfo>  
   <security>  
     <applicationRequestMinimum>  

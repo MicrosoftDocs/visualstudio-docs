@@ -24,7 +24,7 @@ Contains information about the publisher that signed this deployment manifest.
   
 ## Syntax  
   
-```  
+```xml  
 <publisherIdentity  
    name  
    issuerKeyHash  
