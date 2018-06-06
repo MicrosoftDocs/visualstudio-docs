@@ -19,7 +19,7 @@ ms.workload:
   - "uwp"
 ---
 # Analyze HTML UI responsiveness in Universal Windows Apps
-This topic describes how to isolate performance problems in your apps using the UI Responsiveness Profiler, a performance tool available for  Universal Windows Apps.  
+This topic describes how to isolate performance problems in your apps using the UI Responsiveness Profiler, a performance tool available for Universal Windows Apps.  
   
  The UI Responsiveness Profiler can help you isolate problems such as UI responsiveness issues or platform side effects that typically occur with these symptoms:  
   
@@ -29,12 +29,12 @@ This topic describes how to isolate performance problems in your apps using the 
   
 -   Visual updates that are less frequent than expected. This occurs if the UI thread is too busy to maintain a smooth frame rate. For example, if the UI thread is busy, frames might be dropped. Some non-UI thread work such as network requests, image decoding, and paints can also limit the frequency of visual updates. (Not all painting is performed on the UI thread.)  
   
-##  <a name="RunningProfiler"></a> Run the HTML UI Responsiveness Tool  
+## Run the HTML UI Responsiveness Tool  
  You can use the HTML UI Responsiveness tool when you have a working UWP app open in Visual Studio.  
   
 1.  If you're running the app from Visual Studio, on the **Standard** toolbar, in the **Start Debugging** list, choose a deployment target such as **Local Machine** or **Device**.  
   
-2.  On the **Debug** menu, choose **Performance Profiler...**.  
+2.  On the **Debug** menu, choose **Performance Profiler**.  
   
      If you want to change the analysis target for the profiler, choose**Change Target**.  
   
@@ -62,7 +62,7 @@ This topic describes how to isolate performance problems in your apps using the 
   
 6.  To stop profiling the app and view data that the profiler gathered, choose **Stop collection**.  
   
-##  <a name="IsolateAnIssue"></a> Isolate an issue  
+## Isolate an issue  
  The following section provides suggestions to help you isolate performance problems. For a step-by-step explanation of how to identify and fix performance issues by using a sample performance testing app, see [Walkthrough: Improving UI responsiveness (HTML)](../profiling/walkthrough-improving-ui-responsiveness-html.md).  
   
 ###  <a name="Workflow"></a> Isolate a UI responsiveness problem  
@@ -70,11 +70,11 @@ This topic describes how to isolate performance problems in your apps using the 
   
 1.  Open your app in Visual Studio.  
   
-2.  Test your app for UI responsiveness issues. (Press Ctrl+F5 to start your app without debugging.)  
+2.  Test your app for UI responsiveness issues. (Press **Ctrl**+**F5** to start your app without debugging.)  
   
      If you find an issue, continue testing to try to narrow the time frame in which the issue occurs, or try to identify triggers that cause the behavior.  
   
-3.  Switch to Visual Studio (press Alt+Tab) and stop your app (Shift+F5).  
+3.  Switch to Visual Studio (press **Alt**+**Tab**) and stop your app (**Shift**+**F5**).  
   
 4.  Optionally, add user marks to your code using [Mark code for analysis](#ProfileMark).  
   
@@ -163,7 +163,7 @@ if (performance.mark && performance.measure) {
   
  ![User measure event in the timeline details view](../profiling/media/js_htmlvizprofiler_user_measure.png "JS_HTMLVizProfiler_User_Measure")  
   
-##  <a name="AnalyzeData"></a> Analyze data  
+## Analyze data  
  The following sections provide information to help interpret data that appears in the profiler.  
   
 ###  <a name="Ruler"></a> View the diagnostic session timeline  
@@ -295,10 +295,10 @@ if (performance.mark && performance.measure) {
   
  ![Timeline events grouped by frame](../profiling/media/js_htmlvizprofiler_frame_grouping.png "JS_HTMLVizProfiler_Frame_Grouping")  
   
-##  <a name="SaveSession"></a> Save a diagnostic session  
+## Save a diagnostic session  
  In Visual Studio, you can save a diagnostic session when you close the tab that's associated with the session. Saved sessions can be reopened at a later time.  
   
-##  <a name="ProfilerEvents"></a> Profiler event reference  
+## Profiler event reference  
  Profiler events are categorized and color-coded in the UI Responsiveness Profiler. These are the event categories:  
   
 -   **Loading.** Indicates time spent retrieving app resources and parsing HTML and CSS when the app first loads. This can include network requests.  
@@ -343,7 +343,7 @@ if (performance.mark && performance.measure) {
 |Frame|N/A|Visual changes were made to the DOM that required all affected portions of the page to be redrawn. This is a tool-generated event used for grouping.|  
 |User measure|N/A|An app-specific scenario was measured using the `performance.measure` method. This is a tool-generated event used for analyzing code.|  
   
-##  <a name="Tips"></a> Additional information  
+## Additional information  
   
 -   Watch [this video](http://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the UI Responsiveness Profiler.  
   
@@ -351,5 +351,5 @@ if (performance.mark && performance.measure) {
   
 -   For info on the single-threaded code execution model and performance, see [Executing code](http://msdn.microsoft.com/library/windows/apps/hh781217.aspx).  
   
-## See Also  
- [Profiling Tools](../profiling/profiling-tools.md)
+## See also  
+ [First look at profiling tools](../profiling/profiling-tools.md)

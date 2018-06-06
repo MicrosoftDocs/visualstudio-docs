@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Specify Pre- and Post-Instrument Commands
+# How to: Specify pre- and post-instrument commands
 
 You can specify commands that run before or after the binaries in a performance session are instrumented. Any command that can be issued from the command line can be specified as a pre-instrument or a post-instrument event. For example, you can specify commands that automate the resigning of an assembly with a strong name key in a batch file that is executed after the binaries are instrumented.
 
@@ -27,7 +27,7 @@ The working directory in which the commands are executed depends on the operatin
 
  **32-bit computers**
 
-On 32-bit computers, the default profiler tools directory is Drive\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools.
+On 32-bit computers, the default profiler tools directory is *drive\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools*.
 
 **64-bit computers**
 
@@ -35,11 +35,11 @@ On 64-bit computers, specify the path according to the target platform of the pr
 
 - For 32-bit applications, the default profiler tools directory is:
 
-     *Drive*\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools
+     *drive\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools*
 
 - For 64-bit applications, the default profiler tools directory is:
 
-     *Drive*\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\x64
+     *drive\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\x64*
 
 ## To specify pre-instrument commands
 
@@ -81,4 +81,4 @@ On 64-bit computers, specify the path according to the target platform of the pr
 
 ## See also
 
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)

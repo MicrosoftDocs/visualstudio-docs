@@ -17,8 +17,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Manually Create Performance Sessions
-You can manually create a performance session. You are not required to open a project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to do this. For more information, see [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md).  
+# How to: Manually create performance sessions
+You can manually create a performance session. You are not required to open a project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to do this. For more information, see [Configure performance sessions](../profiling/configuring-performance-sessions.md).  
   
 ### To manually create a performance session  
   
@@ -32,6 +32,6 @@ You can manually create a performance session. You are not required to open a pr
   
      A new binary is added.  
   
-## See Also  
+## See also  
  [Performance Explorer](../profiling/performance-explorer.md)   
- [Getting Started](../profiling/getting-started-with-performance-tools.md)
+ [Getting started](../profiling/getting-started-with-performance-tools.md)

@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Set the Current Session
+# How to: Set the current session
 
 You can open multiple performance sessions in the **Performance Explorer**, and can then select one of the visible performance sessions to be set as the current session.
 
@@ -32,7 +32,7 @@ After you set a session as the current session, clicking **Launch** on the **Per
 
 ## See also
 
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)  
-[Performance Explorer Window](../profiling/performance-explorer-window.md)  
-[Performance Session Properties](../profiling/performance-session-properties.md)  
-[Performance Session Overview](../profiling/performance-session-overview.md)
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
+[Performance Explorer window](../profiling/performance-explorer-window.md)  
+[Performance session properties](../profiling/performance-session-properties.md)  
+[Performance session overview](../profiling/performance-session-overview.md)
