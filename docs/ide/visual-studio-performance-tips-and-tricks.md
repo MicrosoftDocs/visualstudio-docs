@@ -38,7 +38,7 @@ You can split your solution into several smaller solution files with commonly us
 
 ### Disable automatic file restore
 
-Visual Studio automatically reopens documents that were left open in the previous session. This can prolong the times it takes to laod a solution by up to 30% or more, depending on the project type and the documents being opened. Designers like Windows Forms and XAML, and some JavaScript and typescript files, can be slow to open.
+Visual Studio automatically reopens documents that were left open in the previous session. This can prolong the times it takes to load a solution by up to 30% or more, depending on the project type and the documents being opened. Designers like Windows Forms and XAML, and some JavaScript and typescript files, can be slow to open.
 
 Visual Studio notifies you in a yellow bar when automatic document restore is causing a solution to load significantly slower. You can disable automatic file reopening by following these steps:
 
