@@ -19,16 +19,16 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Create a SharePoint Web Part
+# How to: Create a SharePoint web part
   You can create and customize a web part by adding a **Web Part** item to any SharePoint project and then editing the code file for the web part or by using a designer. For more information, see [How to: Create a SharePoint Web Part by Using a Designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md).  
   
-### To create a SharePoint Web Part  
+### To create a SharePoint web part
   
 1.  Create or open a SharePoint project.  
   
      For more information, see [SharePoint Project and Project Item Templates](../sharepoint/sharepoint-project-and-project-item-templates.md).  
   
-2.  Choose the SharePoint project node in **Solution Explorer** and then choose **Project**, **Add New Item**.  
+2.  Choose the SharePoint project node in **Solution Explorer** and then choose **Project** > **Add New Item**.  
   
 3.  In the **Add New Item** dialog box, expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -46,7 +46,7 @@ ms.workload:
   
      For an example, see [Walkthrough: Creating a Web Part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md).  
   
-## See Also  
+## See also
  [Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)   
  [How to: Create a SharePoint Web Part by Using a Designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)   
  [Walkthrough: Creating a Web Part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)   

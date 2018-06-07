@@ -20,7 +20,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Mark Controls as Safe Controls
+# How to: Mark controls as safe controls
   For security, SharePoint differentiates between Web controls that are protected against script injection and Web controls that are not. Protected controls, or *safe controls*, can be accessed by untrusted users. You can mark controls as safe in the Safe Control Entries property of a SharePoint project item or in the **Package Designer** when you add an assembly to the package. For more information, see  
   
  [web.config file Settings Change](http://go.microsoft.com/fwlink/?LinkId=178965) and [Registering a Web Part Assembly as a Safe Control](http://go.microsoft.com/fwlink/?LinkId=171013).  
@@ -30,7 +30,7 @@ ms.workload:
   
 ## Marking Safe Controls in the Safe Control Entries Property  
   
-#### To mark controls as safe or unsafe in the Safe Control Entries property  
+#### To mark controls as safe or unsafe in the safe control entries property
   
 1.  Create a SharePoint solution with a Visual Web Part project.  
   
@@ -54,7 +54,7 @@ ms.workload:
   
 ## Marking Safe Controls in the Package Designer  
   
-#### To mark controls as safe or unsafe in the Package Designer  
+#### To mark controls as safe or unsafe in the package designer
   
 1.  Create a SharePoint solution with a Visual Web Part project.  
   
@@ -62,11 +62,11 @@ ms.workload:
   
      Take note of the namespace of the control because it is used later.  
   
-3.  On the menu bar, choose **Build**, **Build Solution** to build the project.  
+3.  On the menu bar, choose **Build** > **Build Solution** to build the project.  
   
 4.  Create another SharePoint solution.  
   
-5.  In **Solution Explorer**, open the shortcut menu for the Package.Package file, and then choose **Open** to open the **Package Designer**.  
+5.  In **Solution Explorer**, open the shortcut menu for the *Package.Package* file, and then choose **Open** to open the **Package Designer**.  
   
 6.  In the **Package Designer**, choose the **Advanced** tab.  
   
@@ -95,7 +95,7 @@ ms.workload:
     > [!NOTE]  
     >  The **Assembly Name** value for assemblies added through the **Advanced** tab of the **Package Designer** cannot be a token, it must be a strongly-named assembly. For more information, see [Creating and Using Strong-Named Assemblies](http://go.microsoft.com/fwlink/?LinkId=177513).  
   
-13. Choose the Tab key to create another safe control entry.  
+13. Choose the **Tab** key to create another safe control entry.  
   
 14. Choose the **Click here to add a new item** button again.  
   
@@ -109,10 +109,9 @@ ms.workload:
     |Safe|Select the **Safe** check box.|  
     |Safe Against Script|Select the **Safe Against Script** check box.|  
   
-16. Choose the Tab key, and then choose the **OK** button to close the dialog box.  
+16. Choose the **Tab** key, and then choose the **OK** button to close the dialog box.  
   
-## See Also  
+## See also
  [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)   
  [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
-  
   
