@@ -19,8 +19,11 @@ The Visual Studio Kubernetes Tools help streamline the development of containeri
 To leverage this new functionality, you'll need:
 
 - The latest preview of [Visual Studio 2017](https://www.visualstudio.com/vs/preview) with the Azure development workload.
+
 - The [Kubernetes tools for Visual Studio](https://aka.ms/get-vsk8stools), available as a separate download.
+
 - [Docker for Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows) installed on your development workstation (that is, where you run Visual Studio)
+
 - If you wish to publish to AKS from Visual Studio:
 
     1.  The [AKS publishing tools](https://aka.ms/get-vsk8spublish), available as a separate download.
@@ -64,7 +67,7 @@ The added files are:
 
 - a Dockerfile, which allows you to generate a Docker container image hosting this web application. As you'll see, the Visual Studio tooling leverages this Dockerfile when debugging and deploying to Kubernetes. If you prefer to work directly with the Docker image, you can right-click on the Dockerfile and choose **Build Docker Image**.
 
-![Screenshot of Build Docker Image option](media/k8s-tools-build-docker-image.png)
+   ![Screenshot of Build Docker Image option](media/k8s-tools-build-docker-image.png)
 
 - a Helm chart, and a *charts* folder. These yaml files make up the Helm chart for the application, which you can use to deploy it to Kubernetes. For more information on Helm, see [https://www.helm.sh](https://www.helm.sh).
 
