@@ -10,7 +10,7 @@ manager: douge
 ms.workload: 
   - "azure"
 ---
-# Tutorial: Publish to Kubernetes with Visual Studio Kubernetes Tools
+# Get started with Visual Studio Kubernetes Tools
 
 The Visual Studio Kubernetes Tools help streamline the development of containerized applications targeting Kubernetes. Visual Studio can automatically create the configuration-as-code files needed to support Kubernetes deployment, such as Dockerfiles and Helm charts. In addition, you can publish directly to an Azure Kubernetes Service (AKS) cluster from Visual Studio.
 
