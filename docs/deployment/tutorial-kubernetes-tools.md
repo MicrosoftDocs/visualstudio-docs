@@ -43,7 +43,7 @@ Once you have the appropriate tools installed, launch Visual Studio and create a
 
 ![Screenshot of creating a new Kubernetes app project](media/k8s-tools-new-k8s-app.png)
 
-You can then choose which type of ASP.NET Core web application to create. Choose **Web Application** and choose **OK**. Note that the usual **Enable Docker Support** option does not appear on this dialog.  Docker support is enabled by default for a container application for Kubernetes.
+You can then choose which type of ASP.NET Core web application to create. Choose **Web Application** and choose **OK**. The usual **Enable Docker Support** option does not appear on this dialog.  Docker support is enabled by default for a container application for Kubernetes.
 
 ![Screenshot of web app selection](media/k8s-tools-web-app-selection-screen.png)
 
