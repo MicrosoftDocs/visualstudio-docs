@@ -2,20 +2,16 @@
 title: "Glyph Control (Source Control VSPackage) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "glyphs, source control packages"
   - "source control packages, glyphs"
 ms.assetid: b9413b08-b3c3-4fc3-a6e0-3dc0db3652d7
-caps.latest.revision: 20
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

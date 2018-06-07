@@ -1,7 +1,7 @@
 ---
-title: "Configuring Test Iterations for load testing in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Configuring Test Iterations for load testing in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, scenarios, iterations"
   - "load test, iterations"
@@ -9,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: ac480fb7-f4f7-47dc-9ae5-98be3aca4fba
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Configure Test Iterations in a Load Test Scenario
@@ -36,28 +37,28 @@ The **Maximum Test Iterations** property controls the maximum number of test ite
 
  The **Maximum Test Iterations** property is useful for a variety of situations. Some load testers prefer to conduct iteration-based testing, whereas other load testers prefer to conduct duration-based testing.
 
- ![Specifying test iterations in a scenario](../test/media/loadtest_prop.png "LoadTest_Prop")
+ ![Specifying test iterations in a scenario](../test/media/loadtest_prop.png)
 
 ### To specify the maximum test iterations
 
-1.  Open a load test.
+1. Open a load test.
 
-2.  The Load Test Editor appears. The load test tree is displayed.
+2. The Load Test Editor appears. The load test tree is displayed.
 
-3.  In the load test trees **Scenarios** folder, choose the scenario node for which you want to specify the maximum number of test iterations.
+3. In the load test trees **Scenarios** folder, choose the scenario node for which you want to specify the maximum number of test iterations.
 
-4.  On the **View** menu, select **Properties Window**.
+4. On the **View** menu, select **Properties Window**.
 
      The categories and properties of the scenario are displayed in the Properties window.
 
-5.  In the text box for the **Maximum Test Iterations** property, type a value that indicates the maximum number of tests to run for the scenario when the load test is run.
+5. In the text box for the **Maximum Test Iterations** property, type a value that indicates the maximum number of tests to run for the scenario when the load test is run.
 
     > [!NOTE]
     > Using a value of 0 for the **Maximum Test Iterations** property specifies no maximum iterations.
 
-6.  After you have finished changing the property, choose **Save** on the **File** menu. You can then run your load test by using the new **Maximum Test Iterations** value.
+6. After you have finished changing the property, choose **Save** on the **File** menu. You can then run your load test by using the new **Maximum Test Iterations** value.
 
-## Specifying Think Times Between Test Iterations for a Scenario
+## Specify Think Times Between Test Iterations for a Scenario
 
 The **Think Time Between Test Iterations** property is set using the Properties window while editing load test scenario properties in the Load Test Editor.
 
@@ -66,21 +67,21 @@ The **Think Time Between Test Iterations** property is used to specify the amoun
 > [!NOTE]
 > For a complete list of the load test scenario properties and their descriptions, see [Load Test Scenario Properties](../test/load-test-scenario-properties.md).
 
-### To specify the think times between test iterations
+### To specify the think time between test iterations
 
-1.  Open a load test.
+1. Open a load test.
 
      The **Load Test Editor** appears. The load test tree is displayed.
 
-2.  In the load test trees **Scenarios** folder, choose the scenario node you want to specify the agents to use.
+2. In the load test trees **Scenarios** folder, choose the scenario node you want to specify think time for.
 
-3.  On the **View** menu, select **Properties Window**.
+3. On the **View** menu, select **Properties Window**.
 
      The scenario's categories and properties are displayed in the Properties window.
 
-4.  In the value for **Think Time Between Test Iterations** property, enter a number representing the number of seconds to wait before starting the next test iteration.
+4. In the value for **Think Time Between Test Iterations** property, enter a number representing the number of seconds to wait before starting the next test iteration.
 
-5.  After you have finished changing the property, choose **Save** on the **File** menu. You can then run your load test using the new **Think Time Between Test Iterations** value.
+5. After you have finished changing the property, choose **Save** on the **File** menu. You can then run your load test using the new **Think Time Between Test Iterations** value.
 
 ## See also
 

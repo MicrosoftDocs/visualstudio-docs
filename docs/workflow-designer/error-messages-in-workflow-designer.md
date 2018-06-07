@@ -1,23 +1,27 @@
 ---
-title: "Error Messages in Workflow Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Error Messages in Workflow Designer"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "WFDErrorMessages.UI"
   - "System.Activities.Presentation.ErrorActivity.UI"
   - "System.Activities.Presentation.View.ErrorView.UI"
 ms.assetid: 4d8bbc2e-34fc-477f-9140-4adfd70c34a0
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Error Messages in Workflow Designer
+
 This topic describes the types of error messages that can be encountered when working with Windows Workflow Designer.
 
 ## Situations in which Errors in the Workflow Designer Occur
- Errors in [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] occur in the following situations:
+
+Errors in Workflow Designer occur in the following situations:
 
 1.  There is an error in an expression.
 
@@ -27,12 +31,12 @@ This topic describes the types of error messages that can be encountered when wo
 
 4.  There are errors in the XAML file that cause the workflow to fail to load.
 
- Invalid expressions and unsatisfied validation constraints do not cause the workflow to fail to build. Building your workflow succeeds, but an <xref:System.Activities.InvalidWorkflowException> is thrown at runtime. If there are errors in the XAML file, the build fails.
+Invalid expressions and unsatisfied validation constraints do not cause the workflow to fail to build. Building your workflow succeeds, but an <xref:System.Activities.InvalidWorkflowException> is thrown at runtime. If there are errors in the XAML file, the build fails.
 
- Inside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], when a workflow is loaded, its errors are displayed in the **Error List**. To navigate to the activity that is the source of the error, double-click the error in the **Error List**.
+Inside Visual Studio, when a workflow is loaded, its errors are displayed in the **Error List**. To navigate to the activity that is the source of the error, double-click the error in the **Error List**.
 
 ### Expression Errors
- An invalid expression is denoted by a red circle with a white exclamation point next to the expression. Hovering over this icon displays a tooltip that describes the source of the error. Inside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], click the expression to view the line that underlines the source of the error. Hovering over lined text displays a tooltip that describes the source of the error.
+ An invalid expression is denoted by a red circle with a white exclamation point next to the expression. Hovering over this icon displays a tooltip that describes the source of the error. Inside Visual Studio, click the expression to view the line that underlines the source of the error. Hovering over lined text displays a tooltip that describes the source of the error.
 
 ### Activity Validation Errors
  When the validation constraints of an activity have not been satisfied, a red circle with a white exclamation point appears in the top right corner of the activity. Hovering over this icon displays a tooltip that describes the source of the error.

@@ -1,14 +1,16 @@
+
 ---
-title: "Isolating Code Under Test with Microsoft Fakes in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Isolating Code Under Test with Microsoft Fakes in Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 author: gewarren
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
 ---
@@ -22,11 +24,15 @@ Fakes come in two flavors:
 
 -   A [shim](#shims) modifies the compiled code of your application at run time so that instead of making a specified method call, it runs the shim code that your test provides. Shims can be used to replace calls to assemblies that you cannot modify, such as .NET assemblies.
 
-![Fakes replace other components](../test/media/fakes-2.png "Fakes-2")
+![Fakes replace other components](../test/media/fakes-2.png)
 
 **Requirements**
 
 -   Visual Studio Enterprise
+-   A .NET Framework project
+
+> [!NOTE]
+> .NET Standard projects are not supported.
 
 ## Choosing between stub and shim types
 Typically, you would consider a Visual Studio project to be a component, because you develop and update those classes at the same time. You would consider using stubs and shims for calls that the project makes to other projects in your solution, or to other assemblies that the project references.
@@ -229,7 +235,7 @@ To use shims, you don't have to modify the application code or write it a partic
 
 The previous example uses a shim for a static method. To use a shim for an instance method, write `AllInstances` between the type name and the method name:
 
-```
+```vb
 System.IO.Fakes.ShimFile.AllInstances.ReadToEnd = ...
 ```
 

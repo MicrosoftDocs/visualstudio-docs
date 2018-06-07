@@ -4,7 +4,7 @@ title: Visual Studio Tools for AI
 metadata:
   document_id: 83ceabb5-fb4f-a709-3fd2-37d024409f31
   title: Visual Studio Tools for AI | Microsoft Docs
-  meta.description: 
+  meta.description:
   services: ai-tools-visual-studio
   author: lisawong19
   manager: routlaw
@@ -14,6 +14,7 @@ metadata:
   ms.topic: landing-page
   ms.date: 10-25-2017
   ms.author: liwong
+  ms.technology: vs-ai-tools
 abstract:
   description: Visual Studio Tools for AI is an integrated development environment to build, test, and deploy deep learning solutions. Learn how to use AI Tools with our quickstarts, tutorials, and samples.
 sections:
@@ -23,10 +24,10 @@ sections:
     text: 'Learn how to run deep learning solution with:'
   - type: list
     style: icon48
-    items: 
-    - image: 
+    items:
+    - image:
         src: media/Tensorflow_logo.png
-      text: TensorFlow and Python 
+      text: TensorFlow and Python
       href: tensorflow-local.md
 - title: Step-by-Step Tutorials
   items:

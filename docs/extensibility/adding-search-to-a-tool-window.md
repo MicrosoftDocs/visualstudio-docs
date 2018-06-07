@@ -2,19 +2,15 @@
 title: "Adding Search to a Tool Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "tool windows, adding search"
 ms.assetid: f78c4892-8060-49c4-8ecd-4360f1b4d133
-caps.latest.revision: 38
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
@@ -77,37 +73,6 @@ When you create or update a tool window in your extension, you can add the same 
      In the **TestSearchControl** class, add the following code.  
   
      This code adds a public <xref:System.Windows.Controls.TextBox> property  named **SearchResultsTextBox** and a public string property named **SearchContent**. In the constructor, SearchResultsTextBox is set to the text box, and SearchContent is initialized to a newline-delimited set of strings. The content of the text box is also initialized to the set of strings.  
-  
-    ```csharp  
-    public partial class TestSearchControl : UserControl  
-    {  
-        public TextBox SearchResultsTextBox { get; set; }  
-        public string SearchContent { get; set; }  
-  
-        public TestSearchControl()  
-        {  
-            InitializeComponent();  
-  
-            this.SearchResultsTextBox = resultsTextBox;  
-            this.SearchContent = BuildContent();  
-  
-            this.SearchResultsTextBox.Text = this.SearchContent;  
-        }  
-  
-        private string BuildContent()  
-        {  
-            StringBuilder sb = new StringBuilder();  
-            sb.AppendLine("1 go");  
-            sb.AppendLine("2 good");  
-            sb.AppendLine("3 Go");  
-            sb.AppendLine("4 Good");  
-            sb.AppendLine("5 goodbye");  
-            sb.AppendLine("6 Goodbye");  
-  
-            return sb.ToString();  
-        }  
-    }  
-    ```  
   
      [!code-csharp[ToolWindowSearch#1](../extensibility/codesnippet/CSharp/adding-search-to-a-tool-window_1.cs)]
      [!code-vb[ToolWindowSearch#1](../extensibility/codesnippet/VisualBasic/adding-search-to-a-tool-window_1.vb)]  
@@ -311,7 +276,7 @@ When you create or update a tool window in your extension, you can add the same 
     System.Threading.Thread.Sleep(100);  
     ```  
   
-5.  Test the new settings by rebuilding the solution and starting to debugb.  
+5.  Test the new settings by rebuilding the solution and starting to debug.  
   
      The progress bar appears in the search window (as a blue line below the search text box) every time that you perform a search.  
   
@@ -352,39 +317,11 @@ When you create or update a tool window in your extension, you can add the same 
     }  
     ```  
   
-2.  In the `TestSearchTask` class, uncomment matchCase line in the `OnStartSearch` method:  
+2.  In the `TestSearchTask` class, uncomment the following line in the `OnStartSearch` method:  
   
-    ```csharp  
-    private IVsEnumWindowSearchOptions m_optionsEnum;  
-    public override IVsEnumWindowSearchOptions SearchOptionsEnum  
-    {  
-        get  
-        {  
-            if (m_optionsEnum == null)  
-            {  
-                List<IVsWindowSearchOption> list = new List<IVsWindowSearchOption>();  
-  
-                list.Add(this.MatchCaseOption);  
-  
-                m_optionsEnum = new WindowSearchOptionEnumerator(list) as IVsEnumWindowSearchOptions;  
-            }  
-            return m_optionsEnum;  
-        }  
-    }  
-  
-    private WindowSearchBooleanOption m_matchCaseOption;  
-    public WindowSearchBooleanOption MatchCaseOption  
-    {  
-        get  
-         {  
-            if (m_matchCaseOption == null)  
-            {  
-                m_matchCaseOption = new WindowSearchBooleanOption("Match case", "Match case", false);  
-            }  
-            return m_matchCaseOption;  
-        }  
-    }  
-    ```  
+    ```csharp
+    matchCase = m_toolWindow.MatchCaseOption.Value;
+    ```
   
 3.  Test the option:  
   

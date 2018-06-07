@@ -2,25 +2,20 @@
 title: "Analyze Memory Usage without the VS Debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Analyze Memory Usage without the Visual Studio Debugger
+# Analyze memory usage without the Visual Studio debugger
 You can use the **Memory Usage** tool without debugging to do the following  
   
 -   Monitor your app's memory use right in Visual Studio while you are developing a scenario.  
@@ -35,7 +30,7 @@ You can use the **Memory Usage** tool without debugging to do the following
   
 1.  Open a C# Universal Windows project in Visual Studio.  
   
-2.  On the menu bar, choose  **Debug / Performance Profiler...**.  
+2.  On the menu bar, choose  **Debug** > **Performance Profiler**.  
   
 3.  Select **Memory Usage** and then choose the **Start** button at the bottom of the page.  
   
@@ -48,7 +43,7 @@ You can use the **Memory Usage** tool without debugging to do the following
   
  ![Memory Usage overview page](../profiling/media/memuse__reportoverview.png "MEMUSE__ReportOverview")  
   
- The  timeline graph shows fluctuations in your app's memory as it runs. Spikes in the graph usually indicate that some code  is collecting or creating data and then discarding it when the processing is done. Large spikes indicate areas that you might be able to optimize. Of more concern is a rise in memory consumption that's not returned because it may indicate inefficient memory use or even a memory leak.  
+ The timeline graph shows fluctuations in your app's memory as it runs. Spikes in the graph usually indicate that some code  is collecting or creating data and then discarding it when the processing is done. Large spikes indicate areas that you might be able to optimize. Of more concern is a rise in memory consumption that's not returned because it may indicate inefficient memory use or even a memory leak.  
   
 ###  <a name="BKMK_Close_a_monitoring_session"></a> Close a monitoring session  
  ![Stop collection](../profiling/media/memuse__stopcollection.png "MEMUSE__StopCollection")  
@@ -199,9 +194,9 @@ You can use the **Memory Usage** tool without debugging to do the following
 |**Size (Bytes)**|For an instance, the size of the object in the primary snapshot, excluding the size of objects contained in the instance.<br /><br /> For a type, the total size of the instances of the type in the primary snapshot, excluding the size of objects contained in the instance.|  
 |**Inclusive Size (Bytes)**|The size of the objects in the primary snapshot, including the size of objects contained in the objects.|  
   
-## See Also  
- [JavaScript Memory](../profiling/javascript-memory.md)  
+## See also  
+ [JavaScript memory](../profiling/javascript-memory.md)  
  [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling Feature Tour](../profiling/profiling-feature-tour.md)  
+ [Profiling feature tour](../profiling/profiling-feature-tour.md)  
  [Performance best practices for UWP apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/library/windows/apps/hh750313.aspx)   
  [Diagnosing memory issues with the new Memory Usage Tool in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=394706)

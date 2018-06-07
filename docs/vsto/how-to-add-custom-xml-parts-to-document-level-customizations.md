@@ -1,13 +1,10 @@
 ---
-title: "How to: Add Custom XML Parts to Document-Level Customizations | Microsoft Docs"
+title: "How to: Add custom XML parts to document-level customizations"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,17 +17,17 @@ helpviewer_keywords:
   - "documents [Office development in Visual Studio], custom XML parts"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add Custom XML Parts to Document-Level Customizations
-  You can store XML data in a Microsoft Office Excel workbook or Microsoft Office Word document by creating a custom XML part in a document-level customization. For more information, see [Custom XML Parts Overview](../vsto/custom-xml-parts-overview.md).  
+# How to: Add custom XML parts to document-level customizations
+  You can store XML data in a Microsoft Office Excel workbook or Microsoft Office Word document by creating a custom XML part in a document-level customization. For more information, see [Custom XML parts overview](../vsto/custom-xml-parts-overview.md).  
   
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]  
   
 > [!NOTE]  
->  Visual Studio does not provide document-level projects for Microsoft Office PowerPoint. For information about adding a custom XML part to a PowerPoint presentation by using an VSTO Add-in, see [How to: Add Custom XML Parts to Documents by Using VSTO Add-Ins](../vsto/how-to-add-custom-xml-parts-to-documents-by-using-vsto-add-ins.md).  
+>  Visual Studio does not provide document-level projects for Microsoft Office PowerPoint. For information about adding a custom XML part to a PowerPoint presentation by using an VSTO Add-in, see [How to: Add custom XML parts to documents by using VSTO Add-ins](../vsto/how-to-add-custom-xml-parts-to-documents-by-using-vsto-add-ins.md).  
   
 ### To add a custom XML part to an Excel workbook  
   
@@ -54,11 +51,10 @@ ms.workload:
   
 3.  Call the method from other code in your project. For example, to create the custom XML part when the user opens the document, call the method from the `ThisDocument_Startup` event handler.  
   
-## Robust Programming  
+## Robust programming  
  For simplicity, this example uses an XML string that is defined as a local variable in the method. Typically, you should obtain the XML from an external source, such as a file or a database.  
   
-## See Also  
- [Custom XML Parts Overview](../vsto/custom-xml-parts-overview.md)   
- [How to: Add Custom XML Parts to Documents by Using VSTO Add-Ins](../vsto/how-to-add-custom-xml-parts-to-documents-by-using-vsto-add-ins.md)  
-  
+## See also  
+ [Custom XML parts overview](../vsto/custom-xml-parts-overview.md)   
+ [How to: Add custom XML parts to documents by using VSTO Add-ins](../vsto/how-to-add-custom-xml-parts-to-documents-by-using-vsto-add-ins.md)  
   

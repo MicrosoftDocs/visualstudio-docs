@@ -2,21 +2,17 @@
 title: "IEEVisualizerService::GetCustomViewerCount | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEEVisualizerService::GetCustomViewerCount"
 helpviewer_keywords: 
   - "IEEVisualizerService::GetCustomViewerCount method"
 ms.assetid: f7b095c2-e538-4352-8cad-d4c6d4f6bdbc
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

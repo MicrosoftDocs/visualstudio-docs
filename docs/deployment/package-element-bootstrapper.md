@@ -2,12 +2,8 @@
 title: "&lt;Package&gt; Element (Bootstrapper) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 dev_langs: 
   - "FSharp"
   - "VB"
@@ -16,10 +12,9 @@ dev_langs:
 helpviewer_keywords: 
   - "<package> element [bootstrapper]"
 ms.assetid: ecd06658-ad02-4440-bccd-88437b7fb816
-caps.latest.revision: 9
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -28,7 +23,7 @@ The `Package` element is the top-level XML element inside of a package file.
   
 ## Syntax  
   
-```  
+```xml  
 <Package  
     Culture  
     Name  
@@ -153,7 +148,7 @@ The `Package` element is the top-level XML element inside of a package file.
 ## Example  
  The following code example shows a complete package file for redistributing the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)].  
   
-```  
+```xml  
 <?xml version="1.0" encoding="utf-8" ?>  
   
 <Package  

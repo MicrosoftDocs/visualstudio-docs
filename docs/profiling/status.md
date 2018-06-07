@@ -2,17 +2,12 @@
 title: "Status | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: ba656fa4-ef9d-4d8c-a3b6-739c3b5d23ae
-caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -23,7 +18,7 @@ The VSPerfCmd.exe **Status** option displays information about the state of the 
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Status  
 ```  
   

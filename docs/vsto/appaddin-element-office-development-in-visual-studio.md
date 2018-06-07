@@ -1,13 +1,10 @@
 ---
-title: "&lt;appAddin&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
+title: "&lt;appAddin&gt; element (Office development in Visual Studio)"
 ms.custom: ""
-ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: 02/02/2017
+ms.technology: office-development
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,16 +12,16 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <appAddin> element"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# &lt;appAddin&gt; Element (Office Development in Visual Studio)
-  The `appAddin` element of the `vstov4` namespace stores customization-specific information for VSTO Add-ins.  
+# &lt;appAddin&gt; element (Office development in Visual Studio)
+  The **appAddin** element of the `vstov4` namespace stores customization-specific information for VSTO Add-ins.  
   
 ## Syntax  
   
-```  
+```xml 
 <appAddin  
   application  
   loadBehavior  
@@ -35,36 +32,36 @@ ms.workload:
 </appAddin>  
 ```  
   
-## Elements and Attributes  
- The `appAddin` element is required and is in the `vstov4` namespace. There is only one `appAddin` element defined in an application manifest.  
+## Elements and attributes  
+ The **appAddin** element is required and is in the `vstov4` namespace. There is only one **appAddin** element defined in an application manifest.  
   
- The `appAddin` element has the following attributes.  
+ The **appAddin** element has the following attributes.  
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|`application`|Required. Identifies the Microsoft Office application. The value can be one of the following: Excel, InfoPath, Outlook, PowerPoint, Project, Visio, or Word.|  
-|`loadBehavior`|Optional. By default, the `loadBehavior` is enabled by setting this value to . For debugging, the VSTO Add-in can be disabled by setting the value to two. For more information, see the table titled LoadBehavior Values in [Registry Entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).|  
-|`keyName`|Required. This value is the registry key name that will be used by the application to load the VSTO Add-in. For more information, see [Registry Entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).|  
+|**application**|Required. Identifies the Microsoft Office application. The value can be one of the following: Excel, InfoPath, Outlook, PowerPoint, Project, Visio, or Word.|  
+|**loadBehavior**|Optional. By default, the **loadBehavior** is enabled by setting this value to . For debugging, the VSTO Add-in can be disabled by setting the value to two. For more information, see the table titled LoadBehavior Values in [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).|  
+|**keyName**|Required. This value is the registry key name that will be used by the application to load the VSTO Add-in. For more information, see [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).|  
   
- The `appAddin` element has the following child elements.  
+ The **appAddin** element has the following child elements.  
   
 ### friendlyName  
- Optional. The `friendlyName` element is explained in [&#60;friendlyName&#62; Element &#40;Office Development in Visual Studio&#41;](../vsto/friendlyname-element-office-development-in-visual-studio.md).  
+ Optional. The **friendlyName** element is explained in [&#60;friendlyName&#62; element &#40;Office development in Visual Studio&#41;](../vsto/friendlyname-element-office-development-in-visual-studio.md).  
   
 ### description  
- Optional. The `description` element is explained in [&#60;description&#62; Element &#40;Office Development in Visual Studio&#41;](../vsto/description-element-office-development-in-visual-studio.md).  
+ Optional. The **description** element is explained in [&#60;description&#62; element &#40;Office development in Visual Studio&#41;](../vsto/description-element-office-development-in-visual-studio.md).  
   
 ### formRegions  
- Required only for Outlook VSTO Add-ins that include form regions. The `formRegions` element is explained in [&#60;formRegions&#62; Element &#40;Office Development in Visual Studio&#41;](../vsto/formregions-element-office-development-in-visual-studio.md).  
+ Required only for Outlook VSTO Add-ins that include form regions. The **formRegions** element is explained in [&#60;formRegions&#62; element &#40;Office development in Visual Studio&#41;](../vsto/formregions-element-office-development-in-visual-studio.md).  
   
-## VSTO Add-in Example  
+## VSTO Add-in example  
   
 ### Description  
- The following code example illustrates `appAddin` elements in an Outlook solution deployed using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).  
+ The following code example illustrates **appAddin** elements in an Outlook solution deployed using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
   
 ### Code  
   
-```  
+```xml  
 <vstov4:appAddIn   
   application="Outlook"   
   loadBehavior="3"   
@@ -87,9 +84,9 @@ ms.workload:
 </vstov4:appAddIn>  
 ```  
   
-## See Also  
- [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)   
- [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Application Manifest](/visualstudio/deployment/clickonce-application-manifest)  
+## See also  
+ [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)   
+ [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)   
+ [ClickOnce application manifest](/visualstudio/deployment/clickonce-application-manifest)  
   
   

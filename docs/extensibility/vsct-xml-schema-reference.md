@@ -2,20 +2,16 @@
 title: "VSCT XML Schema Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Visual Studio command table configuration files (VSCT), XML schema"
   - "VSCT XML schema elements"
 ms.assetid: 49e7efae-e713-4762-a824-96fdaf92cdc9
-caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,20 +2,16 @@
 title: "Language Service Support for Debugging | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugger, language support"
   - "language services, debugging support"
 ms.assetid: 7a44067f-a410-4a6a-84d2-bda5184140bc
-caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

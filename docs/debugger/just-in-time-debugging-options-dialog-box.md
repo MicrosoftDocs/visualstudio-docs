@@ -2,11 +2,7 @@
 title: "Just-In-Time, Debugging, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "VS.ToolsOptionsPages.Debugger.JIT"
@@ -21,10 +17,9 @@ helpviewer_keywords:
   - "Just-In-Time debugging, setting options"
   - "Options dialog box, debugging"
 ms.assetid: 7f11b2e3-3fb5-449d-b07c-6ecf1d6a487d
-caps.latest.revision: 19
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

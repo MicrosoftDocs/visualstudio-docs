@@ -2,12 +2,8 @@
 title: "&lt;fileAssociation&gt; Element (ClickOnce Application) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,10 +12,9 @@ helpviewer_keywords:
   - "<fileAssociation> element [ClickOnce application manifest]"
   - "manifests [ClickOnce], fileAssociation element"
 ms.assetid: 8f951b4f-54f9-412e-a9e5-af4e379fcf08
-caps.latest.revision: 8
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,17 +2,13 @@
 title: "Language Server Protocol Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/14/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 6a7d93c2-31ea-4bae-8b29-6988a567ddf2
-caps.latest.revision: 1
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: "ghogen"
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,12 +2,8 @@
 title: "How to: Set Custom Permissions for a ClickOnce Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,10 +12,9 @@ helpviewer_keywords:
   - "ClickOnce applications, permissions"
   - "permissions, ClickOnce applications"
 ms.assetid: 660459ca-ef73-44a8-b323-610001f63b93
-caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

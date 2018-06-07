@@ -2,22 +2,18 @@
 title: "Project Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#Project"
 helpviewer_keywords: 
   - "Project element [Visual Studio Templates]"
   - "<Project> element [Visual Studio Templates]"
 ms.assetid: 1da15ea6-26e2-462b-a03e-584ef4996579
-caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

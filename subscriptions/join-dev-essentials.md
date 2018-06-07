@@ -1,17 +1,17 @@
 ---
 title: How to Join Visual Studio Dev Essentials | Microsoft Docs 
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 2/13/2018
-Ms.topic: Get-Started-Article
-Description:  Learn about Visual Studio Dev Essentials, and how to sign up.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 02/13/2018
+ms.topic: Get-Started-Article
+description:  Learn about Visual Studio Dev Essentials, and how to sign up.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# How to Join Visual Studio Dev Essentials
+# How to join Visual Studio Dev Essentials
 
 Visual Studio Dev Essentials gives you everything you need to build and deploy your app on any platform. With state-of-the-art tools, the power of the cloud, training, and support, it’s our most comprehensive free developer program ever.
 

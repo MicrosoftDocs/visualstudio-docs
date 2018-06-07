@@ -2,11 +2,8 @@
 title: "Project Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Project"
 dev_langs: 
@@ -19,10 +16,9 @@ helpviewer_keywords:
   - "<Project> element [MSBuild]"
   - "Project element [MSBuild]"
 ms.assetid: d1cda56a-dbef-4109-9201-39e962e3f653
-caps.latest.revision: 31
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

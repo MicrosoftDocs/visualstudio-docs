@@ -1,13 +1,14 @@
 ---
-title: "Include Recordings of the Screen and Voice During Tests Using Test Settings in Visual Studio | Microsoft Docs"
-ms.date: "10/03/2016"
-ms.topic: "article"
+title: "Include Recordings of the Screen and Voice During Tests Using Test Settings in Visual Studio"
+ms.date: 10/03/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "test settings, recording desktop video"
 ms.assetid: 2cefe8c2-430a-4cb4-bbe0-f3edb2e5bc03
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Include Recordings of the Screen and Voice During Tests Using Test Settings
@@ -32,7 +33,7 @@ The screen and voice recorder can be used with either manual or automated tests.
 
      The Configure Diagnostic Data Adapter – Screen and Voice Recorder dialog box is displayed.
 
-     ![Video configuration](../test/media/testsettingvideoconfiggdr.png "TestSettingVideoConfigGDR")
+     ![Video configuration](../test/media/testsettingvideoconfiggdr.png)
 
 4.  (Optional) Select **Enable voice recording** to capture audio content in your recording.
 

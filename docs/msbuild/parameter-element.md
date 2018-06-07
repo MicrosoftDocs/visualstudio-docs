@@ -2,11 +2,8 @@
 title: "Parameter Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,10 +14,9 @@ helpviewer_keywords:
   - "Parameter element [MSBuild]"
   - "<Parameter> element [MSBuild]"
 ms.assetid: b273afff-b500-4e97-8cfd-31f39fa64a51
-caps.latest.revision: 7
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

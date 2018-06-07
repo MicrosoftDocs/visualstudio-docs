@@ -1,13 +1,10 @@
 ---
-title: "Event Logging for Office Solutions | Microsoft Docs"
+title: "Event logging for Office solutions"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -18,19 +15,19 @@ helpviewer_keywords:
   - "Office development in Visual Studio, event viewer"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Event Logging for Office Solutions
+# Event logging for Office solutions
   You can use the event viewer in Windows to see exception messages that are captured by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] when you install or uninstall Office solutions. You can use these messages from the event logger to resolve installation and deployment problems.  
   
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
   
-## Reading the Event Log  
+## Read the Event Log  
  Open **Event Viewer** and filter for the events you want to see.  
   
-#### To read the event log in Windows Server 2003 and Windows XP  
+### To read the event log in Windows Server 2003 and Windows XP  
   
 1.  In Control Panel, open **Administrative Tools**.  
   
@@ -74,15 +71,15 @@ ms.workload:
   
  After an Office solution is uninstalled, the exception messages remain in the event log.  
   
- To show or log exception messages when an Office solution is running, see [Debugging Office Projects](../vsto/debugging-office-projects.md) and [Debugging Office Projects](../vsto/debugging-office-projects.md).  
+ To show or log exception messages when an Office solution is running, see [Debug Office projects](../vsto/debugging-office-projects.md) and [Debug Office projects](../vsto/debugging-office-projects.md).  
   
 ### Localization  
  The language of the exception message is determined by the Visual Studio Tools for Office runtime language. For instance, if the end user computer has the Japanese language pack installed, the exception message is written to the event log in Japanese.  
   
-## Disabling the Event Logger  
+## Disable the event logger  
  By default, the event logger is enabled when you install or uninstall Office solutions. You can disable the event logger by setting the VSTO_EVENTLOGDISABLED environment variable to "1" (one).  
   
-#### To disable the event log  
+### To disable the event log  
   
 1.  In Control Panel, open **System**.  
   
@@ -96,8 +93,8 @@ ms.workload:
   
 6.  Click **OK**.  
   
-## See Also  
- [Deploying an Office Solution](../vsto/deploying-an-office-solution.md)   
- [Troubleshooting Office Solution Deployment](../vsto/troubleshooting-office-solution-deployment.md)  
+## See also  
+ [Deploy an Office solution](../vsto/deploying-an-office-solution.md)   
+ [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)  
   
   

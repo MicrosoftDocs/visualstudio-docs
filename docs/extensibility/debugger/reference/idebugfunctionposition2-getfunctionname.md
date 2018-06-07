@@ -2,21 +2,17 @@
 title: "IDebugFunctionPosition2::GetFunctionName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugFunctionPosition2::GetFunctionName"
 helpviewer_keywords: 
   - "IDebugFunctionPosition2::GetFunctionName"
 ms.assetid: eb7a348e-a7f5-4f25-be68-80482d5482a8
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

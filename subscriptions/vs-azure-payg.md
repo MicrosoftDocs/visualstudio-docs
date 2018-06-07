@@ -1,20 +1,20 @@
 ---
 title: Azure PAYG Benefit 
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 10/3/2017
-Ms.topic: Get-Started-Article
-Description:  Learn how to set up your Azure Pay-As-You-Go account.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 10/03/2017
+ms.topic: Get-Started-Article
+description:  Learn how to set up your Azure Pay-As-You-Go account.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# Setting up Azure Dev/Test Pay-As-You-Go subscription
+# Setting up an Azure Dev/Test Pay-As-You-Go subscription
 Collaborate with your team in the cloud.  Create multiple Dev and Test Pay-As-You-Go subscriptions, enabling collaboration with other subscribers while also providing isolation between teams and environments.  You receive exclusive discounted hourly rates for dev/test and cloud use rights for your subscription software on Azure.
 
-1.	To use your Azure Pay-As-You-Go subscription benefit, click on the **Activate** link at the bottom of the benefit tile.   
+1.	To use your Azure Pay-As-You-Go subscription benefit, sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the **Activate** link at the bottom of the benefit tile.   
 
     ![Azure PAYG Tile](_img\vs-azure-payg\vs-azure-payg-tile.png) 
 

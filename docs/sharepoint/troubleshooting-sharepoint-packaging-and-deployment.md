@@ -2,12 +2,9 @@
 title: "Troubleshooting SharePoint Packaging and Deployment | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/22/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords:
   - "VSTO.WorkflowDeployment.Troubleshooting"
   - "VS.SharePointTools.Project.PackageRetraction"
@@ -26,7 +23,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deployment conflict resolution"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload:
   - "office"
 ---
@@ -77,7 +74,7 @@ ms.workload:
 
 2.  Add the following line to the Web.config file:
 
-    ```
+    ```xml
     <compilation batch="false" optimizeCompilations="true">
     ```
 

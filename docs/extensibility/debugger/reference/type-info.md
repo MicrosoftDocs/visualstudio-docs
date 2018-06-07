@@ -2,21 +2,17 @@
 title: "TYPE_INFO | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "TYPE_INFO"
 helpviewer_keywords: 
   - "TYPE_INFO structure"
 ms.assetid: d725cb68-a565-49d1-a16f-ff0445c587a0
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

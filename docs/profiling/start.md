@@ -2,17 +2,12 @@
 title: "Start | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: b85d0fe9-f67a-4b7c-8d48-7eecf3f2dfe9
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -21,7 +16,7 @@ The **Start** option is a VSPerfCmd.exe option that initializes the profiler to 
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Method /Output:FileName [Options]  
 ```  
   
@@ -67,7 +62,7 @@ VSPerfCmd.exe /Start:Method /Output:FileName [Options]
 ## Example  
  The following example demonstrates how to use the VSPerfCmd.exe **Start** option to initialize the profiler.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe  
 ```  

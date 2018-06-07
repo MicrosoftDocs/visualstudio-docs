@@ -2,22 +2,18 @@
 title: "VSIX Language Pack Schema 2.0 Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "language pack"
   - "localize vsix"
   - "localize package"
   - "localize extension"
 ms.assetid: 2a2932bc-cdbe-4d32-91fa-a3e0474f9098
-caps.latest.revision: 8
 ms.author: "dagriffe"
 author: "dgriffen"
-manager: "ghogen"
+manager: douge
 ms.workload: 
   - "dagriffe"
 ---

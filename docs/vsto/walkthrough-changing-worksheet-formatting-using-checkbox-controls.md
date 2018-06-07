@@ -1,13 +1,10 @@
 ---
-title: "Walkthrough: Changing Worksheet Formatting Using CheckBox Controls | Microsoft Docs"
+title: "Walkthrough: Change worksheet formatting using CheckBox controls"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,12 +14,12 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], adding to worksheets"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Changing Worksheet Formatting Using CheckBox Controls
-  This walkthrough shows the basics of using check boxes on a Microsoft Office Excel worksheet to change formatting. You will use Office development tools in Visual Studio to create and add code to your project. To see the result as a completed sample, see the Excel Controls Sample at [Office Development Samples and Walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).  
+# Walkthrough: Change worksheet formatting using CheckBox controls
+  This walkthrough shows the basics of using check boxes on a Microsoft Office Excel worksheet to change formatting. You will use Office development tools in Visual Studio to create and add code to your project. To see the result as a completed sample, see the Excel Controls Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).  
   
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]  
   
@@ -44,19 +41,19 @@ ms.workload:
   
 -   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].  
   
-## Creating the Project  
+## Create the project  
  In this step, you will create an Excel Workbook project by using Visual Studio.  
   
-#### To create a new project  
+### To create a new project  
   
-1.  Create an Excel Workbook project with the name **My Excel Formatting**. Make sure that **Create a new document** is selected. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
+1.  Create an Excel Workbook project with the name **My Excel Formatting**. Make sure that **Create a new document** is selected. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
      Visual Studio opens the new Excel workbook in the designer and adds the **My Excel Formatting** project to **Solution Explorer**.  
   
-## Adding Text and Controls to the Worksheet  
+## Add text and controls to the worksheet  
  For this walkthrough, you will need three <xref:Microsoft.Office.Tools.Excel.Controls.CheckBox> controls and some text in a <xref:Microsoft.Office.Tools.Excel.NamedRange> control.  
   
-#### To add three check boxes  
+### To add three check boxes  
   
 1.  Verify that the workbook is open in the Visual Studio designer and that `Sheet1` is open.  
   
@@ -85,7 +82,7 @@ ms.workload:
     |**Name**|**applyUnderlineFont**|  
     |**Text**|**Underline**|  
   
-7.  Select all three check box controls while holding the CTRL key.  
+7.  Select all three check box controls while holding the **Ctrl** key.  
   
 8.  In the Arrange Group of the Format tab in Excel, click **Align**, and then click **Align Left**.  
   
@@ -117,10 +114,10 @@ ms.workload:
   
  Next, write the code to format the text when an option is selected.  
   
-## Formatting the Text When an Option is Selected  
+## Format the text when an option is selected  
  In this section, you will write code so that when the user selects a formatting option, the format of the text in the worksheet is changed.  
   
-#### To change formatting when a check box is selected  
+### To change formatting when a check box is selected  
   
 1.  Right-click **Sheet1**, and then click **View Code** on the shortcut menu.  
   
@@ -139,31 +136,29 @@ ms.workload:
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#9](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#9)]
      [!code-csharp[Trin_VstcoreProgrammingControlsExcel#9](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#9)]  
   
-5.  In C#, you must add event handlers for the check boxes to the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event as shown below. For information on creating event handlers, see [How to: Create Event Handlers in Office Projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
+5.  In C#, you must add event handlers for the check boxes to the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event as shown below. For information on creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
   
      [!code-csharp[Trin_VstcoreProgrammingControlsExcel#10](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#10)]  
   
-## Testing the Application  
+## Test the application  
  You can now test your workbook to make sure that the text is formatted correctly when you select or clear a check box.  
   
-#### To test your workbook  
+### To test your workbook  
   
-1.  Press F5 to run your project.  
+1.  Press **F5** to run your project.  
   
 2.  Select or clear a check box.  
   
 3.  Confirm that the text is formatted correctly.  
   
-## Next Steps  
+## Next steps  
  This walkthrough shows the basics of using check boxes and formatting text on Excel worksheets. Here are some tasks that might come next:  
   
--   Deploying the project. For more information, see [Deploying an Office Solution by Using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md).  
+-   Deploying the project. For more information, see [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md).  
+-   Using a button to populate a text box. For more information, see [Walkthrough: Display text in a text box in a worksheet using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-worksheet-using-a-button.md).  
   
--   Using a button to populate a text box. For more information, see [Walkthrough: Displaying Text in a Text Box in a Worksheet Using a Button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-worksheet-using-a-button.md).  
-  
-## See Also  
- [Walkthroughs Using Excel](../vsto/walkthroughs-using-excel.md)   
- [NamedRange Control](../vsto/namedrange-control.md)   
- [Limitations of Windows Forms Controls on Office Documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)  
-  
+## See also  
+ [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)   
+ [NamedRange control](../vsto/namedrange-control.md)   
+ [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)  
   

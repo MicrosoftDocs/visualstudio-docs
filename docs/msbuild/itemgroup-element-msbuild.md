@@ -2,11 +2,8 @@
 title: "ItemGroup Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#ItemGroup"
 dev_langs: 
@@ -18,10 +15,9 @@ helpviewer_keywords:
   - "ItemGroup element [MSBuild]"
   - "<ItemGroup> element [MSBuild]"
 ms.assetid: aac894e3-a9f1-4bbc-a796-6ef07001f35b
-caps.latest.revision: 24
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

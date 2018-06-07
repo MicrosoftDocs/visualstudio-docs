@@ -2,21 +2,17 @@
 title: "IDebugProcess2::EnumThreads | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess2::EnumThreads"
 helpviewer_keywords: 
   - "IDebugProcess2::EnumThreads"
 ms.assetid: 05677385-7a7f-4545-8438-af00dde85db0
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

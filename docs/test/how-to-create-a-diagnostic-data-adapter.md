@@ -1,13 +1,14 @@
 ---
-title: "How to: Create a Diagnostic Data Adapter in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "How to: Create a Diagnostic Data Adapter in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "Diagnostic Data Adapter, creating"
 ms.assetid: bd7ad36c-54cb-4d2a-9aea-9d10ad98d7ba
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Create a Diagnostic Data Adapter
@@ -86,13 +87,13 @@ To create a *diagnostic data adapter*, you create a class library using Visual S
 
 5.  Add the <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorTypeUriAttribute> to the class for your diagnostic data adapter to identify it as a diagnostic data adapter, replacing **Company**, **Product**, and **Version** with the appropriate information for your Diagnostic Data Adapter:
 
-    ```
+    ```csharp
     [DataCollectorTypeUri("datacollector://Company/Product/Version")]
     ```
 
 6.  Add the <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorFriendlyNameAttribute> attribute to the class, replacing the parameters with the appropriate information for your Diagnostic Data Adapter:
 
-    ```
+    ```csharp
     [DataCollectorFriendlyName("Collect Log Files", false)]
     ```
 

@@ -2,22 +2,17 @@
 title: "Getting Started (Debug Interface Access SDK) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - ".dbg files"
   - "DBG files"
 ms.assetid: cb3d040a-2846-40d7-bdbc-8a5beb5dd2f6
-caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

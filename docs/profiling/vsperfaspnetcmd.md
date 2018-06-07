@@ -2,25 +2,20 @@
 title: "VSPerfASPNetCmd | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profiling tools,VSPerfASPNETCmd"
   - "VSPerfASPNETCmd"
 ms.assetid: f9e9f895-57bb-41e8-8bd1-cdaa738ec220
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
 # VSPerfASPNetCmd
-The **VSPerfASPNetCmd.exe** command line tool allows you to profile ASP.Net websites without requiring that you set environment variables or restart your computer. Use **VSPerfASPNetCmd.exe** instead of [VSPerfCmd](../profiling/vsperfcmd.md) when you are profiling ASP.NET websites and you do not need the additional functionality provided by **VSPerfCmd**. For more information about **VSPerfASPNetCmd**, see [Rapid Web Site Profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md). **VSPerfASPNetCmd** is the preferred command line tool to use when you are using the standalone profiler to profile an ASP.NET Web site.  
+The **VSPerfASPNetCmd.exe** command line tool allows you to profile ASP.Net websites without requiring that you set environment variables or restart your computer. Use **VSPerfASPNetCmd.exe** instead of [VSPerfCmd](../profiling/vsperfcmd.md) when you are profiling ASP.NET websites and you do not need the additional functionality provided by **VSPerfCmd**. For more information about **VSPerfASPNetCmd**, see [Rapid web site profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md). **VSPerfASPNetCmd** is the preferred command line tool to use when you are using the standalone profiler to profile an ASP.NET Web site.  
   
 ## Syntax  
  **vsperfaspnetcmd** [/*Options*] *Website*  
@@ -39,6 +34,6 @@ The **VSPerfASPNetCmd.exe** command line tool allows you to profile ASP.Net webs
 |**/Shutdown:** `Website`or   **/d:**`Website`|Turns profiling off. Use as the only option on a command line after using the **/NoWait** option to start profiling, or if the profiler ends unexpectedly. Specify the same url that you used in the original **VSPerfASPNETCmd** command.|  
 |`Website`|The url of the website to be profiled.|  
   
-## See Also  
- [Rapid Web Site Profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)
+## See also  
+ [Rapid web site profiling with VSPerfASPNETCmd](../profiling/rapid-web-site-profiling-with-vsperfaspnetcmd.md)   
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)

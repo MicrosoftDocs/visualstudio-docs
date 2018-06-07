@@ -1,12 +1,15 @@
 ---
-title: "Default page for F1 in Visual Studio | Microsoft Docs"
+title: Default page for F1 help
 ms.date: 02/28/2018
-ms.topic: article
+ms.topic: troubleshooting
 robots: noindex,nofollow
 f1_keywords:
  - "vs.texteditor"
  - "vs.ambient"
-manager: ghogen
+manager: douge
+author: gewarren
+ms.author: gewarren
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ---
 # F1 help
@@ -29,4 +32,4 @@ If you are looking for F1 help on a keyword or API name, be sure the cursor is p
 
 ## Help us improve F1
 
-Please help us improve the F1 help experience by leaving feedback about what you were looking for when you pressed **F1**. For example, what symbol or window was your cursor on? Use the **Give documentation feedback** button below. Thank you!
+Please help us improve the F1 help experience. Log a product help issue by clicking the **Give product feedback** button below. Include what you were looking for help on when you pressed **F1**, for example, what symbol or window your cursor was on. Thank you!

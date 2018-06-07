@@ -2,23 +2,18 @@
 title: "Caller-Callee View - Instrumentation Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Caller/Callee view"
 ms.assetid: 0908d354-aa5c-4518-8631-e25b8e7649e5
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Caller/Callee View - Instrumentation Data
+# Caller/Callee view - instrumentation data
 The Caller/Callee view displays profiling information about a selected function and its parent and child functions in the call tree. The Caller/Callee view contains three grids.  
   
  **Current function** is displayed in the middle grid, and it shows profiling information about the selected function. The values include all calls to the function.  
@@ -46,7 +41,7 @@ The Caller/Callee view displays profiling information about a selected function 
 |**Type**|The context of the function:<br /><br /> **0** - the current function<br /><br /> **1** - a function that calls the current function<br /><br /> **2** - a function that is called by the current function<br /><br /> Only in [VSPerfReport](../profiling/vsperfreport.md) command-line reports.|  
 |**Root Function Name**|The name of the current function. Only in [VSPerfReport](../profiling/vsperfreport.md) command-line reports.|  
   
-## Elapsed Inclusive Values  
+## Elapsed inclusive values  
  Elapsed inclusive values indicate the time that a function was on the call stack. The time includes time that was spent in child functions and time that was spent in calls to the operating system, such as context switches and input/output operations.  
   
 |Column|Description|  
@@ -57,7 +52,7 @@ The Caller/Callee view displays profiling information about a selected function 
 |**Max Elapsed Inclusive Time**|The maximum elapsed inclusive time of a call to this function in this context.|  
 |**Min Elapsed Inclusive Time**|The minimum elapsed inclusive time of a call to this function in this context.|  
   
-## Elapsed Exclusive Values  
+## Elapsed exclusive values  
  Elapsed exclusive values indicate the time that a function was directly executing at the top of the call stack. The time includes time that was spent in calls to the operating system, such as context switches and input/output operations, but it does not include time that was spent in child functions.  
   
 |Column|Description|  
@@ -68,7 +63,7 @@ The Caller/Callee view displays profiling information about a selected function 
 |**Max Elapsed Exclusive Time**|The maximum elapsed exclusive time of a call to this function in this context.|  
 |**Min Elapsed Exclusive Time**|The minimum elapsed exclusive time of a call to this function in this context.|  
   
-## Application Inclusive Values  
+## Application inclusive values  
  Application inclusive values indicate the time that a function was on the call stack. The time does not include time that was spent in calls to the operating system, such as context switches and input/output operations, but it does include time that was spent in child functions.  
   
 |Column|Description|  
@@ -79,7 +74,7 @@ The Caller/Callee view displays profiling information about a selected function 
 |**Max Application Inclusive Time**|The maximum application inclusive time of a call to this function in this context.|  
 |**Min Application Inclusive Time**|The minimum application inclusive time of a call to this function in this context.|  
   
-## Application Exclusive Values  
+## Application exclusive values  
  Application exclusive values indicate the time that was spent in the function. This excludes time that was spent in child functions, and also excludes calls to the operating system, such as context switches and input/output operations.  
   
 |Column|Description|  
@@ -90,8 +85,8 @@ The Caller/Callee view displays profiling information about a selected function 
 |**Max Application Exclusive Time**|The maximum application exclusive time of a call to this function in this context.|  
 |**Min Application Exclusive Time**|The minimum application exclusive time of a call to this function in this context.|  
   
-## See Also  
- [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
- [Caller / Callee View - Sampling Data](../profiling/caller-callee-view-sampling-data.md)   
- [Caller/Callee View - .NET Memory Sampling Data](../profiling/caller-callee-view-dotnet-memory-sampling-data.md)   
- [Caller/Callee View - NET Memory Instrumentation Data](../profiling/caller-callee-view-net-memory-instrumentation-data.md)
+## See also  
+ [How to: Customize report view columns](../profiling/how-to-customize-report-view-columns.md)   
+ [Caller/Callee view - sampling data](../profiling/caller-callee-view-sampling-data.md)   
+ [Caller/Callee view - .NET memory sampling data](../profiling/caller-callee-view-dotnet-memory-sampling-data.md)   
+ [Caller/Callee view - .NET memory instrumentation data](../profiling/caller-callee-view-net-memory-instrumentation-data.md)

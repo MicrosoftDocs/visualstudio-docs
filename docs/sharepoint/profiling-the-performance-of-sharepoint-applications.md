@@ -2,12 +2,9 @@
 title: "Profiling the Performance of SharePoint Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.Profiling.SilverlightWebPartOnly"
   - "VS.SharePointTools.Profiling.DotNetTrustLevel"
@@ -21,7 +18,7 @@ helpviewer_keywords:
   - "profiling [SharePoint development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

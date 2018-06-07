@@ -2,20 +2,15 @@
 title: "How to: Open Messages View from Find Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Messages View in Spy++, opening"
   - "opening Messages View in Spy++"
 ms.assetid: 601a193e-432a-417b-9406-6fec9e401264
-caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

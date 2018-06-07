@@ -44,7 +44,7 @@ var count = 0, amount = 100;
 ## Naming Variables  
  [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] is a case-sensitive language. This means that a variable name such as **myCounter** is different from the variable name **MYCounter**. Variable names can be of any length. The rules for creating legal variable names are as follows:  
   
--   The first character must be an ASCII letter (either uppercase or lowercase), or an underscore (_) character. Note that a number cannot be used as the first character.  
+-   The first character must be an ASCII letter (either uppercase or lowercase), a letter that complies with Unicode variable naming conventions, or an underscore (_) character. Note that a number cannot be used as the first character.  
   
 -   Subsequent characters must be letters, numbers, or underscores (_).  
   

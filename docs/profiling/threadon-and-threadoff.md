@@ -2,17 +2,12 @@
 title: "ThreadOn and ThreadOff | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: 5cd5a695-0a14-484a-8952-ed47e13d8e92
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -29,11 +24,11 @@ The VSPerfCmd.exe **ThreadOff** and **ThreadOn** subcommands are only available 
   
 -   **ThreadOn** immediately sets the Thread Start/Stop Count to 1 and therefore resumes profiling.  
   
- For more information, see [Profiling Tools APIs](../profiling/profiling-tools-apis.md).  
+ For more information, see [Profile tools APIs](../profiling/profiling-tools-apis.md).  
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /{ThreadOff|ThreadOn}:TID [Options]  
   
 ```  
@@ -42,7 +37,7 @@ VSPerfCmd.exe /{ThreadOff|ThreadOn}:TID [Options]
  `TID`  
  The integer identifier of the thread to start or stop.  
   
-## Valid Options  
+## Valid options  
  **ThreadOn** and **ThreadOff** can be specified on command lines that also contain the following subcommands.  
   
  **Start:** `Method`  
@@ -57,7 +52,7 @@ VSPerfCmd.exe /{ThreadOff|ThreadOn}:TID [Options]
 ## Example  
  In this example, the **ThreadOff** subcommand is used to stop collecting profiling data so that only application startup data is collected.  
   
-```  
+```cmd  
 ; Initialize the profiler.  
 VSPerfCmd.exe /Start:Trace /Output:Instrument.vsp   
 ; Start the instrumented application.  
@@ -69,8 +64,8 @@ VSPerfCmd /Shutdown
   
 ```  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)
+ [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profile services](../profiling/command-line-profiling-of-services.md)

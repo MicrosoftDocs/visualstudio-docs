@@ -1,13 +1,14 @@
 ---
-title: "Analyze Virtual User Activity for load tests in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Analyze Virtual User Activity for load tests in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "virtual user activity chart, viewing"
 ms.assetid: 8bda19b3-91c1-4daf-b6c7-09108bddadff
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Analyze What Virtual Users Are Doing During a Load Test Using the Virtual User Activity Chart
@@ -69,7 +70,7 @@ The procedures below demonstrate how to view the Virtual User Activity Chart, ho
 
      **Details Legend panel**
 
-     ![Details legend panel](../test/media/ltest_detailslegend.png "LTest_DetailsLegend")
+     ![Details legend panel](../test/media/ltest_detailslegend.png)
 
 2.  Select or clear the check boxes for the errors, logs, tests, search, and aspx pages that are associated with the load test.
 
@@ -81,7 +82,7 @@ The procedures below demonstrate how to view the Virtual User Activity Chart, ho
 
      **Filter results panel**
 
-     ![Filter results panel](../test/media/ltest_filterresults.png "LTest_FilterResults")
+     ![Filter results panel](../test/media/ltest_filterresults.png)
 
 3.  In the Filter results, select or clear the check boxes for the following filter options:
 

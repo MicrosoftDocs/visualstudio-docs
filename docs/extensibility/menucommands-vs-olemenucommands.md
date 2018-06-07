@@ -2,17 +2,13 @@
 title: "MenuCommands Vs. OleMenuCommands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-sdk
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "commands, creating in VSPackages"
   - "command buttons, creating and placing"
   - "menus, creating commands"
 ms.assetid: 553d5e07-3e19-4aba-b490-6c7dd05fd82e
-caps.latest.revision: 46
 manager: "douge"
 ---
 # MenuCommands Vs. OleMenuCommands

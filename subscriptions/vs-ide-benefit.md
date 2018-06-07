@@ -1,51 +1,22 @@
 ---
 title: Visual Studio IDE Benefit in Visual Studio Subscription | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 1/9/2018
-Ms.topic: Get-Started-Article
-Description:  Learn how to download and install the Visual Studio IDE included in your Visual Studio subscription.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 01/09/2018
+ms.topic: Get-Started-Article
+description:  Learn how to download and install the Visual Studio IDE included in your Visual Studio subscription.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
 # Using the Visual Studio 2017 benefit
 
-## Overview 
+As a Visual Studio subscriber, you have access to the Visual Studio IDE.  The specific version will depend on the level of your subscription.  The benefit will appear as a tile in the Tools category on the [Benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) page of the subscriber portal.  
 
-As a Visual Studio subscriber, you have access to the Visual Studio IDE.  The specific version will depend on the level of your subscription.  The benefit will appear as a tile in the Tools category on the [Benefits](https://my.visualstudio.com/benefits) page of the subscriber portal.  
 
-## Eligibility
-| Subscription Level / Program                                                  | Benefit                            | Renewable?                                |
-|-------------------------------------------------------------------------------|------------------------------------|-------------------------------------------|
-| Visual Studio Enterprise Standard                                             | Visual Studio Enterprise           | Yes                                       |
-| Visual Studio Enterprise annual                                               | Visual Studio Enterprise           | Yes                                       |
-| Visual Studio Enterprise monthly                                              | Visual Studio Enterprise           | Yes                                       |
-| Visual Studio Professional Standard                                           | Visual Studio Professional         | Yes                                       |
-| Visual Studio Professional annual                                             | Visual Studio Professional         | Yes                                       | 
-| Visual Studio Professional monthly                                            | Visual Studio Professional         | Yes                                       |
-| Visual Studio Test Pro                                                        | Visual Studio Test Professional    | Yes                                       |
-| MSDN Platforms                                                                | Not available                      |                                           |
-| Visual Studio Dev Essentials                                                  | Visual Studio Community            | Yes                                       |
-| Visual Studio Enterprise - NFR<sup>1</sup>                                               |Visual Studio Enterprise           | Yes                                       |
-| Visual Studio Enterprise - FTE                                                | Visual Studio Enterprise           | Yes                                       |
-| Visual Studio Enterprise - Microsoft Partner Network                          | Visual Studio Enterprise           | Yes                                       |
-| Visual Studio Professional - Microsoft Partner Network                        | Visual Studio Professional         | Yes                                       |
-| Visual Studio Enterprise – Imagine (Standard)                                 | Visual Studio Professional         | Yes                                       |
-| Visual Studio Enterprise – Imagine (Premium)                                  | Visual Studio Enterprise           | Yes                                       |
-| Visual Studio Enterprise – BizSpark                                           | Visual Studio Enterprise           | Yes                                       |
-| Microsoft Certified Trainer - Software & Services                             | Not available                      |                                           |
-| Microsoft Certified Trainer - Software & Services Developer                   | Visual Studio Enterprise           | Yes                                       |
-
-<sup>1</sup>  *Includes Not for Resale (NFR), Microsoft Valued Partner (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP)*  
-
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
-
-(Visual Studio Enterprise will be used for this example.) 
-
-## Activation Steps
+## Activation steps
 
 *(Visual Studio Enterprise is used for this example.)*
 
@@ -81,10 +52,22 @@ To download the IDE:
 
     ![Start Using Visual Studio Enterprise](_img\vs-ide-experience\vs-ide-start-cropped.png)
 
-## FAQ
-*Check here for updates*
+## Eligibility
+| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
+|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
+| Visual Studio Enterprise (Standard, annual cloud, monthly cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes          |
+| Visual Studio Professional (Standard, annual cloud, monthly cloud) | VL, Azure, Retail                                       | Available                                                            |  Yes          |
+| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Available                                             |  Yes         |
+| MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              |  N/A          |
+| Visual Studio Dev Essentials | N/A  | Visual Studio Community |Yes |
 
-## Support Resources
+<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Microsoft Valued Partner (MVP), Region Director (RD).  Excludes: MCT Software & Services.*
+
+
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
+
+
+## Support resources
 -  Need help with Visual Studio IDE, check out these resources:
     - Technical Support: [https://www.visualstudio.com/support/](https://www.visualstudio.com/support/)
     - [Documentation](/visualstudio/) 

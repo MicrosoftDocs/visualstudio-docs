@@ -2,20 +2,16 @@
 title: "GuidSymbol Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSCT XML schema elements, GuidSymbol"
   - "GuidSymbol element (VSCT XML schema)"
 ms.assetid: 11fb3545-8974-4776-9a54-6b6e7739ae31
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

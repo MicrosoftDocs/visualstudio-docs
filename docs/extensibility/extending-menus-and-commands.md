@@ -2,21 +2,17 @@
 title: "Extending Menus and Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "menus, common tasks"
   - "VSPackages, menu tasks"
   - ".vsct files, common menu tasks"
 ms.assetid: 7b2be4b9-e3fe-4412-874f-ae72ebc84c4b
-caps.latest.revision: 49
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,21 +2,17 @@
 title: "IDebugManagedObject::GetManagedObject | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugManagedObject::GetManagedObject"
 helpviewer_keywords: 
   - "IDebugManagedObject::GetManagedObject method"
 ms.assetid: 6abe1402-6aad-41e6-8ec1-ae12d5945992
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

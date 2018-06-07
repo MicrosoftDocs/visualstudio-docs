@@ -2,12 +2,8 @@
 title: "Using the Tasks Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/18/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.paralleltasks"
 dev_langs: 
@@ -18,10 +14,9 @@ dev_langs:
 helpviewer_keywords: 
   - "debugger, parallel tasks window"
 ms.assetid: bd5e0612-a0dc-41cf-a7af-1e87d0d5c35f
-caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

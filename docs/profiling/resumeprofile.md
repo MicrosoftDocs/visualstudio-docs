@@ -2,19 +2,14 @@
 title: "ResumeProfile | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "ResumeProfile"
 ms.assetid: 876f145b-ec07-4240-ade6-4f6e44baadce
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -23,7 +18,7 @@ The `ResumeProfile` method decrements the Suspend/Resume counter for the specifi
   
 ## Syntax  
   
-```  
+```cpp  
 PROFILE_COMMAND_STATUS PROFILERAPI ResumeProfile(  
                        PROFILE_CONTROL_LEVEL Level,   
                        unsigned int dwId);  
@@ -73,7 +68,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI ResumeProfile(
 ## Example  
  The following example illustrates the ResumeProfile function. The example assumes that a call to the SuspendProfile method has been made for the same thread or process identified by [PROFILE_CURRENTID](../profiling/profile-currentid.md).  
   
-```  
+```cpp  
 void ExerciseResumeProfile()  
 {  
     // The initial value of the Suspend/Resume counter is 0.   

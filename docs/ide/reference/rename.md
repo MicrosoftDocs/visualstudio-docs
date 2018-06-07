@@ -1,20 +1,18 @@
 ---
-title: "Refactor rename in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Refactor rename in Visual Studio
 ms.date: 01/26/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-f1_keywords: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+f1_keywords:
   - "vs.csharp.refactoring.rename"
-dev_langs: 
+dev_langs:
   - CSharp
   - VB
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Rename a code symbol refactoring
@@ -73,5 +71,5 @@ This refactoring applies to:
 
 ## See also
 
-[Refactoring](../refactoring-in-visual-studio.md)  
-[Preview Changes](../../ide/preview-changes.md)
+- [Refactoring](../refactoring-in-visual-studio.md)
+- [Preview Changes](../../ide/preview-changes.md)

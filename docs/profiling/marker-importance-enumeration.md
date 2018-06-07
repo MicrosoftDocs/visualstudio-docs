@@ -2,21 +2,16 @@
 title: "marker_importance Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "cvmarkersobj/Concurrency::diagnostic::marker_importance"
 helpviewer_keywords: 
   - "Concurrency::diagnostic::marker_importance enumeration"
 ms.assetid: d5524ea0-0227-4d8e-9122-332291042df5
-caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -25,7 +20,7 @@ Represents the importance level of a Concurrency Visualizer marker.
   
 ## Syntax  
   
-```  
+```cpp  
 enum marker_importance;  
 ```  
   

@@ -1,13 +1,14 @@
 ---
-title: "How to: Install a Custom Diagnostic Data Adapter in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "How to: Install a Custom Diagnostic Data Adapter in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "Diagnostic Data Adapter, installing"
 ms.assetid: 907e65d8-0408-44b3-9e5e-e631892c1726
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Install a Custom Diagnostic Data Adapter

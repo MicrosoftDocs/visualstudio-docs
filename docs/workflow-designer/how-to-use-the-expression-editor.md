@@ -1,20 +1,23 @@
 ---
-title: "How to: Use the Expression Editor | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - How to: Use the Expression Editor"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Activities.Presentation.View.ExpressionTextBox.UI"
 ms.assetid: b5f961dd-6dda-41a9-9cae-0383d479ef3d
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # How to: Use the Expression Editor
+
 The Expression Editor is a Windows Workflow Designer control that is used in many workflow activities as a means of entering and evaluating these expressions. The Expression Editor provides a full-fledged IDE editing experience including IntelliSense, colorization, ParamInfo, error squiggles, among other features. The compiler validates the expression after it is entered. If the expression is invalid, an error icon is displayed. The editor can also be opened as an **Expression Editor** dialog box.
 
- Expressions are literal values or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] code bound to arguments or properties. They contain value elements (e.g. variables, constants, literals, properties) that are combined with operations to yield a new value. Expressions are written using VB.NET syntax even if the application is in a program using C#. This means capitalization does not matter, comparison is performed using a single equals ("=") sign instead of ("=="), the Boolean operators are the words "and" and "or" instead of the symbols "&&" and "&#124;&#124;", and **Nothing** is used instead of **null**. For more information on expressions and operators in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] and for some samples, see [Operators and Expressions in Visual Basic](http://go.microsoft.com/fwlink/?LinkId=186818).
+ Expressions are literal values or Visual Basic code bound to arguments or properties. They contain value elements (e.g. variables, constants, literals, properties) that are combined with operations to yield a new value. Expressions are written using VB.NET syntax even if the application is in a program using C#. This means capitalization does not matter, comparison is performed using a single equals ("=") sign instead of ("=="), the Boolean operators are the words "and" and "or" instead of the symbols "&&" and "&#124;&#124;", and **Nothing** is used instead of **null**. For more information on expressions and operators in Visual Basic and for some samples, see [Operators and Expressions in Visual Basic](http://go.microsoft.com/fwlink/?LinkId=186818).
 
  The **Expression Editor** behaves as follows:
 
@@ -25,11 +28,11 @@ The Expression Editor is a Windows Workflow Designer control that is used in man
 -   If you focus on the Expression Editor in a rehosted workflow designer, then it behaves like a TextBox. When focus is lost in the rehosted workflow designer, the Expression Editor looks like a regular TextBlock again.
 
 > [!NOTE]
-> IntelliSense for the Expression Editor is available only inside of [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)]. In both the [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] and the rehosted scenarios, the compiler validates the expression after it is entered and the expression editor displays an error icon if the expression is invalid.
+> IntelliSense for the Expression Editor is available only inside of Visual Studio 2010. In both the Visual Studio 2010 and the rehosted scenarios, the compiler validates the expression after it is entered and the expression editor displays an error icon if the expression is invalid.
 
-### Using the Expression editor
+## Use the Expression editor
 
-1.  In [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)], open a new or existing workflow project.
+1.  In Visual Studio 2010, open a new or existing workflow project.
 
 2.  Add, for example, the <xref:System.Activities.Statements.Assign> activity to your workflow.
 

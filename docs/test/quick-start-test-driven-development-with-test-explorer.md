@@ -1,11 +1,12 @@
 ---
-title: "Test Driven Development with Test Explorer in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Test Driven Development with Test Explorer in Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -22,7 +23,7 @@ We recommend that you create unit tests to help keep your code working correctly
 -   See in one window all the information that you need.
 
 ## Using Test Explorer
- ![Unit Test Explorer showing Run All button](../test/media/unittestexplorer-beta-.png "UnitTestExplorer(beta)")
+ ![Unit Test Explorer showing Run All button](../test/media/unittestexplorer-beta-.png)
 
 ### To Run Unit Tests by using Test Explorer
 
@@ -38,7 +39,7 @@ We recommend that you create unit tests to help keep your code working correctly
 
     2.  Write each unit test as a method. Prefix each test method with the `[TestMethod]` attribute.
 
-2.  If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png "UTE_parallelicon-small") toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+2.  If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
 3.  On the menu bar, choose **Test**, **Run Unit Tests**, **All Tests**.
 
@@ -55,13 +56,15 @@ We recommend that you create unit tests to help keep your code working correctly
  **To debug a test:** Open the shortcut menu for one or more tests, and then choose **Debug Selected Tests**.
 
 > [!IMPORTANT]
->  The results that are displayed are for the most recent run. The colored results bar shows only the results for the tests that ran. For example, if you run several tests and some of them fail, and then run only the successful tests, then the results bar will show all green.
+> The results that are displayed are for the most recent run. The colored results bar shows only the results for the tests that ran. For example, if you run several tests and some of them fail, and then run only the successful tests, then the results bar will show all green.
+
 
 > [!NOTE]
->  If no test appears, make sure that you have installed an adapter to connect Test Explorer to the test framework that you are using. For more information, see [Using Different Test Frameworks with Test Explorer](#frameworks).
+> If no test appears, make sure that you have installed an adapter to connect Test Explorer to the test framework that you are using. For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
+
 
 ##  <a name="walkthrough"></a> Walkthrough: Using Unit Tests to Develop a Method
- This walkthrough demonstrates how to develop a tested method in C# using the Microsoft Unit Test framework. You can easily adapt it for other languages, and to use other test frameworks such as NUnit. For more information, see [Using Different Test Frameworks](#frameworks).
+ This walkthrough demonstrates how to develop a tested method in C# using the Microsoft Unit Test framework. You can easily adapt it for other languages, and to use other test frameworks such as NUnit. For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
 
 #### Creating the Test and Method
 
@@ -71,7 +74,7 @@ We recommend that you create unit tests to help keep your code working correctly
 
     -   In the **New Project** dialog, choose **Visual C#**, **Test** and then choose **Unit Test Project**.
 
-         ![New code and test projects](../test/media/unittestexplorerwalk1.png "UnitTestExplorerWalk1")
+         ![New code and test projects](../test/media/unittestexplorerwalk1.png)
 
 3.  Write a basic test method. Verify the result obtained for a specific input:
 
@@ -117,7 +120,7 @@ We recommend that you create unit tests to help keep your code working correctly
 
 7.  Select the items under **Stack Trace** to see where the test failed.
 
- ![Unit Test Explorer showing failed test.](../test/media/unittestexplorerwalkthrough2.png "UnitTestExplorerWalkthrough2")
+ ![Unit Test Explorer showing failed test.](../test/media/unittestexplorerwalkthrough2.png)
 
  At this point, you have created a test and a stub that you will modify so that the test passes.
 
@@ -138,7 +141,7 @@ We recommend that you create unit tests to help keep your code working correctly
 
      The test passes.
 
-     ![Unit Test Explorer showing a passing test.](../test/media/unittestexplorerwalkthrough3.png "UnitTestExplorerWalkthrough3")
+     ![Unit Test Explorer showing a passing test.](../test/media/unittestexplorerwalkthrough3.png)
 
 #### Add tests to extend the range of inputs
 
@@ -181,7 +184,7 @@ We recommend that you create unit tests to help keep your code working correctly
 
 3.  Inspect the method under test to see what might be wrong. In the `MyMath.Rooter` class, rewrite the code:
 
-    ```
+    ```csharp
     public double SquareRoot(double input)
     {
       double result = input;
@@ -280,4 +283,4 @@ We recommend that you create unit tests to help keep your code working correctly
 
      All the tests still pass.
 
-     ![Unit Test Explorer showing 3 passed tests.](../test/media/unittestexplorerwalkthrough4.png "UnitTestExplorerWalkthrough4")
+     ![Unit Test Explorer showing 3 passed tests.](../test/media/unittestexplorerwalkthrough4.png)

@@ -1,22 +1,19 @@
 ---
-title: "Code Snippet Picker | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+title: Code Snippet Picker
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "vs.expansionpicker"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Code Snippet Picker"
   - "IntelliSense code snippets, Code Snippet Picker"
   - "code snippets, Code Snippet Picker"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Code Snippet Picker
@@ -45,15 +42,17 @@ In most Visual Studio development languages, you can use the **Code Snippets Man
 
 ## UIElement List
 
-Item Name  
+Item Name
+
 An editable text field that displays the name of the item selected in the **Item List**. To perform an incremental search for the item you want, begin typing its name in this field. Continue adding letters until the desired item is selected in the **Item List**.
 
-Item List  
+Item List
+
 A list of code snippets available for insertion, or a list of folders containing code snippets. To insert a snippet or expand a folder, select the item you want and press Enter.
 
 ## See also
 
-[Best Practices for Using Code Snippets](../../ide/best-practices-for-using-code-snippets.md)  
-[Visual Basic IntelliSense Code Snippets](/dotnet/visual-basic/developing-apps/using-ide/intellisense-code-snippets)  
-[Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)  
-[How to: Use Surround-with Code Snippets](../../ide/how-to-use-surround-with-code-snippets.md)
+- [Best Practices for Using Code Snippets](../../ide/best-practices-for-using-code-snippets.md)
+- [Visual Basic IntelliSense Code Snippets](/dotnet/visual-basic/developing-apps/using-ide/intellisense-code-snippets)
+- [Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)
+- [How to: Use Surround-with Code Snippets](../../ide/how-to-use-surround-with-code-snippets.md)

@@ -1,24 +1,19 @@
 ---
-title: "What publishing options are right for me? | Microsoft Docs"
-ms.custom: ""
-ms.date: "03/09/2017"
+title: What publishing options are right for me?
+ms.date: 03/09/2017
 ms.reviewer: "riande"
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
+helpviewer_keywords:
   - "ASP.NET, web applications, deployment, publishing"
 ms.assetid: 3A13F685-531C-457D-A98E-631888011E4B
-caps.latest.revision: 1
-author: "Mikejo5000"
-ms.author: "mikejo"
-manager: ghogen
-ms.workload: 
+author: Mikejo5000
+ms.author: mikejo
+manager: douge
+ms.workload:
   - "multiple"
 ---
-
 # What publishing options are right for me?
 
 From within Visual Studio, Web applications can be published directly to the following targets:
@@ -28,7 +23,7 @@ From within Visual Studio, Web applications can be published directly to the fol
 - [File system](#file-system)
 - [Custom targets (IIS, FTP, etc.)](#custom-targets), which includes all arbitrary web servers.
 
-On the **Publish** tab, you can select an existing publish profile, import an existing one, or create a new one using the options described here.
+On the **Publish** tab, you can select an existing publish profile, import an existing one, or create a new one using the options described here. For a tour of the publishing options in the IDE for different app types, see [First look at deployment](../../deployment/deploying-applications-services-and-components.md).
 
 ## Azure App Service Web Apps
 
@@ -83,7 +78,7 @@ Note that if for any reason (such as machine access) you are not able to use clo
 
 For more information on deploying .NET Core apps, see [Deploying .NET Core apps with Visual Studio](/dotnet/core/deploying/deploy-with-vs).
 
-## Custom targets
+## Custom targets (IIS, FTP)
 
 A custom target lets you deploy your web application to a target other than Azure App Service, Azure Virtual Machines, or the local file system. It can deploy to a file system or any other server (Internet or Intranet) to which you have access, including those on other cloud services. It can work with web deploy (files or .ZIP) and FTP.
 
@@ -98,8 +93,8 @@ You can create any number of Custom deployment profiles in Visual Studio, making
 
 ### When to choose custom deployment
 
-- You're using cloud services on a provide other than Azure that can be accessed through URLs.
+- You're using cloud services on a provider other than Azure that can be accessed through URLs.
 - You want to deploy using credentials other than the ones that you use within Visual Studio, or those tied directly to your Azure accounts.
 - You want to delete files from the target each time you deploy.
 
-For more information on publishing to IIS, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) and [Remote Debug ASP.NET on a Remote IIS Computer](../../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
+For more information on publishing to IIS, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45)

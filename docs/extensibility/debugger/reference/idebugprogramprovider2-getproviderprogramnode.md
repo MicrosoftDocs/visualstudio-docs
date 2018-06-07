@@ -2,21 +2,17 @@
 title: "IDebugProgramProvider2::GetProviderProgramNode | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramProvider2::GetProviderProgramNode"
 helpviewer_keywords: 
   - "IDebugProgramProvider2::GetProviderProgramNode"
 ms.assetid: e62e8e83-acbb-4c52-aedf-ffbd4670db29
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

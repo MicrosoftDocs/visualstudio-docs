@@ -2,21 +2,17 @@
 title: "IDebugPortNotify2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortNotify2"
 helpviewer_keywords: 
   - "IDebugPortNotify2 interface"
 ms.assetid: 43278b79-bf16-4c08-bcf1-6f7f7a17feab
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

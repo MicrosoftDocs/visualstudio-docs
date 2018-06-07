@@ -2,17 +2,12 @@
 title: "Inspect XAML properties while debugging | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/06/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: 390edde4-7b8d-4c89-8d69-55106b7e6b11
-caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 ---

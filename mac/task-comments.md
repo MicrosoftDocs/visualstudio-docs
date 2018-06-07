@@ -1,10 +1,9 @@
 ---
 title: "Task Comments"
-description: 
+description: "Adding task comments to your code"
 author: asb3993
 ms.author: amburns
-ms.date: 04/14/2017
-ms.topic: article
+ms.date: 05/06/2018
 ms.assetid: 562DCB46-D8FA-4DC4-AAEA-F274448C4CD2
 ---
 
@@ -16,7 +15,7 @@ When writing code, it is standard practice to explicitly comment unfinished or q
 
 To add a new task comment, add a comment that includes the task keyword. For example:
 
-```
+```csharp
 //TODO: Finish this for all properties.
 ```
 

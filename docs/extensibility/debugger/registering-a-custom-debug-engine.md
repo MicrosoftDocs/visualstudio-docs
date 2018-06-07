@@ -2,19 +2,15 @@
 title: "Registering a Custom Debug Engine | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debug engines, registering"
 ms.assetid: 9984cd3d-d34f-4662-9ace-31766499abf5
-caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

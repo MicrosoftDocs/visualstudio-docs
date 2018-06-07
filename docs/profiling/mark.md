@@ -2,17 +2,12 @@
 title: "Mark | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: 1d72cef3-bb09-4bbb-8864-6ea0ab623ff9
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -23,7 +18,7 @@ The VSPerfCmd.exe **Mark** option inserts the specified information into the pro
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Mark:MarkID,[MarkName]  
 ```  
   
@@ -37,7 +32,7 @@ VSPerfCmd.exe /Mark:MarkID,[MarkName]
 ## Example  
  This example inserts a mark with an ID of 123 and a mark name of "TestMark".  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe  
 VSPerfCmd.exe /Mark:123,TestMark  

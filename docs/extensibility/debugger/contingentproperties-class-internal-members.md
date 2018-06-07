@@ -2,20 +2,16 @@
 title: "ContingentProperties Class - Internal Members | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "ContingentProperties class [.NET Framework debug engines]"
   - "debug engines, ContingentProperties class [.NET Framework]"
 ms.assetid: c49d1362-ab1c-4b6d-9950-fcae40e0e66b
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,21 +2,16 @@
 title: "IDiaStackWalker::getEnumFrames2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaStackWalker2::getEnumFrames2 method"
 ms.assetid: 73196d3f-112c-4b3a-997b-7c6b815d4afc
-caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

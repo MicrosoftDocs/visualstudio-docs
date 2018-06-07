@@ -2,12 +2,8 @@
 title: "Report Hook Functions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.hooks"
 dev_langs: 
@@ -24,10 +20,9 @@ helpviewer_keywords:
   - "_CrtSetReportHook function"
   - "report hook functions"
 ms.assetid: 1854bca7-d7eb-4502-89bf-b1ee64cb50ef
-caps.latest.revision: 15
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

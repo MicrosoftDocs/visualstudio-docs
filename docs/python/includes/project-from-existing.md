@@ -1,3 +1,6 @@
+---
+ms.topic: include
+---
 1. Launch Visual Studio and select **File > New > Project**.
 
 1. In the **New Project** dialog, search for "Python", select the "From Existing Python code" template, give the project a name and location, and select **OK**.

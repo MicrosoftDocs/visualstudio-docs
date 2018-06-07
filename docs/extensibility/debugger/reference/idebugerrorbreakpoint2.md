@@ -2,21 +2,17 @@
 title: "IDebugErrorBreakpoint2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugErrorBreakpoint2"
 helpviewer_keywords: 
   - "IDebugErrorBreakpoint2 interface"
 ms.assetid: 1f2a4b94-3713-46e9-8272-3917187792bd
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

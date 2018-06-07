@@ -1,13 +1,10 @@
 ---
-title: "How to: Add an Actions Pane to Word Documents or Excel Workbooks | Microsoft Docs"
+title: "How to: Add an Actions pane to Word documents or Excel workbooks"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -18,7 +15,7 @@ helpviewer_keywords:
   - "actions panes [Office development in Visual Studio], adding controls"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -60,10 +57,10 @@ ms.workload:
   
      [!code-csharp[Trin_VstcoreActionsPaneWord#13](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/HelloControl.cs#13)]  
   
-## Adding the User Control to the Actions Pane  
+## Add the user control to the actions pane  
  To show the actions pane, add the user control to the <xref:Microsoft.Office.Tools.ActionsPane.Controls%2A> property of the `ThisDocument.ActionsPane` field (Word) or `ThisWorkbook.ActionsPane` field (Excel).  
   
-#### To add the user control to the actions pane  
+### To add the user control to the actions pane  
   
 1.  Add the following code to the `ThisDocument` or `ThisWorkbook` class as a class-level declaration (do not add this code to a method).  
   
@@ -75,10 +72,10 @@ ms.workload:
      [!code-csharp[Trin_VstcoreActionsPaneWord#15](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#15)]
      [!code-vb[Trin_VstcoreActionsPaneWord#15](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#15)]  
   
-## See Also  
- [Actions Pane Overview](../vsto/actions-pane-overview.md)   
- [Walkthrough: Inserting Text into a Document from an Actions Pane](../vsto/walkthrough-inserting-text-into-a-document-from-an-actions-pane.md)   
- [How to: Manage Control Layout on Actions Panes](../vsto/how-to-manage-control-layout-on-actions-panes.md)   
- [Walkthrough: Inserting Text into a Document from an Actions Pane](../vsto/walkthrough-inserting-text-into-a-document-from-an-actions-pane.md)  
+## See also  
+ [Actions pane overview](../vsto/actions-pane-overview.md)   
+ [Walkthrough: Insert text into a document from an actions pane](../vsto/walkthrough-inserting-text-into-a-document-from-an-actions-pane.md)   
+ [How to: Manage control layout on actions panes](../vsto/how-to-manage-control-layout-on-actions-panes.md)   
+ [Walkthrough: Insert text into a document from an actions pane](../vsto/walkthrough-inserting-text-into-a-document-from-an-actions-pane.md)  
   
   

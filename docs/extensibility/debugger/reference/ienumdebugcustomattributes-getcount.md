@@ -2,21 +2,17 @@
 title: "IEnumDebugCustomAttributes::GetCount | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumCustomAttributes::GetCount"
 helpviewer_keywords: 
   - "IEnumDebugCustomAttributes::GetCount"
 ms.assetid: fafe826f-4ebf-4572-b2a3-d5dd2916c12f
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

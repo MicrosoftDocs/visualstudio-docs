@@ -1,13 +1,10 @@
 ---
-title: "Custom Document Properties Overview | Microsoft Docs"
+title: "Custom document properties overview"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,13 +17,13 @@ helpviewer_keywords:
   - "_AssemblyName property"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Custom Document Properties Overview
+# Custom document properties overview
 
-When you build a document-level project, Visual Studio adds two custom properties to the document in the project: \_AssemblyLocation and \_AssemblyName. When a user opens a document, the Microsoft Office application checks for these custom document properties. If they exist in the document, the application loads the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], which starts the customization. For more information, see [Architecture of Office Solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md).
+When you build a document-level project, Visual Studio adds two custom properties to the document in the project: \_AssemblyLocation and \_AssemblyName. When a user opens a document, the Microsoft Office application checks for these custom document properties. If they exist in the document, the application loads the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], which starts the customization. For more information, see [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md).
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
 
@@ -36,7 +33,7 @@ This property contains the CLSID of an interface in the Office solution loader c
 
 ## \_AssemblyLocation
 
-This property contains a string that provides details about the deployment manifest for the customization. For more information about manifests, see [Application and Deployment Manifests in Office Solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md).
+This property contains a string that provides details about the deployment manifest for the customization. For more information about manifests, see [Application and deployment manifests in Office solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md).
 
  The_AssemblyLocation property value can have different formats, depending on how the solution is deployed:
 
@@ -52,8 +49,8 @@ This property contains a string that provides details about the deployment manif
 
 ## See also
 
-[Architecture of Office Solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
-[Architecture of Document-Level Customizations](../vsto/architecture-of-document-level-customizations.md)
-[Application and Deployment Manifests in Office Solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md)
-[How to: Publish an Office Solution by Using ClickOnce](http://msdn.microsoft.com/en-us/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8)
-[How to: Create and Modify Custom Document Properties](../vsto/how-to-create-and-modify-custom-document-properties.md)
+- [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)
+- [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md)
+- [Application and deployment manifests in Office solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md)
+- [How to: Publish an Office solution by using ClickOnce](http://msdn.microsoft.com/en-us/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8)
+- [How to: Create and modify custom document properties](../vsto/how-to-create-and-modify-custom-document-properties.md)

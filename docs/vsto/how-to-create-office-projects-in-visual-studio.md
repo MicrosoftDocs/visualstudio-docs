@@ -2,12 +2,9 @@
 title: "How to: Create Office Projects in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VST.SelectDocWizard.Page1"
   - "VST.SelectDocWizard.Http"
@@ -24,7 +21,7 @@ helpviewer_keywords:
   - "application-level add-ins [Office development in Visual Studio], creating projects"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -59,29 +56,29 @@ ms.workload:
   
      Locations have the following formats:  
   
-    -   [*drive*\]:\  
+      * [*drive*\]\:  
   
-    -   \\\\*Server*\\*Share*  
+      * \\\\*Server*\\*Share*  
   
      Do not use these characters in the location:  
   
-    -   Asterisk (*)  
+      * Asterisk (*)  
   
-    -   Vertical bar (|)  
+      * Vertical bar (|)  
   
-    -   Colon (:) (Except following the drive letter.)  
+      * Colon (:) (Except following the drive letter.)  
   
-    -   Double quotation mark (") (Paths that contain spaces do not need quotation marks.)  
+      * Double quotation mark (") (Paths that contain spaces do not need quotation marks.)  
   
-    -   Less than (\<)  
+      * Less than (\<)  
   
-    -   Greater than (>)  
+      * Greater than (>)  
   
-    -   Question mark (?)  
+      * Question mark (?)  
   
-    -   Percent sign (%)  
+      * Percent sign (%)  
   
-7.  Choose the **OK** button.  
+7. Choose the **OK** button.
   
     > [!NOTE]  
     >  Add-in projects are always saved when they are created. They cannot be created as temporary projects. For more information about temporary projects, see [Temporary Projects](http://msdn.microsoft.com/en-us/9cf1944c-7045-44cc-8701-7b0eb4099f2b).  
@@ -121,7 +118,7 @@ ms.workload:
   
      Locations have the following formats:  
   
-    -   [*drive*\]:\  
+    -   [*drive*\]\:  
   
     -   \\\\*Server*\\*Share*  
   

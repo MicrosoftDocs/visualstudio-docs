@@ -1,21 +1,16 @@
 ---
-title: "Debug live ASP.NET Azure apps - Visual Studio | Microsoft Docs"
-ms.description: "Learn how to set snappoints and view snapshots with the Snapshot Debugger"
+title: "Debug live ASP.NET Azure apps"
+ms.description: "Learn how to set snappoints and view snapshots with the Snapshot Debugger."
 ms.custom: "mvc"
 ms.date: "03/16/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "tutorial"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: adb22512-4d4d-40e5-9564-1af421b7087e
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "aspnet"
   - "azure"
@@ -26,13 +21,6 @@ The Snapshot Debugger takes a snapshot of your in-production apps when code that
 
 Snappoints and logpoints are similar to breakpoints, but unlike breakpoints, snappoints don't halt the application when hit. Typically, capturing a snapshot at a snappoint takes 10-20 milliseconds. 
 
-Snapshot collection is available for the following web apps running in Azure App Service:
-
-- ASP.NET applications running on .NET Framework 4.6.1 or later.
-- ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
-
-Additionally, the Snapshot Debugger is only available for Visual Studio 2017 Enterprise version 15.5 or higher and Basic or higher App Service plans. 
-
 In this tutorial, you will:
 
 > [!div class="checklist"]
@@ -40,16 +28,27 @@ In this tutorial, you will:
 > * Set a snappoint and view a snapshot
 > * Set a logpoint
 
-## Start the Snapshot Debugger
+## Prerequisites
 
-1. Install [Visual Studio 2017 Enterprise version 15.5](https://www.visualstudio.com/downloads/) or later. If you are updating from a previous Visual Studio 2017 installation, run the Visual Studio Installer and check the Snapshot Debugger component in the ASP.NET and web development workload.
+* Snapshot Debugger is only available for Visual Studio 2017 Enterprise version 15.5 or higher with the **ASP.NET and web development workload**. For ASP.NET Core, you also need the .**NET Core development** workload installed.
 
-2. Open the project you would like to snapshot debug. 
+    If it's not already installed, install [Visual Studio 2017 Enterprise version 15.5](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) or later. If you are updating from a previous Visual Studio 2017 installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
+
+* Basic or higher Azure App Service plan.
+
+* Snapshot collection is available for the following web apps running in Azure App Service:
+
+    * ASP.NET applications running on .NET Framework 4.6.1 or later.
+    * ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
+
+## Open your project and start the Snapshot Debugger
+
+1. Open the project you would like to snapshot debug. 
 
     > [!IMPORTANT] 
     > To snapshot debug, you need to open the **same version of source code** that is published to your Azure App Service. 
 
-3. In the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure App Service your project is deployed to and select **Attach Snapshot Debugger**.
+1. In the Cloud Explorer (**View > Cloud Explorer**), right-click the Azure App Service your project is deployed to and select **Attach Snapshot Debugger**.
 
    ![Launch the snapshot debugger](../debugger/media/snapshot-launch.png)
 

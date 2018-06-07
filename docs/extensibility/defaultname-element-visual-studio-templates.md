@@ -2,21 +2,17 @@
 title: "DefaultName Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#DefaultName"
 helpviewer_keywords: 
   - "DefaultName element [Visual Studio project templates]"
 ms.assetid: 0ff056c8-b9d2-4747-9308-92adf1811491
-caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

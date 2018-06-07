@@ -2,11 +2,8 @@
 title: "Exec Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Exec"
 dev_langs: 
@@ -18,10 +15,9 @@ helpviewer_keywords:
   - "Exec task [MSBuild]"
   - "MSBuild, Exec task"
 ms.assetid: c9b7525a-b1c9-40fc-8bce-77a5b8f960d8
-caps.latest.revision: 20
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -48,7 +44,7 @@ Runs the specified program or command by using the specified arguments.
 |`WorkingDirectory`|Optional `String` parameter.<br /><br /> Specifies the directory in which the command will run.|  
   
 ## Remarks  
- This task is useful when a specific [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] task for the job that you want to perform is not available. However, the `Exec` task, unlike a more specific task, cannot gather output from the tool or command that it runs.  
+ This task is useful when a specific [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] task for the job that you want to perform is not available. However, the `Exec` task, unlike a more specific task, cannot do additional processing or conditional operations based on the result of the tool or command that it runs.
   
  The `Exec` task calls cmd.exe instead of directly invoking a process.  
   

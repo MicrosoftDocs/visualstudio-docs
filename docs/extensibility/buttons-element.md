@@ -2,20 +2,16 @@
 title: "Buttons Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Buttons element (VSCT XML schema)"
   - "VSCT XML schema elements, Buttons"
 ms.assetid: 9f2cf94d-dec5-4776-a836-9a89c75f0c87
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

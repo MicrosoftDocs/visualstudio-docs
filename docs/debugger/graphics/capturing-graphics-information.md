@@ -2,21 +2,16 @@
 title: "Capturing Graphics Information | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/09/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.graphics.frame"
   - "vs.graphics.capturewindow"
   - "VS.ToolsOptionsPages.Graphics_Diagnostics.Capture"
 ms.assetid: 187ce86e-e340-4f6c-8937-8e8f1027a17f
-caps.latest.revision: 41
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

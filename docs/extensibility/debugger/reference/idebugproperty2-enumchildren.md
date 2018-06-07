@@ -2,21 +2,17 @@
 title: "IDebugProperty2::EnumChildren | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProperty2::EnumChildren"
 helpviewer_keywords: 
   - "IDebugProperty2::EnumChildren"
 ms.assetid: cf79f666-65d1-417c-af7c-9271bac9a267
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

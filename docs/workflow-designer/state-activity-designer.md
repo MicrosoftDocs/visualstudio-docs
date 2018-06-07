@@ -1,24 +1,29 @@
 ---
-title: "State Activity Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - State Activity Designer"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Activities.Statements.State.UI"
 ms.assetid: 9455ab37-93a0-4c46-9eb8-b6611ca23167
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 author: gewarren
 ---
 # State Activity Designer
+
 A <xref:System.Activities.Statements.State> represents a state in which a state machine can be in.
 
 ## Using the State Activity Designer
- To add a <xref:System.Activities.Statements.State> to a workflow, drag the **State** activity designer from the **State Machine** section of the **Toolbox** and drop it on to a <xref:System.Activities.Statements.StateMachine> activity on the Windows Workflow Designer surface. A <xref:System.Activities.Statements.State> activity can be dropped onto a <xref:System.Activities.Statements.StateMachine> and transitions added later; or a transition can be created as the <xref:System.Activities.Statements.State> activity is dropped. To add a <xref:System.Activities.Statements.State> activity and create a transition in one step, drag a **State** activity from the **State Machine** section of the **Toolbox** and hover it over another state in the workflow designer. When the dragged <xref:System.Activities.Statements.State> is over another <xref:System.Activities.Statements.State>, four triangles will appear around the other <xref:System.Activities.Statements.State>. If the <xref:System.Activities.Statements.State> is dropped onto one of the four triangles, it is added to the state machine and a transition is created from the source <xref:System.Activities.Statements.State> to the dropped destination <xref:System.Activities.Statements.State>. For more information, see [Transition](../workflow-designer/transition-activity-designer.md).
+
+To add a <xref:System.Activities.Statements.State> to a workflow, drag the **State** activity designer from the **State Machine** section of the **Toolbox** and drop it on to a <xref:System.Activities.Statements.StateMachine> activity on the Windows Workflow Designer surface. A <xref:System.Activities.Statements.State> activity can be dropped onto a <xref:System.Activities.Statements.StateMachine> and transitions added later; or a transition can be created as the <xref:System.Activities.Statements.State> activity is dropped. To add a <xref:System.Activities.Statements.State> activity and create a transition in one step, drag a **State** activity from the **State Machine** section of the **Toolbox** and hover it over another state in the workflow designer. When the dragged <xref:System.Activities.Statements.State> is over another <xref:System.Activities.Statements.State>, four triangles will appear around the other <xref:System.Activities.Statements.State>. If the <xref:System.Activities.Statements.State> is dropped onto one of the four triangles, it is added to the state machine and a transition is created from the source <xref:System.Activities.Statements.State> to the dropped destination <xref:System.Activities.Statements.State>. For more information, see [Transition](../workflow-designer/transition-activity-designer.md).
 
 ### State Activity Properties in the Workflow Designer
- The following table shows the <xref:System.Activities.Statements.State> properties that can be set using the workflow designer and describes how they are used in the designer. Some of these properties can be edited in the property grid and some can be edited on the designer surface.
+
+The following table shows the <xref:System.Activities.Statements.State> properties that can be set using the workflow designer and describes how they are used in the designer. Some of these properties can be edited in the property grid and some can be edited on the designer surface.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|

@@ -1,13 +1,10 @@
 ---
-title: "IManagedAddin::Unload | Microsoft Docs"
+title: "IManagedAddin::Unload"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,7 +12,7 @@ helpviewer_keywords:
   - "Unload method"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -24,18 +21,18 @@ ms.workload:
   
 ## Syntax  
   
-```  
+```c++
 HRESULT Unload();  
 ```  
   
-## Return Value  
+## Return value  
  An HRESULT value that indicates whether the method completed successfully.  
   
 ## Remarks  
  This method is not called by current versions of Microsoft Office. This method is reserved for future use.  
   
-## See Also  
- [IManagedAddin Interface](../vsto/imanagedaddin-interface.md)   
+## See also  
+ [IManagedAddin interface](../vsto/imanagedaddin-interface.md)   
  [IManagedAddin::Load](../vsto/imanagedaddin-load.md)  
   
   

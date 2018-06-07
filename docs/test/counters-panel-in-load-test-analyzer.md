@@ -1,13 +1,14 @@
 ---
-title: "Counters panel for analyzing load tests in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Counters panel for analyzing load tests in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, counters panel"
 ms.assetid: e1a388d7-5d33-4631-931a-5653ac4aefdc
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Use the Counters Panel in Graphs View and Tables View

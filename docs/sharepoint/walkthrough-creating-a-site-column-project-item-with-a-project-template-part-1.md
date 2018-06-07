@@ -2,12 +2,9 @@
 title: "Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -18,7 +15,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, defining new project item types"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -38,7 +35,7 @@ ms.workload:
  This is a stand-alone walkthrough. After you complete this walkthrough, you can enhance the project item by adding a wizard to the project template. For more information, see [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).  
   
 > [!NOTE]  
->  You can download a sample that contains the completed projects, code, and other files for this walkthrough from the following location: [http://go.microsoft.com/fwlink/?LinkId=191369](http://go.microsoft.com/fwlink/?LinkId=191369).  
+> For a series of sample workflows, see [SharePoint workflow samples](https://docs.microsoft.com/sharepoint/dev/general-development/sharepoint-workflow-samples).  
   
 ## Prerequisites  
  You need the following components on the development computer to complete this walkthrough:  
@@ -201,13 +198,13 @@ ms.workload:
   
 3.  In the project file, locate the following `VSTemplate` element.  
   
-    ```  
+    ```xml  
     <VSTemplate Include="SiteColumnProjectTemplate.vstemplate">  
     ```  
   
 4.  Replace this element with the following XML.  
   
-    ```  
+    ```xml  
     <VSTemplate Include="SiteColumnProjectTemplate.vstemplate">  
       <OutputSubPath>SharePoint\SharePoint14</OutputSubPath>  
     </VSTemplate>  
@@ -258,7 +255,7 @@ ms.workload:
   
 1.  In the SiteColumnProjectTemplate project, replace the contents of the Elements.xml file with the following XML.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8"?>  
     <Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
       <Field ID="{$guid5$}"   
@@ -278,7 +275,7 @@ ms.workload:
   
 1.  In the SiteColumnProjectTemplate project, replace the contents of the SharePointProjectItem.spdata file with the following XML.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8"?>  
     <ProjectItem Type="Contoso.SiteColumn" DefaultFile="Elements.xml"   
                  xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">  
@@ -302,7 +299,7 @@ ms.workload:
   
 1.  In the SiteColumnProjectTemplate project, replace the contents of the Feature1.feature file with the following XML.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8"?>  
     <feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="$guid4$" featureId="$guid4$"   
              imageUrl="" solutionId="00000000-0000-0000-0000-000000000000" title="Site Column Feature1" version=""  
@@ -328,7 +325,7 @@ ms.workload:
   
 1.  In the SiteColumnProjectTemplate project, replace the contents of the Package.package file with the following XML.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8"?>  
     <package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0"   
              Id="$guid3$" solutionId="$guid3$" resetWebServer="false" name="$safeprojectname$"   
@@ -355,7 +352,7 @@ ms.workload:
   
     -   If you're creating a Visual C# project template, use the following XML.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8"?>  
     <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">  
       <TemplateData>  
@@ -391,7 +388,7 @@ ms.workload:
   
     -   If you're creating a Visual Basic project template, use the following XML.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8"?>  
     <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">  
       <TemplateData>  
@@ -443,7 +440,7 @@ ms.workload:
   
     -   If you're creating a Visual C# project template, use the following XML.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8"?>  
     <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
       <PropertyGroup>  
@@ -523,7 +520,7 @@ ms.workload:
   
     1.  If you're creating a Visual Basic project template, use the following XML.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8"?>  
     <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
       <PropertyGroup>  

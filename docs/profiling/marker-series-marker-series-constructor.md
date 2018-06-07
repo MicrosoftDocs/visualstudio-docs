@@ -2,21 +2,16 @@
 title: "marker_series::marker_series Constructor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "cvmarkersobj/Concurrency::diagnostic::marker_series::marker_series"
 helpviewer_keywords: 
   - "Concurrency::diagnostic::marker_series constructor"
 ms.assetid: 042c7d23-f1d8-4e09-9e76-a21c30243790
-caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -25,7 +20,7 @@ Initializes a new instance of the `marker_series` class.
   
 ## Syntax  
   
-```  
+```cpp  
 marker_series();  
 marker_series(  
    _In_ LPCTSTR _SeriesName  

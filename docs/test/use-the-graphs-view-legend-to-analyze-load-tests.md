@@ -1,21 +1,22 @@
 ---
-title: "Using the Graphs View Legend to Analyze Load Tests in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Using the Graphs View Legend to Analyze Load Tests in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "Load Test Analyzer, graphs view legend"
   - "load tests, graphs view legend"
 ms.assetid: 0f6ba8e4-1343-419c-8a9f-240cf50efed7
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Using the Graphs View Legend to Analyze Load Tests
 
 The Load Test Analyzer's Graphs view includes a legend panel that displays information for each performance counter that is associated with the currently selected graph.
 
-![Graphs view legend](../test/media/load_viewlegend.png "Load_ViewLegend")
+![Graphs view legend](../test/media/load_viewlegend.png)
 
 The following information is contained within the legend:
 

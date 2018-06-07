@@ -2,12 +2,9 @@
 title: "Using Modules to Include Files in the Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,7 +14,7 @@ helpviewer_keywords:
   - "modules [SharePoint development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -29,7 +26,7 @@ ms.workload:
   
  Here is an example of the Elements.xml file for a module:  
   
-```  
+```xml  
 <?xml version="1.0" encoding="utf-8"?>  
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
     <Module Name="Module1">  

@@ -2,20 +2,15 @@
 title: "NameProfile | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "NameProfile"
   - "NameProfileA"
 ms.assetid: 1bb05441-c4ff-4323-9fef-f3924fba4430
-caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -26,7 +21,7 @@ The `NameProfile` function assigns a string to the specified process or thread.
   
 ## Syntax  
   
-```  
+```cpp  
 PROFILE_COMMAND_STATUS PROFILERAPI NameProfile(  
                                    LPCTSTR pszName,   
                                    PROFILE_CONTROL_LEVEL Level,  
@@ -98,7 +93,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI NameProfile(
 ## Example  
  The following code illustrates the NameProfile function call. The example assumes the use of Win32 string macros and the compiler settings for ANSI to determine whether the code calls the ANSI enabled function.  
   
-```  
+```cpp  
 void ExerciseNameProfile()  
 {  
     // Variables used to print output.  

@@ -1,26 +1,22 @@
 ---
-title: "Analyze CPU usage data (C++) | Microsoft Docs"
+title: "Analyze CPU usage data (C++)"
+description: "Measure app performance in C++ using the CPU Usage diagnostics tool"
 ms.custom: ""
 ms.date: "12/05/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 f1_keywords: 
   - ""
 helpviewer_keywords: 
   - "Profiling Tools, quick start"
   - "Diagnostics Tools, CPU Usage"
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---
-# Analyze CPU usage data in Visual Studio (C++)
+# Quickstart: Analyze CPU usage data in Visual Studio (C++)
 
 The Visual Studio provides many powerful features to help you analyze performance issues in your application. This topic provides a quick way to learn some of the basic features. Here, we look at the tool to identify performance bottlenecks due to high CPU usage. The Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, and for native/C++ development.
 

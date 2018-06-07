@@ -1,10 +1,9 @@
 ---
-title: "Customizing the Build System | Microsoft Docs"
-description: 
+title: "Customizing the Build System"
+description: "This article is a brief introduction to the MSBuild build system used by Visual Studio for Mac"
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.assetid: 6958B102-8527-4B40-BC65-3505DB63F9D3
 ---
 
@@ -25,17 +24,17 @@ MSBuild uses an XML file, called a project file, that defines the *Items* that a
 
 Locate the MSBuild file by right-clicking on your project name and selecting **Reveal in Finder**. The finder window displays all the files and folders related to your project, including the `.csproj` file, as illustrated in the following image:
 
-![](media/customizing-build-system-image1.png)
+![csproj location in Finder](media/customizing-build-system-image1.png)
 
 To display the `.csproj` in a new tab in Visual Studio for Mac, right-click on your project name and browse to **Tools > Edit File**:
 
-![](media/customizing-build-system-image2.png)
+![opening the csproj in the source editor](media/customizing-build-system-image2.png)
 
 ### Composition of the MSBuild file
 
 All MSBuild files contain a mandatory root `Project` element, like so:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 </Project>
@@ -43,7 +42,7 @@ All MSBuild files contain a mandatory root `Project` element, like so:
 
 Typically, the project will also import a `.targets` file. This file contains many of the rules that describe how to process and build the various files. The import usually appear towards the bottom of your `proj` file, and for C# projects look something like this:
 
-```
+```xml
 <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 ```
 
@@ -61,7 +60,7 @@ They are set using a PropertyGroup and can contain any number of PropertiesGroup
 
 For example, the PropertyGroup for a simple console application might look like the following XML:
 
-```
+```xml
 <PropertyGroup>
 		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
 		<Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -83,7 +82,7 @@ Items are created by declaring an `ItemGroup`. There can be any number of ItemGr
 
 For example, the following code snippet creates the iOS Launch Screens. The Launch Screens have the build type `BundleResource`, with the spec as the path to the image:
 
-```
+```xml
  <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
     <BundleResource Include="Resources\Default%402x.png" />
@@ -93,7 +92,7 @@ For example, the following code snippet creates the iOS Launch Screens. The Laun
     <BundleResource Include="Resources\Default-Landscape%402x.png" />
   </ItemGroup>
  ```
- 
+
  Item sets can be referred to from expressions using the `@()` syntax. For example, `@(BundleResource)` will be evaluated as the BundleResource item set, which means all of the BundleResource items. If there are no items of this type, it will be empty, without any error.
 
 ## Resources for learning MSBuild
@@ -102,5 +101,3 @@ The following resources can be used to learn about MSBuild in more detail:
 
 * [MSDN - Overview](https://msdn.microsoft.com/library/dd393574.aspx)
 * [MSDN - Concepts](https://msdn.microsoft.com/library/dd637714.aspx)
-
-

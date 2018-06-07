@@ -2,11 +2,8 @@
 title: "Otherwise Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Otherwise"
 dev_langs: 
@@ -18,10 +15,9 @@ helpviewer_keywords:
   - "<Otherwise> Element [MSBuild]"
   - "Otherwise Element [MSBuild]"
 ms.assetid: de3997e9-1595-4263-a886-95530b56a319
-caps.latest.revision: 9
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

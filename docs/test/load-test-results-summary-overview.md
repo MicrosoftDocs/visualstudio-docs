@@ -1,7 +1,7 @@
 ---
-title: "Load Test Results Summary Overview in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Load Test Results Summary Overview in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 f1_keywords:
   - "vs.test.load.monitor.summary.view"
 helpviewer_keywords:
@@ -13,14 +13,15 @@ helpviewer_keywords:
 ms.assetid: 326b6c3c-5378-452b-8ca3-ba5a06ab3d41
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Load Test Results Summary Overview
 
 After you run a load test, you can view the load test summary to understand the results quickly. The load test summary provides the key results in a compact and easy to read format. You can also print the load test summary. This makes it convenient to use when you communicate results to stakeholders. The load test summary is also the default view when you open a load test result from a previously run load test. For more information, see [How to: Access Load Test Results for Analysis](../test/how-to-access-load-test-results-for-analysis.md).
 
- ![Summary view](../test/media/ltest_summaryview.png "LTest_SummaryView")
+ ![Summary view](../test/media/ltest_summaryview.png)
 
 ## The Load Test Summary
 

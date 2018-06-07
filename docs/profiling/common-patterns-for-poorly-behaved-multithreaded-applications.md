@@ -2,47 +2,43 @@
 title: "Common Patterns for Poorly-Behaved Multithreaded Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.tools.gallery"
 helpviewer_keywords: 
   - "Concurrency Visualizer, common patterns for poorly-behaved multithreaded applications"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Common Patterns for Poorly-Behaved Multithreaded Applications
+# Common patterns for poorly-behaved multithreaded applications
 
 The Concurrency Visualizer helps developers to visualize the behavior of a multithreaded application. This tool includes a gallery of common patterns for multithreaded applications that behave badly. The gallery includes typical and recognizable visual patterns that are exposed through the tool, together with an explanation of the behavior that is represented by each pattern, the likely result of that behavior, and the most common approach to resolve it.
 
-## Lock Contention and Serialized Execution
+## Lock contention and serialized execution
 
-![Lock Contention Resulting in Serialized Execution](../profiling/media/lockcontention_serialized.png "LockContention_Serialized")
+![Lock contention resulting in serialized execution](../profiling/media/lockcontention_serialized.png "LockContention_Serialized")
 
 Sometimes a parallelized application stubbornly continues to execute serially even though it has several threads and the computer has a sufficient number of logical cores. The first symptom is poor multithreaded performance, perhaps even a bit slower than a serial implementation. In Threads View, you do not see multiple threads running in parallel; instead, you see that only one thread is executing at any time. At this point, if you click a synchronization segment in a thread, you can see a call stack for the blocked thread (blocking call stack) and the thread that removed the blocking condition (unblocking call stack). In addition, if the unblocking call stack occurs in the process that you are analyzing, a Thread-Ready connector is displayed. From this point, you can navigate to your code from the blocking and unblocking call stacks to investigate the cause of serialization even more.
 
 As shown in the following illustration, the Concurrency Visualizer can also expose this symptom in the CPU Utilization View, where, despite the presence of multiple threads, the application consumes only one logical core.
 
-For more information, see "Performance Pattern 1: Identifying Lock Contention" in Hazim Shafi's [Parallel Performance Tools For Windows](http://go.microsoft.com/fwlink/?LinkID=160569) blog on the MSDN blog Web site.
+For more information, see "Performance pattern 1: Identifying lock contention" in Hazim Shafi's [Parallel performance tools for Windows](http://go.microsoft.com/fwlink/?LinkID=160569) blog on the MSDN blog Web site.
 
 ![Lock Contention](../profiling/media/lockcontention_2.png "LockContention_2")
 
-## Uneven Workload Distribution
+## Uneven workload distribution
 
-![Uneven Workload](../profiling/media/unevenworkload_1.png "UnevenWorkLoad_1")
+![Uneven workload](../profiling/media/unevenworkload_1.png "UnevenWorkLoad_1")
 
 When an irregular distribution of work occurs across several parallel threads in an application, a typical stair-step pattern appears as each thread completes its work, as shown in the previous illustration. The Concurrency Visualizer most often shows very close start times for each concurrent thread. However, these threads typically end in an irregular manner instead of ending simultaneously. This pattern indicates an irregular distribution of work among a group of parallel threads, which could lead to decreased performance. The best approach to such a problem is to reevaluate the algorithm by which work has been divided among the parallel threads.
 
 As shown in the following illustration, the Concurrency Visualizer can also expose this symptom in the CPU Utilization View as a gradual step-down in CPU utilization.
 
-![Uneven Workload](../profiling/media/unevenworkload_2.png "UnevenWorkload_2")
+![Uneven workload](../profiling/media/unevenworkload_2.png "UnevenWorkload_2")
 
 ## Oversubscription
 
@@ -62,9 +58,9 @@ You should consider the following when you evaluate this problem:
 
 Overuse or misuse of I/O is a common cause of inefficiencies in applications. Consider the previous illustration. The Visible Timeline Profile shows that 44 percent of the visible thread time is consumed by I/O. The timeline shows large amounts of I/O, which indicates that the profiled application is frequently blocked by I/O. To see details about the kinds of I/O and where your program is blocked, zoom into problematic regions, examine the Visible Timeline Profile, and then click a specific I/O block to see current call stacks.
 
-## Lock Convoys
+## Lock convoys
 
-![Lock Convoys](../profiling/media/lock_convoys.png "Lock_Convoys")
+![Lock convoys](../profiling/media/lock_convoys.png "Lock_Convoys")
 
 Lock convoys occur when the application acquires locks in a first-come, first-served order, and when the arrival rate at the lock is higher than the acquisition rate. The combination of these two conditions causes requests for the lock to start backing up. One way to combat this problem is to use "unfair" locks, or locks that give access to the first thread to find them in unlocked states. The previous illustration shows this convoy behavior. To solve the problem, try reducing contention for the synchronization objects and try using unfair locks.
 

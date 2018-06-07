@@ -2,21 +2,17 @@
 title: "IDebugPortSupplier3::EnumPersistedPorts | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortSupplier3::EnumPersistedPorts"
 helpviewer_keywords: 
   - "IDebugPortSupplier3::EnumPersistedPorts"
 ms.assetid: 1c3dead3-5d6c-4067-8418-4015f0b0dd07
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

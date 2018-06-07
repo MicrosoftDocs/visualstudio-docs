@@ -1,13 +1,14 @@
 ---
-title: "Generate unit tests for your code with IntelliTest in Visual Studio | Microsoft Docs"
-ms.date: "2015-10-05"
+title: "Generate unit tests for your code with IntelliTest in Visual Studio"
+ms.date: 2015-10-05
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
-f1_keywords: 
+ms.topic: conceptual
+f1_keywords:
   - "vs.UnitTest.CreateIntelliTest"
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -36,15 +37,15 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
 
 2.  Right-click in a method in your code and choose **Run IntelliTest** to generate unit tests for the code in your method.
 
-     ![Right&#45;click in your method to generate unit tests](../test/media/runpex.png "RunPEX")
+     ![Right&#45;click in your method to generate unit tests](../test/media/runpex.png)
 
      IntelliTest runs your code many times with different inputs. Each run is represented in the table showing the input test data and the resulting output or exception.
 
-     ![Exploration Results window is displayed with tests](../test/media/pexexplorationresults.png "PEXExplorationResults")
+     ![Exploration Results window is displayed with tests](../test/media/pexexplorationresults.png)
 
      To generate unit tests for all the public methods in a class, simply right-click in the class rather than a specific method. Then choose **Run IntelliTest**. Use the drop-down list in the Exploration Results window to display the unit tests and the input data for each method in the class.
 
-     ![Select the test results to view from the list](../test/media/selectpextest.png "SelectPEXTest")
+     ![Select the test results to view from the list](../test/media/selectpextest.png)
 
      For tests that pass, check that the reported results in the result column match your expectations for your code. For tests that fail, fix your code as appropriate. Then rerun IntelliTest to validate the fixes.
 
@@ -52,11 +53,11 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
 
 1.  Select the data rows that you want to save with the parameterized unit test into a test project.
 
-     ![Select tests; right&#45;click and choose Save](../test/media/savepextests.png "SavePEXTests")
+     ![Select tests; right&#45;click and choose Save](../test/media/savepextests.png)
 
      You can view the test project and the parameterized unit test that has been created - the individual unit tests, corresponding to each of the rows, are saved in the .g.cs file in the test project, and a parameterized unit test is saved in its corresponding .cs file. You can run the unit tests and view the results from Test Explorer just as you would for any unit tests that you created manually.
 
-     ![Open class file in test method to view unit test](../test/media/testmethodpex.png "TestMethodPEX")
+     ![Open class file in test method to view unit test](../test/media/testmethodpex.png)
 
      Any necessary references are also added to the test project.
 
@@ -68,11 +69,11 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
 
      View the warnings to decide what you want to do.
 
-     ![View warnings](../test/media/pexviewwarning.png "PEXViewWarning")
+     ![View warnings](../test/media/pexviewwarning.png)
 
 2.  After you investigate the code and understand what you want to test, you can fix the warning to choose which classes to use to test the interface.
 
-     ![Right&#45;click the warning and choose Fix](../test/media/pexfixwarning.png "PEXFixWarning")
+     ![Right&#45;click the warning and choose Fix](../test/media/pexfixwarning.png)
 
      This choice is added into the PexAssemblyInfo.cs file.
 
@@ -80,7 +81,7 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
 
 3.  Now you can rerun IntelliTest to generate a parameterized unit test and test data just using the class that you fixed.
 
-     ![Rerun IntelliTest to generate the test data](../test/media/pexwarningsfixed.png "PEXWarningsFixed")
+     ![Rerun IntelliTest to generate the test data](../test/media/pexwarningsfixed.png)
 
 ## Specify: Use IntelliTest to validate correctness properties that you specify in code
 
@@ -126,11 +127,11 @@ Specify the general relationship between inputs and outputs that you want the ge
 
 **A:** Yes, right-click in the class or method, then choose **Create IntelliTest**.
 
- ![Right&#45;click editor, choose Create IntelliTest](../test/media/pexcreateintellitest.png "PEXCreateIntelliTest")
+ ![Right&#45;click editor, choose Create IntelliTest](../test/media/pexcreateintellitest.png)
 
  Accept the default format to generate your tests, or change how your project and tests are named. You can create a new test project or save your tests to an existing project.
 
- ![Create IntelliTest with MSTest default](../test/media/pexcreateintellitestmstest.png "PEXCreateIntelliTestMSTest")
+ ![Create IntelliTest with MSTest default](../test/media/pexcreateintellitestmstest.png)
 
 <a name="extend-framework"></a>
 ### Q: Can I use other unit test frameworks with IntelliTest?
@@ -138,13 +139,13 @@ Specify the general relationship between inputs and outputs that you want the ge
 **A:** Yes, follow these steps to [find and install other frameworks](../test/install-third-party-unit-test-frameworks.md).
 Test framework extensions are also available in Visual Studio Marketplace:
 
-* [NUnit Extension for the Test Generators](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension)
+* [NUnit Extension for the Test Generators](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension-18371)
 * [xUnit.net Extension for the Test Generators](https://marketplace.visualstudio.com/items?itemName=BradWilson.xUnitnetTestExtensions)
 
 
 After you restart Visual Studio and reopen your solution, right-click in the class or method, then choose **Create IntelliTest**. Select your installed framework here:
 
-![Select other unit test framework for IntelliTest](../test/media/pexcreateintellitestextensions.png "PEXCreateIntelliTestExtensions")
+![Select other unit test framework for IntelliTest](../test/media/pexcreateintellitestextensions.png)
 
 Then run IntelliTest to generate individual unit tests in their corresponding .g.cs files.
 

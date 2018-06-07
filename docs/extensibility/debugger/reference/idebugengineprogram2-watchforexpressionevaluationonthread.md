@@ -2,21 +2,17 @@
 title: "IDebugEngineProgram2::WatchForExpressionEvaluationOnThread | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngineProgram2::WatchForExpressionEvaluationOnThread"
 helpviewer_keywords: 
   - "IDebugEngineProgram2::WatchForExpressionEvaluationOnThread"
 ms.assetid: 01d05e77-8cac-4d1b-b19f-25756767ed27
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

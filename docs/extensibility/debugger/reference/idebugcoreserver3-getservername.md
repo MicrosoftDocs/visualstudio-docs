@@ -2,21 +2,17 @@
 title: "IDebugCoreServer3::GetServerName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCoreServer3::GetServerName"
 helpviewer_keywords: 
   - "IDebugCoreServer3::GetServerName"
 ms.assetid: 0fc3fcf5-d6a3-4a00-bf14-458b8645714e
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,12 +2,9 @@
 title: "Walkthrough: Create a Basic Site Definition Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -18,7 +15,7 @@ helpviewer_keywords:
   - "site definitions [SharePoint development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -96,7 +93,7 @@ ms.workload:
   
 5.  At the bottom of VisualWebPart1.ascx, add the following markup to add three controls to the form: a text box, a button, and a label:  
   
-    ```  
+    ```aspx-csharp  
     <table>  
       <tr>  
         <td>  
@@ -126,7 +123,7 @@ ms.workload:
   
 1.  Open the default.aspx page, and then add the following line under the `WebPartPages` tag:  
   
-    ```  
+    ```aspx-csharp  
     <%@ Register Tagprefix="MyWebPartControls" Namespace="TestSiteDef.VisualWebPart1" Assembly="$SharePoint.Project.AssemblyFullName$" %>  
     ```  
   
@@ -134,7 +131,7 @@ ms.workload:
   
 2.  After the `</asp:Content>` element, replace the entire `ContentPlaceHolderId="PlaceHolderMain"` section and its contents with the following code:  
   
-    ```  
+    ```aspx-csharp  
     <asp:Content ID="Content1" ContentPlaceHolderId="PlaceHolderMain" runat="server">  
         <MyWebPartControls:VisualWebPart1 runat="server" />      
     </asp:Content>  

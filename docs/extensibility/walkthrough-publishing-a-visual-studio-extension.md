@@ -2,20 +2,16 @@
 title: "Walkthrough: Publishing a Visual Studio Extension | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "publishing web controls"
   - "web controls, publishing"
 ms.assetid: a7816161-0490-4043-86f5-0f7331ed83b3
-caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

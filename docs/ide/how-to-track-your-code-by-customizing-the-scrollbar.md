@@ -1,19 +1,16 @@
 ---
-title: "How to: Track Your Code by Customizing the Scrollbar | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+title: "How to: Track your code by customizing the scrollbar"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
-# How to: Track Your Code by Customizing the Scrollbar
+# How to: Track your code by customizing the scrollbar
 
 When you are working with long code files, it can be hard to keep everything in mind. You can customize the scroll bar of the code window to give you a bird's eye view of what's happening in your code.
 
@@ -21,7 +18,7 @@ When you are working with long code files, it can be hard to keep everything in 
 
 1. You can set up the scroll bar to show code changes, breakpoints, errors, and bookmarks.
 
-    Open the **Scroll Bar** options page by choosing **Tools** > **Options** > **Text Editor** > **All Languages** or a specific language, or by entering  **scroll bar** in the Quick Launch window.
+    Open the **Scroll Bar** options page by choosing **Tools** > **Options** > **Text Editor** > **All Languages** or a specific language, or by entering  **scroll bar** in the **Quick Launch** window.
 
 2. Select **Show Annotations over vertical scroll bar**, then select the annotations you want to see.
 
@@ -31,11 +28,11 @@ When you are working with long code files, it can be hard to keep everything in 
 
     Here's how the scroll bar looks after a search for a string. Notice that all instances of the string appear.
 
-    ![The scroll bar after searching for a string.](../ide/media/enhancedscrollbarsearch.png "EnhancedScrollbarSearch")
+    ![The scroll bar after searching for a string.](../ide/media/enhancedscrollbarsearch.png)
 
     Here's the scroll bar after replacing all the instances of the string. You can see immediately that the operation caused some problems.
 
-    ![The scrollbar after replacing a string with errors](../ide/media/enhancedscrollbarreplace.png "EnhancedScrollbarReplace")
+    ![The scrollbar after replacing a string with errors](../ide/media/enhancedscrollbarreplace.png)
 
 ## To set the display mode for the scroll bar
 
@@ -43,16 +40,16 @@ When you are working with long code files, it can be hard to keep everything in 
 
     On the **Scroll Bar** options page, select either **Use Bar mode for vertical scroll bar** or **Use Map mode for vertical scroll bar**. You can choose the width in the **Source Overview** drop-down.
 
-    Here's how the search example looks when map mode is on and the width is set to Medium:
+    Here's how the search example looks when map mode is on and the width is set to **Medium**:
 
-    ![The scroll bar in map mode](../ide/media/enhancedscrollbar.png "EnhancedScrollbar")
+    ![The scroll bar in map mode](../ide/media/enhancedscrollbar.png)
 
 2. In map mode, to enable previews of the code when you move the cursor up and down the scroll bar, select the **Show Preview Tooltip** option. Here's how it looks:
 
-    ![The scrollbar with a tooltip](../ide/media/enhancedscrollbarsearchtooltip.png "EnhancedScrollbarSearchTooltip")
+    ![The scrollbar with a tooltip](../ide/media/enhancedscrollbarsearchtooltip.png)
 
     If you want to keep the map mode scrolling behavior and the preview tooltip, but don't want to see the source code overview, you can set **Source Overview** to **Off**.
 
 ## See also
 
-[Writing Code in the Editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

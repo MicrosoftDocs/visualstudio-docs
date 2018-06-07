@@ -2,11 +2,8 @@
 title: "MSBuild Well-known Item Metadata | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "MSBuild, item metadata"
   - "MSBuild, well-known item metadata"
 ms.assetid: b5e791b5-c68f-4978-ad8a-9247d03bb6c0
-caps.latest.revision: 12
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

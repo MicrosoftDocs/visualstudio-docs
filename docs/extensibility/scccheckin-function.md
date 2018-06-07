@@ -2,21 +2,17 @@
 title: "SccCheckin Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "SccCheckin"
 helpviewer_keywords: 
   - "SccCheckin function"
 ms.assetid: e3f26ac2-6163-42e1-a764-22cfea5a3bc6
-caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

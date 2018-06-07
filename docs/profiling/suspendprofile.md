@@ -2,19 +2,14 @@
 title: "SuspendProfile | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "SuspendProfile"
 ms.assetid: 7c8de6e6-bb88-4353-92c3-ce7290310d61
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -23,7 +18,7 @@ The `SuspendProfile` method increments the Suspend/Resume counter for the specif
   
 ## Syntax  
   
-```  
+```cpp  
 PROFILE_COMMAND_STATUS PROFILERAPI SuspendProfile(  
                        PROFILE_CONTROL_LEVEL Level,   
                        unsigned int dwId);  
@@ -73,7 +68,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI SuspendProfile(
 ## Example  
  The following example illustrates the SuspendProfile method. This example assumes that a prior call to StartProfile has been made for the process or thread identified by [PROFILE_CURRENTID](../profiling/profile-currentid.md).  
   
-```  
+```cpp  
 void ExerciseSuspendProfile()  
 {  
     // The initial value of the Suspend/Resume counter is 0.  

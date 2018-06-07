@@ -1,7 +1,7 @@
 ---
-title: "Create a Web Service Test in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Create a Web Service Test in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "Web performance tests, creating Web service tests"
   - "Web services [Visual Studio ALM], creating"
@@ -9,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: fbcd57ee-06ad-4260-8694-09f8e0f93e39
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Create a Web Service Test

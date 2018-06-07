@@ -1,28 +1,25 @@
 ---
-title: "IWefDebuggingSupport Interface | Microsoft Docs"
+title: "IWefDebuggingSupport interface"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# IWefDebuggingSupport Interface
+# IWefDebuggingSupport interface
   Implemented by a debugging environment, such as Visual Studio, to facilitate debugging of apps for Office. The Office application, such as Word or Excel, obtains this interface from Visual Studio and then calls methods on the interface at certain points during the debugging session.  
   
 ## Syntax  
   
-```  
+```csharp 
 [  
     uuid(ccaf1a90-ce1c-4199-9cd6-b40c5c57a671),  
     oleautomation  
@@ -41,7 +38,7 @@ interface IWefDebuggingSupport : IUnknown
   
 |Name|Description|  
 |----------|-----------------|  
-|[GetAutoInsertExtensions Method](../vsto/getautoinsertextensions-method.md)|Gets information about the apps for Office that are to be automatically inserted during debugging.|  
-|[SetWefProcessId Method](../vsto/setwefprocessid-method.md)|Provides the process identifier that will run Web Extensions Framework (WEF) content.|  
+|[GetAutoInsertExtensions method](../vsto/getautoinsertextensions-method.md)|Gets information about the apps for Office that are to be automatically inserted during debugging.|  
+|[SetWefProcessId method](../vsto/setwefprocessid-method.md)|Provides the process identifier that will run Web Extensions Framework (WEF) content.|  
   
   

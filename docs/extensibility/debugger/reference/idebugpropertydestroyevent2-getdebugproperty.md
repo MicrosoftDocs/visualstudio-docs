@@ -2,21 +2,17 @@
 title: "IDebugPropertyDestroyEvent2::GetDebugProperty | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPropertyDestroyEvent2::GetDebugProperty"
 helpviewer_keywords: 
   - "IDebugPropertyDestroyEvent2::GetDebugProperty"
 ms.assetid: c96ae785-0ac8-4df4-8df3-15a8d7e13687
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

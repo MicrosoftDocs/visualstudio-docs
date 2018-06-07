@@ -2,21 +2,17 @@
 title: "IDebugCoreServer2::GetMachineUtilities_V7 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCoreServer2::GetMachineUtilities_V7"
 helpviewer_keywords: 
   - "IDebugCoreServer2::GetMachineUtilities_V7"
 ms.assetid: 64c1f08f-853b-4498-9810-29791581ef2f
-caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

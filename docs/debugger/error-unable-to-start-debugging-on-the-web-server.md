@@ -2,12 +2,8 @@
 title: "Error: Unable to Start Debugging on the Web Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/23/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "reference"
+ms.technology: "vs-ide-debug"
+ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.http"
   - "vwd.nonadmin.error."
@@ -27,10 +23,9 @@ helpviewer_keywords:
   - "errors [debugger], unable to start debugging"
   - "debugging ASP.NET Web applications, unable to start debugging error"
   - "remote debugging, errors"
-caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

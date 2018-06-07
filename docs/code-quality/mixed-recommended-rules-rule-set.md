@@ -1,17 +1,13 @@
 ---
-title: "Mixed Recommended Rules rule set | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+title: Mixed Recommended Rules rule set
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Mixed Recommended Rules rule set
@@ -213,7 +209,7 @@ The Microsoft Mixed Recommended Rules focus on the most common and critical prob
 |[C28253](../code-quality/c28253.md)|Inconsistent annotation for function: parameter has another annotations on this instance.|
 |[C28254](../code-quality/c28254.md)|dynamic_cast<>() is not supported in annotations|
 |[C28262](../code-quality/c28262.md)|A syntax error in the annotation was found in function, for annotation|
-|[C28263](../code-quality/c28263.md)|A syntax error in a conditional annotation was found for Intrinsic annotation| 
+|[C28263](../code-quality/c28263.md)|A syntax error in a conditional annotation was found for Intrinsic annotation|
 |[C28267](../code-quality/c28267.md)|A syntax error in the annotations was found annotation in the function.|
 |[C28272](../code-quality/c28272.md)|The annotation for function, parameter when examining is inconsistent with the function declaration|
 |[C28273](../code-quality/c28273.md)|For function, the clues are inconsistent with the function declaration|

@@ -1,13 +1,14 @@
 ---
-title: "Configurations and Platforms for Coded UI Tests in Visual Studio | Microsoft Docs"
-ms.date: "2015-10-04"
+title: "Configurations and Platforms for Coded UI Tests in Visual Studio"
+ms.date: 2015-10-04
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: reference
+helpviewer_keywords:
   - "coded UI tests"
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -16,7 +17,8 @@ author: gewarren
 The supported configurations and platforms for coded UI tests for Visual Studio Enterprise are listed in the following table. These configurations also apply to action recordings created by using [!INCLUDE[MTRlong](../test/includes/mtrlong_md.md)].
 
 > [!NOTE]
->  The coded UI test process must have the same privileges as the app under test.
+> The coded UI test process must have the same privileges as the app under test.
+
 
  **Requirements**
 
@@ -32,7 +34,8 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
 |.NET|.NET 2.0, 3.0, 3.5, 4 and 4.5. **Note:**  [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)] and Visual Studio will both require .NET 4 to operate. However, applications developed by using the listed .NET versions are supported.|
 
 > [!NOTE]
->  *UI Synchronization* is a feature where the playback is verified in the message queue of each control. If a control did not respond to the event that was sent to it, then the event is sent again.
+> *UI Synchronization* is a feature where the playback is verified in the message queue of each control. If a control did not respond to the event that was sent to it, then the event is sent again.
+
 
 ## Platform Support
 
@@ -61,7 +64,7 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
 |Citrix/Terminal Services|We don't recommend recording actions on a terminal server. The recorder doesn't support running multiple instances at the same time.|
 |PowerBuilder|Partially supported.<br /><br /> The support is to the extent accessibility is enabled for PowerBuilder controls.|
 
- For information about how to create extensions to support other platforms, see [Enable Coded UI Testing of Your Controls](../test/enable-coded-ui-testing-of-your-controls.md) and [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md).
+ For information about how to create extensions to support other platforms, see [Enable Coded UI Testing of Your Controls](../test/enable-coded-ui-testing-of-your-controls.md) and [Extending Coded UI Tests and Action Recordings](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md).
 
 ## See also
 

@@ -2,21 +2,17 @@
 title: "CODE_PATH | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CODE_PATH"
 helpviewer_keywords: 
   - "CODE_PATH structure"
 ms.assetid: 2d4b2890-4c9d-47e1-83c0-df9c6436427f
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

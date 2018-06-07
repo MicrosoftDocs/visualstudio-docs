@@ -2,12 +2,9 @@
 title: "Devenv Command-Line Switches for VSPackage Development | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "/setup command line switch"
   - "/resetskippkgs command line switch"
@@ -18,10 +15,9 @@ helpviewer_keywords:
   - "command line, switches"
   - "Visual Studio SDK, command-line switches"
 ms.assetid: d65d2c04-dd84-42b0-b956-555b11f5a645
-caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

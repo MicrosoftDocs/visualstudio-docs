@@ -2,12 +2,8 @@
 title: "How to: Specify Pre- and Post-Instrument Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.property.instrument"
 helpviewer_keywords: 
@@ -15,14 +11,13 @@ helpviewer_keywords:
   - "events [Visual Studio], pre-instrument"
   - "pre-instrument events, performance tools"
 ms.assetid: 6a8d5340-1d1b-4d81-88dd-8e1f435eb828
-caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Specify Pre- and Post-Instrument Commands
+# How to: Specify pre- and post-instrument commands
 
 You can specify commands that run before or after the binaries in a performance session are instrumented. Any command that can be issued from the command line can be specified as a pre-instrument or a post-instrument event. For example, you can specify commands that automate the resigning of an assembly with a strong name key in a batch file that is executed after the binaries are instrumented.
 
@@ -32,7 +27,7 @@ The working directory in which the commands are executed depends on the operatin
 
  **32-bit computers**
 
-On 32-bit computers, the default profiler tools directory is Drive\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools.
+On 32-bit computers, the default profiler tools directory is *drive\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools*.
 
 **64-bit computers**
 
@@ -40,11 +35,11 @@ On 64-bit computers, specify the path according to the target platform of the pr
 
 - For 32-bit applications, the default profiler tools directory is:
 
-     *Drive*\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools
+     *drive\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools*
 
 - For 64-bit applications, the default profiler tools directory is:
 
-     *Drive*\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\x64
+     *drive\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Performance Tools\x64*
 
 ## To specify pre-instrument commands
 
@@ -86,4 +81,4 @@ On 64-bit computers, specify the path according to the target platform of the pr
 
 ## See also
 
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)

@@ -1,13 +1,10 @@
 ---
-title: "Profile application performance in Visual Studio | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+title: "Measure CPU usage in your apps"
+description: "Analyze CPU performance issues in your application using the debugger-integrated diagnostics tools."
+ms.custom: "mvc"
 ms.date: "02/27/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.technology: "vs-ide-debug"
+ms.topic: "tutorial"
 f1_keywords: 
   - "vs.performance.wizard.intropage"
 helpviewer_keywords: 
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "CPU Usage"
   - "Diagnostics Tools"
 ms.assetid: da2fbf8a-2d41-4654-a509-dd238532d25a
-caps.latest.revision: 45
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -34,12 +30,18 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 |---------|---------|
 |  ![movie camera icon for video](../install/media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Profiling-with-Diagnostics-Tools-in-Visual-Studio-2017-daHnzMD6D_9211787171) on using the diagnostics tools that shows how to analyze CPU usage and how to analyze memory usage. |
 
-In this topic, we'll discuss analyzing CPU usage in your normal debugging workflow. You can also analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Collect profiling data without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-without-debugging) in [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+In this article, we'll discuss analyzing CPU usage in your normal debugging workflow. You can also analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Collect profiling data without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-without-debugging) in [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
 > [!NOTE]
 > For .NET Core and ASP.NET Core, the CPU Usage tool currently does not provide accurate results with portable PBDs. Use full PDBs instead.
+
+In this tutorial, you will:
+
+> [!div class="checklist"]
+> * Collect CPU usage data
+> * Analyze CPU usage data
   
-##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Step 1: Collect profiling data 
+## Step 1: Collect profiling data 
   
 1.  Open the project you want to debug in Visual Studio and set a breakpoint in your app at the point where you want to examine CPU usage.
 
@@ -90,7 +92,7 @@ In this topic, we'll discuss analyzing CPU usage in your normal debugging workfl
 
      At this point, you can begin to analyze the data.
 
-## <a name="Step2"></a> Step 2: Analyze CPU usage data
+## Step 2: Analyze CPU usage data
 
 We recommend that you begin analyzing your data by examining the list of functions under CPU Usage, identifying the functions that are doing the most work, and then taking a closer look at each one.
 
@@ -136,9 +138,9 @@ Here is more information on the column values:
 
 - **Modules** The name of the module containing the function, or the number of modules containing the functions in an [External Code] node.
 
-## <a name="BKMK_External_Code"></a>View external code
+## View external code
 
-External code are functions in system and framework components that executed by the code you write. External code include functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Code]** node.
+External code are functions in system and framework components that are executed by the code you write. External code include functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Code]** node.
   
 If you want to view the call paths of external code, choose **Show External Code** from the **Filter view** list and then choose **Apply**.  
   
@@ -149,10 +151,11 @@ Be aware that many external code call chains are deeply nested, so that the widt
 Use the search box to find a node that you are looking for, then use the horizontal scroll bar to bring the data into view.
 
 > [!TIP]
-> If you profile external code that calls Windows functions, you should make sure that you have the most current .pdb files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [Specify Symbol (.pdb) and Source Files in the Debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
-  
-## See Also  
- [Memory Usage](../profiling/memory-usage.md)  
- [CPU Usage](../profiling/cpu-usage.md)  
- [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling Feature Tour](../profiling/profiling-feature-tour.md)
+> If you profile external code that calls Windows functions, you should make sure that you have the most current .*pdb* files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [Specify symbol (.*pdb*) and source files in the debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
+
+## Next steps
+
+In this tutorial, you've learned how to collect and analyze CPU usage data. If you already completed the [tour of the profiler](../profiling/profiling-feature-tour.md), you may want to get a quick look at how to analyze memory usage in your apps.
+
+> [!div class="nextstepaction"]
+> [Analyze memory usage](../profiling/memory-usage.md) 

@@ -2,12 +2,8 @@
 title: "How to: Manage Updates for a ClickOnce Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 f1_keywords: 
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.Update"
 dev_langs: 
@@ -20,10 +16,9 @@ helpviewer_keywords:
   - "updating data, ClickOnce"
   - "application updates"
 ms.assetid: a3f23f05-e7f1-4620-b23c-2d68f9643684
-caps.latest.revision: 13
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

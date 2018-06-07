@@ -1,20 +1,23 @@
 ---
-title: "Creating Legacy Workflow Projects | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-helpviewer_keywords: 
+title: "Workflow Designer - Creating Legacy Workflow Projects"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+helpviewer_keywords:
   - "workflow projects, creating"
   - "projects, workflow"
   - "workflows, creating projects"
 ms.assetid: 572d5c32-59ef-49d8-a24c-e180fe9f7a11
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Creating Legacy Workflow Projects
-This section describes how to create workflow projects using the legacy Windows Workflow Designer provided by vs2010. The legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] targets the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)]. It includes information about how to use the workflow project templates that are listed in the following table.
+
+This section describes how to create workflow projects using the legacy Windows Workflow Designer provided by Visual Studio 2010. The legacy Workflow Designer targets the .NET Framework version 3.5 or the WinFX. It includes information about how to use the workflow project templates that are listed in the following table.
 
 |Project Template|Description|
 |----------------------|-----------------|
@@ -24,25 +27,6 @@ This section describes how to create workflow projects using the legacy Windows 
 |State Machine Workflow Console Application|A project for creating a state machine workflow console application.|
 |State Machine Workflow Library|A project for creating a state machine workflow library.|
 |Empty Workflow Project|An empty project for creating a workflow application.|
-
-## In This Section
- [How to: Create Workflow Projects (Legacy)](../workflow-designer/how-to-create-workflow-projects-legacy.md)
-
- [How to: Create Sequential Workflow Console Applications (Legacy)](../workflow-designer/how-to-create-sequential-workflow-console-applications-legacy.md)
-
- [How to: Create a Sequential Workflow Library (Legacy)](../workflow-designer/how-to-create-a-sequential-workflow-library-legacy.md)
-
- [How to: Create a Workflow Activity Library (Legacy)](../workflow-designer/how-to-create-a-workflow-activity-library-legacy.md)
-
- [How to: Create State Machine Workflow Console Applications (Legacy)](../workflow-designer/how-to-create-state-machine-workflow-console-applications-legacy.md)
-
- [How to: Create a State Machine Workflow Library (Legacy)](../workflow-designer/how-to-create-a-state-machine-workflow-library-legacy.md)
-
- [How to: Create an Empty Workflow Project (Legacy)](../workflow-designer/how-to-create-an-empty-workflow-project-legacy.md)
-
- [How to: Configure Workflow Project Properties (Legacy)](../workflow-designer/how-to-configure-workflow-project-properties-legacy.md)
-
- [How to: Add a New Item to a Workflow Project (Legacy)](../workflow-designer/how-to-add-a-new-item-to-a-workflow-project-legacy.md)
 
 ## See also
 

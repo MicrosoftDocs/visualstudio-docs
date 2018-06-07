@@ -2,12 +2,9 @@
 title: "How to: Localize ASPX Markup | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -18,7 +15,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, localizing"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -50,13 +47,13 @@ ms.workload:
   
 6.  In the [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] markup for the ASPX page or control, replace the hard-coded strings with values that use the following format:  
   
-    ```  
+    ```aspx-csharp  
     <%$Resources:Resource File Name, String ID%>  
     ```  
   
      For example, to localize the text for a label control on an application page, you would change:  
   
-    ```  
+    ```aspx-csharp  
     <asp:Content ID="Main" ContentPlaceHolderID="PlaceHolderMain" runat="server">  
     <asp:Label ID="lbl" runat="server" Text="Label text"></asp:Label>  
     </asp:Content>  
@@ -64,7 +61,7 @@ ms.workload:
   
      to  
   
-    ```  
+    ```aspx-csharp  
     <asp:Content ID="Main" ContentPlaceHolderID="PlaceHolderMain" runat="server">  
     <asp:Label ID="lbl" runat="server" Text="<%$Resources:MyAppResources,String1%>"></asp:Label>  
     </asp:Content>  

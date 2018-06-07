@@ -2,12 +2,9 @@
 title: "How to: Create a SharePoint Solution Package by Using MSBuild Tasks | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,7 +14,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packages"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -34,13 +31,13 @@ ms.workload:
   
 3.  Enter the following command to create a package for the project. Replace *ProjectFileName* with the name of the project.  
   
-    ```  
+    ```cmd  
     msbuild /t:Package ProjectFileName  
     ```  
   
      For example, you could run one of the following commands to package a SharePoint project called ListDefinition1.  
   
-    ```  
+    ```cmd  
     msbuild /t:Package ListDefinition1.vbproj  
     msbuild /t:Package ListDefinition1.csproj  
     ```  
@@ -55,13 +52,13 @@ ms.workload:
   
 3.  Enter the following command to clean a package for the project. Replace *ProjectFileName* with the name of the project.  
   
-    ```  
+    ```cmd  
     msbuild /t:CleanPackage ProjectFileName  
     ```  
   
      For example, you could run one of the following commands to clean a SharePoint project called ListDefinition1.  
   
-    ```  
+    ```cmd  
     msbuild /t:CleanPackage ListDefinition1.vbproj  
     msbuild /t:CleanPackage ListDefinition1.csproj  
     ```  
@@ -76,13 +73,13 @@ ms.workload:
   
 3.  Enter the following command to validate a package for the project. Replace *ProjectFileName* with the name of the project.  
   
-    ```  
+    ```cmd  
     msbuild /t:ValidatePackage ProjectFileName  
     ```  
   
      For example, you could run one of the following commands to validate a SharePoint project called ListDefinition1.  
   
-    ```  
+    ```cmd  
     msbuild /t:ValidatePackage ListDefinition1.vbproj  
     msbuild /t:ValidatePackage ListDefinition1.csproj  
     ```  
@@ -97,13 +94,13 @@ ms.workload:
   
 3.  Enter the following command to set a property in a package for the project. Replace *PropertyName* with the property that you want to set.  
   
-    ```  
+    ```cmd  
     msbuild /property:PropertyName=Value  
     ```  
   
      For example, you could run the following command to set the warning level.  
   
-    ```  
+    ```cmd  
     msbuild /property:WarningLevel = 2  
     ```  
   

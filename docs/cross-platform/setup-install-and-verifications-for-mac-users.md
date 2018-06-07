@@ -2,10 +2,7 @@
 title: "Setup, install, and verifications for Mac users | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/13/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 22725520-59ba-4f6f-80e4-097b1287a34b
 ms.technology: vs-ide-mobile
 author: asb3993

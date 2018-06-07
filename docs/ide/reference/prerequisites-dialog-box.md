@@ -1,20 +1,16 @@
 ---
-title: "Prerequisites Dialog Box | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/18/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Prerequisites Dialog Box
+ms.date: 01/18/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
   - "Microsoft.VisualStudio.Publish.BaseProvider.Dialog.Bootstrapper"
 helpviewer_keywords:
   - "Prerequisites dialog box"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---

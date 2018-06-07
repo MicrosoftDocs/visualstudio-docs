@@ -2,21 +2,17 @@
 title: "IDebugProcess2::GetProcessId | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess2::GetProcessId"
 helpviewer_keywords: 
   - "IDebugProcess2::GetProcessId"
 ms.assetid: d5b6f03c-d49d-4b83-b072-016ac3124f5f
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

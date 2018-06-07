@@ -1,13 +1,14 @@
 ---
-title: "Visual Studio testing tools | Microsoft Docs"
+title: "Visual Studio testing tools"
 ms.date: 03/16/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "testing tools [Visual Studio]"
   - "unit tests [Visual Studio]"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 author: gewarren

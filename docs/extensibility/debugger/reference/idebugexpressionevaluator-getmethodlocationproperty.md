@@ -2,21 +2,17 @@
 title: "IDebugExpressionEvaluator::GetMethodLocationProperty | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugExpressionEvaluator::GetMethodLocationProperty"
 helpviewer_keywords: 
   - "IDebugExpressionEvaluator::GetMethodLocationProperty method"
 ms.assetid: 52c42a2e-f144-476b-8bef-442464c8fe8e
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

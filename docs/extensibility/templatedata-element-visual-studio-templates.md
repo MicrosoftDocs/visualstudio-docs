@@ -2,21 +2,17 @@
 title: "TemplateData Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#TemplateData"
 helpviewer_keywords: 
   - "TemplateData element [Visual Studio project templates]"
 ms.assetid: db17ec9b-bfdf-46b1-bbe7-5ccc140056e2
-caps.latest.revision: 24
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

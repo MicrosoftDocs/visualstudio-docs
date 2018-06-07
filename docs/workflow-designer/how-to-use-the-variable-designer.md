@@ -1,24 +1,27 @@
 ---
-title: "How to: Use the Variable Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - How to: Use the Variable Designer"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Activities.Presentation.View.DesignTimeVariable.UI"
 ms.assetid: 0318dfb0-bf8f-4f92-9b86-ae4c1b2161ad
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # How to: Use the Variable Designer
+
 The variable designer is used to create variables for use in data-binding scenarios and conditional statements. The designer is accessed by clicking the **Variables** button in the lower-left corner of the design canvas. The designer contains a list of variables that appear in a tabular form and can be sorted by each of the column headers, except for the **Default** column. Each variable contains a name, variable type, scope, and default value (if any). The name and default value are editable text fields, and the type and scope are drop-downs. The scope is the activity that was selected when the variable designer was invoked. If a variable cannot be created within the scope of the selection, then the scope will default to the nearest ancestor activity of the selection that allows for variables to be created in its scope. For more information, see [Variables and arguments (.NET)](/dotnet/framework/windows-workflow-foundation/variables-and-arguments).
 
  The sort order is not applied until the user explicitly uses one of the sorting controls, closes and reopens the variable designer, or creates another variable.
 
-### To create a new variable
+## To create a new variable
 
-1.  Open a workflow or activity solution in [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)].
+1.  Open a workflow or activity solution in Visual Studio.
 
 2.  On the design canvas, select an activity in your workflow.
 

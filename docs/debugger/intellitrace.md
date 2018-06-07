@@ -2,12 +2,8 @@
 title: "IntelliTrace | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/18/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.historicaldebug.overview"
 helpviewer_keywords: 
@@ -23,7 +19,7 @@ helpviewer_keywords:
   - "IntelliTrace, debugging after a crash"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

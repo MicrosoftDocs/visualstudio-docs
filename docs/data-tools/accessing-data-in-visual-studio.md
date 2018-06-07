@@ -1,28 +1,33 @@
 ---
-title: Accessing data in Visual Studio | Microsoft Docs
-ms.date: "11/04/2016"
-ms.topic: "article"
+title: Data access and tools
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "80025080"
+ - "80025080"
 helpviewer_keywords:
-  - "data [Visual Studio]"
-  - "data access [Visual Studio]"
-  - "data [C#]"
-  - "ADO.NET, data access"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.technology: "vs-data-tools"
+ - "data [Visual Studio]"
+ - "data access [Visual Studio]"
+ - "data [C#]"
+ - "ADO.NET, data access"
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.prod: visual-studio-dev15
+ms.technology: vs-data-tools
 ms.workload:
-  - "data-storage"
+ - "data-storage"
 ---
-# Accessing data in Visual Studio
+# Access data in Visual Studio
 
 In Visual Studio, you can create applications that connect to data in virtually any database product or service, in any format, anywhere—on a local machine, on a local area network, or in a public, private, or hybrid cloud.
 
 For applications in JavaScript, Python, PHP, Ruby, or C++, you connect to data like you do anything else, by obtaining libraries and writing code. For .NET applications, Visual Studio provides tools that you can use to explore data sources, create object models to store and manipulate data in memory, and bind data to the user interface. Microsoft Azure provides SDKs for .NET, Java, Node.js, PHP, Python, Ruby, and mobile apps, and tools in Visual Studio for connecting to Azure Storage.
 
-The following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store.  [Azure Tools for Visual Studio](https://www.visualstudio.com/features/azure-tools-vs.aspx) is an optional component that enables you to work with Azure data stores directly from Visual Studio. Most of the other SQL and NoSQL database products that are listed here can be hosted on a local machine, on a local network, or in Microsoft Azure on a virtual machine. In this scenario, you are responsible for managing the database itself.
+The following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) enables you to work with Azure data stores directly from Visual Studio.
+
+![Azure development workload](media/azure-development-workload.png)
+
+Most of the other SQL and NoSQL database products that are listed here can be hosted on a local machine, on a local network, or in Microsoft Azure on a virtual machine. If you host the database in a Microsoft Azure virtual machine, you're responsible for managing the database itself.
 
 **Microsoft Azure**
 
@@ -37,7 +42,7 @@ And more...
 
 ||||
 |-|-|-|
-|SQL Server 2005-2016,  including Express and LocalDB|Firebird|MariaDB|
+|SQL Server 2005-2016, including Express and LocalDB|Firebird|MariaDB|
 |MySQL|Oracle|PostgreSQL|
 |SQLite|||
 
@@ -62,7 +67,7 @@ Many database vendors and third parties support Visual Studio integration by NuG
 
 All .NET data access, including in .NET Core, is based on ADO.NET, a set of classes that defines an interface for accessing any kind of data source, both relational and non-relational. Visual Studio has several tools and designers that work with ADO.NET to help you connect to databases, manipulate the data, and present the data to the user. The documentation in this section describes how to use those tools. You can also program directly against the ADO.NET command objects. For more information about calling the ADO.NET APIs directly, see [ADO.NET](/dotnet/framework/data/adonet/index).
 
-For data-access documentation specifically related to ASP.NET, see [Working with Data](http://www.asp.net/web-forms/overview/presenting-and-managing-data) on the ASP.NET site. For a tutorial on using Entity Framework with ASP.NET MVC, see [Getting Started with Entity Framework 6 Code First using MVC 5](/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application).
+For data-access documentation related to ASP.NET, see [Working with Data](http://www.asp.net/web-forms/overview/presenting-and-managing-data) on the ASP.NET site. For a tutorial on using Entity Framework with ASP.NET MVC, see [Getting Started with Entity Framework 6 Code First using MVC 5](/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application).
 
 Universal Windows Platform (UWP) apps in C# or Visual Basic can use the Microsoft Azure SDK for .NET to access Azure Storage and other Azure services. The Windows.Web.HttpClient class enables communication with any RESTful service. For more information, see [How to connect to an HTTP server using Windows.Web.Http](https://msdn.microsoft.com/library/windows/apps/dn469430.aspx).
 
@@ -107,7 +112,7 @@ To learn more about connecting to databases from C++ apps, see [Visual Studio da
 
 ## Python
 
-Install [Python support in Visual Studio](../python/python-in-visual-studio.md) to create Python applications. The Azure documentation has several tutorials on connecting to data, including the following:
+Install [Python support in Visual Studio](../python/overview-of-python-tools-for-visual-studio.md) to create Python applications. The Azure documentation has several tutorials on connecting to data, including the following:
 
 - [Django and SQL Database on Azure](/azure/app-service/app-service-web-get-started-python)
 - [Django and MySQL on Azure](/azure/app-service-web/web-sites-python-ptvs-django-mysql)

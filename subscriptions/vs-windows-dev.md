@@ -1,49 +1,21 @@
 ---
 title:  Windows Developer Account Benefit in Visual Studio Subscriptions | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 1/12/2018
-Ms.topic: Get-Started-Article
-Description:  Learn about the Windows Developer Account included with your Visual Studio subscription.  
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 01/12/2018
+ms.topic: Get-Started-Article
+description:  Learn about the Windows Developer Account included with your Visual Studio subscription.  
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-#  Windows Developer Account in Visual Studio Subscriptions
-
-## Overview
+#  Windows Developer account in Visual Studio subscriptions
 
 Your Windows Developer Account, included with selected Visual Studio subscriptoins, lets you submit free and paid Windows apps to the Windows Store.     
 
-## Eligibility
-| Subscription Level / Program                                                  | Benefit               | Renewable?                                                         |
-|-------------------------------------------------------------------------------|-----------------------|--------------------------------------------------------------------|
-| Visual Studio Enterprise Standard                                             | Included              |  Yes                                                               |
-| Visual Studio Enterprise annual                                               | Included              |  Yes                                                               |
-| Visual Studio Enterprise monthly                                              | Not available         |                                                                    |
-| Visual Studio Professional Standard                                           | Included              |  Yes                                                               |
-| Visual Studio Professional annual                                             | Included              |  Yes                                                               | 
-| Visual Studio Professional monthly                                            | Not available         |                                                                    |
-| Visual Studio Test Pro                                                        | Not available         |                                                                    |
-| MSDN Platforms                                                                | Not available         |                                                                    |
-| Visual Studio Dev Essentials                                                  | Not available         |                                                                    |
-| Visual Studio Enterprise - NFR<sup>1</sup>                                               | Included              |  Yes                                                               |
-| Visual Studio Enterprise - FTE                                                | Included              |  Yes                                                               |
-| Visual Studio Enterprise - Microsoft Partner Network                          | Not available         |                                                                    |
-| Visual Studio Professional - Microsoft Partner Network                        | Not available         |                                                                    |
-| Visual Studio Enterprise – Imagine (Standard)                                 | Not available         |                                                                    |
-| Visual Studio Enterprise – Imagine (Premium)                                  | Not available         |                                                                    |
-| Visual Studio Enterprise – BizSpark                                           | Included              |  Yes                                                               |
-| Microsoft Certified Trainer - Software & Services                             | Not available         |                                                                    |
-| Microsoft Certified Trainer - Software & Services Developer                   | Included              |  Yes                                                               |
-
-<sup>1</sup>  *Includes Not for Resale (NFR), Microsoft Valued Partner (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP)*  
-
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
-
-## Activation Steps
+## Activation steps
 
 To use your Windows Developer Account, you’ll need to set up an account or sign in using an existing account.
 
@@ -59,7 +31,6 @@ We recommend that you create a "private" browser window for this process.  For e
 
     ![Windows Developer Benefit Registration](_img\vs-windows-dev\vs-windows-dev-register1-cropped.png)
 
-
 3.	Sign in to your subscription.  If you have multiple accounts, choose the one associated with your Enterprise subscription. 
 4.	On the next page, select the country or region where you live or where your business is located, and then click **Next**. 
 5.	Select **Individual** as your account type.  
@@ -70,14 +41,26 @@ We recommend that you create a "private" browser window for this process.  For e
 
     ![Windows Developer Benefit Registration](_img\vs-windows-dev\vs-windows-dev-promo-cropped.png)
 
-
 10.	Review your account information, review the App Developer Agreement, and click the checkbox to indicate your acceptance of the terms and conditions.  Then click **Finish**. 
 11. Click **Go to dashboard** to begin using your Windows Developer Account!
 
-## FAQ
-*Check here for updates*
+## Eligibility
+| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
+|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
+| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Included       |  Yes|
+| Visual Studio Professional (Standard, annual cloud) | VL, Azure, Retail                                       | Included                                                            |Yes|
+| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                            |  NA|
+| MSDN Platforms (Standard)                                          | VL, Retail                                              |  Not available                                            |  NA|
+| Visual Studio Dev Essentials | NA  | Not available                                            |  NA|
+| Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
-## Support Resources
+<sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer.  
+Excludes:  Microsoft Partner Network (MPN), Imagine, Microsoft Valued Partner (MVP), Region Director (RD), MCT Software & Services.*
+
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
+
+
+## Support resources
 -  Need help with using your Windows Developer account?  Check out the [support](https://developer.microsoft.com/windows/support) resources on the [Windows Dev Center](https://developer.microsoft.com/windows).
 -  [Windows Development](/windows/)
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).

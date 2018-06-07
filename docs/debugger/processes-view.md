@@ -2,21 +2,16 @@
 title: "Processes View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.externaltools.spyplus.processesview"
 helpviewer_keywords: 
   - "Processes view"
 ms.assetid: e144e70e-eef2-45a7-a562-a177f177d9a1
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,20 +2,16 @@
 title: "Statement Completion in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "statement completion"
   - "language services, statement completion"
 ms.assetid: 617439dc-3f0e-4e5f-b346-3e4e7fcf3c1b
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

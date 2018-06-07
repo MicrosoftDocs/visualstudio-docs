@@ -2,21 +2,17 @@
 title: "How to: Build the Same Source Files with Different Options | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "source files, building with different options"
   - "MSBuild, properties"
   - "project properties, modifying"
   - "Hello World example [Visual Studio]"
 ms.assetid: d14f1212-ddd9-434f-b138-f840011b0fb2
-caps.latest.revision: 20
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

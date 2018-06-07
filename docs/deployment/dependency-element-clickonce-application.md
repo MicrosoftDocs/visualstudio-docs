@@ -2,12 +2,8 @@
 title: "&lt;dependency&gt; Element (ClickOnce Application) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "reference"
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#osVersionInfo"
   - "urn:schemas-microsoft-com:asm.v2#os"
@@ -27,10 +23,9 @@ helpviewer_keywords:
   - "manifests [ClickOnce], dependency element"
   - "<dependency> element [ClickOnce application manifest]"
 ms.assetid: 09d6a1e0-60f8-4fbd-843b-8e49ee3115a3
-caps.latest.revision: 34
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -39,7 +34,7 @@ Identifies a platform or assembly dependency that is required for the applicatio
   
 ## Syntax  
   
-```  
+```xml  
   
       <dependency>  
    <dependentOS  
@@ -173,7 +168,7 @@ Identifies a platform or assembly dependency that is required for the applicatio
 ## Example  
  The following code example illustrates `dependency` elements in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. This code example is part of a larger example provided for the [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md) topic.  
   
-```  
+```xml  
 <dependency>  
   <dependentOS>  
     <osVersionInfo>  

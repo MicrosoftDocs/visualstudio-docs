@@ -1,13 +1,14 @@
 ---
-title: "Create a Custom HTTP Body Editor for the Web Performance Test Editor in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Create a Custom HTTP Body Editor for the Web Performance Test Editor in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "Web performance tests, custom HTTP body editor"
 ms.assetid: a0b2d8ff-3e2a-487e-9172-90047174f336
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Create a Custom HTTP Body Editor for the Web Performance Test Editor
@@ -46,7 +47,7 @@ These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.Web
 
 5.  From the **Toolbox**, under the **Common Controls** category, drag a <xref:System.Windows.Forms.RichTextBox> onto the surface of UserControl1.
 
-6.  Choose the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif "VS_WinFormSmtTagGlyph")) on the upper-right corner of the <xref:System.Windows.Forms.RichTextBox> control, and then select and **Dock in Parent Container**.
+6.  Choose the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif)) on the upper-right corner of the <xref:System.Windows.Forms.RichTextBox> control, and then select and **Dock in Parent Container**.
 
 7.  In Solution Explorer, right-click the Windows Forms Library project and select **Properties**.
 

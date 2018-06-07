@@ -1,10 +1,9 @@
 ---
-title: "Compiling and Building in Visual Studio for Mac | Microsoft Docs"
-description: 
+title: "Compiling and Building"
+description: "This article describes how to compile and build projects and solutions in Visual Studio for Mac"
 author: asb3993
 ms.author: amburns
-ms.date: 04/14/2017
-ms.topic: article
+ms.date: 05/06/2018
 ms.assetid: FB253757-DB00-4889-A6BF-E44722E25BD1
 ---
 
@@ -18,7 +17,7 @@ Using Visual Studio for Mac lets you create and run builds instantly, while stil
 
 All Projects and Solutions created in the IDE will have a default build configuration, which define the context for builds. These configurations can be edited or you can create your own. Creating or modifying these configurations will automatically update the project file, which is then used by MSBuild to build your project.  
 
-For more information regarding how to build projects and solutions in the IDE, see the [Building and cleaning Projects and Solutions](~/building-and-cleaning-projects-and-solutions.md) guide.
+For more information regarding how to build projects and solutions in the IDE, see the [Building and cleaning Projects and Solutions](building-and-cleaning-projects-and-solutions.md) guide.
 
 Visual Studio for Mac can also be used to do the following:
 

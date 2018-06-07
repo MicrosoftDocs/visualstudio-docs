@@ -2,19 +2,14 @@
 title: "How to: Debug .NET Framework Source | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/23/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugging, .NET Framework source"
 ms.assetid: fc12e472-ac6a-4e77-8e22-a769e13a03b8
-caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

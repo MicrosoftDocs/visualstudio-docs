@@ -2,20 +2,16 @@
 title: "Key Expression Evaluator Interfaces | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugging [Debugging SDK], expression evaluation"
   - "expression evaluation, interfaces"
 ms.assetid: 1cac9aa3-0867-4e12-a16e-1e90abbc0fb6
-caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

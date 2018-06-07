@@ -1,25 +1,28 @@
 ---
-title: "Themes, Workflow Designer, Options Dialog Box (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - Themes, Workflow Designer, Options Dialog Box (Legacy)"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "VS.ToolsOptionsPages.WorkflowDesigner.Themes"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Options dialog box, workflow themes"
   - "themes, options"
 ms.assetid: 71150631-4674-4568-bce8-570bef3780ad
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Themes, Workflow Designer, Options Dialog Box (Legacy)
-This topic describes how use the **Themes, Workflow Designer, Options** dialog box in the legacy Windows Workflow Designer. Use the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] when you need to target either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].
 
- A theme defines the background and foreground colors, styles, icons, and other visual elements of a workflow. You can save themes for reuse by other workflows. You can select default and saved custom themes using the **Themes, Workflow Designer, Options** dialog box. To open this dialog box, click **Select Custom Theme** on the **Workflow** menu. Or, right-click the workflow design surface and click **Select Custom Theme**.
+This topic describes how use the **Themes, Workflow Designer, Options** dialog box in the legacy Windows Workflow Designer. Use the legacy Workflow Designer when you need to target either the .NET Framework version 3.5 or the WinFX.
 
- The following table describes the user interface (UI) elements of the **Themes, Workflow Designer, Options** dialog box.
+A theme defines the background and foreground colors, styles, icons, and other visual elements of a workflow. You can save themes for reuse by other workflows. You can select default and saved custom themes using the **Themes, Workflow Designer, Options** dialog box. To open this dialog box, click **Select Custom Theme** on the **Workflow** menu. Or, right-click the workflow design surface and click **Select Custom Theme**.
+
+The following table describes the user interface (UI) elements of the **Themes, Workflow Designer, Options** dialog box.
 
 |UI Element|Description|
 |----------------|-----------------|

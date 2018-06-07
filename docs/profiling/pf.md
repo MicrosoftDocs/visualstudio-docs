@@ -2,17 +2,12 @@
 title: "PF | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: cdc0a094-a986-4629-bd1c-dd5fdca323dc
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -20,9 +15,9 @@ ms.workload:
 The VSPerfCmd.exe **PF** option sets the profiling event that is sampled to page faults, and it optionally changes the number of page faults in a sampling interval from the default of 10.  
   
 > [!NOTE]
->  PF can not be used on 64 bit systems.  
+>  **PF** cannot be used on 64-bit systems.  
   
- **Note PF** is not supported on 64 bit computers.**PF** can only be used in a command line that also contains the **Launch** or the **Attach** option.  
+**PF** can only be used in a command line that also contains the **Launch** or the **Attach** option.  
   
  By default, the sampling event is set to non-halted processor clock cycles and the sampling interval is set to 10,000,000. The **Timer**, **PF**, **Sys**, and **Counter** options enable you to set the sample event and sampling interval. The **GC** option collects .NET memory data at each allocation and garbage collection event. Only one of these options can be specified on a command line.  
   
@@ -30,7 +25,7 @@ The VSPerfCmd.exe **PF** option sets the profiling event that is sampled to page
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe {/Launch:AppName|/Attach:PID} /PF[:Events] [Options]  
 ```  
   
@@ -65,7 +60,7 @@ VSPerfCmd.exe {/Launch:AppName|/Attach:PID} /PF[:Events] [Options]
 ## Example  
  This example demonstrates how to set the profiling sample event to page faults and set the sampling interval to 20 page faults.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe /PF:20  
 ```  

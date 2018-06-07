@@ -2,21 +2,17 @@
 title: "Dynamically Adding Menu Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "DYNAMICITEMSTART"
   - "menu items, adding dynamically"
   - "menus, adding dynamic items"
 ms.assetid: d281e9c9-b289-4d64-8d0a-094bac6c333c
-caps.latest.revision: 37
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

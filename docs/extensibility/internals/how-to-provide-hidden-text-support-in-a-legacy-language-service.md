@@ -2,21 +2,17 @@
 title: "How to: Provide Hidden Text Support in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "hidden text, supporting"
   - "editors [Visual Studio SDK], hidden text"
   - "language services, implementing hidden text regions"
 ms.assetid: 1c1dce9f-bbe2-4fc3-a736-5f78a237f4cc
-caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

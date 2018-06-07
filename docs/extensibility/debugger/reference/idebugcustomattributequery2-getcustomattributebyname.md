@@ -2,21 +2,17 @@
 title: "IDebugCustomAttributeQuery2::GetCustomAttributeByName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCustomAttributeQuery2::GetCustomAttributeByName"
 helpviewer_keywords: 
   - "IDebugCustomAttributeQuery2::GetCustomAttributeByName"
 ms.assetid: 7428dfeb-8929-41b2-9b99-cb343a86c02d
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

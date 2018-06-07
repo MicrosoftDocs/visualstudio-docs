@@ -1,10 +1,9 @@
 ---
-title: "Uninstalling Visual Studio for Mac | Microsoft Docs"
+title: "Uninstalling Visual Studio for Mac"
 description: "Instructions for uninstalling Visual Studio for Mac and related tools."
 author: asb3993
 ms.author: amburns
-ms.date: 04/14/2017
-ms.topic: article
+ms.date: 05/06/2018
 ms.technology: vs-ide-install
 ms.assetid: 4EB95F75-BC2E-4982-9564-2975805712D8
 ---
@@ -161,7 +160,7 @@ For older versions, you need to manually remove the following artifacts:
 * Delete the add-ins: `"~/Library/Application Support/XamarinStudio-6.0/LocalInstall/Addins/Xamarin.Interactive"` and `"~/Library/Application Support/XamarinStudio-6.0/LocalInstall/Addins/Xamarin.Inspector"`
 * Delete Inspector and supporting files here: `/Library/Frameworks/Xamarin.Interactive.framework` and `/Library/Frameworks/Xamarin.Inspector.framework`
 
-# Uninstall the Xamarin Profiler
+## Uninstall the Xamarin Profiler
 
 ```bash
 sudo rm -rf "/Applications/Xamarin Profiler.app"

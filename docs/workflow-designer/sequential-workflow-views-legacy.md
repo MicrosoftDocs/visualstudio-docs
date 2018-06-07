@@ -1,25 +1,28 @@
 ---
-title: "Sequential Workflow Views (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-helpviewer_keywords: 
+title: "Workflow Designer - Sequential Workflow Views (Legacy)"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+helpviewer_keywords:
   - "sequential workflow views"
   - "sequential workflows, views"
 ms.assetid: 135f24b9-1b37-442b-9ef8-f0f2108a3212
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Sequential Workflow Views (Legacy)
-[!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] provides a legacy Windows Workflow Designer that can be used to target the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].
 
- The [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] provides a way to graphically create [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications using the familiar [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] user interface. [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications are composed of workflow process steps called activities. To create a workflow, compose activities on the design surface by dragging their respective activity designers from **Toolbox** onto the design surface.
+Visual Studio 2010 provides a legacy Windows Workflow Designer that can be used to target the .NET Framework version 3.5 or the WinFX.
 
- When you create a sequential workflow, which is a [SequentialWorkflowActivity](http://go.microsoft.com/fwlink?LinkID=65040), three views of the workflow are available. These views are accessible from the **Workflow** menu and from the context menu on the design surface.
+The Workflow Designer provides a way to graphically create Windows Workflow Foundation (WF) applications using the familiar Visual Studio user interface. Windows Workflow Foundation (WF) applications are composed of workflow process steps called activities. To create a workflow, compose activities on the design surface by dragging their respective activity designers from **Toolbox** onto the design surface.
 
- The following table lists the name and description of each view.
+When you create a sequential workflow, which is a [SequentialWorkflowActivity](http://go.microsoft.com/fwlink?LinkID=65040), three views of the workflow are available. These views are accessible from the **Workflow** menu and from the context menu on the design surface.
+
+The following table lists the name and description of each view.
 
 |Menu/Tab Option|Description|
 |----------------------|-----------------|

@@ -2,20 +2,16 @@
 title: "Command Routing in VSPackages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "commands, routing"
   - "command routing, Visual Studio SDK"
 ms.assetid: a9c7f9ae-3594-4557-a314-8cf76f5f8772
-caps.latest.revision: 24
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

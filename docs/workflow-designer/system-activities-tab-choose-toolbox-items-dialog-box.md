@@ -1,19 +1,22 @@
 ---
-title: "System.Activities Tab, Choose Toolbox Items Dialog Box | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - System.Activities Tab, Choose Toolbox Items Dialog Box"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "VS.CHOOSEITEMS.SYSTEM.ACTIVITIES_COMPONENTS"
   - "VS.CHOOSEITEMS.SYSTEM.ACTIVITIES COMPONENTS"
 ms.assetid: cef390cd-eeda-42e6-9d2e-18c8325a4f06
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # System.Activities Tab, Choose Toolbox Items Dialog Box
-This tab of the **Choose Toolbox Items** dialog box displays a list of [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] activities, templates and items available to you. To display this list, select **Choose Toolbox Items** from the **Tools** menu or by right-clicking the **Toolbox** and selecting **Choose Items** to display the **Choose Toolbox Items** dialog box, and then select its **System.Activities** tab. Out of the box, the list contains workflow activities from System.Activities, System.ServiceModel.Activities, and System.Activities.Core.Presentation assemblies; however, only the system-provided activities shown and activities added through other assemblies displayed in the **Toolbox** are checked by default. Recently added activities are automatically checked and appear in the **Toolbox** when you click **OK** on the dialog box. Also, these items appear in the **Toolbox** under a new category that corresponds to the namespace where the activity/item/template resides.
+
+This tab of the **Choose Toolbox Items** dialog box displays a list of Windows Workflow Foundation (WF) activities, templates and items available to you. To display this list, select **Choose Toolbox Items** from the **Tools** menu or by right-clicking the **Toolbox** and selecting **Choose Items** to display the **Choose Toolbox Items** dialog box, and then select its **System.Activities** tab. Out of the box, the list contains workflow activities from System.Activities, System.ServiceModel.Activities, and System.Activities.Core.Presentation assemblies; however, only the system-provided activities shown and activities added through other assemblies displayed in the **Toolbox** are checked by default. Recently added activities are automatically checked and appear in the **Toolbox** when you click **OK** on the dialog box. Also, these items appear in the **Toolbox** under a new category that corresponds to the namespace where the activity/item/template resides.
 
 > [!WARNING]
 > If you try to add an assembly that does not contain any workflow activities, an error dialog is displayed that explains that the assembly does not contain any activities.
@@ -31,15 +34,19 @@ This tab of the **Choose Toolbox Items** dialog box displays a list of [!INCLUDE
  The columns in this dialog box contain the following information:
 
  Name
+
  Lists the names of the workflow activities currently registered on your local machine.
 
  Namespace
+
  Displays the hierarchy of the .NET Framework Class Library namespace that defines the structure of the activity.
 
  Assembly Name
+
  Displays the name and version of the .NET Framework assembly that contains the activity.
 
  Directory
+
  Displays the location of the .NET Framework assembly that contains the workflow activities. The default location for all assemblies is the Global Assembly Cache.
 
  To sort the components listed, select any column heading.

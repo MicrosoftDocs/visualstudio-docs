@@ -2,21 +2,17 @@
 title: "IDebugDocument2::GetName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocument2::GetName"
 helpviewer_keywords: 
   - "IDebugDocument2::GetName"
 ms.assetid: 6f09ff09-b0cf-4472-8fc8-143991f0ceb1
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

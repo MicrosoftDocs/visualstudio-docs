@@ -2,19 +2,14 @@
 title: "MarkProfile | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MarkProfile"
 ms.assetid: 54dac8c8-c8ee-4023-af27-b25466e3a6ec
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -23,7 +18,7 @@ The `MarkProfile` method inserts a profile mark in the .vsp file. Profiling for 
   
 ## Syntax  
   
-```  
+```cpp  
 PROFILE_COMMAND_STATUS PROFILERAPI MarkProfile( long lMarker );  
 ```  
   
@@ -66,7 +61,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI MarkProfile( long lMarker );
 ## Example  
  The following code illustrates the MarkProfile function.  
   
-```  
+```cpp  
 void ExerciseMarkProfile()  
 {  
     // Declare and initialize variables to pass to   

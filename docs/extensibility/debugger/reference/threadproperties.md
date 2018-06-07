@@ -2,21 +2,17 @@
 title: "THREADPROPERTIES | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "THREADPROPERTIES"
 helpviewer_keywords: 
   - "THREADPROPERTIES structure"
 ms.assetid: 7d397207-db03-4ec0-9f79-3794056ed89f
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

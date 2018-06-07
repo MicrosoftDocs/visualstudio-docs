@@ -1,26 +1,26 @@
 ---
 title: Using Subscriber Downloads on Visuals Studio Subscriptions | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 10/3/2017
-Ms.topic: Get-Started-Article
-Description:  Learn how to locate and download Microsoft products included with your Visual Studio subscription.  
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 10/03/2017
+ms.topic: Get-Started-Article
+description:  Learn how to locate and download Microsoft products included with your Visual Studio subscription.  
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# Using Subscriber Downloads in Visual Studio Subscriptions
+# Using subscriber downloads in Visual Studio subscriptions
 As part of your subscriber benefits, you have access to a wide range of software downloads.  
 You must be signed in to your subscription to access the [Downloads](https://my.visualstudio.com/downloads?wt.mc_id=o~msft~docs) tab. 
 
-## Product Availability
+## Product availability
 In general, all commercial and consumer Microsoft products that are relevant for software development projects are made available to Visual Studio subscribers. With Visual Studio subscriptions, products typically remain available for download long into the future — even after the extended product support period has ended — to enable customers to develop and test legacy applications and transition to newer platforms. There are cases where we are unable to provide certain products to subscribers as outlined below, but we make every effort to minimize these occurrences.
 
 There are several reasons why particular products may not be available to subscribers:
 
-- **The product is not included in your subscription level or program.** [Learn more](https://www.visualstudio.com/vs/pricing/) about the software and benefits available with your subscription or [download the full list](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Products_by_Benefit_Level.xlsx_) of products available by subscription level. Some programs, such as [Microsoft Partner Network](https://partner.microsoft.com/), provide Visual Studio subscriptions as a part of their benefits.  Those subscriptions do not include all products included in purchased Visual Studio subscriptions. Subscribers to these programs should direct questions about availability of product downloads to the support teams for those programs.
+- **The product is not included in your subscription level or program.** [Learn more](https://www.visualstudio.com/vs/pricing/) about the software and benefits available with your subscription or [download the full list](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Products_by_Benefit_Level.xlsx) of products available by subscription level. Some programs, such as [Microsoft Partner Network](https://partner.microsoft.com/), provide Visual Studio subscriptions as a part of their benefits.  Those subscriptions do not include all products included in purchased Visual Studio subscriptions. Subscribers to these programs should direct questions about availability of product downloads to the support teams for those programs.
 - **The product is not included in subscriptions.** Some Microsoft products are not included in subscriptions due to special licensing terms, technical restrictions, or developer relevance. If you would like to suggest a product be added to the subscription, please send email to your Visual Studio [Customer Service Center](https://www.visualstudio.com/subscriptions/support/).
 - **The product is publicly available.** Some tools, SDKs, DDKs, and service packs are publicly available from the [Microsoft Download Center](https://www.microsoft.com/download). Some such products may not be published to Downloads.
 - **The product has not yet released.**  Many pre-release (beta) versions and release candidates are available from Downloads. However, not all betas can be included; for instance, some betas require special registration or eligibility. For more information about open technical beta programs, please visit [Microsoft Connect](http://connect.microsoft.com/).

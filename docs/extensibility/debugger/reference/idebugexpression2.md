@@ -2,21 +2,17 @@
 title: "IDebugExpression2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugExpression2"
 helpviewer_keywords: 
   - "IDebugExpression2 interface"
 ms.assetid: f5e4b124-1e30-47c8-a511-80084a02dba5
-caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,12 +2,8 @@
 title: "Summary View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.view.summary"
 helpviewer_keywords: 
@@ -16,10 +12,9 @@ helpviewer_keywords:
   - "profiling tools, Summary view"
   - "Summary view"
 ms.assetid: 98a1eb71-bbf5-4ce7-8559-cdc29f082c4b
-caps.latest.revision: 37
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -1,10 +1,9 @@
 ---
-title: Working with Git | Microsoft Docs
+title: Working with Git
 description: Using Git in Visual Studio for Mac.
 author: asb3993
 ms.author: amburns
-ms.date: 04/14/2017
-ms.topic: article
+ms.date: 05/06/2018
 ms.assetid: 852B6A9D-AEFA-4EF4-A5DD-94A506019D20
 ---
 

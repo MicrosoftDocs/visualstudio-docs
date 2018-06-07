@@ -2,12 +2,9 @@
 title: "Converting Between SharePoint Project System Types and Other Visual Studio Project Types | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,18 +12,18 @@ helpviewer_keywords:
   - "SharePoint project service"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Converting Between SharePoint Project System Types and Other Visual Studio Project Types
+# Convert between SharePoint project system types and other Visual Studio project types
   In some cases you might have an object in the SharePoint project system and you want to use features of a corresponding object in the Visual Studio automation object model or integration object model, or vice versa. In these cases, you can use the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService.Convert%2A> method of the SharePoint project service to convert the object to a different object model.  
   
  For example, you might have an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject> object, but you want to use methods that are only available on an <xref:EnvDTE.Project> or <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject> object. In this case, you can use the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService.Convert%2A> method to convert the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject> to an <xref:EnvDTE.Project> or <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject>.  
   
  For more information about the Visual Studio automation object model and the Visual Studio integration object model, see [Overview of the Programming Model of SharePoint Tools Extensions](../sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md).  
   
-## Types of Conversions  
+## Types of conversions
  The following table lists the types that this method can convert between the SharePoint project system and the other Visual Studio object models.  
   
 |SharePoint project system type|Corresponding types in the automation and integration object models|  
@@ -42,13 +39,12 @@ ms.workload:
   
  This example requires:  
   
--   An extension of the SharePoint project system that has a reference to the EnvDTE.dll assembly. For more information, see [Extending the SharePoint Project System](../sharepoint/extending-the-sharepoint-project-system.md).  
+-   An extension of the SharePoint project system that has a reference to the *EnvDTE.dll* assembly. For more information, see [Extending the SharePoint Project System](../sharepoint/extending-the-sharepoint-project-system.md).  
   
 -   Code that registers the `projectService_ProjectAdded` method to handle the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectAdded> event of an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> object. For an example, see [How to: Create a SharePoint Project Extension](../sharepoint/how-to-create-a-sharepoint-project-extension.md).  
   
-## See Also  
+## See also
  [Using the SharePoint Project Service](../sharepoint/using-the-sharepoint-project-service.md)   
  [How to: Retrieve the SharePoint Project Service](../sharepoint/how-to-retrieve-the-sharepoint-project-service.md)   
  [Overview of the Programming Model of SharePoint Tools Extensions](../sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md)  
-  
   

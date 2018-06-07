@@ -2,20 +2,16 @@
 title: "AsyncTaskMethodBuilder&lt;TResult&gt; Structure - Internal Members | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "AsyncTaskMethodBuilder<TResult> structure [.NET Framework debug engines]"
   - "debug engines, AsyncTaskMethodBuilder<TResult> structure [.NET Framework]"
 ms.assetid: 17ebc340-8170-4aff-bf54-dc4548c83632
-caps.latest.revision: 4
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

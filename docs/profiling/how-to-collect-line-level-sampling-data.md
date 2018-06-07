@@ -2,23 +2,18 @@
 title: "How to: Collect Line-Level Sampling Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "performance tools, line-level sampling"
 ms.assetid: 44803aad-dd39-4c2e-9209-d35185d44983
-caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Collect Line-Level Sampling Data
+# How to: Collect line-level sampling data
 Line-level sampling is the ability of the profiler to determine where in the code of a processor-intensive function, such as a function that has high exclusive samples, the processor has to spend most of its time.  
   
 ## Overview  
@@ -28,18 +23,18 @@ Line-level sampling is the ability of the profiler to determine where in the cod
   
  Character begin/end information is not available for native code. For multiline statements, line begin information is not available for native code; only line end information is available.  
   
-### Available Data  
+### Available data  
  Available line-level sampling data includes the following information:  
   
 -   Function name.  
   
 -   Function address.  
   
--   Line begin -line number of the sampled code.  
+-   Lines begin -line number of the sampled code.  
   
 -   Line end - ending source line number. This is generally the same as the "Line begin" data except when a single program statement spans multiple source code lines.  
   
--   Character begin - beginning column of the aggregate sample. This is generally 0 except when a single line contains multiple program statements.  
+-   Characters begin - beginning column of the aggregate sample. This is generally 0 except when a single line contains multiple program statements.  
   
 -   Character end - ending column of the aggregate sample.  
   
@@ -47,8 +42,8 @@ Line-level sampling is the ability of the profiler to determine where in the cod
   
  In **Modules** view, if a function has line-level statistics, the statistics are nested under each function. Additionally, IP-level statistics that are nested under each line are presented.  
   
-### Turn Off Line-level Sampling for Managed Code  
- By default, line-level sampling is turned on. You can turn off line-level data collection for managed code by doing one of the following:  
+### Turn off line-level sampling for managed code  
+ By default, line-level sampling is turned on. You can turn off line-level data collection for managed code by using one of the following commands:  
   
 -   Before profiling, type **VSPerfCLREnv /samplelineoff**. This affects both applications and services.  
   
@@ -56,6 +51,6 @@ Line-level sampling is the ability of the profiler to determine where in the cod
   
 -   When starting an application, type **VSPerfCmd /lineoff \<other arguments>**.  
   
-## See Also  
- [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
- [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)
+## See also  
+ [Configure performance sessions](../profiling/configuring-performance-sessions.md)   
+ [Analyze performance tools data](../profiling/analyzing-performance-tools-data.md)

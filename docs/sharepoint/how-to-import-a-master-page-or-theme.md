@@ -2,12 +2,9 @@
 title: "How to: Import a Master Page or Theme | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,7 +13,7 @@ helpviewer_keywords:
   - "importing items [SharePoint development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -56,7 +53,7 @@ ms.workload:
   
 10. For a master page, replace the existing module markup with the following markup.  
   
-    ```  
+    ```xml  
     <Module Name="[Module Name]" Url="_catalogs/masterpage">  
         <File Path="[Module Name]\[Master Page Name].master"   
           Url="[Master Page Name].master" Type="GhostableInLibrary" />  
@@ -65,7 +62,7 @@ ms.workload:
   
      For a theme, replace the existing module markup with the following markup.  
   
-    ```  
+    ```xml  
     <Module Name="[Module Name]" Url="_catalogs/theme"   
         <File Path="[Module Name]\[Theme Name].thmx" Url="[Theme     
           Name].thmx" Type="GhostableInLibrary" />  

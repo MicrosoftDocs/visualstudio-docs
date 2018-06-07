@@ -1,22 +1,16 @@
 ---
-title: Working with Python in Visual Studio, Step 1, Creating a Project | Microsoft Docs
-description: Step 1 of a core tutorial for working with Python within Visual Studio, outlining the whole tutorial, describing prerequisites, and walking through the process of creating a new Python project.
-ms.custom:
+title: Working with Python Tutorial, Step 1, creating a project
+description: Overview and Step 1 of a core walkthrough of Python capabilities in Visual Studio, including prerequisites and creating a new Python project.
 ms.date: 01/16/2018
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
-ms.topic: "tutorial"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: tutorial
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Working with Python in Visual Studio
@@ -33,9 +27,7 @@ Visual Studio provides first-class language support for Python. This tutorial gu
 - [Step 5: Installing packages and managing Python environments](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)
 - [Step 6: Working with Git](tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md)
 
-## Prerequisites
-
-- Visual Studio 2017 with the Python workload installed. See [Step 0](tutorial-working-with-python-in-visual-studio-step-00-installation.md) for instructions.
+[!INCLUDE[tutorial-prereqs](includes/tutorial-prereqs.md)]
 
 ## Step 1: Create a new Python project
 
@@ -67,11 +59,11 @@ In this tutorial you begin with a simple project containing a single, empty code
 
     (3) Under your project you see source files, in this case only a single `.py` file. Selecting a file displays its properties in the Properties window. Double-clicking a file opens it in whatever way is appropriate for that file.
 
-    (4) Also under the project is the **Python Environments** node. When expanded, you see the available Python interpreters that are available to you. Expand an interpreter node to see the libraries that are installed into that environment (5).
+    (4) Also under the project is the **Python Environments** node. When expanded, you see the Python interpreters that are available to you. Expand an interpreter node to see the libraries that are installed into that environment (5).
 
     Right-click any node or item in Solution Explorer to access a menu of applicable commands. For example, the **Rename** command allows you to change the name of any node or item, including the project and the solution.
 
-## Next steps
+## Next step
 
 > [!div class="nextstepaction"]
 > [Writing and running code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)

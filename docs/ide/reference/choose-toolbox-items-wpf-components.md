@@ -1,21 +1,18 @@
 ---
-title: "Choose Toolbox Items, WPF Components | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/21/2017"
-ms.reviewer: ""
-ms.suite: ""
+title: Choose Toolbox Items, WPF Components
+ms.date: 06/21/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "vs.chooseitems.wpfcomponents"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "WPF Components tab, Choose Toolbox Items dialog box"
   - "Choose Toolbox Items dialog box, WPF Components tab"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Choose Toolbox items, WPF components
@@ -34,16 +31,20 @@ This tab of the **Choose Toolbox Items** dialog box displays a list of Windows P
 
 The columns on the **WPF Components** tab contain the following information:
 
-Name  
+**Name**
+
 Lists the names of WPF controls for which entries exist in your computer's registry.
 
-Namespace  
+**Namespace**
+
 Displays the hierarchy of the [.NET Framework Class API](/dotnet/api/?view=netframework-4.7) namespace that defines the structure of the component. Sort on this column to list the available components within each .NET Framework namespace installed on your computer.
 
-Assembly Name  
+**Assembly Name**
+
 Displays the name of the .NET Framework assembly that includes the namespace for each component. Sort on this column to list the namespaces contained in each .NET Framework assembly installed on your computer.
 
-Directory  
+**Directory**
+
 Displays the location of the .NET Framework assembly. The default location for all assemblies is the Global Assembly Cache. For further information on the Global Assembly Cache, see [Working with Assemblies and the Global Assembly Cache](/dotnet/framework/app-domains/working-with-assemblies-and-the-gac).
 
 ## UIElement List
@@ -52,15 +53,15 @@ Displays the location of the .NET Framework assembly. The default location for a
 
 Filters the list of WPF controls based on the string you provide in the text box. All matches from any of the four columns are shown.
 
-### Clear
+**Clear**
 
 Clears the filter string.
 
-### Browse
+**Browse**
 
 Opens the **Open** dialog box, which lets you navigate to assemblies which contain WPF controls. Use this to load assemblies which are not located in the Global Assembly Cache.
 
-### Language
+**Language**
 
 Shows the localized language of the assembly which contains the selected WPF control.
 
@@ -78,5 +79,5 @@ You can reference your controls directly in XAML view by mapping the namespace a
 
 ## See also
 
-[Toolbox](../../ide/reference/toolbox.md)  
-[Getting Started with WPF](../../designers/getting-started-with-wpf.md)
+- [Toolbox](../../ide/reference/toolbox.md)
+- [Getting Started with WPF](../../designers/getting-started-with-wpf.md)

@@ -2,21 +2,16 @@
 title: "DA0504: Maximum Working Set in Bytes for the Process being profiled | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.DA0504"
   - "vs.performance.504"
   - "vs.performance.rules.DA0504"
 ms.assetid: 36e71603-ece7-4000-85fc-9da4eed61bf2
-caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -31,7 +26,7 @@ ms.workload:
   
  When you profile by using the sampling, .NET memory, or resource contention methods, you must collect at least 10 samples to trigger this rule.  
   
-## Rule Description  
+## Rule description  
  This message reports the maximum amount of physical memory, in bytes, that the process is currently using. The process working set represents pages from the process address space that currently reside in physical memory. This rule reports the maximum value for the process working set while profiling was active.  
   
  The value reported includes resident pages from shared memory segments that the process has referenced. Shared DLLs that the process references are included in the shared memory segments that are counted. The value of the process Working Set can be higher than the amount of virtual memory that the process has allocated because of shared memory segments.  

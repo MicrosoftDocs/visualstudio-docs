@@ -16,7 +16,7 @@ ms.workload:
 
 # Train a TensorFlow model in the cloud
 
-In this tutorial, we will train a TensorFlow model using the [MNIST dataset](http://yann.lecun.com/exdb/mnist/) in an Azure [Deep Learning](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview) virtual machine.
+In this tutorial, we will train a TensorFlow model using the [MNIST dataset](http://yann.lecun.com/exdb/mnist/) on an Azure [Deep Learning](https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/deep-learning-dsvm-overview) virtual machine.
 
 The MNIST database has a training set of 60,000 examples, and a test set of 10,000 examples of handwritten digits.
 
@@ -38,7 +38,7 @@ echo -e ". /etc/profile\n$(cat ~/.bashrc)" > ~/.bashrc
 
 ### Download sample code
 
-Download this [GitHub repository](https://github.com/Microsoft/samples-for-ai) containing samples for getting started with deep learning across TensorFlow, CNTK, Theano, and more.
+Download this [GitHub repository](https://github.com/Microsoft/samples-for-ai) containing samples for getting started with deep learning on TensorFlow, CNTK, Theano, and more.
 
 ## Open project
 

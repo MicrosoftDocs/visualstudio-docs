@@ -1,24 +1,24 @@
 ---
 title: Visual Studio Subscriptions - Subscriber Benefits
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 2/12/2018
-Ms.topic: Get-Started-Article
-Description:  Learn about the benefits included in your Visual Studio subscription
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 02/12/2018
+ms.topic: Get-Started-Article
+description:  Learn about the benefits included in your Visual Studio subscription
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# Benefits Included in Your Visual Studio Subscription
+# Benefits included in your Visual Studio subscription
 
 Visual Studio subscriptions offer the most comprehensive set of resources for you to create, deploy, and manage great applications on your preferred platforms and devices, including Windows, iOS, Android, and Linux.  The specific benefits will vary based on the type of subscription you have.  To provide the maximum value for subscribers, the benefits provided change periodically as we make adjustments to focus on the newest and most useful technologies, training materials, and partner benefits available. 
 
 Benefits are grouped into three categories:
 
 ## Tools
-The Tools category provides access to a wide variety of benefits, including flagship benefits such as the [Visual Studio IDE](/vs-ide-benefit), [Visual Studio Team Services](/vs-vsts), and [Azure](/vs-azure).  Depending on your subscription level, you'll also see Windows and Office 365 Developer accounts, Visual Studio App Center, and benefits from partners such as WhiteSource Bolt and ModernRequirements.
+The Tools category provides access to a wide variety of benefits, including flagship benefits such as the [Visual Studio IDE](vs-ide-benefit.md), [Visual Studio Team Services](vs-vsts.md), and [Azure](vs-azure.md).  Depending on your subscription level, you'll also see Windows and Office 365 Developer accounts, Visual Studio App Center, and benefits from partners such as WhiteSource Bolt and ModernRequirements.
 
 ## Professional Development
 To help you continously enhance your skillset and keep up with the latest technologies, we provide access to some of the best online training available from industry leaders. Examples of the great content available include:
@@ -36,5 +36,8 @@ As a Visual Studio subscriber, you also have access to various types of support 
 - Get help from community members in the Priority Support forums.  If the community members can't answer your question, Microsoft's experts will provide an answer. 
 - Have questions about Azure?  Check out the Azure Community and Azure Advisory Chat services.  
 
-For more information about the benefits included in your subscription, check out the Visual Studio pricing page.  Information about the specific benefits, including which subscriptions feature them, is available in the **Using Subscriber Benefits** topic below. 
+> [!NOTE] 
+> Your subscription may also come with access to software downloads.  For more information about downloads, including which downloads are included with your subscription, visit [https://my.visualstudio.com/downloads](https://my.visualstudio.com/downloads?wt.mc_id=o~msft~docs).
+
+For more information about the benefits included in your subscription, check out the [Visual Studio pricing page](https://www.visualstudio.com/vs/pricing/).  Information about the specific benefits, including which subscriptions feature them, is available in the **Using Subscriber Benefits** topic below. 
 

@@ -1,13 +1,10 @@
 ---
-title: "&lt;customizations&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
+title: "&lt;customizations&gt; element (Office development in Visual Studio)"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,16 +14,16 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <customizations> element"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# &lt;customizations&gt; Element (Office Development in Visual Studio)
+# &lt;customizations&gt; element (Office development in Visual Studio)
   The `customizations` element of the `vstov4` namespace contains all the information about installing and loading each Office solution.  
   
-## Syntax for Document-Level Customizations  
+## Syntax for document-level customizations  
   
-```  
+```xml
 <customizations>  
   <customization  
     id  
@@ -39,7 +36,7 @@ ms.workload:
   
 ## Syntax for VSTO Add-ins  
   
-```  
+```xml
 <customizations>  
   <customization  
     id  
@@ -54,27 +51,27 @@ ms.workload:
 </customizations>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `customizations` element contains specific information about each Office solution. This element must be in the following namespace: `vstov4=urn:schemas-microsoft-com:vsto.v4`. Child elements of the assembly must also be in this namespace.  
   
  The `customizations` element has no attributes.  
   
  The `customizations` element has the following child element.  
   
-### customization  
- Required. The `customization` element in the `vstov4` namespace is defined in [&#60;customization&#62; Element &#40;Office Development in Visual Studio&#41;](../vsto/customization-element-office-development-in-visual-studio.md).  
+### Customization  
+ Required. The `customization` element in the `vstov4` namespace is defined in [&#60;customization&#62; element &#40;Office development in Visual Studio&#41;](../vsto/customization-element-office-development-in-visual-studio.md).  
   
-## Example of a Document-Level Customization  
+## Example of a document-level customization  
   
 ### Description  
  The following code example illustrates the `customizations` element for a document-level customization.  
   
 > [!NOTE]  
->  This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).  
+>  This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
   
 ### Code  
   
-```  
+```xml
 <vstov4:customizations   
   xmlns:vstov4="urn:schemas-microsoft-com:vsto.v4">  
   <vstov4:customization>  
@@ -87,11 +84,11 @@ ms.workload:
 ## Example of an VSTO Add-in  
   
 ### Description  
- The following code example illustrates the `customizations` element for an VSTO Add-in. This is an Outlook VSTO Add-in that includes form regions. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).  
+ The following code example illustrates the `customizations` element for an VSTO Add-in. This is an Outlook VSTO Add-in that includes form regions. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
   
 ### Code  
   
-```  
+```xml
 <vstov4:customizations   
   xmlns:vstov4="urn:schemas-microsoft-com:vsto.v4">  
   <vstov4:customization>  
@@ -119,9 +116,9 @@ ms.workload:
 </vstov4:customizations>  
 ```  
   
-## See Also  
- [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)   
- [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Application Manifest](/visualstudio/deployment/clickonce-application-manifest)  
+## See also  
+ [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)   
+ [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)   
+ [ClickOnce application manifest](/visualstudio/deployment/clickonce-application-manifest)  
   
   

@@ -2,22 +2,18 @@
 title: "Understanding Memory Allocation and Object Lifetime Data Values | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - ".NET memory profiling method"
   - "Profiling Tools, .NET memory method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Understanding Memory Allocation and Object Lifetime Data Values
+# Understand memory allocation and object lifetime data values
 
 The *.NET memory allocation* profiling method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools collects information about the size and number of objects that were created in an allocation or destroyed in a garbage collection and additional information about the function *call stack* when the event occurred. A *call stack* is a dynamic structure that stores information about the functions that are executing on the processor.
 

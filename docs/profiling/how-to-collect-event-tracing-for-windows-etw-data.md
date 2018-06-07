@@ -2,12 +2,8 @@
 title: "How to: Collect Event Tracing for Windows (ETW) Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.property.events"
 helpviewer_keywords: 
@@ -16,11 +12,11 @@ helpviewer_keywords:
   - "performance tools, enabling event trace providers"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Collect Event Tracing for Windows (ETW) Data
+# How to: Collect Event Tracing for Windows (ETW) data
 
 Event Tracing for Windows (ETW) is an efficient kernel-level tracing facility that enables profiler log kernel or application-defined events. The data that is collected from the event provider can be viewed only by using the /**Summary:ETW** option of the [VSPerfReport](../profiling/vsperfreport.md) command-line tool. You can use this report to determine where performance issues occur in the application.
 
@@ -37,4 +33,4 @@ Event Tracing for Windows (ETW) is an efficient kernel-level tracing facility th
 
 ## See also
 
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)

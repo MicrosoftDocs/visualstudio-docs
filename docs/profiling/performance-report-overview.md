@@ -2,21 +2,16 @@
 title: "Performance Report Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "profiling tools, about performance rerports"
   - "performance, reports"
   - "performance reports, about performance reports"
 ms.assetid: 7324c24c-fd09-479b-b2ad-e0c3b613e040
-caps.latest.revision: 45
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

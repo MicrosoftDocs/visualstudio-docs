@@ -1,19 +1,20 @@
 ---
-title: "How to use Boost.Test for C++ in Visual Studio | Microsoft Docs"
-ms.date: "01/29/2018"
+title: "How to use Boost.Test for C++ in Visual Studio"
+ms.date: 01/29/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 author: mikeblome
 ms.author: mblome
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "cplusplus"
 ---
 # How to use Boost.Test for C++ in Visual Studio
 
 In **Visual Studio 2017 version 15.5** and later, the Boost.Test test adapter is integrated into the Visual Studio IDE as a component of the **Desktop development with C++** workload.
 
-![Test Adapter for Boost.Test](media/cpp-boost-component.png "Test Adapter for Boost.Test component")
+![Test Adapter for Boost.Test](media/cpp-boost-component.png)
 
 If you don't have the **Desktop development with C++** workload installed, open **Visual Studio Installer** and select **Modify**. Select the **Desktop development with C++** workload, then choose the **Modify** button.
 
@@ -37,7 +38,7 @@ Boost.Test requires [Boost](http://www.boost.org/)! If you do not have Boost ins
 
 1. To create a .cpp file for your tests, right-click on the project node in **Solution Explorer** and choose **Add New Item**.
 
-   ![Boost.Test Item Template](media/boost_test_item_template.png "Boost.Test item template")
+   ![Boost.Test Item Template](media/boost_test_item_template.png)
 
 1. The new file contains a sample test method. Build your project to enable **Test Explorer** to discover the method.
 
@@ -81,7 +82,7 @@ In Visual Studio 2017 version 15.5, no pre-configured test project or item templ
 
 1. In your test .cpp file, add any needed `#include` directives to make your program's types and functions visible to the test code. Typically, the program is up one level in the folder hierarchy. If you type `#include "../"`, an IntelliSense window appears and enables you to select the full path to the header file.
 
-   ![Add #include directives](media/cpp-gtest-includes.png "Add include directives to the test .cpp file")
+   ![Add #include directives](media/cpp-gtest-includes.png)
 
    You can use the standalone library with:
 

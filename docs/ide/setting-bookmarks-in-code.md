@@ -1,18 +1,15 @@
 ---
-title: "Set code bookmarks in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Set code bookmarks in Visual Studio
 ms.date: 02/23/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: conceptual
 f1_keywords:
   - "VS.BookmarkWindow"
 ms.assetid: a752ed5f-5cf9-4bf2-865a-2131ca600ed5
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---
@@ -41,4 +38,4 @@ You can turn off bookmarks (without removing them) by choosing the **Disable All
 
 ## See also
 
-- [Writing Code in the Editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

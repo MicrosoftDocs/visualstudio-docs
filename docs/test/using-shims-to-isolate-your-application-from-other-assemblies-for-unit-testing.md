@@ -1,10 +1,12 @@
+
 ---
-title: "Using shims to isolate your application for unit testing in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Using shims to isolate your application for unit testing in Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 author: gewarren
@@ -20,6 +22,10 @@ author: gewarren
  **Requirements**
 
 -   Visual Studio Enterprise
+-   A .NET Framework project
+
+> [!NOTE]
+> .NET Standard projects are not supported.
 
 ## Example: The Y2K bug
 

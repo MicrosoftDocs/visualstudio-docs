@@ -2,33 +2,29 @@
 title: "How to: Limit Instrumentation to Specific DLLs | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "performance tools, runtime profiling control window"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Limit Instrumentation to Specific DLLs
+# How to: Limit instrumentation to specific DLLs
 
-By using the instrumentation profiling method, you can limit the collection of profiling data to one or more DLLs in an application. To profile one or more DLLs in an application, you create a performance session that includes the .dll files as targets. You can specify the DLLs that you want to profile as projects in a Visual Studio solution or as independent binary files.
+By using the instrumentation profiling method, you can limit the collection of profiling data to one or more DLLs in an application. To profile one or more DLLs in an application, you create a performance session that includes the .*dll* files as targets. You can specify the DLLs that you want to profile as projects in a Visual Studio solution or as independent binary files.
 
 ## To limit instrumentation to specific DLLs in a Visual Studio solution
 
-1. Open the solution that contains the DLL in Visual Studio].
+1. Open the solution that contains the DLL in Visual Studio.
 
 2. On the **Analyze** menu, select **Launch Performance Wizard**.
 
 3. Choose **Instrumentation** as the profiling method and then click **Next**.
 
-4. From the **Which of the following available targets would you like to profile?**, select the name of the .dll project and then click **Next**.
+4. From the **Which of the following available targets would you like to profile?**, select the name of the .*dll* project and then click **Next**.
 
 5. Click **Finish** to exit the wizard and display the new performance session in the **Performance Explorer** window.
 
@@ -50,9 +46,9 @@ By using the instrumentation profiling method, you can limit the collection of p
 
 4. On the second page of the wizard, perform the following steps:
 
-    - Type the path and file name of the .dll file that you want to profile in **Dll path**. You can also click the ellipsis button (...) to locate the file in the **Dynamic link library to profile** dialog box. Note that you must specify the copy of the .dll file that will be launched by the executable (.exe) file that you select next.
+    - Type the path and file name of the .*dll* file that you want to profile in **Dll path**. You can also click the ellipsis button (...) to locate the file in the **Dynamic link library to profile** dialog box. Note that you must specify the copy of the .*dll* file that will be launched by the executable (.*exe*) file that you select next.
 
-    - Type the path and file name of the executable (.exe) file that will exercise the .dll in **Executable path**. You can also click the ellipsis button (...) to locate the file in the **Executable to launch** dialog box.
+    - Type the path and file name of the executable (.*exe*) file that will exercise the .*dll* in **Executable path**. You can also click the ellipsis button (...) to locate the file in the **Executable to launch** dialog box.
 
     - Optional. Type any command line arguments that you want to pass to the executable file in **Command line arguments**. If necessary, specify the working directory for the application in **Working directory**.
 
@@ -62,12 +58,12 @@ By using the instrumentation profiling method, you can limit the collection of p
 
 6. Click **Finish** to exit the wizard and display the new performance session in the **Performance Explorer** window.
 
-7. Optional. To add more .dll files, right-click **Targets** and then select **Add Target Binary**. Select the files from the **Add Target Binary** dialog box.
+7. Optional. To add more .*dll* files, right-click **Targets** and then select **Add Target Binary**. Select the files from the **Add Target Binary** dialog box.
 
     > [!NOTE]
-    > Do not specify the executable (.exe) file that exercises the DLLs.
+    > Do not specify the executable (.*exe*) file that exercises the DLLs.
 
 ## See also
 
-[Controlling Data Collection](../profiling/controlling-data-collection.md)  
-[How to: Limit Instrumentation to Specific Functions](../profiling/how-to-limit-instrumentation-to-specific-functions.md)
+[Control data collection](../profiling/controlling-data-collection.md)  
+[How to: Limit instrumentation to specific functions](../profiling/how-to-limit-instrumentation-to-specific-functions.md)

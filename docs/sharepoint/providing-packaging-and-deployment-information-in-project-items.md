@@ -2,12 +2,9 @@
 title: "Providing Packaging and Deployment Information in Project Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.Project.SafeControlEntries"
   - "VS.SharePointTools.Project.ProjectOutputReference"
@@ -29,7 +26,7 @@ helpviewer_keywords:
   - "safe controls [SharePoint development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -51,7 +48,7 @@ ms.workload:
   
  When you add a feature property value to a project item, the value is added as an element in the manifest of the item's feature. In a Business Data Connectivity (BDC) model project, for example, the ModelFileName feature property appears as:  
   
-```  
+```xml  
 <Property Key="ModelFileName" Value="BdcModel1\BdcModel1.bdcm" />   
 ```  
   

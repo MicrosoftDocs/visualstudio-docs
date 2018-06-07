@@ -2,19 +2,16 @@
 title: "Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "project items [SharePoint development in Visual Studio], creating template wizards"
   - "SharePoint project items, creating template wizards"
   - "SharePoint development in Visual Studio, defining new project item types"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -34,7 +31,7 @@ ms.workload:
 -   Debugging and testing the wizard.  
   
 > [!NOTE]  
->  You can download a sample that contains the completed projects, code, and other files for this walkthrough from the following location:  [Project files for SharePoint Tools Extensibility Walkthroughs](http://go.microsoft.com/fwlink/?LinkId=191369).  
+>  You can download a sample from [Github](https://github.com/SharePoint/PnP/tree/master/Samples/Workflow.Activities) that shows how to create custom activities for a workflow.  
   
 ## Prerequisites  
  To perform this walkthrough, you must first create the CustomActionProjectItem solution by completing [Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md).  
@@ -134,7 +131,7 @@ ms.workload:
   
 3.  If you're developing a Visual Basic project, remove the `ItemTemplateWizard` namespace from the `WizardWindow` class name in the `x:Class` attribute of the `Window` element. This element is in the first line of the XAML. When you're done, the first line should resemble the following code:  
   
-    ```  
+    ```xml  
     <Window x:Class="WizardWindow"  
     ```  
   
@@ -185,7 +182,7 @@ ms.workload:
   
 1.  In a Visual Studio Command Prompt window, run the following command, replacing *PathToWizardAssembly* with the full path to the built ItemTemplateWizard.dll assembly for the ItemTemplateWizard project on your development computer.  
   
-    ```  
+    ```xml  
     sn.exe -T PathToWizardAssembly  
     ```  
   
@@ -199,7 +196,7 @@ ms.workload:
   
 2.  Near the end of the file, add the following `WizardExtension` element between the `</TemplateContent>` and `</VSTemplate>` tags. Replace the *YourToken* value of the `PublicKeyToken` attribute with the public key token that you obtained in the previous procedure.  
   
-    ```  
+    ```xml  
     <WizardExtension>  
       <Assembly>ItemTemplateWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=YourToken</Assembly>  
       <FullClassName>ItemTemplateWizard.CustomActionWizard</FullClassName>  
@@ -219,7 +216,7 @@ ms.workload:
   
 1.  In the ItemTemplate project, replace the contents of the Elements.xml file with the following XML.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8" ?>  
     <Elements Id="$guid8$" xmlns="http://schemas.microsoft.com/sharepoint/">  
       <CustomAction Id="$IdValue$"  

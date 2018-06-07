@@ -2,21 +2,17 @@
 title: "IDebugProgramHost2::GetHostId | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramHost2::GetHostId"
 helpviewer_keywords: 
   - "IDebugProgramHost2::GetHostId"
 ms.assetid: 7702e221-feb1-446b-a224-cb46c420987e
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

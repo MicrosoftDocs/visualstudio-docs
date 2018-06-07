@@ -2,17 +2,13 @@
 title: "Develop apps for the Universal Windows Platform (UWP) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/24/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: eac59cb6-f12e-4a77-9953-6d62b164a643
-caps.latest.revision: 48
 author: "stevehoag"
 ms.author: "shoag"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 ---

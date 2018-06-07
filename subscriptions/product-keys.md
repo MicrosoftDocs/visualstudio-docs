@@ -1,19 +1,18 @@
 ---
 title: Using Product Keys | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 10/3/2017
-Ms.topic: Get-Started-Article
-Description:  Learn how to obtain and manage your product keys in Visual Studio subscriptions.
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 10/03/2017
+ms.topic: Get-Started-Article
+description:  Learn how to obtain and manage your product keys in Visual Studio subscriptions.
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# Using Product Keys in Visual Studio Subscriptions
+# Using product keys in Visual Studio subscriptions
 
-## Product keys overview
 Visual Studio subscriptions provide access to a wide range of Microsoft products for designing, developing, testing, and demonstrating applications. Some of these products require product keys during installation, and some of those require activation.
 
 Visual Studio subscriptions typically include five product keys for current versions of Windows and Office products, and three keys for older versions.
@@ -44,7 +43,7 @@ Our research shows that most subscribers are covered by the number of product ke
 ## Locating and claiming product keys
 You must be signed in to your Visual Studio subscription to view your product keys. Individual product keys are found by selecting the blue **Get Key** link for a particular product on the [Downloads](https://my.visualstudio.com/downloads) page as shown below.  All keys are also available in aggregate on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) page. When multiple keys exist for a single product, notes will be displayed on the Notes column for the download to assist you in identifying which key should be used.
 
-![Get Key from Downloads Page](_img/product-keys/download-get-key.png)
+   ![Get Key from Downloads Page](_img/product-keys/download-get-key.png)
 
 Some products bundle multiple editions of the product into a single download. In these cases, the product key entered determines which edition of the product is installed.
 Some keys are provided automatically, such as “static” keys, which you can use as many times as needed because activation is not required. Other keys must be claimed by selecting the **Get Key** link for the product.
@@ -78,7 +77,7 @@ To claim a product key:
 1.	Sign in to your Visual Studio subscription.  You must be signed in to download products or claim product keys. 
 2.	Click on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) tab.
 3.	Product keys are listed alphabetically by the name of the product.  You can either scroll down to the name of the desired product, or search for it using the search bar at the top of the page.  
-![Search for Product Key](_img\product-keys\visio-product-key-cropped.png)
+    ![Search for Product Key](_img\product-keys\visio-product-key-cropped.png)
 
 In this example, we’ve used the search bar to locate a product key for Visio 2010.
 As you can see, there are several versions of Visio 2010 listed.  One key each has already been claimed for Visio Standard 2010 and Visio Premium 2010, and both have four keys remaining.  The keys that were claimed are both retail keys, and are displayed on the page.  Notice that you can record a brief note about claimed keys in the **Notes** column.  You can use this in conjunction with the date in the **Claimed** column to keep track of the keys you’ve claimed.  You might, for example, make notes when you activate an installation of the product using the key.  
@@ -87,11 +86,11 @@ As you can see, there are several versions of Visio 2010 listed.  One key each h
 You can export a list of all the keys you have claimed, along with a large selection of static and other keys that are automatically marked as “claimed” for you.  
 
 > [!IMPORTANT] 
-> If your subscription expires, you will no longer be able to claim new keys or export your claimed keys.** 
+> If your subscription expires, you will no longer be able to claim new keys or export your claimed keys. 
 
 To export your keys, simply click on the **Export all keys** link at the far right of the Product Keys page.  An .xml file entitled KeysExport.xml will be created, and you’ll have the option to open or save the file.  You will need to open the file with an application capable of handling .xml files.  For example, you can open the file as a read-only workbook in Excel.  
 
-## Internet Demonstrations via Terminal Services
+## Internet demonstrations via Terminal Services
 With a Visual Studio subscription, you are allowed to provide end users access to Internet demonstrations of your programs via Terminal Services (Windows Server 2003 or Windows Server 2008) or Remote Desktop Services (Windows Server 2008 R2 and later). Up to 200 anonymous users can simultaneously access your demonstration this way. Your demonstration must not use production data. Visual Studio subscribers are licensed to demonstrate their applications to end users. This Internet demonstration using Terminal Services (TS) or Remote Desktop Services (RDS) is the only scenario where end users without a Visual Studio subscription can interact with the demonstration application when the software is licensed through Visual Studio subscriptions.
 
 This is in addition to dev/test rights, where Visual Studio subscribers can use as many RDS or TS connections as needed.

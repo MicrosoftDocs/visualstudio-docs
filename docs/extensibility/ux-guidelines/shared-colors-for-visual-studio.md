@@ -2,17 +2,13 @@
 title: "Shared Colors for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/26/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 8d11b9a0-6175-4f2e-8e7f-79daee1bfd41
-caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

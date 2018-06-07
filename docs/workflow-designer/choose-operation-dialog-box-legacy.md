@@ -1,19 +1,21 @@
 ---
-title: "Choose Operation Dialog Box (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - Choose Operation Dialog Box (Legacy)"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Workflow.Activities.Design.OperationPickerDialog.UI"
 ms.assetid: bc3ec902-7797-494e-af48-e70c97eb6779
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Choose Operation Dialog Box (Legacy)
 
-This topic describes how use the **Choose Operation** dialog box in the legacy Windows Workflow Designer. Use the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] when you need to target either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].
+This topic describes how use the **Choose Operation** dialog box in the legacy Windows Workflow Designer. Use the legacy Workflow Designer when you need to target either the .NET Framework version 3.5 or the WinFX.
 
  The **Choose Operation** dialog box is used to select an operation to associate with a <xref:System.Workflow.Activities.ReceiveActivity> activity or a <xref:System.Workflow.Activities.SendActivity> activity. For more information about using this dialog box with those activities, see [How to: Implement a WCF Contract Operation (Legacy)](../workflow-designer/how-to-implement-a-windows-communication-foundation-contract-operation-legacy.md) and [How to: Invoke a WCF Contract Operation (Legacy)](../workflow-designer/how-to-invoke-a-windows-communication-foundation-contract-operation-legacy.md).
 

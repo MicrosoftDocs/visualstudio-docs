@@ -2,12 +2,9 @@
 title: "SafeControls Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,16 +12,16 @@ helpviewer_keywords:
   - "SafeControls element"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
 # SafeControls Element
-  Represents a collection of ASPX controls and Web Parts that are designated as secure for any user to access on any ASPX page on the SharePoint site.  
+  A collection of ASPX controls and Web Parts that are designated as secure for any user to access on any ASPX page on the SharePoint site.  
   
 ## Syntax  
   
-```  
+```xml  
 <SafeControls>  
   <SafeControl.../>  
 </SafeControls>  
@@ -46,7 +43,7 @@ ms.workload:
   
 |Element|Description|  
 |-------------|-----------------|  
-|[ProjectItem](../sharepoint/projectitem-element.md)|Represents a SharePoint project item. This is the required root element of the .spdata file.|  
+|[ProjectItem](../sharepoint/projectitem-element.md)|Represents a SharePoint project item. This element the required root element of the `.spdata` file.|  
   
 ## Remarks  
  For more information about safe controls, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md).  
@@ -55,7 +52,7 @@ ms.workload:
   
 |||  
 |-|-|  
-|**Namespace**|http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel|  
+|**Namespace**|http<nolink>://schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|  
 |**Schema name**|SharePoint Project Item Schema|  
 |**Validation file**|ProjectItemModelSchema.xsd|  
 |**Can be empty**|No|  

@@ -2,11 +2,7 @@
 title: "Debugging, Options Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 dev_langs: 
   - "CSharp"
@@ -22,10 +18,9 @@ helpviewer_keywords:
   - "Options dialog box, debugging"
   - "debugging [Visual Studio], settings and preparation"
 ms.assetid: 9450589a-42ea-45bf-b128-89447225cca6
-caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

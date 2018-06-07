@@ -1,13 +1,10 @@
 ---
-title: "&lt;customization&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
+title: "&lt;customization&gt; element (Office development in Visual Studio)"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,16 +12,16 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <customization> element"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# &lt;customization&gt; Element (Office Development in Visual Studio)
+# &lt;customization&gt; element (Office development in Visual Studio)
   The `customization` element of the `vstov4` namespace describes a specific Office solution. The child elements are different for document-level customizations and VSTO Add-ins.  
   
-## Syntax for Document-Level Customizations  
+## Syntax for document-level customizations  
   
-```  
+```xml
 <customization  
   id  
   <document  
@@ -35,7 +32,7 @@ ms.workload:
   
 ## Syntax for VSTO Add-ins  
   
-```  
+```xml
 <customization  
   id  
   <appAddin  
@@ -48,7 +45,7 @@ ms.workload:
 </customization>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `customization` element contains customization-specific information. This element must be in the following namespace: `vstov4=urn:schemas-microsoft-com:vsto.v4`. There is one `customization` element for each Office solution. For example, if you deploy three Office solutions in a multi-project deployment, there are three `customization` elements in the application manifest.  
   
  Child elements of the assembly must also be in this namespace.  
@@ -59,26 +56,26 @@ ms.workload:
 |---------------|-----------------|  
 |`id`|Required for multi-project deployment. The `id` element uniquely identifies an Office solution.|  
   
-### Document-Level Customizations  
+### Document-Level customizations  
  The `customization` element has the following child element.  
   
 #### document  
- The `document` element in the `vstov4` namespace is defined in [&#60;document&#62; Element &#40;Office Development in Visual Studio&#41;](../vsto/document-element-office-development-in-visual-studio.md).  
+ The `document` element in the `vstov4` namespace is defined in [&#60;document&#62; element &#40;Office development in Visual Studio&#41;](../vsto/document-element-office-development-in-visual-studio.md).  
   
 ### VSTO Add-ins  
  The `customization` element has the following child element.  
   
 #### appAddin  
- The `appAddin` element in the `vstov4` namespace is defined in [&#60;appAddin&#62; Element &#40;Office Development in Visual Studio&#41;](../vsto/appaddin-element-office-development-in-visual-studio.md).  
+ The `appAddin` element in the `vstov4` namespace is defined in [&#60;appAddin&#62; element &#40;Office development in Visual Studio&#41;](../vsto/appaddin-element-office-development-in-visual-studio.md).  
   
-## Example of a Document-Level Customization  
+## Example of a document-level customization  
   
 ### Description  
- The following code example illustrates the `customization` element for a document-level customization. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).  
+ The following code example illustrates the `customization` element for a document-level customization. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
   
 ### Code  
   
-```  
+```xml
 <vstov4:customization>  
   <vstov4:document   
     solutionId="73e" />  
@@ -88,11 +85,11 @@ ms.workload:
 ## Example of an VSTO Add-in  
   
 ### Description  
- The following code example illustrates the `customization` element for an VSTO Add-in. This is an Outlook VSTO Add-in that includes form regions. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).  
+ The following code example illustrates the `customization` element for an VSTO Add-in. This is an Outlook VSTO Add-in that includes form regions. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
   
 ### Code  
   
-```  
+```xml  
 <vstov4:customization>  
   <vstov4:appAddIn   
     application="Outlook"   
@@ -117,9 +114,9 @@ ms.workload:
 </vstov4:customization>  
 ```  
   
-## See Also  
- [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)   
- [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Application Manifest](/visualstudio/deployment/clickonce-application-manifest)  
+## See also  
+ [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)   
+ [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)   
+ [ClickOnce application manifest](/visualstudio/deployment/clickonce-application-manifest)  
   
   

@@ -2,12 +2,9 @@
 title: "Replaceable Parameters | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,7 +17,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, replaceable parameters"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -28,7 +25,7 @@ ms.workload:
   Replaceable parameters, or *tokens*, can be used inside project files to provide values for SharePoint solution items whose actual values are not known at design time. They are similar in function to the standard [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] template tokens. For more information, see [Template Parameters](/visualstudio/ide/template-parameters).  
   
 ## Token Format  
- Tokens begin and end with a dollar sign ($) character. Any tokens used are replaced with actual values when a project is packaged into a SharePoint solution package (.wsp) file at deployment time. For example, the token **$SharePoint.Package.Name$** might resolve to the string "Test SharePoint Package."  
+ Tokens begin and end with a dollar sign ($) character. On deployment, any tokens used are replaced with actual values when a project is packaged into a SharePoint solution package (.wsp file). For example, the token **$SharePoint.Package.Name$** might resolve to the string "Test SharePoint Package."  
   
 ## Token Rules  
  The following rules apply to tokens:  
@@ -43,7 +40,7 @@ ms.workload:
   
  Tokens that do not follow these rules are ignored without providing a warning or error.  
   
- The replacement of tokens by string values is done immediately after manifest transformation, thus allowing manifest templates edited by a user to use tokens.  
+ The replacement of tokens by string values is done immediately after manifest transformation. This replacement allows the user to edit the manifest templates with tokens.  
   
 ### Token Name Resolution  
  In most cases, a token resolves to a specific value regardless of where it is contained. However, if the token is related to a package or feature, the token's value depends on where it is contained. For example, if a feature is in Package A, then the token `$SharePoint.Package.Name$` resolves to the value "Package A." If the same feature is in Package B, then `$SharePoint.Package.Name$` resolves to "Package B."  
@@ -86,14 +83,14 @@ ms.workload:
   
  These extensions are defined by the `<TokenReplacementFileExtensions>` element in the Microsoft.VisualStudio.SharePoint.targets file, located in the ...\\<program files\>\MSBuild\Microsoft\VisualStudio\v11.0\SharePointTools folder.  
   
- You can, however, add additional file extensions to the list. To do this, add a `<TokenReplacementFileExtensions>` element to any PropertyGroup in the SharePoint project file that is defined before the \<Import> of the SharePoint targets file.  
+ You can, however, add additional file extensions to the list. Add a `<TokenReplacementFileExtensions>` element to any PropertyGroup in the SharePoint project file that is defined before the \<Import> of the SharePoint targets file.  
   
 > [!NOTE]  
 >  Because token replacement occurs after a project is compiled, you should not add file extensions for file types that are compiled, such as .cs, .vb or .resx. Tokens are replaced only in files that are not compiled.  
   
- For example, to add the file name extensions ".myextension" and ".yourextension" to the list of token replacement file name extensions, you would add the following to a .csproj file:  
+ For example, to add the file name extensions ".myextension" and ".yourextension" to the list of token replacement file name extensions, you would add the following to a `.csproj` file:  
   
-```  
+```xml  
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <PropertyGroup>  
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>  
@@ -106,7 +103,7 @@ ms.workload:
 </PropertyGroup>  
 ```  
   
- Alternatively, you can add the extension directly to the .targets file. However, doing this alters the extensions list for all SharePoint projects packaged on the local system, not just your own. This may be convenient when you are the sole developer on the system or if most of your projects require it. However, because it is system-specific, this approach is not very portable, and therefore, it is recommended that you add any extensions to the project file instead.  
+ You can add the extension directly to the .targets file. However, doing this alters the extensions list for all SharePoint projects packaged on the local system, not just your own. This may be convenient when you are the sole developer on the system or if most of your projects require it. However, because it is system-specific, this approach is not very portable, and therefore, it is recommended that you add any extensions to the project file instead.  
   
 ## See Also  
  [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  

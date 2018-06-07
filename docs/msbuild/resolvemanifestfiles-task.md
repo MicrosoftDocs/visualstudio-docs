@@ -2,11 +2,8 @@
 title: "ResolveManifestFiles Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "ResolveManifestFiles task [MSBuild]"
   - "MSBuild, ResolveManifestFiles task"
 ms.assetid: e1e14f67-9b69-433f-94d4-a783a68676b2
-caps.latest.revision: 5
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

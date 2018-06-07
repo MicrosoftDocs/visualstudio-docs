@@ -2,20 +2,16 @@
 title: "IDebugComPlusSymbolProvider::GetTypeFromAddress | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugComPlusSymbolProvider::GetTypeFromAddress"
   - "GetTypeFromAddress"
 ms.assetid: 01f21ff9-e8a5-4e5f-9f7b-1b6de8b1432f
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

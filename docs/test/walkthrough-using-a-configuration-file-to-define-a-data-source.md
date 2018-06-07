@@ -1,83 +1,85 @@
 ---
-title: "Walkthrough: Using a Configuration File to Define a Data Source in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Walkthrough: Using a Configuration File to Define a Data Source in Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: conceptual
+helpviewer_keywords:
   - "configuration files [Visual Studio ALM], defining data sources"
   - "unit tests, walkthrough"
   - "data sources, defining with configuration files"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Walkthrough: Using a Configuration File to Define a Data Source
 
 This walkthrough illustrates how to use a data source defined in an *app.config* file for unit testing. You will learn how to create an app.config file that defines a data source that can be used by the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class. Tasks presented in this walkthrough include the following:
 
--   Creating an app.config file.
+- Creating an app.config file.
 
--   Defining a custom configuration section.
+- Defining a custom configuration section.
 
--   Defining connection strings.
+- Defining connection strings.
 
--   Defining the data sources.
+- Defining the data sources.
 
--   Accessing the data sources using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class.
+- Accessing the data sources using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class.
 
 ## Prerequisites
- To complete this walkthrough, you need:
 
--   Visual Studio Enterprise
+To complete this walkthrough, you need:
 
--   Either Microsoft Access or Microsoft Excel to provide data for at least one of the test methods.
+- Visual Studio Enterprise
 
--   A Visual Studio solution that contains a test project.
+- Either Microsoft Access or Microsoft Excel to provide data for at least one of the test methods.
 
-## Create the App.config File
+- A Visual Studio solution that contains a test project.
 
-### To add an app.config file to the project
+## Add an app.config file to the project
 
-1.  If your test project already has an app.config file, go to [Define a Custom Configuration Section](#DefineCustomConfigurationSection).
+1. If your test project already has an app.config file, go to [Define a Custom Configuration Section](#DefineCustomConfigurationSection).
 
-2.  Right-click your test project in the **Solution Explorer**, point to **Add**, and then click **New Item**.
+2. Right-click your test project in the **Solution Explorer**, and then select **Add** > **New Item**.
 
      The **Add New Item** window opens.
 
-3.  Select the **Application Configuration File** template and click **Add**.
+3. Select the **Application Configuration File** template and click **Add**.
 
 ##  <a name="DefineCustomConfigurationSection"></a> Define a Custom Configuration Section
- Examine the app.config file. It contains at least the XML declaration and a root element.
+
+Examine the *app.config* file. It contains at least the XML declaration and a root element.
 
 ### To add the custom configuration section to the app.config file
 
-1.  The root element of app.config should be the `configuration` element. Create a `configSections` element within the `configuration` element. The `configSections` should be the first element in the app.config file.
+1. The root element of app.config should be the **configuration** element. Create a **configSections** element within the **configuration** element. The **configSections** should be the first element in the *app.config* file.
 
-2.  Within the `configSections` element, create a `section` element.
+2. Within the **configSections** element, create a **section** element.
 
-3.  In the `section` element, add an attribute called `name` and assign it a value equal `microsoft.visualstudio.testtools`. Add another attribute called `type` and assign it a value equal `Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a`
+3. In the **section** element, add an attribute called `name` and assign it a value of `microsoft.visualstudio.testtools`. Add another attribute called `type` and assign it a value of `Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a`.
 
- The `section` element should look similar to this:
+The **section** element should look similar to this:
 
 ```
 <section name="microsoft.visualstudio.testtools" type="Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
 ```
 
 > [!NOTE]
->  The assembly name must match the Microsoft Visual Studio .NET Framework build that you are using. Set the Version to 9.0.0.0 if you are using the Visual Studio .NET Framework 3.5. If you are using the Visual Studio .NET Framework 2.0, set the Version to 8.0.0.0.
+> The assembly name must match the Microsoft Visual Studio .NET Framework build that you are using. Set the Version to 9.0.0.0 if you are using the Visual Studio .NET Framework 3.5. If you are using the Visual Studio .NET Framework 2.0, set the Version to 8.0.0.0.
 
 ## Define Connection Strings
- The connection strings define provider-specific information for accessing data sources. Connection strings defined in configuration files provide reusable data provider information across an application. In this section, you create two connection strings that will be used by data sources that are defined in the Custom Configuration Section.
+
+The connection strings define provider-specific information for accessing data sources. Connection strings defined in configuration files provide reusable data provider information across an application. In this section, you create two connection strings that will be used by data sources that are defined in the Custom Configuration Section.
 
 ### To define connection strings
 
-1.  After the `configSections` element, create a `connectionStrings` element.
+1. After the **configSections** element, create a **connectionStrings** element.
 
-2.  Within the `connectionStrings` element, create two `add` elements.
+2. Within the **connectionStrings** element, create two **add** elements.
 
-3.  In the first `add` element, create the following attributes and values for a connection to a Microsoft Access database:
+3. In the first **add** element, create the following attributes and values for a connection to a Microsoft Access database:
 
 |Attribute|Values|
 |---------------|------------|
@@ -85,45 +87,46 @@ This walkthrough illustrates how to use a data source defined in an *app.config*
 |`connectionString`|`"Provider=Microsoft.Jet.OLEDB.4.0; Data Source=C:\testdatasource.accdb; Persist Security Info=False;"`|
 |`providerName`|`"System.Data.OleDb"`|
 
- In the second `add` element, create the following attributes and values for a connection to a Microsoft Excel spreadsheet:
+In the second **add** element, create the following attributes and values for a connection to a Microsoft Excel spreadsheet:
 
 |||
 |-|-|
 |`name`|`"MyExcelConn"`|
-|`connectionString`|`"Dsn=Excel Files;dbq=data.xlsx;defaultdir=.; driverid=790;maxbuffersize=2048;pagetimeout=5"`|
+|`connectionString`|`"Dsn=Excel Files;dbq=data.xlsx;defaultdir=.\; driverid=790;maxbuffersize=2048;pagetimeout=5"`|
 |`providerName`|`"System.Data.Odbc"`|
 
- The `connectionStrings` element should look similar to this:
+The **connectionStrings** element should look similar to this:
 
 ```
 <connectionStrings>
     <add name="MyJetConn" connectionString="Provider=Microsoft.Jet.OLEDB.4.0; Data Source=C:\testdatasource.accdb; Persist Security Info=False;" providerName="System.Data.OleDb" />
-    <add name="MyExcelConn" connectionString="Dsn=Excel Files;dbq=data.xlsx;defaultdir=.; driverid=790;maxbuffersize=2048;pagetimeout=5" providerName="System.Data.Odbc" />
+    <add name="MyExcelConn" connectionString="Dsn=Excel Files;dbq=data.xlsx;defaultdir=.\; driverid=790;maxbuffersize=2048;pagetimeout=5" providerName="System.Data.Odbc" />
 </connectionStrings>
 ```
 
 ## Define Data Sources
- The data sources section contains four attributes that are used by the test engine to retrieve data from a data source.
 
--   `name` defines the identity used by the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> to specify which data source to use.
+The data sources section contains four attributes that are used by the test engine to retrieve data from a data source.
 
--   `connectionString` identifies the connection string created in the previous Define Connection Strings section.
+- `name` defines the identity used by the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> to specify which data source to use.
 
--   `dataTableName` defines the table or sheet that holds the data to use in the test.
+- `connectionString` identifies the connection string created in the previous Define Connection Strings section.
 
--   `dataAccessMethod` defines the technique for accessing data values in the data source.
+- `dataTableName` defines the table or sheet that holds the data to use in the test.
 
- In this section, you will define two data sources to use in a unit test.
+- `dataAccessMethod` defines the technique for accessing data values in the data source.
+
+In this section, you'll define two data sources to use in a unit test.
 
 ### To define data sources
 
-1.  After the `connectionStrings` element, create a `microsoft.visualstudio.testtools` element. This section was created in Define a Custom Configuration Section.
+1. After the **connectionStrings** element, create a **microsoft.visualstudio.testtools** element. This section was created in Define a Custom Configuration Section.
 
-2.  Within the `microsoft.visualstudio.testtools` element, create a `dataSources` element.
+2. Within the **microsoft.visualstudio.testtools** element, create a **dataSources** element.
 
-3.  Within the `dataSources` element, create two `add` elements.
+3. Within the **dataSources** element, create two **add** elements.
 
-4.  In the first `add` element, create the following attributes and values for a Microsoft Access data source:
+4. In the first **add** element, create the following attributes and values for a Microsoft Access data source:
 
 |Attribute|Values|
 |---------------|------------|
@@ -132,7 +135,7 @@ This walkthrough illustrates how to use a data source defined in an *app.config*
 |`dataTableName`|`"MyDataTable"`|
 |`dataAccessMethod`|`"Sequential"`|
 
- In the second `add` element, create the following attributes and values for a Microsoft Excel data source:
+In the second **add** element, create the following attributes and values for a Microsoft Excel data source:
 
 |||
 |-|-|
@@ -141,7 +144,7 @@ This walkthrough illustrates how to use a data source defined in an *app.config*
 |`dataTableName`|`"Sheet1$"`|
 |`dataAccessMethod`|`"Sequential"`|
 
-The `microsoft.visualstudio.testtools` element should look similar to this:
+The **microsoft.visualstudio.testtools** element should look similar to this:
 
 ```xml
 <microsoft.visualstudio.testtools>
@@ -152,7 +155,7 @@ The `microsoft.visualstudio.testtools` element should look similar to this:
 </microsoft.visualstudio.testtools>
 ```
 
-The final app.config file should look similar to this:
+The final *app.config* file should look similar to this:
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -162,7 +165,7 @@ The final app.config file should look similar to this:
     </configSections>
     <connectionStrings>
         <add name="MyJetConn" connectionString="Provider=Microsoft.Jet.OLEDB.4.0; Data Source=C:\testdatasource.accdb; Persist Security Info=False;" providerName="System.Data.OleDb" />
-        <add name="MyExcelConn" connectionString="Dsn=Excel Files;dbq=data.xlsx;defaultdir=.; driverid=790;maxbuffersize=2048;pagetimeout=5" providerName="System.Data.Odbc" />
+        <add name="MyExcelConn" connectionString="Dsn=Excel Files;dbq=data.xlsx;defaultdir=.\; driverid=790;maxbuffersize=2048;pagetimeout=5" providerName="System.Data.Odbc" />
     </connectionStrings>
     <microsoft.visualstudio.testtools>
         <dataSources>
@@ -173,46 +176,47 @@ The final app.config file should look similar to this:
 </configuration>
 ```
 
-## Create a Unit Test Using Data Sources Defined in app.config
- Now that an app.config file has been defined, you will create a unit test that uses data located in the data sources that are defined in the app.config file. In this section, we will:
+## Create a unit test that uses data sources defined in app.config
 
--   Create the data sources found in the app.config file.
+Now that an app.config file has been defined, you will create a unit test that uses data located in the data sources that are defined in the app.config file. In this section, we will:
 
--   Use the data sources in two test methods that compare the values in each data source.
+- Create the data sources found in the app.config file.
+
+- Use the data sources in two test methods that compare the values in each data source.
 
 ### To create a Microsoft Access data source
 
-1.  Create a Microsoft Access database named `testdatasource.accdb`.
+1. Create a Microsoft Access database named *testdatasource.accdb*.
 
-2.  Create a table and name it `MyDataTable` in `testdatasource.accdb`.
+2. Create a table and name it `MyDataTable` in *testdatasource.accdb*.
 
-3.  Create two fields in `MyDataTable` named `Arg1` and `Arg2` using the `Number` data type.
+3. Create two fields in `MyDataTable` named `Arg1` and `Arg2` using the `Number` data type.
 
-4.  Add five entities to `MyDataTable` with the following values for `Arg1` and `Arg2`, respectively: (10,50), (3,2), (6,0), (0,8) and (12312,1000).
+4. Add five entities to `MyDataTable` with the following values for `Arg1` and `Arg2`, respectively: (10,50), (3,2), (6,0), (0,8) and (12312,1000).
 
-5.  Save and close the database.
+5. Save and close the database.
 
-6.  Change the connection string to point to the location of the database. Change the value of `Data Source` to reflect the location of the database.
+6. Change the connection string to point to the location of the database. Change the value of `Data Source` to reflect the location of the database.
 
 ### To create a Microsoft Excel data source
 
-1.  Create a Microsoft Excel spreadsheet named `data.xlsx`.
+1. Create a Microsoft Excel spreadsheet named *data.xlsx*.
 
-2.  Create a sheet named `Sheet1` if it does not already exist in `data.xlsx`.
+2. Create a sheet named `Sheet1` if it does not already exist in *data.xlsx*.
 
-3.  Create two column headers and name them `Val1` and `Val2` in `Sheet1`.
+3. Create two column headers and name them `Val1` and `Val2` in `Sheet1`.
 
-4.  Add five entities to `Sheet1` with the following values for `Val1` and `Val2`, respectively: (1,1), (2,2), (3,3), (4,4) and (5,0).
+4. Add five entities to `Sheet1` with the following values for `Val1` and `Val2`, respectively: (1,1), (2,2), (3,3), (4,4) and (5,0).
 
-5.  Save and close the spreadsheet.
+5. Save and close the spreadsheet.
 
-6.  Change the connection string to point to the location of the spreadsheet. Change the value of `dbq` to reflect the location of the spreadsheet.
+6. Change the connection string to point to the location of the spreadsheet. Change the value of `dbq` to reflect the location of the spreadsheet.
 
 ### To create a unit test using the app.config data sources
 
-1.  Add a unit test to the test project.
+1. Add a unit test to the test project.
 
-2.  Replace the auto-generated contents of the unit test with the following code:
+2. Replace the auto-generated contents of the unit test with the following code:
 
     ```csharp
     using System;
@@ -252,9 +256,9 @@ The final app.config file should look similar to this:
     }
     ```
 
-3.  Examine the DataSource attributes. Notice the setting names from the app.config file.
+3. Examine the DataSource attributes. Notice the setting names from the app.config file.
 
-4.  Build your solution and run MyTestMethod and MyTestMethod2 tests.
+4. Build your solution and run MyTestMethod and MyTestMethod2 tests.
 
 > [!IMPORTANT]
 > Deploy items like data sources so that they are accessible to the test in the deployment directory.

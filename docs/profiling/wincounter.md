@@ -2,17 +2,12 @@
 title: "WinCounter | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: ff319ffc-f249-4c3f-9eb2-06e392e3ae80
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -27,7 +22,7 @@ The **WinCounter** option specifies a Windows or application performance counter
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Method /Wincounter:Path [/WinCounter:Path] [AutoMark:Milliseconds] [Options]  
 ```  
   
@@ -35,13 +30,13 @@ VSPerfCmd.exe /Start:Method /Wincounter:Path [/WinCounter:Path] [AutoMark:Millis
  `Path`  
  The Windows performance counter in PDH counter path format.  
   
-## Required Options  
+## Required options  
  The **WinCounter** option can only be used with the **Start** option.  
   
  **Start:** `Method`  
  The **Start** option initializes the profiler to the specified profiling method.  
   
-## Exclusive Options  
+## Exclusive options  
  The **AutoMark** option can only be used with the **WinCounter** option.  
   
  **AutoMark:** `Milliseconds`  
@@ -50,12 +45,12 @@ VSPerfCmd.exe /Start:Method /Wincounter:Path [/WinCounter:Path] [AutoMark:Millis
 ## Example  
  In the following example, two Windows performance counters are specified to be collected at an interval of 1000 milliseconds.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp /WinCounter:"\Processor(0)\% Processor Time" /WinCounter:"\System\Context Switches/sec" /AutoMark:1000  
 ```  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)
+ [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profile services](../profiling/command-line-profiling-of-services.md)

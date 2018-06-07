@@ -2,21 +2,17 @@
 title: "UNMANAGED_ADDRESS_PHYSICAL | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "UNMANAGED_ADDRESS_PHYSICAL"
 helpviewer_keywords: 
   - "UNMANAGED_ADDRESS_PHYSICAL structure"
 ms.assetid: fed09686-caa6-4efc-851e-a0432019e9d0
-caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

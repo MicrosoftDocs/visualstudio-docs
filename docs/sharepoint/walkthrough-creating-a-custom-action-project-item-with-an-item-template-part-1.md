@@ -2,12 +2,9 @@
 title: "Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 1 | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -18,7 +15,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, defining new project item types"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -44,7 +41,7 @@ ms.workload:
  This is a stand-alone walkthrough. After you complete this walkthrough, you can enhance the project item by adding a wizard to the item template. For more information, see [Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 2](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md).  
   
 > [!NOTE]  
->  You can download a sample that contains the completed projects, code, and other files for this walkthrough from the following location:  [http://go.microsoft.com/fwlink/?LinkId=191369](http://go.microsoft.com/fwlink/?LinkId=191369).  
+>  You can download a sample from [Github](https://github.com/SharePoint/PnP/tree/master/Samples/Workflow.Activities) that shows how to create custom activities for a workflow.  
   
 ## Prerequisites  
  You need the following components on the development computer to complete this walkthrough:  
@@ -199,7 +196,7 @@ ms.workload:
     > [!NOTE]  
     >  The following XML is for a Visual C# item template. If you are creating a Visual Basic item template, replace the value of the `ProjectType` element with `VisualBasic`.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8"?>  
     <VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">  
       <TemplateData>  
@@ -228,7 +225,7 @@ ms.workload:
   
 7.  Add the following XML to the CustomAction.spdata file, and then save and close the file.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8"?>  
     <ProjectItem Type="Contoso.CustomAction" DefaultFile="Elements.xml"   
      xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">  
@@ -248,7 +245,7 @@ ms.workload:
   
 11. Replace the contents of the Elements.xml file with the following XML, and then save and close the file.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8" ?>  
     <Elements Id="$guid8$" xmlns="http://schemas.microsoft.com/sharepoint/">  
       <CustomAction Id="Replace this with a GUID or some other unique string"  
@@ -272,13 +269,13 @@ ms.workload:
   
 15. Locate the following `VSTemplate` element in the project file.  
   
-    ```  
+    ```xml  
     <VSTemplate Include="ItemTemplate.vstemplate">  
     ```  
   
 16. Replace this `VSTemplate` element with the following XML, and then save and close the file.  
   
-    ```  
+    ```xml  
     <VSTemplate Include="ItemTemplate.vstemplate">  
       <OutputSubPath>SharePoint\SharePoint14</OutputSubPath>  
     </VSTemplate>  
@@ -398,25 +395,25 @@ ms.workload:
   
     -   In the `CustomAction` element, set the `Id` attribute to a GUID or some other unique string as the following example shows:  
   
-        ```  
+        ```xml  
         Id="cd85f6a7-af2e-44ab-885a-0c795b52121a"  
         ```  
   
     -   In the `CustomAction` element, set the `Title` attribute as the following example shows:  
   
-        ```  
+        ```xml  
         Title="SharePoint Developer Center"  
         ```  
   
     -   In the `CustomAction` element, set the `Description` attribute as the following example shows:  
   
-        ```  
+        ```xml  
         Description="Opens the SharePoint Developer Center Web site."  
         ```  
   
     -   In the `UrlAction` element, set the `Url` attribute as the following example shows:  
   
-        ```  
+        ```xml  
         Url="http://msdn.microsoft.com/sharepoint/default.aspx"  
         ```  
   

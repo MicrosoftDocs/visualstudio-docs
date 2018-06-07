@@ -2,12 +2,9 @@
 title: "How to: Include Files by Using a Module | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -18,7 +15,7 @@ helpviewer_keywords:
   - "modules [SharePoint development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -57,7 +54,7 @@ ms.workload:
   
 8.  For any files that you want to appear in a document library, append the `Type="GhostableInLibrary"` attribute to their entry in Elements.xml. For example,  
   
-    ```  
+    ```xml  
     <File Path="Module1\Some Folder\SomePage.aspx" Url="Module1/Some Folder/SomePage.aspx" Type="GhostableInLibrary" />  
     ```  
   

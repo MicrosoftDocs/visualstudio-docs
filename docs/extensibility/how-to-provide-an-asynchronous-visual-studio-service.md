@@ -2,15 +2,11 @@
 title: "How to: Provide an Asynchronous Visual Studio Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 0448274c-d3d2-4e12-9d11-8aca78a1f3f5
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
@@ -48,6 +44,7 @@ If you want to obtain a service without blocking the UI thread, you should creat
     using System.Threading.Tasks;  
     using System.Runtime.CompilerServices;  
     using System.IO;
+    using Microsoft.VisualStudio.Threading;
     using IAsyncServiceProvider = Microsoft.VisualStudio.Shell.IAsyncServiceProvider;
     using Task = System.Threading.Tasks.Task;
     ```  
@@ -69,19 +66,15 @@ If you want to obtain a service without blocking the UI thread, you should creat
         
         public async Task InitializeAsync(CancellationToken cancellationToken)
         {
-            // We have to use JoinableTaskFactory as code will switch to main thread in some parts
-            await ThreadHelper.JoinableTaskFactory.RunAsync(async () =>
-            {
-                await TaskScheduler.Default;
-                // do background operations that involve IO or other async methods
-                
-                await ThreadHelper.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);               
-                // query Visual Studio services on main thread unless they are documented as free threaded explicitly.
-                // The reason for this is the final cast to service interface (such as IVsShell) may involve COM operations to add/release references.
-                
-                IVsShell vsShell = this.asyncServiceProvider.GetServiceAsync(typeof(SVsShell)) as IVsShell;
-                // use Visual Studio services to continue initialization
-            });
+            await TaskScheduler.Default;
+            // do background operations that involve IO or other async methods
+
+            await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);               
+            // query Visual Studio services on main thread unless they are documented as free threaded explicitly.
+            // The reason for this is the final cast to service interface (such as IVsShell) may involve COM operations to add/release references.
+
+            IVsShell vsShell = this.asyncServiceProvider.GetServiceAsync(typeof(SVsShell)) as IVsShell;
+            // use Visual Studio services to continue initialization
         }
         
         public async Task WriteLineAsync(string path, string line)  
@@ -161,7 +154,6 @@ public sealed class TestAsyncPackage : AsyncPackage
         ITextWriterService textService = await this.GetServiceAsync(typeof(STextWriterService)) as ITextWriterService;  
   
         await textService.WriteLineAsync(<userpath>), "this is a test");  
-  
     }  
   
     ```  
@@ -195,7 +187,7 @@ public sealed class TestAsyncPackage : AsyncPackage
   
         await textService.WriteLineAsync((<userpath>, "this is a test");  
   
-        await ThreadHelper.JoinableTaskFactory.SwitchToMainThreadAsync();  
+        await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);  
         TestAsyncCommand.Initialize(this);
     }  
   

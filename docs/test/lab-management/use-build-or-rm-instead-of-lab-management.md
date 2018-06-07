@@ -1,12 +1,13 @@
 ---
-title: "Use Build or Release Management for automated testing in Visual Studio | Microsoft Docs"
+title: "Use Build or Release Management for automated testing in Visual Studio"
 ms.date: 03/02/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "automated testing, lab management, test lab"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 author: gewarren
@@ -52,7 +53,7 @@ The following table summarizes the typical activities you perform in Lab Center,
 
 | Steps | With Lab Center | With Build or Release Management |
 |-------|----------------------|-----------------|
-| Manage a library of environment templates. | Create a lab environment. Install necessary software on the virtual machines. Sysprep and store the environment as a template in library. | Use SCVMM administration console directly to create and manage either virtual machine templates or service templates. When using Azure, select one of the [Azure quickstart templates](/resources/templates/). |
+| Manage a library of environment templates. | Create a lab environment. Install necessary software on the virtual machines. Sysprep and store the environment as a template in library. | Use SCVMM administration console directly to create and manage either virtual machine templates or service templates. When using Azure, select one of the [Azure quickstart templates](https://azure.microsoft.com/resources/templates/). |
 | Create a lab environment. | Select an environment template in the library and deploy it. Provide the necessary parameters to customize the virtual machine configurations. | Use SCVMM administration console directly to create VMs or service instances from templates. Use Azure portal directly to create resources. Or, create a release definition with an environment. Use the Azure tasks or tasks from the [SCVMM Integration extension](https://marketplace.visualstudio.com/items?itemname=ms-vscs-rm.scvmmapp) to create new virtual machines. Creating a new release of this definition is equivalent to creating a new environment in Lab Center. |
 | Connect to machines. | Open the lab environment in Environment viewer. | Use SCVMM administration console directly to connect to the virtual machines. Alternatively, use the IP address or DNS names of the virtual machines to open remote desktop sessions. |
 | Take a checkpoint of an environment, or restore an environment to a clean checkpoint. | Open the lab environment in Environment viewer. Select the option to take a checkpoint or to restore to a previous checkpoint. | Use SCVMM administration console directly to perform these operations on virtual machines. Or, to perform these steps as part of a larger automation, include the checkpoint tasks from the [SCVMM Integration extension](https://marketplace.visualstudio.com/items?itemname=ms-vscs-rm.scvmmapp) as part of the environment in a release definition. |

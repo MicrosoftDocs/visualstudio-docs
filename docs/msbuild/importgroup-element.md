@@ -2,11 +2,8 @@
 title: "ImportGroup Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "<ImportGroup> element [MSBuild]"
   - "ImportGroup element [MSBuild]"
 ms.assetid: dac3fa2d-6678-4017-af35-93686f53f302
-caps.latest.revision: 4
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

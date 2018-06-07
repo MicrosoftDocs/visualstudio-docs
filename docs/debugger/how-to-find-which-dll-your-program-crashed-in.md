@@ -2,12 +2,8 @@
 title: "How to: Find Which DLL Your Program Crashed In | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.dll"
 dev_langs: 
@@ -23,10 +19,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], DLL crashes"
   - "DLLs, load order of"
 ms.assetid: ecf62568-8b65-4a41-b8a4-e962ff2dfb71
-caps.latest.revision: 17
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

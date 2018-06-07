@@ -2,21 +2,17 @@
 title: "IEnumDebugCodeContexts2::Skip | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugCodeContexts2::Skip"
 helpviewer_keywords: 
   - "IEnumDebugCodeContexts2::Skip"
 ms.assetid: 3451a3eb-bf5b-4ec5-acc9-aa5a24363801
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

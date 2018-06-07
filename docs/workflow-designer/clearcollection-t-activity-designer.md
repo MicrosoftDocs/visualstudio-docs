@@ -1,28 +1,31 @@
 ---
-title: "ClearCollection&lt;T&gt; Activity Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - ClearCollection<T> Activity Designer"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Activities.Statements.ClearCollection`1.UI"
 ms.assetid: db0e5da2-7b5a-4f1a-864c-f3aeeeeb51a7
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
-# ClearCollection&lt;T&gt; Activity Designer
+# ClearCollection\<T> Activity Designer
+
 The **ClearCollection\<T>** activity designer is used to create and configure a <xref:System.Activities.Statements.ClearCollection%601> activity.
 
-## The ClearCollection<T\> Activity
+## The ClearCollection\<T> Activity
  The <xref:System.Activities.Statements.ClearCollection%601> activity clears a specified collection of all items.
 
 ### Using the ClearCollection\<T> Activity Designer
- The **ClearCollection\<T>** activity designer can be found in the **Collection** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab of the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] (Alternatively, select **Toolbar** from the **View** menu or CTRL+ALT+X.)
+ The **ClearCollection\<T>** activity designer can be found in the **Collection** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab of the Workflow Designer (Alternatively, select **Toolbar** from the **View** menu or CTRL+ALT+X.)
 
- The **ClearCollection\<T>** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.ClearCollection%601> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of ClearCollection<Int32\>. (By default, the *TypeArgument* is **Int32**. This can be changed in the property grid.) The <xref:System.Activities.Activity.DisplayName%2A> value can be edited in the header of the **ClearCollection<T\>** activity designer or in the **DisplayName** box of the property grid. The other properties must be edited on the property grid.
+ The **ClearCollection\<T>** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are placed, such as inside a <xref:System.Activities.Statements.Sequence>. Dropping the activity designer creates a <xref:System.Activities.Statements.ClearCollection%601> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of ClearCollection<Int32\>. (By default, the *TypeArgument* is **Int32**. TypeArgument can be changed in the property grid.) The <xref:System.Activities.Activity.DisplayName%2A> value can be edited in the header of the **ClearCollection<T\>** activity designer or in the **DisplayName** box of the property grid. The other properties must be edited on the property grid.
 
-### The ClearCollection<T\> Properties
+### The ClearCollection\<T> Properties
  The following table shows the <xref:System.Activities.Statements.ClearCollection%601> properties and describes how they are used in the designer.
 
 |Property Name|Required|Usage|

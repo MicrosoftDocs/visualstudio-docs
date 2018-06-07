@@ -1,13 +1,14 @@
 ---
-title: "Log File size for load tests in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Log File size for load tests in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, logging"
 ms.assetid: 417059bf-37ae-4e7a-b9b0-29bd71f1414f
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Specify the Maximum Size for the Log File for Load Tests

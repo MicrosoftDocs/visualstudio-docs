@@ -1,15 +1,17 @@
 ---
-title: "ReceiveAndSendReply Template Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - ReceiveAndSendReply Template Designer"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.ServiceModel.Activities.ReceiveAndSendReply.UI"
   - "System.ServiceModel.Activities.SendReply.UI"
 ms.assetid: d1d9a058-df7e-48f5-a2e7-3caeeba7eaa6
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # ReceiveAndSendReply Template Designer
@@ -17,7 +19,8 @@ ms.workload:
 The **ReceiveAndSendReply** template is used to create a pair of pre-configured <xref:System.ServiceModel.Activities.Receive> and <xref:System.ServiceModel.Activities.SendReply> activities within a <xref:System.Activities.Statements.Sequence> activity that are correlated as part of a request/response message exchange pattern on the server.
 
 ## The ReceiveAndSendReply Template
- Adding **ReceiveAndSendReply** template does three things besides creating the <xref:System.ServiceModel.Activities.Receive> and <xref:System.ServiceModel.Activities.SendReply> activities with a <xref:System.Activities.Statements.Sequence> activity:
+
+Adding **ReceiveAndSendReply** template does three things besides creating the <xref:System.ServiceModel.Activities.Receive> and <xref:System.ServiceModel.Activities.SendReply> activities with a <xref:System.Activities.Statements.Sequence> activity:
 
 1.  Configures the <xref:System.ServiceModel.Activities.Receive.OperationName%2A>, <xref:System.ServiceModel.Activities.Receive.ServiceContractName%2A> properties of the <xref:System.ServiceModel.Activities.Receive> activity.
 
@@ -26,16 +29,16 @@ The **ReceiveAndSendReply** template is used to create a pair of pre-configured 
 3.  Creates a <xref:System.ServiceModel.Activities.CorrelationHandle> as a variable in the parent activity.
 
 ### Using the ReceiveAndSendReply Template Designer
- The **ReceiveAndSendReply** activity designer can be found in the **Messaging** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab in [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
+ The **ReceiveAndSendReply** activity designer can be found in the **Messaging** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab in Workflow Designer (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
 
- The **ReceiveAndSendReply** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activities are usually placed. This creates a <xref:System.ServiceModel.Activities.Receive> activity that can be configured with the **Send** activity designer and a correlated <xref:System.ServiceModel.Activities.SendReply> that can be configured with the SendReplyToReceive designer.
+ The **ReceiveAndSendReply** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed. This creates a <xref:System.ServiceModel.Activities.Receive> activity that can be configured with the **Send** activity designer and a correlated <xref:System.ServiceModel.Activities.SendReply> that can be configured with the SendReplyToReceive designer.
 
  For more information about using the **Receive** designer to configure the <xref:System.ServiceModel.Activities.Receive> activity, see the [Receive](../workflow-designer/receive-activity-designer.md) topic.
 
  For more information about using the **SendReplyToReceive** designer to configure the <xref:System.ServiceModel.Activities.SendReply> activity, see the following section.
 
 ### Properties of SendReply
- The following table shows the <xref:System.ServiceModel.Activities.SendReply> properties and describes how they are used in the designer. These properties can be edited in properties grid and some can be edited on [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] designer surface.
+ The following table shows the <xref:System.ServiceModel.Activities.SendReply> properties and describes how they are used in the designer. These properties can be edited in properties grid and some can be edited on Workflow Designer designer surface.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|

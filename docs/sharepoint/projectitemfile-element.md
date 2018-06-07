@@ -2,12 +2,9 @@
 title: "ProjectItemFile Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,7 +12,7 @@ helpviewer_keywords:
   - "ProjectItemFile element"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -24,7 +21,7 @@ ms.workload:
   
 ## Syntax  
   
-```  
+```xml  
 <ProjectItemFile Source = "Name of the file"  
     Target = "Deployment path of the file"  
     Type = "Type of deployment for the file" />  
@@ -60,7 +57,7 @@ ms.workload:
   
 |||  
 |-|-|  
-|**Namespace**|http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel|  
+|**Namespace**|http<nolink>://schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|  
 |**Schema name**|SharePoint Project Item Schema|  
 |**Validation file**|ProjectItemModelSchema.xsd|  
 |**Can be empty**|No|  

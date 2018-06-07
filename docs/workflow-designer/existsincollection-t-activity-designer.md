@@ -1,28 +1,31 @@
 ---
-title: "ExistsInCollection&lt;T&gt; Activity Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - ExistsInCollection&lt;T&gt; Activity Designer"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Activities.Statements.ExistsInCollection`1.UI"
 ms.assetid: 0acf9a13-caf5-4bb4-ba22-ec37d2b7267a
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
-# ExistsInCollection&lt;T&gt; Activity Designer
+# ExistsInCollection\<T> Activity Designer
+
 The **ExistsInCollection\<T>** activity designer is used to create and configure an <xref:System.Activities.Statements.ExistsInCollection%601> activity.
 
-## The ExistsInCollection<T\> Activity
+## The ExistsInCollection\<T> Activity
  The <xref:System.Activities.Statements.ExistsInCollection%601> activity determines whether a specified item exists in a particular collection.
 
 ### Using the ExistsInCollection\<T> Activity Designer
- The **ExistsInCollection\<T>** activity designer can be found in the **Collection** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab of [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] (Alternatively, select **Toolbar** from the **View** menu or CTRL+ALT+X.)
+ The **ExistsInCollection\<T>** activity designer can be found in the **Collection** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab of Workflow Designer (Alternatively, select **Toolbar** from the **View** menu or CTRL+ALT+X.)
 
- The **ExistsInCollection\<T>** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.ExistsInCollection%601> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of ExistsInCollection<Int32\>. (By default, the *TypeArgument* is **Int32**. It can be changed in the property grid.)  The <xref:System.Activities.Activity.DisplayName%2A> value can be edited in the header of the **ExistsInCollection<T\>** activity designer or in the **DisplayName** box of the property grid. The other properties must be edited on the property grid.
+ The **ExistsInCollection\<T>** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.ExistsInCollection%601> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of ExistsInCollection<Int32\>. (By default, the *TypeArgument* is **Int32**. It can be changed in the property grid.)  The <xref:System.Activities.Activity.DisplayName%2A> value can be edited in the header of the **ExistsInCollection<T\>** activity designer or in the **DisplayName** box of the property grid. The other properties must be edited on the property grid.
 
-### The ExistsInCollection<T\> Properties
+### The ExistsInCollection\<T> Properties
  The following table shows the <xref:System.Activities.Statements.ExistsInCollection%601> properties and describes how they are used in the designer.
 
 |Property Name|Required|Usage|

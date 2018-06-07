@@ -2,11 +2,7 @@
 title: "View strings in a string visualizer | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/11/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.stringviewer"
@@ -21,10 +17,9 @@ helpviewer_keywords:
   - "string visualizer"
   - "visualizers, string"
 ms.assetid: 080fd8f1-72b0-461f-8451-3c84d5dc51df
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,12 +2,8 @@
 title: "Expressions in the debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/07/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.expressions"
 helpviewer_keywords: 
@@ -20,10 +16,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], expression evaluation"
   - "debugging [Visual Studio], variable evaluation"
 ms.assetid: 70f9b531-44c7-4d77-980d-5eddbf2bff41
-caps.latest.revision: 25
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -122,7 +117,7 @@ int main()
 ## C# - Unsupported Expressions  
   
 ### Dynamic Objects  
- You can use variables in debugger expressions that are statically typed as dynamic. When objects that implement the [IDynamicMetaObjectProvider Interface](http://msdn.microsoft.com/Library/e887a72d-ebe2-4253-a7e8-3d8d05154647) are evaluated in the Watch window, a Dynamic View node is added. The Dynamic View node shows object members but does not allow editing the values of the members.  
+ You can use variables in debugger expressions that are statically typed as dynamic. When objects that implement <xref:System.Dynamic.IDynamicMetaObjectProvider> are evaluated in the Watch window, a Dynamic View node is added. The Dynamic View node shows object members but does not allow editing the values of the members.  
   
  The following features of dynamic objects are not supported:  
   

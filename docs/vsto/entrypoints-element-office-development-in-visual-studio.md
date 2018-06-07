@@ -1,13 +1,10 @@
 ---
-title: "&lt;entryPoints&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
+title: "&lt;entryPoints&gt; element (Office development in Visual Studio)"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,16 +12,16 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <entryPoints> element"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# &lt;entryPoints&gt; Element (Office Development in Visual Studio)
+# &lt;entryPoints&gt; element (Office development in Visual Studio)
   The `entryPoints` element of the `vstav3` namespace contains all the `entryPoint` elements associated with an Office solution.  
   
 ## Syntax  
   
-```  
+```xml  
 <entryPoints>  
     <entryPoint>  
     </entryPoint>  
@@ -35,7 +32,7 @@ ms.workload:
 </entryPoints>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `entryPoints` element is required and is in the `vstav3` namespace. There is one `entryPoints` element defined in an application manifest for each Office solution. For example, if you deploy three Office solutions in a multi-project deployment, there are three `entryPoints` elements in the application manifest.  
   
  The `entryPoints` element has the following attribute.  
@@ -47,16 +44,16 @@ ms.workload:
  `entryPoints` has the following elements.  
   
 ### entryPoint  
- Required. The role of the `entryPoint` element in the `vstav3` namespace is defined in [&#60;entryPoint&#62; Element &#40;Office Development in Visual Studio&#41;](../vsto/entrypoint-element-office-development-in-visual-studio.md).  
+ Required. The role of the `entryPoint` element in the `vstav3` namespace is defined in [&#60;entryPoint&#62; element &#40;Office development in Visual Studio&#41;](../vsto/entrypoint-element-office-development-in-visual-studio.md).  
   
-## Document-Level Customization Example  
+## Document-level customization example  
   
 ### Description  
- The following code example illustrates the `entryPoints` element in an application manifest for a document-level solution deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).  
+ The following code example illustrates the `entryPoints` element in an application manifest for a document-level solution deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
   
 ### Code  
   
-```  
+```xml  
 <vstav3:entryPoints>  
   <vstav3:entryPoint   
     class="ContosoExcelWorkbook.ThisWorkbook">  
@@ -93,14 +90,14 @@ ms.workload:
 </vstav3:entryPoints>  
 ```  
   
-## VSTO Add-in Example  
+## VSTO Add-in example  
   
 ### Description  
- The following code example illustrates an `entryPoints` element in an application manifest for an application-level solution deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).  
+ The following code example illustrates an `entryPoints` element in an application manifest for an application-level solution deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
   
 ### Code  
   
-```  
+```xml  
 <vstav3:entryPoints>  
   <vstav3:entryPoint   
     class="ContosoOutlookAddIn.ThisAddIn">  
@@ -113,14 +110,14 @@ ms.workload:
 </vstav3:entryPoints>  
 ```  
   
-## Multi-Project Deployment Example  
+## Multi-project deployment example  
   
 ### Description  
- The following code example illustrates the `entryPoints` element in an application manifest for a multi-project deployment. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).  
+ The following code example illustrates the `entryPoints` element in an application manifest for a multi-project deployment. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
   
 ### Code  
   
-```  
+```xml  
 <vstav3:entryPoints   
   id="ContosoExcel">  
   <vstav3:entryPoint   
@@ -169,9 +166,9 @@ ms.workload:
 </vstav3:entryPoints>  
 ```  
   
-## See Also  
- [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)   
- [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Application Manifest](/visualstudio/deployment/clickonce-application-manifest)  
+## See also  
+ [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)   
+ [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)   
+ [ClickOnce application manifest](/visualstudio/deployment/clickonce-application-manifest)  
   
   

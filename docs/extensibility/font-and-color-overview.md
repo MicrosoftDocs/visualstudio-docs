@@ -2,20 +2,16 @@
 title: "Font and Color Overview | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], font and color"
   - "font and color control [Visual Studio SDK], editors"
 ms.assetid: 2203e4e7-8b7f-44ec-8884-6ff718d4f278
-caps.latest.revision: 22
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

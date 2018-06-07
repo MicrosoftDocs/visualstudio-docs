@@ -2,11 +2,8 @@
 title: "WriteContextTLogs | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 apiname: 
   - "WriteContextTLogs"
 apilocation: 
@@ -15,10 +12,9 @@ apitype: "COM"
 helpviewer_keywords: 
   - "WriteContextTLogs"
 ms.assetid: ffc6c7be-3f22-4624-9ffc-0122fe72b6ec
-caps.latest.revision: 5
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

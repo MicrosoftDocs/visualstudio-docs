@@ -1,7 +1,7 @@
 ---
-title: "Counter Sets and Threshold Rules for load testing in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Counter Sets and Threshold Rules for load testing in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "counters, counter sets"
   - "load tests, thresholds"
@@ -12,7 +12,8 @@ helpviewer_keywords:
 ms.assetid: 9e14d955-f3a4-4717-bbfe-7f08cdda5678
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Specify Counter Sets and Threshold Rules for Computers in a Load Test
@@ -45,7 +46,7 @@ Counter data is gathered on the server and on any computer where a test is run. 
 
 There are three counter categories: percentages, counts, and averages. Some examples are % CPU usage, SQL Server lock counts, and IIS requests per second.
 
-![Load Test Counter Sets](../test/media/loadtestcountersets.png "LoadTestCounterSets")
+![Load Test Counter Sets](../test/media/loadtestcountersets.png)
 
 Performance data for individual HTTP requests is reported by the computer that runs a test. such as an agent computer. For requests, you might monitor data such as Average Time to First Byte, Response Time, and Requests per Second.
 

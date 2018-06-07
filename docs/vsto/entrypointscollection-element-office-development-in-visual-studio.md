@@ -1,13 +1,10 @@
 ---
-title: "&lt;entryPointsCollection&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
+title: "&lt;entryPointsCollection&gt; element (Office development in Visual Studio)"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,16 +14,16 @@ helpviewer_keywords:
   - "entryPointsCollection element"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# &lt;entryPointsCollection&gt; Element (Office Development in Visual Studio)
+# &lt;entryPointsCollection&gt; element (Office development in Visual Studio)
   The `entryPointsCollection` element of the `vstav3` namespace contains all the `entryPoints` elements associated with Office solutions.  
   
 ## Syntax  
   
-```  
+```xml  
 <entryPointsCollection>  
   <entryPoints>  
     <entryPoint>  
@@ -39,7 +36,7 @@ ms.workload:
 </entryPointsCollection>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `entryPointsCollection` element is required and is in the `vstav3` namespace. Child elements must also be in this namespace. There is only one `entryPointsCollection` element defined in an application manifest.  
   
  The `entryPointsCollection` element has no attributes.  
@@ -47,16 +44,16 @@ ms.workload:
  `entryPointsCollection` has the following elements.  
   
 ### entryPoints  
- Required. The role of the `entryPoints` element in the `vstav3` namespace is defined in [&#60;entryPoints&#62; Element &#40;Office Development in Visual Studio&#41;](../vsto/entrypoints-element-office-development-in-visual-studio.md).  
+ Required. The role of the `entryPoints` element in the `vstav3` namespace is defined in [&#60;entryPoints&#62; element &#40;Office development in Visual Studio&#41;](../vsto/entrypoints-element-office-development-in-visual-studio.md).  
   
-## Document-Level Customization Example  
+## Document-level customization example  
   
 ### Description  
- The following code example illustrates the `entryPointsCollection` element in an application manifest for a document-level solution deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).  
+ The following code example illustrates the `entryPointsCollection` element in an application manifest for a document-level solution deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
   
 ### Code  
   
-```  
+```xml  
 <vstav3:entryPointsCollection>  
     <vstav3:entryPoints>  
       <vstav3:entryPoint   
@@ -95,14 +92,14 @@ ms.workload:
   </vstav3:entryPointsCollection>  
 ```  
   
-## VSTO Add-in Example  
+## VSTO Add-in example  
   
 ### Description  
- The following code example illustrates an `entryPointsCollection` element in an application manifest for an application-level solution deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).  
+ The following code example illustrates an `entryPointsCollection` element in an application manifest for an application-level solution deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
   
 ### Code  
   
-```  
+```xml  
 <vstav3:entryPointsCollection>  
     <vstav3:entryPoints>  
       <vstav3:entryPoint   
@@ -117,14 +114,14 @@ ms.workload:
   </vstav3:entryPointsCollection>  
 ```  
   
-## Multi-Project Deployment Example  
+## Multi-Project deployment example  
   
 ### Description  
- The following code example illustrates an `entryPointsCollection` element in an application manifest for multi-project deployment with two Office solutions. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).  
+ The following code example illustrates an `entryPointsCollection` element in an application manifest for multi-project deployment with two Office solutions. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
   
 ### Code  
   
-```  
+```xml  
 <vstav3:entryPointsCollection>  
       <vstav3:entryPoints   
         id="ContosoExcel">  
@@ -175,9 +172,9 @@ ms.workload:
     </vstav3:entryPointsCollection>  
 ```  
   
-## See Also  
- [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)   
- [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Application Manifest](/visualstudio/deployment/clickonce-application-manifest)  
+## See also  
+ [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)   
+ [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)   
+ [ClickOnce application manifest](/visualstudio/deployment/clickonce-application-manifest)  
   
   

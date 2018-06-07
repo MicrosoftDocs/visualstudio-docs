@@ -2,12 +2,9 @@
 title: "Walkthrough: Extending Server Explorer to Display Web Parts | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -18,7 +15,7 @@ helpviewer_keywords:
   - "SharePoint Connections [SharePoint development in Visual Studio], creating a new node type"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -105,13 +102,11 @@ ms.workload:
   
 3.  At the top of the dialog box, choose **.NET Framework 3.5** in the list of versions of the .NET Framework.  
   
-4.  
-  
-5.  In the list of project templates, choose **Class Library**, name the project **WebPartCommands**, and then choose the **OK** button.  
+4.  In the list of project templates, choose **Class Library**, name the project **WebPartCommands**, and then choose the **OK** button.  
   
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the **WebPartCommands** project to the solution and opens the default Class1 code file.  
   
-6.  Delete the Class1 code file from the project.  
+5.  Delete the Class1 code file from the project.  
   
 ## Configuring the Projects  
  Before you write code to create the extension, you must add code files and assembly references, and configure the project settings.  

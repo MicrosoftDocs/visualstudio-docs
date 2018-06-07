@@ -2,22 +2,18 @@
 title: "Adding Command-Line Switches | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "command-line switches, adding"
   - "command-line switches, retrieving"
   - "IVsAppCommandLine::GetOption method"
   - "command line, switches"
 ms.assetid: 8bbbd87e-76fe-4fb5-8ef9-65f5e31967cf
-caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

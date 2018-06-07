@@ -2,12 +2,9 @@
 title: "How to: Customize a SharePoint Feature | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.RAD.FeatureDesigner.SwitchView"
   - "VS.SharePointTools.RAD.featureDesigner.Manifest"
@@ -21,7 +18,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, features"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---

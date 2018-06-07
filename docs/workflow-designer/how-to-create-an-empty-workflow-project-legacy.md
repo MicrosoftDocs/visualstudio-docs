@@ -1,22 +1,25 @@
 ---
-title: "How to: Create an Empty Workflow Project (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-helpviewer_keywords: 
+title: "Workflow Designer - How to: Create an Empty Workflow Project (Legacy)"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+helpviewer_keywords:
   - "projects, empty workflow"
   - "empty workflow projects"
   - "workflows, empty workflow projects"
 ms.assetid: f81b9cf2-9adb-47a2-936b-cb1851614e19
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # How to: Create an Empty Workflow Project (Legacy)
-Follow these steps to create an Empty Workflow Project using the legacy Windows Workflow Designer provided by [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)]. Use the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] when you need to target either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].
 
-### To create an empty workflow project
+Follow these steps to create an Empty Workflow Project using the legacy Windows Workflow Designer provided by Visual Studio 2010. Use the legacy Workflow Designer when you need to target either the .NET Framework version 3.5 or the WinFX.
+
+## To create an empty workflow project
 
 1.  Start Visual Studio.
 
@@ -27,7 +30,7 @@ Follow these steps to create an Empty Workflow Project using the legacy Windows 
 3.  Select either the **.NET Framework 3.0** option or the **.NET Framework 3.5** option in the drop down list at the top of the **New Project** window to access the legacy designer.
 
     > [!NOTE]
-    > The default option in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] is **.NET Framework 4**. This option is used to create [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications that target the [!INCLUDE[netfx40_short](../workflow-designer/includes/netfx40_short_md.md)] and it does not use the legacy designer.
+    > The default option in Visual Studio 2010 is **.NET Framework 4**. This option is used to create Windows Workflow Foundation (WF) applications that target the .NET Framework 4 and it does not use the legacy designer.
 
 4.  In the **Project Types** pane, select Visual C# or Visual Basic (under **Other Languages**), and then select **Workflow**.
 

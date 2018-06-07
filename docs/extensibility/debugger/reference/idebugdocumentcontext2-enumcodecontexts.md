@@ -2,21 +2,17 @@
 title: "IDebugDocumentContext2::EnumCodeContexts | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentContext2::EnumCodeContexts"
 helpviewer_keywords: 
   - "IDebugDocumentContext2::EnumCodeContexts"
 ms.assetid: 627af69c-5cce-4e1d-8233-5f4d8dbc62e5
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

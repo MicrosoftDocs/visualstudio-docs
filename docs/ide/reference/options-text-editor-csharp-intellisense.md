@@ -1,23 +1,22 @@
 ---
-title: "Options, Text Editor, C#, IntelliSense | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+title: Options, Text Editor, C#, IntelliSense
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "article"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Intellisense"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "underlines, wavy"
   - "IntelliSense [C#], options"
   - "IntelliSense [C#], wavy underlines"
   - "wavy underlines"
   - "Text Editor Options dialog box, IntelliSense"
 ms.assetid: 3466dedb-e5f4-424c-8dd8-e4941b2f4fc2
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "dotnet"
 ---
 # Options, Text Editor, C#, IntelliSense
@@ -83,5 +82,5 @@ The **IntelliSense** options page contains the following options:
 
 ## See also
 
-[General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)  
-[Using IntelliSense](../../ide/using-intellisense.md)
+- [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)
+- [Using IntelliSense](../../ide/using-intellisense.md)

@@ -1,13 +1,9 @@
 ---
-title: "General, Environment, Options Dialog Box | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: General, Environment, Options Dialog Box
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
   - "VS.Message.0x800a002e"
   - "VS.ToolsOptionsPages.Environment.General"
@@ -26,10 +22,9 @@ helpviewer_keywords:
   - "editors, autocompletion"
   - "Options dialog box, General Environment"
   - "General Environment Options dialog box"
-caps.latest.revision: 34
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---
@@ -67,21 +62,26 @@ Uses hardware graphics acceleration if it is available, rather than software acc
 ## Other
 
 **Items shown in Window menu**
+
 Customizes the number of windows that appear in the Windows list of the **Window** menu. Type a number between 1 and 24. By default, the number is 10.
 
 **Items shown in recently used lists**
+
 Customizes the number of most recently used projects and files that appear on the **File** menu. Type a number between 1 and 24. By default, the number is 10. This is an easy way to retrieve recently used projects and files.
 
 **Show status bar**
+
 Displays the status bar. The status bar is located at the bottom of the IDE window and displays information about the progress of ongoing operations.
 
 **Close button affects active tool window only**
+
 Specifies that when the **Close** button is clicked, only the tool window that has focus is closed and not all of the tool windows in the docked set. By default, this option is selected.
 
 **Auto Hide button affects active tool window only**
+
 Specifies that when the **Auto Hide** button is clicked, only the tool window that has focus is hidden automatically and not all of the tool windows in the docked set. By default, this option is not selected.
 
 ## See also
 
-[Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)
-[Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md)
+- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)
+- [Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md)

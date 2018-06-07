@@ -2,21 +2,16 @@
 title: "How To: Use the Concurrency Visualizer Markers SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: 19a45032-f8a7-4137-890e-2ceeec938b8d
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How To: Use the Concurrency Visualizer Markers SDK
+# How To: Use the Concurrency Visualizer markers SDK
 This topic shows how to use the Concurrency Visualizer SDK to create spans and write flags, messages, and alerts.  
   
 ### To use C++  
@@ -177,5 +172,5 @@ This topic shows how to use the Concurrency Visualizer SDK to create spans and w
   
      ![Concurrency Visualizer with 3 custom marker series](../profiling/media/cvmarkerseriesmanaged.png "CvMarkerSeriesManaged")  
   
-## See Also  
+## See also  
  [Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)

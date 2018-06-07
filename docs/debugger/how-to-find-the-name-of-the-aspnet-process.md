@@ -2,12 +2,8 @@
 title: "How to: Find the Name of the ASP.NET Process | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -17,10 +13,9 @@ helpviewer_keywords:
   - "ASP.NET debugging, ASP.NET process"
   - "ASP.NET process"
 ms.assetid: 931a7597-b0f0-4a28-931d-46e63344435f
-caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "aspnet"
 ---

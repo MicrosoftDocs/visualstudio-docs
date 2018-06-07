@@ -1,35 +1,35 @@
 ---
-title: "Adding Extensions to DSL Definitions | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.topic: "article"
+title: Adding Extensions to DSL Definitions
+ms.date: 11/04/2016
+ms.topic: conceptual
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
-# Adding Extensions to DSL Definitions
-DSL Definition extension allows you to create a package of extensions to a domain-specific language (DSL). The DSL extension, which is contained in a Visual Studio Integration Extension (VSIX), can be installed on a user's computer in the same manner as a DSL. The additional features can be dynamically enabled and disabled at run time. DSLs do not have to be explicitly designed for extension, and extensions can be designed later or by third parties without altering the extended DSL.  
-  
- The additional features can include the following:  
-  
--   Properties for model and presentation elements  
-  
--   Decorators for shapes and connectors  
-  
--   Classes, relationships, shapes and connectors  
-  
--   Validation constraints  
-  
--   Toolbox items and tabs  
-  
- A user of an extended DSL can create and save a model that contains instances of the additional features, and these can be read by other users who have installed the appropriate extension. Users who have not installed the extension cannot use the additional features, but they can update and save a model without losing the additional features.  
+# Add Extensions to DSL Definitions
+
+DSL Definition extension allows you to create a package of extensions to a domain-specific language (DSL). The DSL extension, which is contained in a Visual Studio Integration Extension (VSIX), can be installed on a user's computer in the same manner as a DSL. The additional features can be dynamically enabled and disabled at run time. DSLs do not have to be explicitly designed for extension, and extensions can be designed later, or by third parties, without altering the extended DSL.
+
+DSL extensions can include the following features:
+
+-   Properties for model and presentation elements
+
+-   Decorators for shapes and connectors
+
+-   Classes, relationships, shapes, and connectors
+
+-   Validation constraints
+
+-   Toolbox items and tabs
+
+A user of an extended DSL can create and save a model that contains instances of the additional features. The model can be read by other users who have installed the appropriate extension. Users who have not installed the extension cannot use the additional features, but they can update and save a model without losing the additional features.
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
-## See Also  
- [Related blog posts](https://blogs.msdn.microsoft.com/visualstudioalm/tag/code-index/)
+## See Also
+
+- [Related blog posts](https://blogs.msdn.microsoft.com/visualstudioalm/tag/code-index/)

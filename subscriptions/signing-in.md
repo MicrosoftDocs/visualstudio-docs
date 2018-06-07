@@ -1,17 +1,17 @@
 ---
 title: Signing in to Visual Studio Subscriptions | Microsoft Docs
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 12/11/2017
-Ms.topic: Get-Started-Article
-Description:  How to Sign In to Your Visual Studio Subscription
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 12/11/2017
+ms.topic: Get-Started-Article
+description:  How to Sign In to Your Visual Studio Subscription
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# Signing in to Your Visual Studio Subscription
+# Signing in to your Visual Studio subscription
 
 The steps to sign in to your Visual Studio subscription depend on the kind of account you're using.  For example, you may be using a Microsoft Account (MSA) or an email address supplied by your employer or school.  
 

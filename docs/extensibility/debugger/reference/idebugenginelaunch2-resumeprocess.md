@@ -2,21 +2,17 @@
 title: "IDebugEngineLaunch2::ResumeProcess | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngineLaunch2::ResumeProcess"
 helpviewer_keywords: 
   - "IDebugEngineLaunch2::ResumeProcess"
 ms.assetid: 61ccc14e-75c6-44e7-aae4-57a9aac52089
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

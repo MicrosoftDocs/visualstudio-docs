@@ -2,12 +2,9 @@
 title: "Additional Information for SharePoint Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.errors.general"
   - "VS.SharePointTools.Project.Errors.General"
@@ -21,14 +18,14 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, troubleshooting"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Additional Information for SharePoint Errors
+# Additional information for SharePoint errors
   You can find assistance in troubleshooting [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint tools errors and warnings in troubleshooting topics and the Microsoft Developer Network (MSDN) public forums.  
   
-## Troubleshooting Errors and Issues  
+## Troubleshoot errors and issues
  For assistance with some common errors and other issues in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint tools, see the following topics:  
   
 -   [Troubleshooting SharePoint Solutions](../sharepoint/troubleshooting-sharepoint-solutions.md)  
@@ -37,7 +34,7 @@ ms.workload:
   
 -   [Troubleshooting SharePoint Packaging and Deployment](../sharepoint/troubleshooting-sharepoint-packaging-and-deployment.md)  
   
-## Other Resources  
+## Other resources
  The following table lists the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint tools forums and other resources available on MSDN.  
   
 |Term|Definition|  
@@ -48,7 +45,7 @@ ms.workload:
   
  If you still cannot find  the answers that you need, you can access online support options, such as contacting Microsoft Product Support Services or searching KnowledgeBase articles. For more information, see the [Microsoft Help and Support](http://go.microsoft.com/fwlink/?LinkID=155371) page.  
   
-## See Also  
+## See also
  [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)  
   
-  
+ 

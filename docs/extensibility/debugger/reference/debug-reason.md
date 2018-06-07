@@ -2,21 +2,17 @@
 title: "DEBUG_REASON | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DEBUG_REASON"
 helpviewer_keywords: 
   - "DEBUG_REASON enumeration"
 ms.assetid: ad2ee898-8648-4671-9078-d32873862346
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

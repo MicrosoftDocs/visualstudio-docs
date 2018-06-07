@@ -2,21 +2,17 @@
 title: "IDebugProperty2::GetExtendedInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProperty2::GetExtendedInfo"
 helpviewer_keywords: 
   - "IDebugProperty2::GetExtendedInfo"
 ms.assetid: 0c9c0b2b-7540-4424-adb5-fce7aa37a026
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

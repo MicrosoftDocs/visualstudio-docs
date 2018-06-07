@@ -2,12 +2,9 @@
 title: "Walkthrough: Import a Custom Master Page and Site Page with an Image | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,7 +13,7 @@ helpviewer_keywords:
   - "importing items [SharePoint development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -57,7 +54,7 @@ ms.workload:
   
 5.  Replace the existing markup with the following markup.  
   
-    ```  
+    ```aspx-csharp  
     <%@ Master Language="C#" %>  
     <%@ Register tagprefix="SharePoint" namespace="Microsoft.SharePoint.WebControls" assembly="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>  
     <html dir="ltr">  
@@ -110,7 +107,7 @@ ms.workload:
   
 5.  Replace the existing markup with the following markup.  
   
-    ```  
+    ```aspx-csharp  
     <%@ Import Namespace="Microsoft.SharePoint.ApplicationPages" %>  
     <%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>  
     <%@ Register Tagprefix="Utilities" Namespace="Microsoft.SharePoint.Utilities" Assembly="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>  

@@ -2,21 +2,17 @@
 title: "FIELD_KIND | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "FIELD_KIND"
 helpviewer_keywords: 
   - "FIELD_KIND enumeration"
 ms.assetid: fd522b9c-52e2-42fa-939d-343347d5c3b1
-caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

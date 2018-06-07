@@ -2,21 +2,17 @@
 title: "IDebugThread2::GetProgram | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugThread2::GetProgram"
 helpviewer_keywords: 
   - "IDebugThread2::GetProgram"
 ms.assetid: 8c9c5ea1-2031-472e-bc8f-30e22e754566
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

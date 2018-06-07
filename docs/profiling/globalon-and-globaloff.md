@@ -2,17 +2,12 @@
 title: "GlobalOn and GlobalOff | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: 24b0ed68-d19e-473e-9af3-252c11d82bcf
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -35,7 +30,7 @@ The VSPerfCmd.exe **GlobalOff** and **GlobalOn** options pause and resume profil
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /{GlobalOff|GlobalOn}  
   
 VSPerfCmd.exe /Start:Method /{GlobalOff|GlobalOn} [Options]  
@@ -67,7 +62,7 @@ VSPerfCmd.exe {Launch:AppName|Attach:PID} /{GlobalOff|GlobalOn}[Options]
 ## Example  
  In this example, the **GlobalOff** and **GlobalOn** options are used to avoid collecting profiling data for application startup and shutdown.  
   
-```  
+```cmd  
 ; Initialize the profiler with profiling stopped.  
 VSPerfCmd.exe /Start:Trace /Output:Instrument.vsp /GlobalOff  
 ; Start an instrumented application and wait for it to warm up.  

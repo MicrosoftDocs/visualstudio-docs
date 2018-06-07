@@ -1,17 +1,13 @@
 ---
-title: "Analyze Memory Usage in Visual Studio | Microsoft Docs"
-ms.custom: "H1Hack27Feb2017"
+title: "Measure memory usage in your apps"
+description: "Find memory leaks and inefficient memory while you're debugging with the debugger-integrated diagnostic tool."
+ms.custom: "mvc"
 ms.date: "04/25/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-caps.latest.revision: 13
+ms.technology: "vs-ide-debug"
+ms.topic: "tutorial"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -30,6 +26,12 @@ Find memory leaks and inefficient memory while you're debugging with the debugge
 >  **Custom Allocator Support** The native memory profiler works by collecting allocation [ETW](/windows-hardware/drivers/devtest/event-tracing-for-windows--etw-) event data emitted by during runtime.  Allocators in the CRT and Windows SDK have been annotated at the source level so that their allocation data can be captured.  If you are writing your own allocators, then any functions that return a pointer to newly allocated heap memory can be decorated with [__declspec](/cpp/cpp/declspec)(allocator), as seen in this example for myMalloc:  
 >   
 >  `__declspec(allocator) void* myMalloc(size_t size)` 
+
+In this tutorial, you will:
+
+> [!div class="checklist"]
+> * Take snapshots of memory
+> * Analyze memory usage data
 
 ## Collect memory usage data
 
@@ -162,6 +164,9 @@ To analyze memory usage, click one of the links that opens up a detailed report 
   
  [Visual C++ Blog: Memory Profiling in Visual C++ 2015](https://blogs.msdn.microsoft.com/vcblog/2015/10/21/memory-profiling-in-visual-c-2015/)  
 
-## See Also
- [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling Feature Tour](../profiling/profiling-feature-tour.md)
+## Next steps
+
+In this tutorial, you've learned how to collect and analyze memory usage data. If you already completed the [tour of the profiler](../profiling/profiling-feature-tour.md), you may want to get a quick look at how to analyze CPU usage in your apps.
+
+> [!div class="nextstepaction"]
+> [Analyze CPU usage](../profiling/beginners-guide-to-performance-profiling.md) 

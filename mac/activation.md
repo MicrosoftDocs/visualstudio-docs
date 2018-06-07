@@ -1,10 +1,9 @@
 ---
-title: "Enable Subscription for Visual Studio for Mac | Microsoft Docs"
+title: "Enable Subscription for Visual Studio for Mac"
 description: This article describes how to use your Microsoft account to enable your subscription and unlock features in Visual Studio for Mac
 author: asb3993
 ms.author: amburns
-ms.date: 04/14/2017
-ms.topic: article
+ms.date: 05/06/2018
 ms.assetid: 898DFEB8-5757-4CCE-8AD2-8BC7706F5855
 ---
 
@@ -16,7 +15,7 @@ Visual Studio for Mac provides you with three different subscription levels to c
 * Visual Studio Professional for Mac
 * Visual Studio Community for Mac
 
-To start using a subscription, log in to Visual Studio for Mac by following the steps in the [Signing in to Visual Studio for Mac](~/signing-in.md) guide. Signing in activates your subscription, which is displayed in the accounts dialog:
+To start using a subscription, log in to Visual Studio for Mac by following the steps in the [Signing in to Visual Studio for Mac](signing-in.md) guide. Signing in activates your subscription, which is displayed in the accounts dialog:
 
 ![Show user license dialog](media/user-accounts-login.png)
 
@@ -26,11 +25,11 @@ If your subscription has expired, you have two options:
 
 1. Renew your subscription. You can renew your subscription by browsing to [https://www.visualstudio.com/vs/pricing/](https://www.visualstudio.com/vs/pricing/).
 
-2. If you have another account with an active subscription, you can add it to Visual Studio for Mac as detailed in the [Adding multiple user accounts](~/signing-in.md) article. Visual Studio for Mac will detect the best available license from all accounts that you have added. 
+2. If you have another account with an active subscription, you can add it to Visual Studio for Mac as detailed in the [Adding multiple user accounts](signing-in.md) article. Visual Studio for Mac will detect the best available license from all accounts that you have added. 
 
 ## Product key usage
 
-Currently, there is no way to utilize a product key to enable Professional or Enterprise entitlements for Visual Studio for Mac. To use Visual Studio Enterprise for Mac or Visual Studio Professional for Mac, you must have a relevant [subscription](https://www.visualstudio.com/subscriptions/) and be [signed in](~/signing-in.md) to the IDE.
+Currently, there is no way to utilize a product key to enable Professional or Enterprise entitlements for Visual Studio for Mac. To use Visual Studio Enterprise for Mac or Visual Studio Professional for Mac, you must have a relevant [subscription](https://www.visualstudio.com/subscriptions/) and be [signed in](signing-in.md) to the IDE.
 
 ## Offline activation
 

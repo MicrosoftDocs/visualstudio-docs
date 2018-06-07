@@ -1,22 +1,16 @@
 ---
-title: How To Define Custom Menu Commands for Python Projects in Visual Studio | Microsoft Docs
+title: How To define custom menu commands for Python projects
 description: Demonstrates how to edit project and targets files to add custom commands to the Python project context menu in Visual Studio. Commands can invoke on executable programs, scripts, modules, inline code snippets, and pip.
-ms.custom:
 ms.date: 02/02/2018
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
-ms.topic: "article"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: ghogen
+manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Defining custom commands for Python projects
@@ -46,7 +40,7 @@ Each custom command can refer to a Python file, a Python module, inline Python c
 
 To familiarize yourself with custom commands, this section walks through a simple example that runs a project's startup file directly using python.exe. (Such a command is effectively the same as using **Debug > Start Without Debugging**.)
 
-1. Create a new project named "Python-CustomCommands" using the "Python Application" template. (See [Quickstart: Create a Python project from a template](quickstart-02-project-from-template.md) for instructions if you're not already familiar with the process.)
+1. Create a new project named "Python-CustomCommands" using the "Python Application" template. (See [Quickstart: Create a Python project from a template](quickstart-02-python-in-visual-studio-project-from-template.md) for instructions if you're not already familiar with the process.)
 
 1. In `Python_CustomCommands.py`, add the code `print("Hello custom commands")`.
 
@@ -148,7 +142,7 @@ All attribute values are case-insensitive.
 | TargetType | Yes | Specifies what the Target attribute contains and how it's used along with the Arguments attribute:<ul><li>**executable**: Run the executable named in Target, appending the value in Arguments, as if entered directly on the command line. The value must contain only a program name without arguments.</li><li>**script**: Run `python.exe` with the filename in Target, followed with the value in Arguments.</li><li>**module**: Run `python -m` followed by the module name in Target, followed with the value in Arguments.</li><li>**code**: Run the inline code contained in Target. The Arguments value is ignored.</li><li>**pip**: Run `pip` with the command in Target, followed by Arguments; is ExecuteIn is set to "output", however, pip assumes the `install` command and uses Target as the package name.</li></ul> |
 | Target | Yes | The filename, module name, code, or pip command to use, depending on the TargetType. |
 | Arguments | Optional | Specifies a string of arguments (if any) to give to the target. Note that when TargetType is `script`, the arguments are given to the Python program, not `python.exe`. Ignored for the `code` TargetType. |
-| ExecuteIn | Yes | Specifies the environment in which to run the command:<ul><li>**console**: (Default) Runs Target and the arguments as if they are entered directly on the command line. A command window appears while the Target is running, then is closed automatically.</li><li>**consolepause**: Same a console, but waits for a keypress before closing the window.</li><li>**output**: Runs Target and displays its results in the Output window in Visual Studio. If TargetType is "pip", Visual Studio uses Target as the package name and appends Arguments.</li><li>**repl**: Runs Target in the [Python Interactive Window](interactive-repl.md); the optional display name is used for the title of the window.</li><li>**none**: behaves the same as console.</li></ul>|
+| ExecuteIn | Yes | Specifies the environment in which to run the command:<ul><li>**console**: (Default) Runs Target and the arguments as if they are entered directly on the command line. A command window appears while the Target is running, then is closed automatically.</li><li>**consolepause**: Same a console, but waits for a keypress before closing the window.</li><li>**output**: Runs Target and displays its results in the Output window in Visual Studio. If TargetType is "pip", Visual Studio uses Target as the package name and appends Arguments.</li><li>**repl**: Runs Target in the [Python Interactive Window](python-interactive-repl-in-visual-studio.md); the optional display name is used for the title of the window.</li><li>**none**: behaves the same as console.</li></ul>|
 | WorkingDirectory | Optional | The folder in which to run the command. |
 | ErrorRegex<br>WarningRegEx | Optional | Used only when ExecuteIn is `output`. Both values specify a regular expression with which Visual Studio parses command output to show errors and warnings in its Error List window. If not specified, the command does not affect the Error List window. For more information on what Visual Studio expects, see [Named capture groups](#named-capture-groups-for-regular-expressions). |
 | RequiredPackages | Optional | A list of package requirements for the command using the same format as [requirements.txt](https://pip.readthedocs.io/en/1.1/requirements.html) (pip.readthedocs.io). The **Run PyLint** command, for example specifies `pylint>=1.0.0`. Before running the command, Visual Studio checks that all packages in the list are installed. Visual Studio uses pip to install any missing packages. |

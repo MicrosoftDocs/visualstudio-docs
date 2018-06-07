@@ -2,12 +2,9 @@
 title: "Binding Keyboard Shortcuts to Menu Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "keyboard command"
   - "keyboards"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "keyboard shortcuts"
   - "menu items"
 ms.assetid: 19f483b6-4d3e-424e-9d68-dc129c788e47
-caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

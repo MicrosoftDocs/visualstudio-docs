@@ -2,21 +2,17 @@
 title: "IDebugDocumentContext2::Compare | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentContext2::Compare"
 helpviewer_keywords: 
   - "IDebugDocumentContext2::Compare"
 ms.assetid: 2327b1ba-52d0-42fb-a01e-63cb4b332d2f
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

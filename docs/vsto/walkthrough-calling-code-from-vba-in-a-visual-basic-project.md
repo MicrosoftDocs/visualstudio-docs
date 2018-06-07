@@ -1,13 +1,10 @@
 ---
-title: "Walkthrough: Calling Code from VBA in a Visual Basic Project | Microsoft Docs"
+title: "Walkthrough: Call code from VBA in a Visual Basic project"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -22,11 +19,11 @@ helpviewer_keywords:
   - "document-level customizations [Office development in Visual Studio], calling code"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Calling Code from VBA in a Visual Basic Project
+# Walkthrough: Call code from VBA in a Visual Basic project
   This walkthrough demonstrates how to call a method in a document-level customization for Microsoft Office Word from Visual Basic for Applications (VBA) code in the document. The procedure involves three basic steps: add a method to the `ThisDocument` host item class, expose the method to VBA code, and then call the method from VBA code in the document.  
   
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]  
@@ -55,12 +52,12 @@ ms.workload:
   
 -   Microsoft Word  
   
-## Creating a Document That Contains VBA Code  
+## Create a document that contains VBA code  
  The first step is to create a macro-enabled document that contains a simple VBA macro. The document must contain a VBA project before you create a Visual Studio project that is based on that document. Otherwise, Visual Studio cannot modify the VBA project to enable VBA code to call into the customization assembly.  
   
  If you already have a document that contains VBA code that you want to use, you can skip this step.  
   
-#### To create a document that contains VBA code  
+### To create a document that contains VBA code  
   
 1.  Start Word.  
   
@@ -69,7 +66,7 @@ ms.workload:
 3.  On the Ribbon, click the **Developer** tab.  
   
     > [!NOTE]  
-    >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the Developer Tab on the Ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).  
+    >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).  
   
 4.  In the **Code** group, click **Visual Basic**.  
   
@@ -81,17 +78,17 @@ ms.workload:
   
 6.  Add the following VBA code to the code file. This code defines a simple function that does nothing. The only purpose of this function is to ensure that a VBA project exists in the document. This is required for later steps in this walkthrough.  
   
-    ```  
+    ```vb  
     Sub EmptySub()  
     End Sub  
     ```  
   
 7.  Save the document and exit Word.  
   
-## Creating the Project  
+## Create the project  
  Now you can create a document-level project for Word that uses the macro-enabled document you created earlier.  
   
-#### To create a new project  
+### To create a new project  
   
 1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
@@ -115,10 +112,10 @@ ms.workload:
   
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the **DocumentWithVBA** document in the designer and adds the **CallingCodeFromVBA** project to **Solution Explorer**.  
   
-## Trusting the Location of the Document  
+## Trust the location of the document  
  Before you can expose code in your solution to VBA code in the document, you must trust VBA in the document to run. There are several ways to do this. For this walkthrough, trust the location of the document in the **Trust Center** in Word.  
   
-#### To trust the location of the document  
+### To trust the location of the document  
   
 1.  Start Word.  
   
@@ -146,10 +143,10 @@ ms.workload:
   
 13. Exit Word.  
   
-## Adding a Method to the ThisDocument Class  
+## Add a method to the ThisDocument class  
  Now that the VBA project is set up, add a method to the `ThisDocument` host item class that you can call from VBA code.  
   
-#### To add a method to the ThisDocument class  
+### To add a method to the ThisDocument class  
   
 1.  In **Solution Explorer**, right-click **ThisDocument.vb**, and then click **View Code**.  
   
@@ -161,10 +158,10 @@ ms.workload:
   
 3.  Build the project.  
   
-## Exposing the Method to VBA Code  
+## Expose the method to VBA code  
  To expose the `CreateTable` method to VBA code in the document, set the **EnableVbaCallers** property for the `ThisDocument` host item to **True**.  
   
-#### To expose the method to VBA code  
+### To expose the method to VBA code  
   
 1.  In **Solution Explorer**, double-click **ThisDocument.vb**.  
   
@@ -176,15 +173,15 @@ ms.workload:
   
 4.  Build the project.  
   
-## Calling the Method from VBA Code  
+## Call the method from VBA code  
  You can now call the `CreateTable` method from VBA code in the document.  
   
 > [!NOTE]  
->  In this walkthrough, you will add VBA code to the document while debugging the project. The VBA code you add to this document will be overwritten the next time that you build the project, because Visual Studio replaces the document in the build output folder with a copy of the document from the main project folder. If you want to save the VBA code, you can copy it into the document in the project folder. For more information, see [Combining VBA and Document-Level Customizations](../vsto/combining-vba-and-document-level-customizations.md).  
+>  In this walkthrough, you will add VBA code to the document while debugging the project. The VBA code you add to this document will be overwritten the next time that you build the project, because Visual Studio replaces the document in the build output folder with a copy of the document from the main project folder. If you want to save the VBA code, you can copy it into the document in the project folder. For more information, see [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md).  
   
-#### To call the method from VBA code  
+### To call the method from VBA code  
   
-1.  Press F5 to run your project.  
+1.  Press **F5** to run your project.  
   
 2.  On the **Developer** tab, in the **Code** group, click **Visual Basic**.  
   
@@ -196,30 +193,30 @@ ms.workload:
   
      This code calls the `CreateTable` method in the customization assembly. The macro accesses this method by using the `CallVSTOAssembly` property of the `ThisDocument` object. This property was automatically generated when you set the **EnableVbaCallers** property earlier in this walkthrough.  
   
-    ```  
+    ```vb  
     Sub CreateTable()  
         Call ThisDocument.CallVSTOAssembly.CreateTable("Employee Name", "Start Date")  
     End Sub  
     ```  
   
-5.  Press F5.  
+5.  Press **F5**.  
   
 6.  Verify that a new table was added to the document.  
   
 7.  Exit Word without saving your changes.  
   
-## Next Steps  
+## Next steps  
  You can learn more about calling code in Office solutions from VBA in these topics:  
   
--   Call code in a Visual C# customization from VBA. This process is different from the Visual Basic process. For more information, see [Walkthrough: Calling Code from VBA in a Visual C&#35; Project](../vsto/walkthrough-calling-code-from-vba-in-a-visual-csharp-project.md).  
+-   Call code in a Visual C# customization from VBA. This process is different from the Visual Basic process. For more information, see [Walkthrough: Call code from VBA in a Visual C&#35; project](../vsto/walkthrough-calling-code-from-vba-in-a-visual-csharp-project.md).  
   
--   Call code in a VSTO Add-in from VBA. For more information, see [Walkthrough: Calling Code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
+-   Call code in a VSTO Add-in from VBA. For more information, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
   
-## See Also  
- [Combining VBA and Document-Level Customizations](../vsto/combining-vba-and-document-level-customizations.md)   
- [Programming Document-Level Customizations](../vsto/programming-document-level-customizations.md)   
- [How to: Expose Code to VBA in a Visual Basic Project](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md)   
- [How to: Expose Code to VBA in a Visual C&#35; Project](../vsto/how-to-expose-code-to-vba-in-a-visual-csharp-project.md)   
- [Walkthrough: Calling Code from VBA in a Visual C&#35; Project](../vsto/walkthrough-calling-code-from-vba-in-a-visual-csharp-project.md)  
+## See also  
+ [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md)   
+ [Program document-level customizations](../vsto/programming-document-level-customizations.md)   
+ [How to: Expose code to VBA in a Visual Basic project](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md)   
+ [How to: Expose code to VBA in a Visual C&#35; project](../vsto/how-to-expose-code-to-vba-in-a-visual-csharp-project.md)   
+ [Walkthrough: Call code from VBA in a Visual C&#35; project](../vsto/walkthrough-calling-code-from-vba-in-a-visual-csharp-project.md)  
   
   

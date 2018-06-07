@@ -2,21 +2,17 @@
 title: "IDebugPortSupplier2::EnumPorts | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortSupplier2::EnumPorts"
 helpviewer_keywords: 
   - "IDebugPortSupplier2::EnumPorts"
 ms.assetid: 88b57fd2-eba1-44fa-bd34-cf2ad2b1ff87
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

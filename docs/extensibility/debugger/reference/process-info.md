@@ -2,21 +2,17 @@
 title: "PROCESS_INFO | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "PROCESS_INFO"
 helpviewer_keywords: 
   - "PROCESS_INFO structure"
 ms.assetid: 260c33cc-a05e-4645-84b6-536d0b3b0537
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -1,13 +1,14 @@
 ---
-title: "Configuring Load Test Run Settings in Visual Studio | Microsoft Docs"
-ms.date: "10/03/2016"
-ms.topic: "article"
+title: "Configuring Load Test Run Settings in Visual Studio"
+ms.date: 10/03/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, configuring run settings"
 ms.assetid: 0c86918b-cd63-4468-8f49-6d547a1276dc
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Configure Load Test Run Settings

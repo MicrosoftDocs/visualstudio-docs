@@ -2,21 +2,16 @@
 title: "Utilization View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.view.cpuutilization"
 helpviewer_keywords: 
   - "Concurrency Visualizer, CPU Utilization View"
 ms.assetid: b4f7ceab-3653-4069-bb74-c309aec62866
-caps.latest.revision: 21
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -46,9 +41,9 @@ The **Utilization View** displays information about the CPU, GPU, and other syst
   
  If you're using the GPU by using C++ AMP or DirectX, you might be interested in identifying the number of GPU engines in use or areas where the GPU is unexpectedly idle.  
   
-## Zooming  
+## Zoom  
  To zoom in on the CPU Utilization graph or the GPU Activity graph, select a section or use the zoom slider tool above the graph. The zoom setting persists as you switch to other views. To zoom out again, use the zoom slider tool. You can also zoom by using Ctrl+scroll.  
   
-## See Also  
+## See also  
  [Concurrency Visualizer](../profiling/concurrency-visualizer.md)   
  [Cores View](../profiling/cores-view.md)

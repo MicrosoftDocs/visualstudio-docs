@@ -1,21 +1,23 @@
 ---
-title: "Debugging Legacy Workflows | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-helpviewer_keywords: 
+title: "Workflow Designer - Debugging Legacy Workflows"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+helpviewer_keywords:
   - "workflows, debugging"
   - "debugging, workflows"
   - "debugging workflows"
 ms.assetid: e6097b47-760a-4b30-a92c-ae70cdbda49f
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Debugging Legacy Workflows
 
-If you are using the legacy Windows Workflow Designer in [!INCLUDE[vs_current_long](../misc/includes/vs_current_long_md.md)] to build [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications that target.NET Framework 3.0 or 3.5, you can debug your workflows like any other program by setting breakpoints, attaching to processes, and examining threads and the call stack. You also have the option of debugging remotely.
+If you are using the legacy Windows Workflow Designer in Visual Studio to build Windows Workflow Foundation (WF) applications that target.NET Framework 3.0 or 3.5, you can debug your workflows like any other program by setting breakpoints, attaching to processes, and examining threads and the call stack. You also have the option of debugging remotely.
 
 > [!NOTE]
 > If multiple versions of Visual Studio have been installed and uninstalled on your machine, WF3 debugging can fail with one of the two following possibilities:
@@ -27,7 +29,7 @@ If you are using the legacy Windows Workflow Designer in [!INCLUDE[vs_current_lo
 >
 > If either of these scenarios occurs when debugging .NET Framework 3.0 or 3.5 workflows, perform a repair of the Visual Studio installation.
 
- [!INCLUDE[wf2](../workflow-designer/includes/wf2_md.md)] integrates with the following standard [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debug windows:
+ Windows Workflow Foundation integrates with the following standard Visual Studio debug windows:
 
 -   **Breakpoint**: Works as expected, but you specify an activity for the function name.
 

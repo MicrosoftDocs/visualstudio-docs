@@ -2,12 +2,8 @@
 title: "How to: Attach and Detach Performance Tools to Running Processes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.attach"
 helpviewer_keywords: 
@@ -17,10 +13,9 @@ helpviewer_keywords:
   - "performance tools, detach process"
   - "profiler"
 ms.assetid: 56a99c39-e7f6-4f48-ae56-04ab8e022bf7
-caps.latest.revision: 30
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

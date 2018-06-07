@@ -1,13 +1,10 @@
 ---
-title: "Publish Wizard (Office Development in Visual Studio) | Microsoft Docs"
+title: "Publish wizard (Office development in Visual Studio)"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VST.ProjectProperties.PublishWizard"
   - "VST.PublishWizard.Publish.2007System"
@@ -21,11 +18,11 @@ helpviewer_keywords:
   - "Publish Wizard, Office solutions"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Publish Wizard (Office Development in Visual Studio)
+# Publish wizard (Office development in Visual Studio)
   Use the **Publish Wizard** to copy solution files to a specified location, create the manifest files, and create a Setup program.  
   
  To access this wizard, on the **Build** menu, choose **Publish** *SolutionName*. You can also access the **Publish Wizard** from **Solution Explorer**. Open the shortcut menu for the project node, and then choose **Publish**.  
@@ -38,9 +35,9 @@ ms.workload:
   
  Type the location as a disk path, file share, FTP site, or web site URL, or click the **Browse** button to browse for the location. The path can be in these formats:  
   
--   A relative or absolute path in standard Windows format, such as C:\Deploy\MyApplication or \MyApplication.  
+-   A relative or absolute path in standard Windows format, such as *C:\Deploy\MyApplication* or *\MyApplication*.  
   
--   A Universal Naming Convention (UNC) path, such as \\\ServerName\MyApplication\\.  
+-   A Universal Naming Convention (UNC) path, such as *\\\ServerName\MyApplication\\*.  
   
 -   A URL of a web site, such as http://www.microsoft.com/MyApplication.  
   
@@ -50,7 +47,7 @@ ms.workload:
 >  There are more considerations if the target computer is running Windows Vista. You must be an administrator on the Windows Vista computer to use the local publish option. In addition, the default location is always the *publish\\* directory, regardless of whether you have IIS installed.  
   
 ## What is the default installation path on end user computers?  
- The installation path is optional. You can set the installation path later if you prefer. For details, see [How to: Change the Installation Path of an Office Solution](http://msdn.microsoft.com/en-us/d0eaa07b-2d72-4902-899f-2f9fb165b8fd).  
+ The installation path is optional. You can set the installation path later if you prefer. For details, see [How to: Change the installation path of an Office solution](http://msdn.microsoft.com/en-us/d0eaa07b-2d72-4902-899f-2f9fb165b8fd).  
   
  The installation path is the directory from which the end user will install the customization. It is also the path that the solution will use to check for updates. The **Publish Wizard** does not deploy the solution to this location, unless the path is the same as the one you entered in the **Specify the location to publish this application** box on the previous page.  
   
@@ -65,9 +62,9 @@ ms.workload:
   
  Visual Studio does not burn the CD or DVD. You must copy the output to a CD or DVD manually.  
   
-## See Also  
- [Deploying an Office Solution by Using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)   
- [Publish Page, Project Designer &#40;Office Development in Visual Studio&#41;](../vsto/publish-page-project-designer-office-development-in-visual-studio.md)   
- [Deploying an Office Solution](../vsto/deploying-an-office-solution.md)  
+## See also  
+ [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)   
+ [Publish Page, Project Designer &#40;Office development in Visual Studio&#41;](../vsto/publish-page-project-designer-office-development-in-visual-studio.md)   
+ [Deploy an Office solution](../vsto/deploying-an-office-solution.md)  
   
   

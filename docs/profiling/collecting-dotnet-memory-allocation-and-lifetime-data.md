@@ -2,22 +2,18 @@
 title: "Collecting .NET Memory Allocation and Lifetime Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - ".NET memory profiling method"
   - "Profiling Tools,.NET memory method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# Collecting .NET Memory Allocation and Lifetime Data
+# Collect .NET memory allocation and lifetime data
 
 Visual Studio Profiling Tools support the collection of .NET memory allocation and object lifetime data, which helps you detect memory-related performance issues in your application.
 
@@ -59,12 +55,12 @@ The tasks in the following table describe options that you can specify in the *P
 
 |Task|Related Content|
 |----------|---------------------|
-|On the **General** page, specify naming details for the generated profiling data (.vsp) file.|- [Collecting .NET Memory Allocation and Lifetime Data](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md)<br />- [How to: Set Performance Data File Name Options](../profiling/how-to-set-performance-data-file-name-options.md)|
-|On the **Launch** page, choose the application to start if you have multiple .exe projects in your code solution.|- [Collecting tier interaction data](../profiling/collecting-tier-interaction-data.md)|
-|On the **Tier Interaction** page, add ADO.NET call data to the profiling run.|- [Collecting tier interaction data](../profiling/collecting-tier-interaction-data.md)|
-|On the **Windows Events** page, specify one or more Event Tracing for Windows (ETW) events to collect with the sampling data.|- [How to: Collect Event Tracing for Windows (ETW) Data](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md)|
-|On the **Windows Counters** page, specify one or more operating system performance counters to add to the profiling data as marks.|- [How to: Collect Windows Counter Data](../profiling/how-to-collect-windows-counter-data.md)|
-|On the **Advanced** page, specify the version of the .NET Framework runtime to profile if your application modules use multiple versions. By default, the first version loaded is profiled.|- [How to: Specify the .NET Framework Runtime](../profiling/how-to-specify-the-dotnet-framework-runtime.md)|
+|On the **General** page, specify naming details for the generated profiling data (.vsp) file.|- [Collect .NET memory allocation and lifetime data](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md)<br />- [How to: Set performance data file name options](../profiling/how-to-set-performance-data-file-name-options.md)|
+|On the **Launch** page, choose the application to start if you have multiple .exe projects in your code solution.|- [Collect tier interaction data](../profiling/collecting-tier-interaction-data.md)|
+|On the **Tier Interaction** page, add ADO.NET call data to the profiling run.|- [Collect tier interaction data](../profiling/collecting-tier-interaction-data.md)|
+|On the **Windows Events** page, specify one or more Event Tracing for Windows (ETW) events to collect with the sampling data.|- [How to: Collect Event Tracing for Windows (ETW) data](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md)|
+|On the **Windows Counters** page, specify one or more operating system performance counters to add to the profiling data as marks.|- [How to: Collect Windows counter data](../profiling/how-to-collect-windows-counter-data.md)|
+|On the **Advanced** page, specify the version of the .NET Framework runtime to profile if your application modules use multiple versions. By default, the first version loaded is profiled.|- [How to: Specify the .NET Framework runtime](../profiling/how-to-specify-the-dotnet-framework-runtime.md)|
 
 ## Instrumentation tasks
 
@@ -73,12 +69,12 @@ The tasks in the following table are options in the **Property Pages** dialog bo
 |Task|Related Content|
 |----------|---------------------|
 |On the **Binaries** page, specify a location for the instrumented copies of the modules. By default, the original binaries are moved to a backup folder.|- [How to: Relocate Instrumented Binaries](../profiling/how-to-relocate-instrumented-binaries.md)|
-|On the **Instrumentation** page, exclude small functions from profiling to reduce the profiling overhead, profile JavaScript code in ASP.NET Web pages, and specify commands to run at a command prompt before and after the instrumentation process.|- [How to: Exclude or Include Short Functions from Instrumentation](../profiling/how-to-exclude-or-include-short-functions-from-instrumentation.md)<br />- [How to: Profile JavaScript Code in Web Pages](../profiling/how-to-profile-javascript-code-in-web-pages.md)<br />- [How to: Specify Pre- and Post-Instrument Commands](../profiling/how-to-specify-pre-and-post-instrument-commands.md)|
+|On the **Instrumentation** page, exclude small functions from profiling to reduce the profiling overhead, profile JavaScript code in ASP.NET Web pages, and specify commands to run at a command prompt before and after the instrumentation process.|- [How to: Exclude or include short functions from instrumentation](../profiling/how-to-exclude-or-include-short-functions-from-instrumentation.md)<br />- [How to: Profile JavaScript Code in Web Pages](../profiling/how-to-profile-javascript-code-in-web-pages.md)<br />- [How to: Specify Pre- and Post-Instrument Commands](../profiling/how-to-specify-pre-and-post-instrument-commands.md)|
 |On the **CPU Counters** page, specify one or more processor performance counters to add to the profiling data.|- [How to: Collect CPU Counter Data](../profiling/how-to-collect-cpu-counter-data.md)|
-|On the **Advanced** page, specify any additional VSInstr.exe options that you want, such as options to include or exclude specific functions. For more information about VSInstr options, see [VSInstr](../profiling/vsinstr.md)|- [How to: Specify Additional Instrumentation Options](../profiling/how-to-specify-additional-instrumentation-options.md)<br />- [How to: Limit Instrumentation to Specific Functions](../profiling/how-to-limit-instrumentation-to-specific-functions.md)|
+|On the **Advanced** page, specify any additional VSInstr.exe options that you want, such as options to include or exclude specific functions. For more information about VSInstr options, see [VSInstr](../profiling/vsinstr.md)|- [How to: Specify additional instrumentation options](../profiling/how-to-specify-additional-instrumentation-options.md)<br />- [How to: Limit instrumentation to specific functions](../profiling/how-to-limit-instrumentation-to-specific-functions.md)|
 
 ## See also
 
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)  
-[How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md)  
-[Performance Session Properties](../profiling/performance-session-properties.md)
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
+[How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md)  
+[Performance session properties](../profiling/performance-session-properties.md)

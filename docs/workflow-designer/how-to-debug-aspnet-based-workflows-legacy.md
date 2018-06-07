@@ -1,8 +1,10 @@
 ---
-title: "How to: Debug ASP.NET-Based Workflows (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-helpviewer_keywords: 
+title: "Workflow Designer - How to: Debug ASP.NET-Based Workflows (Legacy)"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+helpviewer_keywords:
   - "ASP.NET, debugging workflows"
   - "debugging workflows, ASP.NET workflows"
   - "ASP.NET workflows, debugging"
@@ -10,16 +12,17 @@ helpviewer_keywords:
 ms.assetid: 79b21edc-9e7d-410d-af68-09c1598b9c30
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "aspnet"
 ---
 # How to: Debug ASP.NET-Based Workflows (Legacy)
-This topic describes how to debug [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)]-based [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications that target either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)] in the legacy Windows Workflow Designer.
 
- You can debug legacy workflows that are started in ASP.NET or legacy workflows that are published as a Web service by attaching to the process in which the workflow is hosted.
+This topic describes how to debug ASP.NET-based Windows Workflow Foundation (WF) applications that target either the .NET Framework version 3.5 or the WinFX in the legacy Windows Workflow Designer.
 
-### To debug an ASP.NET-based workflow
+You can debug legacy workflows that are started in ASP.NET or legacy workflows that are published as a Web service by attaching to the process in which the workflow is hosted.
+
+## To debug an ASP.NET-based workflow
 
 1.  Enable debugging for the ASP.NET application by setting **debug = true** in the web.config file.
 

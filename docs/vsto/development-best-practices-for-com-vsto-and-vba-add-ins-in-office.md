@@ -1,24 +1,21 @@
 ---
-title: "Development best practices for COM, VSTO, and VBA  add-ins in Office | Microsoft Docs"
+title: "Development best practices for COM, VSTO, and VBA add-ins in Office"
 ms.custom: ""
 ms.date: "07/25/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - ""
 helpviewer_keywords: 
   - ""
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Development best practices for COM, VSTO, and VBA  add-ins in Office
+# Development best practices for COM, VSTO, and VBA add-ins in Office
   If you are developing COM, VSTO or VBA add-ins for Office, follow the development best practices described in this article.   This will help ensure:
 
 -  Compatibility of your add-ins across different versions and deployments of Office.
@@ -31,7 +28,7 @@ ms.workload:
  We don’t recommend having your add-in detect whether Office is installed during the add-in installation process. If Office is not installed, you can install the add-in, and the user will be able to access it after Office is installed. 
   
 ## Use Embedded Interop Types (NoPIA)  
-If your solution uses .NET 4.0 or later, use embedded interop types (NoPIA) instead of depending on the Office Primary Interop Assemblies (PIA) redistributable. Using type embedding reduces the installation size of your solution, and ensures future compatibility. Office 2010 was the last version of Office that shipped the PIA redistributable. For more information, see [Walkthrough: Embedding Type Information from Microsoft Office Assemblies](https://msdn.microsoft.com/en-us/library/ee317478.aspx) and [Type Equivalence and Embedded Interop Types](/windows/uwp/porting/desktop-to-uwp-root).
+If your solution uses .NET 4.0 or later, use embedded interop types (NoPIA) instead of depending on the Office Primary Interop Assemblies (PIA) redistributable. Using type embedding reduces the installation size of your solution, and ensures future compatibility. Office 2010 was the last version of Office that shipped the PIA redistributable. For more information, see [Walkthrough: Embedding type information from Microsoft Office assemblies](https://msdn.microsoft.com/en-us/library/ee317478.aspx) and [Type equivalence and embedded interop types](/windows/uwp/porting/desktop-to-uwp-root).
 
 If your solution uses an earlier version of .NET, we recommend that you update your solution to use .NET 4.0 or later. Using .NET 4.0 or later reduces runtime prerequisites on newer versions of Windows.
   
@@ -41,7 +38,7 @@ If your solution uses functionality that is only available in newer versions of 
 ## Enable both 32-bit and 64-bit Office usage   
 Your default build target should support both 32-bit (x86) and 64-bit (x64), unless your solution depends on libraries that are only available for a specific bitness. The 64-bit version of Office is increasing in adoption, especially in big data environments. Supporting both 32-bit and 64-bit makes it easier for your users to transition between 32-bit and 64-bit versions of Office.
 
-When writing VBA code, use 64-bit safe declare statements and convert variables as appropriate. Additionally, ensure that documents can be shared between users running either 32-bit or 64-bit versions of Office by providing code for each bitness. For more information, see [64-Bit Visual Basic for Applications Overview](https://msdn.microsoft.com/en-us/library/office/gg264421.aspx).
+When writing VBA code, use 64-bit safe declare statements and convert variables as appropriate. Additionally, ensure that documents can be shared between users running either 32-bit or 64-bit versions of Office by providing code for each bitness. For more information, see [64-bit Visual Basic for applications overview](https://msdn.microsoft.com/en-us/library/office/gg264421.aspx).
 
 ## Support restricted environments   
 Your solution should not require User Account Elevation or Administrator privileges. Additionally, the solution should not depend on setting or altering:

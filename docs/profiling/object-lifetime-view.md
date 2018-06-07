@@ -2,12 +2,8 @@
 title: "Object Lifetime View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.view.objectlifetime"
 helpviewer_keywords: 
@@ -17,10 +13,9 @@ helpviewer_keywords:
   - "performance reports, objects lifetime view"
   - "profiling tools, Lifetime view"
 ms.assetid: d0501fdd-4b3a-4e74-b6ac-51d950a2e15b
-caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,23 +2,19 @@
 title: "Understanding Performance Collection Methods | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.wizard.methodpage"
 helpviewer_keywords: 
   - "Profiling Tools, profiling methods"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Understanding Performance Collection Methods
+# Understand performance collection methods
 
 The Visual Studio Profiling Tools provide five methods that you can use to collect performance data. This topic describes the different methods and suggests some scenarios in which collecting data with a particular method can be appropriate.
 
@@ -35,7 +31,7 @@ The Visual Studio Profiling Tools provide five methods that you can use to colle
 
 By using some of the profiling methods, you can also collect additional data, such as software and hardware performance counters. For more information, see [Collecting Additional Performance Data](../profiling/collecting-additional-performance-data.md).
 
-## <a name="sampling"></a> Sampling
+## Sampling
 
 The sampling profiling method collects statistical data about the work that is performed by an application during a profiling run. The sampling method is lightweight and has little effect on the execution of the application methods.
 
@@ -48,13 +44,13 @@ The sampling profiling method interrupts the computer processor at set intervals
 
 By default, the profiler sets the sampling interval to CPU cycles. You can change the interval type to another CPU performance counter and you can set the number of counter events for the interval. You can also collect tier interaction profiling(TIP) data that provides information about the queries that are made to a SQL server database through ADO.NET.
 
-[Collecting Performance Statistics by Using Sampling](../profiling/collecting-performance-statistics-by-using-sampling.md)
+[Collect performance statistics by using sampling](../profiling/collecting-performance-statistics-by-using-sampling.md)
 
-[Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)
+[Understand sampling data values](../profiling/understanding-sampling-data-values.md)
 
-[Sampling Method Data Views](../profiling/profiler-sampling-method-data-views.md)
+[Sample method data views](../profiling/profiler-sampling-method-data-views.md)
 
-## <a name="instrumentation"></a> Instrumentation
+## Instrumentation
 
 The instrumentation profiling method collects detailed timing for the function calls in a profiled application. Instrumentation profiling is useful for the following:
 
@@ -73,13 +69,13 @@ The instrumentation method injects code into a binary file that captures timing 
 
 You can also collect both CPU and software performance counters by using the instrumentation method.
 
-[Understanding Instrumentation Data Values](../profiling/understanding-instrumentation-data-values.md)
+[Understand instrumentation data values](../profiling/understanding-instrumentation-data-values.md)
 
-[Collecting Detailed Timing Data by Using Instrumentation](../profiling/collecting-detailed-timing-data-by-using-instrumentation.md)
+[Collect detailed timing data by using instrumentation](../profiling/collecting-detailed-timing-data-by-using-instrumentation.md)
 
-[Instrumentation Method Data Views](../profiling/instrumentation-method-data-views.md)
+[Instrumentation method data views](../profiling/instrumentation-method-data-views.md)
 
-## <a name="concurrency"></a> Concurrency
+## Concurrency
 
 Concurrency profiling collects information about multithreaded applications. Resource contention profiling collects detailed call stack information every  time that competing threads are forced to wait for access to a shared resource. Concurrency visualization also collects more general information about how your multithreaded application interacts with itself, the hardware, the operating system, and other processes on the host computer:
 
@@ -87,15 +83,15 @@ Concurrency profiling collects information about multithreaded applications. Res
 
 - The concurrency visualizer displays graphical information that you can use to locate performance bottlenecks, CPU underutilization, thread contention, thread migration, synchronization delays, areas of overlapped I/O, and other information. When possible, the graphical output links to call stack and source code data. Concurrency visualization data can be collected only for command line and Windows applications.
 
-[Understanding Resource Contention Data Values](../profiling/understanding-resource-contention-data-values.md)
+[Understand resource contention data values](../profiling/understanding-resource-contention-data-values.md)
 
-[Collecting Thread and Process Concurrency Data](../profiling/collecting-thread-and-process-concurrency-data.md)
+[Collect thread and process concurrency data](../profiling/collecting-thread-and-process-concurrency-data.md)
 
-[Resource Contention Data Views](../profiling/resource-contention-data-views.md)
+[Resource contention data views](../profiling/resource-contention-data-views.md)
 
 [Concurrency Visualizer](../profiling/concurrency-visualizer.md)
 
-## <a name="net_memory"></a> .NET Memory
+## .NET memory
 
 The .NET memory allocation profiling method interrupts the computer processor at each allocation of a .NET Framework object in a profiled application. When object lifetime data is also collected, the profiler interrupts the processor after each .NET Framework garbage collection.
 
@@ -111,25 +107,25 @@ The profiler collects information about the type, size, and number of objects th
 
 - When you run .NET memory profiling in instrumentation mode, detailed timing information is collected together with the inclusive and exclusive allocation values.
 
-[Understanding Memory Allocation and Object Lifetime Data Values](../profiling/understanding-memory-allocation-and-object-lifetime-data-values.md)
+[Understand memory allocation and object lifetime data values](../profiling/understanding-memory-allocation-and-object-lifetime-data-values.md)
 
-[Collecting .NET Memory Allocation and Lifetime Data](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md)
+[Collect .NET memory allocation and lifetime data](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md)
 
-[.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)
+[.NET memory data views](../profiling/dotnet-memory-data-views.md)
 
-## <a name="tier_interaction"></a> Tier Interaction
+## Tier interaction
 
 Tier-interaction profiling adds information to a profiling data file about synchronous [!INCLUDE[vstecado](../data-tools/includes/vstecado_md.md)] calls between an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] page or other application and a [!INCLUDE[ssNoVersion](../data-tools/includes/ssnoversion_md.md)] database. Data includes the number and time of calls, and the maximum and minimum times. Tier-interaction data can be added to profiling data that is collected with the sampling, instrumentation, .NET memory, or concurrency methods.
 
-![Tier Interaction Profiling Data](../profiling/media/tierinteraction_profilingtools.png "TierInteraction_ProfilingTools")
+![Tier interaction profile data](../profiling/media/tierinteraction_profilingtools.png "TierInteraction_ProfilingTools")
 
 Tier interaction data that is collected by Profiling Tools
 
-[Collecting tier interaction data](../profiling/collecting-tier-interaction-data.md)
+[Collect tier interaction data](../profiling/collecting-tier-interaction-data.md)
 
-[Tier Interaction Views](../profiling/tier-interaction-views.md)
+[Tier interaction views](../profiling/tier-interaction-views.md)
 
 ## See also
 
-[How to: Collect Performance Data for a Web Site](../profiling/how-to-collect-performance-data-for-a-web-site.md)  
-[Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md)
+[How to: Collect performance data for a web site](../profiling/how-to-collect-performance-data-for-a-web-site.md)  
+[Beginners guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md)

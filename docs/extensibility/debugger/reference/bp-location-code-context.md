@@ -2,21 +2,17 @@
 title: "BP_LOCATION_CODE_CONTEXT | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "BP_LOCATION_CODE_CONTEXT"
 helpviewer_keywords: 
   - "BP_LOCATION_CODE_CONTEXT structure"
 ms.assetid: 37412896-021a-4f73-9bb7-4125502c2e18
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

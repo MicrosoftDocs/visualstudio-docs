@@ -2,12 +2,9 @@
 title: "Walkthrough: Creating a Custom Deployment Step for SharePoint Projects | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,7 +13,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extending deployment"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -159,9 +156,7 @@ ms.workload:
   
 #### To create the deployment configuration  
   
-1.  
-  
-2.  In the **DeploymentStepExtension** project, open the DeploymentConfigurationExtension code file, and then paste the following code into it.  
+1.  In the **DeploymentStepExtension** project, open the DeploymentConfigurationExtension code file, and then paste the following code into it.  
   
      [!code-csharp[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#2](../sharepoint/codesnippet/CSharp/UpgradeDeploymentStep/deploymentstepextension/deploymentconfigurationextension.cs#2)]
      [!code-vb[SPExtensibility.ProjectExtension.UpgradeDeploymentStep#2](../sharepoint/codesnippet/VisualBasic/upgradedeploymentstep/deploymentstepextension/deploymentconfigurationextension.vb#2)]  
@@ -304,7 +299,7 @@ ms.workload:
   
 15. In the Elements.xml file, replace the default XML in this file with the following XML. This XML changes the name of the list to **Employees** and adds information for an employee who's named Jim Hance.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8"?>  
     <Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
       <ListInstance Title="Employees"  
@@ -355,7 +350,7 @@ ms.workload:
   
      When you finish, the file should contain the following XML.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8"?>  
     <Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
       <ListInstance Title="Employees"  

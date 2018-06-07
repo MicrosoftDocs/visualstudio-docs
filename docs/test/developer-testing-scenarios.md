@@ -1,13 +1,14 @@
 ---
-title: "Developer testing tools in Visual Studio | Microsoft Docs"
-ms.date: "05/02/2017"
+title: "Developer testing tools in Visual Studio"
+ms.date: 05/02/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: conceptual
+helpviewer_keywords:
   - "unit testing, create unit tests"
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -53,8 +54,7 @@ need.
 
 * [Use UI Automation To Test Your Code](use-ui-automation-to-test-your-code.md)
 * [Get started creating, editing and maintaining a coded UI test](walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
-* [Test UWP apps with Coded UI Tests](test-windows-store-8-1-apps-with-coded-ui-tests.md)
-* [Test Windows Phone Apps with Coded UI Tests](test-windows-phone-8-1-apps-with-coded-ui-tests.md)
+* [Test UWP apps with Coded UI Tests](test-uwp-app-with-coded-ui-test.md)
 * [Test SharePoint Applications with Coded UI Tests](testing-sharepoint-2010-applications-with-coded-ui-tests.md)
 * [Introduction to Coded UI Tests with Visual Studio Enterprise (Lab)](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Introduction%20to%20Coded%20UI%20Tests%20with%20Visual%20Studio%20Enterprise%202015.docx)
 

@@ -1,13 +1,14 @@
 ---
-title: "Configure the ASP.NET Profiler for Load Tests in Visual Studio | Microsoft Docs"
-ms.date: "10/13/2016"
-ms.topic: "article"
+title: "Configure the ASP.NET Profiler for Load Tests in Visual Studio"
+ms.date: 10/13/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "test settings, ASP.NET"
 ms.assetid: 6832fe39-04d5-4d94-8a18-3e2730bad423
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Configure ASP.NET Profiler for Load Tests Using Test Settings in Visual Studio

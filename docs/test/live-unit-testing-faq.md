@@ -1,8 +1,9 @@
 ---
-title: "Live Unit Testing FAQ | Microsoft Docs"
-ms.date: "2017-10-03"
+title: "Live Unit Testing FAQ"
+ms.date: 2017-10-03
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio ALM"
   - "Live Unit Testing FAQ"

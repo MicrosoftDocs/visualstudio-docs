@@ -2,12 +2,9 @@
 title: "Walkthrough: Creating a Workflow with Association and Initiation Forms | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -22,7 +19,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, workflow initiation forms"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -126,7 +123,7 @@ ms.workload:
   
 2.  Directly after the first line in this content element, add the following code to create a label and textbox that prompts for the expense approval limit (*AutoApproveLimit*):  
   
-    ```  
+    ```aspx-csharp  
     <asp:Label ID="lblAutoApproveLimit" Text="Auto Approval Limit:" runat="server" />  
   
     <asp:TextBox ID="AutoApproveLimit" runat="server" />  
@@ -187,7 +184,7 @@ ms.workload:
   
 2.  Directly after the first line in this content element, add the following code to create a label and textbox that displays the expense approval limit (*AutoApproveLimit*) that was entered in the association form, and another label and textbox to prompt for the expense total (*ExpenseTotal*):  
   
-    ```  
+    ```aspx-csharp  
     <asp:Label ID="lblAutoApproveLimit" Text="Auto Approval Limit:" runat="server" />  
   
     <asp:TextBox ID="AutoApproveLimit" ReadOnly="true" runat="server" />  

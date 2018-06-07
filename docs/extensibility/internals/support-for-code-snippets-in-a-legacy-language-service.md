@@ -2,21 +2,17 @@
 title: "Support for Code Snippets in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "snippets, supporting in language services"
   - "code snippets, supporting in language services [managed package framework]"
   - "language services [managed package framework], supporting code snippets"
 ms.assetid: 7490325b-acee-4c2d-ac56-1cd5db1a1083
-caps.latest.revision: 28
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

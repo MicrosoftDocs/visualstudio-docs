@@ -1,8 +1,9 @@
 ---
-title: "Use UI Automation To Test Your Code in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Automated UI tests"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 f1_keywords:
   - "vs.codedUITest"
   - "vs.codedUITest.recorder"
@@ -14,52 +15,65 @@ helpviewer_keywords:
   - "coded UI test"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 ---
-# Use UI Automation To Test Your Code
+# Use UI automation to test your code
 
-Automated tests that drive your application through its user interface (UI) are known as *coded UI tests* (CUITs). These tests include functional testing of the UI controls. They let you verify that the whole application, including its user interface, is functioning correctly. Coded UI Tests are particularly useful where there is validation or other logic in the user interface, for example in a web page. They are also frequently used to automate an existing manual test.
+Automated tests that drive your application through its user interface (UI) are known as *coded UI tests* (CUITs) in Visual Studio. These tests include functional testing of the UI controls. They let you verify that the whole application, including its user interface, is functioning correctly. Coded UI Tests are particularly useful where there is validation or other logic in the user interface, for example in a web page. They are also frequently used to automate an existing manual test.
 
-As shown in the following illustration, a typical development experience might be one where, initially, you simply build your application (F5) and click through the UI controls to verify that things are working correctly. You then might decide to create a coded test so that you don't need to continue to test the application manually. Depending on the particular functionality being tested in your application, you can write code for either a functional test, or for an integration test that might or might not include testing at the UI level. If you simply want to directly access some business logic, you might code a unit test. However, under certain circumstances, it can be beneficial to include testing of the various UI controls in your application. A coded UI test can automate the initial (F5) scenario, verifying that code churn does not impact the functionality of your application.
+As shown in the following illustration, a typical development experience might be one where, initially, you simply build your application and click through the UI controls to verify that things are working correctly. Then you might decide to create an automated test so that you don't need to continue to test the application manually. Depending on the particular functionality being tested in your application, you can write code for either a functional test or for an integration test that might or might not include testing at the UI level. If you want to directly access some business logic, you might code a unit test. However, under certain circumstances, it can be beneficial to include testing of the various UI controls in your application. A coded UI test can verify that code churn does not impact the functionality of your application.
 
 ![Testing during application development](../test/media/cuit_overview.png)
 
-Creating a coded UI test is easy. You simply perform the test manually while the CUIT Test Builder runs in the background. You can also specify what values should appear in specific fields. The CUIT Test Builder records your actions and generates code from them. After the test is created, you can edit it in a specialized editor that lets you modify the sequence of actions.
+Creating a coded UI test is easy. You simply perform the test manually while **Coded UI Test Builder** runs in the background. You can also specify what values should appear in specific fields. **Coded UI Test Builder** records your actions and generates code from them. After the test is created, you can edit it in a specialized editor that lets you modify the sequence of actions.
 
 Alternatively, if you have a test case that was recorded in Microsoft Test Manager, you can generate code from that. For more information, see [Record and play back manual tests](/vsts/manual-test/getting-started/record-play-back-manual-tests).
 
-The specialized CUIT Test Builder and editor make it easy to create and edit coded UI tests even if your main skills are concentrated in testing rather than coding. But if you are a developer and you want to extend the test in a more advanced way, the code is structured so that it is straightforward to copy and adapt. For example, you might record a test to buy something at a website, and then edit the generated code to add a loop that buys many items.
+The specialized **Coded UI Test Builder** and editor make it easy to create and edit coded UI tests, even if your main skills are concentrated in testing rather than coding. But if you are a developer and you want to extend the test in a more advanced way, the code is structured so that it is straightforward to copy and adapt. For example, you might record a test to buy something at a website, and then edit the generated code to add a loop that buys many items.
 
 **Requirements**
 
 - Visual Studio Enterprise
+- Coded UI test component
 
-For more information about which platforms and configurations are supported by coded UI tests, see [Supported Platforms for Coded UI Tests](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md).
+For more information about which platforms and configurations are supported by coded UI tests, see [Supported platforms](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md).
 
-## Create Coded UI Tests
+## Install the coded UI test component
+
+To access the coded UI test tools and templates, install the **Coded UI test** component of Visual Studio 2017.
+
+1. Launch **Visual Studio Installer** by choosing **Tools** > **Get Tools and Features**.
+
+1. In **Visual Studio Installer**, choose the **Individual components** tab, and then scroll down to the **Debugging and testing** section. Select the **Coded UI test** component.
+
+   ![Coded UI test component](media/coded-ui-test-component.png)
+
+1. Select **Modify**.
+
+## Create a coded UI test
 
 1. Create a Coded UI Test project.
 
-   Coded UI tests must be contained in a coded UI test project. If you don't already have a coded UI test project, create one. In **Solution Explorer**, on the shortcut menu of the solution, choose **Add** > **New Project** and then select either **Visual Basic** or **Visual C#**. Next, choose **Test** > **Coded UI Test**.
+   Coded UI tests must be contained in a coded UI test project. If you don't already have a coded UI test project, create one. Choose **File** > **New** > **Project** to open the **New Project** dialog box. In the categories pane on the left, expand **Installed** > **Visual Basic** *or* **Visual C#** > **Test**. Select the **Coded UI Test Project** template, and then choose **OK**.
 
-   > [!TIP]
-   > If you don't see the **Coded UI Test** project templates, you might be using a version of Visual Studio that does not support coded UI tests. To create coded UI tests, you must use Visual Studio Enterprise edition.
+   ![Coded UI test project template in New Project dialog](media/coded-ui-test-project-template.png)
+
+   > [!NOTE]
+   > If you don't see the **Coded UI Test Project** template, you need to [install the coded UI test component](../test/use-ui-automation-to-test-your-code.md#install-the-coded-ui-test-component).
 
 2. Add a coded UI test file.
 
-     If you just created a Coded UI project, the first CUIT file is added automatically. To add another test file, open the shortcut menu on the coded UI test project, point to **Add**, and then choose **Coded UI Test**.
-
-     ![Create a coded UI test](../test/media/codedui_create.png "CodedUI_Create")
+     If you just created a Coded UI project, the first CUIT file is added automatically. To add another test file, open the shortcut menu on the coded UI test project in **Solution Explorer**, and then choose **Add** > **Coded UI Test**.
 
      In the **Generate Code for Coded UI Test** dialog box, choose **Record actions, edit UI map or add assertions**.
 
-     ![Select record actions](../test/media/codedui_codegendialogb.png "CodedUI_CodeGenDialogB")
+     ![Generate code for coded UI test dialog box](media/generate-code-for-coded-ui-test.png)
 
-     The Coded UI Test Builder appears and Visual Studio is minimized.
+     The Coded UI Test Builder appears.
 
-     ![Coded UI Test Builder](../test/media/codedui_testbuilder.png "CodedUI_TestBuilder")
+     ![Coded UI Test Builder](../test/media/codedui_testbuilder.png)
 
 3. Record a sequence of actions.
 
@@ -70,7 +84,7 @@ For more information about which platforms and configurations are supported by c
     > [!WARNING]
     > All actions performed on the desktop will be recorded. Pause the recording if you are performing actions that may lead to sensitive data being included in the recording.
 
-     **To delete actions** that you recorded by mistake, choose **Edit Actions**.
+     **To delete actions** that you recorded by mistake, choose **Edit Steps**.
 
      **To generate code** that will replicate your actions, choose the **Generate Code** icon and type a name and description for your coded UI test method.
 
@@ -80,7 +94,7 @@ For more information about which platforms and configurations are supported by c
 
      Close the assertion window and choose **Generate Code**.
 
-     ![Coded UI test targeting element](../test/media/codedui_1.png "CodedUI_1")
+     ![Coded UI test targeting element](../test/media/codedui_1.png)
 
     > [!TIP]
     > Alternate between recording actions and verifying values. Generate code at the end of each sequence of actions or verifications. If you want, you will be able to insert new actions and verifications later.
@@ -114,7 +128,7 @@ For more information about which platforms and configurations are supported by c
 
      Open UIMap.uitest. This file opens in the Coded UI Test Editor, where you can edit any sequence of actions that you recorded as well as edit your assertions.
 
-     ![Coded UI Test Editor](../test/media/cuit_editor_edit.png "CUIT_Editor_edit")
+     ![Coded UI Test Editor](../test/media/cuit_editor_edit.png)
 
      For more information, see [Editing Coded UI Tests Using the Coded UI Test Editor](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md).
 
@@ -126,7 +140,7 @@ The remaining sections in this topic provide more detail about the steps in this
 
 For a more detailed example, see  [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md). In the walkthrough, you will create a simple Windows Presentation Foundation (WPF) application to demonstrate how to create, edit, and maintain a coded UI test. The walkthrough provides solutions for correcting tests that have been broken by various timing issues and control refactoring.
 
-### Start and stop the application under test
+## Start and stop the application under test
 
 If you don't want to start and stop the application, browser, or database separately for each test, do one of the following:
 
@@ -138,32 +152,32 @@ If you don't want to start and stop the application, browser, or database separa
 
 - Add a test cleanup method, identified by a `[TestCleanup]` attribute, that runs code at the end of each test method. For example, the method to close the application could be called from the TestCleanup method.
 
-### Validate the properties of UI controls
+## Validate the properties of UI controls
 
 You can use the **Coded UI Test Builder** to add a user interface (UI) control to the <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> for your test, or to generate code for a validation method that uses an assertion for a UI control.
 
 To generate assertions for your UI controls, choose the **Add Assertions** tool in the Coded UI Test Builder and drag it to the control on the application under test that you want to verify is correct. When the box outlines your control, release the mouse. The control class code is immediately created in the `UIMap.Designer.cs` file.
 
-![Coded UI test targeting element](../test/media/codedui_1.png "CodedUI_1")
+![Coded UI test targeting element](../test/media/codedui_1.png)
 
 The properties for this control are now listed in the **Add Assertions** dialog box.
 
 Another way of navigating to a particular control is to choose the arrow **(<<)** to expand the view for the **UI Control Map**. To find a parent, sibling, or child control, you can click anywhere on the map and use the arrow keys to move around the tree.
 
-![Coded UI test properties](../test/media/codedui_2.png "CodedUI_2")
+![Coded UI test properties](../test/media/codedui_2.png)
 
 > [!TIP]
 > If you don't see any properties when you select a control in your application, or you don't see the control in the UI Control Map, verify that the control has a unique ID in the application code. The unique ID can be an HTML ID attribute or a WPF UId.
 
 Next, open the shortcut menu on the property for the UI control that you want to verify, and then point to **Add Assertion**. In the **Add Assertion** dialog box, select the **Comparator** for your assertion, for example <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual%2A>, and type the value for your assertion in **Comparison Value**.
 
-![Coded UI test assertions](../test/media/codedui_3.png "CodedUI_3")
+![Coded UI test assertions](../test/media/codedui_3.png)
 
 When you have added all your assertions for your test, choose **OK**.
 
 To generate the code for your assertions and add the control to the UI map, choose the **Generate Code** icon. Type a name for your coded UI test method and a description for the method, which will be added as comments for the method. Choose **Add and Generate**. Next, choose the **Close** icon to close the **Coded UI Test Builder**. This generates code similar to the following code. For example, if the name you entered is `AssertForAddTwoNumbers`, the code will look like this example:
 
--   Adds a call to the assert method AssertForAddTwoNumbers to the test method in your coded UI test file:
+- Adds a call to the assert method AssertForAddTwoNumbers to the test method in your coded UI test file:
 
     ```csharp
     [TestMethod]
@@ -176,9 +190,9 @@ To generate the code for your assertions and add the control to the UI map, choo
 
      You can edit this file to change the order of the steps and assertions, or to create new test methods. To add more code, place the cursor on the test method and on the shortcut menu choose **Generate Code for Coded UI Test**.
 
--   Adds a method called `AssertForAddTwoNumbers` to your UI map (UIMap.uitest). This file opens in the Coded UI Test Editor, where you can edit the assertions.
+- Adds a method called `AssertForAddTwoNumbers` to your UI map (UIMap.uitest). This file opens in the Coded UI Test Editor, where you can edit the assertions.
 
-     ![Edit assert using Coded UI Test Editor](../test/media/cuit_editor_assert.png "CUIT_Editor_assert")
+     ![Edit assert using Coded UI Test Editor](../test/media/cuit_editor_assert.png)
 
      For more information, see [Editing Coded UI Tests Using the Coded UI Test Editor](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md).
 
@@ -191,13 +205,13 @@ To generate the code for your assertions and add the control to the UI map, choo
     }
     ```
 
-#### Select a hidden control using the keyboard
+### Select a hidden control using the keyboard
 
 If the control you want to select loses focus and disappears when you select the Add Assertions tool from the Coded UI Test Builder:
 
 Sometimes, when you add controls and verify their properties, you might have to use the keyboard. For example, when you try to record a coded UI test that uses a context menu control, the list of menu items in the control will lose focus and disappear when you try to select the Add Assertions tool from the Coded UI Test Builder. This is demonstrated in the following illustration, where the context menu in Internet Explorer loses focus and disappears if you try to select it with the Add Assertions tool.
 
-![CodedUITest&#95;SelectControlKeyboard](../test/media/codeduitest_selectcontrolkeyboard.png "CodedUITest_SelectControlKeyboard")
+![CodedUITest&#95;SelectControlKeyboard](../test/media/codeduitest_selectcontrolkeyboard.png)
 
 To use the keyboard to select a UI control, hover over the control with the mouse. Then hold down the **Ctrl** key and the **I** key at the same time. Release the keys. The control is recorded by the Coded UT Test Builder.
 
@@ -212,7 +226,7 @@ Under some circumstances, a particular control that's being used in a coded UI t
 
 When you perform your coded UI test, hover over the control. Then press and hold Ctrl, while you press and hold the Shift and R keys on your keyboard. Release the keys. A mouse hover event is recorded by the Coded UT Test Builder.
 
-![CodedUI&#95;Hover](../test/media/codedui_hover.png "CodedUI_Hover")
+![CodedUI&#95;Hover](../test/media/codedui_hover.png)
 
 After you generate the test method, code similar to the following example will be added to the UIMap.Desinger.cs file:
 
@@ -221,7 +235,7 @@ After you generate the test method, code similar to the following example will b
 Mouse.Hover(uIItem1Text, new Point(87, 9));
 ```
 
-#### Configuring mouse hover keyboard assignments
+### Configure mouse-hover keyboard assignments
 
 If the key assignment for capturing mouse hover events is being used elsewhere in my environment:
 
@@ -243,7 +257,7 @@ In the configuration file, change the values for the `HoverKeyModifier` and `Hov
 <add key="HoverKey" value="R"/>
 ```
 
-#### Set implicit mouse hovers for the web browser
+### Set implicit mouse hovers for the web browser
 
 If you're having issues recording mouse hovers on a website:
 
@@ -264,35 +278,35 @@ Verify that the configuration file has the key `RecordImplicitiHovers` set to a 
 
 After you've created your coded UI test, you can edit it by using any of the following tools in Visual Studio:
 
--   **Coded UI Test Builder:** Use the Coded UI Test Builder to add additional controls and validation to your tests. See the section [Adding controls and validating their properties](#VerifyingCodeUsingCUITGenerateAssertions) in this topic.
+- Use **Coded UI Test Builder** to add additional controls and validation to your tests. See the section [Adding controls and validating their properties](#VerifyingCodeUsingCUITGenerateAssertions) in this topic.
 
--   **Coded UI Test Editor:** The Coded UI Test Editor lets you easily modify your coded UI tests. Using the Coded UI Test Editor, you can locate, view, and edit your test methods. You can also edit UI actions and their associated controls in the UI control map. For more information, see [Editing Coded UI Tests Using the Coded UI Test Editor](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md).
+- **Coded UI Test Editor** lets you easily modify your coded UI tests. Using **Coded UI Test Editor**, you can locate, view, and edit your test methods. You can also edit UI actions and their associated controls in the UI control map. For more information, see [Editing Coded UI Tests Using the Coded UI Test Editor](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md).
 
--   **Code Editor:**
+- **Code Editor:**
 
-    -   Manually add code for the controls in your test as described in the [Coding UI control actions and properties](#VerifyingCodeCUITActionsandProperties) section in this topic.
+    - Manually add code for the controls in your test as described in the [Coding UI control actions and properties](#VerifyingCodeCUITActionsandProperties) section in this topic.
 
-    -   After you create a coded UI test, you can modify it to be data-driven. For more information, see [Creating a Data-Driven Coded UI Test](../test/creating-a-data-driven-coded-ui-test.md).
+    - After you create a coded UI test, you can modify it to be data-driven. For more information, see [Creating a Data-Driven Coded UI Test](../test/creating-a-data-driven-coded-ui-test.md).
 
-    -   In a coded UI test playback, you can instruct the test to wait for certain events to occur, such as a window to appear, the progress bar to disappear, and so on. To do this, add the appropriate UITestControl.WaitForControlXXX() method. For a complete list of the available methods, see [Making Coded UI Tests Wait For Specific Events During Playback](../test/making-coded-ui-tests-wait-for-specific-events-during-playback.md). For an example of a coded UI test that waits for a control to be enabled using the WaitForControlEnabled method, see [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md).
+    - In a coded UI test playback, you can instruct the test to wait for certain events to occur, such as a window to appear, the progress bar to disappear, and so on. To do this, add the appropriate UITestControl.WaitForControlXXX() method. For a complete list of the available methods, see [Making Coded UI Tests Wait For Specific Events During Playback](../test/making-coded-ui-tests-wait-for-specific-events-during-playback.md). For an example of a coded UI test that waits for a control to be enabled using the WaitForControlEnabled method, see [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md).
 
-    -   Coded UI tests include support for some of the HTML5 controls that are included in Internet Explorer 9 and Internet Explorer 10. For more information, see [Using HTML5 Controls in Coded UI Tests](../test/using-html5-controls-in-coded-ui-tests.md).
+    - Coded UI tests include support for some of the HTML5 controls that are included in Internet Explorer 9 and Internet Explorer 10. For more information, see [Using HTML5 Controls in Coded UI Tests](../test/using-html5-controls-in-coded-ui-tests.md).
 
-    -   **Coded UI test coding guidance:**
+    - Coded UI test coding guidance:
 
-        -   [Anatomy of a Coded UI Test](../test/anatomy-of-a-coded-ui-test.md)
+       - [Anatomy of a Coded UI Test](../test/anatomy-of-a-coded-ui-test.md)
 
-        -   [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)
+       - [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)
 
-        -   [Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)
+       - [Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)
 
-        -   [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+       - [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
 
-### The Generated Code
+### The generated code
 
 When you choose **Generate Code**, several pieces of code are created:
 
--   **A line in the test method.**
+- A line in the test method.
 
     ```csharp
     [CodedUITest]
@@ -311,7 +325,7 @@ When you choose **Generate Code**, several pieces of code are created:
 
      You can also add new test methods and add code to them in the same way. Each test method must have the `[TestMethod]` attribute.
 
--   **A method in UIMap.uitest**
+- A method in *UIMap.uitest*.
 
      This method includes the detail of the actions you recorded or the value that you verified. You can edit this code by opening UIMap.uitest. It opens in a specialized editor in which you can delete or refactor the recorded actions.
 
@@ -330,9 +344,9 @@ When you choose **Generate Code**, several pieces of code are created:
     ```
 
     > [!WARNING]
-    >You should not edit this file, because it will be regenerated when you create more tests.
+    > You should not edit this file, because it will be regenerated when you create more tests.
 
-     You can make adapted versions of these methods by copying them to UIMap.cs. For example, you could make a parameterized version that you could call from a test method:
+     You can make adapted versions of these methods by copying them to *UIMap.cs*. For example, you could make a parameterized version that you could call from a test method:
 
     ```csharp
     // File: UIMap.cs
@@ -347,33 +361,33 @@ When you choose **Generate Code**, several pieces of code are created:
     }
     ```
 
--   **Declarations in UIMap.uitest**
+- Declarations in *UIMap.uitest*.
 
-     These declarations represent the UI controls of the application that are used by your test. They are used by the generated code to operate the controls and access their properties.
+    These declarations represent the UI controls of the application that are used by your test. They are used by the generated code to operate the controls and access their properties.
 
-     You can also use them if you write your own code. For example, you can have your test method choose a hyperlink in a Web application, type a value in a text box, or branch off and take different testing actions based on a value in a field.
+    You can also use them if you write your own code. For example, you can have your test method choose a hyperlink in a Web application, type a value in a text box, or branch off and take different testing actions based on a value in a field.
 
-     You can add multiple coded UI tests and multiple UI map objects and files to facilitate testing a large application. For more information, see [Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md).
+    You can add multiple coded UI tests and multiple UI map objects and files to facilitate testing a large application. For more information, see [Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md).
 
- For more information about the generated code, see [Anatomy of a Coded UI Test](../test/anatomy-of-a-coded-ui-test.md).
+For more information about the generated code, see [Anatomy of a Coded UI Test](../test/anatomy-of-a-coded-ui-test.md).
 
-### Code UI control actions and properties
+## Coded UI control actions and properties
 
 When you work with UI test controls in coded UI tests they are separated into two parts: actions and properties.
 
--   The first part consists of actions that you can perform on UI test controls. For example, coded UI tests can simulate mouse clicks on a UI test control, or simulate keys typed on the keyboard to affect a UI test control.
+- The first part consists of actions that you can perform on UI test controls. For example, coded UI tests can simulate mouse clicks on a UI test control, or simulate keys typed on the keyboard to affect a UI test control.
 
--   The second part consists of enabling you to get and set properties on a UI test control. For example, coded UI tests can get the count of items in a `ListBox`, or set a `CheckBox` to the selected state.
+- The second part consists of enabling you to get and set properties on a UI test control. For example, coded UI tests can get the count of items in a `ListBox`, or set a `CheckBox` to the selected state.
 
 **Accessing Actions of UI Test Control**
 
 To perform actions on UI test controls, such as mouse clicks or keyboard actions, use the methods in the <xref:Microsoft.VisualStudio.TestTools.UITesting.Mouse> and <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard> classes:
 
--   To perform a mouse-oriented action, such as a mouse click, on a UI test control, use <xref:Microsoft.VisualStudio.TestTools.UITesting.Mouse.Click%2A>.
+- To perform a mouse-oriented action, such as a mouse click, on a UI test control, use <xref:Microsoft.VisualStudio.TestTools.UITesting.Mouse.Click%2A>.
 
      `Mouse.Click(buttonCancel);`
 
--   To perform a keyboard-oriented action, such as typing into an edit control, use <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard.SendKeys%2A>.
+- To perform a keyboard-oriented action, such as typing into an edit control, use <xref:Microsoft.VisualStudio.TestTools.UITesting.Keyboard.SendKeys%2A>.
 
      `Keyboard.SendKeys(textBoxDestination, @"C:\Temp\Output.txt");`
 
@@ -383,38 +397,38 @@ To get and set UI control specific property values, you can directly get or set 
 
 <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A> returns an object, which can then be cast to the appropriate <xref:System.Type>. <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty%2A> accepts an object for the value of the property.
 
-#### To get or set properties from UI test controls directly
+### To get or set properties from UI test controls directly
 
-With controls that derive from T:Microsoft.VisualStudio.TestTools.UITesting.UITestControl, such as T:Microsoft.VisualStudio.TestTools.UITesting.HtmlControls.HtmlList or T:Microsoft.VisualStudio.TestTools.UITesting.WinControls.WinComboBox, you can get or set their property values directly, as follows:
+With controls that derive from <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl>, such as [HtmlList](https://msdn.microsoft.com/library/microsoft.visualstudio.testtools.uitesting.htmlcontrols.htmllist.aspx) or [WinComboBox](https://msdn.microsoft.com/library/microsoft.visualstudio.testtools.uitesting.wincontrols.wincombobox.aspx), you can get or set their property values directly. The following code shows some examples:
 
  ```csharp
  int i = myHtmlList.ItemCount;
  myWinCheckBox.Checked = true;
  ```
 
-#### To get properties from UI test controls
+### To get properties from UI test controls
 
--   To get a property value from a control, use <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A>.
+- To get a property value from a control, use <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A>.
 
--   To specify the property of the control to get, use the appropriate string from the `PropertyNames` class in each control as the parameter to <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A>.
+- To specify the property of the control to get, use the appropriate string from the `PropertyNames` class in each control as the parameter to <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A>.
 
--   <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A> returns the appropriate data type, but this return value is cast as an <xref:System.Object>. The return <xref:System.Object> must then be cast as the appropriate type.
+- <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.GetProperty%2A> returns the appropriate data type, but this return value is cast as an <xref:System.Object>. The return <xref:System.Object> must then be cast as the appropriate type.
 
      Example:
 
      `int i = (int)GetProperty(myHtmlList.PropertyNames.ItemCount);`
 
-#### To set properties for UI test controls
+### To set properties for UI test controls
 
--   To set a property in a control, use <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty%2A>.
+- To set a property in a control, use <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty%2A>.
 
--   To specify the property of the control to set, use the appropriate string from the  `PropertyNames` class as the first parameter to <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty%2A>, with the property value as the second parameter.
+- To specify the property of the control to set, use the appropriate string from the  `PropertyNames` class as the first parameter to <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.SetProperty%2A>, with the property value as the second parameter.
 
      Example:
 
      `SetProperty(myWinCheckBox.PropertyNames.Checked, true);`
 
-### Debug
+## Debug
 
 You can analyze Coded UI tests using coded UI test logs. Coded UI test logs filter and record important information about your coded UI test runs. The format of the logs lets you debug issues quickly. For more information, see [Analyzing Coded UI Tests Using Coded UI Test Logs](../test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md).
 
@@ -422,17 +436,17 @@ You can analyze Coded UI tests using coded UI test logs. Coded UI test logs filt
 
 **Additional options for running coded UI tests:** You can run coded UI tests directly from Visual Studio, as described earlier in this topic. Additionally, you can run automated UI tests from Microsoft Test Manager, or from Team Foundation Build. When coded UI tests are automated, they have to interact with the desktop when you run them, unlike other automated tests.
 
--   [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
+- [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
 
--   [Run tests in your build process](/vsts/build-release/test/getting-started-with-continuous-testing)
+- [Run tests in your build process](/vsts/build-release/test/getting-started-with-continuous-testing)
 
--   [How to: Set Up Your Test Agent to Run Tests that Interact with the Desktop](http://msdn.microsoft.com/Library/3a94dd07-6d17-402c-ae8f-7947143755c9)
+- [How to: Set Up Your Test Agent to Run Tests that Interact with the Desktop](http://msdn.microsoft.com/Library/3a94dd07-6d17-402c-ae8f-7947143755c9)
 
 **Adding support for custom controls:**  The coded UI testing framework does not support every possible UI and might not support the UI you want to test. For example, you cannot immediately create a coded UI test of the UI for Microsoft Excel. However, you can create an extension to the coded UI testing framework that will support a custom control.
 
--   [Enable Coded UI Testing of Your Controls](../test/enable-coded-ui-testing-of-your-controls.md)
+- [Enable Coded UI Testing of Your Controls](../test/enable-coded-ui-testing-of-your-controls.md)
 
--   [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)
+- [Extending Coded UI Tests and Action Recordings](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)
 
 Coded UI Tests are often used to automate manual tests. For more information about manual tests, see [Run manual tests with Microsoft Test Manager](/vsts/manual-test/mtm/run-manual-tests-with-microsoft-test-manager). For more information about automated tests, see [Testing tools in Visual Studio](../test/improve-code-quality.md).
 
@@ -440,11 +454,8 @@ Coded UI Tests are often used to automate manual tests. For more information abo
 
 - <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>
-- [Improve Code Quality](../test/improve-code-quality.md)
-- [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
+- [Walkthrough: Create, edit, and maintain a coded UI test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
+- [Create a coded UI test to test a UWP app](test-uwp-app-with-coded-ui-test.md)
 - [Anatomy of a Coded UI Test](../test/anatomy-of-a-coded-ui-test.md)
 - [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)
-- [Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)
-- [Editing Coded UI Tests Using the Coded UI Test Editor](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md)
-- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
-- [Upgrading Coded UI Tests from Visual Studio 2010](../test/upgrading-coded-ui-tests-from-visual-studio-2010.md)
+- [Test a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)

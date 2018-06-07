@@ -1,13 +1,10 @@
 ---
-title: "Deployment Manifests for Office Solutions | Microsoft Docs"
+title: "Deployment manifests for Office solutions"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -18,25 +15,25 @@ helpviewer_keywords:
   - "Office development in Visual Studio, deployment manifests"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Deployment Manifests for Office Solutions
+# Deployment manifests for Office solutions
   A deployment manifest is an XML file that describes the deployment settings of an Office solution and identifies the current application version.  
   
- The Office development in Visual Studio uses the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] deployment manifest schema defined in the [ClickOnce Deployment Manifest](/visualstudio/deployment/clickonce-deployment-manifest) reference.  
+ The Office development in Visual Studio uses the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] deployment manifest schema defined in the [ClickOnce deployment manifest](/visualstudio/deployment/clickonce-deployment-manifest) reference.  
   
 ## Remarks  
- The deployment manifest file for Office solutions identifies the current version and other deployment settings. It references the application manifest, which describes the current version of the solution and all of the files that are contained in the solution.  
+ The deployment manifest file for Office solutions, identifies the current version and other deployment settings. It references the application manifest, and describes the current version of the solution and all files within in the solution.  
   
-## File Name Syntax  
- The name of a deployment manifest file must end with the .vsto extension. Although it is a standard [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] deployment manifest, the extension differs to enable the Visual Studio Tools for Office runtime to handle the file.  
+## File name syntax  
+ The name of a deployment manifest file must end with the *.vsto* extension. Although it is a standard [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] deployment manifest, the extension differs to enable the Visual Studio Tools for Office runtime to handle the file.  
   
 ## Example  
  The following code example illustrates a deployment manifest for a Visual Studio Tools for Office solution.  
   
-```  
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <asmv1:assembly   
   xsi:schemaLocation=  
@@ -183,7 +180,7 @@ ms.workload:
 </asmv1:assembly>  
 ```  
   
-## See Also  
- [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)  
+## See also  
+ [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)  
   
   

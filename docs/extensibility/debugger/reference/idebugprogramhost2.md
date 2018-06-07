@@ -2,21 +2,17 @@
 title: "IDebugProgramHost2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramHost2"
 helpviewer_keywords: 
   - "IDebugProgramHost2 interface"
 ms.assetid: 2c37b3aa-97a9-4665-8709-edd917f18cb1
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

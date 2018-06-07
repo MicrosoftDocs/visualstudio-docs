@@ -2,21 +2,17 @@
 title: "Using MSBuild | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSPackages, compiling with MSBuild"
   - "MSBuild, extensibility"
   - "packages, compiling with MSBuild"
 ms.assetid: 9d38c388-1f64-430e-8f6c-e88bc99a4260
-caps.latest.revision: 20
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

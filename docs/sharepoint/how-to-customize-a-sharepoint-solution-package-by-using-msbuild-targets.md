@@ -2,12 +2,9 @@
 title: "How to: Customize a SharePoint Solution Package by Using MSBuild Targets | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,7 +14,7 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, packages"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -31,7 +28,7 @@ ms.workload:
   
 1.  Open an editor, such as Notepad, and then add the following code.  
   
-    ```  
+    ```xml  
     <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
       <Target Name="BeforeLayout">  
         <Message Importance="high" Text="In the BeforeLayout Target"></Message>  
@@ -49,7 +46,7 @@ ms.workload:
   
 5.  After the `Import` line near the end of the project file, add the following line.  
   
-    ```  
+    ```xml  
     <Import Project="CustomLayout.SharePoint.targets" />  
     ```  
   
@@ -67,7 +64,7 @@ ms.workload:
   
 3.  Just before the `</Project>` tag, add the following code:  
   
-    ```  
+    ```xml  
     <Target Name="AfterLayout">  
       <Message Importance="high" Text="In the AfterLayout Target"></Message>  
     </Target>  

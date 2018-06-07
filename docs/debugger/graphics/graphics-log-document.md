@@ -2,21 +2,16 @@
 title: "Graphics Log Document | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.graphics.vsglog.error"
   - "vs.graphics.experiment"
   - "vs.graphics.vsglog"
 ms.assetid: 6ccb1269-d55f-49c4-920d-baedf7de2888
-caps.latest.revision: 31
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -1,17 +1,14 @@
 ---
-title: "Calculate code metrics in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "12/12/2017"
-ms.reviewer: ""
-ms.suite: ""
+title: Calculate code metrics in Visual Studio
+ms.date: 12/12/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "code metrics [Visual Studio]"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---

@@ -2,21 +2,17 @@
 title: "IEnumDebugPrograms2::Skip | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugPrograms2::Skip"
 helpviewer_keywords: 
   - "IEnumDebugPrograms2::Skip"
 ms.assetid: b283858b-b375-4760-bfec-ab37de89958d
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

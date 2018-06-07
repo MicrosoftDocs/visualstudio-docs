@@ -1,21 +1,15 @@
 ---
-title: R Tools for Visual Studio FAQ | Microsoft Docs
+title: R Tools for Visual Studio FAQ
 description: Frequently-asked questions on R in Visual Studio.
-ms.custom:
 ms.date: 12/04/2017
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-r"
-dev_langs:
-  - "R"
-ms.tgt_pltfrm:
-ms.topic: "article"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
+ms.prod: visual-studio-dev15
+ms.technology: vs-rtvs
+ms.topic: reference
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "data-science"
+  - data-science
 ---
 
 # Frequently asked questions

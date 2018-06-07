@@ -2,12 +2,8 @@
 title: "Walkthrough: Debugging a Windows Form | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -23,10 +19,9 @@ helpviewer_keywords:
   - "Windows Forms, debugging"
   - "debugging Windows Forms, walkthroughs"
 ms.assetid: 529db1e2-d9ea-482a-b6a0-7c543d17f114
-caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

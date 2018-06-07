@@ -2,12 +2,9 @@
 title: "How to: Register a Library with the Object Manager | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "libraries, registering with object manager"
   - "IVsLibrary2 interface, registering library with object manager"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "IVsObjectManager2 interface, registering library with object manager"
   - "libraries, symbol-browsing tools"
 ms.assetid: f124dd05-cb0f-44ad-bb2a-7c0b34ef4038
-caps.latest.revision: 26
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

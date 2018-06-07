@@ -2,11 +2,8 @@
 title: "WriteCodeFragment Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "MSBuild, WriteCodeFragment task"
   - "WriteCodeFragment task [MSBuild]"
 ms.assetid: 1d2514b4-5bef-43bb-bebe-496da8ef063c
-caps.latest.revision: 5
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
