@@ -34,7 +34,7 @@ If your favorite framework is not supported, see [Add support for a unit test fr
 
 ## Write unit tests
 
-Before adding unit tests to your project, make sure the framework you plan to use is installed locally in your project. This is easiest using the [npm install window](npm.md#npmInstallWindow).
+Before adding unit tests to your project, make sure the framework you plan to use is installed locally in your project. This is easiest using the [npm install window](npm-package-management.md#npmInstallWindow).
 
 The preferred way to add unit tests to your project is by creating a *tests* folder in
 your project, and setting that as the test root in project properties. You also need
