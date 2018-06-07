@@ -38,7 +38,7 @@
       href: deploy-iis-with-web-deploy.md
     - name: Continuous deployment of ASP.NET Core to Azure with Git
       href: /aspnet/core/publishing/azure-continuous-deployment?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json
-    - name: Get started with Kubernetes tools
+    - name: Publish to Kubernetes with Visual Studio Kubernetes tools
       href: tutorial-kubernetes-tools.md
   - name: Native
     items:
