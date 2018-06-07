@@ -113,6 +113,6 @@ To do this, you first need to set up a publish profile that publishes your conta
 
 Congratulations! You can now use the full power of Visual Studio for all your Kubernetes app development.
 
-## Next Steps
+## Next steps
 
 Learn more about Kubernetes development on Azure by reading the [AKS documentation](/azure/aks).
