@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# marker_series::~marker_series Destructor
+# marker_series::~marker_series destructor
 Destroys marker_series object and releases all allocated resources.  
   
 ## Syntax  
@@ -25,9 +25,9 @@ Destroys marker_series object and releases all allocated resources.
 ```  
   
 ## Requirements  
- **Header:** cvmarkersobj.h  
+ **Header:** *cvmarkersobj.h*  
   
  **Namespace:** Concurrency::diagnostic  
   
-## See Also  
- [marker_series Class](../profiling/marker-series-class.md)
+## See also  
+ [marker_series class](../profiling/marker-series-class.md)

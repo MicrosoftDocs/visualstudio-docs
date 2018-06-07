@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# How to: Specify the .NET Framework Runtime
+# How to: Specify the .NET Framework runtime
 
 With the release of [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)], applications can be composed of modules that were built by using different versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] run-time. By default, Visual Studio Profiling Tools profile the first runtime that is loaded by the application. You can specify the run-time to profile when you start an application with the profiler and when you attach the profiler to an already running application.
 
@@ -32,9 +32,9 @@ With the release of [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_lon
 
 ## To specify the .NET Framework run-time to profile when attaching the profiler to an application
 
-1. On the Analyze menu, point to Profiler, then click Attach/Detach.
+1. On the **Analyze** menu, point to **Profiler**, then click **Attach/Detach**.
 
-2. On the Attach Profiler to Process dialog box, click the process that you want to profile.
+2. On the **Attach Profiler to Process** dialog box, click the process that you want to profile.
 
      The **Target CLR Version** list box s **Automatic** and the versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] runtime that are installed on the computer.
 

@@ -18,11 +18,11 @@ ms.workload:
   - "data-storage"
 ---
 # Add code to TableAdapters in n-tier applications
-You can extend the functionality of a TableAdapter by creating a partial class file for the TableAdapter and adding code to it (instead of adding code to the *DatasetName*.DataSet.Designer file). Partial classes enable code for a specific class to be divided among multiple physical files. For more information, see [Partial](/dotnet/visual-basic/language-reference/modifiers/partial) or [partial (Type)](/dotnet/csharp/language-reference/keywords/partial-type).
+You can extend the functionality of a TableAdapter by creating a partial class file for the TableAdapter and adding code to it (instead of adding code to the *DatasetName.DataSet.Designer* file). Partial classes enable code for a specific class to be divided among multiple physical files. For more information, see [Partial](/dotnet/visual-basic/language-reference/modifiers/partial) or [partial (Type)](/dotnet/csharp/language-reference/keywords/partial-type).
 
 The code that defines a TableAdapter is generated every time changes are made to the TableAdapter in the dataset. This code is also generated when changes are made during the running of any wizard that modifies the configuration of the TableAdapter. To prevent your code from being deleted during the regeneration of a TableAdapter, add code to the partial class file of the TableAdapter.
 
-By default, after you separate the dataset and TableAdapter code, the result is a discrete class file in each project. The original project has a file named *DatasetName*.Designer.vb (or *DatasetName*.Designer.cs) that contains the TableAdapter code. The project that's designated in the **Dataset Project** property has a file named *DatasetName*.DataSet.Designer.vb (or *DatasetName*.DataSet.Designer.cs) that contains the dataset code.
+By default, after you separate the dataset and TableAdapter code, the result is a discrete class file in each project. The original project has a file named *DatasetName.Designer.vb* (or *DatasetName.Designer.cs*) that contains the TableAdapter code. The project that's designated in the **Dataset Project** property has a file named *DatasetName.DataSet.Designer.vb* (or *DatasetName.DataSet.Designer.cs*) that contains the dataset code.
 
 > [!NOTE]
 >  When you separate datasets and TableAdapters (by setting the **DataSet Project** property), existing partial dataset classes in the project will not be moved automatically. Existing partial dataset classes must be moved manually to the dataset project.
@@ -34,9 +34,9 @@ By default, after you separate the dataset and TableAdapter code, the result is 
 
 ## To add user code to a TableAdapter in an n-tier application
 
-1.  Locate the project that contains the .xsd file.
+1.  Locate the project that contains the *.xsd* file.
 
-2.  Double click the **.xsd** file to open the **Dataset Designer**.
+2.  Double click the *.xsd* file to open the **Dataset Designer**.
 
 3.  Right-click the TableAdapter that you want to add code to, and then select **View Code**.
 
@@ -63,7 +63,7 @@ By default, after you separate the dataset and TableAdapter code, the result is 
 
 ## See also
 
-- [N-Tier Data Applications Overview](../data-tools/n-tier-data-applications-overview.md)
+- [N-Tier data applications overview](../data-tools/n-tier-data-applications-overview.md)
 - [Add code to datasets in n-tier applications](../data-tools/add-code-to-datasets-in-n-tier-applications.md)
-- [Create and Configure TableAdapters](create-and-configure-tableadapters.md)
-- [Hierarchical Update Overview](hierarchical-update.md)
+- [Create and configure TableAdapters](create-and-configure-tableadapters.md)
+- [Hierarchical update overview](hierarchical-update.md)
