@@ -77,21 +77,21 @@ some additional files in your project that facilitate deploying to Kubernetes.
 
 The added files are:
 
-    - a Dockerfile, which allows you to generate a Docker container
-    image hosting this web application. As you'll see, the Visual Studio tooling
-    leverages this Dockerfile when debugging and deploying to Kubernetes. If you
-    prefer to work directly with the Docker image, you can right-click on the
-    Dockerfile and choose **Build Docker Image**.
-    
-    ![Screenshot of Build Docker Image option](media/k8s-tools-build-docker-image.png)
-    
-    - a Helm chart, and a *charts* folder. These yaml
-    files make up the Helm chart for the application, which you can use to deploy it
-    to Kubernetes. For more information on Helm, see [https://www.helm.sh](https://www.helm.sh).
-    
-    - *azds.yaml*. This contains settings for
-    Azure Dev Spaces, a new service that provides a rapid, iterative debugging
-    experience in Azure Kubernetes Service. This file is currently unused, but is reserved for future use by Azure Dev Spaces.
+- a Dockerfile, which allows you to generate a Docker container
+image hosting this web application. As you'll see, the Visual Studio tooling
+leverages this Dockerfile when debugging and deploying to Kubernetes. If you
+prefer to work directly with the Docker image, you can right-click on the
+Dockerfile and choose **Build Docker Image**.
+
+![Screenshot of Build Docker Image option](media/k8s-tools-build-docker-image.png)
+
+- a Helm chart, and a *charts* folder. These yaml
+files make up the Helm chart for the application, which you can use to deploy it
+to Kubernetes. For more information on Helm, see [https://www.helm.sh](https://www.helm.sh).
+
+- *azds.yaml*. This contains settings for
+Azure Dev Spaces, a new service that provides a rapid, iterative debugging
+experience in Azure Kubernetes Service. This file is currently unused, but is reserved for future use by Azure Dev Spaces.
 
 ## Publishing to Azure Kubernetes Service (AKS)
 
