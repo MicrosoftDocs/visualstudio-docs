@@ -38,7 +38,7 @@ The Lines view is available only for profiler data that was collected by using t
   
 -   The character in the source line at which the statement ends.  
   
-## See Also  
+## See also  
  [Lines View](../profiling/lines-view-sampling-data.md)   
- [Lines View - Sampling](../profiling/lines-view-dotnet-memory-sampling-data.md)   
+ [Lines View - sampling](../profiling/lines-view-dotnet-memory-sampling-data.md)   
  [Lines View](../profiling/lines-view-contention-data.md)

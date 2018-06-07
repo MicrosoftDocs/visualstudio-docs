@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Start and End Performance Data Collection
+# How to: Start and end performance data collection
 You must add the target binary that you want to profile to the performance session before you start profiling. To add a target, right-click **Targets** in **Performance Explorer**, and then click **Add Target Binary**. In the **Add Target Binary** dialog box, select the file name, and then click **Open**. A new binary is added.  
   
 ### To start profiling  
@@ -27,12 +27,12 @@ You must add the target binary that you want to profile to the performance sessi
   
     -   **Launch with Profiling** - starts the application and immediately begins profiling.  
   
-    -   **Launch with Profiling Paused** - starts the application but does not begin profiling. You can start profiling by selecting **Resume Collection** in the **Data Collection Control** window. For more information, see [How to: Pause and Resume Performance Data Collection](../profiling/how-to-pause-and-resume-performance-data-collection.md).  
+    -   **Launch with Profiling Paused** - starts the application but does not begin profiling. You can start profiling by selecting **Resume Collection** in the **Data Collection Control** window. For more information, see [How to: Pause and resume performance data collection](../profiling/how-to-pause-and-resume-performance-data-collection.md).  
   
 ### To end profiling  
   
 -   The preferred method of ending a profiling session is to exit the application. To immediately stop profiling, on the **Performance Explorer** toolbar, click **Stop**.  
   
-## See Also  
- [Controlling Data Collection](../profiling/controlling-data-collection.md)   
- [How to: Pause and Resume Performance Data Collection](../profiling/how-to-pause-and-resume-performance-data-collection.md)
+## See also  
+ [Control data collection](../profiling/controlling-data-collection.md)   
+ [How to: Pause and resume performance data collection](../profiling/how-to-pause-and-resume-performance-data-collection.md)
