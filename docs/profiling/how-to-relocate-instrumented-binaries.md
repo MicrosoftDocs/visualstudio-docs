@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Relocate Instrumented Binaries
+# How to: Relocate instrumented binaries
 
 During instrumentation, probes are inserted into the binary to measure application performance. By choosing to relocate the instrumented binary, a copy of the original binary is instrumented and put in the specified location. This option is useful if you do not want the profiler to rename your original binary. If the binary is not relocated, the original version of the binary is overwritten.
 
@@ -33,5 +33,5 @@ During instrumentation, probes are inserted into the binary to measure applicati
 
 ## See also
 
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)  
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
 [VSInstr](../profiling/vsinstr.md)

@@ -651,17 +651,6 @@
       href: ide/optimize-visual-studio-startup-time.md
     - name: Tips and tricks
       href: ide/visual-studio-performance-tips-and-tricks.md
-  - name: Security
-    href: ide/security-in-visual-studio.md
-    items:
-    - name: Secure applications
-      href: ide/securing-applications.md
-    - name: Maintain security
-      href: ide/maintaining-security.md
-    - name: User permissions
-      href: ide/user-permissions-and-visual-studio.md
-    - name: Security bibliography
-      href: ide/security-bibliography.md
   - name: Manage accessibility features
     href: ide/reference/accessibility-features-of-visual-studio.md
     items:
@@ -1003,6 +992,14 @@
       href: ide/reference/toggle-breakpoint-command.md
     - name: Watch Command
       href: ide/reference/watch-command.md
+  - name: Security
+    items:
+    - name: Develop secure applications
+      href: ide/securing-applications.md
+    - name: Run Visual Studio as normal user or administrator
+      href: ide/user-permissions-and-visual-studio.md
+    - name: Windows Information Protection (WIP)
+      href: ide/exempt-visual-studio-from-wip.md
   - name: Microsoft Help Viewer
     href: ide/microsoft-help-viewer.md
     items:

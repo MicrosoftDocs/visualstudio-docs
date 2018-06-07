@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Configure Noise Reduction in Report Views
+# How to: Configure noise reduction in report views
 Performance reports can be configured for noise reduction by limiting the amount of data that is presented in the Call Tree view and the Allocation view. By using noise reduction, performance problems are more prominent. This is useful when you analyze performance reports.  
   
  Noise reduction configuration options include the following settings:  
@@ -72,8 +72,8 @@ Performance reports can be configured for noise reduction by limiting the amount
   
 4.  Click **OK**.  
   
-## See Also  
- [Customizing Performance Tools Report Views](../profiling/customizing-performance-tools-report-views.md)   
- [How to: Exclude or Include Short Functions from Instrumentation](../profiling/how-to-exclude-or-include-short-functions-from-instrumentation.md)   
+## See also  
+ [Customize performance tools report views](../profiling/customizing-performance-tools-report-views.md)   
+ [How to: Exclude or include short functions from instrumentation](../profiling/how-to-exclude-or-include-short-functions-from-instrumentation.md)   
  [Call Tree View](../profiling/call-tree-view.md)   
  [Allocations View](../profiling/dotnet-memory-allocations-view.md)

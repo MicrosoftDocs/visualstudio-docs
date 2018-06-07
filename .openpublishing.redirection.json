@@ -1156,6 +1156,21 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/maintaining-security.md",
+            "redirect_url": "/visualstudio/ide/securing-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/security-bibliography.md",
+            "redirect_url": "/visualstudio/ide/securing-applications",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/security-in-visual-studio.md",
+            "redirect_url": "/visualstudio/ide/user-permissions-and-visual-studio",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/supplying-xml-code-comments.md",
             "redirect_url": "/visualstudio/ide/reference/generate-xml-documentation-comments",
             "redirect_document_id": false

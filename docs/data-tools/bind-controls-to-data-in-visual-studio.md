@@ -42,7 +42,7 @@ You can display data to users of your application by binding data to controls. Y
 
  ![Data Sources window](../data-tools/media/raddata-data-sources-window.png)
 
- For each data type that appears in the **Data Sources** window, a default control is created when you drag the item to the designer. Before you drag an item from the **Data Sources** window, you can change the control that will be created. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
+ For each data type that appears in the **Data Sources** window, a default control is created when you drag the item to the designer. Before you drag an item from the **Data Sources** window, you can change the control that is created. For more information, see [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md).
 
 ## Tasks involved in binding controls to data
  The following table lists some of the most common tasks you perform to bind controls to data.
@@ -58,7 +58,7 @@ You can display data to users of your application by binding data to controls. Y
 |Filter data that appears in the UI.|[Filter and sort data in a Windows Forms application](../data-tools/filter-and-sort-data-in-a-windows-forms-application.md)|
 |Customize captions for controls.|[Customize how Visual Studio creates captions for data-bound controls](../data-tools/customize-how-visual-studio-creates-captions-for-data-bound-controls.md)|
 
-## See Also
+## See also
 
 - [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)
-- [Windows Forms Data Binding](/dotnet/framework/winforms/windows-forms-data-binding)
+- [Windows Forms data binding](/dotnet/framework/winforms/windows-forms-data-binding)

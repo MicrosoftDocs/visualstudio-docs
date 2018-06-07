@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Set Permissions
+# How to: Set permissions
 
 This article describes how an Administrator of a computer grants the security permissions required for profiling to a user or group that does not have Administrator permissions on that computer.
 
@@ -117,6 +117,6 @@ Members of the Users group can run the profiling tools if an administrator grant
 
 ## See also
 
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)  
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
 [VSPerfCmd](../profiling/vsperfcmd.md)  
 [Profiling and Windows Vista Security](../profiling/profiling-and-windows-vista-security.md)
