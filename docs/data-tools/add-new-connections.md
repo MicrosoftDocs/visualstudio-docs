@@ -12,7 +12,7 @@ ms.workload:
 ---
 # Add new connections
 
-You can test your connection to a database or service, and explore database contents and schemas, by using **Server Explorer** > **Cloud Explorer** or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:
+You can test your connection to a database or service, and explore database contents and schemas, by using **Server Explorer**, **Cloud Explorer**, or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:
 
 - Server Explorer
 

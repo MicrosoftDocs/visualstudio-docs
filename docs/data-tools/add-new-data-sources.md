@@ -36,7 +36,7 @@ In the context of .NET data tools in Visual Studio, the term *data source* refer
 
  ![Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png "Data Source Configuration Wizard")
 
- After you create a data source, it appears in the **Data Sources** tool window (**Shift**+**Alt**+**D** or **View** > **Other Windows** > **Data Source**). You can drag a data source from the **Data Sources** window onto a form design surface or control. This causes boilerplate code to be generated—code that displays the data that originates in the data store to the user. The following illustration shows a dataset that has been dropped onto a Windows form. If you selected F5 on the application, the data from the underlying database  appears in the form's controls.
+ After you create a data source, it appears in the **Data Sources** tool window (**Shift**+**Alt**+**D** or **View** > **Other Windows** > **Data Source**). You can drag a data source from the **Data Sources** window onto a form design surface or control. This causes boilerplate code to be generated—code that displays the data that originates in the data store to the user. The following illustration shows a dataset that has been dropped onto a Windows form. If you selected **F5** on the application, the data from the underlying database appears in the form's controls.
 
  ![Data Source drag operation](../data-tools/media/raddata-data-source-drag-operation.png "raddata Data Source drag operation")
 
@@ -54,7 +54,7 @@ In the context of .NET data tools in Visual Studio, the term *data source* refer
 
  ![Entity Data Model Wizard](../data-tools/media/raddata-entity-data-model-wizard.png "raddata Entity Data Model Wizard")
 
- Add the model as a data source. The classes you generated appear in the **Data Source Configuration Wizard** when you choose the **Objects** category.
+ Add the model as a data source. The generated classes appear in the **Data Source Configuration Wizard** when you choose the **Objects** category.
 
  ![Data Source Configuration Wizard with Entity Classes](../data-tools/media/raddata-data-source-configuration-wizard-with-entity-classes.png "raddata Data Source Configuration Wizard with Entity Classes")
 
