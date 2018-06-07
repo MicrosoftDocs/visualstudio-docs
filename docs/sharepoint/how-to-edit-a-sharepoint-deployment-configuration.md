@@ -44,7 +44,7 @@ ms.workload:
   
 #### To change the active deployment configuration  
   
-1.  In **Solution Explorer**, choose a SharePoint project, and then, on the menu bar, choose **Project**, *ProjectName***Properties**.  
+1.  In **Solution Explorer**, choose a SharePoint project, and then, on the menu bar, choose **Project** > **{*ProjectName*}Properties**.  
   
 2.  Choose the **SharePoint** tab.  
   

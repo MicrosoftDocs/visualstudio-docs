@@ -44,7 +44,7 @@ ms.workload:
   
 7.  If you want to handle control events, add code to the code file for the application page.  
   
-     The code file appears if you expand the node for the ASP.NET page file and has a .cs or .vb extension, depending on the language of the project. For an end-to-end example of how to create an application page, see [Walkthrough: Creating a SharePoint Application Page](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md).  
+     The code file appears if you expand the node for the ASP.NET page file and has a *.cs* or *.vb* extension, depending on the language of the project. For an end-to-end example of how to create an application page, see [Walkthrough: Creating a SharePoint Application Page](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md).  
   
 ## See also
  [Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)   

@@ -40,7 +40,7 @@ ms.workload:
   
 6.  In **Solution Explorer**, open the code file for the web part that you just created.  
   
-     For example, if the name of your web part is WebPart1, open WebPart1.vb (in Visual Basic) or WebPart1.cs (in C#).  
+     For example, if the name of your web part is *WebPart1*, open *WebPart1.vb* (in Visual Basic) or *WebPart1.cs* (in C#).  
   
 7.  In the code file, add controls to the <xref:System.Web.UI.Control.CreateChildControls%2A> method.  
   

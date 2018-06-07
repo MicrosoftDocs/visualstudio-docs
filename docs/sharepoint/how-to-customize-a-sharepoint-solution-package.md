@@ -73,9 +73,7 @@ ms.workload:
   
 1.  In the **Package Designer**, choose the **Manifest** tab.  
   
-2.  .  
-  
-3.  Expand the **Edit Options** node, choose the **Overwrite generated XML and edit manifest in the XML editor** link, and then choose the **Yes** button.  
+2.  Expand the **Edit Options** node, choose the **Overwrite generated XML and edit manifest in the XML editor** link, and then choose the **Yes** button.  
   
      The template is updated with the current packaged manifest file.  
   

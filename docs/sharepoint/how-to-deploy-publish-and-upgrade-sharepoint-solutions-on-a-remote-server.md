@@ -26,7 +26,7 @@ ms.workload:
   
 1.  In **Solution Explorer**, open the shortcut menu for the sandboxed SharePoint project that you want to publish, and then choose **Publish**.  
   
-2.  In the **Publish** dialog box, choose the **Publish to SharePoint Site** option button, and then enter a URL for an online publishing site, such as the following example: **https://mytestsite.sharepoint.microsoftonline.com**.  
+2.  In the **Publish** dialog box, choose the **Publish to SharePoint Site** option button, and then enter a URL for an online publishing site, such as: `https://mytestsite.sharepoint.microsoftonline.com`.  
   
 3.  Choose the **Open the Solution Gallery page in the browser after publishing** option button to view the list of solutions in the **Solution Gallery** page after publishing.  
   
