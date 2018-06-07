@@ -20,7 +20,7 @@ These procedures have been tested on these server configurations:
 
 ## Create the ASP.NET 4.5.2 application on the Visual Studio computer
   
-1. On the computer running Visual Studio, choose **File > New Project**.
+1. On the computer running Visual Studio, choose **File** > **New Project**.
 
 1. Under **Visual C#** or **Visual Basic**, choose **Web**, and then in the middle pane choose either **ASP.NET Web Application (.NET Framework)** and then click **OK**.
 
@@ -32,7 +32,7 @@ These procedures have been tested on these server configurations:
 
     Visual Studio creates the project.
 
-1. Choose **Build > Build Solution** to build the project.
+1. Choose **Build** > **Build Solution** to build the project.
 
 ## <a name="bkmk_configureIIS"></a> Install and Configure IIS on Windows Server
 
@@ -40,7 +40,7 @@ These procedures have been tested on these server configurations:
 
 ## Update browser security settings on Windows Server
 
-If Enhanced Security Configuration is enabled in Internet Explorer (it is enabled by default), then you may need to add some domains as trusted sites to enable you to download some of the web server components. Add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. Add the following domains.
+If Enhanced Security Configuration is enabled in Internet Explorer (it is enabled by default), then you may need to add some domains as trusted sites to enable you to download some of the web server components. Add the trusted sites by going to **Internet Options** > **Security** > **Trusted Sites** > **Sites**. Add the following domains.
 
 - microsoft.com
 - go.microsoft.com
@@ -108,7 +108,7 @@ Required ports:
 
 1. To open a port on Windows Server, open the **Start** menu, search for **Windows Firewall with Advanced Security**.
 
-2. Then choose **Inbound Rules > New Rule > Port**. Choose **Next** and under **Specific local ports**, enter the port number, click **Next**, then **Allow the Connection**, click Next, and add the name (**IIS**, **Web Deploy**, or **msvsmon**) for the Inbound Rule.
+2. Then choose **Inbound Rules** > **New Rule** > **Port**. Choose **Next** and under **Specific local ports**, enter the port number, click **Next**, then **Allow the Connection**, click Next, and add the name (**IIS**, **Web Deploy**, or **msvsmon**) for the Inbound Rule.
 
     If you want more details on configuring Windows Firewall, see [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md).
 
