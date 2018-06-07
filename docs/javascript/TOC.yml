@@ -1,57 +1,27 @@
-- name: JavaScript in Visual Studio documentation
-- name: Overview
-  items:
-  - name: Overview of JavaScript in Visual Studio
-    href: overview.md
-- name: Installation
-  items:
-  - name: VS workloads with JavaScript and TypeScript support
-  - name: Install new releases of TypeScript in Visual Studio
+- name: Node.js documentation
 - name: Quickstarts
   items:
   - name: Create a Node.js project
     href: /visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json
-  - name: Create a Node.js project from existing code
-  - name: Add TypeScript to an ASP.NET Core project
 - name: Tutorials
   items:
-  - name: Create a Node.js app with React
-    href: /visualstudio/nodejs/tutorial-nodejs-with-react-and-jsx?toc=/visualstudio/javascript/toc.json
-  - name: Create an Angular.js app
-  - name: Create a Vue.js app
   - name: Create a Node.js app with Express
     href: /visualstudio/nodejs/tutorial-nodejs?toc=/visualstudio/javascript/toc.json
-  - name: Develop with Azure Functions
-- name: Concepts
-  items:
-  - name: Architecture overview
-  - name: "Visual Studio projects, MSBuild, and tsconfig"
-  - name: ASP.NET Core and NuGet support
-  - name: "Type definition files and @types packages"
-  - name: Automatic Type Acquisition
-  - name: Source maps
-  - name: JavaScript and TypeScript modules
+  - name: Create a Node.js app with React
+    href: /visualstudio/nodejs/tutorial-nodejs-with-react-and-jsx?toc=/visualstudio/javascript/toc.json
 - name: How-to Guides
   items:
-  - name: Configure a project using tsconfig.json or jsconfig.json files
-  - name: Work with Open Folder support
+  - name: Manage npm packages
+    href: npm-package-management.md
+  - name: Develop without projects or solutions ("Open Folder")
+    href: develop-javascript-code-without-solutions-or-projects.md
   - name: JavaScript unit testing
-  - name: NPM package management
-  - name: Debug JavaScript and TypeScript
-  - name: "Run NPM, WebPack, or Gulp tasks"
-  - name: Type checking JavaScript
-  - name: Configure Linting
-  - name: Troubleshooting
-    items:
-    - name: View project structure by enabling virtual projects
-    - name: Gather detailed logs and traces
+    href: unit-testing-javascript-in-visual-studio.md
 - name: Reference
   items:
-  - name: IntelliSense features
-  - name: Quick fixes and refactoring
-  - name: JsDoc support
-  - name: Code formatting options
+  - name: JavaScript IntelliSense
+    href: /visualstudio/ide/javascript-intellisense.md
 - name: Resources
   items:
-  - name: TBD
+  - name: Wiki page for Node.js tools
     href: https://github.com/Microsoft/nodejstools
