@@ -22,6 +22,6 @@ If you select this option, you will filter the call stack to show only your code
   
  In some cases, selecting this option may filter out the blocking call. If you require full call stack details to make that determination, clear this option to expose the full call stack.  
   
-## See Also  
+## See also  
  [Threads View](../profiling/threads-view-parallel-performance.md)   
- [Noise Reduction Percentage](../profiling/noise-reduction-percentage.md)
+ [Noise reduction percentage](../profiling/noise-reduction-percentage.md)

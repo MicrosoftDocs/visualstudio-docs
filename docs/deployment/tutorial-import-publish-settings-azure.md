@@ -32,9 +32,9 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
 ## Prerequisites
 
-* You must have Visual Studio 2017 installed and the **ASP.NET** and **.NET Framework** development workload. For a .NET Core app, you also need the **.NET Core** workload.
+* You must have Visual Studio 2017 installed and the **ASP.NET** and .**NET Framework** development workload. For a .NET Core app, you also need the .**NET Core** workload.
 
-    If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
 * Create an Azure App Service. For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). 
 
@@ -87,11 +87,11 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
 ## Import the publish settings in Visual Studio and deploy
 
-[!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/import-publish-settings-vs.md)]
+[!INCLUDE [import publish settings](../deployment/includes/import-publish-settings-vs.md)]
 
 ## Next steps
 
-In this tutorial, you created a publish settings file, imported it into Visual Studio, and deployed an ASP.NET app to Azure App Service.
+In this tutorial, you created a publish settings file, imported it into Visual Studio, and deployed an ASP.NET app to Azure App Service. You may want an overview of publishing options in Visual Studio.
 
 > [!div class="nextstepaction"]
 > [First look at deployment](../deployment/deploying-applications-services-and-components.md)

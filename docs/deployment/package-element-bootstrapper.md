@@ -23,7 +23,7 @@ The `Package` element is the top-level XML element inside of a package file.
   
 ## Syntax  
   
-```  
+```xml  
 <Package  
     Culture  
     Name  
@@ -148,7 +148,7 @@ The `Package` element is the top-level XML element inside of a package file.
 ## Example  
  The following code example shows a complete package file for redistributing the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)].  
   
-```  
+```xml  
 <?xml version="1.0" encoding="utf-8" ?>  
   
 <Package  
