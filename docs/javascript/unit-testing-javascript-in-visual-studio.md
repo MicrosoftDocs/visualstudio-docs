@@ -18,23 +18,23 @@ ms.workload:
 # Unit testing in Node.js
 
 The Node.js Tools For Visual Studio allow you to write and run unit tests using some of the more popular
-frameworks without the need to switch to a command prompt.
+JavaScript frameworks without the need to switch to a command prompt.
 
 The supported frameworks are:
 * Mocha ([mochajs.org](http://mochajs.org/))
 * Jasmine ([Jasmine.github.io](https://jasmine.github.io/))
 * Tape ([github.com/substack/tape](https://github.com/substack/tape))
-* Export Runner (framework is specific to Node.js Tools for Visual Studio)
+* Export Runner (this framework is specific to Node.js Tools for Visual Studio)
 
-> [!Warning]
+> [!WARNING]
 > An issue in Tape currently prevents Tape tests from running.
-> If [this PR](https://github.com/substack/tape/pull/361) is merged, the issue should be resolved.
+.> If [this PR](https://github.com/substack/tape/pull/361) is merged, the issue should be resolved.
 
 If your favorite framework is not supported, see [Add support for a unit test framework](#addingFramework) for information on adding support. 
 
 ## Write unit tests
 
-Before adding unit tests to your project, make sure the framework you plan to use is installed locally in your project. This is easiest using the [npm install window](npm-package-management.md#npmInstallWindow).
+Before adding unit tests to your project, make sure the framework you plan to use is installed locally in your project. This is easy to do using the [npm package installationwindow](npm-package-management.md#npmInstallWindow).
 
 The preferred way to add unit tests to your project is by creating a *tests* folder in
 your project, and setting that as the test root in project properties. You also need
@@ -42,7 +42,7 @@ to select the test framework you want to use.
 
 ![Set test root and test framework](../javascript/media/unit-test-project-properties.png)
 
-You can add simple blank tests to your project, using the Add New Item dialog, both JavaScript and TypeScript are supported in the same project.
+You can add simple blank tests to your project, using the **Add New Item** dialog box. Both JavaScript and TypeScript are supported in the same project.
 
 ![Add new unit test](../javascript/media/unit-test-add-new-item.png)
 
@@ -63,12 +63,11 @@ describe('Test Suite 1', function() {
 })
 ```
 
-You must also set the **Test Framework** property to **Mocha**.
+You must also set the **Test Framework** property in the **Properties** window to **Mocha**.
 
 ![Test Framework](../javascript/media/UnitTestsFrameworkMocha.png)
 
-After opening Test Explorer (from the **Test** > **Windows** > **Test Explorer** menu), tests are discovered and
-displayed. If tests are not showing initially, then rebuild the project to refresh the list.
+After opening Test Explorer (choose **Test** > **Windows** > **Test Explorer**), Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
 
 ![Test Explorer](../javascript/media/UnitTestsDiscoveryMocha.png)
 
@@ -81,20 +80,20 @@ You can run tests in Visual Studio 2017 or from the command line.
 
 ### Run tests in Visual Studio 2017
 
-You can run the tests by clicking the **Run All** link in the Test Explorer window. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run Selected Tests** from the shorcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Further, you can also debug selected tests by selecting **Debug Selected Tests**.
+You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run Selected Tests** from the shorcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by selecting **Debug Selected Tests**.
 
 > [!NOTE]
 > We don't currently support profiling tests, or code coverage.
 
 ### Run tests from the command line
 
-You can run the tests from the Developer Command Prompt for VS 2017 using the following command:
+You can run the tests from the [Developer Command Prompt](/dotnet/framework/tools/developer-command-prompt-for-vs) for Visual Studio 2017 using the following command:
 
 ```
 vstest.console.exe <path to project file>\NodejsConsoleApp23.njsproj /TestAdapterPath:<VisualStudioFolder>\Common7\IDE\Extensions\Microsoft\NodeJsTools\TestAdapter
 ```
 
-This should show output similar to:
+This command shows output similar to the following:
 
 ```
 Microsoft (R) Test Execution Command Line Tool Version 15.5.0
@@ -127,17 +126,17 @@ Test execution time: 1.5731 Seconds
 
 ## <a name="addingFramework"></a>Add support for a unit test framework
 
-You can extend the support for additional test frameworks by implementing the discovery and execution logic using JavaScript. In the following location:
+You can extend the support for additional test frameworks by implementing the discovery and execution logic using JavaScript. You see folders for the supported test frameworks in the following location:
  
 *<VisualStudioFolder>\Common7\IDE\Extensions\Microsoft\NodeJsTools\TestAdapter\TestFrameworks*
 
-You see folders for the supported test frameworks. Under each folder, a JavaScript file named after the folder contains two exported functions:
+Under each folder, a JavaScript file named after the folder contains two exported functions:
 
 * `find_tests`
 * `run_tests`
 
 For examples of `find_tests` and `run_tests` implementations, see the implementation of Mocha.
 
-The name of the folder must match the name of the *.js* file. Discovery of test frameworks occurs at Visual Studio start. If a framework is added while Visual Studio is running, restart Visual Studio to detect the framework.
+The name of the folder must match the name of the .*js* file. Discovery of test frameworks occurs at Visual Studio start. If a framework is added while Visual Studio is running, restart Visual Studio to detect the framework.
 
 Make sure to set the **TestFramework** property on your test file(s) to match the name of the subfolder under TestFrameworks.
