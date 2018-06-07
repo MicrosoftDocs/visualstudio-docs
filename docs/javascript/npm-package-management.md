@@ -1,4 +1,21 @@
-# npm and package management
+---
+title: "Manage npm packages in Visual Studio"
+description: Visual Studio provides features to assist you in managing packages using the Node.js package manager (npm)
+ms.custom: ""
+ms.date: "06/06/2018"
+ms.technology: vs-nodejs
+ms.topic: "conceptual"
+ms.devlang: javascript
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: douge
+dev_langs:
+  - JavaScript
+ms.workload:
+  - "nodejs"
+---
+
+# Manage npm packages in Visual Studio
 
 npm allows you to install and manage packages for use in your Node.js applications. If you're unfamiliar with
 npm, and want to learn more, go to the [npm Documentation](https://docs.npmjs.com/).

@@ -1,3 +1,20 @@
+---
+title: "Unit testing in Node.js"
+description: Visual Studio provides support unit testing JavaScript code using the Node.js Tools for Visual Studio
+ms.custom: ""
+ms.date: "06/06/2018"
+ms.technology: vs-nodejs
+ms.topic: "conceptual"
+ms.devlang: javascript
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: douge
+dev_langs:
+  - JavaScript
+ms.workload:
+  - "nodejs"
+---
+
 # Unit testing in Node.js
 
 The Node.js Tools For Visual Studio allows you to write and run unit tests using some of the more popular
@@ -7,7 +24,7 @@ The supported frameworks are:
 * Mocha ([mochajs.org](http://mochajs.org/))
 * Jasmine ([Jasmine.github.io](https://jasmine.github.io/))
 * Tape ([github.com/substack/tape](https://github.com/substack/tape))
-* Export Runner (a Node.js tools specific framework)
+* Export Runner (framework is specific to Node.js Tools for Visual Studio)
 
 > [!Warning]
 > An issue in Tape currently prevents Tape tests from running.
@@ -17,17 +34,17 @@ If your favorite framework is not supported, see [Add support for a unit test fr
 
 ## Write unit tests
 
-Before adding unit tests to your project, make sure the framework you plan to use is installed **locally** in your project. This is easiest using the [npm install window](npm.md#npmInstallWindow).
+Before adding unit tests to your project, make sure the framework you plan to use is installed locally in your project. This is easiest using the [npm install window](npm.md#npmInstallWindow).
 
-The preferred way to add unit tests to your project is by creating a `tests` folder in
+The preferred way to add unit tests to your project is by creating a *tests* folder in
 your project, and setting that as the test root in project properties. You also need
 to select the test framework you want to use.
 
-![Set test root and test framework](../../images/node/unit-test-project-properties.png)
+![Set test root and test framework](../javascript/media/unit-test-project-properties.png)
 
 You can add simple blank tests to your project, using the Add New Item dialog, both JavaScript and TypeScript are supported in the same project.
 
-![Add new unit test](../../images/node/unit-test-add-new-item.png)
+![Add new unit test](../javascript/media/unit-test-add-new-item.png)
 
 For a Mocha unit test, use the following code:
 
@@ -48,12 +65,12 @@ describe('Test Suite 1', function() {
 
 You must also set the **Test Framework** property to **Mocha**.
 
-![Test Framework](../../images/node/UnitTestsFrameworkMocha.png)
+![Test Framework](../javascript/media/UnitTestsFrameworkMocha.png)
 
 After opening Test Explorer (from the **Test** > **Windows** > **Test Explorer** menu), tests are discovered and
 displayed. If tests are not showing initially, then rebuild the project to refresh the list.
 
-![Test Explorer](../../images/node/UnitTestsDiscoveryMocha.png)
+![Test Explorer](../javascript/media/UnitTestsDiscoveryMocha.png)
 
 > [!NOTE]
 > Do not use the `outdir` or `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests in TypeScript files.
