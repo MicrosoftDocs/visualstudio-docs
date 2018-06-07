@@ -24,9 +24,9 @@ To leverage this new functionality, you'll need:
 
 1.  The latest preview of [Visual Studio 2017](https://www.visualstudio.com/vs/preview) with the Azure development workload.
 
-1.  The [Kubernetes tools for Visual Studio](), available as a separate download.
+1.  The [Kubernetes tools for Visual Studio](https://aka.ms/get-vsk8stools), available as a separate download.
 
-1.  [Docker for Windows]() installed on your development workstation (that is, where you
+1.  [Docker for Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows) installed on your development workstation (that is, where you
     run Visual Studio)
 
 1.  If you wish to publish to AKS from Visual Studio:
@@ -75,23 +75,23 @@ some additional files in your project that facilitate deploying to Kubernetes.
 
 ![Screenshot of Solution Explorer after adding Container Orchestrator support](media/k8s-tools-solution-explorer.png)
 
-Visual Studio adds the following files:
+The added files are:
 
-- a Dockerfile, which allows you to generate a Docker container
-image hosting this web application. As you'll see, the Visual Studio tooling
-leverages this Dockerfile when debugging and deploying to Kubernetes. If you
-prefer to work directly with the Docker image, you can right-click on the
-Dockerfile and choose **Build Docker Image**.
-
-![Screenshot of Build Docker Image option](media/k8s-tools-build-docker-image.png)
-
-- a Helm chart, and a *charts* folder. These yaml
-files make up the Helm chart for the application, which you can use to deploy it
-to Kubernetes. For more information on Helm, see [https://www.helm.sh](https://www.helm.sh).
-
-- *azds.yaml*. This contains settings for
-Azure Dev Spaces, a new service that provides a rapid, iterative debugging
-experience in Azure Kubernetes Service. This file is currently unused, but is reserved for future use by Azure Dev Spaces.
+    - a Dockerfile, which allows you to generate a Docker container
+    image hosting this web application. As you'll see, the Visual Studio tooling
+    leverages this Dockerfile when debugging and deploying to Kubernetes. If you
+    prefer to work directly with the Docker image, you can right-click on the
+    Dockerfile and choose **Build Docker Image**.
+    
+    ![Screenshot of Build Docker Image option](media/k8s-tools-build-docker-image.png)
+    
+    - a Helm chart, and a *charts* folder. These yaml
+    files make up the Helm chart for the application, which you can use to deploy it
+    to Kubernetes. For more information on Helm, see [https://www.helm.sh](https://www.helm.sh).
+    
+    - *azds.yaml*. This contains settings for
+    Azure Dev Spaces, a new service that provides a rapid, iterative debugging
+    experience in Azure Kubernetes Service. This file is currently unused, but is reserved for future use by Azure Dev Spaces.
 
 ## Publishing to Azure Kubernetes Service (AKS)
 
@@ -105,7 +105,7 @@ To do this, you first need to set up a publish profile that publishes your
 container image to Azure Container Registry (ACR). Then AKS can pull
 your container image from ACR and deploy it into the cluster.
 
-In **Solution Explorer**, right click on your *project* and click **Publish**.
+In **Solution Explorer**, right-click on your *project* and choose **Publish**.
 
 ![Screenshot of Publish menu item](media/k8s-tools-publish-project.png)
 
