@@ -113,7 +113,7 @@ If you know you have a Python interpreter on your computer but Visual Studio (an
 >
 > However, if you manually move an interpreter and its environment using the file system, Visual Studio won't know the new location. For more information, see [Moving an interpreter](installing-python-interpreters.md#moving-an-interpreter).
 
-<a name="manually-identifying-an-existing-environment></a>
+<a name="manually-identifying-an-existing-environment"></a>
 
 ## Manually identify an existing environment
 
