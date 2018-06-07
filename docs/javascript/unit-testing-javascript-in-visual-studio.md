@@ -17,7 +17,7 @@ ms.workload:
 
 # Unit testing in Node.js
 
-The Node.js Tools For Visual Studio allows you to write and run unit tests using some of the more popular
+The Node.js Tools For Visual Studio allow you to write and run unit tests using some of the more popular
 frameworks without the need to switch to a command prompt.
 
 The supported frameworks are:

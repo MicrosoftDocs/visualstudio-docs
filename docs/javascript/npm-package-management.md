@@ -1,6 +1,6 @@
 ---
 title: "Manage npm packages in Visual Studio"
-description: Visual Studio provides features to assist you in managing packages using the Node.js package manager (npm)
+description: Visual Studio helps you to manage packages using the Node.js package manager (npm)
 ms.custom: ""
 ms.date: "06/06/2018"
 ms.technology: vs-nodejs
@@ -18,62 +18,58 @@ ms.workload:
 # Manage npm packages in Visual Studio
 
 npm allows you to install and manage packages for use in your Node.js applications. If you're unfamiliar with
-npm, and want to learn more, go to the [npm Documentation](https://docs.npmjs.com/).
+npm and want to learn more, go to the [npm documentation](https://docs.npmjs.com/).
 
-There are several ways you can work with npm in Node.js tools for Visual Studio:
-1. [npm install window](#npmInstallWindow)
-1. [Managing installed packages in the Solution Explorer](#solutionExplorer)
-1. [`.npm` in the Node.js Interactive Window](#interactive)
+Visual Studio makes it easy to interact with npm and issue npm commands through the UI or using or directly. You can use the following methods:
+* [Install packages from Solution Explorer](#npmInstallWindow)
+* [Manage installed packages from Solution Explorer](#solutionExplorer)
+* [Use the `.npm` command in the Node.js Interactive Window](#interactive)
 
-These all work together and synchronize with the project system, and the `package.json` in the project.
+These features work together and synchronize with the project system and the *package.json* file in the project.
 
-## <a name="npmInstallWindow"></a>npm install window
-The easiest way to install npm packages is through npm Install Window. To access that right-click on the npm node in the project and select Install New npm Packages.
+## <a name="npmInstallWindow"></a> Install packages from Solution Explorer
+
+The easiest way to install npm packages is through the npm package installation window. To access this window, right-click the **npm** node in the project and select **Install New npm Packages**.
 
 ![Install new npm package from solution explorer](../javascript/media/solution-explorer-install-package.png)
 
-In the window you can search for a package, specify options, and install. 
+In this window you can search for a package, specify options, and install. 
 
 ![Search npm package](../javascript/media/search-package.png)
 
-* **Dependency type** - allows you to chose between Standard, Development, and Optional. 
-Standard indicates the package is a runtime dependency, where 
-Development indicates it's only required during development.
-* **Add to package.json** - Deprecated
-* **Selected version** - Allows you to select which version of the package you want to install.
-* **Other npm arguments** - Any other npm arguments you want to specify, e.g. `@~0.8` if you want to install 
-a specific version not in the versions list.
+* **Dependency type** - Chose between **Standard**, **Development**, and **Optional** packages. Standard specifies that the package is a runtime dependency, whereas Development specifies that the package is only required during development.
+* **Add to package.json** - This option is deprecated
+* **Selected version** - Select the version of the package you want to install.
+* **Other npm arguments** - Specify other standard npm arguments. For example, you can enter a version value such as `@~0.8` to install a specific version that is not available in the versions list.
 
-You can see the progress of the installation in the npm tab in the output window.
+You can see the progress of the installation in the npm tab in the Output window. This may take some time.
 
-> [!Tip]
-> You can search for scoped packages by prepending the search query with the scope you're interested in, 
-e.g. `@types/mocha`
+> [!TIP]
+> You can search for scoped packages by prepending the search query with the scope you're interested in, for example, type `@types/mocha` to look for TypeScript definition files for mocha. Also, when installing type definitions for TypeScript, you can specify the TypeScript version you're targetting by adding `@ts2.6` in the npm argument field.
 
-> [!Tip]
-> When installing type definitions for TypeScript, specify the TypeScript version you're targetting by adding
-`@ts2.6` in the npm argument field.
+## <a name="solutionExplorer"></a>Manage installed packages in Solution Explorer
 
-## <a name="solutionExplorer"></a>Managing installed packages in the Solution Explorer
-npm packages are shown in the solution explorer, and mimics the dependencies in the packages.json.
+npm packages are shown in Solution Explorer. The entries under the **npm** node mimic the dependencies in the *package.json* file.
 
 ![Search npm package](../javascript/media/solution-explorer-status.png)
 
 ### Package status
-* ![Installed package](../javascript/media/installed-npm.png) installed and listed in package.json
-* ![Extraneous package](../javascript/media/extraneous-npm.png) installed, but not explicitly 
+* ![Installed package](../javascript/media/installed-npm.png) - Installed and listed in package.json
+* ![Extraneous package](../javascript/media/extraneous-npm.png) - Installed, but not explicitly 
 listed in package.json
-* ![Missing package](../javascript/media/missing-npm.png) not installed, but listed in package.json
+* ![Missing package](../javascript/media/missing-npm.png) - Not installed, but listed in package.json
 
-Right-click on a package node or the npm node to do the following:
-* **Install missing packages** that are listed in package.json
+Right-click a package node or the **npm** node to take one of the following actions:
+* **Install missing packages** that are listed in *package.json*
 * **Update packages** to the latest version
-* **Uninstall a package** and remove from the package.json
+* **Uninstall a package** and remove from *package.json*
 
-## <a name="interactive"></a>.npm in the Node.js Interactive Window
+## <a name="interactive"></a>Use the .npm command in the Node.js Interactive Window
 
 You can also use the `.npm` command in the Node.js Interactive Window to execute
  npm commands. To open the window, right-click the project in Solution Explorer and choose **Open Node.js Interactive Window**.
+
+In the window, you can use commands such as the following to install a package:
 
 `.npm install azure@4.2.3`
  
