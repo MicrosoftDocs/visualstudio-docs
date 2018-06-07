@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# marker_series::write_flag Method
+# marker_series::write_flag method
 Writes a flag to the Concurrency Visualizer trace file.  
   
 ## Syntax  
@@ -54,9 +54,9 @@ void write_flag(
  Category.  
   
 ## Requirements  
- **Header:** cvmarkersobj.h  
+ **Header:** *cvmarkersobj.h*  
   
  **Namespace:** Concurrency::diagnostic  
   
-## See Also  
- [marker_series Class](../profiling/marker-series-class.md)
+## See also  
+ [marker_series class](../profiling/marker-series-class.md)

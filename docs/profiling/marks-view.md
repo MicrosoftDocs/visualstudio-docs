@@ -21,14 +21,14 @@ The Marks view displays sampling and ETW events that were inserted into the appl
   
  The default marks that are prepopulated in the report label the start of the program and the end of the program.  
   
- Windows counters data from automatically generated marks is also presented in this view. For more information, see [How to: Collect Windows Counter Data](../profiling/how-to-collect-windows-counter-data.md).  
+ Windows counters data from automatically generated marks is also presented in this view. For more information, see [How to: Collect Windows counter data](../profiling/how-to-collect-windows-counter-data.md).  
   
  To create a filter between two marks, select the marks, right-click, and then click **Add Filter by Marks** or **Add Filter by Timestamp**.  
   
  The following table provides the definitions of columns that are available in the Marks view.  
   
  **Mark ID**  
- Unique Identifier of the profiling mark.  
+ Unique identifier of the profiling mark.  
   
  **Mark Name**  
  The name of the event.  
@@ -39,7 +39,7 @@ The Marks view displays sampling and ETW events that were inserted into the appl
  Windows performance counter data  
  When Windows performance counter data is collected the values are displayed in a column that has the name of the counter.  
   
-## See Also  
- [Performance Report Overview](../profiling/performance-report-overview.md)   
- [How to: Collect Windows Counter Data](../profiling/how-to-collect-windows-counter-data.md)   
- [&#91;NIB&#93; Data Collection Control Window](http://msdn.microsoft.com/en-us/98d740d8-459f-4605-bf04-fb17aafaaa8f)
+## See also  
+ [Performance report overview](../profiling/performance-report-overview.md)   
+ [How to: Collect Windows counter data](../profiling/how-to-collect-windows-counter-data.md)   
+ [&#91;NIB&#93; Data Collection Control window](http://msdn.microsoft.com/en-us/98d740d8-459f-4605-bf04-fb17aafaaa8f)
