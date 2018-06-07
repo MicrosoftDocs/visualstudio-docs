@@ -56,7 +56,7 @@ Update to the latest stable test adapter to experience better test discovery and
 
 ### To update to the latest stable test adapter version
 
-1. Open the Nuget Package Manager for your solution by navigating to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**
+1. Open the Nuget Package Manager for your solution by navigating to **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**.
 
 2. Click on the **Updates** tab and search for NUnit or xUnit test adapters that are installed.
 
