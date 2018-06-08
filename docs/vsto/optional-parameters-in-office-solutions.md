@@ -1,5 +1,5 @@
 ---
-title: "Optional Parameters in Office Solutions | Microsoft Docs"
+title: "Optional parameters in Office solutions"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 

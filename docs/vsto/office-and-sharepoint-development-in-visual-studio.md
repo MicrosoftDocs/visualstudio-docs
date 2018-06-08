@@ -1,5 +1,5 @@
 ---
-title: "Office and SharePoint Development in Visual Studio | Microsoft Docs"
+title: "Office and SharePoint development in Visual Studio"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -30,22 +30,22 @@ ms.workload:
   
  In this topic:  
   
--   [Create add-ins for Office and SharePoint](#Apps)  
+-   [Create Add-ins for Office and SharePoint](#Apps)  
   
--   [Create a VSTO add-in](#Add-ins)  
+-   [Create a VSTO Add-in](#Add-ins)  
   
 -   [Create a SharePoint solution](#Solutions)  
   
-##  <a name="Apps"></a> Create add-ins for Office and SharePoint  
+##  <a name="Apps"></a> Create Add-ins for Office and SharePoint  
  Office 2013 and SharePoint 2013 introduce a new add-in model that helps you build, distribute, and monetize add-ins that extend Office and SharePoint.  These add-ins can run in Office or SharePoint Online, and users can interact with them from many devices.  
   
- Find out how to use the new [Office add-in model](https://msdn.microsoft.com/library/office/jj220082.aspx) to extend the Office experience for your users.  
+ Find out how to use the new [Office Add-in model](https://msdn.microsoft.com/library/office/jj220082.aspx) to extend the Office experience for your users.  
   
  These add-ins have very small footprints compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology such as HTML5, JavaScript, CSS3, and XML.  To get started, use the Office Developer Tools in Visual Studio, or the lightweight web-based tool code-named Napa Office 365 Development Tools, which lets you create projects, write code, and run your add-ins in a browser.  
   
  ![Apps for Office and SharePoint conceptual model](../vsto/media/officeandsharepointapps2015.png "Apps for Office and SharePoint conceptual model")  
   
-### Build an Office add-in  
+### Build an Office Add-in  
  To extend the functionality of Office, build an Office add-in. It's basically a webpage that's hosted in an Office application such as Excel, Word, Outlook, and PowerPoint. Your app can add functionality to documents, worksheets, email messages, appointments, presentations, and projects.  
   
  You can sell your app in the Office Store.  The [Office Store](https://store.office.com/) makes it easy to monetize your add-ins, manage updates, and track telemetry. You can also publish your app to users through an app catalog in SharePoint, or on Exchange Server.  
@@ -59,9 +59,9 @@ ms.workload:
 |To|See|  
 |--------|---------|  
 |Learn more about Office add-ins, and then build one.|[Office add-ins](http://msdn.microsoft.com/office/dn448457)|  
-|Compare the different ways in which you can extend Office, and decide whether you should use an app or an Office add-in.|[Roadmap for Office add-ins, VSTO, and VBA](http://blogs.msdn.com/b/officeapps/archive/2013/06/18/roadmap-for-apps-for-office-vsto-and-vba.aspx)|  
+|Compare the different ways in which you can extend Office, and decide whether you should use an app or an Office add-in.|[Roadmap for Office Add-ins, VSTO, and VBA](http://blogs.msdn.com/b/officeapps/archive/2013/06/18/roadmap-for-apps-for-office-vsto-and-vba.aspx)|  
   
-### Build a SharePoint add-in  
+### Build a SharePoint Add-in  
  To extend SharePoint for your users, build a SharePoint add-in. It's basically a small, easy-to-use, stand-alone application that solves a need for your users or business.  
   
  You can sell your app for SharePoint in the [Office Store](https://store.office.com/). You can also publish your add-in to users through an add-in catalog in SharePoint.  Site owners can install, upgrade, and uninstall your add-in on their SharePoint sites without the help of a farm server or site collection administrator.  
@@ -75,21 +75,21 @@ ms.workload:
 |To|See|  
 |--------|---------|  
 |Learn more about SharePoint add-ins, and then build one.|[SharePoint Add-ins](https://msdn.microsoft.com/library/office/fp179930.aspx)|  
-|Compare add-ins for SharePoint with traditional SharePoint solutions.|[SharePoint add-ins compared with SharePoint solutions](http://msdn.microsoft.com/library/office/jj163114.aspx)|  
-|Choose whether to build a SharePoint add-in or a SharePoint solution.|[Decide between SharePoint add-ins and SharePoint solutions](https://msdn.microsoft.com/library/office/jj163114.aspx)|
+|Compare add-ins for SharePoint with traditional SharePoint solutions.|[SharePoint Add-ins compared with SharePoint solutions](http://msdn.microsoft.com/library/office/jj163114.aspx)|  
+|Choose whether to build a SharePoint add-in or a SharePoint solution.|[Decide between SharePoint Add-ins and SharePoint solutions](https://msdn.microsoft.com/library/office/jj163114.aspx)|
   
-##  <a name="Add-ins"></a> Create a VSTO add-in  
+##  <a name="Add-ins"></a> Create a VSTO Add-in  
  Create a VSTO add-in to target Office 2007 or Office 2010, or to extend Office 2013 and Office 2016 beyond what's possible with Office add-ins. VSTO add-ins run only on the desktop. Users have to install VSTO add-ins, so they're typically more difficult to deploy and support.  However, your VSTO add-in can be integrated more closely with Office. For example, it can add tabs and controls to the Office Ribbon and perform advanced automation tasks such as merging documents or modifying charts. You can leverage the .NET Framework and use C# and Visual Basic to interact with Office objects.  
   
  Here's an example what a VSTO add-in can do. This VSTO add-in adds Ribbon controls, a custom task pane, and a dialog box to PowerPoint.  
   
- ![PowerPoint add-in solution](../vsto/media/powerpointaddin.png "PowerPoint add-in solution")  
+ ![PowerPoint Add-in solution](../vsto/media/powerpointaddin.png "PowerPoint add-in solution")  
   
  **Learn more**  
   
 |To|Read|  
 |--------|----------|  
-|Compare the different ways in which you can extend Office, and decide whether you should use a VSTO add-in or an Office add-in.|[Roadmap for Office add-ins, VSTO, and VBA](http://blogs.msdn.com/b/officeapps/archive/2013/06/18/roadmap-for-apps-for-office-vsto-and-vba.aspx)|  
+|Compare the different ways in which you can extend Office, and decide whether you should use a VSTO add-in or an Office add-in.|[Roadmap for Office Add-ins, VSTO, and VBA](http://blogs.msdn.com/b/officeapps/archive/2013/06/18/roadmap-for-apps-for-office-vsto-and-vba.aspx)|  
 |Create a VSTO add-in.|[VSTO add-ins build with Visual Studio](https://msdn.microsoft.com/library/jj620922.aspx)|  
   
 ##  <a name="Solutions"></a> Create a SharePoint solution  
@@ -101,7 +101,7 @@ ms.workload:
   
 |To|See|  
 |--------|---------|  
-|Compare SharePoint solutions with SharePoint add-ins.|[SharePoint add-ins compared with SharePoint solutions](http://msdn.microsoft.com/library/office/jj163114.aspx)|  
+|Compare SharePoint solutions with SharePoint add-ins.|[SharePoint Add-ins compared with SharePoint solutions](http://msdn.microsoft.com/library/office/jj163114.aspx)|  
 |Create a SharePoint solution.|[Create SharePoint solutions](../sharepoint/create-sharepoint-solutions.md)|  
   
   
