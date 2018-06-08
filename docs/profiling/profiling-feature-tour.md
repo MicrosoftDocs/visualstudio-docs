@@ -73,19 +73,19 @@ The same events also show up in the code editor, which you can view as PerfTips.
 
 ![Profiling Tour PerfTips](../profiling/media/prof-tour-perf-tips.png "Profiling Tour PerfTips")
 
-## Examine UI Performance and Accessibility Events (UWP)
+## Examine UI performance and accessibility events (UWP)
 
-In your UWP apps, you can enable **UI Analysis** in the Diagnostic Tools window. The tool searches for common performance or accessibility issues and displays them in the **Events** view while you are debugging. The event descriptions provide information that can help resolve issues.
+In your UWP apps, you can enable **UI Analysis** in the **Diagnostic Tools** window. The tool searches for common performance or accessibility issues and displays them in the **Events** view while you are debugging. The event descriptions provide information that can help resolve issues.
 
 ![View UI analysis events in the diagnostic tools](../profiling/media/prof-tour-ui-analysis.png "Diagnostic Tools View UI Analysis Events")
 
-## Profile Release Builds without the Debugger
+## Profile release builds without the debugger
 
 Profiling tools like CPU Usage and Memory Usage can be used with the debugger (see earlier sections), or you can run profiling tools using the Performance Profiler, which is intended to provide analysis for **Release** builds. In the Performance Profiler, you can collect diagnostic info while the app is running, and then examine the collected information after the app is stopped. For more information on these different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
 ![Performance Profiler](../profiling/media/prof-tour-performance-profiler.png "Performance Profiler")
 
-Open the Performance Profiler by choosing **Debug / Performance Profiler**.
+Open the Performance Profiler by choosing **Debug**>**Performance Profiler**.
 
 The window will allow you to select multiple profiling tools in some scenarios. Tools such as CPU Usage may provide complementary data that you can use to help in your analysis.
 
@@ -135,13 +135,13 @@ Select an operation in the summary view to view more details.
 
 For more information, see [Network Usage](../profiling/network-usage.md).
 
-## Analyze Performance (Legacy Tools)
+## Analyze performance (legacy tools)
 
 If you need features such as instrumentation that are not currently present in CPU Usage or Memory Usage tools, and you are running desktop or ASP.NET apps, you can use the Performance Explorer for profiling. (Not supported in UWP apps). For more info, see [Performance Explorer](../profiling/performance-explorer.md).
 
 ![Performance Explorer tool](../profiling/media/prof-tour-performance-explorer.png "Performance Explorer")
 
-## Which Tool Should I Use?  
+## Which tool should I use?  
 
 Here is a table that lists the different tools Visual Studio offers and the different project types you can use them with:
   
