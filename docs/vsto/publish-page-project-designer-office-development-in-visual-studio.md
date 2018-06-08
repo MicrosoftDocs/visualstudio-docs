@@ -91,8 +91,7 @@ ms.workload:
   
     -   Load on Demand: specifies that the VSTO Add-in loads when the application requires it, such as when a user clicks a UI element that uses functionality in the VSTO Add-in.  
   
- **Publish language**  
- This option sets the language of the Microsoft Software License Terms, and includes the language packs in the list of prerequisites. It does not affect the language of the customization. The language in the Setup program is determined by the installed languages of Visual Studio.  
+ **Publish language. This option sets the language of the Microsoft Software License Terms, and includes the language packs in the list of prerequisites. It does not affect the language of the customization. The language in the Setup program is determined by the installed languages of Visual Studio.  
   
  For more information about how to change the **Publish language**, see [How to: Change the publish language for a ClickOnce application](/visualstudio/deployment/how-to-change-the-publish-language-for-a-clickonce-application).  
   

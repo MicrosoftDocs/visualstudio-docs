@@ -44,7 +44,7 @@ ms.workload:
  If the data in the bound dataset is updated through any mechanism, the <xref:Microsoft.Office.Tools.Excel.NamedRange> control reflects the changes.  
   
 ## Formatting  
- Formatting that can be applied to a <xref:Microsoft.Office.Interop.Excel.Range> can be applied to a <xref:Microsoft.Office.Tools.Excel.NamedRange> control. This includes borders, fonts, number format and styles.  
+ Formatting that can be applied to a <xref:Microsoft.Office.Interop.Excel.Range> can be applied to a <xref:Microsoft.Office.Tools.Excel.NamedRange> control. This includes borders, fonts, number formats, and styles.  
   
 ## Rename the control  
  When you add a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to your worksheet from the **Toolbox**, Visual Studio automatically generates a name for the control. You can change the name in the **Properties** window.  

@@ -41,7 +41,7 @@ ms.workload:
 ## Use the project object model documentation  
  For complete information about the Project object model, you can refer to the Project VBA object model reference. The VBA object model reference documents the Project object model as it is exposed to Visual Basic for Applications (VBA) code. For more information, see [Project 2010 object model reference](http://go.microsoft.com/fwlink/?LinkId=199771).  
   
- All of the objects and members in the VBA object model reference correspond to types and members in the Project primary interop assembly (PIA). For example, the Calendar object in the VBA object model reference corresponds to the `Microsoft.Office.Interop.MSProject.Calendar` type in the Project PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in an Project VSTO Add-in project that you create by using Visual Studio.  
+ All of the objects and members in the VBA object model reference correspond to types and members in the Project primary interop assembly (PIA). For example, the Calendar object in the VBA object model reference corresponds to the `Microsoft.Office.Interop.MSProject.Calendar` type in the Project PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in a Project VSTO Add-in project that you create by using Visual Studio.  
   
 > [!NOTE]  
 >  At this time, there is no reference documentation for the Project primary interop assembly.  

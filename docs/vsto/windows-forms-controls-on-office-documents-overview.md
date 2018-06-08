@@ -72,7 +72,7 @@ ms.workload:
  For more information, see [Adding Controls to Office Documents at Run Time](../vsto/adding-controls-to-office-documents-at-run-time.md).  
   
 ## Using Windows Forms Controls in Document-Level Projects  
- Some aspects of using Windows Forms controls on documents are unique to document-level projects, which enable you to design the UI of your document by using the Visual Studio designer.  
+ Some aspect of using Windows Forms controls on documents are unique to document-level projects, which enable you to design the UI of your document by using the Visual Studio designer.  
   
 ### Creating Custom User Controls  
  You can add a user control to your project and then add it to the **Toolbox**. You can then drag the user control directly to your document in the same way you would add a Windows Forms control to your document. There are some things to keep in mind when you create user controls:  

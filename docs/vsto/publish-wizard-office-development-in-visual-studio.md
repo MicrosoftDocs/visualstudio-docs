@@ -46,7 +46,7 @@ ms.workload:
 > [!NOTE]  
 >  There are more considerations if the target computer is running Windows Vista. You must be an administrator on the Windows Vista computer to use the local publish option. In addition, the default location is always the *publish\\* directory, regardless of whether you have IIS installed.  
   
-## What is the default installation path on end user computers?  
+## What is the default installation path on end-user computers?  
  The installation path is optional. You can set the installation path later if you prefer. For details, see [How to: Change the installation path of an Office solution](http://msdn.microsoft.com/en-us/d0eaa07b-2d72-4902-899f-2f9fb165b8fd).  
   
  The installation path is the directory from which the end user will install the customization. It is also the path that the solution will use to check for updates. The **Publish Wizard** does not deploy the solution to this location, unless the path is the same as the one you entered in the **Specify the location to publish this application** box on the previous page.  

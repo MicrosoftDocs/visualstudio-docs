@@ -45,7 +45,7 @@ ms.workload:
  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How Do I: Create Outlook Form Regions Using Visual Studio 2008?](http://go.microsoft.com/fwlink/?LinkID=130305).  
   
 ## Designing a Form Region by Using the Form Region Designer in Outlook  
- In this step you will design a form region in Outlook. You will then the save the form region to an easy-to-find location so that you can import it into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
+ In this step, you will design a form region in Outlook. You will then the save the form region to an easy-to-find location so that you can import it into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
  This example form region completely replaces the usual Task form. It provides a way to track the progress of all tasks that must be completed before the main task can be performed (prerequisite tasks). The form region displays a list of the prerequisite tasks, and shows the completion status for each task in the list. Users can add tasks to the list and remove them. They can also refresh the completion status of each task.  
   

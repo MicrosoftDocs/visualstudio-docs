@@ -92,7 +92,7 @@ ms.workload:
   
      For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
-2.  Click the **Browse** buttonand browse to the workbook you created earlier in this walkthrough.  
+2.  Click the **Browse** button and browse to the workbook you created earlier in this walkthrough.  
   
 3.  Click **OK**.  
   

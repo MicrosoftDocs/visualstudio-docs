@@ -24,7 +24,7 @@ ms.workload:
   
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
   
- For document-level customizations, if you deploy the document to a network location, you must also add the document's location to the list of trusted locations in the Trust Center of the Office application. For more information about how to set document permissions on end user computers, see [Grant trust to documents](../vsto/granting-trust-to-documents.md).  
+ For document-level customizations, if you deploy the document to a network location, you must also add the document's location to the list of trusted locations in the Trust Center of the Office application. For more information about how to set document permissions on end-user computers, see [Grant trust to documents](../vsto/granting-trust-to-documents.md).  
   
 ## Prevent Office solutions from running code  
  Administrators can use the registry to prevent all Office solutions from running on a computer. When an Office solution that has managed code extensions is opened, the Visual Studio Tools for Office runtime checks whether an entry with the name `Disabled` exists under one of the following registry keys on the computer:  

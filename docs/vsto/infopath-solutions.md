@@ -43,7 +43,7 @@ ms.workload:
   
  When you call into the InfoPath object model from an VSTO Add-in, you use types that are provided in the primary interop assembly for InfoPath. The primary interop assembly acts as a bridge between the managed code in the VSTO Add-in and the COM object model in InfoPath. All types in the InfoPath primary interop assembly are defined in the <xref:Microsoft.Office.Interop.InfoPath> namespace. For more information about the InfoPath primary interop assembly, see [About the Microsoft Office InfoPath primary interop assembly](http://msdn.microsoft.com/en-us/1b3ae03c-6951-49e4-a489-4712d3f7ba72). For more information about primary interop assemblies in general, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md) and [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).  
   
-## Customize the user iterface of InfoPath by using an add-in  
+## Customize the user interface of InfoPath by using an add-in  
  When you create an VSTO Add-in for InfoPath, you have several different UI customization options. The following table lists some of these options.  
   
 |Task|For more information|  

@@ -156,7 +156,7 @@ ms.workload:
   
 4.  Save and close the contact item.  
   
-5.  Re-open the **Ann Beebe** contact item.  
+5.  Reopen the **Ann Beebe** contact item.  
   
 6.  In the **Show** group of the item's Ribbon, click **Map It** to open the Map It form region.  
   

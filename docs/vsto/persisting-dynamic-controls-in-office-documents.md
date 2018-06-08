@@ -86,7 +86,7 @@ ms.workload:
   
  Although the `GetVstoObject` method is used primarily to generate a new host item at runtime, this method also clears all ActiveX wrappers from the document the first time it is called for a specific document. For more information about how to use the `GetVstoObject` method, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).  
   
- Note that if your VSTO Add-in creates dynamic controls when the document is opened, your VSTO Add-in will already call the `GetVstoObject` method as part of the process to create the controls. You do not need to add a separate call to the `GetVstoObject` method to remove the ActiveX wrappers in this scenario.  
+ If your VSTO Add-in creates dynamic controls when the document is opened, your VSTO Add-in will already call the `GetVstoObject` method as part of the process to create the controls. You do not need to add a separate call to the `GetVstoObject` method to remove the ActiveX wrappers in this scenario.  
   
 #### Remove the dynamic controls before the document is closed  
  Your VSTO Add-in can explicitly remove each dynamic control from the document before the document is closed. This procedure is useful for documents that might be passed to other users who do not have the VSTO Add-in installed.  

@@ -79,7 +79,7 @@ ms.workload:
      [!code-vb[Trin_ProjectAddInTutorial#1](../vsto/codesnippet/VisualBasic/Trin_ProjectAddInTutorial/ThisAddIn.vb#1)]
      [!code-csharp[Trin_ProjectAddInTutorial#1](../vsto/codesnippet/CSharp/Trin_ProjectAddInTutorial/ThisAddIn.cs#1)]  
   
- To modify the project, this code example use the following objects:  
+ To modify the project, this code example uses the following objects:  
   
 -   The `Application` field of the `ThisAddIn` class. The `Application` field returns an Microsoft.Office.Interop.MSProject.Application object, which represents the current instance of Project.  
   
