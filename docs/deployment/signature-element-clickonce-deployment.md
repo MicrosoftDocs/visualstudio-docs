@@ -22,7 +22,7 @@ Contains the necessary information to digitally sign this deployment manifest.
   
 ## Syntax  
   
-```  
+```xml  
   
       <Signature>   
    XML signature information   
@@ -30,14 +30,14 @@ Contains the necessary information to digitally sign this deployment manifest.
 ```  
   
 ## Remarks  
- Signing a deployment manifest using an envelope signature is optional, but recommended. For more information about signing XML files see the World Wide Web Consortium Recommendation, "XML-Signature Syntax and Processing," described at [http://www.w3.org/TR/xmldsig-core/](http://www.w3.org/TR/xmldsig-core/).  
+ Signing a deployment manifest using an envelope signature is optional, but recommended. For more information about signing XML files, see the World Wide Web Consortium Recommendation, "XML-Signature Syntax and Processing," described at [http://www.w3.org/TR/xmldsig-core/](http://www.w3.org/TR/xmldsig-core/).  
   
  If you want to sign your manifest, hashes must be provided for all files. A manifest with files that are not hashed cannot be signed, because users cannot verify the contents of unhashed files.  
   
 ## Example  
  The following code example illustrates a `Signature` element in a deployment manifest used in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.  
   
-```  
+```xml  
 <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">  
   <SignedInfo>  
     <CanonicalizationMethod Algorithm=  

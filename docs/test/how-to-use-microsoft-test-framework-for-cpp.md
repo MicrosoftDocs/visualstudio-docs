@@ -26,7 +26,7 @@ In some cases, for example when testing non-exported functions in a DLL, you mig
 
     3.  Click on the down arrow in the following rows and choose **<Edit>** :
 
-        |||
+        |Directory|Property|
         |-|-|
         |**Include Directories**|**$(VCInstallDir)UnitTest\include;$(IncludePath)**|
         |**Library Directories**|**$(VCInstallDir)UnitTest\lib;$(LibraryPath)**|
@@ -61,7 +61,7 @@ You can define traits on test methods which enable you to categorize and group t
 
  To use the defined trait in your unit tests:
 
-```
+```cpp
 BEGIN_TEST_METHOD_ATTRIBUTE(Method1)
     TEST_OWNER(L"OwnerName")
     TEST_PRIORITY(1)

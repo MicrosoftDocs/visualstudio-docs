@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# FeatureProperties Element
+# FeatureProperties element
   A collection of property values that are included with a Feature when it is deployed to SharePoint. After a Feature is deployed, you can access the property values in your code.  
   
 ## Syntax  
@@ -27,19 +27,19 @@ ms.workload:
 </FeatureProperties>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements
   
 |Element|Description|  
 |-------------|-----------------|  
 |[FeatureProperty](../sharepoint/featureproperty-element.md)|Optional element.<br /><br /> Represents a custom property, in key/value format.|  
   
-### Parent Elements  
+### Parent elements
   
 |Element|Description|  
 |-------------|-----------------|  
@@ -48,7 +48,7 @@ ms.workload:
 ## Remarks  
  For more information about Feature properties, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md).  
   
-## Element Information  
+## Element information
   
 |Element|Description|  
 |-------------|-----------------|  
@@ -57,7 +57,7 @@ ms.workload:
 |**Validation file**|ProjectItemModelSchema.xsd|  
 |**Can be empty**|No|  
   
-## See Also  
+## See also
  [SharePoint Project Item Schema Reference](../sharepoint/sharepoint-project-item-schema-reference.md)   
  [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)  
   

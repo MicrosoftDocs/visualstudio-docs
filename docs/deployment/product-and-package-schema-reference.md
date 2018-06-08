@@ -51,7 +51,7 @@ A *product file* is an XML manifest that describes all of the external dependenc
 ## Example  
  The following code example demonstrates a complete product file for installing the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].  
   
-```  
+```xml  
 <?xml version="1.0" encoding="utf-8" ?>  
   
 <Product  

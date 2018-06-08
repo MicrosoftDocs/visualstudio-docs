@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Binding Content Controls to Custom XML Parts | Microsoft Docs"
+title: "Walkthrough: Bind content controls to custom XML parts"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Binding Content Controls to Custom XML Parts
+# Walkthrough: Bind content controls to custom XML parts
   This walkthrough demonstrates how to bind content controls in a document-level customization for Word to XML data that is stored in the document.  
   
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]  
@@ -36,7 +36,7 @@ ms.workload:
   
 -   Attaching the XML schema to the document at design time.  
   
--   Adding the contents of the XML file to a custom XML part in the document at run time.  
+-   Adding the contents of the XML file to a custom XML part in the document at runtime.  
   
 -   Binding the content controls to elements in the custom XML part.  
   
@@ -51,19 +51,19 @@ ms.workload:
   
 -   Microsoft Word.  
   
-## Creating a New Word Document Project  
+## Create a new Word document project  
  Create a Word document that you will use in the walkthrough.  
   
-#### To create a new Word document project  
+### To create a new Word document project  
   
-1.  Create a Word document project with the name **EmployeeControls**. Create a new document for the solution. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
+1.  Create a Word document project with the name **EmployeeControls**. Create a new document for the solution. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the new Word document in the designer and adds the **EmployeeControls** project to **Solution Explorer**.  
   
-## Adding Content Controls to the Document  
+## Add content controls to the document  
  Create a table that contains three different types of content controls where the user can view or edit information about an employee.  
   
-#### To add content controls to the document  
+### To add content controls to the document  
   
 1.  In the Word document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, on the Ribbon, choose the **Insert** tab.  
   
@@ -82,7 +82,7 @@ ms.workload:
 5.  On the Ribbon, choose the **Developer** tab.  
   
     > [!NOTE]  
-    >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the Developer Tab on the Ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).  
+    >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).  
   
 6.  In the **Controls** group, choose the **Text** button ![PlainTextContentControl](../vsto/media/plaintextcontrol.gif "PlainTextContentControl") to add a <xref:Microsoft.Office.Tools.Word.PlainTextContentControl> to the first cell.  
   
@@ -96,7 +96,7 @@ ms.workload:
   
  That is the entire user interface for this project. If you run the project now, you can type text in the first row and select a date in the second row. The next step is to attach the data that you want to display to the document in an XML file.  
   
-## Creating the XML Data File  
+## Create the XML data file  
  Typically, you will obtain XML data to store in a custom XML part from an external source, such as a file or a database. In this walkthrough, you create an XML file that contains the employee data, marked by elements that you will bind to the content controls in the document. To make the data available at runtime, embed the XML file as a resource in the customization assembly.  
   
 #### To create the data file  
@@ -113,7 +113,7 @@ ms.workload:
   
 4.  Replace the contents of the **employees.xml** file with the following text.  
   
-    ```  
+    ```xml 
     <?xml version="1.0" encoding="utf-8" ?>  
     <employees xmlns="http://schemas.microsoft.com/vsto/samples">  
       <employee>  
@@ -128,9 +128,9 @@ ms.workload:
   
 6.  In the **Properties** window, select the **Build Action** property, and then change the value to **Embedded Resource**.  
   
-     This step embeds the XML file as a resource in the assembly when you build the project. This enables you to access the contents of the XML file at run time.  
+     This step embeds the XML file as a resource in the assembly when you build the project. This enables you to access the contents of the XML file at runtime.  
   
-## Creating an XML Schema  
+## Create an XML Schema  
  If you want to bind a content control to a single element in a custom XML part, you do not have to use an XML schema. However, to bind the <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> to a set of values, you must create an XML schema that validates the XML data file that you created earlier. The XML schema defines the possible values for the `title` element. You will bind the <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> to this element later in this walkthrough.  
   
 #### To create an XML schema  
@@ -149,7 +149,7 @@ ms.workload:
   
 5.  Replace the contents of the **employees.xsd** file with the following schema.  
   
-    ```  
+    ```xml
     <?xml version="1.0" encoding="utf-8" ?>  
     <xs:schema xmlns="http://schemas.microsoft.com/vsto/samples"   
         targetNamespace="http://schemas.microsoft.com/vsto/samples"  
@@ -180,10 +180,10 @@ ms.workload:
   
 6.  On the **File** menu, click **Save All** to save your changes to the **employees.xml** and the **employees.xsd** files.  
   
-## Attaching the XML Schema to the Document  
+## Attach the XML schema to the document  
  You must attach the XML schema to the document to bind the <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> to the valid values of the `title` element.  
   
-#### To attach the XML schema to the document ([!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)])  
+### To attach the XML schema to the document ([!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)])  
   
 1.  Activate **EmployeeControls.docx** in the designer.  
   
@@ -197,7 +197,7 @@ ms.workload:
   
 6.  Choose the **OK** button to close the **Templates and Add-ins** dialog box.  
   
-#### To attach the XML schema to the document (Word 2010)  
+### To attach the XML schema to the document (Word 2010)  
   
 1.  Activate **EmployeeControls.docx** in the designer.  
   
@@ -217,10 +217,10 @@ ms.workload:
   
 8.  Close the **XML Structure** task pane.  
   
-## Adding a Custom XML Part to the Document  
+## Add a custom XML part to the document  
  Before you can bind the content controls to the elements in the XML file, you must add the contents of the XML file to a new custom XML part in the document.  
   
-#### To add a custom XML part to the document  
+### To add a custom XML part to the document  
   
 1.  In **Solution Explorer**, open the shortcut menu for  **ThisDocument.cs** or **ThisDocument.vb**, and then choose **View Code**.  
   
@@ -241,32 +241,32 @@ ms.workload:
      [!code-csharp[Trin_ContentControlXmlPartWalkthrough#4](../vsto/codesnippet/CSharp/EmployeeControls/ThisDocument.cs#4)]
      [!code-vb[Trin_ContentControlXmlPartWalkthrough#4](../vsto/codesnippet/VisualBasic/EmployeeControls/ThisDocument.vb#4)]  
   
-## Binding the Content Controls to Elements in the Custom XML Part  
+## Bind the content controls to elements in the custom XML part  
  Bind each content control to an element in the custom XML part by using the **XMLMapping** property of each content control.  
   
-#### To bind the content controls to elements in the custom XML part  
+### To bind the content controls to elements in the custom XML part  
   
 1.  Add the following method to the `ThisDocument` class. This method binds each content control to an element in the custom XML part and sets the date display format of the <xref:Microsoft.Office.Tools.Word.DatePickerContentControl>.  
   
      [!code-csharp[Trin_ContentControlXmlPartWalkthrough#5](../vsto/codesnippet/CSharp/EmployeeControls/ThisDocument.cs#5)]
      [!code-vb[Trin_ContentControlXmlPartWalkthrough#5](../vsto/codesnippet/VisualBasic/EmployeeControls/ThisDocument.vb#5)]  
   
-## Running Your Code When the Document is Opened  
+## Run your code when the document is opened  
  Create the custom XML part and bind the custom controls to the data when the document is opened.  
   
-#### To run your code when the document is opened  
+### To run your code when the document is opened  
   
 1.  Add the following code to the `ThisDocument_Startup` method of the `ThisDocument` class. This code gets the XML string from the **employees.xml** file, adds the XML string to a new custom XML part in the document, and binds the content controls to elements in the custom XML part.  
   
      [!code-csharp[Trin_ContentControlXmlPartWalkthrough#2](../vsto/codesnippet/CSharp/EmployeeControls/ThisDocument.cs#2)]
      [!code-vb[Trin_ContentControlXmlPartWalkthrough#2](../vsto/codesnippet/VisualBasic/EmployeeControls/ThisDocument.vb#2)]  
   
-## Testing the Project  
+## Test the project  
  When you open the document, the content controls display data from the elements in the custom XML part. You can click the <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> to select one of three valid values for the `title` element, which are defined in the **employees.xsd** file. If you edit the data in any of the content controls, the new values are saved in the custom XML part in the document.  
   
-#### To test the content controls  
+### To test the content controls  
   
-1.  Press F5 to run the project.  
+1.  Press **F5** to run the project.  
   
 2.  Verify that the table in the document resembles the following table. Each of the strings in the second column is obtained from an element in the custom XML part in the document.  
   
@@ -284,13 +284,13 @@ ms.workload:
   
 6.  Save and close the document.  
   
-7.  In File Explorer, open the \bin\Debug folder under the location of your project.  
+7.  In File Explorer, open the *\bin\Debug* folder under the location of your project.  
   
 8.  Open the shortcut menu for **EmployeeControls.docx** and then choose **Rename**.  
   
 9. Name the file **EmployeeControls.docx.zip**.  
   
-     The **EmployeeControls.docx** document is saved in the Open XML Format. By renaming this document with the .zip file name extension, you can examine the contents of the document. For more information about Open XML, see the technical article [Introducing the Office (2007) Open XML File Formats](http://msdn.microsoft.com/en-us/96018532-f62c-4da7-bbff-16b96a483fbf).  
+     The **EmployeeControls.docx** document is saved in the Open XML Format. By renaming this document with the *.zip* file name extension, you can examine the contents of the document. For more information about Open XML, see the technical article [Introducing the Office (2007) Open XML file formats](http://msdn.microsoft.com/en-us/96018532-f62c-4da7-bbff-16b96a483fbf).  
   
 10. Open the **EmployeeControls.docx.zip** file.  
   
@@ -304,22 +304,22 @@ ms.workload:
   
 14. Close the **item2.xml** file.  
   
-## Next Steps  
+## Next steps  
  You can learn more about how to use content controls from these topics:  
   
--   Use all the available content controls to create a template. For more information, see [Walkthrough: Creating a Template By Using Content Controls](../vsto/walkthrough-creating-a-template-by-using-content-controls.md).  
+-   Use all the available content controls to create a template. For more information, see [Walkthrough: Create a template by using content controls](../vsto/walkthrough-creating-a-template-by-using-content-controls.md).  
   
 -   Modify the data in the custom XML parts while the document is closed. The next time the user opens the document, the content controls that are bound to the XML elements will display the new data.  
   
--   Use content controls to protect parts of a document. For more information, see [How to: Protect Parts of Documents by Using Content Controls](../vsto/how-to-protect-parts-of-documents-by-using-content-controls.md).  
+-   Use content controls to protect parts of a document. For more information, see [How to: Protect parts of documents by using content controls](../vsto/how-to-protect-parts-of-documents-by-using-content-controls.md).  
   
-## See Also  
- [Automating Word by Using Extended Objects](../vsto/automating-word-by-using-extended-objects.md)   
- [Content Controls](../vsto/content-controls.md)   
- [How to: Add Content Controls to Word Documents](../vsto/how-to-add-content-controls-to-word-documents.md)   
- [How to: Protect Parts of Documents by Using Content Controls](../vsto/how-to-protect-parts-of-documents-by-using-content-controls.md)   
- [Host Items and Host Controls Overview](../vsto/host-items-and-host-controls-overview.md)   
- [Programmatic Limitations of Host Items and Host Controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)   
- [Adding Controls to Office Documents at Run Time](../vsto/adding-controls-to-office-documents-at-run-time.md)  
+## See also  
+ [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)   
+ [Content controls](../vsto/content-controls.md)   
+ [How to: Add content controls to Word documents](../vsto/how-to-add-content-controls-to-word-documents.md)   
+ [How to: Protect parts of documents by using content controls](../vsto/how-to-protect-parts-of-documents-by-using-content-controls.md)   
+ [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)   
+ [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)   
+ [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)  
   
   

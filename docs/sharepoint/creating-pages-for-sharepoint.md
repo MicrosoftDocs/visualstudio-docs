@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Creating pages for SharePoint
+# Create pages for SharePoint
   You can create application pages, site pages, master pages and page layouts for a SharePoint site.  
   
  You can create application pages by using a template in Visual Studio. Create site pages, master pages, and page layouts, by using SharePoint Designer. Then, you can import these pages into Visual Studio to use them in a SharePoint project.  
@@ -61,7 +61,7 @@ ms.workload:
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)|Describes how to add applications pages: .aspx content that is merged with a SharePoint master page.|  
+|[Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)|Describes how to add applications pages: *.aspx* content that is merged with a SharePoint master page.|  
 |[How to: Create an Application Page](../sharepoint/how-to-create-an-application-page.md)|Shows you how to create ASP.NET pages that run on a SharePoint site.|  
 |[Walkthrough: Creating a SharePoint Application Page](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md)|Shows you how to design and debug an ASP.NET Web page for a SharePoint site.|  
   

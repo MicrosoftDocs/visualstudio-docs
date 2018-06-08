@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# marker_series::is_enabled Method
+# marker_series::is_enabled method
 Determines if any session has enabled the provider.  
   
 ## Syntax  
@@ -35,12 +35,12 @@ bool is_enabled(
  `_Category`  
  Category.  
   
-## Return Value  
+## Return value  
   
 ## Requirements  
- **Header:** cvmarkersobj.h  
+ **Header:** *cvmarkersobj.h*  
   
  **Namespace:** Concurrency::diagnostic  
   
-## See Also  
- [marker_series Class](../profiling/marker-series-class.md)
+## See also  
+ [marker_series class](../profiling/marker-series-class.md)

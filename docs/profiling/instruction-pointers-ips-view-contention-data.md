@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Instruction Pointers (IPs) View - Contention Data
+# Instruction Pointers (IPs) View - contention data
 The IPs view of contention data lists data for the assembly instructions that were blocked from executing in the profiling run.  
   
  The following table explains the values of the columns in the Instruction Pointers view.  
@@ -38,8 +38,8 @@ The IPs view of contention data lists data for the assembly instructions that we
 |**Source Line Begin**|The line number in the source file at which this instruction starts.|  
 |**Source Line End**|The line number in the source file at which this instruction ends.|  
   
-## See Also  
- [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
+## See also  
+ [How to: Customize report view columns](../profiling/how-to-customize-report-view-columns.md)   
  [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view.md)   
- [Instruction Pointers (IPs) View - Sampling](../profiling/instruction-pointers-ips-view-dotnet-memory-sampling-data.md)   
+ [Instruction Pointers (IPs) View - sampling](../profiling/instruction-pointers-ips-view-dotnet-memory-sampling-data.md)   
  [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view-sampling-data.md)

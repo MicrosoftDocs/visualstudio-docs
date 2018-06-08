@@ -29,7 +29,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Creating web parts for SharePoint
+# Create web parts for SharePoint
   By using web parts, you can modify the content, appearance, and behavior of pages of a SharePoint site by using a browser. Web parts are server-side controls that run inside a web part page: they're the building blocks of pages that appear on a SharePoint site. See [Building Block: Web Parts](http://go.microsoft.com/fwlink/?LinkID=182097).  
   
  You can create and debug web parts on a SharePoint site by using templates from Visual Studio.  
@@ -44,7 +44,7 @@ ms.workload:
   
 |File|Description|  
 |----------|-----------------|  
-|Elements.xml|Contains information that the Feature definition file in your project uses to deploy the web part.|  
+|*Elements.xml*|Contains information that the Feature definition file in your project uses to deploy the web part.|  
 |.webpart file|Provides information that SharePoint needs to display your web part in a web part gallery.|  
 |Code File|Contains methods that add controls to the web part and that generate custom content within the web part.|  
   
@@ -59,14 +59,14 @@ ms.workload:
 |Control Name|Description|  
 |------------------|-----------------|  
 |[AspMenu](http://go.microsoft.com/fwlink/?LinkId=235307)|Inserts an ASP menu. For more information, see [Menu Control Overview](http://go.microsoft.com/fwlink/?LinkId=235316).|  
-|[CssLink](http://go.microsoft.com/fwlink/?LinkId=235308)|Inserts a **LINK** element into the .aspx page and applies one or more external style sheets defined by **CssRegistration**.|  
-|[DateTimeControl](http://go.microsoft.com/fwlink/?LinkId=235306)|Inserts a DateTime control into the .aspx page.|  
-|[FormDigest](http://go.microsoft.com/fwlink/?LinkId=235309)|Inserts a security validation into the .aspx page|  
+|[CssLink](http://go.microsoft.com/fwlink/?LinkId=235308)|Inserts a **LINK** element into the *.aspx* page and applies one or more external style sheets defined by **CssRegistration**.|  
+|[DateTimeControl](http://go.microsoft.com/fwlink/?LinkId=235306)|Inserts a DateTime control into the *.aspx* page.|  
+|[FormDigest](http://go.microsoft.com/fwlink/?LinkId=235309)|Inserts a security validation into the *.aspx* page|  
 |[ListProperty](http://go.microsoft.com/fwlink/?LinkId=235310)|Returns a property of a specified list.|  
 |[ProjectProperty](http://go.microsoft.com/fwlink/?LinkId=235311)|Returns a global property of the current website.|  
-|[RssLink](http://go.microsoft.com/fwlink/?LinkId=235312)|Inserts a link to an RSS feed into the .aspx page.|  
+|[RssLink](http://go.microsoft.com/fwlink/?LinkId=235312)|Inserts a link to an RSS feed into the *.aspx* page.|  
 |[ScriptLink](http://go.microsoft.com/fwlink/?LinkId=235313)|Provides properties and methods for registering resources, such as scripts, on a page so that they can be requested when the page is rendered.|  
-|[Theme](http://go.microsoft.com/fwlink/?LinkId=235314)|Applies a theme to the .aspx page.|  
+|[Theme](http://go.microsoft.com/fwlink/?LinkId=235314)|Applies a theme to the *.aspx* page.|  
   
 ## Debug a web part
  You can debug a SharePoint project that contains a web part just as you would debug other Visual Studio projects. When you start the Visual Studio debugger, Visual Studio opens the SharePoint site.  

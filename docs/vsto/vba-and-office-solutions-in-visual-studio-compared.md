@@ -1,5 +1,5 @@
 ---
-title: "VBA and Office Solutions in Visual Studio Compared | Microsoft Docs"
+title: "VBA and Office solutions in Visual Studio compared"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -17,10 +17,10 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# VBA and Office Solutions in Visual Studio Compared
+# VBA and Office solutions in Visual Studio compared
   Microsoft Visual Basic for Applications (VBA) uses unmanaged code that is tightly integrated with Office applications. Microsoft Office projects created by using Visual Studio enable you to take advantage of the .NET Framework and Visual Studio design tools.  
   
- For information about the types of Office solutions you can create by using Visual Studio, see [Office Solutions Development Overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).  
+ For information about the types of Office solutions you can create by using Visual Studio, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).  
   
 ## Comparison  
  The following table provides a basic comparison between VBA solutions and Office solutions in Visual Studio.  
@@ -39,16 +39,16 @@ ms.workload:
   
 -   Macro recording.  
   
-## Combining VBA Solutions and Office Solutions Created by Using Visual Studio  
- You can call VBA code from Office solutions created by using Visual Studio, and you can also call code in Office solutions created by using Visual Studio from VBA. The specific technique differs depending on whether your Office solution is a VSTO Add-in or a document-level customization. For more information, see [Calling Code in VSTO Add-ins from Other Office Solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md) and [Combining VBA and Document-Level Customizations](../vsto/combining-vba-and-document-level-customizations.md).  
+## Combine VBA solutions and Office solutions created by using Visual Studio  
+ You can call VBA code from Office solutions created by using Visual Studio, and you can also call code in Office solutions created by using Visual Studio from VBA. The specific technique differs depending on whether your Office solution is a VSTO Add-in or a document-level customization. For more information, see [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md) and [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md).  
   
-## See Also  
- [Office Solutions Development Overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)   
- [Calling Code in VSTO Add-ins from Other Office Solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md)   
- [Combining VBA and Document-Level Customizations](../vsto/combining-vba-and-document-level-customizations.md)   
- [Architecture of Document-Level Customizations](../vsto/architecture-of-document-level-customizations.md)   
+## See also  
+ [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)   
+ [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md)   
+ [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md)   
+ [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md)   
  [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)   
- [Securing Office Solutions](../vsto/securing-office-solutions.md)   
- [Getting Started &#40;Office Development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)  
+ [Secure Office solutions](../vsto/securing-office-solutions.md)   
+ [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)  
   
   
