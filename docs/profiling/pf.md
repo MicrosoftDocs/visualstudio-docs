@@ -12,7 +12,7 @@ ms.workload:
   - "multiple"
 ---
 # PF
-The VSPerfCmd.exe **PF** option sets the profiling event that is sampled to page faults, and it optionally changes the number of page faults in a sampling interval from the default of 10.  
+The *VSPerfCmd.exe* **PF** option sets the profiling event that is sampled to page faults, and it optionally changes the number of page faults in a sampling interval from the default of 10.  
   
 > [!NOTE]
 >  **PF** cannot be used on 64-bit systems.  
@@ -33,7 +33,7 @@ VSPerfCmd.exe {/Launch:AppName|/Attach:PID} /PF[:Events] [Options]
  `Events`  
  An integer value that specifies the number of page fault events in a sampling interval. If `Events` is not specified, the interval is set to 10.  
   
-## Required Options  
+## Required options  
  **PF** can only be specified on a command line that contains one of the following options.  
   
  **Launch:** `AppName`  
@@ -42,7 +42,7 @@ VSPerfCmd.exe {/Launch:AppName|/Attach:PID} /PF[:Events] [Options]
  **Attach:** `PID`  
  Attaches the profiler to the process specified by AppName.  
   
-## Invalid Options  
+## Invalid options  
  The following options cannot be specified on the same command line as **PF**.  
   
  **Timer**[**:**`Cycles`]  
@@ -65,8 +65,8 @@ VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp
 VSPerfCmd.exe /Launch:TestApp.exe /PF:20  
 ```  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)
+ [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profile services](../profiling/command-line-profiling-of-services.md)
