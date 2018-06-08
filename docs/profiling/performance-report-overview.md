@@ -15,13 +15,13 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Performance Report Overview
+# Performance Report overview
 You can view the profiling data of a performance session in the **Performance Report** window of the Visual Studio Team System Development Edition integrated development environment (IDE). The profiling data is saved in .vsp and .vsps files. Report view windows enable you to view and analyze application performance issues.  
   
 > [!CAUTION]
->  A profiling data file contains sensitive information such as the computer name, the version of the operating system, file paths, memory information, and other computer setup information. You should maintain strict control over the distribution of the data, both in its native .vsp format and when it is exported to a .csv or an .xml file.  
+>  A profiling data file contains sensitive information such as the computer name, the version of the operating system, file paths, memory information, and other computer setup information. You should maintain strict control over the distribution of the data, both in its native .*vsp* format and when it is exported to a .*csv* or an .*xml* file.  
 >   
->  If event tracing data is collected as part of the performance session, additional information might appear in the event tracing log (.etl) file. This information includes your domain and user name; therefore, you should maintain strict control over the distribution of the log file.  
+>  If event tracing data is collected as part of the performance session, additional information might appear in the event tracing log (.*etl*) file. This information includes your domain and user name; therefore, you should maintain strict control over the distribution of the log file.  
   
 ## Performance Report Window  
  The Performance Report window is a tool window that is used to view, manage, and filter performance data and it includes a customizable query control.  
@@ -65,14 +65,14 @@ You can view the profiling data of a performance session in the **Performance Re
  The Instruction Pointer view enables you to view the specific instructions that were executed during sampling profiling. For more information, see [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view.md).  
   
 ### Allocation View  
- The Allocation view is available if **Collect .NET object allocation** was selected on the **General** page of the **Performance Session** properties dialog box. See [Performance Session Overview](../profiling/performance-session-overview.md). The Allocation view lists the .NET objects that were allocated by the application or component. When an object row is expanded, a call tree is displayed. The call tree shows the execution paths that resulted in the creation of the object. Information is also displayed about the number of inclusive and exclusive allocations for each function in the call tree. The Allocation view can also expand and highlight the execution path of a function that allocated the largest number of objects. To display the most active path, right-click the function and then click **Expand Hot Path**. For more information, see [Collecting .NET Memory Allocation and Lifetime Data](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md) and [Allocations View](../profiling/dotnet-memory-allocations-view.md).  
+ The Allocation view is available if **Collect .NET object allocation** was selected on the **General** page of the **Performance Session** properties dialog box. See [Performance session overview](../profiling/performance-session-overview.md). The Allocation view lists the .NET objects that were allocated by the application or component. When an object row is expanded, a call tree is displayed. The call tree shows the execution paths that resulted in the creation of the object. Information is also displayed about the number of inclusive and exclusive allocations for each function in the call tree. The Allocation view can also expand and highlight the execution path of a function that allocated the largest number of objects. To display the most active path, right-click the function and then click **Expand Hot Path**. For more information, see [Collect .NET memory allocation and lifetime data](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md) and [Allocations View](../profiling/dotnet-memory-allocations-view.md).  
   
 ### Objects Lifetime View  
  The Object Lifetime view is available if **Collect .NET object allocation information** and **Also collect .NET object lifetime information** were selected on the **General** page of the **Performance Session** properties dialog box.  
   
  The Object Lifetime view displays the total number of instances of each type and the number of objects that were collected in each garbage collection generation. For more information, see [Object Lifetime View](../profiling/object-lifetime-view.md).  
   
-## Customizable Filter Control  
+## Customizable filter control  
  The customizable filter control has the following options:  
   
 -   **Import Filter** - retrieves a previously saved custom query.  
@@ -89,6 +89,6 @@ You can view the profiling data of a performance session in the **Performance Re
   
 -   **Export** - saves the current report in .CVS-formatted or .XML-formatted file, with options to save the different views.  
   
-## See Also  
- [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   
- [Performance Report Views](../profiling/performance-report-views.md)
+## See also  
+ [Analyze performance tools data](../profiling/analyzing-performance-tools-data.md)   
+ [Performance report views](../profiling/performance-report-views.md)
