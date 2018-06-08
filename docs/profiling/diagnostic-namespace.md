@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# diagnostic Namespace
+# diagnostic namespace
 The `diagnostics` namespace provides functionality for emitting Concurrency Visualizer markers.  
   
 ## Syntax  
@@ -40,9 +40,9 @@ namespace diagnostic;
 |[marker_importance Enumeration](../profiling/marker-importance-enumeration.md)|Represents the importance level of a Concurrency Visualizer marker.|  
   
 ## Requirements  
- **Header:** cvmarkersobj.h  
+ **Header:** *cvmarkersobj.h*  
   
  **Namespace:** Concurrency  
   
-## See Also  
- [Concurrency Namespace (Concurrency Visualizer)](../profiling/concurrency-namespace-concurrency-visualizer.md)
+## See also  
+ [Concurrency namespace (Concurrency Visualizer)](../profiling/concurrency-namespace-concurrency-visualizer.md)

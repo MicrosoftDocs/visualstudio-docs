@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Choose Sampling Events
+# How to: Choose sampling events
 By default, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools collects performance data at an interval that is specified as a number of processor cycles that are used by the profiled process. The default number of cycles in an interval is 10,000,000, which is approximately 0.01 seconds on a 1 GH computer. You can change the number of cycles in an interval, and you can change the sample event. The following sample events are available:  
   
 -   Clock cycles - for CPU-bound problems.  
@@ -54,9 +54,9 @@ By default, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
   
 5.  When you select a sample event, a default sampling interval value is displayed in the **Sampling interval** text box. If necessary, you can enter the value that you want in the text box.  
   
-## See Also  
- [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
- [How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md)   
- [CPU and Windows Counters](../profiling/cpu-and-windows-counters.md)   
- [Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)   
- [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)
+## See also  
+ [Configure performance sessions](../profiling/configuring-performance-sessions.md)   
+ [How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md)   
+ [CPU and Windows counters](../profiling/cpu-and-windows-counters.md)   
+ [Understand sampling data values](../profiling/understanding-sampling-data-values.md)   
+ [Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)

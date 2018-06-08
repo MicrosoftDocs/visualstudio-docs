@@ -2,13 +2,13 @@
 title: "XML schemas and data in document-level customizations"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
+ms.technology:
   - "office-development"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "XML schemas [Office development in Visual Studio]"
   - "schemas [Office development in Visual Studio]"
   - "XML [Office development in Visual Studio], XML schemas"
@@ -17,7 +17,7 @@ helpviewer_keywords:
 author: TerryGLee
 ms.author: tglee
 manager: douge
-ms.workload: 
+ms.workload:
   - "office"
 ---
 # XML schemas and data in document-level customizations

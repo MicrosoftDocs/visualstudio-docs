@@ -45,19 +45,19 @@ ms.workload:
   
  To open the BDC Designer, double-click the model file in your project, or open the shortcut menu for the model file and then choose **Open**. Add an entity to the model by dragging or copying an **Entity** from the **Toolbox** onto the designer. To create an association between two entities, choose the **Association** control in the **Toolbox**, choose the first entity, and then choose the second entity.  
   
-## BDC method details window
+## BDC Method Details window
  Use the **BDC Method Details** window to define the parameters, instances, and filter descriptors of a method.  
   
  You can quickly generate Finder, Specific Finder, Creator, Updater, and Deleter methods in the **BDC Method Details** window. When you generate these methods, Visual Studio adds metadata, such as parameters, instances, and type descriptors, to the method. You can modify this metadata to satisfy your specific scenario.  
   
- To open the **BDC Method Details** window, on the menu bar, choose **View**, **Other Windows**, **BDC Method Details**.  
+ To open the **BDC Method Details** window, on the menu bar, choose **View** > **Other Windows** > **BDC Method Details**.  
   
  To view methods in the **BDC Method Details** window, choose the entity in the BDC Designer. The methods of the selected entity appear in the **BDC Method Details** window. If you do not choose an entity in the BDC Designer, the **BDC Method Details** window displays no information.  
   
  Expand or collapse nodes in the **BDC Method Details** window to define parameters, instances, and filter descriptors. Use the **BDC Explorer** to define type descriptors.  
   
 ## BDC Explorer
- The **BDC Explorer** displays the elements that make up the model. To open the **BDC Explorer**, on the menu bar, choose **View**, **Other Windows**, **BDC Explorer**. To browse the model, expand nodes in the **BDC Explorer**. Each node represents an element in the XML of the model file.  
+ The **BDC Explorer** displays the elements that make up the model. To open the **BDC Explorer**, on the menu bar, choose **View** > **Other Windows** > **BDC Explorer**. To browse the model, expand nodes in the **BDC Explorer**. Each node represents an element in the XML of the model file.  
   
  As you choose nodes in the **BDC Explorer**, the properties of each node that you choose appear in the **Properties** window. Many of these properties correspond to attributes in the model file. You can search the model by using the search box at the top of the **BDC Explorer**.  
   

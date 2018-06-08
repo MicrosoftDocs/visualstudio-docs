@@ -22,13 +22,13 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Creating site columns, content types, and lists for SharePoint
+# Create site columns, content types, and lists for SharePoint
   Visual Studio provides project item templates for many different fundamental SharePoint items, including *lists* and *content types*, both of which can incorporate site columns (or *fields*). The new designers for content types and lists make creating these items easier than ever.  
   
 ## Site columns
  Site columns are one of the most basic elements you can add to a SharePoint project. A site column represents a type of data, such as a telephone number, a comment, or the city name of a contact in a contact list.  
   
- The new site column project item template makes creating site columns easier than in the earlier version of Visual Studio. After creating a new site column, you can modify the XML in the site column's Elements.xml file to include the information that you want, such as its display name, its data type, and the group in which you want the site column to appear in SharePoint. For more information about site columns, see [Introduction to Columns](http://go.microsoft.com/fwlink/?LinkId=224996).  
+ The new site column project item template makes creating site columns easier than in the earlier version of Visual Studio. After creating a new site column, you can modify the XML in the site column's *Elements.xml* file to include the information that you want, such as its display name, its data type, and the group in which you want the site column to appear in SharePoint. For more information about site columns, see [Introduction to Columns](http://go.microsoft.com/fwlink/?LinkId=224996).  
   
 ## Content types and lists
  Content types and lists are among the most frequently used elements in SharePoint.  

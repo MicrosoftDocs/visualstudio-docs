@@ -138,7 +138,7 @@ This section describes the limitations of IntelliTest:
 * [Platform](#platform)
 * [Language](#language)
 * [Symbolic reasoning](#symbolic-reasoning)
-* [Stack traces](#incorrect-stack)
+* [Stack traces](#incorrect-stack-traces)
 
 ### Nondeterminism
 

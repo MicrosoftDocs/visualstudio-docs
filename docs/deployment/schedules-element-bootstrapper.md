@@ -23,7 +23,7 @@ The `Schedules` element contains `Schedule` elements, which define specific time
   
 ## Syntax  
   
-```  
+```xml
 <Schedules>  
     <Schedule  
         Name  

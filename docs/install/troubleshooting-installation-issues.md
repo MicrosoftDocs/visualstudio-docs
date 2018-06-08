@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting installation issues"
+title: "Troubleshoot installation issues with Visual Studio 2017"
 description: "Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help."
 ms.date: 11/21/2017
 ms.technology: vs-acquisition
@@ -107,4 +107,5 @@ Here are a few more options:
 
 * [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
+* [Install Visual Studio behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
 * [Remove Visual Studio 2017](remove-visual-studio.md)

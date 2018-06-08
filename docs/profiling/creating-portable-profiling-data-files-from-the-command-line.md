@@ -19,7 +19,7 @@ To make sharing of profiling data easier, you can use the [VSPerfReport](../prof
 > [!NOTE]
 >  Make sure the symbol (.*pdb*) files are available to **VSPerfReport**. For more information, see [How to: Specify symbol file locations from the command line](../profiling/how-to-specify-symbol-file-locations-from-the-command-line.md).  
 >   
->  For information about the path to **VSReport**, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
+>  For information about the path to **VSReport**, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
 >   
 >  The profiling data in a .*vsps* file cannot be filtered.  
   
