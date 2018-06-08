@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# SharePoint Development Walkthroughs
+# SharePoint development walkthroughs
   The following walkthroughs demonstrate how to develop and deploy SharePoint solutions by using [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
 ## General  
@@ -30,14 +30,14 @@ ms.workload:
 |[Walkthrough: Create a Basic Site Definition Project](../sharepoint/walkthrough-create-a-basic-site-definition-project.md)|Demonstrates how to create a basic site definition that contains a visual Web part with controls.|  
 |[Walkthrough: Import a Custom Master Page and Site Page with an Image](../sharepoint/walkthrough-import-a-custom-master-page-and-site-page-with-an-image.md)|Demonstrates how to import a SharePoint custom master page and a site page that has an image into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project|  
   
-## Import Wizard  
+## Import wizard
   
 |Topic|Description|  
 |-----------|-----------------|  
 |[Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio](../sharepoint/walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio.md)|Demonstrates how to import a reusable workflow created in SharePoint Designer 2010 into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint workflow project.|  
 |[Walkthrough: Import Items from an Existing SharePoint Site](../sharepoint/walkthrough-import-items-from-an-existing-sharepoint-site.md)|Demonstrates how to import items from an existing SharePoint site into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project.|  
   
-## Web Parts  
+## Web parts
   
 |Topic|Description|  
 |-----------|-----------------|  
@@ -54,26 +54,26 @@ ms.workload:
 |[Walkthrough: Create a Custom Site Workflow Activity](../sharepoint/walkthrough-create-a-custom-site-workflow-activity.md)|Demonstrates how to create a custom activity for a site-level workflow.|  
 |[Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio](../sharepoint/walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio.md)|Shows how to migrate a reusable workflow from SharePoint Designer into Visual Studio.|  
   
-## Application Pages  
+## Application pages
   
 |Topic|Description|  
 |-----------|-----------------|  
 |[Walkthrough: Add an Application Page to a Workflow](../sharepoint/walkthrough-add-an-application-page-to-a-workflow.md)|Demonstrates how to add an application page that displays data derived from a workflow to a workflow project.|  
 |[Walkthrough: Creating a SharePoint Application Page](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md)|Shows how to create an application page and then debug that page by using a local SharePoint site.|  
   
-## Business Data Connectivity  
+## Business data connectivity
   
 |Topic|Description|  
 |-----------|-----------------|  
 |[Walkthrough: Creating an External List in SharePoint by Using Business Data](../sharepoint/walkthrough-creating-an-external-list-in-sharepoint-by-using-business-data.md)|Shows how to create a model for the BDC service that returns information about contacts in a sample database.|  
   
-## Packaging and Deployment  
+## Packaging and deployment
   
 |Topic|Description|  
 |-----------|-----------------|  
 |[Walkthrough: Deploying a Project Task List Definition](../sharepoint/walkthrough-deploying-a-project-task-list-definition.md)|Shows how to use Visual Studio to create, customize, debug, and deploy a SharePoint list definition to track project tasks.|  
   
-## Extending the SharePoint Project System  
+## Extend the SharePoint project system
   
 |Topic|Description|  
 |-----------|-----------------|  
@@ -85,14 +85,13 @@ ms.workload:
 |[Walkthrough: Creating a Site Column Project Item with a Project Template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md)|Demonstrates how to create a wizard for a custom SharePoint project item type that is associated with a project template.|  
 |[Walkthrough: Creating a Custom Deployment Step for SharePoint Projects](../sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md)|Demonstrates how to define a custom deployment step that can be used to upgrade SharePoint solutions.|  
   
-## Extending the SharePoint Connections Node in Server Explorer  
+## Extend the SharePoint connections node in Server Explorer
   
 |Topic|Description|  
 |-----------|-----------------|  
 |[Walkthrough: Extending Server Explorer to Display Web Parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)|Demonstrates how to add new nodes for displaying Web Parts in SharePoint sites that are displayed in Server Explorer. This walkthrough also demonstrates how to create a SharePoint command to call into the SharePoint server object model.|  
 |[Walkthrough: Calling into the SharePoint Client Object Model in a Server Explorer Extension](../sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension.md)|Demonstrates how to add new nodes for displaying Web Parts in SharePoint sites that are displayed in Server Explorer. This walkthrough also demonstrates how to use the SharePoint client object model.|  
   
-## See Also  
+## See also
  [SharePoint Development Samples and Walkthroughs](../sharepoint/sharepoint-development-samples-and-walkthroughs.md)  
-  
   
