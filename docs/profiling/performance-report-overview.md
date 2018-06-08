@@ -23,7 +23,7 @@ You can view the profiling data of a performance session in the **Performance Re
 >   
 >  If event tracing data is collected as part of the performance session, additional information might appear in the event tracing log (.*etl*) file. This information includes your domain and user name; therefore, you should maintain strict control over the distribution of the log file.  
   
-## Performance Report Window  
+## Performance Report window  
  The Performance Report window is a tool window that is used to view, manage, and filter performance data and it includes a customizable query control.  
   
  On the main toolbar of the Performance Report window, you can access each view. Click the arrow next to the **Current View** list to display and select the individual views that are available.  
