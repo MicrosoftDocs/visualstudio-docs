@@ -134,7 +134,7 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 ### Use the CallVSTOAssembly property in a Visual Basic project  
  Use the `CallVSTOAssembly` property to access public members that you added to the host item class. For example, the following VBA macro calls a method named `MyVSTOMethod` that is defined in the `Sheet1` class in an Excel workbook project.  
   
-```  
+```vb
 Sub MyMacro()  
     Sheet1.CallVSTOAssembly.MyVSTOMethod()  
 End Sub  
@@ -144,7 +144,7 @@ End Sub
   
  The `CallVSTOAssembly` property has a declaration that is similar to the following code. This code assumes that you have exposed the `Sheet1` host item class in an Excel workbook project named `ExcelWorkbook1` to VBA.  
   
-```  
+```vb 
 Property Get CallVSTOAssembly() As ExcelWorkbook1.Sheet1  
     Set CallVSTOAssembly = GetManagedClass(Me)  
 End Property  
@@ -155,7 +155,7 @@ End Property
   
  For example, the following VBA macro calls a method named `MyVSTOMethod` that is defined in the `Sheet1` host item class in an Excel workbook project named `ExcelWorkbook1`.  
   
-```  
+```vb
 Sub CallVSTOMethod  
     Dim VSTOSheet1 As ExcelWorkbook1.Sheet1  
     Set VSTOSheet1 = GetManagedClass(Sheet1)  
@@ -165,7 +165,7 @@ End Sub
   
  The `GetManagedClass` method has the following declaration.  
   
-```  
+```vb
 GetManagedClass(pdispInteropObject Object) As Object  
 ```  
   

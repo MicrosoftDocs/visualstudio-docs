@@ -21,7 +21,7 @@ ms.workload:
   
 ## Syntax  
   
-```c++
+```csharp
 [  
     object,  
     uuid(B9CEAB65-331C-4713-8410-DDDAF8EC191A),  
