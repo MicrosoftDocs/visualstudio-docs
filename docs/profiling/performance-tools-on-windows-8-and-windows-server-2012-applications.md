@@ -35,7 +35,7 @@ For more information about profiling UWP apps, see the following articles:
 
 - [Run UWP apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md)
 - [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md)
-- [First look at profiling tools](profiling-tools.md)
+- [First look at profiling tools](profiling-feature-tour.md)
 - [JavaScript memory](../profiling/javascript-memory.md)
 - [Profile Visual C++, Visual C#, and Visual Basic code in UWP apps on a local machine](http://msdn.microsoft.com/en-us/2d0c939e-0bac-48c5-b727-46f6c6113060)
 - [Profile Visual C++, Visual C#, and Visual Basic code in UWP apps on a remote device](http://msdn.microsoft.com/en-us/b932a2be-11b0-40fd-b996-75c6b6a79d22)
@@ -70,7 +70,7 @@ To profile applications on devices that do not have Visual Studio installed, do 
 
 - Download the tools as part of the Remote Tools for Visual Studio from the [MSDN web site](http://go.microsoft.com/fwlink/?LinkID=219549).
 
-- Copy and run the stand-alone profiler tools installation program from your Visual Studio computer. The installation programs are in *%VSInstallDir%* *\Team Tools\Performance Tools\Setups* folder. Choose the setup program for the operating system (x86/x64) of the remote computer.
+- Copy and run the stand-alone profiler tools installation program from your Visual Studio computer. The installation programs are in *%VSInstallDir%\Team Tools\Performance Tools\Setups* folder. Choose the setup program for the operating system (x86/x64) of the remote computer.
 
 > [!NOTE]
 > To collect TIP profiling data, you must install the stand-alone profiler from your Visual Studio machine on the remote computer.
@@ -101,11 +101,11 @@ Tier interaction profiling data can be collected using any edition of Visual Stu
 
 **Performance Wizard and Performance Explorer**
 
-You must add the tier interaction data collection option to a profiling run from the Performance Explorer. You must also add the project, executable, or website to the Target node of Performance Explorer. See [Collecting tier interaction data](../profiling/collecting-tier-interaction-data.md).
+You must add the tier interaction data collection option to a profiling run from the Performance Explorer. You must also add the project, executable, or website to the Target node of Performance Explorer. See [Collect tier interaction data](../profiling/collecting-tier-interaction-data.md).
 
 **Collecting TIP data on a remote machine**
 
-To collect tier interaction data on a remote machine, you must copy the **vs_profiler_***\<Platform>***_***\<Language>***.exe** file from the *%VSInstallDir%***\Team Tools\Performance Tools\Setups** folder of a Visual Studio machine to the remote computer and install it. You cannot use the profiling tools in the [Remote Debugging](../debugger/remote-debugging.md) download package.
+To collect tier interaction data on a remote machine, you must copy the **vs_profiler_***\<Platform>***_***\<Language>***.exe** file from the *%VSInstallDir%\Team Tools\Performance Tools\Setups* folder of a Visual Studio machine to the remote computer and install it. You cannot use the profiling tools in the [Remote Debugging](../debugger/remote-debugging.md) download package.
 
 You can use [VSPerfCmd](../profiling/vsperfcmd.md) or [VSPerfASPNetCmd](../profiling/vsperfaspnetcmd.md) to collect the profiling data.
 
