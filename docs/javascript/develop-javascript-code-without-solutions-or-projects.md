@@ -26,7 +26,7 @@ To get started, select **Open Folder** from the Start Page that appears when you
 
 ## npm integration
 
-If the folder you open contains a *package.json* file, you can right-click *package.json* to show a conext menu (shortcut menu) specific to npm. 
+If the folder you open contains a *package.json* file, you can right-click *package.json* to show a context menu (shortcut menu) specific to npm. 
 
 ![npm menu in Solution Explorer](../javascript/media/solution-explorer-npm-ctx.png) 
 
