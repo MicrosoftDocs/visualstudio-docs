@@ -55,7 +55,7 @@ ms.workload:
      [!code-csharp[Trin_VstcoreExcelAutomation#27](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#27)]
      [!code-vb[Trin_VstcoreExcelAutomation#27](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#27)]  
   
-#### To protect a worksheet by using code in a VSTO Add-in  
+#### To protect a worksheet by using code in an VSTO Add-in  
   
 1.  Call the <xref:Microsoft.Office.Interop.Excel._Worksheet.Protect%2A> method of the active worksheet.  
   

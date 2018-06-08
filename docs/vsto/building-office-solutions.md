@@ -107,7 +107,7 @@ ms.workload:
 |-----------|-----------------|  
 |[Debug Office projects](../vsto/debugging-office-projects.md)|Presents issues involved in debugging Office projects.|  
 |[Walkthrough: Create your first document-level customization for Excel](../vsto/walkthrough-creating-your-first-document-level-customization-for-excel.md)|Demonstrates how to create a basic document-level customization for Excel.|  
-|[How to: Re-enable a VSTO Add-in that has been disabled](../vsto/how-to-re-enable-a-vsto-add-in-that-has-been-disabled.md)|Describes how to re-enable an VSTO Add-in that has been hard or soft disabled.|  
+|[How to: Re-enable an VSTO Add-in that has been disabled](../vsto/how-to-re-enable-a-vsto-add-in-that-has-been-disabled.md)|Describes how to re-enable an VSTO Add-in that has been hard or soft disabled.|  
 |[Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)|Provides links to information about creating Office solutions, and about the role of assemblies in your solution.|  
   
   

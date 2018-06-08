@@ -29,7 +29,7 @@ ms.workload:
      [!code-csharp[Trin_VstcoreExcelAutomation#21](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#21)]
      [!code-vb[Trin_VstcoreExcelAutomation#21](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#21)]  
   
-### To list all existing worksheets in a workbook in a VSTO Add-in  
+### To list all existing worksheets in a workbook in an VSTO Add-in  
   
 1.  Iterate through the <xref:Microsoft.Office.Interop.Excel.Worksheets> collection and send the name of each sheet to a cell offset from a <xref:Microsoft.Office.Interop.Excel.Range> object.  
   

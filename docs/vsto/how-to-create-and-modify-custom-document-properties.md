@@ -23,7 +23,7 @@ ms.workload:
   
  [!INCLUDE[appliesto_docprops](../vsto/includes/appliesto-docprops-md.md)]  
   
- Use the CustomDocumentProperties property of a document to work with custom properties. For example, in a document-level project for Microsoft Office Excel, use the <xref:Microsoft.Office.Tools.Excel.Workbook.CustomDocumentProperties%2A> property of the `ThisWorkbook` class. In a VSTO Add-in project for Excel, use the <xref:Microsoft.Office.Interop.Excel._Workbook.CustomDocumentProperties%2A> property of a <xref:Microsoft.Office.Interop.Excel.Workbook> object. These properties return a <xref:Microsoft.Office.Core.DocumentProperties> object, which is a collection of <xref:Microsoft.Office.Core.DocumentProperty> objects. You can use the `Item` property of the collection to retrieve a particular property, either by name or by index within the collection.  
+ Use the CustomDocumentProperties property of a document to work with custom properties. For example, in a document-level project for Microsoft Office Excel, use the <xref:Microsoft.Office.Tools.Excel.Workbook.CustomDocumentProperties%2A> property of the `ThisWorkbook` class. In an VSTO Add-in project for Excel, use the <xref:Microsoft.Office.Interop.Excel._Workbook.CustomDocumentProperties%2A> property of a <xref:Microsoft.Office.Interop.Excel.Workbook> object. These properties return a <xref:Microsoft.Office.Core.DocumentProperties> object, which is a collection of <xref:Microsoft.Office.Core.DocumentProperty> objects. You can use the `Item` property of the collection to retrieve a particular property, either by name or by index within the collection.  
   
  The following example demonstrates how to add a custom property in a document-level customization for Excel and assign it a value.  
   

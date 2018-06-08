@@ -54,7 +54,7 @@ ms.workload:
  When developing Word solutions in Visual Studio, you can also use *host items* and *host controls* in your solutions. These are objects that extend certain commonly used objects in the Word object model, such as the <xref:Microsoft.Office.Interop.Word.Document> and <xref:Microsoft.Office.Interop.Word.ContentControl> objects. The extended objects behave like the Word objects they are based on, but they add additional events and data binding capabilities to the objects. For more information, see [Automating Word by Using Extended Objects](../vsto/automating-word-by-using-extended-objects.md).  
   
 ##  <a name="doclevel"></a> Developing Document-Level Customizations for Word  
- A document-level customization for Microsoft Office Word consists of an assembly that is associated with a specific document. The assembly typically extends the document by customizing the UI and by automating Word. Unlike a VSTO Add-in, which is associated with Word itself, functionality that you implement in a customization is available only when the associated document is open in Word.  
+ A document-level customization for Microsoft Office Word consists of an assembly that is associated with a specific document. The assembly typically extends the document by customizing the UI and by automating Word. Unlike an VSTO Add-in, which is associated with Word itself, functionality that you implement in a customization is available only when the associated document is open in Word.  
   
  To create a document-level customization project for Word, use the Word Document or Word Template project templates in the **New Project** dialog box of Visual Studio. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
@@ -68,7 +68,7 @@ ms.workload:
 ##  <a name="applevel"></a> Developing VSTO Add-ins for Word  
  A VSTO Add-in for Microsoft Office Word consists of an assembly that is loaded by Word. The assembly typically extends Word by customizing the UI and by automating Word. Unlike a document-level customization, which is associated with a specific document, functionality that you implement in an VSTO Add-in is not restricted to any single document.  
   
- To create a VSTO Add-in project for Word, use the Word Add-in project templates in the **New Project** dialog box of Visual Studio. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
+ To create an VSTO Add-in project for Word, use the Word Add-in project templates in the **New Project** dialog box of Visual Studio. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
  For general information about how VSTO Add-ins work, see [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).  
   
@@ -86,7 +86,7 @@ ms.workload:
 |Task|For more information|  
 |----------|--------------------------|  
 |Customize the Ribbon.|[Ribbon Overview](../vsto/ribbon-overview.md)|  
-|Add Windows Forms controls or extended Word controls to the customized document (for a document-level customization) or to any open document (for a VSTO Add-in).|[How to: Add Windows Forms Controls to Office Documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)<br /><br /> [How to: Add Content Controls to Word Documents](../vsto/how-to-add-content-controls-to-word-documents.md)<br /><br /> [How to: Add Bookmark Controls to Word Documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)|  
+|Add Windows Forms controls or extended Word controls to the customized document (for a document-level customization) or to any open document (for an VSTO Add-in).|[How to: Add Windows Forms Controls to Office Documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)<br /><br /> [How to: Add Content Controls to Word Documents](../vsto/how-to-add-content-controls-to-word-documents.md)<br /><br /> [How to: Add Bookmark Controls to Word Documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)|  
   
 ### Options for Document-Level Customizations  
  The following table lists customization options that are available only to document-level customizations.  
@@ -112,7 +112,7 @@ ms.workload:
 |[Windows Forms Controls on Office Documents Overview](../vsto/windows-forms-controls-on-office-documents-overview.md)|Describes how you can add Windows Forms controls to Word documents.|  
 |[Walkthrough: Creating Your First Document-Level Customization For Word](../vsto/walkthrough-creating-your-first-document-level-customization-for-word.md)|Demonstrates how to create a basic document-level customization for Word.|  
 |[Walkthrough: Creating Your First VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)|Demonstrates how to create a basic VSTO Add-in for Word.|  
-|[Walkthrough: Adding Controls to a Document at Run Time in a VSTO Add-In](../vsto/walkthrough-adding-controls-to-a-document-at-run-time-in-a-vsto-add-in.md)|Demonstrates how to add a Windows Forms button and a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> to a document at run time by using a VSTO Add-in.|  
+|[Walkthrough: Adding Controls to a Document at Run Time in an VSTO Add-In](../vsto/walkthrough-adding-controls-to-a-document-at-run-time-in-a-vsto-add-in.md)|Demonstrates how to add a Windows Forms button and a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> to a document at run time by using an VSTO Add-in.|  
 |[Word 2010 in Office Development](http://go.microsoft.com/fwlink/?LinkId=199020)|Provides links to articles and reference documentation about developing Word solutions (not specific to Office development using Visual Studio).|  
   
   

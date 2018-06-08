@@ -1,5 +1,5 @@
 ---
-title: "How to: Re-enable a VSTO Add-in That Has Been Disabled | Microsoft Docs"
+title: "How to: Re-enable an VSTO Add-in That Has Been Disabled | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -20,7 +20,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Re-enable a VSTO Add-in That Has Been Disabled
+# How to: Re-enable an VSTO Add-in That Has Been Disabled
   Microsoft Office applications can disable VSTO Add-ins that behave unexpectedly. If an application does not load your VSTO Add-in when you try to debug it, the application might have hard disabled or soft disabled your VSTO Add-in.  
   
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]  
@@ -28,7 +28,7 @@ ms.workload:
 ## Hard-Disabled VSTO Add-ins  
  Hard disabling can occur when an VSTO Add-in causes the application to close unexpectedly. It might also occur on your development computer if you stop the debugger while the <xref:Microsoft.Office.Tools.AddIn.Startup> event handler in your VSTO Add-in is executing.  
   
-#### To re-enable a VSTO Add-in  
+#### To re-enable an VSTO Add-in  
   
 1.  In the application, click the **File** tab.  
   
@@ -47,7 +47,7 @@ ms.workload:
 7.  Click **Close**.  
   
 ## Soft-Disabled VSTO Add-ins  
- Soft disabling can occur when a VSTO Add-in produces an error that does not cause the application to unexpectedly close. For example, an application might soft disable a VSTO Add-in if it throws an unhandled exception while the <xref:Microsoft.Office.Tools.AddIn.Startup> event handler is executing.  
+ Soft disabling can occur when an VSTO Add-in produces an error that does not cause the application to unexpectedly close. For example, an application might soft disable an VSTO Add-in if it throws an unhandled exception while the <xref:Microsoft.Office.Tools.AddIn.Startup> event handler is executing.  
   
 > [!NOTE]  
 >  When you re-enable a soft-disabled VSTO Add-in, the application immediately attempts to load the VSTO Add-in. If the problem that initially caused the application to soft disable the VSTO Add-in has not been fixed, the application will soft disable the VSTO Add-in again.  

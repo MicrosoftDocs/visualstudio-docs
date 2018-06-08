@@ -73,8 +73,8 @@ ms.workload:
      [!code-csharp[Trin_VstcoreHostControlsExcel#2](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#2)]
      [!code-vb[Trin_VstcoreHostControlsExcel#2](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#2)]  
   
-##  <a name="runtimeaddin"></a> Add ListObject controls at runtime in a VSTO Add-in project  
- You can add a <xref:Microsoft.Office.Tools.Excel.ListObject> control programmatically to any open worksheet in a VSTO Add-in project. Dynamically created list objects are not persisted in the worksheet as host controls when the worksheet is saved and then closed. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).  
+##  <a name="runtimeaddin"></a> Add ListObject controls at runtime in an VSTO Add-in project  
+ You can add a <xref:Microsoft.Office.Tools.Excel.ListObject> control programmatically to any open worksheet in an VSTO Add-in project. Dynamically created list objects are not persisted in the worksheet as host controls when the worksheet is saved and then closed. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).  
   
 #### To add a ListObject control to a worksheet programmatically  
   

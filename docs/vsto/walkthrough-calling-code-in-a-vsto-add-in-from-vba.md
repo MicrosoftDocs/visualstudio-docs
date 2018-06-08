@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Calling Code in a VSTO Add-in from VBA | Microsoft Docs"
+title: "Walkthrough: Calling Code in an VSTO Add-in from VBA | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -22,8 +22,8 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Calling Code in a VSTO Add-in from VBA
-  This walkthrough demonstrates how to expose an object in a VSTO Add-in to other Microsoft Office solutions, including Visual Basic for Applications (VBA) and COM VSTO Add-ins.  
+# Walkthrough: Calling Code in an VSTO Add-in from VBA
+  This walkthrough demonstrates how to expose an object in an VSTO Add-in to other Microsoft Office solutions, including Visual Basic for Applications (VBA) and COM VSTO Add-ins.  
   
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]  
   
@@ -47,7 +47,7 @@ ms.workload:
 -   Microsoft Excel  
   
 ## Creating the VSTO Add-in Project  
- The first step is to create a VSTO Add-in project for Excel.  
+ The first step is to create an VSTO Add-in project for Excel.  
   
 #### To create a new project  
   
@@ -143,9 +143,9 @@ ms.workload:
   
 -   Use the `ThisAddIn` class to automate the host application and perform other tasks in VSTO Add-in projects. For more information, see [Programming VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).  
   
--   Create a custom task pane in a VSTO Add-in. For more information, see [Custom Task Panes](../vsto/custom-task-panes.md) and [How to: Add a Custom Task Pane to an Application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md).  
+-   Create a custom task pane in an VSTO Add-in. For more information, see [Custom Task Panes](../vsto/custom-task-panes.md) and [How to: Add a Custom Task Pane to an Application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md).  
   
--   Customize the Ribbon in a VSTO Add-in. For more information, see [Ribbon Overview](../vsto/ribbon-overview.md) and [How to: Get Started Customizing the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).  
+-   Customize the Ribbon in an VSTO Add-in. For more information, see [Ribbon Overview](../vsto/ribbon-overview.md) and [How to: Get Started Customizing the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).  
   
 ## See Also  
  [Programming VSTO Add-Ins](../vsto/programming-vsto-add-ins.md)   

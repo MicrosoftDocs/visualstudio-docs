@@ -75,7 +75,7 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
   
 -   You want to make services that you develop in a document-level customization available to end users who can access the services by writing VBA code in the document.  
   
- The Office development tools in Visual Studio provide a similar feature for VSTO Add-ins. If you are developing a VSTO Add-in, you can call code in your VSTO Add-in from other Microsoft Office solutions. For more information, see [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md).  
+ The Office development tools in Visual Studio provide a similar feature for VSTO Add-ins. If you are developing an VSTO Add-in, you can call code in your VSTO Add-in from other Microsoft Office solutions. For more information, see [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md).  
   
 > [!NOTE]  
 >  This feature cannot be used in Word template projects. It can be used only in Word document, Excel workbook, or Excel template projects.  

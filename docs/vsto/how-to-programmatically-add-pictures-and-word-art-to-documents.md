@@ -80,7 +80,7 @@ ms.workload:
      [!code-vb[Trin_VstcoreWordAutomation#110](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#110)]
      [!code-csharp[Trin_VstcoreWordAutomation#110](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#110)]  
   
-#### To add WordArt at the cursor location in a VSTO Add-in  
+#### To add WordArt at the cursor location in an VSTO Add-in  
   
 1.  Get the left and top position of the current cursor location.  
   

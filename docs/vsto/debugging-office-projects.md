@@ -33,7 +33,7 @@ ms.workload:
 >  Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.  
   
 ## Start and stop the debugger  
- You can start debugging an Office project just like you start debugging other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] projects; for example, you can press the **F5** key. When you start debugging a VSTO Add-in project, a new process for the targeted Office application is started and the VSTO Add-in is loaded.  
+ You can start debugging an Office project just like you start debugging other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] projects; for example, you can press the **F5** key. When you start debugging an VSTO Add-in project, a new process for the targeted Office application is started and the VSTO Add-in is loaded.  
   
  When you start debugging a document-level project, the document or workbook opens in a new Word or Excel process.  
   
@@ -52,7 +52,7 @@ ms.workload:
  When you start debugging an Office project, **F10** and **F11** do not have the same behavior as when you start debugging other Visual Basic or C# projects. In Visual Basic or C# projects, the debugger stops on the main function; in Office projects, Visual Studio does not have control over the Office application's main function. However, during debugging, **F10** and **F11** do have the same functions as in Visual Basic and C# projects.  
   
 ## Display exceptions  
- Because of the way that managed code interacts with unmanaged code, Visual Studio does not display errors that are thrown by Microsoft Office applications. For example, if a VSTO Add-in created by using Office development tools in Visual Studio throws an exception, the Microsoft Office application continues without displaying an error. To see these errors, set the debugger to break on common language runtime exceptions. For more information, see [Manage exceptions with the debugger](/visualstudio/debugger/managing-exceptions-with-the-debugger).  
+ Because of the way that managed code interacts with unmanaged code, Visual Studio does not display errors that are thrown by Microsoft Office applications. For example, if an VSTO Add-in created by using Office development tools in Visual Studio throws an exception, the Microsoft Office application continues without displaying an error. To see these errors, set the debugger to break on common language runtime exceptions. For more information, see [Manage exceptions with the debugger](/visualstudio/debugger/managing-exceptions-with-the-debugger).  
   
  If you set the debugger to break on common language runtime exceptions, all exceptions will now break into the debugger, including ones that you have handled and some first-chance exceptions from the runtime itself, which might not be relevant to your project. Errors referring to msosec not being found appear in every project, but are safe to ignore. These msosec exceptions will not affect your solution.  
   
@@ -73,17 +73,17 @@ ms.workload:
  To debug a Word Document project based on Word 97-2003 Document (*/*.doc*) format, you must add the project folder to the trusted folder list. For more information on how to do this, see [Grant trust to documents](../vsto/granting-trust-to-documents.md).  
   
 ## Debug disabled add-ins  
- Microsoft Office applications can disable VSTO Add-ins that behave unexpectedly. A Microsoft Office application disables VSTO Add-ins to prevent problematic code from loading every time that the application starts. However, it is also easy to cause unexpected behavior during typical debugging. For information about how to re-enable VSTO Add-ins, see [How to: Re-enable a VSTO Add-in that has been disabled](../vsto/how-to-re-enable-a-vsto-add-in-that-has-been-disabled.md).  
+ Microsoft Office applications can disable VSTO Add-ins that behave unexpectedly. A Microsoft Office application disables VSTO Add-ins to prevent problematic code from loading every time that the application starts. However, it is also easy to cause unexpected behavior during typical debugging. For information about how to re-enable VSTO Add-ins, see [How to: Re-enable an VSTO Add-in that has been disabled](../vsto/how-to-re-enable-a-vsto-add-in-that-has-been-disabled.md).  
   
  There are two types of disabling that Microsoft Office applications use for VSTO Add-ins: hard disabling and soft disabling.  
   
 ### Hard disabling  
- Hard disabling can occur when a VSTO Add-in causes the application to close unexpectedly. It might also occur on your development computer if you stop the debugger while the <xref:Microsoft.Office.Tools.AddIn.Startup> event handler in your VSTO Add-in is executing. When an VSTO Add-in is hard disabled, it appears in the **Disabled Items** list in the application.  
+ Hard disabling can occur when an VSTO Add-in causes the application to close unexpectedly. It might also occur on your development computer if you stop the debugger while the <xref:Microsoft.Office.Tools.AddIn.Startup> event handler in your VSTO Add-in is executing. When an VSTO Add-in is hard disabled, it appears in the **Disabled Items** list in the application.  
   
- If an Office application hard disables a VSTO Add-in created by using Office development tools in Visual Studio, the application disables only the VSTO Add-in that caused the failure. Other VSTO Add-ins created by using Office development tools in Visual Studio for that Office application will continue to load.  
+ If an Office application hard disables an VSTO Add-in created by using Office development tools in Visual Studio, the application disables only the VSTO Add-in that caused the failure. Other VSTO Add-ins created by using Office development tools in Visual Studio for that Office application will continue to load.  
   
 ### Soft disabling  
- Soft disabling can occur when an VSTO Add-in produces an error that does not cause the application to unexpectedly close. For example, an application might soft disable a VSTO Add-in if it throws an unhandled exception while the <xref:Microsoft.Office.Tools.AddIn.Startup> event handler is executing. When an VSTO Add-in is soft disabled, it appears in the **Inactive Application Add-ins** list in the application, and the application changes the value of the **LoadBehavior** registry entry for the VSTO Add-in to indicate that it is unloaded. For more information about the **LoadBehavior** registry entry, see [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).  
+ Soft disabling can occur when an VSTO Add-in produces an error that does not cause the application to unexpectedly close. For example, an application might soft disable an VSTO Add-in if it throws an unhandled exception while the <xref:Microsoft.Office.Tools.AddIn.Startup> event handler is executing. When an VSTO Add-in is soft disabled, it appears in the **Inactive Application Add-ins** list in the application, and the application changes the value of the **LoadBehavior** registry entry for the VSTO Add-in to indicate that it is unloaded. For more information about the **LoadBehavior** registry entry, see [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).  
   
 ## Troubleshoot installation errors by using the Event Viewer  
  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] writes messages to the Event Viewer in Windows for all exceptions that are thrown when you install or uninstall Office solutions. You can use these messages to resolve installation and deployment problems.  
@@ -97,7 +97,7 @@ ms.workload:
   
 ## See also  
  [Build Office solutions](../vsto/building-office-solutions.md)   
- [How to: Re-enable a VSTO Add-in that has been disabled](../vsto/how-to-re-enable-a-vsto-add-in-that-has-been-disabled.md)   
+ [How to: Re-enable an VSTO Add-in that has been disabled](../vsto/how-to-re-enable-a-vsto-add-in-that-has-been-disabled.md)   
  [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)  
   
   

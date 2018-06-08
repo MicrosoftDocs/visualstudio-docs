@@ -24,7 +24,7 @@ ms.workload:
   - "office"
 ---
 # How to: Add custom XML parts to documents by using VSTO Add-ins
-  You can store XML data in the following types of documents by creating a custom XML part in a VSTO Add-in:  
+  You can store XML data in the following types of documents by creating a custom XML part in an VSTO Add-in:  
   
 -   A Microsoft Office Excel workbook.  
   

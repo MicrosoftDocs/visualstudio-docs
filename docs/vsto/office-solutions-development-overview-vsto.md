@@ -71,7 +71,7 @@ ms.workload:
 -   [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)  
   
 ## Run Microsoft VSTO Office solutions on end-user computers  
- When you create a VSTO Office solution, consider how the deployment requirements might affect your development choices.  
+ When you create an VSTO Office solution, consider how the deployment requirements might affect your development choices.  
   
 ### Deployment options  
  Use ClickOnce or Windows Installer to deploy solutions that you create by using the Office development tools in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. ClickOnce deployment enables you to create self-updating solutions that can be installed and run with minimal user interaction. Windows Installer (*.msi*) files can be easily distributed to end-user computers, or distributed by using Systems Management Server (SMS). For more information about deploying VSTO Office solutions, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).  

@@ -1,5 +1,5 @@
 ---
-title: "Improve the performance of a VSTO Add-in"
+title: "Improve the performance of an VSTO Add-in"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Improve the performance of a VSTO add-in
+# Improve the performance of an VSTO add-in
   You can give your users a better experience by optimizing VSTO Add-ins that you create for Office applications so that they quickly start up, shut down, open items, and perform other tasks. If your VSTO Add-in is for Outlook, you can also reduce the chance that your VSTO Add-in will be disabled because of poor performance. You can increase the performance of your VSTO Add-in by implementing the following strategies:  
   
 -   [Load VSTO Add-ins on demand](#Load).  
@@ -28,7 +28,7 @@ ms.workload:
  For more information about how to optimize an Outlook VSTO Add-in, see [Performance criteria to keep VSTO Add-ins enabled](http://go.microsoft.com/fwlink/?LinkID=266503).  
   
 ##  <a name="Load"></a> Load VSTO Add-ins on demand  
- You can configure a VSTO Add-in to load only under the following circumstances:  
+ You can configure an VSTO Add-in to load only under the following circumstances:  
   
 -   The first time that the user starts the application after the VSTO Add-in is installed.  
   

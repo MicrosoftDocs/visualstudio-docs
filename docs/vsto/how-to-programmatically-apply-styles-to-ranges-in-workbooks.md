@@ -44,7 +44,7 @@ ms.workload:
      [!code-csharp[Trin_VstcoreExcelAutomation#55](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#55)]
      [!code-vb[Trin_VstcoreExcelAutomation#55](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#55)]  
   
-### To apply a style to a named range in a VSTO Add-in  
+### To apply a style to a named range in an VSTO Add-in  
   
 1.  Create a new style and set its attributes.  
   

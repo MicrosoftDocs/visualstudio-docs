@@ -34,7 +34,7 @@ ms.workload:
 |Word Content Controls Sample|Demonstrates how to bind Word content controls to database fields.|  
 |Outlook Form Region RSS Reader Sample|Demonstrates how to use Outlook form regions to display the full content of articles from an RSS feed.|  
 |Ribbon Controls Sample|This sample demonstrates how to create a custom tab that appears on the ribbon of an Excel worksheet. This custom ribbon demonstrates most of the controls available in the Office Ribbon Controls group of the Visual Studio Toolbox.|  
-|UI Manager Sample|Demonstrates how to create a ribbon customization, a custom task pane, and a custom form region for Outlook by implementing extensibility interfaces in a VSTO Add-in. Each instance of the ribbon, task pane, and form region can correctly communicate with each other.|  
+|UI Manager Sample|Demonstrates how to create a ribbon customization, a custom task pane, and a custom form region for Outlook by implementing extensibility interfaces in an VSTO Add-in. Each instance of the ribbon, task pane, and form region can correctly communicate with each other.|  
 |VBA and VSTO Interoperability Sample|Demonstrates how to call a method in a document-level customization for Excel from Visual Basic for Applications (VBA) code in the workbook.<br /><br /> This sample is only available online.|  
   
 ## See also  

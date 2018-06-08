@@ -32,7 +32,7 @@ ms.workload:
   
  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
-### To create a VSTO Add-in project  
+### To create an VSTO Add-in project  
   
 1.  On the **File** menu, choose **New**, **Project**. If your integrated development environment (IDE) is set to use [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] development settings, on the **File** menu, choose **New**, **Project**.  
   
@@ -45,7 +45,7 @@ ms.workload:
   
 3.  Choose the **Office Add-ins** node.  
   
-4.  In the list of project templates, select a VSTO Add-in project template. For a list of available VSTO Add-in project templates, see [Office Project Templates Overview](../vsto/office-project-templates-overview.md).  
+4.  In the list of project templates, select an VSTO Add-in project template. For a list of available VSTO Add-in project templates, see [Office Project Templates Overview](../vsto/office-project-templates-overview.md).  
   
     > [!NOTE]  
     >  If project templates are not visible when you select the **Office Add-ins** node, make sure that **.NET Framework 4** or later is selected in the combo box at the top of the dialog box. Office project templates are visible for both versions of the .NET Framework.  

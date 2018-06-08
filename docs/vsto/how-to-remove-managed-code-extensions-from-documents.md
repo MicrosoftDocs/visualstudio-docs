@@ -24,7 +24,7 @@ ms.workload:
   
  You can remove the customization assembly by using one of the RemoveCustomization methods provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]. Which method you use depends on whether you want to remove the customization at run time (that is, by running code in the customization while the Word document or Excel workbook is open), or if you want to remove the customization from a closed document or a document that is on a server that does not have Microsoft Office installed.  
   
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How Do I: Attach or Detach a VSTO Assembly from a Word Document?](http://go.microsoft.com/fwlink/?LinkId=136782).  
+ ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How Do I: Attach or Detach an VSTO Assembly from a Word Document?](http://go.microsoft.com/fwlink/?LinkId=136782).  
   
 ### To remove the customization assembly at runtime  
   

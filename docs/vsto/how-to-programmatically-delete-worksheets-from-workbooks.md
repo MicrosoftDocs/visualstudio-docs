@@ -45,7 +45,7 @@ ms.workload:
 ## Using the Sheets Collection of the Excel Workbook  
  Access worksheets through the Microsoft Office Excel <xref:Microsoft.Office.Interop.Excel.Sheets> collection in the following cases:  
   
--   You want to delete a worksheet in a VSTO Add-in.  
+-   You want to delete a worksheet in an VSTO Add-in.  
   
 -   The worksheet that you want to delete was created at run time in a document-level customization.  
   

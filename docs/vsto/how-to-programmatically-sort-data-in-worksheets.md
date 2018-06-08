@@ -42,7 +42,7 @@ ms.workload:
      [!code-csharp[Trin_VstcoreExcelAutomation#79](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#79)]
      [!code-vb[Trin_VstcoreExcelAutomation#79](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#79)]  
   
-## Sorting Data in a VSTO Add-in  
+## Sorting Data in an VSTO Add-in  
   
 #### To sort data in a native range  
   

@@ -51,7 +51,7 @@ ms.workload:
      [!code-csharp[Trin_VstcoreWordAutomation#96](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#96)]  
   
 ## VSTO Add-in Examples  
- The following code examples can be used in a VSTO Add-in. To use the examples, run them from the `ThisAddIn` class in your project. These examples assume that the active document already has at least one table.  
+ The following code examples can be used in an VSTO Add-in. To use the examples, run them from the `ThisAddIn` class in your project. These examples assume that the active document already has at least one table.  
   
 > [!IMPORTANT]  
 >  This code runs only in projects that you create by using Word VSTO Add-in templates.  

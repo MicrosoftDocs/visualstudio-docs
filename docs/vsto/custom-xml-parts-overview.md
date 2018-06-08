@@ -30,7 +30,7 @@ ms.workload:
 # Custom XML parts overview
   You can embed XML data in documents for some Microsoft Office applications. When you embed XML data in a document, the data is named a *custom XML part*.  
   
- You can create and modify custom XML parts in a document by using a VSTO Add-in or document-level solution in Visual Studio. You do not need to start the Microsoft Office application to create and modify custom XML parts.  
+ You can create and modify custom XML parts in a document by using an VSTO Add-in or document-level solution in Visual Studio. You do not need to start the Microsoft Office application to create and modify custom XML parts.  
   
  **Applies to:** The information in this topic applies to document-level projects and VSTO Add-in projects for Excel, PowerPoint, and Word. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).  
   

@@ -132,8 +132,8 @@ ms.workload:
      [!code-csharp[Trin_ContentControlReference#702](../vsto/codesnippet/CSharp/trin_wordcontentcontrolreference/RichText.cs#702)]
      [!code-vb[Trin_ContentControlReference#702](../vsto/codesnippet/VisualBasic/trin_contentcontrolreference/RichText.vb#702)]  
   
-##  <a name="runtimeaddin"></a> Add content controls at runtime in a VSTO Add-in project  
- You can add content controls programmatically to any open document at runtime by using a VSTO Add-in. To do this, generate a <xref:Microsoft.Office.Tools.Word.Document> host item that is based on an open document, and then use methods of the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of this host item. Each method has three overloads that you can use to add a content control in the following ways:  
+##  <a name="runtimeaddin"></a> Add content controls at runtime in an VSTO Add-in project  
+ You can add content controls programmatically to any open document at runtime by using an VSTO Add-in. To do this, generate a <xref:Microsoft.Office.Tools.Word.Document> host item that is based on an open document, and then use methods of the <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property of this host item. Each method has three overloads that you can use to add a content control in the following ways:  
   
 -   Add a control at the current selection.  
   

@@ -57,7 +57,7 @@ ms.workload:
   
 -   You can add an actions pane to a document-level customization. By default, the actions pane is displayed on the right side of the application, to the right of the document. However, the actions pane can also be displayed to the left, top, or bottom of the document.  
   
--   You can add a custom task pane to a VSTO Add-in. Users can dock custom task panes to different sides of the application window, or they can drag custom task panes to any location in the window.  
+-   You can add a custom task pane to an VSTO Add-in. Users can dock custom task panes to different sides of the application window, or they can drag custom task panes to any location in the window.  
   
  Actions panes and custom task panes provide functionality by hosting a variety of controls to help users with tasks such as data entry. Compared to a Ribbon group, actions panes and custom task panes provide a much larger area to include text and controls.  
   

@@ -24,7 +24,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]  
 
- You can create an actions pane only in a document-level customization for Word or Excel. You cannot create an actions pane in a VSTO Add-in. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).  
+ You can create an actions pane only in a document-level customization for Word or Excel. You cannot create an actions pane in an VSTO Add-in. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).  
 
 > [!NOTE]  
 >  The actions pane differs from custom task panes. Custom task panes are associated with the application, not a specific document. You can create custom task panes in VSTO Add-ins for some Microsoft Office applications. For more information, see [Custom task panes](../vsto/custom-task-panes.md).  

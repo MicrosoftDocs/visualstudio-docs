@@ -53,7 +53,7 @@ ms.workload:
  Demonstrates how to create a custom ribbon tab by using ribbon XML instead of using the Ribbon Designer.  
   
 ## Controls on Word documents  
- [Walkthrough: Add controls to a document at runtime in a VSTO Add-In](../vsto/walkthrough-adding-controls-to-a-document-at-run-time-in-a-vsto-add-in.md)  
+ [Walkthrough: Add controls to a document at runtime in an VSTO Add-In](../vsto/walkthrough-adding-controls-to-a-document-at-run-time-in-a-vsto-add-in.md)  
  Demonstrates how to add controls to a document by using an VSTO Add-in.  
   
  [Walkthrough: Change document formatting using CheckBox controls](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md)  

@@ -241,7 +241,7 @@ ms.workload:
   
 -   Call code in a host item in a Visual Basic customization from VBA. This process is different from the Visual C# process. For more information, see [Walkthrough: Calling Code from VBA in a Visual Basic Project](../vsto/walkthrough-calling-code-from-vba-in-a-visual-basic-project.md).  
   
--   Call code in a VSTO Add-in from VBA. For more information, see [Walkthrough: Calling Code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
+-   Call code in an VSTO Add-in from VBA. For more information, see [Walkthrough: Calling Code in an VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
   
 ## See Also  
  [Combining VBA and Document-Level Customizations](../vsto/combining-vba-and-document-level-customizations.md)   

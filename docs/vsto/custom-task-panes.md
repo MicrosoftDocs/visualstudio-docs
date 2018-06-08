@@ -41,7 +41,7 @@ ms.workload:
  Custom task panes let you integrate your features into a familiar user interface. You can create a custom task pane quickly by using Visual Studio tools.  
   
 ### Familiar user interface  
- Users of applications in the Microsoft Office system are already familiar with using task panes such as the **Styles and Formatting** task pane in Word. Custom task panes behave like other task panes in the Microsoft Office system. Users can dock custom task panes to different sides of the application window, or they can drag custom task panes to any location in the window. You can create a VSTO Add-in that displays multiple custom task panes at the same time, and users can control each task pane individually.  
+ Users of applications in the Microsoft Office system are already familiar with using task panes such as the **Styles and Formatting** task pane in Word. Custom task panes behave like other task panes in the Microsoft Office system. Users can dock custom task panes to different sides of the application window, or they can drag custom task panes to any location in the window. You can create an VSTO Add-in that displays multiple custom task panes at the same time, and users can control each task pane individually.  
   
 ### Windows forms support  
  The user interface of a custom task pane that you create by using the Office development tools in Visual Studio is based on Windows Forms controls. You can use the familiar Windows Forms Designer to design the user interface for a custom task pane. You can also use the data binding support in Windows Forms to bind a data source to controls on the task pane.  

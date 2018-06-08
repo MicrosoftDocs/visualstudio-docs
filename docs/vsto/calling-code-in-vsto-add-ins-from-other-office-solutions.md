@@ -22,7 +22,7 @@ ms.workload:
   - "office"
 ---
 # Call code in VSTO Add-ins from other Office solutions
-  You can expose an object in your VSTO Add-in to other solutions, including other Microsoft Office solutions. This is useful if your VSTO Add-in provides a service that you want to enable other solutions to use. For example, if you have a VSTO Add-in for Microsoft Office Excel that performs calculations on financial data from a Web service, other solutions can perform these calculations by calling into the Excel VSTO Add-in at runtime.  
+  You can expose an object in your VSTO Add-in to other solutions, including other Microsoft Office solutions. This is useful if your VSTO Add-in provides a service that you want to enable other solutions to use. For example, if you have an VSTO Add-in for Microsoft Office Excel that performs calculations on financial data from a Web service, other solutions can perform these calculations by calling into the Excel VSTO Add-in at runtime.  
   
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]  
   
@@ -33,7 +33,7 @@ ms.workload:
 -   In another solution, access the object exposed by your VSTO Add-in, and call members of the object.  
   
 ## Types of solutions that can call code in an add-in  
- You can expose an object in a VSTO Add-in to the following types of solutions:  
+ You can expose an object in an VSTO Add-in to the following types of solutions:  
   
 -   Visual Basic for Applications (VBA) code in a document that is loaded in the same application process as your VSTO Add-in.  
   
@@ -71,7 +71,7 @@ ms.workload:
   
     -   Set the **Register for COM interop** property in the project where you define the interface. This property is necessary only if you want to enable clients to use early binding to call into the VSTO Add-in.  
   
- The following code example demonstrates an `AddInUtilities` class with an `ImportData` method that can be called by other solutions. To see this code in the context of a larger walkthrough, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
+ The following code example demonstrates an `AddInUtilities` class with an `ImportData` method that can be called by other solutions. To see this code in the context of a larger walkthrough, see [Walkthrough: Call code in an VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
   
  [!code-csharp[Trin_AddInInteropWalkthrough #3](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/AddInUtilities.cs#3)]
  [!code-vb[Trin_AddInInteropWalkthrough#3](../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/AddInUtilities.vb#3)]  
@@ -89,7 +89,7 @@ ms.workload:
  For more information about using threads in Office solutions, see [Threading support in Office](../vsto/threading-support-in-office.md).  
   
 ### Override the RequestComAddInAutomationService method  
- The following code example demonstrates how to override <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> in the `ThisAddIn` class in your VSTO Add-in. The example assumes that you have defined a class named `AddInUtilities` that you want to expose to other solutions. To see this code in the context of a larger walkthrough, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
+ The following code example demonstrates how to override <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> in the `ThisAddIn` class in your VSTO Add-in. The example assumes that you have defined a class named `AddInUtilities` that you want to expose to other solutions. To see this code in the context of a larger walkthrough, see [Walkthrough: Call code in an VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
   
  [!code-csharp[Trin_AddInInteropWalkthrough#1](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/ThisAddIn.cs#1)]
  [!code-vb[Trin_AddInInteropWalkthrough#1](../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/ThisAddIn.vb#1)]  
@@ -108,7 +108,7 @@ ms.workload:
  The way that you use the return value of the <xref:Microsoft.Office.Core.COMAddIn.Object%2A> property is different for VBA clients and non-VBA clients. For out-of-process clients, additional code is necessary to avoid a possible race condition.  
   
 ### Access objects from VBA solutions  
- The following code example demonstrates how to use VBA to call a method that is exposed by a VSTO Add-in. This VBA macro calls a method named `ImportData` that is defined in a VSTO Add-in that is named **ExcelImportData**. To see this code in the context of a larger walkthrough, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
+ The following code example demonstrates how to use VBA to call a method that is exposed by an VSTO Add-in. This VBA macro calls a method named `ImportData` that is defined in an VSTO Add-in that is named **ExcelImportData**. To see this code in the context of a larger walkthrough, see [Walkthrough: Call code in an VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
   
 ```vb
 Sub CallVSTOMethod()  
@@ -141,7 +141,7 @@ utilities.ImportData();
   
 ## See also  
  [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md)   
- [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md)   
+ [Walkthrough: Call code in an VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md)   
  [Develop Office solutions](../vsto/developing-office-solutions.md)   
  [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md)   
  [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md)   

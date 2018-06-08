@@ -55,11 +55,11 @@ ms.workload:
  [Walkthrough: Creating Your First VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)  
  Demonstrates how to create a basic VSTO Add-in for Word.  
   
- [Walkthrough: Adding Controls to a Document at Run Time in a VSTO Add-In](../vsto/walkthrough-adding-controls-to-a-document-at-run-time-in-a-vsto-add-in.md)  
- Demonstrates how to add controls to a document by using a VSTO Add-in.  
+ [Walkthrough: Adding Controls to a Document at Run Time in an VSTO Add-In](../vsto/walkthrough-adding-controls-to-a-document-at-run-time-in-a-vsto-add-in.md)  
+ Demonstrates how to add controls to a document by using an VSTO Add-in.  
   
  [Walkthrough: Creating a Custom Tab by Using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)  
- Demonstrates how to create a custom ribbon tab by using an XML descriptor file in a VSTO Add-in.  
+ Demonstrates how to create a custom ribbon tab by using an XML descriptor file in an VSTO Add-in.  
   
 ## See Also  
  [Walkthroughs Using Excel](../vsto/walkthroughs-using-excel.md)   
