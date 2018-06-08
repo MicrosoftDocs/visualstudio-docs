@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Custom Tab by Using the Ribbon Designer | Microsoft Docs"
+title: "Walkthrough: Create a custom tab by using the Ribbon Designer"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -21,18 +21,18 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Creating a Custom Tab by Using the Ribbon Designer
+# Walkthrough: Create a custom tab by using the Ribbon Designer
   By using the Ribbon Designer, you can create a custom tab and then add and position controls on it.  
   
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]  
   
  This walkthrough illustrates the following tasks:  
   
--   [Creating Actions Panes](#BKMK_CreateActionsPanes).  
+-   [Create actions panes](#BKMK_CreateActionsPanes).  
   
--   [Creating a Custom Tab](#BKMK_CreateCustomTab).  
+-   [Create a custom tab](#BKMK_CreateCustomTab).  
   
--   [Hiding and Showing Actions Panes by Using Buttons on the Custom Tab](#BKMK_HideShowActionsPane).  
+-   [Hide and show actions panes by using buttons on the custom tab](#BKMK_HideShowActionsPane).  
   
 > [!NOTE]  
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
@@ -44,19 +44,19 @@ ms.workload:
   
 -   Microsoft Excel  
   
-## Creating an Excel Workbook Project  
+## Create an Excel workbook project  
  The steps for using the Ribbon Designer are almost identical for all Office applications. This example uses an Excel workbook.  
   
-#### To create an Excel workbook project  
+### To create an Excel workbook project  
   
 -   Create an Excel workbook project with the name **MyExcelRibbon**. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
      Visual Studio opens the new workbook in the designer and adds the **MyExcelRibbon** project to **Solution Explorer**.  
   
-##  <a name="BKMK_CreateActionsPanes"></a> Creating Actions Panes  
+##  <a name="BKMK_CreateActionsPanes"></a> Create actions panes  
  Add two custom actions panes to the project. You will later add buttons that show and hide these actions panes to the custom tab.  
   
-#### To create actions panes  
+### To create actions panes  
   
 1.  On the **Project** menu, choose **Add New Item**.  
   
@@ -70,10 +70,10 @@ ms.workload:
   
 5.  Repeat steps 1 through 5 to create a second actions pane and label. Set the **Text** property of the second label to **Actions Pane 2**.  
   
-##  <a name="BKMK_CreateCustomTab"></a> Creating a Custom Tab  
+##  <a name="BKMK_CreateCustomTab"></a> Create a custom tab  
  One of the Office application design guidelines is that users should always have control of the Office application UI. To add this capability for the actions panes, you can add buttons that show and hide each actions pane from a custom tab on the ribbon. To create a custom tab, add a **Ribbon (Visual Designer)** item to the project. The designer helps you add and position controls, set control properties, and handle control events.  
   
-#### To create a custom tab  
+### To create a custom tab  
   
 1.  On the **Project** menu, choose **Add New Item**.  
   
@@ -105,12 +105,12 @@ ms.workload:
   
 14. Set the **Label** property to **Hide Actions Pane**.  
   
-##  <a name="BKMK_HideShowActionsPane"></a> Hiding and Showing Actions Panes by Using Buttons on the Custom Tab  
+##  <a name="BKMK_HideShowActionsPane"></a> Hide and show actions panes by using buttons on the custom tab  
  The last step is to add code that responds to the user. Add event handlers for the <xref:Microsoft.Office.Tools.Ribbon.RibbonButton.Click> events of the two buttons and the <xref:Microsoft.Office.Tools.Ribbon.RibbonToggleButton.Click> event of the toggle button. Add code to these event handlers to enable hiding and showing the actions panes.  
   
-#### To hide and show actions panes by using buttons in the custom tab  
+### To hide and show actions panes by using buttons in the custom tab  
   
-1.  In **Solution Explorer**, open the shortcut menu for MyRibbon.cs or MyRibbon.vb, and then choose **View Code**.  
+1.  In **Solution Explorer**, open the shortcut menu for *MyRibbon.cs* or *MyRibbon.vb*, and then choose **View Code**.  
   
 2.  Add the following code to the top of the `MyRibbon` class. This code creates two actions pane objects.  
   
@@ -127,12 +127,12 @@ ms.workload:
      [!code-csharp[Trin_Ribbon_Custom_Tab#3](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab/MyRibbon.cs#3)]
      [!code-vb[Trin_Ribbon_Custom_Tab#3](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab/MyRibbon.vb#3)]  
   
-## Testing the Custom Tab  
+## Test the custom Tab  
  When you run the project, Excel starts, and the **My Custom Tab** tab appears on the ribbon. Choose the buttons on **My Custom Tab** to show and hide the actions panes.  
   
-#### To test the custom tab  
+### To test the custom tab  
   
-1.  Press F5 to run your project.  
+1.  Press **F5** to run your project.  
   
 2.  Choose the **My Custom Tab** tab.  
   
@@ -148,22 +148,22 @@ ms.workload:
   
      The actions panes are no longer visible.  
   
-## Next Steps  
+## Next steps  
  You can learn more about how to customize the Office UI from these topics:  
   
--   Add context-based UI to any document-level customization. For more information, see [Actions Pane Overview](../vsto/actions-pane-overview.md).  
+-   Add context-based UI to any document-level customization. For more information, see [Actions pane overview](../vsto/actions-pane-overview.md).  
   
--   Extend a standard or custom Microsoft Office Outlook form. For more information, see [Walkthrough: Designing an Outlook Form Region](../vsto/walkthrough-designing-an-outlook-form-region.md).  
+-   Extend a standard or custom Microsoft Office Outlook form. For more information, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).  
   
-## See Also  
- [Accessing the Ribbon at Run Time](../vsto/accessing-the-ribbon-at-run-time.md)   
- [Ribbon Overview](../vsto/ribbon-overview.md)   
+## See also  
+ [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)   
+ [Ribbon overview](../vsto/ribbon-overview.md)   
  [Ribbon Designer](../vsto/ribbon-designer.md)   
- [Customizing a Ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)   
- [How to: Get Started Customizing the Ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)   
- [How to: Change the Position of a Tab on the Ribbon](../vsto/how-to-change-the-position-of-a-tab-on-the-ribbon.md)   
- [How to: Customize a Built-in Tab](../vsto/how-to-customize-a-built-in-tab.md)   
- [How to: Add Controls to the Backstage View](../vsto/how-to-add-controls-to-the-backstage-view.md)   
- [Ribbon Object Model Overview](../vsto/ribbon-object-model-overview.md)  
+ [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md)   
+ [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)   
+ [How to: Change the position of a tab on the ribbon](../vsto/how-to-change-the-position-of-a-tab-on-the-ribbon.md)   
+ [How to: Customize a built-in tab](../vsto/how-to-customize-a-built-in-tab.md)   
+ [How to: Add controls to the backstage view](../vsto/how-to-add-controls-to-the-backstage-view.md)   
+ [Ribbon object model overview](../vsto/ribbon-object-model-overview.md)  
   
   
