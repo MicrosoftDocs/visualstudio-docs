@@ -11,7 +11,7 @@ manager: douge
 ms.workload: 
   - "aspnet"
 ---
-# Deploy ASP.NET to a remote IIS Computer using Web Deploy in Visual Studio
+# Deploy ASP.NET to a remote IIS computer using Web Deploy in Visual Studio
 
 This article explains how to set up and configure a Visual Studio 2017 ASP.NET MVC 4.5.2 application and deploy it to IIS. This article includes steps on setting up a basic configuration of IIS on Windows server and deploying the app from Visual Studio. These steps are included to make sure that the server has required components installed and that you are ready to deploy. If you are deploying an ASP.NET Core application, some steps are different. To deploy an ASP.NET Core app, see [Publish an application to IIS by importing publish settings](../deployment/tutorial-import-publish-settings-iis.md) for instructions. In some ASP.NET and ASP.NET Core scenarios, it is faster to deploy to IIS by importing publish settings.
 
@@ -34,7 +34,7 @@ These procedures have been tested on these server configurations:
 
 1. Choose **Build** > **Build Solution** to build the project.
 
-## <a name="bkmk_configureIIS"></a> Install and Configure IIS on Windows Server
+## <a name="bkmk_configureIIS"></a> Install and configure IIS on Windows Server
 
 [!INCLUDE [remote-debugger-install-iis-role](../debugger/includes/remote-debugger-install-iis-role.md)]
 
@@ -92,9 +92,9 @@ If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Us
 
 [!INCLUDE [deploy-app-web-deploy](../deployment/includes/deploy-app-web-deploy.md)]
 
-Also, you may need to read the section on [Troubleshooting ports](#bkmk_openports).
+Also, you may need to read the section on [Troubleshoot ports](#bkmk_openports).
 
-## <a name="bkmk_openports"></a> Troubleshooting: Open required ports on Windows Server
+## <a name="bkmk_openports"></a> Troubleshoot: Open required ports on Windows Server
 
 In most setups, required ports are opened by the installation of ASP.NET and Web Deploy. However, you may need to verify that ports are open.
 
