@@ -78,7 +78,7 @@ To collect tier interaction data with .NET memory data:
 
 **vsperfaspnetcmd /memory**[**:lifetime**] **/tip***websiteUrl*
 
-## <a name="UsingNoWait"></a> Using the /NoWait option
+## Use the /NoWait option
 
 By default, the command prompt does not return after a **vsperfaspnetcmd** command. You can use the following syntax option to force the command prompt to return. You can then perform other operations in the command prompt window. To end profiling, use the **/shutdown** option in a separate **vsperfaspnetcmd** command.
 
