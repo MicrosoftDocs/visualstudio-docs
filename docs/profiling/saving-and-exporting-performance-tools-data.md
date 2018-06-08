@@ -13,11 +13,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Saving and Exporting Performance Tools Data
-This topic describes how to save and export performance data files.  
+# Save and export performance tools data
+This article describes how to save and export performance data files.  
   
-##  <a name="BKMK_Save_Profiler_Data_Files_As_Analyzed_Report_Files"></a> How to: Save Performance Data Files As Analyzed Report Files  
- You can save filtered or unfiltered views of profiling data (.vsp) files as analyzed report (.vsps) files. An analyzed report file can be viewed in the Report view window and is significantly smaller than the original .vsp file. However, you cannot apply a filter to the data of a .vsps file. You can create an analyzed report file from the Performance Explorer without opening the file in the integrated development environment (IDE), or you can open and filter the .vsp file and then save the results.  
+## How to: Save performance data files as analyzed report files  
+ You can save filtered or unfiltered views of profiling data (.*vsp*) files as analyzed report (.*vsps*) files. An analyzed report file can be viewed in the Report view window and is significantly smaller than the original .*vsp* file. However, you cannot apply a filter to the data of a .*vsps* file. You can create an analyzed report file from the Performance Explorer without opening the file in the integrated development environment (IDE), or you can open and filter the .*vsp* file and then save the results.  
   
 #### To save an analyzed performance report from the Performance Explorer  
   
@@ -29,9 +29,9 @@ This topic describes how to save and export performance data files.
   
 #### To save an analyzed performance report from the Report view window  
   
-1.  Open the profiling data (.vsp) file in the Report view window.  
+1.  Open the profiling data (.*vsp*) file in the Report view window.  
   
-2.  (Optional) Apply a filter to the data. For more information, see [Performance Report View Filter](../profiling/performance-report-view-filter.md).  
+2.  (Optional) Apply a filter to the data. For more information, see [Performance Report View filter](../profiling/performance-report-view-filter.md).  
   
 3.  Click **Save Analyzed** on the Report view window toolbar.  
   
@@ -39,8 +39,8 @@ This topic describes how to save and export performance data files.
   
 5.  Click **Save.**  
   
-## How to: Export Profiling Tools Reports To An .Xml Or .Csv File  
- You can export one or more report views from a .vsp file or a .vsps profiling data file as either a comma delimited or an XML file. You can filter the data in the Report view window before you export, or you can export report views of the entire data file from the **Performance Explorer** window.  
+## How to: Export profiling tools reports to an .xml or .csv file  
+ You can export one or more report views from a .*vsp* file or a .*vsps* profiling data file as either a comma delimited or an XML file. You can filter the data in the Report view window before you export, or you can export report views of the entire data file from the **Performance Explorer** window.  
   
 > [!NOTE]
 >  You can also copy and paste selected rows from the Report view window as tab separated values.  
@@ -65,9 +65,9 @@ This topic describes how to save and export performance data files.
   
 #### To export performance reports from the Report view window  
   
-1.  Open the .vsp file in the Report view window.  
+1.  Open the .*vsp* file in the Report view window.  
   
-2.  (Optional) Apply a filter to the data. For more information, see [Performance Report View Filter](../profiling/performance-report-view-filter.md).  
+2.  (Optional) Apply a filter to the data. For more information, see [Performance Report View filter](../profiling/performance-report-view-filter.md).  
   
 3.  Click **Export Report** on the Report view window toolbar.  
   
@@ -83,8 +83,8 @@ This topic describes how to save and export performance data files.
   
      Each report view is saved to a separate file that is named \<prefix>_\<report view name>.\<csv&#124;xml>  
   
-## See Also  
+## See also  
  [Performance Explorer](../profiling/performance-explorer.md)   
- [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   
- [Comparing Performance Data Files](../profiling/comparing-performance-data-files.md)   
+ [Analyze performance tools data](../profiling/analyzing-performance-tools-data.md)   
+ [Compare performance data files](../profiling/comparing-performance-data-files.md)   
  [VSPerfReport](../profiling/vsperfreport.md)
