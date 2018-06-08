@@ -15,7 +15,7 @@ ms.workload:
   - "nodejs"
 ---
 
-# Develop code in JavaScript and TypeScript in Visual Studio without solutions or projects
+# Develop JavaScript and TypeScript code in Visual Studio without solutions or projects
 
 Visual Studio 2017 introduces the ability to [develop code without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md), 
 which enables you to open a folder of code and immediately start working with rich editor support such as IntelliSense, search, refactoring, debugging, and more.

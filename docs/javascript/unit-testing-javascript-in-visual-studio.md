@@ -27,14 +27,13 @@ The supported frameworks are:
 * Export Runner (this framework is specific to Node.js Tools for Visual Studio)
 
 > [!WARNING]
-> An issue in Tape currently prevents Tape tests from running.
-.> If [this PR](https://github.com/substack/tape/pull/361) is merged, the issue should be resolved.
+> An issue in Tape currently prevents Tape tests from running. If [PR #361](https://github.com/substack/tape/pull/361) is merged, the issue should be resolved.
 
 If your favorite framework is not supported, see [Add support for a unit test framework](#addingFramework) for information on adding support. 
 
 ## Write unit tests
 
-Before adding unit tests to your project, make sure the framework you plan to use is installed locally in your project. This is easy to do using the [npm package installationwindow](npm-package-management.md#npmInstallWindow).
+Before adding unit tests to your project, make sure the framework you plan to use is installed locally in your project. This is easy to do using the [npm package installation window](npm-package-management.md#npmInstallWindow).
 
 The preferred way to add unit tests to your project is by creating a *tests* folder in
 your project, and setting that as the test root in project properties. You also need
