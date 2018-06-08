@@ -57,12 +57,9 @@
     - name: MSBuild
       tocHref: /visualstudio/msbuild/
       topicHref: /visualstudio/msbuild/msbuild
-    - name: Nodejs
-      tocHref: /visualstudio/nodejs/
-      topicHref: /visualstudio/nodejs/tutorial-nodejs
-    - name: JavaScript
+    - name: Node.js
       tocHref: /visualstudio/javascript/
-      topicHref: /visualstudio/javascript/overview
+      topicHref: /visualstudio/javascript/tutorial-nodejs
     - name: Profiling
       tocHref: /visualstudio/profiling/
       topicHref: /visualstudio/profiling/index

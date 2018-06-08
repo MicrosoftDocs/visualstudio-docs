@@ -6,9 +6,9 @@
 - name: Tutorials
   items:
   - name: Create a Node.js app with Express
-    href: /visualstudio/nodejs/tutorial-nodejs?toc=/visualstudio/javascript/toc.json
+    href: tutorial-nodejs.md
   - name: Create a Node.js app with React
-    href: /visualstudio/nodejs/tutorial-nodejs-with-react-and-jsx?toc=/visualstudio/javascript/toc.json
+    href: tutorial-nodejs-with-react-and-jsx.md
 - name: How-to Guides
   items:
   - name: Manage npm packages
