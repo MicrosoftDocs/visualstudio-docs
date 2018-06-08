@@ -31,7 +31,7 @@ This article describes how to save and export performance data files.
   
 1.  Open the profiling data (.*vsp*) file in the Report view window.  
   
-2.  (Optional) Apply a filter to the data. For more information, see [Performance Report View filter](../profiling/performance-report-view-filter.md).  
+2.  (Optional) Apply a filter to the data. For more information, see [Performance report view filter](../profiling/performance-report-view-filter.md).  
   
 3.  Click **Save Analyzed** on the Report view window toolbar.  
   
@@ -67,7 +67,7 @@ This article describes how to save and export performance data files.
   
 1.  Open the .*vsp* file in the Report view window.  
   
-2.  (Optional) Apply a filter to the data. For more information, see [Performance Report View filter](../profiling/performance-report-view-filter.md).  
+2.  (Optional) Apply a filter to the data. For more information, see [Performance report view filter](../profiling/performance-report-view-filter.md).  
   
 3.  Click **Export Report** on the Report view window toolbar.  
   

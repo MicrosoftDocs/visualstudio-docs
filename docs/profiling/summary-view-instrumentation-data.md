@@ -13,8 +13,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Summary View - instrumentation data
-The Summary view displays information about the most performance-expensive functions in a profiling run. For more information, including a description of the Notification Links and Report lists, see [Summary View](../profiling/summary-view.md).  
+# Summary view - instrumentation data
+The Summary view displays information about the most performance-expensive functions in a profiling run. For more information, including a description of the Notification Links and Report lists, see [Summary view](../profiling/summary-view.md).  
   
 ## Timeline Graph  
  The timeline graph in the Summary view shows the processor (CPU) utilization by the profiled application over the time that the profiling occurred. You can use the timeline graph to filter the view to a selected time span. For more information, see [How to: Filter report views from the Summary Timeline](../profiling/how-to-filter-report-views-from-the-summary-timeline.md).  
@@ -41,5 +41,5 @@ The Summary view displays information about the most performance-expensive funct
 |**Exclusive Time %**|The percentage of all time in the profiling data that the function spent executing code in its function body. Time spent in functions that the function called is not included.|  
   
 ## See also  
- [Summary View - sampling data](../profiling/summary-view-sampling-data.md)   
- [Summary View - .NET memory data](../profiling/summary-view-dotnet-memory-data.md)
+ [Summary view - sampling data](../profiling/summary-view-sampling-data.md)   
+ [Summary view - .NET memory data](../profiling/summary-view-dotnet-memory-data.md)
