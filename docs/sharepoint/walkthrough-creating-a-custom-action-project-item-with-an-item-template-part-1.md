@@ -426,7 +426,7 @@ ms.workload:
   
 4.  On the **Site Actions** menu, choose **SharePoint Developer Center**, verify that the browser opens the website http://msdn.microsoft.com/sharepoint/default.aspx, and then close the web browser.  
   
-## Cleaning up the development computer
+## Clean up the development computer
  After you finish testing the project item, remove the project item template from the experimental instance of Visual Studio.  
   
 #### To clean up the development computer  

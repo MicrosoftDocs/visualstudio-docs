@@ -731,7 +731,7 @@ ms.workload:
   
 7.  Close the web browser.  
   
-## Cleaning up the development computer
+## Clean up the development computer
  After you finish testing the project, remove the project template from the experimental instance of Visual Studio.  
   
 #### To clean up the development computer  

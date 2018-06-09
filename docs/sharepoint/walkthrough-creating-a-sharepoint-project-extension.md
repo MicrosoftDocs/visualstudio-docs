@@ -111,7 +111,7 @@ ms.workload:
      [!code-vb[SPExt_ProjectExtension#1](../sharepoint/codesnippet/VisualBasic/projectextension/customproperty.vb#1)]
      [!code-csharp[SPExt_ProjectExtension#1](../sharepoint/codesnippet/CSharp/projectextension/customproperty.cs#1)]  
   
-## Building the solution
+## Build the solution
  Next, build the solution to make sure that it compiles without errors.  
   
 #### To build the solution  

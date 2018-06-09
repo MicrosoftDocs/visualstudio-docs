@@ -215,7 +215,7 @@ ms.workload:
      [!code-vb[SPExtensibility.ProjectItem.SiteColumn#8](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/projectsigningmanager.vb#8)]
      [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#8](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/projectsigningmanager.cs#8)]  
   
-## Create the wizard ui
+## Create the wizard UI
  Add XAML to define the UI of the wizard window and the two user controls that provide the UI for the wizard pages, and add code to define the behavior of the window and user controls. The wizard that you create resembles the built-in wizard for SharePoint projects in Visual Studio.  
   
 > [!NOTE]  
@@ -245,7 +245,7 @@ ms.workload:
      [!code-vb[SPExtensibility.ProjectItem.SiteColumn#4](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/wizardwindow.xaml.vb#4)]
      [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#4](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/wizardwindow.xaml.cs#4)]  
   
-#### To create the first wizard page ui
+#### To create the first wizard page UI
   
 1.  In the ProjectTemplateWizard project, open the shortcut menu for the Page1.xaml file, and then choose **Open** to open the user control in the designer.  
   
@@ -264,7 +264,7 @@ ms.workload:
      [!code-vb[SPExtensibility.ProjectItem.SiteColumn#2](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/page1.xaml.vb#2)]
      [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#2](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/page1.xaml.cs#2)]  
   
-#### To create the second wizard page ui
+#### To create the second wizard page UI
   
 1.  In the ProjectTemplateWizard project, open the shortcut menu for the Page2.xaml file, and then choose **Open**.  
   

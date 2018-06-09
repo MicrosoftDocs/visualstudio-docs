@@ -68,7 +68,7 @@ To create an application page, add an **Application Page** item to the project.
 
      The Visual Web Developer designer displays the application page in **Source** view where you can see the page's HTML elements. The designer displays the markup for several <xref:System.Web.UI.WebControls.Content> controls. Each control maps to a <xref:System.Web.UI.WebControls.ContentPlaceHolder> control that is defined in the default application master page.
 
-## Designing the layout of the application page
+## Design the layout of the application page
 
 The Application Page item enables you to use a designer to add ASP.NET controls to the application page. This designer is the same designer used in Visual Web Developer. Add a label, a radio button list, and a table to the **Source** view of the designer, and then set properties just as you would when you design any standard ASP.NET page.
 
@@ -94,7 +94,7 @@ The Application Page item enables you to use a designer to add ASP.NET controls 
     </asp:DropDownList>
     ```
 
-## Handling the events of controls on the page
+## Handle the events of controls on the page
 
 Handle controls in an application page just as you would any ASP.NET page. In this procedure, you will handle the `SelectedIndexChanged` event of the drop-down list.
 

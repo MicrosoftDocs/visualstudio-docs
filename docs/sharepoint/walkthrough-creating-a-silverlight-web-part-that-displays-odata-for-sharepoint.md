@@ -60,7 +60,7 @@ ms.workload:
   
      The solution contains two projects: a Silverlight application and a Silverlight web part. The Silverlight application retrieves and displays the list data from SharePoint, and the Silverlight web part hosts the Silverlight application, enabling you to view it in SharePoint.  
   
-## Customizing the Silverlight application
+## Customize the Silverlight application
  Add code and design elements to the Silverlight application.  
   
 #### To customize the Silverlight application
