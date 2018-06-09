@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio
+# Walkthrough: Import a SharePoint Designer reusable workflow into Visual Studio
   This walkthrough demonstrates how to import a reusable workflow created in SharePoint Designer 2010 into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint workflow project.  
   
  Workflows created in SharePoint Designer, or *declarative workflows*, consist of [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] statements instead of code. SharePoint Designer 2010 introduces *reusable workflows*, which are portable, declarative workflows that can be used by different lists in SharePoint sites.  
@@ -34,9 +34,9 @@ ms.workload:
   
 -   Creating a simple, reusable workflow in SharePoint Designer.  
   
--   Exporting the SharePoint Designer reusable workflow to a .wsp file and into SharePoint.  
+-   Exporting the SharePoint Designer reusable workflow to a *.wsp* file and into SharePoint.  
   
--   Importing the .wsp file into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using the Import Reusable Workflow project.  
+-   Importing the *.wsp* file into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using the Import Reusable Workflow project.  
   
 -   Altering the workflow by adding code.  
   
@@ -53,12 +53,12 @@ ms.workload:
   
 -   Microsoft [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] SharePoint Designer 2010.  
   
-## Create Target SharePoint Subsites  
+## Create target SharePoint subsites
  First you create two new SharePoint subsites: one to host the reusable workflows from SharePoint Designer, another to host the converted workflows.  
   
 #### To create SharePoint subsites  
   
-1.  In SharePoint Designer 2010, on the menu bar, choose **File**, **New Blank Web Site**.  
+1.  In SharePoint Designer 2010, on the menu bar, choose **File ** > **New Blank Web Site**.  
   
 2.  In the **New Blank Web Site** dialog box, browse to a SharePoint site where you want to create the workflow, or use the value of http://*SystemName*/ and then choose the **OK** button.  
   
@@ -74,10 +74,10 @@ ms.workload:
   
 6.  Repeat steps 3 - 5 to create the second subsite, this time replacing the word **subsite** in the [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)] with **SPD2**.  
   
-## Create a SharePoint Designer Reusable Workflow  
+## Create a SharePoint Designer reusable workflow
  Because SharePoint does not include any reusable workflows that you can use for this example, you will create one. In this simple workflow, when a user enters a new task in the Task list that has a specific title, the task is assigned to that user.  
   
-#### To create a SharePoint Designer reusable workflow  
+#### To create a SharePoint Designer reusable workflow
   
 1.  In the **Subsites** section, choose the **SPD1** site to modify it.  
   
@@ -119,8 +119,8 @@ ms.workload:
   
      The action statement now reads **Set Assigned To to Current Item:CreatedBy**.  
   
-## Save and Deploy the Reusable Workflow  
- Because [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] can import only .wsp files, you must save the reusable workflow as a .wsp file and deploy it to SharePoint before importing it into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
+## Save and deploy the reusable workflow
+ Because [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] can import only *.wsp* files, you must save the reusable workflow as a *.wsp* file and deploy it to SharePoint before importing it into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
 > [!IMPORTANT]  
 >  If you receive a runtime error performing the following procedure, you have to perform the procedure on a system that has access to the SharePoint site.  
@@ -133,9 +133,9 @@ ms.workload:
   
 3.  Under **Reusable Workflow**, choose **SPD Task Workflow**.  
   
-4.  On the ribbon, choose the **Save as Template** button to save the workflow as a .wsp file.  
+4.  On the ribbon, choose the **Save as Template** button to save the workflow as a *.wsp* file.  
   
-5.  Open the **SPD1** SharePoint site in a browser to view the .wsp file in SharePoint.  
+5.  Open the **SPD1** SharePoint site in a browser to view the *.wsp* file in SharePoint.  
   
 6.  On the QuickLaunch bar, choose the **Libraries** link.  
   
@@ -145,14 +145,14 @@ ms.workload:
   
 8.  In the list of files, choose the name of that file  
   
-9. In the **File Download** dialog box, choose the **Save** button to save the .wsp file on your local system.  
+9. In the **File Download** dialog box, choose the **Save** button to save the *.wsp* file on your local system.  
   
-## Import the .wsp File into Visual Studio  
- Import the .wsp file into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using an Import Reusable Workflow project. This project converts the workflow from a reusable, declarative workflow into a code workflow. After the workflow is converted, you will use code to modify its behavior.  
+## Import the .wsp file into Visual Studio
+ Import the *.wsp* file into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using an Import Reusable Workflow project. This project converts the workflow from a reusable, declarative workflow into a code workflow. After the workflow is converted, you will use code to modify its behavior.  
   
 #### To import a workflow from a .wsp file and modify it  
   
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **File**, **New**, **Project**.  
+1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **File ** > **New ** > **Project**.  
   
 2.  In the **New Project** dialog box, expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
@@ -166,22 +166,22 @@ ms.workload:
   
      For more information about sandboxed versus farm solutions, see [Sandboxed Solution Considerations](../sharepoint/sandboxed-solution-considerations.md).  
   
-6.  In the **Specify the new project source** page, browse to the location on the system where you previously saved the .wsp file, open the file, and then choose the **Next** button.  
+6.  In the **Specify the new project source** page, browse to the location on the system where you previously saved the *.wsp* file, open the file, and then choose the **Next** button.  
   
     > [!NOTE]  
-    >  Choose the **Finish** button to import all available items in the .wsp file.  
+    >  Choose the **Finish** button to import all available items in the *.wsp* file.  
   
      This displays a list of reusable workflows available for importing.  
   
 7.  In the **Select items to import** box, choose the **SPD Task Workflow** workflow, and then choose the **Finish** button.  
   
-     After the import operation is finished, a project named **WorkflowImportProject1** is created containing a workflow named **SPD_Workflow_TestFT**. In this folder is the workflow's definition file Elements.xml and the workflow designer file (.xoml). The designer contains two files: the rules file (.rules) and the code-behind file (either .cs or .vb, depending on your project's programming language).  
+     After the import operation is finished, a project named **WorkflowImportProject1** is created containing a workflow named **SPD_Workflow_TestFT**. In this folder is the workflow's definition file *Elements.xml* and the workflow designer file (*.xoml*). The designer contains two files: the rules file (.rules) and the code-behind file (either *.cs* or *.vb*, depending on your project's programming language).  
   
 8.  In **Solution Explorer**, delete the **Other Imported Files** folder.  
   
-9. In the Elements.xml file, delete `InstantiationURL="_layouts/IniErkflIP.sspx"`.  
+9. In the *Elements.xml* file, delete `InstantiationURL="_layouts/IniErkflIP.sspx"`.  
   
-10. In **Solution Explorer**, choose **WorkflowImportProject1**, and then, on the menu bar, choose **Project**, **Set as Startup Project** to set **WorkflowImportProject1** as the Startup Item.  
+10. In **Solution Explorer**, choose **WorkflowImportProject1**, and then, on the menu bar, choose **Project ** > **Set as Startup Project** to set **WorkflowImportProject1** as the Startup Item.  
   
      This displays the list immediately when you debug the project.  
   
@@ -193,7 +193,7 @@ ms.workload:
   
     3.  Fill in the missing values in the SharePoint Customization Wizard, and then choose the **Finish** button.  
   
-12. Choose the .xoml file, and then, on the menu bar, choose **View**, **Designer** to view the imported workflow in the workflow designer.  
+12. Choose the .xoml file, and then, on the menu bar, choose **View ** > **Designer** to view the imported workflow in the workflow designer.  
   
 13. In the **Windows Workflow v3.0** node of the **Toolbox**, perform one of the following steps:  
   
@@ -219,12 +219,12 @@ ms.workload:
      [!code-csharp[SP_SPDWFImport#2](../sharepoint/codesnippet/CSharp/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.cs#2)]
      [!code-vb[SP_SPDWFImport#2](../sharepoint/codesnippet/VisualBasic/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.vb#2)]  
   
-## Deploy the Project and Associate the Workflow  
+## Deploy the project and associate the workflow
  Next, run WorkflowImportProject1 to deploy it to a SharePoint site and then associate the workflow with the Tasks list to view and test the modified, converted workflow.  
   
 #### To deploy the project and associate the workflow  
   
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], choose the F5 key to run and deploy the converted workflow project.  
+1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], choose the **F5** key to run and deploy the converted workflow project.  
   
 2.  On the QuickLaunch bar, choose the **Tasks** link to display the Tasks list.  
   
@@ -259,9 +259,8 @@ ms.workload:
   
      Notice that two actions are performed by the workflow: your name appears in the task's **Assigned To** column, and an announcement appears in the **Announcements** list.  
   
-## See Also  
+## See also
  [Importing Items from an Existing SharePoint Site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
  [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)   
  [Creating Reusable Controls for Web Parts or Application Pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)  
-  
   

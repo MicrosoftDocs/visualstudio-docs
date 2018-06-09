@@ -25,7 +25,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Create a Site Column, Content Type, and List for SharePoint
+# Walkthrough: Create a site column, content type, and list for SharePoint
   The following procedures demonstrate how to create custom SharePoint site columns—or *fields*—as well as a content type that uses the site columns. It also shows how to create a list that uses the new content type.  
   
  This walkthrough includes the following tasks:  
@@ -49,12 +49,12 @@ ms.workload:
   
 -   Visual Studio.  
   
-##  <a name="BKMK_CreatingCustSiteCols"></a> Creating Custom Site Columns  
+## Create custom site columns
  This example creates a list for managing patients in a hospital. First, you must create a SharePoint project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and add site columns to it, as follows.  
   
 #### To create the project  
   
-1.  On the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]**File** menu, choose **New**, **Project**.  
+1.  On the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]**File** menu, choose **New ** > **Project**.  
   
 2.  In the **New Project** dialog box, under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose **2010**.  
   
@@ -72,11 +72,11 @@ ms.workload:
   
 #### To add site columns  
   
-1.  Add a new site column. To do this, in **Solution Explorer**, open the shortcut menu for **Clinic**, and then choose **Add**, **New Item**.  
+1.  Add a new site column. To do this, in **Solution Explorer**, open the shortcut menu for **Clinic**, and then choose **Add ** > **New Item**.  
   
 2.  In the **Add New Item** dialog box, choose **Site Column**, change the name to **Patient Name**, and then choose the **Add** button.  
   
-3.  In the site column's Elements.xml file, leave the **Type** setting as **Text**, and change the **Group** setting to **Clinic Site Columns**. When complete, the site column's Elements.xml file should look like the following example.  
+3.  In the site column's *Elements.xml* file, leave the **Type** setting as **Text**, and change the **Group** setting to **Clinic Site Columns**. When complete, the site column's *Elements.xml* file should look like the following example.  
   
     ```xml  
     <Field  
@@ -91,14 +91,14 @@ ms.workload:
   
 4.  Using the same procedure, add two more site columns to the project: **Patient ID** (Type = "Integer") and **Doctor Name** (Type = "Text"). Set their Group value to **Clinic Site Columns**.  
   
-##  <a name="BKMK_CreateCustContType"></a> Creating a Custom Content Type  
+## Create a custom content type
  Next, create a content type—based on the Contacts content type—that includes the site columns that you created in the previous procedure. By basing a content type on an existing content type, you can save time because the base content type provides several site columns for use in the new content type.  
   
 #### To create a custom content type  
   
 1.  Add a content type to the project. To do this, in **Solution Explorer**, choose the project node  
   
-2.  On the menu bar, choose **Project**, **Add New Item**.  
+2.  On the menu bar, choose **Project ** > **Add New Item**.  
   
 3.  Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -123,16 +123,16 @@ ms.workload:
   
 10. Change **Group Name** to **Clinic Content Types**, and leave the other settings at their default values.  
   
-11. On the menu bar, choose **File**, **Save All**, and then close the Content Type designer.  
+11. On the menu bar, choose **File ** > **Save All**, and then close the Content Type designer.  
   
-##  <a name="BKMK_CreateList"></a> Creating a List  
+## Create a list
  Now, create a list that uses the new content type and site columns.  
   
 #### To create a list  
   
 1.  Add a list to the project. To do this, in **Solution Explorer**, choose the project node.  
   
-2.  On the menu bar, choose **Project**, **Add New Item**.  
+2.  On the menu bar, choose **Project ** > **Add New Item**.  
   
 3.  Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -199,14 +199,14 @@ ms.workload:
   
 15. In the **Column Name** list, choose **Patient Name**, make sure that the **Sorting** column is set to **Ascending**, and then choose the **OK** button.  
   
-##  <a name="BKMK_TestApp"></a> Testing the Application  
+## Test the application
  Now that the custom site columns, content type, and list are ready, deploy them to SharePoint, and run the application to test it.  
   
 #### To test the application  
   
-1.  On the menu bar, choose **File**, **Save All**.  
+1.  On the menu bar, choose **File ** > **Save All**.  
   
-2.  Choose the F5 key to run the application.  
+2.  Choose the **F5** key to run the application.  
   
      The application is compiled, and then its features are deployed to SharePoint and activated.  
   
@@ -220,11 +220,10 @@ ms.workload:
   
      The new record appears in the list.  
   
-## See Also  
+## See also
  [Creating Site Columns, Content Types, and Lists for SharePoint](../sharepoint/creating-site-columns-content-types-and-lists-for-sharepoint.md)   
  [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)   
  [How to: Create a Custom Field Type](http://go.microsoft.com/fwlink/?LinkId=192079)   
  [Content Types](http://go.microsoft.com/fwlink/?LinkId=192080)   
  [Columns](http://go.microsoft.com/fwlink/?LinkId=192081)  
-  
   

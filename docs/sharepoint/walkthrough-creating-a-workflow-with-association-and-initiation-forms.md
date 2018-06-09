@@ -23,7 +23,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Creating a Workflow with Association and Initiation Forms
+# Walkthrough: Create a workflow with association and initiation forms
   This walkthrough demonstrates how to create a basic sequential workflow that incorporates the use of association and initiation forms. These are ASPX forms that enable parameters to be added to a workflow when it is first associated by the SharePoint administrator (the association form), and when the workflow is started by the user (the initiation form).  
   
  This walkthrough outlines a scenario where a user wants to create an approval workflow for expense reports that has the following requirements:  
@@ -60,12 +60,12 @@ ms.workload:
   
 -   Visual Studio.  
   
-## Creating a SharePoint Sequential Workflow Project  
+## Create a SharePoint sequential workflow project
  First, create a sequential workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. A sequential workflow is a series of steps that executes in order until the last activity finishes. In this procedure, you will create a sequential workflow that applies to the Shared Documents list in SharePoint. The workflow's wizard lets you associate the workflow with either the site or the list definition and lets you determine when the workflow will start.  
   
 #### To create a SharePoint sequential workflow project  
   
-1.  On the menu bar, choose **File**, **New**, **Project** to display the **New Project** dialog box.  
+1.  On the menu bar, choose **File ** > **New ** > **Project** to display the **New Project** dialog box.  
   
 2.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
@@ -81,7 +81,7 @@ ms.workload:
   
 6.  In **Solution Explorer**, choose the project node.  
   
-7.  On the menu bar, choose **Project**, **Add New Item**.  
+7.  On the menu bar, choose **Project ** > **Add New Item**.  
   
 8.  Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -97,14 +97,14 @@ ms.workload:
   
 12. Choose the **Finish** button.  
   
-## Adding an Association Form to the Workflow  
+## Add an association form to the workflow
  Next, create an .ASPX association form that appears when the SharePoint administrator first associates the workflow with an expense report document.  
   
 #### To add an association form to the workflow  
   
 1.  Choose the **Workflow1** node in **Solution Explorer**.  
   
-2.  On the menu bar, choose **Project**, **Add New Item** to display the **Add New Item** dialog box.  
+2.  On the menu bar, choose **Project ** > **Add New Item** to display the **Add New Item** dialog box.  
   
 3.  In the dialog box tree view, expand either **Visual C#** or **Visual Basic** (depending on your project language), expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -114,7 +114,7 @@ ms.workload:
   
 6.  Choose the **Add** button to add the form to the project.  
   
-## Designing and Coding the Association Form  
+## Designing and coding the association form
  In this procedure, you introduce functionality to the association form by adding controls and code to it.  
   
 #### To design and code the association form  
@@ -158,14 +158,14 @@ ms.workload:
     }  
     ```  
   
-## Adding an Initiation Form to the Workflow  
+## Add an initiation form to the workflow
  Next, create the initiation form that appears when users run the workflow against their expense reports.  
   
 #### To create an initiation form  
   
 1.  Choose the **Workflow1** node in **Solution Explorer**.  
   
-2.  On the menu bar, choose **Project**, **Add New Item** display the **Add New Item** dialog box.  
+2.  On the menu bar, choose **Project ** > **Add New Item** display the **Add New Item** dialog box.  
   
 3.  In the dialog box tree view, expand either **Visual C#** or **Visual Basic**  (depending on your project language), expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -175,7 +175,7 @@ ms.workload:
   
 6.  Choose the **Add** button to add the form to the project.  
   
-## Designing and Coding the Initiation Form  
+## Designing and coding the initiation form
  Next, introduce functionality to the initiation form by adding controls and code to it.  
   
 #### To code the initiation form  
@@ -245,7 +245,7 @@ ms.workload:
     }  
     ```  
   
-## Customizing the Workflow  
+## Cutomize the workflow
  Next, customize the workflow. Later, you will associate two forms to the workflow.  
   
 #### To customize the workflow  
@@ -290,7 +290,7 @@ ms.workload:
   
     -   Drag the **LogToHistoryListActivity** activity from the **Toolbox**, and drop it onto the other **Drop Activities Here** area within **IfElseActivity1**.  
   
-## Adding Code to the Workflow  
+## Add code to the workflow
  Next, add code to the workflow to give it functionality.  
   
 #### To add code to the workflow  
@@ -381,11 +381,11 @@ ms.workload:
     }   
     ```  
   
-9. Choose the F5 key to debug the program.  
+9. Choose the **F5** key to debug the program.  
   
      This compiles the application, packages it, deploys it, activates its features, recycles the [!INCLUDE[TLA2#tla_iis5](../sharepoint/includes/tla2sharptla-iis5-md.md)] application pool, and then starts the browser at the location specified in the **Site Url** property.  
   
-## Associating the Workflow to the Documents List  
+## Associating the workflow to the documents list
  Next, display the workflow association form by associating the workflow with the **SharedDocuments** list on the SharePoint site.  
   
 #### To associate the workflow  
@@ -404,7 +404,7 @@ ms.workload:
   
 6.  In the **Auto Approval Limit** text box, enter **1200** and then choose the **Associate Workflow** button.  
   
-## Starting the Workflow  
+## Start the workflow
  Next, associate the workflow to one of the documents in the **Shared Documents** list to display the workflow initiation form.  
   
 #### To start the workflow  
@@ -439,13 +439,12 @@ ms.workload:
   
      When this occurs, an entry in the history list is created instead of a task. The entry displays in the **Workflow History** section of the workflow status page. Note the message in the **Outcome** column of the history event. It contains the text entered in the `logToHistoryListActivity1.MethodInvoking` event that includes the amount which was auto-approved.  
   
-## Next Steps  
+## Next steps
  You can learn more about how to create workflow templates from these topics:  
   
 -   To learn more about SharePoint workflows, see [Workflows in Windows SharePoint Services](http://go.microsoft.com/fwlink/?LinkID=166275).  
   
-## See Also  
+## See also
  [Creating SharePoint Workflow Solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)   
  [Walkthrough: Add an Application Page to a Workflow](../sharepoint/walkthrough-add-an-application-page-to-a-workflow.md)  
-  
   

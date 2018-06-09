@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Deploying a Project Task List Definition
+# Walkthrough: Deploy a project task list definition
 
 This walkthrough shows you how to use [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)] to create, customize, debug, and deploy a SharePoint list to track project tasks.
 
@@ -30,7 +30,7 @@ This walkthrough shows you how to use [!INCLUDE[vs_dev11_long](../sharepoint/inc
 
 - Visual Studio 2017 or an edition of Visual Studio Application Lifecycle Management (ALM).
 
-## <a name="CreatingListDef"></a> Creating a SharePoint List
+## Create a SharePoint list
 
 Create a SharePoint list project and associate the list definition with tasks.
 
@@ -42,7 +42,7 @@ Create a SharePoint list project and associate the list definition with tasks.
 
 3. Specify the local SharePoint site that you use for debugging, choose the **Deploy as a farm solution** option button, and then choose the **Finish** button.
 
-4. Open the shortcut menu for the project, and then choose **Add**, **New Item**.
+4. Open the shortcut menu for the project, and then choose **Add ** > **New Item**.
 
 5. In the **Templates** pane, choose the **List** template, and then choose the **Add** button.
 
@@ -54,7 +54,7 @@ Create a SharePoint list project and associate the list definition with tasks.
 
      The list, feature, and package appear in **Solution Explorer**.
 
-## <a name="AddEventRcvr"></a> Adding an Event Receiver
+## Add an event receiver
 
 In the task list, you can add an event receiver that automatically sets the due date and description of the task. The following procedure adds a simple event handler to the list instance as an event receiver.
 
@@ -77,7 +77,7 @@ In the task list, you can add an event receiver that automatically sets the due 
      [!code-vb[SPProjectTaskList#1](../sharepoint/codesnippet/VisualBasic/projecttasklist1/projecttasklisteventreceiver/projecttasklisteventreceiver.vb#1)]
      [!code-csharp[SPProjectTaskList#1](../sharepoint/codesnippet/CSharp/projecttasklist/projecttasklisteventreceiver/projecttasklisteventreceiver.cs#1)]
 
-## <a name="CustomizeFeature"></a> Customizing the Project Task List Feature
+## Customize the project task list feature
 
 When you create a SharePoint solution, Visual Studio automatically creates features for the default project items. You can customize the project task list settings for the SharePoint site by using the Feature Designer.
 
@@ -91,7 +91,7 @@ When you create a SharePoint solution, Visual Studio automatically creates featu
 
 5. In the **Properties** window, enter **1.0.0.0** as the value for the **Version** property.
 
-## <a name="CustomizePackage"></a> Customizing the Project Task List Package
+## Customize the project task list package
 
 When you create a SharePoint project, Visual Studio automatically adds the features that contain the default project items to the package. You can customize the project task list settings for the SharePoint site by using the Package Designer.
 
@@ -101,11 +101,11 @@ When you create a SharePoint project, Visual Studio automatically adds the featu
 
 3. Select the **Reset Web Server** check box.
 
-## <a name="BuildTest"></a> Building and Testing the Project Task List
+## Build and test the project task list
 
 When you run the project, the SharePoint site opens. However, you must manually navigate to the location of the task list.
 
-1. Choose the F5 key to build and deploy your project task list.
+1. Choose the **F5** key to build and deploy your project task list.
 
      The SharePoint site opens.
 
@@ -129,19 +129,19 @@ When you run the project, the SharePoint site opens. However, you must manually 
 
      The detailed view of the task appears, and the description shows "This is a critical task."
 
-## <a name="Deploy"></a> Deploying the Project Task List
+## Deploy the project task list
 
 After you build and test the project task list, you can deploy it to the *local system* or a *remote system*. The local system is the same computer on which you developed the solution, whereas a remote system is a different computer.
 
 ### To deploy the project task list to the local system
 
-On the Visual Studio menu bar, choose **Build**, **Deploy Solution**.
+On the Visual Studio menu bar, choose **Build ** > **Deploy Solution**.
 
-Visual Studio recycles the IIS application pool, retracts any existing versions of the solution, copies the solution package (.wsp) file to SharePoint, and then activates its features. You can now use the solution in SharePoint. For more information about deployment configuration steps, see [How to: Edit a SharePoint Deployment Configuration](../sharepoint/how-to-edit-a-sharepoint-deployment-configuration.md).
+Visual Studio recycles the IIS application pool, retracts any existing versions of the solution, copies the solution package (*.wsp*) file to SharePoint, and then activates its features. You can now use the solution in SharePoint. For more information about deployment configuration steps, see [How to: Edit a SharePoint Deployment Configuration](../sharepoint/how-to-edit-a-sharepoint-deployment-configuration.md).
 
 ### To deploy the project task list to a remote system
 
-1. On the Visual Studio menu bar, choose **Build**, **Publish**.
+1. On the Visual Studio menu bar, choose **Build ** > **Publish**.
 
 2. In the **Publish** dialog box, choose the **Publish to File System** option button.
 
@@ -149,9 +149,9 @@ Visual Studio recycles the IIS application pool, retracts any existing versions 
 
 3. Choose the **Publish** button.
 
-     A .wsp file is created for the solution.
+     A *.wsp* file is created for the solution.
 
-4. Copy the .wsp file to the remote SharePoint system.
+4. Copy the *.wsp* file to the remote SharePoint system.
 
 5. Use the PowerShell `Add-SPUserSolution` command to install the package on the remote SharePoint installation. (For farm solutions, use the `Add-SPSolution` command.)
 
@@ -163,7 +163,7 @@ Visual Studio recycles the IIS application pool, retracts any existing versions 
 
      For more information about remote deployment, see [Using Solutions](http://go.microsoft.com/fwlink/?LinkId=217680) and [Adding and Deploying Solutions with PowerShell in SharePoint 2010](http://go.microsoft.com/fwlink/?LinkId=217682).
 
-## Next Steps
+## Next steps
 
 You can learn more about how to customize and deploy SharePoint solutions from the following topics:
 
@@ -173,6 +173,5 @@ You can learn more about how to customize and deploy SharePoint solutions from t
 
 - [Windows PowerShell for SharePoint Server 2010](http://go.microsoft.com/fwlink/?LinkId=217684)
 
-## See Also
-
+## See also
 [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
