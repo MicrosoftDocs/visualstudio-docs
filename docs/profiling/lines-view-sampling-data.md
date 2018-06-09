@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Lines View - Sampling Data
+# Lines View - sampling data
 The Lines view of sampling data lists performance data for the statements that were executing when the samples were collected in the profiling run.  
   
 > [!NOTE]
@@ -55,5 +55,5 @@ The Lines view of sampling data lists performance data for the statements that w
 |**Exclusive Samples**|The total number of samples that were collected when the function line was executing.|  
 |**Exclusive Samples %**|The percentage of all samples in the profiling run that were collected when the function line was executing.|  
   
-## See Also  
- [Lines View - Sampling](../profiling/lines-view-dotnet-memory-sampling-data.md)
+## See also  
+ [Lines View - sampling](../profiling/lines-view-dotnet-memory-sampling-data.md)

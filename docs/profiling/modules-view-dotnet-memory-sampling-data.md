@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# Modules View - .NET Memory Sampling Data
+# Modules View - .NET memory sampling data
 The Modules view of .NET memory allocation data that is collected by using the sampling method groups the memory data by the modules that were executed in the profiling run. Each module is the root of a hierarchical tree. The functions of the module are listed underneath the module node.  
   
  The source file line numbers of statements that allocate memory are listed underneath the function node, and the addresses of the instructions that do the allocation are listed underneath the line node. Inclusive and exclusive values are always the same for line data and instruction data.  
@@ -36,8 +36,8 @@ The Modules view of .NET memory allocation data that is collected by using the s
 |**Exclusive Bytes**|-   For a function, the total number of bytes that were allocated by the function. The number does not include bytes that were allocated in functions that were called by this function.<br />-   For a module, the sum of the exclusive bytes that were allocated by the functions in the module.<br />-   For a line or instruction, the total number of objects that were allocated by this line or instruction.|  
 |**Exclusive Bytes %**|The percentage of all bytes that were allocated in the profiling run that were exclusive bytes of the module, function, line, or instruction.|  
   
-## See Also  
- [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
- [Modules View - Instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)   
+## See also  
+ [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)   
+ [Modules View - instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)   
  [Modules View](../profiling/modules-view-sampling-data.md)   
  [Modules View](../profiling/modules-view-instrumentation-data.md)

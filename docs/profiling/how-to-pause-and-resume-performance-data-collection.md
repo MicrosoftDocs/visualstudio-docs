@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Pause and Resume Performance Data Collection
+# How to: Pause and resume performance data collection
 From the profiling session page window, you can control the collection of profiling data interactively.  
   
  Controlling data collection enables you to reduce the size of the profile data file, and to collect data only for those operations that you are interested in. You can pause and resume profiling multiple times in a performance session.  
@@ -33,6 +33,6 @@ From the profiling session page window, you can control the collection of profil
   
     -   Choose **Stop profiling** to end the profiling session and generate reports.  
   
-## See Also  
- [Controlling Data Collection](../profiling/controlling-data-collection.md)   
- [How to: Start and End Performance Data Collection](../profiling/how-to-start-and-end-performance-data-collection.md)
+## See also  
+ [Control data collection](../profiling/controlling-data-collection.md)   
+ [How to: Start and end performance data collection](../profiling/how-to-start-and-end-performance-data-collection.md)

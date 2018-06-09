@@ -53,6 +53,6 @@ To display symbol information such as function names and line numbers, the VSPer
   
  **set  _NT_SYMBOL_PATH=srv\*C:\symbols\*http://msdl.microsoft.com/downloads/symbols**  
   
- The following VSPerfReport command line adds the C:\Projects\Symbols directory to the search path by using the **/SymbolPath** option.  
+ The following VSPerfReport command line adds the *C:\Projects\Symbols* directory to the search path by using the **/SymbolPath** option.  
   
  **VSPerfReport**  *MyApp* **.exe /SymbolPath:C:\Projects\Symbols /summary:all**

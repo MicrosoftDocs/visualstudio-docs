@@ -14,7 +14,7 @@ ms.workload:
 
 In this 5-10 minute quickstart, we'll customize the Visual Studio color theme and two text colors in the **Text Editor**.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
 ## Set the color theme
 

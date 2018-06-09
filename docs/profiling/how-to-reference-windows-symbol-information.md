@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Reference Windows Symbol Information
+# How to: Reference Windows symbol information
 The Visual Studio Profiling Tools use symbol (.*pdb*) files to resolve symbolic names such as function names in program binaries. You can follow these steps to automatically download and update the correct .*pdb* files for the version of Windows on the local computer.  
   
 > [!NOTE]

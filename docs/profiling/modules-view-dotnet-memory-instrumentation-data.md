@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# Modules View - .NET Memory Instrumentation Data
+# Modules View - .NET memory instrumentation data
 The Modules view of .NET memory allocation data collected by using the instrumentation method groups the memory and timing data by the modules that were executed in the profiling run. Profiling data for the functions of the module is listed underneath the module node.  
   
 ## General  
@@ -31,7 +31,7 @@ The Modules view of .NET memory allocation data collected by using the instrumen
 |**Time Exclusive Probe Overhead**|The time overhead for this function or module because of instrumentation.|  
 |**Time Inclusive Probe Overhead**|The time overhead for this function or module and its child functions because of instrumentation.|  
   
-## .NET Memory Values  
+## .NET memory values  
  The inclusive .NET memory values of a function indicate the number (allocations) and size (bytes) of objects that were created by the function and its child functions.  
   
  The exclusive memory values indicate the number and size of objects that were created by the function and not by its child functions.  
@@ -49,7 +49,7 @@ The Modules view of .NET memory allocation data collected by using the instrumen
 |**Inclusive Bytes**|-   For a function, the number of bytes that were allocated by the function. This number includes bytes that were allocated in functions that were called by the function.<br />-   For a module, the number of bytes that were allocated in a profiling run that were allocated when at least one function from the module was executing. This number includes objects that were created in all functions that were called by the module functions.|  
 |**Inclusive Bytes %**|The percentage of all bytes that were allocated in the profiling run that were inclusive bytes of the module or function.|  
   
-## Elapsed Inclusive Values  
+## Elapsed inclusive values  
  Elapsed inclusive values indicate the time that a function was on the call stack. The time includes time that was spent in child functions and in calls to the operating system, such as context switches and input/output operations.  
   
 |Column|Description|  
@@ -60,7 +60,7 @@ The Modules view of .NET memory allocation data collected by using the instrumen
 |**Max Elapsed Inclusive Time**|-   For a function, the maximum elapsed inclusive time of a call to this function.<br />-   For a module, the maximum elapsed inclusive time of all calls to functions in the module.|  
 |**Min Elapsed Inclusive Time**|-   For a function, the minimum elapsed inclusive time of a call to this module or function.<br />-   For a module, the minimum elapsed inclusive time of all calls to functions in the module.|  
   
-## Elapsed Exclusive Values  
+## Elapsed exclusive values  
  Elapsed exclusive values indicate the time that a function was directly executing at the top of the call stack. The time includes time in calls to the operating system, such as context switches and input/output operations, but does not include time that was spent in child functions.  
   
 |Column|Description|  
@@ -71,7 +71,7 @@ The Modules view of .NET memory allocation data collected by using the instrumen
 |**Max Elapsed Exclusive Time**|-   For a function, the maximum elapsed exclusive time of a call to this function.<br />-   For a module, the maximum elapsed exclusive time of all calls to functions in the module.|  
 |**Min Elapsed Exclusive Time**|-   For a function, the minimum elapsed exclusive time of a call to this module or function.<br />-   For a module, the minimum elapsed exclusive time of all calls to functions in the module.|  
   
-## Application Inclusive Values  
+## Application inclusive values  
  Application inclusive values indicate the time that a function was on the call stack. The time does not include time that was spent in calls to the operating system, such as context switches and input/output operations, but it does include time that was spent in child functions.  
   
 |Column|Description|  
@@ -82,7 +82,7 @@ The Modules view of .NET memory allocation data collected by using the instrumen
 |**Max Application Inclusive Time**|-   For a function, the maximum application inclusive time of a call to this function.<br />-   For a module, the maximum application inclusive time of all calls to functions in the module.|  
 |**Min Application Inclusive Time**|-   For a function, the minimum application inclusive time of a call to this module or function.<br />-   For a module, the minimum application inclusive time of all calls to functions in the module.|  
   
-## Application Exclusive Values  
+## Application exclusive values  
  Application exclusive values indicate the time that was spent in the module or function, excluding time that was spent in child functions. The indicated time also excludes calls to the operating system, such as context switches and input/output operations.  
   
 |Column|Description|  
@@ -93,7 +93,7 @@ The Modules view of .NET memory allocation data collected by using the instrumen
 |**Max Application Exclusive Time**|-   For a function, the maximum application exclusive time of a call to this function.<br />-   For a module, the maximum application exclusive time of all calls to functions in the module.|  
 |**Min Application Exclusive Time**|-   For a function, the minimum application exclusive time of a call to this module or function.<br />-   For a module, the minimum application exclusive time of all calls to functions in the module.|  
   
-## See Also  
- [Modules View - Sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)   
+## See also  
+ [Modules View - sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)   
  [Modules View](../profiling/modules-view-instrumentation-data.md)   
  [Modules View](../profiling/modules-view-sampling-data.md)

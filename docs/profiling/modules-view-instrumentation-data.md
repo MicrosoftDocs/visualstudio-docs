@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Modules View - Instrumentation Data
+# Modules View - instrumentation data
 The Modules view displays performance data that is grouped by the modules that were in the profiling data. The functions of the module are listed below the module node.  
   
 ## General  
@@ -32,7 +32,7 @@ The Modules view displays performance data that is grouped by the modules that w
 |**Time Exclusive Probe Overhead**|The time overhead for this function or module because of instrumentation.|  
 |**Time Inclusive Probe Overhead**|The time overhead for this function or module and its child functions because of instrumentation.|  
   
-## Elapsed Inclusive Values  
+## Elapsed inclusive values  
  Elapsed inclusive values indicate the time that a function was on the call stack. The time includes time that was spent in child functions and in calls to the operating system, such as context switches and input/output operations.  
   
 |Column|Description|  
@@ -43,7 +43,7 @@ The Modules view displays performance data that is grouped by the modules that w
 |**Max Elapsed Inclusive Time**|-   For a function, the maximum elapsed inclusive time of a call to this function.<br />-   For a module, the maximum elapsed inclusive time of all calls to functions in the module.|  
 |**Min Elapsed Inclusive Time**|-   For a function, the minimum elapsed inclusive time of a call to this module or function.<br />-   For a module, the minimum elapsed inclusive time of all calls to functions in the module.|  
   
-## Elapsed Exclusive Values  
+## Elapsed exclusive values  
  Elapsed exclusive values indicate the time that a function was directly executing at the top of the call stack. The time includes time that was spent in calls to the operating system, such as context switches and input/output operations, but it does not include time that was spent in child functions.  
   
 |Column|Description|  
@@ -54,7 +54,7 @@ The Modules view displays performance data that is grouped by the modules that w
 |**Max Elapsed Exclusive Time**|-   For a function, the maximum elapsed exclusive time of a call to this function.<br />-   For a module, the maximum elapsed exclusive time of all calls to functions in the module.|  
 |**Min Elapsed Exclusive Time**|-   For a function, the minimum elapsed exclusive time of a call to this module or function.<br />-   For a module, the minimum elapsed exclusive time of all calls to functions in the module.|  
   
-## Application Inclusive Values  
+## Application inclusive values  
  Application inclusive values indicate the time that a function was on the call stack. The time does not include time that was spent in calls to the operating system, such as context switches and input/output operations.However, the time does include time that was spent in child functions.  
   
 |Column|Description|  
@@ -65,7 +65,7 @@ The Modules view displays performance data that is grouped by the modules that w
 |**Max Application Inclusive Time**|-   For a function, the maximum application inclusive time of a call to this function.<br />-   For a module, the maximum application inclusive time of all calls to functions in the module.|  
 |**Min Application Inclusive Time**|-   For a function, the minimum application inclusive time of a call to this module or function.<br />-   For a module, the minimum application inclusive time of all calls to functions in the module.|  
   
-## Application Exclusive Values  
+## Application exclusive values  
  Application exclusive values indicate the time that was spent in the module or function. This excludes time that was spent in child functions, and also excludes calls to the operating system, such as context switches and input/output operations.  
   
 |Column|Description|  
@@ -76,7 +76,7 @@ The Modules view displays performance data that is grouped by the modules that w
 |**Max Application Exclusive Time**|-   For a function, the maximum application exclusive time of a call to this function.<br />-   For a module, the maximum application exclusive time of all calls to functions in the module.|  
 |**Min Application Exclusive Time**|-   For a function, the minimum application exclusive time of a call to this module or function.<br />-   For a module, the minimum application exclusive time of all calls to functions in the module.|  
   
-## See Also  
+## See also  
  [Modules View](../profiling/modules-view-sampling-data.md)   
- [Modules View - Instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)   
- [Modules View - Sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)
+ [Modules View - instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)   
+ [Modules View - sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)

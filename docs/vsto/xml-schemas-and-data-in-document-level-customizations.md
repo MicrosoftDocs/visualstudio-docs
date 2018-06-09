@@ -2,13 +2,13 @@
 title: "XML Schemas and Data in Document-Level Customizations | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
+ms.technology:
   - "office-development"
 ms.topic: "conceptual"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "XML schemas [Office development in Visual Studio]"
   - "schemas [Office development in Visual Studio]"
   - "XML [Office development in Visual Studio], XML schemas"
@@ -17,7 +17,7 @@ helpviewer_keywords:
 author: TerryGLee
 ms.author: tglee
 manager: douge
-ms.workload: 
+ms.workload:
   - "office"
 ---
 # XML Schemas and Data in Document-Level Customizations
@@ -74,10 +74,9 @@ ms.workload:
  You can also add code to your project to check whether the schema is in the library and registered. If it is not, you can warn the user.  
   
  [!code-vb[Trin_VstcoreDataWord#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataWordVB/ThisDocument.vb#1)]
- [!code-csharp[Trin_VstcoreDataWord#1](../vsto/codesnippet/CSharp/Trin_VstcoreDataWordCS/ThisDocument.cs#1)]  
-  
-## See Also  
- [How to: Map Schemas to Word Documents Inside Visual Studio](../vsto/how-to-map-schemas-to-word-documents-inside-visual-studio.md)   
- [How to: Map Schemas to Worksheets Inside Visual Studio](../vsto/how-to-map-schemas-to-worksheets-inside-visual-studio.md)  
-  
-  
+ [!code-csharp[Trin_VstcoreDataWord#1](../vsto/codesnippet/CSharp/Trin_VstcoreDataWordCS/ThisDocument.cs#1)]
+
+## See also
+
+- [How to: Map Schemas to Word Documents Inside Visual Studio](../vsto/how-to-map-schemas-to-word-documents-inside-visual-studio.md)
+- [How to: Map Schemas to Worksheets Inside Visual Studio](../vsto/how-to-map-schemas-to-worksheets-inside-visual-studio.md)

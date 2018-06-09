@@ -14,12 +14,12 @@ ms.workload:
 # How to: Modify web.config files to instrument and profile dynamically compiled ASP.NET web applications
 You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools instrumentation method to collect detailed timing data, .NET memory allocation data, and .NET object lifetime data from dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications.  
   
- This topic describes how to modify the web.config configuration file to enable the instrumentation and profiling of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications.  
+ This topic describes how to modify the *web.config* configuration file to enable the instrumentation and profiling of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications.  
   
 > [!NOTE]
->  You are not required to modify the web.config file when you use the sampling profiling method, or when you want to instrument a pre-compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] module.  
+>  You are not required to modify the *web.config* file when you use the sampling profiling method, or when you want to instrument a pre-compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] module.  
   
- The root of a web.config file is the **configuration** element. To instrument and profile a dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application, you must add or modify the following elements:  
+ The root of a *web.config* file is the **configuration** element. To instrument and profile a dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application, you must add or modify the following elements:  
   
 -   A **configuration/runtime/assemblyBinding/dependentAssembly** element that identifies the Microsoft.VisualStudio.Enterprise.ASPNetHelper assembly that controls profiling. The **dependentAssembly** element contains two child elements: **assemblyIdentity** and **codeBase**.  
   
@@ -27,7 +27,7 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
   
 -   Two **add** elements that identify the location of the Profiling Tools tools are added to the **configuration/appSettings** section .  
   
- We recommend that you create a copy of the original web.config file that you can use to restore the configuration of the application.  
+ We recommend that you create a copy of the original *web.config* file that you can use to restore the configuration of the application.  
   
 ### To add the ASPNetHelper assembly as a configuration/runtime/assemblyBinding/dependentAssembly element  
   
@@ -171,7 +171,7 @@ You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
 ```  
   
 ## Example  
- The following is a complete web.config file that enables the instrumentation and profiling of dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications. This example assumes that there were no other settings in the file before modification.  
+ The following is a complete *web.config* file that enables the instrumentation and profiling of dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications. This example assumes that there were no other settings in the file before modification.  
   
 ```xml  
 <?xml version="1.0"?>  
