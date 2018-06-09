@@ -26,7 +26,7 @@ ms.workload:
   Visual Studio provides project templates you can use to create VSTO Add-ins for Microsoft Office InfoPath 2013 and InfoPath 2010. InfoPath is not available in Office 2016.  
   
 > [!NOTE]  
->  You can still create an VSTO Add-in for InfoPath even if you've installed Office 2016. Just install InfoPath 2013 or Office 2013 side-by-side with Office 2016.  
+>  You can still create a VSTO Add-in for InfoPath even if you've installed Office 2016. Just install InfoPath 2013 or Office 2013 side-by-side with Office 2016.  
   
  [!INCLUDE[appliesto_infoallapp](../vsto/includes/appliesto-infoallapp-md.md)]  
   
@@ -41,10 +41,10 @@ ms.workload:
 ## Automate InfoPath by using an add-in  
  To access the InfoPath object model from an Office VSTO Add-in created by using Office development tools in Visual Studio, use the `Application` field of the `ThisAddIn` class in your project. The `Application` field returns a <xref:Microsoft.Office.Interop.InfoPath.Application> object that represents the current instance of InfoPath. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
   
- When you call into the InfoPath object model from an VSTO Add-in, you use types that are provided in the primary interop assembly for InfoPath. The primary interop assembly acts as a bridge between the managed code in the VSTO Add-in and the COM object model in InfoPath. All types in the InfoPath primary interop assembly are defined in the <xref:Microsoft.Office.Interop.InfoPath> namespace. For more information about the InfoPath primary interop assembly, see [About the Microsoft Office InfoPath primary interop assembly](http://msdn.microsoft.com/en-us/1b3ae03c-6951-49e4-a489-4712d3f7ba72). For more information about primary interop assemblies in general, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md) and [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).  
+ When you call into the InfoPath object model from a VSTO Add-in, you use types that are provided in the primary interop assembly for InfoPath. The primary interop assembly acts as a bridge between the managed code in the VSTO Add-in and the COM object model in InfoPath. All types in the InfoPath primary interop assembly are defined in the <xref:Microsoft.Office.Interop.InfoPath> namespace. For more information about the InfoPath primary interop assembly, see [About the Microsoft Office InfoPath primary interop assembly](http://msdn.microsoft.com/en-us/1b3ae03c-6951-49e4-a489-4712d3f7ba72). For more information about primary interop assemblies in general, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md) and [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).  
   
 ## Customize the user interface of InfoPath by using an add-in  
- When you create an VSTO Add-in for InfoPath, you have several different UI customization options. The following table lists some of these options.  
+ When you create a VSTO Add-in for InfoPath, you have several different UI customization options. The following table lists some of these options.  
   
 |Task|For more information|  
 |----------|--------------------------|  

@@ -33,12 +33,12 @@ ms.workload:
 ## Create an Outlook VSTO Add-in Project  
  Create Outlook projects by using the **Outlook Add-in** project template in the **New Project** dialog box. This template includes required assembly references and project files.  
   
- For more information about how to create an VSTO Add-in project, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md). For more information about the project templates, see [Office project templates overview](../vsto/office-project-templates-overview.md).  
+ For more information about how to create a VSTO Add-in project, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md). For more information about the project templates, see [Office project templates overview](../vsto/office-project-templates-overview.md).  
   
 ## Outlook VSTO Add-in programming model  
  When you create an Outlook VSTO Add-in project, Visual Studio generates a class, called `ThisAddIn`, which is the foundation of your solution. This class provides a starting point for writing your code, and it also exposes the object model of Outlook to your VSTO Add-in.  
   
- For more information about the `ThisAddIn` class and other features you can use in an VSTO Add-in, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
+ For more information about the `ThisAddIn` class and other features you can use in a VSTO Add-in, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
   
 ## Automate Outlook by using the Outlook object model  
  The Outlook object model exposes many types that you can use to automate Outlook. These types enable you to write code to accomplish common tasks:  
@@ -68,7 +68,7 @@ ms.workload:
 |-----------|-----------------|  
 |[Outlook object model overview](../vsto/outlook-object-model-overview.md)|Provides an overview of the objects that are provided by the Outlook object model.|  
 |[Create Outlook form regions](../vsto/creating-outlook-form-regions.md)|Explains the tools provided by Visual Studio that make it easier for you to design, develop, and debug form regions.|  
-|[Walkthrough: Create your first VSTO Add-In for Outlook](../vsto/walkthrough-creating-your-first-vsto-add-in-for-outlook.md)|Shows you how to create an VSTO Add-in for Microsoft Office Outlook.|  
+|[Walkthrough: Create your first VSTO Add-In for Outlook](../vsto/walkthrough-creating-your-first-vsto-add-in-for-outlook.md)|Shows you how to create a VSTO Add-in for Microsoft Office Outlook.|  
 |[Outlook 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199013)|The area of the MSDN Library where you can find articles and reference documentation about developing Outlook solutions (not specific to Office development using Visual Studio).|  
   
   

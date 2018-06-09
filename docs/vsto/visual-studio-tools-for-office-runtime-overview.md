@@ -77,7 +77,7 @@ ms.workload:
  For information about how these components are used during the load process, see [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md) and [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).  
   
 ### VSTOEE.dll  
- When a user opens a document-level customization or starts an VSTO Add-in, the Office application calls into *VSTOEE.dll* to perform the tasks required to load the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].  
+ When a user opens a document-level customization or starts a VSTO Add-in, the Office application calls into *VSTOEE.dll* to perform the tasks required to load the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].  
   
  *VSTOEE.dll* makes sure that the correct version of the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] is loaded for the solution and the installed version of Office. Although multiple versions of the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] can be installed on the same computer, only one instance of *VSTOEE.dll* is installed at a time. This is the *VSTOEE.dll* that was included with the latest version of the runtime installed on the computer. For more information about the different versions of the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] that can be used for other solutions, see [Run solutions in different versions of Microsoft Office](../vsto/running-solutions-in-different-versions-of-microsoft-office.md).  
   

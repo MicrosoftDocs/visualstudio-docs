@@ -32,7 +32,7 @@ ms.workload:
   - "office"
 ---
 # Windows Forms Controls on Office Documents Overview
-  Windows Forms controls are objects that users can interact with to enter or manipulate data. In document-level projects for Microsoft Office Excel and Microsoft Office Word, you can add Windows Forms controls to the document or workbook in your project at design time, or you can programmatically add these controls at run time. You can programmatically add these controls to any open document or worksheet at run time in an VSTO Add-in for Excel or Word.  
+  Windows Forms controls are objects that users can interact with to enter or manipulate data. In document-level projects for Microsoft Office Excel and Microsoft Office Word, you can add Windows Forms controls to the document or workbook in your project at design time, or you can programmatically add these controls at run time. You can programmatically add these controls to any open document or worksheet at run time in a VSTO Add-in for Excel or Word.  
   
  For more information, see [How to: Add Windows Forms Controls to Office Documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md).  
   
@@ -72,7 +72,7 @@ ms.workload:
  For more information, see [Adding Controls to Office Documents at Run Time](../vsto/adding-controls-to-office-documents-at-run-time.md).  
   
 ## Using Windows Forms Controls in Document-Level Projects  
- Some aspect of using Windows Forms controls on documents are unique to document-level projects, which enable you to design the UI of your document by using the Visual Studio designer.  
+ Some aspects of using Windows Forms controls on documents are unique to document-level projects, which enable you to design the UI of your document by using the Visual Studio designer.  
   
 ### Creating Custom User Controls  
  You can add a user control to your project and then add it to the **Toolbox**. You can then drag the user control directly to your document in the same way you would add a Windows Forms control to your document. There are some things to keep in mind when you create user controls:  

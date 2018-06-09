@@ -53,8 +53,8 @@ ms.workload:
  Demonstrates how to create a custom ribbon tab by using ribbon XML instead of using the Ribbon Designer.  
   
 ## Controls on Word documents  
- [Walkthrough: Add controls to a document at runtime in an VSTO Add-In](../vsto/walkthrough-adding-controls-to-a-document-at-run-time-in-a-vsto-add-in.md)  
- Demonstrates how to add controls to a document by using an VSTO Add-in.  
+ [Walkthrough: Add controls to a document at runtime in a VSTO Add-In](../vsto/walkthrough-adding-controls-to-a-document-at-run-time-in-a-vsto-add-in.md)  
+ Demonstrates how to add controls to a document by using a VSTO Add-in.  
   
  [Walkthrough: Change document formatting using CheckBox controls](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md)  
  Demonstrates how to change formatting in a Word document by using check boxes in a document-level customization.  
@@ -67,7 +67,7 @@ ms.workload:
   
 ## Controls on Excel worksheets  
  [Walkthrough: Add controls to a worksheet at runtime in VSTO add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md)  
- Demonstrates how to add controls to a worksheet by using an VSTO Add-in.  
+ Demonstrates how to add controls to a worksheet by using a VSTO Add-in.  
   
  [Walkthrough: Change worksheet formatting using CheckBox controls](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md)  
  Demonstrates the basics of using check boxes on an Excel worksheet to change formatting.  

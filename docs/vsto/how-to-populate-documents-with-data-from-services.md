@@ -23,7 +23,7 @@ ms.workload:
   
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]  
   
- The following example shows how to add data-bound controls to documents at design time. For an example of how to add data-bound controls in VSTO Add-ins at run time, see [Walkthrough: Binding to Data from a Service in an VSTO add-in Project](../vsto/walkthrough-binding-to-data-from-a-service-in-a-vsto-add-in-project.md).  
+ The following example shows how to add data-bound controls to documents at design time. For an example of how to add data-bound controls in VSTO Add-ins at run time, see [Walkthrough: Binding to Data from a Service in a VSTO add-in Project](../vsto/walkthrough-binding-to-data-from-a-service-in-a-vsto-add-in-project.md).  
   
  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How Do I: Interact with Web Services from Microsoft Excel?](http://go.microsoft.com/fwlink/?LinkID=130284).  
   

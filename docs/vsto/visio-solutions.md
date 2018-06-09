@@ -46,7 +46,7 @@ ms.workload:
   
  You can view step-by-step procedures and code examples for using the object model of Visio to work with documents and shapes in [Work with Visio documents](../vsto/working-with-visio-documents.md) and [Work with Visio shapes](../vsto/working-with-visio-shapes.md).  
   
- To access the Visio object model from an VSTO Add-in, use the `Application` field of the `ThisAddIn` class in your project. The `Application` field returns a `Microsoft.Office.Interop.Visio.Application` object that represents the current instance of Visio. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
+ To access the Visio object model from a VSTO Add-in, use the `Application` field of the `ThisAddIn` class in your project. The `Application` field returns a `Microsoft.Office.Interop.Visio.Application` object that represents the current instance of Visio. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
   
  When you call into the Visio object model, you use types that are provided in the primary interop assembly (PIA) for Visio. The PIA acts as a bridge between the managed code in the VSTO Add-in and the COM object model in Visio. All types in the Visio PIA are defined in the `Microsoft.Office.Interop.Visio` namespace. For more information about primary interop assemblies, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md) and [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).  
   

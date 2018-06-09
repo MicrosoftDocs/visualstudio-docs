@@ -67,12 +67,12 @@ ms.workload:
 ### Re-create Windows Forms controls when documents are opened  
  You can re-create deleted Windows Forms controls when the user reopens the document. To do this, your solution must perform the following tasks:  
   
-1.  Store information about the size, location, and state of the controls when the document is saved or closed. In a document-level customization, you can save the data to the data cache in the document. In an VSTO Add-in, you can save the data to a custom XML part in the document.  
+1.  Store information about the size, location, and state of the controls when the document is saved or closed. In a document-level customization, you can save the data to the data cache in the document. In a VSTO Add-in, you can save the data to a custom XML part in the document.  
   
 2.  Re-create the controls in an event that is raised when the document is opened. In document-level projects, you can do this in the `Sheet`*n*`_Startup` or `ThisDocument_Startup` event handlers. In VSTO Add-in projects, you can do this in the event handlers for the <xref:Microsoft.Office.Interop.Excel.AppEvents_Event.WorkbookOpen> or <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentOpen> events.  
   
 ###  <a name="removingActiveX"></a> Remove ActiveX wrappers in an Add-in  
- When you add dynamic Windows Forms controls to documents by using an VSTO Add-in, you can prevent the ActiveX wrappers for the controls from appearing in the document the next time it is opened in the following ways.  
+ When you add dynamic Windows Forms controls to documents by using a VSTO Add-in, you can prevent the ActiveX wrappers for the controls from appearing in the document the next time it is opened in the following ways.  
   
 #### Remove ActiveX wrappers when the document is opened  
  To remove all ActiveX wrappers, call the `GetVstoObject` method to generate a host item for the <xref:Microsoft.Office.Interop.Word.Document> or <xref:Microsoft.Office.Interop.Excel.Workbook> that represents the newly opened document. For example, to remove all ActiveX wrappers from a Word document, you can call the `GetVstoObject` method to generate a host item for the <xref:Microsoft.Office.Interop.Word.Document> object that is passed to the event handler for the <xref:Microsoft.Office.Interop.Word.ApplicationEvents4_Event.DocumentOpen> event.  

@@ -40,7 +40,7 @@ ms.workload:
 -   Macro recording.  
   
 ## Combine VBA solutions and Office solutions created by using Visual Studio  
- You can call VBA code from Office solutions created by using Visual Studio, and you can also call code in Office solutions created by using Visual Studio from VBA. The specific technique differs depending on whether your Office solution is an VSTO Add-in or a document-level customization. For more information, see [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md) and [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md).  
+ You can call VBA code from Office solutions created by using Visual Studio, and you can also call code in Office solutions created by using Visual Studio from VBA. The specific technique differs depending on whether your Office solution is a VSTO Add-in or a document-level customization. For more information, see [Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md) and [Combine VBA and document-level customizations](../vsto/combining-vba-and-document-level-customizations.md).  
   
 ## See also  
  [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)   

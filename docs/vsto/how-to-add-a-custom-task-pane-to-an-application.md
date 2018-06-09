@@ -29,7 +29,7 @@ ms.workload:
   
 ### To add a custom task pane to an application  
   
-1.  Open or create an VSTO Add-in project for one of the applications listed above. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
+1.  Open or create a VSTO Add-in project for one of the applications listed above. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
 2.  On the **Project** menu, click **Add User Control**.  
   

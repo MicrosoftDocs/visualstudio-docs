@@ -33,7 +33,7 @@ ms.workload:
   
      The new worksheet is a native <xref:Microsoft.Office.Interop.Excel.Worksheet> object and not a host item. If you want to add a <xref:Microsoft.Office.Tools.Excel.Worksheet> host item, you should add the worksheet at design time.  
   
-### To add a new worksheet to a workbook in an VSTO Add-in  
+### To add a new worksheet to a workbook in a VSTO Add-in  
   
 1.  Use the <xref:Microsoft.Office.Interop.Excel.Worksheets.Add%2A> method of the <xref:Microsoft.Office.Interop.Excel.Sheets> collection.  
   

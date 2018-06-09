@@ -22,7 +22,7 @@ ms.workload:
   
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]  
   
- You can resize <xref:Microsoft.Office.Tools.Excel.ListObject> controls at design time or at run time in document-level projects. You can resize <xref:Microsoft.Office.Tools.Excel.ListObject> controls at run time in an VSTO Add-in project.  
+ You can resize <xref:Microsoft.Office.Tools.Excel.ListObject> controls at design time or at run time in document-level projects. You can resize <xref:Microsoft.Office.Tools.Excel.ListObject> controls at run time in a VSTO Add-in project.  
   
  This topic describes the following tasks:  
   
@@ -30,7 +30,7 @@ ms.workload:
   
 -   [Resizing ListObject controls at run time in a document-level project](#runtimedoclevel)  
   
--   [Resizing ListObject controls at run time in an VSTO Add-in project](#runtimeaddin)  
+-   [Resizing ListObject controls at run time in a VSTO Add-in project](#runtimeaddin)  
   
  For more information about <xref:Microsoft.Office.Tools.Excel.ListObject> controls, see [ListObject Control](../vsto/listobject-control.md).  
   
@@ -67,8 +67,8 @@ ms.workload:
      [!code-csharp[Trin_VstcoreHostControlsExcel#7](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#7)]
      [!code-vb[Trin_VstcoreHostControlsExcel#7](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#7)]  
   
-##  <a name="runtimeaddin"></a> Resizing a ListObject at Run Time in an VSTO Add-in project  
- You can resize a <xref:Microsoft.Office.Tools.Excel.ListObject> control on any open worksheet at run time. For more information about how to add a <xref:Microsoft.Office.Tools.Excel.ListObject> control to a worksheet by using an VSTO Add-in, see [How to: Add ListObject Controls to Worksheets](../vsto/how-to-add-listobject-controls-to-worksheets.md).  
+##  <a name="runtimeaddin"></a> Resizing a ListObject at Run Time in a VSTO Add-in project  
+ You can resize a <xref:Microsoft.Office.Tools.Excel.ListObject> control on any open worksheet at run time. For more information about how to add a <xref:Microsoft.Office.Tools.Excel.ListObject> control to a worksheet by using a VSTO Add-in, see [How to: Add ListObject Controls to Worksheets](../vsto/how-to-add-listobject-controls-to-worksheets.md).  
   
 #### To resize a list object programmatically  
   

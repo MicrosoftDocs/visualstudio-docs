@@ -96,7 +96,7 @@ ms.workload:
  When you install the solution without running the Setup program, the installer doesn't check for or install prerequisites. The Setup program checks for the correct version of prerequisites and installs them as necessary.  
   
 ## Manifest registry keys for Add-ins change after an InstallShield Limited Edition project is built  
- The manifest registry key that's part of an VSTO Add-in Setup program sometimes changes from *.vsto* to *.dll.manifest* when you build an InstallShield Limited Edition project.  
+ The manifest registry key that's part of a VSTO Add-in Setup program sometimes changes from *.vsto* to *.dll.manifest* when you build an InstallShield Limited Edition project.  
   
  To work around this issue, create the InstallShield Limited Edition project in a different solution, or use CompanyName.AddinName as the value of the registry key that contains the name of the VSTO Add-in.  
   

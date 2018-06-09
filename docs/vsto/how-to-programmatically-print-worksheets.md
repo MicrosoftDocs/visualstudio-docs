@@ -41,7 +41,7 @@ ms.workload:
      [!code-csharp[Trin_VstcoreExcelAutomation#23](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#23)]
      [!code-vb[Trin_VstcoreExcelAutomation#23](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#23)]  
   
-## Printing a Worksheet in an VSTO Add-in  
+## Printing a Worksheet in a VSTO Add-in  
   
 #### To print a worksheet  
   

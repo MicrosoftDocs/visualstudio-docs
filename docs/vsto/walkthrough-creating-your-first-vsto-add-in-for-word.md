@@ -20,7 +20,7 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Creating Your First VSTO Add-in for Word
-  This introductory walkthrough shows you how to create an VSTO Add-in for Microsoft Office Word. The features that you create in this kind of solution are available to the application itself, regardless of which documents are open.  
+  This introductory walkthrough shows you how to create a VSTO Add-in for Microsoft Office Word. The features that you create in this kind of solution are available to the application itself, regardless of which documents are open.  
   
  [!INCLUDE[appliesto_wdallapp](../vsto/includes/appliesto-wdallapp-md.md)]  
   

@@ -53,7 +53,7 @@ ms.workload:
 -   Microsoft Excel or Microsoft [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)].  
   
 ## Creating the Add-in Project  
- In this step, you will create an VSTO Add-in project for Excel.  
+ In this step, you will create a VSTO Add-in project for Excel.  
   
 #### To create a new project  
   
@@ -162,7 +162,7 @@ ms.workload:
 ## Next Steps  
  You can learn more about how to create custom task panes from these topics:  
   
--   Create a custom task pane in an VSTO Add-in for a different application. For more information about the applications that support custom task panes, see [Custom Task Panes](../vsto/custom-task-panes.md).  
+-   Create a custom task pane in a VSTO Add-in for a different application. For more information about the applications that support custom task panes, see [Custom Task Panes](../vsto/custom-task-panes.md).  
   
 -   Automate an application from a custom task pane. For more information, see [Walkthrough: Automating an Application from a Custom Task Pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md).  
   

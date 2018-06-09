@@ -56,7 +56,7 @@ ms.workload:
  [!code-vb[Trin_VstcoreWordAutomation#89](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#89)]
  [!code-csharp[Trin_VstcoreWordAutomation#89](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#89)]  
   
-## Populating Tables in an VSTO Add-in  
+## Populating Tables in a VSTO Add-in  
   
 #### To create a table and populate it with document properties  
   

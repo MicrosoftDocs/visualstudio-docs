@@ -169,7 +169,7 @@ ms.workload:
  To view the form region, you must open the appropriate Outlook item. For example, if an adjoining form region is appended to the bottom of a mail item, open a mail item.  
   
 ##  <a name="Deploying"></a> Deploy a form region  
- form regions are deployed automatically with the associated Outlook VSTO Add-in. Therefore, you do not have to perform any special tasks to deploy a form region. For more information about deploying VSTO Add-ins, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).  
+ Form regions are deployed automatically with the associated Outlook VSTO Add-in. Therefore, you do not have to perform any special tasks to deploy a form region. For more information about deploying VSTO Add-ins, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).  
   
 ## Related topics  
   

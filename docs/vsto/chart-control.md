@@ -28,7 +28,7 @@ ms.workload:
 ## Create the control  
  You can add <xref:Microsoft.Office.Tools.Excel.Chart> controls to a Microsoft Office Excel worksheet at design time or at runtime in a document-level project.  
   
- You can add <xref:Microsoft.Office.Tools.Excel.Chart> controls to a worksheet at runtime in an VSTO Add-in. For more information, see [How to: Add Chart controls to worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md).  
+ You can add <xref:Microsoft.Office.Tools.Excel.Chart> controls to a worksheet at runtime in a VSTO Add-in. For more information, see [How to: Add Chart controls to worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md).  
   
 > [!NOTE]  
 >  Dynamically created chart objects are not persisted in the worksheet as host controls when the worksheet is closed. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).  

@@ -27,13 +27,13 @@ ms.workload:
 ## Create VSTO Add-in projects  
  Create VSTO Add-in projects by using one of the VSTO Add-in project templates in the **New Project** dialog box. These templates include required assembly references and project files. Visual Studio provides VSTO Add-in project templates for most applications in Office.  
   
- For more information about how to create an VSTO Add-in project, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md). For more information about the project templates, see [Office project templates overview](../vsto/office-project-templates-overview.md).  
+ For more information about how to create a VSTO Add-in project, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md). For more information about the project templates, see [Office project templates overview](../vsto/office-project-templates-overview.md).  
   
 ## Develop VSTO Add-in projects  
- When you create an VSTO Add-in project, Visual Studio automatically creates a *ThisAddIn.vb* (in [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]) or *ThisAddIn.cs* (in C#) code file. This file contains the `ThisAddIn` class, which provides the foundation for your VSTO Add-in. You can use members of this class to run code when the VSTO Add-in is loaded or unloaded, to access the object model of the host application, and to extend features of the application. For more information, see [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).  
+ When you create a VSTO Add-in project, Visual Studio automatically creates a *ThisAddIn.vb* (in [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]) or *ThisAddIn.cs* (in C#) code file. This file contains the `ThisAddIn` class, which provides the foundation for your VSTO Add-in. You can use members of this class to run code when the VSTO Add-in is loaded or unloaded, to access the object model of the host application, and to extend features of the application. For more information, see [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).  
   
 ## Automate applications by using the Object models  
- The object models of Microsoft Office applications expose many types that you can program against in an VSTO Add-in. You can use these types to automate the application. For example, you can programmatically create and send an e-mail message in Outlook, or you can open a document and add content in Word. For more information about how to access the object model of the host application in code, see [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).  
+ The object models of Microsoft Office applications expose many types that you can program against in a VSTO Add-in. You can use these types to automate the application. For example, you can programmatically create and send an e-mail message in Outlook, or you can open a document and add content in Word. For more information about how to access the object model of the host application in code, see [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).  
   
  For more information about the object models of specific Microsoft Office applications, see the following topics:  
   
@@ -52,7 +52,7 @@ ms.workload:
 -   [Visio object model overview](../vsto/visio-object-model-overview.md)  
   
 ## Customize the user interface of applications  
- There are several different ways to customize the UI of the host application by using an VSTO Add-in:  
+ There are several different ways to customize the UI of the host application by using a VSTO Add-in:  
   
 -   For Excel and Word, you can add managed controls to documents. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).  
   

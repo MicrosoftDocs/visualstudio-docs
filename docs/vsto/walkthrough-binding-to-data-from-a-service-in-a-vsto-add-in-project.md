@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Binding to Data from a Service in an VSTO add-in Project | Microsoft Docs"
+title: "Walkthrough: Binding to Data from a Service in a VSTO add-in Project | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Binding to Data from a Service in an VSTO add-in Project
+# Walkthrough: Binding to Data from a Service in a VSTO add-in Project
   You can bind data to host controls in VSTO Add-in projects. This walkthrough demonstrates how to add controls to a Microsoft Office Word document, bind the controls to data retrieved from the MSDN Content Service, and respond to events at run time.  
   
  **Applies to:** The information in this topic applies to application-level projects for Word 2010. For more information, see [Features Available by Office Application and Project Type](../vsto/features-available-by-office-application-and-project-type.md).  

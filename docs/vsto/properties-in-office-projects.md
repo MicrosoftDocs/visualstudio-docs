@@ -28,7 +28,7 @@ ms.workload:
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
   
 ## Namespace for host item  
- Use the **Namespace for Host Item** property to change the namespace for host item classes (for example, the `ThisAddIn`, `ThisWorkbook`, or `ThisDocument` classes) in Visual C# projects. This property appears in the **Properties** window when you select the document node in a document-level project (such as *ExcelWorkbook1.xlsx* or *WordDocument1.docx*) or the application node in an VSTO Add-in project (such as Excel or Word) in **Solution Explorer**.  
+ Use the **Namespace for Host Item** property to change the namespace for host item classes (for example, the `ThisAddIn`, `ThisWorkbook`, or `ThisDocument` classes) in Visual C# projects. This property appears in the **Properties** window when you select the document node in a document-level project (such as *ExcelWorkbook1.xlsx* or *WordDocument1.docx*) or the application node in a VSTO Add-in project (such as Excel or Word) in **Solution Explorer**.  
   
  When you create a Visual C# Office project, host items are given a namespace based on the name of the project. It is recommended that you use the **Namespace for Host Item** property to change the namespace rather than edit the code files directly. When you use this property, the namespace is changed in the generated (hidden) code files, as well as in the visible code files.  
   

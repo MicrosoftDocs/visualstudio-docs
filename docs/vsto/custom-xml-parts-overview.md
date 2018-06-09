@@ -30,7 +30,7 @@ ms.workload:
 # Custom XML parts overview
   You can embed XML data in documents for some Microsoft Office applications. When you embed XML data in a document, the data is named a *custom XML part*.  
   
- You can create and modify custom XML parts in a document by using an VSTO Add-in or document-level solution in Visual Studio. You do not need to start the Microsoft Office application to create and modify custom XML parts.  
+ You can create and modify custom XML parts in a document by using a VSTO Add-in or document-level solution in Visual Studio. You do not need to start the Microsoft Office application to create and modify custom XML parts.  
   
  **Applies to:** The information in this topic applies to document-level projects and VSTO Add-in projects for Excel, PowerPoint, and Word. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).  
   
@@ -59,7 +59,7 @@ ms.workload:
  You can create or modify custom XML parts when the document is open in the Office application, or when the document is closed—even if Microsoft Office is not installed.  
   
 ### Modify XML parts while the Office application is running  
- You can work with custom XML parts by using a document-level customization or an VSTO Add-in. If you are using a document-level customization, you will typically work with custom XML parts that are in the customized document. If you are using an VSTO Add-in, you can create or modify custom XML parts in any document that is open in the application.  
+ You can work with custom XML parts by using a document-level customization or a VSTO Add-in. If you are using a document-level customization, you will typically work with custom XML parts that are in the customized document. If you are using a VSTO Add-in, you can create or modify custom XML parts in any document that is open in the application.  
   
  To create a custom XML part by using Visual Studio, add a new <xref:Microsoft.Office.Core.CustomXMLPart> to the <xref:Microsoft.Office.Core.CustomXMLParts> collection in the document. For more information, see the following topics:  
   

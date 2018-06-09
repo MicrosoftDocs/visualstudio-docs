@@ -20,7 +20,7 @@ ms.workload:
   - "office"
 ---
 # How to: Show Add-in User Interface Errors
-  By default, if an VSTO Add-in attempts to manipulate the Microsoft Office user interface (UI) and fails, no error message is displayed. However, you can configure Microsoft Office applications to display messages for errors that relate to the UI. You can use these messages to help determine why a custom Ribbon does not appear, or why a Ribbon appears but no controls appear.  
+  By default, if a VSTO Add-in attempts to manipulate the Microsoft Office user interface (UI) and fails, no error message is displayed. However, you can configure Microsoft Office applications to display messages for errors that relate to the UI. You can use these messages to help determine why a custom Ribbon does not appear, or why a Ribbon appears but no controls appear.  
   
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]  
   

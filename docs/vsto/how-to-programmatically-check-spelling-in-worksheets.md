@@ -31,7 +31,7 @@ ms.workload:
      [!code-csharp[Trin_VstcoreExcelAutomation#45](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#45)]
      [!code-vb[Trin_VstcoreExcelAutomation#45](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#45)]  
   
-### To check spelling in a worksheet in an VSTO Add-in  
+### To check spelling in a worksheet in a VSTO Add-in  
   
 1.  Call the <xref:Microsoft.Office.Interop.Excel._Worksheet.CheckSpelling%2A> method of the active worksheet.  
   

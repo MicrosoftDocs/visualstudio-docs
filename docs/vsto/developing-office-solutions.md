@@ -30,7 +30,7 @@ ms.workload:
  The Office object model exposes a variety of objects that you can program against. Whenever you program Office solutions by using managed code, you write code that uses types in the Office primary interop assemblies. In solutions you create by using the Office project templates in Visual Studio, you also write code directly against generated classes in your project. For more information, see [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md).  
   
 ## Program different types of Office solutions  
- The type of solution that you are creating determines which features you can use in your project. For example, you can add Windows Forms controls and extended Office controls (named *host controls*) to document-level customizations by dragging items from the **Toolbox** in Visual Studio at design time. However, if you are developing an VSTO Add-in, you can only add these sorts of controls to documents at run time, by writing code.  
+ The type of solution that you are creating determines which features you can use in your project. For example, you can add Windows Forms controls and extended Office controls (named *host controls*) to document-level customizations by dragging items from the **Toolbox** in Visual Studio at design time. However, if you are developing a VSTO Add-in, you can only add these sorts of controls to documents at run time, by writing code.  
   
  For more information about features that are specific to different types of solutions, see the following topics:  
   

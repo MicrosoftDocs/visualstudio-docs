@@ -18,7 +18,7 @@ ms.workload:
   - "office"
 ---
 # How to: Add commands to shortcut menus
-  This topic demonstrates how to add commands to a shortcut menu in an Office application by using an VSTO Add-in.  
+  This topic demonstrates how to add commands to a shortcut menu in an Office application by using a VSTO Add-in.  
   
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
   

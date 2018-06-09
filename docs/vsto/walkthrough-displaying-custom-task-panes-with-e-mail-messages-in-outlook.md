@@ -57,7 +57,7 @@ ms.workload:
  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How Do I: Use Task Panes in Outlook?](http://go.microsoft.com/fwlink/?LinkID=130309).  
   
 ## Creating the Project  
- Custom task panes are implemented in VSTO Add-ins. Start by creating an VSTO Add-in project for Outlook.  
+ Custom task panes are implemented in VSTO Add-ins. Start by creating a VSTO Add-in project for Outlook.  
   
 #### To create a new project  
   
@@ -259,7 +259,7 @@ ms.workload:
 ## Next Steps  
  You can learn more about how to create custom task panes from these topics:  
   
--   Create a custom task pane in an VSTO Add-in for a different application. For more information about the applications that support custom task panes, see [Custom Task Panes](../vsto/custom-task-panes.md).  
+-   Create a custom task pane in a VSTO Add-in for a different application. For more information about the applications that support custom task panes, see [Custom Task Panes](../vsto/custom-task-panes.md).  
   
 -   Automate a Microsoft Office application by using a custom task pane. For more information, see [Walkthrough: Automating an Application from a Custom Task Pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md).  
   

@@ -59,15 +59,15 @@ ms.workload:
  Demonstrates how to create a basic VSTO Add-in for Excel.  
   
  [Walkthrough: Adding Controls to a Worksheet at Run Time in VSTO add-in Project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md)  
- Demonstrates how to add controls to a worksheet by using an VSTO Add-in.  
+ Demonstrates how to add controls to a worksheet by using a VSTO Add-in.  
   
- [Walkthrough: Calling Code in an VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md)  
- Demonstrates how to expose an object in an VSTO Add-in to VBA code in a workbook.  
+ [Walkthrough: Calling Code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md)  
+ Demonstrates how to expose an object in a VSTO Add-in to VBA code in a workbook.  
   
  [Walkthrough: Synchronizing a Custom Task Pane with a Ribbon Button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md)  
  Demonstrates how to create a custom task pane that users can hide or display by clicking a toggle button on the Ribbon.  
   
  [Walkthrough: Complex Data Binding in VSTO add-in Project](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md)  
- Demonstrates how to bind a table in a SQL Server database to a <xref:Microsoft.Office.Tools.Excel.ListObject> in an VSTO Add-in for Excel.  
+ Demonstrates how to bind a table in a SQL Server database to a <xref:Microsoft.Office.Tools.Excel.ListObject> in a VSTO Add-in for Excel.  
   
   

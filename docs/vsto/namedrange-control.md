@@ -29,7 +29,7 @@ ms.workload:
 ## Create the control  
  You can add <xref:Microsoft.Office.Tools.Excel.NamedRange> controls to a Microsoft Office Excel worksheet at design time or at run time in document-level projects.  
   
- You can add <xref:Microsoft.Office.Tools.Excel.NamedRange> controls to a worksheet at run time in an VSTO Add-in. For more information, see [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md).  
+ You can add <xref:Microsoft.Office.Tools.Excel.NamedRange> controls to a worksheet at run time in a VSTO Add-in. For more information, see [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md).  
   
 > [!NOTE]  
 >  By default, dynamically created named ranges are not persisted in the worksheet as host controls when the worksheet is closed. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).  

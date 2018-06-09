@@ -46,7 +46,7 @@ ms.workload:
   
 -   The `ThisDocument` class in a Word document or template project. You can access this object by using the `Globals.ThisDocument` property.  
   
--   The `ThisAddIn` class in an VSTO Add-in project. You can access this object by using the `Globals.ThisAddIn` property.  
+-   The `ThisAddIn` class in a VSTO Add-in project. You can access this object by using the `Globals.ThisAddIn` property.  
   
 -   All Ribbons in your project that you customized by using the Ribbon Designer. You can access the Ribbons by using the `Globals.Ribbons` property. For more information, see [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md).  
   

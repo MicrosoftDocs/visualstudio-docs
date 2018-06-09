@@ -54,7 +54,7 @@ ms.workload:
 ### Compiling the Code  
  To use these code examples, run them from the `ThisDocument` class in your project. These code examples assume you have an existing <xref:Microsoft.Office.Tools.Word.Bookmark> control named `Bookmark1` on the document in which this code appears.  
   
-## Protecting a Document by Using an VSTO Add-in  
+## Protecting a Document by Using a VSTO Add-in  
   
 #### To protect a document by using an application-level VSTO Add-in  
   

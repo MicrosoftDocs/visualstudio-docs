@@ -25,8 +25,8 @@ ms.workload:
  [Troubleshoot errors in Office solutions](../vsto/troubleshooting-errors-in-office-solutions.md)  
  Describes common issues that might arise while you are designing, running, and testing your Office solutions in Visual Studio.  
   
- [How to: Re-enable an VSTO Add-in that has been disabled](../vsto/how-to-re-enable-a-vsto-add-in-that-has-been-disabled.md)  
- Describes how to re-enable an VSTO Add-in that has been hard or soft disabled.  
+ [How to: Re-enable a VSTO Add-in that has been disabled](../vsto/how-to-re-enable-a-vsto-add-in-that-has-been-disabled.md)  
+ Describes how to re-enable a VSTO Add-in that has been hard or soft disabled.  
   
  [Additional support for errors in Office solutions](../vsto/additional-support-for-errors-in-office-solutions.md)  
  Describes other resources for troubleshooting errors and warnings in Office solutions.  

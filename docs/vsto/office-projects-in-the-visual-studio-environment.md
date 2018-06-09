@@ -59,7 +59,7 @@ ms.workload:
   
 -   Hidden project files that you are not intended to edit directly. For more information, see [Hidden project files](#hiddenfiles).  
   
- In an VSTO Add-in project, **Solution Explorer** displays the following default items:  
+ In a VSTO Add-in project, **Solution Explorer** displays the following default items:  
   
 -   The application node. This node has the same name as the host application, such as **Word**, **Excel**, or **Outlook**. The application node contains the ThisAddIn code file. It also provides the **Namespace for Host Item** property. For more information about this property, see [Properties in Office projects](../vsto/properties-in-office-projects.md).  
   
