@@ -80,7 +80,7 @@ The debugger will load only a .pdb file for an executable file that exactly matc
     >  Do not place your symbol cache in a protected folder (such as the C:\Windows folder or one of its subfolders). Use a read-write folder instead.  
   
     > [!NOTE]
-    >  For C++ projects, if you have the _NET_SYMBOL_PATH environment variable set, it will override the value set under **Cache symbols in this directory**.
+    >  For C++ projects, if you have the _NT_SYMBOL_PATH environment variable set, it will override the value set under **Cache symbols in this directory**.
 
 ### Specify symbol loading behavior 
   
