@@ -22,10 +22,10 @@ ms.workload:
   - "office"
 ---
 # Replaceable parameters
-  Replaceable parameters, or *tokens*, can be used inside project files to provide values for SharePoint solution items whose actual values are not known at design time. They are similar in function to the standard [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] template tokens. For more information, see [Template Parameters](/visualstudio/ide/template-parameters).  
+  Replaceable parameters, or *tokens*, can be used inside project files to provide values for SharePoint solution items whose actual values aren't known at design time. They're similar in function to the standard [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] template tokens. For more information, see [Template Parameters](/visualstudio/ide/template-parameters).  
   
 ## Token format
- Tokens begin and end with a dollar sign ($) character. On deployment, any tokens used are replaced with actual values when a project is packaged into a SharePoint solution package (*.wsp* file). For example, the token **$SharePoint.Package.Name$** might resolve to the string "Test SharePoint Package."  
+ Tokens begin and end with a dollar sign ($) character. On deployment, any tokens used are replaced with actual values when a project is packaged into a SharePoint solution package (*.wsp* file). For example, the token **$SharePoint.Package.Name$** might resolve to the string "Test SharePoint Package".  
   
 ## Token rules
  The following rules apply to tokens:  
@@ -34,11 +34,11 @@ ms.workload:
   
 -   Tokens cannot span multiple lines.  
   
--   The same token may be specified multiple times on the same line and in the same file.  
+-   The same token may be specified more than once on the same line and in the same file.  
   
 -   Different tokens may be specified on the same line.  
   
- Tokens that do not follow these rules are ignored without providing a warning or error.  
+ Tokens that do not follow these rules are ignored and do not result in a warning or error.  
   
  The replacement of tokens by string values is done immediately after manifest transformation. This replacement allows the user to edit the manifest templates with tokens.  
   
@@ -88,7 +88,7 @@ ms.workload:
 > [!NOTE]  
 >  Because token replacement occurs after a project is compiled, you should not add file extensions for file types that are compiled, such as *.cs*, *.vb* or *.resx*. Tokens are replaced only in files that are not compiled.  
   
- For example, to add the file name extensions *.myextension* and *.yourextension* to the list of token replacement file name extensions, you would add the following to a *.csproj* file:  
+ For example, to add the file name extensions (*.myextension* and *.yourextension*) to the list of token replacement file name extensions, you would add the following to a project (*.csproj*) file:  
   
 ```xml  
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
@@ -103,7 +103,7 @@ ms.workload:
 </PropertyGroup>  
 ```  
   
- You can add the extension directly to the *.targets* file. However, doing this alters the extensions list for all SharePoint projects packaged on the local system, not just your own. This may be convenient when you are the sole developer on the system or if most of your projects require it. However, because it is system-specific, this approach is not very portable, and therefore, it is recommended that you add any extensions to the project file instead.  
+ You can add the extension directly to the targets (*.targets*) file. However, adding the extension alters the extensions list for all SharePoint projects packaged on the local system, not just your own. This extension may be convenient when you are the sole developer on the system or if most of your projects require it. However, because it is system-specific, this approach is not portable, and therefore, it is recommended that you add any extensions to the project file instead.  
   
 ## See also
  [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  

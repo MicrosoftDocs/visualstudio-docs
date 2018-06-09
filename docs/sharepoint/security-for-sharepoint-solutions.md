@@ -25,7 +25,7 @@ ms.workload:
 ## Safe control entries
  Every SharePoint project item created in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] has a **Safe Control Entries** property that represents a safe controls collection. Its **Safe** subproperty enables you to specify the controls that you consider secure. For more information, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md) and [Specifying Safe Web Parts](http://go.microsoft.com/fwlink/?LinkId=177521).  
   
-## Allowpartiallytrustedcallers attribute
+## AllowPartiallyTrustedCallers attribute
  By default, only applications that are fully trusted by the runtime code access security (CAS) system can access a shared managed code assembly. Marking a fully trusted assembly with the AllowPartiallyTrustedCallers attribute allows partially trusted assemblies to access it.  
   
  The AllowPartiallyTrustedCallers attribute is added to any SharePoint solution that is not deployed to the system global assembly cache ([!INCLUDE[TLA2#tla_gac](../sharepoint/includes/tla2sharptla-gac-md.md)]). This includes sandboxed solutions or solutions deployed to the SharePoint application Bin directory. For more information, see [Version 1 Security Changes for the Microsoft .NET Framework](http://go.microsoft.com/fwlink/?LinkId=177515) and [Deploying Web Parts in SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkId=177509).  
