@@ -145,7 +145,7 @@ ms.workload:
   
 -   Create a custom task pane in a VSTO Add-in. For more information, see [Custom task panes](../vsto/custom-task-panes.md) and [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md).  
   
--   Customize the Ribbon in a VSTO Add-in. For more information, see [Ribbon overview](../vsto/ribbon-overview.md) and [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).  
+-   Customize the ribbon in a VSTO Add-in. For more information, see [Ribbon overview](../vsto/ribbon-overview.md) and [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md).  
   
 ## See also  
  [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)   
