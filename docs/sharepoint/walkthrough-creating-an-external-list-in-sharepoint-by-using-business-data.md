@@ -49,7 +49,7 @@ You need the following components to complete this walkthrough:
 
 ## Create a project that contains a BDC model
 
-1. On the menu bar in Visual Studio, choose **File ** > **New ** > **Project**.
+1. On the menu bar in Visual Studio, choose **File** > **New** > **Project**.
 
      The **New Project** dialog box opens.
 
@@ -65,7 +65,7 @@ You need the following components to complete this walkthrough:
 
 6. In **Solution Explorer**, choose the SharePoint project node.
 
-7. On the menu bar, choose **Project ** > **Add New Item**.
+7. On the menu bar, choose **Project** > **Add New Item**.
 
      The **Add New Item** dialog box opens.
 
@@ -73,7 +73,7 @@ You need the following components to complete this walkthrough:
 
 ## Add data access classes to the project
 
-1. On the menu bar, choose **Tools ** > **Connect to Database**.
+1. On the menu bar, choose **Tools** > **Connect to Database**.
 
      The **Add Connection** dialog box opens.
 
@@ -83,7 +83,7 @@ You need the following components to complete this walkthrough:
 
 3. In **Solution Explorer**, choose the project node.
 
-4. On the menu bar, choose **Project ** > **Add New Item**.
+4. On the menu bar, choose **Project** > **Add New Item**.
 
 5. In the **Installed Templates** pane, choose the **Data** node.
 
@@ -93,7 +93,7 @@ You need the following components to complete this walkthrough:
 
      A .dbml file is added to the project, and the Object Relational Designer (O/R Designer) opens.
 
-8. On the menu bar, choose **View ** > **Server Explorer**.
+8. On the menu bar, choose **View** > **Server Explorer**.
 
 9. In **Server Explorer**, expand the node that represents the AdventureWorks sample database, and then expand the **Tables** node.
 
@@ -119,13 +119,13 @@ The **Business Data Connectivity Model** project adds a default entity named Ent
 
 Add an entity to the model. You can add entities from the Visual Studio **Toolbox** onto the BDC designer.
 
-1. On the menu bar, choose **View ** > **Toolbox**.
+1. On the menu bar, choose **View** > **Toolbox**.
 
 2. On the **BusinessDataConnectivity** tab of the **Toolbox**, add an **Entity** onto the BDC designer.
 
      The new entity appears on the designer. Visual Studio adds a file that's named *EntityService.vb* (in Visual Basic) or *EntityService.cs* (in C#) to the project.
 
-3. On the menu bar, choose **View ** > **Properties ** > **Window**.
+3. On the menu bar, choose **View** > **Properties** > **Window**.
 
 4. In the **Properties** window, set the **Name** property value to **Contact**.
 
@@ -145,7 +145,7 @@ Add a Specific Finder method to the Contact entity by using the **BDC Method Det
 
 1. On the BDC designer, choose the **Contact** entity.
 
-2. On the menu bar, choose **View ** > **Other Windows ** > **BDC Method Details**.
+2. On the menu bar, choose **View** > **Other Windows** > **BDC Method Details**.
 
      The BDC Method Details window opens.
 

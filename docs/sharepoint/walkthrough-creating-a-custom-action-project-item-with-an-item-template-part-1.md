@@ -71,7 +71,7 @@ ms.workload:
   
 1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
-2.  On the menu bar, choose **File ** > **New ** > **Project**.  
+2.  On the menu bar, choose **File** > **New** > **Project**.  
   
 3.  In the list at the top of the **New Project** dialog box, make sure that **.NET Framework 4.5** is selected.  
   
@@ -328,7 +328,7 @@ ms.workload:
   
 13. Choose the **OK** button.  
   
-14. On the menu bar, choose **Build ** > **Build Solution**, and then make sure that the project compiles without errors.  
+14. On the menu bar, choose **Build** > **Build Solution**, and then make sure that the project compiles without errors.  
   
 15. Make sure that the build output folder for the CustomActionProjectItem project contains the CustomActionProjectItem.vsix file.  
   
@@ -349,7 +349,7 @@ ms.workload:
   
 #### To test the project item in Visual Studio  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **File ** > **New ** > **Project**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **File** > **New** > **Project**.  
   
 2.  Expand **Visual C#** or **Visual Basic** (depending on the language that your item template supports), expand **SharePoint**, and then choose the **2010** node.  
   
@@ -379,7 +379,7 @@ ms.workload:
   
      You can use this shortcut menu to provide additional options or commands for developers, such as displaying a designer for the custom action.  
   
-13. On the menu bar, choose **View ** > **Output**.  
+13. On the menu bar, choose **View** > **Output**.  
   
      The **Output** window opens.  
   
@@ -431,7 +431,7 @@ ms.workload:
   
 #### To clean up the development computer  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **Tools ** > **Extensions and Updates**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **Tools** > **Extensions and Updates**.  
   
      The **Extensions and Updates** dialog box opens.  
   

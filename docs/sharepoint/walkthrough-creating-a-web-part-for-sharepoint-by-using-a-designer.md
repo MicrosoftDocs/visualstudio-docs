@@ -48,7 +48,7 @@ First, create a web part project by using the **Visual Web Part** project templa
 
 1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using the **Run as Administrator** option.
 
-2. On the menu bar, choose **File ** > **New ** > **Project**.
+2. On the menu bar, choose **File** > **New** > **Project**.
 
      The **New Project** dialog box appears.
 
@@ -68,7 +68,7 @@ Design the web part by adding controls from the **Toolbox** to the surface of th
 
 1. On the Visual Web Developer designer, choose the **Design** tab to switch to Design view.
 
-2. On the menu bar, choose **View ** > **Toolbox**.
+2. On the menu bar, choose **View** > **Toolbox**.
 
 3. In the **Standard** node of the **Toolbox**, choose the **CheckBoxList** control, and then perform one of the following steps:
 
@@ -80,7 +80,7 @@ Design the web part by adding controls from the **Toolbox** to the surface of th
 
 5. In the designer, choose the **Button1** button.
 
-6. On the menu bar, choose **View ** > **Properties Window**.
+6. On the menu bar, choose **View** > **Properties Window**.
 
      The **Properties** window opens.
 

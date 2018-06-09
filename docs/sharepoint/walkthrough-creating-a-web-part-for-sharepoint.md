@@ -53,7 +53,7 @@ First, create a Empty SharePoint project. Later, you will add a Web Part to the 
 
 1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using the **Run as Administrator** option.
 
-2. On the men bar, choose **File ** > **New ** > **Project**.
+2. On the men bar, choose **File** > **New** > **Project**.
 
 3. In the **New Project** dialog box, expand the **SharePoint** node under the language that you want to use, and then choose the **2010** node.
 
@@ -67,7 +67,7 @@ First, create a Empty SharePoint project. Later, you will add a Web Part to the 
 
 Add a **Web Part** item to the project. The **Web Part** item adds the Web Part code file. Later, you will add code to the Web Part code file to render the contents of the Web Part.
 
-1. On the menu bar, choose **Project ** > **Add New Item**.
+1. On the menu bar, choose **Project** > **Add New Item**.
 
 2. In the **Add New Item** dialog box, in the **Installed Templates** pane, expand the **SharePoint** node, and then choose the **2010** node.
 
@@ -161,7 +161,7 @@ When you run the project, the SharePoint site opens. The Web Part is automatical
         </employees>
     ```
 
-2. In Notepad, on the menu bar, choose **File ** > **Save As**.
+2. In Notepad, on the menu bar, choose **File** > **Save As**.
 
 3. In the **Save As** dialog box, in the **Save as type** list, choose **All Files**.
 

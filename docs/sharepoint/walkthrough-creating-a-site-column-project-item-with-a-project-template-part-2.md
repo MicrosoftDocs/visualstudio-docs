@@ -173,7 +173,7 @@ ms.workload:
   
 5.  In the **SharePointCommands** project, add another code file that's named Commands.  
   
-6.  Choose the SharePointCommands project, and then, on the menu bar, choose **Project ** > **Add Reference**.  
+6.  Choose the SharePointCommands project, and then, on the menu bar, choose **Project** > **Add Reference**.  
   
 7.  Expand the **Assemblies** node, choose the **Extensions** node, and then select the check boxes next to the following assemblies:  
   
@@ -314,7 +314,7 @@ ms.workload:
   
 #### To build your project  
   
-1.  On the menu bar, choose **Build ** > **Build Solution**.  
+1.  On the menu bar, choose **Build** > **Build Solution**.  
   
 ## Removing the key.snk file from the project template
  In [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md), the project template that you created contains a key.snk file that is used to sign each Site Column project instance. This key.snk file is no longer necessary because the wizard now generates a new key.snk file for each project. Remove the key.snk file from the project template and remove references to this file.  
@@ -458,7 +458,7 @@ ms.workload:
   
 9. In the **Project** list, choose the **SharePointCommands** project, and then choose the **OK** button.  
   
-10. On the menu bar, choose **Build ** > **Build Solution**, and then make sure that the solution builds without errors.  
+10. On the menu bar, choose **Build** > **Build Solution**, and then make sure that the solution builds without errors.  
   
 ## Test the wizard
  You are now ready to test the wizard. First, start debugging the SiteColumnProjectItem solution in the experimental instance of Visual Studio. Then, test the wizard for the Site Column project in the experimental instance of Visual Studio. Finally, build and run the project to verify that the site column works as expected.  
@@ -469,17 +469,17 @@ ms.workload:
   
 2.  In the ProjectTemplateWizard project, open the SiteColumnProjectWizard code file, and then add a breakpoint to the first line of code in the `RunStarted` method.  
   
-3.  On the menu bar, choose **Debug ** > **Exceptions**.  
+3.  On the menu bar, choose **Debug** > **Exceptions**.  
   
 4.  In the **Exceptions** dialog box, make sure that the **Thrown** and **User-unhandled** check boxes for **Common Language Runtime Exceptions** are cleared, and then choose the **OK** button.  
   
-5.  Start debugging by choosing the **F5** key or, on the menu bar, choosing **Debug ** > **Start Debugging**.  
+5.  Start debugging by choosing the **F5** key or, on the menu bar, choosing **Debug** > **Start Debugging**.  
   
      Visual Studio installs the extension to %UserProfile%\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\Contoso\Site Column\1.0 and starts an experimental instance of Visual Studio. You'll test the project item in this instance of Visual Studio.  
   
 #### To test the wizard in Visual Studio  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **File ** > **New ** > **Project**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **File** > **New** > **Project**.  
   
 2.  Expand the **Visual C#** node or the **Visual Basic** node (depending on the language that your project template supports), expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -487,7 +487,7 @@ ms.workload:
   
 4.  Verify that the code in the other instance of Visual Studio stops on the breakpoint that you set earlier in the `RunStarted` method.  
   
-5.  Continue to debug the project by choosing the **F5** key or, on the menu bar, choosing **Debug ** > **Continue**.  
+5.  Continue to debug the project by choosing the **F5** key or, on the menu bar, choosing **Debug** > **Continue**.  
   
 6.  In the **SharePoint Customization Wizard**, enter the URL of the site that you want to use for debugging, and then choose the **Next** button.  
   
@@ -523,7 +523,7 @@ ms.workload:
   
 #### To clean up the development computer  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **Tools ** > **Extensions and Updates**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **Tools** > **Extensions and Updates**.  
   
      The **Extensions and Updates** dialog box opens.  
   

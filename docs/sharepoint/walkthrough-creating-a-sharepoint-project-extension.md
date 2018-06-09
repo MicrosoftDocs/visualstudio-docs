@@ -57,7 +57,7 @@ ms.workload:
   
 1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
-2.  On the menu bar, choose **File ** > **New ** > **Project**.  
+2.  On the menu bar, choose **File** > **New** > **Project**.  
   
 3.  In the **New Project** dialog box, expand the **Visual C#** or **Visual Basic** nodes, and then choose the **Extensibility** node.  
   
@@ -116,7 +116,7 @@ ms.workload:
   
 #### To build the solution  
   
-1.  On the menu bar, choose **Build ** > **Build Solution**.  
+1.  On the menu bar, choose **Build** > **Build Solution**.  
   
 ## Create a VSIX package to deploy the project property extension
  To deploy the project extension, use the VSIX project in your solution to create a VSIX package. First, configure the VSIX package by modifying the source.extension.vsixmanifest file that is included in the VSIX project. Then, create the VSIX package by building the solution.  
@@ -150,9 +150,9 @@ ms.workload:
   
 9. Choose **OK** to close the **Add New Asset** dialog box.  
   
-10. On the menu bar, choose **File ** > **Save All** when you finish, and then close the manifest designer.  
+10. On the menu bar, choose **File** > **Save All** when you finish, and then close the manifest designer.  
   
-11. On the menu bar, choose **Build ** > **Build Solution**, and then make sure that the project compiles without errors.  
+11. On the menu bar, choose **Build** > **Build Solution**, and then make sure that the project compiles without errors.  
   
 12. In **Solution Explorer**, open the shortcut menu for the **ProjectExtensionPackage** project, and choose the **Open Folder in File Explorer** button.  
   
@@ -167,13 +167,13 @@ ms.workload:
   
 1.  Restart [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] with administrative credentials, and then open the ProjectExtensionPackage solution.  
   
-2.  Start a debug build of your project either by choosing the **F5** key or, on the menu bar, choosing **Debug ** > **Start Debugging**.  
+2.  Start a debug build of your project either by choosing the **F5** key or, on the menu bar, choosing **Debug** > **Start Debugging**.  
   
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] installs the extension to %UserProfile%\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\Contoso\Custom Project Property\1.0 and starts an experimental instance of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
 3.  In the experimental instance of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create a SharePoint project for a farm solution, and use the default values for the other values in the wizard.  
   
-    1.  On the menu bar, choose **File ** > **New ** > **Project**.  
+    1.  On the menu bar, choose **File** > **New** > **Project**.  
   
     2.  At the top of the **New Project** dialog box, choose **.NET Framework 3.5** in the list of versions of the .NET Framework.  
   

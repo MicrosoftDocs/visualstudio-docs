@@ -88,7 +88,7 @@ ms.workload:
   
 1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
-2.  On the menu bar, choose **File ** > **New ** > **Project** to display the **New Project** dialog box.  
+2.  On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.  
   
 3.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
@@ -102,7 +102,7 @@ ms.workload:
   
      This step sets the trust level for the solution as farm solution, the only available option for workflow projects. For more information, see [Sandboxed Solution Considerations](../sharepoint/sandboxed-solution-considerations.md).  
   
-7.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project ** > **Add New Item**.  
+7.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project** > **Add New Item**.  
   
 8.  Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** node.  
   

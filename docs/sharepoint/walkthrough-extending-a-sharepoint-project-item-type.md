@@ -59,7 +59,7 @@ ms.workload:
   
 1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
-2.  On the menu bar, choose **File ** > **New ** > **Project**.  
+2.  On the menu bar, choose **File** > **New** > **Project**.  
   
 3.  In the **New Project** dialog box, expand the **Visual C#** or **Visual Basic** nodes, and then choose the **Extensibility** node.  
   
@@ -107,7 +107,7 @@ ms.workload:
   
     -   GenerateExternalDataLists  
   
-2.  Choose the BdcProjectItemExtension project, and then, on the menu bar, choose **Project ** > **Add Reference**.  
+2.  Choose the BdcProjectItemExtension project, and then, on the menu bar, choose **Project** > **Add Reference**.  
   
 3.  Under the **Assemblies** node, choose the **Framework** node, and the select the check box for each of the following assemblies:  
   
@@ -149,7 +149,7 @@ ms.workload:
   
 #### To build the solution  
   
-1.  On the menu bar, choose **Build ** > **Build Solution**.  
+1.  On the menu bar, choose **Build** > **Build Solution**.  
   
 ## Create a VSIX package to deploy the project item extension
  To deploy the extension, use the VSIX project in your solution to create a VSIX package. First, configure the VSIX package by modifying the source.extension.vsixmanifest file that is included in the VSIX project. Then, create the VSIX package by building the solution.  
@@ -179,7 +179,7 @@ ms.workload:
   
 8.  In the **Project** list, choose **BdcProjectItemExtension**, and then choose the **OK** button.  
   
-9. On the menu bar, choose **Build ** > **Build Solution**.  
+9. On the menu bar, choose **Build** > **Build Solution**.  
   
 10. Make sure that the project compiles and builds without errors.  
   
@@ -198,13 +198,13 @@ ms.workload:
   
 3.  Open the GenerateExternalDataLists code file, and then add a breakpoint to the first line of code in the `GenerateExternalDataLists_Execute` method.  
   
-4.  Start debugging by choosing the **F5** key or, on the menu bar, choosing **Debug ** > **Start Debugging**.  
+4.  Start debugging by choosing the **F5** key or, on the menu bar, choosing **Debug** > **Start Debugging**.  
   
      Visual Studio installs the extension to %UserProfile%\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Contoso\External Data List Generator\1.0 and starts an experimental instance of Visual Studio. You will test the project item in this instance of Visual Studio.  
   
 #### To test the extension  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **File ** > **New ** > **Project**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **File** > **New** > **Project**.  
   
 2.  In the **New Project** dialog box, expand the **Templates** node, expand the **Visual C#** node, expand the **SharePoint** node, and then choose **2010**.  
   
@@ -226,9 +226,9 @@ ms.workload:
   
 11. Verify that the code in the other instance of Visual Studio stops on the breakpoint that you set in the `Initialize` method of the ProjectItemExtension code file.  
   
-12. In the stopped instance of Visual Studio, choose the **F5** key, or on menu bar, choose **Debug ** > **Continue** to continue to debug the project.  
+12. In the stopped instance of Visual Studio, choose the **F5** key, or on menu bar, choose **Debug** > **Continue** to continue to debug the project.  
   
-13. In the experimental instance of Visual Studio, choose the **F5** key, or, on the menu bar, choose **Debug ** > **Start Debugging** to build, deploy, and run the **TestBDCModel** project.  
+13. In the experimental instance of Visual Studio, choose the **F5** key, or, on the menu bar, choose **Debug** > **Start Debugging** to build, deploy, and run the **TestBDCModel** project.  
   
      The web browser opens to the default page of the SharePoint site that's specified for debugging.  
   
@@ -238,11 +238,11 @@ ms.workload:
   
 16. In the instance of Visual Studio that has the TestBDCModel project open, open the shortcut menu for the **TestBDCModel** node in **Solution Explorer**, and then choose **Generate External Data List**.  
   
-17. Verify that the code in the other instance of Visual Studio stops on the breakpoint that you set in the `GenerateExternalDataLists_Execute` method. Choose the **F5** key, or, on the menu bar, choose **Debug ** > **Continue** to continue to debug the project.  
+17. Verify that the code in the other instance of Visual Studio stops on the breakpoint that you set in the `GenerateExternalDataLists_Execute` method. Choose the **F5** key, or, on the menu bar, choose **Debug** > **Continue** to continue to debug the project.  
   
 18. The experimental instance of Visual Studio adds a list instance that's named **Entity1DataList** to the TestBDCModel project, and the instance also generates a feature that's named **Feature2** for the list instance.  
   
-19. Choose the **F5** key, or, on the menu bar, choose **Debug ** > **Start Debugging** to build, deploy, and run the TestBDCModel project.  
+19. Choose the **F5** key, or, on the menu bar, choose **Debug** > **Start Debugging** to build, deploy, and run the TestBDCModel project.  
   
      The web browser opens to the default page of the SharePoint site that's used for debugging.  
   
@@ -271,13 +271,13 @@ ms.workload:
   
 #### To remove the BDC model from the SharePoint site  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **Build ** > **Retract**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **Build** > **Retract**.  
   
      Visual Studio removes the BDC model from the SharePoint site.  
   
 #### To remove the project item extension from Visual Studio  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **Tools ** > **Extensions and Updates**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **Tools** > **Extensions and Updates**.  
   
      The **Extensions and Updates** dialog box opens.  
   

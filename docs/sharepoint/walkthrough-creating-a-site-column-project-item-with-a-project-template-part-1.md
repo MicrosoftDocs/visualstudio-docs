@@ -65,7 +65,7 @@ ms.workload:
   
 1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
-2.  On the menu bar, choose **File ** > **New ** > **Project**.  
+2.  On the menu bar, choose **File** > **New** > **Project**.  
   
 3.  At the top of the **New Project** dialog box, make sure that **.NET Framework 4.5** is chosen in the list of versions of the .NET Framework.  
   
@@ -131,7 +131,7 @@ ms.workload:
   
 1.  In the ProjectItemTypeDefinition project, add a code file that's named **SiteColumnProjectItemTypeProvider**.  
   
-2.  On the menu bar, choose **Project ** > **Add Reference**.  
+2.  On the menu bar, choose **Project** > **Add Reference**.  
   
 3.  In the **Reference Manager - ProjectItemTypeDefinition** dialog box, expand the **Assemblies** node, choose the **Framework** node, and then select the System.ComponentModel.Composition check box.  
   
@@ -670,7 +670,7 @@ ms.workload:
   
 12. In the **Project** list, choose **ProjectItemTypeDefinition**, and then choose the **OK** button.  
   
-13. On the menu bar, choose **Build ** > **Build Solution**, and then make sure that the project compiles without errors.  
+13. On the menu bar, choose **Build** > **Build Solution**, and then make sure that the project compiles without errors.  
   
 ## Test the project template
  You are now ready to test the project template. First, start debugging the SiteColumnProjectItem solution in the experimental instance of Visual Studio. Then, test the **Site Column** project in the experimental instance of Visual Studio. Finally, build and run the SharePoint project to verify that the site column works as expected.  
@@ -687,7 +687,7 @@ ms.workload:
   
 #### To test the project in Visual Studio  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **File ** > **New ** > **Project**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **File** > **New** > **Project**.  
   
 2.  Expand the **Visual C#** or **Visual Basic** node (depending on the language that your project template supports), expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -736,7 +736,7 @@ ms.workload:
   
 #### To clean up the development computer  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **Tools ** > **Extensions and Updates**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **Tools** > **Extensions and Updates**.  
   
      The **Extensions and Updates** dialog box opens.  
   

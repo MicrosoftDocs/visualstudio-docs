@@ -54,7 +54,7 @@ ms.workload:
   
 #### To create the project  
   
-1.  On the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]**File** menu, choose **New ** > **Project**.  
+1.  On the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]**File** menu, choose **New** > **Project**.  
   
 2.  In the **New Project** dialog box, under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose **2010**.  
   
@@ -72,7 +72,7 @@ ms.workload:
   
 #### To add site columns  
   
-1.  Add a new site column. To do this, in **Solution Explorer**, open the shortcut menu for **Clinic**, and then choose **Add ** > **New Item**.  
+1.  Add a new site column. To do this, in **Solution Explorer**, open the shortcut menu for **Clinic**, and then choose **Add** > **New Item**.  
   
 2.  In the **Add New Item** dialog box, choose **Site Column**, change the name to **Patient Name**, and then choose the **Add** button.  
   
@@ -98,7 +98,7 @@ ms.workload:
   
 1.  Add a content type to the project. To do this, in **Solution Explorer**, choose the project node  
   
-2.  On the menu bar, choose **Project ** > **Add New Item**.  
+2.  On the menu bar, choose **Project** > **Add New Item**.  
   
 3.  Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -123,7 +123,7 @@ ms.workload:
   
 10. Change **Group Name** to **Clinic Content Types**, and leave the other settings at their default values.  
   
-11. On the menu bar, choose **File ** > **Save All**, and then close the Content Type designer.  
+11. On the menu bar, choose **File** > **Save All**, and then close the Content Type designer.  
   
 ## Create a list
  Now, create a list that uses the new content type and site columns.  
@@ -132,7 +132,7 @@ ms.workload:
   
 1.  Add a list to the project. To do this, in **Solution Explorer**, choose the project node.  
   
-2.  On the menu bar, choose **Project ** > **Add New Item**.  
+2.  On the menu bar, choose **Project** > **Add New Item**.  
   
 3.  Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -204,7 +204,7 @@ ms.workload:
   
 #### To test the application  
   
-1.  On the menu bar, choose **File ** > **Save All**.  
+1.  On the menu bar, choose **File** > **Save All**.  
   
 2.  Choose the **F5** key to run the application.  
   

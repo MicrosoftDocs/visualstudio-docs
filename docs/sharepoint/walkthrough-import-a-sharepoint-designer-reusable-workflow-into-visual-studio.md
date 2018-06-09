@@ -58,7 +58,7 @@ ms.workload:
   
 #### To create SharePoint subsites  
   
-1.  In SharePoint Designer 2010, on the menu bar, choose **File ** > **New Blank Web Site**.  
+1.  In SharePoint Designer 2010, on the menu bar, choose **File** > **New Blank Web Site**.  
   
 2.  In the **New Blank Web Site** dialog box, browse to a SharePoint site where you want to create the workflow, or use the value of http://*SystemName*/ and then choose the **OK** button.  
   
@@ -152,7 +152,7 @@ ms.workload:
   
 #### To import a workflow from a .wsp file and modify it  
   
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **File ** > **New ** > **Project**.  
+1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **File** > **New** > **Project**.  
   
 2.  In the **New Project** dialog box, expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
@@ -181,7 +181,7 @@ ms.workload:
   
 9. In the *Elements.xml* file, delete `InstantiationURL="_layouts/IniErkflIP.sspx"`.  
   
-10. In **Solution Explorer**, choose **WorkflowImportProject1**, and then, on the menu bar, choose **Project ** > **Set as Startup Project** to set **WorkflowImportProject1** as the Startup Item.  
+10. In **Solution Explorer**, choose **WorkflowImportProject1**, and then, on the menu bar, choose **Project** > **Set as Startup Project** to set **WorkflowImportProject1** as the Startup Item.  
   
      This displays the list immediately when you debug the project.  
   
@@ -193,7 +193,7 @@ ms.workload:
   
     3.  Fill in the missing values in the SharePoint Customization Wizard, and then choose the **Finish** button.  
   
-12. Choose the .xoml file, and then, on the menu bar, choose **View ** > **Designer** to view the imported workflow in the workflow designer.  
+12. Choose the .xoml file, and then, on the menu bar, choose **View** > **Designer** to view the imported workflow in the workflow designer.  
   
 13. In the **Windows Workflow v3.0** node of the **Toolbox**, perform one of the following steps:  
   

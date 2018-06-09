@@ -46,7 +46,7 @@ ms.workload:
   
 #### To create a site definition project  
   
-1.  On the menu bar, choose **File ** > **New ** > **Project**. If your IDE is set to use Visual Basic development settings, on the menu bar, choose **File ** > **New Project**.  
+1.  On the menu bar, choose **File** > **New** > **Project**. If your IDE is set to use Visual Basic development settings, on the menu bar, choose **File** > **New Project**.  
   
      The **New Project** dialog box appears.  
   
@@ -68,7 +68,7 @@ ms.workload:
   
      The project appears in **Solution Explorer**.  
   
-8.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project ** > **Add New Item**.  
+8.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project** > **Add New Item**.  
   
 9. Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -81,7 +81,7 @@ ms.workload:
   
 1.  In **Solution Explorer**, choose the **Show All Files** button.  
   
-2.  Choose the **SiteDefinition1** project node, and then, on the menu bar, choose **Project ** > **Add New Item**.  
+2.  Choose the **SiteDefinition1** project node, and then, on the menu bar, choose **Project** > **Add New Item**.  
   
      The **Add New Item** dialog box appears.  
   
@@ -146,7 +146,7 @@ ms.workload:
   
 #### To deploy and run the site definition  
   
--   On the menu bar, choose **Build ** > **Deploy TestSiteDef**.  
+-   On the menu bar, choose **Build** > **Deploy TestSiteDef**.  
   
 -   Choose the **F5** key.  
   

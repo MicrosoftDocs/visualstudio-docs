@@ -67,7 +67,7 @@ ms.workload:
   
 1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
-2.  On the menu bar, choose **File ** > **New ** > **Project**.  
+2.  On the menu bar, choose **File** > **New** > **Project**.  
   
 3.  In the  **New Project** dialog box, expand the **Visual C#** or **Visual Basic** nodes, and then choose the **Extensibility** node.  
   
@@ -260,7 +260,7 @@ ms.workload:
   
 #### To build the solution  
   
-1.  On the menu bar, choose **Build ** > **Build Solution**.  
+1.  On the menu bar, choose **Build** > **Build Solution**.  
   
     > [!WARNING]  
     >  At this point, the WebPartNode project may have a build error because the VSIX manifest file doesn't have a value for Author. This error will go away when you add a value in later steps.  
@@ -306,7 +306,7 @@ ms.workload:
   
 12. In the **Project** list, choose **WebPartCommands**, and then choose the **OK** button.  
   
-13. On the menu bar, choose **Build ** > **Build Solution**, and then make sure that the solution compiles without errors.  
+13. On the menu bar, choose **Build** > **Build Solution**, and then make sure that the solution compiles without errors.  
   
 14. Make sure that the build output folder for the WebPartNode project now contains the WebPartNode.vsix file.  
   
@@ -327,7 +327,7 @@ ms.workload:
   
 #### To test the extension  
   
-1.  In the experimental instance of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **View ** > **Server Explorer**.  
+1.  In the experimental instance of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **View** > **Server Explorer**.  
   
 2.  Perform the following steps if the SharePoint site that you want to use for testing doesn't appear under the **SharePoint Connections** node in **Server Explorer**:  
   
@@ -356,7 +356,7 @@ ms.workload:
   
 #### To uninstall the extension  
   
-1.  In the experimental instance of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **Tools ** > **Extensions and Updates**.  
+1.  In the experimental instance of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **Tools** > **Extensions and Updates**.  
   
      The **Extensions and Updates** dialog box opens.  
   

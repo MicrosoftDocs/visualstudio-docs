@@ -65,7 +65,7 @@ ms.workload:
   
 #### To create a SharePoint sequential workflow project  
   
-1.  On the menu bar, choose **File ** > **New ** > **Project** to display the **New Project** dialog box.  
+1.  On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.  
   
 2.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
@@ -81,7 +81,7 @@ ms.workload:
   
 6.  In **Solution Explorer**, choose the project node.  
   
-7.  On the menu bar, choose **Project ** > **Add New Item**.  
+7.  On the menu bar, choose **Project** > **Add New Item**.  
   
 8.  Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -104,7 +104,7 @@ ms.workload:
   
 1.  Choose the **Workflow1** node in **Solution Explorer**.  
   
-2.  On the menu bar, choose **Project ** > **Add New Item** to display the **Add New Item** dialog box.  
+2.  On the menu bar, choose **Project** > **Add New Item** to display the **Add New Item** dialog box.  
   
 3.  In the dialog box tree view, expand either **Visual C#** or **Visual Basic** (depending on your project language), expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -165,7 +165,7 @@ ms.workload:
   
 1.  Choose the **Workflow1** node in **Solution Explorer**.  
   
-2.  On the menu bar, choose **Project ** > **Add New Item** display the **Add New Item** dialog box.  
+2.  On the menu bar, choose **Project** > **Add New Item** display the **Add New Item** dialog box.  
   
 3.  In the dialog box tree view, expand either **Visual C#** or **Visual Basic**  (depending on your project language), expand the **SharePoint** node, and then choose the **2010** node.  
   

@@ -101,7 +101,7 @@ ms.workload:
   
 #### To import a .wsp file  
   
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **File ** > **New ** > **Project** to display the **New Project** dialog box. If your IDE is set to use Visual Basic development settings, on the menu bar, choose **File ** > **New Project**.  
+1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box. If your IDE is set to use Visual Basic development settings, on the menu bar, choose **File** > **New Project**.  
   
 2.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   

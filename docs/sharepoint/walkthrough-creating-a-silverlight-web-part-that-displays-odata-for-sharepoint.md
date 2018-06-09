@@ -36,7 +36,7 @@ ms.workload:
   
 #### To create a Silverlight application and Silverlight web part
   
-1.  On the menu bar, choose **File ** > **New ** > **Project** to display the **New Project** dialog box.  
+1.  On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.  
   
 2.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
@@ -78,9 +78,9 @@ ms.workload:
   
 4.  Choose the **OK** button to add the service reference to the project, and use the default service name, ServiceReference1.  
   
-5.  On the menu bar, choose **Build ** > **Build Solution**.  
+5.  On the menu bar, choose **Build** > **Build Solution**.  
   
-6.  Add a new data source to the project based on the SharePoint service. To do this, on the menu bar, choose **View ** > **Other Windows ** > **Data Sources**.  
+6.  Add a new data source to the project based on the SharePoint service. To do this, on the menu bar, choose **View** > **Other Windows** > **Data Sources**.  
   
      The **Data Sources** window shows all of the available SharePoint list data, such as Tasks, Announcements, and Calendar.  
   

@@ -66,7 +66,7 @@ ms.workload:
   
 1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
-2.  On the menu bar, choose **File ** > **New ** > **Project**.  
+2.  On the menu bar, choose **File** > **New** > **Project**.  
   
 3.  In the **New Project** dialog box, expand the **Visual C#** or **Visual Basic** nodes, and then choose the **Extensibility** node.  
   
@@ -221,7 +221,7 @@ ms.workload:
   
 12. In the **Project** list, choose **SharePointCommands**, and then choose the **OK** button.  
   
-13. On the menu bar, choose **Build ** > **Build Solution**, and then make sure that the solution compiles without errors.  
+13. On the menu bar, choose **Build** > **Build Solution**, and then make sure that the solution compiles without errors.  
   
 14. Make sure that the build output folder for the UpgradeDeploymentStep project now contains the UpgradeDeploymentStep.vsix file.  
   
@@ -238,13 +238,13 @@ ms.workload:
   
 2.  In the DeploymentStepExtension project, open the UpgradeStep code file, and then add a breakpoint to the first line of code in the `CanExecute` and `Execute` methods.  
   
-3.  Start debugging by choosing the **F5** key or, on the menu bar, choosing **Debug ** > **Start Debugging**.  
+3.  Start debugging by choosing the **F5** key or, on the menu bar, choosing **Debug** > **Start Debugging**.  
   
 4.  Visual Studio installs the extension to %UserProfile%\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\Contoso\Upgrade Deployment Step for SharePoint Projects\1.0 and starts an experimental instance of Visual Studio. You'll test the upgrade deployment step in this instance of Visual Studio.  
   
 #### To create a SharePoint project with a list definition and a list instance  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **File ** > **New ** > **Project**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **File** > **New** > **Project**.  
   
 2.  In the **New Project** dialog box, expand the **Visual C#** node or the **Visual Basic** node, expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -336,7 +336,7 @@ ms.workload:
   
 2.  In the **Properties** window, make sure that the **Active Deployment Configuration** property is set to **Default**.  
   
-3.  Choose the **F5** key or, on the menu bar, choose **Debug ** > **Start Debugging**.  
+3.  Choose the **F5** key or, on the menu bar, choose **Debug** > **Start Debugging**.  
   
 4.  Verify that the project builds successfully, that the web browser opens to the SharePoint site, that the **Lists** item in the Quick Launch bar includes the new **Employees** list, and that the **Employees** list includes the entry for Jim Hance.  
   
@@ -374,7 +374,7 @@ ms.workload:
   
      This action removes these fields from the default view of the **Employees** list on the SharePoint site.  
   
-8.  Start debugging by choosing the **F5** key or, on the menu bar, choosing **Debug ** > **Start Debugging**.  
+8.  Start debugging by choosing the **F5** key or, on the menu bar, choosing **Debug** > **Start Debugging**.  
   
 9. Verify that the **Deployment Conflicts** dialog box appears.  
   
@@ -429,15 +429,15 @@ ms.workload:
   
      This action removes these fields from the default view of the **Employees** list on the SharePoint site.  
   
-5.  Start debugging by choosing the **F5** key or, on the menu bar, choosing **Debug ** > **Start Debugging**.  
+5.  Start debugging by choosing the **F5** key or, on the menu bar, choosing **Debug** > **Start Debugging**.  
   
 6.  Verify that the code in the other instance of Visual Studio stops on the breakpoint that you set earlier in the `CanExecute` method.  
   
-7.  Choose the **F5** key again or, on the menu bar, choose **Debug ** > **Continue**.  
+7.  Choose the **F5** key again or, on the menu bar, choose **Debug** > **Continue**.  
   
 8.  Verify that the code stops on the breakpoint that you set earlier in the `Execute` method.  
   
-9. Choose the **F5** key or, on the menu bar, choose **Debug ** > **Continue** a final time.  
+9. Choose the **F5** key or, on the menu bar, choose **Debug** > **Continue** a final time.  
   
      The web browser opens the SharePoint site.  
   
@@ -464,13 +464,13 @@ ms.workload:
   
 #### To remove the list definition from the SharePoint site  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **Build ** > **Retract**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **Build** > **Retract**.  
   
      Visual Studio retracts the list definition from the SharePoint site.  
   
 #### To uninstall the extension  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **Tools ** > **Extensions and Updates**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **Tools** > **Extensions and Updates**.  
   
      The **Extensions and Updates** dialog box opens.  
   

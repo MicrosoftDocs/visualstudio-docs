@@ -61,7 +61,7 @@ Knowledge of the following concepts is helpful, but not required, to complete th
   
 1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
-2.  On the menu bar, choose **File ** > **New ** > **Project**.  
+2.  On the menu bar, choose **File** > **New** > **Project**.  
   
 3.  In the **New Project** dialog box, expand the **Visual C#** or **Visual Basic** nodes, and then choose **Extensibility**.  
   
@@ -208,7 +208,7 @@ Knowledge of the following concepts is helpful, but not required, to complete th
   
 8.  In the **Project** list, choose **WebPartNodeExtension**, and then choose the **OK** button.  
   
-9. On the menu bar, choose **Build ** > **Build Solution**, and then make sure that the solution compiles without errors.  
+9. On the menu bar, choose **Build** > **Build Solution**, and then make sure that the solution compiles without errors.  
   
 10. Make sure that the build output folder for the WebPartNode project now contains the WebPartNode.vsix file.  
   
@@ -229,7 +229,7 @@ Knowledge of the following concepts is helpful, but not required, to complete th
   
 #### To test the extension  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **View ** > **Server Explorer**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **View** > **Server Explorer**.  
   
 2.  Verify that the SharePoint site that you want to use for testing appears under the **SharePoint Connections** node in **Server Explorer**. If it's not listed, follow these steps:  
   
@@ -262,7 +262,7 @@ Knowledge of the following concepts is helpful, but not required, to complete th
   
 #### To uninstall the extension  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **Tools ** > **Extensions and Updates**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **Tools** > **Extensions and Updates**.  
   
      The **Extensions and Updates** dialog box opens.  
   

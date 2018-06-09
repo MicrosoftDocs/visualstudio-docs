@@ -46,7 +46,7 @@ ms.workload:
   
 #### To create a SharePoint project  
   
-1.  On the menu bar, choose **File ** > **New ** > **Project** to display the **New Project** dialog box.  
+1.  On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.  
   
 2.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   

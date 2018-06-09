@@ -155,7 +155,7 @@ ms.workload:
   
 #### To build your project  
   
-1.  On the menu bar, choose **Build ** > **Build Solution**.  
+1.  On the menu bar, choose **Build** > **Build Solution**.  
   
 ## Associate the wizard with the item template
  Now that you have implemented the wizard, you must associate it with the **Custom Action** item template by completing three main steps:  
@@ -176,7 +176,7 @@ ms.workload:
   
 4.  In the **Create Strong Name Key** dialog box, enter a name, clear the **Protect my key file with a password** check box, and then choose the **OK** button.  
   
-5.  On the menu bar, choose **Build ** > **Build Solution**.  
+5.  On the menu bar, choose **Build** > **Build Solution**.  
   
 #### To get the public key token for the wizard assembly  
   
@@ -251,7 +251,7 @@ ms.workload:
   
 5.  In the **Project** list, choose **ItemTemplateWizard**, and then choose the **OK** button.  
   
-6.  On the menu bar, choose **Build ** > **Build Solution**, and then make sure that the solution compiles without errors.  
+6.  On the menu bar, choose **Build** > **Build Solution**, and then make sure that the solution compiles without errors.  
   
 ## Test the wizard
  You are now ready to test the wizard. First, start to debug the CustomActionProjectItem solution in the experimental instance of Visual Studio. Then test the wizard for the Custom Action project item in a SharePoint project in the experimental instance of Visual Studio. Finally, build and run the SharePoint project to verify that the custom action works as expected.  
@@ -262,17 +262,17 @@ ms.workload:
   
 2.  In the ItemTemplateWizard project, open the CustomActionWizard code file, and then add a breakpoint to the first line of code in the `RunStarted` method.  
   
-3.  On the menu bar, choose **Debug ** > **Exceptions**.  
+3.  On the menu bar, choose **Debug** > **Exceptions**.  
   
 4.  In the **Exceptions** dialog box, make sure that the **Thrown** and **User-unhandled** check boxes for **Common Language Runtime Exceptions** are cleared, and then choose the **OK** button.  
   
-5.  Start debugging by choosing the **F5** key, or, on the menu bar, choosing **Debug ** > **Start Debugging**.  
+5.  Start debugging by choosing the **F5** key, or, on the menu bar, choosing **Debug** > **Start Debugging**.  
   
      Visual Studio installs the extension to %UserProfile%\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\Contoso\Custom Action Project Item\1.0 and starts an experimental instance of Visual Studio. You'll test the project item in this instance of Visual Studio.  
   
 #### To test the wizard in Visual Studio  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **File ** > **New ** > **Project**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **File** > **New** > **Project**.  
   
 2.  Expand the **Visual C#** or **Visual Basic** node (depending on the language that your item template supports), expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -288,7 +288,7 @@ ms.workload:
   
 8.  Verify that the code in the other instance of Visual Studio stops on the breakpoint that you set earlier in the `RunStarted` method.  
   
-9. Continue to debug the project by choosing the **F5** key or, on the menu bar, choosing **Debug ** > **Continue**.  
+9. Continue to debug the project by choosing the **F5** key or, on the menu bar, choosing **Debug** > **Continue**.  
   
      The SharePoint Customization Wizard appears.  
   
@@ -306,7 +306,7 @@ ms.workload:
   
 #### To test the custom action in SharePoint  
   
-1.  In the experimental instance of Visual Studio, choose the **F5** key or, on the menu bar, choose **Debug ** > **Start Debugging**.  
+1.  In the experimental instance of Visual Studio, choose the **F5** key or, on the menu bar, choose **Debug** > **Start Debugging**.  
   
      The custom action is packaged and deployed to the SharePoint site specified by the **Site URL** property of the project, and the web browser opens to the default page of this site.  
   
@@ -328,7 +328,7 @@ ms.workload:
   
 #### To clean up the development computer  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **Tools ** > **Extensions and Updates**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **Tools** > **Extensions and Updates**.  
   
      The **Extensions and Updates** dialog box opens.  
   

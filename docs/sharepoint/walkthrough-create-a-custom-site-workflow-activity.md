@@ -51,7 +51,7 @@ ms.workload:
   
 #### To create a site workflow custom activity project  
   
-1.  On the menu bar, choose **File ** > **New ** > **Project** to display the **New Project** dialog box.  
+1.  On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.  
   
 2.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
@@ -65,7 +65,7 @@ ms.workload:
   
      This step sets the trust level for the solution as farm solution, the only available option for workflow projects.  
   
-6.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project ** > **Add New Item**.  
+6.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project** > **Add New Item**.  
   
 7.  Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -82,7 +82,7 @@ ms.workload:
   
 #### To add a custom workflow activity class  
   
-1.  On the menu bar, choose **Project ** > **Add New Item** to display the **Add New Item** dialog box.  
+1.  On the menu bar, choose **Project** > **Add New Item** to display the **Add New Item** dialog box.  
   
 2.  In the **Installed Templates** tree view, choose the **Code** node, and then choose the **Class** template in the list of project item templates. Use the default name Class1. Choose the **Add** button.  
   
@@ -91,7 +91,7 @@ ms.workload:
      [!code-csharp[SP_AnnBackup#1](../sharepoint/codesnippet/CSharp/announcementbackup/class1.cs#1)]
      [!code-vb[SP_AnnBackup#1](../sharepoint/codesnippet/VisualBasic/announcementbackupvb/class1.vb#1)]  
   
-4.  Save the project, and then, on the menu bar, choose **Build ** > **Build Solution**.  
+4.  Save the project, and then, on the menu bar, choose **Build** > **Build Solution**.  
   
      Class1 appears as a custom action in the **Toolbox** on the **AnnouncementBackup Components** tab.  
   

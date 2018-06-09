@@ -60,7 +60,7 @@ To create an application page, add an **Application Page** item to the project.
 
 1. In **Solution Explorer**, choose the **MySharePointProject** project.
 
-2. On the menu bar, choose **Project ** > **Add New Item**.
+2. On the menu bar, choose **Project** > **Add New Item**.
 
 3. In the **Add New Item** dialog box, choose the **Application Page (Farm Solution Only** template.
 
@@ -72,7 +72,7 @@ To create an application page, add an **Application Page** item to the project.
 
 The Application Page item enables you to use a designer to add ASP.NET controls to the application page. This designer is the same designer used in Visual Web Developer. Add a label, a radio button list, and a table to the **Source** view of the designer, and then set properties just as you would when you design any standard ASP.NET page.
 
-1. On the menu bar, choose **View ** > **Toolbox**.
+1. On the menu bar, choose **View** > **Toolbox**.
 
 2. In the Standard node of the **Toolbox**, perform one of the following steps:
 

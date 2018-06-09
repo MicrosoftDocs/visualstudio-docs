@@ -167,7 +167,7 @@ ms.workload:
   
     -   If the existing master page is set as Custom Master Page, temporarily set another master page as Custom Master Page. After you deploy the files to SharePoint, set your new master page as Custom Master Page.  
   
-6.  On the menu bar, choose **Build ** > **Deploy Solution**.  
+6.  On the menu bar, choose **Build** > **Deploy Solution**.  
   
 7.  Open the SharePoint site to view the deployed items.  
   

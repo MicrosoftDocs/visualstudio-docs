@@ -42,7 +42,7 @@ Create a SharePoint list project and associate the list definition with tasks.
 
 3. Specify the local SharePoint site that you use for debugging, choose the **Deploy as a farm solution** option button, and then choose the **Finish** button.
 
-4. Open the shortcut menu for the project, and then choose **Add ** > **New Item**.
+4. Open the shortcut menu for the project, and then choose **Add** > **New Item**.
 
 5. In the **Templates** pane, choose the **List** template, and then choose the **Add** button.
 
@@ -135,13 +135,13 @@ After you build and test the project task list, you can deploy it to the *local 
 
 ### To deploy the project task list to the local system
 
-On the Visual Studio menu bar, choose **Build ** > **Deploy Solution**.
+On the Visual Studio menu bar, choose **Build** > **Deploy Solution**.
 
 Visual Studio recycles the IIS application pool, retracts any existing versions of the solution, copies the solution package (*.wsp*) file to SharePoint, and then activates its features. You can now use the solution in SharePoint. For more information about deployment configuration steps, see [How to: Edit a SharePoint Deployment Configuration](../sharepoint/how-to-edit-a-sharepoint-deployment-configuration.md).
 
 ### To deploy the project task list to a remote system
 
-1. On the Visual Studio menu bar, choose **Build ** > **Publish**.
+1. On the Visual Studio menu bar, choose **Build** > **Publish**.
 
 2. In the **Publish** dialog box, choose the **Publish to File System** option button.
 
