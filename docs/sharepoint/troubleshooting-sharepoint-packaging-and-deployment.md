@@ -59,7 +59,7 @@ ms.workload:
 
 3.  Set the feature activation order according to the hierarchy in the Package Designer.
 
- You can add custom deployment steps to further change the F5 behavior. For more information, see [Walkthrough: Creating a Custom Deployment Step for SharePoint Projects](../sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md).
+ You can add custom deployment steps to further change the **F5** behavior. For more information, see [Walkthrough: Creating a Custom Deployment Step for SharePoint Projects](../sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md).
 
 ## Delay displaying SharePoint page when Deploy visual web part
  The SharePoint page takes a long time to appear when deploying a Visual Web part to the Bin folder on [!INCLUDE[wiprlhext](../sharepoint/includes/wiprlhext-md.md)], [!INCLUDE[win7](../sharepoint/includes/win7-md.md)], or [!INCLUDE[winsvr08](../sharepoint/includes/winsvr08-md.md)]. If you change any files in a top-level [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] directory, such as the Bin directory, the entire Web application recompiles. This can cause a delay of up to 25 seconds for the SharePoint page to render.

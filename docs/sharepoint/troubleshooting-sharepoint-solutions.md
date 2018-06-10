@@ -188,7 +188,7 @@ ms.workload:
   
 1.  In **Solution Explorer**, choose the user control file, whose file name extension is *.ascx*.  
   
-2.  On the menu bar, choose **View**, **Properties Window**.  
+2.  On the menu bar, choose **View** > **Properties Window**.  
   
 3.  In the **Properties** window, expand the **Deployment Location** node.  
   
