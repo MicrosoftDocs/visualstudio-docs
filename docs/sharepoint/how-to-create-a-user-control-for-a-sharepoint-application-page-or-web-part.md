@@ -49,7 +49,7 @@ ms.workload:
   
 7.  If you want to handle events that occur in the control, add code to the code file of the user control.  
   
-     This file appears in **Solution Explorer** under the user control file and has a .cs or .vb extension, depending on the language of the project.  
+     This file appears in **Solution Explorer** under the user control file and has a *.cs* or *.vb* extension, depending on the language of the project.  
   
 ## See also
  [Creating Reusable Controls for Web Parts or Application Pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)   

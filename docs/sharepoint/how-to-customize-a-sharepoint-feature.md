@@ -45,7 +45,7 @@ ms.workload:
   
 1.  In **Solution Explorer**, choose the **Show All Files** icon.  
   
-2.  Expand Features, expand FeatureName, expand FeatureName.feature, and then open the *{FeatureName}.Template.xml* file.  
+2.  Expand Features, expand FeatureName, expand FeatureName.feature, and then open the *\<FeatureName>.Template.xml* file.  
   
     > [!NOTE]  
     >  When you open the Feature template manifest XML file, the files are automatically validated and the warnings that appear in the Error List window can be ignored.  

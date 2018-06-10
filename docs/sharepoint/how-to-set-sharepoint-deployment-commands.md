@@ -23,7 +23,7 @@ ms.workload:
   
 ### To add a pre-deployment command  
   
-1.  On the menu bar, choose **Project** > **{*ProjectName*} Properties**.  
+1.  On the menu bar, choose **Project** > **\<*ProjectName*> Properties**.  
   
 2.  Choose the **SharePoint** tab.  
   
@@ -33,7 +33,7 @@ ms.workload:
   
 ### To add a post-deployment command  
   
-1.  On the menu bar, choose **Project** > **{*ProjectName*} Properties**.  
+1.  On the menu bar, choose **Project** > **\<*ProjectName*> Properties**.  
   
 2.  Choose the **SharePoint** tab.  
   

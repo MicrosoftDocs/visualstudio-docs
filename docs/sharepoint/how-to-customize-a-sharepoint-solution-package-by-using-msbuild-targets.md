@@ -42,7 +42,7 @@ ms.workload:
   
 3.  Open the project, open its shortcut menu, and then choose **Unload Project**.  
   
-4.  In **Solution Explorer**, open the shortcut menu for the project, and then choose *Edit{ProjectName}.vbproj* or *Edit{ProjectName}.csproj*.  
+4.  In **Solution Explorer**, open the shortcut menu for the project, and then choose **Edit** *\<ProjectName>.vbproj* or **Edit** *\<ProjectName>.csproj*.  
   
 5.  After the `Import` line near the end of the project file, add the following line.  
   

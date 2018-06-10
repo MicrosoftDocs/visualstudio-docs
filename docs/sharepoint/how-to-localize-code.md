@@ -51,7 +51,7 @@ ms.workload:
   
 8.  In the **Package Designer**, choose the **Advanced** tab, and then add the satellite assembly.  
   
-9. In the **Location** box, prepend a culture ID folder to the Location path, such as *de-DE\\{Project Item Name}.resources.dll*.  
+9. In the **Location** box, prepend a culture ID folder to the Location path, such as *de-DE\\\<Project Item Name>.resources.dll*.  
   
 10. If your solution does not already reference the System.Web assembly, add a reference to it, and add a directive in your code to <xref:System.Web>.  
   
