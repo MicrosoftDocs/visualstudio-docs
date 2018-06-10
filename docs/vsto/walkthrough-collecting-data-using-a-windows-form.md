@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Collecting Data Using a Windows Form | Microsoft Docs"
+title: "Walkthrough: Collect data using a Windows Form"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Collecting Data Using a Windows Form
+# Walkthrough: Collect data by using a Windows Form
   This walkthrough demonstrates how to open a Windows Form from a document-level customization for Microsoft Office Excel, collect information from the user, and write that information into a worksheet cell.  
   
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
@@ -36,18 +36,18 @@ ms.workload:
 > [!NOTE]  
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
-## Creating a New Project  
+## Create a new project  
  The first step is to create an Excel Workbook project.  
   
-#### To create a new project  
+### To create a new project  
   
-1.  Create an Excel Workbook project with the name **WinFormInput**, and select **Create a new document** in the wizard. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
+1.  Create an Excel Workbook project with the name **WinFormInput**, and select **Create a new document** in the wizard. For more information, see [How to: create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
      Visual Studio opens the new Excel workbook in the designer and adds the **WinFormInput** project to **Solution Explorer**.  
   
-## Adding a NamedRange Control to the Worksheet  
+## Add a NamedRange control to the worksheet  
   
-#### To add a named range to Sheet1  
+### To add a named range to Sheet1  
   
 1.  Select cell **A1** on `Sheet1`.  
   
@@ -55,14 +55,14 @@ ms.workload:
   
      The **Name** box is located to the left of the formula bar, just above column **A** of the worksheet.  
   
-3.  Press ENTER.  
+3.  Press **Enter**.  
   
      A <xref:Microsoft.Office.Tools.Excel.NamedRange> control is added to cell **A1**. There is no visible indication on the worksheet, but **formInput** appears in the **Name** box (just above the worksheet on the left side) and in the **Properties** window when cell **A1** is selected.  
   
-## Adding a Windows Form to the Project  
+## Add a Windows Form to the project  
  Create a Windows Form to prompt the user for information.  
   
-#### To add a Windows Form  
+### To add a Windows Form  
   
 1.  Select the project **WinFormInput** in **Solution Explorer**.  
   
@@ -78,7 +78,7 @@ ms.workload:
   
  Next, add code to `ThisWorkbook.vb` or `ThisWorkbook.cs` to collect the user's information.  
   
-## Displaying the Windows Form and Collecting Information  
+## Display the Windows Form and collecting information  
  Create an instance of the `GetInputString` Windows Form and display it, and then write the user's information into a cell in the worksheet.  
   
 #### To display the form and collect information  
@@ -88,7 +88,7 @@ ms.workload:
 2.  In the <xref:Microsoft.Office.Tools.Excel.Workbook.Open> event handler of `ThisWorkbook`, add the following code to declare a variable for the form `GetInputString` and then show the form.  
   
     > [!NOTE]  
-    >  In C#, you must add an event handler as shown in the <xref:Microsoft.Office.Tools.Excel.Workbook.Startup> event below. For information about creating event handlers, see [How to: Create Event Handlers in Office Projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
+    >  In C#, you must add an event handler as shown in the <xref:Microsoft.Office.Tools.Excel.Workbook.Startup> event below. For information about creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
   
      [!code-csharp[Trin_VstcoreProgrammingCollectingData#1](../vsto/codesnippet/CSharp/WinFormInputCS/ThisWorkbook.cs#1)]
      [!code-vb[Trin_VstcoreProgrammingCollectingData#1](../vsto/codesnippet/VisualBasic/WinFormInput/ThisWorkbook.vb#1)]  
@@ -100,9 +100,9 @@ ms.workload:
   
  Next, add code to the form to handle the button's click event.  
   
-## Sending Information to the Worksheet  
+## Send information to the worksheet  
   
-#### To send information to the worksheet  
+### To send information to the worksheet  
   
 1.  Right-click **GetInputString** in **Solution Explorer**, and then click **View Designer**.  
   
@@ -113,12 +113,12 @@ ms.workload:
      [!code-csharp[Trin_VstcoreProgrammingCollectingData#3](../vsto/codesnippet/CSharp/WinFormInputCS/GetInputString.cs#3)]
      [!code-vb[Trin_VstcoreProgrammingCollectingData#3](../vsto/codesnippet/VisualBasic/WinFormInput/GetInputString.vb#3)]  
   
-## Testing  
+## Test  
  You can now run the project. The Windows Form appears, and your input appears in the worksheet.  
   
-#### To test your workbook  
+### To test your workbook  
   
-1.  Press F5 to run your project.  
+1.  Press **F5** to run your project.  
   
 2.  Confirm that the Windows Form appears.  
   
@@ -126,19 +126,19 @@ ms.workload:
   
 4.  Confirm that **Hello World** appears in cell **A1** of the worksheet.  
   
-## Next Steps  
+## Next steps  
  This walkthrough shows the basics of showing a Windows Form and passing data to a worksheet. Other tasks you may want to perform include:  
   
--   Use Windows Forms controls on an Excel workbook or a Word document. For more information, see [Windows Forms Controls on Office Documents Overview](../vsto/windows-forms-controls-on-office-documents-overview.md).  
+-   Use Windows Forms controls on an Excel workbook or a Word document. For more information, see [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md).  
   
--   Modify the user interface of a Microsoft Office application from a document-level customization or an VSTO Add-in. For more information, see [Office UI Customization](../vsto/office-ui-customization.md).  
+-   Modify the user interface of a Microsoft Office application from a document-level customization or an VSTO Add-in. For more information, see [Office UI customization](../vsto/office-ui-customization.md).  
   
-## See Also  
- [Developing Office Solutions](../vsto/developing-office-solutions.md)   
- [Writing Code in Office Solutions](../vsto/writing-code-in-office-solutions.md)   
- [Programming VSTO Add-Ins](../vsto/programming-vsto-add-ins.md)   
- [Programming Document-Level Customizations](../vsto/programming-document-level-customizations.md)   
- [Walkthroughs Using Word](../vsto/walkthroughs-using-word.md)   
- [Walkthroughs Using Excel](../vsto/walkthroughs-using-excel.md)  
+## See also  
+ [Develop Office solutions](../vsto/developing-office-solutions.md)   
+ [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)   
+ [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)   
+ [Program document-level customizations](../vsto/programming-document-level-customizations.md)   
+ [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)   
+ [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)  
   
   

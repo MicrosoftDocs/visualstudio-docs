@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Functions View - Contention Data
+# Functions View - contention data
 The Functions report view of contention data lists the functions in the profiling run that were blocked from execution during the profiling run.  
   
  The following table explains the values that are displayed in the Functions view of a profiling data file that was collected by using the concurrency method.  
@@ -37,10 +37,10 @@ The Functions report view of contention data lists the functions in the profilin
 |**Process Name**|The name of the process.|  
 |**Source File**|The source file that contains the definition for this function.|  
   
-## See Also  
- [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
+## See also  
+ [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)   
  [Functions View](../profiling/functions-view.md)   
- [Functions View - Instrumentation](../profiling/functions-view-dotnet-memory-instrumentation-data.md)   
- [Functions View - Sampling](../profiling/functions-view-dotnet-memory-sampling-data.md)   
+ [Functions View - instrumentation](../profiling/functions-view-dotnet-memory-instrumentation-data.md)   
+ [Functions View - sampling](../profiling/functions-view-dotnet-memory-sampling-data.md)   
  [Functions View](../profiling/functions-view-instrumentation-data.md)   
  [Functions View](../profiling/functions-view-sampling-data.md)

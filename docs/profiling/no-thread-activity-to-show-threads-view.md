@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# No Thread Activity to Show (Threads View)
+# No thread activity to show (Threads View)
 This area shows data about the unhidden threads in the currently visible time range.  
   
  If no information is visible, check the following settings:  
@@ -28,5 +28,5 @@ This area shows data about the unhidden threads in the currently visible time ra
   
 -   Make sure that Noise Reduction is set to a low threshold.  
   
-## See Also  
+## See also  
  [Threads View](../profiling/threads-view-parallel-performance.md)

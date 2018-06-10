@@ -235,7 +235,7 @@ To use shims, you don't have to modify the application code or write it a partic
 
 The previous example uses a shim for a static method. To use a shim for an instance method, write `AllInstances` between the type name and the method name:
 
-```
+```vb
 System.IO.Fakes.ShimFile.AllInstances.ReadToEnd = ...
 ```
 

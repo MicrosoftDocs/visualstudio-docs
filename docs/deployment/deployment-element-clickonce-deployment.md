@@ -29,7 +29,7 @@ Identifies the attributes used for the deployment of updates and exposure to the
   
 ## Syntax  
   
-```  
+```xml  
   
       <deployment   
    install  
@@ -106,7 +106,7 @@ Identifies the attributes used for the deployment of updates and exposure to the
 ## Examples  
  The following code example illustrates a `deployment` element in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest. The example uses a `deploymentProvider` element to indicate the preferred update location.  
   
-```  
+```xml  
 <deployment install="true" minimumRequiredVersion="2.0.0.0" mapFileExtension="true" trustUrlParameters="true">  
     <subscription>  
       <update>  
