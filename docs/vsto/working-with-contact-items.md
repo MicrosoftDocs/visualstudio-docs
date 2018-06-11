@@ -1,5 +1,5 @@
 ---
-title: "Working with Contact Items | Microsoft Docs"
+title: "Work with contact items"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -19,23 +19,23 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Working with Contact Items
+# Work with contact items
   The <xref:Microsoft.Office.Interop.Outlook.ContactItem> class contains the methods and properties you use to perform tasks with contacts.  
   
 |Task|Procedure|  
 |----------|---------------|  
-|Retrieve all contacts whose last name contains a specified string.|[How to: Programmatically Access Outlook Contacts](../vsto/how-to-programmatically-access-outlook-contacts.md)|  
-|Search for a contact by first and last name.|[How to: Programmatically Search for a Specific Contact](../vsto/how-to-programmatically-search-for-a-specific-contact.md)|  
-|Create a new contact and fill in contact information.|[How to: Programmatically Add an Entry to Outlook Contacts](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)|  
-|Search for contacts whose e-mail address contains a specific domain.|[How to: Programmatically Search for an E-Mail Address in Contacts](../vsto/how-to-programmatically-search-for-an-e-mail-address-in-contacts.md)|  
-|Delete a contact that has a specified name.|[How to: Programmatically Delete Outlook Contacts](../vsto/how-to-programmatically-delete-outlook-contacts.md)|  
+|Retrieve all contacts whose last name contains a specified string.|[How to: Programmatically access Outlook contacts](../vsto/how-to-programmatically-access-outlook-contacts.md)|  
+|Search for a contact by first and last name.|[How to: Programmatically search for a specific contact](../vsto/how-to-programmatically-search-for-a-specific-contact.md)|  
+|Create a new contact and fill in contact information.|[How to: Programmatically add an entry to Outlook contacts](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md)|  
+|Search for contacts whose e-mail address contains a specific domain.|[How to: Programmatically search for an email address in contacts](../vsto/how-to-programmatically-search-for-an-e-mail-address-in-contacts.md)|  
+|Delete a contact that has a specified name.|[How to: Programmatically delete Outlook contacts](../vsto/how-to-programmatically-delete-outlook-contacts.md)|  
   
- For more information about Outlook tasks and the Outlook object model, see [Outlook Object Model Overview](../vsto/outlook-object-model-overview.md).  
+ For more information about Outlook tasks and the Outlook object model, see [Outlook object model overview](../vsto/outlook-object-model-overview.md).  
   
-## See Also  
- [Working with Mail Items](../vsto/working-with-mail-items.md)   
- [Working with Folders](../vsto/working-with-folders.md)   
- [Working with Calendar Items](../vsto/working-with-calendar-items.md)   
- [Outlook Solutions](../vsto/outlook-solutions.md)  
+## See also  
+ [Work with mail items](../vsto/working-with-mail-items.md)   
+ [Work with folders](../vsto/working-with-folders.md)   
+ [Work with calendar items](../vsto/working-with-calendar-items.md)   
+ [Outlook solutions](../vsto/outlook-solutions.md)  
   
   
