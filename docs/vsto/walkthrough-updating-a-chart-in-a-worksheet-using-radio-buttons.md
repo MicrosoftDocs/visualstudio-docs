@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Updating a Chart in a Worksheet Using Radio Buttons | Microsoft Docs"
+title: "Walkthrough: Updating a Chart in a Worksheet Using Radio Buttons"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -23,7 +23,7 @@ ms.workload:
   
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]  
   
- To see the result as a completed sample, see the Excel Controls Sample at [Office Development Samples and Walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).  
+ To see the result as a completed sample, see the Excel Controls Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).  
   
  This walkthrough illustrates the following tasks:  
   
@@ -41,10 +41,10 @@ ms.workload:
   
 -   [!INCLUDE[Excel_15_short](../vsto/includes/excel-15-short-md.md)] or [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].  
   
-## Adding a Chart to a Worksheet  
+## Add a chart to a worksheet  
  You can create an Excel Workbook project that customizes an existing workbook. In this walkthrough, you will add a chart to a workbook and then use this workbook in a new Excel solution. The data source in this walkthrough is a worksheet named **Data for Chart**.  
   
-#### To add the data  
+### To add the data  
   
 1.  Open Microsoft Excel.  
   
@@ -63,7 +63,7 @@ ms.workload:
   
  Next, add a chart to the first worksheet to display the data.  
   
-#### To add a chart in Excel  
+### To add a chart in Excel  
   
 1.  On the **Insert** tab, in the **Charts** group, click **Column**, and then click **All Chart Types**.  
   
@@ -83,14 +83,14 @@ ms.workload:
   
 9. Exit Excel.  
   
-## Creating a New Project  
+## Create a new project  
  In this step, you will create an Excel Workbook project based on the **ExcelChart** workbook.  
   
-#### To create a new project  
+### To create a new project  
   
 1.  Create an Excel Workbook project with the name **My Excel Chart**. In the wizard, select **Copy an existing document**.  
   
-     For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
+     For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
 2.  Click the **Browse** button and browse to the workbook you created earlier in this walkthrough.  
   
@@ -98,10 +98,10 @@ ms.workload:
   
      Visual Studio opens the new Excel workbook in the designer and adds the **My Excel Chart** project to **Solution Explorer**.  
   
-## Setting Properties of the Chart  
+## Set properties of the chart  
  When you create a new Excel Workbook project that uses an existing workbook, host controls are automatically created for all named ranges, list objects, and charts in the workbook. You can change the name of the <xref:Microsoft.Office.Tools.Excel.Chart> control by using the **Properties** window.  
   
-#### To change the name of the Chart control  
+### To change the name of the Chart control  
   
 1.  Select the <xref:Microsoft.Office.Tools.Excel.Chart> control in the designer and change the following properties in the **Properties** Window.  
   
@@ -110,12 +110,12 @@ ms.workload:
     |**Name**|**dataChart**|  
     |**HasLegend**|**false**|  
   
-## Adding Controls  
+## Add controls  
  This worksheet uses radio buttons to give users a way to quickly change the chart style. However, radio buttons need to be exclusive—when one button is selected, no other button in the group can be selected at the same time. This behavior does not happen by default when you add several radio buttons to a worksheet.  
   
  One way to add this behavior is to group the radio buttons on a user control, write your code behind the user control, and then add the user control to the worksheet.  
   
-#### To add a user control  
+### To add a user control  
   
 1.  Select the **My Excel Chart** project in **Solution Explorer**.  
   
@@ -123,7 +123,7 @@ ms.workload:
   
 3.  In the **Add New Item** dialog box, click **User Control**, name the control **ChartOptions,** and click **Add**.  
   
-#### To add radio buttons to the user control  
+### To add radio buttons to the user control  
   
 1.  If the user control is not visible in the designer, double-click **ChartOptions** in **Solution Explorer**.  
   
@@ -157,10 +157,10 @@ ms.workload:
   
  Next, write the code to update the chart when a radio button is clicked.  
   
-## Changing the Chart Style When a Radio Button is Selected  
+## Change the chart style when a radio button is selected  
  Now you can add the code to change the chart style. To do this, create a public event on the user control, add a property to set the selection type, and create an event handler for the `CheckedChanged` event of each of the radio buttons.  
   
-#### To create an event and property on a user control  
+### To create an event and property on a user control  
   
 1.  In **Solution Explorer**, right-click the user control, and then click **View Code**.  
   
@@ -169,7 +169,7 @@ ms.workload:
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#13](../vsto/codesnippet/VisualBasic/my excel chart/ChartOptions.vb#13)]
      [!code-cs[Trin_VstcoreProgrammingControlsExcel#13](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs#13)]  
   
-#### To handle the CheckedChanged event of the radio buttons  
+### To handle the CheckedChanged event of the radio buttons  
   
 1.  Set the chart type in the `CheckedChanged` event handler of the `areaBlockChart` radio button and then raise the event.  
   
@@ -191,14 +191,14 @@ ms.workload:
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#17](../vsto/codesnippet/VisualBasic/my excel chart/ChartOptions.vb#17)]
      [!code-cs[Trin_VstcoreProgrammingControlsExcel#17](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs#17)]  
   
-5.  In C#, you must add event handlers for the radio buttons. You can add the code to the `ChartOptions` constructor, beneath the call to `InitializeComponent`. For information about how to create event handlers, see [How to: Create Event Handlers in Office Projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
+5.  In C#, you must add event handlers for the radio buttons. You can add the code to the `ChartOptions` constructor, beneath the call to `InitializeComponent`. For information about how to create event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
   
      [!code-cs[Trin_VstcoreProgrammingControlsExcel#18](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/ChartOptions.cs#18)]  
   
-## Adding the User Control to the Worksheet  
+## Add the user control to the worksheet  
  When you build the solution, the new user control is automatically added to the **Toolbox**. You can then drag the control from the **Toolbox** to your worksheet.  
   
-#### To add the user control your worksheet  
+### To add the user control your worksheet  
   
 1.  On the **Build** menu, click **Build Solution**.  
   
@@ -212,41 +212,41 @@ ms.workload:
   
 4.  Change the name of the control to **ChartOptions1**.  
   
-## Changing the Chart Type  
+## Change the chart type  
  To change the chart type, create an event handler that sets the style according to the option selected in the user control.  
   
-#### To change the type of chart that is displayed in the worksheet  
+### To change the type of chart that is displayed in the worksheet  
   
 1.  Add the following event handler to the `Sheet1` class.  
   
      [!code-vb[Trin_VstcoreProgrammingControlsExcel#19](../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb#19)]
      [!code-cs[Trin_VstcoreProgrammingControlsExcel#19](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#19)]  
   
-2.  In C#, you must add an event handler for the user control to the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event as shown below. For information about how to create event handlers, see [How to: Create Event Handlers in Office Projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
+2.  In C#, you must add an event handler for the user control to the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event as shown below. For information about how to create event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
   
      [!code-cs[Trin_VstcoreProgrammingControlsExcel#20](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs#20)]  
   
-## Testing the Application  
+## Test the application  
  You can now test your workbook to verify that the chart is styled correctly when you select a radio button.  
   
-#### To test your workbook  
+### To test your workbook  
   
-1.  Press F5 to run your project.  
+1.  Press **F5** to run your project.  
   
 2.  Select various radio buttons.  
   
 3.  Confirm that the chart style changes to match the selection.  
   
-## Next Steps  
+## Next steps  
  This walkthrough shows the basics of using radio buttons and chart styles on worksheets. Here are some tasks that might come next:  
   
--   Deploying the project. For more information, see [Deploying an Office Solution](../vsto/deploying-an-office-solution.md).  
+-   Deploying the project. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).  
   
--   Using a button to populate a text box. For more information, see [Walkthrough: Displaying Text in a Text Box in a Worksheet Using a Button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-worksheet-using-a-button.md).  
+-   Using a button to populate a text box. For more information, see [Walkthrough: Display text in a text box in a worksheet using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-worksheet-using-a-button.md).  
   
--   Change formatting on a worksheet by using check boxes. For more information, see [Walkthrough: Changing Worksheet Formatting Using CheckBox Controls](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md).  
+-   Change formatting on a worksheet by using check boxes. For more information, see [Walkthrough: Change worksheet formatting using CheckBox controls](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md).  
   
-## See Also  
- [Walkthroughs Using Excel](../vsto/walkthroughs-using-excel.md)  
+## See also  
+ [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)  
   
   
