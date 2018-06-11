@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically Save Attachments from Outlook E-Mail Items | Microsoft Docs"
+title: "How to: Programmatically save attachments from Outlook email items"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -20,7 +20,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Programmatically Save Attachments from Outlook E-Mail Items
+# How to: Programmatically save attachments from Outlook email items
   This example saves e-mail attachments to a specified folder when the mail is received in the inbox.  
   
 > [!IMPORTANT]  
@@ -31,10 +31,10 @@ ms.workload:
 ## Example  
  [!code-csharp[Trin_OL_SaveAttachments#1](../vsto/codesnippet/CSharp/Trin_OL_SaveAttachments/thisaddin.cs#1)]  
   
-## See Also  
- [Working with Mail Items](../vsto/working-with-mail-items.md)   
- [How to: Programmatically Retrieve a Folder by Name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)   
- [How to: Programmatically Perform Actions When an E-Mail Message Is Received](../vsto/how-to-programmatically-perform-actions-when-an-e-mail-message-is-received.md)   
- [How to: Programmatically Search Within a Specific Folder](../vsto/how-to-programmatically-search-within-a-specific-folder.md)  
+## See also  
+ [Work with mail items](../vsto/working-with-mail-items.md)   
+ [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)   
+ [How to: Programmatically perform actions when an email message is received](../vsto/how-to-programmatically-perform-actions-when-an-e-mail-message-is-received.md)   
+ [How to: Programmatically search within a specific folder](../vsto/how-to-programmatically-search-within-a-specific-folder.md)  
   
   

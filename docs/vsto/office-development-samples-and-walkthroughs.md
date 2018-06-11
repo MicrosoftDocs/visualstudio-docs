@@ -1,5 +1,5 @@
 ---
-title: "Office Development Samples and Walkthroughs | Microsoft Docs"
+title: "Office development samples and walkthroughs"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
