@@ -23,7 +23,7 @@ The following steps show how to change the text label of a menu command by using
   
 1.  Create a VSIX project named `MenuText` with a menu command named **ChangeMenuText**. For more information, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md).  
   
-2.  In the .vstc file, add the `TextChanges` flag to your menu command, as shown in the following example.  
+2.  In the .vsct file, add the `TextChanges` flag to your menu command, as shown in the following example.  
   
     ```xml  
     <Button guid="guidChangeMenuTextPackageCmdSet" id="ChangeMenuTextId" priority="0x0100" type="Button">  
