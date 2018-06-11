@@ -38,7 +38,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
 
 ##  <a name="windows"></a> Windows setup inside Parallels (Visual Studio and Xamarin)
 
-1.  Using the Windows desktop that you've configured inside Parallels/VMWare, [download and launch the installer for any edition of Visual Studio 2017](https://www.visualstudio.com/downloads/) (Community, Professional, or Enterprise). Visual Studio 2017 Community is the free edition; the Professional and Enterprise editions can be used on a trial basis for 30 days.
+1.  Using the Windows desktop that you've configured inside Parallels/VMWare, [download and launch the installer for any edition of Visual Studio 2017](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) (Community, Professional, or Enterprise). Visual Studio 2017 Community is the free edition; the Professional and Enterprise editions can be used on a trial basis for 30 days.
 
 2.  Within the installer, click the **Additional Choices** (three-bars icon) button _next to_ **Launch** then choose **Modify**.:  
   
