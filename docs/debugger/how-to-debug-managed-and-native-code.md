@@ -1,6 +1,6 @@
 ---
-title: "Tutorial: Debug managed and native code | Microsoft Docs"
-description: Learn how to debug a native DLL from a .NET Core or .NET Framework app
+title: "Tutorial: Debug managed and native code (mixed mode)"
+description: Learn how to debug a native DLL from a .NET Core or .NET Framework app using mixed mode debugging
 ms.custom: ""
 ms.date: "04/27/2018"
 ms.technology: "vs-ide-debug"

@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Process View - Contention Data
+# Process View - contention data
 The Process view displays contention data for the processes and threads that were executed during the profiling run.  
   
  When symbols are available, processes are listed by name. When symbols are not available, processes are listed by their memory address in hexadecimal format. Threads are listed as children of the process that created them.  
@@ -34,6 +34,6 @@ The Process view displays contention data for the processes and threads that wer
 |**Name**|The name of the process or thread.|  
 |**Unique ID**|A profiler-generated identifier that is unique to the process or thread.|  
   
-## See Also  
- [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
+## See also  
+ [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)   
  [Process View](../profiling/process-view.md)
