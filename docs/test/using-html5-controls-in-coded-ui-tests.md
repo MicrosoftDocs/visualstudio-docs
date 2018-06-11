@@ -53,7 +53,7 @@ Coded UI tests include support for some of the HTML5 controls that are included 
 
  The following properties are available for HtmlAudio and you can add an assertion on all of them:
 
-```
+```HTML
 string AutoPlay
 string Controls
 string CurrentSrc
@@ -97,7 +97,7 @@ string Volume
 
  All the properties of HtmlAudio are available for HtmlVideo. In addition, the following three properties are also available. Assertion can be added on all of them.
 
-```
+```HTML
 string Poster
 string VideoHeight
 string VideoWidth
@@ -123,7 +123,7 @@ string VideoWidth
 
  The following properties are available for HtmlSlider and assertion can be added on all of them:
 
-```
+```HTML
 string Disabled
 string Max
 string Min
@@ -132,8 +132,8 @@ string Step
 string ValueAsNumber
 ```
 
-###  <a name="UsingHTML5ControlsCodedUITestsProgressbar"></a> ProgressBar
- **ProgreesBar control:** The ProgressBar is a non-interactable control. You can add assertions on the `Value` and `Max` properties of this control.
+###  <a name="UsingHTML5ControlsCodedUITestsProgressBar"></a> ProgressBar
+ **ProgressBar control:** The ProgressBar is a non-interactable control. You can add assertions on the `Value` and `Max` properties of this control.
 
  ![HTML5 ProgressBar control](../test/media/codedui_html5_progressbar.png)
 
