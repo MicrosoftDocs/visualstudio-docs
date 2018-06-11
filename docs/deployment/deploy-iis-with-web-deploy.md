@@ -34,7 +34,7 @@ These procedures have been tested on these server configurations:
 
 1. Choose **Build** > **Build Solution** to build the project.
 
-## <a name="bkmk_configureIIS"></a> Install and configure IIS on Windows Server
+## Install and configure IIS on Windows Server
 
 [!INCLUDE [remote-debugger-install-iis-role](../debugger/includes/remote-debugger-install-iis-role.md)]
 
@@ -49,7 +49,7 @@ If Enhanced Security Configuration is enabled in Internet Explorer (it is enable
 
 When you download the software, you may get requests to grant permission to load various web site scripts and resources. Some of these resources are not required, but to simplify the process, click **Add** when prompted.
 
-## <a name="BKMK_deploy_asp_net"></a> Install ASP.NET 4.5 on Windows Server
+## Install ASP.NET 4.5 on Windows Server
 
 If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
 
@@ -66,11 +66,11 @@ If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Us
 
 2. Restart the system (or execute **net stop was /y** followed by **net start w3svc** from a command prompt to pick up a change to the system PATH).
 
-## <a name="BKMK_install_webdeploy"></a> Install Web Deploy 3.6 on Windows Server
+## Install Web Deploy 3.6 on Windows Server
 
 [!INCLUDE [remote-debugger-install-web-deploy](../debugger/includes/remote-debugger-install-web-deploy.md)]
 
-## <a name="BKMK_deploy_asp_net"></a> Configure ASP.NET Web site on the Windows Server computer
+## Configure ASP.NET Web site on the Windows Server computer
 
 1. Open Windows Explorer and create a new folder, **C:\Publish**, where you will later deploy the ASP.NET project.
 
@@ -88,13 +88,13 @@ If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Us
 
 8. With the site selected in the IIS Manager, choose **Edit Permissions**, and make sure that IUSR, IIS_IUSRS, or the user configured for the Application Pool is an authorized user with Read & Execute rights. If none of these users are present, add IUSR as a user with Read & Execute rights.
 
-## <a name="bkmk_webdeploy"></a> Publish and deploy the app using Web Deploy from Visual Studio
+## Publish and deploy the app using Web Deploy from Visual Studio
 
 [!INCLUDE [deploy-app-web-deploy](../deployment/includes/deploy-app-web-deploy.md)]
 
-Also, you may need to read the section on [Troubleshoot ports](#bkmk_openports).
+Also, you may need to read the following section on how to roubleshoot ports.
 
-## <a name="bkmk_openports"></a> Troubleshoot: Open required ports on Windows Server
+## Troubleshoot: Open required ports on Windows Server
 
 In most setups, required ports are opened by the installation of ASP.NET and Web Deploy. However, you may need to verify that ports are open.
 

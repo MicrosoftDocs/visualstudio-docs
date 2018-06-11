@@ -16,17 +16,17 @@ Visual styles enable the appearance of common controls to change based on the th
   
  To resolve the error and to publish the solution, you must perform the following tasks:  
   
--   [Publish the solution without visual styles enabled](#BKMK_publishsolwovs).  
+-   [Publish the solution without visual styles enabled](#publish-the-solution-without-visual-styles-enabled).  
   
--   [Create a manifest file](#BKMK_CreateManifest).  
+-   [Create a manifest file](#create-a-manifest-file).  
   
--   [Embed the manifest file into the executable file of the published solution](#BKMK_embedmanifest).  
+-   [Embed the manifest file into the executable file of the published solution](#embed-the-manifest-file-into-the-executable-file-of-the-published-solution).  
   
--   [Sign the application and deployment manifests](#BKMK_signappdeplyman).  
+-   [Sign the application and deployment manifests](#sign-the-application-and-deployment-manifests).  
   
  Then, you can move the published files to the location from which you want end users to install the application.  
   
-##  <a name="BKMK_publishsolwovs"></a> Publish the solution without visual styles enabled  
+##  Publish the solution without visual styles enabled  
   
 1.  Ensure that your project does not have visual styles enabled. First, check your project's manifest file for the following XML. Then, if the XML is present, enclose the XML with a comment tag.  
   
@@ -65,7 +65,7 @@ Visual styles enable the appearance of common controls to change based on the th
   
 2.  Build and publish your solution. For more information about how to publish the solution, see [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).  
   
-##  <a name="BKMK_CreateManifest"></a> Create a manifest file  
+## Create a manifest file  
   
 1.  Paste the following XML into a Notepad file.  
   
@@ -86,7 +86,7 @@ Visual styles enable the appearance of common controls to change based on the th
     > [!NOTE]
     >  The remaining procedures assume that the name of this file is **themes.manifest** and that the file is saved to the C:\temp directory on your computer.  
   
-##  <a name="BKMK_embedmanifest"></a> Embed the manifest file into the executable file of the published solution  
+## Embed the manifest file into the executable file of the published solution  
   
 1.  Open the **Visual Studio Command Prompt**.  
   
@@ -115,7 +115,7 @@ cd "%UserProfile%\Documents\Visual Studio 2010\Projects\MyWPFProject\publish\App
     mt -manifest c:\temp\themes.manifest -outputresource:MyWPFApp.exe.deploy  
     ```  
   
-##  <a name="BKMK_signappdeplyman"></a> Sign the application and deployment manifests  
+## Sign the application and deployment manifests  
   
 1.  At the command prompt, run the following command to remove the `.deploy` extension from the executable file in the current directory.  
   
