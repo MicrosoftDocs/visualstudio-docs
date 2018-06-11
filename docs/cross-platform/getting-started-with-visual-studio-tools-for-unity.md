@@ -22,7 +22,7 @@ In this section, you'll learn how to install Visual Studio Tools for Unity and c
 
 -   A version of **Visual Studio** that supports extensions, such as Visual Studio Community, Professional, Premium, or Enterprise. You can download Visual Studio Community for free.
 
-     [Download Visual Studio Community](http://www.visualstudio.com/downloads/download-visual-studio-vs)
+     [Download Visual Studio Community](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
 
 -   **Unity** version 4.0.0 or higher; **Unity** version 5.2.0 or higher to take advantage of built-in support for Visual Studio Tools for Unity version 2.1 or higher.
 

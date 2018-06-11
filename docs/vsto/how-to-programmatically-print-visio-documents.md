@@ -22,7 +22,7 @@ ms.workload:
   
  For details about the print methods, see the VBA reference documentation for the [Microsoft.Office.Interop.Visio.Document.Print](https://msdn.microsoft.com/library/office/ff767996.aspx) method and [Microsoft.Office.Interop.Visio.Page.Print](https://msdn.microsoft.com/library/office/ff765064.aspx) method.  
   
-## Print a Visio ocument  
+## Print a Visio document  
   
 ### To print a complete document  
   

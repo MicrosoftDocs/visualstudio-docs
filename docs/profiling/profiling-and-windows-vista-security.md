@@ -38,7 +38,7 @@ Depending on the [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)] Use
   
      When this option is not selected, the list displays processes in the current session. When this option is selected, the list displays processes in all sessions.  
   
-## See Also  
+## See also  
  [Overviews](../profiling/overviews-performance-tools.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [How to: Attach to a Running Process](http://msdn.microsoft.com/en-us/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4)
+ [How to: Attach to a running process](http://msdn.microsoft.com/en-us/636d0a52-4bfd-48d2-89ad-d7b9ca4dc4f4)
