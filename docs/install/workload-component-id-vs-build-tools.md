@@ -356,6 +356,7 @@ Here are a few more support options:
 
 ## See also
 
+* [Build Tools for Visual Studio 2017](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017#build-tools-for-visual-studio-2017)
 * [Visual Studio workload and component IDs](workload-and-component-ids.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
