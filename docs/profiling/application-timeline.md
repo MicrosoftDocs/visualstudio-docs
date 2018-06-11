@@ -115,4 +115,4 @@ Use the **Application Timeline** profiler to find and fix application-interactio
  [Performance best practices for UWP apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/en-us/567bcefa-5da5-4e42-a4b8-1358c71adfa2)   
  [Optimize WPF application performance](/dotnet/framework/wpf/advanced/optimizing-wpf-application-performance)  
  [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling feature tour](../profiling/profiling-feature-tour.md)
+ [First look at profiling tools](../profiling/profiling-feature-tour.md)

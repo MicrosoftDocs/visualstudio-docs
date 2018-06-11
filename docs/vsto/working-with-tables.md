@@ -1,5 +1,5 @@
 ---
-title: "Working with Tables | Microsoft Docs"
+title: "Work with tables"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -19,18 +19,18 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Working with Tables
+# Work with tables
   The topics in this section provide step-by-step procedures and code examples for using the object model of Microsoft Office Word to work with tables in Office projects. In some cases, the ways that you perform these tasks in VSTO Add-ins is different from the ways that you perform them in document-level customizations.  
   
 |Task|Procedure|  
 |----------|---------------|  
-|Create a table, apply a style, and access the table in code.|[How to: Programmatically Create Word Tables](../vsto/how-to-programmatically-create-word-tables.md)|  
-|Create a table, format it, and insert data into the cells.|[How to: Programmatically Populate Word Tables with Document Properties](../vsto/how-to-programmatically-populate-word-tables-with-document-properties.md)|  
-|Add a row or column to a table.|[How to: Programmatically Add Rows and Columns to Word Tables](../vsto/how-to-programmatically-add-rows-and-columns-to-word-tables.md)|  
-|Add text to a cell and format it.|[How to: Programmatically Add Text and Formatting to Cells in Word Tables](../vsto/how-to-programmatically-add-text-and-formatting-to-cells-in-word-tables.md)|  
+|Create a table, apply a style, and access the table in code.|[How to: Programmatically create Word tables](../vsto/how-to-programmatically-create-word-tables.md)|  
+|Create a table, format it, and insert data into the cells.|[How to: Programmatically populate Word tables with document properties](../vsto/how-to-programmatically-populate-word-tables-with-document-properties.md)|  
+|Add a row or column to a table.|[How to: Programmatically add rows and columns to Word tables](../vsto/how-to-programmatically-add-rows-and-columns-to-word-tables.md)|  
+|Add text to a cell and format it.|[How to: Programmatically add text and formatting to cells in Word tables](../vsto/how-to-programmatically-add-text-and-formatting-to-cells-in-word-tables.md)|  
   
-## See Also  
- [Word Object Model Overview](../vsto/word-object-model-overview.md)   
- [Office Solutions Development Overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)  
+## See also  
+ [Word object model overview](../vsto/word-object-model-overview.md)   
+ [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)  
   
   

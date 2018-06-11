@@ -1,5 +1,5 @@
 ---
-title: "Outlook Object Model Overview | Microsoft Docs"
+title: "Outlook object model overview"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -132,9 +132,9 @@ ms.workload:
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Work with Contact items](../vsto/working-with-contact-items.md)|Provides topics that show how to perform tasks with contacts.|  
-|[Work with Mail items](../vsto/working-with-mail-items.md)|Provides topics that show how to perform tasks with mail items.|  
+|[Work with contact items](../vsto/working-with-contact-items.md)|Provides topics that show how to perform tasks with contacts.|  
+|[Work with mail items](../vsto/working-with-mail-items.md)|Provides topics that show how to perform tasks with mail items.|  
 |[Work with folders](../vsto/working-with-folders.md)|Provides topics that show how to perform tasks with folders.|  
-|[Work with Calendar items](../vsto/working-with-calendar-items.md)|Provides topics that show how to perform tasks with calendar items.|  
+|[Work with calendar items](../vsto/working-with-calendar-items.md)|Provides topics that show how to perform tasks with calendar items.|  
 |[How to: Programmatically determine the current Outlook item](../vsto/how-to-programmatically-determine-the-current-outlook-item.md)|Shows how to display the name of the current folder and some information about the selected item.|  
   

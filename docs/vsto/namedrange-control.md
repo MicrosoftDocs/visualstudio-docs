@@ -1,5 +1,5 @@
 ---
-title: "NamedRange Control | Microsoft Docs"
+title: "NamedRange control"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
