@@ -54,7 +54,7 @@ ms.workload:
   
 ## Marking Safe Controls in the Package Designer  
   
-#### To mark controls as safe or unsafe in the package designer
+#### To mark controls as safe or unsafe in the Package Designer
   
 1.  Create a SharePoint solution with a Visual Web Part project.  
   

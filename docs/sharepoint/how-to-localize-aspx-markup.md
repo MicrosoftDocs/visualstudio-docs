@@ -22,7 +22,7 @@ ms.workload:
 # How to: Localize ASPX markup
   [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] (.aspx) pages typically use hard-coded string values. To localize these strings, replace them with expressions that reference localized resources.  
   
-## Localize ASPX Markup  
+## Localize ASPX markup  
   
 #### To localize ASPX markup  
   
