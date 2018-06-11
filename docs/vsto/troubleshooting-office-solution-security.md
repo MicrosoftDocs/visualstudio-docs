@@ -38,7 +38,7 @@ ms.workload:
   
  If the location of the deployment manifest has been assigned to the restricted sites zone, [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] does not install the solution. If the location is known and can be trusted, the user can remove the location from the restricted sites zone and install the solution. For information about how to manage zones, see [Configuring ClickOnce Trusted Publishers](http://go.microsoft.com/fwlink/?LinkId=94774).  
   
-## Solutions cannot be installed from network file shares or web locations when Internet Explorer enhanced security configuration or Internet Explorer 7 is installed  
+## Solutions cannot be installed from network file shares or web locations when Internet Explorer Enhanced Security Configuration or Internet Explorer 7 is installed  
  Internet Explorer Enhanced Security Configuration (IEESC) in Windows Server 2003 and higher, and Internet Explorer 7 and higher, significantly restricts the ability of users to browse the Internet. When users try to install Office solutions from a network file share or web location, they might get the following error message: "Customized functionality in this application will not work because the certificate used to sign the deployment manifest for *SolutionName* is not trusted. Contact your administrator for further assistance."  
   
  With IEESC and Internet Explorer 7 and higher, if the URL of the deployment manifest is categorized in the Internet zone, the manifest must have a certificate from a trusted publisher or the solution cannot be installed. Without IEESC, the default behavior is to prompt the end user to make a trust decision.  
