@@ -141,7 +141,7 @@ Log.LogError("Hello, world!");
 ```xml  
 <ParameterGroup>  
     <Expression Required="true" />  
-      <Files ParameterType="Microsoft.Build.Framework.ITaskItem[]" Required="true" />  
+    <Files ParameterType="Microsoft.Build.Framework.ITaskItem[]" Required="true" />  
     <Tally ParameterType="System.Int32" Output="true" />  
 </ParameterGroup>  
 ```  
