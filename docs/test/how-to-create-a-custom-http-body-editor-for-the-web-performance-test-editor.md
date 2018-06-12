@@ -295,7 +295,7 @@ When editing of the string body is completed and the user clicks **OK** in the p
 
 1.  Create a Test Project.
 
-2.  Create a Web performance test and enter a URL in the browser to a Web service, for example, http://dev.virtualearth.net/webservices/v1/metadata/searchservice/dev.virtualearth.net.webservices.v1.search.wsdl.
+2.  Create a Web performance test and enter a URL in the browser to a Web service, for example, `http://dev.virtualearth.net/webservices/v1/metadata/searchservice/dev.virtualearth.net.webservices.v1.search.wsdl`.
 
 3.  When you finish the recording, in the Web Performance Test Editor, expand the request for the Web service and select either a **String Body** or a **Binary Body**.
 

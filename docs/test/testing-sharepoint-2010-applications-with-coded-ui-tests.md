@@ -89,7 +89,7 @@ If you are recording actions on a non-empty cell, then recording gets a little m
 ## See also
 
 - [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
-- [Create SharePoint Solutions](/office-dev/office-dev/create-sharepoint-solutions)
-- [Verifying and Debugging SharePoint Code](/office-dev/office-dev/verifying-and-debugging-sharepoint-code)
-- [Building and Debugging SharePoint Solutions](/office-dev/office-dev/building-and-debugging-sharepoint-solutions)
-- [Profiling the Performance of SharePoint Applications](/office-dev/office-dev/profiling-the-performance-of-sharepoint-applications)
+- [Create SharePoint Solutions](../sharepoint/create-sharepoint-solutions)
+- [Verifying and Debugging SharePoint Code](../sharepoint/verifying-and-debugging-sharepoint-code)
+- [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions)
+- [Profiling the Performance of SharePoint Applications](../sharepoint/profiling-the-performance-of-sharepoint-applications)
