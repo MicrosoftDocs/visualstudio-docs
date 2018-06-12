@@ -324,7 +324,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 ## See also
 
 - [Adding unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)
-- [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](../test/microsoft-visualstudio-testtools-cppunittestframework-api-reference.md)
+- [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](how-to-use-microsoft-test-framework-for-cpp.md)
 - [Debugging Native Code](../debugger/debugging-native-code.md)
 - [Walkthrough: Creating and Using a Dynamic Link Library (C++)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)
 - [Importing and Exporting](/cpp/build/importing-and-exporting)
