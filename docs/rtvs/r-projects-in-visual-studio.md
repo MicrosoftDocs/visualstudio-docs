@@ -81,7 +81,7 @@ R Tools for Visual Studio (RTVS) adds a number of its own commands to the right-
 | Open Containing Folder | Opens Windows Explorer at the location of the selected file. | 
 | Add R Script | Creates and opens a new `.R` file with a default name. You can also use the **Add**>**New Item** command to create `.R` files as well as a number of other file types. See [R-specific item templates](#r-specific-item-templates). |
 | Add R Markdown | Creates and opens new `.rmd` document with a default name. You can also use the **Add**>**New Item** command to create `.rmd` files as well as a number of other file types. See [R-specific item templates](#r-specific-item-templates).  | 
-| Publish Stored Procedures | Starts a process to publish any stored procedures contained in R scripts. See [Working with SQL Server stored procedures](integrating-sql-server-with-r.md#work-with-sql-server-stored-procedures). | 
+| Publish Stored Procedures | Starts a process to publish any stored procedures contained in R scripts. See [Work with SQL Server stored procedures](integrating-sql-server-with-r.md#work-with-sql-server-stored-procedures). | 
 
 ## R-specific item templates
 
