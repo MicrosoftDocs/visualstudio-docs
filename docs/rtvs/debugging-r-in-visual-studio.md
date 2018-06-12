@@ -12,7 +12,7 @@ ms.workload:
   - data-science
 ---
 
-# Debugging R in Visual Studio
+# Debug R in Visual Studio
 
 R Tools for Visual Studio (RTVS) integrates with the full debugging experience of Visual Studio (see [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md). This support includes breakpoints, attaching to running processes, inspecting and watching variables, and inspecting the call stack. This article, then, explores those aspects of debugging that are unique to R and RTVS.
 
@@ -20,7 +20,7 @@ Starting the debugger for the startup R file in an R project is the same as for 
 
 ![Debugger start button for R](media/debugger-start-button.png)
 
-To change the startup file, right-click a file in Solution Explorer and select **Set As Startup R Script**.
+To change the startup file, **right-click** a file in Solution Explorer and select **Set As Startup R Script**.
 
 In all cases, starting the debugger "sources" the file in the interactive window, which means loading it and running it there as shown in the interactive window's output:
 

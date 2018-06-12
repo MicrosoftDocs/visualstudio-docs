@@ -12,7 +12,7 @@ ms.workload:
   - data-science
 ---
 
-# Editing R code in Visual Studio
+# Edit R code in Visual Studio
 
 R Tools for Visual Studio (RTVS) tailors the Visual Studio editing experience specifically for R while retaining all the features and the ability to use extensions. (For example, if you prefer VIM key bindings, you can install the free [VsVim extension](https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329) from the Visual Studio gallery.)
 
@@ -34,7 +34,7 @@ Visual Studio also underlines syntax errors in the editor:
 
 To change this behavior, see the **Advanced**>**Syntax check** setting under [editor options](#editor-options).
 
-## Editing and organizing code
+## Edit and organize code
 
 As you type code, RTVS provides auto-completion as described on the [IntelliSense](r-intellisense.md) page. It also does automatic formatting such as completion of braces and parenthesis: 
 
@@ -66,15 +66,15 @@ This command opens a new editor window containing the source code for the functi
 
 ![Animation for peek definition](media/editing-peek-definition.gif)
 
-## Sending code to the interactive window
+## Send code to the interactive window
 
 Many developers like to write some code in the editor and then send that code to the [interactive window](interactive-repl-for-r-in-visual-studio.md) for immediate testing (also known as a Read-Evaluate-Print-Loop or REPL). Pressing **Ctrl**+**Enter** in the R editor sends the current line of code to the interactive window, then places the cursor on the next line. With **Ctrl**+**Enter**, then, you can effectively step through your code from the editor.
 
-You can also select code and press **Ctrl**+**Enter** to apply that entire selection. Alternately, right-click the selection and select **Execute in Interactive**.
+You can also select code and press **Ctrl**+**Enter** to apply that entire selection. Alternately, **right-click** the selection and select **Execute in Interactive**.
 
-## Formatting code
+## Format code
 
-Visual Studio's automatic formatting keeps the code you write, as well as code you paste into the editor, formatted as set by your preferences. You can also make a selection, right-click, and select **Format Selection** (**Ctrl**+**K**,**F**) to apply those preferences. For example, if you had a function definition all on a single line:
+Visual Studio's automatic formatting keeps the code you write, as well as code you paste into the editor, formatted as set by your preferences. You can also make a selection, **right-click**, and select **Format Selection** (**Ctrl**+**K**,**F**) to apply those preferences. For example, if you had a function definition all on a single line:
 
 ```R
 f<-function  (a){  return(a + 1) }
@@ -120,10 +120,10 @@ Options on the **R**>**Advanced** tab are specific to RTVS:
 | | Space after keyword | On | Places a space after keywords like `if`, `while`, and `repeat`. |
 | | Space before { | On | Places a space before and opening {. |
 | | Spaces around = | On | Places spaces around an equal sign. |
-| IntelliSense | Commit on Enter key | Off | Commits auto-completion selection when Enter is pressed. |
-| | Commit on Space key | Off | Commits auto-completion selection when Space is pressed.|
-| | Completion list on first character | On | Shows completion list on the first character types. When Off, a completion list is displayed with **Edit**>**IntelliSense**>**List Members** (Ctrl+J). |
-| | Completion list on Tab key | Off | Invokes completion list by typing one or more characters and pressing Tab. |
+| IntelliSense | Commit on Enter key | Off | Commits auto-completion selection when **Enter** is pressed. |
+| | Commit on Space key | Off | Commits auto-completion selection when **Space** is pressed.|
+| | Completion list on first character | On | Shows completion list on the first character types. When Off, a completion list is displayed with **Edit**>**IntelliSense**>**List Members** (**Ctrl**+**J**). |
+| | Completion list on **Tab** key | Off | Invokes completion list by typing one or more characters and pressing **Tab**. |
 | | Match partially types argument names | Off | WHen typing argument names in a function call, signature help shows a description for the argument that is the best match. |
 | Interactive Window | Syntax check in R Console | Off | Applies syntax checking in the Interactive window. Syntax checking may not work correctly with multi-line statements. | 
 | Outlining | Code outlining | On | Automatically creates collapsible regions for areas like multi-line statements. |

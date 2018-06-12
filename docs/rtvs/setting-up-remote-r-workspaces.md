@@ -12,7 +12,7 @@ ms.workload:
   - data-science
 ---
 
-# Setting up remote workspaces
+# Set up remote workspaces
 
 This article explains how to configure a remote server with SSL and an appropriate R service. This allows R Tools for Visual Studio (RTVS) to connect to a remote workspace on that server.
 

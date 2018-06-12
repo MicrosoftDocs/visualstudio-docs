@@ -82,7 +82,7 @@ A. Github maintains a master repository of recommended `.gitignore` files. You c
 
 Q. **What is Remote Services in Visual Studio?**
 
-A. Remote R Services for Visual Studio allows you to set up Windows or Linux machine and then connect to it from RTVS. See [Setting up Remote Workspaces](setting-up-remote-r-workspaces.md).
+A. Remote R Services for Visual Studio allows you to set up Windows or Linux machine and then connect to it from RTVS. See [Set up remote workspaces](setting-up-remote-r-workspaces.md).
 
 Q. **Can RTVS connect to Microsoft R Server?**
 
@@ -94,7 +94,7 @@ A. Yes; the [Data Science VM - Windows 2016](https://azure.microsoft.com/service
 
 Q, **Can RTVS connect to a remote machine with R installed?**
 
-To execute R code on a remote machine there has to be some service listening to the requests, receiving code and sending results back to the client machine. This is what Remote R Services for Visual Studio do. See [Setting up Remote Workspaces](setting-up-remote-r-workspaces.md).
+To execute R code on a remote machine there has to be some service listening to the requests, receiving code and sending results back to the client machine. This is what Remote R Services for Visual Studio do. See [Set up remote workspaces](setting-up-remote-r-workspaces.md).
 
 Q. **What is Remote Session?**
 
