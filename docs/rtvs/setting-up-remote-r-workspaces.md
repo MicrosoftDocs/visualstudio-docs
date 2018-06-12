@@ -73,7 +73,7 @@ For background, see [self-signed certificates](https://en.wikipedia.org/wiki/Sel
 
 ### Install the certificate
 
-To install the certificate on the remote computer, run `certlm.msc` (the certificate manager) from a command prompt. **Right-click** on the **Personal** folder and select the **All** Tasks**>**Import** command:
+To install the certificate on the remote computer, run `certlm.msc` (the certificate manager) from a command prompt. **Right-click** on the **Personal** folder and select the **All Tasks**>**Import** command:
 
 ![Import certificate command](media/workspaces-remote-certificate-import.png)
 

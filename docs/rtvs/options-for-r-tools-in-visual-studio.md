@@ -81,7 +81,7 @@ These options control how values are handled in [Variable Explorer](variable-exp
 | --- | --- | --- |
 | F1 Web browser | `Internal` | Controls how help is displayed when you are searching for a term using **Ctrl**+**F1**. When set to `Internal`, help is rendered within a tool window in Visual Studio. When set to `External`, help appears in your default web browser. |
 | F1 Web Search String | `R site:stackoverflow.com` | Controls how search terms are passed to your search engine when you press **Ctrl**+**F1** on a term in the editor. By default the string is `R site:stackoverflow.com`, which appends `R` to your search term. The `site:stackoverflow.com` is a directive to the search engine that tells it to scope the search to pages within the `stackoverflow.com` domain. |
-| R Help Browser | `Automatic` | Controls how help is displayed when you are searching the R documentation using **F1**, `?`, or `??`. When set to `Automatic`, help renders in the appropriate window. For example, HTML help appears within a Visual Studio tool window, whereas PDFs appear in your default PDF program. When set to `External`, help is rendered in your default web browser. |
+| R Help Browser | `Automatic` | Controls how help is displayed when you are searching the R documentation using **F1**, **?**, or **??**. When set to `Automatic`, help renders in the appropriate window. For example, HTML help appears within a Visual Studio tool window, whereas PDFs appear in your default PDF program. When set to `External`, help is rendered in your default web browser. |
 
 ### History
 
