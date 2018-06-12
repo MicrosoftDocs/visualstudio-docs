@@ -16,7 +16,7 @@ ms.workload:
 
 # Linting R code in Visual Studio
 
-Linting analyzes code to reveal potential errors, formatting issues, and other code noise such as spurious whitespace. Linting also helps encourage certain coding conventions, such as how identifiers are named. Such conventions are helpful within teams and other collaborative situations.
+In Visual Studio, linting analyzes code to reveal potential errors, formatting issues, and other code noise such as spurious whitespace. Linting also helps encourage certain coding conventions, such as how identifiers are named. Such conventions are helpful within teams and other collaborative situations.
 
 R Tools for Visual Studio (RTVS) provides built-in linting for R, the behavior of which is controlled through a variety of options described in this article. These options are found in **Tool**>**Options**>**Text Editor**>**R**>**Lint**.
 
