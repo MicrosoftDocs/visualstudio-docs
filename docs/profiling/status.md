@@ -12,9 +12,9 @@ ms.workload:
   - "multiple"
 ---
 # Status
-The VSPerfCmd.exe **Status** option displays information about the state of the profiler and any processes that are currently being profiled.  
+The *VSPerfCmd.exe* **Status** option displays information about the state of the profiler and any processes that are currently being profiled.  
   
- The **Status** option must be the only option specified on the command line. The profiler must be initialized with the VSPerfCmd.exe **Start** option before any status can be displayed.  
+ The **Status** option must be the only option specified on the command line. The profiler must be initialized with the *VSPerfCmd.exe* **Start** option before any status can be displayed.  
   
 ## Syntax  
   
@@ -66,8 +66,8 @@ VSPerfCmd.exe /Status
  **Users with access rights to monitor**  
  Lists the names of users who have access to the profiler. Additional users can be granted access by using the VSPerfCmd.exe **Admin** option  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)
+ [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profile services](../profiling/command-line-profiling-of-services.md)

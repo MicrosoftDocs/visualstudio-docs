@@ -179,4 +179,4 @@ We recommend that you begin analyzing your data by examining the list of functio
 ## See also  
 
  [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling feature tour](../profiling/profiling-feature-tour.md)
+ [First look at profiling tools](../profiling/profiling-feature-tour.md)
