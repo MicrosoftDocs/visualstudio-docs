@@ -12,7 +12,7 @@ ms.workload:
   - data-science
 ---
 
-# Working with SQL Server and R
+# Work with SQL Server and R
 
 Visual Studio's excellent support for SQL Server helps data scientists work with R and SQL databases through the ability to create and run SQL queries and to work with stored procedures.
 
@@ -25,7 +25,7 @@ Visual Studio's excellent support for SQL Server helps data scientists work with
 |---|---|
 | ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (youtube.com)](https://www.youtube.com/watch?v=n4AYr0QIwdQ) for an overview of SQL Server and R (3m 03s). |
 
-## Creating and running SQL Queries
+## Create and run SQL queries
 
 RTVS supports adding SQL queries into R projects, allowing you to iteratively develop SQL queries in a separate context until you get the results you're looking for.
 
@@ -44,7 +44,7 @@ Once a connection is established, you can run queries and see results:
 The Transact-SQL editor supports a variety of other features, such as viewing the execution plan for the query and a query debugger.
 For more information, see [Use Transact-SQL Editor to Edit and Execute Scripts](https://msdn.microsoft.com/library/hh272706.aspx).
 
-## Working with SQL Server stored procedures
+## Work with SQL Server stored procedures
 
 [SQL Server R Services](https://docs.microsoft.com/sql/advanced-analytics/r/sql-server-r-services) (SQL Server 2016 and later) lets you embed and run R code from a T-SQL stored procedure. You can run R code on a SQL Server computer, operate on data returned from a SQL query, and generate a SQL result set that can be processed by further SQL or returned to the client.
 

@@ -32,9 +32,9 @@ This article explains how to configure a remote server with SSL and an appropria
 
 ## Install an SSL certificate
 
-RTVS requires that all communications with a remote server happens over HTTP, which requires an SSL certificate on the server. You can use either a certificate signed by a trusted certificate authority (recommended), or a self-signed certificate. (A self-signed certificate causes RTVS to issue warnings when connected). With either one, you then need to install it on the computer and allow access to its private key.
+RTVS requires that all communications with a remote server happens over HTTP, which requires an SSL certificate on the server. You can use either a certificate signed by a trusted certificate authority (recommended), or a self-signed certificate. (A self-signed certificate causes RTVS to issue warnings when connected.) With either one, you then need to install it on the computer and allow access to its private key.
 
-### Obtaining a trusted certificate
+### Obtain a trusted certificate
 
 A trusted certificate is issued by a certificate authority (see [certificate authorities on Wikipedia](https://en.wikipedia.org/wiki/Certificate_authority) for background). Like obtaining a government identification card, issuing a trusted certificate involves more process and possible fees, but verifies the authenticity of the request and the requestor.
 
@@ -46,7 +46,7 @@ For more background, see [public key certificates](https://en.wikipedia.org/wiki
 
 The SSL certificate has to be installed manually on windows. Follow the instructions below to install an SSL certificate.
 
-### Obtaining a self-signed certificate (Windows)
+### Obtain a self-signed certificate (Windows)
 
 Skip this section if you have a trusted certificate. Compared with a certificate from a trusted authority, a self-signed certificate is like creating an identification card for yourself. This process is, of course, much simpler than working with a trusted authority, but also lacks strong authentication, meaning that an attacker can substitute their own certificate for the unsigned certificate and capture all of the traffic between the client and the server. Therefore, *self-signed certificate should be used only for testing scenarios, on a trusted network, and never in production.*
 
@@ -71,19 +71,19 @@ To issue a self-signed certificate:
 
 For background, see [self-signed certificates](https://en.wikipedia.org/wiki/Self-signed_certificate) on Wikipedia.
 
-### Installing the certificate
+### Install the certificate
 
-To install the certificate on the remote computer, run `certlm.msc` (the certificate manager) from a command prompt. Right click on the **Personal** folder and select the **All Tasks > Import** command:
+To install the certificate on the remote computer, run `certlm.msc` (the certificate manager) from a command prompt. **Right-click** on the **Personal** folder and select the **All** Tasks**>**Import** command:
 
 ![Import certificate command](media/workspaces-remote-certificate-import.png)
 
-### Granting permissions to read the SSL certificate's private key
+### Grant permissions to read the SSL certificate's private key
 
 Once the certificate is imported, grant the `NETWORK SERVICE` account permissions to read the private key as described in the following instructions. `NETWORK_SERVICE` is the account used to run the R Services broker, which is the service that terminates incoming SSL connections to the server computer.
 
 1. Run `certlm.msc` (the Certificate Manager) from an administrator command prompt.
-1. Expand **Personal > Certificates**, right-click your certificate, and select **All Tasks > Manage Private Keys**.
-1. Right-click on the certificate and select the Manage Private Keys command under All Tasks
+1. Expand **Personal**>**Certificates**, **right-click** your certificate, and select **All Tasks**>**Manage Private Keys**.
+1. **Right-click** on the certificate and select the **Manage Private Keys** command under **All Tasks**.
 1. In the dialog that appears, select **Add** and enter `NETWORK SERVICE` as the account name:
 
     ![Manage Private Keys dialog, adding NETWORK_SERVICE](media/workspaces-remote-manage-private-key-dialog.png)
@@ -94,11 +94,11 @@ Once the certificate is imported, grant the `NETWORK SERVICE` account permission
 
 The `rtvs-daemon` package will install a self-signed certificate by default as a part of the installation.
 
-### Obtaining a self-signed certificate (Ubuntu)
+### Obtain a self-signed certificate (Ubuntu)
 
-For benefits and risks of using self-signed certificate see the windows description. The `rtvs-daemon` package generates and configures the self signed certificate during installation. You will need to do this only if you wish to replace the auto-generated self-signed certificate.
+For benefits and risks of using self-signed certificate see the windows description. The `rtvs-daemon` package generates and configures the self-signed certificate during installation. You will need to do this only if you wish to replace the auto-generated self-signed certificate.
 
-To issue a self signed certificate yourself:
+To issue a self-signed certificate yourself:
 
 1. SSH or login to your linux machine.
 1. Install `ssl-cert` package:
@@ -114,7 +114,7 @@ To issue a self signed certificate yourself:
     openssl pkcs12 -export -out ~/ssl-cert-snakeoil.pfx -inkey /etc/ssl/private/ssl-cert-snakeoil.key -in /etc/ssl/certs/ssl-cert-snakeoil.pem -password pass:SnakeOil
     ```
 
-### Configuring RTVS daemon
+### Configure RTVS daemon
 
 The SSL certificate file path (path to the PFX) must be set in `/etc/rtvs/rtvsd.config.json`. Update `X509CertificateFile` and `X509CertificatePassword` with the file path and password respectively.
 
@@ -223,7 +223,7 @@ There are two possible reasons:
 
 **Q. Why does the R interactive window say "404 Not found" while connecting to the R server?**
 
-This error is probably due to missing Visual C++ redistributable libraries. Check the R interactive window to see if there is a message regarding missing library(DLL). Then check that the VS 2015 redistributable is installed, and that you have R installed as well.
+This error is probably due to missing Visual C++ redistributable libraries. Check the R interactive window to see if there is a message regarding missing library (DLL). Then check that the VS 2015 redistributable is installed, and that you have R installed as well.
 
 **Q. I can't access internet/resource from the R interactive window, what do I do?**
 

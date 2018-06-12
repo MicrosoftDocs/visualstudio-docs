@@ -13,13 +13,13 @@ ms.workload:
   - data-science
 ---
 
-# Using Docker containers with R Tools for Visual Studio
+# Use Docker containers with R Tools for Visual Studio
 
 The R Tools for Visual Studio (RTVS) version 1.3+, alongside an installation of [Docker for Windows](https://www.docker.com/docker-windows), supports working with Docker containers.
 
-## Creating a container
+## Create a container
 
-1. Select the **Containers...** button on the right-hand corner of the **Workspaces** window (**R Tools > Windows > Workspaces**). The window informs you if you don't have Docker for Windows installed and provides a link for the download. Installing Docker may require a computer restart.
+1. Select the **Containers** button on the right-hand corner of the **Workspaces** window (**R Tools**>**Windows**>**Workspaces**). The window informs you if you don't have Docker for Windows installed and provides a link for the download. Installing Docker may require a computer restart.
 
     ![Workspaces window in R Tools for Visual Studio (VS2017) with Containers command](media/container-workspaces-window.png)
 
@@ -35,17 +35,17 @@ The R Tools for Visual Studio (RTVS) version 1.3+, alongside an installation of 
 
     ![Containers window showing a completed container](media/containers-window-created.png)
 
-## Connecting to a container
+## Connect to a container
 
 1. The **Local Running Containers** section of the **Workspaces** window displays containers running the RTVS daemon on port 5444. (See [Remote R Server for Linux](setting-up-remote-r-service-on-linux.md) for details on how the daemon is configured.)
 
     ![Workspaces window showing available containers](media/workspaces-window-running-containers.png)
 
-1. To connect to a container, double-click the container name or select the forward arrow button to its right. When connected, you see an **R Interactive** window (see [Working with the R Interactive window](interactive-repl-for-r-in-visual-studio.md)):
+1. To connect to a container, double-click the container name or select the forward arrow button to its right. When connected, you see an **R Interactive** window (see [Work with the R Interactive window](interactive-repl-for-r-in-visual-studio.md)):
 
     ![Workspaces window and REPL window opened for a container](media/workspaces-window-container-connected.png)
 
-## Using custom-built images
+## Use custom-built images
 
 RTVS detects and allows management of containers created using custom-built images, such as the microsoft/rtvs image described in the docker file below. The base image used here has rtvs-daemon, R 3.4.2, and common R packages pre-installed. **Note**: change the username and password shown here as needed.
 

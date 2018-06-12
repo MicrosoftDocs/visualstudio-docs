@@ -12,24 +12,24 @@ ms.workload:
   - data-science
 ---
 
-# Work with the R Interactive Window
+# Work with the R interactive window
 
 R Tools for Visual Studio (RTVS) provides an R interactive window, also known as a **REPL** (Read-Evaluate-Print-Loop) window, in which you can enter R code and immediately see the results. All modules, syntax, and variables, as well as IntelliSense, is available in the interactive window.
 
-The interactive window is also integrated with regular R editor windows. You can select code and press **Ctrl**+**Enter**, or right-click and select **Execute in Interactive**, and the code is run line-by-line in the interactive window as if you typed it directly. When the cursor is on a single line in an editor window, **Ctrl**+**Enter** sends that line to the interactive window and then moves the cursor to the next line. This way you can just press **Ctrl**+**Enter** repeatedly to step through the code.
+The interactive window is also integrated with regular R editor windows. You can select code and press **Ctrl**+**Enter**, or **right-click** and select **Execute in Interactive**, and the code is run line-by-line in the interactive window as if you typed it directly. When the cursor is on a single line in an editor window, **Ctrl**+**Enter** sends that line to the interactive window and then moves the cursor to the next line. This way you can just press **Ctrl**+**Enter** repeatedly to step through the code.
 
 To experience these features, follow the [Get started with R](getting-started-with-r.md) walkthrough as well as the sections in this article. [Code snippets](code-snippets-for-r.md) also work in the interactive window like they do in R editor windows.
 
 ## Overview of the Interactive Window
 
-Typing valid R code and pressing Enter at the end of the line runs the code on that line:
+Typing valid R code and pressing **Enter** at the end of the line runs the code on that line:
 
 ```repl
 > 3 + 3
 [1] 6
 ```
 
-Pressing Enter anywhere on a single-line input also runs that line.
+Pressing **Enter** anywhere on a single-line input also runs that line.
 
 All previous input and output in the REPL is read-only and cannot be changed. However, you can select and copy text from the window at any time, as well as pasted. Pasted code runs as if it were entered line by line.
 
@@ -37,7 +37,7 @@ That is, when you start typing a statement and press **Enter**, RTVS knows when 
 
 ![Multi-line statement entry in the interactive window](media/repl-multiline-entry.png)
 
-In this multi-line mode, the Enter key runs the code block only when positioned at the end of the block, otherwise it inserts a new line. However, you can press **Ctrl**+**Enter** at any position to run that code block immediately.
+In this multi-line mode, the **Enter** key runs the code block only when positioned at the end of the block, otherwise it inserts a new line. However, you can press **Ctrl**+**Enter** at any position to run that code block immediately.
 
 ### Toolbar commands
 
@@ -51,7 +51,7 @@ The toolbar commands are as follows, most of which have keyboard equivalents and
 | --- | --- | --- | --- |
 | ![Reset button](media/repl-toolbar-01-reset.png) | Reset | **Ctrl**+**Shift**+**F10** | Resets the interactive window session, clearing all variables and history. |
 | ![Clear button](media/repl-toolbar-02-clear.png) | Clear | **Ctrl**+**L** | Clears the output shown in the interactive window; does not affect session variables or history. |
-| ![History buttons](media/repl-toolbar-03-history.png) | Previous History Command<br/>Next History Command | Up, Down<br/>Alt+Up, Alt-Down | Scrolls through the history, with certain behaviors for multi-line code blocks. See [History](#history). |
+| ![History buttons](media/repl-toolbar-03-history.png) | Previous History Command<br/>Next History Command | **Up**, **Down**<br/>**Alt**+**Up**, **Alt**+**Down** | Scrolls through the history, with certain behaviors for multi-line code blocks. See [History](#history). |
 | ![Load workspace button](media/repl-toolbar-04-load-workspace.png) | Load Workspace | n/a | Loads a previous saved workspace (see [Workspaces and sessions](#workspaces-and-sessions). |
 | ![Save workspace as button](media/repl-toolbar-05-save-workspace-as.png)| Save Workspace As | n/a | Saves the current state of the session as a workspace (see [Workspaces and sessions](#workspaces-and-sessions). |
 | ![Source R script button](media/repl-toolbar-06-source-r-script.png) | Source R Script | **Ctrl**+**Shift**+**S** | Calls `source` with the currently active R script in the Visual Studio editor, which runs the code.  This button appears only when an R file is open in the Visual Studio editor. | 

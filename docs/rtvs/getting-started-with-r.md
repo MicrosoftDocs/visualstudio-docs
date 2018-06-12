@@ -126,11 +126,11 @@ As an example, the following steps create a little code to explore the [Central 
 
     ![Updated dual plot in Visual Studio, scaled correctly](media/getting-started-10-plot3.png)
 
-There's more you can do in the editor. For details, see [editing code](editing-r-code-in-visual-studio.md), [IntelliSense](r-intellisense.md), and [code snippets](code-snippets-for-r.md).
+There's more you can do in the editor. For details, see [Edit R code in Visual Studio](editing-r-code-in-visual-studio.md), [IntelliSense](r-intellisense.md), and [Code snippets](code-snippets-for-r.md).
 
 ## Debug your code
 
-One of the key strengths of Visual Studio is its debugging UI. RTVS builds on top of this strong foundation and adds innovative UI such as the [Variable Explorer and Data Table Viewer](variable-explorer.md). Here, let's just take a first look at debugging.
+One of the key strengths of Visual Studio is its debugging UI. RTVS builds on top of this strong foundation and adds innovative UI such as the [Variable Explorer](variable-explorer.md). Here, let's just take a first look at debugging.
 
 1. To begin, reset the current workspace to clear everything you've done so far by using the **R Tools**>**Session**>**Reset** menu command. By default, everything you do in the interactive window accrues to the current session, which is then also used by the debugger. By resetting the session, you ensure that the debugging session starts with no pre-existing data. The **Reset** command, however, doesn't affect your `script.R` source file, because that's managed and saved outside of the workspace.
 

@@ -19,14 +19,14 @@ Remote R Service for Linux is currently packaged as rtvs-daemon. The daemon is s
 
 Once you've configured the remote machine, the following steps connect the R Tools for Visual Studio (RTVS) to that service:
 
-1. Select **R Tools > Windows > Workspaces** to open the **Workspaces** window.
+1. Select **R Tools**>**Windows**>**Workspaces** to open the **Workspaces** window.
 1. Select **Add Connection**.
 1. Give the connect a name and provide its URL, such as `https://localhost:5444` (Windows Subsystem for Linux) or `https://public-ip:5444` (Azure container). Select **Save** when complete.
 1. Select the connection icon or double-click the connection item.
 1. Provide login credentials. The username must be prefixed with `<<unix>>\` as in `<<unix>>\ruser1` (as required for all connections to Linux remote computers).
 1. If you are using self-signed certificate, you may see a warning. The message provides instructions to correct the warning.
 
-## Setting up Remote R Service
+## Set up Remote R Service
 
 This section describes the following options:
 

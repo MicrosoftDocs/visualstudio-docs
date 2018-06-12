@@ -29,7 +29,7 @@ A. No.
 A. Absolutely. In fact, here are a few that are popular for people working with R.
 
 - [VsVim for vim key bindings](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim)
-- [Github](https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio)
+- [GitHub](https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio)
 - [Markdown editor with live preview](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor)
 
 See the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) to find more.

@@ -24,7 +24,7 @@ In addition to coloring different parts of your code, such as strings, comments,
 
 ![Syntax coloring for R code](media/editing-syntax-colors.png)
 
-To customize fonts and certain highlight colors, select the **Tools**>**Options** command, navigate to **Environment**>**Fonts and Colors**, then change settings for R-related items in the **Display items:** box:
+To customize fonts and certain highlight colors, select the **Tools**>**Options** command, navigate to **Environment**>**Fonts and Colors**, then change settings for R-related items in the **Display items** box:
 
 ![Fonts and color options for R code](media/editing-syntax-colors-options.png)
 
@@ -58,7 +58,7 @@ By default, Visual Studio inserts spaces when you press the Tab key. You can aga
 
 Code navigation gives you quick access to the source code of your R program and its libraries. These features keep you in the flow of your work rather than having to manually search your code.
 
-**Go To Definition** quickly jumps to a function definition or pops up an inline mini-editor to read the source code of a library function. Just right-click the function of interest and select **Go To Definition**, or place the cursor in the function and press **F12**.
+**Go To Definition** quickly jumps to a function definition or pops up an inline mini-editor to read the source code of a library function. Just **right-click** the function of interest and select **Go To Definition**, or place the cursor in the function and press **F12**.
 
 This command opens a new editor window containing the source code for the function. The cursor is conveniently positioned at the start of the function definition.
 

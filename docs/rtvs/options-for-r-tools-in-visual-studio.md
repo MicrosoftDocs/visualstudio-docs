@@ -19,18 +19,18 @@ ms.workload:
 
 # R Tools for Visual Studio options
 
-Settings are accessed through the **R Tools > Options** menu, or through **Tools > Options** and scrolling to **R Tools**:
+Settings are accessed through the **R Tools**>**Options** menu, or through **Tools**>**Options** and scrolling to **R Tools**:
 
   ![Options dialog for R Tools](media/options-dialog.png)
 
 Options and settings specific to R are accessed using the methods below. You must select the **Show all settings** box at the bottom of the **Options** dialog box for all of these sections to appear.
 
-- Code formatting options (see [Editor options](editing-r-code-in-visual-studio.md#editor-options): **Tools > Options** menu, then select **Text Editor > R > Formatting**
-- Linting options (see [Linting](linting-r-code.md)): **Tools > Options** menu, then select **Text Editor > R > Lint**
-- Advanced editor options ([described in this article](#text-editor--r--advanced-options)): **Tools > Options** menu, then select **Text Editor > R > Advanced**
-- Behavioral options ([described in this article](#r-tools--advanced-options)): **R Tools > Options** menu, or **Tools > Options**, then scroll to **R Tools**.
+- Code formatting options (see [Editor options](editing-r-code-in-visual-studio.md#editor-options): **Tools**>**Options** menu, then select **Text Editor**>**R**>**Formatting**
+- Linting options (see [Linting R code in Visual Studio](linting-r-code.md)): **Tools**>**Options** menu, then select **Text Editor**>**R**>**Lint**
+- Advanced editor options ([described in this article](#text-editor--r--advanced-options)): **Tools**>**Options** menu, then select **Text Editor**>**R**>**Advanced**
+- Behavioral options ([described in this article](#r-tools--advanced-options)): **R Tools**>**Options** menu, or **Tools**>**Options**, then scroll to **R Tools**.
 
-The **R Tools > Data Science Settings** command affects also a number of different settings in Visual Studio overall. This command is described in the next section.
+The **R Tools**>**Data Science Settings** command affects also a number of different settings in Visual Studio overall. This command is described in the next section.
 
 <a name="data-scientist-layout"></a>
 
@@ -40,7 +40,7 @@ The **R Tools > Data Science Settings** menu item configures the Visual Studio I
 
 ![Data scientist window layout in Visual Studio](media/installation-data-scientist-layout-result.png)
 
-To revert to other Visual Studio settings later on, first use the **Tools > Import and Export Settings** command, select **Export selected environment settings**, and specify a file name. To restore those settings, use the same command and select **Import selected environment settings**. You can also use the same commands if you change the data scientist layout and want to return to it later on, rather than using the **Data Science Settings** command directly.
+To revert to other Visual Studio settings later on, first use the **Tools**>**Import and Export Settings** command, select **Export selected environment settings**, and specify a file name. To restore those settings, use the same command and select **Import selected environment settings**. You can also use the same commands if you change the data scientist layout and want to return to it later on, rather than using the **Data Science Settings** command directly.
 
 ## Text Editor > R > Advanced options
 
@@ -54,7 +54,7 @@ Each option is set to either on or off to control the behavior in question. For 
 
 ## R Tools > Advanced options
 
-The **R Tools > Options** menu command opens the **Options** dialog to the R options:
+The **R Tools**>**Options** menu command opens the **Options** dialog to the R options:
 
   ![Options dialog for R Tools](media/options-dialog.png)
 
@@ -62,7 +62,7 @@ The following sections describe the different options available on this page.
 
 ### Debugging
 
-These options control how values are handled in [Variable Explorer](variable-explorer.md) and in debugger windows like Watch and Locals (see [Debugging](debugging-r-in-visual-studio.md)).
+These options control how values are handled in [Variable Explorer](variable-explorer.md) and in debugger windows like Watch and Locals (see [Debug R in Visual Studio](debugging-r-in-visual-studio.md)).
 
 | Option | Default value | Description |
 | --- | --- | --- |
@@ -79,9 +79,9 @@ These options control how values are handled in [Variable Explorer](variable-exp
 
 | Option | Default value | Description |
 | --- | --- | --- |
-| F1 Web browser | `Internal` | Controls how help is displayed when you are searching for a term using Ctrl+F1. When set to `Internal`, help is rendered within a tool window in Visual Studio. When set to `External`, help appears in your default web browser. |
-| F1 Web Search String | `R site:stackoverflow.com` | Controls how search terms are passed to your search engine when you press Ctrl+F1 on a term in the editor. By default the string is `R site:stackoverflow.com`, which appends `R` to your search term. The `site:stackoverflow.com` is a directive to the search engine that tells it to scope the search to pages within the `stackoverflow.com` domain. |
-| R Help Browser | `Automatic` | Controls how help is displayed when you are searching the R documentation using F1, `?`, or `??`. When set to `Automatic`, help renders in the appropriate window. For example, HTML help appears within a Visual Studio tool window, whereas PDFs appear in your default PDF program. When set to `External`, help is rendered in your default web browser. |
+| F1 Web browser | `Internal` | Controls how help is displayed when you are searching for a term using **Ctrl**+**F1**. When set to `Internal`, help is rendered within a tool window in Visual Studio. When set to `External`, help appears in your default web browser. |
+| F1 Web Search String | `R site:stackoverflow.com` | Controls how search terms are passed to your search engine when you press **Ctrl**+**F1** on a term in the editor. By default the string is `R site:stackoverflow.com`, which appends `R` to your search term. The `site:stackoverflow.com` is a directive to the search engine that tells it to scope the search to pages within the `stackoverflow.com` domain. |
+| R Help Browser | `Automatic` | Controls how help is displayed when you are searching the R documentation using **F1**, `?`, or `??`. When set to `Automatic`, help renders in the appropriate window. For example, HTML help appears within a Visual Studio tool window, whereas PDFs appear in your default PDF program. When set to `External`, help is rendered in your default web browser. |
 
 ### History
 
@@ -123,5 +123,5 @@ These options control how values are handled in [Variable Explorer](variable-exp
 | Load workspace when project opens | `No` | Setting to `Yes` enables loading of session data from the `.RData` file into the global environment when the project is opened. |
 | Prompt to save workspace on reset | `Yes` | Setting to `No` disables prompting of saving your workspace when you click on the Reset button in the Interactive Window. |
 | Save workspace when project closes | `No` | Setting to `Yes` enables saving the global environment to the `.RData` file when the project is closed. |
-| Show confirmation dialog before switching workspaces | `Yes` | Setting to `No` disables prompting the user for confirmation when switching between different workspaces. See [switching between workspaces](r-workspaces-in-visual-studio.md#switching-between-workspaces) |
+| Show confirmation dialog before switching workspaces | `Yes` | Setting to `No` disables prompting the user for confirmation when switching between different workspaces. See [Switch between workspaces](r-workspaces-in-visual-studio.md#switch-between-workspaces) |
 | Show machine load indicator | `False` | Controls visibility of the CPU/Memory/Network load indicator in the status bar. Because the indicator incurs network traffic, it's helpful to keep this `False` in remote metered scenarios. Changing this option requires that you restart Visual Studio. |
