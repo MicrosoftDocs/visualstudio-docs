@@ -121,4 +121,4 @@ TFSConfig CodeIndex /destroyCodeIndex /collectionName:"Fabrikam Web Site"
 ## See also
 
 - [Find code changes and other history with CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)
-- [Managing server configuration with TFSConfig](/vsts/tfs-server/command-line/tfsconfig-cmd)
+- [Managing server configuration with TFSConfig](/tfs/server/ref/command-line/tfsconfig-cmd)
