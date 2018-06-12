@@ -46,7 +46,7 @@ A. The 1.0 release of RTVS is English-only. The 1.1 release will be localized to
 
 **Q. I really like my current Visual Studio settings, but I want to try out the new Data Science settings. What should I do?**
 
-A. Save your current Visual Studio settings using **Tools > Import and Export Settings...**, then switch to the Data Science settings. To restore the saved settings, use the **Import and Export Settings...** command again.
+A. Save your current Visual Studio settings using **Tools**>**Import and Export Settings**, then switch to the Data Science settings. To restore the saved settings, use the **Import and Export Settings** command again.
 
 **Q. Can I store my Visual Studio project on a network share?**
 

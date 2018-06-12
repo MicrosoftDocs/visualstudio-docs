@@ -24,7 +24,7 @@ R Tools for Visual Studio (RTVS) is a free, [open-source](https://github.com/mic
 To experience R in Visual Studio:
 
 - [Install the R Tools](installing-r-tools-for-visual-studio.md).
-- Follow the [Getting Started](getting-started-with-r.md) guide, as well as the [Samples](getting-started-samples.md) and [Getting Help](getting-started-help.md) articles.
+- Follow the [Getting started](getting-started-with-r.md) guide, as well as the [Samples](getting-started-samples.md) and [Getting help](getting-started-help.md) articles.
 
 Then follow the links below to learn more about R-related features as well as the general capabilities of Visual Studio itself.
 
@@ -48,8 +48,8 @@ Also see [Frequently asked questions](faq.md).
 
 ## Send us your feedback!
 
-1. **Github issues**: The best way to reach the RTVS team is by [filing an issue on GitHub](https://github.com/Microsoft/RTVS/issues), or by using the **R Tools > Feedback** menu.
+1. **Github issues**: The best way to reach the RTVS team is by [filing an issue on GitHub](https://github.com/Microsoft/RTVS/issues), or by using the **R Tools**>**Feedback** menu.
 
-1. **Send a Smile / Frown**: The **R Tools > Feedback** menu is a quick way to send feedback and attach RTVS log files to assist in the diagnosis of your issue. (Logs are written into `%temp%/RTVSlogs.zip` in case you want to send them separately.) Logging is disabled if you've opted out of Visual Studio telemetry through the **Help > Feedback > Settings** menu command, or during installation.
+1. **Send a Smile / Frown**: The **R Tools**>**Feedback** menu is a quick way to send feedback and attach RTVS log files to assist in the diagnosis of your issue. (Logs are written into `%temp%/RTVSlogs.zip` in case you want to send them separately.) Logging is disabled if you've opted out of Visual Studio telemetry through the **Help**>**Feedback**>**Settings** menu command, or during installation.
 
 1. **Email**: You can send direct feedback to the team at *rtvsuserfeedback (at) microsoft.com*.
