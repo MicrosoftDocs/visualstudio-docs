@@ -24,7 +24,7 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
   
 When the debugger pauses, the **CPU Usage** tool collects information about the functions that are executing in your application. The tool lists the functions that were performing work, and provides a timeline graph you can use to focus on specific segments of the sampling session.
 
-The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If **CPU Usage** does not give you the data that you need, the [other profiling tools](../profiling/Profiling-Tools.md) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time. The Diagnostics hub offers you a lot of other options to record and analyze this kind of data.
+The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If **CPU Usage** does not give you the data that you need, the [other profiling tools](../profiling/profiling-feature-tour.md) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time. The Diagnostics hub offers you a lot of other options to record and analyze this kind of data.
 
 |         |         |
 |---------|---------|
@@ -50,15 +50,15 @@ In this tutorial, you will:
     > [!TIP]
     > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
   
-3.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug / Windows / Show Diagnostic Tools**.
+3.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug**>**Windows**>**Show Diagnostic Tools**.
 
-4.  You can choose whether to see **CPU Usage**, [Memory Usage](../profiling/Memory-Usage.md), or both, with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can also enable or disable IntelliTrace in **Tools / Options / IntelliTrace**.
+4.  You can choose whether to see **CPU Usage**, [Memory Usage](../profiling/Memory-Usage.md), or both, with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can also enable or disable IntelliTrace in **Tools**>**Options**>**IntelliTrace**.
 
      ![Show Diagnostics Tools](../profiling/media/DiagToolsSelectTool.png "DiagToolsSelectTool")
 
      We will mainly be looking at CPU utilization, so make sure that **CPU Usage** is enabled (it is enabled by default).
 
-5.  Click **Debug / Start Debugging** (or **Start** on the toolbar, or **F5**).
+5.  Click **Debug**>**Start Debugging** (or **Start** on the toolbar, or **F5**).
 
      When the app finishes loading, the Summary view of the Diagnostics Tools appears.
 
@@ -70,7 +70,7 @@ In this tutorial, you will:
 
 7.  While the debugger is paused, enable the collection of the CPU Usage data and then open the **CPU Usage** tab.
 
-     ![Diagnostics Tools Enable CPU Profiling](../profiling/media/DiagToolsEnableCPUProfiling.png "DiagToolsEnableCPUProfiling")
+     ![Diagnostics Tools enable CPU profiling](../profiling/media/DiagToolsEnableCPUProfiling.png "DiagToolsEnableCPUProfiling")
 
      When you choose **Record CPU Profile**, Visual Studio will begin recording your functions and how much time they take to execute. You can only view this collected data when your application is halted at a breakpoint.
 
@@ -151,11 +151,11 @@ Be aware that many external code call chains are deeply nested, so that the widt
 Use the search box to find a node that you are looking for, then use the horizontal scroll bar to bring the data into view.
 
 > [!TIP]
-> If you profile external code that calls Windows functions, you should make sure that you have the most current .*pdb* files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [Specify symbol (.*pdb*) and source files in the debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
+> If you profile external code that calls Windows functions, you should make sure that you have the most current .*pdb* files. Without these files, your report views will list Windows function names that are cryptic and difficult to understand. For more information about how to make sure that you have the files you need, see [Specify symbol (.pdb) and source files in the debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
 ## Next steps
 
-In this tutorial, you've learned how to collect and analyze CPU usage data. If you already completed the [tour of the profiler](../profiling/profiling-feature-tour.md), you may want to get a quick look at how to analyze memory usage in your apps.
+In this tutorial, you've learned how to collect and analyze CPU usage data. If you already completed the [First look at profiling tools](../profiling/profiling-feature-tour.md), you may want to get a quick look at how to analyze memory usage in your apps.
 
 > [!div class="nextstepaction"]
-> [Analyze memory usage](../profiling/memory-usage.md) 
+> [Profile memory usage in Visual Studio](../profiling/memory-usage.md) 

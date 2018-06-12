@@ -29,7 +29,7 @@ VSPerfCmd.exe /Attach:ProcessID [Options]
  `ProcessID`  
  The process ID (PID) of the running process. The PID of a running process is listed on the Processes tab of Windows Task Manager.  
   
-## Valid Options  
+## Valid options  
  The following **VSPerfCmd** options can be combined with the **Attach** option on a single command line.  
   
  **Crosssession**  
@@ -47,7 +47,7 @@ VSPerfCmd.exe /Attach:ProcessID [Options]
  **ProcessOn:** `PID` **ProcessOff:** `PID`  
  Resumes (**ProcessOn**) or pauses (**ProcessOff**) profiling for the specified process.  
   
-## Interval Options  
+## Interval options  
  One of the following sampling interval options can be specified on the Attach command line. The default sampling interval is 10,000,000 processor clock cycles.  
   
  **Timer**[**:**`Cycles`]**PF**[**:**`Events`]**Sys**[**:**Events]**Counter**[**:**`Name`,`Reload`,`FriendlyName`]  
@@ -71,6 +71,6 @@ VSPerfCmd.exe /Attach:12345
   
 ## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)
+ [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profile services](../profiling/command-line-profiling-of-services.md)

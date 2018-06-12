@@ -16,7 +16,7 @@ ms.workload:
 
 # Custom native ETW heap events
 
-Visual Studio contains a variety of [profiling and diagnostic tools](../profiling/profiling-tools.md), including a native memory profiler.  This profiler hooks [ETW events](/windows-hardware/drivers/devtest/event-tracing-for-windows--etw-) from the heap provider and provides analysis of how memory is being allocated and used.  By default, this tool can only analyze allocations made from the standard Windows heap, and any allocations outside this native heap would not be displayed.
+Visual Studio contains a variety of [profiling and diagnostic tools](../profiling/profiling-feature-tour.md), including a native memory profiler.  This profiler hooks [ETW events](/windows-hardware/drivers/devtest/event-tracing-for-windows--etw-) from the heap provider and provides analysis of how memory is being allocated and used.  By default, this tool can only analyze allocations made from the standard Windows heap, and any allocations outside this native heap would not be displayed.
 
 There are many cases in which you may want to use your own custom heap and avoid the allocation overhead from the standard heap.  For instance, you could use [VirtualAlloc](https://msdn.microsoft.com/library/windows/desktop/aa366887(v=vs.85).aspx) to allocate a large amount of memory at the start of the app or game, and then manage your own blocks within that list.  In this scenario, the memory profiler tool would only see that initial allocation, and not your custom management done inside the memory chunk.  However, using the Custom Native Heap ETW Provider, you can let the tool know about any allocations you are making outside the standard heap.
 
@@ -153,5 +153,5 @@ As with the standard Windows heap, you can also use this tool to compare snapsho
 > Visual Studio also contains a **Memory Usage** tool in the **Performance Profiling** toolset, which is enabled from the **Debug**>**Performance Profiler** menu option, or the **Alt**+**F2** keyboard combination.  This feature does not include heap tracking and will not display your custom heap as described here.  Only the **Diagnostic Tools** window, which can be enabled with the **Debug**>**Windows**>**Show Diagnostic Tools** menu, or the **Ctrl**+**Alt**+**F2** keyboard combination, contains this functionality.
 
 ## See also
-[Profiling tools](../profiling/profiling-tools.md)  
+[First look at profiling tools](../profiling/profiling-feature-tour.md)  
 [Memory Usage](../profiling/memory-usage.md)

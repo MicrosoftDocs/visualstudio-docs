@@ -352,4 +352,4 @@ if (performance.mark && performance.measure) {
 -   For info on the single-threaded code execution model and performance, see [Executing code](http://msdn.microsoft.com/library/windows/apps/hh781217.aspx).  
   
 ## See also  
- [First look at profiling tools](../profiling/profiling-tools.md)
+ [First look at profiling tools](../profiling/profiling-feature-tour.md)

@@ -197,6 +197,6 @@ You can use the **Memory Usage** tool without debugging to do the following
 ## See also  
  [JavaScript memory](../profiling/javascript-memory.md)  
  [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling feature tour](../profiling/profiling-feature-tour.md)  
+ [First look at profiling tools](../profiling/profiling-feature-tour.md)  
  [Performance best practices for UWP apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/library/windows/apps/hh750313.aspx)   
  [Diagnosing memory issues with the new Memory Usage Tool in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=394706)
