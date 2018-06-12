@@ -24,6 +24,9 @@ for building TypeScript files, managing npm packages, and running npm scripts.
 
 To get started, select **Open Folder** from the Start Page that appears when you open Visual Studio, or you can select **File** > **Open** > **Folder** from the toolbar. Solution Explorer displays all the files in the folder, and you can open any of the files to begin editing. In the background, Visual Studio indexes the files to enable npm, build, and debug features.
 
+> [!NOTE]
+> Most of the features described in this article require Visual Studio 2017 version 15.8.
+
 ## npm integration
 
 If the folder you open contains a *package.json* file, you can right-click *package.json* to show a context menu (shortcut menu) specific to npm. 

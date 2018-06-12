@@ -21,18 +21,17 @@ This tutorial walks you through the task of creating a simple Node.js applicatio
 
 When publishing a Node.js application to Azure, there are several options. These include Azure App Service, a VM running an OS of your choosing, Azure Container Service (AKS) for management with Kubernetes, a Container Instance using Docker, and more. For more details on each of these options, see [Compute](https://azure.microsoft.com/en-us/product-categories/compute/).
 
-For this tutorial, you deploy the app to [Linux App Service](https://docs.microsoft.com/en-us/azure/app-service/containers/app-service-linux-intro).
+For this tutorial, you deploy the app to [Linux App Service](/azure/app-service/containers/app-service-linux-intro).
 Linux App Service deploys a Linux Docker container to run the Node.js application (as opposed to the Windows App Service, which runs Node.js apps behind IIS on Windows).
 
-This tutorial shows how to create a Node.js application starting from a template installed with the Node.js Tools for Visual Studio, push the code to a repository on GitHub, and then provision an Azure App Service via the Azure web portal so that you can deploy from the GitHub repository. To use the command-line to provision the Azure App Service and push the code from a local Git repository, see [Create Node.js App](https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-nodejs).
+This tutorial shows how to create a Node.js application starting from a template installed with the Node.js Tools for Visual Studio, push the code to a repository on GitHub, and then provision an Azure App Service via the Azure web portal so that you can deploy from the GitHub repository. To use the command-line to provision the Azure App Service and push the code from a local Git repository, see [Create Node.js App](/azure/app-service/containers/quickstart-nodejs).
 
-The following task are required to get this scenario up and running:
-
-* The Node.js project to run in the Azure App Service
-* A GitHub repository to push the code to
-* Azure App Service set up to host the project
-
-The details for each of these tasks follows.
+In this tutorial, you learn how to:
+> [!div class="checklist"]
+> * Create a Node.js project
+> * Create a GitHub repository for the code
+> * Create a Linux App Service on Azure
+> * Deploy to Linux
 
 ## Create a Node.js project to run in Azure
 
@@ -55,11 +54,13 @@ To set up GitHub for Visual Studio:
 1. Make sure the [GitHub Extension for Visual Studio](https://visualstudio.github.com/) is installed and enabled using the 
 menu item **Tools** > **Extensions and Updates**.
 
-2. From the menu select **View** > **Other Windows** > **GitHub**, and the following appears.
+2. From the menu select **View** > **Other Windows** > **GitHub**.
+
+    The GitHub window opens.
+
+3. If you don't see the **Get Started** button in the GitHub window, click **File** > **Add to Source Control** and wait for the UI to update.
 
     ![Open the GitHub window](../javascript/media/azure-github-get-started.png)
-
-3. If you don't see the **Get Started** button, click **File** > **Add to Source Control** and wait for the UI to update.
 
 4. Click **Get started**.
 
@@ -68,11 +69,11 @@ to the following illustration.
 
     ![GitHub repo settings](../javascript/media/azure-github-publish.png)
 
-5. Fill out the fields for the new repository to publish, and then click **Publish**.
+5. Complete the fields for the new repository to publish, and then click **Publish**.
 
     After a few moments, a banner stating "Repository created successfully"  appears.
 
-The next steps show you how to publish from this repository to an Azure App Service on Linux.
+    In the next section, you learn how to publish from this repository to an Azure App Service on Linux.
 
 ## Create a Linux App Service in Azure
 
@@ -86,16 +87,18 @@ The next steps show you how to publish from this repository to an Azure App Serv
 
     ![Create a Linux App Service](../javascript/media/azure-create-appservice-annotated.png)
 
-5. Click **Create** to create the App Service. It may take a few minutes to deploy.
+5. Click **Create** to create the App Service.
 
-6. Once created, go to the **Application settings** section, and add a setting with a name of `SCM_SCRIPT_GENERATOR_ARGS` and a value of `--node`.
+    It may take a few minutes to deploy.
+
+6. After it is deployed, go to the **Application settings** section, and add a setting with a name of `SCM_SCRIPT_GENERATOR_ARGS` and a value of `--node`.
 
     ![Application settings](../javascript/media/azure-script-generator-args.png)
 
 > [!WARNING]
-> The App Service deployment process uses a set of heuristics to determine which type of application to try and run. If a **.sln** file is detected in the deployed content, it will assume an MSBuild based project is being deployed. The setting added above overrides this logic and specifies explicitly that this is a Node.js application. Without this setting, the Node.js application will fail to deploy if the *.sln* file is part of the repository being deployed to the App Service.
+> The App Service deployment process uses a set of heuristics to determine which type of application to try and run. If a .*sln* file is detected in the deployed content, it will assume an MSBuild based project is being deployed. The setting added above overrides this logic and specifies explicitly that this is a Node.js application. Without this setting, the Node.js application will fail to deploy if the .*sln* file is part of the repository being deployed to the App Service.
 
-7. Once created, open the App Service and select **Deployment options**.
+7. After it is deployed, open the App Service and select **Deployment options**.
 
     ![Deployment options](../javascript/media/azure-deployment-options.png)
 
@@ -107,9 +110,11 @@ The next steps show you how to publish from this repository to an Azure App Serv
 
     ![Publish to Linux App Service](../javascript/media/azure-repo-and-branch.png)
 
-    The **deployment options** page appears as shown while syncing. Once it is finished, a check mark will appear.
+    The **deployment options** page appears while syncing.
 
     ![Deploying and syncing with GitHub](../javascript/media/azure-deployment-options-sync.png)
+
+    Once it is finished syncing, a check mark will appear.
 
     The site is now running the Node.js application from the GitHub repository,
 and it is accessible at the URL created for the Azure App Service (by default the name given to the Azure App Service followed by ".azurewebsites.net").
@@ -126,7 +131,7 @@ and it is accessible at the URL created for the Azure App Service (by default th
 
 2. Build the code and test it locally, then check it in and push to GitHub.
 
-    In the Azure portal, the changes at the GitHub repo will be detected in a few moments, and a new sync of the deployment will start. This looks similar to the following illustration.
+    In the Azure portal, it takes a few moments to detect changes in the GitHub repo, and then a new sync of the deployment starts. This looks similar to the following illustration.
 
     ![Modify and sync](../javascript/media/azure-changes-detected.png)
 
@@ -142,7 +147,14 @@ how to start the Node.js process. Details of the implementation can be seen at
 the list of tools until reaching **SSH** under the **Development Tools** section.
 * To aid in troubleshooting, go to the **Diagnostics logs** settings for the App Service, and change the **Docker Container logging** setting
 from **Off** to **File System**. Logs are created in the container under */home/LogFiles/*_docker.log*, and can be accessed on the box using SSH or FTP(S).
-* A custom domain name may be assigned to the site, rather than the *.azurewebsites.net URL assigned by default. For more details, see the topic [Map Custom Domain](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain).
+* A custom domain name may be assigned to the site, rather than the *.azurewebsites.net URL assigned by default. For more details, see the topic [Map Custom Domain](/azure/app-service/app-service-web-tutorial-custom-domain).
 * Deploying to a staging site for further testing before moving into production is a best practice. For details on how to configure this, see the topic
-[Create staging environments](https://docs.microsoft.com/en-us/azure/app-service/web-sites-staged-publishing).
-* See the [App Service on Linux FAQ](https://docs.microsoft.com/en-us/azure/app-service/containers/app-service-linux-faq) for more commonly asked questions.
+[Create staging environments](/azure/app-service/web-sites-staged-publishing).
+* See the [App Service on Linux FAQ](/azure/app-service/containers/app-service-linux-faq) for more commonly asked questions.
+
+## Next steps
+
+In this tutorial, you learned how create a Linux App Service and deploy a Node.js application to the service. You may want to learn more about Linux App Service.
+
+> [!div class="nextstepaction"]
+> [Linux App Service](/azure/app-service/containers/app-service-linux-intro)
