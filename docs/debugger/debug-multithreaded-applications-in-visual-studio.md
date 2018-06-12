@@ -92,7 +92,7 @@ Debugging a multithreaded application that has a user interface can be especiall
  [Multithreading in Components](http://msdn.microsoft.com/Library/2fc31e68-fb71-4544-b654-0ce720478779)  
  How to use multithreading in [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] components.  
   
- [Multithreading Support for Older Code (Visual C++)](/cpp/parallel/multithreading/multithreading-support-for-older-code-visual-cpp)  
+ [Multithreading Support for Older Code (Visual C++)](/cpp/parallel/multithreading-support-for-older-code-visual-cpp)  
  Threading concepts and example code for C++ programmers using MFC.  
   
 ## See Also  
