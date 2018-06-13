@@ -16,7 +16,7 @@ ms.workload:
   - "multiple"
 ---
 # Cores View
-The **Cores View** shows how thread execution was mapped to the logical processor cores (choose **Analyze**>**Concurrency Visualizer** to start the concurrency visualizer). If you're writing server applications, this view can help you optimize cache performance by using thread affinity or thread pool management. It can also help you examine cases where the use of thread affinity may have worsened the problem of cross-core migration. The Cores View has two parts, a graph and a legend.  
+The **Cores View** shows how thread execution was mapped to the logical processor cores (choose **Analyze** > **Concurrency Visualizer** to start the concurrency visualizer). If you're writing server applications, this view can help you optimize cache performance by using thread affinity or thread pool management. It can also help you examine cases where the use of thread affinity may have worsened the problem of cross-core migration. The Cores View has two parts, a graph and a legend.  
   
  The graph shows logical cores on the y-axis and time on the x-axis. Every thread in the graph has a unique color so that you can track its movement across cores over time. You can filter the threads on this graph by selecting them in the legend area.  
   

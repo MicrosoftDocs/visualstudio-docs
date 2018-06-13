@@ -25,7 +25,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
 ## Create a project
 
-1. In Visual Studio, choose **File**>**New Project**.
+1. In Visual Studio, choose **File** > **New Project**.
 
 2. Under **Visual C#** or **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
 
@@ -152,7 +152,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
     ```
 
     > [!NOTE]
-    > In Visual Basic, make sure the startup object is set to `Sub Main` (**Properties**>**Application**>**Startup Object**).
+    > In Visual Basic, make sure the startup object is set to `Sub Main` (**Properties** > **Application** > **Startup Object**).
 
 ##  Step 1: Collect profiling data
 
@@ -173,9 +173,9 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
     > [!TIP]
     > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
 
-3.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug**>**Windows**>**Show Diagnostic Tools**.
+3.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-4.  Click **Debug**>**Start Debugging** (or **Start** on the toolbar, or **F5**).
+4.  Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
 
      When the app finishes loading, the **Summary** view of the Diagnostics Tools appears.
 

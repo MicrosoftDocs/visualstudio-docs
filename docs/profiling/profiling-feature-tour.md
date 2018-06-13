@@ -85,7 +85,7 @@ Profiling tools like CPU Usage and Memory Usage can be used with the debugger (s
 
 ![Performance Profiler](../profiling/media/prof-tour-performance-profiler.png "Performance Profiler")
 
-Open the Performance Profiler by choosing **Debug**>**Performance Profiler**.
+Open the Performance Profiler by choosing **Debug** > **Performance Profiler**.
 
 The window will allow you to select multiple profiling tools in some scenarios. Tools such as CPU Usage may provide complementary data that you can use to help in your analysis.
 
