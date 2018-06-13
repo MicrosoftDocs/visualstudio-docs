@@ -98,12 +98,12 @@ ms.workload:
   
 9. In the **Properties** window, change the value of the **Embed Interop Types** property to **False**.  
   
-## Define the default location and id strings for custom actions
+## Define the default location and ID strings for custom actions
  Every custom action has a location and ID that is specified in the `GroupID` and `Location` attributes of the `CustomAction` element in the *Elements.xml* file. In this step, you define some of the valid strings for these attributes in the ItemTemplateWizard project. When you complete this walkthrough, these strings are written to the *Elements.xml* file in the Custom Action project item when users specify a location and an ID in the wizard.  
   
  For simplicity, this sample supports only a subset of the available default locations and IDs. For a full list, see [Default Custom Action Locations and IDs](http://go.microsoft.com/fwlink/?LinkId=181964).  
   
-#### To define the default location and id strings
+#### To define the default location and ID strings
   
 1.  open.  
   
