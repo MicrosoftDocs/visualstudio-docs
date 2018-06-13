@@ -1,6 +1,9 @@
+---
+ms.technology: vs-ai-tools
+---
 # Monitor with TensorBoard
 
-You can visualize your model training progress with TensorBoard. 
+You can visualize your model training progress with TensorBoard.
 
 1. Right click your project and click **Run TensorBoard** then select the directory of your output TensorBoard logs.
 

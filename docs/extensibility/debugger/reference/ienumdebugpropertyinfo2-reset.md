@@ -2,21 +2,17 @@
 title: "IEnumDebugPropertyInfo2::Reset | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugPropertyInfo2::Reset"
 helpviewer_keywords: 
   - "IEnumDebugPropertyInfo2::Reset"
 ms.assetid: fa4201c1-4633-4596-93aa-bd415c4ed71a
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

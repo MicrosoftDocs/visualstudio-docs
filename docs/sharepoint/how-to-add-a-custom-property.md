@@ -2,12 +2,9 @@
 title: "How to: Add a Custom Property | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.BDC.Property_Editor"
 dev_langs: 
@@ -20,22 +17,20 @@ helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], properties"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], custom properties"
   - "BDC [SharePoint development in Visual Studio], custom properties"
-ms.assetid: 670c7fff-a8fb-499f-8694-d5aecc432c16
-caps.latest.revision: 10
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add a Custom Property
+# How to: Add a custom property
   You can add custom properties to the model by using the **Property Editor**. You can access these properties in code to retrieve information such as connection strings and other data at run time.  
   
 ### To add a custom property  
   
 1.  In the **BDC Explorer**, choose the node that represents the model element to which you want to apply a custom property.  
   
-2.  On the menu bar, choose **View**, **Properties Window**.  
+2.  On the menu bar, choose **View** > **Properties Window**.  
   
 3.  In the **Properties** window, choose the **Custom Properties** property, and then choose the ellipsis button (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")).  
   
@@ -47,7 +42,7 @@ ms.workload:
   
 6.  For the **Value** field of the custom property, specify a value, and then choose the **OK** button.  
   
-## See Also  
+## See also
  [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)   
  [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)   
  [Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md)   

@@ -1,41 +1,38 @@
 ---
-title: "Benefits of Visual Studio for Mac over Xamarin Studio | Microsoft Docs"
+title: "Benefits of Visual Studio for Mac over Xamarin Studio"
+description: "This article explains the features and benefits that Visual Studio for Mac provides over Xamarin Studio"
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.assetid: 6ACF5FD4-D5C1-4050-95E3-467C753F25F1
 ---
-
 # Benefits of Visual Studio for Mac over Xamarin Studio 
  
-Visual Studio for Mac has replaced Xamarin Studio as a full-featured IDE on Mac. It provides features that allow you to develop web applications and services, cross-platform mobile and desktop apps, and games. Additionally, it makes integrating with Azure a breeze, whether that means publishing to Azure or creating Azure Functions. It has everything you would expect from a modern IDE, including a full-featured source editor, a powerful debugger, a customizable workspace, git integration, and a rich extension system, all designed natively for the Mac. 
+Visual Studio for Mac has replaced Xamarin Studio as a full-featured IDE on Mac. It provides features that allow you to develop web applications and services, cross-platform mobile and desktop apps, and games. Additionally, it makes integrating with Azure a breeze, whether that means publishing to Azure or creating Azure Functions. It has everything you would expect from a modern IDE, including a full-featured source editor, a powerful debugger, a customizable workspace, git integration, and a rich extension system, all designed natively for the Mac.
 
-Other features include: 
+Other features include:
 
-* Roslyn-based C# IntelliSense, refactoring, analyzers, and code fixes 
-* NuGet-based package management 
-* Visual Studio compatible project format 
-* MSBuild build engine 
-* Integrated unit testing 
-* Support for F# out-of-the-box 
+* Roslyn-based C# IntelliSense, refactoring, analyzers, and code fixes
+* NuGet-based package management
+* Visual Studio compatible project format
+* MSBuild build engine
+* Integrated unit testing
+* Support for F# out-of-the-box
 
-Benefits listed in this guide that are marked as **Preview** are only available in the [Alpha channel](https://docs.microsoft.com/visualstudio/mac/update#Changing_the_Updater_channel). 
-
-## Language Support 
+## Language Support
 
 Writing C# 7 code on your Mac is offered only on Visual Studio for Mac.
 
-## .NET Core  
+## .NET Core
 
-[.NET Core](https://www.microsoft.com/net/core#macos) is a platform for creating applications that run on Windows, Linux, and Mac. Visual Studio for Mac has support for loading, creating, running, and debugging .NET Core projects. 
+[.NET Core](https://www.microsoft.com/net/core#macos) is a platform for creating applications that run on Windows, Linux, and Mac. Visual Studio for Mac has support for loading, creating, running, and debugging .NET Core projects.
 
 .NET Core is installed with the Visual Studio for Mac and works out of the box.
 
-.NET Core support includes: 
+.NET Core support includes:
 
-* C# and F# IntelliSense. 
-* .NET Core project templates for console, library, and web applications. 
+* C# and F# IntelliSense.
+* .NET Core project templates for console, library, and web applications.
 * Full debugging support, including breakpoints, call stack, watch window, etc. 
 * NuGet Package References and MSBuild-based restore. 
 * Integrated unit testing support for running and debugging tests with the Visual Studio Test Platform that is included with the .NET Core SDK. 
@@ -89,11 +86,11 @@ With Visual Studio for Mac it's possible to publish your ASP.NET Core web apps a
 
 ![Publish to Azure](media/benefits-vsmac-over-xs-image1.png)
 
-### Azure Functions (**Preview**)
+### Azure Functions
 
 Azure Functions is a solution for easily running small pieces of code, or functions, in the cloud. Visual Studio for Mac allows you to code and locally debug your Azure Functions. To get started look for Azure Functions under Cloud in the New Project dialog. 
 
-### Docker Support (**Preview**)
+### Docker Support
 
 You can now publish ASP.NET Core apps to Docker containers and run them from an Azure App Service. 
 
@@ -160,6 +157,4 @@ Xamarin Studio
 
 ### Cross Platform 
 
-* [Xamarin Live Player](https://developer.xamarin.com/guides/cross-platform/live/) (**Preview**) 
-* [Xamarin IoT](https://developer.xamarin.com/guides/cross-platform/iot/) (**Preview**) 
- 
+* [Xamarin Live Player](https://developer.xamarin.com/guides/cross-platform/live/)

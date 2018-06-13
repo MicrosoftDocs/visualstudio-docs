@@ -43,7 +43,7 @@ document.write(m.get(2));
 document.write("<br />");  
   
 m.forEach(function (value, key, mapObj) {  
-    document.write(item.toString() + "<br />");  
+    document.write(value.toString() + "<br />");  
 });  
   
 // Output:  
@@ -67,7 +67,7 @@ s.add(1776);
 s.add("founding father");  
   
 s.forEach(function (value) {  
-    document.write(item.toString() + ", ");  
+    document.write(value.toString() + ", ");  
 });  
   
 // Output:  

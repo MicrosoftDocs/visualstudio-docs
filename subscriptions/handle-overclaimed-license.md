@@ -1,21 +1,24 @@
 ---
-title: Handle over-claimed licenses | Visual Studio Marketplace
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 10/3/2017
-Ms.topic: Get-Started-Article
-Description:  Learn how administrators can resolve over-claimed subscriptions
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+title: Handle over-claimed licenses | Microsoft Docs
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 02/13/2018
+ms.topic: Get-Started-Article
+description:  Learn how administrators can resolve over-claimed subscriptions
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# Handling ‘Over-claimed’ Subscriptions
-Sometimes orders are changed after subscribers have been added, which can result in having more assigned subscriptions than licenses owned by your company. When this happens, the Subscribers tab will show an alert and provide you with further information. 
-**Note: Overclaimed scenarios will not be allowed in Open License programs.**
+# Handling ‘over-claimed’ subscriptions
 
-![Notice of Over-claimed Subscriptions](_img\over-claimed\over-claimed-alert.png)
+Sometimes orders are changed after subscribers have been added, which can result in having more assigned subscriptions than licenses owned by your company. When this happens, the Subscribers tab shows an alert and provides you with further information. 
+
+> [!NOTE] 
+> Overclaimed scenarios are not allowed in Open License programs.  Also, other programs may display this information in the portal differently. 
+
+ ![Notice of Over-claimed Subscriptions](_img\over-claimed\over-claimed-alert.png)
 
 1.	To resolve over-claimed licenses, click the alert text. This will display a filtered list of the subscribers that are assigned to the subscription level and expiration date that is over-claimed. 
 
@@ -23,4 +26,4 @@ Sometimes orders are changed after subscribers have been added, which can result
 
 3.	The overview on the left side of the page will update to show that you are once again in compliance, and all over-claimed notifications will disappear. 
 
-![Delete Over-claimed Subscriptions](_img\over-claimed\delete-over-claimed.png)
+    ![Delete Over-claimed Subscriptions](_img\over-claimed\delete-over-claimed.png)

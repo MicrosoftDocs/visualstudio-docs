@@ -2,21 +2,17 @@
 title: "BP_LOCATION_DATA_STRING | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "BP_LOCATION_DATA_STRING"
 helpviewer_keywords: 
   - "BP_LOCATION_DATA_STRING structure"
 ms.assetid: 445d6f3f-95b0-47ac-85e2-51b778240687
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

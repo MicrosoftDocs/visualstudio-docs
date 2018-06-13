@@ -2,12 +2,8 @@
 title: "Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.exceptions.thrown"
 dev_langs: 
@@ -21,10 +17,9 @@ helpviewer_keywords:
   - "debugger, exceptions"
   - "throwing exceptions, during debugging"
 ms.assetid: 1fe98d10-c8f9-4b39-a920-99169bfd542e
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

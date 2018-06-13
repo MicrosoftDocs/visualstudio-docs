@@ -2,23 +2,18 @@
 title: "How to: Configure Performance Rules | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.ruleseditor"
 ms.assetid: a148b468-b849-4858-880a-808a6b47e596
-caps.latest.revision: 14
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Configure Performance Rules
+# How to: Configure performance rules
 The performance warnings of th Visual Studio Profiling Tools indicate issues in a profiled application that can slow program execution. Warnings can also indicate that you might need to change collection methods to collect more useful data. Performance warnings are generated automatically in a profiling session and appear in the **Error List** window when a profiling data file is opened in [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]. Certain warnings might not apply to the scenarios that you are interested in, and some warnings might be raised inaccurately. You can configure performance warnings to show or hide specific warnings.  
   
 ### To configure profiler performance warnings  

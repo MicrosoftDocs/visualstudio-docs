@@ -2,17 +2,13 @@
 title: "How to: Diagnose extension performance| Microsoft Docs"
 ms.custom: ""
 ms.date: "11/08/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 46b0a1e3-7e69-47c9-9d8d-a1815d6c3896
-caps.latest.revision: 1
 author: "BertanAygun"
 ms.author: "bertaygu"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "bertaygu"
 ---
@@ -27,6 +23,9 @@ To help users understand this impact, we added a new feature in Visual Studio to
 ![manage Visual Studio performace](media/manage-performance.png)
 
 This document aims to help extension developers by describing how extension impact is calculated and how it can be analyzed locally to test if an extension may be shown as a performance impacting extension.
+
+> [!NOTE]
+> This document focuses on the impact of extensions on startup and solution load. Extensions also impact Visual Studio performance when they cause the UI to become unresponsive. For more on this topic, see [How to: Diagnose UI delays caused by extensions](how-to-diagnose-ui-delays-caused-by-extensions.md).
 
 ## How extensions can impact startup
 

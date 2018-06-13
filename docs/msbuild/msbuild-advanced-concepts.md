@@ -2,19 +2,14 @@
 title: "MSBuild Advanced Concepts | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, advanced concepts"
 ms.assetid: f34a558a-ebd9-49bd-8510-32a2b581a4af
-caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
-manager: ghogen
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

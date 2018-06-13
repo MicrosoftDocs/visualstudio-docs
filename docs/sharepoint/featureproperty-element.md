@@ -2,36 +2,31 @@
 title: "FeatureProperty Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
   - "FeatureProperty element"
-ms.assetid: 36a771a6-98d0-4a40-a278-d76baea82452
-caps.latest.revision: 10
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# FeatureProperty Element
+# FeatureProperty element
   Represents a custom property that is included with a Feature when it is deployed to SharePoint. After a Feature is deployed, you can access the property in your code.  
   
 ## Syntax  
   
-```  
+```xml  
 <FeatureProperty Key = "Key of the property value"  
     Value = "Property value" />  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -41,10 +36,10 @@ ms.workload:
 |**Key**|Required **xs:string** attribute.<br /><br /> The key that is used to store and retrieve the property value. Each property must have a key that is unique within the Feature.|  
 |**Value**|Required **xs:string** attribute.<br /><br /> The property value.|  
   
-### Child Elements  
+### Child elements
  None.  
   
-### Parent Elements  
+### Parent elements
   
 |Element|Description|  
 |-------------|-----------------|  
@@ -53,16 +48,16 @@ ms.workload:
 ## Remarks  
  For more information about Feature properties, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md).  
   
-## Element Information  
+## Element information
   
 |||  
 |-|-|  
-|**Namespace**|http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel|  
+|**Namespace**|http<nolink>://schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|  
 |**Schema name**|SharePoint Project Item Schema|  
 |**Validation file**|ProjectItemModelSchema.xsd|  
 |**Can be empty**|No|  
   
-## See Also  
+## See also
  [SharePoint Project Item Schema Reference](../sharepoint/sharepoint-project-item-schema-reference.md)   
  [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)  
   

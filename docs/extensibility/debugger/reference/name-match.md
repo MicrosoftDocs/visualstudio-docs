@@ -2,21 +2,17 @@
 title: "NAME_MATCH | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "NAME_MATCH"
 helpviewer_keywords: 
   - "NAME_MATCH enumeration"
 ms.assetid: 3842c417-a3c9-4259-a05f-52b64b829ef6
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

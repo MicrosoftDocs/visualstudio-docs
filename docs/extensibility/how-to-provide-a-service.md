@@ -2,19 +2,15 @@
 title: "How to: Provide a Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "services, providing"
 ms.assetid: 12bc1f12-47b1-44f6-b8db-862aa88d50d1
-caps.latest.revision: 22
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
@@ -30,7 +26,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
   
 #### Implementing a service  
   
-1.  Create a VSIX project (**File > New > Project > Visual C# > Extensiblity > VSIX Project**).  
+1.  Create a VSIX project (**File > New > Project > Visual C# > Extensibility > VSIX Project**).  
   
 2.  Add a VSPackage to the project. Select the project node in the **Solution Explorer** and click **Add > New item > Visual C# Items > Extensibility > Visual Studio Package**.  
   
@@ -42,7 +38,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
   
     -   A class that implements both the service and the service interface.  
   
-     The following example shows a very basic implementation of the three types. The constructor of the service class must set the service provider.  
+     The following example shows a basic implementation of the three types. The constructor of the service class must set the service provider.  
   
     ```csharp  
     public class MyService : SMyService, IMyService  
@@ -112,7 +108,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
     private object CreateService(IServiceContainer container, Type serviceType)  
     {  
         if (typeof(SMyService) == serviceType)  
-            return new SMyService(this);  
+            return new MyService(this);  
         return null;  
     }  
     ```  
@@ -120,7 +116,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
     > [!NOTE]
     >  Visual Studio can reject a request to provide a service. It does so if another VSPackage already provides the service.  
   
-3.  Now you can get the service and use its methods. We'll show this in the initializer, but you can get the service anywhere you want to use the service.  
+3.  Now you can get the service and use its methods. The example below shows using the service in the initializer, but you can get the service anywhere you want to use the service.  
   
     ```csharp  
     protected override void Initialize()  
@@ -131,7 +127,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
   
         MyService myService = (MyService) this.GetService(typeof(SMyService));  
         myService.Hello();  
-        string helloString = myService.myString;  
+        string helloString = myService.Goodbye();  
   
         base.Initialize();  
     }  

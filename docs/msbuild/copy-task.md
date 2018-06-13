@@ -2,12 +2,8 @@
 title: "Copy Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#Copy"
   - "MSBuild.Copy.SourceFileNotFound"
@@ -22,10 +18,9 @@ helpviewer_keywords:
   - "MSBuild, Copy task"
   - "Copy task [MSBuild]"
 ms.assetid: a46ba9da-3e4e-4890-b4ea-09a099b6bc40
-caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
-manager: ghogen
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

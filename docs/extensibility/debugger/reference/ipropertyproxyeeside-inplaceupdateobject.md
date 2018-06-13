@@ -2,21 +2,17 @@
 title: "IPropertyProxyEESide::InPlaceUpdateObject | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IPropertyProxyEESide::InPlaceUpdateObject"
 helpviewer_keywords: 
   - "IPropertyProxyEESide::InPlaceUpdateObject"
 ms.assetid: abf89411-1853-4f23-b244-d5e0afa197b1
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

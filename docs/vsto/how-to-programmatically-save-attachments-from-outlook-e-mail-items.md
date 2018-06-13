@@ -1,13 +1,10 @@
 ---
-title: "How to: Programmatically Save Attachments from Outlook E-Mail Items | Microsoft Docs"
+title: "How to: Programmatically save attachments from Outlook email items"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,15 +14,13 @@ helpviewer_keywords:
   - "saving e-mail attachments"
   - "mail items [Office development in Visual Studio], attachments"
   - "attachments [Office development in Visual Studio]"
-ms.assetid: 2f05e2bb-ae4f-407c-a6da-a3b1a4c31ab3
-caps.latest.revision: 23
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Programmatically Save Attachments from Outlook E-Mail Items
+# How to: Programmatically save attachments from Outlook email items
   This example saves e-mail attachments to a specified folder when the mail is received in the inbox.  
   
 > [!IMPORTANT]  
@@ -36,10 +31,10 @@ ms.workload:
 ## Example  
  [!code-csharp[Trin_OL_SaveAttachments#1](../vsto/codesnippet/CSharp/Trin_OL_SaveAttachments/thisaddin.cs#1)]  
   
-## See Also  
- [Working with Mail Items](../vsto/working-with-mail-items.md)   
- [How to: Programmatically Retrieve a Folder by Name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)   
- [How to: Programmatically Perform Actions When an E-Mail Message Is Received](../vsto/how-to-programmatically-perform-actions-when-an-e-mail-message-is-received.md)   
- [How to: Programmatically Search Within a Specific Folder](../vsto/how-to-programmatically-search-within-a-specific-folder.md)  
+## See also  
+ [Work with mail items](../vsto/working-with-mail-items.md)   
+ [How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)   
+ [How to: Programmatically perform actions when an email message is received](../vsto/how-to-programmatically-perform-actions-when-an-e-mail-message-is-received.md)   
+ [How to: Programmatically search within a specific folder](../vsto/how-to-programmatically-search-within-a-specific-folder.md)  
   
   

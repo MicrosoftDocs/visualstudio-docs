@@ -2,8 +2,8 @@
 title:  Visual Studio subscriptions license terms
 author: evanwindom
 ms.author: jaunger
-Manager: evelynp
-ms.date: 10/3/2017
+manager: evelynp
+ms.date: 10/03/2017
 ms.topic: Get-Started-Article
 description:  Visual Studio subscriptions license terms.
 ms.prod: vs-subscription
@@ -123,7 +123,7 @@ IF YOU COMPLY WITH THESE LICENSE TERMS, YOU HAVE THE RIGHTS BELOW FOR EACH LICEN
     (sometimes referred to as “multiplexing” or “pooling”), does not reduce the number of licenses of any type that you need.
 
 
-8. **MANDATORY ACTIVATION.** Activation associates the use of the software with a specific device. During activation, the software will send information about the software and the device to Microsoft. This information includes the version, language and product key of the software, the Internet protocol address of the device, and information derived from the hardware configuration of the device. For more information, see [microsoft.com/piracy/activation.mspx.[(http://microsoft.com/piracy/activation.mspx)] By using the software, you consent to the transmission of this information. Before you activate, you have the right to use the version of the software installed during the installation process. **Your right to use the software after the time specified in the installation process is limited unless it is activated.** This is to prevent its unlicensed use. You will not be able to continue using the software after that time if you do not activate it. If the device is connected to the Internet, the software may automatically connect to Microsoft for activation. You can also activate the software manually by Internet or telephone. If you do so, Internet and telephone service charges may apply. Some changes to your computer components or the software may require you to reactivate the software. **The software will remind you to activate it until you do.**
+8. **MANDATORY ACTIVATION.** Activation associates the use of the software with a specific device. During activation, the software sends information about the software and the device to Microsoft. This information includes the version, language, and product key of the software, the Internet protocol address of the device, and information derived from the hardware configuration of the device. For more information, see [Microsoft product activation](https://www.microsoft.com/en-us/piracy/mpa.aspx). By using the software, you consent to the transmission of this information. Before you activate, you have the right to use the version of the software installed during the installation process. **Your right to use the software after the time specified in the installation process is limited unless it is activated.** This is to prevent its unlicensed use. You will not be able to continue using the software after that time if you do not activate it. If the device is connected to the Internet, the software may automatically connect to Microsoft for activation. You can also activate the software manually by Internet or telephone. If you do so, Internet and telephone service charges may apply. Some changes to your computer components or the software may require you to reactivate the software. **The software will remind you to activate it until you do.**
 
 9. **VALIDATION.**
 

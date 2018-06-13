@@ -2,21 +2,17 @@
 title: "IDebugEngine3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngine3"
 helpviewer_keywords: 
   - "IDebugEngine3 interface"
 ms.assetid: 8bdf4bb7-3b5d-4991-8981-772d4f6bb656
-caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

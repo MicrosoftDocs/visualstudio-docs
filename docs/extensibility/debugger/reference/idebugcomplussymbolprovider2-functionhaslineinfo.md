@@ -2,20 +2,16 @@
 title: "IDebugComPlusSymbolProvider2::FunctionHasLineInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "FunctionHasLineInfo"
   - "IDebugComPlusSymbolProvider2::FunctionHasLineInfo"
 ms.assetid: e1b508f1-6521-492f-b110-ab957744a037
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

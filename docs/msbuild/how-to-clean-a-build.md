@@ -2,22 +2,17 @@
 title: "How to: Clean a Build | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Exec task [MSBuild]"
   - "MSBuild, cleaning a build"
   - "directories [.NET Framework], for output items"
   - "output, removing items"
 ms.assetid: 999ba473-b0c4-45c7-930a-63ea7a510509
-caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
-manager: ghogen
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

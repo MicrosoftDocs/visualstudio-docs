@@ -2,30 +2,25 @@
 title: "Report Based on Visible Time Range | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.reportnav.profile"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Report Based on Visible Time Range"
 ms.assetid: ef4f6259-a110-43b6-a325-364154e1ba00
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Report Based on Visible Time Range
+# Report based on visible time range
 The Profile view displays reports that are based on the currently visible time range and channels. To see details for different subsets of the data, click items in the legend.  
   
  You can find more information about the data in the tables here.  
   
-## See Also  
+## See also  
  [No Thread Activity to Show](../profiling/no-thread-activity-to-show-threads-view.md)   
  [Execution Profile Report](../profiling/execution-profile-report.md)   
  [Synchronization Time](../profiling/synchronization-time.md)   

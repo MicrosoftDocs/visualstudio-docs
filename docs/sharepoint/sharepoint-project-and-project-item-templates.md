@@ -2,12 +2,9 @@
 title: "SharePoint Project and Project Item Templates | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/22/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.SPE.FirstWizardPage"
   - "VS.SharePointTools.SPE.ListInstance"
@@ -23,11 +20,9 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, project and project item templates"
   - "SharePoint development in Visual Studio, templates"
-ms.assetid: 54a7576f-d3f9-475d-8ed7-b675ad21cb53
-caps.latest.revision: 41
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -2,12 +2,8 @@
 title: "View Disassembly Code in the Debugger in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.disassembly"
 dev_langs: 
@@ -22,10 +18,9 @@ helpviewer_keywords:
   - "Disassembly window"
   - "machine code"
 ms.assetid: eaf84dd0-c82d-481b-af51-690b74e7794c
-caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

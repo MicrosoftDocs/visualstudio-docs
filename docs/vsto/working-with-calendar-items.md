@@ -1,13 +1,10 @@
 ---
-title: "Working with Calendar Items | Microsoft Docs"
+title: "Work with calendar items"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,30 +16,28 @@ helpviewer_keywords:
   - "mail items [Office development in Visual Studio], calendars"
   - "calendars [Office development in Visual Studio], about calendars in Outlook"
   - "e-mail [Office development in Visual Studio], calendars"
-ms.assetid: 8adf9a13-5bd9-4053-91fe-b8d5f8534e21
-caps.latest.revision: 8
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Working with Calendar Items
+# Work with calendar items
   The <xref:Microsoft.Office.Interop.Outlook.AppointmentItem> class contains the methods and properties you use to perform tasks with calendar items.  
   
 |Task|Procedure|  
 |----------|---------------|  
-|Create an appointment and add recipients.|[How to: Programmatically Create Appointments](../vsto/how-to-programmatically-create-appointments.md)|  
-|Delete an instance of a recurring appointment.|[How to: Programmatically Delete Appointments](../vsto/how-to-programmatically-delete-appointments.md)|  
-|Create a Calendar folder and add an Appointment item.|[How to: Programmatically Create a Custom Calendar](../vsto/how-to-programmatically-create-a-custom-calendar.md)|  
-|Create a meeting request and send it.|[How to: Programmatically Create a Meeting Request](../vsto/how-to-programmatically-create-a-meeting-request.md)|  
+|Create an appointment and add recipients.|[How to: Programmatically create appointments](../vsto/how-to-programmatically-create-appointments.md)|  
+|Delete an instance of a recurring appointment.|[How to: Programmatically delete appointments](../vsto/how-to-programmatically-delete-appointments.md)|  
+|Create a Calendar folder and add an Appointment item.|[How to: Programmatically create a custom calendar](../vsto/how-to-programmatically-create-a-custom-calendar.md)|  
+|Create a meeting request and send it.|[How to: Programmatically create a meeting request](../vsto/how-to-programmatically-create-a-meeting-request.md)|  
   
- For more information about Outlook tasks and the Outlook object model, see [Outlook Object Model Overview](../vsto/outlook-object-model-overview.md).  
+ For more information about Outlook tasks and the Outlook object model, see [Outlook object model overview](../vsto/outlook-object-model-overview.md).  
   
-## See Also  
- [Working with Contact Items](../vsto/working-with-contact-items.md)   
- [Working with Folders](../vsto/working-with-folders.md)   
- [Working with Mail Items](../vsto/working-with-mail-items.md)   
- [Outlook Solutions](../vsto/outlook-solutions.md)  
+## See also  
+ [Work with contact items](../vsto/working-with-contact-items.md)   
+ [Work with folders](../vsto/working-with-folders.md)   
+ [Work with mail items](../vsto/working-with-mail-items.md)   
+ [Outlook solutions](../vsto/outlook-solutions.md)  
   
   

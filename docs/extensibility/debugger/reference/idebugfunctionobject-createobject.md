@@ -2,21 +2,17 @@
 title: "IDebugFunctionObject::CreateObject | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugFunctionObject::CreateObject"
 helpviewer_keywords: 
   - "IDebugFunctionObject::CreateObject method"
 ms.assetid: c4c99dd5-609a-4e7c-8f29-eb728f57e995
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

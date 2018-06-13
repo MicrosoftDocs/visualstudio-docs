@@ -2,17 +2,12 @@
 title: "Args | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: 20c35949-1f29-4282-ac75-4e6c237d71bc
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -23,7 +18,7 @@ The VSPerfCmd.exe **Args** option specifies a list of arguments that are passed 
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Launch:AppName /Args:Arguments [Options]  
 ```  
   
@@ -38,13 +33,13 @@ VSPerfCmd.exe /Launch:AppName /Args:Arguments [Options]
 ## Example  
  The following example uses the **Args** option to pass arguments to TestApp.exe.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe /Args:"123, 'Hello World'"  
 ```  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)
+ [Profiling stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profiling ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profiling services](../profiling/command-line-profiling-of-services.md)

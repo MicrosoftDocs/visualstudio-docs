@@ -2,25 +2,20 @@
 title: "Cores View Legend | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.cores.legend"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Cores View Legend"
 ms.assetid: e160384c-fcfe-49b3-86b7-229adb736c51
-caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Cores View Legend
+# Cores View legend
 The Cores View legend identifies each thread by color and name. It includes columns that show counts for cross-core context switches, total context switches, and the percent of context switches that cross cores. Rows in the legend are sorted by the number of cross-core context switches, in decreasing order.  
   
  You can select rows in the legend to filter the threads that are displayed in the timeline. Only the selected threads are shown in the timeline. If no rows are selected, all rows are shown in the timeline.  
@@ -36,5 +31,5 @@ The Cores View legend identifies each thread by color and name. It includes colu
 |Total Context Switches|The total number of context switches for a given thread during the sampling period. Each time a thread changes context (for example, from execution to synchronization) one context switch is counted.|  
 |Percent of Context Switches that Cross Cores|Computed as a percentage by dividing the number of cross-core context switches by the number of total context switches. The higher this percentage, the greater the overall effect of the overhead of cross-core context switches on the performance of this particular thread.|  
   
-## See Also  
+## See also  
  [Cores View](../profiling/cores-view.md)

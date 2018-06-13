@@ -2,12 +2,8 @@
 title: "ParameterGroup Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,10 +13,9 @@ helpviewer_keywords:
   - "<ParameterGroup> element [MSBuild]"
   - "ParameterGroup element [MSBuild]"
 ms.assetid: c3275e69-a427-4889-bc1d-51bff2c285fa
-caps.latest.revision: 6
-author: "kempb"
-ms.author: "kempb"
-manager: ghogen
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

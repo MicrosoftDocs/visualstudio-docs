@@ -2,21 +2,17 @@
 title: "IDebugStackFrame3::GetUnwindCodeContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStackFrame3::GetUnwindCodeContext"
 helpviewer_keywords: 
   - "IDebugStackFrame3::GetUnwindCodeContext method"
 ms.assetid: b25f7e7d-2b24-48e4-93b3-829e61d73ebf
-caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

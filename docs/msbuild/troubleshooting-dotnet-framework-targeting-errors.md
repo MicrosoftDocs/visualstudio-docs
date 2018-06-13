@@ -2,12 +2,8 @@
 title: "Troubleshooting .NET Framework Targeting Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.FrameworkTargetingErrors"
   - "MSBuild.ResolveAssemblyReference.FailedToResolveReferenceBecausePrimaryAssemblyInExclusionList"
@@ -18,10 +14,9 @@ helpviewer_keywords:
   - "multitargeting"
   - ".NET Framework Client Profile"
 ms.assetid: 830e3e45-9a93-4279-a249-75b84599aefb
-caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
-manager: ghogen
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

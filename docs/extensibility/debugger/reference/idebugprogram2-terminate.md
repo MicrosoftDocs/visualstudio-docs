@@ -2,21 +2,17 @@
 title: "IDebugProgram2::Terminate | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::Terminate"
 helpviewer_keywords: 
   - "IDebugProgram2::Terminate"
 ms.assetid: 4d3127d3-b1e9-4b28-ac22-2f2eea255f86
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

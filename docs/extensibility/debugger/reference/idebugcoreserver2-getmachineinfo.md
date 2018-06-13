@@ -2,21 +2,17 @@
 title: "IDebugCoreServer2::GetMachineInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCoreServer2::GetInfo"
 helpviewer_keywords: 
   - "IDebugCoreServer2::GetInfo"
 ms.assetid: 8fa1a1d3-9fcb-4fb3-bf4e-e7172ac08d77
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

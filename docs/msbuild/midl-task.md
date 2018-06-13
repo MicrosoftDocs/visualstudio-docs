@@ -2,12 +2,8 @@
 title: "MIDL Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "reference"
 f1_keywords: 
   - "VC.Project.VCMidlTool.ServerStubFile"
   - "VC.Project.VCMidlTool.ApplicationConfigurationMode"
@@ -27,10 +23,9 @@ helpviewer_keywords:
   - "MSBuild (Visual C++), MIDL task"
   - "MIDL task (MSBuild (Visual C++))"
 ms.assetid: 727efa8c-3336-40b8-8bef-ae6cbd77a422
-caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
-manager: ghogen
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,21 +2,17 @@
 title: "Localizing VSIX Packages | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/26/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "localize package"
   - "localize extension"
   - "localized deployment"
 ms.assetid: 10e80b13-b39e-466c-a7c8-774a862355af
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,12 +2,8 @@
 title: "When Breakpoint Is Hit Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.whenbreakpointishit"
 dev_langs: 
@@ -18,10 +14,9 @@ dev_langs:
   - "JScript"
   - "SQL"
 ms.assetid: 476e3d98-cf35-4338-b124-cd0f3010d854
-caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

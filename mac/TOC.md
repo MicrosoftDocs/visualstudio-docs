@@ -3,12 +3,13 @@
 # [IDE Tour](ide-tour.md)
 
 # [Installation](installation.md)
+## [Preview Installation](install-preview.md)
 ## [Update](update.md)
 ## [Uninstall](uninstall.md)
 
 # [User Accounts](user-accounts.md)
 ## [Signing In](signing-in.md)
-## [Activation](activation.md)
+## [Enable Subscription](activation.md)
 
 # [Customizing the IDE](customizing-the-ide.md)
 ## [Extending Visual Studio for Mac](extending-visual-studio-mac.md)
@@ -30,6 +31,7 @@
 ## [Snippets](snippets.md)
 ## [Block Selection](block-selection.md)
 ## [Editor Themes](editor-themes.md)
+## [EditorConfig](editorconfig.md)
 ## [Common Keyboard Shortcuts](keyboard-shortcuts.md)
 
 # [Debugging](debugging.md)
@@ -43,6 +45,7 @@
 ### [Create and Edit configurations](create-and-edit-configurations.md)
 
 # [Version Control](version-control.md)
+## [TF Version Control](tf-version-control.md)
 ## [Setting Up a Git Repository](set-up-git-repository.md)
 ## [Working with Git](working-with-git.md)
 ## [Setting Up a Subversion Repository](set-up-subversion-repository.md)
@@ -50,6 +53,12 @@
 
 # [Workloads](workloads.md)
 ## [ASP.NET Core](asp-net-core.md)
+### [Razor](razor.md)
+### [Javascript](javascript.md)
+## [Azure](azure-workload.md)
+### [Introduction to Azure Functions](azure-functions.md)
+### [Tutorial: Azure Functions](azure-functions-lab.md)
+### [Connected Services](connected-services.md)
 ## [Unity Game Development](unity-tools.md)
 ### [Setup](setup-vsmac-tools-unity.md)
 ### [Using Unity Tools](using-vsmac-tools-unity.md)
@@ -57,4 +66,5 @@
 # [Accessibility](accessibility.md)
 
 # [Troubleshooting](troubleshooting.md)
+## [Visual Studio Customer Experience Improvement Program](visual-studio-experience-improvement-program.md)
 ## [Report a Problem](report-a-problem.md)

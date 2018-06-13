@@ -32,39 +32,25 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "~/_breadcrumb/toc.yml",
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
+      "feedback_product_url": "https://developercommunity.visualstudio.com/",
+      "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
       "ROBOTS": "INDEX,FOLLOW",
-      "author": "",
-      "ms.author": "",
-      "manager": "ghogen",
+      "author": "erickson-doug",
+      "ms.author": "douge",
+      "manager": "douge",
       "ms.date": "11/16/2016",
-      "ms.topic": "article",
+      "ms.topic": "conceptual",
       "audience": "developer",
-      "ms.reviewer": "",
+      "defaultDevLang": "csharp",
       "ms.prod": "visual-studio-dev15",
-      "ms.technology": "vs-ide-general",
-      "ms.tgt_pltfrm": "dotnet",
       "searchScope": ["VS IDE"],
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
-      "featureFlags": ["productfeedback"],
-      "product_feedback_link_url1": "https://developercommunity.visualstudio.com/",
-      "product_feedback_link_text_key1": "reportAProductIssue",
-      "product_feedback_link_url2": "https://visualstudio.uservoice.com",
-      "product_feedback_link_text_key2": "suggestionProduct"
-    },
-    "fileMetadata": {
-      "product_feedback_link_url3": {
-        "extensibility/**/*.md": "https://gitter.im/Microsoft/extendvs",
-        "install/**/*.md": "https://gitter.im/Microsoft/VisualStudio"
-        
-      },
-      "product_feedback_link_text_key3": {
-        "extensibility/**/*.md": "askQuestion",
-        "install/**/*.md": "askQuestion"
-      }
+      "titleSuffix": "Visual Studio"
     },
     "template": [],
-    "xref": ["missingapi.yml", "../dotnet-xref/_zip/dotnet.zip", "namespaces.4.5.2.zip", "vs.110.zip", "vs.140.zip", "office15.zip"],
+    "xref": ["missingapi.yml", "vs.140.zip"],
     "dest": "vsdocsdocs"
   }
 }

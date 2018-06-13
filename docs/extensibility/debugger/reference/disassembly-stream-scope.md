@@ -2,21 +2,17 @@
 title: "DISASSEMBLY_STREAM_SCOPE | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DISASSEMBLY_STREAM_SCOPE"
 helpviewer_keywords: 
   - "DISASSEMBLY_STREAM_SCOPE enumeration"
 ms.assetid: 43e2b364-cbbe-4755-a7e6-a03f3054c965
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

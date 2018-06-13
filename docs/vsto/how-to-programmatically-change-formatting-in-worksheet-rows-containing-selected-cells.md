@@ -1,13 +1,10 @@
 ---
-title: "How to: Programmatically Change Formatting in Worksheet Rows Containing Selected Cells | Microsoft Docs"
+title: "How to: Programmatically change formatting in worksheet rows containing selected cells"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,20 +12,18 @@ helpviewer_keywords:
   - "rows [Office development in Visual Studio]"
   - "formatting [Office development in Visual Studio]"
   - "worksheets, changing formatting"
-ms.assetid: c55cd488-98d1-46c6-9715-0e9212d178de
-caps.latest.revision: 38
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Programmatically Change Formatting in Worksheet Rows Containing Selected Cells
+# How to: Programmatically change formatting in worksheet rows containing selected cells
   You can change the font of an entire row that contains a selected cell so that the text is bold.  
   
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]  
   
-### To make the current row bold and the previously bolded row normal  
+## To make the current row bold and the previously bolded row normal  
   
 1.  Declare a static variable to keep track of the previously selected row.  
   
@@ -71,10 +66,10 @@ ms.workload:
  [!code-csharp[Trin_VstcoreExcelAutomation#36](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#36)]
  [!code-vb[Trin_VstcoreExcelAutomation#36](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#36)]  
   
-## See Also  
- [Working with Worksheets](../vsto/working-with-worksheets.md)   
- [How to: Programmatically Apply Styles to Ranges in Workbooks](../vsto/how-to-programmatically-apply-styles-to-ranges-in-workbooks.md)   
- [How to: Programmatically Copy Data and Formatting across Worksheets](../vsto/how-to-programmatically-copy-data-and-formatting-across-worksheets.md)   
- [Optional Parameters in Office Solutions](../vsto/optional-parameters-in-office-solutions.md)  
+## See also  
+ [Work with worksheets](../vsto/working-with-worksheets.md)   
+ [How to: Programmatically apply styles to ranges in workbooks](../vsto/how-to-programmatically-apply-styles-to-ranges-in-workbooks.md)   
+ [How to: Programmatically copy data and formatting across worksheets](../vsto/how-to-programmatically-copy-data-and-formatting-across-worksheets.md)   
+ [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
   
   

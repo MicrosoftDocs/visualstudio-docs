@@ -2,12 +2,9 @@
 title: "Security for SharePoint Solutions | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,11 +13,9 @@ dev_langs:
 helpviewer_keywords: 
   - "security [SharePoint development in Visual Studio]"
   - "SharePoint development in Visual Studio, security"
-ms.assetid: 5ab33141-ba82-4960-8b29-3c907127fea6
-caps.latest.revision: 16
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---

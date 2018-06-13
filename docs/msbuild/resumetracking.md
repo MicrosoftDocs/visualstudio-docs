@@ -2,12 +2,8 @@
 title: "ResumeTracking | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "conceptual"
 apiname: 
   - "ResumeTracking"
 apilocation: 
@@ -16,10 +12,9 @@ apitype: "COM"
 helpviewer_keywords: 
   - "ResumeTracking"
 ms.assetid: d637e019-7c50-4b0a-812e-bc822001e697
-caps.latest.revision: 4
-author: "kempb"
-ms.author: "kempb"
-manager: ghogen
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

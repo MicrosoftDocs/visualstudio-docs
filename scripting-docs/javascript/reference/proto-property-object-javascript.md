@@ -23,6 +23,9 @@ manager: "ghogen"
 ---
 # __proto__ Property (Object) (JavaScript)
 Contains a reference to the internal prototype of the specified object.  
+
+> [!WARNING]
+> The `__proto__` property is a legacy feature. Use [Object.getPrototypeOf](../reference/object-getprototypeof-function-javascript.md) instead.
   
 ## Syntax  
   

@@ -1,24 +1,19 @@
 ---
-title: "What publishing options are right for me? | Microsoft Docs"
-ms.custom: ""
-ms.date: "03/09/2017"
+title: What publishing options are right for me?
+ms.date: 03/09/2017
 ms.reviewer: "riande"
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-deployment
+ms.topic: conceptual
+helpviewer_keywords:
   - "ASP.NET, web applications, deployment, publishing"
 ms.assetid: 3A13F685-531C-457D-A98E-631888011E4B
-caps.latest.revision: 1
-author: "Mikejo5000"
-ms.author: "mikejo"
-manager: ghogen
-ms.workload: 
+author: Mikejo5000
+ms.author: mikejo
+manager: douge
+ms.workload:
   - "multiple"
 ---
-
 # What publishing options are right for me?
 
 From within Visual Studio, Web applications can be published directly to the following targets:
@@ -28,28 +23,26 @@ From within Visual Studio, Web applications can be published directly to the fol
 - [File system](#file-system)
 - [Custom targets (IIS, FTP, etc.)](#custom-targets), which includes all arbitrary web servers.
 
-On the **Publish** tab, you can select an existing publish profile, import an existing one, or create a new one using the options described here.
+On the **Publish** tab, you can select an existing publish profile, import an existing one, or create a new one using the options described here. For a tour of the publishing options in the IDE for different app types, see [First look at deployment](../../deployment/deploying-applications-services-and-components.md).
 
-## Azure App Service
+## Azure App Service Web Apps
 
-[Azure App Service](https://azure.microsoft.com/documentation/articles/app-service-value-prop-what-is/) helps developers quickly create a variety of scalable web applications and services without maintaining infrastructure.
+[Azure App Service Web Apps](/azure/app-service/app-service-web-overview) (or just Web Apps) helps developers quickly create a variety of scalable web applications and services without maintaining infrastructure.
 
-For web applications in particular, an App Service is a container for a [*Web App*](https://azure.microsoft.com/en-us/documentation/articles/app-service-web-overview/), which closely matches what you would think of as a traditional web host. That is, a Web App provides the necessary compute resources that can run your server-side code and make it available to the Internet.
-
-You determine how much computing power a Web App has by choosing a [pricing tier or plan](https://azure.microsoft.com/documentation/articles/azure-web-sites-web-hosting-plans-in-depth-overview/) for the containing App Service. You can have multiple Web Apps (and other app types) share the same App Service without changing the pricing tier. For example, you can host development, staging, and production Web Apps together on the same App Service.
+You determine how much computing power a Web App has by choosing a [pricing tier or plan](/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview) for the containing App Service. You can have multiple Web Apps (and other app types) share the same App Service without changing the pricing tier. For example, you can host development, staging, and production Web Apps together on the same App Service.
 
 An App Service runs on cloud-hosted virtual machines in Azure, but those virtual machines are managed for you. Each Web App in an App Service will be assigned a unique \*.azurewebsites.net URL; all pricing tiers other than Free allow assigning custom domain names to the site.
 
-### When to choose Azure App Service
+### When to choose Azure App Service Web Apps
 
 - You want to deploy a web application that's accessible through the Internet.
 - You want to automatically scale your web application according to demand without needing to redeploy.
 - You don't want to maintain server infrastructure (including software updates).
 - You don't need any machine-level customizations on the servers that host your web application.
 
-
 > If you want to use Azure App Service in your own datacenter or other on-premises computers, you can do so using the [Azure Stack](https://azure.microsoft.com/overview/azure-stack/).
 
+For more information on publishing ASP.NET Core apps, see [Publish an ASP.NET Core web app to Azure App Service using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 
 ## Azure Virtual Machines
 
@@ -83,9 +76,9 @@ Note that if for any reason (such as machine access) you are not able to use clo
 - You need only a local test deployment.
 - You want to examine and potentially modify the application files independently before sending them onto another deployment target.
 
+For more information on deploying .NET Core apps, see [Deploying .NET Core apps with Visual Studio](/dotnet/core/deploying/deploy-with-vs).
 
-
-## Custom targets
+## Custom targets (IIS, FTP)
 
 A custom target lets you deploy your web application to a target other than Azure App Service, Azure Virtual Machines, or the local file system. It can deploy to a file system or any other server (Internet or Intranet) to which you have access, including those on other cloud services. It can work with web deploy (files or .ZIP) and FTP.
 
@@ -100,6 +93,8 @@ You can create any number of Custom deployment profiles in Visual Studio, making
 
 ### When to choose custom deployment
 
-- You're using cloud services on a provide other than Azure that can be accessed through URLs.
+- You're using cloud services on a provider other than Azure that can be accessed through URLs.
 - You want to deploy using credentials other than the ones that you use within Visual Studio, or those tied directly to your Azure accounts.
 - You want to delete files from the target each time you deploy.
+
+For more information on publishing to IIS, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45)

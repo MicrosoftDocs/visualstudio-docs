@@ -1,30 +1,29 @@
 ---
-title: "Introducing Visual Studio for Mac | Microsoft Docs"
-description: 
+title: "Introducing Visual Studio for Mac"
+description: "This article introduces the features of Visual Studio for Mac"
 author: asb3993
 ms.author: amburns
-ms.date: 04/14/2017
-ms.topic: article
+ms.date: 05/06/2018
 ms.assetid: 3A130EC1-DD8C-4125-9034-B08D7AF7EA65
 ---
 
 # Introducing Visual Studio for Mac
 
-Visual Studio for Mac is a modern, sophisticated IDE with many features for creating mobile, desktop, and web applications. It supports development of the following:
+Visual Studio for Mac is a modern, sophisticated IDE with many features for creating mobile, desktop, and web applications. It supports the following types of development:
 
 * Mobile with .NET: Android, iOS, tvOS, watchOS
 * Mac desktop apps
 * .NET Core applications
-* ASP.NET Core Web applications
+* ASP.NET Core web applications
 * Cross-platform Unity games
 
-It includes a rich editor, debugging, native platform integration with iOS, Mac and Android, and integrated source control to name just a few of its many features.
+It includes features such as a rich editor, debugging, native platform integration with iOS, Mac, and Android, and integrated source control.
 
-This topic surveys various sections of Visual Studio for Mac, providing a look at some of the features that make it a powerful tool for creating cross-platform applications.
+This article surveys various sections of Visual Studio for Mac, providing a look at some of the features that make it a powerful tool for creating cross-platform applications.
 
 ## Installation
 
-Follow the steps in the [Installation](~/installation.md) guide to download and Install Visual Studio for Mac.
+Follow the steps in the [Installation](installation.md) guide to download and Install Visual Studio for Mac.
 
 ## Language support
 
@@ -32,11 +31,11 @@ Visual Studio for Mac supports development in C# and F#, by default.
 
 ### C#
 
-C# is the most commonly used language for creating cross-platform applications in Visual Studio for Mac. This includes full support for all C# 7 features.
+C# is the most commonly used language for creating cross-platform applications in Visual Studio for Mac. The IDE has full support for all C# 7 features.
 
 ### F#
 
-F# is a strongly-typed functional programming language designed to run on .NET. It is available as a programming language to Visual Studio for Mac users on Android, Mac and iOS. For more information on using F# and to view samples created in the language, visit the [F#](https://developer.xamarin.com/guides/cross-platform/fsharp/) guides.
+F# is a strongly-typed functional programming language designed to run on .NET. It is available as a programming language to Visual Studio for Mac users on Android, Mac, and iOS. For more information on using F# and to view samples created in the language, visit the [F#](https://developer.xamarin.com/guides/cross-platform/fsharp/) guides.
 
 ## Platform support
 
@@ -68,19 +67,19 @@ To get started, check out the Mobile apps [hands-on lab](https://github.com/Micr
 Visual Studio has its own integrated Android SDK manager.
 
 For Android applications, Visual Studio for Mac includes its own designer, which works with Android `.axml` files to
-visually construct user interfaces. Visual Studio for Mac will open these files in its Android designer, as shown below:
+visually construct user interfaces. Visual Studio for Mac will open these files in its Android designer, as illustrated in the following image:
 
-![](media/intro-image31.png)
+![Android UI Designer](media/intro-image31.png)
 
-For more information on the Android designer see the [Designer Overview](https://developer.xamarin.com/Android/Guides/User_Interface/Designer_Overview) document.
+For more information on the Android designer, see the [Designer Overview](https://developer.xamarin.com/Android/Guides/User_Interface/Designer_Overview) document.
 
 ### iOS
 
 The iOS Designer is fully integrated with Visual Studio for Mac and enables visual editing of .xib and Storyboard files to create iOS, tvOS, and WatchOS UIs and transitions. The entire user interface can be built using drag-and-drop functionality between the Toolbox and Design Surface, while using an intuitive approach to handling events. The iOS Designer also supports [custom controls](https://developer.xamarin.com/guides/ios/user_interface/designer/ios_designable_controls_overview/) with the added benefit of design-time rendering.
 
-![](media/intro-image30.png)
+![iOS Storyboard designer](media/intro-image30.png)
 
-For more information on using the iOS Designer, refer to the [Designer](https://developer.xamarin.com/guides/ios/user_interface/designer) documents.
+For more information on using the iOS Designer, see the [Designer](https://developer.xamarin.com/guides/ios/user_interface/designer) documents.
 
 ### Mac
 
@@ -107,16 +106,16 @@ The Xamarin Profiler has three instruments available for profiling. The [Introdu
 
 The Xamarin Inspector provides an interactive C# console with tools to users. It can be used as a debugging or diagnostics aid when inspecting live applications, as a teaching tool, as a documentation tool or an experimentation tool.
 
-![](media/intro-inspector.png)
+![Xamarin Inspector](media/intro-inspector.png)
 
-It consists of a standalone application that provides a rich C# console that can target various programming platforms (Android, iOS, Mac and Windows) as well as integrating into the debugging workflow of your IDE.
+It consists of a standalone application that provides a rich C# console that can target various programming platforms (Android, iOS, Mac, and Windows) as well as integrating into the debugging workflow of your IDE.
 
-For more information refer to the [Xamarin Inspector](https://developer.xamarin.com/guides/cross-platform/inspector/) guide.
+For more information, see the [Xamarin Inspector](https://developer.xamarin.com/guides/cross-platform/inspector/) guide.
 
 ## Next steps
 
-* **Get the big picture** - To get an overview of many of the major features in Visual Studio for Mac, see the Visual Studio for Mac [IDE Tour](~/ide-tour.md).
-* **Setup** - To learn about how to download and install Visual Studio, see the [Installation](~/installation.md) guide.
+* **Get the tour** - To get an overview of many of the major features in Visual Studio for Mac, see the Visual Studio for Mac [IDE Tour](ide-tour.md).
+* **Set up** - To learn about how to download and install Visual Studio, see the [Installation](installation.md) guide.
 * **Xamarin Tutorials** - To learn more about how to develop code with Xamarin, go to the Xamarin [Developer Center](https://developer.xamarin.com).
 * **Videos** - To learn more about other features and aspects of Visual Studio for Mac, check out videos on the [Xamarin University](https://university.xamarin.com) website.
 * **Hands-on Labs** - To get started working with the various workloads included in Visual Studio for Mac, check out the [hands-on labs](https://github.com/Microsoft/vs4mac-labs).

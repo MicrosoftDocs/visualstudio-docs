@@ -2,12 +2,8 @@
 title: "Viewing GPU Threads in the Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.gputthreads"
   - "vs.debug.gputhreads"
@@ -19,10 +15,9 @@ dev_langs:
 helpviewer_keywords: 
   - "debugger, GPU threads window"
 ms.assetid: c647c502-a9f0-48e0-a430-976744a5fa51
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

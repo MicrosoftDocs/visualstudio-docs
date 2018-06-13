@@ -2,12 +2,8 @@
 title: "Choosing a ClickOnce Deployment Strategy | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,10 +12,9 @@ helpviewer_keywords:
   - "ClickOnce deployment, strategies"
   - "deploying applications, ClickOnce"
 ms.assetid: 98bcab65-ab8b-4ed1-9adc-fdacf92b8106
-caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -46,15 +41,6 @@ There are three different strategies for deploying a [!INCLUDE[ndptecclick](../d
   
  This is the default deployment strategy.  
   
-## Install from a CD  
- When you use this strategy, your application is deployed to removable media such as a CD-ROM or DVD. As with the previous option, when the user chooses to install the application, it is installed and started, and items are added to the **Start** menu and **Add or Remove Programs** in **Control Panel**.  
-  
- This strategy works best for applications that will be deployed to users without persistent network connectivity or with low-bandwidth connections. Because the application is installed from removable media, no network connection is necessary for installation; however, network connectivity is still required for application updates.  
-  
- To enable this deployment strategy in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], click **From a CD-ROM or DVD-ROM** on the **How Installed** page of the Publish Wizard.  
-  
- To enable this deployment strategy manually, change the **deploymentProvider** tag in the deployment manifest. (In Visual Studio, this property is exposed as **Installation URL** on the **Publish** page of the Project Designer. In Mage.exe it is **Start Location**.)  
-  
 ## Start the Application from the Web or a Network Share  
  This strategy is like the first, except the application behaves like a Web application. When the user clicks a link on a Web page (or double-clicks an icon on the file share), the application is started. When users close the application, it is no longer available on their local computer; nothing is added to the **Start** menu or **Add or Remove Programs** in **Control Panel**.  
   
@@ -66,6 +52,15 @@ There are three different strategies for deploying a [!INCLUDE[ndptecclick](../d
  To enable this deployment strategy in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], click **Do not install the application** on the **Install or Run From Web** page of the Publish Wizard.  
   
  To enable this deployment strategy, manually, change the **install** tag in the deployment manifest. (Its value can be **true** or **false**. In Mage.exe, use the **Online Only** option in the **Application Type** list.)  
+
+## Install from a CD  
+ When you use this strategy, your application is deployed to removable media such as a CD-ROM or DVD. As with the previous option, when the user chooses to install the application, it is installed and started, and items are added to the **Start** menu and **Add or Remove Programs** in **Control Panel**.  
+  
+ This strategy works best for applications that will be deployed to users without persistent network connectivity or with low-bandwidth connections. Because the application is installed from removable media, no network connection is necessary for installation; however, network connectivity is still required for application updates.  
+  
+ To enable this deployment strategy in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], click **From a CD-ROM or DVD-ROM** on the **How Installed** page of the Publish Wizard.  
+  
+ To enable this deployment strategy manually, change the **deploymentProvider** tag in the deployment manifest. (In Visual Studio, this property is exposed as **Installation URL** on the **Publish** page of the Project Designer. In Mage.exe it is **Start Location**.)  
   
 ## Web Browser Support  
  Applications that target .NET Framework 3.5 can be installed using any browser.  

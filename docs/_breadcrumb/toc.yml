@@ -4,7 +4,7 @@
   items:
   - name: Visual Studio
     tocHref: /visualstudio/
-    topicHref: /visualstudio/index
+    topicHref: /visualstudio/ide/
     items:
     - name: Code Quality
       tocHref: /visualstudio/code-quality/
@@ -12,9 +12,6 @@
     - name: Cross Platform
       tocHref: /visualstudio/cross-platform/
       topicHref: /visualstudio/cross-platform/index
-    - name: C# IDE
-      tocHref: /visualstudio/csharp-ide/
-      topicHref: /visualstudio/csharp-ide/using-the-visual-studio-development-environment-for-csharp
     - name: Data Tools
       tocHref: /visualstudio/data-tools/ 
       topicHref: /visualstudio/data-tools/index
@@ -60,12 +57,15 @@
     - name: MSBuild
       tocHref: /visualstudio/msbuild/
       topicHref: /visualstudio/msbuild/msbuild
+    - name: Nodejs
+      tocHref: /visualstudio/nodejs/
+      topicHref: /visualstudio/nodejs/tutorial-nodejs
     - name: Profiling
       tocHref: /visualstudio/profiling/
       topicHref: /visualstudio/profiling/index
     - name: Python
       tocHref: /visualstudio/python/
-      topicHref: /visualstudio/python/getting-started-with-python
+      topicHref: /visualstudio/python/overview-of-python-tools-for-visual-studio
     - name: R
       tocHref: /visualstudio/rtvs/
       topicHref: /visualstudio/rtvs/index
@@ -82,9 +82,6 @@
     - name: Testing
       tocHref: /visualstudio/test/
       topicHref: /visualstudio/test/improve-code-quality
-    - name: Visual Basic IDE
-      tocHref: /visualstudio/vb-ide/
-      topicHref: /visualstudio/vb-ide/refactoring-vb
     - name: Workflow Designer
       tocHref: /visualstudio/workflow-designer/
       topicHref: /visualstudio/workflow-designer/developing-applications-with-the-workflow-designer

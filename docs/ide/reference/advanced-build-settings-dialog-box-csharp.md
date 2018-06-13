@@ -1,23 +1,18 @@
 ---
-title: "Advanced Build Settings Dialog Box (C#) | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/20/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+title: Advanced Build Settings Dialog Box (C#)
+ms.date: 06/20/2017
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: reference
+f1_keywords:
   - "cs.AdvancedBuildSettings"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Build options [C#], advanced"
 ms.assetid: 141f2dee-1563-4ce6-ba37-32920b082519
-caps.latest.revision: 13
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "dotnet"
 ---
 # Advanced Build Settings Dialog Box (C#)
@@ -89,5 +84,5 @@ Specifies the preferred base address at which to load a DLL. The default base ad
 
 ## See Also
 
- [C# Compiler Options](/dotnet/csharp/language-reference/compiler-options/index)
- [Build Page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md)
+- [C# Compiler Options](/dotnet/csharp/language-reference/compiler-options/index)
+- [Build Page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md)

@@ -2,29 +2,24 @@
 title: "API Reference (SharePoint Tools Extensibility) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, reference for project and tools extensibility"
-ms.assetid: 3a42dacd-0213-4c25-aeba-9b6935ab70db
-caps.latest.revision: 13
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# API Reference (SharePoint Tools Extensibility)
+# API reference (SharePoint tools extensibility)
   This section contains API reference documentation for extending the SharePoint tools in Visual Studio.  
   
-## In This Section  
+## In this section
  <xref:Microsoft.VisualStudio.SharePoint>  
  Contains types that you use to extend the SharePoint project system. For example, you can extend the built-in SharePoint projects and project items, or you can create your own project items.  
   
@@ -58,12 +53,11 @@ ms.workload:
  <xref:Microsoft.VisualStudio.SharePoint.Validation>  
  Contains types that you use to customize the feature and package validation behavior for a SharePoint project.  
   
-## See Also  
+## See also
  [Reference &#40;SharePoint Tools Extensibility&#41;](../sharepoint/reference-sharepoint-tools-extensibility.md)   
  [Overview of the Programming Model of SharePoint Tools Extensions](../sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md)   
  [Extending the SharePoint Project System](../sharepoint/extending-the-sharepoint-project-system.md)   
  [Extending the SharePoint Connections Node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md)   
  [Extending SharePoint Packaging and Deployment](../sharepoint/extending-sharepoint-packaging-and-deployment.md)   
  [Calling into the SharePoint Object Models](../sharepoint/calling-into-the-sharepoint-object-models.md)  
-  
   

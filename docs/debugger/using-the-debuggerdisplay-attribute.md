@@ -2,21 +2,16 @@
 title: "Using the DebuggerDisplay Attribute | Microsoft Docs"
 ms.custom: ""
 ms.date: "08/09/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "attributes [C#], debugger"
   - "DebuggerDisplay attribute"
   - "DebuggerDisplayAttribute class"
 ms.assetid: f4eb7c76-af4e-493b-9ab6-9cb05949d9b3
-caps.latest.revision: 47
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -72,7 +67,7 @@ csc /t:library autoexp.cs
   
  One way to reduce the possible problems of expression evaluation is by creating a private property that performs the operation and returns a string. The DebuggerDisplay attribute can then display the value of that private property. The following example implements this pattern:  
   
-```CSharp  
+```csharp  
 [DebuggerDisplay("{DebuggerDisplay,nq}")]  
 public sealed class MyClass   
 {      
@@ -87,6 +82,7 @@ public sealed class MyClass
     }  
 }  
 ```  
+The ",nq" suffix tells the expression evaluator to remove the quotes when displaying the final value (nq = no quotes). 
   
 ## Example  
  The following code example shows how to use `DebuggerDisplay`, together with `DebuggerBrowseable` and `DebuggerTypeProxy`. When viewed in a debugger variables window, such as the **Watch** window, it produces an expansion that looks like this:  
@@ -96,7 +92,7 @@ public sealed class MyClass
 |Key|"three"|object {string}|  
 |Value|3|object {int}|  
   
-```CSharp  
+```csharp  
 [DebuggerDisplay("{value}", Name = "{key}")]  
 internal class KeyValuePairs  
 {  

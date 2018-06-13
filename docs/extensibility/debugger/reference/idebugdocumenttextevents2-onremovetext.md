@@ -2,21 +2,17 @@
 title: "IDebugDocumentTextEvents2::onRemoveText | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentTextEvents2::OnRemoveText"
 helpviewer_keywords: 
   - "IDebugDocumentTextEvents2::onRemoveText"
 ms.assetid: 1ebeabb2-52a1-4ccc-83cd-9ae7c3541783
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

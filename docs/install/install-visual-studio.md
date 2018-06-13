@@ -2,28 +2,26 @@
 title: "Install Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to install Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: "12/04/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-f1_keywords: 
+ms.date: 05/07/2018
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
+f1_keywords:
   - "vs.about"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "install Visual Studio"
   - "dev15"
   - "set up Visual Studio"
   - "Visual Studio setup"
   - "Visual Studio installer"
-author: "TerryGLee"
-ms.author: "tglee"
-manager: ghogen
-ms.workload: 
+author: TerryGLee
+ms.author: tglee
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Install Visual Studio 2017
+
 Welcome to a new way to install Visual Studio! In our newest version, we've made it easier for you to select and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
 
 Want to know more about what else is new in this version? See our [release notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes).
@@ -46,7 +44,7 @@ For questions about running previous versions of Visual Studio side by side with
 Next, download the Visual Studio bootstrapper file. To do so, click the following button, select the edition of Visual Studio 2017 that you want, click **Save**, and then click **Open folder**.
 
  > [!div class="button"]
- > [Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs)
+ > [Download Visual Studio 2017](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
 <br/>
 
 |         |         |
@@ -57,7 +55,7 @@ Next, download the Visual Studio bootstrapper file. To do so, click the followin
 
 Then, run the bootstrapper file to install the Visual Studio Installer. This new lightweight installer includes everything you need to both install and customize Visual Studio 2017.
 
-1.  From your **Downloads** folder, double-click the bootstrapper that matches or is similar to one of the following files:
+1. From your **Downloads** folder, double-click the bootstrapper that matches or is similar to one of the following files:
 
   * **vs_enterprise.exe** for Visual Studio Enterprise
   * **vs_professional.exe** for Visual Studio Professional
@@ -65,7 +63,7 @@ Then, run the bootstrapper file to install the Visual Studio Installer. This new
 
   If you receive a User Account Control notice, click **Yes**.
 
-2.  We'll ask you to acknowledge the Microsoft [License Terms](https://www.visualstudio.com/license-terms/) and the Microsoft [Privacy Statement](https://go.microsoft.com/fwlink/?LinkID=824704). Click **Continue**.  
+2. We'll ask you to acknowledge the Microsoft [License Terms](https://www.visualstudio.com/license-terms/) and the Microsoft [Privacy Statement](https://go.microsoft.com/fwlink/?LinkID=824704). Click **Continue**.  
 
    ![License Terms and Privacy Statement](media/vs2017-privacy-and-license-terms.PNG "Microsoft License Terms and Privacy Statement")
 
@@ -73,20 +71,20 @@ Then, run the bootstrapper file to install the Visual Studio Installer. This new
 
 After the installer is installed, you can use it to customize your installation by selecting the feature sets—or workloads—that you want. Here's how.
 
-1.  Find the workload you want in the **Installing Visual Studio** screen.
+1. Find the workload you want in the **Installing Visual Studio** screen.
 
- ![Select a workload from the Visual Studio 2017 setup dialog](../install/media/install-visual-studio-enterprise.png)
+ ![Select a workload from the Visual Studio 2017 setup dialog](../install/media/install-visual-studio-community.png)
 
      For example, choose the ".NET desktop development" workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.  
 
-2.  After you select the workload(s) you want, click **Install**.
+2. After you select the workload(s) you want, click **Install**.
 
     Next, status screens appear that show the progress of your Visual Studio installation.
 
-3.  After the new workloads and components are installed, click **Launch**.  
+3. After the new workloads and components are installed, click **Launch**.  
 
 > [!TIP]
->  At any time after installation, you can install workloads or components that you didn't install initially. If you have Visual Studio open, go to **Tools** > **Get Tools and Features...** which opens the Visual Studio Installer. Or, open **Visual Studio Installer** from the Start menu. From there, you can select the workloads or components that you wish to install, then click **Modify**.  
+> At any time after installation, you can install workloads or components that you didn't install initially. If you have Visual Studio open, go to **Tools** > **Get Tools and Features...** which opens the Visual Studio Installer. Or, open **Visual Studio Installer** from the Start menu. From there, you can select the workloads or components that you wish to install, then click **Modify**.  
 
 |         |         |
 |---------|---------|
@@ -116,8 +114,16 @@ By default, the installer program tries to match the language of the operating s
 
 Another way that you can change the default language is by running the installer from the command line. For example, you can force the installer to run in English by using the following command: `vs_installer.exe --locale en-US`. The installer will remember this setting when it is run the next time. The installer supports the following language tokens: zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr.
 
+## Step 7 - Change the installation location (Optional)
 
-## Step 7 - Start developing
+**New in 15.7**: You can now reduce the installation footprint of Visual Studio on your system drive. You can choose to move the download cache, shared components, SDKs, and tools to different drives, and keep Visual Studio on the drive that runs it the fastest.
+
+  ![Visual Studio 2017 - Change the installation location](media/installation-options-by-location.png "Change the installation location")
+
+For more information, see the [Change installation locations in Visual Studio](change-installation-locations.md) page.
+
+## Step 8 - Start developing
+
 1. After Visual Studio installation is complete, click the **Launch** button to [get started developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md).
 
 2. Click **File**, and then click **New Project**.
@@ -127,15 +133,18 @@ Another way that you can change the default language is by running the installer
    To [build a C# app](../ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md),  click **Installed**, expand **Visual C#**, and then select the C# project type that you want to build.
 
 ## Get support
+
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
 Here are a few more support options:
+
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
-* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
+* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
+* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
+
 * [Update Visual Studio 2017](update-visual-studio.md)
 * [Modify Visual Studio 2017](modify-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)

@@ -2,19 +2,15 @@
 title: "GetTaskSchedulersForDebugger Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetTaskSchedulersForDebugger method, TaskScheduler class [.NET Framework debug engines]"
 ms.assetid: 58aa236a-5ab8-4695-b303-89dffdbcd946
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,12 +2,9 @@
 title: "Support for the Visual Studio SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Visual Studio SDK, support options"
   - "support, Visual Studio SDK"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "newsgroups, Visual Studio SDK support"
   - "Web sites, Visual Studio SDK support"
 ms.assetid: d9011f5a-cb53-418f-9d8f-74b15b9fc5f5
-caps.latest.revision: 22
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

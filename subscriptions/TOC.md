@@ -1,48 +1,82 @@
 # [Visual Studio subscriptions](index.md)
-# Overview
-## [Compare subscription options](compare-subscriptions.md)
-
-# How-to Guides
-##  Subscribers
-### [Buy a subscription](buy-vs-subscriptions.md)
-### [Manage your subscription](manage-vs-subscriptions.md)
-### [Using Subscriber Downloads](subscriber-downloads.md)
-### [Using Product Keys](product-keys.md)
-### How to Activate Benefits
-#### Tools
-##### [Visual Studio IDE](vs-ide-benefit.md) 
-##### [Visual Studio Team Services](vs-vsts.md)
-##### [Microsoft Azure](vs-azure.md) 
-##### [Parasoft](vs-parasoft.md)
-##### [WhiteSource Bolt](vs-whitesource.md)
-##### [Enterprise Mobility + Security](vs-ems.md)
-##### [Windows Developer Account](vs-windows-dev.md)
-##### [Office 365 Developer](vs-office-dev.md)
-##### [Power BI Pro](vs-pbi.md)
-##### [SmartOffice4TFS + ModernRequirements4TFS](vs-modernreq.md)
-##### [Microsoft Azure Pay-As-You-Go](vs-azure-payg.md) 
-#### Education
-##### [DataCamp](vs-datacamp.md)
-##### [LinkedIn Learning](vs-linkedin-learning.md)
-##### [Opsgility](vs-opsgility.md)
-##### [Pluralsight](vs-pluralsight.md)
-##### [Xamarin University Training](vs-xamarin.md)
-##### [Microsoft E-learning](vs-elearn.md)
-##### [MSDN Magazine Subscription](vs-msdn.md)
-#### Support
-##### [Technical Support](vs-tech-support.md)
-
-## Administrators
-### [Administrator Overview](admin-responsibilities.md)
-### [Accessing the Administrator Portal](access-admin-portal.md)
-### [Using the Administrator Portal](using-admin-portal.md)
-### [Assign a subscription](assign-license.md)
-### [Edit a subscription](edit-license.md)
-### [Delete a subscription](delete-license.md)
-### [Search for a subscription](search-license.md)
-### [Handle over-claimed subscriptions](handle-overclaimed-license.md)
-### [Handle expired subscriptions](handle-expired-license.md)
-
+## Subscriber Experiences
+### [Using the Subscriber Portal](using-the-subscriber-portal.md)
+#### [Activate Retail Subscriptions](activate-store-subscriptions.md)
+#### [Sign In](signing-in.md)
+#### [Alternate identities](vs-alternate-identity.md)
+##### [Sign In with Aliases](aliasing.md)
+#### [Manage Your Subscriptions](manage-vs-subscriptions.md)
+### [Download Software](subscriber-downloads.md)
+#### [List of Available Software Downloads](software-download-list.md)
+### [Obtain & Manage Product Keys](product-keys.md)
+### Visual Studio Dev Essentials
+#### [Join Visual Studio Dev Essentials](join-dev-essentials.md)
+#### [Opt Out of Visual Studio Dev Essentials](leave-vsde.md)
+### [Subscriber Benefits](subscriber-benefits.md)
+## Using Subscriber Benefits
+### Tools
+#### [Visual Studio IDE ](vs-ide-benefit.md)
+#### [Visual Studio Team Services](vs-vsts.md)
+#### [Azure Credit](vs-azure.md)
+#### [Visual Studio App Center](vs-visual-studio-app-center.md)
+#### [Parasoft ](vs-parasoft.md)
+#### [WhiteSource Bolt](vs-whitesource.md)
+#### [Enterprise Mobility & Security](vs-ems.md)
+#### [Windows Developer Account](vs-windows-dev.md)
+#### [Office 365 Developer subscription](vs-office-dev.md)
+#### [Power BI Pro ](vs-pbi.md)
+#### [Modern Requirements4TFS](vs-modernreq.md)
+#### [Azure Pay-As-You-Go](vs-azure-payg.md)
+### Professional Development
+#### [LinkedIn Learning](vs-linkedin-learning.md)
+#### [DataCamp](vs-datacamp.md)
+#### [Opsgility](vs-opsgility.md)
+#### [Pluralsight](vs-pluralsight.md)
+#### [Xamarin University Training](vs-xamarin.md)
+#### [MSDN Magazine subscription](vs-msdn.md)
+### Support Benefits
+#### [Azure Advisory Chat](vs-azure-advisory-chat.md)
+#### [Azure Community](vs-azure-community.md)
+#### [Technical Support](vs-tech-support.md)
+#### [Priority Forum Support](vs-priority-support.md)
+#### [Concierge Support](vs-concierge-chat.md)
+## Managing Subscriptions
+### [Administrator Responsibilities](admin-responsibilities.md)
+### [Learn About Subscription Management](subscription-management-info.md)
+### Accessing the Portal and Managing Administrators
+#### [For Volume Licensing](volume-license-admins.md)
+##### [VLSC Admin Migration FAQs](vlsc-admin-faq.md)
+##### Onboarding Your Organization
+###### [Onboarding Email Communications](volume-license-onboarding-email.md)
+###### [Find Your PCN](find-pcn.md)
+###### [Find Your Primary Contact](find-primary-contact.md)
+#### [For MPSA](mpsa.md)
+#### [For Cloud Subscriptions](cloud-admin.md)
+#### [Onboarding video](https://channel9.msdn.com/Series/Visual-Studio-Subscriptions-Administration/Onboarding-your-organization-to-the-new-Visual-Studio-Subscription-Administration-Portal-and-setting)
+### [Using the Admin Portal](using-admin-portal.md)
+#### [Assign Subscriptions](assign-license.md)
+#### [Resend Assignment Emails](resend-assignment-email.md)
+#### [Edit Subscriptions](edit-license.md)
+#### [Delete Subscriptions](delete-license.md)
+#### [Search for a Subscription](search-license.md)
+#### [Export Subscriptions](exporting-subscriptions.md)
+#### [Overallocations](handle-overclaimed-license.md)
+#### [Expired Subscriptions](handle-expired-license.md)
+#### [Subscribers with Personal Email Sign-ins](personal-email-sign-ins.md)
+## Acquiring Visual Studio Subscriptions
+### [Compare Subscription Options](https://www.visualstudio.com/vs/pricing)
+### Buying Cloud Subscriptions
+#### [Overview](vscloud-overview.md)
+#### [Billing FAQ](vscloud-billing-faq.md)
+#### [Buying for CSPs](vscloud-csp.md)
+### Subscriptions offered through programs
+#### [Microsoft Partner Network](program-mpn.md)
+#### [Managing subscriptions for MPN](manage-mpn-subscriptions.md)
+#### [Microsoft for Startups](program-startups.md)
 ## Resources
-### [Terms of Use](vs-license-terms.md)
-### [Subscription Support](https://www.visualstudio.com/subscriptions/support/)
+### [Visual Studio Licensing Whitepaper](http://aka.ms/vslicensing)
+### [Compare subscription options and pricing](https://www.visualstudio.com/vs/pricing)
+### [Compare Visual Studio IDE features](https://www.visualstudio.com/vs/compare)
+### [Visual Studio Administration and Subscriptions Support](https://www.visualstudio.com/support/support-overview-vs)
+### [Volume Licensing Terms](https://www.microsoft.com/en-us/licensing/product-licensing/products.aspx)
+### [Microsoft Products and Services Agreement (MPSA)](https://www.microsoft.com/en-us/licensing/mpsa/default.aspx)

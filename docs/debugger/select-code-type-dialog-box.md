@@ -2,12 +2,8 @@
 title: "Select Code Type Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.selectengines"
 dev_langs: 
@@ -22,10 +18,9 @@ helpviewer_keywords:
   - "debugger, engine selection"
   - "debugging engine selection dialog box"
 ms.assetid: 932269fe-94e3-43cb-8931-078f31afd177
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

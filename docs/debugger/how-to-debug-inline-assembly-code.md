@@ -2,12 +2,8 @@
 title: "How to: Debug Inline Assembly Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.inline"
 dev_langs: 
@@ -20,10 +16,9 @@ helpviewer_keywords:
   - "debugging [C++], inline assembly code"
   - "inline assembly, debugging"
 ms.assetid: cc5664e0-0b38-40c1-bb65-04ae720c2adb
-caps.latest.revision: 21
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

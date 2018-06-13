@@ -1,13 +1,10 @@
 ---
-title: "How to: Export a Ribbon from the Ribbon Designer to Ribbon XML | Microsoft Docs"
+title: "How to: Export a ribbon from the Ribbon Designer to Ribbon XML"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,23 +16,21 @@ helpviewer_keywords:
   - "XML [Office development in Visual Studio], Ribbon"
   - "Ribbon Designer [Office development in Visual Studio]"
   - "exporting Ribbon"
-ms.assetid: 96e0e9ed-4392-4f45-ac33-b6f7c22ea321
-caps.latest.revision: 37
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Export a Ribbon from the Ribbon Designer to Ribbon XML
-  The **Ribbon (Visual Designer)** item does not support all possible types of Ribbon customization. To customize the Ribbon in advanced ways, you can export the Ribbon from the designer to Ribbon XML and edit the XML directly.  
+# How to: Export a ribbon from the Ribbon Designer to Ribbon XML
+  The **Ribbon (Visual Designer)** item does not support all possible types of Ribbon customization. To customize the ribbon in advanced ways, you can export the ribbon from the designer to Ribbon XML and edit the XML directly.  
   
 > [!NOTE]  
->  Not all property values appear in the Ribbon XML file. For more information, see [Ribbon Overview](../vsto/ribbon-overview.md).  
+>  Not all property values appear in the Ribbon XML file. For more information, see [Ribbon overview](../vsto/ribbon-overview.md).  
   
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]  
   
-### To export a Ribbon from the Ribbon Designer to Ribbon XML  
+### To export a ribbon from the Ribbon Designer to Ribbon XML  
   
 1.  Right-click the Ribbon code file in **Solution Explorer**, and then click **View Designer**.  
   
@@ -47,7 +42,7 @@ ms.workload:
   
 4.  Copy the code block in these comments to the **ThisAddin**, **ThisWorkbook**, or **ThisDocument** class, depending on which type of solution you are developing.  
   
-     This code enables the Microsoft Office application to discover and load your custom Ribbon. For more information, see [Ribbon XML](../vsto/ribbon-xml.md).  
+     This code enables the Microsoft Office application to discover and load your custom ribbon. For more information, see [Ribbon XML](../vsto/ribbon-xml.md).  
   
 5.  In the **ThisAddin**, **ThisWorkbook**, or **ThisDocument** class, uncomment the code block.  
   
@@ -66,11 +61,11 @@ ms.workload:
   
      For information about writing callback methods and using the RibbonX programming model, see [Ribbon XML](../vsto/ribbon-xml.md).  
   
-## See Also  
- [Ribbon Overview](../vsto/ribbon-overview.md)   
+## See also  
+ [Ribbon overview](../vsto/ribbon-overview.md)   
  [Ribbon Designer](../vsto/ribbon-designer.md)   
  [Ribbon XML](../vsto/ribbon-xml.md)   
- [Walkthrough: Creating a Custom Tab by Using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)   
- [Walkthrough: Creating a Custom Tab by Using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)  
+ [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)   
+ [Walkthrough: Create a custom tab by using Ribbon XML](../vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md)  
   
   

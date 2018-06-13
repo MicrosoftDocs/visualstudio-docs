@@ -229,7 +229,7 @@ console.log(f(3, 3, 3));
   
 <a name="Rest"></a>   
 ## Rest parameters  
- Rest parameters, specified by the spread operator (), allow you to turn consecutive arguments in a function call to an array.  
+ Rest parameters, specified by the spread operator `...`, allow you to turn consecutive arguments in a function call to an array.  
   
  Rest parameters eliminate the need for the `arguments` object. Rest parameters differ from the `arguments` object in several ways, such as:  
   

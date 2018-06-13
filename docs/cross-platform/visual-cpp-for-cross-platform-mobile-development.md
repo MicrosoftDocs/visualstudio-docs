@@ -2,19 +2,14 @@
 title: "Visual C++ for Cross-Platform Mobile Development | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-mobile
+ms.topic: "conceptual"
 dev_langs: 
   - "C++"
 ms.assetid: 0bb872d6-981b-4c96-9143-fcec5336bf0d
-caps.latest.revision: 9
 author: "corob-msft"
 ms.author: "corob"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "xplat-cplusplus"
 ---
@@ -35,7 +30,7 @@ You can build native C++ apps for iOS, Android and Windows devices, and share co
  Visual C++ for Cross-Platform Mobile Development is an installable option that comes with Visual Studio 2015. For prerequisites and installation instructions, see [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md). To build code for iOS, you also need a Mac computer and an Apple iOS Developer Account. For more information, see [Install And Configure Tools to Build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md).  
   
 ## Come up to speed  
- If you're coming from Android or iOS development, we have some great material on how to get started. Visual Studio is an expressive and capable development environment. To learn how to use it, try [Getting started for Android developers](https://msdn.microsoft.com/en-us/library/windows/apps/dn275875.aspx) or [Getting started for iOS developers](https://msdn.microsoft.com/en-us/library/windows/apps/xaml/jj657966.aspx). These topics will introduce you to Visual Studio and the concepts you'll need to develop cross-platform apps for Windows and Windows Phone. To get started writing your first cross-platform app for iOS and Android, see [Build an OpenGL ES Application on Android and iOS](../cross-platform/build-an-opengl-es-application-on-android-and-ios.md).  
+ If you're coming from Android or iOS development, we have some great material on how to get started. Visual Studio is an expressive and capable development environment. To learn how to use it, try [Getting started for Android developers](/previous-versions/windows/apps/dn275875\(v=win.10\)) or [Getting started for iOS developers](/previous-versions/windows/apps/jj657966\(v=win.10\)). These topics will introduce you to Visual Studio and the concepts you'll need to develop cross-platform apps for Windows and Windows Phone. To get started writing your first cross-platform app for iOS and Android, see [Build an OpenGL ES Application on Android and iOS](../cross-platform/build-an-opengl-es-application-on-android-and-ios.md).  
   
  Visual C++ for Cross-Platform Mobile Development includes several templates to help you get started on your apps:  
   

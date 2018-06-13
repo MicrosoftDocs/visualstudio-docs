@@ -2,12 +2,8 @@
 title: "GenerateTemporaryTargetAssembly Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,10 +15,9 @@ helpviewer_keywords:
   - "GenerateTemporaryTargetAssembly task [WPF MSBuild], parameters"
   - "creating an assembly [WPF MSBuild], XAML page refers to a locally declared type"
 ms.assetid: 92b6539c-6897-45e0-8989-0c234bbfe782
-caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
-manager: ghogen
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

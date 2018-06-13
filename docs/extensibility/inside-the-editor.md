@@ -2,19 +2,15 @@
 title: "Inside the Editor | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - architecture"
 ms.assetid: 822cbb8d-7ab4-40ee-bd12-44016ebcce81
-caps.latest.revision: 31
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
@@ -58,7 +54,7 @@ The editor is composed of a number of different subsystems, which are designed t
   
  The text model subsystem is free of user interface (UI) concepts. For example, it is not responsible for text formatting or text layout, and it has no knowledge of visual adornments that may be associated with the text.  
   
- The public types of the text model subsystem are contained in Microsoft.VisualStudio.Text.Data.dll and Microsoft.VisualStudio.CoreUtilitiy.dll, which depend only on the .NET Framework base class library and the Managed Extensibility Framework (MEF).  
+ The public types of the text model subsystem are contained in Microsoft.VisualStudio.Text.Data.dll and Microsoft.VisualStudio.CoreUtility.dll, which depend only on the .NET Framework base class library and the Managed Extensibility Framework (MEF).  
   
 ### Text View Subsystem  
  The text view subsystem is responsible for formatting and displaying text. The types in this subsystem are divided into two layers, depending on whether the types rely on Windows Presentation Foundation (WPF). The most important types are <xref:Microsoft.VisualStudio.Text.Editor.ITextView> and <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextView>, which control the set of text lines that are to be displayed, and also the caret, the selection, and the facilities for adorning the text by using WPF UI elements. This subsystem also provides margins around the text display area. These margins can be extended, and can contain different kinds of content and visual effects. Examples of margins are line number displays and scroll bars.  

@@ -2,21 +2,17 @@
 title: "IEnumDebugReferenceInfo2::Clone | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugReferenceInfo2::Clone"
 helpviewer_keywords: 
   - "IEnumDebugReferenceInfo2::Clone"
 ms.assetid: 49c5a301-a33a-428f-b83b-e734c71af4ef
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

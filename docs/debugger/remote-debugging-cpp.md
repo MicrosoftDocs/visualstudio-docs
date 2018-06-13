@@ -2,12 +2,8 @@
 title: "Remote Debug a Visual C++ Project | Microsoft Docs"
 ms.custom: "remotedebugging"
 ms.date: "08/14/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "C++"
   - "FSharp"
@@ -17,10 +13,9 @@ dev_langs:
 helpviewer_keywords: 
   - "remote debugging, setup"
 ms.assetid: 8b8eca0d-122f-4eda-848a-cf0945f207d0
-caps.latest.revision: 65
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---
@@ -38,7 +33,7 @@ The remote debugger is supported on Windows 7 and newer (not phone) and versions
 > [!NOTE]
 > Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries is not recommended and may fail or be unacceptably slow.
   
-## Download and Install the Remote Tools
+## Download and Install the remote tools
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
   

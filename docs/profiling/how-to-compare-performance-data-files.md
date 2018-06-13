@@ -2,27 +2,22 @@
 title: "How to: Compare Performance Data Files | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vsperf.choosediffbinaries"
 helpviewer_keywords: 
   - "profiling tools, how to compare profiler result files"
   - "profiler result files, how to compare"
 ms.assetid: 1905b45d-c6b3-43c8-87b1-1aee734f37f9
-caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Compare Performance Data Files
-You can compare the results of two different profiler data files (.vsp or .vsps) by creating a comparison ("Diff") report or view. The comparison shows the differences, performance regressions, and improvements that occurred from one profiling session to the other.  
+# How to: Compare performance data files
+You can compare the results of two different profiler data files (.*vsp* or .*vsps*) by creating a comparison ("Diff") report or view. The comparison shows the differences, performance regressions, and improvements that occurred from one profiling session to the other.  
   
  The Diff report presents a table view of the data. The table presents the delta, or change from the baseline. This is calculated by determining the difference between the old value, the baseline value, and the result value from the new analysis.  
   
@@ -32,9 +27,9 @@ You can compare the results of two different profiler data files (.vsp or .vsps)
   
 ### To create comparison file view for a project in Performance Explorer  
   
-1.  In **Performance Explorer**, under **Reports**, select the .vsp or .vsps report file that you want to use as the baseline values for comparison.  
+1.  In **Performance Explorer**, under **Reports**, select the .*vsp* or .*vsps* report file that you want to use as the baseline values for comparison.  
   
-2.  Select the .vsp or .vsps report files that you want to compare.  
+2.  Select the .*vsp* or .*vsps* report files that you want to compare.  
   
 3.  Right-click one of the selected files and then click **Compare Reports**.  
   
@@ -54,6 +49,6 @@ You can compare the results of two different profiler data files (.vsp or .vsps)
   
 1.  On the **Analyze** menu, select **Compare Performance Reports**.  
   
-2.  In the **Select analysis files for comparison** window, browse and select the **Baseline File** analysis file (.vsp or .vsps) and the **Comparison File** (.vsp or .vsps).  
+2.  In the **Select analysis files for comparison** window, browse, and select the **Baseline File** analysis file (.*vsp* or .*vsps*) and the **Comparison File** (.*vsp* or .*vsps*).  
   
 3.  Click **OK**.

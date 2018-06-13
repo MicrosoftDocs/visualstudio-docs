@@ -2,12 +2,9 @@
 title: "How to: Create a BDC Model | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,23 +13,21 @@ dev_langs:
 helpviewer_keywords: 
   - "BDC [SharePoint development in Visual Studio], creating a model"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], creating a model"
-ms.assetid: e8b888d4-a531-4d13-9ebf-efbbd33eebc6
-caps.latest.revision: 15
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Create a BDC Model
+# How to: Create a BDC model
   You can create a Business Data Connectivity (BDC) model by using the template for that kind of item and then adding the model to any SharePoint project. For more information, see [Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md). For more information about how to design the model, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).  
   
 ### To create a BDC project  
   
-1.  On the menu bar, choose **File**, **New**, **Project**.  
+1.  On the menu bar, choose **File** > **New** > **Project**.  
   
     > [!NOTE]  
-    >  If your IDE is set to use Visual Basic development settings, choose **File**, **New Project**.  
+    >  If your IDE is set to use Visual Basic development settings, choose **File** > **New Project**.  
   
      The **New Project** dialog box opens.  
   
@@ -51,7 +46,7 @@ ms.workload:
   
      An empty SharePoint project is created.  
   
-5.  On the menu bar, choose **Project**, **Add New Item**.  
+5.  On the menu bar, choose **Project** > **Add New Item**.  
   
 6.  In the **Add New Item** dialog box, choose the **Office/SharePoint** node.  
   
@@ -61,11 +56,10 @@ ms.workload:
   
      A **Business Data Connectivity Model** item is added to the project. By default, the model appears in the BDC designer. For more information, see [Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md).  
   
-## See Also  
+## See also
  [Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md)   
  [How to: Add an Existing BDC Model File to a SharePoint Project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md)   
  [How to: Use a Resource File to Specify Localized Names, Properties, and Permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md)   
  [How to: Include a Custom Assembly in a BDC Feature](../sharepoint/how-to-include-a-custom-assembly-in-a-bdc-feature.md)   
  [Integrating Business Data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)  
-  
   

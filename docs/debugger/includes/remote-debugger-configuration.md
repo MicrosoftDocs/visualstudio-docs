@@ -38,4 +38,4 @@ You must have administrative permissions on the remote computer.
   
  When you are finished debugging and need to stop the remote debugger, click **File > Exit** on the window. You can restart it from the **Start** menu or from the command line:  
   
- **\<Visual Studio installation directory>\Common7\IDE\Remote Debugger\\<x86, x64, or Appx\msvsmon.exe**.  
+ **\<Visual Studio installation directory>\Common7\IDE\Remote Debugger\\<x86, x64, or Appx>\msvsmon.exe**.  

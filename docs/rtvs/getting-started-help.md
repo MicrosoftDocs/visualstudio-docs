@@ -1,20 +1,15 @@
 ---
-title: "Help Window in the R Tools for Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: 06/29/2017
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-r"
-ms.devlang: r
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-caps.latest.revision: 1
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
+title: Help Window for R
+description: Help for R is integrated directly into the interactive window in Visual Studio through the ? command.
+ms.date: 01/24/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-rtvs
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "data-science"
+  - data-science
 ---
 
 # Help in R Tools for Visual Studio
@@ -26,7 +21,7 @@ Help for R is integrated directly into the interactive window in Visual Studio. 
 > [!Tip]
 > The help window, like all others in Visual Studio, can be arranged and docked however you like. See [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md).
 >
-> To open help results in a browser, select the **R Tools > Options** menu and set the **R Help Browser** property to `External`. See [Options](options.md).
+> To open help results in a browser, select the **R Tools > Options** menu and set the **R Help Browser** property to `External`. See [Options](options-for-r-tools-in-visual-studio.md).
 
 To search help, use the `??` command followed by the search term. Use quotes if the search term contains spaces:
 
@@ -50,7 +45,7 @@ Developers often search the R documentation for help on function names, datasets
     ![Invoking help through the right click context menu](media/help-right-click.png)
 
 > [!Tip]
-> To open integrated help in a browser, select **R Tools > Options** and set **F1 Web Browser** to `External`. See [Options](options.md).
+> To open integrated help in a browser, select **R Tools > Options** and set **F1 Web Browser** to `External`. See [Options](options-for-r-tools-in-visual-studio.md).
 
 ## Integrated StackOverflow search
 
@@ -62,4 +57,4 @@ You can change the appended scoping string, `R site:stackoverflow`, through the 
 
 ![Changing the F1 Web search string option](media/options-dialog.png)
 
-If you prefer to show results in a browser, change the **F1 Web Browser** option as described on [Options](options.md).
+If you prefer to show results in a browser, change the **F1 Web Browser** option as described on [Options](options-for-r-tools-in-visual-studio.md).

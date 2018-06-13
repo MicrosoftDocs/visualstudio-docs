@@ -1,18 +1,13 @@
 ---
 title: "Diagnose problems after deployment | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/20/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: "04/10/2018"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: a3463eab-a352-4d17-8551-adbaad526db0
-caps.latest.revision: 60
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -35,10 +30,6 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
  Set up your build process to create a build manifest (BuildInfo.config file) for your web project and include this manifest with your release. This manifest contains information about the project, source control, and build system that were used to create a specific build. This information helps Visual Studio find the matching source and symbols after you open the IntelliTrace log to review the recorded events.  
 
 ###  <a name="AutomatedBuild"></a> Create the build manifest for an automated build using Team Foundation Server  
-
- Follow these steps whether you use Team Foundation Version Control or Git.
-  
- **Step 2:** [Step 2: Release your app](#DeployRelease)  
   
  Follow these steps whether you use Team Foundation Version Control or Git.  
  
@@ -69,6 +60,8 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
      Anyone who can access your web server can see these locations in the build manifest. Make sure that your source server is secure.
   
 6.  Run a new build.  
+  
+    Go to [Step 2: Release your app](#DeployRelease)  
 
 ####  <a name="TFS2013"></a> Team Foundation Server 2013  
  Set up your build definition to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.  
@@ -113,7 +106,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
 6.  Run a new build.  
 
- **Step 2:** [Step 2: Release your app](#DeployRelease)  
+    Go to [Step 2: Release your app](#DeployRelease)  
 
 ####  <a name="TFS2012_2010"></a> Team Foundation Server 2012 or 2010  
  Follow these steps to automatically create the build manifest (BuildInfo.config file) for your project and put the file in your project's output folder. The file appears as "*ProjectName*.BuildInfo.config" in the output folder but is renamed "BuildInfo.config" in the deployment folder after you publish your app.  
@@ -138,7 +131,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
 4.  Run a new build.  
 
- **Step 2:** [Step 2: Release your app](#DeployRelease)  
+    Go to [Step 2: Release your app](#DeployRelease)  
 
 ###  <a name="ManualBuild"></a> Create the build manifest for a manual build using Visual Studio  
  Follow these steps to automatically create the build manifest (BuildInfo.config file) for your project and put the file in your project's output folder. The file appears as "*ProjectName*.BuildInfo.config" in the output folder but is renamed "BuildInfo.config" in the deployment folder after you publish your app.  
@@ -165,7 +158,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
 4.  Run a new build.  
 
- **Step 2:** [Step 2: Release your app](#DeployRelease)  
+    Go to [Step 2: Release your app](#DeployRelease)  
 
 ###  <a name="MSBuild"></a> Create the build manifest for a manual build using MSBuild.exe  
  Add these build arguments when you run a build:  

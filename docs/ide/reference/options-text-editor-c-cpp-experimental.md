@@ -1,22 +1,17 @@
 ---
-title: "Options, Text Editor, C/C++, Experimental | Microsoft Docs"
-ms.custom: ""
-ms.date: "08/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+title: Options, Text Editor, C/C++, Experimental
+ms.date: 08/02/2017
+ms.topic: reference
+f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.Experimental"
   - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.Experimental"
   - "VS.ToolsOptionsPages.Text_Editor.C\\C++.Experimental"
-caps.latest.revision: 10
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.technology: 
-  - "vs-ide-general"
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.workload:
   - "cplusplus"
 ---
 # Options, Text Editor, C/C++, Experimental
@@ -30,7 +25,7 @@ These features are available in a Visual Studio 2017 installation.
 > [!NOTE]
 > Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. See [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
 
-## Enable Predictive Intellisense
+## Enable Predictive IntelliSense
 
 Predictive IntelliSense limits the number of results displayed in the IntelliSense dropdown list so that you see only results that are relevant in the context. For example, if you type <code>int x =</code> and invoke the IntelliSense dropdown, you will see only integers or functions that return integers. Predictive IntelliSense is turned off by default.
 
@@ -41,7 +36,7 @@ This option enables Visual Studio to cache project data so that when you open th
 
 ## Additional Features in the Visual Studio Marketplace
 
-You can browse additional text editor features in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/search?target=VS&category=Tools&vsVersion=&subCategory=All&sortBy=Downloads). An example is [C++ Quick Fixes](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.CQuickFixes2017), which supports the following:
+You can browse additional text editor features in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/search?target=VS&category=Tools&vsVersion=&subCategory=All&sortBy=Downloads). An example is [C++ Quick Fixes](https://marketplace.visualstudio.com/items?itemName=VisualCppDevLabs.CQuickFixes2017), which supports the following:
 
 - **Add missing #include** - Suggests relevant #include's for unknown symbols in your code
 
@@ -55,5 +50,5 @@ You can browse additional text editor features in the [Visual Studio Marketplace
 
 ## See also
 
-[Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)  
-[Refactoring in C++ (VC Blog)](http://blogs.msdn.com/b/vcblog/archive/2014/11/14/all-about-c-refactoring-in-visual-studio-2015-preview.aspx)
+- [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)
+- [Refactoring in C++ (VC Blog)](http://blogs.msdn.com/b/vcblog/archive/2014/11/14/all-about-c-refactoring-in-visual-studio-2015-preview.aspx)

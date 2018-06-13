@@ -1,11 +1,14 @@
+---
+ms.technology: vs-ai-tools
+---
 # Clone a repository of Python code in Visual Studio
 
 Once you've [installed Visual Studio Tools for AI](installation.md), you can easily clone a repository of Python code and create a project from it.
 
 1. To connect to GitHub repositories, run the Visual Studio installer, select **Modify**, and select the **Individual components** tab. Scroll down to the **Code tools** section, select **GitHub extension for Visual Studio**, and select **Modify**.
-    
+
     ![Selecting the GitHub extension in the Visual Studio installer](media\create-project-repo\installation-github-extension.png)
-    
+
 2. Launch Visual Studio.
 
 3. Select **View > Team Explorer...** to open the **Team Explorer** window in which you can connect to GitHub or Visual Studio Team Services, or clone a repository.
@@ -34,7 +37,7 @@ Once you've [installed Visual Studio Tools for AI](installation.md), you can eas
 
     ![First output from the Python MNIST program](media\create-project-repo\tensorflow-mnist-running.png)
 
-> If you are using Anaconda and get an error about missing numpy, you may need to change your python environment you may need to [change your python environment to use Anaconda](https://docs.microsoft.com/visualstudio/python/python-environments) 
+> If you are using Anaconda and get an error about missing numpy, you may need to [change your Python environment to use Anaconda](../python/selecting-a-python-environment-for-a-project.md).
 
 11. You can visualize the progress with TensorBoard. Right click your project and click **Run TensorBoard** then select the directory of your output TensorBoard logs.
 

@@ -2,12 +2,8 @@
 title: "Supported Code Changes (C# and Visual Basic) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/11/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -17,10 +13,9 @@ helpviewer_keywords:
   - "Edit and Continue [C#], supported code changes"
   - "Edit and Continue [Visual Basic], supported code changes"
 ms.assetid: c7a48ea9-5a7f-4328-a9d7-f0e76fac399d
-caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---
@@ -83,7 +78,7 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 
 ## Unsupported app scenarios
 
-Unsupported apps and platforms include ASP.NET 5, Silverlight 5, Windows Phone and Windows Phone emulator, and Windows 8.1.
+Unsupported apps and platforms include ASP.NET 5, Silverlight 5, and Windows 8.1.
 
 > [!NOTE]
 > Apps that are supported include UWP in Windows 10, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).

@@ -1,28 +1,23 @@
 ---
-title: "Walkthrough: Creating a Master Detail Relation Using a Cached Dataset | Microsoft Docs"
+title: "Walkthrough: Create a master detail relation using a cached dataset"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
   - "master-detail tables [Office development in Visual Studio], walkthroughs"
   - "data caching [Office development in Visual Studio], Master/Detail Relation"
-ms.assetid: 419f4e07-c67f-4fc9-973a-bc794f349ac3
-caps.latest.revision: 41
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Creating a Master Detail Relation Using a Cached Dataset
+# Walkthrough: Create a master detail relation using a cached dataset
   This walkthrough demonstrates creating a master/detail relation on a worksheet, and caching the data so that the solution can be used offline.  
   
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]  
@@ -51,21 +46,21 @@ ms.workload:
   
 -   Permissions to read from and write to the SQL Server database.  
   
-## Creating a New Project  
+## Create a new project  
  In this step, you will create an Excel Workbook project.  
   
-#### To create a new project  
+### To create a new project  
   
 1.  Create an Excel Workbook project with the name **My Master-Detail**, using either Visual Basic or C#. Make sure that **Create a new document** is selected. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
  Visual Studio opens the new Excel workbook in the designer and adds the **My Master-Detail** project to **Solution Explorer**.  
   
-## Creating the Data Source  
+## Create the data source  
  Use the **Data Sources** window to add a typed dataset to your project.  
   
-#### To create the data source  
+### To create the data source  
   
-1.  If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View**, **Other Windows**, **Data Sources**.  
+1.  If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.  
   
 2.  Choose **Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
@@ -85,10 +80,10 @@ ms.workload:
   
  The wizard adds the two tables to the **Data Sources** window. It also adds a typed dataset to your project that is visible in **Solution Explorer**.  
   
-## Adding Controls to the Worksheet  
+## Add controls to the worksheet  
  In this step, you will add a named range, a list object, and two buttons to the first worksheet. First, add the named range and the list object from the **Data Sources** window so that they are automatically bound to the data source. Next, add the buttons from the **Toolbox**.  
   
-#### To add a named range and a list object  
+### To add a named range and a list object  
   
 1.  Verify that the **My Master-Detail.xlsx** workbook is open in the Visual Studio designer, with **Sheet1** displayed.  
   
@@ -106,7 +101,7 @@ ms.workload:
   
 7.  A <xref:Microsoft.Office.Tools.Excel.ListObject> control named **Order_DetailsListObject** is created in cell **A6**, and bound to the <xref:System.Windows.Forms.BindingSource>.  
   
-#### To add two buttons  
+### To add two buttons  
   
 1.  From the **Common Controls** tab of the **Toolbox**, add a <xref:System.Windows.Forms.Button> control to cell **A3** of the worksheet.  
   
@@ -118,10 +113,10 @@ ms.workload:
   
  Next, mark the dataset to be cached in the document.  
   
-## Caching the Dataset  
+## Cache the dataset  
  Mark the dataset to be cached in the document by making the dataset public and setting the **CacheInDocument** property.  
   
-#### To cache the dataset  
+### To cache the dataset  
   
 1.  Select **NorthwindDataSet** in the component tray.  
   
@@ -133,10 +128,10 @@ ms.workload:
   
  The next step is to add text to the buttons, and in C# add code to hook up the event handlers.  
   
-## Initializing the Controls  
+## Initialize the controls  
  Set the button text and add event handlers during the <xref:Microsoft.Office.Tools.Excel.Workbook.Startup> event.  
   
-#### To initialize the data and the controls  
+### To initialize the data and the controls  
   
 1.  In **Solution Explorer**, right-click **Sheet1.vb** or **Sheet1.cs**, and then click **View Code** on the shortcut menu.  
   
@@ -149,10 +144,10 @@ ms.workload:
   
      [!code-csharp[Trin_VstcoreDataExcel#16](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet2.cs#16)]  
   
-## Adding Code to Enable Scrolling Through the Records  
+## Add code to enable scrolling through the records  
  Add code to the <xref:System.Windows.Forms.Control.Click> event handler of each button to move through the records.  
   
-#### To scroll through the records  
+### To scroll through the records  
   
 1.  Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of `Button1`, and add the following code to move backwards through the records:  
   
@@ -164,10 +159,10 @@ ms.workload:
      [!code-vb[Trin_VstcoreDataExcel#18](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet2.vb#18)]
      [!code-csharp[Trin_VstcoreDataExcel#18](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet2.cs#18)]  
   
-## Testing the Application  
+## Test the application  
  Now you can test your workbook to make sure that the data appears as expected, and that you can use the solution offline.  
   
-#### To test the data caching  
+### To test the data caching  
   
 1.  Press **F5**.  
   
@@ -179,21 +174,21 @@ ms.workload:
   
 5.  Disable the connection to the database. Unplug the network cable from your computer if the database is located on a server, or stop the SQL Server service if the database is on your development computer.  
   
-6.  Open Excel, and then open **My Master-Detail.xlsx** from the \bin directory (\My Master-Detail\bin in Visual Basic or \My Master-Detail\bin\debug in C#).  
+6.  Open Excel, and then open **My Master-Detail.xlsx** from the *\bin* directory (*\My Master-Detail\bin* in Visual Basic or *\My Master-Detail\bin\debug* in C#).  
   
 7.  Scroll through some of the records to see that the worksheet operates normally when disconnected.  
   
 8.  Reconnect to the database. Connect your computer to the network again if the database is located on a server, or start the SQL Server service if the database is on your development computer.  
   
-## Next Steps  
+## Next steps  
  This walkthrough shows the basics of creating a master/detail data relationship on a worksheet and caching a dataset. Here are some tasks that might come next:  
   
--   Deploy the solution. For more information, see [Deploying an Office Solution](../vsto/deploying-an-office-solution.md)  
+-   Deploy the solution. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md)  
   
-## See Also  
- [Binding Data to Controls in Office Solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
- [Data in Office Solutions](../vsto/data-in-office-solutions.md)   
- [Caching Data](../vsto/caching-data.md)   
- [Host Items and Host Controls Overview](../vsto/host-items-and-host-controls-overview.md)  
+## See also  
+ [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
+ [Data in Office solutions](../vsto/data-in-office-solutions.md)   
+ [Cache data](../vsto/caching-data.md)   
+ [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)  
   
   

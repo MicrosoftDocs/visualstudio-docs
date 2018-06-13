@@ -2,12 +2,8 @@
 title: "Inspect Variables in the Autos and Locals Windows | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "04/17/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.autos"
   - "vs.debug.locals"
@@ -15,10 +11,9 @@ helpviewer_keywords:
   - "debugger, variable windows"
   - "debugging [Visual Studio], variable windows"
 ms.assetid: bb6291e1-596d-4af0-9f22-5fd713d6b84b
-caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -28,7 +23,7 @@ The **Autos** window (while debugging, **CTRL+ALT+V, A**, or **Debug > Windows >
 If you need more information about basic debugging, see [Getting Started with the Debugger](../debugger/getting-started-with-the-debugger.md).  
   
 ## Looking at objects in the Autos and Locals windows  
-Arrays and objects are displayed in the Autos and Locals windows as tree controls. Click on the arrow to the left of the variable name to expand the view to show fields and properties. Here is an example of a [FileStream](http://msdn.microsoft.com/Library/a8737776-e545-4867-91ed-51c7f031fa19) object in the **Locals** window:  
+Arrays and objects are displayed in the Autos and Locals windows as tree controls. Click on the arrow to the left of the variable name to expand the view to show fields and properties. Here is an example of a [FileStream](/dotnet/api/system.io.filestream) object in the **Locals** window:  
   
 ![Locals&#45;FileStream](../debugger/media/locals-filestream.png "Locals-FileStream")  
   
@@ -37,7 +32,7 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
   
  In C# and Visual Basic, the **Autos** window displays any  variable used on the current or preceding line. For example, if you declare four variables and set them as follows:
 
-```CSharp
+```csharp
     public static void Main()
     {
        int a, b, c, d;
@@ -81,7 +76,7 @@ Arrays and objects are displayed in the Autos and Locals windows as tree control
   
  The following C# code adds the return values of two functions:  
 
-```CSharp
+```csharp
 static void Main(string[] args)  
 {  
     int a, b, c, d;  

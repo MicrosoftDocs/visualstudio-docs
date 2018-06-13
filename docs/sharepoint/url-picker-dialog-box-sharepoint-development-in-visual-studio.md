@@ -2,12 +2,9 @@
 title: "URL Picker Dialog Box (SharePoint development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.VWD.URLPicker"
 dev_langs: 
@@ -16,11 +13,9 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, URL picker"
   - "SharePoint development in Visual Studio, designer"
-ms.assetid: 33f8f521-e1f8-4242-a580-8a4bd9cb5ddc
-caps.latest.revision: 15
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---

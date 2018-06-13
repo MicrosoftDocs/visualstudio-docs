@@ -1,14 +1,14 @@
 ---
-title: "Introducing Live Unit Testing | Microsoft Docs"
+title: "Introducing Live Unit Testing"
 description: Learn about the advantages of Live Unit Testing and how to use it when unit testing your projects.
-ms.date: "2017-09-11"
-ms.technology: 
-  - "vs-devops-test"
-ms.topic: "article"
+ms.date: 2017-09-11
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-test
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio ALM"
   - "Live Unit Testing"
-author: "rpetrusha"
+author: rpetrusha
 ms.author: "ronpet"
 ms.workload: 
   - "dotnet"

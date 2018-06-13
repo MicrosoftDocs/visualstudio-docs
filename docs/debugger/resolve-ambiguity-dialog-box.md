@@ -2,12 +2,8 @@
 title: "Resolve Ambiguity Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.Disambig"
 dev_langs: 
@@ -20,10 +16,9 @@ helpviewer_keywords:
   - "debugger, Resolve Ambiguity dialog box"
   - "debugging [C++], resolving ambiguity"
 ms.assetid: d9f47455-a116-4c84-8bad-2dfbf4d77f74
-caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

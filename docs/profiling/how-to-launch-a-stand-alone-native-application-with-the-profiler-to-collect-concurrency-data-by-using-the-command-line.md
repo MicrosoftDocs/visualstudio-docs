@@ -2,21 +2,16 @@
 title: "How to: Launch a Stand-Alone Native Application with the Profiler to Collect Concurrency Data by Using the Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: e5aed651-afed-4b70-9a7e-1a6032cc614f
-caps.latest.revision: 23
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---
-# How to: Launch a Stand-Alone Native Application with the Profiler to Collect Concurrency Data by Using the Command Line
+# How to: Launch a stand-alone native application with the profiler to collect concurrency data by using the command line
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to start a native stand-alone (client) application and collect process and thread concurrency data.  
   
  A profiling session has the following parts:  
@@ -28,12 +23,12 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
 -   Ending the profiling session  
   
 > [!NOTE]
->  Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler at a command prompt, you must add the tools path to the PATH environment variable of the **Command Prompt** window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
+>  Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler at a command prompt, you must add the tools path to the PATH environment variable of the **Command Prompt** window or add it to the command itself. For more information, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
   
-## Starting the Application with the Profiler  
+## Start the application with the profiler  
  To start a target application with the profiler, you use the [VSPerfCmd.exe](../profiling/vsperfcmd.md)**/start** and **/launch** options to initialize the Profiler and start the application. You can specify **/start** and **/launch** and their respective options. You can also add the **/globaloff** option to pause data collection at the start of the target application. You then use **/globalon** to begin to collect data.  
   
-#### To start an application with the Profiler  
+#### To start an application with the profiler  
   
 1.  At a command prompt, type the following command:  
   
@@ -61,8 +56,8 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
     |[/console](../profiling/console.md)|Starts the target command-line application in a separate window.|  
     |[/targetclr](../profiling/targetclr.md) **:** `CLRVersion`|Specifies the version of the common language runtime (CLR) to profile if the application loads more than one version of the CLR.|  
   
-## Controlling Data Collection  
- While the target application is running, you can control data collection by starting and stopping the writing of data to the file with VSPerfCmd.exe options. By controlling data collection, you can collect data for a specific part of program execution, such as the starting or shutting down of the application.  
+## Control data collection  
+ While the target application is running, you can control data collection by starting and stopping the writing of data to the file with *VSPerfCmd.exe* options. By controlling data collection, you can collect data for a specific part of program execution, such as the starting or shutting down of the application.  
   
 #### To start and stop data collection  
   
@@ -76,7 +71,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
 -   You can also use the **VSPerfCmd.exe**[/mark](../profiling/mark.md) option to insert a profiling mark into the data file. The **/mark** command adds an identifier, a time stamp, and an optional user-defined text string. Marks can be used to filter the data in profiler reports and data views.  
   
-## Ending the Profiling Session  
+## End the profiling session  
  To end a profiling session, the profiler must not be collecting data. You can stop collecting concurrency data by closing the profiled application or by invoking the **VSPerfCmd /detach** option. You then invoke the **VSPerfCmd /shutdown** option to turn off the profiler and close the profiling data file.  
   
 #### To end a profiling session  

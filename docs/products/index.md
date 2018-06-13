@@ -3,6 +3,7 @@ layout: HubPage
 hide_bc: true
 title: Visual Studio Documentation | Microsoft Docs
 description: Learn how to use Visual Studio 2017 to develop applications, services, and tools in the language of your choice, for your platforms and devices.
+ms.topic: landing-page
 searchScope: []
 ---
 <div id="main" class="v2">
@@ -22,7 +23,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-ide.svg" src="./images/vs-ide.svg" alt="Visual Studio" />
+                                                        <img data-scaleimage="./images/vs-ide.svg" src="./images/vs-ide.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -41,12 +42,31 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="Visual Studio Team Services" />
+                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Visual Studio Team Services</h3>
                                                     <p>Increase team productivity with Agile project tools and reports. Build, test, and deploy projects from source control with modern CI/CD tools.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/tfs" title="Team Foundation Server">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Team Foundation Server</h3>
+                                                    <p>Install, upgrade, and manage your on-premises deployments.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -60,7 +80,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-code.svg" src="./images/vs-code.svg" alt="Visual Studio Code" />
+                                                        <img data-scaleimage="./images/vs-code.svg" src="./images/vs-code.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -79,7 +99,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-mac.svg" src="./images/vs-mac.svg" alt="Visual Studio for Mac" />
+                                                        <img data-scaleimage="./images/vs-mac.svg" src="./images/vs-mac.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -98,7 +118,7 @@ searchScope: []
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-scaleimage="./images/vs-mobile-center.svg" src="./images/vs-mobile-center.svg" alt="Visual Studio App Center" />
+                                                        <img data-scaleimage="./images/vs-mobile-center.svg" src="./images/vs-mobile-center.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -110,15 +130,26 @@ searchScope: []
                                     </div>
                                 </a>
                             </li>
-							<li><div style="margin-left:13px; margin-top:40px;">
-							<p style="font-size:18px; text-align:center">Developer tools, cloud services, software, <br/>support and training</p>
-                        <p style="font-size:1.12em"><p style="margin-top:24px; text-align:center;">
-                                <a href="https://aka.ms/vs-subscriptions/" data-linktype="external">
-                                    <button style="cursor: pointer;position: relative; background: #0050C5; border:none; padding:8px 16px; padding-right:30px;color: white; font-size:14px;">Visual Studio Subscription<svg xmlns="http://www.w3.org/2000/svg" style="fill:white;height: 14px;position: absolute;bottom: 13px;right: 12px;width: 1em;" viewBox="0 0 10 14"><path d="M 7.4 7 L 1 0.6 l 0.6 -0.6 l 7 7 l -7 7 l -0.6 -0.7 L 7.4 7 Z" /></svg></button>
+                            <li>
+                                <a href="https://aka.ms/vs-subscriptions" title="Visual Studio App Center">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img data-scaleimage="./images/vs-subscription-temp.svg" src="./images/vs-subscription-temp.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Visual Studio Subscriptions</h3>
+                                                    <p>Developer tools, cloud services, training and support all in one place.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </a>
-                            </p>
-                    </div></li>
-                        </ul>						
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </li>

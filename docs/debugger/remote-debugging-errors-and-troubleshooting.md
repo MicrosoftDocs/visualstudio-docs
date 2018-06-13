@@ -2,12 +2,8 @@
 title: "Remote Debugging Errors and Troubleshooting | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "reference"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -21,11 +17,9 @@ helpviewer_keywords:
   - "troubleshooting remote debugging"
   - "errors [debugger], remote debugging"
   - "remote debugging, errors"
-ms.assetid: b2f41a80-e3e0-4064-a487-8e8446270dec
-caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

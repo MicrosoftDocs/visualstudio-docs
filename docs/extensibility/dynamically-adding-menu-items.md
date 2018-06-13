@@ -2,21 +2,17 @@
 title: "Dynamically Adding Menu Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "DYNAMICITEMSTART"
   - "menu items, adding dynamically"
   - "menus, adding dynamic items"
 ms.assetid: d281e9c9-b289-4d64-8d0a-094bac6c333c
-caps.latest.revision: 37
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
@@ -206,7 +202,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
 ## Adding the command  
  The DynamicMenu constructor is where you set up menu commands, including dynamic menus and menu items.  
   
-1.  In DynamicMenuPackageGuids.cs, add the GUID of the command set and the command ID:  
+1.  In DynamicMenuPackage.cs, add the GUID of the command set and the command ID:  
   
     ```csharp  
     public const string guidDynamicMenuPackageCmdSet = "00000000-0000-0000-0000-00000000";  // get the GUID from the .vsct file  
@@ -339,7 +335,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
 [InstalledProductRegistration("#110", "#112", "1.0", IconResourceID = 400)]  
 [ProvideMenuResource("Menus.ctmenu", 1)]  
 [ProvideAutoLoad(UIContextGuids.SolutionHasMultipleProjects)]  
-[Guid(DynamicMenuPackageGuids.PackageGuidString)]  
+[Guid(DynamicMenuPackage.PackageGuidString)]  
 public sealed class DynamicMenuItemsPackage : Package  
 {}  
 ```  

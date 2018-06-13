@@ -2,17 +2,12 @@
 title: "Installing the Visual Studio SDK | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "visual-studio-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-sdk
+ms.topic: "conceptual"
 ms.assetid: c730edb6-5099-4c16-85a8-08def09f1455
-caps.latest.revision: 3
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
@@ -31,6 +26,6 @@ The Visual Studio SDK is an optional feature in Visual Studio setup. You can als
  ![SolutionExplorerInstall](../extensibility/media/solutionexplorerinstall.png "SolutionExplorerInstall")  
   
 ## Installing the Visual Studio SDK from the Command Line  
-As with any Visual Studio Workload or Component, you can also install the item from the command line. See [Use command-line parameters to install Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md) for details on the appropriate command line switches and how to determine the Workload or Component identifiers.
+As with any Visual Studio Workload or Component, you can also install the **Visual Studio extension development** Workload (ID: Microsoft.VisualStudio.Workload.VisualStudioExtension) from the command line. See [Use command-line parameters to install Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md) for details on the appropriate command line switches and general instructions on determining Workload or Component identifiers.
   
  Note that you must use the Visual Studio installer that matches your installed version of Visual Studio. For example, if you have Visual Studio Enterprise installed on your computer, you must run the Visual Studio Enterprise installer (vs_enterprise.exe).

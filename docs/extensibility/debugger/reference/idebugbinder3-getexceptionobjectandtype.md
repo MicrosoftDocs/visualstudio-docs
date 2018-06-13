@@ -2,21 +2,17 @@
 title: "IDebugBinder3::GetExceptionObjectAndType | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBinder3::GetExceptionObjectAndType"
 helpviewer_keywords: 
   - "IDebugBinder3::GetExceptionObjectAndType method"
 ms.assetid: 2a313fe1-4ee1-4f01-af86-382d6c661a8f
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

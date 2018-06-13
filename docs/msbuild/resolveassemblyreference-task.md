@@ -2,16 +2,13 @@
 title: "ResolveAssemblyReference Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#ResolveAssemblyReference"
   - "MSBuild.ResolveAssemblyReference.TurnOnAutoGenerateBindingRedirects"
   - "MSBuild.ResolveAssemblyReference.FoundConflict"
+  - "MSBuild.ResolveAssemblyRedirects.SuggestedRedirects"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,10 +18,9 @@ helpviewer_keywords:
   - "ResolveAssemblyReference task [MSBuild]"
   - "MSBuild, ResolveAssemblyReference task"
 ms.assetid: 4d56d848-b29b-4dff-86a2-0a96c9e4a170
-caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
-manager: ghogen
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

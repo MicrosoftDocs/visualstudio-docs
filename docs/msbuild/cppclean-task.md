@@ -2,12 +2,8 @@
 title: "CPPClean Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "reference"
 f1_keywords: 
   - "vc.task.cppclean"
 dev_langs: 
@@ -20,10 +16,9 @@ helpviewer_keywords:
   - "MSBuild (Visual C++), CPPClean task"
   - "CPPClean task (MSBuild (Visual C++))"
 ms.assetid: b62a482e-8fb5-4999-b50b-6605a078e291
-caps.latest.revision: 5
-author: "kempb"
-ms.author: "kempb"
-manager: ghogen
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

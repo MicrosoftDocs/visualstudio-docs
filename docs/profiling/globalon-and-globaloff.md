@@ -2,24 +2,19 @@
 title: "GlobalOn and GlobalOff | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: 24b0ed68-d19e-473e-9af3-252c11d82bcf
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
 # GlobalOn and GlobalOff
-The VSPerfCmd.exe **GlobalOff** and **GlobalOn** options pause and resume profiling for all processes and threads in a command-line profiling session.  
+The *VSPerfCmd.exe* **GlobalOff** and **GlobalOn** options pause and resume profiling for all processes and threads in a command-line profiling session.  
   
- You can specify **GlobalOn** and **GlobalOff** as the only options in a VSPerfCmd.exe command line, or you can include them in command lines that also contain the **Start**, **Launch**, or **Attach** options.  
+ You can specify **GlobalOn** and **GlobalOff** as the only options in a *VSPerfCmd.exe* command line, or you can include them in command lines that also contain the **Start**, **Launch**, or **Attach** options.  
   
  **GlobalOn** and **GlobalOff** can also be combined with the **ProcessOn**, **ProcessOff**, **ThreadOn**, and **ThreadOff** options.  
   
@@ -31,11 +26,11 @@ The VSPerfCmd.exe **GlobalOff** and **GlobalOn** options pause and resume profil
   
 -   **GlobalOn** immediately sets the Global Start/Stop Count to 1 and therefore resumes profiling.  
   
- For more information, see [Profiling Tools APIs](../profiling/profiling-tools-apis.md).  
+ For more information, see [Profiling tools APIs](../profiling/profiling-tools-apis.md).  
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /{GlobalOff|GlobalOn}  
   
 VSPerfCmd.exe /Start:Method /{GlobalOff|GlobalOn} [Options]  
@@ -67,7 +62,7 @@ VSPerfCmd.exe {Launch:AppName|Attach:PID} /{GlobalOff|GlobalOn}[Options]
 ## Example  
  In this example, the **GlobalOff** and **GlobalOn** options are used to avoid collecting profiling data for application startup and shutdown.  
   
-```  
+```cmd  
 ; Initialize the profiler with profiling stopped.  
 VSPerfCmd.exe /Start:Trace /Output:Instrument.vsp /GlobalOff  
 ; Start an instrumented application and wait for it to warm up.  
@@ -82,8 +77,8 @@ VSPerfCmd /Shutdown
   
 ```  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)
+ [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profile services](../profiling/command-line-profiling-of-services.md)

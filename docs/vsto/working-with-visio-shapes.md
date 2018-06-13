@@ -1,38 +1,33 @@
 ---
-title: "Working with Visio Shapes | Microsoft Docs"
+title: "Work with Visio shapes"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
   - "Visio [Office development in Visual Studio], common tasks with Visio shapes"
   - "shapes [Office development in Visual Studio], common tasks with Visio shapes"
-ms.assetid: 53af87f7-b174-49f7-87d0-7dfe4bb9e1e2
-caps.latest.revision: 11
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Working with Visio Shapes
+# Work with Visio shapes
   The topics in this section provide step-by-step procedures and code examples for using the object model of Microsoft Office Visio to work with shapes in Office projects.  
   
 |Task|Procedure|  
 |----------|---------------|  
-|Add shapes from a stencil to a Visio document.|[How to: Programmatically Add Shapes to a Visio Document](../vsto/how-to-programmatically-add-shapes-to-a-visio-document.md)|  
-|Copy shapes from one Visio page and paste them in another page.|[How to: Programmatically Copy and Paste Shapes in a Visio Document](../vsto/how-to-programmatically-copy-and-paste-shapes-in-a-visio-document.md)|  
+|Add shapes from a stencil to a Visio document.|[How to: Programmatically add shapes to a Visio document](../vsto/how-to-programmatically-add-shapes-to-a-visio-document.md)|  
+|Copy shapes from one Visio page and paste them in another page.|[How to: Programmatically copy and paste shapes in a Visio document](../vsto/how-to-programmatically-copy-and-paste-shapes-in-a-visio-document.md)|  
   
-## See Also  
- [Visio Solutions](../vsto/visio-solutions.md)   
- [Visio Object Model Overview](../vsto/visio-object-model-overview.md)   
- [Office Solutions Development Overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)  
+## See also  
+ [Visio solutions](../vsto/visio-solutions.md)   
+ [Visio object model overview](../vsto/visio-object-model-overview.md)   
+ [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)  
   
   

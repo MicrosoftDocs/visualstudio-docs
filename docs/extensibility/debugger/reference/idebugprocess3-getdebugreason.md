@@ -2,21 +2,17 @@
 title: "IDebugProcess3::GetDebugReason | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProcess3::GetDebugReason"
 helpviewer_keywords: 
   - "IDebugProcess3::GetDebugReason"
 ms.assetid: f23fbabc-8b18-4278-bebf-4cdc7091513c
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

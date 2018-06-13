@@ -2,20 +2,16 @@
 title: "IDebugArrayObject2::GetBaseIndices | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetBaseIndices"
   - "IDebugArrayObject2::GetBaseIndices"
 ms.assetid: 882951a2-3da0-49bf-8d1e-7daedd13ffe6
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

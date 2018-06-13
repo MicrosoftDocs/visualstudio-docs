@@ -2,21 +2,17 @@
 title: "IEnumDebugPorts2::GetCount | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugPorts2::GetCount"
 helpviewer_keywords: 
   - "IEnumDebugPorts2::GetCount"
 ms.assetid: d714455c-e4fc-48dc-a6d4-7e8b5d7c1bce
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

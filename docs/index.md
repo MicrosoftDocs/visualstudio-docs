@@ -3,6 +3,7 @@ layout: HubPage
 hide_bc: true
 title: Visual Studio Documentation | Microsoft Docs
 description: Learn how to use Visual Studio 2017 to develop applications, services, and tools in the language of your choice, for your platforms and devices.
+ms.topic: hub-page
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -265,6 +266,25 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                     </div>
                                 </a>
                             </li>
+                            <li>
+                                <a href="https://go.microsoft.com/fwlink/?linkid=872032">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img data-scaleimage="./images/live-share.svg" src="./images/live-share.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Collaborate</h3>
+                                                    <p>Share, edit, and debug code in a collaborative, real-time environment. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -512,7 +532,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Node.js</h3>
-                                                    <p>Build scalable network applications using Node.js, an asnchronous, event-driven JavaScript runtime.</p>
+                                                    <p>Build scalable network applications using Node.js, an asynchronous, event-driven JavaScript runtime.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -835,7 +855,7 @@ description: Learn how to use Visual Studio 2017 to develop applications, servic
                 </a>
             </li>
             <li>
-                <a href="https://go.microsoft.com/fwlink/?linkid=833104">
+                <a href="https://go.microsoft.com/fwlink/?linkid=874480">
                     Issue Reporting
                 </a>
             </li>

@@ -1,9 +1,9 @@
 ---
-title: "Visual Studio for Mac Workloads | Microsoft Docs"
+title: "Visual Studio for Mac Workloads"
+description: "This article describes the various workloads that can be used in Visual Studio for Mac"
 author: asb3993
 ms.author: amburns
-ms.date: 08/03/2017
-ms.topic: article
+ms.date: 05/06/2018
 ms.assetid: DDC39599-8C5D-4CB9-8DA5-229E085384CA
 ---
 
@@ -29,8 +29,8 @@ For more information on using .NET Core, refer to the [documentation](https://do
 
 ## ASP.NET Core Web Applications
 
-For information on getting started using ASP.NET Core in Visual Studio for Mac, refer to the [Getting Started with ASP.NET Core](~/asp-net-core.md) guide or check out the ASP.NET Core web apps [hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).
+For information on getting started using ASP.NET Core in Visual Studio for Mac, refer to the [Getting Started with ASP.NET Core](asp-net-core.md) guide or check out the ASP.NET Core web apps [hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).
 
 ## Cross-platform Unity Game Development
 
-To start building games with Unity, see the [Setup page](~/setup-vsmac-tools-unity.md) and the [guide to using Unity Tools](~/using-vsmac-tools-unity.md), or check out the Unity [hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Unity/Getting-Started).
+To start building games with Unity, see the [Setup page](setup-vsmac-tools-unity.md) and the [guide to using Unity Tools](using-vsmac-tools-unity.md), or check out the Unity [hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Unity/Getting-Started).

@@ -1,28 +1,23 @@
 ---
-title: "How to: Set Up Configuration Information for an Office Solution | Microsoft Docs"
+title: "How to: Set up configuration information for an Office solution"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
   - "solutions [Office development in Visual Studio], configuration files"
   - "configuration files [Office development in Visual Studio]"
-ms.assetid: f123838f-957a-4cf5-acc0-0cc0f4c2aea2
-caps.latest.revision: 33
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Set Up Configuration Information for an Office Solution
+# How to: Set up configuration information for an Office solution
   You can use configuration files to configure settings that are specific to your Office solutions. You can specify settings such as assembly binding policy, remoting objects, debug, and trace settings.  
   
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
@@ -37,17 +32,17 @@ ms.workload:
   
 3.  In the **Templates** pane, select **Application Configuration File**.  
   
-4.  In the **Name** box, type the same name as the assembly plus the extension .config. For example, a configuration file for an Excel project assembly called ExcelWorkbook1.dll would be named ExcelWorkbook1.dll.config.  
+4.  In the **Name** box, type the same name as the assembly plus the extension *.config*. For example, a configuration file for an Excel project assembly called *ExcelWorkbook1.dll* would be named *ExcelWorkbook1.dll.config*.  
   
 5.  Click **Add**.  
   
-6.  Create your configuration file according to the application configuration file schema. For more information, see [Configuration File Schema for the .NET Framework](/dotnet/framework/configure-apps/file-schema/index).  
+6.  Create your configuration file according to the application configuration file schema. For more information, see [Configuration file schema for the .NET Framework](/dotnet/framework/configure-apps/file-schema/index).  
   
  There are no special considerations for using configuration files with Office projects.  
   
-## See Also  
- [Configuration File Schema for the .NET Framework](/dotnet/framework/configure-apps/file-schema/index)   
- [Designing and Creating Office Solutions](../vsto/designing-and-creating-office-solutions.md)   
- [Deploying an Office Solution](../vsto/deploying-an-office-solution.md)  
+## See also  
+ [Configuration file schema for the .NET Framework](/dotnet/framework/configure-apps/file-schema/index)   
+ [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)   
+ [Deploy an Office solution](../vsto/deploying-an-office-solution.md)  
   
   

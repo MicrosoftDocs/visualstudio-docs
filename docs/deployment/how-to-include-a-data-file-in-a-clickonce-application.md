@@ -2,12 +2,8 @@
 title: "How to: Include a Data File in a ClickOnce Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,10 +13,9 @@ helpviewer_keywords:
   - "deploying applications [ClickOnce], data files"
   - "data access, ClickOnce applications"
 ms.assetid: 89ee46ef-bc8c-4ab0-a2ac-1220f9da06fc
-caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -35,7 +30,7 @@ Each [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applicati
   
 2.  Update your application manifest to list the data file.  
   
-     **mage -u v1.0.0.0\Application.manifest -FromDirectory v1.0.0.0**  
+     `mage -u v1.0.0.0\Application.manifest -FromDirectory v1.0.0.0`  
   
      Performing this task re-creates the list of files in your application manifest and also automatically generates the hash signatures.  
   
@@ -53,13 +48,11 @@ Each [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applicati
   
      You must re-sign your deployment manifest because its hash of the application manifest has changed.  
   
-     **mage -s app manifest -cf cert_file -pwd password**  
+     `mage -s app manifest -cf cert_file -pwd password`
   
-     **mage -u deployment manifest -appm app manifest**  
+     `mage -u deployment manifest -appm app manifest`
   
-     **mage -s deployment manifest -cf certfile -pwd password**  
-  
-2.  
+     `mage -s deployment manifest -cf certfile -pwd password`
   
 ### To include a data file by using MageUI.exe  
   

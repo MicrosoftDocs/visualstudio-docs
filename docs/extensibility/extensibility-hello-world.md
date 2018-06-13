@@ -2,15 +2,11 @@
 title: "Hello World | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/10/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: f74e1ad1-1ee5-4360-9bd5-d82467b884ca
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

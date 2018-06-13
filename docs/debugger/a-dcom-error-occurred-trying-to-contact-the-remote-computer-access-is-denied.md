@@ -2,12 +2,8 @@
 title: "A DCOM error occurred trying to contact the remote computer. Access is denied. | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.remote.dcom_access_denied"
 dev_langs: 
@@ -21,10 +17,9 @@ helpviewer_keywords:
   - "remote DCOM access denied error"
   - "DCOM, access errors"
 ms.assetid: 9d7dfc1b-9fe0-4f54-9c50-9c0e0f8358c5
-caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

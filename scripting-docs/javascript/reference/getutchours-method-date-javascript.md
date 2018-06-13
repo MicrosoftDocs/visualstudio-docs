@@ -53,11 +53,11 @@ document.write(date.getUTCHours());
 document.write("<br/>");  
   
 var date2 = new Date("1/1/2001 11:22:33");  
-document.write(datee.getUTCHours());  
+document.write(date2.getUTCHours());  
   
 // Output (in the PST time zone):  
-// 8  
-// 19  
+// 15 
+// 2  
 ```  
   
 ## Requirements  

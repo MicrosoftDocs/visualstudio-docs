@@ -2,12 +2,8 @@
 title: "VSInstr Warnings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "instrumentation, VSInstr tool"
   - "warnings"
@@ -15,20 +11,19 @@ helpviewer_keywords:
   - "warnings, VSInstr tool"
   - "performance tools, VSInstr tool"
 ms.assetid: 47512bc9-a8e9-4628-883a-d9888edab786
-caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# VSInstr Warnings
-The following table lists warnings issued by the VSInstr.exe tool. You can use the NOWARN option along with the warning numbers to suppress the warning from appearing.  
+# VSInstr warnings
+The following table lists warnings issued by the *VSInstr.exe* tool. You can use the NOWARN option along with the warning numbers to suppress the warning from appearing.  
   
 |Warning Number|Description|  
 |--------------------|-----------------|  
 |**VSP2000**|Internal Error. Cannot get the module file name for this executable.|  
-|**VSP2001**|\<assembly name> is a strongly named assembly. It must be re-signed before it can be executed.<br /><br /> This warning occurs when a signed assembly is instrumented. You can use the sn.exe tool to resign the binary or to temporarily turn off the strong name requirement. For more information, see [Sn.exe (Strong Name Tool)](/dotnet/framework/tools/sn-exe-strong-name-tool).|  
+|**VSP2001**|\<assembly name> is a strongly named assembly. It must be re-signed before it can be executed.<br /><br /> This warning occurs when a signed assembly is instrumented. You can use the *sn.exe* tool to resign the binary or to temporarily turn off the strong name requirement. For more information, see [Sn.exe (strong name tool)](/dotnet/framework/tools/sn-exe-strong-name-tool).|  
 |**VSP2002**|Could not find function \<funcname> in file \<filename><br /><br /> This warning occurs if a function cannot be located in the specified file.|  
 |**VSP2003**|Could not find any cross jumps to the function \<funcname> in file \<filename>.<br /><br /> This warning occurs if VSInstr cannot nullify cross jumps. Cross jumps are used for code optimization.|  
 |**VSP2004**|Function \<funcname> was excluded by using the EXCLUDE command-line switch but was required because it contained a cross jump.<br /><br /> This warning occurs if the function was excluded by using the EXCLUDE option, but is needed during the instrumentation process. The profiler automatically includes the required function.|  
@@ -43,5 +38,5 @@ The following table lists warnings issued by the VSInstr.exe tool. You can use t
 |**VSP2013**|Instrumenting this image requires it to run as a 32-bit process. The CLR header flags have been updated to reflect this.<br /><br /> The profiler modifies the binary so that 64-bit operating systems can open the 32-bit process in WOW64 emulator. For libraries (DLLs) this might fail if they are loaded in an existing 64-bit process. This warning notifies the user of the dependency.|  
 |**VSP2014**|The resulting instrumented image appears to be invalid, and might not run.<br /><br /> This message occurs when the final instrumented assembly has an invalid PE header.|  
   
-## See Also  
+## See also  
  [VSInstr](../profiling/vsinstr.md)

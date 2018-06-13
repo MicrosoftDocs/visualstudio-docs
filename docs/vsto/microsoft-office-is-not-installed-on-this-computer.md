@@ -1,35 +1,30 @@
 ---
-title: "Microsoft Office is not installed on this computer | Microsoft Docs"
+title: "Microsoft Office is not installed on this computer"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VST.SelectDocWizard.OfficeNotInstalled"
 dev_langs: 
   - "VB"
   - "CSharp"
-ms.assetid: da023863-721c-4e1a-96e1-6345dd12011e
-caps.latest.revision: 22
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Microsoft Office is not installed on this computer
-  Visual Studio cannot find the Microsoft Office application that corresponds to the project type. If you are developing an VSTO Add-in project, this means that you cannot debug or run the project. If you are trying to create a document-level project, this means that you cannot create the project.  
+# Microsoft Office is not installed on the computer
+  Visual Studio cannot find the Microsoft Office application that corresponds to the project type. If you are developing a VSTO Add-in project, it means that you cannot debug or run the project. If you are trying to create a document-level project, this means that you cannot create the project.  
   
-### To correct this error  
+## To correct the error  
   
-1.  Install the Microsoft Office application associated with this project type, including the primary interop assemblies. For more information about supported versions of Microsoft Office, see [Configuring a Computer to Develop Office Solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).  
+1.  Install the Microsoft Office application associated with the project type, including the primary interop assemblies. For more information about supported versions of Microsoft Office, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).  
   
-## See Also  
- [Configuring a Computer to Develop Office Solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md)   
- [How to: Configure a Computer to Develop Office Solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)  
+## See also  
+ [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md)   
+ [How to: Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)  
   
   

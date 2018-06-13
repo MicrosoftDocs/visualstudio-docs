@@ -1,13 +1,10 @@
 ---
-title: "How to: Fill ListObject Controls with Data | Microsoft Docs"
+title: "How to: Fill ListObject controls with data"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -18,20 +15,18 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], adding to worksheets"
   - "data binding, ListObject controls"
   - "worksheets, populating with data"
-ms.assetid: bf692c77-f5cc-456a-9a5c-84ed3067d7eb
-caps.latest.revision: 27
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Fill ListObject Controls with Data
+# How to: Fill ListObject controls with data
   You can use data binding as a way to quickly add data to your document. After binding data to a list object, you can disconnect the list object so it displays the data but is no longer bound to the data source.  
   
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]  
   
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How Do I: Create a List in Excel that is Connected to a SharePoint List?](http://go.microsoft.com/fwlink/?LinkID=130263).  
+ ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Create a list in Excel that is connected to a SharePoint list?](http://go.microsoft.com/fwlink/?LinkID=130263).  
   
 ### To bind data to a ListObject control  
   
@@ -57,18 +52,18 @@ ms.workload:
      [!code-csharp[Trin_VstcoreHostControlsExcel#23](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet4.cs#23)]
      [!code-vb[Trin_VstcoreHostControlsExcel#23](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet4.vb#23)]  
   
-## Compiling the Code  
+## Compile the code  
  This code example assumes you have an existing <xref:Microsoft.Office.Tools.Excel.ListObject> named `list1` on the worksheet in which this code appears.  
   
-## See Also  
- [Extending Word Documents and Excel Workbooks in VSTO Add-ins at Run Time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)   
- [Controls on Office Documents](../vsto/controls-on-office-documents.md)   
- [Adding Controls to Office Documents at Run Time](../vsto/adding-controls-to-office-documents-at-run-time.md)   
- [How to: Map ListObject Columns to Data](../vsto/how-to-map-listobject-columns-to-data.md)   
- [Automating Excel by Using Extended Objects](../vsto/automating-excel-by-using-extended-objects.md)   
- [ListObject Control](../vsto/listobject-control.md)   
- [Binding Data to Controls in Office Solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
- [How to: Populate Worksheets with Data from a Database](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)   
- [How to: Populate Documents with Data from Services](../vsto/how-to-populate-documents-with-data-from-services.md)  
+## See also  
+ [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)   
+ [Controls on Office documents](../vsto/controls-on-office-documents.md)   
+ [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)   
+ [How to: Map ListObject columns to data](../vsto/how-to-map-listobject-columns-to-data.md)   
+ [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)   
+ [ListObject control](../vsto/listobject-control.md)   
+ [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
+ [How to: Populate worksheets with data from a database](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)   
+ [How to: Populate documents with data from services](../vsto/how-to-populate-documents-with-data-from-services.md)  
   
   

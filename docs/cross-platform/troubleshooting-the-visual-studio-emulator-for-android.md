@@ -2,17 +2,12 @@
 title: "Troubleshooting the Visual Studio Emulator for Android | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-mobile
+ms.topic: "conceptual"
 ms.assetid: f3fb5df4-3aae-40e4-9450-bbe15b0c5af5
-caps.latest.revision: 23
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: ghogen
+author: mgmclemore
+ms.author: mamcle
+manager: crdun
 ms.workload: 
   - "multiple"
 ---

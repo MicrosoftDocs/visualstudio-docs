@@ -2,12 +2,8 @@
 title: "How to: Choose Sampling Events | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.property.sampling"
 helpviewer_keywords: 
@@ -19,14 +15,13 @@ helpviewer_keywords:
   - "performance counter sample event"
   - "performance tools, sample events"
 ms.assetid: ce7cb734-80ac-4930-a4ef-e24395e1cc07
-caps.latest.revision: 23
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Choose Sampling Events
+# How to: Choose sampling events
 By default, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools collects performance data at an interval that is specified as a number of processor cycles that are used by the profiled process. The default number of cycles in an interval is 10,000,000, which is approximately 0.01 seconds on a 1 GH computer. You can change the number of cycles in an interval, and you can change the sample event. The following sample events are available:  
   
 -   Clock cycles - for CPU-bound problems.  
@@ -59,9 +54,9 @@ By default, the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profil
   
 5.  When you select a sample event, a default sampling interval value is displayed in the **Sampling interval** text box. If necessary, you can enter the value that you want in the text box.  
   
-## See Also  
- [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)   
- [How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md)   
- [CPU and Windows Counters](../profiling/cpu-and-windows-counters.md)   
- [Understanding Sampling Data Values](../profiling/understanding-sampling-data-values.md)   
- [Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)
+## See also  
+ [Configure performance sessions](../profiling/configuring-performance-sessions.md)   
+ [How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md)   
+ [CPU and Windows counters](../profiling/cpu-and-windows-counters.md)   
+ [Understand sampling data values](../profiling/understanding-sampling-data-values.md)   
+ [Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)

@@ -2,21 +2,17 @@
 title: "Creating a Basic Project System, Part 2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "writing a project system"
   - "project system"
   - "tutorial"
 ms.assetid: aee48fc6-a15f-4fd5-8420-7f18824de220
-caps.latest.revision: 23
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
@@ -280,7 +276,7 @@ ZipProjects:
   
 -   $safeprojectname$ is the name provided by a user in the **New Project** dialog box, modified to remove all unsafe characters and spaces.  
   
- For a complete list of template parameters, see [Template Parameters](../ide/template-parameters.md).  If you want to create your own custom template parameter, see [NIB: How to: Pass Custom Parameters to Templates](http://msdn.microsoft.com/en-us/5bc2ad11-84c7-4683-a276-e5e00d85d8fb).  
+ For a complete list of template parameters, see [Template Parameters](../ide/template-parameters.md).  
   
 #### To substitute project template parameters  
   

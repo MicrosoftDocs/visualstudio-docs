@@ -2,23 +2,18 @@
 title: "Using the SharePoint Project Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
   - "SharePoint project service"
   - "SharePoint development in Visual Studio, extensibility features"
-ms.assetid: bfb6cbc7-6c28-4e1a-abb4-88f149e7712c
-caps.latest.revision: 34
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -1,13 +1,10 @@
 ---
-title: "Get started debugging multithreaded applications | Microsoft Docs"
+title: "Learn to debug multithreaded applications"
+description: Debug using the Parallel Stacks and Parallel Watch windows in Visual Studio
 ms.custom: "H1HackMay2017"
 ms.date: "06/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -17,19 +14,18 @@ helpviewer_keywords:
   - "multithreaded debugging, tutorial"
   - "tutorials, multithreaded debugging"
 ms.assetid: 62df746b-b0f6-4df4-83cf-b1d9d2e72833
-caps.latest.revision: 38
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Get started debugging a multithreaded application in Visual Studio
+# Get started debugging multithreaded applications in Visual Studio
 Visual Studio provides several tools and user interface elements to help you debug multithreaded applications. This tutorial shows how to use thread markers, the **Parallel Stacks** window, the **Parallel Watch** window, conditional breakpoints, and filter breakpoints . This tutorial takes only a few minutes, but completing it will familiarize you with the features for debugging multithreaded applications.
 
 |         |         |
 |---------|---------|
-| ![Watch a video](../install/media/video-icon.png "WatchVideo") | [Watch a video](#video) on multithreaded debugging that shows similar steps. |
+|  ![movie camera icon for video](../install/media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugging-Multi-threaded-Apps-in-Visual-Studio-2017-MoZPKMD6D_111787171) on multithreaded debugging that shows similar steps. |
 
 Other topics provide additional information on using other multithreaded debugging tools:
 
@@ -196,7 +192,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 -   In the source code editor, look for the following code: 
   
-    ```CSharp  
+    ```csharp  
     Thread.Sleep(3000);  
     Console.WriteLine();  
     ```  
@@ -225,7 +221,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 4.  In the source code editor, locate the line that contains the breakpoint:  
   
-    ```CSharp  
+    ```csharp  
     Thread.Sleep(3000);  
     ```  
   
@@ -370,12 +366,6 @@ You can set breakpoints on different conditions, such as the thread name or the 
 #### To switch to another thread 
 
 - To switch to another thread, see [How to: Switch to Another Thread While Debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md) 
-
-## <a name="video"></a> Watch a video on multithreaded debugging
-
-<div style="padding-top: 56.25%; position: relative; width: 100%;">
-<iframe style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;" width="100%" height="100%" src="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugging-Multi-threaded-Apps-in-Visual-Studio-2017-MoZPKMD6D_111787171" frameborder="0" allowfullscreen></iframe>
-</div>
 
 #### To learn more about the Parallel Stack and Parallel Watch windows  
   

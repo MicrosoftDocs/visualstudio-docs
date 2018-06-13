@@ -2,20 +2,15 @@
 title: "How to: Respond to the Just-In-Time Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/23/17"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugging [Visual Studio], Just-In-Time"
   - "Just-In-Time debugging"
 ms.assetid: 14972d5f-69bc-479b-9529-03b8787b118f
-caps.latest.revision: 48
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -25,7 +20,7 @@ The actions you should take when you see the Just-in-Time debugger dialog box de
 
 #### If you want to fix or debug the error (Visual Studio users)
 
-- You must have [Visual Studio installed](https://www.microsoft.com/en-us/download/details.aspx?id=48146) to view the detailed information about the error and to try to debug it. For more information, see [Debug using the Just-In-Time Debugger](../debugger/debug-using-the-just-in-time-debugger.md). If you cannot resolve the error and fix the app, contact the owner of the app to resolve the error.
+- You must have [Visual Studio installed](http://www.visualstudio.com) to view the detailed information about the error and to try to debug it. For more information, see [Debug using the Just-In-Time Debugger](../debugger/debug-using-the-just-in-time-debugger.md). If you cannot resolve the error and fix the app, contact the owner of the app to resolve the error.
 
 #### If you want to prevent the Just-In-Time Debugger dialog box from appearing
 

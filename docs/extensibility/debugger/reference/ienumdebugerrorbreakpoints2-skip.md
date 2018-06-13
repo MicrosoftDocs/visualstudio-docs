@@ -2,21 +2,17 @@
 title: "IEnumDebugErrorBreakpoints2::Skip | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugErrorBreakpoints2::Skip"
 helpviewer_keywords: 
   - "IEnumDebugErrorBreakpoints2::Skip"
 ms.assetid: a5a02b38-4e3a-4f0e-b529-f770c3485c8b
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

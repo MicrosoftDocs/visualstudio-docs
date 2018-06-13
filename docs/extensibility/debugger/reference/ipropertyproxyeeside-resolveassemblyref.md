@@ -2,21 +2,17 @@
 title: "IPropertyProxyEESide::ResolveAssemblyRef | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IPropertyProxyEESide::ResolveAssemblyRef"
 helpviewer_keywords: 
   - "IPropertyProxyEESide::ResolveAssemblyRef"
 ms.assetid: 662ca0a6-dad0-4c00-a718-bb3bbc5bd9da
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

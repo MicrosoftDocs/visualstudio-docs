@@ -2,21 +2,17 @@
 title: "IDebugSymbolSearchEvent2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugSymbolSearchEvent2"
 helpviewer_keywords: 
   - "IDebugSymbolSearchEvent2"
 ms.assetid: 9b946d55-ff85-44eb-b40a-efbf8282eafd
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

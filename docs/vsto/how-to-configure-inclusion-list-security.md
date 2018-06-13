@@ -1,29 +1,24 @@
 ---
-title: "How to: Configure Inclusion List Security | Microsoft Docs"
+title: "How to: Configure inclusion list security"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
   - "permissions [Office development in Visual Studio"
   - "inclusion lists [Office development in Visual Studio]"
-ms.assetid: 0609d8f0-4630-4e17-aeb3-14f3134165cf
-caps.latest.revision: 26
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Configure Inclusion List Security
-  If you have Administrator permissions, you can configure the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] trust prompt to control whether end users are given the option of installing Office solutions by saving a trust decision to the inclusion list. For information about inclusion lists, see [Trusting Office Solutions by Using Inclusion Lists](../vsto/trusting-office-solutions-by-using-inclusion-lists.md).  
+# How to: Configure inclusion list security
+  If you have Administrator permissions, you can configure the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] trust prompt to control whether end users are given the option of installing Office solutions by saving a trust decision to the inclusion list. For information about inclusion lists, see [Trust Office solutions by using inclusion lists](../vsto/trusting-office-solutions-by-using-inclusion-lists.md).  
   
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
   
@@ -35,10 +30,10 @@ ms.workload:
   
 -   Disable the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] Trust Prompt Key and the inclusion list. You can prevent end users from installing any Office solution that is not signed with an explicitly trusted certificate.  
   
-## Enabling the Inclusion List  
+## Enable the inclusion list  
  Enable the inclusion list for a zone when you want end users to be presented with the option of installing and running any Office solution that comes from that zone.  
   
-#### To enable the inclusion list by using the registry editor  
+### To enable the inclusion list by using the registry editor  
   
 1.  Open the registry editor:  
   
@@ -48,7 +43,7 @@ ms.workload:
   
 2.  Find the following registry key:  
   
-     \HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel  
+     **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel**  
   
      If the key does not exist, create it.  
   
@@ -64,11 +59,11 @@ ms.workload:
   
      By default, **Internet** has the value **AuthenticodeRequired** and **UntrustedSites** has the value **Disabled**.  
   
-#### To enable the inclusion list programmatically  
+### To enable the inclusion list programmatically  
   
 1.  Create a Visual Basic or Visual C# console application.  
   
-2.  Open the Program.vb or Program.cs file for editing and add the following code.  
+2.  Open the *Program.vb* or *Program.cs* file for editing and add the following code.  
   
     ```vb  
     Dim key As Microsoft.Win32.RegistryKey  
@@ -94,10 +89,10 @@ ms.workload:
   
 3.  Build and run the application.  
   
-## Restricting the Inclusion List  
+## Restrict the inclusion list  
  Restrict the inclusion list so that solutions must be signed with Authenticode certificates that have known identity before users are prompted for a trust decision.  
   
-#### To restrict the inclusion list  
+### To restrict the inclusion list  
   
 1.  Open the registry editor:  
   
@@ -107,7 +102,7 @@ ms.workload:
   
 2.  Find the following registry key:  
   
-     \HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel  
+     **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel**  
   
      If the key does not exist, create it.  
   
@@ -123,11 +118,11 @@ ms.workload:
   
      By default, **Internet** has the value **AuthenticodeRequired** and **UntrustedSites** has the value **Disabled**.  
   
-#### To restrict the inclusion list programmatically  
+### To restrict the inclusion list programmatically  
   
 1.  Create a Visual Basic or Visual C# console application.  
   
-2.  Open the Program.vb or Program.cs file for editing and add the following code.  
+2.  Open the *Program.vb* or *Program.cs* file for editing and add the following code.  
   
     ```vb  
     Dim key As Microsoft.Win32.RegistryKey  
@@ -153,10 +148,10 @@ ms.workload:
   
 3.  Build and run the application.  
   
-## Disabling the Inclusion List  
+## Disable the inclusion list  
  You can disable the inclusion list so that end users can only install solutions that are signed with a trusted and known certificate.  
   
-#### To disable the inclusion list  
+### To disable the inclusion list  
   
 1.  Open the registry editor:  
   
@@ -178,11 +173,11 @@ ms.workload:
     |**LocalIntranet**|**Disabled**|  
     |**TrustedSites**|**Disabled**|  
   
-#### To disable the inclusion list programmatically  
+### To disable the inclusion list programmatically  
   
 1.  Create a Visual Basic or Visual C# console application.  
   
-2.  Open the Program.vb or Program.cs file for editing and add the following code.  
+2.  Open the *Program.vb* or *Program.cs* file for editing and add the following code.  
   
     ```vb  
     Dim key As Microsoft.Win32.RegistryKey  
@@ -209,8 +204,8 @@ ms.workload:
   
 3.  Build and run the application.  
   
-## See Also  
- [Trusting Office Solutions by Using Inclusion Lists](../vsto/trusting-office-solutions-by-using-inclusion-lists.md)   
- [Securing Office Solutions](../vsto/securing-office-solutions.md)  
+## See also  
+ [Trust Office solutions by using inclusion lists](../vsto/trusting-office-solutions-by-using-inclusion-lists.md)   
+ [Secure Office solutions](../vsto/securing-office-solutions.md)  
   
   

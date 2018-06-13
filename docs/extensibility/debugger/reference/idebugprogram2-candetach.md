@@ -2,21 +2,17 @@
 title: "IDebugProgram2::CanDetach | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::CanDetach"
 helpviewer_keywords: 
   - "IDebugProgram2::CanDetach"
 ms.assetid: dcd9ab6c-49e5-447e-aa7c-89f571f4a052
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,21 +2,17 @@
 title: "ProvideDefaultName Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#ProvideDefaultName"
 helpviewer_keywords: 
   - "ProvideDefaultName element [Visual Studio project templates]"
 ms.assetid: 7b0e7b20-fd6b-42e2-81d0-e5100cea0528
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
@@ -58,7 +54,7 @@ Specifies whether the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 
   
  If the `ProvideDefaultName` element is `false`, the **Name** boxes of the **Add New Item** and **New Project** dialog boxes contain the value `<Enter_name>`.  
   
- Use the [DefaultName](../extensibility/defaultname-element-visual-studio-templates.md) element to specify the default name of the project or item in the **Add New Item** and **New Project** dialog boxes.  
+ Use the [DefaultName](../extensibility/defaultname-element-visual-studio-templates.md) element to specify the default name of the project or item in the **Add New Item** and **New Project** dialog boxes. When the value of the `ProvideDefaultName` element is `true`, omission of the `DefaultName` element for projects populates the dialog box with the template's name, that is, the value from the [Name](../extensibility/name-element-visual-studio-templates.md) element.
   
 ## Example  
  The following code example sets the `ProvideDefaultName` element to `false`.  

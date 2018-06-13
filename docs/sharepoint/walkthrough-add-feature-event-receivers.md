@@ -2,12 +2,9 @@
 title: "Walkthrough: Add Feature Event Receivers | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,11 +14,9 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, advanced packaging tools"
   - "SharePoint development in Visual Studio, event receivers"
   - "SharePoint development in Visual Studio, feature event receivers"
-ms.assetid: fbd44c33-2c27-4d57-abca-21cddc16fbc3
-caps.latest.revision: 24
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -1,21 +1,27 @@
 ---
-title: EMS Benefit 
-Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
-Ms.date: 10/3/2017
-Ms.topic: Get-Started-Article
-Description:  Learn how to activate the Enterprise Mobility + Security benefit included in your Visual Studio subscription. 
-Ms.prod: vs-subscription
-Ms.technology: vs-subscriptions
-Searchscope: VS Subscription
+title: EMS Benefit | Microsoft Docs
+author: evanwindom
+ms.author: jaunger
+manager: evelynp
+ms.date: 01/11/2018
+ms.topic: Get-Started-Article
+description:  Learn about the Enterprise Mobility + Security benefit included in your Visual Studio subscription. 
+ms.prod: vs-subscription
+ms.technology: vs-subscriptions
+searchscope: VS Subscription
 ---
 
-# Activating the Enterprise Mobility + Security (EMS) Benefit in Visual Studio Subscriptions
+# Enterprise Mobility + Security (EMS) in Visual Studio Subscriptions
+
 Visual Studio Enterprise annual cloud and standard subscriptions include Enterprise Mobility + Security (EMS).  Secure and manage your identities, devices, apps and data with EMS - Azure Active Directory, Microsoft Intune, Azure Information Protection, Microsoft Advanced Threat Analytics, and Microsoft Cloud App Security.  
 
+## Activation Steps
+
 To use EMS, you’ll need to set up an account or sign in using an existing account. 
-1.	Click on the **Get Code** link at the bottom of the benefit tile.   You’ll receive a notification that the code was successfully retrieved.  Click **Activate**. 
+
+1.	Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
+
+2.  Locate the Enterprise Mobility & Security tile in the Tools section and click on the **Get Code** link at the bottom of the tile.   You’ll receive a notification that the code was successfully retrieved.  Click **Activate**. 
 
     ![EMS Benefit Tile](_img\vs-ems\vs-ems-tile.png)
 
@@ -37,3 +43,24 @@ To use EMS, you’ll need to set up an account or sign in using an existing acco
 
 6.  EMS requires access to the Microsoft [Azure Portal](https://azure.microsoft.com).  Follow the three steps on the EMS landing page to activate your Azure subscription, add users and configure EMS.
 
+## Eligibility
+| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
+|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
+| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes          |
+| Visual Studio Professional (Standard<sup>2</sup>, annual cloud) | VL, Azure, Retail                                       | Available                                                            |  Yes          |
+| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                             |  N/A          |
+| MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              |  N/A          |
+| Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
+| Visual Studio Dev Essentials | N/A  | Not available |N/A |
+
+<sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark.  Excludes: Microsoft Valued Partner (MVP), Region Director (RD), MCT Software & Services, Imagine, Microsoft Partner Network (Professional).*
+
+<sup>2</sup> *Excludes Microsoft Partner Network (Professional)*
+
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
+
+## Support resources
+-  Need help with EMS?  Check out the online [EMS documentation](/enterprise-mobility-security/).
+-  For technical support with any component of EMS, please visit https://support.microsoft.com/allproducts and select the product.
+-  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
+-  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://www.visualstudio.com/support/). 

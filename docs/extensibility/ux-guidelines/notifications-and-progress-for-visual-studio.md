@@ -2,17 +2,13 @@
 title: "Notifications and Progress for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: f0ef65e9-0f1f-45f4-9f25-6e2398691168
-caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
@@ -234,8 +230,6 @@ ms.workload:
  **Infobar with progress bar and textual description**  
   
  ![Infobar inside a window](../../extensibility/ux-guidelines/media/0903-06_infobarinwindow.png "0903-06_InfoBarInWindow")  
-  
- **Infobar inside the Code Analysis window**  
   
 ##### Inline  
  Inline progress indication can be represented by any of the progress loader types. Typically the progress indicator is paired with messaging, but this is not a requirement.  

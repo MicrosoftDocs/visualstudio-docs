@@ -2,22 +2,18 @@
 title: "CommandPlacements Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "CommandPlacements"
 helpviewer_keywords: 
   - "CommandPlacements element (VSCT XML schema)"
   - "VSCT XML schema elements, CommandPlacements"
 ms.assetid: 78a5724a-3b9f-4c78-9c0d-8faa3924f81c
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

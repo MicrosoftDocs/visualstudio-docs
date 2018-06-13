@@ -2,12 +2,9 @@
 title: "Walkthrough: Add an Application Page to a Workflow | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,11 +13,9 @@ dev_langs:
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, adding applications page to workflow"
   - "application page [SharePoint development in Visual Studio]"
-ms.assetid: e4845d07-917b-45cb-a569-4ecdd602fbd9
-caps.latest.revision: 28
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -78,7 +73,7 @@ ms.workload:
   
 3.  In the [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] of ApplicationPage1.aspx, replace the `PlaceHolderMain` section with the following:  
   
-    ```  
+    ```aspx-csharp  
     <asp:Content ID="Main" ContentPlaceHolderID="PlaceHolderMain" runat="server">  
         <asp:Label ID="Label1" runat="server" Font-Bold="True"   
             Text="Expenses that exceeded allotted amount" Font-Size="Medium"></asp:Label>  
@@ -92,7 +87,7 @@ ms.workload:
   
 4.  Add a title to the application page by replacing the `PlaceHolderPageTitleInTitleArea` section with the following:  
   
-    ```  
+    ```aspx-csharp  
     <asp:Content ID="PageTitleInTitleArea" ContentPlaceHolderID="PlaceHolderPageTitleInTitleArea" runat="server" >  
         Expense Report Summary  
     </asp:Content>  

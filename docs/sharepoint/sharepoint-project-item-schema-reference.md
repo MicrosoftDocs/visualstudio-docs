@@ -2,12 +2,9 @@
 title: "SharePoint Project Item Schema Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -24,11 +21,9 @@ helpviewer_keywords:
   - "ProjectItemFile element"
   - "ExtensionDataItem element"
   - "ProjectItem element"
-ms.assetid: 12b63cbc-bf94-4175-bfa8-2117943d00d1
-caps.latest.revision: 16
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -2,12 +2,8 @@
 title: "MSBuild Tasks Specific to Visual C++ | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "reference"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,10 +12,9 @@ dev_langs:
 helpviewer_keywords: 
   - "MSBuild, tasks specific to Visual C++"
 ms.assetid: 05410f0c-7356-4692-bc00-20664421c9ff
-caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
-manager: ghogen
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---

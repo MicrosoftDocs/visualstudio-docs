@@ -2,23 +2,18 @@
 title: "Modules View - Contention Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Modules view"
 ms.assetid: 1a9aa122-2d8f-4a09-b503-92975aa6b648
-caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Modules View - Contention Data
+# Modules View - contention data
 The Modules view of contention data displays concurrency data grouped by the modules that were sampled in the profiling data. Each module is the root of a hierarchical tree. The functions of the module in which contention events occurred are listed under the module node.  
   
  If the function was executing its own code when a contention event occurred, that is, the function was at the top of the call stack, the source lines and instruction addresses that were executing are listed under the function node. Because data is collected for a source line or an instruction pointer when the line or instruction is executing, inclusive and exclusive values are always the same for both line data and instruction data.  
@@ -43,10 +38,10 @@ The Modules view of contention data displays concurrency data grouped by the mod
 |**Process Name**|The name of the process.|  
 |**Source File**|The source file that contains the definition for this function.|  
   
-## See Also  
- [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
+## See also  
+ [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)   
  [Modules View](../profiling/modules-view.md)   
- [Modules View - Instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)   
- [Modules View - Sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)   
+ [Modules View - instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)   
+ [Modules View - sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)   
  [Modules View](../profiling/modules-view-instrumentation-data.md)   
  [Modules View](../profiling/modules-view-sampling-data.md)

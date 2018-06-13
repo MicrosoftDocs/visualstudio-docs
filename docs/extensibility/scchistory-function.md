@@ -2,21 +2,17 @@
 title: "SccHistory Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "SccHistory"
 helpviewer_keywords: 
   - "SccHistory function"
 ms.assetid: a636d9d3-47c1-4b48-ac6b-bcfde19d6cf9
-caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

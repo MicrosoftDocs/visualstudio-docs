@@ -2,20 +2,16 @@
 title: "Starting to Develop Visual Studio Extensions | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/18/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "getting started, Visual Studio integration"
   - "Visual Studio, integration"
 ms.assetid: 8fe5e2ab-a424-4173-9d39-dd082c4d58d0
-caps.latest.revision: 29
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
@@ -87,4 +83,4 @@ If you've never written a Visual Studio extension before, you probably have some
 ## How can I distribute my extension?  
  You can install your extension on another computer or send it to your friends as a .vsix file, which you install by double-clicking it. You can find out more about VSIX packages at [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md).  
   
- You can also publish your extension on the Visual Studio Marketplace, which makes it visible to large numbers of Visual Studio customers. For an example of packaging an extension to the Marketplace, see [Walkthrough: Publishing a Visual Studio Extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md). For more information about what you need to do to publish on the Marketplace, see [Products and Extensions for Visual Studio](https://docs.microsoft.com/en-us/vsts/integrate/ide/extensions/overview).
+ You can also publish your extension on the Visual Studio Marketplace, which makes it visible to large numbers of Visual Studio customers. For an example of packaging an extension to the Marketplace, see [Walkthrough: Publishing a Visual Studio Extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md). For more information about what you need to do to publish on the Marketplace, see [Products and Extensions for Visual Studio](/vsts/integrate/ide/extensions/overview).

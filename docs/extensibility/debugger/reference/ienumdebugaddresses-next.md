@@ -2,21 +2,17 @@
 title: "IEnumDebugAddresses::Next | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugAddresses::Next"
 helpviewer_keywords: 
   - "IEnumDebugAddresses::Next method"
 ms.assetid: 941e4be7-858d-433a-9259-18d0d017be9e
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

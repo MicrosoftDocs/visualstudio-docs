@@ -1,32 +1,35 @@
 ---
-title: "Visual Studio code style preferences | Microsoft Docs"
-ms.custom: ""
-ms.date: "03/10/2017"
-ms.reviewer: ""
-ms.suite: ""
+title: Visual Studio code style preferences
+ms.date: 03/10/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-f1_keywords: 
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
+manager: douge
+f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.General"
   - "VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General"
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Code style preferences
 
-Code style preferences can be set for your C# and Visual Basic projects by opening the **Options** dialog box from the **Tools** menu. Select **Text Editor**, **C#** or  **Basic**, **Code Style**, **General**. Options set in this window are applicable to the local machine. Each item in the list will show a preview of the preference when selected, as shown below.
+Code style preferences can be set for your C# and Visual Basic projects by opening the **Options** dialog box from the **Tools** menu. Select **Text Editor** > **C#** or  **Basic** > **Code Style** > **General**. Options set in this window are applicable to the local machine.
 
-![Code Style options](media/code-style-quick-actions-dialog.png)
+Each item in the list shows a preview of the preference when selected:
 
-For each item, you can set the **Preference** and **Severity** using the drop downs on each line. Severity can be set to **None**, **Suggestion**, **Warning**, or **Error**, and Visual Studio will behave appropriately. If you want to use [Quick Actions](quick-actions.md) with these code styles to automatically rewrite code to the preferred style, ensure that the setting is set to something other than **None** so the light bulb icon ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png "VS2017_LightBulbSmall") will appear when the non-preferred styles are used. These preferences can then can be applied by clicking the Light Bulb icon or pressing **Ctrl + .** when your cursor is on the appropriate line of code.
+![Code style options](media/code-style-quick-actions-dialog.png)
 
-Code Style settings for .NET can also be managed with an [EditorConfig](../ide/editorconfig-code-style-settings-reference.md) file. In this case, the settings in the EditorConfig file take precedence over options selected in the **Options** dialog box. You can use an EditorConfig file to enforce and configure the coding style for your entire repo or project.
+## Preference and severity
+
+For each item, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **None**, **Suggestion**, **Warning**, or **Error**. If you want to enable [Quick Actions](../ide/quick-actions.md) for a code style, ensure that the **Severity** setting is set to something other than **None**. The Quick Actions light bulb icon ![Small Light Bulb Icon](media/vs2015_lightbulbsmall.png) apspear when a non-preferred style is used, and you can choose an option on the Quick Actions list to automatically rewrite code to the preferred style.
+
+## EditorConfig files
+
+Code style settings for .NET can also be managed with an [EditorConfig](../ide/editorconfig-code-style-settings-reference.md) file. Settings in the EditorConfig file take precedence over options selected in the **Options** dialog box. You can use an EditorConfig file to enforce and configure the coding style for your entire repo or project.
 
 ## See also
 
-[Quick Actions](quick-actions.md)  
-[.NET coding convention settings for EditorConfig](../ide/editorconfig-code-style-settings-reference.md)
+- [Quick Actions](../ide/quick-actions.md)
+- [.NET coding convention settings for EditorConfig](../ide/editorconfig-code-style-settings-reference.md)

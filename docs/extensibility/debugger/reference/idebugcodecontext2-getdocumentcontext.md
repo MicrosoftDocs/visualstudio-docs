@@ -2,21 +2,17 @@
 title: "IDebugCodeContext2::GetDocumentContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCodeContext2::GetDocumentContext"
 helpviewer_keywords: 
   - "IDebugCodeContext2::GetDocumentContext"
 ms.assetid: d552cc92-963f-43c1-949f-ae6b63a427b8
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

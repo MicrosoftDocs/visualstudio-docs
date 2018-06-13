@@ -2,12 +2,8 @@
 title: "LIB Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "reference"
 f1_keywords: 
   - "VC.Project.VCLibrarianTool.Name"
   - "VC.Project.VCLibrarianTool.TreatLibWarningsAsErrors"
@@ -26,10 +22,9 @@ helpviewer_keywords:
   - "MSBuild (Visual C++), LIB task"
   - "LIB task (MSBuild (Visual C++))"
 ms.assetid: e062c7f9-cc69-4a83-9361-1bb5355e5fe8
-caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
-manager: ghogen
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

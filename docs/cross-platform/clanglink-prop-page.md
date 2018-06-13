@@ -2,16 +2,12 @@
 title: "Clang Linker Properties (Android C++)| Microsoft Docs"
 ms.custom: ""
 ms.date: "10/23/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-mobile
+ms.topic: "conceptual"
 ms.assetid: 66e88848-116c-4eb0-bc57-183394d35b57
 author: "corob"
 ms.author: "mblome"
-manager: ghogen
+manager: douge
 f1_keywords: 
   - VC.Project.VCLinkerTool.OutputFile
   - VC.Project.VCLinkerTool.ShowProgress

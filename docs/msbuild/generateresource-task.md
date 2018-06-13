@@ -2,12 +2,8 @@
 title: "GenerateResource Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#GenerateResource"
 dev_langs: 
@@ -19,10 +15,9 @@ helpviewer_keywords:
   - "MSBuild, GenerateResource task"
   - "GenerateResource task [MSBuild]"
 ms.assetid: c0aff32f-f2cc-46f6-9c3e-a5c9f8f912b1
-caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
-manager: ghogen
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -40,7 +35,7 @@ Converts between .txt and .resx (XML-based resource format) files and common lan
 |`ExecuteAsTool`|Optional `Boolean` parameter.<br /><br /> If `true`, runs tlbimp.exe and aximp.exe from the appropriate target framework out-of-proc to generate the necessary wrapper assemblies. This parameter allows multi-targeting of `ResolveComReferences`.|  
 |`FilesWritten`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the names of all files written to disk. This includes the cache file, if any. This parameter is useful for implementations of Clean.|  
 |`MinimalRebuildFromTracking`|Optional `Boolean` parameter.<br /><br /> Gets or sets a switch that specifies whether tracked incremental build will be used. If `true`, incremental build is turned on; otherwise, a rebuild will be forced.|  
-|`NeverLockTypeAssemblies`|Optional `Boolean` parameter.<br /><br /> Gets or sets a Boolean value that specifies whether to create a new [AppDomain](https://docs.microsoft.com/dotnet/api/system.appdomain) to evaluate the resources (.resx) files (true) or to create a new [AppDomain](https://docs.microsoft.com/dotnet/api/system.appdomain) only when the resources files reference a user's assembly (false).|  
+|`NeverLockTypeAssemblies`|Optional `Boolean` parameter.<br /><br /> Gets or sets a Boolean value that specifies whether to create a new [AppDomain](/dotnet/api/system.appdomain) to evaluate the resources (.resx) files (true) or to create a new [AppDomain](/dotnet/api/system.appdomain) only when the resources files reference a user's assembly (false).|  
 |`OutputResources`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the name of the generated files, such as .resources files. If you do not specify a name, the name of the matching input file is used and the .resources file that is created is placed in the directory that contains the input file.|  
 |`PublicClass`|Optional `Boolean` parameter.<br /><br /> If `true`, creates a strongly typed resource class as a public class.|  
 |`References`|Optional `String[]` parameter.<br /><br /> References to load types in .resx files from. Resx file data elements may have a .NET type. When the .resx file is read, this must be resolved. Typically, it is resolved successfully by using standard type loading rules. If you provide assemblies in `References`, they take precedence.<br /><br /> This parameter is not required for strongly typed resources.|  

@@ -1,13 +1,10 @@
 ---
-title: "&lt;postActions&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
+title: "&lt;postActions&gt; element (Office development in Visual Studio)"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,20 +12,18 @@ helpviewer_keywords:
   - "application manifests [Office development in Visual Studio], <postActions> element"
   - "postActions element"
   - "<postActions> element"
-ms.assetid: 6e487549-fdd6-49bd-be7a-b91f1f964594
-caps.latest.revision: 16
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# &lt;postActions&gt; Element (Office Development in Visual Studio)
+# &lt;postActions&gt; element (Office development in Visual Studio)
   The `postActions` element of the `vstav3` namespace contains all the `postAction` elements that describe post-deployment actions, which run after Office solutions are installed.  
   
 ## Syntax  
   
-```  
+```xml  
 <postActions>  
   <postAction>  
     <entryPoint>  
@@ -39,7 +34,7 @@ ms.workload:
 </postActions>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `postActions` element is optional and it is in the `vstav3` namespace. There is only one `postActions` element defined in an application manifest.  
   
  The `postActions` element has no attributes.  
@@ -47,16 +42,16 @@ ms.workload:
  `postActions` has the following element.  
   
 ### postAction  
- Optional. The role of the `postAction` element in the `vstav3` namespace is defined in [&#60;postAction&#62; Element &#40;Office Development in Visual Studio&#41;](../vsto/postaction-element-office-development-in-visual-studio.md).  
+ Optional. The role of the `postAction` element in the `vstav3` namespace is defined in [&#60;postAction&#62; element &#40;Office development in Visual Studio&#41;](../vsto/postaction-element-office-development-in-visual-studio.md).  
   
-## Post-Deployment Action Example  
+## Post-deployment action example  
   
 ### Description  
- The following code example illustrates the `postActions` element in an application manifest for an Office solution deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).  
+ The following code example illustrates the `postActions` element in an application manifest for an Office solution deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
   
 ### Code  
   
-```  
+```xml  
 <vstav3:postActions>  
   <vstav3:postAction>  
     <vstav3:entryPoint   
@@ -73,9 +68,9 @@ ms.workload:
 </vstav3:postActions>  
 ```  
   
-## See Also  
- [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)   
- [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Application Manifest](/visualstudio/deployment/clickonce-application-manifest)  
+## See also  
+ [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)   
+ [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)   
+ [ClickOnce application manifest](/visualstudio/deployment/clickonce-application-manifest)  
   
   

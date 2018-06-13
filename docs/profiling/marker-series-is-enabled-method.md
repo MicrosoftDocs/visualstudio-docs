@@ -2,30 +2,25 @@
 title: "marker_series::is_enabled Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "cvmarkersobj/Concurrency::diagnostic::marker_series::is_enabled"
 helpviewer_keywords: 
   - "Concurrency::diagnostic::marker_series::is_enabled method"
 ms.assetid: 8ce4dd50-ca29-4c72-98d6-582693f7d501
-caps.latest.revision: 3
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# marker_series::is_enabled Method
+# marker_series::is_enabled method
 Determines if any session has enabled the provider.  
   
 ## Syntax  
   
-```  
+```cpp  
 bool is_enabled();  
 bool is_enabled(  
    marker_importance _Importance,  
@@ -40,12 +35,12 @@ bool is_enabled(
  `_Category`  
  Category.  
   
-## Return Value  
+## Return value  
   
 ## Requirements  
- **Header:** cvmarkersobj.h  
+ **Header:** *cvmarkersobj.h*  
   
  **Namespace:** Concurrency::diagnostic  
   
-## See Also  
- [marker_series Class](../profiling/marker-series-class.md)
+## See also  
+ [marker_series class](../profiling/marker-series-class.md)

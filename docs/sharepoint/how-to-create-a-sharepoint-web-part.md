@@ -2,12 +2,9 @@
 title: "How to: Create a SharePoint Web Part | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,24 +13,22 @@ dev_langs:
 helpviewer_keywords: 
   - "Web Parts [SharePoint development in Visual Studio], adding"
   - "Web Parts [SharePoint development in Visual Studio], creating"
-ms.assetid: 0d037522-c25e-4c24-93b7-518db0f791b7
-caps.latest.revision: 21
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Create a SharePoint Web Part
+# How to: Create a SharePoint web part
   You can create and customize a web part by adding a **Web Part** item to any SharePoint project and then editing the code file for the web part or by using a designer. For more information, see [How to: Create a SharePoint Web Part by Using a Designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md).  
   
-### To create a SharePoint Web Part  
+### To create a SharePoint web part
   
 1.  Create or open a SharePoint project.  
   
      For more information, see [SharePoint Project and Project Item Templates](../sharepoint/sharepoint-project-and-project-item-templates.md).  
   
-2.  Choose the SharePoint project node in **Solution Explorer** and then choose **Project**, **Add New Item**.  
+2.  Choose the SharePoint project node in **Solution Explorer** and then choose **Project** > **Add New Item**.  
   
 3.  In the **Add New Item** dialog box, expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -45,13 +40,13 @@ ms.workload:
   
 6.  In **Solution Explorer**, open the code file for the web part that you just created.  
   
-     For example, if the name of your web part is WebPart1, open WebPart1.vb (in Visual Basic) or WebPart1.cs (in C#).  
+     For example, if the name of your web part is *WebPart1*, open *WebPart1.vb* (in Visual Basic) or *WebPart1.cs* (in C#).  
   
 7.  In the code file, add controls to the <xref:System.Web.UI.Control.CreateChildControls%2A> method.  
   
      For an example, see [Walkthrough: Creating a Web Part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md).  
   
-## See Also  
+## See also
  [Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)   
  [How to: Create a SharePoint Web Part by Using a Designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)   
  [Walkthrough: Creating a Web Part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)   

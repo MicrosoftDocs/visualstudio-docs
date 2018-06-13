@@ -2,12 +2,8 @@
 title: "StopTrackingAndCleanup | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "conceptual"
 apiname: 
   - "StopTrackingAndCleanup"
 apilocation: 
@@ -16,10 +12,9 @@ apitype: "COM"
 helpviewer_keywords: 
   - "StopTrackingAndCleanup"
 ms.assetid: 9f8c5994-2dfc-43c3-a5fb-89b2f8990429
-caps.latest.revision: 4
-author: "kempb"
-ms.author: "kempb"
-manager: ghogen
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

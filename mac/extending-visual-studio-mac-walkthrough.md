@@ -1,9 +1,8 @@
 ---
-title: "Extending Visual Studio for Mac Walkthrough | Microsoft Docs"
+title: "Extending Visual Studio for Mac Walkthrough"
 author: asb3993
 ms.author: amburns
 ms.date: 04/14/2017
-ms.topic: article
 ms.technology: vs-ide-sdk
 ms.assetid: 7D00512B-9688-4D8D-87A7-F04F207E3D02
 ---

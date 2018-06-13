@@ -2,12 +2,9 @@
 title: "How to: Define the Type Descriptor of a Parameter | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -18,15 +15,13 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], parameter types"
   - "BDC [SharePoint development in Visual Studio], type descriptor"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], parameter types"
-ms.assetid: 7494559f-1567-4cbd-bde0-05a2ed288c3a
-caps.latest.revision: 32
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Define the Type Descriptor of a Parameter
+# How to: Define the type descriptor of a parameter
   A type descriptor contains properties that describe the data type of a parameter. A type descriptor can define a field, an entity, or a collection of entities. For more information, see [TypeDescriptor](http://msdn.microsoft.com/library/ms543392%28v=office.12%29.aspx).  
   
 ### To define the type descriptor of a parameter  
@@ -121,11 +116,10 @@ ms.workload:
   
      A new type descriptor is added as a child to the collection type descriptor. Configure this type descriptor as an entity.  
   
-## See Also  
+## See also
  [BDC Model Design Tools Overview](../sharepoint/bdc-model-design-tools-overview.md)   
  [How to: Add an Entity to a Model](../sharepoint/how-to-add-an-entity-to-a-model.md)   
  [How to: Add a Parameter to a Method](../sharepoint/how-to-add-a-parameter-to-a-method.md)   
  [How to: Define a Method Instance](../sharepoint/how-to-define-a-method-instance.md)   
  [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)  
-  
   

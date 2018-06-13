@@ -7,7 +7,7 @@ author: steved0x
 ms.manager: douge
 ms.author: sdanie
 ms.date: 12/15/2017
-ms.topic: article
+ms.topic: landing-page
 ms.prod: .net-core
 ms.assetid: 2c119a5f-0272-48c0-8d6c-806196944aea
 ms.workload: 

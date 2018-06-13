@@ -1,22 +1,17 @@
 ---
-title: "IManagedAddin::Load | Microsoft Docs"
+title: "IManagedAddin::Load"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
-helpviewer_keywords:
-ms.assetid: 3faf9312-8ab4-4960-b2e7-8ca9859a3dcf
-caps.latest.revision: 9
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+helpviewer_keywords: 
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -25,12 +20,12 @@ ms.workload:
   
 ## Syntax  
   
-```  
+```c++
 HRESULT Load([in] BSTR bstrManifestURL,   
              [in] IDispatch *pdispApplication);  
 ```  
   
-#### Parameters  
+### Parameters  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -43,11 +38,11 @@ HRESULT Load([in] BSTR bstrManifestURL,
 ## Remarks  
  A manifest is a file (typically, an XML file) that provides information that is used to help load the VSTO Add-in. For example, a manifest can specify the location of the VSTO Add-in assembly and the entry point class to instantiate when the VSTO Add-in is loaded.  
   
- The *bstrManifestURL* parameter contains the value of the `Manifest` entry under the HKEY_CURRENT_USER\Software\Microsoft\Office\\*\<application name>*\Addins\\*\<add-in ID>* registry key for the VSTO Add-in. For more information, see [IManagedAddin Interface](../vsto/imanagedaddin-interface.md).  
+ The *bstrManifestURL* parameter contains the value of the `Manifest` entry under the **HKEY_CURRENT_USER\Software\Microsoft\Office\\_\<application name>_\Addins\\_\<add-in ID>_** registry key for the VSTO Add-in. For more information, see [IManagedAddin interface](../vsto/imanagedaddin-interface.md).  
   
  Implement the [IManagedAddIn::Load](../vsto/imanagedaddin-load.md) method to perform tasks such as configuring the application domain and security policy for the VSTO Add-in that is being loaded.  
   
-## See Also  
+## See also  
  [IManagedAddin Interface](../vsto/imanagedaddin-interface.md)   
  [IManagedAddin::Unload](../vsto/imanagedaddin-unload.md)  
   

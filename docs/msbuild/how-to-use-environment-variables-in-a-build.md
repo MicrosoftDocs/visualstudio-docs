@@ -2,21 +2,16 @@
 title: "How to: Use Environment Variables in a Build | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: msbuild
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "environment variables, referencing"
   - "projects [.NET Framework], environment variables"
   - "MSBuild, environment variables"
 ms.assetid: 7f9e4469-8865-4b59-aab3-3ff26bd36e77
-caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
-manager: ghogen
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -64,6 +59,6 @@ When you build projects, it is often necessary to set build options using inform
 ```  
   
 ## See Also  
-    [MSBuild ](../msbuild/msbuild.md)
-    [MSBuild Properties](../msbuild/msbuild-properties.md)
- [How to: Build the Same Source Files with Different Options](../msbuild/how-to-build-the-same-source-files-with-different-options.md)
+[MSBuild ](../msbuild/msbuild.md)  
+[MSBuild Properties](../msbuild/msbuild-properties.md)  
+[How to: Build the Same Source Files with Different Options](../msbuild/how-to-build-the-same-source-files-with-different-options.md)  

@@ -2,12 +2,9 @@
 title: "Walkthrough: Create a Site Column, Content Type, and List for SharePoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.ListDesigner.GeneralMessageHelp"
   - "Microsoft.VisualStudio.SharePoint.Designers.ListDesigner.ViewModels.ListViewModel.SortingAndGrouping"
@@ -22,11 +19,9 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, list instances"
   - "SharePoint development in Visual Studio, fields"
   - "SharePoint development in Visual Studio, content types"
-ms.assetid: caebacc2-616c-4373-8e21-edc7979338e7
-caps.latest.revision: 54
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -83,7 +78,7 @@ ms.workload:
   
 3.  In the site column's Elements.xml file, leave the **Type** setting as **Text**, and change the **Group** setting to **Clinic Site Columns**. When complete, the site column's Elements.xml file should look like the following example.  
   
-    ```  
+    ```xml  
     <Field  
          ID="{f9ba60d1-5631-41fb-b016-a38cf48eef63}"  
          Name="Clinic - Patient Name"  

@@ -1,9 +1,9 @@
 ---
 title: "Getting Started with ASP.NET Core" 
+description: "This article describes how to get started with ASP.NET in Visual Studio for Mac, including installation and creating a new project."
 author: asb3993
 ms.author: amburns
 ms.date: 07/13/2017
-ms.topic: article
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ---
 
@@ -139,7 +139,7 @@ To add a controller, do the following:
 
 2. Add the following code to the new controller:
 
-    ```
+    ```csharp
     using System;
     using Microsoft.AspNetCore.Mvc;
     using System.Text.Encodings.Web;
@@ -228,6 +228,6 @@ Make sure to complete all four steps successfully to ensure that .NET Core is in
 
 This guide gave an introduction to ASP.NET Core. It describes what it is, when to use it, and provided information on using it in Visual Studio for Mac.
 For more information on the next steps from here, refer to the following guides:
-- [ASP.NET Core](https://docs.microsoft.com/aspnet/core/#build-web-ui-and-web-apis-using-aspnet-core-mvc) docs.
+- [ASP.NET Core](https://docs.microsoft.com/aspnet/core/?view=aspnetcore-2.1#build-web-ui-and-web-apis-using-aspnet-core-mvc) docs.
 - [Creating Backend Services for Native Mobile Applications](https://docs.microsoft.com/aspnet/core/mobile/native-mobile-backend), which shows how to build a REST service using ASP.NET Core for a Xamarin.Forms app.
 - [ASP.NET Core hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).

@@ -1,27 +1,23 @@
 ---
-title: ".NET Naming Conventions For EditorConfig | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/20/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+title: .NET Naming Conventions For EditorConfig files
+ms.date: 11/20/2017
+ms.topic: reference
+helpviewer_keywords:
   - "naming conventions [EditorConfig]"
   - "EditorConfig naming conventions"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.technology: 
-  - "vs-ide-general"
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.workload:
   - "multiple"
 ---
-# Naming Conventions for EditorConfig
+# .NET naming conventions for EditorConfig
 
-Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that public members must be capitalized, or that asynchronous methods must end in "Async". You can enforce these rules by specifying them in an [.editorconfig file](../ide/create-portable-custom-editor-options.md). Naming rule violations appear either in the Error List or as a suggestion under the name, depending on the severity you choose for your rule. There is no need to build the project in order to see violations.
+Naming conventions concern the naming of code elements such as classes, properties, and methods. For example, you can specify that public members must be capitalized, or that asynchronous methods must end in "Async". You can enforce these rules by specifying them in an [.editorconfig file](../ide/create-portable-custom-editor-options.md). Naming rule violations appear either in the **Error List** or as a suggestion under the name, depending on the severity you choose for your rule. There is no need to build the project in order to see violations.
 
-Naming conventions should be ordered from most-specific to least-specific in the .editorconfig file. The first rule encountered that can be applied is the only rule that is applied.
+Naming conventions should be ordered from most-specific to least-specific in the *.editorconfig* file. The first rule encountered that can be applied is the only rule that is applied.
 
 For each naming convention, you must specify the symbols it applies to, a naming style, and a severity for enforcing the convention, using the properties described below. The order of the properties is not important.
 
@@ -71,7 +67,7 @@ The following list shows the allowable values, and you can specify multiple valu
 - protected\_internal or protected_friend
 
 > [!NOTE]
-> You must specify an accessibility level as part of your naming convention, otherwise your naming convention might be ignored.
+> Do not specify an accessibility level as part of your naming convention if accessibility is not applicable to the kind of symbol you are targeting. For example, parameters do not have accessibility levels. If you specify an accessibility level for a parameter naming convention, your naming rule will not function correctly.
 
 ### Symbol modifiers
 
@@ -144,17 +140,17 @@ Severity | Effect
 ------------ | -------------
 none or silent | When this style is not being followed, do not show anything to the user; however, auto-generated code follows this style.
 suggestion | When this style is not being followed, show it to the user as a suggestion, as underlying dots on the first two characters. It has no effect at compile time.
-warning | When this style is not being followed, show a compiler warning in the Error List.
-error | When this style is not being followed, show a compiler error in the Error List.
+warning | When this style is not being followed, show a compiler warning in the **Error List**.
+error | When this style is not being followed, show a compiler error in the **Error List**.
 
 > [!NOTE]
-> You do not have to build your project in order to see naming rule violations. They appear as code is edited, either in the Error List or as a suggestion.
+> You do not have to build your project in order to see naming rule violations. They appear as code is edited, either in the **Error List** or as a suggestion.
 
 ## Example
 
-The following .editorconfig file contains a naming convention that specifies that public properties, methods, fields, events, and delegates must be capitalized. Notice that this naming convention specifies multiple kinds of symbol to apply the rule to, using a comma to separate the values.
+The following *.editorconfig* file contains a naming convention that specifies that public properties, methods, fields, events, and delegates must be capitalized. Notice that this naming convention specifies multiple kinds of symbol to apply the rule to, using a comma to separate the values.
 
-```
+```EditorConfig
 # Public members must be capitalized (public_members_must_be_capitalized)
 [*.{cs,vb}]
 dotnet_naming_rule.public_members_must_be_capitalized.symbols   = public_symbols
@@ -168,21 +164,22 @@ dotnet_naming_style.first_word_upper_case_style.capitalization = first_word_uppe
 dotnet_naming_rule.public_members_must_be_capitalized.severity = suggestion
 ```
 
-The following screenshot shows the effect of this naming convention in the Editor. Two public variables have been named without capitalization of the first letter. One is a `const`, and one is `readonly`. Since the naming rule only applies to *readonly* symbols, only the `readonly` variable shows a naming rule suggestion.
+The following screenshot shows the effect of this naming convention in the editor. Two public variables have been named without capitalization of the first letter. One is a `const`, and one is `readonly`. Since the naming rule only applies to `readonly` symbols, only the `readonly` variable shows a naming rule suggestion.
 
 ![Naming rule suggestion](media/editorconfig-naming-rule-suggestion.png)
 
 Now let's change the violation severity to `warning`:
 
-```
+```EditorConfig
 dotnet_naming_rule.public_members_must_be_capitalized.severity = warning
 ```
 
-If you close and reopen your code file, instead of seeing the suggestion under the name violation, you see a green squiggly, and a warning in the Error List:
+If you close and reopen your code file, instead of seeing the suggestion under the name violation, you see a green squiggly, and a warning in the **Error List**:
 
 ![Naming rule warning](media/editorconfig-naming-rule-warning.png)
 
 ## See also
 
-[.NET language and formatting conventions](../ide/editorconfig-code-style-settings-reference.md)  
-[Create portable custom editor options](../ide/create-portable-custom-editor-options.md)
+- [.NET language and formatting conventions](../ide/editorconfig-code-style-settings-reference.md)
+- [Create portable custom editor options](../ide/create-portable-custom-editor-options.md)
+- [.NET Compiler Platform's .editorconfig file](https://github.com/dotnet/roslyn/blob/master/.editorconfig)

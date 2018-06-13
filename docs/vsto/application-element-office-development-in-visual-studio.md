@@ -1,32 +1,27 @@
 ---
-title: "&lt;application&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
+title: "&lt;application&gt; element (Office development in Visual Studio)"
 ms.custom: ""
-ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.date: 02/02/2017
+ms.technology: office-development
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 dev_langs: 
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
   - "application manifests [Office development in Visual Studio], <application> element"
-ms.assetid: b8d3db7c-9127-4812-b18f-bb17e1f8788f
-caps.latest.revision: 22
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---
-# &lt;application&gt; Element (Office Development in Visual Studio)
+# &lt;application&gt; element (Office development in Visual Studio)
   The `application` element of the `vstav3` namespace wraps the description of Office solutions. The child elements are different for document-level customizations and VSTO Add-ins.  
   
-## Syntax for Document-Level Customizations  
+## Syntax for document-level customizations  
   
-```  
+```xml  
 <application>  
   <customization  
     id  
@@ -37,9 +32,9 @@ ms.workload:
 </application>  
 ```  
   
-## Syntax for Application-Level Add-Ins  
+## Syntax for application-level Add-ins  
   
-```  
+```xml
 <application>  
   <customization  
     id  
@@ -54,24 +49,24 @@ ms.workload:
 </application>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `application` element of the `vstav3` namespace is the node that wraps all the customization-specific information that is contained in the `vstov4` namespace.  
   
  The `application` element has no attributes.  
   
  The `application` element has the following element.  
   
-### customization  
+### Customization  
  The role of the `customization` element in the `vstov3` namespace is defined in [&#60;customization&#62; Element &#40;Office Development in Visual Studio&#41;](../vsto/customization-element-office-development-in-visual-studio.md).  
   
-## Document-Level Customization Example  
+## Document-level customization example  
   
 ### Description  
  The following code example illustrates an `application` element in a document-level Office solution deployed using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).  
   
 ### Code  
   
-```  
+```xml  
 <vstav3:application>  
   <vstov4:customizations   
     xmlns:vstov4="urn:schemas-microsoft-com:vsto.v4">  
@@ -83,14 +78,14 @@ ms.workload:
 </vstav3:application>  
 ```  
   
-## VSTO Add-in Example  
+## VSTO Add-in example  
   
 ### Description  
  The following code example illustrates an `application` element in an application-level Office solution deployed using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).  
   
 ### Code  
   
-```  
+```xml  
 <vstav3:application>  
   <vstov4:customizations   
     xmlns:vstov4="urn:schemas-microsoft-com:vsto.v4">  
@@ -120,9 +115,9 @@ ms.workload:
 </vstav3:application>  
 ```  
   
-## See Also  
- [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)   
- [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Application Manifest](/visualstudio/deployment/clickonce-application-manifest)  
+## See also  
+ [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)   
+ [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)   
+ [ClickOnce application manifest](/visualstudio/deployment/clickonce-application-manifest)  
   
   

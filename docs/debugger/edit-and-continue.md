@@ -2,12 +2,8 @@
 title: "Edit code and continue debugging in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/31/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.enc"
 dev_langs: 
@@ -21,10 +17,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Edit and Continue"
   - "debugger, tools for debugging"
 ms.assetid: 2cdd4531-7117-4221-a809-8447812de2a1
-caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

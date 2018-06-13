@@ -36,9 +36,11 @@ typeof[(]expression[)] ;
 ## Remarks  
  The *expression* argument is any expression for which type information is sought.  
   
- The `typeof` operator returns type information as a string. There are six possible values that `typeof` returns: "number," "string," "boolean," "object," "function," and "undefined."  
+ The `typeof` operator returns type information as a string. There are seven possible values that `typeof` returns: "number," "string," "boolean," "object," "function," "undefined," and "unknown".  
   
  The parentheses are optional in the `typeof` syntax.  
+
+ An object might return as an unknown type in an XMLHTTPRequest. A COM object with no analog in JavaScript may also return as an unknown type.
   
 ## Example  
  The following example tests the data type of variables.  

@@ -2,19 +2,15 @@
 title: "Wizards | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], providing wizard support"
 ms.assetid: 59d9a77f-ee80-474b-a14f-90f477ab717b
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
@@ -48,9 +44,6 @@ After you create a wizard, you typically want to add it to the [!INCLUDE[vsprvs]
 ## Related Sections  
  [Project Types](../../extensibility/internals/project-types.md)  
  Provides links to additional topics that offer information about how to design new project types.  
-  
- [Walkthrough: Creating a Wizard](http://msdn.microsoft.com/Library/adb41fe9-fcca-4e87-bf4f-bf2fa68e8b06)  
- Illustrates how to create a wizard.  
   
  [Extending Projects](../../extensibility/extending-projects.md)  
  Describes how to use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] projects and solutions to organize code files and resource files, and how to implement source control.

@@ -2,12 +2,8 @@
 title: "Enabling Debug Features in Visual C++ (-D_DEBUG) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug"
 dev_langs: 
@@ -25,10 +21,9 @@ helpviewer_keywords:
   - "debug builds, MFC"
   - "_DEBUG macro"
 ms.assetid: 276e2254-7274-435e-ba4d-67fcef4f33bc
-caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---

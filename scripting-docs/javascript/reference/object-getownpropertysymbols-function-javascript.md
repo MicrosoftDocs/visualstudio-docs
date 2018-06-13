@@ -49,7 +49,7 @@ obj[key] = 'data';
   
 var symbols = Object.getOwnPropertySymbols(obj);  
   
-console.log(s[0].toString());  
+console.log(symbols[0].toString());  
   
 // Output:  
 // undefined  

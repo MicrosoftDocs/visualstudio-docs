@@ -1,36 +1,61 @@
 ---
-title: "Using Rule Sets to Group Code Analysis Rules | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+title: Code analysis rule sets in Visual Studio
+ms.date: 04/02/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-code-analysis
+ms.topic: conceptual
+f1_keywords:
   - "vs.codeanalysis.rulesets.learnmore"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "code analysis, rule sets"
-ms.assetid: ed0f3a2a-1516-42e2-92de-b8986dc75d42
-caps.latest.revision: 36
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
-# Using Rule Sets to Group Code Analysis Rules
-When you configure code analysis in [!INCLUDE[vsUltLong](../code-quality/includes/vsultlong_md.md)], [!INCLUDE[vsPreLong](../code-quality/includes/vsprelong_md.md)], or [!INCLUDE[vsPro](../code-quality/includes/vspro_md.md)], you can choose from a list of Microsoft built-in *rule sets*. A rule set is a logical grouping of code analysis rules that identify targeted issues and specific conditions. For example, you can apply a rule set that is designed to scan code for publicly available APIs, or you can apply a rule set that includes only the minimum recommended rules. You can also apply a rule set that includes all the rules.  
-  
- You can customize a rule set by adding or deleting rules, or by changing rules to appear in the **Error List** window as either warnings or errors. Customized rule sets can fulfill a need for your particular development environment. When you customize a rule set, the rule set page provides search and filtering tools to help you in the process.  
-  
-## Common Tasks  
-  
-|Task|Related Content|  
-|----------|---------------------|  
-|**Get hands-on practice:** Use the code analysis tools to specify a custom rule set to find and fix issues in a simple .NET Framework application.|-   [Walkthrough: Configuring and Using a Custom Rule Set](../code-quality/walkthrough-configuring-and-using-a-custom-rule-set.md)|  
-|**Configure code analysis for a project:** Choose an existing rule set for a project, Web site, or solution.|-   [How to: Configure Code Analysis for a Managed Code Project](../code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md)<br />-   [Using Rule Sets to Specify the C++ Rules to Run](../code-quality/using-rule-sets-to-specify-the-cpp-rules-to-run.md)<br />-   [How to: Configure Code Analysis for an ASP.NET Web Application](../code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md)<br />-   [How to: Specify Rule Sets for Multiple Projects in a Solution](../code-quality/how-to-specify-managed-code-rule-sets-for-multiple-projects-in-a-solution.md)|  
-|**Customize a rule set:** Specify rules to apply to your project.|-   [Creating Custom Rule Sets](../code-quality/creating-custom-code-analysis-rule-sets.md)|  
-|**Understand the built-in rule sets:** View the code analysis rules that make up the built-in rule sets.|-   [Code analysis rule set reference](../code-quality/code-analysis-rule-set-reference.md)|  
-|**Integrate code analysis with Team Foundation Server:** [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)] check-in policies enable development teams to make sure that all code check-ins meet a common set of code analysis standards.|-   [How to: Synchronize Code Project Rule Sets with Team Project Check-in Policy](../code-quality/how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy.md)|
+# Use rule sets to group code analysis rules
+
+When you configure code analysis in Visual Studio, you can choose from a list of built-in *rule sets*. A rule set applies to a project, and is a grouping of code analysis rules that identify targeted issues and specific conditions for that project. For example, you can apply a rule set that is designed to scan code for publicly available APIs, or just the minimum recommended rules. You can also apply a rule set that includes all the rules.
+
+You can customize a rule set by adding or deleting rules, or by changing rule severities to appear as either warnings or errors in the **Error List**. Customized rule sets can fulfill a need for your particular development environment. When you customize a rule set, the rule set editor provides search and filtering tools to help you in the process.
+
+## Rule set format
+
+A rule set is specified in XML format in a *.ruleset* file. Rules, which consist of an ID and an *action*, are grouped by analyzer ID and namespace in the file.
+
+The XML contents of a *.ruleset* file looks similar to this:
+
+```xml
+<RuleSet Name="Rules for Hello World project" Description="These rules focus on critical issues for the Hello World app." ToolsVersion="10.0">
+  <Localization ResourceAssembly="Microsoft.VisualStudio.CodeAnalysis.RuleSets.Strings.dll" ResourceBaseName="Microsoft.VisualStudio.CodeAnalysis.RuleSets.Strings.Localized">
+    <Name Resource="HelloWorldRules_Name" />
+    <Description Resource="HelloWorldRules_Description" />
+  </Localization>
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1001" Action="Warning" />
+    <Rule Id="CA1009" Action="Warning" />
+    <Rule Id="CA1016" Action="Warning" />
+    <Rule Id="CA1033" Action="Warning" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.CodeQuality.Analyzers" RuleNamespace="Microsoft.CodeQuality.Analyzers">
+    <Rule Id="CA1802" Action="Error" />
+    <Rule Id="CA1814" Action="Info" />
+    <Rule Id="CA1823" Action="None" />
+    <Rule Id="CA2217" Action="Warning" />
+  </Rules>
+</RuleSet>
+```
+
+> [!TIP]
+> It is easier to [edit a rule set](../code-quality/working-in-the-code-analysis-rule-set-editor.md) in the graphical **Rule Set Editor** than by hand.
+
+The rule set for a project is specified by the `CodeAnalysisRuleSet` property in the Visual Studio project file. For example:
+
+```xml
+<CodeAnalysisRuleSet>HelloWorld.ruleset</CodeAnalysisRuleSet>
+```
+
+## See also
+
+- [Code analysis rule set reference](../code-quality/rule-set-reference.md)

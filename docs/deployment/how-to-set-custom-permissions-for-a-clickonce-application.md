@@ -2,12 +2,8 @@
 title: "How to: Set Custom Permissions for a ClickOnce Application | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,10 +12,9 @@ helpviewer_keywords:
   - "ClickOnce applications, permissions"
   - "permissions, ClickOnce applications"
 ms.assetid: 660459ca-ef73-44a8-b323-610001f63b93
-caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -47,7 +42,7 @@ You can deploy a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md
 7.  Before the `</applicationRequestMinimum>` element, add XML code for permissions that your application requires.  
   
     > [!NOTE]
-    >  You can use the `ToXml` method of a permission set to generate the XML code for the application manifest. For example, to generate the XML for the <xref:System.Security.Permissions.EnvironmentPermission> permission set, call the <xref:System.Security.Permissions.EnvironmentPermission.ToXml%2A> method. For more information about the structure of the permission set XML, see [NIB: How to: Import a Permission Set by Using an XML File](http://msdn.microsoft.com/en-us/dea16b54-c108-408a-ac36-cdc05f746236).  
+    >  You can use the `ToXml` method of a permission set to generate the XML code for the application manifest. For example, to generate the XML for the <xref:System.Security.Permissions.EnvironmentPermission> permission set, call the <xref:System.Security.Permissions.EnvironmentPermission.ToXml%2A> method.  
   
 ## See Also  
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   

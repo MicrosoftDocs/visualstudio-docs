@@ -2,21 +2,17 @@
 title: "IDebugMessageEvent2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugMessageEvent2"
 helpviewer_keywords: 
   - "IDebugMessageEvent2 interface"
 ms.assetid: a9ff3d00-e9ac-4cd6-bda9-584a4815aff8
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
@@ -48,7 +44,7 @@ IDebugMessageEvent2 : IUnknown
 ## Remarks  
  The DE will use this interface if it requires a specific response from the user for a particular message. For example, if the DE gets an "Access Denied" message after an attempt to remotely attach to a program, the DE sends this particular message to Visual Studio in an `IDebugMessageEvent2` event with the message box style `MB_RETRYCANCEL`. This allows the user to retry or cancel the attach operation.  
   
- The DE specifies how this message is to be handled by following the conventions of the Win32 function `MessageBox` (see [AfxMessageBox](http://msdn.microsoft.com/Library/d66d0328-cdcc-48f6-96a4-badf089099c8) for details).  
+ The DE specifies how this message is to be handled by following the conventions of the Win32 function `MessageBox` (see [AfxMessageBox](/cpp/mfc/reference/cstring-formatting-and-message-box-display#afxmessagebox) for details).  
   
  Use the [IDebugErrorEvent2](../../../extensibility/debugger/reference/idebugerrorevent2.md) interface to send messages to Visual Studio that do not require a response from the user.  
   

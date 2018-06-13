@@ -44,7 +44,7 @@ result = object instanceof class
  Required. Any defined object class.  
   
 ## Remarks  
- The `instanceof` operator returns `true` if `object` is an instance of `class`. It returns `true` if `true` if `class` is present in the object's prototype chain. It returns `false` if `object` is not an instance of `class`, or if `object` is `null`.  
+ The `instanceof` operator returns `true` if `object` is an instance of `class`. It returns `true` if `class` is present in the object's prototype chain. It returns `false` if `object` is not an instance of `class`, or if `object` is `null`.  
   
 ## Example  
  The following example shows how to use the `instanceof` operator.  

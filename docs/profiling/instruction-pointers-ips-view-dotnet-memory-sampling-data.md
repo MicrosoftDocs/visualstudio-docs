@@ -2,23 +2,18 @@
 title: "Instruction Pointers (IPs) View - .NET Memory Sampling Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Instruction Pointers view"
 ms.assetid: 7d91cc14-e8e9-4ebb-b14f-b9f0da770508
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# Instruction Pointers (IPs) View - .NET Memory Sampling Data
+# Instruction Pointers (IPs) View - .NET memory sampling data
 The IPs view for .NET memory allocation profiling data that was collected by using the sampling method lists the assembly instructions that allocated memory during the profiling run. Columns of the view also list the size and number of allocations.  
   
  Only exclusive values are listed.  
@@ -43,5 +38,5 @@ The IPs view for .NET memory allocation profiling data that was collected by usi
 |**Exclusive Bytes**|The number of bytes of memory that were allocated in the profiling run that were allocated by the instruction.|  
 |**Exclusive Bytes %**|The percentage of all bytes of memory that were allocated in the profiling run that were allocated by the instruction.|  
   
-## See Also  
+## See also  
  [Instruction Pointers (IPs) View](../profiling/instruction-pointers-ips-view-sampling-data.md)

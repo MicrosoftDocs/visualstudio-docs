@@ -2,22 +2,17 @@
 title: "Reference (SharePoint Tools Extensibility) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
 helpviewer_keywords: 
   - "SharePoint development in Visual Studio, reference for project and tools extensibility"
-ms.assetid: af489a35-3317-465d-9639-21df4f1ca974
-caps.latest.revision: 6
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: TerryGLee
+ms.author: tglee
+manager: douge
 ms.workload: 
   - "office"
 ---

@@ -2,21 +2,17 @@
 title: "PENDING_BP_STATE_INFO | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "PENDING_BP_STATE_INFO"
 helpviewer_keywords: 
   - "PENDING_BP_STATE_INFO structure"
 ms.assetid: 4d73ceff-43f9-4e95-8dba-88e1fab2def3
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

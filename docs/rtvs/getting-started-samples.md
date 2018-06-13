@@ -1,20 +1,15 @@
 ---
-title: "Sample projects for R Tools for Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: 06/29/2017
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "devlang-r"
-ms.devlang: r
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-caps.latest.revision: 1
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
+title: Sample R projects
+description: An index of a collection of samples to get started with R and Visual Studio.
+ms.date: 01/24/2018
+ms.prod: visual-studio-dev15
+ms.technology: vs-rtvs
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+manager: douge
 ms.workload: 
-  - "data-science"
+  - data-science
 ---
 
 # R Tools for Visual Studio sample projects

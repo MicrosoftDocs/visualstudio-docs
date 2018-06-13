@@ -65,9 +65,9 @@ proxyObj = new Proxy(target, handler)
 ```JavaScript  
 var target = {};  
 var handler = {  
-  get: function (receiver, name) {  
+  get: function (target, property, receiver) {  
     // This example includes a template string.  
-    return `Hello, ${name}!`;  
+    return `Hello, ${property}!`;  
   }  
 };  
   

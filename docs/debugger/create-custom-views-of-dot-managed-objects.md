@@ -2,12 +2,8 @@
 title: "Create custom views of managed objects | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.data.elements"
 dev_langs: 
@@ -24,10 +20,9 @@ helpviewer_keywords:
   - "debugger, expanding data types"
   - "mcee_mc.dat file"
 ms.assetid: 9969e9b2-9008-4729-8a14-0d6deaa61576
-caps.latest.revision: 34
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

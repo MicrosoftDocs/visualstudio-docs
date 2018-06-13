@@ -2,12 +2,9 @@
 title: "Expose Lists of Symbols Provided to the Object Manager | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IVsSimpleLibrary2 interface, lists of symbols"
   - "IVsLibrary2 interface, lists of symbols"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "lists, symbols for the object manager"
   - "symbols, exposing lists to the object manager"
 ms.assetid: 19757068-bdaa-4e7e-85d6-f8ce5026a859
-caps.latest.revision: 25
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
