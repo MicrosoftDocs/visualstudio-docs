@@ -1,5 +1,5 @@
 ---
-title: "Publish Node.js to Linux App Service"
+title: "Publish a Node.js app to Linux App Service"
 description: You can publish Node.js applications created in Visual Studio to Linux App Service on Azure
 ms.custom: ""
 ms.date: "06/10/2018"
@@ -15,7 +15,7 @@ ms.workload:
   - "nodejs"
 ---
 
-# Publishing a Node.js application to Azure (Linux App Service)
+# Publish a Node.js application to Azure (Linux App Service)
 
 This tutorial walks you through the task of creating a simple Node.js application and publishing it to Azure.
 
