@@ -36,7 +36,7 @@ This walkthrough illustrates the following tasks:
 - Creating a project.
 - Adding an entity to the model.
 - Adding a finder method.
-- Adding a specific finder method.
+- Adding a Specific Finder method.
 - Testing the project.
 
 ## Prerequisites
@@ -137,7 +137,7 @@ Add an entity to the model. You can add entities from the Visual Studio **Toolbo
 
 7. In the **Type Name** list, choose **System.Int32**.
 
-## Add a specific finder method
+## Add a Specific Finder method
 
 To enable the BDC service to display a specific contact, you must add a Specific Finder method. The BDC service calls the Specific Finder method when a user chooses an item in a list and then chooses the **View Item** button on the Ribbon.
 

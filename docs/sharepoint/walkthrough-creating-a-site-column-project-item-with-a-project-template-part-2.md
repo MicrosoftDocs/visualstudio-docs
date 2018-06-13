@@ -72,7 +72,7 @@ ms.workload:
   
  Start the walkthrough by creating the projects.  
   
-#### To create the wpf project
+#### To create the WPF project
   
 1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open the SiteColumnProjectItem solution.  
   
@@ -183,7 +183,7 @@ ms.workload:
   
 8.  Choose the **OK** button to add the assemblies to the project.  
   
-## Create the wizard model, signing manager, and SharePoint command ids
+## Create the wizard model, signing manager, and SharePoint command IDs
  Add code to the ProjectTemplateWizard project to implement the following components in the sample:  
   
 -   The SharePoint command IDs. These strings identify the SharePoint commands that the wizard uses. Later in this walkthrough, you'll add code to the SharePointCommands project to implement the commands.  
@@ -194,7 +194,7 @@ ms.workload:
   
  For more information about these components, see [Understanding the Wizard Components](#wizardcomponents).  
   
-#### To define the SharePoint command ids
+#### To define the SharePoint command IDs
   
 1.  In the ProjectTemplateWizard project, open the CommandIds code file, and then replace the entire contents of this file with the following code.  
   
@@ -221,7 +221,7 @@ ms.workload:
 > [!NOTE]  
 >  In the following steps, your project will have some compile errors after you add XAML or code to your project. These errors will go away when you add code in later steps.  
   
-#### To create the wizard window ui
+#### To create the wizard window UI
   
 1.  In the ProjectTemplateWizard project, open the shortcut menu for the WizardWindow.xaml file, and then choose **Open** to open the window in the designer.  
   
@@ -404,12 +404,12 @@ ms.workload:
   
 3.  Save and close the file.  
   
-## Add replaceable parameters to the elements.xml file in the project template
+## Add replaceable parameters to the Elements.xml file in the project template
  Add several replaceable parameters to the *Elements.xml* file in the SiteColumnProjectTemplate project. These parameters are initialized in the `RunStarted` method in the `SiteColumnProjectWizard` class that you defined earlier. When a user creates a Site Column project, Visual Studio automatically replaces these parameters in the *Elements.xml* file in the new project with the values that they specified in the wizard.  
   
  A replaceable parameter is a token that begins and ends with the dollar sign ($) character. In addition to defining your own replaceable parameters, you can use built-in parameters that are defined and initialized by the SharePoint project system. For more information, see [Replaceable Parameters](../sharepoint/replaceable-parameters.md).  
   
-#### To add replaceable parameters to the elements.xml file
+#### To add replaceable parameters to the Elements.xml file
   
 1.  In the SiteColumnProjectTemplate project, replace the contents of the *Elements.xml* file with the following XML.  
   

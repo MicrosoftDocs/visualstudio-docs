@@ -116,10 +116,10 @@ ms.workload:
   
      This code adds functionality for the web part's button click.  
   
-## Add the visual web part to the default aspx page
+## Add the visual web part to the default ASPX page
  Next, add the visual Web part to the site definition's default ASPX page.  
   
-#### To add a visual web part to the default aspx page
+#### To add a visual web part to the default ASPX page
   
 1.  Open the default.aspx page, and then add the following line under the `WebPartPages` tag:  
   

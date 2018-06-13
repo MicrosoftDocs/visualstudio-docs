@@ -111,7 +111,7 @@ ms.workload:
 ## Configure the projects
  Before you write code to create the extension, you must add code files and assembly references, and configure the project settings.  
   
-#### To configure the webpartnodeextension project
+#### To configure the WebPartNodeExtension project
   
 1.  In the WebPartNodeExtension project, add four code files that have the following names:  
   
@@ -200,10 +200,10 @@ ms.workload:
   
 11. Repeat the last two steps for **WebPart.ico**.  
   
-## Add the web part gallery node to Server Explorer
+## Add the Web Part Gallery node to Server Explorer
  Create a class that adds the new **Web Part Gallery** node to each SharePoint site node. To add the new node, the class implements the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNodeTypeExtension> interface. Implement this interface whenever you want to extend the behavior of an existing node in **Server Explorer**, such as adding a child node to a node.  
   
-#### To add the web part gallery node to Server Explorer
+#### To add the Web Part Gallery node to Server Explorer
   
 1.  In the WebPartNodeExtension project, open the SiteNodeExtension code file, and then paste the following code into it.  
   
@@ -235,10 +235,10 @@ ms.workload:
      [!code-vb[SPExtensibility.SPExplorer.WebPartNodeWithCommands#3](../sharepoint/codesnippet/VisualBasic/spextensibility.spexplorer.webpartnodewithcommands.webpartnode/webpartnodeextension/webpartnodeinfo.vb#3)]
      [!code-csharp[SPExtensibility.SPExplorer.WebPartNodeWithCommands#3](../sharepoint/codesnippet/CSharp/WebPartNode/webpartnodeextension/webpartnodeinfo.cs#3)]  
   
-## Define the ids for the  SharePoint Command
+## Define the IDs for the SharePoint commands
  Define several strings that identify the custom SharePoint commands. You will implement these commands later in this walkthrough.  
   
-#### To define the command ids
+#### To define the command IDs
   
 1.  In the WebPartNodeExtension project, open the WebPartCommandIds code file, and then paste the following code into it.  
   

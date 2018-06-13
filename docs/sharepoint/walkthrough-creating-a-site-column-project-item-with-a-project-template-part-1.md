@@ -190,7 +190,7 @@ ms.workload:
   
      Add these files directly to the SiteColumnProjectTemplate project; don't recreate the Field1, Features, or Package subfolders in the project. For more information about these files, see [Creating Item Templates and Project Templates for SharePoint Project Items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).  
   
-#### To configure how developers discover the project template in the new project dialog box
+#### To configure how developers discover the project template in the New Project dialog box
   
 1.  In **Solution Explorer**, open the shortcut menu for the **SiteColumnProjectTemplate** project node, and then choose **Unload Project**. If you are prompted to save changes to any files, choose the **Yes** button.  
   
@@ -235,7 +235,7 @@ ms.workload:
   
  In the following procedures, you'll add replaceable parameters to some of these files. A replaceable parameter is a token that starts and ends with the dollar sign ($) character. When a user uses this project template to create a project, Visual Studio automatically replaces these parameters in the new project with specific values. For more information, see [Replaceable Parameters](../sharepoint/replaceable-parameters.md).  
   
-#### To edit the assemblyinfo.cs or assemblyinfo.vb file
+#### To edit the AssemblyInfo.cs or AssemblyInfo.vb file
   
 1.  In the SiteColumnProjectTemplate project, open the *AssemblyInfo.cs* or *AssemblyInfo.vb* file, and then add the following statement to the top of it:  
   
@@ -251,7 +251,7 @@ ms.workload:
   
 2.  Save and close the file.  
   
-#### To edit the elements.xml file
+#### To edit the Elements.xml file
   
 1.  In the SiteColumnProjectTemplate project, replace the contents of the *Elements.xml* file with the following XML.  
   
@@ -271,7 +271,7 @@ ms.workload:
   
 2.  Save and close the file.  
   
-#### To edit the SharePointprojectitem.spdata file
+#### To edit the SharePointProjectItem.spdata file
   
 1.  In the SiteColumnProjectTemplate project, replace the contents of the *SharePointProjectItem.spdata* file with the following XML.  
   
@@ -295,7 +295,7 @@ ms.workload:
   
 2.  Save and close the file.  
   
-#### To edit the feature1.feature file
+#### To edit the Feature1.feature file
   
 1.  In the SiteColumnProjectTemplate project, replace the contents of the *Feature1.feature* file with the following XML.  
   
@@ -321,7 +321,7 @@ ms.workload:
   
 2.  Save and close the file.  
   
-#### To edit the package.package file
+#### To edit the Package.package file
   
 1.  In the SiteColumnProjectTemplate project, replace the contents of the *Package.package* file with the following XML.  
   

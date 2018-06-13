@@ -110,7 +110,7 @@ ms.workload:
 ## Configure the projects
  Before you write code to create the custom deployment step, you must add code files and assembly references, and you must configure the projects.  
   
-#### To configure the deploymentstepextension project
+#### To configure the DeploymentStepExtension project
   
 1.  In the **DeploymentStepExtension** project, add two code files that have the following names:  
   
@@ -124,7 +124,7 @@ ms.workload:
   
 4.  On the **Extensions** tab, select the check box for the Microsoft.VisualStudio.SharePoint assembly, and then choose the **OK** button.  
   
-#### To configure the SharePointcommands project
+#### To configure the SharePointCommands project
   
 1.  In the **SharePointCommands** project, add a code file that's named Commands.  
   

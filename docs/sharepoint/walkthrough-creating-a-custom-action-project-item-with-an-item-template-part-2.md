@@ -112,10 +112,10 @@ ms.workload:
      [!code-csharp[SPExtensibility.ProjectItem.CustomAction#6](../sharepoint/codesnippet/CSharp/customactionprojectitem/itemtemplatewizard/strings.cs#6)]
      [!code-vb[SPExtensibility.ProjectItem.CustomAction#6](../sharepoint/codesnippet/VisualBasic/customactionprojectitem/itemtemplatewizard/strings.vb#6)]  
   
-## Create the wizard ui
+## Create the wizard UI
  Add XAML to define the UI of the wizard, and add some code to bind some of the controls in the wizard to the ID strings. The wizard that you create resembles the built-in wizard for SharePoint projects in Visual Studio.  
   
-#### To create the wizard ui
+#### To create the wizard UI
   
 1.  In the **ItemTemplateWizard** project, open the shortcut menu for the **WizardWindow.xaml** file, and then choose **Open** to open the window in the designer.  
   
@@ -207,7 +207,7 @@ ms.workload:
   
 3.  Save and close the file.  
   
-## Add replaceable parameters to the *elements.xml* file in the item template
+## Add replaceable parameters to the *Elements.xml* file in the item template
  Add several replaceable parameters to the *Elements.xml* file in the ItemTemplate project. These parameters are initialized in the `PopulateReplacementDictionary` method in the `CustomActionWizard` class that you defined earlier. When a user adds a Custom Action project item to a project, Visual Studio automatically replaces these parameters in the *Elements.xml* file in the new project item with the values that they specified in the wizard.  
   
  A replaceable parameter is a token that starts and ends with the dollar sign ($) character. In addition to defining your own replaceable parameters, you can use built-in parameters that the SharePoint project system defines and initializes. For more information, see [Replaceable Parameters](../sharepoint/replaceable-parameters.md).  
