@@ -44,7 +44,7 @@ In this tutorial, you will:
 
 2.  Set a second breakpoint at the end of the function or region of code that you want to analyze (or after a suspected memory issue occurs).
   
-3.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug**>**Windows**>**Show Diagnostic Tools**.
+3.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
 4.  Choose **Memory Usage** with the **Select Tools** setting on the toolbar.
 

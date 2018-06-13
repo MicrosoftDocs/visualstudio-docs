@@ -45,7 +45,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
 2.  If you're running the app from Visual Studio, in the **Start Debugging** list on the **Standard** toolbar, choose the debug target for your project: either **Local Machine** or **Device**.  
   
-3.  On the menu bar, choose **Debug**>**Performance Profiler**.  
+3.  On the menu bar, choose **Debug** > **Performance Profiler**.  
   
      By default, the current startup project is analyzed. If you want to change the analysis target, choose **Change Target**.  
   

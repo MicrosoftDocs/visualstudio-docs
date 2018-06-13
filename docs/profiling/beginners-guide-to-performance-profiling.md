@@ -50,15 +50,15 @@ In this tutorial, you will:
     > [!TIP]
     > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
   
-3.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug**>**Windows**>**Show Diagnostic Tools**.
+3.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-4.  You can choose whether to see **CPU Usage**, [Memory Usage](../profiling/Memory-Usage.md), or both, with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can also enable or disable IntelliTrace in **Tools**>**Options**>**IntelliTrace**.
+4.  You can choose whether to see **CPU Usage**, [Memory Usage](../profiling/Memory-Usage.md), or both, with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can also enable or disable IntelliTrace in **Tools** > **Options** > **IntelliTrace**.
 
      ![Show Diagnostics Tools](../profiling/media/DiagToolsSelectTool.png "DiagToolsSelectTool")
 
      We will mainly be looking at CPU utilization, so make sure that **CPU Usage** is enabled (it is enabled by default).
 
-5.  Click **Debug**>**Start Debugging** (or **Start** on the toolbar, or **F5**).
+5.  Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
 
      When the app finishes loading, the Summary view of the Diagnostics Tools appears.
 
