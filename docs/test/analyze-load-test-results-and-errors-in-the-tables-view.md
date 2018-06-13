@@ -24,7 +24,7 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# Analyze load test results and errors in the tables view of the Load Test Analyzer
+# Analyze load test results and errors in the Tables view of the Load Test Analyzer
 
 When you view the results of a load test run, you can display different panes that provide you with different ways to analyze the data. You can view the data as a graph, to see how it changes over time, or you can view the data as detailed tables.
 
