@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Settings page, Project Designer
 
-Use the **Settings** page of the Project Designer to specify a project's application settings. Application settings enable you to store and retrieve property settings and other information for your application dynamically. They also enable you to maintain custom application and user preferences on a client computer. For more information, see [Application Settings](../managing-application-settings-dotnet.md).
+Use the **Settings** page of the Project Designer to specify a project's application settings. Application settings enable you to store and retrieve property settings and other information for your application dynamically. They also enable you to maintain custom application and user preferences on a client computer. For more information, see [Manage application settings](../managing-application-settings-dotnet.md).
 
 To access the **Settings** page, select a project node in **Solution Explorer**, and then select **Project** > **Properties**. When the Project Designer appears, select the **Settings** tab.
 
@@ -43,7 +43,7 @@ Properties.Settings.Default.Save();
 
 For Visual Basic projects, the **View Code** button enables you to view the code in the *Settings.vb* file. This file defines the `MySettings` class, which enables you to handle specific events on the `My.Settings` object. For more information about accessing application settings by using the `My.Settings` object, see [Access application settings](/dotnet/visual-basic/developing-apps/programming/app-settings/accessing-application-settings).
 
-For more information about accessing application settings, see [Application Settings for Windows Forms](/dotnet/framework/winforms/advanced/application-settings-for-windows-forms).
+For more information about accessing application settings, see [Application settings for Windows Forms](/dotnet/framework/winforms/advanced/application-settings-for-windows-forms).
 
 **Access modifier**
 
@@ -55,7 +55,7 @@ For Visual Basic projects, the access modifier can be **Friend** or **Public**.
 
 By default, the setting is **Internal** in C# and **Friend** in Visual Basic. When Visual Studio generates helper classes as **Internal** or **Friend**, executable (*.exe*) applications cannot access the resources and settings that you have added to class libraries (*.dll* files). If you have to share resources and settings from a class library, set the access modifier to **Public**.
 
-For more information about the settings helper classes, see [Application Settings](a65txexh\(v=vs.90\).md).
+For more information about the settings helper classes, see [Manage application settings](../managing-application-settings-dotnet.md).
 
 ## Settings grid
 
@@ -83,4 +83,5 @@ The data or value associated with the application setting. For example, if the s
 
 ## See also
 
+- [Manage application settings](../managing-application-settings-dotnet.md)
 - [Access application settings (Visual Basic)](/dotnet/visual-basic/developing-apps/programming/app-settings/accessing-application-settings)
