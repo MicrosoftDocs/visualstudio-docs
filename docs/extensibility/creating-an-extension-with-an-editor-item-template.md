@@ -27,7 +27,7 @@ You can use item templates that are included in the Visual Studio SDK to create 
   
 2.  In the **Solution Explorer**, right-click the project node and select **Add / New Item**. Go to the Visual C# **Extensibility** node and select **Editor Classifier**. Leave the default file name (EditorClassifier1.cs).  
   
-3.  There are three code files, as follows:  
+3.  There are four code files, as follows:  
   
     -   EditorClassifier1.cs contains the `EditorClassifier1` class.  
   
