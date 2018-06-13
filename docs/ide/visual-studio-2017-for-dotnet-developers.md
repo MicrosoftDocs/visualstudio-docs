@@ -1,30 +1,28 @@
 ---
-title: Visual Studio 2017 for .NET Developers
-description: "Overview of Visual Studio 2017 features to help you write better .NET code faster."
+title: Increase Your Productivity in Visual Studio 2017 for .NET Development
+description: "An overview of navigation, code analysis, unit testing, and other features to help you write better .NET code faster."
 author: "kuhlenh"
 ms.author: "kaseyu"
 manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.date: 01/16/2018
+ms.date: 06/14/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "editor"
 ms.workload:
   - "dotnet"
 ---
-# Visual Studio 2017 productivity guide for .NET developers
+# Visual Studio 2017 .NET productivity guide
 
-[Visual Studio 2017](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) makes developers more productive than ever! We improved performance and reliability for solution startup and load, test discovery, and typing latency. We’ve also added and enhanced features to help you write better code faster. Some of these features include: navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in the **Test Explorer**, Go To All (**Ctrl**+**T**) to navigate to file/type/member/symbol declarations, an intelligent **Exception Helper**, code style configuration and enforcement, and many refactorings and code fixes.
-
-Follow this guide to optimize your productivity.
+Learn how [Visual Studio 2017](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) makes developers more productive than ever. Take advantage of our performance and productivity improvements like navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in the **Test Explorer**, Go To All (**Ctrl**+**T**) to navigate to file/type/member/symbol declarations, an intelligent **Exception Helper**, code style configuration and enforcement, and many refactorings and code fixes.
 
 ##  I'm used to my keyboard shortcuts from a different extension/editor/IDE.
 
 If you are coming from another IDE or coding environment, you may find installing one of these extensions helpful:
 
-- [Emacs Emulation](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.EmacsEmulation)
 - [HotKeys for Visual Studio (ReSharper/IntelliJ)](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.HotKeys)
+- [Emacs Emulation](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.EmacsEmulation)
 - [VSVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim)
 
 The following are popular Visual Studio shortcuts:
@@ -114,7 +112,7 @@ We've added a ton of new debugging capabilities in Visual Studio 2017.
 - [Step Back](../debugger/how-to-use-intellitrace-step-back.md) debugging enables you to go back to previous breakpoints or steps and view the state of the application as it was in the past.
 - [Snapshot debugging](/azure/application-insights/app-insights-snapshot-debugger) lets you investigate the state of a live web application at the moment an exception was thrown (must be on Azure).
 
-![New Exception Helper in VS2017](../ide/media/VSGuide_Debugging.png)
+![New Exception Helper in Visual Studio 2017](../ide/media/VSGuide_Debugging.png)
 
 ## I want to use version control with my projects.
 You can use git or TFVC to store and update your code in Visual Studio.
@@ -135,8 +133,6 @@ Here is a list of editor and productivity features to make writing code more eff
 | Completion/Suggestion Mode | Changes the completion behavior in IntelliSense--developers with IntelliJ backgrounds tend to change the setting here from the default | **Menu** > **Edit** > **IntelliSense** > **Toggle Completion Mode** |
 | [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) | Displays code reference information and change history in the editor | **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens** |
 | [Code snippets](../ide/visual-csharp-code-snippets.md) | Help stub out common boilerplate |  Type a snippet name and press **Tab** twice. |
-
-![Code snippets in Visual Studio](../ide/media/VSGuide_SmartEditor.png)
 
 ## Missing a feature that makes you productive or experiencing poor performance?
 There are several ways to leave us feedback:
