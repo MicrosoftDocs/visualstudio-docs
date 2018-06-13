@@ -63,9 +63,9 @@ You can use the **Memory Usage** tool without debugging to do the following
 ###  <a name="BKMK_Memory_Usage_snapshot_views"></a> Memory Usage snapshot views  
  You use snapshot views to open detailed reports in new Visual Studio windows. There are two kinds of snapshot views:  
   
--   A [Snapshot details reports](../profiling/memory-usage-without-debugging2.md#BKMK_Snapshot_details_reports) shows the types and instances in one snapshot.  
+-   A [Snapshot details reports](#snapshot-reports) shows the types and instances in one snapshot.  
   
--   A [Snapshot difference (diff) reports](../profiling/memory-usage-without-debugging2.md#BKMK_Snapshot_difference__diff__reports) compares the types and instances in two snapshots.  
+-   A [Snapshot difference (diff) reports](snapshot-difference-diff-reports) compares the types and instances in two snapshots.  
   
  ![Snapshot view links](../profiling/media/memuse__snapshotview_numbered.png "MEMUSE__SnapshotView_Numbered")  
   
@@ -186,7 +186,7 @@ You can use the **Memory Usage** tool without debugging to do the following
 ###  <a name="BKMK_Referenced_Objects_tree__Snapshot_diff_"></a> Referenced Objects tree (Snapshot diff)  
  The **Referenced Objects** tree shows the objects that the primary type or instance references.  
   
- ![Referenced Objjects tree for instances](../profiling/media/memuse_snapshotdetails_referencedobjects_instance.png "MEMUSE_SnapshotDetails_ReferencedObjects_Instance")  
+ ![Referenced Objects tree for instances](../profiling/media/memuse_snapshotdetails_referencedobjects_instance.png "MEMUSE_SnapshotDetails_ReferencedObjects_Instance")  
   
 |||  
 |-|-|  
