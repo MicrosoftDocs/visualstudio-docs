@@ -1,5 +1,5 @@
 ---
-title: Increase Your Productivity in Visual Studio 2017 for .NET Development
+title: Increase Your Productivity in Visual Studio for .NET Development
 description: "An overview of navigation, code analysis, unit testing, and other features to help you write better .NET code faster."
 author: "kuhlenh"
 ms.author: "kaseyu"
@@ -77,6 +77,7 @@ Visual Studio 2017 comes with a lot of refactorings, code generation actions, an
   - See more in our [documentation](https://aka.ms/refactorings)
 - Write your own refactoring or code fix with [Roslyn analyzers](https://github.com/dotnet/roslyn/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix).
 - Several community members have written free extensions which add additional code inspections:
+  - [FXCop Analyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/)
   - [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2017)
   - [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2017)
   - [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/)
