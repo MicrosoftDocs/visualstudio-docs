@@ -1,7 +1,7 @@
 ---
 title: "Target Build Order | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "06/06/2018"
 ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
