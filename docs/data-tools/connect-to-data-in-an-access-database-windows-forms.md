@@ -73,7 +73,7 @@ You can connect to an Access database (either an *.mdf* file or an *.accdb* file
 
      The dataset is added to your project, and the tables and views appear in the **Data Sources** window.
 
-## Creating the dataset for an .mdb file
+## Create the dataset for an .mdb file
  You create the dataset by running the **Data Source Configuration Wizard**.
 
 #### To create the dataset
