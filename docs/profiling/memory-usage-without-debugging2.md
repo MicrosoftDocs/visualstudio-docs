@@ -65,7 +65,7 @@ You can use the **Memory Usage** tool without debugging to do the following
   
 -   A [Snapshot details reports](#snapshot-reports) shows the types and instances in one snapshot.  
   
--   A [Snapshot difference (diff) reports](snapshot-difference-diff-reports) compares the types and instances in two snapshots.  
+-   A [Snapshot difference (diff) reports](#snapshot-difference-diff-reports) compares the types and instances in two snapshots.  
   
  ![Snapshot view links](../profiling/media/memuse__snapshotview_numbered.png "MEMUSE__SnapshotView_Numbered")  
   
