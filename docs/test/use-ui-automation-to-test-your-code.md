@@ -29,7 +29,7 @@ As shown in the following illustration, a typical development experience might b
 
 Creating a coded UI test is easy. You simply perform the test manually while **Coded UI Test Builder** runs in the background. You can also specify what values should appear in specific fields. **Coded UI Test Builder** records your actions and generates code from them. After the test is created, you can edit it in a specialized editor that lets you modify the sequence of actions.
 
-Alternatively, if you have a test case that was recorded in Microsoft Test Manager, you can generate code from that. For more information, see [Record and play back manual tests](/vsts/manual-test/getting-started/record-play-back-manual-tests).
+Alternatively, if you have a test case that was recorded in Microsoft Test Manager, you can generate code from that. For more information, see [Record and play back manual tests](/vsts/test/mtm/record-play-back-manual-tests).
 
 The specialized **Coded UI Test Builder** and editor make it easy to create and edit coded UI tests, even if your main skills are concentrated in testing rather than coding. But if you are a developer and you want to extend the test in a more advanced way, the code is structured so that it is straightforward to copy and adapt. For example, you might record a test to buy something at a website, and then edit the generated code to add a loop that buys many items.
 
@@ -448,7 +448,7 @@ You can analyze Coded UI tests using coded UI test logs. Coded UI test logs filt
 
 - [Extending Coded UI Tests and Action Recordings](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)
 
-Coded UI Tests are often used to automate manual tests. For more information about manual tests, see [Run manual tests with Microsoft Test Manager](/vsts/manual-test/mtm/run-manual-tests-with-microsoft-test-manager). For more information about automated tests, see [Testing tools in Visual Studio](../test/improve-code-quality.md).
+Coded UI Tests are often used to automate manual tests. For more information about manual tests, see [Run manual tests with Microsoft Test Manager](/vsts/test/mtm/run-manual-tests-with-microsoft-test-manager). For more information about automated tests, see [Testing tools in Visual Studio](../test/improve-code-quality.md).
 
 ## See also
 
