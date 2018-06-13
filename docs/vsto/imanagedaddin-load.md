@@ -20,7 +20,7 @@ ms.workload:
   
 ## Syntax  
   
-```c++
+```csharp
 HRESULT Load([in] BSTR bstrManifestURL,   
              [in] IDispatch *pdispApplication);  
 ```  

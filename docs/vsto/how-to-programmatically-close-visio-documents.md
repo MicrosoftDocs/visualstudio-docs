@@ -28,7 +28,7 @@ ms.workload:
   
 -   Call the `Microsoft.Office.Interop.Visio.Document.Close` method to close the active document.  
   
-     To use the following code example, run it in the `ThisAddIn` class in an VSTO Add-in project for Visio.  
+     To use the following code example, run it in the `ThisAddIn` class in a VSTO Add-in project for Visio.  
   
      [!code-csharp[Trin_VstcoreVisioAutomationAddIn#7](../vsto/codesnippet/CSharp/trin_vstcorevisioautomationaddin/ThisAddIn.cs#7)]
      [!code-vb[Trin_VstcoreVisioAutomationAddIn#7](../vsto/codesnippet/VisualBasic/trin_vstcorevisioautomationaddin/ThisAddIn.vb#7)]  

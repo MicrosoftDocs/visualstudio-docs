@@ -37,7 +37,7 @@ ms.workload:
      [!code-vb[Trin_VstcoreWordAutomation#99](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#99)]
      [!code-csharp[Trin_VstcoreWordAutomation#99](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#99)]  
   
-## To display the number of characters in an VSTO Add-in  
+## To display the number of characters in a VSTO Add-in  
   
 1.  Select the entire document. The following example selects the active document.  
   

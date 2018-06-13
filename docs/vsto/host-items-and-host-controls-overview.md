@@ -74,7 +74,7 @@ ms.workload:
  Host items cannot be created programmatically in document-level projects. Instead, use the `ThisDocument`, `ThisWorkbook`, or `Sheet`*n* classes that Visual Studio automatically generates in your project at design time. These generated classes derive from the host items, and they provide an entry point for your code. For more information, see [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md).  
   
 ### Understand host items in VSTO Add-in projects  
- When you create an VSTO Add-in, you do not have access to any host items by default. However, you can generate <xref:Microsoft.Office.Tools.Word.Document>, <xref:Microsoft.Office.Tools.Excel.Workbook>, and <xref:Microsoft.Office.Tools.Excel.Worksheet> host items in Word and Excel VSTO Add-ins at runtime.  
+ When you create a VSTO Add-in, you do not have access to any host items by default. However, you can generate <xref:Microsoft.Office.Tools.Word.Document>, <xref:Microsoft.Office.Tools.Excel.Workbook>, and <xref:Microsoft.Office.Tools.Excel.Worksheet> host items in Word and Excel VSTO Add-ins at runtime.  
   
  After you generate a host item, you can perform tasks such as adding controls to documents. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).  
   
@@ -103,7 +103,7 @@ ms.workload:
   
  Host controls that are added to Office documents behave like the native Office objects; however, host controls have additional functionality, including events and data-binding capabilities. For example, when you want to capture the events of a native <xref:Microsoft.Office.Interop.Excel.Range> object in Excel, you must first handle the change event of the worksheet. Then you must determine whether the change occurred within the <xref:Microsoft.Office.Interop.Excel.Range>. In contrast, the <xref:Microsoft.Office.Tools.Excel.NamedRange> host control has a <xref:Microsoft.Office.Tools.Excel.NamedRange.Change> event that you can handle directly.  
   
- The relationship between a host item and host controls is very similar to the relationship between a Windows Form and Windows Forms controls. Just as you would place a text box control on a Windows Form, you place a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on a <xref:Microsoft.Office.Tools.Excel.Worksheet> host item. The following illustration shows the relationship between host items and host controls.  
+ The relationship between a host item and host controls is similar to the relationship between a Windows Form and Windows Forms controls. Just as you would place a text box control on a Windows Form, you place a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on a <xref:Microsoft.Office.Tools.Excel.Worksheet> host item. The following illustration shows the relationship between host items and host controls.  
   
  ![Relationship between host items and host controls](../vsto/media/hostitemscontrols.png "Relationship between host items and host controls")  
   

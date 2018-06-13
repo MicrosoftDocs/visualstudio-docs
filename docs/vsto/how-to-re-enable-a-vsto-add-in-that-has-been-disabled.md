@@ -26,7 +26,7 @@ ms.workload:
  [!INCLUDE[appliesto_allapp](../vsto/includes/appliesto-allapp-md.md)]  
   
 ## Hard-disabled VSTO Add-ins  
- Hard disabling can occur when an VSTO Add-in causes the application to close unexpectedly. It might also occur on your development computer if you stop the debugger while the <xref:Microsoft.Office.Tools.AddIn.Startup> event handler in your VSTO Add-in is executing.  
+ Hard disabling can occur when a VSTO Add-in causes the application to close unexpectedly. It might also occur on your development computer if you stop the debugger while the <xref:Microsoft.Office.Tools.AddIn.Startup> event handler in your VSTO Add-in is executing.  
   
 ### To re-enable a VSTO Add-in  
   
@@ -52,7 +52,7 @@ ms.workload:
 > [!NOTE]  
 >  When you re-enable a soft-disabled VSTO Add-in, the application immediately attempts to load the VSTO Add-in. If the problem that initially caused the application to soft disable the VSTO Add-in has not been fixed, the application will soft disable the VSTO Add-in again.  
   
-### To re-enable an VSTO Add-in  
+### To re-enable a VSTO Add-in  
   
 1.  In the application, click the **File** tab.  
   
