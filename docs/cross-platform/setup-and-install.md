@@ -38,7 +38,7 @@ Install Visual 2017 on a physical Windows computer (not a virtual machine) runni
 
 ### For targeting iOS
 
-To target iOS emulators and devices from your Windows computer, you'll also need a networked Mac or Mac mini running macOS 10.12 or later, and Xcode 8.3. See [Setup and Install Visual Studio for Mac](/visualstudio/mac/installation.md) for more detailed requirements.
+To target iOS emulators and devices from your Windows computer, you'll also need a networked Mac or Mac mini running macOS 10.12 or later, and Xcode 8.3. See [Setup and Install Visual Studio for Mac](/visualstudio/mac/installation) for more detailed requirements.
 
 <a name="windows" /> 
 

@@ -54,7 +54,7 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
 |**Parent**|The ID of the task that created this task. If this is blank, the task has no parent. This is only applicable for managed programs.|  
 |**Thread Assignment**|The ID and name of the thread on which the task is running.|  
 |**AppDomain**|For managed code, the application domain in which the task is executing.|  
-|**task_group**|For native code, the address of the [task_group](/cpp/parallel/concrt/reference/task-group-class.mdd) object that scheduled the task. For asynchronous agents and lightweight tasks, this column is set to 0.|  
+|**task_group**|For native code, the address of the [task_group](/cpp/parallel/concrt/reference/task-group-class) object that scheduled the task. For asynchronous agents and lightweight tasks, this column is set to 0.|  
 |**Process**|The ID of the process that the task is running on.|  
   
  You can add columns to the view by right-clicking a column heading and then selecting the columns you want. (Remove columns by clearing the selections.) You can also reorder columns by dragging them left or right. The column shortcut menu is shown in the following illustration.  

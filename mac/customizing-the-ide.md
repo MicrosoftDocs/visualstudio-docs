@@ -20,7 +20,7 @@ You can switch themes in Visual Studio for Mac by browsing to **Visual Studio > 
 
 ## Localization
 
-Visual Studio for Mac is localized in the following 13 languages, enabling it to be accessible to more developers:
+Visual Studio for Mac is localized in the following 14 languages, enabling it to be accessible to more developers:
 
 * Chinese - China
 * Chinese - Taiwan
@@ -31,6 +31,7 @@ Visual Studio for Mac is localized in the following 13 languages, enabling it to
 * Italian
 * Japanese
 * Korean
+* Polish
 * Portuguese - Brazil
 * Russian
 * Spanish
