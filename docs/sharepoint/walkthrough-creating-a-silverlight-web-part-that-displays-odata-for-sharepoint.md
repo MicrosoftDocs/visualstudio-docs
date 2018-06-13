@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Creating a Silverlight Web Part that Displays OData for SharePoint
+# Walkthrough: Create a Silverlight web part that displays OData for SharePoint
   SharePoint 2010 exposes its list data by means of OData. In SharePoint, the OData service is implemented by the RESTful service ListData.svc. This walkthrough shows how to create a SharePoint web part that hosts a Silverlight application. The Silverlight application displays SharePoint Announcement list information by using ListData.svc. For more information, see [SharePoint Foundation REST Interface](http://go.microsoft.com/fwlink/?LinkId=225999) and [Open Data Protocol](http://go.microsoft.com/fwlink/?LinkId=226000).  
   
  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
@@ -28,15 +28,15 @@ ms.workload:
   
 -   [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)].  
   
-##  Creating a Silverlight Application and Silverlight Web Part  
+## Create a Silverlight application and Silverlight web part
  First, create a Silverlight application in Visual Studio. The Silverlight application retrieves data from the SharePoint Announcements list by using the ListData.svc service.  
   
 > [!NOTE]  
 >  No versions of Silverlight before 4.0 support the required interfaces for referencing SharePoint list data.  
   
-#### To create a Silverlight Application and Silverlight web part  
+#### To create a Silverlight application and Silverlight web part
   
-1.  On the menu bar, choose **File**, **New**, **Project** to display the **New Project** dialog box.  
+1.  On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.  
   
 2.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
@@ -60,10 +60,10 @@ ms.workload:
   
      The solution contains two projects: a Silverlight application and a Silverlight web part. The Silverlight application retrieves and displays the list data from SharePoint, and the Silverlight web part hosts the Silverlight application, enabling you to view it in SharePoint.  
   
-##  Customizing the Silverlight Application  
+## Customize the Silverlight application
  Add code and design elements to the Silverlight application.  
   
-#### To customize the Silverlight Application  
+#### To customize the Silverlight application
   
 1.  Add an assembly reference to System.Windows.Data in the Silverlight application. For more information, see [How to: Add or Remove References By Using the Add Reference Dialog Box](http://msdn.microsoft.com/en-us/3bd75d61-f00c-47c0-86a2-dd1f20e231c9).  
   
@@ -78,9 +78,9 @@ ms.workload:
   
 4.  Choose the **OK** button to add the service reference to the project, and use the default service name, ServiceReference1.  
   
-5.  On the menu bar, choose **Build**, **Build Solution**.  
+5.  On the menu bar, choose **Build** > **Build Solution**.  
   
-6.  Add a new data source to the project based on the SharePoint service. To do this, on the menu bar, choose **View**, **Other Windows**, **Data Sources**.  
+6.  Add a new data source to the project based on the SharePoint service. To do this, on the menu bar, choose **View** > **Other Windows** > **Data Sources**.  
   
      The **Data Sources** window shows all of the available SharePoint list data, such as Tasks, Announcements, and Calendar.  
   
@@ -90,7 +90,7 @@ ms.workload:
   
 8.  Resize the grid control to fit the Silverlight page.  
   
-9. In the MainPage.xaml code file (MainPage.xaml.cs for Visual C# or MainPage.xaml.vb for Visual Basic), add the following namespace references.  
+9. In the MainPage.xaml code file (*MainPage.xaml.cs* for Visual C# or *MainPage.xaml.vb* for Visual Basic), add the following namespace references.  
   
     ```vb  
     ' Add the following three Imports statements.  
@@ -187,7 +187,7 @@ ms.workload:
     }  
     ```  
        
-## Modifying the Silverlight Web Part  
+## Modify the Silverlight web part
  Change a property in the Silverlight web part project to enable Silverlight debugging.  
   
 #### To modify the Silverlight web part  
@@ -200,12 +200,12 @@ ms.workload:
   
 4.  Save the project.  
   
-##  Testing the Silverlight Web Part  
+## Test the Silverlight web part
  Test the new Silverlight web part in SharePoint to ensure that it displays the SharePoint list data properly.  
   
 #### To test the Silverlight web part  
   
-1.  Choose the F5 key to build and run the SharePoint solution.  
+1.  Choose the **F5** key to build and run the SharePoint solution.  
   
 2.  In SharePoint, on the **Site Actions** menu, choose **New Page**.  
   
@@ -226,7 +226,7 @@ ms.workload:
     > [!NOTE]  
     >  When accessing data in Silverlight across domains, Silverlight guards against security vulnerabilities that can be used to exploit web applications. If you encounter problems when accessing remote data in Silverlight, see [Making a Service Available Across Domain Boundaries](http://go.microsoft.com/fwlink/?LinkId=223276).  
   
-## See Also  
+## See also
  [Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)   
  [Deploying, Publishing, and Upgrading SharePoint Solution Packages](../sharepoint/deploying-publishing-and-upgrading-sharepoint-solution-packages.md)  
   
