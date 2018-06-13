@@ -31,7 +31,7 @@ ms.workload:
   
 -   [Full list of primary interop assemblies for Microsoft Office applications](#pialist)  
   
- For more information about primary interop assemblies, see [Primary interop assemblies](http://msdn.microsoft.com/en-us/b977a8be-59a0-40a0-a806-b11ffba5c080).  
+ For more information about primary interop assemblies, see [Primary interop assemblies](http://msdn.microsoft.com/b977a8be-59a0-40a0-a806-b11ffba5c080).  
   
 ##  <a name="separateassemblies"></a> Separate primary interop assemblies to build and run projects  
  Visual Studio uses different sets of the PIAs on the development computer. These different sets of assemblies are in the following locations:  

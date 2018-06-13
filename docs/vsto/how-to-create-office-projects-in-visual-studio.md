@@ -81,7 +81,7 @@ ms.workload:
 7. Choose the **OK** button.
   
     > [!NOTE]  
-    >  Add-in projects are always saved when they are created. They cannot be created as temporary projects. For more information about temporary projects, see [Temporary projects](http://msdn.microsoft.com/en-us/9cf1944c-7045-44cc-8701-7b0eb4099f2b).  
+    >  Add-in projects are always saved when they are created. They cannot be created as temporary projects. For more information about temporary projects, see [Temporary projects](http://msdn.microsoft.com/9cf1944c-7045-44cc-8701-7b0eb4099f2b).  
   
 ### To create a document-level customization project  
   

@@ -82,7 +82,7 @@ ms.workload:
  If you want to use ClickOnce to deploy your VSTO Add-in, you can delete the Setup or InstallShield Limited Edition project entirely. For more information about deploying VSTO Add-ins by using ClickOnce, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).  
   
 ## See also  
- [How to: Upgrade Office solutions](http://msdn.microsoft.com/en-us/a269e539-b717-4680-a568-2152b070347e)   
+ [How to: Upgrade Office solutions](http://msdn.microsoft.com/a269e539-b717-4680-a568-2152b070347e)   
  [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md)   
  [Project Upgrade, Options dialog box](../vsto/project-upgrade-options-dialog-box.md)  
   

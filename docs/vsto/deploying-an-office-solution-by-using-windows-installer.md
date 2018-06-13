@@ -524,7 +524,7 @@ To modify custom properties, you create a program that removes the document-leve
   
   
 ## See also  
-[Office solution prerequisites for deployment](http://msdn.microsoft.com/en-us/library/9f672809-43a3-40a1-9057-397ce3b5126e)  
+[Office solution prerequisites for deployment](http://msdn.microsoft.com/library/9f672809-43a3-40a1-9057-397ce3b5126e)  
 [Deploy an Office solution](../vsto/deploying-an-office-solution.md)  
 [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md)  
 [Custom document properties overview](../vsto/custom-document-properties-overview.md)  

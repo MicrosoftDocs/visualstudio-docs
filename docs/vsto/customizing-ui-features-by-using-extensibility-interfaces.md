@@ -65,7 +65,7 @@ ms.workload:
  [!code-vb[Trin_SimpleExtensibilityInterface#1](../vsto/codesnippet/VisualBasic/Trin_SimpleExtensibilityInterface/ThisAddIn.vb#1)]
  [!code-csharp[Trin_SimpleExtensibilityInterface#1](../vsto/codesnippet/CSharp/Trin_SimpleExtensibilityInterface/ThisAddIn.cs#1)]  
   
- For more information about implementing <xref:Microsoft.Office.Core.ICustomTaskPaneConsumer>, see [Create custom task panes in the 2007 Office system](http://msdn.microsoft.com/en-us/256313db-18cc-496c-a961-381ed9ca94be) in the Microsoft Office documentation.  
+ For more information about implementing <xref:Microsoft.Office.Core.ICustomTaskPaneConsumer>, see [Create custom task panes in the 2007 Office system](http://msdn.microsoft.com/256313db-18cc-496c-a961-381ed9ca94be) in the Microsoft Office documentation.  
   
 ### Example of overriding the RequestService method  
  The following code example demonstrates how to override the <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> method to return an instance of the `TaskPaneHelper` class from the previous code example. It checks the value of the *serviceGuid* parameter to determine which interface is being requested, and then returns an object that implements that interface.  

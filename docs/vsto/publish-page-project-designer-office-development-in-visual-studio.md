@@ -26,7 +26,7 @@ ms.workload:
  To access this page, select the project in **Solution Explorer**, and then, on the **Project** menu, choose *Projectname* **Properties**. If the **Publish** page is not displayed, choose the **Publish** tab.  
   
 > [!NOTE]  
->  You can also set the publishing location in the **Publish Wizard**. For more information, see [How to: Publish an Office solution by using ClickOnce](http://msdn.microsoft.com/en-us/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8).  
+>  You can also set the publishing location in the **Publish Wizard**. For more information, see [How to: Publish an Office solution by using ClickOnce](http://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8).  
   
 ## UIElement list  
  **Publishing Folder Location (web site, ftp server, or file path)**  
@@ -49,7 +49,7 @@ ms.workload:
   
  If the installation files are in a location relative to the document or Setup program, such as with the CD option, leave this box blank.  
   
- This value can be assigned later by an administrator. For more information, see [How to: Change the installation path of an Office solution](http://msdn.microsoft.com/en-us/d0eaa07b-2d72-4902-899f-2f9fb165b8fd).  
+ This value can be assigned later by an administrator. For more information, see [How to: Change the installation path of an Office solution](http://msdn.microsoft.com/d0eaa07b-2d72-4902-899f-2f9fb165b8fd).  
   
  **Prerequisites**  
  The prerequisites can be included with the Setup program or downloaded on demand during installation.  
@@ -108,6 +108,6 @@ This option sets the language of the Microsoft Software License Terms, and inclu
 ## See also  
  [Deploy an Office solution](../vsto/deploying-an-office-solution.md)   
  [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)   
- [Office solution prerequisites for deployment](http://msdn.microsoft.com/en-us/9f672809-43a3-40a1-9057-397ce3b5126e)  
+ [Office solution prerequisites for deployment](http://msdn.microsoft.com/9f672809-43a3-40a1-9057-397ce3b5126e)  
   
   
