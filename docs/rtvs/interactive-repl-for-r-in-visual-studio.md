@@ -45,7 +45,7 @@ Here is the interactive window with its toolbar:
 
 ![Interactive window with toolbar](media/repl-window.png)
 
-The toolbar commands are as follows, most of which have keyboard equivalents and are also available on the **R Tools**>**Session** and **R Tools**>**Working Directory** menus (or as noted):
+The toolbar commands are as follows, most of which have keyboard equivalents and are also available on the **R Tools** > **Session** and **R Tools** > **Working Directory** menus (or as noted):
 
 | Button | Command | Key combination | Description | 
 | --- | --- | --- | --- |
@@ -57,7 +57,7 @@ The toolbar commands are as follows, most of which have keyboard equivalents and
 | ![Source R script button](media/repl-toolbar-06-source-r-script.png) | Source R Script | **Ctrl**+**Shift**+**S** | Calls `source` with the currently active R script in the Visual Studio editor, which runs the code.  This button appears only when an R file is open in the Visual Studio editor. | 
 | ![Source R script with echo button](media/repl-toolbar-07-source-r-script-with-echo.png) | Source R Script with Echo | **Ctrl**+**Shift**+**Enter** | Same as Source R Script but displays the script's contents in the interactive window. | 
 | ![Interrupt R button](media/repl-toolbar-08-interrupt-r.png)| Interrupt R | **Esc** | Stops any running code in the interactive window, such as the `while` loop in the screenshot shows at the beginning of this section. |
-| ![Attach debugger button](media/repl-toolbar-09b-attach-debugger.png)| Attach Debugger | n/a | Also available using the **Debug**>**Attach to R Interactive** command. | 
+| ![Attach debugger button](media/repl-toolbar-09b-attach-debugger.png)| Attach Debugger | n/a | Also available using the **Debug** > **Attach to R Interactive** command. | 
 | ![Set working directory to source file location button](media/repl-toolbar-10-set-working-directory-source.png)| Set Working Directory to Source File Location | **Ctrl**+**Shift**+**E** | Sets the working directory to the most recently sourced file loaded to the interactive window (using `source`). See [Working directory](#working-directory). |
 | ![Set working directory to project location button](media/repl-toolbar-11-set-working-directory-to-project.png) | Set Working Directory to Project Location | **Ctrl**+**Shift**+**P** | Sets the working directory to the root of the currently loaded project in Visual Studio. See [Working directory](#working-directory). |
 | (Text field) | Select Working Directory | n/a | Direct input field for the working directory. See [Working directory](#working-directory). |
@@ -66,17 +66,17 @@ The toolbar commands are as follows, most of which have keyboard equivalents and
 
 Running code in the interactive window builds up a context in your current session. The context is composed of global variables, function definitions, library loads, and so forth. This context is collectively called a *workspace*, and you can save and load workspaces at any time. 
 
-Selecting the **Save Workspace As** button or using the **R Tools**>**Session**>**Save Workspace As** command prompts you for a location and filename (default extension is `.RData`).
+Selecting the **Save Workspace As** button or using the **R Tools** > **Session** > **Save Workspace As** command prompts you for a location and filename (default extension is `.RData`).
 
 To save a Workspace using a specific filename (the default is `.RData`), click on the **Save Workspace** button in the REPL:
 
-To reload a previously saved workspace, select the **Load Workspace** button or use **R Tools**>**Session**>**Load Workspace** and navigate to the workspace file.
+To reload a previously saved workspace, select the **Load Workspace** button or use **R Tools** > **Session** > **Load Workspace** and navigate to the workspace file.
 
-The **Reset** button or **R Tools**>**Session**>**Reset** clears the session context. If you're using a remote session, resetting also deletes the user profile on the remote machine to clear off all files stored there. (See [Workspaces](r-workspaces-in-visual-studio.md#directories-on-local-and-remote-computers).)
+The **Reset** button or **R Tools** > **Session** > **Reset** clears the session context. If you're using a remote session, resetting also deletes the user profile on the remote machine to clear off all files stored there. (See [Workspaces](r-workspaces-in-visual-studio.md#directories-on-local-and-remote-computers).)
 
 ## Working directory
 
-Developers commonly want to change their working directory while in an interactive session. Various commands, available on the toolbar, the **R Tools**>**Working directory** menu, and the project context menu allows you to easily set a working directory to the location of a source file, the location or your project, or any other arbitrary location. Doing so helps you avoid typing out full pathnames or lengthy relative pathnames when referring to files.
+Developers commonly want to change their working directory while in an interactive session. Various commands, available on the toolbar, the **R Tools** > **Working directory** menu, and the project context menu allows you to easily set a working directory to the location of a source file, the location or your project, or any other arbitrary location. Doing so helps you avoid typing out full pathnames or lengthy relative pathnames when referring to files.
 
 ## History
 

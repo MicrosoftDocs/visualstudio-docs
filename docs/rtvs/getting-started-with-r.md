@@ -19,8 +19,8 @@ Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](ins
 ## Create an R project
 
 1. Start Visual Studio.
-1. Choose **File**>**New**>**Project** (**Ctrl**+**Shift**+**N**)
-1. Select "R Project" from under **Templates**>**R**, give the project a name and location, and select **OK**:
+1. Choose **File** > **New** > **Project** (**Ctrl**+**Shift**+**N**)
+1. Select "R Project" from under **Templates** > **R**, give the project a name and location, and select **OK**:
 
    ![New Project dialog box for R in Visual Studio (RTVS in VS2017)](media/getting-started-01-new-project.png)
 
@@ -31,7 +31,7 @@ Once you have R Tools for Visual Studio (RTVS) installed (see [Installation](ins
     - On the bottom left is the **R Interactive** window in which you can interactively develop and test code.
 
 > [!Note]
-> You can use the **R Interactive** window without having any projects open, and even when a different project type is loaded. Just select **R Tools**>**Windows**>**R Interactive** at any time.
+> You can use the **R Interactive** window without having any projects open, and even when a different project type is loaded. Just select **R Tools** > **Windows** > **R Interactive** at any time.
 
 ## Explore the Interactive Window and IntelliSense
 
@@ -132,13 +132,13 @@ There's more you can do in the editor. For details, see [Edit R code in Visual S
 
 One of the key strengths of Visual Studio is its debugging UI. RTVS builds on top of this strong foundation and adds innovative UI such as the [Variable Explorer](variable-explorer.md). Here, let's just take a first look at debugging.
 
-1. To begin, reset the current workspace to clear everything you've done so far by using the **R Tools**>**Session**>**Reset** menu command. By default, everything you do in the interactive window accrues to the current session, which is then also used by the debugger. By resetting the session, you ensure that the debugging session starts with no pre-existing data. The **Reset** command, however, doesn't affect your `script.R` source file, because that's managed and saved outside of the workspace.
+1. To begin, reset the current workspace to clear everything you've done so far by using the **R Tools** > **Session** > **Reset** menu command. By default, everything you do in the interactive window accrues to the current session, which is then also used by the debugger. By resetting the session, you ensure that the debugging session starts with no pre-existing data. The **Reset** command, however, doesn't affect your `script.R` source file, because that's managed and saved outside of the workspace.
 
-1. With the `script.R` file created in the previous section, set a breakpoint on the line that begins with `pop <-` by placing the caret on that line and then pressing **F9**, or selecting the **Debug**>**Toggle Breakpoint** menu command. Alternately, simply click in the left-hand margin (or gutter) for that line where the red breakpoint dot appears:
+1. With the `script.R` file created in the previous section, set a breakpoint on the line that begins with `pop <-` by placing the caret on that line and then pressing **F9**, or selecting the **Debug** > **Toggle Breakpoint** menu command. Alternately, simply click in the left-hand margin (or gutter) for that line where the red breakpoint dot appears:
 
     ![Setting a breakpoint in the editor](media/getting-started-11-debug1.png)
 
-1. Launch the debugger with the code in `script.R` by either selecting the **Source startup file** button on the toolbar, selecting the **Debug**>**Source startup file** menu items, or pressing **F5**. Visual Studio enters its debugging mode and starts running the code. It stops, however, on the line where you set the breakpoint:
+1. Launch the debugger with the code in `script.R` by either selecting the **Source startup file** button on the toolbar, selecting the **Debug** > **Source startup file** menu items, or pressing **F5**. Visual Studio enters its debugging mode and starts running the code. It stops, however, on the line where you set the breakpoint:
 
     ![Stopping on a breakpoint in the Visual Studio debugger](media/getting-started-12-debug2.png)
 
@@ -146,7 +146,7 @@ One of the key strengths of Visual Studio is its debugging UI. RTVS builds on to
 
     ![Debug toolbar in Visual Studio](media/getting-started-13-debug3.png)
 
-1. When stopped at a breakpoint, you can examine the values of variables. Locate the **Autos** window in Visual Studio and select the tab along the bottom named **Locals**. The **Locals** window shows local variables at the current point in the program. If you're stopped on the breakpoint set earlier, you see that the `pop` variable isn't yet defined. Now use the **Debug**>**Step Over** command (**F10**), and you see the value for `pop` appear:
+1. When stopped at a breakpoint, you can examine the values of variables. Locate the **Autos** window in Visual Studio and select the tab along the bottom named **Locals**. The **Locals** window shows local variables at the current point in the program. If you're stopped on the breakpoint set earlier, you see that the `pop` variable isn't yet defined. Now use the **Debug** > **Step Over** command (**F10**), and you see the value for `pop` appear:
 
     ![Locals window in Visual Studio](media/getting-started-14-debug4.png)
 

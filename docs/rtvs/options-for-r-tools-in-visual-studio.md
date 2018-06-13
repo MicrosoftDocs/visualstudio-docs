@@ -19,18 +19,18 @@ ms.workload:
 
 # R Tools for Visual Studio options
 
-Settings are accessed through the **R Tools**>**Options** menu, or through **Tools**>**Options** and scrolling to **R Tools**:
+Settings are accessed through the **R Tools** > **Options** menu, or through **Tools** > **Options** and scrolling to **R Tools**:
 
   ![Options dialog for R Tools](media/options-dialog.png)
 
 Options and settings specific to R are accessed using the methods below. You must select the **Show all settings** box at the bottom of the **Options** dialog box for all of these sections to appear.
 
-- Code formatting options (see [Editor options](editing-r-code-in-visual-studio.md#editor-options): **Tools**>**Options** menu, then select **Text Editor**>**R**>**Formatting**
-- Linting options (see [Linting R code in Visual Studio](linting-r-code.md)): **Tools**>**Options** menu, then select **Text Editor**>**R**>**Lint**
-- Advanced editor options ([described in this article](#text-editor--r--advanced-options)): **Tools**>**Options** menu, then select **Text Editor**>**R**>**Advanced**
-- Behavioral options ([described in this article](#r-tools--advanced-options)): **R Tools**>**Options** menu, or **Tools**>**Options**, then scroll to **R Tools**.
+- Code formatting options (see [Editor options](editing-r-code-in-visual-studio.md#editor-options): **Tools** > **Options** menu, then select **Text Editor** > **R** > **Formatting**
+- Linting options (see [Linting R code in Visual Studio](linting-r-code.md)): **Tools** > **Options** menu, then select **Text Editor** > **R** > **Lint**
+- Advanced editor options ([described in this article](#text-editor--r--advanced-options)): **Tools** > **Options** menu, then select **Text Editor** > **R** > **Advanced**
+- Behavioral options ([described in this article](#r-tools--advanced-options)): **R Tools** > **Options** menu, or **Tools** > **Options**, then scroll to **R Tools**.
 
-The **R Tools**>**Data Science Settings** command affects also a number of different settings in Visual Studio overall. This command is described in the next section.
+The **R Tools** > **Data Science Settings** command affects also a number of different settings in Visual Studio overall. This command is described in the next section.
 
 <a name="data-scientist-layout"></a>
 
@@ -40,7 +40,7 @@ The **R Tools > Data Science Settings** menu item configures the Visual Studio I
 
 ![Data scientist window layout in Visual Studio](media/installation-data-scientist-layout-result.png)
 
-To revert to other Visual Studio settings later on, first use the **Tools**>**Import and Export Settings** command, select **Export selected environment settings**, and specify a file name. To restore those settings, use the same command and select **Import selected environment settings**. You can also use the same commands if you change the data scientist layout and want to return to it later on, rather than using the **Data Science Settings** command directly.
+To revert to other Visual Studio settings later on, first use the **Tools** > **Import and Export Settings** command, select **Export selected environment settings**, and specify a file name. To restore those settings, use the same command and select **Import selected environment settings**. You can also use the same commands if you change the data scientist layout and want to return to it later on, rather than using the **Data Science Settings** command directly.
 
 ## Text Editor > R > Advanced options
 
@@ -54,7 +54,7 @@ Each option is set to either on or off to control the behavior in question. For 
 
 ## R Tools > Advanced options
 
-The **R Tools**>**Options** menu command opens the **Options** dialog to the R options:
+The **R Tools** > **Options** menu command opens the **Options** dialog to the R options:
 
   ![Options dialog for R Tools](media/options-dialog.png)
 

@@ -29,7 +29,7 @@ Snippets can be much more than just character completion of characters. A snippe
 
 In this case, as you type `readc`, IntelliSense displays a completion list. Selecting that completion in the drop-down and pressing **Tab** selects `readc`, and pressing **Tab** again expands the snippet. (For this reason, snippet expansion is often thought of as "type the snippet and press TAB twice"). In most cases, the first Tab completes the IntelliSense selection and the second Tab triggers the expansion.
 
-To see all the available snippets, open the **Tools**>**Code Snippets Manager** dialog box (**Ctrl**+**K**,**B**) and select **R** for **Language**. Expand the groups and select individual snippets to see a description and the shortcut text:
+To see all the available snippets, open the **Tools** > **Code Snippets Manager** dialog box (**Ctrl**+**K**,**B**) and select **R** for **Language**. Expand the groups and select individual snippets to see a description and the shortcut text:
 
 ![Code snippets dialog box for R](media/code-snippet-dialog.png)
 

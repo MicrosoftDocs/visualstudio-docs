@@ -24,7 +24,7 @@ In addition to coloring different parts of your code, such as strings, comments,
 
 ![Syntax coloring for R code](media/editing-syntax-colors.png)
 
-To customize fonts and certain highlight colors, select the **Tools**>**Options** command, navigate to **Environment**>**Fonts and Colors**, then change settings for R-related items in the **Display items** box:
+To customize fonts and certain highlight colors, select the **Tools** > **Options** command, navigate to **Environment** > **Fonts and Colors**, then change settings for R-related items in the **Display items** box:
 
 ![Fonts and color options for R code](media/editing-syntax-colors-options.png)
 
@@ -32,7 +32,7 @@ Visual Studio also underlines syntax errors in the editor:
 
 ![Syntax error highlighting in R code](media/editing-syntax-error.png)
 
-To change this behavior, see the **Advanced**>**Syntax check** setting under [editor options](#editor-options).
+To change this behavior, see the **Advanced** > **Syntax check** setting under [editor options](#editor-options).
 
 ## Edit and organize code
 
@@ -46,7 +46,7 @@ When typing calls to functions that have many parameters, oftentimes you want to
 
 To change this behavior, see [editor options](#editor-options) for the **Tabs** group.
 
-Collapsible code regions let you temporarily hide part of code in the editor. Visual Studio creates various regions for you automatically, as for multi-line statements, unless the **Advanced**>**Outlining**>**Code outlining** option is set to Off.
+Collapsible code regions let you temporarily hide part of code in the editor. Visual Studio creates various regions for you automatically, as for multi-line statements, unless the **Advanced** > **Outlining** > **Code outlining** option is set to Off.
 
 To create a region of your own, surround the desired code with comments that end with `---`. The small +/- controls to the left of the code lets you then expand and collapse regions:
 
@@ -86,11 +86,11 @@ Applying formatting cleans it up to be:
 f <- function(a) { return(a + 1) }
 ```
 
-To reformat the entire code file, select **Edit**>**Advanced**>**Format Document** (**Ctrl**+**E**,**D**).
+To reformat the entire code file, select **Edit** > **Advanced** > **Format Document** (**Ctrl**+**E**,**D**).
 
-Automatic formatting is a separate operation that can be undone. For example, if you paste code into the editor and formatting it applies, selecting **Edit**>**Undo** or pressing **Ctrl**+**Z** once reverses the formatting; a second **Undo** reverses the paste itself.
+Automatic formatting is a separate operation that can be undone. For example, if you paste code into the editor and formatting it applies, selecting **Edit** > **Undo** or pressing **Ctrl**+**Z** once reverses the formatting; a second **Undo** reverses the paste itself.
 
-Formatting options (including turning off formatting) are set through **Tools**>**Options** on the **Text Editor**>**R**>**Advanced** tab. You can go directly to this page using either the **R Tools**>**Editor options** command or by right-clicking in the editor and selecting **Formatting options**. See the [editor options](#editor-options) section for details.
+Formatting options (including turning off formatting) are set through **Tools** > **Options** on the **Text Editor** > **R** > **Advanced** tab. You can go directly to this page using either the **R Tools** > **Editor options** command or by right-clicking in the editor and selecting **Formatting options**. See the [editor options](#editor-options) section for details.
 
 ## Inserting Roxygen comments
 
@@ -100,7 +100,7 @@ RTVS provides a shortcut for generating [Roxygen](http://roxygen.org/) comments 
 
 ## Editor options
 
-Editor-specific options are set through the **Tools**>**Options** command, navigating to **Text Editor**>**R**, or use the shortcut command **R Tools**>**Editor Options**.
+Editor-specific options are set through the **Tools** > **Options** command, navigating to **Text Editor** > **R**, or use the shortcut command **R Tools** > **Editor Options**.
 
 Options on the **General**, **Scroll bars**, and **Tabs** tabs are not specific to R, but are rather general Visual Studio settings available for all languages but applied on a per-language basis. For details, see the following articles:
 
@@ -108,7 +108,7 @@ Options on the **General**, **Scroll bars**, and **Tabs** tabs are not specific 
 - [Track you code by customizing the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md)
 - [Options, Text Editor, Tabs](../ide/reference/options-text-editor-all-languages-tabs.md)
 
-Options on the **R**>**Advanced** tab are specific to RTVS:
+Options on the **R** > **Advanced** tab are specific to RTVS:
 
 | Group | Option | Default | Description |
 | --- | --- | --- | --- |
@@ -122,7 +122,7 @@ Options on the **R**>**Advanced** tab are specific to RTVS:
 | | Spaces around = | On | Places spaces around an equal sign. |
 | IntelliSense | Commit on Enter key | Off | Commits auto-completion selection when **Enter** is pressed. |
 | | Commit on Space key | Off | Commits auto-completion selection when **Space** is pressed.|
-| | Completion list on first character | On | Shows completion list on the first character types. When Off, a completion list is displayed with **Edit**>**IntelliSense**>**List Members** (**Ctrl**+**J**). |
+| | Completion list on first character | On | Shows completion list on the first character types. When Off, a completion list is displayed with **Edit** > **IntelliSense** > **List Members** (**Ctrl**+**J**). |
 | | Completion list on **Tab** key | Off | Invokes completion list by typing one or more characters and pressing **Tab**. |
 | | Match partially types argument names | Off | WHen typing argument names in a function call, signature help shows a description for the argument that is the best match. |
 | Interactive Window | Syntax check in R Console | Off | Applies syntax checking in the Interactive window. Syntax checking may not work correctly with multi-line statements. | 

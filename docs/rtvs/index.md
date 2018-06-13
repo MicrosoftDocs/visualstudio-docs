@@ -48,8 +48,8 @@ Also see [Frequently asked questions](faq.md).
 
 ## Send us your feedback!
 
-1. **GitHub issues**: The best way to reach the RTVS team is by [filing an issue on GitHub](https://github.com/Microsoft/RTVS/issues), or by using the **R Tools**>**Feedback** menu.
+1. **GitHub issues**: The best way to reach the RTVS team is by [filing an issue on GitHub](https://github.com/Microsoft/RTVS/issues), or by using the **R Tools** > **Feedback** menu.
 
-1. **Send a Smile / Frown**: The **R Tools**>**Feedback** menu is a quick way to send feedback and attach RTVS log files to assist in the diagnosis of your issue. (Logs are written into `%temp%/RTVSlogs.zip` in case you want to send them separately.) Logging is disabled if you've opted out of Visual Studio telemetry through the **Help**>**Feedback**>**Settings** menu command, or during installation.
+1. **Send a Smile / Frown**: The **R Tools** > **Feedback** menu is a quick way to send feedback and attach RTVS log files to assist in the diagnosis of your issue. (Logs are written into `%temp%/RTVSlogs.zip` in case you want to send them separately.) Logging is disabled if you've opted out of Visual Studio telemetry through the **Help** > **Feedback** > **Settings** menu command, or during installation.
 
 1. **Email**: You can send direct feedback to the team at *rtvsuserfeedback (at) microsoft.com*.

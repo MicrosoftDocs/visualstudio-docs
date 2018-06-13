@@ -14,7 +14,7 @@ ms.workload:
 
 # Variable Explorer
 
-The **Variable Explorer** window, opened using **R Tools**>**Windows**>**Variable Explorer** (or **Ctrl**+**8** if you've used **R Tools**>**Data Science Settings**), shows all variables at a given scope in the current R session. For example, if you're opened the Variable Explorer and enter the following lines in the [interactive window](interactive-repl-for-r-in-visual-studio.md):
+The **Variable Explorer** window, opened using **R Tools** > **Windows** > **Variable Explorer** (or **Ctrl**+**8** if you've used **R Tools** > **Data Science Settings**), shows all variables at a given scope in the current R session. For example, if you're opened the Variable Explorer and enter the following lines in the [interactive window](interactive-repl-for-r-in-visual-studio.md):
 
 ```R
 x <- 42
@@ -66,7 +66,7 @@ Variable Explorer automatically changes function scope as you step through code 
 
 ## Import data into Variable Explorer
 
-Two commands on the Variable Explorer toolbar, which are also available through the **R Tools**>**Data** menu, import external CSV datasets into your R session:  **Import Dataset into R Session from Web URL** and **Import Dataset into R Session from Text File**. 
+Two commands on the Variable Explorer toolbar, which are also available through the **R Tools** > **Data** menu, import external CSV datasets into your R session:  **Import Dataset into R Session from Web URL** and **Import Dataset into R Session from Text File**. 
 
 Once you've identified the CSV file to import, Visual Studio displays an **Import Dataset** dialog in which you have options to control how that data file is parsed (that is, what the field separator is and how to handle quotes). You can also see a preview of the imported data frame and the original data file:
 

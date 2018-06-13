@@ -16,7 +16,7 @@ ms.workload:
 
 A workspace in R Tools for Visual Studio (RTVS) lets you configure where an R session runs, which can happen on both local and remote computers. The goal is to allow you to work on either with a comparable user experience, which gives you the ability to take advantage of potentially more powerful cloud-based computers.
 
-To open the **Workspaces** window, use the **R Tools**>**Windows**>**Workspaces** command or press **Ctrl**+**9**.
+To open the **Workspaces** window, use the **R Tools** > **Windows** > **Workspaces** command or press **Ctrl**+**9**.
 
 ![Workspaces window in R Tools for Visual Studio (VS2017)](media/workspaces-window.png)
 
@@ -26,7 +26,7 @@ In this window, the green checkmark indicates the active workspace to which RTVS
 
 By default, RTVS doesn't save workspace state when you close and reopen a project. You can change this behavior, however, through the [Workspace options](options-for-r-tools-in-visual-studio.md#workspace).
 
-The **R Tools**>**Session**>**Reset** command and the reset toolbar button in the interactive window also reset workspace state at any time. With remote workspaces, reset deletes the user profile created when first connecting to the remote server, which effectively deletes any files that have accumulated there.
+The **R Tools** > **Session** > **Reset** command and the reset toolbar button in the interactive window also reset workspace state at any time. With remote workspaces, reset deletes the user profile created when first connecting to the remote server, which effectively deletes any files that have accumulated there.
 
 ## Local workspaces
 
@@ -74,7 +74,7 @@ RTVS is bound to only a single workspace at a time. The bound workspace is indic
 To change the active workspace, select the blue arrow next to the desired workspace. Doing so prompts you to save your session, terminates the current workspace, then switches to the new one.
 
 > [!Tip]
-> To disable the save prompt, select the **R Tools**>**Options** command and set the **Show confirmation dialog before switching workspaces** option to `No`. See [Workspace](options-for-r-tools-in-visual-studio.md#workspace).
+> To disable the save prompt, select the **R Tools** > **Options** command and set the **Show confirmation dialog before switching workspaces** option to `No`. See [Workspace](options-for-r-tools-in-visual-studio.md#workspace).
 
 If you attempt to switch to a local workspace that's been uninstalled, or to a remote workspace that it unavailable, RTVS might not be bound to any workspace. As a result, you might see an error when you enter code in the interactive window or try to run code otherwise:
 
@@ -96,13 +96,13 @@ However, this warning also appears if a *self-signed certificate* was used to en
 
 ## Directories on local and remote computers
 
-By default, when you start a new R interpreter in a local workspace, your current working directory is `%userprofile%\Documents`. You can change directory at any time using the **R Tools**>**Working Directory** commands, or by right-clicking a project in Visual Studio Solution Explorer and selecting commands like **Set Working Directory Here**.
+By default, when you start a new R interpreter in a local workspace, your current working directory is `%userprofile%\Documents`. You can change directory at any time using the **R Tools** > **Working Directory** commands, or by right-clicking a project in Visual Studio Solution Explorer and selecting commands like **Set Working Directory Here**.
 
 When you first connect to a remote computer, RTVS automatically creates a user profile based on your credentials, which sets the working directory to the  `Documents` folder under that profile. This folder is used for all subsequent remote sessions that use the same credentials. 
 
 As a result, the exact location where your code runs can differ between local and remote workspaces. In your code, then, always use relative paths to data files and such so that your code is portable across workspaces.
 
-Note also that with remote workspaces, all files in the working directory remain in place across sessions for the same user profile. As noted earlier, you can delete these files by using the  **R Tools**>**Session**>**Reset** command (or the reset button in the interactive window) when using a remote workspace. This command again deletes the user profile from the server, which is recreated when you reconnect.
+Note also that with remote workspaces, all files in the working directory remain in place across sessions for the same user profile. As noted earlier, you can delete these files by using the  **R Tools** > **Session** > **Reset** command (or the reset button in the interactive window) when using a remote workspace. This command again deletes the user profile from the server, which is recreated when you reconnect.
 
 ## Copy project files to remote workspaces
 
@@ -114,14 +114,14 @@ Files are copied to the remote server as follows:
 
 - You can also copy files by selecting then in Solution Explorer and then selecting **Source Selected Files(s)**. This action loads them into the interactive window and runs them there. If the session is connected to a remote computer, the files are copied there first.
 
-- When RTVS is bound to a remote workspace and you press **F5**, select **Debug**>**Start Debugging**, or otherwise start running your code, RTVS by default copies the project's file to the remote workspace automatically (see below for how to control this behavior).
+- When RTVS is bound to a remote workspace and you press **F5**, select **Debug** > **Start Debugging**, or otherwise start running your code, RTVS by default copies the project's file to the remote workspace automatically (see below for how to control this behavior).
 
 - Any files that already exist on the server are overwritten.
 
 > [!Note]
 > Because RTVS cannot reliably intercept all R function calls, calling functions such as `source()` or `runApp()` (for Shiny applications) within the interactive window does *not* copy files to the remote workspace.
 
-[Project properties](r-projects-in-visual-studio.md#project-properties) control whether RTVS copies files when a project is run, and exactly which files are copied. To open this page, select the **Project**>**(name) Properties** menu command, or **right-click** the project in Solution Explorer and select **Properties**.
+[Project properties](r-projects-in-visual-studio.md#project-properties) control whether RTVS copies files when a project is run, and exactly which files are copied. To open this page, select the **Project** > **(name) Properties** menu command, or **right-click** the project in Solution Explorer and select **Properties**.
 
 ![Project properties run tab with file transfer settings](media/workspaces-remote-file-transfer-filter-settings.png)
 

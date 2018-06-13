@@ -30,7 +30,7 @@ This command creates a project with an empty `script.R` file open in the editor.
 
 ![Contents of an R project created from the template](media/projects-template-results.png)
 
-The `.Rhistory` records whatever commands you enter into the [R Interactive](interactive-repl-for-r-in-visual-studio.md) window. You can open a dedicated history window with the **R Tools**>**Windows**>**History** command. That window has a toolbar button and context menu items to clear history contents.
+The `.Rhistory` records whatever commands you enter into the [R Interactive](interactive-repl-for-r-in-visual-studio.md) window. You can open a dedicated history window with the **R Tools** > **Windows** > **History** command. That window has a toolbar button and context menu items to clear history contents.
 
 The `rproject.rproj` file maintains certain R-specific project settings that aren't otherwise managed by Visual Studio:
 
@@ -53,8 +53,8 @@ If you have an existing folder of `.R` files that you want to manage in a projec
 
 1. Create a new project in Visual Studio as in the previous section.
 1. Copy your files into the project folder.
-1. In the Visual Studio Solution Explorer, **right-click** the project, select **Add**>**Exiting Item**, and browse to the files you want to add. Those files appear in your project tree after selecting **OK**.
-1. To organize code into subfolders, **right-click** the project, select **Add**>**New Folder** first, then copy your files into that folder and add those existing items in step 3.
+1. In the Visual Studio Solution Explorer, **right-click** the project, select **Add** > **Exiting Item**, and browse to the files you want to add. Those files appear in your project tree after selecting **OK**.
+1. To organize code into subfolders, **right-click** the project, select **Add** > **New Folder** first, then copy your files into that folder and add those existing items in step 3.
 
 ## Project properties
 
@@ -67,7 +67,7 @@ To open the project property pages, **right-click** the project in **Solution Ex
 | | Remote Project Path | Path to a remote workspace. |
 | | Transfer files on run | Indicates whether the project files, subject to the filter in **Files to transfer**, are to be copied to a remote workspace with each run. |
 | | Files to transfer | Filenames and wildcards indicating the specific files to copy to a remote workspace if **Transfer files on run** is selected. |
-| Settings | (Settings.R file) | R project settings come from `Settings.R` or `*.Settings.R` files that are located inside the project. If there is no settings file, you can add variables, save the page, and a default `Settings.R` file is created for you. You can also add settings file to the project through the **File**>**Add New Item** menu command. <br/> Settings are stored as R code and the file can be sourced before running other modules, thus pre-populating environment with the predefined settings. |
+| Settings | (Settings.R file) | R project settings come from `Settings.R` or `*.Settings.R` files that are located inside the project. If there is no settings file, you can add variables, save the page, and a default `Settings.R` file is created for you. You can also add settings file to the project through the **File** > **Add New Item** menu command. <br/> Settings are stored as R code and the file can be sourced before running other modules, thus pre-populating environment with the predefined settings. |
 
 ## R-specific project commands
 
@@ -79,16 +79,16 @@ R Tools for Visual Studio (RTVS) adds a number of its own commands to the right-
 | --- | --- |
 | Set Working Directory Here | Sets the R Interactive window's working directory to the project folder, which can also be used on any subfolder within a project. |
 | Open Containing Folder | Opens Windows Explorer at the location of the selected file. | 
-| Add R Script | Creates and opens a new `.R` file with a default name. You can also use the **Add**>**New Item** command to create `.R` files as well as a number of other file types. See [R-specific item templates](#r-specific-item-templates). |
-| Add R Markdown | Creates and opens new `.rmd` document with a default name. You can also use the **Add**>**New Item** command to create `.rmd` files as well as a number of other file types. See [R-specific item templates](#r-specific-item-templates).  | 
+| Add R Script | Creates and opens a new `.R` file with a default name. You can also use the **Add** > **New Item** command to create `.R` files as well as a number of other file types. See [R-specific item templates](#r-specific-item-templates). |
+| Add R Markdown | Creates and opens new `.rmd` document with a default name. You can also use the **Add** > **New Item** command to create `.rmd` files as well as a number of other file types. See [R-specific item templates](#r-specific-item-templates).  | 
 | Publish Stored Procedures | Starts a process to publish any stored procedures contained in R scripts. See [Work with SQL Server stored procedures](integrating-sql-server-with-r.md#work-with-sql-server-stored-procedures). | 
 
 ## R-specific item templates
 
-RTVS includes a number of templates for specific file types. You access templates by right-clicking an R project and selecting **Add**>**New Item**, by selecting **Project**>**Add New Item**, or by using **File**>**New**>**File** and selecting the **R** tab. The best way to explore a template is to create a new project and insert files of each type.
+RTVS includes a number of templates for specific file types. You access templates by right-clicking an R project and selecting **Add** > **New Item**, by selecting **Project** > **Add New Item**, or by using **File** > **New** > **File** and selecting the **R** tab. The best way to explore a template is to create a new project and insert files of each type.
 
 > [!Note]
-> The **Add**>**New Item** commands also display general file types that aren't listed in the table; with **File**>**New**>**File** those types are contained instead on the **General** tab.
+> The **Add** > **New Item** commands also display general file types that aren't listed in the table; with **File** > **New** > **File** those types are contained instead on the **General** tab.
 
 | File Type | Description |
 | --- | --- |

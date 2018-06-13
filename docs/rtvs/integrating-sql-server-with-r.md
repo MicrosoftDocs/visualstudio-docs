@@ -29,7 +29,7 @@ Visual Studio's excellent support for SQL Server helps data scientists work with
 
 RTVS supports adding SQL queries into R projects, allowing you to iteratively develop SQL queries in a separate context until you get the results you're looking for.
 
-To add a SQL query file, **right-click** the project in Solution Explorer, select **Add**>**New Item**, and select the **SQL Query** file type:
+To add a SQL query file, **right-click** the project in Solution Explorer, select **Add** > **New Item**, and select the **SQL Query** file type:
 
 ![Add SQL Query item to a project](media/sql-add-item.png)
 
@@ -60,7 +60,7 @@ RTVS simplifies the otherwise unwieldy and error-prone process of combining SQL 
 
 ### Add a database connection
 
-1. Select **R Tools**>**Data**>**Add Database Connection** to bring up the **Connection Properties** dialog. Here you specify the name of the data source (SQL Server in this case), the name of the server, the authentication mode, and the name of the database. Select **Test Connection** to verify your input before closing the dialog.
+1. Select **R Tools** > **Data** > **Add Database Connection** to bring up the **Connection Properties** dialog. Here you specify the name of the data source (SQL Server in this case), the name of the server, the authentication mode, and the name of the database. Select **Test Connection** to verify your input before closing the dialog.
 
     ![SQL Connection Dialog](media/sql-connection-string-dialog.png)
 
@@ -70,7 +70,7 @@ RTVS simplifies the otherwise unwieldy and error-prone process of combining SQL 
 
 ### Write and test a SQL stored procedure
 
-To add a new SQL Stored Procedure, **right-click** your project, select **Add**>**New Item**, select **SQL Stored Procedure with R** from the list of templates, give the file a name (`StoredProcedure.R` in this example), and select **OK**.
+To add a new SQL Stored Procedure, **right-click** your project, select **Add** > **New Item**, select **SQL Stored Procedure with R** from the list of templates, give the file a name (`StoredProcedure.R` in this example), and select **OK**.
 
 RTVS creates three files for the stored procedure: a `.R` file for your R code, a `.Query.sql` file for the SQL code, and a `.Template.sql` file that combines the two. They latter two appear in Solution Explorer as children of the `.R` file:
 
@@ -140,12 +140,12 @@ WITH RESULT SETS ((medallion NVARCHAR(max), hack_license NVARCHAR(max)));
 
 ### Publish a SQL stored procedure
 
-1. Select the **R Tools**>**Data**>**Publish With Options** menu command.
+1. Select the **R Tools** > **Data** > **Publish With Options** menu command.
 1. In the dialog that appears, change **Publish to:** to **Database**, specify the target, select **Publish**, and RTVS builds and publishes the stored procedure:
 
     ![Publish stored procedure dialog](media/sql-publish-with-options.png)
 
-1. To publish all stored procedures in a project, you can use the **R Tools**>**Data**>**Publish Stored Procedures** command, which is also available when you right-click the project in Solution Explorer.
+1. To publish all stored procedures in a project, you can use the **R Tools** > **Data** > **Publish Stored Procedures** command, which is also available when you right-click the project in Solution Explorer.
 
 > [!Tip]
-> If you have the SQL Server Object Explorer open in Visual Studio, your published stored procedure appears in the **Programmability**>**Stored Procedures** folder of your database. You can also run it from the Object Explorer by right-clicking and selecting **Execute Procedure**, or by calling it interactively from a `.sql` query window.
+> If you have the SQL Server Object Explorer open in Visual Studio, your published stored procedure appears in the **Programmability** > **Stored Procedures** folder of your database. You can also run it from the Object Explorer by right-clicking and selecting **Execute Procedure**, or by calling it interactively from a `.sql` query window.

@@ -21,7 +21,7 @@ Help for R is integrated directly into the interactive window in Visual Studio. 
 > [!Tip]
 > The help window, like all others in Visual Studio, can be arranged and docked however you like. See [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md).
 >
-> To open help results in a browser, select the **R Tools**>**Options** menu and set the **R Help Browser** property to `External`. See [Options](options-for-r-tools-in-visual-studio.md).
+> To open help results in a browser, select the **R Tools** > **Options** menu and set the **R Help Browser** property to `External`. See [Options](options-for-r-tools-in-visual-studio.md).
 
 To search help, use the `??` command followed by the search term. Use quotes if the search term contains spaces:
 
@@ -45,7 +45,7 @@ Developers often search the R documentation for help on function names, datasets
     ![Invoking help through the right click context menu](media/help-right-click.png)
 
 > [!Tip]
-> To open integrated help in a browser, select **R Tools**>**Options** and set **F1 Web Browser** to `External`. See [Options](options-for-r-tools-in-visual-studio.md).
+> To open integrated help in a browser, select **R Tools** > **Options** and set **F1 Web Browser** to `External`. See [Options](options-for-r-tools-in-visual-studio.md).
 
 ## Integrated StackOverflow search
 
@@ -53,7 +53,7 @@ In addition to searching in the R documentation, developers often search StackOv
 
 ![Web search results in Visual Studio](media/help-web-search-results.png)
 
-You can change the appended scoping string, `R site:stackoverflow`, through the **R Tools**>**Options**>**F1 Web search string** option:
+You can change the appended scoping string, `R site:stackoverflow`, through the **R Tools** > **Options** > **F1 Web search string** option:
 
 ![Changing the F1 Web search string option](media/options-dialog.png)
 

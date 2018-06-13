@@ -73,7 +73,7 @@ For background, see [self-signed certificates](https://en.wikipedia.org/wiki/Sel
 
 ### Install the certificate
 
-To install the certificate on the remote computer, run `certlm.msc` (the certificate manager) from a command prompt. **Right-click** on the **Personal** folder and select the **All Tasks**>**Import** command:
+To install the certificate on the remote computer, run `certlm.msc` (the certificate manager) from a command prompt. **Right-click** on the **Personal** folder and select the **All Tasks** > **Import** command:
 
 ![Import certificate command](media/workspaces-remote-certificate-import.png)
 
@@ -82,7 +82,7 @@ To install the certificate on the remote computer, run `certlm.msc` (the certifi
 Once the certificate is imported, grant the `NETWORK SERVICE` account permissions to read the private key as described in the following instructions. `NETWORK_SERVICE` is the account used to run the R Services broker, which is the service that terminates incoming SSL connections to the server computer.
 
 1. Run `certlm.msc` (the Certificate Manager) from an administrator command prompt.
-1. Expand **Personal**>**Certificates**, **right-click** your certificate, and select **All Tasks**>**Manage Private Keys**.
+1. Expand **Personal** > **Certificates**, **right-click** your certificate, and select **All Tasks** > **Manage Private Keys**.
 1. **Right-click** on the certificate and select the **Manage Private Keys** command under **All Tasks**.
 1. In the dialog that appears, select **Add** and enter `NETWORK SERVICE` as the account name:
 

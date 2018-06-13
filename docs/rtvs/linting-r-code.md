@@ -18,9 +18,9 @@ ms.workload:
 
 In Visual Studio, linting analyzes code to reveal potential errors, formatting issues, and other code noise such as spurious whitespace. Linting also helps encourage certain coding conventions, such as how identifiers are named. Such conventions are helpful within teams and other collaborative situations.
 
-R Tools for Visual Studio (RTVS) provides built-in linting for R, the behavior of which is controlled through a variety of options described in this article. These options are found in **Tool**>**Options**>**Text Editor**>**R**>**Lint**.
+R Tools for Visual Studio (RTVS) provides built-in linting for R, the behavior of which is controlled through a variety of options described in this article. These options are found in **Tool** > **Options** > **Text Editor** > **R** > **Lint**.
 
-Linting is disabled by default. To enable linting, set the **All**>**Enable lint** option to true.
+Linting is disabled by default. To enable linting, set the **All** > **Enable lint** option to true.
 
 When enabled, linting is applied in the editor while you type. Issues appear as green squiggles. In the following graphic, for example, RTVS has identified six linting issues, including use of `=` instead of `<-` for an assignment, lack of spacing around function arguments, use of Pascal case and uppercase identifiers, and use of a semicolon. Hovering over an issue provides a description.
 
