@@ -35,7 +35,7 @@ The header bar at the top of the **Settings** page contains several controls:
 
 **View Code**
 
-For C# projects, the **View Code** button enables you to view the code in the *Settings.cs* file. This file defines the `Settings` class, which enables you to handle specific events on the `Settings` object. Note that in languages other than Visual Basic, you must explicitly call the `Save` method of this wrapper class in order to persist the user settings. You usually do this in the **Closing** event handler of the main form. Following is an example of a call to the `Save` method:
+For C# projects, the **View Code** button enables you to view the code in the *Settings.cs* file. This file defines the `Settings` class, which enables you to handle specific events on the `Settings` object. In languages other than Visual Basic, you must explicitly call the `Save` method of this wrapper class in order to persist the user settings. You usually do this in the **Closing** event handler of the main form. Following is an example of a call to the `Save` method:
 
 ```csharp
 Properties.Settings.Default.Save();
