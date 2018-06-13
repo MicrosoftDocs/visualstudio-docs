@@ -27,10 +27,10 @@ ms.workload:
   
 |VBA solutions|Office solutions in Visual Studio|  
 |-------------------|---------------------------------------|  
-|Uses code that is connected to and persisted with a specific document.|Uses code that is stored separately from the document (for document-level customizations), or in an assembly that is loaded by the application (for VSTO VSTO Add-ins).|  
+|Uses code that is connected to and persisted with a specific document.|Uses code that is stored separately from the document (for document-level customizations), or in an assembly that is loaded by the application (for VSTO Add-ins).|  
 |Works with the Office object models and VBA APIs.|Provides access to both the Office object models and the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] APIs.|  
 |Designed for macro recording and a simplified developer experience.|Designed for security, easier code maintenance, and the ability to use the full Visual Studio integrated development environment (IDE).|  
-|Works well for solutions that benefit from a very tight integration with Office applications.|Works well for solutions that benefit from the full resources of Visual Studio and the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)].|  
+|Works well for solutions that benefit from a tight integration with Office applications.|Works well for solutions that benefit from the full resources of Visual Studio and the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)].|  
 |Has limitations for the enterprise, especially in the areas of security and deployment.|Designed for use in the enterprise.|  
   
  Some things are still easier to do quickly using VBA. Specifically, you might want to continue using VBA for:  

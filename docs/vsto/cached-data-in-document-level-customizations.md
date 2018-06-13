@@ -32,7 +32,7 @@ ms.workload:
  For more information about document-level customizations, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md) and [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md).  
   
 ## Understand the cached data programming model  
- The data island can contain any object in your solution that meets certain requirements. These objects include <xref:System.Data.DataSet> objects, <xref:System.Data.DataTable> objects, and any other object that can be serialized by the <xref:System.Xml.Serialization.XmlSerializer> class. For more information, see see [Cache data](../vsto/caching-data.md).  
+ The data island can contain any object in your solution that meets certain requirements. These objects include <xref:System.Data.DataSet> objects, <xref:System.Data.DataTable> objects, and any other object that can be serialized by the <xref:System.Xml.Serialization.XmlSerializer> class. For more information, see [Cache data](../vsto/caching-data.md).  
   
  To provide the view for the cached data, you can bind Windows Forms controls and *host controls* on the document to objects in the data island. Data binding between the data island and the data-bound controls keeps the two synchronized. You can also add validation code to the data that is independent of the controls. For more information, see [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md).  
   

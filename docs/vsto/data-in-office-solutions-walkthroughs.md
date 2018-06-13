@@ -28,10 +28,10 @@ ms.workload:
  Demonstrates how to bind a table in a SQL Server database to a <xref:Microsoft.Office.Tools.Excel.ListObject> in a document-level customization for Excel.  
   
  [Walkthrough: Simple data binding in VSTO Add-in project](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md)  
- Demonstrates how to bind a single data field in a SQL Server database to a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> in an VSTO Add-in for Word.  
+ Demonstrates how to bind a single data field in a SQL Server database to a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> in a VSTO Add-in for Word.  
   
  [Walkthrough: Complex data binding in VSTO Add-in project](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md)  
- Demonstrates how to bind a table in a SQL Server database to a <xref:Microsoft.Office.Tools.Excel.ListObject> in an VSTO Add-in for Excel.  
+ Demonstrates how to bind a table in a SQL Server database to a <xref:Microsoft.Office.Tools.Excel.ListObject> in a VSTO Add-in for Excel.  
   
  [Walkthrough: Bind data to controls on an Excel actions pane](../vsto/walkthrough-binding-data-to-controls-on-an-excel-actions-pane.md)  
  Demonstrates how to add controls that are bound to a data source to an actions pane in Excel.  

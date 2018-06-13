@@ -132,7 +132,7 @@ ms.workload:
 ## Reposition the actions pane  
  You cannot directly reposition the <xref:Microsoft.Office.Tools.ActionsPane> because it is embedded in the task pane. However, you can programmatically move the task pane by setting the <xref:Microsoft.Office.Core.CommandBar.Position%2A> property of the <xref:Microsoft.Office.Core.CommandBar> that represents the task pane.  
 
- Programmatically repositioning the task pane is generally not recommended because the user should be able to choose the task pane position on the screen that best suits his or her needs. However, if you must move the task pane to a particular position, you could use the following code to achieve this task.  
+ Programmatically repositioning the task pane is not recommended because the user should be able to choose the task pane position on the screen that best suits his or her needs. However, if you must move the task pane to a particular position, you could use the following code to achieve this task.  
 
  [!code-csharp[Trin_VstcoreActionsPaneWord#100](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#100)]
  [!code-vb[Trin_VstcoreActionsPaneWord#100](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#100)]  

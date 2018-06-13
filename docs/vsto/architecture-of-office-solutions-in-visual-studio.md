@@ -35,7 +35,7 @@ ms.workload:
  Describes the different versions of the runtime that is used for Office solutions.  
   
  [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md)  
- Describes the registry keys that are required on end user computers to discover and load VSTO Add-ins.  
+ Describes the registry keys that are required on end-user computers to discover and load VSTO Add-ins.  
   
  [Custom document properties overview](../vsto/custom-document-properties-overview.md)  
  Explains how the custom document properties work in document-level customizations.  

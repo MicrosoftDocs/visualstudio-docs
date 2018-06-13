@@ -18,8 +18,8 @@ Visual Studio Team Services (VSTS) and Team Foundation Server (TFS) provide two 
 
 ## Requirements
 
-* Visual Studio for Mac version 7.5 or later.
-* Visual Studio Team Services, or Team Foundation Server 2013 and later
+* Visual Studio Community, Professional, or Enterprise for Mac version 7.5 or later.
+* Visual Studio Team Services, or Team Foundation Server 2013 and later.
 * A Project in Visual Studio Team Services or Team Foundation Server, configured to use Team Foundation Version Control.
 
 ## Installation

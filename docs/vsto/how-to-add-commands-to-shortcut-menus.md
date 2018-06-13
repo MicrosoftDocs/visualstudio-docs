@@ -18,7 +18,7 @@ ms.workload:
   - "office"
 ---
 # How to: Add commands to shortcut menus
-  This topic demonstrates how to add commands to a shortcut menu in an Office application by using an VSTO Add-in.  
+  This topic demonstrates how to add commands to a shortcut menu in an Office application by using a VSTO Add-in.  
   
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
   
@@ -69,7 +69,7 @@ ms.workload:
   
 8.  In **Solution Explorer**, choose **MyRibbon.cs** or **MyRibbon.vb**.  
   
-9. Add the a callback method to the `Ribbon1` class for each control that you want to handle.  
+9. Add a callback method to the `Ribbon1` class for each control that you want to handle.  
   
      The following callback method handles the **My Button** button. This code adds a string to the active document at the current location of the curser.  
   

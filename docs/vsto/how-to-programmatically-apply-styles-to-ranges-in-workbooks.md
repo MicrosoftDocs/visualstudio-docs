@@ -56,7 +56,7 @@ ms.workload:
      [!code-csharp[Trin_VstcoreExcelAutomationAddIn#29](../vsto/codesnippet/CSharp/trin_vstcoreexcelautomationaddin/ThisAddIn.cs#29)]
      [!code-vb[Trin_VstcoreExcelAutomationAddIn#29](../vsto/codesnippet/VisualBasic/trin_vstcoreexcelautomationaddin/ThisAddIn.vb#29)]  
   
-## To clear a style from a named range in an VSTO Add-in  
+## To clear a style from a named range in a VSTO Add-in  
   
 1.  Apply the Normal style to the range.  
   

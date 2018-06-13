@@ -31,7 +31,7 @@ ms.workload:
   
 -   [Resize NamedRange controls at runtime in a document-level project](#runtimedoclevel)  
   
--   [Resize NamedRange controls at runtime in an VSTO Add-in project](#runtimeaddin)  
+-   [Resize NamedRange controls at runtime in a VSTO Add-in project](#runtimeaddin)  
   
 ##  <a name="designtime"></a> Resize NamedRange controls at design time  
  You can resize a named range by redefining its size in the **Define Name** dialog box.  
@@ -70,8 +70,8 @@ ms.workload:
      [!code-csharp[Trin_VstcoreHostControlsExcel#5](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#5)]
      [!code-vb[Trin_VstcoreHostControlsExcel#5](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#5)]  
   
-##  <a name="runtimeaddin"></a> Resize NamedRange controls at runtime in an VSTO Add-in project  
- You can resize a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on any open worksheet at run time. For more information about how to add a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to a worksheet by using an VSTO Add-in, see [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md).  
+##  <a name="runtimeaddin"></a> Resize NamedRange controls at runtime in a VSTO Add-in project  
+ You can resize a <xref:Microsoft.Office.Tools.Excel.NamedRange> control on any open worksheet at runtime. For more information about how to add a <xref:Microsoft.Office.Tools.Excel.NamedRange> control to a worksheet by using a VSTO Add-in, see [How to: Add NamedRange controls to worksheets](../vsto/how-to-add-namedrange-controls-to-worksheets.md).  
   
 ### To resize a named range programmatically  
   

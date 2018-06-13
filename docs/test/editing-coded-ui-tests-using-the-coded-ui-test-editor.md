@@ -86,9 +86,9 @@ After completing your modifications, save the changes to the UIMap.Designer file
 
 - You can use the **Find** button in the Coded UI Test editor toolbar to open the Find and Replace tool in Visual Studio. You can then use the Find control to locate a UI action in the Coded UI Test editor. For example, you can try to find "Click 'Login' button." This can be useful in large tests. You cannot use the replace functionality in the Find and Replace tool in the Coded UI Test Editor. For more information, see Find control in [Finding and Replacing Text](../ide/finding-and-replacing-text.md).
 
-- Sometimes, it can be difficult to visualize where controls are located in the UI of the application under test. One of the capabilities of the coded UI Test Editor is that you can select a control listed in the UI control map and view its location in the application under test. For more information, see [Locating a UI Control in the application under Test](#CodedUITestEditor_LocateUIControl) located further below in this article.
+- Sometimes, it can be difficult to visualize where controls are located in the UI of the application under test. One of the capabilities of the coded UI Test Editor is that you can select a control listed in the UI control map and view its location in the application under test. For more information, see [Locating a UI Control in the application under Test](#locate-a-ui-control-in-the-application-under-test) located further below in this article.
 
-- It might be necessary to expand the container control that contains the control that you want to edit. For more information, see [Locating a control and its descendants](#CodedUITestEditor_LocateDecendants) located further below in this article.
+- It might be necessary to expand the container control that contains the control that you want to edit. For more information, see [Locating a control and its descendants](#locate-a-control-and-its-descendants) located further below in this article.
 
 ## Delete unwanted UI actions
 

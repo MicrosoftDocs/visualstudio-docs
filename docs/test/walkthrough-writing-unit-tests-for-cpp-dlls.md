@@ -296,7 +296,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 1.  Simplify the central calculation in the SquareRoot function:
 
-    ```
+    ```cpp
     // old code:
     //   result = result - (result*result - v)/(2*result);
     // new code:
@@ -324,7 +324,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 ## See also
 
 - [Adding unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)
-- [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](../test/using-microsoft-visualstudio-testtools-cppunittestframework.md)
+- [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](how-to-use-microsoft-test-framework-for-cpp.md)
 - [Debugging Native Code](../debugger/debugging-native-code.md)
 - [Walkthrough: Creating and Using a Dynamic Link Library (C++)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)
 - [Importing and Exporting](/cpp/build/importing-and-exporting)

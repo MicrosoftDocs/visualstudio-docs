@@ -46,7 +46,7 @@ ms.workload:
   
 -   The `ThisDocument` class in a Word document or template project. You can access this object by using the `Globals.ThisDocument` property.  
   
--   The `ThisAddIn` class in an VSTO Add-in project. You can access this object by using the `Globals.ThisAddIn` property.  
+-   The `ThisAddIn` class in a VSTO Add-in project. You can access this object by using the `Globals.ThisAddIn` property.  
   
 -   All Ribbons in your project that you customized by using the Ribbon Designer. You can access the Ribbons by using the `Globals.Ribbons` property. For more information, see [Access the Ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md).  
   
@@ -68,7 +68,7 @@ ms.workload:
  [!code-csharp[Trin_VstcoreProgramming#1](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingExcelCS/Sheet1.cs#1)]  
   
 ## Initialize the Globals class  
- Code that attempts to use the `Globals` class before the document or VSTO Add-in is completely initialized might throw a run time exception. For example, using `Globals` when declaring a class-level variable might fail because the `Globals` class might not be initialized with references to all of the host items before the declared object is instantiated.  
+ Code that attempts to use the `Globals` class before the document or VSTO Add-in is initialized might throw a run time exception. For example, using `Globals` when declaring a class-level variable might fail because the `Globals` class might not be initialized with references to all of the host items before the declared object is instantiated.  
   
 > [!NOTE]  
 >  The `Globals` class is never initialized at design time, but control instances are created by the designer. This means that if you create a user control that uses a property of the `Globals` class from inside a user control class, you must whether the property returns **null** before you try to use the returned object.  
