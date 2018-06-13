@@ -544,4 +544,4 @@ namspace MySPAppTests
 
 - [Unit Test Your Code](../test/unit-test-your-code.md)
 - [Testing SharePoint 2010 Applications with Coded UI Tests](../test/testing-sharepoint-2010-applications-with-coded-ui-tests.md)
-- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions)
+- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)
