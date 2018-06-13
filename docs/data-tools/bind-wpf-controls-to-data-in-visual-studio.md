@@ -22,7 +22,7 @@ ms.workload:
 # Bind WPF controls to data in Visual Studio
 You can display data to users of your application by binding data to [!INCLUDE[TLA#tla_titlewinclient](../data-tools/includes/tlasharptla_titlewinclient_md.md)] controls. To create these data-bound controls, you can drag items from the **Data Sources** window onto the [!INCLUDE[wpfdesigner_current_short](../data-tools/includes/wpfdesigner_current_short_md.md)] in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. This topic describes some of the most common tasks, tools, and classes that you can use to create data-bound [!INCLUDE[TLA#tla_titlewinclient](../data-tools/includes/tlasharptla_titlewinclient_md.md)] applications.
 
- For general information about how to create data-bound controls in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md). For more information about [!INCLUDE[TLA#tla_titlewinclient](../data-tools/includes/tlasharptla_titlewinclient_md.md)] data binding, see [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview).
+ For general information about how to create data-bound controls in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], see [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md). For more information about [!INCLUDE[TLA#tla_titlewinclient](../data-tools/includes/tlasharptla_titlewinclient_md.md)] data binding, see [Data binding overview](/dotnet/framework/wpf/data/data-binding-overview).
 
 ## Tasks involved in binding WPF controls to data
  The following table lists the tasks that can be accomplished by dragging items from the **Data Sources** window to the [!INCLUDE[wpfdesigner_current_short](../data-tools/includes/wpfdesigner_current_short_md.md)].
@@ -69,9 +69,9 @@ You can display data to users of your application by binding data to [!INCLUDE[T
 
 Visual Studio also makes the following changes to the code-behind file:
 
--   Adds a new method that returns a query for the entity that you dragged to the designer (or the entity that contains the property that you dragged to the designer). The new method has the name Get*EntityName*Query, where *EntityName* is the name of the entity.
+-   Adds a new method that returns a query for the entity that you dragged to the designer (or the entity that contains the property that you dragged to the designer). The new method has the name `GetEntityNameQuery`, where `\<EntityName>` is the name of the entity.
 
--   Creates a <xref:System.Windows.FrameworkElement.Loaded> event handler for the [!INCLUDE[TLA2#tla_ui](../data-tools/includes/tla2sharptla_ui_md.md)] element that contains the control. The event handler calls the Get*EntityName*Query method to fill the entity with data, retrieves the <xref:System.Windows.Data.CollectionViewSource> from the container's resources, and then makes the first data item the current item. If a <xref:System.Windows.FrameworkElement.Loaded> event handler already exists, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] adds this code to the existing event handler.
+-   Creates a <xref:System.Windows.FrameworkElement.Loaded> event handler for the [!INCLUDE[TLA2#tla_ui](../data-tools/includes/tla2sharptla_ui_md.md)] element that contains the control. The event handler calls the `GetEntityNameQuery` method to fill the entity with data, retrieves the <xref:System.Windows.Data.CollectionViewSource> from the container's resources, and then makes the first data item the current item. If a <xref:System.Windows.FrameworkElement.Loaded> event handler already exists, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] adds this code to the existing event handler.
 
 ### Services
  When you drag a service object or property from the **Data Sources** window to the designer, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] generates [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] that creates a data-bound control (or binds an existing control to the object or property). However, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] does not generate code that fills the proxy service object with data. You must write this code yourself. For an example that demonstrates how to do this, see [Bind WPF controls to a WCF data service](../data-tools/bind-wpf-controls-to-a-wcf-data-service.md).
@@ -86,7 +86,7 @@ Visual Studio also makes the following changes to the code-behind file:
  When you drag an object or property from the **Data Sources** window to the designer, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] generates [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] that creates a data-bound control (or binds an existing control to the object or property). However, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] does not generate code to fill the object with data. You must write this code yourself.
 
 > [!NOTE]
->  Custom classes must be public and, by default,  have a constructor without parameters. They can'tbe nested classes that have a "dot" in their syntax. For more information, see [XAML and Custom Classes for WPF](/dotnet/framework/wpf/advanced/xaml-and-custom-classes-for-wpf).
+>  Custom classes must be public and, by default,  have a constructor without parameters. They can'tbe nested classes that have a "dot" in their syntax. For more information, see [XAML and custom classes for WPF](/dotnet/framework/wpf/advanced/xaml-and-custom-classes-for-wpf).
 
  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] generates [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] that does the following:
 

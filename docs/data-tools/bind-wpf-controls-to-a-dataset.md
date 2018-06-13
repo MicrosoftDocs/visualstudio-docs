@@ -101,11 +101,11 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 
 #### To load product rows that have photos
 
-1.  In **Solution Explorer**, double-click the `AdventureWorksLTDataSet.xsd` file.
+1.  In **Solution Explorer**, double-click the *AdventureWorksLTDataSet.xsd* file.
 
      The Dataset designer opens.
 
-2.  In the designer, right-click the **Fill, GetData()** query and select **Configure**.
+2.  In the designer, right-click the **Fill**, **GetData()** query and select **Configure**.
 
      The **TableAdapter Configuration** wizard opens.
 
@@ -122,7 +122,7 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 
 #### To define the user interface of the window
 
-1.  In **Solution Explorer**, double-click MainWindow.xaml.
+1.  In **Solution Explorer**, double-click **MainWindow.xaml**.
 
      The window opens in the WPF Designer.
 
@@ -151,15 +151,15 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 
 3.  For this example, some fields will not be displayed, so click the drop-down menu next to the following nodes and select **None**:
 
-    -   ProductCategoryID
+    -   **ProductCategoryID**
 
-    -   ProductModelID
+    -   **ProductModelID**
 
-    -   ThumbnailPhotoFileName
+    -   **ThumbnailPhotoFileName**
 
-    -   rowguid
+    -   **rowguid**
 
-    -   ModifiedDate
+    -   **ModifiedDate**
 
 4.  Click the drop-down menu next to the **ThumbNailPhoto** node and select **Image**.
 
@@ -174,7 +174,7 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 
 7.  In the **Properties** window, select the check box next to the **IsReadOnly** property.
 
-## Navigating product records
+## Navigate product records
  Add code that enables users to scroll through product records by using the **\<** and **>** buttons.
 
 #### To enable users to navigate product records
