@@ -90,7 +90,7 @@ It is often quicker to generate the unit test project and unit test stubs from y
 
      ![The unit tests are created](../test/media/createunittestsstubs.png)
 
-4.  Now jump ahead to learn how to [add code to the unit test methods](#BKMK_Writing_your_tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.
+4.  Now jump ahead to learn how to [add code to the unit test methods](#write-your-tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.
 
  **Create your unit test project and unit tests manually**
 
@@ -220,7 +220,7 @@ The Test Explorer toolbar helps you discover, organize, and run the tests that y
 > [!WARNING]
 > Running unit tests after every build is supported only in Visual Studio Enterprise.
 
-|||
+|Button|Description|
 |-|-|
 |![Run after build](../test/media/ute_runafterbuild_btn.png)|To run your unit tests after each local build, choose **Test** on the standard menu, choose **Run Tests After Build** on the Test Explorer toolbar.|
 
@@ -230,7 +230,7 @@ When you have a large number of tests, you can Type in Test Explorer search box 
 
  ![Search filter categories](../test/media/ute_searchfilter.png)
 
-|||
+|Button|Description|
 |-|-|
 |![Test Explorer group button](../test/media/ute_groupby_btn.png)|To group your tests by category, choose the **Group By** button.|
 
