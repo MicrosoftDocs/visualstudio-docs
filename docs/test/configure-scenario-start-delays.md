@@ -56,7 +56,7 @@ You can specify a delay before the start of a scenario in a load test by using t
 
 The **Disable During Warmup** property is set by using the Properties window. Editing load test scenario properties is set by the Load Test Editor.
 
- The **Disable During Warmup** property is used to indicate whether the scenario should run or not run during the warm-up period that is specified in the **Delay Start Time** property. For more information, review the previous procedure [Specifying the Delay Start Time of a Scenario](../test/configure-scenario-start-delays.md#ConfiguringScenarioStartDelayHowTo).
+ The **Disable During Warmup** property is used to indicate whether the scenario should run or not run during the warm-up period that is specified in the **Delay Start Time** property. For more information, review the previous procedure [Specifying the Delay Start Time of a Scenario](#specifying-the-delay-start-time-of-a-scenario).
 
 > [!NOTE]
 > For a complete list of the run settings properties and their descriptions, see [Load Test Scenario Properties](../test/load-test-scenario-properties.md).

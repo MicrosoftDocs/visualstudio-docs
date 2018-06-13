@@ -64,7 +64,7 @@ ms.workload:
   
 1.  In the Word template that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, on the Ribbon, click the **Insert** tab.  
   
-2.  In the **Tables** group, click **Table**, and insert a table with 2 columns and 4 rows.  
+2.  In the **Tables** group, click **Table**, and insert a table with two columns and four rows.  
   
 3.  Type text in the first column so that it resembles the following column:  
   
@@ -105,7 +105,7 @@ ms.workload:
   
 2.  On the Ribbon, click the **Insert** tab.  
   
-3.  In the **Tables** group, click **Table**, and insert a table with 2 columns and 3 rows.  
+3.  In the **Tables** group, click **Table**, and insert a table with two columns and three rows.  
   
 4.  Type text in the first column so that it resembles the following column:  
   

@@ -96,7 +96,7 @@ ms.workload:
  When you install the solution without running the Setup program, the installer doesn't check for or install prerequisites. The Setup program checks for the correct version of prerequisites and installs them as necessary.  
   
 ## Manifest registry keys for Add-ins change after an InstallShield Limited Edition project is built  
- The manifest registry key that's part of an VSTO Add-in Setup program sometimes changes from *.vsto* to *.dll.manifest* when you build an InstallShield Limited Edition project.  
+ The manifest registry key that's part of a VSTO Add-in Setup program sometimes changes from *.vsto* to *.dll.manifest* when you build an InstallShield Limited Edition project.  
   
  To work around this issue, create the InstallShield Limited Edition project in a different solution, or use CompanyName.AddinName as the value of the registry key that contains the name of the VSTO Add-in.  
   
@@ -113,7 +113,7 @@ ms.workload:
  To prevent the message from appearing, use the same casing when you install Office solutions.  
   
 ## Can't install a ClickOnce solution by opening the deployment manifest from the web  
- Users can install Office solutions by opening the deployment manifest from the web. However, a some installations  of Internet Information Services (IIS) blocks the *.vsto* file name extension. You must define the MIME type in IIS before you use it to deploy an Office solution.  
+ Users can install Office solutions by opening the deployment manifest from the web. However, some installations of Internet Information Services (IIS) block the *.vsto* file name extension. You must define the MIME type in IIS before you use it to deploy an Office solution.  
   
  For information about how to define the MIME type in IIS 6, see [Configure MIME Types (IIS 6.0)](http://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/cd72c0dc-c5b8-42e4-96c2-b3c656f99ead.mspx?mfr=true).  
   

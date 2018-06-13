@@ -34,14 +34,14 @@ ms.workload:
 ## Automate project by using the project object model  
  The Project object model exposes many types that you can use to automate Project. These types enable you to write code to accomplish common tasks such as programmatically creating and modifying tasks in a project.  
   
- To access the Project object model from an VSTO Add-in, use the `Application` field of the `ThisAddIn` class in your project. The `Application` field returns a `Microsoft.Office.Interop.MsProject.Application` object that represents the current instance of Project. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
+ To access the Project object model from a VSTO Add-in, use the `Application` field of the `ThisAddIn` class in your project. The `Application` field returns a `Microsoft.Office.Interop.MsProject.Application` object that represents the current instance of Project. For more information, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
   
  When you call into the Project object model, you use types that are provided in the primary interop assembly for Project. The primary interop assembly acts as a bridge between the managed code in the VSTO Add-in and the COM object model in Project. All types in the Project primary interop assembly are defined in the `Microsoft.Office.Interop.MSProject` namespace. For more information about primary interop assemblies, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md) and [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).  
   
 ## Use the project object model documentation  
  For complete information about the Project object model, you can refer to the Project VBA object model reference. The VBA object model reference documents the Project object model as it is exposed to Visual Basic for Applications (VBA) code. For more information, see [Project 2010 object model reference](http://go.microsoft.com/fwlink/?LinkId=199771).  
   
- All of the objects and members in the VBA object model reference correspond to types and members in the Project primary interop assembly (PIA). For example, the Calendar object in the VBA object model reference corresponds to the `Microsoft.Office.Interop.MSProject.Calendar` type in the Project PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in an Project VSTO Add-in project that you create by using Visual Studio.  
+ All of the objects and members in the VBA object model reference correspond to types and members in the Project primary interop assembly (PIA). For example, the Calendar object in the VBA object model reference corresponds to the `Microsoft.Office.Interop.MSProject.Calendar` type in the Project PIA. Although the VBA object model reference provides code examples for most properties, methods, and events, you must translate the VBA code in this reference to Visual Basic or Visual C# if you want to use them in a Project VSTO Add-in project that you create by using Visual Studio.  
   
 > [!NOTE]  
 >  At this time, there is no reference documentation for the Project primary interop assembly.  

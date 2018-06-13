@@ -27,7 +27,7 @@ ms.workload:
   
  Microsoft Office Excel and Microsoft Office Word provide the capability to map schemas to your documents. This feature can simplify importing and exporting XML data in and out of the document.  
   
- Visual Studio exposes mapped schema elements in document-level customizations as controls in the programming model. For Excel, Visual Studio adds support for binding the controls to data in databases, Web services, and objects. For Word and Excel, Visual Studio adds support for actions panes, which can be used with a schema-mapped document to create an enhanced end user experience for your solutions. For more information, see [Actions pane overview](../vsto/actions-pane-overview.md).  
+ Visual Studio exposes mapped schema elements in document-level customizations as controls in the programming model. For Excel, Visual Studio adds support for binding the controls to data in databases, Web services, and objects. For Word and Excel, Visual Studio adds support for actions panes, which can be used with a schema-mapped document to create an enhanced end-user experience for your solutions. For more information, see [Actions pane overview](../vsto/actions-pane-overview.md).  
   
 > [!NOTE]  
 >  You cannot use multipart XML schemas in Excel solutions.  
@@ -52,7 +52,7 @@ ms.workload:
     >  The <xref:System.Windows.Forms.BindingSource> is not created for <xref:Microsoft.Office.Tools.Excel.ListObject> objects. You must manually bind the <xref:Microsoft.Office.Tools.Excel.ListObject> to the data source by setting the <xref:System.Windows.Forms.BindingSource.DataSource%2A> and <xref:System.Windows.Forms.BindingSource.DataMember%2A> properties in the **Properties** window.  
   
 ### Office mapped schemas and the Visual Studio Data Sources window  
- Both the mapped schema functionality of Office and the Visual Studio **Data Sources** window can help you present data on an Excel worksheet for reporting or editing. In both cases you can drag data elements onto the Excel worksheet. Both methods create controls that are data bound through a <xref:System.Windows.Forms.BindingSource> to a data source such as a <xref:System.Data.DataSet> or a Web service.  
+ Both the mapped schema functionality of Office and the Visual Studio **Data Sources** window can help you present data on an Excel worksheet for reporting or editing. In both cases you can drag data elements onto the Excel worksheet. Both methods create controls that are data bound through a <xref:System.Windows.Forms.BindingSource> to a data source such as a <xref:System.Data.DataSet> or a web service.  
   
 > [!NOTE]  
 >  When you map a repeating schema element to a worksheet, Visual Studio creates a <xref:Microsoft.Office.Tools.Excel.ListObject>. The <xref:Microsoft.Office.Tools.Excel.ListObject> is not automatically bound to data through the <xref:System.Windows.Forms.BindingSource>. You must manually bind the <xref:Microsoft.Office.Tools.Excel.ListObject> to the data source by setting the <xref:System.Windows.Forms.BindingSource.DataSource%2A> and <xref:System.Windows.Forms.BindingSource.DataMember%2A> properties in the **Properties** window.  

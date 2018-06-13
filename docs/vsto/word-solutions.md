@@ -66,7 +66,7 @@ ms.workload:
  For more information about the `ThisDocument` class and other features you can use in a document-level project, see [Program document-level customizations](../vsto/programming-document-level-customizations.md).  
   
 ##  <a name="applevel"></a> Develop VSTO Add-ins for Word  
- A VSTO Add-in for Microsoft Office Word consists of an assembly that is loaded by Word. The assembly typically extends Word by customizing the UI and by automating Word. Unlike a document-level customization, which is associated with a specific document, functionality that you implement in an VSTO Add-in is not restricted to any single document.  
+ A VSTO Add-in for Microsoft Office Word consists of an assembly that is loaded by Word. The assembly typically extends Word by customizing the UI and by automating Word. Unlike a document-level customization, which is associated with a specific document, functionality that you implement in a VSTO Add-in is not restricted to any single document.  
   
  To create a VSTO Add-in project for Word, use the Word Add-in project templates in the **New Project** dialog box of Visual Studio. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
@@ -75,7 +75,7 @@ ms.workload:
 ### Word Add-in programming model  
  When you create a Word VSTO Add-in project, Visual Studio generates a class, called `ThisAddIn`, which is the foundation of your solution. This class provides a starting point for writing your code, and it also exposes the object model of Word to your VSTO Add-in.  
   
- For more information about the `ThisAddIn` class and other features you can use in an VSTO Add-in, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
+ For more information about the `ThisAddIn` class and other features you can use in a VSTO Add-in, see [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md).  
   
 ##  <a name="UI"></a> Customize the user interface of Word  
  There are several different ways to customize the user interface of Word. Some options are available to all project types, and other options are available only to VSTO Add-ins or document-level customizations.  

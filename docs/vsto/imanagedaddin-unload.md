@@ -21,7 +21,7 @@ ms.workload:
   
 ## Syntax  
   
-```c++
+```csharp
 HRESULT Unload();  
 ```  
   

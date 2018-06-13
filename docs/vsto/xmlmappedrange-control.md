@@ -28,7 +28,7 @@ ms.workload:
 ## Bind data to the control  
  An <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control supports binding to a single data field (simple data binding). The <xref:Microsoft.Office.Tools.Excel.ListObject> control can supports complex data binding, and is automatically created when a repeating schema element is mapped onto a cell. For more information, see [ListObject control](../vsto/listobject-control.md).  
   
- The <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control are bound to a data source using the <xref:System.Windows.Forms.Control.DataBindings%2A> property. When an <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> is added to a worksheet cell, Visual Studio automatically generates a data set from the data in the mapped cells, and binds the control to that data set. The default data binding property of the <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> is <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.Value2%2A>.  
+ The <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control is bound to a data source using the <xref:System.Windows.Forms.Control.DataBindings%2A> property. When an <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> is added to a worksheet cell, Visual Studio automatically generates a data set from the data in the mapped cells, and binds the control to that data set. The default data binding property of the <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> is <xref:Microsoft.Office.Tools.Excel.XmlMappedRange.Value2%2A>.  
   
  If the data in the bound data set is updated through any mechanism, the <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control reflects the changes.  
   
