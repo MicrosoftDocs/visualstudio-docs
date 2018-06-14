@@ -126,7 +126,7 @@ As an example, the following steps create a little code to explore the [Central 
 
     ![Updated dual plot in Visual Studio, scaled correctly](media/getting-started-10-plot3.png)
 
-There's more you can do in the editor. For details, see [Edit R code in Visual Studio](editing-r-code-in-visual-studio.md), [IntelliSense](r-intellisense.md), and [Code snippets](code-snippets-for-r.md).
+There's more you can do in the editor. For details, see [Edit R code](editing-r-code-in-visual-studio.md), [IntelliSense](r-intellisense.md), and [Code snippets](code-snippets-for-r.md).
 
 ## Debug your code
 

@@ -83,7 +83,7 @@ Offline installation is suitable for computers that are not connected to the Int
 ## See also
 
 - [Get started with R](getting-started-with-r.md)
-- [R Tools for Visual Studio sample projects](getting-started-samples.md)
-- [Help in R Tools for Visual Studio](getting-started-help.md)
-- [R Tools for Visual Studio options](options-for-r-tools-in-visual-studio.md)
+- [R Tools sample projects](getting-started-samples.md)
+- [Help in R Tools](getting-started-help.md)
+- [R Tools options](options-for-r-tools-in-visual-studio.md)
 - [Microsoft Machine Learning Server (formerly R Server)](/machine-learning-server/)

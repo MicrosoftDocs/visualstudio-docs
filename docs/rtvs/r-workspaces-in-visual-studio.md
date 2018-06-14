@@ -74,7 +74,7 @@ RTVS is bound to only a single workspace at a time. The bound workspace is indic
 To change the active workspace, select the blue arrow next to the desired workspace. Doing so prompts you to save your session, terminates the current workspace, then switches to the new one.
 
 > [!Tip]
-> To disable the save prompt, select the **R Tools** > **Options** command and set the **Show confirmation dialog before switching workspaces** option to `No`. See [Workspace](options-for-r-tools-in-visual-studio.md#workspace).
+> To disable the save prompt, select the **R Tools** > **Options** command and set the **Show confirmation dialog before switching workspaces** option to `No`. See [Workspace options](options-for-r-tools-in-visual-studio.md#workspace).
 
 If you attempt to switch to a local workspace that's been uninstalled, or to a remote workspace that it unavailable, RTVS might not be bound to any workspace. As a result, you might see an error when you enter code in the interactive window or try to run code otherwise:
 

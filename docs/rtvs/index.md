@@ -24,7 +24,7 @@ R Tools for Visual Studio (RTVS) is a free, [open-source](https://github.com/mic
 To experience R in Visual Studio:
 
 - [Install the R Tools](installing-r-tools-for-visual-studio.md).
-- Follow the [Get started with R Tools for Visual Studio](getting-started-with-r.md) guide, as well as the [R Tools for Visual Studio sample projects](getting-started-samples.md) and [Help in R Tools for Visual Studio](getting-started-help.md) articles.
+- Follow the [Getting started](getting-started-with-r.md) guide, as well as the [Samples](getting-started-samples.md) and [Getting Help](getting-started-help.md) articles.
 
 Then follow the links below to learn more about R-related features as well as the general capabilities of Visual Studio itself.
 

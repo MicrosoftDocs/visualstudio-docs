@@ -26,7 +26,7 @@ Settings are accessed through the **R Tools** > **Options** menu, or through **T
 Options and settings specific to R are accessed using the methods below. You must select the **Show all settings** box at the bottom of the **Options** dialog box for all of these sections to appear.
 
 - Code formatting options (see [Editor options](editing-r-code-in-visual-studio.md#editor-options): **Tools** > **Options** menu, then select **Text Editor** > **R** > **Formatting**
-- Linting options (see [Linting R code in Visual Studio](linting-r-code.md)): **Tools** > **Options** menu, then select **Text Editor** > **R** > **Lint**
+- Linting options (see [Linting](linting-r-code.md)): **Tools** > **Options** menu, then select **Text Editor** > **R** > **Lint**
 - Advanced editor options ([described in this article](#text-editor--r--advanced-options)): **Tools** > **Options** menu, then select **Text Editor** > **R** > **Advanced**
 - Behavioral options ([described in this article](#r-tools--advanced-options)): **R Tools** > **Options** menu, or **Tools** > **Options**, then scroll to **R Tools**.
 
@@ -62,7 +62,7 @@ The following sections describe the different options available on this page.
 
 ### Debugging
 
-These options control how values are handled in [Variable Explorer](variable-explorer.md) and in debugger windows like Watch and Locals (see [Debug R in Visual Studio](debugging-r-in-visual-studio.md)).
+These options control how values are handled in [Variable Explorer](variable-explorer.md) and in debugger windows like Watch and Locals (see [Debug R code](debugging-r-in-visual-studio.md)).
 
 | Option | Default value | Description |
 | --- | --- | --- |
