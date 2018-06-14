@@ -42,7 +42,7 @@ RTVS does not install if you have only the Visual Studio Shell that's included w
 
 1. Set any additional options on the right side under the same workload name. By default, this workload includes F# and Python support. For R, minimum requirements are **R language support**, **Runtime support for R development**, and **Microsoft R client**.
 
-RTVS is installed in: *%ProgramFiles(x86)%\Microsoft Visual Studio\<version>\<edition>Common7\IDE\Extensions\Microsoft\R Tools for Visual Studio* where `<version>` is typically `2017` and `<edition>` is `Community`, `Professional`, or `Enterprise`.
+RTVS is installed in: *%ProgramFiles(x86)%\Microsoft Visual Studio\<version>\<edition>Common7\IDE\Extensions\Microsoft\R Tools for Visual Studio* where *\<version>* is typically `2017` and *\<edition>* is `Community`, `Professional`, or `Enterprise`.
 
 ## Install RTVS in Visual Studio 2015
 
