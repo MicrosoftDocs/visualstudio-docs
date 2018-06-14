@@ -52,7 +52,7 @@ To create a region of your own, surround the desired code with comments that end
 
 ![Creating a collapsible region with comments](media/editing-collapsible-regions.gif)
 
-By default, Visual Studio inserts spaces when you press the Tab key. You can again change this behavior as described on [Options, Text Editor, Tabs](../ide/reference/options-text-editor-all-languages.md).
+By default, Visual Studio inserts spaces when you press the **Tab** key. You can again change this behavior as described on [Options, Text Editor, Tabs](../ide/reference/options-text-editor-all-languages.md).
 
 ## Code navigation
 

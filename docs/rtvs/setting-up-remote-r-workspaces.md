@@ -73,7 +73,7 @@ For background, see [self-signed certificates](https://en.wikipedia.org/wiki/Sel
 
 ### Install the certificate
 
-To install the certificate on the remote computer, run `certlm.msc` (the certificate manager) from a command prompt. **Right-click** on the **Personal** folder and select the **All Tasks** > **Import** command:
+To install the certificate on the remote computer, run *certlm.msc* (the certificate manager) from a command prompt. **Right-click** on the **Personal** folder and select the **All Tasks** > **Import** command:
 
 ![Import certificate command](media/workspaces-remote-certificate-import.png)
 
@@ -81,7 +81,7 @@ To install the certificate on the remote computer, run `certlm.msc` (the certifi
 
 Once the certificate is imported, grant the `NETWORK SERVICE` account permissions to read the private key as described in the following instructions. `NETWORK_SERVICE` is the account used to run the R Services broker, which is the service that terminates incoming SSL connections to the server computer.
 
-1. Run `certlm.msc` (the Certificate Manager) from an administrator command prompt.
+1. Run *certlm.msc* (the Certificate Manager) from an administrator command prompt.
 1. Expand **Personal** > **Certificates**, **right-click** your certificate, and select **All Tasks** > **Manage Private Keys**.
 1. **Right-click** on the certificate and select the **Manage Private Keys** command under **All Tasks**.
 1. In the dialog that appears, select **Add** and enter `NETWORK SERVICE` as the account name:
@@ -146,17 +146,17 @@ To run R code, the remote computer must have an R interpreter installed as follo
 
 1. Run the [R Services installer](https://aka.ms/rtvs-services) and reboot when prompted. The installer does the following:
 
-    - Create a folder in `%PROGRAMFILES%\R Tools for Visual Studio\1.0\` and copy all the required binaries.
+    - Create a folder in *%PROGRAMFILES%\R Tools for Visual Studio\1.0\* and copy all the required binaries.
     - Install `RHostBrokerService` and `RUserProfileService` and configure to start automatically.
     - Configure the `seclogon` service to start automatically.
-    - Add `Microsoft.R.Host.exe` and `Microsoft.R.Host.Broker.exe` to the firewall inbound rules on the default port 5444.
+    - Add *Microsoft.R.Host.exe* and *Microsoft.R.Host.Broker.exe* to the firewall inbound rules on the default port 5444.
 
 R services start automatically when the computer reboots:
 
 - **R Host Broker Service** handles all HTTPS traffic between Visual Studio and process where the R code runs on the computer.
 - **R User Profile Service** is a privileged component that handles Windows user profile creation. The service is called when a new user first logs on to the R server computer.
 
-You can see these services in the services management console (`compmgmt.msc`).
+You can see these services in the services management console (*compmgmt.msc*).
 
 ## Install R Services on Linux
 
@@ -185,7 +185,7 @@ With R services running on the remote computer, you also need to create user acc
 
     However, if you are installing your certificate on an Internet-facing server (such as an Azure VM), use the fully-qualified domain name (FQDN) of your server because the FQDN of an Internet-facing server is never the same as its NETBIOS name.
 
-    To use the FQDN, navigate to where R Services is installed (`%PROGRAM FILES%\R Remote Service for Visual Studio\1.0` by default), open the `Microsoft.R.Host.Broker.Config.json` file in a text editor, and replace its contents with the following, assigning CN to whatever your server's FQDN, such as `foo.westus.cloudapp.azure.com`:
+    To use the FQDN, navigate to where R Services is installed (*%PROGRAM FILES%\R Remote Service for Visual Studio\1.0* by default), open the *Microsoft.R.Host.Broker.Config.json* file in a text editor, and replace its contents with the following, assigning CN to whatever your server's FQDN, such as `foo.westus.cloudapp.azure.com`:
 
     ```json
     {
@@ -212,14 +212,14 @@ There are three possible reasons:
 - Firewall rules for `Microsoft.R.Host.Broker` and `Microsoft.R.Host` aren't enabled for both incoming and outgoing connections on port 5444.
 - An SSL certificate with `CN=<remote-machine-name>` was not installed.
 
-Restart the computer after making any of the above changes. Then make sure that `RHostBrokerService` and `RUserProfileService` are running through either Task Manager (services tab) or `services.msc`.
+Restart the computer after making any of the above changes. Then make sure that `RHostBrokerService` and `RUserProfileService` are running through either Task Manager (services tab) or *services.msc*.
 
 **Q. Why does the R interactive window say "401 Access denied" while connecting to the R server?**
 
 There are two possible reasons:
 
 - It is highly likely that the `NETWORK SERVICE` account does not have access to the private key of the SSL certificate. Follow the earlier instructions to grant the `NETWORK SERVICE` access to the private key.
-- Make sure that `seclogon` service is running. Use `services.msc` to configure `seclogon` to start automatically.
+- Make sure that `seclogon` service is running. Use *services.msc* to configure `seclogon` to start automatically.
 
 **Q. Why does the R interactive window say "404 Not found" while connecting to the R server?**
 
@@ -231,4 +231,4 @@ Ensure that the firewall rules for `Microsoft.R.Host.Broker` and `Microsoft.R.Ho
 
 **Q. I've tried all these solutions, and it still doesn't work. Now what?**
 
-Look in the log files in `C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Temp`. This folder contains separate log files for each instance of the R Broker Service that was run. A new log file is created whenever the service restarts. Check the most recent log file for clues about what might be going wrong.
+Look in the log files in *C:\Windows\ServiceProfiles\NetworkService\AppData\Local\Temp*. This folder contains separate log files for each instance of the R Broker Service that was run. A new log file is created whenever the service restarts. Check the most recent log file for clues about what might be going wrong.

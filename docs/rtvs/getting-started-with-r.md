@@ -67,7 +67,7 @@ The interactive window also lets you review your history, load and save workspac
 
 Working briefly with the interactive window demonstrates basic editing features like IntelliSense that also work in the code editor. If you enter the same code as before, you see the same auto-completion and IntelliSense prompts, but not the output.
 
-Writing code in a `.R` file lets you see all your code at once, and makes it easier to make small changes and then quickly see the result by running the code in the interactive window. You can also have as many files as you want in a project. When code is in a file, you can also run it step-by-step in the debugger (discussed later in this article). These capabilities are helpful when you're developing computational algorithms and writing code to manipulate one or more datasets, especially when you want to examine all intermediate results.
+Writing code in a *.R* file lets you see all your code at once, and makes it easier to make small changes and then quickly see the result by running the code in the interactive window. You can also have as many files as you want in a project. When code is in a file, you can also run it step-by-step in the debugger (discussed later in this article). These capabilities are helpful when you're developing computational algorithms and writing code to manipulate one or more datasets, especially when you want to examine all intermediate results.
 
 As an example, the following steps create a little code to explore the [Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem) (Wikipedia). (This example is adapted from the *R Cookbook* by Paul Teetor.)
 
@@ -81,7 +81,7 @@ As an example, the following steps create a little code to explore the [Central 
     plot(density(pop), main = "Population Density", xlab = "X", ylab = "")
     ```
 
-1. To quickly see the results, select all the code (Ctrl+A), then press Ctrl+Enter or right-click and select **Execute In Interactive**. All the selected code is run in the interactive window as if you typed it directly, showing the result in a plot window:
+1. To quickly see the results, select all the code (**Ctrl**+**A**), then press **Ctrl**+**Enter** or **right-click** and select **Execute In Interactive**. All the selected code is run in the interactive window as if you typed it directly, showing the result in a plot window:
 
     ![Display of a plot in Visual Studio](media/getting-started-08-plot1.png)
 
@@ -132,13 +132,13 @@ There's more you can do in the editor. For details, see [Edit R code](editing-r-
 
 One of the key strengths of Visual Studio is its debugging UI. RTVS builds on top of this strong foundation and adds innovative UI such as the [Variable Explorer](variable-explorer.md). Here, let's just take a first look at debugging.
 
-1. To begin, reset the current workspace to clear everything you've done so far by using the **R Tools** > **Session** > **Reset** menu command. By default, everything you do in the interactive window accrues to the current session, which is then also used by the debugger. By resetting the session, you ensure that the debugging session starts with no pre-existing data. The **Reset** command, however, doesn't affect your `script.R` source file, because that's managed and saved outside of the workspace.
+1. To begin, reset the current workspace to clear everything you've done so far by using the **R Tools** > **Session** > **Reset** menu command. By default, everything you do in the interactive window accrues to the current session, which is then also used by the debugger. By resetting the session, you ensure that the debugging session starts with no pre-existing data. The **Reset** command, however, doesn't affect your *script.R* source file, because that's managed and saved outside of the workspace.
 
-1. With the `script.R` file created in the previous section, set a breakpoint on the line that begins with `pop <-` by placing the caret on that line and then pressing **F9**, or selecting the **Debug** > **Toggle Breakpoint** menu command. Alternately, simply click in the left-hand margin (or gutter) for that line where the red breakpoint dot appears:
+1. With the *script.R* file created in the previous section, set a breakpoint on the line that begins with `pop <-` by placing the caret on that line and then pressing **F9**, or selecting the **Debug** > **Toggle Breakpoint** menu command. Alternately, simply click in the left-hand margin (or gutter) for that line where the red breakpoint dot appears:
 
     ![Setting a breakpoint in the editor](media/getting-started-11-debug1.png)
 
-1. Launch the debugger with the code in `script.R` by either selecting the **Source startup file** button on the toolbar, selecting the **Debug** > **Source startup file** menu items, or pressing **F5**. Visual Studio enters its debugging mode and starts running the code. It stops, however, on the line where you set the breakpoint:
+1. Launch the debugger with the code in *script.R* by either selecting the **Source startup file** button on the toolbar, selecting the **Debug** > **Source startup file** menu items, or pressing **F5**. Visual Studio enters its debugging mode and starts running the code. It stops, however, on the line where you set the breakpoint:
 
     ![Stopping on a breakpoint in the Visual Studio debugger](media/getting-started-12-debug2.png)
 

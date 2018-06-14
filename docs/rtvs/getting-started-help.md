@@ -39,7 +39,7 @@ The help window also has a search input field through which you can conduct furt
 
 Developers often search the R documentation for help on function names, datasets, and other elements. R Tools for Visual Studio (RTVS) streamlines the process by integrating help lookups directly into the editor and interactive windows.
 
-- Pressing F1 during an auto-complete operation produces a list of help results that match the substring.
+- Pressing **F1** during an auto-complete operation produces a list of help results that match the substring.
 - Right-clicking a search term (like a function) and selecting the **Help on** command opens help for that function. You can also invoke **Help on** for any selection.
 
     ![Invoking help through the right click context menu](media/help-right-click.png)

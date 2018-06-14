@@ -64,19 +64,19 @@ RTVS simplifies the otherwise unwieldy and error-prone process of combining SQL 
 
     ![SQL Connection Dialog](media/sql-connection-string-dialog.png)
 
-1. Once you select **OK** with a valid connection, Visual Studio generates a connection string named `dbConnection` in a new `settings.R` file. RTVS automatically sources (runs) this file, so you can immediately use the connection from R scripts:
+1. Once you select **OK** with a valid connection, Visual Studio generates a connection string named `dbConnection` in a new *settings.R* file. RTVS automatically sources (runs) this file, so you can immediately use the connection from R scripts:
 
 ![SQL Settings.R file](media/sql-settings-dot-r.png)
 
 ### Write and test a SQL stored procedure
 
-To add a new SQL Stored Procedure, **right-click** your project, select **Add** > **New Item**, select **SQL Stored Procedure with R** from the list of templates, give the file a name (`StoredProcedure.R` in this example), and select **OK**.
+To add a new SQL Stored Procedure, **right-click** your project, select **Add** > **New Item**, select **SQL Stored Procedure with R** from the list of templates, give the file a name (*StoredProcedure.R* in this example), and select **OK**.
 
-RTVS creates three files for the stored procedure: a `.R` file for your R code, a `.Query.sql` file for the SQL code, and a `.Template.sql` file that combines the two. They latter two appear in Solution Explorer as children of the `.R` file:
+RTVS creates three files for the stored procedure: a *.R* file for your R code, a *.Query.sql* file for the SQL code, and a *.Template.sql* file that combines the two. They latter two appear in Solution Explorer as children of the *.R* file:
 
 ![Solution Explorer expanded view of SQL Stored Procedure with R](media/sql-solution-explorer-expanded.png)
 
-`StoredProcedure.R` (in this example) is where you write R code. The default contents are:
+*StoredProcedure.R* (in this example) is where you write R code. The default contents are:
 
 ```R
 # @InputDataSet: input data frame, result of SQL query execution
@@ -98,17 +98,17 @@ Simply said, the code receives an R dataframe called `InputDataSet` and returns 
 
 The other generated code (in comments) provides a small test script that uses the [RODBC package](https://cran.r-project.org/web/packages/RODBC/index.html) to transmit a SQL statement to SQL Server, run it, and retrieve its result set as an R dataframe. You can uncomment this test code to interactively write your R code against the result set that you get from SQL Server.
 
-`StoredProcedure.Query.sql` is where you write and test the SQL query that generates the data for `InputDataSet`. With this `.sql` file, the editor provides all the usual Transact-SQL features to you.
+*StoredProcedure.Query.sql* is where you write and test the SQL query that generates the data for `InputDataSet`. With this *.sql* file, the editor provides all the usual Transact-SQL features to you.
 
-Once you're happy with your SQL code, integrate it with your R code in `StoredProcedure.R` by dragging the `.sql` file onto the open editor for the `.R` file. In the image below, `StoredProcedure.Query.sql` has been dragged to the point after the comma in `sqlQuery(channel, )`:
+Once you're happy with your SQL code, integrate it with your R code in *StoredProcedure.R* by dragging the *.sql* file onto the open editor for the *.R* file. In the image below, *StoredProcedure.Query.sql* has been dragged to the point after the comma in `sqlQuery(channel, )`:
 
 ![Reading SQL File into R String Variable](media/sql-reference-sql-file-from-r.png)
 
-As you can see, this simple step automatically generates R code to open the `.sql` file, read its content into a string, and pass it to the RODBC package to send it to SQL Server.
+As you can see, this simple step automatically generates R code to open the *.sql* file, read its content into a string, and pass it to the RODBC package to send it to SQL Server.
 
-You can now interactively write R code that manipulates the `InputDataSet` dataframe as desired. Remember that you can just select R code in the editor and send it to the [interactive window](interactive-repl-for-r-in-visual-studio.md) by pressing Ctrl+Enter.
+You can now interactively write R code that manipulates the `InputDataSet` dataframe as desired. Remember that you can just select R code in the editor and send it to the [interactive window](interactive-repl-for-r-in-visual-studio.md) by pressing **Ctrl**+**Enter**.
 
-`StoredProcedure.Template.sql`, finally, contains the template for generating your SQL Stored Procedure:
+*StoredProcedure.Template.sql*, finally, contains the template for generating your SQL Stored Procedure:
 
 ```sql
 CREATE PROCEDURE [StoredProcedure]
@@ -122,9 +122,9 @@ EXEC sp_execute_external_script @language = N'R'
 END;
 ```
 
-- The `_RCODE_` placeholder is replaced by the contents of `StoredProcedure.R`.
-- The `_INPUT_QUERY_` placeholder is replaced by the contents of `StoredProcedure.Query.sql`.
-- Edit the `WITH RESULT SETS` clause to describe the schema of the result set returned from the stored procedure. Specifically identify the columns from the `OutputDataSet` dataframe that you want to return to the caller of the stored procedure. 
+- The `_RCODE_` placeholder is replaced by the contents of *StoredProcedure.R*.
+- The `_INPUT_QUERY_` placeholder is replaced by the contents of *StoredProcedure.Query.sql*.
+- Edit the `WITH RESULT SETS` clause to describe the schema of the result set returned from the stored procedure. Specifically identify the columns from the `OutputDataSet` dataframe that you want to return to the caller of the stored procedure.
 
 For example, for the following query:
 
@@ -148,4 +148,4 @@ WITH RESULT SETS ((medallion NVARCHAR(max), hack_license NVARCHAR(max)));
 1. To publish all stored procedures in a project, you can use the **R Tools** > **Data** > **Publish Stored Procedures** command, which is also available when you right-click the project in Solution Explorer.
 
 > [!Tip]
-> If you have the SQL Server Object Explorer open in Visual Studio, your published stored procedure appears in the **Programmability** > **Stored Procedures** folder of your database. You can also run it from the Object Explorer by right-clicking and selecting **Execute Procedure**, or by calling it interactively from a `.sql` query window.
+> If you have the SQL Server Object Explorer open in Visual Studio, your published stored procedure appears in the **Programmability** > **Stored Procedures** folder of your database. You can also run it from the Object Explorer by right-clicking and selecting **Execute Procedure**, or by calling it interactively from a *.sql* query window.

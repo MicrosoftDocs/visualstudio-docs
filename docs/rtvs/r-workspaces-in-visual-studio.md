@@ -32,13 +32,13 @@ The **R Tools** > **Session** > **Reset** command and the reset toolbar button i
 
 The Local workspaces list displays all the R interpreters that you have installed on your computer. 
 
-When Visual Studio starts, it attempts to automatically detect all of the versions of R that you have installed by looking through the `HKEY_LOCAL_MACHINE\Software\R-Core\` registry key. Because this check is done only at startup, you need to restart Visual Studio if you install a new R interpreter.
+When Visual Studio starts, it attempts to automatically detect all of the versions of R that you have installed by looking through the **HKEY_LOCAL_MACHINE\Software\R-Core\** registry key. Because this check is done only at startup, you need to restart Visual Studio if you install a new R interpreter.
 
 RTVS might not detect an R interpreter that's installed in a non-standard way (for example, when simply copying files to a folder instead of running an installer). In this case, manually create a new local R Workspace as follows:
 
 1. Select the **Add** button in the Workspaces window.
 1. Enter a name for the new Workspace.
-1. Enter the path to the R root folder, which is the one that contains the `bin` folder with the interpreter, along with any optional command-line arguments to pass to the interpreter when RTVS starts it up.
+1. Enter the path to the R root folder, which is the one that contains the *bin* folder with the interpreter, along with any optional command-line arguments to pass to the interpreter when RTVS starts it up.
 1. Select **Save** when you're done.
 
 ![Adding a new workspace](media/workspaces-add-new.png)
@@ -96,9 +96,9 @@ However, this warning also appears if a *self-signed certificate* was used to en
 
 ## Directories on local and remote computers
 
-By default, when you start a new R interpreter in a local workspace, your current working directory is `%userprofile%\Documents`. You can change directory at any time using the **R Tools** > **Working Directory** commands, or by right-clicking a project in Visual Studio Solution Explorer and selecting commands like **Set Working Directory Here**.
+By default, when you start a new R interpreter in a local workspace, your current working directory is *%userprofile%\Documents*. You can change directory at any time using the **R Tools** > **Working Directory** commands, or by right-clicking a project in Visual Studio Solution Explorer and selecting commands like **Set Working Directory Here**.
 
-When you first connect to a remote computer, RTVS automatically creates a user profile based on your credentials, which sets the working directory to the  `Documents` folder under that profile. This folder is used for all subsequent remote sessions that use the same credentials. 
+When you first connect to a remote computer, RTVS automatically creates a user profile based on your credentials, which sets the working directory to the *Documents* folder under that profile. This folder is used for all subsequent remote sessions that use the same credentials.
 
 As a result, the exact location where your code runs can differ between local and remote workspaces. In your code, then, always use relative paths to data files and such so that your code is portable across workspaces.
 
@@ -125,8 +125,8 @@ Files are copied to the remote server as follows:
 
 ![Project properties run tab with file transfer settings](media/workspaces-remote-file-transfer-filter-settings.png)
 
-Here, the **Transfer files on run** property determines whether RTVS copies project files automatically. The **Files to transfer** value then filters exactly which files are transferred. The default is to copy only `.R`, `.Rmd`, `.sql`, `.md`, and `.cpp` files. This behavior avoids inadvertently copying large data files to the server with every run. 
+Here, the **Transfer files on run** property determines whether RTVS copies project files automatically. The **Files to transfer** value then filters exactly which files are transferred. The default is to copy only *.R*, *.Rmd*, *.sql*, *.md*, and *.cpp* files. This behavior avoids inadvertently copying large data files to the server with every run. 
 
 ## Copy files from a remote workspace
 
-If your R script generates files on the server, you can copy those files back to the client using the `rtvs::fetch_file` function. This function accepts, at a minimum, the remote path to the file that you want to copy to your computer, and optionally the target path on your computer. If you don't specify a path, the file is copied into your `%userprofile%\Downloads` folder.
+If your R script generates files on the server, you can copy those files back to the client using the `rtvs::fetch_file` function. This function accepts, at a minimum, the remote path to the file that you want to copy to your computer, and optionally the target path on your computer. If you don't specify a path, the file is copied into your *%userprofile%\Downloads* folder.

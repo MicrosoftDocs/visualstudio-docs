@@ -37,5 +37,5 @@ The package manager has three tabs. Each tab displays a list of relevant package
 
 Packages are installed in the following locations:
 
-- Core packages that are included with RTVS are installed in `C:\Program Files\Microsoft\R Client\R_SERVER\library`
-- Additional packages are installed to `%userprofile%\Documents\R\win-library\3.3`
+- Core packages that are included with RTVS are installed in *C:\Program Files\Microsoft\R Client\R_SERVER\library*
+- Additional packages are installed to *%userprofile%\Documents\R\win-library\3.3*

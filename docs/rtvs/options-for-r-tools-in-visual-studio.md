@@ -87,8 +87,8 @@ These options control how values are handled in [Variable Explorer](variable-exp
 
 | Option | Default value | Description |
 | --- | --- | --- |
-| Always save history | `True` | Controls whether RTVS writes your command history to a `.RHistory` file in your working directory whenever the project is closed. Saving the history happens even if you don't save your project before you exit. |
-| Reset search filter | `True` | Determines whether the History window can filter your command history to show only the commands that substring match against the filter term in the R History dialog. This setting determines whether to reset your History search filter whenever you run a new command or switch to a new project, which triggers the load of a different `.RHistory` file. The default setting of `True` minimizes surprise when you run a command with a filter set, and you wonder why the command you just ran didn't show up in the History. |
+| Always save history | `True` | Controls whether RTVS writes your command history to a *.RHistory* file in your working directory whenever the project is closed. Saving the history happens even if you don't save your project before you exit. |
+| Reset search filter | `True` | Determines whether the History window can filter your command history to show only the commands that substring match against the filter term in the R History dialog. This setting determines whether to reset your History search filter whenever you run a new command or switch to a new project, which triggers the load of a different *.RHistory* file. The default setting of `True` minimizes surprise when you run a command with a filter set, and you wonder why the command you just ran didn't show up in the History. |
 | Use multiline selection | `True` | Specifies whether you can select a multi-line statement in History with a single click. Also enables up/down arrow navigation in the Interactive Windows by statements rather than lines. |
 
 ### HTML
@@ -113,15 +113,15 @@ These options control how values are handled in [Variable Explorer](variable-exp
 
 | Option | Default value | Description |
 | --- | --- | --- |
-| Code page | `(OS Default)` | Sets the code page (locale) for R. By default it uses the underlying locale of the operating system. | 
-| CRAN Mirror | `(Use .Rprofile)` | Sets the default CRAN mirror for package installations. The default setting of `Use .Rprofile` respects the CRAN Mirror settings in your `.RProfile` file. |
+| Code page | `(OS Default)` | Sets the code page (locale) for R. By default it uses the underlying locale of the operating system. |
+| CRAN Mirror | `(Use .Rprofile)` | Sets the default CRAN mirror for package installations. The default setting of `Use .Rprofile` respects the CRAN Mirror settings in your *.RProfile* file. |
 
 ### Workspace
 
 | Option | Default value | Description |
 | --- | --- | --- |
-| Load workspace when project opens | `No` | Setting to `Yes` enables loading of session data from the `.RData` file into the global environment when the project is opened. |
+| Load workspace when project opens | `No` | Setting to `Yes` enables loading of session data from the *.RData* file into the global environment when the project is opened. |
 | Prompt to save workspace on reset | `Yes` | Setting to `No` disables prompting of saving your workspace when you click on the Reset button in the Interactive Window. |
-| Save workspace when project closes | `No` | Setting to `Yes` enables saving the global environment to the `.RData` file when the project is closed. |
+| Save workspace when project closes | `No` | Setting to `Yes` enables saving the global environment to the *.RData* file when the project is closed. |
 | Show confirmation dialog before switching workspaces | `Yes` | Setting to `No` disables prompting the user for confirmation when switching between different workspaces. See [Switch between workspaces](r-workspaces-in-visual-studio.md#switch-between-workspaces) |
 | Show machine load indicator | `False` | Controls visibility of the CPU/Memory/Network load indicator in the status bar. Because the indicator incurs network traffic, it's helpful to keep this `False` in remote metered scenarios. Changing this option requires that you restart Visual Studio. |

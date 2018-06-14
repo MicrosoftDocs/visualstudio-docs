@@ -74,9 +74,9 @@ A. No, RTVS only supports 64-bit editions of R running on 64-bit editions of Win
 
 A. Yes, you can use any source control system that is integrated into Visual Studio.
 
-**Q. What are the recommended `.gitignore` settings for an RTVS project?**
+**Q. What are the recommended *.gitignore* settings for an RTVS project?**
 
-A. Github maintains a master repository of recommended `.gitignore` files. You can see it here: [R .gitignore](https://github.com/github/gitignore/blob/master/R.gitignore)
+A. Github maintains a master repository of recommended *.gitignore* files. You can see it here: [R .gitignore](https://github.com/github/gitignore/blob/master/R.gitignore)
 
 ## Remote services
 
