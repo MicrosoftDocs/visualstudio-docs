@@ -26,8 +26,8 @@ The Visual Studio Profiling Tools provide five methods that you can use to colle
 |[Sampling](#sampling)|Collects statistical data about the work performed by an application.|
 |[Instrumentation](#instrumentation)|Collects detailed timing information about each function call.|
 |[Concurrency](#concurrency)|Collects detailed information about multi-threaded applications.|
-|[.NET memory](#net_memory)|Collects detailed information about .NET memory allocation and garbage collection.|
-|[Tier interaction](#tier_interaction)|Collects information about synchronous ADO.NET function calls to a SqlServer database.<br /><br /> Tier interaction profiling can be collected using any edition of Visual Studio. However, tier interaction profiling data can be viewed only in Visual Studio Enterprise.|
+|[.NET memory](#net-memory)|Collects detailed information about .NET memory allocation and garbage collection.|
+|[Tier interaction](#tier-interaction)|Collects information about synchronous ADO.NET function calls to a SqlServer database.<br /><br /> Tier interaction profiling can be collected using any edition of Visual Studio. However, tier interaction profiling data can be viewed only in Visual Studio Enterprise.|
 
 By using some of the profiling methods, you can also collect additional data, such as software and hardware performance counters. For more information, see [Collect additional performance data](../profiling/collecting-additional-performance-data.md).
 

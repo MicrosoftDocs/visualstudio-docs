@@ -855,6 +855,8 @@
         items:
         - name: Advanced Settings for Services Dialog Box
           href: ide/reference/advanced-settings-for-services-dialog-box.md
+      - name: Settings Page, Project Designer
+        href: ide/reference/settings-page-project-designer.md
       - name: Signing Page, Project Designer
         href: ide/reference/signing-page-project-designer.md
     - name: Property Pages, JavaScript
