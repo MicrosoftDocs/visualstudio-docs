@@ -1,5 +1,5 @@
 ---
-title: Increase Your Productivity in Visual Studio for .NET Development
+title: Increase your productivity for .NET development
 description: "An overview of navigation, code analysis, unit testing, and other features to help you write better .NET code faster."
 author: "kuhlenh"
 ms.author: "kaseyu"
@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.workload:
   - "dotnet"
 ---
-# Visual Studio 2017 .NET productivity guide
+# Visual Studio 2017 C# productivity guide
 
 Learn how [Visual Studio 2017](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) makes developers more productive than ever. Take advantage of our performance and productivity improvements like navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in the **Test Explorer**, Go To All (**Ctrl**+**T**) to navigate to file/type/member/symbol declarations, an intelligent **Exception Helper**, code style configuration and enforcement, and many refactorings and code fixes.
 
