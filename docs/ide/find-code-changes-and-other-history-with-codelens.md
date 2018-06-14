@@ -200,23 +200,25 @@ You can discover unit tests that exist for your C# or Visual Basic code without 
 
 1. Go to application code that has associated [unit test code](../test/unit-test-your-code.md).
 
-2. Review the tests for the code by pressing **Alt**+**3**.
+2. If you have not already, build your application to load the CodeLens test indicators. Make sure [discovery by built assemblies](https://docs.microsoft.com/en-us/visualstudio/test/test-explorer-faq#3-assembly-based-discovery-is-no-longer-working-for-my-project-how-do-i-turn-it-back-on) is turned on.
+
+3. Review the tests for the code by pressing **Alt**+**3**.
 
      ![CodeLens - Choose test status in code editor](../ide/media/codelens-choose-test-indicator.png)
 
-3. If you see a warning icon ![warning icon](../ide/media/codelenstestwarningicon.png), the tests haven't run yet, so run them.
+4. If you see a warning icon ![warning icon](../ide/media/codelenstestwarningicon.png), the tests haven't run yet, so run them.
 
      ![CodeLens - View unit tests not run yet](../ide/media/codelens-tests-not-yet-run.png)
 
-4. To review a test's definition, double-click the test item in the CodeLens indicator window to open the code file in the editor.
+5. To review a test's definition, double-click the test item in the CodeLens indicator window to open the code file in the editor.
 
      ![CodeLens - Go to unit test definition](../ide/media/codelens-unit-test-definition.png)
 
-5. To review the test's results, choose the test status indicator (![test failed icon](../ide/media/codelenstestfailedicon.png) or ![test passed icon](../ide/media/codelenstestpassedicon.png)), or press **Alt**+**1**.
+6. To review the test's results, choose the test status indicator (![test failed icon](../ide/media/codelenstestfailedicon.png) or ![test passed icon](../ide/media/codelenstestpassedicon.png)), or press **Alt**+**1**.
 
      ![CodeLens - See unit test result](../ide/media/codelens-unit-test-result.png)
 
-6. To see how many people changed this test, who changed this test, or how many changes were made to this test, [find your code's history](#find-code-history) and linked items.
+7. To see how many people changed this test, who changed this test, or how many changes were made to this test, [find your code's history](#find-code-history) and linked items.
 
 ## Keyboard shortcuts
 
@@ -316,6 +318,10 @@ To use the keyboard:
 ### Q: Can I manage how CodeLens processes code to show history and linked items?
 
 **A:** Yes. If your code is in TFS, use the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](/tfs/server/ref/command-line/tfsconfig-cmd).
+
+### Q: My CodeLens test indicators no longer appear in my file when I first open my solution. How can I load them?
+
+**A:** Rebuild your project to get CodeLens test indicators to load in your file. Make sure [discovery by built assemblies](https://docs.microsoft.com/en-us/visualstudio/test/test-explorer-faq#3-assembly-based-discovery-is-no-longer-working-for-my-project-how-do-i-turn-it-back-on) is turned on. In order to improve performance on initially loading files, fetching source information for test indicators is now delayed until after a build or until the user navigates to the test by double clicking on the test in the Test Explorer.
 
 ## See also
 
