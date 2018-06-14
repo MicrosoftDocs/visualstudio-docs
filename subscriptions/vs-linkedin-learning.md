@@ -84,7 +84,7 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 
 17.	You’ve successfully activated your Premium subscription offer and can now begin using LinkedIn Learning and all the other benefits of Premium!
 
-    ![LinkedIn Learning Learning Home](_img\vs-linkedin\vs-linkedin-learning-home.png)
+    ![LinkedIn Learning Home](_img\vs-linkedin\vs-linkedin-learning-home.png)
 
 ## Eligibility
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
