@@ -2,8 +2,7 @@
 title: "Replaceable Parameters | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
+ms.technology: "office-development"
 ms.topic: "conceptual"
 dev_langs: 
   - "VB"
@@ -18,8 +17,7 @@ helpviewer_keywords:
 author: TerryGLee
 ms.author: tglee
 manager: douge
-ms.workload: 
-  - "office"
+ms.workload: "office"
 ---
 # Replaceable parameters
   Replaceable parameters, or *tokens*, can be used inside project files to provide values for SharePoint solution items whose actual values aren't known at design time. They're similar in function to the standard [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] template tokens. For more information, see [Template Parameters](/visualstudio/ide/template-parameters).  

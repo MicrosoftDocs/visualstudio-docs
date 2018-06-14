@@ -119,7 +119,7 @@ ms.workload:
 ## User must refresh application page in browser while debugging to view updated image
  If you are debugging a SharePoint solution that contains an application page with a control that displays an image, such as an [!INCLUDE[TLA2#tla_html](../sharepoint/includes/tla2sharptla-html-md.md)] Image control, you must refresh the page in the browser to display any changes that were made to the image.  
   
-## Error: the site location is not valid
+## Error: The site location is not valid
  This problem can occur if [!INCLUDE[moss_14_short](../sharepoint/includes/moss-14-short-md.md)] is not installed. It might also occur if you do not have administrator access to the SharePoint Web site that is specified in the **SharePoint Customization Wizard**.  
   
 ### Error message

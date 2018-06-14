@@ -78,7 +78,7 @@ ms.workload:
     <compilation batch="false" optimizeCompilations="true">
     ```
 
-## SharePoint project deployment fails with error "failed to extract the cab file in the solution"
+## SharePoint project deployment fails with error "Failed to extract the cab file in the solution"
  If the name of any SharePoint project item contains parentheses, its solution fails on deployment with an error.
 
 ### Error message
