@@ -2645,6 +2645,11 @@
             "source_path": "connected-environment/troubleshooting.md",
             "redirect_url": "/azure/dev-spaces/troubleshooting",
             "redirect_document_id": false
+        },
+        {
+            "source_path":  "https://docs.microsoft.com/scripting/javascript/javascript-fundamentals",
+            "redirect_url":  "https://developer.mozilla.org/docs/Learn/Getting_started_with_the_web/JavaScript_basics",
+            "redirect_document_id": false
         }
     ]
 }
