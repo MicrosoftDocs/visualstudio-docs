@@ -62,9 +62,14 @@ describe('Test Suite 1', function() {
 })
 ```
 
-You must also set the **Test Framework** property in the **Properties** window to **Mocha**.
+If you haven't set the unit test options in the project properties, you must ensure the **Test Framework**
+property in the **Properties** window is set to the correct test framework for your unit test files. This is
+done automatically by the unit test file templates.
 
 ![Test Framework](../javascript/media/UnitTestsFrameworkMocha.png)
+
+> [!Note]
+> The unit test options will take preference over the settings for individual files.
 
 After opening Test Explorer (choose **Test** > **Windows** > **Test Explorer**), Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
 
@@ -80,6 +85,10 @@ You can run tests in Visual Studio 2017 or from the command line.
 ### Run tests in Visual Studio 2017
 
 You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run Selected Tests** from the shorcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by selecting **Debug Selected Tests**.
+
+> [!Warning]
+> Debugging unit tests using Node 8+ currently only works for JavaScript test files,
+> TypeScript test files will fail to hit breakpoints. As a workaround use the `debugger` keyword.
 
 > [!NOTE]
 > We don't currently support profiling tests, or code coverage.
@@ -125,17 +134,20 @@ Test execution time: 1.5731 Seconds
 
 ## <a name="addingFramework"></a>Add support for a unit test framework
 
-You can extend the support for additional test frameworks by implementing the discovery and execution logic using JavaScript. You see folders for the supported test frameworks in the following location:
- 
-*<VisualStudioFolder>\Common7\IDE\Extensions\Microsoft\NodeJsTools\TestAdapter\TestFrameworks*
+You can add support for additional test frameworks by implementing the discovery and execution logic using JavaScript. You do this by adding a folder with the name of the test framework under:
 
-Under each folder, a JavaScript file named after the folder contains two exported functions:
+`<VisualStudioFolder>\Common7\IDE\Extensions\Microsoft\NodeJsTools\TestAdapter\TestFrameworks`
+
+This folder has to contain a JavaScript file with the same name which exports the following 2 functions:
 
 * `find_tests`
 * `run_tests`
 
-For examples of `find_tests` and `run_tests` implementations, see the implementation of Mocha.
+For good a example of the `find_tests` and the `run_tests` implementations, see the implementation for the Mocha
+unit testing framework in:
 
-The name of the folder must match the name of the .*js* file. Discovery of test frameworks occurs at Visual Studio start. If a framework is added while Visual Studio is running, restart Visual Studio to detect the framework.
+`<VisualStudioFolder>\Common7\IDE\Extensions\Microsoft\NodeJsTools\TestAdapter\TestFrameworks\mocha\mocha.js`
 
-Make sure to set the **TestFramework** property on your test file(s) to match the name of the subfolder under TestFrameworks.
+Discovery of available test frameworks occurs at Visual Studio start. If a framework is added while
+Visual Studio is running, restart Visual Studio to detect the framework. However you don't need to restart
+when making changes to the implementation.
