@@ -73,7 +73,7 @@ Your organization’s Primary Contacts and Notices Contacts will receive an emai
 You will continue managing subscriptions through the VLSC until you receive the email from Visual Studio Subscriptions that your organization has been migrated and is ready to be managed in the new portal. 
 
 ### Where can I locate my organization’s Public Customer Number (PCN) or Authorization Number?
-Sign in to the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx) and navigate the following path: **Subscriptions** > **Visual Studio Subscriptions**. The PCN is located below the **Agreement/Public Customer Number Results**. Get step by step guidance on locating your PCN in this [help article](/find-pcn/). 
+Sign in to the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx) and navigate the following path: **Subscriptions** > **Visual Studio Subscriptions**. The PCN is located below the **Agreement/Public Customer Number Results**. Get step by step guidance on locating your PCN in this [help article](find-pcn.md). 
 
 ### How do I find out who my Primary or Notices Contact is?
 Sign in to the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx) and navigate the following path: **Licenses > Relationship Summary**  Select your **Licensing ID > Contacts**. Get step by step guidance on finding your Primary or Notices Contact in this [help article](find-primary-contact.md). 
