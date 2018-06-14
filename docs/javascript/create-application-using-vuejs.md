@@ -17,9 +17,9 @@ ms.workload:
 
 # Create a Vue.js application using Node.js Tools for Visual Studio
 
-Visual Studio 2017 includes improved support for the [Vue.js](https://vuejs.org/) framework, which enhances the development experience when developing an application with Vue.js, JavaScript and TypeScript.
+Visual Studio 2017 includes improved support for the [Vue.js](https://vuejs.org/) framework, which improves the development experience when creating an application with Vue.js, JavaScript and TypeScript.
 
-New features that support Vue.js application development in Visual Studio includes the following:
+New features that support Vue.js application development in Visual Studio include the following:
 
 * Support for Script, Style and Template blocks in .*vue* files
 * Recognition of the lang attribute on .*vue* files
@@ -27,10 +27,10 @@ New features that support Vue.js application development in Visual Studio includ
 
 ## Prerequisites
 
-* You must have Visual Studio 2017 version 15.8 Preview 2 or later installed and the **Node.js development** workload.
+* You must have Visual Studio 2017 version 15.8 Preview 3 or later installed and the **Node.js development** workload.
 
     > [!IMPORTANT]
-    > This article requires the Vue.js template, which is available starting in Visual Studio 2017 version 15.8 Preview 2.
+    > This article requires features that are only available starting in Visual Studio 2017 version 15.8 Preview 3.
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
@@ -40,37 +40,13 @@ New features that support Vue.js application development in Visual Studio includ
 
     If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
 
-## Create a Vue.js project
+## Create a Vue.js project using a template
 
-We use the new Vue.js templates to create a new project.
-
-### Create the new project
-
-1. Open Visual Studio and choose **File** > **New** > **Project** from the main menu.
-
-1. Under **JavaScript** > **Node.js** or **TypeScript** > **Node.js**, choose **Basic Vue.js Web Application**, enter a project name, and click **OK**.
-
-    Visual Studio creates the new project. The new project opens in Solution Explorer (right pane).
-
-### Add a .vue file to the project
-
-1. Right click on any folder in Solution Explorer and choose **Add** > **New Item**.
-
-1. Select either **JavaScript Vue Single File Component** or **TypeScript Vue Single File Component**, and then click **Add**.
-
-### Build and debug the project
-
-The Vue.js project template uses the `build` npm script by configuring a post build event. If you want to modify this setting, open the project file and locate this line of code:
-
-```xml
-<PostBuildEvent>npm run build</PostBuildEvent>
-```
-
-When you debug the app, this runs `node_modules\@vue\cli-service\bin\vue-cli-service.js serve`. You can see and modify this setting in the project properties.
+You can use the new Vue.js templates to create a new project. This is the easiest way to get started. For detailed steps, see [Use Visual Studio to create your first Vue.js app](../javascript/quickstart-vuejs-with-nodejs.md).
 
 ## Create a Vue.js project with ASP.NET Core and the Vue CLI
 
-Vue.js provides an official CLI for quickly scaffolding projects. If you would like to use the CLI to create your application, follow the steps below to set up your development environment.
+Vue.js provides an official CLI for quickly scaffolding projects. If you would like to use the CLI to create your application, follow the steps in this article to set up your development environment.
 
 > [!IMPORTANT]
 > These steps assume that you already have some experience with the Vue.js framework. If not, please visit [Vue.js](https://vuejs.org/) to learn more about the framework.
@@ -84,6 +60,8 @@ For this example, we use an empty ASP.NET Core Application (C#), but you can cho
 1. Open Visual Studio and choose **File** > **New** > **Project** from the main menu.
 
 1. Under **Visual C#** > **Web**, choose **ASP.NET Core Web Application**, and then click **OK**.
+
+    If you don't see the **ASP.NET Core Web Application** project template, you must install the **ASP.NET and web development** workload and the .**NET Core** development workload first. To install the workload(s), click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Select the required workloads.
 
 1. Select **Empty**, and then click **OK**.
 
