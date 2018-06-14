@@ -65,11 +65,11 @@ In this tutorial, you begin with a simple project containing code for a Node.js 
 
 1. From the top menu bar, choose **File** > **New** > **Project**.
 
-1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, and then choose **Node.js**. In the middle pane, select **Basic Azure Node.js Express 4 Application** and then choose **OK**.
+1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, and then choose **Node.js**. In the middle pane, select **Basic Node.js Express 4 Application** and then choose **OK**.
 
-     If you don't see the **Basic Azure Node.js Express 4 Application** project template, you must install the **Node.js development** workload first (see the Prerequisites for instructions).
+     If you don't see the **Basic Node.js Express 4 Application** project template, you must install the **Node.js development** workload first (see the Prerequisites for instructions).
 
-    Visual Studio creates the new solution and opens your project in the right pane. The *app.js* project file opens in the editor (left pane).
+    Visual Studio creates the new solution and opens your project in the right pane (this pane is called Solution Explorer). The *app.js* project file opens in the editor (left pane).
 
     ![Project structure](../javascript/media/tutorial-project-structure.png)
 
@@ -83,7 +83,9 @@ In this tutorial, you begin with a simple project containing code for a Node.js 
 
     (5) Project files such as *app.js* show up under the project node. *app.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
 
-1. Open the **npm** node and make sure that all the required npm packages are present.
+1. Check the Output window (lower pane) for progress on installing the npm packages required for the application.
+
+1. In Solution Explorer, open the **npm** node and make sure that all the required npm packages are present.
 
     If any packages are missing (exclamation point icon), you can right-click the **npm** node and choose **Install Missing npm Packages**.
 
@@ -144,7 +146,8 @@ The application uses Pug for the front-end JavaScript framework. Pug uses simple
     
     The preceding code sets the current page using the Express router object and renders the page, passing the title and data object to the page. The *index.pug* file is specified here as the page to load when *index.js* runs. *index.js* is configured as the default route in *app.js* code (not shown).
 
-    To demonstrate several features of Visual Studio, we included an error in the line of code containing `res.render`. We need to fix the error before the app can run. We fix the error in the next section.
+    > [!IMPORTANT]
+    > To demonstrate several features of Visual Studio, we included an error in the line of code containing `res.render`. We need to fix the error before the app can run. We fix the error in the next section.
 
 ## Use IntelliSense
 
@@ -190,7 +193,7 @@ We are going to run the app with the Visual Studio debugger attached. Before we 
 
     ![Select the debug target](../javascript/media/tutorial-nodejs-deploy-target.png)
 
-1. Press **F5** (**Debug** > **Start Debugging**) to run the application.
+1. Press **F5** (or **Debug** > **Start Debugging**) to run the application.
 
     The debugger pauses at the breakpoint you set. Now, you can inspect your app state.
 
@@ -198,7 +201,7 @@ We are going to run the app with the Visual Studio debugger attached. Before we 
 
     ![Inspect variables](../javascript/media/tutorial-nodejs-inspect-variables.png)
 
-1. Press **F5** (**Debug** > **Continue**) to continue.
+1. Press **F5** (or **Debug** > **Continue**) to continue.
 
     The app opens in a browser.
 
@@ -209,26 +212,6 @@ We are going to run the app with the Visual Studio debugger attached. Before we 
     ![App running in browser](../javascript/media/tutorial-nodejs-running-in-browser.png)
 
 1. Close the web browser.
-
-## (Optional) Publish to Azure App Service
-
-1. In Solution Explorer, right-click the project and choose **Publish**.
-
-   ![Publish to Azure App Service](../javascript/media/tutorial-nodejs-publish-to-azure.png)
-
-1. Choose **Microsoft Azure App Service**.
-
-    In the **App Service** dialog box, you can sign into your Azure account and connect to existing Azure subscriptions.
-
-1. Follow the remaining steps to select a subscription, choose or create a resource group, choose or create an app service plane, and then follow the steps when prompted to publish to Azure. For more detailed instructions, see [Publish to Azure website using web deploy](https://github.com/Microsoft/nodejstools/wiki/Publish-to-Azure-Website-using-Web-Deploy).
-
-1. The **Output** window shows progress on deploying to Azure.
-
-    On successful deployment, your app opens in a browser running in Azure App Service. Click a button to display an image.
-
-   ![App running in Azure App Service](../javascript/media/tutorial-nodejs-running-in-azure.png)
-
-Congratulations on completing this tutorial!
 
 ## Next steps
 

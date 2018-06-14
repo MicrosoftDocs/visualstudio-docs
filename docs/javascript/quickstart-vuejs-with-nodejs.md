@@ -24,7 +24,7 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 ## Create a project
 
-First, you'll create an Vue.js web application project.
+First, you'll create a Vue.js web application project.
 
 1. If you don't have the Node.js runtime already installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website.
 
@@ -50,13 +50,13 @@ First, you'll create an Vue.js web application project.
 
    TBD TBD TBD screenshot
 
-  - Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. On disk, this project is represented by a *.njsproj* file in your project folder.
+  - Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. On disk, this project is represented by a .*njsproj* file in your project folder.
 
-  - At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
+  - At the top level is a solution, which by default has the same name as your project. A solution, represented by a .*sln* file on disk, is a container for one or more related projects.
 
   - The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box.
 
-1. If you want to install npm packages or run node.js commands from a command prompt, right-click the project node and choose **Open Command Prompt Here**.
+1. If you want to install npm packages or run Node.js commands from a command prompt, right-click the project node and choose **Open Command Prompt Here**.
 
 ## Add a .vue file to the project
 
