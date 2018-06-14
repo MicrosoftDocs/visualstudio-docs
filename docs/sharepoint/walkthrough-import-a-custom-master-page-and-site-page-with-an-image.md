@@ -157,7 +157,7 @@ ms.workload:
   
 4.  In **Solution Explorer**, choose the _catalogsmasterpage\_ node, and set the value of its **Deployment Conflict Resolution** property to **Automatic**.  
   
-     This helps ensure that that any deployment conflicts are resolved automatically.  
+     This helps ensure that any deployment conflicts are resolved automatically.  
   
 5.  If your new master page has the same name as an existing page, make sure that the existing page is not marked as either a Default Master Page or a Custom Master Page in SharePoint Designer.  
   

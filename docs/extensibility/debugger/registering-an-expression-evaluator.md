@@ -24,7 +24,7 @@ ms.workload:
 ## Managed Code Expression Evaluator  
  A managed code EE is implemented as a Class Library, which is a DLL that registers itself with the COM environment, typically started by a call to the VSIP program, **regpkg.exe**. The actual process of writing the registry keys for the COM environment is handled automatically.  
   
- A method of the main class is marked with the <xref:System.Runtime.InteropServices.ComRegisterFunctionAttribute>, indicating that that method is to be called when the DLL is being registered with COM. This registration method, often called `RegisterClass`, performs the task of registering the DLL with Visual Studio. A corresponding `UnregisterClass` (marked with the <xref:System.Runtime.InteropServices.ComUnregisterFunctionAttribute>), undoes the effects of `RegisterClass` when the DLL is uninstalled.  
+ A method of the main class is marked with the <xref:System.Runtime.InteropServices.ComRegisterFunctionAttribute>, indicating that method is to be called when the DLL is being registered with COM. This registration method, often called `RegisterClass`, performs the task of registering the DLL with Visual Studio. A corresponding `UnregisterClass` (marked with the <xref:System.Runtime.InteropServices.ComUnregisterFunctionAttribute>), undoes the effects of `RegisterClass` when the DLL is uninstalled.  
   
  The same registry entries are made as for an EE written in unmanaged code; the only difference is that there is no helper function such as `SetEEMetric` to do the work for you. An example of this registration/unregistration process looks like this:  
   

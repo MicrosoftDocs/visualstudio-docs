@@ -71,7 +71,7 @@ The .cpp file in your test project has a stub class and method defined for you a
 
 TEST_CLASS and TEST_METHOD are part of the [Microsoft Native Test Framework](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md). **Test Explorer** discovers test methods in other supported frameworks in a similar way.
 
-A TEST_METHOD returns void. To produce a test result, use the static methods in the `Assert` class to test actual results against what is expected. In the following example, assume `MyClass` has a constructor that that takes a `std::string`. We can test that the constructor initializes the class as expected like so:
+A TEST_METHOD returns void. To produce a test result, use the static methods in the `Assert` class to test actual results against what is expected. In the following example, assume `MyClass` has a constructor that takes a `std::string`. We can test that the constructor initializes the class as expected like so:
 
 ```cpp
         TEST_METHOD(TestClassInit)
