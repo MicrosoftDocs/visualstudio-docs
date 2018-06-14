@@ -36,7 +36,7 @@ First, you'll create an Node.js web application project.
 
      ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)
 
-    Visual Studio creates and the new solution and opens the project. *server.js* opens in the editor in the left pane.
+    After you choose the **Blank Node.js Web Application** template and click **OK**, Visual Studio creates and the new solution and opens the project. *server.js* opens in the editor in the left pane.
 
 ## Explore the IDE
 
