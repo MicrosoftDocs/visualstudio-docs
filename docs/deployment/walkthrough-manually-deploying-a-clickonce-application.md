@@ -77,7 +77,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
   
 5.  Create the application manifest with a call to Mage.exe. The following statement creates an application manifest for code compiled to run on the Intel x86 processor.  
   
-    ```  
+    ```console  
     mage -New Application -Processor x86 -ToFile AppToDeploy.exe.manifest -name "My App" -Version 1.0.0.0 -FromDirectory .   
     ```  
   
@@ -86,34 +86,24 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
   
 6.  Sign the application manifest with your Authenticode certificate. Replace *mycert.pfx* with the path to your certificate file. Replace *passwd* with the password for your certificate file.  
   
-    ```  
+    ```console  
     mage -Sign AppToDeploy.exe.manifest -CertFile mycert.pfx -Password passwd  
     ```  
   
-     To sign  the application manifest with a CNG certificate, use the following. Replace *cngCert.pfx* with the path to your certificate file.  
-  
-    ```  
-    mage -Sign AppToDeploy.exe.manifest -CertFile cngCert.pfx  
-    ```  
-  
+    Starting with the .NET Framework 4.6.2 SDK, which is distributed with Visual Studio and with the Windows SDK, mage.exe signs manifests with CNG as well as with Authenticode certificates. Use the same command line parameters as with Authenticode certificates.
+    
 7.  Change to the root of the deployment directory.  
   
 8.  Generate the deployment manifest with a call to Mage.exe. By default, Mage.exe will mark your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment as an installed application, so that it can be run both online and offline. To make the application available only when the user is online, use the `-Install` option with a value of `false`. If you use the default, and users will install your application from a Web site or file share, make sure that the value of the `-ProviderUrl` option points to the location of the application manifest on the Web server or share.  
   
-    ```  
+    ```console  
     mage -New Deployment -Processor x86 -Install true -Publisher "My Co." -ProviderUrl "\\myServer\myShare\AppToDeploy.application" -AppManifest 1.0.0.0\AppToDeploy.exe.manifest -ToFile AppToDeploy.application  
     ```  
   
-9. Sign the deployment manifest with your Authenticode  or CNG certificate.  
+9. Sign the deployment manifest with your Authenticode or CNG certificate.  
   
-    ```  
+    ```console  
     mage -Sign AppToDeploy.application -CertFile mycert.pfx -Password passwd  
-    ```  
-  
-     or  
-  
-    ```  
-    mage -Sign AppToDeploy.exe.manifest -CertFile cngCert.pfx  
     ```  
   
 10. Copy all of the files in the deployment directory to the deployment destination or media. This may be either a folder on a Web site or FTP site, a file share, or a CD-ROM.  
@@ -133,7 +123,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
   
 4.  Start the MageUI.exe graphical tool.  
   
-    ```  
+    ```console  
     MageUI.exe  
     ```  
   
