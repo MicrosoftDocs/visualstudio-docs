@@ -47,7 +47,10 @@
       "ms.prod": "visual-studio-dev15",
       "searchScope": ["VS IDE"],
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
-      "titleSuffix": "Visual Studio"
+      "titleSuffix": "Visual Studio",
+      "featureFlags": [
+        "enable_uhf_ppe"
+      ]
     },
     "template": [],
     "xref": ["missingapi.yml", "vs.140.zip"],
