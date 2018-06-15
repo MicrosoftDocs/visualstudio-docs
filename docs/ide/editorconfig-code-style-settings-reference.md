@@ -1,6 +1,6 @@
 ---
 title: .NET coding convention settings For EditorConfig in Visual Studio
-ms.date: 02/28/2018
+ms.date: 06/14/2018
 ms.topic: reference
 dev_langs:
   - "CSharp"
@@ -76,6 +76,17 @@ The following list shows the allowable language convention rules:
         - dotnet\_style\_explicit\_tuple_names
         - dotnet\_prefer\_inferred\_tuple_names
         - dotnet\_prefer\_inferred\_anonymous\_type\_member_names
+        - dotnet\_style\_parentheses\_in\_arithmetic\_binary\_operators
+        - dotnet\_style\_parentheses\_in\_other\_binary\_operators
+        - dotnet\_style\_parentheses\_in\_other\_operators
+        - dotnet\_style\_parentheses\_in\_relational\_binary\_operators
+        - dotnet\_style\_prefer\_auto\_properties
+        - dotnet\_style\_prefer\_conditional\_expression\_over\_assignment
+        - dotnet\_style\_prefer\_conditional\_expression\_over\_return
+        - dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
+
+
+
     - ["Null" checking preferences](#null_checking)
         - dotnet\_style\_coalesce_expression
         - dotnet\_style\_null_propagation
@@ -400,6 +411,115 @@ csharp_preferred_modifier_order = public,private,protected,internal,static,exter
 visual_basic_preferred_modifier_order = Partial,Default,Private,Protected,Public,Friend,NotOverridable,Overridable,MustOverride,Overloads,Overrides,MustInherit,NotInheritable,Static,Shared,Shadows,ReadOnly,WriteOnly,Dim,Const,WithEvents,Widening,Narrowing,Custom,Async:suggestion
 ```
 
+#### <a name="parentheses_level"></a>Parentheses preferences
+
+The style rules in this section concern parentheses preferences, including the use of parentheses for arithmetic, relational, and other binary operators.
+
+The following table shows the rule names, rule IDs, applicable programming languages, default values, and first supported version of Visual Studio:
+
+| Rule name | Rule ID | Applicable languages | Visual Studio default | Visual Studio 2017 version |
+| --------- | ------- | -------------------- | ----------------------| ---- |
+| dotnet_style_parentheses_in_arithmetic_binary_operators | IDE0047 | C# and Visual Basic | always_for_clarity:none | 15.8 |
+| dotnet_style_parentheses_in_relational_binary_operators | IDE0047 | C# and Visual Basic | always_for_clarity:none | 15.8 |
+| dotnet_style_parentheses_in_other_binary_operators | IDE0047 | C# and Visual Basic | always_for_clarity:none | 15.8 |
+| dotnet_style_parentheses_in_other_operators | IDE0047 | C# and Visual Basic | never_if_unnecessary:none | 15.8 |
+
+**dotnet\_style\_parentheses\_in\_arithmetic\_binary\_operators**
+
+- When this rule is set to **always_for_clarity**, prefer parentheses to clarify arithmetic operator (`*`, `/`, `%`, `+`, `-`, `<<`, `>>`, `&`, `^`, `|`) precedence.
+- When this rule is set to **never_if_unnecessary**, prefer to not have parentheses when arithmetic operator (`*`, `/`, `%`, `+`, `-`, `<<`, `>>`, `&`, `^`, `|`) precedence is obvious.
+
+Code examples:
+
+```csharp
+// dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity
+var v = a + (b * c);
+
+// dotnet_style_parentheses_in_arithmetic_binary_operators = false
+var v = a + b * c;
+
+```
+
+```vb
+' dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity
+Dim v = a + (b * c)
+
+' dotnet_style_parentheses_in_arithmetic_binary_operators = never_if_unnecessary
+Dim v = a + b * c
+
+```
+
+**dotnet\_style\_parentheses\_in\_relational\_binary\_operators**
+
+- When this rule is set to **always_for_clarity**, prefer parentheses to clarify relational operator (`>`, `<`, `<=`, `>=`, `is`, `as`, `==`, `!=`) precedence .
+- When this rule is set to **never_if_unnecessary**, prefer to not have parentheses when relational operator (`>`, `<`, `<=`, `>=`, `is`, `as`, `==`, `!=`) precedence is obvious.
+
+Code examples:
+
+```csharp
+// dotnet_style_parentheses_in_relational_binary_operators = always_for_clarity
+var v = (a < b) == (c > d);
+
+// dotnet_style_parentheses_in_relational_binary_operators = never_if_unnecessary
+var v = a < b == c > d;
+
+```
+
+```vb
+' dotnet_style_parentheses_in_relational_binary_operators = always_for_clarity
+Dim v = (a < b) = (c > d)
+
+' dotnet_style_parentheses_in_relational_binary_operators = never_if_unnecessary
+Dim v = a < b = c > d
+```
+
+**dotnet\_style\_parentheses\_in\_other\_binary\_operators**
+
+- When this rule is set to **always_for_clarity**, prefer parentheses to clarify other binary operator (`&&`, `||`, `??`) precedence.
+- When this rule is set to **never_if_unnecessary**, prefer to not have parentheses when other binary operator (`&&`, `||`, `??`) precedence is obvious.
+
+Code examples:
+
+```csharp
+// dotnet_style_parentheses_in_other_binary_operators = always_for_clarity
+var v = a || (b && c);
+
+// dotnet_style_parentheses_in_other_binary_operators = never_if_unnecessary
+var v = a || b && c;
+```
+
+```vb
+' dotnet_style_parentheses_in_other_binary_operators = always_for_clarity
+Dim v = a OrElse (b AndAlso c)
+
+' dotnet_style_parentheses_in_other_binary_operators = never_if_unnecessary
+Dim v = a OrElse b AndAlso c
+```
+
+**dotnet\_style\_parentheses\_in\_other\_operators**
+
+- When this rule is set to **always_for_clarity**, prefer parentheses to clarify operator precedence.
+- When this rule is set to **never_if_unnecessary**, prefer to not have parentheses when operator precedence is obvious.
+
+Code examples:
+
+```csharp
+// dotnet_style_parentheses_in_other_operators = always_for_clarity
+var v = (a.b).Length;
+
+// dotnet_style_parentheses_in_other_operators = never_if_unnecessary
+var v = a.b.Length;
+```
+
+```vb
+' dotnet_style_parentheses_in_other_operators = always_for_clarity
+Dim v = (a.b).Length
+
+' dotnet_style_parentheses_in_other_operators = never_if_unnecessary
+Dim v = a.b.Length
+```
+
+
 #### <a name="expression_level"></a>Expression-level preferences
 
 The style rules in this section concern expression-level preferences, including the use of object initializers, collection initializers, explicit or inferred tuple names, and inferred anonymous types.
@@ -413,6 +533,10 @@ The following table shows the rule names, rule IDs, applicable programming langu
 | dotnet_style_explicit_tuple_names | IDE0033 | C# 7.0+ and Visual Basic 15+ | true:suggestion | First release |
 | dotnet_style_prefer_inferred_tuple_names | IDE0037 | C# 7.1+ and Visual Basic 15+ | true:suggestion | 15.6 |
 | dotnet_style_prefer_inferred_anonymous_ type_member_names | IDE0037 | C# and Visual Basic | true:suggestion | 15.6 |
+| dotnet_style_prefer_auto_properties | IDE### | C# and Visual Basic | true:none | 15.7 |
+| dotnet_style_prefer_is_null_check_over_reference_equality_method | IDE### | C# and Visual Basic | true:suggestion | 15.7 |
+| dotnet_style_prefer_conditional_expression_over_assignment | IDE### | C# and Visual Basic | true:suggestion | 15.8 |
+| dotnet_style_prefer_conditional_expression_over_return | IDE### | C# and Visual Basic | true:suggestion | 15.8 |
 
 **dotnet\_style\_object_initializer**
 
@@ -510,6 +634,14 @@ var tuple = (age, name);
 var tuple = (age: age, name: name);
 ```
 
+```vb
+' dotnet_style_prefer_inferred_tuple_names = true
+Dim tuple = (name, age)
+
+' dotnet_style_prefer_inferred_tuple_names = false
+Dim tuple = (name:=name, age:=age)
+```
+
 **dotnet\_style\_prefer\_inferred\_anonymous\_type\_member_names**
 
 - When this rule is set to **true**, prefer inferred anonymous type member names.
@@ -526,6 +658,152 @@ var anon = new { age = age, name = name };
 
 ```
 
+```vb
+' dotnet_style_prefer_inferred_anonymous_type_member_names = true
+Dim anon = New With {name, age}
+
+' dotnet_style_prefer_inferred_anonymous_type_member_names = false
+Dim anon = New With {.name = name, .age = age}
+
+```
+
+**dotnet\_style\_prefer\_auto\_properties**
+
+- When this rule is set to **true**, prefer auto-properties over properties with private backing fields.
+- When this rule is set to **false**, prefer properties with private backing fields over auto-properties.
+
+Code examples:
+
+```csharp
+// dotnet_style_prefer_auto_properties = true
+private int Age { get; }
+
+// dotnet_style_prefer_auto_properties = false
+private int age;
+
+public int Age
+{
+    get
+    {
+        return age;
+    }
+}
+```
+
+```vb
+' dotnet_style_prefer_auto_properties = true
+Public ReadOnly Property Age As Integer
+
+' dotnet_style_prefer_auto_properties = false
+Private _age As Integer
+
+Public ReadOnly Property Age As Integer
+    Get
+        return _age
+    End Get
+End Property 
+```
+
+**dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method**
+
+- When this rule is set to **true**, prefer using a null check with pattern-matching over object.ReferenceEquals.
+- When this rule is set to **false**, object.ReferenceEquals over a null check with pattern-matching.
+
+Code examples:
+
+```csharp
+// dotnet_style_prefer_is_null_check_over_reference_equality_method = true
+if (value is null)
+    return;
+
+// dotnet_style_prefer_is_null_check_over_reference_equality_method = false
+if (object.ReferenceEquals(value, null))
+    return;
+```
+
+```vb
+' dotnet_style_prefer_auto_properties = true
+If value Is Nothing
+    Return
+End If
+
+' dotnet_style_prefer_auto_properties = false
+If Object.ReferenceEquals(value, Nothing)
+    Return
+End If
+```
+
+**dotnet\_style\_prefer\_conditional\_expression\_over\_assignment**
+
+- When this rule is set to **true**, prefer assignments with a ternary conditional over an if-else statement.
+- When this rule is set to **false**, prefer assignments with an if-else statement over a ternary conditional.
+
+Code examples:
+
+```csharp
+// dotnet_style_prefer_conditional_expression_over_assignment = true
+string s = expr ? "hello" : "world";
+
+// dotnet_style_prefer_conditional_expression_over_assignment = false
+string s;
+if (expr)
+{
+    s = "hello";
+}
+else 
+{
+    s = "world";
+}
+```
+
+```vb
+' dotnet_style_prefer_conditional_expression_over_assignment = true
+Dim s As String = If(expr, "hello", "world")
+
+' dotnet_style_prefer_conditional_expression_over_assignment = false
+Dim s As String
+If expr Then
+    s = "hello"
+Else
+    s = "world"
+End If
+```
+
+**dotnet\_style\_prefer\_conditional\_expression\_over\_return**
+
+- When this rule is set to **true**, prefer return statements to use a ternary conditional over an if-else statement.
+- When this rule is set to **false**, prefer return statements to use an if-else statement over a ternary conditional.
+
+Code examples:
+
+```csharp
+// dotnet_style_prefer_conditional_expression_over_return = true
+return expr ? "hello" : "world"
+
+// dotnet_style_prefer_conditional_expression_over_return = false
+if (expr)
+{
+    return "hello";
+}
+else
+{
+    return "world";
+}
+```
+
+```vb
+' dotnet_style_prefer_conditional_expression_over_return = true
+Return If(expr, "hello", "world")
+
+' dotnet_style_prefer_conditional_expression_over_return = false
+If expr Then
+    Return "hello"
+Else
+    Return "world"
+End If
+```
+
+
 These rules could appear in an *.editorconfig* file as follows:
 
 ```EditorConfig
@@ -536,6 +814,9 @@ dotnet_style_collection_initializer = true:suggestion
 dotnet_style_explicit_tuple_names = true:suggestion
 dotnet_style_prefer_inferred_tuple_names = true:suggestion
 dotnet_style_prefer_inferred_anonymous_type_member_names = true:suggestion
+dotnet_style_prefer_auto_properties = true:none
+dotnet_style_prefer_conditional_expression_over_assignment = true:suggestion
+dotnet_style_prefer_conditional_expression_over_return = true:suggestion
 ```
 
 #### <a name="null_checking"></a>Null-checking preferences
