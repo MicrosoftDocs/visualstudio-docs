@@ -70,23 +70,21 @@ The following list shows the allowable language convention rules:
         - csharp\_preferred\_modifier_order
         - visual\_basic\_preferred\_modifier_order
         - dotnet\_style\_readonly\_field
+    - [Parentheses preferences](#parentheses)
+        - dotnet\_style\_parentheses\_in\_arithmetic\_binary\_operators
+        - dotnet\_style\_parentheses\_in\_other\_binary\_operators
+        - dotnet\_style\_parentheses\_in\_other\_operators
+        - dotnet\_style\_parentheses\_in\_relational\_binary\_operators
     - [Expression-level preferences](#expression_level)
         - dotnet\_style\_object_initializer
         - dotnet\_style\_collection_initializer
         - dotnet\_style\_explicit\_tuple_names
         - dotnet\_prefer\_inferred\_tuple_names
         - dotnet\_prefer\_inferred\_anonymous\_type\_member_names
-        - dotnet\_style\_parentheses\_in\_arithmetic\_binary\_operators
-        - dotnet\_style\_parentheses\_in\_other\_binary\_operators
-        - dotnet\_style\_parentheses\_in\_other\_operators
-        - dotnet\_style\_parentheses\_in\_relational\_binary\_operators
         - dotnet\_style\_prefer\_auto\_properties
         - dotnet\_style\_prefer\_conditional\_expression\_over\_assignment
         - dotnet\_style\_prefer\_conditional\_expression\_over\_return
         - dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
-
-
-
     - ["Null" checking preferences](#null_checking)
         - dotnet\_style\_coalesce_expression
         - dotnet\_style\_null_propagation
@@ -411,7 +409,7 @@ csharp_preferred_modifier_order = public,private,protected,internal,static,exter
 visual_basic_preferred_modifier_order = Partial,Default,Private,Protected,Public,Friend,NotOverridable,Overridable,MustOverride,Overloads,Overrides,MustInherit,NotInheritable,Static,Shared,Shadows,ReadOnly,WriteOnly,Dim,Const,WithEvents,Widening,Narrowing,Custom,Async:suggestion
 ```
 
-#### <a name="parentheses_level"></a>Parentheses preferences
+#### <a name="parentheses"></a>Parentheses preferences
 
 The style rules in this section concern parentheses preferences, including the use of parentheses for arithmetic, relational, and other binary operators.
 
@@ -424,7 +422,7 @@ The following table shows the rule names, rule IDs, applicable programming langu
 | dotnet_style_parentheses_in_other_binary_operators | IDE0047 | C# and Visual Basic | always_for_clarity:none | 15.8 |
 | dotnet_style_parentheses_in_other_operators | IDE0047 | C# and Visual Basic | never_if_unnecessary:none | 15.8 |
 
-**dotnet\_style\_parentheses\_in\_arithmetic\_binary\_operators**
+**dotnet\_style\_parentheses\_in\_arithmetic\_binary_operators**
 
 - When this rule is set to **always_for_clarity**, prefer parentheses to clarify arithmetic operator (`*`, `/`, `%`, `+`, `-`, `<<`, `>>`, `&`, `^`, `|`) precedence.
 - When this rule is set to **never_if_unnecessary**, prefer to not have parentheses when arithmetic operator (`*`, `/`, `%`, `+`, `-`, `<<`, `>>`, `&`, `^`, `|`) precedence is obvious.
@@ -449,7 +447,7 @@ Dim v = a + b * c
 
 ```
 
-**dotnet\_style\_parentheses\_in\_relational\_binary\_operators**
+**dotnet\_style\_parentheses\_in\_relational\_binary_operators**
 
 - When this rule is set to **always_for_clarity**, prefer parentheses to clarify relational operator (`>`, `<`, `<=`, `>=`, `is`, `as`, `==`, `!=`) precedence .
 - When this rule is set to **never_if_unnecessary**, prefer to not have parentheses when relational operator (`>`, `<`, `<=`, `>=`, `is`, `as`, `==`, `!=`) precedence is obvious.
@@ -473,7 +471,7 @@ Dim v = (a < b) = (c > d)
 Dim v = a < b = c > d
 ```
 
-**dotnet\_style\_parentheses\_in\_other\_binary\_operators**
+**dotnet\_style\_parentheses\_in\_other\_binary_operators**
 
 - When this rule is set to **always_for_clarity**, prefer parentheses to clarify other binary operator (`&&`, `||`, `??`) precedence.
 - When this rule is set to **never_if_unnecessary**, prefer to not have parentheses when other binary operator (`&&`, `||`, `??`) precedence is obvious.
@@ -496,7 +494,7 @@ Dim v = a OrElse (b AndAlso c)
 Dim v = a OrElse b AndAlso c
 ```
 
-**dotnet\_style\_parentheses\_in\_other\_operators**
+**dotnet\_style\_parentheses\_in\_other_operators**
 
 - When this rule is set to **always_for_clarity**, prefer parentheses to clarify operator precedence.
 - When this rule is set to **never_if_unnecessary**, prefer to not have parentheses when operator precedence is obvious.
@@ -519,6 +517,16 @@ Dim v = (a.b).Length
 Dim v = a.b.Length
 ```
 
+These rules could appear in an *.editorconfig* file as follows:
+
+```EditorConfig
+# CSharp and Visual Basic code style settings:
+[*.{cs,vb}]
+dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity:none
+dotnet_style_parentheses_in_relational_binary_operators = always_for_clarity:none
+dotnet_style_parentheses_in_other_binary_operators = always_for_clarity:none
+dotnet_style_parentheses_in_other_operators = never_if_unnecessary:none
+```
 
 #### <a name="expression_level"></a>Expression-level preferences
 
@@ -533,10 +541,10 @@ The following table shows the rule names, rule IDs, applicable programming langu
 | dotnet_style_explicit_tuple_names | IDE0033 | C# 7.0+ and Visual Basic 15+ | true:suggestion | First release |
 | dotnet_style_prefer_inferred_tuple_names | IDE0037 | C# 7.1+ and Visual Basic 15+ | true:suggestion | 15.6 |
 | dotnet_style_prefer_inferred_anonymous_ type_member_names | IDE0037 | C# and Visual Basic | true:suggestion | 15.6 |
-| dotnet_style_prefer_auto_properties | IDE### | C# and Visual Basic | true:none | 15.7 |
-| dotnet_style_prefer_is_null_check_over_reference_equality_method | IDE### | C# and Visual Basic | true:suggestion | 15.7 |
-| dotnet_style_prefer_conditional_expression_over_assignment | IDE### | C# and Visual Basic | true:suggestion | 15.8 |
-| dotnet_style_prefer_conditional_expression_over_return | IDE### | C# and Visual Basic | true:suggestion | 15.8 |
+| dotnet_style_prefer_auto_properties | IDE0032 | C# and Visual Basic | true:none | 15.7 |
+| dotnet_style_prefer_is_null_check_over_reference_equality_method | IDE0041 | C# and Visual Basic | true:suggestion | 15.7 |
+| dotnet_style_prefer_conditional_expression_over_assignment | IDE0045 | C# and Visual Basic | true:suggestion | 15.8 |
+| dotnet_style_prefer_conditional_expression_over_return | IDE0046 | C# and Visual Basic | true:suggestion | 15.8 |
 
 **dotnet\_style\_object_initializer**
 
@@ -733,7 +741,7 @@ If Object.ReferenceEquals(value, Nothing)
 End If
 ```
 
-**dotnet\_style\_prefer\_conditional\_expression\_over\_assignment**
+**dotnet\_style\_prefer\_conditional\_expression\_over_assignment**
 
 - When this rule is set to **true**, prefer assignments with a ternary conditional over an if-else statement.
 - When this rule is set to **false**, prefer assignments with an if-else statement over a ternary conditional.
@@ -769,7 +777,7 @@ Else
 End If
 ```
 
-**dotnet\_style\_prefer\_conditional\_expression\_over\_return**
+**dotnet\_style\_prefer\_conditional\_expression\_over_return**
 
 - When this rule is set to **true**, prefer return statements to use a ternary conditional over an if-else statement.
 - When this rule is set to **false**, prefer return statements to use an if-else statement over a ternary conditional.
