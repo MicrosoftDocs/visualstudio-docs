@@ -26,11 +26,11 @@ A common application scenario is to display selected data on a form. For example
 
  Tasks illustrated in this walkthrough include:
 
--   Creating a new Windows Forms Application project.
+-   Creating a new **Windows Forms Application** project.
 
 -   Creating and configuring the data source in your application with the **Data Source Configuration** wizard.
 
--   Setting the drop type of the items in the **Data Sources**window.
+-   Setting the drop type of the items in the **Data Sources** window.
 
 -   Creating controls that display data by dragging items from the **Data Sources** window onto a form.
 
@@ -44,11 +44,11 @@ A common application scenario is to display selected data on a form. For example
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can intall SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
 
 2.  Install the Northwind sample database by following these steps:
 
-    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the **Visual Studio Installer**.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.
 
        A query editor window opens.
 
@@ -56,14 +56,14 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
-       After a short time, the query finishes executing and the Northwind database is created.
+       After a short time, the query finishes running and the Northwind database is created.
 
-## Create the Windows Forms Application
+## Create the Windows Forms application
  The first step is to create a **Windows Forms Application**. Assigning a name to the project is optional at this step, but you'll give it a name here because you'll save the project later.
 
-#### To create the new Windows Forms Application project
+#### To create the new Windows Forms application project
 
-1. In Visual Studio, on the **File** menu, select **New**, **Project...**.
+1. In Visual Studio, on the **File** menu, select **New** > **Project...**.
 
 2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
 
@@ -139,23 +139,23 @@ This step creates a data source from a database using the **Data Source Configur
      A **FillByCityToolStrip** is added to the form.
 
 ## Testing the application
- Running the application opens your form ready to take the parameter as input.
+ Running the application opens your form and makes it ready to take the parameter as input.
 
 #### To test the application
 
-1.  Press F5 to run the application.
+1.  Press **F5** to run the application.
 
 2.  Type **London** into the **City** text box, and then click **FillByCity**.
 
      The data grid is populated with customers that meet the criteria. In this example, the data grid only displays customers that have a value of **London** in their **City** column.
 
-## Next Steps
+## Next steps
  Depending on your application requirements, there are several steps you may want to perform after creating a parameterized form. Some enhancements you could make to this walkthrough include:
 
 -   Adding controls that display related data. For more information, see [Relationships in Datasets](relationships-in-datasets.md).
 
 -   Editing the dataset to add or remove database objects. For more information, see [Create and configure datasets](../data-tools/create-and-configure-datasets-in-visual-studio.md).
 
-## See Also
+## See also
 
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
