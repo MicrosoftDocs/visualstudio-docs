@@ -47,7 +47,7 @@ Express is a web application framework, used as a server framework for Node.js t
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, open Visual Studio, and then select **Tools** > **Get Tools and Features**. . The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
 
 * You must have the Node.js runtime installed.
 
@@ -67,7 +67,7 @@ In this tutorial, you begin with a simple project containing code for a Node.js 
 
 1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, and then choose **Node.js**. In the middle pane, select **Basic Node.js Express 4 Application** and then choose **OK**.
 
-     If you don't see the **Basic Node.js Express 4 Application** project template, you must install the **Node.js development** workload first (see the Prerequisites for instructions).
+     If you don't see the **Basic Node.js Express 4 Application** project template, you must install the **Node.js development** workload first. From the **New Project** dialog box, you can run the Visual Studio installer by clicking the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
 
     Visual Studio creates the new solution and opens your project in the right pane (this pane is called Solution Explorer). The *app.js* project file opens in the editor (left pane).
 
@@ -85,7 +85,7 @@ In this tutorial, you begin with a simple project containing code for a Node.js 
 
 1. Check the Output window (lower pane) for progress on installing the npm packages required for the application.
 
-1. In Solution Explorer, open the **npm** node and make sure that all the required npm packages are present.
+1. In Solution Explorer, open the **npm** node and make sure that all the listed npm packages are installed.
 
     If any packages are missing (exclamation point icon), you can right-click the **npm** node and choose **Install Missing npm Packages**.
 

@@ -42,7 +42,13 @@ First, you'll create a Vue.js web application project.
 
      ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)
 
-    After you choose the **Basic Vue.js Web Application** template and click **OK**, Visual Studio creates and the new solution and opens the project.
+    Visual Studio creates and the new solution and opens the project.
+
+1. Check the Output window (lower pane) for progress on installing the npm packages required for the application.
+
+1. In Solution Explorer, open the **npm** node and make sure that all the listed npm packages are installed.
+
+    If any packages are missing (exclamation point icon), you can right-click the **npm** node and choose **Install Missing npm Packages**.
 
 ## Explore the IDE
 

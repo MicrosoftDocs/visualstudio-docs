@@ -31,7 +31,7 @@ In this tutorial, you learn how to:
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, open Visual Studio, and then select **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
 
 * You must have the Node.js runtime installed.
 
@@ -48,7 +48,7 @@ First, create a Node.js web application project.
 
 1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, and then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, and then choose **OK**.
 
-     If you don't see the **Blank Node.js Web Application** project template, you must first install the Node.js development workload.
+     If you don't see the **Blank Node.js Web Application** project template, you must first install the Node.js development workload. From the **New Project** dialog box, you can run the Visual Studio installer by clicking the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
 
     Visual Studio creates the new solution and opens your project.
 
