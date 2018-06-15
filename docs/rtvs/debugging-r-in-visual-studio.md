@@ -20,7 +20,7 @@ Starting the debugger for the startup R file in an R project is the same as for 
 
 ![Debugger start button for R](media/debugger-start-button.png)
 
-To change the startup file, **right-click** a file in Solution Explorer and select **Set As Startup R Script**.
+To change the startup file, right-click a file in Solution Explorer and select **Set As Startup R Script**.
 
 In all cases, starting the debugger "sources" the file in the interactive window, which means loading it and running it there as shown in the interactive window's output:
 
