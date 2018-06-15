@@ -133,7 +133,7 @@ For more information:
 
 Visual Studio provides integrated support for publishing web apps and cloud services to Azure. Visual Studio includes essential `web.config` item templates for both dynamic and static content. The Python workload also includes the Azure SDK for Python, which simplifies consuming Azure services from Windows, Mac OS X, and Linux apps.
 
-![Publish Python application to to Azure in Visual Studio](media/azure-publish-dialog.png)
+![Publish Python application to Azure in Visual Studio](media/azure-publish-dialog.png)
 
 For more information:
 
