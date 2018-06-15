@@ -1,8 +1,8 @@
 ---
-title: "First look at the debugger"
-description: "Take a quick look at the different features of the Visual Studio debugger."
+title: "Start debugging in Visual Studio"
+description: "Learn how to get started using the Visual Studio debugger"
 ms.custom: "mvc"
-ms.date: "03/27/2018"
+ms.date: "06/15/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords:
@@ -16,7 +16,7 @@ ms.workload:
 ---
 # First look at the Visual Studio Debugger
 
-This topic introduces the features of the Visual Studio debugger. If you want to follow along by opening your own app in Visual Studio, you can do that, or you can follow along with a sample app using the [Beginner's Guide](../debugger/getting-started-with-the-debugger.md).
+This topic introduces the features of the Visual Studio debugger. In the Visual Studio context, when you *debug your app*, it usually means that you are running the application with the debugger attached. When you do this, the debugger provides many ways to see what your code is doing while it runs. You can step through your code and look at the values stored in variables, you can set watches on variables to see when values change, you can examine the execution path of your code, et al.
 
 The features described here are applicable to C#, C++, Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted).
 
@@ -82,7 +82,7 @@ Using this button is similar to setting a temporary breakpoint. This command is 
 
 Sometimes, you might want to continue your debugging session but advance the debugger all the way through the current function.
 
-Press Shift + F11 (or **Debug > Step Out**).
+Press **Shift + F11** (or **Debug > Step Out**).
 
 This command resumes app execution (and advances the debugger) until the current function returns.
 
@@ -98,7 +98,7 @@ If you have set breakpoints, the debugger pauses on the first breakpoint that it
 
 Press F5 until you reach the line of code where you selected **Run to Cursor**.
 
-This command is useful when you are editing code and want to quickly set a temporary breakpoint and start the debugger.
+This command is useful when you are editing code and want to quickly set a temporary breakpoint and start the debugger at the same time.
 
 > [!NOTE]
 > You can use **Run to Cursor** in the **Call Stack** window while you are debugging.
@@ -170,7 +170,7 @@ You can double-click a line of code to go look at that source code and that also
 
 You can also use right-click menus from the **Call Stack** window to do other things. For example, you can insert breakpoints into specific functions, restart your app using **Run to Cursor**, and to go examine source code. See [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md).
 
-## Examine an exception
+## <a name="exception" /a> Examine an exception
 
 When your app throws an exception, the debugger takes you to the line of code that threw the exception.
 
