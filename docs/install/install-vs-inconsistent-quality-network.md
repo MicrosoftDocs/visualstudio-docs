@@ -1,29 +1,25 @@
 ---
 title: "Install on low bandwidth or unreliable network environments | Microsoft Docs"
-description: "Describes how the Visual Studio installer works in unreliable network conditions, and explains how to download install files before beginning the installation."
-ms.date: "01/17/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "conceptual"
+description: "Learn how to use the Visual Studio installer when your network is unreliable or you have low-bandwidth, and how to use the command line to download installation files."
+ms.date: 01/17/2018
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 helpviewer_keywords:
   - "installing Visual Studio"
   - "no internet connection"
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
 ---
-
 # Install Visual Studio 2017 on low bandwidth or unreliable network environments
 
 We recommend that you try the Visual Studio web installer&mdash;we think you'll find it a good experience for most situations.
 
  > [!div class="button"]
- > [Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocsOL)
+ > [Download Visual Studio 2017](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
 <br/>
 
 However, if your internet connection is unavailable or unreliable, you can use the command line to create a local cache of the files you need to complete an offline install. Here's how.
@@ -45,7 +41,7 @@ Your setup file&mdash;or to be more specific, a bootstrapper file&mdash;will mat
 
 ## Step 2 - Create a local install cache
 
-You must have an internet connection to complete this step. To create a local layout, open a command prompt and use one of the commands from the following examples: The examples here assume that you're using the Community edition of Visual Studio; adjust the command as appropriate for your edition.
+You must have an internet connection to complete this step. To create a local layout, open a command prompt and use one of the commands from the following examples. The examples here assume that you're using the Community edition of Visual Studio; adjust the command as appropriate for your edition.
 
 - For .NET web and .NET desktop development, run:
 
@@ -104,15 +100,19 @@ Use this command to run the installation:
 | zh-TW | Chinese - Traditional |
 
 ## Get support
+
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
 Here are a few more support options:
+
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
-* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
+* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
+* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
+
 * [Install Visual Studio](install-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
+* [Visual Studio 2017 workload and component IDs](workload-and-component-ids.md)

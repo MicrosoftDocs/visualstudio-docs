@@ -1,13 +1,14 @@
 ---
-title: "Create a Test Setting for a Distributed Load Test in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Create a Test Setting for a Distributed Load Test in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "test settings, for distributed load tests"
 ms.assetid: b63d4b71-3b74-4872-b2d1-f0bd1a9a8544
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Create a Test Setting for a Distributed Load Test
@@ -68,7 +69,7 @@ Follow these steps to create and remove test settings in your solution for load 
 
      The **Roles** page is displayed.
 
-     ![Test setting role](../test/media/load_testtestrole.png "Load_TestTestRole")
+     ![Test setting role](../test/media/load_testtestrole.png)
 
 10. To run your tests remotely, or to run your tests remotely and collect data remotely, use the **Test execution method** drop-down and select **Remote execution**.
 
@@ -102,7 +103,7 @@ Follow these steps to create and remove test settings in your solution for load 
 
      The **Data and Diagnostics** page is displayed.
 
-     ![Test setting data and diagnostics](../test/media/load_testtest.png "Load_TestTest")
+     ![Test setting data and diagnostics](../test/media/load_testtest.png)
 
 18. In the **Data and Diagnostic** page, you define what the role does by selecting the *diagnostic data adapters* that the role will use to collect data. Therefore, if one or more data and diagnostic adapters are enabled for the role, the test controller will select an available test agent machine to collect data for the specified data and diagnostic adapters based on the attributes that you defined for the role. To select the data and diagnostic data adapters that you want to collect for each role, select the role. For each role, select the diagnostic data adapters according to the needs of the tests. To configure each diagnostic data adapter that you have selected for each role, choose **Configure**.
 

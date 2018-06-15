@@ -1,13 +1,14 @@
 ---
-title: "Analyze load test Errors Using the Counters Panel in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Analyze load test Errors Using the Counters Panel in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "Load Test Analyzer, counters panel"
 ms.assetid: 981b4f1e-505a-4078-a06d-58ae17d996b4
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Analyze Errors Using the Counters Panel
@@ -16,7 +17,7 @@ The Counters panel is visible in the Graphs view and the Tables view in the Load
 
  The **Errors** node in the Counters panel contains all the errors that were detected during the load test. The Errors node contains several sub-category error nodes that are specific to different kinds of errors. For example, **Exceptions** and **HTTP Errors**.
 
- ![Counter panel's error node](../test/media/ltest_errornode.png "LTest_ErrorNode")
+ ![Counter panel's error node](../test/media/ltest_errornode.png)
 
 ## To analyze errors in the Counters panel
 

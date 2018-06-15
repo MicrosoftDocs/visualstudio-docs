@@ -2,21 +2,17 @@
 title: "CustomParameter Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#CustomParameter"
 helpviewer_keywords: 
   - "CustomParameters element [Visual Studio project templates]"
 ms.assetid: 743c4489-74ac-403a-bbaa-eed7d785a3ac
-caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

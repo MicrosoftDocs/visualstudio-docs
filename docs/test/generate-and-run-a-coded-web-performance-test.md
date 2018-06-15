@@ -1,19 +1,20 @@
 ---
-title: "Coded web performance tests in Visual Studio | Microsoft Docs"
-ms.date: "10/03/2016"
-ms.topic: "article"
-helpviewer_keywords: 
+title: "Coded web performance tests in Visual Studio"
+ms.date: 10/03/2016
+ms.topic: conceptual
+helpviewer_keywords:
   - "Web performance tests, walkthroughs"
   - "Web performance tests, creating"
   - "code, Web performance tests"
   - "Web performance tests, coded"
 ms.assetid: 169e48f9-52fd-4d0b-83d9-54913bde506b
-dev_langs: 
+dev_langs:
   - CSharp
   - VB
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Generate and run a coded web performance test
@@ -69,11 +70,11 @@ Web performance tests are recorded by browsing through your web app. The tests a
 
 6.  Run the test.
 
-     ![Run the coded web performance test](../test/media/web_test_coded_generate_run.png "Web_Test_Coded_Generate_Run")
+     ![Run the coded web performance test](../test/media/web_test_coded_generate_run.png)
 
      And because the day this was run happened to be a Wednesday…
 
-     ![Coded web performance test results](../test/media/web_test_coded_generate_results.png "Web_Test_Coded_Generate_Results")
+     ![Coded web performance test results](../test/media/web_test_coded_generate_results.png)
 
 ## Q&A
 

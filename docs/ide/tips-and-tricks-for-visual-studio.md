@@ -1,11 +1,12 @@
 ---
-title: "Visual Studio keyboard shortcuts | Microsoft Docs"
-ms.date: "06/21/2017"
+title: Visual Studio keyboard shortcuts
+ms.date: 06/21/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+ms.topic: reference
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---
@@ -20,74 +21,74 @@ You can navigate in Visual Studio more easily by using the keyboard shortcuts in
 
 |||
 |-|-|
-|Drag Off Floating Tab Wells|Ctrl+click for multi-select|
+|Drag Off Floating Tab Wells|**Ctrl**+click for multi-select|
 |Maximize Floating Window|Double-click on title bar|
-|Re-dock Floating Window|Ctrl+double-click title bar|
-|Close Active Document|Ctrl+F4|
-|Show Open File List|Ctrl+Alt+Down|
-|Show All Floating Windows|Ctrl+Shift+M|
+|Re-dock Floating Window|**Ctrl**+double-click title bar|
+|Close Active Document|**Ctrl**+**F4**|
+|Show Open File List|**Ctrl**+**Alt**+**Down**|
+|Show All Floating Windows|**Ctrl**+**Shift**+**M**|
 
 ## Window shortcuts
 
 |||
 |-|-|
-|Move/Dock Floating Windows|Win+Left / Win+Right|
-|Maximize/Minimize Windows|Win+Up / Win+Down|
-|Show Jump List|Win+Alt+N|
-|Start New Instance|Win+Shift+N|
-|Switch Between Windows|Win+N|
+|Move/Dock Floating Windows|**Win**+**Left** / **Win**+**Right**|
+|Maximize/Minimize Windows|**Win**+**Up** / **Win**+**Down**|
+|Show Jump List|**Win**+**Alt**+**N**|
+|Start New Instance|**Win**+**Shift**+**N**|
+|Switch Between Windows|**Win**+**N**|
 
 ## Visual Studio search
 
 |||
 |-|-|
-|Solution Explorer Search|Ctrl+;|
-|Place Focus in Search box in any tool window|Alt+` when the tool window has focus|
-|Quick Launch|Ctrl+Q|
+|Solution Explorer Search|**Ctrl**+**;**|
+|Place Focus in Search box in any tool window|**Alt**+**`** when the tool window has focus|
+|Quick Launch|**Ctrl**+**Q**|
 |Quick Launch Scope Results|-   @opt Options<br />-   @cmd Commands<br />-   @mru Most recently used<br />-   @doc Open documents|
-|Search in Tools Options|Ctrl+E|
+|Search in Tools Options|**Ctrl**+**E**|
 
 ## Editor find
 
 |||
 |-|-|
-|Quick Find|Ctrl+F|
-|Quick Find Next Result|Enter|
-|Quick Find Previous Result|Shift+Enter|
-|Quick Find Expand Drop Down|Alt+Down|
-|Dismiss Find|Esc|
-|Quick Replace|Ctrl+H|
-|Quick Replace Replace Next|Alt+R|
-|Quick Replace Replace All|Alt+A|
-|Find in Files|Ctrl+Shift+F|
-|Replace in Files|Ctrl+Shift+H|
+|Quick Find|**Ctrl**+**F**|
+|Quick Find Next Result|**Enter**|
+|Quick Find Previous Result|**Shift**+**Enter**|
+|Quick Find Expand Drop Down|**Alt**+**Down**|
+|Dismiss Find|**Esc**|
+|Quick Replace|**Ctrl**+**H**|
+|Quick Replace Replace Next|**Alt**+**R**|
+|Quick Replace Replace All|**Alt**+**A**|
+|Find in Files|**Ctrl**+**Shift**+**F**|
+|Replace in Files|**Ctrl**+**Shift**+**H**|
 
 ##  <a name="BKMK_CodeEditor"></a> Code Editor
 
 |Command|Shortcut|Version Availability|
 |-|-|-|
-|IntelliSense Suggestion Mode|Ctrl+Alt+Space (Toggle)||
-|Force Show IntelliSense|Ctrl+J||
-|Quick Actions|Ctrl+.||
-|Snippet Picker|Ctrl+K,X or ?,Tab (VB)||
-|Surround With|Ctrl+K,S||
-|Show Quick Info|Ctrl+K,I||
+|IntelliSense Suggestion Mode|**Ctrl**+**Alt**+**Space** (Toggle)||
+|Force Show IntelliSense|**Ctrl**+**J**||
+|Quick Actions|**Ctrl**+**.**||
+|Snippet Picker|**Ctrl**+**K**,**X** or **?**,**Tab** (VB)||
+|Surround With|**Ctrl**+**K**,**S**||
+|Show Quick Info|**Ctrl**+**K**,**I**||
 |Navigate To|**Ctrl**+**,**||
-|Navigate Highlighted References|Ctrl+Shift+Up (Previous), Ctrl+Shift+Down (Next)||
+|Navigate Highlighted References|**Ctrl**+**Shift**+**Up** (Previous), **Ctrl**+**Shift**+**Down** (Next)||
 |Editor Zoom|**Ctrl**+**Shift**+**>** (In), **Ctrl**+**Shift**+**<** (Out)||
-|Block Selection|Hold **Alt** and drag mouse, Shift+Alt+Arrow Keys||
-|Move Line Up/Down|Alt+Up / Alt+Down||
-|Duplicate line|Ctrl+E,V|Visual Studio 2017 version 15.6|
+|Block Selection|Hold **Alt** and drag mouse, **Shift**+**Alt**+**Arrow Keys**||
+|Move Line Up/Down|**Alt**+**Up** / **Alt**+**Down**||
+|Duplicate line|**Ctrl**+**E**,**V**|Visual Studio 2017 version 15.6|
 |Expand selection|**Shift**+**Alt**+**=**|Visual Studio 2017 version 15.5|
 |Contract selection|**Shift**+**Alt**+**-**|Visual Studio 2017 version 15.5|
-|Go To Definition|F12||
-|Peek Definition|Alt+F12||
-|Go To Definition Stack|Ctrl+Shift+8 (Back), Ctrl+Shift+7 (Forward)||
-|Close the Peek Definition window|Esc||
-|Promote the Peek Definition window to a regular document tab|Ctrl+Alt+Home||
+|Go To Definition|**F12**||
+|Peek Definition|**Alt**+**F12**||
+|Go To Definition Stack|**Ctrl**+**Shift**+**8** (Back), **Ctrl**+**Shift**+**7** (Forward)||
+|Close the Peek Definition window|**Esc**||
+|Promote the Peek Definition window to a regular document tab|**Ctrl**+**Alt**+**Home**||
 |Navigate between multiple Peek Definition windows|**Ctrl**+**Alt**+**-** and **Ctrl**+**Alt**+**=**||
 |Navigate between multiple Peek results|**F8** and **Shift**+**F8**||
-|Toggle between the code editor window and the Peek Definition window|Shift+Esc||
+|Toggle between the code editor window and the Peek Definition window|**Shift**+**Esc**||
 
 ## Toolbars
 
@@ -102,17 +103,17 @@ You can navigate in Visual Studio more easily by using the keyboard shortcuts in
 
 |||
 |-|-|
-|Start Debugging|F5|
-|Stop Debugging|Shift+F5|
-|Restart Debugging|Ctrl+Shift+F5|
-|Step Over|F10|
-|Step Into|F11|
-|Step Out|Shift+F11|
-|Run To Cursor|Ctrl+F10|
-|Set Next Statement|Ctrl+Shift+F10|
-|Set and Toggle Breakpoint|F9|
-|Disable Breakpoint|Ctrl+F9|
-|Immediate Window|Ctrl+Alt+I|
+|Start Debugging|**F5**|
+|Stop Debugging|**Shift**+**F5**|
+|Restart Debugging|**Ctrl**+**Shift**+**F5**|
+|Step Over|**F10**|
+|Step Into|**F11**|
+|Step Out|**Shift**+**F11**|
+|Run To Cursor|**Ctrl**+**F10**|
+|Set Next Statement|**Ctrl**+**Shift**+**F10**|
+|Set and Toggle Breakpoint|**F9**|
+|Disable Breakpoint|**Ctrl**+**F9**|
+|Immediate Window|**Ctrl**+**Alt**+**I**|
 |Immediate Window Command Mode|Type ">"|
 |Immediate Window Clear Buffer|>cls|
 |Immediate Window Print Value|?varname|

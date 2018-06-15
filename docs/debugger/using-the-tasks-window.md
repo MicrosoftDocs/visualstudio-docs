@@ -2,12 +2,8 @@
 title: "Using the Tasks Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/18/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.paralleltasks"
 dev_langs: 
@@ -18,10 +14,9 @@ dev_langs:
 helpviewer_keywords: 
   - "debugger, parallel tasks window"
 ms.assetid: bd5e0612-a0dc-41cf-a7af-1e87d0d5c35f
-caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -59,7 +54,7 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
 |**Parent**|The ID of the task that created this task. If this is blank, the task has no parent. This is only applicable for managed programs.|  
 |**Thread Assignment**|The ID and name of the thread on which the task is running.|  
 |**AppDomain**|For managed code, the application domain in which the task is executing.|  
-|**task_group**|For native code, the address of the [task_group](/cpp/parallel/concrt/reference/task-group-class.mdd) object that scheduled the task. For asynchronous agents and lightweight tasks, this column is set to 0.|  
+|**task_group**|For native code, the address of the [task_group](/cpp/parallel/concrt/reference/task-group-class) object that scheduled the task. For asynchronous agents and lightweight tasks, this column is set to 0.|  
 |**Process**|The ID of the process that the task is running on.|  
   
  You can add columns to the view by right-clicking a column heading and then selecting the columns you want. (Remove columns by clearing the selections.) You can also reorder columns by dragging them left or right. The column shortcut menu is shown in the following illustration.  

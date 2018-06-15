@@ -2,21 +2,16 @@
 title: "IDiaFrameData::get_addressSection | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaFrameData::get_addressSection method"
 ms.assetid: e4eedede-4a1c-4da2-a812-b92df328fd8d
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

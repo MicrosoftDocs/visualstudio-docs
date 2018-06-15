@@ -2,20 +2,16 @@
 title: "IDebugExpressionEvaluator2::PreloadModules | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugExpressionEvaluator2::PreloadModules"
   - "PreloadModules"
 ms.assetid: bcf9b968-ee14-4a92-88ad-926268a44e03
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

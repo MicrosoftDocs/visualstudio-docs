@@ -1,23 +1,26 @@
 ---
-title: "How to: Use the Argument Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - How to: Use the Argument Designer"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Activities.Presentation.View.ArgumentDesigner.UI"
   - "System.Activities.Presentation.View.DesignTimeArgument.UI"
 ms.assetid: 64813fd5-1ea1-499a-98b4-ab2a44b7ee5e
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # How to: Use the Argument Designer
-Compared to previous versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], the argument designer makes it easy to allow data to flow into and out of an activity. The designer is accessed by clicking the **Arguments** button in the lower-left corner of the design canvas. The designer contains a list of arguments that appear in a tabular form and can be sorted by each of the column headers, except for the **Default value** column. Each argument contains a name, in/out/in-out/property direction, type, and default expression value (if any). The name and the default expression value are editable text fields, and the type and direction are drop-downs. For more information, see [Variables and arguments (.NET)](/dotnet/framework/windows-workflow-foundation/variables-and-arguments).
 
-### To create a new argument
+Compared to previous versions of the .NET Framework, the argument designer makes it easy to allow data to flow into and out of an activity. The designer is accessed by clicking the **Arguments** button in the lower-left corner of the design canvas. The designer contains a list of arguments that appear in a tabular form and can be sorted by each of the column headers, except for the **Default value** column. Each argument contains a name, in/out/in-out/property direction, type, and default expression value (if any). The name and the default expression value are editable text fields, and the type and direction are drop-downs. For more information, see [Variables and arguments (.NET)](/dotnet/framework/windows-workflow-foundation/variables-and-arguments).
 
-1.  Open a workflow or activity solution in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)].
+## To create a new argument
+
+1.  Open a workflow or activity solution in Visual Studio 2010.
 
 2.  Open the arguments designer by clicking the **Arguments** button in the lower-left corner of the design canvas. The arguments designer appears.
 

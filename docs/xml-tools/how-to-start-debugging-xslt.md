@@ -1,21 +1,18 @@
 ---
-title: "How to: Start Debugging XSLT | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-dev_langs: 
+title: "How to: Start Debugging XSLT"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-xml-tools
+ms.topic: conceptual
+author: gewarren
+ms.author: gewarren
+manager: douge
+dev_langs:
   - "CSharp"
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
-# How to: Start Debugging XSLT
+# How to: Start debugging XSLT
 
 The XSLT debugger can be used to debug an XSLT style sheet or an XSLT application. When debugging, you can execute code one line at a time by stepping into, stepping over, or stepping out of the code. The commands to use the code-stepping functionality are the same for the XSLT debugger as for the other Visual Studio debuggers. Once you start debugging, the XSLT debugger opens windows to show the input document and the XSLT output.
 
@@ -35,7 +32,7 @@ You can start the debugger from the XML Editor. This allows you to debug as you 
 
 1. Select **Debug XSL** from the **XML** menu.
 
-## XSLT from Other Languages
+## XSLT from other languages
 
 You can also step into XSLT while debugging an application. When you press F11 on an <xref:System.Xml.Xsl.XslCompiledTransform.Transform%2A?displayProperty=fullName> call, the debugger can step into the XSLT code.
 
@@ -59,36 +56,36 @@ You can also step into XSLT while debugging an application. When you press F11 o
 The following is an example of a C# XSLT program. It shows how to enable XSLT debugging.
 
 ```csharp
-using System;  
-using System.IO;  
-using System.Xml;  
-using System.Xml.Xsl;  
-  
-namespace ConsoleApplication   
-{  
-  class Program   
-  {  
-    private const string sourceFile = @"c:\data\xsl_files\books.xml";  
-    private const string stylesheet = @"c:\data\xsl_files\belowAvg.xsl";  
-    private const string outputFile = @"c:\data\xsl_files\output.xml";  
-  
-    static void Main(string[] args)  
-    {  
+using System;
+using System.IO;
+using System.Xml;
+using System.Xml.Xsl;
+
+namespace ConsoleApplication
+{
+  class Program
+  {
+    private const string sourceFile = @"c:\data\xsl_files\books.xml";
+    private const string stylesheet = @"c:\data\xsl_files\belowAvg.xsl";
+    private const string outputFile = @"c:\data\xsl_files\output.xml";
+
+    static void Main(string[] args)
+    {
       // Enable XSLT debugging.
-      XslCompiledTransform xslt = new XslCompiledTransform(true);  
-  
+      XslCompiledTransform xslt = new XslCompiledTransform(true);
+
       // Compile the style sheet.
-      xslt.Load(stylesheet)  
-  
+      xslt.Load(stylesheet)
+
       // Execute the XSLT transform.
-      FileStream outputStream = new FileStream(outputFile, FileMode.Append);  
-      xslt.Transform(sourceFile, null, outputStream);  
-    }  
-  }  
-}  
+      FileStream outputStream = new FileStream(outputFile, FileMode.Append);
+      xslt.Transform(sourceFile, null, outputStream);
+    }
+  }
+}
 ```
 
 ## See also
 
-[Walkthrough: Debug an XSLT Style Sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)  
-[Debugger basics](../debugger/debugger-basics.md)
+- [Walkthrough: Debug an XSLT style sheet](../xml-tools/walkthrough-debug-an-xslt-style-sheet.md)
+- [Debugger basics](../debugger/debugger-basics.md)

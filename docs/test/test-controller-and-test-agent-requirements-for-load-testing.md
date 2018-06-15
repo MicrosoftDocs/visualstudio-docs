@@ -1,14 +1,15 @@
 ---
-title: "Test Controller and Test Agent Requirements for Load Testing in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Test Controller and Test Agent Requirements for Load Testing in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "agents, requirements"
   - "controllers, requirements"
 ms.assetid: 372d97ce-12e4-46a9-9863-da508adba68f
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Test Controller and Test Agent Requirements for Load Testing

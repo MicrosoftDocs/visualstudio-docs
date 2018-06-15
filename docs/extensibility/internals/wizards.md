@@ -2,19 +2,15 @@
 title: "Wizards | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], providing wizard support"
 ms.assetid: 59d9a77f-ee80-474b-a14f-90f477ab717b
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

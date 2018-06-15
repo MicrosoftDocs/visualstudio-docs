@@ -2,21 +2,17 @@
 title: "IDebugStackFrame2::GetDebugProperty | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStackFrame2::GetDebugProperty"
 helpviewer_keywords: 
   - "IDebugStackFrame2::GetDebugProperty"
 ms.assetid: 02c2fa04-1424-4bca-9936-feaecd2afab6
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

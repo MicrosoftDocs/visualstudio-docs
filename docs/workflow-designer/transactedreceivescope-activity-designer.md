@@ -1,31 +1,35 @@
 ---
-title: "TransactedReceiveScope Activity Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - TransactedReceiveScope Activity Designer"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.ServiceModel.Activities.TransactedReceiveScope.UI"
 ms.assetid: 7ca93aad-4e83-4d81-90f4-998ee114d9b6
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # TransactedReceiveScope Activity Designer
+
 The **TransactedReceiveScope** designer is used to create and configure a <xref:System.ServiceModel.Activities.TransactedReceiveScope> activity.
 
 ## The TransactedReceiveScope Activity
- The <xref:System.ServiceModel.Activities.TransactedReceiveScope> activity enables you to flow a transaction into server transactions created by a workflow or dispatcher.
+
+The <xref:System.ServiceModel.Activities.TransactedReceiveScope> activity enables you to flow a transaction into server transactions created by a workflow or dispatcher.
 
 ### Using the TransactedReceiveScope Activity Designer
- The **TransactedReceiveScope** activity designer can be found in the **Messaging** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
+ The **TransactedReceiveScope** activity designer can be found in the **Messaging** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on Workflow Designer (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
 
- The **TransactedReceiveScope** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activities are usually placed. This creates a <xref:System.ServiceModel.Activities.TransactedReceiveScope> activity with a default **DisplayName** of TransactedReceiveScope. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **TransactedReceiveScope** activity designer or in the **DisplayName** box of the property grid.
+ The **TransactedReceiveScope** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed. This creates a <xref:System.ServiceModel.Activities.TransactedReceiveScope> activity with a default **DisplayName** of TransactedReceiveScope. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **TransactedReceiveScope** activity designer or in the **DisplayName** box of the property grid.
 
  The **TransactedReceiveScope** designer contains **Request** and **Body** boxes. These are used to configure the <xref:System.ServiceModel.Activities.TransactedReceiveScope.Request%2A> property, which specifies a <xref:System.ServiceModel.Activities.Receive> activity and a <xref:System.ServiceModel.Activities.TransactedReceiveScope.Body%2A> property, which specifies some other <xref:System.Activities.Activity>. The <xref:System.ServiceModel.Activities.TransactedReceiveScope.Request%2A> creates a transaction. The transaction then is made ambient for the scope of the <xref:System.ServiceModel.Activities.TransactedReceiveScope.Body%2A> so that any activity within this scope executes inside this transaction.
 
 ### The TransactedReceiveScope Properties
- The following table shows the <xref:System.ServiceModel.Activities.TransactedReceiveScope> properties and describes how they are used in the designer. These <xref:System.Activities.Activity.DisplayName%2A> property can be edited in property grid or on the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface, but the others must be edited on the design surface.
+ The following table shows the <xref:System.ServiceModel.Activities.TransactedReceiveScope> properties and describes how they are used in the designer. These <xref:System.Activities.Activity.DisplayName%2A> property can be edited in property grid or on the Workflow Designer surface, but the others must be edited on the design surface.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|

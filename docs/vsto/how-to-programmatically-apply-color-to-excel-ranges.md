@@ -1,13 +1,10 @@
 ---
-title: "How to: Programmatically Apply Color to Excel Ranges | Microsoft Docs"
+title: "How to: Programmatically apply color to Excel ranges"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,19 +14,19 @@ helpviewer_keywords:
   - "ranges, applying color"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Programmatically Apply Color to Excel Ranges
+# How to: Programmatically apply color to Excel ranges
   To apply a color to text within a range of cells, use a <xref:Microsoft.Office.Tools.Excel.NamedRange> control or a native Excel range object.  
   
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]  
   
-## Using a NamedRange Control  
+## Use a NamedRange control  
  This example is for document-level customizations.  
   
-#### To apply color to a NamedRange control  
+### To apply color to a NamedRange control  
   
 1.  Create a <xref:Microsoft.Office.Tools.Excel.NamedRange> control at cell A1.  
   
@@ -41,21 +38,21 @@ ms.workload:
      [!code-csharp[Trin_VstcoreExcelAutomation#66](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#66)]
      [!code-vb[Trin_VstcoreExcelAutomation#66](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#66)]  
   
-## Using Native Excel Ranges  
+## Use native Excel ranges  
   
-#### To apply color to a native Excel range object  
+### To apply color to a native Excel range object  
   
 1.  Create a range at cell A1 and then set the color of the text.  
   
      [!code-csharp[Trin_VstcoreExcelAutomation#67](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#67)]
      [!code-vb[Trin_VstcoreExcelAutomation#67](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#67)]  
   
-## See Also  
- [Working with Ranges](../vsto/working-with-ranges.md)   
- [NamedRange Control](../vsto/namedrange-control.md)   
- [How to: Programmatically Apply Styles to Ranges in Workbooks](../vsto/how-to-programmatically-apply-styles-to-ranges-in-workbooks.md)   
- [How to: Programmatically Refer to Worksheet Ranges in Code](../vsto/how-to-programmatically-refer-to-worksheet-ranges-in-code.md)   
- [Automating Excel by Using Extended Objects](../vsto/automating-excel-by-using-extended-objects.md)   
- [Optional Parameters in Office Solutions](../vsto/optional-parameters-in-office-solutions.md)  
+## See also  
+ [Work with ranges](../vsto/working-with-ranges.md)   
+ [NamedRange control](../vsto/namedrange-control.md)   
+ [How to: Programmatically apply styles to ranges in workbooks](../vsto/how-to-programmatically-apply-styles-to-ranges-in-workbooks.md)   
+ [How to: Programmatically refer to worksheet ranges in code](../vsto/how-to-programmatically-refer-to-worksheet-ranges-in-code.md)   
+ [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)   
+ [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
   
   

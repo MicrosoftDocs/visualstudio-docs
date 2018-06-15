@@ -1,15 +1,17 @@
 ---
-title: "Browse and Select a .NET Type Dialog Box | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - Browse and Select a .NET Type Dialog Box"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "TypeBrowser.UI"
   - "ActivityTypeResolver.UI"
 ms.assetid: 864b60b6-a070-4e5c-aa5b-a25341b57ea6
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "dotnet"
 ---
 # Browse and Select a .NET Type Dialog Box
@@ -29,7 +31,7 @@ In the **Properties** window, dialog boxes, or designers such as the variable de
 
 ## Selecting a Value or Reference Type from the Type Browser
 
-#### To select a value or reference type from the type browser
+### To select a value or reference type from the type browser
 
 1.  In the **Type Name** box, enter the name of the type that you want to use.
 
@@ -39,7 +41,7 @@ In the **Properties** window, dialog boxes, or designers such as the variable de
 
     -   Type enough characters in the **Type Name** box to uniquely identify the type that you want to use and then press enter to select the type
 
-#### To select a generic type from the type browser
+### To select a generic type from the type browser
 
 1.  In the **Type Name** box, type in the name of the type that you want to use.
 

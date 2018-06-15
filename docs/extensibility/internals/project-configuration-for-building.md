@@ -2,20 +2,16 @@
 title: "Project Configuration for Building | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "projects [Visual Studio SDK], configuration for building"
   - "project configurations, building"
 ms.assetid: 2c83615d-fa4d-4b9f-b315-7a69b3000da0
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

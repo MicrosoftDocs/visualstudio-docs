@@ -136,7 +136,7 @@ console.log(si2.next().value);
 function* strIter() {  
     var str = "jobob";  
     var idx = 0;  
-    while(idx , str.length) {  
+    while(idx < str.length) {  
         var modify = yield str[idx++];  
         if(modify == 100) {  
             idx = 0;  

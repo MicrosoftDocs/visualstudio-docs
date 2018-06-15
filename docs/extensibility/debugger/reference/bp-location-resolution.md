@@ -2,21 +2,17 @@
 title: "BP_LOCATION_RESOLUTION | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "BP_LOCATION_RESOLUTION"
 helpviewer_keywords: 
   - "BP_LOCATION_RESOLUTION structure"
 ms.assetid: 86ea2c8a-54a3-48e8-83c7-18a515273129
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,21 +2,17 @@
 title: "SccAddFilesFromSCC Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "SccAddFilesFromSCC"
 helpviewer_keywords: 
   - "SccAddFilesFromSCC function"
 ms.assetid: f21a3500-ade8-4dd8-8647-10e2179be9c1
-caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,21 +2,17 @@
 title: "IDebugBreakpointResolution2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBreakpointResolution2"
 helpviewer_keywords: 
   - "IDebugBreakpointRequest2 interface"
 ms.assetid: 451d5bce-b9c1-48ff-beaa-2b4c3e1ceea0
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

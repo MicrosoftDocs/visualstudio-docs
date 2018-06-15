@@ -1,25 +1,25 @@
 ---
-title: Visual Studio 2017 workload and component IDs | Microsoft Docs
+title: Visual Studio 2017 workload and component IDs
 description: "Use workload and component IDs to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest"
 keywords:
 author: TerryGLee
 ms.author: tglee
 manager: douge
-ms.date: 03/05/2018
+ms.date: 05/07/2018
 ms.topic: reference
 helpviewer_keywords:
   - "workload ID, Visual Studio"
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
 ms.service:
-ms.technology:
-  - "vs-acquisition"
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
 ms.assetid: 34e19ef1-abfb-44fd-aad2-33c5d7874482
 ms.workload:
   - "multiple"
 ---
-
 # Visual Studio 2017 workload and component IDs
+
 Click the edition names in the following table to see the available workload and component IDs you need to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest.
 
 | **Edition** | **ID** | **Description** |
@@ -38,15 +38,18 @@ Click the edition names in the following table to see the available workload and
 For more information about how to use these lists, see the [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) page and the [How to: Migrate extensibility projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md) page.
 
 ## Get support
+
 Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
 Here are a few more support options:
+
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
-* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
+* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
+* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
+
 * [Visual Studio administrator guide for Visual Studio 2017](visual-studio-administrator-guide.md)
 * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
 * [Command-line parameter examples for Visual Studio 2017 installation](command-line-parameter-examples.md)

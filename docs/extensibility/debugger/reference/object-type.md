@@ -2,21 +2,17 @@
 title: "OBJECT_TYPE | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "OBJECT_TYPE"
 helpviewer_keywords: 
   - "OBJECT_TYPE enumeration"
 ms.assetid: c4d246f9-8a98-44ec-b2bb-ff5c684f668e
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

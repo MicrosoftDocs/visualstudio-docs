@@ -2,12 +2,9 @@
 title: "How to: Create a SharePoint Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,11 +12,11 @@ helpviewer_keywords:
   - "SharePoint commands [SharePoint development in Visual Studio], creating"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Create a SharePoint Command
+# How to: Create a SharePoint command
   If you want to use the server object model in a SharePoint tools extension, you must create a custom *SharePoint command* to call the API. You define the SharePoint command in an assembly that can call into the server object model directly.  
   
  For more information about the purpose of SharePoint commands, see [Calling into the SharePoint Object Models](../sharepoint/calling-into-the-sharepoint-object-models.md).  
@@ -67,19 +64,18 @@ ms.workload:
   
  In addition to the implicit first <xref:Microsoft.VisualStudio.SharePoint.Commands.ISharePointCommandContext> parameter, this command also has a custom string parameter that contains the full path of the .wsp file that is being upgraded to the SharePoint site. To see this code in the context of a larger example, see [Walkthrough: Creating a Custom Deployment Step for SharePoint Projects](../sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md).  
   
-## Compiling the Code  
+## Compiling the code  
  This example requires references to the following assemblies:  
   
 -   Microsoft.VisualStudio.SharePoint.Commands  
   
 -   Microsoft.SharePoint  
   
-## Deploying the Command  
- To deploy the command, include the command assembly in the same [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package with the extension assembly that uses the command. You must also add an entry for the command assembly in the extension.vsixmanifest file. For more information, see [Deploying Extensions for the SharePoint Tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).  
+## Deploying the command  
+ To deploy the command, include the command assembly in the same [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (*vsix*) package with the extension assembly that uses the command. You must also add an entry for the command assembly in the extension.vsixmanifest file. For more information, see [Deploying Extensions for the SharePoint Tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).  
   
-## See Also  
+## See also
  [Calling into the SharePoint Object Models](../sharepoint/calling-into-the-sharepoint-object-models.md)   
  [How to: Execute a SharePoint Command](../sharepoint/how-to-execute-a-sharepoint-command.md)   
  [Walkthrough: Extending Server Explorer to Display Web Parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)  
-  
   

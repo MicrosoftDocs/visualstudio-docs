@@ -2,20 +2,16 @@
 title: "Getting Started with Source Control VSPackages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "source control packages, getting started"
   - "getting started, source control packages"
 ms.assetid: 049c68f4-a041-4f24-8575-4837e7f5cf3f
-caps.latest.revision: 22
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

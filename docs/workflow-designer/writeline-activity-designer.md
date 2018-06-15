@@ -1,29 +1,33 @@
 ---
-title: "WriteLine Activity Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - WriteLine Activity Designer"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Activities.Statements.WriteLine.UI"
 ms.assetid: 1b5f29a8-b7fd-477e-949e-2f689cae3c96
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # WriteLine Activity Designer
+
 The **WriteLine** activity designer is used to create and configure a <xref:System.Activities.Statements.WriteLine> activity.
 
 ## The WriteLine Activity
- The <xref:System.Activities.Statements.WriteLine> activity writes text to a specified <xref:System.IO.TextWriter> object. If no <xref:System.IO.TextWriter> is specified, <xref:System.Activities.Statements.WriteLine> writes the text to the console.
+
+The <xref:System.Activities.Statements.WriteLine> activity writes text to a specified <xref:System.IO.TextWriter> object. If no <xref:System.IO.TextWriter> is specified, <xref:System.Activities.Statements.WriteLine> writes the text to the console.
 
 ### Using the WriteLine Activity Designer
- The **WriteLine** activity designer can be found in the **Primitives** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab of the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
+ The **WriteLine** activity designer can be found in the **Primitives** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab of the Workflow Designer (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
 
- The **WriteLine** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.WriteLine> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of WriteLine. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **WriteLine** activity designer or in the **DisplayName** box of the property grid.
+ The **WriteLine** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.WriteLine> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of WriteLine. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **WriteLine** activity designer or in the **DisplayName** box of the property grid.
 
 ### The WriteLine Properties
- The following table shows the <xref:System.Activities.Statements.WriteLine> properties and describes how they are used in the designer. These properties can be edited in property grid and some of them can be edited on [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)]designer surface.
+ The following table shows the <xref:System.Activities.Statements.WriteLine> properties and describes how they are used in the designer. These properties can be edited in property grid and some of them can be edited on Workflow Designerdesigner surface.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|

@@ -1,14 +1,10 @@
 ---
-title: "Navigating code in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "09/26/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+title: Navigate code in Visual Studio
+ms.date: 09/26/2017
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
+helpviewer_keywords:
   - "code editor, navigation"
   - "code editor, go to"
   - "code editor, go to definition"
@@ -19,10 +15,10 @@ helpviewer_keywords:
   - "peek definition"
   - "go to line"
   - "go to"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Navigate code
@@ -31,7 +27,7 @@ Visual Studio provides numerous ways to navigate code in the editor. This topic 
 
 ## Navigate Backward and Navigate Forward commands
 
-You can use the **Navigate Backward** (**Ctrl + -**) and **Navigate Forward** (**Ctrl + Shift + -**) buttons on the toolbar to move the insertion point to previous locations, or to return to a more recent location from a previous location. These buttons retain the last 20 locations of the insertion point. These commands are also available on the **View** menu, under **Navigate Backward** and **Navigate Forward**.
+You can use the **Navigate Backward** (**Ctrl**+**-**) and **Navigate Forward** (**Ctrl**+**Shift**+**-**) buttons on the toolbar to move the insertion point to previous locations, or to return to a more recent location from a previous location. These buttons retain the last 20 locations of the insertion point. These commands are also available on the **View** menu, under **Navigate Backward** and **Navigate Forward**.
 
 ![Forward and back navigation buttons](../ide/media/vs2017_nav_buttons.png)
 
@@ -49,7 +45,7 @@ You can navigate around the drop-down boxes as follows:
 
 - To navigate directly to a procedure or other member of a class, choose it in the right drop-down.
 
-- To shift focus from the code window to the navigation bar, press the shortcut key combination **Ctrl + F2**.
+- To shift focus from the code window to the navigation bar, press the shortcut key combination **Ctrl**+**F2**.
 
 - To shift focus from box to box on the navigation bar, press the **Tab** key.
 
@@ -57,36 +53,36 @@ You can navigate around the drop-down boxes as follows:
 
 - To return focus from the navigation bar to the code  without selecting anything, press the **Esc** key.
 
-To hide the navigation bar, change the **Navigation bar** option in the Text Editor All Languages settings (**Tools**, **Options**, **Text Editor**, **All Languages**), or you can change the settings for individual languages.
+To hide the navigation bar, change the **Navigation bar** option in the **Text Editor All Languages** settings (**Tools** > **Options** > **Text Editor** > **All Languages**), or you can change the settings for individual languages.
 
-## Find All References
+## Find all references
 
-Finds all the references to the selected element in the solution. You can use this to check possible side-effects of a large refactoring, or to verify "dead" code. Press **F8** to jump between results. For more information, see [Finding references in your code](finding-references.md).
+Finds all the references to the selected element in the solution. You can use this to check possible side-effects of a large refactoring, or to verify "dead" code. Press **F8** to jump between results. For more information, see [Find references in your code](finding-references.md).
 
-Input        | Function 
+Input        | Function
 ------------ | ---
-**Keyboard** | Place your text cursor somewhere inside the type name, and press **Shift + F12**  
-**Mouse**    | Select **Find All References** from the context menu  
+**Keyboard** | Place your text cursor somewhere inside the type name, and press **Shift**+**F12**
+**Mouse**    | Select **Find All References** from the context menu
 
 ## Reference highlighting
 
-When you click a symbol in the source code, all instances of that symbol are highlighted in the document. The highlighted symbols may include declarations and references, and many other symbols that **Find All References** would return. These include the names of classes, objects, variables, methods, and properties. In Visual Basic code, keywords for many control structures are also highlighted. To move to the next or the previous highlighted symbol, press **Ctrl + Shift + DOWN ARROW** or **Ctrl + Shift + UP ARROW**. You can change the highlighting color in **Tools**, **Options**, **Environment**, **Fonts and Colors**, **Highlighted Reference.**
+When you click a symbol in the source code, all instances of that symbol are highlighted in the document. The highlighted symbols may include declarations and references, and many other symbols that **Find All References** would return. These include the names of classes, objects, variables, methods, and properties. In Visual Basic code, keywords for many control structures are also highlighted. To move to the next or the previous highlighted symbol, press **Ctrl**+**Shift**+**Down Arrow** or **Ctrl**+**Shift**+**Up Arrow**. You can change the highlighting color in **Tools** > **Options** > **Environment** > **Fonts and Colors** > **Highlighted Reference**.
 
 ## Go To commands
 
-Go To has the following commands, which are available in the **Edit** menu under **Go To**:  
+Go To has the following commands, which are available in the **Edit** menu under **Go To**:
 
-- **Go To Line** (**Ctrl + G**): Move to the specified line number in the active document.
+- **Go To Line** (**Ctrl**+**G**): Move to the specified line number in the active document.
 
-- **Go to All** (**Ctrl + T** or **Ctrl + ,**): Move to the specified line, type, file, member, or symbol.
+- **Go to All** (**Ctrl**+**T** or **Ctrl**+**,**): Move to the specified line, type, file, member, or symbol.
 
-- **Go to File** (**Ctrl + 1**, **Ctrl + F**): Move to the specified file in the solution.
+- **Go to File** (**Ctrl**+**1**, **Ctrl**+**F**): Move to the specified file in the solution.
 
-- **Go to Type** (**Ctrl + 1**, **Ctrl + T**): Move to the specified type in the solution.
+- **Go to Type** (**Ctrl**+**1**, **Ctrl**+**T**): Move to the specified type in the solution.
 
-- **Go to Member** (**Ctrl + 1**, **Ctrl + M**): Move to the specified member in the solution.
+- **Go to Member** (**Ctrl**+**1**, **Ctrl**+**M**): Move to the specified member in the solution.
 
-- **Go to Symbol** (**Ctrl + 1**, **Ctrl + S**): Move to the specified symbol in the solution.
+- **Go to Symbol** (**Ctrl**+**1**, **Ctrl**+**S**): Move to the specified symbol in the solution.
 
 See more about these commands in the [Find code using Go To commands](../ide/go-to.md) topic.
 
@@ -101,11 +97,11 @@ Input        | Function
 
 ## Peek Definition
 
-Peek Definition displays the definition of the selected element in a window without navigating away from your current location in the code editor. For more information, see [How to: View and Edit Code by Using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) and [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md).
+Peek Definition displays the definition of the selected element in a window without navigating away from your current location in the code editor. For more information, see [How to: View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) and [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md).
 
 Input        | Function
 ------------ | ---
-**Keyboard** | Place your text cursor somewhere inside the type name, and press **Alt + F12**
+**Keyboard** | Place your text cursor somewhere inside the type name, and press **Alt**+**F12**
 **Mouse**    | Right-click on the type name and select **Peek Definition** OR press **Ctrl** and click on the type name (if you have the **Open definition in peek view** option checked)
 
 ## Go To Implementation
@@ -114,7 +110,7 @@ Using Go To Implementation, you can navigate from a base class or type to its im
 
 Input        | Function
 ------------ | ---
-**Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl + F12**
+**Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl**+**F12**
 **Mouse**    | Right-click on the type name and select **Go To Implementation**
 
 ## Call Hierarchy
@@ -123,12 +119,12 @@ You can view calls to and from a method in the [Call Hierarchy window](../ide/re
 
 Input        | Function
 ------------ | ---
-**Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl + K**, **Ctrl + T**
+**Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl**+**K**, **Ctrl**+**T**
 **Mouse**    | Right-click on the member name and select **View Call Hierarchy**
 
 ## Next Method and Previous Method commands (Visual Basic)
 
-In Visual Basic code files, use these commands to move the insertion point to different methods. Choose **Edit**, **Next Method** or **Edit**, **Previous Method**.
+In Visual Basic code files, use these commands to move the insertion point to different methods. Choose **Edit** > **Next Method** or **Edit** > **Previous Method**.
 
 ## Structure Visualizer
 
@@ -136,11 +132,11 @@ The Structure Visualizer feature in the code editor shows *structure guide lines
 
 ![Structure Visualizer](../ide/media/vside_structure_visualizer.png)
 
-To disable structure guide lines, go to **Tools**, **Options**, **Text Editor**, **General** and clear the **Show structure guide lines** box.
+To disable structure guide lines, go to **Tools** > **Options** > **Text Editor** > **General** and clear the **Show structure guide lines** box.
 
 ## Enhanced scroll bar
 
-You can use the enhanced scroll bar in a code window to get a bird's-eye view of your code. In map mode, you can see previews of the code when you move the cursor up and down the scroll bar. For more information, see [How to: Track Your Code by Customizing the Scroll Bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md).
+You can use the enhanced scroll bar in a code window to get a bird's-eye view of your code. In map mode, you can see previews of the code when you move the cursor up and down the scroll bar. For more information, see [How to: Track your code by customizing the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md).
 
 ## CodeLens information
 
@@ -148,5 +144,5 @@ You can find info about specific code, like changes and who made those changes, 
 
 ## See also
 
-[Writing code in the code and text editor](../ide/writing-code-in-the-code-and-text-editor.md)  
-[Viewing call hierarchy](../ide/reference/call-hierarchy.md)
+- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [View call hierarchy](../ide/reference/call-hierarchy.md)

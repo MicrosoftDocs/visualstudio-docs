@@ -1,0 +1,572 @@
+- name: Inside the Visual Studio SDK
+  href: inside-the-visual-studio-sdk.md
+- name: Visual Studio Shell
+  href: visual-studio-shell.md
+- name: Commands, Menus, and Toolbars
+  href: commands-menus-and-toolbars.md
+  items:
+  - name: How VSPackages Add User Interface Elements
+    href: how-vspackages-add-user-interface-elements.md
+  - name: Visual Studio Command Table (.Vsct) Files
+    href: visual-studio-command-table-dot-vsct-files.md
+    items:
+    - name: Author .Vsct Files
+      href: authoring-dot-vsct-files.md
+    - name: Design XML Command Table (.Vsct) Files
+      href: designing-xml-command-table-dot-vsct-files.md
+    - name: Create a .Vsct File
+      href: how-to-create-a-dot-vsct-file.md
+    - name: VSCT Compiler Command-Line Flags
+      href: vsct-compiler-command-line-flags.md
+  - name: Default Command, Group, and Toolbar Placement
+    href: default-command-group-and-toolbar-placement.md
+  - name: IDE-Defined Commands, Menus, and Groups
+    href: ide-defined-commands-menus-and-groups.md
+    items:
+    - name: GUIDs and IDs of Visual Studio Menus
+      href: guids-and-ids-of-visual-studio-menus.md
+    - name: GUIDs and IDs of Visual Studio Toolbars
+      href: guids-and-ids-of-visual-studio-toolbars.md
+    - name: GUIDs and IDs of Visual Studio Commands
+      href: guids-and-ids-of-visual-studio-commands.md
+  - name: Command Design
+    href: command-design.md
+    items:
+    - name: Command Implementation
+      href: command-implementation.md
+    - name: Command Availability
+      href: command-availability.md
+    - name: Command Routing Algorithm
+      href: command-routing-algorithm.md
+    - name: Command Placement Guidelines
+      href: command-placement-guidelines.md
+  - name: Optimizing Menu and Toolbar Commands
+    href: optimizing-menu-and-toolbar-commands.md
+  - name: Making Commands Available
+    href: making-commands-available.md
+  - name: Commands and Menus That Use Interop Assemblies
+    href: commands-and-menus-that-use-interop-assemblies.md
+    items:
+    - name: Determining Command Status By Using Interop Assemblies
+      href: determining-command-status-by-using-interop-assemblies.md
+    - name: Command Contracts in Interop Assemblies
+      href: command-contracts-in-interop-assemblies.md
+    - name: Registering Interop Assembly Command Handlers
+      href: registering-interop-assembly-command-handlers.md
+    - name: Using Visual Studio Interop Assemblies
+      href: using-visual-studio-interop-assemblies.md
+  - name: Command Routing in VSPackages
+    href: command-routing-in-vspackages.md
+- name: VSPackages
+  href: vspackages.md
+  items:
+  - name: Specifying VSPackage File Location to the VS Shell
+    href: specifying-vspackage-file-location-to-the-vs-shell.md
+  - name: Resources in VSPackages
+    href: resources-in-vspackages.md
+  - name: Best Practices for Security in VSPackages
+    href: best-practices-for-security-in-vspackages.md
+  - name: Registering VSPackages
+    href: registering-vspackages.md
+- name: Document Windows
+  href: document-windows.md
+  items:
+  - name: Running Document Table
+    href: running-document-table.md
+    items:
+    - name: RDT_ReadLock Usage
+      href: rdt-readlock-usage.md
+    - name: Persistence and the Running Document Table
+      href: persistence-and-the-running-document-table.md
+  - name: Delayed Document Loading
+    href: delayed-document-loading.md
+- name: Legacy Language Service Extensibility
+  href: legacy-language-service-extensibility.md
+  items:
+  - name: Migrating a Legacy Language Service
+    href: migrating-a-legacy-language-service.md
+  - name: Legacy Language Service Essentials
+    href: legacy-language-service-essentials.md
+  - name: Developing a Legacy Language Service
+    href: developing-a-legacy-language-service.md
+    items:
+    - name: Model of a Legacy Language Service
+      href: model-of-a-legacy-language-service.md
+    - name: Legacy Language Service Interfaces
+      href: legacy-language-service-interfaces.md
+    - name: Intercepting Legacy Language Service Commands
+      href: intercepting-legacy-language-service-commands.md
+      items:
+      - name: Important Commands for Language Service Filters
+        href: important-commands-for-language-service-filters.md
+    - name: Registering a Legacy Language Service2
+      href: registering-a-legacy-language-service2.md
+    - name: "Checklist: Creating a Legacy Language Service"
+      href: checklist-creating-a-legacy-language-service.md
+    - name: Legacy Language Service Features2
+      href: legacy-language-service-features2.md
+      items:
+      - name: Syntax Coloring in a Legacy Language Service
+        href: syntax-coloring-in-a-legacy-language-service.md
+        items:
+        - name: Implementing Syntax Coloring
+          href: implementing-syntax-coloring.md
+        - name: Use Built-In Colorable Items
+          href: how-to-use-built-in-colorable-items.md
+        - name: Custom Colorable Items
+          href: custom-colorable-items.md
+      - name: Automatic Formatting in a Legacy Language Service
+        href: automatic-formatting-in-a-legacy-language-service.md
+      - name: Parameter Info in a Legacy Language Service1
+        href: parameter-info-in-a-legacy-language-service1.md
+      - name: Statement Completion in a Legacy Language Service
+        href: statement-completion-in-a-legacy-language-service.md
+      - name: Outlining and Hidden Text in a Legacy Language Service
+        href: outlining-and-hidden-text-in-a-legacy-language-service.md
+        items:
+        - name: Support Outlining in a Legacy Language Service
+          href: how-to-support-outlining-in-a-legacy-language-service.md
+        - name: Provide Hidden Text Support in a Legacy Language Service
+          href: how-to-provide-hidden-text-support-in-a-legacy-language-service.md
+        - name: Provide Expanded Outlining Support in a Legacy Language Service
+          href: how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md
+      - name: Language Service Support for Debugging
+        href: language-service-support-for-debugging.md
+  - name: Implementing a Legacy Language Service1
+    href: implementing-a-legacy-language-service1.md
+    items:
+    - name: Legacy Language Service Overview
+      href: legacy-language-service-overview.md
+    - name: Implementing a Legacy Language Service2
+      href: implementing-a-legacy-language-service2.md
+    - name: Registering a Legacy Language Service1
+      href: registering-a-legacy-language-service1.md
+    - name: Legacy Language Service Parser and Scanner
+      href: legacy-language-service-parser-and-scanner.md
+    - name: "Walkthrough: Creating a Legacy Language Service"
+      href: walkthrough-creating-a-legacy-language-service.md
+    - name: "Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation)"
+      href: walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation.md
+    - name: Legacy Language Service Features1
+      href: legacy-language-service-features1.md
+      items:
+      - name: Brace Matching in a Legacy Language Service
+        href: brace-matching-in-a-legacy-language-service.md
+      - name: Commenting Code in a Legacy Language Service
+        href: commenting-code-in-a-legacy-language-service.md
+      - name: Custom Document Properties in a Legacy Language Service
+        href: custom-document-properties-in-a-legacy-language-service.md
+      - name: Outlining in a Legacy Language Service
+        href: outlining-in-a-legacy-language-service.md
+      - name: Reformatting Code in a Legacy Language Service
+        href: reformatting-code-in-a-legacy-language-service.md
+      - name: Support for Code Snippets in a Legacy Language Service
+        href: support-for-code-snippets-in-a-legacy-language-service.md
+      - name: Parameter Info in a Legacy Language Service2
+        href: parameter-info-in-a-legacy-language-service2.md
+      - name: Quick Info in a Legacy Language Service
+        href: quick-info-in-a-legacy-language-service.md
+      - name: Member Completion in a Legacy Language Service
+        href: member-completion-in-a-legacy-language-service.md
+      - name: Word Completion in a Legacy Language Service
+        href: word-completion-in-a-legacy-language-service.md
+      - name: Support for the Autos Window in a Legacy Language Service
+        href: support-for-the-autos-window-in-a-legacy-language-service.md
+      - name: Support for the Navigation Bar in a Legacy Language Service
+        href: support-for-the-navigation-bar-in-a-legacy-language-service.md
+      - name: Syntax Colorizing in a Legacy Language Service
+        href: syntax-colorizing-in-a-legacy-language-service.md
+      - name: Validating Breakpoints in a Legacy Language Service
+        href: validating-breakpoints-in-a-legacy-language-service.md
+  - name: Supporting Symbol-Browsing Tools
+    href: supporting-symbol-browsing-tools.md
+    items:
+    - name: Register a Library with the Object Manager
+      href: how-to-register-a-library-with-the-object-manager.md
+    - name: Expose Lists of Symbols Provided by the Library to the Object Manager
+      href: how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md
+    - name: Identify Symbols in a Library
+      href: how-to-identify-symbols-in-a-library.md
+- name: Projects
+  href: projects.md
+  items:
+  - name: "New Project Generation: Under the Hood, Part One"
+    href: new-project-generation-under-the-hood-part-one.md
+  - name: "New Project Generation: Under the Hood, Part Two"
+    href: new-project-generation-under-the-hood-part-two.md
+  - name: Project Types
+    href: project-types.md
+    items:
+    - name: Project Type Essentials
+      href: project-type-essentials.md
+    - name: Creating Project Types
+      href: creating-project-types.md
+      items:
+      - name: Project Type Design Decisions
+        href: project-type-design-decisions.md
+      - name: "Checklist: Creating New Project Types"
+        href: checklist-creating-new-project-types.md
+      - name: Creating Project Instances By Using Project Factories
+        href: creating-project-instances-by-using-project-factories.md
+      - name: Using the Managed Package Framework to Implement a Project Type (C#)
+        href: using-the-managed-package-framework-to-implement-a-project-type-csharp.md
+      - name: Registering a Project Type
+        href: registering-a-project-type.md
+      - name: Project Persistence
+        href: project-persistence.md
+      - name: Using MSBuild
+        href: using-msbuild.md
+    - name: Adding Project and Project Item Templates
+      href: adding-project-and-project-item-templates.md
+      items:
+      - name: Project Context
+        href: project-context.md
+      - name: Project Priority
+        href: project-priority.md
+      - name: Miscellaneous Files Project
+        href: miscellaneous-files-project.md
+      - name: Registering Project and Item Templates
+        href: registering-project-and-item-templates.md
+      - name: Adding Items to the Add New Item Dialog Boxes
+        href: adding-items-to-the-add-new-item-dialog-boxes.md
+      - name: Adding Directories to the New Project Dialog Box
+        href: adding-directories-to-the-new-project-dialog-box.md
+      - name: Adding Directories to the Add New Item Dialog Box
+        href: adding-directories-to-the-add-new-item-dialog-box.md
+      - name: IDE-Defined Commands for Extending Project Systems
+        href: ide-defined-commands-for-extending-project-systems.md
+      - name: CATIDs for Objects That Are Typically Used to Extend Projects
+        href: catids-for-objects-that-are-typically-used-to-extend-projects.md
+    - name: Opening and Saving Project Items
+      href: opening-and-saving-project-items.md
+      items:
+      - name: Displaying Files By Using the Open File Command
+        href: displaying-files-by-using-the-open-file-command.md
+      - name: Displaying Files By Using the Open With Command
+        href: displaying-files-by-using-the-open-with-command.md
+      - name: Saving a Standard Document
+        href: saving-a-standard-document.md
+      - name: Saving a Custom Document
+        href: saving-a-custom-document.md
+      - name: Determining Which Editor Opens a File in a Project
+        href: determining-which-editor-opens-a-file-in-a-project.md
+    - name: Managing Configuration Options
+      href: managing-configuration-options.md
+      items:
+      - name: Configuration Options Overview
+        href: configuration-options-overview.md
+      - name: Property Pages
+        href: property-pages.md
+      - name: Solution Configuration
+        href: solution-configuration.md
+      - name: Project Configuration Object
+        href: project-configuration-object.md
+      - name: Project Configuration for Building
+        href: project-configuration-for-building.md
+      - name: Project Configuration for Managing Deployment
+        href: project-configuration-for-managing-deployment.md
+      - name: Project Configuration for Output
+        href: project-configuration-for-output.md
+    - name: Supporting Source Control
+      href: supporting-source-control.md
+      items:
+      - name: Model for Source Control Packages
+        href: model-for-source-control-packages.md
+      - name: Source Control Design Decisions
+        href: source-control-design-decisions.md
+      - name: Source Control Configuration Details
+        href: source-control-configuration-details.md
+      - name: Additional Source Control Guidelines for Projects and Editors
+        href: additional-source-control-guidelines-for-projects-and-editors.md
+      - name: Source Control Runtime Details
+        href: source-control-runtime-details.md
+    - name: Nesting Projects
+      href: nesting-projects.md
+      items:
+      - name: Implement Nested Projects
+        href: how-to-implement-nested-projects.md
+      - name: Considerations for Unloading and Reloading Nested Projects
+        href: considerations-for-unloading-and-reloading-nested-projects.md
+      - name: Wizard Support for Nested Projects
+        href: wizard-support-for-nested-projects.md
+      - name: Implementing Command Handling for Nested Projects
+        href: implementing-command-handling-for-nested-projects.md
+      - name: Filtering the AddItem Dialog Box for Nested Projects
+        href: filtering-the-additem-dialog-box-for-nested-projects.md
+    - name: Upgrading Projects
+      href: upgrading-projects.md
+    - name: Project Types Architecture
+      href: project-types-architecture.md
+      items:
+      - name: Elements of a Project Model
+        href: elements-of-a-project-model.md
+      - name: Project Model Core Components
+        href: project-model-core-components.md
+      - name: When to Create Project Types
+        href: when-to-create-project-types.md
+      - name: Hierarchies and Selection
+        href: hierarchies-and-selection.md
+        items:
+        - name: Hierarchies in Visual Studio
+          href: hierarchies-in-visual-studio.md
+        - name: Selection and Currency in the IDE
+          href: selection-and-currency-in-the-ide.md
+        - name: Selection Context Objects
+          href: selection-context-objects.md
+        - name: Feedback to the User
+          href: feedback-to-the-user.md
+  - name: Project Subtypes
+    href: project-subtypes.md
+    items:
+    - name: Project Subtypes Design
+      href: project-subtypes-design.md
+    - name: Initialization Sequence of Project Subtypes
+      href: initialization-sequence-of-project-subtypes.md
+    - name: Properties and Methods Extended by Project Subtypes
+      href: properties-and-methods-extended-by-project-subtypes.md
+    - name: Persisting Data in the MSBuild Project File
+      href: persisting-data-in-the-msbuild-project-file.md
+    - name: Project Property User Interface
+      href: project-property-user-interface.md
+    - name: Extending the Object Model of the Base Project
+      href: extending-the-object-model-of-the-base-project.md
+    - name: Contributing to the Add New Item Dialog Box
+      href: contributing-to-the-add-new-item-dialog-box.md
+  - name: Web Projects
+    href: web-projects.md
+    items:
+    - name: Web Project Essentials
+      href: web-project-essentials.md
+    - name: Web Site Support
+      href: web-site-support.md
+      items:
+      - name: Web Site Support Templates
+        href: web-site-support-templates.md
+      - name: Web Site Support Attributes
+        href: web-site-support-attributes.md
+  - name: Handling Specialized Deployment
+    href: handling-specialized-deployment.md
+  - name: Contributing to the Automation Model
+    href: contributing-to-the-automation-model.md
+    items:
+    - name: Automation Model Overview
+      href: automation-model-overview.md
+    - name: Providing Automation for VSPackages
+      href: providing-automation-for-vspackages.md
+    - name: Exposing Project Objects
+      href: exposing-project-objects.md
+    - name: Project Modeling
+      href: project-modeling.md
+    - name: Exposing Events in the Visual Studio SDK
+      href: exposing-events-in-the-visual-studio-sdk.md
+    - name: Automation Support for Options Pages
+      href: automation-support-for-options-pages.md
+    - name: Providing Automation for Code
+      href: providing-automation-for-code.md
+    - name: Provide Automation for Windows
+      href: how-to-provide-automation-for-windows.md
+    - name: Using the Automation Model
+      href: using-the-automation-model.md
+    - name: Automation for Configuration and SelectedItem Objects
+      href: automation-for-configuration-and-selecteditem-objects.md
+- name: Solutions
+  href: solutions.md
+  items:
+  - name: Solutions Overview
+    href: solutions-overview.md
+  - name: Solution (.Sln) File
+    href: solution-dot-sln-file.md
+  - name: Solution User Options (.Suo) File
+    href: solution-user-options-dot-suo-file.md
+- name: Extending Properties
+  href: extending-properties.md
+  items:
+  - name: Properties Window Overview
+    href: properties-window-overview.md
+  - name: Template Policy and the Properties Window
+    href: template-policy-and-the-properties-window.md
+  - name: Properties Window Fields and Interfaces
+    href: properties-window-fields-and-interfaces.md
+  - name: Properties Window Object List
+    href: properties-window-object-list.md
+  - name: Properties Window Buttons
+    href: properties-window-buttons.md
+  - name: Properties Display Grid
+    href: properties-display-grid.md
+  - name: Support for Project and Configuration Properties
+    href: support-for-project-and-configuration-properties.md
+- name: Options and Options Pages
+  href: options-and-options-pages.md
+  items:
+  - name: Creating Options Pages
+    href: creating-options-pages.md
+- name: Support for User Settings
+  href: support-for-user-settings.md
+- name: Service Essentials
+  href: service-essentials.md
+  items:
+  - name: List of Available Services
+    href: list-of-available-services.md
+- name: Visual Studio Debugger Extensibility
+  href: ../debugger/toc.yml
+- name: Source Control
+  href: source-control.md
+  items:
+  - name: Source Control Integration Essentials
+    href: source-control-integration-essentials.md
+  - name: Source Control Integration Overview
+    href: source-control-integration-overview.md
+    items:
+    - name: What's New in Source Control
+      href: what-s-new-in-source-control.md
+  - name: Creating a Source Control Plug-in
+    href: creating-a-source-control-plug-in.md
+    items:
+    - name: Getting Started with Source Control Plug-ins
+      href: getting-started-with-source-control-plug-ins.md
+      items:
+      - name: Install a Source Control Plug-in
+        href: how-to-install-a-source-control-plug-in.md
+      - name: What's New in the Source Control Plug-in API Version 1.3
+        href: what-s-new-in-the-source-control-plug-in-api-version-1-3.md
+      - name: What's New in the Source Control Plug-in API Version 1.2
+        href: what-s-new-in-the-source-control-plug-in-api-version-1-2.md
+        items:
+        - name: Elimination of ~SAK Files
+          href: elimination-of-tilde-sak-files.md
+        - name: Application of Settings Across Multiple Project Connections
+          href: application-of-settings-across-multiple-project-connections.md
+        - name: Creating Parent Container Folders for Solutions
+          href: creating-parent-container-folders-for-solutions.md
+        - name: Optional Comparison of Local Project Folder to Source Control Store
+          href: optional-comparison-of-local-project-folder-to-source-control-store.md
+        - name: Removal of Source Control Information from .Proj and .Sln Files
+          href: removal-of-source-control-information-from-dot-proj-and-dot-sln-files.md
+    - name: Source Control Plug-in Architecture
+      href: source-control-plug-in-architecture.md
+    - name: Test Guide for Source Control Plug-ins
+      href: test-guide-for-source-control-plug-ins.md
+      items:
+      - name: "Test Area 1: Add To-Open From Source Control"
+        href: test-area-1-add-to-open-from-source-control.md
+      - name: "Test Area 2: Get From Source Control"
+        href: test-area-2-get-from-source-control.md
+      - name: "Test Area 3: Check Out-Undo Checkout"
+        href: test-area-3-check-out-undo-checkout.md
+      - name: "Test Area 4: Check In"
+        href: test-area-4-check-in.md
+      - name: "Test Area 5: Change Source Control"
+        href: test-area-5-change-source-control.md
+      - name: "Test Area 6: Delete"
+        href: test-area-6-delete.md
+      - name: "Test Area 7: Share"
+        href: test-area-7-share.md
+      - name: "Test Area 8: Plug-in Switching"
+        href: test-area-8-plug-in-switching.md
+  - name: Creating a Source Control VSPackage
+    href: creating-a-source-control-vspackage.md
+    items:
+    - name: Getting Started with Source Control VSPackages
+      href: getting-started-with-source-control-vspackages.md
+      items:
+      - name: Determining Whether to Implement a Source Control VSPackage
+        href: determining-whether-to-implement-a-source-control-vspackage.md
+    - name: Source Control VSPackage Architecture
+      href: source-control-vspackage-architecture.md
+    - name: Source Control VSPackage Features
+      href: source-control-vspackage-features.md
+      items:
+      - name: Registration and Selection (Source Control VSPackage)
+        href: registration-and-selection-source-control-vspackage.md
+      - name: Query Edit Query Save (Source Control VSPackage)
+        href: query-edit-query-save-source-control-vspackage.md
+      - name: Glyph Control (Source Control VSPackage)
+        href: glyph-control-source-control-vspackage.md
+      - name: Custom User Interface (Source Control VSPackage)
+        href: custom-user-interface-source-control-vspackage.md
+    - name: Source Control VSPackage Design Elements
+      href: source-control-vspackage-design-elements.md
+      items:
+      - name: VSPackage Structure (Source Control VSPackage)
+        href: vspackage-structure-source-control-vspackage.md
+      - name: Related Services and Interfaces (Source Control VSPackage)
+        href: related-services-and-interfaces-source-control-vspackage.md
+      - name: Services Provided (Source Control VSPackage)
+        href: services-provided-source-control-vspackage.md
+- name: Wizards
+  href: wizards.md
+  items:
+  - name: Template Directory Description (.Vsdir) Files
+    href: template-directory-description-dot-vsdir-files.md
+  - name: Wizard (.Vsz) File
+    href: wizard-dot-vsz-file.md
+  - name: Wizard Interface (IDTWizard)
+    href: wizard-interface-idtwizard.md
+  - name: Context Parameters
+    href: context-parameters.md
+  - name: Custom Parameters
+    href: custom-parameters.md
+- name: Custom Tools
+  href: custom-tools.md
+  items:
+  - name: Implementing Single-File Generators
+    href: implementing-single-file-generators.md
+  - name: Registering Single File Generators
+    href: registering-single-file-generators.md
+  - name: Exposing Types to Visual Designers
+    href: exposing-types-to-visual-designers.md
+- name: VSSDK Utilities
+  href: vssdk-utilities.md
+  items:
+  - name: RegPkg Utility
+    href: regpkg-utility.md
+    items:
+    - name: Troubleshooting RegPkg Package Registration
+      href: troubleshooting-regpkg-package-registration.md
+  - name: CreatePkgDef Utility
+    href: createpkgdef-utility.md
+  - name: CreateExpInstance Utility
+    href: createexpinstance-utility.md
+  - name: Color Theming Tools
+    href: color-theming-tools.md
+    items:
+    - name: VSIX Color Editor
+      href: vsix-color-editor.md
+    - name: VSIX Color Compiler
+      href: vsix-color-compiler.md
+  - name: Image Service Tools
+    href: image-service-tools.md
+    items:
+    - name: Manifest from Resources
+      href: manifest-from-resources.md
+    - name: Manifest to Code
+      href: manifest-to-code.md
+    - name: Image Library Viewer
+      href: image-library-viewer.md
+- name: Installing VSPackages With Windows Installer
+  href: installing-vspackages-with-windows-installer.md
+  items:
+  - name: Windows Installer Basics
+    href: windows-installer-basics.md
+  - name: VSPackage Setup Scenarios
+    href: vspackage-setup-scenarios.md
+  - name: Authoring a Windows Installer Package
+    href: authoring-a-windows-installer-package.md
+  - name: Detecting System Requirements
+    href: detecting-system-requirements.md
+  - name: Component Management
+    href: component-management.md
+  - name: Choosing the Installation Directory for a VSPackage
+    href: choosing-the-installation-directory-for-a-vspackage.md
+  - name: VSPackage Registration
+    href: vspackage-registration.md
+  - name: Deploying Project Types
+    href: deploying-project-types.md
+  - name: Generate Registry Information for an Installer
+    href: how-to-generate-registry-information-for-an-installer.md
+  - name: Commands That Must Be Run After Installation
+    href: commands-that-must-be-run-after-installation.md
+  - name: Uninstalling a VSPackage With Windows Installer
+    href: uninstalling-a-vspackage-with-windows-installer.md
+- name: Microsoft Help Viewer SDK
+  href: microsoft-help-viewer-sdk.md

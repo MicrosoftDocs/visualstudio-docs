@@ -2,21 +2,16 @@
 title: "IDiaStackWalkFrame::searchForReturnAddressStart | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaStackWalkFrame::searchForReturnAddressStart method"
 ms.assetid: 47660b9b-6e4f-4dfa-88ab-63dce28f7412
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,22 +2,17 @@
 title: "Debugging GPU Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
   - "FSharp"
   - "C++"
 ms.assetid: c7e77a5a-cb57-4b11-9187-ecc89acc8775
-caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -66,7 +61,7 @@ You can debug C++ code that is running on the graphics processing unit (GPU). GP
 ## Troubleshooting  
   
 ### Specifying an accelerator  
- Breakpoints in GPU code are only hit if the code is running on the [accelerator::direct3d_ref](/cpp/parallel/amp/reference/accelerator-class.md#accelerator__direct3d_ref_Data_Member) (REF) accelerator. If you do not specify an accelerator in your code, the REF accelerator is automatically selected as the **Debugging Accelerator Type** in the project properties. If your code explicitly selects an accelerator, then the REF accelerator will not be used during debugging and the breakpoints will not be hit unless your GPU hardware has debugging support. You can remedy this by writing your code so that it uses the REF accelerator during debugging. For more information, see project properties and [Using accelerator and accelerator_view Objects](/cpp/parallel/amp/using-accelerator-and-accelerator-view-objects) and [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).  
+ Breakpoints in GPU code are only hit if the code is running on the [accelerator::direct3d_ref](/cpp/parallel/amp/reference/accelerator-class#direct3d_ref) (REF) accelerator. If you do not specify an accelerator in your code, the REF accelerator is automatically selected as the **Debugging Accelerator Type** in the project properties. If your code explicitly selects an accelerator, then the REF accelerator will not be used during debugging and the breakpoints will not be hit unless your GPU hardware has debugging support. You can remedy this by writing your code so that it uses the REF accelerator during debugging. For more information, see project properties and [Using accelerator and accelerator_view Objects](/cpp/parallel/amp/using-accelerator-and-accelerator-view-objects) and [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).  
   
 ### Conditional Breakpoints  
  Conditional breakpoints in GPU code are supported, but not every expression can be evaluated on the device. When an expression can't be evaluated on the device, it is evaluated on the debugger. The debugger is likely to run more slowly than the device.  

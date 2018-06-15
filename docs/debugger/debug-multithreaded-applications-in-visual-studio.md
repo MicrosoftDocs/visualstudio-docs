@@ -2,12 +2,8 @@
 title: "Debug Multithreaded Applications in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/05/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.gputthreads"
 dev_langs: 
@@ -22,10 +18,9 @@ helpviewer_keywords:
   - "multithreaded debugging"
   - "high-performance debugging"
 ms.assetid: 9d175bc2-1d95-4c47-9bc3-9755af968a9c
-caps.latest.revision: 25
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -97,7 +92,7 @@ Debugging a multithreaded application that has a user interface can be especiall
  [Multithreading in Components](http://msdn.microsoft.com/Library/2fc31e68-fb71-4544-b654-0ce720478779)  
  How to use multithreading in [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] components.  
   
- [Multithreading Support for Older Code (Visual C++)](/cpp/parallel/multithreading/multithreading-support-for-older-code-visual-cpp)  
+ [Multithreading Support for Older Code (Visual C++)](/cpp/parallel/multithreading-support-for-older-code-visual-cpp)  
  Threading concepts and example code for C++ programmers using MFC.  
   
 ## See Also  

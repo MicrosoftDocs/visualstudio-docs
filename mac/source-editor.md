@@ -1,10 +1,9 @@
 ---
-title: Source Editor | Microsoft Docs
+title: Source Editor
 description: Using the source editor in Visual Studio for Mac
 author: asb3993
 ms.author: amburns
-ms.date: 04/14/2017
-ms.topic: article
+ms.date: 05/06/2018
 ms.assetid: A018A314-C1C4-4F36-BCB6-2D434208FCFE
 ---
 
@@ -21,7 +20,6 @@ This article introduces some of the key features of the source editor and explor
 Viewing and moving efficiently throughout code is an integral part of the development workflow. Exactly how you decide to view and maintain code is a personal decision, which varies between developers - and often between projects.
 
 Visual Studio for Mac offers many powerful features to make cross-platform development as accessible and as useful as possible. The following sections describe some of the highlights.
-
 
 ## Code folding
 
@@ -59,25 +57,20 @@ The option to show tabs, spaces, and line endings is also available:
 
  ![whitespace displayed](media/source-editor-image22.png)
 
-
 ## Ruler
 
 The column ruler is useful for determining line lengths, particularly when working on a team that has line length guidelines. The column ruler can be turned on or off by navigating to **Visual Studio > Preferences... > Text Editor > Markers and Rulers** and selecting (or deselecting) **Show Column ruler**, as illustrated in the following image:
 
- ![](media/source-editor-image5.png)
+ ![Preferences dialog with "show column ruler" highlighted](media/source-editor-image5.png)
 
  This displays as a vertical light gray line in the source editor.
-
 
 ## Highlight identifier references
 
 With the "Highlight identifier references" option is enabled, you can select any symbol in the source code and the source editor will provide a visual guide to all other references in that file. To turn on this option, go to **Visual Studio > Preferences... > Text Editor > Markers and Rulers** and select _Highlight identifier references_, as illustrated in the following image:
 
-![](media/source-editor-image6.png)
+![Preferences dialog with "Highlight identifier references" highlighted](media/source-editor-image6.png)
 
 The color of the highlight is also useful for denoting that something is being assigned or referenced. If something is assigned, it is highlighted in red; if it is referenced, it is highlighted in blue:
 
-![](media/source-editor-image7.png)
-
-
-
+![example showing color of higlight](media/source-editor-image7.png)

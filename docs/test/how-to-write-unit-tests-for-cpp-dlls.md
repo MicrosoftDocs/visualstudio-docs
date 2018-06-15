@@ -1,10 +1,11 @@
 ---
-title: "Write Unit tests for C++ DLLs in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2017"
+title: "Write Unit tests for C++ DLLs in Visual Studio"
+ms.date: 11/04/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 ms.author: mblome
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 author: mikeblome
@@ -107,7 +108,7 @@ author: mikeblome
 
     3.  Edit the Include and Library directories:
 
-        |||
+        |Directory|Property|
         |-|-|
         |**Include Directories** | **$(VCInstallDir)UnitTest\include;$(IncludePath)**|
         |**Library Directories** | **$(VCInstallDir)UnitTest\lib;$(LibraryPath)**|

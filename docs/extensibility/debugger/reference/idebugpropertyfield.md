@@ -2,21 +2,17 @@
 title: "IDebugPropertyField | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPropertyField"
 helpviewer_keywords: 
   - "IDebugPropertyField interface"
 ms.assetid: b50edb2c-fb8d-4def-993d-17d23d2027c1
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

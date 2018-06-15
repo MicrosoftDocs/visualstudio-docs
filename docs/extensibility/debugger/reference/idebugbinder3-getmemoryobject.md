@@ -2,21 +2,17 @@
 title: "IDebugBinder3::GetMemoryObject | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBinder3::GetMemoryObject"
 helpviewer_keywords: 
   - "IDebugBinder3::GetMemoryObject method"
 ms.assetid: 71d959c7-45df-485f-b0ee-f1c0439d54fb
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

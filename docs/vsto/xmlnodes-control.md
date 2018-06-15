@@ -1,13 +1,10 @@
 ---
-title: "XMLNodes Control | Microsoft Docs"
+title: "XMLNodes control"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,11 +13,11 @@ helpviewer_keywords:
   - "XMLNodes control"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# XMLNodes Control
+# XMLNodes control
   **Important** The information set out in this topic regarding Microsoft Word is presented exclusively for the benefit and use of individuals and organizations who are located outside the United States and its territories or who are using, or developing programs that run on, Microsoft Word products that were licensed by Microsoft before January 2010, when Microsoft removed an implementation of particular functionality related to custom XML from Microsoft Word. This information regarding Microsoft Word may not be read or used by individuals or organizations in the United States or its territories who are using, or developing programs that run on, Microsoft Word products that were licensed by Microsoft after January 10, 2010; those products will not behave the same as products licensed before that date or purchased and licensed for use outside the United States.  
   
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]  
@@ -30,9 +27,9 @@ ms.workload:
  After Visual Studio creates the collection of XML nodes, you can program against the control directly without having to traverse the Word object model. The <xref:Microsoft.Office.Tools.Word.XMLNodes> control can be deleted only by removing the element mapping from the document.  
   
 > [!NOTE]  
->  If you access a child element of the <xref:Microsoft.Office.Tools.Word.XMLNodes> control through the <xref:Microsoft.Office.Tools.Word.XMLNodes.Item%2A> property, it returns a <xref:Microsoft.Office.Interop.Word.XMLNode> object rather than a <xref:Microsoft.Office.Tools.Word.XMLNode> control. For more information, see [Programmatic Limitations of Host Items and Host Controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md).  
+>  If you access a child element of the <xref:Microsoft.Office.Tools.Word.XMLNodes> control through the <xref:Microsoft.Office.Tools.Word.XMLNodes.Item%2A> property, it returns a <xref:Microsoft.Office.Interop.Word.XMLNode> object rather than a <xref:Microsoft.Office.Tools.Word.XMLNode> control. For more information, see [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md).  
   
-## Binding Data to the Control  
+## Bind data to the control  
  An <xref:Microsoft.Office.Tools.Word.XMLNodes> control does not support data binding. This is because the <xref:Microsoft.Office.Tools.Word.XMLNodes> control does not have complex data binding capabilities, and simple data binding cannot represent repeating data.  
   
 ## Formatting  
@@ -57,10 +54,10 @@ ms.workload:
   
 -   <xref:Microsoft.Office.Tools.Word.XMLNodes.ValidationError>  
   
-## Comparing Events  
+## Compare events  
  You can capture an event when the user moves his or her cursor inside the context of a particular <xref:Microsoft.Office.Tools.Word.XMLNodes> control. For example, you might have an <xref:Microsoft.Office.Tools.Word.XMLNodes> control named `Customer` that has a child <xref:Microsoft.Office.Tools.Word.XMLNodes> control named `Company`, and `Company` has two child <xref:Microsoft.Office.Tools.Word.XMLNodes> controls named `CompanyName` and `CompanyRegion` as follows:  
   
-```  
+```xml  
 <Customer>  
     <Company>  
         <CompanyName>  
@@ -79,12 +76,12 @@ ms.workload:
   
  The same differences exist between the <xref:Microsoft.Office.Tools.Word.XMLNodes.ContextLeave> event and the <xref:Microsoft.Office.Tools.Word.XMLNodes.Deselect> event.  
   
-## See Also  
- [Host Items and Host Controls Overview](../vsto/host-items-and-host-controls-overview.md)   
- [Automating Word by Using Extended Objects](../vsto/automating-word-by-using-extended-objects.md)   
- [XMLNode Control](../vsto/xmlnode-control.md)   
- [How to: Add XMLNodes Controls to Word Documents](../vsto/how-to-add-xmlnodes-controls-to-word-documents.md)   
- [How to: Map Schemas to Word Documents Inside Visual Studio](../vsto/how-to-map-schemas-to-word-documents-inside-visual-studio.md)   
- [Programmatic Limitations of Host Items and Host Controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)  
+## See also  
+ [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)   
+ [Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)   
+ [XMLNode control](../vsto/xmlnode-control.md)   
+ [How to: Add XMLNodes controls to Word documents](../vsto/how-to-add-xmlnodes-controls-to-word-documents.md)   
+ [How to: Map schemas to Word documents inside Visual Studio](../vsto/how-to-map-schemas-to-word-documents-inside-visual-studio.md)   
+ [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)  
   
   

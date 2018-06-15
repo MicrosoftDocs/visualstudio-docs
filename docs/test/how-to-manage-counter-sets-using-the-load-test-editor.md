@@ -1,7 +1,7 @@
 ---
-title: "Load test counter sets in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Load test counter sets in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 f1_keywords:
   - "vs.test.load.dialog.countersetmapping"
 helpviewer_keywords:
@@ -12,7 +12,8 @@ helpviewer_keywords:
 ms.assetid: 64315c2f-a0b2-4378-be16-0774b99beef5
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Manage Counter Sets Using the Load Test Editor
@@ -24,7 +25,7 @@ When you create a load test with the **New Load Test Wizard**, you add an initia
 
 Managing counter sets involves choosing the set of computers you want to collect performance data from, and assigning a set of counter sets to collect from each individual computer. You manage your counters in the **Load Test Editor**.
 
-![Managing Counter Sets](../test/media/loadtestmanagecountersets.png "LoadTestManageCounterSets")
+![Managing Counter Sets](../test/media/loadtestmanagecountersets.png)
 
 ## To manage counter sets
 

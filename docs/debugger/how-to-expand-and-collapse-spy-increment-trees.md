@@ -2,19 +2,14 @@
 title: "How to: Expand and Collapse Spy++ Trees | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Expanding and Collapsing Spy++ Trees"
 ms.assetid: 22993182-7026-4155-8046-b84fd99f803c
-caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

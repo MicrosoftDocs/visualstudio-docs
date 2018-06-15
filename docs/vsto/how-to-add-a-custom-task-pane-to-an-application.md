@@ -1,13 +1,10 @@
 ---
-title: "How to: Add a Custom Task Pane to an Application | Microsoft Docs"
+title: "How to: Add a custom task pane to an application"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,23 +13,23 @@ helpviewer_keywords:
   - "custom task panes [Office development in Visual Studio], adding to application"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add a Custom Task Pane to an Application
-  You can add a custom task pane to the applications listed above by using VSTO Add-in. For more information, see [Custom Task Panes](../vsto/custom-task-panes.md).  
+# How to: Add a custom task pane to an application
+  You can add a custom task pane to the applications listed above by using VSTO Add-in. For more information, see [Custom task panes](../vsto/custom-task-panes.md).  
   
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]  
   
 > [!NOTE]  
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
-## Adding a Custom Task Pane to an Application  
+## Add a custom task pane to an application  
   
-#### To add a custom task pane to an application  
+### To add a custom task pane to an application  
   
-1.  Open or create a VSTO Add-in project for one of the applications listed above. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
+1.  Open or create a VSTO Add-in project for one of the applications listed above. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
 2.  On the **Project** menu, click **Add User Control**.  
   
@@ -55,11 +52,11 @@ ms.workload:
      [!code-csharp[Trin_TaskPaneBasic#2](../vsto/codesnippet/CSharp/Trin_TaskPaneBasic/ThisAddIn.cs#2)]  
   
     > [!NOTE]  
-    >  This code associates your custom task pane with the active window in the application. For some applications, you might want to modify this code to ensure that the task pane appears with other documents or items in the application. For more information, see [Custom Task Panes](../vsto/custom-task-panes.md).  
+    >  This code associates your custom task pane with the active window in the application. For some applications, you might want to modify this code to ensure that the task pane appears with other documents or items in the application. For more information, see [Custom task panes](../vsto/custom-task-panes.md).  
   
-## See Also  
- [Office UI Customization](../vsto/office-ui-customization.md)   
- [Custom Task Panes](../vsto/custom-task-panes.md)   
- [Walkthrough: Automating an Application from a Custom Task Pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md)  
+## See also  
+ [Office UI customization](../vsto/office-ui-customization.md)   
+ [Custom task panes](../vsto/custom-task-panes.md)   
+ [Walkthrough: Automate an application from a custom task pane](../vsto/walkthrough-automating-an-application-from-a-custom-task-pane.md)  
   
   

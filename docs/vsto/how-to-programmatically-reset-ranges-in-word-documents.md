@@ -1,13 +1,10 @@
 ---
-title: "How to: Programmatically Reset Ranges in Word Documents | Microsoft Docs"
+title: "How to: Programmatically reset ranges in Word documents"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,16 +13,16 @@ helpviewer_keywords:
   - "ranges, resetting in documents"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Programmatically Reset Ranges in Word Documents
+# How to: Programmatically reset ranges in Word documents
   Use the <xref:Microsoft.Office.Interop.Word.Range.SetRange%2A> method to resize an existing range in a Microsoft Office Word document.  
   
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]  
   
-### To reset an existing range  
+## To reset an existing range  
   
 1.  Set an initial range starting with the first seven characters in the document.  
   
@@ -34,7 +31,7 @@ ms.workload:
      [!code-vb[Trin_VstcoreWordAutomation#43](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#43)]
      [!code-csharp[Trin_VstcoreWordAutomation#43](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#43)]  
   
-     The following code example can be used in an VSTO Add-in. This code uses the active document.  
+     The following code example can be used in a VSTO Add-in. This code uses the active document.  
   
      [!code-vb[Trin_VstcoreWordAutomationAddIn#43](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#43)]
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#43](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#43)]  
@@ -46,26 +43,26 @@ ms.workload:
   
 ## Document-Level Customization Example  
   
-#### To reset an existing range in a document-level customization  
+### To reset an existing range in a document-level customization  
   
 1.  The following example shows the complete example for a document-level customization. To use this code, run it from the `ThisDocument` class in your project.  
   
      [!code-vb[Trin_VstcoreWordAutomation#42](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#42)]
      [!code-csharp[Trin_VstcoreWordAutomation#42](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#42)]  
   
-## VSTO Add-in Example  
+## VSTO Add-in example  
   
-#### To reset an existing range in an VSTO Add-in  
+### To reset an existing range in a VSTO Add-in  
   
-1.  The following example shows the complete example for an VSTO Add-in. To use this code, run it from the `ThisAddIn` class in your project.  
+1.  The following example shows the complete example for a VSTO Add-in. To use this code, run it from the `ThisAddIn` class in your project.  
   
      [!code-vb[Trin_VstcoreWordAutomationAddIn#42](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#42)]
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#42](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#42)]  
   
-## See Also  
- [How to: Programmatically Extend Ranges in Documents](../vsto/how-to-programmatically-extend-ranges-in-documents.md)   
- [How to: Programmatically Define and Select Ranges in Documents](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)   
- [How to: Programmatically Retrieve Start and End Characters in Ranges](../vsto/how-to-programmatically-retrieve-start-and-end-characters-in-ranges.md)   
- [How to: Programmatically Collapse Ranges or Selections in Documents](../vsto/how-to-programmatically-collapse-ranges-or-selections-in-documents.md)  
+## See also  
+ [How to: Programmatically extend ranges in documents](../vsto/how-to-programmatically-extend-ranges-in-documents.md)   
+ [How to: Programmatically define and select ranges in documents](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)   
+ [How to: Programmatically retrieve start and end characters in ranges](../vsto/how-to-programmatically-retrieve-start-and-end-characters-in-ranges.md)   
+ [How to: Programmatically collapse ranges or selections in documents](../vsto/how-to-programmatically-collapse-ranges-or-selections-in-documents.md)  
   
   

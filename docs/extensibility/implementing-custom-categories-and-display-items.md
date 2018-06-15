@@ -2,20 +2,16 @@
 title: "Implementing Custom Categories and Display Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "font and color control [Visual Studio SDK], categories"
   - "custom categories"
 ms.assetid: 99311a93-d642-4344-bbf9-ff6e7fa5bf7f
-caps.latest.revision: 25
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload:
   - "vssdk"
 ---

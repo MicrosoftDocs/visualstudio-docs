@@ -1,13 +1,10 @@
 ---
-title: "How to: Programmatically Search for a Specific Contact | Microsoft Docs"
+title: "How to: Programmatically search for a specific contact"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,11 +13,11 @@ helpviewer_keywords:
   - "searching contacts"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Programmatically Search for a Specific Contact
+# How to: Programmatically search for a specific contact
   This example searches an Outlook contacts folder for a specific contact by first and last name. The example assumes that a contact named **John Evans** exists in the contacts folder.  
   
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]  
@@ -29,8 +26,8 @@ ms.workload:
  [!code-csharp[Trin_Outlook_RL_SearchForContact#1](../vsto/codesnippet/CSharp/trin_outlook_rl_searchforcontact/thisaddin.cs#1)]
  [!code-vb[Trin_Outlook_RL_SearchForContact#1](../vsto/codesnippet/VisualBasic/trin_outlook_rl_searchforcontact/thisaddin.vb#1)]  
   
-## See Also  
- [Working with Contact Items](../vsto/working-with-contact-items.md)   
- [Getting Started Programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)  
+## See also  
+ [Work with contact items](../vsto/working-with-contact-items.md)   
+ [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)  
   
   

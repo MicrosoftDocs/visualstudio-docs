@@ -1,16 +1,13 @@
 ---
-title: "Using EditorConfig settings in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "12/13/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+title: Using EditorConfig settings in Visual Studio
+ms.date: 12/13/2017
+ms.topic: conceptual
+helpviewer_keywords:
   - "editorconfig [Visual Studio]"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ---
 # Create portable, custom editor settings with EditorConfig
@@ -156,8 +153,8 @@ You can control the scope of your EditorConfig conventions by setting the ```roo
 
 ## See also
 
-[.NET code style conventions](../ide/editorconfig-code-style-settings-reference.md)  
-[.NET naming conventions](../ide/editorconfig-naming-conventions.md)  
-[Supporting EditorConfig for a language service](../extensibility/supporting-editorconfig.md)  
-[EditorConfig.org](http://editorconfig.org/)  
-[Writing code in the editor](writing-code-in-the-code-and-text-editor.md)
+- [.NET code style conventions](../ide/editorconfig-code-style-settings-reference.md)
+- [.NET naming conventions](../ide/editorconfig-naming-conventions.md)
+- [Supporting EditorConfig for a language service](../extensibility/supporting-editorconfig.md)
+- [EditorConfig.org](http://editorconfig.org/)
+- [Features of the code editor](writing-code-in-the-code-and-text-editor.md)

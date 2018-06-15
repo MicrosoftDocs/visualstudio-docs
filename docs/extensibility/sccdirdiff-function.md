@@ -2,21 +2,17 @@
 title: "SccDirDiff Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "SccDirDiff"
 helpviewer_keywords: 
   - "SccDirDiff function"
 ms.assetid: 26c9ba92-e3b9-4dd2-bd5e-76b17745e308
-caps.latest.revision: 15
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

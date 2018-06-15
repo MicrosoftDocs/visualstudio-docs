@@ -2,21 +2,17 @@
 title: "IDebugStackFrame2::GetCodeContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStackFrame2::GetCodeContext"
 helpviewer_keywords: 
   - "IDebugStackFrame2::GetCodeContext"
 ms.assetid: 93d66159-a41d-49ef-982f-91bb4d073b74
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,11 +2,8 @@
 title: "SuspendTracking | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 apiname: 
   - "SuspendTracking"
 apilocation: 
@@ -15,10 +12,9 @@ apitype: "COM"
 helpviewer_keywords: 
   - "SuspendTracking"
 ms.assetid: f5e06e5a-8083-444c-99c1-07ba834226b5
-caps.latest.revision: 3
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

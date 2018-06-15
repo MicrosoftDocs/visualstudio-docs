@@ -2,12 +2,8 @@
 title: "C/C++ Assertions | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -29,10 +25,9 @@ helpviewer_keywords:
   - "Assertion Failed dialog box"
   - "failures, finding locations"
 ms.assetid: 2d7b0121-71aa-414b-bbb6-ede1093d0bfc
-caps.latest.revision: 22
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---
@@ -171,7 +166,7 @@ int x = SomeFunc(y);
 ASSERT(x >= 0);   //  Assertion fails if x is negative  
 ```  
   
- You can use ASSERT with the [IsKindOf](/cpp/mfc/reference/cobject-class.md#CObject__IsKindOf) function to provide type checking of function arguments:  
+ You can use ASSERT with the [IsKindOf](/cpp/mfc/reference/cobject-class#iskindof) function to provide type checking of function arguments:  
   
 ```  
 ASSERT( pObject1->IsKindOf( RUNTIME_CLASS( CPerson ) ) );  
@@ -180,7 +175,7 @@ ASSERT( pObject1->IsKindOf( RUNTIME_CLASS( CPerson ) ) );
  The `ASSERT` macro produces no code in the Release version. If you need to evaluate the expression in the Release version, use the [VERIFY](/cpp/mfc/reference/diagnostic-services#verify) macro instead of ASSERT.  
   
 ###  <a name="BKMK_MFC_ASSERT_VALID_and_CObject__AssertValid"></a> MFC ASSERT_VALID and CObject::AssertValid  
- The [CObject::AssertValid](/cpp/mfc/reference/cobject-class.md#CObject__AssertValid) method provides run-time checks of the internal state of an object. Although you are not required to override `AssertValid` when you derive your class from `CObject`, you can make your class more reliable by doing this. `AssertValid` should perform assertions on all of the object's member variables to verify that they contain valid values. For example, it should check that pointer member variables are not NULL.  
+ The [CObject::AssertValid](/cpp/mfc/reference/cobject-class#assertvalid) method provides run-time checks of the internal state of an object. Although you are not required to override `AssertValid` when you derive your class from `CObject`, you can make your class more reliable by doing this. `AssertValid` should perform assertions on all of the object's member variables to verify that they contain valid values. For example, it should check that pointer member variables are not NULL.  
   
  The following example shows how to declare an `AssertValid` function:  
   

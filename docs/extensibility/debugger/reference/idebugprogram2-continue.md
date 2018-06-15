@@ -2,21 +2,17 @@
 title: "IDebugProgram2::Continue | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::Continue"
 helpviewer_keywords: 
   - "IDebugProgram2::Continue"
 ms.assetid: e5a6e02a-d21b-4a03-a034-e8de1f71ce2e
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

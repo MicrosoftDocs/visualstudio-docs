@@ -1,5 +1,5 @@
 ---
-ms.topic: "include"
+ms.topic: include
 ---
 1. To connect to GitHub repositories, run the Visual Studio installer, select **Modify**, and select the **Individual components** tab. Scroll down to the **Code tools** section, select **GitHub extension for Visual Studio**, and select **Modify**.
 

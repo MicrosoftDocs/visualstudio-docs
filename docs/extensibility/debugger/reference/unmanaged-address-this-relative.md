@@ -2,21 +2,17 @@
 title: "UNMANAGED_ADDRESS_THIS_RELATIVE | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "UNMANAGED_ADDRESS_THIS_RELATIVE"
 helpviewer_keywords: 
   - "UNMANAGED_ADDRESS_THIS_RELATIVE structure"
 ms.assetid: e6a91ace-2d47-4ff9-aefb-8d8b68eab0b2
-caps.latest.revision: 6
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

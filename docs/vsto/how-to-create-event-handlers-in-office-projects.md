@@ -1,13 +1,10 @@
 ---
-title: "How to: Create Event Handlers in Office Projects | Microsoft Docs"
+title: "How to: Create event handlers in Office projects"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -18,11 +15,11 @@ helpviewer_keywords:
   - "events [Office development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Create Event Handlers in Office Projects
+# How to: Create event handlers in Office projects
   There are several ways to create event handlers in Visual Basic and C#. In design view, you can create the default event handlers for controls by double-clicking the control, or use the events pane of the **Properties** window to create handlers for any event on the control. However, if you are in Code view, you may not want to switch to Design view to create an event handler.  
   
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]  
@@ -50,9 +47,9 @@ ms.workload:
   
      Visual Studio automatically completes the line of code, creates the event handler, and moves the insertion point to the newly created event handler.  
   
-## See Also  
- [Writing Code in Office Solutions](../vsto/writing-code-in-office-solutions.md)   
- [Walkthrough: Programming Against Events of a NamedRange Control](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md)   
- [Building Office Solutions](../vsto/building-office-solutions.md)  
+## See also  
+ [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md)   
+ [Walkthrough: Program against events of a NamedRange control](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md)   
+ [Build Office solutions](../vsto/building-office-solutions.md)  
   
   

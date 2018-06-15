@@ -2,26 +2,21 @@
 title: "Start | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: b85d0fe9-f67a-4b7c-8d48-7eecf3f2dfe9
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
 # Start
-The **Start** option is a VSPerfCmd.exe option that initializes the profiler to the specified profiling method.  
+The **Start** option is a *VSPerfCmd.exe* option that initializes the profiler to the specified profiling method.  
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Method /Output:FileName [Options]  
 ```  
   
@@ -37,13 +32,13 @@ VSPerfCmd.exe /Start:Method /Output:FileName [Options]
   
 -   **CONCURRENCY** - Specifies the resource contention method.  
   
-## Required Options  
+## Required options  
  The **Output** option must be specified when **Start** is specified on the command line.  
   
  **Output:** `filename`  
  Specifies the output file name.  
   
-## Exclusive Options  
+## Exclusive options  
  The following options can only be used with the **Start** option on a command line.  
   
  **CrossSession**&#124;**CS**  
@@ -55,7 +50,7 @@ VSPerfCmd.exe /Start:Method /Output:FileName [Options]
  **WinCounter:** `Path` [**Automark**:`n`]  
  **WinCounter** specifies a Windows performance counter to include as a mark in the profiling data file. **AutoMark** specifies the interval in milliseconds between collections of the data file.  
   
-## Invalid Options  
+## Invalid options  
  The following options cannot be used with the **Start** option on a command line.  
   
  **Status**  
@@ -65,15 +60,15 @@ VSPerfCmd.exe /Start:Method /Output:FileName [Options]
  Turns the profiler off.  
   
 ## Example  
- The following example demonstrates how to use the VSPerfCmd.exe **Start** option to initialize the profiler.  
+ The following example demonstrates how to use the *VSPerfCmd.exe* **Start** option to initialize the profiler.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe  
 ```  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)
+ [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profile services](../profiling/command-line-profiling-of-services.md)

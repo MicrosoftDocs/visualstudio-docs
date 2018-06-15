@@ -2,21 +2,16 @@
 title: "IDiaFrameData::get_program | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "C++"
 helpviewer_keywords: 
   - "IDiaFrameData::get_program method"
 ms.assetid: 9201409e-b4b1-4e2e-a9f8-d17678ac538b
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

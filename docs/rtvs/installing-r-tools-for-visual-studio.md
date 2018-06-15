@@ -1,21 +1,15 @@
 ---
-title: Installing the R tools
-description: How to install the R Tools for Visual Studio in Visual Studio 2017 and Visual Studio 2015, including offline installations.
-ms.custom:
+title: Installing the R Tools
+description: How to install R Tools in Visual Studio 2017 and Visual Studio 2015, including offline installations.
 ms.date: 01/24/2018
-ms.reviewer:
-ms.suite:
-ms.technology:
-  - "devlang-r"
-ms.tgt_pltfrm:
-dev_langs:
-  - "R"
-ms.topic: "conceptual"
-author: "kraigb"
-ms.author: "kraigb"
+ms.prod: visual-studio-dev15
+ms.technology: vs-rtvs
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
 manager: douge
 ms.workload:
-  - "data-science"
+  - data-science
 ---
 
 # How to install R Tools for Visual Studio
@@ -32,7 +26,7 @@ In this article:
 
 ## Supported versions of Visual Studio
 
-R Tools for Visual Studio (RTVS) is supported on Windows with the Community (free), Professional, and Enterprise editions of both [Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) and [Visual Studio 2015 Update 3 (or higher)](http://go.microsoft.com/fwlink/?LinkId=691129) (direct download).
+R Tools for Visual Studio (RTVS) is supported on Windows with the Community (free), Professional, and Enterprise editions of both [Visual Studio 2017](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) and [Visual Studio 2015 Update 3 (or higher)](http://go.microsoft.com/fwlink/?LinkId=691129) (direct download).
 
 RTVS is not presently supported on Visual Studio for Mac.
 

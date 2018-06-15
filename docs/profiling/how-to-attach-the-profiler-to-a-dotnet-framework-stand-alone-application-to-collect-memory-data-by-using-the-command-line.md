@@ -2,32 +2,28 @@
 title: "How to: Attach the Profiler to a .NET Framework Stand-Alone Application to Collect Memory Data by Using the Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# How to: Attach the Profiler to a .NET Framework Stand-Alone Application to Collect Memory Data by Using the Command Line
+# How to: Attach the profiler to a .NET Framework stand-alone application to collect memory data by using the command line
 
-This topic describes how to use Visual Studio Profiling Tools command-line tools to attach the profiler to a running .NET Framework stand-alone (client) application and collect memory data.
+This article describes how to use Visual Studio Profiling Tools command-line tools to attach the profiler to a running .NET Framework stand-alone (client) application and collect memory data.
 
 > [!NOTE]
-> Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).
+> Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself. For more information, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).
 
-To attach to a .NET Framework application and collect memory data, you must use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize the appropriate environment variables before the target application starts. When the profiler is attached to the application, you can use the **VSPerfCmd.exe** tool to pause and resume data collection.
+To attach to a .NET Framework application and collect memory data, you must use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize the appropriate environment variables before the target application starts. When the profiler is attached to the application, you can use the *VSPerfCmd.exe* tool to pause and resume data collection.
 
 To end a profiling session, the profiler must be detached from all profiled processes and the profiler must be explicitly shut down. In most cases, we recommend clearing the profiling environment variables at the end of a session.
 
-## Attaching the Profiler
+## Attach the profiler
 
-### To attach the Profiler to a running .NET Framework application
+### To attach the profiler to a running .NET Framework application
 
 1. Open a Command Prompt window.
 
@@ -71,9 +67,9 @@ To end a profiling session, the profiler must be detached from all profiled proc
 
     - **/targetclr:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.
 
-## Controlling Data Collection
+## Control data collection
 
-When the target application is running, you can control data collection by starting and stopping the writing of data to the file by using **VSPerfCmd.exe** options. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.
+When the target application is running, you can control data collection by starting and stopping the writing of data to the file by using *VSPerfCmd.exe* options. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.
 
 ### To start and stop data collection
 
@@ -85,7 +81,7 @@ When the target application is running, you can control data collection by start
     |[/processon](../profiling/processon-and-processoff.md) **:** `PID` [/processoff](../profiling/processon-and-processoff.md) **:** `PID`|Starts (**/processon**) or stops (**/processoff**) data collection for the process that is specified by the `PID`.|
     |[/attach](../profiling/attach.md) **:**{`PID`&#124;`ProcName`} [/detach](../profiling/detach.md)[**:**{`PID`&#124;`ProcName`}]|**/attach** starts to collect data for the process that is specified by the `PID` or process name (ProcName). **/detach** stops data collection for the specified process or for all processes if a specific process is not specified.|
 
-## Ending the Profiling Session
+## End the profiling session
 
 To end a profiling session, the profiler must be detached from all profiled processes and the profiler must be explicitly shut down. You can detach the profiler from an application that was profiled by using the sampling method by closing the application or by calling the **VSPerfCmd /detach** option. You then call the **VSPerfCmd /shutdown** option to turn off the profiler and close the profiling data file. The **VSPerfClrEnv /off** command clears the profiling environment variables.
 
@@ -109,5 +105,5 @@ To end a profiling session, the profiler must be detached from all profiled proc
 
 ## See also
 
-[Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)  
-[.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)
+[Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)  
+[.NET memory data views](../profiling/dotnet-memory-data-views.md)

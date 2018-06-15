@@ -2,11 +2,8 @@
 title: "Visual Studio Integration (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "MSBuild, reference resolution"
   - "MSBuild, well-known target names"
@@ -18,10 +15,9 @@ helpviewer_keywords:
   - "MSBuild, in-process compilers"
   - "MSBuild, design-time target execution"
 ms.assetid: 06cd6d7f-8dc1-4e49-8a72-cc9e331d7bca
-caps.latest.revision: 21
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

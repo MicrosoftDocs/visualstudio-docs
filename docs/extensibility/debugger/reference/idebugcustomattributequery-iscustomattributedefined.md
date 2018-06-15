@@ -2,20 +2,16 @@
 title: "IDebugCustomAttributeQuery::IsCustomAttributeDefined | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugCustomAttributeQuery::IsCustomAttributeDefined"
   - "IsCustomAttributeDefined"
 ms.assetid: c7425db6-4347-4f69-8f88-337ddaa34fa6
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

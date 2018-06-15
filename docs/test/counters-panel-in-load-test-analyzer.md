@@ -1,13 +1,14 @@
 ---
-title: "Counters panel for analyzing load tests in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Counters panel for analyzing load tests in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, counters panel"
 ms.assetid: e1a388d7-5d33-4631-931a-5653ac4aefdc
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Use the Counters Panel in Graphs View and Tables View
@@ -40,7 +41,7 @@ The Counters panel provides the following features:
 
 ### Scenario Name Node in Counters Panel
 
-|||
+|Counters Panel|Description|
 |-|-|
 |![Counter panel's scenario name node](../test/media/ltest__namenode.png)|1. All performance counters associated with Scenario1 of the load test appear under this node.<br />2. All tests of a scenario are located beneath the scenario node. The label indicates the test name.<br />3. Leaf nodes under a test node are load test test case counters, where the instance name for the counter is the test name.<br />4. All load test page counter instances associated with a Web performance test branch. At this node, all the load test pace counter instances associated with page Login GET (Reporting name) of the IBuyBrowse Web performance test in Scenario1 of the load test are contained here.<br />5. Leaf nodes under a page node are load test page counters.<br />6. All load test requests counter instances associated with a Web performance test are contained within a Web performance test branch. At this node, all request counter instances associated with the request Login GET (Reporting name) of IBuyBrowse Web performance test in Scenario1 o the load test contained here.<br />7. Leaf nodes under a request node are load test request counters.<br />8. All load test transaction counter instances associated with a Web performance test are contained within a Web performance test branch. At this node, all transaction counter instances associate with the transaction named Transaction1 of the IBuyBrowse Web performance test in Scenraio1 of the load test are contained here.<br />9. Leaf nodes under a transaction node are load test transaction counters.<br />10. Unit test node.|
 

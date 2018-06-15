@@ -2,12 +2,9 @@
 title: "How to: Include a Custom Assembly in a BDC Feature | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.BDC.Add_Assemblies_Dialog"
 dev_langs: 
@@ -22,14 +19,14 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], add reference"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Include a Custom Assembly in a BDC Feature
+# How to: Include a custom assembly in a BDC feature
   Your project can reference assemblies from other projects in the same solution. However, you must add these assemblies to the feature file of the project by using the **Assign referenced assemblies to LobSystems** dialog box.  
   
-### To include a custom assembly in a Business Data Connectivity (BDC) feature  
+### To include a custom assembly in a business data connectivity (BDC) feature
   
 1.  In **Solution Explorer**, choose the folder that contains the BDC model.  
   
@@ -49,11 +46,10 @@ ms.workload:
     > [!NOTE]  
     >  To debug code in the custom assembly, you must add the assembly to the solution package. For more information, see [How to: Add and Remove Additional Assemblies](../sharepoint/how-to-add-and-remove-additional-assemblies.md).  
   
-## See Also  
+## See also
  [How to: Use a Resource File to Specify Localized Names, Properties, and Permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md)   
  [How to: Add an Existing BDC Model File to a SharePoint Project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md)   
  [Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md)   
  [How to: Create a BDC Model](../sharepoint/how-to-create-a-bdc-model.md)   
  [Integrating Business Data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)  
-  
   

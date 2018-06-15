@@ -1,27 +1,22 @@
 ---
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ title: Remote debugger download
+ description: Download links for the remote debugger
+ services: ""
+ author: mikejo5000
+ ms.service: ""
+ ms.topic: include
+ ms.date: 05/23/2018
+ ms.author: mikejo
+ ms.custom: include file
 ---
+
 1.  On the device or server machine that you want to debug (rather than the machine running Visual Studio), get the correct version of the remote tools.
 
     |Version|Link|Notes|
     |-|-|-|
-    |Visual Studio 2017 (latest version)|[Remote tools](https://www.visualstudio.com/downloads/?q=remote+tools#remote-tools-for-visual-studio-2017)|Always download the version matching your device operating system (x86 or x64). If enhanced security mode is enabled (Windows Server), you must add new trusted sites if prompted.|
-    |Visual Studio 2017 (older)|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202017)|Remote tools for earlier releases of Visual Studio 2017 are available from My.VisualStudio.com. If prompted, join the free Visual Studio Dev Essentials group, or sign in with your Visual Studio subscription ID. If enhanced security mode is enabled (Windows Server), you must add new trusted sites if prompted.|
-    |Visual Studio 2015 Update 3|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015)|If prompted, join the free Visual Studio Dev Essentials group, or sign in with your Visual Studio subscription ID. If enhanced security mode is enabled (Windows Server), you must add new trusted sites if prompted.|
-    |Visual Studio 2015 (older)|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015)|If prompted, join the free Visual Studio Dev Essentials group, or sign in with your Visual Studio subscription ID. If enhanced security mode is enabled (Windows Server), you must add new trusted sites if prompted.|
+    |Visual Studio 2017 (latest version)|[Remote tools](https://www.visualstudio.com/downloads/?q=remote+tools#remote-tools-for-visual-studio-2017)|Always download the version matching your device operating system (x86 or x64). On Windows Server, see [Unblock the file download](../../debugger/remote-debugging.md#unblock_msvsmon) for help to download the remote tools.|
+    |Visual Studio 2017 (older)|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202017)|Remote tools for earlier releases of Visual Studio 2017 are available from My.VisualStudio.com. If prompted, join the free Visual Studio Dev Essentials group, or sign in with your Visual Studio subscription ID. On Windows Server, see [Unblock the file download](../../debugger/remote-debugging.md#unblock_msvsmon) for help to download the remote tools.|
+    |Visual Studio 2015 (older)|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015)|If prompted, join the free Visual Studio Dev Essentials group, or sign in with your Visual Studio subscription ID. On Windows Server, see [Unblock the file download](../../debugger/remote-debugging.md#unblock_msvsmon) for help to download the remote tools.|
     |Visual Studio 2013|[Remote tools](https://msdn.microsoft.com/library/bt727f1t(v=vs.120).aspx#BKMK_Installing_the_Remote_Tools)|Download page in Visual Studio 2013 documentation|
     |Visual Studio 2012|[Remote tools](https://msdn.microsoft.com/library/bt727f1t(v=vs.110).aspx#BKMK_Installing_the_Remote_Tools)|Download page in Visual Studio 2012 documentation|
   

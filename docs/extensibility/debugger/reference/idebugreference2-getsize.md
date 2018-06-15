@@ -2,21 +2,17 @@
 title: "IDebugReference2::GetSize | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugReference2::GetSize"
 helpviewer_keywords: 
   - "IDebugReference2::GetSize"
 ms.assetid: a404ddd9-d940-4513-97cd-f52b8ab6a560
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

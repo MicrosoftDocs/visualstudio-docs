@@ -2,21 +2,17 @@
 title: "Custom Document Properties in a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "custom document properties, language services [managed package framework]"
   - "document properties, custom"
   - "language services [managed package framework], custom document properties"
 ms.assetid: cc714a67-b33e-4440-9203-3c90f648bd9c
-caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,11 +2,7 @@
 title: "Edit and Continue Dialog Box (C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
   - "vs.debug.ENC.failed.commit"
@@ -20,10 +16,9 @@ helpviewer_keywords:
   - "Edit and Continue, limitations"
   - "Failed to Apply Code Changes dialog box"
 ms.assetid: 624d9649-5946-4298-a138-70773b72e810
-caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---

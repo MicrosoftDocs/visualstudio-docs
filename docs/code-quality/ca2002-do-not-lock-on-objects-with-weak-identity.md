@@ -1,24 +1,22 @@
 ---
-title: "CA2002: Do not lock on objects with weak identity | Microsoft Docs"
-ms.custom: ""
+title: "CA2002: Do not lock on objects with weak identity"
 ms.date: 01/31/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
-ms.topic: "article"
-f1_keywords: 
+ms.topic: reference
+f1_keywords:
   - "DoNotLockOnObjectsWithWeakIdentity"
   - "CA2002"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "CA2002"
   - "DoNotLockOnObjectsWithWeakIdentity"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 dev_langs:
  - CSharp
  - VB
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # CA2002: Do not lock on objects with weak identity
@@ -79,7 +77,7 @@ The following example shows some object locks that violate the rule.
 
 ## See also
 
-<xref:System.Threading.Monitor>  
-<xref:System.AppDomain>  
-[lock Statement (C#)](/dotnet/csharp/language-reference/keywords/lock-statement)  
+<xref:System.Threading.Monitor>
+<xref:System.AppDomain>
+[lock Statement (C#)](/dotnet/csharp/language-reference/keywords/lock-statement)
 [SyncLock Statement (Visual Basic)](/dotnet/visual-basic/language-reference/statements/synclock-statement)

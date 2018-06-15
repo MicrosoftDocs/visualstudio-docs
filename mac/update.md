@@ -1,10 +1,9 @@
 ---
-title: "Updating Visual Studio for Mac | Microsoft Docs"
+title: "Updating Visual Studio for Mac"
 description: "Instructions for updating Visual Studio for Mac and accessing preview releases."
 author: asb3993
 ms.author: amburns
-ms.date: 04/14/2017
-ms.topic: article
+ms.date: 05/06/2018
 ms.technology: vs-ide-install
 ms.assetid: DB8DC9FE-FF21-4061-8A96-3F9FC08A4F8F
 ---
@@ -16,8 +15,7 @@ Visual Studio for Mac distributes updates for the IDE and supported frameworks o
 Visual Studio for Mac provides three channels to get these latest versions:
 
 * **Stable** - Provides thoroughly tested updates. This channel is recommended for the best development experience.
-* **Beta** - Provides early access to updates that are candidates for release in the Stable Channel.
-* **Alpha** - Provides early access to updates that add new features but may not be reliable for everyday use.
+* **Beta** / **Alpha** - Provides early access to updates that are candidates for release in the Stable Channel. These releases may not be reliable for everyday use.
 
 ## Checking for updates
 

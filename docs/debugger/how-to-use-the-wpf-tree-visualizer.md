@@ -2,12 +2,8 @@
 title: "How to: Use the WPF Tree Visualizer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -17,10 +13,9 @@ helpviewer_keywords:
   - "WPF, debugging"
   - "debugging, WPF"
 ms.assetid: 2a1bf1cd-90f9-4d06-9fb4-1bfc925afef3
-caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

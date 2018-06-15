@@ -2,18 +2,14 @@
 title: "Comparing Properties and Items | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "msbuild, msbuild properties"
 ms.assetid: b9da45ae-d6a6-4399-8628-397deed31486
-caps.latest.revision: 16
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -126,9 +122,9 @@ MSBuild properties and items are both used to pass information to tasks, evaluat
 KeyFileVersion: 1.0.0.3  
 ```  
   
- This is because the value of `KeyFileVersion` is actually the string "@(KeyFile->'%(Version)')". Item and item transformations were not expanded when the property was first defined, so the `KeyFileVersion` property was assigned the value of the unexpanded string.  
+ This is because the value of `KeyFileVersion` is actually the string "\@(KeyFile->'%(Version)')". Item and item transformations were not expanded when the property was first defined, so the `KeyFileVersion` property was assigned the value of the unexpanded string.  
   
- During the execution phase of the build, when it processes the Message task, MSBuild expands the string "@(KeyFile->'%(Version)')" to yield "1.0.0.3".  
+ During the execution phase of the build, when it processes the Message task, MSBuild expands the string "\@(KeyFile->'%(Version)')" to yield "1.0.0.3".  
   
  Notice that the same message would appear even if the property and item groups were reversed in order.  
   
@@ -172,7 +168,7 @@ KeyFileVersion:
 </Target>  
 ```  
   
- The value of `KeyFileVersion` is set to "1.0.0.3" and not to "@(KeyFile->'%(Version)')". The Message task displays this message:  
+ The value of `KeyFileVersion` is set to "1.0.0.3" and not to "\@(KeyFile->'%(Version)')". The Message task displays this message:  
   
 ```  
 KeyFileVersion: 1.0.0.3  

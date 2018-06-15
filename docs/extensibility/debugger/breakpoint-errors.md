@@ -2,21 +2,17 @@
 title: "Breakpoint Errors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "breakpoints, errors"
   - "debugging [Debugging SDK], breakpoint errors"
   - "errors [Debugging SDK]"
 ms.assetid: 79221c6b-a924-4c8e-a778-e312e4e0c0c8
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

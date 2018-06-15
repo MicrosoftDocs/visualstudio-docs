@@ -1,100 +1,100 @@
 ---
-title: "Debugger User Interface (XSLT) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: "Debugger User Interface (XSLT)"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-xml-tools
+ms.topic: reference
 ms.assetid: 846fdabd-e5c3-4688-9b0d-a93fbeea1b96
-caps.latest.revision: 2
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
-# Debugger User Interface (XSLT)
-This topic describes the debugger windows and dialog boxes. It only discusses the user interface pieces that have XSLT-specific debugging behavior.  
-  
- For more information, see the [Debugging User Interface Reference](../debugger/debugging-user-interface-reference.md).  
-  
-## Locals Window  
- The Locals window displays information about any variables defined in the style sheet. The Locals window contains three columns of information:  
-  
- **Name**  
- This column contains the names of all local variables in the current scope. Node sets have a tree control that you can drill-down to see its subfolders.  
-  
- **Value**  
- This column shows the value contained by each variable. Attribute, processing instruction, comment, text, and CData nodes display the text value of the node. Namespace nodes display the namespace URI.  
-  
- **Type**  
- This column identifies the data type of each variable listed in the **Name** column.  
-  
- The Locals window also displays the predefined context variables that track the context of the XSLT transformation. The following table describes the predefined context variables used by the XSLT debugger.  
-  
-|Name|Description|  
-|----------|-----------------|  
-|`last()`|The context size.|  
-|`position()`|The position, or index number, of the context node, relative to the context size.|  
-|`self::node()`|The value of the context node.|  
-  
-## Output Window  
- The Output window shows any error messages or security exceptions that occur during debugging.  
-  
- The XSLT debugger uses a separate window to display debugger output. This is the same window used to display output from a **Show XSL Output** command.  
-  
-## Task List  
- The Task List lists all the compilation errors in the style sheet. Double-clicking the error takes the cursor to the line with the error.  
-  
- The Task List includes any errors that occur in the script blocks in the XSLT file.  
-  
+# Debugger user interface (XSLT)
+
+This topic describes the debugger windows and dialog boxes. It only discusses the user interface pieces that have XSLT-specific debugging behavior.
+
+For more information, see the [Debugging user interface reference](../debugger/debugging-user-interface-reference.md).
+
+## Locals window
+ The Locals window displays information about any variables defined in the style sheet. The Locals window contains three columns of information:
+
+ **Name**
+
+ This column contains the names of all local variables in the current scope. Node sets have a tree control that you can drill-down to see its subfolders.
+
+ **Value**
+
+ This column shows the value contained by each variable. Attribute, processing instruction, comment, text, and CData nodes display the text value of the node. Namespace nodes display the namespace URI.
+
+ **Type**
+
+ This column identifies the data type of each variable listed in the **Name** column.
+
+ The Locals window also displays the predefined context variables that track the context of the XSLT transformation. The following table describes the predefined context variables used by the XSLT debugger.
+
+|Name|Description|
+|----------|-----------------|
+|`last()`|The context size.|
+|`position()`|The position, or index number, of the context node, relative to the context size.|
+|`self::node()`|The value of the context node.|
+
+## Output window
+ The Output window shows any error messages or security exceptions that occur during debugging.
+
+ The XSLT debugger uses a separate window to display debugger output. This is the same window used to display output from a **Show XSL Output** command.
+
+## Task List
+ The **Task List** lists all the compilation errors in the style sheet. Double-clicking the error takes the cursor to the line with the error.
+
+ The **Task List** includes any errors that occur in the script blocks in the XSLT file.
+
 > [!NOTE]
->  The XSLT debugger has no warnings, so they never appear in the Task List.  
-  
-## Breakpoints Window  
- The Breakpoints window shows all breakpoints set in the current project. If a breakpoint is added while the window is in view, the window is automatically updated to show the new breakpoint.  
-  
- The Breakpoints window should behave the same way as other Visual Studio debuggers.  
-  
-## Command Window/Immediate Window  
- Not implemented in this release of the XSLT debugger.  
-  
-## Watch Window  
- The Watch window is used to evaluate variables. You can also change the values of the variables.  
-  
- The variables displayed in the Watch window are for the current context (the top-most item on the call stack). If you change the context, the watch window updates and displays variables set for that context.  
-  
-## Call Stack Window  
- The Call Stack window is used to view the names of functions on the call stack, parameter types, and parameter values. Call stack information is shown only when the program being debugged is in a break state.  
-  
- The call stack represents the various contexts that the XSLT execution is going through. For example, if there is a call from template "a" to template "b", template "a" and template "b" appear in the call stack window with the current context at the very top of the list. The user is able to see the query that is currently executing.  
-  
- If the templates do not have a name in the XSLT file, the names generated by the XSLT processor are used.  
-  
- Clicking an item other than the one at the top of the list indicates to the viewer where the XSLT execution branch happened using the standard green highlighting and green arrows.  
-  
-## QuickWatch Dialog Box  
- The **QuickWatch** dialog box is used to evaluate XPath 1.0 expressions. The context node (the `self::node()` node from the Locals window) provides the context for the execution of the XPath expression. The result of executing the XPath expression is displayed in the Watch window.  
-  
- The following list describes some restrictions on the XPath expression evaluation.  
-  
--   Only built-in XPath functions are allowed.  
-  
--   Built-in XSLT functions such as `document()`, `key()`, and so on, are not allowed.  
-  
--   User-defined functions are not allowed.  
-  
-For more information, see [How to: Evaluate an XPath Expression](../xml-tools/how-to-evaluate-an-xpath-expression.md).  
-  
-## Disassembly Window  
- The Disassembly window shows the assembly code that is generated by the XSLT compiler. This window can be used in the same manner as all other Visual Studio disassembly windows.  
-  
- For more information, [How to: Use the Disassembly Window](../debugger/how-to-use-the-disassembly-window.md).  
-  
-## See Also  
- [Debugging XSLT](../xml-tools/debugging-xslt.md)   
- [Debugger Basics](../debugger/debugger-basics.md)   
- [Inspect Variables in the Autos and Locals Windows in Visual Studio](../debugger/autos-and-locals-windows.md)
+> The XSLT debugger has no warnings, so they never appear in the **Task List**.
+
+## Breakpoints window
+ The Breakpoints window shows all breakpoints set in the current project. If a breakpoint is added while the window is in view, the window is automatically updated to show the new breakpoint.
+
+ The Breakpoints window should behave the same way as other Visual Studio debuggers.
+
+## Command window/Immediate window
+ Not implemented in this release of the XSLT debugger.
+
+## Watch window
+ The Watch window is used to evaluate variables. You can also change the values of the variables.
+
+ The variables displayed in the Watch window are for the current context (the top-most item on the call stack). If you change the context, the watch window updates and displays variables set for that context.
+
+## Call Stack window
+ The **Call Stack** window is used to view the names of functions on the call stack, parameter types, and parameter values. Call stack information is shown only when the program being debugged is in a break state.
+
+ The call stack represents the various contexts that the XSLT execution is going through. For example, if there is a call from template "a" to template "b", template "a" and template "b" appear in the **Call Stack** window with the current context at the very top of the list. The user is able to see the query that is currently executing.
+
+ If the templates do not have a name in the XSLT file, the names generated by the XSLT processor are used.
+
+ Clicking an item other than the one at the top of the list indicates to the viewer where the XSLT execution branch happened using the standard green highlighting and green arrows.
+
+## QuickWatch dialog box
+ The **QuickWatch** dialog box is used to evaluate XPath 1.0 expressions. The context node (the `self::node()` node from the Locals window) provides the context for the execution of the XPath expression. The result of executing the XPath expression is displayed in the Watch window.
+
+ The following list describes some restrictions on the XPath expression evaluation.
+
+-   Only built-in XPath functions are allowed.
+
+-   Built-in XSLT functions such as `document()`, `key()`, and so on, are not allowed.
+
+-   User-defined functions are not allowed.
+
+For more information, see [How to: Evaluate an XPath expression](../xml-tools/how-to-evaluate-an-xpath-expression.md).
+
+## Disassembly window
+ The Disassembly window shows the assembly code that is generated by the XSLT compiler. This window can be used in the same manner as all other Visual Studio disassembly windows.
+
+ For more information, [How to: Use the disassembly window](../debugger/how-to-use-the-disassembly-window.md).
+
+## See also
+
+- [Debugging XSLT](../xml-tools/debugging-xslt.md)
+- [Debugger basics](../debugger/debugger-basics.md)
+- [Inspect variables in the autos and locals windows in Visual Studio](../debugger/autos-and-locals-windows.md)

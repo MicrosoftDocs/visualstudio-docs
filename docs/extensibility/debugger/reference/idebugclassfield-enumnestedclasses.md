@@ -2,21 +2,17 @@
 title: "IDebugClassField::EnumNestedClasses | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugClassField::EnumNestedClasses"
 helpviewer_keywords: 
   - "IDebugClassField::EnumNestedClasses method"
 ms.assetid: 2ba5ef0c-395e-4006-9e3c-9b06e1d711d0
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

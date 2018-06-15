@@ -2,21 +2,17 @@
 title: "Command-Line Switches (Visual Studio SDK) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSPackages, command-line switches"
   - "command-line switches"
   - "command line, switches"
 ms.assetid: 0a22516f-f60e-4476-ac5b-f41e5ffaaf8b
-caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -1,24 +1,20 @@
 ---
-title: "Debug with C++ using the Visual Studio debugger | Microsoft Docs"
+title: "Debug C++"
+description: "Debug native code using the Visual Studio debugger"
 ms.custom: "mvc"
 ms.date: "03/18/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: 639e430b-6d2d-46bd-b738-8c60dfb384f1
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "cplusplus"
 ---
-# Debug with C++ using the Visual Studio debugger
+# Quickstart: Debug with C++ using the Visual Studio debugger
 
 The Visual Studio debugger provides many powerful features to help you debug your apps. This topic provides a quick way to learn some of the basic features.
 

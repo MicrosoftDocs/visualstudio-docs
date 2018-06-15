@@ -2,19 +2,15 @@
 title: "How to: Filter Profiling Tools Report Views to Display Just My Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/15/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Filter Profiling Tools Report Views to Display Just My Code
+# How to: Filter profiling tools report views to display Just My Code
 
 Visual Studio provides filtering for performance reports so that they display only code that you have implemented. This feature, which is named Just My Code, is enabled by default. It is configured through the **Just My Code** option in the **Options** dialog box.
 
@@ -36,4 +32,4 @@ Visual Studio provides filtering for performance reports so that they display on
 
 ## See also
 
-[Customizing Performance Tools Report Views](../profiling/customizing-performance-tools-report-views.md)
+[Customize performance tools report views](../profiling/customizing-performance-tools-report-views.md)

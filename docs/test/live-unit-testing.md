@@ -1,8 +1,9 @@
 ---
-title: "Live Unit Testing in Visual Studio | Microsoft Docs"
-ms.date: "2017-03-07"
+title: "Live Unit Testing in Visual Studio"
+ms.date: 2017-03-07
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords: 
   - "Visual Studio ALM"
   - "Live Unit Testing"
@@ -51,7 +52,7 @@ If you have older MSTest based test projects that are referencing `Microsoft.Vis
 
 In some cases, you may need to explicitly restore the NuGet packages referenced by the projects in the solution in order for Live Unit Testing to work. You can do this either by doing an explicit build of the solution (select **Build**, **Rebuild Solution** from the top-level Visual Studio menu) or by restoring packages in the solution (right-click on the solution and select **Restore NuGet Packages**) before enabling Living Unit Testing. 
 
-#	Configuring Live Unit Testing
+## Configuring Live Unit Testing
 
 You can configure Live Unit Testing by selecting **Tools**, **Options** from the top-level Visual Studio menu, and then selecting **Live Unit Testing** in the left pane of the **Options** dialog. The following figure shows the Live Unit Testing configuration options available in the dialog.
 

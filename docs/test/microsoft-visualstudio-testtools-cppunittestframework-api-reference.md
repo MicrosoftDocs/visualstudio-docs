@@ -1,10 +1,11 @@
 ---
-title: "Microsoft.VisualStudio.TestTools.CppUnitTestFramework API Reference | Microsoft Docs"
-ms.date: "11/04/2017"
+title: "Microsoft.VisualStudio.TestTools.CppUnitTestFramework API Reference"
+ms.date: 11/04/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: reference
 ms.author: mblome
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 author: mikeblome

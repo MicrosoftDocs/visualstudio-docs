@@ -2,12 +2,9 @@
 title: "How to: Retrieve the SharePoint Project Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,11 +12,11 @@ helpviewer_keywords:
   - "SharePoint project service"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Retrieve the SharePoint Project Service
+# How to: Retrieve the SharePoint project service
   You can access the SharePoint project service in the following types of solutions:  
   
 -   An extension of the SharePoint project system, such as a project extension, project item extension, or project item type definition. For more information about these types of extensions, see [Extending the SharePoint Project System](../sharepoint/extending-the-sharepoint-project-system.md).  
@@ -28,7 +25,7 @@ ms.workload:
   
 -   Another type of Visual Studio extension, such as a VSPackage.  
   
-## Retrieving the Service in Project System Extensions  
+## Retrieve the service in project system extensions  
  In any extension of the SharePoint project system, you can access the project service by using the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject.ProjectService%2A> property of an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProject> object.  
   
  You can also retrieve the project service by using the following procedures.  
@@ -72,7 +69,7 @@ ms.workload:
   
      For more information about defining project item types, see [How to: Define a SharePoint Project Item Type](../sharepoint/how-to-define-a-sharepoint-project-item-type.md).  
   
-## Retrieving the Service in Server Explorer Extensions  
+## Retrieve the service in Server Explorer extensions  
  In an extension of the **SharePoint Connections** node in **Server Explorer**, you can access the project service by using the <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode.ServiceProvider%2A> property of an <xref:Microsoft.VisualStudio.SharePoint.Explorer.IExplorerNode> object.  
   
 #### To retrieve the service in a Server Explorer extension  
@@ -88,7 +85,7 @@ ms.workload:
   
      For more information about extending the **SharePoint Connections** node in **Server Explorer**, see [How to: Extend a SharePoint Node in Server Explorer](../sharepoint/how-to-extend-a-sharepoint-node-in-server-explorer.md).  
   
-## Retrieving the Service in Other Visual Studio Extensions  
+## Retrieve the Service in other Visual Studio extensions  
  You can retrieve the project service in a VSPackage, or in any Visual Studio extension that has access to a <xref:EnvDTE80.DTE2> object in the automation object model, such as a project template wizard that implements the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface.  
   
  In a VSPackage, you can request an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> object by using one of the following methods:  
@@ -99,9 +96,8 @@ ms.workload:
   
  In a Visual Studio extension that has access to a <xref:EnvDTE80.DTE2> object, you can request an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> object by using the <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GetService%2A> method of a <xref:Microsoft.VisualStudio.Shell.ServiceProvider> object. For more information, see [Getting a service from the DTE object](../extensibility/how-to-get-a-service.md#getting-a-service-from-the-dte-object).  
   
-## See Also  
+## See also
  [Using the SharePoint Project Service](../sharepoint/using-the-sharepoint-project-service.md)   
  [How to: Get a Service](../extensibility/how-to-get-a-service.md)   
  [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md)  
-  
   

@@ -2,17 +2,12 @@
 title: "Output | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: 5e286e61-4548-42cf-a635-e608c5edbe2b
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -21,7 +16,7 @@ The **Output** option specifies the name of the profiling data file for the perf
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Method /Output:FileName [Options]  
 ```  
   
@@ -29,7 +24,7 @@ VSPerfCmd.exe /Start:Method /Output:FileName [Options]
  `FileName`  
  The name of the data file. Full and partial paths are accepted. If a path is not specified, the file is created in the current directory.  
   
-## Required Options  
+## Required options  
  The **Output** option must be used with the **Start** option.  
   
  **Start:** `Method`  
@@ -38,12 +33,12 @@ VSPerfCmd.exe /Start:Method /Output:FileName [Options]
 ## Example  
  In the following example, the profiling data file is created in the current directory.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 ```  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)
+ [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profile services](../profiling/command-line-profiling-of-services.md)

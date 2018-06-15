@@ -2,12 +2,8 @@
 title: "&lt;assembly&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "reference"
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#assembly"
 dev_langs: 
@@ -17,10 +13,9 @@ dev_langs:
 helpviewer_keywords: 
   - "<assembly> element [ClickOnce deployment manifest]"
 ms.assetid: b8e3362a-f821-4696-b98d-571d4bbfe431
-caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -29,7 +24,7 @@ The top-level element for the deployment manifest.
   
 ## Syntax  
   
-```  
+```xml  
   
       <assembly    
    manifestVersion  
@@ -48,7 +43,7 @@ The top-level element for the deployment manifest.
 ## Example  
  The following code example illustrates an `assembly` element in a deployment manifest for an application deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]. This code example is part of a larger example provided for the [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md) topic.  
   
-```  
+```xml  
 <asmv1:assembly   
   xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd"  
   manifestVersion="1.0"  

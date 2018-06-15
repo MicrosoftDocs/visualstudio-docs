@@ -1,19 +1,14 @@
 ---
-title: "View a snapshot using IntelliTrace step-back - Visual Studio  | Microsoft Docs"
+title: "View a snapshot using IntelliTrace step-back"
 ms.description: "Learn how to take snapshots, and view snapshots with IntelliTrace step-back"
 ms.custom: "mvc"
-ms.date: "12/06/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.date: "05/01/2018"
+ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 ms.assetid: 7c60d929-d993-49dc-9db3-43b30be9912b
-caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -38,9 +33,20 @@ In this tutorial, you will:
 
     ![Enable IntelliTrace Events and Snapshots mode](../debugger/media/intellitrace-enable-snapshots.png "Enable IntelliTrace Events and Snapshots mode")
 
+1. If you want to configure options for viewing snapshots on exceptions, choose **IntelliTrace** > **Advanced** from the **Options** dialog box.
+
+    These options are available starting in Visual Studio 2017 Enterprise version 15.7.
+
+    ![Configure behavior for snapshots on exceptions](../debugger/media/intellitrace-enable-snapshots-on-exceptions.png)
+
+    When you enable events and snapshots, taking snapshots on exceptions is also enabled by default. You can disable snapshots on exceptions by deselecting **Collect snapshots on exception events**. When this feature is enabled, snapshots are taken for unhandled exceptions. For handled exceptions, snapshots are taken only if the exception is thrown and if it is not a re-throw of an previously-thrown exception. You can set a maximum number of snapshots on exceptions by selecting a value from the drop-down list. The maximum applies for each time that your app enters break mode (such as when your app hits a breakpoint).
+
+    > [!NOTE]
+    > Snapshots are taken only for exception events that IntelliTrace records. You can specify what events IntelliTrace records by selecting **Tools** > **Options** > **IntelliTrace Events**.
+
 1. In your project, set one or more breakpoints and start debugging (press **F5**), or start debugging by stepping through your code (**F10** or **F11**).
 
-    IntelliTrace takes a snapshot of the application's process on each debugger step and breakpoint event. These events are recorded in the **Events** tab in the **Diagnostic Tools** window, along with other IntelliTrace events. To open this window, choose **Debug** > **Windows** > **Show Diagnostic Tools**.
+    IntelliTrace takes a snapshot of the application's process on each debugger step, breakpoint event, and unhandled exception event. These events are recorded in the **Events** tab in the **Diagnostic Tools** window, along with other IntelliTrace events. To open this window, choose **Debug** > **Windows** > **Show Diagnostic Tools**.
 
     A camera icon appears next to the events for which snapshots are available. 
 

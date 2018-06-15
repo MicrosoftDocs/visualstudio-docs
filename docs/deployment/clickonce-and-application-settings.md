@@ -2,12 +2,8 @@
 title: "ClickOnce and Application Settings | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,10 +11,9 @@ dev_langs:
 helpviewer_keywords: 
   - "ClickOnce deployment, application settings"
 ms.assetid: 891caba6-faef-4a3c-8f71-60e6fadb60eb
-caps.latest.revision: 10
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

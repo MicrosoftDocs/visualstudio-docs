@@ -1,13 +1,10 @@
 ---
-title: "How to: Cache Data in a Password-Protected Document | Microsoft Docs"
+title: "How to: Cache data in a password-protected document"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,20 +14,20 @@ helpviewer_keywords:
   - "data [Office development in Visual Studio], caching"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Cache Data in a Password-Protected Document
+# How to: Cache data in a password-protected document
   If you add data to the data cache in a document or workbook that is protected with a password, changes to the cached data are not saved automatically. You can save changes to the cached data by overriding two methods in your project.  
   
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]  
   
-## Caching in Word Documents  
+## Caching in Word documents  
   
-#### To cache data in a Word document that is protected with a password  
+### To cache data in a Word document that is protected with a password  
   
-1.  In the `ThisDocument` class, mark a public field or property to be cached. For more information, see [Caching Data](../vsto/caching-data.md).  
+1.  In the `ThisDocument` class, mark a public field or property to be cached. For more information, see [Cache data](../vsto/caching-data.md).  
   
 2.  Override the <xref:Microsoft.Office.Tools.Word.DocumentBase.UnprotectDocument%2A> method in the `ThisDocument` class and remove protection from the document.  
   
@@ -46,15 +43,15 @@ ms.workload:
  [!code-csharp[Trin_CachedDataProtectedDocument#1](../vsto/codesnippet/CSharp/Trin_CachedDataProtectedDocument/ThisDocument.cs#1)]
  [!code-vb[Trin_CachedDataProtectedDocument#1](../vsto/codesnippet/VisualBasic/Trin_CachedDataProtectedDocument/ThisDocument.vb#1)]  
   
-### Compiling the Code  
+### Compile the code  
  Add this code to the `ThisDocument` class in your project. This code assumes that the password is stored in a field named `securelyStoredPassword`.  
   
-## Caching in Excel Workbooks  
+## Cache in Excel workbooks  
  In Excel projects, this procedure is necessary only when you protect the entire workbook with a password by using the <xref:Microsoft.Office.Tools.Excel.Workbook.Protect%2A> method. This procedure is not necessary if you protect only a specific worksheet with a password by using the <xref:Microsoft.Office.Tools.Excel.Worksheet.Protect%2A> method.  
   
-#### To cache data in an Excel workbook that is protected with a password  
+### To cache data in an Excel workbook that is protected with a password  
   
-1.  In the `ThisWorkbook` class or one of the `Sheet`*n* classes, mark a public field or property to be cached. For more information, see [Caching Data](../vsto/caching-data.md).  
+1.  In the `ThisWorkbook` class or one of the `Sheet`*n* classes, mark a public field or property to be cached. For more information, see [Cache data](../vsto/caching-data.md).  
   
 2.  Override the <xref:Microsoft.Office.Tools.Excel.WorkbookBase.UnprotectDocument%2A> method in the `ThisWorkbook` class and remove protection from the workbook.  
   
@@ -70,12 +67,12 @@ ms.workload:
  [!code-vb[Trin_CachedDataProtectedWorkbook#1](../vsto/codesnippet/VisualBasic/Trin_CachedDataProtectedWorkbook/ThisWorkbook.vb#1)]
  [!code-csharp[Trin_CachedDataProtectedWorkbook#1](../vsto/codesnippet/CSharp/Trin_CachedDataProtectedWorkbook/ThisWorkbook.cs#1)]  
   
-### Compiling the Code  
+### Compile the code  
  Add this code to the `ThisWorkbook` class in your project. This code assumes that the password is stored in a field named `securelyStoredPassword`.  
   
-## See Also  
- [Caching Data](../vsto/caching-data.md)   
- [How to: Cache Data for Use Offline or on a Server](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md)   
- [How to: Programmatically Cache a Data Source in an Office Document](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md)  
+## See also  
+ [Cache data](../vsto/caching-data.md)   
+ [How to: Cache data for use offline or on a server](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md)   
+ [How to: Programmatically cache a data source in an Office document](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md)  
   
   

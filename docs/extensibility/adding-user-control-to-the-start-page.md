@@ -2,21 +2,17 @@
 title: "Adding User Control to the Start Page | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "start page dll"
   - "custom start page"
   - "start page assembly"
 ms.assetid: 5b7997db-af6f-4fa9-a128-bceb42bddaf1
-caps.latest.revision: 16
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

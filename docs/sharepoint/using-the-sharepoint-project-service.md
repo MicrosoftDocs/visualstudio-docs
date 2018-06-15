@@ -2,12 +2,9 @@
 title: "Using the SharePoint Project Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,16 +13,16 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extensibility features"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Using the SharePoint Project Service
+# Use the SharePoint project service
   The SharePoint project system includes a project service that you can use to perform tasks related to the project system. The project service is an <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> object.  
   
  You can access the SharePoint project service in any SharePoint tools extension. You can also access it in other types of Visual Studio extensions, such as add-ins and VSPackages. For more information, see [How to: Retrieve the SharePoint Project Service](../sharepoint/how-to-retrieve-the-sharepoint-project-service.md).  
   
-## Project Service Features  
+## Project service features
  The following table lists the tasks that you can perform by using the SharePoint project service and the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService> method or property to use to perform each task.  
   
 |Task|Member to use|  
@@ -42,11 +39,10 @@ ms.workload:
 |Determine whether [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] or [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] is installed on the computer.|<xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService.IsSharePointInstalled%2A> property.|  
 |Validate a feature or package in a SharePoint solution.|<xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectService.PackageValidationProvider%2A> property.|  
   
-## See Also  
+## See also
  [Converting Between SharePoint Project System Types and Other Visual Studio Project Types](../sharepoint/converting-between-sharepoint-project-system-types-and-other-visual-studio-project-types.md)   
  [How to: Retrieve the SharePoint Project Service](../sharepoint/how-to-retrieve-the-sharepoint-project-service.md)   
  [Extending the SharePoint Tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)   
  [Overview of the Programming Model of SharePoint Tools Extensions](../sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md)   
  [How to: Get a Service from the DTE Object](http://msdn.microsoft.com/library/bb166401.aspx)  
-  
   

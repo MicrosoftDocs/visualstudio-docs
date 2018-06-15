@@ -2,12 +2,8 @@
 title: "Start a debugging session for a UWP app in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/04/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VC.Project.IVCAppHostRemoteDebugPageObject.MachineName"
   - "VC.Project.IVCAppHostRemoteDebugPageObject.BreakpointBehavior"
@@ -35,10 +31,9 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 ---

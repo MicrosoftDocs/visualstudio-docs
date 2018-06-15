@@ -2,12 +2,9 @@
 title: "Walkthrough: Add Feature Event Receivers | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,11 +16,11 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, feature event receivers"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Add Feature Event Receivers
+# Walkthrough: Add feature event receivers
   Feature event receivers are methods that execute when one of the following feature-related events occurs in SharePoint:  
   
 -   A feature is installed.  
@@ -51,12 +48,12 @@ ms.workload:
   
 -   Visual Studio.  
   
-## Creating a Feature Event Receiver Project  
+## Create a feature event receiver project
  First, create a project to contain the feature event receiver.  
   
 #### To create a project with a feature event receiver  
   
-1.  On the menu bar, choose **File**, **New**, **Project** to display the **New Project** dialog box.  
+1.  On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.  
   
 2.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
@@ -74,7 +71,7 @@ ms.workload:
   
 7.  Choose the **Finish** button, and then notice that a feature that's named Feature1 appears under the **Features** node.  
   
-## Adding an Event Receiver to the Feature  
+## Add an event receiver to the feature
  Next, add an event receiver to the feature and add code that executes when the feature is deactivated.  
   
 #### To add an event receiver to the feature  
@@ -83,7 +80,7 @@ ms.workload:
   
 2.  Under the **Features** node, open the shortcut menu for **Feature1**, and then choose **Add Event Receiver** to add an event receiver to the feature.  
   
-     This adds a code file under Feature1. In this case, it is named either Feature1.EventReceiver.cs or Feature1.EventReceiver.vb, depending on your project's development language.  
+     This adds a code file under Feature1. In this case, it is named either *Feature1.EventReceiver.cs* or *Feature1.EventReceiver.vb*, depending on your project's development language.  
   
 3.  If your project is written in [!INCLUDE[csprcs](../sharepoint/includes/csprcs-md.md)], add the following code at the top of the event receiver if it is not already there:  
   
@@ -94,7 +91,7 @@ ms.workload:
      [!code-vb[SP_FeatureEvt#2](../sharepoint/codesnippet/VisualBasic/featureevt2vb/features/feature1/feature1.eventreceiver.vb#2)]
      [!code-csharp[SP_FeatureEvt#2](../sharepoint/codesnippet/CSharp/featureevttest2/features/feature1/feature1.eventreceiver.cs#2)]  
   
-## Testing the Feature Event Receiver  
+## Test the feature event receiver
  Next, deactivate the feature to test whether the **FeatureDeactivating** method outputs an announcement to the SharePoint Announcements list.  
   
 #### To test the feature event receiver  
@@ -117,8 +114,7 @@ ms.workload:
   
      Notice that an announcement appears in the **Announcements** list after the feature is deactivated.  
   
-## See Also  
+## See also
  [How to: Create an Event Receiver](../sharepoint/how-to-create-an-event-receiver.md)   
  [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
-  
   

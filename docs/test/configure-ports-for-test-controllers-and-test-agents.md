@@ -1,7 +1,7 @@
 ---
-title: "Configure Ports for Test Controllers and Test Agents in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Configure Ports for Test Controllers and Test Agents in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "firewalls, configuring for test agents"
   - "firewalls, configuring for test controllers"
@@ -12,7 +12,8 @@ helpviewer_keywords:
 ms.assetid: 211edbd7-9fe4-4251-ba85-8bec4363261b
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Configure Ports for Test Controllers and Test Agents
@@ -27,18 +28,18 @@ You can change the default incoming ports used by the test controller, the test 
 
 The default port used by the test controller is 6901 and the test agent's default port is 6910. The client uses a random port by default which is used to receive the test results from the test controller. For all incoming connections, the test controller authenticates the calling party and verifies that it belongs to specific security group.
 
-- **Test Controller** Incoming connections are on TCP port 6901. If you need to, you can configure the incoming port. For more information, see [Configuring the Incoming Ports](#ConfigurePorts).
+- **Test Controller** Incoming connections are on TCP port 6901. If you need to, you can configure the incoming port. For more information, see [Configuring the Incoming Ports](#configure-the-incoming-ports).
 
     The test controller needs to be able to make outgoing connection to test agents and to the client.
 
     > [!NOTE]
     > The test controller needs incoming **File and Printer sharing** connection open.
 
-- **Test Agent** Incoming connections are on TCP port 6910. If you need to, you can configure the incoming port. For more information, see [Configuring the Incoming Ports](#ConfigurePorts).
+- **Test Agent** Incoming connections are on TCP port 6910. If you need to, you can configure the incoming port. For more information, see [Configuring the Incoming Ports](#configure-the-incoming-ports).
 
    The test agent needs to be able to make outgoing connection to the test controller.
 
-- **Client** By default, a random TCP port is used for incoming connections. If you need to, you can configure the incoming port. For more information, see [Configuring the Incoming Ports](#ConfigurePorts).
+- **Client** By default, a random TCP port is used for incoming connections. If you need to, you can configure the incoming port. For more information, see [Configuring the Incoming Ports](#configure-the-incoming-ports).
 
    You might get firewall notifications when the test controller tries to connect to the client the first time.
 

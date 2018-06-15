@@ -1,18 +1,15 @@
 ---
-title: "Visual Studio unrecoverable process error | Microsoft Docs"
-ms.custom: ""
-ms.date: "02/23/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+title: Visual Studio unrecoverable process error
+ms.date: 02/23/2017
+ms.topic: troubleshooting
+helpviewer_keywords:
   - "editor"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Visual Studio unrecoverable process error

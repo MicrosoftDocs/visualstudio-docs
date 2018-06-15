@@ -2,15 +2,11 @@
 title: "Profiling overview - Visual Studio | Microsoft Docs"
 ms.custom: "mvc"
 ms.date: "03/27/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "overview"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: "ghogen"
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -25,7 +21,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
 
 ## Next steps
 
-* [Profiling feature tour](../profiling/profiling-feature-tour.md) to learn about the many different ways to measure application performance.
+* [First look at profiling tools](../profiling/profiling-feature-tour.md) to learn about the many different ways to measure application performance.
 
 * [Analyze CPU usage](../profiling/cpu-usage.md) for more in-depth information on the CPU usage tool.
 

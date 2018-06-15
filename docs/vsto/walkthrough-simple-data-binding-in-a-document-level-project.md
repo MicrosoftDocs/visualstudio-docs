@@ -1,13 +1,10 @@
 ---
-title: "Walkthrough: Simple Data Binding in a Document-Level Project | Microsoft Docs"
+title: "Walkthrough: Simple data binding in a document-level project"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,11 +16,11 @@ helpviewer_keywords:
   - "simple data binding [Office development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Simple Data Binding in a Document-Level Project
+# Walkthrough: Simple data binding in a document-level project
   This walkthrough demonstrates the basics of data binding in a document-level project. A single data field in a SQL Server database is bound to a named range in Microsoft Office Excel. The walkthrough also shows how to add controls that enable you to scroll through all the records in the table.  
   
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]  
@@ -49,21 +46,21 @@ ms.workload:
   
 -   Permissions to read from and write to the SQL Server database.  
   
-## Creating a New Project  
+## Create a new project  
  In this step, you will create an Excel workbook project.  
   
-#### To create a new project  
+### To create a new project  
   
-1.  Create an Excel workbook project with the name **My Simple Data Binding**, using either Visual Basic or C#. Make sure that **Create a new document** is selected. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
+1.  Create an Excel workbook project with the name **My Simple Data Binding**, using either Visual Basic or C#. Make sure that **Create a new document** is selected. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
  Visual Studio opens the new Excel workbook in the designer and adds the **My Simple Data Binding** project to **Solution Explorer**.  
   
-## Creating the Data Source  
+## Create the data source  
  Use the **Data Sources** window to add a typed dataset to your project.  
   
-#### To create the data source  
+### To create the data source  
   
-1.  If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View**, **Other Windows**, **Data Sources**.  
+1.  If the **Data Sources** window is not visible, display it by, on the menu bar, choosing **View** > **Other Windows** > **Data Sources**.  
   
 2.  Choose **Add New Data Source** to start the **Data Source Configuration Wizard**.  
   
@@ -83,12 +80,12 @@ ms.workload:
   
  The wizard adds the **Customers** table to the **Data Sources** window. It also adds a typed dataset to your project that is visible in **Solution Explorer**.  
   
-## Adding Controls to the Worksheet  
+## Add controls to the worksheet  
  For this walkthrough, you need two named ranges and four buttons on the first worksheet. First, add the two named ranges from the **Data Sources** window so that they are automatically bound to the data source. Next, add the buttons from the **Toolbox**.  
   
-#### To add two named ranges  
+### To add two named ranges  
   
-1.  Verify that the **My Simple Data Binding.xlsx** workbook is open in the Visual Studio designer, with **Sheet1** displayed.  
+1.  Verify that the *My Simple Data Binding.xlsx* workbook is open in the Visual Studio designer, with **Sheet1** displayed.  
   
 2.  Open the **Data Sources** window and expand the **Customers** node.  
   
@@ -104,7 +101,7 @@ ms.workload:
   
 7.  Another <xref:Microsoft.Office.Tools.Excel.NamedRange> control named `customerIDNamedRange` is created in cell **B1**, and bound to the <xref:System.Windows.Forms.BindingSource>.  
   
-#### To add four buttons  
+### To add four buttons  
   
 1.  From the **Common Controls** tab of the **Toolbox**, add a <xref:System.Windows.Forms.Button> control to cell **A3** of the worksheet.  
   
@@ -120,10 +117,10 @@ ms.workload:
   
  The next step is to add text to the buttons, and in C# add event handlers.  
   
-## Initializing the Controls  
+## Initialize the controls  
  Set the button text and add event handlers during the <xref:Microsoft.Office.Tools.Excel.Worksheet.Startup> event.  
   
-#### To initialize the controls  
+### To initialize the controls  
   
 1.  In **Solution Explorer**, right-click **Sheet1.vb** or **Sheet1.cs**, and then click **View Code** on the shortcut menu.  
   
@@ -138,43 +135,43 @@ ms.workload:
   
  Now add code to handle the <xref:System.Windows.Forms.Control.Click> events of the buttons so that the user can browse through the records.  
   
-## Adding Code to Enable Scrolling Through the Records  
+## Add code to enable scrolling through the records  
  Add code to the <xref:System.Windows.Forms.Control.Click> event handler of each button to move through the records.  
   
-#### To move to the first record  
+### To move to the first record  
   
 1.  Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of the `Button1` button, and add the following code to move to the first record:  
   
      [!code-csharp[Trin_VstcoreDataExcel#4](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#4)]
      [!code-vb[Trin_VstcoreDataExcel#4](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#4)]  
   
-#### To move to the previous record  
+### To move to the previous record  
   
 1.  Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of the `Button2` button, and add the following code to move the position back by one:  
   
      [!code-csharp[Trin_VstcoreDataExcel#5](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#5)]
      [!code-vb[Trin_VstcoreDataExcel#5](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#5)]  
   
-#### To move to the next record  
+### To move to the next record  
   
 1.  Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of the `Button3` button, and add the following code to advance the position by one:  
   
      [!code-csharp[Trin_VstcoreDataExcel#6](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#6)]
      [!code-vb[Trin_VstcoreDataExcel#6](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#6)]  
   
-#### To move to the last record  
+### To move to the last record  
   
 1.  Add an event handler for the <xref:System.Windows.Forms.Control.Click> event of the `Button4` button, and add the following code to move to the last record:  
   
      [!code-csharp[Trin_VstcoreDataExcel#7](../vsto/codesnippet/CSharp/Trin_VstcoreDataExcelCS/Sheet1.cs#7)]
      [!code-vb[Trin_VstcoreDataExcel#7](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#7)]  
   
-## Testing the Application  
+## Test the application  
  Now you can test your workbook to make sure that you can browse through the records in the database.  
   
-#### To test your workbook  
+### To test your workbook  
   
-1.  Press F5 to run your project.  
+1.  Press **F5** to run your project.  
   
 2.  Confirm that the first record appears in cells **A1** and **B1**.  
   
@@ -182,18 +179,18 @@ ms.workload:
   
 4.  Click the other scroll buttons to confirm that the record changes as expected.  
   
-## Next Steps  
+## Next steps  
  This walkthrough shows the basics of binding a named range to a field in a database. Here are some tasks that might come next:  
   
--   Cache the data so that it can be used offline. For more information, see [How to: Cache Data for Use Offline or on a Server](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md).  
+-   Cache the data so that it can be used offline. For more information, see [How to: Cache data for use offline or on a server](../vsto/how-to-cache-data-for-use-offline-or-on-a-server.md).  
   
--   Bind cells to multiple columns in a table, instead of to one field. For more information, see [Walkthrough: Complex Data Binding in a Document-Level Project](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md).  
+-   Bind cells to multiple columns in a table, instead of to one field. For more information, see [Walkthrough: Complex data binding in a document-level project](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md).  
   
--   Use a <xref:System.Windows.Forms.BindingNavigator> control to scroll through the records. For more information, see [How to: Navigate Data with the Windows Forms BindingNavigator Control](/dotnet/framework/winforms/controls/bindingnavigator-control-overview-windows-forms).  
+-   Use a <xref:System.Windows.Forms.BindingNavigator> control to scroll through the records. For more information, see [How to: Navigate data with the Windows Forms BindingNavigator control](/dotnet/framework/winforms/controls/bindingnavigator-control-overview-windows-forms).  
   
-## See Also  
- [Binding Data to Controls in Office Solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
- [Data in Office Solutions](../vsto/data-in-office-solutions.md)   
- [Walkthrough: Complex Data Binding in a Document-Level Project](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md)  
+## See also  
+ [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
+ [Data in Office solutions](../vsto/data-in-office-solutions.md)   
+ [Walkthrough: Complex data binding in a document-level project](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md)  
   
   

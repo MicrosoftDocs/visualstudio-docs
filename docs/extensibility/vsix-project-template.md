@@ -2,20 +2,16 @@
 title: "VSIX Project Template | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "deploy packages"
   - "publish extension"
 ms.assetid: b6c82167-e2a5-4cff-8c8b-2d72e2a9092c
-caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

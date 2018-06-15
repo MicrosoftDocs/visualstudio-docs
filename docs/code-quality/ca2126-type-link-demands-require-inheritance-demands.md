@@ -1,63 +1,58 @@
 ---
-title: "CA2126: Type link demands require inheritance demands | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+title: "CA2126: Type link demands require inheritance demands"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-code-analysis
+ms.topic: reference
+f1_keywords:
   - "CA2126"
   - "TypeLinkDemandsRequireInheritanceDemands"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "CA2126"
   - "TypeLinkDemandsRequireInheritanceDemands"
 ms.assetid: 07b604e5-5579-4df9-a578-dadd0d8370a7
-caps.latest.revision: 17
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # CA2126: Type link demands require inheritance demands
-|||  
-|-|-|  
-|TypeName|TypeLinkDemandsRequireInheritanceDemands|  
-|CheckId|CA2126|  
-|Category|Microsoft.Security|  
-|Breaking Change|Breaking|  
-  
-## Cause  
- A public unsealed type is protected with a link demand, has an overridable method, and neither the type nor the method is protected with an inheritance demand.  
-  
-## Rule Description  
- A link demand on a method or its declaring type requires the immediate caller of the method to have the specified permission. An inheritance demand on a method requires an overriding method to have the specified permission. An inheritance demand on a type requires a deriving class to have the specified permission.  
-  
-## How to Fix Violations  
- To fix a violation of this rule, secure the type or the method with an inheritance demand for the same permission as the link demand.  
-  
-## When to Suppress Warnings  
- Do not suppress a warning from this rule.  
-  
-## Example  
- The following example shows a type that violates the rule.  
-  
+|||
+|-|-|
+|TypeName|TypeLinkDemandsRequireInheritanceDemands|
+|CheckId|CA2126|
+|Category|Microsoft.Security|
+|Breaking Change|Breaking|
+
+## Cause
+ A public unsealed type is protected with a link demand, has an overridable method, and neither the type nor the method is protected with an inheritance demand.
+
+## Rule Description
+ A link demand on a method or its declaring type requires the immediate caller of the method to have the specified permission. An inheritance demand on a method requires an overriding method to have the specified permission. An inheritance demand on a type requires a deriving class to have the specified permission.
+
+## How to Fix Violations
+ To fix a violation of this rule, secure the type or the method with an inheritance demand for the same permission as the link demand.
+
+## When to Suppress Warnings
+ Do not suppress a warning from this rule.
+
+## Example
+ The following example shows a type that violates the rule.
+
  [!code-cpp[FxCop.Security.TypesWithLinkDemands#1](../code-quality/codesnippet/CPP/ca2126-type-link-demands-require-inheritance-demands_1.cpp)]
  [!code-vb[FxCop.Security.TypesWithLinkDemands#1](../code-quality/codesnippet/VisualBasic/ca2126-type-link-demands-require-inheritance-demands_1.vb)]
- [!code-csharp[FxCop.Security.TypesWithLinkDemands#1](../code-quality/codesnippet/CSharp/ca2126-type-link-demands-require-inheritance-demands_1.cs)]  
-  
-## Related Rules  
- [CA2108: Review declarative security on value types](../code-quality/ca2108-review-declarative-security-on-value-types.md)  
-  
- [CA2112: Secured types should not expose fields](../code-quality/ca2112-secured-types-should-not-expose-fields.md)  
-  
- [CA2122: Do not indirectly expose methods with link demands](../code-quality/ca2122-do-not-indirectly-expose-methods-with-link-demands.md)  
-  
- [CA2123: Override link demands should be identical to base](../code-quality/ca2123-override-link-demands-should-be-identical-to-base.md)  
-  
-## See Also  
- [Secure Coding Guidelines](/dotnet/standard/security/secure-coding-guidelines)   
- [Link Demands](/dotnet/framework/misc/link-demands)   
+ [!code-csharp[FxCop.Security.TypesWithLinkDemands#1](../code-quality/codesnippet/CSharp/ca2126-type-link-demands-require-inheritance-demands_1.cs)]
+
+## Related Rules
+ [CA2108: Review declarative security on value types](../code-quality/ca2108-review-declarative-security-on-value-types.md)
+
+ [CA2112: Secured types should not expose fields](../code-quality/ca2112-secured-types-should-not-expose-fields.md)
+
+ [CA2122: Do not indirectly expose methods with link demands](../code-quality/ca2122-do-not-indirectly-expose-methods-with-link-demands.md)
+
+ [CA2123: Override link demands should be identical to base](../code-quality/ca2123-override-link-demands-should-be-identical-to-base.md)
+
+## See Also
+ [Secure Coding Guidelines](/dotnet/standard/security/secure-coding-guidelines)
+ [Link Demands](/dotnet/framework/misc/link-demands)

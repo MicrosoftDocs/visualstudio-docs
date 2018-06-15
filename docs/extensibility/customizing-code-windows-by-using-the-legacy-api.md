@@ -2,19 +2,15 @@
 title: "Customizing Code Windows by Using the Legacy API | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], legacy - code windows"
 ms.assetid: 5328ab2f-55cb-4680-9744-ec79f55acd1b
-caps.latest.revision: 19
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

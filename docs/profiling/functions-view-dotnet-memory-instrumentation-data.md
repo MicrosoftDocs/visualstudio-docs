@@ -2,23 +2,18 @@
 title: "Functions View - .NET Memory Instrumentation Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Functions view"
 ms.assetid: cd45b379-394b-4b71-828c-92cd89e46ae0
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# Functions View - .NET Memory Instrumentation Data
+# Functions View - .NET memory instrumentation data
 The Functions view of .NET memory allocation profiling data that was collected by using the instrumentation method lists the functions that allocated memory during the profiling run. A function row reports the size and number of allocations, and the timing data for the function.  
   
 ## General  
@@ -37,7 +32,7 @@ The Functions view of .NET memory allocation profiling data that was collected b
 |**Time Exclusive Probe Overhead**|The time overhead for this function because of instrumentation. Probe overhead has been subtracted from all exclusive times.|  
 |**Time Inclusive Probe Overhead**|The time overhead for this function and its child functions because of instrumentation. Probe overhead has been subtracted from all inclusive times.|  
   
-## .NET Memory Values  
+## .NET memory values  
  The inclusive .NET memory values of a function indicate the number (allocations) and size (bytes) of objects that were created by the function and its child functions.  
   
  The exclusive memory values indicate the number and size of objects that were created by the function and not by its child functions.  
@@ -53,7 +48,7 @@ The Functions view of .NET memory allocation profiling data that was collected b
 |**Exclusive Bytes**|The number of bytes of memory that were allocated by this function but not by functions that were called by this function.|  
 |**Exclusive Bytes %**|The percentage of all bytes of memory that were allocated in the profiling run that were exclusive bytes of this function.|  
   
-## Elapsed Inclusive Values  
+## Elapsed inclusive values  
  Elapsed inclusive values indicate the time that a function was on the call stack. The time includes time that was spent in child functions and in calls to the operating system, such as context switches and input/output operations.  
   
 |Column|Description|  
@@ -64,7 +59,7 @@ The Functions view of .NET memory allocation profiling data that was collected b
 |**Max Elapsed Inclusive Time**|The maximum elapsed inclusive time of a call to this function.|  
 |**Min Elapsed Inclusive Time**|The minimum elapsed inclusive time of a call to this function.|  
   
-## Elapsed Exclusive Values  
+## Elapsed exclusive values  
  Elapsed exclusive values indicate the time that a function was directly executing at the top of the call stack. The time includes time in calls to the operating system, such as context switches and input/output operations, but it does not include time that was spent in child functions.  
   
 |Column|Description|  
@@ -75,7 +70,7 @@ The Functions view of .NET memory allocation profiling data that was collected b
 |**Max Elapsed Exclusive Time**|The maximum elapsed exclusive time of a call to this function.|  
 |**Min Elapsed Exclusive Time**|The minimum elapsed exclusive time of a call to this function.|  
   
-## Application Inclusive Values  
+## Application inclusive values  
  Application inclusive values indicate the time that a function was on the call stack. The time does not include time that was spent in calls to the operating system, such as context switches and input/output operations, but it does include time that was spent in child functions.  
   
 |Column|Description|  
@@ -86,7 +81,7 @@ The Functions view of .NET memory allocation profiling data that was collected b
 |**Max Application Inclusive Time**|The maximum application inclusive time of a call to this function.|  
 |**Min Application Inclusive Time**|The minimum application inclusive time of a call to this function.|  
   
-## Application Exclusive Values  
+## Application exclusive values  
  Application exclusive values indicate the time that a function was directly executing at the top of the call stack. The time does not include time that was spent in calls to the operating system, such as context switches and input/output operations, nor does it include time that was spent in child functions.  
   
 |Column|Description|  
@@ -97,8 +92,8 @@ The Functions view of .NET memory allocation profiling data that was collected b
 |**Max Application Exclusive Time**|The maximum application exclusive time of a call to this function.|  
 |**Min Application Exclusive Time**|The minimum application exclusive time of a call to this function.|  
   
-## See Also  
- [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
- [Functions View - Sampling](../profiling/functions-view-dotnet-memory-sampling-data.md)   
+## See also  
+ [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)   
+ [Functions View - sampling](../profiling/functions-view-dotnet-memory-sampling-data.md)   
  [Functions View](../profiling/functions-view-instrumentation-data.md)   
  [Functions View](../profiling/functions-view-sampling-data.md)

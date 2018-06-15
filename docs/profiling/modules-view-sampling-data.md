@@ -2,24 +2,19 @@
 title: "Modules View - Sampling Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Modules view"
   - "sampling profiling method,Modules view"
 ms.assetid: 816f5633-65d7-41e5-aee1-033628d4e2df
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Modules View - Sampling Data
+# Modules View - sampling data
 The Modules view of sampling data displays performance data that is grouped by the modules that were sampled in the profiling data. Each module is the root of a hierarchical tree. The sampled functions of the module are listed underneath the module node.  
   
 > [!NOTE]
@@ -41,7 +36,7 @@ The Modules view of sampling data displays performance data that is grouped by t
 |**Exclusive Samples**|-   For a function, the number of call stack samples in which this function was directly executing; that is, the number of samples in which this function was at the top of the call stack.<br />-   For a module, the sum of exclusive samples of the functions in the module.<br />-   For a line or instruction, the number of samples in which this line or instruction was executing.|  
 |**Exclusive Samples %**|-   For a function or module, the percentage of all samples in the profiling run that were exclusive samples of this function or module.<br />-   For a line or instruction, the percentage of all samples in the profiling run in which this line or instruction was executing.|  
   
-## See Also  
- [Modules View - Sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)   
- [Modules View - Instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)   
+## See also  
+ [Modules View - sampling](../profiling/modules-view-dotnet-memory-sampling-data.md)   
+ [Modules View - instrumentation](../profiling/modules-view-dotnet-memory-instrumentation-data.md)   
  [Modules View](../profiling/modules-view-instrumentation-data.md)

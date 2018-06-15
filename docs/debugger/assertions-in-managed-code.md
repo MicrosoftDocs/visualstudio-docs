@@ -2,12 +2,8 @@
 title: "Assertions in Managed Code | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -23,10 +19,9 @@ helpviewer_keywords:
   - "Trace.Listeners property"
   - "assertions, managed code"
 ms.assetid: 70ab2522-6486-4076-a1a9-e0f11cd0f3a1
-caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

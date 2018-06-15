@@ -1,28 +1,25 @@
 ---
-title: "SetWefProcessId Method | Microsoft Docs"
+title: "SetWefProcessId method"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# SetWefProcessId Method
+# SetWefProcessId method
   Provides the process identifier that will run Web Extensions Framework (WEF) content.  
   
 ## Syntax  
   
-```  
+```csharp  
 HRESULT SetWefProcessId(  
     [in] DWORD dwProcessId  
 );  
@@ -34,7 +31,7 @@ HRESULT SetWefProcessId(
 |---------------|-----------------|  
 |*dwProcessId*|The process identifier that will be used to run WEF content.|  
   
-## Return Value  
+## Return value  
  An HRESULT value that indicates whether the method completed successfully.  
   
 ## Remarks  

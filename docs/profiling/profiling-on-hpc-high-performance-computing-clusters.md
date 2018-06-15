@@ -2,12 +2,8 @@
 title: "Profiling on HPC (High Performance Computing) Clusters | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.hpc.wizard.exeoptions"
   - "vs.performance.hpc.wizard.summary"
@@ -22,13 +18,13 @@ helpviewer_keywords:
   - "HPC profiling"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Profiling on HPC (High Performance Computing) Clusters
+# Profile on HPC (high performance computing) clusters
 
-You can profile on compute nodes of Microsoft Windows HPC clusters by using the sampling method of the Visual Studio Profiling Tools. For more information about HPC see [Windows HPC](http://go.microsoft.com/fwlink/?LinkId=165393) on the Microsoft Web site.
+You can profile on compute nodes of Microsoft Windows HPC clusters by using the sampling method of the Visual Studio Profiling Tools. For more information about HPC see [Windows HPC](https://azure.microsoft.com/solutions/big-compute/) on the Microsoft Web site.
 
 ## Prerequisites
 
@@ -56,7 +52,7 @@ To profile on a HPC compute node, you must do the following:
 |*%FxPath%*|Path to the [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)] installer. On the Visual Studio installation media the path is: WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe|
 |*%ProfilerPath%*|Path to the standalone version of the Profiling Tools installer. On the Visual Studio installation media the path is: Standalone Profiler\x64\vs_profiler.exe|
 
-## Profiling on an HPC Compute Node
+## Profile on an HPC compute node
 
 You configure a profiling session by using the HPC Performance Wizard to specify the HPC cluster and target information. You can set additional options in the performance session property pages. The Profiling Tools automatically deploy the necessary target binaries and start the profiler and the HPC application.
 
@@ -104,7 +100,7 @@ You configure a profiling session by using the HPC Performance Wizard to specify
 
 10. Click **Finish**.
 
-## Setting HPC Profiling Properties By Using Performance Session Property Pages
+## Set HPC profiling properties by using performance session property pages
 
 You can change the performance session properties that you set on the HPC Profiling Wizard on the HPC Launch Properties page of the performance session properties page. You set additional options on the HPC Advanced Properties page.
 
@@ -122,7 +118,7 @@ You can change the performance session properties that you set on the HPC Profil
 
     - Click **HPC Advanced Properties** to set additional options
 
-### HPC Launch Properties
+### HPC launch properties
 
 |Property|Description|
 |--------------|-----------------|
@@ -133,7 +129,7 @@ You can change the performance session properties that you set on the HPC Profil
 |**Remote working directory**|Specifies the path to the folder that is used by the process instances on the individual compute nodes.|
 |**Deployment location**|Specifies the path to the directory that the HPC server uses to stage images for deployment.|
 
-### Advanced Properties
+### Advanced properties
 
 |Property|Description|
 |--------------|-----------------|

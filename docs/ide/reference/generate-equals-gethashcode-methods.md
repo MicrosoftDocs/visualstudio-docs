@@ -1,15 +1,12 @@
 ---
-title: "Generate C# Equals and GetHashCode Method Overrides in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Generate C# Equals and GetHashCode Method Overrides in Visual Studio
 ms.date: 01/26/2018
-ms.reviewer: ""
-ms.suite: ""
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: reference
 author: "kuhlenh"
 ms.author: "kaseyu"
-manager: ghogen
+manager: douge
 ms.workload:
   - "dotnet"
 ---

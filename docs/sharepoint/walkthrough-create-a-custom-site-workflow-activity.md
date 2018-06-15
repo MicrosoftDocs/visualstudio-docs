@@ -2,12 +2,9 @@
 title: "Walkthrough: Create a Custom Site Workflow Activity | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -21,11 +18,11 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, site workflows"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Create a Custom Site Workflow Activity
+# Walkthrough: Create a custom site workflow activity
   This walkthrough demonstrates how to create a custom activity for a site-level workflow using [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. (Site-level workflows apply to the whole site, not just a list on the site.) The custom activity creates a backup Announcements list and then copies the contents of the Announcements list into it.  
   
  This walkthrough demonstrates the following tasks:  
@@ -49,12 +46,12 @@ ms.workload:
   
 -   Visual Studio.  
   
-## Creating a Site Workflow Custom Activity Project  
+## Create a site workflow custom activity project
  First, create a project to hold and test the custom workflow activity.  
   
 #### To create a site workflow custom activity project  
   
-1.  On the menu bar, choose **File**, **New**, **Project** to display the **New Project** dialog box.  
+1.  On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.  
   
 2.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
@@ -68,7 +65,7 @@ ms.workload:
   
      This step sets the trust level for the solution as farm solution, the only available option for workflow projects.  
   
-6.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project**, **Add New Item**.  
+6.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project** > **Add New Item**.  
   
 7.  Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -80,12 +77,12 @@ ms.workload:
   
 10. Choose the **Finish** button to accept the remaining default settings.  
   
-## Adding a Custom Workflow Activity Class  
+## Add a custom workflow activity class
  Next, add a class to the project to contain the code for the custom workflow activity.  
   
 #### To add a custom workflow activity class  
   
-1.  On the menu bar, choose **Project**, **Add New Item** to display the **Add New Item** dialog box.  
+1.  On the menu bar, choose **Project** > **Add New Item** to display the **Add New Item** dialog box.  
   
 2.  In the **Installed Templates** tree view, choose the **Code** node, and then choose the **Class** template in the list of project item templates. Use the default name Class1. Choose the **Add** button.  
   
@@ -94,14 +91,14 @@ ms.workload:
      [!code-csharp[SP_AnnBackup#1](../sharepoint/codesnippet/CSharp/announcementbackup/class1.cs#1)]
      [!code-vb[SP_AnnBackup#1](../sharepoint/codesnippet/VisualBasic/announcementbackupvb/class1.vb#1)]  
   
-4.  Save the project, and then, on the menu bar, choose **Build**, **Build Solution**.  
+4.  Save the project, and then, on the menu bar, choose **Build** > **Build Solution**.  
   
      Class1 appears as a custom action in the **Toolbox** on the **AnnouncementBackup Components** tab.  
   
-## Adding the Custom Activity to the Site Workflow  
+## Add the custom activity to the site workflow
  Next, add an activity to the Workflow to contain the custom code.  
   
-#### To add a custom activity to the site Workflow  
+#### To add a custom activity to the site workflow
   
 1.  Open Workflow1 in the workflow designer in design view.  
   
@@ -109,12 +106,12 @@ ms.workload:
   
 3.  Save the project.  
   
-## Testing the Site Workflow Custom Activity  
+## Test the site workflow custom activity
  Next, run the project and start the site workflow. The custom activity creates a backup Announcements list and copies the contents from the current Announcements list into it. The code also checks whether a backup list already exists before creating one. If a backup list already exists, it is deleted. The code also adds a link to the new list on the SharePoint site's QuickLaunch bar.  
   
 #### To test the site workflow custom activity  
   
-1.  Choose the F5 key to run the project and deploy it to SharePoint.  
+1.  Choose the **F5** key to run the project and deploy it to SharePoint.  
   
 2.  On the QuickLaunch bar, choose the **Lists** link to display all of the lists that are available in the SharePoint site. Notice there is only one list for announcements named **Announcements**.  
   
@@ -124,8 +121,7 @@ ms.workload:
   
 5.  On the QuickLaunch bar, choose the **Announcements Backup** link. Notice that all of the announcements that are contained in the **Announcements** list have been copied to this new list.  
   
-## See Also  
+## See also
  [How to: Create an Event Receiver](../sharepoint/how-to-create-an-event-receiver.md)   
  [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
-  
   

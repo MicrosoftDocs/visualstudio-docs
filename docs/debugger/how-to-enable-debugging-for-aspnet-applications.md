@@ -2,12 +2,8 @@
 title: "Enable Debugging for ASP.NET Applications | Microsoft Docs"
 ms.custom: "H1HackMay2017"
 ms.date: "09/21/17"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -18,10 +14,9 @@ helpviewer_keywords:
   - "Web.config configuration file, debug mode"
   - "debugging [Visual Studio], ASP.NET"
 ms.assetid: 3beed819-cece-4864-8184-bd410000973a
-caps.latest.revision: 37
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "aspnet"
 ---

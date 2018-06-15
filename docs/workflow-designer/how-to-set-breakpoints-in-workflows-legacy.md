@@ -1,8 +1,10 @@
 ---
-title: "How to: Set Breakpoints in Workflows (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-helpviewer_keywords: 
+title: "Workflow Designer - How to: Set Breakpoints in Workflows (Legacy)"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+helpviewer_keywords:
   - "breakpoints, setting in workflows"
   - "debugging, setting breakpoints in workflows"
   - "debugging workflows, setting breakpoints"
@@ -10,14 +12,15 @@ helpviewer_keywords:
 ms.assetid: 78e0be39-3e99-487c-bfef-19db0daf6f42
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # How to: Set Breakpoints in Workflows (Legacy)
-This topic describes how to set breakpoints in [!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] applications build using the legacy Windows Workflow Designer. Use the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] when your [!INCLUDE[wf2](../workflow-designer/includes/wf2_md.md)] application needs to target either the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].
 
- When you use the legacy [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] in [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] to build a [!INCLUDE[wf2](../workflow-designer/includes/wf2_md.md)] application, you can set breakpoints in C# and Visual Basic code as you do in Visual Studio. As expected, workflow execution stops at each breakpoint that you set.
+This topic describes how to set breakpoints in Windows Workflow Foundation (WF) applications build using the legacy Windows Workflow Designer. Use the legacy Workflow Designer when your Windows Workflow Foundation application needs to target either the .NET Framework version 3.5 or the WinFX.
+
+ When you use the legacy Workflow Designer in Visual Studio 2010 to build a Windows Workflow Foundation application, you can set breakpoints in C# and Visual Basic code as you do in Visual Studio. As expected, workflow execution stops at each breakpoint that you set.
 
  A breakpoint has three states: *Pending*, *Bound*, and *Error*. When you set a breakpoint, it is Pending, and it is represented by a hollow red icon. When the runtime has loaded the workflow type, it becomes Bound and is represented by a solid red icon. If you specify an incorrect format for the breakpoint, as with an activity name that is not valid, an error window appears. The breakpoint is still added to the breakpoint window, but it is marked with a small "x".
 

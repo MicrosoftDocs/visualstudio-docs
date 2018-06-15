@@ -1,14 +1,15 @@
 ---
-title: "Add a data source to a web performance test in Visual Studio | Microsoft Docs"
-ms.date: "10/03/2016"
-ms.topic: "article"
+title: "Add a data source to a web performance test in Visual Studio"
+ms.date: 10/03/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "Web performance tests, walkthroughs"
   - "Web performance tests, data binding (database)"
 ms.assetid: 2ada376d-f168-455d-9643-6acb535360c1
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Add a data source to a web performance test
@@ -27,7 +28,7 @@ Bind data to provide different values to the same test, for example, to provide 
 
 ## Create a SQL database
 
-1. If you don’t have Visual Studio Enterprise, you cand download it from the [Visual Studio Downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page.
+1. If you don’t have Visual Studio Enterprise, you cand download it from the [Visual Studio Downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page.
 
 2. Create a SQL database.
 
@@ -137,23 +138,23 @@ Bind data to provide different values to the same test, for example, to provide 
 
 1. Create a folder to organize your projects database artifacts and add an item.
 
-     ![Add new item to the Data folder](../test/media/web_test_databinding_foldernewitem.png "Web_Test_DataBinding_FolderNewItem")
+     ![Add new item to the Data folder](../test/media/web_test_databinding_foldernewitem.png)
 
 2. Create a text file.
 
-     ![Name the new text file ColorData.csv](../test/media/web_test_databinding_foldernewitemtextfile.png "Web_Test_DataBinding_FolderNewItemTextFile")
+     ![Name the new text file ColorData.csv](../test/media/web_test_databinding_foldernewitemtextfile.png)
 
 3. Edit the text file and add the following:
 
-    ```
+    ```text
     ColorId, ColorName
     0,Red
     1,Blue
     ```
 
-4. Use the steps in [Binding the SQL data](#AddingDataBindingWebTest_BindSQLData), but choose CSV file as your data source.
+4. Use the steps in [Add the data source](#add-the-data-source), but choose CSV file as your data source.
 
-     ![Enter a name and choose CSV file](../test/media/web_test_databinding_adddatasourcedialog.png "Web_Test_DataBinding_AddDataSourceDialog")
+     ![Enter a name and choose CSV file](../test/media/web_test_databinding_adddatasourcedialog.png)
 
 ### Q: What if my existing CSV file does not contain column headers?
 
@@ -161,50 +162,50 @@ Bind data to provide different values to the same test, for example, to provide 
 
 1. Add a new text file named schema.ini.
 
-     ![Add a schema.ini file](../test/media/web_test_databinding_schemafile.png "Web_Test_DataBinding_SchemaFile")
+     ![Add a schema.ini file](../test/media/web_test_databinding_schemafile.png)
 
 2. Edit the schema.ini file to add the information that describes the structure of your data. For example, a schema file describing the CSV file might look like this:
 
-    ```
+    ```text
     [testdata.csv]
     ColNameHeader=False
     ```
 
 3. Add a data source to the test.
 
-     ![Add data source to web performance test](../test/media/web_test_databinding_sql_adddatasource.png "Web_Test_DataBinding_SQL_AddDataSource")
+     ![Add data source to web performance test](../test/media/web_test_databinding_sql_adddatasource.png)
 
 4. If you’re using a schema.ini file, choose Database (not CSV file) as the data source and name it.
 
-     ![Add database data source](../test/media/web_test_databinding_adddatasourcecolortext.png "Web_Test_DataBinding_AddDataSourceColorText")
+     ![Add database data source](../test/media/web_test_databinding_adddatasourcecolortext.png)
 
 5. Create a new connection.
 
-     ![Choose new connection](../test/media/web_test_databinding_sql_adddatasourcedialogconnectionnew.png "Web_Test_DataBinding_SQL_AddDataSourceDialogConnectionNew")
+     ![Choose new connection](../test/media/web_test_databinding_sql_adddatasourcedialogconnectionnew.png)
 
 6. Select the .NET Framework Data Provider for OLE DB.
 
-     ![Select the .NET framework OLE DB data provider](../test/media/web_test_databinding_adddatasourcecolortext2.png "Web_Test_DataBinding_AddDataSourceColorText2")
+     ![Select the .NET framework OLE DB data provider](../test/media/web_test_databinding_adddatasourcecolortext2.png)
 
 7. Choose Advanced.
 
-     ![Choose Advanced](../test/media/web_test_databinding_advanced.png "Web_Test_DataBinding_Advanced")
+     ![Choose Advanced](../test/media/web_test_databinding_advanced.png)
 
 8. For the Provider property, select Microsoft.Jet.OLEDB.4.0, and then set Extended Properties to Text;HDR=NO.
 
-     ![Apply advanced properties](../test/media/web_test_databinding_advancedproperties.png "Web_Test_DataBinding_AdvancedProperties")
+     ![Apply advanced properties](../test/media/web_test_databinding_advancedproperties.png)
 
 9. Type the name of the folder that contains the schema file and test your connection.
 
-     ![Enter the path to the data folder](../test/media/web_test_databinding_adddatasourcecolortext5.png "Web_Test_DataBinding_AddDataSourceColorText5")
+     ![Enter the path to the data folder](../test/media/web_test_databinding_adddatasourcecolortext5.png)
 
 10. Select the CSV file that you want to use.
 
-     ![Select the text file](../test/media/web_test_databinding_adddatasourcecolortext6.png "Web_Test_DataBinding_AddDataSourceColorText6")
+     ![Select the text file](../test/media/web_test_databinding_adddatasourcecolortext6.png)
 
      After you finish, the CSV file appears as a table.
 
-     ![Data source added to test](../test/media/web_test_databinding_adddatasourcecolortext7.png "Web_Test_DataBinding_AddDataSourceColorText7")
+     ![Data source added to test](../test/media/web_test_databinding_adddatasourcecolortext7.png)
 
 ### Q: How do I use an XML file as a data source?
 
@@ -212,11 +213,11 @@ Bind data to provide different values to the same test, for example, to provide 
 
 1. Create a folder to organize your projects database artifacts and add an item.
 
-     ![Add new item to the Data folder](../test/media/web_test_databinding_foldernewitem.png "Web_Test_DataBinding_FolderNewItem")
+     ![Add new item to the Data folder](../test/media/web_test_databinding_foldernewitem.png)
 
 2. Create an XML file.
 
-     ![Add ColorData.xml file](../test/media/web_test_databinding_additemxmlfile.png "Web_Test_DataBinding_AddItemXMLFile")
+     ![Add ColorData.xml file](../test/media/web_test_databinding_additemxmlfile.png)
 
 3. Edit the XML file and add your data:
 
@@ -234,9 +235,9 @@ Bind data to provide different values to the same test, for example, to provide 
     </ColorData>
     ```
 
-4. Use the steps in [Binding the SQL data](#AddingDataBindingWebTest_BindSQLData), but choose XML file as your data source.
+4. Use the steps in [Add the data source](#add-the-data-source), but choose XML file as your data source.
 
-     ![Enter a name and choose XML file](../test/media/web_test_databinding_adddatasourcedialogxml.png "Web_Test_DataBinding_AddDataSourceDialogXML")
+     ![Enter a name and choose XML file](../test/media/web_test_databinding_adddatasourcedialogxml.png)
 
 ### Q: Can I add data binding to a web service request that uses SOAP?
 
@@ -244,11 +245,11 @@ Bind data to provide different values to the same test, for example, to provide 
 
 1. Choose the web service request in the request tree and in the Properties window, choose the ellipsis (…) in the String Body property.
 
-     ![Edit the web service string body](../test/media/web_test_databinding_webservicerequest.png "Web_Test_DataBinding_WebServiceRequest")
+     ![Edit the web service string body](../test/media/web_test_databinding_webservicerequest.png)
 
 2. Replace values in the SOAP body with data-bound values by using the following syntax:
 
-    ```
+    ```xml
     {{DataSourceName.TableName.ColumnName}}
     ```
 

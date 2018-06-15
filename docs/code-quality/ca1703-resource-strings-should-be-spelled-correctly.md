@@ -1,6 +1,7 @@
 ---
-title: "CA1703: Resource strings should be spelled correctly | Microsoft Docs"
+title: "CA1703: Resource strings should be spelled correctly"
 ms.date: 03/28/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 f1_keywords:
@@ -10,9 +11,9 @@ helpviewer_keywords:
   - "CA1703"
   - "ResourceStringsShouldBeSpelledCorrectly"
 ms.assetid: 693f4970-f512-40cb-ae3b-a0f3a5c6d6f1
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---

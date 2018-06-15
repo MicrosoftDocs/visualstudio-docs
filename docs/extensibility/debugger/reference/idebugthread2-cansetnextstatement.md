@@ -2,21 +2,17 @@
 title: "IDebugThread2::CanSetNextStatement | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugThread2::CanSetNextStatement"
 helpviewer_keywords: 
   - "IDebugThread2::CanSetNextStatement"
 ms.assetid: 7014af80-ff4f-4790-a34b-0528918d1fa3
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

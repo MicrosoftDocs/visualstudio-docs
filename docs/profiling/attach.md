@@ -2,22 +2,17 @@
 title: "Attach | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: 79614283-6733-4592-a53a-d428052271ad
-caps.latest.revision: 12
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
 # Attach
-The VSPerfCmd.exe **Attach** option begins sample profiling of the running process specified by the process ID (PID).  
+The *VSPerfCmd.exe* **Attach** option begins sample profiling of the running process specified by the process ID (PID).  
   
  To use the **Attach** option, you must specify the **Sample** method in the Start option.  
   
@@ -26,7 +21,7 @@ The VSPerfCmd.exe **Attach** option begins sample profiling of the running proce
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Attach:ProcessID [Options]  
 ```  
   
@@ -34,7 +29,7 @@ VSPerfCmd.exe /Attach:ProcessID [Options]
  `ProcessID`  
  The process ID (PID) of the running process. The PID of a running process is listed on the Processes tab of Windows Task Manager.  
   
-## Valid Options  
+## Valid options  
  The following **VSPerfCmd** options can be combined with the **Attach** option on a single command line.  
   
  **Crosssession**  
@@ -52,7 +47,7 @@ VSPerfCmd.exe /Attach:ProcessID [Options]
  **ProcessOn:** `PID` **ProcessOff:** `PID`  
  Resumes (**ProcessOn**) or pauses (**ProcessOff**) profiling for the specified process.  
   
-## Interval Options  
+## Interval options  
  One of the following sampling interval options can be specified on the Attach command line. The default sampling interval is 10,000,000 processor clock cycles.  
   
  **Timer**[**:**`Cycles`]**PF**[**:**`Events`]**Sys**[**:**Events]**Counter**[**:**`Name`,`Reload`,`FriendlyName`]  
@@ -69,13 +64,13 @@ VSPerfCmd.exe /Attach:ProcessID [Options]
 ## Example  
  This example demonstrates how to attach to a running instance of an application with the process ID of 12345.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Attach:12345  
 ```  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)
+ [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profile services](../profiling/command-line-profiling-of-services.md)

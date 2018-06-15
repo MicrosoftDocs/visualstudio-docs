@@ -2,18 +2,14 @@
 title: "Build an OpenGL ES Application on Android and iOS | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-mobile
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "C++"
 ms.assetid: 76a67886-df57-4a81-accb-2e3c2eaf607b
-caps.latest.revision: 5
 author: "corob-msft"
 ms.author: "corob"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "xplat-cplusplus"
 ---

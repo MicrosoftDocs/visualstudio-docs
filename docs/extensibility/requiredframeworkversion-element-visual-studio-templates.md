@@ -2,20 +2,16 @@
 title: "RequiredFrameworkVersion Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "<RequiredFrameworkVersion> (Visual Studio Templates)"
   - "RequiredFrameworkVersion (Visual Studio Templates)"
 ms.assetid: 08a4f609-51a5-4723-b89f-99277fb18871
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload:
   - "vssdk"
 ---

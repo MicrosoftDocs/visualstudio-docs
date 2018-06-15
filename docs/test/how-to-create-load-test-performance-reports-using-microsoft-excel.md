@@ -1,14 +1,15 @@
 ---
-title: "Create Visual Studio Load Test Performance Reports Using Microsoft Excel | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Create Visual Studio Load Test Performance Reports Using Microsoft Excel"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, creating Excel reports"
   - "load tests, reporting"
 ms.assetid: b87fb196-9973-4512-a924-088788def4ea
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Create Load Test Performance Reports Using Microsoft Excel
@@ -33,7 +34,7 @@ You can generate Microsoft Excel load test reports that are based on two or more
 
  The following illustration is an example of a report that shows a correlation between a decline in transaction (Update Cart) speed and the degeneration of the (% Processor) counter. This points to a potential problem in the application code, instead of the database or network, and is a good candidate to diagnose by using the ASP.NET Profiler.
 
- ![Potential problem in the application code](../test/media/lt_excel.png "LT_Excel")
+ ![Potential problem in the application code](../test/media/lt_excel.png)
 
  Excel reports can either be generated in the Load Test Analyzer, by using the **Create Excel Report** button in the toolbar, or from Excel by using the **Load Test Report** option in the **Load Test** tab of the Office ribbon.
 

@@ -2,12 +2,8 @@
 title: "VSPerfMon | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSPerfMon tool"
   - "command line, tools"
@@ -17,17 +13,16 @@ helpviewer_keywords:
   - "performance tools, VSPerfMon tool"
   - "profilng tools,VSPerfCmd"
 ms.assetid: 37052afb-7a58-441f-bb17-f1587cc57068
-caps.latest.revision: 30
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
 # VSPerfMon
-You can use VSPerfMon tool to collect performance data for an application; typically this tool is launched by VSPerfCmd.exe. VSPerfMon displays additional information about process attach or detach which is not available by using the VSPerfCmd tool. To view this information, start VSPerfMon in a separate window. To invoke VSPerfMon use the following syntax:  
+You can use VSPerfMon tool to collect performance data for an application; typically this tool is launched by *VSPerfCmd.exe*. VSPerfMon displays additional information about process attach or detach which is not available by using the VSPerfCmd tool. To view this information, start VSPerfMon in a separate window. To invoke VSPerfMon use the following syntax:  
   
-```  
+```cmd  
 VSPerfMon [/U] </TRACE [/COUNTER:cfg] | /SAMPLE | /COVERAGE> /CROSSSESSION /OUTPUT <file name> [/WINCOUNTER:cfg] [/USER [DOMAIN\]username]  
 ```  
   
@@ -47,8 +42,8 @@ VSPerfMon [/U] </TRACE [/COUNTER:cfg] | /SAMPLE | /COVERAGE> /CROSSSESSION /OUTP
 |**WINCOUNTER** `:path`|Specifies a Windows performance counter to include with mark data. `path` is a Windows Performance counter string in PDH counter path format. For example:<br /><br /> \Processor(0)\\% Processor Time<br /><br /> \System\Context Switches/sec|  
 |**AUTOMARK** `:n`|Specifies the time interval (in milliseconds) between automatic marks when you use /WINCOUNTER. Rounded up to the nearest 500ms.<br /><br /> Use 0 to disable automatic marks. (default=500ms if unspecified)|  
   
-## See Also  
+## See also  
  [VSInstr](../profiling/vsinstr.md)   
  [VSPerfCmd](../profiling/vsperfcmd.md)   
  [VSPerfReport](../profiling/vsperfreport.md)   
- [Performance Report Views](../profiling/performance-report-views.md)
+ [Performance report views](../profiling/performance-report-views.md)

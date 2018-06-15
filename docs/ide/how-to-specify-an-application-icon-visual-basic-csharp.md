@@ -1,26 +1,22 @@
 ---
-title: "How to: Specify an Application Icon (Visual Basic, C#) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+title: "How to: Specify an application icon (Visual Basic, C#)"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: conceptual
+helpviewer_keywords:
   - "icons [Visual Studio], application"
   - "application properties [Visual Studio], icons"
   - "application icons [Visual Studio]"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "dotnet"
 ---
-# How to: Specify an Application Icon (Visual Basic, C#)
+# How to: Specify an application icon (Visual Basic, C#)
 
-The `Icon` property for a project specifies the icon file (.ico) that will be displayed for the compiled application in File Explorer and in the Windows taskbar.
+The `Icon` property for a project specifies the icon file (*.ico*) that will be displayed for the compiled application in **File Explorer** and in the Windows taskbar.
 
 The `Icon` property can be accessed in the **Application** pane of the **Project Designer**; it contains a list of icons that have been added to a project either as resources or as content files.
 
@@ -35,11 +31,11 @@ The `Icon` property can be accessed in the **Application** pane of the **Project
 
 1. When the **Project Designer** appears, choose the **Application** tab.
 
-1. **(Visual Basic)**&mdash;In the **Icon** list, choose an icon (.ico) file.
+1. **(Visual Basic)**&mdash;In the **Icon** list, choose an icon (*.ico*) file.
 
     **C#**&mdash;Near the **Icon** list, choose the **\<Browse...>** button, and then browse to the location of the icon file that you want.
 
 ## See also
 
-[Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)  
-[Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)
+- [Application page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md)
+- [Application page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md)

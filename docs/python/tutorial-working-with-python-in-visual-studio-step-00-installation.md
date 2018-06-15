@@ -1,28 +1,22 @@
 ---
-title: Working with Python, step 0, installation
-description: Step 0 (prerequisites) of a core tutorial for working with Python within Visual Studio, covering how to install Python support in Visual Studio.
-ms.custom: "mvc"
+title: Working with Python Tutorial, Step 0, installation
+description: Step 0 (installation prerequisites) of a core walkthrough of working with Python in Visual Studio.
 ms.date: 01/16/2018
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-python"
-dev_langs:
-  - "python"
-ms.tgt_pltfrm:
-ms.topic: "tutorial"
-author: "kraigb"
-ms.author: "kraigb"
+ms.prod: visual-studio-dev15
+ms.technology: vs-python
+ms.topic: tutorial
+author: kraigb
+ms.author: kraigb
 manager: douge
 ms.workload: 
-  - "python"
-  - "data-science"
+  - python
+  - data-science
 ---
 
 # Install Python support in Visual Studio
 
 > [!Note]
-> Python support is presently available only on Visual Studio for Windows; on Mac and Linux, Python support is available through Visual Studio Code. See [questions and answers](overview-of-python-tools-for-visual-studio.md#questions-and-answers).
+> Python support is presently available only on Visual Studio for Windows; on Mac and Linux, Python support is available through [Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial).
 
 1. Download and run the latest Visual Studio 2017 installer for Windows (Python support is present in release 15.2 and later). If you have Visual Studio installed already, run the Visual Studio installer and go to step 2.
 
@@ -40,14 +34,14 @@ ms.workload:
 
     ![Testing Python through the interactive window](media/installation-interactive-test.png)
 
-## Next steps
+## Next step
 
 > [!div class="nextstepaction"]
 > [Step 1: Create a Python project](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
 
 ## See also
 
-- [Manually identifying an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identifying-an-existing-environment).
+- [Manually identifying an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
 - [Install Python support in Visual Studio 2015 and earlier](installing-python-support-in-visual-studio.md).
 - [Install locations](installing-python-support-in-visual-studio.md#install-locations).
 

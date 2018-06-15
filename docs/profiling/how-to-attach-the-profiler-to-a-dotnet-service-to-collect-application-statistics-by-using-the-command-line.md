@@ -2,37 +2,32 @@
 title: "How to: Attach the Profiler to a .NET Service to Collect Application Statistics by Using the Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: a0046c47-26c8-4bec-96a0-81da05e5104a
-caps.latest.revision: 28
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# How to: Attach the Profiler to a .NET Service to Collect Application Statistics by Using the Command Line
-This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a .NET Framework service and collect performance statistics by using the sampling method.  
+# How to: Attach the profiler to a .NET service to collect application statistics by using the command line
+This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a .NET Framework service and collect performance statistics by using the sampling method.  
   
 > [!NOTE]
 >  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. UWP apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
 >   
->  Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64 bit computers, both 64 bit and 32 bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
+>  Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64 bit computers, both 64 bit and 32 bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
 >   
->  Adding tier interaction data to a profiling run requires specific procedures with the command line profiling tools. See [Collecting tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md).  
+>  Adding tier interaction data to a profiling run requires specific procedures with the command line profiling tools. See [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md).  
   
  To collect performance data from a .NET Framework service, you must use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize the appropriate environment variables. You must then restart the computer that hosts the service and configure that computer for profiling. You then attach the profiler to the service process. When the profiler is attached to the service, you can pause and resume data collection.  
   
  To end a profiling session, the profiler must be detached from the service and the profiler must be explicitly shut down. In most cases, we recommend clearing the profiling environment variables at the end of a session.  
   
-## Attaching the Profiler  
+## Attach the profiler  
   
-#### To attach the Profiler to a .NET Framework service  
+#### To attach the profiler to a .NET Framework service  
   
 1.  Install the service.  
   
@@ -90,8 +85,8 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
     -   **targetclr:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.  
   
-## Controlling Data Collection  
- When the service is running, you can use **VSPerfCmd.exe** options to start and stop the writing of data to the profiler data file. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.  
+## Control data collection  
+ When the service is running, you can use *VSPerfCmd.exe* options to start and stop the writing of data to the profiler data file. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.  
   
 #### To start and stop data collection  
   
@@ -103,8 +98,8 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
     |[/processon](../profiling/processon-and-processoff.md) **:** `PID` [/processoff](../profiling/processon-and-processoff.md) **:** `PID`|Starts (**/processon**) or stops (**/processoff**) data collection for the process specified by the process ID (`PID`).|  
     |**/attach:**{`PID`&#124;`ProcName`} [/detach](../profiling/detach.md)[:{`PID`&#124;`ProcName`}]|**/attach** starts to collect data for the process specified by the process ID or process name. **/detach** stops data collection for the specified process or for all processes if a specific process is not specified.|  
   
-## Ending the Profiling Session  
- To end a profiling session, the profiler must be detached from all profiled processes and the profiler must be explicitly shut down . You can detach the from an application profiled with the sampling method by closing the application or by calling the **VSPerfCmd /detach** option. You then call the **VSPerfCmd /shutdown** option to turn the profiler off and close the profiling data file.  
+## End the profiling session  
+ To end a profiling session, the profiler must be detached from all profiled processes and the profiler must be explicitly shut down. You can detach the from an application profiled with the sampling method by closing the application or by calling the **VSPerfCmd /detach** option. You then call the **VSPerfCmd /shutdown** option to turn the profiler off and close the profiling data file.  
   
  The **VSPerfClrEnv /globaloff** command clears the profiling environment variables, but the system configuration is not reset until the computer is restarted.  
   
@@ -128,6 +123,6 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
 4.  Restart the computer.  
   
-## See Also  
- [Profiling Services](../profiling/command-line-profiling-of-services.md)   
- [Sampling Method Data Views](../profiling/profiler-sampling-method-data-views.md)
+## See also  
+ [Profile services](../profiling/command-line-profiling-of-services.md)   
+ [Sampling method data views](../profiling/profiler-sampling-method-data-views.md)

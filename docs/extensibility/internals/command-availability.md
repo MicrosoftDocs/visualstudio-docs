@@ -3,16 +3,14 @@ title: "Command Availability | Microsoft Docs"
 ms.date: 03/22/2018
 ms.technology:
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "commands, context"
   - "menu items, visibility contexts"
 ms.assetid: c74e3ccf-d771-48c8-a2f9-df323b166784
-caps.latest.revision: 34
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload:
   - "vssdk"
 ---

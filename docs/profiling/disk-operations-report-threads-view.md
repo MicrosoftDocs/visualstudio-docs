@@ -2,21 +2,16 @@
 title: "Disk Operations Report (Threads View) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.report.diskoperations"
 helpviewer_keywords: 
   - "Concurrency Visualizer, File Operations Report (Threads View)"
 ms.assetid: e352f4f3-f654-45eb-96ed-417863487ddc
-caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -43,5 +38,5 @@ The Disk Operations Report shows disk I/O operations in the disk channels.
   
 -   The write latency, in milliseconds  
   
-## See Also  
+## See also  
  [Threads View](../profiling/threads-view-parallel-performance.md)

@@ -1,15 +1,16 @@
 ---
-title: "Create a simple data application by using ADO.NET in Visual Studio | Microsoft Docs"
-ms.date: "08/23/2017"
-ms.topic: "article"
+title: Create a simple data application by using ADO.NET in Visual Studio
+ms.date: 08/23/2017
+ms.topic: conceptual
 dev_langs:
   - "VB"
   - "CSharp"
 ms.assetid: 2222841f-e443-4a3d-8c70-4506aa905193
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.technology: "vs-data-tools"
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.prod: visual-studio-dev15
+ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
@@ -77,7 +78,7 @@ Create the sample database by following these steps:
 
  **Navigation form**
 
- ![Navigation dialog box](../data-tools/media/simpleappnav.png "SimpleAppNav")
+ ![Navigation dialog box](../data-tools/media/simpleappnav.png)
 
 |Controls for the Navigation form|Properties|
 |--------------------------------------|----------------|
@@ -87,7 +88,7 @@ Create the sample database by following these steps:
 
  **NewCustomer form**
 
- ![Add  a new customer and place an order](../data-tools/media/simpleappnewcust.png "SimpleAppNewCust")
+ ![Add  a new customer and place an order](../data-tools/media/simpleappnewcust.png)
 
 |Controls for the NewCustomer form|Properties|
 |---------------------------------------|----------------|
@@ -102,7 +103,7 @@ Create the sample database by following these steps:
 
  **FillOrCancel form**
 
- ![fill or cancel orders](../data-tools/media/simpleappcancelfill.png "SimpleAppCancelFill")
+ ![fill or cancel orders](../data-tools/media/simpleappcancelfill.png)
 
 |Controls for the FillOrCancel form|Properties|
 |----------------------------------------|----------------|

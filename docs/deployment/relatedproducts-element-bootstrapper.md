@@ -2,12 +2,8 @@
 title: "&lt;RelatedProducts&gt; Element (Bootstrapper) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 f1_keywords: 
   - "MSBuild.GenerateBootstrapper.MissingDependency"
   - "MSBuild.GenerateBootstrapper.DuplicateItems"
@@ -22,10 +18,9 @@ dev_langs:
 helpviewer_keywords: 
   - "<RelatedProducts> element [bootstrapper]"
 ms.assetid: bf152712-4c1e-48bd-9b7f-311cf0fdb832
-caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -34,7 +29,7 @@ The `RelatedProducts` element defines other products that either depend upon or 
   
 ## Syntax  
   
-```  
+```xml  
 <RelatedProducts>  
     <DependsOnProduct  
         Code  
@@ -77,7 +72,7 @@ The `RelatedProducts` element defines other products that either depend upon or 
 ## Example  
  The following code example specifies that the Microsoft Installer is installed with the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], and therefore will not need a separate installation.  
   
-```  
+```xml  
 <RelatedProducts>  
     <IncludesProduct Code="Microsoft.Windows.Installer.2.0" />  
 </RelatedProducts>  

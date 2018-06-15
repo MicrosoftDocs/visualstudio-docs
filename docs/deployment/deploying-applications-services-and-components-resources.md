@@ -2,20 +2,16 @@
 title: "Deployment overview - Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: 07/14/2017
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
+ms.technology: vs-ide-deployment
 ms.topic: "overview"
 dev_langs: 
   - "FSharp"
   - "VB"
   - "CSharp"
   - "C++"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

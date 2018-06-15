@@ -2,20 +2,16 @@
 title: "List of Available Services | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "services, Visual Studio"
   - "Visual Studio, services"
 ms.assetid: 724eb24b-b87c-4971-a2e7-adee7afc03b2
-caps.latest.revision: 49
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

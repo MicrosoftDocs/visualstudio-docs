@@ -20,6 +20,5 @@ The Visual Studio Subscriptions Administration Portal allows you to find a speci
 
 2.	You will see many fields appear that you can use as search criteria. Select the desired criteria you would like to 
 use as the basis of your search and then click **Filter**. You will then see a list of subscribers who match the criteria you chose.
-
     ![Find Subscribers](_img\search-filter\search-filter-find.png)
 

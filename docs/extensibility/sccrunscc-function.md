@@ -2,21 +2,17 @@
 title: "SccRunScc Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "SccRunScc"
 helpviewer_keywords: 
   - "SccRunScc function"
 ms.assetid: bbe7c931-b17a-4779-9cf6-59e5f9f0c172
-caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

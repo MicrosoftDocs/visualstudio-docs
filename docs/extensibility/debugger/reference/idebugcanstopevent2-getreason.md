@@ -2,21 +2,17 @@
 title: "IDebugCanStopEvent2::GetReason | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCanStopEvent2::GetReason"
 helpviewer_keywords: 
   - "IDebugCanStopEvent2::GetReason"
 ms.assetid: f5de31ca-7b8d-4029-9cf9-ba860ac66af6
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

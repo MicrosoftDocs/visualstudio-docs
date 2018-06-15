@@ -1,8 +1,9 @@
 ---
-title: "Options, Text Editor, General | Microsoft Docs"
-ms.date: "11/04/2016"
+title: Options, Text Editor, General
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "article"
+ms.topic: reference
 f1_keywords:
   - "VS.TOOLSOPTIONSPAGES.TEXT_EDITOR.SQL_SERVER_TOOLS.GENERAL"
   - "VS.ToolsOptionsPages.Text_Editor.All_Languages.General"
@@ -43,9 +44,9 @@ helpviewer_keywords:
   - "Text Editor [Visual Studio]"
   - "editors, global settings"
 ms.assetid: 4ac21e48-3243-4141-9058-7eaf12b3cde7
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---
@@ -82,7 +83,7 @@ When selected, displays a vertical margin along the left edge of the editor's te
 
 |Selection Margin on|Selection Margin off|
 |-------------------------|--------------------------|
-|![HTMLpageSelectionMarginOn screenshot](../../ide/reference/media/vxselmaron.gif "vxSelmaron")|![HTMLpageSelectionMarginOff screenshot](../../ide/reference/media/vxselmaroff.gif "vxSelmaroff")|
+|![HTMLpageSelectionMarginOn screenshot](../../ide/reference/media/vxselmaron.gif)|![HTMLpageSelectionMarginOff screenshot](../../ide/reference/media/vxselmaroff.gif)|
 
 ### Indicator margin
 

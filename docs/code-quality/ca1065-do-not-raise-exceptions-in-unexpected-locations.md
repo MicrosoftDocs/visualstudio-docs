@@ -1,8 +1,9 @@
 ---
-title: "CA1065: Do not raise exceptions in unexpected locations | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "CA1065: Do not raise exceptions in unexpected locations"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
-ms.topic: "article"
+ms.topic: reference
 f1_keywords:
   - "CA1065"
   - "DoNotRaiseExceptionsInUnexpectedLocations"
@@ -10,9 +11,9 @@ helpviewer_keywords:
   - "DoNotRaiseExceptionsInUnexpectedLocations"
   - "CA1065"
 ms.assetid: 4e1bade4-4ca2-4219-abc3-c7b2d741e157
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---

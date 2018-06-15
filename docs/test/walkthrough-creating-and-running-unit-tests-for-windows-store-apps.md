@@ -1,16 +1,17 @@
 ---
-title: "Creating and Running Unit Tests for UWP apps in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Creating and Running Unit Tests for UWP apps in Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: conceptual
+helpviewer_keywords:
   - "unit tests, creating"
   - "unit tests"
   - "unit tests, UWP apps"
   - "unit tests, running"
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "uwp"
 author: gewarren
 ---
@@ -39,11 +40,11 @@ The following procedures describe the steps to create, run and debug unit tests 
 
 6.  Leave the **Create directory for solution** option selected and choose the **OK** button.
 
-     ![Tailored Unit Test Library](../test/media/unit_test_win8_1.png "Unit_Test_Win8_1")
+     ![Tailored Unit Test Library](../test/media/unit_test_win8_1.png)
 
      Solution Explorer is populated with the UWP unit test project, and the code editor displays the default unit test titled UnitTest1.
 
-     ![New tailored unit test project](../test/media/unit_test_win8_unittestexplorer_newprojectcreated.png "Unit_Test_Win8_UnitTestExplorer_NewProjectCreated")
+     ![New tailored unit test project](../test/media/unit_test_win8_unittestexplorer_newprojectcreated.png)
 
 ## Edit the unit test project's UWP application manifest file
 
@@ -93,7 +94,7 @@ In the Code Editor, edit the unit test and add the asserts and logic required fo
     >
     > Additionally, you can choose to **Debug Selected Tests**, **Open Test**, and use the **Properties** option.
     >
-    > ![Unit Test Explorer &#45; uni test context menu](../test/media/unit_test_win8_unittestexplorer_contextmenu.png "Unit_Test_Win8_UnitTestExplorer_ContextMenu")
+    > ![Unit Test Explorer &#45; uni test context menu](../test/media/unit_test_win8_unittestexplorer_contextmenu.png)
 
     The unit test runs. Upon completion, Test Explorer displays the test status, elapsed time and provides a link to the source.
 

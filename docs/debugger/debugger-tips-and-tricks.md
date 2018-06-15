@@ -1,22 +1,18 @@
 ---
-title: "Tips and Tricks in the Visual Studio Debugger | Microsoft Docs"
+title: "Tips and Tricks in the Visual Studio Debugger"
+description: Learn productivity tips for the Visual Studio debugger
 ms.custom: ""
 ms.date: "06/15/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "stepping"
   - "debugging [Visual Studio], execution control"
   - "execution, controlling in debugger"
 ms.assetid: 5262d8b1-2648-429e-85d5-90fcaadfb362
-caps.latest.revision: 2
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

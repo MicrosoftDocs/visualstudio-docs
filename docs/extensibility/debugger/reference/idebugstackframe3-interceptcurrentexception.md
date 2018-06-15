@@ -2,21 +2,17 @@
 title: "IDebugStackFrame3::InterceptCurrentException | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugStackFrame3::InterceptCurrentException"
 helpviewer_keywords: 
   - "IDebugStackFrame3::InterceptCurrentException"
 ms.assetid: 116c7324-7645-4c15-b484-7a5cdd065ef5
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -1,7 +1,7 @@
 ---
-title: "Editing Load Test Scenarios in Visual Studio | Microsoft Docs"
-ms.date: "10/03/2016"
-ms.topic: "article"
+title: "Editing Load Test Scenarios in Visual Studio"
+ms.date: 10/03/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, scenarios"
   - "load tests, user activities"
@@ -9,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: fec04f2e-bf38-4d44-b2ec-fa50f58fd0d9
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Edit Load Test Scenarios
@@ -26,9 +27,8 @@ Any initial configuration options and settings that you specify when you create 
 
 Scenarios contain the following components:
 
-|||
-|-|-|
 |Term|Definition|
+|-|-|
 |Browser Mix|Simulates that virtual users access a Web site through a variety of Web browsers.|
 |Load Pattern|Specifies the number of virtual users that are active during a load test, and the rate at which new users are started. For example: step, constant, and goal-based.|
 |Test Mix Model|Specifies the probability of a virtual user running a given test in a load test scenario. For example: 20% chance to run TestA and 80% chance to run TestB. The test mix model should reflect the objectives of your test for a particular scenario.|

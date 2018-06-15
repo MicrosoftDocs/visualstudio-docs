@@ -2,21 +2,16 @@
 title: ".NET Framework Usage Performance Rules | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: ab573755-6370-48aa-853d-a7321c424c79
-caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# .NET Framework Usage Performance Rules
+# .NET Framework usage performance rules
 Performance rules in the.NET Framework Usage category identify specific methods that can be optimized and also identify more general usage patterns, such as garbage collection and lock contention, that can be investigated for performance issues.  
   
 |||  
@@ -33,6 +28,6 @@ Performance rules in the.NET Framework Usage category identify specific methods 
 |[DA0021: High rate of Gen 1 garbage collections](../profiling/da0021-high-rate-of-gen-1-garbage-collections.md)|A relatively high number of .NET memory objects are being reclaimed in generation 1 garbage collection. If too many short-lived objects survive generation 0 collection, the cost of memory management can easily become excessive.|  
 |[DA0022: High rate of Gen 2 garbage collections](../profiling/da0022-high-rate-of-gen-2-garbage-collections.md)|A high number of .NET memory objects are being reclaimed in generation 2 garbage collection. If too many short-lived objects survive generation 1 collection, the cost of memory management can easily become excessive. This rule fires when the rate of lock contentions exceeds the upper threshold value of rule DA0005.|  
 |[DA0023: High GC CPU time](../profiling/da0023-high-gc-cpu-time.md)|System performance data that is collected during profiling indicates that the amount of time that is spent in garbage collection is significant compared with the total application processing time.|  
-|[DA0024: Excessive GC CPU Time](../profiling/da0024-excessive-gc-cpu-time.md)|System performance data that is collected during profiling indicates that the amount of time that is spent in garbage collection is excessively high compared with the total application processing time. This rule fires when the amount of time spent in garbage collection exceeds the upper threshold value of rule DA0023.|  
-|[DA0038: High Rate of Lock contentions](../profiling/da0038-high-rate-of-lock-contentions.md)|System performance data that is collected with the profiling data indicates that a significantly high rate of lock contentions occurred during application execution. Consider profiling again using the concurrency profiling method to find the cause of the contentions.|  
-|[DA0039: Very High Rate of Lock contentions](../profiling/da0039-very-high-rate-of-lock-contentions.md)|System performance data that is collected with the profiling data indicates that an excessively high rate of lock contentions occurred during application execution. Consider profiling again using the concurrency profiling method to find the cause of the contentions. This rule fires when the rate of lock contentions exceeds the upper threshold value of rule DA0038.|
+|[DA0024: Excessive GC CPU time](../profiling/da0024-excessive-gc-cpu-time.md)|System performance data that is collected during profiling indicates that the amount of time that is spent in garbage collection is excessively high compared with the total application processing time. This rule fires when the amount of time spent in garbage collection exceeds the upper threshold value of rule DA0023.|  
+|[DA0038: High rate of lock contentions](../profiling/da0038-high-rate-of-lock-contentions.md)|System performance data that is collected with the profiling data indicates that a significantly high rate of lock contentions occurred during application execution. Consider profiling again using the concurrency profiling method to find the cause of the contentions.|  
+|[DA0039: Very high rate of lock contentions](../profiling/da0039-very-high-rate-of-lock-contentions.md)|System performance data that is collected with the profiling data indicates that an excessively high rate of lock contentions occurred during application execution. Consider profiling again using the concurrency profiling method to find the cause of the contentions. This rule fires when the rate of lock contentions exceeds the upper threshold value of rule DA0038.|

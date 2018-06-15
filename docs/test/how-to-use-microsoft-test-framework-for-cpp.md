@@ -1,11 +1,12 @@
 ---
-title: "Use the Microsoft Unit Testing Framework for C++ in Visual Studio | Microsoft Docs"
-ms.date: "11/15/2017"
+title: "Use the Microsoft Unit Testing Framework for C++ in Visual Studio"
+ms.date: 11/15/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 ms.author: mblome
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "cplusplus"
 author: mikeblome
 ---
@@ -25,7 +26,7 @@ In some cases, for example when testing non-exported functions in a DLL, you mig
 
     3.  Click on the down arrow in the following rows and choose **<Edit>** :
 
-        |||
+        |Directory|Property|
         |-|-|
         |**Include Directories**|**$(VCInstallDir)UnitTest\include;$(IncludePath)**|
         |**Library Directories**|**$(VCInstallDir)UnitTest\lib;$(LibraryPath)**|
@@ -49,7 +50,7 @@ Use the static methods in the [Assert](microsoft-visualstudio-testtools-cppunitt
 2.  In Test Explorer, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
 3. In the **Output Window** choose **Tests** in the drop down to view messages written out by the `Logger` class:
 
-  ![C++ Output Window showing test messages](media/cpp-test-output-window.png "Output window")
+  ![C++ Output Window showing test messages](media/cpp-test-output-window.png)
 
 ## Define traits to enable grouping
 You can define traits on test methods which enable you to categorize and group tests in **Test Explorer**. To define a trait, use the `TEST_METHOD_ATTRIBUTE` macro. For example, to define a trait named `TEST_MY_TRAIT`:
@@ -60,7 +61,7 @@ You can define traits on test methods which enable you to categorize and group t
 
  To use the defined trait in your unit tests:
 
-```
+```cpp
 BEGIN_TEST_METHOD_ATTRIBUTE(Method1)
     TEST_OWNER(L"OwnerName")
     TEST_PRIORITY(1)

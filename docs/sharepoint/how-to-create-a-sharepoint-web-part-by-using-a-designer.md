@@ -2,12 +2,9 @@
 title: "How to: Create a SharePoint Web Part by Using a Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,16 +16,16 @@ helpviewer_keywords:
   - "Web Parts [SharePoint development in Visual Studio], creating"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Create a SharePoint Web Part by Using a Designer
+# How to: Create a SharePoint Web Part by using a designer
   You can create a web part by adding a **Visual Web Part** item to any SharePoint project. This opens the Visual Web Developer designer in Visual Studio where you can add controls and code to the web part. Visual web parts function the same way as web parts do. The only difference is that you design visual web parts in the Visual Web Developer designer.  
   
 ### To create a project for visual web parts  
   
-1.  On the menu bar, choose **File**, **New**, **Project**.  
+1.  On the menu bar, choose **File** >**New** > **Project**.  
   
      The **New Project** dialog box opens.  
   
@@ -44,7 +41,7 @@ ms.workload:
   
 ### To add a visual web part to an existing SharePoint project  
   
-1.  On the menu bar, choose **Project**, **Add New Item**.  
+1.  On the menu bar, choose **Project** > **Add New Item**.  
   
 2.  In the **Add New Item** dialog box, choose the **Office/SharePoint** node.  
   
@@ -52,7 +49,7 @@ ms.workload:
   
      In **Solution Explorer**, your web part appears. After designing the web part in the Visual Web Developer designer, you'll test it on the site that you specify.  
   
-## See Also  
+## See also
  [Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)   
  [How to: Create a SharePoint Web Part](../sharepoint/how-to-create-a-sharepoint-web-part.md)   
  [Walkthrough: Creating a Web Part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)   

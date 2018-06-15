@@ -1,13 +1,9 @@
 ---
-title: "Resources for Troubleshooting Integrated Development Environment Errors | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Resources for Troubleshooting Integrated Development Environment Errors
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: troubleshooting
 f1_keywords:
   - "VS.Message.0x00005A89"
   - "VS.Message.0x00005A8E"
@@ -94,9 +90,9 @@ f1_keywords:
   - "VB_E_TERRCLASSNOTREG"
   - "vs.webclient.help.general"
 ms.assetid: 8f866eb5-a206-4c16-807e-96a0f2c0e645
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---
@@ -118,6 +114,6 @@ You can access forums, blogs, chats, and other resources on the [Microsoft Techn
 
 If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Support](http://go.microsoft.com/fwlink/?linkid=1782) Web site. For information about product support available in your area, see [Talk to Us](../../ide/talk-to-us.md).
 
- ## See also
+## See also
 
-* [Troubleshooting proxy errors](/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server#troubleshooting-proxy-errors)
+* [Troubleshoot network-related or proxy errors](../../install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md#troubleshoot-network-related-errors)

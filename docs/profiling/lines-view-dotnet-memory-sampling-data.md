@@ -2,23 +2,18 @@
 title: "Lines View - .NET Memory Sampling Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Lines view"
 ms.assetid: 6631ab87-0e62-4c76-a063-4ea7222b07da
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# Lines View - .NET Memory Sampling Data
+# Lines View - .NET Memory sampling data
 The Lines view for .NET memory allocation profiling data that uses the sampling method lists the statements that allocated memory during the profiling run. The columns also include the size and number of allocations.  
   
  In a source file, a statement can span more than one line in a source file, and a single line can include more than one statement.  
@@ -61,5 +56,5 @@ The Lines view for .NET memory allocation profiling data that uses the sampling 
 |**Exclusive Bytes**|The percentage of all bytes of memory that were allocated in the profiling run that were allocated in this line.|  
 |**Exclusive Bytes %**|The percentage of all bytes of memory that were allocated in the profiling run that were allocated in this line.|  
   
-## See Also  
+## See also  
  [Lines View](../profiling/lines-view-sampling-data.md)

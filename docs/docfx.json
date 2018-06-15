@@ -37,22 +37,23 @@
       "feedback_product_url": "https://developercommunity.visualstudio.com/",
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
       "ROBOTS": "INDEX,FOLLOW",
-      "author": "",
-      "ms.author": "",
-      "manager": "ghogen",
+      "author": "erickson-doug",
+      "ms.author": "douge",
+      "manager": "douge",
       "ms.date": "11/16/2016",
-      "ms.topic": "article",
+      "ms.topic": "conceptual",
       "audience": "developer",
-      "ms.reviewer": "",
+      "defaultDevLang": "csharp",
       "ms.prod": "visual-studio-dev15",
-      "ms.technology": "vs-ide-general",
-      "ms.tgt_pltfrm": "dotnet",
       "searchScope": ["VS IDE"],
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
-      "titleSuffix": "Visual Studio"
+      "titleSuffix": "Visual Studio",
+      "featureFlags": [
+        "enable_uhf_ppe"
+      ]
     },
     "template": [],
-    "xref": ["missingapi.yml", "../dotnet-xref/_zip/dotnet.zip", "vs.140.zip"],
+    "xref": ["missingapi.yml", "vs.140.zip"],
     "dest": "vsdocsdocs"
   }
 }

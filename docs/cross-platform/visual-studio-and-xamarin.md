@@ -2,13 +2,9 @@
 title: "Visual Studio and Xamarin | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/30/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-mobile
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 1da4064f-af69-472c-8f31-98484be5f790
-caps.latest.revision: 10
 author: charlespetzold
 ms.author: chape
 manager: crdun
@@ -30,7 +26,7 @@ This documentation helps you evaluate the full power of **Visual Studio with Xam
   
 -   Once installation is complete, [Verify your Xamarin environment](../cross-platform/verify-your-xamarin-environment.md).  
   
--   Finish by going through the tutorial [Learn app-building basics with Xamarin.Forms in Visual Studio](/learn-app-building-basics-with-xamarin-forms-in-visual-studio.md).  
+-   Finish by going through the tutorial [Learn app-building basics with Xamarin.Forms in Visual Studio](learn-app-building-basics-with-xamarin-forms-in-visual-studio.md).  
   
 You can work with all Xamarin features using [any edition of Visual Studio 2017](https://www.visualstudio.com/vs) (Community, Professional, and Enterprise). No separate license is required.  
   

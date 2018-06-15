@@ -1,26 +1,29 @@
 ---
-title: "RemoveFromCollection&lt;T&gt; Activity Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - RemoveFromCollection&lt;T&gt; Activity Designer"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "System.Activities.Statements.RemoveFromCollection`1.UI"
 ms.assetid: 6617ba26-c8bc-4aed-b746-112bf490d288
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
-# RemoveFromCollection&lt;T&gt; Activity Designer
+# RemoveFromCollection\<T> Activity Designer
+
 The **RemoveFromCollection\<T>** activity designer is used to create and configure a <xref:System.Activities.Statements.RemoveFromCollection%601> activity.
 
-## The RemoveFromCollection<T\> Activity
+## The RemoveFromCollection\<T>Activity
  The <xref:System.Activities.Statements.RemoveFromCollection%601> activity removes a specified item from a particular collection.
 
 ### Using the RemoveFromCollection\<T> Activity Designer
- The **RemoveFromCollection\<T>** activity designer can be found in the **Collection** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
+ The **RemoveFromCollection\<T>** activity designer can be found in the **Collection** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on Workflow Designer (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
 
- The **RemoveFromCollection\<T>** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.RemoveFromCollection%601> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of RemoveFromCollection<Int32\>. The <xref:System.Activities.Activity.DisplayName%2A> value can be edited in the header of the **RemoveFromCollection<T\>** activity designer or in the **DisplayName** box of the property grid. The other properties must be edited on the property grid.
+ The **RemoveFromCollection\<T>** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.RemoveFromCollection%601> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of RemoveFromCollection<Int32\>. The <xref:System.Activities.Activity.DisplayName%2A> value can be edited in the header of the **RemoveFromCollection<T\>** activity designer or in the **DisplayName** box of the property grid. The other properties must be edited on the property grid.
 
 ### The RemoveFromCollection<T\> Properties
  The following table shows the <xref:System.Activities.Statements.RemoveFromCollection%601> properties and describes how they are used in the designer.

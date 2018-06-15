@@ -2,17 +2,13 @@
 title: "Ngen support in VSIX v3 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/09/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 1472e884-c74e-4c23-9d4a-6d8bdcac043b
-caps.latest.revision: 1
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,21 +2,17 @@
 title: "IDebugEngine2::SetException | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngine2::SetException"
 helpviewer_keywords: 
   - "IDebugEngine2::SetException"
 ms.assetid: e6f5ec48-09e8-4b9b-9dc9-55f8d883f1b7
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

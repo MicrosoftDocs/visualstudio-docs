@@ -1,13 +1,10 @@
 ---
-title: "How to: Install Office Primary Interop Assemblies | Microsoft Docs"
+title: "How to: Install Office primary interop assemblies"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,14 +13,14 @@ helpviewer_keywords:
   - "Office primary interop assemblies, installing"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Install Office Primary Interop Assemblies
+# How to: Install Office primary interop assemblies
   Install the Microsoft Office primary interop assemblies (PIAs) when you install Office.  
   
-### To install the PIAs when you install Office  
+## To install the PIAs when you install Office  
   
 1.  Ensure that you have a version of the .NET Framework that is no older than 2.0.  
   
@@ -32,12 +29,12 @@ ms.workload:
     > [!WARNING]  
     >  By default, PIA's are embedded in your solution when you build it so you don't have to distribute PIAs to users as a prerequisite to using your VSTO Add-in or customization.  
   
-## See Also  
- [Office Primary Interop Assemblies](../vsto/office-primary-interop-assemblies.md)   
- [How to: Target Office Applications Through Primary Interop Assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)   
- [How to: Configure a Computer to Develop Office Solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)   
- [How to: Install the Visual Studio Tools for Office Runtime Redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md)   
- [Office Solutions Development Overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)   
- [Getting Started &#40;Office Development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)  
+## See also  
+ [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md)   
+ [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)   
+ [How to: Configure a computer to develop Office solutions](../vsto/how-to-configure-a-computer-to-develop-office-solutions.md)   
+ [How to: Install the Visual Studio Tools for Office runtime redistributable](../vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable.md)   
+ [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md)   
+ [Get started &#40;Office development in Visual Studio&#41;](../vsto/getting-started-office-development-in-visual-studio.md)  
   
   

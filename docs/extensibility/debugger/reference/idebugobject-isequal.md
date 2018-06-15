@@ -2,21 +2,17 @@
 title: "IDebugObject::IsEqual | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugObject::IsEqual"
 helpviewer_keywords: 
   - "IDebugObject::IsEqual method"
 ms.assetid: 4b76e663-ef2e-41ff-9be1-bf26d666a34a
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

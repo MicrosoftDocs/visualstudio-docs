@@ -1,14 +1,11 @@
 ---
-title: "Troubleshooting network-related errors when you install or use Visual Studio | Microsoft Docs"
-description: ""
+title: "Troubleshooting network-related errors when you install or use Visual Studio"
+description: "Find solutions for network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server."
 ms.custom: ""
-ms.date: "02/12/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "conceptual"
+ms.date: 02/12/2018
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: troubleshooting
 helpviewer_keywords:
   - "network installation, Visual Studio"
   - "administrator guide, Visual Studio"
@@ -16,21 +13,21 @@ helpviewer_keywords:
   - "list of domains, locations, URLs, Visual Studio"
   - "proxy errors, Visual Studio"
 ms.assetid:
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
 ---
-
 # Troubleshooting network-related errors when you install or use Visual Studio
+
 We've got solutions for the most typical network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server.
 
 ## Error: “Proxy authorization required”
 
 This error generally occurs when users are connected to the internet through a proxy server, and the proxy server blocks the calls that Visual Studio makes to some network resources.
 
-### To fix this error:
+### To fix this proxy error
 
 - Restart Visual Studio. A proxy authentication dialog box should appear. Enter your credentials when prompted in the dialog.
 
@@ -76,7 +73,7 @@ If you are using Visual Studio in a private network that has a firewall, Visual 
 
 Visual Studio uses Transport Layer Security (TLS) 1.2 protocol to connect to network resources. Security appliances on some private networks block certain server connections when Visual Studio uses TLS 1.2.
 
-### To fix this error:
+### To fix this connection error
 
 Enable connections for the following URLs:
 
@@ -109,17 +106,19 @@ Enable connections for the following URLs:
  > [!NOTE]
  > Privately owned NuGet server URLs may not be included in this list. You can check for the NuGet servers that you are using in %APPData%\Nuget\NuGet.Config.
 
-
 ## Get support
+
 If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the installation troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
 
 Here are a few more support options:
+
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
-* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
+* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
+* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
+
 * [Install and use Visual Studio behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
 * [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
 * [Install Visual Studio 2017](install-visual-studio.md)

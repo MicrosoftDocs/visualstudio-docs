@@ -3,17 +3,15 @@ title: "Extending the Object Model of the Base Project | Microsoft Docs"
 ms.date: 03/22/2018
 ms.technology:
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "automation object model, extending"
   - "project subtypes, extending automation object model"
   - "automation object model"
 ms.assetid: 2f95cc53-dff6-476c-bacd-500fb0ff7725
-caps.latest.revision: 17
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload:
   - "vssdk"
 ---

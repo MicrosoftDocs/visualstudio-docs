@@ -2,21 +2,17 @@
 title: "IEnumDebugObjects::Skip | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugObjects::Skip"
 helpviewer_keywords: 
   - "IEnumDebugObjects::Skip method"
 ms.assetid: 957cead8-0a9c-4403-b190-b9fbadc49d42
-caps.latest.revision: 4
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

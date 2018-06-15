@@ -2,17 +2,12 @@
 title: "ProcessOn and ProcessOff | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: d3dc6a7e-bc0f-48a6-a4ec-f386348bb296
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -33,14 +28,14 @@ The VSPerfCmd.exe **ProcessOff** and **ProcessOn** subcommands pause and resume 
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /{ProcessOff|ProcessOn}:PID [Options]  
   
 ```  
   
 #### Parameters  
  `PID`  
- The integer identifier of the process to start or stop. Process IDs are listed on the Process tab of Windows Task Manager.  
+ The integer identifier of the process to start or stop. Process IDs are listed on the **Process** tab of Windows Task Manager.  
   
 ## Required Subcommands  
  None  
@@ -66,7 +61,7 @@ VSPerfCmd.exe /{ProcessOff|ProcessOn}:PID [Options]
 ## Example  
  In this example, the **ProcessOff** subcommand is used to collect profiling data for application startup.  
   
-```  
+```cmd  
 ; Initialize the profiler.  
 VSPerfCmd.exe /Start:Trace /Output:Instrument.vsp   
 ; Start the instrumented application.  
@@ -78,8 +73,8 @@ VSPerfCmd /Shutdown
   
 ```  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)
+ [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profile services](../profiling/command-line-profiling-of-services.md)

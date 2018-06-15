@@ -2,19 +2,15 @@
 title: "MSBuild Best Practices | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "best practices, MSBuild"
   - "MSBuild, best practices"
 ms.assetid: 90ef8693-e921-410a-a377-fe4d13f58c48
-caps.latest.revision: 5
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

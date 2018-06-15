@@ -2,16 +2,12 @@
 title: "Visual Studio Emulator for Android | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/17/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-mobile
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 80f0104f-a4db-44dd-bd55-37bb67776c62
-caps.latest.revision: 5
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

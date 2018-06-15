@@ -2,21 +2,17 @@
 title: "IEnumDebugFrameInfo2::Next | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugFrameInfo2::Next"
 helpviewer_keywords: 
   - "IEnumDebugFrameInfo2::Next"
 ms.assetid: 64a64eeb-5dea-4119-8a22-03771015d1e5
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

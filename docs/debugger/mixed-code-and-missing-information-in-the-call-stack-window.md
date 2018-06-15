@@ -2,12 +2,8 @@
 title: "Mixed Code and Missing Information in the Call Stack Window | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -24,10 +20,9 @@ helpviewer_keywords:
   - "mixed-mode debugging, call stack"
   - "stepping, out of managed code"
 ms.assetid: dd628427-e8d6-4fc2-b524-9d6393ea5376
-caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

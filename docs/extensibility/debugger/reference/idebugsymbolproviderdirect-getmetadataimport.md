@@ -2,20 +2,16 @@
 title: "IDebugSymbolProviderDirect::GetMetaDataImport | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "GetMetaDataImport"
   - "IDebugSymbolProviderDirect::GetMetaDataImport"
 ms.assetid: b51a492c-af00-4b08-93fb-6c19ee4916aa
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

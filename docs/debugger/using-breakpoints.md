@@ -2,12 +2,8 @@
 title: "Use Breakpoints in the Debugger in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "02/07/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.breakpointswin"
   - "vs.debug.disassembly.insert"
@@ -35,10 +31,9 @@ f1_keywords:
 helpviewer_keywords: 
   - "breakpoints, about breakpoints"
 ms.assetid: 020b2e97-3b3e-4b2c-872d-b5c6025e120e
-caps.latest.revision: 57
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -248,8 +243,7 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
 |**$PNAME**|Process name|  
 |**$TID**|Thread id|  
 |**$TNAME**|Thread name|  
-|**$TICK**||  
-|**$TNAME**||  
+|**$TICK**|Tick count (from Windows `GetTickCount`)|  
   
 ##  <a name="BKMK_Set_a_breakpoint_at_a_function_return_in_the_Call_Stack_window"></a> Breakpoint labels  
  Breakpoint labels are used only in the **Breakpoints** window to sort and filter the list of breakpoints. To add a label to a breakpoint, choose the breakpoint row and then choose **Label** on the context menu.  

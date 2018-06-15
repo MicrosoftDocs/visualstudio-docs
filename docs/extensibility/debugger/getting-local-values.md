@@ -2,21 +2,17 @@
 title: "Getting Local Values | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "expression evaluation, local values"
   - "debugging [Debugging SDK], local values"
   - "expression evaluation, getting local values"
 ms.assetid: a10b0764-65ac-476f-bf42-b4a9c38e20de
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

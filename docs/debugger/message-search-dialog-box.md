@@ -2,19 +2,14 @@
 title: "Message Search Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 helpviewer_keywords: 
   - "message options, Search"
 ms.assetid: 44fb43b7-b006-46cc-a70c-036aac3cceec
-caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

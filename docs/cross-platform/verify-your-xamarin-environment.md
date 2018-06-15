@@ -2,10 +2,7 @@
 title: "Verify your Xamarin environment | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/30/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: fd39882e-06d1-4b39-80d2-4d07b6e4f8f5
 ms.technology: vs-ide-mobile
 author: charlespetzold

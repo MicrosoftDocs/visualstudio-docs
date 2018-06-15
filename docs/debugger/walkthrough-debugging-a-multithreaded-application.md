@@ -2,12 +2,8 @@
 title: "View Threads in the Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/25/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.threads"
 dev_langs: 
@@ -24,10 +20,9 @@ helpviewer_keywords:
   - "@TIB"
   - "debugging [Visual Studio], threads"
 ms.assetid: 590ffd57-0556-43d8-8962-ee27e5b2b7d7
-caps.latest.revision: 44
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -76,7 +71,7 @@ In the **Threads** window, you can examine and work with threads in the applicat
 ## Freeze and Thaw Threads  
  When you freeze a thread, the system will not start execution of the thread even if resources are available.  
   
- In native code, you can suspend or resume threads by calling the Windows functions `SuspendThread` and `ResumeThread` or the MFC functions [CWinThread::SuspendThread](/cpp/mfc/reference/CWinThread-class.md#cwinthread__suspendthread) and [CWinThread::ResumeThread](/cpp/mfc/reference/CWinThread-class.md#cwinthread__resumethread). If you call `SuspendThread` or `ResumeThread`, you change the *suspended count*, which appears in the **Threads** window. However, if you freeze or thaw a native thread, you do not change the suspended count. In native code, a thread cannot execute unless it is thawed and has a suspended count of zero.  
+ In native code, you can suspend or resume threads by calling the Windows functions `SuspendThread` and `ResumeThread` or the MFC functions [CWinThread::SuspendThread](/cpp/mfc/reference/CWinThread-class#suspendthread) and [CWinThread::ResumeThread](/cpp/mfc/reference/CWinThread-class#resumethread). If you call `SuspendThread` or `ResumeThread`, you change the *suspended count*, which appears in the **Threads** window. However, if you freeze or thaw a native thread, you do not change the suspended count. In native code, a thread cannot execute unless it is thawed and has a suspended count of zero.  
   
  In managed code, freezing or thawing a thread does change the suspended count. In managed code, a frozen thread has a suspended count of 1. In native code, a frozen thread has a suspended count of 0 unless the thread has been suspended by a `SuspendThread` call.  
   

@@ -2,12 +2,9 @@
 title: "How to: Deploy, Publish, and Upgrade SharePoint Solutions on a Remote Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -18,18 +15,18 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deploying"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Deploy, Publish, and Upgrade SharePoint Solutions on a Remote Server
-  In addition to deploying SharePoint solutions to the local system, you can publish sandboxed SharePoint solutions to remote sites or local SharePoint sites. The remote publishing process copies the .wsp file to the SharePoint server, installs the solution, and then enables you to activate the solution. You can also upgrade a remote SharePoint solution installation after changes are made to it.  
+# How to: Deploy, publish, and upgrade SharePoint solutions on a remote server
+  In addition to deploying SharePoint solutions to the local system, you can publish sandboxed SharePoint solutions to remote sites or local SharePoint sites. The remote publishing process copies the *.wsp* file to the SharePoint server, installs the solution, and then enables you to activate the solution. You can also upgrade a remote SharePoint solution installation after changes are made to it.  
   
 ## To publish a sandboxed SharePoint solution to a remote SharePoint server  
   
 1.  In **Solution Explorer**, open the shortcut menu for the sandboxed SharePoint project that you want to publish, and then choose **Publish**.  
   
-2.  In the **Publish** dialog box, choose the **Publish to SharePoint Site** option button, and then enter a URL for an online publishing site, such as the following example: **https://mytestsite.sharepoint.microsoftonline.com**.  
+2.  In the **Publish** dialog box, choose the **Publish to SharePoint Site** option button, and then enter a URL for an online publishing site, such as: `https://mytestsite.sharepoint.microsoftonline.com`.  
   
 3.  Choose the **Open the Solution Gallery page in the browser after publishing** option button to view the list of solutions in the **Solution Gallery** page after publishing.  
   
@@ -37,7 +34,7 @@ ms.workload:
   
 5.  Log on to the remote server if user authentication is required.  
   
-     The publishing progress appears in the Visual Studio **Output** window. When the process is finished, the solution (.wsp) file is installed on the remote SharePoint server. However, it must still be activated before it can be used in SharePoint.  
+     The publishing progress appears in the Visual Studio **Output** window. When the process is finished, the solution (*.wsp*) file is installed on the remote SharePoint server. However, it must still be activated before it can be used in SharePoint.  
   
 6.  On the **Solution Gallery** page, select the SharePoint application and then on the ribbon, choose the **Activate** button.  
   
@@ -74,10 +71,9 @@ ms.workload:
   
      The old version of the solution is deactivated, the new version of the solution is upgraded with data maintained from the old solution, and the new solution is activated in SharePoint.  
   
-## See Also  
+## See also
  [How to: Deploy and Publish a SharePoint Solution to a Local SharePoint Site](../sharepoint/how-to-deploy-and-publish-a-sharepoint-solution-to-a-local-sharepoint-site.md)   
  [Creating SharePoint Solution Packages](../sharepoint/creating-sharepoint-solution-packages.md)   
  [How to: Customize a SharePoint Solution Package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)   
  [How to: Add and Remove Features and Items to a Package by Using the Package Designer](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-package-designer.md)  
-  
   

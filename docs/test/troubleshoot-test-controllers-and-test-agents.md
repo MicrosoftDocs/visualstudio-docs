@@ -1,7 +1,7 @@
 ---
-title: "Troubleshooting Test Controllers and Test Agents in Visual Studio | Microsoft Docs"
-ms.date: "10/20/2016"
-ms.topic: "article"
+title: "Troubleshooting Test Controllers and Test Agents in Visual Studio"
+ms.date: 10/20/2016
+ms.topic: troubleshooting
 helpviewer_keywords:
   - "load tests, test controllers"
   - "load tests, troubleshooting"
@@ -10,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 77329348-3a5d-43de-b6cb-90f93296a081
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Strategies for Troubleshooting Test Controllers and Test Agents in Load Tests
@@ -22,7 +23,8 @@ This article covers some common problems you might encounter when you work with 
  When you run a load test, you might receive errors when you try to connect to a test agent computer and collect performance counters. The Remote Registry service is the service responsible for providing performance counter data to a remote computer. On some operating systems, the Remote Registry service does not start automatically. To fix this problem, manually start the Remote Registry service.
 
 > [!NOTE]
->  You can access the Remote Registry service in **Control Panel.** Choose **Administrative Tools** and then choose **Services**.
+> You can access the Remote Registry service in **Control Panel.** Choose **Administrative Tools** and then choose **Services**.
+
 
  Another cause of this problem is that you do not have sufficient permissions to read performance counters. For local test runs, the account of the user who is running the test must be a member of the Power Users group or higher, or be a member of the Performance Monitor Users group. For remote test runs, the account that the controller is configured to run as must be a member of the Power Users group or higher, or be a member of the Performance Monitor Users group.
 
@@ -37,7 +39,7 @@ This article covers some common problems you might encounter when you work with 
 
 3.  Edit the entry for the `EqtTraceLevel` switch in the system diagnostics section of the file. Your code should resemble this:
 
-    ```
+    ```xml
     <system.diagnostics>
         <trace autoflush="true" indentsize="4">
             <listeners>
@@ -82,7 +84,8 @@ This article covers some common problems you might encounter when you work with 
  This error can be caused by installing the test controller on a computer that has more than one network adapter.
 
 > [!NOTE]
->  It is also possible to install test agents successfully, and not see this problem until you try to run a test.
+> It is also possible to install test agents successfully, and not see this problem until you try to run a test.
+
 
  To fix this error, you must bind the test controller to one of the network adapters. You have to set the `BindTo` property on the test controller, and then change the test agent to refer to the test controller by IP address instead of by name. The steps are provided in the following procedures.
 
@@ -128,7 +131,7 @@ This article covers some common problems you might encounter when you work with 
 
 -   Run the test agent installation again. This time, specify the IP address for the test controller instead of the test controller name.
 
- This applies to the test controller, the test agent service, and the test agent process. The `BindTo` property must be set for each process that is running on a computer that has more than one network adapter. The procedure to set the `BindTo` property is the same for all three processes, as specified earlier for the test controller. To set the logging levels for the test agent service and the test agent process, use the configuration files that are listed in [Setting the Logging Level on a Test Controller Computer](#Logging).
+ This applies to the test controller, the test agent service, and the test agent process. The `BindTo` property must be set for each process that is running on a computer that has more than one network adapter. The procedure to set the `BindTo` property is the same for all three processes, as specified earlier for the test controller. To set the logging levels for the test agent service and the test agent process, use the configuration files that are listed in [Setting the Logging Level on a Test Controller Computer](#setting-the-logging-level-on-a-test-controller-computer).
 
 ## See also
 

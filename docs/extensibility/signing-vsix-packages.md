@@ -2,12 +2,9 @@
 title: "Signing VSIX Packages | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "signature"
   - "signing"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "vsix"
   - "packages"
 ms.assetid: e34cfc2c-361c-44f8-9cfe-9f2be229d248
-caps.latest.revision: 12
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,12 +2,8 @@
 title: "How to: Specify the Binary to Start | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.property.itemlaunch"
 helpviewer_keywords: 
@@ -16,11 +12,11 @@ helpviewer_keywords:
   - "performance sessions, launching"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Specify the Binary to Start
+# How to: Specify the binary to start
 
 To profile binaries, such as DLLs, you must enter information in the **\<Target> Property Pages** dialog box. This information indicates where the DLL project can find the calling application.
 
@@ -40,4 +36,4 @@ To profile binaries, such as DLLs, you must enter information in the **\<Target>
 
 ## See also
 
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)

@@ -1,24 +1,20 @@
 ---
-title: "Debug with managed code using the Visual Studio debugger | Microsoft Docs"
+title: "Debug managed code | Microsoft Docs"
+description: "Debug C# or Visual Basic using the Visual Studio debugger"
 ms.custom: "mvc"
 ms.date: "03/18/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: f4cea2e1-08dc-47ac-aba2-3b8c338e607f
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# Debug with managed code using the Visual Studio debugger
+# Quickstart: Debug with managed code using the Visual Studio debugger
 
 The Visual Studio debugger provides many powerful features to help you debug your apps. This topic provides a quick way to learn some of the basic features.
 
@@ -36,7 +32,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 4. In Program.cs or Module1.vb, replace the following code
 
-    ```c#
+    ```csharp
     class Program
     {
         static void Main(string[] args)
@@ -54,7 +50,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
     with this code:
 
-    ```c#
+    ```csharp
     class Program
     {
         private static void doWork()

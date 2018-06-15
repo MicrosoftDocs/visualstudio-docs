@@ -3,4 +3,4 @@ uhfHeaderId: MSDocsHeader-VisualStudio
 searchScope:
   - VS IDE
 breadcrumb_path: ./_breadcrumb/toc.yml
-toc_rel: ./toc.md
+toc_rel: ./toc.yml

@@ -1,11 +1,12 @@
 ---
-title: "Analyzing Coded UI Tests Using Coded UI Test Logs in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "Analyzing Coded UI Tests Using Coded UI Test Logs in Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -66,17 +67,17 @@ When you run a coded UI test with the modifications to the **QTAgent32.exe.confi
 
 4.  Choose the **Output** link in the Test Explorer results.
 
-     ![Output link in the Test Explorer](../test/media/cuit_htmlactionlog1.png "CUIT_HTMLActionLog1")
+     ![Output link in the Test Explorer](../test/media/cuit_htmlactionlog1.png)
 
      This displays the output for the test, which includes a link to the action log.
 
-     ![Results and output links from coded UI test](../test/media/cuit_htmlactionlog2.png "CUIT_HTMLActionLog2")
+     ![Results and output links from coded UI test](../test/media/cuit_htmlactionlog2.png)
 
 5.  Choose the *UITestActionLog.html* link.
 
      The log is displayed in your web browser.
 
-     ![Coded UI test log file](../test/media/cuit_htmlactionlog3.png "CUIT_HTMLActionLog3")
+     ![Coded UI test log file](../test/media/cuit_htmlactionlog3.png)
 
 ## See also
 

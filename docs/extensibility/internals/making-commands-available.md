@@ -3,18 +3,16 @@ title: "Making Commands Available | Microsoft Docs"
 ms.date: 03/22/2018
 ms.technology:
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "menus [Visual Studio SDK], commands"
   - "best practices, menu and toolbar commands"
   - "toolbars [Visual Studio], best practices"
   - "menu commands, best practices"
 ms.assetid: 3ffc4312-c6db-4759-a946-a4bb85f4a17a
-caps.latest.revision: 35
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload:
   - "vssdk"
 ---

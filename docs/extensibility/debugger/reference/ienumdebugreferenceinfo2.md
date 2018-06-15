@@ -2,21 +2,17 @@
 title: "IEnumDebugReferenceInfo2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugReferenceInfo2"
 helpviewer_keywords: 
   - "IEnumDebugReferenceInfo2"
 ms.assetid: 7ed01441-686f-4032-8268-a4c750f19f85
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

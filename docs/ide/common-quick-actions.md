@@ -1,11 +1,12 @@
 ---
-title: "Common Quick Actions | Microsoft Docs"
+title: Common Quick Actions
 ms.date: 03/28/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 author: "kuhlenh"
 ms.author: "kaseyu"
-manager: ghogen
+manager: douge
 dev_langs:
   - CSharp
   - VB
@@ -14,13 +15,17 @@ ms.workload:
 ---
 # Common Quick Actions
 
-The sections in this topic list some of the common Quick Actions that are applicable to both C# and Visual Basic code. These actions are *code fixes* for the built-in [analyzer rules](../code-quality/roslyn-analyzers-overview.md) in Visual Studio.
+The sections in this topic list some of the common **Quick Actions** that are applicable to both C# and Visual Basic code. These actions are *code fixes* for either compiler diagnostics, or the built-in [.NET Compiler Platform analyzers](../code-quality/roslyn-analyzers-overview.md) in Visual Studio.
 
 ## Actions that fix errors
 
+The Quick Actions in this section fix errors in code that would cause a build to fail. When Quick Actions are available to fix an error on a line of code, the icon that's displayed in the margin or underneath the red squiggle is a light bulb with a red 'x' on it.
+
+![Quick Actions error icon and menu](media/error-light-bulb-with-code.png)
+
 ### Correct misspelled symbol or keyword
 
-If you accidentally misspell a type or keyword in Visual Studio, this Quick Action will automatically correct it for you. You'll see these items in the light bulb menu as **"Change '*misspelled word*' to '*correct word*'**.  For example:
+If you accidentally misspell a type or keyword in Visual Studio, this Quick Action automatically corrects it for you. You'll see these items in the light bulb menu as **"Change '*misspelled word*' to '*correct word*'**.  For example:
 
 ```csharp
 // Before
@@ -88,44 +93,6 @@ private void MyMethod()
 |  Error ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS8300, BC37284  | C# and Visual Basic | Visual Studio 2017 version 15.3 |
-
-### Make method synchronous
-
-When using the `async` or `Async` keyword on a method, it is expected that somewhere inside that method the `await` or `Await` keyword will also be used.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method synchronous by removing the `async` or `Async` keyword and changing the return type. Use the **Make method synchronous** option from the Quick Actions menu.
-
-```csharp
-// Before
-async Task<int> MyAsyncMethod()
-{
-    return 3;
-}
-
-// Make method synchronous
-
-// After
-int MyAsyncMethod()
-{
-    return 3;
-}
-```
-
-```vb
-' Before
-Async Function MyAsyncMethod() As Task(Of Integer)
-    Return 3
-End Function
-
-' Make method synchronous
-
-' After
-Function MyAsyncMethod() As Integer
-    Return 3
-End Function
-```
-
-|  Error ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| CS1998, BC42356 | C# and Visual Basic | Visual Studio 2015 Update 2 |
 
 ### Make method asynchronous
 
@@ -948,6 +915,44 @@ Console.WriteLine($"{x} {y}");
 | ------- | -------------------- | ----------------  |
 | IDE0042 | C# 7.0+ | Visual Studio 2017 v. 15.5 |
 
+### Make method synchronous
+
+When using the `async` or `Async` keyword on a method, it is expected that somewhere inside that method the `await` or `Await` keyword will also be used.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method synchronous by removing the `async` or `Async` keyword and changing the return type. Use the **Make method synchronous** option from the Quick Actions menu.
+
+```csharp
+// Before
+async Task<int> MyAsyncMethod()
+{
+    return 3;
+}
+
+// Make method synchronous
+
+// After
+int MyAsyncMethod()
+{
+    return 3;
+}
+```
+
+```vb
+' Before
+Async Function MyAsyncMethod() As Task(Of Integer)
+    Return 3
+End Function
+
+' Make method synchronous
+
+' After
+Function MyAsyncMethod() As Integer
+    Return 3
+End Function
+```
+
+|  Error ID | Applicable Languages |  Supported Version |
+| ------- | -------------------- | ----------------  |
+| CS1998, BC42356 | C# and Visual Basic | Visual Studio 2015 Update 2 |
+
 ## See also
 
-[Quick Actions](../ide/quick-actions.md)
+- [Quick Actions](../ide/quick-actions.md)

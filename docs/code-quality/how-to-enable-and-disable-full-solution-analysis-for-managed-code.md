@@ -1,12 +1,13 @@
 ---
-title: "How to: Enable and Disable Full Solution Analysis for Managed Code | Microsoft Docs"
+title: "How to: Enable and Disable Full Solution Analysis for Managed Code"
 ms.date: 03/23/2018
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "full solution analysis"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.workload:
   - "dotnet"

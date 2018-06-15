@@ -2,12 +2,8 @@
 title: ".NET Memory Allocations View | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.performance.view.allocation"
 helpviewer_keywords: 
@@ -16,10 +12,9 @@ helpviewer_keywords:
   - "profiling tools, Allocation view"
   - "profiling tools reports, Allocation view"
 ms.assetid: 01eb876e-c413-4516-977b-4f896929e8a6
-caps.latest.revision: 27
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -34,7 +29,7 @@ The Allocations view lists the types that were created during the profiling run.
   
  The data for a function displays the number of objects created and the number of bytes allocated for objects of the parent type.  
   
-## Highlighting the Execution Hot Path  
+## Highlight the execution hot path  
  You can find the execution path of the call tree  that created the most objects of the parent type.  
   
 -   To display the most active path, right-click the type or function, and then click **Expand Hot Path**.  

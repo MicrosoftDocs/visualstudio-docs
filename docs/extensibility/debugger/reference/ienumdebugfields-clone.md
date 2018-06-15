@@ -2,21 +2,17 @@
 title: "IEnumDebugFields::Clone | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumDebugFields::Clone"
 helpviewer_keywords: 
   - "IEnumDebugFields::Clone method"
 ms.assetid: 7ec265a8-696f-45ce-a2a2-0a83e96fee1b
-caps.latest.revision: 5
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

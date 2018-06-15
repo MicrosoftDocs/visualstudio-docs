@@ -1,13 +1,10 @@
 ---
-title: "Chart Control | Microsoft Docs"
+title: "Chart control"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VST.ProjectItem.ExcelChart"
 dev_langs: 
@@ -19,22 +16,22 @@ helpviewer_keywords:
   - "Chart control [Office development in Visual Studio], data binding"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Chart Control
+# Chart control
   The <xref:Microsoft.Office.Tools.Excel.Chart> control is a chart object that exposes events. When you add a chart to a worksheet, Visual Studio creates a <xref:Microsoft.Office.Tools.Excel.Chart> object that you can program against directly without having to traverse the Microsoft Office Excel object model.  
   
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]  
   
-## Creating the Control  
- You can add <xref:Microsoft.Office.Tools.Excel.Chart> controls to a Microsoft Office Excel worksheet at design time or at run time in a document-level project.  
+## Create the control  
+ You can add <xref:Microsoft.Office.Tools.Excel.Chart> controls to a Microsoft Office Excel worksheet at design time or at runtime in a document-level project.  
   
- You can add <xref:Microsoft.Office.Tools.Excel.Chart> controls to a worksheet at run time in a VSTO Add-in. For more information, see [How to: Add Chart Controls to Worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md).  
+ You can add <xref:Microsoft.Office.Tools.Excel.Chart> controls to a worksheet at runtime in a VSTO Add-in. For more information, see [How to: Add Chart controls to worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md).  
   
 > [!NOTE]  
->  Dynamically created chart objects are not persisted in the worksheet as host controls when the worksheet is closed. For more information, see [Adding Controls to Office Documents at Run Time](../vsto/adding-controls-to-office-documents-at-run-time.md).  
+>  Dynamically created chart objects are not persisted in the worksheet as host controls when the worksheet is closed. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).  
   
 ## Formatting  
  All formatting that can be applied to a <xref:Microsoft.Office.Interop.Excel.Chart> can also be applied to a <xref:Microsoft.Office.Tools.Excel.Chart> control. This includes borders, fonts, chart type, gridlines, legend, and data labels.  
@@ -72,14 +69,14 @@ ms.workload:
   
 -   <xref:Microsoft.Office.Tools.Excel.Chart.SeriesChange>  
   
-## See Also  
- [Office Development Samples and Walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)   
- [Extending Word Documents and Excel Workbooks in VSTO Add-ins at Run Time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)   
- [Controls on Office Documents](../vsto/controls-on-office-documents.md)   
- [Adding Controls to Office Documents at Run Time](../vsto/adding-controls-to-office-documents-at-run-time.md)   
- [Automating Excel by Using Extended Objects](../vsto/automating-excel-by-using-extended-objects.md)   
- [How to: Add Chart Controls to Worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md)   
- [Binding Data to Controls in Office Solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
- [Programmatic Limitations of Host Items and Host Controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)  
+## See also  
+ [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)   
+ [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)   
+ [Controls on Office documents](../vsto/controls-on-office-documents.md)   
+ [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)   
+ [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)   
+ [How to: Add Chart controls to worksheets](../vsto/how-to-add-chart-controls-to-worksheets.md)   
+ [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)   
+ [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)  
   
   

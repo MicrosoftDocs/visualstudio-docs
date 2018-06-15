@@ -2,21 +2,17 @@
 title: "Solution (.Sln) File | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "sln files, VSPackages"
   - "solutions, .sln files"
   - ".sln files, VSPackages"
 ms.assetid: 7d7ef539-2e4b-4637-b853-8ec7626609df
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

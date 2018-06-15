@@ -2,21 +2,17 @@
 title: "IDebugEngine3::LoadSymbols | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugEngine3::LoadSymbols"
 helpviewer_keywords: 
   - "IDebugEngine3::LoadSymbols"
 ms.assetid: c846a440-1d91-4d48-b8f1-82e902ae152b
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

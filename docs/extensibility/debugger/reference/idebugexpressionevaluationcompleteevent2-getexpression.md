@@ -2,21 +2,17 @@
 title: "IDebugExpressionEvaluationCompleteEvent2::GetExpression | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugExpressionEvaluationCompleteEvent2::GetExpression"
 helpviewer_keywords: 
   - "IDebugExpressionEvaluationCompleteEvent2::GetExpression"
 ms.assetid: faf6b2dd-2afd-4852-b21c-7e8d3130e141
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

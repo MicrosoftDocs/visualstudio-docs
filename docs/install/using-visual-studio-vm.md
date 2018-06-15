@@ -1,34 +1,36 @@
 ---
-title: "Using Visual Studio on an Azure Virtual Machine | Microsoft Docs"
+title: "Using Visual Studio on an Azure Virtual Machine"
 description: "Learn how to use Visual Studio on an Azure Virtual Machine"
-ms.date: "03/03/2018"
-ms.technology: "vs-acquisition"
-ms.topic: "conceptual"
+ms.date: 03/03/2018
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 helpviewer_keywords: 
   - "azure services"
   - "virtual machine; VM"
   - "installation"
   - "visual studio"
-author: "PhilLee-MSFT"
-ms.author: "tglee"
+author: PhilLee-MSFT
+ms.author: tglee
 manager: douge
 ms.workload: 
   - "multiple"
 ---
-
 # <a id="top"> </a> Visual Studio images on Azure
+
 Using Visual Studio in a preconfigured Azure virtual machine (VM) is a quick, easy way to go from nothing to an up-and-running development environment. System images with different Visual Studio configurations are available in the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps?search=%22visual%20studio%202017%22&page=1).
 
 New to Azure? [Create a free Azure account](https://azure.microsoft.com/free).
 
 ## What configurations and versions are available?
+
 Images for the most recent major versions, Visual Studio 2017 and Visual Studio 2015, can be found in the Azure Marketplace. For each major version, you see the originally released (RTW) version and the latest updated versions. Each of these versions offers the Visual Studio Enterprise and the Visual Studio Community editions. These images are updated at least every month to include the latest Visual Studio and Windows updates. While the names of the images remain the same, each image's description includes the installed product version and the image's "as of" date.
 
 | Release version                                              | Editions                     |     Product version     |
 |:------------------------------------------------------------:|:----------------------------:|:-----------------------:|
-| Visual Studio 2017: Latest (Version 15.6)                    |    Enterprise, Community     |      Version 15.6.4     |
-| Visual Studio 2017: Latest Preview (Version 15.7, Preview 3) |    Enterprise, Community     |      Version 15.7.0     |
-|         Visual Studio 2017: RTW                              |    Enterprise, Community     |      Version 15.0.10    |
+| Visual Studio 2017: Latest (Version 15.7)                    |    Enterprise, Community     |      Version 15.7.0     |
+| Visual Studio 2017: Latest Preview (Version 15.8, Preview 1) |    Enterprise, Community     |      Version 15.8.1     |
+|         Visual Studio 2017: RTW                              |    Enterprise, Community     |      Version 15.0.13    |
 |   Visual Studio 2015: Latest (Update 3)                      |    Enterprise, Community     |  Version 14.0.25431.01  |
 |         Visual Studio 2015: RTW                              |             None             | (Expired for servicing) |
 
@@ -38,6 +40,7 @@ Images for the most recent major versions, Visual Studio 2017 and Visual Studio 
 For more information, see the [Visual Studio Servicing Policy](/visualstudio/productinfo/vs-servicing-vs).
 
 ## What features are installed?
+
 Each image contains the recommended feature set for that Visual Studio edition. Generally, the installation includes:
 
 * All available workloads, including each workload’s recommended optional components
@@ -63,6 +66,7 @@ We use the following command line to install Visual Studio when building the ima
 If the images don't include a Visual Studio feature that you require, provide feedback through the feedback tool in the upper-right corner of the page.
 
 ## What size VM should I choose?
+
 Azure offers a full range of virtual machine sizes. Because Visual Studio is a powerful, multi-threaded application, you want a VM size that includes at least two processors and 7 GB of memory. We recommend the following VM sizes for the Visual Studio images:
 
    * Standard_D2_v3
@@ -78,6 +82,7 @@ For more information on the latest machine sizes, see [Sizes for Windows virtual
 With Azure, you can rebalance your initial choice by resizing the VM. You can either provision a new VM with a more appropriate size, or resize your existing VM to different underlying hardware. For more information, see [Resize a Windows VM](/azure/virtual-machines/windows/resize-vm).
 
 ## After the VM is running, what's next?
+
 Visual Studio follows the “bring your own license” model in Azure. As with an installation on proprietary hardware, one of the first steps is licensing your Visual Studio installation. To unlock Visual Studio, either:
 - Sign in with a Microsoft account that’s associated with a Visual Studio subscription
 - Unlock Visual Studio with the product key that came with your initial purchase
@@ -103,6 +108,7 @@ For more information, see [Create a managed image of a generalized VM in Azure](
 Additionally, your development tasks or technologies might need more scale, like varieties of development configurations and multiple machine configurations. You can use Azure DevTest Labs to create _recipes_ that automate construction of your "golden image." You can also use DevTest Labs to manage policies for your team’s running VMs. [Using Azure DevTest Labs for developers](/azure/devtest-lab/devtest-lab-developer-lab) is the best source for more information on DevTest Labs.
 
 ## Next steps
+
 Now that you know about the preconfigured Visual Studio images, the next step is to create a new VM:
 
 * [Create a VM through the Azure portal](/azure/virtual-machines/windows/quick-create-portal)

@@ -2,21 +2,17 @@
 title: "IDebugSymbolProvider::GetTypeByName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugSymbolProvider::GetTypeByName"
 helpviewer_keywords: 
   - "IDebugSymbolProvider::GetTypeByName method"
 ms.assetid: b9d88d3b-8b75-484a-b9cc-dc8c0fbb4bc8
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

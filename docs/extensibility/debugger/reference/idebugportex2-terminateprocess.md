@@ -2,21 +2,17 @@
 title: "IDebugPortEx2::TerminateProcess | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortEx2::TerminateProcess"
 helpviewer_keywords: 
   - "IDebugPortEx2::TerminateProcess"
 ms.assetid: bf8fa94c-6d9d-4e4f-ac08-3b44ba5ace68
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

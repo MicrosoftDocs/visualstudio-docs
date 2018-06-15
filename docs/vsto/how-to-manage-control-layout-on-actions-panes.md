@@ -1,13 +1,10 @@
 ---
-title: "How to: Manage Control Layout on Actions Panes | Microsoft Docs"
+title: "How to: Manage control layout on actions panes"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,26 +14,26 @@ helpviewer_keywords:
   - "smart documents [Office development in Visual Studio], control layout"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Manage Control Layout on Actions Panes
-  An actions pane is docked to the right of a document or worksheet by default; however, it can be docked to the left, top, or bottom. If you are using multiple user controls, you can write code to properly stack the user controls on the actions pane. For more information, see [Actions Pane Overview](../vsto/actions-pane-overview.md).  
+# How to: Manage control layout on actions panes
+  An actions pane is docked to the right of a document or worksheet by default; however, it can be docked to the left, top, or bottom. If you are using multiple user controls, you can write code to properly stack the user controls on the actions pane. For more information, see [Actions pane overview](../vsto/actions-pane-overview.md).  
   
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]  
   
  The stack order of the controls depends on whether the actions pane is docked vertically or horizontally.  
   
 > [!NOTE]  
->  If the user resizes the actions pane at run time, you can set the controls to resize with the actions pane. You can use the <xref:System.Windows.Forms.Control.Anchor%2A> property of a Windows Forms control to anchor controls to the actions pane. For more information, see [How to: Anchor Controls on Windows Forms](/dotnet/framework/winforms/controls/how-to-anchor-controls-on-windows-forms).  
+>  If the user resizes the actions pane at runtime, you can set the controls to resize with the actions pane. You can use the <xref:System.Windows.Forms.Control.Anchor%2A> property of a Windows Forms control to anchor controls to the actions pane. For more information, see [How to: Anchor controls on Windows Forms](/dotnet/framework/winforms/controls/how-to-anchor-controls-on-windows-forms).  
   
 > [!NOTE]  
 >  Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
-### To set the stack order of the actions pane controls  
+## To set the stack order of the actions pane controls  
   
-1.  Open a document-level project for Microsoft Office Word that includes an actions pane with multiple user controls or nested actions pane controls. For more information, see [How to: Add an Actions Pane to Word Documents or Excel Workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md).  
+1.  Open a document-level project for Microsoft Office Word that includes an actions pane with multiple user controls or nested actions pane controls. For more information, see [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md).  
   
 2.  Right-click **ThisDocument.cs** or **ThisDocument.vb** in **Solution Explorer** and then click **View Code**.  
   
@@ -50,7 +47,7 @@ ms.workload:
      [!code-csharp[Trin_VstcoreActionsPaneWord#31](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#31)]
      [!code-vb[Trin_VstcoreActionsPaneWord#31](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#31)]  
   
-5.  In C#, you must add an event handler for the `ActionsPane` to the <xref:Microsoft.Office.Tools.Word.Document.Startup> event handler. For information about creating event handlers, see [How to: Create Event Handlers in Office Projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
+5.  In C#, you must add an event handler for the `ActionsPane` to the <xref:Microsoft.Office.Tools.Word.Document.Startup> event handler. For information about creating event handlers, see [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md).  
   
      [!code-csharp[Trin_VstcoreActionsPaneWord#32](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#32)]  
   
@@ -60,16 +57,16 @@ ms.workload:
  [!code-csharp[Trin_VstcoreActionsPaneWord#29](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneWordCS/ThisDocument.cs#29)]
  [!code-vb[Trin_VstcoreActionsPaneWord#29](../vsto/codesnippet/VisualBasic/Trin_VstcoreActionsPaneWordVB/ThisDocument.vb#29)]  
   
-## Compiling the Code  
+## Compile the code  
  This example requires:  
   
 -   A Word document-level project with an actions pane that contains multiple user controls or nested actions pane controls.  
   
-## See Also  
- [Actions Pane Overview](../vsto/actions-pane-overview.md)   
- [How to: Add an Actions Pane to Word Documents or Excel Workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)   
- [How to: Add an Actions Pane to Word Documents or Excel Workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)   
- [Walkthrough: Inserting Text into a Document from an Actions Pane](../vsto/walkthrough-inserting-text-into-a-document-from-an-actions-pane.md)   
- [Walkthrough: Inserting Text into a Document from an Actions Pane](../vsto/walkthrough-inserting-text-into-a-document-from-an-actions-pane.md)  
+## See also  
+ [Actions pane overview](../vsto/actions-pane-overview.md)   
+ [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)   
+ [How to: Add an actions Pane to Word Documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)   
+ [Walkthrough: Insert text into a document from an actions pane](../vsto/walkthrough-inserting-text-into-a-document-from-an-actions-pane.md)   
+ [Walkthrough: Insert text into a document from an actions pane](../vsto/walkthrough-inserting-text-into-a-document-from-an-actions-pane.md)  
   
   

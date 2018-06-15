@@ -1,13 +1,14 @@
 ---
-title: "Get started with unit testing in Visual Studio | Microsoft Docs"
-ms.date: "05/02/2017"
+title: "Get started with unit testing in Visual Studio"
+ms.date: 05/02/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: conceptual
+helpviewer_keywords:
   - "unit testing, create unit test plans"
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -64,6 +65,9 @@ You can also create unit test method stubs with the **Create Unit Tests** [comma
 ## View live unit test results
 
 If you are using the MSTest, xUnit, or NUnit testing framework in Visual Studio 2017 or later, you can see live results of your unit tests.
+
+> [!NOTE]
+> Live unit testing is available in Visual Studio 2017 Enterprise Edition only.
 
 1. Turn on live unit testing from the **Test** menu.
 

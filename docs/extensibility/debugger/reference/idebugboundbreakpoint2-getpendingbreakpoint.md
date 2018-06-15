@@ -2,22 +2,18 @@
 title: "IDebugBoundBreakpoint2::GetPendingBreakpoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBoundBreakpoint2::GetPendingBreakpoint"
 helpviewer_keywords: 
   - "IDebugBoundBreakpoint2::GetPendingBreakpoint method"
   - "GetPendingBreakpoint method"
 ms.assetid: 22f94f81-f8d9-46de-96e9-fae6f3c24903
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

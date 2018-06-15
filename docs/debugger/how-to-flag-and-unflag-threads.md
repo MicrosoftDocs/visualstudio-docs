@@ -2,12 +2,8 @@
 title: "How to: Flag and Unflag Threads | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -16,10 +12,9 @@ dev_langs:
 helpviewer_keywords: 
   - "treads, switching [debugging]"
 ms.assetid: 952d579d-6911-413e-b3e5-54e7e797e70c
-caps.latest.revision: 33
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

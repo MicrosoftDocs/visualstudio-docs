@@ -2,21 +2,17 @@
 title: "STEPUNIT | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "STEPUNIT"
 helpviewer_keywords: 
   - "STEPUNIT enumeration"
 ms.assetid: cb8441f2-f744-4e73-acfe-ae8542df9649
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

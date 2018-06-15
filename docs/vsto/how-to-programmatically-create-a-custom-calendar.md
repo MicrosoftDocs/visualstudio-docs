@@ -1,13 +1,10 @@
 ---
-title: "How to: Programmatically Create a Custom Calendar | Microsoft Docs"
+title: "How to: Programmatically create a custom calendar"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,11 +14,11 @@ helpviewer_keywords:
   - "appointments [Office development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Programmatically Create a Custom Calendar
+# How to: Programmatically create a custom calendar
   This example creates a new Calendar folder named **PersonalCalendar**, and then creates a new Appointment item and adds it to the Calendar folder. The code then displays the Calendar folder.  
   
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]  
@@ -30,9 +27,9 @@ ms.workload:
  [!code-csharp[Trin_OL_CustomCalendar#1](../vsto/codesnippet/CSharp/Trin_OL_CustomCalendar/backup/thisaddin.cs#1)]
  [!code-csharp[Trin_OL_CustomCalendar#1](../vsto/codesnippet/CSharp/Trin_OL_CustomCalendar/thisaddin.cs#1)]  
   
-## See Also  
- [Working with Calendar Items](../vsto/working-with-calendar-items.md)   
- [How to: Programmatically Create Appointments](../vsto/how-to-programmatically-create-appointments.md)   
- [How to: Programmatically Create a Meeting Request](../vsto/how-to-programmatically-create-a-meeting-request.md)  
+## See also  
+ [Work with calendar items](../vsto/working-with-calendar-items.md)   
+ [How to: Programmatically create appointments](../vsto/how-to-programmatically-create-appointments.md)   
+ [How to: Programmatically create a meeting request](../vsto/how-to-programmatically-create-a-meeting-request.md)  
   
   

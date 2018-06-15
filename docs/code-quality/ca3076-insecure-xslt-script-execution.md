@@ -1,26 +1,23 @@
 ---
-title: "CA3076: Insecure XSLT Script Execution | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+title: "CA3076: Insecure XSLT Script Execution"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+ms.topic: reference
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # CA3076: Insecure XSLT Script Execution
 
-|||  
-|-|-|  
-|TypeName|InsecureXSLTScriptExecution|  
-|CheckId|CA3076|  
-|Category|Microsoft.Security|  
-|Breaking Change|Non Breaking|  
+|||
+|-|-|
+|TypeName|InsecureXSLTScriptExecution|
+|CheckId|CA3076|
+|Category|Microsoft.Security|
+|Breaking Change|Non Breaking|
 
 ## Cause
 
@@ -47,22 +44,22 @@ Unless you're sure that the input is known to be from a trusted source, do not s
 ### Violation&mdash;uses XsltSettings.TrustedXslt
 
 ```csharp
-using System.Xml;  
-using System.Xml.Xsl;  
-  
-namespace TestNamespace   
-{   
-    class TestClass   
-    {  
+using System.Xml;
+using System.Xml.Xsl;
+
+namespace TestNamespace
+{
+    class TestClass
+    {
          void TestMethod()
-        {    
+        {
              XslCompiledTransform xslCompiledTransform = new XslCompiledTransform();
              var settings = XsltSettings.TrustedXslt;
              var resolver = new XmlUrlResolver();
-             xslCompiledTransform.Load("testStylesheet", settings, resolver); // warn   
-        }  
+             xslCompiledTransform.Load("testStylesheet", settings, resolver); // warn
+        }
     }
-} 
+}
 ```
 
 ### Solution&mdash;use XsltSettings.Default
@@ -91,15 +88,15 @@ namespace TestNamespace
 ```csharp
 using System.Xml;
 using System.Xml.Xsl;
-  
-namespace TestNamespace   
-{   
-    class TestClass   
-    {   
+
+namespace TestNamespace
+{
+    class TestClass
+    {
         private static void TestMethod(XsltSettings settings)
-        {   
-            try   
-            {   
+        {
+            try
+            {
                 XslCompiledTransform xslCompiledTransform = new XslCompiledTransform();
                 var resolver = new XmlUrlResolver();
                 xslCompiledTransform.Load("testStylesheet", settings, resolver); // warn

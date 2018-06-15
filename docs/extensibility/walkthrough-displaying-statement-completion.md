@@ -2,19 +2,15 @@
 title: "Walkthrough: Displaying Statement Completion | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - statement completion"
 ms.assetid: f3152c4e-7673-4047-a079-2326941d1c83
-caps.latest.revision: 36
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

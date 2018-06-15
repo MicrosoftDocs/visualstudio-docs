@@ -2,21 +2,17 @@
 title: "IDebugReference2::GetDerivedMostReference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugReference2::GetDerivedMostReference"
 helpviewer_keywords: 
   - "IDebugReference2::GetDerivedMostReference"
 ms.assetid: 07253b74-7d39-48e0-8e85-ac8dfd919f6e
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

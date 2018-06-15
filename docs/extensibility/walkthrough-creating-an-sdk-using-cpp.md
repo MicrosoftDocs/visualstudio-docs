@@ -2,17 +2,13 @@
 title: "Walkthrough: Creating an SDK using C++ | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 36ea793b-3832-41a1-b906-69e680ad5e1d
-caps.latest.revision: 32
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

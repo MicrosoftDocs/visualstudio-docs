@@ -2,21 +2,17 @@
 title: "IDebugField::Equal | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugField::Equal"
 helpviewer_keywords: 
   - "IDebugField::Equal method"
 ms.assetid: 75369fe6-ddd3-497d-80d1-2488e6100e9f
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

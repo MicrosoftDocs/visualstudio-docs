@@ -2,21 +2,17 @@
 title: "DisassemblyData | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "DisassemblyData"
 helpviewer_keywords: 
   - "DisassemblyData structure"
 ms.assetid: 10e70aa7-9381-40d3-bdd1-d2cad78ef16c
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
@@ -119,6 +115,7 @@ using System;
 using System.Runtime.InteropServices;  
   
 namespace MyNamespace  
+{
     class MyClass  
     {  
         string EncodeData(string documentString,  
@@ -145,7 +142,7 @@ namespace MyNamespace
             }  
             // Copy guid data bytes to string as wide characters.  
             // Assumption: sizeof(char) == 2.  
-            for (int i = 0; i < guidDataLength; i++)  
+            for (int i = 0; i < guidDataLength / sizeof(char); i++)  
             {  
                 returnString += (char)Marshal.ReadInt16(pBuffer, i * sizeof(char));  
             }  
@@ -201,7 +198,7 @@ namespace MyNamespace
                for (int i = 0; i < guidDataLength; i++)  
                {  
                    Marshal.WriteByte(pGuidBuffer, i,  
-                                     Marshal.ReadByte(pBuffer, bufferOffset + i);  
+                                     Marshal.ReadByte(pBuffer, bufferOffset + i));  
                }  
                bufferOffset += guidDataLength;  
                checksumGuid = (Guid)Marshal.PtrToStructure(pGuidBuffer, typeof(Guid));  

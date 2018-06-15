@@ -2,12 +2,8 @@
 title: "How to: Debug in Mixed Mode | Microsoft Docs"
 ms.custom: ""
 ms.date: "06/19/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -18,10 +14,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], mixed-mode"
   - "mixed-mode debugging"
 ms.assetid: 2859067d-7fcc-46b0-a4df-8c2101500977
-caps.latest.revision: 29
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -30,7 +25,7 @@ The following procedures describe how to debug both managed and native code, als
   
 -   The calling application that calls your DLL is written in native code. In this case your DLL is managed, and both managed and native debuggers must be enabled to debug both. You can check this in the **\<Project> Property Pages** dialog box. How you do this depends on whether you start debugging from the DLL project or the calling application project.  
   
--   The calling application that calls your DLL is written in managed code and your DLL is written in native code.  
+-   The calling application that calls your DLL is written in managed code and your DLL is written in native code. For a tutorial that walks you through these steps, see [Debug managed and native code](../debugger/how-to-debug-managed-and-native-code.md).
   
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).

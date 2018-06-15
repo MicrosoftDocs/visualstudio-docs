@@ -2,12 +2,9 @@
 title: "Using Fonts and Colors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "fonts, controlling in IDE"
   - "IDE, controlling text color and fonts"
@@ -15,10 +12,9 @@ helpviewer_keywords:
   - "font and color control [Visual Studio SDK]"
   - "text, IDE"
 ms.assetid: d1a9b99f-fbdc-45ed-920a-e08c3d931ac9
-caps.latest.revision: 27
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

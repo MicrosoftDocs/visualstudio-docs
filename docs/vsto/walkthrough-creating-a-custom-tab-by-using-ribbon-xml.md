@@ -1,13 +1,10 @@
 ---
-title: "Walkthrough: Creating a Custom Tab by Using Ribbon XML | Microsoft Docs"
+title: "Walkthrough: Create a custom tab by using Ribbon XML"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -20,11 +17,11 @@ helpviewer_keywords:
   - "Custom tab [Office development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Creating a Custom Tab by Using Ribbon XML
+# Walkthrough: Create a custom tab by using Ribbon XML
   This walkthrough demonstrates how to create a custom Ribbon tab by using the **Ribbon (XML)** item.  
   
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]  
@@ -45,21 +42,21 @@ ms.workload:
   
 -   Microsoft Word.  
   
-## Creating the Project  
+## Create the project  
  The first step is to create a Word VSTO Add-in project. You will later customize the **Add-Ins** tab of this document.  
   
-#### To create a new project  
+### To create a new project  
   
 1.  Create a **Word Add-in** project with the name **MyRibbonAddIn**.  
   
-     For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
+     For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
      [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the **ThisAddIn.cs** or **ThisAddIn.vb** code file and adds the **MyRibbonAddIn** project to **Solution Explorer**.  
   
-## Creating the VSTO Add-ins Tab  
+## Create the VSTO Add-ins tab  
  To create the **Add-Ins** tab, add a **Ribbon (XML)** item to your project. Later in this walkthrough, you will add some buttons to this tab.  
   
-#### To create the Add-Ins tab  
+### To create the Add-ins tab  
   
 1.  On the **Project** menu, click **Add New Item**.  
   
@@ -71,23 +68,23 @@ ms.workload:
   
 4.  In **Solution Explorer**, right-click **ThisAddin.cs** or **ThisAddin.vb**, and then click **View Code**.  
   
-5.  Add the following code to the **ThisAddin** class. This code overrides the CreateRibbonExtensibilityObject method and returns the Ribbon XML class to the Office application.  
+5.  Add the following code to the **ThisAddin** class. This code overrides the `CreateRibbonExtensibilityObject` method and returns the Ribbon XML class to the Office application.  
   
      [!code-csharp[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.cs#1)]
      [!code-vb[Trin_Ribbon_Custom_Tab_XML#1](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/ThisAddIn.vb#1)]  
   
 6.  In **Solution Explorer**, right-click the **MyRibbonAddIn** project and then click **Build**. Verify that the project builds without errors.  
   
-## Adding Buttons to the Add-Ins Tab  
+## Add buttons to the Add-ins tab  
  The goal for this VSTO Add-in is to give users a way to add boilerplate text and a specific table to the active document. To provide the user interface, add two buttons to the **Add-Ins** tab by modifying the Ribbon XML file. Later in this walkthrough, you will define callback methods for the buttons. For more information about the Ribbon XML file, see [Ribbon XML](../vsto/ribbon-xml.md).  
   
-#### To add buttons to the Add-Ins tab  
+### To add buttons to the Add-ins tab  
   
 1.  In **Solution Explorer**, right-click **MyRibbon.xml** and then click **Open**.  
   
 2.  Replace the contents of the **tab** element with the following XML. This XML changes the label of the default control group to **Content**, and it adds two new buttons with the labels **Insert Text** and **Insert Table**.  
   
-    ```  
+    ```xml  
     <tab idMso="TabAddIns">  
         <group id="ContentGroup" label="Content">  
             <button id="textButton" label="Insert Text"  
@@ -100,10 +97,10 @@ ms.workload:
     </tab>  
     ```  
   
-## Automating the Document by Using the Buttons  
+## Automate the document by using the buttons  
  You must add `onAction` callback methods for the **Insert Text** and **Insert Table** buttons to perform actions when the user clicks them. For more information about callback methods for Ribbon controls, see [Ribbon XML](../vsto/ribbon-xml.md).  
   
-#### To add callback methods for the buttons  
+### To add callback methods for the buttons  
   
 1.  In **Solution Explorer**, right-click **MyRibbon.cs** or **MyRibbon.vb**, and then click **Open**.  
   
@@ -122,18 +119,18 @@ ms.workload:
      [!code-csharp[Trin_Ribbon_Custom_Tab_XML#3](../vsto/codesnippet/CSharp/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.cs#3)]
      [!code-vb[Trin_Ribbon_Custom_Tab_XML#3](../vsto/codesnippet/VisualBasic/Trin_Ribbon_Custom_Tab_XML_O12/MyRibbon.vb#3)]  
   
-## Testing the VSTO Add-In  
- When you run the project, Word opens and the tab named **Add-Ins** appears on the Ribbon. Click the **Insert Text** and **Insert Table** buttons on the **Add-Ins** tab to test the code.  
+## Testing the VSTO Add-in  
+ When you run the project, Word opens and the tab named **Add-Ins** appears on the ribbon. Click the **Insert Text** and **Insert Table** buttons on the **Add-Ins** tab to test the code.  
   
-#### To test your VSTO Add-in  
+### To test your VSTO Add-in  
   
-1.  Press F5 to run your project.  
+1.  Press **F5** to run your project.  
   
-2.  Confirm that the **Add-Ins** tab is visible on the Ribbon.  
+2.  Confirm that the **Add-Ins** tab is visible on the ribbon.  
   
 3.  Click the **Add-Ins** tab.  
   
-4.  Confirm that the **Content** group is visible on the Ribbon.  
+4.  Confirm that the **Content** group is visible on the ribbon.  
   
 5.  Click the **Insert Text** button in the **Content** group.  
   
@@ -143,20 +140,20 @@ ms.workload:
   
      A table is added to the document at the current location of the cursor.  
   
-## Next Steps  
+## Next steps  
  You can learn more about how to customize the Office UI from these topics:  
   
--   Customize the Ribbon of a different Office application. For more information about the applications that support customizing the Ribbon, see [Ribbon Overview](../vsto/ribbon-overview.md).  
+-   Customize the ribbon of a different Office application. For more information about the applications that support customizing the ribbon, see [Ribbon overview](../vsto/ribbon-overview.md).  
   
--   Customize the Ribbon of an Office application by using the Ribbon Designer. For more information, see [Ribbon Designer](../vsto/ribbon-designer.md).  
+-   Customize the ribbon of an Office application by using the Ribbon Designer. For more information, see [Ribbon Designer](../vsto/ribbon-designer.md).  
   
--   Create a custom actions pane. For more information, see [Actions Pane Overview](../vsto/actions-pane-overview.md).  
+-   Create a custom actions pane. For more information, see [Actions pane overview](../vsto/actions-pane-overview.md).  
   
--   Customize the UI of Microsoft Office Outlook by using Outlook Form Regions. For more information, see [Walkthrough: Designing an Outlook Form Region](../vsto/walkthrough-designing-an-outlook-form-region.md).  
+-   Customize the UI of Microsoft Office Outlook by using Outlook Form Regions. For more information, see [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md).  
   
-## See Also  
- [Ribbon Overview](../vsto/ribbon-overview.md)   
+## See also  
+ [Ribbon overview](../vsto/ribbon-overview.md)   
  [Ribbon XML](../vsto/ribbon-xml.md)   
- [Walkthrough: Creating a Custom Tab by Using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)  
+ [Walkthrough: Create a custom tab by using the Ribbon Designer](../vsto/walkthrough-creating-a-custom-tab-by-using-the-ribbon-designer.md)  
   
   

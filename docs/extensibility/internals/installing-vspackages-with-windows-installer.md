@@ -2,20 +2,16 @@
 title: "Installing VSPackages With Windows Installer | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "installation [Visual Studio SDK], with Windows Installer"
   - "VSPackages, deploying"
 ms.assetid: 41d2c72c-0a97-4fcd-b3aa-33a8d3aa962a
-caps.latest.revision: 30
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

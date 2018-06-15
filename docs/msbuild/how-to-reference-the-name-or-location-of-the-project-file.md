@@ -2,11 +2,8 @@
 title: "How to: Reference the Name or Location of the Project File | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "locations, referencing"
   - "locations"
@@ -16,10 +13,9 @@ helpviewer_keywords:
   - "reserved properties"
   - "project files, referencing"
 ms.assetid: c8fcc594-5d37-4e2e-b070-4d9c012043b5
-caps.latest.revision: 13
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -48,7 +44,7 @@ You can use the name or location of the project in the project file itself witho
  The following example project file references the project name as a reserved property to specify the name for the output.  
   
 ```xml  
-<Project xmlns="http://scheams.microsoft.com/developer/msbuild/2003"   
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"   
     DefaultTargets = "Compile">  
   
     <!-- Specify the inputs -->  

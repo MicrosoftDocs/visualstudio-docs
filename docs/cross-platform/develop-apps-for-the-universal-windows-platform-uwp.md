@@ -2,17 +2,13 @@
 title: "Develop apps for the Universal Windows Platform (UWP) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/24/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "tgt-pltfrm-cross-plat"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: eac59cb6-f12e-4a77-9953-6d62b164a643
-caps.latest.revision: 48
 author: "stevehoag"
 ms.author: "shoag"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 ---
@@ -38,7 +34,7 @@ The Universal Windows Platform is simply a collection of contracts and versions.
   
 -   [Windows 10](http://windows.microsoft.com/windows/downloads). Visual Studio 2017 supports UWP development only on Windows 10. For more details, see Visual Studio [Platform Targeting](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs) and [System Requirements](https://www.visualstudio.com/en-us/productinfo/vs2017-system-requirements-vs).   
   
--   [Visual Studio](https://www.visualstudio.com/downloads/). You will also need the optional Universal Windows Platform development workload.  
+-   [Visual Studio](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017). You will also need the optional Universal Windows Platform development workload.  
 
      ![UWP workload](media/uwp_workload.png)
   

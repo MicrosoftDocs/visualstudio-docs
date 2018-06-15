@@ -2,11 +2,8 @@
 title: "UsingTask Element (MSBuild) | Microsoft Docs"
 ms.custom: ""
 ms.date: "03/13/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#UsingTask"
 dev_langs: 
@@ -18,10 +15,9 @@ helpviewer_keywords:
   - "UsingTask element [MSBuild]"
   - "<UsingTask> element [MSBuild]"
 ms.assetid: 20247902-9446-4a1f-8253-5c7a17e4fe43
-caps.latest.revision: 23
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -67,10 +63,10 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 |[Project](../msbuild/project-element-msbuild.md)|Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file.|  
 
 ## Remarks  
- Environment variables, command-line properties, and project-level properties can be referenced anywhere in the `UsingTask` element if it appears in the project file either explicitly or through an imported project file. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  
+ Environment variables, command-line properties, project-level properties, and project-level items can be referenced in the `UsingTask` elements included in the project file either directly or through an imported project file. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  
 
 > [!NOTE]
->  Project-level properties have no meaning if the `UsingTask` element is coming from one of the .tasks files that are globally registered with the MSBuild engine. Project-level properties are not global to MSBuild.  
+>  Project-level properties and items have no meaning if the `UsingTask` element is coming from one of the .tasks files that are globally registered with the MSBuild engine. Project-level values are not global to MSBuild.  
 
  In MSBuild 4.0, using tasks can be loaded from .overridetask files.  
 

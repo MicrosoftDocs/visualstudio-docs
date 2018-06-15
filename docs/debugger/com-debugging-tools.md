@@ -2,12 +2,8 @@
 title: "COM Debugging Tools | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.com"
 dev_langs: 
@@ -22,10 +18,9 @@ helpviewer_keywords:
   - "ActiveX controls, debugging"
   - "debugging [C++], COM"
 ms.assetid: 4296ad30-6952-46cb-b002-6b34eee1993a
-caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

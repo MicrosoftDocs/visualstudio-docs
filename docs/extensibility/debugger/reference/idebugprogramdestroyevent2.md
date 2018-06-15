@@ -2,21 +2,17 @@
 title: "IDebugProgramDestroyEvent2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgramDestroyEvent2"
 helpviewer_keywords: 
   - "IDebugProgramDestroyEvent2"
 ms.assetid: ddf127ca-c4a5-4071-90ca-68faf2f57dbd
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

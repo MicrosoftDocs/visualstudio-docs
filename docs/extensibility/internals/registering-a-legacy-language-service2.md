@@ -2,21 +2,17 @@
 title: "Registering a Legacy Language Service2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "registration, language services"
   - "language services, registry information"
   - "registry, language services"
 ms.assetid: ca312aa3-f9f1-4572-8553-89bf3a724deb
-caps.latest.revision: 24
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

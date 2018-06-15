@@ -2,21 +2,17 @@
 title: "ATTACH_REASON | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "ATTACH_REASON"
 helpviewer_keywords: 
   - "ATTACH_REASON enumeration"
 ms.assetid: 159fb70b-a344-4ba6-9115-b7eaa16e228f
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

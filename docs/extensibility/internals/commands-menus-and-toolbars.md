@@ -2,21 +2,17 @@
 title: "Commands, Menus, and Toolbars | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "menus [Visual Studio SDK], commands"
   - "commands [Visual Studio]"
   - "toolbars [Visual Studio], commands"
 ms.assetid: 07b4ed90-dbbd-40df-b6c9-8395fd6f2ab6
-caps.latest.revision: 60
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

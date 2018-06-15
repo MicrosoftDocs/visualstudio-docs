@@ -2,12 +2,8 @@
 title: "View Memory for Variables in the Debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.memory"
 dev_langs: 
@@ -24,10 +20,9 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Memory window"
   - "buffers, viewing"
 ms.assetid: 7f7a0439-10e4-4966-bb2d-51f04cda4fe2
-caps.latest.revision: 32
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

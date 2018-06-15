@@ -2,21 +2,17 @@
 title: "IDebugSymbolProvider::GetMethodFieldsByName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugSymbolProvider::GetMethodFieldsByName"
 helpviewer_keywords: 
   - "IDebugSymbolProvider::GetMethodFieldsByName method"
 ms.assetid: 1f781320-81ef-4037-b068-f1864b271258
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,12 +2,8 @@
 title: "Debugging Web Applications | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -19,10 +15,9 @@ helpviewer_keywords:
   - "debugging [ASP.NET], about debugging ASP.NET Web applications"
   - "ASP.NET Web pages, debugging"
 ms.assetid: a096a90d-6d0d-4752-9fb5-417635ccab3e
-caps.latest.revision: 24
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

@@ -2,25 +2,20 @@
 title: "Synchronization Time | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.cv.threads.timeline.synchronization"
 helpviewer_keywords: 
   - "Concurrency Visualizer, Synchronization Time"
 ms.assetid: affa04cc-8bba-4848-9301-b19846d3c2cb
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Synchronization Time
+# Synchronization time
 These segments in the timeline are associated with blocking times that are categorized as Synchronization. When a thread is marked as blocked on synchronization, one of these things is implied:  
   
 -   The execution of the thread may have resulted in a call to a well-known thread synchronization API such as `EnterCriticalSection()` or `WaitForSingleObject()`.  
@@ -29,5 +24,5 @@ These segments in the timeline are associated with blocking times that are categ
   
  To understand the underlying cause for a thread blocking event, carefully examine the blocking call stacks and profile reports.  
   
-## See Also  
- [Threads View](../profiling/threads-view-parallel-performance.md)
+## See also  
+ [Threads view](../profiling/threads-view-parallel-performance.md)

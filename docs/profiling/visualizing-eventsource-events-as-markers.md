@@ -2,27 +2,22 @@
 title: "Visualizing EventSource Events as Markers | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: 3a10022a-5c37-48b1-a833-dd35902176b6
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Visualizing EventSource Events as Markers
+# Visualize EventSource events as markers
 The Concurrency Visualizer can display EventSource events as markers, and you can control how the markers are displayed. To view the EventSource markers, register the ETW provider GUID by using the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box. The Concurrency Visualizer has default conventions to represent EventSource events as [Flag Markers](../profiling/flag-markers.md), [Span Markers](../profiling/span-markers.md), and [Message Markers](../profiling/message-markers.md). You can customize how EventSource events are displayed by adding custom fields to the events. For more information about markers, see [Concurrency Visualizer Markers](../profiling/concurrency-visualizer-markers.md). For more information about EventSource events, see <xref:System.Diagnostics.Tracing>.  
   
-## Default Visualization of EventSource Events  
+## Default visualization of EventSource events  
  By default, the Concurrency Visualizer uses the following conventions to represent EventSource events.  
   
-### Marker Type  
+### Marker type  
   
 1.  Events that have [Opcode](http://msdn.microsoft.com/en-us/d97953df-669b-4c55-b1a8-925022b339b7) win:Start or win:Stop are treated as the beginning or end of a span, respectively.  Nested or overlapping spans cannot be displayed. Event pairs that begin on one thread and end on another cannot be displayed.  
   
@@ -43,7 +38,7 @@ The Concurrency Visualizer can display EventSource events as markers, and you ca
 |win:Verbose|Low|  
 |Greater than win:verbose|Low|  
   
-### Series Name  
+### Series name  
  The task name of the event is used for the series name. Series name is empty if no task was defined for the event.  
   
 ### Category  
@@ -52,10 +47,10 @@ The Concurrency Visualizer can display EventSource events as markers, and you ca
 ### Text  
  If a printf-type formatted text message was defined for the event, it is displayed as the description of the Marker. Otherwise, the description is the name of the event and the value of each payload field.  
   
-## Customizing Visualization of EventSource Events  
+## Customize visualization of EventSource events  
  You can customize how EventSource events are displayed by adding the appropriate fields to the event, as described in the following sections.  
   
-### Marker Type  
+### Marker type  
  Use the `cvType` field, a byte, to control the kind of marker that's used to represent the event. Here are the available values for cvType:  
   
 |cvType value|Resulting Marker Type|  
@@ -79,7 +74,7 @@ The Concurrency Visualizer can display EventSource events as markers, and you ca
 |5|Low|  
 |All other values|Low|  
   
-### Series Name  
+### Series name  
  Use the `cvSeries` event field, a string, to control the series name that the Concurrency Visualizer gives to an EventSource event.  
   
 ### Category  
@@ -94,5 +89,5 @@ The Concurrency Visualizer can display EventSource events as markers, and you ca
 > [!NOTE]
 >  The use of SpanID to nest spans, allow them to partially overlap on the same thread, or allow them to start on one thread and end on another is not supported.  
   
-## See Also  
- [Concurrency Visualizer Markers](../profiling/concurrency-visualizer-markers.md)
+## See also  
+ [Concurrency visualizer markers](../profiling/concurrency-visualizer-markers.md)

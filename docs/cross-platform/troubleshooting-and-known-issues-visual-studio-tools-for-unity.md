@@ -2,11 +2,8 @@
 title: "Troubleshooting and Known Issues (Visual Studio Tools for Unity) | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/10/2018"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-unity-tools
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 8f5db192-8d78-4627-bd07-dbbc803ac554
 author: "conceptdev"
 ms.author: "crdun"
@@ -35,8 +32,11 @@ This should fix your issue. In case you are still experiencing the problem, run 
  devenv /setup
 ```
 
-### Issues with VS2015 and IntelliSense or code coloration.
+### Issues with Visual Studio 2015 and IntelliSense or code coloration.
 You should try to upgrade your Visual Studio 2015 to update 3.
+
+### Shader files without code coloration when using Visual Studio 2017
+Please make sure that the "Desktop Development with C++" workload is installed in your instance of Visual Studio 2017. The C/C++ parser used for code coloration is bundled with this workload.
 
 ### Visual Studio hangs
 Several Unity plugins like Parse, FMOD, UMP (Universal Media Player), ZFBrowser or Embedded Browser are using native threads. It’s an issue when a plugin ends up attaching a native thread to the runtime, which then does blocking calls to the OS. This means Unity can't interrupt that thread for the debugger (or domain reload) and hang.
@@ -51,6 +51,12 @@ Be sure to never touch project files directly from an asset processor or any oth
 
 If you experience extra reloads or if Visual Studio is losing all open Windows on reload, please make sure that you have proper .NET targeting packs installed. Please check the following section about frameworks for more information.
 
+###  The debugger does not break on exceptions
+When using the legacy Unity runtime (.NET 3.5 equivalent), the debugger will always break when an exception is unhandled (=outside a try/catch block). If the exception is handled, the debugger will use the Exception Settings Window to determine if a break is required or not.
+
+With the new runtime (.NET 4.6 equivalent), Unity introduced a new way for managing user exceptions and as a result, all exceptions are seen as "user-handled" even if they are outside a try/catch block. That's why you now need to explicitly check them in the Exception Settings Window if you want the debugger to break.
+
+In the Exception Settings window (Debug > Windows > Exception Settings), expand the node for a category of exceptions (for example, Common Language Runtime Exceptions, meaning .NET exceptions), and select the check box for the specific exception you want to catch within that category (for example System.NullReferenceException). You can also select an entire category of exceptions.
 
 ### On Windows, Visual Studio asks to download the Unity target framework
 Visual Studio Tools for Unity requires the .NET framework 3.5, which isn't installed by default on Windows 8 or 10. To fix this issue, follow the instructions to download and install the .NET framework 3.5.

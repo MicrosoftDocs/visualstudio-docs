@@ -2,26 +2,22 @@
 title: "Understanding Instrumentation Data Values | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Profiling Tools,instrumentation"
   - "instrumentation profiling method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Understanding Instrumentation Data Values
+# Understand instrumentation data values
 
 The *instrumentation* profiling method of Visual Studio records detailed timing information for the function calls, lines, and instructions in the profiled application
 
-The instrumentation method injects code at the start and end of target functions in the profiled binary, and before and after each call by those functions to other functions. The injected code records the following:
+The instrumentation method injects code at the start and end of target functions in the profiled binary, and before and after each call by those functions to other functions. The injected code records the following information:
 
 - The interval between this collection event and the previous one.
 
@@ -97,5 +93,5 @@ The percentage of the total Application Inclusive values of the profiling sessio
 
 ## See also
 
-[Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)  
-[How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md)
+[Analyze performance tools data](../profiling/analyzing-performance-tools-data.md)  
+[How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md)

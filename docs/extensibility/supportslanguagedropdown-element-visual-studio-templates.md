@@ -2,22 +2,18 @@
 title: "SupportsLanguageDropDown Element (Visual Studio Templates) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/vstemplate/2005#SupportsLanguageDropDown"
 helpviewer_keywords: 
   - "SupportsLanguageDropDown element [Visual Studio Templates]"
   - "<SupportsLanguageDropDown> element [Visual Studio Templates]"
 ms.assetid: 641197d5-f724-4c06-bc47-2e22dad3fbfb
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

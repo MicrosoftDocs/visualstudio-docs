@@ -2,17 +2,12 @@
 title: "Launch | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: f81bde5c-3394-4b79-a315-c2f6491689b3
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -23,7 +18,7 @@ The **Launch** option starts the profiler using the sampling method and it also 
   
 ## Syntax  
   
-```  
+```cmd  
 VSPerfCmd.exe /Launch:AppName [Options]  
 ```  
   
@@ -77,13 +72,13 @@ VSPerfCmd.exe /Launch:AppName [Options]
 ## Example  
  This example demonstrates the use of **Launch** to start an application.  
   
-```  
+```cmd  
 VSPerfCmd.exe /Start:Sample /Output:TestApp.exe.vsp  
 VSPerfCmd.exe /Launch:TestApp.exe  
 ```  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)
+ [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profile services](../profiling/command-line-profiling-of-services.md)

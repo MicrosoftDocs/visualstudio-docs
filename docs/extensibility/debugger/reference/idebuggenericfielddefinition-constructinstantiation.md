@@ -2,20 +2,16 @@
 title: "IDebugGenericFieldDefinition::ConstructInstantiation | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "ConstructInstantiation"
   - "IDebugGenericFieldDefinition::ConstructInstantiation"
 ms.assetid: ef8ae261-a98b-4dc2-93b3-7c5191818ba2
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

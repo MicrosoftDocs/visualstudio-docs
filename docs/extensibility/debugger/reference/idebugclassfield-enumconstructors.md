@@ -2,21 +2,17 @@
 title: "IDebugClassField::EnumConstructors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugClassField::EnumConstructors"
 helpviewer_keywords: 
   - "IDebugClassField::EnumConstructors method"
 ms.assetid: 66a250b2-75a0-45aa-8d58-40f91cc4bf7b
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

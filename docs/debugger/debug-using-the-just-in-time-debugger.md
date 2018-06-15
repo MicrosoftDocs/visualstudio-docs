@@ -2,20 +2,15 @@
 title: "Debug using the Just-In-Time Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/06/17"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debugging [Visual Studio], Just-In-Time"
   - "Just-In-Time debugging"
 ms.assetid: ee4d79a5-a1d2-4418-a93f-dd57a53e1836
-caps.latest.revision: 48
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -58,7 +53,7 @@ Just-In-Time debugging may still be enabled even if Visual Studio is no longer i
   
     -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug\Debugger  
   
-    -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\DbgManagedDebugger  
+    -   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger  
 
     ![JIT Registry Key](../debugger/media/dbg-jit-registry.png "JIT Registry Key") 
   
@@ -178,4 +173,4 @@ static void Main(string[] args)
  [Debugger Security](../debugger/debugger-security.md)   
  [Debugger Basics](../debugger/debugger-basics.md)   
  [Just-In-Time, Debugging, Options Dialog Box](../debugger/just-in-time-debugging-options-dialog-box.md)   
- [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user-can-be-dangerous-if-the-following-information-looks-suspicious-or-you-are-unsure-do-not-attach-to-this-process.md)
+ [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md)

@@ -2,24 +2,19 @@
 title: "How to: Specify the .NET Framework Runtime | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Profiling Tools, .NET Framework versions"
   - ".NET Framework versions,profililng"
 ms.assetid: d39f3579-719a-4f47-a97d-5b4232fe4c64
-caps.latest.revision: 10
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# How to: Specify the .NET Framework Runtime
+# How to: Specify the .NET Framework runtime
 
 With the release of [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_long_md.md)], applications can be composed of modules that were built by using different versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] run-time. By default, Visual Studio Profiling Tools profile the first runtime that is loaded by the application. You can specify the run-time to profile when you start an application with the profiler and when you attach the profiler to an already running application.
 
@@ -37,9 +32,9 @@ With the release of [!INCLUDE[net_v40_long](../code-quality/includes/net_v40_lon
 
 ## To specify the .NET Framework run-time to profile when attaching the profiler to an application
 
-1. On the Analyze menu, point to Profiler, then click Attach/Detach.
+1. On the **Analyze** menu, point to **Profiler**, then click **Attach/Detach**.
 
-2. On the Attach Profiler to Process dialog box, click the process that you want to profile.
+2. On the **Attach Profiler to Process** dialog box, click the process that you want to profile.
 
      The **Target CLR Version** list box s **Automatic** and the versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] runtime that are installed on the computer.
 

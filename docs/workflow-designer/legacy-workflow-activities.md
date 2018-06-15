@@ -1,23 +1,25 @@
 ---
-title: "Legacy Workflow Activities | Microsoft Docs"
-ms.date: "01/18/2017"
-ms.topic: "reference"
-helpviewer_keywords: 
+title: "Workflow Designer - Legacy Workflow Activities"
+ms.date: 01/18/2017
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+helpviewer_keywords:
   - "workflows, activities"
   - "activities"
   - "workflow activities"
 ms.assetid: 4af7a06b-1e82-43c8-aec8-0dc5fb63d08a
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Legacy Workflow Activities
 
-[!INCLUDE[wf](../workflow-designer/includes/wf_md.md)] includes a default set of activities that provide functionality for control flow, conditions, event handling, state management, and communicating with applications and services. When designing workflows, you can use the system-provided activities that are provided by the Windows Workflow Designer, or you can create your own custom activities.
+Windows Workflow Foundation (WF) includes a default set of activities that provide functionality for control flow, conditions, event handling, state management, and communicating with applications and services. When designing workflows, you can use the system-provided activities that are provided by the Windows Workflow Designer, or you can create your own custom activities.
 
- The following table lists the [!INCLUDE[wf2](../workflow-designer/includes/wf2_md.md)] framework out-of-box activity set. Many, but not all, of these activities are represented by activity designers that can be accessed from the **Toolbox** of the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)]. To create an activity, drag its designer from the **Toolbox** and drop it on the design surface.
+The following table lists the Windows Workflow Foundation framework out-of-box activity set. Many, but not all, of these activities are represented by activity designers that can be accessed from the **Toolbox** of the Workflow Designer. To create an activity, drag its designer from the **Toolbox** and drop it on the design surface.
 
 |Activity|Description|
 |--------------|-----------------|
@@ -59,7 +61,7 @@ ms.workload:
 |<xref:System.Workflow.Activities.WebServiceOutputActivity>|Responds to a Web service request made to a workflow. For more information, see [Using the WebServiceOutputActivity Activity](http://go.microsoft.com/fwlink?LinkID=65092).|
 |<xref:System.Workflow.Activities.WhileActivity>|Enables your workflow to loop until a condition is met. For more information, see [Using the WhileActivity Activity](http://go.microsoft.com/fwlink?LinkID=65091).|
 
- For more information about how to create custom activities, see [Developing Custom Activities](http://go.microsoft.com/fwlink?LinkID=65023) and [Using the Legacy Activity Designer](../workflow-designer/using-the-legacy-activity-designer.md).
+For more information about how to create custom activities, see [Developing Custom Activities](http://go.microsoft.com/fwlink?LinkID=65023) and [Using the Legacy Activity Designer](../workflow-designer/using-the-legacy-activity-designer.md).
 
 ## See also
 

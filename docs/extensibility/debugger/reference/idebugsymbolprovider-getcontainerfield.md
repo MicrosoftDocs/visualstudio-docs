@@ -2,21 +2,17 @@
 title: "IDebugSymbolProvider::GetContainerField | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugSymbolProvider::GetContainerField"
 helpviewer_keywords: 
   - "IDebugSymbolProvider::GetContainerField method"
 ms.assetid: d6b56b4f-a96b-4fa7-87c1-bac4e58fa766
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

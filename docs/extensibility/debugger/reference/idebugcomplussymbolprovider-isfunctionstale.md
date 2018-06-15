@@ -2,19 +2,15 @@
 title: "IDebugComPlusSymbolProvider::IsFunctionStale | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugComPlusSymbolProvider::IsFunctionStale"
 ms.assetid: dcffc090-4ed8-47b2-ba51-bce1a6b6428d
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

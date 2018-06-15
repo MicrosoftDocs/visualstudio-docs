@@ -2,21 +2,17 @@
 title: "IDebugProgram2::GetProgramId | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugProgram2::GetProgramId"
 helpviewer_keywords: 
   - "IDebugProgram2::GetProgramId"
 ms.assetid: 2c31c0aa-2b71-46c7-849c-356e237d26f8
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

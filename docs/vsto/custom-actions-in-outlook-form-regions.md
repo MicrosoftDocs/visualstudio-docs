@@ -1,13 +1,10 @@
 ---
-title: "Custom Actions in Outlook Form Regions | Microsoft Docs"
+title: "Custom actions in Outlook form regions"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,19 +13,19 @@ helpviewer_keywords:
   - "custom actions [Office development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Custom Actions in Outlook Form Regions
+# Custom actions in Outlook form regions
   Actions display buttons that enable users to respond to a Microsoft Office Outlook item. For example, to respond to a mail item, users click the **Reply**, **Reply to All**, or **Forward** action buttons. Each of these actions creates a new mail item and populates the item's fields by using information from the original item.  
   
  You can create a custom action that opens any kind of Outlook item. For example, you can add a custom action that opens a new appointment or task item. Set the properties of a custom action or use custom code to populate the fields of the new item. Custom actions appear in the **Custom Actions** drop-down of an item that is open in an Outlook inspector window.  
   
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]  
   
-## Adding Custom Actions to a Form Region  
- To add a custom action to a form region, use the **Custom Actions** dialog box. You can open the **Custom Actions** dialog box in **Solution Explorer** by expanding the **Manifest** node, selecting the **CustomActions** property, and then clicking the ellipsis button (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")).  
+## Add custom actions to a form region  
+ To add a custom action to a form region, use the **Custom Actions** dialog box. You can open the **Custom Actions** dialog box in **Solution Explorer** by expanding the **Manifest** node, selecting the **CustomActions** property, and then clicking the ellipsis button (![ASP.NET mobile designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")).  
   
  You can use the **Custom Actions** dialog box to specify a *target form*. A target form is the form that appears when the user executes the custom action.  
   
@@ -48,12 +45,12 @@ ms.workload:
 |**TargetForm**|Specifies the message class name of the target form. For example, type **IPM.Task** to open a task form.|  
 |**Title**|Specifies the label of the custom action button.|  
   
-## Customizing a Custom Action at Run Time  
+## Customize a custom action at runtime  
  You can also add behavior to the custom action using code. For example, you can add code that takes the names of e-mail recipients and adds those names as attendees in a new appointment item. To do this, handle the [CustomAction](http://msdn.microsoft.com/library/office/ff862186.aspx) event of the [MailItem object](http://msdn.microsoft.com/library/office/ff861332.aspx).  
   
-## See Also  
- [Creating Outlook Form Regions](../vsto/creating-outlook-form-regions.md)   
- [Walkthrough: Designing an Outlook Form Region](../vsto/walkthrough-designing-an-outlook-form-region.md)   
- [Associating a Form Region with an Outlook Message Class](../vsto/associating-a-form-region-with-an-outlook-message-class.md)  
+## See also  
+ [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)   
+ [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)   
+ [Associate a form region with an Outlook message class](../vsto/associating-a-form-region-with-an-outlook-message-class.md)  
   
   

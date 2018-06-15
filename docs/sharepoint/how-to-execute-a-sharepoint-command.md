@@ -2,12 +2,9 @@
 title: "How to: Execute a SharePoint Command | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,7 +12,7 @@ helpviewer_keywords:
   - "SharePoint commands [SharePoint development in Visual Studio], executing"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
@@ -63,16 +60,15 @@ ms.workload:
   
 -   The first parameter identifies the command that you want to call. This string matches the value that you pass to the <xref:Microsoft.VisualStudio.SharePoint.Commands.SharePointCommandAttribute> on the command definition.  
   
--   The second parameter is the value that you want to pass to the custom second parameter of the command. In this case, it is the full path of the .wsp file that is being upgraded to the SharePoint site.  
+-   The second parameter is the value that you want to pass to the custom second parameter of the command. In this case, it is the full path of the *.wsp* file that is being upgraded to the SharePoint site.  
   
 -   The code does not pass the implicit <xref:Microsoft.VisualStudio.SharePoint.Commands.ISharePointCommandContext> parameter to the command. This parameter is passed into the command automatically when you call the command from an extension of the SharePoint project system or an extension of the **SharePoint Connections** node in **Server Explorer**. In other types of solutions, such as in a project template wizard that implements the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface, this parameter is **null**.  
   
-## Compiling the Code  
+## Compile the code  
  This example requires a reference to the Microsoft.VisualStudio.SharePoint assembly.  
   
-## See Also  
+## See also
  [Calling into the SharePoint Object Models](../sharepoint/calling-into-the-sharepoint-object-models.md)   
  [How to: Create a SharePoint Command](../sharepoint/how-to-create-a-sharepoint-command.md)   
  [Walkthrough: Extending Server Explorer to Display Web Parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)  
-  
   

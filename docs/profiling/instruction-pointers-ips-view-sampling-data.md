@@ -2,23 +2,18 @@
 title: "Instruction Pointers (IPs) View - Sampling Data | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Instruction Pointers view"
 ms.assetid: c7f647bb-c5a3-4708-9f9d-33c0fd6e2e96
-caps.latest.revision: 11
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Instruction Pointers (IPs) View - Sampling Data
+# Instruction Pointers (IPs) View - sampling data
 The IPs view of sampling data lists performance data for the assembly instructions that were directly executing when the samples were collected in the profiling run.  
   
 > [!NOTE]
@@ -42,5 +37,5 @@ The IPs view of sampling data lists performance data for the assembly instructio
 |**Exclusive Samples**|The total number of samples that were collected when the instruction was executing.|  
 |**Exclusive Samples %**|The percentage of all samples in the profiling run that were collected when the instruction was executing.|  
   
-## See Also  
- [Instruction Pointers (IPs) View - Sampling](../profiling/instruction-pointers-ips-view-dotnet-memory-sampling-data.md)
+## See also  
+ [Instruction Pointers (IPs) View - sampling](../profiling/instruction-pointers-ips-view-dotnet-memory-sampling-data.md)

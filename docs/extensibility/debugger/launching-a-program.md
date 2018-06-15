@@ -2,20 +2,16 @@
 title: "Launching a Program | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "debug engines, launching"
   - "programs, launching"
 ms.assetid: 6857e9c6-e44a-468a-afa4-f7c4a0b77844
-caps.latest.revision: 21
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

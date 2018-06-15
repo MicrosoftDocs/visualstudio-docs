@@ -1,12 +1,8 @@
 ---
 title: "Remote debugging in Visual Studio | Microsoft Docs"
 ms.custom: "remotedebugging"
-ms.date: "08/14/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.date: "05/21/2018"
+ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.remote.overview"
@@ -19,10 +15,9 @@ dev_langs:
 helpviewer_keywords: 
   - "remote debugging, setup"
 ms.assetid: 5a94ad64-100d-43ca-9779-16cb5af86f97
-caps.latest.revision: 65
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -47,22 +42,63 @@ If you just want to download and install the remote debugger and don't need any 
 
 [!INCLUDE [remote-debugger-download](../debugger/includes/remote-debugger-download.md)]
 
+## <a name="unblock_msvsmon"></a> Unblock the download of the remote tools on Windows Server
+
+The default security settings in Internet Explorer on Windows Server can make it time-consuming to download components such as the remote tools.
+
+* Enhanced Security Configuration is enabled on Internet Explorer, which prevents you from opening websites and accessing web resources unless the domain containing the resource is explicitly allowed (that is, trusted).
+
+* On Windows Server 2016, a default setting in **Internet Options** > **Security** > **Internet** > **Custom Level** > **Downloads** also disables file downloads. If you choose to download the remote tools directly on Windows Server, you must enable file download.
+
+To download the tools on Windows Server, we recommend one of the following:
+
+* Download the remote tools on a different computer such as the one running Visual Studio, and then copy the *.exe* file to Windows Server.
+
+* Run the remote debugger [from a file share](#fileshare_msvsmon) on your Visual Studio machine.
+
+* Download the remote tools directly on Windows Server and accept the prompts to add trusted sites. Modern websites often include many third-party resources, so this can result in a lot of prompts. In addition, any redirected links may need to be added manually. You can choose to add some of the trusted sites before beginning the download. Go to **Internet Options > Security > Trusted Sites > Sites** and add the following sites.
+
+  * visualstudio.com
+  * download.visualstudio.microsoft.com
+  * about:blank
+
+  For older versions of the debugger on my.visualstudio.com, add these additional sites to make sure that login is successful:
+
+  * microsoft.com
+  * go.microsoft.com
+  * download.microsoft.com
+  * my.visualstudio.com
+  * login.microsoftonline.com
+  * login.live.com
+  * secure.aadcdn.microsoftonline-p.com
+  * msft.sts.microsoft.com
+  * auth.gfx.ms
+  * app.vssps.visualstudio.com
+  * vlscppe.microsoft.com
+  * query.prod.cms.rt.microsoft.com
+
+    If you choose to add these domains while downloading the remote tools, then choose **Add** when prompted.
+
+    ![Blocked content dialog box](../debugger/media/remotedbg-blocked-content.png)
+
+    When you download the software, you get some additional requests to grant permission to load various web site scripts and resources. On my.visualstudio.com, we recommend that you add the additional domains to make sure that login is successful.
+
 ### <a name="fileshare_msvsmon"></a> (Optional) To run the remote debugger from a file share
 
-You can find the remote debugger (**msvsmon.exe**) on a computer with Visual Studio Community, Professional, or Enterprise already installed. For some scenarios, the easiest way to set up remote debugging is to run the remote debugger (msvsmon.exe) from a file share. For usage limitations, see the remote debugger's Help page (**Help > Usage** in the remote debugger).
+You can find the remote debugger (*msvsmon.exe*) on a computer with Visual Studio Community, Professional, or Enterprise already installed. For some scenarios, the easiest way to set up remote debugging is to run the remote debugger (msvsmon.exe) from a file share. For usage limitations, see the remote debugger's Help page (**Help > Usage** in the remote debugger).
 
-1. Find **msvsmon.exe** in the directory matching your version of Visual Studio. For Visual Studio Enterprise 2017:
+1. Find *msvsmon.exe* in the directory matching your version of Visual Studio. For Visual Studio Enterprise 2017:
 
-      **Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe**
+      *Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe*
       
-      **Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Remote Debugger\x64\msvsmon.exe**
+      *Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Remote Debugger\x64\msvsmon.exe*
 
 2. Share the **Remote Debugger** folder on the Visual Studio computer.
 
-3. On the remote computer, run **msvsmon.exe**. Follow the [setup instructions](#bkmk_setup).
+3. On the remote computer, run *msvsmon.exe*. Follow the [setup instructions](#bkmk_setup).
 
 > [!TIP] 
-> For command line installation and command line reference, see the Help page for **msvsmon.exe** by typing ``msvsmon.exe /?`` in the command line on the computer with Visual Studio installed (or go to **Help > Usage** in the remote debugger).
+> For command line installation and command line reference, see the Help page for *msvsmon.exe* by typing ``msvsmon.exe /?`` in the command line on the computer with Visual Studio installed (or go to **Help > Usage** in the remote debugger).
   
 ## <a name="requirements_msvsmon"></a> Requirements
 

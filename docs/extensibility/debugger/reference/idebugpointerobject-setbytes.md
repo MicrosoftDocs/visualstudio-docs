@@ -2,21 +2,17 @@
 title: "IDebugPointerObject::SetBytes | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPointerObject::SetBytes"
 helpviewer_keywords: 
   - "IDebugPointerObject::SetBytes method"
 ms.assetid: 8c578b38-38d7-46f3-bb2e-8a730fccd334
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,21 +2,17 @@
 title: "Implementing Single-File Generators | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "custom tools, implementing"
   - "projects [Visual Studio SDK], extensibility"
   - "projects [Visual Studio SDK], managed custom tools"
 ms.assetid: fe9ef6b6-4690-4c2c-872c-301c980d17fe
-caps.latest.revision: 14
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

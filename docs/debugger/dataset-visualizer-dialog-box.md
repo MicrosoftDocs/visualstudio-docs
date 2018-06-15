@@ -2,12 +2,8 @@
 title: "Dataset Visualizer Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.dataviewer"
 dev_langs: 
@@ -22,10 +18,9 @@ helpviewer_keywords:
   - "visualizers, Dataset Visualizer dialog box"
   - "Dataset Visualizer dialog box"
 ms.assetid: dfbede03-805b-4f88-a645-b479450e6cb0
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

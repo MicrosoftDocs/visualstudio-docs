@@ -2,21 +2,17 @@
 title: "How to: Open Project-Specific Editors | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "project types, opening a project-specific editor"
   - "editors [Visual Studio SDK], opening project-specific editors"
   - "projects [Visual Studio SDK], opening folders"
 ms.assetid: 83e56d39-c97b-4c6b-86d6-3ffbec97e8d1
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

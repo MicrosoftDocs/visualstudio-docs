@@ -2,12 +2,8 @@
 title: "Set a Watch on Variables in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "04/04/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.watch"
 helpviewer_keywords: 
@@ -19,7 +15,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], expression evaluation"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

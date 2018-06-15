@@ -1,25 +1,30 @@
 ---
-title: "StateMachine Activity Designer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - StateMachine Activity Designer"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "StateMachine Designer"
   - "System.Activities.Statements.StateMachine.UI"
 ms.assetid: 474d5fb3-1049-4b3f-bc6b-7524dbbe1672
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 author: gewarren
 ---
 # StateMachine Activity Designer
+
 The <xref:System.Activities.Statements.StateMachine> activity contains a collection of states and models workflows using the familiar state machine paradigm.
 
 ## Using the StateMachine Activity Designer
- To add a <xref:System.Activities.Statements.StateMachine> activity, drag the **StateMachine** activity designer from the **State Machine** section of the **Toolbox** and drop it on to the Windows Workflow Designer surface. To add a child state to this <xref:System.Activities.Statements.StateMachine> activity, drag a <xref:System.Activities.Statements.State> or <xref:System.Activities.Core.Presentation.FinalState> from the **Toolbox** and drop it onto the **StateMachine**.
+
+To add a <xref:System.Activities.Statements.StateMachine> activity, drag the **StateMachine** activity designer from the **State Machine** section of the **Toolbox** and drop it on to the Windows Workflow Designer surface. To add a child state to this <xref:System.Activities.Statements.StateMachine> activity, drag a <xref:System.Activities.Statements.State> or <xref:System.Activities.Core.Presentation.FinalState> from the **Toolbox** and drop it onto the **StateMachine**.
 
 ### StateMachine Activity Properties in the Workflow Designer
- The following table shows the <xref:System.Activities.Statements.StateMachine> properties that can be set using the workflow designer and describes how they are used in the designer. These properties can be edited in the property grid and some can be edited on the designer surface.
+
+The following table shows the <xref:System.Activities.Statements.StateMachine> properties that can be set using the workflow designer and describes how they are used in the designer. These properties can be edited in the property grid and some can be edited on the designer surface.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|

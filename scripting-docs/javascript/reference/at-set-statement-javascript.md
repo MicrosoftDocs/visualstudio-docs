@@ -39,7 +39,7 @@ Creates variables used with conditional compilation statements.
   
 ## Parameters  
  *varname*  
- Required. Valid [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] variable name. Must be preceded by an "@" character at all times.  
+ Required. Valid [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] variable name. Must be preceded by an "\@" character at all times.  
   
  `term`  
  Required. Zero or more unary operators followed by a constant, conditional compilation variable, or parenthesized expression.  

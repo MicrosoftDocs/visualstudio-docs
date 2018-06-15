@@ -2,20 +2,16 @@
 title: "Project Modeling | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "automation [Visual Studio SDK], implementing project objects"
   - "project models, automation"
 ms.assetid: c8db8fdb-88c1-4b12-86fe-f3c30a18f9ee
-caps.latest.revision: 9
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,21 +2,17 @@
 title: "IDebugPortSupplier2 | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugPortSupplier2"
 helpviewer_keywords: 
   - "IDebugPortSupplier2 interface"
 ms.assetid: 37067324-2ea6-4a01-8829-a6e9c7a70068
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

@@ -2,20 +2,15 @@
 title: "Find Window Dialog Box | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Spy++, finding windows"
   - "finding windows with Spy++"
 ms.assetid: ee733077-d17a-4439-8a49-bc2f5dbc60d0
-caps.latest.revision: 4
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

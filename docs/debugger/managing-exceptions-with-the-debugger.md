@@ -2,12 +2,8 @@
 title: "Manage exceptions with the Visual Studio debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/05/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.exceptions"
   - "vs.debug.exceptions.find"
@@ -33,10 +29,9 @@ helpviewer_keywords:
   - "native run-time checks"
   - "exceptions, debugging"
 ms.assetid: 43a77fa8-37d0-4c98-a334-0134dbca4ece
-caps.latest.revision: 35
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

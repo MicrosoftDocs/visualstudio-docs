@@ -1,14 +1,15 @@
 ---
-title: "Emulating Real-World Usage of a Web Site for load testing in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Emulating Real-World Usage of a Web Site for load testing in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load model, specifying"
   - "load test load model, specifying"
 ms.assetid: b7fae849-0538-40d1-ab35-2bb3a0fe4393
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Emulate Expected Real-World Usage of a Web Site or Application in a Load Test Using a Test Mix Models

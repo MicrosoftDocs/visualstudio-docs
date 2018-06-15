@@ -2,21 +2,17 @@
 title: "IEnumCodePaths2::Next | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IEnumCodePaths2::Next"
 helpviewer_keywords: 
   - "IEnumCodePaths2::Next"
 ms.assetid: c7a8fe97-2abc-4cee-8aef-64f1daa93b5c
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

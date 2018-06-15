@@ -1,25 +1,23 @@
 ---
-title: "Code Snippets | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
+title: Code snippets
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.topic: "article"
-f1_keywords: 
+ms.topic: conceptual
+f1_keywords:
   - "vs.ExpansionManagerImport"
   - "vs.codesnippetmanager"
 helpviewer_keywords:
   - "surround with"
   - "code snippets"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 dev_langs:
  - CSharp
  - VB
  - CPP
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Code snippets
@@ -92,10 +90,10 @@ If you change `newPropertyValue` to `m_property`, then every instance of `newPro
 
 ## See also
 
-[Walkthrough: Creating a code snippet](../ide/walkthrough-creating-a-code-snippet.md)  
-[How to: Distribute code snippets](../ide/how-to-distribute-code-snippets.md)  
-[Best practices for Using code snippets](../ide/best-practices-for-using-code-snippets.md)  
-[Troubleshooting snippets](../ide/troubleshooting-snippets.md)  
-[C# code snippets](../ide/visual-csharp-code-snippets.md)  
-[Visual C++ code snippets](../ide/visual-cpp-code-snippets.md)  
-[Code snippets schema reference](../ide/code-snippets-schema-reference.md)
+- [Walkthrough: Creating a code snippet](../ide/walkthrough-creating-a-code-snippet.md)
+- [How to: Distribute code snippets](../ide/how-to-distribute-code-snippets.md)
+- [Best practices for using code snippets](../ide/best-practices-for-using-code-snippets.md)
+- [Troubleshooting snippets](../ide/troubleshooting-snippets.md)
+- [C# code snippets](../ide/visual-csharp-code-snippets.md)
+- [Visual C++ code snippets](../ide/visual-cpp-code-snippets.md)
+- [Code snippets schema reference](../ide/code-snippets-schema-reference.md)

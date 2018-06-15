@@ -2,12 +2,8 @@
 title: "Deploying COM Components with ClickOnce | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,10 +15,9 @@ helpviewer_keywords:
   - "deploying applications [ClickOnce], COM components"
   - "components, deploying"
 ms.assetid: 1a4c7f4c-7a41-45f2-9af4-8b1666469b89
-caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -69,7 +64,7 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
   
 4.  In Class1.vb, add the following code after the generated code for the `New` method:  
   
-    ```  
+    ```vb  
     Public Sub SayHello()  
        MsgBox "Message from the VB6Hello COM component"  
     End Sub  
@@ -102,7 +97,7 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
   
 8.  Double-click the button to add handler code, and in the code file, add code so that the handler reads as follows:  
   
-    ```  
+    ```vb  
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click  
         Dim VbObj As New VB6Hello.Class1  
         VbObj.SayHello()  

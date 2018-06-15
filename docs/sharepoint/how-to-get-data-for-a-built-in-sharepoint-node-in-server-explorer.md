@@ -2,12 +2,9 @@
 title: "How to: Get Data for a Built-In SharePoint Node in Server Explorer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,11 +13,11 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, extending SharePoint Connections node in Server Explorer"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Get Data for a Built-In SharePoint Node in Server Explorer
+# How to: Get data for a built-in SharePoint node in Server Explorer
   For each built-in SharePoint node in **Server Explorer**, you can get data for the underlying SharePoint component that the node represents. For more information, see [Extending the SharePoint Connections Node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md).  
   
 ## Example  
@@ -33,7 +30,7 @@ ms.workload:
   
  For more information about the basic tasks to create an extension for a SharePoint node, see [How to: Extend a SharePoint Node in Server Explorer](../sharepoint/how-to-extend-a-sharepoint-node-in-server-explorer.md).  
   
-## Compiling the Code  
+## Compile the code  
  This example requires references to the following assemblies:  
   
 -   EnvDTE  
@@ -44,13 +41,12 @@ ms.workload:
   
 -   System.ComponentModel.Composition  
   
-## Deploying the Extension  
+## Deploy the extension  
  To deploy the **Server Explorer** extension, create a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package for the assembly and any other files that you want to distribute with the extension. For more information, see [Deploying Extensions for the SharePoint Tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).  
   
-## See Also  
+## See also
  [Extending the SharePoint Connections Node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md)   
  [How to: Extend a SharePoint Node in Server Explorer](../sharepoint/how-to-extend-a-sharepoint-node-in-server-explorer.md)   
  [Using the SharePoint Project Service](../sharepoint/using-the-sharepoint-project-service.md)   
  [Deploying Extensions for the SharePoint Tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md)  
-  
   

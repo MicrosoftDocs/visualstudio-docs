@@ -1,7 +1,7 @@
 ---
-title: "Think Times for load testing in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Think Times for load testing in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, think times"
   - "load tests, adding delays"
@@ -9,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: 8e03bee5-ab7b-4b40-9497-9dbe91ccb90e
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Edit Think Times to Simulate Website Human Interaction Delays in Load Tests Scenarios

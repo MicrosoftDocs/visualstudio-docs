@@ -1,13 +1,14 @@
 ---
-title: "Configure Scenario Start Delays for load testing in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: Configure Scenario Start Delays for load testing
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, scenarios, start delays"
 ms.assetid: 2f634fba-8dfa-4c7a-a8b9-be867b78d16a
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Configure Scenario Start Delays in Load Tests
@@ -55,7 +56,7 @@ You can specify a delay before the start of a scenario in a load test by using t
 
 The **Disable During Warmup** property is set by using the Properties window. Editing load test scenario properties is set by the Load Test Editor.
 
- The **Disable During Warmup** property is used to indicate whether the scenario should run or not run during the warm-up period that is specified in the **Delay Start Time** property. For more information, review the previous procedure [Specifying the Delay Start Time of a Scenario](../test/configure-scenario-start-delays.md#ConfiguringScenarioStartDelayHowTo).
+ The **Disable During Warmup** property is used to indicate whether the scenario should run or not run during the warm-up period that is specified in the **Delay Start Time** property. For more information, review the previous procedure [Specifying the Delay Start Time of a Scenario](#specifying-the-delay-start-time-of-a-scenario).
 
 > [!NOTE]
 > For a complete list of the run settings properties and their descriptions, see [Load Test Scenario Properties](../test/load-test-scenario-properties.md).
@@ -66,11 +67,11 @@ The **Disable During Warmup** property is set by using the Properties window. Ed
 
      The **Load Test Editor** appears. The load test tree is displayed.
 
-2. In the load test trees **Scenarios** folder, choose the scenario node that you want to specify the agents to use.
+2. In the load test trees **Scenarios** folder, choose the scenario node that you want to change the warmup behavior for.
 
 3. On the **View** menu, select **Properties Window**.
 
-     The scenario's categories and properties are displayed in the Properties window.
+     The scenario's categories and properties are displayed in the **Properties** window.
 
      In the **Disable During Warmup** property, select either **True** or **False.**
 

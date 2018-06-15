@@ -1,7 +1,7 @@
 ---
-title: "Page Response Time in a Load Test in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Page Response Time in a Load Test in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, response times"
   - "response times in load tests"
@@ -9,7 +9,8 @@ helpviewer_keywords:
 ms.assetid: e61c49f3-3161-45b1-9220-08b5459065a2
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: View Web Page Response Time in a Load Test Using the Load Test Analyzer
@@ -38,7 +39,7 @@ If you run your Web performance test under stress in a load test, you will be ab
 
 3.  The data for each page is displayed in the grid. The following columns are ordinarily displayed.
 
-    |||
+    |Column Heading|Description|
     |-|-|
     |**Page**|The name of the Web page.|
     |**Scenario**|The name of the scenario. Important if you have more than one scenario in your Web performance test.|

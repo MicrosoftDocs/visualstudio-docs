@@ -1,22 +1,24 @@
 ---
-title: "Editing Text Mix Models in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Editing Text Mix Models in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, scenarios"
   - "load tests, virtual users"
 ms.assetid: e3b7d952-9012-400a-8131-3444390a6066
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# Edit Text Mix Models to Specify the Probability of a Virtual User Running a Test
+# Edit Test Mix Models to Specify the Probability of a Virtual User Running a Test
 
 The *test mix model* specifies the probability of a virtual user running a given test in a load test scenario. This lets you simulate load more realistically. Instead of having just one workflow through your applications, you can have several workflows, which is a closer approximation of how end-users interact with your applications.
 
 ## Test Mix Model Options
- You can specify one of the following test mix model options for your load test scenario:
+
+You can specify one of the following test mix model options for your load test scenario:
 
 -   **Based on the total number of tests:** Determines which Web performance or unit test is run when a virtual user starts a test iteration. At the end of the load test, the number of times that a particular test was run matches the assigned test distribution. Use this test mix model when you are basing the test mix on transaction percentages in an IIS log or in production data.
 
@@ -73,5 +75,5 @@ Using the Load Test Editor, you can change the test mix model in a load test sce
 
 ## See also
 
-- [Editing Load Test Scenarios](../test/edit-load-test-scenarios.md)
+- [Edit Load Test Scenarios](../test/edit-load-test-scenarios.md)
 - [Load Test Scenario Properties](../test/load-test-scenario-properties.md)

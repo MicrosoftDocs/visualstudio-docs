@@ -2,23 +2,19 @@
 title: "Performance Session Properties | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Profiling Tools,properties"
   - "property pages,Profiling Tools"
   - "performance tools, performance session properties"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Performance Session Properties
+# Performance session properties
 
 A **Performance Session** enables you to configure settings that determine how the application is profiled. It also stores reports that are generated for the profiling session.
 
@@ -34,17 +30,17 @@ These settings enable you to select the profiling method, to add .NET object col
 
 For more information, see:
 
-[How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md)
+[How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md)
 
-[Collecting .NET Memory Allocation and Lifetime Data](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md)
+[Collect .NET memory allocation and lifetime data](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md)
 
- [How to: Set Performance Data File Name Options](../profiling/how-to-set-performance-data-file-name-options.md)
+ [How to: Set performance data file name options](../profiling/how-to-set-performance-data-file-name-options.md)
 
 ## Launch
 
 These settings enable you to select from a list of binaries and specify the start order of the binaries.
 
-For more information, see [How to: Specify the Binary to Start](../profiling/how-to-specify-the-binary-to-start.md)
+For more information, see [How to: Specify the binary to start](../profiling/how-to-specify-the-binary-to-start.md)
 
 ## Sampling
 
@@ -56,14 +52,14 @@ These settings enable you to select the sample event and sampling interval when 
 - Performance Counters - for low-level performance problems
 - Additional sample events can be specified based on available performance counters
 
-For more information, see [How to: Choose Sampling Events](../profiling/how-to-choose-sampling-events.md)
+For more information, see [How to: Choose sampling events](../profiling/how-to-choose-sampling-events.md)
 
 ## Binary
-These settings enable you to specify whether you want to relocate the instrumented binary to another location. For example, if you are profiling My.DLL and choose not to relocate the instrumented binary, a backup copy of My.DLL named My.Orig.DLL is created. Subsequently, My.DLL is modified by inserting probes to collect data. If you decide to relocate the instrumented binary, the original binary is not renamed and the instrumented binary is copied to the specified location for use during instrumentation.
+These settings enable you to specify whether you want to relocate the instrumented binary to another location. For example, if you are profiling *My.DLL* and choose not to relocate the instrumented binary, a backup copy of *My.DLL* named *My.Orig.DLL* is created. Subsequently, *My.DLL* is modified by inserting probes to collect data. If you decide to relocate the instrumented binary, the original binary is not renamed and the instrumented binary is copied to the specified location for use during instrumentation.
 
-For more information, see [How to: Specify the Binary to Start](../profiling/how-to-specify-the-binary-to-start.md)
+For more information, see [How to: Specify the binary to start](../profiling/how-to-specify-the-binary-to-start.md)
 
-## Tier Interactions
+## Tier interactions
 
 For more information, see [Collecting tier interaction data](../profiling/collecting-tier-interaction-data.md)
 
@@ -73,31 +69,31 @@ These settings enable you to collect performance data for JScript code in [!INCL
 
 For more information, see:
 
-[How to: Profile JavaScript Code in Web Pages](../profiling/how-to-profile-javascript-code-in-web-pages.md)
+[How to: Profile JavaScript code in web pages](../profiling/how-to-profile-javascript-code-in-web-pages.md)
 
-[How to: Specify Pre- and Post-Instrument Commands](../profiling/how-to-specify-pre-and-post-instrument-commands.md)
+[How to: Specify pre- and post-instrument commands](../profiling/how-to-specify-pre-and-post-instrument-commands.md)
 
-## CPU Counters
+## CPU counters
 
 These settings enable you to collect data about CPU performance counters when you are using the instrumentation profiling method. Portable Performance counters are available regardless of the CPU design or manufacturer. Platform Events are specific to the CPU design and manufacturer. For more information about on-chip performance counters, see the specific processor documentation.
 
-For more information, see [How to: Collect CPU Counter Data](../profiling/how-to-collect-cpu-counter-data.md)
+For more information, see [How to: Collect CPU counter data](../profiling/how-to-collect-cpu-counter-data.md)
 
-## Windows Events
+## Windows events
 
-During profiling, you can collect data from event trace providers. You can view the data by using the VSPerfReport.exe command line tool `/calltrace` option. For more information about Event Tracing for Windows (ETW), see [About Event Tracing](http://go.microsoft.com/fwlink/?linkid=90752).
+During profiling, you can collect data from event trace providers. You can view the data by using the *VSPerfReport.exe* command line tool `/calltrace` option. For more information about Event Tracing for Windows (ETW), see [About Event Tracing](http://go.microsoft.com/fwlink/?linkid=90752).
 
 For more information, see:
 
-[How to: Collect Event Tracing for Windows (ETW) Data](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md)
+[How to: Collect event tracing for Windows (ETW) data](../profiling/how-to-collect-event-tracing-for-windows-etw-data.md)
 
 [VSPerfReport](../profiling/vsperfreport.md).
 
-## Windows Counters
+## Windows counters
 
 This option enables you to collect data from Windows Performance Monitor counters. To collect this data, select the check box labeled **Collect Windows Performance Counters**. The collection interval can be set in the **Collection Interval** box. **Counter Category** and **Instance** might be available also. Some default Windows Performance Monitor counters are available.
 
- For more information, see [How to: Collect Windows Counter Data](../profiling/how-to-collect-windows-counter-data.md).
+ For more information, see [How to: Collect Windows counter data](../profiling/how-to-collect-windows-counter-data.md).
 
 ## Advanced
 
@@ -105,12 +101,12 @@ These settings enable you to add options to the instrumentation process by speci
 
 For more information, see:
 
-[How to: Specify the .NET Framework Runtime](../profiling/how-to-specify-the-dotnet-framework-runtime.md)
+[How to: Specify the .NET Framework runtime](../profiling/how-to-specify-the-dotnet-framework-runtime.md)
 
-[How to: Specify Additional Instrumentation Options](../profiling/how-to-specify-additional-instrumentation-options.md)
+[How to: Specify additional instrumentation options](../profiling/how-to-specify-additional-instrumentation-options.md)
 
 ## See also
 
 [Overviews](../profiling/overviews-performance-tools.md)  
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)  
-[Controlling Data Collection](../profiling/controlling-data-collection.md)
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
+[Control data collection](../profiling/controlling-data-collection.md)

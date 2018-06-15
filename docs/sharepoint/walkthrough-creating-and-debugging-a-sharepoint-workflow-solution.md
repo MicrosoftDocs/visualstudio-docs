@@ -2,12 +2,9 @@
 title: "Walkthrough: Creating and Debugging a SharePoint Workflow Solution | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "VS.SharePointTools.Workflow.WorkflowConditions"
   - "VS.SharePointTools.Workflow.WorkflowList"
@@ -21,11 +18,11 @@ helpviewer_keywords:
   - "workflows [SharePoint development in Visual Studio]"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Creating and Debugging a SharePoint Workflow Solution
+# Walkthrough: Create and debug a SharePoint workflow solution
   This walkthrough demonstrates how to create a basic sequential workflow template. The workflow checks a property of a shared document library to determine whether a document has been reviewed. If the document has been reviewed, the workflow finishes.  
   
  This walkthrough illustrates the following tasks:  
@@ -48,7 +45,7 @@ ms.workload:
   
 -   Visual Studio.  
   
-## Adding Properties to the SharePoint Shared Documents Library  
+## Add properties to the SharePoint shared documents library
  To track the review status of documents in the **Shared Documents** library, we will create three new properties for shared documents on our SharePoint site: `Status`, `Assignee`, and `Review Comments`. We define these properties in the **Shared Documents** library.  
   
 #### To add properties to the SharePoint shared documents library  
@@ -69,7 +66,7 @@ ms.workload:
   
 5.  Create two more columns and name them **Assignee** and **Review Comments**. Set the Assignee column type as a single line of text, and the Review Comments column type as multiple lines of text.  
   
-## Enabling Documents to be Edited without Requiring a Check Out  
+## Enable documents to be edited without requiring a check out
  It is easier to test the workflow template when you can edit the documents without having to check them out. In the next procedure, you configure the SharePoint site to enable that.  
   
 #### To enable documents to be edited without checking them out  
@@ -84,14 +81,14 @@ ms.workload:
   
 5.  Close the browser.  
   
-## Creating a SharePoint Sequential Workflow Project  
+## Create a SharePoint sequential workflow project
  A sequential workflow is a set of steps that executes in order until the last activity finishes. In this procedure, we create a sequential workflow that will apply to our Shared Documents list. The workflow wizard lets you associate the workflow with either the site definition or the list definition and lets you determine when the workflow will start.  
   
 #### To create a SharePoint sequential workflow project  
   
 1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
-2.  On the menu bar, choose **File**, **New**, **Project** to display the **New Project** dialog box.  
+2.  On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.  
   
 3.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
@@ -105,7 +102,7 @@ ms.workload:
   
      This step sets the trust level for the solution as farm solution, the only available option for workflow projects. For more information, see [Sandboxed Solution Considerations](../sharepoint/sandboxed-solution-considerations.md).  
   
-7.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project**, **Add New Item**.  
+7.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project** > **Add New Item**.  
   
 8.  Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -123,7 +120,7 @@ ms.workload:
   
      This page enables you to specify when your workflow starts. By default, the workflow starts either when a user manually starts it in SharePoint or when an item to which the workflow is associated is created.  
   
-## Creating Workflow Activities  
+## Create workflow activities
  Workflows contain one or more *activities* that represent actions to perform. Use the workflow designer to arrange activities for a workflow. In this procedure, we will add two activities to the workflow: HandleExternalEventActivity and OnWorkFlowItemChanged. These activities monitor the review status of documents in the **Shared Documents** list  
   
 #### To create workflow activities  
@@ -169,12 +166,12 @@ ms.workload:
     |**CorrelationToken**|**workflowToken**|  
     |**Invoked**|**onWorkflowItemChanged**|  
   
-## Handling Activity Events  
+## Handle activity events
  Finally, check the status of the document from each activity. If the document has been reviewed, then the workflow is finished.  
   
 #### To handle activity events  
   
-1.  In Workflow1.cs or Workflow1.vb, add the following field to the top of the `Workflow1` class. This field is used in an activity to determine whether the workflow is finished.  
+1.  In *Workflow1.cs* or *Workflow1.vb*, add the following field to the top of the `Workflow1` class. This field is used in an activity to determine whether the workflow is finished.  
   
     ```vb  
     Dim workflowPending As Boolean = True  
@@ -245,14 +242,14 @@ ms.workload:
   
 5.  Save the project.  
   
-## Testing the SharePoint Workflow Template  
+## Test the SharePoint workflow template
  When you start the debugger, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] deploys the workflow template to the SharePoint server and associates the workflow with the **Shared Documents** list. To test the workflow, start an instance of the workflow from a document in the **Shared Documents** list.  
   
 #### To test the SharePoint workflow template  
   
-1.  In Workflow1.cs or Workflow1.vb, set a breakpoint next to the **onWorkflowActivated** method.  
+1.  In *Workflow1.cs* or *Workflow1.vb*, set a breakpoint next to the **onWorkflowActivated** method.  
   
-2.  Choose the F5 key to build and run the solution.  
+2.  Choose the **F5** key to build and run the solution.  
   
      The SharePoint site appears.  
   
@@ -266,7 +263,7 @@ ms.workload:
   
 6.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], verify that the debugger stops at the breakpoint next to the `onWorkflowActivated` method.  
   
-7.  Choose the F5 key to continue execution.  
+7.  Choose the **F5** key to continue execution.  
   
 8.  You can change the settings for the document here, but leave them at the default values for now by choosing the **Save** button.  
   
@@ -282,16 +279,15 @@ ms.workload:
   
 12. In the **Shared Documents** page, verify that the value underneath the **Document Status** column is set to **Review Complete**. Refresh the **Shared Documents** page and verify that the value underneath the **MySharePointWorkflow - Workflow1** column is set to **Completed**. This indicates that workflow is finished and that the document has been reviewed.  
   
-## Next Steps  
+## Next steps
  You can learn more about how to create workflow templates from these topics:  
   
 -   To learn more about SharePoint workflow activities, see [Workflow Activities for SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkId=178992).  
   
 -   To learn more about Windows Workflow Foundation activities, see [System.Workflow.Activities Namespace](http://go.microsoft.com/fwlink/?LinkId=178993).  
   
-## See Also  
+## See also
  [Creating SharePoint Workflow Solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)   
  [SharePoint Project and Project Item Templates](../sharepoint/sharepoint-project-and-project-item-templates.md)   
  [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)  
-  
   

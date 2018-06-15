@@ -2,21 +2,17 @@
 title: "IDebugBreakpointRequest2::GetRequestInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugBreakpointRequest2::GetRequestInfo"
 helpviewer_keywords: 
   - "IDebugBreakpointRequest2::GetRequestInfo"
 ms.assetid: 5defd8d7-6daa-479b-8909-fcc4ae0b357a
-caps.latest.revision: 11
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

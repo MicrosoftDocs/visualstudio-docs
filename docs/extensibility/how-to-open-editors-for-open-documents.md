@@ -2,19 +2,15 @@
 title: "How to: Open Editors for Open Documents | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], opening for open documents"
 ms.assetid: 1a0fa49c-efa4-4dcc-bdc0-299b7052acdc
-caps.latest.revision: 13
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

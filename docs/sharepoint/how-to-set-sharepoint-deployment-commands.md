@@ -2,12 +2,9 @@
 title: "How to: Set SharePoint Deployment Commands | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,16 +14,16 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, deploying"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Set SharePoint Deployment Commands
+# How to: Set SharePoint deployment commands
   You can customize the deployment process by setting pre-deployment and post-deployment commands. These commands run before and after other deployment actions when you debug SharePoint solutions from Visual Studio.  
   
 ### To add a pre-deployment command  
   
-1.  On the menu bar, choose **Project**, *ProjectName***Properties**.  
+1.  On the menu bar, choose **Project** > **\<*ProjectName*> Properties**.  
   
 2.  Choose the **SharePoint** tab.  
   
@@ -36,7 +33,7 @@ ms.workload:
   
 ### To add a post-deployment command  
   
-1.  On the menu bar, choose **Project**, *ProjectName***Properties**.  
+1.  On the menu bar, choose **Project** > **\<*ProjectName*> Properties**.  
   
 2.  Choose the **SharePoint** tab.  
   
@@ -44,7 +41,6 @@ ms.workload:
   
      For example, to list the directory contents after deployment is completed, enter **dir**. To use a MSBuild variable to copy the assembly from the build directory, enter **copy $(TargetPath) c:\DeploymentDirectory**.  
   
-## See Also  
+## See also
  [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
-  
   

@@ -1,6 +1,7 @@
 ---
-title: "Using Regular Expressions in Visual Studio | Microsoft Docs"
+title: Use regular expressions in Visual Studio
 ms.date: 03/26/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
@@ -12,13 +13,13 @@ f1_keywords:
 helpviewer_keywords:
   - "regular expressions [Visual Studio]"
   - "regular expressions"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: gewarren
+ms.author: gewarren
+manager: douge
 ms.workload:
   - "multiple"
 ---
-# Using regular expressions in Visual Studio
+# Use regular expressions in Visual Studio
 
 Visual Studio uses [.NET Framework regular expressions](/dotnet/standard/base-types/regular-expressions) to find and replace text.
 
@@ -26,7 +27,7 @@ Visual Studio uses [.NET Framework regular expressions](/dotnet/standard/base-ty
 
 To use a numbered capture group, surround the group with parentheses in the regular expression pattern. Use `$number`, where `number` is an integer starting at 1, to specify a specific, numbered group in a replacement pattern. For example, the grouped regular expression `(\d)([a-z])` defines two groups: the first group contains a single decimal digit, and the second group contains a single character between **a** and **z**. The expression finds four matches in the following string: **1a 2b 3c 4d**. The replacement string `z$1` references the first group only, and converts the string to **z1 z2 z3 z4**.
 
-For information about regular expressions that are used in replacement patterns, see [Substitutions in regular expressions (.NET Guide)](/dotnet/standard/base-types/substitutions-in-regular-expressions).
+For information about regular expressions that are used in replacement patterns, see [Substitutions in regular expressions (.NET guide)](/dotnet/standard/base-types/substitutions-in-regular-expressions).
 
 ## Regular expression examples
 
@@ -68,4 +69,4 @@ Here are some examples:
 
 ## See also
 
-[Finding and Replacing Text](../ide/finding-and-replacing-text.md)
+- [Find and replace text](../ide/finding-and-replacing-text.md)

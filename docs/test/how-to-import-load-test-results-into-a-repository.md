@@ -1,7 +1,7 @@
 ---
-title: "How to: Import Load Test Results into a Repository in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "How to: Import Load Test Results into a Repository in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "results, load test"
   - "load test results, importing"
@@ -10,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: a955b3d2-c8ad-40dd-8ea3-9f1a271e1eed
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Import Load Test Results into a Repository

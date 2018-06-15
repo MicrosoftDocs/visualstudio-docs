@@ -1,21 +1,18 @@
 ---
-title: "C# Code Snippets | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/05/2017"
-ms.reviewer: ""
-ms.suite: ""
+title: C# code snippets
+ms.date: 06/05/2017
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: reference
+helpviewer_keywords:
   - "snippets [C#]"
   - "code snippets [C#]"
   - "Code Snippet Inserter [C#]"
   - "C#, code snippets"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "dotnet"
 ---
 # C# code snippets
@@ -24,7 +21,7 @@ Code snippets are ready-made snippets of code you can quickly insert into your c
 
  You can insert a code snippet at the cursor location, or insert a surround-with code snippet around the currently selected code. The Code Snippet Inserter is invoked through the **Insert Code Snippet** or **Surround With** commands on the **IntelliSense** menu, or by using the keyboard shortcuts **Ctrl**+**K**,**X** or **Ctrl**+**K**,**S** respectively.
 
- The Code Snippet Inserter displays the code snippet name for all available code snippets. The Code Snippet Inserter also includes an input dialog box where you can type the name of the code snippet, or part of the code snippet name. The Code Snippet Inserter highlights the closest match to a code snippet name. Pressing **Tab** at any time will dismiss the Code Snippet Inserter and insert the currently selected code snippet. Pressing **Esc** or clicking the mouse in the Code Editor will dismiss the Code Snippet Inserter without inserting a code snippet.
+ The **Code Snippet Inserter** displays the code snippet name for all available code snippets. The Code Snippet Inserter also includes an input dialog box where you can type the name of the code snippet, or part of the code snippet name. The Code Snippet Inserter highlights the closest match to a code snippet name. Pressing **Tab** at any time will dismiss the Code Snippet Inserter and insert the currently selected code snippet. Pressing **Esc** or clicking the mouse in the code editor will dismiss the Code Snippet Inserter without inserting a code snippet.
 
 ## Default code snippets
 
@@ -55,7 +52,7 @@ By default the following code snippets are included in Visual Studio for C#.
 |iterator|Creates an iterator.|Inside a class or a struct.|
 |iterindex|Creates a "named" iterator and indexer pair by using a nested class.|Inside a class or a struct.|
 |lock|Creates a [lock](/dotnet/csharp/language-reference/keywords/lock-statement) block.|Inside a method, an indexer, a property accessor, or an event accessor.|
-|mbox|Creates a call to <xref:System.Windows.Forms.MessageBox.Show%2A?displayProperty=fullName>. You may have to add a reference to System.Windows.Forms.dll.|Inside a method, an indexer, a property accessor, or an event accessor.|
+|mbox|Creates a call to <xref:System.Windows.Forms.MessageBox.Show%2A?displayProperty=fullName>. You may have to add a reference to *System.Windows.Forms.dll*.|Inside a method, an indexer, a property accessor, or an event accessor.|
 |namespace|Creates a [namespace](/dotnet/csharp/language-reference/keywords/namespace) declaration.|Inside a namespace (including the global namespace).|
 |prop|Creates an [auto-implemented property](/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties) declaration.|Inside a class or a struct.|
 |propfull|Creates a property declaration with `get` and `set` accessors.|Inside a class or a struct.|
@@ -73,7 +70,7 @@ By default the following code snippets are included in Visual Studio for C#.
 
 ## See also
 
-[Code Snippet Functions](../ide/code-snippet-functions.md)  
-[Code Snippets](../ide/code-snippets.md)  
-[Template Parameters](../ide/template-parameters.md)  
-[How to: Use Surround-with Code Snippets](../ide/how-to-use-surround-with-code-snippets.md)
+- [Code snippet functions](../ide/code-snippet-functions.md)
+- [Code snippets](../ide/code-snippets.md)
+- [Template parameters](../ide/template-parameters.md)
+- [How to: Use surround-with code snippets](../ide/how-to-use-surround-with-code-snippets.md)

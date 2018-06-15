@@ -1,24 +1,20 @@
 ---
-title: "Profiling Feature Tour | Microsoft Docs"
-ms.custom: "H1HackMay2017"
+title: "Measure performance with profiling tools"
+description: "Take a brief look at the different diagnostic tools available in Visual Studio."
+ms.custom: "mvc"
 ms.date: "05/18/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "quickstart"
 helpviewer_keywords: 
-  - "debugger"
+  - "diagnostic tools"
 ms.assetid: d2ee0301-ea78-43d8-851a-71b7b2043d73
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Profiling Feature Tour
+# Quickstart: First look at profiling tools
 
 Visual Studio provides a variety of profiling tools to help you diagnose different kinds of performance issues depending on your app type.
 
@@ -30,11 +26,11 @@ While you are debugging, you can use the **Diagnostic Tools** window to analyze 
 
 ![Diagnostic Tools Summary view](../profiling/media/prof-tour-cpu-and-memory-graph.gif "Diagnostic Tools Summary")
 
-The **Diagnostic Tools** window is often the preferred way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. If you want more information on different approaches, see [Running Profiling Tools With or Without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](#tool_support_info).
+The **Diagnostic Tools** window is often the preferred way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. If you want more information on different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](#which-tool-should-i-use).
 
 ## Analyze CPU Usage
 
-The CPU Usage tool is a good place to start analyzing your app's performance. It will tell you more about CPU resources that your app is consuming. For a more detailed walkthrough of the CPU Usage tool, see [Beginner's Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md).
+The CPU Usage tool is a good place to start analyzing your app's performance. It will tell you more about CPU resources that your app is consuming. For a more detailed walkthrough of the CPU Usage tool, see [Beginner's guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md).
 
 From the **Summary** view of the Diagnostic Tools, choose **Enable CPU Profiling** (you must be in a debugging session).
 
@@ -50,9 +46,9 @@ Double-click on a function that you are interested in, and you will see a more d
 
 ![Diagnostic Tools caller callee "butterfly" view](../profiling/media/prof-tour-cpu-usage-caller-callee.png "Diagnostic Tools Caller Callee View")
 
-## Analyze Memory Usage
+## Analyze memory usage
 
-The Diagnostic Tools window also allows you to evaluate memory usage in your app. For example, you can look at the number and size of objects on the heap. For more detailed instructions to analyze memory, see [Analyze Memory Usage](../profiling/memory-usage.md).
+The **Diagnostic Tools** window also allows you to evaluate memory usage in your app. For example, you can look at the number and size of objects on the heap. For more detailed instructions to analyze memory, see [Analyze memory usage](../profiling/memory-usage.md).
 
 To analyze memory usage, you need to take at least one memory snapshot while you are debugging. Often, the best way to analyze memory is to take two snapshots; the first right before a suspected memory issue, and the second snapshot right after a suspected memory issue occurs. Then you can view a diff of the two snapshots and see exactly what changed.
 
@@ -64,7 +60,7 @@ When you select one of the arrow links, you are given a differential view of the
 
 If you click the link on the left instead in the **Memory Usage** view, the heap view is organized by object count; the objects of a particular type that increased the most in number are shown at the top (sorted by **Count Diff** column).
 
-## Examine Performance Events
+## Examine performance events
 
 The **Events** view in the Diagnostic Tools shows you different events that occur while you are debugging, such as the setting of a breakpoint or a code stepping operation. You can check information such as the duration of the event (measured from when the debugger was last paused, or when the app started). For example, if you step through code (F10, F11), the **Events** view shows you the app runtime duration from the previous step operation to the current step.
 
@@ -77,23 +73,23 @@ The same events also show up in the code editor, which you can view as PerfTips.
 
 ![Profiling Tour PerfTips](../profiling/media/prof-tour-perf-tips.png "Profiling Tour PerfTips")
 
-## Examine UI Performance and Accessibility Events (UWP)
+## Examine UI performance and accessibility events (UWP)
 
-In your UWP apps, you can enable **UI Analysis** in the Diagnostic Tools window. The tool searches for common performance or accessibility issues and displays them in the **Events** view while you are debugging. The event descriptions provide information that can help resolve issues.
+In your UWP apps, you can enable **UI Analysis** in the **Diagnostic Tools** window. The tool searches for common performance or accessibility issues and displays them in the **Events** view while you are debugging. The event descriptions provide information that can help resolve issues.
 
-![View UI Analysis events in the Diagnostic Tools](../profiling/media/prof-tour-ui-analysis.png "Diagnostic Tools View UI Analysis Events")
+![View UI analysis events in the diagnostic tools](../profiling/media/prof-tour-ui-analysis.png "Diagnostic Tools View UI Analysis Events")
 
-## Profile Release Builds without the Debugger
+## Profile release builds without the debugger
 
-Profiling tools like CPU Usage and Memory Usage can be used with the debugger (see earlier sections), or you can run profiling tools using the Performance Profiler, which is intended to provide analysis for **Release** builds. In the Performance Profiler, you can collect diagnostic info while the app is running, and then examine the collected information after the app is stopped. For more information on these different approaches, see [Running Profiling Tools With or Without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+Profiling tools like CPU Usage and Memory Usage can be used with the debugger (see earlier sections), or you can run profiling tools using the Performance Profiler, which is intended to provide analysis for **Release** builds. In the Performance Profiler, you can collect diagnostic info while the app is running, and then examine the collected information after the app is stopped. For more information on these different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
 ![Performance Profiler](../profiling/media/prof-tour-performance-profiler.png "Performance Profiler")
 
-Open the Performance Profiler by choosing **Debug / Performance Profiler**.
+Open the Performance Profiler by choosing **Debug** > **Performance Profiler**.
 
 The window will allow you to select multiple profiling tools in some scenarios. Tools such as CPU Usage may provide complementary data that you can use to help in your analysis.
 
-## Analyze Resource Consumption (XAML)
+## Analyze resource consumption (XAML)
 
 In XAML apps, such as Windows desktop WPF apps and UWP apps, you can analyze resource consumption using the Application Timeline tool. For example, you can analyze the time spent by your application preparing UI frames (layout and render), servicing network and disk requests, and in scenarios like application startup, page load, and Window resize. To use the tool, choose **Application Timeline** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario with a suspected resource consumption issue, and then choose **Stop collection** to generate the report.
 
@@ -115,7 +111,7 @@ When you select a time period in the graphs and choose **view details**, a detai
 
 You can also use the graphs to determine whether there are CPU bound or GPU bound performance bottlenecks.
 
-## Analyze Performance (JavaScript)
+## Analyze performance (JavaScript)
 
 For UWP apps, you can use the JavaScript Memory tool and the HTML UI Responsiveness tool.
 
@@ -127,7 +123,7 @@ To diagnose UI responsiveness, slow loading time, and slow visual updates in UWP
 
 ![HTML UI Responsiveness profiling tool](../profiling/media/diaghtmlresp.png "DiagHTMLResp")
 
-## Analyze Network Usage (UWP)
+## Analyze network usage (UWP)
 
 In UWP apps, you can analyze network operations performed using the `Windows.Web.Http` API.This tool may help you to resolve issues like access and authentication problems, incorrect cache-use, and poor display and download performance. To use the tool, choose **Network** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario that uses `Windows.Web.Http`, and then choose **Stop collection** to generate the report.
 
@@ -139,13 +135,13 @@ Select an operation in the summary view to view more details.
 
 For more information, see [Network Usage](../profiling/network-usage.md).
 
-## Analyze Performance (Legacy Tools)
+## Analyze performance (legacy tools)
 
 If you need features such as instrumentation that are not currently present in CPU Usage or Memory Usage tools, and you are running desktop or ASP.NET apps, you can use the Performance Explorer for profiling. (Not supported in UWP apps). For more info, see [Performance Explorer](../profiling/performance-explorer.md).
 
 ![Performance Explorer tool](../profiling/media/prof-tour-performance-explorer.png "Performance Explorer")
 
-## <a name="tool_support_info"></a>Which Tool Should I Use?  
+## Which tool should I use?  
 
 Here is a table that lists the different tools Visual Studio offers and the different project types you can use them with:
   
@@ -165,5 +161,5 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 > [!NOTE]
 > For .NET Core and ASP.NET Core, the CPU Usage tool currently does not provide accurate results with portable PBDs. Use full PDBs instead.
 
-## See Also  
+## See also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

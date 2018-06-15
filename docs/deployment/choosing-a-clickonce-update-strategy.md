@@ -2,12 +2,8 @@
 title: "Choosing a ClickOnce Update Strategy | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,10 +13,9 @@ helpviewer_keywords:
   - "updates, ClickOnce"
   - "ClickOnce deployment, update strategies"
 ms.assetid: d8b6e7bb-4ea0-47f3-91cd-48580bdceccc
-caps.latest.revision: 23
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -35,7 +30,7 @@ ms.workload:
 >  Application updates require network connectivity. If a network connection is not present, the application will run without checking for updates, regardless of the update strategy that you choose.  
   
 > [!NOTE]
->  In .NET Framework 2.0 and .NET Framework 3.0, any time your application checks for updates, before or after startup, or by using the <xref:System.Deployment.Application> APIs, you must set `deploymentProvider` in the deployment manifest. The `deploymentProvider` element corresponds in Visual Studio to the **Update location** field on the **Updates** dialog box of the **Publish** tab. This rule is relaxed in .NET Framework 3.5. For more information, see [Deploying ClickOnce Applications For Testing and Production Servers without Resigning](../deployment/deploying-clickonce-applications-for-testing-and-production-servers-without-resigning.md).  
+>  In .NET Framework 2.0 and .NET Framework 3.0, any time your application checks for updates, before or after startup, or by using the <xref:System.Deployment.Application> APIs, you must set `deploymentProvider` in the deployment manifest. The `deploymentProvider` element corresponds in Visual Studio to the **Update location** field on the **Updates** dialog box of the **Publish** tab. This rule is relaxed in .NET Framework 3.5. For more information, see [Deploying ClickOnce Applications For Testing and Production Servers without Resigning](../deployment/deploying-clickonce-applications-for-testing-and-production-without-resigning.md).  
   
 ## Checking for Updates After Application Startup  
  By using this strategy, the application will attempt to locate and read the deployment manifest file in the background while the application is running. If an update is available, the next time that the user runs the application, he will be prompted to download and install the update.  

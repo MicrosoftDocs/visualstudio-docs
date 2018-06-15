@@ -1,20 +1,23 @@
 ---
-title: "How to: Implement a Windows Communication Foundation Contract Operation (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: "Workflow Designer - How to: Implement a Windows Communication Foundation Contract Operation (Legacy)"
+ms.date: 11/04/2016
+ms.topic: conceptual
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
 ms.assetid: d6aeb20e-fac8-4a9d-bd26-ae78bef96b41
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # How to: Implement a Windows Communication Foundation Contract Operation (Legacy)
-This topic describes how to implement a [!INCLUDE[indigo1](../workflow-designer/includes/indigo1_md.md)] contract operation using the legacy Windows Workflow Designer that targets the [!INCLUDE[netfx35_long](../workflow-designer/includes/netfx35_long_md.md)] or the [!INCLUDE[vstecwinfx](../workflow-designer/includes/vstecwinfx_md.md)].
 
- After dragging a **ReceiveActivity** activity from the toolbox to the workflow design surface, you will either create a new [!INCLUDE[indigo2](../workflow-designer/includes/indigo2_md.md)] contract or import an existing contract and implement the operations. You select and/or create your contract and its operations through the [Choose Operation Dialog Box (Legacy)](../workflow-designer/choose-operation-dialog-box-legacy.md).
+This topic describes how to implement a Windows Communication Foundation (WCF) contract operation using the legacy Windows Workflow Designer that targets the .NET Framework version 3.5 or the WinFX.
 
-### To implement a WCF contract operation
+After dragging a **ReceiveActivity** activity from the toolbox to the workflow design surface, you will either create a new [!INCLUDE[indigo2](../workflow-designer/includes/indigo2_md.md)] contract or import an existing contract and implement the operations. You select and/or create your contract and its operations through the [Choose Operation Dialog Box (Legacy)](../workflow-designer/choose-operation-dialog-box-legacy.md).
+
+## To implement a WCF contract operation
 
 1.  Double-click the **ReceiveActivity** activity in the designer or click the ellipsis next to the **ServiceOperationInfo** property in the **Properties** pane.
 

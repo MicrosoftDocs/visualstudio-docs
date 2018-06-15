@@ -2,12 +2,8 @@
 title: "Building ClickOnce Applications from the Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,10 +13,9 @@ helpviewer_keywords:
   - "publishing"
   - "publishing, ClickOnce"
 ms.assetid: d9bc6212-c584-4f72-88c9-9a4b998c555e
-caps.latest.revision: 23
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

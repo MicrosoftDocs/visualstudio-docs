@@ -2,12 +2,9 @@
 title: "Getting Started (SharePoint Development in Visual Studio) | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,26 +14,25 @@ helpviewer_keywords:
   - "SharePoint development in Visual Studio, getting started"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Getting Started (SharePoint Development in Visual Studio)
+# Get started (SharePoint development in Visual Studio)
   This section helps you start working with [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] to develop SharePoint solutions that take advantage of [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] and [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)].  
   
  For information about SharePoint 2013 and SharePoint add-ins, see [SharePoint 2013](http://msdn.microsoft.com/library/jj162979.aspx) and [Build SharePoint add-ins](http://msdn.microsoft.com/library/office/apps/jj163230%28v=office.15%29.aspx).  
   
  SharePoint offers a Web-based collaboration platform. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] provides many project templates for creating SharePoint sites and content, including list definitions, workflows, business data connectivity models, and site definitions. In addition, you can create extensions for the SharePoint projects and tools in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
-## In This Section  
+## In this section
   
 |Topic|Description|  
 |-----------|-----------------|  
 |[Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md)|Lists software requirements to develop for SharePoint.|  
 |[Additional Information for SharePoint Errors](../sharepoint/additional-information-for-sharepoint-errors.md)|Describes where to find help during SharePoint development and troubleshooting.|  
-|||  
   
-## Related Sections  
+## Related sections
   
 |Topic|Description|  
 |-----------|-----------------|  
@@ -52,7 +48,7 @@ ms.workload:
 |[Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)|Describes how to package and deploy SharePoint solutions.|  
 |[Extending the SharePoint Tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)|Describes how to extend the SharePoint tools to create the features that you need.|  
   
-## See Also  
+## See also
  [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)   
  [Browsing SharePoint Connections Using Server Explorer](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)   
  [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)   

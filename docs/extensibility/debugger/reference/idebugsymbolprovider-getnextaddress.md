@@ -2,21 +2,17 @@
 title: "IDebugSymbolProvider::GetNextAddress | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugSymbolProvider::GetNextAddress"
 helpviewer_keywords: 
   - "IDebugSymbolProvider::GetNextAddress method"
 ms.assetid: 704eeb94-cb13-49d1-82b6-7d83ed0f19c0
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

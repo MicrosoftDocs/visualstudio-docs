@@ -2,21 +2,16 @@
 title: "Using the IntelliTrace stand-alone collector | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.historicaldebug.collectdataoutsideVS"
 helpviewer_keywords: 
   - "IntelliTrace, debugging applications in production"
 ms.assetid: 1bde9807-8219-4a2a-a440-ac5ee5178159
-caps.latest.revision: 105
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

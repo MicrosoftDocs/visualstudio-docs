@@ -2,12 +2,9 @@
 title: "Developing a Legacy Language Service | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.vsip.LangServWiz.langtoks"
   - "vs.vsip.LangServWiz.welcome"
@@ -17,10 +14,9 @@ f1_keywords:
 helpviewer_keywords: 
   - "language services, developing"
 ms.assetid: 6151ba88-c1c3-41de-a1cc-668f494d48d1
-caps.latest.revision: 28
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

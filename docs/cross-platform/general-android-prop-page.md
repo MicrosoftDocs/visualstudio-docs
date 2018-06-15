@@ -2,15 +2,12 @@
 title: "General Project Properties (Android C++)| Microsoft Docs"
 ms.custom: ""
 ms.date: "10/23/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-mobile
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 65f4868b-b864-4989-a275-1e51869ef599
 author: "corob"
 ms.author: "mblome"
-manager: ghogen
+manager: douge
 f1_keywords: 
   - VC.Project.VCConfiguration.OutputDirectory
   - VC.Project.VCConfiguration.IntermediateDirectory

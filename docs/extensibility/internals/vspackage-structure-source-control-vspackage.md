@@ -2,20 +2,16 @@
 title: "VSPackage Structure (Source Control VSPackage) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "VSPackages, structure"
   - "source control packages, VSPackage overview"
 ms.assetid: 92722be7-b397-48c3-a7a7-0b931a341961
-caps.latest.revision: 26
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

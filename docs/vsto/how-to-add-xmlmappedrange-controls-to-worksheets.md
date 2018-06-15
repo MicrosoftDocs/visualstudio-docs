@@ -1,13 +1,10 @@
 ---
-title: "How to: Add XMLMappedRange Controls to Worksheets | Microsoft Docs"
+title: "How to: Add XMLMappedRange controls to worksheets"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -16,11 +13,11 @@ helpviewer_keywords:
   - "controls [Office development in Visual Studio], adding to worksheets"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add XMLMappedRange Controls to Worksheets
+# How to: Add XMLMappedRange controls to worksheets
   When you map an XML element to a cell in Microsoft Office Excel, Visual Studio automatically adds an <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control to your worksheet.  
   
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]  
@@ -28,7 +25,7 @@ ms.workload:
 > [!NOTE]  
 >  The <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control is not available on the **Toolbox** or the **Data Sources** window. Additionally, you cannot create <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> controls programmatically.  
   
-### To add an XMLMappedRange control to a worksheet  
+## To add an XMLMappedRange control to a worksheet  
   
 1.  Open the Excel workbook in the Visual Studio designer.  
   
@@ -37,7 +34,7 @@ ms.workload:
 3.  On the **Developer** tab, click **Source**.  
   
     > [!NOTE]  
-    >  If the **Developer** tab is not visible on the Ribbon, you must enable it. For more information, see [How to: Show the Developer Tab on the Ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).  
+    >  If the **Developer** tab is not visible on the Ribbon, you must enable it. For more information, see [How to: Show the Developer tab on the Ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).  
   
      The **XML Source** task pane appears.  
   
@@ -60,11 +57,11 @@ ms.workload:
     > [!NOTE]  
     >  If you drag a parent element from the **XML Source** task pane, a <xref:Microsoft.Office.Tools.Excel.ListObject> control is created.  
   
-## See Also  
- [XmlMappedRange Control](../vsto/xmlmappedrange-control.md)   
- [Automating Excel by Using Extended Objects](../vsto/automating-excel-by-using-extended-objects.md)   
- [Host Items and Host Controls Overview](../vsto/host-items-and-host-controls-overview.md)   
- [Programmatic Limitations of Host Items and Host Controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)   
- [How to: Map Schemas to Worksheets Inside Visual Studio](../vsto/how-to-map-schemas-to-worksheets-inside-visual-studio.md)  
+## See also  
+ [XmlMappedRange control](../vsto/xmlmappedrange-control.md)   
+ [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)   
+ [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)   
+ [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)   
+ [How to: Map schemas to worksheets inside Visual Studio](../vsto/how-to-map-schemas-to-worksheets-inside-visual-studio.md)  
   
   

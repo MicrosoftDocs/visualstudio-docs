@@ -2,17 +2,13 @@
 title: "UX Essentials for Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "04/26/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: a793cf7a-f230-43ce-88d0-fa5d6f1aa9c7
-caps.latest.revision: 7
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

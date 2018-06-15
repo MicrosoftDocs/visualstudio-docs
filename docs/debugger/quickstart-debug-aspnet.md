@@ -1,24 +1,20 @@
 ---
-title: "Debug ASP.NET - Visual Studio | Microsoft Docs"
+title: "Debug ASP.NET"
+description: "Debug ASP.NET using the Visual Studio debugger"
 ms.custom: "mvc"
 ms.date: "03/16/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
+ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: f4cea2e1-08dc-47ac-aba2-3b8c338e607f
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "aspnet"
 ---
-# Debug ASP.NET with the Visual Studio debugger
+# Quickstart: Debug ASP.NET with the Visual Studio debugger
 
 The Visual Studio debugger provides many powerful features to help you debug your apps. This topic provides a quick way to learn some of the basic features.
 
@@ -40,7 +36,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 1. In Solution Explorer, open About.cshtml.cs (under Pages/About.cshtml) and replace the following code
 
-    ```c#
+    ```csharp
     public void OnGet()
     {
         Message = "Your application description page.";
@@ -49,7 +45,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
     with this code:
 
-    ```c#
+    ```csharp
     public void OnGet()
     {
         LinkedList<int> result = doWork();

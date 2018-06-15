@@ -1,13 +1,10 @@
 ---
-title: "&lt;entryPoint&gt; Element (Office Development in Visual Studio) | Microsoft Docs"
+title: "&lt;entryPoint&gt; element (Office development in Visual Studio)"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -17,22 +14,22 @@ helpviewer_keywords:
   - "entryPoint element"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# &lt;entryPoint&gt; Element (Office Development in Visual Studio)
+# &lt;entryPoint&gt; element (Office development in Visual Studio)
   Each `entryPoint` element of the `vstav3` namespace identifies a customization assembly that should be run when this [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] application is installed.  
   
 ## Syntax  
   
-```  
+```xml  
 <entryPoint class>  
     <assemblyIdentity />  
 </entryPoint>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `entryPoint` element is required and is in the `vstav3` namespace.  
   
  Each `entryPoint` element can contain only one customization assembly. There can be multiple `entryPoint` elements defined in an application manifest.  
@@ -48,16 +45,16 @@ ms.workload:
 ### assemblyIdentity  
  Required. The `assemblyIdentity` element in the `vstav3` namespace refers to an existing `assemblyIdentity` element in the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] application manifest.  
   
- The role of `assemblyIdentity` and its attributes is defined in [&#60;assemblyIdentity&#62; Element &#40;ClickOnce Application&#41;](/visualstudio/deployment/assemblyidentity-element-clickonce-application).  
+ The role of `assemblyIdentity` and its attributes is defined in [&#60;assemblyIdentity&#62; element &#40;ClickOnce application&#41;](/visualstudio/deployment/assemblyidentity-element-clickonce-application).  
   
-## Document-Level Customization Example  
+## Document-level customization example  
   
 ### Description  
- The following code example illustrates `entryPoint` elements in an application manifest for a document-level Office solution deployed using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).  
+ The following code example illustrates `entryPoint` elements in an application manifest for a document-level Office solution deployed using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
   
 ### Code  
   
-```  
+```xml  
 <vstav3:entryPoint   
   class="ContosoExcelWorkbook.ThisWorkbook">  
   <assemblyIdentity   
@@ -92,14 +89,14 @@ ms.workload:
 </vstav3:entryPoint>  
 ```  
   
-## VSTO Add-in Example  
+## VSTO Add-in example  
   
 ### Description  
- The following code example illustrates an `entryPoint` element in an application manifest for an application-level Office solution deployed using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md).  
+ The following code example illustrates an `entryPoint` element in an application manifest for an application-level Office solution deployed using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
   
 ### Code  
   
-```  
+```xml
 <vstav3:entryPoint   
   class="ContosoOutlookAddIn.ThisAddIn">  
   <assemblyIdentity   
@@ -110,9 +107,9 @@ ms.workload:
 </vstav3:entryPoint>  
 ```  
   
-## See Also  
- [Application Manifests for Office Solutions](../vsto/application-manifests-for-office-solutions.md)   
- [Deployment Manifests for Office Solutions](../vsto/deployment-manifests-for-office-solutions.md)   
- [ClickOnce Application Manifest](/visualstudio/deployment/clickonce-application-manifest)  
+## See also  
+ [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md)   
+ [Deployment manifests for Office solutions](../vsto/deployment-manifests-for-office-solutions.md)   
+ [ClickOnce application manifest](/visualstudio/deployment/clickonce-application-manifest)  
   
   

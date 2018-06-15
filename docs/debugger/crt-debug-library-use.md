@@ -2,12 +2,8 @@
 title: "CRT Debug Library Use | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "c.debug.runtime"
 dev_langs: 
@@ -29,10 +25,9 @@ helpviewer_keywords:
   - "DEBUG linker option [C++]"
   - "/LDd compiler function [C++]"
 ms.assetid: 464de16b-4215-4787-9bfa-921aaff9d9f4
-caps.latest.revision: 16
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

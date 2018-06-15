@@ -17,7 +17,7 @@ The [list of software downloads](http://download.microsoft.com/download/1/5/4/15
 
 If you already have a Visual Studio subscription: 
 1. Go to [https://my.visualstudio.com/downloads](https://my.visualstudio.com/downloads?wt.mc_id=o~msft~docs)
-2. Sign in to your subscription.  (Get help [signing in](/visualstudio/subscriptions/signing-in).)
+2. Sign in to your subscription.  (Get help [signing in](signing-in.md).)
 3. Upon successful sign-in, you will be able to search for your desired downloads.  You can also see a list of popular downloads, which can be sorted by any of several criteria. 
 
 To quickly find products, use the "Search" functions at the top of the page or click on the different product types on the left.

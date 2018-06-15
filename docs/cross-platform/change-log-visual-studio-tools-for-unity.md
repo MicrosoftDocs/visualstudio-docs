@@ -1,21 +1,56 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 ms.custom: ""
-ms.date: "03/23/2018"
-ms.reviewer: ""
-ms.suite: ""
+ms.date: "05/07/2018"
 ms.technology: vs-unity-tools
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
-author: "dantogno"
-ms.author: "v-davian"
+author: "TerryGLee"
+ms.author: "tglee"
 manager: crdun
 ms.workload:
   - "unity"
 ---
 # Change Log (Visual Studio Tools for Unity, Windows)
 Visual Studio Tools for Unity change log.
+
+## 3.7.0.1
+ Released 2018-05-07
+
+### Bug fixes
+
+-   **Installer:**
+
+    -   Fixed dependency issue when using experimental builds.
+
+## 3.7.0.0
+ Released 2018-05-07
+
+### New Features
+
+-   **Debugging:**
+
+    -   Added support for orchestrated debugging (debugging multiple players/editor with the same Visual Studio session).
+    
+    -   Added support for Android USB player debugging.
+    
+    -   Added support for UWP/IL2CPP player debugging.
+
+-   **Evaluation:**
+
+    -   Added support for hexadecimal specifiers.
+    
+    -   Improved watch window evaluation experience.
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Fixed usage of exception settings.
+
+-   **Project Generation:**
+
+    -   Exclude package manager compilation units from generation.
 
 ## 3.6.0.5
  Released 2018-03-13
@@ -24,7 +59,7 @@ Visual Studio Tools for Unity change log.
 
 -   **Project Generation:**
 
-    -   Added support for the new project generator in Unity 2018.1
+    -   Added support for the new project generator in Unity 2018.1.
 
 ### Bug fixes
 
@@ -82,7 +117,7 @@ Visual Studio Tools for Unity change log.
 -   **Integration:**
 
     -   Only reload projects on external change (with throttling).
- 
+
 ## 3.6.0.1
  Released 2018-01-24
 
@@ -91,9 +126,9 @@ Visual Studio Tools for Unity change log.
 -   **Integration:**
 
     -   Fixed automatic pdb to mdb debug symbol conversion.
-    
+
     -   Fixed indirect call to EditorPrefs.GetBool impacting the inspector while trying to change array size.
- 
+
 ## 3.6.0.0
  Released 2018-01-10
 
@@ -110,7 +145,7 @@ Visual Studio Tools for Unity change log.
 -   **Debugger:**
 
     -   Added support for DebuggerHidden/DebuggerStepThrough attributes with the new Unity runtime.
-    
+
 -   **Wizards:**
 
     -   Introduce 'Latest' version for wizards.
@@ -124,7 +159,7 @@ Visual Studio Tools for Unity change log.
 -   **Debugger:**
 
     -   Fixed a race in handling breaking events.
-    
+
 -   **Wizards:**
 
     -   Refresh roslyn context before inserting method.

@@ -2,11 +2,8 @@
 title: "GetFrameworkSdkPath Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#GetFrameworkSdkPath"
 dev_langs: 
@@ -18,10 +15,9 @@ helpviewer_keywords:
   - "GetFrameworkSdkPath task [MSBuild]"
   - "MSBuild, GetFrameworkSdkPath task"
 ms.assetid: 2ef82b98-02b6-40cf-a9b5-f0e882fb5064
-caps.latest.revision: 10
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

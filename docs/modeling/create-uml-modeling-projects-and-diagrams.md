@@ -1,16 +1,16 @@
 ---
-title: "Create UML modeling projects and diagrams | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/23/2018"
-ms.topic: "article"
-helpviewer_keywords: 
+title: Create UML modeling projects and diagrams
+ms.date: 01/23/2018
+ms.topic: conceptual
+helpviewer_keywords:
   - "modeling diagrams (UML)"
   - "UML designers"
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Create UML modeling projects and diagrams

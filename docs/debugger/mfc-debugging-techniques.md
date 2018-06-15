@@ -2,12 +2,8 @@
 title: "MFC Debugging Techniques | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "AfxEnableMemoryTracking"
   - "CMemoryState"
@@ -26,10 +22,9 @@ dev_langs:
 helpviewer_keywords: 
   - "debugging [MFC]"
 ms.assetid: b154fc31-5e90-4734-8cbd-58dd9fe1f750
-caps.latest.revision: 20
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -159,11 +154,11 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
   
 ###  <a name="BKMK_Taking_memory_snapshots"></a> Taking memory snapshots  
   
-1.  Create a [CMemoryState](http://msdn.microsoft.com/en-us/8fade6e9-c6fb-4b2a-8565-184a912d26d2) object and call the [CMemoryState::Checkpoint](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__Checkpoint) member function. This creates the first memory snapshot.  
+1.  Create a [CMemoryState](http://msdn.microsoft.com/en-us/8fade6e9-c6fb-4b2a-8565-184a912d26d2) object and call the [CMemoryState::Checkpoint](/cpp/mfc/reference/cmemorystate-structure#checkpoint) member function. This creates the first memory snapshot.  
   
 2.  After your program performs its memory allocation and deallocation operations, create another `CMemoryState` object and call `Checkpoint` for that object. This gets a second snapshot of memory usage.  
   
-3.  Create a third `CMemoryState` object and call its [CMemoryState::Difference](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__Difference) member function, supplying as arguments the two previous `CMemoryState` objects. If there is a difference between the two memory states, the `Difference` function returns a nonzero value. This indicates that some memory blocks have not been deallocated.  
+3.  Create a third `CMemoryState` object and call its [CMemoryState::Difference](/cpp/mfc/reference/cmemorystate-structure#difference) member function, supplying as arguments the two previous `CMemoryState` objects. If there is a difference between the two memory states, the `Difference` function returns a nonzero value. This indicates that some memory blocks have not been deallocated.  
   
      This example shows what the code looks like:  
   
@@ -190,12 +185,12 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
   
      Notice that the memory-checking statements are bracketed by **#ifdef _DEBUG / #endif** blocks so that they are compiled only in Debug versions of your program.  
   
-     Now that you know a memory leak exists, you can use another member function, [CMemoryState::DumpStatistics](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__DumpStatistics) that will help you locate it.  
+     Now that you know a memory leak exists, you can use another member function, [CMemoryState::DumpStatistics](/cpp/mfc/reference/cmemorystate-structure#dumpstatistics) that will help you locate it.  
   
  [In this topic](#BKMK_In_this_topic)  
   
 ###  <a name="BKMK_Viewing_memory_statistics"></a> Viewing memory statistics  
- The [CMemoryState::Difference](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__Difference) function looks at two memory-state objects and detects any objects not deallocated from the heap between the beginning and end states. After you have taken memory snapshots and compared them using `CMemoryState::Difference`, you can call [CMemoryState::DumpStatistics](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__DumpStatistics) to get information about the objects that have not been deallocated.  
+ The [CMemoryState::Difference](/cpp/mfc/reference/cmemorystate-structure#difference) function looks at two memory-state objects and detects any objects not deallocated from the heap between the beginning and end states. After you have taken memory snapshots and compared them using `CMemoryState::Difference`, you can call [CMemoryState::DumpStatistics](/cpp/mfc/reference/cmemorystate-structure#dumpstatistics) to get information about the objects that have not been deallocated.  
   
  Consider the following example:  
   
@@ -230,7 +225,7 @@ Total allocations: 67 bytes
  [In this topic](#BKMK_In_this_topic)  
   
 ###  <a name="BKMK_Taking_object_dumps"></a> Taking object dumps  
- In an MFC program, you can use [CMemoryState::DumpAllObjectsSince](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__DumpAllObjectsSince) to dump a description of all objects on the heap that have not been deallocated. `DumpAllObjectsSince` dumps all objects allocated since the last [CMemoryState::Checkpoint](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__Checkpoint). If no `Checkpoint` call has taken place, `DumpAllObjectsSince` dumps all objects and nonobjects currently in memory.  
+ In an MFC program, you can use [CMemoryState::DumpAllObjectsSince](/cpp/mfc/reference/cmemorystate-structure#dumpallobjectssince) to dump a description of all objects on the heap that have not been deallocated. `DumpAllObjectsSince` dumps all objects allocated since the last [CMemoryState::Checkpoint](/cpp/mfc/reference/cmemorystate-structure#checkpoint). If no `Checkpoint` call has taken place, `DumpAllObjectsSince` dumps all objects and nonobjects currently in memory.  
   
 > [!NOTE]
 >  Before you can use MFC object dumping, you must [enable diagnostic tracing](#BKMK_Enabling_Memory_Diagnostics).  
@@ -302,7 +297,7 @@ CPerson* p = new CPerson( "Smith", "Alan", "581-0215" );
   
  The `CPerson` constructor takes three arguments that are pointers to `char`, which are used to initialize `CString` member variables. In the memory dump, you can see the `CPerson` object along with three nonobject blocks (3, 4, and 5). These hold the characters for the `CString` member variables and will not be deleted when the `CPerson` object destructor is invoked.  
   
- Block number 2 is the `CPerson` object itself. `$51A4` represents the address of the block and is followed by the contents of the object, which were output by `CPerson`::`Dump` when called by [DumpAllObjectsSince](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__DumpAllObjectsSince).  
+ Block number 2 is the `CPerson` object itself. `$51A4` represents the address of the block and is followed by the contents of the object, which were output by `CPerson`::`Dump` when called by [DumpAllObjectsSince](/cpp/mfc/reference/cmemorystate-structure#dumpallobjectssince).  
   
  You can guess that block number 1 is associated with the `CString` frame variable because of its sequence number and size, which matches the number of characters in the frame `CString` variable. Variables allocated on the frame are automatically deallocated when the frame goes out of scope.  
   
@@ -359,7 +354,7 @@ Phone #: 581-0215
  [In this topic](#BKMK_In_this_topic)  
   
 ####  <a name="BKMK_Customizing_object_dumps"></a> Customizing object dumps  
- When you derive a class from [CObject](/cpp/mfc/reference/cobject-class), you can override the `Dump` member function to provide additional information when you use [DumpAllObjectsSince](/cpp/mfc/reference/cmemorystate-structure.md#cmemorystate__DumpAllObjectsSince) to dump objects to the [Output window](../ide/reference/output-window.md).  
+ When you derive a class from [CObject](/cpp/mfc/reference/cobject-class), you can override the `Dump` member function to provide additional information when you use [DumpAllObjectsSince](/cpp/mfc/reference/cmemorystate-structure#dumpallobjectssince) to dump objects to the [Output window](../ide/reference/output-window.md).  
   
  The `Dump` function writes a textual representation of the object's member variables to a dump context ([CDumpContext](/cpp/mfc/reference/cdumpcontext-class)). The dump context is similar to an I/O stream. You can use the append operator (**<<**) to send data to a `CDumpContext`.  
   

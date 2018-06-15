@@ -1,8 +1,9 @@
 ---
-title: "Visual Studio Test Explorer FAQ | Microsoft Docs"
-ms.date: "1/15/2018"
+title: "Visual Studio Test Explorer FAQ"
+ms.date: 1/15/2018
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 helpviewer_keywords:
   - "Test Explorer"
   - "Test window"
@@ -14,7 +15,7 @@ ms.author: "kehavens"
 ms.workload:
   - "multiple"
 author: kendrahavens
-manager: ghogen
+manager: douge
 ---
 # Visual Studio Test Explorer FAQ
 
@@ -81,7 +82,7 @@ Feature flags are used to ship experimental or unfinished parts of the product t
 To turn on a feature flag through the Visual Studio developer command prompt, use the following command. Change the path to where Visual Studio is installed on your machine, and change the registry key to the desired feature flag.
 
 ```shell
-vsregedit set “C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise” HKLM FeatureFlags\TestingTools\UnitTesting\HierarchyView Value dword 1
+vsregedit set “C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterprise" HKLM FeatureFlags\TestingTools\UnitTesting\HierarchyView Value dword 1
 ```
 
 > [!NOTE]

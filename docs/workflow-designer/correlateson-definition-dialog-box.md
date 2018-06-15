@@ -1,22 +1,25 @@
 ---
-title: "CorrelatesOn Definition Dialog Box | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords: 
+title: "Workflow Designer - CorrelatesOn Definition Dialog Box"
+ms.date: 11/04/2016
+ms.topic: reference
+ms.prod: visual-studio-dev15
+ms.technology: vs-workflow-designer
+f1_keywords:
   - "CorrelatesOnDefinition.UI"
 ms.assetid: 8b2b627a-f236-4479-aa09-525df65e3413
 author: gewarren
 ms.author: gewarren
-manager: ghogen
-ms.workload: 
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # CorrelatesOn Definition Dialog Box
+
 The **CorrelatesOn** dialog box is used in Windows Workflow Designer to edit the <xref:System.ServiceModel.Activities.Receive.CorrelatesOn%2A> property of a <xref:System.ServiceModel.Activities.Receive> activity. For more information, see the [Receive](../workflow-designer/receive-activity-designer.md) topic.
 
- The correlation between <xref:System.ServiceModel.Activities.Receive> activities specifies how different service operations connect with each other in a workflow.
+The correlation between <xref:System.ServiceModel.Activities.Receive> activities specifies how different service operations connect with each other in a workflow.
 
- The following table describes the user interface (UI) elements of the **CorrelatesOn** dialog box.
+The following table describes the user interface (UI) elements of the **CorrelatesOn** dialog box.
 
 |UI Element|Description|
 |----------------|-----------------|
@@ -24,7 +27,8 @@ The **CorrelatesOn** dialog box is used in Windows Workflow Designer to edit the
 |**XPath Queries**|A key/value pair that contains the queries used to extract correlation data from the incoming messages. This corresponds to the <xref:System.ServiceModel.Activities.Receive.CorrelatesOn%2A> property. The XPath queries are contained in a <xref:System.ServiceModel.MessageQuerySet> object.|
 
 ## To launch the CorrelatesOn dialog box
- The **Receive** activity designer can be dragged from the **Toolbox** and dropped on to the [!INCLUDE[wfd2](../workflow-designer/includes/wfd2_md.md)] surface wherever activities are usually placed. This creates a <xref:System.ServiceModel.Activities.Receive> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of Receive. Select the **Receive** activity designer and click the ellipsis button next to the (Collection) text for the **CorrelatesOn** property in the property grid for the **CorrelatesOn Definition** dialog box to appear.
+
+The **Receive** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed. This creates a <xref:System.ServiceModel.Activities.Receive> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of Receive. Select the **Receive** activity designer and click the ellipsis button next to the (Collection) text for the **CorrelatesOn** property in the property grid for the **CorrelatesOn Definition** dialog box to appear.
 
 ## See also
 

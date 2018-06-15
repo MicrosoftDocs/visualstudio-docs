@@ -2,12 +2,9 @@
 title: "Walkthrough: Creating a Web Part for SharePoint by Using a Designer | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,11 +16,11 @@ helpviewer_keywords:
   - "Web Parts [SharePoint development in Visual Studio], designing"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Creating a Web Part for SharePoint by Using a Designer
+# Walkthrough: Create a web part for SharePoint by using a designer
 
 If you create web parts for a SharePoint site, your users can directly modify the content, appearance, and behavior of pages in that site by using a browser. This walkthrough shows you how to create a web part visually by using the SharePoint **Visual Web Part** project template in Visual Studio.
 
@@ -45,13 +42,13 @@ You need the following components to complete this walkthrough:
 
 - Supported editions of Windows and SharePoint. See [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
 
-## Creating a web part project
+## Create a web part project
 
 First, create a web part project by using the **Visual Web Part** project template.
 
 1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using the **Run as Administrator** option.
 
-2. On the menu bar, choose **File**, **New**, **Project**.
+2. On the menu bar, choose **File** > **New** > **Project**.
 
      The **New Project** dialog box appears.
 
@@ -71,7 +68,7 @@ Design the web part by adding controls from the **Toolbox** to the surface of th
 
 1. On the Visual Web Developer designer, choose the **Design** tab to switch to Design view.
 
-2. On the menu bar, choose **View**, **Toolbox**.
+2. On the menu bar, choose **View** > **Toolbox**.
 
 3. In the **Standard** node of the **Toolbox**, choose the **CheckBoxList** control, and then perform one of the following steps:
 
@@ -83,7 +80,7 @@ Design the web part by adding controls from the **Toolbox** to the surface of th
 
 5. In the designer, choose the **Button1** button.
 
-6. On the menu bar, choose **View**, **Properties Window**.
+6. On the menu bar, choose **View** > **Properties Window**.
 
      The **Properties** window opens.
 
@@ -127,7 +124,7 @@ Add code that enables the user to add calendars to the master calendar view.
      [!code-vb[SP_VisualWebPart#4](../sharepoint/codesnippet/VisualBasic/sp_visualwebpart.vb/visualwebpart1/visualwebpart1usercontrol.ascx.vb#4)]
      [!code-csharp[SP_VisualWebPart#4](../sharepoint/codesnippet/CSharp/sp_visualwebpart.cs/visualwebpart1/visualwebpart1usercontrol.ascx.cs#4)]
 
-## Testing the web part
+## Test the web part
 
 When you run the project, the SharePoint site opens. The web part is automatically added to the Web Part Gallery in SharePoint. To test this project, you'll perform the following tasks:
 
@@ -137,7 +134,7 @@ When you run the project, the SharePoint site opens. The web part is automatical
 
 ### To add events to calendar lists on the site
 
-1. In Visual Studio, choose the F5 key.
+1. In Visual Studio, choose the **F5** key.
 
      The SharePoint site opens, and the [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] Quick Launch bar appears on the page.
 

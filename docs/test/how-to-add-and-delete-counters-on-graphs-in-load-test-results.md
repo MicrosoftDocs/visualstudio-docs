@@ -1,7 +1,7 @@
 ---
-title: "Add and Delete Counters on Graphs in Load Test Results in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Add and Delete Counters on Graphs in Load Test Results in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "load test results graphs, adding counters"
   - "load test results graph"
@@ -10,14 +10,15 @@ helpviewer_keywords:
 ms.assetid: 81536233-1962-40d9-9511-0b4633814d90
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Add and Delete Counters on Graphs in Load Test Results
 
 You can use the Counters panel to add performance counters to a graph.
 
- ![Added counter to graph](../test/media/ltest_selectcounter.png "LTest_SelectCounter")
+ ![Added counter to graph](../test/media/ltest_selectcounter.png)
 
  **Performance Counter Sampling Interval Considerations**
 

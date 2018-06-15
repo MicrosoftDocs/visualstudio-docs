@@ -2,17 +2,13 @@
 title: "How to: Diagnose extension performance| Microsoft Docs"
 ms.custom: ""
 ms.date: "11/08/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 46b0a1e3-7e69-47c9-9d8d-a1815d6c3896
-caps.latest.revision: 1
 author: "BertanAygun"
 ms.author: "bertaygu"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "bertaygu"
 ---

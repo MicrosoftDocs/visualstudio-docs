@@ -2,12 +2,8 @@
 title: "Debug an installed app package (UWP) | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
 ms.date: "07/17/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 f1_keywords: 
   - "vs.debug.installedapppackagelauncher"
   - "vs.debug.remote.connection"
@@ -20,10 +16,9 @@ dev_langs:
 helpviewer_keywords: 
   - "app package, debug"
 ms.assetid: 5a94ad64-100d-43ca-9779-16cb5af86f97
-caps.latest.revision: 1
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "uwp"
 ---
@@ -90,7 +85,7 @@ When you debug an installed app package on a remote computer for the first time,
      > [!NOTE]
 > At present, an XBox or HoloLens device will restart the app with the debugger attached if it is already running.
 
-For information on advanced options for remote deployment of UWP apps, see [Deploying and debugging UWP apps](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps.md#advanced-remote-deployment-options). 
+For information on advanced options for remote deployment of UWP apps, see [Deploying and debugging UWP apps](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options). 
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/index.md)  

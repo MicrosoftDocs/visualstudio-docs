@@ -1,7 +1,7 @@
 ---
-title: "Coding a custom validation rule for a web performance test in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Coding a custom validation rule for a web performance test in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 helpviewer_keywords:
   - "custom validation rules"
   - "validation rules, creating"
@@ -14,7 +14,8 @@ dev_langs:
   - VB
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # Coding a custom validation rule for a web performance test
@@ -54,7 +55,7 @@ You can create your own validation rules. To do this, you derive your own rule c
 The following code shows an implementation of a custom validation rule. This validation rule mimics the behavior of the predefined Required Tag validation rule. Use this example as a starting point for your own custom validation rules.
 
 > [!WARNING]
->  Public properties in the code for a custom validator cannot have null values.
+> Public properties in the code for a custom validator cannot have null values.
 
 ```csharp
 using System;

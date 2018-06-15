@@ -2,20 +2,16 @@
 title: "How to: Provide Automation for Windows | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology:
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "automation [Visual Studio SDK], tool windows"
   - "tool windows, automation"
 ms.assetid: 512ab2a4-7987-4912-8f40-8804bf66f829
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload:
   - "vssdk"
 ---

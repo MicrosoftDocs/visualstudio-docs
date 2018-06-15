@@ -1,8 +1,9 @@
 ---
-title: "How To: Create a Data-Driven Unit Test in Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
+title: "How To: Create a Data-Driven Unit Test in Visual Studio"
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
-ms.topic: "article"
+ms.topic: conceptual
 f1_keywords:
   - "vs.test.testresults.unittest.datadriven"
   - "vs.test.testresults.unittest.datadriven.failure"
@@ -11,7 +12,7 @@ helpviewer_keywords:
   - "unit tests, data-driven"
   - "data-driven unit tests"
 ms.author: gewarren
-manager: ghogen
+manager: douge
 ms.workload:
   - "multiple"
 author: gewarren
@@ -107,13 +108,13 @@ The `Assert` method includes a message that displays the `x` and `y` values of a
 ###  <a name="BKMK_Specifying_the_DataSourceAttribute"></a> Specifying the DataSourceAttribute
  The `DataSource` attribute specifies the connection string for the data source and the name of the table that you use in the test method. The exact information in the connection string differs, depending on what kind of data source you are using. In this example, we used a SqlServerCe database.
 
-```
+```csharp
 [DataSource(@"Provider=Microsoft.SqlServerCe.Client.4.0;Data Source=C:\Data\MathsData.sdf", "AddIntegersData")]
 ```
 
 The DataSource attribute has three constructors.
 
-```
+```csharp
 [DataSource(dataSourceSettingName)]
 ```
 
@@ -121,7 +122,7 @@ The DataSource attribute has three constructors.
 
  Using an app.config file allows you to change the location of the data source without making changes to the unit test itself. For information about how to create and use an app.config file, see [Walkthrough: Using a Configuration File to Define a Data Source](../test/walkthrough-using-a-configuration-file-to-define-a-data-source.md)
 
-```
+```csharp
 [DataSource(connectionString, tableName)]
 ```
 
@@ -129,7 +130,7 @@ The DataSource attribute has three constructors.
 
  The connection strings depend on the type of the type of data source, but it should contain a Provider element that specifies the invariant name of the data provider.
 
-```
+```csharp
 [DataSource(
     dataProvider,
     connectionString,

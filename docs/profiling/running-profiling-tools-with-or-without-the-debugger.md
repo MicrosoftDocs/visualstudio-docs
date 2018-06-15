@@ -2,21 +2,16 @@
 title: "Running Profiling Tools With or Without the Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 ms.assetid: 3fcdccad-c1bd-4c67-bcec-bf33a8fb5d63
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Running Profiling Tools With or Without the Debugger
+# Run profiling tools with or without the debugger
 Visual Studio now offers you a choice of performance tools, some of which (for example, **CPU Usage** and **Memory Usage**) can be run with or without the debugger. Non-debugger performance tools are intended to run on Release configurations, while debugger-integrated tools are intended to run on Debug configurations.  
   
 ## Should I run the tool with or without the debugger?  
@@ -39,9 +34,9 @@ Visual Studio now offers you a choice of performance tools, some of which (for e
 ##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging  
  The following section deals with debugging locally. You can find out about debugging on a device or remote debugging, in later sections.  
   
-1.  Open the project you want to debug, then click **Debug / Start Debugging** (or **Start** on the toolbar, or **F5**).  
+1.  Open the project you want to debug, then click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).  
   
-2.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug / Windows / Show Diagnostic Tools**.  
+2.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.  
   
 3.  Run the scenarios that you want to collect data for.  
   
@@ -51,11 +46,11 @@ Visual Studio now offers you a choice of performance tools, some of which (for e
   
      ![DiagnosticTools&#45;Update1](../profiling/media/diagnostictools-update1.png "DiagnosticTools-Update1")  
   
-4.  You can choose whether to see **Memory Usage** or **CPU Usage** (or both) with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can enable or disable IntelliTrace in **Tools / Options / IntelliTrace**.  
+4.  You can choose whether to see **Memory Usage** or **CPU Usage** (or both) with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can enable or disable IntelliTrace in **Tools** > **Options** > **IntelliTrace**.  
   
 5.  The diagnostic session ends when you stop debugging.  
   
- In Visual Studio 2015 Update 1, the **Diagnostic Tools** window makes it easier for you focus on the events you are interested in.   The event names are now shown with category prefixes (**Gesture**, **Program Output**, **Breakpoint**, **File,** etc.) so you can quickly scan the list for a given category or skip the categories you don't care about.  
+ In Visual Studio 2015 Update 1, the **Diagnostic Tools** window makes it easier for you focus on the events you are interested in.   The event names are now shown with category prefixes (**Gesture**, **Program Output**, **Breakpoint**, **File**, etc.) so you can quickly scan the list for a given category or skip the categories you don't care about.  
   
  The window now has a search box so that you can find a specific string anywhere in the event list. For example, the following graphic shows the results of a search for the string "install" that matched four events:  
   
@@ -72,7 +67,7 @@ Visual Studio now offers you a choice of performance tools, some of which (for e
   
 1.  Open the project in Visual Studio.  
   
-2.  On the **Debug** menu, choose **Performance Profiler...** (Shortcut key: Alt + F2).  
+2.  On the **Debug** menu, choose **Performance Profiler** (Shortcut key: **Alt**+**F2**).  
   
 3.  On the diagnostic launch page, choose one or more tools to run in the session. Only the tools that are applicable to the project type, operating system, and programming language are displayed. When you choose a diagnostic tool, the selections for tools that cannot be run in the same diagnostic session are disabled. Here's how your choices might look for a C# UWP app:  
   
@@ -106,7 +101,7 @@ Visual Studio now offers you a choice of performance tools, some of which (for e
 |![Step 5](../profiling/media/procguid_6.png "ProcGuid_6")|When your data includes information from multiple tools, the details for the tool is collected under tabs.|  
 |![Step 6](../profiling/media/procguid_6a.png "ProcGuid_6a")|A tool can have one or more detail views. The view is filtered by the selected region of the timeline.|  
   
-## Setting the analysis target to another device  
+## Set the analysis target to another device  
  Besides starting your app from the Visual Studio project, you can also run diagnostic sessions on alternative targets. For example, you might want to diagnose performance issues on a version of your app that was installed from the Windows App Store.  
   
  ![Choose diagnostic tools analysis target](../profiling/media/pdhub_chooseanalysistarget.png "PDHUB_ChooseAnalysisTarget")  

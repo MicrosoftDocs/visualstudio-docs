@@ -2,21 +2,17 @@
 title: "IDebugCoreServer3::GetServerFriendlyName | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugCoreServer3::GetServerFriendlyName"
 helpviewer_keywords: 
   - "IDebugCoreServer3::GetServerFriendlyName"
 ms.assetid: 7035b904-b3d7-4d9b-98d9-65714b8a8b9f
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

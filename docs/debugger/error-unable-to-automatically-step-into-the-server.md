@@ -2,12 +2,8 @@
 title: "Error: Unable to Automatically Step Into the Server | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "reference"
+ms.technology: "vs-ide-debug"
+ms.topic: "troubleshooting"
 f1_keywords: 
   - "vs.debug.error.causality_no_server_response"
 dev_langs: 
@@ -18,10 +14,9 @@ dev_langs:
   - "JScript"
 helpviewer_keywords: 
   - "remote debugging, notification error"
-caps.latest.revision: 13
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

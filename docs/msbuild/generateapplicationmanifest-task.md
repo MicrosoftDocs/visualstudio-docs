@@ -2,11 +2,8 @@
 title: "GenerateApplicationManifest Task | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 f1_keywords: 
   - "http://schemas.microsoft.com/developer/msbuild/2003#GenerateApplicationManifest"
 dev_langs: 
@@ -19,10 +16,9 @@ helpviewer_keywords:
   - "HostInBrowser property (MSBuild)"
   - "GenerateApplicationManifest task [MSBuild]"
 ms.assetid: a494102b-0cb2-4755-8e2a-d2c0f39fac1d
-caps.latest.revision: 24
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
+manager: douge
 ms.workload: 
   - "multiple"
 ---

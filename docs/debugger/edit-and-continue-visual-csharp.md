@@ -2,12 +2,8 @@
 title: "Edit and Continue (Visual C#) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/11/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: "vs-ide-debug"
+ms.topic: "conceptual"
 dev_langs: 
   - "CSharp"
   - "VB"
@@ -18,10 +14,9 @@ helpviewer_keywords:
   - "Edit and Continue [C#]"
   - "debugging [C#], Edit and Continue"
 ms.assetid: 591bd1b7-ef10-4d10-817b-3f92ca4be006
-caps.latest.revision: 18
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "dotnet"
 ---

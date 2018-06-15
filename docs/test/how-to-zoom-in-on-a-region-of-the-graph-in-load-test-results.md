@@ -1,7 +1,7 @@
 ---
-title: "Zoom in on load test result graphs in Visual Studio | Microsoft Docs"
-ms.date: "10/19/2016"
-ms.topic: "article"
+title: "Zoom in on load test result graphs in Visual Studio"
+ms.date: 10/19/2016
+ms.topic: conceptual
 f1_keywords:
   - "vs.test.load.monitor.graphzoom"
 helpviewer_keywords:
@@ -10,7 +10,8 @@ helpviewer_keywords:
 ms.assetid: 729b4c30-4bc3-4698-91b3-17a676897443
 author: gewarren
 ms.author: gewarren
-manager: ghogen
+manager: douge
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
 # How to: Zoom in on a Region of the Graph in Load Test Results
@@ -33,7 +34,7 @@ After a load test has finished, you can use zoom bars to zoom in and scroll to a
 > [!TIP]
 > You can use **Synchronize Horizontal Zoom Controls** in the toolbar to switch on or off automatic horizontal zoom synchronization. With synchronization on, any zooming you apply to a graph will also be applied to any other graphs on the Graphs View.
 
- ![Graph view zoom control](../test/media/ltest_zoomcontrol.png "LTest_ZoomControl")
+ ![Graph view zoom control](../test/media/ltest_zoomcontrol.png)
 Graph View Zoom Control
 
  In the previous illustration, the System under Test graph has been zoomed in to investigate threshold issues. The threshold violations have been enabled by using **Show Threshold Violations On Graph** from the **Graph Options** drop-down in the toolbar.

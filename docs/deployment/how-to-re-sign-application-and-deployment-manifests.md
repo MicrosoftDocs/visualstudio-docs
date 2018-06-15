@@ -2,12 +2,8 @@
 title: "How to: Re-sign Application and Deployment Manifests | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -19,10 +15,9 @@ helpviewer_keywords:
   - "ClickOnce deployment, signing manifests"
   - "Office development in Visual Studio, signing manifests"
 ms.assetid: d53bceb9-4d3b-4c22-b909-8f370e7231fb
-caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---

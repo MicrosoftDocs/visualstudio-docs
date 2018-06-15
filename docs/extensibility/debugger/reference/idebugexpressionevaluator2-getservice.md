@@ -2,20 +2,16 @@
 title: "IDebugExpressionEvaluator2::GetService | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "IDebugExpressionEvaluator2::GetService"
   - "GetService"
 ms.assetid: f8988a9e-9d18-42af-84a7-55f41e9adf63
-caps.latest.revision: 8
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

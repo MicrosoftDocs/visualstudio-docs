@@ -2,22 +2,18 @@
 title: "Extending User Settings and Options | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords: 
   - "user preferences"
   - "user settings [Visual Studio SDK]"
   - "Options dialog box, controlling with the Visual Studio SDK"
   - "VSPackages, user preferences"
 ms.assetid: 5bb6277a-8c9d-48c8-9b4e-1cb3052caded
-caps.latest.revision: 22
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

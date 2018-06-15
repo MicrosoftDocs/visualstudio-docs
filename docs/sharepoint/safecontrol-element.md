@@ -2,12 +2,9 @@
 title: "SafeControl Element | Microsoft Docs"
 ms.custom: ""
 ms.date: "02/02/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "office-development"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 dev_langs: 
   - "VB"
   - "CSharp"
@@ -15,16 +12,16 @@ helpviewer_keywords:
   - "SafeControl element"
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
+manager: douge
 ms.workload: 
   - "office"
 ---
-# SafeControl Element
+# SafeControl element
   Represents an ASPX control or Web Part that is designated as secure for any user to access on any ASPX page on the SharePoint site.  
   
 ## Syntax  
   
-```  
+```xml  
 <SafeControl Assembly = "Name of assembly that contains the safe control"  
     IsSafe = "true/false"  
     IsSafeAgainstScript = "true/false"  
@@ -33,7 +30,7 @@ ms.workload:
     TypeName = "Type of the safe control" />  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -47,10 +44,10 @@ ms.workload:
 |**Namespace**|Optional **xs:string** attribute.<br /><br /> The namespace of the ASPX control or Web Part.|  
 |**TypeName**|Optional **xs:string** attribute.<br /><br /> The type name of the ASPX control or Web Part.|  
   
-### Child Elements  
+### Child elements
  None.  
   
-### Parent Elements  
+### Parent elements
   
 |Element|Description|  
 |-------------|-----------------|  
@@ -59,17 +56,16 @@ ms.workload:
 ## Remarks  
  For more information about safe controls, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md).  
   
-## Element Information  
+## Element information
   
 |||  
 |-|-|  
-|**Namespace**|http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel|  
+|**Namespace**|http<nolink>://schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|  
 |**Schema name**|SharePoint Project Item Schema|  
 |**Validation file**|ProjectItemModelSchema.xsd|  
 |**Can be empty**|No|  
   
-## See Also  
+## See also
  [SharePoint Project Item Schema Reference](../sharepoint/sharepoint-project-item-schema-reference.md)   
  [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)  
-  
   

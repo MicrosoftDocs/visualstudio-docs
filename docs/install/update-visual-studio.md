@@ -1,19 +1,16 @@
 ---
-title: "Update Visual Studio 2017 | Microsoft Docs"
-description: "Learn how to update Visual Studio, step-by-step."
-ms.date: "03/06/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-acquisition"
-ms.tgt_pltfrm: ""
-ms.topic: "conceptual"
+title: "Update Visual Studio 2017"
+description: "Learn how to update Visual Studio to the most recent release, step-by-step."
+ms.date: 04/23/2018
+ms.technology: vs-acquisition
+ms.prod: visual-studio-dev15
+ms.topic: conceptual
 helpviewer_keywords:
   - "update Visual Studio"
   - "change visual studio"
   - "changing Visual Studio"
-author: "TerryGLee"
-ms.author: "tglee"
+author: TerryGLee
+ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
@@ -51,6 +48,9 @@ When there is an update, there's a corresponding notification flag in Visual Stu
 
      Your update continues. Then, when it's complete, Visual Studio restarts.
 
+     > [!NOTE]
+     > When you run Visual Studio in administrator mode, you must manually restart Visual Studio after the update.
+
 ### Use the IDE
 
 You can check for an update and then install the update from the menu bar in Visual Studio.
@@ -64,6 +64,9 @@ You can check for an update and then install the update from the menu bar in Vis
 3. When the **Update** dialog box opens, choose **Update Now**.
 
    The update proceeds as described in the previous section, and then Visual Studio restarts after the update completes successfully.
+
+   > [!NOTE]
+   > When you run Visual Studio in administrator mode, you must manually restart Visual Studio after the update.
 
 ### Use the Visual Studio Installer
 
@@ -145,8 +148,8 @@ Here are a few more support options:
 
 * You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 * You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
-* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
+* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
 
 ## See also
 

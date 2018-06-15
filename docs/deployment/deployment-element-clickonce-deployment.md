@@ -2,12 +2,8 @@
 title: "&lt;deployment&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-deployment"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.technology: vs-ide-deployment
+ms.topic: "reference"
 f1_keywords: 
   - "urn:schemas-microsoft-com:asm.v2#subscription"
   - "urn:schemas-microsoft-com:asm.v2#beforeApplicationStartup"
@@ -22,10 +18,9 @@ dev_langs:
 helpviewer_keywords: 
   - "<deployment> element [ClickOnce deployment manifest]"
 ms.assetid: 4fafa9c2-97a0-4cea-b8fd-9746dca33af4
-caps.latest.revision: 30
-author: "stevehoag"
-ms.author: "shoag"
-manager: "wpickett"
+author: mikejo5000
+ms.author: mikejo
+manager: douge
 ms.workload: 
   - "multiple"
 ---
@@ -34,7 +29,7 @@ Identifies the attributes used for the deployment of updates and exposure to the
   
 ## Syntax  
   
-```  
+```xml  
   
       <deployment   
    install  
@@ -111,7 +106,7 @@ Identifies the attributes used for the deployment of updates and exposure to the
 ## Examples  
  The following code example illustrates a `deployment` element in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest. The example uses a `deploymentProvider` element to indicate the preferred update location.  
   
-```  
+```xml  
 <deployment install="true" minimumRequiredVersion="2.0.0.0" mapFileExtension="true" trustUrlParameters="true">  
     <subscription>  
       <update>  

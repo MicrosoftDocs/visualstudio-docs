@@ -2,21 +2,17 @@
 title: "IDebugDocumentText2::GetSize | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "IDebugDocumentText2::GetSize"
 helpviewer_keywords: 
   - "IDebugDocumentText2::GetSize"
 ms.assetid: bf515a8f-dcee-4004-8f81-543d547ceaae
-caps.latest.revision: 10
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---

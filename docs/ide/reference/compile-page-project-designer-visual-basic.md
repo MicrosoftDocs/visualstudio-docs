@@ -1,16 +1,12 @@
 ---
-title: "Compile Page, Project Designer (Visual Basic) | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+title: Compile Page, Project Designer (Visual Basic)
+ms.date: 11/04/2016
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-general
+ms.topic: reference
+f1_keywords:
   - "vb.ProjectPropertiesCompile"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "compilation, Visual Basic projects"
   - "compilation, options [Visual Basic]"
   - "compilers, Visual Basic options"
@@ -19,38 +15,43 @@ helpviewer_keywords:
   - "Project Designer, Compile page"
   - "Compile page in Project Designer"
 ms.assetid: b2a80230-906e-4e85-b3e0-fcd9c40426e1
-caps.latest.revision: 60
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: gewarren
+ms.author: gewarren
+manager: douge
+ms.workload:
   - "multiple"
 ---
 # Compile Page, Project Designer (Visual Basic)
-Use the **Compile** page of the Project Designer to specify compilation instructions. You can also specify advanced compiler options and pre-build or post-build events on this page.  
-  
-To access the **Compile** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **Compile** tab.  
-  
-[!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]  
-  
-## Configuration and Platform  
- The following settings enable you to select the configuration and platform to display or modify.  
-  
+
+Use the **Compile** page of the Project Designer to specify compilation instructions. You can also specify advanced compiler options and pre-build or post-build events on this page.
+
+To access the **Compile** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **Compile** tab.
+
+[!INCLUDE[note_settings_general](../../data-tools/includes/note_settings_general_md.md)]
+
+## Configuration and Platform
+
+The following settings enable you to select the configuration and platform to display or modify.
+
 > [!NOTE]
 > With simplified build configurations, the project system determines whether to build a debug or release version. Therefore, the **Configuration** and **Platform** lists are not displayed.
-  
- **Configuration**  
+
+ **Configuration**
+
  Specifies which configuration settings to display or modify. The settings are **Debug** (default), **Release**, or **All Configurations**. For more information, see [Understanding Build Configurations](../../ide/understanding-build-configurations.md) and [How to: Create and Edit Configurations](../../ide/how-to-create-and-edit-configurations.md).
-  
- **Platform**  
+
+ **Platform**
+
  Specifies which platform settings to display or modify. You can specify **Any CPU** (default), **x64**, or **x86**.
-  
-## Compiler Configuration Options  
- The following settings enable you to set the compiler configuration options.  
-  
- **Build output path**  
+
+## Compiler Configuration Options
+
+The following settings enable you to set the compiler configuration options.
+
+ **Build output path**
+
  Specifies the location of the output files for this project's configuration. Type the path of the build output in this box, or click the **Browse** button to select a path. Note that the path is relative; if you enter an absolute path, it will be saved as relative. The default path is bin\Debug\ or bin\Release\\.
-  
+
  With simplified build configurations, the project system determines whether to build a debug or release version. The **Build** command from the **Debug** menu (F5) will put the build in the debug location regardless of the **Output path** you specify. However, the **Build** command from the **Build** menu puts it in the location you specify.
   
  **Option explicit**  
@@ -75,7 +76,7 @@ Specifies whether to enforce strict type semantics. When **Option Strict** is **
   
 Implicit narrowing conversion errors occur when there is an implicit data type conversion that is a narrowing conversion. For more information, see [Option Strict Statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement), [Implicit and Explicit Conversions](/dotnet/visual-basic/programming-guide/language-features/data-types/implicit-and-explicit-conversions), and [Widening and Narrowing Conversions](/dotnet/visual-basic/programming-guide/language-features/data-types/widening-and-narrowing-conversions).  
   
-An object is late bound when it is assigned to a property or method of a variable that is declared to be of type `Object`. For more information, see [Option Strict Statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement) and [Early and Late Binding](/dotnet/visual-basic/programming-guide/language-features/early-late-binding/early-and-late-binding).  
+An object is late bound when it is assigned to a property or method of a variable that is declared to be of type `Object`. For more information, see [Option Strict Statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement) and [Early and Late Binding](/dotnet/visual-basic/programming-guide/language-features/early-late-binding).
   
 Implicit object type errors occur when an appropriate type cannot be inferred for a declared variable, so a type of `Object` is inferred. This primarily occurs when you use a `Dim` statement to declare a variable without using an `As` clause, and `Option Infer` is off. For more information, see [Option Strict Statement](/dotnet/visual-basic/language-reference/statements/option-strict-statement), [Option Infer Statement](/dotnet/visual-basic/language-reference/statements/option-infer-statement), and the [Visual Basic Language Specification](/dotnet/visual-basic/reference/language-specification).  
   
@@ -85,7 +86,8 @@ If a source code file contains an [Option Strict Statement](/dotnet/visual-basic
   
 When you create a project, the **Option Strict** setting on the **Compile page** is set to the value of the **Option Strict** setting in the **Options** dialog box. To view or change the setting in this dialog box, on the **Tools** menu, click **Options**. In the **Options** dialog box, expand **Projects and Solutions**, and then click **VB Defaults**. The initial default setting of **Option Strict** in **VB Defaults** is **Off**.  
   
-**Option Strict Individual Warnings.** The **Warning configurations** section of the **Compile page** has settings that correspond to the three conditions that cause a compile-time error when `Option Strict` is on. Following are these settings:  
+**Option Strict Individual Warnings.** 
+The **Warning configurations** section of the **Compile page** has settings that correspond to the three conditions that cause a compile-time error when `Option Strict` is on. Following are these settings:  
   
 -   **Implicit conversion**  
   
@@ -166,8 +168,9 @@ Click this button to access the **Build Events** dialog box. Use this dialog box
 **Advanced Compile Options**  
 Click this button to access the **AdvancedCompiler Settings** dialog box. Use the **AdvancedCompiler Settings** dialog box to specify a project's advanced build configuration properties. This dialog box applies to Visual Basic projects only. For more information, see [Advanced Compiler Settings Dialog Box (Visual Basic)](../../ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md).  
 
+
 ## See also
 
-[How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md)  
-[Visual Basic Command-Line Compiler](/dotnet/visual-basic/reference/command-line-compiler/index)  
-[How to: Create and Edit Configurations](../../ide/how-to-create-and-edit-configurations.md)
+- [How to: Specify Build Events (Visual Basic)](../../ide/how-to-specify-build-events-visual-basic.md)
+- [Visual Basic Command-Line Compiler](/dotnet/visual-basic/reference/command-line-compiler/index)
+- [How to: Create and Edit Configurations](../../ide/how-to-create-and-edit-configurations.md)

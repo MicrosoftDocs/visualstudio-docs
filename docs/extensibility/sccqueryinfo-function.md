@@ -2,21 +2,17 @@
 title: "SccQueryInfo Function | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 f1_keywords: 
   - "SccQueryInfo"
 helpviewer_keywords: 
   - "SccQueryInfo function"
 ms.assetid: 3973d336-a9b7-41a2-a4e6-bb8184a96aaf
-caps.latest.revision: 18
 author: "gregvanl"
 ms.author: "gregvanl"
-manager: ghogen
+manager: douge
 ms.workload: 
   - "vssdk"
 ---
