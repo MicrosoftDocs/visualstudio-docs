@@ -20,7 +20,7 @@ Resolve break-fix issues in non-production environments.  (Benefit must be activ
 
    ![Technical Support Benefit Tile](_img\vs-tech-support\vs-tech-support-tile.png)
 
-1.	To begin using your Technical Support benefit, click on **Activate** on the Technical Support tile. 
+1.	To begin using your Technical Support benefit, click on **Chat to activate** on the Technical Support tile. 
 2.	This will initiate a chat session with a representative who can create your Contract ID and Access ID and provide those to you. 
 3.  To complete the process, you will need to provide the representative with:
     - The email address you use to sign in to your subscription
@@ -29,7 +29,7 @@ Resolve break-fix issues in non-production environments.  (Benefit must be activ
     ![Technical Support Benefit Find Subscription ID](_img\vs-tech-support\vs-tech-support-subID-cropped.png)
 
     > [!NOTE]
-    > To activate your support account in a language other than English, choose your country from [this list](http://support.microsoft.com/activatesupport).   
+    > To activate your support account in a language other than English, choose your country from [this list](https://support.microsoft.com/help/14084/activate-support-contract).   
 
 ## How to submit an incident
 Once you have your Contract ID and Access ID set up, when you need support you can call the  technical support number for your country, submit a support incident [online](http://support.microsoft.com/oas/), or submit an incident via the Azure portal.  If would prefer to receive support over the phone, you can still submit your incident online, and a Microsoft Support Professional will call you back.
