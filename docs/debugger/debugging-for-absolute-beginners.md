@@ -27,7 +27,7 @@ It helps to clarify the problem that you ran into before you try to fix it. We e
 
     If you ran into an error (exception), that can be a good thing! The [Exception Helper](../debugger/debugger-feature-tour.md#exception) in Visual Studio takes you to the exact place in your code where the exception occurred and gives you an error message to help you investigate possible fixes. (But before you investigate, finish reading this article.)
 
-    If something else happened, do you already suspect where this problem occurred in your code? For example, if your code displays some text, but the text is incorrect, you know the code that set the display text has some kind of bug. To fix a problem like this, you most likely need to start your application with the Visual Studio debugger attached. (But first, continue reading this article.)
+    If something else happened, what is the symptom of the problem? Do you already suspect where this problem occurred in your code? For example, if your code displays some text, but the text is incorrect, you know the code that set the display text has some kind of bug. To fix a problem like this, you most likely need to start your application with the Visual Studio debugger attached. (But first, continue reading this article.)
 
 ## Examine your assumptions
 
@@ -49,7 +49,12 @@ Before you investigate a bug or an error, think of the assumptions that made you
 
 ## If you didn't get an exception, step through your code to find where the problem occurred
 
-You want to use the debugger to find the exact place where the problem occurred. Before you start, do your best to narrow down the problem to a specific region of code, then set a breakpoint where that code begins, start the debugger, and examine the code in the debugger while running the app.
+You want to use the debugger to find the exact place where the problem occurred. Before you start, do your best to try to identify the specific region of code where the problem is occurring, then set a [breakpoint](../debugger/using-breakpoints.md) where that code begins. Then, start the debugger, use [step commands](../debugger/navigating-code-in-the-debugger.md) such as **F5**, **F10**, and **F11** to advance the debugger and run your code. While running your app in the debugger, look for the specific symptom that indicates a problem occurred.
+
+> [!NOTE]
+> If it is difficult to identify the region of code where you have a bug (that is, where the symptom occurs), set a breakpoint in code that runs before the symptom occurs, and then [step through code](../debugger/navigating-code-in-the-debugger.md) in the debugger until you see the symptom manifest. You can use [tracepoints](../debugger/using-breakpoints.md#BKMK_Print_to_the_Output_window_with_tracepoints) to log messages to the **Output** window. By looking at logged messages (and which messages were not logged!), you can often isolate the problem code. You may have to repeat this process multiple times to find the region of code with the bug. 
+
+To find the cause of a bug while running your app in the debugger:
 
 * Inspect variables and check whether they contain the type of values that they should contain. If you find a bad value, find out where the bad value was set (you might need to restart the debugger).
 
