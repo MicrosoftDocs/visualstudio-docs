@@ -170,7 +170,7 @@ You can double-click a line of code to go look at that source code and that also
 
 You can also use right-click menus from the **Call Stack** window to do other things. For example, you can insert breakpoints into specific functions, restart your app using **Run to Cursor**, and to go examine source code. See [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md).
 
-## <a name="exception" /a> Examine an exception
+## <a name="exception"></a> Examine an exception
 
 When your app throws an exception, the debugger takes you to the line of code that threw the exception.
 
