@@ -435,7 +435,7 @@ Code examples:
 // dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity
 var v = a + (b * c);
 
-// dotnet_style_parentheses_in_arithmetic_binary_operators = false
+// dotnet_style_parentheses_in_arithmetic_binary_operators = never_if_unnecessary
 var v = a + b * c;
 
 ```
@@ -1963,7 +1963,7 @@ csharp_preserve_single_line_statements = true
 csharp_preserve_single_line_blocks = true
 ```
 
-To help you get started, here is an example *.editorconfig* file with all the default configuration:
+To help you get started, here is an example *.editorconfig* file:
 
 ```EditorConfig
 ###############################
@@ -2006,7 +2006,7 @@ dotnet_style_parentheses_in_other_operators = never_if_unnecessary:none
 
 # Modifier preferences
 dotnet_style_require_accessibility_modifiers = always:suggestion
-dotnet_style_readonly_field = true:warning
+dotnet_style_readonly_field = true:suggestion
 
 # Expression-level preferences
 dotnet_style_object_initializer = true:suggestion
@@ -2040,10 +2040,10 @@ dotnet_naming_symbols.constant_fields.required_modifiers          = const
 # C# Coding Conventions       #
 ###############################
 [*.cs]
-# Always use var
-csharp_style_var_for_built_in_types = true:suggestion
-csharp_style_var_when_type_is_apparent = true:suggestion
-csharp_style_var_elsewhere = true:suggestion
+# var preferences
+csharp_style_var_for_built_in_types = true:none
+csharp_style_var_when_type_is_apparent = true:none
+csharp_style_var_elsewhere = false:none
 
 # Expression-bodied members
 csharp_style_expression_bodied_methods = false:none
