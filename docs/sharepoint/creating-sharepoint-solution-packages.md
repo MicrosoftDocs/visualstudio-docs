@@ -25,7 +25,7 @@ ms.workload:
   
  Alternatively, you can use the **Packaging Explorer** to modify the Features and items in your package file (*.wsp*). For more information, see [How to: Add and remove features and items to a Package by using the Packaging Explorer](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-packaging-explorer.md).  
   
- You can use Visual Studio and MSBuild to create package (*.wsp*) files to deploy your SharePoint solution. This process generates the manifest files needed for SharePoint deployment. For more information, see [How to: Create a SharePoint Package](http://msdn.microsoft.com/en-us/b24be45c-e91d-49bb-afb0-7b265404214b) and [How to: Create a SharePoint Solution Package by using MSBuild tasks](../sharepoint/how-to-create-a-sharepoint-solution-package-by-using-msbuild-tasks.md).  
+ You can use Visual Studio and MSBuild to create package (*.wsp*) files to deploy your SharePoint solution. This process generates the manifest files needed for SharePoint deployment. For more information, see [How to: Create a SharePoint Solution Package by using MSBuild tasks](../sharepoint/how-to-create-a-sharepoint-solution-package-by-using-msbuild-tasks.md).  
   
 ## Package designer options
  The following table shows the properties that you can customize in SharePoint packages with the **Package Designer**.  
@@ -71,8 +71,8 @@ ms.workload:
 ## See also
  [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md)  
  [How to: Add and remove features and items to a package by using the Package Designer](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-package-designer.md)   
- [How to: Create a SharePoint Package](http://msdn.microsoft.com/en-us/b24be45c-e91d-49bb-afb0-7b265404214b)   
  [How to: Create a SharePoint Solution Package by using MSBuild tasks](../sharepoint/how-to-create-a-sharepoint-solution-package-by-using-msbuild-tasks.md)   
- [How to: Customize a SharePoint solution package by using MSBuild Targets](../sharepoint/how-to-customize-a-sharepoint-solution-package-by-using-msbuild-targets.md)  
+ [How to: Create a SharePoint Solution Package by using MSBuild tasks](../sharepoint/how-to-create-a-sharepoint-solution-package-by-using-msbuild-tasks.md)   
+ [How to: Customize a SharePoint solution package by using MSBuild targets](../sharepoint/how-to-customize-a-sharepoint-solution-package-by-using-msbuild-targets.md)  
   
  
