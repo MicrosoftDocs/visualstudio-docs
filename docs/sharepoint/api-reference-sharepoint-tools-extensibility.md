@@ -54,10 +54,10 @@ ms.workload:
  Contains types that you use to customize the feature and package validation behavior for a SharePoint project.  
   
 ## See also
- [Reference &#40;SharePoint Tools Extensibility&#41;](../sharepoint/reference-sharepoint-tools-extensibility.md)   
- [Overview of the Programming Model of SharePoint Tools Extensions](../sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md)   
- [Extending the SharePoint Project System](../sharepoint/extending-the-sharepoint-project-system.md)   
- [Extending the SharePoint Connections Node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md)   
- [Extending SharePoint Packaging and Deployment](../sharepoint/extending-sharepoint-packaging-and-deployment.md)   
- [Calling into the SharePoint Object Models](../sharepoint/calling-into-the-sharepoint-object-models.md)  
+ [Reference &#40;SharePoint tools extensibility&#41;](../sharepoint/reference-sharepoint-tools-extensibility.md)   
+ [Overview of the programming model of SharePoint tools extensions](../sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md)   
+ [Extending the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md)   
+ [Extending the SharePoint connections node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md)   
+ [Extending SharePoint packaging and deployment](../sharepoint/extending-sharepoint-packaging-and-deployment.md)   
+ [Calling into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md)  
   

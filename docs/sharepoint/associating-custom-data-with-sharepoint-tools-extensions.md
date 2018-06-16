@@ -27,7 +27,7 @@ ms.workload:
   
  When you add custom data to objects in SharePoint tools extensions, the data does not persist. The data is available only during the lifespan of the object. After the object is reclaimed by garbage collection, the data is lost.  
   
- In extensions of the SharePoint project system, you can also save string data that persists after an extension is unloaded. For more information, see [Saving Data in Extensions of the SharePoint Project System](../sharepoint/saving-data-in-extensions-of-the-sharepoint-project-system.md).  
+ In extensions of the SharePoint project system, you can also save string data that persists after an extension is unloaded. For more information, see [Saving data in extensions of the SharePoint project system](../sharepoint/saving-data-in-extensions-of-the-sharepoint-project-system.md).  
   
 ## Objects that can contain custom data
  You can add custom data to any object in the SharePoint tools object model that implements the <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject> interface. This interface defines just one property, <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject.Annotations%2A>, which is a collection of custom data objects. The following types implement <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject>:  
@@ -71,16 +71,16 @@ ms.workload:
   
 -   <xref:Microsoft.VisualStudio.SharePoint.IAnnotationDictionary.GetValue%2A>. This method returns the data object if it exits, or **null** if it does not exist. You can use this method only to retrieve instances of reference types.  
   
- The following code example determines whether a certain data object is already associated with a project item. If the data object is not already associated with the project item, then the code adds the object to the <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject.Annotations%2A> property of the project item. To see this example in the context of a larger example, see [How to: Add a Property to a Custom SharePoint Project Item Type](../sharepoint/how-to-add-a-property-to-a-custom-sharepoint-project-item-type.md).  
+ The following code example determines whether a certain data object is already associated with a project item. If the data object is not already associated with the project item, then the code adds the object to the <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject.Annotations%2A> property of the project item. To see this example in the context of a larger example, see [How to: Add a property to a custom SharePoint project item type](../sharepoint/how-to-add-a-property-to-a-custom-sharepoint-project-item-type.md).  
   
  [!code-vb[SPExtensibility.ProjectItemExtension.MenuAndProperty#13](../sharepoint/codesnippet/VisualBasic/projectitemmenuandproperty/extension/projectitemtypeproperty.vb#13)]
  [!code-csharp[SPExtensibility.ProjectItemExtension.MenuAndProperty#13](../sharepoint/codesnippet/CSharp/projectitemmenuandproperty/extension/projectitemtypeproperty.cs#13)]  
   
 ## See also
- [Programming Concepts and Features for SharePoint Tools Extensions](../sharepoint/programming-concepts-and-features-for-sharepoint-tools-extensions.md)   
- [Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md)   
- [Walkthrough: Extending Server Explorer to Display Web Parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)   
- [How to: Add a Property to SharePoint Projects](../sharepoint/how-to-add-a-property-to-sharepoint-projects.md)   
- [How to: Add a Property to a Custom SharePoint Project Item Type](../sharepoint/how-to-add-a-property-to-a-custom-sharepoint-project-item-type.md)
+ [Programming concepts and features for SharePoint tools extensions](../sharepoint/programming-concepts-and-features-for-sharepoint-tools-extensions.md)   
+ [Walkthrough: Creating a custom action project item with an item template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md)   
+ [Walkthrough: Extending Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)   
+ [How to: Add a property to SharePoint projects](../sharepoint/how-to-add-a-property-to-sharepoint-projects.md)   
+ [How to: Add a property to a custom SharePoint project item type](../sharepoint/how-to-add-a-property-to-a-custom-sharepoint-project-item-type.md)
    
  

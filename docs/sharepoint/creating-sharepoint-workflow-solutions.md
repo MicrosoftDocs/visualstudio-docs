@@ -27,7 +27,7 @@ ms.workload:
 # Create SharePoint workflow solutions
   [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] provides tools to help you create custom workflows that manage the life cycle of documents and list items in a SharePoint Web site. Items provided include a designer, a set of activity controls, and the necessary assembly references. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] also includes the **SharePoint Customization Wizard**, to help create and configure the workflows.
 
- For the list of prerequisites for creating SharePoint projects in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], see [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md). For more information about SharePoint, see [Microsoft SharePoint Products and Technologies](http://go.microsoft.com/fwlink/?LinkId=178470).
+ For the list of prerequisites for creating SharePoint projects in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md). For more information about SharePoint, see [Microsoft SharePoint Products and Technologies](http://go.microsoft.com/fwlink/?LinkId=178470).
 
 ## Workflows in SharePoint
  When you add a workflow to a SharePoint library or list, you enforce a business process on all items in the library or list. A workflow describes the actions that the system or users must perform on each item, such as sending the item to be edited and then reviewed. These actions, known as *activities*, are the building blocks of the workflow.
@@ -71,7 +71,7 @@ ms.workload:
 
  Activities can have properties, methods, and events. Use the **Properties** window to set the properties of an activity.
 
- You can also create a custom activity. For more information, see [Walkthrough: Create a Custom Site Workflow Activity](../sharepoint/walkthrough-create-a-custom-site-workflow-activity.md).
+ You can also create a custom activity. For more information, see [Walkthrough: Create a custom site workflow activity](../sharepoint/walkthrough-create-a-custom-site-workflow-activity.md).
 
  Activities are organized in the following tabs in the **Toolbox**:
 
@@ -112,21 +112,21 @@ ms.workload:
 
 -   Task
 
- Of these, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] includes item templates for association and initiation forms. An example of an *association form* is one that lets the administrator installing the workflow enter parameters that relate to the workflow, such as a spending limit for an expense workflow. An example of an *initiation form* is one that lets the user of an expense workflow enter the amount that they spent into the workflow. For more information about these types of forms, see [SharePoint Project and Project Item Templates](../sharepoint/sharepoint-project-and-project-item-templates.md).
+ Of these, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] includes item templates for association and initiation forms. An example of an *association form* is one that lets the administrator installing the workflow enter parameters that relate to the workflow, such as a spending limit for an expense workflow. An example of an *initiation form* is one that lets the user of an expense workflow enter the amount that they spent into the workflow. For more information about these types of forms, see [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md).
 
 ### Item properties
- You can also collect information from users by using the properties of an item in the SharePoint library or list. The main code file (Workflow1.cs or Workflow1.vb) declares an instance of the Microsoft.SharePoint.Workflow.SPWorkflowActivationProperties.WorkflowProperties class named `workflowProperties`. Use the `workflowProperties` object to access the properties of the library or list in code. For an example, see [Walkthrough: Creating and Debugging a SharePoint Workflow Solution](../sharepoint/walkthrough-creating-and-debugging-a-sharepoint-workflow-solution.md).
+ You can also collect information from users by using the properties of an item in the SharePoint library or list. The main code file (Workflow1.cs or Workflow1.vb) declares an instance of the Microsoft.SharePoint.Workflow.SPWorkflowActivationProperties.WorkflowProperties class named `workflowProperties`. Use the `workflowProperties` object to access the properties of the library or list in code. For an example, see [Walkthrough: Create and debug a SharePoint workflow solution](../sharepoint/walkthrough-creating-and-debugging-a-sharepoint-workflow-solution.md).
 
 ## Debug a SharePoint workflow template
  You can debug a SharePoint workflow project the same as you debug other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Web-based projects. When you start the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] uses the settings that you specify in the **SharePoint Customization Wizard** to open the appropriate SharePoint Web site and automatically associate the workflow template with the appropriate library or list. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] also attaches the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger to the [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] process named *w3wp.exe*.
 
- To test the workflow, you must start it manually. For more information, see the section "Debugging Workflows" in [Debugging SharePoint Solutions](../sharepoint/debugging-sharepoint-solutions.md). For more information about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Web application debugging, see [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md).
+ To test the workflow, you must start it manually. For more information, see the section "Debugging Workflows" in [Debugging SharePoint Solutions](../sharepoint/debugging-sharepoint-solutions.md). For more information about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] Web application debugging, see [Debug web applications and script](../debugger/debugging-web-applications-and-script.md).
 
 ## Deploy a SharePoint workflow template
- [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint workflow projects deploy just like other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint projects. For more information, see [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md).
+ [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint workflow projects deploy just like other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint projects. For more information, see [Package and Deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md).
 
 ## Import globally reusable workflows
- In addition to creating site-specific reusable workflows, SharePoint Designer enables you to create *globally reusable workflows*, which are workflows that can be used by any SharePoint site. The Import Reusable Workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] currently does not import globally reusable workflows. However, you can either use SharePoint Designer to convert a globally reusable workflow into a reusable workflow, or import the workflow as an unconverted declarative workflow. For more information, see [Importing Items from an Existing SharePoint Site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md).
+ In addition to creating site-specific reusable workflows, SharePoint Designer enables you to create *globally reusable workflows*, which are workflows that can be used by any SharePoint site. The Import Reusable Workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] currently does not import globally reusable workflows. However, you can either use SharePoint Designer to convert a globally reusable workflow into a reusable workflow, or import the workflow as an unconverted declarative workflow. For more information, see [Import Items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md).
 
 ## Related topics
 
@@ -134,12 +134,12 @@ ms.workload:
 |-----------|-----------------|
 |[Walkthrough: Creating and Debugging a SharePoint Workflow Solution](../sharepoint/walkthrough-creating-and-debugging-a-sharepoint-workflow-solution.md)|Leads you step-by-step through creating and debugging a simple [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] workflow.|
 |[Walkthrough: Creating a Workflow with Association and Initiation Forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md)|Leads you step-by-step to creating a more full-featured [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] workflow complete with Association and Initiation forms.|
-|[Walkthrough: Add an Application Page to a Workflow](../sharepoint/walkthrough-add-an-application-page-to-a-workflow.md)|Builds on the topic [Walkthrough: Creating a Workflow with Association and Initiation Forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md) by adding an additional *.aspx* application page that reports on data entered into the workflow.|
-|[Walkthrough: Create a Custom Site Workflow Activity](../sharepoint/walkthrough-create-a-custom-site-workflow-activity.md)|Demonstrates how to perform two key tasks: create a site-level workflow, and create a custom workflow activity.|
+|[Walkthrough: Add an application page to a workflow](../sharepoint/walkthrough-add-an-application-page-to-a-workflow.md)|Builds on the topic [Walkthrough: Create a workflow with association and initiation forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md) by adding an additional *.aspx* application page that reports on data entered into the workflow.|
+|[Walkthrough: Create a custom site workflow activity](../sharepoint/walkthrough-create-a-custom-site-workflow-activity.md)|Demonstrates how to perform two key tasks: create a site-level workflow, and create a custom workflow activity.|
 |[Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio](../sharepoint/walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio.md)|Demonstrates how to import reusable declarative workflows created in SharePoint Designer 2010 into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project.|
 
 ## See also
 
-- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)
-- [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
-- [Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)
+- [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
+- [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
+- [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)
