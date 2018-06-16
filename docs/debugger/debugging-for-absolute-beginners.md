@@ -31,23 +31,25 @@ It helps to clarify the problem that you ran into before you try to fix it. We e
 
 ## Examine your assumptions
 
-Before you investigate a bug or an error, think of the assumptions that made you expect a certain result. This may be a long list, so here are a couple of examples.
+Before you investigate a bug or an error, think of the assumptions that made you expect a good result. This may be a long list, so here are a couple of examples.
 
-* An API that you're using doesn't do what you think it does. (After you examine the API call in the debugger, fixing it may require a trip to the documentation for the API.)
+* You are using the right API. An API that you're using might not do what you think it does. (After you examine the API call in the debugger, fixing it may require a trip to the documentation for the API.)
 
-* You used the right API, but didn't use it in the right way.
+* You are using an API correctly. Maybe you used the right API, but didn't use it in the right way.
 
 * Your code doesn't have any typos.
 
 * You made a change to your code and assumed it is unrelated to the problem that you're seeing.
 
-* You made a change to your environment (such as updating a tool or library) and assumed it is unrelated to the problem that you're seeing.
+* You experienced a change in your environment (such as a tool or library update) and assumed it is unrelated to the problem that you're seeing.
 
 * You expected an object or variable to store a certain value (or a certain type of value), but it doesn't.
 
+* I understand this code well enough to debug it. It is often more difficult to debug someone else's code. You might need to spend time learning what the code does before you can debug it.
+
 ## If you didn't get an exception, step through your code to find where the problem occurred
 
-You want to use the debugger to find the exact place where the problem occurred. Before you start, do your best to narrow down the problem to a specific region of code, then set a breakpoint, start the debugger, and examine the code in the debugger while running the app.
+You want to use the debugger to find the exact place where the problem occurred. Before you start, do your best to narrow down the problem to a specific region of code, then set a breakpoint where that code begins, start the debugger, and examine the code in the debugger while running the app.
 
 * Inspect variables and check whether they contain the type of values that they should contain. If you find a bad value, find out where the bad value was set (you might need to restart the debugger).
 
