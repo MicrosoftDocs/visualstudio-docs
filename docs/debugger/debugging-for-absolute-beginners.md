@@ -17,7 +17,7 @@ ms.workload:
 
 If you are using Visual Studio and this is the first time that you've tried to debug an application, then you're in the right place. When you use a debugger for the first time, it's normal to hope (and expect) that whatever debugging tool you're using will magically show you all the bugs in your code. Unfortunately, it's not that easy. Debugging is a learned skill, and it takes time and practice to learn how to debug effectively. So before we teach you how to use the Visual Studio debugger, here are a couple of tips and principles.
 
-## Clarify the problem by asking the yourself questions
+## Clarify the problem by asking yourself the right questions
 
 It helps to clarify the problem that you ran into before you try to fix it. We expect that you already ran into a problem in your code, otherwise you wouldn't be here trying to figure out how to debug it! So, before you start debugging, ask yourself a few questions.
 
