@@ -45,7 +45,7 @@ Before you investigate a bug or an error, think of the assumptions that made you
 
 * You expected an object or variable to store a certain value (or a certain type of value), but it doesn't.
 
-* I understand this code well enough to debug it. It is often more difficult to debug someone else's code. You might need to spend time learning what the code does before you can debug it.
+* You understand this code well enough to debug it. It is often more difficult to debug someone else's code. You might need to spend time learning what the code does before you can debug it effectively.
 
 ## If you didn't get an exception, step through your code to find where the problem occurred
 
