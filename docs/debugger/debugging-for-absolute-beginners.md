@@ -31,7 +31,7 @@ It helps to clarify the problem that you ran into before you try to fix it. We e
 
 ## Examine your assumptions
 
-Before you investigate a bug or an error, think of the assumptions that made you expect a good result. This may be a long list, so here are a couple of examples.
+Before you investigate a bug or an error, think of the assumptions that made you expect a certain result. This may be a long list, so here are a couple of examples of assumptions that are not necessarily true.
 
 * You are using the right API. An API that you're using might not do what you think it does. (After you examine the API call in the debugger, fixing it may require a trip to the documentation for the API.)
 
@@ -45,14 +45,16 @@ Before you investigate a bug or an error, think of the assumptions that made you
 
 * You expected an object or variable to store a certain value (or a certain type of value), but it doesn't.
 
-* You understand this code well enough to debug it. It is often more difficult to debug someone else's code. You might need to spend time learning what the code does before you can debug it effectively.
+* You understand this code well enough to debug it. It is often more difficult to debug someone else's code. If it's not your code, it's possible you might need to spend time learning what the code does before you can debug it effectively.
 
 ## If you didn't get an exception, step through your code to find where the problem occurred
 
-You want to use the debugger to find the exact place where the problem occurred. Before you start, do your best to try to identify the specific region of code where the problem is occurring, then set a [breakpoint](../debugger/using-breakpoints.md) where that code begins. Then, start the debugger, use [step commands](../debugger/navigating-code-in-the-debugger.md) such as **F5**, **F10**, and **F11** to advance the debugger and run your code. While running your app in the debugger, look for the specific symptom that indicates a problem occurred.
+You want to use the debugger to find the exact place where the bug (or symptom of the bug) occurred. Before you start, do your best to try to identify the specific region of code where the symptom is occurring, then set a [breakpoint](../debugger/using-breakpoints.md) where that code begins. Then, start the debugger (**F5** or choose **Debug** > **Start Debugging**), use [step commands](../debugger/navigating-through-code-with-the-debugger.md) such as **F10** and **F11** to advance the debugger and run your code. While running your app in the debugger, look for the symptom.
 
 > [!NOTE]
-> If it is difficult to identify the region of code where you have a bug (that is, where the symptom occurs), set a breakpoint in code that runs before the symptom occurs, and then [step through code](../debugger/navigating-code-in-the-debugger.md) in the debugger until you see the symptom manifest. You can use [tracepoints](../debugger/using-breakpoints.md#BKMK_Print_to_the_Output_window_with_tracepoints) to log messages to the **Output** window. By looking at logged messages (and which messages were not logged!), you can often isolate the problem code. You may have to repeat this process multiple times to find the region of code with the bug. 
+> If it is difficult to identify the region of code where the symptom of the bug occurs, set a breakpoint in code that runs before the symptom occurs, and then [step through code](../debugger/navigating-through-code-with-the-debugger.md) in the debugger until you see the symptom manifest. You can use [tracepoints](../debugger/using-breakpoints.md#BKMK_Print_to_the_Output_window_with_tracepoints) to log messages to the **Output** window. By looking at logged messages (and which messages were not logged!), you can often isolate the problem code. You may have to repeat this process several times to find the region of code with the bug. 
+
+## When you find the region of code with the problem, use the debugger to investigate
 
 To find the cause of a bug while running your app in the debugger:
 
@@ -62,7 +64,7 @@ To find the cause of a bug while running your app in the debugger:
 
 ## Next steps
 
-In this tutorial, you've learned a few general debugging concepts. Now, you can start learning how to debug with Visual Studio.
+In this tutorial, you've learned a few general debugging concepts. Next, you can start learning how to debug with Visual Studio.
 
 > [!div class="nextstepaction"]
 > [Debugger feature tour](../debugger/debugger-feature-tour.md)
