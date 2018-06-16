@@ -25,13 +25,13 @@ It helps to clarify the problem that you ran into before you try to fix it. We e
 
 1. What happened instead?
 
-    If you ran into an error (exception), that can be a good thing! The [Exception Helper](../debugger/debugger-feature-tour#exception) in Visual Studio takes you to the exact place in your code where the exception occurred and gives you an error message to help you investigate possible fixes. (But before you investigate, finish reading this article.)
+    If you ran into an error (exception), that can be a good thing! The [Exception Helper](../debugger/debugger-feature-tour.md#exception) in Visual Studio takes you to the exact place in your code where the exception occurred and gives you an error message to help you investigate possible fixes. (But before you investigate, finish reading this article.)
 
     If something else happened, do you already suspect where this problem occurred in your code? For example, if your code displays some text, but the text is incorrect, you know the code that set the display text has some kind of bug. To fix a problem like this, you most likely need to start your application with the Visual Studio debugger attached. (But first, continue reading this article.)
 
 ## Examine your assumptions
 
-Before you investigate a bug or an error, think of the assumptions that made you expect the result that you didn't see. This may be a long list, so here are a couple of common assumptions.
+Before you investigate a bug or an error, think of the assumptions that made you expect a certain result. This may be a long list, so here are a couple of examples.
 
 * An API that you're using doesn't do what you think it does. (After you examine the API call in the debugger, fixing it may require a trip to the documentation for the API.)
 
@@ -39,9 +39,9 @@ Before you investigate a bug or an error, think of the assumptions that made you
 
 * Your code doesn't have any typos.
 
-* You made a change to your code and didn't expect the change to cause a problem.
+* You made a change to your code and assumed it is unrelated to the problem that you're seeing.
 
-* You made a change to your environment (such as updating a tool or library), and just expected things to work.
+* You made a change to your environment (such as updating a tool or library) and assumed it is unrelated to the problem that you're seeing.
 
 * You expected an object or variable to store a certain value (or a certain type of value), but it doesn't.
 
