@@ -22,19 +22,19 @@ ms.workload:
 ## Debug extensions in the experimental instance of Visual Studio
  To safeguard your Visual Studio development environment from accidental corruption by untested extensions, the Visual Studio SDK provides an alternative Visual Studio instance, called the *experimental instance*, that you can use to install and test extensions. You develop new extensions by using the regular instance of Visual Studio, but you debug and run them in the experimental instance. For more information, see [The Experimental Instance](../extensibility/the-experimental-instance.md).
 
- If you use a VSIX project to deploy your extension, and the VSIX project is the startup project in your solution, Visual Studio automatically installs and runs the extension in the experimental instance when you debug your solution. The startup project is the project that starts when you debug a solution that contains multiple projects. For more information about using a VSIX project to deploy your extension, see [Deploying Extensions for the SharePoint Tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).
+ If you use a VSIX project to deploy your extension, and the VSIX project is the startup project in your solution, Visual Studio automatically installs and runs the extension in the experimental instance when you debug your solution. The startup project is the project that starts when you debug a solution that contains multiple projects. For more information about using a VSIX project to deploy your extension, see [Deploy extensions for the SharePoint tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).
 
  For examples that demonstrate how to debug various types of extensions in the experimental instance of Visual Studio, see the following walkthroughs:
 
--   [Walkthrough: Extending a SharePoint Project Item Type](../sharepoint/walkthrough-extending-a-sharepoint-project-item-type.md)
+-   [Walkthrough: Extend a SharePoint project item type](../sharepoint/walkthrough-extending-a-sharepoint-project-item-type.md)
 
--   [Walkthrough: Creating a Custom Action Project Item with an Item Template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md)
+-   [Walkthrough: Create custom action project item with an item template, Part 1](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md)
 
--   [Walkthrough: Creating a Custom Deployment Step for SharePoint Projects](../sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md)
+-   [Walkthrough: Create a custom deployment step for SharePoint projects](../sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md)
 
--   [Walkthrough: Extending Server Explorer to Display Web Parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)
+-   [Walkthrough: Extend Server Explorer to display web parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)
 
--   [Walkthrough: Calling into the SharePoint Client Object Model in a Server Explorer Extension](../sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension.md)
+-   [Walkthrough: Call into the SharePoint client object model in a Server Explorer extension](../sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension.md)
 
 ## Debug extensions in the regular instance of Visual Studio
  If you want to debug your extension project in the regular instance of Visual Studio, first install the extension in the regular instance. Then, attach the debugger to a second Visual Studio process. After you are finished, you can remove the extension so that it no longer loads on the development computer.
@@ -88,7 +88,7 @@ ms.workload:
 4.  Choose the **Restart Now** button to complete the uninstallation.
 
 ## Debug SharePoint commands
- If you want to debug a SharePoint command that is part of a SharePoint tools extension, you must attach the debugger to the *vssphost4.exe* process. This is the 64-bit host process that executes SharePoint commands. For more information about SharePoint commands and *vssphost4.exe*, see [Calling into the SharePoint Object Models](../sharepoint/calling-into-the-sharepoint-object-models.md).
+ If you want to debug a SharePoint command that is part of a SharePoint tools extension, you must attach the debugger to the *vssphost4.exe* process. This is the 64-bit host process that executes SharePoint commands. For more information about SharePoint commands and *vssphost4.exe*, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).
 
 #### To attach the debugger to the vssphost4.exe process
 
@@ -112,7 +112,7 @@ ms.workload:
 
 |Value|Description|
 |-----------|-----------------|
-|EnableDiagnostics|REG_DWORD that specifies whether diagnostic messages are displayed in the **Output** window.<br /><br /> To display diagnostic messages, set this value to 1. To stop displaying messages, set this value to 0 or delete this value.<br /><br /> To write messages to the **Output** window from a SharePoint tools extension, use the SharePoint project service. For more information, see [Using the SharePoint Project Service](../sharepoint/using-the-sharepoint-project-service.md).|
+|EnableDiagnostics|REG_DWORD that specifies whether diagnostic messages are displayed in the **Output** window.<br /><br /> To display diagnostic messages, set this value to 1. To stop displaying messages, set this value to 0 or delete this value.<br /><br /> To write messages to the **Output** window from a SharePoint tools extension, Use the SharePoint project service. For more information, see [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md).|
 
  If your extension includes a SharePoint command, you can create and set additional values to help troubleshoot the command. The following table describes these values.
 
@@ -126,5 +126,5 @@ ms.workload:
 
 ## See also
 
-- [Extending the SharePoint Tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)
-- [Deploying Extensions for the SharePoint Tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md)
+- [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)
+- [Deploy extensions for the SharePoint tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md)
