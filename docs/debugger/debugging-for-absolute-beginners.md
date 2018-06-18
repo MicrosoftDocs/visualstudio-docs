@@ -64,7 +64,7 @@ To find the cause of a problem, inspect the problem code while running your app 
 
 ## Next steps
 
-In this tutorial, you've learned a few general debugging concepts. Next, you can start learning how to debug with Visual Studio.
+In this article, you've learned a few general debugging concepts. Next, you can start learning how to debug with Visual Studio.
 
 > [!div class="nextstepaction"]
 > [Debugger feature tour](../debugger/debugger-feature-tour.md)
