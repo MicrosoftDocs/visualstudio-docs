@@ -92,7 +92,7 @@ If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Us
 
 [!INCLUDE [deploy-app-web-deploy](../deployment/includes/deploy-app-web-deploy.md)]
 
-Also, you may need to read the following section on how to roubleshoot ports.
+Also, you may need to read the following section on how to troubleshoot ports.
 
 ## Troubleshoot: Open required ports on Windows Server
 
