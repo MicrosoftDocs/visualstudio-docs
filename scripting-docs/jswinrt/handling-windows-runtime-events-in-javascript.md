@@ -30,7 +30,7 @@ locator.addEventListener(
     });  
 ```  
   
- You can also set the `locator.onpositionchanged` property.  
+ You can also set the `locator.onpositionchanged` property:  
   
 ```JavaScript  
 locator.onpositionchanged =    
