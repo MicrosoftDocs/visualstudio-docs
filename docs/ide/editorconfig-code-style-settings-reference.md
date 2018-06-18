@@ -1405,6 +1405,13 @@ The following list shows the formatting convention rules available in Visual Stu
         - csharp_space_between_method_declaration_parameter_list_parentheses
         - csharp_space_between_method_call_parameter_list_parentheses
         - csharp_space_between_parentheses
+        - csharp_space_before_colon_in_inheritance_clause
+        - csharp_space_after_colon_in_inheritance_clause
+        - csharp_space_around_binary_operators
+        - csharp_space_around_declaration_statements
+        - csharp_space_between_method_declaration_empty_parameter_list_parentheses
+        - csharp_space_between_method_call_name_and_opening_parenthesis
+        - csharp_space_between_method_call_empty_parameter_list_parentheses
     - [Wrapping options](#wrapping)
         - csharp_preserve_single_line_statements
         - csharp_preserve_single_line_blocks
@@ -1811,6 +1818,13 @@ The following table shows the rule names, applicable languages, default values, 
 | csharp_space_between_method_declaration_parameter_ list_parentheses |  C# | false | 15.3  |
 | csharp_space_between_method_call_parameter_list_parentheses |  C# | false | 15.3  |
 | csharp_space_between_parentheses |  C# | false | 15.3  |
+| csharp_space_before_colon_in_inheritance_clause |  C# | true | 15.7  |
+| csharp_space_after_colon_in_inheritance_clause |  C# | true | 15.7  |
+| csharp_space_around_binary_operators |  C# | before_and_after | 15.7  |
+| csharp_space_around_declaration_statements |  C# | false | 15.7  |
+| csharp_space_between_method_declaration_empty_parameter_list_parentheses |  C# | false | 15.7  |
+| csharp_space_between_method_call_name_and_opening_parenthesis |  C# | false | 15.7  |
+| csharp_space_between_method_call_empty_parameter_list_parentheses |  C# | false | 15.7  |
 
 **csharp\_space\_after_cast**
 
@@ -1897,6 +1911,215 @@ var z = ( x * y ) - ( ( y - x ) * 3 );
 int y = ( int )x;
 ```
 
+**csharp\_space\_before\_colon\_in\_inheritance_clause**
+
+- When this rule is set to **true**, require a space before the colon for bases or interfaces in a type declaration.
+- When this rule is set to **false**, require _no_ space before the colon for bases or interfaces in a type declaration.
+
+Code examples:
+
+```csharp
+// csharp_space_before_colon_in_inheritance_clause = true
+interface I
+{
+
+}
+
+class C : I 
+{
+
+}
+
+// csharp_space_before_colon_in_inheritance_clause = false
+interface I
+{
+
+}
+
+class C: I 
+{
+
+}
+```
+
+**csharp\_space\_after\_colon\_in\_inheritance_clause**
+
+- When this rule is set to **true**, require a space after the colon for bases or interfaces in a type declaration.
+- When this rule is set to **false**, require _no_ space after the colon for bases or interfaces in a type declaration.
+
+Code examples:
+
+```csharp
+// csharp_space_after_colon_in_inheritance_clause = true
+interface I
+{
+
+}
+
+class C : I 
+{
+
+}
+
+// csharp_space_after_colon_in_inheritance_clause = false
+interface I
+{
+
+}
+
+class C :I 
+{
+
+}
+```
+
+**csharp\_space\_around\_binary_operators**
+
+This rule accepts one value from the following table:
+
+| Value | Description |
+| ----- |:------------|
+| before_and_after | Insert space before and after the binary operator |
+| none | Remove spaces before and after the binary operator |
+| ignore | Ignore spaces around binary operators |
+
+If you omit this rule, or use a value other than `before_and_after`, `none`, or `ignore`, the setting is not applied.
+
+Code examples:
+
+```csharp
+// csharp_space_around_binary_operators = before_and_after
+return x * (x - y);
+
+// csharp_space_around_binary_operators = none
+return x*(x-y);
+
+// csharp_space_around_binary_operators = ignore
+return x  *  (x-y);
+```
+
+**csharp_space_around_declaration_statements**
+
+- When this rule is set to **true**, ignore spaces around variable declarations.
+- When this rule is set to **false**, require a space a single space around variable declarations.
+
+Code examples:
+
+```csharp
+// csharp_space_around_declaration_statements = true
+int     index = 0;
+string  text = "Start";
+
+void Method()
+{
+    int     i = 0;
+    string  s = "Hello";
+}
+
+// csharp_space_around_declaration_statements = false
+int index = 0;
+string text = "Start";
+
+void Method()
+{
+    int i = 0;
+    string s = "Hello";
+}
+```
+
+**csharp_space_between_method_declaration_empty_parameter_list_parentheses**
+
+- When this rule is set to **true**, insert space within empty parameter list parentheses for a method declaration.
+- When this rule is set to **false**, remove space within empty parameter list parentheses for a method declaration.
+
+Code examples:
+
+```csharp
+// csharp_space_between_method_declaration_empty_parameter_list_parentheses = true
+void Goo( )
+{
+    Goo(1);
+}
+
+void Goo(int x)
+{
+    Goo();
+}
+
+// csharp_space_between_method_declaration_empty_parameter_list_parentheses = false
+void Goo()
+{
+    Goo(1);
+}
+
+void Goo(int x)
+{
+    Goo();
+}
+```
+
+**csharp_space_between_method_call_name_and_opening_parenthesis**
+
+- When this rule is set to **true**, insert space between method call name and opening parenthesis.
+- When this rule is set to **false**, remove space between method call name and opening parenthesis.
+
+Code examples:
+
+```csharp
+// csharp_space_between_method_call_name_and_opening_parenthesis = true
+void Goo()
+{
+    Goo (1);
+}
+
+void Goo(int x)
+{
+    Goo ();
+}
+
+// csharp_space_between_method_call_name_and_opening_parenthesis = false
+void Goo()
+{
+    Goo(1);
+}
+
+void Goo(int x)
+{
+    Goo();
+}
+```
+
+**csharp_space_between_method_call_empty_parameter_list_parentheses**
+
+- When this rule is set to **true**, insert space within empty argument list parentheses.
+- When this rule is set to **false**, remove space within empty argument list parentheses.
+
+Code examples:
+
+```csharp
+// csharp_space_between_method_call_empty_parameter_list_parentheses = true
+void Goo()
+{
+    Goo(1);
+}
+
+void Goo(int x)
+{
+    Goo( );
+}
+
+// csharp_space_between_method_call_empty_parameter_list_parentheses = false
+void Goo()
+{
+    Goo(1);
+}
+
+void Goo(int x)
+{
+    Goo();
+}
+```
+
 Example *.editorconfig* file:
 
 ```EditorConfig
@@ -1907,6 +2130,13 @@ csharp_space_after_keywords_in_control_flow_statements = true
 csharp_space_between_method_declaration_parameter_list_parentheses = true
 csharp_space_between_method_call_parameter_list_parentheses = true
 csharp_space_between_parentheses = control_flow_statements, type_casts
+csharp_space_before_colon_in_inheritance_clause = true
+csharp_space_after_colon_in_inheritance_clause = true
+csharp_space_around_binary_operators = before_and_after
+csharp_space_around_declaration_statements = false
+csharp_space_between_method_declaration_empty_parameter_list_parentheses = false
+csharp_space_between_method_call_name_and_opening_parenthesis = false
+csharp_space_between_method_call_empty_parameter_list_parentheses = false
 ```
 
 #### <a name="wrapping"></a>Wrapping options
@@ -2094,6 +2324,13 @@ csharp_space_after_keywords_in_control_flow_statements = true
 csharp_space_between_method_call_parameter_list_parentheses = false 
 csharp_space_between_method_declaration_parameter_list_parentheses = false
 csharp_space_between_parentheses = false
+csharp_space_before_colon_in_inheritance_clause = true
+csharp_space_after_colon_in_inheritance_clause = true
+csharp_space_around_binary_operators = before_and_after
+csharp_space_around_declaration_statements = false
+csharp_space_between_method_declaration_empty_parameter_list_parentheses = false
+csharp_space_between_method_call_name_and_opening_parenthesis = false
+csharp_space_between_method_call_empty_parameter_list_parentheses = false
 
 # Wrapping preferences
 csharp_preserve_single_line_statements = true
