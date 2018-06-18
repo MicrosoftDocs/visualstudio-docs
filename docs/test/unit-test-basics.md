@@ -22,13 +22,13 @@ You can quickly generate test projects and test methods from your code, or manua
 
 Test Explorer can also run third-party and open source unit test frameworks that have implemented Test Explorer add-on interfaces. You can add many of these frameworks through the Visual Studio Extension Manager and the Visual Studio gallery. See [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
 
-## Getting started
+## Get started
 
 For an introduction to unit testing that takes you directly into coding, see one of these topics:
 
-- [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
+- [Walkthrough: Create and run unit tests for managed code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
 
-- [Quickstart: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
+- [Quickstart: Test driven development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
 
 - [Write unit tests for C/C++ in Visual Studio](../test/writing-unit-tests-for-c-cpp.md)
 
@@ -48,11 +48,11 @@ In this topic, we use the development of a fictional application called `MyBank`
 
  Our first attempt at designing the `Accounts` project contain a class to hold basic information about an account, an interface that specifies the common functionality of any type of account, like depositing and withdrawing assets from the account, and a class derived from the interface that represents a checking account. We begin the Accounts projects by creating the following source files:
 
--   `AccountInfo.cs` defines the basic information for an account.
+-   *AccountInfo.cs* defines the basic information for an account.
 
--   `IAccount.cs` defines a standard `IAccount` interface for an account, including methods to deposit and withdraw assets from an account and to retrieve the account balance.
+-   *IAccount.cs* defines a standard `IAccount` interface for an account, including methods to deposit and withdraw assets from an account and to retrieve the account balance.
 
--   `CheckingAccount.cs` contains the `CheckingAccount` class that implements the `IAccounts` interface for a checking account.
+-   *CheckingAccount.cs* contains the `CheckingAccount` class that implements the `IAccounts` interface for a checking account.
 
 We know from experience that one thing a withdrawal from a checking account must do is to make sure that the amount withdrawn is less than the account balance. So we override the `IAccount.Withdaw` method in `CheckingAccount` with a method that checks for this condition. The method might look like this:
 
@@ -82,7 +82,7 @@ It is often quicker to generate the unit test project and unit test stubs from y
 
      ![From the editor window, view the context menu](../test/media/createunittestsrightclick.png)
 
-2.  Click OK to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
+2.  Click **OK** to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
 
      ![Right&#45;click in editor and choose Create Unit Tests](../test/media/createunittestsdialog.png)
 
@@ -98,9 +98,9 @@ It is often quicker to generate the unit test project and unit test stubs from y
 
  **To add a unit test project to a solution:**
 
-1.  On the **File** menu, choose **New** and then choose **Project** (Keyboard Ctrl + Shift + N).
+1.  On the **File** menu, choose **New** and then choose **Project** (Keyboard **Ctrl**+**Shift**+**N**).
 
-2.  On the New Project dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
+2.  On the **New Project** dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
 
 3.  To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the `Accounts` project of our example, you would name the project `AccountsTests`.
 
@@ -111,11 +111,11 @@ It is often quicker to generate the unit test project and unit test stubs from y
 
      To create the reference to the code project:
 
-    1.  Select the project in Solution Explorer.
+    1.  Select the project in **Solution Explorer**.
 
     2.  On the **Project** menu, choose **Add Reference**.
 
-    3.  On the Reference Manager dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.
+    3.  On the **Reference Manager** dialog box, open the **Solution** node and choose **Projects**. Select the code project name and close the dialog box.
 
  Each unit test project contains classes that mirror the names of the classes in the code project. In our example, the `AccountsTests` project would contain the following classes:
 
@@ -125,7 +125,7 @@ It is often quicker to generate the unit test project and unit test stubs from y
 
 ## Write your tests
 
-The unit test framework that you use and Visual Studio IntelliSense will guide you through writing the code for your unit tests for a code project. To run in Test Explorer, most frameworks require that you add specific attributes to identify unit test methods. The frameworks also provide a way—usually through assert statements or method attributes—to indicate whether the test method has passed or failed. Other attributes identify optional setup methods that are at class initialization and before each test method and teardown methods that are run after each test method and before the class is destroyed.
+The unit test framework that you use and Visual Studio IntelliSense will guide you through writing the code for your unit tests for a code project. To run in **Test Explorer**, most frameworks require that you add specific attributes to identify unit test methods. The frameworks also provide a way—usually through assert statements or method attributes—to indicate whether the test method has passed or failed. Other attributes identify optional setup methods that are at class initialization and before each test method and teardown methods that are run after each test method and before the class is destroyed.
 
 The AAA (Arrange, Act, Assert) pattern is a common way of writing unit tests for a method under test.
 
@@ -169,9 +169,11 @@ Note that `Withdraw_ValidAmount_ChangesBalance` uses an explicit `Assert` statem
 
 For more information about the Microsoft unit testing frameworks, see one of the following topics:
 
--   [Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code](../test/writing-unit-tests-for-the-dotnet-framework-with-the-microsoft-unit-test-framework-for-managed-code.md)
+-   [Unit test your code](unit-test-your-code.md)
 
--   [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md)
+-   [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
+
+-   [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
 
 ## Set timeouts for unit tests
 
@@ -197,21 +199,21 @@ public void My_Test ()
 
 ## Run tests in Test Explorer
 
-When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.
+When you build the test project, the tests appear in **Test Explorer**. If **Test Explorer** is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.
 
  ![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
 
- As you run, write, and rerun your tests, the default view of Test Explorer displays the results in groups of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**. You can choose a group heading to open the view that displays all them tests in that group.
+ As you run, write, and rerun your tests, the default view of **Test Explorer** displays the results in groups of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**. You can choose a group heading to open the view that displays all the tests in that group.
 
  You can also filter the tests in any view by matching text in the search box at the global level or by selecting one of the pre-defined filters. You can run any selection of the tests at any time. The results of a test run are immediately apparent in the pass/fail bar at the top of the explorer window. Details of a test method result are displayed when you select the test.
 
 ### Run and view tests
 
-The Test Explorer toolbar helps you discover, organize, and run the tests that you are interested in.
+The **Test Explorer** toolbar helps you discover, organize, and run the tests that you are interested in.
 
  ![Run tests from the Test Explorer toolbar](../test/media/ute_toolbar.png)
 
- You can choose **Run All** to run all your tests, or choose **Run** to choose a subset of tests to run. After you run a set of tests, a summary of the test run appears at the bottom of the Test Explorer window. Select a test to view the details of that test in the bottom pane. Choose **Open Test** from the context menu (Keyboard: F12) to display the source code for the selected test.
+ You can choose **Run All** to run all your tests, or choose **Run** to choose a subset of tests to run. After you run a set of tests, a summary of the test run appears at the bottom of the **Test Explorer** window. Select a test to view the details of that test in the bottom pane. Choose **Open Test** from the context menu (Keyboard: **F12**) to display the source code for the selected test.
 
  If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
@@ -222,11 +224,11 @@ The Test Explorer toolbar helps you discover, organize, and run the tests that y
 
 |Button|Description|
 |-|-|
-|![Run after build](../test/media/ute_runafterbuild_btn.png)|To run your unit tests after each local build, choose **Test** on the standard menu, choose **Run Tests After Build** on the Test Explorer toolbar.|
+|![Run after build](../test/media/ute_runafterbuild_btn.png)|To run your unit tests after each local build, choose **Test** on the standard menu, choose **Run Tests After Build** on the **Test Explorer** toolbar.|
 
 ### Filter and group the test list
 
-When you have a large number of tests, you can Type in Test Explorer search box to filter the list by the specified string. You can restrict your filter event more by choosing from the filter list.
+When you have a large number of tests, you can Type in **Test Explorer** search box to filter the list by the specified string. You can restrict your filter event more by choosing from the filter list.
 
  ![Search filter categories](../test/media/ute_searchfilter.png)
 
@@ -240,14 +242,14 @@ When you have a large number of tests, you can Type in Test Explorer search box 
 
 **Q: How do I debug unit tests?**
 
-**A:** Use Test Explorer to start a debugging session for your tests. Stepping through your code with the Visual Studio debugger seamlessly takes you back and forth between the unit tests and the project under test. To start debugging:
+**A:** Use **Test Explorer** to start a debugging session for your tests. Stepping through your code with the Visual Studio debugger seamlessly takes you back and forth between the unit tests and the project under test. To start debugging:
 
 1.  In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.
 
     > [!NOTE]
     > Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.
 
-2.  In Test Explorer, select the test methods and then choose **Debug Selected Tests** from the shortcut menu.
+2.  In **Test Explorer**, select the test methods and then choose **Debug Selected Tests** from the shortcut menu.
 
 Learn more details about [debugging unit tests](../debugger/debugging-in-visual-studio.md).
 
@@ -266,7 +268,7 @@ Learn more details about [debugging unit tests](../debugger/debugging-in-visual-
 
  For example, assume we add an unnecessary method to the `CheckingAccount` class that is named `AddIntegerHelper`. `AddIntegerHelper` adds two integers.
 
- To create a data-driven test for the `AddIntegerHelper` method, we first create an Access database named `AccountsTest.accdb` and a table named `AddIntegerHelperData`. The `AddIntegerHelperData` table defines columns to specify the first and second operands of the addition and a column to specify the expected result. We fill a number of rows with appropriate values.
+ To create a data-driven test for the `AddIntegerHelper` method, we first create an Access database named *AccountsTest.accdb* and a table named `AddIntegerHelperData`. The `AddIntegerHelperData` table defines columns to specify the first and second operands of the addition and a column to specify the expected result. We fill a number of rows with appropriate values.
 
 ```csharp
 [DataSource(
@@ -285,7 +287,7 @@ public void AddIntegerHelper_DataDrivenValues_AllShouldPass()
 }
 ```
 
-The attributed method runs once for each row in the table. Test Explorer reports a test failure for the method if any of the iterations fail. The test results detail pane for the method shows you the pass/fail status method for each row of data.
+The attributed method runs once for each row in the table. **Test Explorer** reports a test failure for the method if any of the iterations fail. The test results detail pane for the method shows you the pass/fail status method for each row of data.
 
  Learn more about [data-driven unit tests](../test/how-to-create-a-data-driven-unit-test.md).
 
@@ -293,11 +295,11 @@ The attributed method runs once for each row in the table. Test Explorer reports
 
  **A:** Yes. You can determine the amount of your code that is actually being tested by your unit tests by using the Visual Studio code coverage tool. Native and managed languages and all unit test frameworks that can be run by the Unit Test Framework are supported.
 
- You can run code coverage on selected tests or on all tests in a solution. The Code Coverage Results window displays the percentage of the blocks of product code that were exercised by line, function, class, namespace and module.
+ You can run code coverage on selected tests or on all tests in a solution. The **Code Coverage Results** window displays the percentage of the blocks of product code that were exercised by line, function, class, namespace and module.
 
  To run code coverage for test methods in a solution, choose **Tests** on the Visual Studio menu and then choose **Analyze code coverage**.
 
- Coverage results appear in the Code Coverage Results window.
+ Coverage results appear in the **Code Coverage Results** window.
 
  ![Code coverage results](../test/media/ute_codecoverageresults.png)
 
