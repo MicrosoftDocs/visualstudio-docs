@@ -48,11 +48,11 @@ In this topic, we use the development of a fictional application called `MyBank`
 
  Our first attempt at designing the `Accounts` project contain a class to hold basic information about an account, an interface that specifies the common functionality of any type of account, like depositing and withdrawing assets from the account, and a class derived from the interface that represents a checking account. We begin the Accounts projects by creating the following source files:
 
--   *`AccountInfo.cs`* defines the basic information for an account.
+-   *AccountInfo.cs* defines the basic information for an account.
 
--   *`IAccount.cs`* defines a standard `IAccount` interface for an account, including methods to deposit and withdraw assets from an account and to retrieve the account balance.
+-   *IAccount.cs* defines a standard `IAccount` interface for an account, including methods to deposit and withdraw assets from an account and to retrieve the account balance.
 
--   *`CheckingAccount.cs`* contains the `CheckingAccount` class that implements the `IAccounts` interface for a checking account.
+-   *CheckingAccount.cs* contains the `CheckingAccount` class that implements the `IAccounts` interface for a checking account.
 
 We know from experience that one thing a withdrawal from a checking account must do is to make sure that the amount withdrawn is less than the account balance. So we override the `IAccount.Withdaw` method in `CheckingAccount` with a method that checks for this condition. The method might look like this:
 
@@ -173,6 +173,8 @@ For more information about the Microsoft unit testing frameworks, see one of the
 
 -   [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
 
+-   [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
+
 ## Set timeouts for unit tests
 
 To set a timeout on an individual test method:
@@ -266,7 +268,7 @@ Learn more details about [debugging unit tests](../debugger/debugging-in-visual-
 
  For example, assume we add an unnecessary method to the `CheckingAccount` class that is named `AddIntegerHelper`. `AddIntegerHelper` adds two integers.
 
- To create a data-driven test for the `AddIntegerHelper` method, we first create an Access database named *`AccountsTest.accdb`* and a table named `AddIntegerHelperData`. The `AddIntegerHelperData` table defines columns to specify the first and second operands of the addition and a column to specify the expected result. We fill a number of rows with appropriate values.
+ To create a data-driven test for the `AddIntegerHelper` method, we first create an Access database named *AccountsTest.accdb* and a table named `AddIntegerHelperData`. The `AddIntegerHelperData` table defines columns to specify the first and second operands of the addition and a column to specify the expected result. We fill a number of rows with appropriate values.
 
 ```csharp
 [DataSource(

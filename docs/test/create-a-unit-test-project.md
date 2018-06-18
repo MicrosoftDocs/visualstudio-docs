@@ -23,7 +23,7 @@ Unit tests often mirror the structure of the code under test. For example, a uni
 
 2.  In the **New Project** dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
 
-3.  To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the Accounts project of our example, you would name the project *AccountsTests*.
+3.  To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the Accounts project of our example, you would name the project **AccountsTests**.
 
 4.  In your unit test project, add a reference to the code under test.  Here's how to create the reference to a code project in the same solution:
 
@@ -43,6 +43,8 @@ Unit tests often mirror the structure of the code under test. For example, a uni
 -   [Unit test your code](../test/unit-test-your-code.md)
 
 -   [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
+
+-   [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
 
  **Running unit tests**
 

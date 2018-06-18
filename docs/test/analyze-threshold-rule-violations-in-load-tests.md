@@ -22,7 +22,7 @@ ms.technology: vs-ide-test
 
 Threshold rules are associated with specific performance counters, and violations indicate that a performance counter exceeded or fell below a set value. When you run a load test, you can analyze violations that occur for the threshold rules you set up previously.
 
-If any violations occurred, a **threshold violations** hyperlink appears on the **Load Test Analyzer's** status bar and specifies the number of violations that occurred. You choose the hyperlink to display the threshold violations table. You can also view threshold violations in the **Counters** window, and on the graph.
+If any violations occurred, a **threshold violations** hyperlink appears on the **Load Test Analyzer** status bar and specifies the number of violations that occurred. You choose the hyperlink to display the threshold violations table. You can also view threshold violations in the **Counters** window, and on the graph.
 
 ## View threshold violations in the table
 
