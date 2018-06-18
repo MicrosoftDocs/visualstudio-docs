@@ -57,7 +57,7 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
   
 2.  Find the following registry key:  
   
-     \HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel  
+     **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel**  
   
      If the key does not exist, create it.  
   
@@ -116,7 +116,7 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
   
 2.  Find the following registry key:  
   
-     \HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel  
+     **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel** 
   
      If the key does not exist, create it.  
   
@@ -173,7 +173,7 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
   
 2.  Find the following registry key:  
   
-     \HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel  
+     **\HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\\.NETFramework\Security\TrustManager\PromptingLevel**  
   
      If the key does not exist, create it.  
   
