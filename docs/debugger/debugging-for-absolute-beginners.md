@@ -17,7 +17,7 @@ ms.workload:
 
 If you are using Visual Studio and this is the first time that you've tried to debug an application, then you're in the right place. When you use a debugger for the first time, it's normal to hope (and expect) that whatever debugging tool you're using will magically show you all the bugs in your code. Unfortunately, it's not that easy. Debugging is a learned skill, and it takes time and practice to learn how to debug effectively. So before we teach you how to use the Visual Studio debugger, here are a couple of tips and principles.
 
-First, it's helpful to define the primary term. *Debugging* is the process of removing bugs from your code. In the context of Visual Studio, debugging usually means running your app (executing code) while the Visual Studio debugger is attached to your application. With the debugger attached, you can inspect your app state (for example, look at variables) and try to find bugs.
+First, it's helpful to define the primary term. *Debugging* is the process of removing bugs from your code. In the context of Visual Studio, debugging usually means running your app (executing code) while the Visual Studio debugger is attached to your application. With the debugger attached, you see what your code is doing while it runs. For example, you can inspect your app state (look at variables) and try to find bugs.
 
 ## Clarify the problem by asking yourself the right questions
 
