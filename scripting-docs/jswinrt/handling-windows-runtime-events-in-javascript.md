@@ -32,7 +32,7 @@ locator.addEventListener(
   
  You can also set the `locator.onpositionchanged` property.  
   
-```  
+```JavaScript  
 locator.onpositionchanged =    
     function (ev) {  
         console.log("Got event");  
