@@ -56,13 +56,13 @@ In this tutorial, you will:
 
      ![Open the sample project](../debugger/media/dbg-tour-open-project.png "Open Project")
 
-3. Open the WPF Photo Viewer Demo > C# folder, choose the photoapp.sln file, and select **Open**.
+3. Open the WPF Photo Viewer Demo > C# folder, choose the *photoapp.sln* file, and select **Open**.
 
      The project opens in Visual Studio. Solution Explorer in the right pane shows you all the project files.
 
     ![Solution Explorer files](../debugger/media/dbg-tour-solution-explorer.png "Solution Explorer")
 
-4. Press F5 (**Debug > Start Debugging** or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar).
+4. Press **F5** (**Debug > Start Debugging**) or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar.
 
      ![Photo Viewer app](../debugger/media/dbg-tour-wpf-app.png "Photo Viewer App")
 
@@ -82,7 +82,7 @@ To debug, you need to start your app with the debugger attached to the app proce
 
     Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. 
 
-6. Press F5 or the **Start Debugging** button, the app starts, and the debugger runs to the line of code where you set the breakpoint.
+6. Press **F5** or the **Start Debugging** button, the app starts, and the debugger runs to the line of code where you set the breakpoint.
 
     The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
 
@@ -90,9 +90,9 @@ To debug, you need to start your app with the debugger attached to the app proce
 
     Breakpoints are a useful feature when you know the line of code or the section of code that you want to examine in detail.
 
-## Restart your app quickly
+## (Optional) Restart your app quickly
 
-Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (Ctrl + Shift +F5).
+Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**).
 
 When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code.
 
@@ -102,7 +102,7 @@ The debugger stops again at the breakpoint you set, in the `MainWindow` construc
 
 Mostly, we use the keyboard shortcuts here, because it's a good way to get fast at executing your app in the debugger (equivalent commands such as menu commands are shown in parentheses).
 
-1. Press F11 (**Debug > Step Into**) twice to advance the execution of the app to the `InitializeComponent()` function.
+1. Press **F11** (**Debug > Step Into**) twice to advance the execution of the app to the `InitializeComponent()` function.
 
      ![Use F11 to Step Into code](../debugger/media/dbg-tour-f11.png "F11 Step Into")
 
@@ -111,7 +111,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
      >[!NOTE]
      > In managed code, you will see a dialog box asking if you want to be notified when you automatically step over properties and operators (default behavior). If you want to change the setting later, disable **Step over properties and operators** setting in the **Tools > Options** menu under **Debugging**.
 
-2. Press F10 (**Debug > Step Over**) a few times until the debugger stops on the first line of code in the `OnApplicationStartup` event handler.
+2. Press **F10** (**Debug > Step Over**) a few times until the debugger stops on the first line of code in the `OnApplicationStartup` event handler.
 
      ![Use F10 to Step Over code](../debugger/media/dbg-tour-f10-step-over.png "F10 Step Over")
 
@@ -121,7 +121,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 1. With the debugger paused on this line of code:
 
-    ````
+    ````c#
     mainWindow.Photos.Path = Environment.CurrentDirectory + "\\images";
     ````
 
@@ -148,11 +148,11 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
     The debugger advances to the `Update` method implementation.
 
-7. Press F11 to step into the `Update` method.
+7. Press **F11** to step into the `Update` method.
 
      ![Result of stepping into the Update method](../debugger/media/dbg-tour-update-method.png "Step Into Update Method")
 
-    Here, we find some more code that looks interesting; the app is getting all *.jpg files residing in a particular directory, and then creating a Photo object for each file. This code gives us a good opportunity to start inspecting your app state (variables) with the debugger. We will do that in the next sections of this tutorial.
+    Here, we find some more code that looks interesting; the app is getting all .*jpg* files residing in a particular directory, and then creating a Photo object for each file. This code gives us a good opportunity to start inspecting your app state (variables) with the debugger. We will do that in the next sections of this tutorial.
 
     Features that allow you to inspect variables are one of the most useful features of the debugger, and there are different ways to do it. Often, when you try to debug an issue, you are attempting to find out whether variables are storing the values that you expect them to have at a particular time.
 
@@ -177,25 +177,25 @@ You can also use right-click menus from the **Call Stack** window to do other th
 
 Let's say that you are done examining the `Update` method in Data.cs, and you want to get out of the function but stay in the debugger. You can do this using the **Step Out** command.
 
-1. Press Shift + F11 (or **Debug > Step Out**).
+1. Press **Shift** + **F11** (or **Debug > Step Out**).
 
      This command resumes app execution (and advances the debugger) until the current function returns.
 
      You should be back in the `Update` method call in Data.cs.
 
-2. Press Shift + F11 again, and the debugger goes up the call stack back to the `OnApplicationStartup` event handler.
+2. Press **Shift** + **F11** again, and the debugger goes up the call stack back to the `OnApplicationStartup` event handler.
 
 ## Run to cursor
 
-1. Choose the **Stop Debugging** red button ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") or Shift + F5.
+1. Choose the **Stop Debugging** red button ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") or **Shift** + **F5**.
 
-2. In the `Update` method in Data.cs, right-click the `Add` method call and choose **Run to Cursor**. This command starts debugging and sets a temporary breakpoint on the current line of code.
+2. In the `Update` method in *Data.cs*, right-click the `Add` method call and choose **Run to Cursor**. This command starts debugging and sets a temporary breakpoint on the current line of code.
 
      ![Use the Run to Cursor feature](../debugger/media/dbg-tour-run-to-cursor.png "Run to Cursor")
 
     You should be paused on the breakpoint in `MainWindow` (since that is the first breakpoint you set).
 
-3. Press F5 to advance to the `Add` method where you selected **Run to Cursor**.
+3. Press **F5** to advance to the `Add` method where you selected **Run to Cursor**.
 
     This command is useful when you are editing code and want to quickly set a temporary breakpoint and start the debugger.
 
@@ -207,7 +207,7 @@ Let's say that you are done examining the `Update` method in Data.cs, and you wa
 
     By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger.
 
-2. Now, press F5.
+2. Now, press **F5**.
 
     You can see the images added to the app window. Because you are rerunning code in the `foreach` loop, some of the images have been added twice!
     
@@ -216,13 +216,13 @@ Let's say that you are done examining the `Update` method in Data.cs, and you wa
 
 ## Inspect variables with data tips
 
-1. Open Data.cs in the Photo Viewer Demo app, right-click the `private void Update` function declaration and choose **Run to Cursor** (stop the app first if it is already running).
+1. Open *Data.cs* in the Photo Viewer Demo app, right-click the `private void Update` function declaration and choose **Run to Cursor** (stop the app first if it is already running).
 
     This will pause the app with the debugger attached. This allows us to examine its state.
 
 2. Hover over the `Add` method call and click the **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick").
 
-3. Now, hover over the File object (`f`) and you see its default property value, the file name `market 031.jpg`.
+3. Now, hover over the File object (`f`) and you see its default property value, the file name *market 031.jpg*.
 
      ![View a data tip](../debugger/media/dbg-tour-data-tips.gif "View a Data Tip")
 
@@ -289,7 +289,7 @@ Let's say that you are done examining the `Update` method in Data.cs, and you wa
 
 2. Expand the **Exception Settings** node to see more options on how to handle this exception type, but you don't need to change anything for this tour!
 
-3. Press F5 to continue the app.
+3. Press **F5** to continue the app.
 
 To learn more about the features of the debugger, see [Debugger Tips and Tricks](../debugger/debugger-tips-and-tricks.md).
 

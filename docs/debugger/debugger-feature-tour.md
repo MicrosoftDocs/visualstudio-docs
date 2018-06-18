@@ -22,13 +22,13 @@ The features described here are applicable to C#, C++, Visual Basic, JavaScript,
 
 ## Set a breakpoint and start the debugger
 
-To debug, you need to start your app with the debugger attached to the app process. F5 (**Debug > Start Debugging**) is the most common way to do that. However, right now you may not have set any breakpoints to examine your app code, so we will do that first and then start debugging. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. 
+To debug, you need to start your app with the debugger attached to the app process. **F5** (**Debug > Start Debugging**) is the most common way to do that. However, right now you may not have set any breakpoints to examine your app code, so we will do that first and then start debugging. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. 
 
 If you have a file open in the code editor, you can set a breakpoint by clicking in the margin to the left of a line of code.
 
 ![Set a Breakpoint](../debugger/media/dbg-tour-set-a-breakpoint.gif "Set a breakpoint")
 
-Press F5 (**Debug > Start Debugging**) and the debugger runs to the first breakpoint that it encounters. If the app is not yet running, F5 starts the debugger and stops at the first breakpoint.
+Press **F5** (**Debug > Start Debugging**) or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar, and the debugger runs to the first breakpoint that it encounters. If the app is not yet running, F5 starts the debugger and stops at the first breakpoint.
 
 Breakpoints are a useful feature when you know the line of code or the section of code that you want to examine in detail.
 
@@ -36,7 +36,7 @@ Breakpoints are a useful feature when you know the line of code or the section o
 
 We provide the keyboard shortcuts for most commands because they make navigation of your app code quicker. (Equivalent commands such as menu commands are shown in parentheses.)
 
-To start your app with the debugger attached, press F11 (**Debug > Step Into**). F11 is the **Step Into** command and advances the app execution one statement at a time. When you start the app with F11, the debugger breaks on the first statement that gets executed.
+To start your app with the debugger attached, press **F11** (**Debug > Step Into**). F11 is the **Step Into** command and advances the app execution one statement at a time. When you start the app with F11, the debugger breaks on the first statement that gets executed.
 
 ![F11 Step Into](../debugger/media/dbg-tour-f11.png "F11 Step Into")
 
@@ -49,7 +49,7 @@ F11 is a good way to examine the execution flow in the most detail. (To move fas
 
 ## Step over code to skip functions
 
-When you are on a line of code that is a function or method call, you can press F10 (**Debug > Step Over**) instead of F11.
+When you are on a line of code that is a function or method call, you can press **F10** (**Debug > Step Over**) instead of F11.
 
 F10 advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing F10, you can skip over code that you're not interested in. This way, you can quickly get to code that you are more interested in.
 
@@ -88,7 +88,7 @@ This command resumes app execution (and advances the debugger) until the current
 
 ## Run to cursor
 
-Stop the debugger by pressing the **Stop Debugging** red button ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") or Shift + F5.
+Stop the debugger by pressing the **Stop Debugging** red button ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") or **Shift** + **F5**.
 
 Right-click a line of code in your app and choose **Run to Cursor**. This command starts debugging and sets a temporary breakpoint on the current line of code.
 
@@ -96,7 +96,7 @@ Right-click a line of code in your app and choose **Run to Cursor**. This comman
 
 If you have set breakpoints, the debugger pauses on the first breakpoint that it hits.
 
-Press F5 until you reach the line of code where you selected **Run to Cursor**.
+Press **F5** until you reach the line of code where you selected **Run to Cursor**.
 
 This command is useful when you are editing code and want to quickly set a temporary breakpoint and start the debugger at the same time.
 
