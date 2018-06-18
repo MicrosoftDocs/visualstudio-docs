@@ -1,6 +1,6 @@
 ---
-title: "Start debugging in Visual Studio"
-description: "Learn how to get started using the Visual Studio debugger"
+title: "Get started debugging in Visual Studio"
+description: "Get started debugging applications using the Visual Studio debugger"
 ms.custom: "mvc"
 ms.date: "06/15/2018"
 ms.technology: "vs-ide-debug"
@@ -16,13 +16,13 @@ ms.workload:
 ---
 # First look at the Visual Studio Debugger
 
-This topic introduces the features of the Visual Studio debugger. In the Visual Studio context, when you *debug your app*, it usually means that you are running the application with the debugger attached. When you do this, the debugger provides many ways to see what your code is doing while it runs. You can step through your code and look at the values stored in variables, you can set watches on variables to see when values change, you can examine the execution path of your code, et al.
+This topic introduces the features of the Visual Studio debugger. In the Visual Studio context, when you *debug your app*, it usually means that you are running the application with the debugger attached. When you do this, the debugger provides many ways to see what your code is doing while it runs. You can step through your code and look at the values stored in variables, you can set watches on variables to see when values change, you can examine the execution path of your code, et al. If this is your first experience trying to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-for-absolute-beginners.md) before going through this topic.
 
 The features described here are applicable to C#, C++, Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted).
 
 ## Set a breakpoint and start the debugger
 
-To debug, you need to start your app with the debugger attached to the app process. F5 (**Debug > Start Debugging**) is the most common way to do that. However, right now you may not have set any breakpoints to examine your app code, so we will do that first and then start debugging.
+To debug, you need to start your app with the debugger attached to the app process. F5 (**Debug > Start Debugging**) is the most common way to do that. However, right now you may not have set any breakpoints to examine your app code, so we will do that first and then start debugging. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. 
 
 If you have a file open in the code editor, you can set a breakpoint by clicking in the margin to the left of a line of code.
 
@@ -32,7 +32,7 @@ Press F5 (**Debug > Start Debugging**) and the debugger runs to the first breakp
 
 Breakpoints are a useful feature when you know the line of code or the section of code that you want to examine in detail.
 
-## Navigate code in the debugger using step commands
+## <a name="navigate"></a> Navigate code in the debugger using step commands
 
 We provide the keyboard shortcuts for most commands because they make navigation of your app code quicker. (Equivalent commands such as menu commands are shown in parentheses.)
 
