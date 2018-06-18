@@ -1988,13 +1988,13 @@ charset = utf-8-bom
 # Organize usings
 dotnet_sort_system_directives_first = true
 
-# Avoid this. unless absolutely necessary
+# this. preferences
 dotnet_style_qualification_for_field = false:suggestion
 dotnet_style_qualification_for_property = false:suggestion
 dotnet_style_qualification_for_method = false:suggestion
 dotnet_style_qualification_for_event = false:suggestion
 
-# Use language keywords instead of BCL types
+# Language keywords vs BCL types preferences
 dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
 dotnet_style_predefined_type_for_member_access = true:suggestion
 
@@ -2053,7 +2053,7 @@ csharp_style_expression_bodied_properties = true:none
 csharp_style_expression_bodied_indexers = true:none
 csharp_style_expression_bodied_accessors = true:none
 
-# Pattern matching
+# Pattern matching preferences
 csharp_style_pattern_matching_over_is_with_cast_check = true:suggestion
 csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
 
