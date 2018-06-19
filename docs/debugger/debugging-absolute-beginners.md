@@ -1,8 +1,8 @@
 ---
 title: "Debugging tips for absolute beginners"
-description: "If you are debugging for the first time, learn a few tips to help you debug applications with Visual Studio"
+description: "If you are debugging for the first time, learn a few principles to help you debug applications with Visual Studio"
 ms.custom: ""
-ms.date: "03/27/2018"
+ms.date: "06/18/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords:
