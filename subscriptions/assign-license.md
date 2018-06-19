@@ -47,7 +47,6 @@ If you have available licenses for Visual Studio subscriptions, you can assign t
     - Ensure that none of the form fields contain commas.
     - Remove spaces before and after form fields such as users’ names.
     - Make sure users’ names do not contain extra spaces between two-part first or last names (e.g. two-part first name such as “Maggie May” should not be typed as “Maggie  May” as the system will not trim the extra space.)
-    <img alt="Bulk add template" src="_img\assign-license-add\bulk-template.png" style="border: 1px solid #CCCCCC" />
 
 4.	Return to the Visual Studio Subscriptions Administration portal and in the Upload Multiple Subscribers dialog box, click **Browse**. Navigate to the Excel file you saved and click **OK**. You will see the upload progress on the screen. 
 
