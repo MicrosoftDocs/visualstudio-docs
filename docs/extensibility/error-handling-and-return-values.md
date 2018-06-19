@@ -53,5 +53,5 @@ VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and 
 ## See Also  
  <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>   
  [SetErrorInfo (Component Automation)](http://msdn.microsoft.com/en-us/8eaacfac-fc37-4eaa-870b-10b99d598d66)   
- [GetErrorInfo](http://msdn.microsoft.com/en-us/03317526-8c4f-4173-bc10-110c8112676a)   
- [ISupportErrorInfo Interface](http://msdn.microsoft.com/en-us/42d33066-36b4-4a5b-aa5d-46682e560f32)
+ [GetErrorInfo](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-geterrorinfo)   
+ [ISupportErrorInfo Interface](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-isupporterrorinfo)
