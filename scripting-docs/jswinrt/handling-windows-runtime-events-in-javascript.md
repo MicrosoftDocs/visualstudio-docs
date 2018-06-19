@@ -39,7 +39,7 @@ locator.onpositionchanged =
     };  
 ```  
   
-Another difference between .NET/C++ and JavaScript is the number of parameters taken by an event handler. In .NET/C++, an handler takes two: the event sender, and the event data. In JavaScript, the two are bundled as a single `Event` object. In the following example, the `ev` parameter contains both the sender of the event (the `target` property) and the event data properties (here, just `position`). The event data properties are the ones that are documented for each event.
+Another difference between .NET/C++ and JavaScript is the number of parameters taken by an event handler. In .NET/C++, a handler takes two: the event sender, and the event data. In JavaScript, the two are bundled as a single `Event` object. In the following example, the `ev` parameter contains both the sender of the event (the `target` property) and the event data properties (here, just `position`). The event data properties are the ones that are documented for each event.
   
 ```JavaScript  
 function (ev) {  
