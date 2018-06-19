@@ -121,7 +121,7 @@ End Property
 
             // These are the errors that occur during processing. The engine passes
             // the errors to the host, and the host can decide how to display them,
-            // for example the the host can display the errors in the UI
+            // for example the host can display the errors in the UI
             // or write them to a file.
             // ---------------------------------------------------------------------
             private CompilerErrorCollection errorsValue;
@@ -380,7 +380,7 @@ End Property
 
             ' These are the errors that occur during processing. The engine passes
             ' the errors to the host, and the host can decide how to display them,
-            ' for example the the host can display the errors in the UI
+            ' for example the host can display the errors in the UI
             ' or write them to a file.
             ' ---------------------------------------------------------------------
             Private errorsValue As CompilerErrorCollection

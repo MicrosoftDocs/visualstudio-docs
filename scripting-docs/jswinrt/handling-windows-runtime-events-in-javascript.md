@@ -19,10 +19,10 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # Handling Windows Runtime Events in JavaScript
-Windows Runtime events are not represented in the same way in JavaScript as they are in C++ or the .NET Framework. They are not class properties, but rather are represented as string identifiers that are passed to the class's `addEventListener` and `removeEventListener` methods. For example, you can add an event handler for the [Geolocator.PositionChanged](http://msdn.microsoft.com/library/windows/apps/xaml/windows.devices.geolocation.geolocator.positionchanged.aspx) event by passing the string "positionchanged" to the `Geolocator.addEventListener` method:  
+Windows Runtime events are not represented in the same way in JavaScript as they are in C++ or the .NET Framework. They are not class properties, but rather are represented as (lowercased) string identifiers that are passed to the class's `addEventListener` and `removeEventListener` methods. For example, you can add an event handler for the [Geolocator.PositionChanged](https://msdn.microsoft.com/library/windows/apps/xaml/windows.devices.geolocation.geolocator.positionchanged.aspx) event by passing the string "positionchanged" to the `Geolocator.addEventListener` method:  
   
 ```JavaScript  
-var locator =  new Windows.Devices.Geolocation.Geolocator();  
+var locator = new Windows.Devices.Geolocation.Geolocator();  
 locator.addEventListener(  
     "positionchanged",   
      function (ev) {  
@@ -30,9 +30,9 @@ locator.addEventListener(
     });  
 ```  
   
- You can also set the `locator.onpositionchanged` property.  
+ You can also set the `locator.onpositionchanged` property:  
   
-```  
+```JavaScript  
 locator.onpositionchanged =    
     function (ev) {  
         console.log("Got event");  

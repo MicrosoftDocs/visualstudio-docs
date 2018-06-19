@@ -121,7 +121,7 @@ Test Explorer lets you group your tests into predefined categories. Most unit te
 
 You can use Test Explorer filters to limit the test methods in your projects that you view and run.
 
-When you type a string in in the Test Explorer search box and choose ENTER, the test list is filtered to display only those tests whose fully qualified names contain the string.
+When you type a string in the Test Explorer search box and choose ENTER, the test list is filtered to display only those tests whose fully qualified names contain the string.
 
 To filter by a different criteria:
 
