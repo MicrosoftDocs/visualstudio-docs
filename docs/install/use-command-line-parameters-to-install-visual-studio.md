@@ -155,3 +155,4 @@ Here are a few more support options:
 * [Command-line parameter examples for Visual Studio 2017 installation](command-line-parameter-examples.md)
 * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
 * [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md)
+* [Visual Studio 2017 workload and component IDs](workload-and-component-ids.md)

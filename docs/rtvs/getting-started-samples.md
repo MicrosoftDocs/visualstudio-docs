@@ -38,7 +38,7 @@ This sample provides an in-depth introduction to R through the extensive comment
 
 This collection of examples shows how to use R to create machine learning models and to take advantage of [Microsoft R Server (MRS)](http://aka.ms/rtvs-msft-r). Install MRS to run scripts with `MRS` in the title and where noted.
 
-As with all examples, open the file, place the cursor at the top, and then step through the code line by line with Ctrl+Enter. The markdown files in each folder also contain additional details.
+As with all examples, open the file, place the cursor at the top, and then step through the code line by line with **Ctrl**+**Enter**. The markdown files in each folder also contain additional details.
 
 - `Benchmarks` runs a number of intensive, parallel linear algebra computations to show the performance gains that are possible through the use of Microsoft R Open and the Intel Math Kernel Library (MKL). With simulated data, the benchmarks specifically compare matrix calculations on one thread versus two.
 
@@ -54,7 +54,7 @@ As with all examples, open the file, place the cursor at the top, and then step 
 
       ![Output of Using ggplot2.R example](media/samples-3d-interactive.png)
 
-- `Datasets` contains three `.csv` files used by other samples
+- `Datasets` contains three *.csv* files used by other samples
 - `Flight_Delays_Prediction_with_R` and `Flight_Delays_Prediction_with_MRS` shows how to predict flight delays using R, machine learning, and historical on-time performance and weather data. 
 - `Machine learning` contains three samples for learning to predict flight delays, housing prices, and bike rentals. Together, these samples demonstrate the application of R and MRS to real-world problems. They also show you how to use several popular machine learning models and deploy them as an Azure Web Service using an [Azure Machine Learning](https://azure.microsoft.com/services/machine-learning/) workspace.
 
@@ -80,6 +80,6 @@ The following comparison shows that MRS and MRO with MKL have significantly bett
 
 For a technical comparison of R with MRO and MRS, check out [Lixun Zhang's detailed discussion](http://htmlpreview.github.io/?https://github.com/lixzhang/R-MRO-MRS/blob/master/Introduction_to_MRO_and_MRS.html) on the topic.
 
-The following figure then compares elapsed time in seconds used in building Logistic Regression models to predict flight delays greater than 15 minutes.  Elapsed time used in CRAN R increases dramatically when increasing a small number of rows, while MRS increases only by approximately two times. For details of this benchmark, check out the `Benchmarks/rxGlm_benchmark.R` example.
+The following figure then compares elapsed time in seconds used in building Logistic Regression models to predict flight delays greater than 15 minutes.  Elapsed time used in CRAN R increases dramatically when increasing a small number of rows, while MRS increases only by approximately two times. For details of this benchmark, check out the *Benchmarks/rxGlm_benchmark.R* example.
 
 ![rxGlm benchmark](media/samples-rxGLM-benchmark.png)

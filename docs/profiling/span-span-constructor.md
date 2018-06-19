@@ -61,9 +61,9 @@ span(
  Category.  
   
 ## Requirements  
- **Header:** cvmarkersobj.h  
+ **Header:** *cvmarkersobj.h*  
   
  **Namespace:** Concurrency::diagnostic
  
- ## See Also
- [span Class](../profiling/span-class.md)
+ ## See also
+ [span class](../profiling/span-class.md)

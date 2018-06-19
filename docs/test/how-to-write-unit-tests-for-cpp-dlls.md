@@ -108,7 +108,7 @@ author: mikeblome
 
     3.  Edit the Include and Library directories:
 
-        |||
+        |Directory|Property|
         |-|-|
         |**Include Directories** | **$(VCInstallDir)UnitTest\include;$(IncludePath)**|
         |**Library Directories** | **$(VCInstallDir)UnitTest\lib;$(LibraryPath)**|

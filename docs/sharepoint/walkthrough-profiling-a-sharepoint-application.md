@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Profiling a SharePoint Application
+# Walkthrough: Profile a SharePoint application
   This walkthrough shows how to use the profiling tools in Visual Studio to optimize the performance of a SharePoint application. The example application is a SharePoint feature event receiver that contains an idle loop that degrades the performance of the feature event receiver. The Visual Studio profiler enables you to locate and eliminate the most expensive (slowest-performing) part of the project, also known as the *hot path*.  
   
  This walkthrough demonstrates the following tasks:  
@@ -41,12 +41,12 @@ ms.workload:
   
 -   [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)].  
   
-## Creating a SharePoint Project  
+## Create a SharePoint project
  First, create a SharePoint project.  
   
 #### To create a SharePoint project  
   
-1.  On the menu bar, choose **File**, **New**, **Project** to display the **New Project** dialog box.  
+1.  On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.  
   
 2.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
@@ -64,7 +64,7 @@ ms.workload:
   
 7.  Choose the **Finish** button. The project appears in **Solution Explorer**.  
   
-##  <a name="BKMK_AddFtrandFtrEvntReceiver"></a> Adding a Feature and Feature Event Receiver  
+## Add a feature and feature event receiver
  Next, add a feature to the project along with an event receiver for the feature. This event receiver will contain the code to be profiled.  
   
 #### To add a feature and feature event receiver  
@@ -185,7 +185,7 @@ ms.workload:
   
 9. Save the project.  
   
-##  <a name="BKMK_ConfigSharePointApp"></a> Configuring and Deploying the SharePoint Application  
+## Configure and Deploy the SharePoint application
  Now that the SharePoint project is ready, configure it and deploy it to the SharePoint server.  
   
 #### To configure and deploy the SharePoint application  
@@ -208,7 +208,7 @@ ms.workload:
   
      The wizard enables application profiling on the server, displays the **Performance Explorer** window, and then builds, deploys, and runs the SharePoint application.  
   
-##  <a name="BKMK_RunSPApp"></a> Running the SharePoint Application  
+## Run the SharePoint application
  Activate the feature in SharePoint, triggering the `FeatureActivation` event code to run.  
   
 #### To run the SharePoint application  
@@ -229,10 +229,10 @@ ms.workload:
   
      After you close SharePoint, the profiler creates and displays a Sample Profiling Report and saves it as a .vsp file in the **ProfileTest** project's folder.  
   
-##  <a name="BKMK_ViewResults"></a> Viewing and Interpreting the Profiling Results  
+## View and interpret the Profile results
  Now that you have run and profiled the SharePoint application, view the test results.  
   
-#### To view and interpret the profiling results  
+#### To view and interpret the Profile results
   
 1.  In the **Functions Doing the Most Individual Work** section of the Sample Profiling Report, notice that `TimeCounter` is near the top of the list.  
   
@@ -250,7 +250,7 @@ ms.workload:
   
      To view the report again at any time, open the .vsp file in the **Performance Explorer** window.  
   
-## Fixing the Code and Reprofiling the Application  
+## Fix the code and reprofile the application
  Now that hotspot function in the SharePoint application has been identified, fix it.  
   
 #### To fix the code and reprofile the application  
@@ -269,10 +269,9 @@ ms.workload:
   
      The feature should activate much faster now that the call to the idle loop has been eliminated. The Sample Profiling Report should reflect this.  
   
-## See Also  
+## See also
  [Performance Explorer](/visualstudio/profiling/performance-explorer)   
  [Performance Session Overview](/visualstudio/profiling/performance-session-overview)   
  [Beginners Guide to Performance Profiling](/visualstudio/profiling/beginners-guide-to-performance-profiling)   
  [Find Application Bottlenecks with Visual Studio Profiler](http://go.microsoft.com/fwlink/?LinkID=137266)  
-  
   

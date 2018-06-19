@@ -20,7 +20,7 @@ ms.workload:
   
 ## Syntax  
   
-```c  
+```csharp
 HRESULT WINAPI GetVstoSolutionMetadata(  
     LPCWSTR lpwszSolutionMetadataKey,  
     ISolutionMetadata** ppSolutionInfo  

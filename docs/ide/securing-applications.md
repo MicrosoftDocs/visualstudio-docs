@@ -1,6 +1,6 @@
 ---
-title: Secure applications in Visual Studio
-ms.date: 11/04/2016
+title: Security
+ms.date: 06/01/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -16,47 +16,29 @@ ms.workload:
 ---
 # Secure applications
 
-While most applications possess common security challenges, each application domain possesses security challenges of its own.
+You should consider security in all aspects of your application development, from design to deployment. Start by running Visual Studio as securely as possible. See [User permissions](../ide/user-permissions-and-visual-studio.md).
 
-## General security considerations
- Each language has its own security considerations and challenges.
+To help you effectively develop secure applications, you should have a fundamental understanding of security concepts and the security features of the platforms for which you develop. You should also understand secure coding techniques.
 
- [Security best practices](/cpp/top/security-best-practices-for-cpp)
- Provides information on security features and practices available when working in Visual C++.
+## Code for security
 
- [Security and programming (C# and Visual Basic)](https://msdn.microsoft.com/library/ms233782(v=vs.100).aspx)
- Provides information about the top three security concerns for Visual Basic and C# developers: privileges, Web applications, and Visual Studio setup.
+Most coding errors that result in security vulnerabilities occur because developers make incorrect assumptions when working with user input, or because they don't fully understand the platform for which they're developing.
 
-## Secure mobile applications
- As the popularity of mobile devices increases, the security of the information and data on these devices becomes more important.
+- [Secure coding guidelines](/dotnet/standard/security/secure-coding-guidelines) describes the different ways .NET code can be designed to work with the security system.
+- [Security best practices for C++](/cpp/top/security-best-practices-for-cpp) contains information about security tools and practices for C++ developers.
 
- [Security considerations for devices](http://msdn.microsoft.com/45fab484-8718-452e-8210-04fda3c6cb87)
- Describes several factors influencing security policy for devices.
+## Build for security
 
- [Security goals for the .NET Compact Framework](http://msdn.microsoft.com/64ac2770-e2bc-40a3-abbf-56c8a2c0e364)
- Describes goals for .NET Compact Framework security.
+Security is also an important consideration in the build process. A few additional steps can improve the security of a deployed app and help prevent unauthorized reverse engineering, spoofing, or other attacks:
 
- [Design secure Mobile Web Form pages](http://msdn.microsoft.com/b69727c1-f81f-4221-a116-8f92f769365f)
- Discusses planning, implementing, and supporting security in wireless networks and mobile devices.
-
-## Secure web applications
- A poorly written web page can compromise the integrity and security of an entire server and potentially an entire network. Therefore, you must review security considerations in planning your web application.
-
- [ASP.NET security architecture](http://msdn.microsoft.com/Library/c34d6f4f-f64d-4697-bd32-02dd2ddf726f)
- Provides an overview of ASP.NET infrastructure and subsystem relationships, as related to security.
-
- [ASP.NET web application security](http://msdn.microsoft.com/Library/658d0430-1644-4744-b52d-08b0d6fcacb8)
- Details how to address authorization and authentication issues in ASP.NET.
-
- [How to: Use transport security](http://msdn.microsoft.com/16210e41-5492-4cc8-9002-7366b1fc7297)
- Describes how to use transport security for authentication when you connect to a WCF service.
-
-## Secure desktop applications
- Designing security for desktop applications is an essential step in application development.
-
- [Windows Forms security](/dotnet/framework/winforms/windows-forms-security)
- Provides an overview of the Windows Forms security implementation.
+- [Dotfuscator](dotfuscator/index.md) is free and helps to protect .NET assemblies from reverse-engineering and unauthorized use such as unauthorized debugging.
+- [Strong-name signing](managing-assembly-and-manifest-signing.md) can be used to uniquely identify software components and prevent name spoofing.
 
 ## See also
 
-- [Security](../ide/security-in-visual-studio.md)
+- [Security in the .NET Framework](/dotnet/standard/security/index)
+- [Azure security](/azure/security/)
+- [Windows 10 Mobile security guide](/windows/security/threat-protection/windows-10-mobile-security-guide)
+- [Apache Cordova platform security features](/visualstudio/cross-platform/tools-for-cordova/security/best-practices?view=toolsforcordova-2017)
+- [ASP.NET Core security](/aspnet/core/security/?view=aspnetcore-2.1)
+- [Windows Forms security](/dotnet/framework/winforms/windows-forms-security)

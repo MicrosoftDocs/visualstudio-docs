@@ -48,7 +48,7 @@ The pass/fail bar at the top of the Test Explorer window is animated as the test
 
 ### Run tests after every build
 
-|||
+|Button|Description|
 |-|-|
 |![Run after build](../test/media/ute_runafterbuild_btn.png)|To run your unit tests after each local build, choose **Test** on the standard menu, and then choose **Run Tests After Build** on the Test Explorer toolbar.|
 
@@ -148,7 +148,7 @@ To filter by a different criteria:
 
 To exclude a subset of the results of a filter, use the following syntax:
 
-```
+```cpp
 FilterName:"Criteria" -FilterName:"SubsetCriteria"
 ```
 

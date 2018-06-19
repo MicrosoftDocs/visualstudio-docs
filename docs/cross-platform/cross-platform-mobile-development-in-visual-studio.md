@@ -8,7 +8,7 @@ ms.assetid: 8202717a-e990-45cf-b092-438651ccb38a
 author: asb3993
 ms.author: amburns
 manager: crdun
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Cross-Platform mobile development in Visual Studio
@@ -101,7 +101,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |**Learn more**|
 |--------------------|
 |[Install Visual Studio](http://www.visualstudio.com/products/visual-studio-community-vs) (VisualStudio.com)|
-|[Get started with Visual Studio Tools for Apache Cordova](/visualstudio/cross-platform/tools-for-cordova/) (docs.microsoft.com)|
+|[Get started with Visual Studio Tools for Apache Cordova](/visualstudio/cross-platform/tools-for-cordova/)|
 |[Learn about the Visual Studio Emulator for Android](http://www.visualstudio.com/explore/msft-android-emulator-vs) (VisualStudio.com)|
 
 <a name="CPP"></a>

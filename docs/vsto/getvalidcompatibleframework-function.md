@@ -19,7 +19,7 @@ ms.workload:
   
 ## Syntax  
   
-```c  
+```csharp 
 HRESULT WINAPI GetValidCompatibleFramework(  
     LPCWSTR lpwszCompatibleFrameworksXML,  
     BSTR* pbstrValidFrameworkTag  

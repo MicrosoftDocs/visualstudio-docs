@@ -26,7 +26,7 @@ You can create unit test projects that target specific versions of the .NET Fram
 
 **Testing SharePoint Applications**
 
-The capabilities listed above also enable you to write unit tests and integration tests for SharePoint applications using Visual Studio. For more information about how to develop SharePoint applications using Visual Studio, see [Create SharePoint Solutions](/office-dev/office-dev/create-sharepoint-solutions), [Building and Debugging SharePoint Solutions](/office-dev/office-dev/building-and-debugging-sharepoint-solutions) and [Verifying and Debugging SharePoint Code](/office-dev/office-dev/verifying-and-debugging-sharepoint-code).
+The capabilities listed above also enable you to write unit tests and integration tests for SharePoint applications using Visual Studio. For more information about how to develop SharePoint applications using Visual Studio, see [Create SharePoint Solutions](../sharepoint/create-sharepoint-solutions.md), [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md) and [Verifying and Debugging SharePoint Code](../sharepoint/verifying-and-debugging-sharepoint-code.md).
 
 **Limitations**
 
@@ -120,6 +120,6 @@ The following limitations apply when you re-target your test projects to use ear
 
 ## See also
 
-- [Create SharePoint Solutions](/office-dev/office-dev/create-sharepoint-solutions)
-- [Building and Debugging SharePoint Solutions](/office-dev/office-dev/building-and-debugging-sharepoint-solutions)
+- [Create SharePoint Solutions](../sharepoint/create-sharepoint-solutions.md)
+- [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
 - [Advanced Compiler Settings Dialog Box (Visual Basic)](../ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md)

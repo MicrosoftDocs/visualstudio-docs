@@ -30,7 +30,7 @@ ms.workload:
   
 1.  Open **Regedit.exe**.  
   
-2.  Navigate to the node `HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Deployment`.  
+2.  Navigate to the node **HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Deployment**.  
   
 3.  If necessary, create a new string value named `LogVerbosityLevel`.  
   

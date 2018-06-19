@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Limit Instrumentation to Specific Functions
+# How to: Limit instrumentation to specific functions
 You can limit instrumentation and data collection to one or more functions by setting options in the **Advanced** page of the **Performance Session** or target binary property pages:  
   
 -   If you specify the functions on the performance session property page, only those functions are instrumented in all instrumented binaries of the session.  
@@ -61,7 +61,7 @@ You can limit instrumentation and data collection to one or more functions by se
     > [!NOTE]
     >  To list the functions in a binary, open a command prompt window in the Profiling Tools installation directory (typically, the \Team Tools\Performance Tools directory under the [!INCLUDE[vsprvsts](../code-quality/includes/vsprvsts_md.md)] installation directory) and then type **vsinstr /DumpFuncs**  
   
-## See Also  
- [Controlling Data Collection](../profiling/controlling-data-collection.md)   
- [How to: Limit Instrumentation to Specific DLLs](../profiling/how-to-limit-instrumentation-to-specific-dlls.md)   
- [How to: Specify Additional Instrumentation Options](../profiling/how-to-specify-additional-instrumentation-options.md)
+## See also  
+ [Control data collection](../profiling/controlling-data-collection.md)   
+ [How to: Limit instrumentation to specific DLLs](../profiling/how-to-limit-instrumentation-to-specific-dlls.md)   
+ [How to: Specify additional instrumentation options](../profiling/how-to-specify-additional-instrumentation-options.md)

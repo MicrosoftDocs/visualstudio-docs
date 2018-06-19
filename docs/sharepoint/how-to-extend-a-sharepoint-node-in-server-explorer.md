@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Extend a SharePoint Node in Server Explorer
+# How to: Extend a SharePoint node in Server Explorer
   You can extend nodes under the **SharePoint Connections** node in **Server Explorer**. This is useful when you want to add new child nodes, shortcut menu items, or properties to an existing node. For more information, see [Extending the SharePoint Connections Node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md).  
   
 ### To extend a SharePoint node in Server Explorer  
@@ -64,7 +64,7 @@ ms.workload:
   
  This extension adds an editable string property to nodes. You can also create custom properties that display read-only data from the SharePoint server. For an example that demonstrates how to do this, see [Walkthrough: Extending Server Explorer to Display Web Parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md).  
   
-## Compiling the Code  
+## Compile the code  
  This example requires references to the following assemblies:  
   
 -   Microsoft.VisualStudio.SharePoint  
@@ -75,13 +75,12 @@ ms.workload:
   
 -   System.Windows.Forms  
   
-## Deploying the Extension  
+## Deploy the extension  
  To deploy the **Server Explorer** extension, create a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package for the assembly and any other files that you want to distribute with the extension. For more information, see [Deploying Extensions for the SharePoint Tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).  
   
-## See Also  
+## See also
  [How to: Add a Custom SharePoint Node to Server Explorer](../sharepoint/how-to-add-a-custom-sharepoint-node-to-server-explorer.md)   
  [Extending the SharePoint Connections Node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md)   
  [Walkthrough: Extending Server Explorer to Display Web Parts](../sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md)   
  [Associating Custom Data with SharePoint Tools Extensions](../sharepoint/associating-custom-data-with-sharepoint-tools-extensions.md)  
-  
   

@@ -32,7 +32,7 @@ In addition to the installed frameworks, you can write your own test adapter for
 
 - **Boost.Test** is included as a default component of the **Desktop development with C++** workload. It is integrated with **Test Explorer** but currently does not have project template, therefore it must be manually configured. For more information, see [How to: use Boost.Test in Visual Studio](how-to-use-boost-test-for-cpp.md).
 
-- **CTest** support is included with the [CMake Tools for Visual Studio](/cpp/ide/cmake-tools-for-cpp) component which is part of the **Desktop development with C++** workload. However, CTest is not yet fully integrated with **Test Explorer**. For more information, see [How to: use CTest in Visual Studio](how-to-use-ctest-for-cpp.md).
+- **CTest** support is included with the [CMake Tools for Visual Studio](/cpp/ide/cmake-tools-for-visual-cpp) component which is part of the **Desktop development with C++** workload. However, CTest is not yet fully integrated with **Test Explorer**. For more information, see [How to: use CTest in Visual Studio](how-to-use-ctest-for-cpp.md).
 
 **Visual Studio 2015 and earlier**
 
@@ -63,7 +63,7 @@ Next, in your unit test .cpp file, add an `#include` directive for any header fi
 ### Write test methods
 
 > [!NOTE]
-> This section shows syntax for the Microsoft Unit Testing Framework for C/C++. It is documented here: [Microsoft.VisualStudio.TestTools.CppUnitTestFramework API Reference](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md). For Google Test documentation, see [Google Test Primer](https://github.com/google/googletest/blob/master/googletest/docs/Primer.md). For Boost.Test, see [Boost Test Library: The Unit Test Framework](http://www.boost.org/doc/libs/1_46_0/libs/test/doc/html/utf.html).
+> This section shows syntax for the Microsoft Unit Testing Framework for C/C++. It is documented here: [Microsoft.VisualStudio.TestTools.CppUnitTestFramework API Reference](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md). For Google Test documentation, see [Google Test Primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md). For Boost.Test, see [Boost Test Library: The Unit Test Framework](http://www.boost.org/doc/libs/1_46_0/libs/test/doc/html/utf.html).
 
 The .cpp file in your test project has a stub class and method defined for you as an example of how to write test code. Note that the signatures use the TEST_CLASS and TEST_METHOD macros, which make the methods discoverable from the Test Explorer window.
 

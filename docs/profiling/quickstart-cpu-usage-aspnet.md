@@ -25,7 +25,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
 ## Create a project
 
-1. In Visual Studio, choose **File > New Project**.
+1. In Visual Studio, choose **File** > **New Project**.
 
 1. Under **Visual C#**, choose **Web**, and then in the middle pane choose **ASP.NET Web Application (.NET Framework)**.
 
@@ -126,7 +126,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
     }
     ```
 
-1. In Solution Explorer, open Controller/HomeControllers.cs, and replace the following code:
+1. In Solution Explorer, open *Controller/HomeControllers.cs*, and replace the following code:
 
     ```csharp
     public ActionResult About()
@@ -150,7 +150,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
     }
     ```
 
-##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Step 1: Collect profiling data 
+##  Step 1: Collect profiling data 
   
 1.  First, set a breakpoint in your app on this line of code in the `Simple` constructor:
 
@@ -165,9 +165,9 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
     > [!TIP]
     > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
   
-1.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug / Windows / Show Diagnostic Tools**.
+1.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-1.  Click **Debug / Start Debugging** (or **Start** on the toolbar, or **F5**).
+1.  Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
 
 1.  When the app finishes loading, click the **About** link at the top of the web page to start running the new code.
 
@@ -191,13 +191,13 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
      At this point, you can begin to analyze the data.
 
-## <a name="Step2"></a> Step 2: Analyze CPU usage data
+## Step 2: Analyze CPU usage data
 
 We recommend that you begin analyzing your data by examining the list of functions under CPU Usage, identifying the functions that are doing the most work, and then taking a closer look at each one.
 
 1. In the function list, examine the functions that are doing the most work.
 
-     ![Diagnostics Tools CPU Usage Tab](../profiling/media/quickstart-cpu-usage-cpu-aspnet.png)
+     ![Diagnostics tools CPU Usage tab](../profiling/media/quickstart-cpu-usage-cpu-aspnet.png)
 
     > [!TIP]
     > Functions are listed in order starting with those doing the most work (they're not in call order). This helps you quickly identify the longest running functions.
@@ -206,7 +206,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     When you double-click the function, the **Caller/Callee** view opens in the left pane. 
 
-    ![Diagnostics Tools Caller Callee View](../profiling/media/quickstart-cpu-usage-caller-callee-aspnet.png)
+    ![Diagnostics tools Caller/Callee View](../profiling/media/quickstart-cpu-usage-caller-callee-aspnet.png)
 
     In this view, the selected function shows up in the heading and in the **Current Function** box (`ServerClass::GetNumber`, in this example). The function that called the current function is shown on the left under **Calling Function**, and any functions called by the current function are shown in **Called Functions** box on the right. (You can select either box to change the current function.)
 
@@ -223,7 +223,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 - [Analyze CPU usage](../profiling/cpu-usage.md) for more in-depth information on the CPU usage tool.
 - Analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Collect profiling data without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-without-debugging) in [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
-## See Also  
+## See also  
 
  [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling feature tour](../profiling/profiling-feature-tour.md)
+ [First look at profiling tools](../profiling/profiling-feature-tour.md)

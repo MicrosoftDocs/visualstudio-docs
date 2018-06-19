@@ -21,13 +21,13 @@ These steps apply to ASP.NET, ASP.NET Core, .NET Core, and Python apps in Visual
 
 ## Prerequisites
 
-* You must have Visual Studio 2017 installed and the **ASP.NET** and **.NET Framework** development workload. For a .NET Core app, you also need the **.NET Core** workload.
+* You must have Visual Studio 2017 installed and the **ASP.NET and web development** workload and .**NET desktop development** workload. For a .NET Core app, you need the .**NET Core** workload.
 
-    If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
 ## Create a new project 
 
-1. In Visual Studio, choose **File > New Project**.
+1. In Visual Studio, choose **File** > **New Project**.
 
 1. Under **Visual C#** or **Visual Basic**, choose **Web**, and then in the middle pane choose either **ASP.NET Web Application (.NET Framework)** or (C# only) **ASP.NET Core Web Application**, and then click **OK**.
 
@@ -37,7 +37,7 @@ These steps apply to ASP.NET, ASP.NET Core, .NET Core, and Python apps in Visual
 
     Visual Studio creates the project.
 
-1. Choose **Build > Build Solution** to build the project.
+1. Choose **Build** > **Build Solution** to build the project.
 
 ## Publish to a web site
 

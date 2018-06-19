@@ -29,4 +29,4 @@ The CPU usage tool has [new visualizations](../profiling/Beginners-Guide-to-Perf
   
 ## See also  
  [Profile in Visual Studio](../profiling/index.md)  
- [Profile feature tour](../profiling/profiling-feature-tour.md)
+ [First look at profiling tools](../profiling/profiling-feature-tour.md)

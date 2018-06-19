@@ -51,7 +51,7 @@ The GUID and ID values of the commands included in the Visual Studio integrated 
   
 -   Menu items that include an underlined character, such as the **Print** command on the **File** menu, in which the P is underlined.  
   
-     Characters that are preceded by the '&' character in menu item names are displayed as underlined. However, .vsct files are written in XML, which uses the '&' character to indicate special characters and requires that an ampersand that is to be displayed must be spelled out as '&amp;'. Therefore, in a .vsct file, the **P**rint command appears as '&amp;Print'.  
+     Characters that are preceded by the '&amp;' character in menu item names are displayed as underlined. However, .vsct files are written in XML, which uses the '&amp;' character to indicate special characters and requires that an ampersand that is to be displayed must be spelled out as '&amp;amp;'. Therefore, in a .vsct file, the **P**rint command appears as '&amp;amp;Print'.  
   
 -   Commands that have dynamic text, such as **Save** *Current Filename*, and dynamically generated menu items, such as the items on the **Recent Files** list.  
   

@@ -42,7 +42,7 @@ Set **AutomationProperties.AutomationId** to **ButtonX** explicitly in the XAML 
 
 Set the **AutomationProperties.Name** to **ButtonY** explicitly in the XAML for the control.
 
-```
+```xaml
 <Button AutomationProperties.Name="ButtonY" Height="31" HorizontalAlignment="Left" Margin="23,76,0,0" VerticalAlignment="Top" Width="140" Click="ButtonY_Click" />
 ```
 
