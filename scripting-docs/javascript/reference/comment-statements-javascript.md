@@ -51,7 +51,7 @@ condStatement
 ```  
   
 ## Remarks  
- The `comment` argument is the text of any comment you want to include in your script. The `condStatement` argument is to be used if conditional compilation is activated. If single-line comments are used, there can be no space between the "//" and "@" characters.  
+ The `comment` argument is the text of any comment you want to include in your script. The `condStatement` argument is to be used if conditional compilation is activated. If single-line comments are used, there can be no space between the "//" and "\@" characters.  
   
  Use comments to keep parts of a script from being read by the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] parser. You can use comments to include explanatory remarks in a program.  
   

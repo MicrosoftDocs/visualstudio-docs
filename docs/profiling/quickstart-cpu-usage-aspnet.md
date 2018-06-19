@@ -25,7 +25,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
 ## Create a project
 
-1. In Visual Studio, choose **File**>**New Project**.
+1. In Visual Studio, choose **File** > **New Project**.
 
 1. Under **Visual C#**, choose **Web**, and then in the middle pane choose **ASP.NET Web Application (.NET Framework)**.
 
@@ -165,9 +165,9 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
     > [!TIP]
     > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
   
-1.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug**>**Windows**>**Show Diagnostic Tools**.
+1.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-1.  Click **Debug**>**Start Debugging** (or **Start** on the toolbar, or **F5**).
+1.  Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
 
 1.  When the app finishes loading, click the **About** link at the top of the web page to start running the new code.
 

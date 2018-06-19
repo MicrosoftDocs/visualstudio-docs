@@ -26,7 +26,7 @@ ms.workload:
 # Create bootstrapper packages
 The Setup program is a generic installer that can be configured to detect and install redistributable components such as Windows Installer (.msi) files and executable programs. The installer is also known as a bootstrapper. It is programmed through a set of XML manifests that specify the metadata to manage the installation of the component.  Each redistributable component, or prerequisite, that appears in the **Prerequisites** dialog box for ClickOnce is a bootstrapper package. A bootstrapper package is a group of directories and files that contain manifest files that describe how the prerequisite should be installed. 
   
-The bootstrapper first detects whether any of the prerequisites are already installed. If prerequisites are not installed, first the bootstrapper shows the license agreements. Second, after the end-user accepts the license agreements, the installation begins for the prerequisites. Otherwise, if all the prerequisites are detected, the bootstrapper just starts the application installer.  
+The bootstrapper first detects whether any of the prerequisites are already installed. If prerequisites are not installed, first the bootstrapper shows the license agreements. Second, after the end user accepts the license agreements, the installation begins for the prerequisites. Otherwise, if all the prerequisites are detected, the bootstrapper just starts the application installer.  
   
 ## Create custom bootstrapper packages  
 You can generate the bootstrapper manifests by using the XML Editor in Visual Studio. To see an example of creating a bootstrapper package, see [Walkthrough: Create a custom bootstrapper with a privacy prompt](../deployment/walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt.md).  
@@ -82,7 +82,7 @@ The following table shows the properties that are automatically populated by the
 |ProcessorArchitecture|The processor and bits-per-word of the platform targeted by an executable. Values include the following:<br /><br /> -   Intel<br />-   IA64<br />-   AMD64|  
 |[Version9x](https://msdn.microsoft.com/en-us/library/aa372490\(v=vs.140\).aspx)|The version number for Microsoft Windows 95, Windows 98, or Windows ME operating systems. The syntax of the version is Major.Minor.ServicePack.|  
 |[VersionNT](https://msdn.microsoft.com/en-us/library/aa372495\(v=vs.140\).aspx)|The version number for the Windows NT, Windows 2000, Windows XP, Windows Vista, Windows Server 2008, or Windows 7 operating systems. The syntax of the version is Major.Minor.ServicePack.|  
-|[VersionMSI](https://msdn.microsoft.com/en-us/library/aa372493\(v=vs.140\).aspx)|The version of the Windows Installer assembly (msi.dll) run during the installation.|  
+|[VersionMSI](https://msdn.microsoft.com/en-us/library/aa372493\(v=vs.140\).aspx)|The version of the Windows Installer assembly (msi.dll) to run during the installation.|  
 |[AdminUser](https://msdn.microsoft.com/en-us/library/aa367545\(v=vs.140\).aspx)|This property is set if the user has administrator privileges. Values are true or false.|  
 |InstallMode|The installation mode indicates where the component needs to be installed from. Values include the following:<br /><br /> -   HomeSite - prerequisites are installed from the vendor's Web site.<br />-   SpecificSite - prerequisites are installed from the location that you select.<br />-   SameSite - prerequisites are installed from the same location as the application.|  
   
@@ -91,7 +91,7 @@ You can prevent your redistributable files from being deployed in Setup projects
   
 `%ProgramFiles%\Microsoft.NET\RedistList`  
   
-The redistributable list is an XML file that you should name using the following format: *Company Name*.*Component Name*.RedistList.xml. So, for example, if the component is called Datawidgets made by Acme, use *Acme.DataWidgets.RedistList.xml*. An example of the redistributable list's contents might resemble this:  
+The redistributable list is an XML file that you should name using the following format: *Company Name*.*Component Name*.RedistList.xml. So, for example, if the component is called DataWidgets made by Acme, use *Acme.DataWidgets.RedistList.xml*. An example of the redistributable list's contents might resemble this:  
   
 ```  
 <?xml version="1.0" encoding="UTF-8"?>  

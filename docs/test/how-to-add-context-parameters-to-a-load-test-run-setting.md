@@ -30,9 +30,9 @@ If you assign the value of the Webserver1 context parameter to `http://Corporate
 
 Additionally, by assigning different values to a context parameter by using the same name in different load test run settings, you can run the load test by using different environments:
 
--   Corporate Staging Web Server run setting: The context parameter that is named WebServer1=http://CorporateStagingWebServer
+-   Corporate Staging Web Server run setting: The context parameter that is named `WebServer1=http://CorporateStagingWebServer`
 
--   Corporate Production Web Server run setting: The Context parameter that is named WebServer1=http://CorporateProductionWebServer
+-   Corporate Production Web Server run setting: The Context parameter that is named `WebServer1=http://CorporateProductionWebServer`
 
  **Changing the Run Setting from the Command Line**
 
@@ -58,9 +58,9 @@ Additionally, by assigning different values to a context parameter by using the 
 
      If the run setting already contains a **Context Parameters** folder, you can right-click it and then choose **Add Context Parameter**.
 
-4.  In the Properties window, change the value for **Name** as appropriate (for example, WebServer1). In the Properties window, change **Value** to the parameter that you want to use (for example, http://CorporateStagingWebServer).
+4.  In the Properties window, change the value for **Name** as appropriate (for example, WebServer1). In the Properties window, change **Value** to the parameter that you want to use (for example, `http://CorporateStagingWebServer`).
 
-5.  (Optional) Repeat steps 3 through 5 and use a different string for the **Value** property (for example, http://CorporateProductionWebServer).
+5.  (Optional) Repeat steps 3 through 5 and use a different string for the **Value** property (for example, `http://CorporateProductionWebServer`).
 
 6.  Choose which run settings that you want to be active. Open the shortcut menu on the run settings and choose **Set As Active**.
 

@@ -27,7 +27,7 @@ If you do not already have an Azure account, you can [sign up here](https://azur
 
 ## Create a new project 
 
-1. In Visual Studio, choose **File > New Project**.
+1. In Visual Studio, choose **File** > **New Project**.
 
 1. Under **Visual C#** or **Visual Basic**, choose **Web**, and then in the middle pane choose either **ASP.NET Web Application (.NET Framework)** or (C# only) **ASP.NET Core Web Application**, and then click **OK**.
 
@@ -37,7 +37,7 @@ If you do not already have an Azure account, you can [sign up here](https://azur
 
     Visual Studio creates the project.
 
-1. Choose **Build > Build Solution** to build the project.
+1. Choose **Build** > **Build Solution** to build the project.
 
 ## Publish to Azure App Service
 
