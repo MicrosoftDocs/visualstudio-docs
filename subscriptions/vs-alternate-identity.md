@@ -35,6 +35,10 @@ For all subscriptions, you can add a "work or school account" so you can use tha
 
 ### Add the alternate account
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0a45c88207b57606787e06551724d5bd1ebeda05
 1. Sign in to the Visual Studio subscriber portal with your Microsoft account (https://my.visualstudio.com).
 
 2. Go to **Subscriptions**.
