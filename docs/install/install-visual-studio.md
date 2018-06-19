@@ -32,7 +32,7 @@ Ready to install? We'll walk you through it, step-by-step.
 
 Before you begin installing Visual Studio:
 
-1. Check the [system requirements](https://www.visualstudio.com/productinfo/vs2017-system-requirements-vs). These requirements help you know whether your computer supports Visual Studio 2017.
+1. Check the [system requirements](/visualstudio/productinfo/vs2017-system-requirements-vs). These requirements help you know whether your computer supports Visual Studio 2017.
 2. Apply the latest Windows updates. These updates ensure that your computer has both the latest security updates and the required system components for Visual Studio.
 3. Reboot. The reboot ensures that any pending installs or updates don't hinder the Visual Studio install.
 4. Free up space. Remove unneeded files and applications from your %SystemDrive% by, for example, running the Disk Cleanup app.
