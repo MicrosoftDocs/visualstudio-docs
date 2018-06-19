@@ -81,7 +81,7 @@ Now that we've added a button control to create an action, let's add a label con
 
 2. In the **Form1.vb** window, between the **Private Sub** line and the **End Sub** line, type or paste `lblHelloWorld.Text = "Hello World!"`.
 
-     ![Add code to the form form](../ide/media/vb-add-code-to-the-form.png)
+     ![Add code to the form](../ide/media/vb-add-code-to-the-form.png)
 
 ## Run the application
 

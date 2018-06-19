@@ -229,7 +229,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
   
 -   `Files` is a required item list input parameter that has a value that is a list of files to be searched for the match. In this example, `Files` is set to the `Compile` item, which lists the project source files.  
   
--   `Result` is an output parameter that has a value that is is the list of files that have contents that match the regular expression.  
+-   `Result` is an output parameter that has a value that is the list of files that have contents that match the regular expression.  
   
  The value of the input parameters are set when the TestBuild target invokes the RegX task. The RegX task reads every file and returns the list of files that match the regular expression. This list is returned as the `Result` output parameter, which is emitted as the MSBuild item `MatchedFiles`.  
   
