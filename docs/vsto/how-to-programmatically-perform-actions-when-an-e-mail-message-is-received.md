@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically Perform Actions When an E-Mail Message Is Received | Microsoft Docs"
+title: "How to: Programmatically perform actions when an email message is received"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -19,8 +19,8 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Programmatically Perform Actions When an E-Mail Message Is Received
-  This example performs custom actions when the user receives an e-mail message.  
+# How to: Programmatically perform actions when an email message is received
+  This example performs custom actions when the user receives an email message.  
   
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]  
   
@@ -28,9 +28,9 @@ ms.workload:
  [!code-vb[Trin_Outlook_RL_PerformActions#1](../vsto/codesnippet/VisualBasic/Trin_Outlook_RL_PerformActions/thisaddin.vb#1)]
  [!code-csharp[Trin_Outlook_RL_PerformActions#1](../vsto/codesnippet/CSharp/Trin_Outlook_RL_PerformActions/thisaddin.cs#1)]  
   
-## See Also  
- [How to: Create Event Handlers in Office Projects](../vsto/how-to-create-event-handlers-in-office-projects.md)   
- [Working with Mail Items](../vsto/working-with-mail-items.md)   
- [Getting Started Programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)  
+## See also  
+ [How to: Create event handlers in Office projects](../vsto/how-to-create-event-handlers-in-office-projects.md)   
+ [Work with mail items](../vsto/working-with-mail-items.md)   
+ [Get started programming VSTO Add-ins](../vsto/getting-started-programming-vsto-add-ins.md)  
   
   

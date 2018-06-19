@@ -38,7 +38,7 @@ Install Visual 2017 on a physical Windows computer (not a virtual machine) runni
 
 ### For targeting iOS
 
-To target iOS emulators and devices from your Windows computer, you'll also need a networked Mac or Mac mini running macOS 10.12 or later, and Xcode 8.3. See [Setup and Install Visual Studio for Mac](/visualstudio/mac/installation.md) for more detailed requirements.
+To target iOS emulators and devices from your Windows computer, you'll also need a networked Mac or Mac mini running macOS 10.12 or later, and Xcode 8.3. See [Setup and Install Visual Studio for Mac](/visualstudio/mac/installation) for more detailed requirements.
 
 <a name="windows" /> 
 
@@ -46,7 +46,7 @@ To target iOS emulators and devices from your Windows computer, you'll also need
 
 If you haven't yet installed Visual Studio 2017, do the following steps:
 
-1.  [Download and launch the installer for any edition of Visual Studio 2017](https://www.visualstudio.com/downloads/) (Community, Professional, or Enterprise). Visual Studio 2017 Community is the free edition. The Professional and Enterprise editions are available on a trial basis for 30 days after which a license is necessary.
+1.  [Download and launch the installer for any edition of Visual Studio 2017](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) (Community, Professional, or Enterprise). Visual Studio 2017 Community is the free edition. The Professional and Enterprise editions are available on a trial basis for 30 days after which a license is necessary.
 
 2.  When the **Installing** dialog appears, check the following boxes:    
 

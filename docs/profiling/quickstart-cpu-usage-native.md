@@ -24,7 +24,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
 ## Create a project
 
-1. In Visual Studio, choose **File**>**New Project**.
+1. In Visual Studio, choose **File** > **New Project**.
 
 2. Under **Visual C++**, choose **Windows Desktop**, and then in the middle pane choose **Windows Console Application**.
 
@@ -120,9 +120,9 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
     > [!TIP]
     > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
   
-3.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug**>**Windows**>**Show Diagnostic Tools**.
+3.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-4.  Click **Debug**>**Start Debugging** (or **Start** on the toolbar, or **F5**).
+4.  Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
 
      When the app finishes loading, the **Summary** view of the Diagnostics Tools appears.
 
@@ -179,4 +179,4 @@ We recommend that you begin analyzing your data by examining the list of functio
 ## See also  
 
  [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling feature tour](../profiling/profiling-feature-tour.md)
+ [First look at profiling tools](../profiling/profiling-feature-tour.md)

@@ -46,7 +46,7 @@ By using Visual Studio to create a Windows Installer, you can deploy an Office s
   
 - [Specify where you want to deploy the solution on the user's computer](#Location)  
   
-- [Configure an VSTO Add-in](#ConfigureRegisitry)  
+- [Configure a VSTO Add-in](#ConfigureRegisitry)  
   
 - [Configure a document-level customization](#ConfigureDocument)  
   
@@ -116,7 +116,7 @@ You can create a Windows Installer file by using InstallShield Limited Edition (
   
 4. In the list of project types for **Setup and Deployment**, choose **InstallShield Limited Edition Project**, name the project, and then choose the **OK** button.  
   
-   The InstallShield setup project that you just created appears in your solution.  
+   The InstallShield setup project that you created appears in your solution.  
   
    The samples for this topic contain a setup project that's named **OfficeAddInSetup**. This topic will refer to the setup project in your solution by using the same name.  
   
@@ -269,7 +269,7 @@ The **Redistributables** page contains an item that's named **Microsoft VSTO 201
    >    You can also create subdirectories in the **Set INSTALLDIR** dialog box by opening the shortcut menu for any folder in the list.  
   
   
-## <a name="ConfigureRegisitry"></a>Configure an VSTO Add-in  
+## <a name="ConfigureRegisitry"></a>Configure a VSTO Add-in  
 You can specify whether you want your VSTO Add-in to be installed for all users of the computer (per-computer), or only for the user performing the installation (per-user).  
   
 If you want to support per-computer installations, create two separate installers. You can split installers based on the Office version (32-bit and 64-bit) or on the Windows version (32-bit and 64-bit) that the user is running.  
@@ -277,7 +277,7 @@ If you want to support per-computer installations, create two separate installer
 Per-user installations require only one installer regardless of Office or Windows version.  
   
 > [!NOTE]  
-> This section applies only if you're deploying an VSTO Add-in. If you're deploying a document-level customization, you can immediately go to the [Configure a document-level customization](#ConfigureDocument) section.  
+> This section applies only if you're deploying a VSTO Add-in. If you're deploying a document-level customization, you can immediately go to the [Configure a document-level customization](#ConfigureDocument) section.  
   
   
 ### To specify whether you want to support per-user or per-computer installations  
@@ -337,7 +337,7 @@ Per-user installations require only one installer regardless of Office or Window
    >    An installer for 64-bit Windows requires two registry paths because it's possible for users to run 32-bit and 64-bit versions of Office on a computer that runs 64-bit Windows.  
   
    > [!NOTE]  
-   >    As a best practice, start the name of your VSTO Add-in with the name of your company. This convention increases the chance that the key will be unique and decreases the chance of conflict with an VSTO Add-in from another supplier. Add-ins that have the same name can, for example, overwrite each other's registration keys. This approach can't guarantee that the key will be unique but can reduce potential name collisions.  
+   >    As a best practice, start the name of your VSTO Add-in with the name of your company. This convention increases the chance that the key will be unique and decreases the chance of conflict with a VSTO Add-in from another supplier. Add-ins that have the same name can, for example, overwrite each other's registration keys. This approach can't guarantee that the key will be unique but can reduce potential name collisions.  
   
 5. After you've created the hierarchy of keys, open the shortcut menu for the **SampleCompany.ExcelAddIn** key, choose **New**, and then choose **String Value**.  
   
@@ -388,15 +388,15 @@ Per-user installations require only one installer regardless of Office or Window
    The Visual Studio 2010 Tools for Office Runtime uses this path to locate the deployment manifest. The **[INSTALLDIR]** portion of this path is a macro that maps to the **INSTALLDIR** property in the **General Information** property page of your InstallShield setup project. This property specifies the location on the target computer to install the VSTO Add-in. The **|vstolocal** suffix ensures that your solution is loaded from the installation folder, not the ClickOnce cache.  
   
 > [!IMPORTANT]  
-> If you create a custom form region in an VSTO Add-in for Outlook, you must create more registry entries to register the region with Outlook. For more information, see [Registry entries for Outlook form regions](../vsto/registry-entries-for-vsto-add-ins.md#OutlookEntries).  
+> If you create a custom form region in a VSTO Add-in for Outlook, you must create more registry entries to register the region with Outlook. For more information, see [Registry entries for Outlook form regions](../vsto/registry-entries-for-vsto-add-ins.md#OutlookEntries).  
   
   
 ## <a name="ConfigureDocument"></a>Configure a document-level customization  
-This section applies only if you're deploying a document-level customization. If you're deploying an VSTO Add-in, you can go immediately to the [Build the setup project](#Build) section.  
+This section applies only if you're deploying a document-level customization. If you're deploying a VSTO Add-in, you can go immediately to the [Build the setup project](#Build) section.  
   
 Document-level customizations don't use registry keys. Instead, custom document properties contain the location of the deployment manifest.  
   
-To modify custom properties, you create a program that removes the document-level customization from the document, modifies the appropriate properties, and then re-attaches customization to the document. You then create a custom action that runs the program, and you add that action to your setup project.  
+To modify custom properties, you create a program that removes the document-level customization from the document, modifies the appropriate properties, and then reattaches customization to the document. You then create a custom action that runs the program, and you add that action to your setup project.  
   
 ### To create a program that modifies document properties  
   
@@ -524,7 +524,7 @@ To modify custom properties, you create a program that removes the document-leve
   
   
 ## See also  
-[Office solution prerequisites for deployment](http://msdn.microsoft.com/en-us/library/9f672809-43a3-40a1-9057-397ce3b5126e)  
+[Office solution prerequisites for deployment](http://msdn.microsoft.com/library/9f672809-43a3-40a1-9057-397ce3b5126e)  
 [Deploy an Office solution](../vsto/deploying-an-office-solution.md)  
 [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md)  
 [Custom document properties overview](../vsto/custom-document-properties-overview.md)  

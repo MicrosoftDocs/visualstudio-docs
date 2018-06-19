@@ -30,7 +30,7 @@ You can use the **Memory Usage** tool without debugging to do the following
   
 1.  Open a C# Universal Windows project in Visual Studio.  
   
-2.  On the menu bar, choose  **Debug**>**Performance Profiler**.  
+2.  On the menu bar, choose  **Debug** > **Performance Profiler**.  
   
 3.  Select **Memory Usage** and then choose the **Start** button at the bottom of the page.  
   
@@ -63,9 +63,9 @@ You can use the **Memory Usage** tool without debugging to do the following
 ###  <a name="BKMK_Memory_Usage_snapshot_views"></a> Memory Usage snapshot views  
  You use snapshot views to open detailed reports in new Visual Studio windows. There are two kinds of snapshot views:  
   
--   A [Snapshot details reports](../profiling/memory-usage-without-debugging2.md#BKMK_Snapshot_details_reports) shows the types and instances in one snapshot.  
+-   A [Snapshot details reports](#snapshot-reports) shows the types and instances in one snapshot.  
   
--   A [Snapshot difference (diff) reports](../profiling/memory-usage-without-debugging2.md#BKMK_Snapshot_difference__diff__reports) compares the types and instances in two snapshots.  
+-   A [Snapshot difference (diff) reports](#snapshot-difference-diff-reports) compares the types and instances in two snapshots.  
   
  ![Snapshot view links](../profiling/media/memuse__snapshotview_numbered.png "MEMUSE__SnapshotView_Numbered")  
   
@@ -186,7 +186,7 @@ You can use the **Memory Usage** tool without debugging to do the following
 ###  <a name="BKMK_Referenced_Objects_tree__Snapshot_diff_"></a> Referenced Objects tree (Snapshot diff)  
  The **Referenced Objects** tree shows the objects that the primary type or instance references.  
   
- ![Referenced Objjects tree for instances](../profiling/media/memuse_snapshotdetails_referencedobjects_instance.png "MEMUSE_SnapshotDetails_ReferencedObjects_Instance")  
+ ![Referenced Objects tree for instances](../profiling/media/memuse_snapshotdetails_referencedobjects_instance.png "MEMUSE_SnapshotDetails_ReferencedObjects_Instance")  
   
 |||  
 |-|-|  
@@ -197,6 +197,6 @@ You can use the **Memory Usage** tool without debugging to do the following
 ## See also  
  [JavaScript memory](../profiling/javascript-memory.md)  
  [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling feature tour](../profiling/profiling-feature-tour.md)  
+ [First look at profiling tools](../profiling/profiling-feature-tour.md)  
  [Performance best practices for UWP apps using C++, C#, and Visual Basic](http://msdn.microsoft.com/library/windows/apps/hh750313.aspx)   
  [Diagnosing memory issues with the new Memory Usage Tool in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=394706)

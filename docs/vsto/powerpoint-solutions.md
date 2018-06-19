@@ -42,7 +42,7 @@ ms.workload:
   
 -   Add or change shapes on a slide.  
   
- To access the PowerPoint object model from an VSTO Add-in, use the `Application` field of the `ThisAddIn` class in your project. The `Application` field returns a <xref:Microsoft.Office.Interop.PowerPoint.Application> object that represents the current instance of PowerPoint. For more information, see [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).  
+ To access the PowerPoint object model from a VSTO Add-in, use the `Application` field of the `ThisAddIn` class in your project. The `Application` field returns a <xref:Microsoft.Office.Interop.PowerPoint.Application> object that represents the current instance of PowerPoint. For more information, see [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).  
   
  When you call into the PowerPoint object model, you use types that are provided in the primary interop assembly for PowerPoint. The primary interop assembly acts as a bridge between the managed code in the VSTO Add-in and the COM object model in PowerPoint. All types in the PowerPoint primary interop assembly are defined in the <xref:Microsoft.Office.Interop.PowerPoint> namespace. For more information about primary interop assemblies, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md) and [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md).  
   

@@ -25,7 +25,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Integrating Business Data into SharePoint
+# Integrate business data into SharePoint
   You can integrate business data into SharePoint. Business data can come from back-end server applications, such as [!INCLUDE[TLA#tla_sqlsvr](../sharepoint/includes/tlasharptla-sqlsvr-md.md)], Siebel, and SAP, or a Web service. Users can view, add, update, or delete business data by using external lists or Business Data Web Parts in SharePoint.  Users can also access this data offline in a Microsoft Office application such as Microsoft Outlook. For more information, see [Where Can You Show External Data](http://go.microsoft.com/fwlink/?LinkId=169295).  
   
  To integrate data into SharePoint, create a model for the Business Data Connectivity (BDC) service. The BDC service is an application in SharePoint that stores information about data in business applications. For more information, see [Business Data Connectivity (BDC) Service](http://go.microsoft.com/fwlink/?LinkID=169276).  
@@ -35,7 +35,7 @@ ms.workload:
   
  You can also import models that are already deployed to SharePoint. After you import a model, you can add custom code or just use Visual Studio to package and deploy the model to multiple SharePoint server farms. For more information, see [Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md).  
   
-## Designing a Model in Visual Studio  
+## Design a model in Visual Studio
  You can design a model by using a designer and several tool windows. As you design the model, Visual Studio generates the model XML. For more information, see [BDC Model Design Tools Overview](../sharepoint/bdc-model-design-tools-overview.md).  
   
  A model contains entities and methods.  
@@ -48,12 +48,11 @@ ms.workload:
   
  Visual Studio generates a service code file for each entity in your model. When you add a method to your model, Visual Studio generates a corresponding method in the service code file. Add code to each method to perform the appropriate task. For example, if you add a Creator method to the model, Visual Studio generates a Creator method in your service code file. This method is called by the BDC service when a user clicks the **New Item** button in a list that is based on the model. Therefore, add code to the Creator method that adds new data to a data source. For more information, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).  
   
-## Related Topics  
+## Related topics
   
 |Title|Description|  
 |-----------|-----------------|  
 |[Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md)|Shows you how create a new model or import a model that you export from SharePoint.|  
 |[Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)|Explains how to design the elements of a model by using Visual Studio design tools.|  
 |[When to Use SharePoint Designer vs. Visual Studio When Building Solutions Using BCS](http://go.microsoft.com/fwlink/?LinkID=183448)|Helps you decide whether to use Visual Studio or use SharePoint Designer to create a model for the BDC.|  
-  
   

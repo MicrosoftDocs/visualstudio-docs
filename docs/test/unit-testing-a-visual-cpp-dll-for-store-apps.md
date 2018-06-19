@@ -40,7 +40,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
     -   Test methods are grouped into classes by using `TEST_CLASS(YourClassName){...}`.
 
-         When the tests are run, an instance of each test class is created. The test methods are called in an unspecified order. You can define special methods that are invoked before and after each module, class, or method. For more information, see [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](../test/using-microsoft-visualstudio-testtools-cppunittestframework.md) in the MSDN Library.
+         When the tests are run, an instance of each test class is created. The test methods are called in an unspecified order. You can define special methods that are invoked before and after each module, class, or method. For more information, see [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](how-to-use-microsoft-test-framework-for-cpp.md) in the MSDN Library.
 
 ##  <a name="Verify_that_the_tests_run_in_Test_Explorer"></a> Verify that the tests run in Test Explorer
 
@@ -107,7 +107,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 5.  Add minimal implementations of the declared functions. Open **RooterLib.cpp** and add the following code:
 
-    ```
+    ```cpp
     // constructor
     CRooterLib::CRooterLib()
     {
@@ -145,7 +145,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 3.  Add a test that uses the imported function. Add the following code to **unittest1.cpp**:
 
-    ```
+    ```cpp
     TEST_METHOD(BasicTest)
     {
         CRooterLib rooter;
@@ -239,7 +239,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 1.  Add another test to **unittest1.cpp**:
 
-    ```
+    ```cpp
     // Verify that negative inputs throw an exception.
      TEST_METHOD(NegativeRangeTest)
      {
@@ -285,7 +285,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
     3.  Add code to **RooterLib.cpp** to catch the exception:
 
-        ```
+        ```cpp
         #include <stdexcept>
         ...
         double CRooterLib::SquareRoot(double v)

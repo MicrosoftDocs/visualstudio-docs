@@ -1,5 +1,5 @@
 ---
-title: "Office Primary Interop Assemblies | Microsoft Docs"
+title: "Office primary interop assemblies"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -25,15 +25,15 @@ ms.workload:
   
  This topic describes the following aspects of using the Microsoft Office PIAs in Office projects:  
   
--   [Separate primary interop assemblies for building and running projects](#separateassemblies)  
+-   [Separate primary interop assemblies to build and run projects](#separateassemblies)  
   
 -   [Use features of multiple Microsoft Office applications in a single project](#usingfeatures)  
   
 -   [Full list of primary interop assemblies for Microsoft Office applications](#pialist)  
   
- For more information about primary interop assemblies, see [Primary interop assemblies](http://msdn.microsoft.com/en-us/b977a8be-59a0-40a0-a806-b11ffba5c080).  
+ For more information about primary interop assemblies, see [Primary interop assemblies](http://msdn.microsoft.com/b977a8be-59a0-40a0-a806-b11ffba5c080).  
   
-##  <a name="separateassemblies"></a> Separate primary interop assemblies for building and running projects  
+##  <a name="separateassemblies"></a> Separate primary interop assemblies to build and run projects  
  Visual Studio uses different sets of the PIAs on the development computer. These different sets of assemblies are in the following locations:  
   
 -   A folder in the program files directory.  
@@ -101,7 +101,7 @@ ms.workload:
 |Microsoft Visual Basic for Applications Extensibility 5.3|Microsoft.Vbe.Interop.dll|  
   
 ### Binding redirect assemblies  
- When you install and register the Office PIAs in the global assembly cache (either with Office or by installing the redistributable package for the PIAs), the binding redirect assemblies are also installed only in the global assembly cache. These assemblies help make sure that the correct version of the primary interop assemblies are loaded at runtime. For example, when a solution that references a [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)] assembly runs on a computer that has the [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] version of the same primary interop assembly, the binding redirect assembly instructs the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] runtime to load the [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] version of the primary interop assembly. For more information, see [How to: Enable and disable automatic binding redirection](/dotnet/framework/configure-apps/how-to-enable-and-disable-automatic-binding-redirection).  
+ When you install and register the Office PIAs in the global assembly cache (either with Office or by installing the redistributable package for the PIAs), the binding redirect assemblies are also installed only in the global assembly cache. These assemblies help make sure that the correct version of the primary interop assemblies is loaded at runtime. For example, when a solution that references a [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)] assembly runs on a computer that has the [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] version of the same primary interop assembly, the binding redirect assembly instructs the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] runtime to load the [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] version of the primary interop assembly. For more information, see [How to: Enable and disable automatic binding redirection](/dotnet/framework/configure-apps/how-to-enable-and-disable-automatic-binding-redirection).  
   
 ## See also  
  [How to: Target Office applications through primary interop assemblies](../vsto/how-to-target-office-applications-through-primary-interop-assemblies.md)   

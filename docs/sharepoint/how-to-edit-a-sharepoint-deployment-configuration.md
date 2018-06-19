@@ -20,10 +20,10 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Edit a SharePoint Deployment Configuration
+# How to: Edit a SharePoint deployment configuration
   You can create a deployment configuration or modify an existing deployment configuration. For example, you could run a single step or change the order of the steps in the deployment process. You may want to create or modify deployment configurations because the built-in and programmatically added configurations cannot be changed.  
   
-## Creating a SharePoint Deployment Configuration  
+## Create a SharePoint deployment configuration  
   
 #### To create a SharePoint deployment configuration  
   
@@ -40,17 +40,16 @@ ms.workload:
     > [!NOTE]  
     >  If you have configured a pre-deployment command or a post-deployment command, these steps run only if you add them to a customized deployment configuration.  
   
-## Changing the Active Deployment Configuration  
+## Change the active deployment configuration  
   
 #### To change the active deployment configuration  
   
-1.  In **Solution Explorer**, choose a SharePoint project, and then, on the menu bar, choose **Project**, *ProjectName***Properties**.  
+1.  In **Solution Explorer**, choose a SharePoint project, and then, on the menu bar, choose **Project** > **\<*ProjectName*> Properties**.  
   
 2.  Choose the **SharePoint** tab.  
   
 3.  In the **Active Deployment Configuration** list box, choose the name of the deployment configuration that you want to use.  
   
-## See Also  
+## See also
  [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
-  
   

@@ -47,7 +47,7 @@ ms.workload:
 -   Microsoft PowerPoint 2010 or [!INCLUDE[PowerPoint_15_short](../vsto/includes/powerpoint-15-short-md.md)].  
   
 ## Create the Add-in project  
- The first step is to create an VSTO Add-in project for PowerPoint.  
+ The first step is to create a VSTO Add-in project for PowerPoint.  
   
 ### To create a new project  
   
@@ -131,7 +131,7 @@ ms.workload:
 ## Next steps  
  You can learn more about how to create custom task panes from these topics:  
   
--   Create a custom task pane in an VSTO Add-in for a different application. For more information about the applications that support custom task panes, see [Custom task panes](../vsto/custom-task-panes.md).  
+-   Create a custom task pane in a VSTO Add-in for a different application. For more information about the applications that support custom task panes, see [Custom task panes](../vsto/custom-task-panes.md).  
   
 -   Create a Ribbon button that can be used to hide or display a custom task pane. For more information, see [Walkthrough: Synchronize a custom task pane with a Ribbon button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md).  
   

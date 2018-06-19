@@ -131,7 +131,7 @@ ms.workload:
   
 -   Use Windows Forms controls on an Excel workbook or a Word document. For more information, see [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md).  
   
--   Modify the user interface of a Microsoft Office application from a document-level customization or an VSTO Add-in. For more information, see [Office UI customization](../vsto/office-ui-customization.md).  
+-   Modify the user interface of a Microsoft Office application from a document-level customization or a VSTO Add-in. For more information, see [Office UI customization](../vsto/office-ui-customization.md).  
   
 ## See also  
  [Develop Office solutions](../vsto/developing-office-solutions.md)   

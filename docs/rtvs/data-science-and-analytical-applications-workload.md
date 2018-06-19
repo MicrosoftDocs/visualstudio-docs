@@ -45,9 +45,9 @@ By default, the workload installs the following options, which you can modify in
 
 Although F# is included with a number of other workloads and Python has a workload of its own, Data Science and Analytical Applications is the only workload at present that includes R. However, you can also install R independent of the workload. On the **Individual Components** tab in the installer, select the following R options:
 
-- **Development activities > R language support**
-- **Development activities > Microsoft R Client**
-- **Compilers, build tools, and runtimes > Runtime support for R development tools**
+- **Development activities** > **R language support**
+- **Development activities** > **Microsoft R Client**
+- **Compilers, build tools, and runtimes** > **Runtime support for R development tools**
 
 ## SQL Server integration
 
@@ -71,7 +71,7 @@ To take full advantage of SQL Server integration, use the Visual Studio installe
 
 For more information:
 
-- [Working with SQL Server and R](../rtvs/sql-server.md)
+- [Work with SQL Server and R](integrating-sql-server-with-r.md)
 - [In-database Advanced Analytics with R in SQL Server 2016 (blog)](https://blogs.technet.microsoft.com/dataplatforminsider/2016/03/29/in-database-advanced-analytics-with-r-in-sql-server-2016/)
 - [Python in SQL Server 2017: enhanced in-database machine learning (blog)](https://blogs.technet.microsoft.com/dataplatforminsider/2017/04/19/python-in-sql-server-2017-enhanced-in-database-machine-learning/)
 

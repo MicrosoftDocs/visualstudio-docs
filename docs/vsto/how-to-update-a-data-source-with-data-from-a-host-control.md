@@ -47,7 +47,7 @@ ms.workload:
      [!code-vb[Trin_VstcoreDataExcel#1](../vsto/codesnippet/VisualBasic/Trin_VstcoreDataExcelVB/Sheet1.vb#1)]  
   
 ### Automatically update the in-memory data source  
- You can also configure a control so that it automatically updates the in-memory data source. In a document-level project, you can do this by using code or the designer. In an VSTO Add-in project, you must use code.  
+ You can also configure a control so that it automatically updates the in-memory data source. In a document-level project, you can do this by using code or the designer. In a VSTO Add-in project, you must use code.  
   
 #### To set a control to automatically update the in-memory data source by using code  
   

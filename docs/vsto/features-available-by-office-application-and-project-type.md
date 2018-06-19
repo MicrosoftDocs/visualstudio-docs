@@ -56,9 +56,9 @@ ms.workload:
 |Expose an object in a VSTO Add-in to other Microsoft Office solutions.|VSTO Add-in projects.|[Call code in VSTO Add-ins from other Office solutions](../vsto/calling-code-in-vsto-add-ins-from-other-office-solutions.md)|  
 |The following host controls:<br /><br /> -   Chart<br />-   ListObject<br />-   NamedRange<br />-   Content controls<br />-   Bookmark|Document-level projects.<br /><br /> VSTO Add-in projects for Word and Excel.|[Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)|  
 |The following host controls:<br /><br /> -   XMLMappedRange<br />-   XMLNode<br />-   XMLNodes|Document-level projects.|[Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)|  
-|Multi-project deployment.|Document-level projects.<br /><br /> VSTO Add-in projects.|[Walkthrough: Deploy multiple Office solutions in a single ClickOnce installer](http://msdn.microsoft.com/en-us/051223c0-4082-4799-b78b-a4763a9def55)|  
+|Multi-project deployment.|Document-level projects.<br /><br /> VSTO Add-in projects.|[Walkthrough: Deploy multiple Office solutions in a single ClickOnce installer](http://msdn.microsoft.com/051223c0-4082-4799-b78b-a4763a9def55)|  
 |Outlook form regions.|VSTO Add-in projects for Outlook.|[Create Outlook form regions](../vsto/creating-outlook-form-regions.md)|  
-|Post-deployment actions.|Document-level projects.<br /><br /> VSTO Add-in projects.|[Walkthrough: Copy a document to the end user computer after a ClickOnce installation](http://msdn.microsoft.com/en-us/100090f7-bc63-4152-b3e1-19b48bc27466)|  
+|Post-deployment actions.|Document-level projects.<br /><br /> VSTO Add-in projects.|[Walkthrough: Copy a document to the end user computer after a ClickOnce installation](http://msdn.microsoft.com/100090f7-bc63-4152-b3e1-19b48bc27466)|  
 |Ribbon customizations.|Document-level projects.<br /><br /> VSTO Add-in projects for the following applications:<br /><br /> -   Excel<br />-   InfoPath (InfoPath 2013 and InfoPath 2010 only)<br />-   Outlook<br />-   PowerPoint<br />-   Project<br />-   Visio<br />-   Word|[Ribbon overview](../vsto/ribbon-overview.md)|  
 |Visual document designer.|Document-level projects.|[Office projects in the Visual Studio environment](../vsto/office-projects-in-the-visual-studio-environment.md)|  
   

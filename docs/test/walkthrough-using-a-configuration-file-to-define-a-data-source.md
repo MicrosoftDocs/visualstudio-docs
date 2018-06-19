@@ -62,7 +62,7 @@ Examine the *app.config* file. It contains at least the XML declaration and a ro
 
 The **section** element should look similar to this:
 
-```
+```xml
 <section name="microsoft.visualstudio.testtools" type="Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
 ```
 
@@ -89,7 +89,7 @@ The connection strings define provider-specific information for accessing data s
 
 In the second **add** element, create the following attributes and values for a connection to a Microsoft Excel spreadsheet:
 
-|||
+|Attribute|Values|
 |-|-|
 |`name`|`"MyExcelConn"`|
 |`connectionString`|`"Dsn=Excel Files;dbq=data.xlsx;defaultdir=.\; driverid=790;maxbuffersize=2048;pagetimeout=5"`|
@@ -97,7 +97,7 @@ In the second **add** element, create the following attributes and values for a 
 
 The **connectionStrings** element should look similar to this:
 
-```
+```xml
 <connectionStrings>
     <add name="MyJetConn" connectionString="Provider=Microsoft.Jet.OLEDB.4.0; Data Source=C:\testdatasource.accdb; Persist Security Info=False;" providerName="System.Data.OleDb" />
     <add name="MyExcelConn" connectionString="Dsn=Excel Files;dbq=data.xlsx;defaultdir=.\; driverid=790;maxbuffersize=2048;pagetimeout=5" providerName="System.Data.Odbc" />
@@ -137,7 +137,7 @@ In this section, you'll define two data sources to use in a unit test.
 
 In the second **add** element, create the following attributes and values for a Microsoft Excel data source:
 
-|||
+|Attribute|Values|
 |-|-|
 |`Name`|`"MyExcelDataSource"`|
 |`connectionString`|`"MyExcelConn"`|

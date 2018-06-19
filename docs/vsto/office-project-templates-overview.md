@@ -160,8 +160,8 @@ ms.workload:
 ## Word templates  
  If a Microsoft Office Word template has managed code extensions, the project assembly is not called if the template is attached as a global template or loaded from the startup directory of Word. In addition, the document does not recognize the format of a template that is part of an Office solution.  
   
-## Excel Add-Ins (.xla Files)  
- There is no Office project for creating an Excel VSTO Add-in (.xla file). It is possible to save a workbook as an .xla file, but it is not a supported operation and is not recommended. If you save a workbook that has managed code extensions as a **Microsoft Office Excel Add-In (\*.xla)** file, you can select it in the **Add-Ins** dialog box to apply to another workbook. In some cases your code will run in the target workbook after the VSTO Add-in is applied, but such use of the Office solution is not supported.  
+## Excel Add-ins (.xla Files)  
+ There is no Office project for creating an Excel VSTO Add-in (*.xla* file). It is possible to save a workbook as an .xla file, but it is not a supported operation and is not recommended. If you save a workbook that has managed code extensions as a **Microsoft Office Excel Add-In (\*.xla)** file, you can select it in the **Add-Ins** dialog box to apply to another workbook. In some cases, your code will run in the target workbook after the VSTO Add-in is applied, but such use of the Office solution is not supported.  
   
 ## See also  
  [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)   
