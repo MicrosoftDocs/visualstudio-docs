@@ -57,7 +57,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 1. Install the Northwind sample database by following these steps:
 
-    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 
        A query editor window opens.
 
@@ -73,7 +73,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ### To create the new Windows project
 
-1. In Visual Studio, on the **File** menu, select **New** > **Project...**.
+1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
 1. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
 

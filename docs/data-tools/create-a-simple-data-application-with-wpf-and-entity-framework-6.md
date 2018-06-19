@@ -16,7 +16,7 @@ ms.workload:
 
 This walkthrough shows how to create a basic "forms over data" application in Visual Studio. The app uses SQL Server LocalDB, the Northwind database, Entity Framework 6, and Windows Presentation Foundation. It shows how to do basic databinding with a master-detail view, and it also has a custom Binding Navigator with buttons for **Move Next**, **Move Previous**, **Move to beginning**, **Move to end**, **Update** and **Delete**.
 
-This article focuses on using data tools in Visual Studio, and does not attempt to explain the underlying technologies in any depth. It assumes that you have a basic familiarity with XAML, Entity Framework, and SQL. This example also does not demonstrate Model-View-ViewModel (MVVM) architecture, which is standard for WPF applications. However, you can copy this code into your own MVVM application with few modifications.
+This article focuses on using data tools in Visual Studio, and does not attempt to explain the underlying technologies in any depth. It assumes that you have a basic familiarity with **XAML**, Entity Framework, and SQL. This example also does not demonstrate Model-View-ViewModel (MVVM) architecture, which is standard for WPF applications. However, you can copy this code into your own MVVM application with few modifications.
 
 ## Install and connect to Northwind
 
@@ -42,7 +42,7 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
 
 1.  In Visual Studio, choose **File** > **New** > **Project** and then create a new C# WPF Application.
 
-2.  Next, add the NuGet package for Entity Framework 6. In **Solution Explorer**, select the project node. In the main menu, choose **Project** > **Manage NuGet Packages...**.
+2.  Next, add the NuGet package for Entity Framework 6. In **Solution Explorer**, select the project node. In the main menu, choose **Project** > **Manage NuGet Packages**.
 
      ![Manage NuGet Packages menu item](../data-tools/media/raddata_vs2015_manage_nuget_packages.png)
 
@@ -54,7 +54,7 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
 
 ## Create the model
 
-1.  Right-click on the project node in Solution Explorer and choose **Add** > **New Item...**. In the left pane, under the C# node, choose **Data** and in the middle pane choose **ADO.NET Entity Data Model**.
+1.  Right-click on the project node in Solution Explorer and choose **Add** > **New Item**. In the left pane, under the C# node, choose **Data** and in the middle pane, choose **ADO.NET Entity Data Model**.
 
      ![Entity Framework Model New Project Item](../data-tools/media/raddata-ef-new-project-item.png)
 
@@ -74,7 +74,7 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
 
      The designer surface for the *.edmx* file enables you to modify some properties and relationships in the model. We are not going to use the designer in this walkthrough.
 
-6.  The *.tt* files are general purpose and you'll need to tweak one of them to work with WPF databinding, which requires ObservableCollections. In **Solution Explorer**, expand the Northwind_model node until you find *Northwind_model.tt*. (Make sure you are not in the *.Context.tt* file, which is directly below the *.edmx* file.)
+6.  The *.tt* files are general purpose and you need to tweak one of them to work with WPF databinding, which requires ObservableCollections. In **Solution Explorer**, expand the Northwind_model node until you find *Northwind_model.tt*. (Make sure you are not in the *.Context.tt* file, which is directly below the *.edmx* file.)
 
     -   Replace the two occurrences of <xref:System.Collections.ICollection> with <xref:System.Collections.ObjectModel.ObservableCollection%601>.
 
@@ -84,7 +84,7 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
 
 7.  Press **Ctrl**+**Shift**+**B** to build the project. When the build finishes, the model classes are visible to the data sources wizard.
 
-Now you are ready to hook up this model to the XAML page so that you can view, navigate, and modify the data.
+Now you are ready to hook up this model to the **XAML** page so that you can view, navigate, and modify the data.
 
 ## Databind the model to the XAML page
 
@@ -100,7 +100,7 @@ It is possible to write your own databinding code, but it is much easier to let 
 
 3.  Click **Finish**.
 
-4.  Navigate to *MainWindow.xaml* in Code View. We're keeping the XAML simple for the purposes of this example. Change the title of MainWindow to something more descriptive, and increase its Height and Width to 600 x 800 for now. You can always change it later. Now add these three row definitions to the main grid, one row for the navigation buttons, one for the customer's details, and one for the grid that shows their orders:
+4.  Navigate to *MainWindow.xaml* in Code View. We're keeping the **XAML** simple for the purposes of this example. Change the title of MainWindow to something more descriptive, and increase its Height and Width to 600 x 800 for now. You can always change it later. Now add these three row definitions to the main grid, one row for the navigation buttons, one for the customer's details, and one for the grid that shows their orders:
 
     ```xaml
     <Grid.RowDefinitions>
@@ -110,7 +110,7 @@ It is possible to write your own databinding code, but it is much easier to let 
         </Grid.RowDefinitions>
     ```
 
-5.  Now open *MainWindow.xaml* so that you are viewing it in the designer. This causes the **Data Sources** window to appear as an option in the Visual Studio window margin next to the **Toolbox**. Click on the tab to open the window, or else press **Shift**+**Alt**+**D** or choose **View** > **Other Windows** > **Data Sources**. We are going to display each property in the Customers class in its own individual text box. First, click on the arrow in the **Customers** combo box and choose **Details**. Then, drag the node onto the middle part of the design surface so that the designer knows you want it to go in the middle row. If you misplace it, you can specify the row manually later in the XAML. By default, the controls are placed vertically in a grid element, but at this point, you can arrange them however you like on the form. For example, it might make sense to put the **Name** text box on top, above the address. The sample application for this article reorders the fields and rearranges them into two columns.
+5.  Now open *MainWindow.xaml* so that you are viewing it in the designer. This causes the **Data Sources** window to appear as an option in the Visual Studio window margin next to the **Toolbox**. Click on the tab to open the window, or else press **Shift**+**Alt**+**D** or choose **View** > **Other Windows** > **Data Sources**. We are going to display each property in the Customers class in its own individual text box. First, click on the arrow in the **Customers** combo box and choose **Details**. Then, drag the node onto the middle part of the design surface so that the designer knows you want it to go in the middle row. If you misplace it, you can specify the row manually later in the **XAML**. By default, the controls are placed vertically in a grid element, but at this point, you can arrange them however you like on the form. For example, it might make sense to put the **Name** text box on top, above the address. The sample application for this article reorders the fields and rearranges them into two columns.
 
      ![Customers data source binding to individual controls](../data-tools/media/raddata-customers-data-source-binding-to-individual-controls.png)
 
@@ -142,7 +142,7 @@ It is possible to write your own databinding code, but it is much easier to let 
 
 ## Adjust the page design and add grids for new customers and orders
 
-The default arrangement produced by Visual Studio is not ideal for your application, so you'll make some changes manually in the XAML. You also need some "forms" (which are actually Grids) to enable the user to add a new customer or order. In order to be able to add a new customer and order, you need a separate set of text boxes that are not data-bound to the `CollectionViewSource`. You'll control which grid the user sees at any given time by setting the Visible property in the handler methods. Finally, you add a Delete button to each row in the Orders grid to enable the user to delete an individual order.
+The default arrangement produced by Visual Studio is not ideal for your application, so you'll make some changes manually in the **XAML**. You also need some "forms" (which are actually Grids) to enable the user to add a new customer or order. In order to be able to add a new customer and order, you need a separate set of text boxes that are not data-bound to the `CollectionViewSource`. You'll control which grid the user sees at any given time by setting the Visible property in the handler methods. Finally, you add a Delete button to each row in the Orders grid to enable the user to delete an individual order.
 
 First, add these styles to the `Windows.Resources` element in *MainWindow.xaml*:
 
