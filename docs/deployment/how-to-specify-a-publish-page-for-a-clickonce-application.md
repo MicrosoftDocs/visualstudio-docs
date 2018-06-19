@@ -39,7 +39,7 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
   
 5.  In the **Publish Options** dialog box, make sure that the **Open deployment web page after publish** check box is selected (it should be selected by default).  
   
-6.  In the **Deployment web page:** box, enter the name for your Web page, and then click **OK**.  
+6.  In the **Deployment web page** box, enter the name for your Web page, and then click **OK**.  
   
 ### To prevent the publish page from launching each time you publish  
   

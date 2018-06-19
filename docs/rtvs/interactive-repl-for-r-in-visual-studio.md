@@ -16,7 +16,7 @@ ms.workload:
 
 R Tools for Visual Studio (RTVS) provides an R interactive window, also known as a **REPL** (Read-Evaluate-Print-Loop) window, in which you can enter R code and immediately see the results. All modules, syntax, and variables, as well as IntelliSense, is available in the interactive window.
 
-The interactive window is also integrated with regular R editor windows. You can select code and press **Ctrl**+**Enter**, or **right-click** and select **Execute in Interactive**, and the code is run line-by-line in the interactive window as if you typed it directly. When the cursor is on a single line in an editor window, **Ctrl**+**Enter** sends that line to the interactive window and then moves the cursor to the next line. This way you can just press **Ctrl**+**Enter** repeatedly to step through the code.
+The interactive window is also integrated with regular R editor windows. You can select code and press **Ctrl**+**Enter**, or right-click and select **Execute in Interactive**, and the code is run line-by-line in the interactive window as if you typed it directly. When the cursor is on a single line in an editor window, **Ctrl**+**Enter** sends that line to the interactive window and then moves the cursor to the next line. This way you can just press **Ctrl**+**Enter** repeatedly to step through the code.
 
 To experience these features, follow the [Get started with R](getting-started-with-r.md) walkthrough as well as the sections in this article. [Code snippets](code-snippets-for-r.md) also work in the interactive window like they do in R editor windows.
 

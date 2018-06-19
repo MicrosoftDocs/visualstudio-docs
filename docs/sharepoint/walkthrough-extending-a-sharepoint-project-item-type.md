@@ -126,7 +126,7 @@ ms.workload:
   
 #### To define the project item extension  
   
-1.  Paste the following code into the the ProjectItemExtension code file.  
+1.  Paste the following code into the ProjectItemExtension code file.  
   
     > [!NOTE]  
     >  After you add this code, the project will have some compile errors. These errors will go away when you add code in later steps.  

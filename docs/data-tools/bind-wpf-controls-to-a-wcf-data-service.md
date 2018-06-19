@@ -39,7 +39,7 @@ This walkthrough illustrates the following tasks:
 ## Prerequisites
 You need the following components to complete this walkthrough:
 
--   [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]
+-   Visual Studio
 
 -   Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex Web site](http://go.microsoft.com/fwlink/?linkid=87843).
 
