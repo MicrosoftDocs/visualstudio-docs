@@ -37,7 +37,7 @@ Before you begin installing Visual Studio:
 3. Reboot. The reboot ensures that any pending installs or updates don't hinder the Visual Studio install.
 4. Free up space. Remove unneeded files and applications from your %SystemDrive% by, for example, running the Disk Cleanup app.
 
-For questions about running previous versions of Visual Studio side by side with Visual Studio 2017, see the [Visual Studio compatibility details](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs#compatibility-with-previous-releases).
+For questions about running previous versions of Visual Studio side by side with Visual Studio 2017, see the [Visual Studio compatibility details](/visualstudio/productinfo/vs2017-compatibility-vs#compatibility-with-previous-releases).
 
 ## Step 2 - Download Visual Studio
 
@@ -63,7 +63,7 @@ Then, run the bootstrapper file to install the Visual Studio Installer. This new
 
   If you receive a User Account Control notice, click **Yes**.
 
-2. We'll ask you to acknowledge the Microsoft [License Terms](https://www.visualstudio.com/license-terms/) and the Microsoft [Privacy Statement](https://go.microsoft.com/fwlink/?LinkID=824704). Click **Continue**.  
+2. We'll ask you to acknowledge the Microsoft [License Terms](https://www.visualstudio.com/license-terms/) and the Microsoft [Privacy Statement](https://go.microsoft.com/fwlink/?LinkID=824704). Click **Continue**.
 
    ![License Terms and Privacy Statement](media/vs2017-privacy-and-license-terms.PNG "Microsoft License Terms and Privacy Statement")
 
@@ -75,16 +75,16 @@ After the installer is installed, you can use it to customize your installation 
 
  ![Select a workload from the Visual Studio 2017 setup dialog](../install/media/install-visual-studio-community.png)
 
-     For example, choose the ".NET desktop development" workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.  
+     For example, choose the ".NET desktop development" workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.
 
 2. After you select the workload(s) you want, click **Install**.
 
     Next, status screens appear that show the progress of your Visual Studio installation.
 
-3. After the new workloads and components are installed, click **Launch**.  
+3. After the new workloads and components are installed, click **Launch**.
 
 > [!TIP]
-> At any time after installation, you can install workloads or components that you didn't install initially. If you have Visual Studio open, go to **Tools** > **Get Tools and Features...** which opens the Visual Studio Installer. Or, open **Visual Studio Installer** from the Start menu. From there, you can select the workloads or components that you wish to install, then click **Modify**.  
+> At any time after installation, you can install workloads or components that you didn't install initially. If you have Visual Studio open, go to **Tools** > **Get Tools and Features...** which opens the Visual Studio Installer. Or, open **Visual Studio Installer** from the Start menu. From there, you can select the workloads or components that you wish to install, then click **Modify**.
 
 |         |         |
 |---------|---------|
