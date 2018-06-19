@@ -1991,10 +1991,6 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/subscriptions/vs-license-terms.md",
-            "redirect_url": "https://www.microsoft.com/licensing/product-licensing/products.aspx",
-            "redirect_document_id": false
-        },        {
             "source_path": "docs/test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md",
             "redirect_url": "/visualstudio/code-quality/quick-start-code-analysis-for-c-cpp",
             "redirect_document_id": false
@@ -2493,6 +2489,11 @@
         {
             "source_path": "subscriptions/vs-elearn.md",
             "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "subscriptions/vs-license-terms.md",
+            "redirect_url": "https://www.microsoft.com/en-us/licensing/product-licensing/products.aspx",
             "redirect_document_id": false
         },
         {
