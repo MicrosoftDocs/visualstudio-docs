@@ -22,7 +22,7 @@ We're interested in your ideas for improving our products and documentation. We 
 
 ## I want to report a problem with Visual Studio
 
-If you are running into issues using Visual Studio, such as crashes, sluggish performance, unexpected behavior, and so on, please report the problem to us by using the **Report a Problem** tool. Simply click the feedback icon next to **Quick Launch**, or choose **Help** > **Send Feedback** > **Report a Problem** from the menu bar. Visual Studio reports the problem to [Developer Community]((https://developercommunity.visualstudio.com). For more information, see [How to report a problem with Visual Studio 2017](how-to-report-a-problem-with-visual-studio-2017.md).
+If you are running into issues using Visual Studio, such as crashes, sluggish performance, unexpected behavior, and so on, please report the problem to us by using the **Report a Problem** tool. Simply click the feedback icon next to **Quick Launch**, or choose **Help** > **Send Feedback** > **Report a Problem** from the menu bar. Visual Studio reports the problem to [Developer Community](https://developercommunity.visualstudio.com). For more information, see [How to report a problem with Visual Studio 2017](how-to-report-a-problem-with-visual-studio-2017.md).
 
 ## I want to make a suggestion about Visual Studio features
 
@@ -58,5 +58,5 @@ Please use the **Was this page helpful?** feedback button at the bottom of the p
 ## See also
 
 * [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio-2017.md)
-* [Developer Community]((https://developercommunity.visualstudio.com)
+* [Developer Community](https://developercommunity.visualstudio.com)
 * [Developer Community data privacy](developer-community-privacy.md)
