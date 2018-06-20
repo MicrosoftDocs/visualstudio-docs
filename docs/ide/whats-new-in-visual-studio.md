@@ -353,5 +353,5 @@ If you want to make a suggestion about how we can improve Visual Studio, or lear
 * [Visual Studio 2017 release notes](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default)
 * [What's new in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
 * [What's new in C#](/dotnet/csharp/whats-new)
-* [What's new for Team Foundation Server](https://www.visualstudio.com/docs/whats-new)
+* [What's new for Team Foundation Server](/tfs/server/whats-new?view=vsts)
 * [What's new in Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/)
