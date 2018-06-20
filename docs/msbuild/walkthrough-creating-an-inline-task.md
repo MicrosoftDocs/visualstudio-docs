@@ -59,7 +59,9 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
   
 1.  In the root `Project` node, change the `DefaultTargets` attribute to `TestBuild`.The resulting `Project` node should resemble this example:  
   
-     `<Project ToolsVersion="4.0" DefaultTargets="TestBuild" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">`  
+    ```xml
+    <Project ToolsVersion="4.0" DefaultTargets="TestBuild" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    ```
   
 2.  Add the following inline task and target to the project file just before the `</Project>` tag.  
   
@@ -219,9 +221,13 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
   
 3.  Examine the output in the **Command Prompt Window**. You should see these lines:  
   
-     `Input files: Form1.cs;Form1.Designer.cs;Program.cs;Properties\AssemblyInfo.cs;Properties\Resources.Designer.cs;Properties\Settings.Designer.cs`  
+    ```
+    Input files: Form1.cs;Form1.Designer.cs;Program.cs;Properties\AssemblyInfo.cs;Properties\Resources.Designer.cs;Properties\Settings.Designer.cs
+    ```  
   
-     `Matched files: Form1.cs;Form1.Designer.cs;Properties\Settings.Designer.cs`  
+    ```
+    Matched files: Form1.cs;Form1.Designer.cs;Properties\Settings.Designer.cs
+    ```  
   
  This code defines an inline task that is named RegX and has these three parameters:  
   
@@ -229,23 +235,23 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
   
 -   `Files` is a required item list input parameter that has a value that is a list of files to be searched for the match. In this example, `Files` is set to the `Compile` item, which lists the project source files.  
   
--   `Result` is an output parameter that has a value that is is the list of files that have contents that match the regular expression.  
+-   `Result` is an output parameter that has a value that is the list of files that have contents that match the regular expression.  
   
  The value of the input parameters are set when the TestBuild target invokes the RegX task. The RegX task reads every file and returns the list of files that match the regular expression. This list is returned as the `Result` output parameter, which is emitted as the MSBuild item `MatchedFiles`.  
   
 ### Handling Reserved Characters  
  The MSBuild parser processes inline tasks as XML. Characters that have reserved meaning in XML, for example, "\<" and ">", are detected and handled as if they were XML, and not .NET source code. To include the reserved characters in code expressions such as `Files.Length > 0`, write the `Code` element so that its contents are contained in a CDATA expression, as follows:  
   
- `<Code Type="Fragment" Language="cs">`  
+ ```xml
+<Code Type="Fragment" Language="cs">  
+  <![CDATA[  
   
- `<![CDATA[`  
+  // Your code goes here.  
   
- `// Your code goes here.`  
-  
- `]]>`  
-  
- `</Code>`  
-  
+  ]]>  
+</Code>  
+```  
+
 ## See Also  
  [Inline Tasks](../msbuild/msbuild-inline-tasks.md)   
  [Tasks](../msbuild/msbuild-tasks.md)   

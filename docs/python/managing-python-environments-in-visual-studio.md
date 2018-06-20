@@ -119,7 +119,7 @@ If Visual Studio finds registry entries for an environment, but the path to the 
 
 ![The Python Environments window showing an invalid environment](media/environments-invalid-entry.png)
 
-To correct an environment you wish to keep, first try using its installer's repair option. The installers for standard Python 3.x, for example, include a **Repair** option.
+To correct an environment you wish to keep, first try using its installer's **Repair** process. The installers for standard Python 3.x, for example, include that option.
 
 To correct an environment that doesn't have a repair option, or to remove an invalid environment, use the following steps to modify the registry directly. Visual Studio automatically updates the Python Environments window when you make changes to the registry.
 
@@ -130,7 +130,7 @@ To correct an environment that doesn't have a repair option, or to remove an inv
 
     ![Registry entries for a typical CPython installation](media/environments-registry-entries.png)
 
-    - If the environment still exists on your computer, change the value of `ExecutablePath` to the correct location. Also correct the `(Default)` and `WindowedExecutablePath` values and update as necessary.
+    - If the environment still exists on your computer, change the value of `ExecutablePath` to the correct location. Also correct the `(Default)` and `WindowedExecutablePath` values as necessary.
     - If the environment no longer exists on your computer and you want to remove it from the Python Environments window, delete the parent node of `InstallPath`, such as `3.6` in the image above.
 
 <a name="manually-identifying-an-existing-environment"></a>

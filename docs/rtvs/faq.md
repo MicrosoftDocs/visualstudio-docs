@@ -29,7 +29,7 @@ A. No.
 A. Absolutely. In fact, here are a few that are popular for people working with R.
 
 - [VsVim for vim key bindings](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim)
-- [Github](https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio)
+- [GitHub](https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio)
 - [Markdown editor with live preview](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor)
 
 See the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) to find more.
@@ -46,7 +46,7 @@ A. The 1.0 release of RTVS is English-only. The 1.1 release will be localized to
 
 **Q. I really like my current Visual Studio settings, but I want to try out the new Data Science settings. What should I do?**
 
-A. Save your current Visual Studio settings using **Tools > Import and Export Settings...**, then switch to the Data Science settings. To restore the saved settings, use the **Import and Export Settings...** command again.
+A. Save your current Visual Studio settings using **Tools** > **Import and Export Settings**, then switch to the Data Science settings. To restore the saved settings, use the **Import and Export Settings** command again.
 
 **Q. Can I store my Visual Studio project on a network share?**
 
@@ -74,19 +74,19 @@ A. No, RTVS only supports 64-bit editions of R running on 64-bit editions of Win
 
 A. Yes, you can use any source control system that is integrated into Visual Studio.
 
-**Q. What are the recommended `.gitignore` settings for an RTVS project?**
+**Q. What are the recommended *.gitignore* settings for an RTVS project?**
 
-A. Github maintains a master repository of recommended `.gitignore` files. You can see it here: [R .gitignore](https://github.com/github/gitignore/blob/master/R.gitignore)
+A. Github maintains a master repository of recommended *.gitignore* files. You can see it here: [R .gitignore](https://github.com/github/gitignore/blob/master/R.gitignore)
 
 ## Remote services
 
 Q. **What is Remote Services in Visual Studio?**
 
-A. Remote R Services for Visual Studio allows you to set up Windows or Linux machine and then connect to it from RTVS. See [Setting up Remote Workspaces](setting-up-remote-r-workspaces.md).
+A. Remote R Services for Visual Studio allows you to set up Windows or Linux machine and then connect to it from RTVS. See [Set up remote workspaces](setting-up-remote-r-workspaces.md).
 
-Q. **Can RTVS connect to Microsoft R Server?**
+Q. **Can RTVS connect to Microsoft Machine Learning Server?**
 
-A. No, because Microsoft R Server is a different technology and does not provide same connectivity mechanism as required by RTVS.
+A. No, because Microsoft ML Server is a different technology and does not provide same connectivity mechanism as required by RTVS.
 
 Q. **Can RTVS connect to a VM created using the Data Science VM image on Azure?**
 
@@ -94,7 +94,7 @@ A. Yes; the [Data Science VM - Windows 2016](https://azure.microsoft.com/service
 
 Q, **Can RTVS connect to a remote machine with R installed?**
 
-To execute R code on a remote machine there has to be some service listening to the requests, receiving code and sending results back to the client machine. This is what Remote R Services for Visual Studio do. See [Setting up Remote Workspaces](setting-up-remote-r-workspaces.md).
+To execute R code on a remote machine there has to be some service listening to the requests, receiving code and sending results back to the client machine. This is what Remote R Services for Visual Studio do. See [Set up remote workspaces](setting-up-remote-r-workspaces.md).
 
 Q. **What is Remote Session?**
 

@@ -8,7 +8,7 @@ ms.technology: vs-ide-mobile
 author: asb3993
 ms.author: amburns
 manager: crdun
-ms.workload: 
+ms.workload:
   - "xamarin"
 ---
 # Setup, install, and verifications for Mac users
@@ -38,19 +38,19 @@ This topic is meant for developers working primarily on a Mac who will optionall
 
 ##  <a name="windows"></a> Windows setup inside Parallels (Visual Studio and Xamarin)
 
-1.  Using the Windows desktop that you've configured inside Parallels/VMWare, [download and launch the installer for any edition of Visual Studio 2017](https://www.visualstudio.com/downloads/) (Community, Professional, or Enterprise). Visual Studio 2017 Community is the free edition; the Professional and Enterprise editions can be used on a trial basis for 30 days.
+1.  Using the Windows desktop that you've configured inside Parallels/VMWare, [download and launch the installer for any edition of Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) (Community, Professional, or Enterprise). Visual Studio 2017 Community is the free edition; the Professional and Enterprise editions can be used on a trial basis for 30 days.
 
-2.  Within the installer, click the **Additional Choices** (three-bars icon) button _next to_ **Launch** then choose **Modify**.:  
-  
-     ![Choosing the Modify option in Visual Studio installation](../cross-platform/media/cross-plat-xamarin-setup-1a.png "Cross-Plat Xamarin Setup 1")  
-  
+2.  Within the installer, click the **Additional Choices** (three-bars icon) button _next to_ **Launch** then choose **Modify**.:
+
+     ![Choosing the Modify option in Visual Studio installation](../cross-platform/media/cross-plat-xamarin-setup-1a.png "Cross-Plat Xamarin Setup 1")
+
 3.  Check the following boxes:
 
-    1.  **Mobile & Gaming > Mobile Development with .NET**. This will also automatically select various Android tools under Common Tools and Software Development Kits. This option should also update any existing Xamarin installation.  
-  
-         ![Select the Mobile Development option under Gaming and Mobile Development](../cross-platform/media/cross-plat-xamarin-setup-2a.png "Cross-Plat Xamarin Setup 2")  
-  
-    2. (Optional) **Windows > Universal Windows Platform development**. This includes options for installing emulators images that will take longer to download; you can always return to the Visual Studio installer to add them later.  
+    1.  **Mobile & Gaming > Mobile Development with .NET**. This will also automatically select various Android tools under Common Tools and Software Development Kits. This option should also update any existing Xamarin installation.
+
+         ![Select the Mobile Development option under Gaming and Mobile Development](../cross-platform/media/cross-plat-xamarin-setup-2a.png "Cross-Plat Xamarin Setup 2")
+
+    2. (Optional) **Windows > Universal Windows Platform development**. This includes options for installing emulators images that will take longer to download; you can always return to the Visual Studio installer to add them later.
 
 4.  Click the **Modify** button and let the process run. Again, this will take some time to complete, during which time you can continue with the Mac setup instructions and go through [Learn about mobile development with Xamarin](../cross-platform/learn-about-mobile-development-with-xamarin.md).
 

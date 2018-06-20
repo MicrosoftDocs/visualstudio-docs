@@ -30,25 +30,25 @@ ms.workload:
  Explains how to configure the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] trust prompt to control whether end users are given the option of installing Office solutions.  
   
 ## Deployment topics  
- [How to: Publish an Office solution by using ClickOnce](http://msdn.microsoft.com/en-us/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8)  
+ [How to: Publish an Office solution by using ClickOnce](http://msdn.microsoft.com/2b6c247e-bc04-4ce4-bb64-c4e79bb3d5b8)  
  Provides information about how to use the **Publish Wizard** or the **Publish** page of the Project Designer to publish Office solutions.  
   
- [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](http://msdn.microsoft.com/en-us/2408e809-fb78-42a1-9152-00afa1522e58)  
+ [How to: Publish a document-level Office solution to a SharePoint server by using ClickOnce](http://msdn.microsoft.com/2408e809-fb78-42a1-9152-00afa1522e58)  
  Describes the steps for deploying to a SharePoint server.  
   
- [How to: Install a ClickOnce Office solution](http://msdn.microsoft.com/en-us/14702f48-9161-4190-994c-78211fe18065)  
+ [How to: Install a ClickOnce Office solution](http://msdn.microsoft.com/14702f48-9161-4190-994c-78211fe18065)  
  Provides steps for installing Office solutions by running the Setup program that is generated during the publishing process; opening the deployment manifest file; or opening a customized document or workbook.  
   
- [How to: Install prerequisites on end user computers to run Office solutions](http://msdn.microsoft.com/en-us/74dd2c52-838f-4abf-b2b4-4d7b0c2a0a98)  
+ [How to: Install prerequisites on end user computers to run Office solutions](http://msdn.microsoft.com/74dd2c52-838f-4abf-b2b4-4d7b0c2a0a98)  
  Describes how you can create a Setup program that checks for prerequisites before it installs the solution components.  
   
- [How to: Prepare IIS for deployment of Office solutions](http://msdn.microsoft.com/en-us/f62bce70-81d4-4f8b-86e6-2f2afec5d9b4)  
+ [How to: Prepare IIS for deployment of Office solutions](http://msdn.microsoft.com/f62bce70-81d4-4f8b-86e6-2f2afec5d9b4)  
  Describes how to configure the MIME type on Microsoft Internet Information Services (IIS) for the deployment manifest.  
   
- [How to: Update deployed Office solutions](http://msdn.microsoft.com/en-us/be96db53-b6ea-46ab-b8d9-b76b098b3b13)  
+ [How to: Update deployed Office solutions](http://msdn.microsoft.com/be96db53-b6ea-46ab-b8d9-b76b098b3b13)  
  Provides information about how to update an Office solution by using the **Publish Wizard**.  
   
- [How to: Change the installation path of an Office solution](http://msdn.microsoft.com/en-us/d0eaa07b-2d72-4902-899f-2f9fb165b8fd)  
+ [How to: Change the installation path of an Office solution](http://msdn.microsoft.com/d0eaa07b-2d72-4902-899f-2f9fb165b8fd)  
  Provides information about how to change the installation path of an Office  solution.  
   
 ## Related sections  

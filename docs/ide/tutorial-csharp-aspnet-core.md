@@ -20,7 +20,7 @@ ms.workload:
 
 In this tutorial for C# development with ASP.NET Core using Visual Studio, you'll create a C# ASP.NET Core web app, add code to it, explore some features of the IDE, and run the app.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
 ## Before you begin
 
@@ -36,7 +36,7 @@ ASP.NET Core is an open-source and cross-platform framework for building interne
 
 ### What is Visual Studio?
 
-Visual Studio is an integrated development suite of productivity tools for developers. Think of it as a program you can use to create programs and applications.  
+Visual Studio is an integrated development suite of productivity tools for developers. Think of it as a program you can use to create programs and applications.
 
 ## Start developing
 
@@ -76,7 +76,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 #### Add a project template
 
-1. In the **New ASP.NET Core Web Application** dialog box, choose the **Web Application (Model-View-Controller)** project template.  
+1. In the **New ASP.NET Core Web Application** dialog box, choose the **Web Application (Model-View-Controller)** project template.
 
 2. Select **ASP.NET Core 2.0** from the top drop-down menu. (If you don't see **ASP.NET Core 2.0** in the list, install it by following the **Download** link that should appear in a yellow bar near the top of the dialog box.) Choose **OK**.
 

@@ -20,7 +20,7 @@ ms.workload:
   - "multiple"
 ---
 # Object Lifetime View
-The Object Lifetime view is available when **Also collect .NET object lifetime data** is checked on the Performance Session property pages.  
+The Object Lifetime view is available when **Also collect .NET object lifetime data** is checked on the **Performance Session** property pages.  
   
  The garbage collector of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] manages the allocation and release of memory for your application. To optimize the performance of the garbage collector, the managed heap is divided into three generations: 0, 1, and 2. The  garbage collector of the runtime stores new objects in generation 0. Objects that survive collections are promoted and stored in generations 1 and 2.  
   
@@ -36,7 +36,7 @@ The Object Lifetime view is available when **Also collect .NET object lifetime d
 |**Module Name**|The name of the module that contains the function.|  
 |**Module Path**|The path of the module that contains the function.|  
   
-## Instance Data  
+## Instance data  
  Instance data indicates the number of objects of the type that were created in the profiling run, and the generation in which the objects were deallocated by the garbage collector.  
   
 |Column|Description|  
@@ -48,7 +48,7 @@ The Object Lifetime view is available when **Also collect .NET object lifetime d
 |**Gen 2 Instances Collected**|The number of instances of the type that were deallocated in generation 2 of the garbage collection algorithm.|  
 |**Instances Alive At End**|The number of instances of the type that were not deallocated until the end of the profiling run.|  
   
-## Size (Byte) Data  
+## Size (byte) data  
  Size (byte) data indicates the size of objects of the type that were created in the profiling run, and the amount of memory that was reclaimed in each generation in which the objects were deallocated.  
   
 |Column|Description|  
@@ -59,7 +59,7 @@ The Object Lifetime view is available when **Also collect .NET object lifetime d
 |**Gen 1 Bytes Collected**|The size of the instances of the type that were deallocated in generation 1 of the garbage collection algorithm.|  
 |**Gen 2 Bytes Collected**|The size of the instances of the type that were deallocated in generation 2 of the garbage collection algorithm.|  
   
-## Large Object Heap Data  
+## Large object heap data  
  The .NET memory allocator manages very large objects in a location that is separate from the standard managed heap. Large object heap data indicates the number and size of objects of the type that were managed in this location.  
   
 |Column|Description|  
@@ -67,5 +67,5 @@ The Object Lifetime view is available when **Also collect .NET object lifetime d
 |**Large Object Heap Instances Collected**|The number of instances of this type that were located in the large object heap and that were collected in the profiling run.|  
 |**Large Object Heap Bytes Collected**|The size, in bytes, of the instances of this type that were located in the large object heap and that were collected in the profiling run.|  
   
-## See Also  
- [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)
+## See also  
+ [.NET memory data views](../profiling/dotnet-memory-data-views.md)

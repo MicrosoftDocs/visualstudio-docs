@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Create an Application Page
+# How to: Create an application page
   You can create an ASP.NET web page for one or more SharePoint sites. In SharePoint, these pages are called application pages. Unlike a site page, an application page contains code that runs behind the page. For more information, see [Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).  
   
 ### To create an application page  
@@ -30,7 +30,7 @@ ms.workload:
   
 2.  In **Solution Explorer**, choose the project node.  
   
-3.  On the menu bar, choose **Project**, **Add New Item**.  
+3.  On the menu bar, choose **Project** > **Add New Item**.  
   
 4.  In the **Add New Item** dialog box, expand the **SharePoint** node, and then choose the **2010** item.  
   
@@ -44,10 +44,9 @@ ms.workload:
   
 7.  If you want to handle control events, add code to the code file for the application page.  
   
-     The code file appears if you expand the node for the ASP.NET page file and has a .cs or .vb extension, depending on the language of the project. For an end-to-end example of how to create an application page, see [Walkthrough: Creating a SharePoint Application Page](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md).  
+     The code file appears if you expand the node for the ASP.NET page file and has a *.cs* or *.vb* extension, depending on the language of the project. For an end-to-end example of how to create an application page, see [Walkthrough: Creating a SharePoint Application Page](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md).  
   
-## See Also  
+## See also
  [Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)   
  [Walkthrough: Creating a SharePoint Application Page](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md)  
-  
   

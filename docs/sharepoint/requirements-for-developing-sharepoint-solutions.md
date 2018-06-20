@@ -19,8 +19,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Requirements for Developing SharePoint Solutions
- 
+# Requirements for developing SharePoint solutions
 You must install the following prerequisites on the system before you can use the SharePoint solution development tools included in Visual Studio:
 
 - Visual Studio with C# and/or Visual Basic, or an edition of Visual Studio Application Lifecycle Management (ALM).
@@ -44,15 +43,13 @@ To develop SharePoint solutions in Visual Studio, you must install SharePoint on
 For more information about how to install [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], see [Install Visual Studio](../install/install-visual-studio.md).
 
 ## Vista and Windows 7 User Account Control (UAC)
-
 [!INCLUDE[windowsver](../sharepoint/includes/windowsver-md.md)] and [!INCLUDE[win7](../sharepoint/includes/win7-md.md)] incorporate a security feature that's known as User Account Control (UAC). To develop SharePoint solutions in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] on [!INCLUDE[windowsver](../sharepoint/includes/windowsver-md.md)] and [!INCLUDE[win7](../sharepoint/includes/win7-md.md)] systems, UAC requires that you run [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] as a system administrator. On the desktop, open the shortcut menu for [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], and then choose **Run as administrator**.
 
 To configure the desktop shortcut to always run as administrator, open its shortcut menu, choose **Properties**, choose the **Advanced** button, and then select the **Run as administrator** check box.
 
 For more information, see [Understanding and Configuring User Account Control in Windows Vista](http://go.microsoft.com/fwlink/?LinkID=156476). and [Windows 7 User Account Control](http://go.microsoft.com/fwlink/?LinkId=177523).
 
-## SharePoint Permissions Considerations
-
+## SharePoint permissions considerations
 To develop SharePoint solutions, you must have sufficient permissions to run and debug SharePoint solutions. Before you can test a SharePoint solution, take the following steps to ensure that you have the necessary permissions:
 
 1. Add your user account as an Administrator on the system.
@@ -65,6 +62,5 @@ To develop SharePoint solutions, you must have sufficient permissions to run and
 
 3. Add your user account to the to the WSS_ADMIN_WPG group.
 
-## See Also
-
+## See also
 [Getting Started &#40;SharePoint Development in Visual Studio&#41;](../sharepoint/getting-started-sharepoint-development-in-visual-studio.md)

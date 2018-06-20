@@ -42,7 +42,7 @@ Boost.Test requires [Boost](http://www.boost.org/)! If you do not have Boost ins
 
 1. The new file contains a sample test method. Build your project to enable **Test Explorer** to discover the method.
 
-The item template uses the single-header variant of Boost.Test, but you can modify the #include path to use the standalone library variant. For more information, see [Add include directives](#add_include_directives).
+The item template uses the single-header variant of Boost.Test, but you can modify the #include path to use the standalone library variant. For more information, see [Add include directives](#add-include-directives).
 
 ## Create a test project (Visual Studio 2017 version 15.5)
 
@@ -55,7 +55,7 @@ In Visual Studio 2017 version 15.5, no pre-configured test project or item templ
 1. Give the project a name and choose **OK**.
 1. Delete the `main` function in the .cpp file.
 
-1. If you are using the single-header or dynamic library version of Boost.Test, go to [Add include directives](#add_include_directives). If you are using the static library version, then you have to perform some additional configuration:
+1. If you are using the single-header or dynamic library version of Boost.Test, go to [Add include directives](#add-include-directives). If you are using the static library version, then you have to perform some additional configuration:
 
    a. To edit the project file, first unload it. In **Solution Explorer**, right-click the project node and choose **Unload Project**. Then, right-click the project node and choose **Edit <name\>.vcxproj**.
 

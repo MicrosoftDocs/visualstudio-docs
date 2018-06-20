@@ -1,6 +1,6 @@
 ---
-title: "Tutorial: Debug managed and native code | Microsoft Docs"
-description: Learn how to debug a native DLL from a .NET Core or .NET Framework app
+title: "Tutorial: Debug managed and native code (mixed mode)"
+description: Learn how to debug a native DLL from a .NET Core or .NET Framework app using mixed mode debugging
 ms.custom: ""
 ms.date: "04/27/2018"
 ms.technology: "vs-ide-debug"
@@ -34,7 +34,7 @@ In this tutorial, you will:
 
 * You must have Visual Studio installed and the **Desktop development with C++** workload.
 
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
     If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
 

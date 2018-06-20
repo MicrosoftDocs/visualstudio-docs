@@ -40,7 +40,7 @@ an IntelliSense window will appear and enable you to select the full path to the
 ![Add #include directives](media/cpp-gtest-includes.png)
 
 ## Write and run Tests
-You are now ready to write and run Google Tests. See the [Google Test Primer](https://github.com/google/googletest/blob/master/googletest/docs/Primer.md) for information about the test macros. See [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md) for information about discovering, running, and grouping your tests by using **Test Explorer**.
+You are now ready to write and run Google Tests. See the [Google Test Primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md) for information about the test macros. See [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md) for information about discovering, running, and grouping your tests by using **Test Explorer**.
 
 ## See also
 [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md)

@@ -855,6 +855,8 @@
         items:
         - name: Advanced Settings for Services Dialog Box
           href: ide/reference/advanced-settings-for-services-dialog-box.md
+      - name: Settings Page, Project Designer
+        href: ide/reference/settings-page-project-designer.md
       - name: Signing Page, Project Designer
         href: ide/reference/signing-page-project-designer.md
     - name: Property Pages, JavaScript
@@ -1053,7 +1055,7 @@
     - name: Platform compatibility
       href: /visualstudio/productinfo/vs2017-compatibility-vs?context=visualstudio/default
     - name: Licensing
-      href: https://www.visualstudio.com/license-terms/
+      href: https://visualstudio.microsoft.com/license-terms/
     - name: Distributable code
       href: /visualstudio/productinfo/2017-redistribution-vs?context=visualstudio/default
     - name: Support lifecycle and servicing

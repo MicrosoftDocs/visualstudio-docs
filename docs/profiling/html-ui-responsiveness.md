@@ -113,7 +113,7 @@ This topic describes how to isolate performance problems in your apps using the 
   
     -   Pages or URL resources that are loaded by the app, such as script evaluations for HTML parsing events. The file name or resource is provided.  
   
-    -   Other events specified in [Profiler event reference](#ProfilerEvents).  
+    -   Other events specified in [Profiler event reference](#profiler-event-reference).  
   
     > [!TIP]
     >  Most of the usable information in the profiler appears in the timeline details graph.  
@@ -182,7 +182,7 @@ if (performance.mark && performance.measure) {
 -   A navigation event, which occurs when you navigate to a different page. A tooltip for the event shows the destination page URL.  
   
 ###  <a name="CPUUtilization"></a> View CPU utilization  
- The CPU utilization graph enables you to identify periods of time in which there is excessive CPU activity. It provides information about the app's average CPU consumption over a period of time. Information is color-coded to represent the following specific categories: **Loading**, **Scripting**, garbage collection (**GC**), **Styling**, **Rendering**, and **Image decoding**. For more info about these categories, see [Profiler event reference](#ProfilerEvents) later in this topic.  
+ The CPU utilization graph enables you to identify periods of time in which there is excessive CPU activity. It provides information about the app's average CPU consumption over a period of time. Information is color-coded to represent the following specific categories: **Loading**, **Scripting**, garbage collection (**GC**), **Styling**, **Rendering**, and **Image decoding**. For more info about these categories, see [Profiler event reference](#profiler-event-reference) later in this topic.  
   
  The CPU utilization graph shows the amount of time spent on all app threads, combining CPU utilization values for one or more CPUs into a single percentage value. The CPU utilization value might exceed 100 percent when more than one CPU is in use.  
   
@@ -242,7 +242,7 @@ if (performance.mark && performance.measure) {
   
  If you select a portion of the timeline for the CPU utilization and visual throughput (FPS) graph, the timeline details graph shows detailed information for the selected time period.  
   
- The events in the timeline details graph are color-coded to represent the same categories of work that are shown in the CPU utilization graph. For more info about the event categories and the specific events, see [Profiler event reference](#ProfilerEvents) in this topic.  
+ The events in the timeline details graph are color-coded to represent the same categories of work that are shown in the CPU utilization graph. For more info about the event categories and the specific events, see [Profiler event reference](#profiler-event-reference) in this topic.  
   
  Use the timeline details graph to:  
   
@@ -352,4 +352,4 @@ if (performance.mark && performance.measure) {
 -   For info on the single-threaded code execution model and performance, see [Executing code](http://msdn.microsoft.com/library/windows/apps/hh781217.aspx).  
   
 ## See also  
- [First look at profiling tools](../profiling/profiling-tools.md)
+ [First look at profiling tools](../profiling/profiling-feature-tour.md)

@@ -68,7 +68,7 @@ At the broadest level, the "Django Web Project" template creates the following s
   - `requirements.txt` containing a dependency on Django 1.x.
   - `readme.html`, a file that's displayed in Visual Studio after creating the project. As noted in the previous section, follow the instructions here to create a super user (administrator) account for the app.
 - The `app` folder contains all the app files, including views, models, tests, forms, templates, and static files (see step 4-2). You typically rename this folder to use a more distinctive app name.
-- The `DjangoWeb` (Django project) folder contains the typical Django project files: `__init.py__`, `settings.py`, `urls.py`, and `wsgi.py`. By using the project template, `settings.py` is already configured for the app and the database file, and `urls.py` is already configured with routes to all the app pages, including the login form.
+- The `DjangoWeb` (Django project) folder contains the typical Django project files: `__init__.py`, `settings.py`, `urls.py`, and `wsgi.py`. By using the project template, `settings.py` is already configured for the app and the database file, and `urls.py` is already configured with routes to all the app pages, including the login form.
 
 ### Question: Is it possible to share a virtual environment between Visual Studio projects?
 
