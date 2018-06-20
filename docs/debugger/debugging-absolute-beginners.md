@@ -15,9 +15,9 @@ ms.workload:
 ---
 # How to debug for absolute beginners
 
-If you are getting ready to try out a debugging tool like Visual Studio and this is the first time that you've tried to debug an application, then you're in the right place. When you use a debugger for the first time, it's normal to hope (and expect) that whatever debugging tool you're using will magically show you all the bugs in your code. Unfortunately, it's not that easy. Debugging is a learned skill, and it takes time and practice to learn how to debug effectively. So before we teach you how to use the Visual Studio debugger, we give you couple of general tips and principles.
+If you are getting ready to try out a debugging tool like Visual Studio and this is the first time that you've tried to debug an application, then you're in the right place. When you use a debugger for the first time, it's normal to hope (and expect) that whatever debugging tool you're using will magically show you all the bugs in your code. Unfortunately, it's not that easy. Debugging is a learned skill, and it takes time and practice to learn how to debug effectively. So before we teach you how to debug, we give you some general tips and principles.
 
-First, it's helpful to answer some basic questions such as "What is debugging?" and "What is debugging mode?" *Debugging* is the process of removing bugs from your code. In the context of a debugging tool like Visual Studio, *debugging mode* means running your app (executing code) while the Visual Studio debugger is attached to your application. With the debugger attached, you see what your code is doing while it runs. For example, you can inspect your app state (look at variables), see what functions are getting called, and try to find bugs.
+First, it might be helpful to answer some basic questions such as "What is debugging?" and "What is debugging mode?" *Debugging* is the process of removing bugs from your code. In the context of a debugging tool like Visual Studio, *debugging mode* means running your app (executing code) while the Visual Studio debugger is attached to your application. With the debugger attached, you see what your code is doing while it runs. For example, you can inspect your app state (look at variables), see what functions are getting called, and try to find bugs. To enter debugging mode, we usually just say *start the debugger* or *run your app in the debugger*.
 
 ## Clarify the problem by asking yourself the right questions
 
@@ -27,9 +27,9 @@ It helps to clarify the problem that you ran into before you try to fix it. We e
 
 1. What happened instead?
 
-    If you ran into an error (exception) while running your app, that can be a good thing! The [Exception Helper](../debugger/debugger-feature-tour.md#exception) in Visual Studio takes you to the exact place in your code where the exception occurred and gives you an error message to help you investigate possible fixes. (But before you investigate, finish reading this article.)
+    If you ran into an error (exception) while running your app, that can be a good thing! The [Exception Helper](../debugger/debugger-feature-tour.md#exception) in Visual Studio puts your app into debugging mode, takes you to the exact place in your code where the exception occurred, and gives you an error message to help you investigate possible fixes. (But before you investigate, finish reading this article.)
 
-    If something else happened, what is the symptom of the problem? Do you already suspect where this problem occurred in your code? For example, if your code displays some text, but the text is incorrect, you know that the code that set the display text has some kind of bug. To fix a problem like this, you most likely need to start your application with the Visual Studio debugger attached. (But first, continue reading this article.)
+    If something else happened, what is the symptom of the problem? Do you already suspect where this problem occurred in your code? For example, if your code displays some text, but the text is incorrect, you know that either your data is bad or the code that set the display text has some kind of bug. To fix a problem like this, you most likely need to start your application with the Visual Studio debugger attached and look at your variables. (But first, continue reading this article.)
 
 ## Examine your assumptions
 
@@ -51,9 +51,9 @@ Before you investigate a bug or an error, think of the assumptions that made you
 
 By knowing your assumptions, you may reduce the time it takes to find a problem in your code. You may also reduce the time it takes to fix a problem.
 
-## If you didn't get an exception, step through your code with the debugger to find where the problem occurred
+## Step through your code in debugging mode to find where the problem occurred
 
-You want to use the debugger to find the exact place where the problem (or symptom of the bug) occurred. Before you start, do your best to try to find the specific region of code where the problem is occurring, then set a [breakpoint](../debugger/using-breakpoints.md) where that code begins. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. You can set a breakpoint by clicking in the left margin next to a line of code.
+If you didn't get an exception, use the debugger to find the exact place where the problem (or symptom of the bug) occurred. Before you start, do your best to try to find the specific region of code where the problem is occurring, then set a [breakpoint](../debugger/using-breakpoints.md) where that code begins. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. You can set a breakpoint by clicking in the left margin next to a line of code.
 
 ![Set a breakpoint](../debugger/media/dbg-tour-set-a-breakpoint.gif "SetABreakPoint")
 
