@@ -18,7 +18,7 @@ The [Visual Studio IDE overview](../ide/visual-studio-ide.md) topic gives a basi
 
 Visual Studio's modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. This strategy helps to keep the footprint of the Visual Studio installation smaller, which means it installs and updates faster too.
 
-If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
 To learn more about setting up Visual Studio on your system, see [Install Visual Studio 2017](../install/install-visual-studio.md).
 
@@ -46,17 +46,17 @@ The available **Connected Services** depend on your project type. Add a service 
 
 ![Visual Studio Connected Services](media/connected-services.png)
 
-For more information, see [Move to the cloud With Visual Studio and Azure](https://www.visualstudio.com/vs/azure-tools/).
+For more information, see [Move to the cloud With Visual Studio and Azure](https://visualstudio.microsoft.com/vs/azure-tools/).
 
 ## Create apps for the web
 
 The web drives our modern world, and Visual Studio can help you write apps for it. You can create web apps using ASP.NET, Node.js, Python, JavaScript and TypeScript. Visual Studio understands web frameworks like Angular, jQuery, Express, and more. ASP.NET Core and .NET Core run on Windows, Mac, and Linux operating systems. [ASP.NET Core](http://www.asp.net/core/overview) is a major update to MVC, WebAPI and SignalR, and runs on Windows, Mac, and Linux.  ASP.NET Core has been designed from the ground up to provide you with a lean and composable .NET stack for building modern cloud-based web apps and services.
 
-For more information, see [Modern web tooling](https://www.visualstudio.com/vs/modern-web-tooling/).
+For more information, see [Modern web tooling](https://visualstudio.microsoft.com/vs/modern-web-tooling/).
 
 ## Build cross-platform apps and games
 
-You can use Visual Studio to build apps and games for macOS, Linux, and Windows, as well as for Android, iOS, and other [mobile devices](https://www.visualstudio.com/vs/mobile-app-development/).
+You can use Visual Studio to build apps and games for macOS, Linux, and Windows, as well as for Android, iOS, and other [mobile devices](https://visualstudio.microsoft.com/vs/mobile-app-development/).
 
 - Build [.NET Core](/dotnet/core/) apps that run on Windows, macOS and Linux.
 
@@ -116,7 +116,7 @@ You can use the .NET Compiler Platform ("Roslyn") to write your own code analyze
 
 Find [existing extensions](https://marketplace.visualstudio.com/vs) for Visual Studio created by Microsoft developers as well as our development community.
 
-To learn more about extending Visual Studio, see [Extend Visual Studio IDE](https://www.visualstudio.com/vs/extend/).
+To learn more about extending Visual Studio, see [Extend Visual Studio IDE](https://visualstudio.microsoft.com/vs/extend/).
 
 ## See also
 

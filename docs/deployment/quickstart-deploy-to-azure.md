@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "11/22/2017"
 ms.technology: vs-ide-deployment
 ms.topic: "quickstart"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "deployment, website"
 ms.assetid: fc82b1f1-d342-4b82-9a44-590479f0a895
 author: mikejo5000
 ms.author: mikejo
 manager: douge
-ms.workload: 
+ms.workload:
   - "azure"
 ---
 # Publish an ASP.NET or ASP.NET Core app to Azure App Service using Visual Studio
@@ -23,9 +23,9 @@ If you do not already have an Azure account, you can [sign up here](https://azur
 
 * You must have Visual Studio 2017 installed and the **ASP.NET and web development** workload and .**NET desktop development** workload. For a .NET Core app, you need the .**NET Core** workload.
 
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-## Create a new project 
+## Create a new project
 
 1. In Visual Studio, choose **File** > **New Project**.
 
@@ -56,7 +56,7 @@ If you do not already have an Azure account, you can [sign up here](https://azur
     The **Create App Service** dialog box appears.
 
     ![Create App Service](../deployment/media/quickstart-publish-settings-app-service.png "Create Azure App Service")
-    
+
 1. If you are not signed into Visual Studio, sign in, and then the default app service settings populate the fields.
 
     The profile publish settings dialog box opens.
