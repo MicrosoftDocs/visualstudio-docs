@@ -8,6 +8,6 @@
 
 * An ASP.NET Core, .NET Core, or Node.js project. If you don't already have a project, select an option below:
   * ASP.NET: Follow [Quickstart: Use Visual Studio to create your first ASP.NET Core web app](../../ide/quickstart-aspnet-core.md), or use **File** > **New Project**, select **Visual C#** > **.NET Core**, then select **ASP.NET Core Web Application**. When prompted, select the **Web Application (Model-View-Controller)** template, make sure that **No Authentication** is selected, and then select **OK**.
-  * Node.js: Follow [Quickstart: Use Visual Studio to create your first Node.js app](../ide/../quickstart-nodejs.md), or use **File** > **New Project**, select **JavaScript**, then select **Blanks Node.js Web Application**.
+  * Node.js: Follow [Quickstart: Use Visual Studio to create your first Node.js app](../ide/quickstart-nodejs.md), or use **File** > **New Project**, select **JavaScript**, then select **Blanks Node.js Web Application**.
 
 * Make sure you build the project using the **Build > Build Solution** menu command before following the deployment steps.
