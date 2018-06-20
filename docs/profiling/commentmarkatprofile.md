@@ -59,14 +59,14 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkAtProfile (
 >  CommentMarkAtProfile methods should be used with instrumentation only.  
   
 ## .NET Framework equivalent  
- Microsoft.VisualStudio.Profiler.dll  
+ *Microsoft.VisualStudio.Profiler.dll*  
   
 ## Function information  
   
 |||  
 |-|-|  
-|**Header**|Include VSPerf.h|  
-|**Library**|Use VSPerf.lib|  
+|**Header**|Include *VSPerf.h*|  
+|**Library**|Use *VSPerf.lib*|  
 |**Unicode**|Implemented as CommentMarkAtProfileW (Unicode) and CommentMarkAtProfileA (ANSI).|  
   
 ## Example  

@@ -115,7 +115,7 @@ Administrators can deploy Visual Studio onto client workstations as part of an i
 > [!TIP]
 > When executed as part of a batch file, the `--wait` option ensures that the `vs_enterprise.exe` process waits until the installation is complete before it returns an exit code. This is useful if an enterprise administrator wants to perform further actions on a completed installation (for example, to [apply a product key to a successful installation](automatically-apply-product-keys-when-deploying-visual-studio.md)) but must wait for the installation to finish to handle the return code from that installation.  If you do not use `--wait`, the `vs_enterprise.exe` process exits before the installation is complete and returns an inaccurate exit code that doesn't represent the state of the install operation.
 
-When you install from a layout, the content that is installed is acquired from the layout. However, if you select a component that is not in the layout, it will be acquired from the internet.  If you want to prevent Visual Studio setup from downloading any content that is missing in your layout, use the `--noWeb` option.  If `--noWeb` is used and the layout is missing any content that is selected to be installed, setup fails.  
+When you install from a layout, the content that is installed is acquired from the layout. However, if you select a component that is not in the layout, it will be acquired from the internet.  If you want to prevent Visual Studio setup from downloading any content that is missing in your layout, use the `--noWeb` option.  If `--noWeb` is used and the layout is missing any content that is selected to be installed, setup fails.
 
 ### Error codes
 
@@ -134,7 +134,7 @@ As product updates become available, you might want to [update the network insta
 ## How to create a layout for a previous Visual Studio 2017 release
 
 > [!NOTE]
-> The Visual Studio 2017 bootstrappers that are available on [VisualStudio.com](http://www.visualstudio.com) download and install the latest Visual Studio 2017 release available whenever they are run. If you download a Visual Studio bootstrapper today and run it six months from now, it installs the Visual Studio 2017 release that is available at that later time. If you create a layout, installing Visual Studio from that layout installs the specific version of Visual Studio that exists in the layout. Even though a newer version might exist online, you get the version of Visual Studio that is in the layout.
+> The Visual Studio 2017 bootstrappers that are available on [VisualStudio.com](http://visualstudio.microsoft.com) download and install the latest Visual Studio 2017 release available whenever they are run. If you download a Visual Studio bootstrapper today and run it six months from now, it installs the Visual Studio 2017 release that is available at that later time. If you create a layout, installing Visual Studio from that layout installs the specific version of Visual Studio that exists in the layout. Even though a newer version might exist online, you get the version of Visual Studio that is in the layout.
 
 If you need to create a layout for an older version of Visual Studio 2017, you can go to https://my.visualstudio.com to download "fixed" versions of the Visual Studio 2017 bootstrappers.
 
@@ -146,7 +146,7 @@ We have other support options available, too. For a list, see our [Talk to us](.
 
 ## Get support
 
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
 
 Here are a few more support options:
 

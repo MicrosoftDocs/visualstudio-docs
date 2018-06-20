@@ -23,7 +23,7 @@ Sets the global thread count, and assigns that count to the current thread.
   
 ## Syntax  
   
-```  
+```cmd  
 HRESULT WINAPI SetThreadCount(int threadCount);  
 ```  
   

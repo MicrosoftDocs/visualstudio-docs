@@ -45,7 +45,7 @@ Here's more detailed information about some of the most notable improvements and
 
 ### A new setup experience
 
-[Download Visual Studio 2017](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) or [Check Visual Studio system requirements](/visualstudio/productinfo/vs2017-system-requirements-vs?context=visualstudio/default)
+[Download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) or [Check Visual Studio system requirements](/visualstudio/productinfo/vs2017-system-requirements-vs?context=visualstudio/default)
 
  Visual Studio makes it easier and faster to install just the features you need, when you need them. And, it uninstalls cleanly, too.
 
@@ -333,8 +333,8 @@ For more information, see the [Visual Studio Tools for AI](../ai/about-ai-tools.
 
 We update Visual Studio 2017 often with new features that can make your development experience even better. Here's a recap of some of our most notable updates that are in experimental preview:
 
-* **[Live Share](https://www.visualstudio.com/services/live-share/)**, a new tool that allows you to share a codebase and its context with a teammate and get instant bi-directional collaboration directly from within Visual Studio. With Live Share, a teammate can read, navigate, edit, and debug a project that you've shared with them, and do so seamlessly and securely.<br><br>For more information, see the [Live Share FAQ](/visualstudio/liveshare/faq).<br><br>
-* **[IntelliCode](https://www.visualstudio.com/services/intellicode/)**, a new capability that enhances software development by using AI to deliver better context-aware code completions, guide developers to code to the patterns and styles of their team, find difficult-to-catch code issues, and focus code reviews on areas that really matter. <br><br>For more information, see the [IntelliCode FAQ](../ide/not-in-toc/intellicode-faq.md).
+* **[Live Share](https://visualstudio.microsoft.com/services/live-share/)**, a new tool that allows you to share a codebase and its context with a teammate and get instant bi-directional collaboration directly from within Visual Studio. With Live Share, a teammate can read, navigate, edit, and debug a project that you've shared with them, and do so seamlessly and securely.<br><br>For more information, see the [Live Share FAQ](/visualstudio/liveshare/faq).<br><br>
+* **[IntelliCode](https://visualstudio.microsoft.com/services/intellicode/)**, a new capability that enhances software development by using AI to deliver better context-aware code completions, guide developers to code to the patterns and styles of their team, find difficult-to-catch code issues, and focus code reviews on areas that really matter. <br><br>For more information, see the [IntelliCode FAQ](../ide/not-in-toc/intellicode-faq.md).
 
 Want to know more about what else is in the works for Visual Studio 2017? See the [Visual Studio Roadmap](/visualstudio/productinfo/vs2018-roadmap) page.
 
@@ -353,5 +353,5 @@ If you want to make a suggestion about how we can improve Visual Studio, or lear
 * [Visual Studio 2017 release notes](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default)
 * [What's new in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
 * [What's new in C#](/dotnet/csharp/whats-new)
-* [What's new for Team Foundation Server](https://www.visualstudio.com/docs/whats-new)
-* [What's new in Visual Studio for Mac](https://www.visualstudio.com/vs/visual-studio-mac/)
+* [What's new for Team Foundation Server](/tfs/server/whats-new?view=vsts)
+* [What's new in Visual Studio for Mac](https://visualstudio.microsoft.com/vs/visual-studio-mac/)

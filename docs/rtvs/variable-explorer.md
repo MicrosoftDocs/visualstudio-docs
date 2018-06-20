@@ -30,7 +30,7 @@ If you have a more complex R data frame defined in the session, you can navigate
 
 ![Expanded view of the Variable Explorer](media/variable-explorer-expanded-results.png)
 
-To delete variables, **right-click** and select **Delete**, or select the variable and press the **Delete** key.
+To delete variables, right-click and select **Delete**, or select the variable and press the **Delete** key.
 
 You can also search for an observation in a data frame using incremental search. First, expand the nodes in the data frame that you want to search, then enter search terms in the search box.
 

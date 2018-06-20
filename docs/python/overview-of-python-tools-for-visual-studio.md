@@ -133,7 +133,7 @@ For more information:
 
 Visual Studio provides integrated support for publishing web apps and cloud services to Azure. Visual Studio includes essential `web.config` item templates for both dynamic and static content. The Python workload also includes the Azure SDK for Python, which simplifies consuming Azure services from Windows, Mac OS X, and Linux apps.
 
-![Publish Python application to to Azure in Visual Studio](media/azure-publish-dialog.png)
+![Publish Python application to Azure in Visual Studio](media/azure-publish-dialog.png)
 
 For more information:
 
@@ -164,7 +164,7 @@ A. Python is generally an interpreted language, with which code is run on demand
 
 Python features can be installed in the following editions of Visual Studio as described in the [installation guide](installing-python-support-in-visual-studio.md):
 
-- [Visual Studio 2017 (all editions)](https://www.visualstudio.com/vs/)
+- [Visual Studio 2017 (all editions)](https://visualstudio.microsoft.com/vs/)
 - Visual Studio 2015 (all editions)
 - Visual Studio 2013 Community Edition
 - Visual Studio 2013 Express for Web, Update 2 or higher
@@ -173,7 +173,7 @@ Python features can be installed in the following editions of Visual Studio as d
 - Visual Studio 2012 (Pro edition or higher)
 - Visual Studio 2010 SP1 (Pro edition or higher; .NET 4.5 required)
 
-Visual Studio 2015 and earlier are available at [visualstudio.com/vs/older-downloads/](https://www.visualstudio.com/vs/older-downloads/).
+Visual Studio 2015 and earlier are available at [visualstudio.com/vs/older-downloads/](https://visualstudio.microsoft.com/vs/older-downloads/).
 
 > [!Important]
 > Features are fully supported and maintained for only the latest version of Visual Studio. Features are available in older versions but are not actively maintained.

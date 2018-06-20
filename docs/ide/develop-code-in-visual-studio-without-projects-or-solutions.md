@@ -83,7 +83,7 @@ If your codebase uses custom build tools, then you must tell Visual Studio how t
 
 If your codebase contains Python or JavaScript code, you don't have to configure any *.json* files, but you do have to install the corresponding workload. You must also configure the startup script:
 
-1. Install the [Node.js development](https://www.visualstudio.com/vs/node-js/) or [Python development](https://www.visualstudio.com/vs/python/) workload by choosing **Tools** > **Get Tools and Features...**, or by closing Visual Studio and running the Visual Studio Installer.
+1. Install the [Node.js development](https://visualstudio.microsoft.com/vs/node-js/) or [Python development](https://visualstudio.microsoft.com/vs/python/) workload by choosing **Tools** > **Get Tools and Features...**, or by closing Visual Studio and running the Visual Studio Installer.
 
    ![Node.js and Python development workloads](media/python_nodejs_workloads.png)
 

@@ -81,7 +81,7 @@ As an example, the following steps create a little code to explore the [Central 
     plot(density(pop), main = "Population Density", xlab = "X", ylab = "")
     ```
 
-1. To quickly see the results, select all the code (**Ctrl**+**A**), then press **Ctrl**+**Enter** or **right-click** and select **Execute In Interactive**. All the selected code is run in the interactive window as if you typed it directly, showing the result in a plot window:
+1. To quickly see the results, select all the code (**Ctrl**+**A**), then press **Ctrl**+**Enter** or right-click and select **Execute In Interactive**. All the selected code is run in the interactive window as if you typed it directly, showing the result in a plot window:
 
     ![Display of a plot in Visual Studio](media/getting-started-08-plot1.png)
 

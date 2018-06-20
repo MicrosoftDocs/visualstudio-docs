@@ -41,7 +41,7 @@ The Microsoft.SharePoint.Emulators package provides a set of libraries that help
 
  The `ScheduleAppointment` method of our code under test is probably one of the first methods written for the component:
 
-```
+```csharp
 // method under test
 public bool ScheduleAppointment(SPWeb web, string listName, string name,
     string phone, string email, string age, DateTime date, out string errorMsg)
@@ -544,4 +544,4 @@ namspace MySPAppTests
 
 - [Unit Test Your Code](../test/unit-test-your-code.md)
 - [Testing SharePoint 2010 Applications with Coded UI Tests](../test/testing-sharepoint-2010-applications-with-coded-ui-tests.md)
-- [Developing SharePoint Solutions](/office-dev/office-dev/developing-sharepoint-solutions)
+- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)

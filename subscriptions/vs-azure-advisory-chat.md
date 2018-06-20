@@ -1,5 +1,5 @@
 ---
-title: Azure Advisory Chat Benefit in Visual Studio Subscriptions | Microsoft Docs 
+title: Azure Advisory Chat Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
@@ -13,7 +13,7 @@ searchscope: VS Subscription
 
 # Azure Advisory Chat
 
-Get help starting with Azure in real time! Includes advisory for Azure PaaS services.  The Azure Advisory Chat benefit is available in Visual Studio Enterprise Standard and annual cloud subscriptions.  
+Get help starting with Azure in real time! Includes advisory for Azure PaaS services.  The Azure Advisory Chat benefit is available in Visual Studio Enterprise Standard and annual cloud subscriptions.
 
 ## Activation Steps
 
@@ -27,7 +27,7 @@ Using the Azure Advisory Chat is easy.
 
     ![Azure Advisory Chat Disclaimer](_img/vs-azure-advisory/vs-azure-advisory-disclaimer.png)
 
-4. That's all there is to it.  A chat window will open, and you'll see a status letting you know where you are in the queue.  Your chat will be answered by the next available expert. 
+4. That's all there is to it.  A chat window will open, and you'll see a status letting you know where you are in the queue.  Your chat will be answered by the next available expert.
 
     ![Azure Advisory Chat](_img/vs-azure-advisory/vs-azure-advisory-chat.png)
 
@@ -42,7 +42,7 @@ Using the Azure Advisory Chat is easy.
 | Visual Studio Dev Essentials                                          | N/A                                              |Not available                                              |  No          |
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Microsoft Valued Partner (MVP), Region Director (RD), Visual Studio Industry Partner (VSIP), BizSpark, Imagine, MCT*
 
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## Frequently asked questions
 
@@ -50,5 +50,5 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 -  A:  The Azure Advisory Chat is a real-time chat service to assist with questions about Azure. [Azure Advisor](/azure/advisor/advisor-overview) is a personalized cloud consultant that helps you follow best practices to optimize your Azure deployments. It analyzes your resource configuration and usage telemetry and then recommends solutions that can help you improve the cost effectiveness, performance, high availability, and security of your Azure resources.
 
 ## Support Resources
--  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://www.visualstudio.com/support/). 
+-  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+-  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

@@ -33,9 +33,9 @@ An MSBuild Toolset contains references to tasks, targets, and tools that you can
   
 |Registry Key|Key Name|String Key Value|  
 |------------------|--------------|----------------------|  
-|\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSBuild\ToolsVersions\2.0\|MSBuildToolsPath|.NET Framework 2.0 Install Path|  
-|\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\3.5\|MSBuildToolsPath|.NET Framework 3.5 Install Path|  
-|\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\4.0\|MSBuildToolsPath|.NET Framework 4 Install Path|  
+|\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\2.0\  |MSBuildToolsPath|.NET Framework 2.0 Install Path|  
+|\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\3.5\  |MSBuildToolsPath|.NET Framework 3.5 Install Path|  
+|\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ MSBuild\ToolsVersions\4.0\  |MSBuildToolsPath|.NET Framework 4 Install Path|  
   
 ### Sub-toolsets  
  If the registry key in the previous table has a subkey, MSBuild uses it to determine the path of a sub-toolset that overrides the path in the parent toolset. The following subkey is an example:  

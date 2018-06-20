@@ -238,7 +238,7 @@ pip3.5 install cupy
 
 > [!NOTE]
 >
-> On Windows, you need **2015** version of [Microsoft Visual Studio](https://www.visualstudio.com/)
+> On Windows, you need **2015** version of [Microsoft Visual Studio](https://visualstudio.microsoft.com/)
 or [Microsoft Visual C++ Build Tools](http://landinghub.visualstudio.com/visual-cpp-build-tools)
 to compile CuPy with CUDA 8.0.
 

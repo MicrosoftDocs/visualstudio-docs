@@ -121,7 +121,7 @@ Files are copied to the remote server as follows:
 > [!Note]
 > Because RTVS cannot reliably intercept all R function calls, calling functions such as `source()` or `runApp()` (for Shiny applications) within the interactive window does *not* copy files to the remote workspace.
 
-[Project properties](r-projects-in-visual-studio.md#project-properties) control whether RTVS copies files when a project is run, and exactly which files are copied. To open this page, select the **Project** > **(name) Properties** menu command, or **right-click** the project in Solution Explorer and select **Properties**.
+[Project properties](r-projects-in-visual-studio.md#project-properties) control whether RTVS copies files when a project is run, and exactly which files are copied. To open this page, select the **Project** > **(name) Properties** menu command, or right-click the project in Solution Explorer and select **Properties**.
 
 ![Project properties run tab with file transfer settings](media/workspaces-remote-file-transfer-filter-settings.png)
 
