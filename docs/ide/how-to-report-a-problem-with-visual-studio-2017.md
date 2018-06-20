@@ -16,11 +16,11 @@ ms.workload:
 ---
 # How to report a problem with Visual Studio 2017
 
-If you experience a problem with Visual Studio, we want to know about it. This article details how to report the problem to [Developer Community](https://developercommunity.visualstudio.com/) so that we can diagnose and fix it.
+If you experience a problem with Visual Studio, we want to know about it. Here's how to report the problem to [Developer Community](https://developercommunity.visualstudio.com/) so that we can diagnose and fix it.
 
-## Report a problem through Visual Studio
+## Report a problem by using Visual Studio
 
-To report a problem for Visual Studio, you can't do it directly through the [Developer Community](https://developercommunity.visualstudio.com/) website. You must initiate the report from Visual Studio or Visual Studio Installer, so that diagnostic information is automatically included in the report.
+To report a problem for Visual Studio, you must initiate the report from Visual Studio or the Visual Studio Installer. You can't do it directly through the [Developer Community](https://developercommunity.visualstudio.com/) website. Reporting through Visual Studio allows for diagnostic information to be automatically included in the report.
 
 ![Report an issue pop-up on Visual Studio Developer Community](media/report-an-issue.png)
 
@@ -33,7 +33,7 @@ To report a problem for Visual Studio, you can't do it directly through the [Dev
 
    ![Sign in to report a problem](../ide/media/sign-in-new-ux.png)
 
-   When you sign in, you can report a problem that you're experiencing, and also vote or comment on it. You can also vote or comment on any other problem that you see posted.
+   When you sign in, you can report a problem that you're experiencing, or vote or comment on it. You can also vote or comment on any other problem that you see posted.
 
 1. Visual Studio provides an interface to search for your problem and see if others have reported it, too. If someone has reported it, "up-vote" it to let us know.
 
