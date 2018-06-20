@@ -43,7 +43,7 @@ There are three supported .NET coding convention categories:
 
 Rules for language conventions have the following format:
 
-`options_name = false|true : none|suggestion|warning|error`
+`options_name = false|true : none|silent|suggestion|warning|error`
 
 For each language convention rule, you must specify either **true** (prefer this style) or **false** (do not prefer this style), and a **severity**. The severity specifies the level of enforcement for that style.
 
@@ -51,10 +51,11 @@ The following table lists the possible severity values and their effects:
 
 Severity | Effect
 :------- | ------
-none or silent | Do not show anything to the user when this rule is violated. Code generation features will generate code in this style, however.
-suggestion | When this style rule is violated, show it to the user as a suggestion. Suggestions appear as three grey dots under the first two characters.
-warning | When this style rule is violated, show a compiler warning.
-error | When this style rule is violated, show a compiler error.
+`none` | Do not show anything to the user when this rule is violated. Code generation features will generate code in this style, however. Rules with `none` severity will never participate in **Format Document** cleanup.
+`silent` | Do not show anything to the user when this rule is violated. Code generation features will generate code in this style, however. Rules with `silent` severity will participate in cleanup if enabled in the **Format Document** settings.
+`suggestion` | When this style rule is violated, show it to the user as a suggestion. Suggestions appear as three gray dots under the first two characters.
+`warning` | When this style rule is violated, show a compiler warning.
+`error` | When this style rule is violated, show a compiler error.
 
 The following list shows the allowable language convention rules:
 
