@@ -23,9 +23,9 @@ First, it might be helpful to answer some basic questions such as "What is debug
 
 It helps to clarify the problem that you ran into before you try to fix it. We expect that you already ran into a problem in your code, otherwise you wouldn't be here trying to figure out how to debug it! So, before you start debugging, ask yourself a few questions.
 
-1. What did you expect your code to do?
+* What did you expect your code to do?
 
-1. What happened instead?
+* What happened instead?
 
     If you ran into an error (exception) while running your app, that can be a good thing! The [Exception Helper](../debugger/debugger-feature-tour.md#exception) in Visual Studio puts your app into debugging mode, takes you to the exact place in your code where the exception occurred, and gives you an error message to help you investigate possible fixes. (But before you investigate, finish reading this article.)
 
