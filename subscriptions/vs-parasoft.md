@@ -5,7 +5,7 @@ ms.author: jaunger
 manager: evelynp
 ms.date: 10/03/2017
 ms.topic: Get-Started-Article
-description:  Learn how to activate the Parasoft Virtualize/SOA Test Professional subscription included in your Visual Studio subscription. 
+description:  Learn how to activate the Parasoft Virtualize/SOA Test Professional subscription included in your Visual Studio subscription.
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
@@ -13,7 +13,7 @@ searchscope: VS Subscription
 
 # Parasoft Virtualize/SOAtest Professional Desktop in Visual Studio subscriptions
 
-Test earlier and more often.  Simulate and test the behavior of unavailable evolving applications and systems.  Your benefit includes a free six-month subscription.  At the end of your six-month subscription, you’ll qualify for a 25% discount on the price of an annual subscription.  
+Test earlier and more often.  Simulate and test the behavior of unavailable evolving applications and systems.  Your benefit includes a free six-month subscription.  At the end of your six-month subscription, you’ll qualify for a 25% discount on the price of an annual subscription.
 
 
 ## Activation steps
@@ -24,20 +24,20 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
 
     ![Parasoft Benefit Tile](_img\vs-parasoft\vs-parasoft-tile.png)
 
-2.	You’ll be redirected to the Parasoft website, where you’ll create an account.  Just provide your contact information and click **Submit**. 
+2.	You’ll be redirected to the Parasoft website, where you’ll create an account.  Just provide your contact information and click **Submit**.
 
     ![Parasoft Benefit Create Account](_img\vs-parasoft\vs-parasoft-account-cropped.png)
 
 
 3.	Once you’ve created your account, you’ll see a notification that you've been sent an email with download instructions.  (Remember to check your spam or junk mail folders if you don’t see the email in your inbox.)
 
-4.  Open the email and copy the **Activation Code** to your clipboard. 
+4.  Open the email and copy the **Activation Code** to your clipboard.
 
-5.  Click on the link that corresponds to your operating system.  
+5.  Click on the link that corresponds to your operating system.
 
     ![Parasoft Benefit Welcome Email](_img\vs-parasoft\vs-parasoft-email.png)
 
-6.	Depending on which browser you use, you may see different dialogs providing you with the opportunity to run the installer.  In Internet Explorer, for example, you’ll see a list of recent downloads with parasoft_soavirt_9.10.2_win32_x86_64.exe listed at the top. Click **Run** to start the installer. 
+6.	Depending on which browser you use, you may see different dialogs providing you with the opportunity to run the installer.  In Internet Explorer, for example, you’ll see a list of recent downloads with parasoft_soavirt_9.10.2_win32_x86_64.exe listed at the top. Click **Run** to start the installer.
 
 7.	When the User Account Control dialog opens, click **Yes**.
 
@@ -47,21 +47,21 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
 
     ![Parasoft Benefit Installation Start](_img\vs-parasoft\vs-parasoft-start-install.png)
 
-10.	Click **I accept the agreement**, then click **Next**. 
+10.	Click **I accept the agreement**, then click **Next**.
 
-11.	Choose where you would like to install the files, and click **Next**. 
+11.	Choose where you would like to install the files, and click **Next**.
 
-12.	Next, you can choose which components to install, or install them all (default).  Make your selections and click **Next**.  
+12.	Next, you can choose which components to install, or install them all (default).  Make your selections and click **Next**.
 
-13.	Specify where you would like the shortcut for the application installed, and click **Next**. 
+13.	Specify where you would like the shortcut for the application installed, and click **Next**.
 
-14.	The SOAtest Web Root Certificate Authority certificate is required for certain functional tests on HTTPS sites.  Choose whether to install the Root CA certificate and click **Next**.  
+14.	The SOAtest Web Root Certificate Authority certificate is required for certain functional tests on HTTPS sites.  Choose whether to install the Root CA certificate and click **Next**.
 
     ![Parasoft Benefit  Root CA Certificate](_img\vs-parasoft\vs-parasoft-install-root-ca.png)
 
-15.	Choose whether you want desktop and quick launch icons created during installation, and click **Next**. 
+15.	Choose whether you want desktop and quick launch icons created during installation, and click **Next**.
 
-16.	Confirm the options you've selected, and click **Install** to begin installing the software. 
+16.	Confirm the options you've selected, and click **Install** to begin installing the software.
 
     ![Parasoft Benefit Ready to Install](_img\vs-parasoft\vs-parasoft-ready-to-install.png)
 
@@ -83,7 +83,7 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
 
 ## Support resources
 -  Need help with Parasoft products?  Check out these resources:
-    - Technical Support:  https://www.parasoft.com/support/ 
-    - Parasoft Resource Center:  https://www.parasoft.com/resources/ 
--  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://www.visualstudio.com/support/). 
+    - Technical Support:  https://www.parasoft.com/support/
+    - Parasoft Resource Center:  https://www.parasoft.com/resources/
+-  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+-  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

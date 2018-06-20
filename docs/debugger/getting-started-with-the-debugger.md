@@ -5,13 +5,13 @@ ms.custom: "mvc"
 ms.date: "03/16/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugger"
 ms.assetid: 62734c0d-a75a-4576-8f73-0e97c19280e1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Tutorial: Learn to debug using Visual Studio
@@ -39,7 +39,7 @@ In this tutorial, you will:
 
 * You must have Visual Studio 2017 installed and the .**NET desktop development** workload.
 
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
     If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Choose the .**NET desktop development** workload, then choose **Modify**.
 
@@ -137,7 +137,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      ![Use the Run to Click feature](../debugger/media/dbg-tour-run-to-click-2.png "Run to Click")
 
-    >  [!NOTE] 
+    >  [!NOTE]
     > The **Run to Click** button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]. If you don't see the green arrow button, use F11 in this example instead to advance the debugger.
 
 6. Click the **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick").
@@ -208,7 +208,7 @@ Let's say that you are done examining the `Update` method in Data.cs, and you wa
 2. Now, press F5.
 
     You can see the images added to the app window. Because you are rerunning code in the `foreach` loop, some of the images have been added twice!
-    
+
     > [!WARNING]
     > Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer cannot revert your application to an earlier app state.
 
@@ -273,7 +273,7 @@ Let's say that you are done examining the `Update` method in Data.cs, and you wa
      ![Cause an exception to be thrown](../debugger/media/dbg-tour-cause-an-exception.png "Cause an Exception")
 
      The app throws an exception, and the debugger takes you to the line of code that threw the exception.
-     
+
      ![Exception Helper](../debugger/media/dbg-tour-exception-helper.png "Exception Helper")
 
      Here, the **Exception Helper** shows you a `System.ArgumentException` and an error message that says that the path is not a legal form. So, we know the error occurred on a method or function argument.
@@ -282,7 +282,7 @@ Let's say that you are done examining the `Update` method in Data.cs, and you wa
 
      The Exception Helper is a great feature that can help you debug errors. You can also do things like view error details and add a watch from the Exception Helper. Or, if needed, you can change conditions for throwing the particular exception.
 
-    >  [!NOTE] 
+    >  [!NOTE]
     > The Exception Helper replaces the Exception Assistant in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
 2. Expand the **Exception Settings** node to see more options on how to handle this exception type, but you don't need to change anything for this tour!
