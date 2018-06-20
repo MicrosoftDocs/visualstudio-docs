@@ -28,16 +28,16 @@ If you're concerned about data privacy, don't put anything you want to keep priv
 
 1. In the report you created, choose **Add comment** to create a private description of the problem.
 
-1. In the reply editor, use the control below the **Submit** and **Cancel** buttons to specify the audience for your reply. Choose **Viewable by moderators and the original poster** to limit visibility to Microsoft employees and yourself. Only the people you specify can see the replies and any images, links, or code you include in them.
+1. In the reply editor, use the control below the **Submit** and **Cancel** buttons to specify the audience for your reply. Choose **Viewable by moderators and the original poster** to limit visibility to Microsoft employees and yourself.
 
    ![Privacy control on Developer Community](media/developer-community-privacy-control.png)
 
-   Any replies under the comment have the same visibility as the original comment. This is true even if the privacy control on replies doesn't show the restricted visibility status correctly.
+   Only the people you specify can see the comment and any images, links, or code you include in it. Any replies under the comment have the same visibility as the original comment. This is true even if the privacy control on replies doesn't show the restricted visibility status correctly.
 
 1. Add the description and any other information, images, and file attachments needed for your repro. Choose the **Submit** button to send this information privately.
 
    > [!NOTE]
-   > There is a 2-GB limit on attached files, and a maximum of 10 files. For any larger uploads, please request an upload URL in your private comment.
+   > There is a 2-GB limit on attached files, and a maximum of 10 files. If you need to upload a larger file, you can request an upload URL in your private comment.
 
 To maintain your privacy and keep sensitive information out of public view, take care to keep all interactions with Microsoft to replies under a visibility-restricted comment. Replies to other comments may cause you to accidentally disclose sensitive information.
 
