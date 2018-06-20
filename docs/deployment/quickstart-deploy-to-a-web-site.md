@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "06/20/2018"
 ms.technology: vs-ide-deployment
 ms.topic: "quickstart"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "deployment, website"
 ms.assetid: fc82b1f1-d342-4b82-9a44-590479f0a895
 author: mikejo5000
 ms.author: mikejo
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Publish a web app to a web site using Visual Studio

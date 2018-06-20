@@ -4,13 +4,13 @@ ms.custom: ""
 ms.date: "06/20/2018"
 ms.technology: vs-ide-deployment
 ms.topic: "quickstart"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "deployment, local folder"
 ms.assetid: adb461c4-812a-4b8c-b2ab-96002379f6a9
 author: mikejo5000
 ms.author: mikejo
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Deploy an app to a local folder using Visual Studio
@@ -37,7 +37,7 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 
 1. To configure deployment settings, click **Settings** in the profile summary.
 
-    ![Profile settings](../deployment/media/quickstart-profile-settings.png "Profile settings") 
+    ![Profile settings](../deployment/media/quickstart-profile-settings.png "Profile settings")
 
 1. Configure options such as whether to deploy a Debug or Release configuration, and then click **Save**.
 

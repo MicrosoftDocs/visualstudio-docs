@@ -12,10 +12,10 @@ searchscope: VS Subscription
 ---
 # Buy Visual Studio Professional and Visual Studio Enterprise cloud subscriptions
 
-You can buy [Visual Studio Professional and Visual Studio Enterprise subscriptions](https://www.visualstudio.com/subscriptions/)
+You can buy [Visual Studio Professional and Visual Studio Enterprise subscriptions](https://visualstudio.microsoft.com/subscriptions/)
 from the [Visual Studio Marketplace](https://marketplace.visualstudio.com). These are what we call cloud subscriptions.
 
-[Compare cloud subscription benefits and pricing](https://www.visualstudio.com/vs/pricing/)
+[Compare cloud subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/)
 
 ## Before you start
 
@@ -75,6 +75,6 @@ They won't renew at the start of the next billing period (the first of the next 
 ## Related resources
 
 * [Visual Studio Subscriptions Administration portal](https://manage.visualstudio.com/)
-* [Visual Studio subscription support](https://www.visualstudio.com/vs/support/)
+* [Visual Studio subscription support](https://visualstudio.microsoft.com/vs/support/)
 * [Visual Studio cloud subscription billing FAQ](vscloud-billing-faq.md)
 * [Visual Studio cloud subscription purchasing for CSPs](vscloud-csp.md)

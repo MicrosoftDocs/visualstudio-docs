@@ -97,7 +97,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
 1.  Open your app in Visual Studio.  
   
-2.  Run the JavaScript Memory Analyzer. For more info, see [Run the JavaScript memory analyzer](#Run).  
+2.  Run the JavaScript Memory Analyzer. For more info, see [Run the JavaScript memory analyzer](#run-the-JavaScript-memory-analyzer).  
   
 3.  Run your app through the scenario that you want to test. For example, the scenario might involve a large DOM mutation, when a particular page loads, or when the app starts.  
   
@@ -115,7 +115,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
      ![Baseline snapshot](../profiling/media/js_mem_leak_workflow_baseline.png "JS_Mem_Leak_Workflow_Baseline")  
   
     > [!TIP]
-    >  For more precise control over the timing of snapshots, you can use the [Associate source code with memory usage data](#JSConsoleCommands) command in your code.  
+    >  For more precise control over the timing of snapshots, you can use the [Associate source code with memory usage data](#associate-source-code-with-memory-usage-data) command in your code.  
   
 7.  Switch to your app and repeat the scenario that you are testing (repeat once only).  
   
@@ -156,7 +156,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
 13. To see where objects in the diff views are rooted to the global object, which prevents them from being garbage-collected, open the shortcut menu for an object, and then choose **Show in roots view**. A large number of objects might be retained in memory because they are referenced by a single object (or a few objects) that are rooted to the global object.  
   
-14. If there are too many objects in the view of objects left over, try to further isolate the period in which the memory leak is occurring, and then retake the three snapshots. To further isolate the memory leak, use [Associate source code with memory usage data](#JSConsoleCommands), [Associate source code with memory usage data](#JSConsoleCommands), and other memory usage data available in the memory analyzer.  
+14. If there are too many objects in the view of objects left over, try to further isolate the period in which the memory leak is occurring, and then retake the three snapshots. To further isolate the memory leak, use [Associate source code with memory usage data](#associate-source-code-with-memory-usage-data), [Associate source code with memory usage data](#associate-source-code-with-memory-usage-data), and other memory usage data available in the memory analyzer.  
   
 ## View live memory usage summary  
  The live memory usage summary view provides a memory usage graph for the running app and a collection of all the snapshot summary tiles. In this view, you can perform basic tasks like taking snapshots, analyzing summary info, and navigating to other views. When you stop collecting data, the memory graph goes away and you see only the [View a snapshot summary](#view-a-snapshot-summary) view.  
@@ -165,7 +165,7 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
   
  ![JavaScript Memory Analyzer memory graph](../profiling/media/js_mem_memory_graph.png "JS_Mem_Memory_Graph")  
   
- If you've added user marks to your app code (see [Associate source code with memory usage data](#JSConsoleCommands)), an inverted triangle appears in the memory usage graph to indicate when that section of code is reached.  
+ If you've added user marks to your app code (see [Associate source code with memory usage data](#associate-source-code-with-memory-usage-data)), an inverted triangle appears in the memory usage graph to indicate when that section of code is reached.  
   
  Some of the memory shown in the memory graph is allocated by the JavaScript runtime. You can't control this memory usage in your app. The memory usage shown in the graph increases when you take your first snapshot, and then increases minimally for each additional snapshot.  
   
@@ -301,13 +301,13 @@ The JavaScript memory analyzer is available in Visual Studio to help you underst
 ## Associate source code with memory usage data  
  To help isolate the section of code that has a memory issue, use the following methods:  
   
--   Look for class names and IDs for DOM elements in the details and differential views.  
+- Look for class names and IDs for DOM elements in the details and differential views.  
   
--   Look for string values in the details and differential views that might be associated with your source code.  
+- Look for string values in the details and differential views that might be associated with your source code.  
   
--   Use the [Find an object in the object tree](#find-an-object-in-the-object-tree) command to walk up the object tree. This might help to identify the associated source code.  
+- Use the [Find an object in the object tree](#find-an-object-in-the-object-tree) command to walk up the object tree. This might help to identify the associated source code.  
   
--   Add memory analyzer commands to your source code.  
+- Add memory analyzer commands to your source code.  
   
  You can use the following commands in your source code:  
   
@@ -361,7 +361,7 @@ if (performance && performance.mark) {
   
 -   Consider temporarily modifying code to isolate problems. For example, you might want to:  
   
-    -   Use the commands for the memory analyzer, `console.takeSnapshot` and `performance.mark`. (See [Associate source code with memory usage data](#JSConsoleCommands).)  
+    -   Use the commands for the memory analyzer, `console.takeSnapshot` and `performance.mark`. (See [Associate source code with memory usage data](#associate-source-code-with-memory-usage-data).)  
   
          You can use these commands to help isolate issues that you can't isolate by manually taking a heap snapshot.  
   

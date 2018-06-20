@@ -74,7 +74,7 @@ The history gives you a list of thumbnails for the plots that have been displaye
 
 ![Plot history window](media/plotting-plot-history-window.png)
 
-To open a plot in its associated window, double-click that plot, select it, and then select the **Show Plot** toolbar button or **right-click** and select **Show Plot**. You can also select an individual plot and copy, cut, or delete from the right-click context or **Edit** menus.
+To open a plot in its associated window, double-click that plot, select it, and then select the **Show Plot** toolbar button or right-click and select **Show Plot**. You can also select an individual plot and copy, cut, or delete from the right-click context or **Edit** menus.
 
 The lifetime of your plot history across all windows is bound to the lifetime of your interactive R session. If you reset your R session, or exit and restart Visual Studio, your plot history is reset.
 

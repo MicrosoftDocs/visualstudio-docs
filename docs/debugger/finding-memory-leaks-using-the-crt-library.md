@@ -180,7 +180,7 @@ This tells you that the leaked allocation was on line 20 of debug_new.cpp.
   
 2.  When the application breaks at the breakpoint, the **Watch** window.  
   
-3.  In the **Watch** window, type `_crtBreakAlloc` in in the **Name** column.  
+3.  In the **Watch** window, type `_crtBreakAlloc` in the **Name** column.  
   
      If you are using the multithreaded DLL version of the CRT library (the /MD option), include the context operator: `{,,ucrtbased.dll}_crtBreakAlloc`  
   

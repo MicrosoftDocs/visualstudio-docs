@@ -32,7 +32,7 @@ In addition to the installed frameworks, you can write your own test adapter for
 
 - **Boost.Test** is included as a default component of the **Desktop development with C++** workload. It is integrated with **Test Explorer** but currently does not have project template, therefore it must be manually configured. For more information, see [How to: use Boost.Test in Visual Studio](how-to-use-boost-test-for-cpp.md).
 
-- **CTest** support is included with the [CMake Tools for Visual Studio](/cpp/ide/cmake-tools-for-cpp) component which is part of the **Desktop development with C++** workload. However, CTest is not yet fully integrated with **Test Explorer**. For more information, see [How to: use CTest in Visual Studio](how-to-use-ctest-for-cpp.md).
+- **CTest** support is included with the [CMake Tools for Visual Studio](/cpp/ide/cmake-tools-for-visual-cpp) component which is part of the **Desktop development with C++** workload. However, CTest is not yet fully integrated with **Test Explorer**. For more information, see [How to: use CTest in Visual Studio](how-to-use-ctest-for-cpp.md).
 
 **Visual Studio 2015 and earlier**
 
@@ -71,7 +71,7 @@ The .cpp file in your test project has a stub class and method defined for you a
 
 TEST_CLASS and TEST_METHOD are part of the [Microsoft Native Test Framework](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md). **Test Explorer** discovers test methods in other supported frameworks in a similar way.
 
-A TEST_METHOD returns void. To produce a test result, use the static methods in the `Assert` class to test actual results against what is expected. In the following example, assume `MyClass` has a constructor that that takes a `std::string`. We can test that the constructor initializes the class as expected like so:
+A TEST_METHOD returns void. To produce a test result, use the static methods in the `Assert` class to test actual results against what is expected. In the following example, assume `MyClass` has a constructor that takes a `std::string`. We can test that the constructor initializes the class as expected like so:
 
 ```cpp
         TEST_METHOD(TestClassInit)

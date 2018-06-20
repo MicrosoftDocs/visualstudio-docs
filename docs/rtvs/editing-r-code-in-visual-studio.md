@@ -58,7 +58,7 @@ By default, Visual Studio inserts spaces when you press the **Tab** key. You can
 
 Code navigation gives you quick access to the source code of your R program and its libraries. These features keep you in the flow of your work rather than having to manually search your code.
 
-**Go To Definition** quickly jumps to a function definition or pops up an inline mini-editor to read the source code of a library function. Just **right-click** the function of interest and select **Go To Definition**, or place the cursor in the function and press **F12**.
+**Go To Definition** quickly jumps to a function definition or pops up an inline mini-editor to read the source code of a library function. Just right-click the function of interest and select **Go To Definition**, or place the cursor in the function and press **F12**.
 
 This command opens a new editor window containing the source code for the function. The cursor is conveniently positioned at the start of the function definition.
 
@@ -70,11 +70,11 @@ This command opens a new editor window containing the source code for the functi
 
 Many developers like to write some code in the editor and then send that code to the [interactive window](interactive-repl-for-r-in-visual-studio.md) for immediate testing (also known as a Read-Evaluate-Print-Loop or REPL). Pressing **Ctrl**+**Enter** in the R editor sends the current line of code to the interactive window, then places the cursor on the next line. With **Ctrl**+**Enter**, then, you can effectively step through your code from the editor.
 
-You can also select code and press **Ctrl**+**Enter** to apply that entire selection. Alternately, **right-click** the selection and select **Execute in Interactive**.
+You can also select code and press **Ctrl**+**Enter** to apply that entire selection. Alternately, right-click the selection and select **Execute in Interactive**.
 
 ## Format code
 
-Visual Studio's automatic formatting keeps the code you write, as well as code you paste into the editor, formatted as set by your preferences. You can also make a selection, **right-click**, and select **Format Selection** (**Ctrl**+**K**,**F**) to apply those preferences. For example, if you had a function definition all on a single line:
+Visual Studio's automatic formatting keeps the code you write, as well as code you paste into the editor, formatted as set by your preferences. You can also make a selection, right-click, and select **Format Selection** (**Ctrl**+**K**,**F**) to apply those preferences. For example, if you had a function definition all on a single line:
 
 ```R
 f<-function  (a){  return(a + 1) }
