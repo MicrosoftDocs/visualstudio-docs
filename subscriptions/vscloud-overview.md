@@ -52,7 +52,7 @@ to start downloading software and using other subscriber benefits.
 
 	<img alt="View subscriptions" src="_img/buy-vs-subscriptions/assign-subscriptions.png" style="border: 1px solid #CCCCCC" />
 
-## <a name="manage-subscriptions" /a>Cancel renewals of cloud subscriptions you've purchased
+## <a name="manage-subscriptions"></a>Cancel renewals of cloud subscriptions you've purchased
 
 *   To change the number of purchased subscriptions:
 
