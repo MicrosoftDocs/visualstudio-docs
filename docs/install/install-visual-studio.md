@@ -24,7 +24,7 @@ ms.workload:
 
 Welcome to a new way to install Visual Studio! In our newest version, we've made it easier for you to select and install just the features you need. We've also reduced the minimum footprint of Visual Studio so that it installs more quickly and with less system impact than ever before.
 
-Want to know more about what else is new in this version? See our [release notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes).
+Want to know more about what else is new in this version? See our [release notes](/visualstudio/releasenotes/vs2017-relnotes).
 
 Ready to install? We'll walk you through it, step-by-step.
 
