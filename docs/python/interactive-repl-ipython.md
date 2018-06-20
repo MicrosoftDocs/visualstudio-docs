@@ -1,7 +1,7 @@
 ---
 title: IPython REPL (interactive window)
 description: Using the Visual Studio interactive window in IPython mode for a user-friendly interactive development environment with Interactive Parallel Computing features.
-ms.date: 07/13/2017
+ms.date: 06/19/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -22,9 +22,9 @@ For this walkthrough you should have the [Anaconda](https://www.continuum.io) en
 > [!Note]
 > IronPython does not support IPython, despite the fact that you can select it on the Interactive Options form. FOr more information see the [feature request](https://github.com/Microsoft/PTVS/issues/84).
 
-1. Open Visual Studio, switch to the Python Environments window (**View > Other Windows > Python Environments**), and select the Python environment that appeared when you started IPython.
+1. Open Visual Studio, switch to the Python Environments window (**View > Other Windows > Python Environments**), and select an Anaconda environment.
 
-1. Look at the **Packages** (or **pip**) tab and ensure that `IPython` and `matplotlib` are listed. If not, install them here.
+1. Examine the **Packages (Conda)** tab (which may appear as **pip** or **Packages**) for that environment to make sure that `IPython` and `matplotlib` are listed. If not, install them here. (See [Python Environments Windows - Packages tab](python-environments-window-tab-reference.md).)
 
 1. Select the **Overview** tab and select **Use IPython interactive mode.** (In Visual Studio 2015, select **Configure interactive options** to open the **Options** dialog, then set **Interactive Mode** to IPython, and select **OK**).
 
@@ -44,7 +44,7 @@ For this walkthrough you should have the [Anaconda](https://www.continuum.io) en
 
     ![Inline graph in the interactive window](media/ipython-repl-04.png)
 
-1. Instead of typing in the REPL, you can instead write code in the editor, select it, right-click, and select the **Send to interactive** command (or press Ctrl-Enter). Try pasting the code below into a new file in the editor, selecting it with Ctrl-A, then sending to the interactive window. (Note that Visual Studio sends the code as one unit to avoid giving you intermediate or partial graphs. Also note that if you don't have a Python project open with a different environment selected, Visual Studio opens an interactive window for whatever environment is selected as your default in the **Python Environments** window.)
+1. Instead of typing in the REPL, you can instead write code in the editor, select it, right-click, and select the **Send to interactive** command (or press Ctrl+Enter). Try pasting the code below into a new file in the editor, selecting it with Ctrl-A, then sending to the interactive window. (Visual Studio sends the code as one unit to avoid giving you intermediate or partial graphs. And if you don't have a Python project open with a different environment selected, Visual Studio opens an interactive window for whatever environment is selected as your default in the **Python Environments** window.)
 
     ```python
     from mpl_toolkits.mplot3d import Axes3D
