@@ -10,8 +10,8 @@ ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
-
 # Visual Studio cloud subscriptions billing FAQ
+
 Make sure to [compare cloud subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/) to understand the benefits of each Visual Studio subscription,
 with comparisons between cloud and standard Visual Studio subscriptions, details on subscriber benefits, and more.
 
