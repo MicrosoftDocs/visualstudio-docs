@@ -249,6 +249,6 @@ You can also check out the free Visual Studio courses available on [Microsoft Vi
 ## See also
 
 * [More Visual Studio features](../ide/advanced-feature-overview.md)
-* [www.visualstudio.com](https://www.visualstudio.com/vs/)
+* [visualstudio.microsoft.com](https://www.visualstudio.com/vs/)
 * [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
 * [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
