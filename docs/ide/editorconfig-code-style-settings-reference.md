@@ -545,8 +545,8 @@ The following table shows the rule names, rule IDs, applicable programming langu
 | dotnet_style_prefer_inferred_anonymous_ type_member_names | IDE0037 | C# and Visual Basic | true:suggestion | 15.6 |
 | dotnet_style_prefer_auto_properties | IDE0032 | C# and Visual Basic | true:none | 15.7 |
 | dotnet_style_prefer_is_null_check_over_reference_equality_method | IDE0041 | C# and Visual Basic | true:suggestion | 15.7 |
-| dotnet_style_prefer_conditional_expression_over_assignment | IDE0045 | C# and Visual Basic | true:suggestion | 15.8 |
-| dotnet_style_prefer_conditional_expression_over_return | IDE0046 | C# and Visual Basic | true:suggestion | 15.8 |
+| dotnet_style_prefer_conditional_expression_over_assignment | IDE0045 | C# and Visual Basic | true:none | 15.8 |
+| dotnet_style_prefer_conditional_expression_over_return | IDE0046 | C# and Visual Basic | true:none | 15.8 |
 
 **dotnet\_style\_object_initializer**
 
@@ -717,7 +717,7 @@ End Property
 **dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method**
 
 - When this rule is set to **true**, prefer using a null check with pattern-matching over object.ReferenceEquals.
-- When this rule is set to **false**, object.ReferenceEquals over a null check with pattern-matching.
+- When this rule is set to **false**, prefer object.ReferenceEquals over a null check with pattern-matching.
 
 Code examples:
 
@@ -1408,7 +1408,6 @@ The following list shows the formatting convention rules available in Visual Stu
         - csharp_space_before_colon_in_inheritance_clause
         - csharp_space_after_colon_in_inheritance_clause
         - csharp_space_around_binary_operators
-        - csharp_space_around_declaration_statements
         - csharp_space_between_method_declaration_empty_parameter_list_parentheses
         - csharp_space_between_method_call_name_and_opening_parenthesis
         - csharp_space_between_method_call_empty_parameter_list_parentheses
@@ -1821,7 +1820,6 @@ The following table shows the rule names, applicable languages, default values, 
 | csharp_space_before_colon_in_inheritance_clause |  C# | true | 15.7  |
 | csharp_space_after_colon_in_inheritance_clause |  C# | true | 15.7  |
 | csharp_space_around_binary_operators |  C# | before_and_after | 15.7  |
-| csharp_space_around_declaration_statements |  C# | false | 15.7  |
 | csharp_space_between_method_declaration_empty_parameter_list_parentheses |  C# | false | 15.7  |
 | csharp_space_between_method_call_name_and_opening_parenthesis |  C# | false | 15.7  |
 | csharp_space_between_method_call_empty_parameter_list_parentheses |  C# | false | 15.7  |
@@ -1998,35 +1996,6 @@ return x*(x-y);
 return x  *  (x-y);
 ```
 
-**csharp_space_around_declaration_statements**
-
-- When this rule is set to **true**, ignore spaces around variable declarations.
-- When this rule is set to **false**, require a space a single space around variable declarations.
-
-Code examples:
-
-```csharp
-// csharp_space_around_declaration_statements = true
-int     index = 0;
-string  text = "Start";
-
-void Method()
-{
-    int     i = 0;
-    string  s = "Hello";
-}
-
-// csharp_space_around_declaration_statements = false
-int index = 0;
-string text = "Start";
-
-void Method()
-{
-    int i = 0;
-    string s = "Hello";
-}
-```
-
 **csharp_space_between_method_declaration_empty_parameter_list_parentheses**
 
 - When this rule is set to **true**, insert space within empty parameter list parentheses for a method declaration.
@@ -2133,7 +2102,6 @@ csharp_space_between_parentheses = control_flow_statements, type_casts
 csharp_space_before_colon_in_inheritance_clause = true
 csharp_space_after_colon_in_inheritance_clause = true
 csharp_space_around_binary_operators = before_and_after
-csharp_space_around_declaration_statements = false
 csharp_space_between_method_declaration_empty_parameter_list_parentheses = false
 csharp_space_between_method_call_name_and_opening_parenthesis = false
 csharp_space_between_method_call_empty_parameter_list_parentheses = false
@@ -2193,7 +2161,8 @@ csharp_preserve_single_line_statements = true
 csharp_preserve_single_line_blocks = true
 ```
 
-To help you get started, here is an example *.editorconfig* file:
+## Example EditorConfig file
+To help you get started, here is an example *.editorconfig* file with the default options:
 
 ```EditorConfig
 ###############################
@@ -2219,14 +2188,14 @@ charset = utf-8-bom
 dotnet_sort_system_directives_first = true
 
 # this. preferences
-dotnet_style_qualification_for_field = false:suggestion
-dotnet_style_qualification_for_property = false:suggestion
-dotnet_style_qualification_for_method = false:suggestion
-dotnet_style_qualification_for_event = false:suggestion
+dotnet_style_qualification_for_field = false:none
+dotnet_style_qualification_for_property = false:none
+dotnet_style_qualification_for_method = false:none
+dotnet_style_qualification_for_event = false:none
 
 # Language keywords vs BCL types preferences
-dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
-dotnet_style_predefined_type_for_member_access = true:suggestion
+dotnet_style_predefined_type_for_locals_parameters_members = true:none
+dotnet_style_predefined_type_for_member_access = true:none
 
 # Parentheses preferences
 dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity:none
@@ -2235,7 +2204,7 @@ dotnet_style_parentheses_in_other_binary_operators = always_for_clarity:none
 dotnet_style_parentheses_in_other_operators = never_if_unnecessary:none
 
 # Modifier preferences
-dotnet_style_require_accessibility_modifiers = always:suggestion
+dotnet_style_require_accessibility_modifiers = for_non_interface_members:none
 dotnet_style_readonly_field = true:suggestion
 
 # Expression-level preferences
@@ -2248,8 +2217,8 @@ dotnet_style_prefer_is_null_check_over_reference_equality_method = true:none
 dotnet_prefer_inferred_tuple_names = true:suggestion
 dotnet_prefer_inferred_anonymous_type_member_names = true:suggestion
 dotnet_style_prefer_auto_properties = true:none
-dotnet_style_prefer_conditional_expression_over_assignment = true:suggestion
-dotnet_style_prefer_conditional_expression_over_return = true:suggestion
+dotnet_style_prefer_conditional_expression_over_assignment = true:none
+dotnet_style_prefer_conditional_expression_over_return = true:none
 
 ###############################
 # Naming Conventions          #
@@ -2273,7 +2242,7 @@ dotnet_naming_symbols.constant_fields.required_modifiers          = const
 # var preferences
 csharp_style_var_for_built_in_types = true:none
 csharp_style_var_when_type_is_apparent = true:none
-csharp_style_var_elsewhere = false:none
+csharp_style_var_elsewhere = true:none
 
 # Expression-bodied members
 csharp_style_expression_bodied_methods = false:none
@@ -2295,7 +2264,7 @@ csharp_style_conditional_delegate_call = true:suggestion
 csharp_preferred_modifier_order = public,private,protected,internal,static,extern,new,virtual,abstract,sealed,override,readonly,unsafe,volatile,async:suggestion
 
 # Expression-level preferences
-csharp_prefer_braces = true:suggestion
+csharp_prefer_braces = true:none
 csharp_style_deconstructed_variable_declaration = true:suggestion
 csharp_prefer_simple_default_expression = true:suggestion
 csharp_style_pattern_local_over_anonymous_function = true:suggestion
@@ -2327,7 +2296,6 @@ csharp_space_between_parentheses = false
 csharp_space_before_colon_in_inheritance_clause = true
 csharp_space_after_colon_in_inheritance_clause = true
 csharp_space_around_binary_operators = before_and_after
-csharp_space_around_declaration_statements = false
 csharp_space_between_method_declaration_empty_parameter_list_parentheses = false
 csharp_space_between_method_call_name_and_opening_parenthesis = false
 csharp_space_between_method_call_empty_parameter_list_parentheses = false
