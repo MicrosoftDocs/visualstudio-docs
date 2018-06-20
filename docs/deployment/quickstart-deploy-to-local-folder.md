@@ -27,7 +27,7 @@ These steps apply to ASP.NET, ASP.NET Core, .NET Core, and Python apps in Visual
 
 ## Create a new project 
 
-1. In Visual Studio, choose **File > New Project**.
+1. In Visual Studio, choose **File** > **New Project**.
 
 1. Under **Visual C#** or **Visual Basic**, choose **.NET Core**, and then, in the middle pane choose **Console App (.NET Core)**.
 

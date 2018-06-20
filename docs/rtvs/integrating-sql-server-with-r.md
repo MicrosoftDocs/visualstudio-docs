@@ -29,7 +29,7 @@ Visual Studio's excellent support for SQL Server helps data scientists work with
 
 RTVS supports adding SQL queries into R projects, allowing you to iteratively develop SQL queries in a separate context until you get the results you're looking for.
 
-To add a SQL query file, **right-click** the project in Solution Explorer, select **Add** > **New Item**, and select the **SQL Query** file type:
+To add a SQL query file, right-click the project in Solution Explorer, select **Add** > **New Item**, and select the **SQL Query** file type:
 
 ![Add SQL Query item to a project](media/sql-add-item.png)
 
@@ -70,7 +70,7 @@ RTVS simplifies the otherwise unwieldy and error-prone process of combining SQL 
 
 ### Write and test a SQL stored procedure
 
-To add a new SQL Stored Procedure, **right-click** your project, select **Add** > **New Item**, select **SQL Stored Procedure with R** from the list of templates, give the file a name (*StoredProcedure.R* in this example), and select **OK**.
+To add a new SQL Stored Procedure, right-click your project, select **Add** > **New Item**, select **SQL Stored Procedure with R** from the list of templates, give the file a name (*StoredProcedure.R* in this example), and select **OK**.
 
 RTVS creates three files for the stored procedure: a *.R* file for your R code, a *.Query.sql* file for the SQL code, and a *.Template.sql* file that combines the two. They latter two appear in Solution Explorer as children of the *.R* file:
 

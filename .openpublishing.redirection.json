@@ -2492,6 +2492,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "subscriptions/vs-license-terms.md",
+            "redirect_url": "https://www.microsoft.com/en-us/licensing/product-licensing/products.aspx",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/vb6/partners/gmstudio.md",
             "redirect_url": "/previous-versions/visualstudio/visual-basic-6/vb6-partners-gmstudio",
             "redirect_document_id": false
