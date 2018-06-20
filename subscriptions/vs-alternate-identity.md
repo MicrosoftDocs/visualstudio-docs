@@ -74,4 +74,4 @@ A: VSTS should automatically recognize your subscription when you sign in using 
 
 * Visit the [Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) at least once before you sign in to VSTS.
 
-If VSTS still doesn't recognize your subscription, [contact support](https://www.visualstudio.com/team-services/support/)
+If VSTS still doesn't recognize your subscription, [contact support](https://visualstudio.microsoft.com/team-services/support/)

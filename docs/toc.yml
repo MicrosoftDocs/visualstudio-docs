@@ -1055,7 +1055,7 @@
     - name: Platform compatibility
       href: /visualstudio/productinfo/vs2017-compatibility-vs?context=visualstudio/default
     - name: Licensing
-      href: https://www.visualstudio.com/license-terms/
+      href: https://visualstudio.microsoft.com/license-terms/
     - name: Distributable code
       href: /visualstudio/productinfo/2017-redistribution-vs?context=visualstudio/default
     - name: Support lifecycle and servicing

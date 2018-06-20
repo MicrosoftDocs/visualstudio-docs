@@ -44,7 +44,7 @@ The Subscriptions page provides you with the capabilities to see which subscript
 
 ## Support
 
-In addition to the individual benefits found in the Support category on the Benefits page, the Support page provides access to resources to help you get the most out of your Visual Studio subscription. Access [support resources](https://www.visualstudio.com/subscriptions/support/) to resolve technical issues or questions related to subscriptions sales, accounts, and billing.
+In addition to the individual benefits found in the Support category on the Benefits page, the Support page provides access to resources to help you get the most out of your Visual Studio subscription. Access [support resources](https://visualstudio.microsoft.com/subscriptions/support/) to resolve technical issues or questions related to subscriptions sales, accounts, and billing.
 
 ## [Marketplace](https://marketplace.visualstudio.com/)
 
