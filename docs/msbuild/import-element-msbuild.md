@@ -29,7 +29,7 @@ Imports the contents of one project file into another project file.
 
 ## Syntax  
 
-```  
+```xml  
 <Import Project="ProjectPath"  
     Condition="'String A'=='String B'" />  
 ```  
