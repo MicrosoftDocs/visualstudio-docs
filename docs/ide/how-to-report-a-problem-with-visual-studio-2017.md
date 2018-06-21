@@ -33,9 +33,15 @@ To report a problem for Visual Studio, you must initiate the report from Visual 
 
    ![Sign in to report a problem](../ide/media/sign-in-new-ux.png)
 
-   When you sign in, you can report a problem that you're experiencing, or vote or comment on it. You can also vote or comment on any other problem that you see posted.
+   When you sign in, you can report a problem that you're experiencing. You can also vote or comment on any other problem that you see posted.
 
-1. Visual Studio provides an interface to search for your problem and see if others have reported it, too. If someone has reported it, "up-vote" it to let us know.
+1. Once signed in, you will be able to see your **Problems** and **Activity** in the **Items I follow** screen
+
+	![Items I Follow](../ide/media/items-i-follow.png)
+
+1. Visual Studio provides an interface to search for your problem and see if others have reported it. If someone has reported it, "up-vote" it to let us know.
+   > [!NOTE] In order to search, please input the desired text into the search box and either click Enter or press the Search icon.
+   > The **Report new problem*
 
    ![Search and vote for similar problems](../ide/media/search-and-vote.png)
 
@@ -77,6 +83,33 @@ Trace and heap dump files are useful in helping us diagnose problems. We appreci
 1. When you're done, choose the **Stop Record** button.
 
 1. Wait a few minutes for Visual Studio to collect and package the information that you recorded.
+
+## Need More Info Workflow
+
+Starting with Visual Studio 2017 Version 5 Preview 1, there is a new workflow to help users provide additional information. 
+1. When a Microsoft engineer sets the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) problem to the Need More Info state, the users who posted/voted/followed/commented on it will get a notification in the Report A Problem tool.
+
+	![Need More Info Notification](../ide/media/nmi-notification.png)
+
+1. Clicking on the **View Problems** link, filters and sorts the view to problems that need attention. These will also have an indicator next to them, to differentiate them in general search.
+
+1. If you click one of the problems, it will take you to the problem's details view
+
+	![Need More Info Notification](../ide/media/nmi-details-view.png)
+
+1. In the problem details view, users can go the Need More Info request by clicking the **View their request and respond** link. Users are presented with a dialog that shows the ask.
+
+	![Need More Info Notification](../ide/media/nmi-request.png)
+
+1. Users can provide more information by adding comments, attachments and/or recording steps. This experience is consistent with reporting a new problem and providing additional information when voting. 
+ 
+1. The Microsoft engineer will receive a notification about the extra information provided, investigate it and determine if they have enough, which will result in a state change or ask for more.  
+ 
+   > [!NOTE]
+   > When a user replies, the notification will go away for them. In its place, the user will see a banner thanking them and facilitating them to provide even more information. 
+   > Once the issue changes state, the notification will go away for everyone that is following the issue. 
+   > More than one person can reply on the same Need More Info request.
+   > There isn't a Need More Info workflow on Developer Community yet, but you can provide comments and attachments (public or private) there as well
 
 ## Search for solutions or provide feedback
 
