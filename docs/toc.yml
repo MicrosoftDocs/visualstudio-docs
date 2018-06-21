@@ -1071,3 +1071,6 @@
     href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
   - name: Talk to us
     href: ide/talk-to-us.md
+    items:
+    - name: Developer Community data privacy
+      href: ide/developer-community-privacy.md
