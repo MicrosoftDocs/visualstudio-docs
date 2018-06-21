@@ -40,8 +40,8 @@ To report a problem for Visual Studio, you must initiate the report from Visual 
 	![Items I Follow](../ide/media/items-i-follow.png)
 
 1. Visual Studio provides an interface to search for your problem and see if others have reported it. If someone has reported it, "up-vote" it to let us know.
-   > [!NOTE] In order to search, please input the desired text into the search box and either click Enter or press the Search icon.
-   > The **Report new problem*
+   > [!NOTE]
+   > In order to search, please input the desired text into the search box and either click Enter or press the Search icon.
 
    ![Search and vote for similar problems](../ide/media/search-and-vote.png)
 
@@ -106,10 +106,10 @@ Starting with Visual Studio 2017 Version 5 Preview 1, there is a new workflow to
 1. The Microsoft engineer will receive a notification about the extra information provided, investigate it and determine if they have enough, which will result in a state change or ask for more.  
  
    > [!NOTE]
-   > When a user replies, the notification will go away for them. In its place, the user will see a banner thanking them and facilitating them to provide even more information. 
-   > Once the issue changes state, the notification will go away for everyone that is following the issue. 
-   > More than one person can reply on the same Need More Info request.
-   > There isn't a Need More Info workflow on Developer Community yet, but you can provide comments and attachments (public or private) there as well
+   >* When a user replies, the notification will go away for them. In its place, the user will see a banner thanking them and facilitating them to provide even more information. 
+   >* Once the issue changes state, the notification will go away for everyone that is following the issue. 
+   >* More than one person can reply on the same Need More Info request.
+   >* There isn't a Need More Info workflow on Developer Community yet, but you can provide comments and attachments (public or private) there as well
 
 ## Search for solutions or provide feedback
 
