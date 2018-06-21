@@ -1062,6 +1062,9 @@
       href: /visualstudio/productinfo/vs-servicing-vs?context=visualstudio/default
   - name: Report a problem with Visual Studio
     href: ide/how-to-report-a-problem-with-visual-studio-2017.md
+    items:
+    - name: Developer Community data privacy
+      href: ide/developer-community-privacy.md
   - name: Customer Experience Improvement Program
     href: ide/visual-studio-experience-improvement-program.md
     items:
@@ -1071,6 +1074,3 @@
     href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
   - name: Talk to us
     href: ide/talk-to-us.md
-    items:
-    - name: Developer Community data privacy
-      href: ide/developer-community-privacy.md

@@ -40,6 +40,42 @@ If you're concerned about data privacy, don't put anything you want to keep priv
 
 To maintain your privacy and keep sensitive information out of public view, take care to keep all interactions with Microsoft to replies under a visibility-restricted comment. Replies to other comments may cause you to accidentally disclose sensitive information.
 
+## Data we collect
+
+If **Report a problem** is initiated from Visual Studio Installer, we collect the most recent setup log. If **Report a problem** is initiated from Visual Studio, we collect one or more of the following types of data:
+
+- Entries from the event log
+
+- An in-memory activity log file
+
+- PerfWatson files, if Watson collection is enabled, from the *VSFeedbackPerfWatsonData* folder
+
+- LiveShare log files, if they exist, from the *VSFeedbackVSRTCLogs* folder
+
+- Xamarin log files, if they exist, from *%LOCALAPPDATA%\Xamarin\Logs*
+
+- Nuget log files, if they exist, from *%temp%\NuGetScratch\nuget-dg\nugetSpec.dg*
+
+- Web debugger log files, if they exist:
+
+   - *%temp%\vscode-chrome-debug.txt*
+
+   - *%temp%\vscode-node-debug2.txt*
+
+   - *%temp%\vscode-edge-debug.txt*
+
+- A screenshot, if you choose to include it
+
+- Recording data, if you choose to include a recording, which includes:
+
+   - Steps to reproduce the problem
+
+   - ETL trace file
+
+   - Dump file
+
+You can delete any of this data from the report if you don't wish to submit it.
+
 ## See also
 
 - [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio-2017.md)

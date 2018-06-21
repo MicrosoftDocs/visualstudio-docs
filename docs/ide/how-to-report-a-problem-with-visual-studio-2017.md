@@ -78,6 +78,8 @@ Trace and heap dump files are useful in helping us diagnose problems. We appreci
 
 1. Wait a few minutes for Visual Studio to collect and package the information that you recorded.
 
+For information about what data is collected, see [Data we collect](how-to-report-a-problem-with-visual-studio-2017.md#data-we-collect).
+
 ## Search for solutions or provide feedback
 
 If you don't want to or can't use Visual Studio to report a problem, there's a chance that the problem has already been reported and a solution posted on the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) page.
