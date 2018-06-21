@@ -42,7 +42,9 @@ To maintain your privacy and keep sensitive information out of public view, take
 
 ## Data we collect
 
-If **Report a problem** is initiated from Visual Studio Installer, we collect the most recent setup log. If **Report a problem** is initiated from Visual Studio, we collect one or more of the following types of data:
+If **Report a problem** is initiated from Visual Studio Installer, we collect the most recent setup log.
+
+If **Report a problem** is initiated from Visual Studio, we collect one or more of the following types of data:
 
 - Entries from the event log
 
