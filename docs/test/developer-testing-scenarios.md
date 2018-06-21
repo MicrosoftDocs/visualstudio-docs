@@ -29,9 +29,9 @@ create and maintain unit tests for new or existing code.
 ![IntelliTest in action](media/devtest-intellitest.png)
 
 * [Introduction to IntelliTest with Visual Studio](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Introduction%20to%20IntelliTest%20with%20Visual%20Studio%20Enterprise%202015.docx)
-* [IntelliTest – One Test to rule them all](http://blogs.msdn.com/b/visualstudioalm/archive/2015/07/05/intellitest-one-test-to-rule-them-all.aspx)
-* [IntelliTest Videos](https://channel9.msdn.com/Series/Test-Tools-in-Visual-Studio)
-* [Get Started with IntelliTest](generate-unit-tests-for-your-code-with-intellitest.md)
+* [IntelliTest – One test to rule them all](http://blogs.msdn.com/b/visualstudioalm/archive/2015/07/05/intellitest-one-test-to-rule-them-all.aspx)
+* [IntelliTest videos](https://channel9.msdn.com/Series/Test-Tools-in-Visual-Studio)
+* [Get started with IntelliTest](generate-unit-tests-for-your-code-with-intellitest.md)
 * [IntelliTest reference manual](intellitest-manual/index.md)
 
 ## User interface testing with Coded UI and Selenium
@@ -46,19 +46,19 @@ of technologies, including XAML-based UWP
 apps, browser apps, and SharePoint apps.
 
 Whether you choose best of breed Coded
-UI Tests or generic browser based UI testing with
+UI Tests or generic browser-based UI testing with
 Selenium, Visual Studio provides all the tools you
 need.
 
-![UI Testing with Coded UI](media/devtest-codeduitest.png)
+![UI testing with coded UI](media/devtest-codeduitest.png)
 
-* [Use UI Automation To Test Your Code](use-ui-automation-to-test-your-code.md)
+* [Use UI automation to test your code](use-ui-automation-to-test-your-code.md)
 * [Get started creating, editing and maintaining a coded UI test](walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
-* [Test UWP apps with Coded UI Tests](test-uwp-app-with-coded-ui-test.md)
-* [Test SharePoint Applications with Coded UI Tests](testing-sharepoint-2010-applications-with-coded-ui-tests.md)
-* [Introduction to Coded UI Tests with Visual Studio Enterprise (Lab)](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Introduction%20to%20Coded%20UI%20Tests%20with%20Visual%20Studio%20Enterprise%202015.docx)
+* [Test UWP apps with coded UI tests](test-uwp-app-with-coded-ui-test.md)
+* [Test SharePoint applications with coded UI tests](testing-sharepoint-2010-applications-with-coded-ui-tests.md)
+* [Introduction to coded UI tests with Visual Studio Enterprise (Lab)](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Introduction%20to%20Coded%20UI%20Tests%20with%20Visual%20Studio%20Enterprise%202015.docx)
 
-## Effective unit testing with Visual Studio Code Coverage
+## Effective unit testing with Visual Studio code coverage
 
 To determine what proportion of your project’s code
 is actually being tested by coded tests such as unit
@@ -78,9 +78,9 @@ source editor shows you which code has been tested.
 
 ![Test with Visual Studio Team Services and Team Foundation Server](media/devtest-codecoverage.png)
 
-* [Using Code Coverage to Determine How Much Code is being Tested](using-code-coverage-to-determine-how-much-code-is-being-tested.md)
-* [Unit Testing, Code Coverage and Code Clone Analysis with Visual Studio (Lab)](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Unit%20Testing,%20Code%20Coverage%20and%20Code%20Clone%20Analysis%20with%20Visual%20Studio%202015.docx)
-* [Customizing Code Coverage Analysis](customizing-code-coverage-analysis.md)
+* [Using code coverage to determine how much code is being tested](using-code-coverage-to-determine-how-much-code-is-being-tested.md)
+* [Unit testing, code coverage and code clone analysis with Visual Studio (Lab)](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Unit%20Testing,%20Code%20Coverage%20and%20Code%20Clone%20Analysis%20with%20Visual%20Studio%202015.docx)
+* [Customizing code coverage analysis](customizing-code-coverage-analysis.md)
 
 ## Unit testing with any framework using the high performance Test Explorer
 
@@ -88,9 +88,9 @@ Test Explorer help developers create, manage, and get maximum benefit from unit 
 
 ![Visual Studio Test Explorer](media/devtest-testexplorer.png)
 
-* [Get started with Unit Testing](unit-test-your-code.md)
+* [Get started with unit testing](unit-test-your-code.md)
 * [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md)
-* [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md)
+* [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
 * [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md)
 
 Visual Studio is also extensible and opens the door for
@@ -106,6 +106,6 @@ for common bug fixes or refactoring.
 ## See also
 
 * [Get started with unit testing](getting-started-with-unit-testing.md)
-* [Speed up Unit Test Execution in Team Foundation Server](http://blogs.msdn.com/b/visualstudioalm/archive/2015/07/30/speeding-up-test-execution-in-tfs.aspx)
-* [Parallel and Context Sensitive Unit Test Execution](https://blogs.msdn.microsoft.com/visualstudioalm/2016/02/08/parallel-and-context-sensitive-test-execution-with-visual-studio-2015-update-1/)
-* [Unit Testing, Code Coverage and Code Clone Analysis with Visual Studio (Lab)](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Unit%20Testing,%20Code%20Coverage%20and%20Code%20Clone%20Analysis%20with%20Visual%20Studio%202015.docx)
+* [Speed up unit test execution in Team Foundation Server](http://blogs.msdn.com/b/visualstudioalm/archive/2015/07/30/speeding-up-test-execution-in-tfs.aspx)
+* [Parallel and context sensitive unit test execution](https://blogs.msdn.microsoft.com/visualstudioalm/2016/02/08/parallel-and-context-sensitive-test-execution-with-visual-studio-2015-update-1/)
+* [Unit testing, code coverage and code clone analysis with Visual Studio (Lab)](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Unit%20Testing,%20Code%20Coverage%20and%20Code%20Clone%20Analysis%20with%20Visual%20Studio%202015.docx)
