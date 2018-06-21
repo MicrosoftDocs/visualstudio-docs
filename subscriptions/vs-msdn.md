@@ -5,7 +5,7 @@ ms.author: jaunger
 manager: evelynp
 ms.date: 01/13/2018
 ms.topic: Get-Started-Article
-description:  Sign up to receive the MSDN Magazine subscription included in your Visual Studio subscription. 
+description:  Sign up to receive the MSDN Magazine subscription included in your Visual Studio subscription.
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
@@ -13,14 +13,14 @@ searchscope: VS Subscription
 
 # The MSDN Magazine benefit in Visual Studio subscriptions
 
-Comprehensive coverage of Microsoft technologies for practical solutions to real-world problems.  Depending on your subscription, you are entitled to either the printed magazine, or early access to the digital version.  
+Comprehensive coverage of Microsoft technologies for practical solutions to real-world problems.  Depending on your subscription, you are entitled to either the printed magazine, or early access to the digital version.
 
 
 ## Activation steps
-The steps to activate your benefit depend on the edition you choose.  
+The steps to activate your benefit depend on the edition you choose.
 
 ### Digital edition
-The Digital Edition is available to Visual Studio Dev Essentials members.  
+The Digital Edition is available to Visual Studio Dev Essentials members.
 
 1.  To access the Digital Edition of MSDN Magazine, sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 2.  Locate the MSDN Magazine tile in the Professional Development section, and click **Access**.
@@ -32,7 +32,7 @@ The Digital Edition is available to Visual Studio Dev Essentials members.
     ![MSDN Magazine Benefit Tile](_img\vs-msdn\vs-msdn-tile.png)
 
 
-3.	On the MSDN Magazine page, choose your preferred subscription type.  You can choose the digital edition at no charge, no matter where you live.  The printed version is available at no charge to US residents.  Shipping charges apply for printed versions sent to non-US addresses.  
+3.	On the MSDN Magazine page, choose your preferred subscription type.  You can choose the digital edition at no charge, no matter where you live.  The printed version is available at no charge to US residents.  Shipping charges apply for printed versions sent to non-US addresses.
 
     ![MSDN Magazine Benefit Subscriptions](_img\vs-msdn\vs-msdn-subs-page-resized.png)
 
@@ -52,15 +52,15 @@ The Digital Edition is available to Visual Studio Dev Essentials members.
 |Visual Studio Enterprise, Visual Studio Professional (monthly cloud)   | Azure |Not available      |  NA         |
 |Visual Studio Dev Essentials| NA |Digital edition       |  Yes|
 
-<sup>1</sup>  *Printed edition:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, Microsoft Partner Network (Enterprise), Imagine (Premium).*  
+<sup>1</sup>  *Printed edition:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, Microsoft Partner Network (Enterprise), Imagine (Premium).*
 
 *Digital Edition: MCT Software & Services, Microsoft Valued Partner (Professional), Region Director (RD).*
 
 *Excludes:  Imagine (Standard), BizSpark, MCT Software & Services Developer*
 
 
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions. 
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## Support resources
--  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://www.visualstudio.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://www.visualstudio.com/support/). 
+-  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+-  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

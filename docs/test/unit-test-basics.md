@@ -54,7 +54,7 @@ In this topic, we use the development of a fictional application called `MyBank`
 
 -   *CheckingAccount.cs* contains the `CheckingAccount` class that implements the `IAccounts` interface for a checking account.
 
-We know from experience that one thing a withdrawal from a checking account must do is to make sure that the amount withdrawn is less than the account balance. So we override the `IAccount.Withdaw` method in `CheckingAccount` with a method that checks for this condition. The method might look like this:
+We know from experience that one thing a withdrawal from a checking account must do is to make sure that the amount withdrawn is less than the account balance. So we override the `IAccount.Withdraw` method in `CheckingAccount` with a method that checks for this condition. The method might look like this:
 
 ```csharp
 public void Withdraw(double amount)

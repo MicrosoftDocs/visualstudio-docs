@@ -15,7 +15,7 @@ ms.workload:
   - "nodejs"
 ---
 # Tutorial: Create a Node.js and Express app in Visual Studio
-In this tutorial for Visual Studio development using Node.js and Express, you create a simple Node.js web application, add some code, explore some features of the IDE, and run the app. If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
+In this tutorial for Visual Studio development using Node.js and Express, you create a simple Node.js web application, add some code, explore some features of the IDE, and run the app. If you haven't already installed Visual Studio, install it for free [here](http://visualstudio.microsoft.com).
 
 In this tutorial, you learn how to:
 > [!div class="checklist"]
@@ -45,7 +45,7 @@ Express is a web application framework, used as a server framework for Node.js t
 
 * You must have Visual Studio 2017 installed and the Node.js development workload.
 
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
     If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box (select **File** > **New** > **Project**). The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
 
@@ -141,7 +141,7 @@ The application uses Pug for the front-end JavaScript framework. Pug uses simple
         res.render('index', { title: 'Express', "data" });
     });
     ```
-    
+
     The preceding code sets the current page using the Express router object and renders the page, passing the title and data object to the page. The *index.pug* file is specified here as the page to load when *index.js* runs. *index.js* is configured as the default route in *app.js* code (not shown).
 
     To demonstrate several features of Visual Studio, we included an error in the line of code containing `res.render`. We need to fix the error before the app can run. We fix the error in the next section.

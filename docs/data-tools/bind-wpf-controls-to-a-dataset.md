@@ -100,11 +100,11 @@ Before you can create data-bound controls, you must define a data model for your
 
 To fill the dataset with data, use the `Fill` method of the `ProductTableAdapter`. By default, the `Fill` method fills the `ProductDataTable` in the `AdventureWorksLTDataSet` with all rows of data from the Product table. You can modify this method to return only a subset of the rows. For this walkthrough, modify the `Fill` method to return only rows for products that have photos.
 
-1.  In **Solution Explorer**, double-click the `AdventureWorksLTDataSet.xsd` file.
+1.  In **Solution Explorer**, double-click the *AdventureWorksLTDataSet.xsd* file.
 
      The Dataset designer opens.
 
-2.  In the designer, right-click the **Fill, GetData()** query and select **Configure**.
+2.  In the designer, right-click the **Fill**, **GetData()** query and select **Configure**.
 
      The **TableAdapter Configuration** wizard opens.
 
@@ -171,7 +171,7 @@ Create controls that display customer records by dragging the `Product` table fr
 
 7.  In the **Properties** window, select the check box next to the **IsReadOnly** property.
 
-## Navigating product records
+## Navigate product records
 
 Add code that enables users to scroll through product records by using the **\<** and **>** buttons.
 

@@ -84,9 +84,9 @@ Q. **What is Remote Services in Visual Studio?**
 
 A. Remote R Services for Visual Studio allows you to set up Windows or Linux machine and then connect to it from RTVS. See [Set up remote workspaces](setting-up-remote-r-workspaces.md).
 
-Q. **Can RTVS connect to Microsoft R Server?**
+Q. **Can RTVS connect to Microsoft Machine Learning Server?**
 
-A. No, because Microsoft R Server is a different technology and does not provide same connectivity mechanism as required by RTVS.
+A. No, because Microsoft ML Server is a different technology and does not provide same connectivity mechanism as required by RTVS.
 
 Q. **Can RTVS connect to a VM created using the Data Science VM image on Azure?**
 

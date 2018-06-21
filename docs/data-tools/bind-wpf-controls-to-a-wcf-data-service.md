@@ -41,7 +41,7 @@ You need the following components to complete this walkthrough:
 
 -   Visual Studio
 
--   Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex Web site](http://go.microsoft.com/fwlink/?linkid=87843).
+-   Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex web site](http://go.microsoft.com/fwlink/?linkid=87843).
 
 Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:
 
@@ -49,9 +49,9 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 
 -   Data models in [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)].
 
--   Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework Overview](/dotnet/framework/data/adonet/ef/overview).
+-   Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework overview](/dotnet/framework/data/adonet/ef/overview).
 
--   WPF data binding. For more information, see [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview).
+-   WPF data binding. For more information, see [Data Binding overview](/dotnet/framework/wpf/data/data-binding-overview).
 
 ## Create the service project
 Start this walkthrough by creating a project for a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)].
@@ -106,7 +106,7 @@ Create a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md
 
 1.  On the **Project** menu, select **Add New Item**.
 
-2.  In the Installed Templates list, click **Web**, and then select the **WCF Data Service** project item.
+2.  In the **Installed Templates** list, click **Web**, and then select the **WCF Data Service** project item.
 
 3.  In the **Name** box, type `AdventureWorksService.svc`, and click **Add**.
 
@@ -159,7 +159,7 @@ To display the data from the [!INCLUDE[ss_data_service](../data-tools/includes/s
 
 10. In the **Services** box, click **AdventureWorksService.svc**, and then click **OK**.
 
-     Visual Studio downloads the service information, and then returns to the **Data Source Configuration** wizard.
+     Visual Studio downloads the service information and then returns to the **Data Source Configuration** wizard.
 
 11. In the **Add Service Reference** page, click **Finish**.
 
@@ -283,7 +283,7 @@ Build and run the application to verify that you can view and update customer re
 
 1.  On **Build** menu, click **Build Solution**. Verify that the solution builds without errors.
 
-2.  Press **Ctrl+F5**.
+2.  Press **Ctrl**+**F5**.
 
      Visual Studio starts the **AdventureWorksService** project, without debugging it.
 
@@ -305,18 +305,18 @@ Build and run the application to verify that you can view and update customer re
 
 8.  Close the application.
 
-## Next Steps
+## Next steps
 
 After completing this walkthrough, you can perform the following related tasks:
 
 -   Learn how to use the **Data Sources** window in Visual Studio to bind WPF controls to other types of data sources. For more information, see [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md).
 
--   Learn how to use the **Data Sources** window in Visual Studio to display related data (that is, data in a parent-child relationship) in WPF controls. For more information, see [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/display-related-data-in-wpf-applications.md).
+-   Learn how to use the **Data Sources** window in Visual Studio to display related data (that is, data in a parent-child relationship) in WPF controls. For more information, see [Walkthrough: Displaying related data in a WPF application](../data-tools/display-related-data-in-wpf-applications.md).
 
 ## See also
 
 - [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)
 - [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md)
 - [WCF overview (.NET Framework)](/dotnet/framework/data/wcf/wcf-data-services-overview)
-- [Entity Framework Overview (.NET Framework)](/dotnet/framework/data/adonet/ef/overview)
-- [Data Binding Overview (.NET Framework)](/dotnet/framework/wpf/data/data-binding-overview)
+- [Entity Framework overview (.NET Framework)](/dotnet/framework/data/adonet/ef/overview)
+- [Data Binding overview (.NET Framework)](/dotnet/framework/wpf/data/data-binding-overview)
