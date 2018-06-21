@@ -34,7 +34,7 @@ Identifies a platform or assembly dependency that is required for the applicatio
   
 ## Syntax  
   
-```  
+```xml  
   
       <dependency>  
    <dependentOS  
@@ -168,7 +168,7 @@ Identifies a platform or assembly dependency that is required for the applicatio
 ## Example  
  The following code example illustrates `dependency` elements in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. This code example is part of a larger example provided for the [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md) topic.  
   
-```  
+```xml  
 <dependency>  
   <dependentOS>  
     <osVersionInfo>  

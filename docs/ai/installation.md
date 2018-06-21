@@ -17,13 +17,13 @@ ms.workload:
 
 Visual Studio Tools for AI can be installed on Windows 64-bit operating systems.
 
-## Installing Visual Studio Tools for AI
+## Install Visual Studio Tools for AI
 
-This extension works with [Visual Studio](https://docs.microsoft.com/visualstudio/) 2015, 2017, Community edition or higher.
+This extension works with Visual Studio 2015 and Visual Studio 2017, Community edition or higher.
 
-To install, download from the [Visual Studio MarketPlace](http://aka.ms/vstoolsforai) or from within Visual Studio
+To install, download from the [Visual Studio Marketplace](http://aka.ms/vstoolsforai) or from within Visual Studio
 
-1. **Tools**> **Extensions and Updates**
+1. **Tools** > **Extensions and Updates**
 
 ![install CUDA on Windows](media\installation\extensions.png)
 
@@ -31,13 +31,11 @@ To install, download from the [Visual Studio MarketPlace](http://aka.ms/vstoolsf
 2. Select **Visual Studio Tools for AI**
 3. Click **Download**
 
-
-## Preparing your local machine
+## Prepare your local machine
 
 Before training deep learning models on your local computer you should make sure you have the latest applicable prerequisites installed. This includes making sure the latest drivers and libraries for your NVIDIA GPU (if you have one). You should also ensure you have installed Python and Python libraries such as NumPy, SciPy, and appropriate deep learning frameworks such as Microsoft Cognitive Toolkit (CNTK), TensorFlow, Caffe2, MXNet, Keras, Theano, PyTorch and/or Chainer that you plan to use in your project.
 
 > [!NOTE]
->
 > Software introduction in the following subsections is excerpted from their homepages.
 
 ### NVIDIA GPU driver
@@ -62,23 +60,21 @@ To install CUDA
 
 [cuDNN](https://developer.nvidia.com/cudnn) (CUDA Deep Neural Network library) is a GPU-accelerated library of primitives for deep neural networks by NVIDIA. cuDNN v6 is required by latest deep learning frameworks.
 
-To install cuDNN
-- Visit [here](https://developer.nvidia.com/rdp/cudnn-download) to download and install the latest package.
+To install cuDNN:
+
+- Visit [NVIDIA Developer](https://developer.nvidia.com/rdp/cudnn-download) to download and install the latest package.
 - Ensure to add the directory containing cuDNN binary to the %PATH% or $Path environment variable.
 - On Windows, you can copy cudnn64_6.dll to "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin".
 
 > [!NOTE]
->
-> Previous deep learning frameworks such as CNTK 2.0 and TensorFlow 1.2.1 need cuDNN v5.1.
-> However, you can install multiple cuDNN versions together.
-
+> Previous deep learning frameworks such as CNTK 2.0 and TensorFlow 1.2.1 need cuDNN v5.1. However, you can install multiple cuDNN versions together.
 
 ### Python
 
-Python has been the primary programming language for deep learning applications.
-**64-bit** Python distribution is required, and [Python 3.5.4](https://www.python.org/downloads/release/python-354/) is recommended for the best compatibility.
+Python has been the primary programming language for deep learning applications. **64-bit** Python distribution is required, and [Python 3.5.4](https://www.python.org/downloads/release/python-354/) is recommended for the best compatibility.
 
 ### To install Python on Windows
+
 - We suggest installing the Python launcher for yourself only, and add Python to the %PATH% environment variable.
 - Ensure to install pip, which is the package management system to install and manage software packages written in Python.
 
@@ -119,16 +115,15 @@ Learn more about install [Python for Visual Studio Tools](../python/installing-p
 
 - **NumPy** is a general-purpose array-processing package designed to efficiently manipulate large multi-dimensional arrays of arbitrary records without sacrificing too much speed for small multi-dimensional arrays.
 
-- **SciPy** (pronounced "Sigh Pie") is open-source software for mathematics, science, and engineering, depending on NumPy.
-Starting from version 1.0.0, SciPy now has official prebuilt wheel package for Windows.
+- **SciPy** (pronounced "Sigh Pie") is open-source software for mathematics, science, and engineering, depending on NumPy. Starting from version 1.0.0, SciPy now has official prebuilt wheel package for Windows.
 
 To install NumPy and SciPy, run the following command in a terminal:
+
 ```bash
 pip3.5 install -U numpy scipy
 ```
 
 > [!NOTE]
->
 > The above command upgrades existing old or unofficial (e.g. third-party packages from http://www.lfd.uci.edu/~gohlke/pythonlibs/ for Windows) NumPy and SciPy to the latest official ones.
 
 ### Microsoft Cognitive Toolkit (CNTK)
@@ -136,24 +131,20 @@ pip3.5 install -U numpy scipy
 The [Microsoft Cognitive Toolkit](https://cntk.ai) is a unified deep-learning toolkit that describes neural networks as a series of computational steps via a directed graph. CNTK supports both Python and BrainScript programming languages.
 
 > [!NOTE]
->
 > CNTK currently does not support macOS.
 
 To install CNTK Python package, see [how to install CNTK](https://docs.microsoft.com/cognitive-toolkit/Setup-CNTK-on-your-machine)
 
 ### TensorFlow
 
-[TensorFlow](https://www.tensorflow.org/) is an open source software library for numerical computation using data flow graphs.
-Refer to [here](https://www.tensorflow.org/install/) for detailed installation.
+[TensorFlow](https://www.tensorflow.org/) is an open source software library for numerical computation using data flow graphs. Refer to [here](https://www.tensorflow.org/install/) for detailed installation.
 
 > [!NOTE]
->
 > As of version 1.2, TensorFlow no longer provides GPU support for macOS.
 
 ### Caffe2
 
-[Caffe2](https://caffe2.ai/) is a lightweight, modular, and scalable deep learning framework.
-Building on the original Caffe, Caffe2 is designed with expression, speed, and modularity in mind.
+[Caffe2](https://caffe2.ai/) is a lightweight, modular, and scalable deep learning framework. Building on the original Caffe, Caffe2 is designed with expression, speed, and modularity in mind.
 
 Currently, there's no prebuilt Caffe2 python wheel package available.
 
@@ -161,10 +152,10 @@ Visit [here](https://caffe2.ai/docs/getting-started.html) to build from source c
 
 ### MXNet
 
-[Apache MXNet (incubating)](https://mxnet.incubator.apache.org/) is a deep learning framework designed for both efficiency and flexibility.
-It allows you to **mix** [symbolic and imperative programming](http://mxnet.io/architecture/index.html#deep-learning-system-design-concepts) to maximize efficiency and productivity.
+[Apache MXNet (incubating)](https://mxnet.incubator.apache.org/) is a deep learning framework designed for both efficiency and flexibility. It allows you to **mix** [symbolic and imperative programming](http://mxnet.io/architecture/index.html#deep-learning-system-design-concepts) to maximize efficiency and productivity.
 
 To install MXNet, run the following command in a terminal:
+
 - With GPU
     ```bash
     pip3.5 install mxnet-cu80==0.12.0
@@ -179,6 +170,7 @@ To install MXNet, run the following command in a terminal:
 [Keras](https://keras.io/) is a high-level neural networks API, written in Python and capable of running on top of CNTK, TensorFlow, or Theano. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result with the least possible delay is key to doing good research.
 
 To install Keras, please run the following command in a terminal:
+
 ```bash
 pip3.5 install Keras==2.0.9
 ```
@@ -188,6 +180,7 @@ pip3.5 install Keras==2.0.9
 [Theano](http://deeplearning.net/software/theano/) is a Python library that allows you to define, optimize, and evaluate mathematical expressions involving multi-dimensional arrays efficiently.
 
 To install Theano, please run the following command in a terminal:
+
 ```bash
 pip3.5 install Theano==0.9.0
 ```
@@ -195,13 +188,14 @@ pip3.5 install Theano==0.9.0
 ### PyTorch
 
 [PyTorch](http://pytorch.org/) is a python package that provides two high-level features:
+
 - Tensor computation (like numpy) with strong GPU acceleration
 - Deep Neural Networks built on a tape-based autograd system
 
-To install PyTorch, please run the following command in a terminal:
+To install PyTorch, run the following command in a terminal:
 
 - **Windows**
-    - There is no official wheel package yet. You may download a third-party [Anaconda PyTorch package](https://anaconda.org/peterjc123/pytorch/0.2.1/download/win-64/pytorch-0.2.1-py35h24644ff_0.2.1cu80.tar.bz2).
+    - There's no official wheel package yet. You can download a third-party [Anaconda PyTorch package](https://anaconda.org/pytorch/repo?type=all).
     - Decompress it to your home directory, e.g. "C:\Users\test\pytorch".
     - Add "C:\Users\test\pytorch\Lib\site-packages" to the %PYTHONPATH% environment variable.
 
@@ -210,7 +204,6 @@ To install PyTorch, please run the following command in a terminal:
     pip3.5 install http://download.pytorch.org/whl/torch-0.2.0.post3-cp35-cp35m-macosx_10_7_x86_64.whl
     ```
     > [!NOTE]
-	>
     > macOS binaries don't support CUDA, install from source if CUDA is needed
 
 - **Linux**
@@ -218,33 +211,29 @@ To install PyTorch, please run the following command in a terminal:
     pip3.5 install http://download.pytorch.org/whl/cu80/torch-0.2.0.post3-cp35-cp35m-manylinux1_x86_64.whl
     ```
     > [!NOTE]
-	>
     > This single package supports both GPU and CPU.
 
 Finally, install torchvision on non-Windows:
+
 ```bash
 pip3.5 install torchvision
 ```
 
 ### Chainer
 
-[Chainer](https://chainer.org/) is a Python-based deep learning framework aiming at flexibility.
-It provides automatic differentiation APIs based on the **define-by-run approach** (a.k.a. dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks.
+[Chainer](https://chainer.org/) is a Python-based deep learning framework aiming at flexibility. It provides automatic differentiation APIs based on the **define-by-run approach** (a.k.a. dynamic computational graphs) as well as object-oriented high-level APIs to build and train neural networks.
 
 To enable CUDA support, install [CuPy](https://github.com/cupy/cupy):
+
 ```bash
 pip3.5 install cupy
 ```
 
 > [!NOTE]
->
-> On Windows, you need **2015** version of [Microsoft Visual Studio](https://www.visualstudio.com/)
-or [Microsoft Visual C++ Build Tools](http://landinghub.visualstudio.com/visual-cpp-build-tools)
-to compile CuPy with CUDA 8.0.
+> On Windows, you need the 2015 version of [Visual Studio](https://visualstudio.microsoft.com/) or the [Microsoft Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) to compile CuPy with CUDA 8.0.
 
 To install Chainer, please run the following command in a terminal:
+
 ```bash
 pip3.5 install chainer==3.0.0
 ```
-
-

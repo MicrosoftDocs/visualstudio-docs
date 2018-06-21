@@ -17,13 +17,13 @@ The Start View is the launching point for the XML Schema (XSD) Designer. When yo
 
 The Start View contains two main sections, the *watermark* and the **Schema Set Details** pane. It also includes the toolbar, which is available in all the XSD Designer views.
 
-![XML Schema Designer Start View](../xml-tools/media/xsddesigner_startview.gif "XSDDesigner_StartView")
+![XML Schema Designer Start View](../xml-tools/media/xsddesigner_startview.gif)
 
 ## Watermark
 
-The watermark pane contains a list of links to all the XSD Designer views, XML Editor, and XML Schema Explorer. If the schema set has errors, the following text is displayed at the end of the list: "Use the Error List to view and fix the errors in the set."
+The watermark pane contains a list of links to all the XSD Designer views, XML Editor, and **XML Schema Explorer**. If the schema set has errors, the following text is displayed at the end of the list: "Use the Error List to view and fix the errors in the set."
 
-## Schema Set Details
+## Schema set details
 
 The **Schema Set Details** pane lists the global schema node types, and displays how many instances of each type there are in the schema. You can use the **add** links next to the node types to add new nodes to the workspace.
 
@@ -31,17 +31,17 @@ The **Schema Set Details** pane lists the global schema node types, and displays
 
 You can navigate between the Start View, the [Content Model View](../xml-tools/content-model-view.md) and the [Graph View](../xml-tools/graph-view.md) from the XML Schema Designer toolbar.
 
-![XML Schema Designer Toolbar](../xml-tools/media/xsdstartviewtoolbar.gif "XSDStartViewToolbar")
+![XML Schema Designer Toolbar](../xml-tools/media/xsdstartviewtoolbar.gif)
 
 The following buttons are enabled in the XSD Designer toolbar when the Start View is active:
 
 |Option|Description|
 |------------|-----------------|
-|**Show Start View**|Switches to the Start View. This view can be accessed by using the keyboard shortcut: **CTRL + 1**.|
-|**Show Content Model View**|Switches to the Content Model View. This view can be accessed by using the keyboard shortcut: **CTRL + 2**.|
-|**Show Graph View**|Switches to the Graph View. This view can be accessed by using the keyboard shortcut: **CTRL + 3**.|
+|**Show Start View**|Switches to the Start View. This view can be accessed by using the keyboard shortcut: **Ctrl**+**1**.|
+|**Show Content Model View**|Switches to the Content Model View. This view can be accessed by using the keyboard shortcut: **Ctrl**+**2**.|
+|**Show Graph View**|Switches to the Graph View. This view can be accessed by using the keyboard shortcut: **Ctrl**+**3**.|
 
-## See Also
+## See also
 
 - [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)
 - [Graph View](../xml-tools/graph-view.md)

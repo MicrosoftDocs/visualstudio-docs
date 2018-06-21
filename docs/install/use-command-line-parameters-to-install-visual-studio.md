@@ -55,7 +55,7 @@ The command-line options are used in conjunction with the setup bootstrapper, wh
 | `--installPath <dir>` | The installation directory for the instance to act upon. For the install command, this is **Optional** and is where the instance will be installed. For other commands, this is **Required** and is where the previously installed instance was installed. |
 | `--addProductLang <language-locale>` | **Optional**: During an install or modify operation, this determines the UI language packs that are installed to the product. It can appear multiple times on the command line to add multiple language packs. If not present, the installation uses the machine locale. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
 | `--removeProductLang <language-locale>` | **Optional**: During an install or modify operation, this determines the UI language packs that are to be removed from the product. It can appear multiple times on the command line to add multiple language packs. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
-| `--add <one or more workload or component IDs>` | **Optional**: One or more workload or component IDs to add. The required components of the artifact are installed, but not the recommended or optional components. You can control additional components globally using `--includeRecommended` and/or `--includeOptional`. For finer-grained control, you can append `;includeRecommended` or `;includeOptional` to the ID (for example, `--add Workload1;includeRecommended` or `--add Workload2;includeRecommended;includeOptional`). For more information, see the [Workload and component IDs](workload-and-component-ids.md) page. You can repeat this option as necessary.|
+| `--add <one or more workload or component IDs>` | **Optional**: One or more workload or component IDs to add. The required components of the artifact are installed, but not the recommended or optional components. You can control additional components globally using `--includeRecommended` and/or `--includeOptional`. To include multiple workloads or components, repeat the `--add` command (for example, `--add Workload1 --add Workload2`). For finer-grained control, you can append `;includeRecommended` or `;includeOptional` to the ID (for example, `--add Workload1;includeRecommended` or `--add Workload2;includeRecommended;includeOptional`). For more information, see the [Workload and component IDs](workload-and-component-ids.md) page. You can repeat this option as necessary.|
 | `--remove <one or more workload or component IDs>` | **Optional**: One or more workload or component IDs to remove. For more information, see our [Workload and component IDs](workload-and-component-ids.md) page. You can repeat this option as necessary.|
 | `--in <path>` | **Optional**: The URI or path to a response file.  |
 | `--all` | **Optional**: Whether to install all workloads and components for a product. |
@@ -141,7 +141,7 @@ Each operation generates several log files in the `%TEMP%` directory that indica
 
 ## Get support
 
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
 
 Here are a few more support options:
 
@@ -155,3 +155,4 @@ Here are a few more support options:
 * [Command-line parameter examples for Visual Studio 2017 installation](command-line-parameter-examples.md)
 * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
 * [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md)
+* [Visual Studio 2017 workload and component IDs](workload-and-component-ids.md)

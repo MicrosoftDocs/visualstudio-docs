@@ -4,30 +4,30 @@ ms.custom: ""
 ms.date: "05/08/2018"
 ms.technology: vs-ide-deployment
 ms.topic: "quickstart"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "deployment, local folder"
 ms.assetid: adb461c4-812a-4b8c-b2ab-96002379f6a9
 author: mikejo5000
 ms.author: mikejo
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Deploy a web app or .NET Core app to a local folder using the Visual Studio Publish tool
 
-You can use the **Publish** tool to publish your app to a local folder. 
+You can use the **Publish** tool to publish your app to a local folder.
 
 These steps apply to ASP.NET, ASP.NET Core, .NET Core, and Python apps in Visual Studio. For Node.js, the steps are supported but the user interface is different.
 
 ## Prerequisites
 
-* You must have Visual Studio 2017 installed and the **.NET Framework** and the **.NET Core** development workload installed.
+* You must have Visual Studio 2017 installed and the .**NET desktop development** workload and the .**NET Core** workload.
 
-    If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-## Create a new project 
+## Create a new project
 
-1. In Visual Studio, choose **File > New Project**.
+1. In Visual Studio, choose **File** > **New Project**.
 
 1. Under **Visual C#** or **Visual Basic**, choose **.NET Core**, and then, in the middle pane choose **Console App (.NET Core)**.
 
@@ -57,7 +57,7 @@ These steps apply to ASP.NET, ASP.NET Core, .NET Core, and Python apps in Visual
 
 1. To configure deployment settings, click **Settings** in the profile summary.
 
-    ![Profile settings](../deployment/media/quickstart-profile-settings.png "Profile settings") 
+    ![Profile settings](../deployment/media/quickstart-profile-settings.png "Profile settings")
 
 1. Configure options such as whether to deploy a Debug or Release configuration, and then click **Save**.
 
@@ -67,6 +67,6 @@ Deploy the published files in any way you like. For example, you can package the
 
 ## Next steps
 
-- [Deploy a .NET Core Application with the Publish tool](/dotnet/core/deploying/deploy-with-vs)
-- [Package a desktop app for Microsoft Store (Desktop Bridge)](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net)
-- (.NET) [Deploy the .NET Framework and applications](/dotnet/framework/deployment/)
+- [Deploy a .NET Core Application with the Publish tool](/dotnet/core/deploying/deploy-with-vs?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
+- [Package a desktop app for Microsoft Store (Desktop Bridge)](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
+- (.NET) [Deploy the .NET Framework and applications...](/dotnet/framework/deployment/)

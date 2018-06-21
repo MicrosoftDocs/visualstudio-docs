@@ -27,7 +27,7 @@ This command contextually generates code:
 
 ## Quick fixes and actions
 
-Displays [refactoring](~/refactoring.md) context actions:
+Displays [refactoring](refactoring.md) context actions:
 
 `option + enter`
 

@@ -64,7 +64,7 @@
 #### [Expired Subscriptions](handle-expired-license.md)
 #### [Subscribers with Personal Email Sign-ins](personal-email-sign-ins.md)
 ## Acquiring Visual Studio Subscriptions
-### [Compare Subscription Options](https://www.visualstudio.com/vs/pricing)
+### [Compare Subscription Options](https://visualstudio.microsoft.com/vs/pricing)
 ### Buying Cloud Subscriptions
 #### [Overview](vscloud-overview.md)
 #### [Billing FAQ](vscloud-billing-faq.md)
@@ -74,10 +74,9 @@
 #### [Managing subscriptions for MPN](manage-mpn-subscriptions.md)
 #### [Microsoft for Startups](program-startups.md)
 ## Resources
-### [Visual Studio License Terms](vs-license-terms.md)
 ### [Visual Studio Licensing Whitepaper](http://aka.ms/vslicensing)
-### [Compare subscription options and pricing](https://www.visualstudio.com/vs/pricing)
-### [Compare Visual Studio IDE features](https://www.visualstudio.com/vs/compare)
-### [Visual Studio Administration and Subscriptions Support](https://www.visualstudio.com/support/support-overview-vs)
-### [Volume License and Product Use Rights (PUR)](http://www.microsoft.com/licensing/product-licensing/products.aspx)
+### [Compare subscription options and pricing](https://visualstudio.microsoft.com/vs/pricing)
+### [Compare Visual Studio IDE features](https://visualstudio.microsoft.com/vs/compare)
+### [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
+### [Volume Licensing Terms](https://www.microsoft.com/en-us/licensing/product-licensing/products.aspx)
 ### [Microsoft Products and Services Agreement (MPSA)](https://www.microsoft.com/en-us/licensing/mpsa/default.aspx)

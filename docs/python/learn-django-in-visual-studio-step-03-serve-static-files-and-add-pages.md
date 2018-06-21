@@ -17,7 +17,7 @@ ms.workload:
 
 **Previous step: [Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md)**
 
-In the previous steps of this tutorial, you've learned how to create a minimal Django app with a single page of self-contained HTML. Modern web apps, however are typically composed of many pages, and make use of shared resources like CSS and JavaScript and file to provide consistent styling and behavior.
+In the previous steps of this tutorial, you've learned how to create a minimal Django app with a single page of self-contained HTML. Modern web apps, however, are typically composed of many pages, and make use of shared resources like CSS and JavaScript files to provide consistent styling and behavior.
 
 In this step, you learn how to:
 
@@ -36,8 +36,6 @@ To see available templates, go to **Solution Explorer**, right-click the folder 
 ![Add new item dialog in Visual Studio](media/django/step03-add-new-item-dialog.png)
 
 To use a template, select the desired template, specify a name for the file, and select **OK**. Adding an item in this manner automatically adds the file to your Visual Studio project and marks the changes for source control.
-
-Visual Studio also adds some frequently used options to the **Add** menu directly. In a Python project, for example, you might see **HTML Page** or **Style Sheet** commands at the bottom of the **Add** menu, which prompt you for a name and creates the file.
 
 ### Question: how does Visual Studio know which item templates to offer?
 
@@ -183,7 +181,7 @@ A base template delineates blocks using `{% block <block_name> %}` and `{% endbl
 
 The following steps demonstrate inheritance:
 
-1. In the app's `templates/HelloDjangoApp` folder, create a new HTML file (using the **Add** > **New item** context menu or **Add** > **HTML Page**) called `layout.html`, and paste in the contents below. You can see that this template contains a block named "content" that is all that the referring pages need to replace:
+1. In the app's `templates/HelloDjangoApp` folder, create a new HTML file (using the **Add** > **New item** context menu or **Add** > **HTML Page**) called `layout.html`, and replace its with the markup below. You can see that this template contains a block named "content" that is all that the referring pages need to replace:
 
     ```html
     <!DOCTYPE html>

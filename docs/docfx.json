@@ -43,13 +43,17 @@
       "ms.date": "11/16/2016",
       "ms.topic": "conceptual",
       "audience": "developer",
+      "defaultDevLang": "csharp",
       "ms.prod": "visual-studio-dev15",
       "searchScope": ["VS IDE"],
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
-      "titleSuffix": "Visual Studio"
+      "titleSuffix": "Visual Studio",
+      "featureFlags": [
+        "enable_uhf_ppe"
+      ]
     },
     "template": [],
-    "xref": ["missingapi.yml", "vs.140.zip", "office15.zip"],
+    "xref": ["missingapi.yml", "vs.140.zip"],
     "dest": "vsdocsdocs"
   }
 }

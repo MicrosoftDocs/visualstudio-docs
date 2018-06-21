@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# CvCreateMarkerSeries Function
+# CvCreateMarkerSeries function
 Creates marker series for a given provider.  
   
 ## Syntax  
@@ -44,15 +44,15 @@ _Check_return_ HRESULT CvCreateMarkerSeriesA(
  `ppMarkerSeries`  
  Address of an output variable which will store marker series context. Cannot be NULL.  
   
-## Return Value  
+## Return value  
  S_OK when marker series is successfully created or error code in case there were any errors. Use SUCCEEDED/FAILED macros to check for error condition.  
   
 ## Requirements  
- **Header:** cvmarkers.h  
+ **Header:** *cvmarkers.h*  
   
  **Unicode:** CvCreateMarkerSeriesW  
   
  **ANSI:** CvCreateMarkerSeriesA  
   
-## See Also  
- [C++ Library Reference](../profiling/cpp-library-reference.md)
+## See also  
+ [C++ library reference](../profiling/cpp-library-reference.md)

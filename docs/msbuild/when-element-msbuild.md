@@ -35,7 +35,7 @@ Specifies a possible block of code for the `Choose` element to select.
 
 ## Syntax  
 
-```  
+```xml  
 <When Condition="'StringA'=='StringB'">  
     <PropertyGroup>... </PropertyGroup>  
     <ItemGroup>... </ItemGroup>  

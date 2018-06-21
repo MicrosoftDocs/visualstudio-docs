@@ -2,7 +2,7 @@
 title: "Modify Visual Studio 2017 | Microsoft Docs"
 description: "Learn how to modify Visual Studio, step-by-step."
 ms.custom: H1Hack27Feb2017
-ms.date: 04/06/2018
+ms.date: 06/12/2018
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -31,20 +31,20 @@ Here's how.
 >[!IMPORTANT]
 >To install, update, or modify Visual Studio, you must log on with an account that has administrative permissions. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
 
-1. Find the Visual Studio Installer on your computer.  
+1. Find the Visual Studio Installer on your computer.
 
-     For example, on a computer running Windows 10, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.  
+     For example, on a computer running Windows 10, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.
 
      ![Visual Studio Installer](media/vs2017-locate-the-visual-studio-installer.PNG "Locate the Microsoft Visual Studio Installer")
 
      >[!NOTE]
-     On some computers, the Visual Studio Installer might be listed under the letter **"M"** as the **Microsoft Visual Studio Installer**.<br/><br/> Alternatively, you can find the Visual Studio Installer in the following location: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
+     >On some computers, the Visual Studio Installer might be listed under the letter **"M"** as the **Microsoft Visual Studio Installer**.<br/><br/> Alternatively, you can find the Visual Studio Installer in the following location: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
 
-2. Click or tap to start the installer, and then choose **Modify**.  
+2. Click or tap to start the installer, and then choose **Modify**.
 
      ![Launch or modify Visual Studio](media/modify-visual-studio.png "Modify Visual Studio 2017")
 
-     If you have an update pending, then the Modify button is in a different place. Click **More**, and then choose **Modify**.   
+     If you have an update pending, the Modify button is in a different place. This way, you can modify Visual Studio without updating it, should you choose to do so. Click **More**, and then choose **Modify**.
 
      ![Update or modify Visual Studio](media/modify-or-update-visual-studio.png "Update or modify Visual Studio 2017")
 
@@ -52,7 +52,7 @@ Here's how.
 
     ![Visual Studio 2017 Setup Dialog](media/vs2017-modify-workloads.PNG "Choose a workload in Visual Studio 2017")
 
-4. Choose **Modify** again.  
+4. Choose **Modify** again.
 
 5. After the new workloads and components are installed, choose **Launch**.
 
@@ -62,7 +62,7 @@ If you don't want to use the handy Workloads feature to customize your Visual St
 
 ## Get support
 
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for help. You can also contact us for installation help by [live chat](https://www.visualstudio.com/vs/support/#talktous) (English only); for more information, see the [Visual Studio "Contact Us"  page](https://www.visualstudio.com/vs/support/#talktous).
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page for help. You can also contact us for installation help by [live chat](https://visualstudio.microsoft.com/vs/support/#talktous) (English only); for more information, see the [Visual Studio "Contact Us"  page](https://visualstudio.microsoft.com/vs/support/#talktous).
 
 Here are a few more support options:
 

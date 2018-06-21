@@ -37,7 +37,7 @@ Not all developers who are creating ClickOnce deployments plan to deploy the app
   
  For example, say that Adventure Works has a finance department and a human resources department. Both departments license a ClickOnce application from Microsoft Corporation that generates reports from data stored in a SQL database. Microsoft supplies each department with a version of the application that is customized for their data. If the applications are signed with the same Authenticode certificate, a user who tries to use both applications would encounter an error, as ClickOnce would regard the second application as being identical to the first. In this case, the customer could experience unpredictable and unwanted side effects that include the loss of any data stored locally by the application.  
   
- An additional problem related to code signing is the `deploymentProvider` element in the deployment manifest, which tells ClickOnce where to look for application updates. This element has to be added to the deployment manifest prior to signing it. If this element is added afterward, the deployment manifest must be re-signed.  
+ An additional problem related to code signing is the `deploymentProvider` element in the deployment manifest, which tells ClickOnce where to look for application updates. This element must be added to the deployment manifest prior to signing it. If this element is added afterward, the deployment manifest must be re-signed.  
   
 ### Requiring the Customer to Sign the Deployment Manifest  
  One solution to this problem of non-unique deployments is to have the developer sign the application manifest, and the customer sign the deployment manifest. While this approach works, it introduces other issues. Since an Authenticode certificate must remain a protected asset, the customer cannot just give the certificate to the developer to sign the deployment. While the customer can sign the deployment manifest themselves by using tools freely available with the .NET Framework SDK, this may require more technical knowledge than the customer is willing or able to provide. In such cases, the developer usually creates an application, Web site, or other mechanism through which the customer can submit their version of the application for signing.  
@@ -89,7 +89,7 @@ Not all developers who are creating ClickOnce deployments plan to deploy the app
  The drawback to the setup deployment project method is the time and expense required to build a custom deployment application.  
   
 ### Have Customer Generate Deployment Manifest  
- A third possible deployment strategy is to hand only the application files and application manifest off to the customer. In this scenario, the customer is responsible for using the .NET Framework SDK to generate and sign the deployment manifest.  
+ A third possible deployment strategy is to hand off only the application files and application manifest to the customer. In this scenario, the customer is responsible for using the .NET Framework SDK to generate and sign the deployment manifest.  
   
  The drawback of this method is that it requires the customer to install the .NET Framework SDK tools, and to have a developer or system administrator who is skilled at using them. Some customers may demand a solution that requires little or no technical effort on their part.  
   

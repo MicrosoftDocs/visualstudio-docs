@@ -59,7 +59,7 @@ Specifies a folder that will be added to the project.
 ## Remarks  
  `Folder` is an optional child of `Project`.  
   
- You can use any of the following methods to to organize project items into folders in a template:  
+ You can use any of the following methods to organize project items into folders in a template:  
   
 -   Include the folders in the template .zip file, and add them to the project in the .vstemplate file by specifying the path to the file in the `ProjectItem` elements, with no `Folder` elements. This is the recommended method. For example:  
   

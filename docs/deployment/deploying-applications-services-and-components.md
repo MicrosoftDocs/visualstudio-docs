@@ -1,5 +1,5 @@
 ---
-title: "Deployment Overview"
+title: "Deployment feature tour"
 description: "Learn about your options for deploying apps from Visual Studio."
 ms.custom: "mvc"
 ms.date: 11/26/2017
@@ -30,19 +30,36 @@ ms.workload:
 
 By deploying an application, service, or component, you distribute it for installation on other computers, devices, servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need. (Many app types support other deployment tools such as command line deployment or NuGet that are not described here.)
 
-See the Tutorials for step-by-step instructions.
+See the Tutorials for step-by-step deployment instructions. If you are deploying a web application and need more in-depth information to decide on the best deployment option from Visual Studio, see [What publishing options are right for me?](../ide/not-in-toc/web-publish-options.md).
 
-### Deploy to local folder
+## Deploy to local folder
 
-- **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and **.NET Core**: Use the Publish tool to deploy to a local folder. The exact options available depend on your app type. In Solution Explorer, right-click your project and choose **Publish**. (If you have previously configured any publishing profiles, you must then click **Create new profile**.) Next, choose **Folder**. For more information, see [Deploy to a local folder](quickstart-deploy-to-local-folder.md).
+Deployment to a local folder is typically used for testing or to begin a staged deployment in which another tool will be used for final deployment.
+
+- **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and .**NET Core**: Use the Publish tool to deploy to a local folder. The exact options available depend on your app type. In Solution Explorer, right-click your project and choose **Publish**. (If you have previously configured any publishing profiles, you must then click **Create new profile**.) Next, choose **Folder**. For more information, see [Deploy to a local folder](quickstart-deploy-to-local-folder.md).
 
     ![Choose Publish](../deployment/media/quickstart-publish.png)
 
 - **Visual C++ runtime**: You can deploy the Visual C++ runtime using local deployment or static linking. For more information, see [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp). 
 
-### Publish to Web or deploy to network share
+## Publish to Azure
 
-- **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and **.NET Core**: You can use the Publish tool to deploy to a website using FTP or Web Deploy. For more information, see [Deploy to a web site](quickstart-deploy-to-a-web-site.md).
+- **ASP.NET**, **ASP.NET Core**, **Python**, and **Node.js**: You can use the Publish tool to quickly deploy apps to Azure App Service or to an Azure Virtual Machine. In Solution Explorer, right-click the project and choose **Publish**. (If you have previously configured any publishing profiles, you must then click **Create new profile**.) In the Publish dialog box, choose either **App Service** or **Azure Virtual Machines**, and then follow the configuration steps.
+
+    ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
+
+    In Visual Studio 2017 version 15.7, you can deploy ASP.NET Core apps to **App Service for Linux**.
+
+    For information on importing a publish profile from Azure App Service to Visual Studio, see [Import publish settings and deploy to Azure](../deployment/tutorial-import-publish-settings-azure.md).
+
+    For a quick introduction, see [Publish to Azure](quickstart-deploy-to-azure.md). Also, see [Publish an ASP.NET Core app to Azure](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](/aspnet/core/publishing/azure-continuous-deployment).
+
+    > [!NOTE]
+    > If you do not already have an Azure account, you can [sign up here](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=doc&utm_campaign=visualstudio).
+
+## Publish to Web or deploy to network share
+
+- **ASP.NET**, **ASP.NET Core**, **Node.js**, and **Python**: You can use the Publish tool to deploy to a website using FTP or Web Deploy. For more information, see [Deploy to a web site](quickstart-deploy-to-a-web-site.md).
 
     In Solution Explorer, right-click the project and choose **Publish**. (If you have previously configured any publishing profiles, you must then click **Create new profile**.) In the Publish tool, choose the option you want and follow the configuration steps.
 
@@ -56,20 +73,7 @@ See the Tutorials for step-by-step instructions.
 
 - **Windows desktop** You can publish a Windows desktop application to a web server or a network file share using ClickOnce deployment. Users can then install the application with a single click. For more information, see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) and [Deploy a native app using ClickOnce](/cpp/ide/clickonce-deployment-for-visual-cpp-applications).
 
-### Publish to Azure
-
-- **ASP.NET, ASP.NET Core, Python, Node.js, and .NET Core** web applications: You can use the Publish tool to quickly deploy apps to Azure App Service or to an Azure Virtual Machine. In Solution Explorer, right-click the project and choose **Publish**. (If you have previously configured any publishing profiles, you must then click **Create new profile**.) In the Publish dialog box, choose either **Microsoft Azure App Service** or **Microsoft Azure Virtual Machines**, and then follow the configuration steps.
-
-    ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
-
-    For information on importing a publish profile from Azure App Service to Visual Studio, see [Import publish settings and deploy to Azure](../deployment/tutorial-import-publish-settings-azure.md).
-
-    For a quick introduction, see [Publish to Azure](quickstart-deploy-to-azure.md). Also, see [Publish an ASP.NET Core app to Azure](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](/aspnet/core/publishing/azure-continuous-deployment).
-
-    > [!NOTE]
-    > If you do not already have an Azure account, you can [sign up here](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=doc&utm_campaign=visualstudio).
-
-### Publish to Microsoft Store
+## Publish to Microsoft Store
 
 From Visual Studio, you can create app packages for deployment to Microsoft Store.
 
@@ -81,7 +85,13 @@ From Visual Studio, you can create app packages for deployment to Microsoft Stor
 
     ![Desktop bridge](../deployment/media/feature-tour-desktop-bridge.png)
 
-### Create an Installer package (Windows client)
+## Deploy to a device (UWP)
+
+If you are deploying a UWP app for testing on a device, see [Run UWP apps on a remote machine in Visual Studio](../debugger/run-windows-store-apps-on-a-remote-machine.md).
+
+## Create an Installer package (Windows client)
+
+If you require more a complex installation of a desktop application than [ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) can provide, you can create an installer package, a setup project, or a custom bootstrapper.
 
 - An MSI-based WiX installer can be created using the [WiX Toolset Visual Studio 2017 Extension](https://marketplace.visualstudio.com/items?itemName=RobMensching.WixToolsetVisualStudio2017Extension).
 
@@ -91,19 +101,26 @@ From Visual Studio, you can create app packages for deployment to Microsoft Stor
 
 - You can install prerequisite components for desktop applications by configuring a generic installer, which is known as a bootstrapper. For more information, see [Application Deployment Prerequisites](../deployment/application-deployment-prerequisites.md).
 
-### Deploy to test lab
+## Deploy to test lab
 
 You can enable more sophisticated development and testing by deploying your applications into virtual environments. For more information, see [Test on a lab environment](../test/lab-management/using-a-lab-environment-for-your-application-lifecycle.md).
 
-### DevOps deployment
+## DevOps deployment
 
 In a team environment, you can use Visual Studio Team Services (VSTS) to enable continuous deployment of your app. For more information, see [Build and Release](/vsts/build-release/index) and [Deploy to Azure](/vsts/deploy-azure/index).
 
-### Deployment for other app types
+## Deployment for other app types
 
 | App type | Deployment Scenario | Link |
 | --- | --- | --- |
 | **Office app** | You can publish an add-in for Office from Visual Studio. | [Deploy and publish your Office add-in](https://dev.office.com/docs/add-ins/publish/publish) |
 | **WCF or OData service**  | Other applications can use WCF RIA services that you deploy to a web server. | [Developing and deploying WCF Data Services](/dotnet/framework/data/wcf/developing-and-deploying-wcf-data-services) |
 | **LightSwitch** | LightSwitch is no longer supported in Visual Studio 2017, but can still be deployed from Visual Studio 2015 and earlier. | [Deploying LightSwitch Applications](http://msdn.microsoft.com/Library/4818d933-295c-4ecc-9148-7ad9ca28dcdb) | 
+
+## Next steps
+
+In this tutorial, you took a quick look at deployment options for different applications. If you are deploying a web application such as ASP.NET, read more in-depth about some of the deployment options available in Visual Studio.
+
+> [!div class="nextstepaction"]
+> [What publishing options are right for me?](../ide/not-in-toc/web-publish-options.md)
 

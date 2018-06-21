@@ -15,7 +15,7 @@ ms.workload:
   - "multiple"
 ---
 # CommentMarkProfile
-The `CommentMarkProfile` function inserts a numeric marker and a text string in the .vsp file. For the mark and comment to be inserted, profiling for the thread that contains the `CommentMarkProfile` function must be ON.  
+The `CommentMarkProfile` function inserts a numeric marker and a text string in the .*vsp* file. For the mark and comment to be inserted, profiling for the thread that contains the `CommentMarkProfile` function must be ON.  
   
 ## Syntax  
   
@@ -34,7 +34,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkProfile(
   
  Pointer to the text string to insert. The string must be less than 256 characters including the NULL terminator.  
   
-## Property Value/Return Value  
+## Property value/return value  
  The function indicates success or failure by using **PROFILE_COMMAND_STATUS** enumeration. The return value can be one of the following:  
   
 |Enumerator|Description|  
@@ -50,15 +50,15 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkProfile(
 ## Remarks  
  The profiling state for the thread that contains the mark profile function must be on when marks and comments inserted with the VSInstr Mark command or with functions (CommentMarkAtProfile, CommentMarkProfile, or MarkProfile).  
   
- Profile marks are global in scope. For example, a profile mark inserted in one thread can be used to mark the start or end of a data segment in any thread in the .vsp file.  
+ Profile marks are global in scope. For example, a profile mark inserted in one thread can be used to mark the start or end of a data segment in any thread in the .*vsp* file.  
   
 > [!IMPORTANT]
 >  CommentMarkProfile method can only be used with instrumentation.  
   
-## .NET Framework Equivalent  
+## .NET Framework equivalent  
  Microsoft.VisualStudio.Profiler.dll  
   
-## Function Information  
+## Function information  
   
 |||  
 |-|-|  
@@ -105,5 +105,5 @@ void ExerciseCommentMarkProfile()
 }  
 ```  
   
-## See Also  
- [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference-native.md)
+## See also  
+ [Visual Studio profiler API reference (native)](../profiling/visual-studio-profiler-api-reference-native.md)

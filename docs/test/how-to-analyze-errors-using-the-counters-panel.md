@@ -17,7 +17,7 @@ The Counters panel is visible in the Graphs view and the Tables view in the Load
 
  The **Errors** node in the Counters panel contains all the errors that were detected during the load test. The Errors node contains several sub-category error nodes that are specific to different kinds of errors. For example, **Exceptions** and **HTTP Errors**.
 
- ![Counter panel's error node](../test/media/ltest_errornode.png "LTest_ErrorNode")
+ ![Counter panel's error node](../test/media/ltest_errornode.png)
 
 ## To analyze errors in the Counters panel
 

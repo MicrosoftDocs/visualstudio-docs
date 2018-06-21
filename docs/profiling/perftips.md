@@ -14,7 +14,7 @@ ms.workload:
 # PerfTips
 Visual Studio debugger *PerfTips* and the debugger-integrated **Diagnostic Tools** help you to monitor and analyze the performance of your app while you are debugging.  
   
- Although the debugger-integrated diagnostic tools are a great way of becoming aware of performance issues while you are developing, the debugger can have a significant impact on the performance of your app. To collect more accurate performance data, consider using the Visual Studio diagnostics tools that run outside the debugger too as an additional part of your performance investigations. See [Run Profiling Tools with or without the Debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).  
+ Although the debugger-integrated diagnostic tools are a great way of becoming aware of performance issues while you are developing, the debugger can have a significant impact on the performance of your app. To collect more accurate performance data, consider using the Visual Studio diagnostics tools that run outside the debugger too as an additional part of your performance investigations. See [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).  
   
 ## PerfTips  
  When the debugger stops execution at a breakpoint or stepping operation, the elapsed time between the break and the previous breakpoint appears as a tip in the editor window. For more information, see [PerfTips: Performance Information at-a-glance while Debugging with Visual Studio](http://blogs.msdn.com/b/visualstudioalm/archive/2014/08/18/perftips-performance-information-at-a-glance-while-debugging-with-visual-studio.aspx).  
@@ -22,9 +22,9 @@ Visual Studio debugger *PerfTips* and the debugger-integrated **Diagnostic Tools
  ![PerfTip](../profiling/media/dbgdiag_perf_perftip.png "DBGDIAG_PERF_PerfTip")  
   
 ## Diagnostics Tools window  
- Breakpoints and associated timing data are recorded in the Diagnostic Tools window  
+ Breakpoints and associated timing data are recorded in the **Diagnostic Tools** window.  
   
- The following graphic shows the Diagnostic Tools window in Visual Studio 2015 Update 1:  
+ The following graphic shows the **Diagnostic Tools** window in Visual Studio 2015 Update 1:  
   
  ![DiagnosticTools&#45;Update1](../profiling/media/diagnostictools-update1.png "DiagnosticTools-Update1")  
   
@@ -50,6 +50,6 @@ Visual Studio debugger *PerfTips* and the debugger-integrated **Diagnostic Tools
   
 2.  Check or clear **Enable Diagnostics Tools while debugging**.
 
-## See Also
+## See also
  [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling Feature Tour](../profiling/profiling-feature-tour.md)
+ [First look at profiling tools](../profiling/profiling-feature-tour.md)

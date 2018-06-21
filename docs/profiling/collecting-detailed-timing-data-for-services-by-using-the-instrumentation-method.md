@@ -41,3 +41,4 @@ This section describes the procedures and options for collecting detailed perfor
   
 ### Analyze instrumentation data views and reports  
  [Instrumentation method data views](../profiling/instrumentation-method-data-views.md)
+

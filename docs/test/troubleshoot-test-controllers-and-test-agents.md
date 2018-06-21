@@ -39,7 +39,7 @@ This article covers some common problems you might encounter when you work with 
 
 3.  Edit the entry for the `EqtTraceLevel` switch in the system diagnostics section of the file. Your code should resemble this:
 
-    ```
+    ```xml
     <system.diagnostics>
         <trace autoflush="true" indentsize="4">
             <listeners>
@@ -131,7 +131,7 @@ This article covers some common problems you might encounter when you work with 
 
 -   Run the test agent installation again. This time, specify the IP address for the test controller instead of the test controller name.
 
- This applies to the test controller, the test agent service, and the test agent process. The `BindTo` property must be set for each process that is running on a computer that has more than one network adapter. The procedure to set the `BindTo` property is the same for all three processes, as specified earlier for the test controller. To set the logging levels for the test agent service and the test agent process, use the configuration files that are listed in [Setting the Logging Level on a Test Controller Computer](#Logging).
+ This applies to the test controller, the test agent service, and the test agent process. The `BindTo` property must be set for each process that is running on a computer that has more than one network adapter. The procedure to set the `BindTo` property is the same for all three processes, as specified earlier for the test controller. To set the logging levels for the test agent service and the test agent process, use the configuration files that are listed in [Setting the Logging Level on a Test Controller Computer](#setting-the-logging-level-on-a-test-controller-computer).
 
 ## See also
 

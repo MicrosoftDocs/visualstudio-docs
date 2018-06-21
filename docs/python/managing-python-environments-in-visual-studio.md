@@ -1,7 +1,7 @@
 ---
 title: Manage Python environments and interpreters
 description: Use the Python Environments window to manage global, virtual, and conda environments, installing Python interpreters and packages, and assigning environments to Visual Studio projects.
-ms.date: 05/07/2018
+ms.date: 06/07/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -17,7 +17,7 @@ ms.workload:
 
 A Python *environment* is a context in which you run Python code and includes global, virtual, and conda environments. An environment consists of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. These components together determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.
 
-In Visual Studio on Windows, the [Python Environments window](#the-python-environments-window) window, as described in this article, is where you manage these environments and select one as the default for new projects. For any given project, you can also select a specific environment rather than use the default.
+In Visual Studio on Windows, the [Python Environments window](#the-python-environments-window) window, as described in this article, is where you manage these environments and select one as the default for new projects. For any given project, you can also [select a specific environment](selecting-a-python-environment-for-a-project.md) rather than use the default.
 
 **Note**: if you're new to Python in Visual Studio, see the following articles for necessary background:
 
@@ -26,7 +26,7 @@ In Visual Studio on Windows, the [Python Environments window](#the-python-enviro
 
 Also note that you cannot manage environments for Python code that is opened only as a folder using the **File** > **Open** > **Folder** command. Instead, [Create a Python project from existing code](quickstart-01-python-in-visual-studio-project-from-existing-code.md) to enjoy the environment features of Visual Studio.
 
-If you want to install packages in an environment, refer to the [Packages tab](python-environments-window-tab-reference.md#packages-tab).
+If you want to install packages in an environment, refer to the [Packages tab reference](python-environments-window-tab-reference.md#packages-tab).
 
 ## Types of environments
 
@@ -51,10 +51,11 @@ A conda environment is one created using the `conda` tool, or with integrated co
 
 To see the conda version, where conda environments are stored, and other information, run `conda info` at an Anaconda command prompt (that is, a command prompt where Anaconda is in the path):
 
-```bash
+```cli
 conda info
 ```
-You conda environment folders appear as follows:
+
+Your conda environment folders appear as follows:
 
 ```output
        envs directories : c:\anaconda3\envs
@@ -81,17 +82,18 @@ In either case, the **Python Environments** window appears as a sibling tab to S
 
 ![Python Environments window](media/environments-default-view.png)
 
-The default environment in boldface is Python 3.6, which Visual Studio uses for any new projects. Any listed environment, of any type, can be used as the default.
+Visual Studio follows [PEP 514](https://www.python.org/dev/peps/pep-0514/) to identify installed environments using the registry. If you don't see an expected environment in the list, see [Manually identify an existing environment](#manually-identify-an-existing-environment).
 
-The commands in the lower part of the window apply to the selected interpreter, which as you can see is the specific installation in `C:\Python36-32` (the bolded default environment is part of an Anaconda installation). If you don't see an environment you expect, see [Manually identify an existing environment](#manually-identify-an-existing-environment).
+Selecting an environment in the list displays various properties and commands for that environment on the **Overview** tab. For example, you can see in the image above that the interpreter's location is `C:\Python36-32`. Use the drop-down list below the list of environments to switch to different tabs such as **Packages**, and **IntelliSense**. These tabs are described in [Python Environments window tab reference](python-environments-window-tab-reference.md).
 
-To the right of each listed environment is a control that opens an interactive window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appear that refreshes the IntelliSense database for that environment. See [Environments window reference](python-environments-window-tab-reference.md#intellisense-tab) for details about the database).
+Selecting an environment does not activate it in any way. The default environment, shown in boldface in the list, is the currently activated environment that Visual Studio uses for any new projects. To activate a different environment, use the **Make this the default environment for new projects** command. Within the context of a project you can always activate a different environment. For more information, see [Selecting an environment for a project](selecting-a-python-environment-for-a-project.md).
 
-Below the list of environments is a drop-down selector for the **Overview**, **Packages**, and **IntelliSense** options described in [Python Environments window tab reference](python-environments-window-tab-reference.md). Also, if you expand the **Python Environments** window wide enough, these options are shown as tabs, which you may find more convenient to work with:
+To the right of each listed environment is a control that opens an interactive window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appear that refreshes the IntelliSense database for that environment. See [Environments window tab reference](python-environments-window-tab-reference.md#intellisense-tab) for details about the database).
 
-![Python Environments window expanded view](media/environments-expanded-view.png)
-
-In the above image you can see the full list of environments on this particular computer, along with additional commands to create environments.
+> [!Tip]
+> When you expand the **Python Environments** window wide enough, you get a fuller view of your environments that you may find more convenient to work with.
+>
+> ![Python Environments window expanded view](media/environments-expanded-view.png)
 
 > [!Note]
 > Although Visual Studio respects the system-site-packages option, it doesn't provide a way to change it from within Visual Studio.
@@ -111,7 +113,27 @@ If you know you have a Python interpreter on your computer but Visual Studio (an
 >
 > However, if you manually move an interpreter and its environment using the file system, Visual Studio won't know the new location. For more information, see [Moving an interpreter](installing-python-interpreters.md#moving-an-interpreter).
 
-<a name="manually-identifying-an-existing-environment></a>
+## Fix invalid environments
+
+If Visual Studio finds registry entries for an environment, but the path to the interpreter is invalid, then the Python Environments window shows the name with a strikeout font:
+
+![The Python Environments window showing an invalid environment](media/environments-invalid-entry.png)
+
+To correct an environment you wish to keep, first try using its installer's **Repair** process. The installers for standard Python 3.x, for example, include that option.
+
+To correct an environment that doesn't have a repair option, or to remove an invalid environment, use the following steps to modify the registry directly. Visual Studio automatically updates the Python Environments window when you make changes to the registry.
+
+1. Run `regedit.exe`.
+1. Navigate to `HKEY_LOCAL_MACHINE\SOFTWARE\Python` for 32-bit interpreters, or `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Python` for 64-bit interpreters.
+1. Expand the node that matches the distribution, such as `PythonCore` for CPython or `ContinuumAnalytics` for Anaconda.
+1. Inspect the values under the `InstallPath` node:
+
+    ![Registry entries for a typical CPython installation](media/environments-registry-entries.png)
+
+    - If the environment still exists on your computer, change the value of `ExecutablePath` to the correct location. Also correct the `(Default)` and `WindowedExecutablePath` values as necessary.
+    - If the environment no longer exists on your computer and you want to remove it from the Python Environments window, delete the parent node of `InstallPath`, such as `3.6` in the image above.
+
+<a name="manually-identifying-an-existing-environment"></a>
 
 ## Manually identify an existing environment
 

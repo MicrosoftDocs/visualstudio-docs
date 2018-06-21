@@ -15,9 +15,9 @@ Visual Studio for Mac can be used to build applications and create assemblies du
 
 Using Visual Studio for Mac lets you create and run builds instantly, while still giving you control over build functionality. Visual Studio for Mac uses MSBuild as the underlying build system.
 
-All Projects and Solutions created in the IDE will have a default build configuration, which define the context for builds. These configurations can be edited or you can create your own. Creating or modifying these configurations will automatically update the project file, which is then used by MSBuild to build your project.  
+All Projects and Solutions created in the IDE will have a default build configuration, which define the context for builds. These configurations can be edited or you can create your own. Creating or modifying these configurations will automatically update the project file, which is then used by MSBuild to build your project.
 
-For more information regarding how to build projects and solutions in the IDE, see the [Building and cleaning Projects and Solutions](~/building-and-cleaning-projects-and-solutions.md) guide.
+For more information regarding how to build projects and solutions in the IDE, see the [Building and cleaning Projects and Solutions](building-and-cleaning-projects-and-solutions.md) guide.
 
 Visual Studio for Mac can also be used to do the following:
 
@@ -37,9 +37,9 @@ Visual Studio for Mac can also be used to do the following:
 
 You can use MSBuild Build Engine to build applications via the command line.
 
-See the [MSBuild](https://docs.microsoft.com/visualstudio/msbuild/msbuild) content for more information on using MSBuild.
+See the [MSBuild](/visualstudio/msbuild/msbuild) content for more information on using MSBuild.
 
 ## Building from Visual Studio Team Services
 
-* [Build your Xamarin App](https://www.visualstudio.com/docs/build/apps/mobile/xamarin)
+* [Build your Xamarin App](/vsts/pipelines/apps/mobile/xamarin?view=vsts&tabs=vsts)
 * [Continuous Integration with Xamarin](https://developer.xamarin.com/guides/cross-platform/ci/)

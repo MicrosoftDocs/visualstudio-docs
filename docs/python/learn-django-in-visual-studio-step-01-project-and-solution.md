@@ -29,11 +29,13 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-- Visual Studio 2017 with the following options:
+- Visual Studio 2017 on Windows with the following options:
   - The **Python development** workload (**Workload** tab in the installer). For instructions, see [Installing Python support in Visual Studio](installing-python-support-in-visual-studio.md).
   - **Git for Windows** and **GitHub Extension for Visual Studio** on the **Individual components** tab under **Code tools**.
 
 Django project templates are also included with all earlier versions of Python Tools for Visual Studio, though details may differ from what's discussed in this tutorial (especially different with earlier versions of the Django framework).
+
+Python development is not presently supported in Visual Studio for Mac. On Mac and Linux, use the [Python extension in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial).
 
 ### "Visual Studio projects" and "Django projects"
 
@@ -112,7 +114,7 @@ Answer: Yes. To disable auto-commit, go to the **Settings** page in **Team Explo
 
 ## Step 1-3: Create the virtual environment and exclude it from source control
 
-Now that you've configured source control for your project, you can create the virtual environment the necessary Django packages that the project requires. You can then use **Team Explorer** to exclude the environment's folder from source control.
+Now that you've configured source control for your project, you can create the virtual environment that contains the necessary Django packages for the project. You can then use **Team Explorer** to exclude the environment's folder from source control.
 
 1. In **Solution Explorer**, right-click the **Python Environments** node and select **Add Virtual Environment**.
 

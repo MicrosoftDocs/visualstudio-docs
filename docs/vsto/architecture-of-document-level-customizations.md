@@ -54,7 +54,7 @@ ms.workload:
 #### Design time  
  The design-time experience includes the following steps:  
   
-1.  The developer creates a document-level project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. The project includes the document and the assembly that runs behind the document. The document might already exist (perhaps created by a designer), or a new document can be created along with the project.  
+1.  The developer creates a document-level project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. The project includes the document and the assembly that runs behind the document. The document might already exist (created by a designer), or a new document can be created along with the project.  
   
 2.  The designer—either the developer who creates the project or someone else—creates the final look and feel of the document for the end user.  
   
@@ -67,7 +67,7 @@ ms.workload:
   
 3.  The assembly responds to events as the user works in the document or workbook.  
   
-#### Developer and end user perspective compared  
+#### Developer and end-user perspective compared  
  Because the developer works primarily in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], and the end user works in Word or Excel, there are two ways of understanding document-level customizations.  
   
 |Developer's Perspective|End User's Perspective|  
@@ -101,7 +101,7 @@ ms.workload:
  Customizations use deployment manifests and application manifests to identify and load the most current version of the customization assembly. The deployment manifest points to the current application manifest. The application manifest points to the customization assembly, and specifies the entry point class (or classes) to execute in the assembly. For more information, see [Application and deployment manifests in Office solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md).  
   
 ### Visual Studio Tools for Office Runtime  
- To run document-level customizations that are created by using the Office developer tools in Visual Studio, end user computers must have the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] installed. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] includes unmanaged components that load the customization assembly, and also a set of managed assemblies. These managed assemblies provide the object model that your customization code uses to automate and extend the host application.  
+ To run document-level customizations that are created by using the Office developer tools in Visual Studio, end-user computers must have the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] installed. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] includes unmanaged components that load the customization assembly, and also a set of managed assemblies. These managed assemblies provide the object model that your customization code uses to automate and extend the host application.  
   
  For more information, see [Visual Studio tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).  
   

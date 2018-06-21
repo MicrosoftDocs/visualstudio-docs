@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: douge
-ms.date: 05/08/2018
+ms.date: 06/18/2018
 ms.topic: reference
 helpviewer_keywords:
 ms.prod: visual-studio-dev15
@@ -19,6 +19,11 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.7.4 | Release | June 18, 2018 | 15.7.27703.2035 |
+| 15.7.3 | Release | May 31, 2018 | 15.7.27703.2026 |
+| 15.0.14 | Release | May 31, 2018 | 15.0.26228.37 |
+| 15.8.0 Preview 2.0 | Preview | May 31, 2018 | 15.8.27729.1 |
+| 15.7.2 | Release | May 21, 2018 | 15.7.27703.2018 |
 | 15.8.0 Preview 1.1 | Preview | May 8, 2018 | 15.8.27705.2000 |
 | 15.7.1 | Release | May 8, 2018 | 15.7.27703.2000 |
 | 15.8.0 Preview 1.0 | Preview | May 7, 2018 | 15.8.27705.0 |
@@ -124,7 +129,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 ## Get support
 
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
 
 Here are a few more support options:
 

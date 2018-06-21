@@ -15,7 +15,7 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# Assign Roles to a Test Controller and Test Agent
+# Assign roles to a test controller and test agent
 
 This walkthrough demonstrates how to create and configure a test setting that uses a test controller and test agent to distribute testing across several machines using Visual Studio. In addition, this walkthrough demonstrates how to add diagnostic and data adapters to the test setting.
 
@@ -35,7 +35,7 @@ In this walkthrough, you will complete the following tasks:
 
 ## To create and configure a test setting
 
-1.  In Solution Explorer, right-click **Solution Items,** point to **Add**, and then choose **New Item**.
+1.  In **Solution Explorer**, right-click **Solution Items,** point to **Add**, and then choose **New Item**.
 
      The **Add New Item** dialog box appears.
 
@@ -45,7 +45,7 @@ In this walkthrough, you will complete the following tasks:
 
 4.  Choose **Add**.
 
-     The new test TestSettingDistributedTestWalkthrough.testsettings file appears in Solution Explorer, under the **Solution Items** folder.
+     The new test *TestSettingDistributedTestWalkthrough.testsettings* file appears in **Solution Explorer**, under the **Solution Items** folder.
 
      The **Test Settings** dialog box is displayed. The **General** page is selected.
 

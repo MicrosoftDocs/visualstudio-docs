@@ -46,13 +46,13 @@ Counter data is gathered on the server and on any computer where a test is run. 
 
 There are three counter categories: percentages, counts, and averages. Some examples are % CPU usage, SQL Server lock counts, and IIS requests per second.
 
-![Load Test Counter Sets](../test/media/loadtestcountersets.png "LoadTestCounterSets")
+![Load Test Counter Sets](../test/media/loadtestcountersets.png)
 
 Performance data for individual HTTP requests is reported by the computer that runs a test. such as an agent computer. For requests, you might monitor data such as Average Time to First Byte, Response Time, and Requests per Second.
 
 To ease collection of performance data on a Web server, Visual Studio Enterprise also provides predefined, named counter sets, based on technology for use in load tests. These sets are useful when you are analyzing a server that is running IIS, ASP.NET, or SQL Server. Counters not provided in the default set of counter can be added by using the Load Test Editor. It is important that you add the computers or servers under test to your load test to make sure that you can monitor resource use on these computers. For more information, see [How to: Manage Counter Sets](../test/how-to-manage-counter-sets-using-the-load-test-editor.md).
 
-Results analysis of load runs frequently requires domain-specific knowledge of a particular area in order to know what data to gather, where to set threshold rules, and how to tell when a measurement reflects a specific problem in the application. For more information, see [About Threshold Rules](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md#SpecifyingCounterSetsThresholdRulesAboutThresholdRules).
+Results analysis of load runs frequently requires domain-specific knowledge of a particular area in order to know what data to gather, where to set threshold rules, and how to tell when a measurement reflects a specific problem in the application. For more information, see [About Threshold Rules](#about-threshold-rules).
 
 ### Performance Counter Sampling Interval Considerations
 

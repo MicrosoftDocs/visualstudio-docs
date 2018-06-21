@@ -60,7 +60,7 @@ Project types must register the directories where their project and project-item
 |SortPriority|REG_DWORD|Set SortPriority to govern the order in which templates are displayed in the **Add New Item** dialog box. Larger SortPriority values appear earlier in the template list.|  
   
 ### Registering file filters  
- Optionally, you can register filters that [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] uses when it prompts for file names. For example, the [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] filter for the the **Open File** dialog box is:  
+ Optionally, you can register filters that [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] uses when it prompts for file names. For example, the [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] filter for the **Open File** dialog box is:  
   
  **Visual C# Files (\*.cs,\*.resx,\*.settings,\*.xsd,\*.wsdl);\*.cs,\*.resx,\*.settings,\*.xsd,\*.wsdl)**  
   

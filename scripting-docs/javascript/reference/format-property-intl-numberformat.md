@@ -43,7 +43,7 @@ var nf = new Intl.NumberFormat(["en-US"], {
     style: "currency",  
     currency: "CNY",  
     currencyDisplay: "symbol",  
-    maximumFractionDigit: 1  
+    maximumFractionDigits: 1  
 })  
   
 if (console && console.log) {  

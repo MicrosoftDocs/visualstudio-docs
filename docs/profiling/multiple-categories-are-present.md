@@ -15,14 +15,14 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Multiple Categories Are Present
+# Multiple categories are present
 A section that contains more than one kind of activity for a given time range is selected. Notice that two colors are displayed, one vertically stacked on the other. These colors represent just the top two most frequent activities in the given time range. The frequencies of these two activities are shown relative to one another as thirds or halves of the vertical bar. To see more detail, try zooming in on this section of the thread view.  
   
-## See Also  
- [Execution Time (Threads View)](../profiling/execution-time-threads-view.md)   
- [I/O Time (Threads View)](../profiling/i-o-time-threads-view.md)   
- [Memory Management Time](../profiling/memory-management-time.md)   
- [Preemption Time](../profiling/preemption-time.md)   
- [Sleep Time](../profiling/sleep-time.md)   
- [Synchronization Time](../profiling/synchronization-time.md)   
- [UI Processing Time](../profiling/ui-processing-time.md)
+## See also  
+ [Execution time (Threads View)](../profiling/execution-time-threads-view.md)   
+ [I/O time (Threads View)](../profiling/i-o-time-threads-view.md)   
+ [Memory management time](../profiling/memory-management-time.md)   
+ [Preemption time](../profiling/preemption-time.md)   
+ [Sleep time](../profiling/sleep-time.md)   
+ [Synchronization time](../profiling/synchronization-time.md)   
+ [UI Processing time](../profiling/ui-processing-time.md)

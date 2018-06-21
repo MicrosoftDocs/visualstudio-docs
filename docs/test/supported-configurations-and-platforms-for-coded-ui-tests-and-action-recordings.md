@@ -4,11 +4,11 @@ ms.date: 2015-10-04
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: reference
-helpviewer_keywords: 
+helpviewer_keywords:
   - "coded UI tests"
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -64,7 +64,7 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
 |Citrix/Terminal Services|We don't recommend recording actions on a terminal server. The recorder doesn't support running multiple instances at the same time.|
 |PowerBuilder|Partially supported.<br /><br /> The support is to the extent accessibility is enabled for PowerBuilder controls.|
 
- For information about how to create extensions to support other platforms, see [Enable Coded UI Testing of Your Controls](../test/enable-coded-ui-testing-of-your-controls.md) and [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md).
+ For information about how to create extensions to support other platforms, see [Enable Coded UI Testing of Your Controls](../test/enable-coded-ui-testing-of-your-controls.md) and [Extending Coded UI Tests and Action Recordings](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md).
 
 ## See also
 

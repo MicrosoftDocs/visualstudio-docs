@@ -1,7 +1,7 @@
 ---
 title: "Target Build Order | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "06/06/2018"
 ms.technology: msbuild
 ms.topic: "conceptual"
 helpviewer_keywords: 
@@ -110,7 +110,7 @@ Targets must be ordered if the input to one target depends on the output of anot
   
 4.  Before a target is executed, its `DependsOnTargets` targets are run.  
   
-5.  Before a target is executed, any target that lists it in a `BeforeTargets` attribute is run.  
+5.  Before a target is executed or skipped, any target that lists it in a `BeforeTargets` attribute is run.  
   
 6.  Before a target is executed, its `Inputs` attribute and `Outputs` attribute are compared. If MSBuild determines that any output files are out of date with respect to the corresponding input file or files, then MSBuild executes the target. Otherwise, MSBuild skips the target.  
   

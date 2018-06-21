@@ -11,7 +11,7 @@ At present, the Blank Django Web Project template uses the latest Django 1.x ver
 
 1. Run `pip install django` to install the latest Django package in your global Python environment.
 
-1. Run `django-admin startproject <project_name>` replacing `<project_name>` with the same project name used in Step 1, such as "HelloDjango". The `startproject` command creates a `manage.py` file along with a folder matching `<project_name>` that contains the files `__init.py__`, `settings.py`, `urls.py`, and `wsgi.py`.
+1. Run `django-admin startproject <project_name>` replacing `<project_name>` with the same project name used in Step 1, such as "HelloDjango". The `startproject` command creates a `manage.py` file along with a folder matching `<project_name>` that contains the files `__init__.py`, `settings.py`, `urls.py`, and `wsgi.py`.
 
 1. In Visual Studio, replace the Django 1.x files in the project with the Django 2.x files as follows:
 

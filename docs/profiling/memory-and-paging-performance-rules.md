@@ -11,7 +11,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Memory and Paging Performance Rules
+# Memory and paging performance rules
 Performance rules in the memory and paging category identify paging activity in a profiling run that can impact application performance and responsiveness.  
   
 |||  

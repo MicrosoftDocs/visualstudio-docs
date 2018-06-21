@@ -16,12 +16,12 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# ProjectOutputFile Element
+# ProjectOutputFile element
   Represents the output of a separate project to include with the project item when it is deployed to SharePoint.  
   
 ## Syntax  
   
-```  
+```xml  
 <ProjectOutputFile ProjectId = "GUID of the project"  
     ProjectPath = "Relative path of the project"  
     Target = "Deployment path of the project output"  
@@ -31,7 +31,7 @@ ms.workload:
 ## Type  
  **ProjectOutputFileType**  
   
-## Attributes and Elements  
+## Attributes and elements
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -43,10 +43,10 @@ ms.workload:
 |**Target**|Optional **xs:string** attribute.<br /><br /> The path where the dependent project output is to be deployed on the SharePoint server, relative to the deployment root folder. The deployment root folder is determined by the deployment type specified by the **Type** attribute.<br /><br /> For more information, see the descriptions for the **Deployment Path** and **Deployment Root** properties of SharePoint project items in [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md).|  
 |**Type**|Required **xs:string** attribute.<br /><br /> The type of deployment to use for the output of the dependent project. For more information about the possible values, see the description for the **Deployment Type** property of SharePoint project items in [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md).|  
   
-### Child Elements  
+### Child elements
  None.  
   
-### Parent Elements  
+### Parent elements
   
 |Element|Description|  
 |-------------|-----------------|  
@@ -55,18 +55,17 @@ ms.workload:
 ## Remarks  
  Use the **ProjectOutputFile** element to include the output of a project in the deployment of the SharePoint project item. You can specify a different project, or the same project that contains the project item. For more information, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md).  
   
-## Element Information  
+## Element information
   
 |||  
 |-|-|  
-|**Namespace**|http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel|  
+|**Namespace**|http<nolink>://schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|  
 |**Schema name**|SharePoint Project Item Schema|  
 |**Validation file**|ProjectItemModelSchema.xsd|  
 |**Can be empty**|No|  
   
-## See Also  
+## See also
  [SharePoint Project Item Schema Reference](../sharepoint/sharepoint-project-item-schema-reference.md)   
  [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)   
  [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
-  
   

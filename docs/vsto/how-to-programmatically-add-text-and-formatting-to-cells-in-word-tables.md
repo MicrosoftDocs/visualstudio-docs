@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically Add Text and Formatting to Cells in Word Tables | Microsoft Docs"
+title: "How to: Programmatically add text and formatting to cells in Word tables"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -19,12 +19,12 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Programmatically Add Text and Formatting to Cells in Word Tables
+# How to: Programmatically add text and formatting to cells in Word tables
   Each table consists of a collection of cells. Each individual <xref:Microsoft.Office.Interop.Word.Cell> object represents one cell in the table. You refer to each cell by its location in the table. This example refers to the cell located in the first row and the first column of the table; adds text to the cell; and applies formatting.  
   
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]  
   
-### To add text and formatting to cells  
+## To add text and formatting to cells  
   
 1.  Refer to the cell by its location in the table, add text to the cell, and apply the formatting.  
   
@@ -38,9 +38,9 @@ ms.workload:
      [!code-vb[Trin_VstcoreWordAutomationAddIn#97](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#97)]
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#97](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#97)]  
   
-## See Also  
- [How to: Programmatically Create Word Tables](../vsto/how-to-programmatically-create-word-tables.md)   
- [How to: Programmatically Add Rows and Columns to Word Tables](../vsto/how-to-programmatically-add-rows-and-columns-to-word-tables.md)   
- [How to: Programmatically Populate Word Tables with Document Properties](../vsto/how-to-programmatically-populate-word-tables-with-document-properties.md)  
+## See also  
+ [How to: Programmatically create Word tables](../vsto/how-to-programmatically-create-word-tables.md)   
+ [How to: Programmatically add rows and columns to Word tables](../vsto/how-to-programmatically-add-rows-and-columns-to-word-tables.md)   
+ [How to: Programmatically populate Word tables with document properties](../vsto/how-to-programmatically-populate-word-tables-with-document-properties.md)  
   
   

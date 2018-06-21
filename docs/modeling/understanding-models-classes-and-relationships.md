@@ -20,13 +20,13 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
 ## The DSL Definition
  When you open `Dsl\DslDefinition.dsl`, your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window resembles the following picture.
 
- ![dsl designer](../modeling/media/dsl_designer.png "dsl_designer")
+ ![dsl designer](../modeling/media/dsl_designer.png)
 
  The most important information in the DSL Definition is displayed in the DSL Definition diagram. Additional information, which is also part of DslDefinition.dsl, is displayed in DSL Explorer, which usually appears at the side of the diagram. You work with the diagram for the most frequent tasks, and with DSL Explorer for more advanced customizations.
 
  The DSL Definition diagram shows the domain classes that define model elements, and the relationships that define links between model elements. It also shows the shapes and connectors that are used to display the model elements to the user.
 
- ![dsl designer with swimlane](../modeling/media/dsl_desinger.png "dsl_desinger")
+ ![dsl designer with swimlane](../modeling/media/dsl_desinger.png)
 
  When you select an item in the DSL definition, either on the diagram or in DSL Explorer, information about it is displayed in the Properties window. Additional information may be displayed in the DSL Details window.
 
@@ -40,13 +40,13 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
 
  This illustration shows a model that has been created by the user of a music library DSL. Music albums are represented by boxes that contain lists of songs. Artists are represented by round-cornered boxes, and are connected to the albums to which they have contributed.
 
- ![Instance model of generated DSL](../modeling/media/music_instance.png "Music_Instance")
+ ![Instance model of generated DSL](../modeling/media/music_instance.png)
 
  The DSL Definition separates two aspects. The appearance of the model elements on the model diagram is defined by using shape classes and connector classes. The information carried in the model is defined using domain classes and domain relationships.
 
  The following illustration shows the domain classes and relationships in the DSL Definition of the Music Library.
 
- ![Embedding and Reference relationships](../modeling/media/music_classes.png "Music_Classes")
+ ![Embedding and Reference relationships](../modeling/media/music_classes.png)
 
  The illustration shows four domain classes: Music, Album, Artist and Song. The domain classes define domain properties such as Name, Title, and so on. In the instance model, the values of some of these properties are displayed on the diagram.
 
@@ -99,7 +99,7 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
 ### The Explorer Displays the Embedding Tree
  Your DSL Definition also creates an explorer, which users see alongside their model diagram.
 
- ![Generated explorer of DSL](../modeling/media/music_explorer.png "Music_Explorer")
+ ![Generated explorer of DSL](../modeling/media/music_explorer.png)
 
  The explorer shows all the elements in the model, even those for which you have not defined any shapes. It shows elements and embedding relationships, but not reference relationships.
 
@@ -117,7 +117,7 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
 
  In the following picture, the line between the **Publisher** domain class and the **PublisherCatalog** domain relationship is the source role. The line between the domain relationship and the **Album** domain class is the target role.
 
- ![Roles and properties.](../modeling/media/propertycode.png "PropertyCode")
+ ![Roles and properties.](../modeling/media/propertycode.png)
 
  The names associated with a relationship are especially important when you write program code that traverses the model. For example, when you build the DSL solution, the generated class Publisher has a property Catalog that is a collection of Albums. The class Album has a property Publisher that is a single instance of the class Publisher.
 
