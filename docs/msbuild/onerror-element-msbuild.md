@@ -30,7 +30,7 @@ Causes one or more targets to execute, if the `ContinueOnError` attribute is `fa
 
 ## Syntax  
 
-```  
+```xml  
 <OnError ExecuteTargets="TargetName"  
     Condition="'String A'=='String B'" />  
 ```  
