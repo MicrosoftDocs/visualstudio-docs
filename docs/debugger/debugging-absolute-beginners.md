@@ -15,9 +15,13 @@ ms.workload:
 ---
 # How to debug for absolute beginners
 
-If you are getting ready to try out a debugging tool like Visual Studio and this is the first time that you've tried to debug an application, then you're in the right place. When you use a debugger for the first time, it's normal to hope (and expect) that whatever debugging tool you're using will magically show you all the bugs in your code. Unfortunately, it's not that easy. Debugging is a learned skill, and it takes time and practice to learn how to debug effectively. So before we teach you how to debug, we give you some general tips and principles.
+Learn the very basics of how to debug using a debugger. If you are getting ready to try out a debugging tool like Visual Studio and this is the first time that you've tried to debug an application, then you're in the right place. When you use a debugger for the first time, it's normal to hope (and expect) that whatever debugging tool you're using will magically show you all the bugs in your code. Unfortunately, it's not that easy. Debugging is a learned skill, and it takes time and practice to learn how to debug effectively. So before we teach you how to debug, we give you some general tips and principles.
 
-First, it might be helpful to answer some basic questions such as "What is debugging?" and "What is debugging mode?" *Debugging* is the process of removing bugs from your code. In the context of a debugging tool like Visual Studio, *debugging mode* means running your app (executing code) while the Visual Studio debugger is attached to your application. With the debugger attached, you can see what your code is doing while it runs. For example, you can inspect your app state (look at variables), see what functions are getting called, and try to find bugs. In the docs, when we want you to enter debugging mode, we usually just say "Start the debugger" or "Run your app in the debugger".
+First, it might be helpful to answer some basic questions such as "What is debugging?" and "What is debugging mode?"
+
+* *Debugging* is the process of removing bugs from your code. In the context of a debugging tool like Visual Studio.
+
+* *Debugging mode* means running your app (executing code) while the Visual Studio debugger is attached to your application. With the debugger attached, you can see what your code is doing while it runs. For example, you can inspect your app state (look at variables), see what functions are getting called, and try to find bugs. In the docs, when we want you to enter debugging mode, we usually just say "Start the debugger" or "Run your app in the debugger".
 
 ## Clarify the problem by asking yourself the right questions
 
@@ -27,7 +31,7 @@ It helps to clarify the problem that you ran into before you try to fix it. We e
 
 * What happened instead?
 
-    If you ran into an error (exception) while running your app, that can be a good thing! The [Exception Helper](../debugger/debugger-feature-tour.md#exception) in Visual Studio puts your app into debugging mode, takes you to the exact place in your code where the exception occurred, and gives you an error message to help you investigate possible fixes. (But before you investigate, finish reading this article.)
+    If you ran into an error (exception) while running your app, that can be a good thing! An exception is an unexpected event encountered when running code, typically an error of some kind. The [Exception Helper](../debugger/debugger-feature-tour.md#exception) in Visual Studio puts your app into debugging mode, takes you to the exact place in your code where the exception occurred, and gives you an error message to help you investigate possible fixes. (But before you investigate, finish reading this article.)
 
     If something else happened, what is the symptom of the problem? Do you already suspect where this problem occurred in your code? For example, if your code displays some text, but the text is incorrect, you know that either your data is bad or the code that set the display text has some kind of bug. To fix a problem like this, you most likely need to start your application with the Visual Studio debugger attached and look at your variables. (But first, continue reading this article.)
 
@@ -35,7 +39,7 @@ It helps to clarify the problem that you ran into before you try to fix it. We e
 
 Before you investigate a bug or an error, think of the assumptions that made you expect a certain result. This may be a long list, so here are a few examples of assumptions that are easy to make but not necessarily true.
 
-* You are using the right API. An API that you're using might not do what you think it does. (After you examine the API call in the debugger, fixing it may require a trip to the documentation to help identify the correct API.)
+* You are using the right API (that is, the right object, function, method, or property). An API that you're using might not do what you think it does. (After you examine the API call in the debugger, fixing it may require a trip to the documentation to help identify the correct API.)
 
 * You are using an API correctly. Maybe you used the right API, but didn't use it in the right way.
 
@@ -48,6 +52,9 @@ Before you investigate a bug or an error, think of the assumptions that made you
 * You expected an object or variable to store a certain value (or a certain type of value), but it doesn't.
 
 * You understand this code well enough to debug it. It is often more difficult to debug someone else's code. If it's not your code, it's possible you might need to spend time learning what the code does before you can debug it effectively.
+
+    > [!TIP]
+    > Start small, and start with code that works! Sometimes, it is easier to fix a large or complicated set of code by starting with a small piece of code that demonstrates the core task you are trying to achieve (that is, copy a working sample). Then, you can modify or add code incrementally, testing at each point for errors.
 
 By knowing your assumptions, you may reduce the time it takes to find a problem in your code. You may also reduce the time it takes to fix a problem.
 
