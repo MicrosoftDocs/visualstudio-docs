@@ -2651,5 +2651,10 @@
             "redirect_url": "/azure/dev-spaces/troubleshooting",
             "redirect_document_id": false
         }
+        {
+            "source_path": "scripting-docs/javascript/reference/scriptengine-function-javascript.md",
+            "redirect_url": "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/ScriptEngine",
+            "redirect_document_id":  false
+        }
     ]
 }
