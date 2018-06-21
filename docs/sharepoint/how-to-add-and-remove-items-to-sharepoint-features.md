@@ -29,7 +29,7 @@ ms.workload:
   
 1.  Open the Feature Designer.  
   
-     For more information, see [How to: Customize a SharePoint Feature](../sharepoint/how-to-customize-a-sharepoint-feature.md).  
+     For more information, see [How to: Customize a SharePoint feature](../sharepoint/how-to-customize-a-sharepoint-feature.md).  
   
 2.  Add one or more items from the **Items in the Solution** list to the **Items in the Feature** list by performing one or more of the following steps:  
   
@@ -52,6 +52,6 @@ ms.workload:
      The SharePoint Project Items appear in the **Items in the Solution** list.  
   
 ## See also
- [Creating SharePoint Features](../sharepoint/creating-sharepoint-features.md)   
- [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
+ [Create SharePoint features](../sharepoint/creating-sharepoint-features.md)   
+ [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
   

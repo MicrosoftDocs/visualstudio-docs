@@ -78,5 +78,5 @@ ms.workload:
 3.  To remove a mapped folder from the project, open its shortcut menu, choose **Delete**, and then choose the **OK** button in the dialog box to confirm the removal.  
   
 ## See also
- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
+ [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)  
   

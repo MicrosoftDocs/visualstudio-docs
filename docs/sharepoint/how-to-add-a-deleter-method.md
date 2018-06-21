@@ -26,7 +26,7 @@ ms.workload:
   - "office"
 ---
 # How to: Add a Deleter method
-  You can enable an end user to delete a data record from an external list on a SharePoint site by adding a Deleter method to the model. For more information, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).  
+  You can enable an end user to delete a data record from an external list on a SharePoint site by adding a Deleter method to the model. For more information, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).  
   
 ### To create a Deleter method  
   
@@ -34,7 +34,7 @@ ms.workload:
   
 2.  On the menu bar, choose **View** > **Other Windows** > **BDC Method Details**.  
   
-     The **BDC Method Details** window opens. For more information about this window, see [BDC Model Design Tools Overview](../sharepoint/bdc-model-design-tools-overview.md).  
+     The **BDC Method Details** window opens. For more information about this window, see [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md).  
   
 3.  In the **Add a Method** list, choose **Create a Deleter Method**.  
   
@@ -48,11 +48,11 @@ ms.workload:
   
     -   A method instance for the method.  
   
-     For more information, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).  
+     For more information, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).  
   
 4.  In **Solution Explorer**, open the shortcut menu of the service code file that was generated for the entity, and then choose **View Code**.  
   
-     The entity service code file opens in the Code Editor. For more information about the entity service code file, see [Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md).  
+     The entity service code file opens in the Code Editor. For more information about the entity service code file, see [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md).  
   
 5.  Add code to the Deleter method to delete a record. The following example deletes a line item from a sales order by using the AdventureWorks sample database for SQL Server.  
   
@@ -66,13 +66,13 @@ ms.workload:
      [!code-vb[SP_BDC#6](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderdetailservice.vb#6)]  
   
 ## See also
- [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)   
- [How to: Add a Finder Method](../sharepoint/how-to-add-a-finder-method.md)   
- [How to: Add a Specific Finder Method](../sharepoint/how-to-add-a-specific-finder-method.md)   
- [How to: Add a Creator Method](../sharepoint/how-to-add-a-creator-method.md)   
- [How to: Add an Updater Method](../sharepoint/how-to-add-an-updater-method.md)   
- [BDC Model Design Tools Overview](../sharepoint/bdc-model-design-tools-overview.md)   
- [How to: Add a Parameter to a Method](../sharepoint/how-to-add-a-parameter-to-a-method.md)   
- [How to: Define a Method Instance](../sharepoint/how-to-define-a-method-instance.md)  
+ [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)   
+ [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)   
+ [How to: Add a specific Finder method](../sharepoint/how-to-add-a-specific-finder-method.md)   
+ [How to: Add a Creator method](../sharepoint/how-to-add-a-creator-method.md)   
+ [How to: Add an Updater method](../sharepoint/how-to-add-an-updater-method.md)   
+ [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)   
+ [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)   
+ [How to: Define a method instance](../sharepoint/how-to-define-a-method-instance.md)  
   
   

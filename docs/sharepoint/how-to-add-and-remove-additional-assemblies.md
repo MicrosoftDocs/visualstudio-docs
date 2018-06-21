@@ -46,7 +46,7 @@ ms.workload:
   
 1.  Open the **Package Designer**.  
   
-     For more information, see [How to: Customize a SharePoint Solution Package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md).  
+     For more information, see [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md).  
   
 2.  Choose the **Advanced** tab.  
   
@@ -83,7 +83,7 @@ ms.workload:
   
 #### To delete an existing assembly  
   
-1.  Open the **Package Designer**. For more information, see [How to: Customize a SharePoint Solution Package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md).  
+1.  Open the **Package Designer**. For more information, see [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md).  
   
 2.  Choose the **Advanced** tab.  
   
@@ -108,7 +108,7 @@ ms.workload:
 3.  Choose the Delete key.  
   
 ## See also
- [Creating SharePoint Features](../sharepoint/creating-sharepoint-features.md)   
+ [Create SharePoint features](../sharepoint/creating-sharepoint-features.md)   
  [How to: Customize a SharePoint Feature](../sharepoint/how-to-customize-a-sharepoint-feature.md)   
- [How to: Add and Remove Items to SharePoint Features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)   
+ [How to: Add and remove items to SharePoint features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)   
   
