@@ -46,9 +46,9 @@ If **Report a problem** is initiated from Visual Studio Installer, we collect th
 
 If **Report a problem** is initiated from Visual Studio, we collect one or more of the following types of data:
 
-- Entries from the event log
+- Watson and .NET entries from the event log
 
-- An in-memory activity log file
+- Visual Studio in-memory activity log file
 
 - PerfWatson files, if Watson collection is enabled, from the *VSFeedbackPerfWatsonData* folder
 
@@ -56,15 +56,15 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 
 - Xamarin log files, if they exist, from *%LOCALAPPDATA%\Xamarin\Logs*
 
-- Nuget log files, if they exist, from *%temp%\NuGetScratch\nuget-dg\nugetSpec.dg*
+- Nuget log files, if they exist, from *%TEMP%\NuGetScratch\nuget-dg\nugetSpec.dg*
 
 - Web debugger log files, if they exist:
 
-   - *%temp%\vscode-chrome-debug.txt*
+   - *%TEMP%\vscode-chrome-debug.txt*
 
-   - *%temp%\vscode-node-debug2.txt*
+   - *%TEMP%\vscode-node-debug2.txt*
 
-   - *%temp%\vscode-edge-debug.txt*
+   - *%TEMP%\vscode-edge-debug.txt*
 
 - A screenshot, if you choose to include it
 
@@ -76,7 +76,8 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 
    - Dump file
 
-You can delete any of this data from the report if you don't wish to submit it.
+   > [!NOTE]
+   > You can delete any of the recording data that you don't wish to submit before submitting the report.
 
 ## See also
 
