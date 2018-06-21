@@ -37,14 +37,14 @@ ms.workload:
  [!code-csharp[SPExtensibility.ProjectExtension.Menu#1](../sharepoint/codesnippet/CSharp/projectmenu/extension/projectitemextensionmenu.cs#1)]
  [!code-vb[SPExtensibility.ProjectExtension.Menu#1](../sharepoint/codesnippet/VisualBasic/projectmenu/extension/projectitemextensionmenu.vb#1)]  
   
-## Compiling the code  
+## Compile the code  
  This example requires a class library project with references to the following assemblies:  
   
 -   Microsoft.VisualStudio.SharePoint
 -     
 -   System.ComponentModel.Composition  
   
-## Deploying the extension  
+## Deploy the extension  
  To deploy the extension, create a [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package for the assembly and any other files that you want to distribute with the extension. For more information, see [Deploy extensions for the SharePoint tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).  
   
 ## See also

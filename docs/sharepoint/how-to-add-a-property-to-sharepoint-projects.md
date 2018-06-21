@@ -37,7 +37,7 @@ ms.workload:
  [!code-vb[SpExt_SPCustomPrjProperty#1](../sharepoint/codesnippet/VisualBasic/customspproperty/customproperty.vb#1)]
  [!code-csharp[SpExt_SPCustomPrjProperty#1](../sharepoint/codesnippet/CSharp/customspproperty/customproperty.cs#1)]  
   
-### Understanding the code  
+### Understand the code  
  To ensure that the same instance of the `CustomProjectProperties` class is used each time the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectEvents.ProjectPropertiesRequested> event occurs, the code example adds the properties object to the <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject.Annotations%2A> property of the project the first time this event occurs. The code retrieves this object whenever this event occurs again. For more information about using the <xref:Microsoft.VisualStudio.SharePoint.IAnnotatedObject.Annotations%2A> property to associate data with projects, see [Associate custom data with SharePoint tools extensions](../sharepoint/associating-custom-data-with-sharepoint-tools-extensions.md).  
   
  To persist changes to the property values, the **set** accessors for the properties use the following APIs:  
@@ -48,7 +48,7 @@ ms.workload:
   
  For more information about persisting data in these files, see [Save data in extensions of the SharePoint project system](../sharepoint/saving-data-in-extensions-of-the-sharepoint-project-system.md).  
   
-### Specifying the behavior of custom properties  
+### Specify the behavior of custom properties  
  You can define how a custom property appears and behaves in the **Properties** window by applying attributes from the <xref:System.ComponentModel> namespace to the property definition. The following attributes are useful in many scenarios:  
   
 -   <xref:System.ComponentModel.DisplayNameAttribute>: Specifies the name of the property that appears in the **Properties** window.  
@@ -61,7 +61,7 @@ ms.workload:
   
 -   <xref:System.ComponentModel.EditorAttribute>: Specifies a custom editor to use to modify the property.  
   
-## Compiling the code  
+## Compile the code  
  This example requires references to the following assemblies:  
   
 -   Microsoft.VisualStudio.SharePoint
@@ -74,7 +74,7 @@ ms.workload:
 -     
 -   System.ComponentModel.Composition  
   
-## Deploying the extension  
+## Deploy the extension  
  To deploy the extension, create a [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package for the assembly and any other files that you want to distribute with the extension. For more information, see [Deploy extensions for the SharePoint tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).  
   
 ## See also

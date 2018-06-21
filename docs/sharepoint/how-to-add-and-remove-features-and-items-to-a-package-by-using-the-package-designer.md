@@ -25,7 +25,7 @@ ms.workload:
   
  Alternatively, you can use the Packaging Explorer to add and remove SharePoint project items. You can also view and change the hierarchy of the SharePoint project items and Features that are put into the package (.wsp). For more information, see [How to: Add and remove features and items to a Package by using the Packaging Explorer](../sharepoint/how-to-add-and-remove-features-and-items-to-a-package-by-using-the-packaging-explorer.md).  
   
-## Adding features to a SharePoint package  
+## Add features to a SharePoint package  
  You can use the Package Designer to add Features to a SharePoint package.  
   
 #### To add SharePoint features with the package designer
@@ -46,7 +46,7 @@ ms.workload:
   
      The SharePoint Project Items and Features appear in the **Items in the Package** list.  
   
-## Removing Features from a SharePoint Package  
+## Remove Features from a SharePoint Package  
  You can use the Package Designer to remove Features to a SharePoint package.  
   
 #### To remove SharePoint features with the package designer
