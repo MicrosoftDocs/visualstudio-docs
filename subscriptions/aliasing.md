@@ -53,15 +53,8 @@ Please follow these steps to add a new subscriber with a directory account.
 
 4. Click **Assign Subscription**.
 5. Select the desired **Subscription Level**.
-
-
-    <img alt="Subscription level" src="_img/vlsc/vlsc-subscription-level.png" style="border: 1px solid #CCCCCC" />
-
 6. Validate you have subscriptions available to assign, and click **Next**.
-7.  Enter the subscriber details and directory address in the Email Address field, and click **Next**.
-
-    <img alt="Email address" src="_img/vlsc/vlsc-email-address.png" style="border: 1px solid #CCCCCC" />
-
+7. Enter the subscriber details and directory address in the Email Address field, and click **Next**.
 8. Validate the subscriber information, and click **Finish**.
 9. Notify the subscriber that their subscription has been provisioned by using the below [template](#notifying-your-subscribers-with-directory-addresses).
 
