@@ -64,6 +64,8 @@ To report a problem for Visual Studio, you must initiate the report from Visual 
 
 1. Select **Submit** to send your report, along with any images and trace or dump files. (If the **Submit** button is grayed out, make sure that you've provided a title and description for the report.)
 
+   For information about what data is collected, see [Data we collect](developer-community-privacy.md#data-we-collect).
+
 ## Record a repro
 
 Trace and heap dump files are useful in helping us diagnose problems. We appreciate it when you use the **Report a Problem** tool to record your repro steps and send the data to Microsoft. Here's how to do so:
@@ -83,6 +85,8 @@ Trace and heap dump files are useful in helping us diagnose problems. We appreci
 1. When you're done, choose the **Stop Record** button.
 
 1. Wait a few minutes for Visual Studio to collect and package the information that you recorded.
+
+   For information about what data is collected, see [Data we collect](developer-community-privacy.md#data-we-collect).
 
 ## When further information is needed (Need More Info)
 
