@@ -157,7 +157,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
   
 17. On the **Name** tab, specify a name and version number for this deployment (**1.0.0.0** in this example). Also specify the **Processor** that your application is built for, such as x86.  
   
-18. Select the **Description** tab, and specify values for **Publisher** and **Produc****t**. (**Product** is the name given to your application on the Windows Start menu when your application installs on a client computer for offline use.)  
+18. Select the **Description** tab, and specify values for **Publisher** and **Product**. (**Product** is the name given to your application on the Windows Start menu when your application installs on a client computer for offline use.)  
   
 19. Select the **Deployment Options** tab, and in the **Start Location** text box, specify the location of the application manifest on the Web server or share. For example, \\\myServer\myShare\AppToDeploy.application.  
   

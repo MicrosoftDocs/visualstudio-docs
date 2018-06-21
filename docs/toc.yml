@@ -1055,7 +1055,7 @@
     - name: Platform compatibility
       href: /visualstudio/productinfo/vs2017-compatibility-vs?context=visualstudio/default
     - name: Licensing
-      href: https://www.visualstudio.com/license-terms/
+      href: https://visualstudio.microsoft.com/license-terms/
     - name: Distributable code
       href: /visualstudio/productinfo/2017-redistribution-vs?context=visualstudio/default
     - name: Support lifecycle and servicing
@@ -1071,3 +1071,6 @@
     href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
   - name: Talk to us
     href: ide/talk-to-us.md
+    items:
+    - name: Developer Community data privacy
+      href: ide/developer-community-privacy.md

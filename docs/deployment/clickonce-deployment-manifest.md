@@ -46,7 +46,7 @@ A deployment manifest is an XML file that describes a [!INCLUDE[ndptecclick](../
  The deployment manifest file must be strongly named and can also contain certificates for publisher validation.  
   
 ## File Name Syntax  
- The name of a deployment manifest file must end with the .application extension.  
+ The name of a deployment manifest file must end with the `.application` extension.  
   
 ## Examples  
  The following code example illustrates a deployment manifest.  

@@ -1,7 +1,7 @@
 ---
 title: "Attach to Running Processes with the Debugger in Visual Studio | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "05/18/2017"
+ms.date: "06/20/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
@@ -47,7 +47,7 @@ You can use this capability to debug apps that are running on a local or remote 
   
 2.  In the **Attach to Process** dialog box, find the program that you want to attach to from the **Available Processes** list.  
 
-     To quickly select the process you want, type the first letter of the process name. If you don't know the process name, see [Common debugging scenarios](#BKMK_Scenarios).
+     To quickly select the process you want, type the first letter of the process name, or you can type a value in the filter box to search for a process name. If you don't know the process name, see [Common debugging scenarios](#BKMK_Scenarios).
      
      ![DBG_Basics_Attach_To_Process](../debugger/media/DBG_Basics_Attach_To_Process.png "DBG_Basics_Attach_To_Process") 
   
@@ -57,18 +57,23 @@ You can use this capability to debug apps that are running on a local or remote 
   
     1.  In the **Attach to** box, click **Select**.  
   
-    2.  In the **Select Code Type** dialog box, click **Debug these code types** and select the types to debug.  
+    2.  In the **Select Code Type** dialog box, click **Debug these code types** and select the types to debug.
+
+        The default **Automatic** setting works for most app types. For debugging client-side script on Chrome, choose **Webkit** as the code type. For Chrome, you may need start the browser in debugging mode depending on your application type (type `chrome.exe --remote-debugging-port=9222` from a command line).
+
+        > [!NOTE]
+        > For client-side script debugging, script debugging must be enabled in the browser. 
   
     3.  Click **OK**.  
   
 4.  Click **Attach**.
 
 ##  <a name="BKMK_Attach_to_a_process_on_a_remote_computer"></a> Attach to a process on a remote computer  
- In order to attach to a process, you must know the name of the process (see [Common debugging scenarios](#BKMK_Scenarios) for a few common process names). For more complete guidance for ASP.NET apps that have been deployed to IIS, see [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). For other apps, you may be able to find the name of the process in the Task Manager.
+In order to attach to a process, you must know the name of the process (see [Common debugging scenarios](#BKMK_Scenarios) for a few common process names). For more complete guidance for ASP.NET apps that have been deployed to IIS, see [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). If you don't know the name of the process for your scenario, see [Common debugging scenarios](#BKMK_Scenarios)
   
- When you use the **Attach to Process** dialog box, you can select another computer that has been set up for remote debugging. For more information, see [Remote Debugging](../debugger/remote-debugging.md). When you have selected a remote computer, you can view a list of available processes running on that computer and attach to one or more of the processes for debugging.
+When you use the **Attach to Process** dialog box, you can select another computer that has been set up for remote debugging (that is, the remote debugger must be running on the remote computer). For more information, see [Remote Debugging](../debugger/remote-debugging.md). When you have selected a remote computer, you can view a list of available processes running on that computer and attach to one or more of the processes for debugging.
   
- **To select a remote computer:**  
+**To select a remote computer:**  
 
 1. In Visual Studio, select **Debug > Attach to Process** (or press **CTRL+ALT+P**).
 
@@ -82,7 +87,8 @@ You can use this capability to debug apps that are running on a local or remote 
   
     1.  Type the name in the **Qualifier** list box.
     
-        >**Note** If, in later steps, you can't connect using the remote computer name, use the IP address. (The port number may appear automatically after selecting the process. You can also enter it manually. In the illustration below, 4020 is the default port for the remote debugger.)  
+        > [!Note]
+        > If, in later steps, you can't connect using the remote computer name, use the IP address. (The port number may appear automatically after selecting the process. You can also enter it manually. In the illustration below, 4020 is the default port for the remote debugger.)  
 
         If you want to use the **Find** button, you may need to [open UDP port 3702](../debugger/remote-debugger-port-assignments.md) on the server.
   
@@ -98,7 +104,7 @@ You can use this capability to debug apps that are running on a local or remote 
      
 4.  In the **Attach to Process** dialog box, find the program that you want to attach to from the **Available Processes** list.
 
-     To quickly select the process you want, type the first letter of the process name. If you don't know the process name, see [Common debugging scenarios](#BKMK_Scenarios).
+     To quickly select the process you want, type the first letter of the process name, or you can type a value in the filter box to search for a process name. If you don't know the process name, see [Common debugging scenarios](#BKMK_Scenarios).
   
      If the process is running under a different user account, select the **Show processes from all users** check box.
      
@@ -123,7 +129,7 @@ In some cases, when you debug in a Remote Desktop (Terminal Services) session, t
 
 ## <a name="BKMK_Scenarios"></a> Common debugging scenarios
 
-To help you identify whether you need to use **Attach to process** and what process to attach to, a few common debugging scenarios are shown here (the list is not exhaustive). Where more instructions are available, we provide links.
+To help you identify whether you need to use **Attach to process** and what process to attach to, a few common debugging scenarios are shown here (the list is not exhaustive). Where more instructions are available, we provide links. To quickly access the dialog box, use **CTRL+ALT+P** and then type the first letter of the process name.
 
 For some app types (like UWP apps), you don't attach directly to a process name, but use the **Debug Installed App Package** menu option instead (see table).
 
@@ -132,12 +138,13 @@ For some app types (like UWP apps), you don't attach directly to a process name,
 
 |Scenario|Debug Method|Process Name|Notes and Links|
 |-|-|-|-|
-|Debug a managed or native app on the local machine|Use attach to process or [standard debugging](../debugger/getting-started-with-the-debugger.md)|*appname*.exe|To quickly access the dialog box, use **CTRL+ALT+P** and then type the first letter of the process name.|
-|Debug ASP.NET apps on the local machine after starting the app without the debugger|Use attach to process|iiexpress.exe|This may be helpful to make your app load faster, such as (for example) when profiling. |
 |Remote debug ASP.NET 4 or 4.5 on an IIS server|Use remote tools and attach to process|w3wp.exe|See [Remote Debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
 |Remote debug ASP.NET Core on an IIS server|Use remote tools and attach to process|dotnet.exe|For app deployment, see [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html). For debugging, see [Remote Debugging ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)|
-|Debug other supported app types on a server process|Use remote tools (if server is remote) and attach to process|iexplore.exe or other processes|If necessary, use Task Manager to help identify the process. See [Remote Debugging](../debugger/remote-debugging.md) and later sections in this topic|
-|Remote debug a Windows desktop app|Remote tools and F5|N/A| See [Remote Debugging](../debugger/remote-debugging.md)|
+|Debug client-side script on a local IIS server (supported app types only)|Use attach to process|chrome.exe, MicrosoftEdgeCP.exe, or iexplore.exe|Script debugging must be enabled. For Chrome, you must also run Chrome in debug mode and select **Webkit code** in the **Attach to** field.|
+|Debug a C#, Visual Basic, or C++ app on the local machine|Use either [standard debugging](../debugger/getting-started-with-the-debugger.md) or attach to process|*appname*.exe|In most scenarios, use standard debugging and not attach to process.|
+|Remote debug a Windows desktop app|Remote tools|N/A| See [Remote debug a C# or Visual Basic app](../debugger/remote-debugging-csharp.md) or [Remote debug a C++ app](../debugger/remote-debugging-cpp.md)|
+|Debug ASP.NET apps on the local machine after starting the app without the debugger|Use attach to process|iiexpress.exe|This may be helpful to make your app load faster, such as (for example) when profiling. |
+|Debug other supported app types on a server process|Use remote tools (if server is remote) and attach to process|chrome.exe, iexplore.exe, or other processes|If necessary, use Resource Monitor to help identify the process. See [Remote Debugging](../debugger/remote-debugging.md) and later sections in this topic|
 |Remote debug a Universal (UWP), OneCore, HoloLens, or IoT app|Debug installed app package|N/A|See [Debug an Installed App Package](debug-installed-app-package.md) instead of using **Attach to process**|
 |Debug a Universal Windows App (UWP), OneCore, HoloLens, or IoT app that you didn't start from Visual Studio|Debug installed app package|N/A|See [Debug an Installed App Package](debug-installed-app-package.md) instead of using **Attach to process**|  
   

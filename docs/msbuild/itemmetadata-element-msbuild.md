@@ -28,7 +28,7 @@ Contains a user-defined item metadata key, which contains the item metadata valu
 
 ## Syntax  
 
-```  
+```xml  
 <ItemMetadataName> Item Metadata value</ItemMetadataName>  
 ```  
 

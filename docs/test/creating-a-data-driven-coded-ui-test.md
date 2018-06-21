@@ -34,7 +34,7 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
    > [!NOTE]
    > If you don't see the **Coded UI Test Project** template, you need to [install the coded UI test component](../test/use-ui-automation-to-test-your-code.md#install-the-coded-ui-test-component).
 
-2.  Choose to record the actions.
+2.  Choose to **record the actions**.
 
      ![Choose to record the actions](../test/media/cuit_datadriven_generatecodedialog.png)
 
@@ -59,7 +59,7 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
 
 5.  Use the `AddNumbers()` method to verify that the test runs. Place the cursor in the test method shown above, open the context menu, and choose **Run Tests**. (Keyboard shortcut: **Ctrl**+**R**,**T**).
 
-     The test result that shows if the test passed or failed is displayed in the Test Explorer window. To open the Test Explorer window, from the **Test** menu, choose **Windows** and then choose **Test Explorer**.
+     The test result that shows if the test passed or failed is displayed in the **Test Explorer** window. To open the Test Explorer window, from the **Test** menu, choose **Windows** and then choose **Test Explorer**.
 
 6.  Because a data source can also be used for assertion parameter values—which are used by the test to verify expected values—let's add an assertion to validate that the sum of the two numbers is correct. Place the cursor in the test method shown above, open the context menu and choose **Generate Code for Coded UI Test**, and then **Use Coded UI Test Builder**.
 
@@ -92,7 +92,7 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
 
 ### Step 2 - Create a data set
 
-1.  Add a text file to the dataDrivenSample project named `data.csv`.
+1.  Add a text file to the dataDrivenSample project named *data.csv*.
 
      ![Add a comma seperated value file to the project](../test/media/cuit_datadriven_addcsvfile.png)
 
@@ -174,7 +174,7 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
 
      To figure out which search properties to code the data to, use the Coded UI Test Editor.
 
-    -   Open the UIMap.uitest file.
+    -   Open the *UIMap.uitest* file.
 
          ![Open the Coded UI Test Editor](../test/media/cuit_datadriven_opentesteditor.png)
 
@@ -182,7 +182,7 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
 
          ![Use the Coded UI Test Editor to assist with code](../test/media/cuit_datadriven_testeditor.png)
 
-    -   In the Properties Window, open **Search Properties**. The search properties **Name** value is what is being manipulated in the code using the data source. For example, the `SearchProperties` is being assigned the values in the first column of each data row: `UIItem1Button.SearchProperties[WinButton.PropertyNames.Name] = TestContext.DataRow["Num1"].ToString();`. For the three iterations, this test will change the **Name** value for the search property to 3, then 5, and finally 6.
+    -   In the **Properties** Window, open **Search Properties**. The search properties **Name** value is what is being manipulated in the code using the data source. For example, the `SearchProperties` is being assigned the values in the first column of each data row: `UIItem1Button.SearchProperties[WinButton.PropertyNames.Name] = TestContext.DataRow["Num1"].ToString();`. For the three iterations, this test will change the **Name** value for the search property to 3, then 5, and finally 6.
 
          ![Use the search properties to assist in coding](../test/media/cuit_datadriven_searchproperties.png)
 
@@ -224,15 +224,15 @@ You can use the sample data source strings in the table below by copying them to
 
 ### Q: Why can't I modify the code in the UIMap.Designer file?
 
-**A:** Any code changes you make in the UIMapDesigner.cs file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. In this sample, and in most cases, the code changes needed to enable a test to use a data source can be made to the test's source code file (that is, CodedUITest1.cs).
+**A:** Any code changes you make in the *UIMapDesigner.cs* file will be overwritten every time you generate code using the UIMap - Coded UI Test Builder. In this sample, and in most cases, the code changes needed to enable a test to use a data source can be made to the test's source code file (that is, *CodedUITest1.cs*).
 
-If you have to modify a recorded method, you must copy it to UIMap.cs file and rename it. The UIMap.cs file can be used to override methods and properties in the UIMapDesigner.cs file. You must remove the reference to the original method in the Coded UITest.cs file and replace it with the renamed method name.
+If you have to modify a recorded method, you must copy it to *UIMap.cs* file and rename it. The *UIMap.cs* file can be used to override methods and properties in the *UIMapDesigner.cs* file. You must remove the reference to the original method in the Coded *UITest.cs* file and replace it with the renamed method name.
 
 ## See also
 
 - <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>
-- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
-- [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md)
-- [Best Practices for Coded UI Tests](../test/best-practices-for-coded-ui-tests.md)
-- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+- [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)
+- [Create coded UI tests](../test/use-ui-automation-to-test-your-code.md)
+- [Best practices for coded UI tests](../test/best-practices-for-coded-ui-tests.md)
+- [Supported configurations and platforms for coded UI tests and action recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
