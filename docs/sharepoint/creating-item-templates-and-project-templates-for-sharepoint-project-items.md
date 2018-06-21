@@ -74,7 +74,7 @@ ms.workload:
 ## Create wizards for item templates and project templates
  After you define a SharePoint project item type and associate it with an item or project template, you can also create a wizard. The wizard displays when a developer uses the item template to add the SharePoint project item to a project, or when a developer uses the project template to create a new project that contains the SharePoint project item. The wizard can be used to collect information from developers and to initialize the new SharePoint project item.
 
- For walkthroughs that demonstrate how to create wizards for item templates and project templates, see [Walkthrough: Creae a custom action project item with an item template, Part 2](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md) and [Walkthrough: Crate a site column project item with a project template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).
+ For walkthroughs that demonstrate how to create wizards for item templates and project templates, see [Walkthrough: Create a custom action project item with an item template, Part 2](../sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md) and [Walkthrough: Create a site column project item with a project template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).
 
 ## See also
 
