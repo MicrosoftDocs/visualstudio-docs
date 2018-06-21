@@ -2433,12 +2433,12 @@
         },
         {
           "source_path": "subscriptions/buy-vs-subscriptions.md",
-          "redirect_url": "http://www.visualstudio.com/vs/pricing/",
+          "redirect_url": "http://visualstudio.microsoft.com/vs/pricing/",
           "redirect_document_id": false
         },
         {
           "source_path": "subscriptions/compare-subscriptions.md",
-          "redirect_url": "http://www.visualstudio.com/vs/pricing/",
+          "redirect_url": "http://visualstudio.microsoft.com/vs/pricing/",
           "redirect_document_id": false
         },
         {
@@ -2463,7 +2463,7 @@
         },
         {
             "source_path": "subscriptions/renew-msstore-subscriptions.md",
-            "redirect_url": "http://www.visualstudio.com/vs/pricing/",
+            "redirect_url": "http://visualstudio.microsoft.com/vs/pricing/",
             "redirect_document_id": false
         },
         {

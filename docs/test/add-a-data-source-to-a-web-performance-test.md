@@ -28,7 +28,7 @@ Bind data to provide different values to the same test, for example, to provide 
 
 ## Create a SQL database
 
-1. If you don’t have Visual Studio Enterprise, you can download it from the [Visual Studio Downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page.
+1. If you don’t have Visual Studio Enterprise, you can download it from the [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page.
 
 2. Create a SQL database.
 

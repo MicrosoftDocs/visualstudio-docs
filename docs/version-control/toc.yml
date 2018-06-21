@@ -89,5 +89,5 @@
   items:
   - name: Pro Git
     href: https://www.git-scm.com/book/en/v2
-    name: Learn Git
-    href: https://www.visualstudio.com/learn-git/
+    name: What is Git
+    href: /azure/devops/git/what-is-git

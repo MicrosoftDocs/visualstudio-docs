@@ -1,11 +1,11 @@
 ---
-title: Signing in to Visual Studio Subscriptions May Fail When Using Aliases | Microsoft Docs 
+title: Signing in to Visual Studio Subscriptions May Fail When Using Aliases | Microsoft Docs
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
 ms.date: 01/02/2018
 ms.topic: Get-Started-Article
-description:  Sign-in may fail if aliases or friendly names are used 
+description:  Sign-in may fail if aliases or friendly names are used
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
@@ -13,7 +13,7 @@ searchscope: VS Subscription
 
 # Signing in to Visual Studio subscriptions may fail when using aliases
 
-Depending on the account type used to sign in, available subscriptions may not be correctly displayed when signing in to [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs). One potential cause is the use of "aliases" or "friendly names" in place of the sign-in identity to which the subscription is assigned. This is called "aliasing". 
+Depending on the account type used to sign in, available subscriptions may not be correctly displayed when signing in to [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs). One potential cause is the use of "aliases" or "friendly names" in place of the sign-in identity to which the subscription is assigned. This is called "aliasing".
 
 ## What is aliasing?
 
@@ -23,7 +23,7 @@ Aliasing can be encountered when a company has a Microsoft Online Service for th
 
 ## As an administrator, what options do I have?
 
-As an administrator, there are two options to ensure your subscribers have a successful sign-in experience on [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs). 
+As an administrator, there are two options to ensure your subscribers have a successful sign-in experience on [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
 - The first option (recommended), is to leverage the directory account as the assigned address in the Volume Licensing Service Center (VLSC). Refer to [Assigning Subscribers to a Directory Account](#assigning-subscribers-to-a-directory-account) section in this article for more details.
 - The second option (less secure), is to allow your subscribers to associate their “Work or School” email address to a “Personal” account (a.k.a. Microsoft Account or MSA). Refer to [Defining a Work or School Account as a Personal Account ](#defining-a-work-or-school-account-as-a-personal-account ) section in this article for more details.
 
@@ -32,9 +32,9 @@ As an administrator, there are two options to ensure your subscribers have a suc
 
 ## As a subscriber, what options do I have?
 
-From a subscriber perspective, it is important to first work with your administrator to understand your company’s identity configuration.  If necessary, your administrator may have to update your account settings from their administration portal, or you may need to create a Microsoft Account (MSA) using your corporate email address.  Before taking the steps to create an MSA, speak with your administrator regarding any policies or issues with taking this action.  Refer to [Defining a Work or School Account as a Personal Account ](#defining-a-work-or-school-account-as-a-personal-account ) section in this article for more details.  
+From a subscriber perspective, it is important to first work with your administrator to understand your company’s identity configuration.  If necessary, your administrator may have to update your account settings from their administration portal, or you may need to create a Microsoft Account (MSA) using your corporate email address.  Before taking the steps to create an MSA, speak with your administrator regarding any policies or issues with taking this action.  Refer to [Defining a Work or School Account as a Personal Account ](#defining-a-work-or-school-account-as-a-personal-account ) section in this article for more details.
 
-## Assigning subscribers to a directory account 
+## Assigning subscribers to a directory account
 
 In all cases, the Subscription Manager within the Volume Licensing Service Center (VLSC) will need to use the directory address for new subscribers, or update the email address for “existing” subscribers.  It is important to note that using the directory address will mean any new subscribers will not receive a Welcome Email, and the Administrator will need to notify the subscriber that a subscription has been assigned to them.  After following the below steps, please also feel free to use the email [template](#notifying-your-subscribers-with-directory-addresses) to notify your subscribers, and help them through the sign-in process.
 
@@ -57,13 +57,13 @@ Please follow these steps to add a new subscriber with a directory account.
 
 5. Select the desired **Subscription Level**.
 
-    <img alt="Subscription level" src="_img/vlsc/vlsc-subscription-level.png" style="border: 1px solid #CCCCCC" /> 
+    <img alt="Subscription level" src="_img/vlsc/vlsc-subscription-level.png" style="border: 1px solid #CCCCCC" />
 
 6. Validate you have subscriptions available to assign, and click **Next**.
 7.  Enter the subscriber details and directory address in the Email Address field, and click **Next**.
 
-    <img alt="Email address" src="_img/vlsc/vlsc-email-address.png" style="border: 1px solid #CCCCCC" /> 
-        
+    <img alt="Email address" src="_img/vlsc/vlsc-email-address.png" style="border: 1px solid #CCCCCC" />
+
 8. Validate the subscriber information, and click **Finish**.
 
 9. Notify the subscriber that their subscription has been provisioned by using the below [template](#notifying-your-subscribers-with-directory-addresses).
@@ -96,9 +96,9 @@ Since the Welcome Email will not successfully reach your subscriber, please copy
 
 Hello %SUBSCRIBER NAME%
 
-You have been assigned a Visual Studio subscription.  Please visit https://my.visualstudio.com, and log in with your %DIRECTORY ADDRESS% address to activate and access your subscription. 
+You have been assigned a Visual Studio subscription.  Please visit https://my.visualstudio.com, and log in with your %DIRECTORY ADDRESS% address to activate and access your subscription.
 
-If you’re having trouble, please contact the support team (https://www.visualstudio.com/subscriptions/support/).
+If you’re having trouble, please contact the support team (https://visualstudio.microsoft.com/subscriptions/support/).
 
 At the bottom of the page, select the following:
    - Accounts, Subscriptions, and Billing Support
@@ -110,7 +110,7 @@ At the bottom of the page, select the following:
 
 
 
-## Defining a work or school account as a personal account 
+## Defining a work or school account as a personal account
 Please leverage the instructions described in the [Assigning Subscribers to a Directory Account](#assigning-subscribers-to-a-directory-account) section to add a new user or update a user’s email address within the Volume Licensing Service Center (VLSC).  In cases where the email address is not recognized by the directory, the user will need to step through the process to create a new account to define the email address as a personal account.  For the short term, the Visual Studio Subscriptions team has secured an exemption from the identity policy defined below, but we are investing in the capabilities necessary to remove this policy.
 
 > [!WARNING]
@@ -146,7 +146,7 @@ You have been assigned a Visual Studio subscription, and may have been directed 
 
 2. Click Create new Microsoft Account on the right hand side
 
-3. Complete the Form: 
+3. Complete the Form:
     - Use your corporate email address in the someone@example.com box
     - Enter a password
     - Select your promotional preference
@@ -160,7 +160,7 @@ You have been assigned a Visual Studio subscription, and may have been directed 
 
 Note:  When visiting https://my.visualstudio.com in the future, you may be prompted to select which account you’d like to use (e.g. “Work or School Account” or “Personal Account”).  After following the steps above, you will need to leverage the “Personal Account” option.
 
-If you’re having trouble, please contact the support team (https://www.visualstudio.com/subscriptions/support/).
+If you’re having trouble, please contact the support team (https://visualstudio.microsoft.com/subscriptions/support/).
 
 At the bottom of the page, select the following:
    - Accounts, Subscriptions, and Billing Support
