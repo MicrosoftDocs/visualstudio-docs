@@ -84,32 +84,33 @@ Trace and heap dump files are useful in helping us diagnose problems. We appreci
 
 1. Wait a few minutes for Visual Studio to collect and package the information that you recorded.
 
-## Need More Info Workflow
+## When further information is needed (Need More Info)
 
-Starting with Visual Studio 2017 Version 5 Preview 1, there is a new workflow to help users provide additional information. 
-1. When a Microsoft engineer sets the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) problem to the Need More Info state, the users who posted/voted/followed/commented on it will get a notification in the Report A Problem tool.
+Starting in Visual Studio 2017 Version 15.5, there's a new workflow to help users provide additional information about problem reports.
 
-	![Need More Info Notification](../ide/media/nmi-notification.png)
+1. When a Microsoft engineer sets the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) problem to the **Need More Info** state, any user that posted, voted, followed, or commented on the problem gets a notification in the **Report A Problem** tool in Visual Studio.
 
-1. Clicking on the **View Problems** link, filters and sorts the view to problems that need attention. These will also have an indicator next to them, to differentiate them in general search.
+   ![Need More Info Notification in Visual Studio](../ide/media/nmi-notification.png)
 
-1. If you click one of the problems, it will take you to the problem's details view
+1. Click on the **View Problems** link to filter and sort the view to the problems that need attention. These problems also have an indicator next to them, to differentiate them in general search.
 
-	![Need More Info Notification](../ide/media/nmi-details-view.png)
+1. Click on a problem to see the problem details view.
 
-1. In the problem details view, users can go the Need More Info request by clicking the **View their request and respond** link. Users are presented with a dialog that shows the ask.
+   ![Need More Info Notification](../ide/media/nmi-details-view.png)
 
-	![Need More Info Notification](../ide/media/nmi-request.png)
+1. To view the **Need More Info** request, click the **View their request and respond** link in the problem details view. A dialog box shows the request.
 
-1. Users can provide more information by adding comments, attachments and/or recording steps. This experience is consistent with reporting a new problem and providing additional information when voting. 
- 
-1. The Microsoft engineer will receive a notification about the extra information provided, investigate it and determine if they have enough, which will result in a state change or ask for more.  
- 
+   ![Need More Info Notification](../ide/media/nmi-request.png)
+
+1. You can provide more information by adding comments, attachments, or recording steps. This experience is similar to reporting a new problem or providing additional information when voting on a problem.
+
+1. The requesting Microsoft engineer receives a notification about the extra information provided. If they have enough information to investigate, the problem state changes. Otherwise, the engineer asks for even further information.
+
    > [!NOTE]
-   >* When a user replies, the notification will go away for them. In its place, the user will see a banner thanking them and facilitating them to provide even more information. 
-   >* Once the issue changes state, the notification will go away for everyone that is following the issue. 
-   >* More than one person can reply on the same Need More Info request.
-   >* There isn't a Need More Info workflow on Developer Community yet, but you can provide comments and attachments (public or private) there as well
+   > * When you reply, the notification goes away. In its place, you see a banner that thanks you and facilitates a way to provide even more information.
+   > * Once the issue changes state, the notification goes away for everyone that's following the issue.
+   > * More than one person can reply on the same **Need More Info** request.
+   > * There isn't a **Need More Info** workflow on [Developer Community](https://developercommunity.visualstudio.com/) when you access it directly through a web browser, but you can also provide comments and attachments there.
 
 ## Search for solutions or provide feedback
 
