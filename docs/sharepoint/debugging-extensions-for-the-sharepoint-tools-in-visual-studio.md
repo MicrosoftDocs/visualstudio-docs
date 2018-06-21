@@ -112,7 +112,7 @@ ms.workload:
 
 |Value|Description|
 |-----------|-----------------|
-|EnableDiagnostics|REG_DWORD that specifies whether diagnostic messages are displayed in the **Output** window.<br /><br /> To display diagnostic messages, set this value to 1. To stop displaying messages, set this value to 0 or delete this value.<br /><br /> To write messages to the **Output** window from a SharePoint tools extension, Use the SharePoint project service. For more information, see [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md).|
+|EnableDiagnostics|REG_DWORD that specifies whether diagnostic messages are displayed in the **Output** window.<br /><br /> To display diagnostic messages, set this value to 1. To stop displaying messages, set this value to 0 or delete this value.<br /><br /> To write messages to the **Output** window from a SharePoint tools extension, use the SharePoint project service. For more information, see [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md).|
 
  If your extension includes a SharePoint command, you can create and set additional values to help troubleshoot the command. The following table describes these values.
 
