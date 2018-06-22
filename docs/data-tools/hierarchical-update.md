@@ -100,11 +100,12 @@ In addition to committing changes on a related child table before saving data to
      [!code-csharp[VSProDataOrcasHierarchicalUpdate#2](../data-tools/codesnippet/CSharp/hierarchical-update_2.cs)]
 
 ## TableAdapterManager reference
- By default, a `TableAdapterManager` class is generated when you create a dataset that contains related tables. To prevent the class from being generated, change the value of the `Hierarchical Update` property of the dataset to false. When you drag a table that has a relation onto the design surface of a Windows Form or WPF page, **Visual Studio** declares a member variable of the class. If you don't use databinding, you have to manually declare the variable.
 
- The `TableAdapterManager` class is not part of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. Therefore, you cannot look it up in the documentation. It is created at design time as part of the dataset creation process.
+By default, a `TableAdapterManager` class is generated when you create a dataset that contains related tables. To prevent the class from being generated, change the value of the `Hierarchical Update` property of the dataset to false. When you drag a table that has a relation onto the design surface of a Windows Form or WPF page, Visual Studio declares a member variable of the class. If you don't use databinding, you have to manually declare the variable.
 
- The following are the frequently used methods and properties of the `TableAdapterManager` class:
+The `TableAdapterManager` class is not part of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. Therefore, you can't look it up in the documentation. It is created at design time as part of the dataset creation process.
+
+The following are the frequently used methods and properties of the `TableAdapterManager` class:
 
 |Member|Description|
 |------------|-----------------|
