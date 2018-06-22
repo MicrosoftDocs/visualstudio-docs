@@ -3,7 +3,7 @@ title: Enhance your data science skills today with the DataCamp benefit in selec
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
-ms.date: 01/12/20108
+ms.date: 05/30/20108
 ms.topic: Get-Started-Article
 description:  Learn about the DataCamp training subscription included with selected Visual Studio subscriptions.
 ms.prod: vs-subscription
@@ -22,11 +22,9 @@ The duration of your DataCamp benefit depends upon your Visual Studio subscripti
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
 2. Locate the DataCamp benefit tile in the "Professional Development" category, and click on **Activate**.
-
     ![DataCamp Benefit Tile](_img\vs-datacamp\vs-datacamp-tile-2.png)
 
 3. On the DataCamp page, you can create a new account.  You can choose to enter an email address and password, or sign in using existing accounts from Facebook, LinkedIn, or Google.  Once you've provided your sign-in information, click **Get Started**.
-
     ![DataCamp Create New Account](_img\vs-datacamp\vs-datacamp-create-account.png)
 
     > [!NOTE]
@@ -36,6 +34,7 @@ The duration of your DataCamp benefit depends upon your Visual Studio subscripti
     - Learning R for Data Science
     - Start Learning Python for Data Science
     - Develop your Data Science Skillset
+
 
     Just click on your chosen path to get started.
 
@@ -51,6 +50,7 @@ The duration of your DataCamp benefit depends upon your Visual Studio subscripti
     ![DataCamp Career Track](_img\vs-datacamp\vs-datacamp-all-tracks.png)
 
 7. Once you have enrolled in your track, the first course in that track will open.  You'll see a tutorial explaining how to interact with the course, including navigation and completing the course exercises.
+
 
     ![DataCamp Getting Started](_img\vs-datacamp\vs-datacamp-getting-started.png)
 
@@ -72,6 +72,7 @@ You can stop at any point, and resume your training in your next session.  Just 
 
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Microsoft Valued Partner (MVP), Region Director (RD), Microsoft Partner Network (MPN), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine*
+
 
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.

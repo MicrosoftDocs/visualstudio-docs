@@ -29,7 +29,7 @@ Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md
 
 ## Syntax  
 
-```  
+```xml  
 <PropertyGroup Condition="'String A' == 'String B'">  
     <Property1>...</Property1>  
     <Property2>...</Property2>  

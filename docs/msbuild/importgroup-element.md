@@ -27,7 +27,7 @@ Contains a collection of `Import` elements that are grouped under an optional co
 
 ## Syntax  
 
-```  
+```xml  
 <ImportGroup Condition="'String A' == 'String B'">  
     <Import ... />  
     <Import ... />  

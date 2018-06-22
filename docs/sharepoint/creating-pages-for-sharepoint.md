@@ -53,7 +53,7 @@ ms.workload:
 ## Create cascading style sheets, ECMAScript, and themes
  Visual Studio does not provide templates for developing Cascading Style Sheets (CSS), ECMAScript (JavaScript, JScript), or theme files for SharePoint sites. You can create these files by using the guidance available in the SharePoint SDK or by using tools such as SharePoint Designer.  
   
- You can add these files to your solution directly or you can import them. In either case, you must create the appropriate mapped folders for each item that you add. For more information about how to create a mapped folder, see [How to: Add and Remove Mapped Folders](../sharepoint/how-to-add-and-remove-mapped-folders.md).  
+ You can add these files to your solution directly or you can import them. In either case, you must create the appropriate mapped folders for each item that you add. For more information about how to create a mapped folder, see [How to: add and remove mapped folders](../sharepoint/how-to-add-and-remove-mapped-folders.md).  
   
  For more information about creating Cascading Style Sheets, see [Cascading Style Sheets Class Usage in SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkID=182098). For more information about creating JavaScript and JScript files for a SharePoint solution, see [Setting Up a Basic ASPX Page for ECMAScript](http://go.microsoft.com/fwlink/?LinkID=182099). For more information about themes, see [Building Block: Pages and the User Interface](http://go.microsoft.com/fwlink/?LinkID=182095).  
   
@@ -61,7 +61,7 @@ ms.workload:
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)|Describes how to add applications pages: *.aspx* content that is merged with a SharePoint master page.|  
-|[How to: Create an Application Page](../sharepoint/how-to-create-an-application-page.md)|Shows you how to create ASP.NET pages that run on a SharePoint site.|  
-|[Walkthrough: Creating a SharePoint Application Page](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md)|Shows you how to design and debug an ASP.NET Web page for a SharePoint site.|  
+|[Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)|Describes how to add applications pages: *.aspx* content that is merged with a SharePoint master page.|  
+|[How to: Create an application page](../sharepoint/how-to-create-an-application-page.md)|Shows you how to create ASP.NET pages that run on a SharePoint site.|  
+|[Walkthrough: Create a SharePoint application page](../sharepoint/walkthrough-creating-a-sharepoint-application-page.md)|Shows you how to design and debug an ASP.NET Web page for a SharePoint site.|  
   

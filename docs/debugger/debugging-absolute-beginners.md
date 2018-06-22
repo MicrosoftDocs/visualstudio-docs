@@ -19,9 +19,9 @@ Learn the very basics of how to debug using a debugger. If you are getting ready
 
 First, it might be helpful to answer some basic questions such as "What is debugging?" and "What is debugging mode?"
 
-* *Debugging* is the process of removing bugs from your code. In the context of a debugging tool like Visual Studio.
+* *Debugging* is the process of removing bugs from your code.
 
-* *Debugging mode* means running your app (executing code) while the Visual Studio debugger is attached to your application. With the debugger attached, you can see what your code is doing while it runs. For example, you can inspect your app state (look at variables), see what functions are getting called, and try to find bugs. In the docs, when we want you to enter debugging mode, we usually just say "Start the debugger" or "Run your app in the debugger".
+* *Debugging mode* means running your app (executing code) while a debugger is attached to your application. With a debugger attached, you can see what your code is doing while it runs. For example, you can inspect your app state (look at variables), see what functions are getting called, and try to find bugs. In the Visual Studio documentation, when we want you to enter debugging mode, we usually just say "Start the debugger" or "Run your app in the debugger".
 
 ## Clarify the problem by asking yourself the right questions
 
