@@ -30,7 +30,7 @@ ms.workload:
 
 By deploying an application, service, or component, you distribute it for installation on other computers, devices, or servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need. (Many app types support other deployment tools such as command line deployment or NuGet that are not described here.)
 
-See the Quickstarts and Tutorials for step-by-step deployment instructions. If you are deploying a web application and need more in-depth information to decide on the best deployment option from Visual Studio, see [What publishing options are right for me?](../ide/not-in-toc/web-publish-options.md).
+See the Quickstarts and Tutorials for step-by-step deployment instructions. For an overview of deployment options, see [What publishing options are right for me?](deploying-applications-services-and-components-resources.md#what-publishing-options-are-right-for-me).
 
 ## Deploy to local folder
 
@@ -121,8 +121,7 @@ In a team environment, you can use Visual Studio Team Services (VSTS) to enable 
 
 ## Next steps
 
-In this tutorial, you took a quick look at deployment options for different applications. If you are deploying a web application such as ASP.NET, read more in-depth about some of the deployment options available in Visual Studio.
+In this tutorial, you took a quick look at deployment options for different applications.
 
 > [!div class="nextstepaction"]
-> [What publishing options are right for me?](../ide/not-in-toc/web-publish-options.md)
-
+> [What publishing options are right for me?](deploying-applications-services-and-components-resources.md#what-publishing-options-are-right-for-me)

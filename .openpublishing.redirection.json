@@ -1091,6 +1091,10 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/not-in-toc/web-publish-options.md",
+            "redirect_url": "/visualstudio/deployment/deploying-applications-services-and-components-resources",   "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/optimize-solution-loading-in-visual-studio.md",
             "redirect_url": "/visualstudio/ide/optimize-visual-studio-startup-time/",
             "redirect_document_id": false
