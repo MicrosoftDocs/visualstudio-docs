@@ -22,9 +22,9 @@ ms.workload:
   - "office"
 ---
 # Create item templates and project templates for SharePoint project items
-  When you define a custom SharePoint project item type, you can associate it with an item template or a project template so that other developers can use the project item in Visual Studio. You can also create a wizard for the template.
+  When you define a custom SharePoint project item type, you can associate it with an item template or a project template. This association allows other developers to use the project item in Visual Studio. You can also create a wizard for the template.
 
- For example, Visual Studio does not include a project template or item template for adding a field to a SharePoint site. You can define a SharePoint project item type that represents a field and then construct an item template that other developers can use to add the field item to a SharePoint project. Or, you can construct a project template so that developers can create a new SharePoint project that contains the field item. In both cases, you can also provide a wizard that appears when developers use your template. This wizard can collect information from developers to configure the new item or project.
+ For example, Visual Studio does not include a project template or item template for adding a field to a SharePoint site. You can define a SharePoint project item type that represents a field and then construct an item template that other developers can use to add the field item to a SharePoint project. Or, you can construct a project template so that developers can create a new SharePoint project that has the field item. In both cases, you can also provide a wizard that appears when developers use your template. This wizard can collect information from developers to configure the new item or project.
 
  Item templates and project templates are *.zip* files that contain files that are used by Visual Studio to create a project item or project. For more information about the fundamentals of item templates and project templates, see [Create project and item templates](../ide/creating-project-and-item-templates.md).
 
@@ -35,7 +35,7 @@ ms.workload:
 
 |Required file|Description|
 |-------------------|-----------------|
-|An *.spdata* file|This is an XML file that specifies the contents and default behavior of the project item. This file must be included in the item template. For more information about the contents of *.spdata* files, see [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md).|
+|An *.spdata* file|This XML file specifies the contents and default behavior of the project item. This file must be included in the item template. For more information about the contents of *.spdata* files, see [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md).|
 |A *.vstemplate* file.|This file provides Visual Studio with the information required to display the template in the **Add New Item** dialog box and to create a project item from the template. This file must be included in the item template. For more information, see [Visual Studio Template Metadata Files](http://msdn.microsoft.com/en-us/129d59b5-7f9c-4daf-9832-eaedb3c4c961).|
 |A Visual Studio extension assembly that implements the <xref:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemTypeProvider> interface.|This assembly defines the run time behavior of the project item. This assembly must be included in the VSIX package with the item template. For more information, see [Define custom SharePoint project item types](../sharepoint/defining-custom-sharepoint-project-item-types.md) and [Deploy extensions for the SharePoint tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).|
 
