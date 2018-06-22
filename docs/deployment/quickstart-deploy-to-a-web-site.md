@@ -1,7 +1,7 @@
 ---
 title: Publish to a website
 ms.custom: ""
-ms.date: "06/20/2018"
+ms.date: 06/22/2018
 ms.technology: vs-ide-deployment
 ms.topic: "quickstart"
 helpviewer_keywords:
@@ -23,9 +23,9 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 
 1. In Solution Explorer, right-click the project and choose **Publish** (or use the **Build** > **Publish** menu item).
 
-    ![Choose Publish](../deployment/media/quickstart-publish-aspnet.png "Choose Publish")
+    ![The Publish command on the project context menu in Solution Explorer](../deployment/media/quickstart-publish.png "Choose Publish")
 
-1. If you have previously configured any publishing profiles, the **Publish** pane appears. Click **Create new profile**.
+1. If you have previously configured any publishing profiles, the **Publish** pane appears. Select **Create new profile**.
 
 1. In the **Pick a publish target** dialog box, choose **IIS, FTP, etc**.
 
@@ -37,13 +37,13 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 
 1. In the **Publish method** field, choose a method such as **Web Deploy** or **FTP**. The settings that you see next correspond to your publishing method. Web Deploy simplifies deployment of Web applications and Web sites to IIS servers, and must be installed as an application on the server. Use the [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx) to install it.
 
-1. Configure required settings for the publish method and click **Validate Connection**. If the server or target is available and your settings are correct, you will see a message that indicates the connection is validated, and you are ready to publish.
+1. Configure required settings for the publish method and select **Validate Connection**. If the server or target is available and your settings are correct, a message that indicates the connection is validated, and you're ready to publish.
 
     ![Validate your connection](../deployment/media/quickstart-publish-web-deploy.png "Validate your connection")
 
-1. If you want to configure other deployment settings, click **Settings**. You can configure options such as whether to deploy a Debug or Release configuration, and then click **Save**. If you are debugging remotely, a Debug configuration is required.
+1. Select **Settings** to configure other deployment settings, such as whether to deploy a Debug or Release configuration, and then select **Save**. If you're debugging remotely, a Debug configuration is required.
 
-1. To publish, click **Publish**. The Output window shows deployment progress and results.
+1. To publish, select **Publish**. The Output window shows deployment progress and results.
 
 ## Next steps
 

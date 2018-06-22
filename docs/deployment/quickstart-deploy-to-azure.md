@@ -1,7 +1,7 @@
 ---
 title: Publish to Azure App Service
 ms.custom: ""
-ms.date: "06/20/2018"
+ms.date: 06/22/2018
 ms.technology: vs-ide-deployment
 ms.topic: "quickstart"
 helpviewer_keywords:
@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Publish a web app to Azure App Service using Visual Studio
 
-You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, Node.js, and .NET Core apps to Azure App Service. For Python apps, follow the steps on [Python - Publishing to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md).
+You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, Node.js, and .NET Core apps to Azure App Service or Azure App Service Linux (using containers). For Python apps, follow the steps on [Python - Publishing to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md).
 
 [!INCLUDE [quickstart-prereqs-azure](includes/quickstart-prereqs-azure.md)]
 
@@ -23,25 +23,21 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, Node.js, and 
 
 1. In Solution Explorer, right-click the project and choose **Publish** (or use the **Build** > **Publish** menu item).
 
-    ![Choose Publish](../deployment/media/quickstart-publish-aspnet.png "Choose Publish")
+    ![The Publish command on the project context menu in Solution Explorer](../deployment/media/quickstart-publish.png "Choose Publish")
 
-1. If you have previously configured any publishing profiles, the **Publish** pane appears. Click **Create new profile**.
+1. If you have previously configured any publishing profiles, the **Publish** pane appears, in which case select **Create new profile**.
 
 1. In the **Pick a publish target** dialog box, choose **App Service**.
 
     ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
 
-1. Select **Publish**. The **Create App Service** dialog box appears.
+1. Select **Publish**. The **Create App Service** dialog box appears. Sign in with you Azure account, if necessary, then the default app service settings populate the fields.
 
     ![Create App Service](../deployment/media/quickstart-publish-settings-app-service.png "Create Azure App Service")
 
-1. If you are not signed into Visual Studio, sign in, and then the default app service settings populate the fields. The profile publish settings dialog box opens.
+1. Select **Create**. Visual Studio deploys the app to your Azure App Service, and the web app loads in your browser. The project properties **Publish** pane shows the site URL and other details.
 
-    ![Choose Folder](../deployment/media/quickstart-publish-settings-web.png "Choose Folder")
-
-    In this dialog box, you can select the subscription you are using, select or create an Azure resource group, etc.
-
-1. Select **Create**. Visual Studio deploys the app to your Azure App Service, and the web app loads in your browser. In the Summary of the **Publish** pane, you see the Site URL for the new Azure App Service. You can navigate to the URL with **Ctrl**+click.
+    ![Publish property pane showing a profile summary](../deployment/media/quickstart-publish-app-service-summary.png)
 
 ## Next steps
 

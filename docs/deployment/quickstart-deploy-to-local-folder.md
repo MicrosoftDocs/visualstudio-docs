@@ -1,7 +1,7 @@
 ---
 title: Deploy to a local folder
 ms.custom: ""
-ms.date: "06/20/2018"
+ms.date: 06/22/2018
 ms.technology: vs-ide-deployment
 ms.topic: "quickstart"
 helpviewer_keywords:
@@ -23,27 +23,29 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 
 1. In Solution Explorer, right-click the project and choose **Publish** (or use the **Build** > **Publish** menu item).
 
-    ![Choose Publish](../deployment/media/quickstart-publish.png "Choose Publish")
+    ![The Publish command on the project context menu in Solution Explorer](../deployment/media/quickstart-publish.png "Choose Publish")
 
 1. If you have previously configured any publishing profiles, the **Publish** pane appears. Select **Create new profile**.
 
 1. In the **Pick a publish target** dialog box, choose **Folder**.
 
-    ![Choose Folder](../deployment/media/quickstart-publish-folder.png "Choose Folder")
+    ![Choose local folder as a publish taget](../deployment/media/quickstart-publish-folder.png "Choose Folder")
 
 1. Enter a path or select **Browse** to specify a local folder.
 
-1. Select **Publish**. Visual Studio builds the project and publishes it to the specified folder. The Publish pane shows a profile summary, including a link to the deployment folder. You can navigate to the folder with **Ctrl**+click.
+1. Select **Publish**. Visual Studio builds the project and publishes it to the specified folder. The project properties **Publish** pane appears, showing a profile summary.
 
-1. To configure deployment settings, click **Settings** in the profile summary.
+    ![Publish property pane showing a profile summary](../deployment/media/quickstart-publish-folder-summary.png)
+
+1. To configure deployment settings, select **Configure** in the profile summary and select the **Settings** tab.
 
     ![Profile settings](../deployment/media/quickstart-profile-settings.png "Profile settings")
 
-1. Configure options such as whether to deploy a Debug or Release configuration, and then click **Save**.
+1. Configure options such as whether to deploy a Debug or Release configuration, and then select **Save**.
 
 1. To republish, select **Publish**.
 
-Deploy the published files in any way you like. For example, you can package them in a Zip file, use a simple copy command, or deploy them with any installation package of your choice.
+Deploy the published files in any way you like. For example, you can package them in a *.zip* file, use a simple copy command, or deploy them with any installation package of your choice.
 
 ## Next steps
 
