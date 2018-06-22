@@ -1,41 +1,30 @@
-- name: Develop Applications with the Workflow Designer
+- name: Develop apps with the Workflow Designer
   href: developing-applications-with-the-workflow-designer.md
   items:
-  - name: Use the Workflow Designer
-    href: using-the-workflow-designer.md
+  - name: Create a Workflow project
+    href: creating-a-workflow-project.md
     items:
-    - name: Create a Workflow Project
-      href: creating-a-workflow-project.md
-      items:
-      - name: Create a Workflow Console Application
-        href: how-to-create-a-workflow-console-application.md
-      - name: Create a WCF Workflow Service Application
-        href: how-to-create-a-wcf-workflow-service-application.md
-      - name: Create an Activity Library
-        href: how-to-create-an-activity-library.md
-      - name: Create an Activity Designer Library
-        href: how-to-create-an-activity-designer-library.md
-      - name: Add a New Item to a Workflow Project
-        href: how-to-add-a-new-item-to-a-workflow-project.md
-    - name: Add Activities to the Toolbox
-      href: how-to-add-activities-to-the-toolbox.md
-    - name: Use the Argument Designer
-      href: how-to-use-the-argument-designer.md
-    - name: Use the Variable Designer
-      href: how-to-use-the-variable-designer.md
-    - name: Use the Expression Editor
-      href: how-to-use-the-expression-editor.md
-    - name: Use the Imports Designer
-      href: how-to-use-the-imports-designer.md
-    - name: Use Breadcrumb Navigation
-      href: how-to-use-breadcrumb-navigation.md
-    - name: Use Search in the Workflow Designer
-      href: how-to-use-search-in-the-workflow-designer.md
-    - name: Define and consume activity delegates in the Workflow Designer
-      href: how-to-define-and-consume-activity-delegates-in-the-workflow-designer.md
-    - name: Add comments to a workflow in the Workflow Designer
-      href: how-to-add-comments-to-a-workflow-in-the-workflow-designer.md
-  - name: Using the Activity Designers
+    - name: Add a new item to a Workflow project
+      href: how-to-add-a-new-item-to-a-workflow-project.md
+  - name: Add activities to the Toolbox
+    href: how-to-add-activities-to-the-toolbox.md
+  - name: Use the Argument Designer
+    href: how-to-use-the-argument-designer.md
+  - name: Use the Variable Designer
+    href: how-to-use-the-variable-designer.md
+  - name: Use the Expression editor
+    href: how-to-use-the-expression-editor.md
+  - name: Use the Imports Designer
+    href: how-to-use-the-imports-designer.md
+  - name: Use breadcrumb navigation
+    href: how-to-use-breadcrumb-navigation.md
+  - name: Use Search in the Workflow Designer
+    href: how-to-use-search-in-the-workflow-designer.md
+  - name: Define and consume activity delegates in the Workflow Designer
+    href: how-to-define-and-consume-activity-delegates-in-the-workflow-designer.md
+  - name: Add comments to a workflow in the Workflow Designer
+    href: how-to-add-comments-to-a-workflow-in-the-workflow-designer.md
+  - name: Activity designers
     href: using-the-activity-designers.md
     items:
     - name: Control Flow Activity Designers
@@ -156,18 +145,16 @@
       items:
       - name: Interop Activity Designer
         href: interop-activity-designer.md
-  - name: Debugging Workflows with the Workflow Designer
+  - name: Debug workflows
     href: debugging-workflows-with-the-workflow-designer.md
     items:
-    - name: Invoke the Workflow Debugger
-      href: how-to-invoke-the-workflow-debugger.md
-    - name: Set Breakpoints in Workflows
+    - name: Set breakpoints in workflows
       href: how-to-set-breakpoints-in-workflows.md
     - name: Debug XAML with the Workflow Designer
       href: how-to-debug-xaml-with-the-workflow-designer.md
-    - name: Unsupported debugging scenarios in the Workflow Designer
+    - name: Unsupported debugging scenarios
       href: unsupported-debugging-scenarios-in-the-workflow-designer.md
-  - name: Workflow Designer UI Help
+  - name: UI reference
     href: workflow-designer-ui-help.md
     items:
     - name: Browse and Select a .NET Type Dialog Box
@@ -188,7 +175,7 @@
       href: system-activities-tab-choose-toolbox-items-dialog-box.md
     - name: Workflow Designer Shell Features
       href: workflow-designer-shell-features.md
-    - name: Keyboard Shortcuts in the Workflow Designer
+    - name: Keyboard Shortcuts
       href: keyboard-shortcuts-in-the-workflow-designer.md
-    - name: Error Messages in Workflow Designer
+    - name: Error Messages
       href: error-messages-in-workflow-designer.md
