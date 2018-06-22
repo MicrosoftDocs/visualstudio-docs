@@ -4,7 +4,6 @@ ms.custom: ""
 ms.date: "01/18/2017"
 ms.prod: "windows-client-threshold"
 ms.reviewer: ""
-ms.suite: ""
 ms.technology: 
   - "devlang-javascript"
 ms.tgt_pltfrm: ""
@@ -25,6 +24,7 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # Array Object (JavaScript)
+
 Provides support for creation of arrays of any data type.  
   
 ## Syntax  
