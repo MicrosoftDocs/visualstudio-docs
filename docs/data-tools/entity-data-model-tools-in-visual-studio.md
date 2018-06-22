@@ -33,7 +33,7 @@ These are the specific tools that make up Entity Framework tools in Visual Studi
     > [!NOTE]
     >  Starting with Visual Studio 2010, Entity Framework tools do not support [!INCLUDE[ss2k](../data-tools/includes/ss2k_md.md)].
 
-The tools generate or modify an .edmx file. This .edmx file contains information that describes the conceptual model, the storage model, and the mappings between them. For more information, see  [EDMX](https://msdn.microsoft.com/data/jj650889.aspx).
+The tools generate or modify an *.edmx* file. This *.edmx* file contains information that describes the conceptual model, the storage model, and the mappings between them. For more information, see  [EDMX](https://msdn.microsoft.com/data/jj650889.aspx).
 
 [Entity Framework Power Tools](https://marketplace.visualstudio.com/items?itemName=EntityFrameworkTeam.EntityFrameworkPowerToolsBeta4) help you build applications that use the Entity Data Model. The power tools can generate a conceptual model, validate an existing model, produce source-code files that contain object classes based on the conceptual model, and produce source-code files that contain views that the model generates. For detailed information, see [Pre-Generated Mapping Views](https://msdn.microsoft.com/data/dn469601.aspx).
 

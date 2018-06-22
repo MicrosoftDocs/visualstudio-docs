@@ -48,14 +48,14 @@ ms.workload:
   
 7.  In the **BDC Method Details** window, open the list that appears for the direction of the parameter, and then choose **In**, **InOut**, **Out**, or **Return**.  
   
-     For more information about which direction to choose for the type method that you are creating, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).  
+     For more information about which direction to choose for the type method that you are creating, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).  
   
-8.  Modify the type descriptor of the parameter. For more information, see [How to: Define the Type Descriptor of a Parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md).  
+8.  Modify the type descriptor of the parameter. For more information, see [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md).  
   
 ## See also
- [BDC Model Design Tools Overview](../sharepoint/bdc-model-design-tools-overview.md)   
- [How to: Add an Entity to a Model](../sharepoint/how-to-add-an-entity-to-a-model.md)   
- [How to: Define the Type Descriptor of a Parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)   
- [How to: Define a Method Instance](../sharepoint/how-to-define-a-method-instance.md)   
- [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)  
+ [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)   
+ [How to: Add an entity to a model](../sharepoint/how-to-add-an-entity-to-a-model.md)   
+ [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)   
+ [How to: Define a method instance](../sharepoint/how-to-define-a-method-instance.md)   
+ [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)  
   
