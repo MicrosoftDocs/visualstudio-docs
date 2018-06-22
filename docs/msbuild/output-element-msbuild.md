@@ -31,7 +31,7 @@ Stores task output values in items and properties.
 
 ## Syntax  
 
-```  
+```xml  
 <Output TaskParameter="Parameter"  
     PropertyName="PropertyName"   
     Condition = "'String A' == 'String B'" />  
