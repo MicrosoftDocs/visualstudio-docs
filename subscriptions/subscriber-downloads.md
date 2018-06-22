@@ -46,6 +46,7 @@ For example, if you choose **Visual Studio 2017** from the Developer Tools list,
 You easily select your architecture, language and file type using the available drop-down menus. Choose your preferred options, and click **Download** to begin downloading the product.
 
 ### Displaying download details
+
 Clicking on the product name or on the **Info** link will display the details for that download and provide access to the release notes for the product.
 
 ![Visual Studio 2017 Pro download details](_img\subscriber-downloads\vs2017-pro-details.png)
