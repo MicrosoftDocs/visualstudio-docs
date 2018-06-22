@@ -24,7 +24,7 @@ The <xref:System.Activities.Statements.InvokeDelegate> calls a public delegate.
 
 ### Using the InvokeDelegate Activity Designer
 
-The **InvokeDelegate** activity designer can be found in the **Primitives** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab Workflow Designer (Alternatively, select **Toolbar** from the **View** menu, or CRTL+ALT+X.)
+Access the **InvokeDelegate** activity designer in the **Primitives** category of the **Toolbox**.
 
 The **InvokeDelegate** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface where ever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates an <xref:System.Activities.Statements.InvokeDelegate> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of InvokeDelegate. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **InvokeDelegate** activity designer or in the **DisplayName** box of the property grid.
 

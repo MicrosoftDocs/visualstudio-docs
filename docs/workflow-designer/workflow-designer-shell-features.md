@@ -33,4 +33,4 @@ Windows Workflow Designer is composed of three major UI areas: the designer surf
 
 ## Fonts and Colors
 
-The fonts used in Workflow Designer inside Visual Studio 2010 are controlled by the environment font. The colors displayed in Workflow Designer change if you are using a high contrast color scheme for your operating system theme. You must restart Visual Studio 2010 after making a change to the font or color settings before the changes take effect in Workflow Designer.
+The fonts used in Workflow Designer inside Visual Studio are controlled by the environment font. The colors displayed in Workflow Designer change if you are using a high contrast color scheme for your operating system theme. You must restart Visual Studio after making a change to the font or color settings before the changes take effect in Workflow Designer.

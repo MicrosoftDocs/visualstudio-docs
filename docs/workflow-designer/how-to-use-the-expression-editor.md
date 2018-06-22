@@ -28,11 +28,11 @@ The Expression Editor is a Windows Workflow Designer control that is used in man
 -   If you focus on the Expression Editor in a rehosted workflow designer, then it behaves like a TextBox. When focus is lost in the rehosted workflow designer, the Expression Editor looks like a regular TextBlock again.
 
 > [!NOTE]
-> IntelliSense for the Expression Editor is available only inside of Visual Studio 2010. In both the Visual Studio 2010 and the rehosted scenarios, the compiler validates the expression after it is entered and the expression editor displays an error icon if the expression is invalid.
+> IntelliSense for the Expression Editor is available only inside of Visual Studio. In both the Visual Studio and the rehosted scenarios, the compiler validates the expression after it is entered and the expression editor displays an error icon if the expression is invalid.
 
 ## Use the Expression editor
 
-1.  In Visual Studio 2010, open a new or existing workflow project.
+1.  In Visual Studio, open a new or existing workflow project.
 
 2.  Add, for example, the <xref:System.Activities.Statements.Assign> activity to your workflow.
 

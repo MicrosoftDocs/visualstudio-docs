@@ -17,7 +17,7 @@ Windows Communication Foundation (WCF) workflow service applications are distrib
 
 ## To create a WCF workflow service application
 
-1.  Start Visual Studio 2010.
+1.  Start Visual Studio.
 
 2.  On the **File** menu, point to **New**, and then select **Project**.
 
@@ -34,7 +34,7 @@ Windows Communication Foundation (WCF) workflow service applications are distrib
 7.  In the **Solution** box, select to either create a new solution and then click **OK**.
 
     > [!NOTE]
-    > If you want to add a workflow console application to an existing solution, open that solution in Visual Studio 2010, right click the solution in **Solution Explorer**, and select **Add**, then **New Project** to open the **New Project** dialog box. Proceed as described above in this procedure.
+    > If you want to add a workflow console application to an existing solution, open that solution in Visual Studio, right click the solution in **Solution Explorer**, and select **Add**, then **New Project** to open the **New Project** dialog box. Proceed as described above in this procedure.
 
 8.  The project template creates a service definition as XAML. The Windows Workflow Designer opens to the design view with a <xref:System.Activities.Statements.Sequence> activity that contains a set of <xref:System.ServiceModel.Activities.Receive> and <xref:System.ServiceModel.Activities.SendReply> activities.
 

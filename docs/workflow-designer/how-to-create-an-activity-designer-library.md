@@ -16,7 +16,7 @@ Custom activity designers allow you to create a user interface for a standard or
 
 ## To create an Activity Designer Library
 
-1.  Start Visual Studio 2010.
+1.  Start Visual Studio.
 
 2.  On the **File** menu, point to **New**, and then select **Project** to open the **New Project** dialog box.
 
@@ -31,7 +31,7 @@ Custom activity designers allow you to create a user interface for a standard or
 7.  In the **Solution** box, type in a descriptive name for your solution, then click **OK**.
 
     > [!NOTE]
-    > If you want to add a workflow console application to an existing solution, open that solution in Visual Studio 2010, right click on the solution in **Solution Explorer**, and select **Add**, then **New Project** to open the **New Project** dialog box. Proceed as described above in this procedure.
+    > If you want to add a workflow console application to an existing solution, open that solution in Visual Studio, right click on the solution in **Solution Explorer**, and select **Add**, then **New Project** to open the **New Project** dialog box. Proceed as described above in this procedure.
 
 8.  The project template creates an activity designer definition in XAML and the code-behind implementation file in source code. The Windows Workflow Designer opens and displays the canvas for your activity designer.
 

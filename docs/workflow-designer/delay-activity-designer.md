@@ -23,7 +23,7 @@ The <xref:System.Activities.Statements.Delay> activity delays the execution of a
 
 ### Using the Delay Activity Designer
 
-The **Delay** activity designer can be found in the **Primitives** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab of the Workflow Designer (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
+The **Delay** activity designer can be found in the **Primitives** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab of the Workflow Designer. Alternatively, select **Toolbox** from the **View** menu, or press **Ctrl**+**Alt**+**X**.
 
 The **Delay** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.Delay> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of Delay. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **Delay** activity designer or in the **DisplayName** box of the property grid.
 

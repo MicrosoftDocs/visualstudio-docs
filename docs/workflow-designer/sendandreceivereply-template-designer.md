@@ -29,16 +29,16 @@ Adding **SendAndReceiveReply** template does three things besides creating the <
 3.  Creates a <xref:System.ServiceModel.Activities.CorrelationHandle> as a variable in the parent activity.
 
 ### Using the SendAndReceiveReply Template Designer
- The **SendAndReceiveReply** activity designer can be found in the **Messaging** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on Workflow Designer (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
 
- The **SendAndReceiveReply** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed. This creates a <xref:System.ServiceModel.Activities.Send> activity that can be configured with the **Send** activity designer and a correlated <xref:System.ServiceModel.Activities.ReceiveReply> that can be configured with the **ReceiveReplyForSend** designer.
+Access the **SendAndReceiveReply** activity designer in the **Messaging** category of the **Toolbox**. The **SendAndReceiveReply** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed. This creates a <xref:System.ServiceModel.Activities.Send> activity that can be configured with the **Send** activity designer and a correlated <xref:System.ServiceModel.Activities.ReceiveReply> that can be configured with the **ReceiveReplyForSend** designer.
 
- For more information about using the **Send** designer to configure the <xref:System.ServiceModel.Activities.Send> activity, see the [Send](../workflow-designer/send-activity-designer.md) topic.
+For more information about using the **Send** designer to configure the <xref:System.ServiceModel.Activities.Send> activity, see the [Send](../workflow-designer/send-activity-designer.md) topic.
 
- For more information about using the **ReceiveReplyForSend** designer to configure the <xref:System.ServiceModel.Activities.ReceiveReply> activity, see the following section.
+For more information about using the **ReceiveReplyForSend** designer to configure the <xref:System.ServiceModel.Activities.ReceiveReply> activity, see the following section.
 
 ### Properties of ReceiveReply
- The following table shows the <xref:System.ServiceModel.Activities.ReceiveReply> properties and describes how they are used in the designer. These properties can be edited in properties grid and some can be edited on Workflow Designerdesigner surface.
+
+The following table shows the <xref:System.ServiceModel.Activities.ReceiveReply> properties and describes how they are used in the designer. These properties can be edited in properties grid and some can be edited on Workflow Designerdesigner surface.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|

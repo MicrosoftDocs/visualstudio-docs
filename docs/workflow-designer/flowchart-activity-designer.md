@@ -25,7 +25,7 @@ The <xref:System.Activities.Statements.Flowchart> specifies a unique <xref:Syste
 
 ### Using the Flowchart Activity Designer
 
-The **Flowchart** activity designer can be found in the **Flowchart** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the Workflow Designer (Alternatively, select **Toolbar** from the **View** menu or CTRL+ALT+X.)
+The **Flowchart** activity designer can be found in the **Flowchart** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the Workflow Designer. Alternatively, select **Toolbox** from the **View** menu, or press **Ctrl**+**Alt**+**X**.
 
 The **Flowchart** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activity designers are normally placed, either as a root activity or as the child of another control flow activity. If the **Flowchart** activity designer is dropped onto a blank Workflow Designer surface, it creates a <xref:System.Activities.Statements.Flowchart> activity, which by default presents itself in an expanded view in which the start node that initiates execution is represented as a green ball. If the **Flowchart** activity designer is dropped into another control flow activity, it presents itself in a minimized view that can be expanded by double-clicking the **Flowchart** activity designer. Any activity in the **Toolbox** can be dragged directly onto the **Flowchart** activity designer, including other control flow activities.
 

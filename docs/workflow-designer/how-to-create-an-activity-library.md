@@ -12,11 +12,11 @@ ms.workload:
   - "multiple"
 ---
 # How to: Create an Activity Library
-Custom activities are used to model your particular business processes in a workflow. The Activity Library template in Visual Studio 2010 has been provided to enable you to create such custom activities visually using the Windows Workflow Designer.
+Custom activities are used to model your particular business processes in a workflow. The Activity Library template in Visual Studio has been provided to enable you to create such custom activities visually using the Windows Workflow Designer.
 
 ### To create a Workflow Activity Library
 
-1.  Start Visual Studio 2010.
+1.  Start Visual Studio.
 
 2.  On the **File** menu, point to **New**, and then select **Project**.
 
@@ -33,7 +33,7 @@ Custom activities are used to model your particular business processes in a work
 7.  In the **Solution** box, type in a descriptive name for your solution, then click **OK**.
 
     > [!NOTE]
-    > If you want to add a workflow console application to an existing solution, open that solution in Visual Studio 2010, right click the solution in **Solution Explorer**, and select **Add**, then **New Project** to open the **New Project** dialog box. Proceed as described above in this procedure.
+    > If you want to add a workflow console application to an existing solution, open that solution in Visual Studio, right click the solution in **Solution Explorer**, and select **Add**, then **New Project** to open the **New Project** dialog box. Proceed as described above in this procedure.
 
 8.  The project template creates an activity definition in XAML. Windows Workflow Designer opens and displays the canvas for your custom activity.
 

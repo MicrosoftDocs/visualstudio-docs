@@ -22,7 +22,7 @@ The **CorrelationScope** activity designer is used to create and configure a <xr
 The <xref:System.ServiceModel.Activities.CorrelationScope.CorrelatesWith%2A> property specifies the <xref:System.ServiceModel.Activities.CorrelationHandle> used to manage child messaging activities. The <xref:System.ServiceModel.Activities.Send> and <xref:System.ServiceModel.Activities.Receive> activities contained in the <xref:System.ServiceModel.Activities.CorrelationScope.Body%2A> are configured to use the <xref:System.ServiceModel.Activities.CorrelationScope.CorrelatesWith%2A> property of the containing <xref:System.ServiceModel.Activities.CorrelationScope> activity to perform correlation.
 
 ### Using the CorrelationScope Activity Designer
- The **CorrelationScope** activity designer can be found in the **Messaging** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the left side of the Workflow Designer (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
+ The **CorrelationScope** activity designer can be found in the **Messaging** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the left side of the Workflow Designer. Alternatively, select **Toolbox** from the **View** menu, or press **Ctrl**+**Alt**+**X**.
 
  The **CorrelationScope** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface. This creates a <xref:System.ServiceModel.Activities.CorrelationScope> activity with a default **DisplayName** of CorrelationScope. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **CorrelationScope** activity designer or in the **DisplayName** box of the **Properties** window.
 
