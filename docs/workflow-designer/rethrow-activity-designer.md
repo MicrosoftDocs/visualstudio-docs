@@ -17,17 +17,17 @@ ms.workload:
 
 The **Rethrow** activity designer is used to create and configure a <xref:System.Activities.Statements.Rethrow> activity.
 
-## The Rethrow Activity
+## The Rethrow activity
 
 The <xref:System.Activities.Statements.Rethrow> activity throws a previously thrown exception. This activity can only be used in a <xref:System.Activities.Statements.Catch> handler in the <xref:System.Activities.Statements.TryCatch> activity.
 
-### Using the ReThrow Activity Designer
+### Use the ReThrow Activity Designer
 
-Access the **Rethrow** activity designer in the **Error Handling** category of the **Toolbox**. The **Rethrow** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.Rethrow> activity with a default **DisplayName** of Throw. The <xref:System.Activities.Activity.DisplayName%2A> value can be edited in the header of the **Rethrow** activity designer or in the **DisplayName** box of the property grid.
+Access the **Rethrow** activity designer in the **Error Handling** category of the **Toolbox**. The **Rethrow** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. Dropping the activity designer creates a <xref:System.Activities.Statements.Rethrow> activity with a default **DisplayName** of Throw. The <xref:System.Activities.Activity.DisplayName%2A> value can be edited in the header of the **Rethrow** activity designer, or in the **DisplayName** box of the property grid.
 
-### The Rethrow Properties
+### The Rethrow properties
 
-The following table shows the <xref:System.Activities.Statements.Rethrow> properties and describes how they are used in the designer.
+The following table shows the <xref:System.Activities.Statements.Rethrow> properties, and describes how they're used in the designer:
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|
