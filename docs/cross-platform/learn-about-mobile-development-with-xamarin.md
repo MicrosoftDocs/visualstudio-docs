@@ -12,7 +12,6 @@ manager: crdun
 ms.workload:
   - "xamarin"
 ---
-
 # Learn about mobile development with Xamarin
 
 This article lists several overviews that can help you understand developing cross-platform mobile apps with Xamarin. If you have not yet installed Visual Studio and Xamarin, start the [Setup and install](../cross-platform/setup-and-install.md) process first, then return here to work through these resources while the installers are running.
@@ -105,7 +104,7 @@ To learn more, read [Getting Started with the iOS Simulator](https://developer.a
 
 ### Microsoft's Windows Phone Emulator.
 
-To learn more, read [Test with the Microsoft Emulator for Windows 10 Mobile](/windows-uwp/windows-apps-src/debug-test-perf/test-with-the-emulator/).
+To learn more, read [Test with the Microsoft Emulator for Windows 10 Mobile](/windows/uwp/debug-test-perf/test-with-the-emulator).
 
 <a name="components" />
 
