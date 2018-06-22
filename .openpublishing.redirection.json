@@ -2266,6 +2266,36 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/workflow-designer/using-the-workflow-designer.md",
+            "redirect_url": "/visualstudio/workflow-designer/developing-applications-with-the-workflow-designer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/workflow-designer/how-to-invoke-the-workflow-debugger.md",
+            "redirect_url": "/visualstudio/workflow-designer/debugging-workflows-with-the-workflow-designer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/workflow-designer/how-to-create-a-workflow-console-application.md",
+            "redirect_url": "/visualstudio/workflow-designer/creating-a-workflow-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/workflow-designer/how-to-create-a-wcf-workflow-service-application.md",
+            "redirect_url": "/visualstudio/workflow-designer/creating-a-workflow-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/workflow-designer/how-to-create-an-activity-library.md",
+            "redirect_url": "/visualstudio/workflow-designer/creating-a-workflow-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/workflow-designer/how-to-create-an-activity-designer-library.md",
+            "redirect_url": "/visualstudio/workflow-designer/creating-a-workflow-project",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/xml-tools/index.md",
             "redirect_url": "/visualstudio/xml-tools/xml-tools-in-visual-studio",
             "redirect_document_id": false
@@ -2651,6 +2681,6 @@
             "redirect_url": "/azure/dev-spaces/troubleshooting",
             "redirect_document_id": false
         }
-       
+
     ]
 }

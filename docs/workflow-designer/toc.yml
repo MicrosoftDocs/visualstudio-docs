@@ -1,30 +1,22 @@
 - name: Develop apps with the Workflow Designer
   href: developing-applications-with-the-workflow-designer.md
   items:
-  - name: Create a Workflow Project
+  - name: Create a Workflow project
     href: creating-a-workflow-project.md
     items:
-    - name: Create a Workflow Console Application
-      href: how-to-create-a-workflow-console-application.md
-    - name: Create a WCF Workflow Service Application
-      href: how-to-create-a-wcf-workflow-service-application.md
-    - name: Create an Activity Library
-      href: how-to-create-an-activity-library.md
-    - name: Create an Activity Designer Library
-      href: how-to-create-an-activity-designer-library.md
-    - name: Add a New Item to a Workflow Project
+    - name: Add a new item to a Workflow project
       href: how-to-add-a-new-item-to-a-workflow-project.md
-  - name: Add Activities to the Toolbox
+  - name: Add activities to the Toolbox
     href: how-to-add-activities-to-the-toolbox.md
   - name: Use the Argument Designer
     href: how-to-use-the-argument-designer.md
   - name: Use the Variable Designer
     href: how-to-use-the-variable-designer.md
-  - name: Use the Expression Editor
+  - name: Use the Expression editor
     href: how-to-use-the-expression-editor.md
   - name: Use the Imports Designer
     href: how-to-use-the-imports-designer.md
-  - name: Use Breadcrumb Navigation
+  - name: Use breadcrumb navigation
     href: how-to-use-breadcrumb-navigation.md
   - name: Use Search in the Workflow Designer
     href: how-to-use-search-in-the-workflow-designer.md
@@ -32,7 +24,7 @@
     href: how-to-define-and-consume-activity-delegates-in-the-workflow-designer.md
   - name: Add comments to a workflow in the Workflow Designer
     href: how-to-add-comments-to-a-workflow-in-the-workflow-designer.md
-  - name: Activity Designers
+  - name: Activity designers
     href: using-the-activity-designers.md
     items:
     - name: Control Flow Activity Designers
