@@ -18,7 +18,7 @@ ms.workload:
 
 The <xref:System.Activities.Statements.Switch%601> activity evaluates a specified expression and executes the activity from a collection of activities whose associated key matches the value obtained from the evaluation.
 
-The **Switch<T\>** activity designer is used to create and configure a <xref:System.Activities.Statements.Switch%601> activity in the Windows Workflow Designer.
+The **Switch<T\>** activity designer is used to create and configure a <xref:System.Activities.Statements.Switch%601> activity in the Workflow Designer.
 
 ## The Switch\<T>Activity
 

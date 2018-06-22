@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Keyboard Shortcuts in the Workflow Designer
 
-All of the core functionality of the Windows Workflow Designer can be accessed by keyboard.
+All of the core functionality of the Workflow Designer can be accessed by keyboard.
 
 ## Navigating the Workflow Designer using the keyboard
 

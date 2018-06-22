@@ -19,7 +19,7 @@ The <xref:System.Activities.Statements.PickBranch> provides an event-based path 
 
 ## PickBranch
 
-<xref:System.Activities.Statements.PickBranch> objects are contained in the <xref:System.Activities.Statements.Pick.Branches%2A> collection of a <xref:System.Activities.Statements.Pick> activity. Each <xref:System.Activities.Statements.PickBranch> is contained in a branch of the <xref:System.Activities.Statements.Pick> activity and can be executed due to some incoming event that serves as a trigger. In this way the Windows Workflow Designer provides event-based control flow modeling. Each <xref:System.Activities.Statements.PickBranch> contains a <xref:System.Activities.Statements.PickBranch.Trigger%2A> and an <xref:System.Activities.Statements.PickBranch.Action%2A>.
+<xref:System.Activities.Statements.PickBranch> objects are contained in the <xref:System.Activities.Statements.Pick.Branches%2A> collection of a <xref:System.Activities.Statements.Pick> activity. Each <xref:System.Activities.Statements.PickBranch> is contained in a branch of the <xref:System.Activities.Statements.Pick> activity and can be executed due to some incoming event that serves as a trigger. In this way the Workflow Designer provides event-based control flow modeling. Each <xref:System.Activities.Statements.PickBranch> contains a <xref:System.Activities.Statements.PickBranch.Trigger%2A> and an <xref:System.Activities.Statements.PickBranch.Action%2A>.
 
 ### How to use the Pick Activity Designer
 

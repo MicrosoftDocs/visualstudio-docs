@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Workflow Designer Shell Features
 
-Windows Workflow Designer is composed of three major UI areas: the designer surface, the breadcrumb bar above it and the shell below it. The breadcrumb bar, positioned at the top of the screen, is used to display the list of ancestors of the current root activity. For more information, see [How to: Use Breadcrumb Navigation](../workflow-designer/how-to-use-breadcrumb-navigation.md). The designer surface, positioned at the center of the screen, is used to compose workflows. The shell, positioned at the bottom of the screen, contains a number of buttons for managing the current view.
+Workflow Designer is composed of three major UI areas: the designer surface, the breadcrumb bar above it and the shell below it. The breadcrumb bar, positioned at the top of the screen, is used to display the list of ancestors of the current root activity. For more information, see [How to: Use Breadcrumb Navigation](../workflow-designer/how-to-use-breadcrumb-navigation.md). The designer surface, positioned at the center of the screen, is used to compose workflows. The shell, positioned at the bottom of the screen, contains a number of buttons for managing the current view.
 
 ## Shell Features
  The shell has buttons on the right side of the bar that you can use to zoom in or out of your workflow, fit the contents of your workflow to the size of your screen, and show or hide the overview map. You can also zoom in or out of a workflow using the keyboard shortcuts CTRL++ and CTRL+-.

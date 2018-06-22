@@ -15,7 +15,7 @@ ms.workload:
 ---
 # CorrelatesOn Definition Dialog Box
 
-The **CorrelatesOn** dialog box is used in Windows Workflow Designer to edit the <xref:System.ServiceModel.Activities.Receive.CorrelatesOn%2A> property of a <xref:System.ServiceModel.Activities.Receive> activity. For more information, see the [Receive](../workflow-designer/receive-activity-designer.md) topic.
+The **CorrelatesOn** dialog box is used in Workflow Designer to edit the <xref:System.ServiceModel.Activities.Receive.CorrelatesOn%2A> property of a <xref:System.ServiceModel.Activities.Receive> activity. For more information, see the [Receive](../workflow-designer/receive-activity-designer.md) topic.
 
 The correlation between <xref:System.ServiceModel.Activities.Receive> activities specifies how different service operations connect with each other in a workflow.
 

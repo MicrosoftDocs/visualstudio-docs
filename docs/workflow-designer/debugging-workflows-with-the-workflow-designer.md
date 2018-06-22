@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Debug workflows with the Workflow Designer
 
-The **Windows Workflow Designer** provides the ability to debug workflows and custom activities. The process and behavior are similar to that of the default Visual Studio debugger.
+The **Workflow Designer** provides the ability to debug workflows and custom activities. The process and behavior are similar to that of the default Visual Studio debugger.
 
 ## Invoke the workflow debugger
 

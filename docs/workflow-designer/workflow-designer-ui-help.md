@@ -16,6 +16,6 @@ ms.workload:
 ---
 # Workflow Designer UI Help
 
-This section contains the context-sensitive Help topics for Windows Workflow Designer. When working in Visual Studio, you can access these topics from the user interface by pressing **F1** when a Workflow Designer dialog box is open.
+This section contains the context-sensitive Help topics for Workflow Designer. When working in Visual Studio, you can access these topics from the user interface by pressing **F1** when a Workflow Designer dialog box is open.
 
 This section also contains several topics concerned with navigation and error messages.
