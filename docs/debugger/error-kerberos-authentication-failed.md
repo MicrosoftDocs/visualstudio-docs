@@ -20,7 +20,7 @@ ms.workload:
 # Error: Kerberos Authentication Failed
 When you try to do remote debugging, you might get the following error message:  
   
-```  
+```ms-dos
 Error: The Visual Studio Remote Debugger on the target computer cannot connect back to this computer. Kerberos authentication failed.  
 ```  
   
@@ -44,7 +44,7 @@ Error: The Visual Studio Remote Debugger on the target computer cannot connect b
   
 2.  In the **Command Prompt** window, type:  
   
-    ```  
+    ```ms-dos
     ping <debugger_host_computer_name>  
     ```  
   

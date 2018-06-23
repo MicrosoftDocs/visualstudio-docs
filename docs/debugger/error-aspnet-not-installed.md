@@ -29,7 +29,7 @@ This error occurs when [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.
   
 1.  From a command prompt window, run the following command:  
   
-    ```  
+    ```ms-dos
     \WINDOWS\Microsoft.NET\Framework\version\aspnet_regiis -i  
     ```  
   
