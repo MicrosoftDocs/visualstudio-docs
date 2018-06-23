@@ -46,7 +46,7 @@ Stores task output values in items and properties.
 |---------------|-----------------|  
 |`TaskParameter`|Required attribute.<br /><br /> The name of the task's output parameter.|  
 |`PropertyName`|Either the `PropertyName` or `ItemName` attribute is required.<br /><br /> The property that receives the task's output parameter value. Your project can then reference the property with the `$(`*PropertyName*`)` syntax. This property name can either be a new property name or a name that is already defined in the project.<br /><br /> This attribute cannot be used if `ItemName` is also being used.|  
-|`ItemName`|Either the `PropertyName` or `ItemName` attribute is required.<br /><br /> The item that receives the task's output parameter value. Your project can then reference the item with the `@(`*ItemName*`)` syntax. The item name can either be a new item name or a name that is already defined in the project.<br /><br /> This attribute cannot be used if `PropertyName` is also being used.|  
+|`ItemName`|Either the `PropertyName` or `ItemName` attribute is required.<br /><br /> The item that receives the task's output parameter value. Your project can then reference the item with the `@(`*ItemName*`)` syntax. The item name can either be a new item name or a name that is already defined in the project. When the item name is an existing item, the output parameter values are added to the existing item. <br /><br /> This attribute cannot be used if `PropertyName` is also being used.|  
 |`Condition`|Optional attribute.<br /><br /> Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|  
 
 ### Child Elements  
