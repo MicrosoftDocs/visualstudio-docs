@@ -28,9 +28,9 @@ ms.workload:
   
 |Topic|Description|  
 |-----------|-----------------|  
-|[SharePoint Development Samples](../sharepoint/sharepoint-development-samples.md)|Describes sample applications that demonstrate how to use the SharePoint development tools in Visual Studio.|  
-|[SharePoint Development Walkthroughs](../sharepoint/sharepoint-development-walkthroughs.md)|Lists step-by-step guides that provide an introduction to SharePoint development tools in Visual Studio.|  
+|[SharePoint development samples](../sharepoint/sharepoint-development-samples.md)|Describes sample applications that demonstrate how to use the SharePoint development tools in Visual Studio.|  
+|[SharePoint development walkthroughs](../sharepoint/sharepoint-development-walkthroughs.md)|Lists step-by-step guides that provide an introduction to SharePoint development tools in Visual Studio.|  
   
 ## See also
- [Create SharePoint Solutions](../sharepoint/create-sharepoint-solutions.md)  
+ [Create SharePoint solutions](../sharepoint/create-sharepoint-solutions.md)  
   
