@@ -52,18 +52,27 @@ ms.workload:
 -   *SharePoint server and client object models*. Use these object models to modify a SharePoint site or to retrieve data from a SharePoint site from the context of a SharePoint tools extension.  
   
 ### SharePoint tools object model
- Each SharePoint tools extension uses types in the SharePoint tools object model to define the core behavior and functionality of the extension. The following table describes the namespaces that are included in this object model.  
-  
-|Assembly|Namespace|Description|  
-|--------------|---------------|-----------------|  
-|*Microsoft.VisualStudio.SharePoint.dll*|<xref:Microsoft.VisualStudio.SharePoint>|Contains types that you use to extend and automate the SharePoint project system. For example, you can extend the built-in SharePoint projects and project items, or you can create your own project items. For more information, see [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md).|  
-||<xref:Microsoft.VisualStudio.SharePoint.Deployment>|Contains types that you use to extend the deployment process for SharePoint projects, such as creating your own deployment steps and deployment configurations. For more information, see [Extend SharePoint packaging and deployment](../sharepoint/extending-sharepoint-packaging-and-deployment.md).|  
-||<xref:Microsoft.VisualStudio.SharePoint.Explorer>|Contains types that you use to extend nodes under the **SharePoint Connections** node in the **Server Explorer** window, or to define new types of nodes. For more information, see [Extend the SharePoint connections node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md).|  
-||<xref:Microsoft.VisualStudio.SharePoint.Features>|Contains types that you use to access the Feature definitions in a SharePoint project.|  
-||<xref:Microsoft.VisualStudio.SharePoint.Packages>|Contains types that you use to access the package definition in a SharePoint solution.|  
-||<xref:Microsoft.VisualStudio.SharePoint.Validation>|Contains types that you use to customize the Feature and package validation behavior for SharePoint projects. For more information, see [How to: Create custom feature and package validation rules for SharePoint solutions](../sharepoint/how-to-create-custom-feature-and-package-validation-rules-for-sharepoint-solutions.md).|  
-|*Microsoft.VisualStudio.SharePoint.Commands.dll*|<xref:Microsoft.VisualStudio.SharePoint.Commands>|Contains types that you can use to create custom *SharePoint commands*. A SharePoint command is a method that calls into the SharePoint server object model from a SharePoint tools extension. For more information, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).|  
-|*Microsoft.VisualStudio.SharePoint.Explorer.Extensions.dll*|<xref:Microsoft.VisualStudio.SharePoint.Explorer.Extensions>|Contains types that you can use to get information about built-in **Server Explorer** nodes that represent individual components on a SharePoint site, such as a node that represents a list, field, or content type. For more information, see [Extend the SharePoint connections node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md).|  
+ Each SharePoint tools extension uses types in the SharePoint tools object model to define the core behavior and functionality of the extension. The following tables describe the namespaces that are included in this object model, by the assemby that contains them.
+
+#### Microsoft.VisualStudio.SharePoint.dll    
+|Namespace|Description|  
+|-|-|  
+|<xref:Microsoft.VisualStudio.SharePoint>|Contains types that you use to extend and automate the SharePoint project system. For example, you can extend the built-in SharePoint projects and project items, or you can create your own project items. For more information, see [Extend the SharePoint project system](../sharepoint/extending-the-sharepoint-project-system.md).|  
+|<xref:Microsoft.VisualStudio.SharePoint.Deployment>|Contains types that you use to extend the deployment process for SharePoint projects, such as creating your own deployment steps and deployment configurations. For more information, see [Extend SharePoint packaging and deployment](../sharepoint/extending-sharepoint-packaging-and-deployment.md).|  
+|<xref:Microsoft.VisualStudio.SharePoint.Explorer>|Contains types that you use to extend nodes under the **SharePoint Connections** node in the **Server Explorer** window, or to define new types of nodes. For more information, see [Extend the SharePoint connections node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md).|  
+|<xref:Microsoft.VisualStudio.SharePoint.Features>|Contains types that you use to access the Feature definitions in a SharePoint project.|  
+|<xref:Microsoft.VisualStudio.SharePoint.Packages>|Contains types that you use to access the package definition in a SharePoint solution.|  
+|<xref:Microsoft.VisualStudio.SharePoint.Validation>|Contains types that you use to customize the Feature and package validation behavior for SharePoint projects. For more information, see [How to: Create custom feature and package validation rules for SharePoint solutions](../sharepoint/how-to-create-custom-feature-and-package-validation-rules-for-sharepoint-solutions.md).| 
+
+#### Microsoft.VisualStudio.SharePoint.Commands.dll
+|Namespace|Description|  
+|-|-|  
+|<xref:Microsoft.VisualStudio.SharePoint.Commands>|Contains types that you can use to create custom *SharePoint commands*. A SharePoint command is a method that calls into the SharePoint server object model from a SharePoint tools extension. For more information, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).|
+
+#### Microsoft.VisualStudio.SharePoint.Explorer.Extensions.dll
+|Namespace|Description|  
+|-|-| 
+|<xref:Microsoft.VisualStudio.SharePoint.Explorer.Extensions>|Contains types that you can use to get information about built-in **Server Explorer** nodes that represent individual components on a SharePoint site, such as a node that represents a list, field, or content type. For more information, see [Extend the SharePoint connections node in Server Explorer](../sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md).|  
   
 ### Visual Studio automation object model
  The Visual Studio automation object model provides APIs that you can use to automate Visual Studio projects and the IDE. Use the Visual Studio object model to perform project-related tasks that are not specific to SharePoint projects, or to perform other general automation tasks in Visual Studio. Traditionally, this object model is often used in Visual Studio add-ins and macros, but you can also use it in SharePoint tools extensions.  
