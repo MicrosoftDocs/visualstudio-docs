@@ -19,13 +19,14 @@ ms.workload:
   - "office"
 ---
 # How to: Populate documents with data from services
-  Data access works the same way in document-level projects for Microsoft Office as it does in Windows Forms projects. You use the same tools and code to bring the data into your solution, and you can even use Windows Forms controls to display the data. In addition, you can take advantage of controls called host controls, which are native objects in Microsoft Office Excel and Microsoft Office Word that have been enhanced with events and data binding capability. For more information, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
 
- [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
+Data access works the same way in document-level projects for Microsoft Office as it does in Windows Forms projects. You use the same tools and code to bring the data into your solution, and you can even use Windows Forms controls to display the data. In addition, you can take advantage of controls called host controls, which are native objects in Microsoft Office Excel and Microsoft Office Word that have been enhanced with events and data binding capability. For more information, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
 
- The following example shows how to add data-bound controls to documents at design time. For an example of how to add data-bound controls in VSTO Add-ins at run time, see [Walkthrough: Bind to data from a service in a VSTO Add-in project](../vsto/walkthrough-binding-to-data-from-a-service-in-a-vsto-add-in-project.md).
+[!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Interact with web services from Microsoft Excel?](http://go.microsoft.com/fwlink/?LinkID=130284).
+The following example shows how to add data-bound controls to documents at design time. For an example of how to add data-bound controls in VSTO Add-ins at run time, see [Walkthrough: Bind to data from a service in a VSTO Add-in project](../vsto/walkthrough-binding-to-data-from-a-service-in-a-vsto-add-in-project.md).
+
+![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Interact with web services from Microsoft Excel?](http://go.microsoft.com/fwlink/?LinkID=130284).
 
 ## To populate a document-level project with data from a web service
 
@@ -45,14 +46,14 @@ ms.workload:
 
 6.  Assign the data response from the web service to the <xref:System.Windows.Forms.BindingSource.DataSource%2A> property of the <xref:System.Windows.Forms.BindingSource>.
 
- When you run the project, the controls display the first record in the data source. You can enable scrolling through the records by handling the currency events using the objects in the <xref:System.Windows.Forms.BindingSource>.
+When you run the project, the controls display the first record in the data source. You can enable scrolling through the records by handling the currency events using the objects in the <xref:System.Windows.Forms.BindingSource>.
 
 ## See also
- [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
- [Add new data sources](../data-tools/add-new-data-sources.md)
- [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
- [How to: Populate worksheets with data from a database](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)
- [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md)
- [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md)
- [How to: Update a data source with data from a host control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md)
 
+- [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
+- [Add new data sources](../data-tools/add-new-data-sources.md)
+- [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
+- [How to: Populate worksheets with data from a database](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)
+- [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md)
+- [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md)
+- [How to: Update a data source with data from a host control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md)

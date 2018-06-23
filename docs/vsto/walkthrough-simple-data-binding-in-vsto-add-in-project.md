@@ -19,11 +19,12 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Simple data binding in VSTO Add-in Project
-  You can bind data to host controls and Windows Forms controls in VSTO Add-in projects. This walkthrough demonstrates how to add controls to a Microsoft Office Word document and bind the controls to data at runtime.
 
- [!INCLUDE[appliesto_wdallapp](../vsto/includes/appliesto-wdallapp-md.md)]
+You can bind data to host controls and Windows Forms controls in VSTO Add-in projects. This walkthrough demonstrates how to add controls to a Microsoft Office Word document and bind the controls to data at runtime.
 
- This walkthrough illustrates the following tasks:
+[!INCLUDE[appliesto_wdallapp](../vsto/includes/appliesto-wdallapp-md.md)]
+
+This walkthrough illustrates the following tasks:
 
 -   Adding a <xref:Microsoft.Office.Tools.Word.ContentControl> to a document at runtime.
 
@@ -31,10 +32,11 @@ ms.workload:
 
 -   Enabling the user to scroll through the records and view them in the control.
 
- [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
+[!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
 ## Prerequisites
- You need the following components to complete this walkthrough:
+
+You need the following components to complete this walkthrough:
 
 -   [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
@@ -47,7 +49,8 @@ ms.workload:
     -   To attach a database by using the command line, see [How to: Attach a database file to SQL Server Express](http://msdn.microsoft.com/0f8e42b5-7a8c-4c30-8c98-7d2bdc8dcc68).
 
 ## Create a new project
- The first step is to create a Word VSTO Add-in project.
+
+The first step is to create a Word VSTO Add-in project.
 
 ### To create a new project
 
@@ -60,7 +63,8 @@ ms.workload:
 2.  If your project targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], add a reference to the *Microsoft.Office.Tools.Word.v4.0.Utilities.dll* assembly. This reference is required to programmatically add Windows Forms controls to the document later in this walkthrough.
 
 ## Create a data source
- Use the **Data Sources** window to add a typed dataset to your project.
+
+Use the **Data Sources** window to add a typed dataset to your project.
 
 ### To add a typed dataset to the project
 
@@ -89,9 +93,10 @@ ms.workload:
      You will use both of these objects later in this walkthrough.
 
 ## Create controls and binding controls to data
- The interface for viewing database records in this walkthrough is basic, and it is created right inside the document. One <xref:Microsoft.Office.Tools.Word.ContentControl> displays a single database record at a time, and two <xref:Microsoft.Office.Tools.Word.Controls.Button> controls enable you to scroll back and forth through the records. The content control uses a <xref:System.Windows.Forms.BindingSource> to connect to the database.
 
- For more information about binding controls to data, see [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md).
+The interface for viewing database records in this walkthrough is basic, and it is created right inside the document. One <xref:Microsoft.Office.Tools.Word.ContentControl> displays a single database record at a time, and two <xref:Microsoft.Office.Tools.Word.Controls.Button> controls enable you to scroll back and forth through the records. The content control uses a <xref:System.Windows.Forms.BindingSource> to connect to the database.
+
+For more information about binding controls to data, see [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md).
 
 ### To create the interface in the document
 
@@ -131,7 +136,8 @@ ms.workload:
      [!code-csharp[Trin_WordAddInDatabase#7](../vsto/codesnippet/CSharp/trin_wordaddindatabase/ThisAddIn.cs#7)]
 
 ## Test the Add-in
- When you open Word, the content control displays data from the `AdventureWorksLTDataSet` dataset. Scroll through the database records by clicking the **Next** and **Previous** buttons.
+
+When you open Word, the content control displays data from the `AdventureWorksLTDataSet` dataset. Scroll through the database records by clicking the **Next** and **Previous** buttons.
 
 ### To test the VSTO Add-in
 
@@ -142,22 +148,21 @@ ms.workload:
 2.  Click the **Next** and **Previous** buttons to scroll through the database records.
 
 ## See also
- [Data in Office solutions](../vsto/data-in-office-solutions.md)
- [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
- [How to: Populate worksheets with data from a database](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)
- [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md)
- [How to: Populate documents with data from services](../vsto/how-to-populate-documents-with-data-from-services.md)
- [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md)
- [How to: Scroll through database records in a worksheet](../vsto/how-to-scroll-through-database-records-in-a-worksheet.md)
- [How to: Update a data source with data from a host control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md)
- [Walkthrough: Simple data binding in a document-level project](../vsto/walkthrough-simple-data-binding-in-a-document-level-project.md)
- [Walkthrough: Complex data binding in a document-level project](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md)
- [Use local database files in Office solutions overview](../vsto/using-local-database-files-in-office-solutions-overview.md)
- [Add new data sources](../data-tools/add-new-data-sources.md)
- [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
- [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md)
- [How to: Update a data source with data from a host control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md)
- [Use local database files in Office solutions overview](../vsto/using-local-database-files-in-office-solutions-overview.md)
- [Connect to data in Windows Forms applications](/visualstudio/data-tools/connecting-to-data-in-windows-forms-applications)
- [BindingSource component overview](/dotnet/framework/winforms/controls/bindingsource-component-overview)
 
+- [Data in Office solutions](../vsto/data-in-office-solutions.md)
+- [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md)
+- [How to: Populate worksheets with data from a database](../vsto/how-to-populate-worksheets-with-data-from-a-database.md)
+- [How to: Populate documents with data from a database](../vsto/how-to-populate-documents-with-data-from-a-database.md)
+- [How to: Populate documents with data from services](../vsto/how-to-populate-documents-with-data-from-services.md)
+- [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md)
+- [How to: Scroll through database records in a worksheet](../vsto/how-to-scroll-through-database-records-in-a-worksheet.md)
+- [How to: Update a data source with data from a host control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md)
+- [Walkthrough: Simple data binding in a document-level project](../vsto/walkthrough-simple-data-binding-in-a-document-level-project.md)
+- [Walkthrough: Complex data binding in a document-level project](../vsto/walkthrough-complex-data-binding-in-a-document-level-project.md)
+- [Use local database files in Office solutions overview](../vsto/using-local-database-files-in-office-solutions-overview.md)
+- [Add new data sources](../data-tools/add-new-data-sources.md)
+- [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
+- [How to: Populate documents with data from objects](../vsto/how-to-populate-documents-with-data-from-objects.md)
+- [How to: Update a data source with data from a host control](../vsto/how-to-update-a-data-source-with-data-from-a-host-control.md)
+- [Use local database files in Office solutions overview](../vsto/using-local-database-files-in-office-solutions-overview.md)
+- [BindingSource component overview](/dotnet/framework/winforms/controls/bindingsource-component-overview)
