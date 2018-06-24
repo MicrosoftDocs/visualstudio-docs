@@ -21,7 +21,7 @@ ms.workload:
 ---
 # Walkthrough: Create a SharePoint application page
  
-An application page is a specialized form of an ASP.NET page. Application pages contain content that's merged with a SharePoint master page. For more information, see [Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).
+An application page is a specialized form of an ASP.NET page. Application pages contain content that's merged with a SharePoint master page. For more information, see [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).
 
 This walkthrough shows you how to create an application page and then debug it by using a local SharePoint site. This page shows all items that each user has created or modified in all sites on the server farm.
 
@@ -38,7 +38,7 @@ This walkthrough illustrates the following tasks:
 
 ## Prerequisites
 
-- Supported editions of Windows and SharePoint. For more information, see [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
+- Supported editions of Windows and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
 
 ## Create a SharePoint project
 
@@ -142,15 +142,15 @@ When you run the project, the SharePoint site opens and the application page app
 
 ## Next ateps
 
-For more information about SharePoint application pages, see [Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).
+For more information about SharePoint application pages, see [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).
 
 You can learn more about how to design SharePoint page content by using the Visual Web Designer from these topics:
 
-- [Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md).
+- [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md).
 
-- [Creating Reusable Controls for Web Parts or Application Pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md).
+- [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md).
 
 ## See also
 
-[How to: Create an Application Page](../sharepoint/how-to-create-an-application-page.md)  
+[How to: Create an application page](../sharepoint/how-to-create-an-application-page.md)  
 [Application _layouts Page Type](http://go.microsoft.com/fwlink/?LinkID=169274)
