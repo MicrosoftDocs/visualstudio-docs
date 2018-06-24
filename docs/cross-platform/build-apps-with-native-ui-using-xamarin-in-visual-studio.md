@@ -44,7 +44,7 @@ You'll do these things to build it:
 >  -   Xamarin apps with native UI:
 >     -   [Hello, Android](/xamarin/android/get-started/hello-android/) (simple app with one screen)
 >     -   [Hello, Android multiscreen](/xamarin/android/get-started/hello-android-multiscreen/) (app with navigation between screens)
->     -   [Android Fragments Walkthrough](/xamarin/android/platform/fragments/fragments/implementing-with-fragments/walkthrough/) (used for master/detail screens, among other things)
+>     -   [Android Fragments Walkthrough](/xamarin/android/platform/fragments/implementing-with-fragments/) (used for master/detail screens, among other things)
 >     -   [Hello, iOS](/xamarin/ios/get-started/hello-iOS/)
 >     -   [Hello, iOS Multiscreen](/xamarin/ios/get-started/hello-iOS-multiscreen/)
 
