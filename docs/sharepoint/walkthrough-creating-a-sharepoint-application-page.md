@@ -140,7 +140,7 @@ When you run the project, the SharePoint site opens and the application page app
 
      The application page refreshes and displays all items that you have created in all sites on the server farm.
 
-## Next ateps
+## Next steps
 
 For more information about SharePoint application pages, see [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).
 

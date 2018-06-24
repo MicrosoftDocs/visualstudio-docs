@@ -188,5 +188,4 @@ Events from all calendars that you specified appear in the monthly calendar view
 
 [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)  
 [How to: Create a SharePoint web part](../sharepoint/how-to-create-a-sharepoint-web-part.md)  
-[How to: Create a SharePoint web part by Using a Designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)  
 [Walkthrough: Create a web part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)
