@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Step 5: Installing packages in your Python environment
+# Step 5: Install packages in your Python environment
 
 **Previous step: [Running code in the debugger](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)**
 
@@ -67,6 +67,6 @@ The Python developer community has produced thousands of useful packages that yo
 > [!div class="nextstepaction"]
 > [Working with Git](tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md)
 
-### Going deeper
+### Go deeper
 
 - [Python environments](managing-python-environments-in-visual-studio.md)

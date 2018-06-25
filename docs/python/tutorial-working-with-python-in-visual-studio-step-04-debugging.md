@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Step 4: Running code in the debugger
+# Step 4: Run code in the debugger
 
 **Previous step: [Using the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)**
 
@@ -101,7 +101,7 @@ In addition to managing projects, providing a rich editing experience, and the i
 > [!div class="nextstepaction"]
 > [Installing packages in your Python environment](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)
 
-### Going deeper
+### Go deeper
 
 - [Debugging](debugging-python-in-visual-studio.md)
 - [Debugging in Visual Studio](../debugger/debugger-feature-tour.md) provides full documentation of Visual Studio's debugging features.
