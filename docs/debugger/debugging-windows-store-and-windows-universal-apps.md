@@ -19,7 +19,7 @@ ms.workload:
 
 The Visual Studio debugger provides complete support for debugging UWP apps. 
   
-To debug Windows 8.1 apps, see [Debug Store apps in Visual Studio](https://msdn.microsoft.com/en-us/library/hh441472.aspx). To debug Windows Phone 8 apps, see [Debugging apps for Windows Phone 8](https://msdn.microsoft.com/library/windows/apps/ff402572(v=vs.105).aspx).  
+To debug Windows 8.1 apps, see [Debug Store apps in Visual Studio](debug-store-apps-in-visual-studio.md). To debug Windows Phone 8 apps, see [Debugging apps for Windows Phone 8](https://msdn.microsoft.com/library/windows/apps/ff402572(v=vs.105).aspx).  
   
 |||  
 |-|-|  

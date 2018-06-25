@@ -37,7 +37,7 @@ Support for some project types also changes over time. A newer version of Visual
 
 The following list describes support in Visual Studio 2017 for projects that were created in earlier versions.
 
-If you don't see a project or file type listed here that should be, consult the [Visual Studio 2015 version of this article](https://msdn.microsoft.com/library/hh266747.aspx) and use the "Give documentation feedback" option at the bottom of this page to provide details of your project. (If you'd like a response, use the documentation feedback rather than the anonymous "Is this page helpful?" control.)
+If you don't see a project or file type listed here that should be, consult the [Visual Studio 2015 version of this article](port-migrate-and-upgrade-visual-studio-projects.md) and use the "Give documentation feedback" option at the bottom of this page to provide details of your project. (If you'd like a response, use the documentation feedback rather than the anonymous "Is this page helpful?" control.)
 
 | Type of Project | Support |
 | --- | --- |

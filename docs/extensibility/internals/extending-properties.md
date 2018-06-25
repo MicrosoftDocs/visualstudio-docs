@@ -50,7 +50,7 @@ Properties window
  [Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)  
  Describes how you can use the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Platform for continuously testing and debugging applications as you build them.  
   
- [IDispatch](https://msdn.microsoft.com/library/windows/desktop/ms221608.aspx)  
+ [IDispatch](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch)  
  Describes the `IDispatch` interface, which was first designed to support automation, providing a late-bound mechanism to access and retrieve information about the methods and properties of an object.  
   
  [Managing application settings (.NET)](../../ide/managing-application-settings-dotnet.md)  

@@ -158,5 +158,5 @@ cd "%UserProfile%\Documents\Visual Studio 2010\Projects\MyWPFProject\publish\App
 ## See Also  
  [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)   
  [Visual Styles Overview](http://msdn.microsoft.com/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e)   
- [Enabling Visual Styles](https://msdn.microsoft.com/library/bb773175.aspx)   
+ [Enabling Visual Styles](/windows/desktop/Controls/cookbook-overview)   
  [Command Prompts](/dotnet/framework/tools/developer-command-prompt-for-vs)
