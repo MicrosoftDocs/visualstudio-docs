@@ -44,7 +44,7 @@ These sections explain the elements that make up the [!INCLUDE[javascript](../..
   
  The JavaScript editor in Visual Studio provides IntelliSense support. For more information, see [JavaScript IntelliSense](/visualstudio/ide/javascript-intellisense).  
   
-## In This Section  
+## Reference Information
  [Version Information](../../javascript/reference/javascript-version-information.md)  
  Provides a list of [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] language features and the Internet Explorer versions in which they were introduced.  
   
@@ -82,8 +82,6 @@ These sections explain the elements that make up the [!INCLUDE[javascript](../..
  Provides a list of future reserved words. These words may not be used as identifiers.  
   
 ## Related Sections  
- [JavaScript Fundamentals](../../javascript/javascript-fundamentals.md)  
- Provides information about how to use [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)].  
-  
+
  [HTML and DHTML Reference](http://go.microsoft.com/fwlink/?LinkId=148095)  
  Provides reference information about Dynamic HTML (DHTML) API .
