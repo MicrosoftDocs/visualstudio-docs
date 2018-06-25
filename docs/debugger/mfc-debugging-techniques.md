@@ -59,14 +59,14 @@ If you are debugging an MFC program, these debugging techniques may be useful.
 ##  <a name="BKMK_AfxDebugBreak"></a> AfxDebugBreak  
  MFC provides a special [AfxDebugBreak](/cpp/mfc/reference/diagnostic-services#afxdebugbreak) function for hard-coding breakpoints in source code:  
   
-```  
+```cpp
 AfxDebugBreak( );  
   
 ```  
   
  On Intel platforms, `AfxDebugBreak` produces the following code, which breaks in source code rather than kernel code:  
   
-```  
+```cpp
 _asm int 3  
 ```  
   
@@ -81,7 +81,7 @@ _asm int 3
   
  The following examples show some of the ways you can use the **TRACE** macro. Like `printf`, the **TRACE** macro can handle a number of arguments.  
   
-```  
+```cpp
 int x = 1;  
 int y = 16;  
 float z = 32.0;  
@@ -96,7 +96,7 @@ TRACE( "x = %d and y = %x and z = %f\n", x, y, z );
   
  The TRACE macro appropriately handles both char* and wchar_t\* parameters. The following examples demonstrate the use of the TRACE macro together with different types of string parameters.  
   
-```  
+```cpp
 TRACE( "This is a test of the TRACE macro that uses an ANSI string: %s %d\n", "The number is:", 2);  
   
 TRACE( L"This is a test of the TRACE macro that uses a UNICODE string: %s %d\n", L"The number is:", 2);  
@@ -117,7 +117,7 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
   
  If you do not want to rewrite your entire program to use `DEBUG_NEW` in place of **new**, you can define this macro in your source files:  
   
-```  
+```cpp
 #define new DEBUG_NEW  
 ```  
   
@@ -162,7 +162,7 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
   
      This example shows what the code looks like:  
   
-    ```  
+    ```cpp
     // Declare the variables needed  
     #ifdef _DEBUG  
         CMemoryState oldMemState, newMemState, diffMemState;  
@@ -194,7 +194,7 @@ TRACE( _T("This is a test of the TRACE macro that uses a TCHAR string: %s %d\n")
   
  Consider the following example:  
   
-```  
+```cpp  
 if( diffMemState.Difference( oldMemState, newMemState ) )  
 {  
    TRACE( "Memory leaked!\n" );  
@@ -204,7 +204,7 @@ if( diffMemState.Difference( oldMemState, newMemState ) )
   
  A sample dump from the example looks like this:  
   
-```  
+```cpp
 0 bytes in 0 Free Blocks  
 22 bytes in 1 Object Blocks  
 45 bytes in 4 Non-Object Blocks  
@@ -235,7 +235,7 @@ Total allocations: 67 bytes
   
  The following code tests for a memory leak by comparing two memory states and dumps all objects if a leak is detected.  
   
-```  
+```cpp
 if( diffMemState.Difference( oldMemState, newMemState ) )  
 {  
    TRACE( "Memory leaked!\n" );  
@@ -245,7 +245,7 @@ if( diffMemState.Difference( oldMemState, newMemState ) )
   
  The contents of the dump look like this:  
   
-```  
+```ms-dos
 Dumping objects ->  
   
 {5} strcore.cpp(80) : non-object block at $00A7521A, 9 bytes long  
@@ -273,7 +273,7 @@ Phone #: 581-0215
 ####  <a name="BKMK_Interpreting_memory_dumps"></a> Interpreting memory dumps  
  Look at this object dump in more detail:  
   
-```  
+```ms-dos
 {5} strcore.cpp(80) : non-object block at $00A7521A, 9 bytes long  
 {4} strcore.cpp(80) : non-object block at $00A751F8, 5 bytes long  
 {3} strcore.cpp(80) : non-object block at $00A751D6, 6 bytes long  
@@ -288,7 +288,7 @@ Phone #: 581-0215
   
  The program that generated this dump had only two explicit allocations—one on the stack and one on the heap:  
   
-```  
+```cpp
 // Do your memory allocations and deallocations.  
 CString s("This is a frame variable");  
 // The next object is a heap object.  
@@ -305,7 +305,7 @@ CPerson* p = new CPerson( "Smith", "Alan", "581-0215" );
   
  In general, you should not worry about heap objects associated with frame variables because they are automatically deallocated when the frame variables go out of scope. To avoid clutter in your memory diagnostic dumps, you should position your calls to `Checkpoint` so that they are outside the scope of frame variables. For example, place scope brackets around the previous allocation code, as shown here:  
   
-```  
+```cpp
 oldMemState.Checkpoint();  
 {  
     // Do your memory allocations and deallocations ...  
@@ -318,7 +318,7 @@ newMemState.Checkpoint();
   
  With the scope brackets in place, the memory dump for this example is as follows:  
   
-```  
+```ms-dos 
 Dumping objects ->  
   
 {5} strcore.cpp(80) : non-object block at $00A7521A, 9 bytes long  
@@ -341,7 +341,7 @@ Phone #: 581-0215
   
  For objects allocated on the heap, however, you must explicitly delete the object to prevent a memory leak. To clean up the last memory leak in the previous example, delete the `CPerson` object allocated on the heap, as follows:  
   
-```  
+```cpp  
 {  
     // Do your memory allocations and deallocations.  
     CString s("This is a frame variable");  
@@ -362,7 +362,7 @@ Phone #: 581-0215
   
  The declaration of the `Dump` function looks like this:  
   
-```  
+```cpp  
 class CPerson : public CObject  
 {  
 public:  
@@ -380,7 +380,7 @@ public:
   
  In the following example, the `Dump` function first calls the `Dump` function for its base class. It then writes a short description of each member variable along with the member's value to the diagnostic stream.  
   
-```  
+```cpp  
 #ifdef _DEBUG  
 void CPerson::Dump( CDumpContext& dc ) const  
 {  
@@ -396,7 +396,7 @@ void CPerson::Dump( CDumpContext& dc ) const
   
  You must supply a `CDumpContext` argument to specify where the dump output will go. The Debug version of MFC supplies a predefined `CDumpContext` object named `afxDump` that sends output to the debugger.  
   
-```  
+```cpp 
 CPerson* pMyPerson = new CPerson;  
 // Set some fields of the CPerson object.  
 //...  

@@ -147,7 +147,7 @@ static void Main(string[] args)
 ##  <a name="bkmk_sideEffects"></a> Side Effects and Expressions  
  Evaluating some expressions can change the value of a variable or otherwise affect the state of your program. For example, evaluating the following expression changes the value of `var1`:  
   
-```  
+```csharp
 var1 = var2  
 ```  
   

@@ -33,7 +33,7 @@ The Visual Basic Stop statement provides a programmatic alternative to setting a
   
  To avoid the necessity of removing Stop statements, you can use conditional compilation:  
   
-```  
+```cpp
 #If DEBUG Then  
    Stop  
 #Else  
@@ -43,13 +43,13 @@ The Visual Basic Stop statement provides a programmatic alternative to setting a
   
  Another alternative is to use an Assert statement instead of the Stop statement. A Debug.Assert statement breaks execution only when a specified condition is not met and is automatically removed when you build a Release version. For more information, see [Assertions in Managed Code](../debugger/assertions-in-managed-code.md). If you want an Assert statement that always breaks execution in the Debug version, you can do this:  
   
-```  
+```csharp
 Debug.Assert(false)  
 ```  
   
  Yet another alternative is to use the Debug.Fail method:  
   
-```  
+```csharp
 Debug.Fail("a clever output string goes here")  
 ```  
   

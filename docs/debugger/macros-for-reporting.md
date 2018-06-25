@@ -35,7 +35,7 @@ You can use the **_RPTn**, and **_RPTFn** macros, defined in CRTDBG.H, to replac
   
  Consider the following example:  
   
-```  
+```cpp
 #ifdef _DEBUG  
     if ( someVar > MAX_SOMEVAR )  
         printf( "OVERFLOW! In NameOfThisFunc( ),  
@@ -46,13 +46,13 @@ You can use the **_RPTn**, and **_RPTFn** macros, defined in CRTDBG.H, to replac
   
  This code outputs the values of `someVar` and `otherVar` to **stdout**. You can use the following call to `_RPTF2` to report these same values and, additionally, the file name and line number:  
   
-```  
+```cpp
 if (someVar > MAX_SOMEVAR) _RPTF2(_CRT_WARN, "In NameOfThisFunc( ), someVar= %d, otherVar= %d\n", someVar, otherVar );  
 ```  
   
  If you find that a particular application needs debug reporting that the macros supplied with the C run-time library do not provide, you can write a macro designed specifically to fit your own requirements. In one of your header files, for example, you could include code like the following to define a macro called **ALERT_IF2**:  
   
-```  
+```cpp
 #ifndef _DEBUG                  /* For RELEASE builds */  
 #define  ALERT_IF2(expr, msg, arg1, arg2)  do {} while (0)  
 #else                           /* For DEBUG builds   */  
@@ -68,7 +68,7 @@ if (someVar > MAX_SOMEVAR) _RPTF2(_CRT_WARN, "In NameOfThisFunc( ), someVar= %d,
   
  One call to **ALERT_IF2** could perform all the functions of the **printf** code at the start of this topic:  
   
-```  
+```cpp
 ALERT_IF2(someVar > MAX_SOMEVAR, "OVERFLOW! In NameOfThisFunc( ),   
 someVar=%d, otherVar=%d.\n", someVar, otherVar );  
 ```  
