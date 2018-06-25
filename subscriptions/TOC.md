@@ -1,4 +1,5 @@
 # [Visual Studio subscriptions](index.md)
+## What's New(whats-new-in-subscriptions.md)
 ## Subscriber Experiences
 ### [Using the Subscriber Portal](using-the-subscriber-portal.md)
 #### [Activate Retail Subscriptions](activate-store-subscriptions.md)
