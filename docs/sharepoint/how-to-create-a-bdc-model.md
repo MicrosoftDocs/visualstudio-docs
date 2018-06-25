@@ -20,7 +20,7 @@ ms.workload:
   - "office"
 ---
 # How to: Create a BDC model
-  You can create a Business Data Connectivity (BDC) model by using the template for that kind of item and then adding the model to any SharePoint project. For more information, see [Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md). For more information about how to design the model, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).  
+  You can create a Business Data Connectivity (BDC) model by using the template for that kind of item and then adding the model to any SharePoint project. For more information, see [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md). For more information about how to design the model, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).  
   
 ### To create a BDC project  
   
@@ -54,12 +54,12 @@ ms.workload:
   
 8.  In the **Name** box, specify a name for the BDC model, and then choose the **Add** button.  
   
-     A **Business Data Connectivity Model** item is added to the project. By default, the model appears in the BDC designer. For more information, see [Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md).  
+     A **Business Data Connectivity Model** item is added to the project. By default, the model appears in the BDC designer. For more information, see [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md).  
   
 ## See also
- [Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md)   
- [How to: Add an Existing BDC Model File to a SharePoint Project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md)   
- [How to: Use a Resource File to Specify Localized Names, Properties, and Permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md)   
- [How to: Include a Custom Assembly in a BDC Feature](../sharepoint/how-to-include-a-custom-assembly-in-a-bdc-feature.md)   
- [Integrating Business Data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)  
+ [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)   
+ [How to: Add an existing BDC model file to a SharePoint project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md)   
+ [How to: Use a resource file to specify localized names, properties, and permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md)   
+ [How to: Include a custom assembly in a BDC feature](../sharepoint/how-to-include-a-custom-assembly-in-a-bdc-feature.md)   
+ [Integrating business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)  
   

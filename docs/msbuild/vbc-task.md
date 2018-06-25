@@ -4,23 +4,24 @@ ms.custom: ""
 ms.date: "04/12/2018"
 ms.technology: msbuild
 ms.topic: "reference"
-f1_keywords: 
+f1_keywords:
   - "http://schemas.microsoft.com/developer/msbuild/2003#Vbc"
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Vbc task [MSBuild]"
   - "MSBuild, Vbc task"
 ms.assetid: 595278b1-2782-4577-b1ba-b4b5ab5625a3
 author: mikejo5000
 ms.author: mikejo
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
+
 # Vbc task
 Wraps *vbc.exe*, which produces executables (*.exe*), dynamic-link libraries (*.dll*), or code modules (*.netmodule*). For more information on *vbc.exe*, see [Visual Basic command-line compiler](/dotnet/visual-basic/reference/command-line-compiler/index).  
   
@@ -69,7 +70,7 @@ Wraps *vbc.exe*, which produces executables (*.exe*), dynamic-link libraries (*.
 |`ResponseFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the response file that contains commands for this task. This parameter corresponds to the [@ (Specify Response File)](/dotnet/visual-basic/reference/command-line-compiler/specify-response-file) option of the *vbc.exe* compiler.|  
 |`RootNamespace`|Optional `String` parameter.<br /><br /> Specifies the root namespace for all type declarations. This parameter corresponds to the [-rootnamespace](/dotnet/visual-basic/reference/command-line-compiler/rootnamespace) switch of the *vbc.exe* compiler.|  
 |`SdkPath`|Optional `String` parameter.<br /><br /> Specifies the location of *mscorlib.dll* and *microsoft.visualbasic.dll*. This parameter corresponds to the [-sdkpath](/dotnet/visual-basic/reference/command-line-compiler/sdkpath) switch of the *vbc.exe* compiler.|  
-|`Sources`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies one or more [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] source files.|  
+|`Sources`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies one or more Visual Basic source files.|  
 |`TargetCompactFramework`|Optional `Boolean` parameter.<br /><br /> If `true`, the task targets the [!INCLUDE[Compact](../extensibility/includes/compact_md.md)]. This switch corresponds to the [-netcf](/dotnet/visual-basic/reference/command-line-compiler/netcf) switch of the *vbc.exe* compiler.|  
 |`TargetType`|Optional `String` parameter.<br /><br /> Specifies the file format of the output file. This parameter can have a value of `library`, which creates a code library, `exe`, which creates a console application, `module`, which creates a module, or `winexe`, which creates a Windows program. Default is `library`. This parameter corresponds to the [-target](/dotnet/visual-basic/reference/command-line-compiler/target) switch of the *vbc.exe* compiler.|  
 |`Timeout`|Optional `Int32` parameter.<br /><br /> Specifies the amount of time, in milliseconds, after which the task executable is terminated. The default value is `Int.MaxValue`, indicating that there is no time out period.|  
@@ -87,7 +88,7 @@ Wraps *vbc.exe*, which produces executables (*.exe*), dynamic-link libraries (*.
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension Base class](../msbuild/tooltaskextension-base-class.md).  
   
 ## Example  
- The following example compiles a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] project.  
+ The following example compiles a Visual Basic project.  
   
 ```xml  
 <VBC  

@@ -1091,6 +1091,10 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/not-in-toc/web-publish-options.md",
+            "redirect_url": "/visualstudio/deployment/deploying-applications-services-and-components-resources",   "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/optimize-solution-loading-in-visual-studio.md",
             "redirect_url": "/visualstudio/ide/optimize-visual-studio-startup-time/",
             "redirect_document_id": false
@@ -2474,6 +2478,36 @@
         {
             "source_path": "docs/workflow-designer/index.md",
             "redirect_url": "/visualstudio/workflow-designer/developing-applications-with-the-workflow-designer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/workflow-designer/using-the-workflow-designer.md",
+            "redirect_url": "/visualstudio/workflow-designer/developing-applications-with-the-workflow-designer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/workflow-designer/how-to-invoke-the-workflow-debugger.md",
+            "redirect_url": "/visualstudio/workflow-designer/debugging-workflows-with-the-workflow-designer",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/workflow-designer/how-to-create-a-workflow-console-application.md",
+            "redirect_url": "/visualstudio/workflow-designer/creating-a-workflow-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/workflow-designer/how-to-create-a-wcf-workflow-service-application.md",
+            "redirect_url": "/visualstudio/workflow-designer/creating-a-workflow-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/workflow-designer/how-to-create-an-activity-library.md",
+            "redirect_url": "/visualstudio/workflow-designer/creating-a-workflow-project",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/workflow-designer/how-to-create-an-activity-designer-library.md",
+            "redirect_url": "/visualstudio/workflow-designer/creating-a-workflow-project",
             "redirect_document_id": false
         },
         {

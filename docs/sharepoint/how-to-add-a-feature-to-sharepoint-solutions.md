@@ -26,6 +26,6 @@ ms.workload:
 1.  In **Solution Explorer**, open the shortcut menu for **Features**, and then choose **Add Feature**.  
   
 ## See also
- [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
+ [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
   
   
