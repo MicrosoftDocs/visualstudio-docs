@@ -27,6 +27,9 @@ manager: "ghogen"
 [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] is a scripting language that can be embedded in web pages and other applications.  
   
  This documentation describes the Microsoft implementation of JavaScript, which is compliant with the ECMAScript Language Specification 5th Edition. It also provides additional features that are not included in the ECMA Standards.  
+
+> [!IMPORTANT]
+> We have joined the community-wide effort to make MDN web docs the web’s one-stop, premiere development resource, starting by redirecting all (500+ pages) of Microsoft’s JavaScript API reference from docs.microsoft.com to their MDN counterparts. For more info, see this [announcement](https://blogs.windows.com/msedgedev/2017/10/18/documenting-web-together-mdn-web-docs/#kATurs7yL2KOjFcz.97).
   
  You can use [!INCLUDE[javascript](../javascript/includes/javascript-md.md)] code in browser applications together with HTML, CSS and the Document Object Model (DOM), which represents HTML and browser objects.  
   
@@ -47,21 +50,6 @@ manager: "ghogen"
 -   For information about using the Windows Runtime API with JavaScript, see [Using the Windows Runtime in JavaScript](../jswinrt/using-the-windows-runtime-in-javascript.md).  
   
  The JavaScript editor in Visual Studio provides IntelliSense support. For more information, see [JavaScript IntelliSense](http://go.microsoft.com/fwlink/p/?LinkId=256499).  
-  
-## In This Section  
- The following sections provide more information about JavaScript.  
-  
- [What's New in JavaScript](../javascript/what-s-new-in-javascript.md)  
- Describes new features in JavaScript.  
-  
- [JavaScript Fundamentals](../javascript/javascript-fundamentals.md)  
- Provides an introduction to the basic structures in JavaScript.  
-  
- [Advanced JavaScript](../javascript/advanced/advanced-javascript.md)  
- Explains advanced JavaScript functionality, such as recursion, arrays, troubleshooting, and so on.  
-  
- [JavaScript Reference](../javascript/reference/javascript-reference.md)  
- Explains the elements of the JavaScript language .  
   
 ## See Also  
  [Document Object Model](http://go.microsoft.com/fwlink/?LinkId=148095)

@@ -25,6 +25,9 @@ manager: "ghogen"
 ---
 # JavaScript Reference
 These sections explain the elements that make up the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] language.  
+
+> [!IMPORTANT]
+> We have joined the community-wide effort to make MDN web docs the web’s one-stop, premiere development resource, starting by redirecting all (500+ pages) of Microsoft’s JavaScript API reference from docs.microsoft.com to their MDN counterparts. For more info, see this [announcement](https://blogs.windows.com/msedgedev/2017/10/18/documenting-web-together-mdn-web-docs/#kATurs7yL2KOjFcz.97).
   
  [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] code in Internet Explorer can interact with HTML, CSS and the Document Object Model (DOM), which represents HTML and browser objects.  
   
