@@ -29,7 +29,7 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 
 ## Syntax  
 
-```  
+```xml  
 <UsingTask TaskName="TaskName"  
     AssemblyName = "AssemblyName"   
     TaskFactory = "ClassName"  

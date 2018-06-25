@@ -104,7 +104,7 @@ ms.workload:
   
 9. Runs the customizable post-deployment commands.  
   
-10. Attaches the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger to the [!INCLUDE[sharepointShort](../sharepoint/includes/sharepointshort-md.md)] process (*w3wp.exe*). If the project type lets you change the *Sandboxed Solution* property and its value is set to **true**, then the debugger attaches to a different process (*SPUCWorkerProcess.exe*). For more information, see [Sandboxed Solution Considerations](../sharepoint/sandboxed-solution-considerations.md).  
+10. Attaches the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger to the [!INCLUDE[sharepointShort](../sharepoint/includes/sharepointshort-md.md)] process (*w3wp.exe*). If the project type lets you change the *Sandboxed Solution* property and its value is set to **true**, then the debugger attaches to a different process (*SPUCWorkerProcess.exe*). For more information, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).  
   
 11. Starts the JavaScript debugger if the SharePoint solution is a farm solution.  
   
@@ -117,13 +117,13 @@ ms.workload:
   
  When you run a project in debug mode, the deployment process creates a folder in the *feature* directory at *%COMMONPROGRAMFILES%\Microsoft Shared\web server extensions\14\TEMPLATE\FEATURES*. Feature names have the format *project name*_Feature*x*, such as TestProject_Feature1.  
   
- The solution's folder in the feature directory contains a *feature definition* file and a *workflow definition* file. The feature definition file (Feature.xml) describes the files in the project's Feature.The project definition file (*Elements.xml*) describes the project template. *Elements.xml* can be found in **Solution Explorer**, but Feature.xml is generated when the solution package is created. For more information about these files, see [SharePoint Project and Project Item Templates](../sharepoint/sharepoint-project-and-project-item-templates.md).  
+ The solution's folder in the feature directory contains a *feature definition* file and a *workflow definition* file. The feature definition file (Feature.xml) describes the files in the project's Feature.The project definition file (*Elements.xml*) describes the project template. *Elements.xml* can be found in **Solution Explorer**, but Feature.xml is generated when the solution package is created. For more information about these files, see [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md).  
   
 ## Debug workflows
  When you debug workflow projects, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the workflow template (depending on its type) to a library or to a list. You can then start the workflow template manually or by adding or updating an item. You can then use [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] to debug the workflow.  
   
 > [!NOTE]  
->  If you add references to other assemblies, make sure that that those assemblies are installed in the global assembly cache ([!INCLUDE[TLA2#tla_gac](../sharepoint/includes/tla2sharptla-gac-md.md)]). Otherwise, the workflow solution will fail. For information about how to install assemblies, see [Manually start a workflow on a document or item](https://support.office.com/article/Manually-start-a-workflow-on-a-document-or-item-5C106E0E-6FF2-4A75-AF99-F01653BC7963).  
+>  If you add references to other assemblies, make sure that those assemblies are installed in the global assembly cache ([!INCLUDE[TLA2#tla_gac](../sharepoint/includes/tla2sharptla-gac-md.md)]). Otherwise, the workflow solution will fail. For information about how to install assemblies, see [Manually start a workflow on a document or item](https://support.office.com/article/Manually-start-a-workflow-on-a-document-or-item-5C106E0E-6FF2-4A75-AF99-F01653BC7963).  
   
  However, the deployment process does not start the workflow. You must start the workflow from the SharePoint Web site. You can also start the workflow by using a client application such as Microsoft Office Word 2010, or by using separate server-side code. Use one of the approaches specified in the **SharePoint Customization Wizard**.  
   
@@ -143,8 +143,8 @@ ms.workload:
   
  Setting this key value to 1 causes stack trace information to appear in the **Output** window whenever project system errors occur while you are running in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. To disable enhanced debugging information, set EnableDiagnostics back to 0, or delete the value.  
   
- For more information about other SharePoint registry keys, see [Debugging Extensions for the SharePoint Tools in Visual Studio](../sharepoint/debugging-extensions-for-the-sharepoint-tools-in-visual-studio.md).  
+ For more information about other SharePoint registry keys, see [Debug extensions for the SharePoint tools in Visual Studio](../sharepoint/debugging-extensions-for-the-sharepoint-tools-in-visual-studio.md).  
   
 ## See also
- [Troubleshooting SharePoint Solutions](../sharepoint/troubleshooting-sharepoint-solutions.md)  
+ [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md)  
   

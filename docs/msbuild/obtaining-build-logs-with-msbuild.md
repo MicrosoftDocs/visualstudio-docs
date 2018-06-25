@@ -33,20 +33,20 @@ By using switches with MSBuild, you can specify how much build data you want to 
   
  The build process may be slower when you set the **/verbosity** to `detailed` and even slower when you set the **/verbosity** to `diagnostic`.  
   
-```  
+```cmd  
 msbuild MyProject.proj /t:go /v:diag  
 ```  
 
 ## Saving the build log to a file  
  You can use the **/fileLogger** (**fl**) switch to save build data to a file. The following example saves build data to a file that's named `msbuild.log`.  
   
-```  
+```cmd  
 msbuild MyProject.proj /t:go /fileLogger  
 ```  
   
  In the following example, the log file is named `MyProjectOutput.log`, and the verbosity of the log output is set to `diagnostic`. You specify those two settings by using the **/filelogparameters** (`flp`) switch.  
   
-```  
+```cmd  
 msbuild MyProject.proj /t:go /fl /flp:logfile=MyProjectOutput.log;verbosity=diagnostic  
 ```  
   
@@ -57,7 +57,7 @@ msbuild MyProject.proj /t:go /fl /flp:logfile=MyProjectOutput.log;verbosity=diag
   
  The **/filelogparameters** (`flp`) switches for files 2 and 3 specify what to name each file and what to include in each file. No name is specified for file 1, so the default name of `msbuild1.log` is used.  
   
-```  
+```cmd  
 msbuild MyProject.proj /t:go /fl1 /fl2 /fl3 /flp2:logfile=JustErrors.log;errorsonly /flp3:logfile=JustWarnings.log;warningsonly  
   
 ```  
@@ -70,7 +70,7 @@ You can save the log in compressed, binary format using the **/binaryLogger** (*
 
 In the following example, a binary log file is created with the name `binarylogfilename`.
 
-```  
+```cmd  
 /bl:binarylogfilename.binlog
 ``` 
  

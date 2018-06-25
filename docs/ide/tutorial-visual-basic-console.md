@@ -19,7 +19,7 @@ ms.workload:
 
 In this tutorial for Visual Basic (VB), you'll use Visual Studio to create and run a few different console apps, and explore some features of the [Visual Studio integrated development environment (IDE)](visual-studio-ide.md) while you do so.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
 ## Before you begin
 
@@ -53,7 +53,7 @@ First, we'll create a Visual Basic application project. The project type comes w
 
 2. From the top menu bar, choose **File** > **New** > **Project**.
 
-3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *HelloWorld*.  
+3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *HelloWorld*.
 
    ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](../ide/media/new-project-vb-dotnetcore-whatisyourname-console-app.png)
 
@@ -108,7 +108,7 @@ Let's create an app that prompts you for your name and then displays it along wi
 
 1. Open Visual Studio 2017, and then from the top menu bar, choose **File** > **New** > **Project**.
 
-2. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *CalculateThis*.  
+2. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *CalculateThis*.
 
 3. Enter the following code between the `Module Program` line and `End Module` line:
 
@@ -131,7 +131,7 @@ Let's create an app that prompts you for your name and then displays it along wi
 
    ![Code window showing the Calculate This code](../ide/media/vb-codewindow-calculate-this.png)
 
-4. Click **CalculateThis** to run your program. Your console window should look similar to the following screenshot:       
+4. Click **CalculateThis** to run your program. Your console window should look similar to the following screenshot:
 
     ![Console window showing the CaluculateThis app, which includes prompts on which actions to take.](../ide/media/vb-console-calculate-this.png)
 

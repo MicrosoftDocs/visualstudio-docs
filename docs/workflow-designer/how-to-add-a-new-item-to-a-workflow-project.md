@@ -1,6 +1,6 @@
 ---
 title: "Workflow Designer - How to: Add a New Item to a Workflow Project"
-ms.date: 11/04/2016
+ms.date: 06/25/2018
 ms.topic: conceptual
 ms.prod: visual-studio-dev15
 ms.technology: vs-workflow-designer
@@ -11,11 +11,11 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Add a New Item to a Workflow Project
+# How to: Add a new item to a workflow project
 
-After you have created a workflow project, you can add workflow activities, designers, and other familiar Visual Studio items to your project.
+After you've created a workflow project, you can add workflow activities, designers, and other familiar Visual Studio items to your project.
 
-The following table lists the Windows Workflow Foundation (WF) items that you can add to a workflow project.
+The following table lists the Windows Workflow Foundation (WF) items that you can add to a workflow project:
 
 |Name|Description|
 |----------|-----------------|
@@ -26,18 +26,19 @@ The following table lists the Windows Workflow Foundation (WF) items that you ca
 
 ## To add a new item to a workflow project
 
-1.  On the **Project** menu, click **Add New Item...**.
+1. On the **Project** menu, select **Add New Item**.
 
-     The **Add a New Item** dialog box opens.
+   The **Add New Item** dialog box opens.
 
-2.  In the **Installed Templates** pane, select **Workflow** group.
+1. In the left-hand pane, select the **Workflow** category, and then select a workflow item template.
 
-3.  Select one of the four items. The previous table lists the selections available.
+   > [!NOTE]
+   > If you don't see the **Workflow** category, first install the **Windows Workflow Foundation** component of Visual Studio 2017. For detailed instructions, see [Install Windows Workflow Foundation](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation).
 
-4.  Type an appropriate name for the item in the **Name** box at the bottom of the dialog box.
+1. Enter a name for the item in the **Name** box at the bottom of the dialog box.
 
-5.  Click **Add** to add the item to the current workflow project.
+1. Select **Add** to add the item to the project.
 
 ## See also
 
-- [Creating a Workflow Project](../workflow-designer/creating-a-workflow-project.md)
+- [Create a workflow project](../workflow-designer/creating-a-workflow-project.md)

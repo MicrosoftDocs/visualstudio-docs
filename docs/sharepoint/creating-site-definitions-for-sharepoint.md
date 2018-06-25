@@ -37,9 +37,9 @@ ms.workload:
 |---------------|-----------------|  
 |*default.aspx*|The default ASPX home page for the new SharePoint site.|  
 |*onet.xml*|Specifies the configuration of the new site, the components of the site definition template, and default behavior. These settings can include attributes such as the content types that are enabled, the default list views, document template files, and Web parts included with the site. By default, the `Modules` section lists the files to be added to the SharePoint site and how they are configured.|  
-|*webtemp_{SiteDefinitionName}.xml*|Specifies the site definition configurations that appears in the **Template Selection** section of the **New SharePoint Site** page.|  
+|*webtemp_\<SiteDefinitionName>.xml*|Specifies the site definition configurations that appears in the **Template Selection** section of the **New SharePoint Site** page.|  
   
- By default, all site definitions are stored in the *{drive:}\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\SiteTemplates* folder. Each site definition has its own subfolder.  
+ By default, all site definitions are stored in the *\<drive:>\Program Files\Common Files\Microsoft Shared\Web Server Extensions\14\TEMPLATE\SiteTemplates* folder. Each site definition has its own subfolder.  
   
 ## Related topics
   
@@ -48,9 +48,9 @@ ms.workload:
 |[Walkthrough: Create a Basic Site Definition Project](../sharepoint/walkthrough-create-a-basic-site-definition-project.md)|Leads you step-by-step through the creation of a basic site definition project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].|  
 |[How to: Create a Custom Site Definition and Configuration](http://go.microsoft.com/fwlink/?LinkId=183309)|Describes how to create a custom site definition in SharePoint by copying an existing site definition and then modifying the copy.|  
 |[*WebTemp.xml*](http://go.microsoft.com/fwlink/?LinkId=183310)|Describes the original file that specifies the site definitions available in the **Template Selection** section of the **New SharePoint Site** page.|  
-|[Localizing SharePoint Solutions](../sharepoint/localizing-sharepoint-solutions.md)|Describes how to prepare your SharePoint solutions for global use.|  
-|[Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)|Describes how you can create parts of a SharePoint page that users can modify.|  
-|[Creating Reusable Controls for Web Parts or Application Pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)|Describes how you can create reusable controls that run in application pages and Web Parts.|  
+|[Localize SharePoint solutions](../sharepoint/localizing-sharepoint-solutions.md)|Describes how to prepare your SharePoint solutions for global use.|  
+|[Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)|Describes how you can create parts of a SharePoint page that users can modify.|  
+|[Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)|Describes how you can create reusable controls that run in application pages and Web Parts.|  
 |[Visual Web Developer](http://go.microsoft.com/fwlink/?LinkId=178725)|Describes how to use the designer that appears when you open a Web page in your project.|  
 |[ASP.NET Web Pages Overview](http://go.microsoft.com/fwlink/?LinkId=178726)|Provides general information about the structure of [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] Web pages, how pages are processed by [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)], and how [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] pages display markup that complies with XHTML standards.|  
 |[ASP.NET Web Page Syntax](http://go.microsoft.com/fwlink/?LinkId=178727)|Describes the markup elements that make up an ASP.NET page.|  
@@ -58,6 +58,6 @@ ms.workload:
 |[Programming in Windows SharePoint Services](http://go.microsoft.com/fwlink/?LinkId=178729)|Describes how to use the managed object model that is provided in [!INCLUDE[sharepointShort](../sharepoint/includes/sharepointshort-md.md)].|  
   
 ## See also
- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
+ [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)  
   
  

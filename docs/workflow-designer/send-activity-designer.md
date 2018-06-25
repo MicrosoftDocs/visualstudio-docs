@@ -22,16 +22,16 @@ The **Send** activity designer is used to create and configure a <xref:System.Se
  A <xref:System.ServiceModel.Activities.Send> activity is used to send a message to a service. A <xref:System.ServiceModel.Activities.ReceiveReply> activity can be bound to a <xref:System.ServiceModel.Activities.Send> activity that receives a message as part of a request/response message exchange pattern on the client.
 
 ### Using the Send Activity Designer
- The **Send** activity designer can be found in the **Messaging** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab in Workflow Designer (Alternatively, select **Toolbar** from the **View** menu or CTRL+ALT+X.)
 
- The **Send** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed. This creates a <xref:System.ServiceModel.Activities.Send> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of Send. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **Send** activity designer or in the **DisplayName** box of the property grid.
+Access the **Send** activity designer in the **Messaging** category of the **Toolbox**. The **Send** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed. This creates a <xref:System.ServiceModel.Activities.Send> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of Send. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **Send** activity designer or in the **DisplayName** box of the property grid.
 
- To create a <xref:System.ServiceModel.Activities.ReceiveReply> activity and bind it to the selected <xref:System.ServiceModel.Activities.Send> activity, right-click the **Send** activity designer, click the **Create ReceiveReply** item in the context menu and the **ReceiveReplyForSend** designer appears below the **Send** designer. The <xref:System.ServiceModel.Activities.ReceiveReply> activity is an activity that receives a message as part of a request/response message exchange pattern on the client. It can be configured with the **ReceiveReplyForSend** designer.
+To create a <xref:System.ServiceModel.Activities.ReceiveReply> activity and bind it to the selected <xref:System.ServiceModel.Activities.Send> activity, right-click the **Send** activity designer, click the **Create ReceiveReply** item in the context menu and the **ReceiveReplyForSend** designer appears below the **Send** designer. The <xref:System.ServiceModel.Activities.ReceiveReply> activity is an activity that receives a message as part of a request/response message exchange pattern on the client. It can be configured with the **ReceiveReplyForSend** designer.
 
- Alternatively, the **SendAndReceiveReply** template designer in the **Messaging** category of the **Toolbox** can be used to create a pair of pre-configured <xref:System.ServiceModel.Activities.Send> and <xref:System.ServiceModel.Activities.ReceiveReply> activities. For more information about the use of the **SendAndReceiveReply** and **ReceiveReplyForSend** templates, see the [SendAndReceiveReply](../workflow-designer/sendandreceivereply-template-designer.md) topic.
+Alternatively, the **SendAndReceiveReply** template designer in the **Messaging** category of the **Toolbox** can be used to create a pair of pre-configured <xref:System.ServiceModel.Activities.Send> and <xref:System.ServiceModel.Activities.ReceiveReply> activities. For more information about the use of the **SendAndReceiveReply** and **ReceiveReplyForSend** templates, see the [SendAndReceiveReply](../workflow-designer/sendandreceivereply-template-designer.md) topic.
 
 ### The Send Activity Properties
- The following table shows the <xref:System.ServiceModel.Activities.Send> properties and describes how they are used in the designer. These properties can be edited in properties grid or on Workflow Designer surface.
+
+The following table shows the <xref:System.ServiceModel.Activities.Send> properties and describes how they are used in the designer. These properties can be edited in properties grid or on Workflow Designer surface.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|

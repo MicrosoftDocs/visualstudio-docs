@@ -1,6 +1,6 @@
 ---
 title: "Tips and Tricks in the Visual Studio Debugger"
-description: Learn productivity tips for the Visual Studio debugger
+description: Learn about some of the lesser-known features supported by the Visual Studio debugger
 ms.custom: ""
 ms.date: "06/15/2017"
 ms.technology: "vs-ide-debug"

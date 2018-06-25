@@ -13,7 +13,7 @@ ms.workload:
 ---
 # How to: Debug XAML with the Workflow Designer
 
-Workflows are defined in terms of XAML. The UI representation of workflow is built on top of the XAML tree defining the workflow. The debugging experience is similar to debugging workflows in the Windows Workflow Designer. For instance, while debugging XAML, the locals, watch, and threads windows work the same way as they do in Workflow Designer debugging. In addition, the call stack view during the XAML debugging is a line-based hierarchical view of the execution flow for the workflow.
+Workflows are defined in terms of XAML. The UI representation of workflow is built on top of the XAML tree defining the workflow. The debugging experience is similar to debugging workflows in the Workflow Designer. For instance, while debugging XAML, the locals, watch, and threads windows work the same way as they do in Workflow Designer debugging. In addition, the call stack view during the XAML debugging is a line-based hierarchical view of the execution flow for the workflow.
 
 > [!NOTE]
 > If the XAML for a workflow is located in the same assembly as the activities, the assembly portion of the class names are not included. Without this portion of the class (activity) names, the XAML cannot be loaded at runtime. It is not recommended to define activities in the same namespace as the main project; otherwise, the XAML will need to be hand-edited after being edited in the designer.

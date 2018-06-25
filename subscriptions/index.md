@@ -144,7 +144,6 @@ Subscribers sign in to [https://my.visualstudio.com](https://my.visualstudio.com
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-ide-benefit">Visual Studio</a></li>
                             <li>Visual Studio for Mac</li>
-                            <li><a href="/visualstudio/subscriptions/vs-vsts">Visual Studio Team Services</a></li>
                             <li>Team Foundation Server and TFS CAL</li>
                         </ul>                        
                     </div>
@@ -161,8 +160,8 @@ Subscribers sign in to [https://my.visualstudio.com](https://my.visualstudio.com
                         <p>With your Visual Studio subscription, you may receive a                         monthly Azure credit and free access to Azure services,                         discounted development and test rates, and exclusive                            access to a subscriber-only image gallery with                                  preconfigured virtual machines. Depending on your                               subscription, cloud services may include:</p>
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-azure">Azure</a></li>
-                            <li><a href="/visualstudio/subscriptions/vs-vsts">Visual Studio Team Services</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-visual-studio-app-center">Visual Studio App Center</a></li>
+                            <li><a href="/visualstudio/subscriptions/vs-vsts">Visual Studio Team Services</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-office-dev">Office 365 Developer Subscription</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-pbi">Windows Developer Account</a></li>
                             <li>PowerBI Pro</li>

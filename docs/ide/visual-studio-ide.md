@@ -24,7 +24,7 @@ This article focuses on Visual Studio 2017 for Windows. It introduces you to the
 
 ## Install the Visual Studio IDE
 
-To get started, [download Visual Studio 2017](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) and install it on your system.
+To get started, [download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) and install it on your system.
 
 The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation. The quickstart topics, such as [Get started with C++ in Visual Studio](getting-started-with-cpp-in-visual-studio.md), contain instructions for installing other workloads.
 
@@ -249,6 +249,6 @@ You can also check out the free Visual Studio courses available on [Microsoft Vi
 ## See also
 
 * [More Visual Studio features](../ide/advanced-feature-overview.md)
-* [www.visualstudio.com](https://www.visualstudio.com/vs/)
+* [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
 * [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
-* [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
+* [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
