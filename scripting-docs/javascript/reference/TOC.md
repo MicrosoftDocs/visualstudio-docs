@@ -3,5 +3,3 @@
 ## [JavaScript Errors](javascript-errors.md)
 ### [JavaScript Run-time Errors](javascript-run-time-errors.md)
 ### [JavaScript Syntax Errors](javascript-syntax-errors.md)
-## [Conditional Compilation](../advanced/conditional-compilation-javascript.md)
-## [Conditional Compilation Variables](../advanced/conditional-compilation-variables-javascript.md)
