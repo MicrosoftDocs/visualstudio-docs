@@ -21,7 +21,7 @@ Another way to execute a set of activities in order is to use a <xref:System.Act
 
 ## Using the Sequence Activity Designer
 
-To add a <xref:System.Activities.Statements.Sequence> activity, drag the **Sequence** activity designer from the **Toolbox** and drop it on to the Windows Workflow Designer surface. To add a child activity to this <xref:System.Activities.Statements.Sequence> activity, drag some other activity from the **Toolbox** and drop it on the triangle in the box with the hint text "Drop activity here".
+To add a <xref:System.Activities.Statements.Sequence> activity, drag the **Sequence** activity designer from the **Toolbox** and drop it on to the Workflow Designer surface. To add a child activity to this <xref:System.Activities.Statements.Sequence> activity, drag some other activity from the **Toolbox** and drop it on the triangle in the box with the hint text "Drop activity here".
 
 ### Sequence Activity Properties in the Workflow Designer
 

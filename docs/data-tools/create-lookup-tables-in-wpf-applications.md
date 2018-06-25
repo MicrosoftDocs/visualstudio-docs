@@ -87,4 +87,4 @@ For example, consider a table of `Orders` in a sales database. Each record in th
 
 - [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)
 - [Display related data in WPF applications](../data-tools/display-related-data-in-wpf-applications.md)
-- [Walkthrough: Displaying Related Data in a WPF Application](../data-tools/display-related-data-in-wpf-applications.md)
+- [Walkthrough: Displaying related data in a WPF application](../data-tools/display-related-data-in-wpf-applications.md)

@@ -29,7 +29,7 @@ Allows [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 
 ## Syntax  
 
-```  
+```xml  
 <ProjectExtensions>  
     Non-MSBuild information to include in file.  
 </ProjectExtensions>  

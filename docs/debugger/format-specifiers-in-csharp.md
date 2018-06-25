@@ -58,6 +58,7 @@ You can change the format in which a value is displayed in the **Watch** window 
 |dynamic|Displays the specified object using a Dynamic View|Displays all the members of the object, including the Dynamic View|Displays only the Dynamic View|  
 |h|hexadecimal integer|61541|0x0000F065|  
 |nq|string with no quotes|"My String"|My String|  
+|nse|Specifies behavior, not format. Evaluates the expression with "No side effects". If the expression can’t be interpreted and can only be resolved by an evaluation (such as a function call), you will see an error instead.|N/A|N/A|
 |hidden|Displays all public and non-public members|Displays public members|Displays all members|  
 |raw|Displays item as it appears in the raw item node. Valid on proxy objects only.|Dictionary\<T>|Raw View of Dictionary\<T>|  
 |results|Used with a variable of a type that implements IEnumerable or IEnumerable\<T>, usually the result of a query expression. Displays only the members that contain the query result.|Displays all the members.|Displays the members the meet the conditions of the query.|  

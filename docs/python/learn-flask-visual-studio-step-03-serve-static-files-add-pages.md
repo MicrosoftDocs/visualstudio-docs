@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 3: Serve static files, add pages, and use template inheritance
+# Step 3: Serve static files, add pages, and use template inheritance
 
 **Previous step: [Create a Flask app with views and page templates](learn-flask-visual-studio-step-02-create-app.md)**
 
@@ -278,7 +278,7 @@ The following steps demonstrate inheritance:
 > [!div class="nextstepaction"]
 > [Use the full Flask Web Project template](learn-flask-visual-studio-step-04-full-flask-project-template.md)
 
-## Going deeper
+## Go deeper
 
 - For more capabilities of Jinja templates, such as control flow, see [Jinja Template Designer Documentation](http://jinja.pocoo.org/docs/2.10/templates) (jinja.pocoo.org)
 - For  details on using `url_for`, see [url_for](http://flask.pocoo.org/docs/1.0/api/?highlight=url_for#flask.url_for) within the Flask Application object documentation (flask.pocoo.org)
