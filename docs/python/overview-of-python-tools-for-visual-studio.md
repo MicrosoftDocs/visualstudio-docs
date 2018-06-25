@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Working with Python in Visual Studio on Windows
+# Work with Python in Visual Studio on Windows
 
 Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by both a strong developer community and many free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing, and is used by many universities, scientists, casual developers, and professional developers alike. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
 

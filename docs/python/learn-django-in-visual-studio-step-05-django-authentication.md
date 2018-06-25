@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 5: Authenticate users in Django
+# Step 5: Authenticate users in Django
 
 **Previous step: [Use the full Django Web Project template](learn-django-in-visual-studio-step-04-full-django-project-template.md)**
 
@@ -202,7 +202,7 @@ Answer: The `{% crsf_token %}` tag includes Django's built-in [cross-site reques
 > [!div class="nextstepaction"]
 > [Use the Polls Django Web Project template](learn-django-in-visual-studio-step-06-polls-django-web-project-template.md)
 
-## Going deeper
+## Go deeper
 
 - [User authentication in Django](https://docs.djangoproject.com/en/2.0/topics/auth/) (docs.djangoproject.com)
 - Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django)
