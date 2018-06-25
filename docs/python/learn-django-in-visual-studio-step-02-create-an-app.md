@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 2: Create a Django app with views and page templates
+# Step 2: Create a Django app with views and page templates
 
 **Previous step: [Create a Visual Studio project and solution](learn-django-in-visual-studio-step-01-project-and-solution.md)**
 
@@ -267,7 +267,7 @@ Answer: When Django looks for a template referred to in the `render` function, i
 > [!div class="nextstepaction"]
 > [Serve static files, add pages, and use template inheritance](learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)
 
-## Going deeper
+## Go deeper
 
 - [Writing your first Django app, part 1 - views](https://docs.djangoproject.com/en/2.0/intro/tutorial01/#write-your-first-view) (docs.djangoproject.com)
 - For more capabilities of Django templates, such as includes and inheritance, see [The Django template language](https://docs.djangoproject.com/en/2.0/ref/templates/language/) (docs.djangoproject.com)

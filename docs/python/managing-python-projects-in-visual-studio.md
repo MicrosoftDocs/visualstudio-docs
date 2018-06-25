@@ -104,7 +104,7 @@ Linked files are ignored under any of the following conditions:
 - The linked file contains Link metadata and the Link path is a relative path outside of the project hierarchy
 - The link path is rooted
 
-### Working with linked files
+### Work with linked files
 
 To add an existing item as a link, right-click the folder in the project where you wish to add the file, then select **Add > Exiting Item...**. In the dialog that appears, select a file and choose **Add as Link** from the drop-down on the **Add** button. Provided that there are no conflicting files, this command creates a link in the selected folder. However, the link is not added if there is already a file with the same name or a link to that file already exists in the project.
 

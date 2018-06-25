@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 6: Use the Polls Django Web Project template
+# Step 6: Use the Polls Django Web Project template
 
 **Previous step: [Authenticate users in Django](learn-django-in-visual-studio-step-05-django-authentication.md)**
 
