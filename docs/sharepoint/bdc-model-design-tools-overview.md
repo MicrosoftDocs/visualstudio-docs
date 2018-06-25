@@ -70,20 +70,20 @@ ms.workload:
 > [!NOTE]  
 >  Changes to an original type descriptor do not affect the copies of that type descriptor.  
   
- For more information, see [How to: Define the Type Descriptor of a Parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md).  
+ For more information, see [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md).  
   
 ## See also
- [How to: Create a BDC Model](../sharepoint/how-to-create-a-bdc-model.md)   
- [How to: Add an Entity to a Model](../sharepoint/how-to-add-an-entity-to-a-model.md)   
- [How to: Add a Finder Method](../sharepoint/how-to-add-a-finder-method.md)   
- [How to: Add a Specific Finder Method](../sharepoint/how-to-add-a-specific-finder-method.md)   
- [How to: Add a Creator Method](../sharepoint/how-to-add-a-creator-method.md)   
- [How to: Add a Deleter Method](../sharepoint/how-to-add-a-deleter-method.md)   
- [How to: Add an Updater Method](../sharepoint/how-to-add-an-updater-method.md)   
- [Creating an Association Between Entities](../sharepoint/creating-an-association-between-entities.md)   
- [Walkthrough: Creating an External List in SharePoint by Using Business Data](../sharepoint/walkthrough-creating-an-external-list-in-sharepoint-by-using-business-data.md)   
- [Integrating Business Data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)   
- [Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md)   
- [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)  
+ [How to: Create a BDC model](../sharepoint/how-to-create-a-bdc-model.md)   
+ [How to: Add an entity to a model](../sharepoint/how-to-add-an-entity-to-a-model.md)   
+ [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)   
+ [How to: Add a specific Finder method](../sharepoint/how-to-add-a-specific-finder-method.md)   
+ [How to: Add a Creator method](../sharepoint/how-to-add-a-creator-method.md)   
+ [How to: Add a Deleter method](../sharepoint/how-to-add-a-deleter-method.md)   
+ [How to: Add an Updater method](../sharepoint/how-to-add-an-updater-method.md)   
+ [Create an association between entities](../sharepoint/creating-an-association-between-entities.md)   
+ [Walkthrough: Create an external list in SharePoint by using business data](../sharepoint/walkthrough-creating-an-external-list-in-sharepoint-by-using-business-data.md)   
+ [Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)   
+ [Creating a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)   
+ [Designing a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)  
   
  

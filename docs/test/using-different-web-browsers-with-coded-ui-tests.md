@@ -88,7 +88,7 @@ Here are some other things you should know:
 
 You can configure the output to include screenshots in the coded UI logs. To do so, you need to set some configuration settings in the *QTAgent32.exe.config* file. By default, this file is installed in the following location:
 
-     *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE*
+*%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE*
 
 Set the following values:
 

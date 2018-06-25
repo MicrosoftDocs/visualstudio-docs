@@ -2,7 +2,7 @@
 title: "Deployment feature tour"
 description: "Learn about your options for deploying apps from Visual Studio."
 ms.custom: "mvc"
-ms.date: 11/26/2017
+ms.date: 06/22/2018
 ms.technology: vs-ide-deployment
 ms.topic: "quickstart"
 dev_langs: 
@@ -28,13 +28,13 @@ ms.workload:
 
 # Quickstart: First look at deployment in Visual Studio
 
-By deploying an application, service, or component, you distribute it for installation on other computers, devices, servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need. (Many app types support other deployment tools such as command line deployment or NuGet that are not described here.)
+By deploying an application, service, or component, you distribute it for installation on other computers, devices, or servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need. (Many app types support other deployment tools such as command line deployment or NuGet that are not described here.)
 
-See the Tutorials for step-by-step deployment instructions. If you are deploying a web application and need more in-depth information to decide on the best deployment option from Visual Studio, see [What publishing options are right for me?](../ide/not-in-toc/web-publish-options.md).
+See the Quickstarts and Tutorials for step-by-step deployment instructions. For an overview of deployment options, see [What publishing options are right for me?](deploying-applications-services-and-components-resources.md#what-publishing-options-are-right-for-me).
 
 ## Deploy to local folder
 
-Deployment to a local folder is typically used for testing or to begin a staged deployment in which another tool will be used for final deployment.
+Deployment to a local folder is typically used for testing, or to begin a staged deployment in which another tool is used for final deployment.
 
 - **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and .**NET Core**: Use the Publish tool to deploy to a local folder. The exact options available depend on your app type. In Solution Explorer, right-click your project and choose **Publish**. (If you have previously configured any publishing profiles, you must then click **Create new profile**.) Next, choose **Folder**. For more information, see [Deploy to a local folder](quickstart-deploy-to-local-folder.md).
 
@@ -42,13 +42,15 @@ Deployment to a local folder is typically used for testing or to begin a staged 
 
 - **Visual C++ runtime**: You can deploy the Visual C++ runtime using local deployment or static linking. For more information, see [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp). 
 
-## <a name="azure"></a> Publish to Azure
+## Publish to Azure
 
 - **ASP.NET**, **ASP.NET Core**, **Python**, and **Node.js**: You can use the Publish tool to quickly deploy apps to Azure App Service or to an Azure Virtual Machine. In Solution Explorer, right-click the project and choose **Publish**. (If you have previously configured any publishing profiles, you must then click **Create new profile**.) In the Publish dialog box, choose either **App Service** or **Azure Virtual Machines**, and then follow the configuration steps.
 
     ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
 
-    In Visual Studio 2017 version 15.7, you can deploy ASP.NET Core apps to **App Service for Linux**.
+    In Visual Studio 2017 version 15.7 and later, you can deploy ASP.NET Core apps to **App Service for Linux**.
+
+    For Python apps, also see [Python - Publishing to Azure App Service](/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json).
 
     For information on importing a publish profile from Azure App Service to Visual Studio, see [Import publish settings and deploy to Azure](../deployment/tutorial-import-publish-settings-azure.md).
 
@@ -57,7 +59,7 @@ Deployment to a local folder is typically used for testing or to begin a staged 
     > [!NOTE]
     > If you do not already have an Azure account, you can [sign up here](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=doc&utm_campaign=visualstudio).
 
-## <a name="web"></a> Publish to Web or deploy to network share
+## Publish to Web or deploy to network share
 
 - **ASP.NET**, **ASP.NET Core**, **Node.js**, and **Python**: You can use the Publish tool to deploy to a website using FTP or Web Deploy. For more information, see [Deploy to a web site](quickstart-deploy-to-a-web-site.md).
 
@@ -73,7 +75,7 @@ Deployment to a local folder is typically used for testing or to begin a staged 
 
 - **Windows desktop** You can publish a Windows desktop application to a web server or a network file share using ClickOnce deployment. Users can then install the application with a single click. For more information, see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) and [Deploy a native app using ClickOnce](/cpp/ide/clickonce-deployment-for-visual-cpp-applications).
 
-## <a name="microsoft_store"></a> Publish to Microsoft Store
+## Publish to Microsoft Store
 
 From Visual Studio, you can create app packages for deployment to Microsoft Store.
 
@@ -89,7 +91,7 @@ From Visual Studio, you can create app packages for deployment to Microsoft Stor
 
 If you are deploying a UWP app for testing on a device, see [Run UWP apps on a remote machine in Visual Studio](../debugger/run-windows-store-apps-on-a-remote-machine.md).
 
-## <a name="installer"></a> Create an Installer package (Windows client)
+## Create an Installer package (Windows client)
 
 If you require more a complex installation of a desktop application than [ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) can provide, you can create an installer package, a setup project, or a custom bootstrapper.
 
@@ -119,8 +121,7 @@ In a team environment, you can use Visual Studio Team Services (VSTS) to enable 
 
 ## Next steps
 
-In this tutorial, you took a quick look at deployment options for different applications. If you are deploying a web application such as ASP.NET, read more in-depth about some of the deployment options available in Visual Studio.
+In this tutorial, you took a quick look at deployment options for different applications.
 
 > [!div class="nextstepaction"]
-> [What publishing options are right for me?](../ide/not-in-toc/web-publish-options.md)
-
+> [What publishing options are right for me?](deploying-applications-services-and-components-resources.md#what-publishing-options-are-right-for-me)

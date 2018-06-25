@@ -28,11 +28,11 @@ ms.workload:
 ## Troubleshoot errors and issues
  For assistance with some common errors and other issues in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint tools, see the following topics:  
   
--   [Troubleshooting SharePoint Solutions](../sharepoint/troubleshooting-sharepoint-solutions.md)  
+-   [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md)  
   
--   [Debugging SharePoint Solutions](../sharepoint/debugging-sharepoint-solutions.md)  
+-   [Debug SharePoint solutions](../sharepoint/debugging-sharepoint-solutions.md)  
   
--   [Troubleshooting SharePoint Packaging and Deployment](../sharepoint/troubleshooting-sharepoint-packaging-and-deployment.md)  
+-   [Troubleshoot SharePoint packaging and deployment](../sharepoint/troubleshooting-sharepoint-packaging-and-deployment.md)  
   
 ## Other resources
  The following table lists the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint tools forums and other resources available on MSDN.  
@@ -46,6 +46,6 @@ ms.workload:
  If you still cannot find  the answers that you need, you can access online support options, such as contacting Microsoft Product Support Services or searching KnowledgeBase articles. For more information, see the [Microsoft Help and Support](http://go.microsoft.com/fwlink/?LinkID=155371) page.  
   
 ## See also
- [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)  
+ [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)  
   
  

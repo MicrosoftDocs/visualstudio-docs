@@ -27,7 +27,7 @@ To work around this issue, follow these steps.
 
 ### Step 1 - Check whether this problem is a known issue
 
-There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. To see if there's a workaround for your problem, check the [Known Issues section of our release notes](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes#known-issues).
+There are some known issues with the Visual Studio Installer that Microsoft is working on fixing. To see if there's a workaround for your problem, check the [Known Issues section of our release notes](/visualstudio/releasenotes/vs2017-relnotes#-known-issues).
 
 ### Step 2 - Check with the developer community
 
@@ -42,7 +42,7 @@ Performing the following actions reinstalls the Visual Studio Installer files an
 
 1. Close the Visual Studio Installer.
 2. Delete the Visual Studio Installer directory. Typically, the directory is `C:\Program Files (x86)\Microsoft Visual Studio\Installer`.
-3. Run the Visual Studio Installer bootstrapper. You may find the bootstrapper in your Downloads folder with a file name that follows a `vs_[Visual Studio edition]__*.exe` pattern. If you don't find that application, you can download the bootstrapper by going to the [Visual Studio downloads](https://www.visualstudio.com/downloads/) page and clicking **Download** for your edition of Visual Studio. Run the executable to reset your installation metadata.
+3. Run the Visual Studio Installer bootstrapper. You may find the bootstrapper in your Downloads folder with a file name that follows a `vs_[Visual Studio edition]__*.exe` pattern. If you don't find that application, you can download the bootstrapper by going to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page and clicking **Download** for your edition of Visual Studio. Run the executable to reset your installation metadata.
 4. Try to install or update Visual Studio again. If the Installer continues to fail, go to the next step.
 
 ### Step 4 - Report a problem
@@ -65,7 +65,7 @@ As a last resort, you can [remove Visual Studio](remove-visual-studio.md) to rem
 
 ### Step 6 - Contact us (optional)
 
-If none of the other steps allow you to successfully install, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+If none of the other steps allow you to successfully install, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
 
 ## How to troubleshoot an offline installer
 
@@ -94,7 +94,7 @@ To collect the logs:
 
 ## More support options
 
-If none of the other steps allow you to successfully install, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+If none of the other steps allow you to successfully install, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
 
 Here are a few more options:
 

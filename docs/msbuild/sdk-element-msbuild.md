@@ -29,7 +29,7 @@ References an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecm
 
 ## Syntax  
 
-```  
+```xml  
 <Sdk Name="My.Custom.Sdk"
      Version="1.0.0" />  
 ```  
