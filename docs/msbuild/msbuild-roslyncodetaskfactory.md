@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Inline Tasks | Microsoft Docs"
+title: "MSBuild Inline Tasks with RoslynCodeTaskFactory | Microsoft Docs"
 ms.custom: ""
 ms.date: "09/21/2017"
 ms.technology: msbuild
@@ -13,22 +13,20 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# MSBuild Inline Tasks
-MSBuild tasks are typically created by compiling a class that implements the <xref:Microsoft.Build.Framework.ITask> interface. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  
-  
- Starting in .NET Framework version 4, you can create tasks inline in the project file. You do not have to create a separate assembly to host the task. This makes it easier to keep track of source code and easier to deploy the task. The source code is integrated into the script.  
-  
+# MSBuild Inline Tasks with RoslynCodeTaskFactory
+Similar to the [CodeTaskFactory](../msbuild/msbuild-inline-tasks.md), RoslynCodeTaskFactory uses the cross-platform Roslyn compilers to generate in-memory task assemblies for use as inline tasks.  RolynCodeTaskFactory tasks target .NET Standard and can work on .NET Framework and .NET Core runtimes as well as other platforms such as Linux and Mac OS.
 
- In MSBuild 15.8, the [RoslnCodeTaskFactory](../msbuild/msbuild-roslyncodetaskfactory.md) was added which can create .NET Standard cross-platform inline tasks.  If you need to use inline tasks on .NET Core, you must use the RoslynCodeTaskFactory.
-## The Structure of an Inline Task  
- An inline task is contained by a [UsingTask](../msbuild/usingtask-element-msbuild.md) element. The inline task and the `UsingTask` element that contains it are typically included in a .targets file and imported into other project files as required. Here is a basic inline task. Notice that it does nothing.  
+**Note:** The `RolynCodeTaskFactory` is available in MSBuild 15.8 and above only.
+  
+## The Structure of an Inline Task with RoslynCodeTaskFactory
+ RoslynCodeTaskFactory inline tasks are declared in an identical way as [CodeTaskFactory](../msbuild/msbuild-inline-tasks.md). The only difference being that they target .NET Standard.  The inline task and the `UsingTask` element that contains it are typically included in a .targets file and imported into other project files as required. Here is a basic inline task. Notice that it does nothing.  
   
 ```xml  
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <!-- This simple inline task does nothing. -->  
   <UsingTask  
     TaskName="DoNothing"  
-    TaskFactory="CodeTaskFactory"  
+    TaskFactory="RoslynCodeTaskFactory"  
     AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll" >  
     <ParameterGroup />  
     <Task>  
@@ -85,14 +83,14 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
 >  When defining the task class in the source file, the class name must agree with the `TaskName` attribute of the corresponding [UsingTask](../msbuild/usingtask-element-msbuild.md) element.  
   
 ## Hello World  
- Here is a more robust inline task. The HelloWorld task displays "Hello, world!" on the default error logging device, which is typically the system console or the Visual Studio **Output** window. The `Reference` element in the example is included just for illustration.  
+ Here is a more robust inline task with RoslynCodeTaskFactory. The HelloWorld task displays "Hello, world!" on the default error logging device, which is typically the system console or the Visual Studio **Output** window. The `Reference` element in the example is included just for illustration.  
   
 ```xml  
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <!-- This simple inline task displays "Hello, world!" -->  
   <UsingTask  
     TaskName="HelloWorld"  
-    TaskFactory="CodeTaskFactory"  
+    TaskFactory="RoslynCodeTaskFactory"  
     AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll" >  
     <ParameterGroup />  
     <Task>  
@@ -143,7 +141,7 @@ For example,
 ```xml  
 <ParameterGroup>  
     <Expression Required="true" />  
-      <Files ParameterType="Microsoft.Build.Framework.ITaskItem[]" Required="true" />  
+    <Files ParameterType="Microsoft.Build.Framework.ITaskItem[]" Required="true" />  
     <Tally ParameterType="System.Int32" Output="true" />  
 </ParameterGroup>  
 ```  
@@ -159,30 +157,94 @@ defines these three parameters:
  If the `Code` element has the `Type` attribute of `Fragment` or `Method`, then properties are automatically created for every parameter. Otherwise, properties must be explicitly declared in the task source code, and must exactly match their parameter definitions.  
   
 ## Example  
- The following inline task replaces every occurrence of a token in the given file with the given value.  
+ The following inline task logs some messages and returns a string.  
   
 ```xml  
 <Project xmlns='http://schemas.microsoft.com/developer/msbuild/2003' ToolsVersion="15.0">  
   
-  <UsingTask TaskName="TokenReplace" TaskFactory="CodeTaskFactory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll">  
-    <ParameterGroup>  
-      <Path ParameterType="System.String" Required="true" />  
-      <Token ParameterType="System.String" Required="true" />  
-      <Replacement ParameterType="System.String" Required="true" />  
-    </ParameterGroup>  
-    <Task>  
-      <Code Type="Fragment" Language="cs"><![CDATA[  
-string content = File.ReadAllText(Path);  
-content = content.Replace(Token, Replacement);  
-File.WriteAllText(Path, content);  
+    <UsingTask TaskName="MySample"
+               TaskFactory="RoslynCodeTaskFactory"
+               AssemblyFile="$(MSBuildBinPath)\Microsoft.Build.Tasks.Core.dll">
+        <ParameterGroup>
+            <Parameter1 ParameterType="System.String" Required="true" />
+            <Parameter2 ParameterType="System.String" />
+            <Parameter3 ParameterType="System.String" Output="true" />
+        </ParameterGroup>
+        <Task>
+            <Using Namespace="System" />
+            <Code Type="Fragment" Language="C#">
+              <![CDATA[
+              Log.LogMessage(MessageImportance.High, "Hello from an inline task created by Roslyn!");
+              Log.LogMessageFromText($"Parameter1: '{Parameter1}'", MessageImportance.High);
+              Log.LogMessageFromText($"Parameter2: '{Parameter2}'", MessageImportance.High);
+              Parameter3 = "A value from the Roslyn CodeTaskFactory";
+            ]]>
+            </Code>
+        </Task>
+    </UsingTask>
   
-]]></Code>  
-    </Task>  
-  </UsingTask>  
+    <Target Name="Demo">  
+      <MySample Parameter1="A value for parameter 1" Parameter2="A value for parameter 2">
+          <Output TaskParameter="Parameter3" PropertyName="NewProperty" />
+      </MySample>
+
+      <Message Text="NewProperty: '$(NewProperty)'" />
+    </Target>  
+</Project>  
+```  
+
+ These inline tasks can combine paths and get the file name.  
   
-  <Target Name='Demo' >  
-    <TokenReplace Path="C:\Project\Target.config" Token="$MyToken$" Replacement="MyValue"/>  
-  </Target>  
+```xml  
+<Project xmlns='http://schemas.microsoft.com/developer/msbuild/2003' ToolsVersion="15.0">  
+  
+    <UsingTask TaskName="PathCombine"
+               TaskFactory="RoslynCodeTaskFactory"
+               AssemblyFile="$(MSBuildBinPath)\Microsoft.Build.Tasks.Core.dll">
+        <ParameterGroup>
+            <Paths ParameterType="System.String[]" Required="true" />
+            <Combined ParameterType="System.String" Output="true" />
+        </ParameterGroup>
+        <Task>
+            <Using Namespace="System" />
+            <Code Type="Fragment" Language="C#">
+            <![CDATA[
+            Combined = Path.Combine(Paths);
+            ]]>
+            </Code>
+        </Task>
+    </UsingTask>
+
+    <UsingTask TaskName="PathGetFileName"
+             TaskFactory="RoslynCodeTaskFactory"
+             AssemblyFile="$(MSBuildBinPath)\Microsoft.Build.Tasks.Core.dll">
+        <ParameterGroup>
+            <Path ParameterType="System.String" Required="true" />
+            <FileName ParameterType="System.String" Output="true" />
+        </ParameterGroup>
+        <Task>
+            <Using Namespace="System" />
+            <Code Type="Fragment" Language="C#">
+            <![CDATA[
+            FileName = System.IO.Path.GetFileName(Path);
+            ]]>
+            </Code>
+        </Task>
+    </UsingTask>
+  
+    <Target Name="Demo">  
+        <PathCombine Paths="$(Temp);MyFolder;$([System.Guid]::NewGuid()).txt">
+            <Output TaskParameter="Combined" PropertyName="MyCombinedPaths" />
+        </PathCombine>
+
+        <Message Text="Combined Paths: '$(MyCombinedPaths)'" />
+
+        <PathGetFileName Path="$(MyCombinedPaths)">
+            <Output TaskParameter="FileName" PropertyName="MyFileName" />
+        </PathGetFileName>
+
+        <Message Text="File name: '$(MyFileName)'" />
+    </Target>  
 </Project>  
 ```  
   
