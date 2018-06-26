@@ -2601,6 +2601,2806 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "scripting-docs/javascript/javascript-fundamentals.md",
+            "redirect_url": "https://developer.mozilla.org/docs/Learn/Getting_started_with_the_web/JavaScript_basics",
+            "redirect_document_id": false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/writing-javascript-code.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Learn/Getting_started_with_the_web/JavaScript_basics",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/variables-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Learn/JavaScript/First_steps/Variables",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/data-types-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Data_structures",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/operators-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Learn/Getting_started_with_the_web/JavaScript_basics",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/operator-subtractprecedence-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Operator_Precedence",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/controlling-program-flow-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Guide/Control_flow_and_error_handling",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/functions-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Learn/JavaScript/Building_blocks/Functions",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/objects-and-arrays-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Learn/JavaScript/Objects",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/intrinsic-objects-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Learn/JavaScript/Objects",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/creating-objects-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_building_practice",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/calculating-dates-and-times-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Guide/Numbers_and_dates",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/date-and-time-strings-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Guide/Numbers_and_dates",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/displaying-text-in-a-webpage-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Learn/Getting_started_with_the_web",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/advanced/advanced-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/advanced/using-constructors-to-define-types.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/constructor",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/advanced/prototypes-and-prototype-inheritance.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Learn/JavaScript/Objects/Inheritance",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/advanced/data-properties-and-accessor-properties.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Property_Accessors",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/advanced/recursion-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Guide/Functions",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/advanced/variable-scope-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Closures",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/advanced/copying-passing-and-comparing-data-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Guide/Functions",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/advanced/using-arrays-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Learn/JavaScript/First_steps/Arrays",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/advanced/typed-arrays-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Typed_arrays",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/advanced/collections-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Guide/Keyed_collections",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/advanced/iterators-and-generators-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Guide/Iterators_and_generators",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/advanced/special-characters-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Guide/Grammar_and_types",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/advanced/template-strings-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Template_literals",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/advanced/using-the-bind-method-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/bind",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/advanced/managing-event-listeners.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Learn/JavaScript/Building_blocks/Events",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/advanced/troubleshooting-your-scripts-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Learn/JavaScript/First_steps/What_went_wrong",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/advanced/strict-mode-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Strict_mode",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/javascript-objects.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/array-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/constructor-property-array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/length-property-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/length",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/prototype-property-array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/array-from-function-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/from",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/array-isarray-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/isarray",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/array-of-function-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/of",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/concat-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/concat",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/entries-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/entries",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/every-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/every",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/fill-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/fill",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/filter-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/findindex-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/findindex",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/foreach-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/foreach",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/indexof-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/indexof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/join-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/join",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/keys-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/keys",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/lastindexof-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/lastindexof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/map-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/pop-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/pop",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/push-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/push",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/reduce-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/reduceright-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/reduceright",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/reverse-method-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/shift-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/shift",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/slice-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/slice",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/some-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/some",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/sort-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/sort",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/splice-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/splice",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tostring-method-array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/tostring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/unshift-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/valueof-method-array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/values-method-array-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/values",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/arraybuffer-object.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytelength-property-arraybuffer.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/bytelength",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/arraybuffer-isview-function-arraybuffer.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/isview",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/slice-method-arraybuffer.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/slice",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/arguments-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/arguments",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/0-dot-dot-dot-n-properties-arguments-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/arguments",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/callee-property-arguments-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/arguments/callee",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/length-property-arguments-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/arguments/length",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/boolean-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/constructor-property-boolean.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean/constructor",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/prototype-property-boolean.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean/prototype",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tostring-method-boolean-1.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean/tostring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/valueof-method-boolean.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean/valueof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/dataview-object.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/buffer-property-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/buffer",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytelength-property-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/bytelength",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/byteoffset-property-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/byteoffset",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getint8-method-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getint8",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getuint8-method-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getuint8",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getint16-method-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getint16",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getuint16-method-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getuint16",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getint32-method-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getint32",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getuint32-method-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getuint32",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getfloat32-method-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getfloat32",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getfloat64-method-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getfloat64",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setint8-method-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setint8",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setuint8-method-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setuint8",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setint16-method-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setint16",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setuint16-method-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setuint16",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setint32-method-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setint",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setuint32-method-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setuint32.md",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setfloat32-method-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setfloat32",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setfloat64-method-dataview.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setfloat64",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/date-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/constructor-property-date.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/prototype-property-date.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/prototype",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/date-now-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/now",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/date-parse-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/parse",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/date-utc-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/utc",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getdate-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getdate",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getday-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getday",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getfullyear-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getfullyear",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/gethours-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/gethours",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getmilliseconds-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getmilliseconds",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getminutes-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getminutes",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getmonth-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getmonth",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getseconds-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getseconds",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/gettime-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/gettime",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/gettimezoneoffset-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/gettimezoneoffset",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getutcdate-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getutcdate",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getutcday-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getutcday",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getutcfullyear-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getutcfullyear",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getutchours-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getutchours",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getutcmilliseconds-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getutcmilliseconds",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getutcminutes-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getutcminutes",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getutcmonth-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getutcmonth",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getutcseconds-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getutcseconds",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getyear-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getyear",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setdate-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setdate",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setfullyear-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setfullyear",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/sethours-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/sethours",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setmilliseconds-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setmilliseconds",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setminutes-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setminutes",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setmonth-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setmonth",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setseconds-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setseconds",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/settime-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/settime",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setutcdate-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setutcdate",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setutcfullyear-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setutcfullyear",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setutchours-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setutchours",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setutcmilliseconds-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setutcmilliseconds",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setutcminutes-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setutcminutes",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setutcmonth-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setutcmonth",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setutcseconds-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setutcseconds",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/setyear-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setyear",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/todatestring-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/todatestring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/togmtstring-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/togmtstring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/toisostring-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toisostring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tojson-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/tojson",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tolocaledatestring-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/tolocaledatestring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tolocalestring-date.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/tolocalestring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tolocaletimestring-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/tolocaletimestring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/totimestring-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/totimestring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/toutcstring-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toutcstring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tostring-method-date.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/tostring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/valueof-method-date.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/valueof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/error-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/constructor-property-error.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/prototype-property-error.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/prototype",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/message-property-error-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/message",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/name-property-error-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/name",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/stack-property-error-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/stack",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tostring-method-error.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/tostring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/valueof-method-error.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/valueof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/float32array-object.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytes-per-element-constant-float32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytes_per_element",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/buffer-property-float32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/buffer",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytelength-property-float32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytelength",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/byteoffset-property-float32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/byteoffset",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/length-property-float32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/length",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/get-method-float32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/set-method-float32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/set",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/subarray-method-float32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/subarray",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/float64array-object.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytes-per-element-constant-float64array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytes_per_element",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/buffer-property-float64array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/buffer",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytelength-property-float64array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytelength",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bufferoffset-property-float64array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/byteoffset",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/length-property-float64array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/length",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/get-method-float64array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/set-method-float64array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/set",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/subarray-method-float64array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/subarray",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/function-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/arguments-property-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/arguments",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/caller-property-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/caller",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/length-property-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/length",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/apply-method-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/apply",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bind-method-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/bind",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/call-method-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/call",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/global-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/infinity-constant-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/infinity",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/nan-constant-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/nan",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/null-constant-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/null",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/undefined-constant-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/decodeuri-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/decodeuri",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/decodeuricomponent-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/decodeuricomponent",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/encodeuri-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/encodeuri",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/encodeuricomponent-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/encodeuricomponent",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/escape-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/escape",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/eval-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/eval",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/isfinite-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/isfinite",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/isnan-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/isnan",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/parsefloat-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/parsefloat",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/parseint-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/parseint",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/unescape-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/unescape",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/int8array-object.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytes-per-element-constant-int8array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytes_per_element",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/buffer-property-int8array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/buffer",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytelength-property-int8array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytelength",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/byteoffset-property-int8array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/byteoffset",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/length-property-int8array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/length",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/set-method-int8array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/set",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/subarray-method-int8array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/subarray",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/int16array-object.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytes-per-element-constant-int16array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytes_per_element",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/buffer-property-int16array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/buffer",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytelength-property-int16array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytelength",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/byteoffset-property-int16array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/byteoffset",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/length-property-int16array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/length",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/set-method-int16array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/set",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/subarray-method-int16array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/subarray",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/int32array-object.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytes-per-element-constant-int32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytes_per_element",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/buffer-property-int32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/buffer",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytelength-property-int32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytelength",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/byteoffset-property-int32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/byteoffset",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/length-property-int32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/length",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/set-method-int32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/set",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/subarray-method-int32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/subarray",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/intl-collator-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Collator",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/compare-property-intl-collator.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Collator/compare",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/constructor-property-intl-collator.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Collator",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/prototype-property-intl-collator.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Collator/prototype",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/resolvedoptions-method-intl-collator.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Collator/resolvedoptions",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/intl-datetimeformat-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/constructor-property-intl-datetimeformat.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/format-property-intl-datetimeformat.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat/format",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/prototype-property-intl-datetimeformat.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat/prototype",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/resolvedoptions-method-intl-datetimeformat.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat/resolvedoptions",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/intl-numberformat-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/constructor-property-intl-numberformat.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/format-property-intl-numberformat.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat/format",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/prototype-property-intl-numberformat.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat/prototype",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/resolvedoptions-method-intl-numberformat.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat/resolvedoptions",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/json-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/json-parse-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/json-stringify-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/map-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/constructor-property-map.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/prototype-property-map.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/prototype",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/size-property-map-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/size",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/clear-method-map-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/clear",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/delete-method-map-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/delete",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/foreach-method-map-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/foreach",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/get-method-map-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/get",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/has-method-map-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/has",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/set-method-map-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/set",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tostring-method-map-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/tostring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/valueof-method-map-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/valueof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-constants-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-abs-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/abs",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-acos-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/acos",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-acosh-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/acosh",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-asin-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/asin",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-asinh-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/asinh",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-atan-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/atan",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-atan2-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/atan2",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-atanh-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/atanh",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-cbrt-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/cbrt",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-ceil-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-clz32-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/clz32",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-cos-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/cos",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-cosh-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/cosh",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-exp-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/exp",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-expm1-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/expm1",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-floor-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/floor",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-fround-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/fround",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-hypot-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/hypot",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-imul-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/imul",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-log-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/log",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-log1p-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/log1p",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-log10-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/log10",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-log2-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/log2",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-max-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/max",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-min-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/min",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-pow-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/pow",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-random-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/random",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-round-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/round",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-sign-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/sign",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-sin-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/sin",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-sinh-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/sinh",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-sqrt-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-tan-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/tan",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-tanh-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/tanh",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/math-trunc-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/trunc",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/number-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/number-constants-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/number-isfinite-function-number-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/isfinite",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/number-isinteger-function-number-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/isinteger",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/number-isnan-function-number-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/isnan",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/number-issafeinteger-number-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/issafeinteger",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/constructor-property-number.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/constructor",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/prototype-property-number.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/prototype",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/toexponential-method-number-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/toexponential",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tofixed-method-number-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/tofixed",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tolocalestring-number.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/tolocalestring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/toprecision-method-number-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/toprecision",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tostring-method-number.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/tostring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/valueof-method-number.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/valueof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/proto-property-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/proto",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/constructor-property-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/prototype-property-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-assign-function-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/assign",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-create-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/create",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-defineproperties-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/defineproperties",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-defineproperty-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/defineproperty",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-freeze-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-getownpropertydescriptor-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/getownpropertydescriptor",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-getownpropertynames-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/getownpropertynames",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-getownpropertysymbols-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/getownpropertysymbols",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-getprototypeof-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/getprototypeof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-is-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/is",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-isextensible-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/isextensible",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-isfrozen-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/isfrozen",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-issealed-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/issealed",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-keys-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/keys",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-preventextensions-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/preventextensions",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-seal-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/seal",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/object-setprototypeof-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/setprototypeof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/hasownproperty-method-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/hasownproperty",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/isprototypeof-method-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/isprototypeof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/propertyisenumerable-method-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/propertyisenumerable",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tolocalestring-method-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/tolocalestring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tostring-method-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/tostring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/valueof-method-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/valueof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/promise-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/promise-all-function-promise.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/all",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/promise-race-function-promise.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/race",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/promise-reject-function-promise.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/reject",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/promise-resolve-function-promise.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/catch-method-promise.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/then-method-promise.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/then",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/proxy-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/reflect-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/regexp-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/dollar-1-dot-dot-dot-dollar-9-properties-regexp-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/n",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/index-property-regexp-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/input-property-dollar-regexp-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/input",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/lastindex-property-regexp-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastindex",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/lastmatch-property-dollar-regexp-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastmatch",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/lastparen-property-dollar-regexp-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastparen",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/leftcontext-property-dollar-grave-regexp-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/leftcontext",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/rightcontext-property-dollar-regexp-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/rightcontext",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/regular-expression-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/global-property-regular-expression-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/global",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/ignorecase-property-regular-expression-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/ignorecase",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/multiline-property-regular-expression-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/multiline",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/source-property-regular-expression-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/compile-method-regular-expression-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/compile",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/exec-method-regular-expression-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/test-method-regular-expression-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/set-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/constructor-property-set.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/prototype-property-set.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/prototype",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/size-property-set-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/size",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/add-method-set-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/add",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/clear-method-set-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/clear",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/delete-method-set-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/delete",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/foreach-method-set-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/foreach",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/has-method-set-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/has",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tostring-method-set-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/tostring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/valueof-method-set-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/valueof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/string-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/constructor-property-string.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/constructor",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/length-property-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/length",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/prototype-property-string.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/prototype",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/string-fromcharcode-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fromcharcode",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/string-fromcodepoint-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fromcodepoint",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/string-raw-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/raw",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/html-tag-methods-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/charat-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/charat",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/charcodeat-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/charcodeat",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/codepointat-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/codepointat",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/concat-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/concat",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/endswith-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/endswith",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/includes-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/includes",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/indexof-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/indexof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/lastindexof-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/lastindexof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/localecompare-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/localecompare",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/match-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/match",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/normalize-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/normalize",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/repeat-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/repeat",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/replace-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/replace",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/search-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/search",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/slice-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/slice",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/split-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/split",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/startswith-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/startswith",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/substr-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/substr",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/substring-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/substring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tolocalelowercase-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/tolocalelowercase",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tolocaleuppercase-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/tolocaleuppercase",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tolowercase-method-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/tolowercase",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/touppercase-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/touppercase",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/trim-method-string-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/trim",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tostring-method-string-1.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/tostring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/valueof-method-string.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/valueof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/symbol-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/symbol-for-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/for",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/symbol-keyfor-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/keyfor",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/uint8array-object.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytes-per-element-constant-uint8array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytes_per_element",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/buffer-property-uint8array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/buffer",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytelength-property-uint8array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytelength",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/byteoffset-property-uint8array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/byteoffset",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/length-property-uint8array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/length",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/set-method-uint8array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/set",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/subarray-method-uint8array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/subarray",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/uint8clampedarray-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytes-per-element-constant-uint8clampedarray.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytes_per_element",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/buffer-property-uint8clampedarray.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/buffer",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytelength-property-uint8clampedarray.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytelength",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/byteoffset-property-uint8clampedarray.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/byteoffset",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/length-property-uint8clampedarray.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/length",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/set-method-uint8clampedarray.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/set",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/subarray-method-uint8clampedarray.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/subarray",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/uint16array-object.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytes-per-element-constant-uint16array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytes_per_element",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/buffer-property-uint16array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/buffer",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytelength-property-uint16array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytelength",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/byteoffset-property-uint16array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/byteoffset",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/length-property-uint16array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/length",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/set-method-uint16array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/set",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/subarray-method-uint16array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/subarray",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/uint32array-object.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytes-per-element-constant-uint32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytes_per_element",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/buffer-property-uint32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/buffer",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bytelength-property-uint32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/bytelength",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/byteoffset-property-uint32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/byteoffset",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/length-property-uint32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/length",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/set-method-uint32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/set",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/subarray-method-uint32array.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/subarray",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/weakmap-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/constructor-property-weakmap.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/prototype-property-weakmap.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap/prototype",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/clear-method-weakmap-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap/clear",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/delete-method-weakmap-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap/delete",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/get-method-weakmap-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap/get",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/has-method-weakmap-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap/has",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/set-method-weakmap-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap/set",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/tostring-method-weakmap-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/tostring",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/valueof-method-weakmap-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/valueof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/weakset-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/constructor-property-weakset.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/prototype-property-weakset.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakSet/prototype",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/add-method-weakset-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakSet/add",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/delete-method-weakset-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakSet/delete",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/has-method-weakset-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakSet/has",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/javascript-constants.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/javascript-properties.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/javascript-functions.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/javascript-methods.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/javascript-operators.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/addition-assignment-operator-decrement-equal-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Addition_assignment",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/addition-operator-decrement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/assignment-operator-decrement-equal-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Assignment",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bitwise-and-assignment-operator-decrement-equal-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Bitwise_AND_assignment",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bitwise-and-operator-decrement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_AND",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bitwise-left-shift-operator-decrement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Left_shift",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bitwise-not-operator-decrement-tilde-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_NOT",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bitwise-or-assignment-operator-decrement-equal-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Bitwise_OR_assignment",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bitwise-or-operator-decrement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_OR",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bitwise-right-shift-operator-decrement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Right_shift",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bitwise-xor-assignment-operator-decrement-hat-equal-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Bitwise_XOR_assignment",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/bitwise-xor-operator-decrement-hat-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_XOR",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/comparison-operators-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Comparison_Operators",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/compound-assignment-operators-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators",
+           "redirect_document_id":  false
+       },
+       {
+        "source_path":  "scripting-docs/javascript/reference/comma-operator-decrement-javascript.md",
+        "redirect_url":  "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator",
+        "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/conditional-ternary-operator-decrement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Conditional_Operator",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/delete-operator-decrementjavascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/delete",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/division-assignment-operator-decrement-equal-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Division_assignment",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/division-operator-decrement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/in-operator-decrementjavascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/in",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/increment-and-decrement-operators-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/instanceof-operator-decrementjavascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/instanceof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/left-shift-assignment-operator-decrement-equal-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Left_shift_assignment",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/logical-and-operator-decrement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_Operators",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/logical-not-operator-decrement-exclpt-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_Operators",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/logical-or-operator-decrement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_Operators",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/multiplication-assignment-operator-decrement-equal-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Multiplication_assignment",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/multiplication-operator-decrement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/new-operator-decrementjavascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/new",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/modulus-assignment-operator-decrement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Remainder_assignment",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/modulus-operator-decrementjavascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/right-shift-assignment-operator-decrement-equal-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Right_shift_assignment",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/spread-operator-decrement-dot-dot-dot-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Spread_syntax",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/subtraction-assignment-operator-decrement-equal-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Subtraction_assignment",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/subtraction-operator-decrement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/typeof-operator-decrementjavascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/typeof",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/unsigned-right-shift-assignment-operator-decrement-equal-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Unsigned_right_shift_assignment",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/unsigned-right-shift-operator-decrement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Unsigned_right_shift",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/void-operator-decrementjavascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/void",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/javascript-statements.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/break-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/break",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/class-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/class",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/comment-statements-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/const-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/const",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/continue-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/continue",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/debugger-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/debugger",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/do-dot-dot-dot-while-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/do...while",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/for-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/for",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/for-dot-dot-dot-in-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/for...in",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/for-dot-dot-dot-of-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/for...of",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/function-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/if-dot-dot-dot-else-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/if...else",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/labeled-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/label",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/let-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/let",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/return-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/return",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/switch-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/switch",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/this-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/this",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/throw-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/throw",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/try-dot-dot-dot-catch-dot-dot-dot-finally-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/try...catch",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/var-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/var",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/while-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/while",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/with-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/with",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/javascript-directives.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Strict_mode",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/use-strict-directive.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Strict_mode",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/javascript-reserved-words.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/javascript-future-reserved-words.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/activexobject-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/ActiveXObject",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getvardate-method-date-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Date.getVarDate",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/debug-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Debug",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/debug-constants.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Debug",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/debug-debuggerenabled-property.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Debug/debuggerEnabled",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/debug-setnonusercodeexceptions-property.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Debug/setNonUserCodeExceptions",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/debug-mstraceasynccallbackcompleted-function.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Debug/msTraceAsyncCallbackCompleted",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/debug-mstraceasynccallbackstarting-function.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Debug/msTraceAsyncCallbackStarting",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/debug-mstraceasyncoperationcompleted-function.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Debug/msTraceAsyncOperationCompleted",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/debug-mstraceasyncoperationstarting-function.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Debug/msTraceAsyncOperationStarting",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/debug-msupdateasynccallbackrelation-function.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Debug/msUpdateAsyncCallbackRelation",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/debug-write-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Debug/write",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/debug-writeln-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Debug/writeln",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/enumerator-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Enumerator",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/atend-method-enumerator-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Enumerator/atEnd",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/item-method-enumerator-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Enumerator/item",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/movefirst-method-enumerator-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Enumerator/moveFirst",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/movenext-method-enumerator-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Enumerator/moveNext",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/description-property-error-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Error.description",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/number-property-error-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Error.number.md",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/stacktracelimit-property-error-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/Error.stackTraceLimit",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getobject-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/GetObject",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/scriptengine-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/ScriptEngine",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/scriptenginebuildversion-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/ScriptEngineBuildVersion",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/scriptenginemajorversion-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/ScriptEngineMajorVersion",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/scriptengineminorversion-function-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/ScriptEngineMinorVersion",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/vbarray-object-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/VBArray",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/dimensions-method-vbarray-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/VBArray/dimensions",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/getitem-method-vbarray-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/VBArray/getItem",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/lbound-method-vbarray-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/VBArray/lbound",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/toarray-method-vbarray-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/VBArray/toArray",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/ubound-method-vbarray-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/VBArray/ubound",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/winrterror-object-javascript.md",
+           "redirect_url":  "https://docs.microsoft.com/microsoft-edge/progressive-web-apps/windows-features",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/at-cc-on-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/at-cc-on",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/at-if-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/at-if",
+           "redirect_document_id":  false
+       },
+       {
+           "source_path":  "scripting-docs/javascript/reference/at-set-statement-javascript.md",
+           "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/at-set",
+           "redirect_document_id":  false
+       },        
+        {
             "source_path": "docs/cross-platform/visual-studio-tools-for-unity-azure-configure.md",
             "redirect_url": "/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer",
             "redirect_document_id": false
