@@ -29,7 +29,7 @@ Sets values as specified by an XPath query into an XML file.
   
 |Parameter|Description|
 |---------------|-----------------|
-|`Namespaces`|Optional `String` parameter.<br /><br /> Specifies the namespaces for XPath query prefixes. Value specifies list of `Namespace` elements with attributes `Prefix` and `Uri`. The attribute `Prefix` specifies the prefix to associate with the namespace specified in `Uri` attribute. Avoid using empty `Prefix` for default namespace, associate it with some artificial prefix and modify query according to it. This parameter must be XML escaped, so replace &lt; with &amp;lt; and &gt; with &amp;gt;.|
+|`Namespaces`|Optional `String` parameter.<br /><br /> Specifies the namespaces for XPath query prefixes. `Namespaces` is an XML snippet consisting of `Namespace` elements with attributes `Prefix` and `Uri`. The attribute `Prefix` specifies the prefix to associate with the namespace specified in `Uri` attribute. Do not use an empty `Prefix`.|
 |`Query`|Optional `String` parameter.<br /><br /> Specifies the XPath query.|
 |`Value`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the value to be inserted into the specified path.|
 |`XmlInputPath`|Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the XML input as a file path.|
@@ -50,13 +50,23 @@ Here is sample.xml to modify:
 ```
 If we want to modify `/Package/mp:PhoneIdentity/PhonePublisherId`, then use
 ```
+<Project>
+  <PropertyGroup>
+    <Namespace>
+        <Namespace Prefix="dn" Uri="http://schemas.microsoft.com/appx/manifest/foundation/windows10" />
+        <Namespace Prefix="mp" Uri="http://schemas.microsoft.com/appx/2014/phone/manifest" />
+        <Namespace Prefix="uap" Uri="http://schemas.microsoft.com/appx/manifest/uap/windows10" />
+    </Namespace>
+</PropertyGroup>
+
+<Target Name="Poke">
   <XmlPoke
     XmlInputPath="Sample.xml"
     Value="MyId"
     Query="/dn:Package/mp:PhoneIdentity/@PhoneProductId"
-    Namespaces="&lt;Namespace Prefix='dn' Uri='http://schemas.microsoft.com/appx/manifest/foundation/windows10'/&gt;
-                &lt;Namespace Prefix='mp' Uri='http://schemas.microsoft.com/appx/2014/phone/manifest'/&gt;
-                &lt;Namespace Prefix='uap' Uri='http://schemas.microsoft.com/appx/manifest/uap/windows10'/&gt;"/>
+    Namespaces="$(Namespace)"/>
+</Target>
+</Project>
 ```
 `dn` is here used as an artificial namespace prefix for default namespace.
 ## See Also
