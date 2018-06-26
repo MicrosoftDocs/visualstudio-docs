@@ -52,7 +52,7 @@ Before you investigate a bug or an error, think of the assumptions that made you
 * You understand this code well enough to debug it. It is often more difficult to debug someone else's code. If it's not your code, it's possible you might need to spend time learning what the code does before you can debug it effectively.
 
     > [!TIP]
-    > Start small, and start with code that works! Sometimes, it is easier to fix a large or complicated set of code by starting with a small piece of code that demonstrates the core task you are trying to achieve (that is, copy a working sample). Then, you can modify or add code incrementally, testing at each point for errors.
+    > Start small, and start with code that works! Sometimes, it is easier to fix a large or complicated set of code by starting with a small piece of code that demonstrates the core task you are trying to achieve (that is, start with a simple working sample). Then, you can modify or add code incrementally, testing at each point for errors.
 
 By knowing your assumptions, you may reduce the time it takes to find a problem in your code. You may also reduce the time it takes to fix a problem.
 
@@ -269,11 +269,13 @@ Next, we will create an application that has a few bugs.
     public GType(char type)
     ```
 
+    This code is where the galaxy type is set, so we want to take a closer look at it.
+
 1. Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**) to restart.
 
     The debugger pauses on the line of code where you set the breakpoint.  
 
-1. Hover over the `type` variable. You see a value of `S`. You are interested in a value of `I`, since you know that is an Irregular galaxy type.
+1. Hover over the `type` variable. You see a value of `S` (following the character code). You are interested in a value of `I`, since you know that is an Irregular galaxy type.
 
 1. Press **F5** and hover over the `type` variable again. Repeat this step until you see a value of `I` in the `type` variable.
 
@@ -281,19 +283,21 @@ Next, we will create an application that has a few bugs.
 
 1. Now, press **F11** (**Debug** > **Step Into** or the **Step Into** button in the Debug Toolbar).
 
-    **F11** advances the debugger (and executes code) one statement at a time. **F10** (Step Over) is a similar command, and both are extremely useful when learning how to use the debugger.
+    **F11** advances the debugger (and executes code) one statement at a time. **F10** (**Step Over**) is a similar command, and both are extremely useful when learning how to use the debugger.
 
-1. Press **F11** until you stop on line of code in the switch statement for a value of 'I'. Here, you see a clear problem resulting from a typo. You expect the code to advance to where it sets `MyGType` as an Irregular galaxy type, but the debugger instead pauses on the `default` section of the `switch` statement.
+1. Press **F11** until you stop on line of code in the switch statement for a value of 'I'. Here, you see a clear problem resulting from a typo. You expected the code to advance to where it sets `MyGType` as an Irregular galaxy type, but the debugger instead skips this code completely, and instead pauses on the `default` section of the `switch` statement.
 
     ![Find a typo](../debugger/media/beginners-typo.png)
 
-    Looking at the code, you see a typo in the `case 'l'`. It should be `case 'I'`.
+    Looking at the code, you see a typo in the `case 'l'` statement. It should be `case 'I'`.
 
 1. Click in the code for `case 'l'`, and replace it with `case 'I'.
 
 1. Remove your breakpoint, and then click the **Restart** button to restart the app.
 
-    The bugs are fixed now!
+    The bugs are fixed now and you see the Output you expect!
+
+    Press any key to finish the app.
 
 ## Summary
 
