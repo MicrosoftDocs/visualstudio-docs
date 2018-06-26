@@ -1,7 +1,7 @@
 ---
 title: Working with Python Tutorial, Step 1, creating a project
 description: Overview and Step 1 of a core walkthrough of Python capabilities in Visual Studio, including prerequisites and creating a new Python project.
-ms.date: 01/16/2018
+ms.date: 06/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
