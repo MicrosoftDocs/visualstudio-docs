@@ -84,6 +84,8 @@
         items:
         - name: "Walkthrough: Creating an Inline Task"
           href: walkthrough-creating-an-inline-task.md
+      - name: MSBuild Inline Tasks with RoslynCodeTaskFactory
+        href: msbuild-roslyncodetaskfactory.md
     - name: Comparing Properties and Items
       href: comparing-properties-and-items.md
     - name: MSBuild Special Characters
