@@ -27,7 +27,7 @@ manager: "ghogen"
 These sections explain the elements that make up the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] language.  
 
 > [!NOTE]
-> We have joined the community-wide effort to make [MDN web docs](https://developer.mozilla.org/en-US/) the web’s one-stop, premiere development resource, by redirecting all (500+ pages) of Microsoft’s JavaScript API reference from docs.microsoft.com to their MDN counterparts. For details, see this [announcement](https://blogs.windows.com/msedgedev/2018/06/20/chakra-docs-mdn-web-docs/).
+> We have joined the community-wide effort to make [MDN web docs](https://developer.mozilla.org/en-US/) the web’s one-stop, premiere development resource, by redirecting all (500+ pages) of Microsoft’s JavaScript API reference from docs.microsoft.com to their MDN counterparts. For details, see this [announcement](https://blogs.windows.com/msedgedev/2018/06/26/chakra-docs-mdn-web-docs/).
   
  [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] code in Internet Explorer can interact with HTML, CSS and the Document Object Model (DOM), which represents HTML and browser objects.  
   
