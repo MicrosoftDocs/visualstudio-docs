@@ -110,7 +110,7 @@ This provider lets you define file nesting rules based on entire filenames. Cons
 
 ![fileToFile example rules](media/filenesting_filetofile.png) ![fileToFile example effect](media/filenesting_filetofile_effect.png)
 
-* *bower.json* is nested under *.bowerrc* because of the **fileToFile** rule
+* *.bowerrc* is nested under *bower.json* because of the **fileToFile** rule
 
 ### Rule order
 
