@@ -39,7 +39,7 @@ Sets values as specified by an XPath query into an XML file.
  In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).
 
 ## Example
-Here is sample.xml to modify:
+Here is a sample.xml to modify:
 ```
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
          xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
@@ -48,7 +48,7 @@ Here is sample.xml to modify:
 <mp:PhoneIdentity PhoneProductId="456" PhonePublisherId="0" />
 </Package>
 ```
-If we want to modify `/Package/mp:PhoneIdentity/PhonePublisherId`, then use
+In this example, if you want to modify `/Package/mp:PhoneIdentity/PhonePublisherId`, then use
 ```
 <Project>
   <PropertyGroup>
