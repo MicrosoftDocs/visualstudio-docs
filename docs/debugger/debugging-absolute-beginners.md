@@ -37,7 +37,7 @@ It helps to clarify the problem that you ran into before you try to fix it. We e
 
 ## Examine your assumptions
 
-Before you investigate a bug or an error, think of the assumptions that made you expect a certain result. This may be a long list, so here are a few examples of assumptions that are easy to make but not necessarily true.
+Before you investigate a bug or an error, think of the assumptions that made you expect a certain result. Hidden or unknown assumptions can get in the way of identifying a problem even when you are looking right at the cause of the problem in the debugger. Here are a few examples of assumptions that are easy to make but not necessarily true.
 
 * You are using the right API (that is, the right object, function, method, or property). An API that you're using might not do what you think it does. (After you examine the API call in the debugger, fixing it may require a trip to the documentation to help identify the correct API.)
 
@@ -46,8 +46,6 @@ Before you investigate a bug or an error, think of the assumptions that made you
 * Your code doesn't have any typos.
 
 * You made a change to your code and assumed it is unrelated to the problem that you're seeing.
-
-* You experienced a change in your environment (such as a tool or library update) and assumed it is unrelated to the problem that you're seeing.
 
 * You expected an object or variable to store a certain value (or a certain type of value), but it doesn't.
 
@@ -222,7 +220,7 @@ To help illustrate these concepts, we take you through some example code that al
 
     ![Inspect a variable](../debugger/media/beginners-inspect-variable.png)
 
-    "Spiral" is the value you were expecting! So it is good that you can access it while running the app. So, you want to change the output value to `theGalaxy.GalaxyType.MyGType`, which has a current value of "Spiral". We will see if we can fix this while running code in the debugger.
+    "Spiral" is actually value you were expecting to print to the console! So it is good that you can access this value in this code while running the app. So, you want to change the output value to `theGalaxy.GalaxyType.MyGType`, which has a current value of "Spiral". We will see if we can fix this while running code in the debugger.
 
 1. In the same code, try to change `theGalaxy.GalaxyType` to `theGalaxy.GalaxyType.MyGType`. Although you can type this, the code editor shows you an error indicating it can't compile this code.
 
@@ -232,7 +230,7 @@ To help illustrate these concepts, we take you through some example code that al
 
     ![Syntax error](../debugger/media/beginners-no-definition.png)
 
-    Even though we set each galaxy with an object of type `GType`, the debugger does not recognize the `theGalaxy` object as an object of type `GType`. What's going on? You want to look through any code that sets the galaxy type. Doing this, you see that the `GType` class definitely has a property of `MyGType`, but something isn't right. The error message about `object` turns out to be the clue; to C#, the type appears to be an object of type `object` instead of an object of type `GType`.
+    Even though we set each galaxy with an object of type `GType`, the debugger does not recognize the `theGalaxy` object as an object of type `GType`. What's going on? You want to look through any code that sets the galaxy type. When you do this, you see that the `GType` class definitely has a property of `MyGType`, but something isn't right. The error message about `object` turns out to be the clue; to C#, the type appears to be an object of type `object` instead of an object of type `GType`.
 
 1. Looking through your code related to setting the galaxy type, you find the `GalaxyType` property of the `Galaxy` class is specified as `object` instead of `GType`.
 
