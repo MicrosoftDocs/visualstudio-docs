@@ -20,7 +20,7 @@ ms.workload:
 # Error: Ensure that DNS is Correctly Configured on the Target Computer
 When trying to do remote debugging, you may get the following error message:  
   
-```ms-dos
+```cmd
 Error: The Visual Studio Remote Debugger on the target computer cannot connect back to this computer. Ensure that DNS is correctly configured on the target computer.  
 ```  
   

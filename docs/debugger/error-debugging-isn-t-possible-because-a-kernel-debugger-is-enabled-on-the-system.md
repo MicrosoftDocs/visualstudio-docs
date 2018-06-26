@@ -22,7 +22,7 @@ ms.workload:
 # Error: Debugging Isn&#39;t Possible Because a Kernel Debugger is Enabled on the System
 When you debug managed code, you might receive the following error message:  
   
-```ms-dos
+```cmd
 Debugging isn't possible because a kernel debugger is enabled on the system  
 ```  
   
@@ -54,7 +54,7 @@ Debugging isn't possible because a kernel debugger is enabled on the system
   
 -   At the command prompt, type:  
   
-    ```ms-dos
+    ```cmd
     Kdbgctrl.exe -d  
     ```  
   
@@ -62,7 +62,7 @@ Debugging isn't possible because a kernel debugger is enabled on the system
   
 1.  At the command prompt, type:  
   
-    ```ms-dos
+    ```cmd
     bcdedit /debug off   
     ```  
   
@@ -72,13 +72,13 @@ Debugging isn't possible because a kernel debugger is enabled on the system
   
 1.  Locate boot.ini on your system drive (usually C:\\). The boot.ini file might be hidden and read-only. Therefore, you must use the following command to see it:  
   
-    ```ms-dos
+    ```cmd
     dir /ASH  
     ```  
   
 2.  Open boot.ini using Notepad and remove the following options:  
   
-    ```ms-dos
+    ```cmd
     /debug  
     /debugport  
     /baudrate  

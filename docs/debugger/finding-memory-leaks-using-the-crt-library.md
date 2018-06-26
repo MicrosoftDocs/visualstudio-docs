@@ -77,7 +77,7 @@ _CrtSetReportMode( _CRT_ERROR, _CRTDBG_MODE_DEBUG );
 ## Interpreting the Memory-Leak Report  
  If your application does not define `_CRTDBG_MAP_ALLOC`, [_CrtDumpMemoryLeaks](/cpp/c-runtime-library/reference/crtdumpmemoryleaks) displays a memory-leak report that looks like this:  
   
-```ms-dos
+```cmd
 Detected memory leaks!  
 Dumping objects ->  
 {18} normal block at 0x00780E80, 64 bytes long.  
@@ -87,7 +87,7 @@ Object dump complete.
   
  If your application defines `_CRTDBG_MAP_ALLOC`, the memory-leak report looks like this:  
   
-```ms-dos
+```cmd
 Detected memory leaks!  
 Dumping objects ->  
 c:\users\username\documents\projects\leaktest\leaktest.cpp(20) : {18}   
@@ -226,7 +226,7 @@ _CrtMemDumpStatistics( &s1 );
   
  `_ CrtMemDumpStatistics` outputs a dump of memory state that looks like this:  
   
-```ms-dos
+```cmd
 0 bytes in 0 Free Blocks.  
 0 bytes in 0 Normal Blocks.  
 3071 bytes in 16 CRT Blocks.  

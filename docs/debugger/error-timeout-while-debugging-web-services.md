@@ -21,7 +21,7 @@ ms.workload:
 # Error: Timeout While Debugging Web Services
 When you are stepping into an XML Web service from calling code, the call may sometimes time out, with the result being that you cannot continue debugging. You may see an error message such as this.  
   
-```ms-dos
+```cmd
 An unhandled exception of type 'System.Net.WebException' occurred in   
 system.Web.services.dll  
 Additional information: The operation has timed-out.  

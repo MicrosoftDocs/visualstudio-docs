@@ -52,12 +52,12 @@ To set up your computer so that you can run the [!INCLUDE[vstecasp](../code-qual
   
 5.  Open a Windows Command Prompt and reset the server by running:  
   
-    ```ms-dos
+    ```cmd
     iisreset  
     ```  
     — or —  
   
-    ```ms-dos
+    ```cmd
     net stop iisadmin /y  
     net start w3svc  
     ```  
