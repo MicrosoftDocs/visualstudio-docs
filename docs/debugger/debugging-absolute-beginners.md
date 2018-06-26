@@ -70,6 +70,8 @@ To help illustrate these concepts, we take you through some example code that al
 
 ### Create a sample app (with some bugs)
 
+Next, we will create an application that has a few bugs.
+
 1. You must have Visual Studio installed and either the .**NET desktop development** workload or the .**NET Core cross platform development** workload installed, depending on which app type you want to create.
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
@@ -216,17 +218,17 @@ To help illustrate these concepts, we take you through some example code that al
 
     The app pauses at the breakpoint that you set. The yellow hightlighting indicates where the debugger is paused (the yellow line of code has not yet executed).
 
-1. Hover over the `GalaxyType` variable on the right, and then expand `theGalaxy.GalaxyType` (to the left of the wrench icon). You see `MyGType | Spiral`.
+1. Hover over the `GalaxyType` variable on the right, and then expand `theGalaxy.GalaxyType` (to the left of the wrench icon). You see that `GalaxyType` contains a property `MyGType`, and the property value is set to `Spiral`.
 
     ![Inspect a variable](../debugger/media/beginners-inspect-variable.png)
 
-    "Spiral" is actually value you were expecting to print to the console! So it is good that you can access this value in this code while running the app. So, you want to change the output value to `theGalaxy.GalaxyType.MyGType`, which has a current value of "Spiral". We will see if we can fix this while running code in the debugger.
+    "Spiral" is actually value you were expecting to print to the console! So it is good that you can access this value in this code while running the app. In this scenario, we were using the incorrect API. So, you want to change the output value to `theGalaxy.GalaxyType.MyGType`, which has a current value of "Spiral". We will see if we can fix this while running code in the debugger.
 
-1. In the same code, try to change `theGalaxy.GalaxyType` to `theGalaxy.GalaxyType.MyGType`. Although you can type this, the code editor shows you an error indicating it can't compile this code.
+1. In the same code, put your cursor at the end of `theGalaxy.GalaxyType` and change it to `theGalaxy.GalaxyType.MyGType`. Although you can make this change, the code editor shows you an error indicating it can't compile this code.
 
     ![Syntax error](../debugger/media/beginners-edit.png)
 
-1. Click **Edit**. You see an error message now in the **Error List** window. The error indicates that the `'object'` doesn't contain a definition for `MyGType`.
+1. Click **Edit** in the **Edit and Continue** message box. You see an error message now in the **Error List** window. The error indicates that the `'object'` doesn't contain a definition for `MyGType`.
 
     ![Syntax error](../debugger/media/beginners-no-definition.png)
 
@@ -291,20 +293,20 @@ To help illustrate these concepts, we take you through some example code that al
 
 1. Remove your breakpoint, and then click the **Restart** button to restart the app.
 
+    The bugs are fixed now!
 
+## Summary
 
-Once you've set a breakpoint, start the debugger (press **F5** or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar), and the app will pause when the code where you set the breakpoint executes (if it doesn't pause, the code didn't execute). Then use [step commands](../debugger/navigating-through-code-with-the-debugger.md) such as **F10** and **F11** to advance the debugger and run your code. While debugging, your app code executes like normal. While running your app in the debugger, look for the problem that you identified.
+When you see a problem, use the debugger and [step commands](../debugger/navigating-through-code-with-the-debugger.md) such as **F10** and **F11** to find the region of code with the problem.
 
-> [!NOTE]
-> If it is difficult to identify the region of code where the problem occurs, set a breakpoint in code that runs before the problem occurs, and then use step commands until you see the problem manifest. You can also use [tracepoints](../debugger/using-breakpoints.md#BKMK_Print_to_the_Output_window_with_tracepoints) to log messages to the **Output** window. By looking at logged messages (and noticing which messages were not yet logged!), you can often isolate the region of code with the problem. You may have to repeat this process several times to narrow it down.
-
-## When you find the region of code with the problem, use the debugger to investigate
-
-To find the cause of a problem, inspect the problem code while running your app in the debugger:
+When you find the region of code with the problem, use the debugger to investigate. To find the cause of a problem, inspect the problem code while running your app in the debugger:
 
 * [Inspect variables](../debugger/view-data-values-in-data-tips-in-the-code-editor.md) and check whether they contain the type of values that they should contain. If you find a bad value, find out where the bad value was set (to find where the value was set, you might need to either restart the debugger, look at the [call stack](../debugger/how-to-use-the-call-stack-window.md), or both).
 
-* Check whether your application is executing the code that you expect. (For example, maybe the code that you're using handles (hides) an exception, and you didn't realize that an exception occurred until you see the exception handler code get invoked.)
+* Check whether your application is executing the code that you expect. (For example, in the sample application, we expected the code for the switch statement to set an Irregular galaxy type to run correctly, but the code was skipped due to the typo.)
+
+> [!NOTE]
+> If it is difficult to identify the region of code where the problem occurs, set a breakpoint in code that runs before the problem occurs, and then use step commands until you see the problem manifest. You can also use [tracepoints](../debugger/using-breakpoints.md#BKMK_Print_to_the_Output_window_with_tracepoints) to log messages to the **Output** window. By looking at logged messages (and noticing which messages were not yet logged!), you can often isolate the region of code with the problem. You may have to repeat this process several times to narrow it down.
 
 ## Next steps
 
