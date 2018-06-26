@@ -245,7 +245,7 @@ if( diffMemState.Difference( oldMemState, newMemState ) )
   
  The contents of the dump look like this:  
   
-```ms-dos
+```cmd
 Dumping objects ->  
   
 {5} strcore.cpp(80) : non-object block at $00A7521A, 9 bytes long  
@@ -273,7 +273,7 @@ Phone #: 581-0215
 ####  <a name="BKMK_Interpreting_memory_dumps"></a> Interpreting memory dumps  
  Look at this object dump in more detail:  
   
-```ms-dos
+```cmd
 {5} strcore.cpp(80) : non-object block at $00A7521A, 9 bytes long  
 {4} strcore.cpp(80) : non-object block at $00A751F8, 5 bytes long  
 {3} strcore.cpp(80) : non-object block at $00A751D6, 6 bytes long  
@@ -318,7 +318,7 @@ newMemState.Checkpoint();
   
  With the scope brackets in place, the memory dump for this example is as follows:  
   
-```ms-dos 
+```cmd 
 Dumping objects ->  
   
 {5} strcore.cpp(80) : non-object block at $00A7521A, 9 bytes long  
