@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Working with Python in Visual Studio
+# Tutorial: Work with Python in Visual Studio
 
 Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by both a strong developer community and many free libraries. The language supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing and is used by many universities, scientists, casual developers, and professional developers alike.
 
@@ -68,7 +68,7 @@ In this tutorial you begin with a simple project containing a single, empty code
 > [!div class="nextstepaction"]
 > [Writing and running code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)
 
-## Going deeper
+## Go deeper
 
 - [Python projects in Visual Studio](managing-python-projects-in-visual-studio.md).
 - [Learn about the Python language on python.org](https://www.python.org)

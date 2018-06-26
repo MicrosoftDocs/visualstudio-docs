@@ -13,9 +13,9 @@ ms.workload:
   - data-science
 ---
 
-# Step 2: Writing and running code
+# Step 2: Write and run code
 
-**Previous step: [Creating a new Python project](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)**
+**Previous step: [Create a new Python project](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)**
 
 Although Solution Explorer is where you manage project files, the *editor* window is typically where you work with the *contents* of files, like source code. The editor is contextually aware of the type of file you're editing, including the programming language (based on the file extension), and offers features appropriate to that language such as syntax coloring and auto-completion using IntelliSense.
 
@@ -86,7 +86,7 @@ Although Solution Explorer is where you manage project files, the *editor* windo
 > [!div class="nextstepaction"]
 > [Using the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)
 
-## Going deeper
+## Go deeper
 
 - [Editing code](editing-python-code-in-visual-studio.md)
 - [Formatting code](formatting-python-code.md)

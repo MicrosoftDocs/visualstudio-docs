@@ -1,10 +1,10 @@
 ---
 title: Visual Studio Subscriptions 
 Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
+Ms.author: tglee
+Manager: lank
 layout: LandingPage
-Ms.date: 02/26/2018
+Ms.date: 06/25/2018
 Ms.topic: landing-page
 Description:  Welcome to Visual Studio Subscriptions
 Ms.prod: vs-subscription
@@ -13,9 +13,11 @@ Searchscope: VS Subscription
 ---
 
 # Visual Studio Subscriptions
+
 Visual Studio subscriptions is a comprehensive set of resources for you to create, deploy, and manage great applications on your preferred platforms and devices, including Windows, iOS, Android, and Linux.  Benefits of subscriptions include access to developer tools, cloud services and software, training, and support for your development and testing needs.
 
-##  Get Started
+## Get Started
+
 Administrators sign in to [https://manage.visualstudio.com](https://manage.visualstudio.com) to assign subscriptions to your team.<br>
 Subscribers sign in to [https://my.visualstudio.com](https://my.visualstudio.com) to access your subscription benefits.
 
@@ -129,6 +131,12 @@ Subscribers sign in to [https://my.visualstudio.com](https://my.visualstudio.com
         </a>
     </li>   
 </ul>
+
+---
+
+## What's new
+
+To make your subscription even more useful, we add and update the subscription benefits often. To learn more, see the [What's new in subscriptions](whats-new-in-subscriptions.md) page.
 
 ---
 

@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 3: Serve static files, add pages, and use template inheritance
+# Step 3: Serve static files, add pages, and use template inheritance
 
 **Previous step: [Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md)**
 
@@ -272,7 +272,7 @@ The following steps demonstrate inheritance:
 > [!div class="nextstepaction"]
 > [Use the full Django Web Project template](learn-django-in-visual-studio-step-04-full-django-project-template.md)
 
-## Going deeper
+## Go deeper
 
 - [Writing your first Django app, part 3 (views)](https://docs.djangoproject.com/en/2.0/intro/tutorial03/) (docs.djangoproject.com)
 - For more capabilities of Django templates, such as control flow, see [The Django template language](https://docs.djangoproject.com/en/2.0/ref/templates/language/) (docs.djangoproject.com)

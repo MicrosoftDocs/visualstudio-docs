@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Step 6: Working with Git
+# Step 6: Work with Git
 
 **Previous step: [Installing packages and managing your Python environment](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)**
 
@@ -47,7 +47,7 @@ This article provides a basic overview of creating a local Git repository for an
 
 1. When using a local repository, committed changes go directly into the repository. If you're connected to a remote repository, select the drop-down header in **Team Explorer**, choose **Sync** to switch to the **Synchronization** section, and work with the pull and fetch commands presented there.
 
-## Going deeper
+## Go deeper
 
 For a short walkthrough of creating a project from a remote Git repository, see [Quickstart: clone a repository of Python code in Visual Studio](quickstart-03-python-in-visual-studio-project-from-repository.md).
 
