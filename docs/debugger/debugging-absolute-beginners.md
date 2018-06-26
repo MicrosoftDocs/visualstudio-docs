@@ -76,7 +76,7 @@ Next, we will create an application that has a few bugs.
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the .**NET desktop develoment** (or .**NET Core cross platform development**) workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, click **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the .**NET desktop develoment** (or .**NET Core cross platform development**) workload, then choose **Modify**.
 
 1. Open Visual Studio, and then choose **File** > **New** > **Project**.
 
@@ -90,7 +90,7 @@ Next, we will create an application that has a few bugs.
 
     Visual Studio creates the console project, which appears in Solution Explorer in the right pane.
 
-1. In *Program.cs*, replace the default code with the following code:
+1. In *Program.cs*, replace all the default code with the following code:
 
     ```csharp
     using System;
@@ -171,7 +171,7 @@ Next, we will create an application that has a few bugs.
     }
     ```
 
-    Our intent for this code is to display the galaxy name, the distance to the galaxy, and the galaxy type in a list. To debug, it is critical to understand the intent of the code. Here is one line from the list that we want to show in the output:
+    Our intent for this code is to display the galaxy name, the distance to the galaxy, and the galaxy type in a list. To debug, it is critical to understand the intent of the code. Here is the format for one line from the list that we want to show in the output:
 
     *galaxy name*, *distance*, *galaxy type*.
 
@@ -222,9 +222,9 @@ Next, we will create an application that has a few bugs.
 
     ![Inspect a variable](../debugger/media/beginners-inspect-variable.png)
 
-    "Spiral" is actually value you were expecting to print to the console! So it is good that you can access this value in this code while running the app. In this scenario, we were using the incorrect API. So, you want to change the output value to `theGalaxy.GalaxyType.MyGType`, which has a current value of "Spiral". We will see if we can fix this while running code in the debugger.
+    "Spiral" is actually value you were expecting to print to the console! So it is good that you can access this value in this code while running the app. In this scenario, we are using the incorrect API. So, you want to change the output value to `theGalaxy.GalaxyType.MyGType`, which has a current value of "Spiral". We will see if we can fix this while running code in the debugger.
 
-1. In the same code, put your cursor at the end of `theGalaxy.GalaxyType` and change it to `theGalaxy.GalaxyType.MyGType`. Although you can make this change, the code editor shows you an error indicating it can't compile this code.
+1. In the same code, while still debugging, put your cursor at the end of `theGalaxy.GalaxyType` and change it to `theGalaxy.GalaxyType.MyGType`. Although you can make this change, the code editor shows you an error indicating it can't compile this code.
 
     ![Syntax error](../debugger/media/beginners-edit.png)
 
@@ -285,7 +285,7 @@ Next, we will create an application that has a few bugs.
 
     **F11** advances the debugger (and executes code) one statement at a time. **F10** (**Step Over**) is a similar command, and both are extremely useful when learning how to use the debugger.
 
-1. Press **F11** until you stop on line of code in the switch statement for a value of 'I'. Here, you see a clear problem resulting from a typo. You expected the code to advance to where it sets `MyGType` as an Irregular galaxy type, but the debugger instead skips this code completely, and instead pauses on the `default` section of the `switch` statement.
+1. Press **F11** until you stop on line of code in the `switch` statement for a value of 'I'. Here, you see a clear problem resulting from a typo. You expected the code to advance to where it sets `MyGType` as an Irregular galaxy type, but the debugger instead skips this code completely and pauses on the `default` section of the `switch` statement.
 
     ![Find a typo](../debugger/media/beginners-typo.png)
 
