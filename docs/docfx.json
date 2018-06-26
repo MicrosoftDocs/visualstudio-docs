@@ -75,6 +75,7 @@
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
       "feedback_product_url": "https://developercommunity.visualstudio.com/",
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
+      "extendBreadcrumb": "true",
       "ROBOTS": "INDEX,FOLLOW",
       "author": "erickson-doug",
       "ms.author": "douge",
