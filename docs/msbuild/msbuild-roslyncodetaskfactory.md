@@ -136,7 +136,7 @@ Log.LogError("Hello, world!");
   
 -   `Output` is an optional attribute that is `false` by default. If `true`, then the parameter must be given a value before returning from the Execute method.  
   
- For example,  
+For example,  
   
 ```xml  
 <ParameterGroup>  
@@ -146,7 +146,7 @@ Log.LogError("Hello, world!");
 </ParameterGroup>  
 ```  
   
- defines these three parameters:  
+defines these three parameters:  
   
 -   `Expression` is a required input parameter of type System.String.  
   
