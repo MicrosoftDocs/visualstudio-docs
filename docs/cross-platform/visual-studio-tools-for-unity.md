@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "06/26/2018"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: 6cabc626-5310-4622-a743-210a9abb5535
@@ -12,9 +12,11 @@ ms.workload:
   - "unity"
 ---
 # Visual Studio Tools for Unity
+
 In this section, you'll learn about Visual Studio Tools for Unity, a free Visual Studio extension that makes Visual Studio a powerful tool for building games with Unity.
 
 ## Visual Studio Tools for Unity
+
  **Unity** is a game engine and development environment for creating cross-platform games. The Unity engine runs on over a dozen platforms spanning from powerful PCs, to game consoles, to touch-enabled tablets and mobile phones—even to the web. The Unity editor provides a friendly interface for building rich game worlds. The capability, ease-of-use, and reach of Unity make it a popular choice among today's game developers.
 
  While the Unity editor is great for putting your game world together, you can't write your code in it. With **Visual Studio Tools for Unity**, you can use the familiar code editing, debugging and productivity features of Visual Studio to create editor and game scripts for your Unity project using C#, and you can debug them using Visual Studio's powerful debugging capabilities.
@@ -24,6 +26,7 @@ In this section, you'll learn about Visual Studio Tools for Unity, a free Visual
  Continue to [Overview](../cross-platform/overview-of-visual-studio-tools-for-unity.md) to learn more about what Visual Studio Tools for Unity offers, or to [Getting Started](../cross-platform/getting-started-with-visual-studio-tools-for-unity.md) to learn how to install Visual Studio Tools for Unity and start using it with your Unity project.
 
 ## More in This Section
+
  [Overview](../cross-platform/overview-of-visual-studio-tools-for-unity.md)
  In this section, you'll learn about what Visual Studio Tools for Unity offers in greater detail.
 
@@ -41,3 +44,7 @@ In this section, you'll learn about Visual Studio Tools for Unity, a free Visual
 
  [Change Log](../cross-platform/change-log-visual-studio-tools-for-unity.md)
  In this section, you'll learn about new features, bug fixes, and other changes in each version of Visual Studio Tools for Unity.
+
+## Visual Studio for Mac Tools for Unity
+
+Visual Studio for Mac also supports Unity projects. For more information, see the [Visual Studio for Mac Tools for Unity documentation](https://docs.microsoft.com/en-us/visualstudio/mac/unity-tools).

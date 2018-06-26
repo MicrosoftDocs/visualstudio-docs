@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/07/2017"
+ms.date: "06/26/2018"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: 66b5b4eb-13b5-4071-98d2-87fafa4598a8
@@ -12,10 +12,32 @@ ms.workload:
   - "unity"
 ---
 # Getting Started with Visual Studio Tools for Unity
+
 In this section, you'll learn how to install Visual Studio Tools for Unity and configure your Unity project to work with Visual Studio.
 
-> [!IMPORTANT]
->  Unity 5.2 adds built-in support for Visual Studio Tools for Unity 2.1, which simplifies project setup. To take advantage of this, you'll need Unity version 5.2.0 or higher on Windows, and Visual Studio Tools for Unity version 2.1 or higher.
+## Install Visual Studio
+
+### Unity Bundled Installation
+
+Starting with Unity 2018.1, Visual Studio is the default C# script editor for Unity, and is included in the Unity Download Assistant, as well as the Unity Hub installation tool.
+
+- Download Unity from [store.unity.com](https://store.unity.com/).
+
+During installation, ensure that Visual Studio for Mac is checked in the list of components to install with Unity:
+
+#### Unity Hub
+
+![unity hub installation](media/vstu_unity-hub.png)
+
+#### Unity Download Assistant
+
+![unity download assistant installation](media/vstu_download-assistant.png)
+
+### Manual Installation
+
+If you already have Visual Studio 2017 installed, or prefer to manually install, run the Visual Studio installer.
+
+- [Download and install Visual Studio](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio)
 
 ## Prerequisites
  To use Visual Studio Tools for Unity, you'll need:
