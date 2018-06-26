@@ -43,7 +43,10 @@ Tasks provide the code that runs during the build process. When Visual C++ is in
 |[SetEnv Task](../msbuild/setenv-task.md)|Sets or deletes the value of a specified environment variable.|  
 |[VCMessage Task](../msbuild/vcmessage-task.md)|Logs warning messages and error messages during a build.|  
 |[XDCMake Task](../msbuild/xdcmake-task.md)|Wraps the XML Documentation tool (xdcmake.exe), which merges XML document comment (.xdc) files into an .xml file.|  
-|[XSD Task](../msbuild/xsd-task.md)|Wraps the XML Schema Definition tool (xsd.exe), which generates schema or class files from a source.|  
+|[XSD Task](../msbuild/xsd-task.md)|Wraps the XML Schema Definition tool (xsd.exe), which generates schema or class files from a source. *See note below*|  
 |[MSBuild Reference](../msbuild/msbuild-reference.md)|Describes the elements of the MSBuild system.|  
 |[Tasks](../msbuild/msbuild-tasks.md)|Describes tasks, which are units of code that can be combined to produce a build.|  
 |[Task Writing](../msbuild/task-writing.md)|Describes how to create a task.|
+
+> [!NOTE]
+> In Visual Studio 2017, C++ project support for xsd.exe is deprecated. You can still use the **Microsoft.VisualC.CppCodeProvider** APIs by manually adding **CppCodeProvider.dll** to the GAC.
