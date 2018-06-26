@@ -21,7 +21,7 @@ DSL Definitions use an XPath-like syntax to locate specific elements in a model.
 
  *RelationshipName.PropertyName/!Role*
 
- ![CommentReferencesSubjects reference relationship](../modeling/media/dsl_reference.png "dsl_reference")
+ ![CommentReferencesSubjects reference relationship](../modeling/media/dsl_reference.png)
 
  The syntax traverses the tree of the model. For example, the domain relationship **CommentReferencesSubjects** in the illustration above has a **Subjects** role. The path segment **/!Subjectt** specifies that the path finishes on elements accessed through the **Subjects** role.
 

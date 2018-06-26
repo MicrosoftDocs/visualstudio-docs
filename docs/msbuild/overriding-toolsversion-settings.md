@@ -26,7 +26,7 @@ You can change the Toolset for projects and solutions in one of three ways:
 ## Override the ToolsVersion Settings of Projects and Solutions on Command Line Builds  
  Although Visual Studio projects typically build with the ToolsVersion specified in the project file, you can use the `/ToolsVersion` (or `/tv`) switch on the command line to override that value and build all of the projects and their project-to-project dependencies with a different Toolset. For example:  
   
-```  
+```cmd  
 msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug  
 ```  
   
@@ -71,7 +71,7 @@ msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug
   
 3.  Enter the following command at a command prompt:  
   
-    ```  
+    ```cmd  
     msbuild projectA.proj /t:go /toolsversion:3.5  
     ```  
   

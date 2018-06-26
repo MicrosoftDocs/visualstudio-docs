@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Messaging Activity Designers
 
-Messaging activity designers are used to create and configure messaging activities that send and receive Windows Communication Foundation (WCF) messages from within a Windows Workflow Foundation (WF) application. The .NET Framework 4 introduces five messaging activities and the Windows Workflow Designer provides two new template designers that enable you to manage messaging within a workflow. The topics contained in this section and listed in the following table provide guidance on how to use the Workflow Designer activity and template designers.
+Messaging activity designers are used to create and configure messaging activities that send and receive Windows Communication Foundation (WCF) messages from within a Windows Workflow Foundation (WF) application. The .NET Framework 4 introduces five messaging activities and the Workflow Designer provides two new template designers that enable you to manage messaging within a workflow. The topics contained in this section and listed in the following table provide guidance on how to use the Workflow Designer activity and template designers.
 
 ## Reference
  <xref:System.Activities.Activity>

@@ -20,7 +20,7 @@ ms.workload:
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# ASP.NET Core web application.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
 ## Create a project
 
@@ -66,7 +66,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
    ![Error List](../ide/media/quickstart-aspnet-errorlist.png)
 
-1. In the editor window, place your cursor on either line that contains the error, then choose the **Quick Actions light bulb** in the left margin. From the drop-down menu, choose **using System;** to add this directive to the top of your file and resolve the errors.
+1. In the editor window, place your cursor on either line that contains the error, then choose the Quick Actions light bulb in the left margin. From the drop-down menu, choose **using System;** to add this directive to the top of your file and resolve the errors.
 
 ## Run the application
 

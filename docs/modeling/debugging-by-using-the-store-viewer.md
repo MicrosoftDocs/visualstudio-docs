@@ -39,7 +39,7 @@ Microsoft.VisualStudio.Modeling.Diagnostics.StoreViewer.Show(mystore);
 ### Using Store Viewer
  When the Store Viewer opens, a modeless Windows Forms window appears, as the following illustration shows.
 
- ![](../modeling/media/storeviewer2.png "storeviewer2")
+ ![](../modeling/media/storeviewer2.png)
 Store Viewer
 
  The Store Viewer has three panes: the left pane, top-right pane, and bottom-right pane. The left pane is a tree view of the types in the `DomainDataDirectory` member of a store. If you expand the Partition node and click an element, the element's properties appear in the top-right pane. If the element is linked to other elements, the additional elements appear in the bottom-right pane. If you double-click an element in the bottom-right pane, the element is highlighted in the left pane.

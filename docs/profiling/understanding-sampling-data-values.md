@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Understanding Sampling Data Values
+# Understand sampling data values
 
 The *sampling* profiling method of the Visual Studio Profiling Tools interrupts the computer processor at set intervals and collects the function call stack. A *call stack* is a dynamic structure that stores information about the functions that are executing on the processor.
 
@@ -47,5 +47,5 @@ The percentage of the total number of exclusive samples in the profiling run tha
 
 ## See also
 
-[How to: Choose Collection Methods](../profiling/how-to-choose-collection-methods.md)  
-[Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)
+[How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md)  
+[Analyze performance tools data](../profiling/analyzing-performance-tools-data.md)

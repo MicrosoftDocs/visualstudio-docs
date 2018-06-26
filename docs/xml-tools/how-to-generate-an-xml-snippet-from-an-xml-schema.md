@@ -11,9 +11,9 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Generate an XML Snippet From an XML Schema
+# How to: Generate an XML snippet from an XML schema
 
-The XML Editor has the ability to generate XML snippets from an XML Schema definition language (XSD) schema. For example, as you are authoring an XML file, while positioned next to the element name, you can press TAB to populate the element with XML data generated from the schema information for that element.
+The XML Editor has the ability to generate XML snippets from an XML Schema definition language (XSD) schema. For example, as you are authoring an XML file, while positioned next to the element name, you can press **Tab** to populate the element with XML data generated from the schema information for that element.
 
 This feature is only available on elements. The following rules also apply:
 
@@ -39,12 +39,12 @@ Default values are generated and noted as editable values. If the schema specifi
 
 ## Example
 
- The steps in this section show you how use the schema-generated XML snippet feature of the XML Editor.
+ The steps in this section show you how to use the schema-generated XML snippet feature of the XML Editor.
 
 > [!NOTE]
 > Before starting these procedures, save the schema file to your local computer.
 
-### To create a new XML file and associate it with an XML Schema
+### To create a new XML file and associate it with an XML schema
 
 1.  On the **File** menu, point to **New**, and click **File**.
 
@@ -64,7 +64,7 @@ Default values are generated and noted as editable values. If the schema specifi
 
 6.  Click **OK**.
 
-     The XML Schema is now associated with the XML document.
+     The XML schema is now associated with the XML document.
 
 ### To generate an XML snippet
 
@@ -80,11 +80,11 @@ Default values are generated and noted as editable values. If the schema specifi
 
      **Contact** to add the root element.
 
-3.  Select **Contact** from the member list and press ENTER.
+3.  Select **Contact** from the member list and press **Enter**.
 
      The editor adds the start tag `<Contact` and positions the cursor after the element name.
 
-4.  Press TAB to generate XML data for the `Contact` element based on its schema information.
+4.  Press **Tab** to generate XML data for the `Contact` element based on its schema information.
 
 ## Input
 
@@ -150,7 +150,7 @@ Default values are generated and noted as editable values. If the schema specifi
 </Contact>
 ```
 
-## See Also
+## See also
 
-- [XML Snippets](../xml-tools/xml-snippets.md)
-- [How to: Use XML Snippets](../xml-tools/how-to-use-xml-snippets.md)
+- [XML snippets](../xml-tools/xml-snippets.md)
+- [How to: Use XML snippets](../xml-tools/how-to-use-xml-snippets.md)

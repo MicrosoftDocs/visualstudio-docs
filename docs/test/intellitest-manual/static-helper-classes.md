@@ -36,7 +36,7 @@ If the assumed condition does not hold for some test input, a **PexAssumeFailedE
 
 The following parameterized test will not consider **j=0**:
 
-```
+```csharp
 public void TestSomething(int i, int j) {
      PexAssume.AreNotEqual(j, 0);
      int k = i/j;
@@ -48,7 +48,7 @@ public void TestSomething(int i, int j) {
 
 The code above is almost equivalent to:
 
-```
+```csharp
      if (j==0)
           return;
 ```
@@ -68,7 +68,7 @@ If the asserted condition does not hold for some test input, a **PexAssertFailed
 
 The following asserts that the absolute value of an integer is positive:
 
-```
+```csharp
 public void TestSomething(int i) {
      int j = Maths.Abs(i);
      PexAssert.IsTrue(j >= 0);
@@ -109,7 +109,7 @@ The **PexChoose** class can operate in two modes:
 
 * Simple call **PexChoose.Value** to generate a new value:
 
-```
+```csharp
 public int Foo() {
     return PexChoose.Value<int>("foo");
 }
@@ -125,13 +125,13 @@ is used to record computed values using their
 formatted string representations. The values are 
 associated with unique names.
 
-```
+```csharp
 PexObserve.Value<string>("result", result);
 ```
 
 **Example**
 
-```
+```csharp
 // product code
 public static class MathEx {
      public static int Square(int value) { return value * value; }
@@ -175,7 +175,7 @@ differently for different array lengths, IntelliTest
 cannot generate different sized arrays from the 
 constraints of the tested code.
 
-```
+```csharp
 public static void AreElementsNotNull<T>(T[] value)
     where T : class
 {

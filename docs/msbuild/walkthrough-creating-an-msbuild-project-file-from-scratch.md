@@ -361,7 +361,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 1.  In the project file, add these attributes to the opening Build target:  
   
-    ```  
+    ```xml  
     Inputs="@(Compile)" Outputs="$(OutputPath)$(AssemblyName).exe"  
     ```  
   

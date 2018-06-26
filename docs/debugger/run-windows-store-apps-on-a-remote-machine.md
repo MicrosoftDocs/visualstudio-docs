@@ -38,7 +38,7 @@ For Windows 10 PCs running a pre-Creator's Update version of Windows, you must i
 - For Windows 10 PCs running a version of Windows 10 earlier than Windows 10 Creator's Update, you must [install and run the remote debugging components](#BKMK_download).
   
 ##  <a name="BKMK_Security"></a> Security  
-By default, **Universal (Unencrypted Protocol)** is used on Windows 10. Ths protocol should only be used on trusted networks. The debugging connection is vulnerable to malicious users who could intercept and change data being passed between the development and remote machine.
+By default, **Universal (Unencrypted Protocol)** is used on Windows 10. This protocol should only be used on trusted networks. The debugging connection is vulnerable to malicious users who could intercept and change data being passed between the development and remote machine.
   
 > [!WARNING]
 >  There is no network security when you set the authentication mode to **Universal (Unencrypted Protocol)** or **None**. Choose these modes only if you are sure that the network is not at risk of from malicious or hostile traffic.  

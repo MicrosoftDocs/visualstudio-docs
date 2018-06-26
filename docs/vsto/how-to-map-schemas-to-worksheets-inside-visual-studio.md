@@ -1,5 +1,5 @@
 ---
-title: "How to: Map Schemas to Worksheets Inside Visual Studio | Microsoft Docs"
+title: "How to: Map schemas to worksheets inside Visual Studio"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Map Schemas to Worksheets Inside Visual Studio
+# How to: Map schemas to worksheets inside Visual Studio
   You can map an XML schema to a worksheet while the worksheet is open in Visual Studio. You use the same Microsoft Office Excel tools that you use when the workbook is open outside of Visual Studio. The Office project creates the same objects whether you map the schema to the worksheet before or after you create your Excel solution.  
   
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]  
@@ -27,7 +27,7 @@ ms.workload:
 > [!NOTE]  
 >  You cannot use multipart XML schemas in Excel solutions.  
   
-### To map an XML schema to an Excel worksheet in Visual Studio  
+## To map an XML schema to an Excel worksheet in Visual Studio  
   
 1.  Open the Excel workbook or template project inside Visual Studio.  
   
@@ -36,7 +36,7 @@ ms.workload:
 3.  On the Ribbon, click the **Developer** tab.  
   
     > [!NOTE]  
-    >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the Developer Tab on the Ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).  
+    >  If the **Developer** tab is not visible, you must first show it. For more information, see [How to: Show the Developer tab on the ribbon](../vsto/how-to-show-the-developer-tab-on-the-ribbon.md).  
   
 4.  In the **XML** group, click **Source**.  
   
@@ -58,10 +58,10 @@ ms.workload:
   
      If you drag a non-repeating schema element, the Office project generates an <xref:Microsoft.Office.Tools.Excel.XmlMappedRange> control that is automatically bound to the <xref:System.Windows.Forms.BindingSource>.  
   
-     If you drag a repeating schema element, the Office project generates a <xref:Microsoft.Office.Tools.Excel.ListObject> control that is not automatically bound to a data source. For more information, see [XML Schemas and Data in Document-Level Customizations](../vsto/xml-schemas-and-data-in-document-level-customizations.md).  
+     If you drag a repeating schema element, the Office project generates a <xref:Microsoft.Office.Tools.Excel.ListObject> control that is not automatically bound to a data source. For more information, see [XML schemas and data in document-level customizations](../vsto/xml-schemas-and-data-in-document-level-customizations.md).  
   
-## See Also  
- [How to: Map Schemas to Word Documents Inside Visual Studio](../vsto/how-to-map-schemas-to-word-documents-inside-visual-studio.md)   
- [XML Schemas and Data in Document-Level Customizations](../vsto/xml-schemas-and-data-in-document-level-customizations.md)  
+## See also  
+ [How to: Map schemas to Word documents inside Visual Studio](../vsto/how-to-map-schemas-to-word-documents-inside-visual-studio.md)   
+ [XML schemas and data in document-level customizations](../vsto/xml-schemas-and-data-in-document-level-customizations.md)  
   
   

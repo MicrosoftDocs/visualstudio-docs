@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# DA0502: Maximum CPU consumption by the Process being profiled
+# DA0502: Maximum CPU consumption by the process being profiled
 |||  
 |-|-|  
 |Rule Id|DA0502|  
@@ -26,8 +26,8 @@ ms.workload:
   
  When you profile by using the sampling, .NET memory, or resource contention methods, you must collect at least 10 samples to trigger this rule.  
   
-## Rule Description  
+## Rule description  
  This message reports the maximum percentage of time that a processor was busy executing instructions from the application. The reported value is the maximum value reported among all the measurement intervals in which the process being profiled was active. The percentage can be greater than 100% on a machine with more than one processor.  
   
-## How to Use the Rule Data  
+## How to use the rule data  
  Use the rule value to compare the performance of different versions or builds of the program or to understand the performance of the application under different profiling scenarios.

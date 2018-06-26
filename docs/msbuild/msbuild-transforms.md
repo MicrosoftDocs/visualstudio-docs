@@ -22,7 +22,7 @@ Transforms are not arbitrary, but are limited by special syntax in which all tra
   
 In the following example, a list of *.resx* files is transformed into a list of *.resources* files. The %(filename) transform modifier specifies that each *.resources* file has the same file name as the corresponding *.resx* file.  
   
-```  
+```xml  
 @(RESXFile->'%(filename).resources')  
 ```
 
@@ -35,7 +35,7 @@ For example, if the items in the @(RESXFile) item list are *Form1.resx*, *Form2.
 ## Using Multiple Modifiers  
  A transform expression can contain multiple modifiers, which can be combined in any order and can be repeated. In the following example, the name of the directory that contains the files is changed but the files retain the original name and file name extension.  
   
-```  
+```xml  
 @(RESXFile->'Toolset\%(filename)%(extension)')  
 ```  
   

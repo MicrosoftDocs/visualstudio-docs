@@ -21,7 +21,7 @@ The **CompensableActivity** activity designer is used to create and configure a 
  The <xref:System.Activities.Statements.CompensableActivity> defines a unit of work that can be confirmed or compensated after successful completion.
 
 ### Using the CompensableActivity Activity Designer
- The **CompensableActivity** activity designer can be found in the **Transaction** category of **Toolbox**. To open **Toolbox**, select the **Toolbox** tab on the left side of the Workflow Designer. Alternatively, select **Toolbar** from the **View** menu, or press CTRL+ALT+X.
+ The **CompensableActivity** activity designer can be found in the **Transaction** category of **Toolbox**. To open **Toolbox**, select the **Toolbox** tab on the left side of the Workflow Designer. Alternatively, select **Toolbox** from the **View** menu, or press **Ctrl**+**Alt**+**X**.
 
  The **CompensableActivity** activity designer can be dragged from **Toolbox** and dropped on to the Workflow Designer surface. You could drop the activity designer inside a <xref:System.Activities.Statements.Sequence>. Dropping the activity designer creates a <xref:System.Activities.Statements.CompensableActivity> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of CompensableActivity. Edit the <xref:System.Activities.Activity.DisplayName%2A> value in the header of the **CompensableActivity** activity designer. It can also be edited in the **DisplayName** box of the property grid.
 

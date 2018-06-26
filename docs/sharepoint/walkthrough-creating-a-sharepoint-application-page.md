@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Creating a SharePoint Application Page
+# Walkthrough: Create a SharePoint application page
  
 An application page is a specialized form of an ASP.NET page. Application pages contain content that's merged with a SharePoint master page. For more information, see [Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).
 
@@ -40,7 +40,7 @@ This walkthrough illustrates the following tasks:
 
 - Supported editions of Windows and SharePoint. For more information, see [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
 
-## Creating a SharePoint Project
+## Create a SharePoint project
 
 First, create an **Empty SharePoint Project**. Later, you will add an **Application Page** item to this project.
 
@@ -54,13 +54,13 @@ First, create an **Empty SharePoint Project**. Later, you will add an **Applicat
 
 4. Choose the **Deploy as a farm solution** option button, and then choose the **Finish** button to accept the default local SharePoint site.
 
-## Creating an Application Page
+## Create an application page
 
 To create an application page, add an **Application Page** item to the project.
 
 1. In **Solution Explorer**, choose the **MySharePointProject** project.
 
-2. On the menu bar, choose **Project**, **Add New Item**.
+2. On the menu bar, choose **Project** > **Add New Item**.
 
 3. In the **Add New Item** dialog box, choose the **Application Page (Farm Solution Only** template.
 
@@ -68,11 +68,11 @@ To create an application page, add an **Application Page** item to the project.
 
      The Visual Web Developer designer displays the application page in **Source** view where you can see the page's HTML elements. The designer displays the markup for several <xref:System.Web.UI.WebControls.Content> controls. Each control maps to a <xref:System.Web.UI.WebControls.ContentPlaceHolder> control that is defined in the default application master page.
 
-## Designing the Layout of the Application Page
+## Design the layout of the application page
 
 The Application Page item enables you to use a designer to add ASP.NET controls to the application page. This designer is the same designer used in Visual Web Developer. Add a label, a radio button list, and a table to the **Source** view of the designer, and then set properties just as you would when you design any standard ASP.NET page.
 
-1. On the menu bar, choose **View**, **Toolbox**.
+1. On the menu bar, choose **View** > **Toolbox**.
 
 2. In the Standard node of the **Toolbox**, perform one of the following steps:
 
@@ -94,7 +94,7 @@ The Application Page item enables you to use a designer to add ASP.NET controls 
     </asp:DropDownList>
     ```
 
-## Handling the Events of Controls on the Page
+## Handle the events of controls on the page
 
 Handle controls in an application page just as you would any ASP.NET page. In this procedure, you will handle the `SelectedIndexChanged` event of the drop-down list.
 
@@ -122,13 +122,13 @@ Handle controls in an application page just as you would any ASP.NET page. In th
      [!code-vb[SP_ApplicationPage#3](../sharepoint/codesnippet/VisualBasic/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.vb#3)]
      [!code-csharp[SP_ApplicationPage#3](../sharepoint/codesnippet/CSharp/sp_applicationpage/layouts/sp_applicationpage/SearchItems.aspx.cs#3)]
 
-## Testing the Application Page
+## Test the application page
 
 When you run the project, the SharePoint site opens and the application page appears.
 
 1. In **Solution Explorer**, open the shortcut menu for the application page, and then choose **Set as Startup Item**.
 
-2. Choose the F5 key.
+2. Choose the **F5** key.
 
      The SharePoint site opens.
 

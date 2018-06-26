@@ -26,7 +26,7 @@ Note that some settings are specific to the **Assembly** level or **Fixture** le
 
 **Example**
 
-```
+```csharp
 using Microsoft.Pex.Framework;
 
 [assembly: PexAssemblySettings(MaxBranches = 1000)] // we override the default value of maxbranches

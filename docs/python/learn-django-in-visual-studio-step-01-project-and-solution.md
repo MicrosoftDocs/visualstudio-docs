@@ -1,10 +1,11 @@
 ---
 title: Tutorial - Learn Django in Visual Studio, step 1
 description: A walkthrough of Django basics in the context of Visual Studio projects, demonstrating the support Visual Studio provides for Django development.
-ms.date: 04/25/2018
+ms.date: 05/03/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
+author: kraigb
 ms.author: kraigb
 manager: douge
 ms.workload: 
@@ -12,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 1: Get started with the Django web framework in Visual Studio
+# Tutorial: Get started with the Django web framework in Visual Studio
 
 [Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. This tutorial explores the Django framework in the context of the project templates that Visual Studio provides to streamline the creation of Django-based web apps.
 
@@ -28,9 +29,13 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-- Visual Studio 2017 with the Python workload installed. For instructions, see [Installing Python support in Visual Studio](installing-python-support-in-visual-studio.md).
+- Visual Studio 2017 on Windows with the following options:
+  - The **Python development** workload (**Workload** tab in the installer). For instructions, see [Installing Python support in Visual Studio](installing-python-support-in-visual-studio.md).
+  - **Git for Windows** and **GitHub Extension for Visual Studio** on the **Individual components** tab under **Code tools**.
 
 Django project templates are also included with all earlier versions of Python Tools for Visual Studio, though details may differ from what's discussed in this tutorial (especially different with earlier versions of the Django framework).
+
+Python development is not presently supported in Visual Studio for Mac. On Mac and Linux, use the [Python extension in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial).
 
 ### "Visual Studio projects" and "Django projects"
 
@@ -55,7 +60,7 @@ When working with Django from the command line, you typically start a project by
     - **Solution**: leave this control set to default "Create new solution" option.
     - **Solution name**: set to "LearningDjango", which is appropriate for the solution as a container for multiple projects in this tutorial.
     - **Create directory for solution**: Leave set (the default).
-    - **Create new Git repository**: Select this option (which is clear by default) so that Visual Studio creates a local Git repository when it creates the solution.
+    - **Create new Git repository**: Select this option (which is clear by default) so that Visual Studio creates a local Git repository when it creates the solution. If you don't see this option, run the Visual Studio 2017 installer and add the Git for Windows and GitHub Extension for Visual Studio on the **Individual components** tab under **Code tools**.
 
 1. After a moment, Visual Studio prompts you with a dialog saying "This project requires external packages" (shown below). This dialog appears because the template includes a `requirements.txt` file referencing the latest Django 1.x package. (Select **Show required packages** to see the exact dependencies.)
 
@@ -84,7 +89,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 
     ![Team Explorer window showing available Git repository options for source control](media/django/step01-team-explorer.png)
 
-    You can choose whichever service you want for your own projects. This tutorial shows the use of GitHub, where the completed sample code for the tutorial is maintained in the [Microsoft/python-sample-vs-learn-django](https://github.com/Microsoft/python-sample-vs-learn-django) repository.
+    You can choose whichever service you want for your own projects. This tutorial shows the use of GitHub, where the completed sample code for the tutorial is maintained in the [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django) repository.
 
 1. When selecting any of the **Publish** controls, **Team Explorer** prompts you for more information. For example, when publishing the sample for this tutorial, the repository itself had to be created first, in which case the **Push to Remote Repository** option was used with the repository's URL.
 
@@ -109,7 +114,7 @@ Answer: Yes. To disable auto-commit, go to the **Settings** page in **Team Explo
 
 ## Step 1-3: Create the virtual environment and exclude it from source control
 
-Now that you've configured source control for your project, you can create the virtual environment the necessary Django packages that the project requires. You can then use **Team Explorer** to exclude the environment's folder from source control.
+Now that you've configured source control for your project, you can create the virtual environment that contains the necessary Django packages for the project. You can then use **Team Explorer** to exclude the environment's folder from source control.
 
 1. In **Solution Explorer**, right-click the **Python Environments** node and select **Add Virtual Environment**.
 
@@ -197,8 +202,8 @@ At this point, the basic Django project does not contain any apps. You create an
 > [!div class="nextstepaction"]
 > [Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md)
 
-## Going deeper
+## Go deeper
 
 - Django project code: [Writing your first Django app, part 1](https://docs.djangoproject.com/en/2.0/intro/tutorial01/) (docs.djangoproject.com)
 - Administrative utility: [django-admin and manage.py](https://docs.djangoproject.com/en/2.0/ref/django-admin/) (docs.djangoproject.com)
-- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learn-django](https://github.com/Microsoft/python-sample-vs-learn-django)
+- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django)

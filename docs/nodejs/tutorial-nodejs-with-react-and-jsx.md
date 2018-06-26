@@ -2,7 +2,7 @@
 title: "Create a Node.js and React app"
 description: In this tutorial, you create an app in using Node.js tools for Visual Studio
 ms.custom: "mvc"
-ms.date: "02/19/2018"
+ms.date: "05/23/2018"
 ms.technology: vs-nodejs
 ms.topic: "tutorial"
 ms.devlang: javascript
@@ -27,24 +27,24 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-* You must have Visual Studio installed and the Node.js development workload.
+* You must have Visual Studio 2017 installed and the Node.js development workload.
 
-    If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
     If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
 
 * You must have the Node.js runtime installed.
 
-    If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
+    This tutorial was tested with version 8.11.2.
 
-    This tutorial was tested with version 8.9.4.
+    If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
 
 ## Create a project
 First, create a Node.js web application project.
 
 1. Open Visual Studio 2017.
 
-1. From the top menu bar, choose **File** > **New** > **Project...**.
+1. From the top menu bar, choose **File** > **New** > **Project**.
 
 1. In the **New Project** dialog box, in the left pane, expand **JavaScript**, and then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, and then choose **OK**.
 
@@ -83,7 +83,7 @@ This app requires a number of npm modules to run correctly.
 
     ![Install npm packages](../nodejs/media/tutorial-nodejs-react-install-packages.png)
 
-    The **Output** window shows progress on installing the package. When installed, the package appears under the **npm** node.
+    Click the **Output** window to see progress on installing the package (select **Npm** in the **Show output from** field). When installed, the package appears under the **npm** node.
 
     The project's *package.json* file is updated with the new package information including the package version.
 
@@ -93,8 +93,8 @@ This app requires a number of npm modules to run correctly.
     "dependencies": {
       "express": "4.16.2",
       "path": "0.12.7",
-      "react": "16.2.0",
-      "react-dom": "16.2.0",
+      "react": "16.4.0",
+      "react-dom": "16.4.0",
       "ts-loader": "4.0.1",
       "typescript": "2.7.2",
       "webpack": "4.1.1",
@@ -102,9 +102,9 @@ This app requires a number of npm modules to run correctly.
     }
     ```
 
-1. Right-click **npm** node in your project and choose **Install Missing npm Packages**.
+1. Right-click **npm** node in your project and choose **Update npm Packages**.
 
-    The **Output** window shows the progress on installing the packages.
+    Click the **Output** window to see progress on installing the packages. This may take a few minutes and you may not see results immediately.
 
     Here are the npm modules as they appear in Solution Explorer after they are installed.
 
@@ -128,7 +128,7 @@ For this simple app, you add the new project files in the project root. (In most
 
 1. In the **Add New Item** dialog box, choose **TypeScript JSX file**, type the name *app.tsx*, and click **OK**.
 
-1. Repeat these steps to add *webpack-config.js*.
+1. Repeat these steps to add *webpack-config.js*. Instead of a TypeScript JSX file, choose **JavaScript file**.
 
 1. Repeat the same steps to add *index.html* to the project. Instead of a JavaScript file, choose **HTML file**.
 
@@ -224,7 +224,7 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
 
     The webpack configuration code instructs Webpack to use the TypeScript loader to transpile the JSX.
 
-1. Open tsconfig.json and add the following code, which specifies the TypeScript compiler options:
+1. Open *tsconfig.json* and replace the default code with the following code, which specifies the TypeScript compiler options:
 
     ```json
     {
@@ -246,7 +246,7 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
     }
     ```
 
-    app.tsx is specified as the source file.
+    *app.tsx* is specified as the source file.
 
 ## Transpile the JSX
 
@@ -326,7 +326,7 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
     ![Set a breakpoint](../nodejs/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
 
-1. With Chrome selected as the debug target in Visual Studio, press **Ctrl + F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
+1. With Chrome selected as the debug target in Visual Studio, press **Ctrl**+**F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
 
     The app opens in a new browser tab.
 
@@ -341,7 +341,7 @@ In the preceding section, you attached the debugger to server-side Node.js code.
     You know the debugger has attached correctly when the DOM Explorer and the JavaScript Console open in Visual Studio. These debugging tools are similar to Chrome Developer Tools and F12 Tools for Edge.
 
     > [!NOTE]
-    > If the debugger does not attach and you see the message "Unable to attach to the process. An operation is not legal in the current state." then use the Task Manager to close all instances of Chrome before starting Chrome in debugging mode. Chrome Extensions may be running and preventing full debug mode.
+    > If the debugger does not attach and you see the message "Unable to attach to the process. An operation is not legal in the current state.", use the Task Manager to close all instances of Chrome before starting Chrome in debugging mode. Chrome Extensions may be running and preventing full debug mode.
 
 1. Because the code with the breakpoint already executed, refresh your browser page to hit the breakpoint.
 
@@ -349,7 +349,7 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
     You may hit the breakpoint in either *app-bundle.js* or its mapped location in *app.tsx*, depending on your environment and browser state. Either way, you can step through code and examine variables.
 
-    * If you need to break into code in *app.tsx* and are unable to do it, use **Attach to Process** as described in the previous steps to attach the debugger. Then open the dynamically generated *app.tsx* file from Solution Explorer by opening **Script Documents** > **app.tsx**, set a breakpoint, and refresh the page in your browser.
+    * If you need to break into code in *app.tsx* and are unable to do it, use **Attach to Process** as described in the previous steps to attach the debugger. Then open the dynamically generated *app.tsx* file from Solution Explorer by opening **Script Documents** > **app.tsx**, set a breakpoint, and refresh the page in your browser (set the breakpoint in a line of code that allows breakpoints, such as the `return` statement or a `var` declaration).
 
         Alternatively, if you need to break into code in *app.tsx* and are unable to do it, try using the `debugger;` statement in *app.tsx*, or set breakpoints in the Chrome Developer Tools instead.
 
@@ -363,4 +363,4 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 In this tutorial, you learned how to create a Node.js and React app, transpile JSX, and debug. To learn more about Node.js Tools for Visual Studio, see the Wiki page.
 
 > [!div class="nextstepaction"]
-> [Node.js Tools for Visual Studio](https://github.com/Microsoft/nodejstools)
+> [Node.js tools for Visual Studio](https://github.com/Microsoft/nodejstools)

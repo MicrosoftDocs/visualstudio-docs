@@ -20,7 +20,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Creating a Web Part for SharePoint
+# Walkthrough: Create a web part for SharePoint
 
 Web Parts enable users to directly modify the content, appearance, and behavior of SharePoint site pages by using a browser. This walkthrough shows you how to create a Web Part by using the **Web Part** item template in Visual Studio 2010.
 
@@ -47,13 +47,13 @@ This walkthrough illustrates the following tasks:
 
 - Visual Studio 2017 or an edition of Visual Studio Application Lifecycle Management (ALM).
 
-## Creating an Empty SharePoint Project
+## Create an empty SharePoint project
 
 First, create a Empty SharePoint project. Later, you will add a Web Part to the project by using the **Web Part** item template.
 
 1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using the **Run as Administrator** option.
 
-2. On the men bar, choose **File**, **New**, **Project**.
+2. On the men bar, choose **File** > **New** > **Project**.
 
 3. In the **New Project** dialog box, expand the **SharePoint** node under the language that you want to use, and then choose the **2010** node.
 
@@ -63,11 +63,11 @@ First, create a Empty SharePoint project. Later, you will add a Web Part to the 
 
 5. Choose the **Deploy as a farm solution** option button, and then choose the **Finish** button to accept the default local SharePoint site.
 
-## Adding a Web Part to the Project
+## Add a web part to the project
 
 Add a **Web Part** item to the project. The **Web Part** item adds the Web Part code file. Later, you will add code to the Web Part code file to render the contents of the Web Part.
 
-1. On the menu bar, choose **Project**, **Add New Item**.
+1. On the menu bar, choose **Project** > **Add New Item**.
 
 2. In the **Add New Item** dialog box, in the **Installed Templates** pane, expand the **SharePoint** node, and then choose the **2010** node.
 
@@ -75,11 +75,11 @@ Add a **Web Part** item to the project. The **Web Part** item adds the Web Part 
 
      The **Web Part** item appears in **Solution Explorer**.
 
-## Rendering Content in the Web Part
+## Rendering content in the web part
 
 You can specify which controls you want to appear in the Web Part by adding them to the controls collection of the Web Part class.
 
-1. In **Solution Explorer**, open WebPart1.vb (in Visual Basic) or WebPart1.cs (in C#).
+1. In **Solution Explorer**, open *WebPart1.vb* (in Visual Basic) or *WebPart1.cs* (in C#).
 
      The Web Part code file opens in Code Editor.
 
@@ -124,7 +124,7 @@ You can specify which controls you want to appear in the Web Part by adding them
      [!code-csharp[SP_WebPart#5](../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs#5)]
      [!code-vb[SP_WebPart#5](../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb#5)]
 
-## Testing the Web Part
+## Test the web part
 
 When you run the project, the SharePoint site opens. The Web Part is automatically added to the Web Part Gallery in SharePoint. You can add the Web Part to any Web Part page.
 
@@ -161,7 +161,7 @@ When you run the project, the SharePoint site opens. The Web Part is automatical
         </employees>
     ```
 
-2. In Notepad, on the menu bar, choose **File**, **Save As**.
+2. In Notepad, on the menu bar, choose **File** > **Save As**.
 
 3. In the **Save As** dialog box, in the **Save as type** list, choose **All Files**.
 
@@ -189,7 +189,7 @@ When you run the project, the SharePoint site opens. The Web Part is automatical
 
      The Web Part appears on the page.
 
-## Testing the Custom Property
+## Test the custom property
 
 To populate the data grid that appears in the Web Part, specify the path of the XML file that contains data about each employee.
 
@@ -201,7 +201,7 @@ To populate the data grid that appears in the Web Part, specify the path of the 
 
      Verify that a list of employees appears in the Web Part.
 
-## Testing the Web Part Verb
+## Test the web part verb
 
 Show and hide employees that are not managers by clicking an item that appears in the Web Part verbs menu.
 
@@ -213,7 +213,7 @@ Show and hide employees that are not managers by clicking an item that appears i
 
      All employees appear in the Web Part.
 
-## See Also
+## See also
 
 [Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)  
 [How to: Create a SharePoint Web Part](../sharepoint/how-to-create-a-sharepoint-web-part.md)  

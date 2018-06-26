@@ -25,6 +25,9 @@ manager: "ghogen"
 ---
 # JavaScript Reference
 These sections explain the elements that make up the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] language.  
+
+> [!NOTE]
+> We have joined the community-wide effort to make [MDN web docs](https://developer.mozilla.org/en-US/) the web’s one-stop, premiere development resource, by redirecting all (500+ pages) of Microsoft’s JavaScript API reference from docs.microsoft.com to their MDN counterparts. For details, see this [announcement](https://blogs.windows.com/msedgedev/2018/06/26/chakra-docs-mdn-web-docs/).
   
  [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] code in Internet Explorer can interact with HTML, CSS and the Document Object Model (DOM), which represents HTML and browser objects.  
   
@@ -42,9 +45,9 @@ These sections explain the elements that make up the [!INCLUDE[javascript](../..
   
 -   For information about [!INCLUDE[win8_appname_long](../../javascript/includes/win8-appname-long-md.md)] APIs, see [API reference for Windows Runtime and Windows Library for JavaScript](http://go.microsoft.com/fwlink/p/?LinkID=250938).  
   
- The JavaScript editor in Visual Studio provides IntelliSense support. For more information, see [JavaScript IntelliSense](/visualstudio/ide/javascript-intellisense.md).  
+ The JavaScript editor in Visual Studio provides IntelliSense support. For more information, see [JavaScript IntelliSense](/visualstudio/ide/javascript-intellisense).  
   
-## In This Section  
+## Reference Information
  [Version Information](../../javascript/reference/javascript-version-information.md)  
  Provides a list of [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] language features and the Internet Explorer versions in which they were introduced.  
   
@@ -82,8 +85,6 @@ These sections explain the elements that make up the [!INCLUDE[javascript](../..
  Provides a list of future reserved words. These words may not be used as identifiers.  
   
 ## Related Sections  
- [JavaScript Fundamentals](../../javascript/javascript-fundamentals.md)  
- Provides information about how to use [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)].  
-  
+
  [HTML and DHTML Reference](http://go.microsoft.com/fwlink/?LinkId=148095)  
  Provides reference information about Dynamic HTML (DHTML) API .

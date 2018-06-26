@@ -23,7 +23,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
  When you have designed a DSL, you can distribute it as part of a Visual Studio Integration Extension (VSIX) package. Users work with the DSL in Visual Studio:
 
- ![Family tree diagram, toolbox, and explorer](../modeling/media/familyt_instance.png "FamilyT_Instance")
+ ![Family tree diagram, toolbox, and explorer](../modeling/media/familyt_instance.png)
 
  The notation is only part of a DSL. Together with the notation, your VSIX package includes tools that users can apply to help them edit and generate material from their models.
 
@@ -55,7 +55,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
 3.  Click **Domain-Specific Language Designer**.
 
-     ![Create DSL dialog](../modeling/media/create_dsldialog.png "Create_DSLDialog")
+     ![Create DSL dialog](../modeling/media/create_dsldialog.png)
 
 4.  In the **Name** box, type **FamilyTree**. Click **OK**.
 
@@ -82,7 +82,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
  The user interface now resembles the following picture.
 
- ![dsl designer](../modeling/media/dsl_designer.png "dsl_designer")
+ ![dsl designer](../modeling/media/dsl_designer.png)
 
  This solution defines a domain specific language. For more information, see [Overview of the Domain-Specific Language Tools User Interface](../modeling/overview-of-the-domain-specific-language-tools-user-interface.md).
 
@@ -131,7 +131,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
  Your experimental Visual Studio will resemble the following example:
 
- ![](../modeling/media/dsl_min.png "DSL_min")
+ ![](../modeling/media/dsl_min.png)
 
 ### The Content of a Model
  The content of a file that is an instance of a DSL is called a *model*. The model contains *model**elements* and *links* between the elements. The DSL definition specifies what types of model elements and links can exist in the model. For example, in a DSL created from the Minimal Language template, there is one type of model element, and one type of link.
@@ -191,7 +191,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
 1.  In the DslDefinition diagram, rename **ExampleModel** to **FamilyTreeModel**, **ExampleElement** to **Person**, **Targets** to **Parents**, and **Sources** to **Children**. You can click each label to change it.
 
-     ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt_person.png "FamilyT_Person")
+     ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt_person.png)
 
 2.  Rename the element and connector tools.
 
@@ -250,7 +250,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
     4.  Select each new decorator, and in the Properties window, set the **Position** field. This determines where the domain property value will be displayed on the shape. For example, set **InnerBottomLeft** and **InnerBottomRight**.
 
-         ![Compartment shape definition](../modeling/media/familyt_compartment.png "FamilyT_Compartment")
+         ![Compartment shape definition](../modeling/media/familyt_compartment.png)
 
 3.  Map the decorators to the properties.
 
@@ -266,7 +266,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
 6.  In a .tt file, you can add code that obtains the properties of each person.
 
- ![Family tree diagram, toolbox, and explorer](../modeling/media/familyt_instance.png "FamilyT_Instance")
+ ![Family tree diagram, toolbox, and explorer](../modeling/media/familyt_instance.png)
 
 ### Define New Classes
  You can add domain classes and relationships to a model. For example, you could create a new class to represent towns, and a new relationship to represent that a person lived in a town.
@@ -292,7 +292,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
     1.  Click the **Reference Relationship** tool, click Person and then click Town.
 
-         ![DSL definition fragment: family tree root](../modeling/media/familyt_root.png "FamilyT_Root")
+         ![DSL definition fragment: family tree root](../modeling/media/familyt_root.png)
 
         > [!NOTE]
         >  Reference relationships represent cross-references from one part of the model tree to another.
@@ -317,7 +317,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
     2.  Use the **Diagram Element Map** tool to link the new connector to the relationship between Person and Town.
 
-         ![Family Tree definition with added shape map](../modeling/media/familyt_shapemap.png "FamilyT_ShapeMap")
+         ![Family Tree definition with added shape map](../modeling/media/familyt_shapemap.png)
 
 6.  Create an element tool for making a new Town.
 

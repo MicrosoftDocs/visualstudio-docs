@@ -5,6 +5,7 @@ ms.date: 04/25/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
+author: kraigb
 ms.author: kraigb
 manager: douge
 ms.workload: 
@@ -26,7 +27,7 @@ The following table briefly explains the effect of each item template within a P
 | --- | --- |
 | Empty Python File | An empty file with the `.py` extension. |
 | Python class | A `.py` file containing a single empty Python class definition. |
-| Python Package | A folder that contains an `__init.py__` file. |
+| Python Package | A folder that contains an `__init__.py` file. |
 | Python Unit Test | A `.py` file with a single unit test based on the `unittest` framework, along with a call to `unittest.main()` to run the tests in the file. |
 | HTML Page | An `.html` file with a simple page structure consisting of a `<head>` and `<body>` element. |
 | JavaScript | An empty  `.js` file. |

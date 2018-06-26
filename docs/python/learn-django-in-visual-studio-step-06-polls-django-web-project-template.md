@@ -5,6 +5,7 @@ ms.date: 04/25/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
+author: kraigb
 ms.author: kraigb
 manager: douge
 ms.workload: 
@@ -12,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 6: Use the Polls Django Web Project template
+# Step 6: Use the Polls Django Web Project template
 
 **Previous step: [Authenticate users in Django](learn-django-in-visual-studio-step-05-django-authentication.md)**
 
@@ -106,7 +107,7 @@ class Choice(models.Model):
         return self.text
 ```
 
-As you can see, a Poll maintains a description in its `text` field and a publication date in `pub_date`. These fields are the only onesields that exist for the Poll in the database; the `total_votes` field is calculated at runtime.
+As you can see, a Poll maintains a description in its `text` field and a publication date in `pub_date`. These fields are the only ones that exist for the Poll in the database; the `total_votes` field is calculated at runtime.
 
 A Choice is related to a Poll through the `poll` field, contains a description in `text`, and maintains a count for that choice in `votes`. The `votes_percentage` field is calculated at runtime and is not found in the database.
 
@@ -248,7 +249,7 @@ urlpatterns = [
 ]
 ```
 
-If you're not familiar with the more complex regular expressions used here, you can paste the expression into [regex101.com](https://regex101.com/) for an explanation in plain language. (You'll need to escape the forward slashes `/` by adding a back slash, `\`h before them; escaping isn't necessary in Python because of the `r` prefix on the string, meaning "raw").
+If you're not familiar with the more complex regular expressions used here, you can paste the expression into [regex101.com](https://regex101.com/) for an explanation in plain language. (You'll need to escape the forward slashes `/` by adding a back slash, `\` before them; escaping isn't necessary in Python because of the `r` prefix on the string, meaning "raw").
 
 In Django, the syntax `?P<name>pattern` creates a group named `name`, which gets passed as arguments to views in the order they appear. In the code shown earlier, `PollsDetailView` and `PollsResultsView` receive an argument named `pk` and `app.views.vote` receives an argument named `poll_id`.
 
@@ -356,7 +357,7 @@ The call to `admin.site.register` then connects that class to the model (`Poll`)
 ## Next steps
 
 > [!Note]
-> If you've been committing your Visual Studio solution to source control throughout the course of this tutorial, now is a good time to do another commit. Your solution should match the tutorial source code on GitHub: [Microsoft/python-sample-vs-learn-django](https://github.com/Microsoft/python-sample-vs-learn-django).
+> If you've been committing your Visual Studio solution to source control throughout the course of this tutorial, now is a good time to do another commit. Your solution should match the tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django).
 
 You've now explored the entirety of the "Blank Django Web Project", "Django Web Project", and "Polls Django Web Project" templates in Visual Studio. You've learned all the basics of Django such as using views and templates, and have explored routing, authentication, and using database models. You should now be able to create a web app of your own with any views and models that you need.
 

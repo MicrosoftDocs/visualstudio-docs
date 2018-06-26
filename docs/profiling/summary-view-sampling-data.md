@@ -14,14 +14,14 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Summary View - Sampling Data
+# Summary View - sampling data
 The Summary view displays information about the most performance-expensive functions in a profiling run. For more information, including a description of the Notification Links and Report lists, see [Summary View](../profiling/summary-view.md).  
   
 > [!NOTE]
 >  Enhanced security features in Windows 8 and Windows Server 2012 required significant changes in the way the Visual Studio profiler collects data on these platforms. UWP apps also require new collection techniques. See [Performance Tools on Windows 8 and Windows Server 2012 applications](../profiling/performance-tools-on-windows-8-and-windows-server-2012-applications.md).  
   
 ## Timeline Graph  
- The timeline graph in the Summary view shows the percentage of processor (CPU) utilization of the profiled application over the time that the profiling occurred. You can use the timeline graph to filter the view to a selected time span. For more information, see [How to: Filter Report Views from the Summary Timeline](../profiling/how-to-filter-report-views-from-the-summary-timeline.md).  
+ The timeline graph in the Summary view shows the percentage of processor (CPU) utilization of the profiled application over the time that the profiling occurred. You can use the timeline graph to filter the view to a selected time span. For more information, see [How to: Filter report views from the Summary Timeline](../profiling/how-to-filter-report-views-from-the-summary-timeline.md).  
   
 ## Hot Path  
  The **Hot Path** displays the execution path in which most samples were collected. You can click a function to display the Function Details view for the function. To display other views for the function, right-click the function and then click a view from the list.  
@@ -46,6 +46,6 @@ The Summary view displays information about the most performance-expensive funct
 |**Name**|The name of the function.|  
 |**Exclusive Samples %**|The percentage of all samples in the profiling run that were collected when the function was executing code in its function body. The percentage excludes samples that were collected when functions that this function called were executing.|  
   
-## See Also  
- [Summary View](../profiling/summary-view-dotnet-memory-data.md)   
- [Summary View](../profiling/summary-view-instrumentation-data.md)
+## See also  
+ [Summary View - .NET memory data](../profiling/summary-view-dotnet-memory-data.md)   
+ [Summary View - instrumentation data](../profiling/summary-view-instrumentation-data.md)

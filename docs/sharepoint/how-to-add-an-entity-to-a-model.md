@@ -23,12 +23,12 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add an Entity to a Model
+# How to: Add an entity to a model
   To create an entity, add an entity control from the Visual Studio **Toolbox** onto the Business Data Connectivity (BDC) designer.  
   
 ### To add an entity to the model  
   
-1.  Create a BDC project, or open an existing BDC project. For more information, see [Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md).  
+1.  Create a BDC project, or open an existing BDC project. For more information, see [Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md).  
   
 2.  In the **Toolbox**, from the **BusinessDataCatalog** group, add an **Entity** control onto the designer.  
   
@@ -46,11 +46,11 @@ ms.workload:
      [!code-csharp[SP_BDC_Entity_Data_Class#1](../sharepoint/codesnippet/CSharp/sp_bdc_entity_data_class/bdcmodel1/contact.cs#1)]
      [!code-vb[SP_BDC_Entity_Data_Class#1](../sharepoint/codesnippet/VisualBasic/sp_bdc_entity_data_class/bdcmodel1/contact.vb#1)]  
   
-## See Also  
- [How to: Add a Creator Method](../sharepoint/how-to-add-a-creator-method.md)   
- [How to: Add a Deleter Method](../sharepoint/how-to-add-a-deleter-method.md)   
- [How to: Add an Updater Method](../sharepoint/how-to-add-an-updater-method.md)   
- [How to: Add a Finder Method](../sharepoint/how-to-add-a-finder-method.md)   
- [How to: Add a Specific Finder Method](../sharepoint/how-to-add-a-specific-finder-method.md)  
+## See also
+ [How to: Add a Creator method](../sharepoint/how-to-add-a-creator-method.md)   
+ [How to: Add a Deleter method](../sharepoint/how-to-add-a-deleter-method.md)   
+ [How to: Add an Updater method](../sharepoint/how-to-add-an-updater-method.md)   
+ [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)   
+ [How to: Add a specific Finder method](../sharepoint/how-to-add-a-specific-finder-method.md)  
   
-  
+ 

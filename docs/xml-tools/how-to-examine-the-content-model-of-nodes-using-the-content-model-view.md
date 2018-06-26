@@ -11,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Examine the Content Model of Nodes Using the Content Model View
+# How to: Examine the content model of nodes using the Content Model View
 
 This topic describes how to explore your nodes using the [Content Model View](../xml-tools/content-model-view.md).
 
@@ -21,7 +21,7 @@ This topic describes how to explore your nodes using the [Content Model View](..
 
 2.  Click **Use XML Editor to view and edit the underlying XML Schema file** on the Start View.
 
-3.  Copy the XML Schema sample code from [Sample XML Schema: Purchase Order Schema](../xml-tools/sample-xsd-file-purchase-order-schema.md) and paste it to replace the code that was added to the new XSD file by default.
+3.  Copy the XML Schema sample code from [Sample XML schema: purchase order schema](../xml-tools/sample-xsd-file-purchase-order-schema.md) and paste it to replace the code that was added to the new XSD file by default.
 
 4.  Select the `purchaseOrder` element in the Schema Explorer by right-clicking the `purchaseOrder` element in the XML Editor and selecting **Show in XML Explorer**.
 

@@ -25,13 +25,13 @@ You can specify how to deploy and manage local Help content by using command-lin
 
 Syntax:
 
-```
+```cmd
 HlpCtntmgr.exe /operation Value /catalogname CatalogName /locale Locale /sourceuri InstallationPoint
 ```
 
 For example:
 
-```
+```cmd
 hlpctntmgr.exe /operation install /catalogname VisualStudio15 /locale en-us /sourceuri d:\productDocumentation\HelpContentSetup.msha
 ```
 

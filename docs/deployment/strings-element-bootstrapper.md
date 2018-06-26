@@ -26,7 +26,7 @@ Defines localized strings for product names, package names, and installation err
   
 ## Syntax  
   
-```  
+```xml  
 <Strings>  
     <String  
         Name  
@@ -50,7 +50,7 @@ Defines localized strings for product names, package names, and installation err
 ## Example  
  The following code example specifies all of the English strings for the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] installer.  
   
-```  
+```xml  
 <Strings>  
     <String Name="DisplayName">.NET Framework 2.0</String>  
     <String Name="Culture">en</String>  

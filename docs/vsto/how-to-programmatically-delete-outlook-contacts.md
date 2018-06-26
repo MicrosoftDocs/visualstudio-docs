@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically Delete Outlook Contacts | Microsoft Docs"
+title: "How to: Programmatically delete Outlook contacts"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Programmatically Delete Outlook Contacts
+# How to: Programmatically delete Outlook contacts
   This example deletes a contact. The example assumes that a contact named "Armando Pinto" exists in the **Contacts** folder.  
   
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]  
@@ -26,9 +26,9 @@ ms.workload:
  [!code-vb[Trin_Outlook_RL_DeleteContacts#1](../vsto/codesnippet/VisualBasic/Trin_Outlook_RL_DeleteContacts/thisaddin.vb#1)]
  [!code-csharp[Trin_Outlook_RL_DeleteContacts#1](../vsto/codesnippet/CSharp/Trin_Outlook_RL_DeleteContacts/thisaddin.cs#1)]  
   
-## See Also  
- [Working with Contact Items](../vsto/working-with-contact-items.md)   
- [How to: Programmatically Search for a Specific Contact](../vsto/how-to-programmatically-search-for-a-specific-contact.md)   
- [How to: Programmatically Access Outlook Contacts](../vsto/how-to-programmatically-access-outlook-contacts.md)  
+## See also  
+ [Work with contact items](../vsto/working-with-contact-items.md)   
+ [How to: Programmatically search for a specific contact](../vsto/how-to-programmatically-search-for-a-specific-contact.md)   
+ [How to: Programmatically access Outlook contacts](../vsto/how-to-programmatically-access-outlook-contacts.md)  
   
   

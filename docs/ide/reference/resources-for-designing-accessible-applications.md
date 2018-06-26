@@ -46,7 +46,7 @@ Use the following links to find information about technologies that support acce
 
 ### Third-party resources
 
--   **Web Accessibility Initiative of the World Wide Web Consortium (W3C)** This Web site provides guidelines and techniques for accessible Web site development. For more information, see [http://www.w3.org/WAI/GL/](http://www.w3.org/WAI/GL/).
+-   **Web Accessibility Initiative of the World Wide Web Consortium (W3C)** This Web site provides guidelines and techniques for accessible Web site development. For more information, see [https://www.w3.org/WAI/GL/](https://www.w3.org/WAI/GL/).
 
 ## See also
 

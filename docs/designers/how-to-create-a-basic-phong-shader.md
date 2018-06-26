@@ -40,7 +40,7 @@ Before you begin, make sure that the **Properties** window and the **Toolbox** a
 > [!NOTE]
 > To better demonstrate the effect of the shader in this illustration, an orange color has been specified by using the **MaterialDiffuse** parameter of the shader, and a metallic-looking finish has been specified by using the **MaterialSpecular** and **MaterialSpecularPower** parameters. For information about material parameters, see the Previewing Shaders section in [Shader Designer](../designers/shader-designer.md).
 
- ![Shader graph and a preview of its effect](../designers/media/digit-lighting-graph.png "Digit-Lighting-Graph")
+ ![Shader graph and a preview of its effect](../designers/media/digit-lighting-graph.png)
 
  Certain shapes might provide better previews for some shaders. For more information about how to preview shaders in the Shader Designer, see the Previewing Shaders section in [Shader Designer](../designers/shader-designer.md)
 
@@ -51,7 +51,7 @@ Before you begin, make sure that the **Properties** window and the **Toolbox** a
 >
 > The **MaterialSpecularPower** property determines how intense the specular highlights are. High specular powers simulate duller, more-localized highlights. Very low specular powers simulate intense, sweeping highlights that can oversaturate and conceal the color of the whole surface.
 
- ![Phong lighting applied to a model](../designers/media/digit-lighting-model.png "Digit-Lighting-Model")
+ ![Phong lighting applied to a model](../designers/media/digit-lighting-model.png)
 
  For more information about how to apply a shader to a 3D model, see [How to: Apply a Shader to a 3D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).
 

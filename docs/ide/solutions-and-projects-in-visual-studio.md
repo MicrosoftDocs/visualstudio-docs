@@ -1,6 +1,6 @@
 ---
 title: Solutions and projects in Visual Studio
-ms.date: 10/5/2017
+ms.date: 10/05/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -59,7 +59,7 @@ You can also create custom project and item templates. For more information, see
 
 After you create a new project, you can use **Solution Explorer** to view and manage the project and solution, and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects.
 
-![Solution Explorer](../ide/media/vs2015_solution_explorer.png "vs2015_solution_explorer")
+![Solution Explorer](../ide/media/vs2015_solution_explorer.png)
 
 ## See also
 

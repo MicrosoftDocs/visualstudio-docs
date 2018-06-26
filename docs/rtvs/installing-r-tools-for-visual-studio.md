@@ -17,8 +17,8 @@ ms.workload:
 In this article:
 
 - [Supported versions of Visual Studio](#supported-versions-of-visual-studio)
-- [Installing RTVS in Visual Studio 2017](#installing-rtvs-in-visual-studio-2017)
-- [Installing RTVS in Visual Studio 2015](#installing-rtvs-in-visual-studio-2015)
+- [Install RTVS in Visual Studio 2017](#installing-rtvs-in-visual-studio-2017)
+- [Install RTVS in Visual Studio 2015](#installing-rtvs-in-visual-studio-2015)
 - [Offline installation](#offline-installation-of-visual-studio-and-rtvs)
 
 > [!Note]
@@ -26,13 +26,13 @@ In this article:
 
 ## Supported versions of Visual Studio
 
-R Tools for Visual Studio (RTVS) is supported on Windows with the Community (free), Professional, and Enterprise editions of both [Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) and [Visual Studio 2015 Update 3 (or higher)](http://go.microsoft.com/fwlink/?LinkId=691129) (direct download).
+R Tools for Visual Studio (RTVS) is supported on Windows with the Community (free), Professional, and Enterprise editions of both [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) and [Visual Studio 2015 Update 3 (or higher)](http://go.microsoft.com/fwlink/?LinkId=691129) (direct download).
 
 RTVS is not presently supported on Visual Studio for Mac.
 
 RTVS does not install if you have only the Visual Studio Shell that's included with products such as Visual Studio Test Professional and SQL Server Management Studio. Visual Studio Shell lacks the necessary components for RTVS.
 
-## Installing RTVS in Visual Studio 2017
+## Install RTVS in Visual Studio 2017
 
 1. Run the Visual Studio installer and select the **Modify** option (for details, see [Modify Visual Studio](../install/modify-visual-studio.md)). If you don't yet have Visual Studio installed, see [Install Visual Studio](../install/install-visual-studio.md). On Windows 7, be sure that your installer is updated to show Visual Studio 2017 version *15.2 build 26430.12* or later.
 
@@ -42,9 +42,9 @@ RTVS does not install if you have only the Visual Studio Shell that's included w
 
 1. Set any additional options on the right side under the same workload name. By default, this workload includes F# and Python support. For R, minimum requirements are **R language support**, **Runtime support for R development**, and **Microsoft R client**.
 
-RTVS is installed in: `%ProgramFiles(x86)%\Microsoft Visual Studio\<version>\<edition>Common7\IDE\Extensions\Microsoft\R Tools for Visual Studio` where `<version>` is typically `2017` and `<edition>` is `Community`, `Professional`, or `Enterprise`.
+RTVS is installed in: *%ProgramFiles(x86)%\Microsoft Visual Studio\<version>\<edition>Common7\IDE\Extensions\Microsoft\R Tools for Visual Studio* where *\<version>* is typically `2017` and *\<edition>* is `Community`, `Professional`, or `Enterprise`.
 
-## Installing RTVS in Visual Studio 2015
+## Install RTVS in Visual Studio 2015
 
 With Visual Studio 2015, you need to install an R interpreter and the R Tools separately.
 
@@ -82,8 +82,8 @@ Offline installation is suitable for computers that are not connected to the Int
 
 ## See also
 
-- [Getting started with R](getting-started-with-r.md)
+- [Get started with R](getting-started-with-r.md)
 - [R Tools sample projects](getting-started-samples.md)
-- [Getting help](getting-started-help.md)
-- [Option settings](options-for-r-tools-in-visual-studio.md)
+- [Help in R Tools](getting-started-help.md)
+- [R Tools options](options-for-r-tools-in-visual-studio.md)
 - [Microsoft Machine Learning Server (formerly R Server)](/machine-learning-server/)

@@ -15,8 +15,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Copy Selection
+# Copy selection
 To copy the entire call stack from the report tab, click **Copy**. You can then paste the call stack in any program that supports that action.  
   
-## See Also  
+## See also  
  [Threads View](../profiling/threads-view-parallel-performance.md)

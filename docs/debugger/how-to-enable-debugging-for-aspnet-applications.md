@@ -82,7 +82,7 @@ The web.config file should look like the following example:
   
 #### Example  
   
-```  
+```xml
 <configuration>  
     ...  
     <system.web>  

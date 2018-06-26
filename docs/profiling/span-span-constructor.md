@@ -20,7 +20,7 @@ Initializes a new instance of the `span` class.
   
 ## Syntax  
   
-```  
+```cpp  
 span(  
    const marker_series& _Series,  
    _In_ LPCTSTR _Format,  
@@ -61,9 +61,9 @@ span(
  Category.  
   
 ## Requirements  
- **Header:** cvmarkersobj.h  
+ **Header:** *cvmarkersobj.h*  
   
  **Namespace:** Concurrency::diagnostic
  
- ## See Also
- [span Class](../profiling/span-class.md)
+ ## See also
+ [span class](../profiling/span-class.md)

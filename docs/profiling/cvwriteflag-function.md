@@ -21,12 +21,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# CvWriteFlag Function
+# CvWriteFlag function
 Writes a flag to the Concurrency Visualizer trace file.  
   
 ## Syntax  
   
-```  
+```C  
 HRESULT CvWriteFlagExW(  
     _In_reads_bytes_(16) PCV_MARKERSERIES pMarkerSeries,  
     _In_ CV_IMPORTANCE level,  
@@ -74,15 +74,15 @@ HRESULT CvWriteFlagExVA(
  `pMessage`  
  Message format string. Cannot be NULL.  
   
-## Return Value  
+## Return value  
  S_OK when the message is successfully written. Error code in case there were any errors. Use SUCCEEDED/FAILED macros to check for error condition.  
   
 ## Requirements  
- **Header:** cvmarkers.h  
+ **Header:** *cvmarkers.h*  
   
  **Unicode:** CvWriteFlagExW, CvWriteFlagExVW  
   
  **ANSI:**CvWriteFlagExA, CvWriteFlagExVA  
   
-## See Also  
- [C++ Library Reference](../profiling/cpp-library-reference.md)
+## See also  
+ [C++ library reference](../profiling/cpp-library-reference.md)

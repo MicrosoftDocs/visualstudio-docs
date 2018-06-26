@@ -28,11 +28,11 @@ When you are working with long code files, it can be hard to keep everything in 
 
     Here's how the scroll bar looks after a search for a string. Notice that all instances of the string appear.
 
-    ![The scroll bar after searching for a string.](../ide/media/enhancedscrollbarsearch.png "EnhancedScrollbarSearch")
+    ![The scroll bar after searching for a string.](../ide/media/enhancedscrollbarsearch.png)
 
     Here's the scroll bar after replacing all the instances of the string. You can see immediately that the operation caused some problems.
 
-    ![The scrollbar after replacing a string with errors](../ide/media/enhancedscrollbarreplace.png "EnhancedScrollbarReplace")
+    ![The scrollbar after replacing a string with errors](../ide/media/enhancedscrollbarreplace.png)
 
 ## To set the display mode for the scroll bar
 
@@ -42,14 +42,14 @@ When you are working with long code files, it can be hard to keep everything in 
 
     Here's how the search example looks when map mode is on and the width is set to **Medium**:
 
-    ![The scroll bar in map mode](../ide/media/enhancedscrollbar.png "EnhancedScrollbar")
+    ![The scroll bar in map mode](../ide/media/enhancedscrollbar.png)
 
 2. In map mode, to enable previews of the code when you move the cursor up and down the scroll bar, select the **Show Preview Tooltip** option. Here's how it looks:
 
-    ![The scrollbar with a tooltip](../ide/media/enhancedscrollbarsearchtooltip.png "EnhancedScrollbarSearchTooltip")
+    ![The scrollbar with a tooltip](../ide/media/enhancedscrollbarsearchtooltip.png)
 
     If you want to keep the map mode scrolling behavior and the preview tooltip, but don't want to see the source code overview, you can set **Source Overview** to **Off**.
 
 ## See also
 
-- [Write code in the editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)

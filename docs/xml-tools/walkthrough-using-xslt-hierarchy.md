@@ -8,7 +8,7 @@ author: gewarren
 ms.author: gewarren
 manager: douge
 ---
-# Walkthrough: Using XSLT Hierarchy
+# Walkthrough: Use XSLT hierarchy
 
 The XSLT Hierarchy tool simplifies many XML development tasks. An XSLT style sheet often uses `includes` and `imports` instructions. Compilation starts from the principal style sheet, but when you see an error as a result of compiling an XSLT style sheet, the error may come from a different source than the principal style sheet. Fixing the error or editing the style sheet may require access to included or imported style sheets. Stepping through the style sheet in the debugger may open included and imported style sheets, and you may want to add a breakpoint at some point in one or more of the included style sheets.
 
@@ -42,7 +42,7 @@ The example in this topic demonstrates debugging in a referenced style sheet.
     </COLLECTION>
     ```
 
-1. Add the following `xslincludefile.xsl`:
+1. Add the following *xslincludefile.xsl*:
 
     ```xml
     <?xml version='1.0'?>
@@ -65,7 +65,7 @@ The example in this topic demonstrates debugging in a referenced style sheet.
     </xsl:stylesheet>
     ```
 
-3.  Add the following `xslinclude.xsl` file:
+3.  Add the following *xslinclude.xsl* file:
 
     ```xml
     <?xml version='1.0'?>
@@ -107,4 +107,4 @@ The example in this topic demonstrates debugging in a referenced style sheet.
 
 ## See also
 
-- [Walkthrough: XSLT Profiler](../xml-tools/walkthrough-xslt-profiler.md)
+- [Walkthrough: XSLT profiler](../xml-tools/walkthrough-xslt-profiler.md)

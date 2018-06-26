@@ -13,7 +13,7 @@ author: gewarren
 ---
 # How to: Use Search in the Workflow Designer
 
-To facilitate creating larger, more complex workflows, Search can be used in the Workflow Designer to find items by keyword. Note that the designer does not support Replace. Search will find the following in the designer:
+To facilitate creating larger, more complex workflows, you can search within the Workflow Designer to find items by keyword. Note that the designer does not support Replace.
 
 ## Quick Find
 
@@ -27,24 +27,24 @@ Quick find finds the following in the designer:
 
 -   Expressions
 
-### Using Quick Find
+### Use Quick Find
 
-1.  With the workflow designer open, press **Ctrl+F**, or select **Edit**, **Find and Replace**, **Quick Find**.
+1.  With the workflow designer open, press **Ctrl+F**, or select **Edit** > **Find and Replace** > **Quick Find**.
 
 2.  Enter the search term into the **Find what** textbox and click **Find Next**.
 
-3.  The search term will be located in the current workflow. The following screenshot shows an activity display name being located in the designer.
+3.  The search term is located in the current workflow. The following image shows an activity display name being located in the designer:
 
-     ![Search result in the Workflow Designer](../workflow-designer/media/designersearch.png "DesignerSearch")
+   ![Search result in the Workflow Designer](../workflow-designer/media/designersearch.png)
 
 ## Find in files
 
-Using Find in Files will locate strings in workflow files, including XAML files.
+Find in Files locates strings in workflow files, including XAML files.
 
-### Using Find in Files
+### Use Find in Files
 
-1.  In Visual Studio, press **Ctrl + Shift + F**, or select **Edit**, **Find and Replace**, **Find in Files**
+1.  In Visual Studio, press **Ctrl**+**Shift**+**F**, or select **Edit** > **Find and Replace** > **Find in Files**.
 
-2.  Enter the search item into the **Find what** textbox and click **Find All**
+2.  Enter the search item into the **Find what** textbox and click **Find All**.
 
-3.  The find result will be shown in the Visual Studio**Find Result** view. Double-clicking a result item will navigate to the activity which contains the match in workflow designer.
+3.  The find result is shown in the **Find Result** view. Double-clicking a result item navigates to the activity that contains the match in workflow designer.
