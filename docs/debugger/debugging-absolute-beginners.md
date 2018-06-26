@@ -62,15 +62,15 @@ By knowing your assumptions, you may reduce the time it takes to find a problem 
 
 If you didn't get an exception, use the debugger to find the exact place where the problem (or symptom of the bug) occurred. Before you start, do your best to try to find the specific region of code where the problem is occurring, then do the following:
 
-    * Set a breakpoint where that code begins. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
+* Set a breakpoint where that code begins. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
 
-    * Start your app in debugging mode to hit the breakpoint (pause at the breakpoint).
+* Start your app in debugging mode to hit the breakpoint (pause at the breakpoint).
 
-    * Inspect variables and check whether they contain the type of values that they should contain. If you find a bad value, find out where the bad value was set.
+* Inspect variables and check whether they contain the type of values that they should contain. If you find a bad value, find out where the bad value was set.
 
 To help illustrate these concepts, we take you through some example code that already has several bugs. We are using C#, but the debugging features apply to Visual Basic, C++, JavaScript, Python, and other supported languages.
 
-### Create a sample app with some bugs
+### Create a sample app (with some bugs)
 
 1. You must have Visual Studio installed and either the .**NET desktop development** workload or the .**NET Core cross platform development** workload installed, depending on which app type you want to create.
 
@@ -111,12 +111,12 @@ To help illustrate these concepts, we take you through some example code that al
             {
                 var theGalaxies = new List<Galaxy>
             {
-                new Galaxy() { Name="Tadpole", MegaLightYears=400, GalaxyType=new GType(0)},
-                new Galaxy() { Name="Pinwheel", MegaLightYears=25, GalaxyType=new GType(0)},
-                new Galaxy() { Name="Cartwheel", MegaLightYears=500, GalaxyType=new GType(3)},
-                new Galaxy() { Name="Small Magellanic Cloud", MegaLightYears=.2, GalaxyType=new GType(2)},
-                new Galaxy() { Name="Andromeda", MegaLightYears=3, GalaxyType=new GType(0)},
-                new Galaxy() { Name="Maffei 1", MegaLightYears=11, GalaxyType=new GType(1)}
+                new Galaxy() { Name="Tadpole", MegaLightYears=400, GalaxyType=new GType('S')},
+                new Galaxy() { Name="Pinwheel", MegaLightYears=25, GalaxyType=new GType('S')},
+                new Galaxy() { Name="Cartwheel", MegaLightYears=500, GalaxyType=new GType('L')},
+                new Galaxy() { Name="Small Magellanic Cloud", MegaLightYears=.2, GalaxyType=new GType('I')},
+                new Galaxy() { Name="Andromeda", MegaLightYears=3, GalaxyType=new GType('S')},
+                new Galaxy() { Name="Maffei 1", MegaLightYears=11, GalaxyType=new GType('E')}
             };
     
                 foreach (Galaxy theGalaxy in theGalaxies)
@@ -145,21 +145,21 @@ To help illustrate these concepts, we take you through some example code that al
     
         public class GType
         { 
-            public GType(int type)
+            public GType(char type)
             {
                 switch(type)
                 {
-                    case 0:
+                    case 'S':
                         MyGType = Type.Spiral;
                         break;
-                    case 1:
+                    case 'E':
                         MyGType = Type.Elliptical;
                         break;
-                    case 2:
+                    case 'l':
                         MyGType = Type.Irregular;
                         break;
-                    case 3:
-                        MyGType = Type.Irregular;
+                    case 'L':
+                        MyGType = Type.Lenticular;
                         break;
                     default:
                         break;
@@ -232,9 +232,9 @@ To help illustrate these concepts, we take you through some example code that al
 
     ![Syntax error](../debugger/media/beginners-no-definition.png)
 
-    Even though we set each galaxy with an object of type `GType`, the debugger does not recognize the `theGalaxy` object as an object of type `GType`. What's going on? As you look through your code, the `GType` class definitely has a property of `MyGType`, but something isn't right. The error message about `object` turns out to be the clue; to C#, the type appears to be an object of type `object` instead of an object of type `GType`.
+    Even though we set each galaxy with an object of type `GType`, the debugger does not recognize the `theGalaxy` object as an object of type `GType`. What's going on? You want to look through any code that sets the galaxy type. Doing this, you see that the `GType` class definitely has a property of `MyGType`, but something isn't right. The error message about `object` turns out to be the clue; to C#, the type appears to be an object of type `object` instead of an object of type `GType`.
 
-1. Looking through your code, you find the `GalaxyType` property of the `Galaxy` class is set as `object` instead of `GType`.
+1. Looking through your code related to setting the galaxy type, you find the `GalaxyType` property of the `Galaxy` class is specified as `object` instead of `GType`.
 
     ```csharp
     public object GalaxyType { get; set; }     
@@ -248,25 +248,34 @@ To help illustrate these concepts, we take you through some example code that al
 
 1. Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**) to recompile code and restart.
 
-    Now, when the debugger pauses on Console.WriteLine, you can hover over `theGalaxy.GalaxyType.MyGType`, and see that the value is properly set.
+    Now, when the debugger pauses on `Console.WriteLine`, you can hover over `theGalaxy.GalaxyType.MyGType`, and see that the value is properly set.
 
 1. Remove the breakpoint by clicking on the breakpoint circle in the left margin (or right-click and choose **Breakpoint** > **Delete Breakpoint**).
 
-    The app runs and displays output. It looks pretty good now, but you do notice one thing; you expected the Small Magellanic Cloud galaxy to show up as a Lenticular galaxy, not an Irregular galaxy.
+    The app runs and displays output. It looks pretty good now, but you do notice one thing; you expected the Small Magellanic Cloud galaxy to show up as a Irregular galaxy, but it shows no galaxy type at all.
+
+    ```
+    Tadpole  400,  Spiral 
+    Pinwheel  25,  Spiral 
+    Cartwheel, 500,  Lenticular
+    Small Magellanic Cloud .2,
+    Andromeda  3,  Spiral
+    Maffei 1,  Elliptical
+    ```
 
 1. Set a breakpoint on this line of code.
 
     ```csharp
-    public GType(int type)
+    public GType(char type)
     ```
 
 1. Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**) to restart.
 
     The debugger pauses on the line of code where you set the breakpoint.  
 
-1. Hover over the `type` variable. You see a value of `0`. You are interested in a value of `3`, since you know that is a Lenticular galaxy type.
+1. Hover over the `type` variable. You see a value of `S`. You are interested in a value of `I`, since you know that is an Irregular galaxy type.
 
-1. Press **F5** and hover over the `type` variable again. Repeat this step until you see a value of `3` in the `type` variable.
+1. Press **F5** and hover over the `type` variable again. Repeat this step until you see a value of `I` in the `type` variable.
 
     ![Inspect a variable](../debugger/media/beginners-inspecting-data.png)
 
@@ -274,11 +283,13 @@ To help illustrate these concepts, we take you through some example code that al
 
     **F11** advances the debugger (and executes code) one statement at a time. **F10** (Step Over) is a similar command, and both are extremely useful when learning how to use the debugger.
 
-1. Press **F11** until you stop on line of code in the switch statement for a value of 3. Here, you see a clear problem resulting from a typo (or a copy/paste error). The code sets a galaxy type of Irregular in two different cases.
+1. Press **F11** until you stop on line of code in the switch statement for a value of 'I'. Here, you see a clear problem resulting from a typo. You expect the code to advance to where it sets `MyGType` as an Irregular galaxy type, but the debugger instead pauses on the `default` section of the `switch` statement.
 
     ![Find a typo](../debugger/media/beginners-typo.png)
 
-1. Click in the code for `case 3`, and replace `Type.Irregular` with `Type.Lenticular`.
+    Looking at the code, you see a typo in the `case 'l'`. It should be `case 'I'`.
+
+1. Click in the code for `case 'l'`, and replace it with `case 'I'.
 
 1. Remove your breakpoint, and then click the **Restart** button to restart the app.
 
