@@ -36,13 +36,13 @@ Loggers provide a way for you to customize the output of your build and display 
   
  [!code-csharp[msbuild_SimpleConsoleLogger#3](../msbuild/codesnippet/CSharp/build-loggers_2.cs)]  
   
-## Respond to logger verbosity vValues  
+## Respond to logger verbosity values  
  In some cases, you may want to only log information from an event if the MSBuild.exe **/verbosity** switch contains a certain value. In this example, the <xref:Microsoft.Build.Framework.IEventSource.TargetStarted> event handler only logs a message if the <xref:Microsoft.Build.Utilities.Logger.Verbosity%2A> property, which is set by the **/verbosity** switch, is equal to <xref:Microsoft.Build.Framework.LoggerVerbosity>`Detailed`.  
   
  [!code-csharp[msbuild_SimpleConsoleLogger#4](../msbuild/codesnippet/CSharp/build-loggers_3.cs)]  
   
 ## Specify a logger  
- Once the logger is compiled into an assembly, you need to tell [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to use that logger during builds. This is done using the **/logger** switch with *MSBuild.exe*. For more information on the switches available for MSBuild.exe, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).  
+ Once the logger is compiled into an assembly, you need to tell [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to use that logger during builds. This is done using the **/logger** switch with *MSBuild.exe*. For more information on the switches available for *MSBuild.exe*, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).  
   
  The following command line builds the project *MyProject.csproj* and uses the logger class implemented in *SimpleLogger.dll*. The **/nologo** switch hides the banner and copyright message and the **/noconsolelogger** switch disables the default [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] console logger.  
   

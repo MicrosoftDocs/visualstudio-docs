@@ -65,7 +65,7 @@ Evaluates child elements to select one set of `ItemGroup` elements and/or `Prope
 |[When](../msbuild/when-element-msbuild.md)|Specifies a possible block of code for the `Choose` element to select.|  
 
 ## Remarks  
- The `Choose`, `When`, and `Otherwise` elements are used together to provide a way to select one section of code to execute out of a number of possible alternatives. For more information, see [Conditional Constructs](../msbuild/msbuild-conditional-constructs.md).  
+ The `Choose`, `When`, and `Otherwise` elements are used together to provide a way to select one section of code to execute out of a number of possible alternatives. For more information, see [Conditional constructs](../msbuild/msbuild-conditional-constructs.md).  
 
 ## Example  
  The following project uses the `Choose` element to select which set of property values in the `When` elements to set. If the `Condition` attributes of both `When` elements evaluate to `false`, the property values in the `Otherwise` element are set.  
@@ -116,5 +116,5 @@ Evaluates child elements to select one set of `ItemGroup` elements and/or `Prope
 ```  
 
 ## See also  
- [Conditional Constructs](../msbuild/msbuild-conditional-constructs.md)   
- [Project File Schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+ [Conditional constructs](../msbuild/msbuild-conditional-constructs.md)   
+ [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
