@@ -1,7 +1,7 @@
 ---
 title: "XSD Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "06/27/2018"
 ms.technology: msbuild
 ms.topic: "reference"
 f1_keywords: 
@@ -25,6 +25,9 @@ ms.workload:
 ---
 # XSD Task
 Wraps the XML Schema Definition tool (xsd.exe), which generates schema or class files from a source.  
+
+> [!NOTE]
+> In Visual Studio 2017, C++ project support for xsd.exe is deprecated. You can still use the **Microsoft.VisualC.CppCodeProvider** APIs by manually adding **CppCodeProvider.dll** to the GAC. 
   
 ## Parameters  
  The following table describes the parameters of the **XSD** task.  

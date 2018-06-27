@@ -84,6 +84,8 @@
         items:
         - name: "Walkthrough: Creating an Inline Task"
           href: walkthrough-creating-an-inline-task.md
+      - name: MSBuild Inline Tasks with RoslynCodeTaskFactory
+        href: msbuild-roslyncodetaskfactory.md
     - name: Comparing Properties and Items
       href: comparing-properties-and-items.md
     - name: MSBuild Special Characters
@@ -279,6 +281,8 @@
         href: csc-task.md
       - name: Delete Task
         href: delete-task.md
+      - name: DownloadFile Task
+        href: downloadfile-task.md
       - name: Error Task
         href: error-task.md
       - name: Exec Task
@@ -351,6 +355,8 @@
         href: touch-task.md
       - name: UnregisterAssembly Task
         href: unregisterassembly-task.md
+      - name: Unzip Task
+        href: unzip-task.md
       - name: UpdateManifest Task
         href: updatemanifest-task.md
       - name: Vbc Task
@@ -367,6 +373,8 @@
         href: xmlpoke-task.md
       - name: XslTransformation Task
         href: xsltransformation-task.md
+      - name: ZipDirectory Task
+        href: zipdirectory-task.md
     - name: MSBuild Conditions
       href: msbuild-conditions.md
     - name: MSBuild Conditional Constructs

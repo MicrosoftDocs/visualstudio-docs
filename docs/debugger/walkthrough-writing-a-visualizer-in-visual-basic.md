@@ -60,7 +60,7 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
   
 6.  In DebuggerSide.vb, add the following statement to the `Imports` statements:  
   
-    ```  
+    ```vb
     Imports Microsoft.VisualStudio.DebuggerVisualizers  
     ```  
   
@@ -71,13 +71,13 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
   
 1.  In DebuggerSide.vb, go to the following line of code:  
   
-    ```  
+    ```vb
     Public Class DebuggerSide  
     ```  
   
 2.  Edit the code so that it looks like this:  
   
-    ```  
+    ```vb
     Public Class DebuggerSide  
     Inherits DialogDebuggerVisualizer  
     ```  
@@ -88,7 +88,7 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
   
 -   In `public class DebuggerSide`, add the following method:  
   
-    ```  
+    ```vb
     Protected Overrides Sub Show(ByVal windowService As Microsoft.VisualStudio.DebuggerVisualizers.IDialogVisualizerService, ByVal objectProvider As Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider)  
   
         End Sub  
@@ -106,7 +106,7 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
   
 4.  In DebuggerSide.cs, add the following statement to the `Imports` statements:  
   
-    ```  
+    ```vb
     Imports System.Windows.Forms  
     ```  
   
@@ -117,7 +117,7 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
   
 1.  In the `Show` method, add the following line of code:  
   
-    ```  
+    ```vb
     MessageBox.Show(objectProvider.GetObject().ToString())  
     ```  
   
@@ -132,7 +132,7 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
   
 1.  Add the following attribute code to DebuggerSide.vb, after the `Imports` statements but before `namespace MyFirstVisualizer`:  
   
-    ```  
+    ```vb
     <Assembly: System.Diagnostics.DebuggerVisualizer(GetType(MyFirstVisualizer.DebuggerSide), GetType(VisualizerObjectSource), Target:=GetType(System.String), Description:="My First Visualizer")>  
     ```  
   
@@ -145,7 +145,7 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
   
 1.  Add the following method to class `public DebuggerSide`:  
   
-    ```  
+    ```vb
     Shared Public Sub TestShowVisualizer(ByVal objectToVisualize As Object)  
         Dim visualizerHost As New VisualizerDevelopmentHost(objectToVisualize, GetType(DebuggerSide))  
     visualizerHost.ShowVisualizer()  
@@ -195,13 +195,13 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
   
 3.  In TestConsole. vb, add the following `Imports` statement:  
   
-    ```  
+    ```vb
     Imports MyFirstVisualizer  
     ```  
   
 4.  In method `Main`, add the following code:  
   
-    ```  
+    ```vb
     Dim myString As String = "Hello, World"  
     DebuggerSide.TestShowVisualizer(myString)  
     ```  

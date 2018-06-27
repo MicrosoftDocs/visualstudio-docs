@@ -26,9 +26,7 @@ Pseudovariables are terms used to display certain information in a variable wind
 ## Example  
  Suppose you are writing a native code application and want to see the number of handles allocated in your application. In the **Watch** window, you can enter the following pseudovariable in the **Name** column, then press Return to evaluate it:  
   
-```  
-$handles  
-```  
+`$handles`
   
  In native code, you can use the pseudovariables shown in this table:  
   
