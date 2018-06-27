@@ -155,8 +155,6 @@
         href: porting/port-migrate-and-upgrade-visual-studio-projects.md
       - name: Add and remove project items
         href: ide/adding-and-removing-project-items.md
-      - name: Project and solution file types
-        href: ide/reference/project-and-solution-file-types.md
       - name: Manage project and solution properties
         href: ide/managing-project-and-solution-properties.md
       - name: Manage references in a project
