@@ -24,20 +24,23 @@ For this walkthrough you should have the [Anaconda](https://www.continuum.io) en
 
 1. Open Visual Studio, switch to the Python Environments window (**View > Other Windows > Python Environments**), and select an Anaconda environment.
 
-1. Examine the **Packages (Conda)** tab (which may appear as **pip** or **Packages**) for that environment to make sure that `IPython` and `matplotlib` are listed. If not, install them here. (See [Python Environments Windows - Packages tab](python-environments-window-tab-reference.md).)
+1. Examine the **Packages (Conda)** tab (which may appear as **pip** or **Packages**) for that environment to make sure that `ipython` and `matplotlib` are listed. If not, install them here. (See [Python Environments Windows - Packages tab](python-environments-window-tab-reference.md).)
 
 1. Select the **Overview** tab and select **Use IPython interactive mode.** (In Visual Studio 2015, select **Configure interactive options** to open the **Options** dialog, then set **Interactive Mode** to IPython, and select **OK**).
 
-1. Select **Open interactive window** to bring up the interactive window in IPython mode. You may need to reset the window if you have just changed the interactive mode; you might also need to press Enter if only a >>> prompt appears.
+1. Select **Open interactive window** to bring up the interactive window in IPython mode. You may need to reset the window if you have just changed the interactive mode; you might also need to press Enter if only a >>> prompt appears, so that you get a prompt like "In [2]".
 
     ![The interactive window in IPython mode](media/ipython-repl-03.png)
 
 1. Enter the following code:
 
   ```python
-  x = linspace(0, 5, 10)
+  import matplotlib.pyplot as plt
+  import numpy as np
+  
+  x = np.linspace(0, 5, 10)
   y = x ** 2
-  plot(x, y, 'r', x, x ** 3, 'g', x, x ** 4, 'b')
+  plt.plot(x, y, 'r', x, x ** 3, 'g', x, x ** 4, 'b')
   ```
 
 1. After entering the last line, you should see an inline graph (which you can resize by dragging on the lower right-hand corner) if desired.

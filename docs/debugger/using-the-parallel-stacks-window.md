@@ -31,7 +31,7 @@ The **Parallel Stacks** window is useful when you are debugging multithreaded ap
  In the illustration, the call path of the current thread is highlighted in blue, and the current location (active stack frame) of the thread is signified by the yellow arrow. You can change the current stack frame by selecting a different method in the **Parallel Stacks** window. This might result in also switching the current thread, depending on whether the method you selected is part of the current thread already or of another thread. The following table describes the main features of the **Parallel Stacks** window as shown in the illustration.  
   
 |Callout Letter|Element Name|Description|  
-|--------------------|------------------|-----------------|  
+|-|-|-|  
 |A|Call Stack Segment or Node|Contains a series of methods for one or more threads. If the node has no arrow lines connected to it, then it represents the entire call path for the thread(s).|  
 |B|Blue Highlight|Indicates the call path of the current thread.|  
 |C|Arrow lines|Connect nodes to make up the entire call path for the thread(s).|  
@@ -44,9 +44,8 @@ The **Parallel Stacks** window is useful when you are debugging multithreaded ap
 ## Stack Frame Icons  
  The following table describes the icons that provide information about the active and current stack frames:  
   
-|||  
-|-|-|  
 |Icon|Description|  
+|-|-|  
 |![Parallel Stacks Yellow Arrow](../debugger/media/icon_parallelyellowarrow.gif "Icon_ParallelYellowArrow")|Indicates that the method contains the current location (active stack frame) of the current thread.|  
 |![Parallel Stacks Threads Icon](../debugger/media/icon_parallelthreads.gif "Icon_ParallelThreads")|Indicates that the method contains the current location (active stack frame) of a non-current thread.|  
 |![Parallel Stacks Green Arrow](../debugger/media/icon_parallelgreenarrow.gif "Icon_ParallelGreenArrow")|Indicates that the method contains the current stack frame (the current debugger context). That method name is bold in all nodes in which it appears.|  
@@ -57,7 +56,7 @@ The **Parallel Stacks** window is useful when you are debugging multithreaded ap
  ![Toolbar in Parallel Stacks window](../debugger/media/parallel_stackstoolbar.png "Parallel_StacksToolbar")  
   
 |Callout Letter|Control|Description|  
-|--------------------|-------------|-----------------|  
+|-|-|-|  
 |A|Threads/Tasks combo box|Switches the view between call stacks of threads and call stacks of tasks. For more information, see Tasks View and Threads View.|  
 |B|Show Only Flagged|Shows call stacks only for the threads that are flagged in other debug windows, such as the **GPU Threads** window and the **Parallel Watch** window.|  
 |C|Toggle Method View|Switches between Stack View and Method View. For more information, see Method View.|  
@@ -70,7 +69,7 @@ The **Parallel Stacks** window is useful when you are debugging multithreaded ap
  ![Shortcut menu in Parallel Stacks window](../debugger/media/parallel_contmenu.png "Parallel_ContMenu")  
   
 |Menu Item|Description|  
-|---------------|-----------------|  
+|-|-|  
 |Flag|Flags the selected item.|  
 |Unflag|Unflags the selected item.|  
 |Freeze|Freezes the selected item.|  
