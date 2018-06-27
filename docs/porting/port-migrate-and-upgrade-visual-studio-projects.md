@@ -20,14 +20,13 @@ helpviewer_keywords:
   - "asset compatibility"
   - "projects, conversion"
 ---
-
 # Project migration and upgrade reference for Visual Studio 2017
 
 Each new version of Visual Studio generally supports most previous types of projects, files, and other assets. You can work with them [as you always have](../ide/solutions-and-projects-in-visual-studio.md), and provided that you don't depend on newer features, Visual Studio generally tries to preserve backwards compatibility with previous versions like Visual Studio 2015, Visual Studio 2013, and Visual Studio 2012. (See the [Release Notes](https://visualstudio.microsoft.com/vs/release-notes/) for which features are specific to which versions.)
 
 Support for some project types also changes over time. A newer version of Visual Studio may no longer support certain projects at all, or requires updating a project such that it's no longer backwards compatible. For current status on migration issues, refer to the [Visual Studio Developer Community site](https://developercommunity.visualstudio.com).
 
-This present article provides details only for project types that Visual Studio 2017 can migrate. The article excludes project types that are no longer supported in Visual Studio 2017 and cannot therefore be migrated. The article also excludes supported project types that have no migration issues; that list is found on [Platform Targeting and Compatibility](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs).
+This present article provides details only for project types that Visual Studio 2017 can migrate. The article excludes project types that are no longer supported in Visual Studio 2017 and cannot therefore be migrated. The article also excludes supported project types that have no migration issues; that list is found on [Platform Targeting and Compatibility](/visualstudio/productinfo/vs2017-compatibility-vs).
 
 > [!Important]
 > Certain project types require installing the appropriate workloads through the Visual Studio installer. If you don't have the workload installed, Visual Studio reports an unknown or incompatible project type. In that case, check your installation options and try again. Again, see the [Platform Targeting and Compatibility](/visualstudio/productinfo/vs2017-compatibility-vs) article for details on project support in Visual Studio 2017.
