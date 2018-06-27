@@ -1260,6 +1260,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/reference/project-and-solution-file-types.md",
+            "redirect_url": "/visualstudio/ide/solutions-and-projects-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/install/index.md",
             "redirect_url": "/visualstudio/install/install-visual-studio",
             "redirect_document_id": false
