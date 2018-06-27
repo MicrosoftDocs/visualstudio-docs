@@ -16,7 +16,7 @@ DXCap.exe is a command-line tool for graphics diagnostics capture and playback. 
   
 ## Syntax  
   
-```ms-dos  
+```cmd  
 DXCap.exe [-file filename] [-frame frames | -period periods | -manual] -c app [args...]  
 DXCap.exe -p [filename] [-debug | -warp | -hw] [-config] [-rawmode]  
 DXCap.exe -p [filename] -screenshot [-frame frames]  

@@ -35,13 +35,9 @@ The **Registers** window is available only if address-level debugging is enabled
   
  For more information on displaying the **Registers** window, see [Using the Registers Window](../debugger/how-to-use-the-registers-window.md).  
   
- When you look at the **Registers** window, you will see entries such as this example:  
+ When you look at the **Registers** window, you will see entries such as `EAX = 003110D8`.  
   
-```  
-EAX = 003110D8  
-```  
-  
- The symbol to the left of the = sign is the register name, EAX, in this case. The number to the right of the = sign represents the register contents.  
+ The symbol to the left of the `=` sign is the register name, `EAX`, in this case. The number to the right of the `=` sign represents the register contents.  
   
  The **Registers** window enables you to do more than just view the contents of a register. When you are in break mode in native code, you can click on the contents of a register and edit the value. This is not something you should do at random. Unless you understand the register you are editing, and the data it contains, the result of careless editing is likely to be a program crash or some other undesired consequence. Unfortunately, a detailed explanation of the register sets of the various Intel and Intel-compatible processors goes far beyond the scope of this brief introduction.  
   
