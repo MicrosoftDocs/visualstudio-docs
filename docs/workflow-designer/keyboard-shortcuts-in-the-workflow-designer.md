@@ -15,11 +15,11 @@ ms.workload:
 ---
 # Keyboard Shortcuts in the Workflow Designer
 
-All of the core functionality of the Windows Workflow Designer can be accessed by keyboard.
+All of the core functionality of the Workflow Designer can be accessed by keyboard.
 
 ## Navigating the Workflow Designer using the keyboard
 
-Inside Visual Studio 2010, the global shortcuts and debugging shortcuts apply to the Workflow Designer. Also, a number of Workflow Designer specific keyboard shortcuts have been created. In Visual Studio 2010, all of the keyboard shortcuts can be remapped. However, in a rehosted application, these keyboard shortcuts are hardcoded.
+Inside Visual Studio, the global shortcuts and debugging shortcuts apply to the Workflow Designer. Also, a number of Workflow Designer specific keyboard shortcuts have been created. In Visual Studio, all of the keyboard shortcuts can be remapped. However, in a rehosted application, these keyboard shortcuts are hardcoded.
 
 ### Workflow Designer keyboard shortcuts
 
@@ -43,7 +43,7 @@ The following table summarizes the default keyboard shortcuts assigned to Workfl
 
 ### Flowchart
 
-The following list shows the gestures used to construct a flowchart by keyboard. As in the rest of the Workflow Designer, activities are added to the designer surface using the global toolbox shortcuts provided with Visual Studio 2010.
+The following list shows the gestures used to construct a flowchart by keyboard. As in the rest of the Workflow Designer, activities are added to the designer surface using the global toolbox shortcuts provided with Visual Studio.
 
 - To move an activity, select the activity and use the arrow keys to reposition it.
 
@@ -82,4 +82,4 @@ By default, the default keyboard shortcuts for Visual Basic text editing apply i
    - Undo
    - Redo
 
-- To remap the keyboard shortcuts for expression editing commands inside Workflow Designer in Visual Studio 2010, edit the shortcuts in the Workflow Designer scope. Changes made in the Text Editor scope do not automatically apply to Workflow Designer. If you want to remap shortcuts in both places, you must apply the changes twice (once for each scope).
+- To remap the keyboard shortcuts for expression editing commands inside Workflow Designer in Visual Studio, edit the shortcuts in the Workflow Designer scope. Changes made in the Text Editor scope do not automatically apply to Workflow Designer. If you want to remap shortcuts in both places, you must apply the changes twice (once for each scope).

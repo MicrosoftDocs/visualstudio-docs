@@ -20,7 +20,7 @@ ms.workload:
   - "office"
 ---
 # Guidelines for importing reusable workflows
-  To import reusable workflows created in SharePoint Designer, use the Import Reusable SharePoint 2010 Workflow project template in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. This template imports a *declarative* *workflow* ([!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)]-only) and converts it into a *code workflow*, which is a workflow that you can enhance with either [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] or [!INCLUDE[csprcs](../sharepoint/includes/csprcs-md.md)] code. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio](../sharepoint/walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio.md).  
+  To import reusable workflows created in SharePoint Designer, use the Import Reusable SharePoint 2010 Workflow project template in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. This template imports a *declarative* *workflow* ([!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)]-only) and converts it into a *code workflow*, which is a workflow that you can enhance with either [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] or [!INCLUDE[csprcs](../sharepoint/includes/csprcs-md.md)] code. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [Walkthrough: Import a SharePoint Designer reusable workflow into Visual Studio](../sharepoint/walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio.md).  
   
  However, the Import Reusable SharePoint 2010 Workflow template can import only farm solutions. If you want to deploy your workflow as a sandboxed solution, import it with the Import SharePoint 2010 Solution Package template. However, by doing this, you cannot convert it to code workflow and will not be able to modify it as such.  
   
@@ -49,7 +49,7 @@ ms.workload:
  To import the globally reusable workflow without modifying it, use the Import SharePoint 2010 Solution Package template. If you use this method, the workflow is not converted to a code workflow and remains a declarative workflow.  
   
 ## See also
- [Importing Items from an Existing SharePoint Site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
- [Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio](../sharepoint/walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio.md)  
+ [Import items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
+ [Walkthrough: Import a SharePoint Designer reusable workflow into Visual Studio](../sharepoint/walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio.md)  
   
   

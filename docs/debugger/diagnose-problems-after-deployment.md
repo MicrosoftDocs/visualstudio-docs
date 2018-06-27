@@ -96,7 +96,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
      And add these lines to your web project file (.csproj, .vbproj):  
   
-    ```  
+    ```xml
     <!-- Import the targets file. Change the folder location as necessary. -->  
        <Import Project=""$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\BuildInfo\Microsoft.VisualStudio.ReleaseManagement.BuildInfo.targets" />  
   
@@ -276,7 +276,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
      The name of your project in Visual Studio. For example:  
 
-    ```  
+    ```xml
     <ProjectName>FabrikamFiber.Extranet.Web</ProjectName>  
     ```  
 
@@ -294,7 +294,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
          For example:  
 
-        ```  
+        ```xml
         <SourceControl type="TFS">  
            <TfsSourceControl>  
               <ProjectCollectionUri>http://fabrikamfiber:8080/tfs/FabrikamFiber</ProjectCollectionUri>  
@@ -316,7 +316,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
          For example:  
 
-        ```  
+        ```xml
         <SourceControl type="Git">   
            <GitSourceControl xmlns="http://schemas.microsoft.com/visualstudio/deploymentevent_git/2013/09">  
               <RepositoryUrl>http://gittf:8080/tfs/defaultcollection/_git/FabrikamFiber</RepositoryUrl>  
@@ -344,7 +344,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
     -   **TFS**  
 
-        ```  
+        ```xml
         <Build type="TeamBuild">  
            <MsBuild>  
               <BuildLabel kind="label">FabrikamFiber_BuildAndPublish_20130813.1</BuildLabel>  
@@ -358,7 +358,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
     -   **Git**  
 
-        ```  
+        ```xml
         <Build type="MSBuild">   
            <MSBuild>  
               <SymbolPath>\\gittf\FabrikamFiber.CallCenter\Symbols</SymbolPath>  

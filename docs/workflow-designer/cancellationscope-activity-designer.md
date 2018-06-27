@@ -18,15 +18,18 @@ ms.workload:
 The **CancellationScope** activity designer is used to create and configure a <xref:System.Activities.Statements.CancellationScope> activity.
 
 ## The CancellationScope Activity
- The <xref:System.Activities.Statements.CancellationScope> activity allows you to specify an activity for execution and cancellation logic for that activity.
+
+The <xref:System.Activities.Statements.CancellationScope> activity allows you to specify an activity for execution and cancellation logic for that activity.
 
 ### Using the CancellationScope Activity Designer
- The **CancellationScope** activity designer can be found in the **Transaction** category of **Toolbox**. To open **Toolbox**, select the **Toolbox** tab of the Workflow Designer. Alternatively, select **Toolbar** from the **View** menu, or press CTRL+ALT+X.
 
- The **CancellationScope** activity designer can be dragged from **Toolbox** and dropped on to the Workflow Designer surface wherever activities are placed, such as inside a <xref:System.Activities.Statements.Sequence>. Dropping the **CancellationScope** activity designer creates a <xref:System.Activities.Statements.CancellationScope> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of CancellationScope. Edit the <xref:System.Activities.Activity.DisplayName%2A> value in the header of the **CancellationScope** activity designer. You can also edit it in the **DisplayName** box of the property grid.
+The **CancellationScope** activity designer can be found in the **Transaction** category of **Toolbox**. To open **Toolbox**, select the **Toolbox** tab of the Workflow Designer. Alternatively, select **Toolbox** from the **View** menu, or press **Ctrl**+**Alt**+**X**.
+
+The **CancellationScope** activity designer can be dragged from **Toolbox** and dropped on to the Workflow Designer surface wherever activities are placed, such as inside a <xref:System.Activities.Statements.Sequence>. Dropping the **CancellationScope** activity designer creates a <xref:System.Activities.Statements.CancellationScope> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of CancellationScope. Edit the <xref:System.Activities.Activity.DisplayName%2A> value in the header of the **CancellationScope** activity designer. You can also edit it in the **DisplayName** box of the property grid.
 
 ### The CancellationScope Properties
- The following table shows the <xref:System.Activities.Statements.CancellationScope> properties and describes how they are used in the designer. The <xref:System.Activities.Activity.DisplayName%2A> property can be edited in property grid but the other properties must be edited on Workflow Designer surface.
+
+The following table shows the <xref:System.Activities.Statements.CancellationScope> properties and describes how they are used in the designer. The <xref:System.Activities.Activity.DisplayName%2A> property can be edited in property grid but the other properties must be edited on Workflow Designer surface.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|

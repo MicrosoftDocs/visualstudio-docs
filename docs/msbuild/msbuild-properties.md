@@ -57,13 +57,13 @@ Properties are name-value pairs that can be used to configure builds. Properties
 ## Registry Properties  
  You can read system registry values by using the following syntax, where `Hive` is the registry hive (for example, HKEY_LOCAL_MACHINE ), `Key` is the key name, `SubKey` is the subkey name, and `Value` is the value of the subkey.  
   
-```  
+```xml  
 $(registry:Hive\MyKey\MySubKey@Value)  
 ```  
   
  To get the default subkey value, omit the `Value`.  
   
-```  
+```xml  
 $(registry:Hive\MyKey\MySubKey)  
 ```  
   
@@ -82,7 +82,7 @@ $(registry:Hive\MyKey\MySubKey)
   
  The following example sets the global `Configuration` property to `DEBUG`.  
   
-```  
+```cmd  
 msbuild.exe MyProj.proj /p:Configuration=DEBUG  
 ```  
   

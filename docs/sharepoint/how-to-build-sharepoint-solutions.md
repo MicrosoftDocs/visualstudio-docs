@@ -20,7 +20,7 @@ ms.workload:
 ---
 # How to: Build SharePoint solutions
 
-Building your SharePoint solution is no different than building other applications in Visual Studio. For more information about building applications, see [Compiling and Building in Visual Studio](../ide/compiling-and-building-in-visual-studio.md). For a discussion of some considerations that are specific to SharePoint solutions, see [How to: Deploy and Publish a SharePoint Solution to a Local SharePoint Site](../sharepoint/how-to-deploy-and-publish-a-sharepoint-solution-to-a-local-sharepoint-site.md).
+Build your SharePoint solution is no different than building other applications in Visual Studio. For more information about building applications, see [Compile and build in Visual Studio](../ide/compiling-and-building-in-visual-studio.md). For a discussion of some considerations that are specific to SharePoint solutions, see [How to: Deploy and publish a SharePoint solution to a local SharePoint site](../sharepoint/how-to-deploy-and-publish-a-sharepoint-solution-to-a-local-sharepoint-site.md).
 
 ## To build SharePoint solutions
 
@@ -32,4 +32,4 @@ Building your SharePoint solution is no different than building other applicatio
 
 ## See also
 
-- [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
+- [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)

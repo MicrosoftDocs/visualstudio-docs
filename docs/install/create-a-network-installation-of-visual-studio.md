@@ -134,7 +134,7 @@ As product updates become available, you might want to [update the network insta
 ## How to create a layout for a previous Visual Studio 2017 release
 
 > [!NOTE]
-> The Visual Studio 2017 bootstrappers that are available on [VisualStudio.com](http://visualstudio.microsoft.com) download and install the latest Visual Studio 2017 release available whenever they are run. If you download a Visual Studio bootstrapper today and run it six months from now, it installs the Visual Studio 2017 release that is available at that later time. If you create a layout, installing Visual Studio from that layout installs the specific version of Visual Studio that exists in the layout. Even though a newer version might exist online, you get the version of Visual Studio that is in the layout.
+> The Visual Studio 2017 bootstrappers that are available on [visualstudio.microsoft.com](http://visualstudio.microsoft.com) download and install the latest Visual Studio 2017 release available whenever they are run. If you download a Visual Studio bootstrapper today and run it six months from now, it installs the Visual Studio 2017 release that is available at that later time. If you create a layout, installing Visual Studio from that layout installs the specific version of Visual Studio that exists in the layout. Even though a newer version might exist online, you get the version of Visual Studio that is in the layout.
 
 If you need to create a layout for an older version of Visual Studio 2017, you can go to https://my.visualstudio.com to download "fixed" versions of the Visual Studio 2017 bootstrappers.
 

@@ -157,13 +157,13 @@ In most versions of Visual Studio 2017, you must enable mixed mode debugging for
 
 1. In the *lauchsettings.json* file, add the following property:
 
-    ```
+    ```csharp
     "nativeDebugging": true
     ```
 
     So, for example, your file might look like the following:
 
-    ```
+    ```csharp
     {
       "profiles": {
         "Mixed_Mode_Calling_App": {

@@ -31,20 +31,14 @@ This doesn’t provide a copy of subscription to the other account; it only prov
 
 For all subscriptions, you can add a "work or school account" so you can use that account with your benefits that require a login (VS IDE, VSTS, and Azure).
 
-### Prerequisites
-
-* [VSTS project collection administrator or account owner permissions](https://docs.microsoft.com/en-us/vsts/accounts/faq-add-delete-users#find-owner).
-
-* To use the alternate account, your subscription associated with your account must include either Visual Studio Team Services or Microsoft Azure.
-
-> [!Note]
-> You can continue to use your subscription benefits with your alternate ID, however your subscription is still associated with your original account.
 
 ### Add the alternate account
+
 
 1. Sign in to the Visual Studio subscriber portal with your Microsoft account (https://my.visualstudio.com).
 
 2. Go to **Subscriptions**.
+
 
    ![Add alternate account - go to subscriptions in VS](_img/vs-alternate-identity/my-vs-subscriptions.png)
 
@@ -60,7 +54,7 @@ For all subscriptions, you can add a "work or school account" so you can use tha
 
    ![Use your work or school account](_img/vs-alternate-identity/sign-in-with-alternate-account.png)
 
-   Your alternate account is added to the Visual Studio subscription, allowing both identities to utilize the benefits of the subscription that require you to sign in with the alternate account (IDE, VSTS, and Azure).
+Your alternate account is added to the Visual Studio subscription, allowing both identities to utilize the benefits of the subscription that require you to sign in with the alternate account (IDE, VSTS, and Azure).
 
 ## FAQ
 

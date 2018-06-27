@@ -50,13 +50,13 @@ When you build projects, you frequently compile the same components with differe
   
 -   Use the **/property** switch with the property and property value. For example:  
   
-    ```  
+    ```cmd  
     msbuild file.proj /property:Flavor=Debug  
     ```  
   
      - or -  
   
-    ```  
+    ```cmd  
     Msbuild file.proj /p:Flavor=Debug  
     ```  
   
@@ -64,13 +64,13 @@ When you build projects, you frequently compile the same components with differe
   
 -   Use the **/property** or **/p** switch multiple times with the property and property values, or use one **/property** or **/p** switch and separate multiple properties with semicolons (;). For example:  
   
-    ```  
+    ```cmd  
     msbuild file.proj /p:Flavor=Debug;Platform=x86  
     ```  
   
      - or-  
   
-    ```  
+    ```cmd  
     msbuild file.proj /p:Flavor=Debug /p:Platform=x86  
     ```  
   
@@ -85,13 +85,13 @@ When you build projects, you frequently compile the same components with differe
   
  To build the debug version of this project, type:  
   
-```  
+```cmd  
 msbuild consolehwcs1.proj /p:flavor=debug  
 ```  
   
  To build the retail version of this project, type:  
   
-```  
+```cmd  
 msbuild consolehwcs1.proj /p:flavor=retail  
 ```  
   
@@ -152,7 +152,7 @@ msbuild consolehwcs1.proj /p:flavor=retail
   
  To build the project, enter the following command:  
   
-```  
+```cmd  
 msbuild colortest.proj /t:go /property:Color=Green  
 ```  
   

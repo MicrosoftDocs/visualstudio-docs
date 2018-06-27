@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 4: Use the full Django Web Project template
+# Step 4: Use the full Django Web Project template
 
 **Previous step: [Serve static files, add pages, and use template inheritance](learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)**
 
@@ -210,7 +210,7 @@ Answer: The lack of the trailing '$' in the regular expression was a simple over
 > [!div class="nextstepaction"]
 > [Authenticate users in Django](learn-django-in-visual-studio-step-05-django-authentication.md)
 
-## Going deeper
+## Go deeper
 
 - [Writing your first Django app, part 4 - forms and generic views](https://docs.djangoproject.com/en/2.0/intro/tutorial04/) (docs.djangoproject.com)
 - Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django)

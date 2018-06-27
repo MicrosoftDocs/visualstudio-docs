@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 5: Use the Polls Flask Web Project template
+# Step 5: Use the Polls Flask Web Project template
 
 **Previous step: [Use the full Flask Web Project template](learn-flask-visual-studio-step-04-full-flask-project-template.md)**
 
