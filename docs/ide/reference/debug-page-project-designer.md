@@ -73,12 +73,6 @@ ms.workload:
 
  Select or clear this check box to enable or disable debugging of SQL procedures from your Visual Basic application. This check box is cleared by default.
 
- **Enable the Visual Studio hosting process**
-
- Select this check box to enable the Visual Studio hosting process. This check box is selected by default. For more information, see [Hosting Process (vshost.exe)](../../ide/hosting-process-vshost-exe.md).
-
- To debug in a security zone, you must enable this option and **Debug this application with the selected permission set** in the [Advanced Security Settings Dialog Box](../../ide/reference/advanced-security-settings-dialog-box.md).
-
 ## See also
 
 - [Debugging in Visual Studio](../../debugger/debugging-in-visual-studio.md)

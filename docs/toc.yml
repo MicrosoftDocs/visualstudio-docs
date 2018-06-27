@@ -604,11 +604,6 @@
       href: ide/how-to-specify-build-events-csharp.md
     - name: Configuring Warnings in Visual Basic
       href: ide/configuring-warnings-in-visual-basic.md
-    - name: Disable the Hosting Process
-      href: ide/how-to-disable-the-hosting-process.md
-      items:
-      - name: Hosting Process (vshost.exe)
-        href: ide/hosting-process-vshost-exe.md
     - name: "Walkthrough: Create a Multiple-Computer Build Environment"
       href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
   - name: Debug...
