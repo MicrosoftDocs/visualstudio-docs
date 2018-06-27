@@ -216,6 +216,8 @@ Next, we will create an application that has a few bugs.
     }    
     ```
 
+    When you set the breakpoint, a red dot appears in the left margin.
+
     Because we see a problem in the output, we will start debugging by looking at the preceding code that sets the output in the debugger.
 
 1. Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**).
@@ -254,9 +256,9 @@ Next, we will create an application that has a few bugs.
 
     Now, when the debugger pauses on `Console.WriteLine`, you can hover over `theGalaxy.GalaxyType.MyGType`, and see that the value is properly set.
 
-1. Remove the breakpoint by clicking on the breakpoint circle in the left margin (or right-click and choose **Breakpoint** > **Delete Breakpoint**).
+1. Remove the breakpoint by clicking on the breakpoint circle in the left margin (or right-click and choose **Breakpoint** > **Delete Breakpoint**), and then press **F5** to continue.
 
-    The app runs and displays output. It looks pretty good now, but you do notice one thing; you expected the Small Magellanic Cloud galaxy to show up as a Irregular galaxy, but it shows no galaxy type at all.
+    The app runs and displays output. It looks pretty good now, but you do notice one thing; you expected the Small Magellanic Cloud galaxy to show up as a Irregular galaxy in the console output, but it shows no galaxy type at all.
 
     ```
     Tadpole  400,  Spiral 
