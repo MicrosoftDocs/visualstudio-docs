@@ -6,7 +6,7 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -28,7 +28,7 @@ The Microsoft.SharePoint.Emulators package provides a set of libraries that help
 ##  <a name="BKMK_The_AppointmentsWebPart_example"></a> The AppointmentsWebPart example
  The AppointmentsWebPart lets you view and manage a SharePoint list of your appointments.
 
- ![Appointments Web Part](../test/media/ut_emulators_appointmentswebpart.png "UT_EMULATORS_AppointmentsWebPart")
+ ![Appointments Web Part](../test/media/ut_emulators_appointmentswebpart.png)
 
  We'll test two methods of the web part in this example:
 
@@ -41,7 +41,7 @@ The Microsoft.SharePoint.Emulators package provides a set of libraries that help
 
  The `ScheduleAppointment` method of our code under test is probably one of the first methods written for the component:
 
-```
+```csharp
 // method under test
 public bool ScheduleAppointment(SPWeb web, string listName, string name,
     string phone, string email, string age, DateTime date, out string errorMsg)
@@ -113,7 +113,7 @@ public void ScheduleAppointmentReturnsTrueWhenNewAppointmentIsCreated()
 
 3.  Search the **Online** category for `Microsoft.SharePoint.Emulators`, and then choose **Install**.
 
- ![Sharepoint Emulators NuGet package](../test/media/ut_emulators_nuget.png "UT_EMULATORS_Nuget")
+ ![Sharepoint Emulators NuGet package](../test/media/ut_emulators_nuget.png)
 
 ###  <a name="BKMK__Running_a_test_method_in_the_emulation_context"></a> Running a test method with emulation
  Installing the package adds references to the required libraries to your projects. To make it easy to use emulators in an existing test class, add the namespaces `Microsoft.SharePoint.Emulators` and `Microsoft.QualityTools.Testing.Emulators`.
@@ -150,7 +150,7 @@ public void ScheduleAppointmentReturnsTrueWhenNewAppointmentIsCreated()
 
  When the test method is executed, the Emulator runtime calls Microsoft Fakes to dynamically inject code into SharePoint methods to divert the calls to these methods to delegates that are declared in Microsoft.SharePoint.Fakes.dll. Microsoft.SharePoint.Emulators.dll implements the delegates for emulated methods, closely mimicking the actual SharePoint behavior. When the test method or the component under test calls a SharePoint method, the behavior that results is that of the emulation.
 
- ![Emulator execution flow](../test/media/ut_emulators_flowchart.png "UT_EMULATORS_FlowChart")
+ ![Emulator execution flow](../test/media/ut_emulators_flowchart.png)
 
 ##  <a name="BKMK_Creating_dual_use_classes_and_methods"></a> Creating dual-use classes and methods
  To create methods that can be used for both integration tests against the real SharePoint API and isolated unit tests that use emulators, use the overloaded constructor `SharePointEmulationScope(EmulationMode)` to wrap your test method code. The two values of the `EmulationMode` enum specify whether the scope uses emulators (`EmulationMode.Enabled`) or whether the scope uses the SharePoint API (`EmulationMode.Passthrough`).
@@ -261,11 +261,11 @@ namspace MySPAppTests
 
 1.  If you want to shim a SharePoint class that is not emulated, edit the Microsoft.SharePoint.fakes file and add the class to the list of shimmed classes. See the [Configuring code generation of stubs and shims](http://msdn.microsoft.com/library/hh708916.aspx#bkmk_configuring_code_generation_of_stubs) section of [Code generation, compilation, and naming conventions in Microsoft Fakes](../test/code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md).
 
-     ![Fakes folder in Solution Explorer](../test/media/ut_emulators_fakesfilefolder.png "UT_EMULATORS_FakesFileFolder")
+     ![Fakes folder in Solution Explorer](../test/media/ut_emulators_fakesfilefolder.png)
 
 2.  Rebuild the test project at least once after you have installed the Microsoft SharePoint Emulators package and if you have edited the Microsoft.SharePoint.Fakes file. Building the project creates and populates a **FakesAssembly** folder in your on-disk project root folder.
 
-     ![FakesAssembly folder](../test/media/ut_emulators_fakesassemblyfolder.png "UT_EMULATORS_FakesAssemblyFolder")
+     ![FakesAssembly folder](../test/media/ut_emulators_fakesassemblyfolder.png)
 
 3.  Add a reference to the **Microsoft.SharePoint.14.0.0.0.Fakes.dll** assembly that is located in the **FakesAssembly** folder.
 
@@ -544,4 +544,4 @@ namspace MySPAppTests
 
 - [Unit Test Your Code](../test/unit-test-your-code.md)
 - [Testing SharePoint 2010 Applications with Coded UI Tests](../test/testing-sharepoint-2010-applications-with-coded-ui-tests.md)
-- [Developing SharePoint Solutions](/office-dev/office-dev/developing-sharepoint-solutions)
+- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)

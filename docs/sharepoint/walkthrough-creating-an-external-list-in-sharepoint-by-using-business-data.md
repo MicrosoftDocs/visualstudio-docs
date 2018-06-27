@@ -25,7 +25,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Creating an External List in SharePoint by Using Business Data
+# Walkthrough: Create an external list in SharePoint by using business data
 
 The Business Data Connectivity (BDC) service enables SharePoint to display business data from back-end server applications, Web services, and databases.
 
@@ -36,7 +36,7 @@ This walkthrough illustrates the following tasks:
 - Creating a project.
 - Adding an entity to the model.
 - Adding a finder method.
-- Adding a specific finder method.
+- Adding a Specific Finder method.
 - Testing the project.
 
 ## Prerequisites
@@ -47,9 +47,9 @@ You need the following components to complete this walkthrough:
 
 - Access to the AdventureWorks sample database. For more information about how to install the AdventureWorks database, see [SQL Server Sample Databases](http://go.microsoft.com/fwlink/?LinkID=117483).
 
-## Creating a Project that Contains a BDC Model
+## Create a project that contains a BDC model
 
-1. On the menu bar in Visual Studio, choose **File**, **New**, **Project**.
+1. On the menu bar in Visual Studio, choose **File** > **New** > **Project**.
 
      The **New Project** dialog box opens.
 
@@ -65,15 +65,15 @@ You need the following components to complete this walkthrough:
 
 6. In **Solution Explorer**, choose the SharePoint project node.
 
-7. On the menu bar, choose **Project**, **Add New Item**.
+7. On the menu bar, choose **Project** > **Add New Item**.
 
      The **Add New Item** dialog box opens.
 
 8. In the **Templates** pane, choose **Business Data Connectivity Model (Farm Solution Only)**, name the project **AdventureWorksContacts**, and then choose the **Add** button.
 
-## Adding Data Access Classes to the Project
+## Add data access classes to the project
 
-1. On the menu bar, choose **Tools**, **Connect to Database**.
+1. On the menu bar, choose **Tools** > **Connect to Database**.
 
      The **Add Connection** dialog box opens.
 
@@ -83,7 +83,7 @@ You need the following components to complete this walkthrough:
 
 3. In **Solution Explorer**, choose the project node.
 
-4. On the menu bar, choose **Project**, **Add New Item**.
+4. On the menu bar, choose **Project** > **Add New Item**.
 
 5. In the **Installed Templates** pane, choose the **Data** node.
 
@@ -93,7 +93,7 @@ You need the following components to complete this walkthrough:
 
      A .dbml file is added to the project, and the Object Relational Designer (O/R Designer) opens.
 
-8. On the menu bar, choose **View**, **Server Explorer**.
+8. On the menu bar, choose **View** > **Server Explorer**.
 
 9. In **Server Explorer**, expand the node that represents the AdventureWorks sample database, and then expand the **Tables** node.
 
@@ -101,31 +101,31 @@ You need the following components to complete this walkthrough:
 
      An entity class is created and appears on the design surface. The entity class has properties that map to the columns in the Contact (Person) table.
 
-## Removing the Default Entity from the BDC Model
+## Remove the default entity from the BDC model
 
 The **Business Data Connectivity Model** project adds a default entity named Entity1 to the model. Remove this entity. Later, you will add a new entity. Starting with an empty model reduces the number of steps required to complete the walkthrough.
 
-1. In **Solution Explorer**, expand the **BdcModel1** node, and then open the BdcModel1.bdcm file.
+1. In **Solution Explorer**, expand the **BdcModel1** node, and then open the *BdcModel1.bdcm* file.
 
 2. The Business Data Connectivity model file opens in the BDC designer.
 
 3. In the designer, open the shortcut menu for **Entity1**, and then choose **Delete**.
 
-4. In **Solution Explorer**, open the shortcut menu for Entity1.vb (in Visual Basic) or Entity1.cs (in C#), and then choose **Delete**.
+4. In **Solution Explorer**, open the shortcut menu for *Entity1.vb* (in Visual Basic) or *Entity1.cs* (in C#), and then choose **Delete**.
 
-5. Open the shortcut menu for Entity1Service.vb (in Visual Basic) or Entity1Service.cs (in C#), and then choose **Delete**.
+5. Open the shortcut menu for *Entity1Service.vb* (in Visual Basic) or *Entity1Service.cs* (in C#), and then choose **Delete**.
 
-## Adding an Entity to the Model
+## Add an entity to the model
 
 Add an entity to the model. You can add entities from the Visual Studio **Toolbox** onto the BDC designer.
 
-1. On the menu bar, choose **View**, **Toolbox**.
+1. On the menu bar, choose **View** > **Toolbox**.
 
 2. On the **BusinessDataConnectivity** tab of the **Toolbox**, add an **Entity** onto the BDC designer.
 
-     The new entity appears on the designer. Visual Studio adds a file that's named EntityService.vb (in Visual Basic) or EntityService.cs (in C#) to the project.
+     The new entity appears on the designer. Visual Studio adds a file that's named *EntityService.vb* (in Visual Basic) or *EntityService.cs* (in C#) to the project.
 
-3. On the menu bar, choose **View**, **Properties**, **Window**.
+3. On the menu bar, choose **View** > **Properties** > **Window**.
 
 4. In the **Properties** window, set the **Name** property value to **Contact**.
 
@@ -137,7 +137,7 @@ Add an entity to the model. You can add entities from the Visual Studio **Toolbo
 
 7. In the **Type Name** list, choose **System.Int32**.
 
-## Adding a Specific Finder Method
+## Add a Specific Finder method
 
 To enable the BDC service to display a specific contact, you must add a Specific Finder method. The BDC service calls the Specific Finder method when a user chooses an item in a list and then chooses the **View Item** button on the Ribbon.
 
@@ -145,7 +145,7 @@ Add a Specific Finder method to the Contact entity by using the **BDC Method Det
 
 1. On the BDC designer, choose the **Contact** entity.
 
-2. On the menu bar, choose **View**, **Other Windows**, **BDC Method Details**.
+2. On the menu bar, choose **View** > **Other Windows** > **BDC Method Details**.
 
      The BDC Method Details window opens.
 
@@ -208,7 +208,7 @@ Add a Specific Finder method to the Contact entity by using the **BDC Method Det
      [!code-csharp[SP_BDC#3](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#3)]
      [!code-vb[SP_BDC#3](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#3)]
 
-## Adding a Finder Method
+## Add a finder method
 
 To enable the BDC service to display the contacts in a list, you must add a Finder method. Add a Finder method to the Contact entity by using the **BDC Method Details** window. To return a collection of entities to the BDC service, add code to the method.
 
@@ -236,7 +236,7 @@ To enable the BDC service to display the contacts in a list, you must add a Find
      [!code-csharp[SP_BDC#2](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#2)]
      [!code-vb[SP_BDC#2](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#2)]
 
-## Testing the Project
+## Test the project
 
 When you run the project, the SharePoint site opens and Visual Studio adds your model to the Business Data Connectivity service. Create an external list in SharePoint that references the Contact entity. The data for contacts in the AdventureWorks database appear in the list.
 
@@ -265,7 +265,7 @@ When you run the project, the SharePoint site opens and Visual Studio adds your 
 
      The details of the contact that you chose appear on a form.
 
-## Next Steps
+## Next steps
 
 You can learn more about how to design models for the BDC service in SharePoint from these topics:
 
@@ -273,7 +273,7 @@ You can learn more about how to design models for the BDC service in SharePoint 
 - [How to: Add an Updater Method](../sharepoint/how-to-add-an-updater-method.md).
 - [How to: Add a Deleter Method](../sharepoint/how-to-add-a-deleter-method.md).
 
-## See Also
+## See also
 
 [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)  
 [Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md)  

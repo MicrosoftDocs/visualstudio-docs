@@ -11,11 +11,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Instrument a Statically Compiled ASP.NET Web Application and Collect Memory Data by Using the Profiler Command Line
-This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a pre-compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web component or Web site and collect .NET memory allocation, object lifetime, and detailed timing data.  
+# How to: Instrument a statically compiled ASP.NET web application and collect memory data by using the profiler command line
+This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a pre-compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web component or web site and collect .NET memory allocation, object lifetime, and detailed timing data.  
   
 > [!NOTE]
->  Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64 bit computers, both 64 bit and 32 bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
+>  Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
   
  To collect data from a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web component by using the instrumentation method, you use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component. On the computer that hosts the component, you replace the non-instrumented version of the component with the instrumented version. You then use the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize the global profiling environment variables and restart the host computer. You then start the profiler.  
   
@@ -23,7 +23,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
  To end a profiling session, you close the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process that hosts the component and then explicitly shut down the profiler. In most cases, we recommend clearing the profiling environment variables at the end of a session.  
   
-## Starting to Profile  
+## Start to profile  
   
 #### To instrument an ASP.NET Web component and start profiling  
   
@@ -62,17 +62,17 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
     |Option|Description|  
     |------------|-----------------|  
-    |[/user](../profiling/user-vsperfcmd.md) **:**[`Domain`**\\**]`UserName`|Specifies the optional domain and user name of the account that owns the ASP.NET worker process. This option is required if the process is running as a user that is different than the logged on user.The name is listed in the User Name column on the Processes tab of Windows Task Manager.|  
-    |[/crosssession](../profiling/crosssession.md)|Enables profiling of processes in other sessions. This option is required if the application is running in a different session. The session id is listed in the Session ID column on the Processes tab of Windows Task Manager. **/CS** can be specified as an abbreviation for **/crosssession**.|  
+    |[/user](../profiling/user-vsperfcmd.md) **:**[`Domain`**\\**]`UserName`|Specifies the optional domain and user name of the account that owns the ASP.NET worker process. This option is required if the process is running as a user that is different than the logged on user.The name is listed in the **User Name** column on the **Processes** tab of Windows Task Manager.|  
+    |[/crosssession](../profiling/crosssession.md)|Enables profiling of processes in other sessions. This option is required if the application is running in a different session. The session ID is listed in the Session ID column on the **Processes** tab of Windows Task Manager. **/CS** can be specified as an abbreviation for **/crosssession**.|  
     |[/wincounter](../profiling/wincounter.md) **:** `WinCounterPath`|Specifies a Windows performance counter to be collected during profiling.|  
     |[/automark](../profiling/automark.md) **:** `Interval`|Use with **/wincounter** only. Specifies the number of milliseconds between Windows performance counter collection events. Default is 500 ms.|  
     |[/events](../profiling/events-vsperfcmd.md) **:** `Config`|Specifies an Event Tracing for Windows (ETW) event to be collected during profiling. ETW events are collected in a separate (.etl) file.|  
     |[/globaloff](../profiling/globalon-and-globaloff.md)|To start the profiler with data collection paused, add the **/globaloff** option to the **/start** command line. Use **/globalon** to resume profiling.|  
   
-7.  Open the Web site that contains the instrumented component.  
+7.  Open the web site that contains the instrumented component.  
   
-## Controlling Data Collection  
- While the target application is running, you can control data collection by starting and stopping the writing of data to the file by using **VSPerfCmd.exe** options. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.  
+## Control data collection  
+ While the target application is running, you can control data collection by starting and stopping the writing of data to the file by using *VSPerfCmd.exe* options. Controlling data collection enables you to collect data for a specific part of program execution, such as starting or shutting down the application.  
   
 #### To start and stop data collection  
   
@@ -84,12 +84,12 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
     |[/processon](../profiling/processon-and-processoff.md) **:** `PID` [/processoff](../profiling/processon-and-processoff.md) **:** `PID`|Starts (**/processon**) or stops (**/processoff**) data collection for the process specified by the process ID (`PID`).|  
     |[/threadon](../profiling/threadon-and-threadoff.md) **:** `TID` [/threadoff](../profiling/threadon-and-threadoff.md) **:** `TID`|Starts (**/threadon**) or stops (**/threadoff**) data collection for the thread specified by the thread ID (`TID`).|  
   
-## Ending the Profiling Session  
- To end a profiling session, close the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application, and then use the Internet Information Services (IIS) **IISReset** command to close the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process. Call the **VSPerfCmd** [/shutdown](../profiling/shutdown.md) option to turn the profiler off and close the profiling data file. The **VSPerfClrEnv /globaloff** command clears the profiling environment variables. You must restart the computer for the new environment settings to be applied.  
+## End the profiling session  
+ To end a profiling session, close the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application, and then use the Internet Information Services (IIS) **IISReset** command to close the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process. Call the **VSPerfCmd** [/shutdown](../profiling/shutdown.md) option to turn the profiler off and close the profiling data file. The **VSPerfClrEnv /globaloff** command clears the profiling environment variables. You must restart the computer for the new environment settings to be applied.  
   
 #### To end a profiling session  
   
-1.  Close the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application.  
+1.  Close the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application.  
   
 2.  Close the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] worker process. Type:  
   
@@ -107,6 +107,6 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
      **IISReset /start**  
   
-## See Also  
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [.NET Memory Data Views](../profiling/dotnet-memory-data-views.md)
+## See also  
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [.NET memory data views](../profiling/dotnet-memory-data-views.md)

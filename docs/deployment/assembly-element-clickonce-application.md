@@ -65,6 +65,6 @@ The top-level element for the application manifest.
   xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">  
 ```  
   
-## See Also  
+## See also  
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)   
  [\<assembly> Element](../deployment/assembly-element-clickonce-deployment.md)

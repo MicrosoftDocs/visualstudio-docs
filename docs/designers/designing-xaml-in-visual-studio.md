@@ -32,7 +32,7 @@ For most basic tasks, the IDE for Visual Studio and Blend for Visual Studio shar
 
 - **A consistent user interface:** You can design your applications within the familiar context of the Visual Studio user interface, which makes switching between IDEs a more pleasant and productive experience. Blend for Visual Studio uses the Visual Studio Dark theme that helps you focus on the content you are designing by improving the contrast between your content and the user interface. See [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).
 
-     ![The Blend for Visual Studio IDE](../designers/media/blendide.png "BlendIDE")
+     ![The Blend for Visual Studio IDE](../designers/media/blendide.png)
 
 - **XAML IntelliSense:** Both IDEs support all of the common capabilities you would expect from IntelliSense including statement completion, support for common editor operations like commenting and formatting code, and navigation to resources, binding, and code.
 
@@ -40,7 +40,7 @@ For most basic tasks, the IDE for Visual Studio and Blend for Visual Studio shar
 
 - **File reload experience:** You can edit your XAML files in either Blend for Visual Studio or Visual Studio, and have your edited files reload automatically as you switch between them. To minimize workflow interruptions, you can now set your file reload preferences in the file reload dialog.
 
-     ![File reload experience](../designers/media/blendfilereload.png "BlendFileReload")
+     ![File reload experience](../designers/media/blendfilereload.png)
 
 - **Synchronized Layouts and Settings:** Custom layouts enable you to save and apply tool window layout customizations. Visual Studio will synchronize these customizations and preferences for both Visual Studio and Blend for Visual Studio across machines when you sign in with the same Microsoft account. See [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 

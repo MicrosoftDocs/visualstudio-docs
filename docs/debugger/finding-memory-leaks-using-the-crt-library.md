@@ -42,7 +42,7 @@ Memory leaks, defined as the failure to correctly deallocate memory that was pre
   
  To enable the debug heap functions, include the following statements in your program:  
   
-```  
+```cpp
 #define _CRTDBG_MAP_ALLOC  
 #include <stdlib.h>  
 #include <crtdbg.h>  
@@ -56,13 +56,13 @@ Memory leaks, defined as the failure to correctly deallocate memory that was pre
   
  After you have enabled the debug heap functions by using these statements, you can place a call to `_CrtDumpMemoryLeaks` before an application exit point to display a memory-leak report when your application exits:  
   
-```  
+```cpp
 _CrtDumpMemoryLeaks();  
 ```  
   
  If your application has multiple exits, you do not need to manually place a call to [_CrtDumpMemoryLeaks](/cpp/c-runtime-library/reference/crtdumpmemoryleaks) at every exit point. A call to `_CrtSetDbgFlag` at the beginning of your application will cause an automatic call to `_CrtDumpMemoryLeaks` at each exit point. You must set the two bit fields shown here:  
   
-```  
+```cpp
 _CrtSetDbgFlag ( _CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF );  
 ```  
   
@@ -70,14 +70,14 @@ _CrtSetDbgFlag ( _CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF );
   
  If you use a library, the library might reset the output to another location. In that case, you can set the output location back to the **Output** window, as shown here:  
   
-```  
+```cpp
 _CrtSetReportMode( _CRT_ERROR, _CRTDBG_MODE_DEBUG );  
 ```  
   
 ## Interpreting the Memory-Leak Report  
  If your application does not define `_CRTDBG_MAP_ALLOC`, [_CrtDumpMemoryLeaks](/cpp/c-runtime-library/reference/crtdumpmemoryleaks) displays a memory-leak report that looks like this:  
   
-```  
+```cmd
 Detected memory leaks!  
 Dumping objects ->  
 {18} normal block at 0x00780E80, 64 bytes long.  
@@ -87,7 +87,7 @@ Object dump complete.
   
  If your application defines `_CRTDBG_MAP_ALLOC`, the memory-leak report looks like this:  
   
-```  
+```cmd
 Detected memory leaks!  
 Dumping objects ->  
 c:\users\username\documents\projects\leaktest\leaktest.cpp(20) : {18}   
@@ -180,7 +180,7 @@ This tells you that the leaked allocation was on line 20 of debug_new.cpp.
   
 2.  When the application breaks at the breakpoint, the **Watch** window.  
   
-3.  In the **Watch** window, type `_crtBreakAlloc` in in the **Name** column.  
+3.  In the **Watch** window, type `_crtBreakAlloc` in the **Name** column.  
   
      If you are using the multithreaded DLL version of the CRT library (the /MD option), include the context operator: `{,,ucrtbased.dll}_crtBreakAlloc`  
   
@@ -196,20 +196,20 @@ This tells you that the leaked allocation was on line 20 of debug_new.cpp.
   
  You can also set memory-allocation breakpoints in code. There are two ways to do this:  
   
-```  
+```cpp
 _crtBreakAlloc = 18;  
 ```  
   
  or:  
   
-```  
+```cpp
 _CrtSetBreakAlloc(18);  
 ```  
   
 ## Comparing Memory States  
  Another technique for locating memory leaks involves taking snapshots of the application's memory state at key points. To take a snapshot of the memory state at a given point in your application, create a **_CrtMemState** structure and pass it to the `_CrtMemCheckpoint` function. This function fills in the structure with a snapshot of the current memory state:  
   
-```  
+```cpp
 _CrtMemState s1;  
 _CrtMemCheckpoint( &s1 );  
   
@@ -219,14 +219,14 @@ _CrtMemCheckpoint( &s1 );
   
  To output the contents of a **_CrtMemState** structure, pass the structure to the `_ CrtMemDumpStatistics` function:  
   
-```  
+```cpp
 _CrtMemDumpStatistics( &s1 );  
   
 ```  
   
  `_ CrtMemDumpStatistics` outputs a dump of memory state that looks like this:  
   
-```  
+```cmd
 0 bytes in 0 Free Blocks.  
 0 bytes in 0 Normal Blocks.  
 3071 bytes in 16 CRT Blocks.  
@@ -239,7 +239,7 @@ Total allocations: 3764 bytes.
   
  To determine whether a memory leak has occurred in a section of code, you can take snapshots of the memory state before and after the section, and then use `_ CrtMemDifference` to compare the two states:  
   
-```  
+```cpp
 _CrtMemCheckpoint( &s1 );  
 // memory allocations take place here  
 _CrtMemCheckpoint( &s2 );  

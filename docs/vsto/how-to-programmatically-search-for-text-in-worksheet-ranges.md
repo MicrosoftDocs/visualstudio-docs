@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically Search for Text in Worksheet Ranges | Microsoft Docs"
+title: "How to: Programmatically search for text in worksheet ranges"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -18,8 +18,8 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Programmatically Search for Text in Worksheet Ranges
-  The <xref:Microsoft.Office.Interop.Excel.Range.Find%2A> method of the <xref:Microsoft.Office.Interop.Excel.Range> object enables you to search for text within the range. This text can also be any of the error strings that can appear in a worksheet cell such as `#NULL!` or `#VALUE!`. For more information about error strings, see [Cell Error Values](http://msdn.microsoft.com/library/office/ff839168.aspx).  
+# How to: Programmatically search for Text in worksheet ranges
+  The <xref:Microsoft.Office.Interop.Excel.Range.Find%2A> method of the <xref:Microsoft.Office.Interop.Excel.Range> object enables you to search for text within the range. This text can also be any of the error strings that can appear in a worksheet cell such as `#NULL!` or `#VALUE!`. For more information about error strings, see [Cell error values](http://msdn.microsoft.com/library/office/ff839168.aspx).  
   
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]  
   
@@ -28,9 +28,9 @@ ms.workload:
 > [!NOTE]  
 >  The <xref:Microsoft.Office.Interop.Excel.Range.FindNext%2A> method's search wraps back to the beginning of the search range after it has reached the end of the range. Your code must ensure that the search does not wrap around in an infinite loop. The sample procedure shows one way to handle this using the <xref:Microsoft.Office.Interop.Excel.Range.Address%2A> property.  
   
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How Do I: Use the Find Method in an Excel Add-in?](http://go.microsoft.com/fwlink/?LinkID=130294).  
+ ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use the Find method in an Excel Add-in?](http://go.microsoft.com/fwlink/?LinkID=130294).  
   
-### To search for text in a worksheet range  
+## To search for text in a worksheet range  
   
 1.  Declare variables for tracking the entire range, the first found range, and the current found range.  
   
@@ -73,10 +73,10 @@ ms.workload:
  [!code-csharp[Trin_VstcoreExcelAutomation#57](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#57)]
  [!code-vb[Trin_VstcoreExcelAutomation#57](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#57)]  
   
-## See Also  
- [Working with Ranges](../vsto/working-with-ranges.md)   
- [How to: Programmatically Apply Styles to Ranges in Workbooks](../vsto/how-to-programmatically-apply-styles-to-ranges-in-workbooks.md)   
- [How to: Programmatically Refer to Worksheet Ranges in Code](../vsto/how-to-programmatically-refer-to-worksheet-ranges-in-code.md)   
- [Optional Parameters in Office Solutions](../vsto/optional-parameters-in-office-solutions.md)  
+## See also  
+ [Work with ranges](../vsto/working-with-ranges.md)   
+ [How to: Programmatically apply styles to ranges in workbooks](../vsto/how-to-programmatically-apply-styles-to-ranges-in-workbooks.md)   
+ [How to: Programmatically refer to worksheet ranges in code](../vsto/how-to-programmatically-refer-to-worksheet-ranges-in-code.md)   
+ [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)  
   
   

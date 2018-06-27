@@ -15,18 +15,18 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# span Class
+# span class
 Defines a phase of the application.  
   
 ## Syntax  
   
-```  
+```cpp  
 class span;  
 ```  
   
 ## Members  
   
-### Public Constructors  
+### Public constructors  
   
 |Name|Description|  
 |----------|-----------------|  
@@ -37,9 +37,9 @@ class span;
  `span`  
   
 ## Requirements  
- **Header:** cvmarkersobj.h  
+ **Header:** *cvmarkersobj.h*  
   
  **Namespace:** Concurrency::diagnostic  
   
-## See Also  
- [diagnostic Namespace](../profiling/diagnostic-namespace.md)
+## See also  
+ [diagnostic namespace](../profiling/diagnostic-namespace.md)

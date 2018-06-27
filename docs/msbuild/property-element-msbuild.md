@@ -27,7 +27,7 @@ Contains a user defined property name and value. Every property used in an [!INC
 
 ## Syntax  
 
-```  
+```xml  
 <Property Condition="'String A' == 'String B'">  
     Property Value  
 </Property>  

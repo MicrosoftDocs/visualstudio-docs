@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Custom Bootstrapper to Show a Privacy Prompt | Microsoft Docs"
+title: "Walkthrough: Create a custom bootstrapper with a privacy prompt | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: vs-ide-deployment
@@ -22,7 +22,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Walkthrough: Creating a Custom Bootstrapper to Show a Privacy Prompt
+# Walkthrough: Create a custom bootstrapper with a privacy prompt
 You can configure ClickOnce applications to automatically update when assemblies with newer file versions and assembly versions become available. To make sure that your customers consent to this behavior, you can display a privacy prompt to them. Then, they can choose whether to grant permission to the application to update automatically. If the application is not allowed to update automatically, it does not install.  
   
  [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]  
@@ -32,7 +32,7 @@ You can configure ClickOnce applications to automatically update when assemblies
   
 -   Visual Studio 2010.  
   
-## Creating an Update Consent Dialog Box  
+## Create an Update Consent Dialog Box  
  To display a privacy prompt, create an application that asks the reader to consent to automatic updates for the application.  
   
 #### To create a consent dialog box  
@@ -131,7 +131,7 @@ You can configure ClickOnce applications to automatically update when assemblies
   
 26. On the **Build** menu, click **BuildSolution**.  
   
-## Creating the Custom Bootstrapper Package  
+## Create the custom bootstrapper package  
  To show the privacy prompt to end users, you can create a custom bootstrapper package for the Update Consent Dialog application and include it as a prerequisite in all of your ClickOnce applications.  
   
  This procedure demonstrates how to create a custom bootstrapper package by creating the following documents:  
@@ -160,7 +160,7 @@ You can configure ClickOnce applications to automatically update when assemblies
   
 2.  In the product.xml file, add the following XML code. Make sure that you do not overwrite the existing XML code.  
   
-    ```  
+    ```xml  
     <Product  
       xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper"  
       ProductCode="Microsoft.Sample.EULA">  
@@ -192,7 +192,7 @@ You can configure ClickOnce applications to automatically update when assemblies
   
 2.  In the package.xml file, add the following XML code to define the locale and include the software license terms. Make sure that you do not overwrite the existing XML code.  
   
-    ```  
+    ```xml  
     <Package   
       xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper"  
       Name="DisplayName"  
@@ -223,7 +223,7 @@ You can configure ClickOnce applications to automatically update when assemblies
   
 6.  If necessary, create a new package.xml manifest file and a new eula.rtf document for the software license terms for each locale. For example, if you created subdirectories for the fr and de locales, create separate package.xml manifest files and software license terms and save them to the fr and de subdirectories.  
   
-## Setting the Update Consent Application as a Prerequisite  
+## Set the Update Consent Application as a prerequisite  
  In Visual Studio, you can set the Update Consent application as a prerequisite.  
   
 #### To set the Update Consent Application as a prerequisite  
@@ -241,7 +241,7 @@ You can configure ClickOnce applications to automatically update when assemblies
   
 5.  Click **OK**.  
   
-## Creating and Testing the Setup Program  
+## Create and test the Setup program  
  After you set the Update Consent application as a prerequisite, you can generate the installer and bootstrapper for your application.  
   
 #### To create and test the Setup program by not clicking I agree  

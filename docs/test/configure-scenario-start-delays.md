@@ -1,5 +1,5 @@
 ---
-title: "Configure Scenario Start Delays for load testing in Visual Studio"
+title: Configure Scenario Start Delays for load testing
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,27 +11,27 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# Configure Scenario Start Delays in Load Tests
+# Configure scenario start delays in load tests
 
-Specify a delay before a scenario starts in a load test by using the Load Test Editor and the Properties window.
+Specify a delay before a scenario starts in a load test by using the Load Test Editor and the **Properties** window.
 
 For example, you might want to use the **Delay Start Time** property if you need one scenario to start producing items that another scenario consumes. You can delay the consuming scenario to enable the producing scenario to populate some data.
 
 Another example is that you might have one scenario that is only run at a certain time of the day. So, you want to delay the start of the scenario to simulate this.
 
-## Specifying the Delay Start Time of a Scenario
+## Specify the delay start time of a scenario
 
-You can specify a delay before the start of a scenario in a load test by using the Load Test Editor to change the **Delay Start Time** property in the Properties window.
+You can specify a delay before the start of a scenario in a load test by using the Load Test Editor to change the **Delay Start Time** property in the **Properties** window.
 
 > [!NOTE]
-> For a full list of the load test scenario properties and their descriptions, see [Load Test Scenario Properties](../test/load-test-scenario-properties.md).
+> For a full list of the load test scenario properties and their descriptions, see [Load test scenario properties](../test/load-test-scenario-properties.md).
 
  An example of an instance when you might want to use the **Delay Start Time** property is when you need one scenario to start producing items that another scenario consumes. You can delay the consuming scenario to enable the producing scenario to populate some data.
 
  Another example is that you might have one scenario that is run only at a certain time of day. Therefore, you want to delay the start of the scenario to simulate this.
 
 > [!NOTE]
-> For a full list of the run settings properties and their descriptions, see [Load Test Scenario Properties](../test/load-test-scenario-properties.md).
+> For a full list of the run settings properties and their descriptions, see [Load test scenario properties](../test/load-test-scenario-properties.md).
 
 ### To specify the delay start time for a scenario
 
@@ -43,7 +43,7 @@ You can specify a delay before the start of a scenario in a load test by using t
 
 3. On the **View** menu, select **Properties Window**.
 
-     The categories and properties of the scenario are displayed in the Properties window.
+     The categories and properties of the scenario are displayed in the **Properties** window.
 
 4. In the text box for the **Delay Start Time** property, type a time value that indicates the time to wait after the load test starts before starting the scenario when the load test is run.
 
@@ -52,14 +52,14 @@ You can specify a delay before the start of a scenario in a load test by using t
 
 5. After you change the property, choose **Save** on the **File** menu. You can then run your load test by using the new **Delay Start Time** value.
 
-## Enabling and Disabling Whether a Scenario Runs During the Warm-Up Period
+## Enable and disable whether a scenario runs during the warm-up period
 
-The **Disable During Warmup** property is set by using the Properties window. Editing load test scenario properties is set by the Load Test Editor.
+The **Disable During Warmup** property is set by using the **Properties** window. Editing load test scenario properties is set by the Load Test Editor.
 
- The **Disable During Warmup** property is used to indicate whether the scenario should run or not run during the warm-up period that is specified in the **Delay Start Time** property. For more information, review the previous procedure [Specifying the Delay Start Time of a Scenario](../test/configure-scenario-start-delays.md#ConfiguringScenarioStartDelayHowTo).
+ The **Disable During Warmup** property is used to indicate whether the scenario should run or not run during the warm-up period that is specified in the **Delay Start Time** property. For more information, review the previous procedure [Specify the delay start time of a scenario](#specify-the-delay-start-time-of-a-scenario).
 
 > [!NOTE]
-> For a complete list of the run settings properties and their descriptions, see [Load Test Scenario Properties](../test/load-test-scenario-properties.md).
+> For a complete list of the run settings properties and their descriptions, see [Load test scenario properties](../test/load-test-scenario-properties.md).
 
 ### To enable or disable the warm-up period for a scenario
 
@@ -67,11 +67,11 @@ The **Disable During Warmup** property is set by using the Properties window. Ed
 
      The **Load Test Editor** appears. The load test tree is displayed.
 
-2. In the load test trees **Scenarios** folder, choose the scenario node that you want to specify the agents to use.
+2. In the load test trees **Scenarios** folder, choose the scenario node that you want to change the warmup behavior for.
 
 3. On the **View** menu, select **Properties Window**.
 
-     The scenario's categories and properties are displayed in the Properties window.
+     The scenario's categories and properties are displayed in the **Properties** window.
 
      In the **Disable During Warmup** property, select either **True** or **False.**
 
@@ -79,6 +79,6 @@ The **Disable During Warmup** property is set by using the Properties window. Ed
 
 ## See also
 
-- [Editing Load Test Scenarios](../test/edit-load-test-scenarios.md)
+- [Editing load test scenarios](../test/edit-load-test-scenarios.md)
 - [Configure test agents and test controllers for load tests](../test/configure-test-agents-and-controllers-for-load-tests.md)
-- [Load Test Scenario Properties](../test/load-test-scenario-properties.md)
+- [Load test scenario properties](../test/load-test-scenario-properties.md)

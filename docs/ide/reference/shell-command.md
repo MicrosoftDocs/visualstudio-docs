@@ -26,7 +26,7 @@ Launches executable programs from within [!INCLUDE[vsprvs](../../code-quality/in
 
 ## Syntax
 
-```
+```cmd
 Tools.Shell [/command] [/output] [/dir:folder] path [args]
 ```
 
@@ -61,13 +61,13 @@ Tools.Shell [/command] [/output] [/dir:folder] path [args]
 > If the `path` argument supplies the directory path as well as the file name, you should enclose the entire pathname in literal quotes ("""), as in the following:
 
 
-```
+```cmd
 Tools.Shell """C:\Program Files\SomeFile.exe"""
 ```
 
  Each set of three double quotes (""") is interpreted by the `Shell` processor as a single double quote character. Thus, the preceding example actually passes the following path string to the `Shell` command:
 
-```
+```cmd
 "C:\Program Files\SomeFile.exe"
 ```
 
@@ -78,7 +78,7 @@ Tools.Shell """C:\Program Files\SomeFile.exe"""
 ## Example
  The following command uses xcopy.exe to copy the file `MyText.txt` into the `Text` folder. The output from xcopy.exe is displayed in both the **Command Window** and the **Output** window.
 
-```
+```cmd
 >Tools.Shell /o /c xcopy.exe c:\MyText.txt c:\Text\MyText.txt
 ```
 

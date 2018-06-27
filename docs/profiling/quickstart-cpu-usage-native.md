@@ -24,7 +24,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
 ## Create a project
 
-1. In Visual Studio, choose **File > New Project**.
+1. In Visual Studio, choose **File** > **New Project**.
 
 2. Under **Visual C++**, choose **Windows Desktop**, and then in the middle pane choose **Windows Console Application**.
 
@@ -105,7 +105,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
     }
     ```
   
-##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Step 1: Collect profiling data 
+## Step 1: Collect profiling data 
   
 1.  First, set a breakpoint in your app on this line of code in the `main` function:
 
@@ -120,9 +120,9 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
     > [!TIP]
     > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
   
-3.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug / Windows / Show Diagnostic Tools**.
+3.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-4.  Click **Debug / Start Debugging** (or **Start** on the toolbar, or **F5**).
+4.  Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
 
      When the app finishes loading, the **Summary** view of the Diagnostics Tools appears.
 
@@ -144,7 +144,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
      At this point, you can begin to analyze the data.
 
-## <a name="Step2"></a> Step 2: Analyze CPU usage data
+## Step 2: Analyze CPU usage data
 
 We recommend that you begin analyzing your data by examining the list of functions under CPU Usage, identifying the functions that are doing the most work, and then taking a closer look at each one.
 
@@ -176,7 +176,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 - [Analyze CPU usage](../profiling/cpu-usage.md) for more in-depth information on the CPU usage tool.
 - Analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Collect profiling data without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-without-debugging) in [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
-## See Also  
+## See also  
 
  [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling feature tour](../profiling/profiling-feature-tour.md)
+ [First look at profiling tools](../profiling/profiling-feature-tour.md)

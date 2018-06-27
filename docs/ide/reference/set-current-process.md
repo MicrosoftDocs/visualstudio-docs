@@ -19,7 +19,7 @@ Sets the specified process as the active process in the debugger.
 
 ## Syntax
 
-```
+```cmd
 Debug.SetCurrentProcess index
 ```
 
@@ -33,7 +33,7 @@ Debug.SetCurrentProcess index
 
 ## Example
 
-```
+```cmd
 >Debug.SetCurrentProcess 1
 ```
 

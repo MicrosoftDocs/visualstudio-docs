@@ -1,10 +1,11 @@
 ---
 title: Tutorial - Learn Django in Visual Studio, step 3
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically demonstrating how to serve static files, add pages to the app, and use template inheritance
-ms.date: 04/25/2018
+ms.date: 06/27/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
+author: kraigb
 ms.author: kraigb
 manager: douge
 ms.workload: 
@@ -12,11 +13,11 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 3: Serve static files, add pages, and use template inheritance
+# Step 3: Serve static files, add pages, and use template inheritance
 
 **Previous step: [Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md)**
 
-In the previous steps of this tutorial, you've learned how to create a minimal Django app with a single page of self-contained HTML. Modern web apps, however are typically composed of many pages, and make use of shared resources like CSS and JavaScript and file to provide consistent styling and behavior.
+In the previous steps of this tutorial, you've learned how to create a minimal Django app with a single page of self-contained HTML. Modern web apps, however, are typically composed of many pages, and make use of shared resources like CSS and JavaScript files to provide consistent styling and behavior.
 
 In this step, you learn how to:
 
@@ -35,8 +36,6 @@ To see available templates, go to **Solution Explorer**, right-click the folder 
 ![Add new item dialog in Visual Studio](media/django/step03-add-new-item-dialog.png)
 
 To use a template, select the desired template, specify a name for the file, and select **OK**. Adding an item in this manner automatically adds the file to your Visual Studio project and marks the changes for source control.
-
-Visual Studio also adds some frequently used options to the **Add** menu directly. In a Python project, for example, you might see **HTML Page** or **Style Sheet** commands at the bottom of the **Add** menu, which prompt you for a name and creates the file.
 
 ### Question: how does Visual Studio know which item templates to offer?
 
@@ -182,7 +181,7 @@ A base template delineates blocks using `{% block <block_name> %}` and `{% endbl
 
 The following steps demonstrate inheritance:
 
-1. In the app's `templates/HelloDjangoApp` folder, create a new HTML file (using the **Add** > **New item** context menu or **Add** > **HTML Page**) called `layout.html`, and paste in the contents below. You can see that this template contains a block named "content" that is all that the referring pages need to replace:
+1. In the app's `templates/HelloDjangoApp` folder, create a new HTML file (using the **Add** > **New item** context menu or **Add** > **HTML Page**) called `layout.html`, and replace its with the markup below. You can see that this template contains a block named "content" that is all that the referring pages need to replace:
 
     ```html
     <!DOCTYPE html>
@@ -273,9 +272,10 @@ The following steps demonstrate inheritance:
 > [!div class="nextstepaction"]
 > [Use the full Django Web Project template](learn-django-in-visual-studio-step-04-full-django-project-template.md)
 
-## Going deeper
+## Go deeper
 
+- [Deploy the web app to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)
 - [Writing your first Django app, part 3 (views)](https://docs.djangoproject.com/en/2.0/intro/tutorial03/) (docs.djangoproject.com)
 - For more capabilities of Django templates, such as control flow, see [The Django template language](https://docs.djangoproject.com/en/2.0/ref/templates/language/) (docs.djangoproject.com)
 - For complete details on using the `{% url %}` tag, see [url](https://docs.djangoproject.com/en/2.0/ref/templates/builtins/#url) within the [Built-in template tags and filters for Django templates reference](https://docs.djangoproject.com/en/2.0/ref/templates/builtins/) (docs.djangoproject.com)
-- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learn-django](https://github.com/Microsoft/python-sample-vs-learn-django)
+- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django)

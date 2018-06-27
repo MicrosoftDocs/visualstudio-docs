@@ -15,7 +15,7 @@ ms.technology: vs-ide-test
 
 The **Plot Options** dialog box enables you to change the color and line style of a plotted counter on a graph. You can also fix the range at a specific value or set the range to be automatically adjusted, based on the sampled data.
 
-![Plot Options dialog](../test/media/ltest_plotoptions.png "LTest_PlotOptions")
+![Plot Options dialog](../test/media/ltest_plotoptions.png)
 
 ## To specify plotting options for graphs
 

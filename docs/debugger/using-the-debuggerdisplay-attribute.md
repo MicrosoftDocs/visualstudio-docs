@@ -45,7 +45,7 @@ The [DebuggerDisplayAttribute Class](/dotnet/api/system.diagnostics.debuggerdisp
   
  To build autoexp.cs, open up a Developer Command Prompt for VS2015, and run the following commands  
   
-```  
+```cmd
 cd <directory containing autoexp.cs>  
 csc /t:library autoexp.cs  
 ```  
@@ -82,6 +82,7 @@ public sealed class MyClass
     }  
 }  
 ```  
+The ",nq" suffix tells the expression evaluator to remove the quotes when displaying the final value (nq = no quotes). 
   
 ## Example  
  The following code example shows how to use `DebuggerDisplay`, together with `DebuggerBrowseable` and `DebuggerTypeProxy`. When viewed in a debugger variables window, such as the **Watch** window, it produces an expansion that looks like this:  

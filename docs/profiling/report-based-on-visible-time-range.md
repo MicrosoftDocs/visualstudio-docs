@@ -15,12 +15,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Report Based on Visible Time Range
+# Report based on visible time range
 The Profile view displays reports that are based on the currently visible time range and channels. To see details for different subsets of the data, click items in the legend.  
   
  You can find more information about the data in the tables here.  
   
-## See Also  
+## See also  
  [No Thread Activity to Show](../profiling/no-thread-activity-to-show-threads-view.md)   
  [Execution Profile Report](../profiling/execution-profile-report.md)   
  [Synchronization Time](../profiling/synchronization-time.md)   

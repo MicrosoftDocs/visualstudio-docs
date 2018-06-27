@@ -6,8 +6,7 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "group": "group-vs",
-        "src": ".",
+        "group": "vs-2015",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
@@ -21,8 +20,7 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "group": "group-vs2015",
-        "src": "./vs-2015",
+        "group": "vs-2017",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
@@ -39,13 +37,12 @@
           "**/*.gif",
           "**/*.svg"
         ],
-        "group": "group-vs",
-        "src": ".",
+        "group": "vs-2015",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
           "**/includes/**",
-          "vs-2015/**"
+          "missingapi.yml"
         ]
       },
       {
@@ -55,12 +52,13 @@
           "**/*.gif",
           "**/*.svg"
         ],
-        "group": "group-vs2015",
-        "src": "vs-2015",
+        "group": "vs-2017",
         "exclude": [
+          "vs-2015",
           "**/obj/**",
           "vsdocsdocs/**",
-          "**/includes/**"
+          "**/includes/**",
+          "missingapi.yml"
         ]
       }
     ],
@@ -71,6 +69,7 @@
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
       "feedback_product_url": "https://developercommunity.visualstudio.com/",
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
+      "extendBreadcrumb": "true",
       "ROBOTS": "INDEX,FOLLOW",
       "author": "erickson-doug",
       "ms.author": "douge",
@@ -78,10 +77,14 @@
       "ms.date": "11/16/2016",
       "ms.topic": "conceptual",
       "audience": "developer",
+      "defaultDevLang": "csharp",
       "ms.prod": "visual-studio-dev15",
       "searchScope": ["VS IDE"],
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
-      "titleSuffix": "Visual Studio"
+      "titleSuffix": "Visual Studio",
+      "featureFlags": [
+        "enable_uhf_ppe"
+      ]
     },
 
     "fileMetadata": {
@@ -93,16 +96,15 @@
     },
 
     "template": [],
-    "xref": ["missingapi.yml", "vs.140.zip", "office15.zip"],
+    "xref": ["missingapi.yml", "vs.140.zip"],
     "dest": "vsdocsdocs",
     "groups": {
-      "group-vs": {
-        "moniker_range": ">= vs-2017",
-        "dest": "vsdocsdocs-2017"
-      },
-      "group-vs2015": {
+      "vs-2015": {
         "moniker_range": "vs-2015",
-        "dest": "vsdocsdocs-2015"
+        "dest": "temp2015"
+      },
+      "vs-2017": {
+        "moniker_range": ">= vs-2017"
       }
     }
   }

@@ -11,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Sample XSD File: Relationships
+# Sample XSD file: Relationships
 
 The following XSD file is used in various examples in the XSD Schema Designer documentation. This file is a purchase order schema with annotations and documentation.
 

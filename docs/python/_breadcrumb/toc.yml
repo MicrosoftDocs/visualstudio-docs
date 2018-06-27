@@ -7,5 +7,5 @@
     topicHref: /visualstudio/ide/
     items:
     - name: Python
-      tocHref: /visualstudio/quickstart-python/
+      tocHref: /visualstudio/ide/quickstart-python
       topicHref: /visualstudio/python/overview-of-python-tools-for-visual-studio

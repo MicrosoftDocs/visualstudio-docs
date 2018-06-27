@@ -30,9 +30,9 @@ For more information about resources in .NET desktop apps, see [Resources in des
 
 In a managed code project, open the project properties window. You can open the properties window by either:
 
-- right-clicking the project node in **Solution Explorer** and selecting **Properties**
-- typing "project properties" in the **Quick Launch** window
-- choosing **Alt**+**Enter** in the **Solution Explorer** window
+- Right-clicking the project node in **Solution Explorer** and selecting **Properties**
+- Typing "project properties" in the **Quick Launch** window
+- Choosing **Alt**+**Enter** in the **Solution Explorer** window
 
 Select the **Resources** tab. You can add a *.resx* file if your project does not contain one already, add and delete different kinds of resources, and modify existing resources.
 

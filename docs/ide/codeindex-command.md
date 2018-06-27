@@ -19,16 +19,16 @@ ms.workload:
 
 Use the **CodeIndex** command to manage code indexing on Team Foundation Server. For example, you might want to reset the index to fix CodeLens information, or turn off indexing to investigate server performance issues.
 
-**Required permissions**
+## Required permissions
 
-To use the **CodeIndex** command, you must be a member of the **Team Foundation Administrators** security group. See [Permissions and groups defined for Team Services and TFS](https://www.visualstudio.com/docs/setup-admin/permissions).
+To use the **CodeIndex** command, you must be a member of the **Team Foundation Administrators** security group. See [Permissions and groups defined for Team Services and TFS](/vsts/organizations/security/permissions?view=vsts).
 
 > [!NOTE]
 > Even if you log on with administrative credentials, you must open an elevated Command Prompt window to run this command. You must also run this command from the application tier for Team Foundation.
 
 ## Syntax
 
-```
+```cmd
 TFSConfig CodeIndex /indexingStatus | /setIndexing:[ on | off | keepupOnly ] | /ignoreList:[ add | remove | removeAll | view ] ServerPath | /listLargeFiles [/fileCount:FileCount] [/minSize:MinSize] | /reindexAll | /destroyCodeIndex [/noPrompt] | /temporaryDataSizeLimit:[ view | <SizeInGBs> | disable ] | /indexHistoryPeriod:[ view | all | <NumberOfMonths> ] [/collectionName:CollectionName | /collectionId:CollectionId]
 ```
 
@@ -60,65 +60,65 @@ TFSConfig CodeIndex /indexingStatus | /setIndexing:[ on | off | keepupOnly ] | /
 
  To see the code indexing status and configuration:
 
-```
+```cmd
 TFSConfig CodeIndex /indexingStatus /collectionName:"Fabrikam Web Site"
 ```
 
  To start indexing all changesets:
 
-```
+```cmd
 TFSConfig CodeIndex /setIndexing:on /collectionName:"Fabrikam Web Site"
 ```
 
  To stop indexing previously created changesets and start indexing new changesets only:
 
-```
+```cmd
 TFSConfig CodeIndex /setIndexing:keepupOnly /collectionName:"Fabrikam Web Site"
 ```
 
  To find up to 50 files that are larger than 10 KB:
 
-```
+```cmd
 TFSConfig CodeIndex /listLargeFiles /fileCount:50 /minSize:10 /collectionName:"Fabrikam Web Site"
 ```
 
  To exclude a specific file from indexing and add it to the ignored file list:
 
-```
+```cmd
 TFSConfig CodeIndex /ignoreList:add "$/Fabrikam Web Site/Catalog.cs" /collectionName:"Fabrikam Web Site"
 ```
 
  To see all the files that aren't indexed:
 
-```
+```cmd
 TFSConfig CodeIndex /ignoreList:view
 ```
 
  To clear previously indexed data and restart indexing:
 
-```
+```cmd
 TFSConfig CodeIndex /reindexAll /collectionName:"Fabrikam Web Site"
 ```
 
  To save all changeset history:
 
-```
+```cmd
 TFSConfig CodeIndex /indexHistoryPeriod:all /collectionName:"Fabrikam Web Site"
 ```
 
  To remove the size limit on CodeLens temporary data and continue indexing regardless of temporary data size:
 
-```
+```cmd
 TFSConfig CodeIndex /temporaryDataSizeLimit:disable /collectionName:"Fabrikam Web Site"
 ```
 
  To delete the code index with confirmation:
 
-```
+```cmd
 TFSConfig CodeIndex /destroyCodeIndex /collectionName:"Fabrikam Web Site"
 ```
 
 ## See also
 
 - [Find code changes and other history with CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)
-- [Managing server configuration with TFSConfig](/vsts/tfs-server/command-line/tfsconfig-cmd)
+- [Managing server configuration with TFSConfig](/tfs/server/ref/command-line/tfsconfig-cmd)

@@ -21,7 +21,7 @@ Moves the cursor to the specified line.
 
 ## Syntax
 
-```
+```cmd
 Edit.GoTo [linenumber]
 ```
 
@@ -39,7 +39,7 @@ Edit.GoTo [linenumber]
 
 ## Example
 
-```
+```cmd
 >Edit.GoTo 125
 ```
 

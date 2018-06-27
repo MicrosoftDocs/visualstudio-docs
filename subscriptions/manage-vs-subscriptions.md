@@ -98,8 +98,8 @@ You can easily change the contact information and preferences in your profile.
 3.	On the **About** tab, you can change your name, email, country/region, profile picture and contact preferences.  On the **Preferences** tab, you can select your preferred language, date and time patterns, time zone, and user interface theme.  
 4.	When you’ve finalized your changes, click **Save**. 
 5.  Click your browser's **back** button to return to the Benefits page. 
+    ![Editing Profile Information](_img\manage-vs-subscriptions\edit-profile-resized.png)
 
-![Editing Profile Information](_img\manage-vs-subscriptions\edit-profile-resized.png)
 
 ### Linking my subscription to existing VSTS or Azure subscriptions
 If you sign in to your subscription using a personal Microsoft account (MSA) and have a subscription that includes Visual Studio Team Services or Microsoft Azure using a work or school account managed by Azure, you can link the two subscriptions. This is called an "alternate account" and allows you to keep using your MSA to sign in to your subscription while having access to existing Azure, VSTS or IDE resources that are associated with your school or work accounts. 
@@ -107,11 +107,28 @@ If you sign in to your subscription using a personal Microsoft account (MSA) and
 Even if both accounts use the same email address, you need to add your work/school account as an alternate to use your benefits across both accounts. 
 
 To add an alternate account:
-1. Sign in to the [Subscriber Portal](https://my.visualstudio.com) with your Microsoft Account (MSA).
+1. Sign in to the [Subscriber Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) with your Microsoft Account (MSA).
 2. Click on the **Subscriptions** tab.
 3. Under **Related Links**, choose **Add alternate account**.
 4. Enter your work/school account emaiil address and click **Add**. 
-
-![Alternate Account](_img\manage-vs-subscriptions\alternate-account-resized.png)
+    ![Alternate Account](_img\manage-vs-subscriptions\alternate-account-resized.png)
 
 Once you have added an alternate account, you can update or remove it at any time by clicking the **Subscriptions** tab and choosing the appropriate option in the **Related Links** section.  
+
+## Frequently asked questions   
+### Q: If I do not renew my subscription, how long will Microsoft keep my data?
+A: Depending on the purchasing channel, Microsoft maintains customer data for different lengths of time.
+
+| Channel                                                | Duration (days) |
+|--------------------------------------------------------|-----------------|
+|    Retail (e.g. through Microsoft Store)               |    360          |
+|    Volume Licensing Service Center (VLSC)              |    180          |
+|    Microsoft Products and Services Agreement (MPSA)    |    180          |
+|    Visual Studio Cloud Subscriptions                   |    180          |
+|    Program (e.g. MCT, BizSpark, MPN, Imagine)          |    180          |
+|    Not For Resale (e.g. MVP, MSP)                      |    180          |
+|    DevEssentials                                       |    30           |
+
+> [!NOTE]
+> - If you choose to close your Microsoft Account or Azure AD, your personal data will be anonymized immediately.  
+> - We will not fully remove all your personal data if you have active subscriptions. 

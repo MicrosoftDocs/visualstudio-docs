@@ -1,7 +1,7 @@
 ---
 title: Mixed-mode debugging for Python
 description: How to simultaneously debug C++ and Python in Visual Studio including stepping between environments, viewing values, and evaluating expressions.
-ms.date: 01/16/2018
+ms.date: 06/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -59,7 +59,7 @@ Mixed-mode debugging features include the following, as explained in this articl
 
 ## Enable mixed-mode debugging in a C/C++ project
 
-Visual Studio 2017 (version 15.5 and higher) supports mixed-mode debugging from a C/C++ project (for example, when when [embedding Python in another application as described on python.org](https://docs.python.org/3/extending/embedding.html)). To enable mixed-mode debugging, configure the C/C++ project to launch the "Python/Native Debugger":
+Visual Studio 2017 (version 15.5 and higher) supports mixed-mode debugging from a C/C++ project (for example, when [embedding Python in another application as described on python.org](https://docs.python.org/3/extending/embedding.html)). To enable mixed-mode debugging, configure the C/C++ project to launch the "Python/Native Debugger":
 
 1. Right-click the C/C++ project in Solution Explorer and select **Properties**
 1. Select the **Debugging** tab, select "Python/Native Debugger" from the **Debugger to launch**, and select **OK**.

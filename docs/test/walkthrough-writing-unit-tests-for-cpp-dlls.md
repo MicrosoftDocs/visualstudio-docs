@@ -6,7 +6,7 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: mblome
 manager: douge
-ms.workload: 
+ms.workload:
   - "cplusplus"
 author: mikeblome
 ---
@@ -40,11 +40,11 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
      In this walkthrough, the test project is named `NativeRooterTest`.
 
-     ![Creating a C++ Unit Test Project](../test/media/utecpp01.png "UteCpp01")
+     ![Creating a C++ Unit Test Project](../test/media/utecpp01.png)
 
 2.  In the new project, inspect **unittest1.cpp**
 
-     ![Test project with TEST&#95;CLASS and TEST&#95;METHOD](../test/media/utecpp2.png "UteCpp2")
+     ![Test project with TEST&#95;CLASS and TEST&#95;METHOD](../test/media/utecpp2.png)
 
      Notice that:
 
@@ -77,7 +77,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
          The test appears under **Passed Tests**.
 
-         ![Unit Test Explorer with one passed test](../test/media/utecpp04.png "UteCpp04")
+         ![Unit Test Explorer with one passed test](../test/media/utecpp04.png)
 
 ##  <a name="create_dll_project"></a> Create a DLL project
 
@@ -85,17 +85,17 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
      In this walkthrough, the project is named `RootFinder`.
 
-     ![Creating a C++ Win32 project](../test/media/utecpp05.png "UteCpp05")
+     ![Creating a C++ Win32 project](../test/media/utecpp05.png)
 
 2.  Select **DLL** and **Export Symbols** in the Win32 Application Wizard.
 
      The **Export Symbols** option generates a convenient macro that you can use to declare exported methods.
 
-     ![C++ project wizard set for DLL and Export Symbols](../test/media/utecpp06.png "UteCpp06")
+     ![C++ project wizard set for DLL and Export Symbols](../test/media/utecpp06.png)
 
 3.  Declare an exported function in the principal .h file:
 
-     ![New DLL code project and .h file with API macros](../test/media/utecpp07.png "UteCpp07")
+     ![New DLL code project and .h file with API macros](../test/media/utecpp07.png)
 
      The declarator `__declspec(dllexport)` causes the public and protected members of the class to be visible outside the DLL. For more information, see [Using dllimport and dllexport in C++ Classes](/cpp/cpp/using-dllimport-and-dllexport-in-cpp-classes).
 
@@ -115,13 +115,13 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
     1.  Open the properties of the test project and choose **Common Properties**, **Framework and References**.
 
-         ![C++ project properties | Framework and References](../test/media/utecpp08.png "UteCpp08")
+         ![C++ project properties | Framework and References](../test/media/utecpp08.png)
 
     2.  Choose **Add New Reference**.
 
          In the **Add Reference** dialog box, select the DLL project and choose **Add**.
 
-         ![C++ project properties | Add New Reference](../test/media/utecpp09.png "UteCpp09")
+         ![C++ project properties | Add New Reference](../test/media/utecpp09.png)
 
 2.  In the principal unit test .cpp file, include the .h file of the DLL code:
 
@@ -155,7 +155,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 5.  In Test Explorer, choose **Run All**.
 
-     ![Unit Test Explorer &#45; Basic Test passed](../test/media/utecpp10.png "UteCpp10")
+     ![Unit Test Explorer &#45; Basic Test passed](../test/media/utecpp10.png)
 
  You have set up the test and the code projects, and verified that you can run tests that run functions in the code project. Now you can begin to write real tests and code.
 
@@ -184,7 +184,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
      The new test fails.
 
-     ![The RangeTest fails](../test/media/ute_cpp_testexplorer_rangetest_fail.png "UTE_Cpp_TestExplorer_RangeTest_Fail")
+     ![The RangeTest fails](../test/media/ute_cpp_testexplorer_rangetest_fail.png)
 
     > [!TIP]
     > Verify that each test fails immediately after you have written it. This helps you avoid the easy mistake of writing a test that never fails.
@@ -212,7 +212,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
      Both tests pass.
 
-     ![Unit Test Explorer &#45; Range Test passed](../test/media/utecpp12.png "UteCpp12")
+     ![Unit Test Explorer &#45; Range Test passed](../test/media/utecpp12.png)
 
     > [!TIP]
     > Develop code by adding tests one at a time. Make sure that all the tests pass after each iteration.
@@ -258,7 +258,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
      The failed assertion is highlighted. The failure message is visible in the detail pane of Test Explorer.
 
-     ![NegativeRangeTests failed](../test/media/ute_cpp_testexplorer_negativerangetest_fail.png "UTE_Cpp_TestExplorer_NegativeRangeTest_Fail")
+     ![NegativeRangeTests failed](../test/media/ute_cpp_testexplorer_negativerangetest_fail.png)
 
 4.  To see why the test fails, step through the function:
 
@@ -286,17 +286,17 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 6.  All tests now pass.
 
-     ![All tests pass](../test/media/ute_ult_alltestspass.png "UTE_ULT_AllTestsPass")
+     ![All tests pass](../test/media/ute_ult_alltestspass.png)
 
 > [!TIP]
-> If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png "UTE_parallelicon-small") toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+> If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
 
 ##  <a name="refactor"></a> Refactor the code without changing tests
 
 1.  Simplify the central calculation in the SquareRoot function:
 
-    ```
+    ```cpp
     // old code:
     //   result = result - (result*result - v)/(2*result);
     // new code:
@@ -324,7 +324,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 ## See also
 
 - [Adding unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)
-- [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](../test/using-microsoft-visualstudio-testtools-cppunittestframework.md)
+- [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](how-to-use-microsoft-test-framework-for-cpp.md)
 - [Debugging Native Code](../debugger/debugging-native-code.md)
 - [Walkthrough: Creating and Using a Dynamic Link Library (C++)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)
 - [Importing and Exporting](/cpp/build/importing-and-exporting)

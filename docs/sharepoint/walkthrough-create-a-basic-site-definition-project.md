@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Create a Basic Site Definition Project
+# Walkthrough: Create a basic site definition project
   This walkthrough shows you how to create a basic site definition that contains a visual Web part with some controls on it. For the sake of clarity, the visual Web part that you create has only a few controls. However, you can create more sophisticated SharePoint site definitions that include more functionality.  
   
  This walkthrough demonstrates the following tasks:  
@@ -41,12 +41,12 @@ ms.workload:
   
 -   Visual Studio.  
   
-## Creating a Site Definition Solution  
+## Create a site definition solution
  First, create the site definition project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
 #### To create a site definition project  
   
-1.  On the menu bar, choose **File**, **New**, **Project**. If your IDE is set to use Visual Basic development settings, on the menu bar, choose **File**, **New Project**.  
+1.  On the menu bar, choose **File** > **New** > **Project**. If your IDE is set to use Visual Basic development settings, on the menu bar, choose **File** > **New Project**.  
   
      The **New Project** dialog box appears.  
   
@@ -68,20 +68,20 @@ ms.workload:
   
      The project appears in **Solution Explorer**.  
   
-8.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project**, **Add New Item**.  
+8.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project** > **Add New Item**.  
   
 9. Under either **Visual C#** or **Visual Basic**, expand the **SharePoint** node, and then choose the **2010** node.  
   
 10. In the **Templates** pane, choose the **Site Definition** template, leave the **Name** as **SiteDefinition1**, and then choose the **Add** button.  
   
-## Create a Visual Web Part  
+## Create a visual web part
  Next, create a visual Web part to appear on the site definition's main page.  
   
-#### To create a visual Web part  
+#### To create a visual web part
   
 1.  In **Solution Explorer**, choose the **Show All Files** button.  
   
-2.  Choose the **SiteDefinition1** project node, and then, on the menu bar, choose **Project**, **Add New Item**.  
+2.  Choose the **SiteDefinition1** project node, and then, on the menu bar, choose **Project** > **Add New Item**.  
   
      The **Add New Item** dialog box appears.  
   
@@ -89,11 +89,11 @@ ms.workload:
   
 4.  In the list of templates, choose the **Visual Web Part** template, keep the default name VisualWebPart1, and then choose the **Add** button.  
   
-     The VisualWebPart1.ascx file opens.  
+     The *VisualWebPart1.ascx* file opens.  
   
-5.  At the bottom of VisualWebPart1.ascx, add the following markup to add three controls to the form: a text box, a button, and a label:  
+5.  At the bottom of *VisualWebPart1.ascx*, add the following markup to add three controls to the form: a text box, a button, and a label:  
   
-    ```  
+    ```aspx-csharp  
     <table>  
       <tr>  
         <td>  
@@ -109,29 +109,29 @@ ms.workload:
     </table>  
     ```  
   
-6.  Under VisualWebPart1.ascx, open the VisualWebPart1.ascx.cs file (for [!INCLUDE[csprcs](../sharepoint/includes/csprcs-md.md)]) or VisualWebPart1.ascx.vb (for [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]) , and then add the following code:  
+6.  Under *VisualWebPart1.ascx*, open the *VisualWebPart1.ascx.cs* file (for [!INCLUDE[csprcs](../sharepoint/includes/csprcs-md.md)]) or *VisualWebPart1.ascx.vb* (for [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]) , and then add the following code:  
   
      [!code-vb[SP_SimpleSiteDef#1](../sharepoint/codesnippet/VisualBasic/testsitedefvb/sitedefinition/visualwebpart1/visualwebpart1usercontrol.ascx.vb#1)]
      [!code-csharp[SP_SimpleSiteDef#1](../sharepoint/codesnippet/CSharp/testsitedef/sitedefinition/visualwebpart1/visualwebpart1usercontrol.ascx.cs#1)]  
   
      This code adds functionality for the web part's button click.  
   
-## Add the Visual Web Part to the Default ASPX Page  
+## Add the visual web part to the default ASPX page
  Next, add the visual Web part to the site definition's default ASPX page.  
   
-#### To add a visual Web part to the default ASPX page  
+#### To add a visual web part to the default ASPX page
   
 1.  Open the default.aspx page, and then add the following line under the `WebPartPages` tag:  
   
-    ```  
+    ```aspx-csharp  
     <%@ Register Tagprefix="MyWebPartControls" Namespace="TestSiteDef.VisualWebPart1" Assembly="$SharePoint.Project.AssemblyFullName$" %>  
     ```  
   
-     This line associates the name MyWebPartControls with the Web part and its code. The *Namespace* parameter matches the namespace that's used in the VisualWebPart1.ascx code file.  
+     This line associates the name MyWebPartControls with the Web part and its code. The *Namespace* parameter matches the namespace that's used in the *VisualWebPart1.ascx* code file.  
   
 2.  After the `</asp:Content>` element, replace the entire `ContentPlaceHolderId="PlaceHolderMain"` section and its contents with the following code:  
   
-    ```  
+    ```aspx-csharp  
     <asp:Content ID="Content1" ContentPlaceHolderId="PlaceHolderMain" runat="server">  
         <MyWebPartControls:VisualWebPart1 runat="server" />      
     </asp:Content>  
@@ -141,18 +141,18 @@ ms.workload:
   
 3.  In **Solution Explorer**, open the shortcut menu for the **SiteDefinition1** node, and then choose **Set as Startup Item**.  
   
-## Deploy and Run the Site Definition Solution  
+## Deploy and run the site definition solution
  Next, deploy the project to SharePoint, and then run the project.  
   
 #### To deploy and run the site definition  
   
--   On the menu bar, choose **Build**, **Deploy TestSiteDef**.  
+-   On the menu bar, choose **Build** > **Deploy TestSiteDef**.  
   
--   Choose the F5 key.  
+-   Choose the **F5** key.  
   
      Visual Studio compiles the code, adds its features, packages all of the files into a SharePoint solution (WSP) file, and deploys the WSP file to SharePoint Server. SharePoint then installs the files and then activates the features.  
   
-## Create a Site Based on the Site Definition  
+## Create a site based on the site definition
  Next, create a site by using the new site definition.  
   
 #### To create a site by using the site definition  
@@ -171,7 +171,7 @@ ms.workload:
   
      The new site appears.  
   
-## Test the New Site  
+## Test the new site
  Next, test the new site to verify whether it works correctly.  
   
 #### To test the new site  
@@ -180,8 +180,7 @@ ms.workload:
   
      The text appears in the label on the right side of the button.  
   
-## See Also  
+## See also
  [How to: Create an Event Receiver](../sharepoint/how-to-create-an-event-receiver.md)   
  [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
-  
   

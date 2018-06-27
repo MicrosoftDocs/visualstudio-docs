@@ -28,7 +28,7 @@ Contains an optional list of parameters that will be present on the task that is
 
 ## Syntax  
 
-```  
+```xml  
 <ParameterGroup />  
 ```  
 

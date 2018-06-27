@@ -39,7 +39,7 @@ If you run your Web performance test under stress in a load test, you will be ab
 
 3.  The data for each page is displayed in the grid. The following columns are ordinarily displayed.
 
-    |||
+    |Column Heading|Description|
     |-|-|
     |**Page**|The name of the Web page.|
     |**Scenario**|The name of the scenario. Important if you have more than one scenario in your Web performance test.|

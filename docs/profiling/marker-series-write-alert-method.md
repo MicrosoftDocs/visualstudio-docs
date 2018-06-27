@@ -15,12 +15,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# marker_series::write_alert Method
+# marker_series::write_alert method
 Writes an alert to the Concurrency Visualizer trace file.  
   
 ## Syntax  
   
-```  
+```cpp  
 void write_alert(  
    _In_ LPCTSTR _Format,  
    ...  
@@ -32,9 +32,9 @@ void write_alert(
  A composite format string that contains text intermixed with zero or more format items, which correspond to objects in the argument list.  
   
 ## Requirements  
- **Header:** cvmarkersobj.h  
+ **Header:** *cvmarkersobj.h*  
   
  **Namespace:** Concurrency::diagnostic  
   
-## See Also  
- [marker_series Class](../profiling/marker-series-class.md)
+## See also  
+ [marker_series class](../profiling/marker-series-class.md)

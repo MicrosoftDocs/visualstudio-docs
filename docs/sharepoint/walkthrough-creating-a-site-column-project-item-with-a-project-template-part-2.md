@@ -15,10 +15,10 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Creating a Site Column Project Item with a Project Template, Part 2
+# Walkthrough: Create a site column project item with a project template, Part 2
   After you define a custom type of SharePoint project item and associate it with a project template in Visual Studio, you might also want to provide a wizard for the template. You can use the wizard to collect information from users when they use your template to create a new project that contains the project item. The information that you collect can be used to initialize the project item.  
   
- In this walkthrough, you will add a wizard to the Site Column project template that is demonstrated in [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md). When a user creates a Site Column project, the wizard collects information about the site column (such as its base type and group) and adds this information to the Elements.xml file in the new project.  
+ In this walkthrough, you will add a wizard to the Site Column project template that is demonstrated in [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md). When a user creates a Site Column project, the wizard collects information about the site column (such as its base type and group) and adds this information to the *Elements.xml* file in the new project.  
   
  This walkthrough demonstrates the following tasks:  
   
@@ -35,7 +35,7 @@ ms.workload:
 -   Debugging and testing the wizard.  
   
 > [!NOTE]  
->  You can download a sample that contains the completed projects, code, and other files for this walkthrough from the following location:  [http://go.microsoft.com/fwlink/?LinkId=191369](http://go.microsoft.com/fwlink/?LinkId=191369).  
+> For a series of sample workflows, see [SharePoint workflow samples](https://docs.microsoft.com/sharepoint/dev/general-development/sharepoint-workflow-samples).  
   
 ## Prerequisites  
  To perform this walkthrough, you must first create the SiteColumnProjectItem solution by completing [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md).  
@@ -52,7 +52,7 @@ ms.workload:
   
 -   Site columns in SharePoint. For more information, see [Columns](http://go.microsoft.com/fwlink/?LinkId=183547).  
   
-##  <a name="wizardcomponents"></a> Understanding the Wizard Components  
+## Understand the wizard components
  The wizard that is demonstrated in this walkthrough contains several components. The following table describes these components.  
   
 |Component|Description|  
@@ -63,7 +63,7 @@ ms.workload:
 |Project signing manager|This is a helper class, named `ProjectSigningManager`, which is used by the wizard implementation to create a new key.snk file in each new project instance.|  
 |SharePoint commands|These are methods that are used by the wizard data model to call into the local SharePoint site while the wizard is running. Because SharePoint commands must target the .NET Framework 3.5, these commands are implemented in a different assembly than the rest of the wizard code.|  
   
-## Creating the Projects  
+## Create the projects
  To complete this walkthrough, you need to add several projects to the SiteColumnProjectItem solution that you created in [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md):  
   
 -   A WPF project. You will implement the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface and define the wizard UI in this project.  
@@ -72,7 +72,7 @@ ms.workload:
   
  Start the walkthrough by creating the projects.  
   
-#### To create the WPF project  
+#### To create the WPF project
   
 1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open the SiteColumnProjectItem solution.  
   
@@ -102,7 +102,7 @@ ms.workload:
   
 5.  Delete the Class1 code file from the project.  
   
-## Configuring the Projects  
+## Configure the projects
  Before you create the wizard, you must add some code files and assembly references to the projects.  
   
 #### To configure the wizard project  
@@ -159,7 +159,7 @@ ms.workload:
   
      For more information, see [How to: Add or Remove Imported Namespaces &#40;Visual Basic&#41;](../ide/how-to-add-or-remove-imported-namespaces-visual-basic.md).  
   
-#### To configure the SharePointCommands project  
+#### To configure the SharePointcommands project
   
 1.  In **Solution Explorer**, choose the **SharePointCommands** project node.  
   
@@ -173,7 +173,7 @@ ms.workload:
   
 5.  In the **SharePointCommands** project, add another code file that's named Commands.  
   
-6.  Choose the SharePointCommands project, and then, on the menu bar, choose **Project**, **Add Reference**.  
+6.  Choose the SharePointCommands project, and then, on the menu bar, choose **Project** > **Add Reference**.  
   
 7.  Expand the **Assemblies** node, choose the **Extensions** node, and then select the check boxes next to the following assemblies:  
   
@@ -183,7 +183,7 @@ ms.workload:
   
 8.  Choose the **OK** button to add the assemblies to the project.  
   
-## Creating the Wizard Model, Signing Manager, and SharePoint Command IDs  
+## Create the wizard model, signing manager, and SharePoint command IDs
  Add code to the ProjectTemplateWizard project to implement the following components in the sample:  
   
 -   The SharePoint command IDs. These strings identify the SharePoint commands that the wizard uses. Later in this walkthrough, you'll add code to the SharePointCommands project to implement the commands.  
@@ -194,7 +194,7 @@ ms.workload:
   
  For more information about these components, see [Understanding the Wizard Components](#wizardcomponents).  
   
-#### To define the SharePoint command IDs  
+#### To define the SharePoint command IDs
   
 1.  In the ProjectTemplateWizard project, open the CommandIds code file, and then replace the entire contents of this file with the following code.  
   
@@ -215,13 +215,13 @@ ms.workload:
      [!code-vb[SPExtensibility.ProjectItem.SiteColumn#8](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/projectsigningmanager.vb#8)]
      [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#8](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/projectsigningmanager.cs#8)]  
   
-## Creating the Wizard UI  
+## Create the wizard UI
  Add XAML to define the UI of the wizard window and the two user controls that provide the UI for the wizard pages, and add code to define the behavior of the window and user controls. The wizard that you create resembles the built-in wizard for SharePoint projects in Visual Studio.  
   
 > [!NOTE]  
 >  In the following steps, your project will have some compile errors after you add XAML or code to your project. These errors will go away when you add code in later steps.  
   
-#### To create the wizard window UI  
+#### To create the wizard window UI
   
 1.  In the ProjectTemplateWizard project, open the shortcut menu for the WizardWindow.xaml file, and then choose **Open** to open the window in the designer.  
   
@@ -234,7 +234,7 @@ ms.workload:
   
 3.  If you're developing a Visual Basic project, remove the `ProjectTemplateWizard` namespace from the `WizardWindow` class name in the `x:Class` attribute of the `Window` element. This element is in the first line of the XAML. When you're done, the first line should look like the following example.  
   
-    ```  
+    ```xml  
     <Window x:Class="WizardWindow"  
     ```  
   
@@ -245,7 +245,7 @@ ms.workload:
      [!code-vb[SPExtensibility.ProjectItem.SiteColumn#4](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/wizardwindow.xaml.vb#4)]
      [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#4](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/wizardwindow.xaml.cs#4)]  
   
-#### To create the first wizard page UI  
+#### To create the first wizard page UI
   
 1.  In the ProjectTemplateWizard project, open the shortcut menu for the Page1.xaml file, and then choose **Open** to open the user control in the designer.  
   
@@ -255,7 +255,7 @@ ms.workload:
   
 3.  If you are developing a Visual Basic project, remove the `ProjectTemplateWizard` namespace from the `Page1` class name in the `x:Class` attribute of the `UserControl` element. This is in the first line of the XAML. When you are done, the first line should look like the following.  
   
-    ```  
+    ```xml  
     <UserControl x:Class="Page1"  
     ```  
   
@@ -264,7 +264,7 @@ ms.workload:
      [!code-vb[SPExtensibility.ProjectItem.SiteColumn#2](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/page1.xaml.vb#2)]
      [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#2](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/page1.xaml.cs#2)]  
   
-#### To create the second wizard page UI  
+#### To create the second wizard page UI
   
 1.  In the ProjectTemplateWizard project, open the shortcut menu for the Page2.xaml file, and then choose **Open**.  
   
@@ -276,7 +276,7 @@ ms.workload:
   
 3.  If you are developing a Visual Basic project, remove the `ProjectTemplateWizard` namespace from the `Page2` class name in the `x:Class` attribute of the `UserControl` element. This is in the first line of the XAML. When you are done, the first line should look like the following.  
   
-    ```  
+    ```xml  
     <UserControl x:Class="Page2"  
     ```  
   
@@ -285,7 +285,7 @@ ms.workload:
      [!code-vb[SPExtensibility.ProjectItem.SiteColumn#3](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/page2.xaml.vb#3)]
      [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#3](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/page2.xaml.cs#3)]  
   
-## Implementing the Wizard  
+## Implement the wizard
  Define the main functionality of the wizard by implementing the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface. This interface defines the methods that Visual Studio calls when the wizard starts and finishes, and at certain times while the wizard runs.  
   
 #### To implement the wizard  
@@ -297,7 +297,7 @@ ms.workload:
      [!code-vb[SPExtensibility.ProjectItem.SiteColumn#7](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projecttemplatewizard/sitecolumnprojectwizard.vb#7)]
      [!code-csharp[SPExtensibility.ProjectItem.SiteColumn#7](../sharepoint/codesnippet/CSharp/sitecolumnprojectitem/projecttemplatewizard/sitecolumnprojectwizard.cs#7)]  
   
-## Creating the SharePoint Commands  
+## Create the SharePoint commands
  Create two custom commands that call into the SharePoint server object model. One command determines whether the site URL that the user types in the wizard is valid. The other command gets all of the field types from the specified SharePoint site so that users can select which one to use as the basis for their new site column.  
   
 #### To define the SharePoint commands  
@@ -314,9 +314,9 @@ ms.workload:
   
 #### To build your project  
   
-1.  On the menu bar, choose **Build**, **Build Solution**.  
+1.  On the menu bar, choose **Build** > **Build Solution**.  
   
-## Removing the key.snk File from the Project Template  
+## Removing the key.snk file from the project template
  In [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md), the project template that you created contains a key.snk file that is used to sign each Site Column project instance. This key.snk file is no longer necessary because the wizard now generates a new key.snk file for each project. Remove the key.snk file from the project template and remove references to this file.  
   
 #### To remove the key.snk file from the project template  
@@ -327,7 +327,7 @@ ms.workload:
   
 3.  Under the **SiteColumnProjectTemplate** node, open the SiteColumnProjectTemplate.vstemplate file, and then remove the following element from it.  
   
-    ```  
+    ```xml  
     <ProjectItem ReplaceParameters="false" TargetFileName="key.snk">key.snk</ProjectItem>  
     ```  
   
@@ -335,22 +335,22 @@ ms.workload:
   
 5.  Under the **SiteColumnProjectTemplate** node, open the ProjectTemplate.csproj or ProjectTemplate.vbproj file, and then remove the following `PropertyGroup` element from it.  
   
-    ```  
+    ```xml  
     <PropertyGroup>  
       <SignAssembly>true</SignAssembly>  
       <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>  
     </PropertyGroup>  
-    ```  
+    ``` 
   
 6.  Remove the following `None` element.  
   
-    ```  
+    ```xml  
     <None Include="key.snk" />  
     ```  
   
 7.  Save and close the file.  
   
-## Associating the Wizard with the Project Template  
+## Associating the wizard with the project template
  Now that you have implemented the wizard, you must associate the wizard with the **Site Column** project template. There are three procedures you must complete to do this:  
   
 1.  Sign the wizard assembly with a strong name.  
@@ -379,7 +379,7 @@ ms.workload:
   
 2.  Run the following command, replacing *PathToWizardAssembly* with the full path to the built ProjectTemplateWizard.dll assembly for the ProjectTemplateWizard project on your development computer:  
   
-    ```  
+    ```cmd  
     sn.exe -T PathToWizardAssembly  
     ```  
   
@@ -393,7 +393,7 @@ ms.workload:
   
 2.  Near the end of the file, add the following `WizardExtension` element between the `</TemplateContent>` and `</VSTemplate>` tags. Replace the *your token* value of the `PublicKeyToken` attribute with the public key token that you obtained in the previous procedure.  
   
-    ```  
+    ```xml  
     <WizardExtension>  
       <Assembly>ProjectTemplateWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=your token</Assembly>  
       <FullClassName>ProjectTemplateWizard.SiteColumnProjectWizard</FullClassName>  
@@ -404,16 +404,16 @@ ms.workload:
   
 3.  Save and close the file.  
   
-## Adding Replaceable Parameters to the Elements.xml File in the Project Template  
- Add several replaceable parameters to the Elements.xml file in the SiteColumnProjectTemplate project. These parameters are initialized in the `RunStarted` method in the `SiteColumnProjectWizard` class that you defined earlier. When a user creates a Site Column project, Visual Studio automatically replaces these parameters in the Elements.xml file in the new project with the values that they specified in the wizard.  
+## Add replaceable parameters to the Elements.xml file in the project template
+ Add several replaceable parameters to the *Elements.xml* file in the SiteColumnProjectTemplate project. These parameters are initialized in the `RunStarted` method in the `SiteColumnProjectWizard` class that you defined earlier. When a user creates a Site Column project, Visual Studio automatically replaces these parameters in the *Elements.xml* file in the new project with the values that they specified in the wizard.  
   
  A replaceable parameter is a token that begins and ends with the dollar sign ($) character. In addition to defining your own replaceable parameters, you can use built-in parameters that are defined and initialized by the SharePoint project system. For more information, see [Replaceable Parameters](../sharepoint/replaceable-parameters.md).  
   
-#### To add replaceable parameters to the Elements.xml file  
+#### To add replaceable parameters to the Elements.xml file
   
-1.  In the SiteColumnProjectTemplate project, replace the contents of the Elements.xml file with the following XML.  
+1.  In the SiteColumnProjectTemplate project, replace the contents of the *Elements.xml* file with the following XML.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8"?>  
     <Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
       <Field ID="{$guid5$}"   
@@ -429,7 +429,7 @@ ms.workload:
   
 2.  Save and close the file.  
   
-## Adding the Wizard to the VSIX Package  
+## Add the wizard to the VSIX package
  To deploy the wizard with the VSIX package that contains the Site Column project template, add references to the wizard project and the SharePoint commands project to the source.extension.vsixmanifest file in the VSIX project.  
   
 #### To add the wizard to the VSIX package  
@@ -458,9 +458,9 @@ ms.workload:
   
 9. In the **Project** list, choose the **SharePointCommands** project, and then choose the **OK** button.  
   
-10. On the menu bar, choose **Build**, **Build Solution**, and then make sure that the solution builds without errors.  
+10. On the menu bar, choose **Build** > **Build Solution**, and then make sure that the solution builds without errors.  
   
-## Testing the Wizard  
+## Test the wizard
  You are now ready to test the wizard. First, start debugging the SiteColumnProjectItem solution in the experimental instance of Visual Studio. Then, test the wizard for the Site Column project in the experimental instance of Visual Studio. Finally, build and run the project to verify that the site column works as expected.  
   
 #### To start debugging the solution  
@@ -469,17 +469,17 @@ ms.workload:
   
 2.  In the ProjectTemplateWizard project, open the SiteColumnProjectWizard code file, and then add a breakpoint to the first line of code in the `RunStarted` method.  
   
-3.  On the menu bar, choose **Debug**, **Exceptions**.  
+3.  On the menu bar, choose **Debug** > **Exceptions**.  
   
 4.  In the **Exceptions** dialog box, make sure that the **Thrown** and **User-unhandled** check boxes for **Common Language Runtime Exceptions** are cleared, and then choose the **OK** button.  
   
-5.  Start debugging by choosing the **F5** key or, on the menu bar, choosing **Debug**, **Start Debugging**.  
+5.  Start debugging by choosing the **F5** key or, on the menu bar, choosing **Debug** > **Start Debugging**.  
   
      Visual Studio installs the extension to %UserProfile%\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\Contoso\Site Column\1.0 and starts an experimental instance of Visual Studio. You'll test the project item in this instance of Visual Studio.  
   
 #### To test the wizard in Visual Studio  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **File**, **New**, **Project**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **File** > **New** > **Project**.  
   
 2.  Expand the **Visual C#** node or the **Visual Basic** node (depending on the language that your project template supports), expand the **SharePoint** node, and then choose the **2010** node.  
   
@@ -487,7 +487,7 @@ ms.workload:
   
 4.  Verify that the code in the other instance of Visual Studio stops on the breakpoint that you set earlier in the `RunStarted` method.  
   
-5.  Continue to debug the project by choosing the **F5** key or, on the menu bar, choosing **Debug**, **Continue**.  
+5.  Continue to debug the project by choosing the **F5** key or, on the menu bar, choosing **Debug** > **Continue**.  
   
 6.  In the **SharePoint Customization Wizard**, enter the URL of the site that you want to use for debugging, and then choose the **Next** button.  
   
@@ -499,13 +499,13 @@ ms.workload:
   
     -   In the **Name** box, enter **My Yes/No Column**, and then choose the **Finish** button.  
   
-     In **Solution Explorer**, a new project appears and contains a project item that's named **Field1**, and Visual Studio opens the project's Elements.xml file in the editor.  
+     In **Solution Explorer**, a new project appears and contains a project item that's named **Field1**, and Visual Studio opens the project's *Elements.xml* file in the editor.  
   
-8.  Verify that Elements.xml contains the values that you specified in the wizard.  
+8.  Verify that *Elements.xml* contains the values that you specified in the wizard.  
   
 #### To test the site column in SharePoint  
   
-1.  In the experimental instance of Visual Studio, choose the F5 key.  
+1.  In the experimental instance of Visual Studio, choose the **F5** key.  
   
      The site column is packaged and deployed to the SharePoint site that the **Site URL** property of the project specifies. The web browser opens to the default page of this site.  
   
@@ -518,12 +518,12 @@ ms.workload:
   
 4.  In the list of site columns, verify that a **Custom Yes/No Columns** group contains a column that's named **My Yes/No Column**, and then close the web browser.  
   
-## Cleaning up the Development Computer  
+## Clean up the development computer
  After you finish testing the project item, remove the project template from the experimental instance of Visual Studio.  
   
 #### To clean up the development computer  
   
-1.  In the experimental instance of Visual Studio, on the menu bar, choose **Tools**, **Extensions and Updates**.  
+1.  In the experimental instance of Visual Studio, on the menu bar, choose **Tools** > **Extensions and Updates**.  
   
      The **Extensions and Updates** dialog box opens.  
   
@@ -535,11 +535,10 @@ ms.workload:
   
      For information about how to deploy [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extensions, see [Shipping Visual Studio Extensions](/visualstudio/extensibility/shipping-visual-studio-extensions).  
   
-## See Also  
+## See also
  [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md)   
  [Defining Custom SharePoint Project Item Types](../sharepoint/defining-custom-sharepoint-project-item-types.md)   
  [Creating Item Templates and Project Templates for SharePoint Project Items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)   
  [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference)   
  [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md)  
-  
   

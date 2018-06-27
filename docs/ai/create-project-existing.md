@@ -30,4 +30,4 @@ Once you've [installed Visual Studio Tools for AI](installation.md), it's easy t
 
 ## See Also
 
-- [Manually identifying an existing Python environment](../python/managing-python-environments-in-visual-studio.md#manually-identifying-an-existing-environment)
+- [Manually identify an existing Python environment](../python/managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)

@@ -118,13 +118,13 @@ Microsoft.Common.CurrentVersion.targets imports `$(MSBuildProjectFullPath).user`
 
 By convention, many core build logic files import
 
-```
+```xml
 $(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\{TargetFileName}\ImportBefore\*.targets
 ```
 
 before their contents, and
 
-```
+```xml
 $(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\{TargetFileName}\ImportAfter\*.targets
 ```
 
