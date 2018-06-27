@@ -55,7 +55,7 @@ A *service reference* enables a project to access one or more [!INCLUDE[ssAstori
 
 2.  Click **Discover**.
 
-     All services (both, [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] and WCF services) in the current solution are added to the **Services** list.
+     All services (both [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] and WCF services) in the current solution are added to the **Services** list.
 
 3.  In the **Services** list, expand the node for the service that you want to use and select an entity set.
 

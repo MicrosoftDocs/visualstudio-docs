@@ -45,7 +45,7 @@ Stored procedures can be added to the **O/R Designer** and executed as typical <
 
 8.  Select the desired stored procedure in the **Customize** list.
 
-9. Inspect the list of **Method Arguments** and **Class Properties** to verify that the **Method Arguments** map to the appropriate **Class Properties**. Map the original method arguments (`Original_\<ArgumentName>`) to the original properties (`\>PropertyName>` (Original)) for the `Update` and `Delete` commands.
+9. Inspect the list of **Method Arguments** and **Class Properties** to verify that the **Method Arguments** map to the appropriate **Class Properties**. Map the original method arguments (`Original_<ArgumentName>`) to the original properties (`<PropertyName>` (Original)) for the `Update` and `Delete` commands.
 
     > [!NOTE]
     >  By default, method arguments map to class properties when the names match. If changed property names no longer match between the table and the entity class, you might have to select the equivalent class property to map to if the designer cannot determine the correct mapping.
@@ -53,7 +53,7 @@ Stored procedures can be added to the **O/R Designer** and executed as typical <
 10. Click **OK** or **Apply**.
 
     > [!NOTE]
-    >  You can continue to configure the behavior for each class and behavior combination as long as you click **Apply** after you make each change. If you change the class or behavior before you click **Apply**, a warning dialog box appears and provids you an opportunity to apply your changes.
+    >  You can continue to configure the behavior for each class and behavior combination as long as you click **Apply** after you make each change. If you change the class or behavior before you click **Apply**, a warning dialog box appears and provides you an opportunity to apply your changes.
 
 To revert to using the default runtime logic for updates, click the ellipsis next to the **Insert**, **Update**, or **Delete** command in the **Properties** window and then select **Use runtime** in the **Configure Behavior** dialog box.
 
