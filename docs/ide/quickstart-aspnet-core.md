@@ -83,7 +83,7 @@ Congratulations on completing this Quickstart! We hope you learned a little bit 
 
 ## Next steps
 
-Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To see the app running on a publicly-accessible server, select the button below.
+Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To see the app running on a public server, select the following button.
 
 > [!div class="nextstepaction"]
 > [Deploy the app to Azure App Service](..//deployment/quickstart-deploy-to-azure.md)

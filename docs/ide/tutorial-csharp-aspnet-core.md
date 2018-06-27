@@ -174,11 +174,11 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
 11. Choose the **Stop Debugging** button from the toolbar to stop debugging. (Alternatively, press **Shift**+**F5**, or choose **Debug** > **Stop Debugging** from the menu bar.)
 
-   ![Se;ect the Stop Debugging button on the toolbar](../ide/media/csharp-aspnet-stop-debugging.png)
+   ![Select the Stop Debugging button on the toolbar](../ide/media/csharp-aspnet-stop-debugging.png)
 
 ## Next steps
 
-Congratulations on completing this tutorial! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To see the app running on a publicly-accessible server, select the button below.
+Congratulations on completing this tutorial! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To see the app running on a public server, select the following button.
 
 > [!div class="nextstepaction"]
 > [Deploy the app to Azure App Service](..//deployment/quickstart-deploy-to-azure.md)
