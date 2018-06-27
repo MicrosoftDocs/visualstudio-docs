@@ -23,7 +23,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# BscMake Task
+# BscMake task
 > [!IMPORTANT]
 >  BscMake is no longer used by the Visual Studio IDE. Since Visual Studio 2008, browse information is stored automatically in an *.sdf* file in the *Solution* folder.  
   
