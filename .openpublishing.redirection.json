@@ -1260,6 +1260,16 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/how-to-disable-the-hosting-process.md",
+            "redirect_url": "/visualstudio/debugger/debugger-settings-and-preparation",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/hosting-process-vshost-exe.md",
+            "redirect_url": "/visualstudio/debugger/debugger-settings-and-preparation",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/reference/project-and-solution-file-types.md",
             "redirect_url": "/visualstudio/ide/solutions-and-projects-in-visual-studio",
             "redirect_document_id": false
