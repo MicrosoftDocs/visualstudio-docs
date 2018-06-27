@@ -16,14 +16,15 @@ ms.workload:
   - "multiple"
 ---
 # Toolbox, Data Tab
+
 Displays data objects you can add to a forms and components. The **Data** tab of the **Toolbox** appears when you create a project that has an associated designer. The **Toolbox** appears by default in the Visual Studio integrated development environment; if you need to display the **Toolbox**, select **Toolbox** from the **View** menu.
 
 > [!TIP]
-> Running the Data Source Configuration Wizard will automatically create and configure most data items. For more information, see [Add new data sources](../../data-tools/add-new-data-sources.md).
-
+> Running the Data Source Configuration Wizard automatically creates and configures most data items. For more information, see [Add new data sources](../../data-tools/add-new-data-sources.md).
 
 ## UI Element List
- To go directly to the .NET Framework reference page for a component, press **F1** on the item in the **Toolbox** or on the component item in the tray of the designer.
+
+To go directly to the .NET Framework reference page for a component, press **F1** on the item in the **Toolbox** or on the component item in the tray of the designer.
 
 |Name|Description|
 |----------|-----------------|
@@ -34,11 +35,10 @@ Displays data objects you can add to a forms and components. The **Data** tab of
 
 ## See Also
 
-- [Accessing Data in Visual Studio](../../data-tools/accessing-data-in-visual-studio.md)
+- [Access Data in Visual Studio](../../data-tools/accessing-data-in-visual-studio.md)
 - [Visual Studio data tools for .NET](../../data-tools/visual-studio-data-tools-for-dotnet.md)
 - [Dataset tools in Visual Studio](../../data-tools/dataset-tools-in-visual-studio.md)
 - [Bind controls to data in Visual Studio](../../data-tools/bind-controls-to-data-in-visual-studio.md)
 - [Bind Windows Forms controls to data in Visual Studio](../../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
 - [Edit data in datasets](../../data-tools/edit-data-in-datasets.md)
 - [Validate data in datasets](../../data-tools/validate-data-in-datasets.md)
-- [Saving Data](../../data-tools/saving-data.md)
