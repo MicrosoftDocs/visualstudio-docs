@@ -79,7 +79,7 @@ First, you'll create an Node.js web application project.
 
 1. Close the web browser.
 
-Congratulations on completing this Quickstart! We hope you learned a little bit about the Visual Studio IDE. If you'd like to delve deeper into its capabilities, please continue with a tutorial in the **Tutorials** section of the table of contents.
+Congratulations on completing this Quickstart in which you got started with the Visual Studio IDE and Node.js. If you'd like to delve deeper into its capabilities, continue with a tutorial in the **Tutorials** section of the table of contents.
 
 ## Next steps
 

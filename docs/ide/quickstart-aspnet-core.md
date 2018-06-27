@@ -48,7 +48,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
    ![Go To Definition context menu](../ide/media/quickstart-aspnet-gotodefinition.png)
 
-1. Next we'll clean up the `using` directives at the top of the file using a simple shortcut. Choose any of the greyed-out using directives and a [Quick Actions](../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Choose the light bulb, and then choose **Remove Unnecessary Usings**.
+1. Next, clean up the `using` directives at the top of the file using a simple shortcut. Choose any of the grayed-out using directives and a [Quick Actions](../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Choose the light bulb, and then choose **Remove Unnecessary Usings**.
 
      The unnecessary usings are deleted from the file.
 
