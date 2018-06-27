@@ -34,7 +34,7 @@
         ],
         "exclude": [
           "vs-2015",
-          "vs-2017"
+          "missingapi.yml"
         ]
       }
     ],
@@ -50,7 +50,8 @@
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
-          "**/includes/**"
+          "**/includes/**",
+          "missingapi.yml"
         ]
       },
       {
@@ -64,7 +65,8 @@
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
-          "**/includes/**"
+          "**/includes/**",
+          "missingapi.yml"
         ]
       }
     ],
