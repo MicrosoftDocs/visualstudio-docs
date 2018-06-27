@@ -2,7 +2,7 @@
 title: "Create a Node.js and Express app"
 description: In this tutorial, you create an app in using Node.js tools for Visual Studio
 ms.custom: ""
-ms.date: "03/13/2018"
+ms.date: "06/27/2018"
 ms.technology: vs-nodejs
 ms.topic: "tutorial"
 ms.devlang: javascript
@@ -232,7 +232,7 @@ Congratulations on completing this tutorial!
 
 ## Next steps
 
-In this tutorial, you learned how to create and run a Node.js app using Express and hit a breakpoint using the debugger.
-
 > [!div class="nextstepaction"]
-> [Node.js tools for Visual Studio](https://github.com/Microsoft/nodejstools)
+> [Deploy the app to Azure App Service](../deployment/quickstart-deploy-to-azure.md)
+
+In this tutorial, you learned how to create and run a Node.js app using Express and hit a breakpoint using the debugger. To learn more, see  [Node.js tools for Visual Studio on GitHub](https://github.com/Microsoft/nodejstools).

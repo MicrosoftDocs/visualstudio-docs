@@ -2,7 +2,7 @@
 title: "Use Visual Studio to create an ASP.NET Core web app in C#"
 description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
 ms.custom: mvc
-ms.date: 10/10/2017
+ms.date: 06/27/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -82,7 +82,10 @@ First, you'll create an ASP.NET Core web application project. The project type c
 Congratulations on completing this Quickstart! We hope you learned a little bit about the Visual Studio IDE. If you'd like to delve deeper into its capabilities, please continue with a tutorial in the **Tutorials** section of the table of contents.
 
 ## Next steps
-Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To learn more, continue with the following tutorial.
+
+Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To see the app running on a publicly-accessible server, select the button below.
 
 > [!div class="nextstepaction"]
-> [Get started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)
+> [Deploy the app to Azure App Service](..//deployment/quickstart-deploy-to-azure.md)
+
+To learn more, continue with the tutorials, [Get started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md) and [Get started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x).

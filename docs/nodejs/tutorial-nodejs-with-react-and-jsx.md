@@ -15,6 +15,7 @@ ms.workload:
   - "nodejs"
 ---
 # Tutorial: Create a Node.js and React app in Visual Studio
+
 Visual Studio allows you to easily create a Node.js project and leverage IntelliSense and other built-in features that support Node.js. In this tutorial for Visual Studio, you create a Node.js web application project from a Visual Studio template. Then, you create a simple app using React.
 
 In this tutorial, you learn how to:
@@ -40,6 +41,7 @@ In this tutorial, you learn how to:
     If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
 
 ## Create a project
+
 First, create a Node.js web application project.
 
 1. Open Visual Studio 2017.
@@ -54,13 +56,13 @@ First, create a Node.js web application project.
 
     ![Node.js project in Solution Explorer](../nodejs/media/tutorial-nodejs-react-project-structure.png)
 
-    - Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, since the project file does not make custom changes to the Node.js project source.
+    * Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, since the project file does not make custom changes to the Node.js project source.
 
-    - At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
+    * At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
 
-    - The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box.
+    * The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box.
 
-    - Project files such as *server.js* show up under the project node. *server.js* is the project startup file.
+    * Project files such as *server.js* show up under the project node. *server.js* is the project startup file.
 
 ## Add npm packages
 
@@ -360,7 +362,7 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
 ## Next steps
 
-In this tutorial, you learned how to create a Node.js and React app, transpile JSX, and debug. To learn more about Node.js Tools for Visual Studio, see the Wiki page.
-
 > [!div class="nextstepaction"]
-> [Node.js tools for Visual Studio](https://github.com/Microsoft/nodejstools)
+> [Deploy the app to Azure App Service](../deployment/quickstart-deploy-to-azure.md)
+
+In this tutorial, you learned how to create a Node.js and React app, transpile JSX, and debug. To learn more, see  [Node.js tools for Visual Studio on GitHub](https://github.com/Microsoft/nodejstools).
