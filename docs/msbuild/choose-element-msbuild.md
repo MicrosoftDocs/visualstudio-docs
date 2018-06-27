@@ -22,7 +22,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Choose Element (MSBuild)
+# Choose element (MSBuild)
 Evaluates child elements to select one set of `ItemGroup` elements and/or `PropertyGroup` elements to evaluate.  
 
  \<Project>  
@@ -43,20 +43,20 @@ Evaluates child elements to select one set of `ItemGroup` elements and/or `Prope
 </Choose>  
 ```  
 
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
 
 ### Attributes  
  None.  
 
-### Child Elements  
+### Child elements  
 
 |Element|Description|  
 |-------------|-----------------|  
 |[Otherwise](../msbuild/otherwise-element-msbuild.md)|Optional element.<br /><br /> Specifies the block of code `PropertyGroup` and `ItemGroup` elements to evaluate if the conditions of all `When` elements evaluate to `false`. There may be zero or one `Otherwise` elements in a `Choose` element, and it must be the last element.|  
 |[When](../msbuild/when-element-msbuild.md)|Required element.<br /><br /> Specifies a possible block of code for the `Choose` element to select. There may be one or more `When` elements in a `Choose` element.|  
 
-### Parent Elements  
+### Parent elements  
 
 |Element|Description|  
 |-------------|-----------------|  
@@ -115,6 +115,6 @@ Evaluates child elements to select one set of `ItemGroup` elements and/or `Prope
 </Project>  
 ```  
 
-## See Also  
+## See also  
  [Conditional Constructs](../msbuild/msbuild-conditional-constructs.md)   
- [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
+ [Project File Schema reference](../msbuild/msbuild-project-file-schema-reference.md)

@@ -21,8 +21,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# AL (Assembly Linker) Task
-The AL task wraps AL.exe, a tool that is distributed with the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. This Assembly Linker tool is used to create an assembly with a manifest from one or more files that are either modules or resource files. Compilers and development environments might already provide these capabilities, so it is often not necessary to use this task directly. The Assembly Linker is most useful to developers needing to create a single assembly from multiple component files, such as those that might be produced from mixed-language development. This task does not combine the modules into a single assembly file; the individual modules must still be distributed and available in order for the resulting assembly to load correctly. For more information on AL.exe, see [Al.exe (Assembly Linker)](/dotnet/framework/tools/al-exe-assembly-linker).  
+# AL (Assembly Linker) task
+The AL task wraps *AL.exe*, a tool that is distributed with the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. This Assembly Linker tool is used to create an assembly with a manifest from one or more files that are either modules or resource files. Compilers and development environments might already provide these capabilities, so it is often not necessary to use this task directly. The Assembly Linker is most useful to developers needing to create a single assembly from multiple component files, such as those that might be produced from mixed-language development. This task does not combine the modules into a single assembly file; the individual modules must still be distributed and available in order for the resulting assembly to load correctly. For more information on *AL.exe*, see [Al.exe (Assembly Linker)](/dotnet/framework/tools/al-exe-assembly-linker).  
   
 ## Parameters  
  The following table describes the parameters of the `AL` task.  
@@ -65,7 +65,7 @@ The AL task wraps AL.exe, a tool that is distributed with the [!INCLUDE[winsdklo
 |`Win32Resource`|Optional `String` parameter.<br /><br /> Inserts a Win32 resource (.res file) in the output file. For more information, see the documentation for the `/win32res` option in [Al.exe (Assembly Linker)](/dotnet/framework/tools/al-exe-assembly-linker).|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension Base Class](../msbuild/tooltaskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).  
   
 ## Example  
  The following example creates an assembly with the specified options.  
@@ -87,6 +87,6 @@ The AL task wraps AL.exe, a tool that is distributed with the [!INCLUDE[winsdklo
 </AL>  
 ```  
   
-## See Also  
- [Task Reference](../msbuild/msbuild-task-reference.md)   
+## See also  
+ [Task reference](../msbuild/msbuild-task-reference.md)   
  [Tasks](../msbuild/msbuild-tasks.md)
