@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Building multiple projects in parallel with MSBuild
+# Build multiple projects in parallel with MSBuild
 You can use MSBuild to build multiple projects faster by running them in parallel. To run builds in parallel, you use the following settings on a multi-core or multiple processor computer:  
   
 -   The `/maxcpucount` switch at a command prompt.  
