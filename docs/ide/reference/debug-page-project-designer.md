@@ -20,7 +20,7 @@ ms.workload:
 
 Use the **Debug** page of the **Project Designer** to set properties for debugging behavior in a Visual Basic or C# project.
 
-To access the **Debug** page, select a project node in **Solution Explorer**. On the **Project** menu, choose *ProjectName***Properties**. When the **Project Designer** appears, click the **Debug** tab.
+To access the **Debug** page, select a project node in **Solution Explorer**. On the **Project** menu, choose **\<ProjectName> Properties**. When the **Project Designer** appears, click the **Debug** tab.
 
 > [!NOTE]
 > This topic does not apply to UWP apps. See [Start a debug session (VB, C#, C++ and XAML)](../../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md) for UWP apps.
