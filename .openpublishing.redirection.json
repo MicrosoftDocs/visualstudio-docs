@@ -332,7 +332,7 @@
         },
         {
             "source_path": "docs/data-tools/saving-data.md",
-            "redirect_url": "visualstudio/data-tools/save-data-back-to-the-database",
+            "redirect_url": "/visualstudio/data-tools/save-data-back-to-the-database",
             "redirect_document_id": false
         },
         {
