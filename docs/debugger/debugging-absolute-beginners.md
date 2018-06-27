@@ -76,7 +76,7 @@ Next, we will create an application that has a few bugs.
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-    If you need to install the workload but already have Visual Studio, click **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the .**NET desktop develoment** (or .**NET Core cross platform development**) workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, click **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the .**NET desktop development** (or .**NET Core cross platform development**) workload, then choose **Modify**.
 
 1. Open Visual Studio, and then choose **File** > **New** > **Project**.
 
@@ -85,6 +85,8 @@ Next, we will create an application that has a few bugs.
     For .NET Framework, in the **New Project** dialog box, choose **Visual C#**, **Windows Desktop** from the installed templates section, and then in the middle pane select **Console App (.NET Framework)**.
 
     For .NET Core, in the **New Project** dialog box, choose **Visual C#**, **.NET Core** from the installed templates section, and then in the middle pane select **Console App (.NET Core)**.
+
+    If you don't see these template, you must install the appropriate workload (see earlier steps).
 
 1. In the **Name** field, type **ConsoleApp-FirstApp** and click **OK**.
 
@@ -171,7 +173,7 @@ Next, we will create an application that has a few bugs.
     }
     ```
 
-    Our intent for this code is to display the galaxy name, the distance to the galaxy, and the galaxy type in a list. To debug, it is critical to understand the intent of the code. Here is the format for one line from the list that we want to show in the output:
+    Our intent for this code is to display the galaxy name, the distance to the galaxy, and the galaxy type all in a list. To debug, it is important to understand the intent of the code. Here is the format for one line from the list that we want to show in the output:
 
     *galaxy name*, *distance*, *galaxy type*.
 
