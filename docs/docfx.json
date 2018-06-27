@@ -86,7 +86,7 @@
       ]
     },
     "template": [],
-    "xref": ["missingapi.yml"],
+    "xref": ["missingapi.yml", "vs.140.zip"],
     "dest": "vsdocsdocs",
     "groups": {
       "vs-2015": {
