@@ -176,7 +176,7 @@ You can set a breakpoint in a text template. If you start the application in deb
 
 ### Passing parameters in the constructor
 
-Usually a template must import some data from other parts of the application. To make this easy, the code built by the template is a partial class. You can create another part of the same class in another file in your project. That file can include a constructor with parameters, properties and functions that can accessed both by the code that is embedded in the template, and by the rest of the application.
+Usually a template must import some data from other parts of the application. To make this easy, the code built by the template is a partial class. You can create another part of the same class in another file in your project. That file can include a constructor with parameters, properties and functions that can be accessed both by the code that is embedded in the template, and by the rest of the application.
 
 For example, you could create a separate file **MyWebPageCode.cs**:
 
