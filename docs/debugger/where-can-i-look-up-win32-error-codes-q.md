@@ -26,9 +26,8 @@ WINERROR.H in the INCLUDE directory of your default system installation contains
   
  You can look up an error code by typing the code in the **Watch** window or the **QuickWatch** dialog box. For example:  
   
-```  
-0x80000004,hr  
-```  
+`0x80000004,hr` 
+
   
 ## See Also  
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)   
