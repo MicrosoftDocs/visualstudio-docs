@@ -15,7 +15,7 @@ ms.workload:
 
 This topic lists the messages that you can encounter when you work with the O/R Designer.
 
-## In This Section
+## In this section
 
  [Cannot create an association \<association name> - property listed twice](../data-tools/cannot-create-an-association-association-name-property-listed-twice.md)
 
@@ -55,5 +55,5 @@ This topic lists the messages that you can encounter when you work with the O/R 
 
 ## See also
 
-- [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
+- [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)
 - [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index)
