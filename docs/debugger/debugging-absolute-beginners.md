@@ -62,9 +62,9 @@ Running an app within a debugger, also called *debugging mode*, means that the d
 
 In Visual Studio, you enter debugging mode by using **F5** (or the **Debug** > **Start Debugging** menu command or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging")) in the Debug Toolbar. If any exceptions occur, Visual Studio’s Exception Helper takes you to the exact point where the exception occurred and provides other helpful information.
 
-If you didn't get an exception, you probably have a good idea where to look for the problem in your code. This where you use *breakpoints* with the debugger to give yourself a chance to examine your code more carefully. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio the debugger should pause your running code so you can take a look at the values of variables, or the behavior of memory, or and the sequence in which code runs.
+If you didn't get an exception, you probably have a good idea where to look for the problem in your code. This where you use *breakpoints* with the debugger to give yourself a chance to examine your code more carefully. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should pause your running code so you can take a look at the values of variables, or the behavior of memory, or the sequence in which code runs.
 
-In Visual Studio, you can quickly set a breakpoint by clicking in the left margin next to a line of code. Or place the cursor on a line and press F9.
+In Visual Studio, you can quickly set a breakpoint by clicking in the left margin next to a line of code. Or place the cursor on a line and press **F9**.
 
 To help illustrate these concepts, we take you through some example code that already has several bugs. We are using C#, but the debugging features apply to Visual Basic, C++, JavaScript, Python, and other supported languages.
 
