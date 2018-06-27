@@ -28,7 +28,7 @@ You might also consider if it's better to use [build or release management](use-
 
 ## Install the test controller and test agents
 
-You can download agents for Visual Studio 2017 from [visualstudio.com](https://visualstudio.microsoft.com/downloads/?q=agents). Scroll to the bottom of the page, and look for *Agents for Visual Studio 2017*. Select either *Agent* or *Controller*, and then choose *Download*. Run the downloaded executable to install the test agent or controller.
+You can download agents for Visual Studio 2017 from [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/?q=agents). Scroll to the bottom of the page, and look for *Agents for Visual Studio 2017*. Select either *Agent* or *Controller*, and then choose *Download*. Run the downloaded executable to install the test agent or controller.
 
 You can download agents for Visual Studio 2015 and Visual Studio 2013 from the [older downloads](https://visualstudio.microsoft.com/vs/older-downloads/) page.
 

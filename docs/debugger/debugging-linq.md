@@ -47,7 +47,7 @@ ms.workload:
   
  If you step through the following example code, the debugger highlights the query declaration, or query creation, as a single statement.  
   
-```  
+```vb
 Function MyFunction(ByVal x As Char)  
     Return True  
 End Function  
@@ -70,7 +70,7 @@ End Sub
 ### Replacing a Predicate with a Function to Enable Stepping (Visual Basic)  
  If you have to step through predicate code for debugging purposes, you can replace the predicate with a call to a function that contains the original predicate code. For example, suppose you have this code:  
   
-```  
+```vb
 Dim items() as integer ={1, 2, 3, 4, 5, 6, 7, 8, 9, 10}  
   
 ' Get the even numbers  
@@ -83,7 +83,7 @@ Next
   
  You can move the predicate code to a new function, called `IsEven`:  
   
-```  
+```vb
 Dim items () as integer ={1, 2, 3, 4, 5, 6, 7, 8, 9, 10}  
   
 ' Get the even numbers  

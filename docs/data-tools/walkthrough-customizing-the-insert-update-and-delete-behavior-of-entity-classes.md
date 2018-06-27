@@ -16,9 +16,9 @@ ms.workload:
 ---
 # Walkthrough: Customizing the insert, update, and delete behavior of entity classes
 
-The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides a visual design surface for creating and editing [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes (entity classes) that are based on objects in a database. By using [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index), you can use LINQ technology to access SQL databases. For more information, see [LINQ (Language-Integrated Query)](/dotnet/csharp/linq/).
+The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides a visual design surface for creating and editing LINQ to SQL classes (entity classes) that are based on objects in a database. By using [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index), you can use LINQ technology to access SQL databases. For more information, see [LINQ (Language-Integrated Query)](/dotnet/csharp/linq/).
 
-By default, the logic to perform updates is provided by the [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] runtime. The runtime creates default Insert, Update, and Delete statements based on the schema of the table (the column definitions and primary key information). When you do not want to use the default behavior, you can configure the update behavior and designate specific stored procedures for performing the necessary Inserts, Updates, and Deletes required to work with the data in the database. You can also do this when the default behavior is not generated, for example, when your entity classes map to views. Additionally, you can override the default update behavior when the database requires table access through stored procedures. For more information, see [Customizing Operations By Using Stored Procedures](/dotnet/framework/data/adonet/sql/linq/customizing-operations-by-using-stored-procedures).
+By default, the logic to perform updates is provided by the LINQ to SQL runtime. The runtime creates default Insert, Update, and Delete statements based on the schema of the table (the column definitions and primary key information). When you do not want to use the default behavior, you can configure the update behavior and designate specific stored procedures for performing the necessary Inserts, Updates, and Deletes required to work with the data in the database. You can also do this when the default behavior is not generated, for example, when your entity classes map to views. Additionally, you can override the default update behavior when the database requires table access through stored procedures. For more information, see [Customizing Operations By Using Stored Procedures](/dotnet/framework/data/adonet/sql/linq/customizing-operations-by-using-stored-procedures).
 
 > [!NOTE]
 > This walkthrough requires the availability of the **InsertCustomer**, **UpdateCustomer**, and **DeleteCustomer** stored procedures for the Northwind database.
@@ -27,7 +27,7 @@ This walkthrough provides the steps that you must follow to override the default
 
 During this walkthrough, you will learn how to perform the following tasks:
 
--   Create a new Windows Forms application and add a [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] file to it.
+-   Create a new Windows Forms application and add a LINQ to SQL file to it.
 
 -   Create an entity class that is mapped to the Northwind Customers table.
 
@@ -37,7 +37,7 @@ During this walkthrough, you will learn how to perform the following tasks:
 
 -   Implement save functionality for the form.
 
--   Create <xref:System.Data.Linq.DataContext> methods by adding stored procedures to the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)].
+-   Create <xref:System.Data.Linq.DataContext> methods by adding stored procedures to the O/R Designer.
 
 -   Configure the Customer class to use stored procedures to perform Inserts, Updates, and Deletes.
 
@@ -61,13 +61,13 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Creating an Application and Adding LINQ to SQL Classes
 
-Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes and displaying the data on a Windows Form, create a new Windows Forms application and add a LINQ to SQL Classes file.
+Because you will be working with LINQ to SQL classes and displaying the data on a Windows Form, create a new Windows Forms application and add a LINQ to SQL Classes file.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
 ### To create a new Windows Forms Application project that contains LINQ to SQL classes
 
-1. In Visual Studio, on the **File** menu, select **New**, **Project...**.
+1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
 2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
 
@@ -83,22 +83,22 @@ Because you will be working with [!INCLUDE[vbtecdlinq](../data-tools/includes/vb
 
 6.  Click **Add**.
 
-     An empty LINQ to SQL Classes file (Northwind.dbml) is added to the project, and the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] opens.
+     An empty LINQ to SQL Classes file (Northwind.dbml) is added to the project, and the O/R Designer opens.
 
 ## Creating the Customer Entity Class and Object Data Source
 
-Create [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes that are mapped to database tables by dragging tables from **Server Explorer**/**Database Explorer** onto the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)]. The result is LINQ to SQL entity classes that map to the tables in the database. After you create entity classes, they can be used as object data sources just like other classes that have public properties.
+Create LINQ to SQL classes that are mapped to database tables by dragging tables from **Server Explorer**/**Database Explorer** onto the O/R Designer. The result is LINQ to SQL entity classes that map to the tables in the database. After you create entity classes, they can be used as object data sources just like other classes that have public properties.
 
 ### To create a Customer entity class and configure a data source with it
 
 1.  In **Server Explorer**/**Database Explorer**, locate the Customer table in the SQL Server version of the Northwind sample database.
 
-2.  Drag the **Customers** node from **Server Explorer**/**Database Explorer** onto the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)] surface.
+2.  Drag the **Customers** node from **Server Explorer**/**Database Explorer** onto the O/R Designer surface.
 
      An entity class named **Customer** is created. It has properties that correspond to the columns in the Customers table. The entity class is named **Customer** (not **Customers**) because it represents a single customer from the Customers table.
 
     > [!NOTE]
-    >  This renaming behavior is called *pluralization*. It can be turned on or off in the [Options Dialog Box](../ide/reference/options-dialog-box-visual-studio.md). For more information, see [How to: Turn pluralization on and off (O/R Designer)](../data-tools/how-to-turn-pluralization-on-and-off-o-r-designer.md).
+    > This renaming behavior is called *pluralization*. It can be turned on or off in the [Options Dialog Box](../ide/reference/options-dialog-box-visual-studio.md). For more information, see [How to: Turn pluralization on and off (O/R Designer)](../data-tools/how-to-turn-pluralization-on-and-off-o-r-designer.md).
 
 3.  On the **Build** menu, click **Build UpdatingwithSProcsWalkthrough** to build the project.
 
@@ -111,12 +111,12 @@ Create [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] classes t
 7.  Expand the **UpdatingwithSProcsWalkthrough** node and locate and select the **Customer** class.
 
     > [!NOTE]
-    >  If the **Customer** class is not available, cancel out of the wizard, build the project, and run the wizard again.
+    > If the **Customer** class is not available, cancel out of the wizard, build the project, and run the wizard again.
 8.  Click **Finish** to create the data source and add the **Customer** entity class to the **Data Sources** window.
 
 ## Creating a DataGridView to Display the Customer Data on a Windows Form
 
-Create controls that are bound to entity classes by dragging [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] data source items from the **Data Sources** window onto a Windows Form.
+Create controls that are bound to entity classes by dragging LINQ to SQL data source items from the **Data Sources** window onto a Windows Form.
 
 ### To add controls that are bound to the entity classes
 
@@ -153,7 +153,7 @@ Create controls that are bound to entity classes by dragging [!INCLUDE[vbtecdlin
 
 ## Implementing Save Functionality
 
-By default, the save button is not enabled and save functionality is not implemented. Also, code is not automatically added to save changed data to the database when data-bound controls are created for object data sources. This section explains how to enable the save button and implement save functionality for [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] objects.
+By default, the save button is not enabled and save functionality is not implemented. Also, code is not automatically added to save changed data to the database when data-bound controls are created for object data sources. This section explains how to enable the save button and implement save functionality for LINQ to SQL objects.
 
 ### To implement save functionality
 
@@ -179,15 +179,15 @@ By default, the save button is not enabled and save functionality is not impleme
 
 ### To override the default update behavior
 
-1.  Open the LINQ to SQL file in the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)]. (Double-click the **Northwind.dbml** file in **Solution Explorer**.)
+1.  Open the LINQ to SQL file in the O/R Designer. (Double-click the **Northwind.dbml** file in **Solution Explorer**.)
 
 2.  In **Server Explorer**/**Database Explorer**, expand the Northwind databases **Stored Procedures** node and locate the **InsertCustomers**, **UpdateCustomers**, and **DeleteCustomers** stored procedures.
 
-3.  Drag all three stored procedures onto the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)].
+3.  Drag all three stored procedures onto the O/R Designer.
 
      The stored procedures are added to the methods pane as <xref:System.Data.Linq.DataContext> methods. For more information, see [DataContext Methods (O/R Designer)](../data-tools/datacontext-methods-o-r-designer.md).
 
-4.  Select the **Customer** entity class in the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)].
+4.  Select the **Customer** entity class in the O/R Designer.
 
 5.  In the **Properties** window, select the **Insert** property.
 
@@ -200,7 +200,7 @@ By default, the save button is not enabled and save functionality is not impleme
 9. Click **Apply** to save the configuration for the selected Class and Behavior.
 
     > [!NOTE]
-    >  You can continue to configure the behavior for each class/behavior combination as long as you click **Apply** after you make each change. If you change the class or behavior before you click **Apply**, a warning dialog box providing an opportunity to apply any changes will appear.
+    > You can continue to configure the behavior for each class/behavior combination as long as you click **Apply** after you make each change. If you change the class or behavior before you click **Apply**, a warning dialog box providing an opportunity to apply any changes will appear.
 
 10. Select **Update** in the **Behavior** list.
 
@@ -213,7 +213,7 @@ By default, the save button is not enabled and save functionality is not impleme
 13. Map the **Original_CustomerID** method argument to the **CustomerID (Original)** class property.
 
     > [!NOTE]
-    >  By default, method arguments will map to class properties when the names match. If property names are changed and no longer match between the table and the entity class, you might have to select the equivalent class property to map to if the O/R Designer cannot determine the correct mapping. Additionally, if method arguments do not have valid class properties to map to, you can set the **Class Properties** value to **(None)**.
+    > By default, method arguments will map to class properties when the names match. If property names are changed and no longer match between the table and the entity class, you might have to select the equivalent class property to map to if the O/R Designer cannot determine the correct mapping. Additionally, if method arguments do not have valid class properties to map to, you can set the **Class Properties** value to **(None)**.
 
 14. Click **Apply** to save the configuration for the selected Class and Behavior.
 
@@ -228,15 +228,13 @@ By default, the save button is not enabled and save functionality is not impleme
 19. Click **OK**.
 
 > [!NOTE]
-> Although it is not an issue for this particular walkthrough, it is worth noting that [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] handles database-generated values automatically for identity (auto-increment), rowguidcol (database-generated GUID), and timestamp columns during Inserts and Updates. Database-generated values in other column types will unexpectedly result in a null value. To return the database-generated values, you should manually set <xref:System.Data.Linq.Mapping.ColumnAttribute.IsDbGenerated%2A> to `true` and <xref:System.Data.Linq.Mapping.ColumnAttribute.AutoSync%2A> to one of the following: <xref:System.Data.Linq.Mapping.AutoSync>, <xref:System.Data.Linq.Mapping.AutoSync>, or <xref:System.Data.Linq.Mapping.AutoSync>.
+> Although it is not an issue for this particular walkthrough, it is worth noting that LINQ to SQL handles database-generated values automatically for identity (auto-increment), rowguidcol (database-generated GUID), and timestamp columns during Inserts and Updates. Database-generated values in other column types will unexpectedly result in a null value. To return the database-generated values, you should manually set <xref:System.Data.Linq.Mapping.ColumnAttribute.IsDbGenerated%2A> to `true` and <xref:System.Data.Linq.Mapping.ColumnAttribute.AutoSync%2A> to one of the following: [AutoSync.Always](<xref:System.Data.Linq.Mapping.AutoSync.Always>), [AutoSync.OnInsert](<xref:System.Data.Linq.Mapping.AutoSync.OnInsert>), or [AutoSync.OnUpdate](<xref:System.Data.Linq.Mapping.AutoSync.OnUpdate>).
 
-## Testing the application
+## Test the application
 
 Run the application again to verify that the **UpdateCustomers** stored procedure correctly updates the customer record in the database.
 
-### To test the application
-
-1.  Press F5.
+1.  Press **F5**.
 
 2.  Modify a record in the grid to test the Update behavior.
 
@@ -254,14 +252,14 @@ Run the application again to verify that the **UpdateCustomers** stored procedur
 
 9. Close the form.
 
-10. Press F5 and verify that the deleted record was removed from the database.
+10. Press **F5** and verify that the deleted record was removed from the database.
 
     > [!NOTE]
     > If your application uses SQL Server Express Edition, depending on the value of the **Copy to Output Directory** property of the database file, the changes may not appear when you press F5 in step 10.
 
 ## Next steps
 
-Depending on your application requirements, there are several steps that you may want to perform after you create [!INCLUDE[vbtecdlinq](../data-tools/includes/vbtecdlinq_md.md)] entity classes. Some enhancements you could make to this application include the following:
+Depending on your application requirements, there are several steps that you may want to perform after you create LINQ to SQL entity classes. Some enhancements you could make to this application include the following:
 
 - Implement concurrency checking during updates. For information, see [Optimistic Concurrency: Overview](/dotnet/framework/data/adonet/sql/linq/optimistic-concurrency-overview).
 
