@@ -331,6 +331,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/data-tools/saving-data.md",
+            "redirect_url": "/visualstudio/data-tools/save-data-back-to-the-database",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/debugger/0x-2x-4x-msaa-variants.md",
             "redirect_url": "/visualstudio/debugger/graphics/0x-2x-4x-msaa-variants",
             "redirect_document_id": false
@@ -1252,6 +1257,21 @@
         {
             "source_path": "docs/ide/working-with-visual-cpp-code-class-designer.md",
             "redirect_url": "/visualstudio/ide/class-designer/working-with-visual-cpp-code",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/how-to-disable-the-hosting-process.md",
+            "redirect_url": "/visualstudio/debugger/debugger-settings-and-preparation",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/hosting-process-vshost-exe.md",
+            "redirect_url": "/visualstudio/debugger/debugger-settings-and-preparation",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/reference/project-and-solution-file-types.md",
+            "redirect_url": "/visualstudio/ide/solutions-and-projects-in-visual-studio",
             "redirect_document_id": false
         },
         {
@@ -5399,7 +5419,7 @@
            "source_path":  "scripting-docs/javascript/reference/at-set-statement-javascript.md",
            "redirect_url":  "https://developer.mozilla.org/docs/Web/JavaScript/Microsoft_JavaScript_extensions/at-set",
            "redirect_document_id":  false
-       },        
+       },
         {
             "source_path": "docs/cross-platform/visual-studio-tools-for-unity-azure-configure.md",
             "redirect_url": "/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer",
