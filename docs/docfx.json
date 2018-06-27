@@ -26,16 +26,6 @@
           "**/includes/**",
           "missingapi.yml"
         ]
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/**.yml"
-        ],
-        "exclude": [
-          "vs-2015",
-          "missingapi.yml"
-        ]
       }
     ],
     "resource": [
@@ -63,6 +53,7 @@
         ],
         "group": "vs-2017",
         "exclude": [
+          "vs-2015",
           "**/obj/**",
           "vsdocsdocs/**",
           "**/includes/**",
