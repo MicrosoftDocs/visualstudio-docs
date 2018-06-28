@@ -1,7 +1,7 @@
 ---
 title: "Get started with C# and ASP.NET Core in Visual Studio"
 ms.custom: ""
-ms.date: 12/11/2017
+ms.date: 06/27/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -60,9 +60,9 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 ##### Option 1: Use the New Project dialog box
 
-1. Click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
+1. Select the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
 
-   ![Click the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vs-open-visual-studio-installer-generic.png)
+   ![Select the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vs-open-visual-studio-installer-generic.png)
 
 2. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, and then choose **Modify**.
 
@@ -129,7 +129,7 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
 1. Choose the **IIS Express** button in the IDE to build and run the app in Debug mode. (Alternatively, press **F5**, or choose **Debug > Start Debugging** from the menu bar.)
 
-   ![Click the IIS Express button in Visual Studio](../ide/media/csharp-aspnet-iis-express-button.png)
+   ![Select the IIS Express button in Visual Studio](../ide/media/csharp-aspnet-iis-express-button.png)
 
   > [!NOTE]
   > If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then open it by using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
@@ -174,11 +174,13 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
 11. Choose the **Stop Debugging** button from the toolbar to stop debugging. (Alternatively, press **Shift**+**F5**, or choose **Debug** > **Stop Debugging** from the menu bar.)
 
-   ![Click the Stop Debugging button on the toolbar](../ide/media/csharp-aspnet-stop-debugging.png)
+   ![Select the Stop Debugging button on the toolbar](../ide/media/csharp-aspnet-stop-debugging.png)
 
 ## Next steps
 
-Congratulations on completing this tutorial! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To learn even more, continue with the following tutorial.
+Congratulations on completing this tutorial! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To see the app running on a public server, select the following button.
 
- > [!div class="nextstepaction"]
- > [Get started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)
+> [!div class="nextstepaction"]
+> [Deploy the app to Azure App Service](..//deployment/quickstart-deploy-to-azure.md)
+
+You can also learn about using the Model-View-Controller (MVC) framework in ASP.NET Core by following the tutorial, [Get started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x).

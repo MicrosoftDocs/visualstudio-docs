@@ -1,6 +1,6 @@
 ---
 title: Debug Page, Project Designer
-ms.date: 11/04/2016
+ms.date: 06/27/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -18,66 +18,64 @@ ms.workload:
 ---
 # Debug Page, Project Designer
 
+Use the **Debug** page of the **Project Designer** to set properties for debugging behavior in a Visual Basic or C# project.
+
+To access the **Debug** page, select a project node in **Solution Explorer**. On the **Project** menu, choose **\<ProjectName> Properties**. When the **Project Designer** appears, click the **Debug** tab.
+
 > [!NOTE]
-> This topic does not apply to UWP apps. See [Start a debug session (VB, C#, C++ and XAML)](../../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md) in the Windows Dev Center.
-
- Use the **Debug** page of the **Project Designer** to set properties for debugging behavior in a Visual Basic or C# project.
-
- To access the **Debug** page, select a project node in **Solution Explorer**. On the **Project** menu, choose *ProjectName***Properties**. When the **Project Designer** appears, click the **Debug** tab.
+> This topic does not apply to UWP apps. See [Start a debug session (VB, C#, C++ and XAML)](../../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md) for UWP apps.
 
 ## Configuration and Platform
- The following options allow you to select the configuration and platform to display or modify.
 
- **Configuration**
+The following options allow you to select the configuration and platform to display or modify.
 
- Specifies which configuration settings to display or modify. The settings can be **Debug** (default), **Release**, or **All Configurations**.
+**Configuration**
 
- **Platform**
+Specifies which configuration settings to display or modify. The settings can be **Debug** (default), **Release**, or **All Configurations**.
 
- Specifies which platform settings to display or modify. The choices can include **Any CPU** (default), **x64**, and **x86**.
+**Platform**
 
-## Start Action
- **Start Action** indicates the item to start when the application is debugged: the project, a custom program, a URL, or nothing. By default, this option is set to **Start project**. The **Start Action** setting on the **Debug** page determines the value of the `StartAction` property.
+Specifies which platform settings to display or modify. The choices can include **Any CPU** (default), **x64**, and **x86**.
 
- **Start project**
+## Start action
 
- Choose this option to specify that the executable (for Windows Application and Console Application projects) should be started when the application is debugged. This option is selected by default.
+**Start action** indicates the item to start when the application is debugged: the project, a custom program, a URL, or nothing. By default, this option is set to **Start project**. The **Start Action** setting on the **Debug** page determines the value of the `StartAction` property.
 
- **Start external program**
+**Start project**
 
- Choose this option to specify that a specific program should be started when the application is debugged.
+Choose this option to specify that the executable (for Windows Application and Console Application projects) should be started when the application is debugged. This option is selected by default.
 
- **Start browser with URL**
+**Start external program**
 
- Choose this option to specify that a particular URL should be accessed when the application is debugged.
+Choose this option to specify that a specific program should be started when the application is debugged.
 
-## Start Options
- **Command line arguments**
+**Start browser with URL**
 
- In this text box, enter the command-line arguments to use for debugging.
+Choose this option to specify that a particular URL should be accessed when the application is debugged.
 
- **Working directory**
+## Start options
 
- In this text box, enter the directory from which the project will be launched. Or click the Browse button (**...**) to choose a directory.
+**Command line arguments**
 
- **Use remote machine**
+In this text box, enter the command-line arguments to use for debugging.
 
- To debug the application from a remote computer, select this check box, and enter the path to the remote computer in the text box.
+**Working directory**
 
-## Enable Debuggers
- **Enable unmanaged code debugging**
+In this text box, enter the directory from which the project will be launched. Or click the Browse button (**...**) to choose a directory.
 
- This option specifies whether debugging of native code is supported. Select this check box if you are making calls to COM objects or if you start a custom program written in native code that calls your project and you must debug the native code. Clear this check box to disable debugging of unmanaged code. This check box is cleared by default.
+**Use remote machine**
 
- **Enable SQL Server debugging**
+To debug the application from a remote computer, select this check box, and enter the path to the remote computer in the text box.
 
- Select or clear this check box to enable or disable debugging of SQL procedures from your Visual Basic application. This check box is cleared by default.
+## Debugger engines
 
- **Enable the Visual Studio hosting process**
+**Enable native code debugging**
 
- Select this check box to enable the Visual Studio hosting process. This check box is selected by default. For more information, see [Hosting Process (vshost.exe)](../../ide/hosting-process-vshost-exe.md).
+This option specifies whether debugging of native code is supported. Select this check box if you are making calls to COM objects or if you start a custom program written in native code that calls your project and you must debug the native code. Clear this check box to disable debugging of unmanaged code. This check box is cleared by default.
 
- To debug in a security zone, you must enable this option and **Debug this application with the selected permission set** in the [Advanced Security Settings Dialog Box](../../ide/reference/advanced-security-settings-dialog-box.md).
+**Enable SQL Server debugging**
+
+Select or clear this check box to enable or disable debugging of SQL procedures from your Visual Basic application. This check box is cleared by default.
 
 ## See also
 
