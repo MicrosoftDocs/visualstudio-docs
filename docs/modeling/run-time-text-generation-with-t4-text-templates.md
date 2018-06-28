@@ -49,7 +49,7 @@ Using a template in your application makes it is easier to see the final form of
 
 ### To create a run-time text template
 
-1. In Solution Explorer, on the shortcut menu of your project, choose **Add**, **New Item**.
+1. In Solution Explorer, on the shortcut menu of your project, choose **Add** > **New Item**.
 
 2. In the **Add New Item** dialog box, select **Runtime Text Template**. (In Visual Basic look under **Common Items** > **General**.)
 

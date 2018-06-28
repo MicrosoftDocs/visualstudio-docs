@@ -148,7 +148,7 @@ In the next steps, you will create a Windows Forms client application to consume
 
 #### To create the client application
 
-1.  On the menu bar, choose File, **Add**, **New Project**.
+1.  On the menu bar, choose File, **Add** > **New Project**.
 
 2.  In the **New Project** dialog box, expand the **Visual Basic** or **Visual C#** node and choose the **Windows** node, and then choose **Windows Forms Application**.
 
