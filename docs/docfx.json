@@ -2,11 +2,26 @@
   "build": {
     "content": [
       {
+        "group": "vs-2015",
+        "src": "./vs-2015",
         "files": [
           "**/*.md",
           "**/*.yml"
         ],
-        "group": "vs-2015",
+        "exclude": [
+          "**/obj/**",
+          "vsdocsdocs/**",
+          "**/includes/**",
+          "missingapi.yml"
+        ]
+      },
+      {
+        "group": "vs-2017",
+        "src": "./",
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
@@ -14,30 +29,18 @@
           "missingapi.yml",
           "vs-2015/**"
         ]
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "group": "vs-2017",
-        "exclude": [
-          "**/obj/**",
-          "vsdocsdocs/**",
-          "**/includes/**",
-          "missingapi.yml"
-        ]
       }
         ],
     "resource": [
       {
+        "group": "vs-2015",
+        "src": "./vs-2015",
         "files": [
           "**/*.png",
           "**/*.jpg",
           "**/*.gif",
           "**/*.svg"
         ],
-        "group": "vs-2015",
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
@@ -45,14 +48,15 @@
           "missingapi.yml"
         ]
       },
-      {
+      { 
+        "group": "vs-2017",
+        "src": "./",
         "files": [
           "**/*.png",
           "**/*.jpg",
           "**/*.gif",
           "**/*.svg"
         ],
-        "group": "vs-2017",
         "exclude": [
           "vs-2015",
           "**/obj/**",
