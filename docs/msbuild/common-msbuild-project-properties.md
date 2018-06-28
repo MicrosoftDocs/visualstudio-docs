@@ -78,10 +78,10 @@ The following table lists frequently used properties that are defined in the Vis
 |OptionExplicit|A boolean value that when set to `true`, requires explicit declaration of variables in the source code. This property is equivalent to the `/optionexplicit` compiler switch.|  
 |OptionInfer|A boolean value that when set to `true`, enables type inference of variables. This property is equivalent to the `/optioninfer` compiler switch.|  
 |OptionStrict|A boolean value that when set to `true`, causes the build task to enforce strict type semantics to restrict implicit type conversions. This property is equivalent to the `/optionstrict` switch of the *vbc.exe* compiler.|  
-|OutputPath|Specifies the path to the output directory, relative to the project directory, for example, "bin\Debug".|  
+|OutputPath|Specifies the path to the output directory, relative to the project directory, for example, *bin\Debug*.|  
 |OutputType|Specifies the file format of the output file. This parameter can have one of the following values:<br /><br /> -   Library. Creates a code library. (Default value.)<br />-   Exe. Creates a console application.<br />-   Module. Creates a module.<br />-   Winexe. Creates a Windows-based program.<br /><br /> This property is equivalent to the `/target` switch of the *vbc.exe* compiler.|  
 |OverwriteReadOnlyFiles|A boolean value that indicates whether you want to enable the build to overwrite read-only files or trigger an error.|  
-|PdbFile|The file name of the *.pdb* file that you are emitting. This property is equivalent to the `/pdb` switch of the csc.exe compiler.|  
+|PdbFile|The file name of the *.pdb* file that you are emitting. This property is equivalent to the `/pdb` switch of the *csc.exe* compiler.|  
 |Platform|The operating system you are building for. Valid values are "Any CPU", "x86", and "x64".|  
 |ProduceReferenceAssembly|A boolean value that when set to `true` enables production of [reference assemblies](https://github.com/dotnet/roslyn/blob/master/docs/features/refout.md) for the current assembly. `Deterministic` should be `true` when using this feature. This property corresponds to the `/refout` switch of the *vbc.exe* and *csc.exe* compilers.|
 |RemoveIntegerChecks|A boolean value that indicates whether to disable integer overflow error checks. The default value is `false`. This property is equivalent to the `/removeintchecks` switch of the *vbc.exe* compiler.|  

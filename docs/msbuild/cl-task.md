@@ -42,7 +42,7 @@ Wraps the Visual C++ compiler tool, *cl.exe*. The compiler produces executable (
   
      Optional String parameter.  
   
-     A list of command-line options. For example, "/<option1> /<option2> /<option#>". Use this parameter to specify command-line options that are not represented by any other task parameter.  
+     A list of command-line options. For example, "/\<option1> /\<option2> /\<option#>". Use this parameter to specify command-line options that are not represented by any other task parameter.  
   
      For more information, see [Compiler options](/cpp/build/reference/compiler-options).  
   
@@ -784,7 +784,7 @@ Wraps the Visual C++ compiler tool, *cl.exe*. The compiler produces executable (
   
      Specifies an array of items that represent the *write file tracking logs*.  
   
-     A write-file tracking log (.tlog) contains the names of the output files that are written by a task, and is used by the project build system to support incremental builds. For more information, see the **TrackerLogDirectory** and **TrackFileAccess** parameters in this table.  
+     A write-file tracking log (*.tlog*) contains the names of the output files that are written by a task, and is used by the project build system to support incremental builds. For more information, see the **TrackerLogDirectory** and **TrackFileAccess** parameters in this table.  
   
 -   **TrackFileAccess**  
   
