@@ -47,7 +47,7 @@ By default, the logic to update a database (inserts, updates, and deletes) with 
 
 8.  Select the desired stored procedure in the **Customize** list.
 
-9. Inspect the list of **Method Arguments** and **Class Properties** to verify that the **Method Arguments** map to the appropriate **Class Properties**. Map the original method arguments (`Original_<ArgumentName>`) to the original properties (`<PropertyName>` (Original)) for the `Update` and `Delete` commands.
+9. Inspect the list of **Method Arguments** and **Class Properties** to verify that the **Method Arguments** map to the appropriate **Class Properties**. Map the original method arguments (`Original_<ArgumentName>`) to the original properties (`<PropertyName> (Original)`) for the `Update` and `Delete` commands.
 
     > [!NOTE]
     > By default, method arguments map to class properties when the names match. If changed property names no longer match between the table and the entity class, you might have to select the equivalent class property to map to if the designer cannot determine the correct mapping.
