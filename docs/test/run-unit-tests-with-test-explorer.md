@@ -38,7 +38,7 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 
 - To run all the tests in a solution, choose **Run All**.
 
-- To run all the tests in a default group, choose **Run...** and then choose the group on the menu.
+- To run all the tests in a default group, choose **Run** and then choose the group on the menu.
 
 - Select the individual tests that you want to run, open the context menu for a selected test and then choose **Run Selected Tests**.
 
