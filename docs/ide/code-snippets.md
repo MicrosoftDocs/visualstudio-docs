@@ -30,9 +30,9 @@ Code snippets are available for a multitude of languages, including C#, C++, Vis
 
 Code snippets can be accessed in the following general ways:
 
-- On the menu bar, choose **Edit** > **IntelliSense** > **Insert Snippet...**
+- On the menu bar, choose **Edit** > **IntelliSense** > **Insert Snippet**
 
-- From the right-click or context menu in the code editor, choose **Snippet** > **Insert Snippet...**
+- From the right-click or context menu in the code editor, choose **Snippet** > **Insert Snippet**
 
 - From the keyboard, press **Ctrl**+**K**+**X**
 
@@ -68,7 +68,7 @@ if (true)
 
 Snippets can contain replacement parameters, which are placeholders that you must replace to fit the precise code you are writing. In the previous example `true` is a replacement parameter, which you would replace with the appropriate condition. The replacement you make is repeated for every instance of the same replacement parameter in the snippet.
 
-For example, in Visual Basic there is a code snippet that inserts a property. To insert the snippet, choose **Snippet...** > **Insert Snippet** from the right-click or context menu in a Visual Basic code file. Then, choose **Code Patterns** > **Properties, Procedures, Events** > **Define a Property**.
+For example, in Visual Basic there is a code snippet that inserts a property. To insert the snippet, choose **Snippet** > **Insert Snippet** from the right-click or context menu in a Visual Basic code file. Then, choose **Code Patterns** > **Properties, Procedures, Events** > **Define a Property**.
 
 ![Code snippet menu for Define a Property](media/code-snippets-vb-property.png)
 

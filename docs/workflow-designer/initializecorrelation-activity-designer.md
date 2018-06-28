@@ -29,7 +29,7 @@ The **InitializeCorrelation** activity designer can be dragged from the **Toolbo
 
 The <xref:System.ServiceModel.Activities.CorrelationHandle> can be specifies in the **Correlation** field in **Properties** window on the **InitializeCorrelation** activity designer surface.
 
-Clicking the ellipse button besides the **CorrelationData** field in **Properties** window or the "View ..." hint text on **InitializeCorrelation** activity designer surface displays the **Initialize Correlation** dialog box in which you can specify the correlation handle and the key-value pairs used to initialize it. For more information about using this dialog box, see the [Type Collection Editor Dialog Box](../workflow-designer/type-collection-editor-dialog-box.md) topic.
+To display the **Initialize Correlation** dialog box where can specify the correlation handle and the key-value pairs used to initialize it, select the ellipsis button next to the **CorrelationData** field in **Properties** window. Or, select the "View ..." hint text on  the **InitializeCorrelation** activity designer surface. For more information about using this dialog box, see the [Type Collection Editor Dialog Box](../workflow-designer/type-collection-editor-dialog-box.md) topic.
 
 ### The InitializeCorrelation Properties
 
