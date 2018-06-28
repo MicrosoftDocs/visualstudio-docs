@@ -21,7 +21,7 @@ You can personalize and optimize your development experience in Visual Studio if
 
 When you sign in, you enrich your Visual Studio experience. For example, after you sign in, you can synchronize your settings across devices, extend a trial, and automatically connect to an Azure service, to name a few.
 
-Here's a full list of what you can expect and what you can do after you sign in:  
+Here's a full list of what you can expect and what you can do after you sign in:
 
 - **Access to the Visual Studio Dev Essentials program** - This program includes free software offerings, training, support, and more. See [Visual Studio Dev Essentials](http://aka.ms/vsdevhelp) for more information.
 
@@ -57,9 +57,9 @@ Unless you sign out, you're automatically signed in to Visual Studio whenever yo
 
 ## Troubleshooting
 
-If you encounter any problems while signing in, please see the [Accounts support](https://www.visualstudio.com/subscriptions/support/) page to get help.
+If you encounter any problems while signing in, please see the [Accounts support](https://visualstudio.microsoft.com/subscriptions/support/) page to get help.
 
 ## See also
 
-* [How to Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)  
+* [How to Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)
 * [Visual Studio IDE Overview](../ide/visual-studio-ide.md)

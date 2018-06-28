@@ -10,7 +10,7 @@ ms.date: 12/15/2017
 ms.topic: landing-page
 ms.prod: .net-core
 ms.assetid: 2c119a5f-0272-48c0-8d6c-806196944aea
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 
@@ -23,7 +23,7 @@ Git is the most commonly used version control system today and is quickly becomi
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://www.visualstudio.com/learn-git/">
+        <a href="https://docs.microsoft.com/azure/devops/git/what-is-git">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -140,11 +140,8 @@ Team Foundation Version Control (TFVC) is a centralized version control system. 
 </ul>
 
 
-## Resources 
+## Resources
 
-- [Pro Git book](https://git-scm.com/book/en/v2)  
-- [Plan your migration to Git](https://www.visualstudio.com/learn/centralized-to-git/)  
-- [Migrate from TFVC to Git](https://www.visualstudio.com/learn/migrate-from-tfvc-to-git/)  
-
- 
-
+- [Pro Git book](https://git-scm.com/book/en/v2)
+- [Plan your migration to Git](https://docs.microsoft.com/azure/devops/git/centralized-to-git)
+- [Migrate from TFVC to Git](https://docs.microsoft.com/azure/devops/git/migrate-from-tfvc-to-git)

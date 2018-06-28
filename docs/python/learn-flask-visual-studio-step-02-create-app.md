@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 2: Create a Flask app with views and page templates
+# Step 2: Create a Flask app with views and page templates
 
 **Previous step: [Create a Visual Studio project and solution](learn-flask-visual-studio-step-01-project-solution.md)**
 
@@ -31,7 +31,7 @@ In the code created by the "Blank Flask Web Project" template, you have a single
 
 1. In your project folder, create an app folder called `HelloFlask` (right-click the project in **Solution Explorer** and select **Add** > **New Folder**.)
 
-1. In the `HelloFlask` folder, create a file named `__init.py__` with the following contents that creates the `Flask` instance and loads the app's views (created in the next step):
+1. In the `HelloFlask` folder, create a file named `__init__.py` with the following contents that creates the `Flask` instance and loads the app's views (created in the next step):
 
     ```python
     from flask import Flask
@@ -212,7 +212,7 @@ Answer: Yes, you can use subfolders and then refer to the relative path under `t
 > [!div class="nextstepaction"]
 > [Serve static files, add pages, and use template inheritance](learn-flask-visual-studio-step-03-serve-static-files-add-pages.md)
 
-## Going deeper
+## Go deeper
 
 - [Flask Quickstart - Rendering Templates](http://flask.pocoo.org/docs/1.0/quickstart/#rendering-templates) (flask.pocoo.org)
 - Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask)

@@ -85,7 +85,7 @@ When you debug an installed app package on a remote computer for the first time,
      > [!NOTE]
 > At present, an XBox or HoloLens device will restart the app with the debugger attached if it is already running.
 
-For information on advanced options for remote deployment of UWP apps, see [Deploying and debugging UWP apps](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options). 
+For information on advanced options for remote deployment of UWP apps, see [Deploying and debugging UWP apps]((/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options). 
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/index.md)  

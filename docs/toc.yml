@@ -155,8 +155,6 @@
         href: porting/port-migrate-and-upgrade-visual-studio-projects.md
       - name: Add and remove project items
         href: ide/adding-and-removing-project-items.md
-      - name: Project and solution file types
-        href: ide/reference/project-and-solution-file-types.md
       - name: Manage project and solution properties
         href: ide/managing-project-and-solution-properties.md
       - name: Manage references in a project
@@ -604,11 +602,6 @@
       href: ide/how-to-specify-build-events-csharp.md
     - name: Configuring Warnings in Visual Basic
       href: ide/configuring-warnings-in-visual-basic.md
-    - name: Disable the Hosting Process
-      href: ide/how-to-disable-the-hosting-process.md
-      items:
-      - name: Hosting Process (vshost.exe)
-        href: ide/hosting-process-vshost-exe.md
     - name: "Walkthrough: Create a Multiple-Computer Build Environment"
       href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
   - name: Debug...
@@ -1055,13 +1048,16 @@
     - name: Platform compatibility
       href: /visualstudio/productinfo/vs2017-compatibility-vs?context=visualstudio/default
     - name: Licensing
-      href: https://www.visualstudio.com/license-terms/
+      href: https://visualstudio.microsoft.com/license-terms/
     - name: Distributable code
       href: /visualstudio/productinfo/2017-redistribution-vs?context=visualstudio/default
     - name: Support lifecycle and servicing
       href: /visualstudio/productinfo/vs-servicing-vs?context=visualstudio/default
   - name: Report a problem with Visual Studio
     href: ide/how-to-report-a-problem-with-visual-studio-2017.md
+    items:
+    - name: Developer Community data privacy
+      href: ide/developer-community-privacy.md
   - name: Customer Experience Improvement Program
     href: ide/visual-studio-experience-improvement-program.md
     items:

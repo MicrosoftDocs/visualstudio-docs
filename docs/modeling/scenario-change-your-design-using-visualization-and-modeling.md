@@ -232,7 +232,7 @@ To make sure that the code conforms to the design, the teams configure their bui
 
 See:
 
-- [Testing the application](https://www.visualstudio.com/docs/test/overview)
+- [Testing the application](/vsts/test/overview?view=vsts)
 
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)
 

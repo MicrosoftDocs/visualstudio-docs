@@ -123,7 +123,7 @@ MSBuild keeps track of the targets of a build, and guarantees that each target i
 
 3.  Run msbuild with the command switch /t:HelloWorld. This selects and builds the HelloWorld target:
 
-    ```
+    ```cmd
     msbuild buildapp.csproj /t:HelloWorld
     ```
 
@@ -172,7 +172,7 @@ MSBuild keeps track of the targets of a build, and guarantees that each target i
 ## Examining a Property Value
  To get the value of a property, use the following syntax, where PropertyName is the name of the property:
 
-```
+```xml
 $(PropertyName)
 ```
 
@@ -193,7 +193,7 @@ $(PropertyName)
 
 3.  From the **Command Window**, enter and execute this line:
 
-    ```
+    ```cmd
     msbuild buildapp.csproj /t:HelloWorld
     ```
 
@@ -231,7 +231,7 @@ $(PropertyName)
 
 1.  From the **Command Window**, enter and execute this line:
 
-    ```
+    ```cmd
     msbuild buildapp.csproj /t:HelloWorld /p:Configuration=Release
     ```
 
@@ -260,7 +260,7 @@ $(PropertyName)
 
 3.  From the **Command Window**, enter and execute this line:
 
-    ```
+    ```cmd
     msbuild buildapp.csproj /t:HelloWorld
     ```
 
@@ -302,7 +302,7 @@ $(PropertyName)
 ## Examining Item Type Values
  To get the values of an item type, use the following syntax, where ItemType is the name of the item type:
 
-```
+```xml
 @(ItemType)
 ```
 
@@ -322,7 +322,7 @@ $(PropertyName)
 
 3.  From the **Command Window**, enter and execute this line:
 
-    ```
+    ```cmd
     msbuild buildapp.csproj /t:HelloWorld
     ```
 
@@ -336,7 +336,7 @@ $(PropertyName)
 
  To change the separator of an item type, use the following syntax, where ItemType is the item type and Separator is a string of one or more separating characters:
 
-```
+```xml
 @(ItemType, Separator)
 ```
 
@@ -354,7 +354,9 @@ $(PropertyName)
 
 3.  From the **Command Window**, enter and execute this line:
 
-     `msbuild buildapp.csproj /t:HelloWorld`
+    ```cmd
+    msbuild buildapp.csproj /t:HelloWorld
+    ```
 
 4.  Examine the output. You should see these lines:
 
@@ -432,7 +434,7 @@ $(PropertyName)
 
 4.  From the **Command Window**, enter and execute this line:
 
-    ```
+    ```cmd
     msbuild buildapp.csproj /t:HelloWorld
     ```
 
@@ -457,7 +459,7 @@ $(PropertyName)
 
  To get the metadata value of an item type, use the following syntax, where ItemType is the name of the item type and MetaDataName is the name of the metadata:
 
-```
+```xml
 %(ItemType.MetaDataName)
 ```
 
@@ -473,7 +475,7 @@ $(PropertyName)
 
 3.  From the **Command Window**, enter and execute this line:
 
-    ```
+    ```cmd
     msbuild buildapp.csproj /t:HelloWorld
     ```
 
@@ -503,7 +505,7 @@ $(PropertyName)
 
 3.  From the **Command Window**, enter and execute this line:
 
-    ```
+    ```cmd
     msbuild buildapp.csproj /t:HelloWorld
     ```
 
@@ -523,7 +525,7 @@ $(PropertyName)
 ### Metadata Transformations
  Item lists can be transformed into new item lists. To transform an item list, use the following syntax, where ItemType is the name of the item type and MetadataName is the name of the metadata:
 
-```
+```xml
 @(ItemType -> '%(MetadataName)')
 ```
 
@@ -541,7 +543,7 @@ $(PropertyName)
 
 3.  From the **Command Window**, enter and execute this line:
 
-    ```
+    ```cmd
     msbuild buildapp.csproj /t:HelloWorld
     ```
 

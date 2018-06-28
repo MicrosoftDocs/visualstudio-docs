@@ -28,7 +28,7 @@ To customize code coverage, follow these steps:
 
 1. Add the content from the example file at the end of this article, and then customize it to your needs as described in the sections that follow.
 
-1. To select the run settings file, on the **Test** menu, choose **Test Settings** > **Select Test Settings File**. To specify a run settings file for running tests from the command line or in a build workflow, see [Configure unit tests by using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file).
+1. To select the run settings file, on the **Test** menu, choose **Test Settings** > **Select Test Settings File**. To specify a run settings file for running tests from the command line or in a build workflow, see [Configure unit tests by using a *.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file).
 
    When you select **Analyze Code Coverage**, the configuration information is read from the run settings file.
 
@@ -83,7 +83,7 @@ If **Include** is empty, then code coverage processing includes all assemblies t
 
 ### Regular expressions
 
-Include and exclude nodes use regular expressions. For more information, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md). Regular expressions are not the same as wildcards. In particular:
+Include and exclude nodes use regular expressions. For more information, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md). Regular expressions aren't the same as wildcards. In particular:
 
 - **.\*** matches a string of any characters
 
@@ -129,7 +129,7 @@ For example:
 
 - **Source** - matches elements by the path name of the source file in which they are defined.
 
-- **Attribute** - matches elements to which a particular attribute is attached. Specify the full name of the attribute, and inclue "Attribute" at the end of the name.
+- **Attribute** - matches elements to which a particular attribute is attached. Specify the full name of the attribute, and include "Attribute" at the end of the name.
 
 - **Function** - matches procedures, functions, or methods by fully qualified name. To match a function name, the regular expression must match the fully qualified name of the function, including namespace, class name, method name, and parameter list. For example:
 

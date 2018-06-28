@@ -26,7 +26,7 @@ The <xref:System.Activities.Statements.FlowSwitch%601> activity contains an <xre
 
 ### Using the FlowSwitch\<T> Activity Designer
 
-The **FlowSwitch\<T>** activity designer can be found in the **Flowchart** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the left side of the Workflow Designer (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
+The **FlowSwitch\<T>** activity designer can be found in the **Flowchart** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the left side of the Workflow Designer. Alternatively, select **Toolbox** from the **View** menu, or press **Ctrl**+**Alt**+**X**.
 
 The **FlowSwitch\<T>** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface within a **Flowchart** activity designer. Use the **Select Types** window that displays to specify the type (associated in code with the <xref:System.Activities.Statements.FlowSwitch%601> by its generic parameter) obtained from evaluating the <xref:System.Activities.Statements.FlowSwitch%601.Expression%2A>. This procedure creates a <xref:System.Activities.Statements.FlowSwitch%601> activity labeled **Switch** within the <xref:System.Activities.Statements.Flowchart> activity. The <xref:System.Activities.Statements.FlowSwitch%601.Expression%2A> can be typed in the **Expression** box of the **Properties** window by clicking where the hint text says "Enter a VB expression".
 

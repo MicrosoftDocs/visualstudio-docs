@@ -46,7 +46,7 @@ ms.workload:
 |[FeatureProperties](../sharepoint/featureproperties-element.md)|Represents a collection of property values that are included with a Feature when it is deployed to SharePoint.|  
   
 ## Remarks  
- For more information about Feature properties, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md).  
+ For more information about Feature properties, see [Providing package and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md).  
   
 ## Element information
   
@@ -58,7 +58,7 @@ ms.workload:
 |**Can be empty**|No|  
   
 ## See also
- [SharePoint Project Item Schema Reference](../sharepoint/sharepoint-project-item-schema-reference.md)   
- [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)  
+ [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)   
+ [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)  
   
   

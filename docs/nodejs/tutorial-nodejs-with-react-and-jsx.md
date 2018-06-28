@@ -15,7 +15,8 @@ ms.workload:
   - "nodejs"
 ---
 # Tutorial: Create a Node.js and React app in Visual Studio
-Visual Studio allows you to easily create a Node.js project and leverage IntelliSense and other built-in features that support Node.js. In this tutorial for Visual Studio, you create a Node.js web application project from a Visual Studio template. Then, you create a simple app using React.
+
+Visual Studio allows you to easily create a Node.js project and experience IntelliSense and other built-in features that support Node.js. In this tutorial for Visual Studio, you create a Node.js web application project from a Visual Studio template. Then, you create a simple app using React.
 
 In this tutorial, you learn how to:
 > [!div class="checklist"]
@@ -29,9 +30,9 @@ In this tutorial, you learn how to:
 
 * You must have Visual Studio 2017 installed and the Node.js development workload.
 
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-    If you need to install the workload but already have Visual Studio, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, select the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Node.js development** workload, then choose **Modify**.
 
 * You must have the Node.js runtime installed.
 
@@ -40,6 +41,7 @@ In this tutorial, you learn how to:
     If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
 
 ## Create a project
+
 First, create a Node.js web application project.
 
 1. Open Visual Studio 2017.
@@ -54,13 +56,13 @@ First, create a Node.js web application project.
 
     ![Node.js project in Solution Explorer](../nodejs/media/tutorial-nodejs-react-project-structure.png)
 
-    - Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, since the project file does not make custom changes to the Node.js project source.
+    * Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, since the project file does not make custom changes to the Node.js project source.
 
-    - At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
+    * At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
 
-    - The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box.
+    * The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box.
 
-    - Project files such as *server.js* show up under the project node. *server.js* is the project startup file.
+    * Project files such as *server.js* show up under the project node. *server.js* is the project startup file.
 
 ## Add npm packages
 
@@ -79,11 +81,11 @@ This app requires a number of npm modules to run correctly.
 
     In the **Install New npm Packages** dialog box, you can choose to install the most current package version or specify a version. If you choose to install the current version of these packages, but run into unexpected errors later, you may need to install the exact package versions described later in these steps.
 
-1. In the **Install New npm Packages** dialog box, search for the react package, and click **Install Package** to install it.
+1. In the **Install New npm Packages** dialog box, search for the react package, and select **Install Package** to install it.
 
     ![Install npm packages](../nodejs/media/tutorial-nodejs-react-install-packages.png)
 
-    Click the **Output** window to see progress on installing the package (select **Npm** in the **Show output from** field). When installed, the package appears under the **npm** node.
+    Select the **Output** window to see progress on installing the package (select **Npm** in the **Show output from** field). When installed, the package appears under the **npm** node.
 
     The project's *package.json* file is updated with the new package information including the package version.
 
@@ -104,7 +106,7 @@ This app requires a number of npm modules to run correctly.
 
 1. Right-click **npm** node in your project and choose **Update npm Packages**.
 
-    Click the **Output** window to see progress on installing the packages. This may take a few minutes and you may not see results immediately.
+    Select the **Output** window to see progress on installing the packages. Installation may take a few minutes and you may not see results immediately.
 
     Here are the npm modules as they appear in Solution Explorer after they are installed.
 
@@ -126,7 +128,7 @@ For this simple app, you add the new project files in the project root. (In most
 
 1. In Solution Explorer, right-click the project **NodejsWebAppBlank** and choose **Add** > **New Item**.
 
-1. In the **Add New Item** dialog box, choose **TypeScript JSX file**, type the name *app.tsx*, and click **OK**.
+1. In the **Add New Item** dialog box, choose **TypeScript JSX file**, type the name *app.tsx*, and select **OK**.
 
 1. Repeat these steps to add *webpack-config.js*. Instead of a TypeScript JSX file, choose **JavaScript file**.
 
@@ -262,13 +264,13 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
 
     If you see any errors instead of the preceding output, you must resolve them before your app will work. If your npm package versions are different than the versions shown in this tutorial, that can be a source of errors. One way to fix errors is to use the exact versions shown in the earlier steps. Also, if one or more of these package versions has been deprecated and results in an error, you may need to install a more recent version to fix errors.
 
-1. In Solution Explorer, right-click the project node and choose **Add** > **Existing Folder**, then choose the *dist* folder and click **Select Folder**.
+1. In Solution Explorer, right-click the project node and choose **Add** > **Existing Folder**, then choose the *dist* folder and choose **Select Folder**.
 
     Visual Studio adds the *dist* folder to the project, which contains *app-bundle.js* and *app-bundle.js.map*.
 
 1. Open *app-bundle.js* to see the transpiled JavaScript code.
 
-1. If prompted to reload externally modified files, click **Yes to All**.
+1. If prompted to reload externally modified files, select **Yes to All**.
 
     ![Load modified files](../nodejs/media/tutorial-nodejs-react-reload-files.png)
 
@@ -334,7 +336,7 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
 1. In the **Attach to Process** dialog box, choose **Webkit code** in the **Attach to** field, type **chrome** in the filter box to filter the search results.
 
-1. Select the Chrome process with the correct host port (1337 in this example), and click **Attach**.
+1. Select the Chrome process with the correct host port (1337 in this example), and select **Attach**.
 
     ![Attach to process](../nodejs/media/tutorial-nodejs-react-attach-to-process.png)
 
@@ -360,7 +362,7 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
 ## Next steps
 
-In this tutorial, you learned how to create a Node.js and React app, transpile JSX, and debug. To learn more about Node.js Tools for Visual Studio, see the Wiki page.
-
 > [!div class="nextstepaction"]
-> [Node.js tools for Visual Studio](https://github.com/Microsoft/nodejstools)
+> [Deploy the app to Azure App Service](../deployment/quickstart-deploy-to-azure.md)
+
+In this tutorial, you learned how to create a Node.js and React app, transpile JSX, and debug. To learn more, see  [Node.js tools for Visual Studio on GitHub](https://github.com/Microsoft/nodejstools).
