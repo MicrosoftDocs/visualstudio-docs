@@ -51,7 +51,7 @@ The following table lists the possible severity values and their effects:
 
 Severity | Effect
 :------- | ------
-`none` or `silent` | Do not show anything to the user when this rule is violated. Code generation features will generate code in this style, however. If enabled in the **Format Document** settings, rules with `none` severity appear in the *Quick Actions and Refactorings* menu. In most cases, this is considered "disabled" or "ignored".
+`none` or `silent` | Do not show anything to the user when this rule is violated. Code generation features will generate code in this style, however. Rules with `none` severity never appear in the *Quick Actions and Refactorings* menu. In most cases, this is considered "disabled" or "ignored".
 `suggestion` | When this style rule is violated, show it to the user as a suggestion. Suggestions appear as three gray dots under the first two characters.
 `warning` | When this style rule is violated, show a compiler warning.
 `error` | When this style rule is violated, show a compiler error.
