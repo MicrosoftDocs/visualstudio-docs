@@ -28,39 +28,39 @@ DXCap.exe -info
   
 #### Parameters  
  `-file` `filename`  
- Under capture mode (`-c`), `filename` specifies the name of the graphics log file that graphics information is recorded to. If `filename` is not specified, graphics information is recorded to a file named `<appname>-<date>-<time>.vsglog` by default.  
+ Under capture mode (`-c`), `filename` specifies the name of the graphics log file that graphics information is recorded to. If `filename` isn't specified, graphics information is recorded to a file named `<appname>-<date>-<time>.vsglog` by default.  
   
- Under validation (-v) mode, `filename` specifies the name of the graphics log file to be validated. If `filename` is not specified, the graphics log that was last validated is used again.  
+ Under validation (-v) mode, `filename` specifies the name of the graphics log file to be validated. If `filename` isn't specified, the graphics log that was last validated is used again.  
   
  `-frame` `frames`  
- Under capture mode, `frames` specifies the frames that you want to capture. The first frame is 1. You can specify multiple frames by using commas and ranges. For example, if `frames` is `2, 5, 7-9, 15`, then frames `2`, `5`, `7`, `8`, `9`, and `15` are captured.  
+ Under capture mode, `frames` specifies the frames that you want to capture. The first frame is 1. You can specify several frames by using commas and ranges. For example, if `frames` is `2, 5, 7-9, 15`, then frames `2`, `5`, `7`, `8`, `9`, and `15` are captured.  
 
 > [!TIP]
 > Use `-frame` `manual` to specify that frames will be captured manually by pressing the Print Screen key. Frames can be captured when the app starts; to stop capturing frames, return to the command line interface and press enter.  
   
  `-period` `periods`  
- Under capture mode, `periods` specifies the ranges of time, in seconds, during which you want to capture frames. You can specify multiple periods by using commas and ranges. For example if `periods` is `2.1-5, 7.0-9.3`, then frames that are rendered between `2.1` and `5` seconds, and between`7` and `9.3` seconds are captured.  
+ Under capture mode, `periods` specifies the ranges of time, in seconds, during which you want to capture frames. You can specify several periods by using commas and ranges. For example if `periods` is `2.1-5, 7.0-9.3`, then frames that are rendered between `2.1` and `5` seconds, and between`7` and `9.3` seconds are captured.  
   
  `-c` `app` [`args...`]  
  Capture mode. Under capture mode, `app` specifies the name of the app that you want to capture graphics information from; `args...` specifies additional command-line parameters to that app.  
   
  `-p` [`filename`]  
- Playback mode (`-p`). Under playback mode, `filename` specifies the name of the graphics log file to be played back. If `filename` is not specified, the graphics log that was last played back is used again.  
+ Playback mode (`-p`). Under playback mode, `filename` specifies the name of the graphics log file to be played back. If `filename` isn't specified, the graphics log that was last played back is used again.  
   
  `-debug`  
- Under playback mode, `-debug` specifies that playback should be performed with the Direct3D debug layer enabled.  
+ Under playback mode, `-debug` specifies that playback should be played with the Direct3D debug layer enabled.  
   
  `-warp`  
- Under playback mode, `-warp` specifies that playback should be performed using the WARP software renderer.  
+ Under playback mode, `-warp` specifies that playback should be played using the WARP software renderer.  
   
  `-hw`  
- Under playback mode, `-hw` specifies that playback should be performed using GPU hardware.  
+ Under playback mode, `-hw` specifies that playback should be played using GPU hardware.  
   
  `-config`  
- Under playback mode, `-config` displays information about the machine that was used to capture the graphics log file, if this information was recorded to the log.  
+ Under playback mode, `-config` displays any information about the machine that was used to capture the graphics log file.  
   
  `-rawmode`  
- Under playback mode, `-rawmode` specifies that playback should be performed without modification to the recorded events. Under normal operation, playback mode might make minor changes to playback to simplify debugging and speed up playback. For example, it may simulate swap chain output rather than executing swap chain commands. Usually this is not a problem, but you might need playback to occur in a way that's more faithful to the recorded events; for example, you can use this option to restore full-screen rendering behavior to an app that was captured while running in full-screen mode.  
+ Under playback mode, `-rawmode` specifies that playback should be performed without modification to the recorded events. Under normal operation, playback mode might make minor changes to playback to simplify debugging and speed up playback. For example, it may simulate swap chain output rather than executing swap chain commands. Usually this playback is not a problem, but you might need playback to occur in a way that's more faithful to the recorded event. For example, you can use this option to restore full-screen rendering behavior to an app that was captured while running in full-screen mode.  
   
  `-toXML` [`xml_filename`]  
  Under playback mode, `xml_filename` specifies the name of the file where an XML representation of playback is written to. If `xml_filename` is not specified, the XML representation is written to a file named the same as the file being played back, but given an `.xml` extension.  
@@ -96,7 +96,7 @@ DXCap.exe -info
  Capture graphics information from a running app and record it to a graphics log file. The capture capabilities and file format are identical to those of Visual Studio.  
   
  Playback mode (-p)  
- Play back previously captured graphics events from an existing graphics log file. By default, playback occurs in a window, even when the graphics log file was captured from a fullscreen app. Playback occurs in full-screen only when the graphics log file was captured from a fullscreen app and `-rawmode` is specified.  
+ Playback previously captured graphics events from an existing graphics log file. By default, playback occurs in a window, even when the graphics log file was captured from a fullscreen app. Playback occurs in full-screen only when the graphics log file was captured from a fullscreen app and `-rawmode` is specified.  
   
  Validation mode (`-v`)  
  Validates rendering behavior by playing back captured frames on both hardware and WARP, then comparing their results by using an image comparison function. You can use this feature to quickly identify driver issues that affect your rendering.  
@@ -164,8 +164,8 @@ DXCap.exe -e map
  **Publisher        : CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US**  
  **Version          : 2.1.2914.1734**  
  **Launchable Applications:**  
- **Id   : AppexMaps**  
- **Exe  : C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe\Map.exe**  
+ **Id: AppexMaps**  
+ **Exe: C:\Program Files\WindowsApps\Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe\Map.exe**  
  **IsWWA: No**  
  **AppSpec (to launch): **DXCap.exe -c Microsoft.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe,AppexMaps**** The last line of output for each enumerated app displays the command you can use to capture graphics information from it.  
   
@@ -189,7 +189,7 @@ DXCap.exe -period 2.1-5, 7.0-9.3 -c SimpleBezier11.exe
 DXCap.exe -manual -c SimpleBezier11.exe  
 ```  
   
-### Play back a graphics log file  
+### Play back a graphic log file  
  Use `-p` to play back a previously captured graphics log file.  
   
 ```cmd  
