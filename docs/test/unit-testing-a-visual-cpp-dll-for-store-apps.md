@@ -129,7 +129,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
     2.  On the RooterLib Project Properties dialog box, expand **Common Properties** and choose **Framework and References**.
 
-    3.  Choose **Add New Reference.**
+    3.  Choose **Add New Reference**
 
     4.  In the **Add Reference** dialog box, expand **Solution** and then choose **Projects**. Then select the **RouterLib** item.
 

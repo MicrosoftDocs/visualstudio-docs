@@ -22,7 +22,7 @@ ms.workload:
 ---
 # Code snippets
 
-Code snippets are small blocks of reusable code that can be inserted in a code file using a context menu command or a combination of hotkeys. They typically contain commonly-used code blocks such as `try-finally` or `if-else` blocks, but they can be used to insert entire classes or methods.
+Code snippets are small blocks of reusable code that can be inserted in a code file using a context menu command or a combination of hotkeys. They typically contain commonly used code blocks such as `try-finally` or `if-else` blocks, but they can be used to insert entire classes or methods.
 
 Code snippets are available for a multitude of languages, including C#, C++, Visual Basic, XML, and T-SQL, to name a few. To view all the available installed snippets for a language, open the **Code Snippets Manager** from the **Tools** menu in Visual Studio, and choose the language from the drop-down menu at the top.
 
@@ -68,7 +68,7 @@ if (true)
 
 Snippets can contain replacement parameters, which are placeholders that you must replace to fit the precise code you are writing. In the previous example `true` is a replacement parameter, which you would replace with the appropriate condition. The replacement you make is repeated for every instance of the same replacement parameter in the snippet.
 
-For example, in Visual Basic there is a code snippet that inserts a property. To insert the snippet, choose **Snippet** > **Insert Snippet** from the right-click or context menu in a Visual Basic code file. Then, choose **Code Patterns** > **Properties, Procedures, Events** > **Define a Property**.
+For example, in Visual Basic there's a code snippet that inserts a property. To insert the snippet, choose **Snippet** > **Insert Snippet** from the right-click or context menu in a Visual Basic code file. Then, choose **Code Patterns** > **Properties, Procedures, Events** > **Define a Property**.
 
 ![Code snippet menu for Define a Property](media/code-snippets-vb-property.png)
 
