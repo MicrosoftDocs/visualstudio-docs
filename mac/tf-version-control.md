@@ -38,7 +38,7 @@ Updates to the TFVC extension are made periodically. To access updates, choose *
 
 Press **Install** on the next dialog to uninstall the old package and install the new one.
 
-For information on what's new in each release, refer to the [Release Notes]().
+For information on what's new in each release, see the [Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2017-mac-preview-relnotes#team-foundation-version-control-extension--release-notes).
 
 ## Using the add-in
 
@@ -50,15 +50,15 @@ Choose either Visual Studio Team Services or Team Foundation Server to get start
 
 ### VSTS Authentication
 
-When you select to access a project that is hosted on VSTS, you'll be promoted to enter your Microsoft account details:
+When you select a project that is hosted on VSTS, you're prompted to enter your Microsoft account details:
 
   ![Connect with a TFVC Server](media/tfvc-vsts-login.png)
 
-### TFS Log in
+### TFS Authentication
 
-To connect to TFS, enter your the server and account credentials. Enter a domain to use NTLM authentication, otherwise leave blank to use basic authentication. Select **Add Server**: 
+To connect to TFS, enter the server details and your account credentials. Enter a domain to use NTLM authentication, otherwise leave blank to use basic authentication. Select **Add Server**: 
 
-![Log in to a TFVC Server](media/tfvc-login.png)
+![Sign in to a TFVC Server](media/tfvc-login.png)
 
 ## Selecting a project
 
@@ -71,13 +71,13 @@ This dialog is organized with the following nodes:
 - VSTS account or Collection – This displays all accounts connected to the Microsoft account that you logged in with
 - Team Projects – Within each VSTS you can have a number of team projects. A team project is where source code, work items, and automated builds are hosted.
 
-At this point you can search and filter by the name of a project or account.
+At this point, you can search and filter by the name of a project or account.
 
 ### Adding a new server
 
 To add a new server to the list, press the **+** button on the **Open from Source Control** dialog:
 
-![Log in to a TFVC Server](media/tfvc-add-new-server.png)
+![Sign in to a TFVC Server](media/tfvc-add-new-server.png)
 
 Select the provider from the list, and enter your credentials:
 
@@ -100,7 +100,7 @@ Set the name and local path for your new workspace and select **Create Workspace
 
 ## Using the Source Code Explorer
 
-Once you have created a workspace and mapped your project you can start working with the _Source Code Explorer_.
+Once you've created a workspace and mapped your project, you can start working with the _Source Code Explorer_.
 
 To open the Source Code Explorer, select the **Version Control > TFS/VSTS > Source Control Explorer**:
 
@@ -122,7 +122,7 @@ Many of these actions are available through context actions on the project:
 
 ## Managing workspaces
 
-If you did not already create a workspace as described in the [Creating a workspace]() section, you'll noticed that the Source Code Explorer is empty:
+If you haven't already create a workspace, as described in the [Creating a workspace]() section, you'll notice that the Source Code Explorer is empty:
 
 ![](media/tfvc-setup-empty-sce.png) 
 
@@ -138,7 +138,7 @@ To set up your remote project with a local workspace, use the following steps:
 1. Confirm the details of the new workspace by pressing **OK**
     ![](media/tfvc-workspace3.png) 
 
-Once your workspace is setup, it can be changed or removed by clicking the **Manage Workspaces** button in the Source Code Explorer.
+Once your workspace is set up, it can be changed or removed by clicking the **Manage Workspaces** button in the Source Code Explorer.
 
 ![Manage Workspaces](media/tfvc-workspace4.png)
 
@@ -146,13 +146,13 @@ Once your workspace is setup, it can be changed or removed by clicking the **Man
 
 ### Problems using basic authentication
 
-There are a number of different options available to perform authentication with a server:
+The following options can be used to authenticate with a server:
 
 - Oauth
 - Basic
 - Ntlm
 
-To be able to use basic authentication it is necessary to Enable **Alternative authentication credentials** in VSTS, by following the steps below:
+To use basic authentication it is necessary to enable **Alternative authentication credentials** in VSTS, by following the steps below:
 
 1. Sign in as the account owner to your VSTS account (https://{youraccount}.visualstudio.com).
 2. From your account toolbar, select the gear icon and select **Policy**:
