@@ -114,19 +114,19 @@ DXCap.exe -info
 ### Capture graphics information from a desktop app  
  Use `-c` to specify the app from which you want to capture graphics information.  
   
-```ms-dos  
+```cmd  
 DXCap.exe -c BasicHLSL11.exe  
 ```  
   
  By default, graphics information is recorded to a file named `<appname>-<date>-<time>.vsglog`. Use `-file` to specify a different file to record to.  
   
-```ms-dos  
+```cmd  
 DXCap.exe -file regression_test_12.vsglog -c BasicHLSL11.exe  
 ```  
   
  Specify additional command-line parameters to the app that you're capturing from by including them after the app's filename.  
   
-```ms-dos  
+```cmd  
 DXCap.exe -c "C:\Program Files\Internet Explorer\iexplorer.exe" "www.fishgl.com"  
 ```  
   
@@ -138,19 +138,19 @@ DXCap.exe -c "C:\Program Files\Internet Explorer\iexplorer.exe" "www.fishgl.com"
 ### Capture graphics information from a UWP app.  
  You can capture graphics information from a UWP app.  
   
-```ms-dos  
+```cmd  
 DXCap.exe -c Microsof.BingMaps_2.1.2914.1734_x64__8wekyb3d8bbwe,AppexMaps  
 ```  
   
  Using DXCap.exe to capture from a UWP app is similar to using it to capture from a Windows desktop app, but instead identifying a desktop app by its filename, you identify a UWP app by its package name and the name or ID of the executable inside that package that you want to capture from. To make it easier to find out how to identify the UWP apps that are installed on your machine, use the `-e` option with DXCap.exe to enumerate them:  
   
-```ms-dos  
+```cmd  
 DXCap.exe -e  
 ```  
   
  You can provide an optional search string to help find the app that you're looking for. When the search string is provided, DXCap.exe enumerates the UWP apps whose package name, app name or app IDs match the search string. The search is case-insensitive.  
   
-```ms-dos  
+```cmd  
 DXCap.exe -e map  
 ```  
   
@@ -172,92 +172,92 @@ DXCap.exe -e map
 ### Capture specific frames or frames between specific times.  
  Use `-frame` to specify the frames that you want to capture using commas and ranges:  
   
-```ms-dos  
+```cmd  
 DXCap.exe -frame 2,5,7-9,15 -c SimpleBezier11.exe  
 ```  
   
  Or, use `-period` to specify a set of time ranges during which to capture frames. Time ranges are specified in seconds, and multiple ranges can be specified:  
   
-```ms-dos  
+```cmd  
 DXCap.exe -period 2.1-5, 7.0-9.3 -c SimpleBezier11.exe  
 ```  
   
 ### Capture frames interactively.  
  Use `-manual` to capture frames interactively. Press the Enter key to start capture, and press the Enter key again to stop.  
   
-```ms-dos  
+```cmd  
 DXCap.exe -manual -c SimpleBezier11.exe  
 ```  
   
 ### Play back a graphics log file  
  Use `-p` to play back a previously captured graphics log file.  
   
-```ms-dos  
+```cmd  
 DXCap.exe -p regression_test_12.vsglog  
 ```  
   
  Leave out the filename to play back the graphics log that was captured most recently.  
   
-```ms-dos  
+```cmd  
 DXCap.exe -p  
 ```  
   
 ### Play back in raw mode  
  Use `-rawmode` to play back captured commands exactly as they occurred. Under normal playback, certain commands are emulated, for example, a graphics log file captured from a full screen app will play back in a window; with raw mode enabled, the same file will attempt to play back in full screen.  
   
-```ms-dos  
+```cmd  
 DXCap.exe -p regression_test_12.vsglog -rawmode  
 ```  
   
 ### Play back using WARP or a hardware device  
  You might want to force play back of a graphics log file captured on a hardware device to use WARP, or force playback of a log captured on WARP to use a hardware device. Use `-warp` to play back using WARP.  
   
-```ms-dos  
+```cmd  
 DXCap.exe -p regression_test_12.vsglog -warp  
 ```  
   
  Use `-hw` to play back using hardware.  
   
-```ms-dos  
+```cmd  
 DXCap.exe -p regression_test_12.vsglog -hw  
 ```  
   
 ### Validate a graphics log file against WARP  
  Under validation mode, the graphics log file is played back on both hardware and WARP, and their results are compared. This can help you identify rendering errors that are caused by the driver. Use -v to validate correct behavior of graphics hardware against WARP.  
   
-```ms-dos  
+```cmd  
 DXCap.exe -v regression_test_12.vsglog  
 ```  
   
  To reduce the amount of comparisons, you can specify a subset of commands for validation to compare and other commands will be ignored. Use -examine to specify the commands whose results you want to compare.  
   
-```ms-dos  
+```cmd  
 DXCap.exe -v regression_test_12.vsglog -examine present,draw,copy,clear  
 ```  
   
 ### Convert a Graphics Log file to PNGs  
  To view or analyze frames from a graphics log file, DXCap.exe can save captured frames as .png (Portable Network Graphics) image files. Use `-screenshot` to under playback mode to output captured frames as .png files.  
   
-```ms-dos  
+```cmd  
 DXCap.exe -p BasicHLSL11.vsglog -screenshot  
 ```  
   
  Use `-frame` with `-screenshot` to specify the frames that you want to output.  
   
-```ms-dos  
+```cmd  
 DXCap.exe -p BasicHLSL11.vsglog -screenshot -frame 5, 7-9  
 ```  
   
 ### Convert a Graphics Log file to XML  
  To process and analyze graphics logs using familiar tools like FindStr or XSLT, DXCap.exe can convert a graphics log file to XML. Use `-toXML` under playback mode to convert the log to XML instead of playing it back.  
   
-```ms-dos  
+```cmd  
 DXCap.exe -p regression_test_12.vsglog -toXML  
 ```  
   
  By default, the XML output is written to a file with the same name as the graphics log, but which has been given a .xml extension. In the example above, the XML file will be named **regression_test_12.xml**. To give the XML file a different name, specify it after `-toXML`.  
   
-```ms-dos  
+```cmd  
 DXCap.exe -p regression_test_12.vsglog -toXML temp.xml  
 ```  
   

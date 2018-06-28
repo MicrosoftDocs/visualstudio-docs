@@ -27,7 +27,7 @@ ms.workload:
 # Client Block Hook Functions
 If you want to validate or report the contents of the data stored in `_CLIENT_BLOCK` blocks, you can write a function specifically for this purpose. The function that you write must have a prototype similar to the following, as defined in CRTDBG.H:  
   
-```  
+```cpp
 void YourClientDump(void *, size_t)  
   
 ```  
@@ -38,7 +38,7 @@ void YourClientDump(void *, size_t)
   
  The pointer to your function that you pass to `_CrtSetDumpClient` is of type **_CRT_DUMP_CLIENT**, as defined in CRTDBG.H:  
   
-```  
+```cpp
 typedef void (__cdecl *_CRT_DUMP_CLIENT)  
    (void *, size_t);  
 ```  

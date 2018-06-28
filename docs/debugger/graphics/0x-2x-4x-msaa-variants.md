@@ -53,7 +53,7 @@ Overrides multi-sample anti-aliasing (MSAA) settings on all render targets and s
 ## Example  
  These variants can be reproduced for render targets created by using `ID3D11Device::CreateTexture2D` by using code like this:  
   
-```  
+```cpp
 D3D11_TEXTURE2D_DESC target_description;  
 target_description.BindFlags = D3D11_BIND_RENDER_TARGET;  
 target_description.SampleDesc.Count = 4; // 4x MSAA, can be 2 or 0 instead  
@@ -64,7 +64,7 @@ d3d_device->CreateTexture2D(&target_description, nullptr, &render_target);
 ## Example  
  Or for swap chains created by using IDXGISwapChain::CreateSwapChain or D3D11CreateDeviceAndSwapChain by using code like this:  
   
-```  
+```cpp
 DXGI_SWAP_CHAIN_DESC chain_description;  
 chain_description.SampleDesc.Count = 4; // 4x MSAA, can be 2 or 0 instead  
 chain_description.SampleDesc.Quality = 0;  
