@@ -210,7 +210,7 @@ ms.workload:
 ## Add replaceable parameters to the *Elements.xml* file in the item template
  Add several replaceable parameters to the *Elements.xml* file in the ItemTemplate project. These parameters are initialized in the `PopulateReplacementDictionary` method in the `CustomActionWizard` class that you defined earlier. When a user adds a Custom Action project item to a project, Visual Studio automatically replaces these parameters in the *Elements.xml* file in the new project item with the values that they specified in the wizard.  
   
- A replaceable parameter is a token that starts and ends with the dollar sign ($) character. In addition to defining your own Replaceable parameters, you can use built-in parameters that the SharePoint project system defines and initializes. For more information, see [Replaceable parameters](../sharepoint/replaceable-parameters.md).  
+ A replaceable parameter is a token that starts and ends with the dollar sign ($) character. In addition to defining your own replaceable parameters, you can use built-in parameters that the SharePoint project system defines and initializes. For more information, see [Replaceable parameters](../sharepoint/replaceable-parameters.md).  
   
 #### To add replaceable parameters to the *Elements.xml* file
   

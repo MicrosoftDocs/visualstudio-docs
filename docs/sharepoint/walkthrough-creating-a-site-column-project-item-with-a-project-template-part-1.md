@@ -233,7 +233,7 @@ ms.workload:
   
 -   *ProjectTemplate.csproj* or *ProjectTemplate.vbproj*  
   
- In the following procedures, you'll add Replaceable parameters to some of these files. A replaceable parameter is a token that starts and ends with the dollar sign ($) character. When a user uses this project template to create a project, Visual Studio automatically replaces these parameters in the new project with specific values. For more information, see [Replaceable parameters](../sharepoint/replaceable-parameters.md).  
+ In the following procedures, you'll add replaceable parameters to some of these files. A replaceable parameter is a token that starts and ends with the dollar sign ($) character. When a user uses this project template to create a project, Visual Studio automatically replaces these parameters in the new project with specific values. For more information, see [Replaceable parameters](../sharepoint/replaceable-parameters.md).  
   
 #### To edit the AssemblyInfo.cs or AssemblyInfo.vb file
   

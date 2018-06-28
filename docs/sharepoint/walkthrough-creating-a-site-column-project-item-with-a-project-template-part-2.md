@@ -407,7 +407,7 @@ ms.workload:
 ## Add replaceable parameters to the Elements.xml file in the project template
  Add several replaceable parameters to the *Elements.xml* file in the SiteColumnProjectTemplate project. These parameters are initialized in the `RunStarted` method in the `SiteColumnProjectWizard` class that you defined earlier. When a user creates a Site Column project, Visual Studio automatically replaces these parameters in the *Elements.xml* file in the new project with the values that they specified in the wizard.  
   
- A replaceable parameter is a token that begins and ends with the dollar sign ($) character. In addition to defining your own Replaceable parameters, you can use built-in parameters that are defined and initialized by the SharePoint project system. For more information, see [Replaceable parameters](../sharepoint/replaceable-parameters.md).  
+ A replaceable parameter is a token that begins and ends with the dollar sign ($) character. In addition to defining your own replaceable parameters, you can use built-in parameters that are defined and initialized by the SharePoint project system. For more information, see [Replaceable parameters](../sharepoint/replaceable-parameters.md).  
   
 #### To add replaceable parameters to the Elements.xml file
   
