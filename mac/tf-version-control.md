@@ -34,7 +34,7 @@ Follow the prompts to install the extension. Once it's installed, restart the ID
 
 Updates to the TFVC extension are made periodically. To access updates, choose **Visual Studio > Extensions...** from the menu and select the **Updates** tab. Select the extension in the list and press the **Update** button:
 
-  ![Extension manager](media/tfvc-update.png) 
+  ![Extension manager showing update](media/tfvc-update.png) 
 
 Press **Install** on the next dialog to uninstall the old package and install the new one.
 
@@ -46,25 +46,25 @@ Once the extension is installed, select the **Version Control > TFS/VSTS > Open 
 
 Choose either Visual Studio Team Services or Team Foundation Server to get started and press **Connect**:
 
-  ![Connect with a TFVC Server](media/tfvc-choose-server-type.png)
+  ![Connect with a Server](media/tfvc-choose-server-type.png)
 
 ### VSTS Authentication
 
 When you select a project that is hosted on VSTS, you're prompted to enter your Microsoft account details:
 
-  ![Connect with a TFVC Server](media/tfvc-vsts-login.png)
+  ![Connect with a VSTS Server](media/tfvc-vsts-login.png)
 
 ### TFS Authentication
 
 To connect to TFS, enter the server details and your account credentials. Enter a domain to use NTLM authentication, otherwise leave blank to use basic authentication. Select **Add Server**: 
 
-![Sign in to a TFVC Server](media/tfvc-login.png)
+![Sign in to a TFS Server](media/tfvc-login.png)
 
 ## Selecting a project
 
 Once you've successfully authenticated, you can see a list of repositories that are associated with the account in the **Open from Source Control** dialog:
 
-  ![Connect with a TFVC Server](media/tfvc-vsts-projects.png)
+  ![Open from Source Control dialog with projects displayed](media/tfvc-vsts-projects.png)
 
 This dialog is organized with the following nodes:
 
@@ -77,26 +77,21 @@ At this point, you can search and filter by the name of a project or account.
 
 To add a new server to the list, press the **+** button on the **Open from Source Control** dialog:
 
-![Sign in to a TFVC Server](media/tfvc-add-new-server.png)
+![Highlighted add button to add new server to the list](media/tfvc-add-new-server.png)
 
 Select the provider from the list, and enter your credentials:
 
-![Add new server credentials](media/tfvc-add-new-creds.png)
-
-<!--Once you've successfully logged in, select the projects that you want to access and press **OK**: 
-
-![Choose projects](media/tfvc-choose-projects.png)
--->
+![Dialog showing option for source control provider](media/tfvc-add-new-creds.png)
 
 ## Creating a new workspace
 
 To start working with a project, you need to have a _workspace_. If you don't already have a workspace, you can create one from the **Workspace** combobox in the **Open from Source Control** dialog:
 
-![Source Explorer](media/tfvc-create-new-workspace.png)
+![Create new workspace combobox option](media/tfvc-create-new-workspace.png)
 
 Set the name and local path for your new workspace and select **Create Workspace**:
 
-![Source Explorer](media/tfvc-local-workspace.png)
+![Entering a name and local path for the new workspace](media/tfvc-local-workspace.png)
 
 ## Using the Source Code Explorer
 
@@ -104,7 +99,7 @@ Once you've created a workspace and mapped your project, you can start working w
 
 To open the Source Code Explorer, select the **Version Control > TFS/VSTS > Source Control Explorer**:
 
-![](media/tfvc-source-control-explorer.png)
+![Menu item to open the source code explorer](media/tfvc-source-control-explorer.png)
 
 The Source Code Explorer enables you to navigate through all the mapped projects, their files, and  folders. It also allows you to perform all the basic source control actions such as:
 
@@ -118,25 +113,30 @@ The Source Code Explorer enables you to navigate through all the mapped projects
 
 Many of these actions are available through context actions on the project:
 
-![](media/tfvc-sourcecode-actions.png)
+![Context menu actions for a project](media/tfvc-sourcecode-actions.png)
 
 ## Managing workspaces
 
-If you haven't already create a workspace, as described in the [Creating a workspace]() section, you'll notice that the Source Code Explorer is empty:
+If you haven't already create a workspace, as described in the [Creating a workspace](#creating-a-new-workspace) section, you'll notice that the Source Code Explorer is empty:
 
-![](media/tfvc-setup-empty-sce.png) 
+![empty source code explorer](media/tfvc-setup-empty-sce.png) 
 
 To set up your remote project with a local workspace, use the following steps:
 
-1. Select the **Server** from the combobox
+1. Select the **Server** from the combobox.
 1. Not that there are "no workspaces" and tht the Local Path is "Not Mapped". Select the **Not Mapped** link to display the **Create new Workspace** dialog.
 1. Provide a name for the workspace and then click **Add Working Folder** to map the project to a local folder on your computer:
-    ![](media/tfvc-workspace1.png) 
+    
+    ![Create a new workspace dialog showing default options](media/tfvc-workspace1.png) 
+
 1. Select the "$" folder to map all Team projects on your server to the same workspace, or select an individual project, and click **OK**:
-    ![](media/tfvc-workspace2.png) 
+    
+    ![Browse for folder dialog showing all projects](media/tfvc-workspace2.png) 
+
 1. Select the location on your local machine that you wish mp the project(s) to and click **Select Folder**.
 1. Confirm the details of the new workspace by pressing **OK**
-    ![](media/tfvc-workspace3.png) 
+    
+    ![Create new workspace dialog with working folder added](media/tfvc-workspace3.png) 
 
 Once your workspace is set up, it can be changed or removed by clicking the **Manage Workspaces** button in the Source Code Explorer.
 
@@ -156,13 +156,16 @@ To use basic authentication it is necessary to enable **Alternative authenticati
 
 1. Sign in as the account owner to your VSTS account (https://{youraccount}.visualstudio.com).
 2. From your account toolbar, select the gear icon and select **Policy**:
+    
     ![Policy settings option selected](media/tfvc-auth2.png) 
+
 3. Review your application connection settings. Change these settings, based on your security policies:
+    
     ![Policy settings option selected](media/tfvc-auth.png)  
 
 ### I do not see anything in TFVC
 
-To set up Team Foundation Version Control (TFVC) on your dev machine, you **must** create a workspace, as described in the [Creating a new workspace](#creating-a-new-workspace) section.
+To set up Team Foundation Version Control (TFVC) on your dev machine, you **must** create a workspace, as described in the [Managing workspaces](#managing-workspaces) section.
 
 In Source Control Explorer, press the **Manage Workspaces** Button. Follow the steps to map the team project to a folder on your dev machine.
 
