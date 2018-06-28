@@ -13,17 +13,17 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Comparing Properties and Items
+# Comparing properties and items
 MSBuild properties and items are both used to pass information to tasks, evaluate conditions, and store values that can be referenced throughout the project file.  
   
--   Properties are name-value pairs. For more information, see [MSBuild Properties](../msbuild/msbuild-properties.md).  
+-   Properties are name-value pairs. For more information, see [MSBuild properties](../msbuild/msbuild-properties.md).  
   
 -   Items are objects that typically represent files. Item objects can have associated metadata collections. Metadata are name-value pairs. For more information, see [Items](../msbuild/msbuild-items.md).  
   
-## Scalars and Vectors  
+## Scalars and vectors  
  Because MSBuild properties are name-value pairs that have just one string value, they are often described as *scalar*. Because MSBuild item types are lists of items, they are often described as *vector*. However, in practice, properties can represent multiple values, and item types can have zero or one items.  
   
-### Target Dependency Injection  
+### Target dependency injection  
  To see how properties can represent multiple values, consider a common usage pattern for adding a target to a list of targets to be built. This list is typically represented by a property value, with the target names separated by semicolons.  
   
 ```xml  
@@ -49,9 +49,9 @@ MSBuild properties and items are both used to pass information to tasks, evaluat
   
  adds the CustomBuild target to the target list, giving `BuildDependsOn` the value `BeforeBuild;CoreBuild;AfterBuild;CustomBuild`.  
   
- Starting with MSBuild 4.0, target dependency injection is deprecated. Use the `AfterTargets` and `BeforeTargets` attributes instead. For more information, see [Target Build Order](../msbuild/target-build-order.md).  
+ Starting with MSBuild 4.0, target dependency injection is deprecated. Use the `AfterTargets` and `BeforeTargets` attributes instead. For more information, see [Target build order](../msbuild/target-build-order.md).  
   
-### Conversions between Strings and Item Lists  
+### Conversions between strings and item lists  
  MSBuild performs conversions to and from item types and string values as needed. To see how an item list can become a string value, consider what happens when an item type is used as the value of an MSBuild property:  
   
 ```xml  
@@ -65,7 +65,7 @@ MSBuild properties and items are both used to pass information to tasks, evaluat
   
  The item type OutputDir has an `Include` attribute with the value "KeyFiles\\;Certificates\\". MSBuild parses this string into two items: KeyFiles\ and Certificates\\. When the item type OutputDir is used as the value of the OutputDirList property, MSBuild converts or "flattens" the item type into to the semicolon-separated string "KeyFiles\\;Certificates\\".  
   
-## Properties and Items in Tasks  
+## Properties and items in tasks  
  Properties and items are used as inputs and outputs to MSBuild tasks. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  
   
  Properties are passed to tasks as attributes. Within the task, an MSBuild property is represented by a property type whose value can be converted to and from a string. The supported property types include `bool`, `char`, `DateTime`, `Decimal`, `Double`, `int`, `string`, and any type that <xref:System.Convert.ChangeType%2A> can handle.  
@@ -74,7 +74,7 @@ MSBuild properties and items are both used to pass information to tasks, evaluat
   
  The item list of an item type can be passed as an array of `ITaskItem` objects. Beginning with the .NET Framework 3.5, items can be removed from an item list in a target by using the `Remove` attribute. Because items can be removed from an item list, it is possible for an item type to have zero items. If an item list is passed to a task, the code in the task should check for this possibility.  
   
-## Property and Item Evaluation Order  
+## Property and item evaluation order  
  During the evaluation phase of a build, imported files are incorporated into the build in the order in which they appear. Properties and items are defined in three passes in the following order:  
   
 -   Properties are defined and modified in the order in which they appear.  
@@ -99,7 +99,7 @@ MSBuild properties and items are both used to pass information to tasks, evaluat
   
     -   Properties and items that are defined within targets are evaluated together in the order in which they appear. Property functions are executed and property values are expanded within expressions. Item values and item transformations are also expanded. The property values, item type values, and metadata values are set to the expanded expressions.  
   
-### Subtle Effects of the Evaluation Order  
+### Subtle effects of the evaluation order  
  In the evaluation phase of a build, property evaluation precedes item evaluation. Nevertheless, properties can have values that appear to depend on item values. Consider the following script.  
   
 ```xml  
@@ -174,5 +174,5 @@ KeyFileVersion:
 KeyFileVersion: 1.0.0.3  
 ```  
   
-## See Also  
- [Advanced Concepts](../msbuild/msbuild-advanced-concepts.md)
+## See also  
+ [Advanced concepts](../msbuild/msbuild-advanced-concepts.md)
