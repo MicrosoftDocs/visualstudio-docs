@@ -16,11 +16,11 @@ ms.workload:
 ---
 # Customize your build
 
-MSBuild projects that use the standard build process (importing `Microsoft.Common.props` and `Microsoft.Common.targets`) have several extensibility hooks that can be used to customize your build process.
+MSBuild projects that use the standard build process (importing *Microsoft.Common.props* and *Microsoft.Common.targets*) have several extensibility hooks that can be used to customize your build process.
 
 ## Adding arguments to command-line MSBuild invocations for your project
 
-A `Directory.Build.rsp` file in or above your source directory will be applied to command-line builds of your project. For details, see [MSBuild Response Files](../msbuild/msbuild-response-files.md#directorybuildrsp).
+A *Directory.Build.rsp* file in or above your source directory will be applied to command-line builds of your project. For details, see [MSBuild response files](../msbuild/msbuild-response-files.md#directorybuildrsp).
 
 ## Directory.Build.props and Directory.Build.targets
 
@@ -100,16 +100,16 @@ Or more simply: the first *Directory.Build.props* which doesn't import anything,
 
 ## MSBuildProjectExtensionsPath
 
-By default, `Microsoft.Common.props` imports `$(MSBuildProjectExtensionsPath)$(MSBuildProjectFile).*.props` and `Microsoft.Common.targets` imports `$(MSBuildProjectExtensionsPath)$(MSBuildProjectFile).*.targets`. The default value of `MSBuildProjectExtensionsPath` is `$(BaseIntermediateOutputPath)`, `obj/`. This is the mechanism that NuGet uses to refer to build logic delivered with packages, that is, at restore time, it creates `{project}.nuget.g.props` files that refer to the package contents.
+By default, *Microsoft.Common.props* imports `$(MSBuildProjectExtensionsPath)$(MSBuildProjectFile).*.props` and *Microsoft.Common.targets* imports `$(MSBuildProjectExtensionsPath)$(MSBuildProjectFile).*.targets`. The default value of `MSBuildProjectExtensionsPath` is `$(BaseIntermediateOutputPath)`, `obj/`. This is the mechanism that NuGet uses to refer to build logic delivered with packages, that is, at restore time, it creates `{project}.nuget.g.props` files that refer to the package contents.
 
-This extensibility mechanism can be disabled by setting the property `ImportProjectExtensionProps` to `false` in a `Directory.Build.props` or before importing `Microsoft.Common.props`.
+This extensibility mechanism can be disabled by setting the property `ImportProjectExtensionProps` to `false` in a *Directory.Build.props* or before importing *Microsoft.Common.props*.
 
 > [!NOTE]
 > Disabling MSBuildProjectExtensionsPath imports will prevent build logic delivered in NuGet packages from applying to your project. Some NuGet packages require build logic to perform their function and will be rendered useless when this is disabled.
 
 ## .user file
 
-Microsoft.Common.CurrentVersion.targets imports `$(MSBuildProjectFullPath).user` if it exists, so you can create a file next to your project with that additional extension. For long-term changes you plan to check into source control, prefer changing the project itself, so that future maintainers do not have to know about this extension mechanism.
+*Microsoft.Common.CurrentVersion.targets* imports `$(MSBuildProjectFullPath).user` if it exists, so you can create a file next to your project with that additional extension. For long-term changes you plan to check into source control, prefer changing the project itself, so that future maintainers do not have to know about this extension mechanism.
 
 ## MSBuildExtensionsPath and MSBuildUserExtensionsPath
 
@@ -130,16 +130,16 @@ $(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\{TargetFileName}\ImportAfter\*.t
 
 afterward. This allows installed SDKs to augment the build logic of common project types.
 
-The same directory structure is searched in `$(MSBuildUserExtensionsPath)`, which is the per-user folder `%LOCALAPPDATA%\Microsoft\MSBuild`. Files placed in that folder will be imported for all builds of the corresponding project type run under that user's credentials. The user extensions can be disabled by setting properties named after the importing file in the pattern `ImportUserLocationsByWildcardBefore{ImportingFileNameWithNoDots}`. For example, setting `ImportUserLocationsByWildcardBeforeMicrosoftCommonProps` to `false` would prevent importing `$(MSBuildUserExtensionsPath)\$(MSBuildToolsVersion)\Imports\Microsoft.Common.props\ImportBefore\*`.
+The same directory structure is searched in `$(MSBuildUserExtensionsPath)`, which is the per-user folder *%LOCALAPPDATA%\Microsoft\MSBuild*. Files placed in that folder will be imported for all builds of the corresponding project type run under that user's credentials. The user extensions can be disabled by setting properties named after the importing file in the pattern `ImportUserLocationsByWildcardBefore{ImportingFileNameWithNoDots}`. For example, setting `ImportUserLocationsByWildcardBeforeMicrosoftCommonProps` to `false` would prevent importing `$(MSBuildUserExtensionsPath)\$(MSBuildToolsVersion)\Imports\Microsoft.Common.props\ImportBefore\*`.
 
 ## Customizing the solution build
 
 > [!IMPORTANT]
-> Customizing the solution build in this way applies only to command-line builds with `MSBuild.exe`. It **does not** apply to builds inside Visual Studio.
+> Customizing the solution build in this way applies only to command-line builds with *MSBuild.exe*. It **does not** apply to builds inside Visual Studio.
 
 When MSBuild builds a solution file, it first translates it internally into a project file and then builds that. The generated project file imports `before.{solutionname}.sln.targets` before defining any targets and `after.{solutionname}.sln.targets` after importing targets, including targets installed to the `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportBefore` and `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportAfter` directories.
 
-For example, you could define a new target to write a custom log message after building `MyCustomizedSolution.sln` by creating a file in the same directory named `after.MyCustomizedSolution.sln.targets` that contains
+For example, you could define a new target to write a custom log message after building *MyCustomizedSolution.sln* by creating a file in the same directory named *after.MyCustomizedSolution.sln.targets* that contains
 
 ```xml
 <Project>
@@ -149,7 +149,8 @@ For example, you could define a new target to write a custom log message after b
 </Project>
 ```
 
-## See Also
+## See also
 
- [MSBuild Concepts](../msbuild/msbuild-concepts.md)
- [MSBuild Reference](../msbuild/msbuild-reference.md)
+[MSBuild concepts](../msbuild/msbuild-concepts.md)
+
+[MSBuild reference](../msbuild/msbuild-reference.md)
