@@ -21,11 +21,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# GenerateBootstrapper Task
+# GenerateBootstrapper task
 Provides an automated way to detect, download, and install an application and its prerequisites. It serves as a single installer that integrates the separate installers for all the components making up an application.  
   
-## Task Parameters  
- The following table describes the parameters of the `GenerateBootstrapper` task.  
+## Task parameters  
+ The following describe the parameters of the `GenerateBootstrapper` task.  
   
 -   `ApplicationFile`  
   
@@ -124,7 +124,7 @@ Provides an automated way to detect, download, and install an application and it
   
      Optional `String` parameter.  
   
-     Specifies the location to copy setup.exe and all package files.  
+     Specifies the location to copy *setup.exe* and all package files.  
   
 -   `Path`  
   
@@ -136,7 +136,7 @@ Provides an automated way to detect, download, and install an application and it
   
      Optional `String` parameter.  
   
-     Specifies the URL to provide should the bootstrapper installation fail  
+     Specifies the URL to provide should the bootstrapper installation fail.  
   
 -   `Validate`  
   
@@ -145,7 +145,7 @@ Provides an automated way to detect, download, and install an application and it
      If `true`, the bootstrapper performs XSD validation on the specified input bootstrapper items. The default value of this parameter is `false`.  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  
   
 ## Example  
  The following example uses the `GenerateBootstrapper` task to install an application that must have the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] installed as a prerequisite.  
@@ -171,6 +171,6 @@ Provides an automated way to detect, download, and install an application and it
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)
