@@ -19,7 +19,7 @@ Learn how [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm
 
 ##  I'm used to my keyboard shortcuts from a different extension/editor/IDE.
 
-If you are coming from another IDE or coding environment, you can change your keyboard scheme in Visual Studio to *Visual Studio Code* or *ReSharper (Visual Studio)*:
+If you are coming from another IDE or coding environment, you can change your keyboard scheme in **Visual Studio 2017 version 15.8** to *Visual Studio Code* or *ReSharper (Visual Studio)*:
 
 ![Keyboard Schemes in Visual Studio](../ide/media/VS2017Guide-Keyboard.png)
 
@@ -45,12 +45,12 @@ The following are popular Visual Studio shortcuts:
 | **Ctrl**+**F5** | Run without Debug | Run your application locally without debugging |
 | **Ctrl**+**K**,**D** (Default Profile) or **Ctrl**+**E**,**D** (C# Profile) | Format Document | Cleans up formatting violations in your file based on your newline, spacing, and indentation settings |
 | **Ctrl**+**\\**,**E** (Default Profile) or **Ctrl**+**W**,**E** (C# Profile) | View Error List | See all errors in your document, project, or solution |
-| **Alt** + **PgUp/PgDn** | Go to Next/Previous Issue | Jump to the next/previous error, warning, suggestion in your document (available in **Visual Studio 2017 version 15.8** and later) |
+| **Alt** + **PgUp/PgDn** | Go to Next/Previous Issue | Jump to the previous/next error, warning, suggestion in your document (available in **Visual Studio 2017 version 15.8** and later) |
 
 > [!NOTE]
 > Some extensions unbind the default Visual Studio keybindings. To use the above commands, restore your keybindings to Visual Studio's defaults by going to **Tools** > **Import and Export Settings** > **Reset all settings** or **Tools** > **Options** > **Keyboard** > **Reset**.
 
-Learn more keyboard shortcuts and commands in Visual Studio in [our documentation](..\ide\tips-and-tricks-for-visual-studio).
+Learn more keyboard shortcuts and commands in Visual Studio in [our documentation](..\ide\tips-and-tricks-for-visual-studio.md).
 
 ## I need a way to quickly navigate to files or types.
 Visual Studio 2017 has a feature called **Go To All** (**Ctrl**+**T**). Go To All enables you to quickly jump to any file, type, member, or symbol declaration.
