@@ -13,11 +13,11 @@ ms.workload:
 ---
 # The connection property in the Application Settings file is missing or incorrect
 
-The connection property in the Application Settings file is missing or incorrect. The connection string from the .dbml file has been used in its place.
+The connection property in the Application Settings file is missing or incorrect. The connection string from the *.dbml* file has been used in its place.
 
-The .dbml file contains a reference to a connection string in the application settings file that cannot be found. This message is informational; the connection string setting will be created when **OK** is clicked.
+The *.dbml* file contains a reference to a connection string in the application settings file that cannot be found. This message is informational; the connection string setting will be created when **OK** is clicked.
 
-To respond to this message, select **OK**. The connection information that is contained in the .dbml file is added to application settings.
+To respond to this message, select **OK**. The connection information that is contained in the *.dbml* file is added to application settings.
 
 ## See also
 

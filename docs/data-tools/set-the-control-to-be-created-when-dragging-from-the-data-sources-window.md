@@ -26,7 +26,7 @@ In this context, the term *object* refers to a custom business object, an entity
 
 ### To set the controls to be created for data tables or objects
 
-1.  Make sure that the WPF designer or the Windows Forms designer is open.
+1.  Be sure the **WPF** designer or the **Windows Forms** designer is open.
 
 2.  In the **Data Sources** window, select the item that represents the data table or object you want to set.
 
@@ -45,7 +45,7 @@ Before you drag an item that represents a column or a property of an object from
 
 #### To set the controls to be created for columns or properties
 
-1.  Make sure that the WPF designer or the Windows Forms designer is open.
+1.  Be sure the **WPF** designer or the **Windows Forms** designer is open.
 
 2.  In the **Data Sources** window, expand the desired table or object to display its columns or properties.
 

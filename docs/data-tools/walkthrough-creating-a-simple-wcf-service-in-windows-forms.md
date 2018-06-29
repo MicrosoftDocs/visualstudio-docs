@@ -19,14 +19,14 @@ ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
-# Walkthrough: Creating a simple WCF Service in Windows Forms
+# Walkthrough: Create a simple WCF service in Windows Forms
 This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../data-tools/includes/vsindigo_md.md)] service, test it, and then access it from a Windows Forms application.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
-## Creating the Service
+## Create the service
 
-#### To create a WCF service
+### To create a WCF service
 
 1.  On the **File** menu, point to **New** and then click **Project**.
 
@@ -39,7 +39,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../data
 
 3.  ![The IService1 file](../data-tools/media/wcf2.png)
 
-     In **Solution Explorer**, double-click IService1.vb or IService1.cs and find the following line:
+     In **Solution Explorer**, double-click **IService1.vb** or **IService1.cs** and find the following line:
 
      [!code-csharp[WCFWalkthrough#4](../data-tools/codesnippet/CSharp/walkthrough-creating-a-simple-wcf-service-in-windows-forms_1.cs)]
      [!code-vb[WCFWalkthrough#4](../data-tools/codesnippet/VisualBasic/walkthrough-creating-a-simple-wcf-service-in-windows-forms_1.vb)]
@@ -53,23 +53,23 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../data
 
 4.  ![The Service1 file](../data-tools/media/wcf3.png)
 
-     In **Solution Explorer**, double-click Service1.vb or Service1.cs and find the following line:
+     In **Solution Explorer**, double-click **Service1.vb** or **Service1.cs** and find the following line:
 
      [!code-vb[WCFWalkthrough#5](../data-tools/codesnippet/VisualBasic/walkthrough-creating-a-simple-wcf-service-in-windows-forms_3.vb)]
      [!code-csharp[WCFWalkthrough#5](../data-tools/codesnippet/CSharp/walkthrough-creating-a-simple-wcf-service-in-windows-forms_3.cs)]
 
-     Change the type for the value parameter to string:
+     Change the type for the `value` parameter to string:
 
      [!code-csharp[WCFWalkthrough#2](../data-tools/codesnippet/CSharp/walkthrough-creating-a-simple-wcf-service-in-windows-forms_4.cs)]
      [!code-vb[WCFWalkthrough#2](../data-tools/codesnippet/VisualBasic/walkthrough-creating-a-simple-wcf-service-in-windows-forms_4.vb)]
 
-## Testing the Service
+## Test the service
 
-#### To test a WCF service
+### To test a WCF service
 
-1.  Press **F5** to run the service. A **WCF Test Client** form will be displayed and it will load the service.
+1.  Press **F5** to run the service. A **WCF Test Client** form appears and loads the service.
 
-2.  In the **WCF Test Client** form, double-click the **GetData()** method under **IService1**. The **GetData** tab will be displayed.
+2.  In the **WCF Test Client** form, double-click the **GetData()** method under **IService1**. The **GetData** tab appears.
 
      ![The GetData&#40;&#41; method](../data-tools/media/wcf4.png)
 
@@ -77,33 +77,33 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../data
 
      ![The Value field](../data-tools/media/wcf5.png)
 
-4.  Click the **Invoke** button. If a **Security Warning** dialog box is displayed, click **OK**. The result will be displayed in the **Response** box.
+4.  Click the **Invoke** button. If a **Security Warning** dialog box appears, click **OK**. The result displays in the **Response** box.
 
      ![The result in the Response box](../data-tools/media/wcf6.png)
 
 5.  On the **File** menu, click **Exit** to close the test form.
 
-## Accessing the Service
+## Access the Service
 
-#### To reference a WCF service
+### To reference a WCF service
 
 1.  On the **File** menu, point to **Add** and then click **New Project**.
 
-2.  In the **New Project** dialog box, expand the **Visual Basic** or **Visual C#** node and select **Windows**, and then select **Windows Forms Application**. Click **OK** to open the project.
+2.  In the **New Project** dialog box, expand the **Visual Basic** or **Visual C#** node, select **Windows**, and then select **Windows Forms Application**. Click **OK** to open the project.
 
      ![Windows Forms Application project](../data-tools/media/wcf7.png)
 
-3.  Right-click **WindowsApplication1** and click **Add Service Reference**. The **Add Service Reference** dialog box will appear.
+3.  Right-click **WindowsApplication1** and click **Add Service Reference**. The **Add Service Reference** dialog box appears.
 
 4.  In the **Add Service Reference** dialog box, click **Discover**.
 
      ![The Add Service Reference dialog box](../data-tools/media/wcf8.png)
 
-     **Service1** will be displayed in the **Services** pane.
+     **Service1** displays in the **Services** pane.
 
 5.  Click **OK** to add the service reference.
 
-#### To build a client application
+### To build a client application
 
 1.  In **Solution Explorer**, double-click **Form1.vb** or **Form1.cs** to open the Windows Forms Designer if it is not already open.
 
@@ -118,7 +118,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../data
 
 4.  In **Solution Explorer**, right-click **WindowsApplication1** and click **Set as StartUp Project**.
 
-5.  Press **F5** to run the project. Enter some text and click the button. The label will display "You entered:" and the text that you entered.
+5.  Press **F5** to run the project. Enter some text and click the button. The label displays "You entered:" and shows the text that you entered.
 
      ![The form showing the result](../data-tools/media/wcf10.png)
 
