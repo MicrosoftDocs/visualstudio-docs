@@ -44,7 +44,7 @@ For information on what's new in each release, see the [Release Notes](https://d
 
 Once the extension is installed, select the **Version Control > TFS/VSTS > Open from Remote Repository** menu item. 
 
-Choose either Visual Studio Team Services or Team Foundation Server to get started and press **Connect**:
+Choose either Visual Studio Team Services or Team Foundation Server to get started and press **Continue**:
 
   ![Connect with a Server](media/tfvc-choose-server-type.png)
 
@@ -75,7 +75,7 @@ At this point, you can search and filter by the name of a project or account.
 
 ### Adding a new server
 
-To add a new server to the list, press the **+** button on the **Open from Source Control** dialog:
+To add a new server to the list, press the **Add Host** button on the **Open from Source Control** dialog:
 
 ![Highlighted add button to add new server to the list](media/tfvc-add-new-server.png)
 
@@ -124,7 +124,7 @@ If you haven't already create a workspace, as described in the [Creating a works
 To set up your remote project with a local workspace, use the following steps:
 
 1. Select the **Server** from the combobox.
-1. Not that there are "no workspaces" and tht the Local Path is "Not Mapped". Select the **Not Mapped** link to display the **Create new Workspace** dialog.
+1. Note that there are "no workspaces" and that the Local Path is "Not Mapped". Select the **Not Mapped** link to display the **Create new Workspace** dialog.
 1. Provide a name for the workspace and then click **Add Working Folder** to map the project to a local folder on your computer:
     
     ![Create a new workspace dialog showing default options](media/tfvc-workspace1.png) 
