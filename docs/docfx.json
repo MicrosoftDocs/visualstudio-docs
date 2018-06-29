@@ -93,7 +93,7 @@
 
     "fileMetadata": {
       "breadcrumb_path": {
-          "vs-2015/**/*.md": "~/_breadcrumb/vs-2015/toc.json" 
+          "vs-2015/**/*.md": "/visualstudio/_breadcrumb/vs-2015/toc.json" 
       }
     },
 
