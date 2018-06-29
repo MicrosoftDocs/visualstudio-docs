@@ -19,7 +19,9 @@ ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
+
 # Walkthrough: Create a simple WCF service in Windows Forms
+
 This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../data-tools/includes/vsindigo_md.md)] service, test it, and then access it from a Windows Forms application.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
