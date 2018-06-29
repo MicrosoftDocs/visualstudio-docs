@@ -31,13 +31,13 @@ TypeName|TestForNaNCorrectly|
 |Breaking Change|Non Breaking|  
   
 ## Cause  
- An expression tests a value against <xref:System.Single.Nan?displayProperty=fullName> or <xref:System.Double.Nan?displayProperty=fullName>.  
+ An expression tests a value against <xref:System.Single.NaN?displayProperty=fullName> or <xref:System.Double.NaN?displayProperty=fullName>.  
   
 ## Rule Description  
  <xref:System.Double.NaN?displayProperty=fullName>, which represents not-a-number, results when an arithmetic operation is undefined. Any expression that tests equality between a value and <xref:System.Double.NaN?displayProperty=fullName> always returns `false`. Any expression that tests inequality between a value and <xref:System.Double.NaN?displayProperty=fullName> always returns `true`.  
   
 ## How to Fix Violations  
- To fix a violation of this rule and accurately determine whether a value represents <xref:System.Double.NaN?displayProperty=fullName>, use <xref:System.Single.IsNan%2A?displayProperty=fullName> or <xref:System.Double.IsNan%2A?displayProperty=fullName> to test the value.  
+ To fix a violation of this rule and accurately determine whether a value represents <xref:System.Double.NaN?displayProperty=fullName>, use <xref:System.Single.IsNaN%2A?displayProperty=fullName> or <xref:System.Double.IsNaN%2A?displayProperty=fullName> to test the value.  
   
 ## When to Suppress Warnings  
  Do not suppress a warning from this rule.  

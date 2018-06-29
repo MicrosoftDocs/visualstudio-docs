@@ -69,7 +69,7 @@ TypeName|PropertiesShouldNotReturnArrays|
 ### Description  
  The following example fixes the violation by changing the property to return a  
   
- <xref:System.Collection.ObjectModel.ReadOnlyCollection?displayProperty=fullName>.  
+ <xref:System.Collections.ObjectModel.ReadOnlyCollection?displayProperty=fullName>.  
   
 ### Code  
  [!code-csharp[FxCop.Performance.PropertyArrayFixedCollection#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Performance.PropertyArrayFixedCollection/cs/FxCop.Performance.PropertyArrayFixedCollection.cs#1)]
@@ -85,7 +85,7 @@ TypeName|PropertiesShouldNotReturnArrays|
  [!code-vb[FxCop.Performance.PropertyModifyViolation#1](../snippets/visualbasic/VS_Snippets_CodeAnalysis/FxCop.Performance.PropertyModifyViolation/vb/FxCop.Performance.PropertyModifyViolation.vb#1)]  
   
 ### Comments  
- The following example fixes the violation by changing the property to return a <xref:System.Collection.ObjectModel.Collection?displayProperty=fullName>.  
+ The following example fixes the violation by changing the property to return a <xref:System.Collections.ObjectModel.Collection?displayProperty=fullName>.  
   
 ### Code  
  [!code-csharp[FxCop.Performance.PropertyModifyFixed#1](../snippets/csharp/VS_Snippets_CodeAnalysis/FxCop.Performance.PropertyModifyFixed/cs/FxCop.Performance.PropertyModifyFixed.cs#1)]

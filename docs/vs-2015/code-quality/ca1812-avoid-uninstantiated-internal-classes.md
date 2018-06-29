@@ -65,7 +65,7 @@ TypeName|AvoidUninstantiatedInternalClasses|
 ## When to Suppress Warnings  
  It is safe to suppress a warning from this rule. We recommend that you suppress this warning in the following situations:  
   
--   The class is created through late-bound reflection methods such as <xref:System.Activator.CreateInstance?displayProperty=fullName>.  
+-   The class is created through late-bound reflection methods such as <xref:System.Activator.CreateInstance%2A?displayProperty=fullName>.  
   
 -   The class is created automatically by the runtime or [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]. For example, classes that implement <xref:System.Configuration.IConfigurationSectionHandler?displayProperty=fullName> or <xref:System.Web.IHttpHandler?displayProperty=fullName>.  
   

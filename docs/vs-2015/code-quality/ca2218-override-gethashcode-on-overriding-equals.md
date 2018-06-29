@@ -37,23 +37,23 @@ TypeName|OverrideGetHashCodeOnOverridingEquals|
 ## Rule Description  
  <xref:System.Object.GetHashCode%2A> returns a value, based on the current instance, that is suited for hashing algorithms and data structures such as a hash table. Two objects that are the same type and are equal must return the same hash code to ensure that instances of the following types work correctly:  
   
--   <xref:System.Collections.HashTable?displayProperty=fullName>  
+-   <xref:System.Collections.HashTable%2A?displayProperty=fullName>  
   
 -   <xref:System.Collections.SortedList?displayProperty=fullName>  
   
--   <xref:System.Collections.Generic.Dictionary?displayProperty=fullName>  
+-   <xref:System.Collections.Generic.Dictionary%2A?displayProperty=fullName>  
   
--   <xref:System.Collections.Generic.SortDictionary?displayProperty=fullName>  
+-   <xref:System.Collections.Generic.SortedDictionary%2A?displayProperty=fullName>  
   
--   <xref:System.Collections.Generic.SortList?displayProperty=fullName>  
+-   <xref:System.Collections.Generic.SortedList%2A?displayProperty=fullName>  
   
--   <xref:System.Collections.Specialized.HybredDictionary?displayProperty=fullName>  
+-   <xref:System.Collections.Specialized.HybridDictionary%2A?displayProperty=fullName>  
   
 -   <xref:System.Collections.Specialized.ListDictionary?displayProperty=fullName>  
   
 -   <xref:System.Collections.Specialized.OrderedDictionary?displayProperty=fullName>  
   
--   Types that implement <xref:System.Collections.Generic.IEqualityComparer?displayProperty=fullName>  
+-   Types that implement <xref:System.Collections.Generic.IEqualityComparer%2A?displayProperty=fullName>  
   
 ## How to Fix Violations  
  To fix a violation of this rule, provide an implementation of <xref:System.Object.GetHashCode%2A>. For a pair of objects of the same type, you must ensure that the implementation returns the same value if your implementation of <xref:System.Object.Equals%2A> returns `true` for the pair.  
