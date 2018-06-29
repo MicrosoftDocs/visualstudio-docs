@@ -13,7 +13,7 @@ ms.workload:
 ---
 # You have selected a database object from an unsupported database provider
 
-The O/R Designer supports only the .NET Framework Data Provider for SQL Server (<xref:System.Data.SqlClient>). Although you can click **OK** and continue to work with objects from unsupported database providers, you may experience unexpected behavior at run time.
+The **O/R Designer** supports only the .NET Framework Data Provider for SQL Server (<xref:System.Data.SqlClient>). Although you can click **OK** and continue to work with objects from unsupported database providers, you may experience unexpected behavior at run time.
 
 > [!NOTE]
 > Only data connections that use the .NET Framework Data Provider for SQL Server are supported.

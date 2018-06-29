@@ -87,7 +87,7 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 
 #### To create the new Windows Forms Application
 
-1. In Visual Studio, on the **File** menu, select **New**, **Project...**.
+1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
 2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
 

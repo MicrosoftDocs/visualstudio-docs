@@ -27,7 +27,7 @@ The **CorrelationScope** activity designer can be found in the **Messaging** cat
 
 The **CorrelationScope** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface. This creates a <xref:System.ServiceModel.Activities.CorrelationScope> activity with a default **DisplayName** of CorrelationScope. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **CorrelationScope** activity designer or in the **DisplayName** box of the **Properties** window.
 
-To specify the <xref:System.ServiceModel.Activities.CorrelationHandle> used by child messaging activities, click the ellipse button beside the **CorrelatesWith** field in **Properties** window to display the **Expression Editor** dialog box. This property can also be set on the activity designer surface.
+To specify the <xref:System.ServiceModel.Activities.CorrelationHandle> used by child messaging activities, select the ellipsis button beside the **CorrelatesWith** field in **Properties** window to display the **Expression Editor** dialog box. This property can also be set on the activity designer surface.
 
 The activities scoped within the correlation are specified by dropping their designers within the **Body** box within the **CorrelationScope** designer.
 

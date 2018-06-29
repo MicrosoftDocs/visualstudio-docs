@@ -24,7 +24,7 @@ ms.workload:
   
 1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create or open a SharePoint project.  
   
-     For information about how to create a SharePoint project, see [SharePoint Project and Project Item Templates](../sharepoint/sharepoint-project-and-project-item-templates.md).  
+     For information about how to create a SharePoint project, see [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md).  
   
 2.  On the menu bar, choose **Project** > **Add New Item**.  
   
@@ -45,7 +45,7 @@ ms.workload:
 8.  If you added a master page, change its **Deployment Conflict Resolution** setting to **Automatic** in the module's properties.  
   
     > [!NOTE]  
-    >  Errors can occur if the name of the master page is the same as the name of an existing master page that's marked as either Default Master Page or Custom Master Page. For information about how to resolve this problem, see [Walkthrough: Import a Custom Master Page and Site Page with an Image](../sharepoint/walkthrough-import-a-custom-master-page-and-site-page-with-an-image.md).  
+    >  Errors can occur if the name of the master page is the same as the name of an existing master page that's marked as either Default Master Page or Custom Master Page. For information about how to resolve this problem, see [Walkthrough: Import a custom master page and site page with an image](../sharepoint/walkthrough-import-a-custom-master-page-and-site-page-with-an-image.md).  
   
 9. In the module, open *Elements.xml*.  
   
@@ -88,7 +88,7 @@ ms.workload:
   
 ## See also
  [Master Pages](http://go.microsoft.com/fwlink/?LinkId=184955)   
- [Importing Items from an Existing SharePoint Site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
- [Creating Pages for SharePoint](../sharepoint/creating-pages-for-sharepoint.md)   
- [Using Modules to Include Files in the Solution](../sharepoint/using-modules-to-include-files-in-the-solution.md)  
+ [Importing items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
+ [Create pages for SharePoint](../sharepoint/creating-pages-for-sharepoint.md)   
+ [Use modules to include files in the solution](../sharepoint/using-modules-to-include-files-in-the-solution.md)  
   

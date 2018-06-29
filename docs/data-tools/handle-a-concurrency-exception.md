@@ -65,7 +65,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 #### To create a new Windows Forms application project
 
-1. In Visual Studio, on the **File** menu, select **New**, **Project**.
+1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
 2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
 

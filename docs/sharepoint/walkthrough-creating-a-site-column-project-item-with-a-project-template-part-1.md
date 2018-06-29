@@ -32,7 +32,7 @@ ms.workload:
   
 -   Debugging and testing the project item.  
   
- This is a stand-alone walkthrough. After you complete this walkthrough, you can enhance the project item by adding a wizard to the project template. For more information, see [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).  
+ This is a stand-alone walkthrough. After you complete this walkthrough, you can enhance the project item by adding a wizard to the project template. For more information, see [Walkthrough: Create a site column project item with a project template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).  
   
 > [!NOTE]  
 > For a series of sample workflows, see [SharePoint workflow samples](https://docs.microsoft.com/sharepoint/dev/general-development/sharepoint-workflow-samples).  
@@ -40,9 +40,9 @@ ms.workload:
 ## Prerequisites  
  You need the following components on the development computer to complete this walkthrough:  
   
--   Supported editions of Microsoft Windows, SharePoint and [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information, see [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of Microsoft Windows, SharePoint and [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
   
--   The [!INCLUDE[vssdk_current_long](../sharepoint/includes/vssdk-current-long-md.md)]. This walkthrough uses the **VSIX Project** template in the SDK to create a VSIX package to deploy the project item. For more information, see [Extending the SharePoint Tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md).  
+-   The [!include[vssdk_current_long](../sharepoint/includes/vssdk-current-long-md.md)]. This walkthrough uses the **VSIX Project** template in the SDK to create a VSIX package to deploy the project item. For more information, see [Extend the SharePoint Tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md).  
   
  Knowledge of the following concept is helpful, but not required, to complete the walkthrough:  
   
@@ -148,7 +148,7 @@ ms.workload:
      [!code-vb[SPExtensibility.ProjectItem.SiteColumn#1](../sharepoint/codesnippet/VisualBasic/sitecolumnprojectitem/projectitemtypedefinition/sitecolumnprojectitemtypeprovider.vb#1)]  
   
 ## Create a Visual Studio project template
- By creating a project template, you enable other developers to create SharePoint projects that contain site column project items. A SharePoint project template includes files that are required for all projects in Visual Studio, such as *.csproj* or *.vbproj* and *.vstemplate* files, and files that are specific to SharePoint projects. For more information, see [Creating Item Templates and Project Templates for SharePoint Project Items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).  
+ By creating a project template, you enable other developers to create SharePoint projects that contain site column project items. A SharePoint project template includes files that are required for all projects in Visual Studio, such as *.csproj* or *.vbproj* and *.vstemplate* files, and files that are specific to SharePoint projects. For more information, see [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).  
   
  In this procedure, you create an empty SharePoint project to generate the files that are specific to SharePoint projects. You then add these files to the SiteColumnProjectTemplate project so that they're included in the template that's generated from this project. You also configure the SiteColumnProjectTemplate project file to specify where the project template appears in the **New Project** dialog box.  
   
@@ -172,7 +172,7 @@ ms.workload:
 7.  In the directory that contains the BaseSharePointProject project, select the key.snk file, and then choose the **Add** button.  
   
     > [!NOTE]  
-    >  In this walkthrough, the project template that you create uses the same key.snk file to sign each project that's created by using the template. To learn how to expand this sample to create a different key.snk file for each project instance, see [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).  
+    >  In this walkthrough, the project template that you create uses the same key.snk file to sign each project that's created by using the template. To learn how to expand this sample to create a different key.snk file for each project instance, see [Walkthrough: Create a site column project item with a project template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).  
   
 8.  Repeat steps 5-8 to add the following files from the specified subfolders in the BaseSharePointProject directory:  
   
@@ -188,7 +188,7 @@ ms.workload:
   
     -   *\Package\Package.Template.xml*  
   
-     Add these files directly to the SiteColumnProjectTemplate project; don't recreate the Field1, Features, or Package subfolders in the project. For more information about these files, see [Creating Item Templates and Project Templates for SharePoint Project Items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).  
+     Add these files directly to the SiteColumnProjectTemplate project; don't recreate the Field1, Features, or Package subfolders in the project. For more information about these files, see [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).  
   
 #### To configure how developers discover the project template in the New Project dialog box
   
@@ -233,7 +233,7 @@ ms.workload:
   
 -   *ProjectTemplate.csproj* or *ProjectTemplate.vbproj*  
   
- In the following procedures, you'll add replaceable parameters to some of these files. A replaceable parameter is a token that starts and ends with the dollar sign ($) character. When a user uses this project template to create a project, Visual Studio automatically replaces these parameters in the new project with specific values. For more information, see [Replaceable Parameters](../sharepoint/replaceable-parameters.md).  
+ In the following procedures, you'll add replaceable parameters to some of these files. A replaceable parameter is a token that starts and ends with the dollar sign ($) character. When a user uses this project template to create a project, Visual Studio automatically replaces these parameters in the new project with specific values. For more information, see [Replaceable parameters](../sharepoint/replaceable-parameters.md).  
   
 #### To edit the AssemblyInfo.cs or AssemblyInfo.vb file
   
@@ -291,7 +291,7 @@ ms.workload:
   
     -   Removes the `SupportedTrustLevels` and `SupportedDeploymentScopes` attributes from the `ProjectItem` element. These attribute values are unnecessary because the trust levels and deployment scopes are specified in the `SiteColumnProjectItemTypeProvider` class in the ProjectItemTypeDefinition project.  
   
-     For more information about the contents of *.spdata* files, see [SharePoint Project Item Schema Reference](../sharepoint/sharepoint-project-item-schema-reference.md).  
+     For more information about the contents of *.spdata* files, see [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md).  
   
 2.  Save and close the file.  
   
@@ -317,7 +317,7 @@ ms.workload:
   
     -   Changes the values of the `itemId` attribute of the `projectItemReference` element to `$guid2$`.  
   
-     For more information about *.feature* files, see [Creating Item Templates and Project Templates for SharePoint Project Items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).  
+     For more information about *.feature* files, see [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).  
   
 2.  Save and close the file.  
   
@@ -342,7 +342,7 @@ ms.workload:
   
     -   Changes the values of the `itemId` attribute of the `featureReference` element to `$guid4$`.  
   
-     For more information about *.package* files, see [Creating Item Templates and Project Templates for SharePoint Project Items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).  
+     For more information about *.package* files, see [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).  
   
 2.  Save and close the file.  
   
@@ -714,7 +714,7 @@ ms.workload:
      This step specifies the local SharePoint site on the development computer that you want to use for debugging.  
   
     > [!NOTE]  
-    >  The **Site URL** property is empty by default because the Site Column project template doesn't provide a wizard for collecting this value when the project is created. To learn how to add a wizard that asks the developer for this value and then configures this property in the new project, see [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).  
+    >  The **Site URL** property is empty by default because the Site Column project template doesn't provide a wizard for collecting this value when the project is created. To learn how to add a wizard that asks the developer for this value and then configures this property in the new project, see [Walkthrough: Create a site column project item with a project template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).  
   
 3.  Choose the **F5** key.  
   
@@ -749,12 +749,12 @@ ms.workload:
 5.  Close both instances of Visual Studio (the experimental instance and the instance of Visual Studio in which the SiteColumnProjectItem solution is open).  
   
 ## Next steps
- After you complete this walkthrough, you can add a wizard to the project template. When a user creates a Site Column project, the wizard asks the user for the site URL to use for debugging and whether the new solution is sandboxed, and the wizard configures the new project with this information. The wizard also collects information about the column (such as the base type and the group in which to list the column in the site column gallery) and adds this information to the *Elements.xml* file in the new project. For more information, see [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).  
+ After you complete this walkthrough, you can add a wizard to the project template. When a user creates a Site Column project, the wizard asks the user for the site URL to use for debugging and whether the new solution is sandboxed, and the wizard configures the new project with this information. The wizard also collects information about the column (such as the base type and the group in which to list the column in the site column gallery) and adds this information to the *Elements.xml* file in the new project. For more information, see [Walkthrough: Create a site column project item with a project template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).  
   
 ## See also
- [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md)   
- [Defining Custom SharePoint Project Item Types](../sharepoint/defining-custom-sharepoint-project-item-types.md)   
- [Creating Item Templates and Project Templates for SharePoint Project Items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)   
- [Saving Data in Extensions of the SharePoint Project System](../sharepoint/saving-data-in-extensions-of-the-sharepoint-project-system.md)   
- [Associating Custom Data with SharePoint Tools Extensions](../sharepoint/associating-custom-data-with-sharepoint-tools-extensions.md)  
+ [Walkthrough: Create a site column project item with a project template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md)   
+ [Define custom SharePoint project item types](../sharepoint/defining-custom-sharepoint-project-item-types.md)   
+ [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)   
+ [Save data in extensions of the SharePoint project system](../sharepoint/saving-data-in-extensions-of-the-sharepoint-project-system.md)   
+ [Associate custom data with SharePoint tools extensions](../sharepoint/associating-custom-data-with-sharepoint-tools-extensions.md)  
   
