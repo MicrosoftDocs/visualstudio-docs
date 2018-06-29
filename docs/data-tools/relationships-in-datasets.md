@@ -54,7 +54,7 @@ The rules that you can make are specified in the <xref:System.Data.Rule> enumera
 |Foreign-key constraint rule|Action|
 |----------------------------------|------------|
 |<xref:System.Data.Rule.Cascade>|The change (update or delete) made to the parent record is also made in related records in the child table.|
-|<xref:System.Data.Rule.SetNull>|Child records are not deleted, but the foreign key in the child records is set to <xref:System.DBNull>. With this setting, child records can be left as "orphans"—that is, they have no relationship to parent records. **Note:**  Using this rule can result in invalid data in the child table.|
+|<xref:System.Data.Rule.SetNull>|Child records are not deleted, but the foreign key in the child records is set to <xref:System.DBNull>. With this setting, child records can be left as "orphans"—that is, they have no relationship to parent records. **Note:** Using this rule can result in invalid data in the child table.|
 |<xref:System.Data.Rule.SetDefault>|The foreign key in the related child records is set to its default value (as established by the column's <xref:System.Data.DataColumn.DefaultValue%2A> property).|
 |<xref:System.Data.Rule.None>|No change is made to related child records. With this setting, child records can contain references to invalid parent records.|
 
