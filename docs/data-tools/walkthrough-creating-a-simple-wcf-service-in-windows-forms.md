@@ -19,14 +19,14 @@ ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
-# Walkthrough: Creating a simple WCF Service in Windows Forms
+# Walkthrough: Create a simple WCF Service in Windows Forms
 This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../data-tools/includes/vsindigo_md.md)] service, test it, and then access it from a Windows Forms application.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
-## Creating the Service
+## Create the Service
 
-#### To create a WCF service
+### To create a WCF service
 
 1.  On the **File** menu, point to **New** and then click **Project**.
 
@@ -63,9 +63,9 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../data
      [!code-csharp[WCFWalkthrough#2](../data-tools/codesnippet/CSharp/walkthrough-creating-a-simple-wcf-service-in-windows-forms_4.cs)]
      [!code-vb[WCFWalkthrough#2](../data-tools/codesnippet/VisualBasic/walkthrough-creating-a-simple-wcf-service-in-windows-forms_4.vb)]
 
-## Testing the Service
+## Test the Service
 
-#### To test a WCF service
+### To test a WCF service
 
 1.  Press **F5** to run the service. A **WCF Test Client** form will be displayed and it will load the service.
 
@@ -83,9 +83,9 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../data
 
 5.  On the **File** menu, click **Exit** to close the test form.
 
-## Accessing the Service
+## Access the Service
 
-#### To reference a WCF service
+### To reference a WCF service
 
 1.  On the **File** menu, point to **Add** and then click **New Project**.
 
@@ -103,7 +103,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[vsindigo](../data
 
 5.  Click **OK** to add the service reference.
 
-#### To build a client application
+### To build a client application
 
 1.  In **Solution Explorer**, double-click **Form1.vb** or **Form1.cs** to open the Windows Forms Designer if it is not already open.
 
