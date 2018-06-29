@@ -5,12 +5,12 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Visual Studio ALM"
   - "Live Unit Testing"
 author: rpetrusha
 ms.author: "ronpet"
-ms.workload: 
+ms.workload:
   - "dotnet"
 ---
 # Get started with Live Unit Testing in Visual Studio
@@ -36,7 +36,7 @@ Begin by creating a Visual Studio solution named `UtilityLibraries` that consist
 
 The solution is just a container for one or more projects. To create the solution, open Visual Studio 2017 and do the following:
 
-1. Select **File**, **New**, **Project** from the top-level Visual Studio menu.
+1. Select **File** > **New** > **Project** from the top-level Visual Studio menu.
 
 1. In the **New Project** dialog, expand the **Other Project Types** node and select **Visual Studio Solutions**. Select the **Blank Solution** template in the right pane and enter `UtilityLibraries` in the **Name** text box, as the following figure shows:
 
@@ -47,7 +47,7 @@ The solution is just a container for one or more projects. To create the solutio
 Now that you've created the solution, you'll create a class library named `StringLibrary` that contains a number of extension methods for working with strings.
 
 # [C#](#tab/csharp)
-1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add**, **New Project**.
+1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add** > **New Project**.
 
 1. In the **Add New Project** dialog, select the C# node, then select **.NET Standard**.
 
@@ -75,7 +75,7 @@ Now that you've created the solution, you'll create a class library named `Strin
 1.  Select **Build**, **Build Solution** from the top-level Visual Studio menu. Visual Studio should successfully build your library.
 
 # [Visual Basic](#tab/visual-basic)
-1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add**, **New Project**.
+1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add** > **New Project**.
 
 1. In the **Add New Project** dialog, select the Visual Basic node, then select **.NET Standard**.
 
@@ -113,7 +113,7 @@ Now that you've created the solution, you'll create a class library named `Strin
 The next step is to create the unit test project to test `StringLibrary` library. Create the unit tests by performing the following steps:
 
 # [C#](#tab/csharp)
-1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add**, **New Project**.
+1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add** > **New Project**.
 
 1. In the **Add New Project** dialog, select the C# node, then select **.NET Core**.
 
@@ -151,7 +151,7 @@ The next step is to create the unit test project to test `StringLibrary` library
 
 # [Visual Basic](#tab/visual-basic)
 
-1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add**, **New Project**.
+1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add** > **New Project**.
 
 1. In the **Add New Project** dialog, select the Visual Basic node, then select **.NET Core**.
 

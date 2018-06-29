@@ -105,6 +105,6 @@ ms.workload:
     ```  
   
 ## See also
- [Creating SharePoint Features](../sharepoint/creating-sharepoint-features.md)   
- [How to: Customize a SharePoint Feature](../sharepoint/how-to-customize-a-sharepoint-feature.md)   
- [How to: Add and Remove Items to SharePoint Features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)  
+ [Create SharePoint features](../sharepoint/creating-sharepoint-features.md)   
+ [How to: Customize a SharePoint feature](../sharepoint/how-to-customize-a-sharepoint-feature.md)   
+ [How to: Add and remove items to SharePoint features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)  
