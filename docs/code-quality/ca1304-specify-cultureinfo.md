@@ -1,6 +1,6 @@
 ---
 title: "CA1304: Specify CultureInfo"
-ms.date: 11/04/2016
+ms.date: 06/30/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1304: Specify CultureInfo
+
 |||
 |-|-|
 |TypeName|SpecifyCultureInfo|
@@ -26,49 +27,60 @@ ms.workload:
 |Breaking Change|Non-breaking|
 
 ## Cause
- A method or constructor calls a member that has an overload that accepts a <xref:System.Globalization.CultureInfo?displayProperty=fullName> parameter, and the method or constructor does not call the overload that takes the <xref:System.Globalization.CultureInfo> parameter. This rule ignores calls to the following methods:
 
--   <xref:System.Activator.CreateInstance%2A?displayProperty=fullName>
+A method or constructor calls a member that has an overload that accepts a <xref:System.Globalization.CultureInfo?displayProperty=nameWithType> parameter, and the method or constructor does not call the overload that takes the <xref:System.Globalization.CultureInfo> parameter. This rule ignores calls to the following methods:
 
--   <xref:System.Resources.ResourceManager.GetObject%2A?displayProperty=fullName>
+- <xref:System.Activator.CreateInstance%2A?displayProperty=nameWithType>
 
--   <xref:System.Resources.ResourceManager.GetString%2A?displayProperty=fullName>
+- <xref:System.Resources.ResourceManager.GetObject%2A?displayProperty=nameWithType>
 
-## Rule Description
- When a <xref:System.Globalization.CultureInfo> or <xref:System.IFormatProvider?displayProperty=fullName> object is not supplied, the default value that is supplied by the overloaded member might not have the effect that you want in all locales. Also, [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] members choose default culture and formatting based on assumptions that might not be correct for your code. To ensure the code works as expected for your scenarios, you should supply culture-specific information according to the following guidelines:
+- <xref:System.Resources.ResourceManager.GetString%2A?displayProperty=nameWithType>
 
--   If the value will be displayed to the user, use the current culture. See <xref:System.Globalization.CultureInfo.CurrentCulture%2A?displayProperty=fullName>.
+## Rule description
 
--   If the value will be stored and accessed by software, that is, persisted to a file or database, use the invariant culture. See <xref:System.Globalization.CultureInfo.InvariantCulture%2A?displayProperty=fullName>.
+When a <xref:System.Globalization.CultureInfo> or <xref:System.IFormatProvider?displayProperty=nameWithType> object is not supplied, the default value that is supplied by the overloaded member might not have the effect that you want in all locales. Also, .NET Framework members choose default culture and formatting based on assumptions that might not be correct for your code. To ensure the code works as expected for your scenarios, you should supply culture-specific information according to the following guidelines:
 
--   If you do not know the destination of the value, have the data consumer or provider specify the culture.
+- If the value will be displayed to the user, use the current culture. See <xref:System.Globalization.CultureInfo.CurrentCulture%2A?displayProperty=nameWithType>.
 
- Note that <xref:System.Globalization.CultureInfo.CurrentUICulture%2A?displayProperty=fullName> is used only to retrieve localized resources by using an instance of the <xref:System.Resources.ResourceManager?displayProperty=fullName> class.
+- If the value will be stored and accessed by software, that is, persisted to a file or database, use the invariant culture. See <xref:System.Globalization.CultureInfo.InvariantCulture%2A?displayProperty=nameWithType>.
 
- Even if the default behavior of the overloaded member is appropriate for your needs, it is better to explicitly call the culture-specific overload so that your code is self-documenting and more easily maintained.
+- If you do not know the destination of the value, have the data consumer or provider specify the culture.
 
-## How to Fix Violations
- To fix a violation of this rule, use the overload that takes a <xref:System.Globalization.CultureInfo> or <xref:System.IFormatProvider> and specify the argument according to the guidelines that were listed earlier.
+Even if the default behavior of the overloaded member is appropriate for your needs, it is better to explicitly call the culture-specific overload so that your code is self-documenting and more easily maintained.
 
-## When to Suppress Warnings
- It is safe to suppress a warning from this rule when it is certain that the default culture/format provider is the correct choice, and where code maintainability is not an important development priority.
+> [!NOTE]
+> <xref:System.Globalization.CultureInfo.CurrentUICulture%2A?displayProperty=nameWithType> is used only to retrieve localized resources by using an instance of the <xref:System.Resources.ResourceManager?displayProperty=nameWithType> class.
 
-## Example
- In the following example, `BadMethod` causes two violations of this rule. `GoodMethod` corrects the first violation by passing the invariant culture to System.String.Compare, and corrects the second violation by passing the current culture to <xref:System.String.ToLower%2A> because `string3` is displayed to the user.
+## How to fix violations
 
- [!code-csharp[FxCop.Globalization.CultureInfo#1](../code-quality/codesnippet/CSharp/ca1304-specify-cultureinfo_1.cs)]
+To fix a violation of this rule, use the overload that takes a <xref:System.Globalization.CultureInfo> argument.
 
-## Example
- The following example shows the effect of current culture on the default <xref:System.IFormatProvider> that is selected by the <xref:System.DateTime> type.
+## When to suppress warnings
 
- [!code-csharp[FxCop.Globalization.IFormatProvider#1](../code-quality/codesnippet/CSharp/ca1304-specify-cultureinfo_2.cs)]
+It is safe to suppress a warning from this rule when it is certain that the default culture is the correct choice, and where code maintainability is not an important development priority.
 
- This example produces the following output.
+## Example showing how to fix violations
 
- **6/4/1900 12:15:12 PM**
+In the following example, `BadMethod` causes two violations of this rule. `GoodMethod` corrects the first violation by passing the invariant culture to <xref:System.String.Compare%2A?displayProperty=nameWithType>, and corrects the second violation by passing the current culture to <xref:System.String.ToLower%2A?displayProperty=nameWithType> because `string3` is displayed to the user.
+
+[!code-csharp[FxCop.Globalization.CultureInfo#1](../code-quality/codesnippet/CSharp/ca1304-specify-cultureinfo_1.cs)]
+
+## Example showing formatted output
+
+The following example shows the effect of current culture on the default <xref:System.IFormatProvider> that is selected by the <xref:System.DateTime> type.
+
+[!code-csharp[FxCop.Globalization.IFormatProvider#1](../code-quality/codesnippet/CSharp/ca1304-specify-cultureinfo_2.cs)]
+
+This example produces the following output:
+
+**6/4/1900 12:15:12 PM**
+
 **06/04/1900 12:15:12**
-## Related Rules
- [CA1305: Specify IFormatProvider](../code-quality/ca1305-specify-iformatprovider.md)
 
-## See Also
-[Using the CultureInfo Class](/dotnet/standard/globalization-localization/globalization#Cultures)
+## Related rules
+
+- [CA1305: Specify IFormatProvider](../code-quality/ca1305-specify-iformatprovider.md)
+
+## See also
+
+- [Using the CultureInfo Class](/dotnet/standard/globalization-localization/globalization#Cultures)
