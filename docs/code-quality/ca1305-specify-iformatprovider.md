@@ -35,9 +35,7 @@ A method or constructor calls one or more members that have overloads that accep
 This rule ignores calls to .NET Framework methods that are documented as ignoring the <xref:System.IFormatProvider> parameter. The rule also ignores the following methods:
 
 - <xref:System.Activator.CreateInstance%2A?displayProperty=nameWithType>
-
 - <xref:System.Resources.ResourceManager.GetObject%2A?displayProperty=nameWithType>
-
 - <xref:System.Resources.ResourceManager.GetString%2A?displayProperty=nameWithType>
 
 ## Rule description
@@ -62,7 +60,7 @@ It is safe to suppress a warning from this rule when it is certain that the defa
 
 ## Example
 
-In the following code, the `example1` string violates rule CA1305. The `example2` string satisfies rule CA1305 by passing <xref:System.Globalization.CultureInfo.CurrentCulture%2A?displayProperty=nameWithType>, which implements <xref:System.IFormatProvider>, to <xref:System.String.Format(System.IFormatProvider,System.String,System.Object)>. The `example3` string satisfies rule CA1305 by passing an interpolated string to <xref:System.FormattableString.Invariant%2A?displayProperty=nameWithType]>.
+In the following code, the `example1` string violates rule CA1305. The `example2` string satisfies rule CA1305 by passing <xref:System.Globalization.CultureInfo.CurrentCulture%2A?displayProperty=nameWithType>, which implements <xref:System.IFormatProvider>, to <xref:System.String.Format(System.IFormatProvider,System.String,System.Object)?displayProperty=nameWithType>. The `example3` string satisfies rule CA1305 by passing an interpolated string to <xref:System.FormattableString.Invariant%2A?displayProperty=fullName]>.
 
 ```csharp
 string name = "Georgette";

@@ -31,9 +31,7 @@ ms.workload:
 A method or constructor calls a member that has an overload that accepts a <xref:System.Globalization.CultureInfo?displayProperty=nameWithType> parameter, and the method or constructor does not call the overload that takes the <xref:System.Globalization.CultureInfo> parameter. This rule ignores calls to the following methods:
 
 - <xref:System.Activator.CreateInstance%2A?displayProperty=nameWithType>
-
 - <xref:System.Resources.ResourceManager.GetObject%2A?displayProperty=nameWithType>
-
 - <xref:System.Resources.ResourceManager.GetString%2A?displayProperty=nameWithType>
 
 ## Rule description
