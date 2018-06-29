@@ -21,7 +21,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [m_parent Field](https://docs.microsoft.com/visualstudio/extensibility/debugger/m-parent-field).  
   
-The backing field for the <xref:System.Threading.Tasks.Task.Parent%2A?displayProperty=fullName> property.  
+The backing field for the <xref:System.Threading.Tasks.Task?displayProperty=fullName> Parent property.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   

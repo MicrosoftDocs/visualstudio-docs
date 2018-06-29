@@ -30,7 +30,7 @@ The latest version of this topic can be found at [Troubleshooting Service Refere
 This topic lists common issues that may occur when you are working with [!INCLUDE[vsindigo](../includes/vsindigo-md.md)] or [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)] references in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].  
   
 ## Error Returning Data from a Service  
- When you return a `DataSet` or `DataTable` from a service, you may receive a "The maximum size quota for incoming messages has been exceeded" exception. By default, the `MaxReceivedMessageSize` property for some bindings is set to a relatively small value to limit exposure to denial-of-service attacks. You can increase this value to prevent the exception. For more information, see <xref:System.ServiceModel.BasicHttpBinding.MaxReceivedMessageSize%2A>.  
+ When you return a `DataSet` or `DataTable` from a service, you may receive a "The maximum size quota for incoming messages has been exceeded" exception. By default, the `MaxReceivedMessageSize` property for some bindings is set to a relatively small value to limit exposure to denial-of-service attacks. You can increase this value to prevent the exception.  
   
  To fix this error:  
   
