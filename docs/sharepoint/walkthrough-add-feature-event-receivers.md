@@ -44,7 +44,7 @@ ms.workload:
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   Supported editions of Microsoft Windows and SharePoint. For more information, see [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of Microsoft Windows and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
   
 -   Visual Studio.  
   
@@ -67,7 +67,7 @@ ms.workload:
   
 6.  In the **What is the trust level for this SharePoint solution?** section, choose the **Deploy as a farm solution** option button.  
   
-     For more information about sandboxed solutions versus farm solutions, see [Sandboxed Solution Considerations](../sharepoint/sandboxed-solution-considerations.md).  
+     For more information about sandboxed solutions versus farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).  
   
 7.  Choose the **Finish** button, and then notice that a feature that's named Feature1 appears under the **Features** node.  
   
@@ -98,7 +98,7 @@ ms.workload:
   
 1.  Set the value of the project's **Active Deployment Configuration** property to **No Activation**.  
   
-     Setting this property prevents the feature from activating in SharePoint and lets you debug feature event receivers. For more information, see [Debugging SharePoint Solutions](../sharepoint/debugging-sharepoint-solutions.md).  
+     Setting this property prevents the feature from activating in SharePoint and lets you debug feature event receivers. For more information, see [Debug SharePoint solutions](../sharepoint/debugging-sharepoint-solutions.md).  
   
 2.  Choose the **F5** key to run the project and deploy it to SharePoint.  
   
@@ -115,6 +115,6 @@ ms.workload:
      Notice that an announcement appears in the **Announcements** list after the feature is deactivated.  
   
 ## See also
- [How to: Create an Event Receiver](../sharepoint/how-to-create-an-event-receiver.md)   
- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
+ [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)   
+ [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)  
   

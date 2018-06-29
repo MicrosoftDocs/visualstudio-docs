@@ -45,7 +45,7 @@ ms.workload:
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   Supported editions of Windows and SharePoint. For more information, see [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of Windows and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
   
 -   Visual Studio.  
   
@@ -66,7 +66,7 @@ ms.workload:
   
 5.  In the **What is the trust level for this SharePoint solution?** section, use the default value **Deploy as a sandboxed solution**.  
   
-     For more information about sandboxed and farm solutions, see [Sandboxed Solution Considerations](../sharepoint/sandboxed-solution-considerations.md).  
+     For more information about sandboxed and farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).  
   
 6.  Choose the **Finish** button. The project should now be listed in **Solution Explorer**.  
   
@@ -221,8 +221,8 @@ ms.workload:
      The new record appears in the list.  
   
 ## See also
- [Creating Site Columns, Content Types, and Lists for SharePoint](../sharepoint/creating-site-columns-content-types-and-lists-for-sharepoint.md)   
- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)   
+ [Create site columns, content types, and lists for SharePoint](../sharepoint/creating-site-columns-content-types-and-lists-for-sharepoint.md)   
+ [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)   
  [How to: Create a Custom Field Type](http://go.microsoft.com/fwlink/?LinkId=192079)   
  [Content Types](http://go.microsoft.com/fwlink/?LinkId=192080)   
  [Columns](http://go.microsoft.com/fwlink/?LinkId=192081)  
