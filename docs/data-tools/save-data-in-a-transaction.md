@@ -21,7 +21,7 @@ ms.workload:
   - "data-storage"
 ---
 # Walkthrough: Save data in a transaction
-This walkthrough demonstrates how to save data in a transaction by using the <xref:System.Transactions> namespace. In this walkthrough you'll create a Windows Forms application. You'll use the Data Source Configuration Wizard to create a dataset for two tables in the Northwind sample database. You'll add data bound controls to a Windows form, and you'll modify the code for the BindingNavigator's save button to update the database inside a TransactionScope.
+This walkthrough demonstrates how to save data in a transaction by using the <xref:System.Transactions> namespace. In this walkthrough, you'll create a Windows Forms application. You'll use the Data Source Configuration Wizard to create a dataset for two tables in the Northwind sample database. You'll add data bound controls to a Windows form, and you'll modify the code for the BindingNavigator's save button to update the database inside a TransactionScope.
 
 ## Prerequisites
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
@@ -30,7 +30,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 2.  Install the Northwind sample database by following these steps:
 
-    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 
        A query editor window opens.
 
@@ -38,14 +38,14 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
-       After a short time, the query finishes executing and the Northwind database is created.
+       After a short time, the query finishes running and the Northwind database is created.
 
 ## Create a Windows Forms application
  The first step is to create a **Windows Forms Application**.
 
 #### To create the new Windows project
 
-1. In Visual Studio, on the **File** menu, select **New**, **Project...**.
+1. In Visual Studio, on the **File** menu, select **New**, **Project**.
 
 2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
 
