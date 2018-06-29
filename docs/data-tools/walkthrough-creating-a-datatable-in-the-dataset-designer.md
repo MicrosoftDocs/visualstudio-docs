@@ -35,7 +35,7 @@ This walkthrough explains how to create a <xref:System.Data.DataTable> (without 
 
 1.  On the **Project** menu, select **Add New Item**.
 
-     The Add New Item dialog box appears.
+     The **Add New Item** dialog box appears.
 
 2.  In the left-hand pane, select **Data**, then select **DataSet** in the middle pane.
 
@@ -75,10 +75,10 @@ To set the primary key, right-click the **SongID** column, and then click **Set 
 
 ## Save Your Project
 
-To save the DataTableWalkthrough project, on the **File** menu, select **Save All**.
+To save the **DataTableWalkthrough** project, on the **File** menu, select **Save All**.
 
 ## See also
 
 - [Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)
 - [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)
-- [Validating Data](../data-tools/validate-data-in-datasets.md)
+- [Validating data](../data-tools/validate-data-in-datasets.md)
