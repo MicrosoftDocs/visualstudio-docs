@@ -80,7 +80,7 @@ Visual Studio provides tools for working with Windows Communication Foundation (
 ## WCF tools in Visual Studio
  Visual Studio provides tools to help you create both WCF services and WCF clients. For a walkthrough that demonstrates the tools, see [Walkthrough: Creating a simple WCF service in Windows Forms](../data-tools/walkthrough-creating-a-simple-wcf-service-in-windows-forms.md).
 
-### Create and Test WCF services
+### Create and test WCF services
  You can use the WCF Visual Studio templates as a foundation to quickly create your own service. You can then use WCF Service Auto Host and WCF Test Client to debug and test the service. These tools together provide a fast and convenient debug and testing cycle, and eliminate the requirement to commit to a hosting model at an early stage.
 
 #### WCF Templates
@@ -98,7 +98,7 @@ Visual Studio provides tools for working with Windows Communication Foundation (
  To learn more about WCF Service Host, see [WCF service host (WcfSvcHost.exe)](/dotnet/framework/wcf/wcf-service-host-wcfsvchost-exe).
 
 #### WCF test client
- The WCF Test Client tool enables you to input test parameters, submit that input to a WCF service, and view the response that the service sends back. It provides a convenient service testing experience when you combine it with WCF Service Host. Find the tool in the *\Common7\IDE* folder, which for Visual Studio 2015 is installed in drive C:, here: **C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\\**.
+ The WCF Test Client tool enables you to input test parameters, submit that input to a WCF service, and view the response that the service sends back. It provides a convenient service testing experience when you combine it with WCF Service Host. Find the tool in the *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE* folder.
 
  When you press **F5** to debug a WCF service project, WCF Test Client opens and displays a list of service endpoints that are defined in the configuration file. You can test the parameters and start the service, and repeat this process to continuously test and validate your service.
 

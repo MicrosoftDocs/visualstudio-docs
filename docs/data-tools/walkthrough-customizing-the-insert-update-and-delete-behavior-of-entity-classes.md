@@ -95,7 +95,7 @@ Create LINQ to SQL classes that are mapped to database tables by dragging tables
 
 2.  Drag the **Customers** node from **Server Explorer** or **Database Explorer** onto the **O/R Designer* surface.
 
-     An entity class named **Customer** is created. It has properties that correspond to the columns in the customers table. The entity class is named **Customer** (not **Customers**) because it represents a single customer from the customers table.
+     An entity class named **Customer** is created. It has properties that correspond to the columns in the Customers table. The entity class is named **Customer** (not **Customers**) because it represents a single customer from the Customers table.
 
     > [!NOTE]
     > This renaming behavior is called *pluralization*. It can be turned on or off in the [Options dialog box](../ide/reference/options-dialog-box-visual-studio.md). For more information, see [How to: Turn pluralization on and off (O/R Designer)](../data-tools/how-to-turn-pluralization-on-and-off-o-r-designer.md).
