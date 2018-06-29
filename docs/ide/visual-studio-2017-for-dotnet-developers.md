@@ -19,7 +19,7 @@ Learn how [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm
 
 ##  I'm used to my keyboard shortcuts from a different extension/editor/IDE.
 
-If you are coming from another IDE or coding environment, you can change your keyboard scheme to *Visual Studio Code* or *ReSharper (Visual Studio)*:
+If you are coming from another IDE or coding environment, you can change your keyboard scheme in Visual Studio to *Visual Studio Code* or *ReSharper (Visual Studio)*:
 
 ![Keyboard Schemes in Visual Studio](../ide/media/VS2017Guide-Keyboard.png)
 
