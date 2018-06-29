@@ -42,5 +42,5 @@ ms.workload:
      For example, to list the directory contents after deployment is completed, enter **dir**. To use a MSBuild variable to copy the assembly from the build directory, enter **copy $(TargetPath) c:\DeploymentDirectory**.  
   
 ## See also
- [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
+ [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
   

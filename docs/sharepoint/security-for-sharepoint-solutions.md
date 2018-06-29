@@ -23,7 +23,7 @@ ms.workload:
   [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] incorporates the following features to help enhance the security of SharePoint applications.  
   
 ## Safe control entries
- Every SharePoint project item created in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] has a **Safe Control Entries** property that represents a safe controls collection. Its **Safe** subproperty enables you to specify the controls that you consider secure. For more information, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md) and [Specifying Safe Web Parts](http://go.microsoft.com/fwlink/?LinkId=177521).  
+ Every SharePoint project item created in [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] has a **Safe Control Entries** property that represents a safe controls collection. Its **Safe** subproperty enables you to specify the controls that you consider secure. For more information, see [Provide package and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md) and [Specifying Safe Web Parts](http://go.microsoft.com/fwlink/?LinkId=177521).  
   
 ## AllowPartiallyTrustedCallers attribute
  By default, only applications that are fully trusted by the runtime code access security (CAS) system can access a shared managed code assembly. Marking a fully trusted assembly with the AllowPartiallyTrustedCallers attribute allows partially trusted assemblies to access it.  
@@ -31,7 +31,7 @@ ms.workload:
  The AllowPartiallyTrustedCallers attribute is added to any SharePoint solution that is not deployed to the system global assembly cache ([!INCLUDE[TLA2#tla_gac](../sharepoint/includes/tla2sharptla-gac-md.md)]). This includes sandboxed solutions or solutions deployed to the SharePoint application Bin directory. For more information, see [Version 1 Security Changes for the Microsoft .NET Framework](http://go.microsoft.com/fwlink/?LinkId=177515) and [Deploying Web Parts in SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkId=177509).  
   
 ## Safe against script property
- *Script injection* is the insertion of potentially malicious code into controls or Web pages. To help protect SharePoint 2010 sites against script injection, contributors cannot view or edit Web parts or their properties by default. This behavior is controlled by a SafeControl attribute called SafeAgainstScript. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], set this attribute in a project item's **Safe Control Entries** subproperty **Safe Against Script**. For more information, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md) and [How to: Mark Controls as Safe Controls](../sharepoint/how-to-mark-controls-as-safe-controls.md).  
+ *Script injection* is the insertion of potentially malicious code into controls or Web pages. To help protect SharePoint 2010 sites against script injection, contributors cannot view or edit Web parts or their properties by default. This behavior is controlled by a SafeControl attribute called SafeAgainstScript. In [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)], set this attribute in a project item's **Safe Control Entries** subproperty **Safe Against Script**. For more information, see [Provide package and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md) and [How to: Mark controls as safe controls](../sharepoint/how-to-mark-controls-as-safe-controls.md).  
   
 ## Vista and Windows 7 User Account Control
  [!INCLUDE[windowsver](../sharepoint/includes/windowsver-md.md)] and [!INCLUDE[win7](../sharepoint/includes/win7-md.md)] incorporate a security feature known as User Account Control (UAC). To develop SharePoint solutions in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] on [!INCLUDE[windowsver](../sharepoint/includes/windowsver-md.md)] and [!INCLUDE[win7](../sharepoint/includes/win7-md.md)] systems, UAC requires that you run [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] as a system administrator. From the **Start** menu, open the shortcut menu for [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], and then choose **Run as administrator**.  
@@ -81,6 +81,6 @@ ms.workload:
 -   [Building Secure ASP.NET Applications: Authentication, Authorization, and Secure Communication](http://go.microsoft.com/fwlink/?LinkId=177494)  
   
 ## See also
- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)   
- [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md)  
+ [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)   
+ [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md)  
   

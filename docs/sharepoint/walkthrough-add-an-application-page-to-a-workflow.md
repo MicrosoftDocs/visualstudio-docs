@@ -20,7 +20,7 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Add an application page to a workflow
-  This walkthrough demonstrates how to add an application page that displays data derived from a workflow to a workflow project. It builds on the project described in the topic [Walkthrough: Creating a Workflow with Association and Initiation Forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md).  
+  This walkthrough demonstrates how to add an application page that displays data derived from a workflow to a workflow project. It builds on the project described in the topic [Walkthrough: Create a workflow with association and initiation forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md).  
   
  This walkthrough demonstrates the following tasks:  
   
@@ -35,11 +35,11 @@ ms.workload:
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint. For more information, see [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
   
 -   Visual Studio.  
   
--   You also have to complete the project in the topic [Walkthrough: Creating a Workflow with Association and Initiation Forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md).  
+-   You also have to complete the project in the topic [Walkthrough: Create a workflow with association and initiation forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md).  
   
 ## Ammend the workflow code
  First, add a line of code to the workflow to set the value of the Outcome column to the amount of the expense report. This value is used later in the expense report summary calculation.  
@@ -336,17 +336,17 @@ ms.workload:
      The expense report summary page lists all of the expense reports that exceeded the allocated amount, the amount they exceeded it by, and the total amount for all reports.  
   
 ## Next steps
- For more information about SharePoint application pages, see [Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).  
+ For more information about SharePoint application pages, see [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).  
   
  You can learn more about how to design SharePoint page content by using the Visual Web Designer in Visual Studio from these topics:  
   
--   [Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md).  
+-   [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md).  
   
--   [Creating Reusable Controls for Web Parts or Application Pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md).  
+-   [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md).  
   
 ## See also
- [Walkthrough: Creating a Workflow with Association and Initiation Forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md)   
- [How to: Create an Application Page](../sharepoint/how-to-create-an-application-page.md)   
- [Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)   
- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
+ [Walkthrough: Create a workflow with association and initiation forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md)   
+ [How to: Create an application page](../sharepoint/how-to-create-an-application-page.md)   
+ [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)   
+ [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)  
   

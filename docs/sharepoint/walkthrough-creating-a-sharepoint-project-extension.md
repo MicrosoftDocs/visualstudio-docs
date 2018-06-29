@@ -21,7 +21,7 @@ ms.workload:
 # Walkthrough: Create a SharePoint project extension
   This walkthrough illustrates how to create an extension for SharePoint projects. You can use a project extension to respond to project-level events such as when a project is added, deleted, or renamed. You can also add custom properties or respond when a property value changes. Unlike project item extensions, project extensions cannot be associated with a particular SharePoint project type. When you create a project extension, the extension loads when any kind of SharePoint project is opened in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
- In this walkthrough, you will create a custom Boolean property that is added to any SharePoint project created in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. When set to **True**, the new property adds, or maps, an Images resource folder to your project. When set to **False**, the Images folder is removed, if it exists. For more information, see [How to: Add and Remove Mapped Folders](../sharepoint/how-to-add-and-remove-mapped-folders.md).  
+ In this walkthrough, you will create a custom Boolean property that is added to any SharePoint project created in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. When set to **True**, the new property adds, or maps, an Images resource folder to your project. When set to **False**, the Images folder is removed, if it exists. For more information, see [How to: add and remove mapped folders](../sharepoint/how-to-add-and-remove-mapped-folders.md).  
   
  This walkthrough demonstrates the following tasks:  
   
@@ -40,9 +40,9 @@ ms.workload:
 ## Prerequisites  
  You need the following components on the development computer to complete this walkthrough:  
   
--   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)], SharePoint and [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information, see [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)], SharePoint and [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
   
--   The [!INCLUDE[vssdk_current_long](../sharepoint/includes/vssdk-current-long-md.md)]. This walkthrough uses the **VSIX Project** template in the [!INCLUDE[TLA2#tla_sdk](../sharepoint/includes/tla2sharptla-sdk-md.md)] to create a VSIX package to deploy the project property extension. For more information, see [Extending the SharePoint Tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md).  
+-   The [!INCLUDE[vssdk_current_long](../sharepoint/includes/vssdk-current-long-md.md)]. This walkthrough uses the **VSIX Project** template in the [!INCLUDE[TLA2#tla_sdk](../sharepoint/includes/tla2sharptla-sdk-md.md)] to create a VSIX package to deploy the project property extension. For more information, see [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md).  
   
 ## Create the projects
  To complete this walkthrough, you must create two projects:  
@@ -198,9 +198,9 @@ ms.workload:
 7.  Close the experimental instance of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
 ## See also
- [Extending SharePoint Projects](../sharepoint/extending-sharepoint-projects.md)   
- [How to: Add a Property to SharePoint Projects](../sharepoint/how-to-add-a-property-to-sharepoint-projects.md)   
- [Converting Between SharePoint Project System Types and Other Visual Studio Project Types](../sharepoint/converting-between-sharepoint-project-system-types-and-other-visual-studio-project-types.md)   
- [Saving Data in Extensions of the SharePoint Project System](../sharepoint/saving-data-in-extensions-of-the-sharepoint-project-system.md)   
- [Associating Custom Data with SharePoint Tools Extensions](../sharepoint/associating-custom-data-with-sharepoint-tools-extensions.md)  
+ [Extend SharePoint projects](../sharepoint/extending-sharepoint-projects.md)   
+ [How to: Add a property to SharePoint projects](../sharepoint/how-to-add-a-property-to-sharepoint-projects.md)   
+ [Convert between SharePoint project system types and other Visual Studio project types](../sharepoint/converting-between-sharepoint-project-system-types-and-other-visual-studio-project-types.md)   
+ [Save data in extensions of the SharePoint project system](../sharepoint/saving-data-in-extensions-of-the-sharepoint-project-system.md)   
+ [Associate custom data with SharePoint tools extensions](../sharepoint/associating-custom-data-with-sharepoint-tools-extensions.md)  
   

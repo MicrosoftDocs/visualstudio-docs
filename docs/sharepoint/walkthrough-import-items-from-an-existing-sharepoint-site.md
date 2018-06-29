@@ -35,7 +35,7 @@ ms.workload:
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint. For more information, see [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
   
 -   Visual Studio.  
   
@@ -140,7 +140,7 @@ ms.workload:
      Notice that the custom site column that you imported from the first SharePoint site appears in the list.  
   
 ## See also
- [Importing Items from an Existing SharePoint Site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)   
- [Creating Reusable Controls for Web Parts or Application Pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)  
+ [Import items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
+ [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)   
+ [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)  
   
