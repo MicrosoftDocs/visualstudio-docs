@@ -91,6 +91,11 @@
       ]
     },
 
+    "fileMetadata": {
+      "breadcrumb_path": {
+          "vs-2015/**/*.md": "~/_breadcrumb/toc-2015.json" 
+    },
+
     "template": [],
     "xref": ["missingapi.yml", "vs.140.zip"],
     "dest": "vsdocsdocs",
