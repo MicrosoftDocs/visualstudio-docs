@@ -72,7 +72,7 @@ Provides an automated way to detect, download, and install an application and it
     </BootstrapperItem>  
     ```  
   
-     The `Include` attribute is used to represent the name of a prerequisite which should be installed. The `ProductName` item metadata is optional, and will be used by the build engine as a user-friendly name in case the package cannot be found. These items are not required [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] input parameters unless no `ApplicationFile` is specified. You should include one item for every prerequisite which must be installed for your application.  
+     The `Include` attribute represents the name of a prerequisite that should be installed. The `ProductName` item metadata is optional, and will be used by the build engine as a user-friendly name if the package cannot be found. These items are not required [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] input parameters, unless no `ApplicationFile` is specified. You should include one item for every prerequisite that must be installed for your application.  
   
      A build error will result if neither the `BootstrapperItems` nor the `ApplicationFile` parameter is specified.  
   
@@ -86,11 +86,11 @@ Provides an automated way to detect, download, and install an application and it
   
      Optional `String` parameter.  
   
-     Specifies a location for the bootstrapper to look for installation prerequisites to install. This parameter can have the following values::  
+     Specifies a location for the bootstrapper to look for installation prerequisites to install. This parameter can have the following values:  
   
     -   `HomeSite`: Indicates that the prerequisite is being hosted by the component vendor.  
   
-    -   `Relative`: Indicates that the preqrequisite is at the same location of the application.  
+    -   `Relative`: Indicates that the prerequisite is at the same location of the application.  
   
     -   `Absolute`: Indicates that all components are to be found at a centralized URL. This value should be used in conjunction with the `ComponentsUrl` input parameter.  
   
@@ -112,13 +112,13 @@ Provides an automated way to detect, download, and install an application and it
   
      Optional `String` parameter.  
   
-     Specifies the culture to use for the bootstrapper UI and installation prerequisites. If the specified culture is unavailabe, the task uses the value of the `FallbackCulture` parameter.  
+     Specifies the culture to use for the bootstrapper UI and installation prerequisites. If the specified culture is unavailable, the task uses the value of the `FallbackCulture` parameter.  
   
 -   `FallbackCulture`  
   
      Optional `String` parameter.  
   
-     Specifies the secondary culture to use for the bootstraper UI and installation prerequisites.  
+     Specifies the secondary culture to use for the bootstrapper UI and installation prerequisites.  
   
 -   `OutputPath`  
   
@@ -136,7 +136,7 @@ Provides an automated way to detect, download, and install an application and it
   
      Optional `String` parameter.  
   
-     Specifies the URL to provide should the bootstrapper installation fail.  
+     Specifies the URL to provide if the bootstrapper installation fails.  
   
 -   `Validate`  
   
