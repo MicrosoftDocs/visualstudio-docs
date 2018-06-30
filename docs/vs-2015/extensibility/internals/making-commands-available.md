@@ -65,27 +65,27 @@ When multiple VSPackages are added to Visual Studio, the user interface (UI) may
   
  A fifth major context area is the UI state of the IDE. UI contexts are identified by active command context `GUID`s, as follows:  
   
--   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_SolutionBuilding>  
-  
--   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_Debugging>  
-  
--   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_Dragging>  
-  
--   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_FullScreenMode>  
-  
--   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_DesignMode>  
-  
--   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_NoSolution>  
-  
--   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_SolutionExists>  
-  
--   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_EmptySolution>  
-  
--   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_SolutionHasSingleProject>  
-  
--   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_SolutionHasMultipleProjects>  
-  
--   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_CodeWindow>  
+-   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionBuilding_guid>
+
+-   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.Debugging_guid>
+
+-   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.Dragging_guid>
+
+-   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.FullScreenMode_guid>
+
+-   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.DesignMode_guid>
+
+-   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.NoSolution_guid>
+
+-   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionExists_guid>
+
+-   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.EmptySolution_guid>
+
+-   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionHasSingleProject_guid>
+
+-   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionHasMultipleProjects_guid>
+
+-   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.CodeWindow_guid>
   
  These GUIDs are marked as active or inactive, depending on the current state of the IDE. Multiple UI contexts can be active at the same time.  
   

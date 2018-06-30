@@ -33,21 +33,21 @@ The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are 
   
 |Value|Description|  
 |-----------|-----------------|  
-|<xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID_Code>|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` handlers should pass this value to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method to get the **Open With** dialog box, in this case on possible Code views.|  
-|<xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID_Debugging>|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` handlers pass this value to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method to get the **Open With** dialog box, in this case populated with possible <xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID_Debugging> debugging views which map to the same view as <xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID_Code>.|  
-|<xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID_Designer>|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` handlers pass this value to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method to get the **Open With** dialog box, in this case to **View Form** designer views.|  
-|<xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID_Primary>|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` handlers pass this value to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method to get the **Open With** dialog box, in this case the default/primary view of the editor factory.|  
-|<xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID_TextView>|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` handlers pass this value to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method to get the **Open With** dialog box, in this for a document or data text editor view.|  
-|<xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID_UserChooseView>|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` handlers pass this value to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method which prompts the user to choose which user-defined view to use.|  
+|<xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID_Code_guid>|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` handlers should pass this value to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method to get the **Open With** dialog box, in this case on possible Code views.|  
+|<xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID_Debugging_guid>|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` handlers pass this value to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method to get the **Open With** dialog box, in this case populated with possible <xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID_Debugging_guid> debugging views which map to the same view as <xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID_Code_guid>.|  
+|<xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID_Designer_guid>|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` handlers pass this value to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method to get the **Open With** dialog box, in this case to **View Form** designer views.|  
+|<xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID_Primary_guid>|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` handlers pass this value to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method to get the **Open With** dialog box, in this case the default/primary view of the editor factory.|  
+|<xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID_TextView_guid>|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` handlers pass this value to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method to get the **Open With** dialog box, in this for a document or data text editor view.|  
+|<xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID_UserChooseView_guid>|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` handlers pass this value to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method which prompts the user to choose which user-defined view to use.|  
   
 ## Editor Factory Flags  
   
 |Value|Description|  
 |-----------|-----------------|  
-|<xref:Microsoft.VisualStudio.VSConstants.CEF_CLONEFILE>|An obsolete flag combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A> method.|  
-|<xref:Microsoft.VisualStudio.VSConstants.CEF_OPENASNEW>|Combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A>, method, this indicates the editor factory should perform necessary fixes.|  
-|<xref:Microsoft.VisualStudio.VSConstants.CEF_OPENFILE>|Combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A> method, this flag is mutually exclusive of <xref:Microsoft.VisualStudio.VSConstants.CEF_CLONEFILE>.|  
-|<xref:Microsoft.VisualStudio.VSConstants.CEF_SILENT>|Combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A> method, this indicates the editor factory should create the editor without displaying a user interface (UI).|  
+|<xref:Microsoft.VisualStudio.VSConstants.CEF_CLONEFILE_guid>|An obsolete flag combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A> method.|  
+|<xref:Microsoft.VisualStudio.VSConstants.CEF_OPENASNEW_guid>|Combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A>, method, this indicates the editor factory should perform necessary fixes.|  
+|<xref:Microsoft.VisualStudio.VSConstants.CEF_OPENFILE_guid>|Combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A> method, this flag is mutually exclusive of <xref:Microsoft.VisualStudio.VSConstants.CEF_CLONEFILE_guid>.|  
+|<xref:Microsoft.VisualStudio.VSConstants.CEF_SILENT_guid>|Combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A> method, this indicates the editor factory should create the editor without displaying a user interface (UI).|  
   
 ## Visual Studio Errors  
   
@@ -75,21 +75,21 @@ The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are 
 |<xref:Microsoft.VisualStudio.VSConstants.VSM_EXITMODAL>|A constant that is specific to [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] for broadcasting a notification message via the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBroadcastMessageEvents.OnBroadcastMessage%2A> method that indicates the end of modality.|  
 |<xref:Microsoft.VisualStudio.VSConstants.VSM_TOOLBARMETRICSCHANGE>|A constant that is specific to [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] for broadcasting a notification message via the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBroadcastMessageEvents.OnBroadcastMessage%2A> method indicating that the command bar metrics have changed.|  
 |<xref:Microsoft.VisualStudio.VSConstants.VSCOOKIE_NIL>|A constant that is specific to [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] that indicates that a cookie has not been set.|  
-|<xref:Microsoft.VisualStudio.VSConstants.VSITEMID_NIL>|A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] item identifier that represents the absence of a project item. This value is used when there is no current selection.|  
-|<xref:Microsoft.VisualStudio.VSConstants.VSITEMID_ROOT>|A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] item identifier that represents the root of a project hierarchy and is used to identify the entire hierarchy, as opposed to a single item.|  
-|<xref:Microsoft.VisualStudio.VSConstants.VSITEMID_SELECTION>|A [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] item identifier that represents the currently selected item or items, which can include the root of the hierarchy.|  
+|[VSITEMID.Nil](<xref:Microsoft.VisualStudio.VSConstants.VSITEMID#Microsoft_VisualStudio_VSConstants_VSITEMID_Nil>)|A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] item identifier that represents the absence of a project item. This value is used when there is no current selection.|
+|[VSITEMID.Root](<xref:Microsoft.VisualStudio.VSConstants.VSITEMID#Microsoft_VisualStudio_VSConstants_VSITEMID_Root>)|A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] item identifier that represents the root of a project hierarchy and is used to identify the entire hierarchy, as opposed to a single item.|
+|[VSITEMID.Selection](<xref:Microsoft.VisualStudio.VSConstants.VSITEMID#Microsoft_VisualStudio_VSConstants_VSITEMID_Selection>)|A [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] item identifier that represents the currently selected item or items, which can include the root of the hierarchy.| 
   
 ## IVsSelectionEvents  
  Describes what component of the IDE has just been selected, in an <xref:Microsoft.VisualStudio.Shell.Interop.IVsSelectionEvents.OnElementValueChanged%2A> call, for example.  
   
-|Constant|Value|  
-|--------------|-----------|  
-|<xref:Microsoft.VisualStudio.VSConstants.DocumentFrame>|0x2|  
-|<xref:Microsoft.VisualStudio.VSConstants.PropertyBrowserSID>|0x4|  
-|<xref:Microsoft.VisualStudio.VSConstants.StartupProject>|0x3|  
-|<xref:Microsoft.VisualStudio.VSConstants.UndoManager>|0x0|  
-|<xref:Microsoft.VisualStudio.VSConstants.UserContext>|0x5|  
-|<xref:Microsoft.VisualStudio.VSConstants.WindowFrame>|0x1|  
+|Constant|Value|
+|--------------|-----------|
+|[SelectionElement.DocumentFrame](<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_DocumentFrame>)|0x2|
+|[SelectionElement.PropertyBrowserSID](<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_PropertyBrowserSID>)|0x4|
+|[SelectionElement.StartupProject](<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_StartupProject>)|0x3|
+|[SelectionElement.UndoManager](<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_UndoManager>)|0x0|
+|[SelectionElement.UserContext](<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_UserContext>)|0x5|
+|[SelectionElement.WindowFrame](<xref:Microsoft.VisualStudio.VSConstants.SelectionElement#Microsoft_VisualStudio_VSConstants_SelectionElement_WindowFrame>)|0x1| 
   
 ## VSSELELEMID  
  Constants used to indicate a new selection state.  

@@ -25,7 +25,7 @@ The <xref:System.Activities.Statements.While> activity executes the activity con
 |-------------------|--------------|-----------|  
 |<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the friendly name of the <xref:System.Activities.Statements.While> activity designer in the header. The default value is While. The value can be edited in the **Properties** window or directly on the activity designer header.<br /><br /> Although the <xref:System.Activities.Activity.DisplayName%2A> is not strictly required, it is a best practice to use one.|  
 |<xref:System.Activities.Statements.While.Body%2A>|False|Contains the activity to execute while the <xref:System.Activities.Statements.Condition%2A> evaluates to **true**.|  
-|<xref:System.Activities.Statements.Condition%2A>|True|Contains the [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] expression that is evaluated to determine whether the activity in the <xref:System.Activities.Statements.While.Body%2A> is to be executed.|  
+|<xref:System.Activities.Statements.While.Condition%2A>|True|Contains the [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] expression that is evaluated to determine whether the activity in the <xref:System.Activities.Statements.While.Body%2A> is to be executed.|  
   
 ## See Also  
  [Control Flow](../workflow-designer/control-flow-activity-designers.md)   

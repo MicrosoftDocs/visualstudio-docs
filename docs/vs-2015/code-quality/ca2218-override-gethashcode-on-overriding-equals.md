@@ -37,17 +37,17 @@ TypeName|OverrideGetHashCodeOnOverridingEquals|
 ## Rule Description  
  <xref:System.Object.GetHashCode%2A> returns a value, based on the current instance, that is suited for hashing algorithms and data structures such as a hash table. Two objects that are the same type and are equal must return the same hash code to ensure that instances of the following types work correctly:  
   
--   <xref:System.Collections.HashTable%601?displayProperty=fullName>  
+-   <xref:System.Collections.Hashtable?displayProperty=fullName>  
   
 -   <xref:System.Collections.SortedList?displayProperty=fullName>  
   
--   <xref:System.Collections.Generic.Dictionary%601?displayProperty=fullName>  
+-   <xref:System.Collections.Generic.Dictionary%602?displayProperty=fullName>  
   
--   <xref:System.Collections.Generic.SortedDictionary%601?displayProperty=fullName>  
+-   <xref:System.Collections.Generic.SortedDictionary%602?displayProperty=fullName>  
   
--   <xref:System.Collections.Generic.SortedList%601?displayProperty=fullName>  
+-   <xref:System.Collections.Generic.SortedList%602?displayProperty=fullName>  
   
--   <xref:System.Collections.Specialized.HybridDictionary%601?displayProperty=fullName>  
+-   <xref:System.Collections.Specialized.HybridDictionary?displayProperty=fullName>  
   
 -   <xref:System.Collections.Specialized.ListDictionary?displayProperty=fullName>  
   

@@ -17,7 +17,7 @@ ms.author: "gregvanl"
 manager: "ghogen"
 ---
 # Contained Languages
-[!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
+[!INCLUDE[vs2017banner](../includes/vs2017banner.md)] 
 
 The latest version of this topic can be found at [Contained Languages](https://docs.microsoft.com/visualstudio/extensibility/contained-languages).  
   
@@ -28,7 +28,7 @@ The latest version of this topic can be found at [Contained Languages](https://d
   
 1.  Use `QueryService()` to get the language service ID and the interface ID of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguageFactory>.  
   
-2.  Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguageFactory.GetLanguage%2A> method to create an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguage> interface. Pass an <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface, an item ID (one or more of <xref:Microsoft.VisualStudio.VSConstants.VSITEMID_NIL>, <xref:Microsoft.VisualStudio.VSConstants.VSITEMID_ROOT>, or <xref:Microsoft.VisualStudio.VSConstants.VSITEMID_SELECTION>) and an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBufferCoordinator> interface.  
+2.  Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguageFactory.GetLanguage%2A> method to create an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsContainedLanguage> interface. Pass an <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface, one or more [item IDs](<xref:Microsoft.VisualStudio.VSConstants.VSITEMID>) and an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBufferCoordinator> interface.  
   
 3.  The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBufferCoordinator> interface, which is the text buffer coordinator object, provides the basic services that are required to map locations in a primary file into the secondary language’s buffer.  
   
