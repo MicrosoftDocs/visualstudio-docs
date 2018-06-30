@@ -33,7 +33,7 @@ ClickOnce deployment supports the installation of applications on 64-bit platfor
 |---------------------|-----------------|------------------|  
 |[!INCLUDE[vsto_runtime](../deployment/includes/vsto_runtime_md.md)]|Yes|No|  
 |Visual C++ 2010 Runtime Libraries (IA64)|No|Yes|  
-|Visual C++ 2010 Runtime Libriaries (x64)|Yes|No|  
+|Visual C++ 2010 Runtime Libraries (x64)|Yes|No|  
 |Microsoft .NET Framework 4 (x86 and x64)|Yes||  
 |Microsoft .NET Framework 4 Client Profile (x86 and x64)|Yes||  
   

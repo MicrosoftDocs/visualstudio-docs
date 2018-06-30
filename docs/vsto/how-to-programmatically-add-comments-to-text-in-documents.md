@@ -31,7 +31,7 @@ ms.workload:
      [!code-vb[Trin_VstcoreWordAutomation#118](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#118)]
      [!code-csharp[Trin_VstcoreWordAutomation#118](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#118)]  
   
-## To add a new comment to text in an VSTO Add-in  
+## To add a new comment to text in a VSTO Add-in  
   
 1.  Call the <xref:Microsoft.Office.Interop.Word.Comments.Add%2A> method of the <xref:Microsoft.Office.Interop.Word._Document.Comments%2A> property and supply a range and the comment text.  
   

@@ -20,7 +20,7 @@ Compared to previous versions of the .NET Framework, the argument designer makes
 
 ## To create a new argument
 
-1.  Open a workflow or activity solution in Visual Studio 2010.
+1.  Open a workflow or activity solution in Visual Studio.
 
 2.  Open the arguments designer by clicking the **Arguments** button in the lower-left corner of the design canvas. The arguments designer appears.
 

@@ -40,7 +40,7 @@ ms.workload:
      [!code-csharp[Trin_VstcoreExcelAutomation#29](../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs#29)]
      [!code-vb[Trin_VstcoreExcelAutomation#29](../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb#29)]  
   
-## Add and delete a comment in an VSTO Add-in project  
+## Add and delete a comment in a VSTO Add-in project  
  The following examples assume that there is a single-cell <xref:Microsoft.Office.Interop.Excel.Range> named `dateComment` on the active worksheet.  
   
 ### To add a new comment to an Excel range  

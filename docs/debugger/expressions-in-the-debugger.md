@@ -141,7 +141,7 @@ int main()
 ## Visual Basic - Unsupported Expressions  
   
 ### Dynamic Objects  
- You can use variables in debugger expressions that are statically typed as dynamic. When objects that implement the [IDynamicMetaObjectProvider Interface](http://msdn.microsoft.com/Library/e887a72d-ebe2-4253-a7e8-3d8d05154647) are evaluated in the Watch window, a Dynamic View node is added. The Dynamic View node shows object members but does not allow editing the values of the members.  
+ You can use variables in debugger expressions that are statically typed as dynamic. When objects that implement the [IDynamicMetaObjectProvider Interface](/dotnet/api/system.dynamic.idynamicmetaobjectprovider) are evaluated in the Watch window, a Dynamic View node is added. The Dynamic View node shows object members but does not allow editing the values of the members.  
   
  The following features of dynamic objects are not supported:  
   

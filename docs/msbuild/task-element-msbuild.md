@@ -27,7 +27,7 @@ Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/
 
 ## Syntax  
 
-```  
+```xml  
 <Task Parameter1="Value1"... ParameterN="ValueN"  
     ContinueOnError="WarnAndContinue/true/ErrorAndContinue/ErrorAndStop/false"  
     Condition="'String A' == 'String B'" >  

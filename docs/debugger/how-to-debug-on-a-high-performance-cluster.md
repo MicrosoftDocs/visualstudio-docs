@@ -89,9 +89,8 @@ Debugging a multiprocessing program on a high-performance cluster is like debugg
 ## Example  
  The following example shows how to create a filter for a breakpoint on a computer named `marvin` and a thread named `fourier1`.  
   
-```  
-(MachineName = marvin) & (ThreadName = fourier1)  
-```  
+`(MachineName = marvin) & (ThreadName = fourier1)`  
+
   
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   

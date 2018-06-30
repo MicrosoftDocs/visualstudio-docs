@@ -28,7 +28,7 @@ Contains a user-defined item and its metadata. Every item that is used in a [!IN
 
 ## Syntax  
 
-```  
+```xml  
 <Item Include="*.cs"  
         Exclude="MyFile.cs"  
         Remove="RemoveFile.cs"  

@@ -43,7 +43,7 @@ ms.workload:
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Walkthrough: Create a Site Column, Content Type, and List for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md)|Demonstrates how to create site columns that are used in a custom content type. The content type is then used in a custom list.|  
+|[Walkthrough: Create a site column, content type, and list for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md)|Demonstrates how to create site columns that are used in a custom content type. The content type is then used in a custom list.|  
   
 ## See also
  [Get Started Developing on SharePoint 2010](http://go.microsoft.com/fwlink/?LinkId=225000)  

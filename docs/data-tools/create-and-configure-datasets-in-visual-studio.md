@@ -16,19 +16,19 @@ ms.workload:
 ---
 # Create and configure datasets in Visual Studio
 
-A *dataset* is a set of objects that store data from a database in memory and support change tracking to enable create, read, update and delete (CRUD) operations on that data without the need to be always connected to the database. Datasets were designed for simple *forms over data* business applications. For new applications, consider using Entity Framework to store and model data in memory. To work with datasets, you should have a basic knowledge of database concepts.
+A dataset is a set of objects that store data from a database in memory and support change tracking to enable create, read, update, and delete (CRUD) operations on that data without the need to be always connected to the database. Datasets were designed for simple *forms over data* business applications. For new applications, consider using Entity Framework to store and model data in memory. To work with datasets, you should have a basic knowledge of database concepts.
 
-You create a typed <xref:System.Data.DataSet> class in Visual Studio at design time by using the **Data Source Configuration Wizard**. For information on creating datasets programmatically, see [Creating a DataSet (ADO.NET)](/dotnet/framework/data/adonet/dataset-datatable-dataview/creating-a-dataset).
+You create a typed <xref:System.Data.DataSet> class in Visual Studio at design time by using the **Data Source Configuration Wizard**. For information on creating datasets programmatically, see [Creating a dataset (ADO.NET)](/dotnet/framework/data/adonet/dataset-datatable-dataview/creating-a-dataset).
 
 ## Create a new dataset by using the Data Source Configuration Wizard
 
 1.  On the **Project** menu, click **Add New Data Source** to start the **Data Source Configuration Wizard**.
 
-2.  Choose the type of data source that you will be connecting to.
+2.  Choose the type of data source to which you will be connecting.
 
      ![Data Source Configuration Wizard](../data-tools/media/data-source-configuration-wizard.png)
 
-3.  For databases, choose the database or databases that will be the data source for your dataset.
+3.  Choose the database or databases that will be the data source for your dataset.
 
      ![Data source choose a connection](../data-tools/media/data-source-choose-a-connection.png)
 
@@ -38,11 +38,11 @@ You create a typed <xref:System.Data.DataSet> class in Visual Studio at design t
 
 5.  Click **Finish**.
 
-6.  The dataset appears as a node in **Solution Explorer**:
+6.  The dataset appears as a node in **Solution Explorer**.
 
      ![DataSet in Solution Explorer](../data-tools/media/dataset-in-solution-explorer.png)
 
-     Click that node, and the dataset appears in the **DataSet Designer**. Note that each table in the dataset has an associated TableAdapter object, which is represented at the bottom. The table adapter is used to populate the dataset and optionally to send commands to the database.
+     Click that node, and the dataset appears in the **DataSet Designer**. Note that each table in the dataset has an associated `TableAdapter` object, which is represented at the bottom. The table adapter is used to populate the dataset and optionally to send commands to the database.
 
      ![DataSet Designer](../data-tools/media/dataset-designer.png)
 
@@ -80,7 +80,7 @@ This procedure shows how to add a table from the same database that you used to 
 
 2.  Drag a <xref:System.Data.DataTable> class from the **DataSet** tab of the **Toolbox** onto the **Dataset Designer**.
 
-3.  Add columns to define your data table. Right-click on the table and choose **Add > Column**. Use the **Properties** window to set the data type of the column and a key if necessary.
+3.  Add columns to define your data table. Right-click on the table and choose **Add** > **Column**. Use the **Properties** window to set the data type of the column and a key if necessary.
 
 4.  Stand-alone tables need to Implement `Fill` logic in stand-alone tables so that you can fill them with data. For information on filling stand-alone data tables, see [Populating a DataSet from a DataAdapter](/dotnet/framework/data/adonet/populating-a-dataset-from-a-dataadapter).
 

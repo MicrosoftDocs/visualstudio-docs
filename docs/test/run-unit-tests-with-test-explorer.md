@@ -38,7 +38,7 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 
 - To run all the tests in a solution, choose **Run All**.
 
-- To run all the tests in a default group, choose **Run...** and then choose the group on the menu.
+- To run all the tests in a default group, choose **Run** and then choose the group on the menu.
 
 - Select the individual tests that you want to run, open the context menu for a selected test and then choose **Run Selected Tests**.
 
@@ -121,7 +121,7 @@ Test Explorer lets you group your tests into predefined categories. Most unit te
 
 You can use Test Explorer filters to limit the test methods in your projects that you view and run.
 
-When you type a string in in the Test Explorer search box and choose ENTER, the test list is filtered to display only those tests whose fully qualified names contain the string.
+When you type a string in the Test Explorer search box and choose ENTER, the test list is filtered to display only those tests whose fully qualified names contain the string.
 
 To filter by a different criteria:
 

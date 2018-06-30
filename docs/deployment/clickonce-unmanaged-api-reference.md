@@ -2,6 +2,16 @@
 title: "ClickOnce Unmanaged API Reference | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
+api_name: 
+  - "CleanOnlineAppCache"
+  - "GetDeploymentDataFromManifest"
+  - "LaunchApplication"
+api_location: 
+  - "dfshim.dll"
+api_type: 
+  - "COM"
+topic_type: 
+  - "apiref"
 ms.technology: vs-ide-deployment
 ms.topic: "reference"
 dev_langs: 

@@ -23,7 +23,7 @@ End the current tracking context.
   
 ## Syntax  
   
-```  
+```cpp  
 HRESULT WINAPI EndTrackingContext();  
 ```  
   

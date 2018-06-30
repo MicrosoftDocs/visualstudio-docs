@@ -1,30 +1,31 @@
 ---
-title: Visual Studio 2017 for .NET Developers
-description: "Overview of Visual Studio 2017 features to help you write better .NET code faster."
+title: Increase your productivity for .NET development
+description: "An overview of navigation, code analysis, unit testing, and other features to help you write better .NET code faster."
 author: "kuhlenh"
 ms.author: "kaseyu"
 manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
-ms.date: 01/16/2018
+ms.date: 06/14/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "editor"
 ms.workload:
   - "dotnet"
 ---
-# Visual Studio 2017 productivity guide for .NET developers
+# Visual Studio 2017 C# productivity guide
 
-[Visual Studio 2017](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) makes developers more productive than ever! We improved performance and reliability for solution startup and load, test discovery, and typing latency. We’ve also added and enhanced features to help you write better code faster. Some of these features include: navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in the **Test Explorer**, Go To All (**Ctrl**+**T**) to navigate to file/type/member/symbol declarations, an intelligent **Exception Helper**, code style configuration and enforcement, and many refactorings and code fixes.
-
-Follow this guide to optimize your productivity.
+Learn how [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) makes developers more productive than ever. Take advantage of our performance and productivity improvements like navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in the **Test Explorer**, Go To All (**Ctrl**+**T**) to navigate to file/type/member/symbol declarations, an intelligent **Exception Helper**, code style configuration and enforcement, and many refactorings and code fixes.
 
 ##  I'm used to my keyboard shortcuts from a different extension/editor/IDE.
 
-If you are coming from another IDE or coding environment, you may find installing one of these extensions helpful:
+**New in Visual Studio 2017 version 15.8** If you're coming from another IDE or coding environment, you can change your keyboard scheme to *Visual Studio Code* or *ReSharper (Visual Studio)*:
 
-- [Emacs Emulation](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.EmacsEmulation)
+![Keyboard Schemes in Visual Studio](../ide/media/VS2017Guide-Keyboard.png)
+
+Some extensions also offer keyboard schemes:
 - [HotKeys for Visual Studio (ReSharper/IntelliJ)](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.HotKeys)
+- [Emacs Emulation](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.EmacsEmulation)
 - [VSVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim)
 
 The following are popular Visual Studio shortcuts:
@@ -38,14 +39,18 @@ The following are popular Visual Studio shortcuts:
 | **Ctrl**+**.** (also **Alt**+**Enter** in C# Profile) | Quick Actions and Refactorings | See what code fixes, code generation actions, refactorings, or other quick actions are available at your cursor position or code selection |
 | **Ctrl**+**D** | Duplicate line | Duplicates the line of code that the cursor is in (available in **Visual Studio 2017 version 15.6** and later) |
 | **Shift**+**Alt**+**+**/**-** | Expand/Contract selection | Expands or contracts the current selection in the editor (available in **Visual Studio 2017 version 15.5** and later) |
+| **Shift** + **Alt** + **Ins** | Insert Next Matching Caret | Adds a selection and caret at the next location that matches the current selection (available in **Visual Studio 2017 version 15.8** and later) |
 | **Ctrl**+**Q** | Quick Launch | Search all Visual Studio settings |
 | **F5** | Start Debugging | Start debugging your application |
 | **Ctrl**+**F5** | Run without Debug | Run your application locally without debugging |
 | **Ctrl**+**K**,**D** (Default Profile) or **Ctrl**+**E**,**D** (C# Profile) | Format Document | Cleans up formatting violations in your file based on your newline, spacing, and indentation settings |
 | **Ctrl**+**\\**,**E** (Default Profile) or **Ctrl**+**W**,**E** (C# Profile) | View Error List | See all errors in your document, project, or solution |
+| **Alt** + **PgUp/PgDn** | Go to Next/Previous Issue | Jump to the previous/next error, warning, suggestion in your document (available in **Visual Studio 2017 version 15.8** and later) |
 
 > [!NOTE]
-> Some extensions unbind the default Visual Studio keybindings. To use the following commands, restore your keybindings to Visual Studio's defaults by going to **Tools** > **Import and Export Settings** > **Reset all settings** or **Tools** > **Options** > **Keyboard** > **Reset**.
+> Some extensions unbind the default Visual Studio keybindings. To use the above commands, restore your keybindings to Visual Studio's defaults by going to **Tools** > **Import and Export Settings** > **Reset all settings** or **Tools** > **Options** > **Keyboard** > **Reset**.
+
+Learn more keyboard shortcuts and commands in Visual Studio in [our documentation](..\ide\tips-and-tricks-for-visual-studio.md).
 
 ## I need a way to quickly navigate to files or types.
 Visual Studio 2017 has a feature called **Go To All** (**Ctrl**+**T**). Go To All enables you to quickly jump to any file, type, member, or symbol declaration.
@@ -79,6 +84,7 @@ Visual Studio 2017 comes with a lot of refactorings, code generation actions, an
   - See more in our [documentation](https://aka.ms/refactorings)
 - Write your own refactoring or code fix with [Roslyn analyzers](https://github.com/dotnet/roslyn/wiki/Getting-Started-Writing-a-Custom-Analyzer-&-Code-Fix).
 - Several community members have written free extensions which add additional code inspections:
+  - [FXCop Analyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/)
   - [Roslynator](https://marketplace.visualstudio.com/items?itemName=josefpihrt.Roslynator2017)
   - [SonarLint for Visual Studio](https://marketplace.visualstudio.com/items?itemName=SonarSource.SonarLintforVisualStudio2017)
   - [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/)
@@ -114,7 +120,7 @@ We've added a ton of new debugging capabilities in Visual Studio 2017.
 - [Step Back](../debugger/how-to-use-intellitrace-step-back.md) debugging enables you to go back to previous breakpoints or steps and view the state of the application as it was in the past.
 - [Snapshot debugging](/azure/application-insights/app-insights-snapshot-debugger) lets you investigate the state of a live web application at the moment an exception was thrown (must be on Azure).
 
-![New Exception Helper in VS2017](../ide/media/VSGuide_Debugging.png)
+![New Exception Helper in Visual Studio 2017](../ide/media/VSGuide_Debugging.png)
 
 ## I want to use version control with my projects.
 You can use git or TFVC to store and update your code in Visual Studio.
@@ -135,8 +141,6 @@ Here is a list of editor and productivity features to make writing code more eff
 | Completion/Suggestion Mode | Changes the completion behavior in IntelliSense--developers with IntelliJ backgrounds tend to change the setting here from the default | **Menu** > **Edit** > **IntelliSense** > **Toggle Completion Mode** |
 | [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) | Displays code reference information and change history in the editor | **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens** |
 | [Code snippets](../ide/visual-csharp-code-snippets.md) | Help stub out common boilerplate |  Type a snippet name and press **Tab** twice. |
-
-![Code snippets in Visual Studio](../ide/media/VSGuide_SmartEditor.png)
 
 ## Missing a feature that makes you productive or experiencing poor performance?
 There are several ways to leave us feedback:

@@ -50,15 +50,15 @@ In this tutorial, you will:
     > [!TIP]
     > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
   
-3.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug**>**Windows**>**Show Diagnostic Tools**.
+3.  The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-4.  You can choose whether to see **CPU Usage**, [Memory Usage](../profiling/Memory-Usage.md), or both, with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can also enable or disable IntelliTrace in **Tools**>**Options**>**IntelliTrace**.
+4.  You can choose whether to see **CPU Usage**, [Memory Usage](../profiling/Memory-Usage.md), or both, with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can also enable or disable IntelliTrace in **Tools** > **Options** > **IntelliTrace**.
 
      ![Show Diagnostics Tools](../profiling/media/DiagToolsSelectTool.png "DiagToolsSelectTool")
 
      We will mainly be looking at CPU utilization, so make sure that **CPU Usage** is enabled (it is enabled by default).
 
-5.  Click **Debug**>**Start Debugging** (or **Start** on the toolbar, or **F5**).
+5.  Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
 
      When the app finishes loading, the Summary view of the Diagnostics Tools appears.
 
@@ -126,7 +126,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 |||
 |-|-|
 |![Step 1](../profiling/media/ProcGuid_1.png "ProcGuid_1")|The top-level node in CPU Usage call trees is a pseudo-node|  
-|![Step 2](../profiling/media/ProcGuid_2.png "ProcGuid_2")|In most apps, when the [Show External Code](#BKMK_External_Code) option is disabled, the second-level node is an **[External Code]** node that contains the system and framework code that starts and stops the app, draws the UI, controls thread scheduling, and provides other low-level services to the app.|  
+|![Step 2](../profiling/media/ProcGuid_2.png "ProcGuid_2")|In most apps, when the [Show External Code](#view-external-code) option is disabled, the second-level node is an **[External Code]** node that contains the system and framework code that starts and stops the app, draws the UI, controls thread scheduling, and provides other low-level services to the app.|  
 |![Step 3](../profiling/media/ProcGuid_3.png "ProcGuid_3")|The children of the second-level node are the user-code methods and asynchronous routines that are called or created by the second-level system and framework code.|
 |![Step 4](../profiling/media/ProcGuid_4.png "ProcGuid_4")|Child nodes of a method contain data only for the calls of the parent method. When **Show External Code** is disabled, app methods can also contain an **[External Code]** node.|
 

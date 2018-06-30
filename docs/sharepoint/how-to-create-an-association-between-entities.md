@@ -30,7 +30,7 @@ ms.workload:
 # How to: Create an association between entities
   You can define relationships between entities in your Business Data Connectivity (BDC) model by creating associations. Visual Studio generates methods that provide consumers of the model with information about each association. These methods can be consumed by SharePoint web parts, lists, or custom applications to display data relationships in a user interface (UI).  
   
- You can create two types of associations in the BDC designer: foreign key-based associations and foreign keyless associations. For more information, see [Creating an Association Between Entities](../sharepoint/creating-an-association-between-entities.md).  
+ You can create two types of associations in the BDC designer: foreign key-based associations and foreign keyless associations. For more information, see [Create an association between entities](../sharepoint/creating-an-association-between-entities.md).  
   
 ### To create an association between entities  
   
@@ -58,19 +58,19 @@ ms.workload:
   
 8.  In the Association Navigator method of the destination entity, add code that returns the related source entity.  
   
-     For examples of Association Navigator methods, see [Creating an Association Between Entities](../sharepoint/creating-an-association-between-entities.md).  
+     For examples of Association Navigator methods, see [Create an association between entities](../sharepoint/creating-an-association-between-entities.md).  
   
 ## See also
- [Creating an Association Between Entities](../sharepoint/creating-an-association-between-entities.md)   
- [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)   
- [How to: Add a Finder Method](../sharepoint/how-to-add-a-finder-method.md)   
- [How to: Add a Specific Finder Method](../sharepoint/how-to-add-a-specific-finder-method.md)   
- [How to: Add a Creator Method](../sharepoint/how-to-add-a-creator-method.md)   
- [How to: Add a Deleter Method](../sharepoint/how-to-add-a-deleter-method.md)   
- [How to: Add an Updater Method](../sharepoint/how-to-add-an-updater-method.md)   
- [BDC Model Design Tools Overview](../sharepoint/bdc-model-design-tools-overview.md)   
- [How to: Add a Parameter to a Method](../sharepoint/how-to-add-a-parameter-to-a-method.md)   
- [How to: Define a Method Instance](../sharepoint/how-to-define-a-method-instance.md)   
- [How to: Define the Type Descriptor of a Parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)   
- [Walkthrough: Creating an External List in SharePoint by Using Business Data](../sharepoint/walkthrough-creating-an-external-list-in-sharepoint-by-using-business-data.md)  
+ [Create an association between entities](../sharepoint/creating-an-association-between-entities.md)   
+ [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)   
+ [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)   
+ [How to: Add a specific Finder method](../sharepoint/how-to-add-a-specific-finder-method.md)   
+ [How to: Add a Creator method](../sharepoint/how-to-add-a-creator-method.md)   
+ [How to: Add a Deleter method](../sharepoint/how-to-add-a-deleter-method.md)   
+ [How to: Add an Updater method](../sharepoint/how-to-add-an-updater-method.md)   
+ [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)   
+ [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)   
+ [How to: Define a method instance](../sharepoint/how-to-define-a-method-instance.md)   
+ [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)   
+ [Walkthrough: Create an external list in SharePoint by using business data](../sharepoint/walkthrough-creating-an-external-list-in-sharepoint-by-using-business-data.md)  
   

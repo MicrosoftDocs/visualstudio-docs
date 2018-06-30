@@ -38,7 +38,7 @@ ms.workload:
      [!code-vb[Trin_VstcoreWordAutomation#12](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#12)]
      [!code-csharp[Trin_VstcoreWordAutomation#12](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#12)]  
   
-## Print a document by using an VSTO Add-in  
+## Print a document by using a VSTO Add-in  
   
 ### To print an entire document  
   

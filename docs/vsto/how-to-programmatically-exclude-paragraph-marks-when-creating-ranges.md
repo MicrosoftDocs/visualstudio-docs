@@ -74,7 +74,7 @@ ms.workload:
   
      The original contents of both ranges were saved as strings, so you can restore the document to its original condition.  
   
-8.  Readjust `firstRange` to include the paragraph mark by using the <xref:Microsoft.Office.Interop.Word.Range.MoveEnd%2A> method for one character position.  
+8.  Readjust `firstRange` to include the paragraph mark by using the <xref:Microsoft.Office.Interop.Word.Range.MoveEnd%2A> method for one-character position.  
   
      [!code-vb[Trin_VstcoreWordAutomation#34](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationVB/ThisDocument.vb#34)]
      [!code-csharp[Trin_VstcoreWordAutomation#34](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationCS/ThisDocument.cs#34)]  
@@ -105,9 +105,9 @@ ms.workload:
   
 ## VSTO Add-in example  
   
-### To control paragraph structure when inserting text in an VSTO Add-in  
+### To control paragraph structure when inserting text in a VSTO Add-in  
   
-1.  The following example shows the complete method for an VSTO Add-in. To use this code, run it from the `ThisAddIn` class in your project.  
+1.  The following example shows the complete method for a VSTO Add-in. To use this code, run it from the `ThisAddIn` class in your project.  
   
      [!code-vb[Trin_VstcoreWordAutomationAddIn#26](../vsto/codesnippet/VisualBasic/Trin_VstcoreWordAutomationAddIn/ThisAddIn.vb#26)]
      [!code-csharp[Trin_VstcoreWordAutomationAddIn#26](../vsto/codesnippet/CSharp/Trin_VstcoreWordAutomationAddIn/ThisAddIn.cs#26)]  

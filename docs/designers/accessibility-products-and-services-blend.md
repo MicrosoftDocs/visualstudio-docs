@@ -60,7 +60,7 @@ Microsoft is committed to making its products and services easier for everyone t
 
  Web addresses can change, so you might be unable to connect to the site mentioned here.
 
-## Customer service for people people with hearing impairments
+## Customer service for people with hearing impairments
  If you are deaf or have hearing impairments, complete access to Microsoft product and customer services is available through a text telephone (TTY/TDD) service:
 
  For customer service, contact Microsoft Sales Information Center at (800) 892-5234 between 6:30 AM and 5:30 PM Pacific Time, Monday through Friday, excluding holidays.

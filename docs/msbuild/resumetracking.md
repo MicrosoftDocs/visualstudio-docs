@@ -23,7 +23,7 @@ Resumes tracking in the current context.
   
 ## Syntax  
   
-```  
+```cpp  
 HRESULT WINAPI ResumeTracking();  
 ```  
   

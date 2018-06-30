@@ -35,7 +35,7 @@ ms.workload:
 ## Use the Sheets collection of the Excel workbook  
  Access worksheets through the Microsoft Office Excel <xref:Microsoft.Office.Interop.Excel.Sheets> collection in the following cases:  
   
--   You want to hide a worksheet in an VSTO Add-in.  
+-   You want to hide a worksheet in a VSTO Add-in.  
   
 -   The worksheet that you want to hide was created at run time in a document-level customization.  
   

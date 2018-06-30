@@ -39,7 +39,7 @@ Visual Studio hosts [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/
 ## Configurations and Platforms  
  Configurations are represented in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] projects by properties grouped in a `PropertyGroup` element that contains a `Condition` attribute. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] looks at these conditions in order to create a list of project configurations and platforms to display. To successfully extract this list, the conditions must have a format similar to the following:  
   
-```  
+```xml  
 Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' "  
 Condition=" '$(Configuration)' == 'Release' "   
 Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' "  

@@ -27,12 +27,12 @@ ms.workload:
   - "data-storage"
 ---
 # Directly access the database with a TableAdapter
-In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableAdapters are created with methods that can be run directly against the database. These methods (`TableAdapter.Insert`, `TableAdapter.Update`, and `TableAdapter.Delete`) can be called to manipulate data directly in the database.
+In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableAdapters are created with methods that can be run directly against the database. You can call these methods (`TableAdapter.Insert`, `TableAdapter.Update`, and `TableAdapter.Delete`) to manipulate data directly in the database.
 
- If you don't want to create these direct methods, set the TableAdapter's `GenerateDbDirectMethods` property to `false` in the **Properties** window. If any queries  are added to a TableAdapter in addition to the TableAdapter's main query, they are standalone queries that don't generate these DbDirect methods.
+ If you don't want to create these direct methods, set the TableAdapter's `GenerateDbDirectMethods` property to `false` in the **Properties** window. If any queries are added to a TableAdapter in addition to the TableAdapter's main query, they are standalone queries that don't generate these `DbDirect` methods.
 
 ## Send commands directly to a database
- Call the TableAdapter DbDirect method that performs the task you are trying to accomplish.
+ Call the TableAdapter `DbDirect` method that performs the task you are trying to accomplish.
 
 #### To insert new records directly into a database
 

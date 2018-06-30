@@ -13,4 +13,4 @@ ms.workload:
 ---
 # Error Handling Activity Designers
 
-The Error Handling activity designers are used to manage error handling in Windows Workflow Designer. The topics contained in this section provide guidance on how to use the Workflow Designer activity and template designers.
+The Error Handling activity designers are used to manage error handling in Workflow Designer. The topics contained in this section provide guidance on how to use the Workflow Designer activity and template designers.

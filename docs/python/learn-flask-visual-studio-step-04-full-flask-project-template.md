@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 4: Use the full Flask Web Project template
+# Step 4: Use the full Flask Web Project template
 
 **Previous step: [Serve static files, add pages, and use template inheritance](learn-flask-visual-studio-step-03-serve-static-files-add-pages.md)**
 
@@ -226,8 +226,8 @@ Feel free to experiment with both Jinja and Jade syntaxes to see which one works
 > [!div class="nextstepaction"]
 > [The Polls Flask Web Project template](learn-flask-visual-studio-step-05-polls-flask-web-project-template.md)
 
-## Going deeper
+## Go deeper
 
 - [Writing your first Flask app, part 4 - forms and generic views](https://docs.djangoproject.com/en/2.0/intro/tutorial04/) (docs.djangoproject.com)
 - [Jade on GitHib (Documentation)](https://github.com/liuliqiang/pyjade) (github.com)
-- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learn-flask](https://github.com/Microsoft/python-sample-vs-learn-flask)
+- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask)

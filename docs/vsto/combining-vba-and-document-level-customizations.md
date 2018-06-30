@@ -134,7 +134,7 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
 ### Use the CallVSTOAssembly property in a Visual Basic project  
  Use the `CallVSTOAssembly` property to access public members that you added to the host item class. For example, the following VBA macro calls a method named `MyVSTOMethod` that is defined in the `Sheet1` class in an Excel workbook project.  
   
-```  
+```vb
 Sub MyMacro()  
     Sheet1.CallVSTOAssembly.MyVSTOMethod()  
 End Sub  
@@ -144,7 +144,7 @@ End Sub
   
  The `CallVSTOAssembly` property has a declaration that is similar to the following code. This code assumes that you have exposed the `Sheet1` host item class in an Excel workbook project named `ExcelWorkbook1` to VBA.  
   
-```  
+```vb 
 Property Get CallVSTOAssembly() As ExcelWorkbook1.Sheet1  
     Set CallVSTOAssembly = GetManagedClass(Me)  
 End Property  
@@ -155,7 +155,7 @@ End Property
   
  For example, the following VBA macro calls a method named `MyVSTOMethod` that is defined in the `Sheet1` host item class in an Excel workbook project named `ExcelWorkbook1`.  
   
-```  
+```vb
 Sub CallVSTOMethod  
     Dim VSTOSheet1 As ExcelWorkbook1.Sheet1  
     Set VSTOSheet1 = GetManagedClass(Sheet1)  
@@ -165,7 +165,7 @@ End Sub
   
  The `GetManagedClass` method has the following declaration.  
   
-```  
+```vb
 GetManagedClass(pdispInteropObject Object) As Object  
 ```  
   
@@ -195,8 +195,8 @@ GetManagedClass(pdispInteropObject Object) As Object
   
  If users install the solution from an installation folder that is different from the publish folder, you can avoid adding the VBA code in the document every time you publish the solution. When a publish update is ready to be moved from the publish folder to the installation folder, copy all of the files to the installation folder except for the document.  
   
-### On the end user computer  
- If the end users are VBA developers who are calling into services that you provide in the document-level customization, you can tell them how to call your code by using the `CallVSTOAssembly` property or the `GetManagedClass` method in their copies of the document. When you publish updates to the solution, VBA code in the document on the end user computer will not be overwritten, because the document is not modified by publish updates.  
+### On the end-user computer  
+ If the end users are VBA developers who are calling into services that you provide in the document-level customization, you can tell them how to call your code by using the `CallVSTOAssembly` property or the `GetManagedClass` method in their copies of the document. When you publish updates to the solution, VBA code in the document on the end-user computer will not be overwritten, because the document is not modified by publish updates.  
   
 ##  <a name="PropertyTasks"></a> Tasks performed by the host item properties  
  When you use the **EnableVbaCallers** and **ReferenceAssemblyFromVbaProject** properties, Visual Studio performs different sets of tasks.  

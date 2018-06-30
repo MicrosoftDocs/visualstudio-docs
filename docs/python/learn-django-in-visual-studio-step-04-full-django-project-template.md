@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 4: Use the full Django Web Project template
+# Step 4: Use the full Django Web Project template
 
 **Previous step: [Serve static files, add pages, and use template inheritance](learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)**
 
@@ -68,7 +68,7 @@ At the broadest level, the "Django Web Project" template creates the following s
   - `requirements.txt` containing a dependency on Django 1.x.
   - `readme.html`, a file that's displayed in Visual Studio after creating the project. As noted in the previous section, follow the instructions here to create a super user (administrator) account for the app.
 - The `app` folder contains all the app files, including views, models, tests, forms, templates, and static files (see step 4-2). You typically rename this folder to use a more distinctive app name.
-- The `DjangoWeb` (Django project) folder contains the typical Django project files: `__init.py__`, `settings.py`, `urls.py`, and `wsgi.py`. By using the project template, `settings.py` is already configured for the app and the database file, and `urls.py` is already configured with routes to all the app pages, including the login form.
+- The `DjangoWeb` (Django project) folder contains the typical Django project files: `__init__.py`, `settings.py`, `urls.py`, and `wsgi.py`. By using the project template, `settings.py` is already configured for the app and the database file, and `urls.py` is already configured with routes to all the app pages, including the login form.
 
 ### Question: Is it possible to share a virtual environment between Visual Studio projects?
 
@@ -210,7 +210,8 @@ Answer: The lack of the trailing '$' in the regular expression was a simple over
 > [!div class="nextstepaction"]
 > [Authenticate users in Django](learn-django-in-visual-studio-step-05-django-authentication.md)
 
-## Going deeper
+## Go deeper
 
+- [Deploy the web app to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)
 - [Writing your first Django app, part 4 - forms and generic views](https://docs.djangoproject.com/en/2.0/intro/tutorial04/) (docs.djangoproject.com)
 - Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django)

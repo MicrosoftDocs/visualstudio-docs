@@ -20,7 +20,7 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Add controls to a document at runtime in a VSTO Add-in
-  You can add controls to any open Microsoft Office Word document by using an VSTO Add-in. This walkthrough demonstrates how to use the ribbon to enable users to add a <xref:Microsoft.Office.Tools.Word.Controls.Button> or a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> to a document.  
+  You can add controls to any open Microsoft Office Word document by using a VSTO Add-in. This walkthrough demonstrates how to use the ribbon to enable users to add a <xref:Microsoft.Office.Tools.Word.Controls.Button> or a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> to a document.  
   
  **Applies to:** The information in this topic applies to VSTO Add-in projects for Word 2010. For more information, see [Features Available by Office Application and Project Type](../vsto/features-available-by-office-application-and-project-type.md).  
   
@@ -48,7 +48,7 @@ ms.workload:
   
 ### To create a new Word VSTO Add-in project  
   
-1.  Create an VSTO Add-in project for Word with the name **WordDynamicControls**. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
+1.  Create a VSTO Add-in project for Word with the name **WordDynamicControls**. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
 2.  Add a reference to the **Microsoft.Office.Tools.Word.v4.0.Utilities.dll** assembly. This reference is required to programmatically add a Windows Forms control to the document later in this walkthrough.  
   
@@ -177,7 +177,7 @@ ms.workload:
   
 -   For a sample that demonstrates how to add many other types of controls to a document at runtime and recreate the controls when the document is reopened, see the Word Add-In Dynamic Controls Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).  
   
--   For a walkthrough that demonstrates how to add controls to a worksheet by using an VSTO Add-in for Excel, see [Walkthrough: Add controls to a worksheet at runtime in VSTO add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md).  
+-   For a walkthrough that demonstrates how to add controls to a worksheet by using a VSTO Add-in for Excel, see [Walkthrough: Add controls to a worksheet at runtime in VSTO add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md).  
   
 ## See also  
  [Word solutions](../vsto/word-solutions.md)   
