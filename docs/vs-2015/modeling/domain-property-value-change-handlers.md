@@ -20,7 +20,7 @@ manager: "douge"
 
 In a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] domain-specific language, when the value of a domain property changes, the `OnValueChanging()` and `OnValueChanged()` methods are invoked in the domain property handler. To respond to the change, you can override these methods.  
   
-## Overriding the Property Handler methods  
+## Overriding the Property Handler methods   
  Each domain property of your domain-specific language is handled by a class that is nested inside its parent domain class. Its name follows the format *PropertyName*PropertyHandler. You can inspect this property handler class in the file **Dsl\Generated Code\DomainClasses.cs**. In the class, `OnValueChanging()` is called immediately before the value changes, and `OnValueChanged()` is called immediately after the value changes.  
   
  For example, suppose you have a domain class named `Comment` that has a string domain property named `Text` and an integer property named `TextLengthCount`. To cause `TextLengthCount` always to contain the length of the `Text` string, you could write the following code in a separate file in the Dsl project:  
@@ -172,7 +172,5 @@ namespace msft.FieldChangeSample
 }  
 ```  
   
-## See Also  
- <xref:Microsoft.VisualStudio.Modeling.DomainPropertyValueHandler%602.OnValueChanged%2A>   
- <xref:Microsoft.VisualStudio.Modeling.DomainPropertyValueHandler%602.OnValueChanging%2A>
+
 

@@ -76,7 +76,7 @@ pSLMgrSupport.SetProjectLoadPriority(guidProjectID, (uint)_VSProjectLoadPriority
   
  Specific solution load managers should deactivate themselves in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents.OnAfterCloseSolution%2A> event handler, in order not to conflict with other solution load managers.  
   
- If you need a solution load manager only to persist global project load priorities (for example, properties set on an Options page), you can activate the solution load manager in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3.OnAfterOpenProject%2A> event handler, persist the setting in the solution properties, then deactivate the solution load manager.  
+ If you need a solution load manager only to persist global project load priorities (for example, properties set on an Options page), you can activate the solution load manager in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents2.OnAfterOpenProject%2A> event handler, persist the setting in the solution properties, then deactivate the solution load manager.  
   
 ## Handling solution load events  
  To subscribe to solution load events, call <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.AdviseSolutionEvents%2A> when you activate your solution load manager. If you implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents>, you can respond to events that relate to different project loading priorities.  

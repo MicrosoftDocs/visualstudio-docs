@@ -9,8 +9,8 @@ ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "VS.ToolsOptionsPages.Text_Editor.C\C++.Advanced"
+f1_keywords:
+  - "VS.ToolsOptionsPages.Text_Editor.C\\C++.Advanced"
   - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.Advanced"
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.Advanced"
 helpviewer_keywords: 

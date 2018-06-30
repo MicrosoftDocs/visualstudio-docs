@@ -163,11 +163,7 @@ namespace UnitTests
   
 ```  
   
- Notice the following points:  
-  
--   <xref:Microsoft.VSSDK.Tools.VsIdeTesting.VsIdeTestHostContext?displayProperty=fullName> provides access to the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] API <xref:EnvDTE.DTE?displayProperty=fullName>, and also to the DTE service provider.  
-  
--   If an instance of <xref:EnvDTE.Project?displayProperty=fullName> represents a modeling project, then you can cast it to and from <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.IModelingProject>.  
+ If an instance of <xref:EnvDTE.Project?displayProperty=fullName> represents a modeling project, then you can cast it to and from <xref:Microsoft.VisualStudio.ArchitectureTools.Extensibility.IModelingProject>.  
   
 ##  <a name="Opening"></a> Opening a Model Diagram  
  For each test or class of tests, you typically want to work with an open diagram. The following example uses the `[ClassInitialize]` attribute, which executes this method before other methods in this test class. Again, don’t forget that you also need the attribute [HostType("VS IDE")] on each test method:  
