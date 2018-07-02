@@ -83,7 +83,11 @@ To download the tools on Windows Server, we recommend one of the following:
 
     When you download the software, you get some additional requests to grant permission to load various web site scripts and resources. On my.visualstudio.com, we recommend that you add the additional domains to make sure that login is successful.
 
-### <a name="fileshare_msvsmon"></a> (Optional) To run the remote debugger from a file share
+## <a name="requirements_msvsmon"></a> Requirements
+
+[!INCLUDE [remote-debugger-requirements](../debugger/includes/remote-debugger-requirements.md)]
+
+## <a name="fileshare_msvsmon"></a> (Optional) To run the remote debugger from a file share
 
 You can find the remote debugger (*msvsmon.exe*) on a computer with Visual Studio Community, Professional, or Enterprise already installed. For some scenarios, the easiest way to set up remote debugging is to run the remote debugger (msvsmon.exe) from a file share. For usage limitations, see the remote debugger's Help page (**Help > Usage** in the remote debugger).
 
@@ -100,11 +104,7 @@ You can find the remote debugger (*msvsmon.exe*) on a computer with Visual Studi
 > [!TIP]
 > For command line installation and command line reference, see the Help page for *msvsmon.exe* by typing ``msvsmon.exe /?`` in the command line on the computer with Visual Studio installed (or go to **Help > Usage** in the remote debugger).
 
-## <a name="requirements_msvsmon"></a> Requirements
-
-[!INCLUDE [remote-debugger-requirements](../debugger/includes/remote-debugger-requirements.md)]
-
-## Set up the remote debugger
+## <a name="bkmk_setup"></a> Set up the remote debugger
 
 [!INCLUDE [remote-debugger-configuration](../debugger/includes/remote-debugger-configuration.md)]
 
