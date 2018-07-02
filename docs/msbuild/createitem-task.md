@@ -43,7 +43,7 @@ Populates item collections with the input items. This allows items to be copied 
 ## Example  
  The following code example creates a new item collection named `MySourceItemsWithMetadata` from the item collection `MySourceItems`. The `CreateItem` task populates the new item collection with the items in the `MySourceItems` item. It then adds an additional metadata entry named `MyMetadata` with a value of `Hello` to each item in the new collection.  
   
- After the task is executed, the `MySourceItemsWithMetadata` item collection contains the items `file1.resx` and `file2.resx`, both with metadata entries for `MyMetadata`. The `MySourceItems` item collection is unchanged.  
+ After the task is executed, the `MySourceItemsWithMetadata` item collection contains the items *file1.resx* and *file2.resx*, both with metadata entries for `MyMetadata`. The `MySourceItems` item collection is unchanged.  
   
 ```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
@@ -70,7 +70,7 @@ Populates item collections with the input items. This allows items to be copied 
   
 |Item collection|Contents|  
 |---------------------|--------------|  
-|`MySourceItemsWithMetadata`|`file1.resx` (`MyMetadata="Hello"`)<br /><br /> `file2.resx` (`MyMetadata="Hello"`)|  
+|`MySourceItemsWithMetadata`|*file1.resx* (`MyMetadata="Hello"`)<br /><br /> *file2.resx* (`MyMetadata="Hello"`)|  
   
 ## See also  
  [Task reference](../msbuild/msbuild-task-reference.md)   
