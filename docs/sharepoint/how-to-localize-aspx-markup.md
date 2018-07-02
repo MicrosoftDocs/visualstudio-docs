@@ -41,7 +41,7 @@ ms.workload:
   
 3.  Change the value of the **Deployment Type** property of each resource file to **AppGlobalResource** to cause them to deploy to the server's App_GlobalResources folder.  
   
-4.  If you are using the resources to localize code in addition to ASPX markup, leave the value of the **Build Action** property of each file as **Embedded Resource**. If you are using the resource files only to localize markup, you can optionally change the property value of the files to **Content**. For more information, see [Localizing SharePoint Solutions](../sharepoint/localizing-sharepoint-solutions.md).  
+4.  If you are using the resources to localize code in addition to ASPX markup, leave the value of the **Build Action** property of each file as **Embedded Resource**. If you are using the resource files only to localize markup, you can optionally change the property value of the files to **Content**. For more information, see [Localize SharePoint solutions](../sharepoint/localizing-sharepoint-solutions.md).  
   
 5.  Open each resource file and add localized strings, using the same string IDs in each file.  
   
@@ -74,8 +74,8 @@ ms.workload:
      The localized strings appear in the application. To display localized resources, the SharePoint server must have a language pack installed that matches the resource file's culture.  
   
 ## See also
- [Localizing SharePoint Solutions](../sharepoint/localizing-sharepoint-solutions.md)   
- [How to: Localize a Feature](../sharepoint/how-to-localize-a-feature.md)   
- [How to: Add a Resource File](../sharepoint/how-to-add-a-resource-file.md)   
- [How to: Localize Code](../sharepoint/how-to-localize-code.md)  
+ [Localize SharePoint solutions](../sharepoint/localizing-sharepoint-solutions.md)   
+ [How to: Localize a feature](../sharepoint/how-to-localize-a-feature.md)   
+ [How to: Add a resource file](../sharepoint/how-to-add-a-resource-file.md)   
+ [How to: Localize code](../sharepoint/how-to-localize-code.md)  
   

@@ -31,7 +31,7 @@ Once you have written a visualizer, you need to debug and test it.
   
 1.  In your debugger-side class, include a static method that creates a <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerDevelopmentHost> object and calls its show method:  
   
-    ```  
+    ```csharp
     public static void TestShowVisualizer(object objectToVisualize)  
     {  
        VisualizerDevelopmentHost myHost = new VisualizerDevelopmentHost(objectToVisualize, typeof(DebuggerSide));  
@@ -43,7 +43,7 @@ Once you have written a visualizer, you need to debug and test it.
   
 2.  Add the following statement to call `TestShowVisualizer`. If you created your visualizer in a class library, you need to create an executable to call the class library and place this statement in your executable:  
   
-    ```  
+    ```csharp
     DebuggerSide.TestShowVisualizer(myString);  
     ```  
   

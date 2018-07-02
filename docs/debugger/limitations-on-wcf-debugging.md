@@ -41,7 +41,7 @@ There are three ways that you can begin debugging a WCF service:
   
 -   Debugging must be enabled with the following code in the app.config or Web.config file:  
   
-    ```  
+    ```xml
     <system.web>  
       <compilation debug="true" />  
     </system.web>  
@@ -63,7 +63,7 @@ There are three ways that you can begin debugging a WCF service:
   
 -   Debugging must be enabled with the following code in the app.config or Web.config file:  
   
-    ```  
+    ```xml
     <system.web>  
       <compilation debug="true" />  
     <system.web>  

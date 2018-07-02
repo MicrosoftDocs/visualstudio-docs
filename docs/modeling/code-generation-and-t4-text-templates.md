@@ -52,7 +52,7 @@ For more information, see [Run-Time Text Generation with T4 Text Templates](../m
 
 ## Design time T4 text templates
 
-Design time tempaltes define part of the source code and other resources of your application. Typically you use several templates that read the data in a single input file or database, and generate some of your *.cs*, *.vb*, or other source files. Each template generates one file. They are executed within Visual Studio or MSBuild.
+Design time templates define part of the source code and other resources of your application. Typically you use several templates that read the data in a single input file or database, and generate some of your *.cs*, *.vb*, or other source files. Each template generates one file. They are executed within Visual Studio or MSBuild.
 
 For example, your input data could be an XML file of configuration data. Whenever you edit the XML file during development, the text templates regenerate part of the application code. One of the templates could resemble the following example:
 

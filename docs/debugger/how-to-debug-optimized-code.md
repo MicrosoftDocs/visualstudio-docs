@@ -78,7 +78,7 @@ ms.workload:
   
  When you debug optimized code, use the **Disassembly** window to see what instructions are actually created and executed. When you set breakpoints, you need to know that the breakpoint might move together with an instruction. For example, consider the following code:  
   
-```  
+```cpp
 for (x=0; x<10; x++)  
 ```  
   
