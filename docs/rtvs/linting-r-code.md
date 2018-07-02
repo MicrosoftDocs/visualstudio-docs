@@ -1,7 +1,7 @@
 ---
 title: Linting R code
 description: How to work with Visual Studio's build-in linting support for R, including linter options.
-ms.date: 01/15/2018
+ms.date: 07/02/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-rtvs
 ms.topic: conceptual
