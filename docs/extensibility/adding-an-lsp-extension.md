@@ -20,21 +20,21 @@ The Language Server Protocol (LSP) is a common protocol, in the form of JSON RPC
 
 ## Language Server Protocol
 
-For more information on the protocol itself, see the documentation [here](https://github.com/Microsoft/language-server-protocol). Visual Studio’s implementation of Language Server Protocol is in preview, and support should be considered experimental. The preview release is in the form of an extension ([Language Server Protocol Client Preview](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview)), **but this extension can only be installed on the preview channel of Visual Studio**. A later release of Visual Studio will include built-in support for Language Server Protocol, at which time the Preview flag will be dropped. **You should not use the preview for production purposes.**
-
-For more information on how to create a sample language server or how to integrate an existing language server into Visual Studio Code, see the documentation [here](https://code.visualstudio.com/docs/extensions/example-language-server).
-
 ![language server protocol implementation](media/lsp-implementation.png)
 
 This article describes how to create a Visual Studio extension that uses an LSP-based language server. It assumes that you have already developed an LSP-based language server and just want to integrate it into Visual Studio.
 
-For support within Visual Studio, language servers can communicate with the client (Visual Studio) via the following mechanisms:
+For support within Visual Studio, language servers can communicate with the client (Visual Studio) via any stream based transmission mechanism, i.e.:
 
 * Standard input/output streams
 * Named pipes
-* Sockets
+* Sockets (TCP only)
 
 The intent of the LSP and support for it in Visual Studio is to onboard language services that are not part of Visual Studio product. It is not intended to extend existing language services (like C#) in Visual Studio. To extend existing languages, refer to the language service’s extensibility guide (for example, the ["Roslyn" .NET Compiler Platform](../extensibility/dotnet-compiler-platform-roslyn-extensibility.md)).
+
+For more information on the protocol itself, see the documentation [here](https://github.com/Microsoft/language-server-protocol).
+
+For more information on how to create a sample language server or how to integrate an existing language server into Visual Studio Code, see the documentation [here](https://code.visualstudio.com/docs/extensions/example-language-server).
 
 ## Language Server Protocol features supported
 
@@ -70,7 +70,7 @@ completion/resolve | yes
 textDocument/hover | yes
 textDocument/signatureHelp | yes
 textDocument/references | yes
-textDocument/documentHighlight |
+textDocument/documentHighlight | yes
 textDocument/documentSymbol | yes
 textDocument/formatting | yes
 textDocument/rangeFormatting | yes
@@ -92,26 +92,6 @@ To create a language service extension using an LSP-based language server, first
 Next create a new blank VSIXProject by navigating to **File** > **New Project** > **Visual C#** > **Extensibility** > **VSIX Project**:
 
 ![create vsix project](media/lsp-vsix-project.png)
-
-For the preview release, VS support for the LSP will be in the form of a VSIX ([Microsoft.VisualStudio.LanguageServer.Client.Preview](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview)). Extension developers who wish to create an extension using LSP language servers must take a dependency on this VSIX. Therefore, customers wishing to install a language server extension **must first install the Language Server Protocol Client Preview VSIX.**
-
-To define the VSIX dependency, open the VSIX manifest designer for your VSIX (by double-clicking the source.extension.vsixmanifest file in your project) and navigate to **Dependencies**:
-
-![add reference to language server protocol client](media/lsp-reference-lsp-dependency.png)
-
-Create a new dependency like the following:
-
-![define language server protocol client dependency](media/lsp-define-lsp-dependency.png)
-
-* **Source**: Defined manually
-* **Name**: Language Server Protocol Client Preview
-* **Identifier**: Microsoft.VisualStudio.LanguageServer.Client.Preview
-* **Version Range**: [1.0,2.0)
-* **How is dependency resolved**: Installed by User
-* **Download URL**: [https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview)
-
-> [!NOTE]
-> The **Download URL** must be filled in so users installing your extension know how to install the required dependency.
 
 ### Language server and runtime installation
 
@@ -290,7 +270,7 @@ Adding support for LSP language servers does not require you to implement your o
 
 ### Settings
 
-Support for custom language-server-specific settings is available for Preview release of LSP support in Visual Studio, but it is still in the process of being improved. Settings are specific to what the language server supports and usually control how the language server emits data. For example, a language server might have a setting for the maximum number of errors reported. Extension authors would define a default value, which can be changed by users for specific projects.
+Support for custom language-server-specific settings is available, but it is still in the process of being improved. Settings are specific to what the language server supports and usually control how the language server emits data. For example, a language server might have a setting for the maximum number of errors reported. Extension authors would define a default value, which can be changed by users for specific projects.
 
 Follow these steps below to add support for settings to your LSP language service extension:
 
@@ -350,7 +330,7 @@ Diagnostics tracing can be enabled to output all messages between the client and
 
 ```json
 {
-    "foo.server.trace": "Off"
+    "foo.trace.server": "Off"
 }
 ```
 
