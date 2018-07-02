@@ -26,9 +26,6 @@
   items:
   - name: Analyze CPU usage
     href: cpu-usage.md
-    items:
-    - name: Analyze CPU usage in a Universal Windows App (UWP)
-      href: analyze-cpu-usage-in-a-windows-universal-app.md
   - name: Analyze memory usage
     href: analyze-memory-usage.md
     items:
@@ -44,16 +41,10 @@
     href: perftips.md
   - name: Analyze JavaScript memory
     href: javascript-memory.md
-    items:
-    - name: "Walkthrough: Find a memory leak (JavaScript)"
-      href: walkthrough-find-a-memory-leak-javascript.md
   - name: Analyze Network usage
     href: network-usage.md
   - name: Analyze HTML UI responsiveness
     href: html-ui-responsiveness.md
-    items:
-    - name: "Walkthrough: Improve UI responsiveness (HTML)"
-      href: walkthrough-improving-ui-responsiveness-html.md
   - name: Use Performance Explorer
     href: performance-explorer.md
     items:
