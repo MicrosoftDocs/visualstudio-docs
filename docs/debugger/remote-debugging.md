@@ -1,7 +1,7 @@
 ---
 title: "Remote debugging in Visual Studio | Microsoft Docs"
 ms.custom: "remotedebugging"
-ms.date: "05/21/2018"
+ms.date: "07/02/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
@@ -95,7 +95,7 @@ You can find the remote debugger (*msvsmon.exe*) on a computer with Visual Studi
 
 2. Share the **Remote Debugger** folder on the Visual Studio computer.
 
-3. On the remote computer, run *msvsmon.exe*. Follow the [setup instructions](#bkmk_setup).
+3. On the remote computer, run *msvsmon.exe* from the shared folder. Follow the [setup instructions](#bkmk_setup).
 
 > [!TIP] 
 > For command line installation and command line reference, see the Help page for *msvsmon.exe* by typing ``msvsmon.exe /?`` in the command line on the computer with Visual Studio installed (or go to **Help > Usage** in the remote debugger).
