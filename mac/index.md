@@ -41,12 +41,7 @@ F# is a strongly-typed functional programming language designed to run on .NET. 
 
 ## .NET Core
 
-[.NET Core](https://www.microsoft.com/net/core#macos) is a platform to create applications that run on Windows, Linux, and Mac. Visual Studio for Mac has support for these .NET Core projects: 
-
-* Load
-* Create
-* Run
-* Debug
+[.NET Core](https://www.microsoft.com/net/core#macos) is a platform to create applications that run on Windows, Linux, and Mac. Visual Studio for Mac has support to load, create, run, and debug .NET Core projects. 
 
 To run .NET Core projects, the .NET Core SDK should be downloaded and installed.
 
