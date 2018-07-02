@@ -42,17 +42,17 @@ For more information:
 
 ## Rich editing, IntelliSense, and code comprehension
 
-Visual Studio provides a first-class Python editor, including syntax coloring, auto-complete across all your code and libraries, code formatting, signature help, refactoring, linting (shown below), and type hints. Visual Studio also provides unique features like class view, Go to Definition, Find All References, and code snippets. Direct integration with the [Interactive Window](#interactive-window) helps you quickly develop Python code that's already saved in a file.
+Visual Studio provides a first-class Python editor, including syntax coloring, auto-complete across all your code and libraries, code formatting, signature help, refactoring, linting, and type hints. Visual Studio also provides unique features like class view, Go to Definition, Find All References, and code snippets. Direct integration with the [Interactive Window](#interactive-window) helps you quickly develop Python code that's already saved in a file.
 
 ![Code completions for Python code in Visual Studio](media/code-editing-completions-simple.png)
 
 For more information:
 
 - Video (2m 30s): [Editing Python code](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=r2iQH5LWE_4605918567)
-- Docs: [Editing Python code](editing-python-code-in-visual-studio.md)
-- Docs: [Code formatting](formatting-python-code.md)
-- Docs: [Refactoring](refactoring-python-code.md)
-- Docs: [Linting](linting-python-code.md)
+- Docs: [Edit Python code](editing-python-code-in-visual-studio.md)
+- Docs: [Format code](formatting-python-code.md)
+- Docs: [Refactor code](refactoring-python-code.md)
+- Docs: [Use a linter](linting-python-code.md)
 - General Visual Studio feature docs: [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
 
 ## Interactive Window
