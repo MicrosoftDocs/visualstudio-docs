@@ -1,7 +1,7 @@
 ---
 title: Selecting a Python interpreter and environment for a project
 description: How to assign the Python environment to use for a Visual Studio project, plus instructions on creating virtual environments.
-ms.date: 03/21/2018
+ms.date: 06/27/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual

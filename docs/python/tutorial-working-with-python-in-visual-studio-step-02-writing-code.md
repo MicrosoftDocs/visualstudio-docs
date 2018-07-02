@@ -1,7 +1,7 @@
 ---
 title: Working with Python Tutorial, Step 2, writing and running code
 description: Step 2 of a core walkthrough of Python capabilities in Visual Studio, including editing code and running a project.
-ms.date: 01/16/2018
+ms.date: 06/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -13,9 +13,9 @@ ms.workload:
   - data-science
 ---
 
-# Step 2: Writing and running code
+# Step 2: Write and run code
 
-**Previous step: [Creating a new Python project](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)**
+**Previous step: [Create a new Python project](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)**
 
 Although Solution Explorer is where you manage project files, the *editor* window is typically where you work with the *contents* of files, like source code. The editor is contextually aware of the type of file you're editing, including the programming language (based on the file extension), and offers features appropriate to that language such as syntax coloring and auto-completion using IntelliSense.
 
@@ -86,9 +86,9 @@ Although Solution Explorer is where you manage project files, the *editor* windo
 > [!div class="nextstepaction"]
 > [Using the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)
 
-## Going deeper
+## Go deeper
 
-- [Editing code](editing-python-code-in-visual-studio.md)
-- [Formatting code](formatting-python-code.md)
-- [Refactoring code](refactoring-python-code.md)
-- [Using PyLint](linting-python-code.md)
+- [Edit code](editing-python-code-in-visual-studio.md)
+- [Format code](formatting-python-code.md)
+- [Refactor code](refactoring-python-code.md)
+- [Use PyLint](linting-python-code.md)

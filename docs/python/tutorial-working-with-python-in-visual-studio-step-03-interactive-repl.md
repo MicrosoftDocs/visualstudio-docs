@@ -1,7 +1,7 @@
 ---
 title: Working with Python Tutorial, Step 3, the interactive REPL
 description: Step 3 of a core walkthrough of Python capabilities in Visual Studio, covering the Python Interactive REPL window.
-ms.date: 01/16/2018
+ms.date: 06/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Step 3: Using the interactive REPL window
+# Step 3: Use the interactive REPL window
 
 **Previous step: [Writing and running code](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)**
 
@@ -90,7 +90,7 @@ The Visual Studio *interactive window* for Python provides a rich read-evaluate-
 > [!div class="nextstepaction"]
 > [Running code in the debugger](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)
 
-## Going deeper
+## Go deeper
 
 - [Using the Interactive Window](python-interactive-repl-in-visual-studio.md)
 - [Using IPython REPL](interactive-repl-ipython.md)

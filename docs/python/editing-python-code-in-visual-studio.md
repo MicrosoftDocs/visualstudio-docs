@@ -219,4 +219,4 @@ Double-clicking any name, or selecting with arrow keys and Enter, navigates to t
 
 - [Formatting](formatting-python-code.md)
 - [Refactoring](refactoring-python-code.md)
-- [Linting](linting-python-code.md)
+- [Use a linter](linting-python-code.md)

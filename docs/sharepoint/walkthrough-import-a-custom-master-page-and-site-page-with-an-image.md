@@ -33,7 +33,7 @@ ms.workload:
 ## Prerequisites  
  You must have the following components to complete this walkthrough:  
   
--   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
   
 -   Visual Studio.  
   
@@ -171,10 +171,10 @@ ms.workload:
   
 7.  Open the SharePoint site to view the deployed items.  
   
- An alternative way to import files into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and deploy them to SharePoint is to add the files into modules in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [How to: Import a Master Page or Theme](../sharepoint/how-to-import-a-master-page-or-theme.md) and [Using Modules to Include Files in the Solution](../sharepoint/using-modules-to-include-files-in-the-solution.md).  
+ An alternative way to import files into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and deploy them to SharePoint is to add the files into modules in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [How to: Import a master page or theme](../sharepoint/how-to-import-a-master-page-or-theme.md) and [Use modules to include files in the Solution](../sharepoint/using-modules-to-include-files-in-the-solution.md).  
   
 ## See also
- [Importing Items from an Existing SharePoint Site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)   
- [Creating Reusable Controls for Web Parts or Application Pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)  
+ [Importing items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
+ [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)   
+ [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)  
   

@@ -53,7 +53,7 @@ ms.workload:
  There are three areas you typically localize in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint applications: features, ASPX page markup, and code. For purposes of illustration, the following sections assume you have a SharePoint solution that you want to localize into German and Japanese. The default language is English.  
   
 ### Localize features
- To localize a feature, you have to replace the hard-coded title and description of the feature with an expression that references the translated title and string in the localized resources file. You make this change in the **Feature Designer** in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information, see [How to: Localize a Feature](../sharepoint/how-to-localize-a-feature.md).  
+ To localize a feature, you have to replace the hard-coded title and description of the feature with an expression that references the translated title and string in the localized resources file. You make this change in the **Feature Designer** in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information, see [How to: Localize a feature](../sharepoint/how-to-localize-a-feature.md).  
   
  To localize your English feature into German and Japanese, you add three Resource File project items to your project: one for English, one for German, and one for Japanese. Feature resource files cannot be used to localize ASPX markup or code; separate resource files are required for them.  
   
@@ -103,7 +103,7 @@ $Resources:String ID
 <asp:literal ID="Literal1" runat="server" Text="<%$Resources:Resource1, String9%>" />  
 ```  
   
- For more information, see [How to: Localize ASPX Markup](../sharepoint/how-to-localize-aspx-markup.md).  
+ For more information, see [How to: Localize ASPX markup](../sharepoint/how-to-localize-aspx-markup.md).  
   
 ### Localize code
  In addition to localizing Feature strings and [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] markup, you also have to localize the message strings and error strings that appear in your solution code. Localized informational and error messages are contained in satellite assemblies. Satellite assemblies contain strings that are visible to users, such as [!INCLUDE[TLA2#tla_ui](../sharepoint/includes/tla2sharptla-ui-md.md)] text and output messages like exceptions.  
@@ -120,7 +120,7 @@ $Resources:String ID
 HttpContext.GetGlobalResourceObject("<Resource File Name>", "<String ID>")  
 ```  
   
- For more information, see [How to: Localize Code](../sharepoint/how-to-localize-code.md).  
+ For more information, see [How to: Localize code](../sharepoint/how-to-localize-code.md).  
   
 #### Web part code localization
  Web parts include a custom property editor feature that includes code attributes that use hard-coded strings, such as WebDisplayName, Category, and WebDescription. To replace the string values for these attributes, create a separate class that derives from the attribute's class. In those classes, set the attribute's property. The attribute property depends on the base class. For example, the WebDisplayName attribute property is DisplayNameValue and the WebDescription attribute property is DescriptionValue.  
@@ -128,9 +128,9 @@ HttpContext.GetGlobalResourceObject("<Resource File Name>", "<String ID>")
  In the derived class, reference the string ID from the resource file and the ResourceManager object to get the localized value for the string ID. Return this value to the property editor attribute.  
   
 ## See also
- [How to: Localize a Feature](../sharepoint/how-to-localize-a-feature.md)   
- [How to: Localize ASPX Markup](../sharepoint/how-to-localize-aspx-markup.md)   
- [How to: Localize Code](../sharepoint/how-to-localize-code.md)   
- [How to: Add a Resource File](../sharepoint/how-to-add-a-resource-file.md)   
- [How to: Use a Resource File to Specify Localized Names, Properties, and Permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md)  
+ [How to: Localize a feature](../sharepoint/how-to-localize-a-feature.md)   
+ [How to: Localize ASPX markup](../sharepoint/how-to-localize-aspx-markup.md)   
+ [How to: Localize code](../sharepoint/how-to-localize-code.md)   
+ [How to: Add a resource file](../sharepoint/how-to-add-a-resource-file.md)   
+ [How to: Use a resource file to specify localized names, properties, and permissions](../sharepoint/how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md)  
   

@@ -40,7 +40,7 @@ This section describes how to add an image to your Visual Studio project and con
 
 ### To add an image to your project
 
-1.  In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add**, **New Item**.
+1.  In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add** > **New Item**.
 
 2.  In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select an appropriate file format for the image. For information about how to choose a file format based on your requirements, see the following section.
 

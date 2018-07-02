@@ -1,7 +1,7 @@
 ---
 title: Azure remote debugging with Python
 description: How to configure an Azure App Service to use Visual Studio for remote debugging of a Python application.
-ms.date: 07/12/2017
+ms.date: 06/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
