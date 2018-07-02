@@ -88,16 +88,16 @@
       href: search-paths.md
     - name: Environment window reference
       href: python-environments-window-tab-reference.md
-  - name: Editing code
+  - name: Edit Python code
     href: editing-python-code-in-visual-studio.md
     items:
-    - name: Formatting code
+    - name: Format code
       href: formatting-python-code.md
-    - name: Refactoring code
+    - name: Refactor code
       href: refactoring-python-code.md
-    - name: Using PyLint
+    - name: Use PyLint
       href: linting-python-code.md
-  - name: Defining custom menu commands
+  - name: Define custom menu commands
     href: defining-custom-python-project-commands.md
   - name: Interactive Python (REPL)
     href: python-interactive-repl-in-visual-studio.md
