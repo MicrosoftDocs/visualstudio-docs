@@ -21,11 +21,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# CSC task
+# Csc task
 Wraps *csc.exe*, and produces executables (*.exe* files), dynamic-link libraries (*.dll* files), or code modules (*.netmodule* files). For more information about *csc.exe*, see [C# compiler options](/dotnet/csharp/language-reference/compiler-options/index).  
   
 ## Parameters  
- The following table describes the parameters of the `CSC` task.  
+ The following table describes the parameters of the `Csc` task.  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -61,7 +61,7 @@ Wraps *csc.exe*, and produces executables (*.exe* files), dynamic-link libraries
 |`OutputRefAssembly`|Optional `String` parameter.<br /><br /> Specifies the name of the output reference assembly file. For more information, see [-refout (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/refout-compiler-option).|  
 |`PdbFile`|Optional `String` parameter.<br /><br /> Specifies the debug information file name. The default name is the output file name with a .pdb extension.|  
 |`Platform`|Optional `String` parameter.<br /><br /> Specifies the processor platform to be targeted by the output file. This parameter can have a value of `x86`, `x64`, or `anycpu`. Default is `anycpu`. For more information, see [-platform (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/platform-compiler-option).|  
-|`References`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Causes the task to import public type information from the specified items into the current project. For more information, see [-reference (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/reference-compiler-option).<br /><br /> You can specify a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] reference alias in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] file by adding the metadata `Aliases` to the original "Reference" item. For example, to set the alias "LS1" in the following CSC command line:<br /><br /> `CSC /r:LS1=MyCodeLibrary.dll /r:LS2=MyCodeLibrary2.dll *.cs`<br /><br /> you would use:<br /><br /> `<Reference Include="MyCodeLibrary"> <Aliases>LS1</Aliases> </Reference>`|  
+|`References`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Causes the task to import public type information from the specified items into the current project. For more information, see [-reference (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/reference-compiler-option).<br /><br /> You can specify a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] reference alias in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] file by adding the metadata `Aliases` to the original "Reference" item. For example, to set the alias "LS1" in the following Csc command line:<br /><br /> `CSC /r:LS1=MyCodeLibrary.dll /r:LS2=MyCodeLibrary2.dll *.cs`<br /><br /> you would use:<br /><br /> `<Reference Include="MyCodeLibrary"> <Aliases>LS1</Aliases> </Reference>`|  
 |`Resources`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Embeds a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] resource into the output file.<br /><br /> Items passed into this parameter can have optional metadata entries named `LogicalName` and `Access`. `LogicalName` corresponds to the `identifier` parameter of the `/resource` switch, and `Access` corresponds to `accessibility-modifier` parameter. For more information, see [-resource (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/resource-compiler-option).|  
 |`ResponseFiles`|Optional `String` parameter.<br /><br /> Specifies the response file that contains commands for this task. For more information, see [@ (Specify response file)](/dotnet/csharp/language-reference/compiler-options/response-file-compiler-option).|  
 |`Sources`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies one or more [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] source files.|  
@@ -80,7 +80,7 @@ Wraps *csc.exe*, and produces executables (*.exe* files), dynamic-link libraries
  In addition to the parameters listed above, this task inherits parameters from the `Microsoft.Build.Tasks.ManagedCompiler` class, which inherits from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).  
   
 ## Example  
- The following example uses the `CSC` task to compile an executable from the source files in the `Compile` item collection.  
+ The following example uses the `Csc` task to compile an executable from the source files in the `Compile` item collection.  
   
 ```xml  
 <CSC  
