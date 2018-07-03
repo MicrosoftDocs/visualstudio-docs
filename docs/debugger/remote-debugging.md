@@ -46,7 +46,7 @@ If you just want to download and install the remote debugger and don't need any 
 
 The default security settings in Internet Explorer on Windows Server can make it time-consuming to download components such as the remote tools.
 
-* Enhanced Security Configuration is enabled on Internet Explorer, which prevents you from opening websites and accessing web resources unless the domain containing the resource is explicitly allowed (that is, trusted).
+* Enhanced Security Configuration is enabled on Internet Explorer, which prevents you from opening websites and accessing web resources unless the domain containing the resource is explicitly allowed (that is, trusted). Although you can disable this setting, we do not recommend it because it can presents a security risk.
 
 * On Windows Server 2016, a default setting in **Internet Options** > **Security** > **Internet** > **Custom Level** > **Downloads** also disables file downloads. If you choose to download the remote tools directly on Windows Server, you must enable file download.
 
