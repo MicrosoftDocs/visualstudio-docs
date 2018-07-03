@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting and Known Issues (Visual Studio Tools for Unity) | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/29/2018"
+ms.date: "07/03/2018"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: 8f5db192-8d78-4627-bd07-dbbc803ac554
