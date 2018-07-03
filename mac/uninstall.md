@@ -22,7 +22,7 @@ If you have previously had Xamarin Studio installed on your machine, you may als
 There are two scripts that can be used to uninstall Visual Studio for Mac and all  components for your machine:
 
 - [Visual Studio and Xamarin script](#visual-studio-for-mac-and-xamarin-script)
-- [.NET Core](#net-core-script)
+- [.NET Core script](#net-core-script)
 
 The following sections provide information on downloading and using the scripts.
 
