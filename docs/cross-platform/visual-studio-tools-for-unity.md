@@ -45,3 +45,7 @@ Visual Studio Tools for Unity supports the robust [debugging](using-visual-studi
 ### Visual Studio for Mac Tools for Unity
 
 Visual Studio for Mac also supports Unity projects. For more information, see the [Visual Studio for Mac Tools for Unity documentation](https://docs.microsoft.com/en-us/visualstudio/mac/unity-tools).
+
+## Next steps
+
+* [Getting started with Visual Studio Tools for Unity](getting-started-with-visual-studio-tools-for-unity.md)
