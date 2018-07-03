@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Emulator for Android | Microsoft Docs"
 ms.custom: ""
-ms.date: 07/03/2018"07/17/2017"
+ms.date: "07/03/2018"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 ms.assetid: 80f0104f-a4db-44dd-bd55-37bb67776c62
@@ -18,9 +18,9 @@ The Visual Studio Emulator for Android is a desktop application that emulates an
 > [!IMPORTANT]
 > In most scenarios, the Google Android emulator is recommended for use instead of the Visual Studio Emulator for Android:
 > - Visual Studio Emulator for Android is not supported after Visual Studio 2015.
-> - Emulator images past Android version 6.0 are not available for Visual Studio Emulator for Android.
-> - The Google Android Emulator now supports [Hyper-V](https://docs.microsoft.com/en-us/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?tabs=vswin#hyper-v) (the underlying virtualization technology that was used by the Visual Studio Emulator for Android).
-> - Visual Studio Tools for Apache Cordova works with the Google Android Emulator. For more information, see [Run your Apache Cordova app on Android](/visualstudio/cross-platform/tools-for-cordova/run-your-app/run-app-android#a-idgoogle-android-emulatora-run-on-the-google-android-emulator) (Note that you no longer have to disable Hyper-V as explained in this article.)
+> - Emulator images later than Android version 6.0 are not available for Visual Studio Emulator for Android.
+> - The Google Android Emulator now supports [Hyper-V](https://docs.microsoft.com/en-us/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?tabs=vswin#hyper-v) (the underlying virtualization technology used by the Visual Studio Emulator for Android).
+> - Visual Studio Tools for Apache Cordova works with the Google Android Emulator. For more information, see [Run your Apache Cordova app on Android](/visualstudio/cross-platform/tools-for-cordova/run-your-app/run-app-android#a-idgoogle-android-emulatora-run-on-the-google-android-emulator) (note that you no longer have to disable Hyper-V as explained in this article).
 >
 > For more information about configuring and using the Google Android Emulator, see
 > [Android Emulator Setup](https://docs.microsoft.com/en-us/xamarin/android/get-started/installation/android-emulator/).
