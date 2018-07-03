@@ -35,7 +35,7 @@ During installation, ensure that Visual Studio is checked in the list of compone
 
 The version of Visual Studio included with your Unity installation may not be the latest. It is recommended to check for updates to ensure you have access to the latest tools and features.
 
-- [Updating Visual Studio](~/docs/install/update-visual-studio.md)
+- [Updating Visual Studio](../install/update-visual-studio.md)
 
 ### Manual Installation
 

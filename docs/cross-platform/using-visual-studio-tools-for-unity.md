@@ -121,7 +121,7 @@ To create empty MonoBehavior method definitions with the MonoBehavior wizard:
 
   ![Click Stop in Visual Studio](media/vstu_stop-debugger.png)
 
-To learn more about debugging in Visual Studio, see [First look at the Visual Studio Debugger](~/docs/debugger/debugger-feature-tour.md).
+To learn more about debugging in Visual Studio, see [First look at the Visual Studio Debugger](../debugger/debugger-feature-tour.md).
 
 #### Attach to Unity and Play
 
