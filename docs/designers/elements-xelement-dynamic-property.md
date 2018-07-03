@@ -20,7 +20,7 @@ Gets an indexer used to retrieve the child elements of the current element that 
 
 ## Syntax
 
-```
+```csharp
 elem.Elements[{namespaceName}localName]
 ```
 

@@ -17,7 +17,7 @@ Gets or sets the content of the element.
 
 ## Syntax
 
-```
+```xml
 elem.Value
 ```
 
