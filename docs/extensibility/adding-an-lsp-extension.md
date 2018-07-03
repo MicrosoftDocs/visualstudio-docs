@@ -24,7 +24,7 @@ The Language Server Protocol (LSP) is a common protocol, in the form of JSON RPC
 
 This article describes how to create a Visual Studio extension that uses an LSP-based language server. It assumes that you have already developed an LSP-based language server and just want to integrate it into Visual Studio.
 
-For support within Visual Studio, language servers can communicate with the client (Visual Studio) via any stream based transmission mechanism, i.e.:
+For support within Visual Studio, language servers can communicate with the client (Visual Studio) via any stream based transmission mechanism, for example:
 
 * Standard input/output streams
 * Named pipes
@@ -86,7 +86,7 @@ textDocument/rename | yes
 ## Getting Started
 
 > [!NOTE]
-> Starting with Visual Studio 15.8 Preview 3, support for the common language server protocol is built into Visual Studio.  If you've built LSP extensions using our preview [Language Server Client VSIX](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview) version, they will stop working once to you've upgraded to 15.8 Preview 3 or higher.  You will need to do the following to get your LSP extensions working again:
+> Starting with Visual Studio 15.8 Preview 3, support for the common Language Server Protocol is built into Visual Studio.  If you've built LSP extensions using our preview [Language Server Client VSIX](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview) version, they will stop working once to you've upgraded to 15.8 Preview 3 or higher.  You will need to do the following to get your LSP extensions working again:
 >
 > 1. Uninstall the Microsoft Visual Studio Language Server Protocol Preview VSIX.  Starting with 15.8 Preview 4, every time you perform an upgrade in Visual Studio, we will automatically detect and remove the preview VSIX for you during the upgrade process.
 >
@@ -356,7 +356,7 @@ When tracing is turned on the content is written to a file in the "%temp%\Visual
 
 ### Custom messages
 
-There are APIs in place to facilitate passing messages to and receiving messages from the language server that are not part of the standard language server protocol. To handle custom messages, implement [ILanguageClientCustomMessage](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage?view=visualstudiosdk-2017) interface in your language client class. [VS-StreamJsonRpc](https://github.com/Microsoft/vs-streamjsonrpc/blob/master/doc/index.md) library is used to transmit custom messages between your language client and language server. Since your LSP language client extension is just like any other Visual Studio extension, you can decide to add additional features (that are not supported by the LSP) to Visual Studio (using other Visual Studio APIs) in your extension through custom messages.
+There are APIs in place to facilitate passing messages to and receiving messages from the language server that are not part of the standard Language Server Protocol. To handle custom messages, implement [ILanguageClientCustomMessage](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage?view=visualstudiosdk-2017) interface in your language client class. [VS-StreamJsonRpc](https://github.com/Microsoft/vs-streamjsonrpc/blob/master/doc/index.md) library is used to transmit custom messages between your language client and language server. Since your LSP language client extension is just like any other Visual Studio extension, you can decide to add additional features (that are not supported by the LSP) to Visual Studio (using other Visual Studio APIs) in your extension through custom messages.
 
 #### Receiving custom messages
 
