@@ -103,10 +103,8 @@
     - name: Edit and Continue (Visual Basic)
       href: edit-and-continue-visual-basic.md
       items:
-      - name: apply edits in break mode with Edit and Continue
+      - name: Apply edits in break mode with Edit and Continue
         href: how-to-apply-edits-in-break-mode-with-edit-and-continue.md
-      - name: Unsupported edits in Visual Basic Edit and Continue
-        href: unsupported-edits-in-visual-basic-edit-and-continue.md
     - name: Edit and Continue not supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
   - name: View debugger data

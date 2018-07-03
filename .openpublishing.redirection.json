@@ -132,7 +132,7 @@
         },
         {
             "source_path": "docs/code-quality/index.md",
-            "redirect_url": "/visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
             "redirect_document_id": false
         },
         {
@@ -887,7 +887,7 @@
         },
         {
             "source_path": "docs/ide/adding-and-removing-project-items.md",
-            "redirect_url": "/visualstudio/ide/creating-solutions-and-projects/",
+            "redirect_url": "/visualstudio/ide/creating-solutions-and-projects",
             "redirect_document_id": false
         },
         {
@@ -2021,7 +2021,7 @@
         },
         {
             "source_path": "docs/test/analyze-the-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md",
-            "redirect_url": "/visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
             "redirect_document_id": false
         },
         {
@@ -2116,7 +2116,7 @@
         },
         {
             "source_path": "docs/test/troubleshooting-code-analysis-issues.md",
-            "redirect_url": "/visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
             "redirect_document_id": false
         },
         {
@@ -2126,7 +2126,7 @@
         },
         {
             "source_path": "docs/test/troubleshooting-quality-tools.md",
-            "redirect_url": "/visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools",
+            "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-overview",
             "redirect_document_id": false
         },
         {

@@ -12,7 +12,7 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: Debugging Rendering Errors Due to Shading
-This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics to investigate an object that is colored incorrectly due to a shader bug.  
+This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics to investigate an object that is colored incorrectly because of a shader bug.  
   
  This walkthrough demonstrates how to:  
   
@@ -25,7 +25,7 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../../code-quality/in
 ## Scenario  
  Incorrect coloring on objects commonly occurs when a vertex shader passes a pixel shader incorrect or incomplete information.  
   
- In this scenario, you recently added an object to your app, along with new vertex and pixel shaders to transform the object and give it a unique appearance. When you run the app during a test, the object is rendered in solid black. By using Graphics Diagnostics, you capture the problem to a graphics log so that you can debug the app. The problem looks like this in the app:  
+ In this scenario, you recently added an object to your app. You also added a new vertex and pixel shaders to transform the object and give it a unique appearance. When you run the app during a test, the object is rendered in solid black. By using Graphics Diagnostics, you capture the problem to a graphics log so that you can debug the app. The problem looks like this image in the app:  
   
  ![The object is rendered with incorrect colors.](media/gfx_diag_demo_render_error_shader_problem.png "gfx_diag_demo_render_error_shader_problem")  
   
@@ -33,10 +33,10 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../../code-quality/in
  By using the Graphics Diagnostics tools, you can load the graphics log document to inspect the frames that were captured during the test.  
   
 #### To examine a frame in a graphics log  
+   
+1.  In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], load a graphics log that has a frame that shows the missing model. A new graphic log document window appears in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. In the top part of this window is the render target output of the selected frame. In the bottom part is the **Frame List**, which displays each captured frame as a thumbnail image.  
   
-1.  In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], load a graphics log that contains a frame that exhibits the missing model. A new graphics log document window appears in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. In the top part of this window is the render target output of the selected frame. In the bottom part is the **Frame List**, which displays each captured frame as a thumbnail image.  
-  
-2.  In the **Frame List**, select a frame in which the object does not have the correct appearance. The render target is updated to reflect the selected frame. In this scenario, the graphics log document window looks like this:  
+2.  In the **Frame List**, select a frame in which the object doesn't have the correct appearance. The render target is updated to reflect the selected frame. In this scenario, the graphics log document window looks like this image:  
   
      ![The graphics log document in Visual Studio.](media/gfx_diag_demo_render_error_shader_step_1.png "gfx_diag_demo_render_error_shader_step_1")  
   
@@ -46,7 +46,7 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../../code-quality/in
   
 1.  Open the **Graphics Pixel History** window. On the **Graphics Diagnostics** toolbar, choose **Pixel History**.  
   
-2.  Select a pixel to examine. On the graphics log document window , select one of the pixels on the object that is incorrectly colored:  
+2.  Select a pixel to examine. On the graphics log document window, select one of the pixels on the object that is incorrectly colored:  
   
      ![Selecting a pixel displays info about its history.](media/gfx_diag_demo_render_error_shader_step_2.png "gfx_diag_demo_render_error_shader_step_2")  
   
@@ -54,9 +54,9 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../../code-quality/in
   
      ![The pixel history shows one DrawIndexed event.](media/gfx_diag_demo_render_error_shader_step_3.png "gfx_diag_demo_render_error_shader_step_3")  
   
-     Notice that the pixel shader's result is fully-opaque black (0, 0, 0, 1), and that the **Output Merger** combined this with the **Previous** color of the pixel in such a way that the **Result** is also fully-opaque black.  
+     Notice that the pixel shader's result is fully opaque black (0, 0, 0, 1), and that the **Output Merger** combined this pixel shader with the **Previous** color of the pixel in such a way that the **Result** is also fully-opaque black.  
   
- After you examine a pixel that is incorrectly colored and discover that the pixel shader output is not the expected color, you can use the HLSL Debugger to examine the pixel shader and find out what happened to the object's color. You can use the HLSL Debugger to examine the state of HLSL variables during execution, step through the HLSL code, and set breakpoints to help you diagnose the problem.  
+ After you examine a pixel that is incorrectly colored and discover the pixel shader output is not the expected color, you can use the HLSL Debugger to examine the pixel shader and find out what happened to the object's color. You can use the HLSL Debugger to examine the state of HLSL variables during execution, step through the HLSL code, and set breakpoints to help you diagnose the problem.  
   
 #### To examine the pixel shader  
   
@@ -84,7 +84,7 @@ This walkthrough demonstrates how to use [!INCLUDE[vsprvs](../../code-quality/in
   
  After you determine that the cause of the rendering issue is that the vertex shader does not provide the correct color value to the pixel shader, you can use this information to fix the problem. In this scenario, you can fix it by changing the following code in the vertex shader  
   
-```  
+```hlsl  
 output.color = float3(0.0f, 0.0f, 0.0f);  
 ```  
   
