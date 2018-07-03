@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, store"
 ms.assetid: 0178db2e-ae99-4ed3-9b87-8620fa9fa8e4
 caps.latest.revision: 19
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Debugging by Using the Store Viewer

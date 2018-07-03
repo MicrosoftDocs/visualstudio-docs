@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "activities, adding to workflow projects"
 ms.assetid: 130cd83d-942d-437b-bbb5-8088ec0a6d79
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Add a New Item to a Workflow Project (Legacy)

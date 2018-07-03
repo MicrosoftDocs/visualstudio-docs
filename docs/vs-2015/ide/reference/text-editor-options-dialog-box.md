@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "editor settings"
 ms.assetid: 90d4e522-6391-4571-927d-b466a9766342
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Text Editor Options Dialog Box

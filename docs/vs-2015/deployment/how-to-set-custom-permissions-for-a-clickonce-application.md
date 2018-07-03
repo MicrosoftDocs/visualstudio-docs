@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "permissions, ClickOnce applications"
 ms.assetid: 660459ca-ef73-44a8-b323-610001f63b93
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Set Custom Permissions for a ClickOnce Application

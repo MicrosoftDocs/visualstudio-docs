@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "MSBuild, msbuild.exe"
 ms.assetid: f46feb9b-4c16-4fec-b6e1-36a959692ba3
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Build Specific Targets in Solutions By Using MSBuild.exe

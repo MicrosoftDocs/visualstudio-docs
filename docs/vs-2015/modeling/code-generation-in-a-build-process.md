@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "text templates, transforming by using msbuild"
 ms.assetid: 4da43429-2a11-4d7e-b2e0-9e4af7033b5a
 caps.latest.revision: 30
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Code Generation in a Build Process

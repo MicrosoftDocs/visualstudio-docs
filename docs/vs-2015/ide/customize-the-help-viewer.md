@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Viewer Options [Help Viewer 2.0]"
 ms.assetid: 9c0bc950-7323-4f0f-8de2-0b0af9a42b85
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Customize the Help Viewer

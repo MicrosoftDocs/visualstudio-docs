@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "activity views"
 ms.assetid: 83dc68cd-2cb2-45c2-9a6e-10d82053171a
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Activity Views (Legacy)

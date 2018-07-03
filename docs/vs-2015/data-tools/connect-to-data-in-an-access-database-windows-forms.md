@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "Access databases, connecting"
 ms.assetid: 4159e815-d430-4ad0-a234-e4125fcbef18
 caps.latest.revision: 32
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Connect to data in an Access database (Windows Forms)

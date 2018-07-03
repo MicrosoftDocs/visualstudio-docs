@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "coded UI tests, best practices"
 ms.assetid: d5aef766-a24c-4f1f-ac9b-e5462b6627d4
 caps.latest.revision: 41
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Best Practices for Coded UI Tests

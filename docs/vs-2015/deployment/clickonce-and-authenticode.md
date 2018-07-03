@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, security"
 ms.assetid: ab5b6712-f32a-4e33-842f-e88ab4818ccf
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # ClickOnce and Authenticode

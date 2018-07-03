@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, toolbox"
 ms.assetid: 2a0d03d7-ebc6-4458-b9f4-d2cb8418a62d
 caps.latest.revision: 28
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Customizing Tools and the Toolbox

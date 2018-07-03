@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, custom attrributes"
 ms.assetid: b3db3c74-920c-4701-9544-6f75cbe8b7c9
 caps.latest.revision: 21
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # How to: Set CLR Attributes on an Element

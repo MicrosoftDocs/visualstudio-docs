@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Rule Condition Editor dialog box"
 ms.assetid: 804b6129-c433-408f-a424-46987967730c
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Create a Declarative Rule Condition (Legacy)

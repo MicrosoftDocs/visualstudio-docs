@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "project item templates, metadata files"
 ms.assetid: 77bc53d4-d607-4820-a032-7e3b365891b5
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Create Item Templates

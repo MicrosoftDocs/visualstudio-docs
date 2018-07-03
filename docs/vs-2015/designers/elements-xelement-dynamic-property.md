@@ -15,8 +15,8 @@ api_type:
   - "Assembly"
 ms.assetid: 3d5737f2-d2ed-410a-821c-349dbb2b574f
 caps.latest.revision: 4
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Elements (XElement Dynamic Property)

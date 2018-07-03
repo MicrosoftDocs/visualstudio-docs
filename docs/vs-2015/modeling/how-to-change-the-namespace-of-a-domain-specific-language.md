@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, namespace"
 ms.assetid: f20c47e5-230d-4f0e-812f-5c6edb86866c
 caps.latest.revision: 21
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # How to: Change the Namespace of a Domain-Specific Language

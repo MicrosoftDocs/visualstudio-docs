@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, providing overridable classes"
 ms.assetid: 30baa60d-a8ea-4611-96c1-8fcc3317cf21
 caps.latest.revision: 17
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Overriding and Extending the Generated Classes

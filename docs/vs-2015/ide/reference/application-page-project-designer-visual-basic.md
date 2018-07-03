@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Application page in Project Designer"
 ms.assetid: 8cec9fea-cd92-47ff-88dd-7c928f0b4a74
 caps.latest.revision: 68
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Application Page, Project Designer (Visual Basic)

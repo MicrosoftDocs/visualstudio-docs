@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "updateconfiguration Devenv switch"
 ms.assetid: 9a1084cc-8b68-4ccc-aaea-f95939164338
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # /Updateconfiguration (devenv.exe)

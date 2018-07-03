@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "notation, association"
 ms.assetid: 65881c5a-d251-4a36-ad0d-73d088436092
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Change Between Member Notation and Association Notation (Class Designer)

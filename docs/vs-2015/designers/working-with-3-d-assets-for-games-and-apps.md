@@ -13,8 +13,8 @@ f1_keywords:
   - "vs.graphics"
 ms.assetid: 910d673b-c884-4eeb-9928-0e89f3d38cb6
 caps.latest.revision: 26
-author: "BrianPeek"
-ms.author: "brpeek"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Working with 3-D Assets for Games and Apps

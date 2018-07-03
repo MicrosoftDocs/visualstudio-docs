@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "sequential workflows, views"
 ms.assetid: 135f24b9-1b37-442b-9ef8-f0f2108a3212
 caps.latest.revision: 7
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Sequential Workflow Views (Legacy)

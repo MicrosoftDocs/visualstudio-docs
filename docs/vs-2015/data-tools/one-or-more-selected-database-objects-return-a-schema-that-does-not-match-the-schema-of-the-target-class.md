@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3794e88b-4d3d-4e7a-ade6-8208eabe3eae
 caps.latest.revision: 7
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # One or more selected database objects return a schema that does not match the schema of the target class

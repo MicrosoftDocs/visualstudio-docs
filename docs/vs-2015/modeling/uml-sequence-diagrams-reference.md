@@ -20,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: 366fc324-aeeb-4894-bd13-ec2e40754b8e
 caps.latest.revision: 43
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # UML Sequence Diagrams: Reference

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "data [Visual Studio], Data Sources window"
 ms.assetid: 20597ff8-0c98-43ec-8fb1-05376804ba48
 caps.latest.revision: 34
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Set the control to be created when dragging from the Data Sources window

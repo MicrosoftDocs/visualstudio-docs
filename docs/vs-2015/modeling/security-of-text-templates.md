@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "text templates, security"
 ms.assetid: 567a2383-7d43-4acc-af4a-cd70b7a0151e
 caps.latest.revision: 25
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Security of Text Templates

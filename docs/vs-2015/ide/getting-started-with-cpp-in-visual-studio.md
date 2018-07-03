@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 ms.assetid: 99c73344-86ba-4b08-9e15-f6111cc04185
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Getting Started with C++ in Visual Studio

@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "ClickOnce install mode"
 ms.assetid: 0aee5fc1-e966-4bda-9b8f-d9997aeaa779
 caps.latest.revision: 10
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Specify the ClickOnce Offline or Online Install Mode

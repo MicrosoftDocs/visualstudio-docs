@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "publishing, ClickOnce"
 ms.assetid: 686ab88a-6305-4914-a05b-fe269cc0ae1e
 caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Automatically Increment the ClickOnce Publish Version

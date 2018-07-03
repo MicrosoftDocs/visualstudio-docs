@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "walkthroughs [text templates]"
 ms.assetid: 24602ade-baca-425e-a6ce-be09a2c7f7e1
 caps.latest.revision: 13
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Walkthrough: Generating Code by using Text Templates

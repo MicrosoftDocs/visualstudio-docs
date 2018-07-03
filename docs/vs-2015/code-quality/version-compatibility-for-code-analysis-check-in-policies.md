@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "check-in policies, version compatibility for code analysis"
 ms.assetid: 1af376e3-3be7-4445-803b-76a858567a5b
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Version Compatibility for Code Analysis Check-In Policies

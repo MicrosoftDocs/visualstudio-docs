@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language"
 ms.assetid: 29e5b6f2-ece4-4f3b-ab08-5f957418702f
 caps.latest.revision: 28
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # About Domain-Specific Languages

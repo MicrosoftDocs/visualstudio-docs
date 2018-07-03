@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "GenerateBootstrapper task [MSBuild]"
 ms.assetid: ca3ba2c6-d2ea-41f2-b7e3-0fc2b0730460
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # GenerateBootstrapper Task

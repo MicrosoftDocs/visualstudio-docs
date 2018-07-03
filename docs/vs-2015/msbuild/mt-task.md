@@ -27,8 +27,8 @@ helpviewer_keywords:
   - "MT task (MSBuild (Visual C++))"
 ms.assetid: bb94913c-1042-4968-9f08-b394518e899f
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # MT Task

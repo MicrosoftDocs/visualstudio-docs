@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.While.UI"
 ms.assetid: ea008091-2e4c-4f64-bfa5-afb919552446
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # While Activity Designer

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, rules"
 ms.assetid: 1690a38a-c8f5-4bc6-aab9-015771ec6647
 caps.latest.revision: 32
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Rules Propagate Changes Within the Model

@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "msbuild"
 ms.assetid: 20dae076-733e-49c1-a2e9-b336757ae21d
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Resolving Assemblies at Design Time

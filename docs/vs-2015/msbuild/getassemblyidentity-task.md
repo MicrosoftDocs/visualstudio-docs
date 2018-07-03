@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "GetAssemblyIdentity task [MSBuild]"
 ms.assetid: a977e072-37ad-4941-84a6-32a4483be55d
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # GetAssemblyIdentity Task

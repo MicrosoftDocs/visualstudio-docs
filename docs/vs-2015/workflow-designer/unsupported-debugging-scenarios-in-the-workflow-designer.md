@@ -10,7 +10,7 @@ ms.topic: "reference"
 ms.assetid: 6adbe379-41d0-4681-9cd0-b91f187c3c2c
 caps.latest.revision: 4
 author: "steved0x"
-ms.author: "sdanie"
+ms.author: gewarren
 manager: "erikre"
 ---
 # Unsupported debugging scenarios in the Workflow Designer

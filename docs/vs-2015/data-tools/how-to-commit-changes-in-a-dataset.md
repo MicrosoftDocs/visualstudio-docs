@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "datasets [Visual Basic], committing changes"
 ms.assetid: 51931353-4d22-4e35-a9ef-6f2b44e1f7d9
 caps.latest.revision: 17
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

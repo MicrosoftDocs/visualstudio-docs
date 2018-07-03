@@ -12,7 +12,7 @@ ms.topic: "article"
 ms.assetid: 23cb0d82-0451-464e-98ea-fa66e7010ead
 caps.latest.revision: 21
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "robinr"
 ---
 # Unit testing Visual C# code in a Store app

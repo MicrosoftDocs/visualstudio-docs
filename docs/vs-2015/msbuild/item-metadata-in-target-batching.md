@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "target batching [MSBuild]"
 ms.assetid: f3cc4186-6a4c-4161-bbe5-1ec638b4925b
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Item Metadata in Target Batching

@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.AddToCollection`1.UI"
 ms.assetid: f7fc0702-164e-4370-8946-bb2f9f9384b7
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # AddToCollection&lt;T&gt; Activity Designer

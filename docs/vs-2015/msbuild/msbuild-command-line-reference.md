@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "msbuild.exe"
 ms.assetid: edaa65ec-ab8a-42a1-84cb-d76d5b2f4584
 caps.latest.revision: 61
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # MSBuild Command-Line Reference

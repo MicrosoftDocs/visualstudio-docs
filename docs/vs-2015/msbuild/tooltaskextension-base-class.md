@@ -18,8 +18,8 @@ dev_langs:
   - "jsharp"
 ms.assetid: 258ae433-f68a-49f1-b276-da20e3472e68
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # ToolTaskExtension Base Class

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "platforms, changing target platforms"
 ms.assetid: affa2392-7aed-45ac-9ffa-1d8e0496d590
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Configure Projects to Target Multiple Platforms

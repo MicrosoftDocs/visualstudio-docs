@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "coded UI tests, Excel Add-in sample"
 ms.assetid: 2cd52d1a-4c35-43ca-8a84-9c79dabd907f
 caps.latest.revision: 18
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Sample Excel Add-In for Coded UI Testing

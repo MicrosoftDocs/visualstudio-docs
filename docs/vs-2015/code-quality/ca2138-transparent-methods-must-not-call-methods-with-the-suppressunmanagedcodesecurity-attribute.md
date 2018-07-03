@@ -13,8 +13,8 @@ f1_keywords:
   - "CA2138"
 ms.assetid: a14c4d32-f079-4f3a-956c-a1657cde0f66
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2138: Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "/Edit Devenv swtich"
 ms.assetid: 02b3d6e7-a2b1-4d83-a747-aa8c2fb758b7
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # /Edit (devenv.exe)

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1800"
 ms.assetid: b79a010a-6627-421e-8955-6007e32fa808
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1800: Do not cast unnecessarily

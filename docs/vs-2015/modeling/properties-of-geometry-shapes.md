@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, geometry shape"
 ms.assetid: 3993a23e-eab3-4ceb-b475-c395d5992bfc
 caps.latest.revision: 23
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Properties of Geometry Shapes

@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "text templates, generating templates from templates"
 ms.assetid: 4126156a-7cea-48b8-925e-7790806cfe6c
 caps.latest.revision: 37
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # How to: Generate Templates from Templates By Using Escape Sequences

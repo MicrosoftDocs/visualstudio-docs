@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "CA1303"
 ms.assetid: 904d284e-76d0-4b8f-a4df-0094de8d7aac
 caps.latest.revision: 24
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1303: Do not pass literals as localized parameters

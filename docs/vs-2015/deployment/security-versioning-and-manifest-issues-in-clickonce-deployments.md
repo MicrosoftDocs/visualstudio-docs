@@ -26,8 +26,8 @@ helpviewer_keywords:
   - "ClickOnce applications, security issues"
 ms.assetid: d5d0c90b-ac1a-44e2-88dc-0d0ffd881624
 caps.latest.revision: 23
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Security, Versioning, and Manifest Issues in ClickOnce Deployments

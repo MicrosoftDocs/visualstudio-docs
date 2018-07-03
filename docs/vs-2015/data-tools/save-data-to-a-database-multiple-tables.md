@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "data [Visual Studio], updating"
 ms.assetid: 7ebe03da-ce8c-4cbc-bac0-a2fde4ae4d07
 caps.latest.revision: 27
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Save data to a database (multiple tables)

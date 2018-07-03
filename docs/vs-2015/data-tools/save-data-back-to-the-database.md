@@ -26,8 +26,8 @@ helpviewer_keywords:
   - "TableAdapters"
 ms.assetid: afe6cb8a-dc6a-428b-b07b-903ac02c890b
 caps.latest.revision: 31
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Save data back to the database

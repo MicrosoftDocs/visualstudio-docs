@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "64-bit applications [Visual Studio]"
 ms.assetid: 845302fc-273d-4f81-820a-7296ce91bd76
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Configure Projects to Target Platforms

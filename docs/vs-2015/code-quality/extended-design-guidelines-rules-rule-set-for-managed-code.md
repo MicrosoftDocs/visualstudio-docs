@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a338caf2-b75d-4f23-a0f9-3024fa0bceac
 caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Extended Design Guidelines Rules rule set for managed code

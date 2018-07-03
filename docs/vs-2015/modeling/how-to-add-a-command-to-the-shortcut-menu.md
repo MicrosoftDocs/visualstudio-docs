@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "walkthroughs [Domain-Specific Language Tools]"
 ms.assetid: cd550399-05fc-4dbf-be4c-f5094bb752ce
 caps.latest.revision: 24
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # How to: Add a Command to the Shortcut Menu

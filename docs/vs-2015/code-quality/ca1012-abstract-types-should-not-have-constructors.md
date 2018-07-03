@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "CA1012"
 ms.assetid: 09f458ac-dd88-4cd7-a47f-4106c1e80ece
 caps.latest.revision: 27
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1012: Abstract types should not have constructors

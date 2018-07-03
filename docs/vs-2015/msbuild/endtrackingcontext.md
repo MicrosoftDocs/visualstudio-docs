@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "EndTrackingContext"
 ms.assetid: c2c5d794-8dc8-4594-8717-70dc79a0e75d
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # EndTrackingContext

@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, domain class"
 ms.assetid: a3993995-19e7-4761-a972-b1de89131a1b
 caps.latest.revision: 23
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Properties of Domain Classes

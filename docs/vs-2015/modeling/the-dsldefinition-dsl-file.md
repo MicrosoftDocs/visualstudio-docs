@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, definition file"
 ms.assetid: f3fc3ed7-2438-4e5a-b3d7-fe7e0e8a134c
 caps.latest.revision: 24
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # The DslDefinition.dsl File

@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "user interface reference"
 ms.assetid: b3a0104f-4485-45ac-9794-82d54e45fb09
 caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Legacy Designer for Windows Workflow Foundation UI Help

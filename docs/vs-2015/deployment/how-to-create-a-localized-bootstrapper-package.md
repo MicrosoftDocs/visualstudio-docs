@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "prerequisites, creating localized bootstrapper packages"
 ms.assetid: 66a1bc7e-6540-4164-963d-557196a69d8a
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Create a Localized Bootstrapper Package

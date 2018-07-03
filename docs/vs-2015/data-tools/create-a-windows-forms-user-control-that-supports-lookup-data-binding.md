@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "user controls [Visual Basic], creating"
 ms.assetid: c48b4d75-ccfc-4950-8b14-ff8adbfe4208
 caps.latest.revision: 18
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Create a Windows Forms user control that supports lookup data binding

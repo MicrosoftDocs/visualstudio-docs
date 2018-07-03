@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: cc3e4ae7-60fa-4e22-9227-98020b480b73
 caps.latest.revision: 10
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Directed Graph Markup Language (DGML) reference

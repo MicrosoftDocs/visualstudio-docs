@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 56a0fe82-5231-487d-8b6e-a08a9b04e0fc
 caps.latest.revision: 6
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Execute an XSLT Transformation from the XML Editor

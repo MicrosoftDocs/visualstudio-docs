@@ -13,8 +13,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Projects.WebProjects"
 ms.assetid: ea813046-1ae6-4c9f-9784-dc41494101b9
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Options Dialog Box, Projects and Solutions, Web Projects

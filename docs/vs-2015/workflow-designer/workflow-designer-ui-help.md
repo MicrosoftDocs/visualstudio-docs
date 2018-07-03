@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Workflow Designer [WFD], user interface help"
 ms.assetid: f7afc443-7c7f-4b0f-9517-c58070a640de
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Workflow Designer UI Help

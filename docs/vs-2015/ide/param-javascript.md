@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "param JavaScript XML tag"
 ms.assetid: 2c4e0167-c1dd-4e54-83f1-c437856bddc1
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # &lt;param&gt; (JavaScript)

@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d2a34de2-6527-4c21-8b93-2f268ee894b7
 caps.latest.revision: 14
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Using shims to isolate your application from other assemblies for unit testing

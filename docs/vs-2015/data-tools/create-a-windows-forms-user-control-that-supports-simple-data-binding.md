@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Data Sources Window, controls"
 ms.assetid: b1488366-6dfb-454e-9751-f42fd3f3ddfb
 caps.latest.revision: 17
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Create a Windows Forms user control that supports simple data binding

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "data, samples"
 ms.assetid: 4e591600-fd59-48b1-8d96-3fcaae9df56f
 caps.latest.revision: 10
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

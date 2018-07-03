@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1dbf1090-762c-4824-82dd-2d7c2c6f00b6
 caps.latest.revision: 13
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Sample Excel Communicator Interface

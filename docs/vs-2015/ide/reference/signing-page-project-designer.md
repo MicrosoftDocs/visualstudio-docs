@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "Signing page in Project Designer"
 ms.assetid: dab3ba13-2f92-4827-92bd-1be3c35bc48b
 caps.latest.revision: 39
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Signing Page, Project Designer

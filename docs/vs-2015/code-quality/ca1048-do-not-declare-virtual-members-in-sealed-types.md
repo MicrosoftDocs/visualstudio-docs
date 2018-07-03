@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1048"
 ms.assetid: 5dcf4a30-6f98-48a8-b8cc-7b89ea757262
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1048: Do not declare virtual members in sealed types

@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 990ee487-cf9a-4b89-9784-e7b47c220e8c
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Perform quick actions with light bulbs

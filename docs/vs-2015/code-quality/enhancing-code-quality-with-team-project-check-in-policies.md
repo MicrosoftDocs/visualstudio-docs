@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "team-based development, enhancing code quality"
 ms.assetid: 0ab72c33-148a-4a8a-a7bf-046995514c84
 caps.latest.revision: 27
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Enhancing Code Quality with Team Project Check-in Policies

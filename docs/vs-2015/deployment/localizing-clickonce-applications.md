@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "console applications, ClickOnce applications"
 ms.assetid: c92b193b-054d-4923-834b-d4226a4c7a1a
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Localizing ClickOnce Applications

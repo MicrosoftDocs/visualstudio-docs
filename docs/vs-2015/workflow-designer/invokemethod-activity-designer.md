@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.InvokeMethod.UI"
 ms.assetid: 15e6efdc-52ca-46d8-9c5e-063f7c8265a6
 caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # InvokeMethod Activity Designer

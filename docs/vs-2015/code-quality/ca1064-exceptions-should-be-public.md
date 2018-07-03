@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1064"
 ms.assetid: 83eb224c-2456-4368-acf4-3b3378e67759
 caps.latest.revision: 13
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1064: Exceptions should be public

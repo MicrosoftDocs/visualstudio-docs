@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Rule Condition dialog box"
 ms.assetid: c7ca8be9-de31-4a64-939c-4d53a50d5e29
 caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Rule Condition Editor Dialog Box (Legacy)

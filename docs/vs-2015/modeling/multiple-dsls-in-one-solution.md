@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7e668620-6217-4e87-aea7-e9036776c8e4
 caps.latest.revision: 5
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Multiple DSLs in One Solution

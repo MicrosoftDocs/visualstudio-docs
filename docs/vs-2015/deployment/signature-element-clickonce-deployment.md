@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "<Signature> element [ClickOnce deployment manifest]"
 ms.assetid: c99b07ad-e8ba-43f2-b0d6-3745e7a7c8b3
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;Signature&gt; Element (ClickOnce Deployment)

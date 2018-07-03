@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1059"
 ms.assetid: 59f61f52-8d6c-49cb-aefb-191910523a3c
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1059: Members should not expose certain concrete types

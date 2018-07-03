@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "PropertiesShouldNotBeWriteOnly"
 ms.assetid: 8386bf3a-b161-4841-bf8b-92591595aea9
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1044: Properties should not be write only

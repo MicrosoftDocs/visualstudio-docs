@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Tools Options settings, Environment node properties"
 ms.assetid: 26dca41f-91fc-4ca7-9103-3da402baa1d5
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Options Page, Environment Node Properties

@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "unit tests, running"
 ms.assetid: dd3e8a6a-b366-433e-a409-b9a9b89da89a
 caps.latest.revision: 23
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Walkthrough: Creating and Running Unit Tests for Windows Store Apps

@@ -13,8 +13,8 @@ f1_keywords:
   - "CA2149"
 ms.assetid: 28951bd7-f3db-4871-99aa-bad68d1ead80
 caps.latest.revision: 13
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2149: Transparent methods must not call into native code

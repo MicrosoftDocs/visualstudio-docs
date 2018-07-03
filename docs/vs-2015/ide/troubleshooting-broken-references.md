@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "referencing components, troubleshooting"
 ms.assetid: 00a9ade9-652e-40de-8ada-85f63cd183ee
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Troubleshooting Broken References

@@ -17,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: eaee55b8-85fe-47c7-a489-9be0c46ae8af
 caps.latest.revision: 37
 author: "corob-msft"
-ms.author: "corob"
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Walkthrough: Analyzing C/C++ Code for Defects

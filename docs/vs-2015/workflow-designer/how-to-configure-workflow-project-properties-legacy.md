@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "projects, configuring properties"
 ms.assetid: 850f5c96-8e5b-4126-bc16-fd2c26e6e656
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Configure Workflow Project Properties (Legacy)

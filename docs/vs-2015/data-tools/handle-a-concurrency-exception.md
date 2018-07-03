@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "concurrency control, walkthroughs"
 ms.assetid: 73ee9759-0a90-48a9-bf7b-9d6fc17bff93
 caps.latest.revision: 27
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Handle a concurrency exception

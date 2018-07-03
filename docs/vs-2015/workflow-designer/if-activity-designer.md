@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.If.UI"
 ms.assetid: 930a8fa2-db98-43e9-ad6d-a85cc7a6519a
 caps.latest.revision: 4
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # If Activity Designer

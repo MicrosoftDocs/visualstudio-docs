@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f7e9e4a2-5d01-4f78-b408-5be3892bd162
 caps.latest.revision: 28
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Configure unit tests by using a .runsettings file

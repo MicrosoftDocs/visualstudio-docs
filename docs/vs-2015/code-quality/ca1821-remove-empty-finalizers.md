@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "CA1821"
 ms.assetid: 3f4855a0-e4a0-46e6-923c-4c3b7074048d
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1821: Remove empty finalizers

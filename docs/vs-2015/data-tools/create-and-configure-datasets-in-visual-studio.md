@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "datasets [Visual Basic], creating"
 ms.assetid: 58f33b43-24e1-43b1-b08b-b74329960bd6
 caps.latest.revision: 39
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Create and configure datasets in Visual Studio

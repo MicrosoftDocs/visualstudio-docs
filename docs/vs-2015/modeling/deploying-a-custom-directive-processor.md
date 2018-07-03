@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "text templates, custom directive processors"
 ms.assetid: 80c28722-a630-47b5-923b-024dc3f2c940
 caps.latest.revision: 20
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Deploying a Custom Directive Processor

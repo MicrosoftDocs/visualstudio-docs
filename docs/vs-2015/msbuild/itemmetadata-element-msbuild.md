@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "<ItemMetadata> Element [MSBuild]"
 ms.assetid: e3db5122-202d-43a9-b2f4-3e0ec4ed3d08
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # ItemMetadata Element (MSBuild)

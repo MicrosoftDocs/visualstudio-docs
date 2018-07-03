@@ -13,8 +13,8 @@ f1_keywords:
   - "System.Activities.Presentation.View.ErrorView.UI"
 ms.assetid: 4d8bbc2e-34fc-477f-9140-4adfd70c34a0
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Error Messages in Workflow Designer

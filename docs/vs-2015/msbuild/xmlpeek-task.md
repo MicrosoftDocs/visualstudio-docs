@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "MSBuild, XmlPeek task"
 ms.assetid: 19196031-a3bc-41b5-9c4a-f2572630e179
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # XmlPeek Task

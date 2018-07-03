@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: fa0a9460-6675-4642-aa00-50f8719a892d
 caps.latest.revision: 16
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Properties of elements on UML component diagrams

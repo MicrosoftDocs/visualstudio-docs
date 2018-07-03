@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "assemblies [Visual Studio], signing"
 ms.assetid: 6c1ef36b-25f7-4ad0-b29a-51801b7a5420
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Managing Assembly and Manifest Signing

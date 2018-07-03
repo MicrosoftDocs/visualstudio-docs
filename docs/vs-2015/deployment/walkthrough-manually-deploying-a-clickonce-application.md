@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "manifests [ClickOnce]"
 ms.assetid: ccee6551-a1b9-4ca2-8845-9c1cf4ac2560
 caps.latest.revision: 51
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Walkthrough: Manually Deploying a ClickOnce Application

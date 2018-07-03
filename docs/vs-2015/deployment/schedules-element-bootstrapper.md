@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "<Schedules> element [bootstrapper]"
 ms.assetid: 28d094cf-64f5-42b1-bd8a-3697082aab4f
 caps.latest.revision: 7
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;Schedules&gt; Element (Bootstrapper)

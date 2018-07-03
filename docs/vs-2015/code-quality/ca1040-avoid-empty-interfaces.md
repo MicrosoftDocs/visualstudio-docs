@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1040"
 ms.assetid: 120a741b-5fd1-4836-8453-7857e0cd0380
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1040: Avoid empty interfaces

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "DoNotIgnoreMethodResults"
 ms.assetid: fd805687-0817-481e-804e-b62cfb3b1076
 caps.latest.revision: 27
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1806: Do not ignore method results

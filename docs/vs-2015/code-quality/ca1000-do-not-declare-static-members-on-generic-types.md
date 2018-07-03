@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1000"
 ms.assetid: 5c0da594-f8d0-4f40-953d-56bf7fbd2087
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1000: Do not declare static members on generic types

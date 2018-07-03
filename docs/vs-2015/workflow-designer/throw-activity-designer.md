@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.Throw.UI"
 ms.assetid: 5e97c947-be39-4a1f-af04-000e2e09528a
 caps.latest.revision: 4
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Throw Activity Designer

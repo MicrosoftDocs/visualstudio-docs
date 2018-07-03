@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "data [Visual Studio], connecting to SQL Express"
 ms.assetid: 5e16b7da-3fdc-4e69-bdb4-e8e700481811
 caps.latest.revision: 35
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

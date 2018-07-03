@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1404"
 ms.assetid: 52ae9eff-50f9-4b2f-8039-ca7e49fba88e
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1404: Call GetLastError immediately after P/Invoke

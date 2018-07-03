@@ -13,8 +13,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Environment.TabsAndWindows"
 ms.assetid: f5167564-0a4e-4f98-9580-fc6cb7d9dd8d
 caps.latest.revision: 6
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Tabs and Windows, Environment, Options Dialog Box

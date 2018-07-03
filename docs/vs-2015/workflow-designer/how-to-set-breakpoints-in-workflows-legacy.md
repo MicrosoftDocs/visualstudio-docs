@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "workflows, setting breakpoints"
 ms.assetid: 78e0be39-3e99-487c-bfef-19db0daf6f42
 caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Set Breakpoints in Workflows (Legacy)

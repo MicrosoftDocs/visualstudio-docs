@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, overriding event handlers"
 ms.assetid: 96d8f392-045e-4bc5-b165-fbaa470a3e16
 caps.latest.revision: 25
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Domain Property Value Change Handlers

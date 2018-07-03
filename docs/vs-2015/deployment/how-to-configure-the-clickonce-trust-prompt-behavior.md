@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, trust prompt"
 ms.assetid: cc04fa75-012b-47c9-9347-f4216be23cf2
 caps.latest.revision: 13
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Configure the ClickOnce Trust Prompt Behavior

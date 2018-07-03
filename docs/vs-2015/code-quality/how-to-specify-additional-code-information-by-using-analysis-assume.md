@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 51205d97-4084-4cf4-a5ed-3eeaf67deb1b
 caps.latest.revision: 12
 author: "corob-msft"
-ms.author: "corob"
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Specify Additional Code Information by Using __analysis_assume

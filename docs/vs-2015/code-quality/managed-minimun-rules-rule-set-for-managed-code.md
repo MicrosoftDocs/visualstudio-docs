@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 44a50c54-8dd3-42b2-8387-532a150e5a6c
 caps.latest.revision: 4
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Managed Minimun Rules rule set for managed code

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "ComVisibleTypeBaseTypesShouldBeComVisible"
 ms.assetid: a762ea2f-5285-4f73-bfb9-9eb10aea4290
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1405: COM visible type base types should be COM visible

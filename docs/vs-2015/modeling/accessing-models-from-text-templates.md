@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "text templates, accessing models"
 ms.assetid: cf65395a-0ca3-4826-89c7-b1869562685c
 caps.latest.revision: 35
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Accessing Models from Text Templates

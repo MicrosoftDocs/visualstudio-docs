@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "projects [Visual Studio], multi-targeting"
 ms.assetid: 91e77ad4-4da3-419d-85fb-9036f0e5c330
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Targeting a Specific .NET Framework Version

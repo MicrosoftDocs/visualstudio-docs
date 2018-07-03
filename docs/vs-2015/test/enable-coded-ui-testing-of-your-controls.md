@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 5ef1188f-89dc-413d-801d-0efdaf9b0427
 caps.latest.revision: 24
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Enable Coded UI Testing of Your Controls

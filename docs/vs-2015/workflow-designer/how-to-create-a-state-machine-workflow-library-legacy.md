@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "workflows, state machine workflow library"
 ms.assetid: 5bd68c6e-6a98-47d9-826d-9bb7a4fd72f8
 caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Create a State Machine Workflow Library (Legacy)

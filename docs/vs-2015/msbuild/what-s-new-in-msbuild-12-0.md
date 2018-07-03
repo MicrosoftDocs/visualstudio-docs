@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9976a6ad-c052-4017-b848-35b5ae4a2f66
 caps.latest.revision: 26
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # What&#39;s New in MSBuild 12.0

@@ -22,7 +22,7 @@ helpviewer_keywords:
 ms.assetid: 7af52097-6d44-4785-9b9f-43b7a7d447d7
 caps.latest.revision: 19
 author: "corob-msft"
-ms.author: "corob"
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Set Code Analysis Properties for C/C++ Projects

@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, programming"
 ms.assetid: a4a17f5b-9c97-4575-b2d1-3182c1896b72
 caps.latest.revision: 31
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Writing Code to Customise a Domain-Specific Language

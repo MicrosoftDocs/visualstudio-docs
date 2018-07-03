@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "dataset filtering, using data views"
 ms.assetid: f4f100f1-776d-46dc-b2fd-5b35b98d9561
 caps.latest.revision: 21
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Filter and sort data in a Windows Forms application

@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "SetEnv task (MSBuild (Visual C++))"
 ms.assetid: fd9e4225-68cb-4608-8b27-468b0218c936
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # SetEnv Task

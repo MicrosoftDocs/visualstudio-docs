@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "text templates, custom directive processors"
 ms.assetid: 422b47af-5441-4b02-b5ad-1b8b328457e3
 caps.latest.revision: 31
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Creating Custom T4 Text Template Directive Processors

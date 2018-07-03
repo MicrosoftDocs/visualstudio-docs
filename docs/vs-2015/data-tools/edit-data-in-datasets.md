@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "data [Visual Studio], editing in datasets"
 ms.assetid: 50d5c580-fbf7-408f-be70-e63ac4f4d0eb
 caps.latest.revision: 18
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Edit data in datasets

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA2118"
 ms.assetid: 4cb8d2fc-4e44-4dc3-9b74-7f5838827d41
 caps.latest.revision: 22
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2118: Review SuppressUnmanagedCodeSecurityAttribute usage

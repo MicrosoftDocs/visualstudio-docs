@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.WriteLine.UI"
 ms.assetid: 1b5f29a8-b7fd-477e-949e-2f689cae3c96
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # WriteLine Activity Designer

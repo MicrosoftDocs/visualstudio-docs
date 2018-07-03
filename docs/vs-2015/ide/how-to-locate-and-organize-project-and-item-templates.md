@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "templates [Visual Studio], locations"
 ms.assetid: 71f9ed52-c9c9-4818-9bce-c279ffaa0438
 caps.latest.revision: 28
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Locate and Organize Project and Item Templates

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "MSBuild, file schema"
 ms.assetid: d9a68146-1f43-4621-ac78-2c8c3f400936
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # MSBuild Project File Schema Reference

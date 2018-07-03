@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Text Editor Options dialog box, advanced"
 ms.assetid: 67c82ae5-fddd-49df-baec-8e7498b156f3
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Options, Text Editor, C/C++, Advanced

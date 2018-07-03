@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "ResourceStringsShouldBeSpelledCorrectly"
 ms.assetid: 693f4970-f512-40cb-ae3b-a0f3a5c6d6f1
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1703: Resource strings should be spelled correctly

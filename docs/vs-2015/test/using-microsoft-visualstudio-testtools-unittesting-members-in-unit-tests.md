@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0fa335fd-e442-448f-913f-25a19df90a93
 caps.latest.revision: 8
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests

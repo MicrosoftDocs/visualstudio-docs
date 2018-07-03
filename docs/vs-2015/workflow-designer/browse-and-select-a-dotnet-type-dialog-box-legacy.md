@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Browse and Select a .NET Type dialog box"
 ms.assetid: 1e66c9bc-94b2-46e2-bedf-871752e5f917
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Browse and Select a .NET Type Dialog Box (Legacy)

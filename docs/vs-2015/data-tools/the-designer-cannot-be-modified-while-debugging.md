@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 487dafe4-d57c-4be1-9e3a-bb0a8699b2fa
 caps.latest.revision: 7
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # The designer cannot be modified while debugging

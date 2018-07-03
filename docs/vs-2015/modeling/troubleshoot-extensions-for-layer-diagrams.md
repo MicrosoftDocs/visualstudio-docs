@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 1fda4f8a-38b8-482b-87b8-eade1a4e5662
 caps.latest.revision: 27
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Troubleshoot extensions for layer diagrams

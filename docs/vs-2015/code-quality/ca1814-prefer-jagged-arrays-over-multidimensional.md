@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1814"
 ms.assetid: b1ccf563-2ec8-42e5-b89c-731a9de1ea1d
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1814: Prefer jagged arrays over multidimensional

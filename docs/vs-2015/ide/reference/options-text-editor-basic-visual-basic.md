@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "Basic Text Editor Options dialog box"
 ms.assetid: 5a8cafca-f7b4-4a2d-92ce-6894a7673d00
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Options, Text Editor, Basic (Visual Basic)

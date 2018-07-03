@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "MSBuild, Vbc task"
 ms.assetid: 595278b1-2782-4577-b1ba-b4b5ab5625a3
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Vbc Task

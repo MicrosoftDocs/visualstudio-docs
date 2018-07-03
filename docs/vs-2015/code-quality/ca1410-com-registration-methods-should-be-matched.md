@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "ComRegistrationMethodsShouldBeMatched"
 ms.assetid: f3b2e62d-fd66-4093-9f0c-dba01ad995fd
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1410: COM registration methods should be matched

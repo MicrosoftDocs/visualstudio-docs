@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "MSBuild, GetFrameworkPath task"
 ms.assetid: 5b7bcdd7-d4a0-442d-af29-8aadb3b10598
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # GetFrameworkPath Task

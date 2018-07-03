@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "text templates, debugging"
 ms.assetid: 0877fdf2-20bf-42da-b3cc-4c5856b80821
 caps.latest.revision: 30
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Debugging a T4 Text Template

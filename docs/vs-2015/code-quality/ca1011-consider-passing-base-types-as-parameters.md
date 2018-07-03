@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "ConsiderPassingBaseTypesAsParameters"
 ms.assetid: ce1e1241-dcf4-419b-9363-1d5bc4989279
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1011: Consider passing base types as parameters

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "accessibility [Visual Studio]"
 ms.assetid: d71a4cc1-d352-4164-8538-3f9fa070a331
 caps.latest.revision: 30
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Use the Keyboard Exclusively

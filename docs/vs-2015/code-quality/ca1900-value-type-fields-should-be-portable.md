@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1900"
 ms.assetid: 1787d371-389f-4d39-b305-12b53bc0dfb9
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1900: Value type fields should be portable

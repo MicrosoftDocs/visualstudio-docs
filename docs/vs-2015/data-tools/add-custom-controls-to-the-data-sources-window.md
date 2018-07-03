@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "Data Sources Window, selecting controls"
 ms.assetid: 8c43e7d2-ba94-4d9b-96de-3aa971955afd
 caps.latest.revision: 45
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Add custom controls to the Data Sources window

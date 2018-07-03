@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "ResetSkipPkgs switch"
 ms.assetid: 7ece64f9-cfa4-4b34-b0d9-1c338b9557b3
 caps.latest.revision: 6
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # /ResetSkipPkgs (devenv.exe)

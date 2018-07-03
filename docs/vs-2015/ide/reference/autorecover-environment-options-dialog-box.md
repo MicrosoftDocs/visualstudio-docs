@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "files, saving automatically"
 ms.assetid: 397e5e44-4bbe-4289-94d1-642b466c9111
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # AutoRecover, Environment, Options Dialog Box

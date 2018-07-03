@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "files, publishing via ClickOnce"
 ms.assetid: 579c134a-d50f-4e0c-8e05-2a4ff654896a
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Specify Which Files Are Published by ClickOnce

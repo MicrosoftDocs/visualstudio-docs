@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "MSBuild, AL task"
 ms.assetid: 2ddefbf2-5662-4d55-99a6-ac383bf44560
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # AL (Assembly Linker) Task

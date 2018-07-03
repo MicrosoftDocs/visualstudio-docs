@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA2219"
 ms.assetid: 7b9b0bee-4e8e-49a4-8c40-52142b49061f
 caps.latest.revision: 7
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2219: Do not raise exceptions in exception clauses

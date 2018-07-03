@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "project files, referencing"
 ms.assetid: c8fcc594-5d37-4e2e-b070-4d9c012043b5
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Reference the Name or Location of the Project File

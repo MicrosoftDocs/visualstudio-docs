@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "ParameterNamesShouldMatchBaseDeclaration"
 ms.assetid: 9b657ab0-fe81-4f4c-9481-ba746988c922
 caps.latest.revision: 13
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1725: Parameter names should match base declaration

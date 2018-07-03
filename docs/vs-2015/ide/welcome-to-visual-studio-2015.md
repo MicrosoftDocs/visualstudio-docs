@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "Visual Studio 2015"
 ms.assetid: ba237712-f8c4-4d13-854b-ab4a16afa309
 caps.latest.revision: 128
-ms.author: "crdun"
+ms.author: gewarren
 manager: "crdun"
 ---
 # Welcome to Visual Studio 2015

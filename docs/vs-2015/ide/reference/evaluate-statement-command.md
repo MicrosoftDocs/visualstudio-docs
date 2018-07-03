@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Evaluate Statement command"
 ms.assetid: 032039bc-9477-4f93-9b9d-66d4be0e90f4
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Evaluate Statement Command

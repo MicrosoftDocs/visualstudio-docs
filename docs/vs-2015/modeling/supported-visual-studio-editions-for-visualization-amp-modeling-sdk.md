@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, supported Visual Studio editions"
 ms.assetid: 7c313ba0-031d-45b8-8220-eead61754747
 caps.latest.revision: 29
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Supported Visual Studio Editions for Visualization &amp; Modeling SDK

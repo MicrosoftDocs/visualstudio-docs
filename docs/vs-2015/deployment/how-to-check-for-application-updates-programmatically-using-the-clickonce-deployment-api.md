@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "application updates"
 ms.assetid: 1a886310-67c8-44e5-a382-c2f0454f887d
 caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Check for Application Updates Programmatically Using the ClickOnce Deployment API

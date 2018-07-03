@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "TextTransform.exe"
 ms.assetid: 06a48235-fe02-403e-a1cf-2ae70b4db62f
 caps.latest.revision: 43
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Generating Files with the TextTransform Utility

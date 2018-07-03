@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "MarkEnumsWithFlags"
 ms.assetid: 249e882c-8cd1-4c00-a2de-7b6bdc1849ff
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1027: Mark enums with FlagsAttribute

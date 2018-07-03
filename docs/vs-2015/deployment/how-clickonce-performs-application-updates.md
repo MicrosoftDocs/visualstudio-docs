@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "deploying applications [ClickOnce], application updates"
 ms.assetid: d54313c2-cf0c-420d-b151-99953a95f0bb
 caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How ClickOnce Performs Application Updates

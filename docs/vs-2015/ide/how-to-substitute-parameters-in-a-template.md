@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Visual Studio templates, using parameters"
 ms.assetid: a62924a7-4ba0-413d-b606-fdbe1fcf2807
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Substitute Parameters in a Template

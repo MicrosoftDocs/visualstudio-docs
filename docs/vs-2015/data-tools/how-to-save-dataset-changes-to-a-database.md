@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "updating datasets, writing changes to data source"
 ms.assetid: c9970150-b71b-4c9d-a355-5efb6b510dca
 caps.latest.revision: 14
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

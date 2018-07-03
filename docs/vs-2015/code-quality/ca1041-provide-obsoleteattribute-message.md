@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1041"
 ms.assetid: be5bee69-d2d2-44e1-be2e-3ea451969003
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1041: Provide ObsoleteAttribute message

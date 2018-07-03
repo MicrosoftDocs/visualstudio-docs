@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "RegisterAssembly task [MSBuild]"
 ms.assetid: ba5f19ac-6764-4d28-9b79-a86de58f8987
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # RegisterAssembly Task

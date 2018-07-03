@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "forms, displaying data"
 ms.assetid: f6e08c2c-c792-43de-adf3-3e52c0100225
 caps.latest.revision: 20
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "Devenv, /UseEnv"
 ms.assetid: 2dd14603-a61b-42d2-ba31-427a0ee8a799
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # /UseEnv (devenv.exe)

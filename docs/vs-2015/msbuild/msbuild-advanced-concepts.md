@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "MSBuild, advanced concepts"
 ms.assetid: f34a558a-ebd9-49bd-8510-32a2b581a4af
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # MSBuild Advanced Concepts

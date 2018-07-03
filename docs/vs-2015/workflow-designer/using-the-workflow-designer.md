@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Visual Studio 2010 Workflow Designer [WFD], using"
 ms.assetid: 991a942f-29bc-4868-9299-ed80c5665ab5
 caps.latest.revision: 13
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Using the Workflow Designer

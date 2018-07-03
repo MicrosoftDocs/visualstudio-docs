@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 36ab5c17-6dc0-4075-a28e-a0fa49b11260
 caps.latest.revision: 34
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # What&#39;s new for design in Visual Studio

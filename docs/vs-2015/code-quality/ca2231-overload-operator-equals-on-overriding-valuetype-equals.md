@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "CA2231"
 ms.assetid: 114c0161-261a-40ad-8b2c-0932d6909d2a
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2231: Overload operator equals on overriding ValueType.Equals

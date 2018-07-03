@@ -29,8 +29,8 @@ helpviewer_keywords:
   - "<dependency> element [ClickOnce application manifest]"
 ms.assetid: 09d6a1e0-60f8-4fbd-843b-8e49ee3115a3
 caps.latest.revision: 36
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;dependency&gt; Element (ClickOnce Application)

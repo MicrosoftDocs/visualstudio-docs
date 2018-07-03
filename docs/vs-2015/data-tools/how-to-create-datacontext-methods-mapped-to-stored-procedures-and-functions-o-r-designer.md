@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e7ca32f1-50b3-48af-ad92-ceafd749296a
 caps.latest.revision: 5
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Create DataContext methods mapped to stored procedures and functions (O/R Designer)

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Class Designer [Visual Studio], nullable types"
 ms.assetid: 84673a89-3f6d-4668-919e-1c0f56182fe5
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Create a Nullable Type (Class Designer)

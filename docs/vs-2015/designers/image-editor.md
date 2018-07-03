@@ -14,8 +14,8 @@ f1_keywords:
   - "vs.graphics.imageeditor"
 ms.assetid: fc71d502-c548-4863-8afc-12a1d3ec90d4
 caps.latest.revision: 47
-author: "BrianPeek"
-ms.author: "brpeek"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Image Editor

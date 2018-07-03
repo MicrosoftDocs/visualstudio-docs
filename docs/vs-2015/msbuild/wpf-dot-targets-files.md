@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "WPF .targets files [WPF MSBuild]"
 ms.assetid: e85a3ff4-dedd-4ff4-9b22-3a1e94755362
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # WPF .Targets Files

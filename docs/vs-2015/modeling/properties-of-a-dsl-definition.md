@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, definition file"
 ms.assetid: 38debcfe-e1a6-4a3f-9d69-3ab07520f2b6
 caps.latest.revision: 15
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Properties of a DSL Definition

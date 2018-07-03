@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "metadata as source [C#]"
 ms.assetid: 4945a07f-b3be-4f05-a587-fc29058aa8fa
 caps.latest.revision: 14
-author: "BillWagner"
-ms.author: "wiwagn"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Metadata as Source

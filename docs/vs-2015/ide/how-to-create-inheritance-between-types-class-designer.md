@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "relationships, defining inheritance"
 ms.assetid: 3786a21c-8022-4bf5-9d13-740fd354e93c
 caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Create Inheritance Between Types (Class Designer) 

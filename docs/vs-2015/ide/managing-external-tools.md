@@ -59,8 +59,8 @@ helpviewer_keywords:
   - "Resource Compiler"
 ms.assetid: f382fd40-a98f-4934-8c9a-5aeae881acde
 caps.latest.revision: 41
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Managing External Tools

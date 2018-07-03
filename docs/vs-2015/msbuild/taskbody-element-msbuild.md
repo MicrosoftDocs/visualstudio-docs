@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "<TaskBody> element [MSBuild]"
 ms.assetid: 49d8741b-f1ea-4470-94fd-a1ac27341a6a
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # TaskBody Element (MSBuild)

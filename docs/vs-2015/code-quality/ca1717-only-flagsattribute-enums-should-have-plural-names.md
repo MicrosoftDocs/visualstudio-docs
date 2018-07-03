@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1717"
 ms.assetid: a6855d8b-d78a-42c1-834e-61c31f5572ed
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1717: Only FlagsAttribute enums should have plural names

@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "manifests [ClickOnce], entryPoint element"
 ms.assetid: 10ad3083-10c1-4189-a870-9bba2eab244f
 caps.latest.revision: 35
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;entryPoint&gt; Element (ClickOnce Application)

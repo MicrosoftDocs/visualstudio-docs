@@ -20,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: ccc80825-a4a0-44fa-a0bb-f95254785a3b
 caps.latest.revision: 63
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Scenario: Change your design using visualization and modeling

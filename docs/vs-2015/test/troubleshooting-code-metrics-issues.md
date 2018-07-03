@@ -12,7 +12,7 @@ ms.topic: "article"
 ms.assetid: f2fdb995-4888-4246-85dc-7bacadd45968
 caps.latest.revision: 6
 author: "erickson-doug"
-ms.author: "douge"
+ms.author: gewarren
 manager: "douge"
 ---
 # Troubleshooting Code Metrics Issues

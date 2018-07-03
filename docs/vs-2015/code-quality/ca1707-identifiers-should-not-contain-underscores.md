@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "IdentifiersShouldNotContainUnderscores"
 ms.assetid: 5fb539ef-c304-4323-90c0-b14386da9774
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1707: Identifiers should not contain underscores

@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a859595f-6517-43f2-9d61-c706cb55a388
 caps.latest.revision: 25
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Using Different Web Browsers with Coded UI Tests

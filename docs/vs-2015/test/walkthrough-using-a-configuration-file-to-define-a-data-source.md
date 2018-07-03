@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "data sources, defining with configuration files"
 ms.assetid: 95fa5214-b12e-4e1f-84e5-cc4c2d86b0d7
 caps.latest.revision: 34
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Walkthrough: Using a Configuration File to Define a Data Source

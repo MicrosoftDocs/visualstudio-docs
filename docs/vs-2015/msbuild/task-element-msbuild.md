@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "<Task> element [MSBuild]"
 ms.assetid: d82e2485-e5f0-4936-a357-745bacccc299
 caps.latest.revision: 26
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Task Element (MSBuild)

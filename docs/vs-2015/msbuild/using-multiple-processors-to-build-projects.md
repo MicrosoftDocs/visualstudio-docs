@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "MSBuild, multiple processor systems"
 ms.assetid: 49fa36c9-8e14-44f5-8a2b-34146cf6807b
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Using Multiple Processors to Build Projects

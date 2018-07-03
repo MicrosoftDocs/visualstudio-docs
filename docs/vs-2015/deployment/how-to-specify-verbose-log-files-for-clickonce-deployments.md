@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, logging"
 ms.assetid: 0807a28d-2e40-4a51-ab10-308d808ded6b
 caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Specify Verbose Log Files for ClickOnce Deployments

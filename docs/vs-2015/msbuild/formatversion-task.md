@@ -16,8 +16,8 @@ dev_langs:
   - "jsharp"
 ms.assetid: 96e692f6-b581-46ca-8cc9-441a1861e371
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # FormatVersion Task

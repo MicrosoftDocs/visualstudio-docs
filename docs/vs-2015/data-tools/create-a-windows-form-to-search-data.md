@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "data [Visual Studio], searching"
 ms.assetid: 65ca79a9-7458-466c-af55-978cd24c549e
 caps.latest.revision: 31
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Create a Windows Form to search data

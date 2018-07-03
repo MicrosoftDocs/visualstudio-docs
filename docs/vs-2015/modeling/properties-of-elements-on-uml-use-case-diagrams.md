@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2728fb26-a275-4fce-8a2c-5a78af6bee04
 caps.latest.revision: 13
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Properties of elements on UML use case diagrams

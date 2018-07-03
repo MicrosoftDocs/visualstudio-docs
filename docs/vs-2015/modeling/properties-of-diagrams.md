@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, diagram"
 ms.assetid: 00bba4b8-6aa6-4027-96cb-4f4c41a77d3c
 caps.latest.revision: 27
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Properties of Diagrams

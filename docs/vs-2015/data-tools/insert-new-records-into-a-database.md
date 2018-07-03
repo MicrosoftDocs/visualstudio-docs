@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "saving data"
 ms.assetid: ea118fff-69b1-4675-b79a-e33374377f04
 caps.latest.revision: 14
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Insert new records into a database

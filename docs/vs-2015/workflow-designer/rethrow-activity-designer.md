@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.Rethrow.UI"
 ms.assetid: 9cfa2eda-395f-4cf3-9154-83fadd4f7452
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Rethrow Activity Designer

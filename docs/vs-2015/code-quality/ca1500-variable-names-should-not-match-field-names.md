@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1500"
 ms.assetid: fa0e5029-79e9-4a33-8576-787ac3c26c39
 caps.latest.revision: 25
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1500: Variable names should not match field names

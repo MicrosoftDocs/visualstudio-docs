@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "publishing, ClickOnce"
 ms.assetid: d9bc6212-c584-4f72-88c9-9a4b998c555e
 caps.latest.revision: 25
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Building ClickOnce Applications from the Command Line

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA2226"
 ms.assetid: d202401a-ea14-4559-b15e-0ea4f5b68789
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2226: Operators should have symmetrical overloads

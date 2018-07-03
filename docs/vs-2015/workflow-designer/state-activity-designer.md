@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: 9455ab37-93a0-4c46-9eb8-b6611ca23167
 caps.latest.revision: 5
 author: "steved0x"
-ms.author: "sdanie"
+ms.author: gewarren
 manager: "erikre"
 ---
 # State Activity Designer

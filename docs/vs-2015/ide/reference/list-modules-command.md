@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "list modules command"
 ms.assetid: 3cb73774-6ac0-43b2-b781-75ed47175bfd
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # List Modules Command

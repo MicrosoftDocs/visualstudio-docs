@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "TypeLinkDemandsRequireInheritanceDemands"
 ms.assetid: 07b604e5-5579-4df9-a578-dadd0d8370a7
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2126: Type link demands require inheritance demands

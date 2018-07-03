@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "loggers, multi-proc"
 ms.assetid: ff987d1b-1798-4803-9ef6-cc8fcc263516
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Writing Multi-Processor-Aware Loggers

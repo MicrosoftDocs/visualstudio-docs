@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 59c07d15-511e-4fd0-b398-bde9d5ed00d9
 caps.latest.revision: 10
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Analyzing Code Coverage in Build Verification Tests

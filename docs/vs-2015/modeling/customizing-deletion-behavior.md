@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, deletion"
 ms.assetid: c6bf088d-52c6-4817-af45-ddae745bb5a9
 caps.latest.revision: 25
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Customizing Deletion Behavior

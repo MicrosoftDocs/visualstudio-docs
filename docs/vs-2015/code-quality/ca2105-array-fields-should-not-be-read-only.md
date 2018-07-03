@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA2105"
 ms.assetid: 0bdc3421-3ceb-4182-b30c-a992fbfcc35d
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2105: Array fields should not be read only

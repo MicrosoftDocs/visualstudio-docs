@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "application updates"
 ms.assetid: a3f23f05-e7f1-4620-b23c-2d68f9643684
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Manage Updates for a ClickOnce Application

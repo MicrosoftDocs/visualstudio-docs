@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "ReviewMisleadingFieldNames"
 ms.assetid: 94136ff1-4aaf-4dc2-9170-48c171ab7499
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1504: Review misleading field names

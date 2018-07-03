@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, domain properties"
 ms.assetid: a9471562-d6f2-46bf-9872-e0d66ba03150
 caps.latest.revision: 26
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Properties of Domain Properties

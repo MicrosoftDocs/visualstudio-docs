@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "state machine workflows, console applicationa"
 ms.assetid: d6170b5d-5d4f-48e1-8257-c78604f27eac
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Create State Machine Workflow Console Applications (Legacy)

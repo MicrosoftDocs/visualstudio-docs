@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "saving data"
 ms.assetid: 68b8327c-ae05-49ff-b9ba-99183e70b52c
 caps.latest.revision: 14
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Save a dataset as XML

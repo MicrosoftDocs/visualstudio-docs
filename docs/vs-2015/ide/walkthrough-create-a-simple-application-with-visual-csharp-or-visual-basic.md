@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 ms.assetid: f84339c7-d617-4f56-bfcd-af2215c347ba
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Walkthrough: Create a Simple Application with Visual C# or Visual Basic

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "DoNotPassTypesByReference"
 ms.assetid: bcc3900a-e092-4bb8-896f-cb83f6289968
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1045: Do not pass types by reference

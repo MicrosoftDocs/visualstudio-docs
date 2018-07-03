@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "AvoidDuplicateAccelerators"
 ms.assetid: 20570a00-864b-459c-a1fa-a6e9db5f1001
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1301: Avoid duplicate accelerators

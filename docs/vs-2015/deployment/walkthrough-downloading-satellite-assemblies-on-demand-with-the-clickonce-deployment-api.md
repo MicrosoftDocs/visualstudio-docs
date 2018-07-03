@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, localization"
 ms.assetid: fdaa553f-a27e-44eb-a4e2-08c122105a87
 caps.latest.revision: 13
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API

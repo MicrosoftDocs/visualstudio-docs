@@ -14,8 +14,8 @@ f1_keywords:
   - "vs.toolsoptionspages.nuget_package_manager.package_sources"
 ms.assetid: 2175581e-83cb-444c-bb52-cc1fca8ea196
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Adding References Using NuGet Versus an Extension SDK

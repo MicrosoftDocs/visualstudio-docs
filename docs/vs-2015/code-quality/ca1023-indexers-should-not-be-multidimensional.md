@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "IndexersShouldNotBeMultidimensional"
 ms.assetid: ae499879-97f6-434e-a61d-1fedd231d2fb
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1023: Indexers should not be multidimensional

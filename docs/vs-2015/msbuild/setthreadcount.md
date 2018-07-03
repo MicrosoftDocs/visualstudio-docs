@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "SetThreadCount"
 ms.assetid: 335335a5-8ca0-4e18-95f5-62aa6a691386
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # SetThreadCount

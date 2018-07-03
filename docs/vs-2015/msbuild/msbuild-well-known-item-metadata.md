@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "MSBuild, well-known item metadata"
 ms.assetid: b5e791b5-c68f-4978-ad8a-9247d03bb6c0
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # MSBuild Well-known Item Metadata

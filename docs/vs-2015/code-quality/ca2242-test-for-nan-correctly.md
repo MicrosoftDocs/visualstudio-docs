@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "CA2242"
 ms.assetid: e12dcffc-e255-4e1e-8fdf-3c6054d44abe
 caps.latest.revision: 13
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2242: Test for NaN correctly

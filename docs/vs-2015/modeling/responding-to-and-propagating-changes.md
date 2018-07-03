@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, events"
 ms.assetid: fc2e9ac5-7a84-44ed-9945-94e45f89c227
 caps.latest.revision: 26
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Responding to and Propagating Changes

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1812"
 ms.assetid: 1bb92a42-322a-44cc-98a8-8858212c1e1f
 caps.latest.revision: 28
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1812: Avoid uninstantiated internal classes

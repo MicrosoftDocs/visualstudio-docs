@@ -12,8 +12,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C\\C++.Experimental"
 ms.assetid: b9e9dda2-350c-460d-b368-37d6c5342eee
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Options, Text Editor, C/C++, Experimental

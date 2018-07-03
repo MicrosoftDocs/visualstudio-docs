@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "deployment manifests [ClickOnce]"
 ms.assetid: 8457e615-e3b6-4990-8dcf-11bc590e4e9b
 caps.latest.revision: 25
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # ClickOnce Deployment Manifest

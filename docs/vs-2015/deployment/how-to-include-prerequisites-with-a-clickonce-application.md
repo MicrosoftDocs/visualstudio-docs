@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c66bf0a5-8c93-4e68-a224-3b29ac36fe4d
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Include Prerequisites with a ClickOnce Application

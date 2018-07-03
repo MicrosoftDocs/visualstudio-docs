@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "learn Visual Basic"
 ms.assetid: d57bb19f-58d6-48cc-96cb-ab1c540a25d0
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Getting Started with Visual C# and Visual Basic

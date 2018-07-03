@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "EventsShouldNotHaveBeforeOrAfterPrefix"
 ms.assetid: 855772a4-aa9e-410b-88c1-c5fba1ca63da
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1713: Events should not have before or after prefix

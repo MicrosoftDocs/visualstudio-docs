@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 2b2ffe93-c358-4d28-a5e5-3d0474629b58
 caps.latest.revision: 11
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # API Reference for UML Modeling Extensibility

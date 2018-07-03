@@ -14,8 +14,8 @@ dev_langs:
   - "aspx"
 ms.assetid: 2222841f-e443-4a3d-8c70-4506aa905193
 caps.latest.revision: 46
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Create a simple data application by using ADO.NET

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "deploying applications, ClickOnce"
 ms.assetid: 98bcab65-ab8b-4ed1-9adc-fdacf92b8106
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Choosing a ClickOnce Deployment Strategy

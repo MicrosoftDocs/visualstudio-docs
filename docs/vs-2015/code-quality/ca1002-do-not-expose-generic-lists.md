@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "DoNotExposeGenericLists"
 ms.assetid: 5caac810-1a79-47df-a27b-c46c5040bf34
 caps.latest.revision: 22
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1002: Do not expose generic lists

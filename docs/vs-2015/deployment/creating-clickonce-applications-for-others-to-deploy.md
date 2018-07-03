@@ -27,8 +27,8 @@ helpviewer_keywords:
   - "ClickOnce applications, previous .NET Framework"
 ms.assetid: d20766c7-4ef3-45ab-8aa0-3f15b61eccaa
 caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Creating ClickOnce Applications for Others to Deploy

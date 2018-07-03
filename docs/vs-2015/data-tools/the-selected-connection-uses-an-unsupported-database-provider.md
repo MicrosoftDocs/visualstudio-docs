@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4d25dfa1-8fa4-4529-9b90-973bc2ec2993
 caps.latest.revision: 7
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # The selected connection uses an unsupported database provider

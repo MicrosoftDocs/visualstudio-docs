@@ -12,7 +12,7 @@ ms.topic: "article"
 ms.assetid: ac3877e6-5349-4c03-9541-3d5be259f1e8
 caps.latest.revision: 7
 author: "corob-msft"
-ms.author: "corob"
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Using Rule Sets to Specify the C++ Rules to Run

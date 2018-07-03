@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "deploying applications [ClickOnce], installation on CD or DVD"
 ms.assetid: caaec619-900c-4790-90e3-8c91f5347635
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Enable AutoStart for CD Installations

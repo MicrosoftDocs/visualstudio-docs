@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2000b214-ae92-4334-b549-aa0eb4f45fe1
 caps.latest.revision: 19
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Using HTML5 Controls in Coded UI Tests

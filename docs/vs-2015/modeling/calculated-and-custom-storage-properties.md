@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, programming domain properties"
 ms.assetid: 42b785f9-2b0f-4f13-a6b4-246e5e0d477a
 caps.latest.revision: 21
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Calculated and Custom Storage Properties

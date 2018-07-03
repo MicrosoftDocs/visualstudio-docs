@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "InstallVSTemplates switch"
 ms.assetid: 1fb466f6-7955-4535-a840-d93eb8aaa492
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # /InstallVSTemplates (devenv.exe)

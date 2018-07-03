@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "MSBuild, ResolveAssemblyReference task"
 ms.assetid: 4d56d848-b29b-4dff-86a2-0a96c9e4a170
 caps.latest.revision: 32
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # ResolveAssemblyReference Task

@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "prerequisites [.NET Framework], custom bootstrapper package"
 ms.assetid: 2f3edd6a-84d1-4864-a1ae-6a13c5732aae
 caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Walkthrough: Creating a Custom Bootstrapper to Show a Privacy Prompt

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1505"
 ms.assetid: 8292b268-5929-4221-b699-f9c414bcec5d
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1505: Avoid unmaintainable code

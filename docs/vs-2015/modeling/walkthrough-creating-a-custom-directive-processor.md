@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "walkthroughs [text templates], directive processor"
 ms.assetid: b8f35a36-14e1-4467-8f5f-e01402af14d5
 caps.latest.revision: 76
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Walkthrough: Creating a Custom Directive Processor

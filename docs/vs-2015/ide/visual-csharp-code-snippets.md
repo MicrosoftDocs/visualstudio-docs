@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Visual C#, default snippets"
 ms.assetid: dbea3dd6-e650-4190-b874-c9f097d7de6e
 caps.latest.revision: 37
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Visual C# Code Snippets

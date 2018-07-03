@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, swimlane"
 ms.assetid: 47edbc2d-09e4-48ac-b4d1-5268a06a27e6
 caps.latest.revision: 26
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Properties of Swimlanes

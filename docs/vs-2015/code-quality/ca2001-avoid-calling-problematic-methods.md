@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "AvoidCallingProblematicMethods"
 ms.assetid: 19db8edb-31ce-441c-b0de-a0f2746155b7
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2001: Avoid calling problematic methods

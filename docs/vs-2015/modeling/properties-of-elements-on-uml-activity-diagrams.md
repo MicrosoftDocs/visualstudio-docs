@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 9849d45e-65d5-46bd-a319-757e90b7c748
 caps.latest.revision: 19
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Properties of elements on UML activity diagrams

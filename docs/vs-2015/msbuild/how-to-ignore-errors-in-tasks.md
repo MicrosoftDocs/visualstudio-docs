@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "ContinueOnError attribute [MSBuild]"
 ms.assetid: e2f1ca4f-787b-44bd-bc64-81a036025e96
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Ignore Errors in Tasks

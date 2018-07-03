@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "multiple tier applications"
 ms.assetid: f6ae2ee0-ea5f-4a79-8f4b-e21c115afb20
 caps.latest.revision: 25
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Work with datasets in n-tier applications

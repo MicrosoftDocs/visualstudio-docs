@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "application design, securability"
 ms.assetid: 7d32c4cf-8bec-4307-a2a8-42f0ceddf3eb
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Securing Applications

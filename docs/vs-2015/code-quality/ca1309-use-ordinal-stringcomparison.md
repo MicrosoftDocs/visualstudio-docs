@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1309"
 ms.assetid: 19be0854-cb6e-4efd-a4c8-a5c1fc6f7a71
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1309: Use ordinal StringComparison

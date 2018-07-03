@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "manifests [ClickOnce]"
 ms.assetid: 1218a98d-1ad5-4eef-95dd-0e0b3c44168c
 caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Deploying ClickOnce Applications For Testing and Production Servers without Resigning

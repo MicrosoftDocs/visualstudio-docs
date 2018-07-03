@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Text Editor Options dialog box, formatting"
 ms.assetid: cb6f1cbb-5305-48da-a8e8-33fd70775d46
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Options, Text Editor, C/C++, Formatting

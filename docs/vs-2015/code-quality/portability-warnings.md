@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "warnings, portability"
 ms.assetid: 902e859a-2153-4970-baaa-8a5b4a11806f
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Portability Warnings

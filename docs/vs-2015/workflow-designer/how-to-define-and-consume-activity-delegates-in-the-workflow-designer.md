@@ -10,7 +10,7 @@ ms.topic: "reference"
 ms.assetid: c68e42ad-3ec0-4c2d-b104-fe36c6d83b5e
 caps.latest.revision: 3
 author: "steved0x"
-ms.author: "sdanie"
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Define and consume activity delegates in the Workflow Designer

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Build options [C#], advanced"
 ms.assetid: 141f2dee-1563-4ce6-ba37-32920b082519
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Advanced Build Settings Dialog Box (C#)

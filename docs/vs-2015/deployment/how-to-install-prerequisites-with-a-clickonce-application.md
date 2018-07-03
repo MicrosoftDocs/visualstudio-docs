@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "components, bootstrapping"
 ms.assetid: e964fca5-fdfd-47cf-a1c9-7fb96b1c88b5
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Install Prerequisites with a ClickOnce Application

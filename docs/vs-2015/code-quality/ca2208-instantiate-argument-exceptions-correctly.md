@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA2208"
 ms.assetid: e2a48939-d9fa-478c-b2f9-3bdbce07dff7
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2208: Instantiate argument exceptions correctly

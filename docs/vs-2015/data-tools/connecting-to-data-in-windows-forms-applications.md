@@ -38,8 +38,8 @@ helpviewer_keywords:
   - "database connections [Visual Studio], ADO.NET"
 ms.assetid: 184cbd0d-3b26-418d-a11c-f9f8f004fbff
 caps.latest.revision: 31
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

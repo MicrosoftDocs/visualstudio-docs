@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "dislaying data"
 ms.assetid: be8b6623-86a6-493e-ab7a-050de4661fd6
 caps.latest.revision: 42
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Bind controls to data in Visual Studio

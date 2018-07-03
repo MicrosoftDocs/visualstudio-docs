@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3ced8bda-210e-4caf-9d8f-96cdbba19251
 caps.latest.revision: 5
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Cannot create an association &lt;association name&gt; - property listed twice

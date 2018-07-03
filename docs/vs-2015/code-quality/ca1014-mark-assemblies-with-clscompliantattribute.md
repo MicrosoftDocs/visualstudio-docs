@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "MarkAssembliesWithClsCompliant"
 ms.assetid: 4fe57449-cf45-4745-bcd2-6345f1ed266d
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1014: Mark assemblies with CLSCompliantAttribute

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "data [Visual Studio], loading into applications"
 ms.assetid: f9d28e70-07ce-421f-be95-31507b4ba4c3
 caps.latest.revision: 15
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

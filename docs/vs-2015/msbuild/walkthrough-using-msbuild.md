@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "MSBuild, tutorial"
 ms.assetid: b8a8b866-bb07-4abf-b9ec-0b40d281c310
 caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Walkthrough: Using MSBuild

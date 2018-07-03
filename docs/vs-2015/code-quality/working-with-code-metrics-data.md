@@ -18,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: 988193ec-b4a3-4e11-b5a1-7334979807d5
 caps.latest.revision: 19
 author: "erickson-doug"
-ms.author: "douge"
+ms.author: gewarren
 manager: "douge"
 ---
 # Working with Code Metrics Data

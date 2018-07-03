@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Help Viewer 2.0, installing"
 ms.assetid: 51e72eac-d5d7-45e6-8899-04935499d1a6
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Microsoft Help Viewer Installation

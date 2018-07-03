@@ -28,8 +28,8 @@ helpviewer_keywords:
   - "Windows Installer, bootstrapper elements"
 ms.assetid: 5a74878f-b896-4cca-b968-98d00fe78fb0
 caps.latest.revision: 9
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Product and Package Schema Reference

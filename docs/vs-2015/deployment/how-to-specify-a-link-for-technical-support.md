@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "URLs, ClickOnce applications"
 ms.assetid: 500aebee-545e-4831-a78b-b8671a008015
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Specify a Link for Technical Support

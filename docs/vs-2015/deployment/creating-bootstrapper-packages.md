@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "redistributables list"
 ms.assetid: ba1a785b-693d-446b-bcae-b88cadee73d1
 caps.latest.revision: 47
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Creating Bootstrapper Packages

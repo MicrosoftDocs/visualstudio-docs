@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA2238"
 ms.assetid: 00882cf9-e10d-4d40-9126-3e6753e3c934
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2238: Implement serialization methods correctly

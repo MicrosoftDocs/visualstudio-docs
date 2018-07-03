@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CollectionPropertiesShouldBeReadOnly"
 ms.assetid: 26967aaf-6fbe-438a-b4d3-ac579b5dc0f9
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2227: Collection properties should be read only

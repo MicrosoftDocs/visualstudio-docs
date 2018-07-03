@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, decorators"
 ms.assetid: f6322fe5-dc08-4d32-a6b3-0bd18879136d
 caps.latest.revision: 25
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Properties of Decorators

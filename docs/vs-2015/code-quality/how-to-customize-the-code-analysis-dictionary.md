@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "dictionary, code analysis"
 ms.assetid: 667e3b4e-beff-48be-b3d1-376e1716a895
 caps.latest.revision: 23
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # How to: Customize the Code Analysis Dictionary

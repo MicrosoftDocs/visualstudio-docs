@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "debugging, remote"
 ms.assetid: 44eaec8f-9959-4ae7-a374-670946f933c1
 caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Debugging Workflows from a Remote Computer (Legacy)

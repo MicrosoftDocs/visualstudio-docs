@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "lookup tables, creating"
 ms.assetid: 0edd5385-c381-4b17-9096-74e2778db9d5
 caps.latest.revision: 17
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Create lookup tables in Windows Forms applications

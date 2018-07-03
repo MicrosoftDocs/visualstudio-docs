@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Reorder Parameters refactoring [C#]"
 ms.assetid: 4dabf21a-a9f0-41e9-b11b-55760cf2bd90
 caps.latest.revision: 26
-author: "BillWagner"
-ms.author: "wiwagn"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Reorder Parameters Refactoring (C#)

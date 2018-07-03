@@ -14,8 +14,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Environment"
 ms.assetid: 3f463cf0-734b-4fdc-b4ff-b47f9bb99069
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Environment Options Dialog Box

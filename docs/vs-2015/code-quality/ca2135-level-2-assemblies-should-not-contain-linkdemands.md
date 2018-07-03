@@ -13,8 +13,8 @@ f1_keywords:
   - "CA2135"
 ms.assetid: 7a775285-42d2-4f13-8434-3fdb0deeebe6
 caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2135: Level 2 assemblies should not contain LinkDemands

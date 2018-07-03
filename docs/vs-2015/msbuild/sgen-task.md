@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "MSBuild, SGen task"
 ms.assetid: 22c5ade4-4159-4667-b891-0c1aa06f4df5
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # SGen Task

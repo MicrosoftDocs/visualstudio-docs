@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "ClickOnce applications, deployed by others"
 ms.assetid: c21822fb-d4ee-42e4-b72d-41ee9786efe5
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Walkthrough: Manually Deploying a ClickOnce Application that Does Not Require Re-Signing and that Preserves Branding Information

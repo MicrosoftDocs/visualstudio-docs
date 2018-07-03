@@ -13,8 +13,8 @@ f1_keywords:
   - "CA2130"
 ms.assetid: 344c7f7b-9130-4675-ae7f-9fa260cc9789
 caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2130: Security critical constants should be transparent

@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "referencing components, assemblies not listed"
 ms.assetid: 1aabb520-99b0-46c6-9368-21b4d84793eb
 caps.latest.revision: 48
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Add or Remove References By Using the Reference Manager

@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.TransactionScope.UI"
 ms.assetid: 8d7ebfc6-7478-4888-b3b0-b14f296096af
 caps.latest.revision: 8
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # TransactionScope Activity Designer

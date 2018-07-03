@@ -27,8 +27,8 @@ helpviewer_keywords:
   - "Class Designer [Visual Studio], about"
 ms.assetid: 4909e38d-2ea8-4caf-92b1-857bd162ab7c
 caps.latest.revision: 36
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Working with Classes and Other Types (Class Designer)

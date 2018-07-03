@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, events"
 ms.assetid: 0ac8d1e4-239f-4370-ba1d-3769bb38b8a5
 caps.latest.revision: 20
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Event Handlers Propagate Changes Outside the Model

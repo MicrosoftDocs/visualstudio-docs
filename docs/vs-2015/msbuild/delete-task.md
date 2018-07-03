@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "MSBuild, Delete task"
 ms.assetid: 916bb2e3-3017-4828-ae27-c0b5c99bbb48
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Delete Task

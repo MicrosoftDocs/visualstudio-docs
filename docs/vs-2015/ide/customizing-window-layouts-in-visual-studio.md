@@ -26,8 +26,8 @@ helpviewer_keywords:
   - "custom layouts"
 ms.assetid: 7517ff13-76de-4ecf-9c1b-eb9b7ff4d718
 caps.latest.revision: 30
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Customizing window layouts in Visual Studio

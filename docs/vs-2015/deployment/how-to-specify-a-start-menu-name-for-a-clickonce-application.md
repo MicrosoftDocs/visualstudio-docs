@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, Start menu name"
 ms.assetid: 4b5183b2-2fd4-4433-9310-4a73bb12c4e3
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Specify a Start Menu Name for a ClickOnce Application

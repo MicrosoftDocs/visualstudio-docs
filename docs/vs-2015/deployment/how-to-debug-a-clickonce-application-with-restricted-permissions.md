@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "ClickOnce applications, debugging"
 ms.assetid: 6991ea91-5253-451b-923d-22273a3d38b1
 caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Debug a ClickOnce Application with Restricted Permissions

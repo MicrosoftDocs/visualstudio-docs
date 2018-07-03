@@ -18,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: efcc0949-be7e-4cf4-99ef-47c36b3803ae
 caps.latest.revision: 17
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Describe control flow with fragments on UML sequence diagrams

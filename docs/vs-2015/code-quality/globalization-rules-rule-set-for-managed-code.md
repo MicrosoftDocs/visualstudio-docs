@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3c4032ee-0805-4581-8c48-b1827cd6b213
 caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Globalization Rules rule set for managed code

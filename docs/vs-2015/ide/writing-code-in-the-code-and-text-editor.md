@@ -62,8 +62,8 @@ helpviewer_keywords:
   - "code"
 ms.assetid: cb53ab9a-5b76-4759-b9e8-7bf32298ecbe
 caps.latest.revision: 46
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Writing Code in the Code and Text Editor

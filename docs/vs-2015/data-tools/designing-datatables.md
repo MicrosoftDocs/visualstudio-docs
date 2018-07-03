@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "DataTable objects"
 ms.assetid: 17014125-ab28-45ec-8789-01b6fc9a8e6a
 caps.latest.revision: 14
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

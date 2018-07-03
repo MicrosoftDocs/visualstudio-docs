@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "Copy task [MSBuild]"
 ms.assetid: a46ba9da-3e4e-4890-b4ea-09a099b6bc40
 caps.latest.revision: 26
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Copy Task

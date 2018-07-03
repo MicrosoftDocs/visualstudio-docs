@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "UseParamsForVariableArguments"
 ms.assetid: bf98b733-4855-4110-9f16-eba5a9e79421
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2230: Use params for variable arguments

@@ -20,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: 5eddff6a-892a-4c3c-9278-687ac1eccc50
 caps.latest.revision: 38
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # UML Component Diagrams: Reference

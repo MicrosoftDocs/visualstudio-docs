@@ -11,8 +11,8 @@ f1_keywords:
   - "WFDKeyboardShortcuts.UI"
 ms.assetid: 9be75438-a4a3-4781-94e5-45b7ec082358
 caps.latest.revision: 4
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Keyboard Shortcuts in the Workflow Designer

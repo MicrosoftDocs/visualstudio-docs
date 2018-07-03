@@ -13,7 +13,7 @@ f1_keywords:
   - "vs.UnitTest.CreateUnitTest"
 ms.assetid: a80ba9cd-4575-483c-b957-af7ed8dc7e20
 caps.latest.revision: 29
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Unit Test Basics

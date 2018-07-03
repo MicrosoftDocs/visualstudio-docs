@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "walkthroughs [Domain-Specific Language Tools]"
 ms.assetid: 4aa47777-de75-4897-a423-a3c4426b4125
 caps.latest.revision: 24
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Adding a Tracking Property to a Domain-Specific Language Definition

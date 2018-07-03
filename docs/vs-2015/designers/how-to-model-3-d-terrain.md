@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f779b1fd-82a9-4a11-8ab7-c1c9caabc883
 caps.latest.revision: 19
-author: "BrianPeek"
-ms.author: "brpeek"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Model 3-D Terrain

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "UpdateManifest task [MSBuild]"
 ms.assetid: 1291fd33-b89e-4e15-8fb1-69f9625cf2d2
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # UpdateManifest Task

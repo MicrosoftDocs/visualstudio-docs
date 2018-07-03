@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "project build configurations, editing"
 ms.assetid: 19be121c-148e-4ece-bbfc-d20b08cfc3f7
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Create and Edit Configurations

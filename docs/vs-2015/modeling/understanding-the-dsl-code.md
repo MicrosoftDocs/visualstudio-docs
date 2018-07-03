@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, generated code"
 ms.assetid: 8e5c10e4-6323-433e-b88a-5d3d92639030
 caps.latest.revision: 21
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Understanding the DSL Code

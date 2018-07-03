@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7b866776-f2d5-4823-8d15-919f889db26f
 caps.latest.revision: 31
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Test Windows UWP and 8.1 Phone Apps with Coded UI Tests

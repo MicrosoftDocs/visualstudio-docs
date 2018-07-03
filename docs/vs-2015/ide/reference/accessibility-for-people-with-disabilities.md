@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "accessibility [Visual Studio]"
 ms.assetid: 6bbcfc31-edbe-4143-a703-fde023efbb62
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Accessibility for People with Disabilities

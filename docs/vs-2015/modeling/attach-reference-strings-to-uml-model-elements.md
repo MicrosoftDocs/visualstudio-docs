@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 15dbed99-efce-42fe-a768-714a5804e7d1
 caps.latest.revision: 11
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Attach reference strings to UML model elements

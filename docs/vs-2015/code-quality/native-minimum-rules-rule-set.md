@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2d898bc4-fba5-472e-8f09-b0c6b511c5a3
 caps.latest.revision: 5
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Native Minimum Rules rule set

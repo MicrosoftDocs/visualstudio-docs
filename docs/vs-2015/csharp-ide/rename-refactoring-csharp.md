@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Rename refactoring [C#]"
 ms.assetid: 268942fc-b142-4dfa-8d90-bedd548c2e4f
 caps.latest.revision: 45
-author: "BillWagner"
-ms.author: "wiwagn"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Rename Refactoring (C#)

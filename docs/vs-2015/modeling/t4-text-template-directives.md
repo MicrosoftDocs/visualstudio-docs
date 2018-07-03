@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "text templates, template directive"
 ms.assetid: 6898ee02-ebb2-4635-a4e9-350774c13cf2
 caps.latest.revision: 83
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # T4 Text Template Directives
