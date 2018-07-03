@@ -19,20 +19,20 @@ In this section, you'll find solutions to common issues with Visual Studio Tools
 
 ### Confirm Editor Attaching is enabled
 
-In the Unity Menu, select **Edit > Preferences** and then select the **External Tools** tab. Confirm that the **Editor Attaching** checkbox is enabled. For more information, consult the [Unity Preferences documentation](https://docs.unity3d.com/Manual/Preferences.html).
+In the Unity Menu, select **Edit > Preferences** and then select the **External Tools** tab. Confirm that the **Editor Attaching** checkbox is enabled. For more information, see the [Unity Preferences documentation](https://docs.unity3d.com/Manual/Preferences.html).
 
 ### Unable to attach
 
 - Try to temporarily disable your antivirus or create exclusion rules for both VS and Unity.
 - Try to temporarily disable your firewall or create rules for allowing TCP/UDP networking between VS and Unity.
-- We identified that programs like Team Viewer are interfering with process detection; perhaps you can try to stop temporarily any extra software to see if it changes something.
+- Some programs, like Team Viewer, can interfere with process detection. You can try to temporarily stop any extra software to see if it changes something.
 - Do not rename the main Unity executable, as VSTU is only monitoring "Unity.exe" processes.
 
 ## Visual Studio crashes
 
-This can be due to the Visual Studio MEF cache being corrupted.
+This issue can be due to the Visual Studio MEF cache being corrupted.
 
-You should remove the following folder to reset the MEF cache (please close Visual Studio before doing this):
+Try removing the following folder to reset the MEF cache (close Visual Studio before doing this):
 
 ```batch
 %localappdata%\Microsoft\VisualStudio\<version>\ComponentModelCache
@@ -46,11 +46,11 @@ This should fix your issue. In case you are still experiencing the problem, run 
 
 ## Shader files without code coloration when using Visual Studio 2017
 
-Please make sure that the "Desktop Development with C++" workload is installed in your instance of Visual Studio 2017. The C/C++ parser used for code coloration is bundled with this workload.
+Ensure that the "Desktop Development with C++" workload is installed in your instance of Visual Studio 2017. The C/C++ parser used for code coloration is bundled with this workload.
 
 ## Visual Studio hangs
 
-Several Unity plugins like Parse, FMOD, UMP (Universal Media Player), ZFBrowser or Embedded Browser are using native threads. It’s an issue when a plugin ends up attaching a native thread to the runtime, which then does blocking calls to the OS. This means Unity can't interrupt that thread for the debugger (or domain reload) and hang.
+Several Unity plugins like Parse, FMOD, UMP (Universal Media Player), ZFBrowser, or Embedded Browser are using native threads. It’s an issue when a plugin ends up attaching a native thread to the runtime, which then does blocking calls to the OS. This means Unity can't interrupt that thread for the debugger (or domain reload) and hang.
 
 For FMOD, there is a workaround, you can pass FMOD_STUDIO_INIT_SYNCHRONOUS_UPDATE initialization [flag](https://www.fmod.org/docs/content/generated/FMOD_STUDIO_INITFLAGS.html) to disable asynchronous processing and perform all processing on the main thread.
 
@@ -62,7 +62,7 @@ First, check that Visual Studio is set as your external script editor in Unity (
 
 Be sure to never touch project files directly from an asset processor or any other tool. If you really need to manipulate the project file, we expose an API for that. Please check the [Assembly references issues section](#Assembly-reference-issues).
 
-If you experience extra reloads or if Visual Studio is losing all open Windows on reload, please make sure that you have proper .NET targeting packs installed. Please check the following section about frameworks for more information.
+If you experience extra reloads or if Visual Studio is losing all open Windows on reload, make sure that you have proper .NET targeting packs installed. Check the following section about frameworks for more information.
 
 ## The debugger does not break on exceptions
 
@@ -84,11 +84,11 @@ If your project is complex reference-wise or if you want to better control this 
 
 ## Breakpoints with a warning
 
-If Visual Studio is unable to find a source location for a specific breakpoint you will see a warning around your breakpoint. Check that the behaviour you are using is properly loaded/used in the current Unity scene.
+If Visual Studio is unable to find a source location for a specific breakpoint you will see a warning around your breakpoint. Check that the script you are using is properly loaded/used in the current Unity scene.
 
 ## Breakpoints not hit
 
-Check that the behaviour you are using is properly loaded/used in the current Unity scene. Quit both Visual Studio and Unity then delete all generated files (*.csproj, *.sln) and the whole Library folder.
+Check that the script you are using is properly loaded/used in the current Unity scene. Quit both Visual Studio and Unity then delete all generated files (*.csproj, *.sln) and the whole Library folder.
 
 ## Unable to debug Android players
 
@@ -100,7 +100,7 @@ USB is super-fast for debugging, and Visual Studio Tools for Unity is now able t
 
 ## Issues with Visual Studio 2015 and IntelliSense or code coloration
 
-You should try to upgrade your Visual Studio 2015 to update 3.
+Try upgrading your Visual Studio 2015 to update 3.
 
 ## Known Issues
 
