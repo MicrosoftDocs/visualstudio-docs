@@ -85,6 +85,19 @@ textDocument/rename | yes
 
 ## Getting Started
 
+[!NOTE]
+Starting with Visual Studio 15.8 Preview 3, support for the common language server protocol is built into Visual Studio.  If you've built LSP extensions using our preview [Language Server Client VSIX](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview) version, they will stop working once to you've upgraded to 15.8 Preview 3 or higher.  You will need to do the following to get your LSP extensions working again:
+
+1. Uninstall the Microsoft Visual Studio Language Server Protocol Preview VSIX.  Starting with 15.8 Preview 4, every time you perform an upgrade in Visual Studio, we will automatically detect and remove the preview VSIX for you during the upgrade process.
+
+2. Update your Nuget reference to the latest non-preview version for [LSP packages](https://www.nuget.org/packages/Microsoft.VisualStudio.LanguageServer.Client).
+
+3. Remove the dependency to the Microsoft Visual Studio Language Server Protocol Preview VSIX in your VSIX manifest.
+
+4. Make sure your VSIX specifies Visual Studio 15.8 Preview 3 as the lower bound for install target.
+
+5. Rebuild and re-deploy.
+
 ### Create a VSIX project
 
 To create a language service extension using an LSP-based language server, first make sure you have the **Visual Studio extension development** Workload installed for your instance of VS.
