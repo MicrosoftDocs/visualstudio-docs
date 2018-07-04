@@ -41,14 +41,28 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
 3.  Create an [IDSymbol](../extensibility/idsymbol-element.md) element for each menu, group, or command that you want to add, as shown in the following example.  
   
-     [!code[ButtonGroup#01](../snippets/common/VS_Snippets_VSSDK/buttongroup/common/buttongroup.vsct#01)]  
-  
+    ```xml
+    <GuidSymbol name="guidButtonGroupCmdSet" value="{f69209e9-975a-4543-821d-1f4a2c52d737}">
+      <IDSymbol name="MyMenuGroup" value="0x1020" />
+      <IDSymbol name="cmdidMyCommand" value="0x0100" />
+    </GuidSymbol>
+    ```
+      
      The `name` attributes of the `GuidSymbol` and `IDSymbol` elements provide the GUID:ID pair for each new menu, group, or command. The `guid` represents a command set that is defined for your VSPackage. You can define multiple command sets. Each GUID:ID pair must be unique.  
   
 4.  In the [Buttons](../extensibility/buttons-element.md) section, create a [Button](../extensibility/button-element.md) element to define the command, as shown in the following example.  
   
-     [!code[ButtonGroup#03](../snippets/common/VS_Snippets_VSSDK/buttongroup/common/buttongroup.vsct#03)]  
-  
+    ```xml
+    <Button guid="guidButtonGroupCmdSet" id="cmdidMyCommand" priority="0x0100" type="Button">
+      <Parent guid="guidButtonGroupCmdSet" id="MyMenuGroup" />
+      <Icon guid="guidImages" id="bmpPic1" />
+      <Strings>
+        <CommandName>cmdidMyCommand</CommandName>
+        <ButtonText>My Command name</ButtonText>
+      </Strings>
+    </Button>
+    ``` 
+     
     1.  Set the `guid` and `id` fields to match the GUID:ID of the new command.  
   
     2.  Set the `priority` attribute.  
@@ -79,12 +93,27 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
          The following example defines a command that will appear on a user-defined menu.  
   
-         [!code[TopLevelMenu#03](../snippets/common/VS_Snippets_VSSDK/toplevelmenu/common/toplevelmenu.vsct#03)]  
-  
+        ```xml
+        <Button guid="guidTopLevelMenuCmdSet" id="cmdidTestCommand" priority="0x0100" type="Button">
+          <Parent guid="guidTopLevelMenuCmdSet" id="MyMenuGroup" />
+          <Icon guid="guidImages" id="bmpPic1" />
+          <Strings>
+            <CommandName>cmdidTestCommand</CommandName>
+            <ButtonText>Test Command</ButtonText>
+              </Strings>
+        </Button>
+        ```
+      
     -   You may omit the `Parent` element if the command is to be positioned by using command placement. Create a [CommandPlacements](../extensibility/commandplacements-element.md) element before the `Symbols` section, and add a [CommandPlacement](../extensibility/commandplacement-element.md) element that has the `guid` and `id` of the command, a `priority`, and a parent, as shown in the following example.  
   
-         [!code[ButtonGroup#04](../snippets/common/VS_Snippets_VSSDK/buttongroup/common/buttongroup.vsct#04)]  
-  
+    ```xml
+    <CommandPlacements>
+      <CommandPlacement guid="guidButtonGroupCmdSet" id="cmdidMyCommand" priority="0x105">
+        <Parent guid="guidButtonGroupCmdSet" id="MyMenuGroup" />
+      </CommandPlacement>
+    </CommandPlacements>
+    ```
+      
          Creating multiple command placements that have the same GUID:ID and have different parents causes a menu to appear in multiple locations. For more information, see [CommandPlacements](../extensibility/commandplacements-element.md) element.  
   
      For more information about command groups and parenting, see [Creating Reusable Groups of Buttons](../extensibility/creating-reusable-groups-of-buttons.md).  
@@ -120,8 +149,18 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
      Commands created by the package template are passed by default to a <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object in the `Initialize()` method of the package class. The Visual Studio wizard implements the `Initialize` method by using `MenuCommand`. For dynamic menu item displays, you must change this to `OleMenuCommand`, as is shown in the next step. Furthermore, to change the menu item text, you must add a TextChanges command flag to the menu command button in the .vsct file, as is shown in the following example  
   
-     [!code[MenuText#02](../snippets/common/VS_Snippets_VSSDK/menutext/common/menutext.vsct#02)]  
-  
+    ```xml
+    <Button guid="guidMenuTextCmdSet" id="cmdidMyCommand" priority="0x0100" type="Button">
+      <Parent guid="guidMenuTextCmdSet" id="MyMenuGroup" />
+      <Icon guid="guidImages" id="bmpPic1" />
+      <CommandFlag>TextChanges</CommandFlag>
+      <Strings>
+        <CommandName>cmdidMyCommand</CommandName>
+        <ButtonText>My Command name</ButtonText>
+      </Strings>
+    </Button>
+    ```
+      
 5.  Pass the new menu command to the <xref:System.ComponentModel.Design.IMenuCommandService.AddCommand%2A> method in the <xref:System.ComponentModel.Design.IMenuCommandService> interface. This is accomplished by default for commands created by the package template, as shown in the following example  
   
      [!code-csharp[ButtonGroup#24](../snippets/csharp/VS_Snippets_VSSDK/buttongroup/cs/buttongrouppackage.cs#24)]  

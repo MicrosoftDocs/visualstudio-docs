@@ -57,8 +57,22 @@ You can create a custom Start Page either by using the Start Page Project Templa
   
 3.  Remove all of the page content, leaving only the outer xml elements and the containing grid <xref:System.Windows.Controls.Grid> element, so that your .xaml file resembles the following example.  
   
-     [!code-xml[BlankStartPage#01](../snippets/csharp/VS_Snippets_VSSDK/blankstartpage/cs/usercontrol1.xaml#01)]  
-  
+    ```xaml
+       <Grid xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                 xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                 xmlns:sp="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Shell.StartPage"
+                 xmlns:vs="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Shell.10.0"
+                 xmlns:vsfx="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.10.0"
+             mc:Ignorable="d" 
+                 d:DesignHeight="600" d:DesignWidth="800">
+        <Grid>
+            <!--Add content here.-->
+        </Grid>
+    </Grid>
+    ```
+      
 4.  Remove any supporting files you do not intend to use.  
   
      You should keep the .vsix and .pkgdef files for deployment purposes.  
