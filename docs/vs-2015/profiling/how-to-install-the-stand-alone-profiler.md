@@ -23,7 +23,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [How to: Install the Stand-Alone Profiler](https://docs.microsoft.com/visualstudio/profiling/how-to-install-the-stand-alone-profiler).  
   
-INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides a command line based stand-alone profiler that can be run without installing the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE. This situation occurs when a computer does not or cannot have a development environment installed. For example, you should not install a development environment on a production Web server.  
+[INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides a command line based stand-alone profiler that can be run without installing the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE. This situation occurs when a computer does not or cannot have a development environment installed. For example, you should not install a development environment on a production Web server.  
   
 > [!NOTE]
 >  When you are using the stand-alone profiler to collect performance data for ASP.NET Web site, the [VSPerfASPNetCmd](../profiling/vsperfaspnetcmd.md) line tool is recommended over [VSPerfCmd](../profiling/vsperfcmd.md) tool.  

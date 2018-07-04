@@ -30,7 +30,7 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [ClickOnce Unmanaged API Reference](https://docs.microsoft.com/visualstudio/deployment/clickonce-unmanaged-api-reference).  
   
-INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] unmanaged public APIs from dfshim.dll.  
+[INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] unmanaged public APIs from dfshim.dll.  
   
 ## CleanOnlineAppCache  
  Cleans or uninstalls all online applications from the [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application cache.  

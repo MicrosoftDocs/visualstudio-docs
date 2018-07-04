@@ -24,7 +24,7 @@ manager: "ghogen"
 The latest version of this topic can be found at [MSBuild Batching](https://docs.microsoft.com/visualstudio/msbuild/msbuild-batching).  
   
   
-INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] has the ability to divide item lists into different categories, or batches, based on item metadata, and run a target or task one time with each batch.  
+[INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] has the ability to divide item lists into different categories, or batches, based on item metadata, and run a target or task one time with each batch.  
   
 ## Task Batching  
  Task batching allows you to simplify your project files by providing a way to divide item lists into different batches and pass each of those batches into a task separately. This means that a project file only needs to have the task and its attributes declared once, even though it can be run several times.  

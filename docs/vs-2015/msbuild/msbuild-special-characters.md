@@ -25,7 +25,7 @@ manager: "ghogen"
 The latest version of this topic can be found at [MSBuild Special Characters](https://docs.microsoft.com/visualstudio/msbuild/msbuild-special-characters).  
   
   
-INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] reserves some characters for special use in specific contexts. You only have to escape such characters if you want to use them literally in the context in which they are reserved. For example, an asterisk has special meaning only in the `Include` and `Exclude` attributes of an item definition, and in calls to `CreateItem`. If you want an asterisk to appear as an asterisk in one of those contexts, you must escape it. In every other context, just type the asterisk where you want it to appear.  
+[INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] reserves some characters for special use in specific contexts. You only have to escape such characters if you want to use them literally in the context in which they are reserved. For example, an asterisk has special meaning only in the `Include` and `Exclude` attributes of an item definition, and in calls to `CreateItem`. If you want an asterisk to appear as an asterisk in one of those contexts, you must escape it. In every other context, just type the asterisk where you want it to appear.  
   
  To escape a special character, use the syntax %*xx*, where *xx* represents the ASCII hexadecimal value of the character. For more information, see [How to: Escape Special Characters in MSBuild](../msbuild/how-to-escape-special-characters-in-msbuild.md).  
   

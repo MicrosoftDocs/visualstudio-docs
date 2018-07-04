@@ -28,7 +28,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [Debugging a Multithreaded App using the Threads Window](https://docs.microsoft.com/visualstudio/debugger/how-to-use-the-threads-window).  
   
-INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] provides an improved **Threads** window and other user interface improvements to make it easier to debug multithreaded applications. This walkthrough takes only a few minutes, but completing it will familiarize you with the new interface features for debugging multithreaded applications.  
+[INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] provides an improved **Threads** window and other user interface improvements to make it easier to debug multithreaded applications. This walkthrough takes only a few minutes, but completing it will familiarize you with the new interface features for debugging multithreaded applications.  
   
  To begin this walkthrough, you need a multithreaded application project. Follow the steps listed here to create that project.  
   

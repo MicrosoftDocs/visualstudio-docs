@@ -29,7 +29,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [How to: Configure Projects to Target Platforms](https://docs.microsoft.com/visualstudio/ide/how-to-configure-projects-to-target-platforms).  
   
-INCLUDE[vsprvs](../includes/vsprvs-md.md)] enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], see [64-bit Applications](http://msdn.microsoft.com/library/fd4026bc-2c3d-4b27-86dc-ec5e96018181).  
+[INCLUDE[vsprvs](../includes/vsprvs-md.md)] enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], see [64-bit Applications](http://msdn.microsoft.com/library/fd4026bc-2c3d-4b27-86dc-ec5e96018181).  
   
 ## Targeting Platforms with the Configuration Manager  
  The **Configuration Manager** provides a way for you to quickly add a new platform to target with your project. If you select one of the platforms included with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], the properties for your project are modified to build your project for the selected platform.  

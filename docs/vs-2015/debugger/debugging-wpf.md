@@ -28,7 +28,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [Debugging WPF](https://docs.microsoft.com/visualstudio/debugger/debugging-wpf).  
   
-INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] provides additional features to make debugging WPF applications easier.  
+[INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] provides additional features to make debugging WPF applications easier.  
   
 ## Related Topics  
   
