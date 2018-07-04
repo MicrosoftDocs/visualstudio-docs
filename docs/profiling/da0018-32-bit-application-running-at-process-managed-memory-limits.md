@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# DA0018: 32-bit Application running at process managed memory limits
+# DA0018: 32-bit Application running at process-managed memory limits
 |||  
 |-|-|  
 |Rule Id|DA0018|  
@@ -33,14 +33,14 @@ ms.workload:
   
  The Rule only fires for 32-bit applications running on 32-bit machines.  
   
-## Rule Description  
+## Rule description  
  The Microsoft .NET common language run-time (CLR) provides an automatic memory management mechanism that uses a garbage collector to reclaim memory from objects that the application no longer uses. The garbage collector is generation-oriented, based on the assumption that many allocations are short-lived. Local variables, for example, should be short-lived. Newly created objects start in generation 0 (gen 0), and then they progress to generation 1 when they survive a garbage collection run, and finally transition to generation 2 if the application still uses them.  
   
  Managed objects that are larger than 85 KB are allocated on the Large Object Heap, where they are subject to less frequent garbage collection and compaction than smaller objects. large objects are managed separately because it is assumed that they are more persistent and because mixing persistent and large objects with frequently allocated smaller objects can produce worst-cast fragmentation of the heap.  
   
  As the total size of the managed heaps approach the default limit, the overhead of memory management usually increases to the point where it can start to impact the responsiveness and scalability of the application.  
   
-## How to Investigate a Warning  
+## How to investigate a warning  
  Double-click the message in the Error List window to navigate to the [Marks](../profiling/marks-view.md) view. Find the **.NET CLR Memory\\# Bytes in all Heaps** and **# Total committed bytes** columns. Determine if there are specific phases of program execution where managed memory allocation is heavier than other phases. Compare the values of the **# Bytes in all Heaps** column to the rate of garbage collection reported in the **.NET CLR Memory\\# of Gen 0 Collections**, **.NET CLR Memory\\# of Gen 1 Collections**, and **.NET CLR Memory\\# of Gen 2 Collections** columns to determine if the pattern of managed memory allocations is affecting the rate of garbage collection.  
   
  In a .NET Framework application, the common language runtime limits the total size of the managed heaps to slightly less than one-half of the maximum size of the private area portion of a process address space. For a 32-bit processes running on a 32-bit machine, 2 GB represents the upper limit of the private portion of the process address space. As the total size of the managed Heaps begins to approach its default limit, the overhead of managing memory might increase and application performance can decrease.  
@@ -63,4 +63,4 @@ ms.workload:
   
  To gain architectural relief from the virtual memory constraints on the size of the private portion of a process address space, try running this 32-bit process on a 64-bit machine.  A 32-bit process on a 64-bit machine can acquire up to 4 GB of private virtual memory.  
   
- A 64-bit process running on a 64-bit machine can acquire up to 8 TB of virtual memory. Consider re-compiling the application to execute as a native 64-bit application. This rule is for information only, and might not require corrective action.
+ A 64-bit process running on a 64-bit machine can acquire up to 8 TB of virtual memory. Consider recompiling the application to execute as a native 64-bit application. This rule is for information only, and might not require corrective action.

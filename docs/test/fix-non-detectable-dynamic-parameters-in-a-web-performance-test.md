@@ -31,13 +31,13 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
 1.  Create a new ASP.NET project named DynamicParamaterSample.
 
-     ![Create an empty ASP.NET web application project](../test/media/web_test_dynamicparameter_aspproject.png "Web_Test_DynamicParameter_ASPProject")
+     ![Create an empty ASP.NET web application project](../test/media/web_test_dynamicparameter_aspproject.png)
 
 2.  Add a web form named Querystring.aspx.
 
 3.  In design view, drag a HiddenField onto the page and in then in change the value for the (ID) property to HiddenFieldSessionID.
 
-     ![Add a HiddenField](../test/media/web_test_dynamicparameter_hiddenfield.png "Web_Test_DynamicParameter_HiddenField")
+     ![Add a HiddenField](../test/media/web_test_dynamicparameter_hiddenfield.png)
 
 4.  Change to the source view for the Querystring page, and add the following highlighted ASP.NET and JavaScript code used to generate the mock session ID dynamic parameters:
 
@@ -72,19 +72,19 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
 7.  In design view, drag a Label onto the page and change the value for its (ID) property to IndexLabel.
 
-     ![Add a label to the web form](../test/media/web_test_dynamicparameter_label.png "Web_Test_DynamicParameter_Label")
+     ![Add a label to the web form](../test/media/web_test_dynamicparameter_label.png)
 
 8.  Drag a HyperLink onto the page and change the vale for its Text property to Back.
 
-     ![Add a hyperlink to the web form](../test/media/web_test_dynamicparameter_hyperlink.png "Web_Test_DynamicParameter_Hyperlink")
+     ![Add a hyperlink to the web form](../test/media/web_test_dynamicparameter_hyperlink.png)
 
 9. Choose (…) for the NavigationURL property.
 
-     ![Edit the NavigateURL property](../test/media/web_test_dynamicparameter_hyperlink_navurl.png "Web_Test_DynamicParameter_Hyperlink_NavURL")
+     ![Edit the NavigateURL property](../test/media/web_test_dynamicparameter_hyperlink_navurl.png)
 
      Select Querystring.aspx.
 
-     ![Choose the URL to be Querystring.aspx](../test/media/web_test_dynamicparameter_hyperlink_navurl2.png "Web_Test_DynamicParameter_Hyperlink_NavURL2")
+     ![Choose the URL to be Querystring.aspx](../test/media/web_test_dynamicparameter_hyperlink_navurl2.png)
 
 10. Open the ASPQuery.aspx.cs file, and add the following highlighted code to the Page_Load method:
 
@@ -99,7 +99,7 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
      Just as we did for the second page, drag a label onto the form, setting its (ID) property to IndexLabel and drag a Hyperlink onto the form, setting its text property to Back, and its NavigationURL property to Querystring.aspx.
 
-     ![Add and configure the third web form](../test/media/web_test_dynamicparameter_addwebform3.png "Web_Test_DynamicParameter_AddWebForm3")
+     ![Add and configure the third web form](../test/media/web_test_dynamicparameter_addwebform3.png)
 
 12. Open the JScriptQuery.aspx.cs file, and add the following highlighted code to the Page_Load method:
 
@@ -114,33 +114,33 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
 14. In Solution Explorer, set the Querystring.aspx as the start page.
 
-     ![Set the start page on Querystring.aspx](../test/media/web_test_dynamicparameter_setstartpage.png "Web_Test_DynamicParameter_SetStartPage")
+     ![Set the start page on Querystring.aspx](../test/media/web_test_dynamicparameter_setstartpage.png)
 
 15. Press CTRL+F5 to run the Web application in the browser. Copy the URL. You will need it when you record your test.
 
 16. Try both links. They should each display the message "Success. Dynamic querystring parameter found."
 
-     ![Run the web app](../test/media/web_test_dynamicparameter_runapp.png "Web_Test_DynamicParameter_RunApp")
+     ![Run the web app](../test/media/web_test_dynamicparameter_runapp.png)
 
-     ![Success&#33;](../test/media/web_test_dynamicparameter_runapp2.png "Web_Test_DynamicParameter_RunApp2")
+     ![Success&#33;](../test/media/web_test_dynamicparameter_runapp2.png)
 
 ## Create a web performance test
 
 1.  Add a web performance and load test project to your solution.
 
-     ![Add a web perfromance and load test project](../test/media/web_test_dynamicparameter_addtestproject.png "Web_Test_DynamicParameter_AddTestProject")
+     ![Add a web perfromance and load test project](../test/media/web_test_dynamicparameter_addtestproject.png)
 
 2.  Rename WebTest1.webtest to DynamicParameterSampleApp.webtest.
 
-     ![Rename the web performance test](../test/media/web_test_dynamicparameter_renametest.png "Web_Test_DynamicParameter_RenameTest")
+     ![Rename the web performance test](../test/media/web_test_dynamicparameter_renametest.png)
 
 3.  Record the test.
 
-     ![Record the web performance test](../test/media/web_test_dynamicparameter_recordtest.png "Web_Test_DynamicParameter_RecordTest")
+     ![Record the web performance test](../test/media/web_test_dynamicparameter_recordtest.png)
 
 4.  Copy and paste the URL from the web site you're testing into the browser.
 
-     ![Paste the URL from the web site being tested](../test/media/web_test_dynamicparameter_recordtest2.png "Web_Test_DynamicParameter_RecordTest2")
+     ![Paste the URL from the web site being tested](../test/media/web_test_dynamicparameter_recordtest2.png)
 
 5.  Browse through the web application. Choose the ASP.NET link, the Back link, and then the javascript link, followed by the back link.
 
@@ -154,15 +154,15 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
      Choose OK to add an extraction rule to Querystring.aspx, binding it to the ASPQuery page.
 
-     ![Promote the detected dynamic parameter](../test/media/web_test_dynamicparameter_promotedialog.png "Web_Test_DynamicParameter_PromoteDialog")
+     ![Promote the detected dynamic parameter](../test/media/web_test_dynamicparameter_promotedialog.png)
 
      The extraction rule is added to the first request for Querystring.aspx.
 
-     ![Extraction rule added to request](../test/media/web_test_dynamicparameter_autoextractionrule.png "Web_Test_DynamicParameter_AutoExtractionRule")
+     ![Extraction rule added to request](../test/media/web_test_dynamicparameter_autoextractionrule.png)
 
      Expand the second request in the request tree for ASPQuery.aspx and notice that the CustomQueryString's value has been bound to the extraction rule.
 
-     ![CustomQueryString bound to extraction rule](../test/media/web_test_dynamicparameter_autoextractionrule2.png "Web_Test_DynamicParameter_AutoExtractionRule2")
+     ![CustomQueryString bound to extraction rule](../test/media/web_test_dynamicparameter_autoextractionrule2.png)
 
 8.  Save the test.
 
@@ -170,19 +170,19 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
 1.  Run the test.
 
-     ![Run the web performance test](../test/media/web_test_dynamicparameter_runtest.png "Web_Test_DynamicParameter_RunTest")
+     ![Run the web performance test](../test/media/web_test_dynamicparameter_runtest.png)
 
 2.  The fourth request for the JScriptQuery.aspx page fails. Go to the web test.
 
-     ![Dynamic parameter error in test results](../test/media/web_test_dynamicparameter_runresults.png "Web_Test_DynamicParameter_RunResults")
+     ![Dynamic parameter error in test results](../test/media/web_test_dynamicparameter_runresults.png)
 
      The JScriptQuery.aspx request node is highlighted in the editor. Expand the node and notice that the "1v0yhyiyr0raa2w4j4pwf5zl" portion of the CustomQueryString appears to be dynamic.
 
-     ![Suspected dynamic parameter in CustomQueryString](../test/media/web_test_dynamicparameter_runresults2.png "Web_Test_DynamicParameter_RunResults2")
+     ![Suspected dynamic parameter in CustomQueryString](../test/media/web_test_dynamicparameter_runresults2.png)
 
 3.  Return to the Web Performance Test Results Viewer and select the JScriptQuery.aspx page that failed. Then, choose the request tab, verify that the show raw data check box is cleared, scroll down and choose quick find on the CustomQueryString.
 
-     ![Use quick find to isolate the dynamic paramter](../test/media/web_test_dynamicparameter_runresultsquckfind.png "Web_Test_DynamicParameter_RunResultsQuckFind")
+     ![Use quick find to isolate the dynamic paramter](../test/media/web_test_dynamicparameter_runresultsquckfind.png)
 
 4.  We know from looking at the test editor, that the JScriptQuery.aspx request's CustomQueryString was assigned a value of: `jScriptQueryString___1v0yhyiyr0raa2w4j4pwf5zl`, and that the suspected dynamic portion is "1v0yhyiyr0raa2w4j4pwf5zl". In the find what drop-down list, remove the suspect portion of the search string. The string should be "CustomQueryString=jScriptQueryString___".
 
@@ -192,7 +192,7 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
      As shown in the response tab, and in the JavaScript implemented earlier shown below, the query string parameter CustomQueryString is assigned a value of " jScriptQueryString___" and is also concatenated with the returned value from the var sessionId.
 
-    ```
+    ```javascript
     function jScriptQueryString()          {             var Hidden = document.getElementById("HiddenFieldSessionID");             var sessionId = Hidden.value;             window.location = 'JScriptQuery.aspx?CustomQueryString=jScriptQueryString___' + sessionId;          }
 
     ```
@@ -201,43 +201,43 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
 5.  Use quick find on HiddenFieldSessionID, clearing the search up check box and selecting current request.
 
-     ![Use quick find on HiddenFieldSession](../test/media/web_test_dynamicparameter_runresultsquckfindhiddensession.png "Web_Test_DynamicParameter_RunResultsQuckFindHiddenSession")
+     ![Use quick find on HiddenFieldSession](../test/media/web_test_dynamicparameter_runresultsquckfindhiddensession.png)
 
      Notice that the value returned is not the same string as in the original web performance test recording. For this test run, the value returned is "5w4v3yrse4wa4axrafykqksq" and in the original recording, the value is "1v0yhyiyr0raa2w4j4pwf5zl". Because the value does not match that of the original recording, the error is generated.
 
 6.  Because we have to fix the dynamic parameter in the original recording, choose recorded result in the toolbar.
 
-     ![Choose recorded result](../test/media/web_test_dynamicparameter_recordedresult.png "Web_Test_DynamicParameter_RecordedResult")
+     ![Choose recorded result](../test/media/web_test_dynamicparameter_recordedresult.png)
 
 7.  In the recorded results, select the third request, which is the same Querystringrequest.aspx request that you isolated in the test run results.
 
-     ![Choose the same request in the recorded results](../test/media/web_test_dynamicparameter_recordedresultsselectnode.png "Web_Test_DynamicParameter_RecordedResultsSelectNode")
+     ![Choose the same request in the recorded results](../test/media/web_test_dynamicparameter_recordedresultsselectnode.png)
 
      Choose the response tab, scroll down and choose the original dynamic parameter value of "1v0yhyiyr0raa2w4j4pwf5zl" that you isolated previously and add an extraction rule.
 
-     ![Add an extraction rule for the dynamic parameter](../test/media/web_test_dynamicparameter_recordedresultaddextractionrule.png "Web_Test_DynamicParameter_RecordedResultAddExtractionRule")
+     ![Add an extraction rule for the dynamic parameter](../test/media/web_test_dynamicparameter_recordedresultaddextractionrule.png)
 
      The new extraction rule is added to the Querystring.aspx request and is assigned a value of 'Param0'.
 
      If the dialog box informs us that matches were found for the extracted text to bind the parameter to, choose yes.
 
-     ![Extraction rule created](../test/media/web_test_dynamicparameter_addextractiondialog.png "Web_Test_DynamicParameter_AddExtractionDialog")
+     ![Extraction rule created](../test/media/web_test_dynamicparameter_addextractiondialog.png)
 
 8.  Choose find next. The first match is the one that we need to change, which is the parameter for CustomQueryString in for the JScriptQuery page.
 
-     ![Find and replace the text for the parameter](../test/media/web_test_dynamicparameter_addextractionfindreplace.png "Web_Test_DynamicParameter_AddExtractionFindReplace")
+     ![Find and replace the text for the parameter](../test/media/web_test_dynamicparameter_addextractionfindreplace.png)
 
 9. Choose replace.
 
-     ![Replace the text with the parameter](../test/media/web_test_dynamicparameter_addextractionfindreplace2.png "Web_Test_DynamicParameter_AddExtractionFindReplace2")
+     ![Replace the text with the parameter](../test/media/web_test_dynamicparameter_addextractionfindreplace2.png)
 
      The QueryString parameter under the JScriptQuery.aspx request is updated by using the new context parameter:  CustomQueryString=jScriptQueryString___{{Param0}}.
 
-     ![Parameter applied to querystring](../test/media/web_test_dynamicparameter_addextractionfindreplace3.png "Web_Test_DynamicParameter_AddExtractionFindReplace3")
+     ![Parameter applied to querystring](../test/media/web_test_dynamicparameter_addextractionfindreplace3.png)
 
 10. Close the find and replace dialog. Notice the similar structure of in the request tree between the detected dynamic parameter and the non-detected dynamic parameter that you correlated.
 
-     ![Detected and correlated dynamic parameters](../test/media/web_test_dynamicparameter_conclusion.png "Web_Test_DynamicParameter_Conclusion")
+     ![Detected and correlated dynamic parameters](../test/media/web_test_dynamicparameter_conclusion.png)
 
 11. Run the test. It now runs without failure.
 
@@ -259,4 +259,4 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
 ### Q: Do I need to configure Visual Studio to detect dynamic parameters?
 
- **A:** The default Visual Studio configuration is to detect dynamic parameters when you record a web performance test. However, if you have Visual Studio options configured not to detect dynamic parameters, or the web application being tested gets modified with additional dynamic parameters; you can still [run dynamic parameter detection from the Web Performance Test Editor](#FindingNonDetectableDynamicParamters_QA_ReRunDetection).
+ **A:** The default Visual Studio configuration is to detect dynamic parameters when you record a web performance test. However, if you have Visual Studio options configured not to detect dynamic parameters, or the web application being tested gets modified with additional dynamic parameters; you can still run dynamic parameter detection from the Web Performance Test Editor.

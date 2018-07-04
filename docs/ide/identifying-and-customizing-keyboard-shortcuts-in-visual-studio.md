@@ -43,7 +43,7 @@ If a shortcut is assigned to a command in the Global context and no other contex
 
 2. Expand **Environment**, and then choose **Keyboard**.
 
-   ![Display keyboard shortcuts in Options dialog box](../ide/media/optionskeyboard.png "OptionsKeyboard")
+   ![Display keyboard shortcuts in Options dialog box](../ide/media/optionskeyboard.png)
 
 3. In the **Show commands containing** box, enter all or part of the name of the command without spaces.
 
@@ -55,7 +55,7 @@ If a shortcut is assigned to a command in the Global context and no other contex
 
 5. If the command has a keyboard shortcut, it appears in the **Shortcut(s) for selected command** list.
 
-   ![View a shortcut for a specified command](../ide/media/viewshortcut.png "ViewShortcut")
+   ![View a shortcut for a specified command](../ide/media/viewshortcut.png)
 
 ## Customize a keyboard shortcut
 
@@ -81,7 +81,7 @@ If a shortcut is assigned to a command in the Global context and no other contex
 
      If a shortcut is already assigned to another command, it appears in the **Shortcut currently used by** box. In that case, choose the **Backspace** key to delete that shortcut before you try a different one.
 
-    ![Specify a different shortcut for a command](../ide/media/reassignshortcut.png "ReassignShortcut")
+    ![Specify a different shortcut for a command](../ide/media/reassignshortcut.png)
 
 7. Choose the **Assign** button.
 
@@ -102,7 +102,7 @@ You can share your custom keyboard shortcuts by exporting them to a file and the
 
 4. Select the **Keyboard** check box, and then choose the **Next** button.
 
-    ![Export only customized keyboard shortcuts](../ide/media/exportshortcuts.png "ExportShortcuts")
+    ![Export only customized keyboard shortcuts](../ide/media/exportshortcuts.png)
 
 5. In the **What do you want to name your settings file?** and **Store my settings file in this directory** boxes, either leave the default values or specify different values, and then choose the **Finish** button.
 
@@ -124,7 +124,7 @@ You can share your custom keyboard shortcuts by exporting them to a file and the
 
 7. Select the **Keyboard** check box, and then choose the **Finish** button.
 
-    ![Import only customized keyboard shortcuts](../ide/media/importshortcuts.png "ImportShortcuts")
+    ![Import only customized keyboard shortcuts](../ide/media/importshortcuts.png)
 
 ## See also
 

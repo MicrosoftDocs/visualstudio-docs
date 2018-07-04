@@ -19,23 +19,23 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Analyzing Performance Tools Data
+# Analyze performance tools data
 The performance reports of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools enable you to view and analyze application performance problems. This section provides an overview of the performance reports and views that can be used to examine performance data.  
   
-## Common Tasks  
+## Common tasks  
   
 |Task|Related Content|  
 |----------|---------------------|  
-|**Use performance rules to quickly identify issues:** Profiling Tools performance rules identify common issues and help you easily navigate to the source code that contains the issue. Detailed help topics can often suggest a solution.|-   [Using Performance Rules to Analyze Data](../profiling/using-performance-rules-to-analyze-data.md)|  
-|**Understand report view details:** Profiling Tools report views provide aggregated performance data for the processes, threads, modules, and functions of a profiling run. The data that appears depends on the profiling method that was used to collect the data.|-   [Performance Report Views](../profiling/performance-report-views.md)|  
-|**Configure, sort, and filter report views:** You can specify and order the data columns to display in a report, sort the report rows, and filter the data to include only a time segment that you specify.|-   [Customizing Performance Tools Report Views](../profiling/customizing-performance-tools-report-views.md)|  
+|**Use performance rules to quickly identify issues:** Profiling Tools performance rules identify common issues and help you easily navigate to the source code that contains the issue. Detailed help topics can often suggest a solution.|-   [Use performance rules to analyze data](../profiling/using-performance-rules-to-analyze-data.md)|  
+|**Understand report view details:** Profiling Tools report views provide aggregated performance data for the processes, threads, modules, and functions of a profiling run. The data that appears depends on the profiling method that was used to collect the data.|-   [Performance report views](../profiling/performance-report-views.md)|  
+|**Configure, sort, and filter report views:** You can specify and order the data columns to display in a report, sort the report rows, and filter the data to include only a time segment that you specify.|-   [Customize performance tools report views](../profiling/customizing-performance-tools-report-views.md)|  
   
-## Related Sections  
- [Comparing Performance Data Files](../profiling/comparing-performance-data-files.md)  
+## Related sections  
+ [Compare performance data files](../profiling/comparing-performance-data-files.md)  
   
- [Saving and Exporting Performance Tools Data](../profiling/saving-and-exporting-performance-tools-data.md)  
+ [Save and export performance tools data](../profiling/saving-and-exporting-performance-tools-data.md)  
   
-## See Also  
+## See also  
  [Performance Explorer](../profiling/performance-explorer.md)  
  [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling Feature Tour](../profiling/profiling-feature-tour.md)
+ [First look at profiling tools](../profiling/profiling-feature-tour.md)

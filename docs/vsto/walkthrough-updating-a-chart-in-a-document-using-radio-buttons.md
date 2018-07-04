@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Updating a Chart in a Document Using Radio Buttons | Microsoft Docs"
+title: "Walkthrough: Update a chart in a document using radio buttons"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Updating a Chart in a Document Using Radio Buttons
+# Walkthrough: Update a chart in a document using radio buttons
   This walkthrough demonstrates how to use radio buttons in a document-level customization for Microsoft Office Word to give users the option to select chart styles on the document.  
   
  [!INCLUDE[appliesto_wdalldoc](../vsto/includes/appliesto-wdalldoc-md.md)]  
@@ -30,7 +30,7 @@ ms.workload:
   
 -   Changing the chart style when an option is selected.  
   
- To see the result as a completed sample, see the Word Controls Sample at [Office Development Samples and Walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).  
+ To see the result as a completed sample, see the Word Controls Sample at [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).  
   
  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
@@ -41,18 +41,18 @@ ms.workload:
   
 -   [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].  
   
-## Creating the Project  
+## Create the project  
  The first step is to create a Word Document project.  
   
-#### To create a new project  
+### To create a new project  
   
-1.  Create a Word Document project with the name **My Chart Options**. In the wizard, select **Create a new document**. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
+1.  Create a Word Document project with the name **My Chart Options**. In the wizard, select **Create a new document**. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
      Visual Studio opens the new Word document in the designer and adds the **My Chart Options** project to **Solution Explorer**.  
   
-## Adding a Chart to the Document  
+## Add a chart to the document  
   
-#### To add a chart  
+### To add a chart  
   
 1.  In the Word document that is hosted in the Visual Studio designer, on the Ribbon, click the **Insert** tab.  
   
@@ -70,10 +70,10 @@ ms.workload:
   
 6.  On the **Layout** tab of the **Format Object** dialog box, select **Square** and click **OK**.  
   
-## Adding a User Control to the Project  
+## Add a user control to the project  
  Radio buttons on a document are not mutually exclusive by default. You can make them function correctly by adding them to a user control, and then writing code to control the selection.  
   
-#### To add a user control  
+### To add a user control  
   
 1.  Select the **My Chart Options** project in **Solution Explorer**.  
   
@@ -81,7 +81,7 @@ ms.workload:
   
 3.  In the **Add New Item** dialog box, click **User Control**, name the control **ChartOptions,** and click **Add**.  
   
-#### To add Windows Form controls to the user control  
+### To add Windows Form controls to the user control  
   
 1.  If the user control is not visible in the designer, double-click **ChartOptions** in **Solution Explorer**.  
   
@@ -113,10 +113,10 @@ ms.workload:
     |**Name**|**areaBlockChart**|  
     |**Text**|**Area Block Chart**|  
   
-## Adding References  
- To access the chart from the user control on a document, you must have a reference to the Microsoft.Office.Interop.Graph assembly in your project.  
+## Add references  
+ To access the chart from the user control on a document, you must have a reference to the `Microsoft.Office.Interop.Graph` assembly in your project.  
   
-#### To add a reference to the Microsoft.Office.Interop.Graph assembly  
+### To add a reference to the Microsoft.Office.Interop.Graph assembly  
   
 1.  On the **Project** menu, click **Add Reference**.  
   
@@ -124,10 +124,10 @@ ms.workload:
   
 2.  On the **.NET** tab, select **Microsoft.Office.Interop.Graph** and click **OK**. Select the 14.0.0.0 version of the assembly.  
   
-## Changing the Chart Style when a Radio Button is Selected  
+## Change the chart style when a radio button is selected  
  To make the buttons work correctly, create a public event on the user control, add a property to set the selection type, and create a procedure for the `CheckedChanged` event of each of the radio buttons.  
   
-#### To create an event and property on a user control  
+### To create an event and property on a user control  
   
 1.  In **Solution Explorer**, right-click the user control, and then click **View Code**.  
   
@@ -136,7 +136,7 @@ ms.workload:
      [!code-csharp[Trin_VstcoreProgrammingControlsWord#9](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ChartOptions.cs#9)]
      [!code-vb[Trin_VstcoreProgrammingControlsWord#9](../vsto/codesnippet/VisualBasic/my chart options/ChartOptions.vb#9)]  
   
-#### To handle the CheckedChange event of the radio buttons  
+### To handle the CheckedChange event of the radio buttons  
   
 1.  Set the chart type in the `CheckedChanged` event handler of the `areaBlockChart` radio button and then raise the event.  
   
@@ -162,10 +162,10 @@ ms.workload:
   
      [!code-csharp[Trin_VstcoreProgrammingControlsWord#14](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ChartOptions.cs#14)]  
   
-## Adding the User Control to the Document  
+## Add the User control to the document  
  When you build the solution, the new user control is automatically added to the **Toolbox**. You can then drag the control from the **Toolbox** to your document.  
   
-#### To add the user control your document  
+### To add the user control your document  
   
 1.  On the **Build** menu, click **Build Solution**.  
   
@@ -177,10 +177,10 @@ ms.workload:
   
      In the **Properties** window, name the control that you just added to the document  `ChartOptions1`.  
   
-## Changing the Chart Type  
+## Change the chart type  
  Create an event handler to change the chart type according to the option that is selected in the user control.  
   
-#### To change the type of chart that is displayed in the document  
+### To change the type of chart that is displayed in the document  
   
 1.  Add the following event handler to the `ThisDocument` class.  
   
@@ -191,27 +191,27 @@ ms.workload:
   
      [!code-csharp[Trin_VstcoreProgrammingControlsWord#16](../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsWordCS/ThisDocument.cs#16)]  
   
-## Testing the Application  
+## Test the application  
  You can now test your document to make sure that the chart style is updated correctly when you select a radio button.  
   
-#### To test your document  
+### To test your document  
   
-1.  Press F5 to run your project.  
+1.  Press **F5** to run your project.  
   
 2.  Select various radio buttons.  
   
 3.  Confirm that the chart style changes to match the selection.  
   
-## Next Steps  
+## Next steps  
  Here are some tasks that might come next:  
   
--   Using a button to populate a text box. For more information, see [Walkthrough: Displaying Text in a Text Box in a Document Using a Button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-document-using-a-button.md).  
+-   Using a button to populate a text box. For more information, see [Walkthrough: Display text in a text box in a document using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-document-using-a-button.md).  
   
--   Change formatting by selecting a style from a combo box. For more information, see [Walkthrough: Changing Document Formatting Using CheckBox Controls](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md).  
+-   Change formatting by selecting a style from a combo box. For more information, see [Walkthrough: Change document formatting using CheckBox controls](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md).  
   
-## See Also  
- [Walkthroughs Using Word](../vsto/walkthroughs-using-word.md)   
- [Office Development Samples and Walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)   
- [Limitations of Windows Forms Controls on Office Documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)  
+## See also  
+ [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)   
+ [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)   
+ [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md)  
   
   

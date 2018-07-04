@@ -19,7 +19,7 @@ ms.workload:
 We recommend that you try the Visual Studio web installer&mdash;we think you'll find it a good experience for most situations.
 
  > [!div class="button"]
- > [Download Visual Studio 2017](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocsOL)
+ > [Download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
 <br/>
 
 However, if your internet connection is unavailable or unreliable, you can use the command line to create a local cache of the files you need to complete an offline install. Here's how.
@@ -41,7 +41,7 @@ Your setup file&mdash;or to be more specific, a bootstrapper file&mdash;will mat
 
 ## Step 2 - Create a local install cache
 
-You must have an internet connection to complete this step. To create a local layout, open a command prompt and use one of the commands from the following examples: The examples here assume that you're using the Community edition of Visual Studio; adjust the command as appropriate for your edition.
+You must have an internet connection to complete this step. To create a local layout, open a command prompt and use one of the commands from the following examples. The examples here assume that you're using the Community edition of Visual Studio; adjust the command as appropriate for your edition.
 
 - For .NET web and .NET desktop development, run:
 
@@ -101,7 +101,7 @@ Use this command to run the installation:
 
 ## Get support
 
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
 
 Here are a few more support options:
 
@@ -115,3 +115,4 @@ Here are a few more support options:
 * [Install Visual Studio](install-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
+* [Visual Studio 2017 workload and component IDs](workload-and-component-ids.md)

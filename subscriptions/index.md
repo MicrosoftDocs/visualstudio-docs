@@ -1,10 +1,10 @@
 ---
 title: Visual Studio Subscriptions 
 Author: evanwindom
-Ms.author: jaunger
-Manager: evelynp
+Ms.author: tglee
+Manager: lank
 layout: LandingPage
-Ms.date: 02/26/2018
+Ms.date: 06/25/2018
 Ms.topic: landing-page
 Description:  Welcome to Visual Studio Subscriptions
 Ms.prod: vs-subscription
@@ -13,9 +13,11 @@ Searchscope: VS Subscription
 ---
 
 # Visual Studio Subscriptions
+
 Visual Studio subscriptions is a comprehensive set of resources for you to create, deploy, and manage great applications on your preferred platforms and devices, including Windows, iOS, Android, and Linux.  Benefits of subscriptions include access to developer tools, cloud services and software, training, and support for your development and testing needs.
 
-##  Get Started
+## Get Started
+
 Administrators sign in to [https://manage.visualstudio.com](https://manage.visualstudio.com) to assign subscriptions to your team.<br>
 Subscribers sign in to [https://my.visualstudio.com](https://my.visualstudio.com) to access your subscription benefits.
 
@@ -132,6 +134,12 @@ Subscribers sign in to [https://my.visualstudio.com](https://my.visualstudio.com
 
 ---
 
+## What's new
+
+To make your subscription even more useful, we add and update the subscription benefits often. To learn more, see the [What's new in subscriptions](whats-new-in-subscriptions.md) page.
+
+---
+
 <h2>Benefits</h2>
 <ul class="cardsD cols cols3">
     <li>
@@ -144,7 +152,6 @@ Subscribers sign in to [https://my.visualstudio.com](https://my.visualstudio.com
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-ide-benefit">Visual Studio</a></li>
                             <li>Visual Studio for Mac</li>
-                            <li><a href="/visualstudio/subscriptions/vs-vsts">Visual Studio Team Services</a></li>
                             <li>Team Foundation Server and TFS CAL</li>
                         </ul>                        
                     </div>
@@ -161,8 +168,8 @@ Subscribers sign in to [https://my.visualstudio.com](https://my.visualstudio.com
                         <p>With your Visual Studio subscription, you may receive a                         monthly Azure credit and free access to Azure services,                         discounted development and test rates, and exclusive                            access to a subscriber-only image gallery with                                  preconfigured virtual machines. Depending on your                               subscription, cloud services may include:</p>
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-azure">Azure</a></li>
-                            <li><a href="/visualstudio/subscriptions/vs-vsts">Visual Studio Team Services</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-visual-studio-app-center">Visual Studio App Center</a></li>
+                            <li><a href="/visualstudio/subscriptions/vs-vsts">Visual Studio Team Services</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-office-dev">Office 365 Developer Subscription</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-pbi">Windows Developer Account</a></li>
                             <li>PowerBI Pro</li>

@@ -1,6 +1,6 @@
 ---
 title: Advanced Security Settings Dialog Box
-ms.date: 11/04/2016
+ms.date: 06/27/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -15,25 +15,24 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Advanced Security Settings Dialog Box
+# Advanced Security Settings dialog box
+
 This dialog box allows you to specify security settings related to debugging in zone.
 
- To access this dialog box, select a project node in **Solution Explorer**, and then, on the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Security** tab. On the **Security** page, select **Enable ClickOnce Security Settings**, click **This is a partial trust application**, and then click **Advanced**.
+![Advanced Security Settings dialog box in Visual Studio](../media/advanced-security-settings.png)
 
-## UIElement List
- **Debug this application with the selected permission set**
- If you select this check box, the permission set selected on the **Security** page is used during debugging. By default, this option is selected.
+To access this dialog box, select a project node in **Solution Explorer**, and then, on the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Security** tab. On the **Security** page, select **Enable ClickOnce Security Settings**, click **This is a partial trust application**, and then click **Advanced**.
 
- For debugging in a security zone to work, this option must be enabled; also, the **Enable the Visual Studio hosting process** option (available on the **Debug** page of the **Project Designer**) must be enabled.
+## UIElement list
 
- For WPF Web Browser Application projects, the **Debug this application with the selected permission set** option is checked and disabled.
+**Grant the application access to its site of origin**
 
- **Grant the application access to its site of origin**
- If you select this check box, the application can access the Web site or server share on which it is published. By default, this option is selected.
+If you select this check box, the application can access the Web site or server share on which it is published. By default, this option is selected.
 
- **Debug this application as if it were downloaded from the following URL**
- If you have to allow the application to access the Web site or server share corresponding to the **Installation URL** you specified on the **Publish** page, type that URL here. This option is available only when **Grant the application access to its site of origin** is selected.
+**Debug this application as if it were downloaded from the following URL**
 
-## See Also
+If you have to allow the application to access the Web site or server share corresponding to the **Installation URL** you specified on the **Publish** page, enter that URL here. This option is available only when **Grant the application access to its site of origin** is selected.
+
+## See also
 
 - [Security Page, Project Designer](../../ide/reference/security-page-project-designer.md)

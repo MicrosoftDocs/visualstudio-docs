@@ -12,19 +12,19 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Best Practices for Coded UI Tests
+# Best practices for coded UI tests
 
 This topic describes some recommendations for developing coded UI tests.
 
-## Best Practices
+## Best practices
 
 Use the following guidelines to create a flexible coded UI test.
 
 -   Use the **Coded UI Test Builder** whenever possible.
 
--   Do not modify the `UIMap.designer.cs` file directly. If you modify the file, the changes to the file will be overwritten.
+-   Do not modify the *UIMap.designer.cs* file directly. If you modify the file, the changes to the file will be overwritten.
 
--   Create your test as a sequence of recorded methods. For more information about how to record a method, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md).
+-   Create your test as a sequence of recorded methods. For more information about how to record a method, see [Creating coded UI tests](../test/use-ui-automation-to-test-your-code.md).
 
 -   Each recorded method should act on a single page, form, or dialog box. Create a new test method for each new page, form, or dialog box.
 
@@ -32,21 +32,21 @@ Use the following guidelines to create a flexible coded UI test.
 
 -   When possible, limit each recorded method to fewer than 10 actions. This modular approach makes it easier to replace a method if the UI changes.
 
--   Create each assertion using the **Coded UI Test Builder**, which automatically adds an assertion method to the `UIMap.Designer.cs` file.
+-   Create each assertion using the **Coded UI Test Builder**, which automatically adds an assertion method to the *UIMap.Designer.cs* file.
 
 -   If the user interface (UI) changes, re-record the test methods, or the assertion methods, or re-record the affected sections of an existing test method.
 
--   Create a separate <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> file for each module in your application under test. For more information, see [Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md).
+-   Create a separate <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> file for each module in your application under test. For more information, see [Testing a large application with multiple UI maps](../test/testing-a-large-application-with-multiple-ui-maps.md).
 
 -   In the application under test, use meaningful names when you create the UI controls. Using meaningful names gives greater clarity and usability to the automatically generated control names.
 
--   If you are creating assertions by coding with the API, create a method for each assertion in the part of the <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> class that is in the `UIMap.cs` file. To execute the assertion, call this method from your test method.
+-   If you are creating assertions by coding with the API, create a method for each assertion in the part of the <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> class that is in the *UIMap.cs* file. To execute the assertion, call this method from your test method.
 
--   If you are directly coding with the API, use the properties and methods in the classes generated in the `UIMap.Designer.cs` file in your code as much as you can. These classes will make your work easier, more reliable, and will help you be more productive.
+-   If you are directly coding with the API, use the properties and methods in the classes generated in the *UIMap.Designer.cs* file in your code as much as you can. These classes will make your work easier, more reliable, and will help you be more productive.
 
 Coded UI tests automatically adapt to many changes in the user interface. If, for example, a UI element has changed position or color, most of the time the coded UI test will still find the correct element.
 
-During a test run, the UI controls are located by the testing framework by using a set of search properties. The search properties are applied to each control class in the definitions created by the **Coded UI Test Builder** in the `UIMap.Designer.cs` file. The search properties contain name-value pairs of property names and property values that can be used to identify the control, such as the <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FriendlyName%2A>, <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.Name%2A>, and <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.ControlType%2A> properties of the control. If the search properties are unchanged, the coded UI test will successfully find the control in the UI. If the search properties are changed, coded UI tests have a smart match algorithm that applies heuristics to find controls and windows in the UI. When the UI has changed, you might be able to modify the search properties of previously identified elements to make sure that they are found.
+During a test run, the UI controls are located by the testing framework by using a set of search properties. The search properties are applied to each control class in the definitions created by the **Coded UI Test Builder** in the *UIMap.Designer.cs* file. The search properties contain name-value pairs of property names and property values that can be used to identify the control, such as the <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FriendlyName%2A>, <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.Name%2A>, and <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestControl.ControlType%2A> properties of the control. If the search properties are unchanged, the coded UI test will successfully find the control in the UI. If the search properties are changed, coded UI tests have a smart match algorithm that applies heuristics to find controls and windows in the UI. When the UI has changed, you might be able to modify the search properties of previously identified elements to make sure that they are found.
 
 ## If your user interface changes
 
@@ -62,7 +62,7 @@ User interfaces frequently change during development. Here are some ways to redu
 
     -   Add a new assertion by dragging the cross-hair button onto the UI control, open the UI map, and add the new assertion.
 
-For more information about how to record coded UI tests, see [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md).
+For more information about how to record coded UI tests, see [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md).
 
 ## If a background process needs to complete before the test can continue
 
@@ -83,7 +83,7 @@ Playback.PlaybackSettings.WaitForReadyLevel = WaitForReadyLevel.UIThreadOnly;
 
 - <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>
 - <xref:Microsoft.VisualStudio.TestTools.UITesting>
-- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
-- [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md)
-- [Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md)
-- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+- [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)
+- [Creating coded UI tests](../test/use-ui-automation-to-test-your-code.md)
+- [Testing a large application with multiple UI maps](../test/testing-a-large-application-with-multiple-ui-maps.md)
+- [Supported configurations and platforms for coded UI tests and action recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)

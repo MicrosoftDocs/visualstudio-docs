@@ -82,7 +82,7 @@ An assertion statement specifies a condition that you expect to be true at a poi
 ##  <a name="BKMK_Side_effects_of_using_assertions"></a> Side effects of using assertions  
  When you add assertions to your code, make sure the assertions do not have side effects. For example, consider the following assertion that modifies the `nM` value:  
   
-```  
+```cpp
 ASSERT(nM++ > 0); // Don't do this!  
   
 ```  
@@ -91,7 +91,7 @@ ASSERT(nM++ > 0); // Don't do this!
   
  Be especially careful about using function calls in assertion statements, because evaluating a function can have unexpected side effects.  
   
-```  
+```cpp
 ASSERT ( myFnctn(0)==1 ) // unsafe if myFnctn has side effects  
 VERIFY ( myFnctn(0)==1 ) // safe  
 ```  
@@ -112,7 +112,7 @@ VERIFY ( myFnctn(0)==1 ) // safe
   
  When `_DEBUG` is defined, the `_ASSERTE` macro is defined as follows:  
   
-```  
+```cpp
 #define _ASSERTE(expr) \  
    do { \  
       if (!(expr) && (1 == _CrtDbgReport( \  
@@ -126,27 +126,27 @@ VERIFY ( myFnctn(0)==1 ) // safe
 ### Checking for Heap Corruption  
  The following example uses [_CrtCheckMemory](/cpp/c-runtime-library/reference/crtcheckmemory) to check for corruption of the heap:  
   
-```  
+```cpp
 _ASSERTE(_CrtCheckMemory());  
 ```  
   
 ### Checking Pointer Validity  
  The following example uses [_CrtIsValidPointer](/cpp/c-runtime-library/reference/crtisvalidpointer) to verify that a given memory range is valid for reading or writing.  
   
-```  
+```cpp
 _ASSERTE(_CrtIsValidPointer( address, size, TRUE );  
 ```  
   
  The following example uses [_CrtIsValidHeapPointer](/cpp/c-runtime-library/reference/crtisvalidheappointer) to verify a pointer points to memory in the local heap (the heap created and managed by this instance of the C run-time library — a DLL can have its own instance of the library, and therefore its own heap, outside of the application heap). This assertion catches not only null or out-of-bounds addresses, but also pointers to static variables, stack variables, and any other nonlocal memory.  
   
-```  
+```cpp
 _ASSERTE(_CrtIsValidPointer( myData );  
 ```  
   
 ### Checking a Memory Block  
  The following example uses [_CrtIsMemoryBlock](/cpp/c-runtime-library/reference/crtismemoryblock) to verify that a memory block is in the local heap and has a valid block type.  
   
-```  
+```cpp
 _ASSERTE(_CrtIsMemoryBlock (myData, size, &requestNumber, &filename, &linenumber));  
 ```  
   
@@ -161,25 +161,25 @@ _ASSERTE(_CrtIsMemoryBlock (myData, size, &requestNumber, &filename, &linenumber
   
  The following example shows how to use `ASSERT` to check the return value of a function:  
   
-```  
+```cpp
 int x = SomeFunc(y);  
 ASSERT(x >= 0);   //  Assertion fails if x is negative  
 ```  
   
- You can use ASSERT with the [IsKindOf](/cpp/mfc/reference/cobject-class.md#CObject__IsKindOf) function to provide type checking of function arguments:  
+ You can use ASSERT with the [IsKindOf](https://docs.microsoft.com/cpp/mfc/reference/cobject-class#iskindof) function to provide type checking of function arguments:  
   
-```  
+```cpp
 ASSERT( pObject1->IsKindOf( RUNTIME_CLASS( CPerson ) ) );  
 ```  
   
- The `ASSERT` macro produces no code in the Release version. If you need to evaluate the expression in the Release version, use the [VERIFY](/cpp/mfc/reference/diagnostic-services#verify) macro instead of ASSERT.  
+ The `ASSERT` macro produces no code in the Release version. If you need to evaluate the expression in the Release version, use the [VERIFY](https://msdn.microsoft.com/library/s8c29sw2.aspx#verify) macro instead of ASSERT.  
   
 ###  <a name="BKMK_MFC_ASSERT_VALID_and_CObject__AssertValid"></a> MFC ASSERT_VALID and CObject::AssertValid  
- The [CObject::AssertValid](/cpp/mfc/reference/cobject-class.md#CObject__AssertValid) method provides run-time checks of the internal state of an object. Although you are not required to override `AssertValid` when you derive your class from `CObject`, you can make your class more reliable by doing this. `AssertValid` should perform assertions on all of the object's member variables to verify that they contain valid values. For example, it should check that pointer member variables are not NULL.  
+ The [CObject::AssertValid](https://docs.microsoft.com/cpp/mfc/reference/cobject-class#assertvalid) method provides run-time checks of the internal state of an object. Although you are not required to override `AssertValid` when you derive your class from `CObject`, you can make your class more reliable by doing this. `AssertValid` should perform assertions on all of the object's member variables to verify that they contain valid values. For example, it should check that pointer member variables are not NULL.  
   
  The following example shows how to declare an `AssertValid` function:  
   
-```  
+```cpp
 class CPerson : public CObject  
 {  
 protected:  
@@ -197,7 +197,7 @@ public:
   
  When you override `AssertValid`, call the base class version of `AssertValid` before you perform your own checks. Then use the ASSERT macro to check the members unique to your derived class, as shown here:  
   
-```  
+```cpp
 #ifdef _DEBUG  
 void CPerson::AssertValid() const  
 {  
@@ -218,7 +218,7 @@ void CPerson::AssertValid() const
   
  For example, consider a class `CMyData`, which stores a [CObList](/cpp/mfc/reference/coblist-class) in one of its member variables. The `CObList` variable, `m_DataList`, stores a collection of `CPerson` objects. An abbreviated declaration of `CMyData` looks like this:  
   
-```  
+```cpp
 class CMyData : public CObject  
 {  
     // Constructor and other members ...  
@@ -237,7 +237,7 @@ class CMyData : public CObject
   
  The `AssertValid` override in `CMyData` looks like this:  
   
-```  
+```cpp
 #ifdef _DEBUG  
 void CMyData::AssertValid( ) const  
 {  
@@ -271,14 +271,14 @@ void CMyData::AssertValid( ) const
   
  For example, suppose you are simulating gas molecules in a container, and the variable `numMols` represents the total number of molecules. This number cannot be less than zero, so you might include an MFC assertion statement like this:  
   
-```  
+```cpp
 ASSERT(numMols >= 0);  
   
 ```  
   
  Or you might include a CRT assertion like this:  
   
-```  
+```cpp
 _ASSERT(numMols >= 0);  
 ```  
   
@@ -291,7 +291,7 @@ _ASSERT(numMols >= 0);
   
  For example, consider the following code, which updates the variable `iMols` based on the contents of the linked list pointed to by `mols`:  
   
-```  
+```cpp
 /* This code assumes that type has overloaded the != operator  
  with const char *   
 It also assumes that H2O is somewhere in that linked list.   
@@ -312,7 +312,7 @@ _ASSERT(iMols<=numMols); // CRT version
 ###  <a name="BKMK_Testing_error_conditions_"></a> Finding unhandled errors  
  You can use assertions to test for error conditions at a point in your code where any errors should have been handled. In the following example, a graphic routine returns an error code or zero for success.  
   
-```  
+```cpp
 myErr = myGraphRoutine(a, b);  
   
 /* Code to handle errors and  
@@ -326,7 +326,7 @@ _ASSERT(!myErr); -- CRT version
   
  Assertion statements are not a substitute for error-handling code, however. The following example shows an assertion statement that can lead to problems in the final release code:  
   
-```  
+```cpp
 myErr = myGraphRoutine(a, b);  
   
 /* No Code to handle errors */  

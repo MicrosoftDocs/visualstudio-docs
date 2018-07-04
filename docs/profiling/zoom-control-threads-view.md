@@ -15,17 +15,17 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Zoom Control (Threads View)
+# Zoom control (threads view)
 The zoom control is a slider that helps you to zoom in and out on the timeline so that you can focus on areas of particular interest. Because this control zooms in on the center of the timeline view, center the area of interest before you zoom in.  
   
-## Zooming in By Dragging in the Timeline View  
- Zooming in by dragging in the Timeline view creates an area that is highlighted in yellow. When you release the mouse button, the timeline view zooms in on the selected range.  
+## Zoom in by dragging in the timeline view  
+ Zooming in by dragging in the timeline view creates an area that is highlighted in yellow. When you release the mouse button, the timeline view zooms in on the selected range.  
   
-## Zooming in and out by Using the Mouse Wheel  
- Click on any point on the timeline (to ensure it has mouse focus), and then press CTRL and move the mouse wheel (forward zooms in; backward zooms out).  
+## Zoom in and out by using the mouse wheel  
+ Click on any point on the timeline (to ensure it has mouse focus), and then press **Ctrl** and move the mouse wheel (forward zooms in; backward zooms out).  
   
-## See Also  
- [Manage Channels](../profiling/manage-channels.md)   
- [Measure Mode On/Off](../profiling/measure-mode-on-off.md)   
- [Threads View](../profiling/threads-view-parallel-performance.md)   
- [Utilization Navigator](../profiling/utilization-navigator.md)
+## See also  
+ [Manage channels](../profiling/manage-channels.md)   
+ [Measure mode on/off](../profiling/measure-mode-on-off.md)   
+ [Threads view](../profiling/threads-view-parallel-performance.md)   
+ [Utilization navigator](../profiling/utilization-navigator.md)

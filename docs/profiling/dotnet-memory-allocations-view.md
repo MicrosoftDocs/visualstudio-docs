@@ -29,7 +29,7 @@ The Allocations view lists the types that were created during the profiling run.
   
  The data for a function displays the number of objects created and the number of bytes allocated for objects of the parent type.  
   
-## Highlighting the Execution Hot Path  
+## Highlight the execution hot path  
  You can find the execution path of the call tree  that created the most objects of the parent type.  
   
 -   To display the most active path, right-click the type or function, and then click **Expand Hot Path**.  

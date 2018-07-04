@@ -36,7 +36,7 @@ Evaluates child elements to select one set of `ItemGroup` elements and/or `Prope
 
 ## Syntax  
 
-```  
+```xml  
 <Choose>  
     <When Condition="'StringA'=='StringB'">... </When>  
     <Otherwise>... </Otherwise>  

@@ -24,13 +24,13 @@ Visual Studio includes the Microsoft unit testing frameworks for both managed an
 
 When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.
 
-![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png "UTE_FailedPassedNotRunSummary")
+![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
 
 As you run, write, and rerun your tests, Test Explorer displays the results in default groups of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**. You can change the way Test Explorer groups your tests.
 
 You can perform much of the work of finding, organizing and running tests from the Test Explorer toolbar.
 
-![Run tests from the Test Explorer toolbar](../test/media/ute_toolbar.png "UTE_ToolBar")
+![Run tests from the Test Explorer toolbar](../test/media/ute_toolbar.png)
 
 ### Run tests
 
@@ -38,17 +38,17 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 
 - To run all the tests in a solution, choose **Run All**.
 
-- To run all the tests in a default group, choose **Run...** and then choose the group on the menu.
+- To run all the tests in a default group, choose **Run** and then choose the group on the menu.
 
 - Select the individual tests that you want to run, open the context menu for a selected test and then choose **Run Selected Tests**.
 
-- If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png "UTE_parallelicon-small") toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+- If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
 The pass/fail bar at the top of the Test Explorer window is animated as the tests run. At the conclusion of the test run, the pass/fail bar turns green if all tests passed or turns red if any test failed.
 
 ### Run tests after every build
 
-|||
+|Button|Description|
 |-|-|
 |![Run after build](../test/media/ute_runafterbuild_btn.png)|To run your unit tests after each local build, choose **Test** on the standard menu, and then choose **Run Tests After Build** on the Test Explorer toolbar.|
 
@@ -60,7 +60,7 @@ As you run, write, and rerun your tests, Test Explorer displays the results in g
 
 To view the details of an individual test, select the test.
 
-![Test execution details](../test/media/ute_testdetails.png "UTE_TestDetails")
+![Test execution details](../test/media/ute_testdetails.png)
 
 The test details pane displays the following information:
 
@@ -86,9 +86,9 @@ Test Explorer lets you group your tests into predefined categories. Most unit te
 
 ### Group tests in the test list
 
- To change the way that tests are organized, choose the down arrow next to the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png "UTE_GroupBy_btn") and select a new grouping criteria.
+ To change the way that tests are organized, choose the down arrow next to the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and select a new grouping criteria.
 
- ![Group tests by category in Test Explorer](../test/media/ute_groupbycategory.png "UTE_GroupByCategory")
+ ![Group tests by category in Test Explorer](../test/media/ute_groupbycategory.png)
 
 ### Test Explorer groups
 
@@ -121,7 +121,7 @@ Test Explorer lets you group your tests into predefined categories. Most unit te
 
 You can use Test Explorer filters to limit the test methods in your projects that you view and run.
 
-When you type a string in in the Test Explorer search box and choose ENTER, the test list is filtered to display only those tests whose fully qualified names contain the string.
+When you type a string in the Test Explorer search box and choose ENTER, the test list is filtered to display only those tests whose fully qualified names contain the string.
 
 To filter by a different criteria:
 
@@ -131,7 +131,7 @@ To filter by a different criteria:
 
 3. Enter the filter value between the quotation marks.
 
-![Filter tests in Test Explorer](../test/media/ute_filtertestlist.png "UTE_FilterTestList")
+![Filter tests in Test Explorer](../test/media/ute_filtertestlist.png)
 
 > [!NOTE]
 > Searches are case insensitive and match the specified string to any part of the criteria value.
@@ -148,7 +148,7 @@ To filter by a different criteria:
 
 To exclude a subset of the results of a filter, use the following syntax:
 
-```
+```cpp
 FilterName:"Criteria" -FilterName:"SubsetCriteria"
 ```
 
@@ -158,7 +158,7 @@ For example, `FullName:"MyClass" - FullName:"PerfTest"` returns all tests that i
 
  You can create and save a list of tests that you want to run or view as a group. When you select a playlist, the tests in the list are displayed Test Explorer. You can add a test to more than one playlist, and all tests in your project are available when you choose the default **All Tests** playlist.
 
- ![Choose a playlist](../test/media/ute_playlist.png "UTE_Playlist")
+ ![Choose a playlist](../test/media/ute_playlist.png)
 
  **To create a playlist**, choose one or more tests in Test Explorer. On the context menu, choose **Add to Playlist**, **NewPlaylist**. Save the file with the name and location that you specify in the **Create New Playlist** dialog box.
 
@@ -166,7 +166,7 @@ For example, `FullName:"MyClass" - FullName:"PerfTest"` returns all tests that i
 
  **To open a playlist**, choose Test, Playlist from the Visual Studio menu, and either choose from the list of recently used playlists, or choose Open Playlist to specify the name and location of the playlist.
 
- If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png "UTE_parallelicon-small") toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
+ If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![UTE&#95;parallelicon&#45;small](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
 
 ## Debug and analyze unit tests
 

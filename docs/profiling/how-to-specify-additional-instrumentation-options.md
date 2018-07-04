@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Specify Additional Instrumentation Options
+# How to: Specify additional instrumentation options
 
 You can instrument binaries from using the Visual Studio IDE or by using command line tools. If you instrument a binary from within the IDE, you can control the volume of data that is collected during instrumentation by specifying additional instrumentation options to the [VSInstr](../profiling/vsinstr.md) tool. These options are available at the session or the target level. For example, to include or exclude specific functions during the instrumentation process, use the additional instrumentation option at the target level.
 
@@ -37,5 +37,5 @@ You can instrument binaries from using the Visual Studio IDE or by using command
 
 ## See also
 
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)  
-[Profiling from the Command-Line](../profiling/using-the-profiling-tools-from-the-command-line.md)
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
+[Profile from the command-line](../profiling/using-the-profiling-tools-from-the-command-line.md)

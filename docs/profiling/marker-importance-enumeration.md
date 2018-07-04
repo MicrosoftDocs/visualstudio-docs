@@ -15,12 +15,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# marker_importance Enumeration
+# marker_importance enumeration
 Represents the importance level of a Concurrency Visualizer marker.  
   
 ## Syntax  
   
-```  
+```cpp  
 enum marker_importance;  
 ```  
   
@@ -36,9 +36,9 @@ enum marker_importance;
 |`normal_importance`|Specifies that the marker has normal importance.|  
   
 ## Requirements  
- **Header:** cvmarkersobj.h  
+ **Header:** *cvmarkersobj.h*  
   
  **Namespace:** Concurrency::diagnostic  
   
-## See Also  
- [diagnostic Namespace](../profiling/diagnostic-namespace.md)
+## See also  
+ [diagnostic namespace](../profiling/diagnostic-namespace.md)

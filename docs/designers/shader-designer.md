@@ -37,7 +37,7 @@ This section describes how to add a DGSL shader to your [!INCLUDE[vsprvs](../cod
 
 ### To add a DGSL shader to your project
 
-1.  In **Solution Explorer**, open the shortcut menu for the project that you want to add the shader to, and then choose **Add**, **New Item**.
+1.  In **Solution Explorer**, open the shortcut menu for the project that you want to add the shader to, and then choose **Add** > **New Item**.
 
 2.  In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select **Visual Shader Graph (.dgsl)**.
 
@@ -61,7 +61,7 @@ Commands that affect the state of the Shader Designer are located on the **Shade
 
 Here's the **Shader Designer Mode** toolbar:
 
-![The Shader Designer modal toolbar.](../designers/media/digit-dsd-modal-toolbar.png "Digit-DSD-Modal-Toolbar")
+![The Shader Designer modal toolbar.](../designers/media/digit-dsd-modal-toolbar.png)
 
 This table describes the items on the **Shader Designer Mode** toolbar, which are listed in the order in which they appear from left to right:
 

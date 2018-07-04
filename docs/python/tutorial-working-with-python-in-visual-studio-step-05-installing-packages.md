@@ -1,7 +1,7 @@
 ---
 title: Working with Python Tutorial, Step 5, installing packages
 description: Step 5 of a core walkthrough of Python capabilities in Visual Studio, demonstrating Visual Studio's features for managing packages in a Python environment.
-ms.date: 03/05/2018
+ms.date: 06/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Step 5: Installing packages in your Python environment
+# Step 5: Install packages in your Python environment
 
 **Previous step: [Running code in the debugger](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)**
 
@@ -39,9 +39,9 @@ The Python developer community has produced thousands of useful packages that yo
 
   ![Completion of installing matplotlib in the environment](media/environments-add-matplotlib2.png)
 
-  The small progress bar underneath the environment indicates that Visual Studio is building its IntelliSense database for the newly-installed package. The **IntelliSense** tab also shows more detailed information. Note that until that database is complete, IntelliSense features like auto-completion and syntax checking won't be active in the editor for that package.
+  A small progress bar may appear underneath the environment to indicate that Visual Studio is building its IntelliSense database for the newly-installed package. The **IntelliSense** tab also shows more detailed information. Note that until that database is complete, IntelliSense features like auto-completion and syntax checking won't be active in the editor for that package.
 
-  Note that **Visual Studio 2017 version 15.6** and later uses a different and faster method for working with IntelliSense, and display a message to that effect on the **IntelliSense** tab.
+  Note that **Visual Studio 2017 version 15.6** and later uses a different and faster method for working with IntelliSense, and displays a message to that effect on the **IntelliSense** tab.
 
 1. Create a new project with **File > New > Project**, selecting the "Python Application" template. In the code file that appears, paste the following code, which creates a cosine wave like the previous tutorial steps, only this time plotted graphically:
 
@@ -67,6 +67,6 @@ The Python developer community has produced thousands of useful packages that yo
 > [!div class="nextstepaction"]
 > [Working with Git](tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md)
 
-### Going deeper
+### Go deeper
 
 - [Python environments](managing-python-environments-in-visual-studio.md)

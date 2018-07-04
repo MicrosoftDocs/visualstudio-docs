@@ -1,7 +1,7 @@
 ---
 title: Quickstart - Create a Python project using a template
 description: In this quickstart, you create a Visual Studio project for Python using the built-in template for a basic Flask app.
-ms.date: 03/22/2018
+ms.date: 05/07/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: quickstart
@@ -32,11 +32,31 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
     > [!Tip]
     > When you begin a project, it's highly recommended to create a virtual environment right away, as most Visual Studio templates invite you to do. Virtual environments maintain your project's exact requirements over time as you add and remove libraries. You can then easily generate a `requirements.txt` file, which you use to reinstall those dependencies on other development computers (as when using source control) and when deploying the project to a production server. For more information on virtual environments and their benefits, see [Using virtual environments](../python/selecting-a-python-environment-for-a-project.md#using-virtual-environments) and [Managing required packages with requirements.txt](../python/managing-required-packages-with-requirements-txt.md).
 
-1. After Visual Studio creates that environment, look in **Solution Explorer** to see that you have an `app.py` file along with `requirements.txt`. Open `app.py` to see that the template has provided code like that in [Quickstart - Create a web app with Flask](../ide/quickstart-python.md), with two added sections.
+1. After Visual Studio creates that environment, look in **Solution Explorer** to see that you have an `app.py` file along with `requirements.txt`. Open `app.py` to see that the template has provided code like that in [Quickstart - Create a web app with Flask](../ide/quickstart-python.md), with a few added sections. All of the code shown below is created by the template, so you don't need to paste any into `app.py` yourself.
 
-    First is the line, `wsgi_app = app.wsgi_app` that can be helpful when deploying an app to a web host.
+    The code begins with the necessary imports:
 
-    Second is startup code that allows you to set the host and port through environment variables rather than hard-coding them. Such code allows you to easily control the configuration on both development and production machines without changing the code:
+    ```python
+    from flask import Flask
+    app = Flask(__name__)
+    ```
+
+    Next is the following line that can be helpful when deploying an app to a web host:
+
+    ```python
+    wsgi_app = app.wsgi_app
+    ```
+
+    Then comes route decorator on a simple function that defines a view:
+
+    ```python
+    @app.route('/')
+    def hello():
+        """Renders a sample page."""
+        return "Hello World!"
+    ```
+
+    Finally, the startup code below allows you to set the host and port through environment variables rather than hard-coding them. Such code allows you to easily control the configuration on both development and production machines without changing the code:
 
     ```python
     if __name__ == '__main__':
@@ -70,6 +90,6 @@ Using templates can save you significant time when starting a project or creatin
 
 ## See also
 
-- [Manually identifying an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identifying-an-existing-environment).
+- [Manually identifying an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
 - [Install Python support in Visual Studio 2015 and earlier](installing-python-support-in-visual-studio.md).
 - [Install locations](installing-python-support-in-visual-studio.md#install-locations).

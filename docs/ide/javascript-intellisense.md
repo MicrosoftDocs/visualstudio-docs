@@ -47,6 +47,7 @@ TypeScript uses several sources to build up this information:
 - [IntelliSense based on TypeScript declaration files](#TsDeclFiles)
 - [Automatic acquisition of type definitions](#Auto)
 
+<a name="TypeInference"></a>
 ### IntelliSense based on type inference
 
 In JavaScript, most of the time there is no explicit type information available. Luckily, it is usually fairly easy to figure out a type given the surrounding code context.
@@ -83,6 +84,7 @@ exports.Foo = Foo;
 // Note that assigning a value to "module.exports" is also supported.
 ```
 
+<a name="JsDoc"></a>
 ### IntelliSense based on JSDoc
 
 Where type inference does not provide the desired type information (or to support documentation), type information may be provided explicitly via JSDoc annotations.  For example, to give a partially declared object a specific type, you can use the `@type` tag as shown below:
@@ -109,14 +111,16 @@ function Foo(param1) {
 
 See [JSDoc support in JavaScript](https://github.com/Microsoft/TypeScript/wiki/JsDoc-support-in-JavaScript) for the JsDoc annotations currently supported.
 
+<a name="TsDeclFiles"></a>
 ### IntelliSense based on TypeScript declaration files
 
 Because JavaScript and TypeScript are now based on the same language service, they are able to interact in a richer way. For example, JavaScript IntelliSense can be provided for values declared in a *.d.ts* file (see [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)), and types such as interfaces and classes declared in TypeScript are available for use as types in JsDoc comments.
 
 Below, we show a simple example of a TypeScript definition file providing such type information (via an interface) to a JavaScript file in the same project (using a `JsDoc` tag).
 
-<img src="https://raw.githubusercontent.com/wiki/Microsoft/TypeScript/images/decl1.png" height="400" width="640"/>
+<img src="https://raw.githubusercontent.com/wiki/Microsoft/TypeScript/images/decl1.png" height="400" width="640" alt="TypeScript definition file" />
 
+<a name="Auto"></a>
 ### Automatic acquisition of type definitions
 
 In the TypeScript world, most popular JavaScript libraries have their APIs described by *.d.ts* files, and the most common repository for such definitions is on [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped).

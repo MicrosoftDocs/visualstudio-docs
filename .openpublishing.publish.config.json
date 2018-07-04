@@ -2,22 +2,6 @@
   "build_entry_point": "docs",
   "docsets_to_publish": [
     {
-      "docset_name": "b362ae64-b1c1-4f4d-a0af-76fe2cfdbd70",
-      "build_source_folder": "b362ae64-b1c1-4f4d-a0af-76fe2cfdbd70",
-      "build_output_subfolder": "b362ae64-b1c1-4f4d-a0af-76fe2cfdbd70",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
       "docset_name": "connected-environment",
       "build_source_folder": "connected-environment",
       "build_output_subfolder": "connected-environment",
@@ -103,7 +87,7 @@
   ],
   "notification_subscribers": [],
   "branches_to_filter": [],
-  "git_repository_url_open_to_public_contributors": "https://github.com/Microsoft/visualstudio-docs",
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/visualstudio-docs",
   "git_repository_branch_open_to_public_contributors": "master",
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,

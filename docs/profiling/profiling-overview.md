@@ -21,7 +21,7 @@ Profiling and diagnostics tools help you diagnose memory and CPU usage and other
 
 ## Next steps
 
-* [Profiling feature tour](../profiling/profiling-feature-tour.md) to learn about the many different ways to measure application performance.
+* [First look at profiling tools](../profiling/profiling-feature-tour.md) to learn about the many different ways to measure application performance.
 
 * [Analyze CPU usage](../profiling/cpu-usage.md) for more in-depth information on the CPU usage tool.
 

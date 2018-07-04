@@ -48,7 +48,7 @@ You can create data-bound controls that display related data by dragging items f
 
      The following figure demonstrates the related **Orders** table of the **Customers** table in a dataset in the **Data Sources** window.
 
-     ![Data Sources Window showing relation](../data-tools/media/datasources2.gif "DataSources2")
+     ![Data Sources Window showing relation](../data-tools/media/datasources2.gif)
 
 ## See also
 

@@ -28,8 +28,8 @@ ms.workload:
 ## Cause  
  The CompareTo method of the type is expensive or allocates memory.  
   
-## Rule Description  
+## Rule description  
  CompareTo methods should be efficient and should not allocate memory.  
   
-## How to Fix Violations  
+## How to fix violations  
  Reduce the complexity of the CompareTo method.

@@ -15,7 +15,7 @@ ms.workload:
   - "multiple"
 ---
 # Performance Report View Filter
-The Profiler Report View Filter window is located at the top of the Performance Report window. If you cannot see it, click the **Show Filter** button.  
+The **Profiler Report View Filter** window is located at the top of the **Performance Report** window. If you cannot see it, click the **Show Filter** button.  
   
  You can modify each filter clause to refine your results. The following columns are available in the filter builder.  
   
@@ -30,8 +30,8 @@ The Profiler Report View Filter window is located at the top of the Performance 
   
  From the **Marks** report view, you can generate filter clauses to limit the data in the report views to the data that is collected between two marks. Select the marks that you want to start and end report data, then right-click and select either **Add Filter on Marks** or **Add Filter on Timestamps**. Both filters limit the data in the current data file to the same span; **Add Filter on Marks** can be applied to other .vsp files.  
   
- To save the filter, click **Export Filter** on the Performance Report toolbar and then specify a location and file name for the .vspf file. To load a previously saved filter, click **Import Filter** and locate the saved filter file. Filter files can also be used to filter data files on computers that have the stand-alone Profiling Tools installed. For more information, see [VSPerfReport](../profiling/vsperfreport.md).  
+ To save the filter, click **Export Filter** on the **Performance Report** toolbar and then specify a location and file name for the .*vspf* file. To load a previously saved filter, click **Import Filter** and locate the saved filter file. Filter files can also be used to filter data files on computers that have the stand-alone Profiling Tools installed. For more information, see [VSPerfReport](../profiling/vsperfreport.md).  
   
-## See Also  
- [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   
+## See also  
+ [Analyze performance tools data](../profiling/analyzing-performance-tools-data.md)   
  [VSPerfReport](../profiling/vsperfreport.md)

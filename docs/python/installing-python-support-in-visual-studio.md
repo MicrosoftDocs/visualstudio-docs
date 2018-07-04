@@ -1,14 +1,14 @@
 ---
 title: Installing Python support
 description: How to install the Python Tools for Visual Studio (PTVS) in Visual Studio 2017, 2015, 2013, 2012, and 2010, including options and installation locations.
-ms.date: 02/15/2018
+ms.date: 06/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: douge
-ms.workload: 
+ms.workload:
   - python
   - data-science
 ---
@@ -36,10 +36,10 @@ To quickly test Python support after following the installation steps, Open the 
 1. Download and run the latest Visual Studio 2017 installer. If you have Visual Studio installed already, run the Visual Studio Installer, select the **Modify** option (see [Modify Visual Studio](../install/modify-visual-studio.md)) and go to step 2.
 
     > [!div class="nextstepaction"]
-    > <a target="frameTarget" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_install">Install Visual Studio 2017 Community</a>
+    > <a target="frameTarget" href="https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_install">Install Visual Studio 2017 Community</a>
 
     >[!Tip]
-    > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install <a target="frameTarget" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_install">Visual Studio 2017 Professional</a> or <a target="frameTarget" href="https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_install">Visual Studio 2017 Enterprise</a>.
+    > The Community edition is for individual developers, classroom learning, academic research, and open source development. For other uses, install <a target="frameTarget" href="https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Professional&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_install">Visual Studio 2017 Professional</a> or <a target="frameTarget" href="https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Enterprise&rel=15&rid=34347&utm_source=docs&utm_medium=clickbutton&utm_campaign=python_install">Visual Studio 2017 Enterprise</a>.
 
 1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload.
 
@@ -63,7 +63,7 @@ To quickly test Python support after following the installation steps, Open the 
     | Python native development tools | Installs the C++ compiler and other necessary components to develop native extensions for Python. See [Creating a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). Also install the **Desktop development with C++** workload for full C++ support. |
     | Azure Cloud Services core tools | Provides additional support for developer Azure Cloud Services in Python. See [Azure cloud service Projects](python-azure-cloud-service-project-template.md). |
 
-1. After installation, the installer provides options to modify, launch, repair, or uninstall Visual Studio. The **Modify** button changes to **Update** when updates to Visual Studio when updates are available for any installed components. (The modify option is then available on the drop-down menu.) You can also launch Visual Studio and the installer from the Windows Start menu by searching on "Visual Studio".
+1. After installation, the installer provides options to modify, launch, repair, or uninstall Visual Studio. The **Modify** button changes to **Update** when updates to Visual Studio are available for any installed components. (The modify option is then available on the drop-down menu.) You can also launch Visual Studio and the installer from the Windows Start menu by searching on "Visual Studio".
 
     ![Launching, modifying, modifying, or uninstalling Visual Studio from the installer](media/installation-vs-launch.png)
 
@@ -91,7 +91,7 @@ If you encounter problems installing or running Python in Visual Studio, try the
 
     ![PTVS option in Visual Studio 2015 installer](media/installation-vs2015.png)
 
-1. Once Visual Studio setup is complete, [install a Python interpreter of your choice](installing-python-interpreters.md). If you already have an interpreter installed and Visual Studio doesn't detect it automatically, see [Manually identifying an existing environment](managing-python-environments-in-visual-studio.md#manually-identifying-an-existing-environment).
+1. Once Visual Studio setup is complete, [install a Python interpreter of your choice](installing-python-interpreters.md). If you already have an interpreter installed and Visual Studio doesn't detect it automatically, see [Manually identify an existing environment](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
 
 ## Visual Studio 2013 and earlier
 
@@ -101,7 +101,7 @@ If you encounter problems installing or running Python in Visual Studio, try the
     - Visual Studio 2012: [PTVS 2.1 for Visual Studio 2012](https://pytools.codeplex.com/downloads/get/920478)
     - Visual Studio 2010: [PTVS 2.1 for Visual Studio 2010](https://pytools.codeplex.com/downloads/get/920479)
 
-1. [Install a Python interpreter of your choice](installing-python-interpreters.md). If you already have an interpreter installed and Visual Studio doesn't detect it automatically, see [Manually identifying an existing environment](managing-python-environments-in-visual-studio.md#manually-identifying-an-existing-environment).
+1. [Install a Python interpreter of your choice](installing-python-interpreters.md). If you already have an interpreter installed and Visual Studio doesn't detect it automatically, see [Manually identify an existing environment](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
 
 ## Install locations
 

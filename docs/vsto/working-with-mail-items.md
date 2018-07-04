@@ -1,5 +1,5 @@
 ---
-title: "Working with Mail Items | Microsoft Docs"
+title: "Work with mail items"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -19,24 +19,24 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Working with Mail Items
-  The <xref:Microsoft.Office.Interop.Outlook.MailItem> class contains the methods and properties you use to perform tasks with e-mail messages.  
+# Work with mail items
+  The <xref:Microsoft.Office.Interop.Outlook.MailItem> class contains the methods and properties you use to perform tasks with email messages.  
   
 |Task|Procedure|  
 |----------|---------------|  
-|Create an e-mail message.|[How to: Programmatically Create an E-Mail Item](../vsto/how-to-programmatically-create-an-e-mail-item.md)|  
-|Send an e-mail message.|[How to: Programmatically Send E-Mail](../vsto/how-to-programmatically-send-e-mail-programmatically.md)|  
-|Respond to new e-mail messages with a custom action.|[How to: Programmatically Perform Actions When an E-Mail Message Is Received](../vsto/how-to-programmatically-perform-actions-when-an-e-mail-message-is-received.md)|  
-|Save attachments.|[How to: Programmatically Save Attachments from Outlook E-Mail Items](../vsto/how-to-programmatically-save-attachments-from-outlook-e-mail-items.md)|  
-|Add attachments|[How to: Programmatically Attach Files to Outlook E-Mail Items](../vsto/how-to-programmatically-attach-files-to-outlook-e-mail-items.md)|  
-|Iterate through all unread messages.|[How to: Programmatically Retrieve Unread Messages from the Inbox](../vsto/how-to-programmatically-retrieve-unread-messages-from-the-inbox.md)|  
+|Create an e-mail message.|[How to: Programmatically create an email item](../vsto/how-to-programmatically-create-an-e-mail-item.md)|  
+|Send an e-mail message.|[How to: Programmatically send email](../vsto/how-to-programmatically-send-e-mail-programmatically.md)|  
+|Respond to new e-mail messages with a custom action.|[How to: Programmatically perform actions when an email message is received](../vsto/how-to-programmatically-perform-actions-when-an-e-mail-message-is-received.md)|  
+|Save attachments.|[How to: Programmatically save attachments from Outlook email items](../vsto/how-to-programmatically-save-attachments-from-outlook-e-mail-items.md)|  
+|Add attachments|[How to: Programmatically attach files to Outlook email items](../vsto/how-to-programmatically-attach-files-to-outlook-e-mail-items.md)|  
+|Iterate through all unread messages.|[How to: Programmatically retrieve unread messages from the inbox](../vsto/how-to-programmatically-retrieve-unread-messages-from-the-inbox.md)|  
   
- For more information about Outlook tasks and the Outlook object model, see [Outlook Object Model Overview](../vsto/outlook-object-model-overview.md).  
+ For more information about Outlook tasks and the Outlook object model, see [Outlook object model overview](../vsto/outlook-object-model-overview.md).  
   
-## See Also  
- [Working with Contact Items](../vsto/working-with-contact-items.md)   
- [Working with Folders](../vsto/working-with-folders.md)   
- [Working with Calendar Items](../vsto/working-with-calendar-items.md)   
- [Outlook Solutions](../vsto/outlook-solutions.md)  
+## See also  
+ [Work with contact items](../vsto/working-with-contact-items.md)   
+ [Work with folders](../vsto/working-with-folders.md)   
+ [Work with calendar items](../vsto/working-with-calendar-items.md)   
+ [Outlook solutions](../vsto/outlook-solutions.md)  
   
   

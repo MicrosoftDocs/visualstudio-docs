@@ -12,7 +12,7 @@ manager: douge
 
 Visual Studio provides several different tools to help you deploy your apps.
 
-<h2>Experience Visual Studio deployment with 5-minute "Quickstarts"</h2>
+<h2>Experience Visual Studio deployment with 5-minute Quickstarts</h2>
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -22,7 +22,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_road-map.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/common/i_road-map.svg" alt="Road map">
                         </div>
                     </div>
                     <div class="cardText">
@@ -40,7 +40,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="Deploy to a local folder">
                         </div>
                     </div>
                     <div class="cardText">
@@ -58,7 +58,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="Deploy to a website or network share">
                         </div>
                     </div>
                     <div class="cardText">
@@ -76,7 +76,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="Deploy to Azure App Service">
                         </div>
                     </div>
                     <div class="cardText">
@@ -99,7 +99,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="Deploy a .NET core app">
                         </div>
                     </div>
                     <div class="cardText">
@@ -117,7 +117,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="Package a UWP for Microsoft Store">
                         </div>
                     </div>
                     <div class="cardText">
@@ -135,7 +135,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="Deploy ASP.NET to Azure">
                         </div>
                     </div>
                     <div class="cardText">
@@ -153,7 +153,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="Package a desktop app for Microsoft Store (C#, C++)">
                         </div>
                     </div>
                     <div class="cardText">
@@ -171,11 +171,47 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_Python.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/logos/logo_Python.svg" alt="Deploy Python to Azure">
                         </div>
                     </div>
                     <div class="cardText">
                         <h3>Deploy Python to Azure</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="tutorial-import-publish-settings-azure.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="Import publish settings and deploy to Azure App Service">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Import publish settings and deploy to Azure App Service</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="tutorial-import-publish-settings-iis.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="Import publish settings and deploy to IIS">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Import publish settings and deploy to IIS</h3>
                     </div>
                 </div>
             </div>
@@ -189,7 +225,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="Deploy a desktop app using ClickOnce">
                         </div>
                     </div>
                     <div class="cardText">
@@ -207,7 +243,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_learn-about.svg" alt="">
+                            <img src="https://docs.microsoft.com/media/common/i_learn-about.svg" alt="Learn about deployment in Visual C++">
                         </div>
                     </div>
                     <div class="cardText">

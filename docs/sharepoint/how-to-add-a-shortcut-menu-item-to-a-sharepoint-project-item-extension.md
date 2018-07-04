@@ -18,10 +18,10 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add a Shortcut Menu Item to a SharePoint Project Item Extension
+# How to: Add a shortcut menu item to a SharePoint project item extension
   You can add a shortcut menu item to an existing SharePoint project item by using a project item extension. The menu item appears when a user right-clicks the project item in **Solution Explorer**.  
   
- The following steps assume that you have already created a project item extension. For more information, see [How to: Create a SharePoint Project Item Extension](../sharepoint/how-to-create-a-sharepoint-project-item-extension.md).  
+ The following steps assume that you have already created a project item extension. For more information, see [How to: Create a SharePoint project item extension](../sharepoint/how-to-create-a-sharepoint-project-item-extension.md).  
   
 ### To add a shortcut menu item in a project item extension  
   
@@ -37,22 +37,21 @@ ms.workload:
  [!code-vb[SPExtensibility.ProjectItemExtension.MenuAndProperty#1](../sharepoint/codesnippet/VisualBasic/projectitemmenuandproperty/extension/projectitemextensionmenu.vb#1)]
  [!code-csharp[SPExtensibility.ProjectItemExtension.MenuAndProperty#1](../sharepoint/codesnippet/CSharp/projectitemmenuandproperty/extension/projectitemextensionmenu.cs#1)]  
   
- This example uses the SharePoint project service to write the message to the **Output** window. For more information, see [Using the SharePoint Project Service](../sharepoint/using-the-sharepoint-project-service.md).  
+ This example uses the SharePoint project service to write the message to the **Output** window. For more information, see [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md).  
   
-## Compiling the Code  
+## Compile the code  
  This example requires a class library project with references to the following assemblies:  
   
 -   Microsoft.VisualStudio.SharePoint  
   
 -   System.ComponentModel.Composition  
   
-## Deploying the Extension  
- To deploy the extension, create a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package for the assembly and any other files that you want to distribute with the extension. For more information, see [Deploying Extensions for the SharePoint Tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).  
+## Deploy the extension  
+ To deploy the extension, create a [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] extension (VSIX) package for the assembly and any other files that you want to distribute with the extension. For more information, see [Deploy extensions for the SharePoint tools in Visual Studio](../sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md).  
   
-## See Also  
- [How to: Create a SharePoint Project Item Extension](../sharepoint/how-to-create-a-sharepoint-project-item-extension.md)   
- [How to: Add a Property to a SharePoint Project Item Extension](../sharepoint/how-to-add-a-property-to-a-sharepoint-project-item-extension.md)   
- [Extending SharePoint Project Items](../sharepoint/extending-sharepoint-project-items.md)   
- [Walkthrough: Extending a SharePoint Project Item Type](../sharepoint/walkthrough-extending-a-sharepoint-project-item-type.md)  
-  
+## See also
+ [How to: Create a SharePoint project item extension](../sharepoint/how-to-create-a-sharepoint-project-item-extension.md)   
+ [How to: Add a property to a SharePoint project item extension](../sharepoint/how-to-add-a-property-to-a-sharepoint-project-item-extension.md)   
+ [Extend SharePoint project items](../sharepoint/extending-sharepoint-project-items.md)   
+ [Walkthrough: Extend a SharePoint project item type](../sharepoint/walkthrough-extending-a-sharepoint-project-item-type.md)  
   

@@ -23,9 +23,9 @@ This walkthrough steps you through the process of using code analysis to analyze
 
 ### To create a class library
 
-1. On the **File** menu, choose **New** > **Project...**.
+1. On the **File** menu, choose **New** > **Project**.
 
-1. In the **New Project** dialog box, expand **Installed** > **Visual C#**, and then choose **Windows Classic Desktop**.
+1. In the **New Project** dialog box, expand **Installed** > **Visual C#**, and then choose **Windows Desktop**.
 
 1. Choose the **Class Library (.NET Framework)** template.
 

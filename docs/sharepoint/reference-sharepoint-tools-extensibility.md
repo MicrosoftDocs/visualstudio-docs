@@ -16,17 +16,16 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Reference (SharePoint Tools Extensibility)
+# Reference (SharePoint tools extensibility)
   This section contains reference documentation for extending the SharePoint tools in Visual Studio.  
   
-## In This Section  
- [SharePoint Project Item Schema Reference](../sharepoint/sharepoint-project-item-schema-reference.md)  
- Contains reference documentation for the .spdata file schema.  
+## In this section
+ [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)  
+ Contains reference documentation for the *.spdata* file schema.  
   
- [API Reference &#40;SharePoint Tools Extensibility&#41;](../sharepoint/api-reference-sharepoint-tools-extensibility.md)  
+ [API reference &#40;SharePoint tools extensibility&#41;](../sharepoint/api-reference-sharepoint-tools-extensibility.md)  
  Contains API reference documentation for extending the SharePoint tools in Visual Studio.  
   
-## See Also  
- [Extending the SharePoint Tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)  
-  
+## See also
+ [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)  
   

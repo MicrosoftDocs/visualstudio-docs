@@ -26,7 +26,7 @@ You can create unit test projects that target specific versions of the .NET Fram
 
 **Testing SharePoint Applications**
 
-The capabilities listed above also enable you to write unit tests and integration tests for SharePoint applications using Visual Studio. For more information about how to develop SharePoint applications using Visual Studio, see [Create SharePoint Solutions](/office-dev/office-dev/create-sharepoint-solutions), [Building and Debugging SharePoint Solutions](/office-dev/office-dev/building-and-debugging-sharepoint-solutions) and [Verifying and Debugging SharePoint Code](/office-dev/office-dev/verifying-and-debugging-sharepoint-code).
+The capabilities listed above also enable you to write unit tests and integration tests for SharePoint applications using Visual Studio. For more information about how to develop SharePoint applications using Visual Studio, see [Create SharePoint Solutions](../sharepoint/create-sharepoint-solutions.md), [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md) and [Verifying and Debugging SharePoint Code](../sharepoint/verifying-and-debugging-sharepoint-code.md).
 
 **Limitations**
 
@@ -58,11 +58,11 @@ The following limitations apply when you re-target your test projects to use ear
 
 5.  On the **Compile** tab, choose **Advanced Compile Options** as shown in the following illustration.
 
-     ![Advanced Compile Options](../test/media/howtoconfigureunittest35frameworka.png "HowToConfigureUnitTest35FrameworkA")
+     ![Advanced Compile Options](../test/media/howtoconfigureunittest35frameworka.png)
 
 6.  Use the **Target framework (all configurations)** drop-down list to change the target framework to **.NET Framework 3.5** or a later version as shown in callout B in the following illustration. You should not specify a client version.
 
-     ![Target framework drop&#45;down list](../test/media/howtoconfigureunitest35frameworkstepb.png "HowToConfigureUniTest35FrameworkStepB")
+     ![Target framework drop&#45;down list](../test/media/howtoconfigureunitest35frameworkstepb.png)
 
 ## Re-targeting to a specific version of the .NET Framework for Visual C# Unit Test Projects
 
@@ -80,7 +80,7 @@ The following limitations apply when you re-target your test projects to use ear
 
 5.  On the **Application** tab, choose **Target framework**. From the drop-down list, choose **.NET Framework 3.5** or a later version, as shown in the following illustration. You should not specify a client version.
 
-     ![Target framework drop&#45;down list](../test/media/howtoconfigureunittest35frameworkcsharp.png "HowToConfigureUnitTest35FrameworkCSharp")
+     ![Target framework drop&#45;down list](../test/media/howtoconfigureunittest35frameworkcsharp.png)
 
 ## Re-targeting to a specific version of the .NET Framework for C++/CLI Unit Test Projects
 
@@ -120,6 +120,6 @@ The following limitations apply when you re-target your test projects to use ear
 
 ## See also
 
-- [Create SharePoint Solutions](/office-dev/office-dev/create-sharepoint-solutions)
-- [Building and Debugging SharePoint Solutions](/office-dev/office-dev/building-and-debugging-sharepoint-solutions)
+- [Create SharePoint Solutions](../sharepoint/create-sharepoint-solutions.md)
+- [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
 - [Advanced Compiler Settings Dialog Box (Visual Basic)](../ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md)

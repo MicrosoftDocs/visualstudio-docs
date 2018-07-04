@@ -21,7 +21,7 @@ ms.workload:
 
 When displaying data on forms in Windows applications, you can choose existing controls from the **Toolbox**, or you can author custom controls if your application requires functionality that is not available in the standard controls. This walkthrough shows how to create a control that implements the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute>. Controls that implement the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute> contain a `DataSource` and `DataMember` property that can be bound to data. Such controls are similar to a <xref:System.Windows.Forms.DataGridView> or <xref:System.Windows.Forms.ListBox>.
 
-For more information on control authoring, see [Developing Windows Forms Controls at Design Time](/dotnet/framework/winforms/controls/developing-windows-forms-controls-at-design-time).
+For more information on control authoring, see [Developing Windows Forms controls at design time](/dotnet/framework/winforms/controls/developing-windows-forms-controls-at-design-time).
 
 When authoring controls for use in data-binding scenarios you need to implement one of the following data-binding attributes:
 
@@ -53,11 +53,11 @@ During this walkthrough, you will learn how to:
 
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
-1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.
+1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
 
 1. Install the Northwind sample database by following these steps:
 
-    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 
        A query editor window opens.
 
@@ -65,7 +65,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
     1. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
-       After a short time, the query finishes executing and the Northwind database is created.
+       After a short time, the query finishes running and the Northwind database is created.
 
 ## Create a Windows Forms application
 
@@ -73,9 +73,9 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ### To create the new Windows project
 
-1. In Visual Studio, on the **File** menu, select **New**, **Project...**.
+1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
-1. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.
+1. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
 
 1. In the middle pane, select the **Windows Forms App** project type.
 
@@ -168,13 +168,13 @@ You can create the data-bound controls by dragging items from the **Data Sources
 
 ### To create data-bound controls on the form
 
-Drag the main **Customers** node from the **Data Sources** window onto the form.Verify that the **ComplexDataGridView** control is used to display the table's data.
+Drag the main **Customers** node from the **Data Sources** window onto the form. Verify that the **ComplexDataGridView** control is used to display the table's data.
 
 ## Running the application
 
 ### To run the application
 
-Press F5 to run the application.
+Press **F5** to run the application.
 
 ## Next steps
 

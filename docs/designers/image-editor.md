@@ -40,7 +40,7 @@ This section describes how to add an image to your Visual Studio project and con
 
 ### To add an image to your project
 
-1.  In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add**, **New Item**.
+1.  In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add** > **New Item**.
 
 2.  In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select an appropriate file format for the image. For information about how to choose a file format based on your requirements, see the following section.
 
@@ -94,7 +94,7 @@ The Image Editor toolbars contain commands that help you work with images.
 
  Here's the **Image Editor Mode** toolbar:
 
- ![The Image Editor modal toolbar.](../designers/media/digit-tre-modal-toolbar.png "Digit-TRE-Modal-Toolbar")
+ ![The Image Editor modal toolbar.](../designers/media/digit-tre-modal-toolbar.png)
 
  This table describes the items on the **Image Editor Mode** toolbar, which are listed in the order in which they appear from left to right.
 
@@ -118,7 +118,7 @@ The Image Editor toolbars contain commands that help you work with images.
 
  Here's the **Image Editor** toolbar.
 
- ![Image Editor toolbar](../designers/media/digit-tre-toolbar.png "Digit-TRE-Toolbar")
+ ![Image Editor toolbar](../designers/media/digit-tre-toolbar.png)
 
  The following table describes the items on the **Image Editor** toolbar, which are listed in the order in which they appear from top to bottom.
 

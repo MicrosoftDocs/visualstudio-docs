@@ -21,7 +21,7 @@ The **ExistsInCollection\<T>** activity designer is used to create and configure
  The <xref:System.Activities.Statements.ExistsInCollection%601> activity determines whether a specified item exists in a particular collection.
 
 ### Using the ExistsInCollection\<T> Activity Designer
- The **ExistsInCollection\<T>** activity designer can be found in the **Collection** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab of Workflow Designer (Alternatively, select **Toolbar** from the **View** menu or CTRL+ALT+X.)
+ The **ExistsInCollection\<T>** activity designer can be found in the **Collection** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab of Workflow Designer. Alternatively, select **Toolbox** from the **View** menu, or press **Ctrl**+**Alt**+**X**.
 
  The **ExistsInCollection\<T>** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.ExistsInCollection%601> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of ExistsInCollection<Int32\>. (By default, the *TypeArgument* is **Int32**. It can be changed in the property grid.)  The <xref:System.Activities.Activity.DisplayName%2A> value can be edited in the header of the **ExistsInCollection<T\>** activity designer or in the **DisplayName** box of the property grid. The other properties must be edited on the property grid.
 

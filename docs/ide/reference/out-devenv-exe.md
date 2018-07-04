@@ -26,7 +26,7 @@ Specifies a file to store and display errors when you run, build, rebuild, or de
 
 ## Syntax
 
-```
+```cmd
 devenv /out FileName
 ```
 
@@ -43,7 +43,7 @@ devenv /out FileName
 ## Example
  This example runs `MySolution` and writes errors to the file `MyErrorLog.txt`.
 
-```
+```cmd
 devenv /run "C:\Documents and Settings\someuser\My Documents\Visual Studio\Projects\MySolution\MySolution.sln" /out "C:\MyErrorLog.txt"
 ```
 

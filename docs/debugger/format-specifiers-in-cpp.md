@@ -109,13 +109,13 @@ int main() {
 |**l,h**|long or short prefix for: d, i, u, o, x, X|00406042|0x0c22|  
 |**f**|signed floating point|(3./2.), f|1.500000|  
 |**e**|signed scientific notation|(3.0/2.0)|1.500000e+000|  
-|**g**|signed floating point or signed scientific notation, whichever is shorter|(3.0/2.0)|1.5|  
+|**g**|signed floating point or signed scientific notation,<br/> whichever is shorter|(3.0/2.0)|1.5|  
 |c|single character|\<location>|101 'e'|  
 |s|const char*|\<location>|"hello world"|  
 |su|const wchar_t*<br /><br /> const char16_t\*|\<location>|L"hello world"|  
 |sub|const wchar_t*<br /><br /> const char16_t\*|\<location>|hello world|  
 |s8|const char*|\<location>|"hello world"|  
-|hr|HRESULT or Win32 error code. (The debugger now decodes HRESULTs automatically, so this specifier is not required in those cases.|S_OK|S_OK|  
+|hr|HRESULT or Win32 error code.<br/>(Debugger decodes HRESULTs automatically,<br/> so specifier not required in those cases.|S_OK|S_OK|  
 |wc|Window class flag.|0x00000040,|WC_DEFAULTCHAR|  
 |wm|Windows message numbers|0x0010|WM_CLOSE|  
 |!|raw format, ignoring any data type views customizations|\<customized representation>|4|  

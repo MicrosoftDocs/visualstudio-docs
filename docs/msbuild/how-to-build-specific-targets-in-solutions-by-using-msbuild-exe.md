@@ -27,7 +27,7 @@ You can use MSBuild.exe to build specific targets of specific projects in a solu
 ## Example  
  The following example executes the `Rebuild` target of the `NotInSlnFolder` project, and then executes the `Clean` target of the `InSolutionFolder` project, which is located in the `NewFolder` solution folder.  
   
-```
+```cmd
 msbuild SlnFolders.sln /target:NotInSlnfolder:Rebuild;NewFolder\InSolutionFolder:Clean`
 ```
 

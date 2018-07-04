@@ -35,7 +35,7 @@ In the instructions below, you can run the tool with different command-line swit
 
 1. Close the Visual Studio Installer.
 2. Open an administrator command prompt. To open an administrator command prompt, follow these steps:
-   * On the **Start** menu, click **Run** (Start + R).
+   * Click the **Start** menu
    * Type **cmd**.
    * Right-click **Command Prompt**, and then click **Run as administrator**.
 3. Type the full path of the `InstallCleanup.exe` utility and pass whichever command-line switch you desire. By default, the path of the utility is as follows:
@@ -47,7 +47,7 @@ If you do not find `InstallCleanup.exe` under the Visual Studio Installer direct
 
 ## Get support
 
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
 
 Here are a few more support options:
 

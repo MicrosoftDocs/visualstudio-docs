@@ -37,6 +37,5 @@ For example, you can perform the following tasks:
 - [How to: Troubleshoot templates](../ide/how-to-troubleshoot-templates.md)
 - [How to: Create project templates](../ide/how-to-create-project-templates.md)
 - [How to: Create item templates](../ide/how-to-create-item-templates.md)
-- [How to: Create starter kits](../ide/how-to-create-starter-kits.md)
 - [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
 - <xref:Microsoft.VisualStudio.TemplateWizard.IWizard>

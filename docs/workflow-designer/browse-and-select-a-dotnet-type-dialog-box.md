@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Browse and Select a .NET Type Dialog Box
 
-In the **Properties** window, dialog boxes, or designers such as the variable designer, when you select **Browse for Types...** from a list of data types, is the **Browse and Select a .NET Type** dialog box (referred to in an abbreviated form as the "type browser"). In this dialog box, you can choose a type from a tree view of assemblies and projects.
+In the **Properties** window, dialog boxes, or designers such as the variable designer, when you select **Browse for Types** from a list of data types, is the **Browse and Select a .NET Type** dialog box (referred to in an abbreviated form as the "type browser"). In this dialog box, you can choose a type from a tree view of assemblies and projects.
 
  This dialog box is employed in a number of user scenarios, including the following:
 

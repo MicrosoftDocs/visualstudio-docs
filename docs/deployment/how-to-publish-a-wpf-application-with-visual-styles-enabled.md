@@ -12,27 +12,27 @@ ms.workload:
   - "multiple"
 ---
 # How to: Publish a WPF Application with Visual Styles Enabled
-Visual styles enable the appearance of common controls to change based on the theme chosen by the user. By default, visual styles are not enabled for Windows Presentation Foundation (WPF) applications, so you must enable them manually. However, enabling visual styles for a WPF application and then publishing the solution causes an error. This topic describes how to resolve this error and the process for publishing a WPF application with visual styles enabled. For more information about visual styles, see [Visual Styles Overview](http://msdn.microsoft.com/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e). For more information about the error message, see [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md).  
+Visual styles enable the appearance of common controls to change based on the theme chosen by the user. By default, visual styles are not enabled for Windows Presentation Foundation (WPF) applications, so you must enable them manually. However, enabling visual styles for a WPF application and then publishing the solution causes an error. This topic describes how to resolve this error and the process for publishing a WPF application with visual styles enabled. For more information about visual styles, see [Visual Styles Overview](/windows/desktop/Controls/visual-styles-overview). For more information about the error message, see [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md).  
   
  To resolve the error and to publish the solution, you must perform the following tasks:  
   
--   [Publish the solution without visual styles enabled](#BKMK_publishsolwovs).  
+-   [Publish the solution without visual styles enabled](#publish-the-solution-without-visual-styles-enabled).  
   
--   [Create a manifest file](#BKMK_CreateManifest).  
+-   [Create a manifest file](#create-a-manifest-file).  
   
--   [Embed the manifest file into the executable file of the published solution](#BKMK_embedmanifest).  
+-   [Embed the manifest file into the executable file of the published solution](#embed-the-manifest-file-into-the-executable-file-of-the-published-solution).  
   
--   [Sign the application and deployment manifests](#BKMK_signappdeplyman).  
+-   [Sign the application and deployment manifests](#sign-the-application-and-deployment-manifests).  
   
  Then, you can move the published files to the location from which you want end users to install the application.  
   
-##  <a name="BKMK_publishsolwovs"></a> Publish the solution without visual styles enabled  
+##  Publish the solution without visual styles enabled  
   
 1.  Ensure that your project does not have visual styles enabled. First, check your project's manifest file for the following XML. Then, if the XML is present, enclose the XML with a comment tag.  
   
      By default, visual styles are not enabled.  
   
-    ```  
+    ```xml  
     <dependency>    <dependentAssembly>      <assemblyIdentity          type="win32"          name="Microsoft.Windows.Common-Controls"          version="6.0.0.0"          processorArchitecture="*"          publicKeyToken="6595b64144ccf1df"          language="*"        />    </dependentAssembly>  </dependency>  
     ```  
   
@@ -65,13 +65,13 @@ Visual styles enable the appearance of common controls to change based on the th
   
 2.  Build and publish your solution. For more information about how to publish the solution, see [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).  
   
-##  <a name="BKMK_CreateManifest"></a> Create a manifest file  
+## Create a manifest file  
   
 1.  Paste the following XML into a Notepad file.  
   
      This XML describes the assembly that contains controls that support visual styles.  
   
-    ```  
+    ```xml  
     <?xml version="1.0" encoding="utf-8"?><asmv1:assembly manifestVersion="1.0"                xmlns="urn:schemas-microsoft-com:asm.v1"                xmlns:asmv1="urn:schemas-microsoft-com:asm.v1"                xmlns:asmv2="urn:schemas-microsoft-com:asm.v2"                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  <dependency>    <dependentAssembly>      <assemblyIdentity        type="win32"        name="Microsoft.Windows.Common-Controls"        version="6.0.0.0"        processorArchitecture="*"        publicKeyToken="6595b64144ccf1df"        language="*"        />    </dependentAssembly>  </dependency></asmv1:assembly>  
     ```  
   
@@ -86,7 +86,7 @@ Visual styles enable the appearance of common controls to change based on the th
     > [!NOTE]
     >  The remaining procedures assume that the name of this file is **themes.manifest** and that the file is saved to the C:\temp directory on your computer.  
   
-##  <a name="BKMK_embedmanifest"></a> Embed the manifest file into the executable file of the published solution  
+## Embed the manifest file into the executable file of the published solution  
   
 1.  Open the **Visual Studio Command Prompt**.  
   
@@ -106,16 +106,16 @@ Visual styles enable the appearance of common controls to change based on the th
 2.  At the command prompt, change the path to the directory that contains the most recent version of the published application files. The following example demonstrates this step.  
   
     ```  
-    cd "%UserProfile%\Documents\Visual Studio 2010\Projects\MyWPFProject\publish\Application Files\WPFApp_1_0_0_0"  
+cd "%UserProfile%\Documents\Visual Studio 2010\Projects\MyWPFProject\publish\Application Files\WPFApp_1_0_0_0"  
     ```  
   
 3.  At the command prompt, run the following command to embed the manifest file into the executable file of the application.  
   
-    ```  
+    ```
     mt -manifest c:\temp\themes.manifest -outputresource:MyWPFApp.exe.deploy  
     ```  
   
-##  <a name="BKMK_signappdeplyman"></a> Sign the application and deployment manifests  
+## Sign the application and deployment manifests  
   
 1.  At the command prompt, run the following command to remove the `.deploy` extension from the executable file in the current directory.  
   
@@ -157,6 +157,6 @@ Visual styles enable the appearance of common controls to change based on the th
   
 ## See Also  
  [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)   
- [Visual Styles Overview](http://msdn.microsoft.com/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e)   
+ [Visual Styles Overview](/windows/desktop/Controls/visual-styles-overview)   
  [Enabling Visual Styles](https://msdn.microsoft.com/library/bb773175.aspx)   
  [Command Prompts](/dotnet/framework/tools/developer-command-prompt-for-vs)

@@ -46,13 +46,13 @@ Loggers provide a way for you to customize the output of your build and display 
   
  The following command line builds the project `MyProject.csproj` and uses the logger class implemented in `SimpleLogger.dll`. The **/nologo** switch hides the banner and copyright message and the **/noconsolelogger** switch disables the default [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] console logger.  
   
-```  
+```cmd  
 MSBuild /nologo /noconsolelogger /logger:SimpleLogger.dll  
 ```  
   
  The following command line builds the project with the same logger, but with a `Verbosity` level of `Detailed`.  
   
-```  
+```cmd  
 MSBuild /nologo /noconsolelogger /logger:SimpleLogger.dll /verbosity:Detailed  
 ```  
   
