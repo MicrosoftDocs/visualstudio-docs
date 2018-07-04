@@ -69,7 +69,7 @@ When you build projects, it is often necessary to set build options using inform
   
 ## See Also  
 
-[MSBuild](MSBuild1.md)
+[MSBuild](msbuild.md)
 
 [MSBuild Properties](../msbuild/msbuild-properties1.md)
 

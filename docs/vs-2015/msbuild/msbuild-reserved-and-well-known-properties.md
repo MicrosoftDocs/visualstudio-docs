@@ -63,7 +63,7 @@ The latest version of this topic can be found at [MSBuild Reserved and Well-Know
   
 ## See Also  
  [MSBuild Reference](../msbuild/msbuild-reference.md)
- [MSBuild Properties](MSBuild%20Properties.md)
+ [MSBuild Properties](msbuild-properties1.md)
 
 
 

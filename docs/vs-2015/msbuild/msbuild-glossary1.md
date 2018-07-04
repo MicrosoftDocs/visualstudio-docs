@@ -91,10 +91,10 @@ These terms are used to describe the Microsoft Build Engine (MSBuild) and its co
  A project file contains the MSBuild script that controls the build. Project files typically have a file extension that ends with "proj", such as .csproj or .vbproj. Project files may import property files and target files.  
   
  property  
- A property is a key-value pair that is used to control the build process. For more information, see [MSBuild Properties](MSBuild%20Properties.md).  
+ A property is a key-value pair that is used to control the build process. For more information, see [MSBuild Properties](msbuild-properties1.md).  
   
  property, environment  
- An environment property is a property that is automatically initialized to the value of a system environment variable that has the same name. For more information, see [MSBuild Properties](MSBuild%20Properties.md).  
+ An environment property is a property that is automatically initialized to the value of a system environment variable that has the same name. For more information, see [MSBuild Properties](msbuild-properties1.md).  
   
  property file  
  A property file is a project file that contains mostly property groups and item groups that guide the build. By convention, It has the file extension .props. Property files are typically imported at the beginning of associated project files.  
@@ -110,16 +110,16 @@ These terms are used to describe the Microsoft Build Engine (MSBuild) and its co
  For more information, see [Property Functions](../msbuild/property-functions.md).  
   
  property, global  
- A global property is a key-value pair that is used to control the build process. Global properties are set at a command prompt, or by using the `Properties` attribute of an [MSBuild task](../msbuild/msbuild-task.md), and cannot be modified during the evaluation phase of a build. For more information, see [MSBuild Properties](MSBuild%20Properties.md).  
+ A global property is a key-value pair that is used to control the build process. Global properties are set at a command prompt, or by using the `Properties` attribute of an [MSBuild task](../msbuild/msbuild-task.md), and cannot be modified during the evaluation phase of a build. For more information, see [MSBuild Properties](msbuild-properties1.md).  
   
  property, local  
  A local property is a key-value pair that is used to control the build process. This term is only used to distinguish a property that is not a global property.  
   
  property, registry  
- A registry property has a value that is set by using a special syntax that reads the value of a system registry subkey. For more information, see [MSBuild Properties](MSBuild%20Properties.md).  
+ A registry property has a value that is set by using a special syntax that reads the value of a system registry subkey. For more information, see [MSBuild Properties](msbuild-properties1.md).  
   
  property, reserved  
- A reserved property is a key-value pair that is used to control the build process. Reserved properties are automatically initialized to predefined values. For more information, see [MSBuild Properties](MSBuild%20Properties.md).  
+ A reserved property is a key-value pair that is used to control the build process. Reserved properties are automatically initialized to predefined values. For more information, see [MSBuild Properties](msbuild-properties1.md).  
   
  project-scope  
  Project-scope describes an MSBuild object, for example, a local property, that is visible only in the containing project file and to any projects that it imports.  

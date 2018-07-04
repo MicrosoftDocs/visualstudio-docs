@@ -358,7 +358,7 @@ Output:
   
 ## See Also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)  
- [MSBuild](MSBuild1.md)   
+ [MSBuild](msbuild.md)   
  [How to: Select the Files to Build](../msbuild/how-to-select-the-files-to-build.md)   
  [How to: Exclude Files from the Build](../msbuild/how-to-exclude-files-from-the-build.md)   
  [How to: Display an Item List Separated with Commas](../msbuild/how-to-display-an-item-list-separated-with-commas.md)   

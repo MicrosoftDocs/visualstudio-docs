@@ -71,7 +71,7 @@ A build platform needs the ability to execute any number of actions during the b
   
 ## See Also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
- [MSBuild](MSBuild1.md)   
+ [MSBuild](msbuild.md)   
  [Task Writing](../msbuild/task-writing.md)   
  [Inline Tasks](../msbuild/msbuild-inline-tasks.md)
 

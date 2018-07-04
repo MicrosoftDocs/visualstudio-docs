@@ -335,7 +335,7 @@ Output:
 ```
 
 ## See Also
-[MSBuild Properties](MSBuild%20Properties.md)   
-[MSBuild Overview](MSBuild1.md)
+[MSBuild Properties](msbuild-properties1.md)   
+[MSBuild Overview](msbuild.md)
 
 

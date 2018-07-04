@@ -63,6 +63,6 @@ Provides a table of all the [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Conditions](../msbuild/msbuild-conditions.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)  
- [MSBuild](MSBuild1.md)
+ [MSBuild](msbuild.md)
 
 

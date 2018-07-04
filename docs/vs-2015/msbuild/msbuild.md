@@ -106,7 +106,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
   
  Properties can be referenced throughout the project file by using the syntax $(*PropertyName*). For example, you can reference the properties in the previous examples by using `$(BuildDir)` and `$(Configuration)`.  
   
- For more information about properties, see [MSBuild Properties](MSBuild%20Properties.md).  
+ For more information about properties, see [MSBuild Properties](msbuild-properties1.md).  
   
 ###  <a name="BKMK_Items"></a> Items  
  Items are inputs into the build system and typically represent files. Items are grouped into item types, based on user-defined item names. These item types can be used as parameters for tasks, which use the individual items to perform the steps of the build process.  
@@ -196,7 +196,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
 |[Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md)|Introduces the building blocks of MSBuild and shows how to write, manipulate, and debug MSBuild projects without closing the Visual Studio IDE.|  
 |[MSBuild Concepts](../msbuild/msbuild-concepts.md)|Presents the four building blocks of MSBuild: properties, items, targets, and tasks.|  
 |[Items](../msbuild/msbuild-items.md)|Describes the general concepts behind the [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] file format and how the pieces fit together.|  
-|[MSBuild Properties](MSBuild%20Properties.md)|Introduces properties and property collections. Properties are key/value pairs that can be used to configure builds.|  
+|[MSBuild Properties](msbuild-properties1.md)|Introduces properties and property collections. Properties are key/value pairs that can be used to configure builds.|  
 |[Targets](../msbuild/msbuild-targets.md)|Explains how to group tasks together in a particular order and enable sections of the build process to be called on the command line.|  
 |[Tasks](../msbuild/msbuild-tasks.md)|Shows how to create a unit of executable code that can be used by [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] to perform atomic build operations.|  
 |[Conditions](../msbuild/msbuild-conditions.md)|Discusses how to use the `Condition` attribute in an MSBuild element.|  

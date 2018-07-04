@@ -207,7 +207,7 @@ $(IncludeFolders);$(MSBuildProjectDirectory)\Include;AnotherFolder;And\Another</
 ```  
   
 ##  <a name="parameters"></a> Pass build context data into the templates  
- You can set parameter values in the project file. For example, you can pass [build](MSBuild%20Properties.md) properties and [environment variables](../msbuild/how-to-use-environment-variables-in-a-build.md):  
+ You can set parameter values in the project file. For example, you can pass [build](msbuild-properties1.md) properties and [environment variables](../msbuild/how-to-use-environment-variables-in-a-build.md):  
   
 ```xml  
 <ItemGroup>  

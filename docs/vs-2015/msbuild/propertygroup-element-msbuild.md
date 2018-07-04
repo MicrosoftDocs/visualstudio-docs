@@ -79,7 +79,7 @@ Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md
   
 ## See Also  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)  
- [MSBuild Properties](MSBuild%20Properties.md)
+ [MSBuild Properties](msbuild-properties1.md)
 
 
 

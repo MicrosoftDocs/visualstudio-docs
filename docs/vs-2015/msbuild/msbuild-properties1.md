@@ -143,7 +143,7 @@ msbuild.exe MyProj.proj /p:Configuration=DEBUG
   
 ## See Also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)  
- [MSBuild](MSBuild1.md)  
+ [MSBuild](msbuild.md)  
  [How to: Use Environment Variables in a Build](../msbuild/how-to-use-environment-variables-in-a-build.md)   
  [How to: Reference the Name or Location of the Project File](../msbuild/how-to-reference-the-name-or-location-of-the-project-file.md)   
  [How to: Build the Same Source Files with Different Options](../msbuild/how-to-build-the-same-source-files-with-different-options.md)   

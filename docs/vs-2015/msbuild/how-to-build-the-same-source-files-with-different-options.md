@@ -29,7 +29,7 @@ The latest version of this topic can be found at [How to: Build the Same Source 
 When you build projects, you frequently compile the same components with different build options. For example, you can create a debug build with symbol information or a release build with no symbol information but with optimizations enabled. Or you can build a project to run on a specific platform, such as x86 or [!INCLUDE[vcprx64](../includes/vcprx64-md.md)]. In all these cases, most of the build options stay the same; only a few options are changed to control the build configuration. With [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)], you use properties and conditions to create the different build configurations.  
   
 ## Using Properties to Modify Projects  
- The `Property` element defines a variable that is referenced several times in a project file, such as the location of a temporary directory, or to set the values for properties that are used in several configurations, such as a Debug build and a Release build. For more information about properties, see [MSBuild Properties](MSBuild%20Properties.md).  
+ The `Property` element defines a variable that is referenced several times in a project file, such as the location of a temporary directory, or to set the values for properties that are used in several configurations, such as a Debug build and a Release build. For more information about properties, see [MSBuild Properties](msbuild-properties1.md).  
   
  You can use properties to change the configuration of your build without having to change the project file. The `Condition` attribute of the `Property` element and the `PropertyGroup` element allows you to change the value of properties. For more information about [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] conditions, see [Conditions](../msbuild/msbuild-conditions.md).  
   
@@ -188,7 +188,7 @@ ToolsVersion="4.0" TreatAsLocalProperty="Color">
 ```  
   
 ## See Also  
-[MSBuild](MSBuild1.md)  
+[MSBuild](msbuild.md)  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
  [Project Element (MSBuild)](../msbuild/project-element-msbuild.md)

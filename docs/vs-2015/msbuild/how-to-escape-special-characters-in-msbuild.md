@@ -49,7 +49,7 @@ Certain characters have special meaning in [!INCLUDE[vstecmsbuild](../includes/v
   
 ## See Also  
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
- [MSBuild](MSBuild1.md)
+ [MSBuild](msbuild.md)
  [Items](../msbuild/msbuild-items.md)
 
 

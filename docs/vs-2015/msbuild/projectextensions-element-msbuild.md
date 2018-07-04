@@ -79,6 +79,6 @@ Allows [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project files to
   
 ## See Also  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)  
- [MSBuild](MSBuild1.md)
+ [MSBuild](msbuild.md)
 
 

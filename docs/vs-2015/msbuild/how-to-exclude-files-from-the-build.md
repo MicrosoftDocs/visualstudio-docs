@@ -129,7 +129,7 @@ In a project file you can use wildcards to include all the files in one director
   
 ## See Also  
  [Items](../msbuild/msbuild-items.md)   
- [MSBuild](MSBuild1.md)
+ [MSBuild](msbuild.md)
  [How to: Select the Files to Build](../msbuild/how-to-select-the-files-to-build.md)
 
 

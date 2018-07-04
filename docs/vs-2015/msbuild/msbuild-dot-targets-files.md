@@ -49,6 +49,6 @@ The latest version of this topic can be found at [MSBuild .Targets Files](https:
 ## See Also  
  [Import Element (MSBuild)](../msbuild/import-element-msbuild.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)  
- [MSBuild](MSBuild1.md)
+ [MSBuild](msbuild.md)
 
 
