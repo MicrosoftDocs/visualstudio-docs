@@ -27,7 +27,7 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [How to: Create File Associations For a ClickOnce Application](https://docs.microsoft.com/visualstudio/deployment/how-to-create-file-associations-for-a-clickonce-application).  
   
-[INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications can be associated with one or more file name extensions, so that the application will be started automatically when the user opens a file of those types. Adding file name extension support to a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application is straightforward.  
+[!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications can be associated with one or more file name extensions, so that the application will be started automatically when the user opens a file of those types. Adding file name extension support to a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application is straightforward.  
   
 ### To create file associations for a ClickOnce application  
   

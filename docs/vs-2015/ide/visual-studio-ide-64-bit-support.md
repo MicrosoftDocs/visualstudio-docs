@@ -24,7 +24,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [Visual Studio IDE 64-Bit Support](https://docs.microsoft.com/visualstudio/ide/visual-studio-ide-64-bit-support).  
   
-[INCLUDE[vsprvs](../includes/vsprvs-md.md)] enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], see [64-bit Applications](http://msdn.microsoft.com/library/fd4026bc-2c3d-4b27-86dc-ec5e96018181).  
+[!INCLUDE[vsprvs](../includes/vsprvs-md.md)] enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], see [64-bit Applications](http://msdn.microsoft.com/library/fd4026bc-2c3d-4b27-86dc-ec5e96018181).  
   
 ## Deploying a 64-bit application  
  The following topics discuss deploying 64-bit applications.  

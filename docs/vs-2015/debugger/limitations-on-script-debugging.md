@@ -29,7 +29,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [Limitations on Script Debugging](https://docs.microsoft.com/visualstudio/debugger/limitations-on-script-debugging).  
   
-[INCLUDE[vsprvs](../includes/vsprvs-md.md)] supports the debugging of client-side script, subject to the limitations in this topic.  
+[!INCLUDE[vsprvs](../includes/vsprvs-md.md)] supports the debugging of client-side script, subject to the limitations in this topic.  
   
 ## Limitations on Breakpoint Mapping with Client-Side Script  
  [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] enables you to set a breakpoint in a server-side ASPX or HTML file that is transformed to a client-side file at run time. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] maps the breakpoint from the server-side file to a corresponding breakpoint in the client-side file, subject to the following limitations:  

@@ -29,7 +29,7 @@ manager: "ghogen"
 The latest version of this topic can be found at [MSBuild Conditions](https://docs.microsoft.com/visualstudio/msbuild/msbuild-conditions).  
   
   
-[INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] supports a specific set of conditions that can be applied wherever a `Condition` attribute is allowed. The following table explains those conditions.  
+[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] supports a specific set of conditions that can be applied wherever a `Condition` attribute is allowed. The following table explains those conditions.  
   
 |Condition|Description|  
 |---------------|-----------------|  
