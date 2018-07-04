@@ -17,7 +17,7 @@ Gets an indexer used to retrieve the attribute instance that corresponds to the 
 
 ## Syntax
 
-```csharp
+```xaml
 elem.Attribute[{namespaceName}attribName]
 ```
 

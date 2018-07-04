@@ -20,7 +20,7 @@ Gets or sets the value of the XML attribute.
 
 ## Syntax
 
-```xml
+```xaml
 attrib.Value
 ```
 

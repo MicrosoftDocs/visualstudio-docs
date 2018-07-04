@@ -20,7 +20,7 @@ Gets an indexer used to retrieve the child element instance that corresponds to 
 
 ## Syntax
 
-```csharp
+```xaml
 elem.Element[{namespaceName}localName]
 ```
 
