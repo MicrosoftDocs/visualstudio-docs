@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Debug.SetCurrentStackFrame command"
 ms.assetid: 3dcf52c0-6781-4598-bac2-0094dce67c20
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Set Current Stack Frame Command

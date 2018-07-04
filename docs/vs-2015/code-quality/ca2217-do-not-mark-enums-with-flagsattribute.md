@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA2217"
 ms.assetid: 1b6f626c-66bf-45b0-a3e2-7c41ee9ceda7
 caps.latest.revision: 22
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2217: Do not mark enums with FlagsAttribute

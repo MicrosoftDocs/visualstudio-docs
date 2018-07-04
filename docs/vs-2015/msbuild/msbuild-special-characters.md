@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "MSBuild Escape Characters"
 ms.assetid: 545e6a59-1093-4514-935e-78679a46fb3c
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # MSBuild Special Characters

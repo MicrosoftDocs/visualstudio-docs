@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "ReviewImperativeSecurity"
 ms.assetid: d24fde71-bdf6-46c0-8965-9a73dc33c1aa
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2103: Review imperative security

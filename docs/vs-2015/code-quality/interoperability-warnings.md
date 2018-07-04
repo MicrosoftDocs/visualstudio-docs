@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "warnings, interoperability"
 ms.assetid: 95de6eb3-40c4-4063-9f59-25cb70e3b2b3
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Interoperability Warnings

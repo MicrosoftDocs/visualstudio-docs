@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "n-tier applications, extending datasets"
 ms.assetid: d43c2ccd-4902-43d8-b1a8-d10ca5d3210c
 caps.latest.revision: 23
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Add code to datasets in n-tier applications

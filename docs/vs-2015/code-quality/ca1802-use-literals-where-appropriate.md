@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1802"
 ms.assetid: 2515e4cd-9e61-486d-b067-58ba1a743ce4
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1802: Use Literals Where Appropriate

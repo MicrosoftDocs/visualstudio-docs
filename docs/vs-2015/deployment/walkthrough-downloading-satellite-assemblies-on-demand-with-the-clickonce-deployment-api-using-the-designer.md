@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "walkthroughs, localization"
 ms.assetid: 82b85a47-b223-4221-a17c-38a52c3fb6e2
 caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API Using the Designer

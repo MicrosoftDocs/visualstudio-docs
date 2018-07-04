@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "text templates, custom hosts"
 ms.assetid: 62cd9a3c-a6e1-4b29-93f5-f2a0cf47dc92
 caps.latest.revision: 30
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Customizing T4 Text Transformation

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "IntelliSense [Visual Basic], filtered completion lists"
 ms.assetid: c9e3b223-8ac2-4a2a-b8c2-91786d2a73e2
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Filtered Completion Lists in Visual Basic

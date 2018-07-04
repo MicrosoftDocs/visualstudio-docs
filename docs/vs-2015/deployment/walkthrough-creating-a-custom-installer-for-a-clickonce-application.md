@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "custom installer [ClickOnce]"
 ms.assetid: fb222cc5-8aeb-4b94-8c49-b93e342f5f69
 caps.latest.revision: 36
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Walkthrough: Creating a Custom Installer for a ClickOnce Application

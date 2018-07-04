@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "text templates, transforming by using msbuild"
 ms.assetid: 4da43429-2a11-4d7e-b2e0-9e4af7033b5a
 caps.latest.revision: 30
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Code Generation in a Build Process
@@ -226,20 +226,7 @@ $(IncludeFolders);$(MSBuildProjectDirectory)\Include;AnotherFolder;And\Another</
 The project folder is: <#= ProjectFolder #>  
   
 ```  
-  
- In a directive processor, you can call <xref:Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost.ResolveParameterValue%2A>:  
-  
-```csharp  
-string value = Host.ResolveParameterValue("-", "-", "parameterName");  
-```  
-  
-```vb  
-Dim value = Host.ResolveParameterValue("-", "-", "parameterName")  
-```  
-  
-> [!NOTE]
->  `ResolveParameterValue` gets data from `T4ParameterValues` only when you use MSBuild. When you transform the template using Visual Studio, the parameters will have default values.  
-  
+
 ##  <a name="msbuild"></a> Using project properties in assembly and include directives  
  Visual Studio macros like $(SolutionDir) don’t work in MSBuild. You can use project properties instead.  
   

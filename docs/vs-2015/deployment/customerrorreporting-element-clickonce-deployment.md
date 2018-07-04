@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "<customErrorReporting> element [ClickOnce deployment manifest]"
 ms.assetid: 7d31816e-c692-46b5-9cc9-753284b3bcda
 caps.latest.revision: 8
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;customErrorReporting&gt; Element (ClickOnce Deployment)

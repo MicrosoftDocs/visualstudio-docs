@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Arabic language, creating applications"
 ms.assetid: b56f9795-ed8d-4452-9d49-8ca0b0145d86
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Creating Applications in Bi-directional Languages

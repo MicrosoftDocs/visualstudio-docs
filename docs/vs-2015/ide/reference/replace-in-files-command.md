@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "ReplaceInFiles command"
 ms.assetid: f116066a-4f65-4f2c-94ef-12cbd8cfb598
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Replace In Files Command

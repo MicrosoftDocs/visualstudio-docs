@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, validation"
 ms.assetid: 65b93df8-af3c-462b-904c-60292f8ed381
 caps.latest.revision: 35
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Validation in a Domain-Specific Language

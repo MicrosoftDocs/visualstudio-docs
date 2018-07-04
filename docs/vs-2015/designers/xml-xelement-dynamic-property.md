@@ -13,8 +13,8 @@ api_name:
   - "XElement.Xml"
 ms.assetid: 69ab2a33-4fe7-4cfa-97f8-eaf063decb18
 caps.latest.revision: 4
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Xml (XElement Dynamic Property)

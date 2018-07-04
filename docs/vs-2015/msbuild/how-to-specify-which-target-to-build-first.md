@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "MSBuild, DefaultTargets attribute"
 ms.assetid: a580ba5b-2919-42d2-ae38-1af991e0205a
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Specify Which Target to Build First

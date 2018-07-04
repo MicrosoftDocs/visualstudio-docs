@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 713ca975-b9aa-4210-bf6d-b7660f5b193b
 caps.latest.revision: 5
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # T4 Import Directive

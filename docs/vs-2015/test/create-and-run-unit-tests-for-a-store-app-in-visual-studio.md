@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: d3de7b31-0262-4373-ba84-e74eda7651e4
 caps.latest.revision: 28
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "robinr"
 ---
 # Create and run unit tests for a Store app in Visual Studio

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "DoNotUseTimersThatPreventPowerStateChanges"
 ms.assetid: b8028c92-0696-4c54-9773-0028f29bda9a
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1601: Do not use timers that prevent power state changes

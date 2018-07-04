@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, Properties window"
 ms.assetid: b6658de5-4e85-4628-93b2-5cc12f63d25b
 caps.latest.revision: 22
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Customizing the Properties Window

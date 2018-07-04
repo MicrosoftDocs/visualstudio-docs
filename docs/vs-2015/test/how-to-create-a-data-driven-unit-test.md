@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "data-driven unit tests"
 ms.assetid: a0322bc5-02c8-4f9f-af43-100a60b1bd28
 caps.latest.revision: 35
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # How To: Create a Data-Driven Unit Test

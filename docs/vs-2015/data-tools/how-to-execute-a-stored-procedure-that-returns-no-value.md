@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "stored procedures, executing"
 ms.assetid: 8a929e96-2cf5-43a5-b5b7-c0a5a397bbc5
 caps.latest.revision: 19
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

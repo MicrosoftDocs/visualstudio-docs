@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "projects [Visual Studio], creating"
 ms.assetid: 836f8ca0-3fc9-4f4b-9090-45f2e4d2e9c8
 caps.latest.revision: 49
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Creating Solutions and Projects

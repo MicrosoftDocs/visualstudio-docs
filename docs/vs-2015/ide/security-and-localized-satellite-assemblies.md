@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "localization, satellite assemblies"
 ms.assetid: 6d953840-b301-47d5-8d34-30c1b29b5071
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Security and Localized Satellite Assemblies

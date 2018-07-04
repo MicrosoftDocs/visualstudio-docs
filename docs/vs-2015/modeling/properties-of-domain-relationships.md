@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, domain relationships"
 ms.assetid: 9ccb3dc2-b80c-4585-932f-3c5f87bafbcd
 caps.latest.revision: 22
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Properties of Domain Relationships

@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "Windows applications, ClickOnce deployments"
 ms.assetid: 929e5fcc-dd56-409c-bb57-00bd9549b20b
 caps.latest.revision: 35
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Server and Client Configuration Issues in ClickOnce Deployments

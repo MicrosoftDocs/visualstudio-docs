@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, deployment"
 ms.assetid: 160a9022-ab2f-47db-9d04-4c63fef0ee7d
 caps.latest.revision: 29
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Deploying Domain-Specific Language Solutions

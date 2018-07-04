@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, element merge directives"
 ms.assetid: cbd28f15-dfd7-46bd-ab79-5430e3ed83c8
 caps.latest.revision: 38
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Customizing Element Creation and Movement

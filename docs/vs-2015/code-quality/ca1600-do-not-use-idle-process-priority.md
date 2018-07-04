@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "DoNotUseIdleProcessPriority"
 ms.assetid: 9b0d073b-78b6-41be-8ef3-14692a735283
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1600: Do not use idle process priority

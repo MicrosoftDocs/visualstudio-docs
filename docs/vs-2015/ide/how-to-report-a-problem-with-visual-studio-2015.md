@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 24ecb76e-b7ad-432d-88ab-d9849963465d
 caps.latest.revision: 15
-author: "TerryGLee"
-ms.author: "tglee"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to Report a Problem with Visual Studio 2015

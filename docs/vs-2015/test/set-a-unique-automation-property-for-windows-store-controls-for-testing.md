@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9bdd74ff-2534-4fc7-a5c3-a77bf7843037
 caps.latest.revision: 12
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Set a Unique Automation Property for Windows Store Controls for Testing

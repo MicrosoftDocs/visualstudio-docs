@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "text templates, generating code for your application"
 ms.assetid: 2774b83d-1adb-4c66-a607-746e019b80c0
 caps.latest.revision: 40
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Design-Time Code Generation by using T4 Text Templates

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1501"
 ms.assetid: 9e934746-1a4d-492a-91e4-085201abafa4
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1501: Avoid excessive inheritance

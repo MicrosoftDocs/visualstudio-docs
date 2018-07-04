@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "SpecifyMarshalingForPInvokeStringArguments"
 ms.assetid: 9d1abfc3-d320-41e0-9f6e-60cefe6ffe1b
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2101: Specify marshaling for P/Invoke string arguments

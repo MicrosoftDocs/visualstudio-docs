@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "IdentifiersShouldBeCasedCorrectly"
 ms.assetid: f633d1a7-4ca4-40ae-b207-ec571c5fb083
 caps.latest.revision: 30
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1709: Identifiers should be cased correctly

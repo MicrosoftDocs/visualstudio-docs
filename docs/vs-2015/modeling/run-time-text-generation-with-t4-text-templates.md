@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "text templates, generating files at run time"
 ms.assetid: 79b4b3c6-a9a7-4446-b6fd-e2388fc6b05f
 caps.latest.revision: 24
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Run-Time Text Generation with T4 Text Templates

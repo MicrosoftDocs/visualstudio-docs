@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "manifests [ClickOnce], fileAssociation element"
 ms.assetid: 8f951b4f-54f9-412e-a9e5-af4e379fcf08
 caps.latest.revision: 10
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;fileAssociation&gt; Element (ClickOnce Application)

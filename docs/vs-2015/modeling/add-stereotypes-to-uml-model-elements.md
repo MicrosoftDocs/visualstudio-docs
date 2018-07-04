@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 82545252-83ce-4e11-a419-61373be75d16
 caps.latest.revision: 17
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Add stereotypes to UML model elements

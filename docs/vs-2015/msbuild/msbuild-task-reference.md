@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "MSBuild, tasks"
 ms.assetid: b3144b27-a426-4259-b8ae-5f7991b202b6
 caps.latest.revision: 35
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # MSBuild Task Reference

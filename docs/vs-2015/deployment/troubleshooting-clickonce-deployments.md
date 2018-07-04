@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "deploying applications [ClickOnce], troubleshooting"
 ms.assetid: 58e90012-f68b-4852-8ae9-58e361cbcc32
 caps.latest.revision: 34
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Troubleshooting ClickOnce Deployments

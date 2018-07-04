@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "<Strings> element [bootstrapper]"
 ms.assetid: d5ea3613-5fc9-4a11-bef3-46a01178bf60
 caps.latest.revision: 6
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;Strings&gt; Element (Bootstrapper)

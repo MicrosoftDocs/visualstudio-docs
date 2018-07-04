@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA2239"
 ms.assetid: 6480ff5e-0caa-4707-814e-2f927cdafef5
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2239: Provide deserialization methods for optional fields

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CompoundWordsShouldBeCasedCorrectly"
 ms.assetid: 05481245-7ad8-48c3-a456-3aa44b6160a6
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1702: Compound words should be cased correctly

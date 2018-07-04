@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA2004"
 ms.assetid: bc543b5b-23eb-4b45-abc2-9325cd254ac2
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2004: Remove calls to GC.KeepAlive

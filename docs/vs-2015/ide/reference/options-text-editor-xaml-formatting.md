@@ -33,8 +33,8 @@ helpviewer_keywords:
   - "XAML view settings, attribute spacing"
 ms.assetid: ad3820b1-0d94-4807-a74c-c3467ed973a2
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Options, Text Editor, XAML, Formatting

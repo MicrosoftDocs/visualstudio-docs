@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1302"
 ms.assetid: 05ed134a-837d-43d7-bf97-906edeac44ce
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1302: Do not hardcode locale specific strings

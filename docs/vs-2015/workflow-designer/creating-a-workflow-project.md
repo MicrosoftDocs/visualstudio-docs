@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "creating a workflow project"
 ms.assetid: 235a125e-ebe7-4a98-bf77-86c8558728fb
 caps.latest.revision: 15
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Creating a Workflow Project

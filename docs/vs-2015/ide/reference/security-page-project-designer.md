@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "Security page in Project Designer"
 ms.assetid: 641d9cd3-fa07-498a-8568-3c169bb4d3d5
 caps.latest.revision: 40
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Security Page, Project Designer

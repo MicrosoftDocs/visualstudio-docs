@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "MSBuild, ResolveManifestFiles task"
 ms.assetid: e1e14f67-9b69-433f-94d4-a783a68676b2
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # ResolveManifestFiles Task

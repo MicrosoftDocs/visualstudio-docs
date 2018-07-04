@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "GenerateApplicationManifest task [MSBuild]"
 ms.assetid: a494102b-0cb2-4755-8e2a-d2c0f39fac1d
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # GenerateApplicationManifest Task

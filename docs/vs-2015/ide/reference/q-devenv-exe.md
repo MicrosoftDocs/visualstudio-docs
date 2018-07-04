@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "/? Devenv switch"
 ms.assetid: fd8fd6b2-1304-4d06-8118-6629666801fb
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # /? (devenv.exe)

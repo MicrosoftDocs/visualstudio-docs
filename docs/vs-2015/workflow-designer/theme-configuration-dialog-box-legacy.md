@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Theme Configuration dialog box"
 ms.assetid: 9e6d182a-c4d9-4e71-b2b9-02f675fc2b29
 caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Theme Configuration Dialog Box (Legacy)

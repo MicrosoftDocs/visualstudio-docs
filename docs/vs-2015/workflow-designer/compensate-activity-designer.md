@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.Compensate.UI"
 ms.assetid: 7347c947-bfff-4bad-becd-5cd23e7b24cd
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Compensate Activity Designer

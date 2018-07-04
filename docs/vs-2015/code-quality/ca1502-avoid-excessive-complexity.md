@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "AvoidExcessiveComplexity"
 ms.assetid: d735454b-2f8f-47ce-907d-f7a5a5391221
 caps.latest.revision: 32
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1502: Avoid excessive complexity

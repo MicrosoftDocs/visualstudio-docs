@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3d1ad14b-44fb-4cf0-a995-5e2f60026524
 caps.latest.revision: 9
-author: "BrianPeek"
-ms.author: "brpeek"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Export a Texture that Contains Mipmaps

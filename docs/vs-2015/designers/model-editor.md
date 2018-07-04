@@ -14,8 +14,8 @@ f1_keywords:
   - "vs.graphics.modelviewer"
 ms.assetid: 5edf1a30-9307-43c3-9b8b-831217be0104
 caps.latest.revision: 38
-author: "BrianPeek"
-ms.author: "brpeek"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Model Editor

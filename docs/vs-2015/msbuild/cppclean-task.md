@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "CPPClean task (MSBuild (Visual C++))"
 ms.assetid: b62a482e-8fb5-4999-b50b-6605a078e291
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # CPPClean Task

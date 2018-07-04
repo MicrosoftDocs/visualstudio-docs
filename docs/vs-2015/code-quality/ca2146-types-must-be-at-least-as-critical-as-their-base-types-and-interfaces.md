@@ -13,8 +13,8 @@ f1_keywords:
   - "CA2146"
 ms.assetid: 241fb784-1f6b-46e5-8ceb-c438e341d38e
 caps.latest.revision: 13
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2146: Types must be at least as critical as their base types and interfaces

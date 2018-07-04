@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, DSL Explorer"
 ms.assetid: ca0e8550-bb55-4218-92e2-f79ab5308d4f
 caps.latest.revision: 13
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Working with the Domain-Specific Language Explorer

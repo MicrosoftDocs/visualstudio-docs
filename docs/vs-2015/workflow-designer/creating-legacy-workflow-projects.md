@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "workflows, creating projects"
 ms.assetid: 572d5c32-59ef-49d8-a24c-e180fe9f7a11
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Creating Legacy Workflow Projects

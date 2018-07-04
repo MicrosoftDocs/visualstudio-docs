@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.Assign.UI"
 ms.assetid: ba3feb3c-f144-47ea-926d-cf752b804153
 caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Assign Activity Designer

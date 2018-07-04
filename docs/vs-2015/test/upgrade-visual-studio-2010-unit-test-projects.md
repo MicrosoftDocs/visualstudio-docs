@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f1502b51-d6db-4894-9fbf-4a5723e4bb1a
 caps.latest.revision: 8
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Upgrade Visual Studio 2010 unit test projects

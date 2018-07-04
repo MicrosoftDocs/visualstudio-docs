@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 22e47b4d-c185-478c-9535-56d292b45984
 caps.latest.revision: 16
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Share models and exporting diagrams

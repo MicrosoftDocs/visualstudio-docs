@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.CancellationScope.UI"
 ms.assetid: 2c85d663-b219-4142-9866-7693ffd46379
 caps.latest.revision: 8
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # CancellationScope Activity Designer

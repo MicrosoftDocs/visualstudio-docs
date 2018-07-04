@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "IDE navigator"
 ms.assetid: 6c36b6eb-c93f-496b-af08-4199f7afd8bd
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Move Around in the Visual Studio IDE

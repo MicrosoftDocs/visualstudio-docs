@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1028"
 ms.assetid: 87160825-9f39-4142-8d7f-a31fe7ac7b84
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1028: Enum storage should be Int32

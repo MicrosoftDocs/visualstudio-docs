@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "project file properties (MSBuild)"
 ms.assetid: 9857505d-ae15-42f1-936d-6cd7fb9dd276
 caps.latest.revision: 39
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Common MSBuild Project Properties

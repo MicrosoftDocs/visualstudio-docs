@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 46eee279-a9e4-4742-a024-5bd2cf032b86
 caps.latest.revision: 22
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Read models and diagrams in other Visual Studio editions

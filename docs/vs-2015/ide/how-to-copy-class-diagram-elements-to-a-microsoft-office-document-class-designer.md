@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Office documents [Visual Studio]"
 ms.assetid: c43061ad-d258-46b1-be66-f97a312e86d5
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Copy Class Diagram Elements to a Microsoft Office Document (Class Designer)

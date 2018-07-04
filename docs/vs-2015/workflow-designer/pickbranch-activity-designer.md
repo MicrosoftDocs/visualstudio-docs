@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.PickBranch.UI"
 ms.assetid: f523ad47-bbc0-4cda-a35c-41e67c4ba081
 caps.latest.revision: 10
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # PickBranch Activity Designer

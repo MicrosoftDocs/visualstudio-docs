@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "warnings, mobility"
 ms.assetid: 9808054c-593b-4fc3-92cc-1fc45f41569c
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Mobility Warnings

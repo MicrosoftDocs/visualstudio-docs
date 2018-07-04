@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "<package> element [bootstrapper]"
 ms.assetid: ecd06658-ad02-4440-bccd-88437b7fb816
 caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;Package&gt; Element (Bootstrapper)

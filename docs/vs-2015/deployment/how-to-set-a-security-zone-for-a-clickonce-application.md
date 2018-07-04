@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "security zones, ClickOnce applications"
 ms.assetid: d3dac454-518a-44d7-a76e-ccb7b9c3a150
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Set a Security Zone for a ClickOnce Application

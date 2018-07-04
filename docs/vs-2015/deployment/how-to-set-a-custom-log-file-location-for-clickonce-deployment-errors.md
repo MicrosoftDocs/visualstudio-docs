@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, error logging"
 ms.assetid: 77424414-7f0e-4b99-94bb-ea130de92d09
 caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Set a Custom Log File Location for ClickOnce Deployment Errors

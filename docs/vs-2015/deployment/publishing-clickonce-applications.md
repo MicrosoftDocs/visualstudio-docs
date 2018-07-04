@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "deploying applications [ClickOnce], publishing ClickOnce applications"
 ms.assetid: eb6dfe79-f54c-4331-8e36-073688e70973
 caps.latest.revision: 24
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Publishing ClickOnce Applications

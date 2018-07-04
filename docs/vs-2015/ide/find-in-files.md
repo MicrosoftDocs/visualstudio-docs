@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "Find in Files tab, Find and Replace window"
 ms.assetid: 989e0737-46d7-4474-8453-fad52a74669d
 caps.latest.revision: 45
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Find in Files

@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Debug.SetCurrentThread command"
 ms.assetid: 9917ed1d-6c30-4d94-b2f0-69acce74f1b2
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Set Current Thread Command

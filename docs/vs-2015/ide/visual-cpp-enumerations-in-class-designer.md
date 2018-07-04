@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Class Designer [Visual Studio], enumerations"
 ms.assetid: 11e90ba1-18cd-44f8-9e26-e3746a7a19d1
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Visual C++ Enumerations in Class Designer

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "DoNotNestGenericTypesInMemberSignatures"
 ms.assetid: dfc867bc-f4af-45d7-b071-db04a248f9fc
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1006: Do not nest generic types in member signatures

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA2202"
 ms.assetid: fa85349a-cf1e-42c8-a86b-eacae1f8bd96
 caps.latest.revision: 22
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2202: Do not dispose objects multiple times

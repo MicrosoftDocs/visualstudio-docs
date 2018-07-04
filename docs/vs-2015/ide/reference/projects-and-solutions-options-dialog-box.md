@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Options dialog box, Projects and Solutions"
 ms.assetid: 2801f24e-a138-488a-ae3c-e1f99a678ac0
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Projects and Solutions, Options Dialog Box

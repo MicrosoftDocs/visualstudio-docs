@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "WPF Designer, data binding"
 ms.assetid: 8823537c-82f0-41f7-bf30-705f0e5e59fd
 caps.latest.revision: 44
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Bind WPF controls to a WCF data service

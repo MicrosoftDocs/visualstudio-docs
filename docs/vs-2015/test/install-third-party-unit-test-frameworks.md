@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 47893b70-46f8-49dc-84bd-ec820178f683
 caps.latest.revision: 12
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Install third-party unit test frameworks

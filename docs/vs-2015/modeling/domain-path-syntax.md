@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, domain path"
 ms.assetid: 945994f9-72b9-42e0-81b2-e5fb3d0e282d
 caps.latest.revision: 27
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Domain Path Syntax

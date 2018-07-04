@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Convert dialog box"
 ms.assetid: 56f23ef7-17c4-4d76-9ead-982bbcd42061
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Convert Dialog Box

@@ -13,7 +13,7 @@ f1_keywords:
   - "vs.UnitTest.CreateIntelliTest"
 ms.assetid: cd9ff940-e948-4d28-a72c-b291ef5c1e90
 caps.latest.revision: 35
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Generate unit tests for your code with IntelliTest

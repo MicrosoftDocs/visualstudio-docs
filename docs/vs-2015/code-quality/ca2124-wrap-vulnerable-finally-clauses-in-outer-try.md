@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "WrapVulnerableFinallyClausesInOuterTry"
 ms.assetid: 82efd224-9e60-4b88-a0f5-dfabcc49a254
 caps.latest.revision: 22
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2124: Wrap vulnerable finally clauses in outer try

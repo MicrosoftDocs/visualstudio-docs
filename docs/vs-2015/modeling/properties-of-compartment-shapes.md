@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, compartment shape"
 ms.assetid: 9a9e112d-210d-413b-a44f-0e976a4a78bc
 caps.latest.revision: 26
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Properties of Compartment Shapes

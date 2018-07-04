@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "images [Visual Basic], dragging from Data Sources window"
 ms.assetid: 9748815e-3556-49e8-86b1-c6aa593c6163
 caps.latest.revision: 18
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Bind controls to pictures from a database

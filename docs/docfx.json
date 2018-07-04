@@ -2,9 +2,11 @@
   "build": {
     "content": [
       {
+        "group": "vs-2015",
+        "src": "./vs-2015",
         "files": [
           "**/*.md",
-          "**/**.yml"
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -12,10 +14,27 @@
           "**/includes/**",
           "missingapi.yml"
         ]
+      },
+      {
+        "group": "vs-2017",
+        "src": "./",
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "vsdocsdocs/**",
+          "**/includes/**",
+          "missingapi.yml",
+          "vs-2015/**"
+        ]
       }
-    ],
+        ],
     "resource": [
       {
+        "group": "vs-2015",
+        "src": "./vs-2015",
         "files": [
           "**/*.png",
           "**/*.jpg",
@@ -25,7 +44,25 @@
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
-          "**/includes/**"
+          "**/includes/**",
+          "missingapi.yml"
+        ]
+      },
+      { 
+        "group": "vs-2017",
+        "src": "./",
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
+        ],
+        "exclude": [
+          "vs-2015",
+          "**/obj/**",
+          "vsdocsdocs/**",
+          "**/includes/**",
+          "missingapi.yml"
         ]
       }
     ],
@@ -36,6 +73,7 @@
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
       "feedback_product_url": "https://developercommunity.visualstudio.com/",
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
+      "extendBreadcrumb": "true",
       "ROBOTS": "INDEX,FOLLOW",
       "author": "erickson-doug",
       "ms.author": "douge",
@@ -52,8 +90,24 @@
         "enable_uhf_ppe"
       ]
     },
+
+    "fileMetadata": {
+      "breadcrumb_path": {
+          "vs-2015/**/*.md": "/visualstudio/_breadcrumb/vs-2015/toc.json" 
+      }
+    },
+
     "template": [],
     "xref": ["missingapi.yml", "vs.140.zip"],
-    "dest": "vsdocsdocs"
+    "dest": "vsdocsdocs",
+    "groups": {
+      "vs-2015": {
+        "moniker_range": "vs-2015",
+        "dest": "temp2015"
+      },
+      "vs-2017": {
+        "moniker_range": ">= vs-2017"
+      }
+    }
   }
 }

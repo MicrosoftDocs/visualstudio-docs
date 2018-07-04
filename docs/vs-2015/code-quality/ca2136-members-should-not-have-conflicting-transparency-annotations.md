@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "CA2127"
 ms.assetid: ff5a1d18-7c52-4da5-8990-60be83a8ea81
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2136: Members should not have conflicting transparency annotations

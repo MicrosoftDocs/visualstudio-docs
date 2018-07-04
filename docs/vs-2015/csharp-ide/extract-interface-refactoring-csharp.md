@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Extract Interface refactoring operation [C#]"
 ms.assetid: 7d0aa225-3b33-4331-9652-5a67cac6f3d0
 caps.latest.revision: 25
-author: "BillWagner"
-ms.author: "wiwagn"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Extract Interface Refactoring (C#)

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "SetLocaleForDataTypes"
 ms.assetid: 104297b2-5806-4de0-a8d9-c589380a796c
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1306: Set locale for data types

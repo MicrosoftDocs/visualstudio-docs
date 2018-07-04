@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "CreateCSharpManifestResourceName task [MSBuild]"
 ms.assetid: 2ace88c1-d757-40a7-8158-c1d3f5ff0511
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # CreateCSharpManifestResourceName Task

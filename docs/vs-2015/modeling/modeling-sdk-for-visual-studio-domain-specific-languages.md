@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Domain-Specific Language"
 ms.assetid: 17a531e2-1964-4a9d-84fd-6fb1b4aee662
 caps.latest.revision: 79
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Modeling SDK for Visual Studio - Domain-Specific Languages

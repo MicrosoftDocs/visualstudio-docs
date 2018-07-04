@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "security settings, ClickOnce deployment"
 ms.assetid: 73cd3e9d-cd72-4ad2-8cae-94d6bb6b01e0
 caps.latest.revision: 10
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Enable ClickOnce Security Settings

@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 590c9a69-4e22-4841-bb23-f32e80ec1e76
 caps.latest.revision: 10
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # API Reference for Modeling SDK for Visual Studio

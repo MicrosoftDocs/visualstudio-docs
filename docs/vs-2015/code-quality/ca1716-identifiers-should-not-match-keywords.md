@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1716"
 ms.assetid: 900cc8a1-1089-4069-a4ce-10b109ac4fab
 caps.latest.revision: 23
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1716: Identifiers should not match keywords

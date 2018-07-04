@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Edit.Find command"
 ms.assetid: f0c705dc-2b97-423d-abbf-5584d4827208
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Find Command

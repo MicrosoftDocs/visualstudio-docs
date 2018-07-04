@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "team-based development, analyzing application quality"
 ms.assetid: 21680516-ddb5-446d-90d4-19d94f6ec699
 caps.latest.revision: 26
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Analyzing Application Quality by Using Code Analysis Tools

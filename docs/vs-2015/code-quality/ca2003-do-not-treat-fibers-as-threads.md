@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "DoNotTreatFibersAsThreads"
 ms.assetid: 15398fb1-f384-4bcc-ad93-00e1c0fa9ddf
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2003: Do not treat fibers as threads

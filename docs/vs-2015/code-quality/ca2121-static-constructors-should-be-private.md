@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "StaticConstructorsShouldBePrivate"
 ms.assetid: ee93c620-8fc1-4e47-866c-d389c3ca9f2e
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2121: Static constructors should be private

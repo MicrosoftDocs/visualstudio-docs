@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "MSBuild, tasks specific to Visual C++"
 ms.assetid: 05410f0c-7356-4692-bc00-20664421c9ff
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # MSBuild Tasks Specific to Visual C++

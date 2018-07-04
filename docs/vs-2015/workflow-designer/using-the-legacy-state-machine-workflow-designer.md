@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "StateInitializationActivity activity"
 ms.assetid: 2cd21123-35c2-4eaf-82f6-86fce7a8f04d
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Using the Legacy State Machine Workflow Designer

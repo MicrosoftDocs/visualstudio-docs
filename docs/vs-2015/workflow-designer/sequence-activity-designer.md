@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.Sequence.UI"
 ms.assetid: 51c8d3cb-4d43-458f-9631-b63755f9ac94
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Sequence Activity Designer

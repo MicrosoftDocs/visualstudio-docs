@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "projects [Visual Studio], dependencies"
 ms.assetid: e2a0a8ff-dae7-40a8-b774-b88aa5235183
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Create and Remove Project Dependencies

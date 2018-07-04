@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: cf4000b4-91b5-4b3f-a00d-cc8d192467c2
 caps.latest.revision: 22
-ms.author: "susanno"
+ms.author: gewarren
 manager: "douge"
 ---
 # Testing Store apps with Visual Studio

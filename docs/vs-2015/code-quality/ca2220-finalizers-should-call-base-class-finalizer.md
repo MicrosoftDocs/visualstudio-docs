@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "FinalizersShouldCallBaseClassFinalizer"
 ms.assetid: 48329f42-170d-45ee-a381-e33f55a240c5
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2220: Finalizers should call base class finalizer

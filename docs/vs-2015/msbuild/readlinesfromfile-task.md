@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "ReadLinesFromFile task [MSBuild]"
 ms.assetid: a18af929-b53a-4d9e-b7bf-e3d3737ee85f
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # ReadLinesFromFile Task

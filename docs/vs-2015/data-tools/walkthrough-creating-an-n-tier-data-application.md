@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "n-tier applications, walkthroughs"
 ms.assetid: d15e4d31-2839-48d9-9e0e-2e73404d82a2
 caps.latest.revision: 51
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Walkthrough: Creating an N-Tier Data Application

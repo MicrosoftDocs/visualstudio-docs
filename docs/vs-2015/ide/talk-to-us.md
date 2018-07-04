@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Help [Visual Studio], product support"
 ms.assetid: e0846d4d-2ce1-48e3-b219-674ff070bf4e
 caps.latest.revision: 34
-author: "TerryGLee"
-ms.author: "tglee"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Talk to Us

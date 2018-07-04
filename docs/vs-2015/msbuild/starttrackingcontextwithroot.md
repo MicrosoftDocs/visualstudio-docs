@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "StartTrackingContextWithRoot"
 ms.assetid: f6ef2b76-8035-4a14-8195-aa221c46ef48
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # StartTrackingContextWithRoot

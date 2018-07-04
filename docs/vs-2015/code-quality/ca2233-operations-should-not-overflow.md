@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA2233"
 ms.assetid: 3a2b06ba-6d1b-4666-9eaf-e053ef47ffaa
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2233: Operations should not overflow

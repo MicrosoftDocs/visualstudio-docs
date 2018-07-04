@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: d1ac9188-d79f-407e-9f3a-80dbefa66317
 caps.latest.revision: 10
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework

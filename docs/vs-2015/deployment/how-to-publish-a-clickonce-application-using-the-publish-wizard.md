@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "publishing, ClickOnce"
 ms.assetid: 2e4aa67c-4445-4f7b-9e03-9acb95829127
 caps.latest.revision: 27
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Publish a ClickOnce Application using the Publish Wizard

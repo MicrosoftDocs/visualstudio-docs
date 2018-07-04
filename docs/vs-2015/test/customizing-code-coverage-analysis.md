@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f6337c35-acae-4c5f-b5d9-ac5ff687ef18
 caps.latest.revision: 18
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Customizing Code Coverage Analysis

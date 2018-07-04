@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "data access, ClickOnce applications"
 ms.assetid: 89ee46ef-bc8c-4ab0-a2ac-1220f9da06fc
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Include a Data File in a ClickOnce Application

@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Select Rule Set dialog box"
 ms.assetid: cb2bc3f9-7730-4fb2-9f7b-303a9d9f0c8e
 caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Select Rule Set Dialog Box (Legacy)

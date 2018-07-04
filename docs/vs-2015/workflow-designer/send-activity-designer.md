@@ -11,8 +11,8 @@ f1_keywords:
   - "System.ServiceModel.Activities.Send.UI"
 ms.assetid: b514f2e4-767c-4b94-ac61-dd3a54d4b96d
 caps.latest.revision: 7
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Send Activity Designer

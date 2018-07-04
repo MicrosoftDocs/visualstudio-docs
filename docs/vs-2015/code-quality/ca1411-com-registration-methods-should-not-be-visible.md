@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1411"
 ms.assetid: a59f96f1-1f38-4596-b656-947df5c55311
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1411: COM registration methods should not be visible

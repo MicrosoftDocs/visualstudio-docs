@@ -26,8 +26,8 @@ helpviewer_keywords:
   - "data [Visual Studio], local"
 ms.assetid: d6afa5ac-2bb8-49f2-a50e-f71f611ed506
 caps.latest.revision: 71
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

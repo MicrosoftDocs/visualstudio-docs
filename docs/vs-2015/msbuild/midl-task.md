@@ -29,8 +29,8 @@ helpviewer_keywords:
   - "MIDL task (MSBuild (Visual C++))"
 ms.assetid: 727efa8c-3336-40b8-8bef-ae6cbd77a422
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # MIDL Task

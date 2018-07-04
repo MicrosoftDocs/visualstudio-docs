@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "tool task base class [MSBuild]"
 ms.assetid: 08bb8059-b7e2-4565-89ba-d9034d4f0e16
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # TaskExtension Base Class

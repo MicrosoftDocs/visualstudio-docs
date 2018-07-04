@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 73519dd9-f3d5-49b6-a634-38881b459ea4
 caps.latest.revision: 19
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Using stubs to isolate parts of your application from each other for unit testing

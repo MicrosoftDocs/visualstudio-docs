@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "managed code, code analysis"
 ms.assetid: 12ec0dab-46a4-43d8-984a-440730ef37a9
 caps.latest.revision: 37
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Code Analysis for Managed Code Overview

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "MSBuild, logging"
 ms.assetid: dd4dae65-ed04-4883-b48d-59bcb891c4dc
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Logging in a Multi-Processor Environment

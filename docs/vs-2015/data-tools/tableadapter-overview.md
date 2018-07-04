@@ -29,8 +29,8 @@ helpviewer_keywords:
   - "table adapters"
 ms.assetid: a87c46a0-52ab-432a-a864-9ba55069f9eb
 caps.latest.revision: 40
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

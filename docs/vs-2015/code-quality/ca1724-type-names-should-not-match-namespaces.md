@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1724"
 ms.assetid: 329af3b5-5600-4101-831d-531ab3eb7060
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1724: Type Names Should Not Match Namespaces

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "SuspendTracking"
 ms.assetid: f5e06e5a-8083-444c-99c1-07ba834226b5
 caps.latest.revision: 6
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # SuspendTracking

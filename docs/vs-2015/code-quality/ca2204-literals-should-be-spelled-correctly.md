@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA2204"
 ms.assetid: b0bbcbb6-c92d-4c14-8ef7-9c8b38c791a6
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2204: Literals should be spelled correctly

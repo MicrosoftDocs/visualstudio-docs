@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "full-text search tips [Help Viewer 2.0]"
 ms.assetid: bcaad23d-2ca7-4bec-8b54-b884bc34e70b
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Full-Text Search Tips

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1025"
 ms.assetid: f009b340-dea3-4459-8fe1-2143aa8b5d0b
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1025: Replace repetitive arguments with params array

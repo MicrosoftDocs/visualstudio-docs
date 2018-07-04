@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "queries [Visual Studio], TableAdapters"
 ms.assetid: df0cf4a5-e9cc-4de6-8b94-ce74fb7b2452
 caps.latest.revision: 20
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

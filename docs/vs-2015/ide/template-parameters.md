@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "item templates, parameters"
 ms.assetid: 1b567143-08c6-4d7a-b484-49f0671754fe
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Template Parameters

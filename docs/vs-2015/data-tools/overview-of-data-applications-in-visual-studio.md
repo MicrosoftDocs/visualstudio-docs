@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "data [Visual Studio], creating applications"
 ms.assetid: b5bd71f4-23d7-4d6e-91fe-5aa24d0d06d6
 caps.latest.revision: 18
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

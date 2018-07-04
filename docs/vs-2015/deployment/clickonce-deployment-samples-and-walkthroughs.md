@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "Visual Studio, walkthroughs"
 ms.assetid: 3973276b-7b11-4692-a0a2-32bebf0b9c2a
 caps.latest.revision: 8
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # ClickOnce Deployment Samples and Walkthroughs

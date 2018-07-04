@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "IDE, searching"
 ms.assetid: 4200f297-d065-4723-9a30-d91ff2e26c9d
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Quick Launch, Environment, Options Dialog Box

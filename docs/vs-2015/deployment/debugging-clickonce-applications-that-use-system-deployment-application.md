@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "deploying applications [ClickOnce], debugging"
 ms.assetid: 86f31948-2ca8-47c0-8e8b-c2b817bbf79f
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Debugging ClickOnce Applications That Use System.Deployment.Application

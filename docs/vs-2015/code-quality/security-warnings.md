@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "warnings, security"
 ms.assetid: 60d4e8ea-230a-494f-aa6a-b91db77540e4
 caps.latest.revision: 30
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Security Warnings

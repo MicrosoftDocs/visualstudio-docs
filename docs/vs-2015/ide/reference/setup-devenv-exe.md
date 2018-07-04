@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Devenv, /setup switch"
 ms.assetid: 87608b7f-a156-400c-80f5-fc823f843e61
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # /Setup (devenv.exe)

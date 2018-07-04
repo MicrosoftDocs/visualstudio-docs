@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "HTML tab in Toolbox"
 ms.assetid: 9bfdd3b8-f5ac-4a5f-bdbf-c2b4e97641d8
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Toolbox, HTML Tab

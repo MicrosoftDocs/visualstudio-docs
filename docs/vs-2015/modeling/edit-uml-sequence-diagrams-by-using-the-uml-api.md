@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 8cdd0203-85ef-4c62-9abc-da4cb26fa504
 caps.latest.revision: 27
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Edit UML sequence diagrams by using the UML API

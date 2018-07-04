@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "Installation URL property"
 ms.assetid: 04a804bf-ed55-4a7a-a1e6-f63ed99c0276
 caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Specify the Location Where End Users Will Install From

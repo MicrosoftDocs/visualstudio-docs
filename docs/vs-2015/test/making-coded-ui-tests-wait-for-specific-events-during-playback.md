@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 41981ad6-673e-492e-b739-9863b14157b1
 caps.latest.revision: 26
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Making Coded UI Tests Wait For Specific Events During Playback

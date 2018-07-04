@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA2221"
 ms.assetid: bda03aee-4cce-45d3-907d-17f4ee030acc
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2221: Finalizers should be protected

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "SQL statements, creating"
 ms.assetid: 612d3046-0cfa-4d90-be6e-c4d6bcbd5aee
 caps.latest.revision: 23
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

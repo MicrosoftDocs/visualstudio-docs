@@ -14,7 +14,7 @@ f1_keywords:
 ms.assetid: cab553fc-19a9-4cbf-858e-8200258ffe50
 caps.latest.revision: 16
 author: "erickson-doug"
-ms.author: "douge"
+ms.author: gewarren
 manager: "douge"
 ---
 # Analyze Visual Basic and C# code quality in Store apps using Visual Studio static code analysis

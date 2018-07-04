@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "FindUnderPath task [MSBuild]"
 ms.assetid: 3c6d58b0-36e8-47aa-bfca-b73dd2045d91
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # FindUnderPath Task

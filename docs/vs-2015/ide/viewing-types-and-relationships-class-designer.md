@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "relationships, visualizing"
 ms.assetid: c4f46d94-9972-42ac-ae63-6ff306369965
 caps.latest.revision: 37
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Viewing Types and Relationships (Class Designer)

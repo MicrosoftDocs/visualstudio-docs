@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "activities, creating custom"
 ms.assetid: 2fea8a05-6e58-423d-94bf-a822b15ffb80
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Using the Legacy Activity Designer

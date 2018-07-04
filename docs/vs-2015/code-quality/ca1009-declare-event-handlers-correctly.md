@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "DeclareEventHandlersCorrectly"
 ms.assetid: ab65c471-1449-49d2-9896-7b9af74284b4
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1009: Declare event handlers correctly

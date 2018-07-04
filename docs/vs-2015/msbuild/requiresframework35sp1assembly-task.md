@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "MSBuild, RequiresFramework35SP1Assembly task"
 ms.assetid: 755c018a-8a8b-4c94-8aee-3f171fc419e5
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # RequiresFramework35SP1Assembly Task

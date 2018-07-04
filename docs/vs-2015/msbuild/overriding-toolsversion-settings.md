@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "MSBuild, building solutions with"
 ms.assetid: ccd42c07-0fb6-4e8b-9ebb-a6a6db18aa2e
 caps.latest.revision: 27
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Overriding ToolsVersion Settings

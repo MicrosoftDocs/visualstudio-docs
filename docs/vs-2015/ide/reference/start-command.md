@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Debug.Start command"
 ms.assetid: dc4e4aa2-b0ab-4e00-92db-6dc3058ddc21
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Start Command

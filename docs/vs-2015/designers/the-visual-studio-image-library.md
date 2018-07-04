@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "bitmaps [Visual Studio], Image Library"
 ms.assetid: f7a2e7c8-3b9f-4f8e-a6a8-000d72e3811d
 caps.latest.revision: 31
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # The Visual Studio Image Library

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "user controls [Visual Studio], complex data binding"
 ms.assetid: c8f29c2b-b49b-4618-88aa-33b6105880b5
 caps.latest.revision: 16
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Create a Windows Forms user control that supports complex data binding

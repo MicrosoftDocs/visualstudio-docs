@@ -11,8 +11,8 @@ f1_keywords:
   - "WFDShellFeatures.UI"
 ms.assetid: 14bfe312-9592-408e-92ce-e98585ad16e7
 caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Workflow Designer Shell Features

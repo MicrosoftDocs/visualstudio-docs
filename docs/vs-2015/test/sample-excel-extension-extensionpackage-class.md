@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6e45410a-1819-4d54-ac21-7280152f7e3a
 caps.latest.revision: 11
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Sample Excel Extension: ExtensionPackage Class

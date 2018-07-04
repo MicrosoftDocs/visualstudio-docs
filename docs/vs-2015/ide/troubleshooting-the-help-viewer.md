@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Help Viewer 2.0, troubleshooting"
 ms.assetid: 461a4553-064a-4142-a2d2-058658b9ba12
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Troubleshooting the Help Viewer

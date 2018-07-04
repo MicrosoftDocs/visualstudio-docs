@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "class designer"
 ms.assetid: 40ed2c9d-0ce0-4b95-ad78-5dec2065ccea
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Designing and Viewing Classes and Types

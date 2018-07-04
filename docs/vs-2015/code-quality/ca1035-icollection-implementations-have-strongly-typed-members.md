@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "ICollectionImplementationsHaveStronglyTypedMembers"
 ms.assetid: ad404eb5-cf6a-44b7-b78a-8ebfb654bc7f
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1035: ICollection implementations have strongly typed members

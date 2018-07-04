@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "GenerateTrustInfo task [MSBuild]"
 ms.assetid: 3ca60816-4bb0-4fef-ae43-ca0bfb63def3
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # GenerateTrustInfo Task

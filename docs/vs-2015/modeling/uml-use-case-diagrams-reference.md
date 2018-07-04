@@ -20,7 +20,7 @@ helpviewer_keywords:
 ms.assetid: aa15772b-eb67-4366-b145-b559112817df
 caps.latest.revision: 35
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # UML Use Case Diagrams: Reference

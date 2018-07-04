@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: fbeba971-c468-4429-8017-0f12ab55638c
 caps.latest.revision: 7
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Writing Unit Tests for the .NET Framework with the Microsoft Unit Test Framework for Managed Code

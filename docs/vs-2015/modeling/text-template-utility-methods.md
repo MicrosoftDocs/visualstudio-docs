@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "text templates, utility methods"
 ms.assetid: 8c11f9f7-678b-4f0c-b634-dc78fda699d1
 caps.latest.revision: 52
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Text Template Utility Methods

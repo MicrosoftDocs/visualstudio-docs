@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, creating solutions"
 ms.assetid: e585b63b-34d2-405a-8d81-39ea22317975
 caps.latest.revision: 43
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # How to: Create a Domain-Specific Language Solution

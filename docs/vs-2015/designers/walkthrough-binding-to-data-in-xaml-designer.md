@@ -13,8 +13,8 @@ f1_keywords:
   - "VS.XamlDesigner.DataBinding"
 ms.assetid: 1a99aeae-c3ef-407d-ba79-b8055489a43d
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Walkthrough: Binding to data in XAML Designer

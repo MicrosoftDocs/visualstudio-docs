@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ba5ff03f-d2e3-4188-a706-3eb68ffb5f9e
 caps.latest.revision: 9
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Writing User Commands and Actions

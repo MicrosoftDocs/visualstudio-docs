@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "TypesThatOwnDisposableFieldsShouldBeDisposable"
 ms.assetid: c85c126c-2b16-4505-940a-b5ddf873fb22
 caps.latest.revision: 23
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1001: Types that own disposable fields should be disposable

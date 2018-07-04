@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "PInvokeDeclarationsShouldBePortable"
 ms.assetid: 90361812-55ca-47f7-bce9-b8775d3b8803
 caps.latest.revision: 25
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1901: P/Invoke declarations should be portable

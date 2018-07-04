@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "Office development in Visual Studio, signing manifests"
 ms.assetid: d53bceb9-4d3b-4c22-b909-8f370e7231fb
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Re-sign Application and Deployment Manifests

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "release builds"
 ms.assetid: eaea6e0b-6c61-4869-8d63-d372c745a23c
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Manage Build Configurations with Visual Basic Developer Settings Applied

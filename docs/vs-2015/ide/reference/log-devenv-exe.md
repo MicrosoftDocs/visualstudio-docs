@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "/Log Devenv switch"
 ms.assetid: ae23c4ae-2376-4fe3-b8d2-81d34e61c8ba
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # /Log (devenv.exe)

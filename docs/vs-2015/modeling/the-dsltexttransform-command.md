@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, commands"
 ms.assetid: 7d025d0b-6543-4a49-9f6b-8b8cfcad77ee
 caps.latest.revision: 32
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # The DslTextTransform Command

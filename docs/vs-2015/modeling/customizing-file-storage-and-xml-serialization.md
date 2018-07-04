@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, serialization"
 ms.assetid: 76c53ef1-e3b9-45da-b425-1bddb3c01395
 caps.latest.revision: 19
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Customizing File Storage and XML Serialization

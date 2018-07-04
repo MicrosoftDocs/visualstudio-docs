@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "automation [Visual Studio], controlling Tools Options"
 ms.assetid: 8e1ab784-5f85-4e2b-8ef9-e5d59ca4dbcb
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Options Page, Fonts and Colors Node Properties

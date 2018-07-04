@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: adb6c011-5abd-41d2-8ead-08cd7579bf37
 caps.latest.revision: 14
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # How to: Configure Unit Tests to Target An Earlier Version of the .NET Framework

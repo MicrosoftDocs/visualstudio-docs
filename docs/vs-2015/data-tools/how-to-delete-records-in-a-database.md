@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "saving data"
 ms.assetid: d74d2130-9732-4648-abea-241059c4a372
 caps.latest.revision: 11
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

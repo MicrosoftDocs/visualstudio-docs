@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "tables [Visual Studio], creating"
 ms.assetid: 0e8bf4c4-3d05-4b20-9926-9d29914b26ed
 caps.latest.revision: 19
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

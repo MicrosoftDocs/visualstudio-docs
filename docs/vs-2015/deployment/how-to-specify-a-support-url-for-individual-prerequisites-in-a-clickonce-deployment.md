@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, URLs"
 ms.assetid: 590742c3-a286-4160-aa75-7a441bb2207b
 caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Specify a Support URL for Individual Prerequisites in a ClickOnce Deployment

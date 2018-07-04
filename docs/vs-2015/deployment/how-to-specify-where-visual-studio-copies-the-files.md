@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Publish Location property"
 ms.assetid: 6c552700-dda3-49fe-af98-4717344fda07
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Specify Where Visual Studio Copies the Files

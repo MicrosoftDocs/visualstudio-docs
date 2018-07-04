@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 917519ad-138f-4869-8158-243014c7ca1d
 caps.latest.revision: 8
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Creating a WPF-Based Domain-Specific Language

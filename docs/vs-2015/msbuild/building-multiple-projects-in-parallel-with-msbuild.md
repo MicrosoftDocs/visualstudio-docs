@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "msbuild, building projects in parallel"
 ms.assetid: c8c9aadc-33ad-4aa1-b07d-b879e9eabda0
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Building Multiple Projects in Parallel with MSBuild

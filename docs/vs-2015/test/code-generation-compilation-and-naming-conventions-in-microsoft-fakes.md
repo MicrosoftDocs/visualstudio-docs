@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 20221de4-2a9e-4787-b99a-b5855bb90872
 caps.latest.revision: 18
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Code generation, compilation, and naming conventions in Microsoft Fakes

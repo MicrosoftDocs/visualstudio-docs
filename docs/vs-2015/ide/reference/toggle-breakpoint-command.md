@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Toggle Breakpoint command"
 ms.assetid: d50dfadb-ce79-4d5e-9c09-1cfddd57876d
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Toggle Breakpoint Command

@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "<RelatedProducts> element [bootstrapper]"
 ms.assetid: bf152712-4c1e-48bd-9b7f-311cf0fdb832
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;RelatedProducts&gt; Element (Bootstrapper)

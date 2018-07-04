@@ -9,12 +9,12 @@ ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 0a2b613e-dc04-49a1-a787-caec2ec63b90
 caps.latest.revision: 7
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Primitives Activity Designers
-Primitives activity designers are used to create and configure various activities in the <xref:System.Activities.Statement> namespace such as Assign and Delay. The topics contained in this section provide guidance on how to use the [!INCLUDE[wfd2](../includes/wfd2-md.md)] activity and template designers.  
+Primitives activity designers are used to create and configure various activities in the <xref:System.Activities> namespace such as Assign and Delay. The topics contained in this section provide guidance on how to use the [!INCLUDE[wfd2](../includes/wfd2-md.md)] activity and template designers.  
   
 ## In This Section  
  [Assign](../workflow-designer/assign-activity-designer.md)  

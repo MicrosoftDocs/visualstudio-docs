@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "neutral resources"
 ms.assetid: ef064995-3b84-4698-a708-9689b7723533
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Neutral Resources Languages for Localization

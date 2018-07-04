@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "constraints [Visual Basic], suspending during dataset update"
 ms.assetid: 553f7d0c-2faa-4c17-b226-dd02855bf1dc
 caps.latest.revision: 21
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Turn off constraints while filling a dataset

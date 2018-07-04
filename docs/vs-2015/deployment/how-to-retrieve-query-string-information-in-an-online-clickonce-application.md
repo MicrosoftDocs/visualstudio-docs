@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "query strings, retrieving information"
 ms.assetid: 48ce098a-a075-481b-a5f5-c8ba11f63120
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Retrieve Query String Information in an Online ClickOnce Application

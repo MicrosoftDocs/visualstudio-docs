@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "AvoidStaticMembersInComVisibleTypes"
 ms.assetid: bebd0776-ad04-453c-bca8-8c124c2d7840
 caps.latest.revision: 25
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1407: Avoid static members in COM visible types

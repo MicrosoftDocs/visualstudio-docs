@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "<InstallChecks> element [bootstrapper]"
 ms.assetid: ad329c87-b0ad-4304-84de-ae9496514c42
 caps.latest.revision: 25
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;InstallChecks&gt; Element (Bootstrapper)

@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 38423682-f2a7-4d2a-a2cd-fd680e9b4b4d
 caps.latest.revision: 17
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Open a UML model by using the Visual Studio API

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "WriteContextTLogs"
 ms.assetid: ffc6c7be-3f22-4624-9ffc-0122fe72b6ec
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # WriteContextTLogs

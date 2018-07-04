@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "generating code"
 ms.assetid: 74a0a748-5b11-4999-8bea-49572967827d
 caps.latest.revision: 84
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Code Generation and T4 Text Templates

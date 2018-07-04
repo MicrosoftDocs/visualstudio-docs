@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "CombinePath task [MSBuild]"
 ms.assetid: c20edbf4-3d4f-4f66-b1d5-753a0d858ed8
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # CombinePath Task

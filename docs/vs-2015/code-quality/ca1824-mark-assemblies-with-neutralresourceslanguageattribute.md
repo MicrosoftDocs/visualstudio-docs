@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1824"
 ms.assetid: 10e97f8a-aa6e-47aa-b253-1e5d3a295d82
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1824: Mark assemblies with NeutralResourcesLanguageAttribute

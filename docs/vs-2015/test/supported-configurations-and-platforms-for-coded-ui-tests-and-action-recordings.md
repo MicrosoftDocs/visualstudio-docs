@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "coded UI tests"
 ms.assetid: 544742b5-4ec1-4d51-b941-72b2f6ff17bc
 caps.latest.revision: 108
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Supported Configurations and Platforms for Coded UI Tests and Action Recordings

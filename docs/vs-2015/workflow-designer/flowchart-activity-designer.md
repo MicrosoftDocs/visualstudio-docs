@@ -13,8 +13,8 @@ f1_keywords:
   - "System.Activities.Core.Presentation.FlowStart.UI"
 ms.assetid: d5af2276-5215-4138-880a-cf2b90bbf3a0
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Flowchart Activity Designer

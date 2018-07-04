@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "MSBuild, WriteLinesToFile task"
 ms.assetid: 9c8862ac-8da5-4437-9430-ecc30421f1c9
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # WriteLinesToFile Task

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "table of contents filtering [Help Viewer 2.0]"
 ms.assetid: 8b98464d-2b05-4710-ad68-5647e78c6b7b
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Find Topics in the Table of Contents

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "instance stepping"
 ms.assetid: 3e9e3041-68c7-4f16-9bd6-da5e5144744b
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Debug Stepping Options (Legacy)

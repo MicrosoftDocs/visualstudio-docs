@@ -13,7 +13,7 @@ f1_keywords:
 ms.assetid: 9aa0e8d6-8129-4438-8389-d460611581a7
 caps.latest.revision: 7
 author: "steved0x"
-ms.author: "sdanie"
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Add comments to a workflow in the Workflow Designer

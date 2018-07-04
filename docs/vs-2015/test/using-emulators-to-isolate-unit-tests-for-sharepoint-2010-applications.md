@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b681164c-c87a-4bd7-be48-ed77e1578471
 caps.latest.revision: 17
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Using emulators to isolate unit tests for Sharepoint 2010 applications

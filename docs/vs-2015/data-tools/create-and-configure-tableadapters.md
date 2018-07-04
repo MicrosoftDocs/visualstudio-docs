@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "data [Visual Studio], creating table adapters"
 ms.assetid: 08630d69-0d6c-4e8f-b42d-2922f45f8415
 caps.latest.revision: 33
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Create and configure TableAdapters

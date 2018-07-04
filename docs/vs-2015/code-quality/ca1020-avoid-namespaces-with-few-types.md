@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "AvoidNamespacesWithFewTypes"
 ms.assetid: 9cb272f6-a3ff-45af-b35d-70dea620b074
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1020: Avoid namespaces with few types

@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 564aeac6-03fa-41b0-b655-88179f0ab01b
 caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Security Rules rule set for managed code

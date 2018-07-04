@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "sequential workflow libraries"
 ms.assetid: 9433ccf3-1eab-4d53-90ff-2e7b2341676c
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Create a Sequential Workflow Library (Legacy)

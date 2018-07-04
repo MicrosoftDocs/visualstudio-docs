@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, domain properties"
 ms.assetid: d1772463-0eb1-40a5-b7c0-9a008bc76760
 caps.latest.revision: 45
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # How to Define a Domain-Specific Language

@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "code analysis, rule sets"
 ms.assetid: 5874e854-e298-4d2e-bbe4-95e899d22587
 caps.latest.revision: 45
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Code analysis rule set reference

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Toolbox, moving items"
 ms.assetid: b754dad3-1f32-464f-8b9f-065e17e0bc22
 caps.latest.revision: 38
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Toolbox

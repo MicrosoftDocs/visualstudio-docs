@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "DoNotMarkServicedComponentsWithWebMethod"
 ms.assetid: 774bc55d-e588-48ee-8f38-c228580feca2
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2212: Do not mark serviced components with WebMethod

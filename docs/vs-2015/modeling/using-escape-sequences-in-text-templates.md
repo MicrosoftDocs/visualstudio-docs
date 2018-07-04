@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "text templates, escape sequences"
 ms.assetid: 36fff542-2f42-460f-a2d5-03fc76817f3b
 caps.latest.revision: 31
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Using Escape Sequences in Text Templates

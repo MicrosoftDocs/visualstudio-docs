@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Project Designer, Build page"
 ms.assetid: 77ff1bfc-d633-4634-ba29-9afdb6d7e362
 caps.latest.revision: 47
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Build Page, Project Designer (C#)

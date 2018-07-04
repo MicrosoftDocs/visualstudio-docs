@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "When Element [MSBuild]"
 ms.assetid: eb27de6f-4e71-4e87-87e2-d93f7bf5899c
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # When Element (MSBuild)

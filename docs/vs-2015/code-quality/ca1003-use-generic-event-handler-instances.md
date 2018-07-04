@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "UseGenericEventHandlerInstances"
 ms.assetid: 402101b6-555d-4cf7-b223-1d9fdfaaf1cd
 caps.latest.revision: 24
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1003: Use generic event handler instances

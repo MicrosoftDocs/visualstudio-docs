@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "deploying applications, ClickOnce security"
 ms.assetid: a05b5f2f-d1f2-471a-8096-8b11f7554265
 caps.latest.revision: 47
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Securing ClickOnce Applications

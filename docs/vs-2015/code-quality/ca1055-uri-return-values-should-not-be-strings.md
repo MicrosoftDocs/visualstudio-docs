@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1055"
 ms.assetid: 40e39873-7872-4988-8195-9eb0ade9ece0
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1055: URI return values should not be strings

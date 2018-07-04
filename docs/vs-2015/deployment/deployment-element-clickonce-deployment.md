@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "<deployment> element [ClickOnce deployment manifest]"
 ms.assetid: 4fafa9c2-97a0-4cea-b8fd-9746dca33af4
 caps.latest.revision: 32
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;deployment&gt; Element (ClickOnce Deployment)

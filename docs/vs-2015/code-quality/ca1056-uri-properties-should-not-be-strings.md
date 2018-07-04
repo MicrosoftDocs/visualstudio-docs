@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1056"
 ms.assetid: fdc99d29-0904-4a65-baa8-4f76833c953e
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1056: URI properties should not be strings

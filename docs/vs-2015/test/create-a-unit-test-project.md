@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a608bfba-1a43-4a60-b73a-1fe53ef58098
 caps.latest.revision: 10
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Create a unit test project

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, adding custom commands"
 ms.assetid: 9b9d8314-d0d8-421a-acb9-d7e91e69825c
 caps.latest.revision: 12
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # How to: Modify a Standard Menu Command in a Domain-Specific Language

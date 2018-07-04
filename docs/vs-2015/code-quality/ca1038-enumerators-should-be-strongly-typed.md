@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1038"
 ms.assetid: 8919f526-d487-42a4-87dc-2b2ee25260c4
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1038: Enumerators should be strongly typed

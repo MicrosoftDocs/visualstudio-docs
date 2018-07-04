@@ -13,8 +13,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Keyboard"
 ms.assetid: 038da8dc-6126-4f3e-a361-a58cc04cafb3
 caps.latest.revision: 6
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Keyboard, Environment, Options Dialog Box

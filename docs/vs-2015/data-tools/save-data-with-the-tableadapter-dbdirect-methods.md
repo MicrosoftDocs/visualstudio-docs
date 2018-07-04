@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "data [Visual Studio], TableAdapter"
 ms.assetid: 74a6773b-37e1-4d96-a39c-63ee0abf49b1
 caps.latest.revision: 17
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Save data with the TableAdapter DBDirect methods

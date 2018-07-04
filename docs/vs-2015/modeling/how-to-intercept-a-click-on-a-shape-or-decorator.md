@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, programming domain models"
 ms.assetid: e2bc3124-c0c0-4104-9779-a5bf565d7f51
 caps.latest.revision: 23
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # How to: Intercept a Click on a Shape or Decorator

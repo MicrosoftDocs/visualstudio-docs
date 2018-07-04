@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "ParameterGroup element [MSBuild]"
 ms.assetid: c3275e69-a427-4889-bc1d-51bff2c285fa
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # ParameterGroup Element

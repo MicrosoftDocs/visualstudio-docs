@@ -13,8 +13,8 @@ f1_keywords:
   - "CA2133"
 ms.assetid: a09672e2-63cb-4abd-9e8f-dff515e101ce
 caps.latest.revision: 13
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2133: Delegates must bind to methods with consistent transparency

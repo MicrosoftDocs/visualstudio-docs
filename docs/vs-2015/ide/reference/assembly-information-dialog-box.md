@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Assembly Information dialog box"
 ms.assetid: 8f1f6449-e03d-4a5b-9076-d3b1f84ada48
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Assembly Information Dialog Box

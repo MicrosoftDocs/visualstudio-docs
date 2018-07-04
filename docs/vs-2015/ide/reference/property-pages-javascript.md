@@ -19,8 +19,8 @@ f1_keywords:
   - "javascript.project.property.debugging.allowlocalnetworkloopback"
 ms.assetid: a05ab01f-3d5d-4675-a845-eab51807d3a3
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Property Pages, JavaScript

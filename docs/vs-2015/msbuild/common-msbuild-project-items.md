@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "MSBuild, common project items"
 ms.assetid: 1eba3721-cc12-4b80-9987-84923ede5e2e
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Common MSBuild Project Items

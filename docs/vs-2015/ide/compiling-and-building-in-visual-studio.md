@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "custom build steps, types of builds"
 ms.assetid: c7958821-285f-4e28-9e7a-b5d8b40336a1
 caps.latest.revision: 30
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Compiling and Building in Visual Studio

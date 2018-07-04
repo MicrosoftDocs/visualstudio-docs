@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "<compatibleFrameworks> element [ClickOnce deployment manifest]"
 ms.assetid: f6c3ee55-9e65-403d-8664-3ebde872c7d4
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;compatibleFrameworks&gt; Element (ClickOnce Deployment)

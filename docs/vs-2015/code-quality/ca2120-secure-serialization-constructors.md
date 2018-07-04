@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA2120"
 ms.assetid: e9989da1-55a0-43f8-9aa9-da86afae3b41
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2120: Secure serialization constructors

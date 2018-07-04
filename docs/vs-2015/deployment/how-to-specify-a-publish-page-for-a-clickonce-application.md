@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, specifying publish page"
 ms.assetid: 9d70eebb-bdee-4b42-8e7e-7a07e199bdf7
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Specify a Publish Page for a ClickOnce Application

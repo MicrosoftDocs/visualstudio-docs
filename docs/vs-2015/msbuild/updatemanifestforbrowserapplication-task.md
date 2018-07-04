@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "UpdateManifestForBrowserApplication task [WPF MSBuild], parameters"
 ms.assetid: 653339f7-654b-4d64-a26a-5c9f27036895
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # UpdateManifestForBrowserApplication Task

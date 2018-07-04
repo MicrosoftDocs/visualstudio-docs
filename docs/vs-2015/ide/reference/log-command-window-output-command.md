@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "View.LogCommandWindowOutput command"
 ms.assetid: d4ecec35-5af4-4954-8d60-2cd24583fbb4
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Log Command Window Output Command

@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "coded UI tests, extensions for Excel"
 ms.assetid: 451e4d14-7fac-42f9-af56-2bdc8414c6c7
 caps.latest.revision: 15
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Sample Coded UI Test Extension for Excel

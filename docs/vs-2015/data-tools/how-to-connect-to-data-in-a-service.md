@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "Web services, connecting"
 ms.assetid: a6b54353-05fe-4e5c-8631-90231fc95504
 caps.latest.revision: 35
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Connect to Data in a Service

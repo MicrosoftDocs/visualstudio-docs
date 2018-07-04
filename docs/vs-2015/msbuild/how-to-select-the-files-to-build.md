@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Include attribute [MSBuild]"
 ms.assetid: f5ff182f-7b3a-46fb-9335-37df54cfb8eb
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Select the Files to Build

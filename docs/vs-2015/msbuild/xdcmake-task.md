@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "MSBuild (Visual C++), XDCMake task"
 ms.assetid: a7de9c64-903a-4a02-85f3-f37672270f25
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # XDCMake Task

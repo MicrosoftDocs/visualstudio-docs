@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "code analysis, rule sets"
 ms.assetid: 7fe0a4e3-1ce0-4f38-a87a-7d81238ec7cd
 caps.latest.revision: 42
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Walkthrough: Configuring and Using a Custom Rule Set

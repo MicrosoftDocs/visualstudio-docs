@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "code analysis, creating work items"
 ms.assetid: 46ddfd57-af4a-4c1d-bd00-8e6328f321f0
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # How to: Create a Work Item for a Managed Code Defect

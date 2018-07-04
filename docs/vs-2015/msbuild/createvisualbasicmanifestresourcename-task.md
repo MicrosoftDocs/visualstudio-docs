@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "CreateVisualBasicManifestResourceName task [MSBuild]"
 ms.assetid: 251c47b9-de32-414b-a138-bf45290af12e
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # CreateVisualBasicManifestResourceName Task

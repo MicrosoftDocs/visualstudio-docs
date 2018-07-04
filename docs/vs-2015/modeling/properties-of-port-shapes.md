@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, port shape"
 ms.assetid: 9d69c4c1-4f72-4876-96b6-9b846e0495a4
 caps.latest.revision: 23
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Properties of Port Shapes

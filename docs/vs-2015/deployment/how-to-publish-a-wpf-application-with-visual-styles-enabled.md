@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 73b22b02-fc75-42aa-82d3-51fdcaf8e5c8
 caps.latest.revision: 5
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Publish a WPF Application with Visual Styles Enabled

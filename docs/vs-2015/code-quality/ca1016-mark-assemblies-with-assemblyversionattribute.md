@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "MarkAssembliesWithAssemblyVersion"
 ms.assetid: 4340aed8-d92b-4cde-a398-cb6963c6da5a
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1016: Mark assemblies with AssemblyVersionAttribute

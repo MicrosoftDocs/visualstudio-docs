@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "DisposableFieldsShouldBeDisposed"
 ms.assetid: e99442c9-70e2-47f3-b61a-d8ac003bc6e5
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2213: Disposable fields should be disposed

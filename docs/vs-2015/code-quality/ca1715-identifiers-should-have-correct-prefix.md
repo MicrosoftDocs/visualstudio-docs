@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1715"
 ms.assetid: cf45f8df-6855-4cb6-a4e2-7cfed714cf2f
 caps.latest.revision: 31
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1715: Identifiers should have correct prefix

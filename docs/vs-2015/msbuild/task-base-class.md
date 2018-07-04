@@ -16,8 +16,8 @@ dev_langs:
   - "jsharp"
 ms.assetid: 6c3f6238-b9f0-4325-b8b0-de61090bd0a2
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Task Base Class

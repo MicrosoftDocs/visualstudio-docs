@@ -44,7 +44,7 @@ Problem Description
   
 #### To find where the memory address is modified  
   
-1.  Set a data breakpoint at 0x00408000. See [Set a data change breakpoint (native C++ only)](../debugger/using-breakpoints.md#BKMK_Set_a_data_change_breakpoint__native_C___only_).  
+1.  Set a data breakpoint at 0x00408000. See [Set a data change breakpoint (native C++ only)](../debugger/using-breakpoints#setting-a-breakpoint-with-a-memory-address-native-c-only).  
   
 2.  When you hit the breakpoint, use the **Memory** window to view memory contents starting at 0x00408000. For more information, see [Memory Windows](../debugger/memory-windows.md).  
   

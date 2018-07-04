@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "database connections"
 ms.assetid: 6c56e54e-8834-4297-85aa-cc1a443ba556
 caps.latest.revision: 55
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

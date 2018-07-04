@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "publisherIdentity Element [ClickOnce deployment manifest], syntax, elements, and attributes"
 ms.assetid: 34c579db-d2f2-4b66-b9c8-47207f33d950
 caps.latest.revision: 13
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;publisherIdentity&gt; Element (ClickOnce Deployment)

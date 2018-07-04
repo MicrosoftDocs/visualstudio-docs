@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "applications [Visual Studio], data"
 ms.assetid: 87191abd-a7e7-4e2d-a010-902b7cbc91ef
 caps.latest.revision: 15
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

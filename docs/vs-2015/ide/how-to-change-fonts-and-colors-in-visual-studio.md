@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "color themes, Visual Studio"
 ms.assetid: 60d91ba1-244b-4c43-847f-60b744f1352a
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Change Fonts and Colors in Visual Studio

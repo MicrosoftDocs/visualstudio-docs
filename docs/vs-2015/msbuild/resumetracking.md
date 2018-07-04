@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "ResumeTracking"
 ms.assetid: d637e019-7c50-4b0a-812e-bc822001e697
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # ResumeTracking

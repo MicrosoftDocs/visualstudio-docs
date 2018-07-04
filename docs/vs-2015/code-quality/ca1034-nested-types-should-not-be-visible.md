@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1034"
 ms.assetid: e9789a2c-2540-42a1-8705-ae7104011194
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1034: Nested types should not be visible

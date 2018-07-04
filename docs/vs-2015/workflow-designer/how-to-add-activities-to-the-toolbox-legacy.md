@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "activities, adding to Toolbox"
 ms.assetid: b66ea29c-120b-40ba-8a61-c1c8240850fa
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Add Activities to the Toolbox (Legacy)

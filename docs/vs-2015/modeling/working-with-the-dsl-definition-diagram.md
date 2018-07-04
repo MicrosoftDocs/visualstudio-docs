@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, Bring Tree Here"
 ms.assetid: 1a4c7a58-e134-438e-848e-efd98f92bf10
 caps.latest.revision: 23
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Working with the DSL Definition Diagram

@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, events"
 ms.assetid: 4d08e541-fc67-4e68-bf31-30d346aa2aa0
 caps.latest.revision: 20
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # BoundsRules Constrain Shape Location and Size

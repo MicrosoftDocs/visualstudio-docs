@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "data commands, returning scalar values"
 ms.assetid: eb366496-69e5-4462-8683-653054165c5c
 caps.latest.revision: 24
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

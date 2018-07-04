@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "DoNotCallOverridableMethodsInConstructors"
 ms.assetid: 335b57ca-a6e8-41b4-a20e-57ee172c97c3
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2214: Do not call overridable methods in constructors

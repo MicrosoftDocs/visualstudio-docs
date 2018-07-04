@@ -16,8 +16,8 @@ dev_langs:
   - "jsharp"
 ms.assetid: 09633a0b-8f6f-4aba-8058-7cb4d13ce2c0
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # AssignProjectConfiguration Task

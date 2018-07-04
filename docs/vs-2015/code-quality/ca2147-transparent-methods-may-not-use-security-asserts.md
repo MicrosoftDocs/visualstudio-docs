@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "SecurityTransparentCodeShouldNotAssert"
 ms.assetid: 5d31e940-e599-4b23-9b28-1c336f8d910e
 caps.latest.revision: 20
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA2147: Transparent methods may not use security asserts

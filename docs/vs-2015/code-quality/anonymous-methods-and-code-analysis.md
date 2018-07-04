@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "anonymous methods, code analysis"
 ms.assetid: bf0a1a9b-b954-4d46-9c0b-cee65330ad00
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Anonymous Methods and Code Analysis
