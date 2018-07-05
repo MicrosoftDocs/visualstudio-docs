@@ -201,11 +201,12 @@ The output from the build, including an error or success messages, appear in the
 |[Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)|[Deploying Applications, Services, and Components](../deployment/deploying-applications-services-and-components.md)|
 |[Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)|[Security](../ide/security-in-visual-studio.md)|
 |[Visual Studio Samples](../ide/visual-studio-samples.md)|[Microsoft Help Viewer](../ide/microsoft-help-viewer.md)|
-|[Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)|[Reference](../ide/reference/visual-studio-reference.md)|
+|[Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)|[UI Reference](../ide/reference/general-user-interface-elements-visual-studio.md)|
 
 ## See Also
- [Installing Visual Studio 2015](../install/install-visual-studio-2015.md)
- [Editing Your Code](https://www.visualstudio.com/features/ide-vs)
- [What's New in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)
- [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)
- [Talk to Us](../ide/talk-to-us.md)
+
+- [Installing Visual Studio 2015](../install/install-visual-studio-2015.md)
+- [Editing Your Code](https://www.visualstudio.com/features/ide-vs)
+- [What's New in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)
+- [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)
+- [Talk to Us](../ide/talk-to-us.md)
