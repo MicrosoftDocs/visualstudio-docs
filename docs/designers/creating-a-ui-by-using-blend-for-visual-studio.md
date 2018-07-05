@@ -64,7 +64,7 @@ Use this panel to organize the objects on your artboard and, if you want, to ani
 
 |||
 |-|-|
-|![](../designers/media/b1_1.png)|**Objects view** View a visual tree of a document. You can drill down to varying levels of detail. You can also add layers to further organize objects on the artboard. That way you can lock and hide them as a group.|
+|![Objects view](../designers/media/b1_1.png)|**Objects view** View a visual tree of a document. You can drill down to varying levels of detail. You can also add layers to further organize objects on the artboard. That way you can lock and hide them as a group.|
 |![Record mode indicator](../designers/media/b1_2.png)|**Record mode indicator** See whether you're recording property changes in a timeline.|
 |![Storyboard picker](../designers/media/b1_3.png)|**Storyboard picker** View a list of storyboards that you've created.|
 |![Close storyboard](../designers/media/b1_4.png)|**Close storyboard** Close the current storyboard.|
@@ -91,7 +91,7 @@ Use this panel to view and modify the properties of an object. You can also set 
 
 |||
 |-|-|
-|![](../designers/media/b1_1.png)|**Name and Type** View the icon, name and type of the selected object.|
+|![Name and Type](../designers/media/b1_1.png)|**Name and Type** View the icon, name and type of the selected object.|
 |![Arrange by](../designers/media/b1_2.png)|**Arrange by** Arrange properties alphabetically by name, source, or category.|
 |![Brush properties](../designers/media/b1_3.png)|**Brush properties** Set the visual properties for brushes such as Fill brush, Stroke brush, and Foreground brush.|
 |![Color editor](../designers/media/b1_4.png)|**Color editor** Use for solid color and gradient brushes.|
