@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Creating a UI by using Blend for Visual Studio
 
-Blend for Visual Studio helps you design XAML-based Windows and Web applications. It provides the same basic XAML design experience as Visual Studio and adds visual designers for advanced tasks such as animations and behaviors. For a comparison between Blend and Visual Studio, see [Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md).
+Blend for Visual Studio helps you design XAML-based Windows and Web applications. It provides the same basic XAML design experience as Visual Studio and adds visual designers for advanced tasks such as animations and behaviors. For a comparison between Blend and Visual Studio, see [Design XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md).
 
 Blend for Visual Studio is a component of Visual Studio. To install Blend, in the **Visual Studio Installer** choose either the **Universal Windows Platform development** or **.NET desktop development** workload. Both of these workloads include the Blend for Visual Studio component.
 
@@ -23,7 +23,7 @@ Blend for Visual Studio is a component of Visual Studio. To install Blend, in th
 If you're new to Blend for Visual Studio, take a moment to become familiar with the unique features of the workspace. This topic takes you on a quick tour.
 
 > [!NOTE]
-> To tour the shared design features such as the artboard, Document Outline window, and Device window, see [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).
+> To tour the shared design features such as the artboard, **Document Outline** window, and **Device** window, see [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).
 
 ## Tour of the Tools panel
 
@@ -40,7 +40,7 @@ You can use the **Tools** panel in Blend for Visual Studio to create and modify 
 |![](../designers/media/b1_5.png)|**Asset tools** Access the **Assets** panel and to show the most recently used asset from the library.|![Callout E](../designers/media/b5_label_e.png)|**Text controls**|
 |||![Callout F](../designers/media/b5_label_f.png)|**Common controls**|
 
-**Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.png) [The Toolbar](https://www.youtube.com/watch?v=VkdUJcvoo54&list=PLBDF977B2F1DAB358&index=4).
+**Watch a short video:** ![Configure installed features](../designers/media/bldadminconsoleinitialconfigicon.png) [The Toolbar](https://www.youtube.com/watch?v=VkdUJcvoo54&list=PLBDF977B2F1DAB358&index=4).
 
 ## Tour of the Assets panel
 
@@ -75,7 +75,7 @@ Use this panel to organize the objects on your artboard and, if you want, to ani
 |![](../designers/media/b1_9.png)|**Snapping options** Set timeline snapping, snap resolution, and turn off timeline snapping.|
 |![](../designers/media/97fa60b9-0caf-4387-9225-b57510d32209.png)|**Show/hide**, **Lock/unlock** Show or hide the visibility and locking options for the objects view.|
 |![](../designers/media/b1_11.png)|**Playhead position on the timeline** Show the current time in milliseconds. You can also enter a time value directly in this field to jump to a particular point in time. The precision depends on the snap resolution set in the **Snapping Options**.|
-|![](../designers/media/b1_12.png)|**Playhead** Determine what point in time the animation is at. You can drag the playhead across the timeline to preview animation.|
+|![](../designers/media/b1_12.png)|**Playhead** Determine at what point in time the animation is. You can drag the playhead across the timeline to preview animation.|
 |![](../designers/media/b1_13.png)|**Keyframes set on timelines** Change a property value at a specific point in time.|
 |![](../designers/media/d839d12c-07a1-4127-a830-4a8e7069f4fe.png)|**Change order of objects** Set the display order of objects. Click this button to arrange objects in the structure view by Z order (front-to-back) or by markup order (the order in which they appear in **XAML** view).|
 |![](../designers/media/b1_15.png)|**Timeline zoom** Set the zoom resolution of the timeline. Zooming in lets you edit an animation with more detail, and zooming out shows more of an overview of what is happening over longer periods of time. If you zoom in but can't set a keyframe at the position in time that you want, verify that the snap resolution is set high enough.|
@@ -91,7 +91,7 @@ Use this panel to view and modify the properties of an object. You can also set 
 
 |||
 |-|-|
-|![](../designers/media/b1_1.png)|**Name and Type** View the icon, name and type of the selected object.|
+|![](../designers/media/b1_1.png)|**Name and Type** View the icon, name, and type of the selected object.|
 |![](../designers/media/b1_2.png)|**Arrange by** Arrange properties alphabetically by name, source, or category.|
 |![](../designers/media/b1_3.png)|**Brush properties** Set the visual properties for brushes such as Fill brush, Stroke brush, and Foreground brush.|
 |![](../designers/media/b1_4.png)|**Color editor** Use for solid color and gradient brushes.|
@@ -104,12 +104,12 @@ Use this panel to view and modify the properties of an object. You can also set 
 |![](../designers/media/b1_11.png)|**Color resources** Apply the exact same color to different properties. The **Color Resources** tab includes **Local Resources** and **System Resources**.|
 |![](../designers/media/b1_12.png)|**RGB color space** Modify the color by adjusting the values for the **R**,  **G**, or **B** (red, green, blue) number editors.|
 |![](../designers/media/b1_13.png)|**Alpha channel** Modify the Alpha value by using the number editor next to **A**.|
-|![](../designers/media/d839d12c-07a1-4127-a830-4a8e7069f4fe.png)|**Convert color to resource** Convert the selected color to a color resource. Color resources are available when you click the Color resources tab.|
+|![](../designers/media/d839d12c-07a1-4127-a830-4a8e7069f4fe.png)|**Convert color to resource** Convert the selected color to a color resource. Color resources are available when you click the **Color resources** tab.|
 |![](../designers/media/b1_15.png)|**Hex value** View the hexadecimal value of the color displayed.|
 |![Callout 16](../designers/media/b5_label_16.png)|**Gradient slider** Appears only if a gradient brush is selected.|
 |![](../designers/media/d50027a1-6824-4ad8-8b4e-558b0756dcf8.png)|**Show advanced properties** View categories of properties that are less commonly used.|
 
-**Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.png) [Properties panel](https://www.youtube.com/watch?v=HCqQfiobdag&list=PLBDF977B2F1DAB358&index=7).
+**Watch a short video:** ![Configure installed features](../designers/media/bldadminconsoleinitialconfigicon.png) [Properties panel](https://www.youtube.com/watch?v=HCqQfiobdag&list=PLBDF977B2F1DAB358&index=7).
 
 ## See also
 
