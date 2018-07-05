@@ -1,4 +1,4 @@
-# [Reference](visual-studio-reference.md)
+# Reference
 # [General User Interface Elements (Visual Studio)](general-user-interface-elements-visual-studio.md)
 ## [Call Hierarchy](call-hierarchy.md)
 ## [Choose Toolbox Items, WPF Components](choose-toolbox-items-wpf-components.md)
