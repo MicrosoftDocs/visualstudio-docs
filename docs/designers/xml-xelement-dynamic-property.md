@@ -19,7 +19,7 @@ Gets the unformatted XML content of the element.
 
 ## Syntax
 
-```
+```xaml
 elem.Xml
 ```
 

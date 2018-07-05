@@ -17,7 +17,7 @@ Gets an indexer used to retrieve all the descendant elements of the current elem
 
 ## Syntax
 
-```
+```xaml
 elem.Descendants[{namespaceName}localName]
 ```
 

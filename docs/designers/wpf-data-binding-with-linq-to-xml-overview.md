@@ -73,13 +73,13 @@ In C#, dynamic properties can only be accessed at run time through facilities pr
 
 In contrast, however, in an XML source dynamic properties can be accessed through a straightforward notation in the following form:
 
-```
+```xml
 <object>.<dynamic-property>
 ```
 
 The dynamic properties for these two classes either resolve to a value that can be used directly, or to an indexer that must be supplied with an index to obtain the resulting value or collection of values. The latter syntax takes the form:
 
-```
+```xml
 <object>.<dynamic-property>[<index-value>]
 ```
 
