@@ -35,5 +35,5 @@ This property uses deferred execution.
 
 ## See also
 
-- [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)
+- [XElement class dynamic properties](../designers/xelement-class-dynamic-properties.md)
 - [Elements](../designers/elements-xelement-dynamic-property.md)
