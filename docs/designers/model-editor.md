@@ -141,7 +141,7 @@ You might find it useful to view a 3D scene from a known position and angle, for
 
 To better understand a 3D object or scene, you can view additional geometry details such as per-vertex normals, per-face normals, the pivot points of the active selection, and other details. To enable or disable them, on the **Model Editor** toolbar, choose **Scripts**, **View**, and then choose the one you want.
 
-<a name="Adding3DObjects"></a>### Create and import 3D objects
+### Create and import 3D objects <a name="Adding3DObjects"></a>
 
 To add a predefined 3D shape to the scene, in the **Toolbox**, select the one you want and then move it to the design surface. New shapes are positioned at the origin of the scene. The Model Editor provides seven shapes: **Cone**, **Cube**, **Cylinder**, **Disc**, **Plane**, **Sphere**, and **Teapot**.
 
@@ -186,7 +186,7 @@ For a demonstration that shows how to use the pivot point, see [How to: Modify t
 
 Translation and rotation can occur in either the local coordinate system (or *local frame-of-reference*) of the object, or in the coordinate system of the world (or the *world frame-of-reference*). The world frame-of-reference is independent of the rotation of the object. Local mode is the default. To enable (or disable) world mode, on the **Model Editor Mode** toolbar, choose the **WorldLocal** button.
 
-<a name="ModifyingObjects"></a>### Modify objects
+### Modify objects <a name="ModifyingObjects"></a>
 
 You can change the shape of a 3D object by moving or deleting its vertices, edges, and faces. By default, the Model Editor is in *object mode*, so that you can select and transform entire objects. To select points, edges, or faces, choose the appropriate selection mode. On the **Model Editor Mode** toolbar, choose **Selection modes**, and then choose the mode that you want.
 
