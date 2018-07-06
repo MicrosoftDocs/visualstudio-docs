@@ -19,7 +19,7 @@ ms.workload:
 
 This tutorial walks you through the task of creating a simple Node.js application and publishing it to Azure.
 
-When publishing a Node.js application to Azure, there are several options. These include Azure App Service, a VM running an OS of your choosing, Azure Container Service (AKS) for management with Kubernetes, a Container Instance using Docker, and more. For more details on each of these options, see [Compute](https://azure.microsoft.com/en-us/product-categories/compute/).
+When publishing a Node.js application to Azure, there are several options. These include Azure App Service, a VM running an OS of your choosing, Azure Container Service (AKS) for management with Kubernetes, a Container Instance using Docker, and more. For more details on each of these options, see [Compute](https://azure.microsoft.com/product-categories/compute/).
 
 For this tutorial, you deploy the app to [Linux App Service](/azure/app-service/containers/app-service-linux-intro).
 Linux App Service deploys a Linux Docker container to run the Node.js application (as opposed to the Windows App Service, which runs Node.js apps behind IIS on Windows).
@@ -95,8 +95,8 @@ to the following illustration.
 
     ![Application settings](../javascript/media/azure-script-generator-args.png)
 
-> [!WARNING]
-> The App Service deployment process uses a set of heuristics to determine which type of application to try and run. If a .*sln* file is detected in the deployed content, it will assume an MSBuild based project is being deployed. The setting added above overrides this logic and specifies explicitly that this is a Node.js application. Without this setting, the Node.js application will fail to deploy if the .*sln* file is part of the repository being deployed to the App Service.
+    > [!WARNING]
+    > The App Service deployment process uses a set of heuristics to determine which type of application to try and run. If a .*sln* file is detected in the deployed content, it will assume an MSBuild based project is being deployed. The setting added above overrides this logic and specifies explicitly that this is a Node.js application. Without this setting, the Node.js application will fail to deploy if the .*sln* file is part of the repository being deployed to the App Service.
 
 7. After it is deployed, open the App Service and select **Deployment options**.
 
