@@ -54,7 +54,7 @@ Creates a <xref:System.Windows.Forms.HelpProvider> component instance that provi
 
 **ImageList**
 
-Creates a <xref:System.Windows.Forms.ImageList> component instance that provides methods to manage a collection of `System.Drawing.Image` objects. For more information, see [ImageList component](/dotnet/framework/winforms/controls/imagelist-component-windows-forms).
+Creates a <xref:System.Windows.Forms.ImageList> component instance that provides methods to manage a collection of <xref:System.Drawing.Image> objects. For more information, see [ImageList component](/dotnet/framework/winforms/controls/imagelist-component-windows-forms).
 
 **MessageQueue**
 
@@ -70,7 +70,7 @@ Creates a <xref:System.Diagnostics.Process> component instance you can use to st
 
 **SerialPort**
 
-Creates a `System.IO.Ports.SerialPort` component instance that provides synchronous and event-driven I/O, access to pin and break states, and access to serial driver properties.
+Creates a <xref:System.IO.Ports.SerialPort> component instance that provides synchronous and event-driven I/O, access to pin and break states, and access to serial driver properties.
 
 **ServiceController**
 
