@@ -122,9 +122,9 @@ MSBuild properties and items are both used to pass information to tasks, evaluat
 KeyFileVersion: 1.0.0.3  
 ```  
   
- This is because the value of `KeyFileVersion` is actually the string "@(KeyFile->'%(Version)')". Item and item transformations were not expanded when the property was first defined, so the `KeyFileVersion` property was assigned the value of the unexpanded string.  
+ This is because the value of `KeyFileVersion` is actually the string "\@(KeyFile->'%(Version)')". Item and item transformations were not expanded when the property was first defined, so the `KeyFileVersion` property was assigned the value of the unexpanded string.  
   
- During the execution phase of the build, when it processes the Message task, MSBuild expands the string "@(KeyFile->'%(Version)')" to yield "1.0.0.3".  
+ During the execution phase of the build, when it processes the Message task, MSBuild expands the string "\@(KeyFile->'%(Version)')" to yield "1.0.0.3".  
   
  Notice that the same message would appear even if the property and item groups were reversed in order.  
   
@@ -168,7 +168,7 @@ KeyFileVersion:
 </Target>  
 ```  
   
- The value of `KeyFileVersion` is set to "1.0.0.3" and not to "@(KeyFile->'%(Version)')". The Message task displays this message:  
+ The value of `KeyFileVersion` is set to "1.0.0.3" and not to "\@(KeyFile->'%(Version)')". The Message task displays this message:  
   
 ```  
 KeyFileVersion: 1.0.0.3  

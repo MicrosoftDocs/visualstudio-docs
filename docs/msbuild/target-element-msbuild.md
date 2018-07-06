@@ -29,7 +29,7 @@ Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/i
 
 ## Syntax  
 
-```  
+```xml  
 <Target Name="Target Name"  
         Inputs="Inputs"  
         Outputs="Outputs"  

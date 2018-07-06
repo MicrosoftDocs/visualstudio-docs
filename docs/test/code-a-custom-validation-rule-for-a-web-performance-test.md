@@ -18,7 +18,7 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# Coding a custom validation rule for a web performance test
+# Code a custom validation rule for a web performance test
 
 You can create your own validation rules. To do this, you derive your own rule class from a validation rule class. Validation rules derive from the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ValidationRule> base class.
 

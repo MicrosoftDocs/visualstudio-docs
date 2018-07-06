@@ -16,7 +16,7 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# Coding a custom extraction rule for a web performance test
+# Code a custom extraction rule for a web performance test
 
 You can create your own extraction rules. To do this, you derive your own rules from an extraction rule class. Extraction rules derive from the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRule> base class.
 

@@ -15,8 +15,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# I/O Time (Threads View)
+# I/O time (Threads View)
 These segments in the timeline are associated with blocking times that are categorized as I/O. This means that a thread is waiting for an I/O operation to finish. The thread may have been blocked in an API, or by an I/O-related kernel wait that the Concurrency Visualizer is counting as I/O. APIs such as `CreateFile()`, `ReadFile()`, and `WSARecv()` fall into this group.  
   
-## See Also  
+## See also  
  [Threads View](../profiling/threads-view-parallel-performance.md)

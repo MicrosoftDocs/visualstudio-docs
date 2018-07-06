@@ -45,7 +45,7 @@ The [DebuggerDisplayAttribute Class](/dotnet/api/system.diagnostics.debuggerdisp
   
  To build autoexp.cs, open up a Developer Command Prompt for VS2015, and run the following commands  
   
-```  
+```cmd
 cd <directory containing autoexp.cs>  
 csc /t:library autoexp.cs  
 ```  

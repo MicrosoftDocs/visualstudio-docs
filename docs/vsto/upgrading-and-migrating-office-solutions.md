@@ -63,7 +63,7 @@ ms.workload:
  Office projects in Visual Studio 2013 can target [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] and [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)] applications. Visual Studio modifies the project to target the latest version of office that you have installed. If none of these versions of Office are installed, Visual Studio does not upgrade the project.  
   
 > [!NOTE]  
->  If you upgrade an VSTO Add-in project to target [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] or later, make sure that the `ThisAddIn_Startup` event handler of the VSTO Add-in doesn't contain code that accesses a document in the application. For more information, see [Access a document when the Office application starts](../vsto/programming-vsto-add-ins.md#AccessingDocuments).  
+>  If you upgrade a VSTO Add-in project to target [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] or later, make sure that the `ThisAddIn_Startup` event handler of the VSTO Add-in doesn't contain code that accesses a document in the application. For more information, see [Access a document when the Office application starts](../vsto/programming-vsto-add-ins.md#AccessingDocuments).  
   
  For document-level customizations, [!INCLUDE[vs_current_short](../sharepoint/includes/vs-current-short-md.md)] converts documents in a project that have a binary format, such as documents that have an *.xls* or *.doc* extension, to the Office Open XML format. For more information about Open XML, see [Introduction to new file name extensions and Open XML formats](https://support.office.com/en-nz/article/Introduction-to-new-file-name-extensions-eca81dcb-5626-4e5b-8362-524d13ae4ec1).  
   
@@ -82,7 +82,7 @@ ms.workload:
  If you want to use ClickOnce to deploy your VSTO Add-in, you can delete the Setup or InstallShield Limited Edition project entirely. For more information about deploying VSTO Add-ins by using ClickOnce, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).  
   
 ## See also  
- [How to: Upgrade Office solutions](http://msdn.microsoft.com/en-us/a269e539-b717-4680-a568-2152b070347e)   
+ [How to: Upgrade Office solutions](http://msdn.microsoft.com/a269e539-b717-4680-a568-2152b070347e)   
  [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md)   
  [Project Upgrade, Options dialog box](../vsto/project-upgrade-options-dialog-box.md)  
   

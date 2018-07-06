@@ -22,13 +22,13 @@ ms.workload:
   - "office"
 ---
 # How to: Add a filter descriptor to a Finder method
-  Filter descriptors enable consumers of the model to pass values to methods before they execute. For more information, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).  
+  Filter descriptors enable consumers of the model to pass values to methods before they execute. For more information, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).  
   
  One common scenario is that users in SharePoint want to retrieve instances of an external content type that match some criteria. You can support this scenario by adding a filter descriptor to a Finder method.  
   
 ### To add a filter descriptor to a Finder method  
   
-1.  In the **BDC Method Details** window, expand the node of a Finder method, expand the **Parameters** node, and then add an input parameter. For more information, see [How to: Add a Parameter to a Method](../sharepoint/how-to-add-a-parameter-to-a-method.md).  
+1.  In the **BDC Method Details** window, expand the node of a Finder method, expand the **Parameters** node, and then add an input parameter. For more information, see [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md).  
   
 2.  In the **Method Details** window, choose the type descriptor of the parameter.  
   
@@ -67,11 +67,11 @@ ms.workload:
      [!code-vb[SP_BDC#11](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderservice.vb#11)]  
   
 ## See also
- [How to: Add a Finder Method](../sharepoint/how-to-add-a-finder-method.md)   
- [How to: Add a Specific Finder Method](../sharepoint/how-to-add-a-specific-finder-method.md)   
- [How to: Add a Parameter to a Method](../sharepoint/how-to-add-a-parameter-to-a-method.md)   
- [How to: Define the Type Descriptor of a Parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)   
- [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)   
- [Integrating Business Data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)  
+ [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)   
+ [How to: Add a specific Finder method](../sharepoint/how-to-add-a-specific-finder-method.md)   
+ [How to: Add a parameter to a method](../sharepoint/how-to-add-a-parameter-to-a-method.md)   
+ [How to: Define the type descriptor of a parameter](../sharepoint/how-to-define-the-type-descriptor-of-a-parameter.md)   
+ [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)   
+ [Integrating business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)  
   
   

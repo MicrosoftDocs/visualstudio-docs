@@ -19,19 +19,18 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# SharePoint Development Samples and Walkthroughs
+# SharePoint development samples and walkthroughs
   This section contains sample applications, example code, and step-by-step walkthroughs that illustrate the syntax, structure, and techniques used to build SharePoint solutions.  
   
  The sample code is intended for instructional purposes and should not be used in deployed solutions without modifications. In particular, security must be taken into greater consideration.  
   
-## In This Section  
+## In this section
   
 |Topic|Description|  
 |-----------|-----------------|  
-|[SharePoint Development Samples](../sharepoint/sharepoint-development-samples.md)|Describes sample applications that demonstrate how to use the SharePoint development tools in Visual Studio.|  
-|[SharePoint Development Walkthroughs](../sharepoint/sharepoint-development-walkthroughs.md)|Lists step-by-step guides that provide an introduction to SharePoint development tools in Visual Studio.|  
+|[SharePoint development samples](../sharepoint/sharepoint-development-samples.md)|Describes sample applications that demonstrate how to use the SharePoint development tools in Visual Studio.|  
+|[SharePoint development walkthroughs](../sharepoint/sharepoint-development-walkthroughs.md)|Lists step-by-step guides that provide an introduction to SharePoint development tools in Visual Studio.|  
   
-## See Also  
- [Create SharePoint Solutions](../sharepoint/create-sharepoint-solutions.md)  
-  
+## See also
+ [Create SharePoint solutions](../sharepoint/create-sharepoint-solutions.md)  
   

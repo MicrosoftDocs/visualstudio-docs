@@ -29,29 +29,29 @@ ms.workload:
   
 |Topic|Description|  
 |-----------|-----------------|  
-|[Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md)|Lists software requirements to develop for SharePoint.|  
-|[Additional Information for SharePoint Errors](../sharepoint/additional-information-for-sharepoint-errors.md)|Describes where to find help during SharePoint development and troubleshooting.|  
+|[Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md)|Lists software requirements to develop for SharePoint.|  
+|[Additional information for SharePoint errors](../sharepoint/additional-information-for-sharepoint-errors.md)|Describes where to find help during SharePoint development and troubleshooting.|  
   
 ## Related sections
   
 |Topic|Description|  
 |-----------|-----------------|  
 |[Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)|Describes SharePoint development in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].|  
-|[Creating Site Columns, Content Types, and Lists for SharePoint](../sharepoint/creating-site-columns-content-types-and-lists-for-sharepoint.md)|Describes how to create custom site columns, content types, and lists for SharePoint by using the Visual Studio tools for SharePoint development.|  
-|[Creating SharePoint Workflow Solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)|Describes workflow design and development.|  
-|[Integrating Business Data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)|Describes how to connect to Business Data Connectivity (BDC) models to integrate business data.|  
-|[Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)|Describes Web parts and Web Part Pages, the building blocks of pages on a SharePoint site.|  
-|[Creating Application Pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)|Describes how to design application pages by using a designer.|  
-|[Creating Reusable Controls for Web Parts or Application Pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)|Describes how to create custom, reusable controls for application pages and Web Parts in SharePoint.|  
-|[Browsing SharePoint Connections Using Server Explorer](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)|Describes how to navigate through the components of a SharePoint site in a Visual Studio tool window.|  
-|[Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)|Describes how to build and debug SharePoint solutions.|  
-|[Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)|Describes how to package and deploy SharePoint solutions.|  
-|[Extending the SharePoint Tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)|Describes how to extend the SharePoint tools to create the features that you need.|  
+|[Create site columns, content types, and lists for SharePoint](../sharepoint/creating-site-columns-content-types-and-lists-for-sharepoint.md)|Describes how to create custom site columns, content types, and lists for SharePoint by using the Visual Studio tools for SharePoint development.|  
+|[Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)|Describes workflow design and development.|  
+|[Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)|Describes how to connect to Business Data Connectivity (BDC) models to integrate business data.|  
+|[Creatie web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)|Describes Web parts and Web Part Pages, the building blocks of pages on a SharePoint site.|  
+|[Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md)|Describes how to design application pages by using a designer.|  
+|[Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)|Describes how to create custom, reusable controls for application pages and Web Parts in SharePoint.|  
+|[Browse SharePoint connections using Server Explorer](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)|Describes how to navigate through the components of a SharePoint site in a Visual Studio tool window.|  
+|[Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)|Describes how to build and Debug SharePoint solutions.|  
+|[Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)|Describes how to Package and deploy SharePoint solutions.|  
+|[Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)|Describes how to extend the SharePoint tools to create the features that you need.|  
   
 ## See also
- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)   
- [Browsing SharePoint Connections Using Server Explorer](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)   
- [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)   
- [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
+ [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)   
+ [Browse SharePoint connections using Server Explorer](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)   
+ [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)   
+ [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
   
   

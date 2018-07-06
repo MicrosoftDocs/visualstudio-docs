@@ -153,10 +153,6 @@
         href: ide/creating-solutions-and-projects.md
       - name: Port, migrate, and upgrade projects
         href: porting/port-migrate-and-upgrade-visual-studio-projects.md
-      - name: Add and remove project items
-        href: ide/adding-and-removing-project-items.md
-      - name: Project and solution file types
-        href: ide/reference/project-and-solution-file-types.md
       - name: Manage project and solution properties
         href: ide/managing-project-and-solution-properties.md
       - name: Manage references in a project
@@ -346,16 +342,13 @@
         items:
         - name: Visual Basic IntelliSense
           href: ide/visual-basic-specific-intellisense.md
-          items:
-          - name: Filtered completion lists in Visual Basic
-            href: ide/filtered-completion-lists-in-visual-basic.md
         - name: C# IntelliSense
           href: ide/visual-csharp-intellisense.md
         - name: JavaScript IntelliSense
           href: ide/javascript-intellisense.md
         - name: Visual C++ IntelliSense
           href: ide/visual-cpp-intellisense.md
-      - name: Navigate Your code
+      - name: Navigate your code
         href: ide/navigating-code.md
         items:
         - name: Find references in your code
@@ -604,11 +597,6 @@
       href: ide/how-to-specify-build-events-csharp.md
     - name: Configuring Warnings in Visual Basic
       href: ide/configuring-warnings-in-visual-basic.md
-    - name: Disable the Hosting Process
-      href: ide/how-to-disable-the-hosting-process.md
-      items:
-      - name: Hosting Process (vshost.exe)
-        href: ide/hosting-process-vshost-exe.md
     - name: "Walkthrough: Create a Multiple-Computer Build Environment"
       href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
   - name: Debug...
@@ -618,7 +606,7 @@
   - name: Measure performance...
     href: profiling/profiling-feature-tour.md
   - name: Analyze code quality...
-    href: code-quality/analyzing-application-quality-by-using-code-analysis-tools.md
+    href: code-quality/code-analysis-for-managed-code-overview.md
   - name: Deploy...
     href: deployment/deploying-applications-services-and-components.md
   - name: Extend Visual Studio...
@@ -855,6 +843,8 @@
         items:
         - name: Advanced Settings for Services Dialog Box
           href: ide/reference/advanced-settings-for-services-dialog-box.md
+      - name: Settings Page, Project Designer
+        href: ide/reference/settings-page-project-designer.md
       - name: Signing Page, Project Designer
         href: ide/reference/signing-page-project-designer.md
     - name: Property Pages, JavaScript
@@ -1053,13 +1043,16 @@
     - name: Platform compatibility
       href: /visualstudio/productinfo/vs2017-compatibility-vs?context=visualstudio/default
     - name: Licensing
-      href: https://www.visualstudio.com/license-terms/
+      href: https://visualstudio.microsoft.com/license-terms/
     - name: Distributable code
       href: /visualstudio/productinfo/2017-redistribution-vs?context=visualstudio/default
     - name: Support lifecycle and servicing
       href: /visualstudio/productinfo/vs-servicing-vs?context=visualstudio/default
   - name: Report a problem with Visual Studio
     href: ide/how-to-report-a-problem-with-visual-studio-2017.md
+    items:
+    - name: Developer Community data privacy
+      href: ide/developer-community-privacy.md
   - name: Customer Experience Improvement Program
     href: ide/visual-studio-experience-improvement-program.md
     items:

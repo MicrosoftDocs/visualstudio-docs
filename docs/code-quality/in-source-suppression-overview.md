@@ -29,7 +29,7 @@ In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE
 > You should not use in-source suppressions on release builds, to prevent shipping the in-source suppression metadata accidentally. Additionally, because of the processing cost of in-source suppression, the performance of your application can be degraded.
 
 > [!NOTE]
-> If you migrate a project to Visual Studio 2017, you might suddenly be faced with an overwhelming number of code analysis warnings. If you aren't ready to fix the warnings and want to temporarily turn code analysis off, open the project's property pages (**Project** > ***project* Properties...**) and go to the **Code Analysis** tab. Deselect **Enable Code Analysis on Build**, and then rebuild your project. Alternatively, you can select a different, smaller rule set to run against the code. Remember to turn code analysis back on when you are ready to fix the warnings.
+> If you migrate a project to Visual Studio 2017, you might suddenly be faced with an overwhelming number of code analysis warnings. If you aren't ready to fix the warnings and want to temporarily turn code analysis off, open the project's property pages (**Project** > **\<project> Properties**) and go to the **Code Analysis** tab. Deselect **Enable Code Analysis on Build**, and then rebuild your project. Alternatively, you can select a different, smaller rule set to run against the code. Remember to turn code analysis back on when you are ready to fix the warnings.
 
 ## SuppressMessage attribute
 

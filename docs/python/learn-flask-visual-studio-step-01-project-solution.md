@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 1: Get started with the Flask web framework in Visual Studio
+# Tutorial: Get started with the Flask web framework in Visual Studio
 
 [Flask](http://flask.pocoo.org/) is a lightweight Python framework for web applications that provides the basics for URL routing and page rendering.
 
@@ -246,7 +246,7 @@ At this point, the basic Flask project contains the startup code and page code i
 > [!div class="nextstepaction"]
 > [Create a Flask app with views and page templates](learn-flask-visual-studio-step-02-create-app.md)
 
-## Going deeper
+## Go deeper
 
 - [Flask Quickstart](http://flask.pocoo.org/docs/1.0/quickstart/) (flask.pocoo.org)
 - Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask)

@@ -48,10 +48,10 @@ ms.workload:
 |.webpart file|Provides information that SharePoint needs to display your web part in a web part gallery.|  
 |Code File|Contains methods that add controls to the web part and that generate custom content within the web part.|  
   
- For more information, see [How to: Create a SharePoint Web Part](../sharepoint/how-to-create-a-sharepoint-web-part.md).  
+ For more information, see [How to: Create a SharePoint web part](../sharepoint/how-to-create-a-sharepoint-web-part.md).  
   
 ### Visual web part item
- A visual web part is a web part that you create by using the Visual Web Developer designer in Visual Studio. A visual web part functions the same as any other web part. To add controls, such as buttons and text boxes, to a web part, you add code to an XML file. However, you add controls to a visual web part by dragging or copying them onto the web part from the Visual Studio **Toolbox**. The designer then generates the required code in the XML file. See [How to: Create a SharePoint Web Part by Using a Designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md).  
+ A visual web part is a web part that you create by using the Visual Web Developer designer in Visual Studio. A visual web part functions the same as any other web part. To add controls, such as buttons and text boxes, to a web part, you add code to an XML file. However, you add controls to a visual web part by dragging or copying them onto the web part from the Visual Studio **Toolbox**. The designer then generates the required code in the XML file. See [How to: Create SharePoint web part by using a designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md).  
   
 ## SharePoint controls
  Visual Studio provides some controls for creating SharePoint pages, such as application pages. These controls appear in the **Toolbox** under **SharePoint Controls**. The functionality for these controls derives from the [Microsoft.SharePoint.WebControls](http://go.microsoft.com/fwlink/?LinkId=235315) namespace, which contains ASP.NET server controls that are used on SharePoint site and list pages.  
@@ -73,16 +73,16 @@ ms.workload:
   
  To start to debug your code, add the web part to a web part page in SharePoint.  
   
- For more information about how to debug SharePoint projects, see [Troubleshooting SharePoint Solutions](../sharepoint/troubleshooting-sharepoint-solutions.md).  
+ For more information about how to debug SharePoint projects, see [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md).  
   
 ## Visual web part limitations
  Starting in Visual Studio, you can add visual web parts to sandboxed SharePoint solutions and farm solutions. However, visual web parts have the following limitations:  
   
--   Visual web parts don't support replaceable parameters. For more information, see [Replaceable Parameters](../sharepoint/replaceable-parameters.md).  
+-   Visual web parts don't support Replaceable parameters. For more information, see [Replaceable parameters](../sharepoint/replaceable-parameters.md).  
   
 -   User controls or visual web parts can't be dragged and dropped or copied onto visual web parts. This action causes a build error.  
   
--   Visual web parts don't directly support SharePoint server tokens such as $SPUrl. For more information, see "Token Restrictions in Sandboxed Visual Web Parts" in the topic [Troubleshooting SharePoint Solutions](../sharepoint/troubleshooting-sharepoint-solutions.md).  
+-   Visual web parts don't directly support SharePoint server tokens such as $SPUrl. For more information, see "Token Restrictions in Sandboxed Visual Web Parts" in the topic [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md).  
   
 -   Visual web parts in a sandboxed solution occasionally get the error, "The sandboxed code execution request was refused because the Sandboxed Code Host Service was too busy to handle the request." For more information about this error, see this post in the [SharePoint Developer Team Blog](http://go.microsoft.com/fwlink/?LinkId=225932).  
   
@@ -96,7 +96,7 @@ ms.workload:
   
 -   SharePoint web controls and some [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] controls aren't supported in the SharePoint sandboxed environment. If unsupported controls are used on a visual web part in a sandboxed solution, the error, "The type or namespace name 'Theme' does not exist in the namespace 'Microsoft.SharePoint.WebControls'" appears.  
   
- For more information about sandboxed solutions, see [Differences Between Sandboxed and Farm Solutions](../sharepoint/differences-between-sandboxed-and-farm-solutions.md).  
+ For more information about sandboxed solutions, see [Differences between sandboxed and farm solutions](../sharepoint/differences-between-sandboxed-and-farm-solutions.md).  
   
 ## Create older style SharePoint-based web parts
  You can use the templates in Visual Studio to create custom [!INCLUDE[vstecasplong](../sharepoint/includes/vstecasplong-md.md)] web parts for SharePoint. [!INCLUDE[vstecasplong](../sharepoint/includes/vstecasplong-md.md)] web parts are built on top of the [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] web part infrastructure and are the recommended type for new projects.  
@@ -109,10 +109,10 @@ ms.workload:
   
 |Title|Description|  
 |-----------|-----------------|  
-|[How to: Create a SharePoint Web Part](../sharepoint/how-to-create-a-sharepoint-web-part.md)|Shows you how to create web parts for SharePoint pages.|  
-|[How to: Create a SharePoint Web Part by Using a Designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)|Shows you how to create web parts for SharePoint by using a visual design surface.|  
-|[How to: Create a User Control for a SharePoint Application Page or Web Part](../sharepoint/how-to-create-a-user-control-for-a-sharepoint-application-page-or-web-part.md)|Shows you how to create custom, reusable controls that can be consumed by application pages and web parts that run in SharePoint.|  
-|[Walkthrough: Creating a Web Part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)|Describes how to design a web part for SharePoint.|  
-|[Walkthrough: Creating a Web Part for SharePoint by Using a Designer](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint-by-using-a-designer.md)|Describes how to design a web part for SharePoint by dragging controls to a visual design surface.|  
-|[Walkthrough: Creating a Silverlight Web Part that Displays OData for SharePoint](../sharepoint/walkthrough-creating-a-silverlight-web-part-that-displays-odata-for-sharepoint.md)|Describes how to design a web part for SharePoint that hosts a Silverlight application and displays data from SharePoint lists.|  
+|[How to: Create a SharePoint web part](../sharepoint/how-to-create-a-sharepoint-web-part.md)|Shows you how to create web parts for SharePoint pages.|  
+|[How to: Create a SharePoint web part by using a designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)|Shows you how to create web parts for SharePoint by using a visual design surface.|  
+|[How to: Create a user control for a SharePoint application page or web part](../sharepoint/how-to-create-a-user-control-for-a-sharepoint-application-page-or-web-part.md)|Shows you how to create custom, reusable controls that can be consumed by application pages and web parts that run in SharePoint.|  
+|[Walkthrough: Create a web part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)|Describes how to design a web part for SharePoint.|  
+|[Walkthrough: Create a web part for SharePoint by using a designer](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint-by-using-a-designer.md)|Describes how to design a web part for SharePoint by dragging controls to a visual design surface.|  
+|[Walkthrough: Create Silverlight web part that displays OData for SharePoint](../sharepoint/walkthrough-creating-a-silverlight-web-part-that-displays-odata-for-sharepoint.md)|Describes how to design a web part for SharePoint that hosts a Silverlight application and displays data from SharePoint lists.|  
   

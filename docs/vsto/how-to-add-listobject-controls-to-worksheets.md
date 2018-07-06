@@ -30,7 +30,7 @@ ms.workload:
   
 -   [Add ListObject controls at runtime in a document-level project](#runtimedoclevel)  
   
--   [Add ListObject controls at runtime in an VSTO Add-in project](#runtimeaddin)  
+-   [Add ListObject controls at runtime in a VSTO Add-in project](#runtimeaddin)  
   
  For more information about <xref:Microsoft.Office.Tools.Excel.ListObject> controls, see [ListObject control](../vsto/listobject-control.md).  
   

@@ -147,7 +147,7 @@ int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
 ```
 
 ##  <a name="BKMK_Running_the_test_and_viewing_results"></a> Running the test and viewing results
- When you have finished writing a test method, build the test project. The test method appears in the Test Explorer window in the **Not Run Tests** group. As you run, write, and rerun your tests, Test Explorer displays the results in groups of **Failed Tests**, **Passed Tests**, and **Not Run Tests**. You can choose **Run All** to run all your tests, or choose **Run...** to choose a subset of tests to run.
+ When you have finished writing a test method, build the test project. The test method appears in the Test Explorer window in the **Not Run Tests** group. As you run, write, and rerun your tests, Test Explorer displays the results in groups of **Failed Tests**, **Passed Tests**, and **Not Run Tests**. You can choose **Run All** to run all your tests, or choose **Run** to choose a subset of tests to run.
 
  The test results bar at the top of the Explorer is animated as your test runs. At the end of the test run, the bar will be green if all of the tests have passed or red if any of the tests have failed. A summary of the test run appears in the details pane at the bottom of the Test Explorer window. Select a test to view the details of that test in the bottom pane.
 

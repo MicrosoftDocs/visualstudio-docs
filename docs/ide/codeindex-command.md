@@ -19,9 +19,9 @@ ms.workload:
 
 Use the **CodeIndex** command to manage code indexing on Team Foundation Server. For example, you might want to reset the index to fix CodeLens information, or turn off indexing to investigate server performance issues.
 
-**Required permissions**
+## Required permissions
 
-To use the **CodeIndex** command, you must be a member of the **Team Foundation Administrators** security group. See [Permissions and groups defined for Team Services and TFS](https://www.visualstudio.com/docs/setup-admin/permissions).
+To use the **CodeIndex** command, you must be a member of the **Team Foundation Administrators** security group. See [Permissions and groups defined for Team Services and TFS](/vsts/organizations/security/permissions?view=vsts).
 
 > [!NOTE]
 > Even if you log on with administrative credentials, you must open an elevated Command Prompt window to run this command. You must also run this command from the application tier for Team Foundation.
@@ -121,4 +121,4 @@ TFSConfig CodeIndex /destroyCodeIndex /collectionName:"Fabrikam Web Site"
 ## See also
 
 - [Find code changes and other history with CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)
-- [Managing server configuration with TFSConfig](/vsts/tfs-server/command-line/tfsconfig-cmd)
+- [Managing server configuration with TFSConfig](/tfs/server/ref/command-line/tfsconfig-cmd)

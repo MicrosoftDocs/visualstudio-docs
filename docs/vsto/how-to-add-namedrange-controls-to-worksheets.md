@@ -31,7 +31,7 @@ ms.workload:
   
 -   [Add NamedRange controls at runtime in a document-level project](#runtimedoclevel)  
   
--   [Add NamedRange controls at runtime in an VSTO Add-in project](#runtimeaddin)  
+-   [Add NamedRange controls at runtime in a VSTO Add-in project](#runtimeaddin)  
   
  For more information about <xref:Microsoft.Office.Tools.Excel.NamedRange> controls, see [NamedRange control](../vsto/namedrange-control.md).  
   
@@ -80,8 +80,8 @@ ms.workload:
      [!code-csharp[Trin_VstcoreHostControlsExcel#3](../vsto/codesnippet/CSharp/Trin_VstcoreHostControlsExcelCS/Sheet1.cs#3)]
      [!code-vb[Trin_VstcoreHostControlsExcel#3](../vsto/codesnippet/VisualBasic/Trin_VstcoreHostControlsExcelVB/Sheet1.vb#3)]  
   
-##  <a name="runtimeaddin"></a> Add NamedRange controls at runtime in an VSTO Add-in project  
- You can add a <xref:Microsoft.Office.Tools.Excel.NamedRange> control programmatically to any open worksheet in an VSTO Add-in project. Dynamically created named ranges are not persisted in the worksheet as host controls when the worksheet is closed. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).  
+##  <a name="runtimeaddin"></a> Add NamedRange controls at runtime in a VSTO Add-in project  
+ You can add a <xref:Microsoft.Office.Tools.Excel.NamedRange> control programmatically to any open worksheet in a VSTO Add-in project. Dynamically created named ranges are not persisted in the worksheet as host controls when the worksheet is closed. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).  
   
 ### To add a NamedRange control to a worksheet programmatically  
   

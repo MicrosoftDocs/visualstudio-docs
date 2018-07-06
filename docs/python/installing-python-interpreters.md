@@ -1,7 +1,7 @@
 ---
 title: Selecting and installing Python interpreters
 description: A complete list of Python interpreters that are supported in Visual Studio with brief instructions on where to find their installers.
-ms.date: 02/20/2018
+ms.date: 06/07/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -21,7 +21,7 @@ You can also manually install any of the interpreters listed in the table below 
 
 For **Visual Studio 2015 and earlier**, you must manually install one of the interpreters.
 
-Visual Studio (all versions) automatically detects each installed Python interpreter and its environment by checking the registry (following [PEP 514 - Python registration in the Windows registry](https://www.python.org/dev/peps/pep-0514/)).
+Visual Studio (all versions) automatically detects each installed Python interpreter and its environment by checking the registry according to [PEP 514 - Python registration in the Windows registry](https://www.python.org/dev/peps/pep-0514/). Python installations are typically found under `HKEY_LOCAL_MACHINE\SOFTWARE\Python` (32-bit) and `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Python` (64-bit), then within nodes for the distribution such as "PythonCore" (CPython) and "ContinuumAnalytics" (Anaconda).
 
 If Visual Studio does not detect an installed environment, see [Manually identify an existing environment](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
 

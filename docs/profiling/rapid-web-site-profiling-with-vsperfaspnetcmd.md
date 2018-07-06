@@ -30,7 +30,7 @@ The **VSPerfASPNETCmd** command-line tool enables you to easily profile [!INCLUD
 To profile an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application, type one of the commands described in the following sections. The Web site is started and the profiler starts to collect data. Exercise your application and then close the browser. To stop profiling, press the **Enter** key in the command prompt window.
 
 > [!NOTE]
-> By default, the command prompt does not return after a **vsperfaspnetcmd** command. You can use the **/nowait** option to force the command prompt to return. See [Use the /NoWait option](#UsingNoWait).
+> By default, the command prompt does not return after a **vsperfaspnetcmd** command. You can use the **/nowait** option to force the command prompt to return. See [Use the /NoWait option](#use-the-nowait-option).
 
 ## To collect application statistics by using the sampling method
  Sampling is the default profiling method of **VSPerfASPNETCmd** tool and does not have to be specified on the command line. The following command line collects application statistics from the specified web application:
@@ -78,7 +78,7 @@ To collect tier interaction data with .NET memory data:
 
 **vsperfaspnetcmd /memory**[**:lifetime**] **/tip***websiteUrl*
 
-## <a name="UsingNoWait"></a> Using the /NoWait option
+## Use the /NoWait option
 
 By default, the command prompt does not return after a **vsperfaspnetcmd** command. You can use the following syntax option to force the command prompt to return. You can then perform other operations in the command prompt window. To end profiling, use the **/shutdown** option in a separate **vsperfaspnetcmd** command.
 

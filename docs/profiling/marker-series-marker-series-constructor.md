@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# marker_series::marker_series Constructor
+# marker_series::marker_series constructor
 Initializes a new instance of the `marker_series` class.  
   
 ## Syntax  
@@ -42,9 +42,9 @@ marker_series(
  The GUID of the series provider.  
   
 ## Requirements  
- **Header:** cvmarkersobj.h  
+ **Header:** *cvmarkersobj.h*  
   
  **Namespace:** Concurrency::diagnostic  
   
-## See Also  
- [marker_series Class](../profiling/marker-series-class.md)
+## See also  
+ [marker_series class](../profiling/marker-series-class.md)

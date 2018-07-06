@@ -36,9 +36,8 @@ This topic describes how to configure the firewall to enable remote debugging on
   
 ## Ports on the remote computer that enable remote debugging  
   
-|||||  
-|-|-|-|-|  
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|   
+|-|-|-|-|  
 |4022|Incoming|TCP|For VS 2017. The port number is incremented by 2 for each Visual Studio version. For more information, see [Visual Studio Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md).|  
 |4023|Incoming|TCP|For VS 2017. The port number is incremented by 2 for each Visual Studio version. (Only used to remote debug a 32-bit process from the 64-bit version of the remote debugger.) For more information, see  [Visual Studio Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md).| 
 |3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|    
@@ -107,9 +106,8 @@ If you are using compatibility mode for the debugger (**Tools > Options > Debugg
 > [!NOTE]
 > The legacy version of the debugger is the Visual Studio 2010 debugger.
   
-|||||  
-|-|-|-|-|  
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|  
+|-|-|-|-|  
 |135, 139, 445|Outgoing|TCP|Required.|  
 |137, 138|Outgoing|UDP|Required.|  
 |500, 4500|Outgoing|UDP|Required if your domain policy requires network communication to be performed through IPSec.|  

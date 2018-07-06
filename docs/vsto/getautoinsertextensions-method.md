@@ -21,7 +21,7 @@ ms.workload:
   
 ## Syntax  
   
-```c  
+```csharp
 HRESULT GetAutoInsertExtensions(  
     [out, retval] SAFEARRAY(BSTR)* psaExtensionNames  
 );  

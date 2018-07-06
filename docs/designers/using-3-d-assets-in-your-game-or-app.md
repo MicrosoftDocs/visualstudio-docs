@@ -139,7 +139,7 @@ struct PixelShaderInput
 
 Depending on the Shader Designer nodes that you use in your shader, you might also have to provide additional data in the format according to these definitions:
 
-```
+```hlsl
 Texture2D Texture1 : register( t0 );
 Texture2D Texture2 : register( t1 );
 Texture2D Texture3 : register( t2 );

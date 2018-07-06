@@ -36,11 +36,11 @@ Design-time T4 text templates let you generate program code and other files in y
 
 1.  Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project, or open an existing one.
 
-     For example, on the **File** menu, choose **New**, **Project**.
+     For example, on the **File** menu, choose **New** > **Project**.
 
 2.  Add a text template file to your project and give it a name that has the extension **.tt**.
 
-     To do this, in **Solution Explorer**, on the shortcut menu of your project, choose **Add**, **New Item**. In the **Add New Item** dialog box select **Text Template** from the middle pane.
+     To do this, in **Solution Explorer**, on the shortcut menu of your project, choose **Add** > **New Item**. In the **Add New Item** dialog box select **Text Template** from the middle pane.
 
      Notice that the **Custom Tool** property of the file is **TextTemplatingFileGenerator**.
 

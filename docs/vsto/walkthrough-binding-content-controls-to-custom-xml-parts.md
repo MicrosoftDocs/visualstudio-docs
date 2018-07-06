@@ -290,7 +290,7 @@ ms.workload:
   
 9. Name the file **EmployeeControls.docx.zip**.  
   
-     The **EmployeeControls.docx** document is saved in the Open XML Format. By renaming this document with the *.zip* file name extension, you can examine the contents of the document. For more information about Open XML, see the technical article [Introducing the Office (2007) Open XML file formats](http://msdn.microsoft.com/en-us/96018532-f62c-4da7-bbff-16b96a483fbf).  
+     The **EmployeeControls.docx** document is saved in the Open XML Format. By renaming this document with the *.zip* file name extension, you can examine the contents of the document. For more information about Open XML, see the technical article [Introducing the Office (2007) Open XML file formats](http://msdn.microsoft.com/96018532-f62c-4da7-bbff-16b96a483fbf).  
   
 10. Open the **EmployeeControls.docx.zip** file.  
   

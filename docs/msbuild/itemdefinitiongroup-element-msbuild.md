@@ -29,7 +29,7 @@ The `ItemDefinitionGroup` element lets you define a set of Item Definitions, whi
 
 ## Syntax  
 
-```  
+```xml  
 <ItemDefinitionGroup Condition="'String A' == 'String B'">  
     <Item1>... </Item1>  
     <Item2>... </Item2>  
