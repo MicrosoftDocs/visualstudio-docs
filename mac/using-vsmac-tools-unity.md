@@ -65,7 +65,7 @@ To add a new C# MonoBehaviour script, **right-click on the Assets folder** or on
 
 ### Add a new Unity shader
 
-To add a new Unity shader, **right-click on the Assets folder** or a subdirectory in the Solution pad and select **Add -> New Shader**.
+To add a new Unity shader, **right-click on the Assets folder** or a subdirectory in the Solution pad and select **Add > New Shader**.
 
 ### Add a new folder
 

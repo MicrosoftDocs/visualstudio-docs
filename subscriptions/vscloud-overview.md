@@ -12,15 +12,13 @@ searchscope: VS Subscription
 ---
 # Buy Visual Studio Professional and Visual Studio Enterprise cloud subscriptions
 
-You can buy [Visual Studio Professional and Visual Studio Enterprise subscriptions](https://visualstudio.microsoft.com/subscriptions/)
-from the [Visual Studio Marketplace](https://marketplace.visualstudio.com). These are what we call cloud subscriptions.
+You can buy [Visual Studio Professional and Visual Studio Enterprise subscriptions](https://visualstudio.microsoft.com/subscriptions/) from the [Visual Studio Marketplace](https://marketplace.visualstudio.com). These are called cloud subscriptions.
 
 [Compare cloud subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/)
 
 ## Before you start
 
-*	To bill your purchases, you'll need an [Azure subscription](https://azure.microsoft.com/pricing/purchase-options/).
-You can [sign up](https://portal.azure.com) before your first purchase or during your first purchase in the Visual Studio Marketplace.
+*	To bill your purchases, you need an [Azure subscription](https://azure.microsoft.com/pricing/purchase-options/). You can [sign up](https://portal.azure.com) before your first purchase or during your first purchase in the Visual Studio Marketplace.
 
 ## How to buy cloud subscriptions
 
@@ -54,16 +52,13 @@ to start downloading software and using other subscriber benefits.
 
 	<img alt="View subscriptions" src="_img/buy-vs-subscriptions/assign-subscriptions.png" style="border: 1px solid #CCCCCC" />
 
-<a name="manage-subscriptions"></a>
-##  Cancel renewals of cloud subscriptions you've purchased
-
+## <a name="manage-subscriptions"></a>Cancel renewals of cloud subscriptions you've purchased
 
 *   To change the number of purchased subscriptions:
 
     <img alt="Change subscriptions" src="_img/buy-vs-subscriptions/manage-subscriptions.png" style="border: 1px solid #CCCCCC" />
 
-*   To cancel these subscriptions, reduce the number of subscriptions to zero (0).
-They won't renew at the start of the next billing period (the first of the next month for monthly cloud subscriptions; 12 months later for annual cloud subscriptions).
+*   To cancel these subscriptions, reduce the number of subscriptions to zero (0). They won't renew at the start of the next billing period (the first of the next month for monthly cloud subscriptions; 12 months later for annual cloud subscriptions).
 
 ## Buy cloud subscriptions now
 

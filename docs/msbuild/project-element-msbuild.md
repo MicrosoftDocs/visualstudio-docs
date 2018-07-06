@@ -27,7 +27,7 @@ Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/i
 
 ## Syntax  
 
-```  
+```xml  
 <Project InitialTargets="TargetA;TargetB"  
          DefaultTargets="TargetC;TargetD"  
          TreatAsLocalProperty="PropertyA;PropertyB"  

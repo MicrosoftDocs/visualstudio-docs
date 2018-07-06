@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 5: Authenticate users in Django
+# Step 5: Authenticate users in Django
 
 **Previous step: [Use the full Django Web Project template](learn-django-in-visual-studio-step-04-full-django-project-template.md)**
 
@@ -28,7 +28,7 @@ In this step you learn:
 
 The following steps exercise the authentication flow and describe the parts of the project that are involved:
 
-1. If you have not already followed the instructions in the `readme.html` file in the project root to create a super user (administrator) account, do so now.
+1. If you've not already followed the instructions in the `readme.html` file in the project root to create a super user (administrator) account, do so now.
 
 1. Run the app from Visual Studio using **Debug** > **Start Debugging** (F5). When the app appears in the browser, observe that **Log in** appears on the upper right of the nav bar.
 
@@ -57,7 +57,7 @@ The following steps exercise the authentication flow and describe the parts of t
     {% endif %}
     ```
 
-1. Because no user is authenticated when you first start the app, this template code renders only the "Log in" link to the relative path "login". As specified in `urls.py` as shown in the previous section, that route is mapped to the `django.contrib.auth.views.login` view that is given the following data:
+1. Because no user is authenticated when you first start the app, this template code renders only the "Log in" link to the relative path "login". As specified in `urls.py` (as shown in the previous section), that route is mapped to the `django.contrib.auth.views.login` view. That view receives the following data:
 
     ```python
     {
@@ -90,7 +90,7 @@ The following steps exercise the authentication flow and describe the parts of t
                                        'placeholder':'Password'}))
     ```
 
-    As you can see, this form class derives from `AuthenticationForm` and specifically overrides the username and password fields to add placeholder text. The Visual Studio template includes this explicit code on the assumption that you'll likely want to customize the form, such as adding password strength validation.
+    As you can see, this form class derives from `AuthenticationForm` and specifically overrides the username and password fields to add placeholder text. The Visual Studio template includes this explicit code on the assumption that you likely want to customize the form, such as adding password strength validation.
 
 1. When you navigate to the login page, then, the app renders the `login.html` template. The variables `{{ form.username }}` and `{{ form.password }}` render the `CharField` forms from `BootstrapAuthenticationForm`. There's also a built-in section to show validation errors, and a ready-made element for social logins if you choose to add those services.
 
@@ -139,13 +139,13 @@ The following steps exercise the authentication flow and describe the parts of t
     {% endblock %}
     ```
 
-1. When you submit the form, Django attempts to authenticate the credentials you provide (such as the super user's credentials). If authentication fails, you remain on the same page but `form.errors` set to true. If authentication is successful, Django navigates to the relative URL in the "next" field, `<input type="hidden" name="next" value="/" />`, which in this case is the home page (`/`).
+1. When you submit the form, Django attempts to authenticate your credentials (such as the super user's credentials). If authentication fails, you remain on the current page but `form.errors` set to true. If authentication is successful, Django navigates to the relative URL in the "next" field, `<input type="hidden" name="next" value="/" />`, which in this case is the home page (`/`).
 
 1. Now, when the home page is rendered again, the `user.is_authenticated` property is true when the `loginpartial.html` template is rendered. As a result, you see a "Hello (username)" message and "Log off". You can use `user.is_authenticated` in other parts of the app to check authentication.
 
     ![Hello message and logoff control on the Django Web Project app page](media/django/step05-logoff-control.png)
 
-1. To check whether the authenticated user is authorized to access specific resources, you'll need to retrieve user-specific permissions from your database for that user. For more details, see [Using the Django authentication system](https://docs.djangoproject.com/en/2.0/topics/auth/default/#permissions-and-authorization) (Django docs).
+1. To check whether the authenticated user is authorized to access specific resources, you need to retrieve user-specific permissions from your database. For more information, see [Using the Django authentication system](https://docs.djangoproject.com/en/2.0/topics/auth/default/#permissions-and-authorization) (Django docs).
 
 1. The super user or administrator, in particular, is authorized to access the built-in Django administrator interfaces using the relative URLs "/admin/" and "/admin/doc/". To enable these interfaces, open the Django project's `urls.py` and remove the comments from the following entries:
 
@@ -195,14 +195,14 @@ The following steps exercise the authentication flow and describe the parts of t
 
 ### Question: what is the purpose of the {% crsf_token %} tag that appears in the \<form\> elements?
 
-Answer: The `{% crsf_token %}` tag includes Django's built-in [cross-site request forgery (crsf) protection](https://docs.djangoproject.com/en/2.0/ref/csrf/) (Django docs). You typically add this tag to any element that involves POST, PUT, or DELETE request methods, such as a form, and the template rendering function (`render`) inserts the necessary protection.
+Answer: The `{% crsf_token %}` tag includes Django's built-in [cross-site request forgery (crsf) protection](https://docs.djangoproject.com/en/2.0/ref/csrf/) (Django docs). You typically add this tag to any element that involves POST, PUT, or DELETE request methods, such as a form. The template rendering function (`render`) then inserts the necessary protection.
 
 ## Next steps
 
 > [!div class="nextstepaction"]
 > [Use the Polls Django Web Project template](learn-django-in-visual-studio-step-06-polls-django-web-project-template.md)
 
-## Going deeper
+## Go deeper
 
 - [User authentication in Django](https://docs.djangoproject.com/en/2.0/topics/auth/) (docs.djangoproject.com)
 - Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django)

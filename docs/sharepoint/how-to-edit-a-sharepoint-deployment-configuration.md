@@ -51,5 +51,5 @@ ms.workload:
 3.  In the **Active Deployment Configuration** list box, choose the name of the deployment configuration that you want to use.  
   
 ## See also
- [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
+ [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
   

@@ -176,7 +176,9 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
   
          You can create your own types, and give them unique names. At run time inside Visual Studio, your code can enumerate and access these custom types through the Extension Manager API.  
   
-    -   Path - the relative path to the file or folder within the package that contains the asset.  
+    -   `Path` - the relative path to the file or folder within the package that contains the asset.  
+    
+    -   `TargetVersion` - the version range in which the given asset applies to. Used for shipping multiple versions of assets to different versions of Visual Studio. Requires Visual Studio 2017.3 or newer to have effect.
   
     -   `AnyAttribute*` - An open-ended set of attributes that'll be exposed at runtime as a name-value pair dictionary.  
   

@@ -13,25 +13,32 @@ author: gewarren
 ---
 # How to: Define and consume activity delegates in the Workflow Designer
 
-.NET Framework 4.5 includes a new out-of-box designer for the <xref:System.Activities.Statements.InvokeDelegate> activity. This designer can be used to assign delegates to the activity that derive from <xref:System.Activities.ActivityDelegate>, such as <xref:System.Activities.ActivityAction> or <xref:System.Activities.ActivityFunc%601>.
+.NET Framework 4.5 includes an out-of-box designer for the <xref:System.Activities.Statements.InvokeDelegate> activity. This designer can be used to assign delegates to the activity that derive from <xref:System.Activities.ActivityDelegate>, such as <xref:System.Activities.ActivityAction> or <xref:System.Activities.ActivityFunc%601>.
 
 ## Define an activity delegate
 
-1.  In Visual Studio, select **File**, **New**, **Project**. Select the **Workflow** node on the left, and the **Workflow Console Application** template on the right. Name the project (if desired) and click **Ok**.
+1.  In Visual Studio, select **File** > **New** > **Project**.
 
-2.  Right-click on the project in **Solution Explorer** and select **Add**, **New Item...**. Select the **Workflow** node on the left, and the **Activity** template on the right. Name the new activity **MyForEach.xaml** and click **Ok**. The activity will open in the workflow designer.
+1. In the **New Project** dialog box, select the **Workflow** category on the left, and then select the **Workflow Console Application** project template. Name the project (if desired) and click **Ok**.
 
-3.  In the workflow designer, click the **Arguments** tab.
+   > [!NOTE]
+   > If you don't see the **Workflow** category, first install the **Windows Workflow Foundation** component of Visual Studio 2017. For detailed instructions, see [Install Windows Workflow Foundation](developing-applications-with-the-workflow-designer.md#install-windows-workflow-foundation).
+
+2.  Right-click on the project in **Solution Explorer** and select **Add** > **New Item**. Select the **Workflow** category, and then select the **Activity** item template. Name the new activity **MyForEach.xaml** and then select **OK**.
+
+   The activity opens in the workflow designer.
+
+3.  In the Workflow Designer, click the **Arguments** tab.
 
 4.  Click **Create Argument**. Name the new argument **Items**.
 
 5.  In the **Argument type** column, select **Array of [T]**.
 
-6.  In the type browser, select  **Object**. Click **Ok**.
+6.  In the type browser, select **Object** and then select **OK**.
 
 7.  Click **Create Argument** again. Name the new argument **Body**. In the **Direction** column for the new argument, select **Property**.
 
-8.  In the Argument Type column, select **Browse for types...**
+8.  In the Argument Type column, select **Browse for types**
 
 9. In the type browser, enter **ActivityAction** in the **Type Name** field. Select **ActivityAction\<T>** in the tree view. Select **Object** in the dropdown that appears to assign the type **ActivityAction\<Object>** to the argument.
 
@@ -53,19 +60,19 @@ author: gewarren
 
 18. In the **Value** column of the argument named **Argument**, enter **Items[Index]**. Click **Ok** to close the **DelegateArguments** dialog.
 
-19. Drag an <xref:System.Activities.Statements.Assign> activity onto the horizontal line underneath the <xref:System.Activities.Statements.InvokeDelegate> activity. The  <xref:System.Activities.Statements.Assign> activity will be created, and a <xref:System.Activities.Statements.Sequence> activity will be created automatically to contain the two activities in the **Body** section of the **MyForEach** activity. The sequence is needed since the **Body** section can only contain a single activity. Automatically creating a new <xref:System.Activities.Statements.Sequence> activity is a new feature of .NET Framework 4.5.
+19. Drag an <xref:System.Activities.Statements.Assign> activity onto the horizontal line underneath the <xref:System.Activities.Statements.InvokeDelegate> activity. The  <xref:System.Activities.Statements.Assign> activity is created, and a <xref:System.Activities.Statements.Sequence> activity is created automatically to contain the two activities in the **Body** section of the **MyForEach** activity. The sequence is needed since the **Body** section can only contain a single activity. Automatically creating a new <xref:System.Activities.Statements.Sequence> activity is a new feature of .NET Framework 4.5.
 
 20. Set the **To** property of the <xref:System.Activities.Statements.Assign> activity to **index**. Set the **Value** property of the **Assign** activity to **index+1**.
 
- The custom **MyForEach** activity will now invoke an arbitrary activity once for each value passed into it through the **Items** collection, with the values in the collection as inputs for the activity.
+   The custom **MyForEach** activity invokes an arbitrary activity once for each value passed into it through the **Items** collection, with the values in the collection as inputs for the activity.
 
 ## Use the custom activity in a workflow
 
-1.  Build the project by pressing **Ctrl+Shift+B**.
+1.  Build the project by pressing **Ctrl**+**Shift**+**B**.
 
 2.  In **Solution Explorer**, open **Workflow1.xaml** in the designer.
 
-3.  Drag a **MyForEach** activity from the toolbox to the designer surface. The activity will be in a section of the toolbox with the same name as the project.
+3.  Drag a **MyForEach** activity from the toolbox to the designer surface. The activity is in a section of the toolbox with the same name as the project.
 
 4.  Set the **Items** property of the **MyForEach** activity to **new Object[] {1, "abc"}**.
 
@@ -73,7 +80,7 @@ author: gewarren
 
 6.  Set the **Text** property of the <xref:System.Activities.Statements.WriteLine> activity to **Argument.ToString()**.
 
-When the workflow is executed, the console shows the following:
+When the workflow is executed, the console shows the following output:
 
 **1**
 **abc**

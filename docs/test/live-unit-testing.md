@@ -151,7 +151,7 @@ There are some differences between Live Unit Testing automatically running and u
 
 ## Live Unit Testing and large solutions
 
-If your solution has 10 or more projects, when you start Live Unit Testing and there is no persisted data, or when you select the **Test**, **Live Unit Testing**, **Reset Clean** option from the top-level Visual Studio menu, Visual Studio displays the following dialog to warn you that dynamic execution of large numbers of tests in large projects can severely impact performance. If you select **OK**, Live Unit Testing executes all texts in the solution. If you select **Cancel**, you can select the tests to execute. For information on how to do this, see the following section, [Including and excluding test projects and test methods](#including-and-excluding-test-projects-and-test-methods).
+If your solution has 10 or more projects, when you start Live Unit Testing and there is no persisted data, or when you select the **Test**, **Live Unit Testing**, **Reset Clean** option from the top-level Visual Studio menu, Visual Studio displays the following dialog to warn you that dynamic execution of large numbers of tests in large projects can severely impact performance. If you select **OK**, Live Unit Testing executes all tests in the solution. If you select **Cancel**, you can select the tests to execute. For information on how to do this, see the following section, [Including and excluding test projects and test methods](#including-and-excluding-test-projects-and-test-methods).
 
  ![Live Unit Testing dialog for large projects](media/lut-large-project.png)
 

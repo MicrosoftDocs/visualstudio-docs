@@ -30,9 +30,7 @@ This error occurs when the IIS Admin Service does not respond. This usually indi
   
 -   Remove IIS from your machine, using the Add or Remove Programs control panel. If you have removed IIS and still have problems, check the registry and make sure this key no longer exists:  
   
-    ```  
-    HKEY_CLASSES_ROOT\CLSID\{A9E69610-B80D-11D0-B9B9-00A0C922E750}  
-    ```  
+    `HKEY_CLASSES_ROOT\CLSID\{A9E69610-B80D-11D0-B9B9-00A0C922E750}`  
   
      -or-  
   
