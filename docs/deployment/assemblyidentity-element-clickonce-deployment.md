@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;assemblyIdentity&gt; Element (ClickOnce Deployment)
+# &lt;assemblyIdentity&gt; element (ClickOnce deployment)
 Identifies the primary assembly of the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.  
   
 ## Syntax  
@@ -35,7 +35,7 @@ Identifies the primary assembly of the [!INCLUDE[ndptecclick](../deployment/incl
 />  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `assemblyIdentity` element is required. It contains no child elements and has the following attributes.  
   
 |Attribute|Description|  
@@ -49,7 +49,7 @@ Identifies the primary assembly of the [!INCLUDE[ndptecclick](../deployment/incl
 ## Remarks  
   
 ## Example  
- The following code example illustrates an `assemblyIdentity` element in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest. This code example is part of a larger example provided for the [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md) topic.  
+ The following code example illustrates an `assemblyIdentity` element in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest. This code example is part of a larger example provided for the [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md) topic.  
   
 ```  
 <!-- Identify the deployment. -->  
@@ -62,6 +62,6 @@ Identifies the primary assembly of the [!INCLUDE[ndptecclick](../deployment/incl
   xmlns="urn:schemas-microsoft-com:asm.v1" />  
 ```  
   
-## See Also  
- [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)   
- [\<assemblyIdentity> Element](../deployment/assemblyidentity-element-clickonce-application.md)
+## See also  
+ [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)   
+ [\<assemblyIdentity> element](../deployment/assemblyidentity-element-clickonce-application.md)

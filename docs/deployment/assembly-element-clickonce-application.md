@@ -31,7 +31,7 @@ The top-level element for the application manifest.
 />  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `assembly` element is the root element and is required. Its first contained element must be an `assemblyIdentity` element. The manifest elements must be in one of the following namespaces:  
   
  `urn:schemas-microsoft-com:asm.v1`  
@@ -49,7 +49,7 @@ The top-level element for the application manifest.
 |`manifestVersion`|Required. The `manifestVersion` attribute must be set to `1.0`.|  
   
 ## Example  
- The following code example illustrates an `assembly` element in an application manifest for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. This code example is part of a larger example provided in [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md).  
+ The following code example illustrates an `assembly` element in an application manifest for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. This code example is part of a larger example provided in [ClickOnce application manifest](../deployment/clickonce-application-manifest.md).  
   
 ```  
 <asmv1:assembly   
@@ -66,5 +66,5 @@ The top-level element for the application manifest.
 ```  
   
 ## See also  
- [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)   
- [\<assembly> Element](../deployment/assembly-element-clickonce-deployment.md)
+ [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)   
+ [\<assembly> element](../deployment/assembly-element-clickonce-deployment.md)
