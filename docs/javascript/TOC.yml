@@ -3,8 +3,6 @@
   items:
   - name: Create a Node.js project
     href: /visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json
-  - name: Create a Vue.js project
-    href: quickstart-vuejs-with-nodejs.md
 - name: Tutorials
   items:
   - name: Create a Node.js app with Express
@@ -15,18 +13,14 @@
     href: publish-nodejs-app-to-azure.md
 - name: How-to Guides
   items:
-  - name: Create a Vue.js app
-    href: create-application-using-vuejs.md
   - name: Manage npm packages
     href: npm-package-management.md
   - name: Develop without projects or solutions ("Open Folder")
     href: develop-javascript-code-without-solutions-or-projects.md
   - name: Unit testing JavaScript code
     href: unit-testing-javascript-in-visual-studio.md
-- name: Reference
-  items:
   - name: JavaScript IntelliSense
-    href: /visualstudio/ide/javascript-intellisense.md
+    href: /visualstudio/ide/javascript-intellisense?toc=/visualstudio/javascript/toc.json
 - name: Resources
   items:
   - name: Wiki page for Node.js tools
