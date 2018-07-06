@@ -5,7 +5,8 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "file.openproject"
+  - file.openproject
+  - file.opensolution
 helpviewer_keywords:
   - "op command"
   - "File.OpenProject command"
