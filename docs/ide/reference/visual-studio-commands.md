@@ -55,7 +55,6 @@ Visual Studio commands allow you to invoke a command from the **Command** window
 |[New File](../../ide/reference/new-file-command.md)|Creates a new file and adds it to the currently selected project.|
 |[Open File](../../ide/reference/open-file-command.md)|Opens an existing file and allows you to specify an editor.|
 |[Open Project](../../ide/reference/open-project-command.md)|Opens an existing project and allows you to add the project to the current solution.|
-|[Open Solution](../../ide/reference/open-solution-command.md)|Opens an existing solution.|
 |[Print](../../ide/reference/print-command.md)|Evaluates the expression and displays the results or the specified text.|
 |[Quick Watch Command](../../ide/reference/quick-watch-command.md)|Displays the selected or specified text in the **Expression** field of the **Quick Watch** dialog box.|
 |[Replace](../../ide/reference/replace-command.md)|Replaces text in files using a subset of the options available on the **Find and Replace** control.|
