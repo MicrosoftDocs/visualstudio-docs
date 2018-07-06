@@ -20,21 +20,21 @@ The latest version of this topic can be found at [Visual Studio IDE Documentatio
 
 Microsoft Visual Studio 2015 is a suite of tools for creating software, from the planning phase through UI design, coding, testing, debugging, analyzing code quality and performance, deploying to customers, and gathering telemetry on usage. These tools are designed to work together as seamlessly as possible, and are all exposed through the Visual Studio Integrated Development Environment (IDE).
 
- You can use Visual Studio to create many kinds of applications, from simple store apps and games for mobile clients, to large, complex systems that power enterprises and data centers. You can create
+You can use Visual Studio to create many kinds of applications, from simple store apps and games for mobile clients, to large, complex systems that power enterprises and data centers. You can create:
 
-1.  apps and games that run not only on Windows, but also Android and iOS.
+- Apps and games that run not only on Windows, but also Android and iOS.
 
-2.  websites and web services based on ASP.NET, JQuery, AngularJS, and other popular frameworks
+- Websites and web services based on ASP.NET, JQuery, AngularJS, and other popular frameworks.
 
-3.  applications for platforms and devices as diverse as Azure, Office, Sharepoint, Hololens, Kinect, and Internet of Things, to name just a few examples
+- Applications for platforms and devices as diverse as Azure, Office, Sharepoint, Hololens, Kinect, and Internet of Things, to name just a few examples.
 
-4.  games and graphics-intensive applications for a variety of Windows devices, including Xbox, using DirectX.
+- Games and graphics-intensive applications for a variety of Windows devices, including Xbox, using DirectX.
 
- Visual Studio by default provides support for C#, C and C++, JavaScript, F#, and Visual Basic. Visual Studio works and integrates well with third-party applications like Unity through the [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) extension and Apache Cordova through [Visual Studio Tools for Apache Cordova](http://msdn.microsoft.com/library/db446f2c-6ba4-4c76-aac5-4c66f43b8c42). You can extend Visual Studio yourself by creating custom tools that perform specialized tasks.
+Visual Studio by default provides support for C#, C and C++, JavaScript, F#, and Visual Basic. Visual Studio works and integrates well with third-party applications like Unity through the [Visual Studio Tools for Unity](../cross-platform/visual-studio-tools-for-unity.md) extension and Apache Cordova through [Visual Studio Tools for Apache Cordova](http://msdn.microsoft.com/library/db446f2c-6ba4-4c76-aac5-4c66f43b8c42). You can extend Visual Studio yourself by creating custom tools that perform specialized tasks.
 
- If you’ve never used Visual Studio before, learn the basics with our [Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md) tutorials and walkthroughs.
+If you’ve never used Visual Studio before, learn the basics with our [Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md) tutorials and walkthroughs.
 
- If you want to find out about new features in Visual Studio 2015, see [What's New in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md).
+If you want to find out about new features in Visual Studio 2015, see [What's New in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md).
 
 ## Visual Studio Setup
  You can find out which edition of Visual Studio is right for you at [Visual Studio Editions](http://www.visualstudio.com/products/visual-studio-with-msdn-overview-vs).
