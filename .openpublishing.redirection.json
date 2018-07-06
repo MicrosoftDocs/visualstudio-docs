@@ -1595,16 +1595,6 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/nodejs/tutorial-nodejs-with-react-and-jsx.md",
-            "redirect_url": "/visualstudio/javascript/tutorial-nodejs-with-react-and-jsx",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "docs/nodejs/tutorial-nodejs.md",
-            "redirect_url": "/visualstudio/javascript/tutorial-nodejs",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "docs/profiling/profiling-tools.md",
             "redirect_url": "/visualstudio/profiling/profiling-feature-tour",
             "redirect_document_id": false
