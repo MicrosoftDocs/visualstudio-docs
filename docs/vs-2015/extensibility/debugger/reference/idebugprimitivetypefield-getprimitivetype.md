@@ -40,7 +40,7 @@ int GetPrimitiveType (
   
 #### Parameters  
  `pdwType`  
- [out] Value from the [CorElementType Enumeration](CorElementType%20Enumeration.xml) that represents the primitive type.  
+ [out] Value from the [CorElementType Enumeration](/dotnet/framework/unmanaged-api/metadata/corelementtype-enumeration) that represents the primitive type.  
   
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns `S_FALSE`.  

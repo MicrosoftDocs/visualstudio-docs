@@ -37,7 +37,7 @@ The **Autos** window (while debugging, **CTRL+ALT+V, A**, or **Debug / Windows /
  If you need more information about basic debugging, see [Getting Started with the Debugger](../debugger/getting-started-with-the-debugger.md).  
   
 ## Looking at objects in the Autos and Locals windows  
- Arrays and objects are displayed in the Autos and Locals windows as tree controls. Click on the arrow to the left of the variable name to expand the view to show fields and properties. Here is an example of a [FileStream](../Topic/FileStream%20Class.md) object in the **Locals** window:  
+ Arrays and objects are displayed in the Autos and Locals windows as tree controls. Click on the arrow to the left of the variable name to expand the view to show fields and properties. Here is an example of a <xref:System.IO.FileStream> object in the **Locals** window:  
   
  ![Locals&#45;FileStream](../debugger/media/locals-filestream.png "Locals-FileStream")  
   
