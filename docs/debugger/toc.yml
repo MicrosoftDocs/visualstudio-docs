@@ -24,6 +24,8 @@
     href: how-to-debug-managed-and-native-code.md
   - name: View snapshots using IntelliTrace step-back
     href: how-to-use-intellitrace-step-back.md
+  - name: Debugging for absolute beginners
+    href: debugging-absolute-beginners.md
 - name: How-to guides
   items:
   - name: Navigate through code with the debugger
@@ -824,5 +826,3 @@
   items:
   - name: What's new for the debugger in Visual Studio
     href: what-s-new-for-the-debugger-in-visual-studio.md
-  - name: Debugging for absolute beginners
-    href: debugging-absolute-beginners.md

@@ -23,7 +23,7 @@ Two private data members are used to associate this class to the window resource
 
 -   The member `bookList` is initialized in the constructor to the CDATA string in L2DBForm.xaml with the following line:
 
-    ```
+    ```csharp
     bookList = (XElement)((ObjectDataProvider)Resources["LoadedBooks"]).Data;
     ```
 
@@ -45,13 +45,13 @@ However the core work of removing the selected book item is accomplished by only
 
 -   First, the book element associated with the currently selected item in the list box is retrieved:
 
-    ```
+    ```csharp
     XElement selBook = (XElement)lbBooks.SelectedItem;
     ```
 
 -   Then, this element is deleted from the data provider:
 
-    ```
+    ```csharp
     selBook.Remove();
     ```
 
