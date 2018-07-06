@@ -7,9 +7,6 @@ ms.topic: reference
 f1_keywords:
   - "vs.toolbox.general"
   - "vs.toolbox"
-  - VS.CHOOSEITEMS.FrameworkComponents
-  - VS.CHOOSEITEMS.COMComponents
-  - VS.CHOOSEITEMS.UniversalWindowsComponents
 helpviewer_keywords:
   - "Toolbox [Visual Studio]"
   - "custom controls [Visual Studio]"
