@@ -6,9 +6,9 @@
 - name: Tutorials
   items:
   - name: Create a Node.js app with Express
-    href: tutorial-nodejs.md
+    href: /visualstudio/nodejs/tutorial-nodejs?toc=/visualstudio/javascript/toc.json
   - name: Create a Node.js app with React
-    href: tutorial-nodejs-with-react-and-jsx.md
+    href: /visualstudio/nodejs/tutorial-nodejs-with-react-and-jsx?toc=/visualstudio/javascript/toc.json
   - name: Publish to Linux App Service
     href: publish-nodejs-app-to-azure.md
 - name: How-to Guides
