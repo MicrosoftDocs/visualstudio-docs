@@ -1140,7 +1140,7 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "ide/reference/open-solution-command.md",
+            "source_path": "docs/ide/reference/open-solution-command.md",
             "redirect_url": "/visualstudio/ide/reference/open-file-command",
             "redirect_document_id": false
         },
