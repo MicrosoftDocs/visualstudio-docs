@@ -92,7 +92,7 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
   
 2.  Click in the left margin at the instruction that you want to break at, or set your cursor at the instruction and press **F9**.  
   
-## Setting a Data Breakpoint (native C++ only)  
+## <a name="data_breakpoint_c"></a> Setting a Data Breakpoint (native C++ only)  
  Data breakpoints break execution when a value that is stored at a specified memory address changes. If the value is read but not changed, execution doesn't break. To set data breakpoints, the debugger must be in break mode.  
   
 1.  Start debugging the application, and wait until a breakpoint is reached. On the **Debug** menu, choose **New Breakpoint / Data Breakpoint** (or open the **Breakpoints** window and choose **New / Data Breakpoint**.  
