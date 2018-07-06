@@ -952,8 +952,6 @@
       href: ide/reference/open-file-command.md
     - name: Open Project Command
       href: ide/reference/open-project-command.md
-    - name: Open Solution Command
-      href: ide/reference/open-solution-command.md
     - name: Print Command
       href: ide/reference/print-command.md
     - name: Quick Watch Command
