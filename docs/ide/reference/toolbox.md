@@ -34,7 +34,7 @@ Toolbox appears in conjunction with designer views, such as the designer view of
 
 The .NET Framework version that your project targets also affects the set of controls visible in Toolbox. You can set your project to target a different version of the .NET Framework from the project's property pages. Select the project node in **Solution Explorer**, and then on the menu bar, choose **Project** > **projectname Properties**. On the **Application** tab, use the **Target framework** drop-down.
 
-## Manage the **Toolbox** window and its controls
+## Manage the Toolbox window and its controls
 
 By default **Toolbox** is collapsed along the left side of the Visual Studio IDE, and appears when the cursor is moved over it. You can pin **Toolbox** (by clicking the **Pin** icon on its toolbar) so that it remains open when you move the cursor. You can also undock the **Toolbox** window and drag it anywhere on your screen. You can dock, undock, and hide **Toolbox** by right-clicking its toolbar and selecting one of the options.
 
