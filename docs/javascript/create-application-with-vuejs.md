@@ -19,10 +19,10 @@ ms.workload:
 
 Visual Studio 2017 includes improved support for the [Vue.js](https://vuejs.org/) framework, which improves the development experience when creating an application with Vue.js, JavaScript and TypeScript.
 
-New features that support Vue.js application development in Visual Studio include the following:
+The following new features support Vue.js application development in Visual Studio:
 
-* Support for Script, Style and Template blocks in .*vue* files
-* Recognition of the lang attribute on .*vue* files
+* Support for Script, Style, and Template blocks in *.vue* files
+* Recognition of the `lang` attribute on *.vue* files
 * Vue.js project and file templates
 
 ## Prerequisites
@@ -40,11 +40,11 @@ New features that support Vue.js application development in Visual Studio includ
 
 * You must have the Node.js runtime installed.
 
-    If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
+    If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page. (After you create a project, right-click the project node and choose **Properties**).
 
 ## Create a Vue.js project using a template
 
-You can use the new Vue.js templates to create a new project. This is the easiest way to get started. For detailed steps, see [Use Visual Studio to create your first Vue.js app](../javascript/quickstart-vuejs-with-nodejs.md).
+You can use the new Vue.js templates to create a new project. Use of the template is the easiest way to get started. For detailed steps, see [Use Visual Studio to create your first Vue.js app](../javascript/quickstart-vuejs-with-nodejs.md).
 
 ## Create a Vue.js project with ASP.NET Core and the Vue CLI
 
@@ -55,7 +55,7 @@ Vue.js provides an official CLI for quickly scaffolding projects. If you would l
 
 ### Create a new ASP.NET Core project
 
-For this example, we use an empty ASP.NET Core Application (C#), but you can choose from a variety of projects and languages of your choice.
+For this example, you use an empty ASP.NET Core Application (C#). However, you can choose from a variety of projects and programming languages.
 
 #### Create an Empty project
 
@@ -121,11 +121,11 @@ These steps require vue-cli 3.0, which is currently in beta.
 
 1. Go to your command prompt and change the current directory to the project root folder.
 
-1. Type `vue create ClientApp` and choose **Manually select features**.
+1. Type `vue create ClientApp`, and then choose **Manually select features**.
 
-1. Choose **Typescript** and any other options desired.
+1. Choose **Typescript**, and then select other desired options.
 
-1. Follow the remaining steps and answer questions where indicated.
+1. Follow the remaining steps and respond to the questions.
 
 #### Configure a Vue.js project for TypeScript
 
@@ -148,17 +148,18 @@ These steps require vue-cli 3.0, which is currently in beta.
     };
     ```
 
-    The preceding code configures webpack and set the wwwroot folder.
+    The preceding code configures webpack and sets the wwwroot folder.
 
 #### Build with vue-cli 3.0
-There is an unknown issue with the vue-cli 3.0 that prevents automating the build process. Everytime you wish to refresh the wwwroot folder you will need to run the command `npm run build` on the ClientApp folder.
+
+An unknown issue with the vue-cli 3.0 prevents automating the build process. Each time that you try to refresh the wwwroot folder, you need to run the command `npm run build` on the ClientApp folder.
 
 ## Limitations
 
-* Lang attribute only supports JavaScript and TypeScript languages. The accepted values are: js, jsx, ts and tsx.
-* Lang attribute doesn't work with template or style tags.
-* Debugging script blocks in .*vue* files is not supported due to its preprocessed nature.
-* TypeScript doesn't recognize .*vue* files as modules. You need a file that contains code such as the following code to tell TypeScript what .*vue* files look like (vue-cli 3.0 template already includes this file).
+* `lang` attribute only supports JavaScript and TypeScript languages. The accepted values are: js, jsx, ts, and tsx.
+* `lang` attribute doesn't work with template or style tags.
+* Debugging script blocks in *.vue* files isn't supported due to its preprocessed nature.
+* TypeScript doesn't recognize *.vue* files as modules. You need a file that contains code such as the following to tell TypeScript what *.vue* files look like (vue-cli 3.0 template already includes this file).
 
     ```js
     // ./ClientApp/vue-shims.d.ts
