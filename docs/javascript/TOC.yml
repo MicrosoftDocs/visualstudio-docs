@@ -3,7 +3,7 @@
   items:
   - name: Create a Node.js project
     href: /visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json
-      - name: Create a Vue.js project
+  - name: Create a Vue.js project
     href: /visualstudio/ide/quickstart-vuejs-with-nodejs.md
 - name: Tutorials
   items:
