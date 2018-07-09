@@ -85,7 +85,7 @@ The Microsoft Mixed Minimum Rules focus on the most critical problems in your C+
 |[C28210](../code-quality/c28210.md)|Annotations for the __on_failure context must not be in explicit pre context|
 |[C28211](../code-quality/c28211.md)|Static context name expected for SAL_context|
 |[C28212](../code-quality/c28212.md)|Pointer expression expected for annotation|
-|[C28213](../code-quality/c28213.md)|The \_Use\_decl_annotations\_ annotation must be used to reference, without modification, a prior declaration.|
+|[C28213](../code-quality/c28213.md)|The \_Use\_decl\_annotations\_ annotation must be used to reference, without modification, a prior declaration.|
 |[C28214](../code-quality/c28214.md)|Attribute parameter names must be p1...p9|
 |[C28215](../code-quality/c28215.md)|The typefix cannot be applied to a parameter that already has a typefix|
 |[C28216](../code-quality/c28216.md)|The checkReturn annotation only applies to postconditions for the specific function parameter.|
