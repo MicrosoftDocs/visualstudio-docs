@@ -92,7 +92,7 @@ In XAML Designer, a *shape* is exactly what you'd expect. For example: a rectang
 ##  <a name="Convert"></a> Convert a shape to a path
  To modify a shape in the same ways that you modify a path, convert the shape to a path.
 
- **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.png) [Working with paths: Convert a shape to a path](https://www.youtube.com/watch?v=Io5bC0-nH6Q#t=147).
+ **Watch a short video:** ![Configure installed features](../designers/media/bldadminconsoleinitialconfigicon.png) [Working with paths: Convert a shape to a path](https://www.youtube.com/watch?v=Io5bC0-nH6Q#t=147).
 
 ##  <a name="Combine"></a> Combine paths
  You can combine paths and shapes into a single path.
@@ -105,7 +105,7 @@ In XAML Designer, a *shape* is exactly what you'd expect. For example: a rectang
 |![Exclude overlap](../designers/media/b1_2.png)|Unite|![](../designers/media/b1_5.png)|Exclude Overlap|
 |![Subtract](../designers/media/b1_3.png)|Divide|![](../designers/media/b1_6.png)|Subtract|
 
- **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.png) [Working with paths: Combine paths](https://www.youtube.com/watch?v=Io5bC0-nH6Q#t=195).
+ **Watch a short video:** ![Configure installed features](../designers/media/bldadminconsoleinitialconfigicon.png) [Working with paths: Combine paths](https://www.youtube.com/watch?v=Io5bC0-nH6Q#t=195).
 
 ##  <a name="Compound"></a> Create a compound path
  When you create a compound path, any intersecting parts of the paths are subtracted from the result, and the resulting path takes on the visual properties of the bottommost path.
@@ -114,14 +114,14 @@ In XAML Designer, a *shape* is exactly what you'd expect. For example: a rectang
 
  ![Break a compound path](../designers/media/2157a8aa-d9a7-4de4-8de5-b10d28f08a84.png)
 
- **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.png) [Working with paths: Create a compound path](https://www.youtube.com/watch?v=Io5bC0-nH6Q).
+ **Watch a short video:** ![Configure installed features](../designers/media/bldadminconsoleinitialconfigicon.png) [Working with paths: Create a compound path](https://www.youtube.com/watch?v=Io5bC0-nH6Q).
 
 ##  <a name="Clipping"></a> Create a clipping path
  A clipping path is a path or shape that is applied to another object, hiding the parts of the masked object that fall outside the clipping path.
 
  ![Clipping path](../designers/media/22471e98-a841-4f39-a3ef-36090cf5a625.png)
 
- **Watch a short video:** ![Configure Installed Features](../designers/media/bldadminconsoleinitialconfigicon.png) [Working with paths: Create a clipping path](https://www.youtube.com/watch?v=Io5bC0-nH6Q#t=232).
+ **Watch a short video:** ![Configure installed features](../designers/media/bldadminconsoleinitialconfigicon.png) [Working with paths: Create a clipping path](https://www.youtube.com/watch?v=Io5bC0-nH6Q#t=232).
 
 ## See also
 

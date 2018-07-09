@@ -1140,6 +1140,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/ide/reference/open-solution-command.md",
+            "redirect_url": "/visualstudio/ide/reference/open-project-command",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/ide/reference/resetaddin-devenv-exe.md",
             "redirect_url": "/visualstudio/ide/reference/devenv-command-line-switches",
             "redirect_document_id": false

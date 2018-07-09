@@ -20,10 +20,10 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# FileClassifier Task
+# FileClassifier task
 The <xref:Microsoft.Build.Tasks.Windows.FileClassifier> task classifies a set of source resources as those that will be embedded into an assembly. If a resource is not localizable, it is embedded into the main application assembly; otherwise, it is embedded into a satellite assembly.  
   
-## Task Parameters  
+## Task parameters  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -59,9 +59,9 @@ The <xref:Microsoft.Build.Tasks.Windows.FileClassifier> task classifies a set of
 </Project>  
 ```  
   
-## See Also  
- [WPF MSBuild Reference](../msbuild/wpf-msbuild-reference.md)   
- [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
- [MSBuild Reference](../msbuild/msbuild-reference.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Building a WPF Application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)
+## See also  
+ [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)   
+ [Task reference](../msbuild/wpf-msbuild-task-reference.md)   
+ [MSBuild reference](../msbuild/msbuild-reference.md)   
+ [Task reference](../msbuild/msbuild-task-reference.md)   
+ [Building a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)

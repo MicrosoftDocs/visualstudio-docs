@@ -22,7 +22,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# GenerateApplicationManifest Task
+# GenerateApplicationManifest task
 Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest or a native manifest. A native manifest describes a component by defining a unique identity for the component and identifying all assemblies and files that make up the component. A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest extends a native manifest by indicating the entry point of the application, and specifying the application security level.  
   
 ## Parameters  
@@ -34,14 +34,14 @@ Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] ap
 |`AssemblyVersion`|Optional `String` parameter.<br /><br /> Specifies the `Version` field of the assembly identity for the generated manifest. If this parameter is not specified, a default value of "1.0.0.0" is used.|  
 |`ClrVersion`|Optional `String` parameter.<br /><br /> Specifies the minimum version of the Common Language Runtime (CLR) required by the application. The default value is the CLR version in use by the build system. If the task is generating a native manifest, this parameter is ignored.|  
 |`ConfigFile`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies which item contains the application configuration file. If the task is generating a native manifest, this parameter is ignored.|  
-|`Dependencies`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies an item list that defines the set of dependent assemblies for the generated manifest. Each item may be further described by item metadata to indicate additional deployment state and the type of dependence. For more information, see the "Item Metadata" section below.|  
+|`Dependencies`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies an item list that defines the set of dependent assemblies for the generated manifest. Each item may be further described by item metadata to indicate additional deployment state and the type of dependence. For more information, see [Item metadata](#item-metadata).|  
 |`Description`|Optional `String` parameter.<br /><br /> Specifies the description for the application or component.|  
 |`EntryPoint`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies a single item that indicates the entry point for the generated manifest assembly.<br /><br /> For a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest, this parameter specifies the assembly that starts when the application is run.|  
-|`ErrorReportUrl`|Optional <xref:System.String?displayProperty=fullName> parameter.<br /><br /> Specifies the URL of the Web page that is displayed in dialog boxes during error reports in ClickOnce installations.|  
+|`ErrorReportUrl`|Optional <xref:System.String?displayProperty=fullName> parameter.<br /><br /> Specifies the URL of the web page that is displayed in dialog boxes during error reports in ClickOnce installations.|  
 |`FileAssociations`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies a list of one or more file type that are associated with the ClickOnce deployment manifest.<br /><br /> File associations only valid only when .NET Framework 3.5 or later is targeted.|  
 |`Files`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> The files to include in the manifest. Specify the full path for each file.|  
 |`HostInBrowser`|Optional <xref:System.Boolean> parameter.<br /><br /> If `true`, the application is hosted in a browser (as are WPF Web Browser Applications).|  
-|`IconFile`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Indicates the application icon file. The application icon is expressed in the generated application manifest and is used for the Start Menu and Add/Remove Programs dialog. If this input is not specified, a default icon is used. If the task is generating a native manifest, this parameter is ignored.|  
+|`IconFile`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Indicates the application icon file. The application icon is expressed in the generated application manifest and is used for the **Start Menu** and **Add/Remove Programs** dialog. If this input is not specified, a default icon is used. If the task is generating a native manifest, this parameter is ignored.|  
 |`InputManifest`|Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Indicates an input XML document to serve as a base for the manifest generator. This allows structured data such as application security or custom manifest definitions to be reflected in the output manifest. The root element in the XML document must be an assembly node in the asmv1 namespace.|  
 |`IsolatedComReferences`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies COM components to isolate in the generated manifest. This parameter supports the ability to isolate COM components for "Registration Free COM" deployment. It works by auto-generating a manifest with standard COM registration definitions. However, the COM components must be registered on the build machine in order for this to function properly.|  
 |`ManifestType`|Optional `String` parameter.<br /><br /> Specifies which type of manifest to generate. This parameter can have the following values:<br /><br /> -   `Native`<br />-   `ClickOnce`<br /><br /> If this parameter is not specified, the task defaults to `ClickOnce`.|  
@@ -49,8 +49,8 @@ Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] ap
 |`OSVersion`|Optional `String` parameter.<br /><br /> Specifies the minimum required operating system (OS) version required by the application. For example, the value "5.1.2600.0" indicates the operating system is Windows XP. If this parameter is not specified, the value "4.10.0.0" is used, which indicates Windows 98 Second Edition, the minimum supported OS of the .NET Framework. If the task is generating a native manifest, this input is ignored.|  
 |`OutputManifest`|Optional <xref:Microsoft.Build.Framework.ITaskItem> output parameter.<br /><br /> Specifies the name of the generated output manifest file. If this parameter is not specified, the name of the output file is inferred from the identity of the generated manifest.|  
 |`Platform`|Optional `String` parameter.<br /><br /> Specifies the target platform of the application. This parameter can have the following values:<br /><br /> -   `AnyCPU`<br />-   `x86`<br />-   `x64`<br />-   `Itanium`<br /><br /> If this parameter is not specified, the task defaults to `AnyCPU`.|  
-|`Product`|Optional `String` parameter.<br /><br /> Specifies the name of the application. If this parameter is not specified, the name is inferred from the identity of the generated manifest. This name is used for the shortcut name on the Start menu and is part of the name that appears in the Add or Remove Programs dialog box.|  
-|`Publisher`|Optional `String` parameter.<br /><br /> Specifies the publisher of the application. If this parameter is not specified, the name is inferred from the registered user, or the identity of the generated manifest. This name is used for the folder name on the Start menu and is part of the name that appears in the Add or Remove Programs dialog box.|  
+|`Product`|Optional `String` parameter.<br /><br /> Specifies the name of the application. If this parameter is not specified, the name is inferred from the identity of the generated manifest. This name is used for the shortcut name on the **Start** menu and is part of the name that appears in the **Add or Remove Programs** dialog box.|  
+|`Publisher`|Optional `String` parameter.<br /><br /> Specifies the publisher of the application. If this parameter is not specified, the name is inferred from the registered user, or the identity of the generated manifest. This name is used for the folder name on the **Start** menu and is part of the name that appears in the **Add or Remove Programs** dialog box.|  
 |`RequiresMinimumFramework35SP1`|Optional `Boolean` parameter.<br /><br /> If true, the application requires the .NET Framework 3.5 SP1 or a more recent version.|  
 |`TargetCulture`|Optional `String` parameter.<br /><br /> Identifies the culture of the application and specifies the `Language` field of the assembly identity for the generated manifest. If this parameter is not specified, it is assumed the application is culture invariant.|  
 |`TargetFrameworkMoniker`|Optional `String` parameter.<br /><br /> Specifies the target framework moniker.|  
@@ -61,13 +61,13 @@ Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] ap
 |`UseApplicationTrust`|Optional `Boolean` parameter.<br /><br /> If true, the `Product`, `Publisher`, and `SupportUrl` properties are written to the application manifest.|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.GenerateManifestBase> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of the parameters of the Task class, see [Task Base Class](../msbuild/task-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.GenerateManifestBase> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of the parameters of the Task class, see [Task base class](../msbuild/task-base-class.md).  
   
- For information about how to use the `GenerateDeploymentManifest` task, see [GenerateApplicationManifest Task](../msbuild/generateapplicationmanifest-task.md).  
+ For information about how to use the `GenerateDeploymentManifest` task, see [GenerateApplicationManifest task](../msbuild/generateapplicationmanifest-task.md).  
   
  The inputs for dependencies and files may be further decorated with item metadata to specify additional deployment state for each item.  
   
-## Item Metadata  
+## Item metadata  
   
 |Metadata name|Description|  
 |-------------------|-----------------|  
@@ -86,7 +86,7 @@ Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] ap
 >  In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.  
   
 > [!NOTE]
->  For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile Task](../msbuild/signfile-task.md).  
+>  For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile task](../msbuild/signfile-task.md).  
   
 ```xml  
 <Project DefaultTargets="Build"  
@@ -139,7 +139,7 @@ Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] ap
 >  In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.  
   
 > [!NOTE]
->  For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile Task](../msbuild/signfile-task.md).  
+>  For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile task](../msbuild/signfile-task.md).  
   
 ```xml  
 <Project DefaultTargets="Build"  
@@ -197,7 +197,7 @@ Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] ap
 >  In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.  
   
 > [!NOTE]
->  For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile Task](../msbuild/signfile-task.md).  
+>  For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile task](../msbuild/signfile-task.md).  
   
 ```xml  
 <Project DefaultTargets="Build"  
@@ -309,9 +309,9 @@ Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] ap
 ```  
   
 ## Example  
- This example uses the `GenerateApplicationManifest` task to generate a native manifest for application Test.exe, referencing native component Alpha.dll and an isolated COM component Bravo.dll.  
+ This example uses the `GenerateApplicationManifest` task to generate a native manifest for application *Test.exe*, referencing native component *Alpha.dll* and an isolated COM component *Bravo.dll*.  
   
- This example produces the Test.exe.manifest, making the application XCOPY deployable taking advantage of Registration Free COM.  
+ This example produces the *Test.exe.manifest*, making the application XCOPY deployable and taking advantage of Registration Free COM.  
   
 > [!NOTE]
 >  In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.  
@@ -345,8 +345,8 @@ Generates a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] ap
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [GenerateDeploymentManifest Task](../msbuild/generatedeploymentmanifest-task.md)   
- [SignFile Task](../msbuild/signfile-task.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [GenerateDeploymentManifest task](../msbuild/generatedeploymentmanifest-task.md)   
+ [SignFile task](../msbuild/signfile-task.md)   
+ [Task reference](../msbuild/msbuild-task-reference.md)
