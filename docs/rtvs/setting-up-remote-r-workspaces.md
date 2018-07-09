@@ -48,7 +48,7 @@ For this reason, RTVS always issues the following warning when connecting to a s
 To issue a self-signed certificate:
 
 1. Log on to the R server computer using an administrator account.
-1. Open a new administrator PowerShell command prompt and issue the following command, replacing /<"remote-machine-name"> with the fully qualified domain name of your server computer.
+1. Open a new administrator PowerShell command prompt and issue the following command, replacing \<"remote-machine-name"> with the fully qualified domain name of your server computer.
 
     ```ps
     New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -DnsName "remote-machine-name"
@@ -107,7 +107,7 @@ To issue a self-signed certificate yourself:
 
 ### Configure RTVS daemon
 
-The SSL certificate file path (path to the PFX) must be set in */etc/rtvs/rtvsd.config.json*. Update /<X509CertificateFile> and /<X509CertificatePassword> with the file path and password respectively.
+The SSL certificate file path (path to the PFX) must be set in */etc/rtvs/rtvsd.config.json*. Update \<X509CertificateFile> and \<X509CertificatePassword> with the file path and password respectively.
 
 ```json
 {
@@ -138,7 +138,7 @@ To run R code, the remote computer must have an R interpreter installed as follo
 1. Run the [R Services installer](https://aka.ms/rtvs-services) and reboot when prompted. The installer does the following:
 
     - Create a folder in *%PROGRAMFILES%\R Tools for Visual Studio\1.0\\* and copy all the required binaries.
-   - Install `RHostBrokerService` and `RUserProfileService` and configure to start automatically.
+    - Install `RHostBrokerService` and `RUserProfileService` and configure to start automatically.
     - Configure the `seclogon` service to start automatically.
     - Add *Microsoft.R.Host.exe* and *Microsoft.R.Host.Broker.exe* to the firewall inbound rules on the default port 5444.
 
