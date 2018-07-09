@@ -93,7 +93,7 @@ The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some part
   
 |Constant|GUID|  
 |--------------|----------|  
-|<xref:Microsoft.VisualStudio.VSConstants.IID_IUnknown_guid>|00000000-0000-0000-C000-000000000046|  
+|<xref:Microsoft.VisualStudio.VSConstants.IID_IUnknown>|00000000-0000-0000-C000-000000000046|  
   
 ## Task List GUIDs  
   
