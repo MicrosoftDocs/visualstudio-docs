@@ -28,7 +28,7 @@ The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some part
   
 |Constant|GUID|  
 |--------------|----------|  
-|<xref:Microsoft.VisualStudio.VSConstants.CLSID_HtmDocData_guid>|62C81794-A9EC-11D0-8198-00A0C91BBEE3|  
+|<xref:Microsoft.VisualStudio.VSConstants.CLSID.HtmDocData_guid>|62C81794-A9EC-11D0-8198-00A0C91BBEE3|  
 |<xref:Microsoft.VisualStudio.VSConstants.VsPackageGuid.HtmlEditorPackage_guid>|1B437D20-F8FE-11D2-A6AE-00104BCC7269|
 |<xref:Microsoft.VisualStudio.VSConstants.VsLanguageServiceGuid.HtmlLanguageService_guid>|58E975A0-F8FE-11D2-A6AE-00104BCC7269|  
 |<xref:Microsoft.VisualStudio.VSConstants.CLSID.MiscellaneousFilesProject_guid>|A2FE74E1-B743-11d0-AE1A-00A0C90FFFC3|  
@@ -41,10 +41,10 @@ The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some part
   
 |Constant|GUID|  
 |--------------|----------|  
-|<xref:Microsoft.VisualStudio.VSConstants.CLSID_VsUIHierarchyWindow_guid>|7D960B07-7AF8-11D0-8E5E-00A0C911005A|  
+|<xref:Microsoft.VisualStudio.VSConstants.CLSID.VsUIHierarchyWindow_guid>|7D960B07-7AF8-11D0-8E5E-00A0C911005A|  
 |<xref:Microsoft.VisualStudio.VSConstants.VsEditorFactoryGuid.ExternalEditor_guid>|8137C9E8-35FE-4AF2-87B0-DE3C45F395FD|  
-|<xref:Microsoft.VisualStudio.VSConstants.SID_SUIHostCommandDispatcher_guid>|e69cd190-1276-11d1-9f64-00a0c911004f|  
-|<xref:Microsoft.VisualStudio.VSConstants.SID_SVsGeneralOutputWindowPane_guid>|65482c72-defa-41b7-902c-11c091889c83|  
+|Microsoft.VisualStudio.VSConstants.SID_SUIHostCommandDispatcher|e69cd190-1276-11d1-9f64-00a0c911004f|  
+|Microsoft.VisualStudio.VSConstants.SID_SVsGeneralOutputWindowPane|65482c72-defa-41b7-902c-11c091889c83|  
   
 ## Files, Virtual and Physical Folders and SubProjects  
   
@@ -75,19 +75,19 @@ The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some part
   
 |Constant|GUID|  
 |--------------|----------|  
-|<xref:Microsoft.VisualStudio.VSConstants.BuildOrder_guid>|2032b126-7c8d-48ad-8026-0e0348004fc0|  
-|<xref:Microsoft.VisualStudio.VSConstants.BuildOutput_guid>|1BD8A850-02D1-11d1-BEE7-00A0C913D1F8|  
-|<xref:Microsoft.VisualStudio.VSConstants.DebugOutput_guid>|FC076020-078A-11D1-A7DF-00A0C9110051|  
-|<xref:Microsoft.VisualStudio.VSConstants.GUID_OutWindowDebugPane_guid>|FC076020-078A-11D1-A7DF-00A0C9110051|  
-|<xref:Microsoft.VisualStudio.VSConstants.GUID_OutWindowGeneralPane_guid>|3c24d581-5591-4884-a571-9fe89915cd64|  
-|<xref:Microsoft.VisualStudio.VSConstants.SID_SVsGeneralOutputWindowPane_guid>|65482c72-defa-41b7-902c-11c091889c83|  
+|<xref:Microsoft.VisualStudio.VSConstants.OutputWindowPaneGuid.BuildOutputPane_guid>|1BD8A850-02D1-11D1-BEE7-00A0C913D1F8|
+|<xref:Microsoft.VisualStudio.VSConstants.OutputWindowPaneGuid.DebugPane_guid>|FC076020-078A-11D1-A7DF-00A0C9110051|
+|<xref:Microsoft.VisualStudio.VSConstants.OutputWindowPaneGuid.GeneralPane_guid>|3C24D581-5591-4884-A571-9FE89915CD64|
+|<xref:Microsoft.VisualStudio.VSConstants.OutputWindowPaneGuid.SortedBuildOutputPane_guid>|2032B126-7C8D-48AD-8026-0E0348004FC0|
+|<xref:Microsoft.VisualStudio.VSConstants.OutputWindowPaneGuid.StoreValidationPane_guid>|54065C74-1B11-4249-9EA7-5540D1A6D528|
+|Microsoft.VisualStudio.VSConstants.SID_SVsGeneralOutputWindowPane|65482c72-defa-41b7-902c-11c091889c83|  
   
 ## Command Sets and Properties  
   
 |Constant|GUID|  
 |--------------|----------|  
-|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97_guid>|5EFC7975-14BC-11CF-9B2B-00AA00573819|  
-|<xref:Microsoft.VisualStudio.VSConstants.GUID_VsUIHierarchyWindowCmds_guid>|60481700-078b-11d1-aaf8-00a0c9055a90|  
+|Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97|5EFC7975-14BC-11CF-9B2B-00AA00573819|  
+|Microsoft.VisualStudio.VSConstants.GUID_VsUIHierarchyWindowCmds|60481700-078b-11d1-aaf8-00a0c9055a90|  
   
 ## IUnknown  
   
@@ -115,17 +115,17 @@ The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some part
   
 |Constants|GUID|  
 |---------------|----------|  
-|<xref:Microsoft.VisualStudio.VSConstants.GUID_COMClassicPage_guid>|9A341D96-5A64-11d3-BFF9-00C04F990235|  
-|<xref:Microsoft.VisualStudio.VSConstants.GUID_COMPlusPage_guid>|9A341D95-5A64-11d3-BFF9-00C04F990235|  
-|<xref:Microsoft.VisualStudio.VSConstants.GUID_SolutionPage_guid>|9A341D97-5A64-11d3-BFF9-00C04F990235|  
+|Microsoft.VisualStudio.VSConstants.GUID_COMClassicPage|9A341D96-5A64-11d3-BFF9-00C04F990235|  
+|Microsoft.VisualStudio.VSConstants.GUID_COMPlusPage|9A341D95-5A64-11d3-BFF9-00C04F990235|  
+|Microsoft.VisualStudio.VSConstants.GUID_SolutionPage|9A341D97-5A64-11d3-BFF9-00C04F990235|  
   
 ## Miscellaneous Shell GUIDs  
   
 |Constants|GUID|  
 |---------------|----------|  
-|<xref:Microsoft.VisualStudio.VSConstants.CLSID_VsCfgProviderEventsHelper_guid>|99913f1f-1ee3-11d1-8a6e-00c04f682e21|  
+|<xref:Microsoft.VisualStudio.VSConstants.CLSID.VsCfgProviderEventsHelper_guid>|99913f1f-1ee3-11d1-8a6e-00c04f682e21|  
 |<xref:Microsoft.VisualStudio.VSConstants.VsPackageGuid.VsDocOutlinePackage_guid>|21af45b0-ffa5-11d0-b63f-00a0c922e851|  
-|<xref:Microsoft.VisualStudio.VSConstants.SID_SVsToolboxActiveXDataProvider_guid>|35222106-bb44-11d0-8c46-00c04fc2aae2|  
+|Microsoft.VisualStudio.VSConstants.SID_SVsToolboxActiveXDataProvider|35222106-bb44-11d0-8c46-00c04fc2aae2|  
   
 ## See Also  
  [COM Constants in Managed Code](../extensibility/com-constants-in-managed-code.md)   
