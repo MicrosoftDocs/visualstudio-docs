@@ -31,7 +31,7 @@ The `<ObjectDataProvider>` tag, which spans lines 11 through 25, declares a <xre
 
 Lastly, a <xref:System.Windows.DataTemplate> named `BookTemplate` is defined on lines 28 through 34. This template is used to display the entries in the **Book List** UI section. It uses data binding and LINQ to XML dynamic properties to retrieve the book ID and book name through the following assignments:
 
-```
+```xaml
 Text="{Binding Path=Attribute[id].Value}"Text="{Binding Path=Value}"
 ```
 
@@ -41,25 +41,25 @@ In addition to the <xref:System.Windows.DataTemplate> element, data binding is u
 
 In the opening `<StackPanel>` tag on line 38, the <xref:System.Windows.FrameworkElement.DataContext%2A> property of this panel is set to the `LoadedBooks` data provider.
 
-```
+```xaml
 DataContext="{Binding Source={StaticResource LoadedBooks}}
 ```
 
 Setting the data context makes it possible (on line 46) for the <xref:System.Windows.Controls.TextBlock> named `tbRawXml` to display the raw XML by binding to this data provider's `Xml` property:
 
-```
+```xaml
 Text="{Binding Path=Xml}"
 ```
 
 The <xref:System.Windows.Controls.ListBox> in the **Book List** UI section, on lines 58 through 62, sets the template for its display items to the `BookTemplate` defined in the window resource section:
 
-```
+```xaml
 ItemTemplate ="{StaticResource BookTemplate}"
 ```
 
 Then, on lines 59 through 62, the actual values of the books are bound to this list box:
 
-```
+```xaml
 <ListBox.ItemsSource>
     <Binding Path="Elements[{http://www.mybooks.com}book]"/>
 </ListBox.ItemsSource>
@@ -67,13 +67,13 @@ Then, on lines 59 through 62, the actual values of the books are bound to this l
 
 The third UI section, **Edit Selected Book**, first binds the <xref:System.Windows.FrameworkElement.DataContext%2A> of the parent <xref:System.Windows.Controls.StackPanel> to the currently selected item in from the **Book List** UI section (line 82):
 
-```
+```xaml
 DataContext="{Binding ElementName=lbBooks, Path=SelectedItem}"
 ```
 
 It then uses two-way data binding, so that the current values of the book elements are displayed to, and updated from, the two text boxes in this panel. Data binding to dynamic properties is similar to the data binding used in the `BookTemplate` data template:
 
-```
+```xaml
 Text="{Binding Path=Attribute[id].Value}"...Text="{Binding Path=Value}"
 ```
 

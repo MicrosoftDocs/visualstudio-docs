@@ -586,7 +586,7 @@ The following intrinsic functions are supported:
 ###  <a name="BKMK_HResult"></a> HResult  
  The `HResult` element enables you to customize the information that is displayed for an HRESULT in debugger windows. The `HRValue` element must contain the 32-bit value of the HRESULT that is to be customized. The `HRDescription` element contains the information that is displayed in the debugger.  
   
-```  
+```xml
   
 <HResult Name="MY_E_COLLECTION_NOELEMENTS">  
   <HRValue>0xABC0123</HRValue>  

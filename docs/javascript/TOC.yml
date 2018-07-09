@@ -1,0 +1,31 @@
+- name: Node.js documentation
+- name: Quickstarts
+  items:
+  - name: Create a Node.js project
+    href: /visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json
+  - name: Create a Vue.js project
+    href: quickstart-vuejs-with-nodejs.md
+- name: Tutorials
+  items:
+  - name: Create a Node.js app with Express
+    href: /visualstudio/nodejs/tutorial-nodejs?toc=/visualstudio/javascript/toc.json
+  - name: Create a Node.js app with React
+    href: /visualstudio/nodejs/tutorial-nodejs-with-react-and-jsx?toc=/visualstudio/javascript/toc.json
+  - name: Publish to Linux App Service
+    href: publish-nodejs-app-azure.md
+- name: How-to Guides
+  items:
+  - name: Create a Vue.js application
+    href: create-application-with-vuejs.md
+  - name: Manage npm packages
+    href: npm-package-management.md
+  - name: Develop without projects or solutions ("Open Folder")
+    href: develop-javascript-code-without-solutions-projects.md
+  - name: Unit testing JavaScript code
+    href: unit-testing-javascript-with-visual-studio.md
+  - name: JavaScript IntelliSense
+    href: /visualstudio/ide/javascript-intellisense?toc=/visualstudio/javascript/toc.json
+- name: Resources
+  items:
+  - name: Wiki page for Node.js tools
+    href: https://github.com/Microsoft/nodejstools
