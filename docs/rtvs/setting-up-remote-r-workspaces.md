@@ -107,7 +107,7 @@ To issue a self-signed certificate yourself:
 
 ### Configure RTVS daemon
 
-The SSL certificate file path (path to the PFX) must be set in */etc/rtvs/rtvsd.config.json*. Update \<X509CertificateFile> and \<X509CertificatePassword> with the file path and password respectively.
+The SSL certificate file path (path to the PFX) must be set in */etc/rtvs/rtvsd.config.json*. Update `X509CertificateFile` and `X509CertificatePassword` with the file path and password respectively.
 
 ```json
 {
