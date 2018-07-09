@@ -11,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Create a Basic Texture
+# How to: Create a basic texture
 This document demonstrates how to use the Image Editor to create a basic texture.
 
  This document demonstrates these activities:
@@ -29,7 +29,7 @@ This document demonstrates how to use the Image Editor to create a basic texture
 ## Creating a basic texture
  You can use the Image Editor to create and modify images and textures for your game or app.
 
- The following steps show how to create a texture that represents a "bullseye" target.When you are finished, the texture should look like the following picture. To better demonstrate the transparency in the texture, the Image Editor has been configured to use a green, checkered pattern to display it.
+ The following steps show how to create a texture that represents a "bullseye" target. When you are finished, the texture should look like the following picture. To better demonstrate the transparency in the texture, the Image Editor has been configured to use a green, checkered pattern to display it.
 
  !["Bullseye" target with transparency shown in green](../designers/media/digit-bullseye-texture-in-editor.png)
 
@@ -37,7 +37,7 @@ This document demonstrates how to use the Image Editor to create a basic texture
 
 #### To create a "bullseye" target texture
 
-1.  Create a texture to work with. For information about how to add a texture to your project, see the Getting Started section in [Image Editor](../designers/image-editor.md).
+1.  Create a texture with which to work. For information about how to add a texture to your project, see the Getting Started section in [Image Editor](../designers/image-editor.md).
 
 2.  Set the image size to 512x512 pixels. In the **Properties** window, set the values of the **Width** and **Height** properties to `512`.
 
@@ -45,7 +45,7 @@ This document demonstrates how to use the Image Editor to create a basic texture
 
 4.  Set the foreground color to fully-transparent black. In the **Properties** window, in the **Colors** property group, select **Foreground**. Set the values of the **R**, **G**, **B**, and **A** properties next to the color picker to `0`.
 
-5.  On the Image Editor toolbar, choose the **Fill** tool, and then press and hold the Shift key and choose any point in the image. Using the Shift key causes the alpha value of the fill color to replace the color in the image; otherwise, the alpha value is used to blend the fill color together with the color in the image.
+5.  On the Image Editor toolbar, choose the **Fill** tool, and then press and hold the **Shift** key and choose any point in the image. Using the **Shift** key causes the alpha value of the fill color to replace the color in the image; otherwise, the alpha value is used to blend the fill color together with the color in the image.
 
     > [!IMPORTANT]
     >  This step, together with the color selection in the previous step, ensures that the base image is prepared for the "bullseye" target texture that you will draw. When the image is filled with transparent black—and because the border of the target is black—there will be no aliasing artifacts around the target.
@@ -60,7 +60,7 @@ This document demonstrates how to use the Image Editor to create a basic texture
 
 10. Make sure that anti-aliasing is enabled. In the **Properties** window, in the **Appearance** property group, make sure that the **Anti-alias** property is set.
 
-11. Using the **Ellipse** tool, draw a circle from pixel coordinate `(3, 3)` to pixel coordinate `(508, 508)`. To draw the circle more easily, you can press and hold the Shift key while you draw.
+11. Using the **Ellipse** tool, draw a circle from pixel coordinate `(3, 3)` to pixel coordinate `(508, 508)`. To draw the circle more easily, you can press and hold the **Shift** key while you draw.
 
     > [!NOTE]
     >  The pixel coordinates of the current pointer location are displayed on the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] status bar.
@@ -81,7 +81,7 @@ This document demonstrates how to use the Image Editor to create a basic texture
 
  ![The complete "bullseye" target texture](../designers/media/gfx_image_demo_bullseye.png)
 
- As a next step, you can generate MIP levels for this texture. For information, see [How to: Create and Modify MIP Levels](../designers/how-to-create-and-modify-mip-levels.md).
+ As a next step, you can generate MIP levels for this texture. For information, see [How to: Create and modify MIP levels](../designers/how-to-create-and-modify-mip-levels.md).
 
 ## See also
 
