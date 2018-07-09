@@ -11,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Create a Basic Color Shader
+# How to: Create a basic color shader
 
 This article demonstrates how to use the Shader Designer and the Directed Graph Shader Language (DGSL) to create a flat color shader. This shader sets the final color to a constant RGB color value.
 
@@ -23,7 +23,7 @@ Before you begin, make sure that the **Properties** window and the **Toolbox** a
 
 1.  Create a DGSL shader to work with. For information about how to add a DGSL shader to your project, see the Getting Started section in [Shader Designer](../designers/shader-designer.md).
 
-2.  Delete the **Point Color** node. Use the **Select** tool to select the **Point Color** node, and then on the menu bar, choose **Edit**, **Delete**.
+2.  Delete the **Point Color** node. Use the **Select** tool to select the **Point Color** node, and then on the menu bar, choose **Edit** > **Delete**.
 
 3.  Add a **Color Constant** node to the graph. In the **Toolbox**, under **Constants**, select **Color Constant** and move it to the design surface.
 
@@ -42,7 +42,7 @@ Certain shapes might provide better previews for some shaders. For more informat
 
 ## See also
 
-- [How to: Apply a Shader to a 3D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md)
-- [How to: Export a Shader](../designers/how-to-export-a-shader.md)
+- [How to: Apply a shader to a 3D model](../designers/how-to-apply-a-shader-to-a-3-d-model.md)
+- [How to: Export a shader](../designers/how-to-export-a-shader.md)
 - [Shader Designer](../designers/shader-designer.md)
-- [Shader Designer Nodes](../designers/shader-designer-nodes.md)
+- [Shader Designer nodes](../designers/shader-designer-nodes.md)

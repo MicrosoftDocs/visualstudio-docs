@@ -2,7 +2,7 @@
 title: "Deployment feature tour"
 description: "Learn about your options for deploying apps from Visual Studio."
 ms.custom: "mvc"
-ms.date: 11/26/2017
+ms.date: 06/22/2018
 ms.technology: vs-ide-deployment
 ms.topic: "quickstart"
 dev_langs: 
@@ -28,13 +28,13 @@ ms.workload:
 
 # Quickstart: First look at deployment in Visual Studio
 
-By deploying an application, service, or component, you distribute it for installation on other computers, devices, servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need. (Many app types support other deployment tools such as command line deployment or NuGet that are not described here.)
+By deploying an application, service, or component, you distribute it for installation on other computers, devices, or servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need. (Many app types support other deployment tools such as command line deployment or NuGet that are not described here.)
 
-See the Tutorials for step-by-step deployment instructions. If you are deploying a web application and need more in-depth information to decide on the best deployment option from Visual Studio, see [What publishing options are right for me?](../ide/not-in-toc/web-publish-options.md).
+See the Quickstarts and Tutorials for step-by-step deployment instructions. For an overview of deployment options, see [What publishing options are right for me?](deploying-applications-services-and-components-resources.md#what-publishing-options-are-right-for-me).
 
 ## Deploy to local folder
 
-Deployment to a local folder is typically used for testing or to begin a staged deployment in which another tool will be used for final deployment.
+Deployment to a local folder is typically used for testing, or to begin a staged deployment in which another tool is used for final deployment.
 
 - **ASP.NET**, **ASP.NET Core**, **Node.js**, **Python**, and .**NET Core**: Use the Publish tool to deploy to a local folder. The exact options available depend on your app type. In Solution Explorer, right-click your project and choose **Publish**. (If you have previously configured any publishing profiles, you must then click **Create new profile**.) Next, choose **Folder**. For more information, see [Deploy to a local folder](quickstart-deploy-to-local-folder.md).
 
@@ -48,7 +48,9 @@ Deployment to a local folder is typically used for testing or to begin a staged 
 
     ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
 
-    In Visual Studio 2017 version 15.7, you can deploy ASP.NET Core apps to **App Service for Linux**.
+    In Visual Studio 2017 version 15.7 and later, you can deploy ASP.NET Core apps to **App Service for Linux**.
+
+    For Python apps, also see [Python - Publishing to Azure App Service](/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json).
 
     For information on importing a publish profile from Azure App Service to Visual Studio, see [Import publish settings and deploy to Azure](../deployment/tutorial-import-publish-settings-azure.md).
 
@@ -119,8 +121,7 @@ In a team environment, you can use Visual Studio Team Services (VSTS) to enable 
 
 ## Next steps
 
-In this tutorial, you took a quick look at deployment options for different applications. If you are deploying a web application such as ASP.NET, read more in-depth about some of the deployment options available in Visual Studio.
+In this tutorial, you took a quick look at deployment options for different applications.
 
 > [!div class="nextstepaction"]
-> [What publishing options are right for me?](../ide/not-in-toc/web-publish-options.md)
-
+> [What publishing options are right for me?](deploying-applications-services-and-components-resources.md#what-publishing-options-are-right-for-me)

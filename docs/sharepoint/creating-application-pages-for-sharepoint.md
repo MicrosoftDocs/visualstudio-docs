@@ -63,7 +63,7 @@ ms.workload:
   
  To view the application page, you must manually navigate to the location of the application page (for example: http://*Server_Name*/_layouts/*Project_Name*/ApplicationPage1.aspx).  
   
- For more information about how to debug SharePoint projects, see [Troubleshooting SharePoint Solutions](../sharepoint/troubleshooting-sharepoint-solutions.md).  
+ For more information about how to debug SharePoint projects, see [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md).  
   
 ## Choose a master page
  By default, an **Application Page** item references the master page of the site that you are using to debug your project. That page is named v4.master and you can find it listed in the **Master Page Gallery** of the SharePoint site.  

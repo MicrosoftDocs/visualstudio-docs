@@ -62,7 +62,7 @@ You can use the tools in [!INCLUDE[blend_first](../debugger/includes/blend_first
   
 8.  Copy the following code by clicking the **Copy** link in the upper-right corner of the code.  
   
-    ```  
+    ```xml
     <Grid HorizontalAlignment="Left" Height="222" VerticalAlignment="Top>  
          <Button content="Button" x:Mame="Home" HorizontalAlignment="Left" VerticalAlignment="Top"/>  
          <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,38,0,0">  
@@ -75,7 +75,7 @@ You can use the tools in [!INCLUDE[blend_first](../debugger/includes/blend_first
   
 9. Locate the default **Grid**, and paste the code between the opening and closing **Grid** tags. When you're finished, your code should look like the following:  
   
-    ```  
+    ```xml
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">  
          <Grid HorizontalAlignment="Left" Height="222" VerticalAlignment="Top>  
               <Button content="Button" x:Mame="Home" HorizontalAlignment="Left" VerticalAlignment="Top"/>  

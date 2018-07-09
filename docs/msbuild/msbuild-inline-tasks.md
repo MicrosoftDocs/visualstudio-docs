@@ -18,6 +18,8 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
   
  Starting in .NET Framework version 4, you can create tasks inline in the project file. You do not have to create a separate assembly to host the task. This makes it easier to keep track of source code and easier to deploy the task. The source code is integrated into the script.  
   
+
+ In MSBuild 15.8, the [RoslynCodeTaskFactory](../msbuild/msbuild-roslyncodetaskfactory.md) was added which can create .NET Standard cross-platform inline tasks.  If you need to use inline tasks on .NET Core, you must use the RoslynCodeTaskFactory.
 ## The Structure of an Inline Task  
  An inline task is contained by a [UsingTask](../msbuild/usingtask-element-msbuild.md) element. The inline task and the `UsingTask` element that contains it are typically included in a .targets file and imported into other project files as required. Here is a basic inline task. Notice that it does nothing.  
   
@@ -136,7 +138,7 @@ Log.LogError("Hello, world!");
   
 -   `Output` is an optional attribute that is `false` by default. If `true`, then the parameter must be given a value before returning from the Execute method.  
   
- For example,  
+For example,  
   
 ```xml  
 <ParameterGroup>  
@@ -146,7 +148,7 @@ Log.LogError("Hello, world!");
 </ParameterGroup>  
 ```  
   
- defines these three parameters:  
+defines these three parameters:  
   
 -   `Expression` is a required input parameter of type System.String.  
   

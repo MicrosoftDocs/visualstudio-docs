@@ -48,7 +48,7 @@ This code generation applies to:
 
    ![Generate constructor preview](media/constructor1-preview-cs.png)
 
-1. Select **Generate constructor...** from the drop-down menu.
+1. Select **Generate constructor** from the drop-down menu.
 
    The **Pick memebers** dialog box opens.
 

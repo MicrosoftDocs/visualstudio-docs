@@ -1,7 +1,7 @@
 ---
 title: Working with Python Tutorial, Step 5, installing packages
 description: Step 5 of a core walkthrough of Python capabilities in Visual Studio, demonstrating Visual Studio's features for managing packages in a Python environment.
-ms.date: 03/05/2018
+ms.date: 06/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Step 5: Installing packages in your Python environment
+# Step 5: Install packages in your Python environment
 
 **Previous step: [Running code in the debugger](tutorial-working-with-python-in-visual-studio-step-04-debugging.md)**
 
@@ -67,6 +67,6 @@ The Python developer community has produced thousands of useful packages that yo
 > [!div class="nextstepaction"]
 > [Working with Git](tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md)
 
-### Going deeper
+### Go deeper
 
 - [Python environments](managing-python-environments-in-visual-studio.md)

@@ -36,7 +36,7 @@ The version of Visual Studio for Mac included with the Unity installation may no
 
 If you already have Unity 5.6.1 or above, but don't have Visual Studio for Mac, you can install Visual Studio for Mac manually. All editions of Visual Studio for Mac are bundled with Visual Studio for Mac Tools for Unity, including the free Community edition:
 
-* Download Visual Studio for Mac from [visualstudio.com](https://www.visualstudio.com/).
+* Download Visual Studio for Mac from [visualstudio.microsoft.com](https://visualstudio.microsoft.com/).
 * Visual Studio for Mac Tools for Unity are installed automatically during the installation process.
 * Follow the steps in the [installation guide](installation.md) for additional installation help.
 

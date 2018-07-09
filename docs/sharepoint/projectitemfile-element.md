@@ -38,8 +38,8 @@ ms.workload:
 |Attribute|Description|  
 |---------------|-----------------|  
 |**Source**|Required **xs:string** attribute.<br /><br /> The name of the file to deploy with the project item.|  
-|**Target**|Optional **xs:string** attribute.<br /><br /> The path where the file will be deployed on SharePoint, relative to the deployment root folder. The deployment root folder is determined by the deployment type specified by the **Type** attribute. If the **Target** attribute is not specified, the file will be deployed to a folder with the name specified in the **Source** attribute.<br /><br /> For more information, see the descriptions for the **Deployment Path** and **Deployment Root** properties of SharePoint project items in [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md).|  
-|**Type**|Required **xs:string** attribute.<br /><br /> The type of deployment for the file. For more information about the possible values, see the description for the **Deployment Type** property of SharePoint project items in [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md).|  
+|**Target**|Optional **xs:string** attribute.<br /><br /> The path where the file will be deployed on SharePoint, relative to the deployment root folder. The deployment root folder is determined by the deployment type specified by the **Type** attribute. If the **Target** attribute is not specified, the file will be deployed to a folder with the name specified in the **Source** attribute.<br /><br /> For more information, see the descriptions for the **Deployment Path** and **Deployment Root** properties of SharePoint project items in [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md).|  
+|**Type**|Required **xs:string** attribute.<br /><br /> The type of deployment for the file. For more information about the possible values, see the description for the **Deployment Type** property of SharePoint project items in [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md).|  
   
 ### Child elements
  None.  
@@ -63,5 +63,5 @@ ms.workload:
 |**Can be empty**|No|  
   
 ## See also
- [SharePoint Project Item Schema Reference](../sharepoint/sharepoint-project-item-schema-reference.md)  
+ [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)  
   

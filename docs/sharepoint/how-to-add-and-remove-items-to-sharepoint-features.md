@@ -23,13 +23,13 @@ ms.workload:
 # How to: Add and remove items to SharePoint features
   When you create a SharePoint solution, Visual Studio adds the default SharePoint project items to your Feature. Before deployment, you can add and remove SharePoint project items to modify the SharePoint Feature.  
   
-## Adding SharePoint project items to a feature  
+## Add SharePoint project items to a feature  
   
 #### To add SharePoint project items with the Feature Designer  
   
 1.  Open the Feature Designer.  
   
-     For more information, see [How to: Customize a SharePoint Feature](../sharepoint/how-to-customize-a-sharepoint-feature.md).  
+     For more information, see [How to: Customize a SharePoint feature](../sharepoint/how-to-customize-a-sharepoint-feature.md).  
   
 2.  Add one or more items from the **Items in the Solution** list to the **Items in the Feature** list by performing one or more of the following steps:  
   
@@ -41,7 +41,7 @@ ms.workload:
   
      The SharePoint Project Items appear in the **Items in the Feature** list.  
   
-## Removing SharePoint project items from a feature  
+## Remove SharePoint project items from a feature  
   
 #### To remove SharePoint items with the Feature Designer
   
@@ -52,6 +52,6 @@ ms.workload:
      The SharePoint Project Items appear in the **Items in the Solution** list.  
   
 ## See also
- [Creating SharePoint Features](../sharepoint/creating-sharepoint-features.md)   
- [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
+ [Create SharePoint features](../sharepoint/creating-sharepoint-features.md)   
+ [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
   

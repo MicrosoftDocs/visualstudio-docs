@@ -13,7 +13,7 @@ author: gewarren
 ---
 # State Machine Activity Designers
 
-Windows Workflow Designer includes a number of activity designers that you can use when constructing your workflows. This section contains the system-provided activity designers used to create and manage state machine workflows. The following topics describe these designers and provide guidance on how to use them.
+Workflow Designer includes a number of activity designers that you can use when constructing your workflows. This section contains the system-provided activity designers used to create and manage state machine workflows. The following topics describe these designers and provide guidance on how to use them.
 
 ## Reference
  <xref:System.Activities.Statements.StateMachine>

@@ -2,7 +2,7 @@
 title: "Use Visual Studio to create an ASP.NET Core web app in C#"
 description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
 ms.custom: mvc
-ms.date: 10/10/2017
+ms.date: 06/27/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -20,7 +20,7 @@ ms.workload:
 
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# ASP.NET Core web application.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
 ## Create a project
 
@@ -48,7 +48,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
    ![Go To Definition context menu](../ide/media/quickstart-aspnet-gotodefinition.png)
 
-1. Next we'll clean up the `using` directives at the top of the file using a simple shortcut. Choose any of the greyed-out using directives and a [Quick Actions](../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Choose the light bulb, and then choose **Remove Unnecessary Usings**.
+1. Next, clean up the `using` directives at the top of the file using a simple shortcut. Choose any of the grayed-out using directives and a [Quick Actions](../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Choose the light bulb, and then choose **Remove Unnecessary Usings**.
 
      The unnecessary usings are deleted from the file.
 
@@ -82,7 +82,10 @@ First, you'll create an ASP.NET Core web application project. The project type c
 Congratulations on completing this Quickstart! We hope you learned a little bit about the Visual Studio IDE. If you'd like to delve deeper into its capabilities, please continue with a tutorial in the **Tutorials** section of the table of contents.
 
 ## Next steps
-Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To learn more, continue with the following tutorial.
+
+Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To see the app running on a public server, select the following button.
 
 > [!div class="nextstepaction"]
-> [Get started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)
+> [Deploy the app to Azure App Service](..//deployment/quickstart-deploy-to-azure.md)
+
+To learn more, continue with the tutorials, [Get started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md) and [Get started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x).

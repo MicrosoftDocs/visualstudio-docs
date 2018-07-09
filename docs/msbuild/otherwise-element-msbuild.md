@@ -35,7 +35,7 @@ Specifies the block of code to execute if and only if the conditions of all `Whe
 
 ## Syntax  
 
-```  
+```xml  
 <Otherwise>  
     <PropertyGroup>... </PropertyGroup>  
     <ItemGroup>... </ItemGroup>  
