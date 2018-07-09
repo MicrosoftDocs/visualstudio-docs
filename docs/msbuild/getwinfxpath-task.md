@@ -21,10 +21,10 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# GetWinFXPath Task
+# GetWinFXPath task
 The <xref:Microsoft.Build.Tasks.Windows.GetWinFXPath> task returns the directory of the current [!INCLUDE[TLA#tla_winfx](../msbuild/includes/tlasharptla_winfx_md.md)] runtime.  
   
-## Task Parameters  
+## Task parameters  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -52,9 +52,9 @@ The <xref:Microsoft.Build.Tasks.Windows.GetWinFXPath> task returns the directory
 </Project>  
 ```  
   
-## See Also  
- [WPF MSBuild Reference](../msbuild/wpf-msbuild-reference.md)   
- [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
- [MSBuild Reference](../msbuild/msbuild-reference.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Building a WPF Application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)
+## See also  
+ [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)   
+ [Task reference](../msbuild/wpf-msbuild-task-reference.md)   
+ [MSBuild reference](../msbuild/msbuild-reference.md)   
+ [Task reference](../msbuild/msbuild-task-reference.md)   
+ [Building a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)

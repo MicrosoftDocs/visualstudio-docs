@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# GenerateTrustInfo Task
+# GenerateTrustInfo task
 Generates the application trust from the base manifest, and from the `TargetZone` and `ExcludedPermissions` parameters.  
   
 ## Parameters  
@@ -34,8 +34,8 @@ Generates the application trust from the base manifest, and from the `TargetZone
 |`TrustInfoFile`|Required <xref:Microsoft.Build.Framework.ITaskItem> output parameter.<br /><br /> Specifies the file that contains the application security trust information.|  
   
 ## Remarks  
- In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
+ In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)
