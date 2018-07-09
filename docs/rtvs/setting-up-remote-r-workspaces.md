@@ -16,15 +16,6 @@ ms.workload:
 
 This article explains how to configure a remote server with SSL and an appropriate R service. This allows R Tools for Visual Studio (RTVS) to connect to a remote workspace on that server.
 
-- [Remote computer requirements](#remote-computer-requirements)
-- [Install an SSL certificate](#install-an-ssl-certificate)
-- [Install an SSL certificate on Windows](#install-an-ssl-certificate-on-windows)
-- [Install an SSL certificate on Ubuntu](#install-an-ssl-certificate-on-ubuntu)
-- [Install R services on Windows](#install-r-services-on-windows)
-- [Install R services on Linux](#install-r-services-on-Linux)
-- [Configure R services](#configure-r-services)
-- [Troubleshooting](#troubleshooting)
-
 ## Remote computer requirements
 
 - Windows 10, Windows Server 2016, or Windows Server 2012 R2. RTVS also requires
@@ -44,7 +35,7 @@ For more background, see [public key certificates](https://en.wikipedia.org/wiki
 
 ## Install an SSL certificate on Windows
 
-The SSL certificate has to be installed manually on windows. Follow the instructions below to install an SSL certificate.
+The SSL certificate has to be installed manually on Windows. Follow the instructions below to install an SSL certificate.
 
 ### Obtain a self-signed certificate (Windows)
 
@@ -57,13 +48,13 @@ For this reason, RTVS always issues the following warning when connecting to a s
 To issue a self-signed certificate:
 
 1. Log on to the R server computer using an administrator account.
-1. Open a new administrator PowerShell command prompt and issue the following command, replacing `"remote-machine-name"` with the fully qualified domain name of your server computer.
+1. Open a new administrator PowerShell command prompt and issue the following command, replacing /<"remote-machine-name"> with the fully qualified domain name of your server computer.
 
     ```ps
     New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -DnsName "remote-machine-name"
     ```
 
-1. If you have never run Powershell before on the R server computer, run the following command to enable running of commands explicitly:
+1. If you have never run PowerShell before on the R server computer, run the following command to enable running of commands explicitly:
 
     ```ps
     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
@@ -96,11 +87,11 @@ The `rtvs-daemon` package will install a self-signed certificate by default as a
 
 ### Obtain a self-signed certificate (Ubuntu)
 
-For benefits and risks of using self-signed certificate see the windows description. The `rtvs-daemon` package generates and configures the self-signed certificate during installation. You will need to do this only if you wish to replace the auto-generated self-signed certificate.
+For benefits and risks of using self-signed certificate see the Windows description. The `rtvs-daemon` package generates and configures the self-signed certificate during installation. You will need to do this only if you wish to replace the auto-generated self-signed certificate.
 
 To issue a self-signed certificate yourself:
 
-1. SSH or login to your linux machine.
+1. SSH or login to your Linux machine.
 1. Install `ssl-cert` package:
     ```sh
     sudo apt-get install ssl-cert
@@ -116,7 +107,7 @@ To issue a self-signed certificate yourself:
 
 ### Configure RTVS daemon
 
-The SSL certificate file path (path to the PFX) must be set in `/etc/rtvs/rtvsd.config.json`. Update `X509CertificateFile` and `X509CertificatePassword` with the file path and password respectively.
+The SSL certificate file path (path to the PFX) must be set in */etc/rtvs/rtvsd.config.json*. Update /<X509CertificateFile> and /<X509CertificatePassword> with the file path and password respectively.
 
 ```json
 {
@@ -146,8 +137,8 @@ To run R code, the remote computer must have an R interpreter installed as follo
 
 1. Run the [R Services installer](https://aka.ms/rtvs-services) and reboot when prompted. The installer does the following:
 
-    - Create a folder in *%PROGRAMFILES%\R Tools for Visual Studio\1.0\* and copy all the required binaries.
-    - Install `RHostBrokerService` and `RUserProfileService` and configure to start automatically.
+    - Create a folder in *%PROGRAMFILES%\R Tools for Visual Studio\1.0\\* and copy all the required binaries.
+   - Install `RHostBrokerService` and `RUserProfileService` and configure to start automatically.
     - Configure the `seclogon` service to start automatically.
     - Add *Microsoft.R.Host.exe* and *Microsoft.R.Host.Broker.exe* to the firewall inbound rules on the default port 5444.
 
@@ -200,7 +191,7 @@ With R services running on the remote computer, you also need to create user acc
 
 ## Troubleshooting
 
-**The R server computer is not responding, what do I do?**
+**Q. The R server computer is not responding, what do I do?**
 
 Try to ping the remote computer from the command line: `ping remote-machine-name`. If the ping fails, make sure the computer is running.
 
