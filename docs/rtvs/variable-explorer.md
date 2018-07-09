@@ -50,7 +50,7 @@ Because Variable Explorer and the table views are in separate Visual Studio wind
 
 ## Open in Excel (or other CSV-capable application)
 
-For further manipulation and analysis, it's often useful to export session variables to CSV. Exporting is done with the small Excel icon (![Excel export icon](media/variable-explorer-excel-icon.png)) next to each node in the Variable Explorer, or by **right-clicking** an item and selecting **Open in CSV App**. Selecting the icon writes the data to a new CSV file in the *%userprofile%\Documents\RTVS_CSV_Exports* folder and then launches that file, which opens it in whatever application is associated with the *.csv* extension.
+For further manipulation and analysis, it's often useful to export session variables to CSV. Exporting is done with the small Excel icon (![Excel export icon](media/variable-explorer-excel-icon.png)) next to each node in the Variable Explorer, or by right-clicking an item and selecting **Open in CSV App**. Selecting the icon writes the data to a new CSV file in the *%userprofile%\Documents\RTVS_CSV_Exports* folder and then launches that file, which opens it in whatever application is associated with the *.csv* extension.
 
 ## Scopes
 
