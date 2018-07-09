@@ -42,7 +42,7 @@ Sets values as specified by an XPath query into an XML file.
 
 Here is a sample.xml to modify:
 
-```
+```xml
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
          xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
          xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" >
@@ -53,8 +53,8 @@ Here is a sample.xml to modify:
 
 In this example, if you want to modify `/Package/mp:PhoneIdentity/PhonePublisherId`, then use
 
-```
-<Project>
+```xml
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Namespace>
         <Namespace Prefix="dn" Uri="http://schemas.microsoft.com/appx/manifest/foundation/windows10" />
