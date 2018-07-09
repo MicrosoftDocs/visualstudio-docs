@@ -109,11 +109,11 @@ When multiple VSPackages are added to Visual Studio, the user interface (UI) may
   
  The command is set to be enabled and displayed whenever a solution exists; that is, whenever one of the following command context GUIDs is active:  
   
--   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.EmptySolution>  
+-   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.EmptySolution_guid>  
   
--   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionHasMultipleProjects>  
+-   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionHasMultipleProjects_guid>  
   
--   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionHasSingleProject>  
+-   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionHasSingleProject_guid>  
   
  In the example, notice that every command flag is a separate [Command Flag](../../extensibility/command-flag-element.md) element.  
   
