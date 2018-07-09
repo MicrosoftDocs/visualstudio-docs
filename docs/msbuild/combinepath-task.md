@@ -19,11 +19,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# CombinePath Task
+# CombinePath task
 Combines the specified paths into a single path.  
   
-## Task Parameters  
- The following table describes the parameters of the [CombinePath Task](../msbuild/combinepath-task.md).  
+## Task parameters  
+ The following table describes the parameters of the [CombinePath task](../msbuild/combinepath-task.md).  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -32,8 +32,8 @@ Combines the specified paths into a single path.
 |`CombinedPaths`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> The combined path that is created by this task.|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)
