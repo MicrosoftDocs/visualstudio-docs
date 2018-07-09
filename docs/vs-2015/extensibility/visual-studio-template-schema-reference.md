@@ -64,7 +64,7 @@ This section contains information about XML elements in .vstemplate files, which
 |[References](../extensibility/references-element-visual-studio-templates.md)|Reference|--|  
 |[RequiredFrameworkVersion](../extensibility/requiredframeworkversion-element-visual-studio-templates.md)|--|--|  
 |[RequiredPlatformVersion](../extensibility/requiredplatformversion-element-visual-studio-templates.md)|--|Version|  
-|[SDKReference](72c8b352-0b7a-42b3-ba5d-2a2d1e90c3)|--|Package|  
+|[SDKReference](../extensibility/sdkreference-element-visual-studio-templates.md)|--|Package|  
 |[ShowByDefault](../extensibility/showbydefault-visual-studio-templates.md)|--|--|  
 |[SolutionFolder](../extensibility/solutionfolder-element-visual-studio-templates.md)|ProjectTemplateLink<br /><br /> SolutionFolder|Name|  
 |[SortOrder](../extensibility/sortorder-element-visual-studio-templates.md)|--|--|  
