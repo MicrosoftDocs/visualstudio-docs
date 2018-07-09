@@ -13,7 +13,7 @@ ms.workload:
 
 # Mobile Development with C++ Documentation
 
-Create native C++ apps for iOS, Android and Windows devices with Visual Studio.
+Create native C++ apps for iOS, Android, and Windows devices with Visual Studio.
 
 <ul class="panelContent cardsF">
     <li>
@@ -28,7 +28,7 @@ Create native C++ apps for iOS, Android and Windows devices with Visual Studio.
                     </div>
                     <div class="cardText">
                         <h3>Install Visual C++ for Cross-Platform Mobile Development</h3>
-                        <p>Setup the tools required to build cross-platform mobile apps.</p>
+                        <p>Set up the tools required to build cross-platform mobile apps.</p>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@ Create native C++ apps for iOS, Android and Windows devices with Visual Studio.
                     </div>
                     <div class="cardText">
                         <h3>Cross-Platform Mobile Development Examples</h3>
-                        <p>Samples to get you started with cross-platform mobile development.</p>
+                        <p>See samples to help you get started with cross-platform mobile development.</p>
                     </div>
                 </div>
             </div>
