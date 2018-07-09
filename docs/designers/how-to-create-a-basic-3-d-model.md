@@ -46,7 +46,7 @@ This article demonstrates how to use the Model Editor to create a basic 3D model
 
      ![The top of the cube has been subdivided](../designers/media/gfx_model_demo_house_subdiv.png)
 
-5.  Extrude two adjacent sides of the cube—for example, the front and right sides of the cube. In face selection mode, choose the cube once to activate it for selection and then choose one side of the cube. Press and hold the **Ctrl** key,choose another side of the cube that is adjacent to the side you selected first, and then on the Model Editor toolbar, choose **Extrude face**.
+5.  Extrude two adjacent sides of the cube—for example, the front and right sides of the cube. In face selection mode, choose the cube once to activate it for selection and then choose one side of the cube. Press and hold the **Ctrl** key, choose another side of the cube that is adjacent to the side you selected first, and then on the Model Editor toolbar, choose **Extrude face**.
 
      ![The sides of the cube have been extruded](../designers/media/gfx_model_demo_house_extrude.png)
 
