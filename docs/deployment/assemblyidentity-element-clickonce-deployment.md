@@ -24,7 +24,7 @@ Identifies the primary assembly of the [!INCLUDE[ndptecclick](../deployment/incl
   
 ## Syntax  
   
-```  
+```xml  
   
       <assemblyIdentity    
    name   
@@ -51,7 +51,7 @@ Identifies the primary assembly of the [!INCLUDE[ndptecclick](../deployment/incl
 ## Example  
  The following code example illustrates an `assemblyIdentity` element in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest. This code example is part of a larger example provided for the [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md) topic.  
   
-```  
+```xml  
 <!-- Identify the deployment. -->  
 <assemblyIdentity   
   name="My Application Deployment.app"  

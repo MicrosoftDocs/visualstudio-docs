@@ -24,7 +24,7 @@ The top-level element for the application manifest.
   
 ## Syntax  
   
-```  
+```xml  
   
       <assembly  
    manifestVersion  
@@ -51,7 +51,7 @@ The top-level element for the application manifest.
 ## Example  
  The following code example illustrates an `assembly` element in an application manifest for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. This code example is part of a larger example provided in [ClickOnce application manifest](../deployment/clickonce-application-manifest.md).  
   
-```  
+```xml
 <asmv1:assembly   
   xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd"   
   manifestVersion="1.0"   

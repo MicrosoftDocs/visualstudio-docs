@@ -76,7 +76,7 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
   
  In *CmdLineDemo.vbproj* / *CmdLineDemo.csproj*:  
   
-```  
+```xml  
 <AssemblyOriginatorKeyFile>WindowsApplication3.snk</AssemblyOriginatorKeyFile>  
 <GenerateManifests>true</GenerateManifests>  
 <TargetZone>LocalIntranet</TargetZone>  
@@ -98,7 +98,7 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
   
  You can override any of these properties at the command line without altering the project file itself. For example, the following will build the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application deployment without the bootstrapper:  
   
-```  
+```cmd  
 msbuild /target:publish /property:BootstrapperEnabled=false  
 ```  
   

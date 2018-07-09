@@ -24,7 +24,7 @@ Identifies the application deployed in a [!INCLUDE[ndptecclick](../deployment/in
   
 ## Syntax  
   
-```  
+```xml
   
       <assemblyIdentity   
    name  
@@ -53,7 +53,7 @@ Identifies the application deployed in a [!INCLUDE[ndptecclick](../deployment/in
   
 ### Code  
   
-```  
+```xml  
 <asmv1:assemblyIdentity   
   name="My Application Deployment.exe"   
   version="1.0.0.0"   

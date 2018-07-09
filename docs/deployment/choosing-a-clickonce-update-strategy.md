@@ -41,7 +41,7 @@ ms.workload:
   
  This is the same as changing the **Update** element in the deployment manifest as follows:  
   
-```  
+```xml  
 <!-- When to check for updates -->  
 <subscription>  
    <update>  
@@ -59,7 +59,7 @@ ms.workload:
   
  This is the same as changing the **Update** element in the deployment manifest as follows:  
   
-```  
+```xml  
 <!-- When to check for updates -->  
 <subscription>  
    <update>  
@@ -78,7 +78,7 @@ ms.workload:
   
  This is the same as setting the **minimumRequiredVersion** attribute of the **Deployment** element in the deployment manifest; for example:  
   
-```  
+```xml  
 <deployment install="true" minimumRequiredVersion="1.0.0.0">  
 ```  
   
