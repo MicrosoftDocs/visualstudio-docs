@@ -48,7 +48,7 @@ For this reason, RTVS always issues the following warning when connecting to a s
 To issue a self-signed certificate:
 
 1. Log on to the R server computer using an administrator account.
-1. Open a new administrator PowerShell command prompt and issue the following command, replacing \<"remote-machine-name"> with the fully qualified domain name of your server computer.
+1. Open a new administrator PowerShell command prompt and issue the following command, replacing `"remote-machine-name"` with the fully qualified domain name of your server computer.
 
     ```ps
     New-SelfSignedCertificate -CertStoreLocation Cert:\LocalMachine\My -DnsName "remote-machine-name"
