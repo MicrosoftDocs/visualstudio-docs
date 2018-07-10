@@ -10,13 +10,13 @@ ms.author: mwthomas
 ---
 # Visual Studio IntelliCode FAQ
 
-Thanks for your interest in Visual Studio IntelliCode! We've provided this short FAQ to hopefully answer some of the questions you may have.
+Thanks for your interest in Visual Studio IntelliCode! This short FAQ will hopefully answer some of the questions you may have.
 
 ## Q. What is Visual Studio IntelliCode?
 
-At Build 2018, we announced Visual Studio IntelliCode, a new capability that enhances software development using AI. IntelliCode helps developers and teams code with confidence, find issues faster, and focus code reviews.
+At Build 2018, Microsoft announced Visual Studio IntelliCode, a new capability that enhances software development using AI. IntelliCode helps developers and teams code with confidence, find issues faster, and focus code reviews.
 
-We showed an early view of how IntelliCode enhances the software development process in the following ways:
+An early view of how IntelliCode showed how it enhances the software development process in the following ways:
 
 - Delivers context-aware code completions
 - Guides developers to adhere to the patterns and styles of their team
@@ -31,30 +31,31 @@ Visual Studio IntelliCode is a range of capabilities that offers new productivit
 
 Developers can [download an experimental extension](https://go.microsoft.com/fwlink/?linkid=872707) for Visual Studio 2017 version 15.7 and later. The extension currently provides: 
 
-1. AI-Enhanced IntelliSense that predicts the most likely correct API for the developer to use, rather than just presenting an alphabetical list of members. It uses the developer's current code context and patterns to provide this dynamic list.
-2. Inference of code style and formatting conventions  that helps you keep your code consistent by dynamically creating an [.editorconfig file](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options) from your codebase to define coding styles and formats. These conventions the allow Visual Studio to offer automatic style and format fixes to clean up your document.
+- AI-Enhanced IntelliSense that predicts the most likely correct API for the developer to use, rather than just presenting an alphabetical list of members. It uses the developer's current code context and patterns to provide this dynamic list.
+
+- Inference of code style and formatting conventions  that helps you keep your code consistent by dynamically creating an [.editorconfig file](../ide/create-portable-custom-editor-options) from your codebase to define coding styles and formats. These conventions allow Visual Studio to offer automatic style and format fixes to clean up your document.
 
 We'll update the extension with more capabilities in the coming months.
 
 ## Q. Why does EditorConfig inference prepend a 1 to the filename? 
 
-A known issue in Visual Studio extensibility will cause a 1. to be prepended to the .editorconfig filename when creating via right click add…new item. Files named in this way are not recognized by the editorconfig processor in Visual Studio. This problem is fixed in Visual Studio 2017 15.8 Preview 4, but until then you can work around by simply removing the 1 in the add new item dialog.
+A known issue in Visual Studio extensibility will cause a 1. to be prepended to the .editorconfig filename  when you create it by right-clicking and choosing **Add > New Item**. Files named in this way are not recognized by the editorconfig processor in Visual Studio. This problem is fixed in Visual Studio 2017 version 15.8 Preview 4, but until then you can work around by removing the 1 in the **Add New Item** dialog.
 
 ## Q. I don't see my EditorConfig Conventions taking effect - why?
-There are a couple of common reasons for this:
+There are a couple of common reasons this problem can occur:
 
-1.In Visual Studio 2017 versions prior to 15.8 Preview 3, you will need to close and re-open all open documents to see the conventions in the EditorConfig file you create take effect. This is fixed in the 15.8 Preview 3 release.
-2.Formatting conventions never show up in the error list or as “squiggles” in your code. They can, however, be fixed using the new Format Document (Ctrl+K, Ctrl+D) extension in Visual Studio 2017 15.8 Preview 3 or higher
+- In Visual Studio 2017 versions prior to 15.8 Preview 3, you will need to close and reopen all open documents to see the conventions in the EditorConfig file you create take effect. This issue is fixed in the 15.8 Preview 3 release.
+- Formatting conventions never show up in the **Error List** or as “squiggles” in your code. They can, however, be fixed using the new Format Document (Ctrl+K, Ctrl+D) extension in Visual Studio 2017 version 15.8 Preview 3 or later
 
 ## Q. Format Document is not fixing my style conventions - why?
-There are a couple of common reasons for this:
+There are a couple of common reasons this problem can occur:
 
-1.You may not be using Visual Studio 2017 15.8 Preview 3 or higher. You’ll need this version to be able to use the extended “Format Document” command to perform additional code cleanup for the current document. 
-2.You may not be opted in to style fixes. The extended capability of fixing convention-based issues capability in Format Document only covers a fixed set of issues, which you can change in tools-options under text editor-C#-Code Style-Formatting-General-Format Document Settings (Experiment). Notice that the default settings do not fix some style conventions. You can opt in to these via tools options (e.g. Apply implicit/explicit type preferences will run style rules related to the use of var in your code).
+- You may not be using Visual Studio 2017 version 15.8 Preview 3 or higher. You’ll need this version to be able to use the extended “Format Document” command to perform additional code cleanup for the current document. 
+- You may not be opted in to style fixes. The extended capability of fixing convention-based issues capability in Format Document only covers a fixed set of issues, which you can change in **Tools-Options** under **Text Editor > C# > Code Style > Formatting > General > Format Document Settings (Experiment)**. Notice that the default settings do not fix some style conventions. You can opt in to these via **Tools > options** (for example "Apply implicit/explicit type preferences" will run style rules related to the use of `var` in your code).
 
 ## Q. Which EditorConfig Conventions can Visual Studio IntelliCode infer?
 
-At present our support is experimental, so we do not support the full set of conventions documented in the [code style settings reference](https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference) yet.
+At present this feature is experimental, so we do not support the full set of conventions documented in the [code style settings reference](../ide/editorconfig-code-style-settings-reference) yet.
 
 IntelliCode can currently infer the following conventions:
 
@@ -157,7 +158,7 @@ The experience was shown at Build 2018 in Visual Studio 2017 on a C# codebase. H
 
 ## Q. <a name="whynointellisense"/> I can't see the IntelliCode suggestions in my C# editing experience - what's happening?
 
-IntelliCode suggestions appear in the standard Visual Studio IntelliSense experience for C#. Extensions that override that experience prevent the IntelliCode "starred" suggestions from appearing at the top of the list. You can verify if extensions are causing this behavior by turning them off and then trying IntelliSense again.
+IntelliCode suggestions appear in the standard Visual Studio IntelliSense UI for C#. Extensions that override that UI prevent the IntelliCode "starred" suggestions from appearing at the top of the list. You can verify if extensions are causing this behavior by turning them off and then trying IntelliSense again.
 
 If this doesn't solve the problem for you, please report your issue via the Visual Studio [Report a Problem](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017) feature, and mention IntelliCode in your report.
 
