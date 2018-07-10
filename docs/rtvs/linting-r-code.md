@@ -41,7 +41,7 @@ These options flag identifiers that use different naming conventions:
 | Option | Default value | Lint effect |
 | --- | --- | --- |
 | **Flag camelCase** | **False** | Flags identifiers that use camelCase. |
-| **Flag long names** | **False** | Flags identifiers whose named exceed the **Max name length** setting. |
+| **Flag long names** | **False** | Flags identifiers whose names exceed the **Max name length** setting. |
 | **Flag multiple dots** | **True** | Flags identifiers that use multiple dots. |
 | **Flag PascalCase** | **True** | Flags identifiers that use PascalCase. |
 | **Flag snake_case** | **False** | Flags identifiers that use underscores. |
