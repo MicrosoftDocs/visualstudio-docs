@@ -109,7 +109,7 @@ The following table summarizes IntelliSense features supported and not supported
 |Parameter Info|Shows helpful information about parameters as you type a function call.|Yes|
 |Quick Info|Displays the complete declaration for any identifier in your code.|Yes|
 
-For general information about IntelliSense, see [Use IntelliSense](ide/using-intellisense.md).
+For general information about IntelliSense, see [Use IntelliSense](using-intellisense.md).
 
 ## Debugging features
 
@@ -140,7 +140,7 @@ The following table summarizes the support for F# in Visual Studio tools.
 |Code Metrics|Gathers information about your code, such as line counts.|No|
 |Class View|Provides a type-based view of the code in a project.|No|
 |[Error List window](reference/error-list-window.md)|Shows a list of errors in code.|Yes|
-|[F# Interactive](../tutorials/fsharp-interactive/index.md)|Enables you to type (or copy and paste) F# code and run it immediately, independently of the building of your project. The F# Interactive window is a Read, Evaluate, Print Loop (REPL).|Yes|
+|[F# Interactive](/dotnet/fsharp/tutorials/fsharp-interactive/)|Enables you to type (or copy and paste) F# code and run it immediately, independently of the building of your project. The F# Interactive window is a Read, Evaluate, Print Loop (REPL).|Yes|
 |Object Browser|Enables you to view the types in an assembly.|F# types as they appear in compiled assemblies do not appear exactly as you author them. You can browse through the compiled representation of F# types, but you cannot view the types as they appear from F#.|
 |[Output window](reference/output-window.md)|Displays build output.|Yes|
 |Performance analysis|Provides tools for measuring the performance of your code.|Yes|
@@ -154,4 +154,4 @@ The following table summarizes the support for F# in Visual Studio tools.
 ## See also
 
 - [F# guide (.NET Framework)](/dotnet/fsharp/)
-- [Get started with F# in Visual Studio](../get-started/get-started-visual-studio.md)
+- [Get started with F# in Visual Studio](/dotnet/fsharp/get-started/get-started-visual-studio)
