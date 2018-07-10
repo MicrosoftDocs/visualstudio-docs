@@ -56,11 +56,11 @@ The following table summarizes project-properties features supported and not sup
 
 |Project Designer page|Related links|Description|
 |---------------------|-------------|-----------|
-|`Application`|[Application Page, Project Designer](reference/application-page-project-designer-csharp.md)|Enables you to specify application-level settings and properties, such as whether you are creating a library or an executable file, what version of the .NET Framework the application is targeting, and information about where the resource files that the application uses are stored.|
-|`Build`|[Build Page, Project Designer](reference/build-page-project-designer-csharp.md)|Enables you to control how the code is compiled.|
-|`Build Events`|[Build Events Page, Project Designer](reference/build-events-page-project-designer-csharp.md)|Enables you to specify commands to run before or after a compilation.|
-|`Debug`|[Debug Page, Project Designer](reference/debug-page-project-designer.md)|Enables you to control how the application runs during debugging. This includes what commands to use and what your application's starting directory is, and any special debugging modes you want to enable, such as native code and SQL.|
-|`Reference Paths`|[Managing references in a project](managing-references-in-a-project.md)|Enables you to specify where to search for assemblies that the code depends on.|
+|Application|[Application Page, Project Designer](reference/application-page-project-designer-csharp.md)|Enables you to specify application-level settings and properties, such as whether you are creating a library or an executable file, what version of the .NET Framework the application is targeting, and information about where the resource files that the application uses are stored.|
+|Build|[Build Page, Project Designer](reference/build-page-project-designer-csharp.md)|Enables you to control how the code is compiled.|
+|Build Events|[Build Events Page, Project Designer](reference/build-events-page-project-designer-csharp.md)|Enables you to specify commands to run before or after a compilation.|
+|Debug|[Debug Page, Project Designer](reference/debug-page-project-designer.md)|Enables you to control how the application runs during debugging. This includes what commands to use and what your application's starting directory is, and any special debugging modes you want to enable, such as native code and SQL.|
+|Reference Paths|[Manage references in a project](managing-references-in-a-project.md)|Enables you to specify where to search for assemblies that the code depends on.|
 
 ### F#-specific settings
 
@@ -68,8 +68,8 @@ The following table summarizes settings that are specific to F#:
 
 |Project Designer page|Setting|Description|
 |---------------------|-------|-----------|
-|`Build`|`Generate tail calls`|If selected, enables the use of the tail Microsoft Intermediate Language (MSIL) instruction. This causes the stack frame to be reused for tail recursive functions. Equivalent to the `--tailcalls` compiler option.|
-|`Build`|`Other flags`|Allows you to specify additional compiler command-line options.|
+|Build|Generate tail calls|If selected, enables the use of the tail Microsoft Intermediate Language (MSIL) instruction. This causes the stack frame to be reused for tail recursive functions. Equivalent to the `--tailcalls` compiler option.|
+|Build|Other flags|Allows you to specify additional compiler command-line options.|
 
 ## Code and text editor features
 
@@ -86,7 +86,7 @@ The following features of the Visual Studio code and text editors are supported 
 |Go to definition for user-defined API|When the cursor is on a program entity that you defined, moves the cursor to the location in your code where the entity is defined.|Yes|
 |Go To Line|Enables you to go to a specific line in a file, by line number.|Yes|
 |Navigation bars at top of file|Enables you to jump to locations in code, by, For example, function name.|Yes|
-|Outlining. See [Outlining](outlining.md).|Enables you to collapse sections of your code to create a more compact view.|Yes|
+|[Outlining](outlining.md)|Enables you to collapse sections of your code to create a more compact view.|Yes|
 |Tabify|Converts spaces to tabs.|Yes|
 |Type colorization|Shows defined type names in a special color.|Yes|
 |Quick Find. See Quick Find, Find and Replace Window.|Enables you to search in a file or project.|Yes|

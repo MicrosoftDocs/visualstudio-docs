@@ -473,7 +473,7 @@
     - name: F# development
       href: ide/fsharp-in-visual-studio.md
       items:
-      - name: Target older .NET Framework versions
+      - name: Target older .NET versions
         href: ide/fsharp-target-older-version-of-dotnet.md
     - name: Office and Sharepoint development
       href: vsto/office-and-sharepoint-development-in-visual-studio.md
