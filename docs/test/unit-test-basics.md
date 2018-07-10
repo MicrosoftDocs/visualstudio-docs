@@ -119,7 +119,7 @@ It is often quicker to generate the unit test project and unit test stubs from y
 
  Each unit test project contains classes that mirror the names of the classes in the code project. In our example, the `AccountsTests` project would contain the following classes:
 
--   `AccountInfoTests` class contains the unit test methods for the `AccountInfo` class in the `BankAccount` project
+-   `AccountInfoTests` class contains the unit test methods for the `AccountInfo` class in the `Accounts` project
 
 -   `CheckingAccountTests` class contains the unit test methods for `CheckingAccount` class.
 
