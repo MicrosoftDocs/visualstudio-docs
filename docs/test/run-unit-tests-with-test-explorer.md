@@ -1,6 +1,6 @@
 ---
-title: "Run unit tests with Test Explorer"
-description: Learn how to run tests with the Test Exlorer in Visual Studio. This topic covers Test Explorer run buttons, enable run tests after build, view test results, group and filter the test list, create playlists, debug tests, and test shortcuts.
+title: "Run, build, and debug unit tests with the Test Explorer"
+description: Learn how to run tests with the Test Exlorer in Visual Studio. This topic covers how to enable automatic test runs after build, view test results, group and filter the test list, create playlists, debug tests, and use test shortcuts.
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
