@@ -97,7 +97,7 @@
       },
       "feedback_system": {
         "vs-2015/**/*": "None"
- }
+      }
     },
 
     "template": [],
