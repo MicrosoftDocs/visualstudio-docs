@@ -11,11 +11,11 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# L2DBForm.xaml Source Code
+# L2DBForm.xaml source code
 
-This topic contains and describes the XAML source file for the [WPF Data Binding Using LINQ to XML Example](../designers/wpf-data-binding-using-linq-to-xml-example.md), L2DBForm.xaml.
+This topic contains and describes the XAML source file for the [WPF data binding using LINQ to XML example](../designers/wpf-data-binding-using-linq-to-xml-example.md), *L2DBForm.xaml*.
 
-## Overall UI Structure
+## Overall UI structure
 
 As is typical for a WPF project, this file contains one parent element, a <xref:System.Windows.Window> XML element associated with the derived class `L2XDBFrom` in the `LinqToXmlDataBinding` namespace.
 
@@ -23,7 +23,7 @@ The client area is contained within a <xref:System.Windows.Controls.StackPanel> 
 
 Each section contains a label that identifies it. In the first two sections, this label is rotated 90 degrees through the use of a <xref:System.Windows.FrameworkElement.LayoutTransform%2A>. The rest of the section contains UI elements appropriate to the purpose of that section: text blocks, text boxes, buttons, and so on. Sometimes a child <xref:System.Windows.Controls.StackPanel> is used to align these child controls.
 
-## Window Resource Section
+## Window resource section
 
 The opening `<Window.Resources>` tag on line 9 indicates the start of the window resource section. It ends with the closing tag on line 35.
 
@@ -35,7 +35,7 @@ Lastly, a <xref:System.Windows.DataTemplate> named `BookTemplate` is defined on 
 Text="{Binding Path=Attribute[id].Value}"Text="{Binding Path=Value}"
 ```
 
-## Data Binding Code
+## Data binding code
 
 In addition to the <xref:System.Windows.DataTemplate> element, data binding is used in a number of other places in this file.
 
@@ -237,9 +237,9 @@ The last UI section, **Add New Book**, doesn't use data binding in its XAML code
 
 ### Comments
 
-For the C# source code for the event handlers associated with the WPF UI elements, see [L2DBForm.xaml.cs Source Code](../designers/l2dbform-xaml-cs-source-code.md).
+For the C# source code for the event handlers associated with the WPF UI elements, see [L2DBForm.xaml.cs source code](../designers/l2dbform-xaml-cs-source-code.md).
 
 ## See also
 
-- [Walkthrough: LinqToXmlDataBinding Example](../designers/walkthrough-linqtoxmldatabinding-example.md)
-- [L2DBForm.xaml.cs Source Code](../designers/l2dbform-xaml-cs-source-code.md)
+- [Walkthrough: LinqToXmlDataBinding example](../designers/walkthrough-linqtoxmldatabinding-example.md)
+- [L2DBForm.xaml.cs source code](../designers/l2dbform-xaml-cs-source-code.md)
