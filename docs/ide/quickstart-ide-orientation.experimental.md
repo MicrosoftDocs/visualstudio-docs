@@ -24,7 +24,7 @@ The first thing you'll see after you launch Visual Studio is most likely the **S
 
 If you close the **Start Page** and want to see it again, you can reopen it from the **File** menu.
 
-![File menu](media/quickstart-IDE-file-menu-large.png)
+![File menu](media/file-menu-start-page-dark.png)
 
 To continue exploring the IDE, let's create a new project.
 
@@ -38,13 +38,13 @@ To continue exploring the IDE, let's create a new project.
 
 **Solution Explorer** shows you a graphical representation of the hierarchy of files and folders in your project, solution, or code folder. You can browse the hierarchy and navigate to a file in **Solution Explorer**.
 
-![Solution Explorer](media/quickstart-IDE-solution-explorer.png)
+![Solution Explorer](media/solution-explorer-console-app-dark.png)
 
 ## Menus
 
 The menu bar along the top of the IDE groups commands into categories. For example, the **Project** menu contains commands related to the project you're working in. On the **Tools** menu, you can customize the IDE by selecting **Options**, or add features to your installation by selecting **Get Tools and Features**.
 
-![Menu bar](media/quickstart-IDE-menu-bar.png)
+![Menu bar](media/menu-bar-dark.png)
 
 Let's open the **Error List** window by choosing the **View** menu, and then **Error List**.
 
@@ -52,7 +52,7 @@ Let's open the **Error List** window by choosing the **View** menu, and then **E
 
 The **Error List** shows you errors, warning, and messages regarding the current state of your code. If there were any errors (such as a syntax typo) in your file, or anywhere in your project, they would be listed here.
 
-![Error List](media/quickstart-IDE-error-list.png)
+![Error List](media/error-list-dark.png)
 
 ## Output window
 
@@ -60,7 +60,7 @@ The **Output** window shows you output messages from Build and Source Control.
 
 Let's build the project to see some output logging. From the **Build** menu, choose **Build Solution**. The **Output** window automatically obtains focus and display a successful build message.
 
-![Output Window](media/quickstart-IDE-output.png)
+![Output window in Visual Studio](media/output-window-dark.png)
 
 ## Quick Launch
 
@@ -68,7 +68,7 @@ The **Quick Launch** box is a quick and easy way to do pretty much anything in t
 
 1. Enter **verbosity** into the **Quick Launch** box, and then choose **Projects and Solutions --> Build and Run** under the **Options** category.
 
-   ![Quick launch box](media/quickstart-IDE-quick-launch.png)
+   ![Quick launch box](media/quick-launch-dark.png)
 
    The **Options** dialog box opens to the **Build and Run** options page.
 
@@ -82,7 +82,7 @@ The **Quick Launch** box is a quick and easy way to do pretty much anything in t
 
 Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu at the top of the IDE, next to the **Quick Launch** box.
 
-![Send Feedback menu](media/quickstart-IDE-send-feedback.png)
+![Send Feedback menu](media/send-feedback-dark.png)
 
 ## Next steps
 
@@ -95,5 +95,5 @@ We've looked at just a few of the features of the Visual Studio IDE to get acqua
 ## See also
 
 - [Quickstart: Personalize the IDE](../ide/personalizing-the-visual-studio-ide.md)
-- [Quickstart: Coding in the editor](../ide/quickstart-editor.md)
+- [Quickstart: Write code in the editor](../ide/quickstart-editor.md)
 - [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)
