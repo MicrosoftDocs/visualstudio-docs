@@ -16,5 +16,7 @@ ms.assetid: ba237712-f8c4-4d13-854b-ab4a16afa309
 caps.latest.revision: 128
 ms.author: gewarren
 manager: "crdun"
+feedback_system: None
+breadcrumb_path: /visualstudio/_breadcrumb/vs-2015/toc.json
 ---
 # Visual Studio 2015 Documentation
