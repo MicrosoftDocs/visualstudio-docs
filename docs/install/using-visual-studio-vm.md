@@ -1,7 +1,7 @@
 ---
 title: "Using Visual Studio on an Azure Virtual Machine"
 description: "Learn how to use Visual Studio on an Azure Virtual Machine"
-ms.date: 03/03/2018
+ms.date: 07/10/2018
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
