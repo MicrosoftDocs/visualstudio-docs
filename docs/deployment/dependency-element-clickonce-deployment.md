@@ -28,12 +28,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;dependency&gt; Element (ClickOnce Deployment)
+# &lt;dependency&gt; element (ClickOnce deployment)
 Identifies the version of the application to install, and the location of the application manifest.  
   
 ## Syntax  
   
-```  
+```xml  
   
       <dependency>   
    <dependentAssembly  
@@ -66,7 +66,7 @@ Identifies the version of the application to install, and the location of the ap
 </dependency>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `dependency` element is required. It has no attributes. A deployment manifest can have multiple `dependency` elements.  
   
  The `dependency` element usually expresses dependencies for the main application on assemblies contained within a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. If your Main.exe application consumes an assembly called DotNetAssembly.dll, then that assembly must be listed in a dependency section. Dependency, however, can also express other types of dependencies, such as dependencies on a specific version of the common language runtime, on an assembly in the global assembly cache (GAC), or on a COM object. Because it is a no-touch deployment technology, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] cannot initiate download and installation of these types of dependencies, but it does prevent the application from running if one or more of the specified dependencies do not exist.  
@@ -125,7 +125,7 @@ Identifies the version of the application to install, and the location of the ap
 ## Example  
  The following code example shows a `dependency` element in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest.  
   
-```  
+```xml  
 <!-- Identify the assembly dependencies -->  
 <dependency>  
   <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MyApplication.exe" size="16384">  
@@ -144,7 +144,7 @@ Identifies the version of the application to install, and the location of the ap
 ## Example  
  The following code example specifies a dependency on an assembly already installed in the GAC.  
   
-```  
+```xml  
 <dependency>  
   <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">  
     <assemblyIdentity name="GACAssembly" version="1.0.0.0" language="neutral" processorArchitecture="msil" />  
@@ -155,7 +155,7 @@ Identifies the version of the application to install, and the location of the ap
 ## Example  
  The following code example specifies a dependency on a specific version of the common language runtime.  
   
-```  
+```xml  
 <dependency>  
   <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">  
     <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50215.0" />  
@@ -166,7 +166,7 @@ Identifies the version of the application to install, and the location of the ap
 ## Example  
  The following code example specifies an operating system dependency.  
   
-```  
+```xml  
 <dependency>  
    <dependentOS supportUrl="http://www.microsoft.com" description="Microsoft Windows Operating System">  
       <osVersionInfo>  
@@ -176,6 +176,6 @@ Identifies the version of the application to install, and the location of the ap
 </dependency>  
 ```  
   
-## See Also  
- [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)   
- [\<dependency> Element](../deployment/dependency-element-clickonce-application.md)
+## See also  
+ [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)   
+ [\<dependency> element](../deployment/dependency-element-clickonce-application.md)

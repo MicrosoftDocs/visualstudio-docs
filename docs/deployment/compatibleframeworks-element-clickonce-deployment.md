@@ -17,15 +17,15 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;compatibleFrameworks&gt; Element (ClickOnce Deployment)
+# &lt;compatibleFrameworks&gt; element (ClickOnce deployment)
 Identifies the versions of the .NET Framework where this application can install and run.  
   
 > [!NOTE]
->  [MageUI.exe](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client) does not support the `compatibleFrameworks` element when saving an application manifest that has already been signed with a certificate using [MageUI.exe](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client). Instead, you must use [Mage.exe](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool).  
+>  [*MageUI.exe*](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client) does not support the `compatibleFrameworks` element when saving an application manifest that has already been signed with a certificate using [*MageUI.exe*](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client). Instead, you must use [*Mage.exe*](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool).  
   
 ## Syntax  
   
-```  
+```xml  
 <compatibleFrameworks  
       SupportUrl>   
    <framework  
@@ -36,7 +36,7 @@ Identifies the versions of the .NET Framework where this application can install
 </ compatibleFrameworks>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `compatibleFrameworks` element is required for deployment manifests that target the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] runtime provided by [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] or later. The `compatibleFrameworks` element contains one or more `framework` elements that specify the .NET Framework versions on which this application can run. The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] runtime will run the application on the first available `framework` in this list.  
   
  The following table lists the attribute that the `compatibleFrameworks` element supports.  
@@ -59,7 +59,7 @@ Identifies the versions of the .NET Framework where this application can install
 ## Example  
  The following code example shows a `compatibleFrameworks` element in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest. This deployment can run on the [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)]. It can also run on the [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] because it is a superset of the [!INCLUDE[net_client_v40_long](../deployment/includes/net_client_v40_long_md.md)].  
   
-```  
+```xml  
 <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">  
   <framework   
       targetVersion="4.0"   
@@ -68,5 +68,5 @@ Identifies the versions of the .NET Framework where this application can install
 </compatibleFrameworks>  
 ```  
   
-## See Also  
- [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)
+## See also  
+ [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
