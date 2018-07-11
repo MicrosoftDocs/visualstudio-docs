@@ -40,5 +40,5 @@ Certain characters have special meaning in [!INCLUDE[vstecmsbuild](../extensibil
   
 ## See also  
  [MSBuild concepts](../msbuild/msbuild-concepts.md)   
- [MSBuild](../msbuild/msbuild.md)
- [Items](../msbuild/msbuild-items.md)
+ [MSBuild](../msbuild/msbuild.md)   
+ [Items](../msbuild/msbuild-items.md)   

@@ -30,9 +30,10 @@ When you clean a build, all intermediate and output files are deleted, leaving o
   
 2.  Use the [MakeDir](../msbuild/makedir-task.md) task to create the directory if the directory does not exist. For example:  
   
-     `<MakeDir Directories = "$(builtdir)"`  
-  
-     `Condition = "!Exists('$(builtdir)')" />`  
+     ```xml
+     <MakeDir Directories = "$(builtdir)"  
+      Condition = "!Exists('$(builtdir)')" />
+     ```
   
 ## Remove the output items  
  Prior to creating new instances of intermediate and output files, you may want to clear all previous instances of intermediate and output files. Use the [RemoveDir](../msbuild/removedir-task.md) task to delete a directory and all files and directories that it contains from a disk.  
