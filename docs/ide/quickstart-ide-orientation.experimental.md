@@ -69,7 +69,7 @@ The **Quick Launch** box is a quick and easy way to do pretty much anything in t
 
 1. Enter **verbosity** into the **Quick Launch** box, and then choose **Projects and Solutions --> Build and Run** under the **Options** category.
 
-   ![Quick launch box in Visual Studio](media/quick-launch-dark.png)
+   ![Quick launch box in Visual Studio](media/quick-launch-verbosity-dark.png)
 
    The **Options** dialog box opens to the **Build and Run** options page.
 
