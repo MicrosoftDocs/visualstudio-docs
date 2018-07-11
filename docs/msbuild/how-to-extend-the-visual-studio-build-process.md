@@ -50,18 +50,18 @@ The following table shows all of the targets in *Microsoft.Common.targets* that 
   
 |Target name|Description|  
 |-----------------|-----------------|  
-|`BeforeCompile`, `AfterCompile`|Tasks inserted in one of these targets run before or after core compilation is done. Most customizations are done in one of these two targets.|  
-|`BeforeBuild`, `AfterBuild`|Tasks inserted in one of these targets will run before or after everything else in the build. **Note:**  The `BeforeBuild` and `AfterBuild` targets are already defined in comments at the end of most project files, allowing you to easily add pre- and post-build events to your project file.|  
-|`BeforeRebuild`, `AfterRebuild`|Tasks inserted in one of these targets run before or after the core rebuild functionality is invoked. The order of target execution in *Microsoft.Common.targets* is: `BeforeRebuild`, `Clean`, `Build`, and then `AfterRebuild`.|  
+|`BeforeCompile`, `AfterCompile`|Tasks that are inserted in one of these targets run before or after core compilation is done. Most customizations are done in one of these two targets.|  
+|`BeforeBuild`, `AfterBuild`|Tasks that are inserted in one of these targets will run before or after everything else in the build. **Note:**  The `BeforeBuild` and `AfterBuild` targets are already defined in comments at the end of most project files, allowing you to easily add pre- and post-build events to your project file.|  
+|`BeforeRebuild`, `AfterRebuild`|Tasks that are inserted in one of these targets run before or after the core rebuild functionality is invoked. The order of target execution in *Microsoft.Common.targets* is: `BeforeRebuild`, `Clean`, `Build`, and then `AfterRebuild`.|  
 |`BeforeClean`, `AfterClean`|Tasks that are inserted in one of these targets run before or after the core clean functionality is invoked.|  
 |`BeforePublish`, `AfterPublish`|Tasks that are inserted in one of these targets run before or after the core publish functionality is invoked.|  
 |`BeforeResolveReference`, `AfterResolveReferences`|Tasks that are inserted in one of these targets run before or after assembly references are resolved.|  
 |`BeforeResGen`, `AfterResGen`|Tasks that are inserted in one of these targets run before or after resources are generated.|  
   
-## Override "DependsOn" properties  
+## Override DependsOn properties  
  Overriding predefined targets is an easy way to extend the build process, but, because [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] evaluates the definition of targets sequentially, there is no way to prevent another project that imports your project from overriding the targets you already have overridden. So, for example, the last `AfterBuild` target defined in the project file, after all other projects have been imported, will be the one that is used during the build.  
   
- You can guard against unintended overrides of targets by overriding the "DependsOn" properties that are used in `DependsOnTargets` attributes throughout the *Microsoft.Common.targets* file. For example, the `Build` target contains a `DependsOnTargets` attribute value of `"$(BuildDependsOn)"`. Consider:  
+ You can guard against unintended overrides of targets by overriding the DependsOn properties that are used in `DependsOnTargets` attributes throughout the *Microsoft.Common.targets* file. For example, the `Build` target contains a `DependsOnTargets` attribute value of `"$(BuildDependsOn)"`. Consider:  
   
 ```xml  
 <Target Name="Build" DependsOnTargets="$(BuildDependsOn)"/>  
@@ -100,9 +100,9 @@ The following table shows all of the targets in *Microsoft.Common.targets* that 
   
  Projects that import your project files can override these properties without overwriting the customizations that you have made.  
   
-#### To override a "DependsOn" property  
+#### To override a DependsOn property  
   
-1.  Identify a predefined "DependsOn" property in *Microsoft.Common.targets* that you want to override. See the table below for a list of the commonly overridden "DependsOn" properties.  
+1.  Identify a predefined DependsOn property in *Microsoft.Common.targets* that you want to override. See the table below for a list of the commonly overridden DependsOn properties.  
   
 2.  Define another instance of the property or properties at the end of your project file. Include the original property, for example `$(BuildDependsOn)`, in the new property.  
   
@@ -110,7 +110,7 @@ The following table shows all of the targets in *Microsoft.Common.targets* that 
   
 4.  Build the project file.  
   
-### Commonly overridden "DependsOn" properties  
+### Commonly overridden DependsOn properties  
   
 |Property name|Description|  
 |-------------------|-----------------|  
