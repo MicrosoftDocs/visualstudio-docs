@@ -686,8 +686,6 @@
     items:
     - name: Template Parameters
       href: ide/template-parameters.md
-    - name: Template Schema Reference (Extensibility)
-      href: extensibility/visual-studio-template-schema-reference.md?context=visualstudio/default
   - name: General User Interface Elements
     items:
     - name: Call Hierarchy
