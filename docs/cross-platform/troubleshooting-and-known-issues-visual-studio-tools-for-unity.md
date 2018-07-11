@@ -44,10 +44,6 @@ This should fix your issue. In case you are still experiencing the problem, run 
  devenv /setup
 ```
 
-## Shader files without code coloration when using Visual Studio 2017
-
-Ensure that the "Desktop Development with C++" workload is installed in your instance of Visual Studio 2017. The C/C++ parser used for code coloration is bundled with this workload.
-
 ## Visual Studio hangs
 
 Several Unity plugins like Parse, FMOD, UMP (Universal Media Player), ZFBrowser, or Embedded Browser are using native threads. It’s an issue when a plugin ends up attaching a native thread to the runtime, which then does blocking calls to the OS. This means Unity can't interrupt that thread for the debugger (or domain reload) and hang.
