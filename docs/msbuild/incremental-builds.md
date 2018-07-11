@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Incremental Builds
+# Incremental builds
 Incremental builds are builds that are optimized so that targets that have output files that are up-to-date with respect to their corresponding input files are not executed. A target element can have both an `Inputs` attribute, which indicates what items the target expects as input, and an `Outputs` attribute, which indicates what items it produces as output. MSBuild attempts to find a 1-to-1 mapping between the values of these attributes. If a 1-to-1 mapping exists, MSBuild compares the time stamp of every input item to the time stamp of its corresponding output item. Output files that have no 1-to-1 mapping are compared to all input files. An item is considered up-to-date if its output file is the same age or newer than its input file or files.  
   
  If all output items are up-to-date, MSBuild skips the target. This *incremental build* of the target can significantly improve the build speed. If only some files are up-to-date, MSBuild executes the target but skips the up-to-date items, and thereby brings all items up-to-date. This is known as a *partial incremental build*.  
@@ -30,9 +30,9 @@ Incremental builds are builds that are optimized so that targets that have outpu
 </Target>  
 ```  
   
- The set of files represented by the `Compile` item type are copied to a backup directory. The backup files have the .bak file name extension. If the files represented by the `Compile` item type, or the corresponding backup files, are not deleted or modified after the Backup target is run, then the Backup target is skipped in subsequent builds.  
+ The set of files represented by the `Compile` item type are copied to a backup directory. The backup files have the *.bak* file name extension. If the files represented by the `Compile` item type, or the corresponding backup files, are not deleted or modified after the Backup target is run, then the Backup target is skipped in subsequent builds.  
   
-## Output Inference  
+## Output inference  
  MSBuild compares the `Inputs` and `Outputs` attributes of a target to determine whether the target has to execute. Ideally, the set of files that exists after an incremental build is completed should remain the same whether or not the associated targets are executed. Because properties and items that are created or altered by tasks can affect the build, MSBuild must infer their values even if the target that affects them is skipped. This is known as *output inference*.  
   
  There are three cases:  
@@ -42,8 +42,8 @@ Incremental builds are builds that are optimized so that targets that have outpu
 -   The target has out-of-date outputs and is run to bring them up to date.  
   
 -   The target has no out-of-date outputs and is skipped. MSBuild evaluates the target and makes changes to items and properties as if the target had been run.  
-  
- To support incremental compilation, tasks must ensure that the `TaskParameter` attribute value of any `Output` element is equal to a task input parameter. Here are some examples:  
+
+To support incremental compilation, tasks must ensure that the `TaskParameter` attribute value of any `Output` element is equal to a task input parameter. Here are some examples:  
   
 ```xml  
 <CreateProperty Value="123">  
@@ -59,11 +59,11 @@ Incremental builds are builds that are optimized so that targets that have outpu
 </CreateItem>  
 ```  
   
- This creates the item type Simple, which has two items, "a.cs" and "b.cs", whether or not the target is executed or skipped.  
+ This creates the item type Simple, which has two items, *a.cs* and *b.cs*, whether or not the target is executed or skipped.  
   
  Starting in MSBuild 3.5, output inference is performed automatically on item and property groups in a target. `CreateItem` tasks are not required in a target and should be avoided. Also, `CreateProperty` tasks should be used in a target only to determine whether a target has been executed.  
   
-## Determining Whether a Target Has Been Run  
+## Determine whether a target has been run  
  Because of output inference, you have to add a `CreateProperty` task to a target to examine properties and items so that you can determine whether the target has been executed. Add the `CreateProperty` task to the target and give it an `Output` element whose `TaskParameter` is "ValueSetByTask".  
   
 ```xml  
@@ -74,5 +74,5 @@ Incremental builds are builds that are optimized so that targets that have outpu
   
  This creates the property CompileRan and gives it the value `true`, but only if the target is executed. If the target is skipped, CompileRan is not created.  
   
-## See Also  
+## See also  
  [Targets](../msbuild/msbuild-targets.md)
