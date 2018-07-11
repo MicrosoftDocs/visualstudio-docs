@@ -62,7 +62,7 @@ If you are typically running low on memory during debugging sessions, you can op
 
     To disable the **Diagnostic Tools**, start a debugging session, choose **Tools** > **Options** > **Enable Diagnostic Tools**, and deselect the option.
 
-    For more information, see [Profiling Tools](../profiling/profiling-tools.md).
+    For more information, see [Profiling Tools](../profiling/profiling-feature-tour.md).
 
 ## Disable tools and extensions
 

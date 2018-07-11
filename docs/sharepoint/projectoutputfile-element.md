@@ -40,8 +40,8 @@ ms.workload:
 |---------------|-----------------|  
 |**ProjectId**|Required **xs:string** attribute.<br /><br /> The GUID of the dependent project that has the output you want to include. This corresponds to the **ProjectGuid** element in the dependent project file.|  
 |**ProjectPath**|Required **xs:string** attribute.<br /><br /> The relative path, including the project file name, of the dependent project that has the output you want to include. This path is relative to the root folder of the SharePoint project that contains the SharePoint project item.|  
-|**Target**|Optional **xs:string** attribute.<br /><br /> The path where the dependent project output is to be deployed on the SharePoint server, relative to the deployment root folder. The deployment root folder is determined by the deployment type specified by the **Type** attribute.<br /><br /> For more information, see the descriptions for the **Deployment Path** and **Deployment Root** properties of SharePoint project items in [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md).|  
-|**Type**|Required **xs:string** attribute.<br /><br /> The type of deployment to use for the output of the dependent project. For more information about the possible values, see the description for the **Deployment Type** property of SharePoint project items in [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md).|  
+|**Target**|Optional **xs:string** attribute.<br /><br /> The path where the dependent project output is to be deployed on the SharePoint server, relative to the deployment root folder. The deployment root folder is determined by the deployment type specified by the **Type** attribute.<br /><br /> For more information, see the descriptions for the **Deployment Path** and **Deployment Root** properties of SharePoint project items in [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md).|  
+|**Type**|Required **xs:string** attribute.<br /><br /> The type of deployment to use for the output of the dependent project. For more information about the possible values, see the description for the **Deployment Type** property of SharePoint project items in [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md).|  
   
 ### Child elements
  None.  
@@ -53,7 +53,7 @@ ms.workload:
 |[Files](../sharepoint/files-element.md)|Specifies the files to include with the SharePoint project item when it is deployed to SharePoint.|  
   
 ## Remarks  
- Use the **ProjectOutputFile** element to include the output of a project in the deployment of the SharePoint project item. You can specify a different project, or the same project that contains the project item. For more information, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md).  
+ Use the **ProjectOutputFile** element to include the output of a project in the deployment of the SharePoint project item. You can specify a different project, or the same project that contains the project item. For more information, see [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md).  
   
 ## Element information
   
@@ -65,7 +65,7 @@ ms.workload:
 |**Can be empty**|No|  
   
 ## See also
- [SharePoint Project Item Schema Reference](../sharepoint/sharepoint-project-item-schema-reference.md)   
- [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)   
- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
+ [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)   
+ [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)   
+ [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)  
   

@@ -52,7 +52,7 @@ If you remove an EditorConfig file from your project or codebase, you must close
 
 1. Open a project or solution in Visual Studio. Select either the project or solution node, depending on whether your *.editorconfig* settings should apply to all projects in the solution or just one. You can also select a folder in your project or solution to add the *.editorconfig* file to.
 
-1. From the menu bar, choose **Project** > **Add New Item...**, or press **Ctrl**+**Shift**+**A**.
+1. From the menu bar, choose **Project** > **Add New Item**, or press **Ctrl**+**Shift**+**A**.
 
    The **Add New Item** dialog box opens.
 

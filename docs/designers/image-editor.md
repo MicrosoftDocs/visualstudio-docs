@@ -40,7 +40,7 @@ This section describes how to add an image to your Visual Studio project and con
 
 ### To add an image to your project
 
-1.  In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add**, **New Item**.
+1.  In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add** > **New Item**.
 
 2.  In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select an appropriate file format for the image. For information about how to choose a file format based on your requirements, see the following section.
 
@@ -148,7 +148,7 @@ Some image formats—for example, DirectDraw Surface (.dds)—support transparen
 |**Pencil**, **Brush**, **Airbrush**, **Line**, **Rectangle**, **Rounded Rectangle**, **Ellipse**, **Text**|To blend the active color selection together with the image, in the **Properties** window, expand the **Channels** property group and set the **Draw** checkbox on the **Alpha** channel, and then draw normally.<br /><br /> To draw by using the active color selection and leave the alpha value of the image in place, clear the **Draw** checkbox of the **Alpha** channel, and then draw normally.|
 |**Fill**|To blend the active color selection together with the image, just choose the area to fill.<br /><br /> To use the active color selection—including the value of the alpha channel—to overwrite the image, press and hold Shift and then choose the area to fill.|
 
-### Image properties
+### Image properties<a name="ImageProperties"></a>
 
 You can use the **Properties** window to specify various properties of the image. For example, you can set the Width and Height properties to resize the image.
 
@@ -210,7 +210,7 @@ Here are the valid modifier key combinations:
 |Ctrl|||Copies and then resizes the content of the selected region.|
 |Ctrl|Shift||Copies and then proportionally resizes the content of the selected region.|
 
-#### Tool Properties
+#### Tool properties <a name="ToolProperties"></a> 
 
 While a tool is selected, you can use the **Properties** window to specify details about how it affects the image. For example, you can set the thickness of the **Pencil** tool or the color of the **Brush** tool.
 

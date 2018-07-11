@@ -48,7 +48,7 @@ The item template uses the single-header variant of Boost.Test, but you can modi
 
 In Visual Studio 2017 version 15.5, no pre-configured test project or item templates are available for Boost.Test. Therefore, you have to create and configure a console application project to hold your tests.
 
-1. In **Solution Explorer**, right click on the solution node and choose **Add** > **New Project...**.
+1. In **Solution Explorer**, right click on the solution node and choose **Add** > **New Project**.
 
 1. In the left pane, choose **Visual C++** > **Windows Desktop**, and then choose the **Windows Console Application** template.
 

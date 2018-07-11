@@ -21,10 +21,10 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# GetFrameworkSdkPath Task
+# GetFrameworkSdkPath task
 Retrieves the path to the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)].  
   
-## Task Parameters  
+## Task parameters  
  The following table describes the parameters of the `GetFrameworkSdkPath` task.  
   
 |Parameter|Description|  
@@ -35,7 +35,7 @@ Retrieves the path to the [!INCLUDE[winsdklong](../deployment/includes/winsdklon
 |`Path`|Optional `String` output parameter.<br /><br /> Contains the path to the latest .NET SDK, if any version is present. Otherwise returns `String.Empty`.|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  
   
 ## Example  
  The following example uses the `GetFrameworkSdkPath` task to store the path to the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] in the `SdkPath` property.  
@@ -53,6 +53,6 @@ Retrieves the path to the [!INCLUDE[winsdklong](../deployment/includes/winsdklon
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)

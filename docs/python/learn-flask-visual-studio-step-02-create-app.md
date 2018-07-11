@@ -31,7 +31,7 @@ In the code created by the "Blank Flask Web Project" template, you have a single
 
 1. In your project folder, create an app folder called `HelloFlask` (right-click the project in **Solution Explorer** and select **Add** > **New Folder**.)
 
-1. In the `HelloFlask` folder, create a file named `__init.py__` with the following contents that creates the `Flask` instance and loads the app's views (created in the next step):
+1. In the `HelloFlask` folder, create a file named `__init__.py` with the following contents that creates the `Flask` instance and loads the app's views (created in the next step):
 
     ```python
     from flask import Flask
