@@ -14,7 +14,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Image Editor
+# Image editor
 
 This document describes how to work with the Visual Studio Image Editor to view and modify texture and image resources.
 
@@ -26,13 +26,13 @@ The Image Editor supports these image formats:
 
 |Format name|File Name Extension|
 |-----------------|-------------------------|
-|Portable Network Graphics|.png|
-|JPEG|.jpg, .jpeg, .jpe, .jfif|
-|Direct Draw Surface|.dds|
-|Graphics Interchange Format|.gif|
-|Bitmap|.bmp, .dib|
-|Tagged Image File Format|.tif, .tiff|
-|TGA (Targa)|.tga|
+|Portable Network Graphics|*.png*|
+|JPEG|*.jpg*, *.jpeg*, *.jpe*, *.jfif*|
+|Direct Draw Surface|*.dds*|
+|Graphics Interchange Format|*.gif*|
+|Bitmap|*.bmp*, *.dib*|
+|Tagged Image File Format|*.tif*, *.tiff*|
+|TGA (Targa)|*.tga*|
 
 ## Get started
 
@@ -50,7 +50,7 @@ This section describes how to add an image to your Visual Studio project and con
 
 ### Choose the image format
 
-Depending on how you plan to use the image, certain file formats might be more appropriate than others. For example, some formats might not support a feature that you need—like transparency or a specific color format—or might not provide suitable compression for the kind of image content you have planned.
+Depending on how you plan to use the image, certain file formats might be more appropriate than others. For example, some formats might not support a feature that you need—like, transparency or a specific color format—or might not provide suitable compression for the kind of image content you have planned.
 
  The following information can help you choose an image format that meets your needs.
 
@@ -103,8 +103,8 @@ The Image Editor toolbars contain commands that help you work with images.
 |**Select**|Enables selection of a rectangular region of an image. After you select a region, you can cut, copy, move, scale, rotate, flip, or delete it. When there is an active selection, drawing tools only affect the selected region.|
 |**Irregular Selection**|Enables selection of an irregular region of an image. After you select a region, you can cut, copy, move, scale, rotate, flip, or delete it. When there is an active selection, drawing tools only affect the selected region.|
 |**Wand Selection**|Enables selection of a similarly-colored region of an image. The *tolerance*—that is, the maximum difference between adjacent colors within which they are considered similar—can be configured to include a smaller or wider range of similar colors. After you select a region, you can cut, copy, move, scale, rotate, flip, or delete it. When there is an active selection, drawing tools only affect the selected region.|
-|**Pan**|Enables movement of the image relative to the window frame. In **Pan** mode, select a point on the image and then move it around.<br /><br /> You can temporarily activate **Pan** mode by pressing and holding the Ctrl key.|
-|**Zoom**|Enables the display of more or less image detail relative to the window frame. In **Zoom** mode, select a point on the image and then move it right or down to zoom in, or left or up to zoom out.<br /><br /> You can zoom in or out by pressing and holding Ctrl while you either use the mouse wheel or press the Plus Sign (+) or Minus Sign (-).|
+|**Pan**|Enables movement of the image relative to the window frame. In **Pan** mode, select a point on the image and then move it around.<br /><br /> You can temporarily activate **Pan** mode by pressing and holding the **Ctrl** key.|
+|**Zoom**|Enables the display of more or less image detail relative to the window frame. In **Zoom** mode, select a point on the image and then move it right or down to zoom in, or left or up to zoom out.<br /><br /> You can zoom in or out by pressing and holding **Ctrl** while you either use the mouse wheel or press the plus sign (**+**) or minus sign (**-**).|
 |**Zoom to Actual Size**|Displays the image by using a 1:1 relationship between the pixels of the image and the pixels of the screen.|
 |**Zoom To Fit**|Displays the full image in the window frame.|
 |**Zoom To Width**|Displays the full width of the image in the window frame.|
@@ -114,7 +114,7 @@ The Image Editor toolbars contain commands that help you work with images.
 |**Red Channel**<br /><br /> **Green Channel**<br /><br /> **Blue Channel**<br /><br /> **Alpha Channel**|Enables or disables the specific color channel. **Note:**  By systematically enabling or disabling color channels, you can isolate problems that are related to one or more of them. For example, you could identify incorrect alpha transparency.|
 |**Background**|Enables or disables display of the background through transparent parts of the image. You can configure how the background is displayed by choosing from these options:<br /><br /> **Checkerboard**<br /> Uses a green color together with the specified background color to display the background as a checkerboard pattern. You can use this option to help make transparent parts of the image more apparent.<br /><br /> White Background<br /> Uses the color white to display the background.<br /><br /> Black Background<br /> Uses the color black to display the background.<br /><br /> Animate Background<br /> Pans the checkerboard pattern slowly. You can use this option to help make transparent parts of the image more apparent.|
 |**Properties**|Alternately opens or closes the **Properties** window.|
-|**Advanced**|Contains additional commands and options.<br /><br /> **Filters**<br /><br /> Provides several common image filters: **Black and White**, **Blur**, **Brighten**, **Darken**, **Edge Detection**, **Emboss**, **Invert Colors**, **Ripple**, **Sepia Tone**, and **Sharpen**.<br /><br /> **Graphics Engines**<br /><br /> **Render with D3D11**<br /> Uses Direct3D 11 to render the Image Editor design surface.<br /><br /> **Render with D3D11WARP**<br /> Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the Image Editor design surface.<br /><br /> **Tools**<br /><br /> **Flip Horizontal**<br /> Transposes the image around its horizontal, or x, axis.<br /><br /> **Flip Vertical**<br /> Transposes the image around its vertical, or y, axis.<br /><br /> **Generate Mips**<br /> Generates MIP levels for an image. If MIP levels already exist, they are recreated from the largest MIP level. Any changes that were made to smaller MIP levels are lost. To save the MIP levels that you have generated, you must use the .dds format to save the image.<br /><br /> **View**<br /><br /> **Frame Rate**<br /> When enabled, displays the frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second. **Tip:**  You can choose the **Advanced** button to run the last command again.|
+|**Advanced**|Contains additional commands and options.<br /><br /> **Filters**<br /><br /> Provides several common image filters: **Black and White**, **Blur**, **Brighten**, **Darken**, **Edge Detection**, **Emboss**, **Invert Colors**, **Ripple**, **Sepia Tone**, and **Sharpen**.<br /><br /> **Graphics Engines**<br /><br /> **Render with D3D11**<br /> Uses Direct3D 11 to render the Image Editor design surface.<br /><br /> **Render with D3D11WARP**<br /> Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the Image Editor design surface.<br /><br /> **Tools**<br /><br /> **Flip Horizontal**<br /> Transposes the image around its horizontal, or x, axis.<br /><br /> **Flip Vertical**<br /> Transposes the image around its vertical, or y, axis.<br /><br /> **Generate Mips**<br /> Generates MIP levels for an image. If MIP levels already exist, they are recreated from the largest MIP level. Any changes that were made to smaller MIP levels are lost. To save the MIP levels that you have generated, you must use the *.dds* format to save the image.<br /><br /> **View**<br /><br /> **Frame Rate**<br /> When enabled, displays the frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second. **Tip:** You can choose the **Advanced** button to run the last command again.|
 
  Here's the **Image Editor** toolbar.
 
@@ -128,29 +128,29 @@ The Image Editor toolbars contain commands that help you work with images.
 |**Brush**|Uses the active color selection to draw an anti-aliased stroke. You can set the color and thickness of the stroke in the **Properties** window.|
 |**Airbrush**|Uses the active color selection to draw an anti-aliased stroke that blends together with the image and becomes more saturated as a function of time. You can set the color and thickness of the stroke in the **Properties** window.|
 |**Eyedropper**|Sets the active color selection to the color of the selected pixel.|
-|**Fill**|Uses the active color selection to fill a region of the image. The affected region is defined as the pixel where the fill is applied, together with every pixel that is connected to it by pixels of the same color and that is the same color itself. If the fill is applied within an active selection, then the affected region is constrained by the selection.<br /><br /> By default, the active color selection is blended together with the affected region of the image according to its alpha component. To use the active color selection to overwrite the affected region, press and hold the Shift key when you use the fill tool.|
+|**Fill**|Uses the active color selection to fill a region of the image. The affected region is defined as the pixel where the fill is applied, together with every pixel that is connected to it by pixels of the same color and that is the same color itself. If the fill is applied within an active selection, then the affected region is constrained by the selection.<br /><br /> By default, the active color selection is blended together with the affected region of the image according to its alpha component. To use the active color selection to overwrite the affected region, press and hold the **Shift** key when you use the fill tool.|
 |**Eraser**|Sets pixels to the fully transparent color if the image supports an alpha channel. Otherwise, sets the pixels to the active background color.|
-|**Line**, **Rectangle**, **Rounded Rectangle**, **Ellipse**|Draws a shape on the image. You can set the color and thickness of the outline in the **Properties** window.<br /><br /> To draw a primitive that has equal width and height, press and hold Shift as you draw.|
+|**Line**, **Rectangle**, **Rounded Rectangle**, **Ellipse**|Draws a shape on the image. You can set the color and thickness of the outline in the **Properties** window.<br /><br /> To draw a primitive that has equal width and height, press and hold **Shift** as you draw.|
 |**Text**|Uses the foreground color selection to draw text. The background color is determined by the background color selection. For a transparent background, the alpha value of the background color selection must be 0. While the text region is active, you can set whether the text is drawn with an anti-aliased stroke, and you can set the text **Value**, **Font**, **Size**, and style—**Bold**, **Italics**, or **Underlined**—in the **Properties** window. The content and appearance of the text is finalized when the text region is no longer active.|
 |**Rotate**|Rotates the image 90 degrees clockwise.|
 |**Trim**|Trims the image to the active selection.|
 
 ### Work with MIP levels
 
-Some image formats—for example, DirectDraw Surface (.dds)—support MIP levels for texture-space Level-of-Detail (LOD). For information about how to generate and work with MIP levels, see [How to: Create and Modify MIP Levels](../designers/how-to-create-and-modify-mip-levels.md)
+Some image formats—for example, DirectDraw Surface (*.dds*)—support MIP levels for texture-space Level-of-Detail (LOD). For information about how to generate and work with MIP levels, see [How to: Create and modify MIP levels](../designers/how-to-create-and-modify-mip-levels.md)
 
 ### Work with transparency
 
-Some image formats—for example, DirectDraw Surface (.dds)—support transparency. There are several ways that transparency can be used, depending on the tool that you are using. To specify the level of transparency for a color selection, in the **Properties** window, set the **A** (alpha) component of the color selection. Here's how different kinds of tools control how transparency is applied:
+Some image formats—for example, DirectDraw Surface (*.dds*)—support transparency. There are several ways you can use transparency, depending on the tool that you're using. To specify the level of transparency for a color selection, in the **Properties** window, set the **A** (alpha) component of the color selection. Here's how different kinds of tools control how transparency is applied:
 
 |Tool|Description|
 |----------|-----------------|
 |**Pencil**, **Brush**, **Airbrush**, **Line**, **Rectangle**, **Rounded Rectangle**, **Ellipse**, **Text**|To blend the active color selection together with the image, in the **Properties** window, expand the **Channels** property group and set the **Draw** checkbox on the **Alpha** channel, and then draw normally.<br /><br /> To draw by using the active color selection and leave the alpha value of the image in place, clear the **Draw** checkbox of the **Alpha** channel, and then draw normally.|
-|**Fill**|To blend the active color selection together with the image, just choose the area to fill.<br /><br /> To use the active color selection—including the value of the alpha channel—to overwrite the image, press and hold Shift and then choose the area to fill.|
+|**Fill**|To blend the active color selection together with the image, just choose the area to fill.<br /><br /> To use the active color selection—including the value of the alpha channel—to overwrite the image, press and hold **Shift** and then choose the area to fill.|
 
 ### Image properties<a name="ImageProperties"></a>
 
-You can use the **Properties** window to specify various properties of the image. For example, you can set the Width and Height properties to resize the image.
+You can use the **Properties** window to specify various properties of the image. For example, you can set the width and height properties to resize the image.
 
 The following table describes image properties.
 
@@ -160,16 +160,16 @@ The following table describes image properties.
 |Height|The height of the image.|
 |Bits Per Pixel|The number of bits that represent each pixel. The value of this property depends on the **Color Format** of the image.|
 |Transparent Selection|**True** to blend the selection layer together with the main image, based on the alpha value of the selection layer; otherwise, **False**. This item is only available for images that support alpha.|
-|Format|The color format of the image. A variety of color formats can be specified, depending on the image format. The color format defines the number and kind of color channels that are included in the image, and also the size and encoding of various channels.|
+|Format|The color format of the image. You can specify a variety of color formats, depending on the image format. The color format defines the number and kind of color channels that are included in the image, and also the size and encoding of various channels.|
 |Mip Level|The active MIP level. This item is only available for textures that have MIP levels.|
 |Mip Level Count|The total number of MIP levels in the image. This item is only available for textures that have MIP levels.|
 |Frame Count|The total number of frames in the image. This item is only available for images that support texture arrays.|
 |Frame|The current frame. Only the first frame can be viewed; all other frames are lost when the image is saved.|
 |Depth Slice Count|The total number of depth slices in the image. This item is only available for images that support volume textures.|
-|Depth Slice|The current depth slice. Only the first slice can be viewed; all other slices are lost when the image is saved.|
+|Depth Slice|The current depth slice. Only the first slice can be viewed; all other slices are lost when you save the image.|
 
 > [!NOTE]
->  Because the **Rotate by** property applies to all tools and selected regions, it always appears at the bottom of the **Properties** window together with other tool properties. **Rotate by** is always displayed because the whole image is implicitly selected when there is no other selection or active tool. For more information about the **Rotate by** property, see [Tool Properties](#ToolProperties).
+>  Because the **Rotate by** property applies to all tools and selected regions, it always appears at the bottom of the **Properties** window together with other tool properties. **Rotate by** is always displayed because the whole image is implicitly selected when there is no other selection or active tool. For more information about the **Rotate by** property, see [Tool properties](#ToolProperties).
 
 #### Resize images
 
@@ -187,7 +187,7 @@ Selections in the Image Editor define regions of the image that are active—tha
 
 Most tools—**Pencil**, **Brush**, **Airbrush**, **Fill**, **Eraser**, and 2D primitives—and transformations—**Rotate**, **Trim**, **Invert Colors**, **Flip Horizontal**, and **Flip Vertical**—are constrained or defined by the active selection. However, some tools—**Eyedropper** and **Text**—and transformations—**Generate Mips**—are not affected by any active selection; these tools always behave as if the entire image is the active selection.
 
-While you are selecting a region, you can press and hold Shift to make a proportional (square) selection; otherwise, the selection is not constrained.
+While you are selecting a region, you can press and hold **Shift** to make a proportional (square) selection; otherwise, the selection is not constrained.
 
 ##### Resize selections
 
@@ -204,11 +204,11 @@ Here are the valid modifier key combinations:
 |Ctrl|Shift|Alt|Description|
 |----------|-----------|---------|-----------------|
 ||||Resizes the content of the selected region.|
-||Shift||Proportionally resizes the content of the selected region.|
-|||Alt|Resizes the selected region. This defines a new selection region.|
-||Shift|Alt|Proportionally resizes the selected region. This defines a new selection region.|
-|Ctrl|||Copies and then resizes the content of the selected region.|
-|Ctrl|Shift||Copies and then proportionally resizes the content of the selected region.|
+||**Shift**||Proportionally resizes the content of the selected region.|
+|||**Alt**|Resizes the selected region. This defines a new selection region.|
+||**Shift**|**Alt**|Proportionally resizes the selected region. This defines a new selection region.|
+|**Ctrl**|||Copies and then resizes the content of the selected region.|
+|**Ctrl**|**Shift**||Copies and then proportionally resizes the content of the selected region.|
 
 #### Tool properties <a name="ToolProperties"></a> 
 
@@ -231,50 +231,50 @@ The following table describes tool properties.
 
 |Command|Keyboard shortcuts|
 |-------------|------------------------|
-|Switch to **Select** mode|S|
-|Switch to **Zoom** mode|Z|
-|Switch to **Pan** mode|K|
-|Select all|Ctrl+A|
-|Delete the current selection|Delete|
-|Cancel the current selection|Escape|
-|Zoom in|Ctrl+Mouse wheel forward<br /><br /> Ctrl+PageUp<br /><br /> Plus Sign (+)|
-|Zoom out|Ctrl-Mouse wheel backward<br /><br /> Ctrl-PageDown<br /><br /> Minus Sign (-)|
-|Pan the image up|Mouse wheel backward<br /><br /> PageDown|
-|Pan the image down|Mouse wheel forward<br /><br /> PageUp|
-|Pan the image left|Shift+Mouse wheel backward<br /><br /> Mouse wheel left<br /><br /> Shift+PageDown|
-|Pan the image right|Shift+Mouse wheel forward<br /><br /> Mouse wheel right<br /><br /> Shift+PageUp|
-|Zoom to actual size|Ctrl+0 (zero)|
-|Fit image to window|Ctrl+G, Ctrl+F|
-|Fit image to window width|Ctrl+G, Ctrl+I|
-|Toggle grid|Ctrl+G, Ctrl+G|
-|Crop image to current selection|Ctrl+G, Ctrl+C|
-|View next (higher detail) MIP level|Ctrl+G, Ctrl+6|
-|View previous (lower detail) MIP level|Ctrl+G, Ctrl+7|
-|Toggle red color channel|Ctrl+G, Ctrl+1|
-|Toggle green color channel|Ctrl+G, Ctrl+2|
-|Toggle blue color channel|Ctrl+G, Ctrl+3|
-|Toggle alpha (transparency) channel|Ctrl+G, Ctrl+4|
-|Toggle alpha checkerboard pattern|Ctrl+G, Ctrl+B|
-|Switch to irregular selection tool|L|
-|Switch to wand selection tool|M|
-|Switch to pencil tool|P|
-|Switch to brush tool|B|
-|Switch to fill tool|F|
-|Switch to eraser tool|E|
-|Switch to text tool|T|
-|Switch to color-select (eyedropper) tool|I|
-|Move the active selection, and its contents.|Arrow keys.|
-|Resize the active selection, and its contents.|Ctrl+Arrow keys|
-|Move the active selection, but not its contents.|Shift+Arrow keys|
-|Resize the active selection, but not its contents.|Shift+Ctrl+Arrow keys|
-|Commit the current layer|Return|
-|Decrease tool thickness|[|
-|Increase tool thickness|]|
+|Switch to **Select** mode|**S**|
+|Switch to **Zoom** mode|**Z**|
+|Switch to **Pan** mode|**K**|
+|Select all|**Ctrl**+**A**|
+|Delete the current selection|**Delete**|
+|Cancel the current selection|**Esc** (escape)|
+|Zoom in|**Ctrl**+**Mouse wheel forward**<br /><br /> **Ctrl**+**PageUp**<br /><br /> Plus Sign (**+**)|
+|Zoom out|**Ctrl**-**Mouse wheel backward**<br /><br /> **Ctrl**-**PageDown**<br /><br /> Minus Sign (**-**)|
+|Pan the image up|**Mouse wheel backward**<br /><br /> **PageDown**|
+|Pan the image down|**Mouse wheel forward**<br /><br /> **PageUp**|
+|Pan the image left|**Shift**+**Mouse wheel backward**<br /><br /> **Mouse wheel left**<br /><br /> **Shift**+**PageDown**|
+|Pan the image right|**Shift**+**Mouse wheel forward**<br /><br /> **Mouse wheel right**<br /><br /> **Shift**+**PageUp**|
+|Zoom to actual size|**Ctrl**+**0** (zero)|
+|Fit image to window|**Ctrl**+**G**, **Ctrl**+**F**|
+|Fit image to window width|**Ctrl**+**G**, **Ctrl**+**I**|
+|Toggle grid|**Ctrl**+**G**, **Ctrl**+**G**|
+|Crop image to current selection|**Ctrl**+**G**, **Ctrl**+**C**|
+|View next (higher detail) MIP level|**Ctrl**+**G**, **Ctrl**+**6**|
+|View previous (lower detail) MIP level|**Ctrl**+**G**, **Ctrl**+**7**|
+|Toggle red color channel|**Ctrl**+**G**, **Ctrl**+**1**|
+|Toggle green color channel|**Ctrl**+**G**, **Ctrl**+**2**|
+|Toggle blue color channel|**Ctrl**+**G**, **Ctrl**+**3**|
+|Toggle alpha (transparency) channel|**Ctrl**+**G**, **Ctrl**+**4**|
+|Toggle alpha checkerboard pattern|**Ctrl**+**G**, **Ctrl**+**B**|
+|Switch to irregular selection tool|**L**|
+|Switch to wand selection tool|**M**|
+|Switch to pencil tool|**P**|
+|Switch to brush tool|**B**|
+|Switch to fill tool|**F**|
+|Switch to eraser tool|**E**|
+|Switch to text tool|**T**|
+|Switch to color-select (eyedropper) tool|**I**|
+|Move the active selection, and its contents.|**Arrow** keys.|
+|Resize the active selection, and its contents.|**Ctrl**+**Arrow** keys|
+|Move the active selection, but not its contents.|**Shift**+**Arrow** keys|
+|Resize the active selection, but not its contents.|**Shift**+**Ctrl**+**Arrow** keys|
+|Commit the current layer|**Return**|
+|Decrease tool thickness|**[**|
+|Increase tool thickness|**]**|
 
 ## Related topics
 
 |Title|Description|
 |-----------|-----------------|
-|[Working with 3D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the tools that you can use in Visual Studio to work with graphics assets such as textures and images, 3D models, and shader effects.|
-|[Model Editor](../designers/model-editor.md)|Describes how to use the Visual Studio Model Editor to work with 3D models.|
-|[Shader Designer](../designers/shader-designer.md)|Describes how to use the Visual Studio Shader Designer to work with shaders.|
+|[Working with 3D assets for games and apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the tools that you can use in Visual Studio to work with graphics assets such as textures and images, 3D models, and shader effects.|
+|[Model editor](../designers/model-editor.md)|Describes how to use the Visual Studio Model Editor to work with 3D models.|
+|[Shader designer](../designers/shader-designer.md)|Describes how to use the Visual Studio Shader Designer to work with shaders.|
