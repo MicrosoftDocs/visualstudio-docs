@@ -1,4 +1,4 @@
-# [Welcome to Visual Studio 2015](index.md)
+# [Visual Studio 2015 Documentation](index.md)
 ## [Welcome to Visual Studio 2015](ide\welcome-to-visual-studio-2015.md)
 ## [What's New in Visual Studio 2015](ide\what-s-new-in-visual-studio-2015.md)
 ## [Install Visual Studio 2015](install/install-visual-studio-2015.md)

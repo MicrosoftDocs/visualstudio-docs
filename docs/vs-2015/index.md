@@ -26,54 +26,228 @@ Tutorials, videos, and other documentation show you ways to create code and apps
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="/visualstudio/install/install-visual-studio-2015">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img data-hoverimage="../../images/setup-install.svg" src="../../images/setup-install.png" alt="Visual Studio install setup" />
-                            </div>
+        <a href="https://docs.microsoft.com/visualstudio/debugger/debugger-feature-tour">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_road-map.svg" alt="">
                         </div>
-                        <div class="cardText">
-                            <h3>Learn how to install and set up Visual Studio</h3>
-                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Get started with the Debugger</h3>
                     </div>
                 </div>
             </div>
+        </div>
         </a>
     </li>
     <li>
-        <a href="/visualstudio/ide/welcome-to-visual-studio-2015">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="Visual Studio overview" />
-                            </div>
+        <a href="https://docs.microsoft.com/visualstudio/debugger/debugging-absolute-beginners">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_debug.svg" alt="">
                         </div>
-                        <div class="cardText">
-                            <h3>Get an overview of Visual Studio</h3>
-                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Debugging for absolute beginners</h3>
                     </div>
                 </div>
             </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/visualstudio/debugger/getting-started-with-the-debugger">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_debug.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Learn to debug</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugger-Feature-tour-of-Visual-studio-2017-sqwiwLD6D_1111787171">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_video.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Watch a Video on using the Debugger</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/visualstudio/debugger/remote-debugging">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_learn-about.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Learn about Remote Debugging</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/visualstudio/debugger/how-to-use-intellitrace-step-back">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_get-started.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>View IntelliTrace snapshots (Visual Studio Enterprise)</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/visualstudio/debugger/debug-live-azure-applications">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_get-started.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Debug live Azure App Service applications</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/visualstudio/debugger/debugger-tips-and-tricks">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_debug.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Debugger Tips and Tricks</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/visualstudio/debugger/get-started-debugging-multithreaded-apps">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_get-started.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Debug Multi-Threaded Apps</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/visualstudio/debugger/what-s-new-for-the-debugger-in-visual-studio">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/common/i_whats-new.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>See What&#39;s New in the Debugger</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
         </a>
     </li>
 </ul>
 
-<h2>Browse the documentation</h2>
+<hr>
+<h2>Reference</h2>
 
-<!-- Converting to icon48 format, this gets cleaner in YAML -->
-<div class="ico48Case halfStack">
-
-<!--
-<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833067"><img width="48" height="48" alt="F# tutorial"
-src="https://docs.microsoft.com/media/logos/logo_Fsharp.svg"><span>F#</span></a></div>
-<div class="ico48Link"><a href="https://go.microsoft.com/fwlink/?linkid=833066"><img width="48" height="48" alt="TypeScript tutorial"
-src="https://docs.microsoft.com/media/logos/logo_TS.svg"><span>TypeScript</span></a></div>
--->
-
-<div class="ico48Link"><a href="visualstudio/debugger/debugging-in-visual-studio"><img width="48" height="48" alt="Debugging"
-src="https://docs.microsoft.com/media/common/i_debug.svg"><span>Debugging</span></a></div>
+<ul class="panelContent cardsW">
+    <li>
+        <a href="https://msdn.microsoft.com/library/ee661590.aspx">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>IntelliTrace Reference</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/debug-interface-access-sdk">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Debug Interface Access SDK</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/visualstudio/debugger/spy-increment-help">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Spy++</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+</ul>
