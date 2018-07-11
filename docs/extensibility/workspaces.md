@@ -149,7 +149,7 @@ internal class MySettingsProviderFactory : IWorkspaceSettingsProviderFactory
 ## Workspace suggested practices
 
 - Return objects from `IWorkspaceProviderFactory.CreateProvider` or similar APIs that remember their `Workspace` context when created. Providers interfaces are written expecting this object is kept on creation.
-- Save workspace-specific caches or settings within the "Local settings" path of the workspace. Create a path for your file using <xref:Microsoft.VisualStudio.Workspace.WorkspaceHelper.MakeRootedUnderWorkingFolder%2A> in Visual Studio 2017 version 15.6 or later. For versions prior to version 15.6, use the following snippet:
+- Save workspace-specific caches or settings within the "Local settings" path of the workspace. Create a path for your file using `Microsoft.VisualStudio.Workspace.WorkspaceHelper.MakeRootedUnderWorkingFolder` in Visual Studio 2017 version 15.6 or later. For versions prior to version 15.6, use the following snippet:
 
 ```csharp
 using System.IO;
