@@ -51,7 +51,7 @@ There are a couple of common reasons this problem can occur:
 There are a couple of common reasons this problem can occur:
 
 - You may not be using Visual Studio 2017 version 15.8 Preview 3 or higher. You’ll need this version to be able to use the extended “Format Document” command to perform additional code cleanup for the current document. 
-- You may not be opted in to style fixes. The extended capability of fixing convention-based issues capability in Format Document only covers a fixed set of issues, which you can change in **Tools-Options** under **Text Editor > C# > Code Style > Formatting > General > Format Document Settings (Experiment)**. Notice that the default settings do not fix some style conventions. You can opt in to these via **Tools > options** (for example "Apply implicit/explicit type preferences" will run style rules related to the use of `var` in your code).
+- You may not be opted in to style fixes. The extended capability of fixing convention-based issues capability in Format Document only covers a fixed set of issues. You can change which issues are fixed in **Tools-Options** under **Text Editor > C# > Code Style > Formatting > General > Format Document Settings (Experiment)**. Notice that the default settings do not fix some style conventions. You can opt in to these via **Tools > options**. For example "Apply implicit/explicit type preferences" will run style rules about use of `var`.
 
 ## Q. Which EditorConfig Conventions can Visual Studio IntelliCode infer?
 
