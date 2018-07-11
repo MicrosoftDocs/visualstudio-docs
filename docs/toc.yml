@@ -470,6 +470,11 @@
       href: ide/find-and-fix-code-errors.md
     - name: Cross-platform mobile development
       href: cross-platform/cross-platform-mobile-development-in-visual-studio.md
+    - name: F# development
+      href: ide/fsharp-visual-studio.md
+      items:
+      - name: Target older .NET versions
+        href: ide/fsharp-target-older-dotnet-versions.md
     - name: Office and Sharepoint development
       href: vsto/office-and-sharepoint-development-in-visual-studio.md
     - name: Work with XML and XSLT files
