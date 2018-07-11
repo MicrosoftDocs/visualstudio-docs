@@ -5718,7 +5718,12 @@
         },
         {
             "source_path": "docs/ide/welcome-to-visual-studio-2015.md",
-            "redirect_url": "/docs/ide/",
+            "redirect_url": "/visualstudio/ide/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/what-s-new-in-visual-studio-2015.md",
+            "redirect_url": "/visualstudio/ide/whats-new-in-visual-studio",
             "redirect_document_id": false
         }
     ]
