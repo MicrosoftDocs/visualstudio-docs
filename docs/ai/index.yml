@@ -4,17 +4,13 @@ title: Visual Studio Tools for AI
 metadata:
   document_id: 83ceabb5-fb4f-a709-3fd2-37d024409f31
   title: Visual Studio Tools for AI | Microsoft Docs
-  meta.description:
-  services: ai-tools-visual-studio
+  ms.prod: visual-studio-dev15
+  ms.technology: vs-ai-tools
   author: lisawong19
+  ms.author: liwong
   manager: routlaw
-  ms.service: visual studio
-  ms.tgt_pltfrm: na
-  ms.devlang: na
   ms.topic: landing-page
   ms.date: 10-25-2017
-  ms.author: liwong
-  ms.technology: vs-ai-tools
 abstract:
   description: Visual Studio Tools for AI is an integrated development environment to build, test, and deploy deep learning solutions. Learn how to use AI Tools with our quickstarts, tutorials, and samples.
 sections:

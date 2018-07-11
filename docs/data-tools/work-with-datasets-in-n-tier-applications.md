@@ -24,7 +24,7 @@ ms.workload:
 ---
 # Work with datasets in n-tier applications
 
-*N-tier data applications* are data-centric applications that are separated into multiple logical layers (or *tiers*). In other words, an n-tier data application is an application that is separated into multiple projects, with the data access tier, the business logic tier, and the presentation tier each in its own project. For more information, see [N-Tier Data Applications Overview](../data-tools/n-tier-data-applications-overview.md).
+*N-tier data applications* are data-centric applications that are separated into multiple logical layers (or *tiers*). In other words, an n-tier data application is an application that is separated into multiple projects, with the data access tier, the business logic tier, and the presentation tier each in its own project. For more information, see [N-Tier data applications overview](../data-tools/n-tier-data-applications-overview.md).
 
 Typed datasets have been enhanced so that the TableAdapters and dataset classes can be generated into discrete projects. This provides the ability to quickly separate application layers and generate n-tier data applications.
 
@@ -37,8 +37,8 @@ N-tier support in typed datasets enables iterative development of the applicatio
 
 ## See also
 
-- [N-Tier Data Applications Overview](../data-tools/n-tier-data-applications-overview.md)
-- [Walkthrough: Creating an N-Tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)
+- [N-Tier data applications overview](../data-tools/n-tier-data-applications-overview.md)
+- [Walkthrough: Creating an n-tier Data Application](../data-tools/walkthrough-creating-an-n-tier-data-application.md)
 - [Add code to TableAdapters in n-tier applications](../data-tools/add-code-to-tableadapters-in-n-tier-applications.md)
 - [Add code to datasets in n-tier applications](../data-tools/add-code-to-datasets-in-n-tier-applications.md)
 - [Add validation to an n-tier dataset](../data-tools/add-validation-to-an-n-tier-dataset.md)
@@ -46,5 +46,5 @@ N-tier support in typed datasets enables iterative development of the applicatio
 - [Hierarchical update](../data-tools/hierarchical-update.md)
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
 - [Accessing data in Visual Studio](../data-tools/accessing-data-in-visual-studio.md)
-- [Create and Configure TableAdapters](../data-tools/create-and-configure-tableadapters.md)
-- [N-Tier and Remote Applications with LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/n-tier-and-remote-applications-with-linq-to-sql)
+- [Create and configure TableAdapters](../data-tools/create-and-configure-tableadapters.md)
+- [N-Tier and remote applications with LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/n-tier-and-remote-applications-with-linq-to-sql)

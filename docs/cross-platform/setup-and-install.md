@@ -4,6 +4,7 @@ ms.custom: ""
 ms.date: "03/30/2018"
 ms.topic: "conceptual"
 ms.assetid: 2cfcad00-352c-4161-814c-f5ae32d8ada8
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-mobile
 author: charlespetzold
 ms.author: chape
@@ -11,7 +12,6 @@ manager: crdun
 ms.workload:
   - "xamarin"
 ---
-
 # Setup and install
 
 To build native iOS, Android, and Windows apps from a common C#/.NET code base using Xamarin, you need the following hardware and software:

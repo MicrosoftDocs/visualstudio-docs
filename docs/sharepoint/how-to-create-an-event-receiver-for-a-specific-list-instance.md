@@ -83,6 +83,6 @@ ms.workload:
      Notice that the event receiver does not trigger on the new announcement because the receiver is configured to respond only to events in the custom announcement list instance, **TestAnnouncements**.  
   
 ## See also
- [How to: Create an Event Receiver](../sharepoint/how-to-create-an-event-receiver.md)   
- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
+ [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)   
+ [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)  
   

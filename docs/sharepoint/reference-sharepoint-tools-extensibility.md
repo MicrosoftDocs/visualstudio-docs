@@ -20,12 +20,12 @@ ms.workload:
   This section contains reference documentation for extending the SharePoint tools in Visual Studio.  
   
 ## In this section
- [SharePoint Project Item Schema Reference](../sharepoint/sharepoint-project-item-schema-reference.md)  
+ [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)  
  Contains reference documentation for the *.spdata* file schema.  
   
- [API Reference &#40;SharePoint Tools Extensibility&#41;](../sharepoint/api-reference-sharepoint-tools-extensibility.md)  
+ [API reference &#40;SharePoint tools extensibility&#41;](../sharepoint/api-reference-sharepoint-tools-extensibility.md)  
  Contains API reference documentation for extending the SharePoint tools in Visual Studio.  
   
 ## See also
- [Extending the SharePoint Tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)  
+ [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)  
   

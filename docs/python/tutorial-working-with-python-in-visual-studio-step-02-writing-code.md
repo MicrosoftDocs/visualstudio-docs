@@ -88,7 +88,7 @@ Although Solution Explorer is where you manage project files, the *editor* windo
 
 ## Go deeper
 
-- [Editing code](editing-python-code-in-visual-studio.md)
-- [Formatting code](formatting-python-code.md)
-- [Refactoring code](refactoring-python-code.md)
-- [Using PyLint](linting-python-code.md)
+- [Edit code](editing-python-code-in-visual-studio.md)
+- [Format code](formatting-python-code.md)
+- [Refactor code](refactoring-python-code.md)
+- [Use PyLint](linting-python-code.md)

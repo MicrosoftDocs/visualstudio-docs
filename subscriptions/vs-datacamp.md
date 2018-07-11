@@ -3,7 +3,7 @@ title: Enhance your data science skills today with the DataCamp benefit in selec
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
-ms.date: 05/30/20108
+ms.date: 05/30/2018
 ms.topic: Get-Started-Article
 description:  Learn about the DataCamp training subscription included with selected Visual Studio subscriptions.
 ms.prod: vs-subscription

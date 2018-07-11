@@ -275,8 +275,8 @@ ms.workload:
  To resolve this problem, make sure that the Site URL property value of the SharePoint project in Visual Studio matches the URL that's assigned to the Default Zone for the alternate access mappings of the web application. You can't resolve the error by using another zone, such as Intranet, for the URL. The site URL for the project and the URL in the default zone must match. To access alternate access mappings, open the SharePoint 2010 Central Administration utility, choose the **Application Management** link , and then, under **Web Applications**, choose the **Configure alternate access mappings** link. For more information, see [Create zones for Web applications](http://go.microsoft.com/fwlink/?LinkId=192274).  
   
 ## See also
- [Troubleshooting SharePoint Packaging and Deployment](../sharepoint/troubleshooting-sharepoint-packaging-and-deployment.md)   
- [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)   
+ [Troubleshoot SharePoint packaging and deployment](../sharepoint/troubleshooting-sharepoint-packaging-and-deployment.md)   
+ [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)   
  [Debugging in Visual Studio](/visualstudio/debugger/debugging-in-visual-studio)  
   
   

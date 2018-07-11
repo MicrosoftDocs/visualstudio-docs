@@ -46,7 +46,7 @@ By using IntelliTrace, you can more easily debug SharePoint solutions. Tradition
 
 You need the following components to complete this walkthrough:
 
-- Supported editions of Windows and SharePoint. See [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
+- Supported editions of Windows and SharePoint. See [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
 
 - Visual Studio Enterprise.
 
@@ -328,6 +328,6 @@ Now you can view the IntelliTrace log file in Visual Studio to find and fix the 
 
 ## See also
 
-[Verifying and Debugging SharePoint Code](../sharepoint/verifying-and-debugging-sharepoint-code.md)  
+[Verify and debug SharePoint code](../sharepoint/verifying-and-debugging-sharepoint-code.md)  
 [IntelliTrace](/visualstudio/debugger/intellitrace)  
 [Walkthrough: Verify SharePoint Code by Using Unit Tests](https://msdn.microsoft.com/library/gg599006(v=vs.100).aspx)

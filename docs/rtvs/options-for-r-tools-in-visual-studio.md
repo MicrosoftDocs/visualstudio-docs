@@ -26,7 +26,7 @@ Settings are accessed through the **R Tools** > **Options** menu, or through **T
 Options and settings specific to R are accessed using the methods below. You must select the **Show all settings** box at the bottom of the **Options** dialog box for all of these sections to appear.
 
 - Code formatting options (see [Editor options](editing-r-code-in-visual-studio.md#editor-options): **Tools** > **Options** menu, then select **Text Editor** > **R** > **Formatting**
-- Linting options (see [Linting](linting-r-code.md)): **Tools** > **Options** menu, then select **Text Editor** > **R** > **Lint**
+- Linter options (see [Linting](linting-r-code.md)): **Tools** > **Options** menu, then select **Text Editor** > **R** > **Lint**
 - Advanced editor options ([described in this article](#text-editor--r--advanced-options)): **Tools** > **Options** menu, then select **Text Editor** > **R** > **Advanced**
 - Behavioral options ([described in this article](#r-tools--advanced-options)): **R Tools** > **Options** menu, or **Tools** > **Options**, then scroll to **R Tools**.
 
