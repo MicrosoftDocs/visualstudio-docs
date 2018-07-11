@@ -1,6 +1,6 @@
 ---
 title: Tour of the Visual Studio IDE
-ms.date: 11/15/2017
+ms.date: 07/12/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: quickstart
@@ -9,6 +9,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
+experiment_id: 92a235b7-7520-4b
 ---
 # Quickstart: First look at the Visual Studio IDE
 
@@ -20,11 +21,11 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 The first thing you'll see after you launch Visual Studio is most likely the **Start Page**. The **Start Page** is designed as a "hub" to help you find the commands and project files you need faster. The **Recent** section displays projects and folders you've worked on recently. Under **New project**, you can click a link to bring up the **New Project** dialog box, or under **Open**, you can open an existing project or code folder. On the right is a feed of the latest developer news.
 
-![VS Start Page](media/quickstart-IDE-start-page.png)
+![Start Page in Visual Studio](media/start-page-dark.png)
 
 If you close the **Start Page** and want to see it again, you can reopen it from the **File** menu.
 
-![File menu](media/file-menu-start-page-dark.png)
+![File menu in Visual Studio](media/file-menu-start-page-dark.png)
 
 To continue exploring the IDE, let's create a new project.
 
@@ -38,13 +39,13 @@ To continue exploring the IDE, let's create a new project.
 
 **Solution Explorer** shows you a graphical representation of the hierarchy of files and folders in your project, solution, or code folder. You can browse the hierarchy and navigate to a file in **Solution Explorer**.
 
-![Solution Explorer](media/solution-explorer-console-app-dark.png)
+![Solution Explorer in Visual Studio](media/solution-explorer-console-app-dark.png)
 
 ## Menus
 
 The menu bar along the top of the IDE groups commands into categories. For example, the **Project** menu contains commands related to the project you're working in. On the **Tools** menu, you can customize the IDE by selecting **Options**, or add features to your installation by selecting **Get Tools and Features**.
 
-![Menu bar](media/menu-bar-dark.png)
+![Menu bar in Visual Studio](media/menu-bar-dark.png)
 
 Let's open the **Error List** window by choosing the **View** menu, and then **Error List**.
 
@@ -52,7 +53,7 @@ Let's open the **Error List** window by choosing the **View** menu, and then **E
 
 The **Error List** shows you errors, warning, and messages regarding the current state of your code. If there were any errors (such as a syntax typo) in your file, or anywhere in your project, they would be listed here.
 
-![Error List](media/error-list-dark.png)
+![Error List in Visual Studio](media/error-list-dark.png)
 
 ## Output window
 
@@ -68,7 +69,7 @@ The **Quick Launch** box is a quick and easy way to do pretty much anything in t
 
 1. Enter **verbosity** into the **Quick Launch** box, and then choose **Projects and Solutions --> Build and Run** under the **Options** category.
 
-   ![Quick launch box](media/quick-launch-dark.png)
+   ![Quick launch box in Visual Studio](media/quick-launch-dark.png)
 
    The **Options** dialog box opens to the **Build and Run** options page.
 
@@ -82,7 +83,7 @@ The **Quick Launch** box is a quick and easy way to do pretty much anything in t
 
 Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu at the top of the IDE, next to the **Quick Launch** box.
 
-![Send Feedback menu](media/send-feedback-dark.png)
+![Send Feedback menu in Visual Studio](media/send-feedback-dark.png)
 
 ## Next steps
 
