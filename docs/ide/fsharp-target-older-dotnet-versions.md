@@ -54,4 +54,4 @@ Follow the [steps to repair Visual Studio 2017](../install/repair-visual-studio.
 ## See also
 
 - [F# guide (.NET Framework)](/dotnet/fsharp/)
-- [F# in Visual Studio](fsharp-in-visual-studio.md)
+- [F# in Visual Studio](fsharp-visual-studio.md)
