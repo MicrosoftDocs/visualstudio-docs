@@ -16,13 +16,13 @@ manager: douge
 
 Multi-project templates act as containers for two or more projects. When you create a project that is based on a multi-project template from the **New Project** dialog box, every project in the template is added to the solution.
 
-A multi-project template has two or more project templates, and a root template of type `ProjectGroup`.
+A multi-project template has two or more project templates, and a root template of type **ProjectGroup**.
 
 Multi-project templates behave differently than single project templates. They have the following unique characteristics:
 
-- Individual projects in a multi-project template cannot be assigned names in the **New Project** dialog box. Instead, use the `ProjectName` attribute on the `ProjectTemplateLink` element in the *vstemplate* file to specify a name for each project.
+- Individual projects in a multi-project template cannot be assigned names in the **New Project** dialog box. Instead, use the **ProjectName** attribute on the **ProjectTemplateLink** element in the *vstemplate* file to specify a name for each project.
 
-- Multi-project templates can contain projects for different languages, but the entire template itself can only be put in one category. Specify the template category in the `ProjectType` element of the *vstemplate* file.
+- Multi-project templates can contain projects for different languages, but the entire template itself can only be put in one category. Specify the template category in the **ProjectType** element of the *vstemplate* file.
 
 A multi-project template must include the following items, compressed into a *.zip* file:
 
@@ -33,23 +33,23 @@ A multi-project template must include the following items, compressed into a *.z
 For example, a multi-project template *.zip* file that has two projects could have the following files and directories:
 
 - *MultiProjectTemplate.vstemplate*
-- *\Project1\Project1.vstemplate*
+- *\Project1\MyTemplate.vstemplate*
 - *\Project1\Project1.vbproj*
 - *\Project1\Class.vb*
-- *\Project2\Project2.vstemplate*
+- *\Project2\MyTemplate.vstemplate*
 - *\Project2\Project2.vbproj*
 - *\Project2\Class.vb*
 
 The root *vstemplate* file for a multi-project template differs from a single-project template in the following ways:
 
-- The `Type` attribute of the `VSTemplate` element has the value `ProjectGroup` instead of `Project`. For example:
+- The **Type** attribute of the **VSTemplate** element has the value **ProjectGroup** instead of **Project**. For example:
 
     ```xml
     <VSTemplate Version="2.0.0" Type="ProjectGroup"
         xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
     ```
 
-- The `TemplateContent` element contains a `ProjectCollection` element that has one or more `ProjectTemplateLink` elements that define the paths to the *vstemplate* files of the included projects. For example:
+- The **TemplateContent** element contains a **ProjectCollection** element that has one or more **ProjectTemplateLink** elements that define the paths to the *vstemplate* files of the included projects. For example:
 
     ```xml
     <TemplateContent>
@@ -89,7 +89,7 @@ The root *vstemplate* file for a multi-project template differs from a single-pr
 
 1. In the base directory, create an XML file with a *.vstemplate* file extension. This file contains the metadata for the multi-project template. See the example that follows for the structure of the file. Be sure to specify the relative path to each project's *vstemplate* file.
 
-1. Select the base directory, and from the right-click or context menu, choose **Send to** > **Compressed (zipped) folder**.
+1. Select all the files in the base directory, and from the right-click or context menu, choose **Send to** > **Compressed (zipped) folder**.
 
    The files and folders are compressed into a *.zip* file.
 
@@ -99,10 +99,10 @@ The root *vstemplate* file for a multi-project template differs from a single-pr
 
 ## Two-project example
 
-This example shows a basic multi-project root *vstemplate* file. In this example, the template has two projects, `My Windows Application` and `My Class Library`. The `ProjectName` attribute on the `ProjectTemplateLink` element specifies the name that is given to the project.
+This example shows a basic multi-project root *vstemplate* file. In this example, the template has two projects, **My Windows Application** and **My Class Library**. The **ProjectName** attribute on the **ProjectTemplateLink** element specifies the name that is given to the project.
 
 > [!TIP]
-> If the `ProjectName` attribute is not specified, the name of the *vstemplate* file is used as the project name.
+> If the **ProjectName** attribute is not specified, the name of the *vstemplate* file is used as the project name.
 
 ```xml
 <VSTemplate Version="2.0.0" Type="ProjectGroup"
@@ -128,7 +128,7 @@ This example shows a basic multi-project root *vstemplate* file. In this example
 
 ## Example with solution folders
 
-This example uses the `SolutionFolder` element to divide the projects into two groups, `Math Classes` and `Graphics Classes`. The template has four projects, two of which are placed in each solution folder.
+This example uses the **SolutionFolder** element to divide the projects into two groups, **Math Classes** and **Graphics Classes**. The template has four projects, two of which are placed in each solution folder.
 
 ```xml
 <VSTemplate Version="2.0.0" Type="ProjectGroup"
