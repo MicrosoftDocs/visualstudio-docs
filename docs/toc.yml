@@ -471,7 +471,7 @@
     - name: Cross-platform mobile development
       href: cross-platform/cross-platform-mobile-development-in-visual-studio.md
     - name: F# development
-      href: ide/fsharp-in-visual-studio.md
+      href: ide/fsharp-visual-studio.md
       items:
       - name: Target older .NET versions
         href: ide/fsharp-target-older-dotnet-versions.md
