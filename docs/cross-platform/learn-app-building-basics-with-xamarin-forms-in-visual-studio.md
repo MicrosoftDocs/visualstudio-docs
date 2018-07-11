@@ -4,6 +4,7 @@ ms.custom: ""
 ms.date: "03/30/2018"
 ms.topic: "conceptual"
 ms.assetid: d22b5186-9e03-4e85-afc9-7cbe28522a6d
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-mobile
 author: charlespetzold
 ms.author: chape

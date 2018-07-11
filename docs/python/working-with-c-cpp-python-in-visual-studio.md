@@ -279,6 +279,8 @@ After you've completed either of the methods above, you can now call the `fast_t
     [fast_tanh(x) for x in d] took 0.158 seconds
     ```
 
+    If the **Start Without Debugging** command is disabled, right-click the Python project in Solution Explorer and select **Set as Startup Project**.
+
 1. Try increasing the `COUNT` variable so that the differences are more pronounced. A Debug build of the C++ module also runs slower than a Release build because the Debug build is less optimized and contains various error checks. Feel free to switch between those configurations for comparison.
 
 ## Debug the C++ code

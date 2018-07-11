@@ -60,7 +60,7 @@ Overrides the filtering mode on appropriate texture samplers.
 ## Example  
  The **Point Texture Filtering** variant can be reproduced by using code like this:  
   
-```  
+```cpp
 D3D11_SAMPLER_DESC sampler_description;  
   
 // ... other sampler description setup ...  
@@ -74,7 +74,7 @@ d3d_context->PSSetSamplers(0, 1, &sampler
 ## Example  
  The **Bilinear Texture Filtering** variant can be reproduced by using code like this:  
   
-```  
+```cpp
 D3D11_SAMPLER_DESC sampler_description;   
   
 // ... other sampler description setup ...  
@@ -88,7 +88,7 @@ d3d_context->PSSetSamplers(0, 1, &sampler
 ## Example  
  The **Trilinear Texture Filtering** variant can be reproduced by using code like this:  
   
-```  
+```cpp
 D3D11_SAMPLER_DESC sampler_description;   
   
 // ... other sampler description setup ...  
@@ -102,7 +102,7 @@ d3d_context->PSSetSamplers(0, 1, &sampler
 ## Example  
  The **Anisotropic Texture Filtering** variant can be reproduced by using code like this:  
   
-```  
+```cpp
 D3D11_SAMPLER_DESC sampler_description;   
   
 // ... other sampler description setup ...  

@@ -106,7 +106,7 @@ The following example is sufficient for the test to be discoverable in **Test Ex
 #include "../MyProgram/MyClass.h" // project being tested
 #include <string>
 
-BOOST_AUTO_TEST_CASE(my\_boost_test)
+BOOST_AUTO_TEST_CASE(my_boost_test)
 {
 	std::string expected_value = "Bill";
 

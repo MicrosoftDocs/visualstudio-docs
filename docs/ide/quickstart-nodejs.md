@@ -37,7 +37,7 @@ First, you'll create an Node.js web application project.
 
      ![Node.js workload in VS Installer](../ide/media/quickstart-nodejs-workload.png)
 
-    Visual Studio creates and the new solution and opens the project. *server.js* opens in the editor in the left pane.
+    After you choose the **Blank Node.js Web Application** template and click **OK**, Visual Studio creates and the new solution and opens the project. *server.js* opens in the editor in the left pane.
 
 ## Explore the IDE
 
@@ -51,7 +51,7 @@ First, you'll create an Node.js web application project.
 
    - The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box.
 
-1. If you want to install npm packages or node.js commands from a command prompt, right-click the project node and choose **Open Command Prompt Here**.
+1. If you want to install npm packages or Node.js commands from a command prompt, right-click the project node and choose **Open Command Prompt Here**.
 
    ![Node.js command prompt](../ide/media/quickstart-nodejs-command-prompt.png)
 

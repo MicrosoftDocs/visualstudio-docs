@@ -4,6 +4,7 @@ ms.custom: ""
 ms.date: "04/13/2017"
 ms.topic: "conceptual"
 ms.assetid: 22725520-59ba-4f6f-80e4-097b1287a34b
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-mobile
 author: asb3993
 ms.author: amburns
@@ -12,9 +13,10 @@ ms.workload:
   - "xamarin"
 ---
 # Setup, install, and verifications for Mac users
+
 This topic is meant for developers working primarily on a Mac who will optionally use Visual Studio inside a Windows virtual machine on the Mac. If you are a developer working primarily on a Windows computer and need to set up a secondary Mac for targeting iOS, see the main [Setup and install](../cross-platform/setup-and-install.md) topic.
 
- To work with Xamarin on a Mac, you'll need the following:
+To work with Xamarin on a Mac, you'll need the following:
 
 -   A Mac with macOS Sierra 10.12 or above, with Xcode and Xamarin installed.
 
@@ -24,7 +26,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
 
     -   **If you already have Parallels or VMWare configured on your Mac:** run Windows with Visual Studio 2017 and Xamarin inside Parallels or VMWare.  With this configuration, Xamarin is an extension that's installed with Visual Studio that provides the ability to use Visual Studio as your development environment for building Android, iOS, and Windows apps using C#.  Note that you can obtain a free 3-month Parallels subscription as part of the Visual Studio Developer Essentials Program. See [Microsoft Visual Studio Dev Essentials Will Include Parallels Desktop Pro and Parallels Access](http://blog.parallels.com/blog/2015/11/18/visual-studio-dev-essentials/) (Parallels blog).
 
- This topic provides instructions for these requirements.  While the installation process is running, you can review the topic [Learn about mobile development with Xamarin](../cross-platform/learn-about-mobile-development-with-xamarin.md) to read and watch the necessary background material.
+This topic provides instructions for these requirements.  While the installation process is running, you can review the topic [Learn about mobile development with Xamarin](../cross-platform/learn-about-mobile-development-with-xamarin.md) to read and watch the necessary background material.
 
 ##  <a name="mac"></a> Mac setup (Apple ID, Xcode, and Xamarin)
 
@@ -59,12 +61,14 @@ This topic is meant for developers working primarily on a Mac who will optionall
 6.  Once you've completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac using XMA](http://developer.xamarin.com/guides/ios/getting_started/installation/windows/#Connecting_to_the_Mac_Using_XMA) (xamarin.com) so that you can work with iOS from Visual Studio.
 
 ##  <a name="verify"></a> Verify your environment
- Once the installers have completed, spend a few minutes to verify that everything is ready to experience Xamarin development.
+
+Once the installers have completed, spend a few minutes to verify that everything is ready to experience Xamarin development.
 
 ### Xamarin Studio
- First, ensure that when you navigate to the provided links, that you have **Xamarin Studio** selected in the upper right-hand corner so that you see the correct version of the Xamarin documentation:
 
- ![Selecting Xamarin Studio to see the correct documentation on Xamarin.com](../cross-platform/media/crossplat-xamarin-mac-1.png "CrossPlat Xamarin Mac 1")
+First, ensure that when you navigate to the provided links, that you have **Xamarin Studio** selected in the upper right-hand corner so that you see the correct version of the Xamarin documentation:
+
+![Selecting Xamarin Studio to see the correct documentation on Xamarin.com](../cross-platform/media/crossplat-xamarin-mac-1.png "CrossPlat Xamarin Mac 1")
 
 **Android**
 
@@ -79,9 +83,10 @@ This topic is meant for developers working primarily on a Mac who will optionall
 2.  Validate debugging in the iOS simulator through the [Debugging in the Simulator documentation](https://developer.xamarin.com/guides/ios/deployment,_testing,_and_metrics/debugging_in_xamarin_ios/#Debugging_on_the_Simulator) (xamarin.com).
 
 ### Visual Studio
- First, ensure that when you navigate to the provided links, that you have **Visual Studio** selected in the upper right-hand corner so that you see the correct version of the Xamarin documentation:
 
- ![Selecting Visual Studio to see the correct documentation on Xamarin.com](../cross-platform/media/crossplat-xamarin-mac-2.png "CrossPlat Xamarin Mac 2")
+First, ensure that when you navigate to the provided links, that you have **Visual Studio** selected in the upper right-hand corner so that you see the correct version of the Xamarin documentation:
+
+![Selecting Visual Studio to see the correct documentation on Xamarin.com](../cross-platform/media/crossplat-xamarin-mac-2.png "CrossPlat Xamarin Mac 2")
 
 **Android**
 

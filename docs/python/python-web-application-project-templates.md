@@ -1,7 +1,7 @@
 ---
 title: Web application templates for Python
 description: An overview of the Visual Studio templates for web applications written in Python using the Bottle, Flask, and Django frameworks, including debugging configurations and publishing to Azure App Service.
-ms.date: 05/18/2018
+ms.date: 07/03/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -18,6 +18,8 @@ ms.workload:
 Python in Visual Studio supports developing web projects in Bottle, Flask, and Django frameworks through project templates and a debug launcher that can be configured to handle various frameworks. These templates include a `requirements.txt` file to declare the necessary dependencies. When creating a project from one of these templates, Visual Studio prompts you to install those packages (see [Installing project requirements](#installing-project-requirements) later in this article).
 
 You can also use the generic "Web Project" template for other frameworks such as Pyramid. In this case, no frameworks are installed with the template. Instead, install the necessary packages into the environment you're using for the project (see [Managing Python environments](managing-python-environments-in-visual-studio.md)).
+
+For information on deploying a Python web app to Azure, see [Publishing to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md).
 
 ## Using a project template
 
