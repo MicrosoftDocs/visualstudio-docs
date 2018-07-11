@@ -16,11 +16,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Build a Project That Has Resources
-If you are building localized versions of a project, all user interface elements must be separated into resource files for the different languages. If the project uses only strings, the resource files can use text files. Alternatively, you can use .resx files as the resource files.  
+# How to: Build a project that has resources
+If you are building localized versions of a project, all user interface elements must be separated into resource files for the different languages. If the project uses only strings, the resource files can use text files. Alternatively, you can use *.resx* files as the resource files.  
   
-## Compiling Resources with MSBuild  
- The library of common tasks that is provided with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] includes a `GenerateResource` task that you can use to compile resources in either .resx or text files. This task includes the `Sources` parameter to specify which resource files to compile and the `OutputResources` parameter to specify names for the output resource files. For more information on the `GenerateResource` task, see [GenerateResource Task](../msbuild/generateresource-task.md).  
+## Compiling resources with MSBuild  
+ The library of common tasks that is provided with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] includes a `GenerateResource` task that you can use to compile resources in either *.resx* or text files. This task includes the `Sources` parameter to specify which resource files to compile and the `OutputResources` parameter to specify names for the output resource files. For more information on the `GenerateResource` task, see [GenerateResource task](../msbuild/generateresource-task.md).  
   
 #### To compile resources with MSBuild  
   
@@ -33,7 +33,7 @@ If you are building localized versions of a project, all user interface elements
 4.  Use the item created from the `Output` element as an input into another task.  
   
 ## Example  
- The following code example shows how the `Output` element specifies that the `OutputResources` attribute of the `GenerateResource` task will contain the compiled resource files `alpha.resources` and `beta.resources` and that those two files will be placed inside the `Resources` item list. By identifying those .resources files as a collection of items of the same name, you can easily use them as inputs for another task, such as the [Csc](../msbuild/csc-task.md) task.  
+ The following code example shows how the `Output` element specifies that the `OutputResources` attribute of the `GenerateResource` task will contain the compiled resource files *alpha.resources* and *beta.resources* and that those two files will be placed inside the `Resources` item list. By identifying those *.resources* files as a collection of items of the same name, you can easily use them as inputs for another task, such as the [Csc](../msbuild/csc-task.md) task.  
   
  This task is equivalent to using the **/compile** switch for [Resgen.exe](/dotnet/framework/tools/resgen-exe-resource-file-generator):  
   
@@ -72,8 +72,8 @@ If you are building localized versions of a project, all user interface elements
 </Project>  
 ```  
   
-## See Also  
+## See also  
 [MSBuild](../msbuild/msbuild.md)  
- [GenerateResource Task](../msbuild/generateresource-task.md)   
- [Csc Task](../msbuild/csc-task.md)   
- [Resgen.exe (Resource File Generator)](/dotnet/framework/tools/resgen-exe-resource-file-generator)
+ [GenerateResource task](../msbuild/generateresource-task.md)   
+ [Csc task](../msbuild/csc-task.md)   
+ [Resgen.exe (Resource file generator)](/dotnet/framework/tools/resgen-exe-resource-file-generator)

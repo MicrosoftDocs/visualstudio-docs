@@ -30,7 +30,7 @@ ms.workload:
   
 1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open or create a SharePoint project.  
   
-     For more information, see [SharePoint Project and Project Item Templates](../sharepoint/sharepoint-project-and-project-item-templates.md).  
+     For more information, see [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md).  
   
 2.  In **Solution Explorer**, choose the project node, and then, on the menu bar, choose **Project** > **Add New Item**.  
   
@@ -63,6 +63,6 @@ ms.workload:
      The files copy to the specified locations in SharePoint.  
   
 ## See also
- [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)   
+ [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)   
  [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
   

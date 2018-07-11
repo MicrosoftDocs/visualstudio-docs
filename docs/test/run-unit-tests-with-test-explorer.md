@@ -1,5 +1,6 @@
 ---
-title: "Run unit tests with Test Explorer"
+title: "Run, build, and debug unit tests with the Test Explorer"
+description: Learn how to run tests with the Test Exlorer in Visual Studio. This topic covers how to enable automatic test runs after build, view test results, group and filter the test list, create playlists, debug tests, and use test shortcuts.
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
@@ -38,7 +39,7 @@ You can run all the tests in the solution, all the tests in a group, or a set of
 
 - To run all the tests in a solution, choose **Run All**.
 
-- To run all the tests in a default group, choose **Run...** and then choose the group on the menu.
+- To run all the tests in a default group, choose **Run** and then choose the group on the menu.
 
 - Select the individual tests that you want to run, open the context menu for a selected test and then choose **Run Selected Tests**.
 

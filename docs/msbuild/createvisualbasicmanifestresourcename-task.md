@@ -19,11 +19,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# CreateVisualBasicManifestResourceName Task
-Creates a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]-style manifest name from a given .resx file name or other resource.  
+# CreateVisualBasicManifestResourceName task
+Creates a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]-style manifest name from a given *.resx* file name or other resource.  
   
 ## Parameters  
- The following table describes the parameters of the [CreateVisualBasicManifestResourceName Task](../msbuild/createvisualbasicmanifestresourcename-task.md).  
+ The following table describes the parameters of the [CreateVisualBasicManifestResourceName task](../msbuild/createvisualbasicmanifestresourcename-task.md).  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -34,10 +34,10 @@ Creates a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]-style manife
 |`ResourceFilesWithManifestResourceNames`|Optional read-only `String` output parameter.<br /><br /> Returns the name of the resource file that now includes the manifest resource name.|  
   
 ## Remarks  
- The [CreateVisualBasicManifestResourceName Task](../msbuild/createvisualbasicmanifestresourcename-task.md) determines the appropriate manifest resource name to assign to a given .resx or other resource file. The task provides a logical name to a resource file, and then attaches it to an output parameter as metadata.  
+ The [CreateVisualBasicManifestResourceName task](../msbuild/createvisualbasicmanifestresourcename-task.md) determines the appropriate manifest resource name to assign to a given *.resx* or other resource file. The task provides a logical name to a resource file, and then attaches it to an output parameter as metadata.  
   
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)

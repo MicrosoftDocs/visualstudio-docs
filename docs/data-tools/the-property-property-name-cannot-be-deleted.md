@@ -21,7 +21,7 @@ Set the **Discriminator Property** to a different property of the data class to 
 
 ## To correct this error
 
-1. In the O/R Designer, select the inheritance line that connects the data classes indicated in the error message.
+1. In the **O/R Designer**, select the inheritance line that connects the data classes indicated in the error message.
 
 2. Set the **Discriminator** Property to a different property.
 

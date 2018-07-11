@@ -109,12 +109,12 @@ wchar_t * wmemcpy(
 
 2.  On the menu bar, choose **Build**, **Run Code Analysis on Solution**.
 
-     Consider the _In\_ example in this section. If you run code analysis on it, this warning is displayed:
+     Consider the \_In\_ example in this section. If you run code analysis on it, this warning is displayed:
 
     > **C6387 Invalid Parameter Value**
     > 'pInt' could be '0': this does not adhere to the specification for the function 'InCallee'.
 
-### Example: The _In\_ Annotation
+### Example: The \_In\_ Annotation
  The `_In_` annotation indicates that:
 
 -   The parameter must be valid and will not be modified.
@@ -152,7 +152,7 @@ void BadInCaller()
 
  If you use Visual Studio Code Analysis on this example, it validates that the callers pass a non-Null pointer to an initialized buffer for `pInt`. In this case, `pInt` pointer cannot be NULL.
 
-### Example: The _In_opt\_ Annotation
+### Example: The \_In\_opt\_ Annotation
  `_In_opt_` is the same as `_In_`, except that the input parameter is allowed to be NULL and, therefore, the function should check for this.
 
 ```cpp
@@ -180,7 +180,7 @@ void InOptCaller()
 
  Visual Studio Code Analysis validates that the function checks for NULL before it accesses the buffer.
 
-### Example: The _Out\_ Annotation
+### Example: The \_Out\_ Annotation
  `_Out_` supports a common scenario in which a non-NULL pointer that points to an element buffer is passed in and the function initializes the element. The caller doesn't have to initialize the buffer before the call; the called function promises to initialize it before it returns.
 
 ```cpp
@@ -207,7 +207,7 @@ void OutCaller()
 
  Visual Studio Code Analysis Tool validates that the caller passes a non-NULL pointer to a buffer for `pInt` and that the buffer is initialized by the function before it returns.
 
-### Example: The _Out_opt\_ Annotation
+### Example: The \_Out\_opt\_ Annotation
  `_Out_opt_` is the same as `_Out_`, except that the parameter is allowed to be NULL and, therefore, the function should check for this.
 
 ```cpp
@@ -235,7 +235,7 @@ void OutOptCaller()
 
  Visual Studio Code Analysis validates that this function checks for NULL before `pInt` is dereferenced, and if `pInt` is not NULL, that the buffer is initialized by the function before it returns.
 
-### Example: The _Inout\_ Annotation
+### Example: The \_Inout\_ Annotation
  `_Inout_` is used to annotate a pointer parameter that may be changed by the function. The pointer must point to valid initialized data before the call, and even if it changes, it must still have a valid value on return. The annotation specifies that the function may freely read from and write to the one-element buffer. The caller must provide the buffer and initialize it.
 
 > [!NOTE]
@@ -267,7 +267,7 @@ void BadInOutCaller()
 
  Visual Studio Code Analysis validates that callers pass a non-NULL pointer to an initialized buffer for `pInt`, and that, before return, `pInt` is still non-NULL and the buffer is initialized.
 
-### Example: The _Inout_opt\_ Annotation
+### Example: The \_Inout\_opt\_ Annotation
  `_Inout_opt_` is the same as `_Inout_`, except that the input parameter is allowed to be NULL and, therefore, the function should check for this.
 
 ```cpp
@@ -297,7 +297,7 @@ void InOutOptCaller()
 
  Visual Studio Code Analysis validates that this function checks for NULL before it accesses the buffer, and if `pInt` is not NULL, that the buffer is initialized by the function before it returns.
 
-### Example: The _Outptr\_ Annotation
+### Example: The \_Outptr\_ Annotation
  `_Outptr_` is used to annotate a parameter that's intended to return a pointer.  The parameter itself should not be NULL, and the called function returns a non-NULL pointer in it and that pointer points to initialized data.
 
 ```cpp
@@ -328,7 +328,7 @@ void OutPtrCaller()
 
  Visual Studio Code Analysis validates that the caller passes a non-NULL pointer for `*pInt`, and that the buffer is initialized by the function before it returns.
 
-### Example: The _Outptr_opt\_ Annotation
+### Example: The \_Outptr\_opt\_ Annotation
  `_Outptr_opt_` is the same as `_Outptr_`, except that the parameter is optional—the caller can pass in a NULL pointer for the parameter.
 
 ```cpp
@@ -361,7 +361,7 @@ void OutPtrOptCaller()
 
  Visual Studio Code Analysis validates that this function checks for NULL before `*pInt` is dereferenced, and that the buffer is initialized by the function before it returns.
 
-### Example: The _Success\_ Annotation in Combination with _Out\_
+### Example: The \_Success\_ Annotation in Combination with \_Out\_
  Annotations  can be applied to most objects.  In particular, you can annotate a whole function.  One of the most obvious characteristics of a function is that it can succeed or fail. But like the association between a buffer and its size, C/C++ cannot express function success or failure. By using the `_Success_` annotation, you can say what success for a function looks like.  The parameter to the `_Success_` annotation is just an expression that when it is true indicates that the function has succeeded. The expression can be anything that the annotation parser can handle. The effects of the annotations after the function returns are only applicable when the function succeeds. This example shows how `_Success_` interacts with `_Out_` to do the right thing. You can use the keyword `return` to represent the return value.
 
 ```cpp

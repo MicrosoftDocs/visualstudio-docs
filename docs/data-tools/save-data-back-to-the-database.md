@@ -27,11 +27,11 @@ ms.workload:
 
 The dataset is an in-memory copy of data. If you modify that data, it's a good practice to save those changes back to the database. You do this in one of three ways:
 
-- By calling one of the Update methods of a TableAdapter
+- By calling one of the `Update` methods of a TableAdapter
 
-- By calling one of DBDirect methods of the TableAdapter
+- By calling one of `DBDirect` methods of the TableAdapter
 
-- By calling the UpdateAll method on the TableAdapterManager that Visual Studio generates for you when the dataset contains tables that are related to other tables in the dataset
+- By calling the `UpdateAll` method on the TableAdapterManager that Visual Studio generates for you when the dataset contains tables that are related to other tables in the dataset
 
 When you data bind dataset tables to controls on a Windows Form or XAML page, the data binding architecture does all the work for you.
 
@@ -43,7 +43,7 @@ If you're familiar with TableAdapters, you can jump directly to one of these top
 |[Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)|How to perform updates with TableAdapters|
 |[Hierarchical update](../data-tools/hierarchical-update.md)|How to perform updates from a dataset with two or more related tables|
 |[Handle a concurrency exception](../data-tools/handle-a-concurrency-exception.md)|How to handle exceptions when two users attempt to change the same data in a database at the same time|
-|[How to: Save data by using a transaction](../data-tools/save-data-by-using-a-transaction.md)|How to save data in a transaction using the System.Transactions namespace and a TransactionScope object|
+|[How to: Save data by using a transaction](../data-tools/save-data-by-using-a-transaction.md)|How to save data in a transaction using the System. Transactions namespace and a TransactionScope object|
 |[Save data in a transaction](../data-tools/save-data-in-a-transaction.md)|Walkthrough that creates a Windows Forms application to demonstrate saving data to a database inside a transaction|
 |[Save data to a database (multiple tables)](../data-tools/save-data-to-a-database-multiple-tables.md)|How to edit records and save changes in multiple tables back to the database|
 |[Save data from an object to a database](../data-tools/save-data-from-an-object-to-a-database.md)|How to pass data from an object that is not in a dataset to a database by using a TableAdapter DbDirect method|
@@ -52,13 +52,13 @@ If you're familiar with TableAdapters, you can jump directly to one of these top
 
 ## Two-stage updates
 
-Updating a data source is a two-step process. The first step is to update the dataset with new records, changed records, or deleted records. If your application never sends those changes back to the data source, then you are finished with the update.
+Updating a data source is a two-step process. The first step is to update the dataset with new records, changed records, or deleted records. If your application never sends those changes back to the data source, then you're finished with the update.
 
-If you do send the changes back to the database, then a second step is required. If you aren't using data-bound controls, then you have to manually call the Update method of the same TableAdapter (or data adapter) that you used to populate the dataset. However, you can also use different adapters, for example, to move data from one data source to another or to update multiple data sources. If you aren't using data binding, and are saving changes for related tables, you have to manually instantiate a variable of the auto-generated TableAdapterManager class, and then call its UpdateAll method.
+If you do send the changes back to the database, a second step is required. If you aren't using data-bound controls, you have to manually call the `Update` method of the same TableAdapter (or data adapter) that you used to populate the dataset. However, you can also use different adapters, for example, to move data from one data source to another or to update multiple data sources. If you aren't using data binding, and are saving changes for related tables, you have to manually instantiate a variable of the auto-generated `TableAdapterManager` class, and then call its `UpdateAll` method.
 
 ![Conceptual diagram of dataset updates](../data-tools/media/vbdatasetupdates.gif)
 
-A dataset contains collections of tables, which contain a collections of rows. If you intend to update an underlying data source later, you must use the methods on the DataTable.DataRowCollection property when adding or removing rows. Those methods perform the change tracking that's needed for updating the data source. If you call the RemoveAt collection on the Rows property, the deletion won't be communicated back to the database.
+A dataset contains collections of tables, which contain a collections of rows. If you intend to update an underlying data source later, you must use the methods on the `DataTable.DataRowCollection` property when adding or removing rows. Those methods perform the change tracking that's needed for updating the data source. If you call the `RemoveAt` collection on the Rows property, the deletion won't be communicated back to the database.
 
 ## Merge datasets
 
@@ -109,7 +109,7 @@ For more information about suspending events, see [Turn off constraints while fi
 
 ## Dataset update errors
 
-When you update a record in a dataset, there is the possibility of an error. For example, you might inadvertently write data of the wrong type to a column, or data that's too long, or data that has some other integrity problem. Or you might have application-specific validation checks that can raise custom errors during any stage of an update event. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).
+When you update a record in a dataset, there is the possibility of an error. For example, you might inadvertently write data of the wrong type to a column, or data that's too long, or data that has some other integrity problem. Or, you might have application-specific validation checks that can raise custom errors during any stage of an update event. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).
 
 ## Maintain information about changes
 
@@ -131,7 +131,7 @@ The following table details the possible values of the <xref:System.Data.DataRow
 
 ### DataRowVersion enumeration
 
-Datasets maintain multiple versions of records. The <xref:System.Data.DataRowVersion> fields can be used when retrieving the value found in a <xref:System.Data.DataRow> using the <xref:System.Data.DataRow.Item%2A> property or the <xref:System.Data.DataRow.GetChildRows%2A> method of the <xref:System.Data.DataRow> object.
+Datasets maintain multiple versions of records. The <xref:System.Data.DataRowVersion> fields are used when retrieving the value found in a <xref:System.Data.DataRow> using the <xref:System.Data.DataRow.Item%2A> property or the <xref:System.Data.DataRow.GetChildRows%2A> method of the <xref:System.Data.DataRow> object.
 
 The following table details the possible values of the <xref:System.Data.DataRowVersion> enumeration:
 
@@ -215,7 +215,7 @@ You can validate data in several ways:
 
 - In the business layer, by adding code to your application to validate data. The dataset is one place you can do this. The dataset provides some of the advantages of back-end validation — such as the ability to validate changes as column and row values are changing. For more information, see [Validate data in datasets](../data-tools/validate-data-in-datasets.md).
 
-- In the presentation layer, by adding validation to forms. For more information, see [User Input Validation in Windows Forms](/dotnet/framework/winforms/user-input-validation-in-windows-forms).
+- In the presentation layer, by adding validation to forms. For more information, see [User input validation in Windows Forms](/dotnet/framework/winforms/user-input-validation-in-windows-forms).
 
 - In the data back end, by sending data to the data source — for example, the database — and allowing it to accept or reject the data. If you are working with a database that has sophisticated facilities for validating data and providing error information, this can be a practical approach because you can validate the data no matter where it comes from. However, this approach might not accommodate application-specific validation requirements. Additionally, having the data source validate data can result in numerous round trips to the data source, depending on how your application facilitates the resolution of validation errors raised by the back end.
 
@@ -244,7 +244,7 @@ Your application changes Nancy Buchanan's status to "Preferred." As a result of 
 
 Your application now calls the `Update` method to transmit the dataset to the database. The method inspects each row in turn. For the first row, the method transmits no SQL statement to the database because that row has not changed since it was originally fetched from the database.
 
-For the second row, however, the `Update` method automatically invokes the correct data command and transmits it to the database. The specific syntax of the SQL statement depends on the dialect of SQL that's supported by the underlying data store. But the following general traits of the transmitted SQL statement are noteworthy:
+For the second row, however, the `Update` method automatically invokes the correct data command and transmits it to the database. The specific syntax of the SQL statement depends on the dialect of SQL that's supported by the underlying data store. But, the following general traits of the transmitted SQL statement are noteworthy:
 
 - The transmitted SQL statement is an UPDATE statement. The adapter knows to use an UPDATE statement because the value of the <xref:System.Data.DataRow.RowState%2A> property is <xref:System.Data.DataRowState.Modified>.
 
@@ -263,7 +263,7 @@ If you've used the Visual Studio tools to generate a data adapter, the `UpdateCo
 
 The <xref:System.Data.SqlClient.SqlParameter.SourceColumn%2A?displayProperty=fullName> property of each parameter points to a column in the data table. For example, the `SourceColumn` property for the `au_id` and `Original_au_id` parameters is set to whatever column in the data table contains the author id. When the adapter's `Update` method runs, it reads the author id column from the record that's being updated and fills the values into the statement.
 
-In an UPDATE statement, you need to specify both the new values (those that will be written to the record) as well as the old values (so that the record can be located in the database). There are therefore two parameters for each value: one for the SET clause and a different one for the WHERE clause. Both parameters read data from the record that's being updated, but they get different versions of the column value based on the parameter's <xref:System.Data.SqlClient.SqlParameter.SourceVersion> property. The parameter for the SET clause gets the current version, and the parameter for the WHERE clause gets the original version.
+In an UPDATE statement, you need to specify both the new values (those that will be written to the record) as well as the old values (so that the record can be located in the database). There are, therefore, two parameters for each value: one for the SET clause and a different one for the WHERE clause. Both parameters read data from the record that's being updated, but they get different versions of the column value based on the parameter's <xref:System.Data.SqlClient.SqlParameter.SourceVersion> property. The parameter for the SET clause gets the current version, and the parameter for the WHERE clause gets the original version.
 
 > [!NOTE]
 > You can also set values in the `Parameters` collection yourself in code, which you would typically do in an event handler for the data adapter's <xref:System.Data.DataTable.RowChanging> event.
@@ -271,7 +271,7 @@ In an UPDATE statement, you need to specify both the new values (those that will
 ## See also
 
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
-- [Create and Configure TableAdapters](create-and-configure-tableadapters.md)
+- [Create and configure TableAdapters](create-and-configure-tableadapters.md)
 - [Update data by using a TableAdapter](../data-tools/update-data-by-using-a-tableadapter.md)
 - [Bind controls to data in Visual Studio](../data-tools/bind-controls-to-data-in-visual-studio.md)
 - [Validate data](validate-data-in-datasets.md)

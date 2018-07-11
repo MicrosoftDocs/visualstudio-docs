@@ -37,7 +37,7 @@ ms.workload:
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|**Assembly**|Optional **xs:string** attribute.<br /><br /> The name of the assembly in which the ASPX control or Web Part is defined. By default, this attribute uses the **$SharePoint.Project.AssemblyFullName$** replaceable parameter for the assembly name. For more information, see [Replaceable Parameters](../sharepoint/replaceable-parameters.md).|  
+|**Assembly**|Optional **xs:string** attribute.<br /><br /> The name of the assembly in which the ASPX control or Web Part is defined. By default, this attribute uses the **$SharePoint.Project.AssemblyFullName$** replaceable parameter for the assembly name. For more information, see [Replaceable parameters](../sharepoint/replaceable-parameters.md).|  
 |**IsSafe**|Optional **xs:boolean** attribute.<br /><br /> Specifies whether the ASPX control or Web Part is secure for untrusted users to access.|  
 |**IsSafeAgainstScript**|Optional **xs:boolean** attribute.<br /><br /> Specifies whether untrusted users can view or edit the properties of the ASPX control or Web Part.|  
 |**Name**|Optional **xs:string** attribute.<br /><br /> The name of this safe control entry in the collection.|  
@@ -54,7 +54,7 @@ ms.workload:
 |[SafeControls](../sharepoint/safecontrols-element.md)|Represents a collection of ASPX controls and Web Parts that are designated as secure for any user to access on any ASPX page on the SharePoint site.|  
   
 ## Remarks  
- For more information about safe controls, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md).  
+ For more information about safe controls, see [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md).  
   
 ## Element information
   
@@ -66,6 +66,6 @@ ms.workload:
 |**Can be empty**|No|  
   
 ## See also
- [SharePoint Project Item Schema Reference](../sharepoint/sharepoint-project-item-schema-reference.md)   
- [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)  
+ [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)   
+ [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)  
   

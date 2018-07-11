@@ -26,7 +26,7 @@ This walkthrough shows you how to use [!INCLUDE[vs_dev11_long](../sharepoint/inc
 
 ## Prerequisites
 
-- Supported editions of Microsoft Windows and SharePoint. For more information, see [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
+- Supported editions of Microsoft Windows and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
 
 - Visual Studio 2017 or an edition of Visual Studio Application Lifecycle Management (ALM).
 
@@ -137,7 +137,7 @@ After you build and test the project task list, you can deploy it to the *local 
 
 On the Visual Studio menu bar, choose **Build** > **Deploy Solution**.
 
-Visual Studio recycles the IIS application pool, retracts any existing versions of the solution, copies the solution package (*.wsp*) file to SharePoint, and then activates its features. You can now use the solution in SharePoint. For more information about deployment configuration steps, see [How to: Edit a SharePoint Deployment Configuration](../sharepoint/how-to-edit-a-sharepoint-deployment-configuration.md).
+Visual Studio recycles the IIS application pool, retracts any existing versions of the solution, copies the solution package (*.wsp*) file to SharePoint, and then activates its features. You can now use the solution in SharePoint. For more information about deployment configuration steps, see [How to: Edit a SharePoint deployment configuration](../sharepoint/how-to-edit-a-sharepoint-deployment-configuration.md).
 
 ### To deploy the project task list to a remote system
 
@@ -167,11 +167,11 @@ Visual Studio recycles the IIS application pool, retracts any existing versions 
 
 You can learn more about how to customize and deploy SharePoint solutions from the following topics:
 
-- [Walkthrough: Create a Site Column, Content Type, and List for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md)
+- [Walkthrough: Create a site column, content type, and list for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md)
 
-- [How to: Create an Event Receiver](../sharepoint/how-to-create-an-event-receiver.md)
+- [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)
 
 - [Windows PowerShell for SharePoint Server 2010](http://go.microsoft.com/fwlink/?LinkId=217684)
 
 ## See also
-[Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
+[Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

@@ -6,7 +6,7 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "uwp"
 author: gewarren
 ---
@@ -20,7 +20,7 @@ This topic also creates a single Visual Studio solution and separate projects fo
 
 ## Create the solution and the unit test project
 
-1. On the **File** menu, choose **New** > **Project...**.
+1. On the **File** menu, choose **New** > **Project**.
 
 2. In the **New Project** dialog box, expand **Installed** > **Visual C#** and choose **Windows Universal**. Then choose **Blank App** from the list of project templates.
 
@@ -110,7 +110,7 @@ This topic also creates a single Visual Studio solution and separate projects fo
 
 1. Add a reference to the Maths app to the RooterTests project.
 
-    1. In Solution Explorer, choose the **RooterTests** project and then choose **Add Reference...** on the shortcut menu.
+    1. In Solution Explorer, choose the **RooterTests** project and then choose **Add Reference** on the shortcut menu.
 
     2. In the **Add Reference - RooterTests** dialog box, expand **Solution** and choose **Projects**. Then select the **Maths** item.
 

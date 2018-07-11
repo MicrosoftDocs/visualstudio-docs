@@ -2,9 +2,9 @@
 title: "Debugging code for absolute beginners"
 description: "If you are debugging for the first time, learn a few principles to help you run your app in debugging mode with Visual Studio"
 ms.custom: ""
-ms.date: "06/18/2018"
+ms.date: "07/06/2018"
 ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
+ms.topic: "tutorial"
 helpviewer_keywords:
   - "debugger"
 author: "mikejo5000"
@@ -211,8 +211,8 @@ Next, we will create an application that has a few bugs.
 
     ```csharp
     foreach (Galaxy theGalaxy in theGalaxies)
-        {
-            Console.WriteLine(theGalaxy.Name + "  " + theGalaxy.MegaLightYears + ",  " + theGalaxy.GalaxyType);
+    {
+        Console.WriteLine(theGalaxy.Name + "  " + theGalaxy.MegaLightYears + ",  " + theGalaxy.GalaxyType);
     }    
     ```
 

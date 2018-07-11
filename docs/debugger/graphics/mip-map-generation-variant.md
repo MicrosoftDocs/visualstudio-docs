@@ -41,7 +41,7 @@ Enables mip-maps on textures that are not render targets.
 ## Example  
  The **Mip-map Generation** variant can be reproduced by using code like this:  
   
-```  
+```cpp
 D3D11_TEXTURE2D_DESC texture_description;  
   
 // ...  

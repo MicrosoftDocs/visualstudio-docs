@@ -1,7 +1,7 @@
 ---
 title: Django web project template for Python
 description: An overview of the Visual Studio templates for web applications written in Python using the Django framework.
-ms.date: 04/17/2018
+ms.date: 07/03/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -62,3 +62,4 @@ The Django management console is accessed through various commands on the **Proj
 ## See also
 
 - [Learning Django tutorial](learn-django-in-visual-studio-step-01-project-and-solution.md)
+- [Publishing to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)
