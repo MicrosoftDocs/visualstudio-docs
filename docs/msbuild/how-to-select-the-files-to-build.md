@@ -42,7 +42,7 @@ When you build a project that contains several files, you can list each file sep
   
      `<CSFile Include="form1.cs;form2.cs"/>`  
   
-     - or -  
+     or 
   
      `<VBFile Include="form1.vb;form2.vb"/>`  
   

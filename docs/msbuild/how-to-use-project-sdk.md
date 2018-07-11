@@ -40,7 +40,7 @@ During evaluation of the project, [!INCLUDE[vstecmsbuild](../extensibility/inter
 </Project>
 ```
 
-## Referencing a project SDK
+## Reference a project SDK
 
  There are three ways to reference a project SDK:
 
