@@ -1,4 +1,4 @@
-# Using the MSBuild API
+# Use the MSBuild API
 
 MSBuild provides a public API surface so that your program can perform builds and inspect projects.
 
