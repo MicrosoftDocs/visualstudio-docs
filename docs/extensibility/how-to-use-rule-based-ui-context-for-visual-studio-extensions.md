@@ -10,14 +10,14 @@ ms.workload:
   - "vssdk"
 ---
 # How to: Use rule-based UI Context for Visual Studio extensions
-Visual Studio allows loading of VSPackages when certain well-known <xref:Microsoft.VisualStudio.Shell.UIContext>s are activated. However, these UI Contexts are not fine grained, leaving extension authors no choice but to pick an available UI Context that activates before the point they really wanted the VSPackage to load. For a list of well-known UI contexts, see <xref:Microsoft.VisualStudio.Shell.KnownUIContexts>.  
+Visual Studio allows loading of VSPackages when certain well-known <xref:Microsoft.VisualStudio.Shell.UIContext>s are activated. However, these UI Contexts aren't fine grained, which leaves extension authors no choice but to pick an available UI Context that activates before the point they really wanted the VSPackage to load. For a list of well-known UI contexts, see <xref:Microsoft.VisualStudio.Shell.KnownUIContexts>.  
   
- Loading packages can have a performance impact and loading them sooner than they are needed is not the best practice. Visual Studio 2015 introduced the concept of Rules-based UI Contexts, a mechanism that allows extension authors to define the precise conditions under which a UI Context is activated and associated VSPackages loaded.  
+ Loading packages can have a performance impact and loading them sooner than needed is not the best practice. Visual Studio 2015 introduced the concept of Rules-based UI Contexts, a mechanism that allows extension authors to define the precise conditions under which a UI Context is activated and associated VSPackages are loaded.  
   
 ## Rule-based UI Context  
  A "Rule" consists of a new UI Context (a GUID) and a Boolean expression that references one or more "Terms" combined with logical "and", "or", "not" operations. "Terms" are evaluated dynamically at runtime and the expression is reevaluated whenever any of its terms changes. When the expression evaluates to true, the associated UI Context is activated. Otherwise, the UI Context is de-activated.  
   
- Rule-based UI Context can be used in a variety of ways:  
+ Rule-based UI Context can be used in various ways:  
   
 1.  Specify visibility constraints for commands and tool windows. You can hide the commands/tools windows until the UI Context rule is met.  
   
@@ -28,7 +28,7 @@ Visual Studio allows loading of VSPackages when certain well-known <xref:Microso
  The mechanism may be used by any Visual Studio extension.  
   
 ## Create a rule-based UI Context  
- Suppose you have an extension called TestPackage, which offers a menu command that applies only to files with *.config* extension. Before VS2015, the best option was to load TestPackage when <xref:Microsoft.VisualStudio.Shell.KnownUIContexts.SolutionExistsAndFullyLoadedContext%2A> UI Context was activated. This is not efficient, since the loaded solution may not even contain a *.config* file. These steps show how rules-based UI Context can be used to activate a UI Context only when a file with *.config* extension is selected, and load TestPackage when that UI Context is activated.  
+ Suppose you have an extension called TestPackage, which offers a menu command that applies only to files with *.config* extension. Before VS2015, the best option was to load TestPackage when <xref:Microsoft.VisualStudio.Shell.KnownUIContexts.SolutionExistsAndFullyLoadedContext%2A> UI Context was activated. Loading TestPackage in this way is not efficient, since the loaded solution may not even contain a *.config* file. These steps show how rules-based UI Context can be used to activate a UI Context only when a file with *.config* extension is selected, and load TestPackage when that UI Context is activated.  
   
 1.  Define a new UIContext GUID and add to the VSPackage class <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> and <xref:Microsoft.VisualStudio.Shell.ProvideUIContextRuleAttribute>.  
   
