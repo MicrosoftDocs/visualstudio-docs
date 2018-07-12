@@ -13,6 +13,8 @@ manager: douge
 
 Visual Studio provides several different tools to analyze and improve code quality.
 
+<br />
+
 <ul class="panelContent cardsFTitle">
     <li>
         <a href="code-analysis-for-managed-code-overview.md">
@@ -75,19 +77,6 @@ Visual Studio provides several different tools to analyze and improve code quali
 
 <ul class="panelContent cardsW">
     <li>
-        <a href="https://docs.microsoft.com/visualstudio/code-quality/rule-set-reference">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Rule set reference</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
         <a href="https://docs.microsoft.com/visualstudio/code-quality/code-analysis-for-managed-code-warnings">
         <div class="cardSize">
             <div class="cardPadding">
@@ -107,6 +96,19 @@ Visual Studio provides several different tools to analyze and improve code quali
                 <div class="card">
                     <div class="cardText">
                         <h3>C++ code analysis warnings</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="https://docs.microsoft.com/visualstudio/code-quality/rule-set-reference">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Rule sets</h3>
                     </div>
                 </div>
             </div>
