@@ -34,7 +34,7 @@ Visual Studio by default provides support for C#, C and C++, JavaScript, F#, and
 
 If you’ve never used Visual Studio before, learn the basics with our [Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md) tutorials and walkthroughs.
 
-If you want to find out about new features in Visual Studio 2015, see [What's New in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md).
+If you want to find out about new features in Visual Studio 2015, see [What's New in Visual Studio 2015](../what-s-new-in-visual-studio-2015.md).
 
 ## Visual Studio Setup
  You can find out which edition of Visual Studio is right for you at [Visual Studio Editions](http://www.visualstudio.com/products/visual-studio-with-msdn-overview-vs).
@@ -207,6 +207,6 @@ The output from the build, including an error or success messages, appear in the
 
 - [Installing Visual Studio 2015](../install/install-visual-studio-2015.md)
 - [Editing Your Code](https://www.visualstudio.com/features/ide-vs)
-- [What's New in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)
+- [What's New in Visual Studio 2015](../what-s-new-in-visual-studio-2015.md)
 - [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)
 - [Talk to Us](../ide/talk-to-us.md)

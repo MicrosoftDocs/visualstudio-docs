@@ -1,3 +1,3 @@
 ---
-redirect_url: welcome-to-visual-studio-2015.md
+redirect_url: welcome-to-visual-studio-2015
 ---
