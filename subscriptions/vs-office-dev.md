@@ -3,7 +3,7 @@ title: The Office 365 Developer Benefit in Visual Studio Subscriptions | Microso
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
-ms.date: 11/12/2018
+ms.date: 11/12/2017
 ms.topic: Get-Started-Article
 description:  Learn about the Office 365 Developer benefit included in your Visual Studio subscription.
 ms.prod: vs-subscription
