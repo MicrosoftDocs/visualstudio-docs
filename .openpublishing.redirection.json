@@ -5732,7 +5732,7 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/porting-migrating-and-upgrading-visual-studio-projects",
+            "source_path": "docs/porting-migrating-and-upgrading-visual-studio-projects.md",
             "redirect_url": "/visualstudio/port-migrate-and-upgrade-visual-studio-projects",
             "redirect_document_id": false
         }
