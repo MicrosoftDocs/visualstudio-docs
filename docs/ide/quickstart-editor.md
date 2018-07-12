@@ -14,41 +14,43 @@ ms.workload:
 ---
 # Quickstart: Use the code editor
 
-In this 10-minute introduction to the editor, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
+In this 10-minute introduction to the code editor in Visual Studio, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-This quickstart assumes you are already familiar with a programming language. If you aren't, we suggest you look at one of the programming quickstarts first, such as create a web app with [Python](../ide/quickstart-python.md) or [C#](../ide/tutorial-csharp-aspnet-core.md), or create a console app with [Visual Basic](../ide/quickstart-visual-basic-console.md) or [C++](../ide/getting-started-with-cpp-in-visual-studio.md).
+This quickstart assumes you're already familiar with a programming language. If you aren't, we suggest you look at one of the programming quickstarts first, such as create a web app with [Python](../ide/quickstart-python.md) or [C#](../ide/tutorial-csharp-aspnet-core.md), or create a console app with [Visual Basic](../ide/quickstart-visual-basic-console.md) or [C++](../ide/getting-started-with-cpp-in-visual-studio.md).
 
 ## Create a new code file
 
-Start by creating a new file and adding some code to it. Notice that we do not have to create a project to gain some of the benefits that the editor offers.
+Start by creating a new file and adding some code to it.
 
 1. Open Visual Studio, and from the **File** menu on the menu bar, choose **New** > **File**.
 
 1. In the **New File** dialog box, under the **General** category, choose **Visual C# Class**, and then choose **Open**.
 
-   A new file opens in the editor with the skeleton of a C# class.
+   A new file opens in the editor with the skeleton of a C# class. (Notice that we don't have to create a full Visual Studio project to gain some of the benefits that the code editor offers; all we need is a code file!)
+
+   ![C# code file in Visual Studio](media/quickstart-editor.png)
 
 ## Use code snippets
 
-Visual Studio provides useful code snippets that you can use to quickly and easily generate commonly used code blocks. [Code snippets](../ide/code-snippets.md) are available for different programming languages including C#, Visual Basic, and C++. Let's add the C# `void Main` snippet to our file.
+Visual Studio provides useful *code snippets* that you can use to quickly and easily generate commonly used code blocks. [Code snippets](../ide/code-snippets.md) are available for different programming languages including C#, Visual Basic, and C++. Let's add the C# `void Main` snippet to our file.
 
-1. Place your cursor below the closing brace of the `Class1` constructor and enter the characters `svm`.
+1. Place your cursor just above the final closing brace **}** in the file, and type the characters `svm` (which stands for `static void Main`&mdash;don't worry too much if you don't know what that means).
 
-   You see an **IntelliSense** dialog box appear with information about the `svm` snippet.
+   A pop-up dialog box appears with information about the `svm` code snippet.
 
-   ![IntelliSense snippet](media/quickstart-intellisense-snippet.png)
+   ![IntelliSense for code snippet in Visual Studio](media/quickstart-intellisense-snippet.png)
 
 1. Press **Tab** twice to insert the code snippet.
 
-   You see the `static void Main()` method signature get added to the file. The `Main()` method is the entry point for C# applications.
+   You see the `static void Main()` method signature get added to the file. The [Main()](/dotnet/csharp/programming-guide/main-and-command-args/) method is the entry point for C# applications.
 
-The available code snippets vary for different languages. You can look at the available code snippets for your programming language by choosing **Edit** > **IntelliSense** > **Insert Snippet**, and then choosing your language's folder. For C#, the list looks like this:
+The available code snippets vary for different programming languages. You can look at the available code snippets for your language by choosing **Edit** > **IntelliSense** > **Insert Snippet**, and then choosing your language's folder. For C#, the list looks like this:
 
 ![C# code snippet list](media/quickstart-code-snippet-list.png)
 
-The list includes snippets for creating a class, a constructor, `Console.WriteLine()`, `for` loops, `if` and `switch` statements, and more.
+The list includes snippets for creating a [class](/dotnet/csharp/programming-guide/classes-and-structs/classes), a [constructor](/dotnet/csharp/programming-guide/classes-and-structs/constructors), a `for` loop, an `if` or `switch` statement, and more.
 
 ## Comment out code
 
