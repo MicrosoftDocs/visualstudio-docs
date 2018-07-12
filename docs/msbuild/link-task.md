@@ -67,7 +67,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
   
      Optional **String** parameter.  
   
-     A list of linker options as specified on the command line. For example, \</option1> \</option2> \</option#>. Use this parameter to specify linker options that are not represented by any other **Link** task parameter.  
+     A list of linker options as specified on the command line. For example, /\<option1> /\<option2> /\<option#>. Use this parameter to specify linker options that are not represented by any other **Link** task parameter.  
   
      For more information, see [Linker options](/cpp/build/reference/linker-options).  
   
@@ -525,7 +525,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
   
      Specifies the file name and file name extension of the *.idl* file.  
   
-     For more information, see [/IDLOUT (Name MIDL Output Files)](/cpp/build/reference/idlout-name-midl-output-files).  
+     For more information, see [/IDLOUT (Name MIDL output files)](/cpp/build/reference/idlout-name-midl-output-files).  
   
 -   **MergeSections**  
   
@@ -691,7 +691,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
   
     -   **LinkVerboseCLR** - **/VERBOSE:CLR**  
   
-    For more information, see [/VERBOSE (Print Progress Messages)](/cpp/build/reference/verbose-print-progress-messages).  
+    For more information, see [/VERBOSE (Print progress messages)](/cpp/build/reference/verbose-print-progress-messages).  
   
 -   **Sources**  
   
@@ -759,7 +759,7 @@ Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Objec
   
     -   **POSIX** - **/SUBSYSTEM:POSIX**  
   
-    For more information, see [/SUBSYSTEM (Specify Subsystem)](/cpp/build/reference/subsystem-specify-subsystem).  
+    For more information, see [/SUBSYSTEM (Specify subsystem)](/cpp/build/reference/subsystem-specify-subsystem).  
   
 -   **SupportNobindOfDelayLoadedDLL**  
   
