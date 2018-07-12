@@ -5727,7 +5727,7 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/instal/install-visual-studio-2015.md",
+            "source_path": "docs/install/install-visual-studio-2015.md",
             "redirect_url": "/visualstudio/install/install-visual-studio",
             "redirect_document_id": false
         },
