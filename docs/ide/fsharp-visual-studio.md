@@ -94,13 +94,13 @@ The following features of the Visual Studio code and text editors are supported 
 |Tabify|Converts spaces to tabs.|Yes|
 |Type colorization|Shows defined type names in a special color.|Yes|
 |Quick Find. See Quick Find, Find and Replace Window.|Enables you to search in a file or project.|Yes|
-|**ctrl+Click** to Go to Definition|Allows you to hold **ctrl** and click on an F# symbol to invoke Go to Definition.|Yes|
+|**Ctrl**+**click** to Go to Definition|Allows you to hold **Ctrl** and click on an F# symbol to invoke Go to Definition.|Yes|
 |Go to Definition from QuickInfo|Clickable symbols inside tooltips that invoke Go to Definition.|Yes|
-|Go to All|Enables global, fuzzy-matching navigation for all F# constructs via **ctrl+T**.|Yes|
-|Inline Rename|Renames all ocurrances of a symbol inline.|Yes|
-|Find all References|Finds all ocurrances of a symbol in a codebase.|Yes|
-|Simpify Name code fix|Removes unecessary qualifiers for F# symbols.|Yes|
-|Remove unused `open` statement code fix|Removes all unecessary `open` statements in a document.|Yes|
+|Go to All|Enables global, fuzzy-matching navigation for all F# constructs via **Ctrl**+**T**.|Yes|
+|Inline Rename|Renames all occurrences of a symbol inline.|Yes|
+|Find all References|Finds all occurrences of a symbol in a codebase.|Yes|
+|Simplify Name code fix|Removes unnecessary qualifiers for F# symbols.|Yes|
+|Remove unused `open` statement code fix|Removes all unnecessary `open` statements in a document.|Yes|
 |Unused value code fix|Suggests renaming an unused identifier to underscore.|Yes|
 
 For general information about editing code in Visual Studio, and features of the text editor, see [Write code in the editor](writing-code-in-the-code-and-text-editor.md).
