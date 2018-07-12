@@ -11,7 +11,7 @@ manager: douge
 ---
 # Code analysis in Visual Studio
 
-Visual Studio provides several different tools to analyze and imrpove code quality.
+Visual Studio provides several different tools to analyze and improve code quality.
 
 <ul class="panelContent cardsFTitle">
     <li>
