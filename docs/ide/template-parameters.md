@@ -115,3 +115,4 @@ In the *.vstemplate* file for the project template, include the `ReplaceParamete
 
 - [Customize templates](../ide/customizing-project-and-item-templates.md)
 - [How to: Create project templates](../ide/how-to-create-project-templates.md)
+- [Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
