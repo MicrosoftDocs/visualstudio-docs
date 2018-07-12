@@ -19,7 +19,7 @@ ms.workload:
 
 This walkthrough shows you how to publish a Visual Studio extension to the Visual Studio Marketplace using the command line. When you add your extension to the Marketplace, developers can use the **Extensions and Updates** dialog to browse there for new and updated extensions.
 
-VsixPublisher.exe is the command line tool for publishing Visual Studio extensions to the Marketplace. It can be accessed from ${VSInstallDir}\VSSDK\VisualStudioIntegration\Tools\Bin\VsixPublisher.exe. Commands available on this tool are: `publish`, `createPublisher`, `deletePublisher`, `deleteExtension`, `login`, `logout`.
+VsixPublisher.exe is the command line tool for publishing Visual Studio extensions to the Marketplace. It can be accessed from ${VSInstallDir}\VSSDK\VisualStudioIntegration\Tools\Bin\VsixPublisher.exe. Commands available on this tool are: **publish**, **createPublisher**, **deletePublisher**, **deleteExtension**, **login**, **logout**.
 
 ## Commands
 
@@ -110,7 +110,7 @@ VsixPublisher.exe logout -publisherName "{Publisher Name}"
 
 ## publishManifest file
 
-A publishManifest file is used by the `publish` command. It represents all the metadata about the extension that the Marketplace needs to know. If the extension being uploaded is from a VSIX extension, the `identity` property must only have the `internalName` set. This is because the rest of the `identity` properties can be generated from the vsixmanifest file. If the extension is a msi/exe or a link extension, the user must provide the required fields in the `identity` property. The rest of the manifest contains information specific to the Marketplace (for example, categories, whether q&a is enabled, etc.).
+A publishManifest file is used by the **publish** command. It represents all the metadata about the extension that the Marketplace needs to know. If the extension being uploaded is from a VSIX extension, the "identity" property must only have the "internalName" set. This is because the rest of the "identity" properties can be generated from the vsixmanifest file. If the extension is a msi/exe or a link extension, the user must provide the required fields in the "identity" property. The rest of the manifest contains information specific to the Marketplace (for example, categories, whether q&a is enabled, etc.).
 
 VSIX extension publishManifest file sample:
 
@@ -164,7 +164,7 @@ MSI/EXE or LINK publishManifest file sample:
 
 ## asset files
 
-Asset files can be provided for embedding things like images in the readme file. For example, if an extension has the following `overview` Markdown document:
+Asset files can be provided for embedding things like images in the readme file. For example, if an extension has the following "overview" Markdown document:
 
 ```markdown
 TestExtension
