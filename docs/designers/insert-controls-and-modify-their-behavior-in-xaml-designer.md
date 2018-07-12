@@ -35,7 +35,7 @@ To make a control, select an object. Then, on the **Tools** menu, click **Make C
 
 ## Make controls do things
 
-Controls can perform actions when users interact with them. For example, they can start an animation, update a data source or play a video.
+Controls can perform actions when users interact with them. For example, they can start an animation, update a data source, or play a video.
 
 Use *triggers*, *behaviors*, and *events* to make controls do things.
 
@@ -43,11 +43,11 @@ Use *triggers*, *behaviors*, and *events* to make controls do things.
 
 A *trigger* changes a property or performs a task in response to an event or a change in another property. For example, you can change the color of a button when users hover over it.
 
-![The "Triggers" panel](../designers/media/custom_button_blend_propertytriggerinfo.png)
+![The Triggers panel](../designers/media/custom_button_blend_propertytriggerinfo.png)
 
 ### Behaviors
 
-A *behavior* is a reusable package of code. It can do a bit more than change properties. It can perform actions such as query a data service. Blend comes with a small collection of them, but you can add more. Drag a behavior onto any object in your artboard, and then customize the behavior by setting properties.
+A *behavior* is a reusable package of code. It can do a bit more than change properties. It can perform actions such as query a data service. Blend comes with a small collection of behaviors, but you can add more. Drag a behavior onto any object in your artboard, and then customize the behavior by setting properties.
 
 ![FluidMoveBehavior in the Properties panel](../designers/media/b4_fluidmovebehaviorproperties_sample.png)
 

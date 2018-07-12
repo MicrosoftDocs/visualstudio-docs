@@ -153,8 +153,6 @@
         href: ide/creating-solutions-and-projects.md
       - name: Port, migrate, and upgrade projects
         href: porting/port-migrate-and-upgrade-visual-studio-projects.md
-      - name: Add and remove project items
-        href: ide/adding-and-removing-project-items.md
       - name: Manage project and solution properties
         href: ide/managing-project-and-solution-properties.md
       - name: Manage references in a project
@@ -344,16 +342,13 @@
         items:
         - name: Visual Basic IntelliSense
           href: ide/visual-basic-specific-intellisense.md
-          items:
-          - name: Filtered completion lists in Visual Basic
-            href: ide/filtered-completion-lists-in-visual-basic.md
         - name: C# IntelliSense
           href: ide/visual-csharp-intellisense.md
         - name: JavaScript IntelliSense
           href: ide/javascript-intellisense.md
         - name: Visual C++ IntelliSense
           href: ide/visual-cpp-intellisense.md
-      - name: Navigate Your code
+      - name: Navigate your code
         href: ide/navigating-code.md
         items:
         - name: Find references in your code
@@ -475,6 +470,11 @@
       href: ide/find-and-fix-code-errors.md
     - name: Cross-platform mobile development
       href: cross-platform/cross-platform-mobile-development-in-visual-studio.md
+    - name: F# development
+      href: ide/fsharp-visual-studio.md
+      items:
+      - name: Target older .NET versions
+        href: ide/fsharp-target-older-dotnet-versions.md
     - name: Office and Sharepoint development
       href: vsto/office-and-sharepoint-development-in-visual-studio.md
     - name: Work with XML and XSLT files
@@ -611,7 +611,7 @@
   - name: Measure performance...
     href: profiling/profiling-feature-tour.md
   - name: Analyze code quality...
-    href: code-quality/analyzing-application-quality-by-using-code-analysis-tools.md
+    href: code-quality/code-analysis-for-managed-code-overview.md
   - name: Deploy...
     href: deployment/deploying-applications-services-and-components.md
   - name: Extend Visual Studio...
@@ -686,8 +686,6 @@
     items:
     - name: Template Parameters
       href: ide/template-parameters.md
-    - name: Template Schema Reference (Extensibility)
-      href: extensibility/visual-studio-template-schema-reference.md?context=visualstudio/default
   - name: General User Interface Elements
     items:
     - name: Call Hierarchy
@@ -957,8 +955,6 @@
       href: ide/reference/open-file-command.md
     - name: Open Project Command
       href: ide/reference/open-project-command.md
-    - name: Open Solution Command
-      href: ide/reference/open-solution-command.md
     - name: Print Command
       href: ide/reference/print-command.md
     - name: Quick Watch Command

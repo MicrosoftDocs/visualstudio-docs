@@ -24,6 +24,8 @@
     href: how-to-debug-managed-and-native-code.md
   - name: View snapshots using IntelliTrace step-back
     href: how-to-use-intellitrace-step-back.md
+  - name: Debugging for absolute beginners
+    href: debugging-absolute-beginners.md
 - name: How-to guides
   items:
   - name: Navigate through code with the debugger
@@ -103,10 +105,8 @@
     - name: Edit and Continue (Visual Basic)
       href: edit-and-continue-visual-basic.md
       items:
-      - name: apply edits in break mode with Edit and Continue
+      - name: Apply edits in break mode with Edit and Continue
         href: how-to-apply-edits-in-break-mode-with-edit-and-continue.md
-      - name: Unsupported edits in Visual Basic Edit and Continue
-        href: unsupported-edits-in-visual-basic-edit-and-continue.md
     - name: Edit and Continue not supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
   - name: View debugger data
@@ -826,5 +826,3 @@
   items:
   - name: What's new for the debugger in Visual Studio
     href: what-s-new-for-the-debugger-in-visual-studio.md
-  - name: Debugging for absolute beginners
-    href: debugging-absolute-beginners.md
