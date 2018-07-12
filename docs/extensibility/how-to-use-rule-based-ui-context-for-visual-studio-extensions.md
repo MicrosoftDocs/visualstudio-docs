@@ -32,7 +32,7 @@ Visual Studio allows loading of VSPackages when certain well-known <xref:Microso
   
 1.  Define a new UIContext GUID and add to the VSPackage class <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> and <xref:Microsoft.VisualStudio.Shell.ProvideUIContextRuleAttribute>.  
   
-     For example, let's assume a new UIContext "UIContextGuid" is to be added. The GUID created (you can create a GUID by clicking on **Tools** > **Create guid**) is "8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B". You then add the following inside your package class:  
+     For example, let's assume a new UIContext "UIContextGuid" is to be added. The GUID created (you can create a GUID by clicking on **Tools** > **Create guid**) is "8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B". You then add the following declaration inside your package class:  
   
     ```csharp  
     public const string UIContextGuid = "8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B";  
@@ -75,7 +75,7 @@ Visual Studio allows loading of VSPackages when certain well-known <xref:Microso
   
      Now, the context menu commands for *\*.config* files will be visible only when the selected item in the solution explorer is a *.config* file and the package will not be loaded until one of those commands is selected.  
   
- Next, let's use a debugger to confirm that the package loads only when we expect it to. To debug TestPackage:  
+ Next, use a debugger to confirm that the package loads only when you expect it to. To debug TestPackage:  
   
 1.  Set a breakpoint in the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method.  
   
@@ -101,7 +101,7 @@ Visual Studio allows loading of VSPackages when certain well-known <xref:Microso
     termValues: new[] { VSConstants.UICONTEXT_SolutionHasSingleProject_string , VSConstants.UICONTEXT_SolutionHasMultipleProjects_string , "HierSingleSelectionName:.config$" })]  
 ```  
   
- Now the expression references three terms. The first two terms, "SingleProject" and "MultipleProjects", refer to other well-known UI Contexts (by their GUIDs). The third term, "DotConfig" is the rule-based UI Context we defined earlier.  
+ Now the expression references three terms. The first two terms, "SingleProject" and "MultipleProjects", refer to other well-known UI Contexts (by their GUIDs). The third term, "DotConfig" is the rule-based UI Context defined earlier in this article.  
   
 ## Delayed activation  
  Rules can have an optional "Delay". The delay is specified in milliseconds. If present, the delay causes the activation or deactivation of a Rule's UI Context to be delayed by that time interval. If the rule changes back before the delay interval, then nothing happens. This mechanism can be used to "stagger" initialization steps - especially one-time initialization without relying on timers or registering for idle notifications.  
@@ -136,7 +136,7 @@ Visual Studio allows loading of VSPackages when certain well-known <xref:Microso
 
   
 ## Compatibility with cross-version extension  
- Rule-based UI Contexts is a new feature in Visual Studio 2015 and would not be ported to earlier versions. This creates a problem with extensions/packages that target multiple versions of Visual Studio that would have to be auto-loaded in Visual Studio 2013 and earlier, but can benefit from rule-based UI Contexts to prevent being auto-loaded in Visual Studio 2015.  
+ Rule-based UI Contexts is a new feature in Visual Studio 2015 and would not be ported to earlier versions. Not porting to earlier versions creates a problem with extensions/packages that target multiple versions of Visual Studio. Those versions would have to be auto-loaded in Visual Studio 2013 and earlier, but can benefit from rule-based UI Contexts to prevent being auto-loaded in Visual Studio 2015.  
   
  In order to support such packages, AutoLoadPackages entries in the registry can now provide a flag in its value field to indicate that the entry should be skipped in Visual Studio 2015 and above. This can be done by adding a flags option to <xref:Microsoft.VisualStudio.Shell.PackageAutoLoadFlags>. VSPackages can now add **SkipWhenUIContextRulesActive** option to their <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> attribute to indicate the entry should be ignored in Visual Studio 2015 and above.  
   
