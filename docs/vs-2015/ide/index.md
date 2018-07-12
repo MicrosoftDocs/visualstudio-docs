@@ -1,3 +1,3 @@
 ---
-redirect_url: /visualstudio/ide/welcome-to-visual-studio-2015
+redirect_url: /visualstudio/welcome-to-visual-studio-2015
 ---
