@@ -20,14 +20,14 @@ ms.workload:
   - "multiple"
 ---
 # MSBuild .targets files
-[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] includes several .targets files that contain items, properties, targets, and tasks for common scenarios. These files are automatically imported into most [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project files to simplify maintenance and readability.  
+[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] includes several *.targets* files that contain items, properties, targets, and tasks for common scenarios. These files are automatically imported into most [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project files to simplify maintenance and readability.  
 
- Projects typically import one or more .targets files to define their build process. For example a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project created by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will import Microsoft.CSharp.targets which imports Microsoft.Common.targets. The [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project itself will define the items and properties specific to that project, but the standard build rules for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project are defined in the imported .targets files.  
+ Projects typically import one or more *.targets* files to define their build process. For example a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project created by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will import *Microsoft.CSharp.targets* which imports *Microsoft.Common.targets*. The [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project itself will define the items and properties specific to that project, but the standard build rules for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project are defined in the imported *.targets* files.  
 
- The `$(MSBuildToolsPath)` value specifies the path of these common .targets files. If the `ToolsVersion` is 4.0, the files are in the following location: `WindowsInstallationPath\Microsoft.NET\Framework\v4.0.30319\`  
+ The `$(MSBuildToolsPath)` value specifies the path of these common *.targets* files. If the `ToolsVersion` is 4.0, the files are in the following location: *\<WindowsInstallationPath>\Microsoft.NET\Framework\v4.0.30319\\*  
 
 > [!NOTE]
->  For information about how to create your own targets, see [Targets](../msbuild/msbuild-targets.md). For information about how to use the `Import` element to insert a project file into another project file, see [Import Element (MSBuild)](../msbuild/import-element-msbuild.md) and [How to: Use the Same Target in Multiple Project Files](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md).  
+>  For information about how to create your own targets, see [Targets](../msbuild/msbuild-targets.md). For information about how to use the `Import` element to insert a project file into another project file, see [Import element (MSBuild)](../msbuild/import-element-msbuild.md) and [How to: Use the same target in multiple project files](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md).  
 
 ## Common .targets files  
 
