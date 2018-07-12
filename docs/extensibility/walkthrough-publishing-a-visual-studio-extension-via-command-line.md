@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Publishing a Visual Studio Extension via Command Line | Microsoft Docs"
+title: "Walkthrough: Publishing a Visual Studio Extension via command line | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/12/2018"
 ms.technology: 
@@ -15,11 +15,11 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Walkthrough: Publishing a Visual Studio extension via command-line
+# Walkthrough: Publishing a Visual Studio extension via command line
 
-This walkthrough shows you how to publish a Visual Studio extension to the Visual Studio Marketplace using the command-line. When you add your extension to the Marketplace, developers can use the **Extensions and Updates** dialog to browse there for new and updated extensions.
+This walkthrough shows you how to publish a Visual Studio extension to the Visual Studio Marketplace using the command line. When you add your extension to the Marketplace, developers can use the **Extensions and Updates** dialog to browse there for new and updated extensions.
 
-VsixPublisher.exe is the command-line tool for publishing Visual Studio extensions to the Marketplace. It can be accessed from ${VSInstallDir}\VSSDK\VisualStudioIntegration\Tools\Bin\VsixPublisher.exe. Commands available on this tool are: `publish`, `createPublisher`, `deletePublisher`, `deleteExtension`, `login`, `logout`.
+VsixPublisher.exe is the command line tool for publishing Visual Studio extensions to the Marketplace. It can be accessed from ${VSInstallDir}\VSSDK\VisualStudioIntegration\Tools\Bin\VsixPublisher.exe. Commands available on this tool are: `publish`, `createPublisher`, `deletePublisher`, `deleteExtension`, `login`, `logout`.
 
 ## Commands
 
@@ -31,7 +31,7 @@ Publishes an extension to the Marketplace. The extension can be a vsix, an exe/m
 |---------|---------|
 |payload (required)                 |  Either a path to the payload to publish or a link to use as the "more info URL".      |
 |publishManifest (required)         |  Path to the publish manifest file to use.       |
-|ignoreWarnings                     |  List of warnings to ignore when publishing an extension. These warnings are shown as command-line messages when publishing an extension. (for example, "VSIXValidatorWarning01, VSIXValidatorWarning02")  
+|ignoreWarnings                     |  List of warnings to ignore when publishing an extension. These warnings are shown as command line messages when publishing an extension. (for example, "VSIXValidatorWarning01, VSIXValidatorWarning02")  
 |personalAccesToken                 |  Personal Access Token that is used to authenticate the publisher. If not provided, the pat is acquired from the logged-in users.       |
 
 ```
@@ -110,7 +110,7 @@ VsixPublisher.exe logout -publisherName "{Publisher Name}"
 
 ## publishManifest file
 
-A publishManifest file is used by the "publish" command. It represents all the metadata about the extension that the Marketplace needs to know. If the extension being uploaded is from a VSIX extension, the "identity" property must only have the "internalName" set. This is because the rest of the identity properties can be generated from the vsixmanifest file. If the extension is a msi/exe or a link extension, the user must provide the required fields in the "identity" property. The rest of the manifest contains information specific to the Marketplace (for example, categories, whether q&a is enabled, etc.).
+A publishManifest file is used by the `publish` command. It represents all the metadata about the extension that the Marketplace needs to know. If the extension being uploaded is from a VSIX extension, the `identity` property must only have the `internalName` set. This is because the rest of the `identity` properties can be generated from the vsixmanifest file. If the extension is a msi/exe or a link extension, the user must provide the required fields in the `identity` property. The rest of the manifest contains information specific to the Marketplace (for example, categories, whether q&a is enabled, etc.).
 
 VSIX extension publishManifest file sample:
 
@@ -164,7 +164,7 @@ MSI/EXE or LINK publishManifest file sample:
 
 ## asset files
 
-Asset files can be provided for embedding things like images in the readme file. For example, say we have an extension with the following "overview" Markdown document:
+Asset files can be provided for embedding things like images in the readme file. For example, if an extension has the following `overview` Markdown document:
 
 ```markdown
 TestExtension
@@ -219,21 +219,21 @@ In this case, we will use a default VSPackage extension, but the same steps are 
 
 3. On the **Tools** menu, make sure you see the test command.
 
-### Publish the extension to the Marketplace via command-line
+### Publish the extension to the Marketplace via command line
 
 1. Make sure that you have built the Release version of your extension and that it is up-to-date.
 
 2. Make sure you have created publishmanifest.json and overview.md files.
 
-3. Open command-line and navigate to ${VSInstallDir}\VSSDK\VisualStudioIntegration\Tools\Bin\ directory.
+3. Open command line and navigate to ${VSInstallDir}\VSSDK\VisualStudioIntegration\Tools\Bin\ directory.
 
-4. If you want to create a new publisher, use the following command:
+4. To create a new publisher, use the following command:
 
    ```
    VsixPublisher.exe createPublisher -publisherName "TestVSIXPublisher" -displayName "Test VSIX Publisher" -personalAccessToken "{Personal Access Token that is used to authenticate the publisher. If not provided, the pat is acquired from the logged-in users.}"
    ```
 
-5. On successful creation of publisher, you will see the following command-line message:
+5. On successful creation of publisher, you will see the following command line message:
 
    ```
    Added 'Test VSIX Publisher' as a publisher on the Marketplace.
@@ -241,13 +241,13 @@ In this case, we will use a default VSPackage extension, but the same steps are 
 
 6. You can verify the new publisher you created by navigating to [Visual Studio Marketplace](https://marketplace.visualstudio.com/manage/publishers)
 
-7. If you want to publish new extension, use the following command:
+7. To publish a new extension, use the following command:
 
    ```
    VsixPublisher.exe publish -payload "{Path to vsix file}"  -publishManifest "{path to publishManifest file}"
    ```
 
-8. On successful creation of publisher, you will see the following command-line message:
+8. On successful creation of publisher, you will see the following command line message:
 
    ```
    Uploaded 'MyVsixExtension' to the Marketplace.
@@ -271,15 +271,15 @@ Now that the extension is published, install it in Visual Studio and test it the
 
 You can remove the extension from the Visual Studio Marketplace and from your computer.
 
-### To remove the extension from Marketplace through command-line
+### To remove the extension from the Marketplace via command line
 
-1. If you want to remove extension, use the following command:
+1. If you want to remove an extension, use the following command:
 
    ```
    VsixPublisher.exe deleteExtension -publisherName "TestVSIXPublisher" -extensionName "MyVsixExtension"
    ```
 
-2. On successful deletion of extension, you will see the following command-line message:
+2. On successful deletion of extension, you will see the following command line message:
 
    ```
    Removed 'MyVsixExtension' from the Marketplace.
