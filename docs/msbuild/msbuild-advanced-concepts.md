@@ -23,7 +23,7 @@ The documents in this section describe how to use advanced techniques to improve
 |[Batching](../msbuild/msbuild-batching.md)|Describes how to batch build targets and tasks based on item metadata.|  
 |[Transforms](../msbuild/msbuild-transforms.md)|Explains how to use transforms to enable dependency analysis.|  
 |[Visual Studio integration](../msbuild/visual-studio-integration-msbuild.md)|Discusses how to use MSBuild project files when you compile code from the Visual Studio IDE.|  
-|[Building multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)|Describes how to build multiple projects faster on computers that have multiple processors or multicore processors.|  
+|[Build multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)|Describes how to build multiple projects faster on computers that have multiple processors or multicore processors.|  
 |[Multitargeting](../msbuild/msbuild-multitargeting-overview.md)|Describes how to compile an application to run on any one of several versions of the .NET Framework.|  
 |[Best practices](../msbuild/msbuild-best-practices.md)|Recommends best practices for writing MSBuild scripts.|  
   
