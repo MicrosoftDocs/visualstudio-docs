@@ -110,7 +110,7 @@ VsixPublisher.exe logout -publisherName "{Publisher Name}"
 
 ## publishManifest file
 
-A publishManifest file is used by the **publish** command. It represents all the metadata about the extension that the Marketplace needs to know. If the extension being uploaded is from a VSIX extension, the "identity" property must only have the "internalName" set. This is because the rest of the "identity" properties can be generated from the vsixmanifest file. If the extension is a msi/exe or a link extension, the user must provide the required fields in the "identity" property. The rest of the manifest contains information specific to the Marketplace (for example, categories, whether q&a is enabled, etc.).
+A publishManifest file is used by the **publish** command. It represents all the metadata about the extension that the Marketplace needs to know. If the extension being uploaded is from a VSIX extension, the "identity" property must only have the "internalName" set. This is because the rest of the "identity" properties can be generated from the vsixmanifest file. If the extension is a msi/exe or a link extension, the user must provide the required fields in the "identity" property. The rest of the manifest contains information specific to the Marketplace (for example, categories, whether Q&A is enabled, etc.).
 
 VSIX extension publishManifest file sample:
 
@@ -162,7 +162,7 @@ MSI/EXE or LINK publishManifest file sample:
 }
 ```
 
-## asset files
+## Asset files
 
 Asset files can be provided for embedding things like images in the readme file. For example, if an extension has the following "overview" Markdown document:
 
@@ -173,7 +173,7 @@ This is test extension.
 ![Test logo](images/testlogo.png "Test logo")
 ```
 
-In order to resolve "images/testlogo.png" in the previous example, a user can provide "asset files" in their publish manifest like below:
+In order to resolve "images/testlogo.png" in the previous example, a user can provide "assetFiles" in their publish manifest like below:
 
 ```json
 {
@@ -285,7 +285,7 @@ You can remove the extension from the Visual Studio Marketplace and from your co
    Removed 'MyVsixExtension' from the Marketplace.
    ```
 
-## To remove the extension from your computer
+### To remove the extension from your computer
 
 1. In Visual Studio, on the **Tools** menu, click **Extension and Updates...**.
 
