@@ -1,6 +1,5 @@
-# [Visual Studio 2015 Documentation](index.md)
-## [Welcome to Visual Studio 2015](ide\welcome-to-visual-studio-2015.md)
-## [What's New in Visual Studio 2015](ide\what-s-new-in-visual-studio-2015.md)
+# [Welcome to Visual Studio 2015](welcome-to-visual-studio-2015.md)
+## [What's New in Visual Studio 2015](what-s-new-in-visual-studio-2015.md)
 ## [Install Visual Studio 2015](install/install-visual-studio-2015.md)
 ## [Porting, Migrating, and Upgrading Visual Studio Projects](porting/porting-migrating-and-upgrading-visual-studio-projects.md)
 ## [Visual Studio IDE](ide/welcome-to-visual-studio-2015.md)
