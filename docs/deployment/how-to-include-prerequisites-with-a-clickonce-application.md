@@ -11,7 +11,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Include Prerequisites with a ClickOnce Application
+# How to: Include prerequisites with a ClickOnce application
 Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, you must first download the installer packages for those prerequisites to your development computer. When you publish an application and choose **Download prerequisites from the same location as my application**, an error will occur if the installer packages aren't in the **Packages** folder.  
   
 > [!NOTE]
@@ -21,11 +21,11 @@ Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](..
   
 1.  In File Explorer, open the **Packages** folder.  
   
-     By default, the path is C:\Program Files\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages on a 32-bit system and C:\Program Files (x86)\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages on a 64-bit system.  
+     By default, the path is *C:\Program Files\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Package*s on a 32-bit system and *C:\Program Files (x86)\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages* on a 64-bit system.  
   
 2.  Open the folder for the prerequisite that you want to add, and then open the language folder for your installed version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (for example, **en** for English).  
   
-3.  In Notepad, open the **Package.xml** file.  
+3.  In Notepad, open the *Package.xml* file.  
   
 4.  Locate the **Name** element that contains **http://go.microsoft.com/fwlink**, and copy the URL. Include the **LinkID** portion.  
   
@@ -41,9 +41,9 @@ Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](..
   
 6.  Copy the file to the root folder for the prerequisite.  
   
-     For example, for the Windows Installer 4.5 prerequisite, copy the file to the \Packages\WindowsInstaller4_5 folder.  
+     For example, for the Windows Installer 4.5 prerequisite, copy the file to the *\Packages\WindowsInstaller4_5* folder.  
   
      You can now distribute the installer package with your application.  
   
-## See Also  
- [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)
+## See also  
+ [How to: Install prequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)
