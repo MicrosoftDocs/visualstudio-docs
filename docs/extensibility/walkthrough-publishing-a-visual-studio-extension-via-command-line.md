@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Publishing a Visual Studio Extension Via Command Line | Microsoft Docs"
+title: "Walkthrough: Publishing a Visual Studio Extension via Command Line | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/12/2018"
 ms.technology: 
