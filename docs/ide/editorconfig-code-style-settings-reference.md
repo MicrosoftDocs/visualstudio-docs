@@ -21,7 +21,7 @@ ms.workload:
 ---
 # .NET coding convention settings for EditorConfig
 
-In Visual Studio 2017, you can define and maintain consistent code style in your codebase with the use of an [EditorConfig](../ide/create-portable-custom-editor-options.md) file. EditorConfig includes several core formatting properties, such as `indent_style` and `indent_size`. In Visual Studio, .NET coding conventions settings can also be configured using an EditorConfig file. EditorConfig files allow you to enable or disable individual .NET coding conventions, and to configure the degree to which you want the convention enforced via a severity level. To learn more about how to use EditorConfig to enforce consistency in your codebase, read [Create portable custom editor options](../ide/create-portable-custom-editor-options.md). 
+In Visual Studio 2017, you can define and maintain consistent code style in your codebase with the use of an [EditorConfig](../ide/create-portable-custom-editor-options.md) file. EditorConfig includes several core formatting properties, such as `indent_style` and `indent_size`. In Visual Studio, .NET coding conventions settings can also be configured using an EditorConfig file. EditorConfig files allow you to enable or disable individual .NET coding conventions, and to configure the degree to which you want the convention enforced via a severity level. To learn more about how to use EditorConfig to enforce consistency in your codebase, read [Create portable custom editor options](../ide/create-portable-custom-editor-options.md).
 
 See the end of this document for an example .editorconfig.
 
@@ -583,7 +583,7 @@ Public ReadOnly Property Age As Integer
     Get
         return _age
     End Get
-End Property 
+End Property
 ```
 
 **dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method**
@@ -1722,7 +1722,7 @@ interface I
 
 }
 
-class C : I 
+class C : I
 {
 
 }
@@ -1733,7 +1733,7 @@ interface I
 
 }
 
-class C: I 
+class C: I
 {
 
 }
@@ -1753,7 +1753,7 @@ interface I
 
 }
 
-class C : I 
+class C : I
 {
 
 }
@@ -1764,7 +1764,7 @@ interface I
 
 }
 
-class C :I 
+class C :I
 {
 
 }
@@ -2007,8 +2007,8 @@ dotnet_style_explicit_tuple_names = true:suggestion
 dotnet_style_null_propagation = true:suggestion
 dotnet_style_coalesce_expression = true:suggestion
 dotnet_style_prefer_is_null_check_over_reference_equality_method = true:none
-dotnet_prefer_inferred_tuple_names = true:suggestion
-dotnet_prefer_inferred_anonymous_type_member_names = true:suggestion
+dotnet_style_prefer_inferred_tuple_names = true:suggestion
+dotnet_style_prefer_inferred_anonymous_type_member_names = true:suggestion
 dotnet_style_prefer_auto_properties = true:none
 
 ###############################
@@ -2018,7 +2018,7 @@ dotnet_style_prefer_auto_properties = true:none
 # Style Definitions
 dotnet_naming_style.pascal_case_style.capitalization             = pascal_case
 
-# Use PascalCase for constant fields  
+# Use PascalCase for constant fields
 dotnet_naming_rule.constant_fields_should_be_pascal_case.severity = suggestion
 dotnet_naming_rule.constant_fields_should_be_pascal_case.symbols  = constant_fields
 dotnet_naming_rule.constant_fields_should_be_pascal_case.style    = pascal_case_style
@@ -2074,14 +2074,14 @@ csharp_new_line_before_members_in_anonymous_types = true
 csharp_new_line_between_query_expression_clauses = true
 
 # Indentation preferences
-csharp_indent_case_contents = true 
-csharp_indent_switch_labels = true 
+csharp_indent_case_contents = true
+csharp_indent_switch_labels = true
 csharp_indent_labels = flush_left
 
 # Space preferences
 csharp_space_after_cast = false
 csharp_space_after_keywords_in_control_flow_statements = true
-csharp_space_between_method_call_parameter_list_parentheses = false 
+csharp_space_between_method_call_parameter_list_parentheses = false
 csharp_space_between_method_declaration_parameter_list_parentheses = false
 csharp_space_between_parentheses = false
 csharp_space_before_colon_in_inheritance_clause = true
