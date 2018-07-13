@@ -1,6 +1,6 @@
 ---
 title: IntelliCode questions and answers
-ms.date: 05/22/2018
+ms.date: 07/12/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -29,7 +29,7 @@ Developers can find more information and sign up for news and future private pre
 
 Visual Studio IntelliCode is a range of capabilities that offers new productivity enhancements through artificial intelligence (AI).
 
-Developers can [download an experimental extension](https://go.microsoft.com/fwlink/?linkid=872707) for Visual Studio 2017 version 15.7 and later. The extension currently provides: 
+Developers can [download an experimental extension](https://go.microsoft.com/fwlink/?linkid=872707) for Visual Studio 2017 version 15.7 and later. The extension currently provides:
 
 - AI-Enhanced IntelliSense that predicts the most likely correct API for the developer to use, rather than just presenting an alphabetical list of members. It uses the developer's current code context and patterns to provide this dynamic list.
 
@@ -37,7 +37,7 @@ Developers can [download an experimental extension](https://go.microsoft.com/fwl
 
 We'll update the extension with more capabilities in the coming months.
 
-## Q. Why does EditorConfig inference prepend a 1 to the filename? 
+## Q. Why does EditorConfig inference prepend a 1 to the filename?
 
 A known issue in Visual Studio extensibility will cause a 1. to be prepended to the .editorconfig filename  when you create it by right-clicking and choosing **Add > New Item**. Files named in this way are not recognized by the editorconfig processor in Visual Studio. This problem is fixed in Visual Studio 2017 version 15.8 Preview 4, but until then you can work around by removing the 1 in the **Add New Item** dialog.
 
@@ -50,7 +50,7 @@ There are a couple of common reasons this problem can occur:
 ## Q. Format Document is not fixing my style conventions - why?
 There are a couple of common reasons this problem can occur:
 
-- You may not be using Visual Studio 2017 version 15.8 Preview 3 or higher. You’ll need this version to be able to use the extended “Format Document” command to perform additional code cleanup for the current document. 
+- You may not be using Visual Studio 2017 version 15.8 Preview 3 or higher. You’ll need this version to be able to use the extended “Format Document” command to perform additional code cleanup for the current document.
 - You may not be opted in to style fixes. The extended capability of fixing convention-based issues capability in Format Document only covers a fixed set of issues. You can change which issues are fixed in **Tools-Options** under **Text Editor > C# > Code Style > Formatting > General > Format Document Settings (Experiment)**. Notice that the default settings do not fix some style conventions. You can opt in to these via **Tools > options**. For example "Apply implicit/explicit type preferences" will run style rules about use of `var`.
 
 ## Q. Which EditorConfig Conventions can Visual Studio IntelliCode infer?
@@ -90,7 +90,7 @@ Style Conventions
 -	csharp__new_line_before_catch
 -	csharp_new_line_before_else
 -	csharp_new_line_before_members_in_anonymous_types
--	csharp_new_line_before_members_in_object_initializers 
+-	csharp_new_line_before_members_in_object_initializers
 -	csharp_new_line_before_finally_style
 -	csharp_new_line_between_query_expression_clauses
 -	csharp_prefer_braces_style
@@ -125,9 +125,9 @@ Style Conventions
 -	dotnet_style_qualification_for_property
 -	dotnet_style_require_accessibility_modifiers
 
-## Q. Are there other features coming to the Visual Studio IntelliCode extension? 
+## Q. Are there other features coming to the Visual Studio IntelliCode extension?
 
-We're actively working on a number of capabilities that we're excited to share publicly as they become available. You can sign up for news and updates at [https://aka.ms/intellicode](https://aka.ms/intellicode) to be the first to know when we have new capabilities available. 
+We're actively working on a number of capabilities that we're excited to share publicly as they become available. You can sign up for news and updates at [https://aka.ms/intellicode](https://aka.ms/intellicode) to be the first to know when we have new capabilities available.
 
 ## Q: What makes “AI-assisted IntelliSense” powered by IntelliCode better than regular IntelliSense?
 
