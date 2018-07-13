@@ -34,7 +34,7 @@ The <xref:System.IDisposable?displayProperty=nameWithType> interface is not impl
 
 - <xref:System.IDisposable> is reimplemented in the class.
 
-- Finalize is re-overridden.
+- Finalize is reoverridden.
 
 - Dispose() is overridden.
 
