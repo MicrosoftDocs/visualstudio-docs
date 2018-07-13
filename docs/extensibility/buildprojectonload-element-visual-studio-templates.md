@@ -12,7 +12,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# BuildProjectOnload Element (Visual Studio Templates)
+# BuildProjectOnload element (Visual Studio templates)
 Builds only new projects as you create and add them to a solution. The entire solution isn't built.  
   
  \<VSTemplate>  
@@ -25,22 +25,22 @@ Builds only new projects as you create and add them to a solution. The entire so
 <BuildProjectOnLoad> true/false </BuildOnLoad>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements  
  None.  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |TemplateData|Categorizes the template and defines how it appears in both the **New Project** and the **Add New Item** dialog boxes.|  
   
-## Text Value  
+## Text value  
  A text value is required.  
   
  The text must be either `true` or `false` to indicate whether to build only the new project when it's created from the template.  
@@ -76,6 +76,6 @@ Builds only new projects as you create and add them to a solution. The entire so
 </VSTemplate>  
 ```  
   
-## See Also  
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
+## See also  
+ [Creating project and item templates](../ide/creating-project-and-item-templates.md)   
+ [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)

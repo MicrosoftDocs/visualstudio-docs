@@ -16,13 +16,13 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Adding Icons to Menu Commands
+# Add icons to menu commands
 Commands can appear on both menus and toolbars. On toolbars, it is common for a command to be displayed with just an icon (to save space) while on menus a command typically appears with both an icon and text.  
   
- Icons are 16 pixels wide by 16 pixels high and can be either 8-bit color depth (256 colors) or 32-bit color depth (true color). 32-bit color icons are preferred. Icons are typically arranged in a single horizontal row in a single bitmap, although multiple bitmaps are allowed. This bitmap is declared in the .vsct file along with the individual icons available in the bitmap. See the reference for the [Bitmaps Element](../extensibility/bitmaps-element.md) for more details.  
+ Icons are 16 pixels wide by 16 pixels high and can be either 8-bit color depth (256 colors) or 32-bit color depth (true color). 32-bit color icons are preferred. Icons are typically arranged in a single horizontal row in a single bitmap, although multiple bitmaps are allowed. This bitmap is declared in the *.vsct* file along with the individual icons available in the bitmap. See the reference for the [Bitmaps element](../extensibility/bitmaps-element.md) for more details.  
   
-## Adding an Icon to a Command  
- The following procedure assumes that you have an existing VSPackage project with a menu command. To find out how to do this, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md).  
+## Add an icon to a command  
+ The following procedure assumes that you have an existing VSPackage project with a menu command. To find out how to do this, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).  
   
 1.  Create a bitmap with a color depth of 32-bits. An icon is always 16 x 16 so this bitmap must be 16 pixels high and a multiple of 16 pixels wide.  
   
@@ -30,11 +30,11 @@ Commands can appear on both menus and toolbars. On toolbars, it is common for a 
   
      If you use an 8-bit color depth, use magenta, `RGB(255,0,255)`, as the transparency. However, 32-bit color icons are preferred.  
   
-2.  Copy the icon file to the Resources directory in your VSPackage project. In the Solution Explorer, add the icon to the project. (Select Resources, and on the context menu click Add, then Existing Item, and select your icon file.)  
+2.  Copy the icon file to the *Resources* directory in your VSPackage project. In the Solution Explorer, add the icon to the project. (Select **Resources**, and on the context menu click **Add**, then **Existing Item**, and select your icon file.)  
   
-3.  Open the .vsct file in the editor.  
+3.  Open the *.vsct* file in the editor.  
   
-4.  Add a `GuidSymbol` element with a name of **testIcon**. Create a GUID (**Tools / Create GUID**, then select **Registry Format** and click Copy) and paste it into the `value` attribute. The result should look like this:  
+4.  Add a `GuidSymbol` element with a name of **testIcon**. Create a GUID (**Tools / Create GUID**, then select **Registry Format** and click **Copy**) and paste it into the `value` attribute. The result should look like this:  
   
     ```xml  
     <!-- Create your own GUID -->  
@@ -50,7 +50,7 @@ Commands can appear on both menus and toolbars. On toolbars, it is common for a 
     </GuidSymbol>  
     ```  
   
-6.  Create a `<Bitmap>` in the `<Bitmaps>` section of the .vsct file to represent the bitmap containing the icons.  
+6.  Create a `<Bitmap>` in the `<Bitmaps>` section of the *.vsct* file to represent the bitmap containing the icons.  
   
     -   Set the `guid` value to the name of the `<GuidSymbol>` element you created in the previous step.  
   
@@ -78,6 +78,6 @@ Commands can appear on both menus and toolbars. On toolbars, it is common for a 
   
 8.  Test your icon. Build the project and start debugging. In the experimental instance, find the command. It should show the icon you added.  
   
-## See Also  
- [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)   
- [VSCT XML Schema Reference](../extensibility/vsct-xml-schema-reference.md)
+## See also  
+ [Extending menus and commands](../extensibility/extending-menus-and-commands.md)   
+ [VSCT XML schema reference](../extensibility/vsct-xml-schema-reference.md)
