@@ -35,7 +35,7 @@ The following image shows some of the F# item templates:
 
 For more information about the item templates for data access, see [F# type providers](/dotnet/fsharp/tutorials/type-providers/index).
 
-The following table summarizes project-properties features supported and not supported in F#:
+The following table summarizes features in project properties for F#:
 
 |Project setting|Supported in F#?|Notes|
 |---------------|----------------|-----|
@@ -60,7 +60,9 @@ The following table summarizes project-properties features supported and not sup
 |Build|[Build Page, Project Designer](reference/build-page-project-designer-csharp.md)|Enables you to control how the code is compiled.|
 |Build Events|[Build Events Page, Project Designer](reference/build-events-page-project-designer-csharp.md)|Enables you to specify commands to run before or after a compilation.|
 |Debug|[Debug Page, Project Designer](reference/debug-page-project-designer.md)|Enables you to control how the application runs during debugging. This includes what commands to use and what your application's starting directory is, and any special debugging modes you want to enable, such as native code and SQL.|
+|Package (.NET SDK only)|N/A|Enables you to define NuGet Package metadata when publishing as a NuGet package.|
 |Reference Paths|[Manage references in a project](managing-references-in-a-project.md)|Enables you to specify where to search for assemblies that the code depends on.|
+|Resources (.NET SDK only)|N/A|Enables you to generate and manage a default resources file.|
 
 ### F#-specific settings
 
@@ -81,15 +83,25 @@ The following features of the Visual Studio code and text editors are supported 
 |Automatically format|Reformats code with standard indentation and style.|No|
 |Bookmarks|Enables you to save places in the editor.|Yes|
 |Change indentation|Indents or unindents selected lines.|Yes|
+|Smart indentation|Automatically indents and de-indents the cursor according to F# scoping rules.|Yes|
 |[Find and replace text](finding-and-replacing-text.md)|Enables you to search in a file, project, or solution, and potentially change text.|Yes|
 |Go to definition for .NET Framework API|When the cursor is positioned on a .NET Framework API, shows code generated from .NET Framework metadata.|No|
 |Go to definition for user-defined API|When the cursor is on a program entity that you defined, moves the cursor to the location in your code where the entity is defined.|Yes|
 |Go To Line|Enables you to go to a specific line in a file, by line number.|Yes|
 |Navigation bars at top of file|Enables you to jump to locations in code, by, For example, function name.|Yes|
+|Block Structure Guidelines|Shows guidelines that indicate F# scopes, which can be hovered over for a preview.|Yes|
 |[Outlining](outlining.md)|Enables you to collapse sections of your code to create a more compact view.|Yes|
 |Tabify|Converts spaces to tabs.|Yes|
 |Type colorization|Shows defined type names in a special color.|Yes|
 |Quick Find. See Quick Find, Find and Replace Window.|Enables you to search in a file or project.|Yes|
+|**Ctrl**+**click** to Go to Definition|Allows you to hold **Ctrl** and click on an F# symbol to invoke Go to Definition.|Yes|
+|Go to Definition from QuickInfo|Clickable symbols inside tooltips that invoke Go to Definition.|Yes|
+|Go to All|Enables global, fuzzy-matching navigation for all F# constructs via **Ctrl**+**T**.|Yes|
+|Inline Rename|Renames all occurrences of a symbol inline.|Yes|
+|Find all References|Finds all occurrences of a symbol in a codebase.|Yes|
+|Simplify Name code fix|Removes unnecessary qualifiers for F# symbols.|Yes|
+|Remove unused `open` statement code fix|Removes all unnecessary `open` statements in a document.|Yes|
+|Unused value code fix|Suggests renaming an unused identifier to underscore.|Yes|
 
 For general information about editing code in Visual Studio, and features of the text editor, see [Write code in the editor](writing-code-in-the-code-and-text-editor.md).
 
@@ -99,15 +111,17 @@ The following table summarizes IntelliSense features supported and not supported
 
 |Feature|Description|Supported in F#?|
 |-------|-----------|----------------|
-|Automatically implement interfaces|Generates code stubs for interface methods.|No|
+|Automatically implement interfaces|Generates code stubs for interface methods.|Yes|
 |Code snippets|Injects code from a library of common coding constructs into topics.|No|
 |Complete Word|Saves typing by completing words and names as you type.|Yes|
-|Consume-first completion mode|When enabled, causes the word completion to select the first match as you type, instead of waiting for you to select one or press **Ctrl**+**Space**.|No|
+|Automatic completion|When enabled, causes the word completion to select the first match as you type, instead of waiting for you to select one or press **Ctrl**+**Space**.|Yes|
+|Offer completion for symbols in unopened namespaces|With automatic completion, a matching symbol that resides in an unopened namespace is suggested, offering to complete with the corresponding `open` statement when selected.|Yes|
 |Generate code elements|Enables you to generate stub code for a variety of constructs.|No|
 |List Members|When you type the member access operator (.), shows members for a type.|Yes|
 |Organize Usings/Open|Organizes namespaces referenced by **using** statements in C# or **open** directives in F#.|No|
 |Parameter Info|Shows helpful information about parameters as you type a function call.|Yes|
 |Quick Info|Displays the complete declaration for any identifier in your code.|Yes|
+|Automatic brace completion|Automatically completes F# brace-like syntax constructs in a transactional manner.|Yes|
 
 For general information about IntelliSense, see [Use IntelliSense](using-intellisense.md).
 
@@ -147,7 +161,7 @@ The following table summarizes the support for F# in Visual Studio tools.
 |Properties window|Displays and enables editing of properties of the object in the development environment that has focus.|Yes|
 |Server Explorer|Provides ways to interact with a variety of server resources.|Yes|
 |Solution Explorer|Enables you to view and manage projects and files.|Yes|
-|Task List|Enables you to manage work items pertaining to your code.|Yes|
+|Task List|Enables you to manage work items pertaining to your code.|No|
 |Test projects|Provides features that help you test your code.|No|
 |Toolbox|Displays tabs that contain draggable objects such as controls and sections of text or code.|Yes|
 
