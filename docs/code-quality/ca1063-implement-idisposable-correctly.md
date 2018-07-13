@@ -62,7 +62,7 @@ Examine your code and determine which of the following resolutions will fix this
 
 - Remove the finalizer from your type, override Dispose(bool disposing), and put the finalization logic in the code path where 'disposing' is false.
 
-- Remove Dispose(), override Dispose(bool disposing), and put the dispose logic in the code path where 'disposing' is true.
+- Override Dispose(bool disposing), and put the dispose logic in the code path where 'disposing' is true.
 
 - Make sure that Dispose() is declared as public and [sealed](/dotnet/csharp/language-reference/keywords/sealed).
 
@@ -70,9 +70,9 @@ Examine your code and determine which of the following resolutions will fix this
 
 - Make sure that Dispose(bool) is declared as protected, virtual, and unsealed.
 
-- Modify your finalize method so that it calls Dispose(true), then calls GC.SuppressFinalize on the current object instance (`this`, or `Me` in Visual Basic), and then returns.
+- Modify Dispose() so that it calls Dispose(true), then calls <xref:System.GC.SuppressFinalize%2A> on the current object instance (`this`, or `Me` in Visual Basic), and then returns.
 
-- Modify your finalize method so that it calls Dispose(false) and then returns.
+- Modify your finalizer so that it calls Dispose(false) and then returns.
 
 - If you create an unsealed type that declares and implements the <xref:System.IDisposable> interface, make sure that the implementation of <xref:System.IDisposable> follows the pattern that is described earlier in this section.
 
