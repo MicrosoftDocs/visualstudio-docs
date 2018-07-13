@@ -20,7 +20,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Customize the default web page for a ClickOnce application
+# How to: Customize the default Web page for a ClickOnce application
 When publishing a ClickOnce application to the Web, a Web page is automatically generated and published along with the application. The default page contains the name of the application and links to install the application, install prerequisites, or access help on MSDN.  
   
 > [!NOTE]
@@ -33,7 +33,7 @@ When publishing a ClickOnce application to the Web, a Web page is automatically 
 > [!NOTE]
 >  Changes that you make to your **Publish** settings will not affect the *Publish.htm* page, with one exception: if you add or remove prerequisites after initially publishing, the list of prerequisites will no longer be accurate. You will need to edit the text for the prerequisite link to reflect the changes.  
   
-### To customize the publish web page  
+### To customize the publish Web page  
   
 1.  Publish your ClickOnce application to a Web location. For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).  
   
@@ -41,7 +41,7 @@ When publishing a ClickOnce application to the Web, a Web page is automatically 
   
 3.  Customize the page as desired and save it.  
   
-4.  Optional. To prevent Visual Studio from overwriting your customized publish Web page, uncheck **Automatically generate deployment web page after every publish** in the **Publish Options** dialog box.  
+4.  Optional. To prevent Visual Studio from overwriting your customized publish Web page, uncheck **Automatically generate deployment Web page after every publish** in the **Publish Options** dialog box.  
   
 ## See also  
  [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)   
