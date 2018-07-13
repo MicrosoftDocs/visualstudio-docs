@@ -56,15 +56,13 @@ The website itself is still live and end users aren't impacted. By default, only
 
 3. In the **Message** field, enter a log message that you want to log. You can also evaluate variables in your log message by placing them inside curly braces.
 
-    ![Logpoint data in the diagnostic tools window](../media/snapshot-startpage-logpoint-output.png)
-
     If you choose **Send to Output Window**, the message appears in the Diagnostic Tools window when the logpoint is hit. 
 
     If you choose **Send to application log**, the message appears anywhere that you can see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as App Insights, when the logpoint is hit.
 
 ## Learn More
 
-You can find more information about the Snapshot Debugger on the [docs page](../debug-live-azure-applications.md).
+You can find more information about the Snapshot Debugger on the [docs page](../debug-live-azure-applications.md). Learn more about setting conditions to make it easier to find bugs.
 
 ## Don't' Show Me This Again
 
