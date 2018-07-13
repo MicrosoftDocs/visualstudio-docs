@@ -1,12 +1,12 @@
-# Welcome to the Snapshot Debugger
+# Welcome to the Snapshot Debugger!
 
 The Visual Studio Snapshot Debugger is now connected to your service and you can start collecting snapshots to help with debugging.
 
-To use the Snapshot Debugger, set some snappoints in your code (similar to breakpoints), click the button to begin collecting snapshots, and then run your scenario. When code runs where you've set a snappoint, a snapshot of your application is taken. Then open the snapshot by clicking on it in Visual Studio in the Diagnostic Tools window. You can now debug the snapshot from your service just like it was local. Detailed instruction follow.
+To use the Snapshot Debugger, set some snappoints in your code (similar to breakpoints), click the button to begin collecting snapshots, and then run your scenario. When code runs in which you've set a snappoint, a snapshot of your application is taken. Then open the snapshot by clicking on it in Visual Studio in the Diagnostic Tools window. You can now debug the snapshot from your service just like it was local. Detailed instruction follow.
 
 ## Collect and view snapshots
 
-The Snapshot Debugger collects snapshots from your application. Snapshots are like pictures of your appication at a point in time. You tell Visual Studio where and when to collect a snapshot by setting a snappoint in code along with any conditions you need to make sure you get a snapshot of the problem you're investigating.
+The Snapshot Debugger collects snapshots from your application. Snapshots are like pictures of your appication at a point in time. You tell Visual Studio when and where to collect a snapshot by setting a snappoint in code. In the snappoint, you set any conditions you need to make sure you get a snapshot of the problem you're investigating.
 
 ### Set a Snappoint
 
@@ -22,19 +22,19 @@ The Snapshot Debugger collects snapshots from your application. Snapshots are li
 
     ![Snapshot in the Diagnostic Tools window](../media/snapshot-startpage-diagsession-window.png)
 
-2. Double-click the snapshot to open the snapshot.
+2. Double-click the snapshot to open it.
 
 ### Inspect Snapshot data
 
 From this view, you can hover over variables to view DataTips, use the Locals, Watches, and Call Stack windows, and also evaluate expressions.
 
-The website itself is still live and end users aren't impacted. Only one snapshot is captured per snappoint by default. That is, after a snapshot is captured, the snappoint turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by clicking **Update Collection**.
+The website itself is still live and end users aren't impacted. By default, only one snapshot is captured per snappoint. That is, after a snapshot is captured, the snappoint turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by clicking **Update Collection**.
 
 ### Set a Logpoint
 
 1. Right-click a snappoint icon (the purple hexagon) and choose **Settings**.
 
-2. In the Snappoint Settings window, select **Actions**.
+2. In the **Snappoint Settings** window, select **Actions**.
 
     ![Snappoint conditions](../media/snapshot-startpage-logpoint.png)
 
@@ -42,9 +42,9 @@ The website itself is still live and end users aren't impacted. Only one snapsho
 
     ![Logpoint data in the diagnostic tools window](../media/snapshot-startpage-logpoint-output.png)
 
-    If you choose **Send to Output Window**, when the logpoint is hit, the message appears in the Diagnostic Tools window. 
+    If you choose **Send to Output Window**, the message appears in the Diagnostic Tools window when the logpoint is hit. 
 
-    If you choose **Send to application log**, when the logpoint is hit, the message appears anywhere that you can see messages from System.Diagnostics.Trace (or ILogger in .NET Core), such as App Insights.
+    If you choose **Send to application log**, the message appears anywhere that you can see messages from `System.Diagnostics.Trace` (or `ILogger` in .NET Core), such as App Insights, when the logpoint is hit.
 
 ## Learn More
 
@@ -52,6 +52,6 @@ You can find more information about the Snapshot Debugger on our [docs page](../
 
 ## Dont' Show Me This Again
 
-To never show this page again when you connect the Snapshot Debugger change the option in **Tools** > **Options** > **Snapshot Debugger**. 
+To never show the Snapshot Debugger Start Page again when you connect the Snapshot Debugger, change the option in **Tools** > **Options** > **Snapshot Debugger**. 
 
 ![Snapshot Debugger Tool Option Page](../media/snapshot-startpage-tool-options.png)
