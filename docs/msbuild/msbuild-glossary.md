@@ -11,7 +11,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# MSBuild Glossary
+# MSBuild glossary
 These terms are used to describe the Microsoft Build Engine (MSBuild) and its components.  
   
 ## Glossary  
@@ -55,10 +55,10 @@ These terms are used to describe the Microsoft Build Engine (MSBuild) and its co
  Items are inputs into the build system, and are grouped into item types based on their element names. Items typically represent files. Because items are named by the item type they belong to, the terms *item* and *item value* can be used interchangeably. For more information, see [Items](../msbuild/msbuild-items.md).  
   
  item definition  
- Item definition groups contain item definitions that add default metadata to any item type. Like well-known metadata, the default metadata is associated with all items of the specified item type. Default metadata can be explicitly overridden in an item definition. For more information, see [Item Definitions](../msbuild/item-definitions.md).  
+ Item definition groups contain item definitions that add default metadata to any item type. Like well-known metadata, the default metadata is associated with all items of the specified item type. Default metadata can be explicitly overridden in an item definition. For more information, see [Item definitions](../msbuild/item-definitions.md).  
   
  item function  
- Item functions get information about the items in the project. These functions simplify getting Distinct() items and are faster than looping through the items. There are functions to manipulate item paths and strings. For more information, see [Item Functions](../msbuild/item-functions.md)  
+ Item functions get information about the items in the project. These functions simplify getting Distinct() items and are faster than looping through the items. There are functions to manipulate item paths and strings. For more information, see [Item functions](../msbuild/item-functions.md)  
   
  item metadata  
  See *metadata, item*.  
@@ -79,38 +79,38 @@ These terms are used to describe the Microsoft Build Engine (MSBuild) and its co
  A subset of the full framework. This is used to minimize the amount that needs to be downloaded to a machine.  
   
  project file  
- A project file contains the MSBuild script that controls the build. Project files typically have a file extension that ends with "proj", such as .csproj or .vbproj. Project files may import property files and target files.  
+ A project file contains the MSBuild script that controls the build. Project files typically have a file extension that ends with *proj*, such as *.csproj* or *.vbproj*. Project files may import property files and target files.  
   
  property  
- A property is a key-value pair that is used to control the build process. For more information, see [MSBuild Properties](../msbuild/msbuild-properties.md).  
+ A property is a key-value pair that is used to control the build process. For more information, see [MSBuild properties](../msbuild/msbuild-properties.md).  
   
  property, environment  
- An environment property is a property that is automatically initialized to the value of a system environment variable that has the same name. For more information, see [MSBuild Properties](../msbuild/msbuild-properties.md).  
+ An environment property is a property that is automatically initialized to the value of a system environment variable that has the same name. For more information, see [MSBuild properties](../msbuild/msbuild-properties.md).  
   
  property file  
- A property file is a project file that contains mostly property groups and item groups that guide the build. By convention, It has the file extension .props. Property files are typically imported at the beginning of associated project files.  
+ A property file is a project file that contains mostly property groups and item groups that guide the build. By convention, It has the file extension *.props*. Property files are typically imported at the beginning of associated project files.  
   
  property, function  
- A property function is a system property or method that can be used to evaluate MSBuild scripts. Property methods can be used to read the system time, compare strings, match regular expressions, and perform other actions. For more information, see [Property Functions](../msbuild/property-functions.md).  
+ A property function is a system property or method that can be used to evaluate MSBuild scripts. Property methods can be used to read the system time, compare strings, match regular expressions, and perform other actions. For more information, see [Property functions](../msbuild/property-functions.md).  
   
  property function, nested  
  Property functions may be combined to form more complex functions. For example,  
   
  `$([MSBuild]::BitwiseAnd(32,   $([System.IO.File]::GetAttributes(tempFile))))`  
   
- For more information, see [Property Functions](../msbuild/property-functions.md).  
+ For more information, see [Property functions](../msbuild/property-functions.md).  
   
  property, global  
- A global property is a key-value pair that is used to control the build process. Global properties are set at a command prompt, or by using the `Properties` attribute of an [MSBuild task](../msbuild/msbuild-task.md), and cannot be modified during the evaluation phase of a build. For more information, see [MSBuild Properties](../msbuild/msbuild-properties.md).  
+ A global property is a key-value pair that is used to control the build process. Global properties are set at a command prompt, or by using the `Properties` attribute of an [MSBuild task](../msbuild/msbuild-task.md), and cannot be modified during the evaluation phase of a build. For more information, see [MSBuild properties](../msbuild/msbuild-properties.md).  
   
  property, local  
  A local property is a key-value pair that is used to control the build process. This term is only used to distinguish a property that is not a global property.  
   
  property, registry  
- A registry property has a value that is set by using a special syntax that reads the value of a system registry subkey. For more information, see [MSBuild Properties](../msbuild/msbuild-properties.md).  
+ A registry property has a value that is set by using a special syntax that reads the value of a system registry subkey. For more information, see [MSBuild properties](../msbuild/msbuild-properties.md).  
   
  property, reserved  
- A reserved property is a key-value pair that is used to control the build process. Reserved properties are automatically initialized to predefined values. For more information, see [MSBuild Properties](../msbuild/msbuild-properties.md).  
+ A reserved property is a key-value pair that is used to control the build process. Reserved properties are automatically initialized to predefined values. For more information, see [MSBuild properties](../msbuild/msbuild-properties.md).  
   
  project-scope  
  Project-scope describes an MSBuild object, for example, a local property, that is visible only in the containing project file and to any projects that it imports.  
@@ -134,7 +134,7 @@ These terms are used to describe the Microsoft Build Engine (MSBuild) and its co
  See target, running.  
   
  target, evaluating  
- Because of incremental compilation, targets must be analyzed for potential changes to properties and items. Even if the target is skipped, these changes must be made. Evaluating a target means performing this analysis and making these changes. For more information, see [Incremental Builds](../msbuild/incremental-builds.md).  
+ Because of incremental compilation, targets must be analyzed for potential changes to properties and items. Even if the target is skipped, these changes must be made. Evaluating a target means performing this analysis and making these changes. For more information, see [Incremental builds](../msbuild/incremental-builds.md).  
   
  target, executing  
  Executing a target means evaluating it and executing all tasks that have no conditions, or whose conditions evaluate to true. During incremental compilation, targets may be skipped or executed, but they are always evaluated. For more information, see target, evaluating.  
@@ -146,13 +146,13 @@ These terms are used to describe the Microsoft Build Engine (MSBuild) and its co
  If incremental compilation determines that all output files are up-to-date, then the target is skipped, that is, the target is evaluated, but the tasks within the target are not executed. For more information, see target, evaluating.  
   
  target framework moniker  
- A name that describes the framework (such as .NETFramwork, Silverlight, etc.), the version, and the profile (such as Client, Server, etc.) that you wish to target.  
+ A name that describes the framework (such as .NETFramework, Silverlight, etc.), the version, and the profile (such as Client, Server, etc.) that you wish to target.  
   
  targeting pack  
  The list of assemblies that are distributed with a given framework and the set of reference assemblies for that framework.  
   
  targets file  
- A targets file is a project file that contains mostly targets and tasks that guide the build. By convention, It has the file extension .targets. Target files are typically imported at the end of associated project files.  
+ A targets file is a project file that contains mostly targets and tasks that guide the build. By convention, It has the file extension *.targets*. Target files are typically imported at the end of associated project files.  
   
  task  
  Tasks are units of executable code that [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] projects use to perform build operations. For example, a task might compile input files or run an external tool. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  
@@ -163,5 +163,5 @@ These terms are used to describe the Microsoft Build Engine (MSBuild) and its co
  well-known metadata  
  See *metadata, well-known*.  
   
-## See Also  
- [Msbuild](../msbuild/msbuild.md)
+## See also  
+ [MSBuild](../msbuild/msbuild.md)
