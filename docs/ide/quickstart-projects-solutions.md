@@ -166,7 +166,7 @@ The line in the C# code file that contains the <xref:System.Runtime.CompilerServ
 
    ![Project properties](media/quickstart-projects-properties.png)
 
-1. Explore some of the other tabs of the project's property pages, such as **Compile** and **Settings**. These tabs are different for different types of project.
+1. Explore some of the other tabs of the project's property pages, such as **Compile** and **Settings**. These tabs are different for different types of projects.
 
 ## Next steps
 
