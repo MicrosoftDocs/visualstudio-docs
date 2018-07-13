@@ -38,7 +38,7 @@ The <xref:System.IDisposable?displayProperty=nameWithType> interface is not impl
 
 - Dispose() is overridden.
 
-- The dispose method is not public, [sealed](/dotnet/csharp/language-reference/keywords/sealed), or named Dispose.
+- The Dispose() method is not public, [sealed](/dotnet/csharp/language-reference/keywords/sealed), or named **Dispose**.
 
 - Dispose(bool) is not protected, virtual, or unsealed.
 
@@ -48,7 +48,7 @@ The <xref:System.IDisposable?displayProperty=nameWithType> interface is not impl
 
 Violation of any one of these patterns triggers warning CA1063.
 
-Every unsealed type that declares and implements the <xref:System.IDisposable> interface must provide its own protected virtual void Dispose(bool) method. Dispose() should call Dipose(true), and Finalize should call Dispose(false). If create an unsealed type that declares and implements the <xref:System.IDisposable> interface, you must define Dispose(bool) and call it. For more information, see [Clean up unmanaged resources](/dotnet/standard/garbage-collection/unmanaged) in the [.NET Framework design guidelines](/dotnet/standard/design-guidelines/index).
+Every unsealed type that declares and implements the <xref:System.IDisposable> interface must provide its own protected virtual void Dispose(bool) method. Dispose() should call Dipose(true), and the finalizer should call Dispose(false). If you create an unsealed type that declares and implements the <xref:System.IDisposable> interface, you must define Dispose(bool) and call it. For more information, see [Clean up unmanaged resources (.NET guide)](/dotnet/standard/garbage-collection/unmanaged) and [Dispose pattern](/dotnet/standard/design-guidelines/dispose-pattern).
 
 ## Rule description
 
@@ -131,3 +131,4 @@ public class Resource : IDisposable
 ## See also
 
 - [Dispose pattern (framework design guidelines)](/dotnet/standard/design-guidelines/dispose-pattern)
+- [Clean up unmanaged resources (.NET guide)](/dotnet/standard/garbage-collection/unmanaged)
