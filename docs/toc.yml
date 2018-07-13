@@ -1,4 +1,4 @@
-- name: Visual Studio Documentation
+- name: Visual Studio documentation
   href: ide/index.md
 - name: Overview
   href: ide/visual-studio-ide.md
@@ -39,10 +39,10 @@
     href: install/repair-visual-studio.md
   - name: Uninstall Visual Studio
     href: install/uninstall-visual-studio.md
-  - name: Visual Studio Administrator Guide
+  - name: Visual Studio administrator guide
     href: install/visual-studio-administrator-guide.md
     items:
-    - name: Use the command-line
+    - name: Use the command line
       items:
       - name: Use command-line parameters to install Visual Studio
         href: install/use-command-line-parameters-to-install-visual-studio.md
@@ -57,7 +57,7 @@
       - name: Install and use Visual Studio behind a firewall or proxy server
         href: install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md
         items:
-        - name: Troubleshooting network errors when you install or use Visual Studio
+        - name: Troubleshoot network errors when you install or use Visual Studio
           href: install/troubleshooting-network-related-errors-in-visual-studio.md
     - name: Deploy in an enterprise
       items:
@@ -470,6 +470,11 @@
       href: ide/find-and-fix-code-errors.md
     - name: Cross-platform mobile development
       href: cross-platform/cross-platform-mobile-development-in-visual-studio.md
+    - name: F# development
+      href: ide/fsharp-visual-studio.md
+      items:
+      - name: Target older .NET versions
+        href: ide/fsharp-target-older-dotnet-versions.md
     - name: Office and Sharepoint development
       href: vsto/office-and-sharepoint-development-in-visual-studio.md
     - name: Work with XML and XSLT files
@@ -600,15 +605,15 @@
     - name: "Walkthrough: Create a Multiple-Computer Build Environment"
       href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
   - name: Debug...
-    href: debugger/debugger-feature-tour.md
+    href: debugger/index.md
   - name: Test...
     href: test/improve-code-quality.md
   - name: Measure performance...
-    href: profiling/profiling-feature-tour.md
+    href: profiling/index.md
   - name: Analyze code quality...
-    href: code-quality/code-analysis-for-managed-code-overview.md
+    href: code-quality/index.md
   - name: Deploy...
-    href: deployment/deploying-applications-services-and-components.md
+    href: deployment/index.md
   - name: Extend Visual Studio...
     href: extensibility/visual-studio-sdk.md
   - name: Analyze and Model Architecture...
@@ -681,8 +686,6 @@
     items:
     - name: Template Parameters
       href: ide/template-parameters.md
-    - name: Template Schema Reference (Extensibility)
-      href: extensibility/visual-studio-template-schema-reference.md?context=visualstudio/default
   - name: General User Interface Elements
     items:
     - name: Call Hierarchy
