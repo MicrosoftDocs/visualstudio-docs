@@ -30,6 +30,8 @@ The Snapshot Debugger collects snapshots from your application. Snapshots are li
 
 2. Click **Start Collection** to turn on the snappoint.
 
+    ![Setting a snappoint in the Editor](../media/snapshot-startpage-start-collection.png)
+
 ### Open a Snapshot
 
 1. When the snappoint is hit, a snapshot appears in the Diagnostic Tools window on the right. If the window doesn't open, you can open it by choosing **Debug** > **Windows** > **Show Diagnostic Tools**. 
