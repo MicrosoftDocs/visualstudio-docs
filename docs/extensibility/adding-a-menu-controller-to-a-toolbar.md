@@ -115,7 +115,7 @@ This walkthrough builds on the [Add a toolbar to a tool window](../extensibility
     public const int cmdidMCItem3 = 0x132;  
     ```  
   
-2.  In *TWTestCommand.cs*, add the following code at the top of the **TWTestCommand** class.  
+2.  In *TWTestCommand.cs*, add the following code at the top of the `TWTestCommand` class.  
   
     ```csharp  
     private int currentMCCommand; // The currently selected menu controller command  

@@ -32,7 +32,7 @@ Visual Studio allows loading of VSPackages when certain well-known <xref:Microso
   
 1.  Define a new UIContext GUID and add to the VSPackage class <xref:Microsoft.VisualStudio.Shell.ProvideAutoLoadAttribute> and <xref:Microsoft.VisualStudio.Shell.ProvideUIContextRuleAttribute>.  
   
-     For example, let's assume a new UIContext "UIContextGuid" is to be added. The GUID created (you can create a GUID by clicking on **Tools** > **Create guid**) is "8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B". You then add the following declaration inside your package class:  
+     For example, let's assume a new UIContext "UIContextGuid" is to be added. The GUID created (you can create a GUID by clicking on **Tools** > **Create GUID**) is "8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B". You then add the following declaration inside your package class:  
   
     ```csharp  
     public const string UIContextGuid = "8B40D5E2-5626-42AE-99EF-3DD1EFF46E7B";  
