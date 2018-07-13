@@ -1,3 +1,15 @@
+---
+title: "Start page for the Snapshot Debugger"
+ms.date: "07/14/2018"
+ms.technology: "vs-ide-debug"
+ms.topic: "reference"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: douge
+ms.workload: 
+  - "multiple"
+---
+
 # Welcome to the Snapshot Debugger!
 
 The Visual Studio Snapshot Debugger is now connected to your service and you can start collecting snapshots to help with debugging.
