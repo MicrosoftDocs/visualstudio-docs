@@ -60,21 +60,21 @@ MSBuild items are inputs into the build system, and they typically represent fil
 -   The * wildcard character matches zero or more characters.  
   
 -   The ** wildcard character sequence matches a partial path.  
-  
- For example, you can specify all the *.cs* files in the directory that contains the project file by using the following element in your project file.  
-  
+
+For example, you can specify all the *.cs* files in the directory that contains the project file by using the following element in your project file.  
+
 ```xml  
 <CSFile Include="*.cs"/>  
 ```  
-  
- The following element selects all *.vb* files on the *D:* drive:  
-  
+
+The following element selects all *.vb* files on the *D:* drive:  
+
 ```xml  
 <VBFile Include="D:/**/*.vb"/>  
 ```  
-  
- For more information about wildcard characters, see [How to: Select the files to build](../msbuild/how-to-select-the-files-to-build.md).  
-  
+
+For more information about wildcard characters, see [How to: Select the files to build](../msbuild/how-to-select-the-files-to-build.md).  
+
 ##  Use the Exclude attribute  
  Item elements can contain the `Exclude` attribute, which excludes specific items (files) from the item type. The `Exclude` attribute is typically used together with wildcard characters. For example, the following XML adds every *.cs* file in the directory to the CSFile item type, except the *DoNotBuild.cs* file.  
   
