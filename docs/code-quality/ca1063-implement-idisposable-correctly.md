@@ -52,7 +52,7 @@ Every unsealed type that declares and implements the <xref:System.IDisposable> i
 
 ## Rule description
 
-All <xref:System.IDisposable> types should implement the Dispose pattern correctly.
+All <xref:System.IDisposable> types should implement the [Dispose pattern](/dotnet/standard/design-guidelines/dispose-pattern) correctly.
 
 ## How to fix violations
 
@@ -127,3 +127,7 @@ public class Resource : IDisposable
     }
 }
 ```
+
+## See also
+
+- [Dispose pattern (framework design guidelines)](/dotnet/standard/design-guidelines/dispose-pattern)
