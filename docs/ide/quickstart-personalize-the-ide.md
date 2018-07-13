@@ -18,7 +18,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ## Set the color theme
 
-The default color theme for Visual Studio 2017 windows is called **Blue**. Let's change it to **Dark**.
+The default color theme for Visual Studio 2017's user interface is called **Blue**. Let's change it to **Dark**.
 
 1. On the menu bar, which is the row of menus such as **File** and **Edit**, choose **Tools** > **Options**.
 

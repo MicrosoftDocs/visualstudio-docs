@@ -28,7 +28,7 @@ Start by creating a new file and adding some code to it.
 
 1. In the **New File** dialog box, under the **General** category, choose **Visual C# Class**, and then choose **Open**.
 
-   A new file opens in the editor with the skeleton of a C# class. (Notice that we don't have to create a full Visual Studio project to gain some of the benefits that the code editor offers; all we need is a code file!)
+   A new file opens in the editor with the skeleton of a C# class. (Notice that we don't have to create a full Visual Studio project to gain some of the benefits that the code editor offers; all you need is a code file!)
 
    ![C# code file in Visual Studio](media/quickstart-editor.png)
 
@@ -54,7 +54,7 @@ The list includes snippets for creating a [class](/dotnet/csharp/programming-gui
 
 ## Comment out code
 
-The toolbar, which is the row of buttons under the menu bar in Visual Studio, can help make you more productive as you code. For example, you can toggle IntelliSense completion mode ([IntelliSense](using-intellisense.md) is a coding aid that displays lists of matching methods, amongst other things), increase or decrease a line indent, or comment out code that you don't want to compile. In this section, we'll comment out some code.
+The toolbar, which is the row of buttons under the menu bar in Visual Studio, can help make you more productive as you code. For example, you can toggle IntelliSense completion mode ([IntelliSense](using-intellisense.md) is a coding aid that displays a list of matching methods, amongst other things), increase or decrease a line indent, or comment out code that you don't want to compile. In this section, we'll comment out some code.
 
 ![Editor toolbar](media/quickstart-editor-toolbar.png)
 
@@ -98,9 +98,9 @@ The code block collapses to just the first line, followed by an ellipsis (`...`)
 
 ## View symbol definitions
 
-The Visual Studio editor makes it easy to inspect the definition of a type, method, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../ide/go-to-and-peek-definition.md#peek-definition). Let's peek at the definition of `string`.
+The Visual Studio editor makes it easy to inspect the definition of a type, method, etc. One way is to navigate to the file that contains the definition, for example by choosing **Go to Definition** anywhere the symbol is referenced. An even quicker way that doesn't move your focus away from the file you're working in is to use [Peek Definition](../ide/go-to-and-peek-definition.md#peek-definition). Let's peek at the definition of the `string` type.
 
-1. Right-click on any occurrence of `string` and choose **Peek Definition** from the content menu&mdash;or, press **Alt**+**F12**.
+1. Right-click on any occurrence of `string` and choose **Peek Definition** from the content menu. Or, press **Alt**+**F12**.
 
    A pop-up window appears with the definition of the `String` class. You can scroll within the pop-up window, or even peek at the definition of another type from the peeked code.
 
@@ -151,12 +151,12 @@ Nobody gets code right the first time, and one of the things you might have to c
 
 ## Next steps
 
-You've completed this Quickstart for the Visual Studio editor! Next you might try out some of the other Quickstarts for the Visual Studio IDE, look at more ways to [Navigate code](../ide/navigating-code.md), or check out the links to more information about the features we looked at. Otherwise, happy coding!
+You've completed this Quickstart for the Visual Studio editor. Next, you might try out some of the other Quickstarts for the Visual Studio development environment such as [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md) or [Quickstart: Personalize Visual Studio](../ide/quickstart-personalize-the-ide.md), look at more ways to [Navigate code](../ide/navigating-code.md), or check out the links to more information about the features we looked at. Otherwise, happy coding!
 
 ## See also
 
 - [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
-- [Quickstart: Personalize the Visual Studio IDE and editor](../ide/quickstart-personalize-the-ide.md)
+- [Quickstart: Personalize Visual Studio](../ide/quickstart-personalize-the-ide.md)
 - [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)
 - [Code snippets](../ide/code-snippets.md)
 - [Outlining](../ide/outlining.md)

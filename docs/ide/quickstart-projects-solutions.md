@@ -21,7 +21,7 @@ We'll construct a solution and project from scratch as an educational exercise t
 > [!NOTE]
 > Solutions and projects aren't required to develop apps in Visual Studio. You can also just open a folder that contains code and start coding, building, and debugging. For example, if you clone a [GitHub](https://github.com/) repo, it might not contain Visual Studio projects and solutions. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
-## Solutions
+## Solutions and projects
 
 Solutions are containers used by Visual Studio to organize one or more related projects. When you open a solution in Visual Studio, it automatically loads all the projects it contains.
 
@@ -29,9 +29,7 @@ Solutions are containers used by Visual Studio to organize one or more related p
 
 We'll start our exploration by creating an empty solution. After you get to know Visual Studio, you probably won't find yourself creating empty solutions very often. When you create a new project, Visual Studio automatically creates a solution to house the project if there's not a solution already open.
 
-1. Start Visual Studio.
-
-   Visual Studio opens, and you'll likely see the **Start Page** taking up most of the window.
+1. Open Visual Studio.
 
 1. On the menu bar, which is the row of menus such as **File** and **Edit**, choose **File** > **New** > **Project**.
 
