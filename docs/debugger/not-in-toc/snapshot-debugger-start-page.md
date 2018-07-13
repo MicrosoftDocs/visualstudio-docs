@@ -2,7 +2,7 @@
 
 The Visual Studio Snapshot Debugger is now connected to your service and you can start collecting snapshots to help with debugging.
 
-To use the Snapshot Debugger, set some snappoints in your code (similar to breakpoints), click the button to begin collecting snapshots, and then run your scenario. When code runs in which you've set a snappoint, a snapshot of your application is taken. Then open the snapshot by clicking on it in Visual Studio in the Diagnostic Tools window. You can now debug the snapshot from your service just like it was local. Detailed instruction follow.
+To use the Snapshot Debugger, set some snappoints in your code, click the button to begin collecting snapshots, and then run your scenario. When code runs in which you've set a snappoint, a snapshot of your application is taken. Then open the snapshot by clicking on it in Visual Studio in the Diagnostic Tools window. You can now debug the snapshot from your service just like it was local. For detailed instructions, keep reading.
 
 ## Collect and view snapshots
 
@@ -10,9 +10,11 @@ The Snapshot Debugger collects snapshots from your application. Snapshots are li
 
 ### Set a Snappoint
 
-1. In the code editor, click the left gutter next to a line of code that you are interested in to set a snappoint. Make sure it is code that you know will execute. 
+1. In the code editor, click the left gutter next to a line of code that you are interested in to set a snappoint. Make sure it is code that you know will run. 
 
     ![Setting a snappoint in the Editor](../media/snapshot-startpage-set-snappoint.png)
+
+    A purple hexagon appears where you click on the left.
 
 2. Click **Start Collection** to turn on the snappoint.
 
@@ -48,10 +50,10 @@ The website itself is still live and end users aren't impacted. By default, only
 
 ## Learn More
 
-You can find more information about the Snapshot Debugger on our [docs page](../debug-live-azure-applications.md).
+You can find more information about the Snapshot Debugger on the [docs page](../debug-live-azure-applications.md).
 
-## Dont' Show Me This Again
+## Don't' Show Me This Again
 
-To never show the Snapshot Debugger Start Page again when you connect the Snapshot Debugger, change the option in **Tools** > **Options** > **Snapshot Debugger**. 
+To never show the Snapshot Debugger Start Page again when you connect the Snapshot Debugger, change the **Show 'Getting Started' page on session start** option in **Tools** > **Options** > **Snapshot Debugger**. 
 
 ![Snapshot Debugger Tool Option Page](../media/snapshot-startpage-tools-options.png)
