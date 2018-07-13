@@ -12,7 +12,7 @@ The Snapshot Debugger collects snapshots from your application. Snapshots are li
 
 1. In the code editor, click the left gutter next to a line of code that you are interested in to set a snappoint. Make sure it is code that you know will execute. 
 
-    ![Setting a snappoint in the Editor](../../debugger/media/snapshot-set-snappoint.png)
+    ![Setting a snappoint in the Editor](../media/snapshot-startpage-set-snappoint.png)
 
 2. Click **Start Collection** to turn on the snappoint.
 
@@ -20,7 +20,7 @@ The Snapshot Debugger collects snapshots from your application. Snapshots are li
 
 1. When the snappoint is hit, a snapshot appears in the Diagnostic Tools window on the right. If the window doesn't open, you can open it by choosing **Debug** > **Windows** > **Show Diagnostic Tools**. 
 
-    ![Snapshot in the Diagnostic Tools window](../../debugger/media/snapshot-diagsession-window.png)
+    ![Snapshot in the Diagnostic Tools window](../media/snapshot-startpage-diagsession-window.png)
 
 2. Double-click the snapshot to open the snapshot.
 
@@ -36,11 +36,11 @@ The website itself is still live and end users aren't impacted. Only one snapsho
 
 2. In the Snappoint Settings window, select **Actions**.
 
-    ![Snappoint conditions](../../debugger/media/snapshot-logpoint.png)
+    ![Snappoint conditions](../media/snapshot-startpage-logpoint.png)
 
 3. In the **Message** field, enter a log message that you want to log. You can also evaluate variables in your log message by placing them inside curly braces.
 
-    ![Logpoint data in the diagnostic tools window](../../debugger/media/snapshot-logpoint-output.png)
+    ![Logpoint data in the diagnostic tools window](../media/snapshot-startpage-logpoint-output.png)
 
     If you choose **Send to Output Window**, when the logpoint is hit, the message appears in the Diagnostic Tools window. 
 
@@ -54,4 +54,4 @@ You can find more information about the Snapshot Debugger on our [docs page](../
 
 To never show this page again when you connect the Snapshot Debugger change the option in **Tools** > **Options** > **Snapshot Debugger**. 
 
-![Snapshot Debugger Tool Option Page](../../debugger/media/SnapshotDebugger-ToolOptions.png)
+![Snapshot Debugger Tool Option Page](../media/snapshot-startpage-tool-options.png)
