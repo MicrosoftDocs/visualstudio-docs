@@ -48,10 +48,10 @@ The website itself is still live and end users aren't impacted. By default, only
 
 ## Learn More
 
-You can find more information about the Snapshot Debugger on our [docs page](../../debugger/debug-live-azure-applications).
+You can find more information about the Snapshot Debugger on our [docs page](../debug-live-azure-applications.md).
 
 ## Dont' Show Me This Again
 
 To never show the Snapshot Debugger Start Page again when you connect the Snapshot Debugger, change the option in **Tools** > **Options** > **Snapshot Debugger**. 
 
-![Snapshot Debugger Tool Option Page](../media/snapshot-startpage-tool-options.png)
+![Snapshot Debugger Tool Option Page](../media/snapshot-startpage-tools-options.png)
