@@ -50,11 +50,11 @@ The available code snippets vary for different programming languages. You can lo
 
 ![C# code snippet list](media/quickstart-code-snippet-list.png)
 
-The list includes snippets for creating a [class](/dotnet/csharp/programming-guide/classes-and-structs/classes), a [constructor](/dotnet/csharp/programming-guide/classes-and-structs/constructors), a `for` loop, an `if` or `switch` statement, and more.
+The list includes snippets for creating a [class](/dotnet/csharp/programming-guide/classes-and-structs/classes), a [constructor](/dotnet/csharp/programming-guide/classes-and-structs/constructors), a [for](/dotnet/csharp/language-reference/keywords/for) loop, an [if](/dotnet/csharp/language-reference/keywords/if-else) or [switch](/dotnet/csharp/language-reference/keywords/switch) statement, and more.
 
 ## Comment out code
 
-The toolbar provides a number of buttons to make you more productive as you code. For example, you can toggle IntelliSense completion mode, increase or decrease an indent, set a bookmark, or comment out code. In this section, we'll comment out some code that we don't want to compile.
+The toolbar, which is the row of buttons under the menu bar in Visual Studio, can help make you more productive as you code. For example, you can toggle IntelliSense completion mode ([IntelliSense](using-intellisense.md) is a coding aid that displays lists of matching methods, amongst other things), increase or decrease a line indent, or comment out code that you don't want to compile. In this section, we'll comment out some code.
 
 ![Editor toolbar](media/quickstart-editor-toolbar.png)
 
@@ -82,7 +82,7 @@ The toolbar provides a number of buttons to make you more productive as you code
                                 select word;
     ```
 
-1. We are not using the `morewords` variable, but we may use it later so we don't want to delete it. Instead, let's comment out those lines. Select the entire definition of `morewords` to the closing semi-colon, and then choose the **Comment out the selected lines** button on the toolbar, or press **Ctrl**+**K**, **Ctrl**+**C**.
+1. We're not using the `morewords` variable, but we may use it later so we don't want to completely delete it. Instead, let's comment out those lines. Select the entire definition of `morewords` to the closing semi-colon, and then choose the **Comment out the selected lines** button on the toolbar. If you prefer to use the keyboard, press **Ctrl**+**K**, **Ctrl**+**C**.
 
    ![Comment out button](media/quickstart-comment-out.png)
 
@@ -90,7 +90,7 @@ The toolbar provides a number of buttons to make you more productive as you code
 
 ## Collapse code blocks
 
-We don't want to see the empty constructor for `Class1` that was generated, so to unclutter our view of the code, let's collapse it. Choose the small gray box with the minus sign inside it in the margin of the first line of the constructor. Or, if you are a keyboard user, place the cursor anywhere in the constructor code and press **Ctrl**+**M**, **Ctrl**+**M**.
+We don't want to see the empty [constructor](/dotnet/csharp/programming-guide/classes-and-structs/constructors) for `Class1` that was generated, so to unclutter our view of the code, let's collapse it. Choose the small gray box with the minus sign inside it in the margin of the first line of the constructor. Or, if you're a keyboard user, place the cursor anywhere in the constructor code and press **Ctrl**+**M**, **Ctrl**+**M**.
 
 ![Outlining collapse button](media/quickstart-collapse.png)
 
@@ -110,7 +110,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 
 ## Use IntelliSense to complete words
 
-[IntelliSense](../ide/using-intellisense.md) is an invaluable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. You can also use IntelliSense to complete a word after you type enough characters to disambiguate it. Let's add a line of code to print out the ordered strings to the console window.
+[IntelliSense](../ide/using-intellisense.md) is an invaluable resource when you're coding. It can show you information about available members of a type, or parameter details for different overloads of a method. You can also use IntelliSense to complete a word after you type enough characters to disambiguate it. Let's add a line of code to print out the ordered strings to the console window, which is the standard place for output from the program to go.
 
 1. Below the `query` variable, start typing the following code:
 
@@ -120,9 +120,9 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 
    You see IntelliSense show you **Quick Info** about the `query` symbol.
 
-   ![IntelliSense word complete](media/quickstart-intellisense-completion-list.png)
+   ![IntelliSense word completion in Visual Studio](media/quickstart-intellisense-completion-list.png)
 
-1. To insert the rest of the word `query` by using IntelliSense's "Complete Word" functionality, press **Tab**.
+1. To insert the rest of the word `query` by using IntelliSense's word comletion functionality, press **Tab**.
 
 1. Finish off the code block to look like the following code. You can even practice using code snippets again by entering `cw` and then pressing **Tab** twice to generate the `Console.WriteLine` code.
 
@@ -135,13 +135,13 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 
 ## Refactor a name
 
-Nobody gets code right the first time, and one of the things you might want to change is the name of a variable or method. Let's try out Visual Studio's [refactor](../ide/refactoring-in-visual-studio.md) functionality to rename the `_words` variable to `words`.
+Nobody gets code right the first time, and one of the things you might have to change is the name of a variable or method. Let's try out Visual Studio's [refactor](../ide/refactoring-in-visual-studio.md) functionality to rename the `_words` variable to `words`.
 
-1. Place your cursor over the definition of the `words` variable, and choose **Rename** from the right-click or context menu, or press **Ctrl**+**R**, **Ctrl**+**R**.
+1. Place your cursor over the definition of the `_words` variable, and choose **Rename** from the right-click or context menu, or press **Ctrl**+**R**, **Ctrl**+**R**.
 
    A pop-up **Rename** dialog box appears at the top right of the editor.
 
-1. Enter the desired name `words`. Notice that the reference to `words` in the query is also automatically renamed. Before you press **Enter**, select the **Include comments** checkbox in the **Rename** pop-up box.
+1. Enter the desired name **words**. Notice that the reference to `words` in the query is also automatically renamed. Before you press **Enter**, select the **Include comments** checkbox in the **Rename** pop-up box.
 
    ![Rename dialog box](media/quickstart-rename.png)
 
