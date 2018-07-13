@@ -14,16 +14,14 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Adding an Attribute to a Project Item
+# Add an attribute to a project item
 The methods <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.GetItemAttribute%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetItemAttribute%2A> get and set the value of the attributes of a project item. SetItemAttribute creates the attribute if it does not already exist, adding it to the project item metadata.  
   
-## Adding an attribute to a project item  
-  
-#### To add an attribute to a project item  
+## Add an attribute to a project item  
   
 -   The following code uses the <xref:EnvDTE.DTE> automation object and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetItemAttribute%2A> method to add an attribute to a project item. The project item ID is obtained from the project item name "program.cs". The attribute "MyAttribute" is added to this project item and given the value "MyValue".  
   
-    ```  
+    ```csharp  
     EnvDTE.DTE dte = (EnvDTE.DTE)Package.GetGlobalService(typeof(EnvDTE.DTE));  
     EnvDTE.Project project = dte.Solution.Projects.Item(1);  
   
@@ -43,5 +41,5 @@ The methods <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.G
   
     ```  
   
-## See Also  
- [Persisting Data in the MSBuild Project File](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md)
+## See also  
+ [Persist data in the MSBuild project file](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md)
