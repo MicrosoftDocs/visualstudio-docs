@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;Signature&gt; element (ClickOnce bdployment)
+# &lt;Signature&gt; element (ClickOnce deployment)
 Contains the necessary information to digitally sign this deployment manifest.  
   
 ## Syntax  
