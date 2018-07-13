@@ -199,9 +199,8 @@ The experimental debugger is compatible with only limited Python environments, a
 | --- | --- |
 | 2.6 | No |
 | 2.7 | Yes |
-| 3.1 | No |
-| 3.2 | No |
-| 3.3 and later | Yes |
+| 3.1 to 3.4 | No |
+| 3.5 and later | Yes |
 | IronPython | No |
 
 If you attempt to use the experimental debugger with an incompatible environment, Visual Studio shows the error, "Debugger is incompatible with this environment":
@@ -210,15 +209,16 @@ If you attempt to use the experimental debugger with an incompatible environment
 
 Select the **Disable the experimental debugger** command, which clears the **Use experimental debugger** option.
 
+> [!Note]
+> The warning is not presently shown for Python 3.3 and 3.4.
+
 If you've installed an older version of ptvsd in the current environment (such as an earlier 4.0.x version of a 3.x version required for remote debugging), Visual Studio shows either the error "Debugger package could not be loaded," or the warning, "Debugger package is outdated":
 
 ![Debugger package could not be loaded error when using the experimental debugger](media/debugging-experimental-version-error.png)
 
 ![Debugger package is outdated warning when using the experimental debugger](media/debugging-experimental-version-warning.png)
 
-Although you may choose to ignore the warning, Visual Studio may not work correctly. If you see the error, you must update ptvsd to its latest version, or uninstall the package to allow Visual Studio to use its bundled (and well tested) version.
-
-You can manage ptvsd in the *Packages** tab in the **Python Environments** window, or through the command line with the following commands.
+To manage your ptvsd installation, use the  **Packages** tab in the **Python Environments** window, or use the following commands from the command line:
 
 ```ps
 # Uninstalling ptvsd causes VS to default to its bundled 4.1.x version.
@@ -228,6 +228,9 @@ pip uninstall ptvsd
 # -pre is required to allow pre-release versions as currently required by the experimental debugger.
 pip install --upgrade ptvsd -pre
 ```
+
+> [!Important]
+> Although you may choose to ignore the warning for some versions of ptvsd, Visual Studio may not work correctly.
 
 ## See also
 
