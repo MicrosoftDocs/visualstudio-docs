@@ -14,6 +14,8 @@ ms.assetid: 12afb1ea-3a17-4a3f-a1f0-fcdb853e2359
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - "CSharp"
 ms.workload:
   - "multiple"
 ---
@@ -28,51 +30,51 @@ ms.workload:
 
 ## Cause
 
-`IDisposable` is not implemented correctly. Some reasons for this problem are listed here:
+The <xref:System.IDisposable?displayProperty=nameWithType> interface is not implemented correctly. Possible reasons for this include:
 
-- IDisposable is re-implemented in the class.
+- <xref:System.IDisposable> is reimplemented in the class.
 
 - Finalize is re-overridden.
 
-- Dispose is overridden.
+- Dispose() is overridden.
 
-- Dispose() is not public, sealed, or named Dispose.
+- The dispose method is not public, [sealed](/dotnet/csharp/language-reference/keywords/sealed), or named Dispose.
 
 - Dispose(bool) is not protected, virtual, or unsealed.
 
 - In unsealed types, Dispose() must call Dispose(true).
 
-- For unsealed types, the Finalize implementation does not call either or both Dispose(bool) or the case class finalizer.
+- For unsealed types, the Finalize implementation does not call either or both Dispose(bool) or the base class finalizer.
 
-Violation of any one of these patterns will trigger this warning.
+Violation of any one of these patterns triggers warning CA1063.
 
-Every unsealed type that declares and implements the IDisposable interface must provide its own protected virtual void Dispose(bool) method. Dispose() should call Dipose(true) and Finalize should call Dispose(false). If you are creating an unsealed type that declares and implements the IDisposable interface, you must define Dispose(bool) and call it. For more information, see [Cleaning up unmanaged resources](/dotnet/standard/garbage-collection/unmanaged) in the [.NET Framework design guidelines](/dotnet/standard/design-guidelines/index).
+Every unsealed type that declares and implements the <xref:System.IDisposable> interface must provide its own protected virtual void Dispose(bool) method. Dispose() should call Dipose(true), and Finalize should call Dispose(false). If create an unsealed type that declares and implements the <xref:System.IDisposable> interface, you must define Dispose(bool) and call it. For more information, see [Clean up unmanaged resources](/dotnet/standard/garbage-collection/unmanaged) in the [.NET Framework design guidelines](/dotnet/standard/design-guidelines/index).
 
 ## Rule description
 
-All IDisposable types should implement the Dispose pattern correctly.
+All <xref:System.IDisposable> types should implement the Dispose pattern correctly.
 
 ## How to fix violations
 
-Examine your code and determine which of the following resolutions will fix this violation.
+Examine your code and determine which of the following resolutions will fix this violation:
 
-- Remove IDisposable from the list of interfaces that are implemented by {0} and override the base class Dispose implementation instead.
+- Remove <xref:System.IDisposable> from the list of interfaces that are implemented by your type, and override the base class Dispose implementation instead.
 
-- Remove the finalizer from type {0}, override Dispose(bool disposing), and put the finalization logic in the code path where 'disposing' is false.
+- Remove the finalizer from your type, override Dispose(bool disposing), and put the finalization logic in the code path where 'disposing' is false.
 
-- Remove {0}, override Dispose(bool disposing), and put the dispose logic in the code path where 'disposing' is true.
+- Remove Dispose(), override Dispose(bool disposing), and put the dispose logic in the code path where 'disposing' is true.
 
-- Ensure that {0} is declared as public and sealed.
+- Make sure that Dispose() is declared as public and [sealed](/dotnet/csharp/language-reference/keywords/sealed).
 
-- Rename {0} to 'Dispose' and make sure that it is declared as public and sealed.
+- Rename your dispose method to **Dispose** and make sure that it's declared as public and [sealed](/dotnet/csharp/language-reference/keywords/sealed).
 
-- Make sure that {0} is declared as protected, virtual, and unsealed.
+- Make sure that Dispose(bool) is declared as protected, virtual, and unsealed.
 
-- Modify {0} so that it calls Dispose(true), then calls GC.SuppressFinalize on the current object instance ('this' or 'Me' in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]), and then returns.
+- Modify your finalize method so that it calls Dispose(true), then calls GC.SuppressFinalize on the current object instance (`this`, or `Me` in Visual Basic), and then returns.
 
-- Modify {0} so that it calls Dispose(false) and then returns.
+- Modify your finalize method so that it calls Dispose(false) and then returns.
 
-- If you are creating an unsealed type that declares and implements the IDisposable interface, make sure that the implementation of IDisposable follows the pattern that is described earlier in this section.
+- If you create an unsealed type that declares and implements the <xref:System.IDisposable> interface, make sure that the implementation of <xref:System.IDisposable> follows the pattern that is described earlier in this section.
 
 ## When to suppress warnings
 
@@ -96,7 +98,7 @@ public class Resource : IDisposable
     }
 
     // NOTE: Leave out the finalizer altogether if this class doesn't
-    // own unmanaged resources itself, but leave the other methods
+    // own unmanaged resources, but leave the other methods
     // exactly as they are.
     ~Resource()
     {
