@@ -39,9 +39,9 @@ This article lists the following common errors that can occur when you deploy a 
   
 -   If the log file says "(403) Forbidden" or "(404) Not found," verify that the Web server is configured so that it does not block download of this file. For more information, see [Server and Client Configuration Issues in ClickOnce Deployments](../deployment/server-and-client-configuration-issues-in-clickonce-deployments.md).  
   
--   If the .config file is being blocked by the server, see the section "Download error when you try to install a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application that has a .config file" later in this article.  
+-   If the *.config* file is being blocked by the server, see the section "Download error when you try to install a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application that has a .config file" later in this article.  
   
--   Determine whether this occurred because the `deploymentProvider` URL in the deployment manifest is pointing to a different location than the URL used for activation.  
+-   Determine whether this error occurred because the `deploymentProvider` URL in the deployment manifest is pointing to a different location than the URL used for activation.  
   
 -   Ensure that all files are present on the server; the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] log should tell you which file was not found.  
   
