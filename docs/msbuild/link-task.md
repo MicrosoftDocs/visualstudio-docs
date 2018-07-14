@@ -33,11 +33,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Link Task
-Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object File Format (COFF) object files and libraries to create an executable (.exe) file or a dynamic-link library (DLL). For more information, see [Linker Options](/cpp/build/reference/linker-options).  
+# Link task
+Wraps the Visual C++ linker tool, *link.exe*. The linker tool links Common Object File Format (COFF) object files and libraries to create an executable (*.exe*) file or a dynamic-link library (DLL). For more information, see [Linker options](/cpp/build/reference/linker-options).  
   
 ## Parameters  
- The following table describes the parameters of the **Link** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.  
+ The following describes the parameters of the **Link** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.  
   
 -   **AdditionalDependencies**  
   
@@ -45,7 +45,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Specifies a list of input files to add to the command.  
   
-     For more information, see [LINK Input Files](/cpp/build/reference/link-input-files).  
+     For more information, see [LINK input files](/cpp/build/reference/link-input-files).  
   
 -   **AdditionalLibraryDirectories**  
   
@@ -61,15 +61,15 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Specifies attributes that will be placed in the `dependency` section of the manifest file.  
   
-     For more information, see [/MANIFESTDEPENDENCY (Specify Manifest Dependencies)](/cpp/build/reference/manifestdependency-specify-manifest-dependencies). Also, see "Publisher Configuration Files" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see [/MANIFESTDEPENDENCY (Specify manifest dependencies)](/cpp/build/reference/manifestdependency-specify-manifest-dependencies). Also see [Publisher configuration files](https://docs.microsoft.com/en-us/windows/desktop/SbsCs/publisher-configuration-files).  
   
 -   **AdditionalOptions**  
   
      Optional **String** parameter.  
   
-     A list of linker options as specified on the command line. For example, **"***/option1 /option2 /option#*". Use this parameter to specify linker options that are not represented by any other **Link** task parameter.  
+     A list of linker options as specified on the command line. For example, /\<option1> /\<option2> /\<option#>. Use this parameter to specify linker options that are not represented by any other **Link** task parameter.  
   
-     For more information, see [Linker Options](/cpp/build/reference/linker-options).  
+     For more information, see [Linker options](/cpp/build/reference/linker-options).  
   
 -   **AddModuleNamesToAssembly**  
   
@@ -77,7 +77,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Adds a module reference to an assembly.  
   
-     For more information, see [/ASSEMBLYMODULE (Add a MSIL Module to the Assembly)](/cpp/build/reference/assemblymodule-add-a-msil-module-to-the-assembly).  
+     For more information, see [/ASSEMBLYMODULE (Add a MSIL module to the assembly)](/cpp/build/reference/assemblymodule-add-a-msil-module-to-the-assembly).  
   
 -   **AllowIsolation**  
   
@@ -85,7 +85,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, causes the operating system to do manifest lookups and loads. If `false`, indicates that DLLs are loaded as if there was no manifest.  
   
-     For more information, see [/ALLOWISOLATION (Manifest Lookup)](/cpp/build/reference/allowisolation-manifest-lookup).  
+     For more information, see [/ALLOWISOLATION (Manifest lookup)](/cpp/build/reference/allowisolation-manifest-lookup).  
   
 -   **AssemblyDebug**  
   
@@ -101,7 +101,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Creates a link to a .NET Framework resource in the output file; the resource file is not placed in the output file. Specify the name of the resource.  
   
-     For more information, see [/ASSEMBLYLINKRESOURCE (Link to .NET Framework Resource)](/cpp/build/reference/assemblylinkresource-link-to-dotnet-framework-resource).  
+     For more information, see [/ASSEMBLYLINKRESOURCE (Link to .NET Framework resource)](/cpp/build/reference/assemblylinkresource-link-to-dotnet-framework-resource).  
   
 -   **AttributeFileTracking**  
   
@@ -115,7 +115,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Sets a base address for the program or DLL being built. Specify `{address[,size] | @filename,key}`.  
   
-     For more information, see [/BASE (Base Address)](/cpp/build/reference/base-base-address).  
+     For more information, see [/BASE (Base address)](/cpp/build/reference/base-base-address).  
   
 -   **BuildingInIDE**  
   
@@ -141,7 +141,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
     -   **ForceSafeILImage** - **/CLRIMAGETYPE:SAFE**  
   
-     For more information, see [/CLRIMAGETYPE (Specify Type of CLR Image)](/cpp/build/reference/clrimagetype-specify-type-of-clr-image).  
+    For more information, see [/CLRIMAGETYPE (Specify type of CLR image)](/cpp/build/reference/clrimagetype-specify-type-of-clr-image).  
   
 -   **CLRSupportLastError**  
   
@@ -157,7 +157,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
     -   **SystemDlls** - **/CLRSupportLastError:SYSTEMDLL**  
   
-     For more information, see [/CLRSUPPORTLASTERROR (Preserve Last Error Code for PInvoke Calls)](/cpp/build/reference/clrsupportlasterror-preserve-last-error-code-for-pinvoke-calls).  
+    For more information, see [/CLRSUPPORTLASTERROR (Preserve last error code for PInvoke calls)](/cpp/build/reference/clrsupportlasterror-preserve-last-error-code-for-pinvoke-calls).  
   
 -   **CLRThreadAttribute**  
   
@@ -173,7 +173,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
     -   **STAThreadingAttribute** - **/CLRTHREADATTRIBUTE:STA**  
   
-     For more information, see [/CLRTHREADATTRIBUTE (Set CLR Thread Attribute)](/cpp/build/reference/clrthreadattribute-set-clr-thread-attribute).  
+    For more information, see [/CLRTHREADATTRIBUTE (Set CLR thread attribute)](/cpp/build/reference/clrthreadattribute-set-clr-thread-attribute).  
   
 -   **CLRUnmanagedCodeCheck**  
   
@@ -181,7 +181,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Specifies whether the linker will apply **SuppressUnmanagedCodeSecurityAttribute** to linker-generated P/Invoke calls from managed code into native DLLs.  
   
-     For more information, see [/CLRUNMANAGEDCODECHECK (Add SupressUnmanagedCodeSecurityAttribute)](/cpp/build/reference/clrunmanagedcodecheck-add-supressunmanagedcodesecurityattribute).  
+    For more information, see [/CLRUNMANAGEDCODECHECK (Add SupressUnmanagedCodeSecurityAttribute)](/cpp/build/reference/clrunmanagedcodecheck-add-supressunmanagedcodesecurityattribute).  
   
 -   **CreateHotPatchableImage**  
   
@@ -199,7 +199,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
     -   **ItaniumImage** - **/FUNCTIONPADMIN:16**  
   
-     For more information, see [/FUNCTIONPADMIN (Create Hotpatchable Image)](/cpp/build/reference/functionpadmin-create-hotpatchable-image).  
+    For more information, see [/FUNCTIONPADMIN (Create hotpatchable image)](/cpp/build/reference/functionpadmin-create-hotpatchable-image).  
   
 -   **DataExecutionPrevention**  
   
@@ -215,7 +215,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      This parameter causes *delayed loading* of DLLs. Specify the name of a DLL to delay load.  
   
-     For more information, see [/DELAYLOAD (Delay Load Import)](/cpp/build/reference/delayload-delay-load-import).  
+     For more information, see [/DELAYLOAD (Delay load import)](/cpp/build/reference/delayload-delay-load-import).  
   
 -   **DelaySign**  
   
@@ -223,7 +223,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, partially signs an assembly. By default, the value is `false`.  
   
-     For more information, see [/DELAYSIGN (Partially Sign an Assembly)](/cpp/build/reference/delaysign-partially-sign-an-assembly).  
+     For more information, see [/DELAYSIGN (Partially sign an assembly)](/cpp/build/reference/delaysign-partially-sign-an-assembly).  
   
 -   **Driver**  
   
@@ -241,7 +241,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
     -   **WDM** - **/DRIVER:WDM**  
   
-     For more information, see [/DRIVER (Windows NT Kernel Mode Driver)](/cpp/build/reference/driver-windows-nt-kernel-mode-driver).  
+    For more information, see [/DRIVER (Windows NT kernel mode driver)](/cpp/build/reference/driver-windows-nt-kernel-mode-driver).  
   
 -   **EmbedManagedResourceFile**  
   
@@ -249,7 +249,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Embeds a resource file in an assembly. Specify the required resource file name. Optionally specify the logical name, which is used to load the resource, and the **PRIVATE** option, which indicates in the assembly manifest that the resource file is private.  
   
-     For more information, see [/ASSEMBLYRESOURCE (Embed a Managed Resource)](/cpp/build/reference/assemblyresource-embed-a-managed-resource).  
+     For more information, see [/ASSEMBLYRESOURCE (Embed a managed resource)](/cpp/build/reference/assemblyresource-embed-a-managed-resource).  
   
 -   **EnableCOMDATFolding**  
   
@@ -271,9 +271,9 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Optional **String** parameter.  
   
-     Specifies an entry point function as the starting address for an .exe file or DLL. Specify a function name as the parameter value.  
+     Specifies an entry point function as the starting address for an *.exe* file or DLL. Specify a function name as the parameter value.  
   
-     For more information, see [/ENTRY (Entry-Point Symbol)](/cpp/build/reference/entry-entry-point-symbol).  
+     For more information, see [/ENTRY (Entry-point symbol)](/cpp/build/reference/entry-entry-point-symbol).  
   
 -   **FixedBaseAddress**  
   
@@ -281,13 +281,13 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, creates a program or DLL that can be loaded only at its preferred base address.  
   
-     For more information, see [/FIXED (Fixed Base Address)](/cpp/build/reference/fixed-fixed-base-address).  
+     For more information, see [/FIXED (Fixed base address)](/cpp/build/reference/fixed-fixed-base-address).  
   
 -   **ForceFileOutput**  
   
      Optional **String** parameter.  
   
-     Tells the linker to create a valid .exe file or DLL even if a symbol is referenced but not defined, or is multiply defined.  
+     Tells the linker to create a valid *.exe* file or DLL even if a symbol is referenced but not defined, or is multiply defined.  
   
      Specify one of the following values, each of which corresponds to a command-line option.  
   
@@ -297,7 +297,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
     -   **UndefinedSymbolOnly** - **/FORCE:UNRESOLVED**  
   
-     For more information, see [/FORCE (Force File Output)](/cpp/build/reference/force-force-file-output).  
+    For more information, see [/FORCE (Force file output)](/cpp/build/reference/force-force-file-output).  
   
 -   **ForceSymbolReferences**  
   
@@ -305,7 +305,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      This parameter tells the linker to add a specified symbol to the symbol table.  
   
-     For more information, see [/INCLUDE (Force Symbol References)](/cpp/build/reference/include-force-symbol-references).  
+     For more information, see [/INCLUDE (Force symbol references)](/cpp/build/reference/include-force-symbol-references).  
   
 -   **FunctionOrder**  
   
@@ -313,15 +313,15 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      This parameter optimizes your program by placing the specified packaged functions (COMDATs) into the image in a predetermined order.  
   
-     For more information, see [/ORDER (Put Functions in Order)](/cpp/build/reference/order-put-functions-in-order).  
+     For more information, see [/ORDER (Put functions in order)](/cpp/build/reference/order-put-functions-in-order).  
   
 -   **GenerateDebugInformation**  
   
      Optional **Boolean** parameter.  
   
-     If `true`, creates debugging information for the .exe file or DLL.  
+     If `true`, creates debugging information for the *.exe* file or DLL.  
   
-     For more information, see [/DEBUG (Generate Debug Info)](/cpp/build/reference/debug-generate-debug-info).  
+     For more information, see [/DEBUG (Generate debug info)](/cpp/build/reference/debug-generate-debug-info).  
   
 -   **GenerateManifest**  
   
@@ -329,15 +329,15 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, creates a side-by-side manifest file.  
   
-     For more information, see [/MANIFEST (Create Side-by-Side Assembly Manifest)](/cpp/build/reference/manifest-create-side-by-side-assembly-manifest).  
+     For more information, see [/MANIFEST (Create side-by-side assembly manifest)](/cpp/build/reference/manifest-create-side-by-side-assembly-manifest).  
   
 -   **GenerateMapFile**  
   
      Optional **Boolean** parameter.  
   
-     If `true`, creates a *map file*. The file name extension of the map file is .map.  
+     If `true`, creates a *map file*. The file name extension of the map file is *.map*.  
   
-     For more information, see [/MAP (Generate Mapfile)](/cpp/build/reference/map-generate-mapfile).  
+     For more information, see [/MAP (Generate mapfile)](/cpp/build/reference/map-generate-mapfile).  
   
 -   **HeapCommitSize**  
   
@@ -345,7 +345,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Specifies the amount of physical memory on the heap to allocate at a time.  
   
-     For more information, see the `commit` argument in [/HEAP (Set Heap Size)](/cpp/build/reference/heap-set-heap-size). Also, see the **HeapReserveSize** parameter.  
+     For more information, see the `commit` argument in [/HEAP (Set heap size)](/cpp/build/reference/heap-set-heap-size). Also, see the **HeapReserveSize** parameter.  
   
 -   **HeapReserveSize**  
   
@@ -353,7 +353,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Specifies the total heap allocation in virtual memory.  
   
-     For more information, see the `reserve` argument in [/HEAP (Set Heap Size)](/cpp/build/reference/heap-set-heap-size). Also, see the **HeapCommitSize** parameter in this table.  
+     For more information, see the `reserve` argument in [/HEAP (Set heap size)](/cpp/build/reference/heap-set-heap-size). Also, see the **HeapCommitSize** parameter in this table.  
   
 -   **IgnoreAllDefaultLibraries**  
   
@@ -361,15 +361,15 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, tells the linker to remove one or more default libraries from the list of libraries it searches when it resolves external references.  
   
-     For more information, see [/NODEFAULTLIB (Ignore Libraries)](/cpp/build/reference/nodefaultlib-ignore-libraries).  
+     For more information, see [/NODEFAULTLIB (Ignore libraries)](/cpp/build/reference/nodefaultlib-ignore-libraries).  
   
 -   **IgnoreEmbeddedIDL**  
   
      Optional **Boolean** parameter.  
   
-     If `true`, specifies that any IDL attributes in source code should not be processed into an .idl file.  
+     If `true`, specifies that any IDL attributes in source code should not be processed into an *.idl* file.  
   
-     For more information, see [/IGNOREIDL (Don't Process Attributes into MIDL)](/cpp/build/reference/ignoreidl-don-t-process-attributes-into-midl).  
+     For more information, see [/IGNOREIDL (Don't process attributes into MIDL)](/cpp/build/reference/ignoreidl-don-t-process-attributes-into-midl).  
   
 -   **IgnoreImportLibrary**  
   
@@ -385,7 +385,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Specifies one or more names of default libraries to ignore. Separate multiple libraries by using semi-colons.  
   
-     For more information, see [/NODEFAULTLIB (Ignore Libraries)](/cpp/build/reference/nodefaultlib-ignore-libraries).  
+     For more information, see [/NODEFAULTLIB (Ignore libraries)](/cpp/build/reference/nodefaultlib-ignore-libraries).  
   
 -   **ImageHasSafeExceptionHandlers**  
   
@@ -393,13 +393,13 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, the linker produces an image only if it can also produce a table of the image's safe exception handlers.  
   
-     For more information, see [/SAFESEH (Image has Safe Exception Handlers)](/cpp/build/reference/safeseh-image-has-safe-exception-handlers).  
+     For more information, see [/SAFESEH (Image has safe exception handlers)](/cpp/build/reference/safeseh-image-has-safe-exception-handlers).  
   
 -   **ImportLibrary**  
   
      A user-specified import library name that replaces the default library name.  
   
-     For more information, see [/IMPLIB (Name Import Library)](/cpp/build/reference/implib-name-import-library).  
+     For more information, see [/IMPLIB (Name import library)](/cpp/build/reference/implib-name-import-library).  
   
 -   **KeyContainer**  
   
@@ -407,7 +407,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Container that contains the key for a signed assembly.  
   
-     For more information, see [/KEYCONTAINER (Specify a Key Container to Sign an Assembly)](/cpp/build/reference/keycontainer-specify-a-key-container-to-sign-an-assembly). Also, see the **KeyFile** parameter in this table.  
+     For more information, see [/KEYCONTAINER (Specify a key container to sign an assembly)](/cpp/build/reference/keycontainer-specify-a-key-container-to-sign-an-assembly). Also, see the **KeyFile** parameter in this table.  
   
 -   **KeyFile**  
   
@@ -415,7 +415,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Specifies a file that contains the key for a signed assembly.  
   
-     For more information, see [/KEYFILE (Specify Key or Key Pair to Sign an Assembly)](/cpp/build/reference/keyfile-specify-key-or-key-pair-to-sign-an-assembly). Also, see the **KeyContainer** parameter.  
+     For more information, see [/KEYFILE (Specify key or key pair to sign an assembly)](/cpp/build/reference/keyfile-specify-key-or-key-pair-to-sign-an-assembly). Also, see the **KeyContainer** parameter.  
   
 -   **LargeAddressAware**  
   
@@ -423,7 +423,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, the application can handle addresses larger than 2 gigabytes.  
   
-     For more information, see [/LARGEADDRESSAWARE (Handle Large Addresses)](/cpp/build/reference/largeaddressaware-handle-large-addresses).  
+     For more information, see [/LARGEADDRESSAWARE (Handle large addresses)](/cpp/build/reference/largeaddressaware-handle-large-addresses).  
   
 -   **LinkDLL**  
   
@@ -449,7 +449,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
     -   **SendErrorReport** - **/ERRORREPORT:SEND**  
   
-     For more information, see [/ERRORREPORT (Report Internal Linker Errors)](/cpp/build/reference/errorreport-report-internal-linker-errors).  
+    For more information, see [/ERRORREPORT (Report internal linker errors)](/cpp/build/reference/errorreport-report-internal-linker-errors).  
   
 -   **LinkIncremental**  
   
@@ -457,7 +457,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, enables incremental linking.  
   
-     For more information, see [/INCREMENTAL (Link Incrementally)](/cpp/build/reference/incremental-link-incrementally).  
+     For more information, see [/INCREMENTAL (Link incrementally)](/cpp/build/reference/incremental-link-incrementally).  
   
 -   **LinkLibraryDependencies**  
   
@@ -473,7 +473,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, specifies that the linker is to display a progress indicator that shows what percentage of the link is complete.  
   
-     For more information, see the `STATUS` argument of [/LTCG (Link-time Code Generation)](/cpp/build/reference/ltcg-link-time-code-generation).  
+     For more information, see the `STATUS` argument of [/LTCG (Link-time code generation)](/cpp/build/reference/ltcg-link-time-code-generation).  
   
 -   **LinkTimeCodeGeneration**  
   
@@ -495,7 +495,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
          \- **/LTCG:PGUpdate**  
   
-     For more information, see [/LTCG (Link-time Code Generation)](/cpp/build/reference/ltcg-link-time-code-generation).  
+    For more information, see [/LTCG (Link-time code generation)](/cpp/build/reference/ltcg-link-time-code-generation).  
   
 -   **ManifestFile**  
   
@@ -503,7 +503,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Changes the default manifest file name to the specified file name.  
   
-     For more information, see [/MANIFESTFILE (Name Manifest File)](/cpp/build/reference/manifestfile-name-manifest-file).  
+     For more information, see [/MANIFESTFILE (Name manifest file)](/cpp/build/reference/manifestfile-name-manifest-file).  
   
 -   **MapExports**  
   
@@ -511,7 +511,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, tells the linker to include exported functions in a map file.  
   
-     For more information, see the `EXPORTS` argument of [/MAPINFO (Include Information in Mapfile)](/cpp/build/reference/mapinfo-include-information-in-mapfile).  
+     For more information, see the `EXPORTS` argument of [/MAPINFO (Include information in mapfile)](/cpp/build/reference/mapinfo-include-information-in-mapfile).  
   
 -   **MapFileName**  
   
@@ -523,9 +523,9 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Optional **String** parameter.  
   
-     Specifies the file name and file name extension of the .idl file.  
+     Specifies the file name and file name extension of the *.idl* file.  
   
-     For more information, see [/IDLOUT (Name MIDL Output Files)](/cpp/build/reference/idlout-name-midl-output-files).  
+     For more information, see [/IDLOUT (Name MIDL output files)](/cpp/build/reference/idlout-name-midl-output-files).  
   
 -   **MergeSections**  
   
@@ -533,7 +533,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Combines sections in an image. Specify `from-section=to-section`.  
   
-     For more information, see [/MERGE (Combine Sections)](/cpp/build/reference/merge-combine-sections).  
+     For more information, see [/MERGE (Combine sections)](/cpp/build/reference/merge-combine-sections).  
   
 -   **MidlCommandFile**  
   
@@ -541,7 +541,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Specify the name of a file that contains MIDL command-line options.  
   
-     For more information, see [/MIDL (Specify MIDL Command Line Options)](/cpp/build/reference/midl-specify-midl-command-line-options).  
+     For more information, see [/MIDL (Specify MIDL command line options)](/cpp/build/reference/midl-specify-midl-command-line-options).  
   
 -   **MinimumRequiredVersion**  
   
@@ -555,7 +555,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Specifies the name of a [module definition file](/cpp/build/reference/module-definition-dot-def-files).  
   
-     For more information, see [/DEF (Specify Module-Definition File)](/cpp/build/reference/def-specify-module-definition-file).  
+     For more information, see [/DEF (Specify module-definition file)](/cpp/build/reference/def-specify-module-definition-file).  
   
 -   **MSDOSStubFileName**  
   
@@ -563,7 +563,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Attaches the specified MS-DOS stub program to a Win32 program.  
   
-     For more information, see [/STUB (MS-DOS Stub File Name)](/cpp/build/reference/stub-ms-dos-stub-file-name).  
+     For more information, see [/STUB (MS-DOS stub file name)](/cpp/build/reference/stub-ms-dos-stub-file-name).  
   
 -   **NoEntryPoint**  
   
@@ -571,7 +571,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, specifies a resource-only DLL.  
   
-     For more information, see [/NOENTRY (No Entry Point)](/cpp/build/reference/noentry-no-entry-point).  
+     For more information, see [/NOENTRY (No entry point)](/cpp/build/reference/noentry-no-entry-point).  
   
 -   **ObjectFiles**  
   
@@ -593,7 +593,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Overrides the default name and location of the program that the linker creates.  
   
-     For more information, see [/OUT (Output File Name)](/cpp/build/reference/out-output-file-name).  
+     For more information, see [/OUT (Output file name)](/cpp/build/reference/out-output-file-name).  
   
 -   **PerUserRedirection**  
   
@@ -611,9 +611,9 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Optional **Boolean** parameter.  
   
-     If `true`, indicates to Bind.exe that the linked image should not be bound.  
+     If `true`, indicates to *Bind.exe* that the linked image should not be bound.  
   
-     For more information, see [/ALLOWBIND (Prevent DLL Binding)](/cpp/build/reference/allowbind-prevent-dll-binding).  
+     For more information, see [/ALLOWBIND (Prevent DLL binding)](/cpp/build/reference/allowbind-prevent-dll-binding).  
   
 -   **Profile**  
   
@@ -621,15 +621,15 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, produces an output file that can be used with the **Performance Tools** profiler.  
   
-     For more information, see [/PROFILE (Performance Tools Profiler)](/cpp/build/reference/profile-performance-tools-profiler).  
+     For more information, see [/PROFILE (Performance Tools profiler)](/cpp/build/reference/profile-performance-tools-profiler).  
   
 -   **ProfileGuidedDatabase**  
   
      Optional **String** parameter.  
   
-     Specifies the name of the .pgd file that will be used to hold information about the running program  
+     Specifies the name of the *.pgd* file that will be used to hold information about the running program  
   
-     For more information, see [/PGD (Specify Database for Profile-Guided Optimizations)](/cpp/build/reference/pgd-specify-database-for-profile-guided-optimizations).  
+     For more information, see [/PGD (Specify database for profile-guided optimizations)](/cpp/build/reference/pgd-specify-database-for-profile-guided-optimizations).  
   
 -   **ProgramDatabaseFile**  
   
@@ -637,7 +637,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Specifies a name for the program database (PDB) that the linker creates.  
   
-     For more information, see [/PDB (Use Program Database)](/cpp/build/reference/pdb-use-program-database).  
+     For more information, see [/PDB (Use program database)](/cpp/build/reference/pdb-use-program-database).  
   
 -   **RandomizedBaseAddress**  
   
@@ -659,15 +659,15 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Specifies the alignment of each section within the linear address space of the program. The parameter value is a unit number of bytes and is a power of two.  
   
-     For more information, see [/ALIGN (Section Alignment)](/cpp/build/reference/align-section-alignment).  
+     For more information, see [/ALIGN (Section alignment)](/cpp/build/reference/align-section-alignment).  
   
 -   **SetChecksum**  
   
      Optional **Boolean** parameter.  
   
-     If `true`, sets the checksum in the header of an .exe file.  
+     If `true`, sets the checksum in the header of an *.exe* file.  
   
-     For more information, see [/RELEASE (Set the Checksum)](/cpp/build/reference/release-set-the-checksum).  
+     For more information, see [/RELEASE (Set the checksum)](/cpp/build/reference/release-set-the-checksum).  
   
 -   **ShowProgress**  
   
@@ -691,7 +691,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
     -   **LinkVerboseCLR** - **/VERBOSE:CLR**  
   
-     For more information, see [/VERBOSE (Print Progress Messages)](/cpp/build/reference/verbose-print-progress-messages).  
+    For more information, see [/VERBOSE (Print progress messages)](/cpp/build/reference/verbose-print-progress-messages).  
   
 -   **Sources**  
   
@@ -703,9 +703,9 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Optional **String** parameter.  
   
-     Specifies the attributes of a section. This overrides the attributes that were set when the .obj file for the section was compiled.  
+     Specifies the attributes of a section. This overrides the attributes that were set when the *.obj* file for the section was compiled.  
   
-     For more information, see [/SECTION (Specify Section Attributes)](/cpp/build/reference/section-specify-section-attributes).  
+     For more information, see [/SECTION (Specify section attributes)](/cpp/build/reference/section-specify-section-attributes).  
   
 -   **StackCommitSize**  
   
@@ -713,7 +713,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Specifies the amount of physical memory in each allocation when additional memory is allocated.  
   
-     For more information, see the `commit` argument of [/STACK (Stack Allocations)](/cpp/build/reference/stack-stack-allocations).  
+     For more information, see the `commit` argument of [/STACK (Stack allocations)](/cpp/build/reference/stack-stack-allocations).  
   
 -   **StackReserveSize**  
   
@@ -721,7 +721,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Specifies the total stack allocation size in virtual memory.  
   
-     For more information, see the `reserve` argument of [/STACK (Stack Allocations)](/cpp/build/reference/stack-stack-allocations).  
+     For more information, see the `reserve` argument of [/STACK (Stack allocations)](/cpp/build/reference/stack-stack-allocations).  
   
 -   **StripPrivateSymbols**  
   
@@ -729,7 +729,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Creates a second program database (PDB) file that omits symbols that you do not want to distribute to your customers. Specify the name of the second PDB file.  
   
-     For more information, see [/PDBSTRIPPED (Strip Private Symbols)](/cpp/build/reference/pdbstripped-strip-private-symbols).  
+     For more information, see [/PDBSTRIPPED (Strip private symbols)](/cpp/build/reference/pdbstripped-strip-private-symbols).  
   
 -   **SubSystem**  
   
@@ -759,7 +759,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
     -   **POSIX** - **/SUBSYSTEM:POSIX**  
   
-     For more information, see [/SUBSYSTEM (Specify Subsystem)](/cpp/build/reference/subsystem-specify-subsystem).  
+    For more information, see [/SUBSYSTEM (Specify subsystem)](/cpp/build/reference/subsystem-specify-subsystem).  
   
 -   **SupportNobindOfDelayLoadedDLL**  
   
@@ -767,7 +767,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, tells the linker not to include a bindable Import Address Table (IAT) in the final image.  
   
-     For more information, see the `NOBIND` argument of [/DELAY (Delay Load Import Settings)](/cpp/build/reference/delay-delay-load-import-settings).  
+     For more information, see the `NOBIND` argument of [/DELAY (Delay load import settings)](/cpp/build/reference/delay-delay-load-import-settings).  
   
 -   **SupportUnloadOfDelayLoadedDLL**  
   
@@ -775,7 +775,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, tells the delay-load helper function to support explicit unloading of the DLL.  
   
-     For more information, see the `UNLOAD` argument of [/DELAY (Delay Load Import Settings)](/cpp/build/reference/delay-delay-load-import-settings).  
+     For more information, see the `UNLOAD` argument of [/DELAY (Delay load import settings)](/cpp/build/reference/delay-delay-load-import-settings).  
   
 -   **SuppressStartupBanner**  
   
@@ -783,7 +783,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, prevents the display of the copyright and version number message when the task starts.  
   
-     For more information, see [/NOLOGO (Suppress Startup Banner) (Linker)](/cpp/build/reference/nologo-suppress-startup-banner-linker).  
+     For more information, see [/NOLOGO (Suppress startup banner) (linker)](/cpp/build/reference/nologo-suppress-startup-banner-linker).  
   
 -   **SwapRunFromCD**  
   
@@ -791,7 +791,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, tells the operating system to first copy the linker output to a swap file, and then run the image from there.  
   
-     For more information, see the `CD` argument of [/SWAPRUN (Load Linker Output to Swap File)](/cpp/build/reference/swaprun-load-linker-output-to-swap-file). Also, see the **SwapRunFromNET** parameter.  
+     For more information, see the `CD` argument of [/SWAPRUN (Load linker output to swap file)](/cpp/build/reference/swaprun-load-linker-output-to-swap-file). Also, see the **SwapRunFromNET** parameter.  
   
 -   **SwapRunFromNET**  
   
@@ -799,7 +799,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, tells the operating system to first copy the linker output to a swap file, and then run the image from there.  
   
-     For more information, see the `NET` argument of [/SWAPRUN (Load Linker Output to Swap File)](/cpp/build/reference/swaprun-load-linker-output-to-swap-file). Also, see the **SwapRunFromCD** parameter in this table.  
+     For more information, see the `NET` argument of [/SWAPRUN (Load linker output to swap file)](/cpp/build/reference/swaprun-load-linker-output-to-swap-file). Also, see the **SwapRunFromCD** parameter in this table.  
   
 -   **TargetMachine**  
   
@@ -833,7 +833,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
     -   **MachineX86** - **/MACHINE:X86**  
   
-     For more information, see [/MACHINE (Specify Target Platform)](/cpp/build/reference/machine-specify-target-platform).  
+    For more information, see [/MACHINE (Specify target platform)](/cpp/build/reference/machine-specify-target-platform).  
   
 -   **TerminalServerAware**  
   
@@ -841,7 +841,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, sets a flag in the IMAGE_OPTIONAL_HEADER DllCharacteristics field in the program image's optional header. When this flag is set, Terminal Server will not make certain changes to the application.  
   
-     For more information, see [/TSAWARE (Create Terminal Server Aware Application)](/cpp/build/reference/tsaware-create-terminal-server-aware-application).  
+     For more information, see [/TSAWARE (Create Terminal Server aware application)](/cpp/build/reference/tsaware-create-terminal-server-aware-application).  
   
 -   **TrackerLogDirectory**  
   
@@ -855,7 +855,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, causes no output file to be generated if the linker generates a warning.  
   
-     For more information, see [/WX (Treat Linker Warnings as Errors)](/cpp/build/reference/wx-treat-linker-warnings-as-errors).  
+     For more information, see [/WX (Treat linker warnings as errors)](/cpp/build/reference/wx-treat-linker-warnings-as-errors).  
   
 -   **TurnOffAssemblyGeneration**  
   
@@ -863,15 +863,15 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      If `true`, creates an image for the current output file without a .NET Framework assembly.  
   
-     For more information, see [/NOASSEMBLY (Create a MSIL Module)](/cpp/build/reference/noassembly-create-a-msil-module).  
+     For more information, see [/NOASSEMBLY (Create a MSIL module)](/cpp/build/reference/noassembly-create-a-msil-module).  
   
 -   **TypeLibraryFile**  
   
      Optional **String** parameter.  
   
-     Specifies the file name and file name extension of the .tlb file. Specify a file name, or a path and file name.  
+     Specifies the file name and file name extension of the *.tlb* file. Specify a file name, or a path and file name.  
   
-     For more information, see [/TLBOUT (Name .TLB File)](/cpp/build/reference/tlbout-name-dot-tlb-file).  
+     For more information, see [/TLBOUT (Name .tlb file)](/cpp/build/reference/tlbout-name-dot-tlb-file).  
   
 -   **TypeLibraryResourceID**  
   
@@ -879,7 +879,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Designates a user-specified value for a linker-created type library. Specify a value from 1 through 65535.  
   
-     For more information, see [/TLBID (Specify Resource ID for TypeLib)](/cpp/build/reference/tlbid-specify-resource-id-for-typelib).  
+     For more information, see [/TLBID (Specify resource ID for TypeLib)](/cpp/build/reference/tlbid-specify-resource-id-for-typelib).  
   
 -   **UACExecutionLevel**  
   
@@ -895,7 +895,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
     -   **RequireAdministrator** - `level='requireAdministrator'`  
   
-     For more information, see the `level` argument of [/MANIFESTUAC (Embeds UAC information in manifest)](/cpp/build/reference/manifestuac-embeds-uac-information-in-manifest).  
+    For more information, see the `level` argument of [/MANIFESTUAC (Embeds UAC information in manifest)](/cpp/build/reference/manifestuac-embeds-uac-information-in-manifest).  
   
 -   **UACUIAccess**  
   
@@ -915,9 +915,9 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Optional **String** parameter.  
   
-     Put a version number in the header of the .exe or .dll file. Specify "`major[.minor]`". The `major` and `minor` arguments are decimal numbers from 0 through 65535.  
+     Put a version number in the header of the *.exe* or *.dll* file. Specify "`major[.minor]`". The `major` and `minor` arguments are decimal numbers from 0 through 65535.  
   
-     For more information, see [/VERSION (Version Information)](/cpp/build/reference/version-version-information).  
+     For more information, see [/VERSION (Version information)](/cpp/build/reference/version-version-information).  
   
-## See Also  
- [Task Reference](../msbuild/msbuild-task-reference.md)
+## See also  
+ [Task reference](../msbuild/msbuild-task-reference.md)
