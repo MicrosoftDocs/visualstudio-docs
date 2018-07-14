@@ -30,11 +30,11 @@ Commands can appear on both menus and toolbars. On toolbars, it is common for a 
   
      If you use an 8-bit color depth, use magenta, `RGB(255,0,255)`, as the transparency. However, 32-bit color icons are preferred.  
   
-2.  Copy the icon file to the *Resources* directory in your VSPackage project. In the Solution Explorer, add the icon to the project. (Select **Resources**, and on the context menu click **Add**, then **Existing Item**, and select your icon file.)  
+2.  Copy the icon file to the *Resources* directory in your VSPackage project. In the **Solution Explorer**, add the icon to the project. (Select **Resources**, and on the context menu click **Add**, then **Existing Item**, and select your icon file.)  
   
 3.  Open the *.vsct* file in the editor.  
   
-4.  Add a `GuidSymbol` element with a name of **testIcon**. Create a GUID (**Tools / Create GUID**, then select **Registry Format** and click **Copy**) and paste it into the `value` attribute. The result should look like this:  
+4.  Add a `GuidSymbol` element with a name of **testIcon**. Create a GUID (**Tools** > **Create GUID**, then select **Registry Format** and click **Copy**) and paste it into the `value` attribute. The result should look like this:  
   
     ```xml  
     <!-- Create your own GUID -->  

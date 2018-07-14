@@ -38,7 +38,7 @@ Builds only new projects as you create and add them to a solution. The entire so
   
 |Element|Description|  
 |-------------|-----------------|  
-|TemplateData|Categorizes the template and defines how it appears in both the **New Project** and the **Add New Item** dialog boxes.|  
+|`TemplateData`|Categorizes the template and defines how it appears in both the **New Project** and the **Add New Item** dialog boxes.|  
   
 ## Text value  
  A text value is required.  

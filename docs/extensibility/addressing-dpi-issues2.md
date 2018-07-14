@@ -56,7 +56,7 @@ An increasing number of devices are shipping with "high-resolution" screens. The
 (WinForms) DpiHelper.LogicalToDeviceUnits(ref image);  
 ```  
   
- Scaling an imagelist depends on whether the imagelist is complete at load time, or is appended at run time. If complete at load time, call LogicalToDeviceUnits() with the imagelist as you would a bitmap. When the code needs to load an individual bitmap before composing the imagelist, make sure to scale the image size of the imagelist:  
+ Scaling an imagelist depends on whether the imagelist is complete at load time, or is appended at run time. If complete at load time, call `LogicalToDeviceUnits()` with the imagelist as you would a bitmap. When the code needs to load an individual bitmap before composing the imagelist, make sure to scale the image size of the imagelist:  
   
 ```csharp  
 imagelist.ImageSize = DpiHelper.LogicalToDeviceUnits(imagelist.ImageSize);  
@@ -100,7 +100,7 @@ ImageList_Create(VsUI::DpiHelper::LogicalToDeviceUnitsX(16),VsUI::DpiHelper::Log
   
  To use the library, go to the [Visual Studio VSSDK extensibility samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples) and clone the High-DPI_Images_Icons sample.  
   
- In source files, include *VsUIDpiHelper.h* and call the static functions of VsUI::DpiHelper class:  
+ In source files, include *VsUIDpiHelper.h* and call the static functions of `VsUI::DpiHelper` class:  
   
 ```cpp  
 #include "VsUIDpiHelper.h"  
@@ -322,7 +322,7 @@ customDoc.SetUIHandler(this);
   
 ```  
   
- If you did NOT implement the ICustomDoc interface, then as soon as the WebOC's document property is valid, you'll need to cast it to an IOleObject, and call the SetClientSite method, passing in the class that implements IDocHostUIHandler. Set the DOCHOSTUIFLAG_DPI_AWARE flag on the DOCHOSTUIINFO passed to the GetHostInfo method call:  
+ If you did NOT implement the ICustomDoc interface, then as soon as the WebOC's document property is valid, you'll need to cast it to an IOleObject, and call the `SetClientSite` method, passing in the class that implements IDocHostUIHandler. Set the DOCHOSTUIFLAG_DPI_AWARE flag on the DOCHOSTUIINFO passed to the `GetHostInfo` method call:  
   
 ```csharp  
 public int GetHostInfo(DOCHOSTUIINFO info)  

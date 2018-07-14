@@ -37,7 +37,7 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
   
 ### To write the XAML for the user control  
   
-1.  Open the XAML file for the user control. In the \<Grid> element, add the following row definitions to the control.  
+1.  Open the XAML file for the user control. In the `Grid` element, add the following row definitions to the control.  
   
     ```vb  
     <Grid.RowDefinitions>  
@@ -99,7 +99,7 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
   
 1.  In the XAML designer, double-click the **Set Address** button you added to the control.  
   
-     The UserControl1.cs file opens in the code editor.  
+     The *UserControl1.cs* file opens in the code editor.  
   
 2.  Fill in the SetButton_Click Event Handler as follows.  
   
@@ -175,7 +175,7 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
   
 3.  At a Visual Studio command prompt, type **devenv /rootsuffix Exp** to open an experimental instance of Visual Studio.  
   
-4.  In the experimental instance, go to the **Tools / Options / Environment / Startup** page and select your XAML file from the **Customize Start Page** dropdown.  
+4.  In the experimental instance, go to the **Tools** > **Options** > **Environment** > **Startup** page and select your XAML file from the **Customize Start Page** dropdown.  
   
 5.  On the **View** menu, click **Start Page**.  
   

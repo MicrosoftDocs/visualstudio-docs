@@ -28,13 +28,13 @@ To bind a keyboard shortcut to a custom menu command, just add an entry to the *
   
 ### To verify the availability of a keyboard shortcut  
   
-1.  In the **Tools / Options / Environment** window, select **Keyboard**.  
+1.  In the **Tools** > **Options** > **Environment** window, select **Keyboard**.  
   
 2.  Make sure that **Use new shortcut in** is set to **Global**.  
   
 3.  In the **Press shortcut keys** box, type the keyboard shortcut that you want to use.  
   
-     If the shortcut is already used in Visual Studio, the **Shorcut currently used by** box will show the command that the shortcut currently calls.  
+     If the shortcut is already used in Visual Studio, the **Shortcut currently used by** box will show the command that the shortcut currently calls.  
   
 4.  Try different combinations of keys until you find one that is not mapped.  
   

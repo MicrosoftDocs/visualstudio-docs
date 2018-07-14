@@ -121,7 +121,7 @@ This walkthrough builds on the demonstration in [Add a Menu to the Visual Studio
                 }  
     ```  
   
-3.  Add SubItemCallback(). This is the method that is called when the new command in the submenu is clicked.  
+3.  Add `SubItemCallback()`. This is the method that is called when the new command in the submenu is clicked.  
   
     ```csharp  
     private void SubItemCallback(object sender, EventArgs e)  
