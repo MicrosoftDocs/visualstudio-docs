@@ -19,12 +19,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;description&gt; Element (ClickOnce Deployment)
+# &lt;description&gt; element (ClickOnce deployment)
 Identifies application information used to create a shell presence and an **Add or Remove Programs** item in Control Panel.  
   
 ## Syntax  
   
-```  
+```xml  
   
       <description   
    publisher   
@@ -34,7 +34,7 @@ Identifies application information used to create a shell presence and an **Add 
 />  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `description` element is required and is in the `urn:schemas-microsoft-com:asm.v1` namespace. It contains no child elements and has the following attributes.  
   
 |Attribute|Description|  
@@ -50,12 +50,12 @@ Identifies application information used to create a shell presence and an **Add 
 ## Example  
  The following code example illustrates a `description` element in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest. This code example is part of a larger example provided for the [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md) topic.  
   
-```  
+```xml  
 <description   
   asmv2:publisher="My Company Name"  
   asmv2:product="My Application"  
   xmlns="urn:schemas-microsoft-com:asm.v1" />  
 ```  
   
-## See Also  
- [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)
+## See also  
+ [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
