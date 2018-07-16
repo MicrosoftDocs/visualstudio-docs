@@ -32,9 +32,13 @@ If you close the **Start Page** and want to see it again, you can reopen it from
 
 To continue exploring Visual Studio's features, let's create a new project.
 
-1. On the **Start Page**, in the search box under **New project**, enter **console** to filter the list of project types to those that contain "console" in their name. Visual Studio provides various kinds of project templates that help you get started coding quickly. Choose a C# **Console App (.NET Framework)** project template. (Alternatively, if you're a Visual Basic, C++, Javascript, or other language developer, feel free to create a project in one of those languages. The UI we'll be looking at is similar for all programming languages.)
+1. On the **Start Page**, in the search box under **New project**, type in **console** to filter the list of project types to those that contain "console" in their name.
 
-1. In the **New Project** dialog box, accept the default project name and choose **OK**.
+   ![Search project templates on Visual Studio Start Page](media/start-page-search-templates-dark.png)
+
+   Visual Studio provides various kinds of project templates that help you get started coding quickly. Choose a C# **Console App (.NET Framework)** project template. (Alternatively, if you're a Visual Basic, C++, Javascript, or other language developer, feel free to create a project in one of those languages. The UI we'll be looking at is similar for all programming languages.)
+
+1. In the **New Project** dialog box that appears, accept the default project name and choose **OK**.
 
    The project is created and a file named *Program.cs* opens in the **Editor** window. The **Editor** shows the contents of files, and is where you'll do most of your coding work in Visual Studio.
 
@@ -42,7 +46,7 @@ To continue exploring Visual Studio's features, let's create a new project.
 
 ## Solution Explorer
 
-**Solution Explorer**, which is probably on the right-hand side of Visual Studio, shows you a graphical representation of the hierarchy of files and folders in your project, solution, or code folder. You can browse the hierarchy and navigate to a file in **Solution Explorer**.
+**Solution Explorer**, which is typically on the right-hand side of Visual Studio, shows you a graphical representation of the hierarchy of files and folders in your project, solution, or code folder. You can browse the hierarchy and navigate to a file in **Solution Explorer**.
 
 ![Solution Explorer in Visual Studio](media/solution-explorer-console-app-dark.png)
 
@@ -70,9 +74,9 @@ Let's build the project to see some build output. From the **Build** menu, choos
 
 ## Quick Launch
 
-The **Quick Launch** box is a quick and easy way to do pretty much anything in Visual Studio. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, say we want to increase the build output's verbosity to display additional details about what exactly build is doing:
+The **Quick Launch** box is a quick and easy way to do pretty much anything in Visual Studio. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, imagine you want to increase the build output's verbosity to display additional details about what exactly build is doing. Here's how you might do that:
 
-1. Enter **verbosity** into the **Quick Launch** box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
+1. Type **verbosity** into the **Quick Launch** box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
 
    ![Quick launch box in Visual Studio](media/quick-launch-verbosity-dark.png)
 
@@ -84,6 +88,8 @@ The **Quick Launch** box is a quick and easy way to do pretty much anything in V
 
    This time the **Output** window shows more verbose logging from the build process, including which files were copied where.
 
+   ![Verbose build output in Visual Studio](media/build-output-verbose-dark.png)
+
 ## Send Feedback menu
 
 Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu at the top of the Visual Studio window, next to the **Quick Launch** box.
@@ -92,11 +98,11 @@ Should you encounter any problems while you're using Visual Studio, or if you ha
 
 ## Next steps
 
-We've looked at just a few of the features of the Visual Studio IDE to get acquainted with the user interface. To explore further:
+We've looked at just a few of the features of Visual Studio to get acquainted with the user interface. To explore further:
 
-- Take a more in-depth tour of the IDE, and even dabble in debugging, in [Overview of the Visual Studio IDE](../ide/visual-studio-ide.md)
+- Take a more in-depth tour of Visual Studio, and even dabble in debugging, in [Overview of the Visual Studio IDE](../ide/visual-studio-ide.md)
 
-- Browse the **General User Interface Elements** section of the VS documentation, which goes into more depth about windows such as the [Error List](../ide/reference/error-list-window.md), [Output window](../ide/reference/output-window.md), [Properties window](../ide/reference/properties-window.md), and [Options dialog box](../ide/reference/options-dialog-box-visual-studio.md)
+- Browse the **General user interface elements** section of the VS documentation, which goes into more depth about windows such as the [Error List](../ide/reference/error-list-window.md), [Output window](../ide/reference/output-window.md), [Properties window](../ide/reference/properties-window.md), and [Options dialog box](../ide/reference/options-dialog-box-visual-studio.md)
 
 ## See also
 

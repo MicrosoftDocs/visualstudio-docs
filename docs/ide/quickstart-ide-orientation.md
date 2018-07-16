@@ -46,7 +46,7 @@ To continue exploring Visual Studio's features, let's create a new project.
 
 ## Solution Explorer
 
-**Solution Explorer**, which is probably on the right-hand side of Visual Studio, shows you a graphical representation of the hierarchy of files and folders in your project, solution, or code folder. You can browse the hierarchy and navigate to a file in **Solution Explorer**.
+**Solution Explorer**, which is typically on the right-hand side of Visual Studio, shows you a graphical representation of the hierarchy of files and folders in your project, solution, or code folder. You can browse the hierarchy and navigate to a file in **Solution Explorer**.
 
 ![Solution Explorer in Visual Studio](media/quickstart-IDE-solution-explorer.png)
 

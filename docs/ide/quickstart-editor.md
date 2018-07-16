@@ -122,7 +122,7 @@ The Visual Studio editor makes it easy to inspect the definition of a type, meth
 
    ![IntelliSense word completion in Visual Studio](media/quickstart-intellisense-completion-list.png)
 
-1. To insert the rest of the word `query` by using IntelliSense's word comletion functionality, press **Tab**.
+1. To insert the rest of the word `query` by using IntelliSense's word completion functionality, press **Tab**.
 
 1. Finish off the code block to look like the following code. You can even practice using code snippets again by entering `cw` and then pressing **Tab** twice to generate the `Console.WriteLine` code.
 
