@@ -13,7 +13,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Xml (XElement Dynamic Property)
+# Xml (XElement dynamic property)
 
 Gets the unformatted XML content of the element.
 
@@ -23,7 +23,7 @@ Gets the unformatted XML content of the element.
 elem.Xml
 ```
 
-## Property Value/Return Value
+## Property value/return value
 
 A <xref:System.String> that represents the unformatted XML content of the element.
 
@@ -33,5 +33,5 @@ This property is equivalent to the <xref:System.Xml.Linq.XNode.ToString(System.X
 
 ## See also
 
-- [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)
+- [XElement class dynamic properties](../designers/xelement-class-dynamic-properties.md)
 - [Value](../designers/value-xelement-dynamic-property.md)
