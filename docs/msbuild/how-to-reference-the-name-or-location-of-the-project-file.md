@@ -19,13 +19,13 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Reference the Name or Location of the Project File
-You can use the name or location of the project in the project file itself without having to create your own property. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides reserved properties that reference the project file name and other properties related to the project. For more information on reserved properties, see [MSBuild Reserved and Well-Known Properties](../msbuild/msbuild-reserved-and-well-known-properties.md).  
+# How to: Reference the name or location of the project file
+You can use the name or location of the project in the project file itself without having to create your own property. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides reserved properties that reference the project file name and other properties related to the project. For more information on reserved properties, see [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md).  
   
-## Using the Project Properties
+## Use the project properties
  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides some reserved properties that you can use in your project files without defining them each time. For example, the reserved property `MSBuildProjectName` provides a reference to the project file name. The reserved property `MSBuildProjectDirectory` provides a reference to the project file location.
   
-#### To use the Project Properties
+#### To use the project properties
   
 -   Reference the property in the project file with the $() notation, just as you would with any property. For example:  
   
@@ -81,6 +81,6 @@ You can use the name or location of the project in the project file itself witho
 </Project>  
 ```  
   
-## See Also  
+## See also  
 [MSBuild](../msbuild/msbuild.md)  
- [MSBuild Reserved and Well-Known Properties](../msbuild/msbuild-reserved-and-well-known-properties.md)
+[MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md)

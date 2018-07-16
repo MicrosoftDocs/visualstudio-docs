@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Specify Where Visual Studio Copies the Files
+# How to: Specify where Visual Studio copies the files
 When you publish an application by using ClickOnce, the `Publish Location` property specifies the location where the application files and manifest are put. This can be a file path or the path to an FTP server.  
   
  You can specify the `Publish Location` property on the **Publish** page of the **Project Designer**, or by using the Publish Wizard. For more information, see [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).  
@@ -34,12 +34,12 @@ When you publish an application by using ClickOnce, the `Publish Location` prope
   
 3.  In the **Publish Location** field, enter the publishing location by using one of the following formats:  
   
-    -   To publish to a file share or disk path, enter the path by using either a UNC path (\\\Server\ApplicationName) or a file path (C:\Deploy\ApplicationName).  
+    -   To publish to a file share or disk path, enter the path by using either a UNC path (*\\\Server\ApplicationName*) or a file path (*C:\Deploy\ApplicationName*).  
   
-    -   To publish to an FTP server, enter the path using the format ftp://ftp.microsoft.com/ApplicationName.  
+    -   To publish to an FTP server, enter the path using the format *ftp://ftp.microsoft.com/\<ApplicationName>*.  
   
      Note that text must be present in the **Publishing Location** box in order for the Browse (**...**) button to work.  
   
-## See Also  
- [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
- [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
+## See also  
+ [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md)   
+ [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

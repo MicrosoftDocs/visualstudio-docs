@@ -13,13 +13,13 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Publish a web app to a web site using Visual Studio
+# Publish a Web app to a web site using Visual Studio
 
 You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, and Python apps to a website from Visual Studio. For Node.js, the steps are supported but the user interface is different.
 
 [!INCLUDE [quickstart-prereqs](includes/quickstart-prereqs.md)]
 
-## Publish to a web site
+## Publish to a Web site
 
 1. In Solution Explorer, right-click the project and choose **Publish** (or use the **Build** > **Publish** menu item).
 
@@ -35,7 +35,7 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 
     ![Choose Folder](../deployment/media/quickstart-publish-settings-web.png "Choose Folder")
 
-1. In the **Publish method** field, choose a method such as **Web Deploy** or **FTP**. The settings that you see next correspond to your publishing method. Web Deploy simplifies deployment of Web applications and Web sites to IIS servers, and must be installed as an application on the server. Use the [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx) to install it.
+1. In the **Publish method** field, choose a method such as **Web Deploy** or **FTP**. The settings that you see next correspond to your publishing method. Web Deploy simplifies deployment of Web applications and Web sites to IIS servers, and must be installed as an application on the server. Use the [Web platform installer](https://www.microsoft.com/web/downloads/platform.aspx) to install it.
 
 1. Configure required settings for the publish method and select **Validate Connection**. If the server or target is available and your settings are correct, a message that indicates the connection is validated, and you're ready to publish.
 

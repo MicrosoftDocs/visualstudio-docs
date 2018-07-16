@@ -91,7 +91,7 @@ From Visual Studio, you can create app packages for deployment to Microsoft Stor
 
 If you are deploying a UWP app for testing on a device, see [Run UWP apps on a remote machine in Visual Studio](../debugger/run-windows-store-apps-on-a-remote-machine.md).
 
-## Create an Installer package (Windows client)
+## Create an installer package (Windows client)
 
 If you require more a complex installation of a desktop application than [ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) can provide, you can create an installer package, a setup project, or a custom bootstrapper.
 
