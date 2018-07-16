@@ -73,4 +73,4 @@ You can use *SignTool.exe* to sign a Setup program (*setup.exe*). This process h
     ```  
   
 ## See also  
- [How to: Re-sign application and deployment mManifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)
+ [How to: Re-sign application and deployment manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)
