@@ -13,13 +13,13 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Property Functions
+# Property functions
 
 In the .NET Framework versions 4 and 4.5, property functions can be used to evaluate MSBuild scripts. Property functions can be used wherever properties appear. Unlike tasks, property functions can be used outside of targets, and are evaluated before any target runs.
 
  Without using MSBuild tasks, you can read the system time, compare strings, match regular expressions, and perform other actions in your build script. MSBuild will try to convert string to number and number to string, and make other conversions as required.
 
-## Property Function Syntax
+## Property function syntax
 
 These are three kinds of property functions; each function has a different syntax:
 
@@ -27,7 +27,7 @@ These are three kinds of property functions; each function has a different synta
 - Static property functions
 - MSBuild property functions
 
-### String Property Functions
+### String property functions
 
 All build property values are just string values. You can use string (instance) methods to operate on any property value. For example, you can extract the drive name (the first three characters) from a build property that represents a full path by using this code:
 
@@ -35,7 +35,7 @@ All build property values are just string values. You can use string (instance) 
 $(ProjectOutputFolder.Substring(0,3))
 ```
 
-### Static Property Functions
+### Static property functions
 
 In your build script, you can access the static properties and methods of many system classes. To get the value of a static property, use the following syntax, where *Class* is the name of the system class and *Property* is the name of the property.
 
@@ -111,7 +111,7 @@ In addition, you can use the following static methods and properties:
 - System.IO.File::GetLastWriteTime
 - System.IO.File::ReadAllText
 
-### Calling Instance Methods on Static Properties
+### Calling instance methods on static properties
 
 If you access a static property that returns an object instance, you can invoke the instance methods of that object. To invoke an instance method, use the following syntax, where *Class* is the name of the system class, *Property* is the name of the property, *Method* is the name of the method, and *(Parameters)* is the parameter list for the method:
 
@@ -127,7 +127,7 @@ For example, you can use the following code to set a build property to the curre
 <Today>$([System.DateTime]::Now.ToString("yyyy.MM.dd"))</Today>
 ```
 
-### MSBuild Property Functions
+### MSBuild property functions
 
 Several static methods in your build can be accessed to provide arithmetic, bitwise logical, and escape character support. You access these methods by using the following syntax, where *Method* is the name of the method and *Parameters* is the parameter list for the method.
 
@@ -143,7 +143,7 @@ $([MSBuild]::Add($(NumberOne), $(NumberTwo))
 
 Here is a list of MSBuild property functions:
 
-|Function Signature|Description|
+|Function signature|Description|
 |------------------------|-----------------|
 |double Add(double a, double b)|Add two doubles.|
 |long Add(long a, long b)|Add two longs.|
@@ -171,7 +171,7 @@ Here is a list of MSBuild property functions:
 |string MakeRelative(string basePath, string path)|Makes `path` relative to `basePath`. `basePath` must be an absolute directory. If `path` cannot be made relative, it is returned verbatim. Similar to `Uri.MakeRelativeUri`.|
 |string ValueOrDefault(string conditionValue, string defaultValue)|Return the string in parameter 'defaultValue' only if parameter 'conditionValue' is empty, else, return the value conditionValue.|
 
-##  Nested Property Functions
+##  Nested property functions
 
 You can combine property functions to form more complex functions, as the following example shows.
 
@@ -255,13 +255,13 @@ The syntax for this property function is:
 [MSBuild]::GetRegistryValueFromView(string keyName, string valueName, object defaultValue, params object[] views)
 ```
 
-The Windows 64-bit operating system maintains a HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node registry key that presents a HKEY_LOCAL_MACHINE\SOFTWARE registry view for 32-bit applications.
+The Windows 64-bit operating system maintains a **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node** registry key that presents a **HKEY_LOCAL_MACHINE\SOFTWARE** registry view for 32-bit applications.
 
 By default, a 32-bit application running on WOW64 accesses the 32-bit registry view and a 64-bit application accesses the 64-bit registry view.
 
 The following registry views are available:
 
-|Registry View|Definition|
+|Registry view|Definition|
 |-------------------|----------------|
 |RegistryView.Registry32|The 32-bit application registry view.|
 |RegistryView.Registry64|The 64-bit application registry view.|
@@ -332,7 +332,8 @@ Output:
 -->
 ```
 
-## See Also
+## See also
 
-[MSBuild Properties](../msbuild/msbuild-properties.md)
-[MSBuild Overview](../msbuild/msbuild.md)
+[MSBuild properties](../msbuild/msbuild-properties.md)
+
+[MSBuild overview](../msbuild/msbuild.md)
