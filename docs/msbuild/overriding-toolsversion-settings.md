@@ -21,10 +21,10 @@ You can change the toolset for projects and solutions in one of three ways:
   
 2.  By setting the `ToolsVersion` parameter on the MSBuild task.  
   
-3.  By setting the `$(ProjectToolsVersion)` property on a project within a solution. This lets you build a project in a solution with a Toolset version that differs from that of the other projects.  
+3.  By setting the `$(ProjectToolsVersion)` property on a project within a solution. This lets you build a project in a solution with a toolset version that differs from that of the other projects.  
   
 ## Override the ToolsVersion settings of projects and solutions on command line builds  
- Although Visual Studio projects typically build with the ToolsVersion specified in the project file, you can use the `/ToolsVersion` (or `/tv`) switch on the command line to override that value and build all of the projects and their project-to-project dependencies with a different Toolset. For example:  
+ Although Visual Studio projects typically build with the ToolsVersion specified in the project file, you can use the `/ToolsVersion` (or `/tv`) switch on the command line to override that value and build all of the projects and their project-to-project dependencies with a different toolset. For example:  
   
 ```cmd  
 msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug  

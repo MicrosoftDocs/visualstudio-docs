@@ -37,7 +37,7 @@ $(ProjectOutputFolder.Substring(0,3))
 
 ### Static property functions
 
-In your build script, you can access the static properties and methods of many system classes. To get the value of a static property, use the following syntax, where *Class* is the name of the system class and *Property* is the name of the property.
+In your build script, you can access the static properties and methods of many system classes. To get the value of a static property, use the following syntax, where \<Class> is the name of the system class and \<Property> is the name of the property.
 
 ```fundamental
 $([Class]::Property)
@@ -49,7 +49,7 @@ For example, you can use the following code to set a build property to the curre
 <Today>$([System.DateTime]::Now)</Today>
 ```
 
-To call a static method, use the following syntax, where *Class* is the name of the system class, *Method* is the name of the method, and *(Parameters)* is the parameter list for the method:
+To call a static method, use the following syntax, where \<Class> is the name of the system class, \<Method> is the name of the method, and (\<Parameters>) is the parameter list for the method:
 
 ```fundamental
 $([Class]::Method(Parameters))
@@ -113,7 +113,7 @@ In addition, you can use the following static methods and properties:
 
 ### Calling instance methods on static properties
 
-If you access a static property that returns an object instance, you can invoke the instance methods of that object. To invoke an instance method, use the following syntax, where *Class* is the name of the system class, *Property* is the name of the property, *Method* is the name of the method, and *(Parameters)* is the parameter list for the method:
+If you access a static property that returns an object instance, you can invoke the instance methods of that object. To invoke an instance method, use the following syntax, where \<Class> is the name of the system class, \<Property> is the name of the property, \<Method> is the name of the method, and (\<Parameters>) is the parameter list for the method:
 
 ```fundamental
 $([Class]::Property.Method(Parameters))
@@ -129,7 +129,7 @@ For example, you can use the following code to set a build property to the curre
 
 ### MSBuild property functions
 
-Several static methods in your build can be accessed to provide arithmetic, bitwise logical, and escape character support. You access these methods by using the following syntax, where *Method* is the name of the method and *Parameters* is the parameter list for the method.
+Several static methods in your build can be accessed to provide arithmetic, bitwise logical, and escape character support. You access these methods by using the following syntax, where \<Method> is the name of the method and (\<Parameters>) is the parameter list for the method.
 
 ```fundamental
 $([MSBuild]::Method(Parameters))
