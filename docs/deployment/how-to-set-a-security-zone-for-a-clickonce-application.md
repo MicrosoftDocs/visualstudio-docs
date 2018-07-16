@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Set a Security Zone for a ClickOnce Application
+# How to: Set a security zone for a ClickOnce application
 When setting code access security permissions for a ClickOnce application, you need to start with a base set of permissions on the **Security** page of the **Project Designer**.  
   
  In most cases, you can also choose the **Internet** zone which contains a limited set of permissions, or the **Local Intranet** zone which contains a greater set of permissions. If your application requires custom permissions, you can do so by choosing the **Custom** security zone. For more information about setting custom permissions, see [How to: Set Custom Permissions for a ClickOnce Application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md).  
@@ -38,8 +38,7 @@ When setting code access security permissions for a ClickOnce application, you n
   
 5.  In the **Zone your application will be installed from** drop-down list, select a security zone.  
   
-## See Also  
- [How to: Set Custom Permissions for a ClickOnce Application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)   
- [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
- [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md)   
- [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)
+## See also  
+ [How to: Set custom permissions for a ClickOnce application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)   
+ [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)   
+ [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md)   
