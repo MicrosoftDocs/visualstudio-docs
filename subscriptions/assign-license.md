@@ -1,6 +1,6 @@
 ---
 title: Assign licenses to Visual Studio Subscriptions | Microsoft Docs
-author: evanwindom
+author: tglee
 ms.author: jaunger
 manager: evelynp
 ms.date: 10/03/2017
