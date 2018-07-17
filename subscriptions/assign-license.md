@@ -72,7 +72,11 @@ Here's how to assign a Visual Studio subscriptions license to to a new user so t
     - Remove spaces before and after form fields.
     - Make sure user's names do not contain extra spaces between two-part first or last names (for example, if a person has a two-part first name such as "Maggie May", it should be typed as "MaggieMay" because the system won't trim the extra space.)
 
-1. Return to the Visual Studio Subscriptions Administration portal. In the **Upload Multiple Subscribers** dialog box, click **Browse**. Navigate to the Excel file that you saved, and then click **OK**.
+1. Return to the Visual Studio Subscriptions Administration portal. In the **Upload Multiple Subscribers** dialog box, click **Browse**.
+
+  ![Browse to your saved template to upload multiple subscribers](media\bulk-add-browse-saved-template.png)
+
+1. Navigate to the Excel file that you saved, and then click **OK**.
 
   ![Upload the Excel template to upload multiple subscribers](media\bulk-upload-subscribers.png)
 
