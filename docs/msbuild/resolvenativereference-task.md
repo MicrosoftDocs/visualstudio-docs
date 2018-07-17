@@ -22,7 +22,7 @@ ms.workload:
   - "multiple"
 ---
 # ResolveNativeReference task
-Resolves native references. Implements the <xref:Microsoft.Build.Tasks.ResolveNativeReference> class. This class supports the .NET Framework infrastructure which is not intended to be used directly from your code.  
+Resolves native references. Implements the <xref:Microsoft.Build.Tasks.ResolveNativeReference> class. This class supports the .NET Framework infrastructure, which is not intended to be used directly from your code.  
   
 ## Task parameters  
  The following table describes the parameters of the `ResolveNativeReference` task.  
