@@ -3,7 +3,7 @@ title: Assign licenses to Visual Studio Subscriptions | Microsoft Docs
 author: TerryGLee
 ms.author: tglee
 manager: douge
-ms.date: 07/13/2018
+ms.date: 07/16/2018
 ms.topic: conceptual
 description:  Learn how administrators can assign licenses to subscribers
 ms.prod: vs-subscription
@@ -57,14 +57,14 @@ Here's how to assign a Visual Studio subscriptions license to to a new user so t
 
   ![Add multiple subscribers](media\add-multiple-subscribers.png)
 
-2. Bulk assign uses a Microsoft Excel template to upload subscribers. In the Upload Multiple Subscribers dialog box, click **Download** to download the template.
+1. Bulk assign uses a Microsoft Excel template to upload subscribers. In the Upload Multiple Subscribers dialog box, click **Download** to download the template.
 
   ![Download the Excel template to upload multiple subscribers](media\download-template-upload-subscribers.png)
 
   >![NOTE]
   > Always download the latest version of this template. If you use an older version, your bulk upload may fail.
 
-3. In the Excel spreadsheet, fill out the fields with the information for the individuals that you want to assign subscriptions to. *Reference* is an optional field. If you have filled out any part of the template incorrectly, you'll see an error message that describes the problem. Save the file locally after you're done.
+1. In the Excel spreadsheet, fill out the fields with the information for the individuals that you want to assign subscriptions to. (*Reference* is an optional field.) Save the file locally after you're done.
 
   To help ensure a smooth upload, observe the following best practices:
 
@@ -72,12 +72,16 @@ Here's how to assign a Visual Studio subscriptions license to to a new user so t
     - Remove spaces before and after form fields.
     - Make sure user's names do not contain extra spaces between two-part first or last names (for example, if a person has a two-part first name such as "Maggie May", it should be typed as "MaggieMay" because the system won't trim the extra space.)
 
-4. Return to the Visual Studio Subscriptions Administration portal. In the **Upload Multiple Subscribers** dialog box, click **Browse**. Navigate to the Excel file that you saved, and then click **OK**. An upload progress dialog appears.
+1. Return to the Visual Studio Subscriptions Administration portal. In the **Upload Multiple Subscribers** dialog box, click **Browse**. Navigate to the Excel file that you saved, and then click **OK**.
 
-    <img alt="Bulk add upload" src="_img\assign-license-add\bulk-assign-upload-2.png" style="border: 1px solid #CCCCCC" />
+  ![Upload the Excel template to upload multiple subscribers](media\bulk-upload-subscribers.png)
+
+  An upload progress dialog appears.
 
   If the template contains errors, the upload will fail, and you will be shown the errors so that you can correct the template and attempt the bulk upload again.
 
-   <img alt="Upload fail" src="_img\assign-license-add\bulk-assign-upload-fail.png" style="border: 1px solid #CCCCCC" />
+  ![Error message if the upload of multiple subscribers fails](media\bulk-add-template-failed.png)
 
-When the upload is successful, you'll see the list of subscribers and a confirmation message.
+  When the upload is successful, you'll see the list of subscribers and a confirmation message.
+
+  ![Confirmation message if the upload of multiple subscribers succeeds](media\bulk-add-template-success.png)
