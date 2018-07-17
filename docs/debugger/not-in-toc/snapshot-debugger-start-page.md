@@ -11,7 +11,7 @@ ms.workload:
   - "multiple"
 ---
 
-# Welcome to the Snapshot Debugger!
+# Getting Started With The Snapshot Debugger
 
 The Visual Studio Snapshot Debugger is now connected to your service and you can start collecting snapshots to help with debugging.
 
