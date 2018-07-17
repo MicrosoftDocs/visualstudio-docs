@@ -93,7 +93,7 @@ namespace MyTasks
 ```  
   
 ## Register tasks  
- If a project is going to run a task, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] must know how to locate the assembly that contains the task class. Tasks are registered using the [UsingTask Element (MSBuild)](../msbuild/usingtask-element-msbuild.md).  
+ If a project is going to run a task, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] must know how to locate the assembly that contains the task class. Tasks are registered using the [UsingTask element (MSBuild)](../msbuild/usingtask-element-msbuild.md).  
   
  The [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] file *Microsoft.Common.Tasks* is a project file that contains a list of `UsingTask` elements that register all the tasks that are supplied with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. This file is automatically included when building every project. If a task that is registered in *Microsoft.Common.Tasks* is also registered in the current project file, the current project file takes precedence; that is, you can override a default task with your own task that has the same name.  
   
