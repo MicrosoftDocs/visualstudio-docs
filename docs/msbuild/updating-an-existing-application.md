@@ -83,7 +83,7 @@ Add a call to the Locator API before calling any method that uses MSBuild.
 
 The simplest way to add the call to the Locator API is to add a call to
 
-```c#
+```csharp
 MSBuildLocator.RegisterDefaults();
 ```
 

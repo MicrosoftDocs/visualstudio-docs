@@ -29,7 +29,7 @@ Visual Studio hosts [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/
  For information about C++ projects, see [Project files](/cpp/ide/project-files).  
   
 ## Project file name extensions  
- MSBuild.exe recognizes any project file name extension matching the pattern *.\*proj*. However, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] only recognizes a subset of these project file name extensions, which determine the language-specific project system that will load the project. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] does not have a language-neutral [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] based project system.  
+ *MSBuild.exe* recognizes any project file name extension matching the pattern *.\*proj*. However, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] only recognizes a subset of these project file name extensions, which determine the language-specific project system that will load the project. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] does not have a language-neutral [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] based project system.  
   
  For example, the [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project system loads *.csproj* files, but [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is not able to load a *.xxproj* file. A project file for source files in an arbitrary language must use the same extension as [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project files to be loaded in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
@@ -48,7 +48,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] looks at the conditions on `PropertyGroup`, `ItemGroup`, `Import`, property, and item elements for this purpose.  
   
 ## Additional build actions  
- [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] allows you to change the item type name of a file in a project with the **Build Action** property of the **File properties** window. `Compile`, `EmbeddedResource`, `Content`, and `None` item type names are always listed in this menu, along with any other item type names already in your project. To ensure any custom item type names are always available in this menu, you can add the names to an item type named `AvailableItemName`. For example, adding the following to your project file will add the custom type `JScript` to this menu for all projects that import it:  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] allows you to change the item type name of a file in a project with the **Build Action** property of the **File properties** window. **Compile**, **EmbeddedResource**, **Content**, and **None** item type names are always listed in this menu, along with any other item type names already in your project. To ensure any custom item type names are always available in this menu, you can add the names to an item type named `AvailableItemName`. For example, adding the following to your project file will add the custom type **JScript** to this menu for all projects that import it:  
   
 ```xml  
 <ItemGroup>  
@@ -95,7 +95,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
   
  Properties with arbitrary names are not displayed in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. To modify arbitrary properties in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you must open the project file in the XML editor and edit them by hand. For more information, see the [Edit project files in Visual Studio](#edit-project-files-in-visual-studio) section later in this topic.  
   
- Items defined in the project with arbitrary item type names are by default displayed in the Solution Explorer under their project node. To hide an item from display, set the `Visible` metadata to `false`. For example, the following item will participate in the build process but not be displayed in Solution Explorer.  
+ Items defined in the project with arbitrary item type names are by default displayed in the **Solution Explorer** under their project node. To hide an item from display, set the `Visible` metadata to `false`. For example, the following item will participate in the build process but not be displayed in **Solution Explorer**.  
   
 ```xml  
 <ItemGroup>  
@@ -105,14 +105,14 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 </ItemGroup>  
 ```  
   
- Items declared in files imported into the project are not displayed by default. Items created during the build process are never displayed in Solution Explorer.  
+ Items declared in files imported into the project are not displayed by default. Items created during the build process are never displayed in **Solution Explorer**.  
   
 ## Conditions on items and properties  
  During a build, all conditions are fully respected.  
   
  When determining property values to display, properties that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] considers configuration dependent are evaluated differently than properties it considers configuration independent. For properties it considers configuration dependent, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] sets the `Configuration` and `Platform` properties appropriately and instructs [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to re-evaluate the project. For properties it considers configuration independent, it is indeterminate how conditions will be evaluated.  
   
- Conditional expressions on items are always ignored for the purposes of deciding whether the item should be displayed in Solution Explorer.  
+ Conditional expressions on items are always ignored for the purposes of deciding whether the item should be displayed in **Solution Explorer**.  
   
 ## Debugging  
  In order to find and launch the output assembly and attach the debugger, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] needs the properties `OutputPath`, `AssemblyName`, and `OutputType` correctly defined. The debugger will fail to attach if the build process did not cause the compiler to generate a *.pdb* file.  
@@ -159,7 +159,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
   
     -   `OriginalItemSpec`, containing the original item specification of the reference.  
   
-    -   `ResolvedFrom`, set to \<{TargetFrameworkDirectory}> if it was resolved from the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] directory.  
+    -   `ResolvedFrom`, set to "{TargetFrameworkDirectory}" if it was resolved from the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] directory.  
   
 -   COM references:  
   
@@ -170,7 +170,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
      The project system calls a target with the well-known name `ResolveNativeReferences`. This target should produce items with the item type name `NativeReferenceFile`. The items should have all the metadata from the input items passed through, in addition to a new piece of metadata named `OriginalItemSpec`, containing the original item specification of the reference.  
   
 ## Performance shortcuts  
- If you start debugging in the Visual Studio UI (either by choosing the F5 key or by choosing **Debug**, **Start Debugging** on the menu bar), the build process uses a fast update check to improve performance. In some cases where customized builds create files that get built in turn, the fast update check does not correctly identify the changed files. Projects that need more thorough update checks can turn off the fast checking by setting the environment variable `DISABLEFASTUPTODATECHECK=1`. Alternatively, projects can set this as an MSBuild property in the project or in a file the project imports.  
+ If you start debugging in the Visual Studio UI (either by choosing the F5 key or by choosing **Debug** > **Start Debugging** on the menu bar), the build process uses a fast update check to improve performance. In some cases where customized builds create files that get built in turn, the fast update check does not correctly identify the changed files. Projects that need more thorough update checks can turn off the fast checking by setting the environment variable `DISABLEFASTUPTODATECHECK=1`. Alternatively, projects can set this as an MSBuild property in the project or in a file the project imports.  
   
  For regular builds in Visual Studio, the fast update check doesn't apply, and the project will build as if you invoked the build at a command prompt.  
   
