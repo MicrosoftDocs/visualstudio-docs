@@ -18,14 +18,14 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add a Feature to SharePoint Solutions
+# How to: Add a feature to SharePoint solutions
   When you create a SharePoint solution, one Feature and one Package are added to the solution. You can add more Feature items to organize different types of SharePoint files.  
   
-### To add a Feature through Solution Explorer  
+### To add a feature through Solution Explorer
   
 1.  In **Solution Explorer**, open the shortcut menu for **Features**, and then choose **Add Feature**.  
   
-## See Also  
- [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
+## See also
+ [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
   
   

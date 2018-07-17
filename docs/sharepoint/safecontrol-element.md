@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# SafeControl Element
+# SafeControl element
   Represents an ASPX control or Web Part that is designated as secure for any user to access on any ASPX page on the SharePoint site.  
   
 ## Syntax  
@@ -30,43 +30,42 @@ ms.workload:
     TypeName = "Type of the safe control" />  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|**Assembly**|Optional **xs:string** attribute.<br /><br /> The name of the assembly in which the ASPX control or Web Part is defined. By default, this attribute uses the **$SharePoint.Project.AssemblyFullName$** replaceable parameter for the assembly name. For more information, see [Replaceable Parameters](../sharepoint/replaceable-parameters.md).|  
+|**Assembly**|Optional **xs:string** attribute.<br /><br /> The name of the assembly in which the ASPX control or Web Part is defined. By default, this attribute uses the **$SharePoint.Project.AssemblyFullName$** replaceable parameter for the assembly name. For more information, see [Replaceable parameters](../sharepoint/replaceable-parameters.md).|  
 |**IsSafe**|Optional **xs:boolean** attribute.<br /><br /> Specifies whether the ASPX control or Web Part is secure for untrusted users to access.|  
 |**IsSafeAgainstScript**|Optional **xs:boolean** attribute.<br /><br /> Specifies whether untrusted users can view or edit the properties of the ASPX control or Web Part.|  
 |**Name**|Optional **xs:string** attribute.<br /><br /> The name of this safe control entry in the collection.|  
 |**Namespace**|Optional **xs:string** attribute.<br /><br /> The namespace of the ASPX control or Web Part.|  
 |**TypeName**|Optional **xs:string** attribute.<br /><br /> The type name of the ASPX control or Web Part.|  
   
-### Child Elements  
+### Child elements
  None.  
   
-### Parent Elements  
+### Parent elements
   
 |Element|Description|  
 |-------------|-----------------|  
 |[SafeControls](../sharepoint/safecontrols-element.md)|Represents a collection of ASPX controls and Web Parts that are designated as secure for any user to access on any ASPX page on the SharePoint site.|  
   
 ## Remarks  
- For more information about safe controls, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md).  
+ For more information about safe controls, see [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md).  
   
-## Element Information  
+## Element information
   
 |||  
 |-|-|  
-|**Namespace**|http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel|  
+|**Namespace**|http<nolink>://schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|  
 |**Schema name**|SharePoint Project Item Schema|  
 |**Validation file**|ProjectItemModelSchema.xsd|  
 |**Can be empty**|No|  
   
-## See Also  
- [SharePoint Project Item Schema Reference](../sharepoint/sharepoint-project-item-schema-reference.md)   
- [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)  
-  
+## See also
+ [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)   
+ [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)  
   

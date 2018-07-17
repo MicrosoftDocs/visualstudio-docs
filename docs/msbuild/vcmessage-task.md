@@ -1,7 +1,7 @@
 ---
 title: "VCMessage Task | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "06/27/2018"
 ms.technology: msbuild
 ms.topic: "reference"
 f1_keywords: 

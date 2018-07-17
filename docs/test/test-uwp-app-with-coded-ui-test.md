@@ -59,6 +59,9 @@ The first step is to create a simple UWP app to run the test against.
 
      ![New coded UI test project](../test/media/coded-ui-test-project-uwp-template.png)
 
+   > [!NOTE]
+   > If you don't see the **Coded UI Test Project (Universal Windows)** template, you need to [install the coded UI test component](../test/use-ui-automation-to-test-your-code.md#install-the-coded-ui-test-component).
+
 1. In the **Generate Code for Coded UI Test** dialog, select **Manually edit the test**.
 
      ![Generate code for coded UI test dialog](../test/media/manually-edit-the-test.png)
@@ -119,7 +122,7 @@ The first step is to create a simple UWP app to run the test against.
         Assert.AreEqual(Me.AssertMethod1ExpectedValues.UITextBoxEditText, uITextBoxEdit.Text, "Textbox value is unexpected.")
     End Sub
     ```
-1. Next, we need to obtain the **AutomationId** of the UWP [app](#create-a-simple-universal-windows-app) that we want to test. Open the Windows **Start** menu to see the tile for the app. Then, drag the cross-hair tool ![Target icon](media/target-icon.png) from the **Coded UI Test Builder** dialog to the tile for your app. When a blue box surrounds the tile, release your mouse.
+1. Next, we need to obtain the **AutomationId** of the UWP [app](#create-a-uwp-app-to-test) that we want to test. Open the Windows **Start** menu to see the tile for the app. Then, drag the cross-hair tool ![Target icon](media/target-icon.png) from the **Coded UI Test Builder** dialog to the tile for your app. When a blue box surrounds the tile, release your mouse.
 
    ![Cross-hair tool](media/cross-hair-tool.png)
 

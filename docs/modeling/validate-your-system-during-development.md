@@ -29,14 +29,14 @@ Visual Studio can help keep your software consistent with the users' requirement
 
 |**Category**|**Links**|
 |------------------|---------------|
-|**Videos**|![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Channel 9: Doug Seven: Code Understanding and System Design with Visual Studio 2010](http://go.microsoft.com/fwlink/?LinkId=216100)<br /><br /> ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Channel 9: Architecting an Application using a Dependency Diagram](http://go.microsoft.com/fwlink/?LinkID=201117)<br /><br /> ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [MSDN How Do I Series: How to Validate Code using Dependency Diagrams](http://go.microsoft.com/fwlink/?LinkID=214405)|
+|**Videos**|![link to video](../data-tools/media/playvideo.gif) [Channel 9: Doug Seven: Code Understanding and System Design with Visual Studio 2010](http://go.microsoft.com/fwlink/?LinkId=216100)<br /><br /> ![link to video](../data-tools/media/playvideo.gif) [Channel 9: Architecting an Application using a Dependency Diagram](http://go.microsoft.com/fwlink/?LinkID=201117)<br /><br /> ![link to video](../data-tools/media/playvideo.gif) [MSDN How Do I Series: How to Validate Code using Dependency Diagrams](http://go.microsoft.com/fwlink/?LinkID=214405)|
 |**Forums**|-   [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|
 |**Blogs**|-   [Visual Studio ALM + Team Foundation Server Blog](http://go.microsoft.com/fwlink/?LinkID=201340)|
 |**Technical Articles and Journals**|[MSDN Architecture Center](http://go.microsoft.com/fwlink/?LinkId=201343)|
 
-## See Also
+## See also
 
-- [Testing the application](https://www.visualstudio.com/en-gb/docs/test/overview)
+- [Testing the application](/vsts/test/overview?view=vsts)
 - [Model user requirements](../modeling/model-user-requirements.md)
 - [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)
 

@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Functions View - Sampling Data
+# Functions View - sampling data
 The Functions report view for the sampling profile method lists the functions that were sampled during the profiling run.  
   
 > [!NOTE]
@@ -35,8 +35,8 @@ The Functions report view for the sampling profile method lists the functions th
 |**Exclusive Samples**|The total number of samples that were collected when code in the body of this function was executing; that is, when this function was on the top of the call stack. Samples that were collected in functions that were called by this function are not included.|  
 |**Exclusive Samples %**|The percentage of all samples in the profiling run that were exclusive samples of this function.|  
   
-## See Also  
- [How to: Customize Report View Columns](../profiling/how-to-customize-report-view-columns.md)   
- [Functions View - Instrumentation](../profiling/functions-view-dotnet-memory-instrumentation-data.md)   
- [Functions View - Sampling](../profiling/functions-view-dotnet-memory-sampling-data.md)   
+## See also  
+ [How to: Customize Report View columns](../profiling/how-to-customize-report-view-columns.md)   
+ [Functions View - instrumentation](../profiling/functions-view-dotnet-memory-instrumentation-data.md)   
+ [Functions View - sampling](../profiling/functions-view-dotnet-memory-sampling-data.md)   
  [Functions View](../profiling/functions-view-instrumentation-data.md)

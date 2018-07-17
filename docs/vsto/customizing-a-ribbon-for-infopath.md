@@ -38,7 +38,7 @@ ms.workload:
  You must specify the Ribbon type of each window in which you want your Ribbon to appear.  
   
 ## Specify the Ribbon type in the Ribbon designer  
- If you are using the **Ribbon (Visual Designer)** item, click the **RibbonType** property of the Ribbon in the **Properties** window, and then select any of the Ribbon ID's described in the following table.  
+ If you are using the **Ribbon (Visual Designer)** item, click the **RibbonType** property of the Ribbon in the **Properties** window, and then select any of the Ribbon IDs described in the following table.  
   
 |Ribbon ID|Window in which the Ribbon will appear when you run the project|  
 |---------------|---------------------------------------------------------------------|  

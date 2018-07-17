@@ -14,13 +14,13 @@ ms.workload:
   - "multiple"
 ---
 # Concurrency Visualizer command-line utility (CVCollectionCmd)
-You can use the Concurrency Visualizer command-line utility (CVCollectionCmd.exe) to collect traces from the command line so that you can view them in the Concurrency Visualizer for Visual Studio. The tools can be used on computers that do not have Visual Studio installed.  
+You can use the Concurrency Visualizer command-line utility (*CVCollectionCmd.exe*) to collect traces from the command line so that you can view them in the Concurrency Visualizer for Visual Studio. The tools can be used on computers that do not have Visual Studio installed.  
   
 > [!NOTE]
 >  Starting in Visual Studio 2013, the Concurrency Visualizer is an optional extension. (Previously it had been included in Visual Studio.) You can download the [Concurrency Visualizer collection tools for Visual Studio 2015](http://www.microsoft.com/en-in/download/details.aspx?id=49103) from the Download Center.  
   
 ## Download the Concurrency Visualizer command-line utility  
- To download and install the command-line utility, go to [Concurrency Visualizer Collection Tools for Visual Studio 2015](http://www.microsoft.com/en-in/download/details.aspx?id=49103) and follow the instructions. By default, CVCollectionCmd.exe is installed in %ProgramFiles%\Microsoft Concurrency Visualizer Collection Tools\ (%ProgramFiles(x86)%\Microsoft Concurrency Visualizer Collection Tools\ on x64 computers).  
+ To download and install the command-line utility, go to [Concurrency Visualizer Collection Tools for Visual Studio 2015](http://www.microsoft.com/en-in/download/details.aspx?id=49103) and follow the instructions. By default, *CVCollectionCmd.exe* is installed in %ProgramFiles%\Microsoft Concurrency Visualizer Collection Tools\ (%ProgramFiles(x86)%\Microsoft Concurrency Visualizer Collection Tools\ on x64 computers).  
   
 ## Collect a trace with CVCollectionCmd  
  You can collect a trace by starting the app with CVCollectionCmd, or by attaching to it. See the command reference below for your options. For example  
@@ -52,7 +52,7 @@ You can use the Concurrency Visualizer command-line utility (CVCollectionCmd.exe
 > [!NOTE]
 >  When you use Visual Studio to collect traces, don't directly modify the configuration file.  Instead, use the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box to modify settings.  
   
- To modify collection settings, create a configuration file on the machine where you will run the CVCollectionCmd utility. You can create the configuration file from scratch, or you can copy the configuration file on the computer that has Visual Studio installed and modify that. The file is named `UserConfig.xml` and is located in the **Local AppData** folder. When you run the utility, use the Config option in conjunction with the Launch, Attach, or Analyze command.  In the parameter that's associated with the Config option, specify the path of the configuration file.  
+ To modify collection settings, create a configuration file on the machine where you will run the CVCollectionCmd utility. You can create the configuration file from scratch, or you can copy the configuration file on the computer that has Visual Studio installed and modify that. The file is named *UserConfig.xml* and is located in the *Local AppData* folder. When you run the utility, use the Config option in conjunction with the Launch, Attach, or Analyze command.  In the parameter that's associated with the Config option, specify the path of the configuration file.  
   
 ### Configuration file tags  
  The configuration file is XML-based. Here are the valid tags and values:  

@@ -7,10 +7,10 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
-dev_langs: 
+dev_langs:
   - "VB"
   - "CSharp"
 ---
@@ -24,7 +24,7 @@ Fakes come in two flavors:
 
 -   A [shim](#shims) modifies the compiled code of your application at run time so that instead of making a specified method call, it runs the shim code that your test provides. Shims can be used to replace calls to assemblies that you cannot modify, such as .NET assemblies.
 
-![Fakes replace other components](../test/media/fakes-2.png "Fakes-2")
+![Fakes replace other components](../test/media/fakes-2.png)
 
 **Requirements**
 
@@ -235,7 +235,7 @@ To use shims, you don't have to modify the application code or write it a partic
 
 The previous example uses a shim for a static method. To use a shim for an instance method, write `AllInstances` between the type name and the method name:
 
-```
+```vb
 System.IO.Fakes.ShimFile.AllInstances.ReadToEnd = ...
 ```
 

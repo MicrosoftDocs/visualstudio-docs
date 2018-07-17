@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Synchronization Time
+# Synchronization time
 These segments in the timeline are associated with blocking times that are categorized as Synchronization. When a thread is marked as blocked on synchronization, one of these things is implied:  
   
 -   The execution of the thread may have resulted in a call to a well-known thread synchronization API such as `EnterCriticalSection()` or `WaitForSingleObject()`.  
@@ -24,5 +24,5 @@ These segments in the timeline are associated with blocking times that are categ
   
  To understand the underlying cause for a thread blocking event, carefully examine the blocking call stacks and profile reports.  
   
-## See Also  
- [Threads View](../profiling/threads-view-parallel-performance.md)
+## See also  
+ [Threads view](../profiling/threads-view-parallel-performance.md)

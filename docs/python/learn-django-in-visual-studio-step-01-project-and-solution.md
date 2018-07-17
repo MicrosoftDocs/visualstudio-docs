@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 1: Get started with the Django web framework in Visual Studio
+# Tutorial: Get started with the Django web framework in Visual Studio
 
 [Django](https://www.djangoproject.com/) is a high-level Python framework designed for rapid, secure, and scalable web development. This tutorial explores the Django framework in the context of the project templates that Visual Studio provides to streamline the creation of Django-based web apps.
 
@@ -29,11 +29,13 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-- Visual Studio 2017 with the following options:
+- Visual Studio 2017 on Windows with the following options:
   - The **Python development** workload (**Workload** tab in the installer). For instructions, see [Installing Python support in Visual Studio](installing-python-support-in-visual-studio.md).
   - **Git for Windows** and **GitHub Extension for Visual Studio** on the **Individual components** tab under **Code tools**.
 
 Django project templates are also included with all earlier versions of Python Tools for Visual Studio, though details may differ from what's discussed in this tutorial (especially different with earlier versions of the Django framework).
+
+Python development is not presently supported in Visual Studio for Mac. On Mac and Linux, use the [Python extension in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial).
 
 ### "Visual Studio projects" and "Django projects"
 
@@ -200,7 +202,7 @@ At this point, the basic Django project does not contain any apps. You create an
 > [!div class="nextstepaction"]
 > [Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md)
 
-## Going deeper
+## Go deeper
 
 - Django project code: [Writing your first Django app, part 1](https://docs.djangoproject.com/en/2.0/intro/tutorial01/) (docs.djangoproject.com)
 - Administrative utility: [django-admin and manage.py](https://docs.djangoproject.com/en/2.0/ref/django-admin/) (docs.djangoproject.com)

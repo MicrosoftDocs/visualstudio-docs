@@ -18,14 +18,14 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Create a SharePoint Solution Package by Using MSBuild Tasks
-  You can build, clean, and validate a SharePoint package (.wsp) using command-line MSBuild tasks on a development computer. You can also use these commands to automate the build process by using Team Foundation Server on a build computer.  
+# How to: Create a SharePoint Solution Package by using MSBuild tasks
+  You can build, clean, and validate a SharePoint package (*.wsp*) using command-line MSBuild tasks on a development computer. You can also use these commands to automate the build process by using Team Foundation Server on a build computer.  
   
-## Building a SharePoint Package  
+## Build a SharePoint package  
   
 #### To build a SharePoint package  
   
-1.  On the Windows **Start** menu, choose **All Programs**, **Accessories**, **Command Prompt**.  
+1.  On the Windows **Start** menu, choose **All Programs** > **Accessories** > **Command Prompt**.  
   
 2.  Change to the directory where your SharePoint project is located.  
   
@@ -42,7 +42,7 @@ ms.workload:
     msbuild /t:Package ListDefinition1.csproj  
     ```  
   
-## Cleaning a SharePoint Package  
+## Clean a SharePoint package  
   
 #### To clean a SharePoint package  
   
@@ -63,7 +63,7 @@ ms.workload:
     msbuild /t:CleanPackage ListDefinition1.csproj  
     ```  
   
-## Validating a SharePoint Package  
+## Validate a SharePoint package  
   
 #### To validate a SharePoint package  
   
@@ -84,7 +84,7 @@ ms.workload:
     msbuild /t:ValidatePackage ListDefinition1.csproj  
     ```  
   
-## Setting Properties in a SharePoint Package  
+## Set properties in a SharePoint package  
   
 #### To set a property in a SharePoint package  
   
@@ -104,9 +104,7 @@ ms.workload:
     msbuild /property:WarningLevel = 2  
     ```  
   
-## See Also  
- [Creating SharePoint Features](../sharepoint/creating-sharepoint-features.md)   
- [How to: Customize a SharePoint Feature](../sharepoint/how-to-customize-a-sharepoint-feature.md)   
- [How to: Add and Remove Items to SharePoint Features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)  
-  
-  
+## See also
+ [Create SharePoint features](../sharepoint/creating-sharepoint-features.md)   
+ [How to: Customize a SharePoint feature](../sharepoint/how-to-customize-a-sharepoint-feature.md)   
+ [How to: Add and remove items to SharePoint features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)  

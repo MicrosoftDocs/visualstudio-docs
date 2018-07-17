@@ -57,7 +57,7 @@ Debugging between two computers connected through a proxy is not supported. Debu
 
 ## <a name="remote_debug_azure_app_service"></a> Remote Debug ASP.NET Core on an Azure App Service
 
-From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. For more detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). (If you need the ability to customize IIS, try debugging on an [Azure VM](#BKMK_azure_vm).) 
+From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. For more detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). (If you need the ability to customize IIS, try debugging on an [Azure VM](#remote_debug_azure_vm).) 
 
 #### To deploy the app and remote debug using Server Explorer
 
@@ -192,7 +192,7 @@ If you have trouble opening the page with the remote debugger download, see [Unb
 
 ### <a name="BKMK_attach"></a> Attach to the ASP.NET application from the Visual Studio computer
 
-1. On the Visual Studio computer, open the **MyASPApp** solution.
+1. On the Visual Studio computer, open the solution that you are trying to debug (**MyASPApp** if you are following the steps in this article).
 2. In Visual Studio, click **Debug > Attach to Process** (Ctrl + Alt + P).
 
     > [!TIP]
@@ -227,7 +227,7 @@ If you have trouble opening the page with the remote debugger download, see [Unb
 
 In most setups, required ports are opened by the installation of ASP.NET and the remote debugger. However, if you are troubleshooting deployment issues and the app is hosted behind a firewall, you may need to verify that the correct ports are open.
 
-On an Azure VM, you must open ports through the [Network security group](/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80). 
+On an Azure VM, you must open ports through the [Network security group](/azure/virtual-machines/virtual-machines-windows-hero-role#open-port-80-for-web-traffic). 
 
 Required ports:
 

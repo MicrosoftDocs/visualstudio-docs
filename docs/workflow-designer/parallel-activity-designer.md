@@ -25,7 +25,7 @@ The <xref:System.Activities.Statements.Parallel> activity has a <xref:System.Act
 
 ### Using the Parallel Activity Designer
 
-The **Parallel** activity designer can be found in the **Control Flow** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the left side of the Workflow Designer (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
+Access the **Parallel** activity designer in the **Control Flow** category of the **Toolbox**.
 
 The **Parallel** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activity designers are normally placed, for example, inside of a **Sequence** activity designer. After dropping it into the Workflow Designer, it creates a <xref:System.Activities.Statements.Parallel> activity, which by default contains a <xref:System.Activities.Activity.DisplayName%2A> of **Parallel**
 

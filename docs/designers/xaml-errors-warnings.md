@@ -11,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# XAML Errors and Warnings
+# XAML errors and warnings
 
 When authoring XAML, Visual Studio analyzes the code as you type. A squiggle appears on a line of code when an error is detected. Hovering over the squiggle gives you more information about the error or warning. For some errors and warnings, a Quick Action lightbulb is displayed, and using the **Ctrl**+**.** keyboard shortcut displays the options to fix the issue.
 
@@ -26,7 +26,7 @@ Behind the scenes, multiple tools analyze the XAML in parallel. XAML errors are 
 |XAML Edit and Continue|XECxxxx|
 
 > [!Note]
-> Not all errors/warnings have a corresponding code. Such errors are usually XAML Designer errors.
+> Not all errors or warnings have a corresponding code. Such errors are usually XAML Designer errors.
 
 
 ## Suppress XAML Designer errors
@@ -35,6 +35,6 @@ Open the **Options** dialog by selecting **Tools > Options**, and then select **
 
 Uncheck the **Show errors detected by the XAML designer** check box.
 
-![Suppress XAML Designer errors](../designers/media/suppress_xaml_designer_errors.PNG "SuppressXAMLDesignerErrors")
+![Suppress XAML Designer errors](../designers/media/suppress_xaml_designer_errors.png)
 
 

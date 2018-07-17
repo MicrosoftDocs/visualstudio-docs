@@ -32,16 +32,16 @@ This walkthrough provides detailed instructions for running SQL statements direc
 
 -   Create a data-bound form by dragging items from the **Data Sources** window onto the form.
 
--   Add methods to directly access the database and perform inserts, updates, and deletes..
+-   Add methods to directly access the database and perform inserts, updates, and deletes.
 
 ## Prerequisites
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
 
 2.  Install the Northwind sample database by following these steps:
 
-    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 
        A query editor window opens.
 
@@ -49,16 +49,16 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
-       After a short time, the query finishes executing and the Northwind database is created.
+       After a short time, the query finishes running and the Northwind database is created.
 
 ## Create a Windows Forms application
  The first step is to create a **Windows Forms Application**.
 
 #### To create the new Windows project
 
-1. In Visual Studio, on the **File** menu, select **New**, **Project...**.
+1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
-2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
 
 3. In the middle pane, select the **Windows Forms App** project type.
 
@@ -67,7 +67,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      The **TableAdapterDbDirectMethodsWalkthrough** project is created and added to **Solution Explorer**.
 
 ## Create a data source from your database
- This step uses the **Data Source Configuration Wizard** to create a data source based on the `Region` table in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information about setting up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).
+ This step uses the **Data Source Configuration Wizard** to create a data source based on the `Region` table in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information about setting up the Northwind sample database, see [How to: Install sample databases](../data-tools/installing-database-systems-tools-and-samples.md).
 
 #### To create the data source
 
@@ -155,7 +155,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 -   Select the **Delete** button, and verify that the record is removed from the grid.
 
-## Next Steps
+## Next steps
  Depending on your application requirements, there are several steps you might want to perform after creating a data-bound form. Some enhancements you could make to this walkthrough include:
 
 -   Adding search functionality to the form.

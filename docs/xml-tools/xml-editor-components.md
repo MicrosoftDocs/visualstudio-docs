@@ -14,7 +14,7 @@ ms.workload:
 
 This section discusses the XML editor windows and dialog boxes. Because the XML editor is based on the text editor, some of the integrated development environment (IDE) is configured using the general text editor settings.
 
-## Related Sections
+## Related sections
 
 [Change text color in the editor](../ide/quickstart-personalize-the-ide.md#change-text-color)
 

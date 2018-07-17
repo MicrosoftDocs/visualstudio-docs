@@ -36,7 +36,7 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
   
 3.  Add the following XML to describe the XML namespace and product code for the package. Replace the product code with a unique identifier for the package.  
   
-    ```  
+    ```xml  
     <Product  
     xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper"   
     ProductCode="Custom.Bootstrapper.Package">  
@@ -44,7 +44,7 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
   
 4.  Add XML to specify that the package has a dependency. This example uses a dependency on Microsoft Windows Installer 3.1.  
   
-    ```  
+    ```xml  
     <RelatedProducts>  
         <DependsOnProduct Code="Microsoft.Windows.Installer.3.1" />  
       </RelatedProducts>  
@@ -52,7 +52,7 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
   
 5.  Add XML to list all the files that are in the bootstrapper package. This example uses the package file name CorePackage.msi.  
   
-    ```  
+    ```xml  
     <PackageFiles>  
         <PackageFile Name="CorePackage.msi"/>  
     </PackageFiles>  
@@ -62,14 +62,14 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
   
 7.  Add XML to install the package by using bootstrapper commands. The bootstrapper automatically adds the **/qn** flag to the .msi file, which will install silently. If the file is an .exe, the bootstrapper runs the .exe file by using the shell. The following XML shows no arguments to CorePackage.msi, but you can put command line argument into the Arguments attribute.  
   
-    ```  
+    ```xml  
     <Commands>  
         <Command PackageFile="CorePackage.msi" Arguments="">  
     ```  
   
 8.  Add the following XML to check if this bootstrapper package is installed. Replace the product code with the GUID for the redistributable component.  
   
-    ```  
+    ```xml  
     <InstallChecks>  
         <MsiProductCheck   
             Property="IsMsiInstalled"   
@@ -79,7 +79,7 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
   
 9. Add XML to change the bootstrapper behavior depending on if the bootstrapper component is already installed. If the component is installed, the bootstrapper package does not run. The following XML checks if the current user is an administrator because this component requires administrative privileges.  
   
-    ```  
+    ```xml  
     <InstallConditions>  
         <BypassIf   
            Property="IsMsiInstalled"   
@@ -92,7 +92,7 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
   
 10. Add XML to set exit codes if the installation is successful and if a reboot is necessary. The following XML demonstrates the Fail and FailReboot exit codes, which indicate that the bootstrapper will not continue installing packages.  
   
-    ```  
+    ```xml  
     <ExitCodes>  
         <ExitCode Value="0" Result="Success"/>  
         <ExitCode Value="1641" Result="SuccessReboot"/>  
@@ -103,7 +103,7 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
   
 11. Add the following XML to end the section for bootstrapper commands.  
   
-    ```  
+    ```xml  
         </Command>  
     </Commands>  
     ```  
@@ -113,7 +113,7 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
 ## Example  
  The product manifest contains installation instructions for custom prerequisites.  
   
-```  
+```xml  
 <?xml version="1.0" encoding="utf-8" ?>  
 <Product  
   xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper"  

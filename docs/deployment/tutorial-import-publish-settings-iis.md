@@ -4,12 +4,12 @@ ms.custom: "Create and import a publishing profile to deploy an application from
 ms.date: "05/07/2018"
 ms.technology: vs-ide-deployment
 ms.topic: "tutorial"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "deployment, publish settings"
 author: mikejo5000
 ms.author: mikejo
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Publish an application to IIS by importing publish settings in Visual Studio
@@ -35,13 +35,13 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
 * You must have Visual Studio 2017 installed and the **ASP.NET** and **.NET Framework** development workload. For a .NET Core app, you also need the **.NET Core** workload.
 
-    If you haven't already installed Visual Studio, install it for free [here](http://www.visualstudio.com).
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
 * To generate the publish settings file from IIS, you must have a computer running Windows Server 2012 or Windows Server 2016, and you must have the IIS Web Server role correctly configured. Either ASP.NET 4.5 or ASP.NET Core must also be installed. For ASP.NET Core, see [Publishing to IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration). For ASP.NET 4.5, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
 
 ## Create a new ASP.NET project in Visual Studio
 
-1. On the computer running Visual Studio, choose **File > New Project**.
+1. On the computer running Visual Studio, choose **File** > **New Project**.
 
 1. Under **Visual C#** or **Visual Basic**, choose **Web**, and then in the middle pane choose either **ASP.NET Web Application (.NET Framework)** or (C# only) **ASP.NET Core Web Application**, and then click **OK**.
 
@@ -53,7 +53,7 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
     Visual Studio creates the project.
 
-1. Choose **Build > Build Solution** to build the project.
+1. Choose **Build** > **Build Solution** to build the project.
 
 ## Install and configure Web Deploy on Windows Server
 
@@ -61,17 +61,17 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
 ## Create the publish settings file in IIS on Windows Server
 
-[!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/create-publish-settings-iis.md)]
+[!INCLUDE [create-publish-settings-iis](../deployment/includes/create-publish-settings-iis.md)]
 
 ## Import the publish settings in Visual Studio and deploy
 
-[!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/import-publish-settings-vs.md)]
+[!INCLUDE [import-publish-settings](../deployment/includes/import-publish-settings-vs.md)]
 
 After the app deploys successfully, it should start automatically. If it does not start from Visual Studio, start the app in IIS. For ASP.NET Core, you need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
 
 ## Next steps
 
-In this tutorial, you created a publish settings file, imported it into Visual Studio, and deployed an ASP.NET app to IIS.
+In this tutorial, you created a publish settings file, imported it into Visual Studio, and deployed an ASP.NET app to IIS. You may want an overview of other publishing options in Visual Studio.
 
 > [!div class="nextstepaction"]
 > [First look at deployment](../deployment/deploying-applications-services-and-components.md)

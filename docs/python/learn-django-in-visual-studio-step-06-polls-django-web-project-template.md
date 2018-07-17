@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 6: Use the Polls Django Web Project template
+# Step 6: Use the Polls Django Web Project template
 
 **Previous step: [Authenticate users in Django](learn-django-in-visual-studio-step-05-django-authentication.md)**
 
@@ -107,7 +107,7 @@ class Choice(models.Model):
         return self.text
 ```
 
-As you can see, a Poll maintains a description in its `text` field and a publication date in `pub_date`. These fields are the only onesields that exist for the Poll in the database; the `total_votes` field is calculated at runtime.
+As you can see, a Poll maintains a description in its `text` field and a publication date in `pub_date`. These fields are the only ones that exist for the Poll in the database; the `total_votes` field is calculated at runtime.
 
 A Choice is related to a Poll through the `poll` field, contains a description in `text`, and maintains a count for that choice in `votes`. The `votes_percentage` field is calculated at runtime and is not found in the database.
 
@@ -363,11 +363,11 @@ You've now explored the entirety of the "Blank Django Web Project", "Django Web 
 
 Running a web app on your development computer is just one step in making the app available to your customers. Next steps may include the following tasks:
 
+- Deploy the web app to a production server, such as Azure App Service. See [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md), which includes specific changes needed for Django apps.
+
 - Customize the 404 page by creating a template named `templates/404.html`. When present, Django uses this template instead of its default one. For more information, see [Error views](https://docs.djangoproject.com/en/2.0/ref/views/#error-views) in the Django documentation.
 
 - Write unit tests in `tests.py`; the Visual Studio project templates provide starting points for these, and more information can be found on [Writing your first Django app, part 5 - testing](https://docs.djangoproject.com/en/2.0/intro/tutorial05/) and [Testing in Django](https://docs.djangoproject.com/en/2.0/topics/testing/) in the Django documentation.
-
-- Deploy the web app to a production server, such as Azure App Service. See [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md), which includes specific changes needed for Django apps.
 
 - Change the app from SQLite to a production-level data store such as PostgreSQL, MySQL, and SQL Server (all of which can be hosted on Azure). As described on [When to use SQLite](https://www.sqlite.org/whentouse.html) (sqlite.org), SQLite works fine for low to medium traffic sites with fewer than 100K hits/day, but is not recommended for higher volumes. It's also limited to a single computer, so it cannot be used in any multi-server scenario such as load-balancing and geo-replication. For information on Django's support for other databases, see [Database setup](https://docs.djangoproject.com/en/2.0/intro/tutorial02/#database-setup). You can also use the [Azure SDK for Python](azure-sdk-for-python.md) to work with Azure storage services like tables and blobs.
 

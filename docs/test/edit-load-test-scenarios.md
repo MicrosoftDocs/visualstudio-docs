@@ -27,9 +27,8 @@ Any initial configuration options and settings that you specify when you create 
 
 Scenarios contain the following components:
 
-|||
-|-|-|
 |Term|Definition|
+|-|-|
 |Browser Mix|Simulates that virtual users access a Web site through a variety of Web browsers.|
 |Load Pattern|Specifies the number of virtual users that are active during a load test, and the rate at which new users are started. For example: step, constant, and goal-based.|
 |Test Mix Model|Specifies the probability of a virtual user running a given test in a load test scenario. For example: 20% chance to run TestA and 80% chance to run TestB. The test mix model should reflect the objectives of your test for a particular scenario.|

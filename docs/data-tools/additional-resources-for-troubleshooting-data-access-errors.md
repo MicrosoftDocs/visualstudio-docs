@@ -1,6 +1,6 @@
 ---
-title: Additional resources for troubleshooting data access errors
-ms.date: 11/04/2016
+title: Data access forums
+ms.date: 06/27/2018
 ms.topic: troubleshooting
 f1_keywords:
   - "DSD_ImportXmlSchemaSameFileWrnHelpId"
@@ -222,39 +222,31 @@ ms.assetid: 357c9f0a-9d59-4db4-9b7c-b96cad839961
 author: gewarren
 ms.author: gewarren
 manager: douge
-robots: noindex,nofollow
 ms.prod: visual-studio-dev15
 ms.technology: vs-data-tools
 ms.workload:
   - "data-storage"
 ---
-# Additional resources for troubleshooting data access errors
+# Troubleshoot data access errors on the forums
 
-You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. The following table lists the data-related forums available on MSDN.
+You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. Here are some data-related forums available on MSDN:
 
- [Windows Forms Data Controls and Databinding](http://go.microsoft.com/fwlink/?LinkId=160179)
- Provides a forum for questions about and general discussions of data access in Windows Forms.
+- [Windows Forms data controls and databinding](https://social.msdn.microsoft.com/Forums/windows/en-US/home?forum=winformsdatacontrols)
 
- [ADO.NET DataSet Forum](http://go.microsoft.com/fwlink/?LinkId=160180)
- Provides a forum for questions about and general discussions of Datasets.
+- [ADO.NET DataSet forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=adodotnetdataset)
 
- [ADO.NET Entity Framework and LINQ to Entities](http://go.microsoft.com/fwlink/?LinkId=191520)
- Provides a forum for questions about and general discussions of Entity Framework applications and the LINQ to Entities language.
+- [ADO.NET Entity Framework and LINQ to Entities](https://social.msdn.microsoft.com/Forums/en-US/home?forum=adodotnetentityframework)
 
- [WCF Data Services Forum](http://go.microsoft.com/fwlink/?LinkId=160181)
- Provides a forum for questions about and general discussions of data services.
+- [WCF data services forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=adodotnetdataservices)
 
- [SQL Server Data Access Forum](http://go.microsoft.com/fwlink/?LinkID=160184)
- Provides a forum for questions about and general discussions of accessing data in Microsoft SQL Server.
+- [SQL Server data access forum](https://social.msdn.microsoft.com/Forums/sqlserver/en-US/home?forum=sqldataaccess)
 
- [Linq to SQL Forum](http://go.microsoft.com/fwlink/?LinkId=160183)
- Provides a forum for questions about and general discussions of Linq to SQL.
+- [LINQ to SQL forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=linqtosql)
 
- [ADO.NET Data Providers Forum](http://go.microsoft.com/fwlink/?LinkId=160182)
- Provides a forum for questions about and general discussions of the different .NET Framework Data Providers.
+- [ADO.NET data providers forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=adodotnetdataproviders)
 
- For information about how to troubleshoot connectivity to SQL Server, see [How to Troubleshoot Connecting to the SQL Server Database Engine](http://go.microsoft.com/fwlink/?LinkID=246151).
+For information about how to troubleshoot connectivity to SQL Server, see [Troubleshoot connecting to the SQL Server database engine](https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx).
 
-## See Also
+## See also
 
 - [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

@@ -20,7 +20,7 @@ ms.workload:
 
 In this short introduction to the Visual Studio integrated development environment (IDE), you'll create a simple Visual Basic application that has a Windows-based user interface (UI).
 
-If you haven't already installed Visual Studio, go to the [Visual Studio Downloads](https://www.visualstudio.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
 ## Create a project
 
@@ -28,11 +28,11 @@ First, you'll create a Visual Basic application project. The project type comes 
 
 1. Open Visual Studio 2017.
 
-2. From the top menu bar, choose **File** > **New** > **Project...**.
+2. From the top menu bar, choose **File** > **New** > **Project**.
 
-3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **Windows Classic Desktop**. In the middle pane, choose **Windows Forms App (.NET Framework)**. Then name the file `HelloWorld`.
+3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **Windows Desktop**. In the middle pane, choose **Windows Forms App (.NET Framework)**. Then name the file `HelloWorld`.
 
-     If you don't see the **Windows Forms App (.NET Framework)** project template, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features...**. The Visual Studio Installer launches. Choose the **.NET desktop development** workload, then choose **Modify**.
+     If you don't see the **Windows Forms App (.NET Framework)** project template, cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET desktop development** workload, then choose **Modify**.
 
      ![.NET Core workload in the Visual Studio Installer](../ide/media/install-dot-net-desktop-env.png)
 
@@ -81,7 +81,7 @@ Now that we've added a button control to create an action, let's add a label con
 
 2. In the **Form1.vb** window, between the **Private Sub** line and the **End Sub** line, type or paste `lblHelloWorld.Text = "Hello World!"`.
 
-     ![Add code to the form form](../ide/media/vb-add-code-to-the-form.png)
+     ![Add code to the form](../ide/media/vb-add-code-to-the-form.png)
 
 ## Run the application
 

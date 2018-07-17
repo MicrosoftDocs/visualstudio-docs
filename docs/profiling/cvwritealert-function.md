@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# CvWriteAlert Function
+# CvWriteAlert function
 Writes an alert to the Concurrency Visualizer trace file.  
   
 ## Syntax  
@@ -60,15 +60,15 @@ HRESULT CvWriteAlertVA(
  `pMessage`  
  Message format string. Cannot be NULL.  
   
-## Return Value  
+## Return value  
  S_OK when the message is successfully written. Error code in case there were any errors. Use SUCCEEDED/FAILED macros to check for error condition.  
   
 ## Requirements  
- **Header:** cvmarkers.h  
+ **Header:** *cvmarkers.h*  
   
  **Unicode:** CvWriteAlertW, CvWriteAlertVW  
   
  **ANSI:** CvWriteAlertA, CvWriteAlertVA  
   
-## See Also  
- [C++ Library Reference](../profiling/cpp-library-reference.md)
+## See also  
+ [C++ library reference](../profiling/cpp-library-reference.md)

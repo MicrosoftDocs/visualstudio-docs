@@ -20,12 +20,12 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Add and Remove Additional Assemblies
+# How to: Add and remove additional assemblies
   If a SharePoint package depends on other assemblies for functionality or data, you can add the assemblies to your solution package (.wsp). This way, the SharePoint server makes sure that custom assemblies are installed with a package.  
   
  You can also add and change the safe controls and class resource files associated with the assemblies.  
   
-## Adding Additional Assemblies, Safe Controls, and Class Resources  
+## Add additional assemblies, safe controls, and class resources  
  You can add additional assemblies into the SharePoint solution package. Additional assemblies in a sandboxed solution deploy to the global assembly cache, but SharePoint project items in a sandboxed solution are added to the content database. You can also add safe controls and class resources to these additional assemblies. For more information about safe controls, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md) or "Creating a SafeControl Entry" in [Deploying Web Parts in SharePoint Foundation](http://go.microsoft.com/fwlink/?LinkId=245505).  
   
 #### To add an existing assembly  
@@ -46,7 +46,7 @@ ms.workload:
   
 1.  Open the **Package Designer**.  
   
-     For more information, see [How to: Customize a SharePoint Solution Package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md).  
+     For more information, see [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md).  
   
 2.  Choose the **Advanced** tab.  
   
@@ -78,12 +78,12 @@ ms.workload:
   
 3.  In the **File Name** column, choose the ellipsis (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")), and choose the class resource that you want to add.  
   
-## Deleting Custom Assemblies  
+## Delete custom assemblies  
  You can delete assemblies from a SharePoint package, or delete safe controls and class resources from existing assemblies.  
   
 #### To delete an existing assembly  
   
-1.  Open the **Package Designer**. For more information, see [How to: Customize a SharePoint Solution Package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md).  
+1.  Open the **Package Designer**. For more information, see [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md).  
   
 2.  Choose the **Advanced** tab.  
   
@@ -107,9 +107,8 @@ ms.workload:
   
 3.  Choose the Delete key.  
   
-## See Also  
- [Creating SharePoint Features](../sharepoint/creating-sharepoint-features.md)   
+## See also
+ [Create SharePoint features](../sharepoint/creating-sharepoint-features.md)   
  [How to: Customize a SharePoint Feature](../sharepoint/how-to-customize-a-sharepoint-feature.md)   
- [How to: Add and Remove Items to SharePoint Features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)   
-  
+ [How to: Add and remove items to SharePoint features](../sharepoint/how-to-add-and-remove-items-to-sharepoint-features.md)   
   

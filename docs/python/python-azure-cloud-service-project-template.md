@@ -1,14 +1,14 @@
 ---
 title: Azure cloud service project template for Python
 description: An overview of the Visual Studio template for Azure cloud services written in Python including role deployment, dependencies, and troubleshooting.
-ms.date: 07/13/2017
+ms.date: 06/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: douge
-ms.workload: 
+ms.workload:
   - python
   - data-science
   - azure
@@ -24,7 +24,7 @@ This article contains details about the project template and other support in Vi
 
 ## Create a project
 
-1. Install the [Azure .NET SDK for Visual Studio](https://www.visualstudio.com/vs/azure-tools/), which is required to use the cloud service template.
+1. Install the [Azure .NET SDK for Visual Studio](https://visualstudio.microsoft.com/vs/azure-tools/), which is required to use the cloud service template.
 1. In Visual Studio, select **File > New > Project...**, then search for "Azure Python" and select **Azure Cloud Service** from the list:
 
     ![Azure Cloud Project template for Python](media/template-azure-cloud-project.png)

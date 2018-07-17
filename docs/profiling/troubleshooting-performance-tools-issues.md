@@ -14,9 +14,9 @@ ms.workload:
 # Troubleshoot performance tools issues
 You might experience one of the following issues when you use the Profiling Tools:  
   
--   [No data is collected by the profiling tools](#NoDataCollected)  
+-   [No data is collected by the profiling tools](#no-data-is-collected-by-the-profiling-tools)  
   
--   [Performance Views and reports display numbers for function names](#NoSymbols)  
+-   [Performance Views and reports display numbers for function names](#performance-views-and-reports-display-numbers-for-function-names)  
   
 ## No data is collected by the profiling tools  
  After you profile an application, a profiling data (.*vsp*) file is not created and you receive the following warning in the **Output** window or in the command window:  

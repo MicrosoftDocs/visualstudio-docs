@@ -34,5 +34,5 @@ Because DGSL is compatible with DGML, you can use tools that are designed to ana
 |Title|Description|
 |-----------|-----------------|
 |[Shader Designer](../designers/shader-designer.md)|Describes how to use the Visual Studio Shader Designer to work with shaders.|
-|[Shader Designer Nodes](../designers/shader-designer-nodes.md)|Discusses the kinds of Shader Designer nodes that you can use to achieve graphics effects.|
-|[Shader Designer Examples](../designers/shader-designer-examples.md)|Provides links to topics that demonstrate how to use the Shader Designer to achieve common graphics effects.|
+|[Shader Designer nodes](../designers/shader-designer-nodes.md)|Discusses the kinds of Shader Designer nodes that you can use to achieve graphics effects.|
+|[Shader Designer examples](../designers/shader-designer-examples.md)|Provides links to topics that demonstrate how to use the Shader Designer to achieve common graphics effects.|

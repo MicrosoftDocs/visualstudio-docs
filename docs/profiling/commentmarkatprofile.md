@@ -15,7 +15,7 @@ ms.workload:
   - "multiple"
 ---
 # CommentMarkAtProfile
-The `CommentMarkAtProfile` method inserts a timestamp value, a numeric mark, and a comment string in the .vsp file. The timestamp value can be used to synchronize external events. For the mark and comment to be inserted, profiling for the thread that contains the CommentMarkAtProfile function must be ON.  
+The `CommentMarkAtProfile` method inserts a timestamp value, a numeric mark, and a comment string in the .*vsp* file. The timestamp value can be used to synchronize external events. For the mark and comment to be inserted, profiling for the thread that contains the CommentMarkAtProfile function must be ON.  
   
 ## Syntax  
   
@@ -59,14 +59,14 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkAtProfile (
 >  CommentMarkAtProfile methods should be used with instrumentation only.  
   
 ## .NET Framework equivalent  
- Microsoft.VisualStudio.Profiler.dll  
+ *Microsoft.VisualStudio.Profiler.dll*  
   
 ## Function information  
   
 |||  
 |-|-|  
-|**Header**|Include VSPerf.h|  
-|**Library**|Use VSPerf.lib|  
+|**Header**|Include *VSPerf.h*|  
+|**Library**|Use *VSPerf.lib*|  
 |**Unicode**|Implemented as CommentMarkAtProfileW (Unicode) and CommentMarkAtProfileA (ANSI).|  
   
 ## Example  

@@ -79,7 +79,7 @@ In some situations, different blocks in your code will be used depending on the 
 
  For example, suppose that when you run a test with input "2", you find that 50% of a particular function is covered. When you run the test a second time with the input "-2" you see in the coverage coloring view that the other 50% of the function is covered. Now you merge the results from the two test runs, and the report and coverage coloring view show that 100% of the function was covered.
 
- Use ![Icon for Merge button in Code Coverage window](../test/media/codecoverage-mergeicon.png "CodeCoverage-MergeIcon")**Merge Code Coverage Results** to do this. You can choose any combination of recent runs or imported results. If you want to combine exported results, you must import them first.
+ Use ![Icon for Merge button in Code Coverage window](../test/media/codecoverage-mergeicon.png)**Merge Code Coverage Results** to do this. You can choose any combination of recent runs or imported results. If you want to combine exported results, you must import them first.
 
  Use **Export Code Coverage Results** to save the results of a merge operation.
 
@@ -253,16 +253,16 @@ When you check in your code, your tests will run on the build server, along with
 
    If you have more than one Test Source definition, repeat this step for each one.
 
-   ![Setting the build definition for code coverage](../test/media/codecoverage-plaincc.png "CodeCoverage-plainCC")
+   ![Setting the build definition for code coverage](../test/media/codecoverage-plaincc.png)
 
 > [!TIP]
 > If there's no field named **Type of Run Settings File**, change the **Test Runner** property. Under **Automated Tests**, select **Test Assembly** and choose the ellipsis button **[...]** at the end of the line. In the **Add/Edit Test Run** dialog box, under **Test Runner**, choose **Visual Studio Test Runner**.
 
 After the build runs, the code coverage results are attached to the test run and appear in the build summary.
 
-## Analyze Code Coverage in a Command Line
+## Analyze code coverage from the command line
 
-To run tests from the command line, use vstest.console.exe. Code coverage is an option of the vstest.console.exe utility.
+To run tests from the command line, use *vstest.console.exe*. Code coverage is an option of the *vstest.console.exe* utility.
 
 1.  Launch the Visual Studio Developer Command Prompt:
 
@@ -272,9 +272,11 @@ To run tests from the command line, use vstest.console.exe. Code coverage is an 
 
     `vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage`
 
+For more information, see [VSTest.Console.exe command-line options](vstest-console-options.md).
+
 ## Troubleshoot
 
-If you do not see code coverage results, the [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md) topic might help you.
+If you do not see code coverage results, the [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md) topic might help you.
 
 ## See also
 

@@ -19,11 +19,11 @@ The C++ Core Guidelines are a portable set of guidelines, rules, and best practi
 ## Enable the C++ Core Check guidelines in Code Analysis
  You can enable code analysis on your project by selecting the **Enable Code Analysis on Build** checkbox in the **Code Analysis** section of the **Property Pages** dialog for your project.
 
- ![Property page for Code Analysis General settings](../code-quality/media/cppcorecheck_codeanalysis_general.png "CPPCoreCheck_CodeAnalysis_General")
+ ![Property page for Code Analysis General settings](../code-quality/media/cppcorecheck_codeanalysis_general.png)
 
  The C++ Core Check rules are extensions to the default rule sets that run when code analysis is enabled. Because the C++ Core Check rules are under development, some rules are well established, and some may not be ready for use on all code, but may still be informative. The rules are divided into two groups: released and experimental. You can choose whether to run the released or experimental rules in the properties for your project.
 
- ![Property page for Code Analysis Extensions settings](../code-quality/media/cppcorecheck_codeanalysis_extensions.png "CPPCoreCheck_CodeAnalysis_Extensions")
+ ![Property page for Code Analysis Extensions settings](../code-quality/media/cppcorecheck_codeanalysis_extensions.png)
 
  To enable or disable the C++ Core Check rule sets, open the **Property Pages** dialog for your project. Under **Configuration Properties**, expand  **Code Analysis**, **Extensions**. In the dropdown control next to **Enable C++ Core Check (Released)** or **Enable C++ Core Check (Experimental)**,  choose **Yes** or **No**. Choose **OK** or **Apply** to save your changes.
 
@@ -90,7 +90,7 @@ As of Visual Studio 2017 version 15.3, the supported rule sets are:
   - **Type Rules** enforce the [Type profile of the C++ Core Guidelines](http://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#prosafety-type-safety-profile).
 
   **Visual Studio 2017 version 15.5**:
-  - **Class rules** A few rules that focus on proper use of special methods and virtual specifications. This is a subset of checks recommended for [classes and class hierarchies](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-class).
+  - **Class rules** A few rules that focus on proper use of special member functions and virtual specifications. This is a subset of checks recommended for [classes and class hierarchies](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-class).
   - **Concurrency Rules** A single rule, which catches badly-declared guard objects. For more information, see [guidelines related to concurrency](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-concurrency).
   - **Declaration Rules** A couple of rules from the [interfaces guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-interfaces) which focus on how global variables are declared.
   - **Function Rules** Two checks that help with adoption of the `noexcept` specifier. This is a part of the guidelines for [clear function design and implementation](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-functions).
@@ -237,7 +237,7 @@ You have to set a few environment variables and use proper command-line options 
 
 2.  In the **NuGet Package Manager** window, search for Microsoft.CppCoreCheck.
 
-     ![Nuget Package Manager window shows CppCoreCheck package](../code-quality/media/cppcorecheck_nuget_window.PNG "CPPCoreCheck_Nuget_Window")
+     ![Nuget Package Manager window shows CppCoreCheck package](../code-quality/media/cppcorecheck_nuget_window.png)
 
 3.  Select the Microsoft.CppCoreCheck package and then choose the **Install** button to add the rules to your project.
 

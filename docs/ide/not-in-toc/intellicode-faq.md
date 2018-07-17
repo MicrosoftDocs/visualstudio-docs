@@ -1,6 +1,6 @@
 ---
 title: IntelliCode questions and answers
-ms.date: 05/22/2018
+ms.date: 07/12/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -10,13 +10,13 @@ ms.author: mwthomas
 ---
 # Visual Studio IntelliCode FAQ
 
-Thanks for your interest in Visual Studio IntelliCode! We've provided this short FAQ to hopefully answer some of the questions you may have.
+Thanks for your interest in Visual Studio IntelliCode! This short FAQ will hopefully answer some of the questions you may have.
 
 ## Q. What is Visual Studio IntelliCode?
 
-At Build 2018, we announced Visual Studio IntelliCode, a new capability that enhances software development using AI. IntelliCode helps developers and teams code with confidence, find issues faster, and focus code reviews.
+At Build 2018, Microsoft announced Visual Studio IntelliCode, a new capability that enhances software development using AI. IntelliCode helps developers and teams code with confidence, find issues faster, and focus code reviews.
 
-We showed an early view of how IntelliCode enhances the software development process in the following ways:
+An early view of how IntelliCode showed how it enhances the software development process in the following ways:
 
 - Delivers context-aware code completions
 - Guides developers to adhere to the patterns and styles of their team
@@ -29,11 +29,105 @@ Developers can find more information and sign up for news and future private pre
 
 Visual Studio IntelliCode is a range of capabilities that offers new productivity enhancements through artificial intelligence (AI).
 
-Developers can [download an experimental extension](https://go.microsoft.com/fwlink/?linkid=872707) for Visual Studio 2017 version 15.7 and later. The extension provides enhanced IntelliSense that predicts the most likely correct API for the developer to use, rather than just presenting an alphabetical list of members. It uses the developer's current code context and patterns to provide this dynamic list. We'll update the extension with more capabilities in the coming months.
+Developers can [download an experimental extension](https://go.microsoft.com/fwlink/?linkid=872707) for Visual Studio 2017 version 15.7 and later. The extension currently provides:
 
-## Q. Are there other features coming to the Visual Studio IntelliCode extension? What about editorconfig generation?
+- AI-Enhanced IntelliSense that predicts the most likely correct API for the developer to use, rather than just presenting an alphabetical list of members. It uses the developer's current code context and patterns to provide this dynamic list.
 
-We're actively working on a number of capabilities that we're excited to share publicly as they become available. We demonstrated an early, internal version of a tool that infers editorconfig settings for code style and formatting in C# at Microsoft Build 2018. It's not in the experimental extension yet, but we plan to make it available there soon. You can sign up for news and updates at [https://aka.ms/intellicode](https://aka.ms/intellicode) to be the first to know when we have new capabilities available.
+- Inference of code style and formatting conventions  that helps you keep your code consistent by dynamically creating an [.editorconfig file](../create-portable-custom-editor-options.md) from your codebase to define coding styles and formats. These conventions allow Visual Studio to offer automatic style and format fixes to clean up your document.
+
+We'll update the extension with more capabilities in the coming months.
+
+## Q. Why does EditorConfig inference prepend a 1 to the filename?
+
+A known issue in Visual Studio extensibility will cause a 1. to be prepended to the .editorconfig filename  when you create it by right-clicking and choosing **Add > New Item**. Files named in this way are not recognized by the editorconfig processor in Visual Studio. This problem is fixed in Visual Studio 2017 version 15.8 Preview 4, but until then you can work around by removing the 1 in the **Add New Item** dialog.
+
+## Q. I don't see my EditorConfig Conventions taking effect - why?
+There are a couple of common reasons this problem can occur:
+
+- In Visual Studio 2017 versions prior to 15.8 Preview 3, you will need to close and reopen all open documents to see the conventions in the EditorConfig file you create take effect. This issue is fixed in the 15.8 Preview 3 release.
+- Formatting conventions never show up in the **Error List** or as “squiggles” in your code. They can, however, be fixed using the new Format Document (Ctrl+K, Ctrl+D) extension in Visual Studio 2017 version 15.8 Preview 3 or later
+
+## Q. Format Document is not fixing my style conventions - why?
+There are a couple of common reasons this problem can occur:
+
+- You may not be using Visual Studio 2017 version 15.8 Preview 3 or higher. You’ll need this version to be able to use the extended “Format Document” command to perform additional code cleanup for the current document.
+- You may not be opted in to style fixes. The extended capability of fixing convention-based issues capability in Format Document only covers a fixed set of issues. You can change which issues are fixed in **Tools-Options** under **Text Editor > C# > Code Style > Formatting > General > Format Document Settings (Experiment)**. Notice that the default settings do not fix some style conventions. You can opt in to these via **Tools > options**. For example "Apply implicit/explicit type preferences" will run style rules about use of `var`.
+
+## Q. Which EditorConfig Conventions can Visual Studio IntelliCode infer?
+
+At present this feature is experimental, so we do not support the full set of conventions documented in the [code style settings reference](../editorconfig-code-style-settings-reference.md) yet.
+
+IntelliCode can currently infer the following conventions:
+
+Formatting conventions:
+
+-	csharp_space_between_method_declaration_parameter_list_parentheses
+-	csharp_space_between_method_declaration_empty_parameter_list_parentheses
+-	csharp_space_between_method_call_name_and_opening_parenthesis
+-	csharp_space_between_method_call_parameter_list_parentheses
+-	csharp_space_between_method_call_empty_parameter_list_parentheses
+-	csharp_space_after_keywords_in_control_flow_statements
+-	csharp_space_between_parentheses
+-	csharp_space_after_cast
+-	csharp_space_after_colon_in_inheritance_clause
+-	csharp_space_before_colon_in_inheritance_clause
+-	csharp_space_around_binary_operators
+-	csharp_indent_switch_labels
+-	csharp_indent_case_contents
+-	csharp_indent_case_contents_when_block
+-	csharp_indent_labels
+-	csharp_preserve_single_line_blocks
+-	csharp_preserve_single_line_statements
+-	csharp_new_line_before_open_brace
+-	csharp_new_line_before_else
+-	csharp_new_line_before_catch
+-	csharp_new_line_before_finally
+-	csharp_new_line_before_members_in_object_initializers
+-	csharp_new_line_before_members_in_anonymous_types
+-	csharp_new_line_between_query_expression_clauses
+
+Style Conventions
+-	csharp__new_line_before_catch
+-	csharp_new_line_before_else
+-	csharp_new_line_before_members_in_anonymous_types
+-	csharp_new_line_before_members_in_object_initializers
+-	csharp_new_line_before_finally_style
+-	csharp_new_line_between_query_expression_clauses
+-	csharp_prefer_braces_style
+-	csharp_preferred_modifier_order_style
+-	csharp_prefer_simple_default_expression
+-	csharp_preserve_single_line_blocks
+-	csharp_space_after_cast
+-	csharp_space_after_keywords_in_control_flow_statements
+-	csharp_space_between_method_call_parameter_list_parentheses
+-	csharp_space_between_method_declaration_parameter_list_parentheses
+-	csharp_space_between_parentheses
+-	csharp_style_expression_bodied_accessors
+-	csharp_style_expression_bodied_constructors
+-	csharp_style_expression_bodied_indexers
+-	csharp_style_expression_bodied_methods
+-	csharp_style_expression_bodied_operators
+-	csharp_style_expression_bodied_properties
+-	csharp_style_inlined_variable_declaration
+-	csharp_style_pattern_local_over_anonymous_function
+-	csharp_style_pattern_matching_over_as_with_null_check
+-	csharp_style_var_for_built_in_types
+-	csharp_style_var_when_type_is_apparent
+-	dotnet_sort_system_directives_first
+-	dotnet_style_explicit_tuple_names
+-	dotnet_style_object_initializer
+-	dotnet_style_predefined_type_for_locals_parameters_members
+-	dotnet_style_predefined_type_for_member_access
+-	dotnet_style_prefer_inferred_anonymous_type_member_names
+-	dotnet_style_qualification_for_event
+-	dotnet_style_qualification_for_field
+-	dotnet_style_qualification_for_method
+-	dotnet_style_qualification_for_property
+-	dotnet_style_require_accessibility_modifiers
+
+## Q. Are there other features coming to the Visual Studio IntelliCode extension?
+
+We're actively working on a number of capabilities that we're excited to share publicly as they become available. You can sign up for news and updates at [https://aka.ms/intellicode](https://aka.ms/intellicode) to be the first to know when we have new capabilities available.
 
 ## Q: What makes “AI-assisted IntelliSense” powered by IntelliCode better than regular IntelliSense?
 
@@ -64,7 +158,7 @@ The experience was shown at Build 2018 in Visual Studio 2017 on a C# codebase. H
 
 ## Q. <a name="whynointellisense"/> I can't see the IntelliCode suggestions in my C# editing experience - what's happening?
 
-IntelliCode suggestions appear in the standard Visual Studio IntelliSense experience for C#. Extensions that override that experience prevent the IntelliCode "starred" suggestions from appearing at the top of the list. You can verify if extensions are causing this behavior by turning them off and then trying IntelliSense again.
+IntelliCode suggestions appear in the standard Visual Studio IntelliSense UI for C#. Extensions that override that UI prevent the IntelliCode "starred" suggestions from appearing at the top of the list. You can verify if extensions are causing this behavior by turning them off and then trying IntelliSense again.
 
 If this doesn't solve the problem for you, please report your issue via the Visual Studio [Report a Problem](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017) feature, and mention IntelliCode in your report.
 

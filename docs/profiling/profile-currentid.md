@@ -17,7 +17,7 @@ ms.workload:
 The PROFILE_CURRENTID returns the pseudo-token for the thread ID or process ID, in a call to NameProfile, StartProfile, StopProfile, SuspendProfile, and ResumeProfile functions. Use it to cause the function to operate on the current thread or process, rather than a specifically indicated one.  
   
 ## Example  
- PROFILE_CURRENTID is defined in VSPerf.h as:  
+ PROFILE_CURRENTID is defined in *VSPerf.h* as:  
   
 ```cpp  
 static const unsigned int PROFILE_CURRENTID = (unsigned int)-1;  
@@ -53,8 +53,8 @@ void ExerciseProfileCurrentID()
 }  
 ```  
   
-## See Also  
- [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference-native.md)   
+## See also  
+ [Visual Studio profiler API reference (native)](../profiling/visual-studio-profiler-api-reference-native.md)   
  [NameProfile](../profiling/nameprofile.md)   
  [ResumeProfile](../profiling/resumeprofile.md)   
  [StartProfile](../profiling/startprofile.md)   

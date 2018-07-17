@@ -25,11 +25,11 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Creating an association between entities
+# Create an association between entities
   You can define relationships between entities in your Business Data Connectivity (BDC) model by creating associations. Visual Studio generates methods that provide consumers of the model with information about each association. These methods can be consumed by SharePoint web parts, lists, or custom applications to display data relationships in a user interface (UI).  
   
 ## Create an association
- Create an association by choosing the **Association** control in the Visual Studio **Toolbox**, choosing the first entity (called the source entity), and then choosing the second entity (called the destination entity). You can define the details of the association in the **Association Editor**. For more information, see [How to: Create an Association between Entities](../sharepoint/how-to-create-an-association-between-entities.md).  
+ Create an association by choosing the **Association** control in the Visual Studio **Toolbox**, choosing the first entity (called the source entity), and then choosing the second entity (called the destination entity). You can define the details of the association in the **Association Editor**. For more information, see [How to: Create an association between entities](../sharepoint/how-to-create-an-association-between-entities.md).  
   
 ## Association methods
  Applications such as SharePoint business data web parts consume associations by calling methods in the service class of an entity. You can add methods to the service class of an entity by selecting them in the **Association Editor**.  
@@ -74,7 +74,7 @@ ms.workload:
  [!code-vb[SP_BDC#10](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderdetailservice.vb#10)]  
   
 ## See also
- [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)   
- [How to: Create an Association between Entities](../sharepoint/how-to-create-an-association-between-entities.md)  
+ [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)   
+ [How to: Create an association between entities](../sharepoint/how-to-create-an-association-between-entities.md)  
   
  

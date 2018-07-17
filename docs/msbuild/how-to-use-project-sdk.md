@@ -12,7 +12,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Use MSBuild Project SDKs
+# How to: Use MSBuild project SDKs
+
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 15.0 introduced the concept of the "project SDK", which simplifies using software development kits that require properties and targets to be imported.
 
 ```xml
@@ -21,8 +22,8 @@ ms.workload:
         <TargetFramework>net46</TargetFramework>
     </PropertyGroup>
 </Project>
-```  
-  
+```
+
 During evaluation of the project, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] adds implicit imports at the top and bottom of your project:
 
 ```xml
@@ -36,30 +37,36 @@ During evaluation of the project, [!INCLUDE[vstecmsbuild](../extensibility/inter
 
     <!-- Implicit bottom import -->
     <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
-</Project>  
-```  
+</Project>
+```
 
-## Referencing a Project SDK
- There are three ways to reference a project SDK
+## Reference a project SDK
+
+ There are three ways to reference a project SDK:
 
 1. Use the `Sdk` attribute on the `<Project/>` element:
+
     ```xml
     <Project Sdk="My.Custom.Sdk">
         ...
     </Project>
     ```
+
     An implicit import is added to the top and bottom of the project as discussed above.  The format of the `Sdk` attribute is `Name[/Version]` where Version is optional.  For example, you can specify `My.Custom.Sdk/1.2.3`.
 
 2. Use the top-level `<Sdk/>` element:
+
     ```xml
     <Project>
         <Sdk Name="My.Custom.Sdk" Version="1.2.3" />
         ...
     </Project>
    ```
+
    An implicit import is added to the top and bottom of the project as discussed above.  The `Version` attribute is not required.
 
 3. Use the `<Import/>` element anywhere in your project:
+
     ```xml
     <Project>
         <PropertyGroup>
@@ -70,11 +77,13 @@ During evaluation of the project, [!INCLUDE[vstecmsbuild](../extensibility/inter
         <Import Project="Sdk.targets" Sdk="My.Custom.Sdk" />
     </Project>
    ```
+
    Explicitly including the imports in your project allows you full control over the order.
 
    When using the `<Import/>` element, you can specify an optional `Version` attribute as well.  For example, you can specify `<Import Project="Sdk.props" Sdk="My.Custom.Sdk" Version="1.2.3" />`.
 
-## How Project SDKs are Resolved
+## How project SDKs are resolved
+
 When evaluating the import, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] dynamically resolves the path to the project SDK based on the name and version you specified.  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] also has a list of registered SDK resolvers which are plug-ins that locate project SDKs on your machine.  These plug-ins include:
 
 1. A NuGet-based resolver that queries your configured package feeds for NuGet packages that match the ID and version of the SDK you specified.<br/>
@@ -93,8 +102,12 @@ The NuGet-based SDK resolver supports specifying a version in your [global.json]
     }
 }
 ```
-Only one version of each project SDK can be used during a build.  If you are referencing two different versions of the same project SDK, MSBuild will emit a warning.  It is recommended to **not** specify a version in your projects if a version is specified in your `global.json`.  
 
-## See Also  
- [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
- [Customize Your Build](../msbuild/customize-your-build.md)   
+Only one version of each project SDK can be used during a build.  If you are referencing two different versions of the same project SDK, MSBuild will emit a warning.  It is recommended to **not** specify a version in your projects if a version is specified in your *global.json*.  
+
+## See also
+
+ [MSBuild concepts](../msbuild/msbuild-concepts.md)   
+ [Customize your build](../msbuild/customize-your-build.md)   
+ [Packages, metadata, and frameworks](/dotnet/core/packages)   
+ [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj)

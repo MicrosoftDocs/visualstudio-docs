@@ -19,25 +19,25 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Localize Code
+# How to: Localize code
   Unlocalized code uses hard-coded string values. To localize code strings, replace them with calls to <xref:System.Web.HttpContext.GetGlobalResourceObject%2A>, which is a method that references localized resources.  
   
-## Localizing Code  
+## Localize code  
   
 #### To localize code  
   
-1.  In **Solution Explorer**, open the shortcut menu for a project item, and then choose **Add**, **Module**.  
+1.  In **Solution Explorer**, open the shortcut menu for a project item, and then choose **Add** > **Module**.  
   
      Choose the **Resources File** template.  
   
     > [!NOTE]  
     >  Be sure to add the resource file to a SharePoint project item so that the Deployment Type property is available. This property is required later in this procedure.  
   
-2.  Give the default language resource file a name of your choice appended with a .resx extension, such as MyAppResources.resx.  
+2.  Give the default language resource file a name of your choice appended with a *.resx* extension, such as *MyAppResources.resx*.  
   
 3.  Repeat steps 1 and 2 to add separate resource files to the SharePoint project item: one for each localized language.  
   
-     Use the same base name for each localized resource file, but add the culture ID. For example, name a German localized resource MyAppResources.de-DE.resx.  
+     Use the same base name for each localized resource file, but add the culture ID. For example, name a German localized resource *MyAppResources.de-DE.resx*.  
   
 4.  Open each resource file and add localized strings. Use the same string IDs in each file.  
   
@@ -51,7 +51,7 @@ ms.workload:
   
 8.  In the **Package Designer**, choose the **Advanced** tab, and then add the satellite assembly.  
   
-9. In the **Location** box, prepend a culture ID folder to the Location path, such as de-DE\\*Project Item Name*.resources.dll.  
+9. In the **Location** box, prepend a culture ID folder to the Location path, such as *de-DE\\\<Project Item Name>.resources.dll*.  
   
 10. If your solution does not already reference the System.Web assembly, add a reference to it, and add a directive in your code to <xref:System.Web>.  
   
@@ -61,16 +61,15 @@ ms.workload:
     HttpContext.GetGlobalResourceObject("Resource File Name", "String ID")  
     ```  
   
-12. Choose the F5 key to build and run the application.  
+12. Choose the **F5** key to build and run the application.  
   
 13. In SharePoint, change the display language from the default.  
   
      The localized strings appear in the application. To display localized resources, the SharePoint server must have a language pack installed that matches the resource file's culture.  
   
-## See Also  
- [Localizing SharePoint Solutions](../sharepoint/localizing-sharepoint-solutions.md)   
- [How to: Localize a Feature](../sharepoint/how-to-localize-a-feature.md)   
- [How to: Localize ASPX Markup](../sharepoint/how-to-localize-aspx-markup.md)   
- [How to: Add a Resource File](../sharepoint/how-to-add-a-resource-file.md)  
-  
-  
+## See also
+ [Localize SharePoint solutions](../sharepoint/localizing-sharepoint-solutions.md)   
+ [How to: Localize a feature](../sharepoint/how-to-localize-a-feature.md)   
+ [How to: Localize ASPX markup](../sharepoint/how-to-localize-aspx-markup.md)   
+ [How to: Add a resource file](../sharepoint/how-to-add-a-resource-file.md)  
+

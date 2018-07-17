@@ -19,19 +19,19 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;publisherIdentity&gt; Element (ClickOnce Deployment)
+# &lt;publisherIdentity&gt; element (ClickOnce deployment)
 Contains information about the publisher that signed this deployment manifest.  
   
 ## Syntax  
   
-```  
+```xml  
 <publisherIdentity  
    name  
    issuerKeyHash  
 />  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `publisherIdentity` element is required for signed manifests. The following table shows the attributes that the `publisherIdentity` element supports.  
   
 |Attribute|Description|  
@@ -41,7 +41,7 @@ Contains information about the publisher that signed this deployment manifest.
   
 #### Parameters  
   
-## Property Value/Return Value  
+## Property value/return value  
   
 ## Exceptions  
   

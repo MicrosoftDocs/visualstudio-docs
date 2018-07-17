@@ -1,6 +1,6 @@
 ---
-title: "Install test agents and test controllers for Visual Studio"
-ms.date: 03/02/2018
+title: "Install test agents and test controllers"
+ms.date: 07/06/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Install test agents and test controllers
 
-For test scenarios that use Visual Studio and Visual Studio Team Services (VSTS) or Team Foundation Server (TFS), you do not need a test controller. Agents for Visual Studio handle orchestration by communicating with VSTS or TFS. A scenario could be that you run continuous tests for build and release workflows in VSTS or TFS.
+For test scenarios that use Visual Studio and Visual Studio Team Services (VSTS) or Team Foundation Server (TFS), you don't need a test controller. Agents for Visual Studio handle orchestration by communicating with VSTS or TFS. A scenario could be that you run continuous tests for build and release workflows in VSTS or TFS.
 
 You might also consider if it's better to use [build or release management](use-build-or-rm-instead-of-lab-management.md) instead of lab management.
 
@@ -22,15 +22,15 @@ You might also consider if it's better to use [build or release management](use-
 
 | Item | Requirements |
 | ---- | ------------ |
-| **Agent** | Windows 10<br />Windows 8, Windows 8.1<br />Windows 7 Service Pack 1<br />Windows XP Service Pack 3<br />Windows Server 2012, Windows Server 2012 R2<br />Windows Server 2008 Release 2, Service Pack 1 |
-| **Controller** | Windows 10<br />Windows 8, Windows 8.1<br />Windows 7 Service Pack 1<br />Windows Server 2012, Windows Server 2012 R2<br />Windows Server 2008 Release 2, Service Pack 1 |
+| **Agent** | Windows 10<br />Windows 8, Windows 8.1<br />Windows 7 Service Pack 1<br />Windows Server 2016 Standard and Datacenter<br />Windows Server 2012, Windows Server 2012 R2 |
+| **Controller** | Windows 10<br />Windows 8, Windows 8.1<br />Windows 7 Service Pack 1<br />Windows Server 2016 Standard and Datacenter<br />Windows Server 2012, Windows Server 2012 R2 |
 | **.NET Framework** | .NET Framework 4.5 |
 
 ## Install the test controller and test agents
 
-You can download agents for Visual Studio 2017 from [visualstudio.com](https://www.visualstudio.com/downloads/?q=agents). Scroll to the bottom of the page, and look for *Agents for Visual Studio 2017*. Select either *Agent* or *Controller*, and then choose *Download*. Run the downloaded executable to install the test agent or controller.
+You can download agents for Visual Studio 2017 from [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/?q=agents). Scroll to the bottom of the page, and look for *Agents for Visual Studio 2017*. Select either *Agent* or *Controller*, and then choose *Download*. Run the downloaded executable to install the test agent or controller.
 
-You can download agents for Visual Studio 2015 and Visual Studio 2013 from the [older downloads](https://www.visualstudio.com/vs/older-downloads/) page.
+You can download agents for Visual Studio 2015 and Visual Studio 2013 from the [older downloads](https://visualstudio.microsoft.com/vs/older-downloads/) page.
 
 These installers are available as ISO files for easy installation on virtual machines.
 

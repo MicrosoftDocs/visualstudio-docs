@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Exec Task
+# Exec task
 Runs the specified program or command by using the specified arguments.  
   
 ## Parameters  
@@ -29,7 +29,7 @@ Runs the specified program or command by using the specified arguments.
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`Command`|Required `String` parameter.<br /><br /> The command(s) to run. These can be system commands, such as attrib, or an executable, such as program.exe, runprogram.bat, or setup.msi.<br /><br /> This parameter can contain multiple lines of commands. Alternatively, you can put multiple commands in a batch file and run it by using this parameter.|  
+|`Command`|Required `String` parameter.<br /><br /> The command(s) to run. These can be system commands, such as attrib, or an executable, such as *program.exe*, *runprogram.bat*, or *setup.msi*.<br /><br /> This parameter can contain multiple lines of commands. Alternatively, you can put multiple commands in a batch file and run it by using this parameter.|  
 |`ConsoleOutput`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Each item output is a line from the standard output or standard error stream emitted by the tool. This is only captured if `ConsoleToMsBuild` is set to `true`.|
 |`ConsoleToMsBuild`|Optional `Boolean` parameter.<br /><br /> If `true`, the task will capture the standard error and standard output of the tool and make them available in the `ConsoleOutput` output parameter. The default value is `false`.|
 |`CustomErrorRegularExpression`|Optional `String` parameter.<br /><br /> Specifies a regular expression that is used to spot error lines in the tool output. This is useful for tools that produce unusually formatted output.|  
@@ -46,9 +46,9 @@ Runs the specified program or command by using the specified arguments.
 ## Remarks  
  This task is useful when a specific [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] task for the job that you want to perform is not available. However, the `Exec` task, unlike a more specific task, cannot do additional processing or conditional operations based on the result of the tool or command that it runs.
   
- The `Exec` task calls cmd.exe instead of directly invoking a process.  
+ The `Exec` task calls *cmd.exe* instead of directly invoking a process.  
   
- In addition to the parameters listed in this document, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension Base Class](../msbuild/tooltaskextension-base-class.md).  
+ In addition to the parameters listed in this document, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).  
   
 ## Example  
  The following example uses the `Exec` task to run a command.  
@@ -67,6 +67,6 @@ Runs the specified program or command by using the specified arguments.
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)

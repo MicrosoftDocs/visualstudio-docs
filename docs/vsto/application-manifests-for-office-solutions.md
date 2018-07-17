@@ -93,7 +93,7 @@ ms.workload:
  An application manifest is specific to a single version of a solution. For this reason, application manifests should be stored separately from deployment manifests. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] places the version-specific files in a subdirectory named after the associated version in the *Application Files* subdirectory in the publish folder.  
   
 ## File name syntax  
- The name of an application manifest file should be the full name and extension of the application as identified in the **assemblyIdentity** element, followed by the extension .manifest. For example, an application manifest that refers to the *OutlookAddIn1.dll* customization would use the following file name syntax.  
+ The name of an application manifest file should be the full name and extension of the application as identified in the **assemblyIdentity** element, followed by the extension *.manifest*. For example, an application manifest that refers to the *OutlookAddIn1.dll* customization would use the following file name syntax.  
   
  `OutlookAddIn1.dll.manifest`  
   

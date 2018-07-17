@@ -33,5 +33,5 @@ By using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Too
 ## Related sections  
  [Control data collection](../profiling/controlling-data-collection.md)  
   
-## See Also  
+## See also  
  [Performance Explorer](../profiling/performance-explorer.md)

@@ -1,5 +1,5 @@
 ---
-title: "Password Protection on Office Documents | Microsoft Docs"
+title: "Password protection on Office documents"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 

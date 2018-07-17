@@ -14,10 +14,10 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Use Reserved XML Characters in Project Files
+# How to: Use reserved XML characters in project files
 When you author project files, you might need to use reserved XML characters, for example, in property values or in task parameter values. However, some reserved characters must be replaced by a named entity so that the project file can be parsed.  
   
-## Using Reserved Characters  
+## Use reserved characters  
  The following table describes the reserved XML characters that must be replaced by the corresponding named entity so that the project file can be parsed.  
   
 |Reserved character|Named entity|  
@@ -66,6 +66,6 @@ When you author project files, you might need to use reserved XML characters, fo
 </Project>  
 ```  
   
-## See Also  
- [MSBuild Reference](../msbuild/msbuild-reference.md)    
+## See also  
+ [MSBuild reference](../msbuild/msbuild-reference.md)    
  [MSBuild](../msbuild/msbuild.md)    
