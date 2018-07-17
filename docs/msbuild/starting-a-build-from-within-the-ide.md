@@ -21,7 +21,7 @@ Custom project systems must use <xref:Microsoft.VisualStudio.Shell.Interop.IVsBu
   
  If the project system modifies environment variables, it must set the NodeAffinity of the build to OutOfProc. This means that you cannot use host objects, since they require the in-proc node.  
   
-#### Use IVSBuildManagerAccessor  
+## Use IVSBuildManagerAccessor  
  The code below outlines a method that a project system can use to start a build:  
   
 ```csharp
