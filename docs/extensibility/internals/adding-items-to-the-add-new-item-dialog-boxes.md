@@ -15,16 +15,16 @@ ms.workload:
   - "vssdk"
 ---
 # Add items to the Add New Item dialog box
-The process for adding items to the **Add New Item** dialog box starts with the registry keys. As shown in the following registry entries, the **AddItemTemplates** section contains the path of and name of the directory in which items made available in the **Add New Item** dialog box are put.  
+The process for adding items to the **Add New Item** dialog box starts with the registry keys. As shown in the following registry entries, the **AddItemTemplates** section contains the path and name of the directory in which items made available in the **Add New Item** dialog box are put.  
   
 > [!NOTE]
 >  The table immediately following the code segment contains additional information about the registry entry.  
   
- This section is located under **[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0Exp\Projects]**.  
+ This section is located under **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\14.0Exp\Projects**.
   
  The first GUID is the CLSID for projects of this type; the second GUID indicates the registered project type for the Add Items templates:  
  
- **\\{C061DB26-5833-11D2-96F5-000000000000}\\AddItemTemplates\\TemplateDirs\\{ACEF4EB2-57CF-11D2-96F4-000000000000}\\1**
+ **\\{C061DB26-5833-11D2-96F5-000000000000}\\AddItemTemplates\\TemplatesDir\\{ACEF4EB2-57CF-11D2-96F4-000000000000}\\1**
   
  **@** = #6 
   
@@ -43,7 +43,7 @@ The process for adding items to the **Add New Item** dialog box starts with the 
 - [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)]: {FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}
 - [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]: {F184B08F-C81C-45F6-A57F-5ABD9991F28F}  
   
- The directory listed for **TemplateDirs**, which is *%TEMPLATE_PATH%\<SomeProjectItems>*, is the node on the left side of the **Add New Item** dialog box tree. Additional elements in the tree are based on the subdirectory within that root directory. The files available to be added to the project are the items in the right pane of the **Add New Item** dialog box.  
+ The directory listed for **TemplatesDir**, which is *%TEMPLATE_PATH%\<SomeProjectItems>*, is the node on the left side of the **Add New Item** dialog box tree. Additional elements in the tree are based on the subdirectory within that root directory. The files available to be added to the project are the items in the right pane of the **Add New Item** dialog box.  
   
  Typically, this folder will contain the template files for your project such as a template HTML or *.cpp* file, and any *.vsz* files for starting wizards. To control how the items are displayed, you can also include *.vsdir* files for localizing directory names and icons. The localized string is the caption that appears in the dialog box that represents this node in the **Add New Item** dialog box tree.  
   
