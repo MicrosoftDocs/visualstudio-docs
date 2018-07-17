@@ -20,7 +20,7 @@ Visual Studio 2017 includes a core set of .NET Compiler Platform (*Roslyn*) anal
 
 ## To install NuGet analyzer packages
 
-1. [Determine which analyzer package version](analyzer-package-versions.md) to install, based on your version of Visual Studio.
+1. [Determine which analyzer package version](#analyzer-package-versions) to install, based on your version of Visual Studio.
 
 1. Install the package in Visual Studio, using either the [Package Manager Console](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console) or the [Package Manager UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console).
 
@@ -32,6 +32,21 @@ Visual Studio 2017 includes a core set of .NET Compiler Platform (*Roslyn*) anal
    The analyzer assemblies are installed and appear in **Solution Explorer** under **References** > **Analyzers**.
 
    ![Analyzers node in Solution Explorer](media/solution-explorer-analyzers-node.png)
+
+### Analyzer package versions
+
+Use the following guidelines to determine the version of analyzer packages to install for a given version of Visual Studio.
+
+|Visual Studio version|Analyzer package version|
+|-|-|
+|Visual Studio 2017 version 15.5 and later|2.6.1, for example https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/2.6.1|
+|Visual Studio 2017 version 15.3 to 15.4|2.3.0-beta1, for example https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/2.3.0-beta1|
+|Visual Studio 2017 version 15.0 to 15.2|2.0.0-beta2, for example https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/2.0.0-beta2|
+|Visual Studio 2015 update 2 and 3|Version 1.2.0-beta2, for example https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/1.2.0-beta2|
+|Visual Studio 2015 Update 1|Version 1.1.0, for example https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/1.1.|
+|Visual Studio 2015 RTW|Version 1.0.1, for example https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/1.0.1|
+
+On Visual Studio 2017 version 15.5 and later, you can also install a custom [Microsoft code analysis VSIX extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017) that contains all of the analyzers for managed projects.
 
 ## To install VSIX analyzers
 
