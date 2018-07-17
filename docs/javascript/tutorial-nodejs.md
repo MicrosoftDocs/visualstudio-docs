@@ -71,7 +71,7 @@ In this tutorial, you begin with a simple project containing code for a Node.js 
 
     Visual Studio creates the new solution and opens your project in the right pane. The *app.js* project file opens in the editor (left pane).
 
-    ![Project structure](../nodejs/media/tutorial-project-structure.png)
+    ![Project structure](../javascript/media/tutorial-project-structure.png)
 
     (1) Highlighted in **bold** is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, because the project file does not make custom changes to the Node.js project source.
 
@@ -154,11 +154,11 @@ IntelliSense is a Visual Studio tool that assists you as you write code.
 
 1. Put your cursor after the `data` string, type `: get` and IntelliSense will show you the `getData` function defined earlier in the code. Select `getData`.
 
-    ![Use IntelliSense](../nodejs/media/tutorial-nodejs-intellisense.png)
+    ![Use IntelliSense](../javascript/media/tutorial-nodejs-intellisense.png)
 
 1. Remove the comma (`,`) before `"data"` and you see green syntax highlighting on the expression. Hover over the syntax highlighting.
 
-    ![View syntax error](../nodejs/media/tutorial-nodejs-syntax-checking.png)
+    ![View syntax error](../javascript/media/tutorial-nodejs-syntax-checking.png)
 
     The last line of this message tells you that the JavaScript interpreter expected a comma (`,`).
 
@@ -166,7 +166,7 @@ IntelliSense is a Visual Studio tool that assists you as you write code.
 
     You see the warning and description along with the filename and line number.
 
-    ![View error list](../nodejs/media/tutorial-nodejs-error-list.png)
+    ![View error list](../javascript/media/tutorial-nodejs-error-list.png)
 
 1. Fix the code by adding the comma (`,`) before `"data"`.
 
@@ -182,13 +182,13 @@ You're next going to run the app with the Visual Studio debugger attached. Befor
 
     Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
 
-    ![Set a breakpoint](../nodejs/media/tutorial-nodejs-set-breakpoint.png)
+    ![Set a breakpoint](../javascript/media/tutorial-nodejs-set-breakpoint.png)
 
 ## Run the application
 
 1. Select the debug target in the Debug toolbar.
 
-    ![Select the debug target](../nodejs/media/tutorial-nodejs-deploy-target.png)
+    ![Select the debug target](../javascript/media/tutorial-nodejs-deploy-target.png)
 
 1. Press **F5** (**Debug** > **Start Debugging**) to run the application.
 
@@ -196,7 +196,7 @@ You're next going to run the app with the Visual Studio debugger attached. Befor
 
 1. Hover over `getData` to see its properties in a DataTip
 
-    ![Inspect variables](../nodejs/media/tutorial-nodejs-inspect-variables.png)
+    ![Inspect variables](../javascript/media/tutorial-nodejs-inspect-variables.png)
 
 1. Press **F5** (**Debug** > **Continue**) to continue.
 
@@ -206,7 +206,7 @@ You're next going to run the app with the Visual Studio debugger attached. Befor
 
 1. Click the buttons to display different images.
 
-    ![App running in browser](../nodejs/media/tutorial-nodejs-running-in-browser.png)
+    ![App running in browser](../javascript/media/tutorial-nodejs-running-in-browser.png)
 
 1. Close the web browser.
 
@@ -214,7 +214,7 @@ You're next going to run the app with the Visual Studio debugger attached. Befor
 
 1. In Solution Explorer, right-click the project and choose **Publish**.
 
-   ![Publish to Azure App Service](../nodejs/media/tutorial-nodejs-publish-to-azure.png)
+   ![Publish to Azure App Service](../javascript/media/tutorial-nodejs-publish-to-azure.png)
 
 1. Choose **Microsoft Azure App Service**.
 
@@ -226,7 +226,7 @@ You're next going to run the app with the Visual Studio debugger attached. Befor
 
     On successful deployment, your app opens in a browser running in Azure App Service. Click a button to display an image.
 
-   ![App running in Azure App Service](../nodejs/media/tutorial-nodejs-running-in-azure.png)
+   ![App running in Azure App Service](../javascript/media/tutorial-nodejs-running-in-azure.png)
 
 Congratulations on completing this tutorial!
 
