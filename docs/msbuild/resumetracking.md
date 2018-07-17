@@ -31,7 +31,7 @@ HRESULT WINAPI ResumeTracking();
  An **HRESULT** with the **SUCCEEDED** bit set if tracking was resumed. **E_FAIL** is returned if tracking cannot be resumed because the context was not available.  
   
 ## Requirements  
- **Header:** FileTracker.h  
+ **Header:** *FileTracker.h*  
   
 ## See also  
  [SuspendTracking](../msbuild/suspendtracking.md)

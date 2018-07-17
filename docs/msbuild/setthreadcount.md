@@ -35,4 +35,4 @@ HRESULT WINAPI SetThreadCount(int threadCount);
  An **HRESULT** with the **SUCCEEDED** bit set if the thread count was updated.  
   
 ## Requirements  
- **Header:** FileTracker.h
+ **Header:** *FileTracker.h*
