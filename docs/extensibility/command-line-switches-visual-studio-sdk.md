@@ -16,16 +16,16 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Command-Line Switches (Visual Studio SDK)
-Devenv.exe, the executable that starts the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE), supports command-line switches specifically for development of VSPackages. VSPackages can also make their own switches available at the Devenv command line. The following topics provide information about how to use command-line switches in the IDE.  
+# Command-line switches (Visual Studio SDK)
+*Devenv.exe*, the executable that starts the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE), supports command-line switches specifically for development of VSPackages. VSPackages can also make their own switches available at the Devenv command line. The following topics provide information about how to use command-line switches in the IDE.  
   
-## In This Section  
- [Devenv Command-Line Switches for VSPackage Development](../extensibility/devenv-command-line-switches-for-vspackage-development.md)  
+## In this section  
+ [Devenv command-line switches for VSPackage Ddevelopment](../extensibility/devenv-command-line-switches-for-vspackage-development.md)  
  Describes the Devenv command-line switches you can use to simplify VSPackage development, debugging, and deployment.  
   
- [Adding Command-Line Switches](../extensibility/adding-command-line-switches.md)  
+ [Add command-line switches](../extensibility/adding-command-line-switches.md)  
  Describes how to implement, look for, and read user-entered command-line switches for your package.  
   
-## Related Sections  
- [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)  
+## Related sections  
+ [Devenv command-line switches](../ide/reference/devenv-command-line-switches.md)  
  Explains how Devenv lets you set various options for the IDE, and how you can compile, build, and debug projects from the command line. Additionally, there is information about the syntax of Devenv switches and a table of switches.

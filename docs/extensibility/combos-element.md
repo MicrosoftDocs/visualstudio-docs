@@ -15,8 +15,8 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Combos Element
-Groups [Combo Element](../extensibility/combo-element.md) elements.  
+# Combos element
+Groups [Combo element](../extensibility/combo-element.md) elements.  
   
 ## Syntax  
   
@@ -27,27 +27,27 @@ Groups [Combo Element](../extensibility/combo-element.md) elements.
 </Combos>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|Condition|Optional. See [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
+|Condition|Optional. See [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
   
 ### Child Elements  
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Combos Element](../extensibility/combos-element.md)|Groups Combo elements.|  
-|[Combo Element](../extensibility/combo-element.md)|Defines the commands that appear in a combo box.|  
+|[Combos element](../extensibility/combos-element.md)|Groups Combo elements.|  
+|[Combo element](../extensibility/combo-element.md)|Defines the commands that appear in a combo box.|  
   
 ### Parent Elements  
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Commands Element](../extensibility/commands-element.md)|Represents the collection of commands on the VSPackage toolbar.|  
+|[Commands element](../extensibility/commands-element.md)|Represents the collection of commands on the VSPackage toolbar.|  
   
 ## Example  
   
@@ -73,6 +73,6 @@ Groups [Combo Element](../extensibility/combo-element.md) elements.
 </Combos>  
 ```  
   
-## See Also  
- [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
- [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
+## See also  
+ [How VSPackages add user interface elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
+ [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
