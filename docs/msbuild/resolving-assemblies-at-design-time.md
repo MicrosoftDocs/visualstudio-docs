@@ -17,12 +17,12 @@ ms.workload:
 When you add a reference to an assembly through the **.NET** tab of the **Add Reference** dialog, the reference points to an intermediate reference assembly; that is, an assembly that contains all the type and signature information, but that doesn't necessarily contain any code. The **.NET** tab lists reference assemblies that correspond to runtime assemblies in the .NET Framework. In addition, it lists reference assemblies that correspond to runtime assemblies in the registered AssemblyFoldersEx folders that are used by third parties.  
   
 ## Multi-targeting  
- [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] lets you target versions of the .NET Framework that run either on the Common Language Runtime (CLR) version 2.0 or version 4. This includes .NET Framework versions 2.0, 3.0, 3.5, 4, 4.5, and 4.5.1, and Silverlight versions 1.0, 2.0, and 3.0. If a new .NET Framework version that is based on CLR version 2.0 or version 4 is released, the Framework can be installed by using a targeting pack, and it will automatically show up as a target in Visual Studio.  
+ [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)] lets you target versions of the .NET Framework that run either on the Common Language Runtime (CLR) version 2.0 or version 4. These versions include .NET Framework versions 2.0, 3.0, 3.5, 4, 4.5, and 4.5.1, and Silverlight versions 1.0, 2.0, and 3.0. If a new .NET Framework version that is based on CLR version 2.0 or version 4 is released, the Framework can be installed by using a targeting pack, and it will automatically show up as a target in Visual Studio.  
   
 ## How type resolution works  
  At runtime, the CLR resolves the types in the assembly by looking in the GAC, the *bin* directory, and in any probing paths. This is handled by the fusion loader. But, how does the fusion loader know what it is looking for? This depends on a resolution made at design time, when the application is built.  
   
- During the build, the compiler resolves application types by using reference assemblies. In .NET Framework versions 2.0, 3.0, 3.5, 4, 4.5, and 4.5.1, the reference assemblies are installed when the .NET Framework is installed.  
+ During the build, the compiler resolves application types by using reference assemblies. In .NET Framework versions 2.0, 3.0, 3.5, 4, 4.5, and 4.5.1, the reference assemblies install when the .NET Framework installs.  
   
  The reference assemblies are supplied by the targeting pack that ships with the corresponding version of the .NET Framework SDK. The Framework itself provides only the runtime assemblies. In order to build applications, you need to install both the .NET Framework and the corresponding .NET Framework SDK.  
   

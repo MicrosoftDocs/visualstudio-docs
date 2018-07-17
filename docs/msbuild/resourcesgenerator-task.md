@@ -27,8 +27,8 @@ The <xref:Microsoft.Build.Tasks.Windows.ResourcesGenerator> task embeds one or m
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`OutputPath`|Required **String** parameter.<br /><br /> Specifies the path of the output directory. If the path is not an absolute path, it is treated as a path that is relative to the root project directory.|  
-|`OutputResourcesFile`|Required **ITaskItem[]** output parameter.<br /><br /> Specifies the path and name of the generated *.resources* file. If the path is not an absolute path, the *.resources* file is generated relative to the root project directory.|  
+|`OutputPath`|Required **String** parameter.<br /><br /> Specifies the path of the output directory. If the path isn't an absolute path, it's treated as a path that is relative to the root project directory.|  
+|`OutputResourcesFile`|Required **ITaskItem[]** output parameter.<br /><br /> Specifies the path and name of the generated *.resources* file. If the path isn't an absolute path, the *.resources* file is generated relative to the root project directory.|  
 |`ResourcesFiles`|Required **ITaskItem[]** parameter.<br /><br /> Specifies one or more resources to embed in the generated *.resources* file.|  
   
 ## Example  
