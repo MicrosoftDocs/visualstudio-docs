@@ -78,6 +78,6 @@ Here's how to assign a Visual Studio subscriptions license to to a new user so t
 
   If the template contains errors, the upload will fail, and you will be shown the errors so that you can correct the template and attempt the bulk upload again.
 
-    <img alt="Upload fail" src="_img\assign-license-add\bulk-assign-upload-fail.png" style="border: 1px solid #CCCCCC" />
+   <img alt="Upload fail" src="_img\assign-license-add\bulk-assign-upload-fail.png" style="border: 1px solid #CCCCCC" />
 
 When the upload is successful, you'll see the list of subscribers and a confirmation message.
