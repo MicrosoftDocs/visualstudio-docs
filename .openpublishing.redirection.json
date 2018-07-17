@@ -5715,6 +5715,11 @@
             "source_path": "connected-environment/troubleshooting.md",
             "redirect_url": "/azure/dev-spaces/troubleshooting",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "mac/benefits-vsmac-over-xs.md",
+            "redirect_url": "/visualstudio/mac/",
+            "redirect_document_id": false
         }
 
     ]
