@@ -2895,6 +2895,11 @@
             "source_path": "connected-environment/troubleshooting.md",
             "redirect_url": "/azure/dev-spaces/troubleshooting",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/cross-platform/overview-of-visual-studio-tools-for-unity.md",
+            "redirect_url": "/visualstudio/cross-platform/visual-studio-tools-for-unity,
+            "redirect_document_id": false
         }
 
     ]
