@@ -13,9 +13,9 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Add Counters to Counter Sets Using the Load Test Editor
+# How to: Add counters to counter sets using the Load Test Editor
 
-When you create a load test with the **Load Test Wizard**, you add an initial set of counters. These offer you a set of predefined counter sets for your load test. For more information, see [Specifying the Counter Sets and Threshold Rules for Computers in a Load Test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md).
+When you create a load test with the **Load Test Wizard**, you add an initial set of counters. These offer you a set of predefined counter sets for your load test. For more information, see [Specify the counter sets and threshold rules for computers in a load test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md).
 
 > [!NOTE]
 > If your load tests are distributed across remote machines, controller and agent counters are mapped to the controller and agent counter sets. For more information about how to use remote machines in your load test, see [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md).
@@ -55,9 +55,9 @@ When you create a load test with the **Load Test Wizard**, you add an initial se
 7.  Choose **OK**.
 
     > [!NOTE]
-    > It is also possible to add counters to a counter set by right choosing an existing counter or counter category, choosing copy, and then pasting it to a different counter set node. Extra counters that are copied, but not needed, can be deleted.
+    > It is also possible to add counters to a counter set by  choosing an existing counter or counter category, choosing copy, and then pasting it to a different counter set node. Extra counters that are copied, but not needed, can be deleted.
 
 ## See also
 
-- [Specifying the Counter Sets and Threshold Rules for Computers in a Load Test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md)
-- [Configuring Load Test Run Settings](../test/configure-load-test-run-settings.md)
+- [Specify the counter sets and threshold rules for computers in a load test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md)
+- [Configure load test run settings](../test/configure-load-test-run-settings.md)

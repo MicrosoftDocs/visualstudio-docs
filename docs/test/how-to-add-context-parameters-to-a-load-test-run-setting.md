@@ -12,12 +12,12 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Add Context Parameters to a Load Test Run Setting
+# How to: Add context parameters to a load test run setting
 
 After you create your load test by using the **New Load Test Wizard**, you can use the **Load Test Editor** to change the scenarios properties to meet your testing needs and goals.
 
 > [!NOTE]
-> For a full list of the run settings properties and their descriptions, see [Load Test Run Settings Properties](../test/load-test-run-settings-properties.md).
+> For a full list of the run settings properties and their descriptions, see [Load test run settings properties](../test/load-test-run-settings-properties.md).
 
 You can create context parameters to use in a load test run setting by using the Load Test Editor. Context parameters let you parameterize a string.
 
@@ -58,7 +58,7 @@ Additionally, by assigning different values to a context parameter by using the 
 
      If the run setting already contains a **Context Parameters** folder, you can right-click it and then choose **Add Context Parameter**.
 
-4.  In the Properties window, change the value for **Name** as appropriate (for example, WebServer1). In the Properties window, change **Value** to the parameter that you want to use (for example, `http://CorporateStagingWebServer`).
+4.  In the **Properties** window, change the value for **Name** as appropriate (for example, WebServer1). In the **Properties** window, change **Value** to the parameter that you want to use (for example, `http://CorporateStagingWebServer`).
 
 5.  (Optional) Repeat steps 3 through 5 and use a different string for the **Value** property (for example, `http://CorporateProductionWebServer`).
 
@@ -66,4 +66,4 @@ Additionally, by assigning different values to a context parameter by using the 
 
 ## See also
 
-- [Configuring Load Test Run Settings](../test/configure-load-test-run-settings.md)
+- [Configure load test run settings](../test/configure-load-test-run-settings.md)
