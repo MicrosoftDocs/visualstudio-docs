@@ -12,9 +12,9 @@ ms.workload:
 ---
 # Update an existing application for MSBuild 15
 
-In versions of MSBuild prior to 15.0, MSBuild was loaded from the Global Assembly Cache (GAC) and MSBuild extensions were installed in the registry. This ensured that all applications used the same version of MSBuild and had access to the same Toolsets, but prevented side-by-side installations of different versions of Visual Studio.
+In versions of MSBuild prior to 15.0, MSBuild was loaded from the Global Assembly Cache (GAC) and MSBuild extensions were installed in the registry. This ensured all applications used the same version of MSBuild and had access to the same Toolsets, but prevented side-by-side installations of different versions of Visual Studio.
 
-To support faster, smaller, and side-by-side installation, Visual Studio 2017 no longer places MSBuild in the GAC or modifies the registry. Unfortunately, this means that applications that wish to use the MSBuild API to evaluate or build projects cannot implicitly rely on the Visual Studio installation.
+To support faster, smaller, and side-by-side installation, Visual Studio 2017 no longer places MSBuild in the GAC or modifies the registry. Unfortunately, this means that applications that wish to use the MSBuild API to evaluate or build projects can't implicitly rely on the Visual Studio installation.
 
 ## Use MSBuild from Visual Studio
 
@@ -51,7 +51,7 @@ For example, you can use this XML:
 
 #### Use extension assemblies
 
-If you can't use NuGet packages, you can reference MSBuild assemblies that are distributed with Visual Studio. If you reference MSBuild directly, ensure that it will not be copied to your output directory by setting `Copy Local` to `False`. In the project file, this setting will look like the following code:
+If you can't use NuGet packages, you can reference MSBuild assemblies that are distributed with Visual Studio. If you reference MSBuild directly, ensure that it won't be copied to your output directory by setting `Copy Local` to `False`. In the project file, this setting will look like the following code:
 
 ```xml
     <Reference Include="Microsoft.Build, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -61,11 +61,11 @@ If you can't use NuGet packages, you can reference MSBuild assemblies that are d
 
 #### Binding redirects
 
-Reference the Microsoft.Build.Locator package to automatically ensure that your application uses the required binding redirects of all versions of MSBuild assemblies to version `15.1.0.0`.
+Reference the Microsoft.Build.Locator package to ensure that your application automatically uses the required binding redirects of all versions of MSBuild assemblies to version `15.1.0.0`.
 
 ### Ensure output is clean
 
-Build your project and inspect the output directory to make sure that it does not contain any *Microsoft.Build.\*.dll* assemblies other than *Microsoft.Build.Locator.dll*, added in the next step.
+Build your project and inspect the output directory to make sure that it doesn't contain any *Microsoft.Build.\*.dll* assemblies other than *Microsoft.Build.Locator.dll*, added in the next step.
 
 ### Add package reference
 
