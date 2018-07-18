@@ -136,6 +136,22 @@ The **Error List** displays diagnostics, or rule violations, from both live code
 > <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.0" PrivateAssets="all" />
 > ```
 
+## Command-line usage
+
+If you're accustomed to running static code analysis from the command line, either with *FxCopCmd.exe* or through msbuild with the **RunCodeAnalysis** flag, you may be wondering how to do the same with Roslyn analyzers.
+
+To see analyzer violations at the command line, first install the analyzers as a Nuget package and not as a VSIX extension. Then, build your project or solution at the command line using msbuild. For example, run the following command:
+
+```cmd
+msbuild myproject.csproj /target:rebuild /verbosity:minimal
+```
+
+For rule violations to appear in the command-line build output, their [severity](#rule-severity) must be set to **warning**, in which case violations don't cause build to fail, or **error**, in which case violations cause build to fail.
+
+The following image shows the command-line build output from building a project that contains an analyzer rule violation:
+
+![MSBuild output with rule violation](media/command-line-build-analyzers.png)
+
 ## See also
 
 - [Overview of Roslyn analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
