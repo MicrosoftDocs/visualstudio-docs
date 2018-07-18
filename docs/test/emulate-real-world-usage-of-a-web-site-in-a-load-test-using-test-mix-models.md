@@ -12,7 +12,7 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# Emulate expected real-world usage of a web site or application in a load test using a test mix models
+# Emulate expected real-world usage of a web site or application in a load test using a test mix model
 
 You use load modeling options to more accurately predict the expected real-world usage of a Web site or application that you are load-testing. It is important to do this because a load test that is not based on an accurate load model can generate misleading results.
 
@@ -63,13 +63,13 @@ You can specify one of the following test mix model options for your load test s
 #### Apply distribution to pacing delay
  The value for the **Apply Distribution to Pacing Delay** property in a load test scenario can be set to either true or false:
 
--   **True**: The scenario will apply typical statistical distribution delays specified by the value in the **Tests Per User Per Hour** column in the **Edit Test Mix** Dialog. For more information, see [Edit text mix models to specify the probability of a virtual user running a test](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md).
+-   **True**: The scenario will apply typical statistical distribution delays specified by the value in the **Tests Per User Per Hour** column in the **Edit Test Mix** dialog. For more information, see [Edit text mix models to specify the probability of a virtual user running a test](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md).
 
-     For example, assume that you have **Tests Per User Per Hour** value in the **Edit Test Mix** Dialog for the test set to 2 users per hour. If **Apply Distribution to Pacing Delay** property is set to **True**, a typical statistical distribution is applied to the wait time between the tests. The tests will still run 2 tests per hour, but it will not necessarily be 30 minutes between them. The first test could run after 4 minutes and the second test after 45 minutes.
+     For example, assume that you have **Tests Per User Per Hour** value in the **Edit Test Mix** dialog for the test set to 2 users per hour. If **Apply Distribution to Pacing Delay** property is set to **True**, a typical statistical distribution is applied to the wait time between the tests. The tests will still run 2 tests per hour, but it will not necessarily be 30 minutes between them. The first test could run after 4 minutes and the second test after 45 minutes.
 
--   **False**: The tests will run at the specific pace you specified for the value in the **Tests Per User Per Hour** column in the **Edit Test Mix** Dialog. For more information, see [Edit text mix models to specify the probability of a virtual user running a test](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md).
+-   **False**: The tests will run at the specific pace you specified for the value in the **Tests Per User Per Hour** column in the **Edit Test Mix** dialog. For more information, see [Edit text mix models to specify the probability of a virtual user running a test](../test/edit-test-mix-models-to-specify-the-probability-of-a-virtual-user-running-a-test.md).
 
-     For example, assume that you have **Tests Per User Per Hour** value in the **Edit Test Mix** Dialog for the test set to 2 users per hour. If the **Apply Distribution to Pacing Delay** property is set to **False**, you are basically giving no leeway when your tests run. The test will run every 30 minutes. This makes sure that you execute 2 tests per hour.
+     For example, assume that you have **Tests Per User Per Hour** value in the **Edit Test Mix** dialog for the test set to 2 users per hour. If the **Apply Distribution to Pacing Delay** property is set to **False**, you are basically giving no leeway when your tests run. The test will run every 30 minutes. This makes sure that you execute 2 tests per hour.
 
  For more information, see [How to: Apply distribution to pacing delay when using a user pace test mix model](../test/how-to-apply-distribution-to-pacing-delay-when-using-a-user-pace-test-mix-model.md).
 

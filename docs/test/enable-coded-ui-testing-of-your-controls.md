@@ -128,7 +128,7 @@ After you implement basic support for record and playback and property validatio
 
 1. Override the remaining abstract methods and properties of <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage>.
 
-1. Build your binaries and copy them to *ProgramFiles%\Common\Microsoft Shared\VSTT\10.0\UITestExtensionPackages*.
+1. Build your binaries and copy them to *%ProgramFiles%\Common\Microsoft Shared\VSTT\10.0\UITestExtensionPackages*.
 
 > [!NOTE]
 > This extension package is applied to any control that is of type "Text". If you're testing multiple controls of the same type, test them separately so you can manage which extension packages are deployed when you record the tests.

@@ -24,7 +24,7 @@ The *browser mix* gives you a way to simulate load more realistically in a load 
 
  After you have specified a browser mix, you can later add and remove Web browser types to the mix. You can also change the distribution of the browser mix by using the mix control. The mix control lets you easily adjust the distribution of browsers in a scenario.
 
-## Adding new browsers to a scenario
+## Add new browsers to a scenario
 
 ### To add new browsers to a scenario
 
