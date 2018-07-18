@@ -19,8 +19,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Include a Data File in a ClickOnce Application
-Each [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application you install is assigned a data directory on the destination computer's local disk where the application can manage its own data. Data files can include files of any type: text files, XML files, or even Microsoft Access database (.mdb) files. The following procedures show you how to add a data file of any type into your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.  
+# How to: Include a data file in a ClickOnce application
+Each [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application you install is assigned a data directory on the destination computer's local disk where the application can manage its own data. Data files can include files of any type: text files, XML files, or even Microsoft Access database (*.mdb*) files. The following procedures show you how to add a data file of any type into your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.  
   
 ### To include a data file by using Mage.exe  
   
@@ -72,11 +72,11 @@ Each [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applicati
   
 7.  Save the application manifest, and then re-sign the file.  
   
-     MageUI.exe will prompt you to re-sign the file.  
+     *MageUI.exe* will prompt you to re-sign the file.  
   
 8.  Re-sign your deployment manifest  
   
      You must re-sign your deployment manifest because its hash of the application manifest has changed.  
   
-## See Also  
- [Accessing Local and Remote Data in ClickOnce Applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)
+## See also  
+ [Access local and remote data in ClickOnce applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)

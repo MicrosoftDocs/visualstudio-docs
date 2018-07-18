@@ -17,12 +17,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;customErrorReporting&gt; Element (ClickOnce Deployment)
+# &lt;customErrorReporting&gt; element (ClickOnce deployment)
 Specifies a URI to show when an error occurs.  
   
 ## Syntax  
   
-```  
+```xml  
 <customErrorReporting  
    uri  
 />  
@@ -36,12 +36,12 @@ Specifies a URI to show when an error occurs.
 ## Example  
  The following snippet shows the `customErrorReporting` element, together with the generated URI it might produce.  
   
-```  
+```xml
 <customErrorReporting uri=http://www.contoso.com/applications/error.asp />  
   
 Example Generated Error:  
 http://www.contoso.com/applications/error.asp? outer=System.Deployment.Application.InvalidDeploymentException&&inner=System.Deployment.Application.InvalidDeploymentException&&msg=The%20application%20manifest%20is%20signed,%20but%20the%20deployment%20manifest%20is%20unsigned.%20Both%20manifests%20must%20be%20either%20signed%20or%20unsigned.  
 ```  
   
-## See Also  
- [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)
+## See also  
+ [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
