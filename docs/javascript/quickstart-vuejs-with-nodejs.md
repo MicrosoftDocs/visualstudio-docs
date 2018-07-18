@@ -104,3 +104,4 @@ Congratulations on completing this Quickstart! We hope you learned a little bit 
 
 - Go through the [Tutorial for Node.js and Express](../nodejs/tutorial-nodejs.md)
 - Go through the [Tutorial for Node.js and React](../nodejs/tutorial-nodejs-with-react-and-jsx.md)
+- [Deploy the app to Linux App Service](../nodejs/publish-nodejs-app-azure.md)
