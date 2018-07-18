@@ -132,7 +132,7 @@
   - name: R in Visual Studio...
     href: rtvs/getting-started-with-r.md
   - name: Node.js in Visual Studio
-    href: nodejs/tutorial-nodejs.md
+    href: javascript/tutorial-nodejs.md
   - name: C# in Visual Studio
     href: ide/tutorial-csharp-aspnet-core.md
   - name: Visual Basic in Visual Studio
