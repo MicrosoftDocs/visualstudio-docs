@@ -25,7 +25,9 @@ ms.workload:
 This topic helps you diagnose and resolve the most common issues with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments.  
   
  In most cases, a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application will download to a user's computer and run without any problems. There are some cases, however, where Web server or application configuration issues can cause unforeseen problems.  
-  
+
+## Deployment considerations
+
  [How to: Set a custom log file location for ClickOnce deployment errors](../deployment/how-to-set-a-custom-log-file-location-for-clickonce-deployment-errors.md)  
  Describes how to redirect all [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] activation failures on a machine to a single log file.  
   
