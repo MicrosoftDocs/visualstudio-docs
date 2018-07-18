@@ -363,4 +363,4 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Deploy the app to Linux App Service](../nodejs/publish-nodejs-app-azure.md)
+> [Deploy the app to Linux App Service](../javascript/publish-nodejs-app-azure.md)
