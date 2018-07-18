@@ -24,12 +24,12 @@ sections:
     columns: 3
     items:
       - href: roslyn-analyzers-overview.md
-        html: <p>Learn about analyzers.</p>
+        html: <p>Learn what analyzers are.</p>
         image:
           src: https://docs.microsoft.com/media/common/i_learn-about.svg
-        title: Analyzer overview
+        title: Analyzers overview
       - href: install-roslyn-analyzers.md
-        html: <p>Learn how to install analyzer packages using Nuget.</p>
+        html: <p>Learn how to install analyzers as a Nuget package or Visual Studio extension.</p>
         image:
           src: https://docs.microsoft.com/media/common/i_setup.svg
         title: Install analyzers
@@ -57,7 +57,7 @@ sections:
           src: https://docs.microsoft.com/media/common/i_setup.svg
         title: Install analyzers
       - href: use-roslyn-analyzers.md#command-line-usage
-        html: <p>If you typically run code analysis from the command line, for example using FxCopCmd.exe or msbuild, learn how to run analyzers from the command line.</p>
+        html: <p>If you typically run code analysis from the command line, learn how to use analyzers from the command line.</p>
         image:
           src: https://docs.microsoft.com/media/common/i_cligeneric.svg
         title: Command-line usage
@@ -67,7 +67,7 @@ sections:
           src: https://docs.microsoft.com/media/common/i_code-samples.svg
         title: Rule sets
       - href: code-analysis-for-c-cpp-overview.md
-        html: <p>Learn how to run code analysis on native C++ code. The code analysis experience remains unchanged, however, analysis of managed C++ code is deprecated.</p>
+        html: <p>Learn how to run code analysis on native C++ code. Analysis of managed C++ code is deprecated.</p>
         image:
           src: https://docs.microsoft.com/media/logos/logo_Cplusplus.svg
         title: C++ code analysis
