@@ -42,6 +42,9 @@ During evaluation of the project, [!INCLUDE[vstecmsbuild](../extensibility/inter
 
 ## Reference a project SDK
 
+> [!NOTE]
+> This is not currently supported in Visual Studio for Mac.
+
  There are three ways to reference a project SDK:
 
 1. Use the `Sdk` attribute on the `<Project/>` element:
