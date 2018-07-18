@@ -12,7 +12,7 @@ ms.workload:
 ---
 # Update an existing application for MSBuild 15
 
-In versions of MSBuild prior to 15.0, MSBuild was loaded from the Global Assembly Cache (GAC) and MSBuild extensions were installed in the registry. This ensured that all applications used the same version of MSBuild and had access to the same toolsets, but prevented side-by-side installations of different versions of Visual Studio.
+In versions of MSBuild prior to 15.0, MSBuild was loaded from the Global Assembly Cache (GAC) and MSBuild extensions were installed in the registry. This ensured that all applications used the same version of MSBuild and had access to the same Toolsets, but prevented side-by-side installations of different versions of Visual Studio.
 
 To support faster, smaller, and side-by-side installation, Visual Studio 2017 no longer places MSBuild in the GAC or modifies the registry. Unfortunately, this means that applications that wish to use the MSBuild API to evaluate or build projects cannot implicitly rely on the Visual Studio installation.
 
