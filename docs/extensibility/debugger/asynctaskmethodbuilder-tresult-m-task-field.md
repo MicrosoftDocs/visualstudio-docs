@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# AsyncTaskMethodBuilder&lt;TResult&gt;.m_task Field
+# AsyncTaskMethodBuilder&lt;TResult&gt;.m_task field
 Represents the lazily initialized built task.  
   
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>  
@@ -25,10 +25,10 @@ Represents the lazily initialized built task.
   
 ## Syntax  
   
-```  
+```csharp  
 .field private class System.Threading.Tasks.Task`1<!TResult> m_task  
 ```  
   
-## See Also  
+## See also  
  <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder%601>   
- [Parallel Extension Internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)
+ [Parallel extension internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)
