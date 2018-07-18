@@ -144,7 +144,7 @@ Your minimal project file should resemble the following code:
 Tasks in the Build target are executed sequentially. In this case, the Visual C# compiler `Csc` task is the only task. It expects a list of source files to compile, and this is given by the value of the `Compile` item. The `Compile` item references just one source file, *Helloworld.cs*.  
   
 > [!NOTE]
->  In the item element, you can use the asterisk wildcard character (*) to reference all files that have the *.cs* file name extension, as follows:  
+>  In the item element, you can use the asterisk wildcard character (\*) to reference all files that have the *.cs* file name extension, as follows:  
 >   
 >  `<Compile Include="*.cs" />`  
 >   
@@ -255,9 +255,9 @@ Your project file should now resemble the following code:
   
 1.  At the command prompt, type **msbuild helloworld.csproj /t:Build**.  
   
-     This creates the *\Bin\\* folder and then invokes the Visual C# compiler to create the MSBuildSample application and puts it in the *\Bin\\* folder.  
+     This creates the *\Bin\\* folder and then invokes the Visual C# compiler to create the *MSBuildSample* application and puts it in the *\Bin\\* folder.  
   
-2.  To verify that the *\Bin\\* folder has been created, and that it contains the MSBuildSample application, type **dir Bin**.  
+2.  To verify that the *\Bin\\* folder has been created, and that it contains the *MSBuildSample* application, type **dir Bin**.  
   
 3.  Test the application by typing **Bin\MSBuildSample**.  
   
@@ -332,7 +332,7 @@ Your project file should now resemble the following code:
   
      Because you did not use the **/t** switch to explicitly set the target, MSBuild runs the default Build target. The **/p** switch overrides the `AssemblyName` property and gives it the new value, `Greetings`. This causes a new application, *Greetings.exe*, to be created in the *\Bin\\* folder.  
   
-2.  To verify that the *\Bin\\* folder contains both the MSBuildSample application and the new Greetings application, type **dir Bin**.  
+2.  To verify that the *\Bin\\* folder contains both the *MSBuildSample* application and the new *Greetings* application, type **dir Bin**.  
   
 3.  Test the Greetings application by typing **Bin\Greetings**.  
   

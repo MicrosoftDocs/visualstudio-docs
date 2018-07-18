@@ -33,7 +33,7 @@ You can run MSBuild from Visual Studio, or from the **Command Window**. In this 
 
 2.  On the **File** menu, point to **New**, and then click **Project**.
 
-3.  In the **New Project** dialog box, select the **Visual C#** project type, and then select the **Windows Forms Application** template. In the **Name** box, type `BuildApp`. Enter a **Location** for the solution, for example, *D:\\*. Accept the defaults for **Create directory for solution** (selected), **Add to Source Control** (not selected), and **Solution Name** (`BuildApp`).
+3.  In the **New Project** dialog box, select the **Visual C#** project type, and then select the **Windows Forms Application** template. In the **Name** box, type `BuildApp`. Enter a **Location** for the solution, for example, *D:\\*. Accept the defaults for **Create directory for solution** (selected), **Add to Source Control** (not selected), and **Solution Name** (**BuildApp**).
 
 4.    Click **OK** to create the project file.
 

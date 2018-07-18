@@ -90,7 +90,7 @@ To create and run the tasks, use Visual Studio and the **Visual Studio Command P
   
 1.  Click **Start**, click **All Programs**, and then locate the **Visual Studio Tools** folder and click **Visual Studio Command Prompt**.  
   
-2.  In the **Command Prompt Window**, locate the folder that contains the project file, in this case, *D:\InlineTasks\InlineTasks\\*.  
+2.  In the **Command Prompt Window**, locate the folder that contains the project file, in this case, **D:\InlineTasks\InlineTasks\\**.  
   
 3.  Type **msbuild** without command switches, and then press **Enter**. By default, this builds the *InlineTasks.csproj* file and processes the default target TestBuild, which invokes the Hello task.  
   

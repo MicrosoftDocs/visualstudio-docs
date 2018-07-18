@@ -64,7 +64,7 @@ Specifies a possible block of code for the `Choose` element to select.
 
 |Element|Description|  
 |-------------|-----------------|  
-|[Choose Element (MSBuild)](../msbuild/choose-element-msbuild.md)|Evaluates child elements to select one section of code to execute.|  
+|[Choose element (MSBuild)](../msbuild/choose-element-msbuild.md)|Evaluates child elements to select one section of code to execute.|  
 
 ## Remarks  
  If the `Condition` attribute evaluates to true, the child `ItemGroup` and `PropertyGroup` elements of the `When` element are executed and all subsequent `When` elements are skipped.  
