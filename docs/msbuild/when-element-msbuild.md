@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# When Element (MSBuild)
+# When element (MSBuild)
 Specifies a possible block of code for the `Choose` element to select.  
   
  \<Project>  
@@ -43,7 +43,7 @@ Specifies a possible block of code for the `Choose` element to select.
 </When>  
 ```  
 
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
 
 ### Attributes  
@@ -52,7 +52,7 @@ Specifies a possible block of code for the `Choose` element to select.
 |---------------|-----------------|  
 |Condition|Required attribute.<br /><br /> Condition to evaluate. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|  
 
-### Child Elements  
+### Child elements  
 
 |Element|Description|  
 |-------------|-----------------|  
@@ -60,7 +60,7 @@ Specifies a possible block of code for the `Choose` element to select.
 |[ItemGroup](../msbuild/itemgroup-element-msbuild.md)|Optional element.<br /><br /> Contains a set of user-defined [Item](../msbuild/item-element-msbuild.md) elements. There may be zero or more `ItemGroup` elements in a `When` element.|  
 |[PropertyGroup](../msbuild/propertygroup-element-msbuild.md)|Optional element.<br /><br /> Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md) elements. There may be zero or more `PropertyGroup` elements in an `When` element.|  
 
-### Parent Elements  
+### Parent elements  
 
 |Element|Description|  
 |-------------|-----------------|  
@@ -69,7 +69,7 @@ Specifies a possible block of code for the `Choose` element to select.
 ## Remarks  
  If the `Condition` attribute evaluates to true, the child `ItemGroup` and `PropertyGroup` elements of the `When` element are executed and all subsequent `When` elements are skipped.  
 
- The `Choose`, `When`, and `Otherwise` elements are used together to provide a way to select one section of code to execute out of a number of possible alternatives. For more information, see [Conditional Constructs](../msbuild/msbuild-conditional-constructs.md).  
+ The `Choose`, `When`, and `Otherwise` elements are used together to provide a way to select one section of code to execute out of a number of possible alternatives. For more information, see [Conditional constructs](../msbuild/msbuild-conditional-constructs.md).  
 
 ## Example  
  The following project uses the `Choose` element to select which set of property values in the `When` elements to set. If the `Condition` attributes of both `When` elements evaluate to `false`, the property values in the `Otherwise` element are set.  
@@ -119,6 +119,6 @@ Specifies a possible block of code for the `Choose` element to select.
 </Project>  
 ```  
 
-## See Also  
- [Conditional Constructs](../msbuild/msbuild-conditional-constructs.md)   
- [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
+## See also  
+ [Conditional constructs](../msbuild/msbuild-conditional-constructs.md)   
+ [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

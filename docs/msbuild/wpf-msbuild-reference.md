@@ -19,14 +19,14 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# WPF MSBuild Reference
+# WPF MSBuild reference
 Windows Presentation Foundation (WPF) extends Microsoft build engine (MSBuild) with additional build support, which is documented in this section.  
   
-## In This Section  
- [.Targets Files](../msbuild/wpf-dot-targets-files.md)  
+## In this section  
+ [WPF .targets Files](../msbuild/wpf-dot-targets-files.md)  
  Describes WPF .Targets files.  
   
- [Task Reference](../msbuild/wpf-msbuild-task-reference.md)  
+ [WPF MSBuild task reference](../msbuild/wpf-msbuild-task-reference.md)  
  Lists the available WPF build tasks.  
   
  <xref:Microsoft.Build.Tasks>  
@@ -44,5 +44,5 @@ Windows Presentation Foundation (WPF) extends Microsoft build engine (MSBuild) w
  <xref:Microsoft.Build.Tasks.Windows>  
  A build task windows assembly.  
   
-## See Also  
+## See also  
  [MSBuild](../msbuild/msbuild.md)
