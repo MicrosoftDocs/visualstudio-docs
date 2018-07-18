@@ -54,7 +54,7 @@ First, create a Node.js web application project.
 
     Visual Studio creates the new solution and opens your project.
 
-    ![Node.js project in Solution Explorer](../nodejs/media/tutorial-nodejs-react-project-structure.png)
+    ![Node.js project in Solution Explorer](../javascript/media/tutorial-nodejs-react-project-structure.png)
 
     * Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, since the project file does not make custom changes to the Node.js project source.
 
@@ -83,7 +83,7 @@ This app requires a number of npm modules to run correctly.
 
 1. In the **Install New npm Packages** dialog box, search for the react package, and select **Install Package** to install it.
 
-    ![Install npm packages](../nodejs/media/tutorial-nodejs-react-install-packages.png)
+    ![Install npm packages](../javascript/media/tutorial-nodejs-react-install-packages.png)
 
     Select the **Output** window to see progress on installing the package (select **Npm** in the **Show output from** field). When installed, the package appears under the **npm** node.
 
@@ -110,7 +110,7 @@ This app requires a number of npm modules to run correctly.
 
     Here are the npm modules as they appear in Solution Explorer after they are installed.
 
-    ![npm packages](../nodejs/media/tutorial-nodejs-react-npm-modules.png)
+    ![npm packages](../javascript/media/tutorial-nodejs-react-npm-modules.png)
 
     > [!NOTE]
     > If you prefer to install npm packages using the command line, right-click the project node and choose **Open Command Prompt Here**. Use standard Node.js commands to install packages.
@@ -260,7 +260,7 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
 
     The command prompt window shows the result.
 
-    ![Run webpack](../nodejs/media/tutorial-nodejs-react-run-webpack.png)
+    ![Run webpack](../javascript/media/tutorial-nodejs-react-run-webpack.png)
 
     If you see any errors instead of the preceding output, you must resolve them before your app will work. If your npm package versions are different than the versions shown in this tutorial, that can be a source of errors. One way to fix errors is to use the exact versions shown in the earlier steps. Also, if one or more of these package versions has been deprecated and results in an error, you may need to install a more recent version to fix errors.
 
@@ -272,7 +272,7 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
 
 1. If prompted to reload externally modified files, select **Yes to All**.
 
-    ![Load modified files](../nodejs/media/tutorial-nodejs-react-reload-files.png)
+    ![Load modified files](../javascript/media/tutorial-nodejs-react-reload-files.png)
 
 Each time you make changes to *app.tsx*, you must rerun the webpack command.
 
@@ -280,7 +280,7 @@ Each time you make changes to *app.tsx*, you must rerun the webpack command.
 
 1. Make sure that Chrome is selected as the current debug target.
 
-    ![Select Chrome as debug target](../nodejs/media/tutorial-nodejs-react-debug-target.png)
+    ![Select Chrome as debug target](../javascript/media/tutorial-nodejs-react-debug-target.png)
 
 1. To run the app, press **F5** (**Debug** > **Start Debugging**) or the green arrow button.
 
@@ -288,7 +288,7 @@ Each time you make changes to *app.tsx*, you must rerun the webpack command.
 
     Visual Studio starts the app by launching the startup file, *server.js*.
 
-    ![Run React in browser](../nodejs/media/tutorial-nodejs-react-running-react.png)
+    ![Run React in browser](../javascript/media/tutorial-nodejs-react-running-react.png)
 
 1. Close the browser window.
 
@@ -298,7 +298,7 @@ Each time you make changes to *app.tsx*, you must rerun the webpack command.
 
 1. In *server.js*, click in the gutter to the left of the `staticPath` declaration to set a breakpoint:
 
-    ![Set a breakpoint](../nodejs/media/tutorial-nodejs-react-set-breakpoint.png)
+    ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint.png)
 
     Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
 
@@ -326,7 +326,7 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
 1. Switch to Visual Studio and set a breakpoint in *app-bundle.js* code in the `render()` function as shown in the following illustration:
 
-    ![Set a breakpoint](../nodejs/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
+    ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
 
 1. With Chrome selected as the debug target in Visual Studio, press **Ctrl**+**F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
 
@@ -338,7 +338,7 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
 1. Select the Chrome process with the correct host port (1337 in this example), and select **Attach**.
 
-    ![Attach to process](../nodejs/media/tutorial-nodejs-react-attach-to-process.png)
+    ![Attach to process](../javascript/media/tutorial-nodejs-react-attach-to-process.png)
 
     You know the debugger has attached correctly when the DOM Explorer and the JavaScript Console open in Visual Studio. These debugging tools are similar to Chrome Developer Tools and F12 Tools for Edge.
 
@@ -363,6 +363,4 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Deploy the app to Azure App Service](../deployment/quickstart-deploy-to-azure.md)
-
-In this tutorial, you learned how to create a Node.js and React app, transpile JSX, and debug. To learn more, see  [Node.js tools for Visual Studio on GitHub](https://github.com/Microsoft/nodejstools).
+> [Deploy the app to Linux App Service](../javascript/publish-nodejs-app-azure.md)

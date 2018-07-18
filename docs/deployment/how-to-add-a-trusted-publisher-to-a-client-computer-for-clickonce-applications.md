@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications
+# How to: Add a trusted publisher to a client computer for ClickOnce applications
 With Trusted Application Deployment, you can configure client computers so that your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications run with a higher level of trust without prompting the user. The following procedures show how to use the command-line tool CertMgr.exe to add a publisher's certificate to the Trusted Publishers store on a client computer.  
   
  The commands you use vary slightly depending on whether the certificate authority (CA) that issued your certificate is part of a client's trusted root. If a Windows client computer is part of a domain, it will contain, in a list, CAs that are considered trusted roots. This list is usually configured by the system administrator. If your certificate was issued by one of these trusted roots, or by a CA that chains to one of these trusted roots, you can add the certificate to the client's trusted root store. If, on the other hand, your certificate was not issued by one of these trusted roots, you must add the certificate to both the client's Trusted Root store and Trusted Publisher store.  
@@ -28,13 +28,13 @@ With Trusted Application Deployment, you can configure client computers so that 
   
  You may also add a certificate to a store programmatically using the <xref:System.Security.Cryptography.X509Certificates.X509Store> class.  
   
- For an overview of Trusted Application Deployment, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md).  
+ For an overview of Trusted Application Deployment, see [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md).  
   
 ### To add a certificate to the Trusted Publishers store under the trusted root  
   
 1.  Obtain a digital certificate from a CA.  
   
-2.  Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](http://go.microsoft.com/fwlink/?LinkId=164793).  
+2.  Export the certificate into the Base64 X.509 (*.cer*) format. For more information about certificate formats, see [Export a certificate](http://go.microsoft.com/fwlink/?LinkId=164793).  
   
 3.  From the command prompt on client computers, run the following command:  
   
@@ -44,7 +44,7 @@ With Trusted Application Deployment, you can configure client computers so that 
   
 1.  Obtain a digital certificate from a CA.  
   
-2.  Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](http://go.microsoft.com/fwlink/?LinkId=164793).  
+2.  Export the certificate into the Base64 X.509 (*.cer*) format. For more information about certificate formats, see [Export a Certificate](http://go.microsoft.com/fwlink/?LinkId=164793).  
   
 3.  From the command prompt on client computers, run the following command:  
   
@@ -52,16 +52,16 @@ With Trusted Application Deployment, you can configure client computers so that 
   
      **certmgr.exe -add good.cer -c -s -r localMachine TrustedPublisher**  
   
-## See Also  
- [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)   
- [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
- [Code Access Security for ClickOnce Applications](../deployment/code-access-security-for-clickonce-applications.md)   
+## See also  
+ [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md)   
+ [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)   
+ [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md)   
  [ClickOnce and Authenticode](../deployment/clickonce-and-authenticode.md)   
- [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md)   
- [How to: Enable ClickOnce Security Settings](../deployment/how-to-enable-clickonce-security-settings.md)   
- [How to: Set a Security Zone for a ClickOnce Application](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)   
- [How to: Set Custom Permissions for a ClickOnce Application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)   
- [How to: Debug a ClickOnce Application with Restricted Permissions](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)   
- [How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)   
- [How to: Re-sign Application and Deployment Manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)   
- [How to: Configure the ClickOnce Trust Prompt Behavior](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md)
+ [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md)   
+ [How to: Enable ClickOnce security settings](../deployment/how-to-enable-clickonce-security-settings.md)   
+ [How to: Set a security zone for a ClickOnce application](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)   
+ [How to: Set custom permissions for a ClickOnce application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)   
+ [How to: Debug a ClickOnce application with restricted permissions](../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)   
+ [How to: Add a trusted publisher to a client computer for ClickOnce applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)   
+ [How to: Re-sign application and deployment manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)   
+ [How to: Configure the ClickOnce trust prompt behavior](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md)

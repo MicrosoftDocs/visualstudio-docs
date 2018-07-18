@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Change the Publish Language for a ClickOnce Application
+# How to: Change the publish language for a ClickOnce application
 When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, the user interface displayed during installation defaults to the language and culture of your development computer. If you are publishing a localized application, you will need to specify a language and culture to match the localized version. This is determined by the `Publish language` property for your project.  
   
  The `Publish language` property can be set in the **Publish Options** dialog box, accessible from the **Publish** page of the **Project Designer**.  
@@ -39,6 +39,6 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
   
 5.  In the **Publish Options** dialog box, select a language and culture from the **Publish language** drop-down list, and then click **OK**.  
   
-## See Also  
- [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
- [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
+## See also  
+ [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)   
+ [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
