@@ -24,7 +24,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;RelatedProducts&gt; Element (Bootstrapper)
+# &lt;RelatedProducts&gt; element (bootstrapper)
 The `RelatedProducts` element defines other products that either depend upon or are included in the current product.  
   
 ## Syntax  
@@ -45,7 +45,7 @@ The `RelatedProducts` element defines other products that either depend upon or 
 </RelatedProducts>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `RelatedProducts` element is a child of the `Product` element. It has no attributes.  
   
 ## DependsOnProduct  
@@ -78,5 +78,5 @@ The `RelatedProducts` element defines other products that either depend upon or 
 </RelatedProducts>  
 ```  
   
-## See Also  
- [\<Product> Element](../deployment/product-element-bootstrapper.md)
+## See also  
+ [\<Product> element](../deployment/product-element-bootstrapper.md)

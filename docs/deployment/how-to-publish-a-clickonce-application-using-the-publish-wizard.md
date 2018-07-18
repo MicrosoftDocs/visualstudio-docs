@@ -20,13 +20,13 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Publish a ClickOnce Application using the Publish Wizard
-To make a ClickOnce application available to users, you must publish it to a file share or path, FTP server, or removable media. You can publish the application by using the Publish Wizard; additional properties related to publishing are available on the **Publish** page of the **Project Designer**. For more information, see [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md).  
+# How to: Publish a ClickOnce application using the Publish Wizard
+To make a ClickOnce application available to users, you must publish it to a file share or path, FTP server, or removable media. You can publish the application by using the Publish Wizard; additional properties related to publishing are available on the **Publish** page of the **Project Designer**. For more information, see [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md).  
   
- Before you run the Publish Wizard, you should set the publishing properties appropriately. For example, if you want to designate a key to sign your ClickOnce application, you can do so on the **Signing** page of the **Project Designer**. For more information, see [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md).  
+ Before you run the Publish Wizard, you should set the publishing properties appropriately. For example, if you want to designate a key to sign your ClickOnce application, you can do so on the **Signing** page of the **Project Designer**. For more information, see [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md).  
   
 > [!NOTE]
->  When you install more than one version of an application by using ClickOnce, the installation moves earlier versions of the application into a folder named Archive, in the publish location that you specify. Archiving earlier versions in this manner keeps the installation directory clear of folders from the earlier version.  
+>  When you install more than one version of an application by using ClickOnce, the installation moves earlier versions of the application into a folder named *Archive*, in the publish location that you specify. Archiving earlier versions in this manner keeps the installation directory clear of folders from the earlier version.  
   
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, click **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
@@ -35,7 +35,7 @@ To make a ClickOnce application available to users, you must publish it to a fil
   
 1.  In **Solution Explorer**, select the application project.  
   
-2.  On the **Build** menu, click **Publish**`Projectname`.  
+2.  On the **Build** menu, click **Publish** *Projectname*.  
   
      The Publish Wizard appears.  
   
@@ -45,7 +45,7 @@ To make a ClickOnce application available to users, you must publish it to a fil
   
     -   If users will install from a Web site, click **From a Web site** and enter a URL that corresponds to the file path entered in the previous step. Click **Next**. (This option is typically used when you specify an FTP address as the publishing location. Direct download from FTP is not supported. Therefore, you have to enter a URL here.)  
   
-    -   If users will install the application directly from the file share, click **From a UNC path or file share**, and then click **Next**. (This is for publishing locations of the form c:\deploy\myapp or \\\server\myapp.)  
+    -   If users will install the application directly from the file share, click **From a UNC path or file share**, and then click **Next**. (This is for publishing locations of the form *c:\deploy\myapp* or *\\\server\myapp*.)  
   
     -   If users will install from removable media, click **From a CD-ROM or DVD-ROM**, and then click **Next**.  
   
@@ -71,7 +71,7 @@ To make a ClickOnce application available to users, you must publish it to a fil
   
      The Publish Wizard appears.  
   
-3.  In the **Where do you want to publish the application?** page, enter the file path or FTP location where the application will be published, for example d:\deploy. Then click **Next** to continue.  
+3.  In the **Where do you want to publish the application?** page, enter the file path or FTP location where the application will be published, for example *d:\deploy*. Then click **Next** to continue.  
   
 4.  On the **How will users install the application?** page, click From a **CD-ROM or DVD-ROM**, and then click **Next**.  
   
@@ -93,7 +93,7 @@ To make a ClickOnce application available to users, you must publish it to a fil
     > [!NOTE]
     >  After publishing is complete, you will have to use a CD-Rewriter or DVD-Rewriter to copy the files from the location specified in step 3 to the CD-ROM or DVD-ROM media.  
   
-## See Also  
- [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
- [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
- [Deploying an Office Solution by Using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)
+## See also  
+ [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)   
+ [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)   
+ [Deploying an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md)

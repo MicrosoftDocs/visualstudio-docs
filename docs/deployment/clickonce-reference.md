@@ -18,10 +18,10 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# ClickOnce Reference
+# ClickOnce reference
 The following pages describe the structure of the XML files used to represent ClickOnce applications.  
   
-## In This Section  
+## In this section  
  [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)  
  Lists and describes the elements and attributes that make up an application manifest.  
   
@@ -36,12 +36,12 @@ The following pages describe the structure of the XML files used to represent Cl
   
 ## Reference  
   
-## Related Sections  
- [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)  
+## Related sections  
+ [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)  
  Provides detailed conceptual information about ClickOnce deployment.  
   
  <xref:System.Deployment.Application>  
  Provides links to reference documentation of the public classes that support ClickOnce within managed code.  
   
- [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)  
+ [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)  
  Provides walkthroughs and how-to's that perform ClickOnce tasks.
