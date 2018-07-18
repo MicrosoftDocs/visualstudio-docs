@@ -84,7 +84,7 @@ xmlns:vscom="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.Visua
     ```  
   
 > [!NOTE]
->  You must copy your assembly and then paste it in *\..\\Visual Studio installation folder\Common7\IDE\PrivateAssemblies\\* to make sure it is loaded before it is called.  
+>  You must copy your assembly and then paste it in *..\\{Visual Studio installation folder}\Common7\IDE\PrivateAssemblies\* to make sure it is loaded before it is called.  
   
 ## Add commands with the DTE object  
  You can access the DTE object from a Start Page, both in markup and in code.  

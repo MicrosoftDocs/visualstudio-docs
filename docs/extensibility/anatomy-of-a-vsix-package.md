@@ -54,4 +54,4 @@ A VSIX package is a *.vsix* file that contains one or more Visual Studio extensi
 ## [Content_Types].xml  
  The *[Content_Types].xml* file identifies the file types in the expanded *.vsix* file. Visual Studio uses this file during installation of the package but does not install the file itself. For more information about this file, see [The structure of the [Content_types].xml file](the-structure-of-the-content-types-dot-xml-file.md).  
   
- A *[Content_Types].xml* file is required by the Open Packaging Conventions (OPC) standard. For more information about OPC, see [OPC: A new standard for packaging your data](http://go.microsoft.com/fwlink/?LinkID=148207) on the MSDN Web site.
+ A *[Content_Types].xml* file is required by the Open Packaging Conventions (OPC) standard. For more information about OPC, see [OPC: A new standard for packaging your data](https://blogs.msdn.microsoft.com/msdnmagazine/2007/08/08/opc-a-new-standard-for-packaging-your-data/) on the MSDN Web site.

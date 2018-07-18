@@ -37,7 +37,7 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
   
 ### To write the XAML for the user control  
   
-1.  Open the XAML file for the user control. In the `Grid` element, add the following row definitions to the control.  
+1.  Open the XAML file for the user control. In the `<Grid>` element, add the following row definitions to the control.  
   
     ```vb  
     <Grid.RowDefinitions>  
@@ -47,7 +47,7 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
   
     ```  
   
-2.  In the main `Grid` element, add the following new `Grid` element, which contains a text box for typing Web addresses and a button for setting the new address.  
+2.  In the main `<Grid>` element, add the following new `<Grid>` element, which contains a text box for typing Web addresses and a button for setting the new address.  
   
     ```xml  
     <Grid Grid.Row="0">  
@@ -60,7 +60,7 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
     </Grid>  
     ```  
   
-3.  Add the following frame to the top-level `Grid` element just after the `Grid` element that contains the button and textbox.  
+3.  Add the following frame to the top-level `<Grid>` element just after the `<Grid>` element that contains the button and textbox.  
   
     ```vb  
     <Frame Grid.Row="1" x:Name="WebFrame" Source="http://www.bing.com" Navigated="WebFrame_Navigated" />  
