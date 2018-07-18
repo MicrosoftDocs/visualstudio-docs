@@ -82,7 +82,7 @@ Web performance tests are recorded by browsing through your web app. The tests a
  **A:** Yes, use the context menu in **Solution Explorer**.
 
 ### Q: Should I add a data source before or after I generate a coded test?
- **A:** It is easier to add a [data source](../test/add-a-data-source-to-a-web-performance-test.md), before you generate the coded test because the code will be automatically generated for you.
+ **A:** It is easier to add a [data source](../test/add-a-data-source-to-a-web-performance-test.md) before you generate the coded test because the code will be automatically generated for you.
 
  When you run a coded test with a data source, you might see the following error message:
 

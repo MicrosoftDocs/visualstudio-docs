@@ -29,7 +29,7 @@ Some types of dynamic parameters are not detected. An undetected dynamic paramet
 
 To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll create a simple ASP.NET web application that has three web forms with a few controls and some custom code. We’ll then learn how to isolate the dynamic parameters and how to handle them.
 
-1.  Create a new ASP.NET project named **DynamicParamaterSample**.
+1.  Create a new ASP.NET project named **DynamicParameterSample**.
 
      ![Create an empty ASP.NET web application project](../test/media/web_test_dynamicparameter_aspproject.png)
 
@@ -70,15 +70,15 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
 6.  Add a second web form named *ASPQuery.aspx*.
 
-7.  In design view, drag a **Label** onto the page and change the value for its (ID) property to IndexLabel.
+7.  In design view, drag a **Label** onto the page and change the value for its **(ID)** property to **IndexLabel**.
 
      ![Add a label to the web form](../test/media/web_test_dynamicparameter_label.png)
 
-8.  Drag a **HyperLink** onto the page and change the vale for its Text property to Back.
+8.  Drag a **HyperLink** onto the page and change the vale for its **Text** property to **Back**.
 
      ![Add a hyperlink to the web form](../test/media/web_test_dynamicparameter_hyperlink.png)
 
-9. Choose **(…)** for the NavigationURL property.
+9. Choose **(…)** for the **NavigationURL** property.
 
      ![Edit the NavigateURL property](../test/media/web_test_dynamicparameter_hyperlink_navurl.png)
 
@@ -97,7 +97,7 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
 11. Add a third web form named *JScriptQuery.aspx*.
 
-     Just as we did for the second page, drag a **Label** onto the form, setting its (ID) property to IndexLabel and drag a **Hyperlink** onto the form, setting its text property to Back, and its NavigationURL property to *Querystring.aspx*.
+     Just as we did for the second page, drag a **Label** onto the form, setting its **(ID)** property to **IndexLabel** and drag a **Hyperlink** onto the form, setting its **Text** property to **Back**, and its **NavigationURL** property to **Querystring.aspx**.
 
      ![Add and configure the third web form](../test/media/web_test_dynamicparameter_addwebform3.png)
 
@@ -235,7 +235,7 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
      ![Parameter applied to querystring](../test/media/web_test_dynamicparameter_addextractionfindreplace3.png)
 
-10. Close the **find and replace** dialog. Notice the similar structure of in the request tree between the detected dynamic parameter and the non-detected dynamic parameter that you correlated.
+10. Close the **Find and Replace** dialog. Notice the similar structure of in the request tree between the detected dynamic parameter and the non-detected dynamic parameter that you correlated.
 
      ![Detected and correlated dynamic parameters](../test/media/web_test_dynamicparameter_conclusion.png)
 
