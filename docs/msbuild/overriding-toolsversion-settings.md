@@ -15,16 +15,16 @@ ms.workload:
   - "multiple"
 ---
 # Override ToolsVersion settings
-You can change the toolset for projects and solutions in one of three ways:  
+You can change the Toolset for projects and solutions in one of three ways:  
   
 1.  By using the `/ToolsVersion` switch (or `/tv`, for short) when you build the project or solution from the command line.  
   
 2.  By setting the `ToolsVersion` parameter on the MSBuild task.  
   
-3.  By setting the `$(ProjectToolsVersion)` property on a project within a solution. This lets you build a project in a solution with a toolset version that differs from that of the other projects.  
+3.  By setting the `$(ProjectToolsVersion)` property on a project within a solution. This lets you build a project in a solution with a Toolset version that differs from that of the other projects.  
   
 ## Override the ToolsVersion settings of projects and solutions on command line builds  
- Although Visual Studio projects typically build with the ToolsVersion specified in the project file, you can use the `/ToolsVersion` (or `/tv`) switch on the command line to override that value and build all of the projects and their project-to-project dependencies with a different toolset. For example:  
+ Although Visual Studio projects typically build with the ToolsVersion specified in the project file, you can use the `/ToolsVersion` (or `/tv`) switch on the command line to override that value and build all of the projects and their project-to-project dependencies with a different Toolset. For example:  
   
 ```cmd  
 msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug  
@@ -107,7 +107,7 @@ msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug
   
     2.  The default tools version in the *MSBuild.exe.config* file.  
   
-    3.  The default tools version in the registry. For more information, see [Standard and custom toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md).  
+    3.  The default tools version in the registry. For more information, see [Standard and custom Toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md).  
   
 6.  If the environment variable `MSBUILDLEGACYDEFAULTTOOLSVERSION` is not set, then the following steps are used:  
   
@@ -123,4 +123,4 @@ msbuild.exe someproj.proj /tv:12.0 /p:Configuration=Debug
  [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)   
  [MSBuild concepts](../msbuild/msbuild-concepts.md)   
  [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)   
- [Standard and custom toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md)
+ [Standard and custom Toolset configurations](../msbuild/standard-and-custom-toolset-configurations.md)
