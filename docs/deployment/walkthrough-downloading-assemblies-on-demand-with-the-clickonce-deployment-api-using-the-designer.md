@@ -20,7 +20,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API Using the Designer
+# Walkthrough: Download assemblies on demand with the ClickOnce deployment API using the Designer
 By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application are downloaded when the application is first run. However, there might be parts of your application that are used by a small set of the users. In this case, you want to download an assembly only when you create one of its types. The following walkthrough demonstrates how to mark certain assemblies in your application as "optional", and how to download them by using classes in the <xref:System.Deployment.Application> namespace when the common language runtime demands them.  
   
 > [!NOTE]
@@ -29,7 +29,7 @@ By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deploymen
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, click **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
-## Creating the Projects  
+## Create the projects  
   
 #### To create a project that uses an on-demand assembly with Visual Studio  
   
@@ -63,7 +63,7 @@ By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deploymen
      [!code-csharp[ClickOnceOnDemand#3](../deployment/codesnippet/CSharp/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_4.cs)]
      [!code-vb[ClickOnceOnDemand#3](../deployment/codesnippet/VisualBasic/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer_4.vb)]  
   
-## Marking Assemblies as Optional  
+## Mark assemblies as optional  
   
 #### To mark assemblies as optional in your ClickOnce application by using Visual Studio  
   
@@ -71,21 +71,21 @@ By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deploymen
   
 2.  Click the **Application Files** button.  
   
-3.  Find the listing for ClickOnceLibrary.dll. Set the **Publish Status** drop-down box to **Include**.  
+3.  Find the listing for *ClickOnceLibrary.dll*. Set the **Publish Status** drop-down box to **Include**.  
   
 4.  Expand the **Group** drop-down box and select **New**. Enter the name `ClickOnceLibrary` as the new group name.  
   
-5.  Continue publishing your application as described in [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).  
+5.  Continue publishing your application as described in [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).  
   
 #### To mark assemblies as optional in your ClickOnce application by using Manifest Generation and Editing Tool — Graphical Client (MageUI.exe)  
   
-1.  Create your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests as described in [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).  
+1.  Create your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests as described in [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).  
   
 2.  Before closing MageUI.exe, select the tab that contains your deployment's application manifest, and within that tab select the **Files** tab.  
   
 3.  Find ClickOnceLibrary.dll in the list of application files and set its **File Type** column to **None**. For the **Group** column, type `ClickOnceLibrary.dll`.  
   
-## Testing the New Assembly  
+## Test the new assembly  
   
 #### To test your on-demand assembly  
   
@@ -93,5 +93,5 @@ By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deploymen
   
 2.  When your main form appears, press the <xref:System.Windows.Forms.Button>. You should see a string in a message box window that reads, "Hello, World!"  
   
-## See Also  
+## See also  
  <xref:System.Deployment.Application.ApplicationDeployment>

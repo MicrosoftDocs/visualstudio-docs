@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Debug or disable project code in XAML Designer
 
-In many cases, unhandled exceptions in the XAML designer can be caused by project code attempting to access properties or methods that return different values, or work in a different way when your application runs in the designer. You can resolve these exceptions by debugging the project code in another instance of Visual Studio, or temporarily prevent exceptions by disabling project code in the designer.
+In many cases, unhandled exceptions in the **XAML** designer can be caused by project code attempting to access properties or methods that return different values, or work in a different way when your application runs in the designer. You can resolve these exceptions by debugging the project code in another instance of Visual Studio, or temporarily prevent exceptions by disabling project code in the designer.
 
 Project code includes:
 
@@ -59,7 +59,7 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
 
      This is the process for the XAML designer in the first instance of Visual Studio.
 
-8.  In the first instance of Visual Studio, on the menu bar choose **Debug** > **Start Debugging**.
+8.  In the first instance of Visual Studio, on the menu bar, choose **Debug** > **Start Debugging**.
 
      You can now step into your code which is running in the designer.
 
@@ -67,7 +67,7 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
 
 -   In the unhandled exception dialog, choose the **Click here to disable running project code and reload designer** link.
 
--   Alternatively, on the toolbar in the XAML designer, choose the **Disable project code** button.
+-   Alternatively, on the toolbar in the **XAML designer**, choose the **Disable project code** button.
 
      ![The Disable Project Code button](../designers/media/xaml_disablecode.png)
 
@@ -76,10 +76,10 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
     > [!NOTE]
     > For projects that target ARM or X64 processors, Visual Studio cannot run project code in the designer, so the **Disable project code** button is disabled in the designer.
 
--   Either option will cause the designer to reload, and will then disable all code for the associated project.
+-   Either option causes the designer to reload and then disable all code for the associated project.
 
     > [!NOTE]
-    > Disabling project code can lead to a loss of design time data. An alternative is to debug the code running in the designer.
+    > Disabling project code can lead to a loss of design-time data. An alternative is to debug the code running in the designer.
 
 ## See also
 

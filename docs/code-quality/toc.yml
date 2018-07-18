@@ -1,29 +1,31 @@
+- name: Code analysis documentation
+  href: index.md
 - name: Overview
   items:
-  - name: Code Analysis for Managed Code
+  - name: Code analysis for managed code
     href: code-analysis-for-managed-code-overview.md
-  - name: Roslyn Analyzers
+  - name: Roslyn analyzers
     href: roslyn-analyzers-overview.md
-  - name: Code Analysis for C/C++
+  - name: Code analysis for C/C++
     href: code-analysis-for-c-cpp-overview.md
-  - name: Measure Code Maintainability with Code Metrics
+  - name: Measure code maintainability with code metrics
     href: code-metrics-values.md
 - name: Quickstarts
   items:
-  - name: "Quickstart: Code Analysis for C/C++"
+  - name: "Quickstart: Code analysis for C/C++"
     href: quick-start-code-analysis-for-c-cpp.md
 - name: Tutorials
   items:
-  - name: Analyze Managed Code for Code Defects
+  - name: Analyze managed code for code defects
     href: walkthrough-analyzing-managed-code-for-code-defects.md
-  - name: Analyze C/C++ Code for Defects
+  - name: Analyze C/C++ code for defects
     href: walkthrough-analyzing-c-cpp-code-for-defects.md
     items:
-    - name: Demo Sample
+    - name: Demo sample
       href: demo-sample.md
 - name: How-to guides
   items:
-  - name: Code Analysis for Managed Code
+  - name: Code analysis for managed code
     items:
     - name: Install Roslyn Analyzers
       href: install-roslyn-analyzers.md
@@ -48,7 +50,7 @@
       href: anonymous-methods-and-code-analysis.md
     - name: Create a Work Item for a Managed Code Defect
       href: how-to-create-a-work-item-for-a-managed-code-defect.md
-  - name: Code Analysis for C/C++
+  - name: Code analysis for C/C++
     items:
     - name: Use the C++ Core Guidelines checkers
       href: using-the-cpp-core-guidelines-checkers.md
@@ -75,7 +77,7 @@
         href: best-practices-and-examples-sal.md
     - name: Specify Additional Code Information by Using _Analysis_assume
       href: how-to-specify-additional-code-information-by-using-analysis-assume.md
-  - name: Rule Sets
+  - name: Rule sets
     href: using-rule-sets-to-group-code-analysis-rules.md
     items:
     - name: Rule Sets for Managed Code
@@ -89,7 +91,7 @@
       href: how-to-create-a-custom-rule-set.md
     - name: Use the Rule Set Editor
       href: working-in-the-code-analysis-rule-set-editor.md
-  - name: Check-in Policies
+  - name: Check-in policies
     href: how-to-create-or-update-standard-code-analysis-check-in-policies.md
     items:
     - name: Implement Custom Code Analysis Check-in Policies for Managed Code
@@ -100,7 +102,7 @@
       href: how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy.md
     - name: Version Compatibility
       href: version-compatibility-for-code-analysis-check-in-policies.md
-  - name: Code Metrics
+  - name: Code metrics
     items:
     - name: Generate Code Metrics Data
       href: how-to-generate-code-metrics-data.md
@@ -137,7 +139,7 @@
       href: native-recommended-rules-rule-set.md
     - name: Security Rules rule set for managed code
       href: security-rules-rule-set-for-managed-code.md
-  - name: Code Analysis for Managed Code Warnings
+  - name: Code analysis for managed code warnings
     href: code-analysis-for-managed-code-warnings.md
     items:
     - name: Code Analysis Warnings for Managed Code by CheckId
@@ -149,7 +151,7 @@
         href: ca5350-do-not-use-weak-cryptographic-algorithms.md
       - name: "CA5351 Do Not Use Broken Cryptographic Algorithms"
         href: ca5351-do-not-use-broken-cryptographic-algorithms.md
-    - name: Design Warnings
+    - name: Design warnings
       href: design-warnings.md
       items:
       - name: "CA1000: Do not declare static members on generic types"

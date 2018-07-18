@@ -82,6 +82,9 @@ Tasks provide the code that runs during the build process. The tasks in the foll
   
  [Delete Task](../msbuild/delete-task.md)  
  Deletes the specified files.  
+
+ [DownloadFile Task](../msbuild/downloadfile-task.md)  
+ Downloads a file to the specified location.  
   
  [Error Task](../msbuild/error-task.md)  
  Stops a build and logs an error based on an evaluated conditional statement.  
@@ -194,6 +197,9 @@ Tasks provide the code that runs during the build process. The tasks in the foll
  [UnregisterAssembly Task](../msbuild/unregisterassembly-task.md)  
  Unregisters the specified assemblies for COM interop purposes.  
   
+ [Unzip Task](../msbuild/unzip-task.md)  
+ Unzips a `.zip` archive to the specified location.
+  
  [UpdateManifest Task](../msbuild/updatemanifest-task.md)  
  Updates selected properties in a manifest and resigns.  
   
@@ -217,6 +223,9 @@ Tasks provide the code that runs during the build process. The tasks in the foll
   
  [XslTransformation Task](../msbuild/xsltransformation-task.md)  
  Transforms an XML input by using an *Extensible Stylesheet Language Transformation* (XSLT) or compiled XSLT and outputs to an output device or a file.  
+  
+  [ZipDirectory Task](../msbuild/zipdirectory-task.md)  
+ Creates a `.zip` archive from the contents of a directory.
   
 ## See Also  
  [MSBuild Reference](../msbuild/msbuild-reference.md)   

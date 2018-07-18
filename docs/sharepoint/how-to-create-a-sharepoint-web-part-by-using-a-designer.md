@@ -50,9 +50,9 @@ ms.workload:
      In **Solution Explorer**, your web part appears. After designing the web part in the Visual Web Developer designer, you'll test it on the site that you specify.  
   
 ## See also
- [Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)   
- [How to: Create a SharePoint Web Part](../sharepoint/how-to-create-a-sharepoint-web-part.md)   
- [Walkthrough: Creating a Web Part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)   
- [Walkthrough: Creating a Web Part for SharePoint by Using a Designer](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint-by-using-a-designer.md)  
+ [Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)   
+ [How to: Create a SharePoint web part](../sharepoint/how-to-create-a-sharepoint-web-part.md)   
+ [Walkthrough: Create a web part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)   
+ [Walkthrough: Create a web part for SharePoint by using a designer](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint-by-using-a-designer.md)  
   
   

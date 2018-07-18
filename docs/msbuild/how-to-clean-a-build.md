@@ -16,25 +16,26 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Clean a Build
-When you clean a build, all intermediate and output files are deleted, leaving only the project and component files. From the project and component files, new instances of the intermediate and output files can then be built. The library of common tasks that is provided with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] includes an [Exec](../msbuild/exec-task.md) task that you can use to run system commands. For more information on the library of tasks, see [Task Reference](../msbuild/msbuild-task-reference.md).  
+# How to: Clean a build
+When you clean a build, all intermediate and output files are deleted, leaving only the project and component files. From the project and component files, new instances of the intermediate and output files can then be built. The library of common tasks that is provided with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] includes an [Exec](../msbuild/exec-task.md) task that you can use to run system commands. For more information on the library of tasks, see [Task reference](../msbuild/msbuild-task-reference.md).  
   
-## Creating a Directory for Output Items  
- By default, the .exe file that is created when you compile a project is placed in the same directory as the project and source files. Typically, however, output items are created in a separate directory.  
+## Create a directory for output items  
+ By default, the *.exe* file that is created when you compile a project is placed in the same directory as the project and source files. Typically, however, output items are created in a separate directory.  
   
 #### To create a directory for output items  
   
-1.  Use the `Property` element to define the location and name of the directory. For example, create a directory named `BuiltApp` in the directory that contains the project and source files:  
+1.  Use the `Property` element to define the location and name of the directory. For example, create a directory named *BuiltApp* in the directory that contains the project and source files:  
   
      `<builtdir>BuiltApp</builtdir>`  
   
 2.  Use the [MakeDir](../msbuild/makedir-task.md) task to create the directory if the directory does not exist. For example:  
   
-     `<MakeDir Directories = "$(builtdir)"`  
+     ```xml
+     <MakeDir Directories = "$(builtdir)"  
+      Condition = "!Exists('$(builtdir)')" />
+     ```
   
-     `Condition = "!Exists('$(builtdir)')" />`  
-  
-## Removing the Output Items  
+## Remove the output items  
  Prior to creating new instances of intermediate and output files, you may want to clear all previous instances of intermediate and output files. Use the [RemoveDir](../msbuild/removedir-task.md) task to delete a directory and all files and directories that it contains from a disk.  
   
 #### To remove a directory and all files contained in the directory  
@@ -94,9 +95,9 @@ When you clean a build, all intermediate and output files are deleted, leaving o
 </Project>  
 ```  
   
-## See Also  
- [Exec Task](../msbuild/exec-task.md)   
- [MakeDir Task](../msbuild/makedir-task.md)   
- [RemoveDir Task](../msbuild/removedir-task.md)   
- [Csc Task](../msbuild/csc-task.md)   
+## See also  
+ [Exec task](../msbuild/exec-task.md)   
+ [MakeDir task](../msbuild/makedir-task.md)   
+ [RemoveDir task](../msbuild/removedir-task.md)   
+ [Csc task](../msbuild/csc-task.md)   
  [Targets](../msbuild/msbuild-targets.md)

@@ -57,11 +57,11 @@ The sphere is the default preview shape in the Shader Designer; if you are curre
 
      ![Billiard texture compressed into a square](../designers/media/gfx_shader_demo_billiard_art_ball_texture_square.png)
 
- Now you can create a shader that applies this texture to the model.
+ Now, you can create a shader that applies this texture to the model.
 
 ### To create a basic texture shader
 
-1.  Create a DGSL shader to work with. For information about how to add a DGSL shader to your project, see the Getting Started section in [Shader Designer](../designers/shader-designer.md).
+1.  Create a DGSL shader with which to work. For information about how to add a DGSL shader to your project, see the Getting Started section in [Shader Designer](../designers/shader-designer.md).
 
      By default, a shader graph looks like this:
 
@@ -73,7 +73,7 @@ The sphere is the default preview shape in the Shader Designer; if you are curre
 
 3.  Apply the texture that you created in the previous procedure by configuring the texture properties. Set the value of the **Texture** property of the **Texture Sample** node to **Texture1**, and then specify the texture file by using the **Filename** property of the **Texture1** property group in the same property window.
 
- For more information about how to apply a texture in your shader, see [How to: Create a Basic Texture Shader](../designers/how-to-create-a-basic-texture-shader.md).
+ For more information about how to apply a texture in your shader, see [How to: Create a basic texture shader](../designers/how-to-create-a-basic-texture-shader.md).
 
  Your billiard ball should now look similar to this:
 
@@ -95,7 +95,7 @@ So far, you've created an easily recognizable billiard ball. However, it appears
 
 -   Optionally, you can adjust how the lighting behaves by configuring the **MaterialDiffuse** property of the shader graph. To access properties of the shader graph, choose an empty area of the design surface, and then locate the property that you want to access in the **Properties** window.
 
- For more information about how to apply Lambert lighting in your shader, see [How to: Create a Basic Lambert Shader](../designers/how-to-create-a-basic-lambert-shader.md).
+ For more information about how to apply Lambert lighting in your shader, see [How to: Create a basic Lambert shader](../designers/how-to-create-a-basic-lambert-shader.md).
 
  With Lambert lighting applied, your billiard ball should look similar to this:
 
@@ -117,7 +117,7 @@ The Lambert lighting model provides the sense of shape and dimension that was ab
 
 2.  Optionally, you can adjust the way that the specular highlight behaves by configuring the specular properties (**MaterialSpecular** and **MaterialSpecularPower**) of the shader graph. To access properties of the shader graph, choose an empty area of the design surface, and then in the **Properties** window, locate the property that you want to access.
 
- For more information about how to apply specular highlights in your shader, see [How to: Create a Basic Phong Shader](../designers/how-to-create-a-basic-phong-shader.md).
+ For more information about how to apply specular highlights in your shader, see [How to: Create a basic Phong shader](../designers/how-to-create-a-basic-phong-shader.md).
 
  With specular highlighting applied, your billiard ball should look similar to this:
 
@@ -153,19 +153,19 @@ With specular highlights applied, your billiard ball looks pretty convincing. It
 
      ![The texture for the top of the cubemap](../designers/media/gfx_shader_demo_billiard_art_env_texture_top2.png)
 
- Now that you have created individual textures for the sides of the cube map, you can use a tool to assemble them into a cube map that can be stored in a single .dds texture. You can use any program you want to create the cube map as long as it can save the cube map in the .dds texture format. This walkthrough demonstrates how to create the texture by using the DirectX Texture Tool that's a part of the June 2010 DirectX SDK.
+ Now that you have created individual textures for the sides of the cube map, you can use a tool to assemble them into a cube map that can be stored in a single *.dds* texture. You can use any program you want to create the cube map as long as it can save the cube map in the .dds texture format. This walkthrough demonstrates how to create the texture by using the DirectX Texture Tool that's a part of the June, 2010 DirectX SDK.
 
 ### To assemble a cube map by using the DirectX Texture Tool
 
-1.  In the DirectX Texture Tool, on the main menu, choose **File**, **New Texture**. The **New Texture** dialog box appears.
+1.  In the DirectX Texture Tool, on the main menu, choose **File** > **New Texture**. The **New Texture** dialog box appears.
 
 2.  In the **Texture Type** group, choose **Cubemap Texture**.
 
 3.  In the **Dimensions** group, enter the correct value for the **Width** and **Height**, and then choose **OK**. A new texture document appears. By default, the texture first shown in the texture document corresponds to the **Positive X** cube face.
 
-4.  Load the texture that you created for the side of the texture cube onto the cube face. On the main menu, choose **File**, **Open Onto This Cubemap Face**, select the texture that you created for the side of the cube, and then choose **Open**.
+4.  Load the texture that you created for the side of the texture cube onto the cube face. On the main menu, choose **File** > **Open Onto This Cubemap Face**, select the texture that you created for the side of the cube, and then choose **Open**.
 
-5.  Repeat step 4 for the **Negative X**, **Positive Z**, and **Negative Z** cube faces. To do so, you must view the face that you want to load. To view a different cube map face, on the main menu, choose **View**, **Cube Map Face**, and then select the face that you want to view.
+5.  Repeat step 4 for the **Negative X**, **Positive Z**, and **Negative Z** cube faces. To do so, you must view the face that you want to load. To view a different cube map face, on the main menu, choose **View** > **Cube Map Face**, and then select the face that you want to view.
 
 6.  For the **Positive Y** cube face, load the texture that you created for the top of the texture cube.
 
@@ -205,8 +205,8 @@ With specular highlights applied, your billiard ball looks pretty convincing. It
 
 ## See also
 
-- [How to: Export a Shader](../designers/how-to-export-a-shader.md)
-- [How to: Apply a Shader to a 3D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md)
+- [How to: Export a shader](../designers/how-to-export-a-shader.md)
+- [How to: Apply a shader to a 3D model](../designers/how-to-apply-a-shader-to-a-3-d-model.md)
 - [Shader Designer](../designers/shader-designer.md)
 - [Image Editor](../designers/image-editor.md)
-- [Shader Designer Nodes](../designers/shader-designer-nodes.md)
+- [Shader Designer nodes](../designers/shader-designer-nodes.md)

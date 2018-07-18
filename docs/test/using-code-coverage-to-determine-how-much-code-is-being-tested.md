@@ -260,9 +260,9 @@ When you check in your code, your tests will run on the build server, along with
 
 After the build runs, the code coverage results are attached to the test run and appear in the build summary.
 
-## Analyze Code Coverage in a Command Line
+## Analyze code coverage from the command line
 
-To run tests from the command line, use vstest.console.exe. Code coverage is an option of the vstest.console.exe utility.
+To run tests from the command line, use *vstest.console.exe*. Code coverage is an option of the *vstest.console.exe* utility.
 
 1.  Launch the Visual Studio Developer Command Prompt:
 
@@ -272,9 +272,11 @@ To run tests from the command line, use vstest.console.exe. Code coverage is an 
 
     `vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage`
 
+For more information, see [VSTest.Console.exe command-line options](vstest-console-options.md).
+
 ## Troubleshoot
 
-If you do not see code coverage results, the [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md) topic might help you.
+If you do not see code coverage results, the [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md) topic might help you.
 
 ## See also
 

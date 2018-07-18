@@ -71,14 +71,15 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
   
 10. In the function `button1_Click`., add the following code:  
   
+    ```vb  
+    textBox1.Text = "Button was clicked!"
     ```  
-    ' Visual Basic  
-    textBox1.Text = "Button was clicked!"  
   
-    // C#  
-    textBox1.Text = "Button was clicked!";  
+    ```csharp 
+    textBox1.Text = "Button was clicked!";
+    ```  
   
-    // C++  
+    ```cpp  
     textBox1->Text = "Button was clicked!";  
     ```  
   
@@ -93,16 +94,17 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
   
 1.  In the source window, click the left margin on the same line as the text you added:  
   
+     ```vb  
+    textBox1.Text = "Button was clicked!"
     ```  
-    ' Visual Basic  
-    textBox1.Text = "Button was clicked!"  
   
-    // C#  
-    textBox1.Text = "Button was clicked!";  
+    ```csharp 
+    textBox1.Text = "Button was clicked!";
+    ```  
   
-    // C++  
+    ```cpp  
     textBox1->Text = "Button was clicked!";  
-    ```  
+    ``` 
   
      A red dot appears and the text on the line is highlighted in red. The red dot represents a breakpoint. For more information, see [Breakpoints](http://msdn.microsoft.com/en-us/fe4eedc1-71aa-4928-962f-0912c334d583). When you run the application under the debugger, the debugger will break execution at that location when the code is hit. You can then view the state of your application and debug it.  
   
@@ -123,17 +125,13 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
   
      The **Watch1** window shows the value of this variable in quotation marks as:  
   
-    ```  
-    ""  
-    ```  
-  
+    `""`  
+ 
 6.  On the **Debug** menu, choose **Step Into**.  
   
      The value of textBox1.Text changes in the **Watch1** window to:  
   
-    ```  
-    Button was clicked!  
-    ```  
+    `Button was clicked!`  
   
 7.  On the **Debug** menu, choose **Continue** to resume debugging your program.  
   
@@ -154,16 +152,16 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
   
 1.  In the project you created above, click in the left margin to once again set a breakpoint at the line you added:  
   
+     ```vb  
+    textBox1.Text = "Button was clicked!"
     ```  
-    ' Visual Basic  
-    textBox1.Text = "Button was clicked!"  
   
-    // C#  
-    textBox1.Text = "Button was clicked!"  
-  
-    // C++  
-    textBox1->Text = "Button was clicked!";  
+    ```csharp 
+    textBox1.Text = "Button was clicked!";
     ```  
+  
+    ```cpp  
+    textBox1->Text = "Button was clicked!";   
   
 2.  On the **Debug** menu, select **Start Without Debugging**.  
   

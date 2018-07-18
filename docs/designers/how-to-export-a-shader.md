@@ -11,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Export a Shader
+# How to: Export a shader
 This document demonstrates how to use the Shader Designer to export a Directed Graph Shader Language (DGSL) shader so that you can use it in your app.
 
  This document demonstrates this activity:
@@ -21,13 +21,13 @@ This document demonstrates how to use the Shader Designer to export a Directed G
 ## Exporting a shader
  After you create a shader by using the Shader Designer and before you can use it in your app, you have to export it in a format that your graphics API understands. You can export a shader in different ways to meet different needs.
 
-#### To export a shader
+### To export a shader
 
 1.  In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open a **Visual Shader Graph (.dgsl)** file.
 
-     If you don't have a **Visual Shader Graph (.dgsl)** file to open, create one as described in [How to: Create a Basic Color Shader](../designers/how-to-create-a-basic-color-shader.md).
+     If you don't have a **Visual Shader Graph (.dgsl)** file to open, create one as described in [How to: Create a basic color shader](../designers/how-to-create-a-basic-color-shader.md).
 
-2.  On the **Shader Designer** toolbar, choose **Advanced**, **Export**, **Export As**. The **Export Shader** dialog box is displayed.
+2.  On the **Shader Designer** toolbar, choose **Advanced** > **Export** > **Export As**. The **Export Shader** dialog box appears.
 
 3.  In the **Save as type** drop-down list, choose the format that you want to export.
 
@@ -46,5 +46,5 @@ This document demonstrates how to use the Shader Designer to export a Directed G
 
 ## See also
 
-- [How to: Create a Basic Color Shader](../designers/how-to-create-a-basic-color-shader.md)
+- [How to: Create a basic color shader](../designers/how-to-create-a-basic-color-shader.md)
 - [Shader Designer](../designers/shader-designer.md)

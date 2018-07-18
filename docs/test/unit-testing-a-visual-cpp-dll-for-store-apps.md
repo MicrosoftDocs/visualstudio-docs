@@ -20,7 +20,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 ##  <a name="Create_the_solution_and_the_unit_test_project"></a> Create the solution and the unit test project
 
-1.  On the **File** menu, choose **New** > **New Project...**.
+1.  On the **File** menu, choose **New** > **New Project**.
 
 2.  In the New Project dialog, expand **Installed** > **Visual C++** and choose **Windows Universal**. Then choose **Unit Test App (Universal Windows)** from the list of project templates.
 
@@ -125,11 +125,11 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 1.  Add RooterLib to the RooterLibTests project.
 
-    1.  In Solution Explorer, choose the **RooterLibTests** project and then choose **References...** on the shortcut menu.
+    1.  In Solution Explorer, choose the **RooterLibTests** project and then choose **References** on the shortcut menu.
 
     2.  On the RooterLib Project Properties dialog box, expand **Common Properties** and choose **Framework and References**.
 
-    3.  Choose **Add New Reference....**
+    3.  Choose **Add New Reference**
 
     4.  In the **Add Reference** dialog box, expand **Solution** and then choose **Projects**. Then select the **RouterLib** item.
 

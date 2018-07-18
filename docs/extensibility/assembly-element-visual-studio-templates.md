@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Assembly Element (Visual Studio Templates)
+# Assembly element (Visual Studio templates)
 Specifies information about an assembly, which the template uses to add a reference of that assembly to projects.  
   
  \<VSTemplate>  
@@ -32,22 +32,22 @@ Specifies information about an assembly, which the template uses to add a refere
 <Assembly> AssemblyName </Assembly>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements  
  None.  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |[Reference](../extensibility/reference-element-visual-studio-templates.md)|Specifies the assembly reference to add when the item is added to a project.|  
   
-## Text Value  
+## Text value  
  A text value is required.  
   
  This text specifies the assembly to add to a project when the item template is instantiated. This assembly name must be specified in one of the following ways:  
@@ -69,10 +69,10 @@ Specifies information about an assembly, which the template uses to add a refere
 ## Remarks  
  `Assembly` is a required child element of `Reference`.  
   
- The `Reference`, `References,` and `Assembly` elements can only be used in .vstemplate files that have a `Type` attribute value of `Item`.  
+ The `Reference`, `References,` and `Assembly` elements can only be used in *.vstemplate* files that have a `Type` attribute value of `Item`.  
   
 ## Example  
- The following example illustrates the `TemplateContent` element of an item template. This XML adds references to the System.dll and System.Data.dll assemblies.  
+ The following example illustrates the `TemplateContent` element of an item template. This XML adds references to the *System.dll* and *System.Data.dll* assemblies.  
   
 ```  
 <TemplateContent>  
@@ -92,6 +92,6 @@ Specifies information about an assembly, which the template uses to add a refere
 </TemplateContent>  
 ```  
   
-## See Also  
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
+## See also  
+ [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)   
+ [Create project and item templates](../ide/creating-project-and-item-templates.md)

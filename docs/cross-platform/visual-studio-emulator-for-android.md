@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Emulator for Android | Microsoft Docs"
 ms.custom: ""
-ms.date: "07/17/2017"
+ms.date: "07/03/2018"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 ms.assetid: 80f0104f-a4db-44dd-bd55-37bb67776c62
@@ -12,12 +12,18 @@ ms.workload:
   - "multiple"
 ---
 # Visual Studio Emulator for Android
+
 The Visual Studio Emulator for Android is a desktop application that emulates an Android device. It provides a virtualized environment in which you can debug and test Android apps without a physical device. It also provides an isolated environment for your application prototypes.  
 
 > [!IMPORTANT]
 > In most scenarios, the Google Android emulator is recommended for use instead of the Visual Studio Emulator for Android:
-> - When you are in need of emulator images containing Android 7.0 or later, because there are no plans to publish Android images past version 6.0 for use in the Visual Studio Emulator for Android.
-> - When using Visual Studio Tools for Apache Cordova. For more information, see [Run your Apache Cordova app on Android](/visualstudio/cross-platform/tools-for-cordova/run-your-app/run-app-android#a-idgoogle-android-emulatora-run-on-the-google-android-emulator).
+> - Visual Studio Emulator for Android is not supported after Visual Studio 2015.
+> - Emulator images later than Android version 6.0 are not available for Visual Studio Emulator for Android.
+> - The Google Android Emulator now supports [Hyper-V](https://docs.microsoft.com/xamarin/android/get-started/installation/android-emulator/hardware-acceleration#hyper-v).
+> - Visual Studio Tools for Apache Cordova works with the Google Android Emulator. For more information, see [Run your Apache Cordova app on Android](/visualstudio/cross-platform/tools-for-cordova/run-your-app/run-app-android#a-idgoogle-android-emulatora-run-on-the-google-android-emulator) (note that you no longer have to disable Hyper-V as explained in this article).
+>
+> For more information about configuring and using the Google Android Emulator, see
+> [Android Emulator Setup](https://docs.microsoft.com/xamarin/android/get-started/installation/android-emulator/).
   
  The Visual Studio Emulator for Android is designed to provide comparable performance to an actual device. Before you publish your app, however, we recommend that you test your app on a physical device.  
   

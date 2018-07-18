@@ -63,4 +63,4 @@ To develop SharePoint solutions, you must have sufficient permissions to run and
 3. Add your user account to the to the WSS_ADMIN_WPG group.
 
 ## See also
-[Getting Started &#40;SharePoint Development in Visual Studio&#41;](../sharepoint/getting-started-sharepoint-development-in-visual-studio.md)
+[Get Started &#40;SharePoint development in Visual Studio&#41;](../sharepoint/getting-started-sharepoint-development-in-visual-studio.md)

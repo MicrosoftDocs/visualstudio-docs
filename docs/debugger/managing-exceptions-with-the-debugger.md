@@ -87,7 +87,7 @@ If you select an exception in the **Exception Settings** window, debugger execut
   
      If you have **AccessViolationException** checked in **Exception Settings**, when you run this code in the debugger execution will break on the `throw` line. You can then continue execution. The console should display both lines:  
   
-    ```  
+    ```cmd
     caught exception  
     goodbye  
     ```  

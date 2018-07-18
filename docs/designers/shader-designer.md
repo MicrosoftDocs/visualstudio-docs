@@ -26,18 +26,18 @@ The Shader Designer supports these shader formats:
 
 |Format Name|File Extension|Supported Operations (View, Edit, Export)|
 |-----------------|--------------------|-------------------------------------------------|
-|Directed Graph Shader Language|.dgsl|View, Edit|
-|HLSL Shader (source code)|.hlsl|Export|
-|HLSL Shader (bytecode)|.cso|Export|
-|C++ header (HLSL bytecode array)|.h|Export|
+|Directed Graph Shader Language|*.dgsl*|View, Edit|
+|HLSL Shader (source code)|*.hlsl*|Export|
+|HLSL Shader (bytecode)|*.cso*|Export|
+|C++ header (HLSL bytecode array)|*.h*|Export|
 
-## Get Started
+## Get started
 
 This section describes how to add a DGSL shader to your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project and provides basic information to help you get started.
 
 ### To add a DGSL shader to your project
 
-1.  In **Solution Explorer**, open the shortcut menu for the project that you want to add the shader to, and then choose **Add**, **New Item**.
+1.  In **Solution Explorer**, open the shortcut menu for the project to which you want to add the shader, and then choose **Add** > **New Item**.
 
 2.  In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select **Visual Shader Graph (.dgsl)**.
 
@@ -68,8 +68,8 @@ This table describes the items on the **Shader Designer Mode** toolbar, which ar
 |Toolbar Item|Description|
 |------------------|-----------------|
 |**Select**|Enables interaction with nodes and edges in the graph. In this mode, you can select nodes and move or delete them, and you can establish edges or break them.|
-|**Pan**|Enables movement of a shader graph relative to the window frame. To pan, select a point on the design surface and move it around.<br /><br /> In **Select** mode, you can press and hold Ctrl to activate **Pan** mode temporarily.|
-|**Zoom**|Enables the display of more or less shader-graph detail relative to the window frame. In **Zoom** mode, select a point on the design surface and then move it right or down to zoom in, or left or up to zoom out.<br /><br /> In **Select** mode, you can press and hold Ctrl to zoom in or out by using the mouse wheel.|
+|**Pan**|Enables movement of a shader graph relative to the window frame. To pan, select a point on the design surface and move it around.<br /><br /> In **Select** mode, you can press and hold **Ctrl** to activate **Pan** mode temporarily.|
+|**Zoom**|Enables the display of more or less shader-graph detail relative to the window frame. In **Zoom** mode, select a point on the design surface and then move it right or down to zoom in, or left or up to zoom out.<br /><br /> In **Select** mode, you can press and hold **Ctrl** to zoom in or out by using the mouse wheel.|
 |**Zoom to Fit**|Displays the full shader graph in the window frame.|
 |**Real-Time Rendering Mode**|When real-time rendering is enabled, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] redraws the design surface, even when no user action is performed. This mode is useful when you work with shaders that change over time.|
 |**Preview with sphere**|When enabled, a model of a sphere is used to preview the shader. Only one preview shape at a time can be enabled.|
@@ -80,7 +80,7 @@ This table describes the items on the **Shader Designer Mode** toolbar, which ar
 |**Preview with plane**|When enabled, a model of a plane is used to preview the shader. Only one preview shape at a time can be enabled.|
 |**Toolbox**|Alternately shows or hides the **Toolbox**.|
 |**Properties**|Alternatively shows or hides the **Properties** window.|
-|**Advanced**|Contains advanced commands and options.<br /><br /> **Export**: Enables the export of a shader in several formats.<br /><br /> **Export As**: Exports the shader as either HLSL source code or as compiled shader bytecode. For more information about how to export shaders, see [How to: Export a Shader](../designers/how-to-export-a-shader.md).<br /><br /> **Graphics Engines**: Enables the selection of the renderer that is used to display the design surface.<br /><br /> **Render with D3D11**: Uses Direct3D 11 to render the Shader Designer design surface.<br /><br /> **Render with D3D11WARP**: Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the Shader Designer design surface.<br /><br /> **View**: Enables the selection of additional information about the Shader Designer.<br /><br /> **Frame Rate**: When enabled, displays the current frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second.  This option is useful when you enable the **Real-Time Rendering Mode** option.|
+|**Advanced**|Contains advanced commands and options.<br /><br /> **Export**: Enables the export of a shader in several formats.<br /><br /> **Export As**: Exports the shader as either HLSL source code or as compiled shader bytecode. For more information about how to export shaders, see [How to: Export a shader](../designers/how-to-export-a-shader.md).<br /><br /> **Graphics Engines**: Enables the selection of the renderer that is used to display the design surface.<br /><br /> **Render with D3D11**: Uses Direct3D 11 to render the Shader Designer design surface.<br /><br /> **Render with D3D11WARP**: Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the Shader Designer design surface.<br /><br /> **View**: Enables the selection of additional information about the Shader Designer.<br /><br /> **Frame Rate**: When enabled, displays the current frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second. This option is useful when you enable the **Real-Time Rendering Mode** option.|
 
 > [!TIP]
 > You can choose the **Advanced** button to run the last command again.
@@ -95,7 +95,7 @@ Use **Select** mode to add, remove, reposition, connect, and configure nodes. He
 
     -   To add a node to the graph, select it in the **Toolbox** and then move it to the design surface.
 
-    -   To remove a node from the graph, select it and then press Delete.
+    -   To remove a node from the graph, select it and then press **Delete**.
 
     -   To reposition a node, select it and then move it to a new location.
 
@@ -151,39 +151,39 @@ To rotate the shape, press and hold **Alt**, and then select any point on the de
 
 Before you can use a shader in your app, you have to export it in a format that DirectX understands.
 
-You can export shaders as HLSL source code or as compiled shader bytecode. HLSL source code is exported to a text file that has an .hlsl file name extension. Shader bytecode can be exported either to a raw binary file that has a .cso file name extension, or to a C++ header (.h) file that encodes the shader bytecode into an array.
+You can export shaders as HLSL source code or as compiled shader bytecode. HLSL source code is exported to a text file that has an *.hlsl* file name extension. Shader bytecode can be exported either to a raw binary file that has a *.cso* file name extension, or to a C++ header (*.h*) file that encodes the shader bytecode into an array.
 
-For more information about how to export shaders, see [How to: Export a Shader](../designers/how-to-export-a-shader.md).
+For more information about how to export shaders, see [How to: Export a shader](../designers/how-to-export-a-shader.md).
 
 ## Keyboard shortcuts
 
 |Command|Keyboard shortcuts|
 |-------------|------------------------|
-|Switch to **Select** mode|Ctrl+G, Gtrl+Q<br /><br /> S|
-|Switch to **Zoom** mode|Ctrl+G, Ctrl+Z<br /><br /> Z|
-|Switch to **Pan** mode|Ctrl+G, Ctrl+P<br /><br /> K|
-|Select all|Ctrl+A|
-|Delete the current selection|Delete|
-|Cancel the current selection|Escape|
-|Zoom in|Ctrl+Mouse wheel forward<br /><br /> Plus Sign (+)|
-|Zoom out|Ctrl-Mouse wheel backward<br /><br /> Minus Sign (-)|
-|Pan the design surface up|Mouse wheel backward<br /><br /> PageDown|
-|Pan the design surface down|Mouse wheel forward<br /><br /> PageUp|
-|Pan the design surface left|Shift+Mouse wheel backward<br /><br /> Mouse wheel left<br /><br /> Shift+PageDown|
-|Pan the design surface right|Shift+Mouse wheel forward<br /><br /> Mouse wheel right<br /><br /> Shift+PageUp|
-|Move the keyboard focus to another node|The Arrow keys|
-|Select the node that has keyboard focus (adds the node to the selection group)|Shift+Spacebar|
-|Toggle selection of the node that has keyboard focus|Ctrl+Spacebar|
-|Toggle current selection (if no nodes are selected, select the node that has keyboard focus)|Spacebar|
-|Move the current selection up|Shift+Up Arrow|
-|Move the current selection down|Shift+Down Arrow|
-|Move the current selection left|Shift+Left Arrow|
-|Move current selection right|Shift+Right Arrow.|
+|Switch to **Select** mode|**Ctrl**+**G**, **Ctrl**+**Q**<br /><br /> **S**|
+|Switch to **Zoom** mode|**Ctrl**+**G**, **Ctrl**+**Z**<br /><br /> **Z**|
+|Switch to **Pan** mode|**Ctrl**+**G**, **Ctrl**+**P**<br /><br /> **K**|
+|Select all|**Ctrl**+**A**|
+|Delete the current selection|**Delete**|
+|Cancel the current selection|**Escape** (**Esc**)|
+|Zoom in|**Ctrl**+**Mouse wheel forward**<br /><br /> Plus Sign (**+**)|
+|Zoom out|**Ctrl**+**Mouse wheel backward**<br /><br /> Minus Sign (**-**)|
+|Pan the design surface up|**Mouse wheel backward**<br /><br /> **PageDown**|
+|Pan the design surface down|**Mouse wheel forward**<br /><br /> **PageUp**|
+|Pan the design surface left|**Shift**+**Mouse wheel backward**<br /><br /> **Mouse wheel left**<br /><br /> **Shift**+**PageDown**|
+|Pan the design surface right|**Shift**+**Mouse wheel forward**<br /><br /> **Mouse wheel right**<br /><br /> **Shift**+**PageUp**|
+|Move the keyboard focus to another node|The **Arrow** keys|
+|Select the node that has keyboard focus (adds the node to the selection group)|**Shift**+**Spacebar**|
+|Toggle selection of the node that has keyboard focus|**Ctrl**+**Spacebar**|
+|Toggle current selection (if no nodes are selected, select the node that has keyboard focus)|**Spacebar**|
+|Move the current selection up|**Shift**+**Up Arrow**|
+|Move the current selection down|**Shift**+**Down Arrow**|
+|Move the current selection left|**Shift**+**Left Arrow**|
+|Move current selection right|**Shift**+**Right Arrow**.|
 
 ## Related topics
 
 |Title|Description|
 |-----------|-----------------|
-|[Working with 3D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] tools that you can use to work with textures and images, 3D models, and shader effects.|
+|[Working with 3D assets for games and apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] tools that you can use to work with textures and images, 3D models, and shader effects.|
 |[Image Editor](../designers/image-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Image Editor to work with textures and images.|
 |[Model Editor](../designers/model-editor.md)|Describes how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Model Editor to work with 3D models.|

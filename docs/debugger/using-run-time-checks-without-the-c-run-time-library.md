@@ -31,7 +31,7 @@ If you link your program without the C run-time library, using **/NODEFAULTLIB**
   
  `_RTC_Initialize` initializes your program for run-time checks. If you do not link with the C run-time library, you must check to see whether your program is compiled with run-time error checks before calling `_RTC_Initialize`, as follows:  
   
-```  
+```cpp
 #ifdef __MSVC_RUNTIME_CHECKS  
     _RTC_Initialize();  
 #endif  
@@ -39,7 +39,7 @@ If you link your program without the C run-time library, using **/NODEFAULTLIB**
   
  If you do not link with the C run-time library, you must also define a function called `_CRT_RTC_INITW`. `_CRT_RTC_INITW` installs your user-defined function as the default error reporting function, as follows:  
   
-```  
+```cpp
 // C version:  
 _RTC_error_fnW __cdecl _CRT_RTC_INITW(  
         void *res0, void **res1, int res2, int res3, int res4)  

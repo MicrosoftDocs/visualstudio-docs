@@ -62,7 +62,7 @@ ms.workload:
   
 6.  In the **What is the trust level for this SharePoint solution?** section, choose the **Deploy as a farm solution** option button.  
   
-     All site definition projects must be deployed as farm solutions. For more information about sandboxed solutions versus farm solutions, see [Sandboxed Solution Considerations](../sharepoint/sandboxed-solution-considerations.md).  
+     All site definition projects must be deployed as farm solutions. For more information about sandboxed solutions versus farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).  
   
 7.  Choose the **Finish** button.  
   
@@ -181,6 +181,6 @@ ms.workload:
      The text appears in the label on the right side of the button.  
   
 ## See also
- [How to: Create an Event Receiver](../sharepoint/how-to-create-an-event-receiver.md)   
- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
+ [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)   
+ [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)  
   

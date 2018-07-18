@@ -107,7 +107,7 @@ You can run unit tests in Visual Studio by using third-party test frameworks suc
 
 Following are the steps to enable third-part test frameworks:
 
-1. Choose **Tools** > **Extensions and Updates...** from the menu bar.
+1. Choose **Tools** > **Extensions and Updates** from the menu bar.
 
 1. In the **Extensions and Updates** dialog box, expand the **Online** category and then **Visual Studio Marketplace**. Then, choose **Tools** > **Testing**.
 
@@ -119,7 +119,7 @@ Following are the steps to enable third-part test frameworks:
 
    ![Name the class library project and add it](media/create3rdpartyunittest3.png)
 
-1. Install the plug-in. In **Solution Explorer**, select the class library project, and then choose **Manage NuGet Packages...** from its right-click or context menu.
+1. Install the plug-in. In **Solution Explorer**, select the class library project, and then choose **Manage NuGet Packages** from its right-click or context menu.
 
    ![Manage NuGet packages to install the plug-in](media/create3rdpartyunittest3a.png)
 
@@ -134,7 +134,7 @@ Following are the steps to enable third-part test frameworks:
 
    ![The reference for the 3rd-party unit test framework is added into your solution](media/create3rdpartyunittest6.png)
 
-1. From the class library project's **References** node, select **Add Reference...**.
+1. From the class library project's **References** node, select **Add Reference**.
 
    ![Add a reference to the project](media/createunittest6.png)
 

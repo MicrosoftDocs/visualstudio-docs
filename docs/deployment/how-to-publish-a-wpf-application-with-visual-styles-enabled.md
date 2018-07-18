@@ -11,8 +11,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Publish a WPF Application with Visual Styles Enabled
-Visual styles enable the appearance of common controls to change based on the theme chosen by the user. By default, visual styles are not enabled for Windows Presentation Foundation (WPF) applications, so you must enable them manually. However, enabling visual styles for a WPF application and then publishing the solution causes an error. This topic describes how to resolve this error and the process for publishing a WPF application with visual styles enabled. For more information about visual styles, see [Visual Styles Overview](http://msdn.microsoft.com/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e). For more information about the error message, see [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md).  
+# How to: Publish a WPF application with visual styles enabled
+Visual styles enable the appearance of common controls to change based on the theme chosen by the user. By default, visual styles are not enabled for Windows Presentation Foundation (WPF) applications, so you must enable them manually. However, enabling visual styles for a WPF application and then publishing the solution causes an error. This topic describes how to resolve this error and the process for publishing a WPF application with visual styles enabled. For more information about visual styles, see [Visual styles overview](/windows/desktop/Controls/visual-styles-overview). For more information about the error message, see [Troubleshoot specific errors in ClickOnce deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md).  
   
  To resolve the error and to publish the solution, you must perform the following tasks:  
   
@@ -40,7 +40,7 @@ Visual styles enable the appearance of common controls to change based on the th
   
     ###### To open the manifest file in a Visual Basic project  
   
-    1.  On the menu bar, choose **Project**, *ProjectName***Properties**, where *ProjectName* is the name of your WPF project.  
+    1.  On the menu bar, choose **Project**, *ProjectName* **Properties**, where *ProjectName* is the name of your WPF project.  
   
          The property pages for your WPF project appear.  
   
@@ -50,7 +50,7 @@ Visual styles enable the appearance of common controls to change based on the th
   
     ###### To open the manifest file in a C# project  
   
-    1.  On the menu bar, choose **Project**, *ProjectName***Properties**, where *ProjectName* is the name of your WPF project.  
+    1.  On the menu bar, choose **Project**, *ProjectName* **Properties**, where *ProjectName* is the name of your WPF project.  
   
          The property pages for your WPF project appear.  
   
@@ -59,11 +59,11 @@ Visual styles enable the appearance of common controls to change based on the th
         > [!NOTE]
         >  If **Embed manifest with default settings** or **Create application without manifest** appear in the manifest field, visual styles are not enabled. If the name of a manifest file appears in the manifest field, proceed to the next step in this procedure.  
   
-    3.  In **Solution Explorer**, choose **Show All Files** ().  
+    3.  In **Solution Explorer**, choose **Show All Files**.  
   
          This button shows all project items, including those that have been excluded and those that are normally hidden. The manifest file appears as a project item.  
   
-2.  Build and publish your solution. For more information about how to publish the solution, see [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).  
+2.  Build and publish your solution. For more information about how to publish the solution, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).  
   
 ## Create a manifest file  
   
@@ -79,18 +79,18 @@ Visual styles enable the appearance of common controls to change based on the th
   
 3.  In the **Save As** dialog box, in the **Save as type** drop-down list, select **All Files**.  
   
-4.  In the **File name** box, name the file and append **.manifest** to the end of the file name. For example: **themes.manifest**.  
+4.  In the **File name** box, name the file and append *.manifest* to the end of the file name. For example: *themes.manifest*.  
   
 5.  Choose the **Browse Folders** button, select any folder, and then click **Save**.  
   
     > [!NOTE]
-    >  The remaining procedures assume that the name of this file is **themes.manifest** and that the file is saved to the C:\temp directory on your computer.  
+    >  The remaining procedures assume that the name of this file is *themes.manifest* and that the file is saved to the *C:\temp* directory on your computer.  
   
 ## Embed the manifest file into the executable file of the published solution  
   
 1.  Open the **Visual Studio Command Prompt**.  
   
-     For more information about how to open the **Visual Studio Command Prompt**, see [Command Prompts](/dotnet/framework/tools/developer-command-prompt-for-vs).  
+     For more information about how to open the **Visual Studio Command Prompt**, see [Command prompts](/dotnet/framework/tools/developer-command-prompt-for-vs).  
   
     > [!NOTE]
     >  The remaining steps make the following assumptions about your solution:  
@@ -105,44 +105,44 @@ Visual styles enable the appearance of common controls to change based on the th
   
 2.  At the command prompt, change the path to the directory that contains the most recent version of the published application files. The following example demonstrates this step.  
   
-    ```  
+    ```cmd  
 cd "%UserProfile%\Documents\Visual Studio 2010\Projects\MyWPFProject\publish\Application Files\WPFApp_1_0_0_0"  
     ```  
   
 3.  At the command prompt, run the following command to embed the manifest file into the executable file of the application.  
   
-    ```
+    ```cmd
     mt -manifest c:\temp\themes.manifest -outputresource:MyWPFApp.exe.deploy  
     ```  
   
 ## Sign the application and deployment manifests  
   
-1.  At the command prompt, run the following command to remove the `.deploy` extension from the executable file in the current directory.  
+1.  At the command prompt, run the following command to remove the *.deploy* extension from the executable file in the current directory.  
   
-    ```  
+    ```cmd  
     ren MyWPFApp.exe.deploy MyWPFApp.exe  
     ```  
   
     > [!NOTE]
-    >  This example assumes that only one file has the `.deploy` file extension. Make sure that you rename all files in this directory that have the `.deploy` file extension.  
+    >  This example assumes that only one file has the *.deploy* file extension. Make sure that you rename all files in this directory that have the *.deploy* file extension.  
   
 2.  At the command prompt, run the following command to sign the application manifest.  
   
-    ```  
+    ```cmd  
     mage -u MyWPFApp.exe.manifest -cf ..\..\..\MyWPFApp_TemporaryKey.pfx  
     ```  
   
     > [!NOTE]
-    >  This example assumes that you sign the manifest by using the `.pfx` file of the project. If you are not signing the manifest, you can omit the `-cf` parameter that is used in this example. If you are signing the manifest with a certificate that requires a password, specify the `-password` option (`For example: mage -u MyWPFApp.exe.manifest -cf ..\..\..\MyWPFApp_TemporaryKey.pfx - password Password`).  
+    >  This example assumes that you sign the manifest by using the *.pfx* file of the project. If you are not signing the manifest, you can omit the `-cf` parameter that is used in this example. If you are signing the manifest with a certificate that requires a password, specify the `-password` option (`For example: mage -u MyWPFApp.exe.manifest -cf ..\..\..\MyWPFApp_TemporaryKey.pfx - password Password`).  
   
-3.  At the command prompt, run the following command to add the `.deploy` extension to the name of the file that you renamed in a previous step of this procedure.  
+3.  At the command prompt, run the following command to add the *.deploy* extension to the name of the file that you renamed in a previous step of this procedure.  
   
     ```  
     ren MyWPFApp.exe MyWPFApp.exe.deploy  
     ```  
   
     > [!NOTE]
-    >  This example assumes that only one file had a `.deploy` file extension. Make sure that you rename all files in this directory that previously had the `.deploy` file name extension.  
+    >  This example assumes that only one file had a *.deploy* file extension. Make sure that you rename all files in this directory that previously had the *.deploy* file name extension.  
   
 4.  At the command prompt, run the following command to sign the deployment manifest.  
   
@@ -151,12 +151,12 @@ cd "%UserProfile%\Documents\Visual Studio 2010\Projects\MyWPFProject\publish\App
     ```  
   
     > [!NOTE]
-    >  This example assumes that you sign the manifest by using the `.pfx` file of the project. If you are not signing the manifest, you can omit the `-cf` parameter that is used in this example. If you are signing the manifest with a certificate that requires a password, specify the `-password` option, as in this example:`For example: mage -u MyWPFApp.exe.manifest -cf ..\..\..\MyWPFApp_TemporaryKey.pfx - password Password`.  
+    >  This example assumes that you sign the manifest by using the *.pfx* file of the project. If you are not signing the manifest, you can omit the `-cf` parameter that is used in this example. If you are signing the manifest with a certificate that requires a password, specify the `-password` option, as in this example:`For example: mage -u MyWPFApp.exe.manifest -cf ..\..\..\MyWPFApp_TemporaryKey.pfx - password Password`.  
   
  After you have performed these steps, you can move the published files to the location from which you want end users to install the application. If you intend to update the solution often, you can move these commands into a script and run the script each time that you publish a new version.  
   
-## See Also  
- [Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)   
- [Visual Styles Overview](http://msdn.microsoft.com/5b5d7bb6-684f-478d-bf5f-b8d18bbcff2e)   
- [Enabling Visual Styles](https://msdn.microsoft.com/library/bb773175.aspx)   
- [Command Prompts](/dotnet/framework/tools/developer-command-prompt-for-vs)
+## See also  
+ [Troubleshoot specific errors in ClickOnce deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)   
+ [Visual styles overview](/windows/desktop/Controls/visual-styles-overview)   
+ [Enable visual styles](https://msdn.microsoft.com/library/bb773175.aspx)   
+ [Command prompts](/dotnet/framework/tools/developer-command-prompt-for-vs)

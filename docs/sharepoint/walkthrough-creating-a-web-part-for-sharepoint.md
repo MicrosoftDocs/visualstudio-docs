@@ -43,7 +43,7 @@ This walkthrough illustrates the following tasks:
 
 ## Prerequisites
 
-- Supported editions of Microsoft Windows and SharePoint. For more information, see [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
+- Supported editions of Microsoft Windows and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
 
 - Visual Studio 2017 or an edition of Visual Studio Application Lifecycle Management (ALM).
 
@@ -215,7 +215,7 @@ Show and hide employees that are not managers by clicking an item that appears i
 
 ## See also
 
-[Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)  
-[How to: Create a SharePoint Web Part](../sharepoint/how-to-create-a-sharepoint-web-part.md)  
-[How to: Create a SharePoint Web Part by Using a Designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)  
-[Walkthrough: Creating a Web Part for SharePoint by Using a Designer](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint-by-using-a-designer.md)
+[Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)  
+[How to: Create a SharePoint web part](../sharepoint/how-to-create-a-sharepoint-web-part.md)  
+[How to: Create a SharePoint web part by Using a Designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)  
+[Walkthrough: Create a web part for SharePoint by using a designer](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint-by-using-a-designer.md)

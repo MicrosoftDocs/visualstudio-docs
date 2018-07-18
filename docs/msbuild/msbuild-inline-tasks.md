@@ -13,13 +13,15 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# MSBuild Inline Tasks
+# MSBuild inline tasks
 MSBuild tasks are typically created by compiling a class that implements the <xref:Microsoft.Build.Framework.ITask> interface. For more information, see [Tasks](../msbuild/msbuild-tasks.md).  
   
  Starting in .NET Framework version 4, you can create tasks inline in the project file. You do not have to create a separate assembly to host the task. This makes it easier to keep track of source code and easier to deploy the task. The source code is integrated into the script.  
   
-## The Structure of an Inline Task  
- An inline task is contained by a [UsingTask](../msbuild/usingtask-element-msbuild.md) element. The inline task and the `UsingTask` element that contains it are typically included in a .targets file and imported into other project files as required. Here is a basic inline task. Notice that it does nothing.  
+
+ In MSBuild 15.8, the [RoslynCodeTaskFactory](../msbuild/msbuild-roslyncodetaskfactory.md) was added which can create .NET Standard cross-platform inline tasks.  If you need to use inline tasks on .NET Core, you must use the RoslynCodeTaskFactory.
+## The structure of an inline task  
+ An inline task is contained by a [UsingTask](../msbuild/usingtask-element-msbuild.md) element. The inline task and the `UsingTask` element that contains it are typically included in a *.targets* file and imported into other project files as required. Here is a basic inline task. Notice that it does nothing.  
   
 ```xml  
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
@@ -49,7 +51,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
   
  The remaining elements of the `DoNothing` task are empty and are provided to illustrate the order and structure of an inline task. A more robust example is presented later in this topic.  
   
--   The `ParameterGroup` element is optional. When specified, it declares the parameters for the task. For more information about input and output parameters, see "Input and Output Parameters" later in this topic.  
+-   The `ParameterGroup` element is optional. When specified, it declares the parameters for the task. For more information about input and output parameters, see [Input and output parameters](#input-and-output-parameters) later in this topic.  
   
 -   The `Task` element describes and contains the task source code.  
   
@@ -62,7 +64,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
 > [!NOTE]
 >  Elements contained by the `Task` element are specific to the task factory, in this case, the code task factory.  
   
-### Code Element  
+### Code element  
  The last child element to appear within the `Task` element is the `Code` element. The `Code` element contains or locates the code that you want to be compiled into a task. What you put in the `Code` element depends on how you want to write the task.  
   
  The `Language` attribute specifies the language in which your code is written. Acceptable values are `cs` for C#, `vb` for Visual Basic.  
@@ -82,7 +84,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
 > [!NOTE]
 >  When defining the task class in the source file, the class name must agree with the `TaskName` attribute of the corresponding [UsingTask](../msbuild/usingtask-element-msbuild.md) element.  
   
-## Hello World  
+## HelloWorld  
  Here is a more robust inline task. The HelloWorld task displays "Hello, world!" on the default error logging device, which is typically the system console or the Visual Studio **Output** window. The `Reference` element in the example is included just for illustration.  
   
 ```xml  
@@ -108,7 +110,7 @@ Log.LogError("Hello, world!");
 </Project>  
 ```  
   
- You could save the HelloWorld task in a file that is named HelloWorld.targets, and then invoke it from a project as follows.  
+ You could save the HelloWorld task in a file that is named *HelloWorld.targets*, and then invoke it from a project as follows.  
   
 ```xml  
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
@@ -119,7 +121,7 @@ Log.LogError("Hello, world!");
 </Project>  
 ```  
   
-## Input and Output Parameters  
+## Input and output parameters  
  Inline task parameters are child elements of a `ParameterGroup` element. Every parameter takes the name of the element that defines it. The following code defines the parameter `Text`.  
   
 ```xml  
@@ -136,7 +138,7 @@ Log.LogError("Hello, world!");
   
 -   `Output` is an optional attribute that is `false` by default. If `true`, then the parameter must be given a value before returning from the Execute method.  
   
- For example,  
+For example,  
   
 ```xml  
 <ParameterGroup>  
@@ -146,7 +148,7 @@ Log.LogError("Hello, world!");
 </ParameterGroup>  
 ```  
   
- defines these three parameters:  
+defines these three parameters:  
   
 -   `Expression` is a required input parameter of type System.String.  
   
@@ -184,6 +186,6 @@ File.WriteAllText(Path, content);
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Walkthrough: Creating an Inline Task](../msbuild/walkthrough-creating-an-inline-task.md)
+ [Walkthrough: Creating an inline task](../msbuild/walkthrough-creating-an-inline-task.md)

@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: use Visual Studio to create a Python web app"
 description: In this quickstart, you use Visual Studio and the Flask framework to build a simple web app in Python.
-ms.date: 05/07/2018
+ms.date: 06/27/2018
 ms.prod: visual-studio-dev15
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
@@ -142,15 +142,12 @@ You're now ready to add a bit of Python code to implement a minimal web app.
 
 Congratulations on running your first Python app from Visual Studio, in which you've learned a little about using Visual Studio as a Python IDE!
 
-Because the steps you followed in this Quickstart are fairly generic, you've probably guessed that they can and should be automated. Such automation is the role of Visual Studio project templates. Select the button below for a demonstration that creates a web app similar to the one you created in this article, but with fewer steps.
-
 > [!div class="nextstepaction"]
-> [Quickstart - Create a Python project using a template](../python/quickstart-02-python-in-visual-studio-project-from-template.md)
+> [Deploy the app to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md)
 
-To continue with a fuller tutorial on Python in Visual Studio, including using the interactive window, debugging, data visualization, and working with Git, select the button below.
+Because the steps you followed in this Quickstart are fairly generic, you've probably guessed that they can and should be automated. Such automation is the role of Visual Studio project templates. Go through [Quickstart - Create a Python project using a template](../python/quickstart-02-python-in-visual-studio-project-from-template.md) for a demonstration that creates a web app similar to the one you created in this article, but with fewer steps.
 
-> [!div class="nextstepaction"]
-> [Tutorial: Get started with Python in Visual Studio](../python/tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
+To continue with a fuller tutorial on Python in Visual Studio, including using the interactive window, debugging, data visualization, and working with Git, go through [Tutorial: Get started with Python in Visual Studio](../python/tutorial-working-with-python-in-visual-studio-step-01-create-project.md).
 
 To explore more that Visual Studio has to offer, select the links below.
 
