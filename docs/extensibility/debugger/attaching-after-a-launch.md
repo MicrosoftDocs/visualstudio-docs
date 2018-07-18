@@ -14,10 +14,10 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Attaching After a Launch
-After a program has been launched, the debug session is ready to attach the debug engine (DE) to said program.  
+# Attach after a launch
+After a program launches, the debug session is ready to attach the debug engine (DE) to said program.  
   
-## Design Decisions  
+## Design decisions  
  Because communication is easier within a shared address space, you must decide whether it makes more sense to facilitate the communication between the debug session and the DE, or between the DE and the program. Choose between the following:  
   
 -   If it makes more sense to facilitate communication between the debug session and the DE, then the debug session co-creates the DE and asks the DE to attach to the program. This leaves the debug session and DE together in one address space, and the run-time environment and program together in another.  
@@ -28,7 +28,7 @@ After a program has been launched, the debug session is ready to attach the debu
     >  How the DE attaches to the program is implementation-dependent. Communication between the DE and the program is also implementation-dependent.  
   
 ## Implementation  
- Programmatically, when the session debug manager (SDM) first receives the [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md) object that represents the program to be launched, it calls the [Attach](../../extensibility/debugger/reference/idebugprogram2-attach.md) method, passing it an [IDebugEventCallback2](../../extensibility/debugger/reference/idebugeventcallback2.md) object, which is later used to pass debug events back to the SDM. The `IDebugProgram2::Attach` method then calls the [OnAttach](../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md) method. For more information on how the SDM receives the `IDebugProgram2` interface, see [Notifying the Port](../../extensibility/debugger/notifying-the-port.md).  
+ Programmatically, when the session debug manager (SDM) first receives the [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md) object that represents the program to be launched, it calls the [Attach](../../extensibility/debugger/reference/idebugprogram2-attach.md) method, passing it an [IDebugEventCallback2](../../extensibility/debugger/reference/idebugeventcallback2.md) object, which is later used to pass debug events back to the SDM. The `IDebugProgram2::Attach` method then calls the [OnAttach](../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md) method. For more information on how the SDM receives the `IDebugProgram2` interface, see [Notifying the port](../../extensibility/debugger/notifying-the-port.md).  
   
  If your DE needs to run in the same address space as the program being debugged, typically because the DE is part of an interpreter running a script, the `IDebugProgramNodeAttach2::OnAttach` method returns `S_FALSE`, indicating that it completed the attach process.  
   
@@ -40,10 +40,10 @@ After a program has been launched, the debug session is ready to attach the debu
   
  The DE is now attached to the program and ready to send any startup events.  
   
-## See Also  
- [Attaching Directly to a Program](../../extensibility/debugger/attaching-directly-to-a-program.md)   
- [Notifying the Port](../../extensibility/debugger/notifying-the-port.md)   
- [Debugging Tasks](../../extensibility/debugger/debugging-tasks.md)   
+## See also  
+ [Attaching directly to a program](../../extensibility/debugger/attaching-directly-to-a-program.md)   
+ [Notifying the port](../../extensibility/debugger/notifying-the-port.md)   
+ [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)   
  [IDebugEventCallback2](../../extensibility/debugger/reference/idebugeventcallback2.md)   
  [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md)   
  [Attach](../../extensibility/debugger/reference/idebugprogram2-attach.md)   
