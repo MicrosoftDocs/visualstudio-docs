@@ -84,7 +84,7 @@ Congratulations on completing this Quickstart in which you got started with the 
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Deploy the app to Azure App Service](..//deployment/quickstart-deploy-to-azure.md)
+> [Deploy the app to Linux App Service](../javascript/publish-nodejs-app-azure.md)
 
-- [Tutorial for Node.js and Express](../nodejs/tutorial-nodejs.md)
-- [Tutorial for Node.js and React](../nodejs/tutorial-nodejs-with-react-and-jsx.md)
+- [Tutorial for Node.js and Express](../javascript/tutorial-nodejs.md)
+- [Tutorial for Node.js and React](../javascript/tutorial-nodejs-with-react-and-jsx.md)
