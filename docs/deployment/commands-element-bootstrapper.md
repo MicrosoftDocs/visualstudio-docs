@@ -18,12 +18,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;Commands&gt; Element (Bootstrapper)
+# &lt;Commands&gt; element (bootstrapper)
 The `Commands` element implements tests described by the elements underneath the `InstallChecks` element, and declares which package the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] bootstrapper should install if the test fails.  
   
 ## Syntax  
   
-```  
+```xml  
 <Commands  
     Reboot  
 >  
@@ -61,7 +61,7 @@ The `Commands` element implements tests described by the elements underneath the
 </Commands>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `Commands` element is required. The element has the following attribute.  
   
 |Attribute|Description|  
@@ -124,7 +124,7 @@ The `Commands` element implements tests described by the elements underneath the
 ## Example  
  The following code example defines commands for installing the .NET Framework 2.0.  
   
-```  
+```xml  
 <Commands Reboot="Immediate">  
     <Command PackageFile="instmsia.exe"  
              Arguments= ' /q /c:"msiinst /delayrebootq"'  
@@ -199,6 +199,6 @@ The `Commands` element implements tests described by the elements underneath the
 </Commands>  
 ```  
   
-## See Also  
- [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)   
- [\<InstallChecks> Element](../deployment/installchecks-element-bootstrapper.md)
+## See also  
+ [Product and package schema reference](../deployment/product-and-package-schema-reference.md)   
+ [\<InstallChecks> element](../deployment/installchecks-element-bootstrapper.md)

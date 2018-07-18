@@ -4,11 +4,11 @@ ms.date: 05/02/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "unit testing, create unit tests"
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -25,6 +25,8 @@ The **Create Unit Tests** menu command:
 * Supports only C# code that targets the .NET Framework.
 
 * Is extensible, and supports emitting tests in MSTest, MSTest V2, NUnit, xUnit format.
+
+* Is not yet available in .NET Core projects.
 
 ## Get started
 

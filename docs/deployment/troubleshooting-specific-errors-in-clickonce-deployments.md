@@ -22,15 +22,15 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Troubleshooting Specific Errors in ClickOnce Deployments
+# Troubleshoot specific errors in ClickOnce deployments
 This article lists the following common errors that can occur when you deploy a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, and provides steps to resolve each problem.  
   
-## General Errors  
+## General errors  
   
 #### When you try to locate an application file, nothing occurs, or XML renders in Internet Explorer, or you receive a Run or Save As dialog box  
  This error is likely caused by content types (also known as MIME types) not being registered correctly on the server or client.  
   
- First, make sure that the server is configured to associate the `.application` extension with content type "application/x-ms-application."  
+ First, make sure that the server is configured to associate the *.application* extension with content type "application/x-ms-application."  
   
  If the server is configured correctly, check that the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] is installed on your computer. If the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] is installed, and you are still seeing this problem, try uninstalling and reinstalling the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] to re-register the content type on the client.  
   
@@ -39,20 +39,20 @@ This article lists the following common errors that can occur when you deploy a 
   
 -   If the log file says "(403) Forbidden" or "(404) Not found," verify that the Web server is configured so that it does not block download of this file. For more information, see [Server and Client Configuration Issues in ClickOnce Deployments](../deployment/server-and-client-configuration-issues-in-clickonce-deployments.md).  
   
--   If the .config file is being blocked by the server, see the section "Download error when you try to install a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application that has a .config file" later in this article.  
+-   If the *.config* file is being blocked by the server, see the section "Download error when you try to install a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application that has a .config file" later in this article.  
   
--   Determine whether this occurred because the `deploymentProvider` URL in the deployment manifest is pointing to a different location than the URL used for activation.  
+-   Determine whether this error occurred because the `deploymentProvider` URL in the deployment manifest is pointing to a different location than the URL used for activation.  
   
 -   Ensure that all files are present on the server; the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] log should tell you which file was not found.  
   
 -   See whether there are network connectivity issues; you can receive this message if your client computer went offline during the download.  
   
 #### Download error when you try to install a ClickOnce application that has a .config file  
- By default, a Visual Basic Windows-based application includes an App.config file. There will be a problem when a user tries to install from a Web server that uses Windows Server 2003, because that operating system blocks the installation of .config files for security reasons. To enable the .config file to be installed, click **Use ".deploy" file extension** in the **Publish Options** dialog box.  
+ By default, a Visual Basic Windows-based application includes an App.config file. There will be a problem when a user tries to install from a Web server that uses Windows Server 2003, because that operating system blocks the installation of *.config* files for security reasons. To enable the *.config* file to be installed, click **Use ".deploy" file extension** in the **Publish Options** dialog box.  
   
  You also must set the content types (also known as MIME types) appropriately for .application, .manifest, and .deploy files. For more information, see your Web server documentation.  
   
- For more information, see "Windows Server 2003: Locked-Down Content Types" in [Server and Client Configuration Issues in ClickOnce Deployments](../deployment/server-and-client-configuration-issues-in-clickonce-deployments.md).  
+ For more information, see "Windows Server 2003: Locked-Down Content Types" in [Server and client configuration issues in ClickOnce deployments](../deployment/server-and-client-configuration-issues-in-clickonce-deployments.md).  
   
 #### Error message: "Application is improperly formatted;" Log file contains "XML signature is invalid"  
  Ensure that you updated the manifest file and signed it again. Republish your application by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or use Mage to sign the application again.  
@@ -97,10 +97,10 @@ This article lists the following common errors that can occur when you deploy a 
   
  If you are publishing with a URL, ensure that the destination computer has FrontPage Server Extensions enabled.  
   
-#### Error Message: Unable to create the Web site '\<site>'. The components for communicating with FrontPage Server Extensions are not installed.  
+#### Error message: Unable to create the Web site '\<site>'. The components for communicating with FrontPage Server Extensions are not installed.  
  Ensure that you have the Microsoft Visual Studio Web Authoring Component installed on the machine that you are publishing from. For Express users, this component is not installed by default. For more information, see [http://go.microsoft.com/fwlink/?LinkId=102310](http://go.microsoft.com/fwlink/?LinkId=102310).  
   
-#### Error Message: Could not find file 'Microsoft.Windows.Common-Controls, Version=6.0.0.0, Culture=*, PublicKeyToken=6595b64144ccf1df, ProcessorArchitecture=\*, Type=win32'  
+#### Error message: Could not find file 'Microsoft.Windows.Common-Controls, Version=6.0.0.0, Culture=*, PublicKeyToken=6595b64144ccf1df, ProcessorArchitecture=\*, Type=win32'  
  This error message appears when you attempt to publish a WPF application with visual styles enabled. To resolve this issue, see [How to: Publish a WPF Application with Visual Styles Enabled](../deployment/how-to-publish-a-wpf-application-with-visual-styles-enabled.md).  
   
 ## Using Mage  
@@ -132,6 +132,6 @@ This article lists the following common errors that can occur when you deploy a 
 |Shortcuts cannot be activated over the network.|Shortcuts to a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application can only be started on the local hard disk. They cannot be started by opening a URL that points to a shortcut file on a remote server.|  
 |The application is too large to run online in partial trust. Contact the application vendor or your system administrator for assistance.|An application that runs in partial trust cannot be larger than half of the size of the online application quota, which by default is 250 MB.|  
   
-## See Also  
- [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
- [Troubleshooting ClickOnce Deployments](../deployment/troubleshooting-clickonce-deployments.md)
+## See also  
+ [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)   
+ [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)

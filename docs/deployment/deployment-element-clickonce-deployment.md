@@ -24,7 +24,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;deployment&gt; Element (ClickOnce Deployment)
+# &lt;deployment&gt; element (ClickOnce deployment)
 Identifies the attributes used for the deployment of updates and exposure to the system.  
   
 ## Syntax  
@@ -53,7 +53,7 @@ Identifies the attributes used for the deployment of updates and exposure to the
 </deployment>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `deployment` element is required and is in the `urn:schemas-microsoft-com:asm.v1` namespace. The element has the following attributes.  
   
 |Attribute|Description|  
@@ -117,5 +117,5 @@ Identifies the attributes used for the deployment of updates and exposure to the
   </deployment>  
 ```  
   
-## See Also  
- [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)
+## See also  
+ [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)

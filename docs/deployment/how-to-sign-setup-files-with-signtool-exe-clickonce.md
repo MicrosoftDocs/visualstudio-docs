@@ -21,8 +21,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Sign Setup Files with SignTool.exe (ClickOnce)
-You can use SignTool.exe to sign a Setup program (setup.exe). This process helps ensure that tampered files are not installed on end-user computers.  
+# How to: Sign setup files with SignTool.exe (ClickOnce)
+You can use *SignTool.exe* to sign a Setup program (*setup.exe*). This process helps ensure that tampered files are not installed on end-user computers.  
   
  By default, ClickOnce has signed manifests and a signed Setup program. However, if you want to change the parameters of the Setup program later, you must sign the Setup program later. If you change the parameters after the Setup program is signed, the signature becomes corrupted.  
   
@@ -56,21 +56,21 @@ You can use SignTool.exe to sign a Setup program (setup.exe). This process helps
   
 11. At the customer site, open a command prompt.  
   
-12. Change to the directory that contains the .exe file.  
+12. Change to the directory that contains the *.exe* file.  
   
-13. Sign the .exe file with the following command:  
+13. Sign the *.exe* file with the following command:  
   
-    ```  
+    ```cmd  
     signtool sign /sha1 CertificateHash Setup.exe  
     signtool sign /f CertFileName Setup.exe  
     ```  
   
      For example, to sign the Setup program, use one of the following commands:  
   
-    ```  
+    ```cmd  
     signtool sign /sha1 CCB... Setup.exe  
     signtool sign /f CertFileName Setup.exe  
     ```  
   
-## See Also  
- [How to: Re-sign Application and Deployment Manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)
+## See also  
+ [How to: Re-sign application and deployment manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)
