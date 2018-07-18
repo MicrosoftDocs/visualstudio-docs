@@ -23,6 +23,9 @@ Code analysis for managed code analyzes managed assemblies and reports informati
 
 The analysis tool represents the checks it performs during an analysis as warning messages. Warning messages identify any relevant programming and design issues and, when it is possible, supply information about how to fix the problem.
 
+> [!NOTE]
+> Static code analysis is not supported for .NET Core and .NET Standard projects in Visual Studio. If you run code analysis on a .NET Core or .NET Standard project as part of msbuild, you'll see an error similar to **error : CA0055 : Could not identify platform for \<your.dll>**. To analyze code in .NET Core or .NET Standard projects, use [Roslyn analyzers](../code-quality/roslyn-analyzers-overview.md) instead.
+
 ## IDE (integrated development environment) integration
 
 You can run code analysis on your project manually or automatically.

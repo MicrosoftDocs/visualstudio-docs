@@ -14,11 +14,11 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Attaching to the Program
+# Attach to the program
 After you have registered your programs with the appropriate port, you must attach the debugger to the program you want to debug.  
   
-## Choosing How to Attach  
- There are three ways in which the session debug manager (SDM) attempts to attach to the program being debugged.  
+## Choose how to attach  
+ There are three ways in which the session debug manager (SDM) attempts to attach to the program being debugged. 
   
 1.  For programs that are launched by the debug engine through the [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md) method (typical of interpreted languages, for example), the SDM obtains the [IDebugProgramNodeAttach2](../../extensibility/debugger/reference/idebugprogramnodeattach2.md) interface from the [IDebugProgramNode2](../../extensibility/debugger/reference/idebugprogramnode2.md) object associated with the program being attached to. If the SDM can obtain the `IDebugProgramNodeAttach2` interface, the SDM then calls the [OnAttach](../../extensibility/debugger/reference/idebugprogramnodeattach2-onattach.md) method. The `IDebugProgramNodeAttach2::OnAttach` method returns `S_OK` to indicate that it did not attach to the program and that other attempts can be made to attach to the program.  
   
@@ -40,7 +40,7 @@ After you have registered your programs with the appropriate port, you must atta
   
  After the `IDebugEngine2::Attach` method is called, follow these steps in your implementation of the `IDebugEngine2::Attach` method:  
   
-1.  Send an [IDebugEngineCreateEvent2](../../extensibility/debugger/reference/idebugenginecreateevent2.md) event object to the SDM. For more information, see [Sending Events](../../extensibility/debugger/sending-events.md).  
+1.  Send an [IDebugEngineCreateEvent2](../../extensibility/debugger/reference/idebugenginecreateevent2.md) event object to the SDM. For more information, see [Sending events](../../extensibility/debugger/sending-events.md).  
   
 2.  Call the [GetProgramId](../../extensibility/debugger/reference/idebugprogram2-getprogramid.md) method on the [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md) object that was passed to the `IDebugEngine2::Attach` method.  
   
@@ -54,9 +54,9 @@ After you have registered your programs with the appropriate port, you must atta
     > [!NOTE]
     >  This is not the same `IDebugProgram2` object that was passed into the `IDebugEngine2::Attach` method. The previously passed `IDebugProgram2` object is recognized by the port only and is a separate object.  
   
-## See Also  
- [Launch-based Attachment](../../extensibility/debugger/launch-based-attachment.md)   
- [Sending Events](../../extensibility/debugger/sending-events.md)   
+## See also  
+ [Launch-based attachment](../../extensibility/debugger/launch-based-attachment.md)   
+ [Sending events](../../extensibility/debugger/sending-events.md)   
  [LaunchSuspended](../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md)   
  [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md)   
  [IDebugProgramCreateEvent2](../../extensibility/debugger/reference/idebugprogramcreateevent2.md)   

@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# BuildProjectOnLoad (Visual Studio Templates)
+# BuildProjectOnLoad (Visual Studio templates)
 Specifies whether to build the project immediately after it's created.  
   
  \<VSTemplate>  
@@ -30,22 +30,22 @@ Specifies whether to build the project immediately after it's created.
 <BuildProjectOnLoad> true/false </BuildProjectOnLoad>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements  
  None.  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.|  
   
-## Text Value  
+## Text value  
  A text value is required.  
   
  The text must be either `true` or `false`, indicating whether to build the project immediately after it's created.  
@@ -81,7 +81,7 @@ Specifies whether to build the project immediately after it's created.
 </VSTemplate>  
 ```  
   
-## See Also  
- [TemplateContent Element (Visual Studio Templates)](../extensibility/templatecontent-element-visual-studio-templates.md)   
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
+## See also  
+ [TemplateContent element (Visual Studio templates)](../extensibility/templatecontent-element-visual-studio-templates.md)   
+ [Creating project and item templates](../ide/creating-project-and-item-templates.md)   
+ [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)
