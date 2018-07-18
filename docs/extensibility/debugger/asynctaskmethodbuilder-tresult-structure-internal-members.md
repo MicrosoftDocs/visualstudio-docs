@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# AsyncTaskMethodBuilder&lt;TResult&gt; Structure - Internal Members
+# AsyncTaskMethodBuilder&lt;TResult&gt; structure - internal members
 This topic describes the internal members of the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder%601> class. For general information about this class, see the <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder%601> reference topic.  
   
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>  
@@ -26,19 +26,19 @@ This topic describes the internal members of the <xref:System.Runtime.CompilerSe
   
 ## Syntax  
   
-```  
+```csharp  
 .class public sequential ansi sealed beforefieldinit System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>  
        extends System.ValueType  
        implements System.Runtime.CompilerServices.IAsyncMethodBuilder  
 ```  
   
-## Internal Members  
+## Internal members  
   
 |Name|Description|  
 |----------|-----------------|  
 |[ObjectIdForDebugger property](../../extensibility/debugger/asynctaskmethodbuilder-tresult-objectidfordebugger-property.md)|Gets an object that may be used to uniquely identify this builder to the debugger.|  
 |[m_task field](../../extensibility/debugger/asynctaskmethodbuilder-tresult-m-task-field.md)|Represents the lazily initialized built task.|  
   
-## See Also  
+## See also  
  <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder%601>   
- [Parallel Extension Internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)
+ [Parallel extension internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)
