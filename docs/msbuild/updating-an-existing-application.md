@@ -18,7 +18,7 @@ To support faster, smaller, and side-by-side installation, Visual Studio 2017 no
 
 ## Use MSBuild from Visual Studio
 
-To ensure that programmatic builds from your application match build done within Visual Studio or *MSBuild.exe*, load MSBuild assemblies from Visual Studio and use the SDKs available within Visual Studio. The Microsoft.Build.Locator NuGet package streamlines this process.
+To ensure that programmatic builds from your application match builds done within Visual Studio or *MSBuild.exe*, load MSBuild assemblies from Visual Studio and use the SDKs available within Visual Studio. The Microsoft.Build.Locator NuGet package streamlines this process.
 
 ## Use Microsoft.Build.Locator
 
