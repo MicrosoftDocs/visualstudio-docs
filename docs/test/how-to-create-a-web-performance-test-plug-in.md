@@ -114,7 +114,7 @@ You can use customized web performance test plug-ins with the web performance te
 
 The following code creates a customized web performance test plug-in that adds an item to the <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestContext> that represents the test iteration.
 
-After running the web performance test, by using this plug-in you can see the added item that is named **TestIteratnionNumber** in the **Context** tab in the web Performance Results Viewer.
+After running the web performance test, by using this plug-in you can see the added item that is named **TestIteratnionNumber** in the **Context** tab in the **Web Performance Results Viewer**.
 
 ```csharp
 using System;

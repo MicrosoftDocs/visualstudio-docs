@@ -108,7 +108,7 @@ After you have run your load test and collected the virtual user activity data, 
 
 8.  Notice that **Test log** is a link. Choose the **Test log** link.
 
-9. The ColorWebTest web performance test that is associated with the log opens in the web Performance Test Results Viewer. This lets you isolate where the threshold violations occurred.
+9. The ColorWebTest web performance test that is associated with the log opens in the Web Performance Test Results Viewer. This lets you isolate where the threshold violations occurred.
 
      You can use various settings in both the **Details Legend** and **Filter results** panels to help in isolating performance issues, and errors in your load tests. Experiment with these settings and the **Zoom to time period** tool to see how the virtual user data is presented in the **Virtual User Activity Chart**.
 

@@ -54,7 +54,7 @@ Most numeric values displayed in a table for performance counters are cumulative
 |Thresholds|Displays a list of threshold rule violations that occurred during the load test run. For more information, see [Analyzing threshold rule violations](../test/analyze-threshold-rule-violations-in-load-tests.md).|
 |Transactions|Displays a list of transactions that occurred during a load test run. For more information, see [The Transactions table](../test/analyze-load-test-results-and-errors-in-the-tables-view.md#the-transactions-table) in this topic.|
 |Agents|Displays only if your load test is using a test controller and test agents. Displays a list of the agents that were used during the load test run. The Agents table includes how many requests the agent tested and of those requests, how many failed. Additionally, the Agents table includes the number of tests in the load tests test mix that the agent tested and of those, how many failed.|
-|Test Details|Displays details for the tests included in the test mix for the load test. The details include the name of the test, the scenario that the test was in, the time that the test started, the length of time it took the test to run, and the test outcome indicating if the test passed or failed. If the test failed, a link is present in the **Details** column. You can choose the link which will take you to the web Performance Test Editor with the failed request highlighted.|
+|Test Details|Displays details for the tests included in the test mix for the load test. The details include the name of the test, the scenario that the test was in, the time that the test started, the length of time it took the test to run, and the test outcome indicating if the test passed or failed. If the test failed, a link is present in the **Details** column. You can choose the link which will take you to the Web Performance Test Editor with the failed request highlighted.|
 
 ## Collect percentile data
 
@@ -167,7 +167,7 @@ The **Load Test Errors** table contains the following columns:
 |**SubType**|The subtype of the error. For example, LoadTestException.|
 |**Text**|The text of the error message. For example, 404 - NotFound.|
 |**Stack**|The entries in this column are either empty, or the word **Stack** is formatted as a hyperlink. You can choose the hyperlink to view a stack trace of the error.|
-|**Details**|The entries in this column are either empty, or the word **TestLog** is formatted as a hyperlink. This link can help you isolate errors in the load test. For example, choosing the **TestLog** link on a web Performance test request error will open up the results for the web Performance test in the web Performance Test Results Viewer and highlight the request error.|
+|**Details**|The entries in this column are either empty, or the word **TestLog** is formatted as a hyperlink. This link can help you isolate errors in the load test. For example, choosing the **TestLog** link on a web performance test request error will open up the results for the web performance test in the Web Performance Test Results Viewer and highlight the request error.|
 
 > [!NOTE]
 > You can sort the table by choosing the column headers.
