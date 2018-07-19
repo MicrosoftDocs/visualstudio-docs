@@ -48,7 +48,7 @@ In this walkthrough you will learn how to use the Virtual User Activity Chart to
 
 2.  Open the ColorWebApp solution that contains the LoadTest1.loadtest. This load test results from conducting the steps in the three walkthroughs that are listed at the beginning of this topic in the prerequisites section.
 
-     The remaining steps in this walkthrough assume a Web application named ColorWebApp, a Web performance test named ColorWebAppTest.webtest and a load test named LoadTest1.loadtest.
+     The remaining steps in this walkthrough assume a web application named ColorWebApp, a web performance test named ColorWebAppTest.webtest and a load test named LoadTest1.loadtest.
 
 ## Run the Load Test
  Run your load test to collect virtual user activity data.
@@ -108,7 +108,7 @@ After you have run your load test and collected the virtual user activity data, 
 
 8.  Notice that **Test log** is a link. Choose the **Test log** link.
 
-9. The ColorWebTest Web performance test that is associated with the log opens in the Web Performance Test Results Viewer. This lets you isolate where the threshold violations occurred.
+9. The ColorWebTest web performance test that is associated with the log opens in the web Performance Test Results Viewer. This lets you isolate where the threshold violations occurred.
 
      You can use various settings in both the **Details Legend** and **Filter results** panels to help in isolating performance issues, and errors in your load tests. Experiment with these settings and the **Zoom to time period** tool to see how the virtual user data is presented in the **Virtual User Activity Chart**.
 

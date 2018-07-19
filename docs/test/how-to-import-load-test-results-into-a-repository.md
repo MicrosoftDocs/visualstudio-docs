@@ -22,7 +22,7 @@ When you run a load test, information gathered during the run is stored in the L
 
 ## To import results into a repository
 
-1.  From a Web performance and load test project, open a load test.
+1.  From a web performance and load test project, open a load test.
 
 2.  On the embedded toolbar, choose **Open and Manage Results**.
 

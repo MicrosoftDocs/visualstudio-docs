@@ -14,7 +14,7 @@ ms.technology: vs-ide-test
 ---
 # How to: Create a Visual Studio Add-In for the Web Performance Test Results Viewer
 
-You can extend the UI for the Web Performance Test Results Viewer by using the following namespaces:
+You can extend the UI for the **Web Performance Test Results Viewer** by using the following namespaces:
 
 -   <xref:Microsoft.VisualStudio.TestTools.LoadTesting>
 
@@ -22,16 +22,16 @@ You can extend the UI for the Web Performance Test Results Viewer by using the f
 
 Additionally, you need to add a reference to LoadTestPackage DLL which is located in the *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies* folder.
 
--   To extend the Web Performance Test Results Viewer's UI, you must create a Visual Studio add-in and a user control. The following procedures explain how to create the add-in, the user control, and how to implement the classes necessary to extend the Web Performance Test Results Viewer's UI.
+-   To extend the **Web Performance Test Results Viewer**'s UI, you must create a Visual Studio add-in and a user control. The following procedures explain how to create the add-in, the user control, and how to implement the classes necessary to extend the **Web Performance Test Results Viewer**'s UI.
 
 ## Create or Open a Solution that Contains an ASP.NET Web Application and a Web Performance and Load Test Project
 
 ### To prepare for extending the Web Performance Test Results Viewer
 
-Either create or open a non-production solution that you can experiment with which contains an ASP.NET Web application and a Web performance and load test project with one or more Web performance tests for the ASP.NET Web application.
+Either create or open a non-production solution that you can experiment with which contains an ASP.NET web application and a web performance and load test project with one or more web performance tests for the ASP.NET web application.
 
 > [!NOTE]
-> You can create an ASP.NET Web application and Web performance and load test project that contains Web performance tests by following the procedures in [How to: Create a Web Service Test](../test/how-to-create-a-web-service-test.md) and [Generate and run a coded web performance test](../test/generate-and-run-a-coded-web-performance-test.md).
+> You can create an ASP.NET web application and web performance and load test project that contains web performance tests by following the procedures in [How to: Create a Web Service Test](../test/how-to-create-a-web-service-test.md) and [Generate and run a coded web performance test](../test/generate-and-run-a-coded-web-performance-test.md).
 
 ## Create a Visual Studio Add-In
 
@@ -210,7 +210,7 @@ The Visual Studio add-in created in the previous procedure references a Windows 
     using WebPerfTestResultsViewerControl;
     ```
 
-14. Scroll down to the bottom of the Connect.cs file. You need to add a list of GUIDs for the <xref:System.Windows.Forms.UserControl> in case more than one instance of the Web Performance Test Results Viewer is open. You will add code later that uses this list.
+14. Scroll down to the bottom of the Connect.cs file. You need to add a list of GUIDs for the <xref:System.Windows.Forms.UserControl> in case more than one instance of the **Web Performance Test Results Viewer** is open. You will add code later that uses this list.
 
      A second List of string is used in the OnDiscconection method which you will code later.
 
@@ -221,7 +221,7 @@ The Visual Studio add-in created in the previous procedure references a Windows 
     private Dictionary<Guid, List<UserControl>> m_controls = new Dictionary<Guid, List<UserControl>>();        private List<string> temporaryFilePaths = new List<string>();
     ```
 
-15. The Connect.cs file instantiates a class named Connect from the <xref:Extensibility.IDTExtensibility2> class and also includes some methods for implementing the Visual Studio add-in. One of the methods is the OnConnection method, which receives notification that the add-in is being loaded. In the OnConnection method, you will use the LoadTestPackageExt class to create your extensibility package for the Web Performance Test Results Viewer. Add the following code to the OnConnection method:
+15. The Connect.cs file instantiates a class named Connect from the <xref:Extensibility.IDTExtensibility2> class and also includes some methods for implementing the Visual Studio add-in. One of the methods is the OnConnection method, which receives notification that the add-in is being loaded. In the OnConnection method, you will use the LoadTestPackageExt class to create your extensibility package for the **Web Performance Test Results Viewer**. Add the following code to the OnConnection method:
 
     ```csharp
     public void OnConnection(object application, ext_ConnectMode connectMode, object addInInst, ref Array custom)
@@ -277,7 +277,7 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 2.  Select the **Application** tab and then choose the **Target framework** drop-down list and select **.NET Framework 4** and close the Properties.
 
-     This is required in order to support the DLL references that are needed for extending the Web Performance Test Results Viewer.
+     This is required in order to support the DLL references that are needed for extending the **Web Performance Test Results Viewer**.
 
 3.  In Solution Explorer, in the WebPerfTestResultsViewerControl project, right-click the **References** node and select **Add Reference**.
 
@@ -341,7 +341,7 @@ The Visual Studio add-in created in the previous procedure references a Windows 
 
 ### To run the new VS Add-In for the Web Test Results Viewer
 
-1.  Run your Web performance test and you will see the WebPerfTestResultsViewerAddin add-in's new tab titled Sample displayed in the Web Performance Test Results Viewer.
+1.  Run your web performance test and you will see the WebPerfTestResultsViewerAddin add-in's new tab titled Sample displayed in the **Web Performance Test Results Viewer**.
 
 2.  Choose the tab to see the properties presented in the DataGridView.
 
@@ -357,7 +357,7 @@ In addition, this options page allows you to specify the folders in which Visual
 
 -   **Allow add-in components to load.** Selected by default. When selected, add-ins are allowed to load in Visual Studio. When not selected, add-ins are prohibited from loading in Visual Studio.
 
--   **Allow add-in components to load from a URL.** Not selected by default. When selected, add-ins are allowed to be loaded from external Web sites. When not selected, remote add-ins are prohibited from loading in Visual Studio. If an add-in cannot load for some reason, then it cannot be loaded from the Web. This setting controls only the loading the add-in DLL. The .Addin registration files must always be located on the local system.
+-   **Allow add-in components to load from a URL.** Not selected by default. When selected, add-ins are allowed to be loaded from external websites. When not selected, remote add-ins are prohibited from loading in Visual Studio. If an add-in cannot load for some reason, then it cannot be loaded from the Web. This setting controls only the loading the add-in DLL. The .Addin registration files must always be located on the local system.
 
 ## See also
 

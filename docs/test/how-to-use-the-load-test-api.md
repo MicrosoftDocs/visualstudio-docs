@@ -20,15 +20,15 @@ Visual Studio supports load test plug-ins which can control or enhance a load te
 > [!TIP]
 > Use the object browser to examine the <xref:Microsoft.VisualStudio.TestTools.LoadTesting> namespace. Both the Visual C# and Visual Basic editors offer IntelliSense support for coding with the classes in the namespace.
 
-You can also create plug-ins for Web performance tests. For more information, see [How to: Create a Web Performance Test Plug-In](../test/how-to-create-a-web-performance-test-plug-in.md) and [How to: Create a Request-Level Plug-In](../test/how-to-create-a-request-level-plug-in.md).
+You can also create plug-ins for web performance tests. For more information, see [How to: Create a Web Performance Test Plug-In](../test/how-to-create-a-web-performance-test-plug-in.md) and [How to: Create a Request-Level Plug-In](../test/how-to-create-a-request-level-plug-in.md).
 
 ## To use the LoadTesting namespace
 
-1.  Open a Web performance and load test Project that contains a load test.
+1.  Open a web performance and load test Project that contains a load test.
 
 2.  Add a Visual C# or a Visual Basic class library project to your test solution.
 
-3.  Add a reference in the Web performance and load test project to the class library project.
+3.  Add a reference in the web performance and load test project to the class library project.
 
 4.  Add a reference to the Microsoft.VisualStudio.QualityTools.LoadTestFramework DLL in the Class Library project.
 
