@@ -100,7 +100,7 @@ TableAdapters use data commands to read to and write from the database. Use the 
 When you use a TableAdapter, it effectively performs the same operations with the commands that you would typically perform. For example, when you call the adapter's `Fill` method, the adapter runs the data command in its `SelectCommand` property and uses a data reader (for example, <xref:System.Data.SqlClient.SqlDataReader>) to load the result set into the data table. Similarly, when you call the adapter's `Update` method, it runs the appropriate command (in the `UpdateCommand`, `InsertCommand`, and `DeleteCommand` properties) for each changed record in the data table.
 
 > [!NOTE]
-> If there is enough information in the main query, the `InsertCommand`, `UpdateCommand`, and `DeleteCommand` commands are created by default when the the TableAdapter is generated. If the TableAdapter's main query is more than a single table `SELECT` statement, it's possible the designer won't be able to generate `InsertCommand`, `UpdateCommand`, and `DeleteCommand`. If these commands aren't generated, you might receive an error when running the `TableAdapter.Update` method.
+> If there is enough information in the main query, the `InsertCommand`, `UpdateCommand`, and `DeleteCommand` commands are created by default when the TableAdapter is generated. If the TableAdapter's main query is more than a single table `SELECT` statement, it's possible the designer won't be able to generate `InsertCommand`, `UpdateCommand`, and `DeleteCommand`. If these commands aren't generated, you might receive an error when running the `TableAdapter.Update` method.
 
 ## TableAdapter GenerateDbDirectMethods
 

@@ -27,11 +27,11 @@ Stops all tracking and frees any memory used by the tracking session.
 HRESULT WINAPI StopTrackingAndCleanup(void);  
 ```  
   
-## Return Value  
+## Return value  
  Returns an **HRESULT** with the **SUCCEEDED** bit set if tracking was stopped.  
   
 ## Requirements  
- **Header:** FileTracker.h  
+ **Header:** *FileTracker.h*  
   
-## See Also  
+## See also  
  [StartTrackingContext](../msbuild/starttrackingcontext.md)

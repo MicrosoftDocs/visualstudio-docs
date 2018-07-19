@@ -3,7 +3,7 @@ title: "Project Settings for a Visual Basic Debug Configuration | Microsoft Docs
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords: 
   - "vbProjectPropertiesDebug"
 dev_langs: 

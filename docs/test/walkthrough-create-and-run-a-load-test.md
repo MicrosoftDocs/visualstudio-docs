@@ -17,7 +17,7 @@ ms.technology: vs-ide-test
 
 In this walkthrough you create a load test that contains unit tests.
 
-This walkthrough steps you through creating and then running a load test using Visual Studio Enterprise. A load test is a container of Web performance tests and unit tests. You create load tests with the New Load Test Wizard.
+This walkthrough steps you through creating and then running a load test using Visual Studio Enterprise. A load test is a container of web performance tests and unit tests. You create load tests with the New Load Test Wizard.
 
 A load test also exposes many run-time properties that can be modified to generate the desired load simulation. In this walkthrough, you use the New Load Test Wizard to add unit tests to a load test.
 
@@ -29,7 +29,7 @@ In this walkthrough, you will complete the following tasks:
 
 -   Run a load test.
 
--   Perform the steps in [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md) to create a simple C# class library that contains a Web performance and load test project with some unit tests in it.
+-   Perform the steps in [Walkthrough: Creating and Running Unit Tests for Managed Code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md) to create a simple C# class library that contains a web performance and load test project with some unit tests in it.
 
 ## Create a Load Test Containing Unit Tests Using the New Load Test Wizard
 
@@ -59,7 +59,7 @@ In this walkthrough, you will complete the following tasks:
 
      A *scenario* is a grouping mechanism. It consists of a set of tests and the properties for running those tests under load.
 
-2.  Set the **Time Profile Think** to `Use normal distribution centered on recorded think times`. Think times represent the time that a user would ponder a Web page before going on to the next page.
+2.  Set the **Time Profile Think** to `Use normal distribution centered on recorded think times`. Think times represent the time that a user would ponder a web page before going on to the next page.
 
 1.  Choose **Next** when you are finished.
 
@@ -92,7 +92,7 @@ In this walkthrough, you will complete the following tasks:
 
 2.  Choose **Add** to select tests.
 
-3.  Choose the CreditTest unit tests listed in the **Available Tests** pane, which lists all the Web performance tests and unit tests in the Web performance and load test project.
+3.  Choose the CreditTest unit tests listed in the **Available Tests** pane, which lists all the web performance tests and unit tests in the web performance and load test project.
 
 4.  Choose the arrow to add the CreditTest unit test to the **Selected Tests** pane.
 

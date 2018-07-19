@@ -69,7 +69,7 @@ Use this page of the **Options** dialog box to control the display of documents 
  Select this option to display the **Miscellaneous Files** node in **Solution Explorer**. Miscellaneous files are files that are not associated with a project or solution but can appear in **Solution Explorer** for your convenience.
 
 > [!NOTE]
-> Select this option to enable the **View in Browser** command on the **File** menu for Web documents not included in the active Web application.
+> Select this option to enable the **View in Browser** command on the **File** menu for web documents not included in the active web application.
 
  **\<** *n* **> items saved in the Miscellaneous files project**
  Specifies the number of files to persist in the **MiscellaneousFiles** folder of **Solution Explorer**. These files are listed even if they are no longer open in an editor. You can specify any whole number from 0 to 256. The default number is 0.
