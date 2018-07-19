@@ -22,7 +22,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Manage Updates for a ClickOnce Application
+# How to: Manage updates for a ClickOnce application
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications can check for updates automatically or programmatically. As a developer, you have lots of flexibility in specifying when and how update checks are performed, whether updates are mandatory, and where the application should check for updates.  
   
  You can configure the application to check for updates automatically before the application starts, or at set intervals after the application starts. In addition you can specify a minimum required version; that is, an update is installed if the user's version is lower than the required version.  
@@ -83,7 +83,7 @@ ms.workload:
   
 4.  In the **Application Updates** dialog box, make sure that the **The application should check for updates** check box is selected.  
   
-5.  In the **Update location** field, enter the update location with a fully qualified URL, using the format http://Hostname/ApplicationName, or a UNC path using the format \\\Server\ApplicationName, or click the **Browse** button to browse for the update location.  
+5.  In the **Update location** field, enter the update location with a fully qualified URL, using the format *http://Hostname/ApplicationName*, or a UNC path using the format *\\\Server\ApplicationName*, or click the **Browse** button to browse for the update location.  
   
 ### To check for updates programmatically  
   
@@ -95,16 +95,16 @@ ms.workload:
   
 4.  In the **Application Updates** dialog box, make sure that the **The application should check for updates** check box is cleared. (Optionally, you can select this check box to check for updates programmatically and also let the ClickOnce runtime check for updates automatically.)  
   
-5.  In the **Update location** field, enter the update location with a fully qualified URL, using the format http://Hostname/ApplicationName, or a UNC path using the format \\\Server\ApplicationName, or click the **Browse** button to browse for the update location. The update location is where the application will look for an updated version of itself.  
+5.  In the **Update location** field, enter the update location with a fully qualified URL, using the format *http://Hostname/ApplicationName*, or a UNC path using the format *\\\Server\ApplicationName*, or click the **Browse** button to browse for the update location. The update location is where the application will look for an updated version of itself.  
   
-6.  Create a button, menu item, or other user interface item on a Windows Form that users will select to check for updates. From that item's event handler, call a method to check for and install updates. You can find an example of Visual Basic and Visual C# code for such a method in [How to: Check for Application Updates Programmatically Using the ClickOnce Deployment API](../deployment/how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api.md).  
+6.  Create a button, menu item, or other user interface item on a Windows Form that users will select to check for updates. From that item's event handler, call a method to check for and install updates. You can find an example of Visual Basic and Visual C# code for such a method in [How to: Check for application updates programmatically using the ClickOnce deployment API](../deployment/how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api.md).  
   
 7.  Build your application.  
   
-## See Also  
+## See also  
  <xref:System.Deployment.Application.ApplicationDeployment>   
- [Application Updates Dialog Box](http://msdn.microsoft.com/en-us/8eca8743-8e68-4d04-bfd5-4dc0a9b2934f)   
- [Choosing a ClickOnce Update Strategy](../deployment/choosing-a-clickonce-update-strategy.md)   
- [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
- [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)   
- [How to: Check for Application Updates Programmatically Using the ClickOnce Deployment API](../deployment/how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api.md)
+ [Application updates dialog box](http://msdn.microsoft.com/en-us/8eca8743-8e68-4d04-bfd5-4dc0a9b2934f)   
+ [Choose a ClickOnce update strategy](../deployment/choosing-a-clickonce-update-strategy.md)   
+ [Publish ClickOnce aplications](../deployment/publishing-clickonce-applications.md)   
+ [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)   
+ [How to: Check for application updates programmatically using the ClickOnce deployment API](../deployment/how-to-check-for-application-updates-programmatically-using-the-clickonce-deployment-api.md)

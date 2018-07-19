@@ -13,9 +13,9 @@ manager: douge
 ms.workload:
   - "azure"
 ---
-# Publish a web app to Azure App Service using Visual Studio
+# Publish a Web app to Azure App Service using Visual Studio
 
-You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, Node.js, and .NET Core apps to Azure App Service or Azure App Service Linux (using containers). For Python apps, follow the steps on [Python - Publishing to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md).
+You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, Node.js, and .NET Core apps to Azure App Service or Azure App Service Linux (using containers). For Python apps, follow the steps on [Python - Publish to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md).
 
 [!INCLUDE [quickstart-prereqs-azure](includes/quickstart-prereqs-azure.md)]
 

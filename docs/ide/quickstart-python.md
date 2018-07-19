@@ -145,7 +145,7 @@ Congratulations on running your first Python app from Visual Studio, in which yo
 > [!div class="nextstepaction"]
 > [Deploy the app to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md)
 
-Because the steps you followed in this Quickstart are fairly generic, you've probably guessed that they can and should be automated. Such automation is the role of Visual Studio project templates. Go through [Quickstart - Create a Python project using a template](../python/quickstart-02-python-in-visual-studio-project-from-template.md) for for a demonstration that creates a web app similar to the one you created in this article, but with fewer steps.
+Because the steps you followed in this Quickstart are fairly generic, you've probably guessed that they can and should be automated. Such automation is the role of Visual Studio project templates. Go through [Quickstart - Create a Python project using a template](../python/quickstart-02-python-in-visual-studio-project-from-template.md) for a demonstration that creates a web app similar to the one you created in this article, but with fewer steps.
 
 To continue with a fuller tutorial on Python in Visual Studio, including using the interactive window, debugging, data visualization, and working with Git, go through [Tutorial: Get started with Python in Visual Studio](../python/tutorial-working-with-python-in-visual-studio-step-01-create-project.md).
 

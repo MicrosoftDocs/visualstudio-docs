@@ -51,7 +51,7 @@ When you download the software, you may get requests to grant permission to load
 
 ## Install ASP.NET 4.5 on Windows Server
 
-If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
+If you want more detailed information to install ASP.NET on IIS, see [IIS 8.0 using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
 
 1. In the left pane of Server Manager, select **IIS**. Right-click the server and select **Internet Information Services (IIS) Manager**.
 
@@ -110,7 +110,7 @@ Required ports:
 
 2. Then choose **Inbound Rules** > **New Rule** > **Port**. Choose **Next** and under **Specific local ports**, enter the port number, click **Next**, then **Allow the Connection**, click Next, and add the name (**IIS**, **Web Deploy**, or **msvsmon**) for the Inbound Rule.
 
-    If you want more details on configuring Windows Firewall, see [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md).
+    If you want more details on configuring Windows Firewall, see [Configure the Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md).
 
 3. Create additional rules for the other required ports.
 

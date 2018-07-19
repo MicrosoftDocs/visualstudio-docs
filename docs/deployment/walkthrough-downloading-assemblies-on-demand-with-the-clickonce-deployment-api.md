@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API
+# Walkthrough: Download assemblies on demand with the ClickOnce deployment API
 By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application are downloaded when the application is first run. However, you may have parts of your application that are used by a small set of your users. In this case, you want to download an assembly only when you create one of its types. The following walkthrough demonstrates how to mark certain assemblies in your application as "optional", and how to download them by using classes in the <xref:System.Deployment.Application> namespace when the common language runtime (CLR) demands them.  
   
 > [!NOTE]
@@ -32,7 +32,7 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
   
 -   Visual Studio.  
   
-## Creating the Projects  
+## Create the projects  
   
 #### To create a project that uses an on-demand assembly  
   
@@ -44,7 +44,7 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
   
 4.  Generate a public/private key pair using the following command:  
   
-    ```  
+    ```cmd  
     sn -k TestKey.snk  
     ```  
   
@@ -53,7 +53,7 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
      [!code-vb[ClickOnceLibrary#1](../deployment/codesnippet/VisualBasic/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api_1.vb)]
      [!code-csharp[ClickOnceLibrary#1](../deployment/codesnippet/CSharp/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api_1.cs)]  
   
-6.  Save the text as a file named `ClickOnceLibrary.cs` or `ClickOnceLibrary.vb`, depending on the language you use, to the ClickOnceOnDemand directory.  
+6.  Save the text as a file named *ClickOnceLibrary.cs* or *ClickOnceLibrary.vb*, depending on the language you use, to the *ClickOnceOnDemand* directory.  
   
 7.  Compile the file into an assembly.  
   
@@ -67,7 +67,7 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
   
 8.  To get the public key token for the assembly, use the following command:  
   
-    ```  
+    ```cmd  
     sn -T ClickOnceLibrary.dll  
     ```  
   
@@ -80,7 +80,7 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
   
 11. Set`PublicKeyToken` to the value that you retrieved earlier.  
   
-12. Save the file as either `Form1.cs` or `Form1.vb`.  
+12. Save the file as either *Form1.cs* or *Form1.vb*.  
   
 13. Compile it into an executable using the following command.  
   
@@ -92,23 +92,23 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
     vbc /target:exe /reference:ClickOnceLibrary.dll Form1.vb  
     ```  
   
-## Marking Assemblies as Optional  
+## Mark assemblies as optional  
   
 #### To mark assemblies as optional in your ClickOnce application by using MageUI.exe  
   
-1.  Using MageUI.exe, create an application manifest as described in [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). Use the following settings for the application manifest:  
+1.  Using *MageUI.exe*, create an application manifest as described in [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). Use the following settings for the application manifest:  
   
     -   Name the application manifest `ClickOnceOnDemand`.  
   
-    -   On the **Files** page, in the ClickOnceLibrary.dll row, set the **File Type** column to **None**.  
+    -   On the **Files** page, in the *ClickOnceLibrary.dll* row, set the **File Type** column to **None**.  
   
-    -   On the **Files** page, in the ClickOnceLibrary.dll row, type `ClickOnceLibrary.dll` in the **Group** column.  
+    -   On the **Files** page, in the *ClickOnceLibrary.dll* row, type `ClickOnceLibrary.dll` in the **Group** column.  
   
-2.  Using MageUI.exe, create a deployment manifest as described in [Walkthrough: Manually Deploying a ClickOnce Application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). Use the following settings for the deployment manifest:  
+2.  Using *MageUI.exe*, create a deployment manifest as described in [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md). Use the following settings for the deployment manifest:  
   
     -   Name the deployment manifest `ClickOnceOnDemand`.  
   
-## Testing the New Assembly  
+## Testing the new assembly  
   
 #### To test your on-demand assembly  
   
@@ -122,5 +122,5 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
   
 3.  When your main form appears, press the <xref:System.Windows.Forms.Button>. You should see a string in a message box window that reads "Hello, World!".  
   
-## See Also  
+## See also  
  <xref:System.Deployment.Application.ApplicationDeployment>

@@ -234,7 +234,7 @@ Build and run the application. Verify that you can view and update product recor
 
 ## Next steps
 
-After completing this walkthrough, you you might try the following related tasks:
+After completing this walkthrough, you might try the following related tasks:
 
 - Learn how to use the **Data Sources** window in Visual Studio to bind WPF controls to other types of data sources. For more information, see [Bind WPF controls to a WCF data service](../data-tools/bind-wpf-controls-to-a-wcf-data-service.md).
 

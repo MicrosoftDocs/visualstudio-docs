@@ -20,7 +20,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Automatically Increment the ClickOnce Publish Version
+# How to: Automatically increment the ClickOnce publish version
 When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, changing the `Publish Version` property causes the application to be published as an update. By default, Visual Studio automatically increments the `Revision` number of the `Publish Version` each time you publish the application.  
   
  You can disable this behavior on the **Publish** page of the **Project Designer**.  
@@ -28,7 +28,7 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).  
   
-### To disable automatically incrementing the Publish Version  
+### To disable automatically incrementing the publish version  
   
 1.  With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.  
   
@@ -36,7 +36,7 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
   
 3.  In the **Publish Version** section, clear the **Automatically increment revision with each release** check box.  
   
-## See Also  
- [How to: Set the ClickOnce Publish Version](../deployment/how-to-set-the-clickonce-publish-version.md)   
- [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
- [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
+## See also  
+ [How to: Set the ClickOnce publish version](../deployment/how-to-set-the-clickonce-publish-version.md)   
+ [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)   
+ [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
