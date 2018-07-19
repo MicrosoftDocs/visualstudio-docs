@@ -35,5 +35,5 @@ MSBuild can take advantage of systems that have multiple processors, or multiple
  To avoid this problem but still enable multi-processor builds, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] uses "process isolation." By using process isolation, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] can create a maximum of `n` processes, where `n` equals the number of processors available on the system. For example, if [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] builds a solution on a system that has two processors, then only two build processes are created. These processes are re-used to build all the projects in the solution.  
   
 ## See also  
- [Building multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)   
+ [Build multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)   
  [Tasks](../msbuild/msbuild-tasks.md)
