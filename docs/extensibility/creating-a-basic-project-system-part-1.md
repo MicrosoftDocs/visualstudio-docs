@@ -22,7 +22,7 @@ In Visual Studio, projects are the containers that developers use to organize so
  Projects are defined in project files, for example a *.csproj* file for a Visual C# project. You can create your own project type that has your own project file name extension. For more information about project types, see [Project types](../extensibility/internals/project-types.md).  
   
 > [!NOTE]
->  If you need to extend Visual Studio with a custom project type, we strongly recommend leveraging the [Visual Studio Project System](https://github.com/Microsoft/VSProjectSystem) (VSPS) which has a number of advantages over building a project system from scratch:  
+>  If you need to extend Visual Studio with a custom project type, we strongly recommend leveraging the [Visual Studio project system](https://github.com/Microsoft/VSProjectSystem) (VSPS) which has a number of advantages over building a project system from scratch:  
 >   
 >  -  Easier onboarding.  Even a basic project system requires tens of thousands of lines of code.  Leveraging VSPS reduces the onboarding cost to a few clicks before you are ready to customize it to your needs.  
 >  -  Easier maintenance.  By leveraging VSPS, you only need to maintain your own scenarios.  We handle the upkeep of all of the project system infrastructure.  
