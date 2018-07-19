@@ -25,7 +25,7 @@ You can create your own extraction rules. To do this, you derive your own rules 
 
 ## To create a custom extraction rule
 
-1.  Open a Test Project that contains a Web performance test.
+1.  Open a Test Project that contains a web performance test.
 
 2.  (Optional) Create a separate Class library project in which to store your extraction rule.
 
@@ -40,13 +40,13 @@ You can create your own extraction rules. To do this, you derive your own rules 
 
 6.  (Optional) In the Test Project, add a reference to the Class library project that contains the custom extraction rule.
 
-7.  In the Test Project, open a Web performance test in the **Web Performance Test Editor**.
+7.  In the Test Project, open a web performance test in the **Web Performance Test Editor**.
 
-8.  To add the custom extraction rule, right-click a Web performance test request and select **Add Extraction Rule**.
+8.  To add the custom extraction rule, right-click a web performance test request and select **Add Extraction Rule**.
 
      The **Add Extraction Rule** dialog box appears. You will see your custom validation rule in the **Select a rule** list, together with the predefined validation rules. Select your custom extraction rule and then choose **OK**.
 
-9. Run your Web performance test.
+9. Run your web performance test.
 
 ## Example
 

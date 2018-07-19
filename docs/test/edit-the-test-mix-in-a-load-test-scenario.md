@@ -14,9 +14,9 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# Edit the Test Mix to Specify Which Web Performance, Unit and Coded UI Tests to Include in a Load Test Scenario
+# Edit the test mix to specify which web performance, unit and coded UI tests to include in a load test scenario
 
-The *test mix* of a scenario is a combination of the selection of Web performance and unit tests that are contained in the scenario and the distribution of those tests in the scenario. The distribution is a setting that you can specify for the probability that a particular test will be selected by a virtual user during a load test run.
+The *test mix* of a scenario is a combination of the selection of web performance and unit tests that are contained in the scenario and the distribution of those tests in the scenario. The distribution is a setting that you can specify for the probability that a particular test will be selected by a virtual user during a load test run.
 
  After you add a set of tests to a load test, the *test mix* works like other mix options. A virtual user randomly selects a test, based on the probability that you specified in the mix. For example, if you have two tests, each 50 percent in the mix, a new virtual user chooses to run the first test approximately half the time. In a 50/50 mix, if one test is long and another is short, more load comes from the long test.
 
@@ -25,11 +25,11 @@ The *test mix* of a scenario is a combination of the selection of Web performanc
 > [!NOTE]
 > Distribution is a measure of the probability that a particular test will be selected by a virtual user during a load test run. Distribution is expressed as a percentage. Therefore, the sum of the distribution numbers for all tests that are contained in a scenario is 100. For example, if a scenario contains only one test, the distribution for that test is 100 percent.
 
-## Add New Tests to a Test Mix in an Existing Scenario
+## Add new tests to a test mix in an existing scenario
 
-When you create a new scenario by using the New Load Test Wizard, you can specify the Web performance and unit tests to add to the test mix of the new scenario.
+When you create a new scenario by using the **New Load Test Wizard**, you can specify the web performance and unit tests to add to the test mix of the new scenario.
 
-You can add more Web performance and unit tests to the text mix of the scenario by using the Load Test Editor.
+You can add more web performance and unit tests to the text mix of the scenario by using the **Load Test Editor**.
 
 ![Adding a test to an existing load test](../test/media/ltest_addingtests.png)
 
@@ -37,28 +37,28 @@ You can add more Web performance and unit tests to the text mix of the scenario 
 
 1.  Open a load test.
 
-2.  In the Load Test Editor, right-click an existing scenario and then choose **Add Tests**.
+2.  In the **Load Test Editor**, right-click an existing scenario and then choose **Add Tests**.
 
-     The **Add Tests** dialog box is displayed. All Web performance, unit, and coded UI tests in your solution that are not already in your scenario are available to add to the scenario.
+     The **Add Tests** dialog box is displayed. All web performance, unit, and coded UI tests in your solution that are not already in your scenario are available to add to the scenario.
 
-3.  In the **Available tests** pane, select the Web performance, unit, and coded UI tests that you want to add. Choose the right arrow to add the tests to the **Selected tests** pane.
+3.  In the **Available tests** pane, select the web performance, unit, and coded UI tests that you want to add. Choose the right arrow to add the tests to the **Selected tests** pane.
 
 4.  When you finish adding tests, choose **OK**.
 
      The tests are added to the test mix. A new distribution is assigned automatically to the tests in the test mix.
 
-5.  (Optional) Adjust the mix control to specify the test distribution. For more information, see [About the Mix Control](../test/edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario.md).
+5.  (Optional) Adjust the mix control to specify the test distribution. For more information, see [About the mix control](../test/edit-the-test-mix-to-specify-which-web-browsers-types-in-a-load-test-scenario.md).
 
-##  <a name="EditingTestMixRemoveTest"></a> Removing Tests from a Scenario
+##  Remove tests from a scenario
  ![Removing a test from an existing load test](../test/media/ltest_removetest.png)
 
 ### To remove tests from a scenario
 
 1.  Open a load test.
 
-2.  In the Load Test Editor, in the load test tree, right-click the scenario from which you want to remove a test and select **Edit Test Mix**. The **Edit Test Mix** dialog box is displayed.
+2.  In the **Load Test Editor**, in the load test tree, right-click the scenario from which you want to remove a test and select **Edit Test Mix**. The **Edit Test Mix** dialog box is displayed.
 
-3.  Select the Web performance, unit, or coded UI test in the grid and then choose **Remove**.
+3.  Select the web performance, unit, or coded UI test in the grid and then choose **Remove**.
 
     > [!NOTE]
     > After you remove the test, adjust the test mix to your preferred distribution.
@@ -86,4 +86,4 @@ You can add more Web performance and unit tests to the text mix of the scenario 
 
 ## See also
 
-- [Editing Load Test Scenarios](../test/edit-load-test-scenarios.md)
+- [Editing load test scenarios](../test/edit-load-test-scenarios.md)

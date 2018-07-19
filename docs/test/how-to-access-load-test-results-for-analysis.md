@@ -25,7 +25,7 @@ The load test result for the completed load test contains performance counter sa
 
 ## To access a load test result
 
-1.  From a Web performance and load test project, open a load test.
+1.  From a web performance and load test project, open a load test.
 
 2.  In the Load Test Editor's toolbar, choose the **Open and Manage Results** button.
 

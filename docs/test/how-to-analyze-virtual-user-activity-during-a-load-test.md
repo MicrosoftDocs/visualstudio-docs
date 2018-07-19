@@ -60,7 +60,7 @@ The procedures below demonstrate how to view the **Virtual User Activity Chart**
     -   **Test log** (Link to the test log)
 
         > [!NOTE]
-        > To assist in debugging your application, if you choose the **Test log** link, the Web test result or unit test result associated with the log will open.
+        > To assist in debugging your application, if you choose the **Test log** link, the web test result or unit test result associated with the log open.
 
      Next, you can use the filtering and highlighting operations available in the **Virtual User Activity Chart**.
 

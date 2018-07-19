@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# MSBuild Task
+# MSBuild task
 Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] projects from another [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project.  
   
 ## Parameters  
@@ -42,12 +42,12 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 |`Targets`|Optional `String` parameter.<br /><br /> Specifies the target or targets to build in the project files. Use a semicolon to separate a list of target names. If no targets are specified in the `MSBuild` task, the default targets specified in the project files are built. **Note:**  The targets must occur in all the project files. If they do not, a build error occurs.|  
 |`ToolsVersion`|Optional `String` parameter.<br /><br /> Specifies the `ToolsVersion` to use when building projects passed to this task.<br /><br /> Enables an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] task to build a project that targets a different version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] than the one specified in the project. Valid values are `2.0`, `3.0` and `3.5`. Default value is `3.5`.|  
 |`UnloadProjectsOnCompletion`|Optional `Boolean` parameter.<br /><br /> If `true`, the project will be unloaded once the operation is complete.|  
-|`UseResultsCache`|Optional `Boolean` parameter.<br /><br /> If `true`, the cached result will be returned, if present. If theMSBuild task is run, its result will be cached in a scope (ProjectFileName, GlobalProperties)[TargetNames]<br /><br /> as a list of build items|  
+|`UseResultsCache`|Optional `Boolean` parameter.<br /><br /> If `true`, the cached result will be returned, if present.<br /><br />  If the MSBuild task is run, its result will be cached in a scope <br /><br /> (ProjectFileName, GlobalProperties)[TargetNames]<br /><br /> as a list of build items|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  
   
- Unlike using the [Exec Task](../msbuild/exec-task.md) to start MSBuild.exe, this task uses the same [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] process to build the child projects. The list of already-built targets that can be skipped is shared between the parent and child builds. This task is also faster because no new [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] process is created.  
+ Unlike using the [Exec task](../msbuild/exec-task.md) to start *MSBuild.exe*, this task uses the same [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] process to build the child projects. The list of already-built targets that can be skipped is shared between the parent and child builds. This task is also faster because no new [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] process is created.  
   
  This task can process not only project files but also solution files.  
   
@@ -55,19 +55,19 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
   
  Beginning in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 3.5, Solution projects now surface TargetOutputs from all of the sub-projects it builds.  
   
-## Passing Properties to Projects  
- In versions of [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] prior to [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 3.5, passing different sets of properties to different projects listed in the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] item was challenging. If you used the Properties attribute of the [MSBuild Task](../msbuild/msbuild-task.md), then its setting was applied to all of the projects being built unless you batched the [MSBuild Task](../msbuild/msbuild-task.md) and conditionally provided different properties for each project in the item list.  
+## Pass properties to projects  
+ In versions of [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] prior to [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 3.5, passing different sets of properties to different projects listed in the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] item was challenging. If you used the Properties attribute of the [MSBuild task](../msbuild/msbuild-task.md), then its setting was applied to all of the projects being built unless you batched the [MSBuild task](../msbuild/msbuild-task.md) and conditionally provided different properties for each project in the item list.  
   
- [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 3.5, however, provides two new reserved metadata items, Properties and AdditionalProperties, that provide you a flexible way to pass different properties for different projects being built using the [MSBuild Task](../msbuild/msbuild-task.md).  
+ [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 3.5, however, provides two new reserved metadata items, Properties and AdditionalProperties, that provide you a flexible way to pass different properties for different projects being built using the [MSBuild task](../msbuild/msbuild-task.md).  
   
 > [!NOTE]
->  These new metadata items are applicable only to items passed in the Projects attribute of the [MSBuild Task](../msbuild/msbuild-task.md).  
+>  These new metadata items are applicable only to items passed in the Projects attribute of the [MSBuild task](../msbuild/msbuild-task.md).  
   
-## Multi-Processor Build Benefits  
- One of the major benefits of using this new metadata occurs when you build your projects in parallel on a multi-processor system. The metadata allows you to consolidate all projects into a single [MSBuild Task](../msbuild/msbuild-task.md) call without having to perform any batching or conditional [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] tasks. And when you call only a single [MSBuild Task](../msbuild/msbuild-task.md), all of the projects listed in the Projects attribute will be built in parallel. (Only, however, if the `BuildInParallel=true` attribute is present in the [MSBuild Task](../msbuild/msbuild-task.md).) For more information, see [Building Multiple Projects in Parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md).  
+## Multi-processor build benefits  
+ One of the major benefits of using this new metadata occurs when you build your projects in parallel on a multi-processor system. The metadata allows you to consolidate all projects into a single [MSBuild task](../msbuild/msbuild-task.md) call without having to perform any batching or conditional [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] tasks. And when you call only a single [MSBuild task](../msbuild/msbuild-task.md), all of the projects listed in the Projects attribute will be built in parallel. (Only, however, if the `BuildInParallel=true` attribute is present in the [MSBuild task](../msbuild/msbuild-task.md).) For more information, see [Building multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md).  
   
-## Properties Metadata  
- A common scenario is when you are building multiple solution files using the [MSBuild Task](../msbuild/msbuild-task.md), only using different build configurations. You may want to build solution a1 using the Debug configuration and solution a2 using the Release configuration. In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 2.0, this project file would look like the following:  
+## Properties metadata  
+ A common scenario is when you are building multiple solution files using the [MSBuild task](../msbuild/msbuild-task.md), only using different build configurations. You may want to build solution a1 using the Debug configuration and solution a2 using the Release configuration. In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 2.0, this project file would look like the following:  
   
 > [!NOTE]
 >  In the following example, "..." represents additional solution files.  
@@ -83,7 +83,7 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 </Project>  
 ```  
   
- By using the Properties metadata, however, you can simplify this to use a single [MSBuild Task](../msbuild/msbuild-task.md), as shown by the following:  
+ By using the Properties metadata, however, you can simplify this to use a single [MSBuild task](../msbuild/msbuild-task.md), as shown by the following:  
   
 ### a.proj  
   
@@ -120,8 +120,8 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 </Project>  
 ```  
   
-## AdditionalProperties Metadata  
- Consider the following scenario where you are building two solution files using the [MSBuild Task](../msbuild/msbuild-task.md), both using the Release configuration, but one using the x86 architecture and the other using the ia64 architecture. In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 2.0, you would need to create multiple instances of the [MSBuild Task](../msbuild/msbuild-task.md): one to build the project using the Release configuration with the x86 Architecture, the other using the Release configuration with the ia64 architecture. Your project file would look like the following:  
+## AdditionalProperties metadata  
+ Consider the following scenario where you are building two solution files using the [MSBuild task](../msbuild/msbuild-task.md), both using the Release configuration, but one using the x86 architecture and the other using the ia64 architecture. In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 2.0, you would need to create multiple instances of the [MSBuild task](../msbuild/msbuild-task.md): one to build the project using the Release configuration with the x86 Architecture, the other using the Release configuration with the ia64 architecture. Your project file would look like the following:  
   
 ### a.proj  
   
@@ -136,7 +136,7 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 </Project>  
 ```  
   
- By using the AdditionalProperties metadata, you can simplify this to use a single [MSBuild Task](../msbuild/msbuild-task.md) by using the following:  
+ By using the AdditionalProperties metadata, you can simplify this to use a single [MSBuild task](../msbuild/msbuild-task.md) by using the following:  
   
 ### a.proj  
   
@@ -182,6 +182,6 @@ Builds [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)

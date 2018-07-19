@@ -116,7 +116,7 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
      ![Set the start page on Querystring.aspx](../test/media/web_test_dynamicparameter_setstartpage.png)
 
-15. Press CTRL+F5 to run the Web application in the browser. Copy the URL. You will need it when you record your test.
+15. Press CTRL+F5 to run the web application in the browser. Copy the URL. You will need it when you record your test.
 
 16. Try both links. They should each display the message "Success. Dynamic querystring parameter found."
 
@@ -138,9 +138,9 @@ To demonstrate both a detectable and a non-detectable dynamic parameter, we’ll
 
      ![Record the web performance test](../test/media/web_test_dynamicparameter_recordtest.png)
 
-4.  Copy and paste the URL from the web site you're testing into the browser.
+4.  Copy and paste the URL from the website you're testing into the browser.
 
-     ![Paste the URL from the web site being tested](../test/media/web_test_dynamicparameter_recordtest2.png)
+     ![Paste the URL from the website being tested](../test/media/web_test_dynamicparameter_recordtest2.png)
 
 5.  Browse through the web application. Choose the ASP.NET link, the Back link, and then the javascript link, followed by the back link.
 

@@ -17,12 +17,12 @@ After you create your load test with the **New Load Test Wizard**, you can chang
 
 The **Percentage of new Users** property is set in the Properties window. You edit load test scenario properties in the Load Test Editor.
 
-The **Percentage of new Users** property affects the way in which the load test simulates the caching that would be performed by a Web browser. By default, the **Percentage of new Users** property is set to 0%. If the value for the **Percentage of new Users** property is set to 100%, each Web performance test run in a load test is treated like a first time user to the Web site who does not have any content from the Web site in their browser cache from previous visits. Thus, all requests in the Web test, including all dependent requests such as images, are downloaded.
+The **Percentage of new Users** property affects the way in which the load test simulates the caching that would be performed by a web browser. By default, the **Percentage of new Users** property is set to 0%. If the value for the **Percentage of new Users** property is set to 100%, each web performance test run in a load test is treated like a first time user to the website who does not have any content from the website in their browser cache from previous visits. Thus, all requests in the web test, including all dependent requests such as images, are downloaded.
 
 > [!NOTE]
 > When the same cacheable resource is requested more than once in a web test, the requests are not downloaded.
 
-If you are load testing a Web site that has a significant number of return users who are likely to have images and other cacheable content cached locally, then a setting of 100% for **Percentage of new Users** property will generate more download requests than would occur in real-world usage. In this case, you should estimate the percentage of visits to your Web site that are from first time users of the web site, and set **Percentage of new Users** property accordingly.
+If you are load testing a website that has a significant number of return users who are likely to have images and other cacheable content cached locally, then a setting of 100% for **Percentage of new Users** property will generate more download requests than would occur in real-world usage. In this case, you should estimate the percentage of visits to your website that are from first time users of the website, and set **Percentage of new Users** property accordingly.
 
 ## To specify the percentage of new users for a scenario
 
