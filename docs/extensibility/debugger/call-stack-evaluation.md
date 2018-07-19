@@ -15,10 +15,10 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Call Stack Evaluation
-In order to view the stack frames of the call stack during break mode , you must implement the [EnumFrameInfo](../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md) method.  
+# Call stack evaluation
+In order to view the stack frames of the call stack during break mode, you must implement the [EnumFrameInfo](../../extensibility/debugger/reference/idebugthread2-enumframeinfo.md) method.  
   
-## Methods for Evaluation  
+## Methods for evaluation  
  For a simple debug engine (DE), there might be only one stack frame. To examine the stack frame during break mode, you must implement the following methods of [IDebugStackFrame2](../../extensibility/debugger/reference/idebugstackframe2.md).  
   
 |Method|Description|  
@@ -34,5 +34,5 @@ In order to view the stack frames of the call stack during break mode , you must
   
  To enumerate code contexts, you must implement all the methods of [IEnumDebugCodeContexts2](../../extensibility/debugger/reference/ienumdebugcodecontexts2.md).  
   
-## See Also  
- [Execution Control and State Evaluation](../../extensibility/debugger/execution-control-and-state-evaluation.md)
+## See also  
+ [Execution control and state evaluation](../../extensibility/debugger/execution-control-and-state-evaluation.md)

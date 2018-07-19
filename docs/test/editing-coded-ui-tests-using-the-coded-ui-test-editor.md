@@ -62,7 +62,7 @@ In **Solution Explorer**, open the shortcut menu for *UIMap.uitest* and choose *
 
 ## Modify UI action and control properties
 
-Using the Coded UI Test Editor, you can quickly locate and view all the UI actions in your test methods. When you select the UI action in the editor, the corresponding control is automatically highlighted. Likewise, if you select a control, the associated UI actions are highlighted. When you select either a UI action or a control, it is then easy to use the Properties window to modify the properties that correspond with it.
+Using the Coded UI Test Editor, you can quickly locate and view all the UI actions in your test methods. When you select the UI action in the editor, the corresponding control is automatically highlighted. Likewise, if you select a control, the associated UI actions are highlighted. When you select either a UI action or a control, it is then easy to use the **Properties** window to modify the properties that correspond with it.
 
 ![UI action properties](../test/media/codeduiedituiaction.png)
 
@@ -72,11 +72,11 @@ For example, if a server is unavailable, and you have a UI action associated wit
 
 ![Control properties](../test/media/codeduitestcontrolprop.png)
 
-Modifying the properties for a control is done in the same way as the UI actions. In the **UI Control Map** pane, select the control that you want to edit and modify its properties using the Properties window.
+Modifying the properties for a control is done in the same way as the UI actions. In the **UI Control Map** pane, select the control that you want to edit and modify its properties using the **Properties** window.
 
 For example, a developer might have changed the **(ID)** property on a button control in the source code for the application being tested from "idSubmit" to "idLogin." With the **(ID)** property changed in the application, the coded UI test will not be able to locate the button control and will fail. In this case, the tester can open the **Search Properties** collection and change the **Id** property to match the new value that the developer used in the application. The tester could also change the **Friendly Name** property value from "Submit" to "Login." By making this change, the associated UI action in the Coded UI Test Editor is updated from "Choose 'Submit' button" to "Choose 'Login' button."
 
-After completing your modifications, save the changes to the UIMap.Designer file by choosing **Save** on the Visual Studio toolbar.
+After completing your modifications, save the changes to the *UIMap.Designer* file by choosing **Save** on the Visual Studio toolbar.
 
 ### Tips
 
@@ -84,11 +84,11 @@ After completing your modifications, save the changes to the UIMap.Designer file
 
 - To undo the property changes you made, select **Undo** from the **Edit** menu, or press **Ctrl**+**Z**.
 
-- You can use the **Find** button in the Coded UI Test editor toolbar to open the Find and Replace tool in Visual Studio. You can then use the Find control to locate a UI action in the Coded UI Test editor. For example, you can try to find "Click 'Login' button." This can be useful in large tests. You cannot use the replace functionality in the Find and Replace tool in the Coded UI Test Editor. For more information, see Find control in [Finding and Replacing Text](../ide/finding-and-replacing-text.md).
+- You can use the **Find** button in the Coded UI Test editor toolbar to open the **Find and Replace** tool in Visual Studio. You can then use the **Find** control to locate a UI action in the Coded UI Test editor. For example, you can try to find "Click 'Login' button." This can be useful in large tests. You cannot use the replace functionality in the **Find and Replace** tool in the Coded UI Test Editor. For more information, see Find control in [Find and replace text](../ide/finding-and-replacing-text.md).
 
-- Sometimes, it can be difficult to visualize where controls are located in the UI of the application under test. One of the capabilities of the coded UI Test Editor is that you can select a control listed in the UI control map and view its location in the application under test. For more information, see [Locating a UI Control in the application under Test](#locate-a-ui-control-in-the-application-under-test) located further below in this article.
+- Sometimes, it can be difficult to visualize where controls are located in the UI of the application under test. One of the capabilities of the coded UI Test Editor is that you can select a control listed in the UI control map and view its location in the application under test. For more information, see [Locate a UI control in the application under test](#locate-a-ui-control-in-the-application-under-test) located further below in this article.
 
-- It might be necessary to expand the container control that contains the control that you want to edit. For more information, see [Locating a control and its descendants](#locate-a-control-and-its-descendants) located further below in this article.
+- It might be necessary to expand the container control that contains the control that you want to edit. For more information, see [Locate a control and its descendants](#locate-a-control-and-its-descendants) located further below in this article.
 
 ## Delete unwanted UI actions
 
@@ -106,9 +106,9 @@ You can split a test method to refine or to modularize the UI actions. For examp
 
 ![Two test methods](../test/media/codeduitestsplitmethod2.png)
 
-In the **UI Action** pane, expand the test method that you want to split into two separate methods and select the UI action where you want the new test method to begin. Either open the shortcut menu for the UI action and then choose **Split into a new method**, or choose the **Split into a new method** button on the Coded UI Test Editor toolbar. The new test method appears in the UI Actions pane. It contains the UI actions starting from the action where you specified the split.
+In the **UI Action** pane, expand the test method that you want to split into two separate methods and select the UI action where you want the new test method to begin. Either open the shortcut menu for the UI action and then choose **Split into a new method**, or choose the **Split into a new method** button on the Coded UI Test Editor toolbar. The new test method appears in the **UI Actions** pane. It contains the UI actions starting from the action where you specified the split.
 
-After you are done splitting the method, save the changes to the UIMap.Designer file by choosing **Save** on the Visual Studio toolbar.
+After you are done splitting the method, save the changes to the *UIMap.Designer* file by choosing **Save** on the Visual Studio toolbar.
 
 > [!WARNING]
 > If you split a method, you must modify any code that calls the existing method to also call the new method you are about to create if you still want those UI actions included. When you split a method, a Microsoft Visual Studio dialog box is displayed. It warns you that you must modify any code that calls the existing method to also call the new method you are about to create. Choose **Yes**.
@@ -117,7 +117,7 @@ After you are done splitting the method, save the changes to the UIMap.Designer 
 
 - To undo the split, choose **Undo** from the **Edit** menu, or press **Ctrl**+**Z**.
 
-- You can rename the new method. Select it in the UI Actions pane and choose the **Rename** button in the Coded UI Test Editor toolbar.
+- You can rename the new method. Select it in the **UI Actions** pane and choose the **Rename** button in the Coded UI Test Editor toolbar.
 
    -or-
 
@@ -125,22 +125,22 @@ After you are done splitting the method, save the changes to the UIMap.Designer 
 
    A Microsoft Visual Studio dialog box is displayed. It warns you that you must modify any code that references the method. Choose **Yes**.
 
-## Move a test method to the UIMap File to facilitate customization
+## Move a test method to the UIMap file to facilitate customization
 
-If you determine that one of your test methods in your coded UI test requires custom code, you must move it into either the UIMap.cs or UIMap.vb file. Otherwise, your code will be overwritten whenever the coded UI test is recompiled. If you do not move the method, your custom code will be overwritten each time the test is recompiled.
+If you determine that one of your test methods in your coded UI test requires custom code, you must move it into either the *UIMap.cs* or *UIMap.vb* file. Otherwise, your code will be overwritten whenever the coded UI test is recompiled. If you do not move the method, your custom code will be overwritten each time the test is recompiled.
 
-In the **UI Action** pane, select the test method that you want to move to the UIMap.cs or UIMap.vb file to facilitate custom code functionality that won't be overwritten when the test code is recompiled. Next, choose the **Move Code** button on the Coded UI Test Editor toolbar, or open the shortcut menu for the test method and choose **Move Code**. The test method is removed from the UIMap.uitest file and no longer is displayed in the UI Actions pane. To edit the test file that you moved, open the UIMap.cs or the UIMap.vb file from Solution Explorer.
+In the **UI Action** pane, select the test method that you want to move to the *UIMap.cs* or *UIMap.vb* file to facilitate custom code functionality that won't be overwritten when the test code is recompiled. Next, choose the **Move Code** button on the Coded UI Test Editor toolbar, or open the shortcut menu for the test method and choose **Move Code**. The test method is removed from the *UIMap.uitest* file and no longer is displayed in the **UI Actions** pane. To edit the test file that you moved, open the *UIMap.cs* or the *UIMap.vb* file from **Solution Explorer**.
 
-After you are done moving the method, save the changes to the UIMap.Designer file by choosing **Save** on the Visual Studio toolbar.
+After you are done moving the method, save the changes to the *UIMap.Designer* file by choosing **Save** on the Visual Studio toolbar.
 
 > [!WARNING]
-> Once you have moved a method, you can no longer edit it using the Coded UI Test Editor. You must add your custom code and maintain it using the Code Editor. When you move a method, a Microsoft Visual Studio dialog box is displayed. It warns you that the method will be moved from the UIMap.uitest file to the UIMap.cs or UIMap.vb file and that you will no longer be able to edit the method using the Coded UI Test Editor. Choose **Yes**.
+> Once you have moved a method, you can no longer edit it using the Coded UI Test Editor. You must add your custom code and maintain it using the Code Editor. When you move a method, a Microsoft Visual Studio dialog box is displayed. It warns you that the method will be moved from the *UIMap.uitest* file to the *UIMap.cs* or *UIMap.vb* file and that you will no longer be able to edit the method using the Coded UI Test Editor. Choose **Yes**.
 
 ### Tips
 
-To undo the move, select **Undo** from the **Edit** menu, or press **Ctrl**+**Z**. However, you must then manually remove the code from the UIMap.cs or UIMap.vb file.
+To undo the move, select **Undo** from the **Edit** menu, or press **Ctrl**+**Z**. However, you must then manually remove the code from the *UIMap.cs* or *UIMap.vb* file.
 
-## Locate a UI Control in the application under test
+## Locate a UI control in the application under test
 
 Sometimes, it can be difficult to visualize where controls are located in the UI of the application under test. One of the capabilities of the coded UI Test Editor is that you can select a control listed in the UI control map and view its location in the application under test. Using the **Locate the UI Control** feature on the application under test can also be used to verify search property modifications you have made to a control.
 
@@ -178,15 +178,15 @@ Sometimes, you might want to make the test wait for certain events to occur, suc
 
 ![Delay added with 5 seconds](../test/media/codeduidealy2.png)
 
-In the **UI Action** pane, expand the test method that contains the UI action that you want to insert a delay before. Select the UI action. Next, open the shortcut menu for the UI action and choose **Insert Delay Before**. A delay is inserted and highlighted before the selected UI action with the following text: **Wait for 1 seconds for user delay between actions**. In the Properties window, change the value for the **Delay** property to the desired number of milliseconds.
+In the **UI Action** pane, expand the test method that contains the UI action that you want to insert a delay before. Select the UI action. Next, open the shortcut menu for the UI action and choose **Insert Delay Before**. A delay is inserted and highlighted before the selected UI action with the following text: **Wait for 1 seconds for user delay between actions**. In the **Properties** window, change the value for the **Delay** property to the desired number of milliseconds.
 
-After you are done inserting the delay, save the changes to the UIMap.Designer file by choosing **Save** on the Visual Studio toolbar.
+After you are done inserting the delay, save the changes to the *UIMap.Designer* file by choosing **Save** on the Visual Studio toolbar.
 
-If you need to ensure that a specific control is available before a UI action, you should consider adding custom code to your test method using the appropriate UITestControl.WaitForControlXXX() method. For more information, see [Making Coded UI Tests Wait For Specific Events During Playback](../test/making-coded-ui-tests-wait-for-specific-events-during-playback.md).
+If you need to ensure that a specific control is available before a UI action, you should consider adding custom code to your test method using the appropriate UITestControl.WaitForControlXXX() method. For more information, see [Making coded UI tests wait for specific events during playback](../test/making-coded-ui-tests-wait-for-specific-events-during-playback.md).
 
 ## See also
 
-- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
-- [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md)
-- [Creating a Data-Driven Coded UI Test](../test/creating-a-data-driven-coded-ui-test.md)
-- [Walkthrough: Creating, Editing and Maintaining a Coded UI Test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
+- [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)
+- [Create coded UI tests](../test/use-ui-automation-to-test-your-code.md)
+- [Create a data-driven coded UI test](../test/creating-a-data-driven-coded-ui-test.md)
+- [Walkthrough: Creating, editing and maintaining a coded UI test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)

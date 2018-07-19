@@ -16,10 +16,10 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Breakpoint Errors
-The following describes the process when a breakpoint attempts to bind to code but fails:  
+# Breakpoint errors
+The following describes the process when a breakpoint attempts to bind to code but fails.  
   
-## Troubleshooting a Breakpoint Error  
+## Troubleshoot a breakpoint error  
   
 1.  The debug engine (DE) sends an [IDebugBreakpointErrorEvent2](../../extensibility/debugger/reference/idebugbreakpointerrorevent2.md) to the session debug manager (SDM).  
   
@@ -29,5 +29,5 @@ The following describes the process when a breakpoint attempts to bind to code b
   
 4.  The SDM calls [IDebugErrorBreakpoint2::GetBreakpointResolution](../../extensibility/debugger/reference/idebugerrorbreakpoint2-getbreakpointresolution.md) to get the reason why the error breakpoint failed to bind.  
   
-## See Also  
- [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)
+## See also  
+ [Calling debugger events](../../extensibility/debugger/calling-debugger-events.md)

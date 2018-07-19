@@ -20,19 +20,19 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# ResourcesGenerator Task
-The <xref:Microsoft.Build.Tasks.Windows.ResourcesGenerator> task embeds one or more resources (.jpg, .ico, .bmp, [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] in binary format, and other extension types) into a .resources file.  
+# ResourcesGenerator task
+The <xref:Microsoft.Build.Tasks.Windows.ResourcesGenerator> task embeds one or more resources (*.jpg*, *.ico*, *.bmp*, [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] in binary format, and other extension types) into a *.resources* file.  
   
-## Task Parameters  
+## Task parameters  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|`OutputPath`|Required **String** parameter.<br /><br /> Specifies the path of the output directory. If the path is not an absolute path, it is treated as a path that is relative to the root project directory.|  
-|`OutputResourcesFile`|Required **ITaskItem[]** output parameter.<br /><br /> Specifies the path and name of the generated .resources file. If the path is not an absolute path, the .resources file is generated relative to the root project directory.|  
-|`ResourcesFiles`|Required **ITaskItem[]** parameter.<br /><br /> Specifies one or more resources to embed in the generated .resources file.|  
+|`OutputPath`|Required **String** parameter.<br /><br /> Specifies the path of the output directory. If the path isn't an absolute path, it's treated as a path that is relative to the root project directory.|  
+|`OutputResourcesFile`|Required **ITaskItem[]** output parameter.<br /><br /> Specifies the path and name of the generated *.resources* file. If the path isn't an absolute path, the *.resources* file is generated relative to the root project directory.|  
+|`ResourcesFiles`|Required **ITaskItem[]** parameter.<br /><br /> Specifies one or more resources to embed in the generated *.resources* file.|  
   
 ## Example  
- The following example generates a .resources file with a single .bmp resource. The .bmp resource is generated to a directory that is relative to the project root directory.  
+ The following example generates a *.resources* file with a single *.bmp* resource. The *.bmp* resource is generated to a directory that is relative to the project root directory.  
   
 ```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
@@ -48,9 +48,9 @@ The <xref:Microsoft.Build.Tasks.Windows.ResourcesGenerator> task embeds one or m
 </Project>  
 ```  
   
-## See Also  
- [WPF MSBuild Reference](../msbuild/wpf-msbuild-reference.md)   
- [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
- [MSBuild Reference](../msbuild/msbuild-reference.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Building a WPF Application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)
+## See also  
+ [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)   
+ [Task reference](../msbuild/wpf-msbuild-task-reference.md)   
+ [MSBuild reference](../msbuild/msbuild-reference.md)   
+ [Task reference](../msbuild/msbuild-task-reference.md)   
+ [Building a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)

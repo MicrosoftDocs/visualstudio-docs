@@ -87,7 +87,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 ## ClickOnce and mapped drives  
  If you use Visual Studio to publish a ClickOnce application, you cannot specify a mapped drive as the installation location. However, you can modify the ClickOnce application to install from a mapped drive by using the Manifest Generator and Editor (Mage.exe and MageUI.exe). For more information, see [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool) and [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client).  
   
-## FTP protocol nt supported for installing applications  
+## FTP protocol not supported for installing applications  
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] supports installing applications from any HTTP 1.1 Web server or file server. FTP, the File Transfer Protocol, is not supported for installing applications. You can use FTP to publish applications only. The following table summarizes these differences:  
   
 |URL Type|Description|  
