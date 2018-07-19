@@ -13,7 +13,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Walkthrough: Using MSBuild
+# Walkthrough: Use MSBuild
 MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough introduces you to the building blocks of MSBuild and shows you how to write, manipulate, and debug MSBuild projects. You will learn about:
 
 -   Creating and manipulating a project file.
