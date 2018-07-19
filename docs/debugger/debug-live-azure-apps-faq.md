@@ -2,7 +2,7 @@
 title: "FAQ for snapshot debugging | Microsoft Docs"
 ms.date: "11/07/2017"
 ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
+ms.topic: "reference"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: 944f1eb0-a74b-4d28-ae2b-a370cd869add

@@ -1,6 +1,6 @@
 ---
-title: "How to: Set debug and release configurations | Microsoft Docs"
-ms.custom: "H1HackMay2017"
+title: "Set debug and release configurations | Microsoft Docs"
+ms.custom: ""
 ms.date: "04/10/2017"
 ms.technology: "vs-ide-debug"
 ms.topic: "reference"
@@ -34,7 +34,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Set debug and release configurations in Visual Studio
+# Set debug and release configurations in Visual Studio
 Visual Studio projects have separate release and debug configurations for your program. As the names imply, you build the debug version for debugging and the release version for the final release distribution.  
   
 The debug configuration of your program is compiled with full symbolic debug information and no optimization. Optimization complicates debugging, because the relationship between source code and generated instructions is more complex.  

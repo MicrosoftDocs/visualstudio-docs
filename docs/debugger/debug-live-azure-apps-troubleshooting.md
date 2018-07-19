@@ -2,7 +2,7 @@
 title: "Troubleshooting and known issues for snapshot debugging | Microsoft Docs"
 ms.date: "11/07/2017"
 ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
+ms.topic: "troubleshooting"
 helpviewer_keywords: 
   - "debugger"
 ms.assetid: 511a0697-c68a-4988-9e29-8d0166ca044a
