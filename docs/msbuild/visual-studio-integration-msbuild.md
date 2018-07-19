@@ -176,8 +176,8 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
   
 ## See also  
  [How to: Extend the Visual Studio build process](../msbuild/how-to-extend-the-visual-studio-build-process.md)   
- [Starting a build from within the IDE](../msbuild/starting-a-build-from-within-the-ide.md)   
- [Registering extensions of the .NET Framework](../msbuild/registering-extensions-of-the-dotnet-framework.md)   
+ [Start a build from within the IDE](../msbuild/starting-a-build-from-within-the-ide.md)   
+ [Register extensions of the .NET Framework](../msbuild/registering-extensions-of-the-dotnet-framework.md)   
  [MSBuild concepts](../msbuild/msbuild-concepts.md)   
  [Item element (MSBuild)](../msbuild/item-element-msbuild.md)   
  [Property element (MSBuild)](../msbuild/property-element-msbuild.md)   
