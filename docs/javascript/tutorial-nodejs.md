@@ -233,6 +233,4 @@ Congratulations on completing this tutorial!
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Deploy the app to Azure App Service](../deployment/quickstart-deploy-to-azure.md)
-
-In this tutorial, you learned how to create and run a Node.js app using Express and hit a breakpoint using the debugger. To learn more, see  [Node.js tools for Visual Studio on GitHub](https://github.com/Microsoft/nodejstools).
+> [Deploy the app to Linux App Service](../javascript/publish-nodejs-app-azure.md)

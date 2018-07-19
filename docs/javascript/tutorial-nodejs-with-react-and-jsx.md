@@ -363,6 +363,4 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Deploy the app to Azure App Service](../deployment/quickstart-deploy-to-azure.md)
-
-In this tutorial, you learned how to create a Node.js and React app, transpile JSX, and debug. To learn more, see  [Node.js tools for Visual Studio on GitHub](https://github.com/Microsoft/nodejstools).
+> [Deploy the app to Linux App Service](../javascript/publish-nodejs-app-azure.md)
