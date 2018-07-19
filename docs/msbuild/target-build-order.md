@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Target Build Order
+# Target build order
 Targets must be ordered if the input to one target depends on the output of another target. You can use these attributes to specify the order in which targets are run:  
   
 -   `InitialTargets`. This `Project` attribute specifies the targets that will run first, even if targets are specified on the command line or in the `DefaultTargets` attribute.  
@@ -28,7 +28,7 @@ Targets must be ordered if the input to one target depends on the output of anot
   
  Targets may have a `Condition` attribute. If the specified condition evaluates to `false`, the target isn't executed and has no effect on the build. For more information about conditions, see [Conditions](../msbuild/msbuild-conditions.md).  
   
-## Initial Targets  
+## Initial targets  
  The `InitialTargets` attribute of the [Project](../msbuild/project-element-msbuild.md) element specifies targets that will run first, even if targets are specified on the command line or in the `DefaultTargets` attribute. Initial targets are typically used for error checking.  
   
  The value of the `InitialTargets` attribute can be a semicolon-delimited, ordered list of targets. The following example specifies that the `Warm` target runs, and then the `Eject` target runs.  
@@ -39,9 +39,9 @@ Targets must be ordered if the input to one target depends on the output of anot
   
  Imported projects may have their own `InitialTargets` attributes. All initial targets are aggregated together and run in order.  
   
- For more information, see [How to: Specify Which Target to Build First](../msbuild/how-to-specify-which-target-to-build-first.md).  
+ For more information, see [How to: Specify which target to build first](../msbuild/how-to-specify-which-target-to-build-first.md).  
   
-## Default Targets  
+## Default targets  
  The `DefaultTargets` attribute of the [Project](../msbuild/project-element-msbuild.md) element specifies which target or targets are built if a target isn't specified explicitly in a command line.  
   
  The value of the `DefaultTargets` attribute can be a semicolon-delimited, ordered list of default targets. The following example specifies that the `Clean` target runs, and then the `Build` target runs.  
@@ -58,12 +58,12 @@ Targets must be ordered if the input to one target depends on the output of anot
   
  Imported projects may have their own `DefaultTargets` attributes. The first `DefaultTargets` attribute encountered determines which default targets will run.  
   
- For more information, see [How to: Specify Which Target to Build First](../msbuild/how-to-specify-which-target-to-build-first.md).  
+ For more information, see [How to: Specify which target to build first](../msbuild/how-to-specify-which-target-to-build-first.md).  
   
-## First Target  
+## First target  
  If there are no initial targets, default targets, or command-line targets, then MSBuild runs the first target it encounters in the project file or any imported project files.  
   
-## Target Dependencies  
+## Target dependencies  
  Targets can describe dependency relationships with each other. The `DependsOnTargets` attribute indicates that a target depends on other targets. For example,  
   
 ```xml  
@@ -72,7 +72,7 @@ Targets must be ordered if the input to one target depends on the output of anot
   
  tells MSBuild that the `Serve` target depends on the `Chop` target and the `Cook` target. MSBuild runs the `Chop` target, and then runs the `Cook` target before it runs the `Serve` target.  
   
-## BeforeTargets and After Targets  
+## BeforeTargets and AfterTargets  
  In MSBuild 4.0, you can specify target order by using the `BeforeTargets` and `AfterTargets` attributes.  
   
  Consider the following script.  
@@ -97,7 +97,7 @@ Targets must be ordered if the input to one target depends on the output of anot
 </Target>  
 ```  
   
-## Determining the Target Build Order  
+## Determining the target build order  
  MSBuild determines the target build order as follows:  
   
 1.  `InitialTargets` targets are run.  
@@ -116,5 +116,5 @@ Targets must be ordered if the input to one target depends on the output of anot
   
 7.  After a target is executed or skipped, any target that lists it in an `AfterTargets` attribute is run.  
   
-## See Also  
+## See also  
  [Targets](../msbuild/msbuild-targets.md)
