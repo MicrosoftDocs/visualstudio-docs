@@ -131,7 +131,7 @@ This page provides links to JavaScript and TypeScript-based documentation to ena
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/scripting/chakra-hosting/javascript-runtime-hosting">
+        <a href="/microsoft-edge/hosting/javascript-runtime-hosting">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -144,7 +144,7 @@ This page provides links to JavaScript and TypeScript-based documentation to ena
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/fdee6589(v%3dvs.94)">
+        <a href="/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/fdee6589(v%3dvs.94)">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -157,7 +157,7 @@ This page provides links to JavaScript and TypeScript-based documentation to ena
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/d1et7k7c(v%3dvs.84)">
+        <a href="/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/d1et7k7c(v%3dvs.84)">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
