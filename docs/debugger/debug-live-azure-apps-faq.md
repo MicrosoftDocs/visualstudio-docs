@@ -18,7 +18,7 @@ Here is a list of questions that might come up when debugging live Azure applica
 
 #### What is the performance cost of taking a snapshot?
 
-When the Snapshot Debugger captures a snapshot of your app, it is forking the app's process and suspending the forked copy. When you debug a snapshot, you are debugging against the forked copy of the process. This process takes only 10-20 milliseconds but does not copy the full heap of the app; instead, it copies only the page table and sets pages to copy on write. If some of your app's objects on the heap change, their respective pages are then copied. Each snapshot therefore has a very small in-memory cost (on the order of hundreds of kilobytes for most apps). 
+When the Snapshot Debugger captures a snapshot of your app, it is forking the app's process and suspending the forked copy. When you debug a snapshot, you are debugging against the forked copy of the process. This process takes only 10-20 milliseconds but does not copy the full heap of the app. Instead, it copies only the page table and sets pages to copy on write. If some of your app's objects on the heap change, their respective pages are then copied. Each snapshot therefore has a small in-memory cost (on the order of hundreds of kilobytes for most apps). 
 
 #### What happens if I have a scaled-out Azure App Service (multiple instances of my app)?
 
@@ -26,7 +26,7 @@ When you have multiple instances of your app, snappoints get applied to every si
 
 #### How does the Snapshot Debugger load symbols?
 
-The Snapshot Debugger requires that you have the matching symbols for your application either locally or deployed to your Azure App Service (embedded PDBs are currently not supported). The Snapshot Debugger automatically downloads symbols from your Azure App Service. As of Visual Studio 2017 version 15.2, deploying to Azure App Service also deploys your app's symbols.
+The Snapshot Debugger requires that you have the matching symbols for your application either local or deployed to your Azure App Service. (Embedded PDBs are currently not supported.) The Snapshot Debugger automatically downloads symbols from your Azure App Service. As of Visual Studio 2017 version 15.2, deploying to Azure App Service also deploys your app's symbols.
 
 #### Does the Snapshot Debugger work against release builds of my application?
 
@@ -44,7 +44,7 @@ Yes, snapshot debugging can work for servers under load. The Snapshot Debugger t
 
 You can uninstall the Snapshot Debugger site extension on your App Service with the following steps:
 
-1. Turn off your App Service either through the Cloud Explorer in Visual Studio or Azure Portal.
+1. Turn off your App Service either through the Cloud Explorer in Visual Studio or Azure portal.
 1. Navigate to your App Service's Kudu site (that is, yourappservice.**scm**.azurewebsites.net) and navigate to **Site extensions**.
 1. Click the X on the Snapshot Debugger site extension to remove it.
 
