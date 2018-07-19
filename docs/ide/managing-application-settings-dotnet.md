@@ -30,7 +30,7 @@ In addition, application settings can be bound to a property of a form or contro
 
 There are two types of application settings, based on scope:
 
-- Application-scoped settings can be used for information such as a URL for a Web service or a database connection string. These values are associated with the application. Therefore, users cannot change them at run time.
+- Application-scoped settings can be used for information such as a URL for a web service or a database connection string. These values are associated with the application. Therefore, users cannot change them at run time.
 
 - User-scoped settings can be used for information such as persisting the last position of a form or a font preference. Users can change these values at run time.
 

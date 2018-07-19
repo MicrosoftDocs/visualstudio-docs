@@ -98,7 +98,7 @@ This setting has no effect on Copy or Cut when a line is not blank. If nothing i
 
  Enable single-click URL navigation
 
- When selected, the mouse cursor changes to a pointing hand as it passes over a URL in the editor. You can click the URL to display the indicated page in your Web browser.
+ When selected, the mouse cursor changes to a pointing hand as it passes over a URL in the editor. You can click the URL to display the indicated page in your web browser.
 
  Navigation bar
 

@@ -44,7 +44,7 @@ To access the **Configure Service Reference** dialog box, right-click a service 
 
  **Address**
 
- Updates the Web address where a service reference looks for a service. For example, during development, the service may be hosted on a development server and then later moved to a production server, necessitating an address change.
+ Updates the web address where a service reference looks for a service. For example, during development, the service may be hosted on a development server and then later moved to a production server, necessitating an address change.
 
 > [!NOTE]
 > The Address element is not available when the **Configure Service Reference** dialog box is displayed from the **Add Service Reference Dialog Box**.
@@ -90,7 +90,7 @@ To access the **Configure Service Reference** dialog box, right-click a service 
 
  **Referenced assemblies list**
 
- Contains a list of referenced assemblies for the project or Web site. When you select **Reuse types in specified referenced assemblies**, you can select or clear individual assemblies.
+ Contains a list of referenced assemblies for the project or website. When you select **Reuse types in specified referenced assemblies**, you can select or clear individual assemblies.
 
  **Add Web Reference**
 
