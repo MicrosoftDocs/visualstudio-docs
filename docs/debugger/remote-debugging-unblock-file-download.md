@@ -12,7 +12,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Unblock the download of the remote tools on Windows Server
+# How to: Unblock the download of the remote tools on Windows Server
 
 The default security settings in Internet Explorer on Windows Server can make it time-consuming to download components such as the remote tools.
 
@@ -52,11 +52,3 @@ To download the tools on Windows Server, we recommend one of the following:
     ![Blocked content dialog box](../debugger/media/remotedbg-blocked-content.png)
 
     When you download the software, you get some additional requests to grant permission to load various web site scripts and resources. On my.visualstudio.com, we recommend that you add the additional domains to make sure that login is successful.
-
-## See also
-
-- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
-- [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
-- [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)
-- [Remote Debugging ASP.NET Core on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)
-- [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)
