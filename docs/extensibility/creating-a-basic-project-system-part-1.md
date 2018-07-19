@@ -598,11 +598,11 @@ Templates
   
 3.  Examine the values for the `nameSpace` and `className` parameters.  
   
-    -   `nameSpace` is given the value of the \<RootNamespace> element in the *\Templates\Projects\SimpleProject\SimpleProject.myproj* project template file. In this case, the value is "MyRootNamespace".  
+    -   `nameSpace` is given the value of the \<RootNamespace> element in the *\Templates\Projects\SimpleProject\SimpleProject.myproj* project template file. In this case, the value is`MyRootNamespace`.  
   
-    -   `className` is given the value of the class source file name, without the file name extension. In this case, the first file to be copied to the destination folder is *AssemblyInfo.cs*; therefore, the value of className is "AssemblyInfo".  
+    -   `className` is given the value of the class source file name, without the file name extension. In this case, the first file to be copied to the destination folder is *AssemblyInfo.cs*; therefore, the value of className is `AssemblyInfo`.  
   
-4.  Remove the breakpoint and press F5 to continue execution.  
+4.  Remove the breakpoint and press **F5** to continue execution.  
   
      Visual Studio should finish creating a project.  
   
@@ -627,7 +627,7 @@ Templates
     }  
     ```  
   
-     Notice that the namespace is now "MyRootNamespace" and the class name is now `Program`.  
+     Notice that the namespace is now `MyRootNamespace` and the class name is now `Program`.  
   
 6.  Start debugging the project. The new project should compile, run, and display "Hello VSX!!!" in the console window.  
   
