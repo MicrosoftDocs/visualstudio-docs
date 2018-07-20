@@ -61,7 +61,7 @@ The extract method refactoring operation allows you to create a new method by ex
 
 1. Add the following code:
 
-```
+```csharp
     class MainClass
     {
 

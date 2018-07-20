@@ -1,5 +1,5 @@
 ---
-title: "Emulating Real-World Usage of a Web Site for load testing in Visual Studio"
+title: "Emulating Real-World Usage of a website for load testing"
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,9 +12,9 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# Emulate expected real-world usage of a web site or application in a load test using a test mix model
+# Emulate expected real-world usage of a website or application in a load test using a test mix model
 
-You use load modeling options to more accurately predict the expected real-world usage of a Web site or application that you are load-testing. It is important to do this because a load test that is not based on an accurate load model can generate misleading results.
+You use load modeling options to more accurately predict the expected real-world usage of a website or application that you are load-testing. It is important to do this because a load test that is not based on an accurate load model can generate misleading results.
 
 ## Test mix model enhancements
 
@@ -22,16 +22,16 @@ Using the Load Test Editor or the test mix model wizard, you can specify the fol
 
 You can specify one of the following test mix model options for your load test scenario:
 
--   **Based on the total number of tests:** Determines which Web performance or unit test is run when a virtual user starts a test iteration. At the end of the load test, the number of times that a particular test run matched the assigned test distribution. Use this test mix model when you are basing the test mix on transaction percentages in an IIS log or in production data. For more information, see [Percentage based on tests started](#BasedOnTestsStarted).
+-   **Based on the total number of tests:** Determines which web performance or unit test is run when a virtual user starts a test iteration. At the end of the load test, the number of times that a particular test run matched the assigned test distribution. Use this test mix model when you are basing the test mix on transaction percentages in an IIS log or in production data. For more information, see [Percentage based on tests started](#BasedOnTestsStarted).
 
--   **Based on the number of virtual users:** Determines the percentage of virtual users who will run a particular Web performance or unit test. At any point in the load test, the number of users who are running a particular test matches the assigned distribution. Use this test mix model when you are basing the test mix on the percentage of users who are running a particular test. For more information, see [Percentage based on virtual users](#PercentageBasedonVirtualUsers).
+-   **Based on the number of virtual users:** Determines the percentage of virtual users who will run a particular web performance or unit test. At any point in the load test, the number of users who are running a particular test matches the assigned distribution. Use this test mix model when you are basing the test mix on the percentage of users who are running a particular test. For more information, see [Percentage based on virtual users](#PercentageBasedonVirtualUsers).
 
--   **Based on user pace:** Over the course of the load test, each Web performance test or unit test is run a specified number of times per users, per hour. Use this test mix model when you want virtual users to run test at a certain pace throughout the load test. For more information, see [Pacing test mix](#PacingTestMix).
+-   **Based on user pace:** Over the course of the load test, each web performance test or unit test is run a specified number of times per users, per hour. Use this test mix model when you want virtual users to run test at a certain pace throughout the load test. For more information, see [Pacing test mix](#PacingTestMix).
 
     > [!TIP]
     > When do you choose **Percentage test mix** and when do you choose **Percentage based on virtual users**? The difference between these two choices is important when some tests in the test mix have a much longer duration than other tests. In this situation, you should probably choose **Percentage based on virtual users**. This choice helps avoid a test run in which the probability increases that too many users will be running long-duration tests. However, if the tests all have similar durations, you can more safely choose **Percentage test mix**.
 
--   **Based on sequential order:** Each virtual user runs the Web performance or unit tests in the order that the tests are defined in the scenario. The virtual user continues cycling through the tests in this order until the load test is complete. For more information, see [Sequential order](#SequentialOrder).
+-   **Based on sequential order:** Each virtual user runs the web performance or unit tests in the order that the tests are defined in the scenario. The virtual user continues cycling through the tests in this order until the load test is complete. For more information, see [Sequential order](#SequentialOrder).
 
 ###  <a name="BasedOnTestsStarted"></a> Percentage based on tests started
  For each test in the mix, you can specify a percentage that determines how frequently the test is selected as the next test to run. For example, you might assign the following percentage values to three tests:
@@ -90,7 +90,7 @@ You can specify one of the following test mix model options for your load test s
 
 -   You can specify the load test duration by time instead of by iteration count. In this case, when the load test run duration has completed, the terminate test will not be run.
 
--   If the initialize test is a unit test or a Web performance test, the state of the TestContext, or WebTestContext, object after the completion of the initialize test is saved. It will then be used as the starting context for iterations of tests in the test mix.
+-   If the initialize test is a unit test or a web performance test, the state of the TestContext, or WebTestContext, object after the completion of the initialize test is saved. It will then be used as the starting context for iterations of tests in the test mix.
 
 -   New Users, as defined in the scenario property Percentage of New Users, always execute the initialize test, one iteration of a test from the test mix, and the terminate test.
 

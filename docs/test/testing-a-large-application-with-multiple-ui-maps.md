@@ -4,13 +4,13 @@ ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "coded UI tests, multiple UI maps"
   - "coded UI tests, for large applications"
 author: gewarren
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Testing a Large Application with Multiple UI Maps
@@ -36,7 +36,7 @@ This topic discusses how to use coded UI tests when you are testing a large appl
 ## Do you need multiple UI Maps?
  Create multiple UI Maps in each of these types of situations:
 
--   Several complex sets of composite UI controls that together perform a logical operation, such as a registration page in a Web site, or the purchase page of a shopping cart.
+-   Several complex sets of composite UI controls that together perform a logical operation, such as a registration page in a website, or the purchase page of a shopping cart.
 
 -   An independent set of controls that are accessed from various points of the application, such as a wizard with several pages of operations. If each page of a wizard is especially complex, you could create separate UI Maps for each page.
 
@@ -77,7 +77,7 @@ This topic discusses how to use coded UI tests when you are testing a large appl
 
 The following example is part of a utility class that provides access to each component and their child controls which are represented by the classes generated in the various UI Maps.
 
-For this example, a Web application named `Contoso` has a Home Page, a Product Page, and a Shopping Cart Page. Each of these pages share a common top level window which is the browser window. There is a UI Map for each page and the utility class has code similar to the following:
+For this example, a web application named `Contoso` has a Home Page, a Product Page, and a Shopping Cart Page. Each of these pages share a common top level window which is the browser window. There is a UI Map for each page and the utility class has code similar to the following:
 
 ```csharp
 using ContosoProject.UIMaps;

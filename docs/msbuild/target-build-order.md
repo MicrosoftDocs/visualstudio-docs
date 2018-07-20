@@ -97,7 +97,7 @@ Targets must be ordered if the input to one target depends on the output of anot
 </Target>  
 ```  
   
-## Determining the target build order  
+## Determine the target build order  
  MSBuild determines the target build order as follows:  
   
 1.  `InitialTargets` targets are run.  

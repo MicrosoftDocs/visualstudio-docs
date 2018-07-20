@@ -21,7 +21,7 @@ ms.workload:
 In Visual Studio, you can choose from a list of code analysis *rule sets* to apply to a managed code project. The default rule set is *Microsoft Minimum Recommended Rules*. You can apply another rule set to a project or to all projects in a solution.
 
 > [!TIP]
-> For information about how to configure a rule set for ASP.NET Web applications, see [How to: Configure Code Analysis for an ASP.NET Web Application](../code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md).
+> For information about how to configure a rule set for ASP.NET web applications, see [How to: Configure Code Analysis for an ASP.NET web Application](../code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md).
 
 ## To configure a rule set for a .NET Framework project
 
@@ -70,4 +70,4 @@ By default, all the managed projects of a solution are assigned the *Microsoft M
 
 ## See also
 
-- [How to: Configure Code Analysis for an ASP.NET Web Application](../code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md)
+- [How to: Configure Code Analysis for an ASP.NET web Application](../code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md)

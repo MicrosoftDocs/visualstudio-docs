@@ -73,5 +73,5 @@ MSBuild /nologo /noconsolelogger /logger:SimpleLogger.dll /verbosity:Detailed
  [!code-csharp[msbuild_BasicLogger#1](../msbuild/codesnippet/CSharp/build-loggers_5.cs)]  
   
 ## See also  
- [Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md)   
+ [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)   
  [MSBuild concepts](../msbuild/msbuild-concepts.md)
