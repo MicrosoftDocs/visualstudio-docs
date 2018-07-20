@@ -14,9 +14,9 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Custom rule sets
+# Customize a rule set
 
-You can create a custom *rule set* to meet specific project needs for code analysis.
+You can create a custom rule set to meet specific project needs for code analysis.
 
 ## Create a custom rule set
 

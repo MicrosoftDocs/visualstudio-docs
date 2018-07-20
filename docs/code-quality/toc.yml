@@ -1,6 +1,7 @@
 - name: Code analysis documentation
   href: index.md
 - name: Overview
+  expanded: true
   items:
   - name: Code analysis for managed code
     href: code-analysis-for-managed-code-overview.md

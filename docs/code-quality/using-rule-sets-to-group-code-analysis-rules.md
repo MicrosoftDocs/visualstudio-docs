@@ -24,7 +24,7 @@ You can customize a rule set by adding or deleting rules, or by changing rule se
 
 A rule set is specified in XML format in a *.ruleset* file. Rules, which consist of an ID and an *action*, are grouped by analyzer ID and namespace in the file.
 
-The XML contents of a *.ruleset* file looks similar to this:
+The contents of a *.ruleset* file looks similar to this XML:
 
 ```xml
 <RuleSet Name="Rules for Hello World project" Description="These rules focus on critical issues for the Hello World app." ToolsVersion="10.0">
@@ -48,9 +48,9 @@ The XML contents of a *.ruleset* file looks similar to this:
 ```
 
 > [!TIP]
-> It is easier to [edit a rule set](../code-quality/working-in-the-code-analysis-rule-set-editor.md) in the graphical **Rule Set Editor** than by hand.
+> It's easier to [edit a rule set](../code-quality/working-in-the-code-analysis-rule-set-editor.md) in the graphical **Rule Set Editor** than by hand.
 
-The rule set for a project is specified by the `CodeAnalysisRuleSet` property in the Visual Studio project file. For example:
+The rule set for a project is specified by the **CodeAnalysisRuleSet** property in the Visual Studio project file. For example:
 
 ```xml
 <CodeAnalysisRuleSet>HelloWorld.ruleset</CodeAnalysisRuleSet>
