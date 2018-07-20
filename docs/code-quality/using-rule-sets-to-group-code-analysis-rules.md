@@ -20,6 +20,8 @@ When you configure code analysis in Visual Studio, you can choose from a list of
 
 You can customize a rule set by adding or deleting rules, or by changing rule severities to appear as either warnings or errors in the **Error List**. Customized rule sets can fulfill a need for your particular development environment. When you customize a rule set, the rule set editor provides search and filtering tools to help you in the process.
 
+Rule sets are available for [static analysis of managed code](how-to-configure-code-analysis-for-a-managed-code-project.md), [analysis of C++ code](using-rule-sets-to-specify-the-cpp-rules-to-run.md), and [Roslyn analyzers](analyzer-rule-sets.md).
+
 ## Rule set format
 
 A rule set is specified in XML format in a *.ruleset* file. Rules, which consist of an ID and an *action*, are grouped by analyzer ID and namespace in the file.
