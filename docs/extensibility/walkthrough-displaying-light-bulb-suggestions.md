@@ -90,7 +90,7 @@ Light bulbs are icons used in the Visual Studio editor that expand to display a 
     ```csharp  
     public ISuggestedActionsSource CreateSuggestedActionsSource(ITextView textView, ITextBuffer textBuffer)  
     {  
-        if (textBuffer == null && textView == null)  
+        if (textBuffer == null || textView == null)  
         {  
             return null;  
         }  

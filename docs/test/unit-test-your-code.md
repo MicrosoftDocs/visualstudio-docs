@@ -51,7 +51,7 @@ Use the following topics to help with understanding and creating unit tests:
 ## API reference documentation
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting> describes the UnitTesting namespace, which provides attributes, exceptions, asserts, and other classes that support unit testing.
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Web> describes the UnitTesting.Web namespace, which extends the UnitTesting namespace by providing support for ASP.NET and Web service unit tests.
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Web> describes the UnitTesting.Web namespace, which extends the UnitTesting namespace by providing support for ASP.NET and web service unit tests.
 
 ## See also
 

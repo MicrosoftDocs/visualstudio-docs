@@ -138,7 +138,7 @@ When you override the previously defined metadata, the last specification takes 
 </ItemDefinitionGroup>    
 ```  
   
-## Using conditions in an ItemDefinitionGroup  
+## Use conditions in an ItemDefinitionGroup  
  You can use conditions in an ItemDefinitionGroup to control the inclusion of metadata. For example:  
   
 ```xml  
@@ -184,7 +184,7 @@ In the above example, item "i" references item "test" in its Condition. This Con
 
 In the above example, "m" would be set to the value "m1" as the Condition references item "i"'s metadata value for item "yes." 
   
-## Overriding and deleting metadata  
+## Override and delete metadata  
  Metadata defined in an ItemDefinitionGroup element can be overridden in a later ItemDefinitionGroup element by setting the metadata value to blank. You can also effectively delete a metadata item by setting it to an empty value. For example:  
   
 ```xml  

@@ -20,11 +20,11 @@ ms.workload:
   - "data-storage"
 ---
 # Walkthrough: Creating a WCF Data Service with WPF and Entity Framework
-This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] that is hosted in an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application and then access it from a Windows Forms application.
+This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] that is hosted in an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application and then access it from a Windows Forms application.
 
 In this walkthrough you:
 
--   Create a Web application to host a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)].
+-   Create a web application to host a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)].
 
 -   Create an [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)] that represents the `Customers` table in the Northwind database.
 
@@ -54,13 +54,13 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
        After a short time, the query finishes running and the Northwind database is created.
 
 ## Creating the Service
-To create a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)], you will add a Web project, create an [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)], and then create the service from the model.
+To create a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)], you will add a web project, create an [!INCLUDE[adonet_edm](../data-tools/includes/adonet_edm_md.md)], and then create the service from the model.
 
-In the first step, you add a Web project to host the service.
+In the first step, you add a web project to host the service.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
-#### To create the Web project
+#### To create the web project
 
 1.  On the menu bar, choose **File** > **New** > **Project**.
 
@@ -158,7 +158,7 @@ In the next steps, you create a Windows Forms client application to consume the 
 
 5.  On the menu bar, choose **Project**, **Set as StartUp Project**.
 
-In the next step, you add a service reference to the [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] in the Web project.
+In the next step, you add a service reference to the [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] in the web project.
 
 #### To add a service reference
 

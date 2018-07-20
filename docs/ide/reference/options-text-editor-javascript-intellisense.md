@@ -40,7 +40,7 @@ The **IntelliSense** page contains the following sections:
  When this check box is selected, and if you have a JavaScript file opened outside the context of a project, Visual Studio will download remote JavaScript files referenced in the file for the purpose of providing IntelliSense information. If this option is selected, files will download when you include them as a reference in your JavaScript file.
 
 > [!NOTE]
-> For Web projects, remote files referenced in your project are downloaded by default.
+> For web projects, remote files referenced in your project are downloaded by default.
 
 
 ## Statement Completion
@@ -65,7 +65,7 @@ The **IntelliSense** page contains the following sections:
 
 -   Implicit (Web), for HTML5 projects. Files included in this group are in scope for every .js file opened in the Code Editor for these project types.
 
--   Dedicated worker reference groups, for HTML5 Web Workers. Files specified in this group are in scope for .js files that have an explicit reference to a dedicated worker reference group.
+-   Dedicated worker reference groups, for HTML5 web workers. Files specified in this group are in scope for .js files that have an explicit reference to a dedicated worker reference group.
 
 -   Generic, for other JavaScript project types.
 

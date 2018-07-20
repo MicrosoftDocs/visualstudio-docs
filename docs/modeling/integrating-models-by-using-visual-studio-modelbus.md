@@ -385,7 +385,7 @@ ModelBusReference elementReferenceRestored =
 ## To Create a Model
 
 ### Creating, opening and editing a model
- The following fragment is taken from the State Machine sample on the VMSDK Web site. It illustrates the use of ModelBusReferences to create and open a model, and to obtain the diagram associated with the model.
+ The following fragment is taken from the State Machine sample on the VMSDK website. It illustrates the use of ModelBusReferences to create and open a model, and to obtain the diagram associated with the model.
 
  In this sample, the name of the target DSL is StateMachine. Several names are derived from it, such as the name of the model class and the name of the ModelBusAdapter.
 

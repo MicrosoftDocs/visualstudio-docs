@@ -98,7 +98,7 @@ We have an empty project. Let's add a code file.
 
 ## Add a second project
 
-It is common for solutions to contain more than one project, and often these projects reference each other. Some projects in a solution might be class libraries, some executable applications, and some might be unit test projects or web sites.
+It is common for solutions to contain more than one project, and often these projects reference each other. Some projects in a solution might be class libraries, some executable applications, and some might be unit test projects or websites.
 
 Let's add a unit test project to our solution. This time we'll start from a project template so we don't have to add an additional code file to the project.
 

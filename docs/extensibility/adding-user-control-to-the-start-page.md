@@ -16,15 +16,15 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Adding User Control to the Start Page
-This walkthrough shows how to add a DLL reference to a custom Start Page. The example adds a user control to the solution, builds the user control, and then references the built assembly from the Start Page .xaml file. A new tab hosts the user control, which functions as a basic Web browser.  
+# Add user control to the Start Page
+This walkthrough shows how to add a DLL reference to a custom Start Page. The example adds a user control to the solution, builds the user control, and then references the built assembly from the Start Page *.xaml* file. A new tab hosts the user control, which functions as a basic Web browser.  
   
- You can use the same process to add any assembly that can be called from a .xaml file.  
+ You can use the same process to add any assembly that can be called from a *.xaml* file.  
   
-## Adding a WPF User Control to the Solution  
+## Add a WPF user control to the solution  
  First, add a Windows Presentation Foundation (WPF) user control to the Start Page solution.  
   
-1.  Create a Start Page by using we created in [Creating a Custom Start Page](../extensibility/creating-a-custom-start-page.md).  
+1.  Create a Start Page by using we created in [Create a custom Start Page](../extensibility/creating-a-custom-start-page.md).  
   
 2.  In **Solution Explorer**, right-click the solution, click **Add**, and then click **New Project**.  
   
@@ -32,12 +32,12 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
   
 4.  Name the control `WebUserControl` and then click **OK**.  
   
-## Implementing the User Control  
+## Implement the user control  
  To implement a WPF user control, build the user interface (UI) in XAML and then write the code-behind events in C# or another .NET language.  
   
-#### To write the XAML for the user control  
+### To write the XAML for the user control  
   
-1.  Open the XAML file for the user control. In the \<Grid> element, add the following row definitions to the control.  
+1.  Open the XAML file for the user control. In the `<Grid>` element, add the following row definitions to the control.  
   
     ```vb  
     <Grid.RowDefinitions>  
@@ -47,7 +47,7 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
   
     ```  
   
-2.  In the main `Grid` element, add the following new `Grid` element, which contains a text box for typing Web addresses and a button for setting the new address.  
+2.  In the main `<Grid>` element, add the following new `<Grid>` element, which contains a text box for typing Web addresses and a button for setting the new address.  
   
     ```xml  
     <Grid Grid.Row="0">  
@@ -60,7 +60,7 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
     </Grid>  
     ```  
   
-3.  Add the following frame to the top-level `Grid` element just after the `Grid` element that contains the button and textbox.  
+3.  Add the following frame to the top-level `<Grid>` element just after the `<Grid>` element that contains the button and textbox.  
   
     ```vb  
     <Frame Grid.Row="1" x:Name="WebFrame" Source="http://www.bing.com" Navigated="WebFrame_Navigated" />  
@@ -95,11 +95,11 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
   
     ```  
   
-#### To write the code-behind events for the user control  
+### To write the code-behind events for the user control  
   
 1.  In the XAML designer, double-click the **Set Address** button you added to the control.  
   
-     The UserControl1.cs file opens in the code editor.  
+     The *UserControl1.cs* file opens in the code editor.  
   
 2.  Fill in the SetButton_Click Event Handler as follows.  
   
@@ -128,7 +128,7 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
   
 4.  Build the solution.  
   
-## Adding the User Control to the Start Page  
+## Add the user control to the Start Page  
  To make this control available to the Start Page project, in the Start Page project file, add a reference to the new control library. Then you can add the control to the Start Page XAML markup.  
   
 1.  In **Solution Explorer**, in the Start Page project, right-click **References** and then click **Add Reference**.  
@@ -141,9 +141,9 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
   
  To add the control to the Start Page XAML markup, add a namespace reference to the assembly, then put the control on the page.  
   
-#### To add the control to the markup  
+### To add the control to the markup  
   
-1.  In **Solution Explorer**, open the Start Page .xaml file.  
+1.  In **Solution Explorer**, open the Start Page *.xaml* file.  
   
 2.  In the **XAML** pane, add the following namespace declaration to the top-level <xref:System.Windows.Controls.Grid> element.  
   
@@ -167,20 +167,20 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
   
  Now you can test the control.  
   
-## Testing a manually created custom Start Page  
+## Test a manually created custom Start Page  
   
-1.  Copy your XAML file, and any supporting text files or markup files, to the **%USERPROFILE%\My Documents\Visual Studio 2015\StartPages\\** folder.  
+1.  Copy your XAML file, and any supporting text files or markup files, to the *%USERPROFILE%\My Documents\Visual Studio 2015\StartPages\\* folder.  
   
 2.  If your start page references any controls or types in assemblies that are not installed by Visual Studio, copy the assemblies and then paste them in *Visual Studio installation folder***\Common7\IDE\PrivateAssemblies\\**.  
   
 3.  At a Visual Studio command prompt, type **devenv /rootsuffix Exp** to open an experimental instance of Visual Studio.  
   
-4.  In the experimental instance, go to the **Tools / Options / Environment / Startup** page and select your XAML file from the **Customize Start Page** dropdown.  
+4.  In the experimental instance, go to the **Tools** > **Options** > **Environment** > **Startup** page and select your XAML file from the **Customize Start Page** dropdown.  
   
 5.  On the **View** menu, click **Start Page**.  
   
      Your custom start page should be displayed. If you want to change any files, you must close the experimental instance, make the changes, copy and paste the changed files, and then re-open the experimental instance to view the changes.  
   
-## See Also  
- [WPF Container Controls](http://msdn.microsoft.com/en-us/a0177167-d7db-4205-9607-8ae316952566)   
- [Walkthrough: Adding Custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)
+## See also  
+ [WPF container controls](http://msdn.microsoft.com/en-us/a0177167-d7db-4205-9607-8ae316952566)   
+ [Walkthrough: Add custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)
