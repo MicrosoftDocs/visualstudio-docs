@@ -73,7 +73,7 @@ You can enable the unit test integration in Visual Studio by specifying a test r
 ```
 
 The test runner enumerates the locally installed packages to determine which test framework to use.
-If none of the supported frameworks are recognized the test runner defaults to *ExportRunner*, the other
+If none of the supported frameworks are recognized, the test runner defaults to *ExportRunner*. The other
 supported frameworks are:
 * Mocha ([mochajs.org](http://mochajs.org/))
 * Jasmine ([Jasmine.github.io](https://jasmine.github.io/))
