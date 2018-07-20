@@ -138,7 +138,7 @@ You can add support for additional test frameworks by implementing the discovery
 
 `<VisualStudioFolder>\Common7\IDE\Extensions\Microsoft\NodeJsTools\TestAdapter\TestFrameworks`
 
-This folder has to contain a JavaScript file with the same name which exports the following 2 functions:
+This folder has to contain a JavaScript file with the same name which exports the following two functions:
 
 * `find_tests`
 * `run_tests`
@@ -157,8 +157,7 @@ You are not limited to writing unit tests in just your Node.js projects. When yo
 TestRoot properties to any C# or VB project, those tests will be enumerated and you can run them using
 the Test Explorer window.
 
-To enable this right-click on the project node in the Solution Explorer and click "Unload Project", next in the
-same menu, select "Edit Project". The in the project file, add the following 2 elements to a property group.
+To enable this, right-click the project node in the Solution Explorer, choose **Unload Project**, and then choose **Edit Project**. Then in the project file, add the following two elements to a property group.
 
 > [!NOTE]
 > Make sure that the property group you're adding the elements to doesn't have a condition specified.
@@ -171,8 +170,8 @@ same menu, select "Edit Project". The in the project file, add the following 2 e
 </PropertyGroup>
 ```
 
-Now simply add your tests to the test root folder you specified, and they will be available to run in the
-Test Explorer window. If they don't  initially you may need to rebuild the project.
+Next, add your tests to the test root folder you specified, and they will be available to run in the
+Test Explorer window. If they don't initially appear, you may need to rebuild the project.
 
 > [!NOTE]
 > This currently doesn't work for .NET Standard and .NET Core projects.
