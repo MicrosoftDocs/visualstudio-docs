@@ -171,6 +171,6 @@ static void Main(string[] args)
 
 ## See Also
  [Debugger Security](../debugger/debugger-security.md)
- [Debugger Basics](../debugger/debugger-basics.md)
+ [Debugger Basics](../debugger/getting-started-with-the-debugger.md)
  [Just-In-Time, Debugging, Options Dialog Box](../debugger/just-in-time-debugging-options-dialog-box.md)
  [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md)
