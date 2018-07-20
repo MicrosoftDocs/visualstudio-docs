@@ -79,7 +79,7 @@ supported frameworks are:
 * Jasmine ([Jasmine.github.io](https://jasmine.github.io/))
 * Tape ([github.com/substack/tape](https://github.com/substack/tape))
 
-After opening Test Explorer (choose Test > Windows > Test Explorer), Visual Studio discovers and displays tests.
+After opening Test Explorer (choose **Test** > **Windows** > **Test Explorer**), Visual Studio discovers and displays tests.
 
 > [!NOTE]
 > The test runner will only enumerate the JavaScript files in the test root, if your application is written in
