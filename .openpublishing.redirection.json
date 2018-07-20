@@ -1092,7 +1092,13 @@
         },
         {
             "source_path": "docs/ide/not-in-toc/web-publish-options.md",
-            "redirect_url": "/visualstudio/deployment/deploying-applications-services-and-components-resources",   "redirect_document_id": false
+            "redirect_url": "/visualstudio/deployment/deploying-applications-services-and-components-resources",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/ide/not-in-toc/intellicode-faq.md",
+            "redirect_url": "/visualstudio/intellicode/faq",
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/ide/optimize-solution-loading-in-visual-studio.md",
