@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# AsyncTaskMethodBuilder.ObjectIdForDebugger Property
+# AsyncTaskMethodBuilder.ObjectIdForDebugger property
 Gets an object that may be used to uniquely identify this builder to the debugger.  
   
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>  
@@ -29,6 +29,6 @@ Gets an object that may be used to uniquely identify this builder to the debugge
 private object ObjectIdForDebugger  
 ```  
   
-## See Also  
+## See also  
  <xref:System.Runtime.CompilerServices.AsyncTaskMethodBuilder%601>   
- [Parallel Extension Internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)
+ [Parallel extension internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)

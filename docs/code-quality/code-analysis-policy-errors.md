@@ -62,7 +62,7 @@ The following errors occur if the code analysis policy is not satisfied at check
 
  **You must enable Code Analysis in project {0} properties and build before checking in.**
 
- This error applied to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects and Web projects. The policy requires managed code analysis to be performed, but it is not enabled in the current project on the client.
+ This error applied to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects and web projects. The policy requires managed code analysis to be performed, but it is not enabled in the current project on the client.
 
  **You must enable C/C++ Code Analysis in project {0} properties and build before checking in.**
 

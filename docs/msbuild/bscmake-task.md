@@ -41,7 +41,5 @@ ms.workload:
 |**SuppressStartupBanner**|Optional **Boolean** parameter.<br /><br /> If `true`, prevents the display of the copyright and version number message when the task starts.<br /><br /> For more information, see the **/NOLOGO** option in [BSCMAKE options](/cpp/build/reference/bscmake-options).|  
 |**TrackerLogDirectory**|Optional **String** parameter.<br /><br /> Specifies the directory for the tracker log.|  
   
-## Remarks  
-  
 ## See also  
  [Task reference](../msbuild/msbuild-task-reference.md)

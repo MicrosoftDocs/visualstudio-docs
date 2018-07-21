@@ -33,7 +33,7 @@ The following table shows the recommended hardware requirements for deploying a 
 |N x 30 computers in the test environment. This includes agents and servers under test.|Test Controller|N 2.6 GHz processors|||
 
 > [!NOTE]
-> The number of virtual users will vary widely from test to test. A key cause of this variance is variance in *think times*, or user delays. For more information, see [Editing Think Times to Simulate Website Human Interaction Delays](../test/edit-think-times-in-load-test-scenarios.md). In a load test, Web tests are generally more efficient and generate more load than unit tests. The numbers in the preceding table are valid for running Web tests with 3-5 second think times on a typical Web application.
+> The number of virtual users will vary widely from test to test. A key cause of this variance is variance in *think times*, or user delays. For more information, see [Editing Think Times to Simulate Website Human Interaction Delays](../test/edit-think-times-in-load-test-scenarios.md). In a load test, web tests are generally more efficient and generate more load than unit tests. The numbers in the preceding table are valid for running web tests with 3-5 second think times on a typical web application.
 
 The guidelines presented here are provided as general guidance for hardware planning. Test performance will vary greatly based on the amount of test data and the number of test agents. For test agents, the CPU speed and memory available will limit the test load. Test controllers need greater resources, depending on the number of test agents and the amount of data involved in the tests.
 

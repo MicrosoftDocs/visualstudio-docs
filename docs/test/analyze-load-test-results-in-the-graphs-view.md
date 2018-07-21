@@ -36,7 +36,7 @@ The following table lists the built-in graphs that are available to analyze load
 |----------------|-----------------|
 |Key Indicators|Counters that describe basic aspects of test performance such as user load, throughput, and response time.|
 |Test Response Time|Data about the amount of time tests take to run.|
-|Page Response Time|The average response time for Web pages that are accessed during the load test.|
+|Page Response Time|The average response time for web pages that are accessed during the load test.|
 |System under Test|Information about the computers on which the application being tested runs. This includes data about memory use, the processor, the physical disk, processes.<br /><br /> By default, Only the Available Mbytes and Processor Time counters are collected.|
 |Controller and Agents|Information about the computers on which the load tests run. This includes data about memory use, the processor, the physical disk, processes.<br /><br /> By default Only the Available Mbytes and Processor Time counters are collected.|
 |Transaction Response Time|The average response time for transactions that occur during the load test.|

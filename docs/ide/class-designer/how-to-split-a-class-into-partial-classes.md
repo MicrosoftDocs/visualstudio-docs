@@ -23,7 +23,7 @@ You can use the `partial` keyword (`Partial` in Visual Basic) to divide the decl
 
 The declarations can be in one or in multiple source files. All the declarations must be in the same assembly and the same namespace.
 
-Partial classes are useful in several situations. On a large project, for example, separating a class into multiple files enables more than one programmer to work on the project at same time. When you're working with code that Visual Studio generates, you can change the class without having to re-create the source file. (Examples of code that Visual Studio generates include Windows Forms and Web Service wrapper code.) You can thus create code that uses auto-generated classes without having to modify the file that Visual Studio creates.
+Partial classes are useful in several situations. On a large project, for example, separating a class into multiple files enables more than one programmer to work on the project at same time. When you're working with code that Visual Studio generates, you can change the class without having to re-create the source file. (Examples of code that Visual Studio generates include Windows Forms and web service wrapper code.) You can thus create code that uses auto-generated classes without having to modify the file that Visual Studio creates.
 
 There are two kinds of partial methods. In C#, they are called declaring and implementing; in Visual Basic, they are called declaration and implementation.
 
