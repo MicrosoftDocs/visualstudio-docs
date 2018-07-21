@@ -22,7 +22,7 @@ You can manage load test results from the Load Test Editor by using the **Open a
 
 ## To export results from a repository
 
-1.  From a Web performance and load test project, open a load test.
+1.  From a web performance and load test project, open a load test.
 
 2.  On the embedded toolbar, choose **Open and Manage Results**.
 

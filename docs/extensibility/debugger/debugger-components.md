@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Debugger Components
+# Debugger components
 The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugger is implemented as a VSPackage and manages the entire debug session. The debug session comprises the following elements:  
   
 -   **Debug Package:** The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugger provides the same user interface no matter what is being debugged.  
@@ -25,7 +25,7 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugger is imp
   
 -   **Process debug manager (PDM):** Manages, for all running instances of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], a list of all programs that can be or are being debugged. It is implemented by [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  
   
--   **Debug engine (DE):** Is responsible for monitoring a program being debugged, communicating the state of the running program to the SDM and the PDM, and interacting with the expression evaluator and symbol provider to provide real-time analysis of the state of a program's memory and variables. It is implemented by [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] (for the languages it supports) and third-party vendors who want to support their own run time.  
+-   **Debug engine (DE):** Is responsible for monitoring a program being debugged, communicating the state of the running program to the SDM and the PDM, and interacting with the expression evaluator and symbol provider to provide real-time analysis of the state of a program's memory and variables. It is implemented by [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] (for the languages it supports) and third-party vendors who want to support their own run time. 
   
 -   **Expression evaluator (EE):** Provides support for dynamically evaluating variables and expressions supplied by the user when a program has been stopped at a particular point. It is implemented by [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] (for the languages it supports) and third-party vendors who want to support their own languages.  
   
@@ -35,40 +35,40 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugger is imp
   
  ![Debugging Components Overview](../../extensibility/debugger/media/dbugcompovrview.gif "DBugCompOvrview")  
   
-## In This Section  
- [Debug Package](../../extensibility/debugger/debug-package.md)  
+## In this section  
+ [Debug package](../../extensibility/debugger/debug-package.md)  
  Discusses the debug package, which runs in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] shell and handles all of the UI.  
   
- [Process Debug Manager](../../extensibility/debugger/process-debug-manager.md)  
+ [Process debug manager](../../extensibility/debugger/process-debug-manager.md)  
  Provides an overview of the features of the PDM, which is the manager of the processes that can be debugged.  
   
- [Session Debug Manager](../../extensibility/debugger/session-debug-manager.md)  
+ [Session debug manager](../../extensibility/debugger/session-debug-manager.md)  
  Defines the SDM, which provides a unified view of the debug session to the IDE. The SDM manages the DE.  
   
- [Debug Engine](../../extensibility/debugger/debug-engine.md)  
+ [Debug engine](../../extensibility/debugger/debug-engine.md)  
  Documents the debugging services that the DE provides.  
   
- [Operational Modes](../../extensibility/debugger/operational-modes.md)  
+ [Operational modes](../../extensibility/debugger/operational-modes.md)  
  Provides an overview of the three modes in which the IDE can operate: design mode, run mode, and break mode. Transition mechanisms are also discussed.  
   
- [Expression Evaluator](../../extensibility/debugger/expression-evaluator.md)  
+ [Expression evaluator](../../extensibility/debugger/expression-evaluator.md)  
  Explains the purpose of the EE at run time.  
   
- [Symbol Provider](../../extensibility/debugger/symbol-provider.md)  
+ [Symbol provider](../../extensibility/debugger/symbol-provider.md)  
  Discusses how, at implementation, the symbol provider evaluates variables and expressions.  
   
- [Type Visualizer and Custom Viewer](../../extensibility/debugger/type-visualizer-and-custom-viewer.md)  
+ [Type visualizer and custom viewer](../../extensibility/debugger/type-visualizer-and-custom-viewer.md)  
  Discusses what a type visualizer and custom viewer are and what role the expression evaluator plays in supporting both.  
   
-## Related Sections  
- [Debugger Concepts](../../extensibility/debugger/debugger-concepts.md)  
+## Related sections  
+ [Debugger concepts](../../extensibility/debugger/debugger-concepts.md)  
  Describes the main debugging architectural concepts.  
   
- [Debugger Contexts](../../extensibility/debugger/debugger-contexts.md)  
+ [Debugger contexts](../../extensibility/debugger/debugger-contexts.md)  
  Explains how the DE operates simultaneously within code, documentation, and expression evaluation contexts. Describes, for each of the three contexts, the location, position, or evaluation relevant to it.  
   
- [Debugging Tasks](../../extensibility/debugger/debugging-tasks.md)  
+ [Debug tasks](../../extensibility/debugger/debugging-tasks.md)  
  Contains links to various debugging tasks, such as launching a program and evaluating expressions.  
   
-## See Also  
- [Getting Started](../../extensibility/debugger/getting-started-with-debugger-extensibility.md)
+## See also  
+ [Get started](../../extensibility/debugger/getting-started-with-debugger-extensibility.md)

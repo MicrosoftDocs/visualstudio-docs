@@ -20,5 +20,5 @@ Large projects often contain many subprojects and other dependencies, which may 
   
  Version 4.0 handles this memory management automatically, saving projects from having to use properties such as  `UnloadProjectsOnCompletion` and `UseResultsCache`.  
   
-## See also  
- [Building multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)
+### See also  
+ [Build multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)

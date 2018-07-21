@@ -19,7 +19,7 @@ ms.technology: vs-ide-test
 You can configure the diagnostic data adapter for IntelliTrace to collect specific diagnostic trace information in Visual Stdio. Tests can use this adapter, the test can collect significant diagnostic events for the application that a developer can use later to trace through the code to find the cause of a bug. The diagnostic data adapter for IntelliTrace can be used for either manual or automated tests.
 
 > [!NOTE]
-> IntelliTrace works only on an application that is written by using managed code. If you are testing a Web application that uses a browser as a client, you should not enable IntelliTrace for the client in your test settings because no managed code is available to trace. In this case, you may want to set up an environment and collect IntelliTrace data remotely on your Web server.
+> IntelliTrace works only on an application that is written by using managed code. If you are testing a web application that uses a browser as a client, you should not enable IntelliTrace for the client in your test settings because no managed code is available to trace. In this case, you may want to set up an environment and collect IntelliTrace data remotely on your web server.
 
 The IntelliTrace data is stored in a file that has an extension of .iTrace. When you run your test and a test step fails, you can create a bug. The IntelliTrace file that contains the diagnostic information is automatically attached to this bug.
 
@@ -49,9 +49,9 @@ Before you perform the steps in this procedure, you must open your test settings
 
 2.  Select **IntelliTrace**.
 
-3.  If you are adding IntelliTrace for a Web client role or for an ASP.NET Web application, you must also select **ASP.NET Client Proxy for IntelliTrace and Test Impact**.
+3.  If you are adding IntelliTrace for a web client role or for an ASP.NET web application, you must also select **ASP.NET Client Proxy for IntelliTrace and Test Impact**.
 
-     This proxy enables you to collect information about the http calls from a client to a Web server for the IntelliTrace and Test Impact diagnostic data adapters.
+     This proxy enables you to collect information about the http calls from a client to a web server for the IntelliTrace and Test Impact diagnostic data adapters.
 
     > [!WARNING]
     > If you decide to use a custom account for the identity that is being used for the application pool on the Internet Information Server (IIS) where you intend to collect Intellitrace data, you must create the local user profile on the IIS machine for the custom account that is being used. You can create the local profile for the custom account either by logging on to the IIS machine locally one time or by running the following command line by using the custom account credentials:
@@ -71,7 +71,7 @@ Before you perform the steps in this procedure, you must open your test settings
 
      Select **IntelliTrace events and call information** to record diagnostic events and method level tracing that shows call information. This level of tracing might have performance impact when you run your tests.
 
-6.  To collect data from your ASP.NET application that is running on Internet Information Services, select **Collect data from ASP.NET applications that are running on Internet Information Services**. Set up and configure your test agent on the Web server role. See [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
+6.  To collect data from your ASP.NET application that is running on Internet Information Services, select **Collect data from ASP.NET applications that are running on Internet Information Services**. Set up and configure your test agent on the web server role. See [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
 
 7.  Choose the **Modules** tab. Select either **Collect data from all modules except for the following** and use **Add** to add to the list of modules and **Remove** to remove a module. This option lets you include all the modules that are running on the system except the modules that you specify.
 

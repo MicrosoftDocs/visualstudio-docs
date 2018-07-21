@@ -4,12 +4,12 @@ ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "coded UI tests"
 author: gewarren
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # Anatomy of a coded UI test
@@ -49,7 +49,7 @@ using Mouse = Microsoft.VisualStudio.TestTools.UITesting.Mouse;
 using MouseButtons = System.Windows.Forms.MouseButtons;
 ```
 
- The <xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls> namespace is included for a Windows user interface (UI). For a Web page UI, the namespace would be <xref:Microsoft.VisualStudio.TestTools.UITesting.HtmlControls>; for a Windows Presentation Foundation UI, the namespace would be <xref:Microsoft.VisualStudio.TestTools.UITesting.WpfControls>.
+ The <xref:Microsoft.VisualStudio.TestTools.UITesting.WinControls> namespace is included for a Windows user interface (UI). For a web page UI, the namespace would be <xref:Microsoft.VisualStudio.TestTools.UITesting.HtmlControls>; for a Windows Presentation Foundation UI, the namespace would be <xref:Microsoft.VisualStudio.TestTools.UITesting.WpfControls>.
 
 ####  <a name="UIMapClass"></a> UIMap class
  The next section of the file is the <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap> class.

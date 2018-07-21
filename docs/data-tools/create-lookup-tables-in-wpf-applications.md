@@ -30,7 +30,7 @@ For example, consider a table of `Orders` in a sales database. Each record in th
 
     -   Dataset or Entity Data Model.
 
-    -   WCF Data Service, WCF service or Web service. For more information, see [How to: Connect to Data in a Service](../data-tools/how-to-connect-to-data-in-a-service.md).
+    -   WCF Data Service, WCF service or web service. For more information, see [How to: Connect to Data in a Service](../data-tools/how-to-connect-to-data-in-a-service.md).
 
     -   Objects. For more information, see [Bind to objects in Visual Studio](bind-objects-in-visual-studio.md).
 

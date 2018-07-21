@@ -292,7 +292,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
 ## See Also  
  [Debugging Multithreaded Applications](../debugger/walkthrough-debugging-a-parallel-application.md)   
- [Debugger Basics](../debugger/debugger-basics.md)   
+ [Debugger Basics](../debugger/getting-started-with-the-debugger.md)   
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [Parallel Programming](/dotnet/standard/parallel-programming/index)   
  [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)   

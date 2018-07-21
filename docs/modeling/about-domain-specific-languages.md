@@ -20,15 +20,15 @@ Well-known DSLs include regular expressions and SQL. Each DSL is much better tha
 
 Your business and your project also deal with special sets of concepts that could be described with a DSL. For example, you could define a DSL for one of these applications:
 
--   Plan of navigation paths in a Web site.
+-   Plan of navigation paths in a website.
 
 -   Wiring diagrams for electronic components.
 
 -   Networks of conveyor belts and baggage handling equipment for an airport.
 
-When you design a DSL, you define a *domain class* for each of the important concepts in the domain, such as a Web page, lamp, or airport check-in desk. You define *domain relationships* such as hyperlink, wire, or a conveyor belt to link the concepts together.
+When you design a DSL, you define a *domain class* for each of the important concepts in the domain, such as a web page, lamp, or airport check-in desk. You define *domain relationships* such as hyperlink, wire, or a conveyor belt to link the concepts together.
 
-Users of your DSL create *models.* Models are *instances* of the DSL. For example, they describe a particular Web site, or the wiring of a particular device, or the baggage handling system in a particular airport.
+Users of your DSL create *models.* Models are *instances* of the DSL. For example, they describe a particular website, or the wiring of a particular device, or the baggage handling system in a particular airport.
 
 Your users can view a model as a diagram or as a Windows form. Models can also be viewed as XML, which is how they are stored. When you define a DSL, you define how the instances of each domain class and relationship appear on the user's screen. A typical DSL is displayed as a collection of icons or rectangles connected by arrows.
 
