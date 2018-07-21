@@ -1,5 +1,6 @@
 ---
 title: "MSBuild Items | Microsoft Docs"
+description: "Use the MSBuild Include attribute of the ItemGroup to specify files to be included in a build"
 ms.custom: ""
 ms.date: "11/04/2016"
 ms.technology: msbuild
@@ -14,7 +15,7 @@ ms.workload:
   - "multiple"
 ---
 # MSBuild items
-MSBuild items are inputs into the build system, and they typically represent files. Items are grouped into item types based on their element names. Item types are named lists of items that can be used as parameters for tasks. The tasks use the item values to perform the steps of the build process.  
+MSBuild items are inputs into the build system, and they typically represent files (the files are specified in the `Include` attribute). Items are grouped into item types based on their element names. Item types are named lists of items that can be used as parameters for tasks. The tasks use the item values to perform the steps of the build process.  
   
  Because items are named by the item type to which they belong, the terms "item" and "item value" can be used interchangeably.  
   
