@@ -55,7 +55,7 @@ When you create a load test with the **Load Test Wizard**, you add an initial se
 7.  Choose **OK**.
 
     > [!NOTE]
-    > It is also possible to add counters to a counter set by  choosing an existing counter or counter category, choosing copy, and then pasting it to a different counter set node. Extra counters that are copied, but not needed, can be deleted.
+    > It is also possible to add counters to a counter set by choosing an existing counter or counter category, choosing copy, and then pasting it to a different counter set node. Extra counters that are copied, but not needed, can be deleted.
 
 ## See also
 
