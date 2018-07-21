@@ -11,11 +11,11 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Create a Recorder Plug-In
+# How to: Create a recorder plug-in
 
-The <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin> lets you modify a recorded Web performance test. The modification occurs after you choose **Stop** in the Web performance test recorder toolbar but prior to the test being saved and presented in the Web Performance Test Editor.
+The <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin> lets you modify a recorded Web performance test. The modification occurs after you choose **Stop** in the **Web performance test recorder** toolbar but prior to the test being saved and presented in the Web Performance Test Editor.
 
-A recorder plug-in enables you to perform your own custom correlation on dynamic parameters. With the built-in correlation functionality, Web performance tests detect the dynamic parameters in the Web recording upon completion, or when you use the **Promote Dynamic Parameters to Web Test Parameters** on the Web Performance Test Editor toolbar. However, the built in detection functionality does not always find all the dynamic parameters. For example, it does not find a session ID, which usually gets its value changed between 5 to 30 minutes. Therefore, you have to manually perform the correlation process.
+A recorder plug-in enables you to perform your own custom correlation on dynamic parameters. With the built-in correlation functionality, Web performance tests detect the dynamic parameters in the Web recording upon completion, or when you use the **Promote Dynamic Parameters to Web Test Parameters** on the **Web Performance Test Editor** toolbar. However, the built in detection functionality does not always find all the dynamic parameters. For example, it does not find a session ID, which usually gets its value changed between 5 to 30 minutes. Therefore, you have to manually perform the correlation process.
 
 The <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin> lets you write code for your own custom plug-in. This plug-in can perform correlation or modify the Web performance test in many ways prior to it being saved and presented in the Web Performance Test Editor. Therefore, if you determine that a specific dynamic variable has to be correlated for a lot of your recordings, you can automate the process.
 
@@ -23,13 +23,13 @@ Some other ways that a recorder plug-in can be used is for adding extraction and
 
 The following procedures describe how to create the rudimentary code for a recorder plug-in, deploy the plug-in and execute the plug-in. The sample code following the procedures demonstrates how to use Visual C# to create a custom dynamic parameter correlation recorder plug-in.
 
-## Creating a Recorder Plug-in
+## Create a recorder plug-in
 
 ### To create a recorder plug-in
 
 1.  Open a solution that contains the Web performance and load test project with the Web performance test for which you want to create a recorder plug-in.
 
-2.  In Solution Explorer, right-click the solution, select **Add**, and then choose **New Project**.
+2.  In **Solution Explorer**, right-click the solution, select **Add**, and then choose **New Project**.
 
      The **Add New Project** dialog box is displayed.
 
@@ -39,9 +39,9 @@ The following procedures describe how to create the rudimentary code for a recor
 
 5.  In the **Name** text box, type a name for the recorder plug-in.
 
-     The class library is added to the Solution Explorer and the new class is opened in the Code Editor.
+     The class library is added to the **Solution Explorer** and the new class is opened in the **Code Editor**.
 
-6.  In Solution Explorer, in the new class library project folder, right-click the **References** folder and select **Add Reference**.
+6.  In **Solution Explorer**, in the new class library project folder, right-click the **References** folder and select **Add Reference**.
 
     > [!TIP]
     > An example of a new class library project folder is **RecorderPlugins**.
@@ -52,7 +52,7 @@ The following procedures describe how to create the rudimentary code for a recor
 
 8.  Scroll down and select **Microsoft.VisualStudio.QualityTools.WebTestFramework** and then choose **OK**.
 
-     The **Microsoft.VisualStudio.QualityTools.WebTestFramework** is added in the **References** folder in Solution Explorer.
+     The **Microsoft.VisualStudio.QualityTools.WebTestFramework** is added in the **References** folder in **Solution Explorer**.
 
 9. Write the code for your recorder plug-in. First, create a new public class that derives from <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin>.
 
@@ -75,17 +75,17 @@ The following procedures describe how to create the rudimentary code for a recor
 
 11. Add more code according to what you want the recorder plug-in to execute after the Web recording occurs. For example, you can add code to handle custom correlation as shown in the sample below. You can also create a recorder plug-in for such things as converting comments to transactions or adding validation rules to the Web performance test.
 
-12. On the **Build** menu, choose Build \<class library project name>.
+12. On the **Build** menu, choose **Build \<class library project name>**.
 
 13. Next, you must deploy the recorder plug-in in order for it to register with Visual Studio.
 
-### Deploy the Recorder Plug-in
+### Deploy the recorder plug-in
 
 After you compile the recorder plug-in, you will need to place the resulting DLL in one of two locations:
 
--   %ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies\WebTestPlugins
+-   *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PrivateAssemblies\WebTestPlugins*
 
--   %USERPROFILE%\My Documents\Visual Studio \<*version*>\WebTestPlugins
+-   *%USERPROFILE%\My Documents\Visual Studio \<*version*>\WebTestPlugins*
 
 > [!WARNING]
 > After you copy the recorder plug-in to one of the two locations, you must restart Visual Studio for the recorder plug-in to be registered.
@@ -96,7 +96,7 @@ After you compile the recorder plug-in, you will need to place the resulting DLL
 
      The **Enable WebTestRecordPlugins** dialog box displays.
 
-2.  Select the check box for the recorder plug-in and choose OK.
+2.  Select the check box for the recorder plug-in and choose **OK**.
 
      After the Web performance test completes recording, the new recorder plug-in will be executed.
 

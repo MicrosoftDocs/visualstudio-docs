@@ -12,9 +12,9 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Configure Load Tests to Collect Full Details to Enable Virtual User Activity in Test Results
+# How to: Configure load tests to collect full details to enable virtual user activity in test results
 
-To use the Virtual User Activity Chart for your load test, you must configure your load test to collect full details. To configure the load test to do this, select the **All Individual Details** setting for the **Timing Details Storage** property associated with your load test. In this mode your load test will collect detailed information about every test, page, and transaction.
+To use the **Virtual User Activity Chart** for your load test, you must configure your load test to collect full details. To configure the load test to do this, select the **All Individual Details** setting for the **Timing Details Storage** property associated with your load test. In this mode your load test will collect detailed information about every test, page, and transaction.
 
  If you are upgrading a project from a previous version of Visual Studio load test, use the steps in the following procedure to enable full detail collection.
 
@@ -31,19 +31,19 @@ To use the Virtual User Activity Chart for your load test, you must configure yo
 
 ## To configure the timing details storage property in a load test
 
-1.  Open a load test in the load test editor.
+1.  Open a load test in the Load Test Editor.
 
 2.  Expand the **Run Settings** node in the load test.
 
 3.  Choose on the run settings that you want to configure, for example **Run Settings1[Active]**.
 
-4.  Open the Properties Window. On the **View** menu, select **Properties Window**.
+4.  Open the **Properties** Window. On the **View** menu, select **Properties Window**.
 
 5.  Under the **Results** category, choose the **Timing Details Storage** property and select **All Individual Details**.
 
-     After you have configured the **All Individual Details** setting for the **Timing Details Storage** property, you can run your load test and view the Virtual User Activity Chart. For more information, see [How to: Analyze What Virtual Users Are Doing During a Load Test](../test/how-to-analyze-virtual-user-activity-during-a-load-test.md).
+     After you have configured the **All Individual Details** setting for the **Timing Details Storage** property, you can run your load test and view the **Virtual User Activity Chart**. For more information, see [How to: Analyze what virtual users are doing during a load test](../test/how-to-analyze-virtual-user-activity-during-a-load-test.md).
 
 ## See also
 
-- [Analyzing Virtual User Activity in the Details View](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md)
-- [Walkthrough: Using the Virtual User Activity Chart to Isolate Issues](../test/walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md)
+- [Analyzing virtual user activity in the Details vView](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md)
+- [Walkthrough: Using the Virtual User Activity Chart to isolate issues](../test/walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md)
