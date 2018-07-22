@@ -21,8 +21,8 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Devenv Command-Line Switches for VSPackage Development
-[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] allows developers to automate tasks from the command line when executing devenv.exe, the file that starts the Visual Studio integrated development environment (IDE).  
+# Devenv command-line switches for VSPackage development
+[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] allows developers to automate tasks from the command line when executing *devenv.exe*, the file that starts the Visual Studio integrated development environment (IDE).  
   
  Tasks include:  
   
@@ -32,8 +32,8 @@ ms.workload:
   
 -   Loading the IDE in specific configurations, all from outside the IDE. In addition, you can customize the IDE upon launch.  
   
-## Guidelines for Switches  
- [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] documentation describes the user-level devenv command line switches. For more information, see [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md). Devenv also supports additional command-line switches that are useful with VSPackage development, deployment, and debugging.  
+## Guidelines for switches  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] documentation describes the user-level devenv command line switches. For more information, see [Devenv command-line switches](../ide/reference/devenv-command-line-switches.md). Devenv also supports additional command-line switches that are useful with VSPackage development, deployment, and debugging.  
   
 |Command-line switch|Description|  
 |--------------------------|-----------------|  
@@ -42,6 +42,6 @@ ms.workload:
 |/rootsuffix|Starts [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] by using an alternate location. The following command is run by the shortcut created by the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] installer:<br /><br /> devenv /RootSuffix exp<br /><br /> In this case, exp identifies a location with a particular suffix, for example 10.0Exp rather than 10.0. The experimental instance allows you to debug a VSPackage separately from the instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that you are using to write code.<br /><br /> This switch can take any string that identifies a location that you have created by using VSRegEx.exe. For more information, see [The Experimental Instance](../extensibility/the-experimental-instance.md).|  
 |/splash|Shows the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] splash screen as usual and then shows a message box before showing the main IDE. The message box lets you study the splash screen, to check for a VSPackage product icon, for example.<br /><br /> This switch takes no arguments.|  
   
-## See Also  
- [Adding Command-Line Switches](../extensibility/adding-command-line-switches.md)   
- [Devenv Command Line Switches](../ide/reference/devenv-command-line-switches.md)
+## See also  
+ [Add command-line switches](../extensibility/adding-command-line-switches.md)   
+ [Devenv command-line switches](../ide/reference/devenv-command-line-switches.md)
