@@ -12,13 +12,13 @@ manager: douge
 ms.workload:
   - "azure"
 ---
-# Publish a Web app to Linux App Service using Visual Studio
+# Publish an ASP.NET Core app to Linux App Service using Visual Studio
 
-You can use the **Publish** tool to publish ASP.NET Core apps to Azure App Service Linux. For Python apps, follow the steps on [Python - Publish to Azure App Service](../python/publishing-python-web-applications-to-azure-from-visual-studio.md).
+You can use the **Publish** tool to publish ASP.NET Core apps to Azure App Service on Linux.
 
-[!INCLUDE [quickstart-prereqs-azure](includes/quickstart-prereqs-azure.md)]
+[!INCLUDE [quickstart-prereqs-azure-linux](includes/quickstart-prereqs-azure-linux.md)]
 
-## Publish to Azure App Service
+## Publish to App Service on Linux
 
 1. In Solution Explorer, right-click the project and choose **Publish** (or use the **Build** > **Publish** menu item).
 
@@ -26,13 +26,13 @@ You can use the **Publish** tool to publish ASP.NET Core apps to Azure App Servi
 
 1. If you have previously configured any publishing profiles, the **Publish** pane appears, in which case select **Create new profile**.
 
-1. In the **Pick a publish target** dialog box, choose **App Service**.
+1. In the **Pick a publish target** dialog box, choose **App Service Linux**.
 
-    ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
+    ![Choose Azure App Service](../deployment/media/quickstart-publish-linux.png "Choose Azure App Service")
 
 1. Select **Publish**. The **Create App Service** dialog box appears. Sign in with you Azure account, if necessary, then the default app service settings populate the fields.
 
-    ![Create App Service](../deployment/media/quickstart-publish-settings-app-service.png "Create Azure App Service")
+    ![Create App Service](../deployment/media/quickstart-publish-settings-app-service-linux-2.png "Create Azure App Service")
 
 1. Select **Create**. Visual Studio deploys the app to your Azure App Service, and the web app loads in your browser. The project properties **Publish** pane shows the site URL and other details.
 
@@ -40,7 +40,7 @@ You can use the **Publish** tool to publish ASP.NET Core apps to Azure App Servi
 
 ## Next steps
 
-In this quickstart, you learned how to use Visual Studio to create a publishing profile for deployment to Azure. You can also configure a publishing profile by importing publish settings from Azure App Service.
+In this quickstart, you learned how to use Visual Studio to create a publishing profile for deployment to App Service on Linux. You may want more information on publishing to Linux using Azure.
 
 > [!div class="nextstepaction"]
-> [Import publish settings and deploy to Azure](tutorial-import-publish-settings-azure.md)
+> [Linux App Service](/azure/app-service/containers/app-service-linux-intro)
