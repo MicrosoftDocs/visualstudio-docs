@@ -37,7 +37,7 @@ Visual Studio also provides full [debugging support](debugging-python-in-visual-
 
 ![Breakpoints](media/template-django-debugging.png)
 
-It's typical for Django projects to be managed through their `manage.py` file, which is an assumption that Visual Studio follows. If you stop using that file as the entry point, you essentially break the project file. In that case you need to [recreate the project from existing files](managing-python-projects-in-visual-studio.md#creating-a-project-from-existing-files) without marking it as a Django project.
+It's typical for Django projects to be managed through their `manage.py` file, which is an assumption that Visual Studio follows. If you stop using that file as the entry point, you essentially break the project file. In that case you need to [recreate the project from existing files](managing-python-projects-in-visual-studio.md#create-a-project-from-existing-files) without marking it as a Django project.
 
 ## Django management console
 

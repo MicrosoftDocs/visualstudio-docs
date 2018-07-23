@@ -115,7 +115,7 @@ The `--reload` option is not recommended when using Visual Studio for debugging.
 
 ### Sample Pyramid configuration
 
-Pyramid apps are currently best created using the `pcreate` command-line tool. Once an app has been created, it can be imported using the [From existing Python code](managing-python-projects-in-visual-studio.md#creating-a-project-from-existing-files) template. After doing so, select the **Generic Web Project** customization to configure the options. These settings assume that Pyramid is installed into a virtual environment at `..\env`.
+Pyramid apps are currently best created using the `pcreate` command-line tool. Once an app has been created, it can be imported using the [From existing Python code](managing-python-projects-in-visual-studio.md#create-a-project-from-existing-files) template. After doing so, select the **Generic Web Project** customization to configure the options. These settings assume that Pyramid is installed into a virtual environment at `..\env`.
 
 - **Debug** group:
   - **Server Port**: 6543 (or whatever is configured in the .ini files)
