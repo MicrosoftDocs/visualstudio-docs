@@ -73,7 +73,7 @@ As noted before. much of what's in a project created from the "Polls Flask Web P
 
 The data models for the app are Python classes named Poll and Choice, which are defined in `models/__init__.py`. A Poll represents a question, for which a collection of Choice instances represent the available answers. A Poll also maintains the total number of votes (for any choice) and a method to calculate statistics that are used to generate views:
 
-    ```python
+```python
     class Poll(object):
         """A poll object for use in the application views and repository."""
         def __init__(self, key=u'', text=u''):
@@ -101,7 +101,7 @@ The data models for the app are Python classes named Poll and Choice, which are 
             self.text = text
             self.votes = votes
             self.votes_percentage = None
-    ```
+```
 
 These data models are generic abstractions that allow the app's views to work against different types of backing data stores, which are described in the next step.
 
@@ -184,7 +184,7 @@ The following steps add support for a different data store than the three provid
 
 Initially, any chosen data store contains no polls, so the app's home page shows the message "No polls available" along with the **Create Sample Polls** button. Once you select the button, however, the view changes to display available polls. This switch happens through conditional tags in `templates\index.html` (some blank lines omitted for brevity):
 
-    ```html
+```html
     {% extends "layout.html" %}
     {% block content %}
     <h2>{{title}}.</h2>
@@ -209,7 +209,7 @@ Initially, any chosen data store contains no polls, so the app's home page shows
     </form>
     {% endif %}
     {% endblock %}
-    ```
+```
 
 The `polls` variable in the template comes from a call to `repository.get_polls`, which returns nothing until the data store is initialized.
 

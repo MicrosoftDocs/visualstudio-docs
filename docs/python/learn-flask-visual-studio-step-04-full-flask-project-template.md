@@ -161,14 +161,14 @@ To enable Jade, the project template first includes the pyjade package in `requi
 
 The app's `__init__.py` file contains a line to
 
-    ```python
-    app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
-    ```
+```python
+app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
+```
 In the `templates` folder, you see `.jade` files instead of `.html` templates, and the views in `views.py` refer to these files in their calls to `flask.render_template`. Otherwise the views code is the same.
 
 Opening one of the `.jade` files, you can see the more succinct expression of a template. For example, here's the contents of `templates/layout.jade` as created by the "Flask/Jade Web Project" template:
 
-    ```jade
+```jade
     doctype html
     html
       head
@@ -206,18 +206,18 @@ Opening one of the `.jade` files, you can see the more succinct expression of a 
         script(src='/static/scripts/respond.js')
 
         block scripts
-    ```
+```
 
 And here's the contents of `templates/about.jade`, showing the use of `#{ <name>}` for placeholders:
 
-    ```jade
+```jade
     extends layout
 
     block content
       h2 #{title}.
       h3 #{message}
       p Use this area to provide additional information.
-    ```
+```
 
 Feel free to experiment with both Jinja and Jade syntaxes to see which one works best for you.
 
