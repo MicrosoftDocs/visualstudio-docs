@@ -1,5 +1,5 @@
 ---
-title: Publish to Linux App Service
+title: Publish to App Service on Linux
 ms.custom: ""
 ms.date: 07/23/2018
 ms.technology: vs-ide-deployment
@@ -12,7 +12,7 @@ manager: douge
 ms.workload:
   - "azure"
 ---
-# Publish an ASP.NET Core app to Linux App Service using Visual Studio
+# Publish an ASP.NET Core app to App Service on Linux using Visual Studio
 
 You can use the **Publish** tool to publish ASP.NET Core apps to Azure App Service on Linux.
 
