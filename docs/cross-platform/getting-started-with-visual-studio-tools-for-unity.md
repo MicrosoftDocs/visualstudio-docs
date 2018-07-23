@@ -11,11 +11,11 @@ manager: crdun
 ms.workload:
   - "unity"
 ---
-# Getting Started with Visual Studio Tools for Unity
+# Get started with Visual Studio Tools for Unity
 
 ## Install Visual Studio
 
-### Unity Bundled Installation
+### Unity bundled installation
 
 Starting with Unity 2018.1, Visual Studio is the default C# script editor for Unity, and is included in the Unity Download Assistant, as well as the Unity Hub installation tool.
 
@@ -35,9 +35,9 @@ During installation, ensure that Visual Studio is checked in the list of compone
 
 The version of Visual Studio included with your Unity installation may not be the latest. It is recommended to check for updates to ensure you have access to the latest tools and features.
 
-- [Updating Visual Studio](../install/update-visual-studio.md)
+- [Update Visual Studio](../install/update-visual-studio.md)
 
-### Manual Installation
+### Manual installation
 
 If you already have Visual Studio 2017 installed, or prefer to manually install, run the Visual Studio installer.
 
@@ -71,7 +71,7 @@ Starting with Unity 2018.1, Visual Studio should be the default external script 
 
 1. Once Visual Studio is selected in the **External Script Editor** list, confirm that the **Editor Attaching** checkbox is selected.
 
-1. Close the Preferences dialog to complete the configuration process.
+1. Close the **Preferences** dialog to complete the configuration process.
 
 ## Support for older versions
 
@@ -87,4 +87,4 @@ Starting with Unity 2018.1, Visual Studio should be the default external script 
 
 ## Next steps
 
- To learn how to work with and debug your Unity project in Visual Studio, see [Using Visual Studio Tools for Unity](../cross-platform/using-visual-studio-tools-for-unity.md).
+ To learn how to work with and debug your Unity project in Visual Studio, see [Use Visual Studio Tools for Unity](../cross-platform/using-visual-studio-tools-for-unity.md).
