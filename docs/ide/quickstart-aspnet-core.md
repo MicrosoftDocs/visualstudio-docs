@@ -111,4 +111,4 @@ To learn more, continue with the following tutorials:
 
 ## See also
 
-[Publish your Web app to Azure App Service by using Visual Studio](..//deployment/quickstart-deploy-to-azure.md)
+[Publish your web app to Azure App Service by using Visual Studio](..//deployment/quickstart-deploy-to-azure.md)
