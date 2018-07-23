@@ -127,7 +127,7 @@ The [Message task](../msbuild/message-task.md) displays the following informatio
   
  `Number: 3 -- Items in ExampColl: Item3 ExampColl2: Item6`  
   
-## Batching one item at a time  
+## Batch one item at a time  
  Batching can also be performed on well-known item metadata that is assigned to every item upon creation. This guarantees that every item in a collection will have some metadata to use for batching. The `Identity` metadata value is unique for every item, and is useful for dividing every item in an item list into a separate batch. For a complete list of well-known item metadata, see [Well-known item metadata](../msbuild/msbuild-well-known-item-metadata.md).  
   
  The following example shows how to batch each item in an item list one at a time. Because the `Identity` metadata value of every item is unique, the `ExampColl` item list is divided into six batches, each batch containing one item of the item list. The presence of `%(Identity)`in the `Text` attribute notifies [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] that batching should be performed.  
@@ -166,7 +166,7 @@ Identity: "Item5" -- Items in ExampColl: Item5
 Identity: "Item6" -- Items in ExampColl: Item6  
 ```  
   
-## Filtering item lists  
+## Filter item lists  
  Batching can be used to filter out certain items from an item list before passing it to a task. For example, filtering on the `Extension` well-known item metadata value allows you to run a task on only files with a specific extension.  
   
  The following example shows how to divide an item list into batches based on item metadata, and then filter those batches when they are passed into a task. The `ExampColl` item list is divided into three batches based on the `Number` item metadata. The `Condition` attribute of the task specifies that only batches with a `Number` item metadata value of `2` will be passed into the task  

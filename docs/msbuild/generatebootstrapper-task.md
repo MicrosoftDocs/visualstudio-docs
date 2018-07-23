@@ -80,7 +80,7 @@ Provides an automated way to detect, download, and install an application and it
   
      Optional `String` output parameter.  
   
-     Specifies the built location of setup.exe  
+     Specifies the built location of *setup.exe*  
   
 -   `ComponentsLocation`  
   

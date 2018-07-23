@@ -115,7 +115,7 @@ This article lists the following common errors that can occur when you deploy a 
 #### Clicking the "Don't Sign" button causes an exception  
  This issue is a known bug. All [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests are required to be signed. Just select one of the signing options, and then click **OK**.  
   
-## Additional Errors  
+## Additional errors  
  The following table shows some common error messages that a client-computer user may receive when the user installs a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. Each error message is listed next to a description of the most probable cause for the error.  
   
 |Error message|Description|  

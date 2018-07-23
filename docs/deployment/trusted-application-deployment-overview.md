@@ -49,7 +49,7 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../deplo
   
 -   The deployer is the group, typically the information technology (IT) department, that distributes [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application to corporate enterprise desktop computers.  
   
- You must follow these steps to take advantage of Trusted Application Deployment:  
+You must follow these steps to take advantage of Trusted Application Deployment:  
   
 1.  Obtain a certificate for the publisher.  
   

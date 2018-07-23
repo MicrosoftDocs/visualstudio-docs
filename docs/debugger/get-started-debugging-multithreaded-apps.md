@@ -106,25 +106,27 @@ To begin this tutorial, you need a multithreaded application project. Follow the
     #include <iostream>
     #include <vector>
 
+    using namespace;
+
     int count = 0;
 
     void doSomeWork() {
 
-        std::cout << "The doSomeWork function is running on another thread." << std::endl;
+        cout << "The doSomeWork function is running on another thread." << endl;
         int data = count++;
         // Pause for a moment to provide a delay to make
         // threads more apparent.
-        std::this_thread::sleep_for(std::chrono::seconds(3));
-        std::cout << "The function called by the worker thread has ended." << std::endl;
+        this_thread::sleep_for(chrono::seconds(3));
+        cout << "The function called by the worker thread has ended." << endl;
     }
 
     int main() {
-        std::vector<std::thread> threads;
+        vector<thread> threads;
 
         for (int i = 0; i < 10; ++i) {
 
-            threads.push_back(std::thread(doSomeWork));
-            std::cout << "The Main() thread calls this after starting the new thread" << std::endl;
+            threads.push_back(thread(doSomeWork));
+            cout << "The Main() thread calls this after starting the new thread" << endl;
         }
 
         for (auto& thread : threads) {
@@ -198,9 +200,10 @@ To begin this tutorial, you need a multithreaded application project. Follow the
     ```  
   
     ```C++  
-    Thread::Sleep(3000);  
-    Console.WriteLine();  
+    this_thread::sleep_for(chrono::seconds(3));
+    cout << "The function called by the worker thread has ended." << endl; 
     ```  
+
     ```VB
     Thread.Sleep(3000)
     Console.WriteLine()
@@ -208,7 +211,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 #### To start debugging  
   
-1.  Click in the left gutter of the `Thread.Sleep` or `Thread::Sleep` statement to insert a new breakpoint.  
+1.  Click in the left gutter of the `Thread.Sleep` or `this_thread::sleep_for` statement to insert a new breakpoint.  
   
      In the gutter on the left side of the source code editor, a red circle appears. This indicates that a breakpoint is now set at this location. 
   
@@ -226,7 +229,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
     ```  
   
     ```C++  
-    Thread::Sleep(3000);  
+    this_thread::sleep_for(chrono::seconds(3)); 
     ```
 
     ```VB
@@ -255,7 +258,7 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
 
     ![Parallel Stacks Window](../debugger/media/dbg-multithreaded-parallel-stacks.png "ParallelStacksWindow")
 
-    In this example, from left to right we get this information:
+    In this example, from left to right we get this information for managed code:
     
     - The Main thread (left side) has stopped on `Thread.Start` (the stop point is indicated by the thread marker icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker")).
     - Two threads have entered the `ServerClass.InstanceMethod`, one of which is the current thread (yellow arrow), while the other thread has stopped in `Thread.Sleep`.
