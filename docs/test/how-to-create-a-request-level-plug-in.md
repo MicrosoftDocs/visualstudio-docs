@@ -12,7 +12,7 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Create a Request-Level Plug-In
+# How to: Create a request-level plug-in
 
 *Requests* are the declarative statements that constitute web performance tests. Web performance test plug-ins enable you to isolate and reuse code outside the main declarative statements in your web performance test. You can create plug-ins and add them to an individual request as well as to the web performance test that contains it. A customized  *request plug-in* offers you a way to call code as a particular request is run in a web performance test.
 
@@ -24,7 +24,7 @@ You can use customized web performance test request plug-ins with the web perfor
 
 ## To create a request-level plug-in
 
-1.  In Solution Explorer, right-click the solution, . select **Add** and then choose **New Project**.
+1.  In **Solution Explorer**, right-click the solution, . select **Add** and then choose **New Project**.
 
      The **Add New Project** dialog box is displayed.
 
@@ -34,23 +34,23 @@ You can use customized web performance test request plug-ins with the web perfor
 
 4.  In the **Name** text box, type a name for your class and Choose **OK**.
 
-     The new class library project is added to Solution Explorer and the new class appears in the Code Editor.
+     The new class library project is added to **Solution Explorer** and the new class appears in the **Code Editor**.
 
-5.  In Solution Explorer, right-click the **References** folder in the new class library and select **Add Reference**.
+5.  In **Solution Explorer**, right-click the **References** folder in the new class library and select **Add Reference**.
 
      The **Add Reference** dialog box is displayed.
 
 6.  Choose the **.NET** tab, scroll down, select **Microsoft.VisualStudio.QualityTools.WebTestFramework** and then choose **OK**
 
-     The reference to **Microsoft.VisualStudio.QualityTools.WebTestFramework** is added to the **Reference** folder in Solution Explorer.
+     The reference to **Microsoft.VisualStudio.QualityTools.WebTestFramework** is added to the **Reference** folder in **Solution Explorer**.
 
-7.  In Solution Explorer, right-click the top node of the web performance and load test project that contains the load test to which you want to add the web performance test request test plug-in. Select **Add Reference**.
+7.  In **Solution Explorer**, right-click the top node of the web performance and load test project that contains the load test to which you want to add the web performance test request test plug-in. Select **Add Reference**.
 
      The **Add Reference dialog box is displayed**.
 
-8.  Choose the **Projects** tab, select the Class Library Project and then choose **OK** .
+8.  Choose the **Projects** tab, select the **Class Library Project** and then choose **OK** .
 
-9. In the Code Editor, write the code of your plug-in. First, create a new public class that derives from <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRequestPlugin>.
+9. In the **Code Editor**, write the code of your plug-in. First, create a new public class that derives from <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRequestPlugin>.
 
 10. Implement code inside one or both of the <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRequestPlugin.PreRequest*> and <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRequestPlugin.PostRequest*> event handlers. See the following Example section for a sample implementation.
 
@@ -85,7 +85,7 @@ You can use customized web performance test request plug-ins with the web perfor
 
 ## Example
 
-You can use the following code to create a customized web performance test plug-in that displays two dialog boxes. On dialog box displays the URL that is associated with the request to which you attach the request add-in. The second dialog box displays the computer name for the agent.
+You can use the following code to create a customized web performance test plug-in that displays two dialog boxes. One dialog box displays the URL that is associated with the request to which you attach the request add-in. The second dialog box displays the computer name for the agent.
 
 > [!NOTE]
 > The following code requires that you add a reference to System.Windows.Forms.
@@ -116,7 +116,7 @@ namespace RequestPluginNamespace
 
 - <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRequestPlugin>
 - [Create custom code and plug-ins for load tests](../test/create-custom-code-and-plug-ins-for-load-tests.md)
-- [Coding a custom extraction rule for a web performance test](../test/code-a-custom-extraction-rule-for-a-web-performance-test.md)
-- [Coding a custom validation rule for a web performance test](../test/code-a-custom-validation-rule-for-a-web-performance-test.md)
-- [How to: Create a Load Test Plug-In](../test/how-to-create-a-load-test-plug-in.md)
+- [Code a custom extraction rule for a web performance test](../test/code-a-custom-extraction-rule-for-a-web-performance-test.md)
+- [Code a custom validation rule for a web performance test](../test/code-a-custom-validation-rule-for-a-web-performance-test.md)
+- [How to: Create a load test plug-in](../test/how-to-create-a-load-test-plug-in.md)
 - [Generate and run a coded web performance test](../test/generate-and-run-a-coded-web-performance-test.md)

@@ -14,7 +14,7 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Create a Web Performance Test Plug-In
+# How to: Create a web performance test plug-in
 
 Web performance tests plug-ins enable you to isolate and reuse code outside the main declarative statements in your web performance test. A customized web performance test plug-in offers you a way to call some code as the web performance test is run. The web performance test plug-in is run one time for every test iteration. In addition, if you override the PreRequest or PostRequest methods in the test plug-in, those request plug-ins will run before or after each request, respectively.
 
@@ -23,13 +23,13 @@ You can create a customized web performance test plug-in by deriving your own cl
 You can use customized web performance test plug-ins with the web performance tests you have recorded, which enables you to write a minimal amount of code to obtain a greater level of control over your web performance tests. However, you can also use them with coded web performance tests. For more information, see [Generate and run a coded web performance test](../test/generate-and-run-a-coded-web-performance-test.md).
 
 > [!NOTE]
-> You can also create load test plug-ins. See [How to: Create a Load Test Plug-In](../test/how-to-create-a-load-test-plug-in.md).
+> You can also create load test plug-ins. See [How to: Create a load test plug-in](../test/how-to-create-a-load-test-plug-in.md).
 
-## To create a custom Web performance test plug-in
+## To create a custom web performance test plug-in
 
 1.  Open a web performance and load test project that contains a web performance test.
 
-2.  In Solution Explorer, right-click on the solution and select **Add** and then choose **New Project**.
+2.  In **Solution Explorer**, right-click on the solution and select **Add** and then choose **New Project**.
 
      The **Add New Project** dialog box is displayed.
 
@@ -41,9 +41,9 @@ You can use customized web performance test plug-ins with the web performance te
 
 6.  Choose **OK**.
 
-7.  The new class library project is added to Solution Explorer and the new class appears in the Code Editor.
+7.  The new class library project is added to **Solution Explorer** and the new class appears in the **Code Editor**.
 
-8.  In Solution Explorer, right-click the **References** folder in the new class library and select **Add Reference**.
+8.  In **Solution Explorer**, right-click the **References** folder in the new class library and select **Add Reference**.
 
 9. The **Add Reference** dialog box is displayed.
 
@@ -51,17 +51,17 @@ You can use customized web performance test plug-ins with the web performance te
 
 11. Choose **OK**.
 
-     The reference to **Microsoft.VisualStudio.QualityTools.WebTestFramework** is added to the **Reference** folder in Solution Explorer.
+     The reference to **Microsoft.VisualStudio.QualityTools.WebTestFramework** is added to the **Reference** folder in **Solution Explorer**.
 
-12. In Solution Explorer, right-click on the top node of the web performance and load test project that contains the load test to which you want to add the web performance test plug-in and select **Add Reference**.
+12. In **Solution Explorer**, right-click on the top node of the web performance and load test project that contains the load test to which you want to add the web performance test plug-in and select **Add Reference**.
 
 13. The **Add Reference dialog box is displayed**.
 
-14. Choose the **Projects** tab and select the Class Library Project.
+14. Choose the **Projects** tab and select the **Class Library Project**.
 
 15. Choose **OK**.
 
-16. In the Code Editor, write the code of your plug-in. First, create a new public class that derives from <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestPlugin>.
+16. In the **Code Editor**, write the code of your plug-in. First, create a new public class that derives from <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestPlugin>.
 
 17. Implement code inside one or more of the event handlers. See the following Example section for a sample implementation.
 
@@ -169,8 +169,8 @@ namespace SampleRules
 
 - <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRequestPlugin>
 - [Create custom code and plug-ins for load tests](../test/create-custom-code-and-plug-ins-for-load-tests.md)
-- [How to: Create a Request-Level Plug-In](../test/how-to-create-a-request-level-plug-in.md)
-- [Coding a custom extraction rule for a web performance test](../test/code-a-custom-extraction-rule-for-a-web-performance-test.md)
-- [Coding a custom validation rule for a web performance test](../test/code-a-custom-validation-rule-for-a-web-performance-test.md)
-- [How to: Create a Load Test Plug-In](../test/how-to-create-a-load-test-plug-in.md)
+- [How to: Create a request-level plug-in](../test/how-to-create-a-request-level-plug-in.md)
+- [Code a custom extraction rule for a web performance test](../test/code-a-custom-extraction-rule-for-a-web-performance-test.md)
+- [Code a custom validation rule for a web performance test](../test/code-a-custom-validation-rule-for-a-web-performance-test.md)
+- [How to: Create a load test plug-in](../test/how-to-create-a-load-test-plug-in.md)
 - [Generate and run a coded web performance test](../test/generate-and-run-a-coded-web-performance-test.md)
