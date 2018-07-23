@@ -39,9 +39,9 @@ General Comment: all planning and tracking features are independent of project t
 
 ## Modeling
 
-Reference link: **[Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)**
+Reference link: **[Analyze and model architecture](../modeling/analyze-and-model-your-architecture.md)**
 
-Design features are independent of coding language, or work with .NET languages like C#. See [Roles of Architecture and Modeling Diagrams in Software Development](../modeling/scenario-change-your-design-using-visualization-and-modeling.md#ModelingDiagramsTools) for what aspects are related to code.
+Design features are independent of coding language, or work with .NET languages like C#. See [Roles of architecture and modeling diagrams in software development](../modeling/scenario-change-your-design-using-visualization-and-modeling.md#ModelingDiagramsTools) for what aspects are related to code.
 
 |Feature|Supported with Xamarin|Additional Comments|
 |-------------|----------------------------|-------------------------|
@@ -66,12 +66,12 @@ Design features are independent of coding language, or work with .NET languages 
 
 ## Build
 
-Reference link: **[Build and Release](/vsts/pipelines/index?view=vsts)**
+Reference link: **[Build and release](/vsts/pipelines/index?view=vsts)**
 
 |Feature|Supported with Xamarin|Additional Comments|
 |-------------|----------------------------|-------------------------|
 |On-premises TFS server|Yes|Build machines must have Xamarin installed and can be linked to an OSX computer to build for iOS. See [Use TFVC](/vsts/tfvc/overview?view=vsts)|
-|On-premises build server linked to Visual Studio Team Services|Yes|See [Build and Release agents](/vsts/pipelines/agents/agents?view=vsts) for instructions.|
+|On-premises build server linked to Visual Studio Team Services|Yes|See [Build and release agents](/vsts/pipelines/agents/agents?view=vsts) for instructions.|
 |Hosted controller service of Visual Studio Team Services|Yes|See [Build your Xamarin app](/vsts/pipelines/apps/mobile/xamarin?view=vsts&tabs=vsts).|
 |Build definitions with pre- and post-scripts|Yes||
 |Continuous integration including gated check-ins|Yes|Gated check-ins for TFVC only as Git works on a pull-request model rather than check-ins.|
@@ -84,8 +84,8 @@ Reference link: **[Build and Release](/vsts/pipelines/index?view=vsts)**
 |Manual testing|Yes||
 |Test Manager (record and playback tests)|Yes|Windows devices and Android emulators only from Visual Studio. Recording for all devices is possible with [Xamarin Test Recorder](/appcenter/test-cloud/uitest/).|
 |Code coverage|n/a||
-|[Unit Test Your Code](../test/unit-test-your-code.md)|Yes|For Windows and Android targets, the built-in MSTest tools can be used. To run unit tests on Windows, Android, and iOS, Xamarin recommends NUnit. See [Use TFVC](/vsts/tfvc/overview?view=vsts).|
-|[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)|Windows only|Visual Studio's UI test recorder is Windows only. For all platforms, see [Xamarin.UITest](/appcenter/test-cloud/uitest/).|
+|[Unit test your code](../test/unit-test-your-code.md)|Yes|For Windows and Android targets, the built-in MSTest tools can be used. To run unit tests on Windows, Android, and iOS, Xamarin recommends NUnit. See [Use TFVC](/vsts/tfvc/overview?view=vsts).|
+|[Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)|Windows only|Visual Studio's UI test recorder is Windows only. For all platforms, see [Xamarin.UITest](/appcenter/test-cloud/uitest/).|
 
 ## Improve code quality
 
@@ -93,15 +93,15 @@ Reference link: **[Improve Code Quality](../test/improve-code-quality.md)**
 
 |Feature|Supported with Xamarin|Additional Comments|
 |-------------|----------------------------|-------------------------|
-|[Analyze Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)|Yes||
-|[Finding Duplicate Code by using Code Clone Detection](http://msdn.microsoft.com/Library/a97cd5a6-5ffa-4104-9627-8e59e513654d)|Yes||
-|[Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)|Yes||
+|[Analyze managed code quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)|Yes||
+|[Find duplicate code by using code clone detection](http://msdn.microsoft.com/Library/a97cd5a6-5ffa-4104-9627-8e59e513654d)|Yes||
+|[Measure complexity and maintainability of managed code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)|Yes||
 |[Performance Explorer](../profiling/performance-explorer.md)|No|Use the [Xamarin Profiler](/xamarin/cross-platform/deploy-test/) through Xamarin Studio instead. Note that the Xamarin Profiler is currently in preview and does not yet work for Windows targets.|
 |[Analyze .NET Framework memory issues](https://msdn.microsoft.com/en-us/library/dn342825.aspx)|No|Visual Studio tools do not have hooks into the Mono framework for profiling.|
 
 ## Release management
 
-Reference link: **[Build and Release in VSTS and TFS](/vsts/pipelines/overview?view=vsts)**
+Reference link: **[Build and release in VSTS and TFS](/vsts/pipelines/overview?view=vsts)**
 
 |Feature|Supported with Xamarin|Additional Comments|
 |-------------|----------------------------|-------------------------|
