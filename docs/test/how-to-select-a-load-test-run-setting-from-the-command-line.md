@@ -12,13 +12,13 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Select a Load Test Run Setting to Use from the Command-Line
+# How to: Select a load test run setting to use from the command line
 
-A load test can contain one or more *run settings*, which are a set of properties that influence the way a load test runs. Run settings are organized by categories in the Properties window. When a load test is run, it uses the run setting that is currently set as active.
+A load test can contain one or more *run settings*, which are a set of properties that influences the way a load test runs. Run settings are organized by categories in the **Properties** window. When a load test is run, it uses the run setting that is currently set as active.
 
- If your load test contains only one run setting, it is always the active node. If your load test contains multiple run settings nodes, you can select the one to use when you run a load test from the command-line. See [How to: Add Additional Run Settings to a Load Test](../test/how-to-add-additional-run-settings-to-a-load-test.md).
+ If your load test contains only one run setting, it is always the active node. If your load test contains multiple run settings nodes, you can select the one to use when you run a load test from the command line. See [How to: Add additional run settings to a load test](../test/how-to-add-additional-run-settings-to-a-load-test.md).
 
-## To change the run setting from the command-line
+## To change the run setting from the command line
 
 1.  If you want to use different run settings from the command line to take advantage of the context parameter strategy, use the following command:
 
@@ -30,7 +30,7 @@ A load test can contain one or more *run settings*, which are a set of propertie
 
 ## See also
 
-- [Configuring Load Test Run Settings](../test/configure-load-test-run-settings.md)
-- [Specifying the Counter Sets and Threshold Rules for Computers in a Load Test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md)
-- [How to: Add Additional Run Settings to a Load Test](../test/how-to-add-additional-run-settings-to-a-load-test.md)
-- [How to: Select the Active Run Setting for a Load Test](../test/how-to-select-the-active-run-setting-for-a-load-test.md)
+- [Configure load test run settings](../test/configure-load-test-run-settings.md)
+- [Specify the counter sets and threshold rules for computers in a load test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md)
+- [How to: Add additional run settings to a load test](../test/how-to-add-additional-run-settings-to-a-load-test.md)
+- [How to: Select the active run setting for a load test](../test/how-to-select-the-active-run-setting-for-a-load-test.md)
