@@ -32,7 +32,7 @@ You can use the **Publish** tool to publish ASP.NET Core apps to Azure App Servi
 
 1. Select **Publish**. The **Create App Service** dialog box appears. Sign in with you Azure account, if necessary, then the default app service settings populate the fields.
 
-    ![Create App Service](../deployment/media/quickstart-publish-settings-app-service-linux-2.png "Create Azure App Service")
+    ![Create App Service](../deployment/media/quickstart-publish-settings-app-service-linux.png "Create Azure App Service")
 
 1. Select **Create**. Visual Studio deploys the app to your Azure App Service, and the web app loads in your browser. The project properties **Publish** pane shows the site URL and other details.
 
