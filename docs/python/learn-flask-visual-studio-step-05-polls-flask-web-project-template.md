@@ -73,35 +73,35 @@ As noted before. much of what's in a project created from the "Polls Flask Web P
 
 The data models for the app are Python classes named Poll and Choice, which are defined in `models/__init__.py`. A Poll represents a question, for which a collection of Choice instances represent the available answers. A Poll also maintains the total number of votes (for any choice) and a method to calculate statistics that are used to generate views:
 
-    ```python
-    class Poll(object):
-        """A poll object for use in the application views and repository."""
-        def __init__(self, key=u'', text=u''):
-            """Initializes the poll."""
-            self.key = key
-            self.text = text
-            self.choices = []
-            self.total_votes = None
+```python
+class Poll(object):
+    """A poll object for use in the application views and repository."""
+    def __init__(self, key=u'', text=u''):
+        """Initializes the poll."""
+        self.key = key
+        self.text = text
+        self.choices = []
+        self.total_votes = None
 
-        def calculate_stats(self):
-            """Calculates some statistics for use in the application views."""
-            total = 0
-            for choice in self.choices:
-                total += choice.votes
-            for choice in self.choices:
-                choice.votes_percentage = choice.votes / float(total) * 100 \
-                    if total > 0 else 0
-            self.total_votes = total
+    def calculate_stats(self):
+        """Calculates some statistics for use in the application views."""
+        total = 0
+        for choice in self.choices:
+            total += choice.votes
+        for choice in self.choices:
+            choice.votes_percentage = choice.votes / float(total) * 100 \
+                if total > 0 else 0
+        self.total_votes = total
 
-    class Choice(object):
-        """A poll choice object for use in the application views and repository."""
-        def __init__(self, key=u'', text=u'', votes=0):
-            """Initializes the poll choice."""
-            self.key = key
-            self.text = text
-            self.votes = votes
-            self.votes_percentage = None
-    ```
+class Choice(object):
+    """A poll choice object for use in the application views and repository."""
+    def __init__(self, key=u'', text=u'', votes=0):
+        """Initializes the poll choice."""
+        self.key = key
+        self.text = text
+        self.votes = votes
+        self.votes_percentage = None
+```
 
 These data models are generic abstractions that allow the app's views to work against different types of backing data stores, which are described in the next step.
 
@@ -184,32 +184,32 @@ The following steps add support for a different data store than the three provid
 
 Initially, any chosen data store contains no polls, so the app's home page shows the message "No polls available" along with the **Create Sample Polls** button. Once you select the button, however, the view changes to display available polls. This switch happens through conditional tags in `templates\index.html` (some blank lines omitted for brevity):
 
-    ```html
-    {% extends "layout.html" %}
-    {% block content %}
-    <h2>{{title}}.</h2>
+```html
+{% extends "layout.html" %}
+{% block content %}
+<h2>{{title}}.</h2>
 
-    {% if polls %}
-    <table class="table table-hover">
-        <tbody>
-            {% for poll in polls %}
-            <tr>
-                <td>
-                    <a href="/poll/{{poll.key}}">{{poll.text}}</a>
-                </td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
-    {% else %}
-    <p>No polls available.</p>
-    <br />
-    <form action="/seed" method="post">
-        <button class="btn btn-primary" type="submit">Create Sample Polls</button>
-    </form>
-    {% endif %}
-    {% endblock %}
-    ```
+{% if polls %}
+<table class="table table-hover">
+    <tbody>
+        {% for poll in polls %}
+        <tr>
+            <td>
+                <a href="/poll/{{poll.key}}">{{poll.text}}</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p>No polls available.</p>
+<br />
+<form action="/seed" method="post">
+    <button class="btn btn-primary" type="submit">Create Sample Polls</button>
+</form>
+{% endif %}
+{% endblock %}
+```
 
 The `polls` variable in the template comes from a call to `repository.get_polls`, which returns nothing until the data store is initialized.
 

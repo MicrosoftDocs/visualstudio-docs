@@ -1,7 +1,7 @@
 ---
 title: Manage Python environments and interpreters
 description: Use the Python Environments window to manage global, virtual, and conda environments, installing Python interpreters and packages, and assigning environments to Visual Studio projects.
-ms.date: 06/29/2018
+ms.date: 07/23/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -113,7 +113,7 @@ If you know you have a Python interpreter on your computer but Visual Studio (an
 >
 > However, if you manually move an interpreter and its environment using the file system, Visual Studio won't know the new location. For more information, see [Moving an interpreter](installing-python-interpreters.md#moving-an-interpreter).
 
-## Fix invalid environments
+## Fix or delete invalid environments
 
 If Visual Studio finds registry entries for an environment, but the path to the interpreter is invalid, then the Python Environments window shows the name with a strikeout font:
 

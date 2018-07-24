@@ -11,7 +11,7 @@ manager: crdun
 ms.workload:
   - "unity"
 ---
-# Application Lifecycle Management (ALM) with Unity Apps
+# Application Lifecycle Management (ALM) with Unity apps
 
 Developing apps for modern platforms involves many more activities than just writing code. These activities, referred to as DevOps (development + operations) span the app's complete lifecycle and include planning and tracking work, designing and implementing code, managing a source code repository, running builds, managing continuous integrations and deployments, testing (including unit tests and UI tests), running various forms of diagnostics in both development and production environments, and monitoring app performance and user behaviors in real time through telemetry and analytics.
 
@@ -35,7 +35,7 @@ General Comment: all planning and tracking features are independent of project t
 
 ## Modeling
 
-Reference link: **[Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)**
+Reference link: **[Analyze and model architecture](../modeling/analyze-and-model-your-architecture.md)**
 
 General Comment: Although these design features are either independent of coding language, or work with .NET languages like C#, they operate on a traditional application paradigm with object hierarchies and class relationships. Designing a game within Unity involves a different paradigm altogether, namely the relationships of graphical objects, sounds, shaders, scripts, and so forth. For this reason, the Visual Studio modeling diagram tools are not particularly relevant to the whole of a Unity project. They could possibly be used to manage relationships within C# scripts, but that is only one part of the whole.
 
@@ -87,18 +87,18 @@ General Comment: Although these design features are either independent of coding
 |Manual testing|Yes||
 |Test Manager (record and playback tests)|Windows devices and Android emulators only||
 |Code coverage|n/a|Not applicable as unit testing happens within Unity and not Visual Studio, see below.|
-|[Unit Test Your Code](../test/unit-test-your-code.md)|Within Unity, but not Visual Studio|Unity provides its own unit test framework as part of [Unity Test Tools](https://www.assetstore.unity3d.com/en/#!/content/13802) (Unity Asset Store). Unit test results are reported within Unity and will not be surfaced within Visual Studio.|
-|[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)|No|Coded UI tests rely on readable controls in the app's UI; Unity apps are graphical in nature and so content isn't readable by the Coded UI test tools.|
+|[Unit test your code](../test/unit-test-your-code.md)|Within Unity, but not Visual Studio|Unity provides its own unit test framework as part of [Unity test tools](https://www.assetstore.unity3d.com/en/#!/content/13802) (Unity Asset Store). Unit test results are reported within Unity and will not be surfaced within Visual Studio.|
+|[Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)|No|Coded UI tests rely on readable controls in the app's UI; Unity apps are graphical in nature and so content isn't readable by the Coded UI test tools.|
 
 ## Improve code quality
 
-Reference link: **[Improve Code Quality](../test/improve-code-quality.md)**
+Reference link: **[Improve code quality](../test/improve-code-quality.md)**
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
-|[Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)|Yes|Can analyze the C# script code within Visual Studio.|
-|[Finding Duplicate Code by using Code Clone Detection](http://msdn.microsoft.com/Library/a97cd5a6-5ffa-4104-9627-8e59e513654d)|Yes|Can analyze the C# script code within Visual Studio.|
-|[Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)|Yes|Can analyze the C# script code within Visual Studio.|
+|[Analyze managed code quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)|Yes|Can analyze the C# script code within Visual Studio.|
+|[Find duplicate code by using code clone detection](http://msdn.microsoft.com/Library/a97cd5a6-5ffa-4104-9627-8e59e513654d)|Yes|Can analyze the C# script code within Visual Studio.|
+|[Measure complexity and maintainability of managed code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)|Yes|Can analyze the C# script code within Visual Studio.|
 |[Performance Explorer](../profiling/performance-explorer.md)|No|Use the [Unity Profiler](http://docs.unity3d.com/Manual/Profiler.html) (Unity website).|
 |[Analyze .NET Framework memory issues](https://msdn.microsoft.com/en-us/library/dn342825.aspx)|No|Visual Studio tools do not have hooks into the Mono framework (as used by Unity) for profiling. Use the [Unity Profiler](http://docs.unity3d.com/Manual/Profiler.html) (Unity documentation).|
 
