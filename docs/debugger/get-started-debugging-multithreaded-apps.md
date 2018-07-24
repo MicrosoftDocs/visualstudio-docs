@@ -106,7 +106,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
     #include <iostream>
     #include <vector>
 
-    using namespace;
+    using namespace std;
 
     int count = 0;
 
