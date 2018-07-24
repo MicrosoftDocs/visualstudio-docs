@@ -11,7 +11,7 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Specify Plot Options for Graphing Counters
+# How to: Specify plot options for graphing counters
 
 The **Plot Options** dialog box enables you to change the color and line style of a plotted counter on a graph. You can also fix the range at a specific value or set the range to be automatically adjusted, based on the sampled data.
 
@@ -19,7 +19,7 @@ The **Plot Options** dialog box enables you to change the color and line style o
 
 ## To specify plotting options for graphs
 
-1.  In the Load Test Analyzer, choose **Graphs** on the load test toolbar.
+1.  In the **Load Test Analyzer**, choose **Graphs** on the **load test** toolbar.
 
      This displays load test results in graphs view.
 
@@ -45,6 +45,5 @@ The **Plot Options** dialog box enables you to change the color and line style o
 
 ## See also
 
-- [Analyze Load Test Results in the Graphs View](../test/analyze-load-test-results-in-the-graphs-view.md)
-- [How to: Create Custom Graphs](../test/how-to-create-custom-graphs-in-load-test-results.md)
-- [Analyze Load Test Results in the Graphs View](../test/analyze-load-test-results-in-the-graphs-view.md)
+- [Analyze load test results in the Graphs view](../test/analyze-load-test-results-in-the-graphs-view.md)
+- [How to: Create custom graphs](../test/how-to-create-custom-graphs-in-load-test-results.md)
