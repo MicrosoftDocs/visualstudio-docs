@@ -73,4 +73,4 @@ With the "Highlight identifier references" option is enabled, you can select any
 
 The color of the highlight is also useful for denoting that something is being assigned or referenced. If something is assigned, it is highlighted in red; if it is referenced, it is highlighted in blue:
 
-![example showing color of higlight](media/source-editor-image7.png)
+![example showing color of highlight](media/source-editor-image7.png)
