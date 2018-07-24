@@ -20,7 +20,7 @@ Keep this in mind when you use the Visual Studio Subscriptions Administration Po
 - **A subscriber’s subscription level will need to be updated** when the subscription is upgraded (after the purchase of a “step-up” license) or renewed at a lower level. 
 - **Do not share subscriptions between subscribers.** You must assign a subscription to anyone who uses all or part of the subscription benefits (software for development and testing, Microsoft Azure, e-learning, etc.). 
 
-## Adminstrator roles
+## Administrator roles
 
 There are two different roles that exist in the new Visual Studio Subscriptions Administration Portal for Volume Licensing customers. These roles are like the Primary/Notices Contact role and the Subscriptions Manager role in the VLSC today. 
 
