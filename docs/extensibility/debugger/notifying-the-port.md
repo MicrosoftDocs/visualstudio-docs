@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Notifying the Port
+# Notify the port
 After launching a program, the port must be notified, as follows:  
   
 1.  When a port receives a new program node, it sends a program creation event back to the debug session. The event carries with it an interface that represents the program.  
@@ -41,7 +41,7 @@ After launching a program, the port must be notified, as follows:
   
  Once the identity of the DE is known, the SDM is ready to attach it to the program.  
   
-## See Also  
- [Launching a Program](../../extensibility/debugger/launching-a-program.md)   
- [Attaching After a Launch](../../extensibility/debugger/attaching-after-a-launch.md)   
- [Debugging Tasks](../../extensibility/debugger/debugging-tasks.md)
+## See also  
+ [Launching a program](../../extensibility/debugger/launching-a-program.md)   
+ [Attaching after a launch](../../extensibility/debugger/attaching-after-a-launch.md)   
+ [Debugging tasks](../../extensibility/debugger/debugging-tasks.md)

@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# CreateNewFolder Element (Visual Studio Templates)
+# CreateNewFolder element (Visual Studio templates)
 Determines whether to check that the target directory where the project is to be created does not exist. If the directory does exist, a fresh directory can be created for the project. This setting is typically overridden by the `NewProjectRequiresNewFolder(VsTemplate)` registry flag (`HKEY_LOCAL_MACHINE/SOFTWARE(/Wow6432Node)/Microsoft/VisualStudio/<version number>/Projects/<project GUID>`) that all common project types use to determine whether to create a new project in a new directory.  
   
  \<VSTemplate>  
@@ -34,22 +34,22 @@ Determines whether to check that the target directory where the project is to be
 ## Type  
  `Boolean`  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements  
  None.  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|Required element.<br /><br /> Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.|  
   
-## Text Value  
+## Text value  
  A text value is required.  
   
  The text must be either `true` or `false`, indicating whether or not a new container folder should be created when a project is created from the template.  
@@ -87,6 +87,6 @@ Determines whether to check that the target directory where the project is to be
 </VSTemplate>  
 ```  
   
-## See Also  
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
+## See also  
+ [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)   
+ [Creating project and item templates](../ide/creating-project-and-item-templates.md)
