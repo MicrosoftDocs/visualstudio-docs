@@ -41,7 +41,7 @@ Also see the following scenario-specific debugging articles:
 
 The basic debugging workflow involves settings breakpoints, stepping through code, inspecting values, and handling exceptions as described in the following sections.
 
-A debugging session starts with the **Debug** > **Start Debugging** command, the **Start** button on the toolbar, or the **F5** key. These actions launch your project's startup file (shown in bold in **Solution Explorer**) with the project's active environment and any command-line arguments or search paths that have been specified in **Project Properties** (see [Project debugging options](#project-debugging-options). **Visual Studio 2017 version 15.6** and later alerts you if you don't have a startup file set; earlier versions may open an output window with the Python interpreter running, or the output window briefly appears and disappears. In any case, right-click the appropriate file and select **Set as Startup File**.
+A debugging session starts with the **Debug** > **Start Debugging** command, the **Start** button on the toolbar, or the **F5** key. These actions launch your project's startup file (shown in bold in **Solution Explorer**) with the project's active environment and any command-line arguments or search paths that have been specified in **Project Properties** (see [Project debugging options](#project-debugging-options)). **Visual Studio 2017 version 15.6** and later alerts you if you don't have a startup file set; earlier versions may open an output window with the Python interpreter running, or the output window briefly appears and disappears. In any case, right-click the appropriate file and select **Set as Startup File**.
 
 > [!Note]
 > The debugger always starts with the active Python environment for the project. To change the environment, make a different one active as described on [Select a Python environment for a project](selecting-a-python-environment-for-a-project.md).
@@ -75,7 +75,7 @@ Once stopped at a breakpoint, you have various ways to step through code or run 
 | **Step Out** | **Shift**+**F11** | Runs code until the end of the current function, then steps to the calling statement.  This command is useful when you don't need to debug the remainder of the current function. |
 | **Run to Cursor** | **Ctrl**+**F10** | Runs code up to the location of the caret in the editor. This command allows you to easily skip over a segment of code that you don't need to debug. |
 | **Set Next Statement** | **Ctrl**+**Shift**+**F10** | Changes the current run point in the code to the location of the  caret. This command allows you to omit a segment of code from being run at all, such as when you know the code is faulty or produces an unwanted side-effect. |
-| **Show Next Statement** | **Alt**+**Num**+***** | Returns you to the next statement to run. This command is helpful if you've been looking around in your code and don't remember where the debugger is stopped. |
+| **Show Next Statement** | **Alt**+**Num**+**\* ** | Returns you to the next statement to run. This command is helpful if you've been looking around in your code and don't remember where the debugger is stopped. |
 
 ### Inspect and modify values
 
