@@ -32,7 +32,7 @@ To help you continously enhance your skillset and keep up with the latest techno
 ## Support
 As a Visual Studio subscriber, you also have access to various types of support in case you have a question or need technical assistance.
 - Paid subscriptions include access to professional technical support incidents to resolve problems with tools and applications running in dev/test environments.
-- Need technical documentation or product information?  Get immediate help from the Conceirge Chat service.
+- Need technical documentation or product information?  Get immediate help from the Concierge Chat service.
 - Get help from community members in the Priority Support forums.  If the community members can't answer your question, Microsoft's experts will provide an answer.
 - Have questions about Azure?  Check out the Azure Community and Azure Advisory Chat services.
 
