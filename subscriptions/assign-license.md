@@ -15,7 +15,7 @@ searchscope: VS Subscription
 
 As a Visual Studio subscriptions administrator, you can use the administrator portal to assign subscriptions to individual users and groups of users.
 
-For groups of users, you can assign subscriptions to them one at a time, or use the **Bulk Add** feature to upload lists of subscribers with their subscription information quickly and easily. 
+For groups of users, you can assign subscriptions to them one at a time, or use the **Bulk Add** feature to quickly and easily upload lists of subscribers and their subscription information.
 
 ## Individual assignments
 
@@ -27,7 +27,7 @@ Here's how to assign a Visual Studio subscription license to a new user so that 
 
    ![Add a single subscriber](media\add-single-subscriber.png)
 
-3. Enter the information into the form fields for the new subscriber. If your organization is using Azure Active Directory, this field acts as a search function to find people in your current directory so you can select the correct user from the search results. After you select that person, their name, sign-in email and notification email will automatically populate. 
+3. Enter the information into the form fields for the new subscriber. If your organization is using Azure Active Directory, this field acts as a search function to find people in your current directory so you can select the correct user from the search results. After you select that person, their name, sign-in email and notification email will automatically populate.
 
    ![Add a new notification email address](media\add-new-subscriber-notification-email.png)
 
@@ -61,8 +61,8 @@ Here's how to assign a Visual Studio subscription license to a new user so that 
 
   ![Download the Excel template to upload multiple subscribers](media\download-template-upload-subscribers.png)
 
-  >![NOTE]
-  > Always download the latest version of this template. If you use an older version, your bulk upload may fail.
+   > ![NOTE]
+   > Always download the latest version of this template. If you use an older version, your bulk upload may fail.
 
 1. In the Excel spreadsheet, fill out the fields with the information for the individuals that you want to assign subscriptions to. (*Reference* is an optional field.) Save the file locally after you're done.
 
