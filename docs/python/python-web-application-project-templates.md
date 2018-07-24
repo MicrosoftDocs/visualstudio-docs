@@ -87,7 +87,7 @@ In the **Debug** group:
 - **Launch URL**: specifies the URL that is opened in your browser. It defaults to `localhost`.
 - **Port Number**: the port to use if none is specified in the URL (Visual Studio selects one automatically by default). This setting allows you to override the default value of the `SERVER_PORT` environment variable, which is used by the templates to configure the port the local debug server listens on.
 
-The properties in the **Run Server Command** and **Debug Server Command** groups (the latter is below what's show in the image) determine how the web server is launched. Because many frameworks require the use of a script outside of the current project, the script can be configured here and the name of the startup module can be passed as a parameter.
+The properties in the **Run Server Command** and **Debug Server Command** groups (the latter is below what's shown in the image) determine how the web server is launched. Because many frameworks require the use of a script outside of the current project, the script can be configured here and the name of the startup module can be passed as a parameter.
 
 - **Command**: can be a Python script (*\*.py* file), a module name (as in, `python.exe -m module_name`), or a single line of code (as in, `python.exe -c "code"`). The value in the drop-down indicates which of these types is intended.
 - **Arguments**: these arguments are passed on the command line following the command.
@@ -115,7 +115,7 @@ The `--reload` option is not recommended when using Visual Studio for debugging.
 
 ### Sample Pyramid configuration
 
-Pyramid apps are currently best created using the `pcreate` command-line tool. Once an app has been created, it can be imported using the [From existing Python code](managing-python-projects-in-visual-studio.md#create-a-project-from-existing-files) template. After doing so, select the **Generic Web Project** customization to configure the options. These settings assume that Pyramid is installed into a virtual environment at `..\env`.
+Pyramid apps are currently best created using the `pcreate` command-line tool. Once an app has been created, it can be imported using the [**From existing Python code**](managing-python-projects-in-visual-studio.md#create-a-project-from-existing-files) template. After doing so, select the **Generic Web Project** customization to configure the options. These settings assume that Pyramid is installed into a virtual environment at `..\env`.
 
 - **Debug** group:
   - **Server Port**: 6543 (or whatever is configured in the *.ini* files)

@@ -44,7 +44,7 @@ The basic debugging workflow involves settings breakpoints, stepping through cod
 A debugging session starts with the **Debug** > **Start Debugging** command, the **Start** button on the toolbar, or the **F5** key. These actions launch your project's startup file (shown in bold in **Solution Explorer**) with the project's active environment and any command-line arguments or search paths that have been specified in **Project Properties** (see [Project debugging options](#project-debugging-options). **Visual Studio 2017 version 15.6** and later alerts you if you don't have a startup file set; earlier versions may open an output window with the Python interpreter running, or the output window briefly appears and disappears. In any case, right-click the appropriate file and select **Set as Startup File**.
 
 > [!Note]
-> The debugger always starts with the active Python environment for the project. To change the environment, make a different one active as described on [Selecting a Python environment for a project](selecting-a-python-environment-for-a-project.md).
+> The debugger always starts with the active Python environment for the project. To change the environment, make a different one active as described on [Select a Python environment for a project](selecting-a-python-environment-for-a-project.md).
 
 ### Breakpoints
 
@@ -57,7 +57,7 @@ Clicking the red dot or right-clicking the line of code and selecting **Breakpoi
 > [!Note]
 > Some breakpoints in Python can be surprising for developers who have worked with other programming languages. In Python, the entire file is executable code, so Python runs the file when it's loaded to process any top-level class or function definitions. If a breakpoint has been set, you may find the debugger breaking part-way through a class declaration. This behavior is correct, even though it's sometimes surprising.
 
-You can customize the conditions under which a breakpoint is triggered, such as breaking only when a variable is set to a certain value or value range. To set conditions, right-click the breakpoint's red dot, select **Condition**, then create expressions using Python code. For full details on this feature in Visual Studio, see [Breakpoint conditions](../debugger/using-breakpoints.md#breakpoint-conditions)
+You can customize the conditions under which a breakpoint is triggered, such as breaking only when a variable is set to a certain value or value range. To set conditions, right-click the breakpoint's red dot, select **Condition**, then create expressions using Python code. For full details on this feature in Visual Studio, see [Breakpoint conditions](../debugger/using-breakpoints.md#breakpoint-conditions).
 
 When setting conditions, you can also set **Action** and create a message to log to the output window, optionally continuing execution automatically. Logging a message creates what is called a *tracepoint* without adding logging code to your application directly:
 
@@ -69,13 +69,13 @@ Once stopped at a breakpoint, you have various ways to step through code or run 
 
 | Feature | Keystroke | Description |
 | --- | --- | --- |
-| Continue | **F5** | Runs code until the next breakpoint is reached. |
-| Step Into | **F11** | Runs the next statement and stops. If the next statement is a call to a function, the debugger stops at the first line of the function being called. |
-| Step Over | **F10** | Runs the next statement, including making a call to a function (running all its code) and applying any return value. Stepping over allows you to easily skip functions that you do not need to debug. |
-| Step Out | **Shift**+**F11** | Runs code until the end of the current function, then steps to the calling statement.  This command is useful when you don't need to debug the remainder of the current function. |
-| Run to Cursor | **Ctrl**+**F10** | Runs code up to the location of the caret in the editor. This command allows you to easily skip over a segment of code that you don't need to debug. |
-| Set Next Statement | **Ctrl**+**Shift**+**F10** | Changes the current run point in the code to the location of the  caret. This command allows you to omit a segment of code from being run at all, such as when you know the code is faulty or produces and unwanted side-effect. |
-| Show Next Statement | **Alt**+**Num** **\*** | Returns you to the next statement to run. This command is helpful if you've been looking around in your code and don't remember where the debugger is stopped. |
+| **Continue** | **F5** | Runs code until the next breakpoint is reached. |
+| **Step Into** | **F11** | Runs the next statement and stops. If the next statement is a call to a function, the debugger stops at the first line of the function being called. |
+| **Step Over** | **F10** | Runs the next statement, including making a call to a function (running all its code) and applying any return value. Stepping over allows you to easily skip functions that you do not need to debug. |
+| **Step Out** | **Shift**+**F11** | Runs code until the end of the current function, then steps to the calling statement.  This command is useful when you don't need to debug the remainder of the current function. |
+| **Run to Cursor** | **Ctrl**+**F10** | Runs code up to the location of the caret in the editor. This command allows you to easily skip over a segment of code that you don't need to debug. |
+| **Set Next Statement** | **Ctrl**+**Shift**+**F10** | Changes the current run point in the code to the location of the  caret. This command allows you to omit a segment of code from being run at all, such as when you know the code is faulty or produces an unwanted side-effect. |
+| **Show Next Statement** | **Alt**+**Num**+***** | Returns you to the next statement to run. This command is helpful if you've been looking around in your code and don't remember where the debugger is stopped. |
 
 ### Inspect and modify values
 
@@ -99,7 +99,7 @@ The **Watch** windows (**Debug** > **Windows** > **Watch** > **Watch 1-4**) allo
 
 ![Watch window in the debugger](media/debugging-watch-window.png)
 
-For more on using **Watch**, see [Set a watch on variables using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md).
+For more on using **Watch**, see [Set a watch on variables using the Watch and QuickWatch windows](../debugger/watch-and-quickwatch-windows.md).
 
 When inspecting a string value(`str`, `unicode`, `bytes`, and `bytearray` are all considered strings for this purpose), a magnifying glass icon appears on the right side of the value. Clicking the icon displays the unquoted string value in a popup dialog, with wrapping and scrolling, which is useful for long strings. In addition, selecting the drop-down arrow on the icon allows you to select plain text, HTML, XML, and JSON visualizations:
 
@@ -135,20 +135,20 @@ By default, the debugger starts your program with the standard Python launcher, 
 
 | Option | Description |
 | --- | --- |
-| Standard Python launcher | Uses debugging code written in portable Python that is compatible with CPython, IronPython, and variants such as Stackless Python. It provides the best experience for debugging pure Python code. When you attach to a running *python.exe* process, this launcher is used. This launcher also provides [mixed-mode debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md) for CPython, allowing you to step seamlessly between C/C++ code and Python code. |
-| Web launcher | Starts your default browser on launch and enables debugging of templates. See the [Web template debugging](python-web-application-project-templates.md#debugging) section for more information. |
-| Django Web launcher | Identical to the Web launcher and shown only for backwards compatibility. |
-| IronPython (.NET) launcher | Uses the .NET debugger, which only works with IronPython but allows for stepping between any .NET language project, including C# and VB. This launcher is used if you attach to a running .NET process that is hosting IronPython. |
+| **Standard Python launcher** | Uses debugging code written in portable Python that is compatible with CPython, IronPython, and variants such as Stackless Python. It provides the best experience for debugging pure Python code. When you attach to a running *python.exe* process, this launcher is used. This launcher also provides [mixed-mode debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md) for CPython, allowing you to step seamlessly between C/C++ code and Python code. |
+| **Web launcher** | Starts your default browser on launch and enables debugging of templates. See the [Web template debugging](python-web-application-project-templates.md#debugging) section for more information. |
+| **Django Web launcher** | Identical to the Web launcher and shown only for backwards compatibility. |
+| **IronPython (.NET) launcher** | Uses the .NET debugger, which only works with IronPython but allows for stepping between any .NET language project, including C# and VB. This launcher is used if you attach to a running .NET process that is hosting IronPython. |
 
 ### Run options (search paths, startup arguments, and environment variables)
 
 | Option | Description |
 | --- | --- |
-| Search Paths | These values match what's shown in the project's Search Paths node in **Solution Explorer**. You can modify this value here, but it's easier to use **Solution Explorer** that lets you browse folders and automatically converts paths to relative form. |
-| Script Arguments | These arguments are added to the command used to launch your script, appearing after your script's filename. The first item here is available to your script as `sys.argv[1]`, the second as `sys.argv[2]`, and so on. |
-| Interpreter Arguments | These arguments are added to the launcher command line before the name of your script. Common arguments here are `-W ...` to control warnings, `-O` to slightly optimize your program, and `-u` to use unbuffered IO. IronPython users are likely to use this field to pass `-X` options, such as `-X:Frames` or `-X:MTA`. |
-| Interpreter Path | Overrides the path associated with the current environment. The value may be useful for launching your script with a non-standard interpreter. |
-| Environment Variables | In this multi-line text box, add entries of the form \<NAME>=\<VALUE>. Because this setting is applied last, on top of any existing global environment variables, and after `PYTHONPATH` is set according to the Search Paths setting, it can be used to manually override any of those other variables. |
+| **Search Paths** | These values match what's shown in the project's Search Paths node in **Solution Explorer**. You can modify this value here, but it's easier to use **Solution Explorer** that lets you browse folders and automatically converts paths to relative form. |
+| **Script Arguments** | These arguments are added to the command used to launch your script, appearing after your script's filename. The first item here is available to your script as `sys.argv[1]`, the second as `sys.argv[2]`, and so on. |
+| **Interpreter Arguments** | These arguments are added to the launcher command line before the name of your script. Common arguments here are `-W ...` to control warnings, `-O` to slightly optimize your program, and `-u` to use unbuffered IO. IronPython users are likely to use this field to pass `-X` options, such as `-X:Frames` or `-X:MTA`. |
+| **Interpreter Path** | Overrides the path associated with the current environment. The value may be useful for launching your script with a non-standard interpreter. |
+| **Environment Variables** | In this multi-line text box, add entries of the form \<NAME>=\<VALUE>. Because this setting is applied last, on top of any existing global environment variables, and after `PYTHONPATH` is set according to the Search Paths setting, it can be used to manually override any of those other variables. |
 
 <a name="the-debug-interactive-window"></a>
 
@@ -203,7 +203,7 @@ The experimental debugger is compatible with only limited Python environments, a
 | 3.5 and later | Yes |
 | IronPython | No |
 
-If you attempt to use the experimental debugger with an incompatible environment, Visual Studio shows the error, "Debugger is incompatible with this environment":
+If you attempt to use the experimental debugger with an incompatible environment, Visual Studio shows the error, **Debugger is incompatible with this environment**:
 
 ![Debugger is incompatible with this environment error when using the experimental debugger](media/debugging-experimental-incompatible-error.png)
 
@@ -212,7 +212,7 @@ Select the **Disable the experimental debugger** command, which clears the **Use
 > [!Note]
 > The warning is not presently shown for Python 3.3 and 3.4.
 
-If you've installed an older version of ptvsd in the current environment (such as an earlier 4.0.x version of a 3.x version required for remote debugging), Visual Studio shows either the error "Debugger package could not be loaded," or the warning, "Debugger package is outdated":
+If you've installed an older version of ptvsd in the current environment (such as an earlier 4.0.x version of a 3.x version required for remote debugging), Visual Studio shows either the error **Debugger package could not be loaded**, or the warning, **Debugger package is outdated**:
 
 ![Debugger package could not be loaded error when using the experimental debugger](media/debugging-experimental-version-error.png)
 
