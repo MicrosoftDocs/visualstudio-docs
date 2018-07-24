@@ -17,45 +17,45 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# CommandPlacements Element
+# CommandPlacements element
 The CommandPlacements element groups CommandPlacement elements and other CommandPlacements groupings.  
   
- The CommandPlacements element is optional. If no commands, groups, or menus must be included in a secondary location, you do not have to include this section in your .vsct file.  
+ The CommandPlacements element is optional. If no commands, groups, or menus must be included in a secondary location, you do not have to include this section in your *.vsct* file.  
   
 ## Syntax  
   
-```  
+```xml  
 <CommandPlacements>  
   <CommandPlacement>... </CommandPlacement>  
   <CommandPlacement>... </CommandPlacement>  
 </CommandPlacements>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|Condition|Optional. See [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
+|Condition|Optional. See [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
   
-### Child Elements  
+### Child elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |CommandPlacements|Groups CommandPlacement elements and other CommandPlacements groupings.|  
-|[CommandPlacement Element](../extensibility/commandplacement-element.md)|Enables buttons, groups, and menus to be included in more than one group or menu.|  
+|[CommandPlacement element](../extensibility/commandplacement-element.md)|Enables buttons, groups, and menus to be included in more than one group or menu.|  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
-|[CommandTable Element](../extensibility/commandtable-element.md)|Defines all the elements that represent commands.|  
+|[CommandTable element](../extensibility/commandtable-element.md)|Defines all the elements that represent commands.|  
   
 ## Example  
   
-```  
+```xml  
 <CommandPlacements>  
   <CommandPlacement guid="guidWidgetPackage" id="cmdidInsertOptions"  
     priority="0x0300">  
@@ -64,6 +64,6 @@ The CommandPlacements element groups CommandPlacement elements and other Command
 </CommandPlacements>  
 ```  
   
-## See Also  
- [CommandPlacement Element](../extensibility/commandplacement-element.md)   
- [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+## See also  
+ [CommandPlacement element](../extensibility/commandplacement-element.md)   
+ [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
