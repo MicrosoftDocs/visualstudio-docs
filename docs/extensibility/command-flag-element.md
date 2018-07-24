@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Command Flag Element
+# Command flag Eelement
 Modifies its parent element.  
   
 ## Syntax  
@@ -24,13 +24,13 @@ Modifies its parent element.
 <CommandFlag>DynamicVisibility</CommandFlag>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following section describes valid element values.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements  
   
 |Value|Description|  
 |-----------|-----------------|  
@@ -69,8 +69,8 @@ Modifies its parent element.
   
 |Element|Description|  
 |-------------|-----------------|  
-|[Buttons Element](../extensibility/buttons-element.md)|Provides a group for [Button Element](../extensibility/button-element.md) elements.|  
-|[Menus Element](../extensibility/menus-element.md)|Defines all the menus that a VSPackage implements.|  
+|[Buttons element](../extensibility/buttons-element.md)|Provides a group for [Button element](../extensibility/button-element.md) elements.|  
+|[Menus element](../extensibility/menus-element.md)|Defines all the menus that a VSPackage implements.|  
   
-## See Also  
- [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+## See also  
+ [Visual Studio command table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

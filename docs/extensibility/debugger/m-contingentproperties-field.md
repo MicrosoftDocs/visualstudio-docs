@@ -14,22 +14,22 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# m_contingentProperties Field
+# m_contingentProperties field
 Stores additional properties of the <xref:System.Threading.Tasks.Task> object.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   
- **Assembly:** mscorlib (in mscorlib.dll)  
+ **Assembly:** mscorlib (in *mscorlib.dll*)  
   
- Because you cannot access this internal member from the .NET Framework, the following syntax is provided in Common Intermediate Language (CIL).  
+ Because you can't access this internal member from the .NET Framework, the following syntax is provided in Common Intermediate Language (CIL).  
   
 ## Syntax  
   
-```  
+```csharp  
 .field assembly class System.Threading.Tasks.Task/ContingentProperties modreq(System.Runtime.CompilerServices.IsVolatile) m_contingentProperties  
 ```  
   
 ## Remarks  
   
-## See Also  
- [Task Class](../../extensibility/debugger/task-class-internal-members.md)
+## See also  
+ [Task class](../../extensibility/debugger/task-class-internal-members.md)

@@ -34,11 +34,11 @@ HRESULT WINAPI WriteContextTLogs(LPCTSTR intermediateDirectory, LPCTSTR tlogRoot
  [in] `tlogRootName`  
  The root name of the log file name.  
   
-## Return Value  
+## Return value  
  An **HRESULT** with the **SUCCEEDED** bit set if the tracking context was created.  
   
 ## Requirements  
- **Header:** FileTracker.h  
+ **Header:** *FileTracker.h*  
   
-## See Also  
+## See also  
  [WriteAllTLogs](../msbuild/writealltlogs.md)

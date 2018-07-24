@@ -15,12 +15,12 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Callback Functions Implemented by the IDE
+# Callback functions implemented by the IDE
 To make integration with the integrated development environment (IDE) as seamless as possible and to provide a unified end-user experience, the source control plug-in can use callback functions that are implemented by the IDE. The plug-in can call these functions at appropriate times during a source control operation to pass information to the IDE; the IDE can then display this information as embedded elements in its native UI. The user has a less fragmented experience in this scenario than if the plug-in employed its own UI.  
   
- The required header file is scc.h. The default location is \Program Files\VSIP 8.0\EnvSDK\common\inc\\. It is also in the VSIP folder that has the source control plug-in sample at \Program Files\VSIP 8.0\MSSCCI\\.  
+ The required header file is *scc.h*. The default location is *\Program Files\VSIP 8.0\EnvSDK\common\inc\\*. It is also in the VSIP folder that has the source control plug-in sample at *\Program Files\VSIP 8.0\MSSCCI\\*.  
   
-## In This Section  
+## In this section  
  [LPTEXTOUTPROC](../extensibility/lptextoutproc.md)  
  Describes the callback function that is used by [SccOpenProject](../extensibility/sccopenproject-function.md) to display messages from the source control plug-in through the IDE.  
   
@@ -36,7 +36,7 @@ To make integration with the integrated development environment (IDE) as seamles
  [OPTNAMECHANGEPFN](../extensibility/optnamechangepfn.md)  
  Describes the callback function set by a call to the [SccSetOption](../extensibility/sccsetoption-function.md) that enables the source control plug-in to communicate name changes back to the IDE.  
   
-## Related Sections  
+## Related sections  
  [SccOpenProject](../extensibility/sccopenproject-function.md)  
  Opens a project.  
   

@@ -16,7 +16,7 @@ ms.workload:
   - "vssdk"
 ---
 # Modules
-In terms of the debugger architecture, a **module**:  
+In terms of the debugger architecture, a *module*:  
   
 -   Is a physical container of code, such as an executable file or a DLL.  
   
@@ -24,6 +24,6 @@ In terms of the debugger architecture, a **module**:
   
 -   Is represented by an [IDebugModule2](../../extensibility/debugger/reference/idebugmodule2.md) interface, created by a debug engine to describe the module.  
   
-## See Also  
- [Debugger Concepts](../../extensibility/debugger/debugger-concepts.md)   
+## See also  
+ [Debugger concepts](../../extensibility/debugger/debugger-concepts.md)   
  [IDebugModule2](../../extensibility/debugger/reference/idebugmodule2.md)
