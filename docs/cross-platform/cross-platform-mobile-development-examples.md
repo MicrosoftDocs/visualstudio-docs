@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "xplat-cplusplus"
 ---
-# Cross-Platform Mobile Development Examples
+# Cross-platform mobile development examples
 Several of the templates installed by Visual C++ for Cross-Platform Mobile Development generate complete examples that you can use to learn from. Additionally, the Windows Dev Center has several example applications that you can download and try out in Visual Studio.  
   
 -   [hello-jni Android Application Sample](https://code.msdn.microsoft.com/hello-jni-Android-790ab73d)  
@@ -46,4 +46,4 @@ Several of the templates installed by Visual C++ for Cross-Platform Mobile Devel
   
  To open one of the examples in Visual Studio, download the zip file and open the **Properties** page of the downloaded file in Explorer. Choose the **Unblock** button then choose **OK**. Extract the contents of the zip file to a convenient location, then open the C++ folder in the extracted sample and open the solution file.  
   
- To build the sample, press F7, or on the menu bar, choose **Build**, **Build Solution**.
+ To build the sample, press **F7**, or on the menu bar, choose **Build**, **Build Solution**.
