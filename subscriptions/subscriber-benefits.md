@@ -21,7 +21,7 @@ Benefits are grouped into three categories:
 The Tools category provides access to a wide variety of benefits, including flagship benefits such as the [Visual Studio IDE](vs-ide-benefit.md), [Visual Studio Team Services](vs-vsts.md), and [Azure](vs-azure.md).  Depending on your subscription level, you'll also see Windows and Office 365 Developer accounts, Visual Studio App Center, and benefits from partners such as WhiteSource Bolt and ModernRequirements.
 
 ## Professional Development
-To help you continously enhance your skillset and keep up with the latest technologies, we provide access to some of the best online training available from industry leaders. Examples of the great content available include:
+To help you continuously enhance your skillset and keep up with the latest technologies, we provide access to some of the best online training available from industry leaders. Examples of the great content available include:
 - Azure App Insights and Azure Cosmos DB by Opsgility
 - Cross-platform Mobile Developer by Xamarin University
 - Microsoft Azure for .Net Developers, and other great content from Pluralsight
