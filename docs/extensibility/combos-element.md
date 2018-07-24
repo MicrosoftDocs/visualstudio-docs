@@ -36,14 +36,14 @@ Groups [Combo element](../extensibility/combo-element.md) elements.
 |---------------|-----------------|  
 |Condition|Optional. See [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
   
-### Child Elements  
+### Child elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |[Combos element](../extensibility/combos-element.md)|Groups Combo elements.|  
 |[Combo element](../extensibility/combo-element.md)|Defines the commands that appear in a combo box.|  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
