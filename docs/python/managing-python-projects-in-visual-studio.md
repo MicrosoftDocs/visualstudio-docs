@@ -62,7 +62,7 @@ The following table summarizes the templates available in Visual Studio 2017 (no
 
 | Template | Description |
 | --- | --- |
-| [**From existing Python code**](#creating-a-project-from-existing-files) | Creates a Visual Studio project from existing Python code in a folder structure.  |
+| [**From existing Python code**](#create-project-from-existing-files) | Creates a Visual Studio project from existing Python code in a folder structure.  |
 | **Python Application** | A basic project structure for a new Python application with a single, empty source file. By default, the project runs in the console interpreter of the default global environment, which you can change by [assigning a different environment](selecting-a-python-environment-for-a-project.md). |
 | [**Azure cloud service**](python-azure-cloud-service-project-template.md) | A project for an Azure cloud service written in Python. |
 | [**Web projects**](python-web-application-project-templates.md) | Projects for web apps based on various frameworks including Bottle, Django, and Flask. |

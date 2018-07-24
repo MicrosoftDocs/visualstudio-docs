@@ -220,7 +220,7 @@ If you've installed an older version of ptvsd in the current environment (such a
 
 To manage your ptvsd installation, use the  **Packages** tab in the **Python Environments** window, or use the following commands from the command line:
 
-```ps
+```powershell
 # Uninstalling ptvsd causes VS to default to its bundled 4.1.x version.
 pip uninstall ptvsd
 
