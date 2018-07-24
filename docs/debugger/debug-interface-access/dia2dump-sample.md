@@ -1,7 +1,7 @@
 ---
 title: "Dia2dump Sample | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "07/24/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs:
@@ -72,4 +72,4 @@ Dia2Dump.exe relies on the msdia*version*.dll COM server to provide its services
 
 ## See also
 
-- [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md)
+- [Port, Migrate, and Upgrade Visual Studio Projects](../../porting/port-migrate-and-upgrade-visual-studio-projects.md)  

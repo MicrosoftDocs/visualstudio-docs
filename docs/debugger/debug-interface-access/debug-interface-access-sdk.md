@@ -1,7 +1,7 @@
 ---
 title: "Debug Interface Access SDK | Microsoft Docs"
 ms.custom: ""
-ms.date: "06/04/2018"
+ms.date: "07/24/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
@@ -23,17 +23,17 @@ The Microsoft Debug Interface Access Software Development Kit (DIA SDK) provides
 
 ## In this section
 
-[Getting Started](../../debugger/debug-interface-access/getting-started-debug-interface-access-sdk.md)<br\>
+[Getting Started](../../debugger/debug-interface-access/getting-started-debug-interface-access-sdk.md)  
 Gives an overview of the DIA SDK features and specifies where the DIA SDK is installed as well as the required header and library files.
 
-[Querying the .Pdb File](../../debugger/debug-interface-access/querying-the-dot-pdb-file.md)<br\>
+[Querying the .Pdb File](../../debugger/debug-interface-access/querying-the-dot-pdb-file.md)  
 Provides instructions on how to use the DIA API to query the .pdb file.
 
-[Symbols and Symbol Tags](../../debugger/debug-interface-access/symbols-and-symbol-tags.md)<br\>
+[Symbols and Symbol Tags](../../debugger/debug-interface-access/symbols-and-symbol-tags.md)  
 Discusses how symbols and symbol tags are used in the DIA API.
 
-[Reference](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)<br\>
+[Reference](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)  
 Contains the interfaces, methods, enumerations, and structures of the DIA API.
 
-[Dia2dump Sample](../../debugger/debug-interface-access/dia2dump-sample.md)<br\>
+[Dia2dump Sample](../../debugger/debug-interface-access/dia2dump-sample.md)  
 Illustrates how to use the DIA API to search for and browse debug information.
