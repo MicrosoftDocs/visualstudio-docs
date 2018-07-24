@@ -1,6 +1,11 @@
 {
     "redirections": [
         {
+            "source_path": "docs/debugger/debug-interface-access/dia2dump-cpp-source-file.md",
+            "redirect_url": "/visualstudio/debugger/debug-interface-access/dia2dump-sample",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/extensibility/shell/shell-isolated-or-integrated.md",
             "redirect_url": "https://vspartner.com/pages/vsshells",
             "redirect_document_id": false
