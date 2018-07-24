@@ -55,10 +55,10 @@ In Visual Studio, projects are the containers that developers use to organize so
 ## Prerequisites  
  Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
   
- You must also download the source code for the [Managed package framework for projects](http://mpfproj12.codeplex.com/). Extract the file to a location that is accessible to the solution you are going to create.  
+ You must also download the source code for the [Managed Package Framework for projects](http://mpfproj12.codeplex.com/). Extract the file to a location that is accessible to the solution you are going to create.  
   
 ## Create a basic project type  
- Create a C# VSIX project named **SimpleProject**. (**File** > **New** > **Project** and then **Visual C#** > **Extensibility** > **VSIX Project**). Add a Visual Studio Package project item template (on the **Solution Explorer**, right-click the project node and select **Add** > **New Item**, then go to **Extensibility** > **Visual Studio Package**). Name the file **SimpleProjectPackage**.  
+ Create a C# VSIX project named **SimpleProject**. (**File** > **New** > **Project** and then **Visual C#** > **Extensibility** > **VSIX Project**). Add a Visual Studio Package project item template (on the **Solution Explorer**, right-click the project node and select **Add** > **New Item**, then go to **Extensibility** > **Visual Studio Package**). Name the file *SimpleProjectPackage*.  
   
 ## Creating a basic project template  
  Now, you can modify this basic VSPackage to implement the new *.myproj* project type. To create a project that is based on the *.myproj* project type, Visual Studio has to know which files, resources, and references to add to the new project. To provide this information, put project files in a project template folder. When a user uses the *.myproj* project to create a project, the files are copied to the new project.  
@@ -241,7 +241,7 @@ Templates
   
     1.  Unload the SimpleProject project (in **Solution Explorer**, select the project node and on the context menu click **Unload Project**.) and open the project file in the XML editor.  
   
-    2.  Add the following blocks to the project file (just above the \<Import> blocks). Set ProjectBasePath to the location of the *ProjectBase.files* file in the Managed Package Framework code you just downloaded. You might have to add a backslash to the pathname. If you do not, the project might fail to find the Managed Package Framework code.  
+    2.  Add the following blocks to the project file (just above the \<Import> blocks). Set `ProjectBasePath` to the location of the *ProjectBase.files* file in the Managed Package Framework code you just downloaded. You might have to add a backslash to the pathname. If you do not, the project might fail to find the Managed Package Framework source code.  
   
         ```  
         <PropertyGroup>  
@@ -346,7 +346,7 @@ Templates
   
 4.  Clear the breakpoint and stop debugging. Since we have not created a project node yet, the project creation code still throws exceptions.  
   
-## Extend the project node class  
+## Extend the ProjectNode class  
  Now you can implement the `SimpleProjectNode` class, which derives from the `ProjectNode` class. The `ProjectNode` base class handles the following tasks of project creation:  
   
 -   Copies the project template file, *SimpleProject.myproj*, to the new project folder. The copy is renamed according to the name that is entered in the **New Project** dialog box. The `ProjectGuid` property value is replaced by a new GUID.  
@@ -359,7 +359,7 @@ Templates
   
 -   Enables additional project template parameter substitutions to be specified.  
   
-### To extend the project node class  
+### To extend the ProjectNode class  
   
 1.  Add a class named `SimpleProjectNode.cs`.  
   
@@ -433,10 +433,10 @@ Templates
   
 3.  Rebuild the solution and verify that it builds without errors.  
   
-## Test the project node class  
+## Test the ProjectNode class  
  Test your project factory to see whether it creates a project hierarchy.  
   
-### To test the project node class  
+### To test the ProjectNode class  
   
 1.  Press **F5** to start debugging. In the experimental instance, create a new SimpleProject.  
   
@@ -517,7 +517,7 @@ Templates
   
 -   *SimpleProject.Resources.SimpleProjectNode.bmp*  
   
- During instance construction, the `ProjectNode` base class loads *Resources.imagelis.bmp*, in which are embedded commonly used 16 x 16 bitmaps from *Resources\imagelis.bmp*. This bitmap list is made available to `SimpleProjectNode` as *ImageHandler.ImageList*. `SimpleProjectNode` appends the project node bitmap to the list. The offset of the project node bitmap in the image list is cached for later use as the value of the public `ImageIndex` property. Visual Studio uses this property to determine which bitmap to display as the project node icon.  
+ During instance construction, the `ProjectNode` base class loads *Resources.imagelis.bmp*, in which are embedded commonly used 16 x 16 bitmaps from *Resources\imagelis.bmp*. This bitmap list is made available to `SimpleProjectNode` as `ImageHandler.ImageList`. `SimpleProjectNode` appends the project node bitmap to the list. The offset of the project node bitmap in the image list is cached for later use as the value of the public `ImageIndex` property. Visual Studio uses this property to determine which bitmap to display as the project node icon.  
   
 ## Test the custom project node icon  
  Test your project factory to see whether it creates a project hierarchy that has your custom project node icon.  
@@ -598,7 +598,7 @@ Templates
   
 3.  Examine the values for the `nameSpace` and `className` parameters.  
   
-    -   `nameSpace` is given the value of the \<RootNamespace> element in the *\Templates\Projects\SimpleProject\SimpleProject.myproj* project template file. In this case, the value is`MyRootNamespace`.  
+    -   `nameSpace` is given the value of the \<RootNamespace> element in the *\Templates\Projects\SimpleProject\SimpleProject.myproj* project template file. In this case, the value is `MyRootNamespace`.  
   
     -   `className` is given the value of the class source file name, without the file name extension. In this case, the first file to be copied to the destination folder is *AssemblyInfo.cs*; therefore, the value of className is `AssemblyInfo`.  
   

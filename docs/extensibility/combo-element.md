@@ -20,7 +20,7 @@ Defines commands that appear in a combo box. There are four kinds of combo boxes
   
 ## Syntax  
   
-``` 
+```xml 
 <combo guid="guidMyCommandSet" id="MyCommand" defaultWidth="20" idCommandList="MyCommandListID" priority="0x102" type="DropDownCombo">  
   <Parent>... </Parent  
   <CommandFlag>... </CommandFlag>  
@@ -60,7 +60,7 @@ Defines commands that appear in a combo box. There are four kinds of combo boxes
   
 ## Example  
   
-```  
+```xml  
 <Combo guid="guidWidgetPackage" id="cmdidInsertOptions"  
   defaultWidth="100" idCommandList="cmdidGetInsertOptionsList">  
   <CommandFlag>DynamicVisibility</CommandFlag>  

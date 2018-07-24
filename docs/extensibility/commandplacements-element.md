@@ -24,7 +24,7 @@ The CommandPlacements element groups CommandPlacement elements and other Command
   
 ## Syntax  
   
-```  
+```xml  
 <CommandPlacements>  
   <CommandPlacement>... </CommandPlacement>  
   <CommandPlacement>... </CommandPlacement>  
@@ -38,24 +38,24 @@ The CommandPlacements element groups CommandPlacement elements and other Command
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|Condition|Optional. See [Conditional Aattributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
+|Condition|Optional. See [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
   
 ### Child elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |CommandPlacements|Groups CommandPlacement elements and other CommandPlacements groupings.|  
-|[CommandPlacement Element](../extensibility/commandplacement-element.md)|Enables buttons, groups, and menus to be included in more than one group or menu.|  
+|[CommandPlacement element](../extensibility/commandplacement-element.md)|Enables buttons, groups, and menus to be included in more than one group or menu.|  
   
-### Parent Eelements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
-|[CommandTable Eelement](../extensibility/commandtable-element.md)|Defines all the elements that represent commands.|  
+|[CommandTable element](../extensibility/commandtable-element.md)|Defines all the elements that represent commands.|  
   
 ## Example  
   
-```  
+```xml  
 <CommandPlacements>  
   <CommandPlacement guid="guidWidgetPackage" id="cmdidInsertOptions"  
     priority="0x0300">  
