@@ -134,7 +134,18 @@ You may also need to add a [search path](search-paths.md) to the folder containi
 
 When working with IronPython, you can add references to .NET assemblies to enable IntelliSense. For .NET projects in your solution, right-click the **References** node in your Python project, select **Add Reference**, select the **Projects** tab, and browse to the desired project. For DLLs that you've downloaded separately, select the **Browse** tab instead and browse to the desired DLL.
 
-Because references in IronPython are not available until a call to `clr.AddReference('AssemblyName')` is made, you also need to add a `clr.AddReference` call to the assembly.
+Because references in IronPython are not available until a call to `clr.AddReference('<AssemblyName>')` is made, you also need to add an appropriate `clr.AddReference` call to the assembly, typically at the beginning of your code. For example, the code created by the **IronPython Windows Forms Application** project template in Visual Studio includes two calls at the top of the file:
+
+```python
+import clr
+clr.AddReference('System.Drawing')
+clr.AddReference('System.Windows.Forms')
+
+from System.Drawing import *
+from System.Windows.Forms import *
+
+# Other code omitted
+```
 
 ### WebPI projects
 

@@ -161,63 +161,63 @@ To enable Jade, the project template first includes the pyjade package in `requi
 
 The app's `__init__.py` file contains a line to
 
-    ```python
-    app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
-    ```
+```python
+app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
+```
 In the `templates` folder, you see `.jade` files instead of `.html` templates, and the views in `views.py` refer to these files in their calls to `flask.render_template`. Otherwise the views code is the same.
 
 Opening one of the `.jade` files, you can see the more succinct expression of a template. For example, here's the contents of `templates/layout.jade` as created by the "Flask/Jade Web Project" template:
 
-    ```jade
-    doctype html
-    html
-      head
-        meta(charset='utf-8')
-        meta(name='viewport', content='width=device-width, initial-scale=1.0')
-        title #{title} - My Flask/Jade Application
-        link(rel='stylesheet', type='text/css', href='/static/content/bootstrap.min.css')
-        link(rel='stylesheet', type='text/css', href='/static/content/site.css')
-        script(src='/static/scripts/modernizr-2.6.2.js')
-      body
-        .navbar.navbar-inverse.navbar-fixed-top
-          .container
-            .navbar-header
-              button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
-                span.icon-bar
-                span.icon-bar
-                span.icon-bar
-              a.navbar-brand(href='/') Application name
-            .navbar-collapse.collapse
-              ul.nav.navbar-nav
-                li
-                  a(href='/') Home
-                li
-                  a(href='/about') About
-                li
-                  a(href='/contact') Contact
-        .container.body-content
-          block content
-          hr
-          footer
-            p &copy; #{year} - My Flask/Jade Application
+```jade
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title #{title} - My Flask/Jade Application
+    link(rel='stylesheet', type='text/css', href='/static/content/bootstrap.min.css')
+    link(rel='stylesheet', type='text/css', href='/static/content/site.css')
+    script(src='/static/scripts/modernizr-2.6.2.js')
+  body
+    .navbar.navbar-inverse.navbar-fixed-top
+      .container
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='/') Application name
+        .navbar-collapse.collapse
+          ul.nav.navbar-nav
+            li
+              a(href='/') Home
+            li
+              a(href='/about') About
+            li
+              a(href='/contact') Contact
+    .container.body-content
+      block content
+      hr
+      footer
+        p &copy; #{year} - My Flask/Jade Application
 
-        script(src='/static/scripts/jquery-1.10.2.js')
-        script(src='/static/scripts/bootstrap.js')
-        script(src='/static/scripts/respond.js')
+    script(src='/static/scripts/jquery-1.10.2.js')
+    script(src='/static/scripts/bootstrap.js')
+    script(src='/static/scripts/respond.js')
 
-        block scripts
-    ```
+    block scripts
+```
 
 And here's the contents of `templates/about.jade`, showing the use of `#{ <name>}` for placeholders:
 
-    ```jade
-    extends layout
+```jade
+extends layout
 
-    block content
-      h2 #{title}.
-      h3 #{message}
-      p Use this area to provide additional information.
-    ```
+block content
+  h2 #{title}.
+  h3 #{message}
+  p Use this area to provide additional information.
+```
 
 Feel free to experiment with both Jinja and Jade syntaxes to see which one works best for you.
 

@@ -42,7 +42,7 @@ ms.workload:
 Visual Studio provides tools for working with Windows Communication Foundation (WCF) and [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)], Microsoft technologies for creating distributed applications. This topic provides an introduction to services from a Visual Studio perspective. For the full documentation, see [WCF Data Services 4.5](/dotnet/framework/data/wcf/index).
 
 ## What Is WCF?
- [!INCLUDE[vsindigo](../data-tools/includes/vsindigo_md.md)] is a unified framework for creating secure, reliable, transacted, and interoperable distributed applications. It replaces older interprocess communication technologies such as ASMX Web services, .NET Remoting, Enterprise Services (DCOM), and MSMQ. WCF brings together the functionality of all those technologies under a unified programming model. This simplifies the experience of developing distributed applications.
+ [!INCLUDE[vsindigo](../data-tools/includes/vsindigo_md.md)] is a unified framework for creating secure, reliable, transacted, and interoperable distributed applications. It replaces older interprocess communication technologies such as ASMX web services, .NET Remoting, Enterprise Services (DCOM), and MSMQ. WCF brings together the functionality of all those technologies under a unified programming model. This simplifies the experience of developing distributed applications.
 
 ### What are WCF Data Services
  [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] is an implementation of the Open Data (OData) Protocol standard.  WCF Data Services lets you expose tabular data as a set of REST APIs, allowing you to return data using standard HTTP verbs such as GET, POST, PUT, or DELETE. On the server side, WCF Data Services are being superseded by [ASP.NET Web API](http://www.asp.net/web-api) for creating new OData services. The WCF Data Services client library continues to be a good choice for consuming OData services in a .NET application from Visual Studio (**Project &#124; Add Service Reference**). For more information, see [WCF Data Services 4.5](http://go.microsoft.com/fwlink/?LinkID=119952).
@@ -84,7 +84,7 @@ Visual Studio provides tools for working with Windows Communication Foundation (
  You can use the WCF Visual Studio templates as a foundation to quickly create your own service. You can then use WCF Service Auto Host and WCF Test Client to debug and test the service. These tools together provide a fast and convenient debug and testing cycle, and eliminate the requirement to commit to a hosting model at an early stage.
 
 #### WCF Templates
- WCF Visual Studio templates provide a basic class structure for service development. Several WCF templates are available in the **Add New Project** dialog box. These include WCF Service Library projects, WCF Service Web Sites, and WCF Service Item templates.
+ WCF Visual Studio templates provide a basic class structure for service development. Several WCF templates are available in the **Add New Project** dialog box. These include WCF service lLibrary projects, WCF service websites, and WCF Service item templates.
 
  When you select a template, files are added for a service contract, a service implementation, and a service configuration. All necessary attributes are already added, creating a simple "Hello World" type of service, and you did not have to write any code. You will, of course, want to add code to provide functions and methods for your real world service, but the templates provide the basic foundation.
 

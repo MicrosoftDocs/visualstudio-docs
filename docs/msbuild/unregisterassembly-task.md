@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# UnregisterAssembly Task
+# UnregisterAssembly task
 Unregisters the specified assemblies for COM interop purposes. Performs the reverse of the [RegisterAssembly task](../msbuild/registerassembly-task.md).  
   
 ## Parameters  
@@ -56,7 +56,7 @@ Unregisters the specified assemblies for COM interop purposes. Performs the reve
 </Project>  
 ```  
   
-## See Also  
- [RegisterAssembly Task](../msbuild/registerassembly-task.md)   
+## See also  
+ [RegisterAssembly task](../msbuild/registerassembly-task.md)   
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)

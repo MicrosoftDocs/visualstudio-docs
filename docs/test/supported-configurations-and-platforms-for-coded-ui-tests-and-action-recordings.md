@@ -55,11 +55,11 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
 |Windows Forms 2.0 and later|Fully supported. **Note:**  NetFx controls are fully supported, but not all third-party controls are supported.|
 |WPF 3.5 and later|Fully supported.<br /><br /> **Note** NetFx controls are fully supported, but not all third-party controls are supported.|
 |Windows Win32|May work with some known issues, but not officially supported.|
-|MFC|Partially supported. See the following [Microsoft Web site](http://go.microsoft.com/fwlink/?LinkId=206511) for details of what features are supported.|
+|MFC|Partially supported. See the [UITest framework](https://blogs.msdn.microsoft.com/vstsqualitytools/2010/04/15/uitest-framework-mfc-support-in-vs-2010/) for details of what features are supported.|
 |SharePoint|Fully supported.|
 |Office Client Applications|Not supported.|
 |Dynamics CRM web client|Fully supported.|
-|Dynamics (Ax) 2012 client|Action recording and playback are partially supported. See the following [Microsoft Web site](http://go.microsoft.com/fwlink/?LinkId=232677) for details.|
+|Dynamics (Ax) 2012 client|Action recording and playback are partially supported. See [Visual Studio 10 Coded UI / Action Recordings support for Microsoft Dynamics](https://blogs.msdn.microsoft.com/dave_froslie/2011/09/01/visual-studio-10-coded-ui-action-recordings-support-for-microsoft-dynamics-ax-2012/) for details.|
 |SAP|Not supported.|
 |Citrix/Terminal Services|We don't recommend recording actions on a terminal server. The recorder doesn't support running multiple instances at the same time.|
 |PowerBuilder|Partially supported.<br /><br /> The support is to the extent accessibility is enabled for PowerBuilder controls.|

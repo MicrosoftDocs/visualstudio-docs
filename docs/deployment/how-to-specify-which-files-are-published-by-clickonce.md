@@ -20,7 +20,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Specify Which Files Are Published by ClickOnce
+# How to: Specify which files are published by ClickOnce
 When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, all non-code files in the project are deployed along with the application. In some cases, you may not want or need to publish certain files, or you may want to install certain files based on conditions. Visual Studio provides the capabilities to exclude files, mark files as data files or prerequisites, and create groups of files for conditional installation.  
   
  Files for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application are managed in the **Application Files** dialog box, accessible from the **Publish** page of the **Project Designer**.  
@@ -31,11 +31,11 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
   
  Files with the **Build Action** property set to **Content** are designated as application files and will be marked as included by default. They can be included, excluded, or marked as data files. The exceptions are as follows:  
   
--   Data files such as SQL Database (.mdf and .mdb) files and XML files will be marked as data files by default.  
+-   Data files such as SQL Database (*.mdf* and *.mdb*) files and XML files will be marked as data files by default.  
   
--   References to assemblies (.dll files) are designated as follows when you add the reference: If **Copy Local** is **False**, it is marked by default as a prerequisite assembly (**Prerequisite (Auto)**) that must be present in the GAC before the application is installed. If **Copy Local** is **True**, the assembly is marked by default as an application assembly (**Include (Auto)**) and will be copied into the application folder at installation. A COM reference will appear in the **Application Files** dialog box (as an .ocx file) only if its **Isolated** property is set to **True**. By default, it will be included.  
+-   References to assemblies (*.dll* files) are designated as follows when you add the reference: If **Copy Local** is **False**, it is marked by default as a prerequisite assembly (**Prerequisite (Auto)**) that must be present in the GAC before the application is installed. If **Copy Local** is **True**, the assembly is marked by default as an application assembly (**Include (Auto)**) and will be copied into the application folder at installation. A COM reference will appear in the **Application Files** dialog box (as an *.ocx* file) only if its **Isolated** property is set to **True**. By default, it will be included.  
   
-### To add files to the Application Files Dialog Box  
+### To add files to the Application Files dialog box  
   
 1.  Select a data file in **Solution Explorer**.  
   
@@ -73,7 +73,7 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
   
 3.  Click the **Application Files** button to open the **Application Files** dialog box.  
   
-4.  In the **Application Files** dialog box, select the application assembly (.dll file) that you wish to mark as a prerequisite. Note that your application must have a reference to the application assembly in order for it to appear in the list.  
+4.  In the **Application Files** dialog box, select the application assembly (*.dll* file) that you wish to mark as a prerequisite. Note that your application must have a reference to the application assembly in order for it to appear in the list.  
   
 5.  In the **Publish Status** field, select **Prerequisite** from the drop-down list.  
   
@@ -109,6 +109,6 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
     > [!NOTE]
     >  You cannot change the **Download Group** for files that are required for the application to run.  
   
-## See Also  
- [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
- [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
+## See also  
+ [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)   
+ [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

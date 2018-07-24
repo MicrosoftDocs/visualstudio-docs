@@ -8,7 +8,8 @@
 - name: Quickstarts
   items:
   - name: Create a web app with Flask
-    href: ../ide/quickstart-python.md?context=visualstudio/python/default
+    href: ../ide/quickstart-python.md
+    maintainContext: true
   - name: Create a project from a template
     href: quickstart-02-python-in-visual-studio-project-from-template.md
   - name: Create a project from existing code

@@ -16,8 +16,8 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Adding a Most Recently Used List to a Submenu
-This walkthrough builds on the demonstrations in [Adding a Submenu to a Menu](../extensibility/adding-a-submenu-to-a-menu.md), and shows how to add a dynamic list to a submenu. The dynamic list forms the basis for creating a Most Recently Used (MRU) list.  
+# Add a most recently used list to a submenu
+This walkthrough builds on the demonstrations in [Add a submenu to a menu](../extensibility/adding-a-submenu-to-a-menu.md), and shows how to add a dynamic list to a submenu. The dynamic list forms the basis for creating a Most Recently Used (MRU) list.  
   
  A dynamic menu list starts with a placeholder on a menu. Every time the menu is shown, the Visual Studio integrated development environment (IDE) asks the VSPackage for all commands that should be shown at the placeholder. A dynamic list can occur anywhere on a menu. However, dynamic lists are typically stored and displayed by themselves on submenus or at the bottoms of menus. By using these design patterns, you enable the dynamic list of commands to expand and contract without affecting the position of other commands on the menu. In this walkthrough, the dynamic MRU list is displayed at the bottom of an existing submenu, separated from the rest of the submenu by a line.  
   
@@ -25,20 +25,20 @@ This walkthrough builds on the demonstrations in [Adding a Submenu to a Menu](..
   
  This walkthrough creates an MRU list of four items that change their order every time that one of them is selected (the selected item moves to the top of the list).  
   
- For more information about menus and .vsct files, see [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md).  
+ For more information about menus and *.vsct* files, see [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md).  
   
 ## Prerequisites  
  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
-## Creating an Extension  
+## Create an extension  
   
--   Follow the procedures in [Adding a Submenu to a Menu](../extensibility/adding-a-submenu-to-a-menu.md) to create the submenu that is modified in the following procedures.  
+-   Follow the procedures in [Adding a submenu to a menu](../extensibility/adding-a-submenu-to-a-menu.md) to create the submenu that is modified in the following procedures.  
   
- The procedures in this walkthrough assume that the name of the VSPackage is `TopLevelMenu`, which is the name that is used in [Adding a Menu to the Visual Studio Menu Bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md).  
+ The procedures in this walkthrough assume that the name of the VSPackage is `TopLevelMenu`, which is the name that is used in [Add a menu to the Visual Studio menu bar](../extensibility/adding-a-menu-to-the-visual-studio-menu-bar.md).  
   
-## Creating a Dynamic Item List Command  
+## Create a dynamic item list command  
   
-1.  Open TestCommandPackage.vsct.  
+1.  Open *TestCommandPackage.vsct*.  
   
 2.  In the `Symbols` section, in the `GuidSymbol` node named guidTestCommandPackageCmdSet, add the symbol for the `MRUListGroup` group and the `cmdidMRUList` command, as follows.  
   
@@ -79,14 +79,14 @@ This walkthrough builds on the demonstrations in [Adding a Submenu to a Menu](..
   
 ## Filling the MRU List  
   
-1.  In TestCommandPackageGuids.cs, add the following lines after the existing command IDs in the `TestCommandPackageGuids` class definition.  
+1.  In *TestCommandPackageGuids.cs*, add the following lines after the existing command IDs in the `TestCommandPackageGuids` class definition.  
   
     ```csharp  
     public const string guidTestCommandPackageCmdSet = "00000000-0000-0000-0000-00000000"; // get the GUID from the .vsct file  
     public const uint cmdidMRUList = 0x200;  
     ```  
   
-2.  In TestCommand.cs add the following using statement.  
+2.  In *TestCommand.cs* add the following using statement.  
   
     ```csharp  
     using System.Collections;  
@@ -185,20 +185,18 @@ This walkthrough builds on the demonstrations in [Adding a Submenu to a Menu](..
   
     ```  
   
-## Testing the MRU List  
+## Testing the MRU list  
   
-#### To test the MRU menu list  
-  
-1.  Build the project and start debugging  
+1.  Build the project and start debugging.
   
 2.  On the **TestMenu** menu, click **Invoke TestCommand**. Doing this displays a message box that indicates that the command was selected.  
   
     > [!NOTE]
     >  This step is required to force the VSPackage to load and correctly display the MRU list. If you skip this step, the MRU list is not displayed.  
   
-3.  On the **Test Menu** menu, click **Sub Menu**. A list of four items is displayed at the end of the submenu, below a separator. When you click **Item 3**, a message box should appear and display the text, "Selected Item 3". (If the list of four items is not displayed, ensure that you have followed the instructions in the earlier step.)  
+3.  On the **Test Menu** menu, click **Sub Menu**. A list of four items is displayed at the end of the submenu, below a separator. When you click **Item 3**, a message box should appear and display the text, **Selected Item 3**. (If the list of four items is not displayed, ensure that you have followed the instructions in the earlier step.)  
   
-4.  Open the submenu again. Notice that **Item 3** is now at the top of the list and the other items have been pushed down one position. Click **Item 3** again and notice that the message box still displays "Selected Item 3", which indicates that the text has correctly moved to the new position together with the command label.  
+4.  Open the submenu again. Notice that **Item 3** is now at the top of the list and the other items have been pushed down one position. Click **Item 3** again and notice that the message box still displays **Selected Item 3**, which indicates that the text has correctly moved to the new position together with the command label.  
   
-## See Also  
- [Dynamically Adding Menu Items](../extensibility/dynamically-adding-menu-items.md)
+## See also  
+ [Dynamically adding menu items](../extensibility/dynamically-adding-menu-items.md)

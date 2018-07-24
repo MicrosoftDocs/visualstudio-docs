@@ -20,7 +20,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Debugging ClickOnce Applications That Use System.Deployment.Application
+# Debug ClickOnce applications that use System.Deployment.Application
 In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment allows you to configure how an application is updated. However, if you need to use and customize advanced [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment features, you will need to access the deployment object model provided by <xref:System.Deployment.Application>. You can use the <xref:System.Deployment.Application> APIs for advanced tasks such as:  
   
 -   Creating an "Update Now" option in your application  
@@ -43,13 +43,13 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
   
 4.  Add the archived source location to the properties for this new solution. In **Solution Explorer**, right-click the solution node, then click **Properties**. In the **Property Pages** dialog box, select **Debug Source Files**, then add the directory of the archived source code. Otherwise, the debugger will find the out-of-date source files, since the source file paths are recorded in the .pdb file. If the debugger uses out-of-date source files, you see a message telling you that the source does not match.  
   
-5.  Make sure the debugger can find the .pdb files. If you have deployed them with your application, the debugger finds them automatically. It always looks next to the assembly in question first. Otherwise, you will need to add the archive path to the **Symbol file (.pdb) locations** (to access this option, from the **Tools** menu, click **Options**, then open the **Debugging** node, and click **Symbols**).  
+5.  Make sure the debugger can find the *.pdb* files. If you have deployed them with your application, the debugger finds them automatically. It always looks next to the assembly in question first. Otherwise, you will need to add the archive path to the **Symbol file (.pdb) locations** (to access this option, from the **Tools** menu, click **Options**, then open the **Debugging** node, and click **Symbols**).  
   
 6.  Debug what happens between the `CheckForUpdate` and `Download`/`Update` method calls.  
   
      For example, the update code might be as follows:  
   
-    ```  
+    ```vb
         Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click  
             If My.Application.Deployment.IsNetworkDeployed Then  
   
@@ -72,5 +72,5 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
   
  Use the <xref:System.Deployment.Application.ApplicationDeployment.IsNetworkDeployed%2A> property to invoke the <xref:System.Deployment.Application> APIs only when the application is deployed; the APIs should not be invoked during debugging in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
-## See Also  
+## See also  
  <xref:System.Deployment.Application>

@@ -25,7 +25,7 @@ If a computer that has the test controller or the test agent software installed 
 >
 > This error can be caused by installing the test controller on a computer that has more than one network adapter. It is also possible to install agents successfully, and not see this problem until you try to run a test.
 
-## Binding a Test Controller to a Specific Network Adapter
+## Bind a test controller to a specific network adapter
 
 ### To obtain the IP addresses of the network adapters
 
@@ -35,7 +35,7 @@ If a computer that has the test controller or the test agent software installed 
 
      The IP addresses for your network adapters are displayed. Record the IP address of the network adapter that you want to bind your controller to.
 
-### To Bind a Network Adapter to a Test Controller
+### To bind a network adapter to a test controller
 
 1.  From Microsoft Windows, choose **Start**, choose in the **Start Search** box, type **services.msc**, and then choose **Enter**.
 
@@ -81,7 +81,7 @@ If a computer that has the test controller or the test agent software installed 
 
      This applies to the controller, the agent service, and the agent process. The `BindTo` property must be set for each process that is running on a computer that has more than one network adapter. The procedure to set the `BindTo` property is the same for all three processes, as specified earlier in this topic for the test controller.
 
-### To Bind a Network Interface Card to a Test Agent
+### To bind a network interface card to a test agent
 
 1.  From Microsoft Windows, choose **Start**, choose in the **Start Search** box, type **services.msc**, and then choose **Enter**.
 
@@ -125,7 +125,7 @@ If a computer that has the test controller or the test agent software installed 
 ## See also
 
 - [Install and configure test agents](../test/lab-management/install-configure-test-agents.md)
-- [Modifying Load Test Logging Settings](../test/modify-load-test-logging-settings.md)
-- [Configuring Ports for Test Controllers and Test Agents](../test/configure-ports-for-test-controllers-and-test-agents.md)
-- [How to: Specify the Maximum Size for the Log File](../test/how-to-specify-the-maximum-size-for-the-log-file.md)
-- [How to: Specify Timeout Periods for Test Controllers and Test Agents](../test/how-to-specify-timeout-periods-for-test-controllers-and-test-agents.md)
+- [Modify load test logging settings](../test/modify-load-test-logging-settings.md)
+- [Configure ports for test controllers and test agents](../test/configure-ports-for-test-controllers-and-test-agents.md)
+- [How to: Specify the maximum size for the log file](../test/how-to-specify-the-maximum-size-for-the-log-file.md)
+- [How to: Specify timeout periods for test controllers and test agents](../test/how-to-specify-timeout-periods-for-test-controllers-and-test-agents.md)
