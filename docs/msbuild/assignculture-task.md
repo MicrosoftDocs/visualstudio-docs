@@ -68,10 +68,10 @@ This task accepts a list of items that may contain a valid .NET culture identifi
   
 |Item collection|Contents|  
 |---------------------|--------------|  
-|`OutAssignedFiles`|`MyResource1.fr.resx (Culture="fr")`<br /><br /> `MyResource2.XX.resx` (no additional metadata)|  
-|`OutAssignedFilesWithCulture`|`MyResource1.fr.resx (Culture="fr")`|  
-|`OutAssignedFilesWithNoCulture`|`MyResource2.XX.resx` (no additional metadata)|  
-|`OutCultureNeutralAssignedFiles`|`MyResource1.resx (Culture="fr")`<br /><br /> `MyResource2.XX.resx (`no additional metadata)|  
+|`OutAssignedFiles`|*MyResource1.fr.resx* (Culture="fr")<br /><br /> *MyResource2.XX.resx* (no additional metadata)|  
+|`OutAssignedFilesWithCulture`|*MyResource1.fr.resx* (Culture="fr")|  
+|`OutAssignedFilesWithNoCulture`|*MyResource2.XX.resx* (no additional metadata)|  
+|`OutCultureNeutralAssignedFiles`|*MyResource1.resx* (Culture="fr")<br /><br /> *MyResource2.XX.resx* (no additional metadata)|  
   
 ## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   

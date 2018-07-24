@@ -87,7 +87,7 @@ The test results section contains a list of all the tests and scenarios in the l
 
 ## Page Results
 
-The page results section contains a list of all the Web pages in the load test. The URL, the scenario, the name of the test, the average page time, and the count are displayed. You can choose the URL of a page to open the **Pages** table and inspect more details for that page. For more information, see [How to: View Web Page Response](../test/how-to-view-web-page-response-time-in-a-load-test.md).
+The page results section contains a list of all the web pages in the load test. The URL, the scenario, the name of the test, the average page time, and the count are displayed. You can choose the URL of a page to open the **Pages** table and inspect more details for that page. For more information, see [How to: View Web Page Response](../test/how-to-view-web-page-response-time-in-a-load-test.md).
 
 > [!NOTE]
 > You can collapse and expand this section by choosing the arrow to the left of the section title.

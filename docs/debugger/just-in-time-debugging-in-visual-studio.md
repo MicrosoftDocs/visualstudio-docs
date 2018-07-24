@@ -3,7 +3,7 @@ title: "How to: Respond to the Just-In-Time Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/23/17"
 ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
+ms.topic: "troubleshooting"
 helpviewer_keywords:
   - "debugging [Visual Studio], Just-In-Time"
   - "Just-In-Time debugging"
@@ -44,4 +44,4 @@ You can take steps to prevent the Just-in-Time Debugger dialog box from appearin
     In IIS Manager, right-click the server node and choose **Switch to Features View**. Under the ASP.NET section, choose **.NET Compilation** and then make sure you choose **False** as the Debug behavior (the steps are different in older versions of IIS).
 
 ## See Also
- [Debugger Basics](../debugger/debugger-basics.md)
+ [Debugger Basics](../debugger/getting-started-with-the-debugger.md)

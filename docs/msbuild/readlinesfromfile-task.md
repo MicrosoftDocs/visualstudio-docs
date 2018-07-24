@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# ReadLinesFromFile Task
+# ReadLinesFromFile task
 Reads a list of items from a text file.  
   
 ## Parameters  
@@ -33,7 +33,7 @@ Reads a list of items from a text file.
 |`Lines`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the lines read from the file.|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  
   
 ## Example  
  The following example uses the `ReadLinesFromFile` task to create items from a list in a text file. The items read from the file are stored in the `ItemsFromFile` item collection.  
@@ -57,7 +57,7 @@ Reads a list of items from a text file.
 </Project>  
 ```  
   
-## See Also  
- [Task Reference](../msbuild/msbuild-task-reference.md)   
- [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
+## See also  
+ [Task reference](../msbuild/msbuild-task-reference.md)   
+ [MSBuild concepts](../msbuild/msbuild-concepts.md)   
  [Tasks](../msbuild/msbuild-tasks.md)

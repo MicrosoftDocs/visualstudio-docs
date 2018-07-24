@@ -19,7 +19,7 @@ For groups of users, you can assign subscriptions to them one at a time, or use 
 
 ## Individual assignments
 
-Here's how to assign a Visual Studio subscriptions license to to a new user so that they can access the subscription benefits.
+Here's how to assign a Visual Studio subscription license to a new user so that they can access the subscription benefits.
 
 1. Sign in to the [administrator portal](https://manage.visualstudio.com).
 

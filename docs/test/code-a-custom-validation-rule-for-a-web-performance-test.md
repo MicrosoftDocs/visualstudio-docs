@@ -5,7 +5,7 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "custom validation rules"
   - "validation rules, creating"
-  - "Web performance tests, creating custom validation rules"
+  - "web performance tests, creating custom validation rules"
   - "rules, validation"
   - "validation rules"
 ms.assetid: 989124bc-1a86-41f7-b37d-8f9e54dd4f0b
@@ -27,7 +27,7 @@ You can create your own validation rules. To do this, you derive your own rule c
 
 ## To create custom validation rules
 
-1.  Open a Test Project that contains a Web performance test.
+1.  Open a Test Project that contains a web performance test.
 
 2.  (Optional) Create a separate Class library project in which to store your validation rule.
 
@@ -42,13 +42,13 @@ You can create your own validation rules. To do this, you derive your own rule c
 
 6.  (Optional) In the Test Project, add a reference to the Class library project that contains the custom validation rule.
 
-7.  In the Test Project, open a Web performance test in the **Web Performance Test Editor**.
+7.  In the Test Project, open a web performance test in the **Web Performance Test Editor**.
 
-8.  To add the custom validation rule to a Web performance test request, right-click a request and select **Add Validation Rule**.
+8.  To add the custom validation rule to a web performance test request, right-click a request and select **Add Validation Rule**.
 
      The **Add Validation Rule** dialog box appears. You will see your custom validation rule in the **Select a rule** list, together with the predefined validation rules. Select your custom validation rule and then choose **OK**.
 
-9. Run your Web performance test.
+9. Run your web performance test.
 
 ## Example
 

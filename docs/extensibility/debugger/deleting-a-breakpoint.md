@@ -15,14 +15,14 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Deleting a Breakpoint
+# Deleting a breakpoint
 The following describes the process when deleting a pending breakpoint:  
   
-## Deletion Process  
+## Deletion process  
  The session debug manager (SDM) calls the [IDebugPendingBreakpoint2::Delete](../../extensibility/debugger/reference/idebugpendingbreakpoint2-delete.md) method to remove the pending breakpoint and all bound breakpoints bound from it.  
   
 > [!NOTE]
 >  A single bound breakpoint can also be deleted by a call to [IDebugBoundBreakpoint2::Delete](../../extensibility/debugger/reference/idebugboundbreakpoint2-delete.md).  
   
-## See Also  
- [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)
+## See also  
+ [Call debugger events](../../extensibility/debugger/calling-debugger-events.md)
