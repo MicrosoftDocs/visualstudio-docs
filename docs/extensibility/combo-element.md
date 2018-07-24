@@ -43,7 +43,7 @@ Defines commands that appear in a combo box. There are four kinds of combo boxes
 |type|Optional. An enumerated value that specifies the type of button.<br /><br /> If not given, uses Button.<br /><br /> DropDownCombo<br /> The VSPackage is responsible for filling in the contents for this combo box. The user cannot type anything in the text box of this drop-down.<br /><br /> DynamicCombo<br /> The VSPackage is responsible for filling in the contents of this combo box. The user can edit this combo and also select items in it.<br /><br /> IndexCombo<br /> The same as DynamicCombo except that it raises the index of the item rather than its text.<br /><br /> MRUCombo<br /> Filled by the integrated development environment (IDE) on behalf of the VSPackage.  The user can edit in this combo box. The IDE remembers up to the last 16 entries per combo box.<br /><br /> When the user selects something in the combo box, or enters something new, the IDE notifies the appropriate VSPackage.|  
 |Condition|Optional. See [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
   
-### Child Elements  
+### Child elements  
   
 |Element|Description|  
 |-------------|-----------------|  
