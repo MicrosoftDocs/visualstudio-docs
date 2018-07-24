@@ -87,4 +87,4 @@ Starting with Unity 2018.1, Visual Studio should be the default external script 
 
 ## Next steps
 
- To learn how to work with and debug your Unity project in Visual Studio, see [Use Visual Studio Tools for Unity](../cross-platform/using-visual-studio-tools-for-unity.md).
+ To learn how to work with and debug your Unity project in Visual Studio, see [Visual Studio Tools for Unity](../cross-platform/using-visual-studio-tools-for-unity.md).
