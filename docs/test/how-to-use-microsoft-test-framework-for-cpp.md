@@ -22,7 +22,7 @@ In some cases, for example when testing non-exported functions in a DLL, you mig
 
 1.  Modify the project properties to include the headers and library files that are required for unit testing.
 
-    1.  In Solution Explorer, right-click on project node for the program you are testing, then choose **Properties | Configuration Properties | VC++ Directories**.
+    1.  In **Solution Explorer**, right-click on project node for the program you are testing, then choose **Properties** > **Configuration Properties** > **VC++ Directories**.
 
     3.  Click on the down arrow in the following rows and choose **<Edit>** :
 
@@ -33,10 +33,10 @@ In some cases, for example when testing non-exported functions in a DLL, you mig
 
 2.  Add a C++ Unit Test file:
 
-    -   Right-click on the project node in **Solution Explorer** and choose **Add | New Item | C++ Unit Test**.
+    -   Right-click on the project node in **Solution Explorer** and choose **Add** > **New Item** > **C++ Unit Test**.
 
 ## Write the tests
-Any .cpp file with test classes must include "CppUnitTest.h" and have a using statement for `using namespace Microsoft::VisualStudio::CppUnitTestFramework`. The test project is already configured for you. It also includes a namespace definition, and a TEST_CLASS with a TEST_METHOD to get you started. You can modify the namespace name as well as the names in parentheses in the class and method macros.
+Any *.cpp* file with test classes must include "CppUnitTest.h" and have a using statement for `using namespace Microsoft::VisualStudio::CppUnitTestFramework`. The test project is already configured for you. It also includes a namespace definition, and a TEST_CLASS with a TEST_METHOD to get you started. You can modify the namespace name as well as the names in parentheses in the class and method macros.
 
 Special macros are defined for initializing test modules, classes and methods, and for cleanup of resoures when tests are completed. These macros generate code that is executed before a class or method is first accessed, and after the last test has run. For more information, see [Initialize and cleanup](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md#Initialize_and_cleanup).
 
@@ -44,10 +44,10 @@ Use the static methods in the [Assert](microsoft-visualstudio-testtools-cppunitt
 
 ## Run the tests
 
-1.  On the **Test** menu, choose **Windows**, **Test Explorer**.
+1.  On the **Test** menu, choose **Windows** > **Test Explorer**.
 2. If all your tests are not visible in the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
 
-2.  In Test Explorer, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
+2.  In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled.
 3. In the **Output Window** choose **Tests** in the drop down to view messages written out by the `Logger` class:
 
   ![C++ Output Window showing test messages](media/cpp-test-output-window.png)
@@ -76,7 +76,7 @@ TEST_METHOD(Method1)
 ```
 
 ### C++ trait attribute macros
-  The following pre-defined traits are found in `CppUnitTest.h`. For more information, see [The Microsoft Unit Testing Framework for C++ API Reference](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md).
+  The following pre-defined traits are found in `CppUnitTest.h`. For more information, see [The Microsoft Unit Testing Framework for C++ API reference](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md).
 
 |Macro|Description|
 |-----------|-----------------|
@@ -86,5 +86,5 @@ TEST_METHOD(Method1)
 
 
 ## See also
-[Quick Start: Test Driven Development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
+[Quick start: Test driven development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
 
