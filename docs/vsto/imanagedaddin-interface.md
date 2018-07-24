@@ -21,7 +21,7 @@ ms.workload:
   
 ## Syntax  
   
-```c++
+```csharp
 [  
     object,  
     uuid(B9CEAB65-331C-4713-8410-DDDAF8EC191A),  
@@ -63,7 +63,7 @@ interface IManagedAddin : IUnknown
   
 3.  If the application finds a `Manifest` entry, the application tries to load a managed VSTO Add-in loader component. The application does this by trying to create a COM object that implements the IManagedAddin interface.  
   
-     The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] includes an VSTO Add-in loader component (*VSTOLoader.dll*), or you can create your own by implementing the IManagedAddin interface.  
+     The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] includes a VSTO Add-in loader component (*VSTOLoader.dll*), or you can create your own by implementing the IManagedAddin interface.  
   
 4.  The application calls the [IManagedAddin::Load](../vsto/imanagedaddin-load.md) method and passes in the value of the `Manifest` entry.  
   

@@ -22,20 +22,20 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Customize a SharePoint Feature
+# How to: Customize a SharePoint feature
   You can create and customize SharePoint features by using the Feature Designer in Visual Studio. For example, you can set the Feature scope and add other Features as dependencies. By default, the Feature Designer is opened when you add a new Feature in Solution Explorer or the SharePoint Package Explorer.  
   
 ## Opening the Feature Designer  
  You can add or remove SharePoint project items to a Feature using the Feature Designer.  
   
-#### To open the Feature Designer  
+#### To open the Feature Designer
   
 1.  In **Solution Explorer**, expand **Features**.  
   
 2.  Double-click the *Feature1* item, or open the shortcut menu for the *Feature1* item and then choose **View Designer**.  
   
-## Viewing the Packaged Manifest File  
- You can use the Feature Designer to modify and generate the packaged manifest file for the Feature (feature.xml). Then, you can view the XML code for this file in Visual Studio.  
+## View the packaged manifest file  
+ You can use the Feature Designer to modify and generate the packaged manifest file for the Feature (*feature.xml*). Then, you can view the XML code for this file in Visual Studio.  
   
 #### To view the packaged manifest file  
   
@@ -45,12 +45,12 @@ ms.workload:
   
 1.  In **Solution Explorer**, choose the **Show All Files** icon.  
   
-2.  Expand Features, expand FeatureName, expand FeatureName.feature, and then open the *FeatureName*.Template.xml file.  
+2.  Expand Features, expand FeatureName, expand FeatureName.feature, and then open the *\<FeatureName>.Template.xml* file.  
   
     > [!NOTE]  
     >  When you open the Feature template manifest XML file, the files are automatically validated and the warnings that appear in the Error List window can be ignored.  
   
-## Changing the Manifest Template  
+## Change the manifest template  
  You can change the XML code for the Feature manifest file in the Visual Studio XML Editor or the Manifest Template pane. Any changes to the XML code is merged into the packaged manifest file for the Feature. For example, you may want to change the manifest template to customize a Feature property.  
   
 #### To change the manifest template by using the XML Editor  
@@ -65,8 +65,8 @@ ms.workload:
   
      Changes to the XML appear in the **Preview of Packaged Manifest** pane.  
   
-## Overwriting the Packaged Manifest File  
- You can disable the Feature Designer and create the feature.xml file manually. The first time that you perform this procedure, the current settings in the Feature Designer are saved to the Feature template XML file. Then, you can modify or overwrite the XML code.  
+## Overwrite the packaged manifest file  
+ You can disable the Feature Designer and create the *feature.xml* file manually. The first time that you perform this procedure, the current settings in the Feature Designer are saved to the Feature template XML file. Then, you can modify or overwrite the XML code.  
   
 > [!NOTE]  
 >  If you add or remove SharePoint project items in the XML file while the Feature Designer is disabled, these project items are not packaged.  
@@ -79,8 +79,8 @@ ms.workload:
   
      The template is updated with the current packaged manifest file.  
   
-## Enabling the Feature Designer  
- You can re-enable the Feature Designer to customize the feature.xml file.  
+## Enable the Feature Designer  
+ You can re-enable the Feature Designer to customize the *feature.xml* file.  
   
 #### To re-enable the designer  
   
@@ -88,7 +88,6 @@ ms.workload:
   
 2.  The template is refreshed with the original text, and any changes to the XML are lost.  
   
-## See Also  
- [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
-  
+## See also
+ [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)  
   

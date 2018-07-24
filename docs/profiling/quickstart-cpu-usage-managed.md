@@ -14,18 +14,15 @@ manager: douge
 ms.workload:
   - "dotnet"
 ---
-# Quickstart: Analyze CPU usage data in Visual Studio (Managed Code)
+# Quickstart: Analyze CPU usage data in Visual Studio (managed code)
 
 The Visual Studio provides many powerful features to help you analyze performance issues in your application. This topic provides a quick way to learn some of the basic features. Here, we look at the tool to identify performance bottlenecks due to high CPU usage. The Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, and for native/C++ development.
 
 The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If the **CPU Usage** tool described here does not give you the data that you need, the [other profiling tools](../profiling/profiling-feature-tour.md) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time. The Diagnostics hub offers you a lot of other options to record and analyze this kind of data.
 
-> [!NOTE]
-> For .NET Core and ASP.NET Core, the CPU Usage tool currently does not provide accurate results with portable PBDs. Use full PDBs instead.
-
 ## Create a project
 
-1. In Visual Studio, choose **File > New Project**.
+1. In Visual Studio, choose **File** > **New Project**.
 
 2. Under **Visual C#** or **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
 
@@ -33,7 +30,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
     Visual Studio creates the project.
 
-2. Open Program.cs and replace all the code with the following code:
+2. Open *Program.cs* and replace all the code with the following code:
 
     ```csharp
     using System;
@@ -152,9 +149,9 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
     ```
 
     > [!NOTE]
-    > In Visual Basic, make sure the startup object is set to `Sub Main` (**Properties > Application > Startup Object**).
+    > In Visual Basic, make sure the startup object is set to `Sub Main` (**Properties** > **Application** > **Startup Object**).
 
-##  <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Step 1: Collect profiling data
+##  Step 1: Collect profiling data
 
 1.  First, set a breakpoint in your app on this line of code in the `Main` function:
 
@@ -173,9 +170,9 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
     > [!TIP]
     > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
 
-3.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug / Windows / Show Diagnostic Tools**.
+3.  The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-4.  Click **Debug / Start Debugging** (or **Start** on the toolbar, or **F5**).
+4.  Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
 
      When the app finishes loading, the **Summary** view of the Diagnostics Tools appears.
 
@@ -187,7 +184,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
      When you choose **Record CPU Profile**, Visual Studio will begin recording your functions and how much time they take to execute, and also provides a timeline graph you can use to focus on specific segments of the sampling session.You can only view this collected data when your application is halted at a breakpoint.
 
-6.  Hit F5 to run the app to your second breakpoint.
+6.  Press **F5** to run the app to your second breakpoint.
 
      Now, you now have performance data for your application specifically for the region of code that runs between the two breakpoints.
 
@@ -197,7 +194,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
      At this point, you can begin to analyze the data.
 
-## <a name="Step2"></a> Step 2: Analyze CPU usage data
+## Step 2: Analyze CPU usage data
 
 We recommend that you begin analyzing your data by examining the list of functions under CPU Usage, identifying the functions that are doing the most work, and then taking a closer look at each one.
 
@@ -229,7 +226,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 - [Analyze CPU usage](../profiling/cpu-usage.md) for more in-depth information on the CPU usage tool.
 - Analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Collect profiling data without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-without-debugging) in [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
-## See Also
+## See also
 
 - [Profiling in Visual Studio](../profiling/index.md)
-- [Profiling feature tour](../profiling/profiling-feature-tour.md)
+- [First look at profiling tools](../profiling/profiling-feature-tour.md)

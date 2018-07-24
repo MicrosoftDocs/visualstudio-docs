@@ -24,7 +24,7 @@ If your load test contains only one run setting node under the **Run Settings** 
 
 In the Load Test Editor, the active run setting is identified by the "[Active]" suffix.
 
-## Selecting the Active Run Setting
+## Select the Active Run Setting
 
 ### To select the active run setting in a load test
 
@@ -41,15 +41,15 @@ In the Load Test Editor, the active run setting is identified by the "[Active]" 
 > [!NOTE]
 > You can override the active run setting by setting an environment variable named `Test.UseRunSetting=<run setting name>`. This is useful when you run a load test from the command line or from a batch file. This lets you choose different run settings without opening your load test.
 
+## Specify the Run Setting to Use from the Command Line
 
-## Specifying the Run Setting to Use from the Command Line
- You can override the default run settings in your load test by setting an environment variable from the command line:
+You can override the default run settings in your load test by setting an environment variable from the command line:
 
- **Set Test.UseRunSetting=PreProdEnvironment**
+**Set Test.UseRunSetting=PreProdEnvironment**
 
- And the run the test:
+And the run the test:
 
- **mstest /testcontainer:loadtest1.loadtest**
+**mstest /testcontainer:loadtest1.loadtest**
 
 ## See also
 

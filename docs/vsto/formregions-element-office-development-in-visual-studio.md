@@ -19,7 +19,7 @@ ms.workload:
   - "office"
 ---
 # &lt;formRegions&gt; element (Office development in Visual Studio)
-  The `formRegions` element of the `vstov4` namespace contains the Microsoft Office Outlook form regions that are associated with an VSTO Add-in.  
+  The `formRegions` element of the `vstov4` namespace contains the Microsoft Office Outlook form regions that are associated with a VSTO Add-in.  
   
 ## Syntax  
   

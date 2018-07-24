@@ -18,15 +18,17 @@ ms.workload:
 The **RemoveFromCollection\<T>** activity designer is used to create and configure a <xref:System.Activities.Statements.RemoveFromCollection%601> activity.
 
 ## The RemoveFromCollection\<T>Activity
- The <xref:System.Activities.Statements.RemoveFromCollection%601> activity removes a specified item from a particular collection.
+
+The <xref:System.Activities.Statements.RemoveFromCollection%601> activity removes a specified item from a particular collection.
 
 ### Using the RemoveFromCollection\<T> Activity Designer
- The **RemoveFromCollection\<T>** activity designer can be found in the **Collection** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on Workflow Designer (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
 
- The **RemoveFromCollection\<T>** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.RemoveFromCollection%601> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of RemoveFromCollection<Int32\>. The <xref:System.Activities.Activity.DisplayName%2A> value can be edited in the header of the **RemoveFromCollection<T\>** activity designer or in the **DisplayName** box of the property grid. The other properties must be edited on the property grid.
+Access the **RemoveFromCollection\<T>** activity designer in the **Collection** category of the **Toolbox**. 
+The **RemoveFromCollection\<T>** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.RemoveFromCollection%601> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of RemoveFromCollection<Int32\>. The <xref:System.Activities.Activity.DisplayName%2A> value can be edited in the header of the **RemoveFromCollection<T\>** activity designer or in the **DisplayName** box of the property grid. The other properties must be edited on the property grid.
 
 ### The RemoveFromCollection<T\> Properties
- The following table shows the <xref:System.Activities.Statements.RemoveFromCollection%601> properties and describes how they are used in the designer.
+
+The following table shows the <xref:System.Activities.Statements.RemoveFromCollection%601> properties and describes how they are used in the designer.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|

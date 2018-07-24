@@ -42,20 +42,20 @@ Boost.Test requires [Boost](http://www.boost.org/)! If you do not have Boost ins
 
 1. The new file contains a sample test method. Build your project to enable **Test Explorer** to discover the method.
 
-The item template uses the single-header variant of Boost.Test, but you can modify the #include path to use the standalone library variant. For more information, see [Add include directives](#add_include_directives).
+The item template uses the single-header variant of Boost.Test, but you can modify the #include path to use the standalone library variant. For more information, see [Add include directives](#add-include-directives).
 
 ## Create a test project (Visual Studio 2017 version 15.5)
 
 In Visual Studio 2017 version 15.5, no pre-configured test project or item templates are available for Boost.Test. Therefore, you have to create and configure a console application project to hold your tests.
 
-1. In **Solution Explorer**, right click on the solution node and choose **Add** > **New Project...**.
+1. In **Solution Explorer**, right click on the solution node and choose **Add** > **New Project**.
 
 1. In the left pane, choose **Visual C++** > **Windows Desktop**, and then choose the **Windows Console Application** template.
 
 1. Give the project a name and choose **OK**.
 1. Delete the `main` function in the .cpp file.
 
-1. If you are using the single-header or dynamic library version of Boost.Test, go to [Add include directives](#add_include_directives). If you are using the static library version, then you have to perform some additional configuration:
+1. If you are using the single-header or dynamic library version of Boost.Test, go to [Add include directives](#add-include-directives). If you are using the static library version, then you have to perform some additional configuration:
 
    a. To edit the project file, first unload it. In **Solution Explorer**, right-click the project node and choose **Unload Project**. Then, right-click the project node and choose **Edit <name\>.vcxproj**.
 
@@ -106,7 +106,7 @@ The following example is sufficient for the test to be discoverable in **Test Ex
 #include "../MyProgram/MyClass.h" // project being tested
 #include <string>
 
-BOOST_AUTO_TEST_CASE(my\_boost_test)
+BOOST_AUTO_TEST_CASE(my_boost_test)
 {
 	std::string expected_value = "Bill";
 

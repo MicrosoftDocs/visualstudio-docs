@@ -149,4 +149,4 @@ if (performance && performance.mark) {
 
 ## See also
  [Profiling in Visual Studio](../profiling/index.md)  
- [Profiling feature tour](../profiling/profiling-feature-tour.md)
+ [First look at profiling tools](../profiling/profiling-feature-tour.md)

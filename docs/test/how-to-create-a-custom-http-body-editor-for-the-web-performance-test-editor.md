@@ -13,7 +13,7 @@ ms.technology: vs-ide-test
 ---
 # How to: Create a Custom HTTP Body Editor for the Web Performance Test Editor
 
-You can create a custom content editor that enables you to edit the string body content or the binary body content of a Web service request, for example, SOAP, REST, asmx, wcf, RIA, and other Web service request types.
+You can create a custom content editor that enables you to edit the string body content or the binary body content of a web service request, for example, SOAP, REST, asmx, wcf, RIA, and other web service request types.
 
  You can implement these kinds of editors:
 
@@ -295,9 +295,9 @@ When editing of the string body is completed and the user clicks **OK** in the p
 
 1.  Create a Test Project.
 
-2.  Create a Web performance test and enter a URL in the browser to a Web service, for example, http://dev.virtualearth.net/webservices/v1/metadata/searchservice/dev.virtualearth.net.webservices.v1.search.wsdl.
+2.  Create a web performance test and enter a URL in the browser to a web service.
 
-3.  When you finish the recording, in the Web Performance Test Editor, expand the request for the Web service and select either a **String Body** or a **Binary Body**.
+3.  When you finish the recording, in the Web Performance Test Editor, expand the request for the web service and select either a **String Body** or a **Binary Body**.
 
 4.  In the Properties window, Select either String Body or Binary Body and choose the ellipsis (…).
 

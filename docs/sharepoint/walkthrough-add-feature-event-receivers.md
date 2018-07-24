@@ -20,7 +20,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Add Feature Event Receivers
+# Walkthrough: Add feature event receivers
   Feature event receivers are methods that execute when one of the following feature-related events occurs in SharePoint:  
   
 -   A feature is installed.  
@@ -44,16 +44,16 @@ ms.workload:
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   Supported editions of Microsoft Windows and SharePoint. For more information, see [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of Microsoft Windows and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
   
 -   Visual Studio.  
   
-## Creating a Feature Event Receiver Project  
+## Create a feature event receiver project
  First, create a project to contain the feature event receiver.  
   
 #### To create a project with a feature event receiver  
   
-1.  On the menu bar, choose **File**, **New**, **Project** to display the **New Project** dialog box.  
+1.  On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.  
   
 2.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
@@ -67,11 +67,11 @@ ms.workload:
   
 6.  In the **What is the trust level for this SharePoint solution?** section, choose the **Deploy as a farm solution** option button.  
   
-     For more information about sandboxed solutions versus farm solutions, see [Sandboxed Solution Considerations](../sharepoint/sandboxed-solution-considerations.md).  
+     For more information about sandboxed solutions versus farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).  
   
 7.  Choose the **Finish** button, and then notice that a feature that's named Feature1 appears under the **Features** node.  
   
-## Adding an Event Receiver to the Feature  
+## Add an event receiver to the feature
  Next, add an event receiver to the feature and add code that executes when the feature is deactivated.  
   
 #### To add an event receiver to the feature  
@@ -80,7 +80,7 @@ ms.workload:
   
 2.  Under the **Features** node, open the shortcut menu for **Feature1**, and then choose **Add Event Receiver** to add an event receiver to the feature.  
   
-     This adds a code file under Feature1. In this case, it is named either Feature1.EventReceiver.cs or Feature1.EventReceiver.vb, depending on your project's development language.  
+     This adds a code file under Feature1. In this case, it is named either *Feature1.EventReceiver.cs* or *Feature1.EventReceiver.vb*, depending on your project's development language.  
   
 3.  If your project is written in [!INCLUDE[csprcs](../sharepoint/includes/csprcs-md.md)], add the following code at the top of the event receiver if it is not already there:  
   
@@ -91,14 +91,14 @@ ms.workload:
      [!code-vb[SP_FeatureEvt#2](../sharepoint/codesnippet/VisualBasic/featureevt2vb/features/feature1/feature1.eventreceiver.vb#2)]
      [!code-csharp[SP_FeatureEvt#2](../sharepoint/codesnippet/CSharp/featureevttest2/features/feature1/feature1.eventreceiver.cs#2)]  
   
-## Testing the Feature Event Receiver  
+## Test the feature event receiver
  Next, deactivate the feature to test whether the **FeatureDeactivating** method outputs an announcement to the SharePoint Announcements list.  
   
 #### To test the feature event receiver  
   
 1.  Set the value of the project's **Active Deployment Configuration** property to **No Activation**.  
   
-     Setting this property prevents the feature from activating in SharePoint and lets you debug feature event receivers. For more information, see [Debugging SharePoint Solutions](../sharepoint/debugging-sharepoint-solutions.md).  
+     Setting this property prevents the feature from activating in SharePoint and lets you debug feature event receivers. For more information, see [Debug SharePoint solutions](../sharepoint/debugging-sharepoint-solutions.md).  
   
 2.  Choose the **F5** key to run the project and deploy it to SharePoint.  
   
@@ -114,8 +114,7 @@ ms.workload:
   
      Notice that an announcement appears in the **Announcements** list after the feature is deactivated.  
   
-## See Also  
- [How to: Create an Event Receiver](../sharepoint/how-to-create-an-event-receiver.md)   
- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)  
-  
+## See also
+ [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)   
+ [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)  
   

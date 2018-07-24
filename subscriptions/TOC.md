@@ -1,4 +1,5 @@
 # [Visual Studio subscriptions](index.md)
+## [What's New](whats-new-in-subscriptions.md)
 ## Subscriber Experiences
 ### [Using the Subscriber Portal](using-the-subscriber-portal.md)
 #### [Activate Retail Subscriptions](activate-store-subscriptions.md)
@@ -47,6 +48,7 @@
 #### [For Volume Licensing](volume-license-admins.md)
 ##### [VLSC Admin Migration FAQs](vlsc-admin-faq.md)
 ##### Onboarding Your Organization
+###### [Post Migration Onboarding](post-migration-onboarding.md)
 ###### [Onboarding Email Communications](volume-license-onboarding-email.md)
 ###### [Find Your PCN](find-pcn.md)
 ###### [Find Your Primary Contact](find-primary-contact.md)
@@ -64,7 +66,7 @@
 #### [Expired Subscriptions](handle-expired-license.md)
 #### [Subscribers with Personal Email Sign-ins](personal-email-sign-ins.md)
 ## Acquiring Visual Studio Subscriptions
-### [Compare Subscription Options](https://www.visualstudio.com/vs/pricing)
+### [Compare Subscription Options](https://visualstudio.microsoft.com/vs/pricing)
 ### Buying Cloud Subscriptions
 #### [Overview](vscloud-overview.md)
 #### [Billing FAQ](vscloud-billing-faq.md)
@@ -75,8 +77,8 @@
 #### [Microsoft for Startups](program-startups.md)
 ## Resources
 ### [Visual Studio Licensing Whitepaper](http://aka.ms/vslicensing)
-### [Compare subscription options and pricing](https://www.visualstudio.com/vs/pricing)
-### [Compare Visual Studio IDE features](https://www.visualstudio.com/vs/compare)
-### [Visual Studio Administration and Subscriptions Support](https://www.visualstudio.com/support/support-overview-vs)
+### [Compare subscription options and pricing](https://visualstudio.microsoft.com/vs/pricing)
+### [Compare Visual Studio IDE features](https://visualstudio.microsoft.com/vs/compare)
+### [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
 ### [Volume Licensing Terms](https://www.microsoft.com/en-us/licensing/product-licensing/products.aspx)
 ### [Microsoft Products and Services Agreement (MPSA)](https://www.microsoft.com/en-us/licensing/mpsa/default.aspx)

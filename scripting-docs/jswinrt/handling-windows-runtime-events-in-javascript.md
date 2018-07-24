@@ -19,10 +19,10 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # Handling Windows Runtime Events in JavaScript
-Windows Runtime events are not represented in the same way in JavaScript as they are in C++ or the .NET Framework. They are not class properties, but rather are represented as string identifiers that are passed to the class's `addEventListener` and `removeEventListener` methods. For example, you can add an event handler for the [Geolocator.PositionChanged](http://msdn.microsoft.com/library/windows/apps/xaml/windows.devices.geolocation.geolocator.positionchanged.aspx) event by passing the string "positionchanged" to the `Geolocator.addEventListener` method:  
+Windows Runtime events are not represented in the same way in JavaScript as they are in C++ or the .NET Framework. They are not class properties, but rather are represented as (lowercased) string identifiers that are passed to the class's `addEventListener` and `removeEventListener` methods. For example, you can add an event handler for the [Geolocator.PositionChanged](https://msdn.microsoft.com/library/windows/apps/xaml/windows.devices.geolocation.geolocator.positionchanged.aspx) event by passing the string "positionchanged" to the `Geolocator.addEventListener` method:  
   
 ```JavaScript  
-var locator =  new Windows.Devices.Geolocation.Geolocator();  
+var locator = new Windows.Devices.Geolocation.Geolocator();  
 locator.addEventListener(  
     "positionchanged",   
      function (ev) {  
@@ -30,25 +30,24 @@ locator.addEventListener(
     });  
 ```  
   
- You can also set the `locator.onpositionchanged` property.  
+ You can also set the `locator.onpositionchanged` property:  
   
-```  
+```JavaScript  
 locator.onpositionchanged =    
     function (ev) {  
         console.log("Got event");  
     };  
 ```  
   
- In JavaScript, Windows Runtime event arguments are represented as a single event object. In the following example of an event handler method, the `ev` parameter is an object that contains both the sender (the target property) and the other event arguments. The event arguments are the ones that are documented for each event.  
+Another difference between .NET/C++ and JavaScript is the number of parameters taken by an event handler. In .NET/C++, a handler takes two: the event sender, and the event data. In JavaScript, the two are bundled as a single `Event` object. In the following example, the `ev` parameter contains both the sender of the event (the `target` property) and the event data properties (here, just `position`). The event data properties are the ones that are documented for each event.
   
 ```JavaScript  
 function (ev) {  
-    console.log("Target: " + ev.target);  
+    console.log("Sender: " + ev.target);  
     console.log("Position: " +  
         ev.position.latitude + "," +  
         ev.position.longitude);  
 };  
-  
 ```  
   
 > [!IMPORTANT]

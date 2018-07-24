@@ -19,8 +19,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Include a Data File in a ClickOnce Application
-Each [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application you install is assigned a data directory on the destination computer's local disk where the application can manage its own data. Data files can include files of any type: text files, XML files, or even Microsoft Access database (.mdb) files. The following procedures show you how to add a data file of any type into your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.  
+# How to: Include a data file in a ClickOnce application
+Each [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application you install is assigned a data directory on the destination computer's local disk where the application can manage its own data. Data files can include files of any type: text files, XML files, or even Microsoft Access database (*.mdb*) files. The following procedures show you how to add a data file of any type into your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.  
   
 ### To include a data file by using Mage.exe  
   
@@ -30,7 +30,7 @@ Each [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applicati
   
 2.  Update your application manifest to list the data file.  
   
-     **mage -u v1.0.0.0\Application.manifest -FromDirectory v1.0.0.0**  
+     `mage -u v1.0.0.0\Application.manifest -FromDirectory v1.0.0.0`  
   
      Performing this task re-creates the list of files in your application manifest and also automatically generates the hash signatures.  
   
@@ -48,13 +48,11 @@ Each [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applicati
   
      You must re-sign your deployment manifest because its hash of the application manifest has changed.  
   
-     **mage -s app manifest -cf cert_file -pwd password**  
+     `mage -s app manifest -cf cert_file -pwd password`
   
-     **mage -u deployment manifest -appm app manifest**  
+     `mage -u deployment manifest -appm app manifest`
   
-     **mage -s deployment manifest -cf certfile -pwd password**  
-  
-2.  
+     `mage -s deployment manifest -cf certfile -pwd password`
   
 ### To include a data file by using MageUI.exe  
   
@@ -74,11 +72,11 @@ Each [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applicati
   
 7.  Save the application manifest, and then re-sign the file.  
   
-     MageUI.exe will prompt you to re-sign the file.  
+     *MageUI.exe* will prompt you to re-sign the file.  
   
 8.  Re-sign your deployment manifest  
   
      You must re-sign your deployment manifest because its hash of the application manifest has changed.  
   
-## See Also  
- [Accessing Local and Remote Data in ClickOnce Applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)
+## See also  
+ [Access local and remote data in ClickOnce applications](../deployment/accessing-local-and-remote-data-in-clickonce-applications.md)

@@ -15,9 +15,9 @@ ms.workload:
   - "multiple"
 ---
 # MSBuild
-The [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)] is a platform for building applications. This engine, which is also known as MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild, but it doesn't depend on Visual Studio. By invoking msbuild.exe on your project or solution file, you can orchestrate and build products in environments where Visual Studio isn't installed.  
+The [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)] is a platform for building applications. This engine, which is also known as MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild, but it doesn't depend on Visual Studio. By invoking *msbuild.exe* on your project or solution file, you can orchestrate and build products in environments where Visual Studio isn't installed.  
   
- Visual Studio uses MSBuild to load and build managed projects. The project files in Visual Studio (.csproj,.vbproj, vcxproj, and others) contain MSBuild XML code that executes when you build a project by using the IDE. Visual Studio projects import all the necessary settings and build processes to do typical development work, but you can extend or modify them from within Visual Studio or by using an XML editor.  
+ Visual Studio uses MSBuild to load and build managed projects. The project files in Visual Studio (*.csproj*, *.vbproj*, *.vcxproj*, and others) contain MSBuild XML code that executes when you build a project by using the IDE. Visual Studio projects import all the necessary settings and build processes to do typical development work, but you can extend or modify them from within Visual Studio or by using an XML editor.  
   
  For information about MSBuild for C++, see [MSBuild (Visual C++)](/cpp/build/msbuild-visual-cpp).  
   
@@ -38,50 +38,30 @@ The [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)]
     -   Create compressed files from build outputs.  
   
     -   Do a post-processing step. For example, you might want to stamp an assembly with a different version.  
-  
- You can write code in the Visual Studio IDE but run builds by using MSBuild. As another alternative, you can build code in the IDE on a development computer but use an MSBuild command line to build code that's integrated from multiple developers.  
+
+You can write code in the Visual Studio IDE but run builds by using MSBuild. As another alternative, you can build code in the IDE on a development computer but use an MSBuild command line to build code that's integrated from multiple developers.  
   
 > [!NOTE]
 >  You can use Team Foundation Build to automatically compile, test, and deploy your application. Your build system can automatically run builds when developers check in code (for example, as part of a Continuous Integration strategy) or according to a schedule (for example, a nightly Build Verification Test build). Team Foundation Build compiles your code by using MSBuild. For more information, see [Build and release](/vsts/build-release/index).  
   
  This topic provides an overview of MSBuild. For an introductory tutorial, see [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md).  
+
+##  Use MSBuild at a command prompt  
+ To run [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] at a command prompt, pass a project file to *MSBuild.exe*, together with the appropriate command-line options. Command-line options let you set properties, execute specific targets, and set other options that control the build process. For example, you would use the following command-line syntax to build the file *MyProj.proj* with the `Configuration` property set to `Debug`.  
   
- **In this topic**  
-  
--   [Using MSBuild at a Command Prompt](#BKMK_CommandPrompt)  
-  
--   [Project File](#BKMK_ProjectFile)  
-  
-    -   [Properties](#BKMK_Properties)  
-  
-    -   [Items](#BKMK_Items)  
-  
-    -   [Tasks](#BKMK_Tasks)  
-  
-    -   [Targets](#BKMK_Targets)  
-  
--   [Build Logs](#BKMK_BuildLogs)  
-  
--   [Using MSBuild in Visual Studio](#BKMK_VisualStudio)  
-  
--   [Multitargeting](#BKMK_Multitargeting)  
-  
-##  <a name="BKMK_CommandPrompt"></a> Using MSBuild at a Command Prompt  
- To run [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] at a command prompt, pass a project file to MSBuild.exe, together with the appropriate command-line options. Command-line options let you set properties, execute specific targets, and set other options that control the build process. For example, you would use the following command-line syntax to build the file `MyProj.proj` with the `Configuration` property set to `Debug`.  
-  
-```  
+```cmd  
 MSBuild.exe MyProj.proj /property:Configuration=Debug  
 ```  
   
- For more information about [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] command-line options, see [Command-Line Reference](../msbuild/msbuild-command-line-reference.md).  
+ For more information about [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] command-line options, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).  
   
 > [!IMPORTANT]
 >  Before you download a project, determine the trustworthiness of the code.  
   
-##  <a name="BKMK_ProjectFile"></a> Project File  
+##  Project file  
  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] uses an XML-based project file format that's straightforward and extensible. The [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file format lets developers describe the items that are to be built, and also how they are to be built for different operating systems and configurations. In addition, the project file format lets developers author reusable build rules that can be factored into separate files so that builds can be performed consistently across different projects in the product.  
   
- The following sections describe some of the basic elements of the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file format. For a tutorial about how to create a basic project file, see [Walkthrough: Creating an MSBuild Project File from Scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md).  
+ The following sections describe some of the basic elements of the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file format. For a tutorial about how to create a basic project file, see [Walkthrough: Creating an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md).  
   
 ###  <a name="BKMK_Properties"></a> Properties  
  Properties represent key/value pairs that can be used to configure builds. Properties are declared by creating an element that has the name of the property as a child of a [PropertyGroup](../msbuild/propertygroup-element-msbuild.md) element. For example, the following code creates a property named `BuildDir` that has a value of `Build`.  
@@ -98,9 +78,9 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
 <Configuration  Condition=" '$(Configuration)' == '' ">Debug</Configuration>  
 ```  
   
- Properties can be referenced throughout the project file by using the syntax $(*PropertyName*). For example, you can reference the properties in the previous examples by using `$(BuildDir)` and `$(Configuration)`.  
+ Properties can be referenced throughout the project file by using the syntax $(\<PropertyName>). For example, you can reference the properties in the previous examples by using `$(BuildDir)` and `$(Configuration)`.  
   
- For more information about properties, see [MSBuild Properties](../msbuild/msbuild-properties.md).  
+ For more information about properties, see [MSBuild properties](../msbuild/msbuild-properties.md).  
   
 ###  <a name="BKMK_Items"></a> Items  
  Items are inputs into the build system and typically represent files. Items are grouped into item types, based on user-defined item names. These item types can be used as parameters for tasks, which use the individual items to perform the steps of the build process.  
@@ -114,7 +94,7 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
 </ItemGroup>  
 ```  
   
- Item types can be referenced throughout the project file by using the syntax @(*ItemType*). For example, the item type in the example would be referenced by using `@(Compile)`.  
+ Item types can be referenced throughout the project file by using the syntax @(\<ItemType>). For example, the item type in the example would be referenced by using `@(Compile)`.  
   
  In MSBuild, element and attribute names are case-sensitive. However, property, item, and metadata names are not. The following example creates the item type `Compile`, `comPile`, or any other case variation, and gives the item type the value "one.cs;two.cs".  
   
@@ -130,9 +110,9 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
 ###  <a name="BKMK_Tasks"></a> Tasks  
  Tasks are units of executable code that [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] projects use to perform build operations. For example, a task might compile input files or run an external tool. Tasks can be reused, and they can be shared by different developers in different projects.  
   
- The execution logic of a task is written in managed code and mapped to [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] by using the [UsingTask](../msbuild/usingtask-element-msbuild.md) element. You can write your own task by authoring a managed type that implements the <xref:Microsoft.Build.Framework.ITask> interface. For more information about how to write tasks, see [Task Writing](../msbuild/task-writing.md).  
+ The execution logic of a task is written in managed code and mapped to [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] by using the [UsingTask](../msbuild/usingtask-element-msbuild.md) element. You can write your own task by authoring a managed type that implements the <xref:Microsoft.Build.Framework.ITask> interface. For more information about how to write tasks, see [Task writing](../msbuild/task-writing.md).  
   
- [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] includes common tasks that you can modify to suit your requirements.  Examples are [Copy](../msbuild/copy-task.md), which copies files, [MakeDir](../msbuild/makedir-task.md), which creates directories, and [Csc](../msbuild/csc-task.md), which compiles Visual C# source code files. For a list of available tasks together with usage information, see [Task Reference](../msbuild/msbuild-task-reference.md).  
+ [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] includes common tasks that you can modify to suit your requirements.  Examples are [Copy](../msbuild/copy-task.md), which copies files, [MakeDir](../msbuild/makedir-task.md), which creates directories, and [Csc](../msbuild/csc-task.md), which compiles Visual C# source code files. For a list of available tasks together with usage information, see [Task reference](../msbuild/msbuild-task-reference.md).  
   
  A task is executed in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file by creating an element that has the name of the task as a child of a [Target](../msbuild/target-element-msbuild.md) element. Tasks typically accept parameters, which are passed as attributes of the element. Both [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] properties and items can be used as parameters. For example, the following code calls the [MakeDir](../msbuild/makedir-task.md) task and passes it the value of the `BuildDir` property that was declared in the earlier example.  
   
@@ -157,11 +137,11 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
   
  In more advanced scenarios, targets can be used to describe relationships among one another and perform dependency analysis so that whole sections of the build process can be skipped if that target is up-to-date. For more information about targets, see [Targets](../msbuild/msbuild-targets.md).  
   
-##  <a name="BKMK_BuildLogs"></a> Build Logs  
- You can log build errors, warnings, and messages to the console or another output device. For more information, see [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md) and [Logging in MSBuild](../msbuild/logging-in-msbuild.md).  
+##  Build logs  
+ You can log build errors, warnings, and messages to the console or another output device. For more information, see [Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md) and [Logging in MSBuild](../msbuild/logging-in-msbuild.md).  
   
-##  <a name="BKMK_VisualStudio"></a> Using MSBuild in Visual Studio  
- [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file format to store build information about managed projects. Project settings that are added or changed by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] interface are reflected in the .*proj file that's generated for every project. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses a hosted instance of [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to build managed projects. This means that a managed project can be built in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or at a command prompt (even if [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] isn't installed), and the results will be identical.  
+## Use MSBuild in Visual Studio  
+ [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file format to store build information about managed projects. Project settings that are added or changed by using the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] interface are reflected in the *.\*proj* file that's generated for every project. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses a hosted instance of [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to build managed projects. This means that a managed project can be built in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or at a command prompt (even if [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] isn't installed), and the results will be identical.  
   
  For a tutorial about how to use MSBuild in Visual Studio, see [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md).  
   
@@ -179,27 +159,27 @@ MSBuild.exe MyProj.proj /property:Configuration=Debug
 -   If a service pack for the current version of the .NET Framework is released, you could target it.  
   
 -   Multitargeting guarantees that an application uses only the functionality that's available in the target framework and platform.  
+
+For more information, see [Multitargeting](../msbuild/msbuild-multitargeting-overview.md).  
   
- For more information, see [Multitargeting](../msbuild/msbuild-multitargeting-overview.md).  
-  
-## Related Topics  
+## See also  
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Walkthrough: Creating an MSBuild Project File from Scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md)|Shows how to create a basic project file incrementally, by using only a text editor.|  
+|[Walkthrough: Creating an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md)|Shows how to create a basic project file incrementally, by using only a text editor.|  
 |[Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md)|Introduces the building blocks of MSBuild and shows how to write, manipulate, and debug MSBuild projects without closing the Visual Studio IDE.|  
-|[MSBuild Concepts](../msbuild/msbuild-concepts.md)|Presents the four building blocks of MSBuild: properties, items, targets, and tasks.|  
+|[MSBuild concepts](../msbuild/msbuild-concepts.md)|Presents the four building blocks of MSBuild: properties, items, targets, and tasks.|  
 |[Items](../msbuild/msbuild-items.md)|Describes the general concepts behind the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] file format and how the pieces fit together.|  
-|[MSBuild Properties](../msbuild/msbuild-properties.md)|Introduces properties and property collections. Properties are key/value pairs that can be used to configure builds.|  
+|[MSBuild properties](../msbuild/msbuild-properties.md)|Introduces properties and property collections. Properties are key/value pairs that can be used to configure builds.|  
 |[Targets](../msbuild/msbuild-targets.md)|Explains how to group tasks together in a particular order and enable sections of the build process to be called on the command line.|  
 |[Tasks](../msbuild/msbuild-tasks.md)|Shows how to create a unit of executable code that can be used by [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to perform atomic build operations.|  
 |[Conditions](../msbuild/msbuild-conditions.md)|Discusses how to use the `Condition` attribute in an MSBuild element.|  
-|[Advanced Concepts](../msbuild/msbuild-advanced-concepts.md)|Presents batching, performing transforms, multitargeting, and other advanced techniques.|  
+|[Advanced concepts](../msbuild/msbuild-advanced-concepts.md)|Presents batching, performing transforms, multitargeting, and other advanced techniques.|  
 |[Logging in MSBuild](../msbuild/logging-in-msbuild.md)|Describes how to log build events, messages, and errors.|  
-|[Additional Resources](../msbuild/additional-msbuild-resources.md)|Lists community and support resources for more information about MSBuild.|  
+|[Additional resources](../msbuild/additional-msbuild-resources.md)|Lists community and support resources for more information about MSBuild.|  
   
 ## Reference  
- [MSBuild Reference](../msbuild/msbuild-reference.md)  
+ [MSBuild reference](../msbuild/msbuild-reference.md)  
  Links to topics that contain reference information.  
   
  [Glossary](msbuild-glossary.md)

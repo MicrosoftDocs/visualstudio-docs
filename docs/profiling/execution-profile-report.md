@@ -33,7 +33,7 @@ The Execution Profile Report is a traditional sampling profile. Samples are take
 |% Exclusive|The percentage of total samples that is shown in the exclusive samples column. Percentages are rounded to two decimal places.|  
 |Details|Fully qualified name of the function. This includes line count when it is available.|  
   
- This report table can be seen in the [Execution Time (Threads View)](../profiling/execution-time-threads-view.md) view.  
+ This report table can be seen in the [Execution time (Threads View)](../profiling/execution-time-threads-view.md) view.  
   
-## See Also  
+## See also  
  [Threads View](../profiling/threads-view-parallel-performance.md)

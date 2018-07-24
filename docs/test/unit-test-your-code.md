@@ -4,13 +4,13 @@ ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Visual Studio, unit tests"
   - "unit tests, verifying code with"
   - "testing code, automated tests"
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -51,8 +51,8 @@ Use the following topics to help with understanding and creating unit tests:
 ## API reference documentation
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting> describes the UnitTesting namespace, which provides attributes, exceptions, asserts, and other classes that support unit testing.
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Web> describes the UnitTesting.Web namespace, which extends the UnitTesting namespace by providing support for ASP.NET and Web service unit tests.
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Web> describes the UnitTesting.Web namespace, which extends the UnitTesting namespace by providing support for ASP.NET and web service unit tests.
 
 ## See also
 
-- [Improve Code Quality](/visualstudio/test/improve-code-quality)
+- [Improve code quality](../test/improve-code-quality.md)

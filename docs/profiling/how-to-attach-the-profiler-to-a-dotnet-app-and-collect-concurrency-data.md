@@ -11,17 +11,17 @@ manager: douge
 ms.workload: 
   - "dotnet"
 ---
-# How to: Attach the Profiler to a .NET Framework Stand-Alone Application to Collect Concurrency Data by Using the Command Line
-This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the Profiler to a running .NET Framework stand-alone (client) application and collect process and thread concurrency data.  
+# How to: Attach the profiler to a .NET Framework stand-alone application to collect concurrency data by using the command line
+This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a running .NET Framework stand-alone (client) application and collect process and thread concurrency data.  
   
 > [!NOTE]
->  Command-line tools of the Profiling Tools are located in the \Team Tools\Performance Tools subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64 bit computers, both 64 bit and 32 bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to  the command itself. For more information, see [Specifying the Path to Command Line Tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
+>  Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] installation directory. On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to  the command itself. For more information, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).  
   
- While the profiler is attached to the application, you can pause and resume data collection. To end a profiling session, the Profiler must no longer be attached to the application and the Profiler must be explicitly shut down.  
+ While the profiler is attached to the application, you can pause and resume data collection. To end a profiling session, the profiler must no longer be attached to the application and the Profiler must be explicitly shut down.  
   
-## Attaching the Profiler  
+## Attach the profiler  
   
-#### To attach the Profiler to a running .NET Framework application  
+#### To attach the profiler to a running .NET Framework application  
   
 1.  Open a command prompt window.  
   
@@ -51,12 +51,12 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
   
     -   [/targetclr](../profiling/targetclr.md) **:** `Version` specifies the version of the common language runtime (CLR) to profile when more than one version of the runtime is loaded in an application. Optional.  
   
-## Controlling Data Collection  
- While the target application is running, you can control data collection by starting and stopping the writing of data to the file by using VSPerfCmd.exe options. Controlling data collection enables you to collect data for a specific part of program execution, such as the starting or shutting down of the application.  
+## Control data collection  
+ While the target application is running, you can control data collection by starting and stopping the writing of data to the file by using *VSPerfCmd.exe* options. Controlling data collection enables you to collect data for a specific part of program execution, such as the starting or shutting down of the application.  
   
 #### To start and stop data collection  
   
--   The following pairs of VSPerfCmd.exe options start and stop data collection. Specify each option on a separate command-line. You can turn data collection on and off multiple times.  
+-   The following pairs of *VSPerfCmd.exe* options start and stop data collection. Specify each option on a separate command-line. You can turn data collection on and off multiple times.  
   
     |Option|Description|  
     |------------|-----------------|  
@@ -64,7 +64,7 @@ This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprv
     |[/processon](../profiling/processon-and-processoff.md) **:** `PID` [/processoff](../profiling/processon-and-processoff.md) **:** `PID`|Starts (**/processon**) or stops (**/processoff**) data collection for the process specified by the process ID (`PID`).|  
     |[/attach](../profiling/attach.md) **:**{`PID`&#124;`ProcName`} [/detach](../profiling/detach.md)[**:**{`PID`&#124;`ProcName`}]|**/attach** starts to collect data for the process specified by the process ID (`PID`) or process name (ProcName). **/detach** stops data collection for the specified process or for all processes if a specific process is not specified.|  
   
-## Ending the profiling session  
+## End the profiling session  
  To end a profiling session, the profiler must not be collecting data. You can stop collecting data from a application profiled with the concurrency method by closing the application or by invoking the **VSPerfCmd /detach** option. You then invoke the **VSPerfCmd /shutdown** option to turn the profiler off and close the profiling data file. The **VSPerfClrEnv /off** command clears the profiling environment variables.  
   
 #### To end a profiling session  

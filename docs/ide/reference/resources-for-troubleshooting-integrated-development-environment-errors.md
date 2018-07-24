@@ -1,5 +1,5 @@
 ---
-title: Resources for Troubleshooting Integrated Development Environment Errors
+title: Resources for troubleshooting errors
 ms.date: 11/04/2016
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -96,23 +96,23 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Resources for Troubleshooting Integrated Development Environment Errors
+# Resources for troubleshooting integrated development environment errors
 
-Not all error messages have a specific associated Help topic. If the information in the error message does not help you resolve the problem, you can consult other resources such as Knowledge Base articles, the developer community, or product support.
+Not all error messages have a specific associated Help topic. If the information in the error message does not help you resolve the problem, you can consult other resources such as Knowledge Base articles, forums, or product support.
 
-## Knowledge Base Articles
+## Knowledge Base articles
 
-You can search the Knowledge Base (KB) online for articles about product issues. Not all issues have a corresponding KB article, but errors encountered by a significant number of customers are typically documented. You can access KB articles on the [Microsoft Support](https://support.microsoft.com) Web site.
+You can search the Knowledge Base (KB) online for articles about product issues. Not all issues have a corresponding KB article, but errors encountered by a significant number of customers are typically documented. You can access KB articles on the [Microsoft Support](https://support.microsoft.com) website.
 
-## The Developer Community
+## Developer forums
 
 Forums let you interact with other developers, and also Microsoft employees. If you encounter an error that you cannot find a resolution for, you can post questions about the issue on a forum. You can also search the newsgroups to see whether others have posted about the same issue.
 
-You can access forums, blogs, chats, and other resources on the [Microsoft Technical Communities](https://techcommunity.microsoft.com/t5/Communities/ct-p/communities) Web site.
+You can access forums, blogs, chats, and other resources on the [Microsoft Technical Communities](https://techcommunity.microsoft.com/t5/Communities/ct-p/communities) website.
 
-## Product Support
+## Product support
 
-If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Support](http://go.microsoft.com/fwlink/?linkid=1782) Web site. For information about product support available in your area, see [Talk to Us](../../ide/talk-to-us.md).
+If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Support](http://go.microsoft.com/fwlink/?linkid=1782) website. For information about product support available in your area, see [Talk to Us](../../ide/talk-to-us.md).
 
 ## See also
 

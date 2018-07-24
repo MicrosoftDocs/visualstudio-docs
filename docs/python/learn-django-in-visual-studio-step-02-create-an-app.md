@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Tutorial step 2: Create a Django app with views and page templates
+# Step 2: Create a Django app with views and page templates
 
 **Previous step: [Create a Visual Studio project and solution](learn-django-in-visual-studio-step-01-project-and-solution.md)**
 
@@ -45,8 +45,8 @@ Using either method, create an app with the name "HelloDjangoApp". The result is
 
 | Item | Description |
 | --- | --- |
-| `__init.py__` | The file that identifies the app as a package. |
-| `migrations` | A folder in which Django stores scripts that update the database to align with changes to the models. Django's migration tools then apply the necessary changes to any previous version of the database so that it matches the current models. Using migrations, you keep your focus on your models and let Django handle the underlying database schema. Migrations are discussed in step 6; for now, the folder simply contains an `__init.py__` file (indicating that the folder defines its own Python package). |
+| `__init__.py` | The file that identifies the app as a package. |
+| `migrations` | A folder in which Django stores scripts that update the database to align with changes to the models. Django's migration tools then apply the necessary changes to any previous version of the database so that it matches the current models. Using migrations, you keep your focus on your models and let Django handle the underlying database schema. Migrations are discussed in step 6; for now, the folder simply contains an `__init__.py` file (indicating that the folder defines its own Python package). |
 | `templates` | A folder for Django page templates containing a single file `index.html`. Templates are blocks of HTML into which views can add information to dynamically render a page. Page template "variables," such as `{{ content }}` in `index.html`, are placeholders for dynamic values as explained later in this article (step 2). Typically Django apps create a namespace for their templates by placing them in a subfolder that matches the app name. |
 | `admin.py` | The Python file in which you extend the app's administrative interface (see step 6), which is used to see and edit data in a database. Initially, this file contains only the statement, `from django.contrib import admin`. By default, Django includes a standard administrative interface through entries in the Django project's `settings.py` file, which you can turn on by uncommenting existing entries in `urls.py`. |
 | `apps.py` | A Python file that defines a configuration class for the app (see below, after this table). |
@@ -102,7 +102,7 @@ At this point, if you run the project again in Visual Studio (using the toolbar 
 
 Because you've made changes to your code and have tested them successfully, now is a great time to review and commit your changes to source control. Later steps in this tutorial remind you of appropriate time to commit to source control again, and refer you back to this section.
 
-1. Select the changes button along the bottom of Visual Studio (circles below), which navigates to **Team Explorer**.
+1. Select the changes button along the bottom of Visual Studio (circled below), which navigates to **Team Explorer**.
 
     ![Source control changes button on the Visual Studio status bar](media/django/step02-source-control-changes-button.png)
 
@@ -206,9 +206,7 @@ The following steps demonstrate the use of page templates:
 
 1. Run the project and observe the output. You should see a similar message to that seen step 2-2, indicating that the template works.
 
-    Observe, however, that the HTML you used in the `content` property renders only as plain text because the `render` function automatically escapes that HTML. Although you can get around escaping, you ideally should avoid using inline HTML in the first place. Formatting and styling are best kept in the page template, not in the code, and it's a simple matter to create additional variables where needed.
-
-    For example, change `templates/index.html` to match the following markup, which adds a page title and keeps all formatting in the page template:
+    Observe, however, that the HTML you used in the `content` property renders only as plain text because the `render` function automatically escapes that HTML. Automatic escaping prevent accidental vulnerabilities to injection attacks: developers often gather input from one page and use it as a value in another through a template placeholder. Escaping also serves as a reminder that it's again best to keep HTML in the page template and out of the code. Fortunately, it's a simple matter to create additional variables where needed. For example, change `templates/index.html` to match the following markup, which adds a page title and keeps all formatting in the page template:
 
     ```html
     <html>
@@ -269,7 +267,7 @@ Answer: When Django looks for a template referred to in the `render` function, i
 > [!div class="nextstepaction"]
 > [Serve static files, add pages, and use template inheritance](learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)
 
-## Going deeper
+## Go deeper
 
 - [Writing your first Django app, part 1 - views](https://docs.djangoproject.com/en/2.0/intro/tutorial01/#write-your-first-view) (docs.djangoproject.com)
 - For more capabilities of Django templates, such as includes and inheritance, see [The Django template language](https://docs.djangoproject.com/en/2.0/ref/templates/language/) (docs.djangoproject.com)

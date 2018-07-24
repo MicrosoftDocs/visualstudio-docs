@@ -1,7 +1,7 @@
 ---
 title: Python interactive window (REPL)
 description: How to use the interactive window (REPL) for Python code in Visual Studio for rapid code development.
-ms.date: 07/13/2017
+ms.date: 06/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Working with the Python Interactive Window
+# Work with the Python Interactive Window
 
 Visual Studio provides an interactive read-evaluate-print loop (REPL) window for each of your Python environments, which improves upon the REPL you get with `python.exe` on the command line. The interactive window (opened with the **View > Other Windows > &lt;environment&gt; Interactive** menu commands) lets you enter arbitrary Python code and see immediate results. This way of coding helps you learn and experiment with APIs and libraries, and to interactively develop working code to include in your projects.
 

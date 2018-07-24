@@ -27,8 +27,8 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# SharePoint Project Item Schema Reference
-  Visual Studio uses the SharePoint project item schema to validate the contents of .spdata files. An .spdata file specifies the contents and behavior of a SharePoint project item. For more information about the contents of SharePoint project items, see [Creating Item Templates and Project Templates for SharePoint Project Items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).  
+# SharePoint project item schema reference
+  Visual Studio uses the SharePoint project item schema to validate the contents of *.spdata* files. An *.spdata* file specifies the contents and behavior of a SharePoint project item. For more information about the contents of SharePoint project items, see [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md).  
   
  The SharePoint project item schema is named ProjectItemModelSchema.xsd and is installed by default in %Program Files (x86)%\Microsoft Visual Studio 11.0\Xml\Schemas.  
   
@@ -48,7 +48,6 @@ ms.workload:
 |[SafeControl](../sharepoint/safecontrol-element.md)|Represents an ASPX control or Web Part that is designated as secure for any user to access on any ASPX page on the SharePoint site.|  
 |[SafeControls](../sharepoint/safecontrols-element.md)|Represents a collection of ASPX controls and Web Parts that are designated as secure for any user to access on any ASPX page on the SharePoint site.|  
   
-## See Also  
- [Creating Item Templates and Project Templates for SharePoint Project Items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)  
-  
+## See also
+ [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)  
   

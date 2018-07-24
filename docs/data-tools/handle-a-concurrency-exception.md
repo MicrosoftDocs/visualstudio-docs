@@ -38,16 +38,16 @@ Concurrency exceptions (<xref:System.Data.DBConcurrencyException>) are raised wh
 
 6.  Change the same record to a different value, update the dataset, and attempt to write the changes to the database, which results in a concurrency error being raised.
 
-7.  Catch the error, then display the different versions of the record, allowing the user to determine whether to continue and update the database, or to cancel the update.
+7.  Catch the error, then display the different versions of the record, allowing the user to determine whether to continue and update the database, or cancel the update.
 
 ## Prerequisites
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
 
 2.  Install the Northwind sample database by following these steps:
 
-    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 
        A query editor window opens.
 
@@ -55,7 +55,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
-       After a short time, the query finishes executing and the Northwind database is created.
+       After a short time, the query finishes running and the Northwind database is created.
 
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or the edition that you're using. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -65,7 +65,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 #### To create a new Windows Forms application project
 
-1. In Visual Studio, on the **File** menu, select **New**, **Project...**.
+1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
 2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
 
@@ -86,7 +86,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 2.  On the **Choose a Data Source Type** screen, select **Database**.
 
-3.  Select a connection to the Northwind sample database from the list of available connections. If the connection is not available in the list of connections, select **New Connection**
+3.  Select a connection to the Northwind sample database from the list of available connections. If the connection is not available in the list of connections, select **New Connection**.
 
     > [!NOTE]
     >  If you are connecting to a local database file, select **No** when asked if you would you like to add the file to your project.
@@ -110,14 +110,14 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 4.  Drag the table onto an empty area of your form.
 
-     A <xref:System.Windows.Forms.DataGridView> control named `CustomersDataGridView` and a <xref:System.Windows.Forms.BindingNavigator> named `CustomersBindingNavigator` are added to the form that's bound to the <xref:System.Windows.Forms.BindingSource>.This, is in, is turn bound to the `Customers` table in the `NorthwindDataSet`.
+     A <xref:System.Windows.Forms.DataGridView> control named `CustomersDataGridView` and a <xref:System.Windows.Forms.BindingNavigator> named `CustomersBindingNavigator` are added to the form that's bound to the <xref:System.Windows.Forms.BindingSource>. This is, in turn, bound to the `Customers` table in the `NorthwindDataSet`.
 
 ## Test the form
  You can now test the form to make sure it behaves as expected up to this point.
 
 #### To test the form
 
-1.  Select **F5** to run the application
+1.  Select **F5** to run the application.
 
      The form appears with a <xref:System.Windows.Forms.DataGridView> control on it that's filled with data from the `Customers` table.
 
@@ -147,12 +147,12 @@ The user is then able to either overwrite the database with the proposed version
 4.  Resend the update, or reset the data in the dataset.
 
 ### Add code to handle the concurrency exception
- When you attempt to perform an update and an exception gets raised, you generally want to do something with the information that's provided by the raised exception.
+ When you attempt to perform an update and an exception is raised, you generally want to do something with the information that's provided by the raised exception.
 
- In this section, you add code that attempts to update the database. You also handle any <xref:System.Data.DBConcurrencyException> that might get raised, as well as any other exceptions.
+ In this section, you add code that attempts to update the database. You also handle any <xref:System.Data.DBConcurrencyException> that might be raised, as well as any other exceptions.
 
 > [!NOTE]
->  The `CreateMessage` and `ProcessDialogResults` methods will be added later in this walkthrough.
+>  The `CreateMessage` and `ProcessDialogResults` methods are added later in this walkthrough.
 
 ##### To add error handling for the concurrency error
 
@@ -177,7 +177,7 @@ The user is then able to either overwrite the database with the proposed version
      [!code-vb[VbRaddataConcurrency#4](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_3.vb)]
 
 ### Process the user's response
- You also need code to process the user's response to the message box. The options are either to overwrite the current record in the database with the proposed change, or abandon the local changes and refresh the data table with the record that's currently in the database. If the user chooses yes, the <xref:System.Data.DataTable.Merge%2A> method is called with the *preserveChanges* argument set to `true`. This causes the update attempt to be successful, because the original version of the record now matches the record in the database.
+ You also need code to process the user's response to the message box. The options are either to overwrite the current record in the database with the proposed change, or abandon the local changes and refresh the data table with the record that's currently in the database. If the user chooses **Yes**, the <xref:System.Data.DataTable.Merge%2A> method is called with the *preserveChanges* argument set to `true`. This causes the update attempt to be successful, because the original version of the record now matches the record in the database.
 
 ##### To process the user input from the message box
 
@@ -187,7 +187,7 @@ The user is then able to either overwrite the database with the proposed version
      [!code-vb[VbRaddataConcurrency#3](../data-tools/codesnippet/VisualBasic/handle-a-concurrency-exception_4.vb)]
 
 ## Test the form
- You can now test the form to make sure it behaves as expected. To simulate a concurrency violation you need to change data in the database after filling the NorthwindDataSet.
+ You can now test the form to make sure it behaves as expected. To simulate a concurrency violation, you change data in the database after filling the NorthwindDataSet.
 
 #### To test the form
 

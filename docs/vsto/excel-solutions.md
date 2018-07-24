@@ -66,7 +66,7 @@ ms.workload:
  For more information about these generated classes and other features you can use in a document-level project, see [Program document-level customizations](../vsto/programming-document-level-customizations.md).  
   
 ##  <a name="applevel"></a> Develop VSTO Add-ins for Excel  
- A VSTO Add-in for Microsoft Office Excel consists of an assembly that is loaded by Excel. The assembly typically extends Excel by customizing the UI and by automating Excel. Unlike a document-level customization, which is associated with a specific workbook, functionality that you implement in an VSTO Add-in is not restricted to any single workbook.  
+ A VSTO Add-in for Microsoft Office Excel consists of an assembly that is loaded by Excel. The assembly typically extends Excel by customizing the UI and by automating Excel. Unlike a document-level customization, which is associated with a specific workbook, functionality that you implement in a VSTO Add-in is not restricted to any single workbook.  
   
  To create a VSTO Add-in project for Excel, use the Excel workbook or Excel template project templates in the **New Project** dialog box of Visual Studio. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).  
   
@@ -77,7 +77,7 @@ ms.workload:
 ### Excel Add-in programming model  
  When you create an Excel VSTO Add-in project, Visual Studio generates a class, called `ThisAddIn`, which is the foundation of your solution. This class provides a starting point for writing your code, and it also exposes the object model of Excel to your VSTO Add-in.  
   
- For more information about the `ThisAddIn` class and other Visual Studio features you can use in an VSTO Add-in, see [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).  
+ For more information about the `ThisAddIn` class and other Visual Studio features you can use in a VSTO Add-in, see [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md).  
   
 ##  <a name="UI"></a> Customize the user interface of Excel  
  There are several different ways to customize the user interface of Excel. Some options are available to all project types, and other options are available only to VSTO Add-ins or document-level customizations.  

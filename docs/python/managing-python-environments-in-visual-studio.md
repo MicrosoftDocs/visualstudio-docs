@@ -1,7 +1,7 @@
 ---
 title: Manage Python environments and interpreters
 description: Use the Python Environments window to manage global, virtual, and conda environments, installing Python interpreters and packages, and assigning environments to Visual Studio projects.
-ms.date: 05/22/2018
+ms.date: 07/23/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -82,7 +82,7 @@ In either case, the **Python Environments** window appears as a sibling tab to S
 
 ![Python Environments window](media/environments-default-view.png)
 
-If you don't see an expected environment in the list, see [Manually identify an existing environment](#manually-identify-an-existing-environment).
+Visual Studio follows [PEP 514](https://www.python.org/dev/peps/pep-0514/) to identify installed environments using the registry. If you don't see an expected environment in the list, see [Manually identify an existing environment](#manually-identify-an-existing-environment).
 
 Selecting an environment in the list displays various properties and commands for that environment on the **Overview** tab. For example, you can see in the image above that the interpreter's location is `C:\Python36-32`. Use the drop-down list below the list of environments to switch to different tabs such as **Packages**, and **IntelliSense**. These tabs are described in [Python Environments window tab reference](python-environments-window-tab-reference.md).
 
@@ -113,7 +113,27 @@ If you know you have a Python interpreter on your computer but Visual Studio (an
 >
 > However, if you manually move an interpreter and its environment using the file system, Visual Studio won't know the new location. For more information, see [Moving an interpreter](installing-python-interpreters.md#moving-an-interpreter).
 
-<a name="manually-identifying-an-existing-environment></a>
+## Fix or delete invalid environments
+
+If Visual Studio finds registry entries for an environment, but the path to the interpreter is invalid, then the Python Environments window shows the name with a strikeout font:
+
+![The Python Environments window showing an invalid environment](media/environments-invalid-entry.png)
+
+To correct an environment you wish to keep, first try using its installer's **Repair** process. The installers for standard Python 3.x, for example, include that option.
+
+To correct an environment that doesn't have a repair option, or to remove an invalid environment, use the following steps to modify the registry directly. Visual Studio automatically updates the Python Environments window when you make changes to the registry.
+
+1. Run `regedit.exe`.
+1. Navigate to `HKEY_LOCAL_MACHINE\SOFTWARE\Python` for 32-bit interpreters, or `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Python` for 64-bit interpreters. For IronPython, look for `IronPython` instead.
+1. Expand the node that matches the distribution, such as `PythonCore` for CPython or `ContinuumAnalytics` for Anaconda. For IronPython, expand the version number node.
+1. Inspect the values under the `InstallPath` node:
+
+    ![Registry entries for a typical CPython installation](media/environments-registry-entries.png)
+
+    - If the environment still exists on your computer, change the value of `ExecutablePath` to the correct location. Also correct the `(Default)` and `WindowedExecutablePath` values as necessary.
+    - If the environment no longer exists on your computer and you want to remove it from the Python Environments window, delete the parent node of `InstallPath`, such as `3.6` in the image above.
+
+<a name="manually-identifying-an-existing-environment"></a>
 
 ## Manually identify an existing environment
 

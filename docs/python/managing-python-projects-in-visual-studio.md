@@ -1,7 +1,7 @@
 ---
 title: Managing Python application projects
 description: The purpose of projects in Visual Studio, how to create and manage projects for Python code, and the different project templates available for Python.
-ms.date: 03/05/2018
+ms.date: 06/27/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -104,7 +104,7 @@ Linked files are ignored under any of the following conditions:
 - The linked file contains Link metadata and the Link path is a relative path outside of the project hierarchy
 - The link path is rooted
 
-### Working with linked files
+### Work with linked files
 
 To add an existing item as a link, right-click the folder in the project where you wish to add the file, then select **Add > Exiting Item...**. In the dialog that appears, select a file and choose **Add as Link** from the drop-down on the **Add** button. Provided that there are no conflicting files, this command creates a link in the selected folder. However, the link is not added if there is already a file with the same name or a link to that file already exists in the project.
 
@@ -134,7 +134,18 @@ You may also need to add a [search path](search-paths.md) to the folder containi
 
 When working with IronPython, you can add references to .NET assemblies to enable IntelliSense. For .NET projects in your solution, right-click the **References** node in your Python project, select **Add Reference**, select the **Projects** tab, and browse to the desired project. For DLLs that you've downloaded separately, select the **Browse** tab instead and browse to the desired DLL.
 
-Because references in IronPython are not available until a call to `clr.AddReference('AssemblyName')` is made, you also need to add a `clr.AddReference` call to the assembly.
+Because references in IronPython are not available until a call to `clr.AddReference('<AssemblyName>')` is made, you also need to add an appropriate `clr.AddReference` call to the assembly, typically at the beginning of your code. For example, the code created by the **IronPython Windows Forms Application** project template in Visual Studio includes two calls at the top of the file:
+
+```python
+import clr
+clr.AddReference('System.Drawing')
+clr.AddReference('System.Windows.Forms')
+
+from System.Drawing import *
+from System.Windows.Forms import *
+
+# Other code omitted
+```
 
 ### WebPI projects
 

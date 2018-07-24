@@ -23,7 +23,7 @@ Load tests provide named counter sets that are useful when you analyze performan
 > [!NOTE]
 > If your load tests are distributed across remote machines, controller and agent counters are mapped to the controller and agent counter sets. For more information about how to use remote machines in your load test, see [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md).
 
-Counter sets are gathered on computers that you specify. The association between a counter set and a computer that is used during a load test is a *counter set map*. For example, the Web server that you are testing might have ASP.NET, IIS, and .NET application counter set mappings.
+Counter sets are gathered on computers that you specify. The association between a counter set and a computer that is used during a load test is a *counter set map*. For example, the web server that you are testing might have ASP.NET, IIS, and .NET application counter set mappings.
 
 By default, performance counters are collected on the controller and agents. For more information, see [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md).
 
@@ -50,9 +50,9 @@ There are three counter categories: percentages, counts, and averages. Some exam
 
 Performance data for individual HTTP requests is reported by the computer that runs a test. such as an agent computer. For requests, you might monitor data such as Average Time to First Byte, Response Time, and Requests per Second.
 
-To ease collection of performance data on a Web server, Visual Studio Enterprise also provides predefined, named counter sets, based on technology for use in load tests. These sets are useful when you are analyzing a server that is running IIS, ASP.NET, or SQL Server. Counters not provided in the default set of counter can be added by using the Load Test Editor. It is important that you add the computers or servers under test to your load test to make sure that you can monitor resource use on these computers. For more information, see [How to: Manage Counter Sets](../test/how-to-manage-counter-sets-using-the-load-test-editor.md).
+To ease collection of performance data on a web server, Visual Studio Enterprise also provides predefined, named counter sets, based on technology for use in load tests. These sets are useful when you are analyzing a server that is running IIS, ASP.NET, or SQL Server. Counters not provided in the default set of counter can be added by using the Load Test Editor. It is important that you add the computers or servers under test to your load test to make sure that you can monitor resource use on these computers. For more information, see [How to: Manage Counter Sets](../test/how-to-manage-counter-sets-using-the-load-test-editor.md).
 
-Results analysis of load runs frequently requires domain-specific knowledge of a particular area in order to know what data to gather, where to set threshold rules, and how to tell when a measurement reflects a specific problem in the application. For more information, see [About Threshold Rules](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md#SpecifyingCounterSetsThresholdRulesAboutThresholdRules).
+Results analysis of load runs frequently requires domain-specific knowledge of a particular area in order to know what data to gather, where to set threshold rules, and how to tell when a measurement reflects a specific problem in the application. For more information, see [About Threshold Rules](#about-threshold-rules).
 
 ### Performance Counter Sampling Interval Considerations
 

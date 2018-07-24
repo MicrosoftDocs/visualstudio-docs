@@ -60,11 +60,11 @@ We recommend that you create unit tests to help keep your code working correctly
 
 
 > [!NOTE]
-> If no test appears, make sure that you have installed an adapter to connect Test Explorer to the test framework that you are using. For more information, see [Using Different Test Frameworks with Test Explorer](#frameworks).
+> If no test appears, make sure that you have installed an adapter to connect Test Explorer to the test framework that you are using. For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
 
 
 ##  <a name="walkthrough"></a> Walkthrough: Using Unit Tests to Develop a Method
- This walkthrough demonstrates how to develop a tested method in C# using the Microsoft Unit Test framework. You can easily adapt it for other languages, and to use other test frameworks such as NUnit. For more information, see [Using Different Test Frameworks](#frameworks).
+ This walkthrough demonstrates how to develop a tested method in C# using the Microsoft Unit Test framework. You can easily adapt it for other languages, and to use other test frameworks such as NUnit. For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
 
 #### Creating the Test and Method
 
@@ -184,7 +184,7 @@ We recommend that you create unit tests to help keep your code working correctly
 
 3.  Inspect the method under test to see what might be wrong. In the `MyMath.Rooter` class, rewrite the code:
 
-    ```
+    ```csharp
     public double SquareRoot(double input)
     {
       double result = input;

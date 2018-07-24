@@ -1,5 +1,5 @@
 ---
-title: "Outlook Object Model Overview | Microsoft Docs"
+title: "Outlook object model overview"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -53,7 +53,7 @@ ms.workload:
 ### Application object  
  The <xref:Microsoft.Office.Interop.Outlook.Application> object represents the Outlook application, and it is the highest-level object in the Outlook object model. Some of the most important members of this object include:  
   
--   The [CreateItem](http://msdn.microsoft.com/en-us/771707fb-5f34-473d-9fdf-09a6a7f55ece) method which you can use to create a new item such as an e-mail message, task, or appointment.  
+-   The [CreateItem](http://msdn.microsoft.com/771707fb-5f34-473d-9fdf-09a6a7f55ece) method which you can use to create a new item such as an e-mail message, task, or appointment.  
   
 -   The <xref:Microsoft.Office.Interop.Outlook._Application.Explorers%2A> property, which you can use to access the windows that display the contents of a folder in the Outlook user interface (UI).  
   
@@ -108,7 +108,7 @@ ms.workload:
 ### TaskItem object  
  The <xref:Microsoft.Office.Interop.Outlook.TaskItem> object represents a task to be performed within a specified time frame. <xref:Microsoft.Office.Interop.Outlook.TaskItem> objects are located in the **Tasks** folder.  
   
- To create a task, use the [CreateItem](http://msdn.microsoft.com/en-us/771707fb-5f34-473d-9fdf-09a6a7f55ece) method of the <xref:Microsoft.Office.Interop.Outlook.Application> object, and pass in the value <xref:Microsoft.Office.Interop.Outlook.OlItemType.olTaskItem> for the parameter.  
+ To create a task, use the [CreateItem](http://msdn.microsoft.com/771707fb-5f34-473d-9fdf-09a6a7f55ece) method of the <xref:Microsoft.Office.Interop.Outlook.Application> object, and pass in the value <xref:Microsoft.Office.Interop.Outlook.OlItemType.olTaskItem> for the parameter.  
   
 ### ContactItem object  
  The <xref:Microsoft.Office.Interop.Outlook.ContactItem>object represents a contact in the **Contacts** folder. <xref:Microsoft.Office.Interop.Outlook.ContactItem> objects contain a variety of contact information for the people they represent, such as street addresses, e-mail addresses, and phone numbers.  
@@ -132,9 +132,9 @@ ms.workload:
   
 |Title|Description|  
 |-----------|-----------------|  
-|[Work with Contact items](../vsto/working-with-contact-items.md)|Provides topics that show how to perform tasks with contacts.|  
-|[Work with Mail items](../vsto/working-with-mail-items.md)|Provides topics that show how to perform tasks with mail items.|  
+|[Work with contact items](../vsto/working-with-contact-items.md)|Provides topics that show how to perform tasks with contacts.|  
+|[Work with mail items](../vsto/working-with-mail-items.md)|Provides topics that show how to perform tasks with mail items.|  
 |[Work with folders](../vsto/working-with-folders.md)|Provides topics that show how to perform tasks with folders.|  
-|[Work with Calendar items](../vsto/working-with-calendar-items.md)|Provides topics that show how to perform tasks with calendar items.|  
+|[Work with calendar items](../vsto/working-with-calendar-items.md)|Provides topics that show how to perform tasks with calendar items.|  
 |[How to: Programmatically determine the current Outlook item](../vsto/how-to-programmatically-determine-the-current-outlook-item.md)|Shows how to display the name of the current folder and some information about the selected item.|  
   

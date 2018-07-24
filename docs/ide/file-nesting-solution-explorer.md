@@ -26,7 +26,7 @@ The available options for non-customized file nesting are:
 
 * **Off**: This option gives you a flat list of files without any nesting.
 
-* **Default**: This option gives you the default file nesting behavior in **Solution Explorer**. If no settings exist for a given project type, then no files in the project are nested. If settings exist, for example, for a Web project, nesting is applied.
+* **Default**: This option gives you the default file nesting behavior in **Solution Explorer**. If no settings exist for a given project type, then no files in the project are nested. If settings exist, for example, for a web project, nesting is applied.
 
 * **Web**: This option applies the **Web** file nesting behavior to all the projects in the current solution. It has numerous rules, and we encourage you to check it out and tell us what you think. The following screenshot highlights just a few examples of the file nesting behavior that you get with this option:
 
@@ -110,7 +110,7 @@ This provider lets you define file nesting rules based on entire filenames. Cons
 
 ![fileToFile example rules](media/filenesting_filetofile.png) ![fileToFile example effect](media/filenesting_filetofile_effect.png)
 
-* *bower.json* is nested under *.bowerrc* because of the **fileToFile** rule
+* *.bowerrc* is nested under *bower.json* because of the **fileToFile** rule
 
 ### Rule order
 

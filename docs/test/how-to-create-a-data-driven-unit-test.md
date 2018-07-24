@@ -108,13 +108,13 @@ The `Assert` method includes a message that displays the `x` and `y` values of a
 ###  <a name="BKMK_Specifying_the_DataSourceAttribute"></a> Specifying the DataSourceAttribute
  The `DataSource` attribute specifies the connection string for the data source and the name of the table that you use in the test method. The exact information in the connection string differs, depending on what kind of data source you are using. In this example, we used a SqlServerCe database.
 
-```
+```csharp
 [DataSource(@"Provider=Microsoft.SqlServerCe.Client.4.0;Data Source=C:\Data\MathsData.sdf", "AddIntegersData")]
 ```
 
 The DataSource attribute has three constructors.
 
-```
+```csharp
 [DataSource(dataSourceSettingName)]
 ```
 
@@ -122,7 +122,7 @@ The DataSource attribute has three constructors.
 
  Using an app.config file allows you to change the location of the data source without making changes to the unit test itself. For information about how to create and use an app.config file, see [Walkthrough: Using a Configuration File to Define a Data Source](../test/walkthrough-using-a-configuration-file-to-define-a-data-source.md)
 
-```
+```csharp
 [DataSource(connectionString, tableName)]
 ```
 
@@ -130,7 +130,7 @@ The DataSource attribute has three constructors.
 
  The connection strings depend on the type of the type of data source, but it should contain a Provider element that specifies the invariant name of the data provider.
 
-```
+```csharp
 [DataSource(
     dataProvider,
     connectionString,
@@ -147,7 +147,7 @@ int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
 ```
 
 ##  <a name="BKMK_Running_the_test_and_viewing_results"></a> Running the test and viewing results
- When you have finished writing a test method, build the test project. The test method appears in the Test Explorer window in the **Not Run Tests** group. As you run, write, and rerun your tests, Test Explorer displays the results in groups of **Failed Tests**, **Passed Tests**, and **Not Run Tests**. You can choose **Run All** to run all your tests, or choose **Run...** to choose a subset of tests to run.
+ When you have finished writing a test method, build the test project. The test method appears in the Test Explorer window in the **Not Run Tests** group. As you run, write, and rerun your tests, Test Explorer displays the results in groups of **Failed Tests**, **Passed Tests**, and **Not Run Tests**. You can choose **Run All** to run all your tests, or choose **Run** to choose a subset of tests to run.
 
  The test results bar at the top of the Explorer is animated as your test runs. At the end of the test run, the bar will be green if all of the tests have passed or red if any of the tests have failed. A summary of the test run appears in the details pane at the bottom of the Test Explorer window. Select a test to view the details of that test in the bottom pane.
 

@@ -19,7 +19,7 @@ ms.workload:
   
 ## Syntax  
   
-```c  
+```csharp  
 HRESULT EnsureVSTOComponent(  
     IVSTProject *pProject  
 );  

@@ -11,11 +11,11 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# XAttribute Class Dynamic Properties
+# XAttribute class dynamic properties
 
 This section describes the dynamic properties of the <xref:System.Xml.Linq.XAttribute?displayProperty=fullName>.
 
-## In This Section
+## In this section
 
 |Topic|Description|
 |-----------|-----------------|
@@ -24,5 +24,5 @@ This section describes the dynamic properties of the <xref:System.Xml.Linq.XAttr
 ## See also
 
 - <xref:System.Xml.Linq.XAttribute?displayProperty=fullName>
-- [LINQ to XML Dynamic Properties](../designers/linq-to-xml-dynamic-properties.md)
-- [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)
+- [LINQ to XML dynamic properties](../designers/linq-to-xml-dynamic-properties.md)
+- [XElement class dynamic properties](../designers/xelement-class-dynamic-properties.md)

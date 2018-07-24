@@ -35,16 +35,16 @@ There are three types of breakpoints: pending, bound, and error.
   
  **An error breakpoint:**  
   
--   Is an abstraction for describing an error in attempting to bind a pending breakpoint to a code context. An error breakpoint describes either an error in location or in the breakpoint expression itself. For more information, see [Binding Breakpoints](../../extensibility/debugger/binding-breakpoints.md).  
+-   Is an abstraction for describing an error in attempting to bind a pending breakpoint to a code context. An error breakpoint describes either an error in location or in the breakpoint expression itself. For more information, see [Binding breakpoints](../../extensibility/debugger/binding-breakpoints.md).  
   
      The breakpoint error can be either an error or a warning.  
   
 -   Is represented by an [IDebugErrorBreakpoint2](../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) interface.  
   
-## See Also  
+## See also  
  [Programs](../../extensibility/debugger/programs.md)   
- [Debugger Concepts](../../extensibility/debugger/debugger-concepts.md)   
- [Code Context](../../extensibility/debugger/code-context.md)   
+ [Debugger concepts](../../extensibility/debugger/debugger-concepts.md)   
+ [Code context](../../extensibility/debugger/code-context.md)   
  [IDebugBoundBreakpoint2](../../extensibility/debugger/reference/idebugboundbreakpoint2.md)   
  [IDebugPendingBreakpoint2](../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)   
  [IDebugErrorBreakpoint2](../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)

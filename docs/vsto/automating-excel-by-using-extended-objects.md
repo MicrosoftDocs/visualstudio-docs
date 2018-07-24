@@ -24,7 +24,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Automate Excel by using etended objects
+# Automate Excel by using extended objects
   When you develop Excel solutions in Visual Studio, you can use *host items* and *host control*s in your solutions. These are objects that extend certain commonly used objects in the Excel object model (that is, the object model that is exposed by the primary interop assembly for Excel), such as the <xref:Microsoft.Office.Interop.Excel.Worksheet> and <xref:Microsoft.Office.Interop.Excel.Range> objects. The extended objects behave like the Excel objects they are based on, but they add additional features such as new events and data binding capabilities to the objects.  
   
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]  
@@ -34,7 +34,7 @@ ms.workload:
 ## Excel host items  
  Excel projects give you access to several host items:  
   
--   <xref:Microsoft.Office.Tools.Excel.Worksheet>. This host item contains represents a worksheet in your project. It also acts as a container for managed controls, including host controls and Windows Forms controls, and it maintains information about the controls on its surface. For more information, see [Worksheet host item](../vsto/worksheet-host-item.md).  
+-   <xref:Microsoft.Office.Tools.Excel.Worksheet>. This host item contains and represents a worksheet in your project. It also acts as a container for managed controls, including host controls and Windows Forms controls, and it maintains information about the controls on its surface. For more information, see [Worksheet host item](../vsto/worksheet-host-item.md).  
   
 -   <xref:Microsoft.Office.Tools.Excel.Workbook>. This host item represents the workbook in your project, and acts as a container for components that are shared by all worksheets in the workbook. For more information, see [Workbook host item](../vsto/workbook-host-item.md).  
   

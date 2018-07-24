@@ -18,8 +18,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Specify Verbose Log Files for ClickOnce Deployments
-[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] maintains activity log files for all deployments. These logs document details pertaining to installing, initializing, updating, and uninstalling a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment. To increase the detail that [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] writes to these log files, use Registry Editor (**regedit.exe**) to specify the verbosity level.  
+# How to: Specify verbose log files for ClickOnce deployments
+[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] maintains activity log files for all deployments. These logs document details pertaining to installing, initializing, updating, and uninstalling a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment. To increase the detail that [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] writes to these log files, use Registry Editor (*regedit.exe*) to specify the verbosity level.  
   
 > [!CAUTION]
 >  If you use Registry Editor incorrectly, you may cause serious problems that may require you to reinstall the operating system. Use Registry Editor at your own risk.  
@@ -28,13 +28,13 @@ ms.workload:
   
 ### To specify verbose log files  
   
-1.  Open **Regedit.exe**.  
+1.  Open *Regedit.exe*.  
   
-2.  Navigate to the node `HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Deployment`.  
+2.  Navigate to the node **HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Deployment**.  
   
 3.  If necessary, create a new string value named `LogVerbosityLevel`.  
   
 4.  Set the `LogVerbosityLevel` value to `1`.  
   
-## See Also  
- [Troubleshooting ClickOnce Deployments](../deployment/troubleshooting-clickonce-deployments.md)
+## See also  
+ [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)

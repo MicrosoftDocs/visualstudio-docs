@@ -1,7 +1,7 @@
 ---
 title: Debugging Python code
 description: A walkthrough of the debugging features in Visual Studio specifically for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
-ms.date: 03/05/2018
+ms.date: 07/13/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Debugging your Python code
+# Debug your Python code
 
 Visual Studio provides a comprehensive debugging experience for Python, including attaching to running processes, evaluating expressions in the Watch and Immediate windows, inspecting local variables, breakpoints, step in/out/over statements, Set Next Statement, and more.
 
@@ -188,6 +188,49 @@ Note that the standard debugger windows such as Processes, Threads, and Call Sta
 The Debug Interactive window has its own set of options, which you can access through **Tools > Options > Python Tools > Debug Interactive Window**. Unlike the regular Python Interactive window, which has a separate instance for each Python environment, there is only one Debug Interactive window and it always uses the Python interpreter for the process being debugged. See [Options - Debugging options](python-support-options-and-settings-in-visual-studio.md#debugging-options).
 
 ![Debug Interactive Window Options](media/debugging-interactive-options.png)
+
+## Use the experimental debugger
+
+Starting with Visual Studio 2017 Preview 4.0, you can opt into using the "experimental debugger", which is based on ptvsd version 4.1+. To opt in, select the **Tools** > **Options** menu command, then navigate to **Python** > **Experimental** in the Options dialog box and select **Use experimental debugger.**
+
+The experimental debugger is compatible with only limited Python environments, as described in the following table:
+
+| Python version | Compatible with the experimental debugger |
+| --- | --- |
+| 2.6 | No |
+| 2.7 | Yes |
+| 3.1 to 3.4 | No |
+| 3.5 and later | Yes |
+| IronPython | No |
+
+If you attempt to use the experimental debugger with an incompatible environment, Visual Studio shows the error, "Debugger is incompatible with this environment":
+
+![Debugger is incompatible with this environment error when using the experimental debugger](media/debugging-experimental-incompatible-error.png)
+
+Select the **Disable the experimental debugger** command, which clears the **Use experimental debugger** option.
+
+> [!Note]
+> The warning is not presently shown for Python 3.3 and 3.4.
+
+If you've installed an older version of ptvsd in the current environment (such as an earlier 4.0.x version of a 3.x version required for remote debugging), Visual Studio shows either the error "Debugger package could not be loaded," or the warning, "Debugger package is outdated":
+
+![Debugger package could not be loaded error when using the experimental debugger](media/debugging-experimental-version-error.png)
+
+![Debugger package is outdated warning when using the experimental debugger](media/debugging-experimental-version-warning.png)
+
+To manage your ptvsd installation, use the  **Packages** tab in the **Python Environments** window, or use the following commands from the command line:
+
+```ps
+# Uninstalling ptvsd causes VS to default to its bundled 4.1.x version.
+pip uninstall ptvsd
+
+# Upgrading ptvsd gives you the latest version, which may be newer than the bundled version.
+# -pre is required to allow pre-release versions as currently required by the experimental debugger.
+pip install --upgrade ptvsd -pre
+```
+
+> [!Important]
+> Although you may choose to ignore the warning for some versions of ptvsd, Visual Studio may not work correctly.
 
 ## See also
 

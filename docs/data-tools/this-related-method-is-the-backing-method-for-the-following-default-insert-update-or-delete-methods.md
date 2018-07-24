@@ -13,9 +13,9 @@ ms.workload:
 ---
 # This related method is the backing method for the following default insert, update, or delete methods
 
-This related method is the backing method for the following default insert, update, or delete methods. If it is deleted, these methods will be deleted as well. Do you wish to continue?
+This related method is the backing method for the following default `Insert`, `Update`, or `Delete` methods. If it is deleted, these methods will be deleted as well. Do you wish to continue?
 
-The selected `DataContext` method is currently used as one of the Insert, Update, or Delete methods for one of the entity classes on the O/R Designer. Deleting the selected method will cause the entity class that was using this method to revert to the default run-time behavior for performing the Insert, Update, or Delete during an update.
+The selected `DataContext` method is currently used as one of the `Insert`, `Update`, or `Delete` methods for one of the entity classes on the **O/R Designer**. Deleting the selected method causes the entity class that was using this method to revert to the default run-time behavior for performing the insert, update, or delete during an update.
 
 ## To delete the selected method, causing the entity class to use runtime updates
 

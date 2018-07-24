@@ -76,7 +76,7 @@ Before you start debugging the calling application, you will usually want to set
   
 2.  To test a method named `Test` in class `Class1`, instantiate an object of type `Class1` by typing the following C# code in the Immediate window. This managed code works for Visual Basic and C++, with appropriate syntax changes:  
   
-    ```  
+    ```cpp
     Class1 obj = new Class1();  
     ```  
   
@@ -84,7 +84,7 @@ Before you start debugging the calling application, you will usually want to set
   
 3.  Assuming that `Test` takes one `int` parameter, evaluate `Test` using the **Immediate** window:  
   
-    ```  
+    ```cpp
     ?obj.Test(10)  
     ```  
   
@@ -92,7 +92,7 @@ Before you start debugging the calling application, you will usually want to set
   
 4.  You can continue to debug `Test` by placing a breakpoint inside it and then evaluating the function again:  
   
-    ```  
+    ```cpp
     ?obj.Test(10);  
     ```  
   

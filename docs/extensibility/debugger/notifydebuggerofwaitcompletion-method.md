@@ -14,12 +14,12 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# NotifyDebuggerOfWaitCompletion Method
+# NotifyDebuggerOfWaitCompletion method
 Placeholder method used as a breakpoint target by the debugger. This method must not be inlined or optimized.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   
- **Assembly:** mscorlib (in mscorlib.dll)  
+ **Assembly:** mscorlib (in *mscorlib.dll*)  
   
 ## Syntax  
   
@@ -32,5 +32,5 @@ private void NotifyDebuggerOfWaitCompletion()
   
 ## Requirements  
   
-## See Also  
- [Task Class](../../extensibility/debugger/task-class-internal-members.md)
+## See also  
+ [Task class](../../extensibility/debugger/task-class-internal-members.md)

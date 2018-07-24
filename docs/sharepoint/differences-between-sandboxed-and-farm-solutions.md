@@ -21,25 +21,24 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Differences Between Sandboxed and Farm Solutions
+# Differences between sandboxed and farm solutions
   When you compile a SharePoint solution, it deploys to the SharePoint server and a debugger attaches to debug it. The process used to debug the solution depends on the setting of the Sandboxed Solution property: sandboxed solution or farm solution.  
   
- For more information, see [Sandboxed Solution Considerations](../sharepoint/sandboxed-solution-considerations.md).  
+ For more information, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).  
   
-## Farm Solutions  
+## Farm solutions
  Farm solutions, which are hosted in the IIS worker process (W3WP.exe), run code that can affect the whole farm. When you debug a SharePoint project whose Sandboxed Solution property is set to "farm solution," the system's IIS application pool recycles before SharePoint retracts or deploys the feature so as to release any files locked by the IIS worker process. Only the IIS application pool serving the SharePoint project's site URL is recycled.  
   
-## Sandboxed Solutions  
+## Sandboxed solutions
  Sandboxed solutions, which are hosted in the SharePoint user code solution worker process (SPUCWorkerProcess.exe), run code that can only affect the site collection of the solution. Because sandboxed solutions do not run in the IIS worker process, neither the IIS application pool nor the IIS server must restart. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] attaches the debugger to the SPUCWorkerProcess process that the SPUserCodeV4 service in SharePoint automatically triggers and controls. It is not necessary for the SPUCWorkerProcess process to recycle to load the latest version of the solution.  
   
-## Either Type of Solution  
+## Either type of solution
  With either solution type, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] also attaches the debugger to the browser to enable client-side script debugging. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] uses the script debugging engine for this purpose. To enable script debugging, you must change the default browser settings when you are prompted.  
   
  [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] attaches the debugger only to the W3WP or SPUCWorkerProcess processes running the current site. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] also attaches the managed COM Plus and workflow debugging engines.  
   
-## See Also  
- [Debugging SharePoint Solutions](../sharepoint/debugging-sharepoint-solutions.md)   
- [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)   
- [Sandboxed Solution Considerations](../sharepoint/sandboxed-solution-considerations.md)  
-  
+## See also
+ [Debug SharePoint solutions](../sharepoint/debugging-sharepoint-solutions.md)   
+ [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)   
+ [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md)  
   

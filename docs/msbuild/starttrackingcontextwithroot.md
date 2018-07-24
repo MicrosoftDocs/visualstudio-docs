@@ -37,11 +37,11 @@ HRESULT WINAPI StartTrackingContextWithRoot(LPCTSTR intermediateDirectory, LPCTS
  [in] `rootMarkerResponseFile`  
  The pathname of a response file containing a root marker. The root name is used to group all tracking for a context together.  
   
-## Return Value  
+## Return value  
  An **HRESULT** with the **SUCCEEDED** bit set if the tracking context was created.  
   
 ## Requirements  
- **Header:** FileTracker.h  
+ **Header:** *FileTracker.h*  
   
-## See Also  
+## See also  
  [StartTrackingContext](../msbuild/starttrackingcontext.md)

@@ -141,7 +141,7 @@ Each operation generates several log files in the `%TEMP%` directory that indica
 
 ## Get support
 
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
 
 Here are a few more support options:
 
@@ -155,3 +155,4 @@ Here are a few more support options:
 * [Command-line parameter examples for Visual Studio 2017 installation](command-line-parameter-examples.md)
 * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
 * [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md)
+* [Visual Studio 2017 workload and component IDs](workload-and-component-ids.md)

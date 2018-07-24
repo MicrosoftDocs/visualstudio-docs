@@ -3,15 +3,15 @@ title: "How to: Respond to the Just-In-Time Debugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/23/17"
 ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
-helpviewer_keywords: 
+ms.topic: "troubleshooting"
+helpviewer_keywords:
   - "debugging [Visual Studio], Just-In-Time"
   - "Just-In-Time debugging"
 ms.assetid: 14972d5f-69bc-479b-9529-03b8787b118f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # How to: Respond to the Just-In-Time Debugger
@@ -20,7 +20,7 @@ The actions you should take when you see the Just-in-Time debugger dialog box de
 
 #### If you want to fix or debug the error (Visual Studio users)
 
-- You must have [Visual Studio installed](http://www.visualstudio.com) to view the detailed information about the error and to try to debug it. For more information, see [Debug using the Just-In-Time Debugger](../debugger/debug-using-the-just-in-time-debugger.md). If you cannot resolve the error and fix the app, contact the owner of the app to resolve the error.
+- You must have [Visual Studio installed](http://visualstudio.microsoft.com) to view the detailed information about the error and to try to debug it. For more information, see [Debug using the Just-In-Time Debugger](../debugger/debug-using-the-just-in-time-debugger.md). If you cannot resolve the error and fix the app, contact the owner of the app to resolve the error.
 
 #### If you want to prevent the Just-In-Time Debugger dialog box from appearing
 
@@ -42,6 +42,6 @@ You can take steps to prevent the Just-in-Time Debugger dialog box from appearin
 2. (ASP.NET and IIS) If you are hosting an ASP.NET Web app in IIS, disable server-side debugging.
 
     In IIS Manager, right-click the server node and choose **Switch to Features View**. Under the ASP.NET section, choose **.NET Compilation** and then make sure you choose **False** as the Debug behavior (the steps are different in older versions of IIS).
-  
-## See Also    
- [Debugger Basics](../debugger/debugger-basics.md)   
+
+## See Also
+ [Debugger Basics](../debugger/getting-started-with-the-debugger.md)

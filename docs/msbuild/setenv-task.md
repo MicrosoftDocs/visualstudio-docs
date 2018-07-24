@@ -22,7 +22,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# SetEnv Task
+# SetEnv task
 Sets or deletes the value of a specified environment variable.  
   
 ## Parameters  
@@ -33,10 +33,8 @@ Sets or deletes the value of a specified environment variable.
 |**Name**|Required **String** parameter.<br /><br /> The name of an environment variable.|  
 |**OutputEnvironmentVariable**|Optional **String** output parameter.<br /><br /> Contains the value that is assigned to the environment variable that is specified by the **Name** parameter.|  
 |**Prefix**|Mandatory `Boolean` parameter.<br /><br /> If `true`, concatenates the value of the **Value** parameter before the value of the environment variable that is specified by the **Name** parameter, and then assigns the result to the environment variable. If `false`, assigns only the value of the **Value** parameter to the environment variable.|  
-|**Target**|Optional **String** parameter.<br /><br /> Specifies the location where an environment variable is stored. Specify "`User`" or "`Machine`".<br /><br /> For more information, see "EnvironmentVariableTarget Enumeration" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.|  
-|**Value**|Optional **String** parameter.<br /><br /> The value assigned to the environment variable that is specified by the **Name** parameter. If **Value** is empty and the variable exists, the variable is deleted. If the variable does not exist, no error occurs even though the operation cannot be performed.<br /><br /> For more information, see "Environment::SetEnvironmentVariable Method" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.|  
+|**Target**|Optional **String** parameter.<br /><br /> Specifies the location where an environment variable is stored. Specify "User" or "Machine".<br /><br /> For more information, see [EnvironmentVariableTarget Enumeration](https://msdn.microsoft.com/library/system.environmentvariabletarget(v=vs.110).aspx) on the MSDN website.|  
+|**Value**|Optional **String** parameter.<br /><br /> The value assigned to the environment variable that is specified by the **Name** parameter. If **Value** is empty and the variable exists, the variable is deleted. If the variable does not exist, no error occurs even though the operation cannot be performed.<br /><br /> For more information, see [Environment::SetEnvironmentVariable Method](https://msdn.microsoft.com/library/96xafkes(v=vs.110).aspx) on the MSDN website.|  
   
-## Remarks  
-  
-## See Also  
- [Task Reference](../msbuild/msbuild-task-reference.md)
+## See also  
+ [Task reference](../msbuild/msbuild-task-reference.md)

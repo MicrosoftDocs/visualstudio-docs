@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Empty Timeline Segment
+# Empty timeline segment
 In the Concurrency Visualizer, the reason that a section of the timeline is empty (has a white background) depends on the kind of channel.  
   
 -   For a CPU thread channel, it means that the thread did not exist during this part of the timeline. If you're interested in the thread, you can find its executing section by using the zoom control or scrolling horizontally.  
@@ -26,6 +26,6 @@ In the Concurrency Visualizer, the reason that a section of the timeline is empt
   
 -   For a marker channel, it means that no markers were generated.  
   
-## See Also  
+## See also  
  [Threads View](../profiling/threads-view-parallel-performance.md)   
- [Zoom Control (Threads View)](../profiling/zoom-control-threads-view.md)
+ [Zoom control (Threads View)](../profiling/zoom-control-threads-view.md)

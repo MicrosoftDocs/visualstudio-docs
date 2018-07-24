@@ -21,12 +21,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;Strings&gt; Element (Bootstrapper)
+# &lt;Strings&gt; element (bootstrapper)
 Defines localized strings for product names, package names, and installation error messages.  
   
 ## Syntax  
   
-```  
+```xml  
 <Strings>  
     <String  
         Name  
@@ -35,7 +35,7 @@ Defines localized strings for product names, package names, and installation err
 </Strings>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `Strings` element is a child of the `Package` element. It has no attributes.  
   
 ## String  
@@ -50,7 +50,7 @@ Defines localized strings for product names, package names, and installation err
 ## Example  
  The following code example specifies all of the English strings for the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] installer.  
   
-```  
+```xml  
 <Strings>  
     <String Name="DisplayName">.NET Framework 2.0</String>  
     <String Name="Culture">en</String>  
@@ -69,5 +69,5 @@ Defines localized strings for product names, package names, and installation err
 </Strings>  
 ```  
   
-## See Also  
- [\<Package> Element](../deployment/package-element-bootstrapper.md)
+## See also  
+ [\<Package> element](../deployment/package-element-bootstrapper.md)

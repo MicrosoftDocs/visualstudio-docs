@@ -41,7 +41,7 @@ ms.workload:
   
 -   [Add content controls at runtime in a document-level project](#runtimedoclevel)  
   
--   [Add content controls at runtime in an VSTO Add-in project](#runtimeaddin)  
+-   [Add content controls at runtime in a VSTO Add-in project](#runtimeaddin)  
   
  For information about content controls, see [Content controls](../vsto/content-controls.md).  
   

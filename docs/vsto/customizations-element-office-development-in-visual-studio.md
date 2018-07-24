@@ -81,10 +81,10 @@ ms.workload:
 </vstov4:customizations>  
 ```  
   
-## Example of an VSTO Add-in  
+## Example of a VSTO Add-in  
   
 ### Description  
- The following code example illustrates the `customizations` element for an VSTO Add-in. This is an Outlook VSTO Add-in that includes form regions. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
+ The following code example illustrates the `customizations` element for a VSTO Add-in. This is an Outlook VSTO Add-in that includes form regions. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).  
   
 ### Code  
   

@@ -1,112 +1,90 @@
 ---
 title: "Getting Started with Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/07/2017"
+ms.date: "07/03/2018"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: 66b5b4eb-13b5-4071-98d2-87fafa4598a8
-author: "conceptdev"
-ms.author: "crdun"
+author: "dantogno"
+ms.author: "v-davian"
 manager: crdun
 ms.workload:
   - "unity"
 ---
 # Getting Started with Visual Studio Tools for Unity
-In this section, you'll learn how to install Visual Studio Tools for Unity and configure your Unity project to work with Visual Studio.
 
-> [!IMPORTANT]
->  Unity 5.2 adds built-in support for Visual Studio Tools for Unity 2.1, which simplifies project setup. To take advantage of this, you'll need Unity version 5.2.0 or higher on Windows, and Visual Studio Tools for Unity version 2.1 or higher.
+## Install Visual Studio
 
-## Prerequisites
- To use Visual Studio Tools for Unity, you'll need:
+### Unity Bundled Installation
 
--   A version of **Visual Studio** that supports extensions, such as Visual Studio Community, Professional, Premium, or Enterprise. You can download Visual Studio Community for free.
+Starting with Unity 2018.1, Visual Studio is the default C# script editor for Unity, and is included in the Unity Download Assistant, as well as the Unity Hub installation tool.
 
-     [Download Visual Studio Community](http://www.visualstudio.com/downloads/download-visual-studio-vs)
+- Download Unity from [store.unity.com](https://store.unity.com/).
 
--   **Unity** version 4.0.0 or higher; **Unity** version 5.2.0 or higher to take advantage of built-in support for Visual Studio Tools for Unity version 2.1 or higher.
+During installation, ensure that Visual Studio is checked in the list of components to install with Unity:
 
-     [Download Unity](https://unity3d.com/get-unity/download)
+#### Unity Hub
 
-## Install Visual Studio Tools for Unity
- Download and install Visual Studio Tools for Unity from the Visual Studio Gallery. You'll need to install the right package for your version of Visual Studio. Make sure to install Visual Studio Tools for Unity version 2.1 or higher to take advantage of built-in support for VSTU in Unity 5.2 or higher.
+![unity hub installation](media/vstu_unity-hub.png)
 
--   For Visual Studio 2015 Community, Visual Studio 2015 Professional, or Visual Studio 2015 Enterprise:
+#### Unity Download Assistant
 
-     [Download Visual Studio 2015 Tools for Unity](https://visualstudiogallery.msdn.microsoft.com/8d26236e-4a64-4d64-8486-7df95156aba9)
+![unity download assistant installation](media/vstu_download-assistant.png)
 
--   For Visual Studio 2013 Community, Visual Studio 2013 Professional, or Visual Studio 2013 Premium:
+#### Check for updates to Visual Studio
 
-     [Download Visual Studio 2013 Tools for Unity](https://visualstudiogallery.msdn.microsoft.com/20b80b8c-659b-45ef-96c1-437828fe7cf2)
+The version of Visual Studio included with your Unity installation may not be the latest. It is recommended to check for updates to ensure you have access to the latest tools and features.
 
--   For Visual Studio 2012 Professional or Visual Studio 2012 Premium:
+- [Updating Visual Studio](../install/update-visual-studio.md)
 
-     [Download Visual Studio 2012 Tools for Unity](https://visualstudiogallery.msdn.microsoft.com/7ab11d2a-f413-4ed6-b3de-ff1d05157714)
+### Manual Installation
 
--   For Visual Studio 2010 Professional or Visual Studio 2010 Premium:
+If you already have Visual Studio 2017 installed, or prefer to manually install, run the Visual Studio installer.
 
-     [Download Visual Studio 2010 Tools for Unity](https://visualstudiogallery.msdn.microsoft.com/6e536faa-ce73-494a-a746-6a14753015f1)
+1. [Download the Visual Studio installer](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio), or open it if already installed.
+
+1. Click **Modify** (if already installed) or **Install** (for new installations) for your desired version of Visual Studio.
+
+1. On the **Workloads** tab, scroll to the **Mobile & Gaming** section and select the **Game development with Unity** workload.
+
+    ![Unity workload](media/vstu_unity-workload.png)
+
+1. Click **Modify** (if already installed) or **Install** (for new installations) in the bottom-right corner of the installer window.
+
+## Configure Unity for use with Visual Studio
+
+Starting with Unity 2018.1, Visual Studio should be the default external script editor in Unity. You can confirm this or change the external script editor to a specific version of Visual Studio:
+
+1. Select **Preferences** from the **Edit** menu.
+
+  ![Select Preferences](media/vstu_unity-preferences.png)
+
+1. In the Preferences dialog, select the **External Tools** tab.
+
+1. From the **External Script Editor** dropdown list, choose your desired version of Visual Studio if it is listed, otherwise select **Browse...**.
+
+  ![Select Visual Studio](media/vstu_unity-external-tools.png)
+
+1. If **Browse...** was selected, navigate to the **Common7/IDE** directory inside your Visual Studio installation directory and select **devenv.exe**. Then click **Open**.
+
+  ![Select Open](media/vstu_browse-for-application.png)
+
+1. Once Visual Studio is selected in the **External Script Editor** list, confirm that the **Editor Attaching** checkbox is selected.
+
+1. Close the Preferences dialog to complete the configuration process.
+
+## Support for older versions
+
+ Download and install Visual Studio Tools for Unity from the Visual Studio Marketplace. You'll need to install the right package for your version of Visual Studio.
+
+- For Visual Studio 2015 Community, Visual Studio 2015 Professional, or Visual Studio 2015 Enterprise:
+
+   [Download Visual Studio 2015 Tools for Unity](https://visualstudiogallery.msdn.microsoft.com/8d26236e-4a64-4d64-8486-7df95156aba9)
 
 > [!NOTE]
->  Express versions of Visual Studio don't support extensions such as Visual Studio Tools for Unity. Visual Studio Community is a free version of Visual Studio that supports Visual Studio Tools for Unity and other extensions. For most users, Visual Studio Community is a better choice than Express.
-
-> [!NOTE]
->  For Visual Studio 2017, VSTU 3 comes with the Unity workload that you can choose from the installer.
-
-## Your first Unity project with Visual Studio Tools for Unity
- Now that you have everything you need, you're ready for your first Unity project with Visual Studio. Setting up your Unity project is different depending on which versions of Unity and Visual Studio Tools for Unity are installed. Follow the steps below for the version of Unity and Visual Studio Tools for Unity that you have installed.
-
-### Unity 5.2 and higher (requires VSTU 2.1 or higher)
- Starting with Unity 5.2, you no longer have to import the Visual Studio Tools unitypackage into your projects. If your project imports this unitypackage, Unity 5.2 ignores it and directly loads Visual Studio Tools for Unity from its installed location.
-
-#### 1 - Create a Unity Project
- If you're already experienced with Unity, you can create a new project or load one of your own. If you're loading a project that imported the Visual Studio Tools unitypackage to  use Visual Studio Tools for Unity with a previous version of Unity, we recommend that you remove it by deleting the UnityVS directory.
-
- Otherwise, if you're new to Unity, start small with a basic tutorial. Visit the Unity Learn page to find tutorials on example projects you can start with and lessons you can learn from to build your own game with Unity. The Unity Learn page has easy-to-follow tutorials for several different games.
-
- [Tutorials - Unity Learn page](http://unity3d.com/learn/tutorials/modules)
-
-#### 2 - Configure Unity Editor to use Visual Studio Tools for Unity
- To enable your project to use Visual Studio Tools for Unity, just set Visual Studio as its external script editor. In the Unity Editor, on the main menu, choose **Edit, Preferences**; then, in the **Unity Preferences** dialog, choose **External Tools**. Next, set the **External Script Editor** property to the version of Visual Studio you want to use (Visual Studio Tools for Unity must be installed for this version of Visual Studio) and make sure the **Editor Attaching** property is set.
-
- To make sure that built-in support for Visual Studio Tools for Unity is now enabled, see the **About Unity** dialog. In the Unity editor, on the main menu, choose **Help, About Unity.** If Visual Studio Tools for Unity is installed and correctly configured, you'll see a message displayed in the lower left-hand corner of the **About Unity** dialog.
-
- Finally, make sure you've set a build target through the **Build Settings** page and that **Script Debugging** is enabled.
-
- ![Configure the Unity build settings for debugging.](../cross-platform/media/vstu_debugging_build_settings.png "vstu_debugging_build_settings")
-
-#### 3 - Launch Visual Studio from the Unity Editor
- Starting with Unity 5.2, the **Visual Studio Tools** extension menu is no longer needed  to launch Visual Studio or to configure Visual Studio Tools for Unity. Instead, once Visual Studio is configured as your external script editor, just choose the script file from the Unity editor and your code will be opened in Visual Studio.
-
-### Previous versions of Unity (pre-5.2)
- Before Unity 5.2, there was no built-in support for Visual Studio Tools for Unity. Instead, each project had to import the Visual Studio Tools unitypackage and configure other project settings in order to use Visual Studio Tools for Unity.
-
-#### 1 - Create a Unity Project
- If you're already experienced with Unity,  you can create a new project or load one of your own. If you're starting a new project, import the Visual Studio Tools unitypackage when you create it.
-
- Otherwise, if you're new to Unity, start small with a basic tutorial. Visit the Unity Learn page to find tutorials on example projects you can start with and lessons you can learn from to build your own game with Unity. The Unity Learn page has easy-to-follow tutorials for several different games.
-
- [Tutorials - Unity Learn page](http://unity3d.com/learn/tutorials/modules)
-
-#### 2 - Configure Unity Editor to use Visual Studio Tools for Unity
- If you're starting from an existing Unity project or you didn't import the Visual Studio Tools unitypackage when you created the project, you need to import the unitypackage now. In the Unity editor, on the main menu, choose **Assets, Import Package, Visual Studio 2015 Tools** (you should see an option for the version of Visual Studio you have installed).
-
- ![Import the VSTU package into your Unity project.](../cross-platform/media/vstu_configure_unity_import_vstu.png "vstu_configure_unity_import_vstu")
-
- Finally, make sure you've set a build target through the **Build Settings** page and that **Script Debugging** is enabled.
-
- ![Configure the Unity build settings for debugging.](../cross-platform/media/vstu_debugging_build_settings.png "vstu_debugging_build_settings")
-
-#### 3 - Launch Visual Studio from Unity Editor
- The final step is to start Visual Studio from Unity. This creates a Visual Studio Solution for your project, and then opens it in Visual Studio.
-
- In the Unity Editor, on the main menu, choose **Visual Studio Tools, Open in Visual Studio**.
-
- ![Open your unity project in Visual Studio.](../cross-platform/media/vstu_configure_open_in_visual_studio.png "vstu_configure_open_in_visual_studio")
+> Visual Studio Tools for Unity requires Unity 5.2 and above, as well as a version of Visual Studio that supports extensions, such as Visual Studio Community, Professional, Premium, or Enterprise. To verify that Visual Studio Tools for Unity are enabled in your installation of Unity, select **About Unity** from the **Help** menu and look for the text "Microsoft Visual Studio Tools for Unity enabled" in the bottom-left of the dialog.
+> ![about Unity](media/vstu_about-unity.png)
 
 ## Next steps
 
  To learn how to work with and debug your Unity project in Visual Studio, see [Using Visual Studio Tools for Unity](../cross-platform/using-visual-studio-tools-for-unity.md).
-
-## See Also
- [Unity Homepage](http://unity3d.com)

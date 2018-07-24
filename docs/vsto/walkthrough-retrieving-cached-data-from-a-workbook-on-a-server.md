@@ -51,14 +51,14 @@ ms.workload:
   
 -   Access to a running instance of Microsoft SQL Server or Microsoft SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex website](http://go.microsoft.com/fwlink/?linkid=87843). For more information about attaching a database, see the following topics:  
   
-    -   To attach a database by using SQL Server Management Studio or SQL Server Management Studio Express, see [How to: Attach a database (SQL Server Management Studio)](http://msdn.microsoft.com/en-us/b4efb0ae-cfe6-4d81-a4b4-6e4916885caa).  
+    -   To attach a database by using SQL Server Management Studio or SQL Server Management Studio Express, see [How to: Attach a database (SQL Server Management Studio)](http://msdn.microsoft.com/b4efb0ae-cfe6-4d81-a4b4-6e4916885caa).  
   
-    -   To attach a database by using the command line, see [How to: Attach a database file to SQL Server Express](http://msdn.microsoft.com/en-us/0f8e42b5-7a8c-4c30-8c98-7d2bdc8dcc68).  
+    -   To attach a database by using the command line, see [How to: Attach a database file to SQL Server Express](http://msdn.microsoft.com/0f8e42b5-7a8c-4c30-8c98-7d2bdc8dcc68).  
   
 ## Create a class library project that defines a dataset  
  To use the same dataset in an Excel workbook project and a console application, you must define the dataset in a separate assembly that is referenced by both of these projects. For this walkthrough, define the dataset in a class library project.  
   
-#### Create the class library project  
+### Create the class library project  
   
 1.  Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].  
   
@@ -85,7 +85,7 @@ ms.workload:
   
  The dataset is a *typed dataset* that represents the data in the Product table of the AdventureWorksLT database. For more information about typed datasets, see [Dataset tools in Visual Studio](/visualstudio/data-tools/dataset-tools-in-visual-studio).  
   
-#### Define a typed dataset in the class library project  
+### Define a typed dataset in the class library project  
   
 1.  In **Solution Explorer**, click the **AdventureWorksDataSet** project.  
   
@@ -120,7 +120,7 @@ ms.workload:
 ## Create an Excel workbook project  
  Create an Excel workbook project for the interface to the data. Later in this walkthrough, you will create a <xref:Microsoft.Office.Tools.Excel.ListObject> that displays the data, and you will add an instance of the dataset to the data cache in the workbook.  
   
-#### Create the Excel workbook project  
+### Create the Excel workbook project  
   
 1.  In **Solution Explorer**, right-click the **AdventureWorksDataSet** solution, point to **Add**, and then click **New Project**.  
   
@@ -174,7 +174,7 @@ ms.workload:
   
      A <xref:Microsoft.Office.Tools.Excel.ListObject> control named `productListObject` is created on the worksheet, starting in cell A1. At the same time, a dataset object named `adventureWorksLTDataSet` and a <xref:System.Windows.Forms.BindingSource> named `productBindingSource` are added to the project. The <xref:Microsoft.Office.Tools.Excel.ListObject> is bound to the <xref:System.Windows.Forms.BindingSource>, which in turn is bound to the dataset object.  
   
-## Add the Dataset to the Data Cache  
+## Add the dataset to the data cache  
  To enable code outside the Excel workbook project to access the dataset in the workbook, you must add the dataset to the data cache. For more information about the data cache, see [Cached data in document-level customizations](../vsto/cached-data-in-document-level-customizations.md) and [Cache data](../vsto/caching-data.md).  
   
 1.  In the designer, click **adventureWorksLTDataSet**.  
@@ -196,7 +196,7 @@ ms.workload:
 ## Checkpoint  
  Build and run the Excel workbook project to ensure that it compiles and runs without errors. This operation also fills the cached dataset and saves the data in the workbook.  
   
-#### Build and run the project  
+### Build and run the project  
   
 1.  In **Solution Explorer**, right-click the **AdventureWorksReport** project, choose **Debug**, and then click **Start new instance**.  
   
@@ -228,11 +228,11 @@ ms.workload:
 ## Retrieve data from the cached dataset by using the console application  
  Use the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class in the console application to read the data into a local `AdventureWorksLTDataSet` object. To confirm that the local dataset was initialized with data from the cached dataset, the application displays the number of rows in the local dataset.  
   
-#### Retrieve data from the cached dataset  
+### Retrieve data from the cached dataset  
   
 1.  In **Solution Explorer**, right-click the **DataReader** project and click **Add Reference**.  
   
-2.  On the **.NET** tab, select Microsoft.VisualStudio.Tools.Applications.ServerDocument.  
+2.  On the **.NET** tab, select **Microsoft.VisualStudio.Tools.Applications.ServerDocument**.  
   
 3.  Click **OK**.  
   
@@ -277,7 +277,7 @@ ms.workload:
 ## Test the project  
  When you run the console application, it displays the number of rows in the local dataset.  
   
-#### Test the workbook  
+### Test the workbook  
   
 1.  In **Solution Explorer**, right-click the **DataReader** project, point to **Debug**, and then click **Start new instance**.  
   
