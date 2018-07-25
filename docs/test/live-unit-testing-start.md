@@ -72,7 +72,7 @@ Now that you've created the solution, you'll create a class library named `Strin
 
       - `HasEmbeddedSpaces` returns `true` if a string contains an embedded whitespace character; otherwise, it returns `false`.
 
-1.  Select **Build**, **Build Solution** from the top-level Visual Studio menu. Visual Studio should successfully build your library.
+1.  Select **Build** > **Build Solution** from the top-level Visual Studio menu. Visual Studio should successfully build your library.
 
 # [Visual Basic](#tab/visual-basic)
 1. In **Solution Explorer**, right-click on the `UtilityLibraries` solution and select **Add** > **New Project**.
@@ -104,7 +104,7 @@ Now that you've created the solution, you'll create a class library named `Strin
 
    ![The Project Properties dialog for a Visual Basic project](./media/lut-start/vb-properties.png)
 
-1.  Select **Build**, **Build Solution** from the top-level Visual Studio menu. Visual Studio should successfully build your library.
+1.  Select **Build** > **Build Solution** from the top-level Visual Studio menu. Visual Studio should successfully build your library.
 
 ---
 
@@ -129,7 +129,7 @@ The next step is to create the unit test project to test `StringLibrary` library
    > [!NOTE]
    > This getting started tutorial uses Live Unit Testing with the MSTest test framework. You can also use the xUnit and NUnit test frameworks.
 
-1. The unit test project can't automatically access the class library that it is testing. You give the test library access by adding a reference to the class library project. To do this, right-click on the `StringLibraryTests` project and select **Add**, **Reference**. In the **Reference Manager** dialog, make sure the **Solution** tab is selected, and select the `StringLibrary` project, as shown in the following figure.
+1. The unit test project can't automatically access the class library that it is testing. You give the test library access by adding a reference to the class library project. To do this, right-click on the `StringLibraryTests` project and select **Add** > **Reference**. In the **Reference Manager** dialog, make sure the **Solution** tab is selected, and select the `StringLibrary` project, as shown in the following figure.
 
    ![The **Reference Manager** dialog](./media/lut-start/add-reference.png)
 
@@ -147,7 +147,7 @@ The next step is to create the unit test project to test `StringLibrary` library
 
    ![Choosing the UTF-8 encoding](media/lut-start/utf8-encoding.png)
 
-1. Compile the unit test project by **Build**, **Rebuild Solution** from the top-level Visual Studio menu.
+1. Compile the unit test project by **Build** > **Rebuild Solution** from the top-level Visual Studio menu.
 
 # [Visual Basic](#tab/visual-basic)
 
@@ -167,7 +167,7 @@ The next step is to create the unit test project to test `StringLibrary` library
    > [!NOTE]
    > This getting started tutorial uses Live Unit Testing with the MSTest test framework. You can also use the xUnit and NUnit test frameworks.
 
-1. The unit test project can't automatically access the class library that it is testing. You give the test library access by adding a reference to the class library project. To do this, right-click on the `StringLibraryTests` project and select **Add**, **Reference**. In the **Reference Manager** dialog, make sure the **Solution** tab is selected, and select the `StringLibrary` project, as shown in the following figure.
+1. The unit test project can't automatically access the class library that it is testing. You give the test library access by adding a reference to the class library project. To do this, right-click on the `StringLibraryTests` project and select **Add** > **Reference**. In the **Reference Manager** dialog, make sure the **Solution** tab is selected, and select the `StringLibrary` project, as shown in the following figure.
 
    ![The **Reference Manager** dialog](./media/lut-start/add-reference.png)
 
@@ -185,7 +185,7 @@ The next step is to create the unit test project to test `StringLibrary` library
 
    ![Choosing the UTF-8 encoding](media/lut-start/utf8-encoding.png)
 
-1. Compile the unit test project by **Build**, **Rebuild Solution** from the top-level Visual Studio menu.
+1. Compile the unit test project by **Build** > **Rebuild Solution** from the top-level Visual Studio menu.
 
 ---
 
@@ -195,9 +195,9 @@ You've created a class library as well as some unit tests for it. You've now fin
 
 So far, although you've written the tests for the `StringLibrary` class library, you haven't executed them. Live Unit Testing executes them automatically once you enable it. To do that, do the following:
 
-1. Optionally, select the code window that contains the code for `StringLibrary`. This is either class1.cs for a C# project or Class1.vb for a Visual Basic project. (This step let you visually inspect the result of your tests and the extent of your code coverage once you enable Live Unit Testing.)
+1. Optionally, select the code window that contains the code for `StringLibrary`. This is either *class1.cs* for a C# project or *Class1.vb* for a Visual Basic project. (This step let you visually inspect the result of your tests and the extent of your code coverage once you enable Live Unit Testing.)
 
-1. Select **Test**, **Live Unit Testing**, **Start** from the top-level Visual Studio menu.
+1. Select **Test** > **Live Unit Testing** > **Start** from the top-level Visual Studio menu.
 
 1. Visual Studio starts Live Unit Test, which automatically runs all of your tests.
 
@@ -281,7 +281,7 @@ In some cases, successful tests in **Test Explorer** may be grayed-out. That ind
 
 So far, all of our tests have succeed. In the next section, we'll examine how you can handle test failure.
 
-## Handling a test failure
+## Handle a test failure
 
 In this section, you'll explore how you can use Live Unit Testing to identify, troubleshoot, and address test failures. You'll do this by expanding test coverage to the `HasEmbeddedSpaces` method.
 
@@ -315,7 +315,7 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
 
    Note in the **Autos** window that the value of the `phrase` variable is "Name\tDescription", which is the second element of the array. The test method expects `HasEmbeddedSpaces` to return `true` when it is passed this string; instead, it returns `false`. Evidently, it does not recognize "\t", the tab character, as an embedded space.
 
-1. Select **Debug**, **Continue**, press F5, or click the **Continue** button on the toolbar to continue executing the test program. Because an unhandled exception occurred, the test terminates.
+1. Select **Debug** > **Continue**, press **F5**, or click the **Continue** button on the toolbar to continue executing the test program. Because an unhandled exception occurred, the test terminates.
 
 # [Visual Basic](#tab/visual-basic)
 1. Add the following method to your test file:
@@ -348,7 +348,7 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
 
    Note in the **Autos** window that the value of the `phrase` variable is "Name" + vbTab + "Description", which is the second element of the array. The test method expects `HasEmbeddedSpaces` to return `true` when it is passed this string; instead, it returns `false`. Evidently, it does not recognize the tab character as an embedded space.
 
-1. Select **Debug**, **Continue**, press F5, or click the **Continue** button on the toolbar to continue executing the test program. Because an unhandled exception occurred, the test terminates.
+1. Select **Debug** > **Continue**, press **F5**, or click the **Continue** button on the toolbar to continue executing the test program. Because an unhandled exception occurred, the test terminates.
 
 ---
 
