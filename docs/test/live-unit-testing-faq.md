@@ -166,7 +166,7 @@ There are several differences:
 
 **Answer:**
 
-See the "Including and excluding test projects and test methods" section of the [Use Live Unit Testing in Visual Studio 2017 Enterprise Edition](live-unit-testing.md#including-and-excluding-test-projects-and-test-methods) article for the user-specific setting. This is useful when you want to run a specific set of tests for a particular edit session or to persist your own personal preferences.
+See the "Including and excluding test projects and test methods" section of the [Use Live Unit Testing in Visual Studio 2017 Enterprise Edition](live-unit-testing.md#include-and-exclude-test-projects-and-test-methods) article for the user-specific setting. This is useful when you want to run a specific set of tests for a particular edit session or to persist your own personal preferences.
  
 For solution-specific settings, you can apply the <xref:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute?displayProperty=fullName> attribute programmatically to exclude methods, properties, classes, or structures from being instrumented by Live Unit Testing. Additionally, you can also set the `<ExcludeFromCodeCoverage>` property to `true` in your project file to exclude the whole project from being instrumented. Live Unit Testing will still run the tests that have not been instrumented, but their coverage will not be visualized.
 
