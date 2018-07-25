@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Remotely debugging Python code on Linux
+# Remotely debug Python code on Linux
 
 Visual Studio can launch and debug Python applications locally and remotely on a Windows computer (see [Remote debugging](../debugger/remote-debugging.md)). It can also debug remotely on a different operating system, device, or Python implementation other than CPython using the [ptvsd library](https://pypi.python.org/pypi/ptvsd).
 
@@ -21,22 +21,22 @@ When using ptvsd, the Python code being debugged hosts the debug server to which
 
 |   |   |
 |---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | For an introduction to remote debugging, see [Deep Dive: Cross-Platform Remote Debugging](https://youtu.be/y1Qq7BrV6Cc) (youtube.com, 6m22s), which is applicable to both Visual Studio 2015 and 2017. |
+| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | For an introduction to remote debugging, see [Deep Dive: Cross-platform remote debugging](https://youtu.be/y1Qq7BrV6Cc) (youtube.com, 6m22s), which is applicable to both Visual Studio 2015 and 2017. |
 
-## Setting up a Linux computer
+## Set up a Linux computer
 
 The following items are needed to follow this walkthrough:
 
 - A remote computer running Python on an operating system like Mac OSX or Linux.
 - Port 5678 (inbound) opened on that computer's firewall, which is the default for remote debugging.
 
-You can easily create [Linux virtual machines on Azure](/azure/virtual-machines/linux/creation-choices) and [access it using Remote Desktop](/azure/virtual-machines/linux/use-remote-desktop) from Windows. An Ubuntu for the VM is convenient because Python is installed by default; otherwise, see the list on [Install a Python interpreter of your choice](installing-python-interpreters.md) for additional Python download locations.
+You can easily create a [Linux virtual machine on Azure](/azure/virtual-machines/linux/creation-choices) and [access it using Remote Desktop](/azure/virtual-machines/linux/use-remote-desktop) from Windows. Ubuntu for the VM is convenient because Python is installed by default; otherwise, see the list on [Install a Python interpreter of your choice](installing-python-interpreters.md) for additional Python download locations.
 
-For details on creating a firewall rule for an Azure VM, see [Opening ports to a VM in Azure using the Azure portal](/azure/virtual-machines/windows/nsg-quickstart-portal).
+For details on creating a firewall rule for an Azure VM, see [Open ports to a VM in Azure using the Azure portal](/azure/virtual-machines/windows/nsg-quickstart-portal).
 
-## Preparing the script for debugging
+## Prepare the script for debugging
 
-1. On the remote computer, create a Python file called `guessing-game.py` with the following code:
+1. On the remote computer, create a Python file called *guessing-game.py* with the following code:
 
     ```python
     import random
@@ -61,9 +61,11 @@ For details on creating a firewall rule for an Azure VM, see [Opening ports to a
         print('Nope. The number I was thinking of was {0}'.format(number))
     ```
 
-1. Install the `ptvsd` package into your environment using `pip3 install ptvsd`. (Note: it's a good idea to record the version of ptvsd that's installed in case you need it for troubleshooting; the [ptvsd listing](https://pypi.python.org/pypi/ptvsd) also shows available versions.)
+1. Install the `ptvsd` package into your environment using `pip3 install ptvsd`. 
+   >[!NOTE]
+   >It's a good idea to record the version of ptvsd that's installed in case you need it for troubleshooting; the [ptvsd listing](https://pypi.python.org/pypi/ptvsd) also shows available versions.
 
-1. Enable remote debugging by adding the code below at the earliest possible point in `guessing-game.py`, before other code. (Though not a strict requirement, it's impossible to debug any background threads spawned before the `enable_attach` function is called.)
+1. Enable remote debugging by adding the code below at the earliest possible point in *guessing-game.py*, before other code. (Though not a strict requirement, it's impossible to debug any background threads spawned before the `enable_attach` function is called.)
 
    ```python
    import ptvsd
@@ -77,7 +79,7 @@ For details on creating a firewall rule for an Azure VM, see [Opening ports to a
 > [!Tip]
 > In addition to `enable_attach` and `wait_for_attach`, ptvsd also provides a helper function `break_into_debugger`, which serves as a programmatic breakpoint if the debugger is attached. There is also an `is_attached` function that returns `True` if the debugger is attached (note that there is no need to check this result before calling any other `ptvsd` functions).
 
-## Attaching remotely from Python Tools
+## Attach remotely from Python Tools
 
 In these steps, we set a simple breakpoint to stop the remote process.
 
@@ -85,16 +87,16 @@ In these steps, we set a simple breakpoint to stop the remote process.
 
 1. (Optional) To have IntelliSense for ptvsd on your local computer, install the ptvsd package into your Python environment.
 
-1. Select **Debug > Attach to Process**.
+1. Select **Debug** > **Attach to Process**.
 
 1. In the **Attach to Process** dialog that appears, set **Connection Type** to **Python remote (ptvsd)**. (On older versions of Visual Studio these commands are named **Transport** and **Python remote debugging**.)
 
 1. In the **Connection Target** field (**Qualifier** on older versions), enter `tcp://<secret>@<ip_address>:5678` where `<secret>` is the string passed `enable_attach` in the Python code, `<ip_address>` is that of the remote computer (which can be either an explicit address or a name like myvm.cloudapp.net), and `:5678` is the remote debugging port number.
 
     > [!Warning]
-    > If you're making a connection over the public internet, you should be using `tcps` instead and following the instruction below for [Securing the debugger connection with SSL](#securing-the-debugger-connection-with-ssl).
+    > If you're making a connection over the public internet, you should be using `tcps` instead and following the instruction below to [Secure the debugger connection with SSL](#securing-the-debugger-connection-with-ssl).
 
-1. Press Enter to populate the list of available ptvsd processes on that computer:
+1. Press **Enter** to populate the list of available ptvsd processes on that computer:
 
     ![Entering the connection target and listing processes](media/remote-debugging-qualifier.png)
 
@@ -117,7 +119,7 @@ In these steps, we set a simple breakpoint to stop the remote process.
     - If you need to use a different port, you can specify it in the `enable_attach` call using the `address` argument, as in `ptvsd.enable_attach(secret = 'my_secret', address = ('0.0.0.0', 8080))`. In this case, open that specific port in the firewall.
 1. Check that the version of ptvsd installed on the remote computer as returned by `pip3 list` matches that used by the version of the Python tools you're using in Visual Studio in the table below. If necessary, update ptvsd on the remote computer.
 
-    | Visual Studio Version | Python tools/ptvsd version |
+    | Visual Studio version | Python tools/ptvsd version |
     | --- | --- |
     | 2017 15.3 | 3.2.0 |
     | 2017 15.2 | 3.1.0 |
@@ -126,7 +128,7 @@ In these steps, we set a simple breakpoint to stop the remote process.
     | 2013 | 2.2.2 |
     | 2012, 2010 | 2.1 |
 
-## Securing the debugger connection with SSL
+## Secure the debugger connection with SSL
 
 By default, the connection to the ptvsd remote debug server is secured only by the secret and all data is passed in plain text. For a more secure connection, ptvsd supports SSL, which you set up as follows:
 
@@ -153,9 +155,9 @@ By default, the connection to the ptvsd remote debug server is secured only by t
 1. Secure the channel by adding the certificate to Trusted Root CA on the Windows computer with Visual Studio:
 
     1. Copy the certificate file from the remote computer to the local computer.
-    1. Open Control Panel and navigate to **Administrative Tools > Manage computer certificates**.
-    1. In the window that appears, expand **Trusted Root Certification Authorities** on the left side, right-click **Certificates**, and select **All Tasks > Import...**.
-    1. Navigate to and select the `.cer` file copied from the remote computer, then click through the dialogs to complete the import.
+    1. Open **Control Panel** and navigate to **Administrative Tools** > **Manage computer certificates**.
+    1. In the window that appears, expand **Trusted Root Certification Authorities** on the left side, right-click **Certificates**, and select **All Tasks** > **Import**.
+    1. Navigate to and select the *.cer* file copied from the remote computer, then click through the dialogs to complete the import.
 
 1. Repeat the attach process in Visual Studio as described earlier, now using `tcps://` as the protocol for the **Connection Target** (or **Qualifier**).
 
@@ -165,11 +167,11 @@ By default, the connection to the ptvsd remote debug server is secured only by t
 
 Visual Studio prompts you about potential certificate issues when connecting over SSL as described below. You may ignore the warnings and proceed, but although the channel is still be encrypted against eavesdropping it can be open to man-in-the-middle attacks.
 
-1. If you see the "remote certificate is not trusted" warning below, it means you did not properly add the certificate to the Trusted Root CA. Check those steps and try again.
+1. If you see the **remote certificate is not trusted** warning below, it means you did not properly add the certificate to the Trusted Root CA. Check those steps and try again.
 
     ![SSL certificate trusted warning](media/remote-debugging-ssl-warning.png)
 
-1. If you see the "remote certificate name does not match hostname" warning below, it means you did not use the proper hostname or IP address as the **Common Name** when creating the certificate.
+1. If you see the **remote certificate name does not match hostname** warning below, it means you did not use the proper hostname or IP address as the **Common Name** when creating the certificate.
 
     ![SSL certificate hostname warning](media/remote-debugging-ssl-warning2.png)
 
