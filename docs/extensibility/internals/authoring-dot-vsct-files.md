@@ -25,7 +25,7 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
 ### File structure  
  The basic structure of a *.vsct* file is a [CommandTable](../../extensibility/commandtable-element.md) root element that contains a [Commands](../../extensibility/commands-element.md) element and a [Symbols](../../extensibility/symbols-element.md) element.  
   
-##### To create the file structure  
+#### To create the file structure  
   
 1.  Add a *.vsct* file to your project by following the steps in [How to: Create a .vsct file](../../extensibility/internals/how-to-create-a-dot-vsct-file.md).  
   
@@ -44,7 +44,7 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
 ### Include Visual Studio resources  
  Use the [Extern](../../extensibility/extern-element.md) element to access the files that define Visual Studio commands and the menus that are required to put your UI elements in the IDE. If you will use commands defined outside your package, use the [UsedCommands](../../extensibility/usedcommands-element.md) element to inform Visual Studio.  
   
-##### To include Visual Studio resources  
+#### To include Visual Studio resources  
   
 1.  At the top of the `CommandTable` element, add one `Extern` element for each external file to be referenced, and set the `href` attribute to the name of the file. You can reference the following header files to access Visual Studio resources:  
   
@@ -52,12 +52,14 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
   
     -   Vsshlids.h, contains command IDs for Visual Studio menus.  
   
-2.  If your package calls any commands that are defined by Visual Studio or by other packages, add a `UsedCommands` element after the `Commands` element. Populate this element with a [UsedCommand](../../extensibility/usedcommand-element.md) element for each command you call that is not part of your package. Set the `guid` and `id` attributes of the `UsedCommand` elements to the GUID and ID values of the commands to call. For more information about how to find the GUIDs and IDs of Visual Studio commands, see [GUIDs and IDs of Visual Studio commands](../../extensibility/internals/guids-and-ids-of-visual-studio-commands.md). To call commands from other packages, use the GUID and the ID of the command as defined in the *.vsct* file for those packages.  
+2.  If your package calls any commands that are defined by Visual Studio or by other packages, add a `UsedCommands` element after the `Commands` element. Populate this element with a [UsedCommand](../../extensibility/usedcommand-element.md) element for each command you call that is not part of your package. Set the `guid` and `id` attributes of the `UsedCommand` elements to the GUID and ID values of the commands to call. 
+
+   For more information about how to find the GUIDs and IDs of Visual Studio commands, see [GUIDs and IDs of Visual Studio commands](../../extensibility/internals/guids-and-ids-of-visual-studio-commands.md). To call commands from other packages, use the GUID and the ID of the command as defined in the *.vsct* file for those packages.
   
 ### Declare UI elements  
  Declare all new UI elements in the `Symbols` section of the *.vsct* file.  
   
-##### To declare UI elements  
+#### To declare UI elements  
   
 1.  In the `Symbols` element, add three [GuidSymbol](../../extensibility/guidsymbol-element.md) elements. Each `GuidSymbol` element has a `name` attribute and a `value` attribute. Set the `name` attribute so that it reflects the purpose of the element. The `value` attribute takes a GUID. (To generate a GUID, on the **Tools** menu, select **Create GUID**, and then select **Registry Format**.)  
   
@@ -74,7 +76,7 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
   
  Each `Menu`, `Group`, and `Button` element has a `guid` attribute and an `id` attribute. Always set the `guid` attribute to match the name of the `GuidSymbol` element that represents your command set, and set the `id` attribute to the name of the `IDSymbol` element that represents your menu, group, or command in the `Symbols` section.  
   
-##### To define UI elements  
+#### To define UI elements  
   
 1.  If you are defining any new menus, submenus, shortcut menus, or toolbars, add a `Menus` element to the `Commands` element. Then, for each menu to be created, add a [Menu](../../extensibility/menu-element.md) element to the `Menus` element.  
   
@@ -103,13 +105,13 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
         > [!NOTE]
         >  Toolbar buttons must have icons.  
   
-     For more information, see [MenuCommands vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md).  
+   For more information, see [MenuCommands vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md).  
   
 4.  If any of your commands require icons, add a [Bitmaps](../../extensibility/bitmaps-element.md) element to the `Commands` element. Then, for each icon, add a [Bitmap](../../extensibility/bitmap-element.md) element to the `Bitmaps` element. This is where you specify the location of the bitmap resource. For more information, see [Add icons to menu commands](../../extensibility/adding-icons-to-menu-commands.md).  
   
  You can rely on the parenting structure to correctly place most menus, groups, and commands. For very large command sets, or when a menu, group, or command must appear in multiple places, we recommend that you specify command placement.  
   
-##### To rely on parenting to place UI elements in the IDE  
+#### To rely on parenting to place UI elements in the IDE  
   
 1.  For typical parenting, create a `Parent` element in each `Menu`, `Group`, and `Command` element that is defined in your package.  
   
@@ -121,7 +123,7 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
   
  If you have a large number of UI elements to place in the IDE, or if you have elements that should appear in multiple places, define their placements in the [CommandPlacements](../../extensibility/commandplacements-element.md) element, as shown in the following steps.  
   
-##### To use command placement to place UI elements in the IDE  
+#### To use command placement to place UI elements in the IDE  
   
 1.  After the `Commands` element, add a `CommandPlacements` element.  
   
@@ -136,7 +138,7 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
 ### Add specialized behaviors  
  You can use the [CommandFlag](../../extensibility/command-flag-element.md) element to modify the behavior of menus and commands, for example, to change their appearance and visibility. You can also affect when a command is visible by using the [VisibilityConstraints](../../extensibility/visibilityconstraints-element.md) element, or add keyboard shortcuts by using the [KeyBindings](../../extensibility/keybindings-element.md) element. Certain kinds of menus and commands already have specialized behaviors built in.  
   
-##### To add specialized behaviors  
+#### To add specialized behaviors  
   
 1.  To make a UI element visible only in certain UI contexts, for example, when a solution is loaded, use visibility constraints.  
   
@@ -224,13 +226,13 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
   
  Some menu and button types include specialized behaviors. The following list describes some specialized menu and button types. For other types, see the `types` attribute descriptions in the [Menu](../../extensibility/menu-element.md), [Button](../../extensibility/button-element.md), and [Combo](../../extensibility/combo-element.md) elements.  
   
- - Combo box  
+ - Combo box:  
     A combo box is a drop-down list that can be used on a toolbar. To add combo boxes to the UI, create a [Combos](../../extensibility/combos-element.md) element in the `Commands` element. Then add to the `Combos` element a `Combo` element for each combo box to add. `Combo` elements have the same attributes and children as `Button` elements and also have `DefaultWidth` and `idCommandList` attributes. The `DefaultWidth` attribute sets the width in pixels, and the `idCommandList` attribute points to a command ID that is used to populate the combo box. 
   
- - Menu controller  
+ - Menu controller:  
     A menu controller is a button that has an arrow next to it. Clicking the arrow opens a list. To add a menu controller to the UI, create a `Menu` element and set its `type` attribute to **MenuController** or **MenuControllerLatched**, depending on the behavior you want. To populate a menu controller, set it as the parent of a `Group` element. The menu controller will display all children of that group on its drop-down list.  
   
 ## See also  
- [Extending menus and commands](../../extensibility/extending-menus-and-commands.md)   
+ [Extend menus and commands](../../extensibility/extending-menus-and-commands.md)   
  [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)   
  [VSCT XML schema reference](../../extensibility/vsct-xml-schema-reference.md)

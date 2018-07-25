@@ -31,4 +31,4 @@ There are a number of guidelines that projects and editors should adhere to in o
 |Reload|X|X|When a file changes on disk, your editor must be able to reload it. When you participate in source control, the environment will reload data for you by calling your <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2.ReloadDocData%2A> implementation. The most difficult reload case is when a checkout occurs when you have called IVsQueryEditQuerySave::<xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QueryEditFiles%2A> and are processing information. However, your reload code must be able to run in this situation.<br /><br /> The environment automatically reloads project files. However, a project must implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2> if it has nested hierarchies in order to support reloading nested project files.|  
   
 ## See also  
- [Supporting Source Control](../../extensibility/internals/supporting-source-control.md)
+ [Support source control](../../extensibility/internals/supporting-source-control.md)
