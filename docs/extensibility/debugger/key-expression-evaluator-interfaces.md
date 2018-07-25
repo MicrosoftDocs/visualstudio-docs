@@ -15,13 +15,13 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Key Expression Evaluator Interfaces
+# Key expression evaluator interfaces
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+>  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  When writing an expression evaluator (EE), along with the evaluation context, you should be familiar with the following interfaces.  
   
-## Interface Descriptions  
+## Interface descriptions  
   
 -   [IDebugAddress](../../extensibility/debugger/reference/idebugaddress.md)  
   
@@ -53,5 +53,5 @@ ms.workload:
   
      This interface represents a value and its type and is the result of an expression evaluation.  
   
-## See Also  
- [Evaluation Context](../../extensibility/debugger/evaluation-context.md)
+## See also  
+ [Evaluation context](../../extensibility/debugger/evaluation-context.md)

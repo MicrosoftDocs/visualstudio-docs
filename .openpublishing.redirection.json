@@ -1,6 +1,11 @@
 {
     "redirections": [
         {
+            "source_path": "docs/debugger/debug-interface-access/dia2dump-cpp-source-file.md",
+            "redirect_url": "/visualstudio/debugger/debug-interface-access/dia2dump-sample",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/extensibility/shell/shell-isolated-or-integrated.md",
             "redirect_url": "https://vspartner.com/pages/vsshells",
             "redirect_document_id": false
@@ -2288,6 +2293,11 @@
         {
             "source_path": "docs/vsto/index.md",
             "redirect_url": "/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vsto/updating-ribbon-customizations-in-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md",
+            "redirect_url": "/visualstudio/vsto/update-ribbon-customizations-in-office-projects-to-migrate-to-dotnet-framework-4-or-4-5",
             "redirect_document_id": false
         },
         {

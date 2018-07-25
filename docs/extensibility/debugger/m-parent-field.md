@@ -14,22 +14,22 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# m_parent Field
+# m_parent field
 The backing field for the <xref:System.Threading.Tasks.Task?displayProperty=fullName> `Parent` property.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   
- **Assembly:** mscorlib (in mscorlib.dll)  
+ **Assembly:** mscorlib (in *mscorlib.dll*)  
   
- Because you cannot access this internal member from the .NET Framework, the following syntax is provided in Common Intermediate Language (CIL).  
+ Because you can't access this internal member from the .NET Framework, the following syntax is provided in Common Intermediate Language (CIL).  
   
 ## Syntax  
   
-```  
+```csharp  
 .field private initonly class System.Threading.Tasks.Task m_parent  
 ```  
   
 ## Remarks  
   
-## See Also  
- [Task Class](../../extensibility/debugger/task-class-internal-members.md)
+## See also  
+ [Task class](../../extensibility/debugger/task-class-internal-members.md)
