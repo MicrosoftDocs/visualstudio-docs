@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# XmlPoke Task
+# XmlPoke task
 
 Sets values as specified by an XPath query into an XML file.
 
@@ -36,7 +36,7 @@ Sets values as specified by an XPath query into an XML file.
 
 ## Remarks
 
- In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).
+ In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
 
@@ -75,7 +75,7 @@ In this example, if you want to modify `/Package/mp:PhoneIdentity/PhonePublisher
 
 `dn` is here used as an artificial namespace prefix for default namespace.
 
-## See Also
+## See also
 
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)

@@ -14,6 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2133: Delegates must bind to methods with consistent transparency
+
 |||
 |-|-|
 |TypeName|DelegatesMustBindWithConsistentTransparency|
@@ -22,19 +23,24 @@ ms.workload:
 |Breaking Change|Breaking|
 
 > [!NOTE]
->  This warning is only applied to code that is running the CoreCLR (the version of the CLR that is specific to Silverlight Web applications).
+> This warning is only applied to code that is running the CoreCLR (the version of the CLR that is specific to Silverlight web applications).
 
 ## Cause
- This warning fires on a method that binds a delegate that is marked with the <xref:System.Security.SecurityCriticalAttribute> to a method that is transparent or that is marked with the <xref:System.Security.SecuritySafeCriticalAttribute>. The warning also fires a method that binds a delegate that is transparent or safe-critical to a critical method.
+
+This warning fires on a method that binds a delegate that is marked with the <xref:System.Security.SecurityCriticalAttribute> to a method that is transparent or that is marked with the <xref:System.Security.SecuritySafeCriticalAttribute>. The warning also fires a method that binds a delegate that is transparent or safe-critical to a critical method.
 
 ## Rule Description
- Delegate types and the methods that they bind to must have consistent transparency. Transparent and safe-critical delegates may only bind to other transparent or safe-critical methods. Similarly, critical delegates may only bind to critical methods. These binding rules ensure that the only code that can invoke a method via a delegate could have also invoked the same method directly. For example, binding rules prevent transparent code from calling critical code directly via a transparent delegate.
+
+Delegate types and the methods that they bind to must have consistent transparency. Transparent and safe-critical delegates may only bind to other transparent or safe-critical methods. Similarly, critical delegates may only bind to critical methods. These binding rules ensure that the only code that can invoke a method via a delegate could have also invoked the same method directly. For example, binding rules prevent transparent code from calling critical code directly via a transparent delegate.
 
 ## How to Fix Violations
- To fix a violation of this warning, change the transparency of the delegate or of the method that it binds so that the transparency of the two are equivalent.
+
+To fix a violation of this warning, change the transparency of the delegate or of the method that it binds so that the transparency of the two are equivalent.
 
 ## When to Suppress Warnings
- Do not suppress a warning from this rule.
+
+Do not suppress a warning from this rule.
 
 ### Code
- [!code-csharp[FxCop.Security.CA2133.DelegatesMustBindWithConsistentTransparency#1](../code-quality/codesnippet/CSharp/ca2133-delegates-must-bind-to-methods-with-consistent-transparency_1.cs)]
+
+[!code-csharp[FxCop.Security.CA2133.DelegatesMustBindWithConsistentTransparency#1](../code-quality/codesnippet/CSharp/ca2133-delegates-must-bind-to-methods-with-consistent-transparency_1.cs)]

@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# RequiresFramework35SP1Assembly Task
+# RequiresFramework35SP1Assembly task
 Determines whether the application requires the .NET Framework 3.5 SP1.  
   
 ## Parameters  
@@ -40,8 +40,8 @@ Determines whether the application requires the .NET Framework 3.5 SP1.
 |`TargetFrameworkVersion`|Optional `String` parameter.<br /><br /> Specifies the version of the .NET Framework that this application targets.|  
   
 ## Remarks  
- In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
+ In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)

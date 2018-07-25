@@ -63,7 +63,7 @@ Visual Studio commands allow you to invoke a command from the **Command** window
 |[Set Current Thread](../../ide/reference/set-current-thread-command.md)|Allows you to view a particular thread.|
 |[Set Radix](../../ide/reference/set-radix-command.md)|Determines the number of bytes to view.|
 |[Shell](../../ide/reference/shell-command.md)|Launches programs from within [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] as though the command has been executed from the command prompt.|
-|[ShowWebBrowser Command](../../ide/reference/showwebbrowser-command.md)|Displays the URL you specify in a Web browser window either within the integrated development environment (IDE) or external to the IDE.|
+|[ShowWebBrowser Command](../../ide/reference/showwebbrowser-command.md)|Displays the URL you specify in a web browser window either within the integrated development environment (IDE) or external to the IDE.|
 |[Start](../../ide/reference/start-command.md)|Begins the debug process and allows you to specify how errors are handled.|
 |[Path](../../ide/reference/symbol-path-command.md)|Sets the list of directories for the debugger to search for symbols.|
 |[Toggle Breakpoint](../../ide/reference/toggle-breakpoint-command.md)|Turns the breakpoint either on or off, depending on its current state, at the current location in the file.|

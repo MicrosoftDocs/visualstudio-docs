@@ -11,7 +11,7 @@ manager: crdun
 ms.workload:
   - "unity"
 ---
-# Share the Unity Log Callback with VSTU
+# Share the Unity log callback with VSTU
 Visual Studio Tools for Unity registers a log callback with Unity to be able to stream its console to Visual Studio. If your editor scripts also register a log callback with Unity, the VSTU callback might interfere with your callback. To prevent this possibility, use the `VisualStudioIntegration.LogCallback` event to cooperate with VSTU.
 
 ## Demonstrates
@@ -40,5 +40,5 @@ public class LogCallbackHook
 }
 ```
 
-## See Also
- [Example: Project File Generation](../cross-platform/customize-project-files-created-by-vstu.md)
+## See also
+ [Example: Project file generation](../cross-platform/customize-project-files-created-by-vstu.md)

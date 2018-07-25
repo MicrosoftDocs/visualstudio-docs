@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Code Generation and T4 Text Templates
 
-In Visual Studio, a *T4 text template* is a mixture of text blocks and control logic that can generate a text file. The control logic is written as fragments of program code in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. In Visual Studio 2015 Update 2 and later, you can use C# version 6.0 features in T4 templates directives. The generated file can be text of any kind, such as a Web page, or a resource file, or program source code in any language.
+In Visual Studio, a *T4 text template* is a mixture of text blocks and control logic that can generate a text file. The control logic is written as fragments of program code in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. In Visual Studio 2015 Update 2 and later, you can use C# version 6.0 features in T4 templates directives. The generated file can be text of any kind, such as a web page, or a resource file, or program source code in any language.
 
 There are two kinds of T4 text templates: run time and design time.
 

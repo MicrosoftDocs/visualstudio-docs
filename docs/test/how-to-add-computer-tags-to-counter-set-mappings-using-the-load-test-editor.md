@@ -11,9 +11,9 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Add Computer Tags to Counter Set Mappings Using the Load Test Editor
+# How to: Add computer tags to counter set mappings using the load test editor
 
-Computer tags let you identify a computer with an easy-to-recognize name. The tags are displayed in the **Counter Set Mappings** node in the tree in the Load Test Editor. More important, the tags are displayed in Excel reports, which help stakeholders identify what role the computer has in the load test. For example, "Web Server1 in lab2" or "SQL Server2 in Phoenix office". For more information, see [Reporting Load Tests Results for Test Comparisons or Trend Analysis](../test/compare-load-test-results.md).
+Computer tags let you identify a computer with an easy-to-recognize name. The tags are displayed in the **Counter Set Mappings** node in the tree in the Load Test Editor. More important, the tags are displayed in Excel reports, which help stakeholders identify what role the computer has in the load test. For example, "Web Server1 in lab2" or "SQL Server2 in Phoenix office". For more information, see [Reporting load tests results for test comparisons or trend analysis](../test/compare-load-test-results.md).
 
 ## To add a tag to a computer
 
@@ -35,7 +35,7 @@ Computer tags let you identify a computer with an easy-to-recognize name. The ta
 4.  Under **Computer and counter sets to monitor**, select the computer that you want to apply the tag to.
 
     > [!NOTE]
-    > For information about how to add a computer, see [How to: Manage Counter Sets](../test/how-to-manage-counter-sets-using-the-load-test-editor.md).
+    > For information about how to add a computer, see [How to: Manage counter sets](../test/how-to-manage-counter-sets-using-the-load-test-editor.md).
 
 5.  In the **Computer Tags** text box, type a tag to associate with the computer. For example, "TestMachine12 in lab3".
 
@@ -43,7 +43,7 @@ Computer tags let you identify a computer with an easy-to-recognize name. The ta
 
 ## See also
 
-- [Analyzing Threshold Rule Violations](../test/analyze-threshold-rule-violations-in-load-tests.md)
-- [Analyze Load Test Results](../test/analyze-load-test-results-using-the-load-test-analyzer.md)
-- [Specifying the Counter Sets and Threshold Rules for Computers in a Load Test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md)
-- [How to: Manage Counter Sets](../test/how-to-manage-counter-sets-using-the-load-test-editor.md)
+- [Analyze threshold rule violations](../test/analyze-threshold-rule-violations-in-load-tests.md)
+- [Analyze load test results](../test/analyze-load-test-results-using-the-load-test-analyzer.md)
+- [Specify the counter sets and threshold rules for computers in a load test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md)
+- [How to: Manage counter sets](../test/how-to-manage-counter-sets-using-the-load-test-editor.md)

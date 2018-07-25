@@ -14,14 +14,14 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Collect IntelliTrace Data to Help Debug Difficult Issues
+# How to: Collect IntelliTrace data to help debug difficult issues
 
 You can configure the diagnostic data adapter for IntelliTrace to collect specific diagnostic trace information in Visual Stdio. Tests can use this adapter, the test can collect significant diagnostic events for the application that a developer can use later to trace through the code to find the cause of a bug. The diagnostic data adapter for IntelliTrace can be used for either manual or automated tests.
 
 > [!NOTE]
-> IntelliTrace works only on an application that is written by using managed code. If you are testing a Web application that uses a browser as a client, you should not enable IntelliTrace for the client in your test settings because no managed code is available to trace. In this case, you may want to set up an environment and collect IntelliTrace data remotely on your Web server.
+> IntelliTrace works only on an application that is written by using managed code. If you are testing a web application that uses a browser as a client, you should not enable IntelliTrace for the client in your test settings because no managed code is available to trace. In this case, you may want to set up an environment and collect IntelliTrace data remotely on your web server.
 
-The IntelliTrace data is stored in a file that has an extension of .iTrace. When you run your test and a test step fails, you can create a bug. The IntelliTrace file that contains the diagnostic information is automatically attached to this bug.
+The IntelliTrace data is stored in a file that has an extension of *.iTrace*. When you run your test and a test step fails, you can create a bug. The IntelliTrace file that contains the diagnostic information is automatically attached to this bug.
 
 > [!NOTE]
 > The diagnostic data adapter for IntelliTrace does not create an IntelliTrace file when a test pass is successful. It saves a file only on a failed test case or when you submit a bug.
@@ -39,19 +39,19 @@ The IntelliTrace data is stored in a file that has an extension of .iTrace. When
 > [!NOTE]
 > The user account for the test agent that is used to collect IntelliTrace data must be a member of the administrators group. For more information, see [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
 
-## Configure the Data to Collect with the IntelliTrace Diagnostic Data Adapter
+## Configure the data to collect with the IntelliTrace diagnostic data adapter
 
 Before you perform the steps in this procedure, you must open your test settings from either Microsoft Test Manager or Visual Studio and select the **Data and Diagnostics** page.
 
-### To configure the data to collect with the IntelliTrace Diagnostic Data Adapter
+### To configure the data to collect with the IntelliTrace diagnostic data adapter
 
 1.  Select the role to use to collect IntelliTrace data.
 
 2.  Select **IntelliTrace**.
 
-3.  If you are adding IntelliTrace for a Web client role or for an ASP.NET Web application, you must also select **ASP.NET Client Proxy for IntelliTrace and Test Impact**.
+3.  If you are adding IntelliTrace for a web client role or for an ASP.NET web application, you must also select **ASP.NET Client Proxy for IntelliTrace and Test Impact**.
 
-     This proxy enables you to collect information about the http calls from a client to a Web server for the IntelliTrace and Test Impact diagnostic data adapters.
+     This proxy enables you to collect information about the http calls from a client to a web server for the IntelliTrace and Test Impact diagnostic data adapters.
 
     > [!WARNING]
     > If you decide to use a custom account for the identity that is being used for the application pool on the Internet Information Server (IIS) where you intend to collect Intellitrace data, you must create the local user profile on the IIS machine for the custom account that is being used. You can create the local profile for the custom account either by logging on to the IIS machine locally one time or by running the following command line by using the custom account credentials:
@@ -67,11 +67,11 @@ Before you perform the steps in this procedure, you must open your test settings
 
 5.  Choose the **General** tab. Select **IntelliTrace events only** to record significant diagnostic events that have minimal impact on performance when you test.
 
-     **-**or-
+     -or-
 
      Select **IntelliTrace events and call information** to record diagnostic events and method level tracing that shows call information. This level of tracing might have performance impact when you run your tests.
 
-6.  To collect data from your ASP.NET application that is running on Internet Information Services, select **Collect data from ASP.NET applications that are running on Internet Information Services**. Set up and configure your test agent on the Web server role. See [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
+6.  To collect data from your ASP.NET application that is running on Internet Information Services, select **Collect data from ASP.NET applications that are running on Internet Information Services**. Set up and configure your test agent on the web server role. See [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
 
 7.  Choose the **Modules** tab. Select either **Collect data from all modules except for the following** and use **Add** to add to the list of modules and **Remove** to remove a module. This option lets you include all the modules that are running on the system except the modules that you specify.
 
@@ -95,7 +95,7 @@ Before you perform the steps in this procedure, you must open your test settings
 11. (Optional) Choose the **Advanced** tab. Next, choose the arrow next to **Maximum amount of disk space for recording** and select the maximum size that you want to enable for the IntelliTrace file to use.
 
     > [!NOTE]
-    > If you increase the size of the recording, a time-out issue might occur when you save this recording together with your test results. For more information about how to increase the time-out values for diagnostic data adapters, see [How to: Prevent Time-Outs for Diagnostic Data Adapters](../test/how-to-prevent-time-outs-for-diagnostic-data-adapters.md).
+    > If you increase the size of the recording, a time-out issue might occur when you save this recording together with your test results. For more information about how to increase the time-out values for diagnostic data adapters, see [How to: Prevent time-outs for diagnostic data adapters](../test/how-to-prevent-time-outs-for-diagnostic-data-adapters.md).
 
 12. If you are using Microsoft Test Manager, choose **Save**. If you are using Visual Studio, choose **OK**. The IntelliTrace settings are now configured and saved for your test settings.
 
@@ -106,5 +106,5 @@ Before you perform the steps in this procedure, you must open your test settings
 
 - [Collect diagnostic data while testing (VSTS)](/vsts/manual-test/collect-diagnostic-data)
 - [Collect diagnostic data in manual tests (VSTS)](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests)
-- [Collect Diagnostic Information Using Test Settings](../test/collect-diagnostic-information-using-test-settings.md)
+- [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)
 - [Collect IntelliTrace data](../test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md)

@@ -2,7 +2,7 @@
 title: "Use Visual Studio to create an ASP.NET Core web app in C#"
 description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
 ms.custom: mvc
-ms.date: 06/27/2018
+ms.date: 07/20/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -18,74 +18,98 @@ ms.workload:
 ---
 # Quickstart: Use Visual Studio to create your first ASP.NET Core web app
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# ASP.NET Core web application.
+In this 5-10 minute introduction to how to use Visual Studio, you'll create a simple "Hello World" web app by using an ASP.NET project template and the C# programming language.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
 ## Create a project
 
-First, you'll create an ASP.NET Core web application project. The project type comes with template files that constitute a functional web application, before you've even added anything!
+First, you'll create an ASP.NET Core web application project. The project type comes with all template files to create a web app, before you've even added anything!
 
 1. Open Visual Studio 2017.
 
 1. From the top menu bar, choose **File** > **New** > **Project**.
 
-1. In the **New Project** dialog box, in the left pane, expand **Visual C#**, then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**, then choose **OK**.
+1. In the left pane of the **New Project** dialog box, expand **Visual C#**, and then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**. Then, name your file `HelloWorld` and choose **OK**.
 
-     If you don't see the **.NET Core** project template category, choose the **Open Visual Studio Installer** link in the left pane. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, then choose **Modify**.
+   ![Create the new ASP.NET Core Web Application project for C#](../ide/media/csharp-aspnet-choose-template-name-file.png)
 
-     ![ASP.NET workload in VS Installer](../ide/media/quickstart-aspnet-workload.png)
+   > [!NOTE]
+   > If you don't see the **.NET Core** project template category, choose the **Open Visual Studio Installer** link in the left pane.
+   >
+   > ![Open Visual Studio Installer from the new project dialog box](../ide/media/open-visual-studio-installer.png)
+   >
+   > The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, and then choose **Modify**.
+   >
+   > ![ASP.NET workload in VS Installer](../ide/media/quickstart-aspnet-workload.png)
+   >
+   > (You might have to close Visual Studio before you can continue installing the new workload.)
 
-1. In the **New ASP.NET Core Web Application** dialog box, select **ASP.NET Core 2.0** from the top drop-down menu. (If you don't see **ASP.NET Core 2.0** in the list, install it by following the **Download** link that should appear in a yellow bar near the top of the dialog box.) Choose **OK**.
+1. In the **New ASP.NET Core Web Application** dialog box, verify that **ASP.NET Core 2.0** appears in the top drop-down menu. Then, choose **Web Application** and choose **OK**.
 
    ![New ASP.NET Core Web Application dialog box](../ide/media/quickstart-aspnet-core20.png)
 
-## Explore the IDE
+Soon after, Visual Studio opens your project file.
 
-1. In the **Solution Explorer** toolbar, expand the **Pages** folder, then choose **About.cshtml** to open it in the editor. This file corresponds to a page called **About** in the web application.
+## Create the app
 
-1. In the editor, choose `AboutModel` and then press **F12** or choose **Go To Definition** from the context (right-click) menu. This command takes you to the definition of the `AboutModel` C# class.
+1. In the **Solution Explorer**, expand the **Pages** folder, and then choose **About.cshtml**.
 
-   ![Go To Definition context menu](../ide/media/quickstart-aspnet-gotodefinition.png)
+   ![Choose the About.cshtml file from the Solution Explorer](../ide/media/csharp-aspnet-about-page-html-file.png)
 
-1. Next, clean up the `using` directives at the top of the file using a simple shortcut. Choose any of the grayed-out using directives and a [Quick Actions](../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Choose the light bulb, and then choose **Remove Unnecessary Usings**.
+   This file corresponds to a page that's named **About** in the web app.
 
-     The unnecessary usings are deleted from the file.
+   ![The About page in the web app](../ide/media/csharp-aspnet-about-page.png)
 
-1. In the `OnGet()` method, change the body to the following code:
+   In the editor, you'll see HTML code for the "additional information" area of the **About** page.
 
- ```csharp
- public void OnGet()
- {
-     string directory = Environment.CurrentDirectory;
-     Message = String.Format("Your directory is {0}.", directory);
- }
- ```
+   ![The HTML code for the additional information area in the Visual Studio editor](../ide/media/csharp-aspnet-about-cshtml-page.png)
 
-1. You'll see two wavy underlines appear under **Environment** and **String**, because these types are not in scope. Open the **Error List** toolbar to see the same errors listed there. (If you don't see the **Error List** toolbar, choose **View** > **Error List** from the top menu bar.)
+1. Change the "additional information" text to read "**Hello World!**".
 
-   ![Error List](../ide/media/quickstart-aspnet-errorlist.png)
+   ![Change the default The HTML code for the additional information area in the Visual Studio editor](../ide/media/csharp-aspnet-about-cshtml-page-hello-world.png)
 
-1. In the editor window, place your cursor on either line that contains the error, then choose the Quick Actions light bulb in the left margin. From the drop-down menu, choose **using System;** to add this directive to the top of your file and resolve the errors.
+1. In the **Solution Explorer**, expand **About.cshtml**, and then choose **About.cshtml.cs**. (This file also corresponds with the **About** page in your web app.)
 
-## Run the application
+   ![Choose the About.cshtml file from the Solution Explorer](../ide/media/csharp-aspnet-about-page-code-file.png)
 
-1. Press **Ctrl**+**F5** to run the application and open it in a web browser.
+   In the editor, you'll see C# code that includes text for the "application description" area of the **About** page.
 
-1. At the top of the web site, choose **About** to see the directory message you added in the `OnGet()` method for the **About** page.
+   ![The C# code for the application description area in the Visual Studio editor](../ide/media/csharp-aspnet-about-cshtml-cs-code.png)
+
+1. Change the "application description" message text to read "**What's my message?**".
+
+   ![Change the default message text for the application description area in the Visual Studio editor](../ide/media/csharp-aspnet-about-cshtml-cs-message.png)
+
+## Run the app
+
+1. Press **Ctrl**+**F5** to run the app and open it in a web browser.
+
+   > [!NOTE]
+   > If you get an error message that says, **Unable to connect to web server 'IIS Express'**, close Visual Studio and then open it by using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
+
+1. At the top of the web page, choose **About**.
+
+   ![Select About from the web page](../ide/media/csharp-aspnet-home-page-about.png)
+
+1. View the updated text that you added to the **About** page.
+
+   ![View the updated About page that includes the text that you added](../ide/media/csharp-aspnet-about-page-hello-world.png)
 
 1. Close the web browser.
 
-> [!NOTE]
-> If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then open it using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
-
-Congratulations on completing this Quickstart! We hope you learned a little bit about the Visual Studio IDE. If you'd like to delve deeper into its capabilities, please continue with a tutorial in the **Tutorials** section of the table of contents.
+Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE (integrated development environment).
 
 ## Next steps
 
-Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To see the app running on a public server, select the following button.
+To learn more, continue with the following tutorials:
 
 > [!div class="nextstepaction"]
-> [Deploy the app to Azure App Service](..//deployment/quickstart-deploy-to-azure.md)
+> [Get started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)
+>
+> [!div class="nextstepaction"]
+> [Get started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)
 
-To learn more, continue with the tutorials, [Get started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md) and [Get started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x).
+## See also
+
+[Publish your web app to Azure App Service by using Visual Studio](..//deployment/quickstart-deploy-to-azure.md)
