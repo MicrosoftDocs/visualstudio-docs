@@ -48,6 +48,7 @@
 #### [For Volume Licensing](volume-license-admins.md)
 ##### [VLSC Admin Migration FAQs](vlsc-admin-faq.md)
 ##### Onboarding Your Organization
+###### [Post Migration Onboarding](post-migration-onboarding.md)
 ###### [Onboarding Email Communications](volume-license-onboarding-email.md)
 ###### [Find Your PCN](find-pcn.md)
 ###### [Find Your Primary Contact](find-primary-contact.md)

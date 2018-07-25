@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Capability Flags
+# Capability flags
 The SCC_CAP_*xxx* flags are bit flags used to indicate the capabilities of a source control plug-in. The SCC_EXCAP_*xxx* flags are incremental flags that indicate extended capabilities and resolve to integer values.  
   
 |Capability Code|Value|Description|  
@@ -45,7 +45,7 @@ The SCC_CAP_*xxx* flags are bit flags used to indicate the capabilities of a sou
 |`SCC_CAP_GET_NOUI`|0x20000000L|Plug-in does not support a UI for Get, but IDE may still call [SccGet](../extensibility/sccget-function.md).|  
 |`SCC_CAP_REENTRANT`|0x40000000L|Plug-in is reentrant and thread-safe. In version 1.0, no plug-ins were assumed to be reentrant and thread-safe. If a 1.1 plug-in sets this bit, the host is allowed to open multiple projects in parallel.|  
   
-## Capability Bits added in Version 1.2  
+## Capability bits added in version 1.2  
   
 |Capability Code|Value|Description|  
 |---------------------|-----------|-----------------|  
@@ -55,9 +55,9 @@ The SCC_CAP_*xxx* flags are bit flags used to indicate the capabilities of a sou
 |`SCC_CAP_DIRECTORYSTATUS`|0x00080000L|Supports the [SccDirQueryInfo](../extensibility/sccdirqueryinfo-function.md).|  
 |`SCC_CAP_DIRECTORYDIFF`|0x00100000L|Supports the [SccDirDiff](../extensibility/sccdirdiff-function.md).|  
 |`SCC_CAP_MULTICHECKOUT`|0x08000000L|Supports multiple checkouts on a file and the [SccIsMultiCheckoutEnabled](../extensibility/sccismulticheckoutenabled-function.md).|  
-|`SCC_CAP_SCCFILE`|0x80000000L|Supports the MSSCCPRJ.SCC file (subject to user/administrator override) and the [SccWillCreateSccFile](../extensibility/sccwillcreatesccfile-function.md).|  
+|`SCC_CAP_SCCFILE`|0x80000000L|Supports the *MSSCCPRJ.SCC* file (subject to user/administrator override) and the [SccWillCreateSccFile](../extensibility/sccwillcreatesccfile-function.md).|  
   
-## Capability Bits Added in Version 1.3  
+## Capability bits added in version 1.3  
  These flags are passed one at a time to the [SccGetExtendedCapabilities](../extensibility/sccgetextendedcapabilities-function.md) function to determine whether the capability is supported.  
   
 |Extended Capability Code|Value|Description|  
@@ -74,5 +74,5 @@ The SCC_CAP_*xxx* flags are bit flags used to indicate the capabilities of a sou
 |`SCC_EXCAP_DELETE_CHECKEDOUT`|10|Can delete checked-out files.|  
 |`SCC_EXCAP_RENAME_CHECKEDOUT`|11|Can rename checked-out files.|  
   
-## See Also  
- [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)
+## See also  
+ [Source control plug-ins](../extensibility/source-control-plug-ins.md)

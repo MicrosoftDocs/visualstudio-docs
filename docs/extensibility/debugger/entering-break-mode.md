@@ -15,10 +15,10 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Entering Break Mode
-The following describes the process that occurs when a breakpoint is encountered after stepping into a function, running to the line of source code that has the cursor in it, or running to a breakpoint.  
+# Enter break mode
+The following information describes the process that occurs when a breakpoint is encountered after stepping into a function, running to the line of source code that has the cursor in it, or running to a breakpoint.  
   
-## Break Mode Process  
+## Break mode process  
   
 1.  The debug engine (DE) sends [IDebugBreakpointEvent2](../../extensibility/debugger/reference/idebugbreakpointevent2.md), [IDebugExceptionEvent2](../../extensibility/debugger/reference/idebugexceptionevent2.md), or any other stopping event to cause the IDE to enter break mode.  
   
@@ -38,5 +38,5 @@ The following describes the process that occurs when a breakpoint is encountered
   
     -   [IDebugStackFrame2::GetCodeContext](../../extensibility/debugger/reference/idebugstackframe2-getcodecontext.md) to get memory information  
   
-## See Also  
- [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)
+## See also  
+ [Calling debugger events](../../extensibility/debugger/calling-debugger-events.md)

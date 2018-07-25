@@ -19,21 +19,21 @@ Retrieves an array of all <xref:System.Threading.Tasks.TaskScheduler> objects th
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   
- **Assembly:** mscorlib (in mscorlib.dll)  
+ **Assembly:** mscorlib (in *mscorlib.dll*)  
   
- Because you cannot access this internal member from the .NET Framework, the following syntax is provided in Common Intermediate Language (CIL).  
+ Because you can't access this internal member from the .NET Framework, the following syntax is provided in Common Intermediate Language (CIL).  
   
 ## Syntax  
   
-```  
+```csharp  
 .method assembly hidebysig static class System.Threading.Tasks.TaskScheduler[] GetTaskSchedulersForDebugger() cil managed  
 ```  
   
-## Return Value  
+## Return value  
  An array of all <xref:System.Threading.Tasks.TaskScheduler> objects that are currently active in this <xref:System.AppDomain>.  
   
 ## Remarks  
- This method is not thread safe and should not be used concurrently with other instances of <xref:System.Threading.Tasks.TaskScheduler>. It should be called from a debugger only when the debugger has suspended all other threads.  
+ This method is not thread safe and you shouldn't use it concurrently with other instances of <xref:System.Threading.Tasks.TaskScheduler>. Call this method from a debugger only when the debugger has suspended all other threads.  
   
-## See Also  
- [TaskScheduler Class](../../extensibility/debugger/taskscheduler-class-internal-members.md)
+## See also  
+ [TaskScheduler class](../../extensibility/debugger/taskscheduler-class-internal-members.md)
