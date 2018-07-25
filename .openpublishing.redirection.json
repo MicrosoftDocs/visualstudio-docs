@@ -2296,6 +2296,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/vsto/updating-ribbon-customizations-in-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md",
+            "redirect_url": "/visualstudio/vsto/update-ribbon-customizations-in-office-projects-to-migrate-to-dotnet-framework-4-or-4-5",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/vsto/you-must-explicitly-enable-access-to-the-microsoft-office-visual-basic-for-applications-project-system-before-you-can-create-or-open-a-----for-the-microsoft-office-system-project.md",
             "redirect_url": "/visualstudio/vsto/enable-access-to-vba-to-create-or-open-a-visual-studio-tools-for-office-system-project",
             "redirect_document_id": false
