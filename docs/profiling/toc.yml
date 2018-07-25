@@ -410,7 +410,7 @@
           - name: Instrument a stand-alone .NET Framework component and collect timing data with the profiler from the command line
             href: how-to-instrument-a-native-component-and-collect-timing-data.md
           - name: Instrument a native stand-alone component and collect timing data with the profiler from the command line
-            href: how-to-instrument-a-native-stand-alone-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md
+            href: how-to-instrument-a-native-component-and-collect-timing-data.md
         - name: Collecting concurrency data for stand-alone applications by using the profiler command line
           href: collecting-concurrency-data-for-stand-alone-applications.md
           items:

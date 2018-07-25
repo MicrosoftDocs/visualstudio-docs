@@ -35,7 +35,7 @@ Your choice of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profili
   
 -   [.NET Framework stand-alone components](../profiling/how-to-instrument-a-native-component-and-collect-timing-data.md)  
   
--   [Native stand-alone components](../profiling/how-to-instrument-a-native-stand-alone-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md)  
+-   [Native stand-alone components](../profiling/how-to-instrument-a-native-component-and-collect-timing-data.md)  
   
 -   [Statically compiled ASP.NET web applications](../profiling/how-to-instrument-statically-compiled-aspnet-and-collect-detailed-timing-data.md)  
   

@@ -1660,6 +1660,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/profiling/how-to-instrument-a-native-stand-alone-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-native-component-and-collect-timing-data",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/profiling/how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md",
             "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-concurrency-data",
             "redirect_document_id": false
