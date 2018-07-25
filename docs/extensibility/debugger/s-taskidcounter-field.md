@@ -21,15 +21,15 @@ The next available identifier for a <xref:System.Threading.Tasks.Task> object.
   
  **Assembly:** mscorlib (in mscorlib.dll)  
   
- Because you cannot access this internal member from the .NET Framework, the following syntax is provided in Common Intermediate Language (CIL).  
+ Because you can't access this internal member from the .NET Framework, the following syntax is provided in Common Intermediate Language (CIL).  
   
 ## Syntax  
   
-```  
+```csharp  
 .field static assembly int32 s_taskIdCounter  
 ```  
   
 ## Remarks  
   
-## See Also  
- [Task Class](../../extensibility/debugger/task-class-internal-members.md)
+## See also  
+ [Task class](../../extensibility/debugger/task-class-internal-members.md)

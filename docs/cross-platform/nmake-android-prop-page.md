@@ -19,7 +19,7 @@ f1_keywords:
 ms.workload:
   - "xplat-cplusplus"
 ---
-# NMake Properties (Android C++)
+# NMake properties (Android C++)
 
 Property | Description
 --- | ---

@@ -373,6 +373,6 @@ Running a web app on your development computer is just one step in making the ap
 
 - Set up a continuous integration/continuous deployment pipeline on a service like Visual Studio Team Services (VSTS). In addition to working with source control (on VSTS, GitHub, or elsewhere), you can have VSTS automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for additional tests before deploying to production. VSTS, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see:
 
-  - [Create a CI/CD pipeline for Python with the Azure DevOps project](/vsts/build-release/apps/cd/azure/azure-devops-project-python?view=vsts)
+  - [Create a CI/CD pipeline for Python with the Azure DevOps project](/azure/devops-project/azure-devops-project-python?view=vsts)
   - [Python development in Azure with Visual Studio Team Services (video, 11m 21s)](https://azure.microsoft.com/resources/videos/connect-2017-python-development-in-azure-with-visual-studio-team-services/).
 

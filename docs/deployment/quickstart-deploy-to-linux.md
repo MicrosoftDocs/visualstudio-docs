@@ -16,6 +16,8 @@ ms.workload:
 
 You can use the **Publish** tool to publish ASP.NET Core apps to Azure App Service on Linux.
 
+Deployment to App Service on Linux using the **Publish** tool requires Visual Studio 2017 version 15.7.
+
 [!INCLUDE [quickstart-prereqs-azure-linux](includes/quickstart-prereqs-azure-linux.md)]
 
 ## Publish to App Service on Linux
