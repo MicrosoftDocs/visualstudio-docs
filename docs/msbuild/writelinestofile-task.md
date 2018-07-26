@@ -59,6 +59,31 @@ Writes the paths of the specified items to the specified text file.
     </Target>  
   
 </Project>  
+```
+
+In this example we use a property with `CDATA` to write a text file with multiple lines.
+
+```xml  
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <Target Name="WriteLaunchers" AfterTargets="CopyFilesToOutputDirectory">
+      <PropertyGroup>
+        <LauncherCmd><![CDATA[
+@ECHO OFF
+dotnet %~dp0$(AssemblyName).dll %*
+        ]]></LauncherCmd>
+      </PropertyGroup>
+
+      <WriteLinesToFile
+        File="$(OutputPath)$(AssemblyName).cmd"
+        Overwrite="true"
+        Lines="$(LauncherCmd)" />
+  </Target>
+</Project>
 ```  
   
 ## See also  
