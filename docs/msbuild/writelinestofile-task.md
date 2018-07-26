@@ -61,7 +61,7 @@ Writes the paths of the specified items to the specified text file.
 </Project>  
 ```
 
-In this example we use a property with `CDATA` to write a text file with multiple lines.
+In this example we use a property with embedded newlines to write a text file with multiple lines.
 
 ```xml  
 <Project Sdk="Microsoft.NET.Sdk">
