@@ -17,7 +17,7 @@ ms.workload:
 
 A Python *environment* is a context in which you run Python code and includes global, virtual, and conda environments. An environment consists of an interpreter, a library (typically the Python Standard Library), and a set of installed packages. These components together determine which language constructs and syntax are valid, what operating-system functionality you can access, and which packages you can use.
 
-In Visual Studio on Windows, the [Python Environments](#the-python-environments-window) window, as described in this article, is where you manage these environments and select one as the default for new projects. For any given project, you can also [select a specific environment](selecting-a-python-environment-for-a-project.md) rather than use the default.
+In Visual Studio on Windows, the [**Python Environments**](#the-python-environments-window) window, as described in this article, is where you manage these environments and select one as the default for new projects. For any given project, you can also [select a specific environment](selecting-a-python-environment-for-a-project.md) rather than use the default.
 
 >[!NOTE]
 >If you're new to Python in Visual Studio, see the following articles for necessary background:
@@ -89,7 +89,7 @@ Selecting an environment in the list displays various properties and commands fo
 
 Selecting an environment does not activate it in any way. The default environment, shown in boldface in the list, is the currently activated environment that Visual Studio uses for any new projects. To activate a different environment, use the **Make this the default environment for new projects** command. Within the context of a project you can always activate a different environment. For more information, see [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
-To the right of each listed environment is a control that opens an interactive window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appears that refreshes the IntelliSense database for that environment. See [Environments window tab reference](python-environments-window-tab-reference.md#intellisense-tab) for details about the database.)
+To the right of each listed environment is a control that opens an **Interactive** window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appears that refreshes the IntelliSense database for that environment. See [Environments window tab reference](python-environments-window-tab-reference.md#intellisense-tab) for details about the database.)
 
 > [!Tip]
 > When you expand the **Python Environments** window wide enough, you get a fuller view of your environments that you may find more convenient to work with.

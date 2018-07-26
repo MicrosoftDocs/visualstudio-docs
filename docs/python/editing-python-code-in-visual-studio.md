@@ -17,13 +17,13 @@ ms.workload:
 
 Developers spend much of their time in the code editor, so [Python support in Visual Studio](installing-python-support-in-visual-studio.md) provides functionality to help you be more productive. Features include IntelliSense syntax highlighting, auto-completion, signature help, method overrides, search, and navigation.
 
-The editor is also integrated with the interactive window in Visual Studio, making it easy to exchange code between the two. See [Tutorial Step 3: Use the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md) and [Use the interactive window - Send code to interactive command](python-interactive-repl-in-visual-studio.md#send-code-to-interactive-command) for details.
+The editor is also integrated with the **Interactive** window in Visual Studio, making it easy to exchange code between the two. See [Tutorial Step 3: Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md) and [Use the Interactive window - Send to Interactive command](python-interactive-repl-in-visual-studio.md#send-code-to-interactive-command) for details.
 
 |   |   |
 |---|---|
 | ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses-embed/python-tools-for-visual-studio-2017-18121/Video-Editing-Python-Code-r2iQH5LWE_4605918567) for a demonstration of editing Python code (2m 30s).|
 
-For general documentation on editing code in Visual Studio, see [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md). Also see [Outlining in Visual Studio](../ide/outlining.md), which helps you stay focused on particular sections of your code.
+For general documentation on editing code in Visual Studio, see [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md). Also see [Outlining](../ide/outlining.md), which helps you stay focused on particular sections of your code.
 
 You can also use the Visual Studio **Object Browser** (**View** > **Other Windows** > **Object Browser** or **Ctrl**+**W** > **J**) for inspecting Python classes defined in each module and the functions defined in those classes.
 
@@ -72,7 +72,7 @@ Typing @ starts a decorator and shows potential decorators. Many of these items 
 ![Decorator completion](media/code-editing-completion-decorator.png)
 
 > [!Tip]
-> You can configure the behavior of completions through **Tools** > **Options** > **Text Editor** > **Python** > **Advanced**. Among these, **Filter list based on search string**: applies filtering of completion suggestions as you type (default is checked), and **Member completion displays intersection of members** shows only completions that are supported by all possible types (default is unchecked). See [Options - completion results](python-support-options-and-settings-in-visual-studio.md#completion-results).
+> You can configure the behavior of completions through **Tools** > **Options** > **Text Editor** > **Python** > **Advanced**. Among these, **Filter list based on search string** applies filtering of completion suggestions as you type (default is checked), and **Member completion displays intersection of members** shows only completions that are supported by all possible types (default is unchecked). See [Options - completion results](python-support-options-and-settings-in-visual-studio.md#completion-results).
 
 ### Type hints
 
@@ -184,7 +184,7 @@ If you write a great code snippet that you'd like to share, feel free to post it
 
 ## Navigate your code
 
-Python support in Visual Studio provides several means to quickly navigate within your code, including libraries for which source code is available: the [**navigation bar**](#navigation-bar), [**Go To Definition**](#go-to-definition), [**Navigate To**](#navigate-to), and [**Find All References**](#find-all-references). You can also use the Visual Studio [**Object Browser**](../ide/viewing-the-structure-of-code.md#BKMK_ObjectBrowser).
+Python support in Visual Studio provides several means to quickly navigate within your code, including libraries for which source code is available: the [navigation bar](#navigation-bar), [**Go To Definition**](#go-to-definition), [**Navigate To**](#navigate-to), and [**Find All References**](#find-all-references). You can also use the Visual Studio [**Object Browser**](../ide/viewing-the-structure-of-code.md#BKMK_ObjectBrowser).
 
 ### Navigation bar
 
