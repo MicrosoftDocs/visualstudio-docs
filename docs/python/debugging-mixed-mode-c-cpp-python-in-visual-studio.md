@@ -103,7 +103,7 @@ When using the **Step Into** (**F11**) or **Step Out** (**Shift**+**F11**) comma
 
 ### PyObject values view in native code
 
-When a native (C or C++) frame is active, its local variables show up in the debugger **Locals** window. In native Python extension modules, many of these variables are of type `PyObject` (which is a typedef for `_object`), or a few other fundamental Python types (see list below). In mixed-mode debugging, these values present an additional child node labeled **Python view**. When expanded, this node shows the variable's Python representation, identical to what you'd see if a local variable referencing the same object was present in a Python frame. The children of this node are editable.
+When a native (C or C++) frame is active, its local variables show up in the debugger **Locals** window. In native Python extension modules, many of these variables are of type `PyObject` (which is a typedef for `_object`), or a few other fundamental Python types (see list below). In mixed-mode debugging, these values present an additional child node labeled **[Python view]**. When expanded, this node shows the variable's Python representation, identical to what you'd see if a local variable referencing the same object was present in a Python frame. The children of this node are editable.
 
 ![Python View](media/mixed-mode-debugging-python-view.png)
 
@@ -111,7 +111,7 @@ To disable this feature, right-click anywhere in the **Locals** window and toggl
 
 ![Enabling Python View](media/mixed-mode-debugging-enable-python-view.png)
 
-C types that show **Python view** nodes (if enabled):
+C types that show **[Python view]** nodes (if enabled):
 
 - `PyObject`
 - `PyVarObject`
@@ -128,25 +128,25 @@ C types that show **Python view** nodes (if enabled):
 - `PyStringObject`
 - `PyUnicodeObject`
 
-**Python view** does not automatically appear for types you author yourself. When authoring extensions for Python 3.x, this lack is usually not an issue because any object ultimately has an `ob_base` field of one of the types above, which causes **Python view** to appear.
+**[Python view]** does not automatically appear for types you author yourself. When authoring extensions for Python 3.x, this lack is usually not an issue because any object ultimately has an `ob_base` field of one of the types above, which causes **[Python view]** to appear.
 
-For Python 2.x, however, each object type typically declares its header as a collection of inline fields, and there is no association between custom authored types and `PyObject` at the type system level in C/C++ code. To enable **Python view** nodes for such custom types, edit the *PythonDkm.natvis* in the [Python tools install directory](installing-python-support-in-visual-studio.md#install-locations), and add another element in the XML for your C struct or C++ class.
+For Python 2.x, however, each object type typically declares its header as a collection of inline fields, and there is no association between custom authored types and `PyObject` at the type system level in C/C++ code. To enable **[Python view]** nodes for such custom types, edit the *PythonDkm.natvis* file in the [Python tools install directory](installing-python-support-in-visual-studio.md#install-locations), and add another element in the XML for your C struct or C++ class.
 
 An alternate (and better) option is to follow [PEP 3123](http://www.python.org/dev/peps/pep-3123/) and use an explicit `PyObject ob_base;` field rather than `PyObject_HEAD`, though that may not always be possible for backwards-compatibility reasons.
 
 ### Native values view in Python code
 
-Similar to the previous section, you can enable a **C++ view** for native values in the **Locals** window when a Python frame is active. This feature is not enabled by default, so you turn it on by right-clicking in the **Locals** window and toggling the **Python** > **Show C++ View Nodes** menu option.
+Similar to the previous section, you can enable a **[C++ view]** for native values in the **Locals** window when a Python frame is active. This feature is not enabled by default, so you turn it on by right-clicking in the **Locals** window and toggling the **Python** > **Show C++ View Nodes** menu option.
 
 ![Enabling C++ View](media/mixed-mode-debugging-enable-cpp-view.png)
 
-The **C++ view** node provides a representation of the underlying C/C++ structure for a value, identical to what you'd see in a native frame. For example, it shows an instance of `_longobject` (for which `PyLongObject` is a typedef) for a Python long integer, and it tries to infer types for native classes that you have authored yourself. The children of this node are editable.
+The **[C++ view]** node provides a representation of the underlying C/C++ structure for a value, identical to what you'd see in a native frame. For example, it shows an instance of `_longobject` (for which `PyLongObject` is a typedef) for a Python long integer, and it tries to infer types for native classes that you have authored yourself. The children of this node are editable.
 
 ![C++ View](media/mixed-mode-debugging-cpp-view.png)
 
-If a child field of an object is of type `PyObject`, or one of the other supported types, then it has a **Python view** representation node (if those representations are enabled), making it possible to navigate object graphs where links are not directly exposed to Python.
+If a child field of an object is of type `PyObject`, or one of the other supported types, then it has a **[Python view]** representation node (if those representations are enabled), making it possible to navigate object graphs where links are not directly exposed to Python.
 
-Unlike **Python view** nodes, which use Python object metadata to determine the type of the object, there's no similarly reliable mechanism for **C++ view**. Generally speaking, given a Python value (that is, a `PyObject` reference) it's not possible to reliably determine which C/C++ structure is backing it. The mixed-mode debugger tries to guess that type by looking at various fields of the object's type (such as the `PyTypeObject` referenced by its `ob_type` field) that have function pointer types. If one of those function pointers references a function that can be resolved, and that function has a `self` parameter with type more specific than `PyObject*`, then that type is assumed to be the backing type. For example, if `ob_type->tp_init` of a given object points at the following function:
+Unlike **[Python view]** nodes, which use Python object metadata to determine the type of the object, there's no similarly reliable mechanism for **[C++ view]**. Generally speaking, given a Python value (that is, a `PyObject` reference) it's not possible to reliably determine which C/C++ structure is backing it. The mixed-mode debugger tries to guess that type by looking at various fields of the object's type (such as the `PyTypeObject` referenced by its `ob_type` field) that have function pointer types. If one of those function pointers references a function that can be resolved, and that function has a `self` parameter with type more specific than `PyObject*`, then that type is assumed to be the backing type. For example, if `ob_type->tp_init` of a given object points at the following function:
 
 ```c
 static int FobObject_init(FobObject* self, PyObject* args, PyObject* kwds) {
@@ -154,7 +154,7 @@ static int FobObject_init(FobObject* self, PyObject* args, PyObject* kwds) {
 }
 ```
 
-then the debugger can correctly deduce that the C type of the object is `FobObject`. If it's unable to determine a more precise type from `tp_init`, it moves on to other fields. If it's unable to deduce the type from any of those fields, the **C++ view** node presents the object as a `PyObject` instance.
+then the debugger can correctly deduce that the C type of the object is `FobObject`. If it's unable to determine a more precise type from `tp_init`, it moves on to other fields. If it's unable to deduce the type from any of those fields, the **[C++ view]** node presents the object as a `PyObject` instance.
 
 To always get a useful representation for custom authored types, it's best to register at least one special function when registering the type, and use a strongly-typed `self` parameter. Most types fulfill that requirement naturally; if that's not the case, then `tp_init` is usually the most convenient entry to use for this purpose. A dummy implementation of `tp_init` for a type that is present solely to enable debugger type inference can just return zero immediately, as in the code sample above.
 
