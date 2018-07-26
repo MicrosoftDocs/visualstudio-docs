@@ -1671,6 +1671,51 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/profiling/how-to-launch-a-stand-alone-native-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-native-application-to-collect-concurrency-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-native-app-and-collect-concurrency-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-memory-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-app-to-collect-memory-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-memory-data-by-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-statically-compiled-aspnet-app-and-collect-memory-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-memory-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-memory-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-launch-a-stand-alone-application-with-the-profiler-and-collect-application-statistics-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-app-and-collect-application-statistics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-application-statistics-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-native-app-and-collect-application-statistics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-dotnet-framework-component-and-collect-timing-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-instrument-a-native-stand-alone-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-native-component-and-collect-timing-data",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/profiling/how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md",
             "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-concurrency-data",
             "redirect_document_id": false
