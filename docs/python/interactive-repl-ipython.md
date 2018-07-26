@@ -15,12 +15,12 @@ ms.workload:
 
 # Use IPython in the Interactive window
 
-The Visual Studio **Interactive** window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. This article walks through using IPython in the Visual Studio **Interactive** window, in which all of the regular [**Interactive** window](python-interactive-repl-in-visual-studio.md) features are also available.
+The Visual Studio **Interactive** window in IPython mode is an advanced yet user-friendly interactive development environment that has Interactive Parallel Computing features. This article walks through using IPython in the Visual Studio **Interactive** window, in which all of the regular [Interactive window](python-interactive-repl-in-visual-studio.md) features are also available.
 
 For this walkthrough you should have the [Anaconda](https://www.continuum.io) environment installed, which includes IPython and the necessary libraries.
 
 > [!Note]
-> IronPython does not support IPython, despite the fact that you can select it on the **Interactive Options** form. FOr more information see the [feature request](https://github.com/Microsoft/PTVS/issues/84).
+> IronPython does not support IPython, despite the fact that you can select it on the **Interactive Options** form. For more information see the [feature request](https://github.com/Microsoft/PTVS/issues/84).
 
 1. Open Visual Studio, switch to the **Python Environments** window (**View** > **Other Windows** > **Python Environments**), and select an Anaconda environment.
 
@@ -43,7 +43,7 @@ For this walkthrough you should have the [Anaconda](https://www.continuum.io) en
   plt.plot(x, y, 'r', x, x ** 3, 'g', x, x ** 4, 'b')
   ```
 
-1. After entering the last line, you should see an inline graph (which you can resize by dragging on the lower right-hand corner) if desired.
+1. After entering the last line, you should see an inline graph (which you can resize by dragging on the lower right-hand corner if desired).
 
     ![Inline graph in the interactive window](media/ipython-repl-04.png)
 

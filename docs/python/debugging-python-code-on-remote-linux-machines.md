@@ -165,7 +165,7 @@ By default, the connection to the ptvsd remote debug server is secured only by t
 
 ### Warnings
 
-Visual Studio prompts you about potential certificate issues when connecting over SSL as described below. You may ignore the warnings and proceed, but although the channel is still be encrypted against eavesdropping it can be open to man-in-the-middle attacks.
+Visual Studio prompts you about potential certificate issues when connecting over SSL as described below. You may ignore the warnings and proceed, but although the channel is still encrypted against eavesdropping it can be open to man-in-the-middle attacks.
 
 1. If you see the **remote certificate is not trusted** warning below, it means you did not properly add the certificate to the Trusted Root CA. Check those steps and try again.
 

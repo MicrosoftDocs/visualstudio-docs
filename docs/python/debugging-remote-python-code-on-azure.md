@@ -15,7 +15,7 @@ ms.workload:
 
 # Remotely debug Python code on Azure
 
-[Python support in Visual Studio](installing-python-support-in-visual-studio.md) includes the ability to remotely debug Python code that's running on Azure App Service. Unlike simple remote debugging, the target computer in this scenario is not directly accessible over TCP, so Visual Studio provides a proxy that exposes the debugger protocol over HTTP. Projects created using the Web template automatically configure this proxy in the generated *web.debug.config* file. Remote debugging is also enabled when you publish a **Debug** configuration of your project as described on [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md.
+[Python support in Visual Studio](installing-python-support-in-visual-studio.md) includes the ability to remotely debug Python code that's running on Azure App Service. Unlike simple remote debugging, the target computer in this scenario is not directly accessible over TCP, so Visual Studio provides a proxy that exposes the debugger protocol over HTTP. Projects created using the Web template automatically configure this proxy in the generated *web.debug.config* file. Remote debugging is also enabled when you publish a **Debug** configuration of your project as described on [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md).
 
 Because Azure remote debugging uses web sockets, sockets must be enabled for your App Service through the [Azure portal](https://portal.azure.com) by going to **Settings** > **Application settings** and turning **General settings** > **Web sockets** to **On**, then selecting **Save** to apply the change. (Note that the **Debugging** settings do not apply to debugging Python.)
 
@@ -39,7 +39,7 @@ To attach the debugger directly to App Service, follow the instructions given on
 
 ![Azure remote debugging proxy information page](media/azure-remote-debugging-proxy-info-page.png)
 
-As instructed, construct a URL using the secret from *web.debug.config*, which is regenerated every time your project is published. This file is hidden by default in *Solution Explorer* and not included in your project, so show all files or open it in a separate editor. Once you've opened the file, look at the value of the appSetting named `WSGI_PTVSD_SECRET`:
+As instructed, construct a URL using the secret from *web.debug.config*, which is regenerated every time your project is published. This file is hidden by default in **Solution Explorer** and not included in your project, so show all files or open it in a separate editor. Once you've opened the file, look at the value of the appSetting named `WSGI_PTVSD_SECRET`:
 
 ![Determining the debugger endpoint in an Azure App Service](media/azure-remote-debugging-secret.png)
 

@@ -61,7 +61,7 @@ Mixed-mode debugging features include the following, as explained in this articl
 
 Visual Studio 2017 (version 15.5 and higher) supports mixed-mode debugging from a C/C++ project (for example, when [embedding Python in another application as described on python.org](https://docs.python.org/3/extending/embedding.html)). To enable mixed-mode debugging, configure the C/C++ project to launch **Python/Native Debugging**:
 
-1. Right-click the C/C++ project in **Solution Explorer** and select **Properties**
+1. Right-click the C/C++ project in **Solution Explorer** and select **Properties**.
 1. Select the **Debugging** tab, select **Python/Native Debugging** from the **Debugger to launch**, and select **OK**.
 
     ![Selecting the Python/Native debugger in a C/C++ project](media/mixed-mode-debugging-select-cpp-debugger.png)
@@ -171,7 +171,7 @@ The mixed-mode debugger is distinct from the [standard Python debugger](debuggin
 
 ### Expression evaluation
 
-The standard Python debugger allows evaluation of arbitrary Python expressions in Watch and Immediate windows when the debugged process is paused at any point in the code, so long as it is not blocked in an I/O operation or other similar system call. In mixed-mode debugging, arbitrary expressions can be evaluated only when stopped in Python code, after a breakpoint, or when stepping into the code. Expressions can be evaluated only on the thread on which the breakpoint or the stepping operation occurred.
+The standard Python debugger allows evaluation of arbitrary Python expressions in **Watch** and **Immediate** windows when the debugged process is paused at any point in the code, so long as it is not blocked in an I/O operation or other similar system call. In mixed-mode debugging, arbitrary expressions can be evaluated only when stopped in Python code, after a breakpoint, or when stepping into the code. Expressions can be evaluated only on the thread on which the breakpoint or the stepping operation occurred.
 
 When stopped in native code, or in Python code where the conditions above do not apply (for example, after a step-out operation, or on a different thread), expression evaluation is limited to accessing local and global variables in scope of the currently selected frame, accessing their fields, and indexing built-in collection types with literals. For example, the following expression can be evaluated in any context (provided that all identifiers refer to existing variables and fields of appropriate types):
 

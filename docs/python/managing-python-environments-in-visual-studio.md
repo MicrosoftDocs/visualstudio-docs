@@ -89,7 +89,7 @@ Selecting an environment in the list displays various properties and commands fo
 
 Selecting an environment does not activate it in any way. The default environment, shown in boldface in the list, is the currently activated environment that Visual Studio uses for any new projects. To activate a different environment, use the **Make this the default environment for new projects** command. Within the context of a project you can always activate a different environment. For more information, see [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
-To the right of each listed environment is a control that opens an interactive window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appear that refreshes the IntelliSense database for that environment. See [Environments window tab reference](python-environments-window-tab-reference.md#intellisense-tab) for details about the database).
+To the right of each listed environment is a control that opens an interactive window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appears that refreshes the IntelliSense database for that environment. See [Environments window tab reference](python-environments-window-tab-reference.md#intellisense-tab) for details about the database.)
 
 > [!Tip]
 > When you expand the **Python Environments** window wide enough, you get a fuller view of your environments that you may find more convenient to work with.
@@ -144,9 +144,9 @@ Use the following steps to identify an environment that's installed in a non-sta
 
 1. Enter a name for the environment in the **Description** field.
 
-1. Enter or browse (using **...***) to the path of the interpreter in the **Prefix path** field.
+1. Enter or browse (using **...**) to the path of the interpreter in the **Prefix path** field.
 
-1. If Visual Studio detects a Python interpreter at that location (such as the path shown below for a conda environment), it enables the **Auto Detect** command. Selecting **Auto Detect* completes the remaining fields. You can also complete those fields manually.
+1. If Visual Studio detects a Python interpreter at that location (such as the path shown below for a conda environment), it enables the **Auto Detect** command. Selecting **Auto Detect** completes the remaining fields. You can also complete those fields manually.
 
     ![Enabling the Auto Detect command](media/environments-custom-2.png)
 

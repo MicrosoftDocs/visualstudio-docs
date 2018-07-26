@@ -125,13 +125,13 @@ When writing code that calls a function, signature help appears when you type th
 
 ### Quick info
 
-Hovering the mouse pointer over an identifier displays a Quick Info tooltip. Depending on the identifier, Quick Info may display the potential values or types, any available documentation, return types and, definition locations:
+Hovering the mouse pointer over an identifier displays a Quick Info tooltip. Depending on the identifier, Quick Info may display the potential values or types, any available documentation, return types, and definition locations:
 
 ![Quick Info](media/code-editing-quick-info.png)
 
 ### Code coloring
 
-Code coloring uses information from code analysis to colors variables, statements, and other parts of your code. For example, variables that refer to modules or classes may be shown in a different color than functions or other values, and parameter names appear in a different color than local or global variables. (By default, functions are not shown in bold):
+Code coloring uses information from code analysis to color variables, statements, and other parts of your code. For example, variables that refer to modules or classes may be shown in a different color than functions or other values, and parameter names appear in a different color than local or global variables. (By default, functions are not shown in bold):
 
 ![Code coloring](media/code-editing-code-coloring.png)
 
@@ -178,7 +178,7 @@ You can see the available code snippets in the **Code Snippets Manager**, opened
 
 ![Code Snippets Manager](media/code-editing-code-snippets-manager.png)
 
-To create your own snippets, see [Walkthrough: Creating a code snippet](../ide/walkthrough-creating-a-code-snippet.md).
+To create your own snippets, see [Walkthrough: Create a code snippet](../ide/walkthrough-creating-a-code-snippet.md).
 
 If you write a great code snippet that you'd like to share, feel free to post it in a gist and [let us know](https://github.com/Microsoft/PTVS/issues). We may be able to include it in a future release of Visual Studio.
 

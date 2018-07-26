@@ -17,7 +17,7 @@ ms.workload:
 
 In the process of working with your Python projects, you may find yourself switching to a command window to run specific scripts or modules, run pip commands, or run some other arbitrary tool. To improve your workflow, you can add custom commands to the **Python** submenu in the Python project context menu. Those commands can run in a console window or in the Visual Studio output window. You can also use regular expressions to instruct Visual Studio how to parse errors and warnings from the command's output.
 
-By default, that menu contains only the single **Run Pylint** command:
+By default, that menu contains only the single **Run PyLint** command:
 
 ![Default appearance of the Python submenu on a project's context menu](media/custom-commands-default-menu.png)
 
@@ -34,13 +34,13 @@ Each custom command can refer to a Python file, a Python module, inline Python c
 >
 > As you may know, Visual Studio provides a means to edit the project file directly. You first right-click the project file and select **Unload project**, then right-click again and select **Edit \<project-name>** to open the project in the Visual Studio editor. You then make and save edits, right-click the project once more, and select **Reload project**, which also prompts you to confirm closing the project file in the editor.
 >
-> When developing a custom command, however, all these clicks can become tedious. For a more efficient workflow, load the project in Visual Studio and also open the *'.pyproj* file in a separate editor altogether (such as another instance of Visual Studio, Visual Studio Code, Notepad, etc.). When you save changes in the editor and switch to Visual Studio, Visual Studio detects changes and asks whether to reload the project (**The project \<name> has been modified outside the environment.**). Select **Reload** and your changes are immediately applied in just one step.
+> When developing a custom command, however, all these clicks can become tedious. For a more efficient workflow, load the project in Visual Studio and also open the *.pyproj* file in a separate editor altogether (such as another instance of Visual Studio, Visual Studio Code, Notepad, etc.). When you save changes in the editor and switch to Visual Studio, Visual Studio detects changes and asks whether to reload the project (**The project \<name> has been modified outside the environment.**). Select **Reload** and your changes are immediately applied in just one step.
 
 ## Walkthrough: Add a command to a project file
 
 To familiarize yourself with custom commands, this section walks through a simple example that runs a project's startup file directly using *python.exe*. (Such a command is effectively the same as using **Debug** > **Start without Debugging**.)
 
-1. Create a new project named "Python-CustomCommands" using the "Python Application" template. (See [Quickstart: Create a Python project from a template](quickstart-02-python-in-visual-studio-project-from-template.md) for instructions if you're not already familiar with the process.)
+1. Create a new project named "Python-CustomCommands" using the **Python Application** template. (See [Quickstart: Create a Python project from a template](quickstart-02-python-in-visual-studio-project-from-template.md) for instructions if you're not already familiar with the process.)
 
 1. In *Python_CustomCommands.py*, add the code `print("Hello custom commands")`.
 
@@ -142,11 +142,11 @@ All attribute values are case-insensitive.
 | TargetType | Yes | Specifies what the Target attribute contains and how it's used along with the Arguments attribute:<ul><li>**executable**: Run the executable named in Target, appending the value in Arguments, as if entered directly on the command line. The value must contain only a program name without arguments.</li><li>**script**: Run *python.exe* with the filename in Target, followed with the value in Arguments.</li><li>**module**: Run `python -m` followed by the module name in Target, followed with the value in Arguments.</li><li>**code**: Run the inline code contained in Target. The Arguments value is ignored.</li><li>**pip**: Run `pip` with the command in Target, followed by Arguments; is ExecuteIn is set to "output", however, pip assumes the `install` command and uses Target as the package name.</li></ul> |
 | Target | Yes | The filename, module name, code, or pip command to use, depending on the TargetType. |
 | Arguments | Optional | Specifies a string of arguments (if any) to give to the target. Note that when TargetType is `script`, the arguments are given to the Python program, not *python.exe*. Ignored for the `code` TargetType. |
-| ExecuteIn | Yes | Specifies the environment in which to run the command:<ul><li>**console**: (Default) Runs Target and the arguments as if they are entered directly on the command line. A command window appears while the Target is running, then is closed automatically.</li><li>**consolepause**: Same a console, but waits for a keypress before closing the window.</li><li>**output**: Runs Target and displays its results in the **Output** window in Visual Studio. If TargetType is "pip", Visual Studio uses Target as the package name and appends Arguments.</li><li>**repl**: Runs Target in the [**Python Interactive Window**](python-interactive-repl-in-visual-studio.md); the optional display name is used for the title of the window.</li><li>**none**: behaves the same as console.</li></ul>|
+| ExecuteIn | Yes | Specifies the environment in which to run the command:<ul><li>**console**: (Default) Runs Target and the arguments as if they are entered directly on the command line. A command window appears while the Target is running, then is closed automatically.</li><li>**consolepause**: Same as console, but waits for a keypress before closing the window.</li><li>**output**: Runs Target and displays its results in the **Output** window in Visual Studio. If TargetType is "pip", Visual Studio uses Target as the package name and appends Arguments.</li><li>**repl**: Runs Target in the [Python Interactive](python-interactive-repl-in-visual-studio.md) window; the optional display name is used for the title of the window.</li><li>**none**: behaves the same as console.</li></ul>|
 | WorkingDirectory | Optional | The folder in which to run the command. |
 | ErrorRegex<br>WarningRegEx | Optional | Used only when ExecuteIn is `output`. Both values specify a regular expression with which Visual Studio parses command output to show errors and warnings in its **Error List** window. If not specified, the command does not affect the **Error List** window. For more information on what Visual Studio expects, see [Named capture groups](#named-capture-groups-for-regular-expressions). |
 | RequiredPackages | Optional | A list of package requirements for the command using the same format as [*requirements.txt*](https://pip.readthedocs.io/en/1.1/requirements.html) (pip.readthedocs.io). The **Run PyLint** command, for example specifies `pylint>=1.0.0`. Before running the command, Visual Studio checks that all packages in the list are installed. Visual Studio uses pip to install any missing packages. |
-| Environment | Optional | A string of environment variables to define before running the command. Each variable uses of the form \<NAME>=\<VALUE> with multiple variables separated by semicolons. A variable with multiple values must be contained in single or double quotes, as in 'NAME=VALUE1;VALUE2'. |
+| Environment | Optional | A string of environment variables to define before running the command. Each variable uses the form \<NAME>=\<VALUE> with multiple variables separated by semicolons. A variable with multiple values must be contained in single or double quotes, as in 'NAME=VALUE1;VALUE2'. |
 
 #### Named capture groups for regular expressions
 
@@ -384,6 +384,6 @@ Attribute values can be empty if you refer to a property that's not defined. For
 
 You're likely attempting to run a console command with `ExecuteIn="output"`, in which case Visual Studio may crash trying to parse the output. Use `ExecuteIn="console"` instead. (See [Issue 3682](https://github.com/Microsoft/PTVS/issues/3681).)
 
-### Executable command "is not recognized as an internal or external command, operate program or batch file"
+### Executable command "is not recognized as an internal or external command, operable program or batch file"
 
 When using `TargetType="executable"`, the value in `Target` must be *only* the program name without any arguments, such as *python* or *python.exe* only. Move any arguments to the `Arguments` attribute.
