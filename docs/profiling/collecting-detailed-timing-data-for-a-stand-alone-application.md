@@ -21,7 +21,7 @@ This section describes the procedures and options for collecting detailed perfor
   
 |Task|Related content|  
 |----------|---------------------|  
-|**Profile a .NET Framework application by using instrumentation**|-   [How to: Instrument a .NET component and collect detailed timing data](../profiling/how-to-instrument-a-native-component-and-collect-timing-data.md)|  
+|**Profile a .NET Framework application by using instrumentation**|-   [How to: Instrument a .NET component and collect detailed timing data](../profiling/how-to-instrument-a-dotnet-framework-component-and-collect-timing-data.md)|  
 |**Profile a C/C++ application by using instrumentation**|-   [How to: Instrument a native component and collect detailed timing data](../profiling/how-to-instrument-a-native-component-and-collect-timing-data.md)|  
 |**Add tier-interaction data**|-   [Collect tier interaction data](../profiling/adding-tier-interaction-data-from-the-command-line.md)|  
   

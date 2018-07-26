@@ -33,7 +33,7 @@ Your choice of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profili
   
  **Target Application Type**  
   
--   [.NET Framework stand-alone components](../profiling/how-to-instrument-a-native-component-and-collect-timing-data.md)  
+-   [.NET Framework stand-alone components](../profiling/how-to-instrument-a-dotnet-framework-component-and-collect-timing-data.md)  
   
 -   [Native stand-alone components](../profiling/how-to-instrument-a-native-component-and-collect-timing-data.md)  
   
