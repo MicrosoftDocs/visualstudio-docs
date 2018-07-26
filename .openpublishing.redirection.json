@@ -1670,11 +1670,6 @@
             "redirect_document_id": false
         },
         {
-            "source_path": "docs/profiling/how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md",
-            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-dotent-framework-component-and-collect-timing-data",
-            "redirect_document_id": false
-        },
-        {
             "source_path": "docs/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-memory-data-by-using-the-command-line.md",
             "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-app-to-collect-memory-data",
             "redirect_document_id": false
