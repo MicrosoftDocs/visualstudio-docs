@@ -33,7 +33,7 @@ When you add a command to a VSPackage, you must specify where it is to appear, w
 ## Visual Studio command environment  
  Visual Studio can host any number of VSPackages, and each can contribute its own command set. The environment displays only the commands that are appropriate to the current task. For more information, see [Command availability](../../extensibility/internals/command-availability.md) and [Selection context objects](../../extensibility/internals/selection-context-objects.md).  
   
- A VSPackage that defines new commands, menus, toolbars, or shortcut menus provides its command information to the Visual Studio at installation time through registry entries that reference resources in native or managed assemblies. Each resource then references a binary data resource (.cto) file, which is produced when you compile a Visual Studio command table (*.vsct*) file. This enables Visual Studio to provide merged command sets, menus, and toolbars without having to load every installed VSPackage.  
+ A VSPackage that defines new commands, menus, toolbars, or shortcut menus provides its command information to the Visual Studio at installation time through registry entries that reference resources in native or managed assemblies. Each resource then references a binary data resource (*.cto*) file, which is produced when you compile a Visual Studio command table (*.vsct*) file. This enables Visual Studio to provide merged command sets, menus, and toolbars without having to load every installed VSPackage.  
   
 ### Command organization  
  The environment positions commands by group, priority, and menu.  

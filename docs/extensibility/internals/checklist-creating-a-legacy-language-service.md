@@ -54,8 +54,8 @@ The following checklist summarizes the basic steps you must take in order to cre
     -   Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter%2A> method and pass in your <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> implementation.  
   
     -   Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.RemoveCommandFilter%2A> method when you detach from the view so that these commands are no longer passed to you.  
-  
-     Commands that must be handled depend on the services that are provided. For more information, see [Important commands for language service filters](../../extensibility/internals/important-commands-for-language-service-filters.md).  
+   
+    Commands that must be handled depend on the services that are provided. For more information, see [Important commands for language service filters](../../extensibility/internals/important-commands-for-language-service-filters.md).  
   
     > [!NOTE]
     >  The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter> interface must be implemented on the same object as the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface.  
@@ -118,8 +118,8 @@ The following checklist summarizes the basic steps you must take in order to cre
   
     -   Provide context for text markers by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerContextProvider> interface.  
   
- Provide all user context by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider> interface.  
-  
+    -   Provide all user context by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider> interface.  
+   
 ## See also  
  [Develop a legacy language service](../../extensibility/internals/developing-a-legacy-language-service.md)   
  [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)

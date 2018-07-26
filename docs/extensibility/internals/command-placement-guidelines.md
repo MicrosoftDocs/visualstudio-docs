@@ -35,13 +35,13 @@ Best practices for positioning commands in the Visual Studio integrated developm
 ## Best practices for small command sets  
  If you are developing a VSPackage that has just a few commands, also follow these guidelines:  
   
--   When possible, use the [Parent element](../../extensibility/parent-element.md) of a command, combo box, group, or child menu to put it in the appropriate group.  
+-   When possible, use the [Parent](../../extensibility/parent-element.md) element of a command, combo box, group, or child menu to put it in the appropriate group.  
   
 -   Assign these groups to menus displayed by the VSPackage.  
   
--   The parent of a child menu or a command must be a [Group element](../../extensibility/group-element.md). Assign commands and child menus to groups, and then assign the groups to parent menus.  
+-   The parent of a child menu or a command must be a [Group](../../extensibility/group-element.md) element. Assign commands and child menus to groups, and then assign the groups to parent menus.  
   
--   You can put a command in additional groups by adding a [CommandPlacements element](../../extensibility/commandplacements-element.md) section after the definition of the command, and then adding to the `CommandPlacements' element a [CommandPlacement element](../../extensibility/commandplacement-element.md) for each additional group.  
+-   You can put a command in additional groups by adding a [CommandPlacements](../../extensibility/commandplacements-element.md) element section after the definition of the command, and then adding to the `CommandPlacements` element a [CommandPlacement](../../extensibility/commandplacement-element.md) element for each additional group.  
   
 ## Best practices for large command sets  
  If your VSPackage will have many commands that will appear in multiple contexts, also follow these guidelines:  
@@ -53,5 +53,5 @@ Best practices for positioning commands in the Visual Studio integrated developm
 -   In the `CommandPlacements` element section, the entries that populate a given menu or group should be adjacent to one another. This aids readability and makes the `Priority` rankings easier to determine.  
   
 ## See also  
- [How VSPackages add user interface Eelements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
+ [How VSPackages add user interface elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
  [Visual Studio command table (.vsct) files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

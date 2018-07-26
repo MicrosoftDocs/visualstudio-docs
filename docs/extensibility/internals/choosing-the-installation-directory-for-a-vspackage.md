@@ -20,17 +20,17 @@ A VSPackage and its supporting files must be on a user's file system. The locati
 ## Unmanaged VSPackages  
  An unmanaged VSPackage is a COM server that can be installed in any location. Its registration information must accurately reflect its location. Your installer user interface (UI) should provide a default location as a subdirectory of the `ProgramFilesFolder` Windows installer property value. For example:  
   
- *<ProgramFilesFolder>\<MyCompany>\<MyVSPackageProduct>\V1.0\*
+*&lt;ProgramFilesFolder&gt;\\&lt;MyCompany&gt;\\&lt;MyVSPackageProduct&gt;\V1.0\\*
   
  The user should be allowed to change the default directory to accommodate users who keep a small boot partition and prefer to install applications and tools on another volume.  
   
- If your side-by-side scheme uses a versioned VSPackage, you can use subdirectories to store different versions. For example:  
+ If your side-by-side scheme uses a versioned VSPackage, you can use subdirectories to store different versions. For example:
+
+ *&lt;ProgramFilesFolder&gt;\\&lt;MyCompany&gt;\\&lt;MyVSPackageProduct&gt;\\V1.0\\2002\\*
   
- *<ProgramFilesFolder>\<MyCompany>\<MyVSPackageProduct>\V1.0\2002\*
+ *&lt;ProgramFilesFolder&gt;\\&lt;MyCompany&gt;\\&lt;MyVSPackageProduct&gt;\\V1.0\\2003\\*
   
- *<ProgramFilesFolder>\<MyCompany>\<MyVSPackageProduct>\V1.0\2003\*
-  
- *<ProgramFilesFolder>\<MyCompany>\<MyVSPackageProduct>\V1.0\2005\*
+ *&lt;ProgramFilesFolder&gt;\\&lt;MyCompany&gt;\\&lt;MyVSPackageProduct&gt;\\V1.0\\2005\\*
   
 ## Managed VSPackages  
  Managed VSPackages can also be installed in any location. However, you should consider always installing them to the global assembly cache (GAC) to reduce assembly load times. Because managed VSPackages are always strong-named assemblies, installing them in the GAC means that their strong-name signature verification takes only at installation time. Strong-named assemblies installed elsewhere in the file system must have their signatures verified every time they are loaded. When you install managed VSPackages in the GAC, use the regpkg tool's **/assembly** switch to write registry entries pointing to the assembly's strong name.  
@@ -54,7 +54,8 @@ A VSPackage and its supporting files must be on a user's file system. The locati
   
 5.  U.S. English (*.\1033* or *.\0x409*).  
   
- If your VSPackage DLL includes resources and the **SatelliteDll\DllName** registry entry points to it, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] attempts to load them in the above order.  
+
+If your VSPackage DLL includes resources and the **SatelliteDll\DllName** registry entry points to it, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] attempts to load them in the above order.  
   
 ## See also  
  [Choose between shared and versioned VSPackages](../../extensibility/choosing-between-shared-and-versioned-vspackages.md)   

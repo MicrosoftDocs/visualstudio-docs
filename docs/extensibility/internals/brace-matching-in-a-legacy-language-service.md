@@ -20,7 +20,7 @@ Brace matching helps the developer track language elements that need to occur to
   
  You can match two or three co-occurring elements, called pairs and triples. Triples are sets of three co-occurring elements. For example, in C#, the `foreach` statement forms a triple: `foreach()`, `{`, and `}`. All three elements are highlighted when the closing brace is typed.  
   
- Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement brace matching, see [Walkthrough: Displaying matching braces](../../extensibility/walkthrough-displaying-matching-braces.md).  
+ Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement brace matching, see [Walkthrough: Display matching braces](../../extensibility/walkthrough-displaying-matching-braces.md).  
   
 > [!NOTE]
 >  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.  
