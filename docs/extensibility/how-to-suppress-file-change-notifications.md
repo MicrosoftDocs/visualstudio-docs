@@ -14,12 +14,12 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Suppress File Change Notifications
+# How to: Suppress file change notifications
 When the physical file representing the text buffer has been changed, a dialog box displays with the message **Do you want to save changes to the following items?** This is known as file change notification. If many changes are going to be to the file, however, this dialog box displaying over and over again can quickly become annoying.  
   
  You can programmatically suppress this dialog box using the following procedure. By doing this, you can reload a file immediately without having to prompt the user to save the changes each time.  
   
-### To suppress file change notification  
+## To suppress file change notification  
   
 1.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.FindAndLockDocument%2A> method to determine which text buffer object is associated with your open file.  
   
@@ -35,7 +35,7 @@ When the physical file representing the text buffer has been changed, a dialog b
   
 6.  If you plan to make several changes to the file, as in the case of source code control (SCC), then you must tell the global file change service to temporarily suspend file change notifications.  
   
-     For example, if you rewrite the file and then change the timestamp, you must suspend the file change notifications, as the rewrite and timestample operations each count as a separate file change event. To enable the global file change notification you should instead call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFileChangeEx.IgnoreFile%2A> method.  
+     For example, if you rewrite the file and then change the timestamp, you must suspend the file change notifications, as the rewrite and timestamp operations each count as a separate file change event. To enable the global file change notification you should instead call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFileChangeEx.IgnoreFile%2A> method.  
   
 ## Example  
  The following demonstrates how to suppress file change notification.  
@@ -109,5 +109,5 @@ void CSuspendFileChanges::Resume()
 // Misc. helper classes  
 ```  
   
-## Robust Programming  
+## Robust programming  
  If your case involves multiple changes to the file, as in the case of SCC, then it is important to resume global file change notifications before alerting the document data to resume monitoring for file changes.
