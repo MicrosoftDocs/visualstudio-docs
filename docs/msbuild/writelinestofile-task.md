@@ -72,10 +72,10 @@ In this example we use a property with `CDATA` to write a text file with multipl
 
   <Target Name="WriteLaunchers" AfterTargets="CopyFilesToOutputDirectory">
       <PropertyGroup>
-        <LauncherCmd><![CDATA[
+        <LauncherCmd>
 @ECHO OFF
 dotnet %~dp0$(AssemblyName).dll %*
-        ]]></LauncherCmd>
+        </LauncherCmd>
       </PropertyGroup>
 
       <WriteLinesToFile
