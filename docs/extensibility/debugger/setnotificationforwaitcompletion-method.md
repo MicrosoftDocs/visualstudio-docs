@@ -19,7 +19,7 @@ Sets or clears the TASK_STATE_WAIT_COMPLETION_NOTIFICATION state bit.
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   
- **Assembly:** mscorlib (in mscorlib.dll)  
+ **Assembly:** mscorlib (in *mscorlib.dll*)  
   
 ## Syntax  
   
@@ -27,7 +27,7 @@ Sets or clears the TASK_STATE_WAIT_COMPLETION_NOTIFICATION state bit.
 internal void SetNotificationForWaitCompletion(bool enabled)  
 ```  
   
-#### Parameters  
+### Parameters  
  `enabled`  
   
  `true` to set the bit; `false` to unset the bit.  
@@ -35,9 +35,9 @@ internal void SetNotificationForWaitCompletion(bool enabled)
 ## Exceptions  
   
 ## Remarks  
- The debugger sets this bit to help step out of an async method body. If `enabled` is `true`, this method must be called only on a task that has not yet been completed. If `enabled` is `false`, this method may be called on completed tasks. In either event, it should only be used for promise-style tasks.  
+ The debugger sets this bit to help step out of an async method body. If `enabled` is `true`, this method must be called only on a task that has not yet been completed. When `enabled` is `false`, this method can be called on completed tasks. In either event, it should only be used for promise-style tasks.  
   
 ## Requirements  
   
-## See Also  
- [Task Class](../../extensibility/debugger/task-class-internal-members.md)
+## See also  
+ [Task class](../../extensibility/debugger/task-class-internal-members.md)
