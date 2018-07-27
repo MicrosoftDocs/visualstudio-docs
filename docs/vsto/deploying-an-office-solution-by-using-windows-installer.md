@@ -46,7 +46,7 @@ By using Visual Studio to create a Windows Installer, you can deploy an Office s
   
 - [Specify where you want to deploy the solution on the user's computer](#Location)  
   
-- [Configure a VSTO Add-in](#ConfigureRegisitry)  
+- [Configure a VSTO Add-in](#ConfigureRegistry)  
   
 - [Configure a document-level customization](#ConfigureDocument)  
   
@@ -269,7 +269,7 @@ The **Redistributables** page contains an item that's named **Microsoft VSTO 201
    >    You can also create subdirectories in the **Set INSTALLDIR** dialog box by opening the shortcut menu for any folder in the list.  
   
   
-## <a name="ConfigureRegisitry"></a>Configure a VSTO Add-in  
+## <a name="ConfigureRegistry"></a>Configure a VSTO Add-in  
 You can specify whether you want your VSTO Add-in to be installed for all users of the computer (per-computer), or only for the user performing the installation (per-user).  
   
 If you want to support per-computer installations, create two separate installers. You can split installers based on the Office version (32-bit and 64-bit) or on the Windows version (32-bit and 64-bit) that the user is running.  
