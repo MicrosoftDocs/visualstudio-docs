@@ -20,7 +20,7 @@ The Visual Studio context determines which commands are available. The context c
 
 ## Command contexts
 
-The following command contexts are the most common.
+The following command contexts are the most common:
 
 - IDE: Commands provided by the IDE are always available.
 
@@ -34,11 +34,11 @@ The following command contexts are the most common.
 
 - Active window: The last active document window sets the user interface (UI) context for key bindings. However, a tool window that has a key-binding table that resembles the internal web browser could also set the UI context. For multi-tabbed document windows such as the HTML editor, every tab has a different command context GUID. After a tool window is registered, it is always available on the **View** menu.
 
-- UI Context: UI contexts are identified by the values of the <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT> class, for example, <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionBuilding_guid> when the solution is being built, or <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.Debugging_guid> when the debugger is active. Multiple UI contexts can be active at the same time.
+- UI context: UI contexts are identified by the values of the <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT> class, for example, <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionBuilding_guid> when the solution is being built, or <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.Debugging_guid> when the debugger is active. Multiple UI contexts can be active at the same time.
 
 ## Define custom context GUIDs
 
-If an appropriate command context GUID is not already defined, you can define one in your VSPackage and then program it to be active or inactive as required to control the visibility of your commands.
+If an appropriate command context GUID is not already defined, you can define one in your VSPackage and then program it to be active or inactive as required to control the visibility of your commands:
 
 1.  Register context GUIDs by calling the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCmdUIContextCookie%2A> method.
 

@@ -50,7 +50,7 @@ Visual Studio provides a set of automation interfaces for customizing the enviro
  Provides two code examples that show how an automation consumer obtains the initial project automation objects.  
   
  [Automation for Configuration and SelectedItem objects](../../extensibility/internals/automation-for-configuration-and-selecteditem-objects.md)  
- Provides information about automation for Configuration Options and automation for Selected Items.  
+ Provides information about automation for Configuration and SelectedItems objects.  
   
 ## Reference  
  <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetAutomationObject%2A>  
