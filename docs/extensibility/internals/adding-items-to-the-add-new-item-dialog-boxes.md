@@ -35,7 +35,7 @@ The process for adding items to the **Add New Item** dialog box starts with the 
 |Name|Type|Data (from *.rgs* file)|Description|  
 |----------|----------|-----------------------------|-----------------|  
 |@ (Default)|REG_SZ|#%IDS_ADDITEM_TEMPLATES_ENTRY%|Resource ID for **Add Item** templates.|  
-|Val TemplatesDir|REG_SZ|%TEMPLATE_PATH%\<SomeProjectItems>|Path of the project items displayed in the dialog for the **Add New Item** wizard.|  
+|Val TemplatesDir|REG_SZ|%TEMPLATE_PATH%\\&lt;SomeProjectItems&gt;|Path of the project items displayed in the dialog for the **Add New Item** wizard.|  
 |Val SortPriority|REG_DWORD|100 ([!INCLUDE[vcprx64](../../extensibility/internals/includes/vcprx64_md.md)])|Determines the sort order in the tree node of files displayed in the **Add New Item** dialog box.|  
   
 > [!NOTE]
@@ -43,7 +43,7 @@ The process for adding items to the **Add New Item** dialog box starts with the 
 - [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)]: {FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}
 - [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]: {F184B08F-C81C-45F6-A57F-5ABD9991F28F}  
   
- The directory listed for **TemplatesDir**, which is *%TEMPLATE_PATH%\<SomeProjectItems>*, is the node on the left side of the **Add New Item** dialog box tree. Additional elements in the tree are based on the subdirectory within that root directory. The files available to be added to the project are the items in the right pane of the **Add New Item** dialog box.  
+ The directory listed for **TemplatesDir**, which is *%TEMPLATE_PATH%\\&lt;SomeProjectItems&gt;*, is the node on the left side of the **Add New Item** dialog box tree. Additional elements in the tree are based on the subdirectory within that root directory. The files available to be added to the project are the items in the right pane of the **Add New Item** dialog box.  
   
  Typically, this folder will contain the template files for your project such as a template HTML or *.cpp* file, and any *.vsz* files for starting wizards. To control how the items are displayed, you can also include *.vsdir* files for localizing directory names and icons. The localized string is the caption that appears in the dialog box that represents this node in the **Add New Item** dialog box tree.  
   
@@ -59,7 +59,7 @@ The process for adding items to the **Add New Item** dialog box starts with the 
   
  You can also implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2> interface to filter what is displayed in the **Add New Item** dialog box. By implementing this interface, you can set up one template directory on disk that contains, for example, 50 template and wizard files. In that way, you can have different project types with 20 files that belong to one project type, the other 30 files that belong to another project type, and all the files available in a general type of project. In this manner, depending on which project template is created, you can display a different set of template files.  
   
- For example, in a Visual Basic project, you might have Web projects and client projects. Web forms are not useful items to add to a client project, and windows forms are not useful items to add to a Web server project. Therefore, you can create one template directory that contains all the files for both types of project. Then by implementing <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>, you can hide items that should not be displayed based on the type of project or project settings in the project.  
+ For example, in a Visual Basic project, you might have Web projects and client projects. Web forms are not useful items to add to a client project, and windows forms are not useful items to add to a Web server project. Therefore, you can create one template directory that contains all the files for both types of project. Then, by implementing <xref:Microsoft.VisualStudio.Shell.Interop.IVsFilterAddProjectItemDlg2>, you can hide items that should not be displayed based on the type of project or project settings in the project.  
   
 ## Filter project items  
  `IVsFilterAddProjectItemDlg2` provides for filtering of elements in the tree (left pane) and project files (right pane) in the following ways:  

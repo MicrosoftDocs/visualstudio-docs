@@ -44,5 +44,5 @@ NoRemove NewProjectTemplates
   
 ## See also  
  [Register project and item templates](../../extensibility/internals/registering-project-and-item-templates.md)   
- [Add items to the Add New Item dialog boxes](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md)   
+ [Add items to the Add New Item dialog box](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md)   
  [Add directories to the Add New Item dialog box](../../extensibility/internals/adding-directories-to-the-add-new-item-dialog-box.md)

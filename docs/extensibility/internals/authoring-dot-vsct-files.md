@@ -48,9 +48,9 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
   
 1.  At the top of the `CommandTable` element, add one `Extern` element for each external file to be referenced, and set the `href` attribute to the name of the file. You can reference the following header files to access Visual Studio resources:  
   
-    -   Stdidcmd.h, defines IDs for all commands exposed by Visual Studio.  
+    -   *Stdidcmd.h*: Defines IDs for all commands exposed by Visual Studio.  
   
-    -   Vsshlids.h, contains command IDs for Visual Studio menus.  
+    -   *Vsshlids.h*: Contains command IDs for Visual Studio menus.  
   
 2.  If your package calls any commands that are defined by Visual Studio or by other packages, add a `UsedCommands` element after the `Commands` element. Populate this element with a [UsedCommand](../../extensibility/usedcommand-element.md) element for each command you call that is not part of your package. Set the `guid` and `id` attributes of the `UsedCommand` elements to the GUID and ID values of the commands to call. 
 
@@ -72,7 +72,7 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
 3.  If any of your UI elements require icons, add an `IDSymbol` element for each icon to the `GuidSymbol` element that represents your image store.  
   
 ### Put UI elements in the IDE  
- The [Menus](../../extensibility/menus-element.md) element, [Groups](../../extensibility/groups-element.md) element, and [Buttons](../../extensibility/buttons-element.md) element contain the definitions for all of the menus, groups, and commands that are defined in your package. Put these menus, groups, and commands in the IDE either by using a [Parent](../../extensibility/parent-element.md) element, which is part of the UI element definition, or by using a [CommandPlacement](../../extensibility/commandplacement-element.md) element that is defined elsewhere.  
+ The [Menus](../../extensibility/menus-element.md), [Groups](../../extensibility/groups-element.md), and [Buttons](../../extensibility/buttons-element.md) elements contain the definitions for all of the menus, groups, and commands that are defined in your package. Put these menus, groups, and commands in the IDE either by using a [Parent](../../extensibility/parent-element.md) element, which is part of the UI element definition, or by using a [CommandPlacement](../../extensibility/commandplacement-element.md) element that is defined elsewhere.  
   
  Each `Menu`, `Group`, and `Button` element has a `guid` attribute and an `id` attribute. Always set the `guid` attribute to match the name of the `GuidSymbol` element that represents your command set, and set the `id` attribute to the name of the `IDSymbol` element that represents your menu, group, or command in the `Symbols` section.  
   
@@ -230,7 +230,7 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
     A combo box is a drop-down list that can be used on a toolbar. To add combo boxes to the UI, create a [Combos](../../extensibility/combos-element.md) element in the `Commands` element. Then add to the `Combos` element a `Combo` element for each combo box to add. `Combo` elements have the same attributes and children as `Button` elements and also have `DefaultWidth` and `idCommandList` attributes. The `DefaultWidth` attribute sets the width in pixels, and the `idCommandList` attribute points to a command ID that is used to populate the combo box. 
   
  - Menu controller:  
-    A menu controller is a button that has an arrow next to it. Clicking the arrow opens a list. To add a menu controller to the UI, create a `Menu` element and set its `type` attribute to **MenuController** or **MenuControllerLatched**, depending on the behavior you want. To populate a menu controller, set it as the parent of a `Group` element. The menu controller will display all children of that group on its drop-down list.  
+    A menu controller is a button that has an arrow next to it. Clicking the arrow opens a list. To add a menu controller to the UI, create a `Menu` element and set its `type` attribute to `MenuController` or `MenuControllerLatched`, depending on the behavior you want. To populate a menu controller, set it as the parent of a `Group` element. The menu controller will display all children of that group on its drop-down list.  
   
 ## See also  
  [Extend menus and commands](../../extensibility/extending-menus-and-commands.md)   

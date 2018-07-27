@@ -23,13 +23,14 @@ A source control plug-in built using the Source Control Plug-in API Version 1.2,
  The `SccBeginBatch` function sets the `SCC_CAP_BATCH` flag to indicate that a batch operation is in progress.  
   
 ## New functions  
- The following new functions support the batch operation:  
+The following new functions support the batch operation:  
   
 -   [SccBeginBatch](../../extensibility/sccbeginbatch-function.md)  
   
 -   [SccEndBatch](../../extensibility/sccendbatch-function.md)  
+
   
- The `SCCBeginBatch` function starts a group of source control operations. The `SccEndBatch` function closes the group. The groups may not be nested.  
+The `SCCBeginBatch` function starts a group of source control operations. The `SccEndBatch` function closes the group. The groups may not be nested.  
   
 ## See also  
  [What's new in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)

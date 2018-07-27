@@ -15,7 +15,7 @@ ms.workload:
   - "vssdk"
 ---
 # Add directories to the Add New Item dialog box
-The following code example demonstrates how to register a new set of directories for the **Add New Item** dialog box. Directories for the **Add New Item** dialog box are different for each project. Therefore, the directories are registered under the **Projects** subkey, found in **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\Projects**:
+The following code example demonstrates how to register a new set of directories for the **Add New Item** dialog box. Directories for the **Add New Item** dialog box are different for each project. Therefore, the directories are registered under the **Projects** subkey, found in **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\8.0Exp\Projects**.
   
 ## Registry script  
   
@@ -53,5 +53,5 @@ NoRemove Projects
   
 ## See also  
  [Register project and item templates](../../extensibility/internals/registering-project-and-item-templates.md)   
- [Add items to the Add New Item dialog boxes](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md)   
+ [Add items to the Add New Item dialog box](../../extensibility/internals/adding-items-to-the-add-new-item-dialog-boxes.md)   
  [Add directories to the New Project dialog box](../../extensibility/internals/adding-directories-to-the-new-project-dialog-box.md)
