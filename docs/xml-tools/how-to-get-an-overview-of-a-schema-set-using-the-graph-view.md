@@ -27,7 +27,7 @@ This topic describes how to use the [Graph View](../xml-tools/graph-view.md) to 
 
 5.  Select the Graph View from the **XSD Toolbar**.
 
-6.  Select **Schema Set** node in the **XML Schema Explorer** and drag the node to design suface of the Graph View. You should see all the global nodes, and arrows connecting the nodes that have relationships.
+6.  Select **Schema Set** node in the **XML Schema Explorer** and drag the node to design surface of the Graph View. You should see all the global nodes, and arrows connecting the nodes that have relationships.
 
      ![Graph View](../xml-tools/media/relationshipingraphview.gif)
 
