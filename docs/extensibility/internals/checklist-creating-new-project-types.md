@@ -52,7 +52,7 @@ You must complete several tasks to create a new project type. The following chec
   
 7.  Display your project in the **Project** tab of the **Add Reference** dialog box by setting `VARIANT_TRUE` as the value for `VSHPROPID_ShowProjInSolutionPage`. For more information, see <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty%2A>.  
   
-8.  Create the Microsoft installer (*.msi*) file for installing your VSPackages. For more information, see [Install VSPackages with Windows installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md), [Register a project type](../../extensibility/internals/registering-a-project-type.md), and [VSPackages](../../extensibility/internals/vspackages.md).  
+8.  Create the Microsoft Installer (*.msi*) file for installing your VSPackages. For more information, see [Install VSPackages with Windows Installer](../../extensibility/internals/installing-vspackages-with-windows-installer.md), [Register a project type](../../extensibility/internals/registering-a-project-type.md), and [VSPackages](../../extensibility/internals/vspackages.md).  
   
 ## See also  
  [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)   
