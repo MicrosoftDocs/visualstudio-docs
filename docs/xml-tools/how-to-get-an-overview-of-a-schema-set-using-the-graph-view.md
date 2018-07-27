@@ -33,4 +33,4 @@ This topic describes how to use the [Graph View](../xml-tools/graph-view.md) to 
 
 7.  Click on any node on the design surface and look at the breadcrumb bar to see where the selected node is located in the schema set.
 
-8.  Rick-click on any element node on the desing surface and select **Generate Sample XML** to see the XML instance document.
+8.  Rick-click on any element node on the design surface and select **Generate Sample XML** to see the XML instance document.
