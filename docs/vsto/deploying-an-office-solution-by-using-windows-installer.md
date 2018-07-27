@@ -303,7 +303,7 @@ Per-user installations require only one installer regardless of Office or Window
   
 2. At the bottom of the **Project assistant** page, choose the **Application Registry** button, which the following illustration shows.  
   
-   ![The Applicaiton Registry button.](../vsto/media/installshield-applicationregistry.gif "The Applicaiton Registry button.")  
+   ![The Application Registry button.](../vsto/media/installshield-applicationregistry.gif "The Application Registry button.")  
   
    The **Application Registry** page appears.  
   
