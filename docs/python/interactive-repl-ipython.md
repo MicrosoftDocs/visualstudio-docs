@@ -80,4 +80,4 @@ IPython has many other useful features such as escaping to the system shell, var
 
 - To use Jupyter easily and without installation, try the free [Azure Notebooks hosted service](https://notebooks.azure.com/) that lets you keep and share your notebooks with others.
 
-- The [Azure Data Science Virtual Machine](https://github.com/MicrosoftDocs/visualstudio-docs-pr/pull/azure/machine-learning/data-science-virtual-machine/overview) is also pre-configured to run Jupyter notebooks along with a wide range of other data science tools.
+- The [Azure Data Science Virtual Machine](/azure/machine-learning/data-science-virtual-machine/overview) is also pre-configured to run Jupyter notebooks along with a wide range of other data science tools.
