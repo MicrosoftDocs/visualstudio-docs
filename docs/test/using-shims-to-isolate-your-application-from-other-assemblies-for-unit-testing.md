@@ -17,7 +17,7 @@ author: gewarren
 
  Use shims to isolate your code from assemblies that are not part of your solution. To isolate components of your solution from each other, we recommend that you use stubs.
 
- For an overview and quick start guidance, see [Isolating Code Under Test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
+ For an overview and quick start guidance, see [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
 
  **Requirements**
 
@@ -59,15 +59,15 @@ using (ShimsContext.Create()
 
 ```
 
-##  <a name="BKMK_Fakes_requirements"></a> How to use Shims
+##  How to use shims
 
 ###  <a name="AddFakes"></a> Add Fakes Assemblies
 
-1.  In Solution Explorer, expand your unit test project's **References**.
+1.  In **Solution Explorer**, expand your unit test project's **References**.
 
-    -   If you are working in Visual Basic, you must select **Show All Files** in the Solution Explorer toolbar, in order to see the References list.
+    -   If you are working in Visual Basic, you must select **Show All Files** in the **Solution Explorer** toolbar, in order to see the **References** list.
 
-2.  Select the assembly that contains the classes definitions for which you want to create shims. For example, if you want to shim DateTime, select System.dll
+2.  Select the assembly that contains the classes definitions for which you want to create shims. For example, if you want to shim **DateTime**, select **System.dll**.
 
 3.  On the shortcut menu, choose **Add Fakes Assembly**.
 
@@ -412,7 +412,7 @@ public class ShimMyClass : ShimBase<MyClass> {
 
 ```
 
-##  <a name="BKMK_Changing_the_default_behavior"></a> Changing the default behavior
+##  Change the default behavior
  Each generated shim type holds an instance of the `IShimBehavior` interface, through the `ShimBase<T>.InstanceBehavior` property. The behavior is used whenever a client calls an instance member that was not explicitly shimmed.
 
  If the behavior has not been explicitly set, it uses the instance returned by the static `ShimsBehaviors.Current` property. By default, this property returns a behavior that throws a `NotImplementedException` exception.
@@ -438,7 +438,7 @@ ShimsBehaviors.Current =
 
 ```
 
-##  <a name="BKMK_Detecting_environment_accesses"></a> Detecting environment accesses
+##  Detect environment accesses
  It is possible to attach a behavior to all the members, including static methods, of a particular type by assigning the `ShimsBehaviors.NotImplemented` behavior to the static property `Behavior` of the corresponding shim type:
 
 ```csharp
@@ -453,7 +453,7 @@ ShimMyClass.BehaveAsNotImplemented();
 ##  <a name="BKMK_Concurrency"></a> Concurrency
  Shim types apply to all threads in the AppDomain and don't have thread affinity. This is an important fact if you plan to use a test runner that support concurrency: tests involving shim types cannot run concurrently. This property is not enforced by the Fakes runtime.
 
-##  <a name="BKMK_Calling_the_original_method_from_the_shim_method"></a> Calling the original method from the shim method
+##  Call the original method from the shim method
  Imagine that we wanted to actually write the text to the file system after validating the file name passed to the method. In that case, we would want to call the original method in the middle of the shim method.
 
  The first approach to solve this problem is to wrap a call to the original method using a delegate and `ShimsContext.ExecuteWithoutShims()` as in the following code:
@@ -499,6 +499,6 @@ ShimFile.WriteAllTextStringString = shim;
 
 ## See also
 
-- [Isolating Code Under Test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
-- [Peter Provost's blog: Visual Studio 2012 Shims](http://www.peterprovost.org/blog/2012/04/25/visual-studio-11-fakes-part-2)
-- [Video (1h16): Testing Untestable Code with Fakes in Visual Studio 2012](http://go.microsoft.com/fwlink/?LinkId=261837)
+- [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
+- [Peter Provost's blog: Visual Studio 2012 shims](http://www.peterprovost.org/blog/2012/04/25/visual-studio-11-fakes-part-2)
+- [Video (1h16): Testing untestable code with fakes in Visual Studio 2012](http://go.microsoft.com/fwlink/?LinkId=261837)

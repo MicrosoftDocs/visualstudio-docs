@@ -17,7 +17,7 @@ dev_langs:
 
 *Stub types* are one of two technologies that the Microsoft Fakes framework provides to let you easily isolate a component you are testing from other components that it calls. A stub is a small piece of code that takes the place of another component during testing. The benefit of using a stub is that it returns consistent results, making the test easier to write. And you can run tests even if the other components are not working yet.
 
-For an overview and quick start guide to Fakes, see [Isolating Code Under Test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md).
+For an overview and quick start guide to Fakes, see [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md).
 
 To use stubs, you have to write your component so that it uses only interfaces, not classes, to refer to other parts of the application. This is a good design practice because it makes changes in one part less likely to require changes in another. For testing, it allows you to substitute a stub for a real component.
 
@@ -25,7 +25,7 @@ In the diagram, the component StockAnalyzer is the one we want to test. It norma
 
 ![Real and Stub classes conform to one interface.](../test/media/fakesinterfaces.png)
 
-Because stubs rely on your being able to structure your code in this way, you typically use stubs to isolate one part of your application from another. To isolate it from other assemblies that are not under your control, such as System.dll, you would normally use shims. See [Using shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md).
+Because stubs rely on your being able to structure your code in this way, you typically use stubs to isolate one part of your application from another. To isolate it from other assemblies that are not under your control, such as *System.dll*, you would normally use shims. See [Use shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md).
 
 ## How to use stubs
 
@@ -143,9 +143,9 @@ To use stubs, you must first generate stub types from the interface definitions.
 
 #### Add a Fakes Assembly
 
-1. In Solution Explorer, expand your unit test project's **References**.
+1. In **Solution Explorer**, expand your unit test project's **References**.
 
-   If you are working in Visual Basic, you must select **Show All Files** in the Solution Explorer toolbar, in order to see the References list.
+   If you are working in Visual Basic, you must select **Show All Files** in the **Solution Explorer** toolbar, in order to see the **References** list.
 
 2. Select the assembly that contains the interface definitions for which you want to create stubs.
 
@@ -435,7 +435,7 @@ The stub types are designed to provide a smooth debugging experience. By default
 
 1. Method signatures with pointers aren't supported.
 
-2. Sealed classes or static methods can't be stubbed because stub types rely on virtual method dispatch. For such cases, use shim types as described in [Using shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)
+2. Sealed classes or static methods can't be stubbed because stub types rely on virtual method dispatch. For such cases, use shim types as described in [Use shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)
 
 ## Change the default behavior of stubs
 
@@ -460,4 +460,4 @@ StubBehaviors.Current = BehavedBehaviors.DefaultValue;
 
 ## See also
 
-- [Isolating Code Under Test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
+- [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
