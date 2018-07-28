@@ -15,7 +15,7 @@ ms.workload:
   - "vssdk"
 ---
 # How to: Provide context for editors
-For an editor, the context is active only when the editor has focus or had focus immediately before the focus was moved to a tool window. You can provide context for an editor by doing the following:  
+For an editor, the context is active only when the editor has focus or had focus immediately before the focus was moved to a tool window. You can provide context for an editor by doing the following tasks:  
   
 1.  Create a context bag.  
   
@@ -23,7 +23,7 @@ For an editor, the context is active only when the editor has focus or had focus
   
 3.  Maintain the context in the bag.  
   
- These tasks are covered by the following procedures. For more information about providing context, see **Robust Programming** later in this topic.  
+ These tasks are covered by the following procedures. For more information about providing context, see **Robust Programming** later in this article.  
   
 ## To create a context bag for an editor or a designer  
   
@@ -67,14 +67,14 @@ For an editor, the context is active only when the editor has focus or had focus
 3.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.AddAttribute%2A> to add context to the active context collection or <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.RemoveAttribute%2A> to remove context.  
   
 ## Robust programming  
- If you are writing your own editor, then you must complete all three of the procedures in this topic to provide context for the editor.  
+ If you are writing your own editor, then you must complete all three of the procedures in this article to provide context for the editor.  
   
 > [!NOTE]
 >  To properly activate an editor or designer window and to ensure that command routing is updated properly, you must call <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.Show%2A> on the component to make it the focus window.  
   
  The SEID is a collection of properties that change based on the selection. SEID information is available through the global selection. The global selection is wired into events triggered by the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTrackSelectionEx> interface, and has a list of everything that is selected (current editor, current tool window, current hierarchy, and so on).  
   
- For editors and designers, in which context can change whenever the cursor moves within a word, it is inefficient to constantly update the context bag. To make updating more efficient any time you detect the cursor moving within the editor or designer window, you can call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.SetDirty%2A>. Doing this allows you to hold your context changes until there is idle time and the IDE's context service sends notification to the editor or designer that the **Dynamic Help** window is updating. This approach is used in the **To maintain the context bag** procedure in this topic.  
+ For editors and designers, in which context can change whenever the cursor moves within a word, it is inefficient to constantly update the context bag. To make updating more efficient any time you detect the cursor moving within the editor or designer window, you can call <xref:Microsoft.VisualStudio.Shell.Interop.IVsUserContext.SetDirty%2A>. Doing this allows you to hold your context changes until there is idle time and the IDE's context service sends notification to the editor or designer that the **Dynamic Help** window is updating. This approach is used in the **To maintain the context bag** procedure in this article.  
   
  After providing context for activities within your editor or designer, you should provide a specific **F1** keyword to allow users to get help for the editor or designer itself.  
   
