@@ -22,10 +22,10 @@ Visual Studio fails to attach to an [Azure App Service for remote debugging](deb
 | --- | --- |
 | You do not have Visual Studio 2013 Update 4 or later installed. | Install a suitable version from [visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017). |
 | The project that's deployed to App Service doesn't match the one open in Visual Studio. | Load the correct project into Visual Studio. |
-| The project wasn't deployed with the Debug configuration. | Redeploy the application by right-clicking the project in Solution Explorer and selecting **Publish**. In the **Settings** tab, make sure **Debug** is the selected configuration. |
-| The App Service isn't running. | Start it from Server Explorer in Visual Studio or from the Azure portal. |
-| The App Service isn't configured for web sockets. | Go to the [Azure portal](https://portal.azure.com), navigate to your App Service, open the  **Settings > Application settings** blade, turn **General settings > Web sockets** to **On**, and select **Save**. (Note that the **Debugging** options shown on this blade do *not* apply to Python debugging.) |
-| `web.debug.config` was modified to disable the debug proxy. | Delete the file and republish the project to App Service, during which time Visual Studio recreates the file. |
+| The project wasn't deployed with the **Debug** configuration. | Redeploy the application by right-clicking the project in **Solution Explorer** and selecting **Publish**. In the **Settings** tab, make sure **Debug** is the selected configuration. |
+| The App Service isn't running. | Start it from **Server Explorer** in Visual Studio or from the Azure portal. |
+| The App Service isn't configured for web sockets. | Go to the [Azure portal](https://portal.azure.com), navigate to your App Service, open **Settings** > **Application settings**, turn **General settings** > **Web sockets** to **On**, and select **Save**. (Note that the **Debugging** options shown on this blade do *not* apply to Python debugging.) |
+| *web.debug.config* was modified to disable the debug proxy. | Delete the file and republish the project to App Service, during which time Visual Studio recreates the file. |
 
 See also:
 
