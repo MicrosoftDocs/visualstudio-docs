@@ -15,13 +15,13 @@ ms.workload:
   - "vssdk"
 ---
 # Instantiate the core editor by using the legacy API
-The editor is responsible for text editing functions such as insertion, deletion, copy, and paste. It combines these functions with those provided by language services, such as text coloring, indentation, and IntelliSense statement completion.  
+The editor is responsible for text editing functions such as insertion, deletion, copy, and paste. It combines these functions with the functions provided by language services, such as text coloring, indentation, and IntelliSense statement completion.  
   
  You can instantiate an instance of the core editor in one of three ways:  
   
 -   Explicitly create an instance of the core editor in a window.  
   
--   Provide an editor factory which returns an instance of the core editor  
+-   Provide an editor factory that returns an instance of the core editor  
   
 -   Open a file from the project hierarchy.  
   
