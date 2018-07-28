@@ -147,7 +147,7 @@ It is highly recommended to have a reference to a modified .csproj open while do
 </PropertyGroup>
 ```
 
-* Delete all instances of the following from the *.csproj* file and any *.csproj.user* files:
+* Delete all instances of the following code example from the *.csproj* file and any *.csproj.user* files:
 
 ```xml
 <StartAction>Program</StartAction>
@@ -157,7 +157,7 @@ It is highly recommended to have a reference to a modified .csproj open while do
 
 ### 4. Add conditions to the build tools imports
 
-* Add additional conditional statements to the `<import>` tags that have a Microsoft.VSSDK.BuildTools reference.  Do this by inserting `'$(VisualStudioVersion)' != '14.0' And` at the front of the condition statement.  These statements will appear in the header and footer of the csproj file.
+* Add additional conditional statements to the `<import>` tags that have a Microsoft.VSSDK.BuildTools reference.  Insert `'$(VisualStudioVersion)' != '14.0' And` at the front of the condition statement.  These statements will appear in the header and footer of the csproj file.
 
 For example:
 
@@ -165,7 +165,7 @@ For example:
 <Import Project="packages\Microsoft.VSSDK.BuildTools.15.0.26201…" Condition="'$(VisualStudioVersion)' != '14.0' And Exists(…" />
 ```
 
-* Add additional conditional statements to the `<import>` tags that have a Microsoft.VisualStudio.Sdk.BuildTasks.14.0.  Do this by inserting `'$(VisualStudioVersion)' == '14.0' And` at the front of the condition statement. These statements will appear in the header and footer of the csproj file.
+* Add additional conditional statements to the `<import>` tags that have a Microsoft.VisualStudio.Sdk.BuildTasks.14.0. Insert `'$(VisualStudioVersion)' == '14.0' And` at the front of the condition statement. These statements will appear in the header and footer of the csproj file.
 
 For example:
 
@@ -181,7 +181,7 @@ For example:
 <Error Condition="'$(VisualStudioVersion)' != '14.0' And Exists('packages\Microsoft.VSSDK.BuildTools.15.0.26201…" />
 ```
 
-* Add additional conditional statements to the `<Error>` tags that have a Microsoft.VisualStudio.Sdk.BuildTasks.14.0.  Do this by inserting `'$(VisualStudioVersion)' == '14.0' And` at the front of the condition statement. These statements will appear in the footer of the csproj file.
+* Add additional conditional statements to the `<Error>` tags that have a Microsoft.VisualStudio.Sdk.BuildTasks.14.0.  Insert `'$(VisualStudioVersion)' == '14.0' And` at the front of the condition statement. These statements will appear in the footer of the csproj file.
 
 For example:
 
@@ -200,7 +200,7 @@ At this point, your project should be ready to build a VSIXv3 that can install o
 * Navigate to your project directory.
 * Open the *\bin\Debug* folder.
 * Double-click on the VSIX file and install your extension on Visual Studio 2015 and Visual Studio 2017.
-* Ensure that you can see the extension in **Tools** > **Extensions and Updates** in the **Installed** section.
+* Make sure that you can see the extension in **Tools** > **Extensions and Updates** in the **Installed** section.
 * Attempt to run/use the extension to check that it works.
 
 ![Find a VSIX](media/finding-a-VSIX-example.png)

@@ -53,7 +53,7 @@ Loading and initializing a VS package can result in disk I/O. If such I/O happen
   
      NOTE: You should avoid using **GetService** or **QueryService** in your `InitializeAsync` method. If you have to use those, you will need to switch to the UI thread first. The alternative is to use <xref:Microsoft.VisualStudio.Shell.AsyncServiceProvider.GetServiceAsync%2A> from your **AsyncPackage** (by casting it to <xref:Microsoft.VisualStudio.Shell.Interop.IAsyncServiceProvider>.)  
   
- C#: Create an AsyncPackage :  
+ C#: Create an AsyncPackage:  
   
 ```csharp  
 [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]       
@@ -69,13 +69,13 @@ public sealed class TestPackage : AsyncPackage
 ```  
   
 ## Convert an existing VSPackage to AsyncPackage  
- The majority of the work is the same as creating a new **AsyncPackage**. You need to follow steps 1 through 5 above. You also need to take extra caution on the following:  
+ The majority of the work is the same as creating a new **AsyncPackage**. Follow steps 1 through 5 above. You also need to take extra caution with the following recommendations:  
   
 1.  Remember to remove the `Initialize` override you had in your package.  
   
-2.  Avoid deadlocks: There could be hidden RPCs in your code which now happen on a background thread. You need to ensure that if you are making an RPC (for example, **GetService**), you need to either (1) switch to the main thread or (2) use the asynchronous version of the API if one exists (for example, **GetServiceAsync**).  
+2.  Avoid deadlocks: There could be hidden RPCs in your code. which now happen on a background thread. Make sure that if you are making an RPC (for example, **GetService**), you need to either (1) switch to the main thread or (2) use the asynchronous version of the API if one exists (for example, **GetServiceAsync**).  
   
-3.  Do not switch between threads too frequently. Try to localize the work that can happen in a background thread. This reduces the load time.  
+3.  Do not switch between threads too frequently. Try to localize the work that can happen in a background thread to reduce the load time.  
   
 ## Querying services from AsyncPackage  
  An **AsyncPackage** may or may not load asynchronously depending on the caller. For instance,  
@@ -88,7 +88,7 @@ public sealed class TestPackage : AsyncPackage
   
  then your package will load synchronously.  
   
- Note that your package still has an opportunity (in its asynchronous initialization phase) to do work off the UI thread, though the UI thread will be blocked for that work's completion. If the caller uses **IAsyncServiceProvider** to asynchronously query for your service, then your load and initialization will be done asynchronously assuming they don't immediately block on the resulting task object.  
+ Your package still has an opportunity (in its asynchronous initialization phase) to do work off the UI thread, though the UI thread will be blocked for that work's completion. If the caller uses **IAsyncServiceProvider** to asynchronously query for your service, then your load and initialization will be done asynchronously assuming they don't immediately block on the resulting task object.  
   
  C#: How to query service asynchronously:  
   

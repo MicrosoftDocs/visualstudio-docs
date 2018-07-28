@@ -16,7 +16,7 @@ ms.workload:
   - "vssdk"
 ---
 # Icon element
-The guid attribute of the Icon tag is the guid of a defined bitmap.  The id attribute selects the slot in the bitmap strip. This element is optional.  If this element is omitted the value of **guidOfficeIcon:msotcidNoIcon** will be implied.  
+The guid attribute of the Icon tag is the guid of a defined bitmap. The `id` attribute selects the slot in the bitmap strip. This element is optional. If this element is not included the value of **guidOfficeIcon:msotcidNoIcon** will be implied.  
   
 ## Syntax  
   
