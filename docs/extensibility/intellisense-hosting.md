@@ -14,13 +14,13 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# IntelliSense Hosting
+# IntelliSense hosting
 Visual Studio enables IntelliSense hosting. IntellSense hosting lets you provide IntelliSense for code that is not hosted by the Visual Studio text editor.  
   
-## IntelliSense Hosting Usage  
+## IntelliSense hosting usage  
  In Visual Studio, any code that has access to a completion set and a text buffer can obtain IntelliSense windows from anywhere in the user interface (UI). Some example scenarios of this are completion in the **Watch** window or in the condition field of a breakpoint properties window.  
   
-### Implementation Interfaces  
+### Implementation interfaces  
   
 #### IVsIntellisenseHost  
  Any UI component that hosts IntelliSense pop-up windows must support the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface. The default core editor text view includes a stock <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface implementation to retain the current IntelliSense functionality. For the most part, the methods of the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface represent a subset of what is implemented on the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface. The subset includes IntelliSense UI handling, caret and selection manipulation, and simple text replacement functionality. In addition, the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface enables separate IntelliSense "subject" and "context" so that IntelliSense can be provided for subjects that do not directly exist in the text buffer that is being used for context.  
@@ -44,5 +44,5 @@ Visual Studio enables IntelliSense hosting. IntellSense hosting lets you provide
 #### IVsIntellisenseCompletor  
  The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseCompletor> interface is a co-creatable version of the standard completion window that is used by the integrated development environment (IDE). Any <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface can quickly implement IntelliSense by using this completor interface.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.TextManager.Interop>

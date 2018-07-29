@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Language Service and Editor Extension Points
+# Language service and editor extension points
 The editor provides extension points that you can extend as Managed Extensibility Framework (MEF) component parts, including most language service features. These are the main extension point categories:  
   
 -   Content types  
@@ -35,7 +35,7 @@ The editor provides extension points that you can extend as Managed Extensibilit
   
 -   IntelliSense  
   
-## Extending Content Types  
+## Extend content types  
  Content types are the definitions of the kinds of text handled by the editor, for example, "text", "code", or "CSharp". You define a new content type by declaring a variable of the type <xref:Microsoft.VisualStudio.Utilities.ContentTypeDefinition> and giving the new content type a unique name. To register the content type with the editor, export it together with the following attributes:  
   
 -   <xref:Microsoft.VisualStudio.Utilities.NameAttribute> is the name of the content type.  
@@ -131,7 +131,7 @@ internal static FileExtensionToContentTypeDefinition TestFileExtensionDefinition
   
  The <xref:Microsoft.VisualStudio.Utilities.IFileExtensionRegistryService> manages the associations between file name extensions and content types.  
   
-## Extending Classification Types and Classification Formats  
+## Extend classification types and classification formats  
  You can use classification types to define the kinds of text for which you want to provide different handling (for example, coloring the "keyword" text blue and the "comment" text green). Define a new classification type by declaring a variable of type <xref:Microsoft.VisualStudio.Text.Classification.ClassificationTypeDefinition> and giving it a unique name.  
   
  To register the classification type with the editor, export it together with the following attributes:  
@@ -175,7 +175,7 @@ internal static ClassificationTypeDefinition CSharpTestDefinition;
   
 -   "warning"  
   
- To discover the list of available Classification types, import the <xref:Microsoft.VisualStudio.Text.Classification.IClassificationTypeRegistryService>, which maintains the collection of classification types for the editor. The following code imports this service as a property.  
+ To discover the list of available classification types, import the <xref:Microsoft.VisualStudio.Text.Classification.IClassificationTypeRegistryService>, which maintains the collection of classification types for the editor. The following code imports this service as a property.  
   
 ```  
 [Import]  
@@ -213,7 +213,7 @@ internal sealed class TestFormat : ClassificationFormatDefinition
 internal IEditorFormatMapService FormatMapService { get; set; }  
 ```  
   
-## Extending Margins and Scrollbars  
+## Extend margins and scrollbars  
  Margins and scrollbars are the main view elements of the editor in addition to the text view itself. You can provide any number of margins in addition to the standard margins that appear around the text view.  
   
  Implement an <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewMargin> interface to define a margin. You must also implement the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewMarginProvider> interface to create the margin.  
@@ -248,7 +248,7 @@ internal IEditorFormatMapService FormatMapService { get; set; }
 [ContentType("text")]   
 ```  
   
-## Extending Tags  
+## Extend tags  
  Tags are a way of associating data with different kinds of text. In many cases, the associated data is displayed as a visual effect, but not all tags have a visual presentation. You can define your own kind of tag by implementing <xref:Microsoft.VisualStudio.Text.Tagging.ITag>. You must also implement <xref:Microsoft.VisualStudio.Text.Tagging.ITagger%601> to provide the tags for a given set of text spans, and an <xref:Microsoft.VisualStudio.Text.Tagging.ITaggerProvider> to provide the tagger. You must export the tagger provider together with the following attributes:  
   
 -   <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute>: the kind of content (for example, "text" or "code") for which your tag is valid.  
@@ -315,7 +315,7 @@ internal class HighlightWordFormatDefinition : MarkerFormatDefinition
 > [!NOTE]
 >  For an example of a <xref:Microsoft.VisualStudio.Text.Classification.MarkerFormatDefinition>, see the HighlightWordFormatDefinition class in [Walkthrough: Highlighting Text](../extensibility/walkthrough-highlighting-text.md).  
   
-## Extending Adornments  
+## Extend adornments  
  Adornments define visual effects that can be added either to the text that is displayed in a text view or to the text view itself. You can define your own adornment as any type of <xref:System.Windows.UIElement>.  
   
  In your adornment class, you must declare an <xref:Microsoft.VisualStudio.Text.Editor.AdornmentLayerDefinition>. To register your adornment layer, export it together with the following attributes:  
@@ -393,7 +393,7 @@ internal sealed class TestTaggerProvider : ITaggerProvider
 internal sealed class TestMouseProcessorProvider : IMouseProcessorProvider  
 ```  
   
-## Extending Drop Handlers  
+## Extend drop handlers  
  You can customize the behavior of drop handlers for specific kinds of text by creating a class that implements <xref:Microsoft.VisualStudio.Text.Editor.DragDrop.IDropHandler> and a second class that implements <xref:Microsoft.VisualStudio.Text.Editor.DragDrop.IDropHandlerProvider> to create the drop handler. You must export the drop handler together with the following attributes:  
   
 -   <xref:Microsoft.VisualStudio.Text.Editor.DragDrop.DropFormatAttribute>: the text format for which this drop handler is valid. The following formats are handled in priority order from highest to lowest:  
@@ -476,7 +476,7 @@ internal class TestDropHandlerProvider : IDropHandlerProvider
 internal sealed class TestOption : EditorOptionDefinition<bool>  
 ```  
   
-## Extending IntelliSense  
+## Extend IntelliSense  
  IntelliSense is a general term for a group of features that provide information about structured text, and statement completion for it. These features include statement completion, signature help, Quick Info, and light bulbs. Statement completion helps users type a language keyword or member name correctly. Signature help displays the signature or signatures for the method that the user has just typed. Quick Info displays a complete signature for a type or member name when the mouse rests on it. Light bulb provide additional actions for certain identifiers in certain contexts, for example, renaming all occurrences of a variable after one occurrence has been renamed.  
   
  The design of an IntelliSense feature is much the same in all cases:  
@@ -493,7 +493,7 @@ internal sealed class TestOption : EditorOptionDefinition<bool>
   
  In most cases, we recommend that you provide at least a source and a controller. You can also provide a presenter if you want to customize the display.  
   
-### Implementing an IntelliSense Source  
+### Implement an IntelliSense Source  
  To customize a source, you must implement one (or more) of the following source interfaces:  
   
 -   <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource>  
@@ -540,13 +540,13 @@ internal class TestCompletionSourceProvider : ICompletionSourceProvider
   
  For more information about implementing IntelliSense sources, see the following walkthroughs:  
   
- [Walkthrough: Displaying QuickInfo Tooltips](../extensibility/walkthrough-displaying-quickinfo-tooltips.md)  
+ [Walkthrough: Display QuickInfo tooltips](../extensibility/walkthrough-displaying-quickinfo-tooltips.md)  
   
- [Walkthrough: Displaying Signature Help](../extensibility/walkthrough-displaying-signature-help.md)  
+ [Walkthrough: Display Signature Help](../extensibility/walkthrough-displaying-signature-help.md)  
   
- [Walkthrough: Displaying Statement Completion](../extensibility/walkthrough-displaying-statement-completion.md)  
+ [Walkthrough: Display statement completion](../extensibility/walkthrough-displaying-statement-completion.md)  
   
-### Implementing an IntelliSense Controller  
+### Implement an IntelliSense controller  
  To customize a controller, you must implement the <xref:Microsoft.VisualStudio.Language.Intellisense.IIntellisenseController> interface. In addition, you must implement a controller provider together with the following attributes:  
   
 -   <xref:Microsoft.VisualStudio.Utilities.NameAttribute>: the name of the controller.  
@@ -567,4 +567,4 @@ internal class TestIntellisenseControllerProvider : IIntellisenseControllerProvi
   
  For more information about using IntelliSense controllers, see the following walkthroughs:  
   
- [Walkthrough: Displaying QuickInfo Tooltips](../extensibility/walkthrough-displaying-quickinfo-tooltips.md)
+ [Walkthrough: Display QuickInfo tooltips](../extensibility/walkthrough-displaying-quickinfo-tooltips.md)
