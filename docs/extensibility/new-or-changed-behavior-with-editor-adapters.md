@@ -14,21 +14,21 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# New or Changed Behavior with Editor Adapters
+# New or changed behavior with editor adapters
 If you are updating code that was written against earlier versions of the Visual Studio core editor, and you plan to use the editor adapters (or shims) rather than using the new API, you should be aware of the following differences in the behavior of the editor adapters with respect to the previous core editor.  
   
 ## Features  
   
-#### Using SetSite()  
- You must call <xref:Microsoft.VisualStudio.OLE.Interop.IObjectWithSite.SetSite%2A> when you CoCreate text buffers, text views, and code windows before you perform any other operations on them. However, this is not necessary if you use the <xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService> to create them, because this service's Create() methods themselves call <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.SetSite%2A>.  
+### Use SetSite()  
+ You must call <xref:Microsoft.VisualStudio.OLE.Interop.IObjectWithSite.SetSite%2A> when you CoCreate text buffers, text views, and code windows before you perform any other operations on them. However, this is not necessary if you use the <xref:Microsoft.VisualStudio.Editor.IVsEditorAdaptersFactoryService> to create them, because this service's `Create()` methods themselves call <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.SetSite%2A>.  
   
-#### Hosting IVsCodeWindow and IVsTextView in your own content  
+### Host IVsCodeWindow and IVsTextView in your own content  
  You can host both <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCodeWindow> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> in your own content using either Win32 mode or WPF mode. However, you should keep in mind that there are some differences in the two modes.  
   
-##### Using Win32 and WPF versions of IVsCodeWindow  
+#### Use Win32 and WPF versions of IVsCodeWindow  
  The editor code window is derived from <xref:Microsoft.VisualStudio.Shell.WindowPane>, which implements the older Win32 <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane> interface as well as the new WPF <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIElementPane> interface. You can use the <xref:Microsoft.VisualStudio.Shell.WindowPane.Microsoft%23VisualStudio%23Shell%23Interop%23IVsWindowPane%23CreatePaneWindow%2A> method to create an HWND-based hosting environment, or the <xref:Microsoft.VisualStudio.Shell.WindowPane.Microsoft%23VisualStudio%23Shell%23Interop%23IVsUIElementPane%23CreateUIElementPane%2A> method to create a WPF hosting environment. The underlying editor always uses WPF, but you can create the kind of window pane that suits your hosting requirements if you are embedding this window pane directly into your own content.  
   
-##### Using Win32 and WPF versions of IVsTextView  
+#### Use Win32 and WPF versions of IVsTextView  
  You can set an <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> to Win32 mode or WPF mode.  
   
  When an editor factory creates a text view, by default it is hosted inside an HWND, and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.GetWindowHandle%2A> returns an HWND. You should not use this mode to embed the editor inside a WPF control.  
@@ -37,7 +37,7 @@ If you are updating code that was written against earlier versions of the Visual
   
  WPF mode differs from Win32 mode in two ways. First, the text view can be hosted in a WPF context. You can access the WPF pane by casting the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> to <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIElementPane> and calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIElement.GetUIObject%2A>. Second, <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.GetWindowHandle%2A> still returns an HWND, but this HWND can be used only to check its position and set focus on it. You must not use this HWND to respond to a WM_PAINT message, because it will not affect how the editor paints the window. This HWND is present only to facilitate the transition to the new editor code by means of the adapters. It is highly recommended that you should not use `VIF_NO_HWND_SUPPORT` if your component requires an HWND to work, due to the limitations in the HWND returned from `GetWindowHandle` while in this mode.  
   
-#### Passing arrays as parameters in native code  
+#### Pass arrays as parameters in native code  
  There are many methods in the legacy editor API that have parameters that include an array and its count. Examples are:  
   
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewEx.AppendViewOnlyMarkerTypes%2A>  
@@ -72,7 +72,7 @@ If you are updating code that was written against earlier versions of the Visual
 #### TextEditorEvents  
  The <xref:EnvDTE.TextEditorEvents> no longer fire on Commit(). Instead they fire on every text change.  
   
-#### Text Markers  
+#### Text markers  
  You must call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarker.Invalidate%2A> on <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarker> objects when you remove them. In previous versions, you needed only to release the markers.  
   
 #### Line numbers  
