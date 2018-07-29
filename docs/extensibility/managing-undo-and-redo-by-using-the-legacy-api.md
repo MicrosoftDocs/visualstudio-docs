@@ -14,21 +14,21 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Managing Undo and Redo by Using the Legacy API
+# Manage undo and redo by using the legacy API
 Editors must support undo operations that let users reverse their recent changes when they modify code. Most editors implemented under [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] can have undo support automatically provided by the integrated development environment (IDE).  
   
-## In This Section  
- [How to: Implement Undo Management](../extensibility/how-to-implement-undo-management.md)  
+## In this section  
+ [How to: Implement undo management](../extensibility/how-to-implement-undo-management.md)  
  Provides undo capability for editors with single or multiple views.  
   
- [How to: Clear the Undo Stack](../extensibility/how-to-clear-the-undo-stack.md)  
+ [How to: Clear the undo stack](../extensibility/how-to-clear-the-undo-stack.md)  
  Describes how to clear an undo stack.  
   
- [How to: Use Linked Undo Management](../extensibility/how-to-use-linked-undo-management.md)  
+ [How to: Use linked undo management](../extensibility/how-to-use-linked-undo-management.md)  
  Incorporates linked undo management into your editor.  
   
 ## Reference  
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsChangeTrackingUndoManager>  
  Provides undo management for an editor that supports multiple views.  
   
-## Related Sections
+## Related sections
