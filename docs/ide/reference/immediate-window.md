@@ -72,7 +72,7 @@ The **Immediate** window is used to debug and evaluate expressions, execute stat
 
 If the function or subroutine contains a breakpoint, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] will break execution at the appropriate point. You can then use the debugger windows to examine your program state. For more information see [Walkthrough: Debugging at Design Time](../../debugger/walkthrough-debugging-at-design-time.md).
 
-You cannot use design time expression evaluation in project types that require starting up an execution environment, including [!INCLUDE[trprVSTOshort](../../ide/reference/includes/trprvstoshort_md.md)] projects, Web projects, Smart Device projects, and SQL projects.
+You cannot use design time expression evaluation in project types that require starting up an execution environment, including [!INCLUDE[trprVSTOshort](../../ide/reference/includes/trprvstoshort_md.md)] projects, web projects, Smart Device projects, and SQL projects.
 
 ### Design Time Expression Evaluation in Multi-Project Solutions
  When establishing the context for design time expression evaluation, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] references the currently selected project in Solution Explorer. If no project is selected in Solution Explorer, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] attempts to evaluate the function against the startup project. If the function cannot be evaluated in the current context, you will receive an error message. If you are attempting to evaluate a function in a project that is not the startup project for the solution and you receive an error, try selecting the project in Solution Explorer and attempt the evaluation again.
@@ -123,7 +123,7 @@ You cannot use design time expression evaluation in project types that require s
 - [Navigating through Code with the Debugger](../../debugger/navigating-through-code-with-the-debugger.md)
 - [Command Window](../../ide/reference/command-window.md)
 - [Debugging in Visual Studio](../../debugger/debugging-in-visual-studio.md)
-- [Debugger Basics](../../debugger/debugger-basics.md)
+- [Debugger Basics](../../debugger/getting-started-with-the-debugger.md)
 - [Walkthrough: Debugging at Design Time](../../debugger/walkthrough-debugging-at-design-time.md)
 - [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
 - [Using Regular Expressions in Visual Studio](../../ide/using-regular-expressions-in-visual-studio.md)

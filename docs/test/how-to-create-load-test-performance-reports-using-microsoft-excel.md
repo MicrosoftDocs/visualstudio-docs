@@ -50,7 +50,7 @@ You can generate Microsoft Excel load test reports that are based on two or more
     1.  After you complete a load test, in the **Load Test Results** page, choose the **Create Excel Report** button in the toolbar.
 
         > [!NOTE]
-        > If the **Create Excel Report** button is disabled in the Web Performance Test Results Viewer toolbar, you may need to run Microsoft Excel one time before it is enabled. When Visual Studio Enterprise is installed, the Visual Studio Enterprise load test add-in is copied to your computer for Microsoft Excel; however, Microsoft Excel must be run to complete the installation process for the add-in.
+        > If the **Create Excel Report** button is disabled in the **Web Performance Test Results Viewer** toolbar, you may need to run Microsoft Excel one time before it is enabled. When Visual Studio Enterprise is installed, the Visual Studio Enterprise load test add-in is copied to your computer for Microsoft Excel; however, Microsoft Excel must be run to complete the installation process for the add-in.
 
      Microsoft Excel opens with the **Generate a Load Test Report** wizard.
 
@@ -94,7 +94,7 @@ You can generate Microsoft Excel load test reports that are based on two or more
     -   **Error Comparison -** Compares the error types encountered between the two runs and the number of occurrences.
 
     > [!TIP]
-    > For better reports several properties are available in load tests and Web performance tests that enable richer reports. The page request has two properties that are presented in the reports: Goal and Reporting Name. Page response times will be reported against goal, and the reporting name will be used instead of the URL in the reports. In a load test Run Settings, under Manage Counter Sets, the Computer Tags property is presented in the report machine names. This is very useful to describe the role of a particular machine in the report.
+    > For better reports several properties are available in load tests and web performance tests that enable richer reports. The page request has two properties that are presented in the reports: Goal and Reporting Name. Page response times will be reported against goal, and the reporting name will be used instead of the URL in the reports. In a load test Run Settings, under Manage Counter Sets, the Computer Tags property is presented in the report machine names. This is very useful to describe the role of a particular machine in the report.
 
 ## To generate load test trend reports using Excel
 
@@ -105,7 +105,7 @@ You can generate Microsoft Excel load test reports that are based on two or more
     1.  After you complete a load test, in the **Load Test Results** page, choose the **Create Excel Report** button in the toolbar.
 
         > [!NOTE]
-        > If the **Create Excel Report** button is disabled in the Web Performance Test Results Viewer toolbar, you may need to run Microsoft Excel one time before it is enabled. When Visual Studio Enterprise is installed, the Visual Studio Enterprise load test add-in is copied to your computer for Microsoft Excel; however, Microsoft Excel must be run to complete the installation process for the add-in.
+        > If the **Create Excel Report** button is disabled in the **Web Performance Test Results Viewer** toolbar, you may need to run Microsoft Excel one time before it is enabled. When Visual Studio Enterprise is installed, the Visual Studio Enterprise load test add-in is copied to your computer for Microsoft Excel; however, Microsoft Excel must be run to complete the installation process for the add-in.
 
      Microsoft Excel opens with the **Generate a Load Test Report** wizard.
 
@@ -134,7 +134,7 @@ You can generate Microsoft Excel load test reports that are based on two or more
 10. The report is generated with a table of contents that has links to the various Excel workbook tabs generated in the report. The links are based on the counters selected for the trend report. For example, if you left the default counters selected in step 7, then the report will generate data which is presented in separate tabs in Excel for each counter listed in step 7. The data that is generated for each counter is presented in trend-style graphs.
 
     > [!TIP]
-    > For better reports several properties are available in load tests and Web performance tests that enable richer reports. The page request has two properties that are presented in the reports: Goal and Reporting Name. Page response times will be reported against goal, and the reporting name will be used instead of the URL in the reports. In a load test Run Settings, under Manage Counter Sets, the Computer Tags property is presented in the report machine names. This is very useful to describe the role of a particular machine in the report.
+    > For better reports several properties are available in load tests and web performance tests that enable richer reports. The page request has two properties that are presented in the reports: Goal and Reporting Name. Page response times will be reported against goal, and the reporting name will be used instead of the URL in the reports. In a load test Run Settings, under Manage Counter Sets, the Computer Tags property is presented in the report machine names. This is very useful to describe the role of a particular machine in the report.
 
 ## .NET Framework Security
 

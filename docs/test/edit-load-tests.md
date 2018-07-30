@@ -14,7 +14,7 @@ ms.technology: vs-ide-test
 ---
 # Edit load tests
 
-Load tests run Web performance tests or unit tests to simulate many users accessing a server at the same time. A load test gives you access to application stress and performance data. A load test can be configured to emulate various load conditions such as user loads and network types.
+Load tests run web performance tests or unit tests to simulate many users accessing a server at the same time. A load test gives you access to application stress and performance data. A load test can be configured to emulate various load conditions such as user loads and network types.
 
 > [!NOTE]
 > Load testing is available only in the Enterprise edition of Visual Studio 2017.
@@ -25,7 +25,7 @@ A load test is defined by *scenarios*, *counter sets*, and *run settings*. The f
 
 ## Edit load test scenario settings
 
-A scenario is used to model how a group of users interacts with a server application. A scenario consists of a load pattern, a test mix model, a test mix, a browser mix, and network mix. A load test can have more than one scenario and a single scenario can contain Web performance tests and unit tests. By grouping similar settings together, a scenario lets you to group and run tests of a similar nature together.
+A scenario is used to model how a group of users interacts with a server application. A scenario consists of a load pattern, a test mix model, a test mix, a browser mix, and network mix. A load test can have more than one scenario and a single scenario can contain web performance tests and unit tests. By grouping similar settings together, a scenario lets you to group and run tests of a similar nature together.
 
 For more information, see [Edit load test scenarios](../test/edit-load-test-scenarios.md) and [Load test scenario properties](../test/load-test-scenario-properties.md).
 

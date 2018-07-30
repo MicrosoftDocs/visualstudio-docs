@@ -60,7 +60,7 @@ The procedures below demonstrate how to view the Virtual User Activity Chart, ho
     -   **Test log** (Link to the test log)
 
         > [!NOTE]
-        > To assist in debugging your application, if you choose the Test log link, the Web test result or unit test result associated with the log will open.
+        > To assist in debugging your application, if you choose the Test log link, the web test result or unit test result associated with the log will open.
 
      Next, you can use the filtering and highlighting operations available in the Virtual User Activity Chart.
 
@@ -93,7 +93,7 @@ The procedures below demonstrate how to view the Virtual User Activity Chart, ho
     -   **Show results with errors** Displays results with errors that can assist in debugging.
 
         > [!NOTE]
-        > The list of error types that are listed under the **Show results with errors** node can be further investigated by choosing the Tables button in the Web Performance Test Results Viewer toolbar. For more information, see  [Analyze Load Test Results and Errors in the Tables View](../test/analyze-load-test-results-and-errors-in-the-tables-view.md).
+        > The list of error types that are listed under the **Show results with errors** node can be further investigated by choosing the Tables button in the **Web Performance Test Results Viewer** toolbar. For more information, see  [Analyze Load Test Results and Errors in the Tables View](../test/analyze-load-test-results-and-errors-in-the-tables-view.md).
 
      The Virtual User Activity Chart updates accordingly.
 

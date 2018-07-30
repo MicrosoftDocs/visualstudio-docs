@@ -97,4 +97,4 @@ It can be helpful to debug code behind from the XAML designer in some declarativ
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
- [Debugger Basics](../debugger/debugger-basics.md)
+ [Debugger Basics](../debugger/getting-started-with-the-debugger.md)

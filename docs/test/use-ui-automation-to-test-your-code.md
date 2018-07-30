@@ -77,7 +77,7 @@ To access the coded UI test tools and templates, install the **Coded UI test** c
 
 3. Record a sequence of actions.
 
-     **To start recording**, choose the **Record** icon. Perform the actions that you want to test in your application, including starting the application if that is required. For example, if you are testing a web application, you might start a browser, navigate to the web site, and log in to the application.
+     **To start recording**, choose the **Record** icon. Perform the actions that you want to test in your application, including starting the application if that is required. For example, if you are testing a web application, you might start a browser, navigate to the website, and log in to the application.
 
      **To pause recording**, for example if you have to deal with incoming mail, choose **Pause**.
 
@@ -261,9 +261,9 @@ In the configuration file, change the values for the `HoverKeyModifier` and `Hov
 
 If you're having issues recording mouse hovers on a website:
 
-In many websites, when you hover over a particular control, it expands to show additional details. Generally, these look like menus in desktop applications. Because this is a common pattern, coded UI tests enable implicit hovers for Web browsing. For example, if you record hovers in Internet Explorer, an event is fired. These events can lead to redundant hovers getting recorded. Because of this, implicit hovers are recorded with `ContinueOnError` set to `true` in the UI test configuration file. This allows playback to continue if a hover event fails.
+In many websites, when you hover over a particular control, it expands to show additional details. Generally, these look like menus in desktop applications. Because this is a common pattern, coded UI tests enable implicit hovers for web browsing. For example, if you record hovers in Internet Explorer, an event is fired. These events can lead to redundant hovers getting recorded. Because of this, implicit hovers are recorded with `ContinueOnError` set to `true` in the UI test configuration file. This allows playback to continue if a hover event fails.
 
-To enable the recording of implicit hovers in a Web browser, open the configuration file:
+To enable the recording of implicit hovers in a web browser, open the configuration file:
 
 *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CodedUITestBuilder.exe.config*
 
@@ -365,7 +365,7 @@ When you choose **Generate Code**, several pieces of code are created:
 
     These declarations represent the UI controls of the application that are used by your test. They are used by the generated code to operate the controls and access their properties.
 
-    You can also use them if you write your own code. For example, you can have your test method choose a hyperlink in a Web application, type a value in a text box, or branch off and take different testing actions based on a value in a field.
+    You can also use them if you write your own code. For example, you can have your test method choose a hyperlink in a web application, type a value in a text box, or branch off and take different testing actions based on a value in a field.
 
     You can add multiple coded UI tests and multiple UI map objects and files to facilitate testing a large application. For more information, see [Testing a Large Application with Multiple UI Maps](../test/testing-a-large-application-with-multiple-ui-maps.md).
 

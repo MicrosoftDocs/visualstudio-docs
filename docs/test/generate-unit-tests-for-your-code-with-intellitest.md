@@ -43,7 +43,7 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
 
      ![Exploration Results window is displayed with tests](../test/media/pexexplorationresults.png)
 
-     To generate unit tests for all the public methods in a class, simply right-click in the class rather than a specific method. Then choose **Run IntelliTest**. Use the drop-down list in the Exploration Results window to display the unit tests and the input data for each method in the class.
+     To generate unit tests for all the public methods in a class, simply right-click in the class rather than a specific method. Then choose **Run IntelliTest**. Use the drop-down list in the **Exploration Results** window to display the unit tests and the input data for each method in the class.
 
      ![Select the test results to view from the list](../test/media/selectpextest.png)
 
@@ -55,7 +55,7 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
 
      ![Select tests; right&#45;click and choose Save](../test/media/savepextests.png)
 
-     You can view the test project and the parameterized unit test that has been created - the individual unit tests, corresponding to each of the rows, are saved in the .g.cs file in the test project, and a parameterized unit test is saved in its corresponding .cs file. You can run the unit tests and view the results from Test Explorer just as you would for any unit tests that you created manually.
+     You can view the test project and the parameterized unit test that has been created - the individual unit tests, corresponding to each of the rows, are saved in the *.g.cs* file in the test project, and a parameterized unit test is saved in its corresponding *.cs* file. You can run the unit tests and view the results from Test Explorer just as you would for any unit tests that you created manually.
 
      ![Open class file in test method to view unit test](../test/media/testmethodpex.png)
 
@@ -75,7 +75,7 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
 
      ![Right&#45;click the warning and choose Fix](../test/media/pexfixwarning.png)
 
-     This choice is added into the PexAssemblyInfo.cs file.
+     This choice is added into the *PexAssemblyInfo.cs* file.
 
      `[assembly: PexUseType(typeof(Camera))]`
 
@@ -87,7 +87,7 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
 
 Specify the general relationship between inputs and outputs that you want the generated unit tests to validate. This specification is encapsulated in a method that looks like a test method but is universally quantified. This is the parameterized unit test method, and any assertions you make must hold for all possible input values that IntelliTest can generate.
 
-##  <a name="QandALink"></a> Q & A
+##  Q & A
 
 ### Q: Can you use IntelliTest for unmanaged code?
 
@@ -139,15 +139,15 @@ Specify the general relationship between inputs and outputs that you want the ge
 **A:** Yes, follow these steps to [find and install other frameworks](../test/install-third-party-unit-test-frameworks.md).
 Test framework extensions are also available in Visual Studio Marketplace:
 
-* [NUnit Extension for the Test Generators](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension-18371)
-* [xUnit.net Extension for the Test Generators](https://marketplace.visualstudio.com/items?itemName=BradWilson.xUnitnetTestExtensions)
+* [NUnit extension for the test generators](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension-18371)
+* [xUnit.net extension for the test generators](https://marketplace.visualstudio.com/items?itemName=BradWilson.xUnitnetTestExtensions)
 
 
 After you restart Visual Studio and reopen your solution, right-click in the class or method, then choose **Create IntelliTest**. Select your installed framework here:
 
 ![Select other unit test framework for IntelliTest](../test/media/pexcreateintellitestextensions.png)
 
-Then run IntelliTest to generate individual unit tests in their corresponding .g.cs files.
+Then run IntelliTest to generate individual unit tests in their corresponding *.g.cs* files.
 
 
 ### Q: Can I learn more about how the tests are generated?

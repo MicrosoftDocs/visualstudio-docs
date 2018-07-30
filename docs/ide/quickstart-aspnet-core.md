@@ -72,7 +72,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
 1. Press **Ctrl**+**F5** to run the application and open it in a web browser.
 
-1. At the top of the web site, choose **About** to see the directory message you added in the `OnGet()` method for the **About** page.
+1. At the top of the website, choose **About** to see the directory message you added in the `OnGet()` method for the **About** page.
 
 1. Close the web browser.
 

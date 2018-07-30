@@ -14,10 +14,10 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Control Events
+# Control events
 You must send events during the controlled execution of your program. All of the events are sent using the [IDebugEvent2](../../extensibility/debugger/reference/idebugevent2.md) interface and have attributes that require you to implement the [IDebugEvent2::GetAttributes](../../extensibility/debugger/reference/idebugevent2-getattributes.md) method.  
   
-## Additional Methods  
+## Additional methods  
  Some events require implementation of additional methods, as follows:  
   
 -   Sending the [IDebugEngineCreateEvent2](../../extensibility/debugger/reference/idebugenginecreateevent2.md) interface when the debug engine (DE) is initialized requires you to implement the [IDebugEngineCreateEvent2::GetEngine](../../extensibility/debugger/reference/idebugenginecreateevent2-getengine.md) method.  
@@ -34,5 +34,5 @@ You must send events during the controlled execution of your program. All of the
   
  For your engine to write string-style output, you must implement the [IDebugOutputStringEvent2::GetString](../../extensibility/debugger/reference/idebugoutputstringevent2-getstring.md) method.  
   
-## See Also  
- [Execution Control and State Evaluation](../../extensibility/debugger/execution-control-and-state-evaluation.md)
+## See also  
+ [Execution control and state evaluation](../../extensibility/debugger/execution-control-and-state-evaluation.md)

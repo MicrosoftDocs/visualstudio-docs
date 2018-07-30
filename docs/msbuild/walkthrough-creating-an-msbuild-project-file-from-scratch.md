@@ -38,7 +38,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
   
 9.   Build incrementally.  
 
-This walkthrough shows how to build the project at the command prompt and examine the results. For more information about MSBuild and how to run MSBuild at the command prompt, see [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md).  
+This walkthrough shows how to build the project at the command prompt and examine the results. For more information about MSBuild and how to run MSBuild at the command prompt, see [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md).  
 
 To complete the walkthrough, you must have the .NET Framework (version 2.0, 3.5, 4.0, or 4.5) installed because it includes MSBuild and the Visual C# compiler, which are required for the walkthrough.  
   
@@ -469,7 +469,7 @@ Your project file should now resemble the following code:
 ```  
   
 ## What's next?  
- Visual Studio can automatically do much of the work that is shown in this walkthrough. To learn how to use Visual Studio to create, edit, build, and test MSBuild project files, see [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md).  
+ Visual Studio can automatically do much of the work that is shown in this walkthrough. To learn how to use Visual Studio to create, edit, build, and test MSBuild project files, see [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md).  
   
 ## See also  
 [MSBuild overview](../msbuild/msbuild.md)  

@@ -20,13 +20,13 @@ ms.technology: vs-ide-test
 You can create a load test plug-in to run code at different times while the load test is running. You create a plug-in to expand upon or modify the built in functionality of the load test. For example, you can code a load test plug-in to set or modify the load test pattern while the load test is running. To do this, you must create a class that inherits the <xref:Microsoft.VisualStudio.TestTools.LoadTesting.ILoadTestPlugin> interface. This class must implement the <xref:Microsoft.VisualStudio.TestTools.LoadTesting.ILoadTestPlugin.Initialize*> method of this interface. For more information, see <xref:Microsoft.VisualStudio.TestTools.LoadTesting.ILoadTestPlugin>.
 
 > [!NOTE]
-> You can also create plug-ins for Web performance tests. For more information, see [How to: Create a Web performance test plug-in](../test/how-to-create-a-web-performance-test-plug-in.md)
+> You can also create plug-ins for web performance tests. For more information, see [How to: Create a web performance test plug-in](../test/how-to-create-a-web-performance-test-plug-in.md)
 
 ## To create a load test plug-in by using Visual C#
 
-1.  Open a Web performance and load test project that contains a Web performance test.
+1.  Open a web performance and load test project that contains a web performance test.
 
-2.  Add a load test to the test project and configure it to run a Web performance test.
+2.  Add a load test to the test project and configure it to run a web performance test.
 
      For more information, see [Quickstart: Create a load test project](../test/quickstart-create-a-load-test-project.md).
 
@@ -54,7 +54,7 @@ You can create a load test plug-in to run code at different times while the load
 
      The reference to **Microsoft.VisualStudio.QualityTools.LoadTestFramework** is added to the **Reference** folder in **Solution Explorer**.
 
-13. In **Solution Explorer**, right-click the top node of the Web performance and load test project that contains the load test to which you want to add the load test plug-in and select **Add Reference**.
+13. In **Solution Explorer**, right-click the top node of the web performance and load test project that contains the load test to which you want to add the load test plug-in and select **Add Reference**.
 
 14. The **Add Reference dialog box is displayed**.
 
@@ -77,20 +77,20 @@ You can create a load test plug-in to run code at different times while the load
 22. In the **Properties for selected plug-in** pane, set the initial values for the plug-in to use at run time.
 
     > [!NOTE]
-    > You can expose as many properties as you want from your plug-ins; just make them public, settable, and of a base type such as Integer, Boolean, or String. You can also change the Web performance test plug-in properties later by using the **Properties** window.
+    > You can expose as many properties as you want from your plug-ins; just make them public, settable, and of a base type such as Integer, Boolean, or String. You can also change the web performance test plug-in properties later by using the **Properties** window.
 
 23. Choose **OK**.
 
      The plug-in is added to the **Load Test Plug-ins** folder.
 
     > [!WARNING]
-    > You might get an error similar to the following when you run a Web performance test or load test that uses your plug-in:
+    > You might get an error similar to the following when you run a web performance test or load test that uses your plug-in:
     >
     > **Request failed: Exception in \<plug-in> event: Could not load file or assembly '\<"Plug-in name".dll file>, Version=\<n.n.n.n>, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.**
     >
     > This is caused if you make code changes to any of your plug-ins and create a new DLL version **(Version=0.0.0.0)**, but the plug-in is still referencing the original plug-in version. To correct this problem, follow these steps:
     >
-    > 1.  In your Web performance and load test project, you will see a warning in references. Remove and re-add the reference to your plug-in DLL.
+    > 1.  In your web performance and load test project, you will see a warning in references. Remove and re-add the reference to your plug-in DLL.
     > 2.  Remove the plug-in from your test or the appropriate location and then add it back.
 
 ## Example

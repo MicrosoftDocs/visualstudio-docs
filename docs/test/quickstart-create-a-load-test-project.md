@@ -12,14 +12,14 @@ ms.technology: vs-ide-test
 ---
 # Quickstart: Create a load test project
 
-In this 10-minute quickstart, you'll learn how to create and run a Web performance and load test project in Visual Studio. Load tests execute Web performance or unit tests to simulate many users accessing a server at the same time.
+In this 10-minute quickstart, you'll learn how to create and run a web performance and load test project in Visual Studio. Load tests execute web performance or unit tests to simulate many users accessing a server at the same time.
 
 > [!IMPORTANT]
 > Web performance and load test projects are only available in the Enterprise edition of Visual Studio 2017.
 
 ## Install the load testing component
 
-If you don't already have the Web performance and load testing tools component installed, you'll need to install it through the Visual Studio Installer.
+If you don't already have the web performance and load testing tools component installed, you'll need to install it through the Visual Studio Installer.
 
 1. Open Visual Studio Installer from the Start menu of Windows. You can also access it in Visual Studio from the **New Project** dialog box, or by choosing **Tools** > **Get Tools and Features** from the menu bar.
 
@@ -29,7 +29,7 @@ If you don't already have the Web performance and load testing tools component i
 
 1. Choose the **Modify** button.
 
-   The Web performance and load testing tools component is installed.
+   The web performance and load testing tools component is installed.
 
 ## Create a load test project
 
@@ -45,7 +45,7 @@ In this section, we'll create a C# load test project. You can also create a Visu
 
 1. Enter a name for the project if you don't want to use the default name, and then choose **OK**.
 
-   Visual Studio creates the project, and displays the files in **Solution Explorer**. The project initially contains one Web test file named *WebTest1.webtest*.
+   Visual Studio creates the project, and displays the files in **Solution Explorer**. The project initially contains one web test file named *WebTest1.webtest*.
 
 ## Add a load test to the project
 
