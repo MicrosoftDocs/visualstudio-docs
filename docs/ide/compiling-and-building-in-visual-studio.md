@@ -28,7 +28,7 @@ Within the Visual Studio product family, there are three methods you can use to 
 | --- |--- | --- |
 | IDE |- Create builds immediately and test them in a debugger.<br />- Run multi-processor builds for C++ and C# projects.<br />-   Customize different aspects of the build system. |
 | MSBuild command line| - Build projects without installing Visual Studio.<br />- Run multi-processor builds for all project types.<br />-   Customize most areas of the build system.|
-| Team Foundation Build | - Automate your build process as part of a continuous integration/continuous delivery pipeline.<br />- Apply automated tests with every build.<br />- Employ virtually unlimited could-based resources for build processes.<br />- Modify the build workflow and create build activities to perform deeply customized tasks.|
+| Team Foundation Build | - Automate your build process as part of a continuous integration/continuous delivery pipeline.<br />- Apply automated tests with every build.<br />- Employ virtually unlimited cloud-based resources for build processes.<br />- Modify the build workflow and create build activities to perform deeply customized tasks.|
 
 The documentation in this section goes into further details of the IDE-based build process. For more information on the other methods, see [MSBuild](../msbuild/msbuild.md) and [Continuous integration and deployment](/vsts/pipelines/index?view=vsts), respectively.
 
