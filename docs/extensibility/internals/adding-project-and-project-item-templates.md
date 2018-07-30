@@ -25,7 +25,7 @@ When you create your own project types, you must provide support for adding new 
  [Project priority](../../extensibility/internals/project-priority.md)  
  Explains that a project item is usually a member of one project to help avoid ambiguity about which project is used to open the item.  
   
- [Miscellaneous files project](../../extensibility/internals/miscellaneous-files-project.md)  
+ [Miscellaneous Files project](../../extensibility/internals/miscellaneous-files-project.md)  
  Provides information about the two types of editors that can be used to open files in a project and the role the project plays in determining which editor to use when a project item is opened.  
   
  [Register project and item templates](../../extensibility/internals/registering-project-and-item-templates.md)  
