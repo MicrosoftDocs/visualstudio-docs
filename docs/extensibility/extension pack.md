@@ -71,7 +71,7 @@ Now that the extension is published, install it in Visual Studio and test it the
 
 4. Below is a sample extension pack download view of 'Extensions and Updates' dialog. If you prefer to install only some of the included extensions in the Extension pack, you can modify the extension list in 'Scheduled For Install".
 
-    ![Download Extesnion Pack from Marketplace](media/vside-extesnoinpack.png)
+    ![Download Extension Pack from Marketplace](media/vside-extesnoinpack.png)
 
 4. To complete the installation, close all instances of Visual Studio.
 
