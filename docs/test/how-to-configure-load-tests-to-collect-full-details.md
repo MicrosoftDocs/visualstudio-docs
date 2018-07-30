@@ -31,7 +31,7 @@ To use the **Virtual User Activity Chart** for your load test, you must configur
 
 ## To configure the timing details storage property in a load test
 
-1.  Open a load test in the Load Test Editor.
+1.  Open a load test in the **Load Test Editor**.
 
 2.  Expand the **Run Settings** node in the load test.
 
@@ -45,5 +45,5 @@ To use the **Virtual User Activity Chart** for your load test, you must configur
 
 ## See also
 
-- [Analyzing virtual user activity in the Details vView](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md)
+- [Analyzing virtual user activity in the Details view](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md)
 - [Walkthrough: Using the Virtual User Activity Chart to isolate issues](../test/walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md)

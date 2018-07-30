@@ -218,7 +218,7 @@ To create a *diagnostic data adapter*, you create a class library using Visual S
 
      If you want to use your own editor to collect data to use in your test settings, see [How to: Create a custom editor for data for your diagnostic data adapter](../test/how-to-create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md).
 
-11. To collect a log file when a test finishes based on what the user configured in test settings, you must create an *`App.config`* file and add it to your solution. This file has the following format and must contain the URI for your diagnostic data adapter to identify it. Substitute real values for the "Company/ProductName/Version".
+11. To collect a log file when a test finishes based on what the user configured in test settings, you must create an *App.config* file and add it to your solution. This file has the following format and must contain the URI for your diagnostic data adapter to identify it. Substitute real values for the "Company/ProductName/Version".
 
     > [!NOTE]
     > If you do not need to configure any information for your diagnostic data adapter, then you do not need to create a configuration file.
