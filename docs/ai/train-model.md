@@ -1,5 +1,5 @@
 ---
-title: Sumbit a job to train model in Azure Batch AI
+title: Submit a job to train model in Azure Batch AI
 description: train model cloud
 keywords: ai, visual studio, train model, cloud
 author: lisawong19
