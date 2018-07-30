@@ -53,6 +53,7 @@ In Visual Studio 2017 version 15.5, no pre-configured test project or item templ
 1. In the left pane, choose **Visual C++** > **Windows Desktop**, and then choose the **Windows Console Application** template.
 
 1. Give the project a name and choose **OK**.
+
 1. Delete the `main` function in the *.cpp* file.
 
 1. If you are using the single-header or dynamic library version of Boost.Test, go to [Add include directives](#add-include-directives). If you are using the static library version, then you have to perform some additional configuration:
@@ -118,7 +119,9 @@ BOOST_AUTO_TEST_CASE(my_boost_test)
 ```
 
 ## Write and run tests
-You are now ready to write and run Boost Tests. See the [Boost Test library documentation](http://www.boost.org/doc/libs/release/libs/test/doc/html/index.html) for information about the test macros. See [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md) for information about discovering, running, and grouping your tests by using **Test Explorer**.
+
+You're now ready to write and run Boost tests. See the [Boost test library documentation](http://www.boost.org/doc/libs/release/libs/test/doc/html/index.html) for information about the test macros. See [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md) for information about discovering, running, and grouping your tests by using **Test Explorer**.
 
 ## See also
-[Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
+
+- [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
