@@ -42,7 +42,7 @@ To complete this walkthrough, you need:
 
 1. If your test project already has an app.config file, go to [Define a Custom Configuration Section](#DefineCustomConfigurationSection).
 
-2. Right-click your test project in the **Solution Explorer**, and then select **Add** > **New Item**.
+2. Right-click your test project in **Solution Explorer**, and then select **Add** > **New Item**.
 
      The **Add New Item** window opens.
 

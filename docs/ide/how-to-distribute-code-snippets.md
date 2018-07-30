@@ -55,11 +55,11 @@ In this procedure we will use the same Hello World code snippet created in [Walk
 
 ### Set up the directory structure
 
-1.  In the **Solution Explorer**, select the project node and add a folder that has the name you want the snippet to have in the **Code Snippets Manager**. In this case, it should be **HelloWorldVB**.
+1.  In **Solution Explorer**, select the project node and add a folder that has the name you want the snippet to have in the **Code Snippets Manager**. In this case, it should be **HelloWorldVB**.
 
 2.  Move the *.snippet* file to the *HelloWorldVB* folder.
 
-3.  Select the *.snippet* file in the **Solution Explorer**, and in the **Properties** window make sure **Build Action** is set to **Content**, **Copy to Output Directory** is set to **Copy always**, and **Include in VSIX** is set to **true**.
+3.  Select the *.snippet* file in **Solution Explorer**, and in the **Properties** window make sure **Build Action** is set to **Content**, **Copy to Output Directory** is set to **Copy always**, and **Include in VSIX** is set to **true**.
 
 ### Add the .pkgdef file
 
@@ -77,7 +77,7 @@ In this procedure we will use the same Hello World code snippet created in [Walk
 
     If you examine this key, you can see how to specify different languages.
 
-3.  Select the *.pkgdef* file in the **Solution Explorer**, and in the **Properties** window make sure **Build Action** is set to **Content**, **Copy to Output Directory** is set to **Copy always**, and **Include in VSIX** is set to **true**.
+3.  Select the *.pkgdef* file in **Solution Explorer**, and in the **Properties** window make sure **Build Action** is set to **Content**, **Copy to Output Directory** is set to **Copy always**, and **Include in VSIX** is set to **true**.
 
 4.  Add the *.pkgdef* file as an asset in the VSIX manifest. In the *source.extension.vsixmanifest* file, go to the **Assets** tab and click **New**.
 

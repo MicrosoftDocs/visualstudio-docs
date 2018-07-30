@@ -140,7 +140,7 @@ First, create a test solution that has two projects, each with a different optim
 
 1.  In the **New Project** dialog, create a **C# WPF Desktop Application** and call it whatever you like. Pretend that this is the project where we'll be working on the user interface, so we want to maximize the space for the designer window and move other tool windows out of the way.
 
-2.  If you have multiple monitors, pull the **Solution Explorer** window and the **Properties** window over to your second monitor. On a single monitor system, try closing all the windows except the designer.
+2.  If you have multiple monitors, pull **Solution Explorer** and the **Properties** window over to your second monitor. On a single monitor system, try closing all the windows except the designer.
 
 3.  Press **Ctrl + Alt + X** to display the **Toolbox**. If the window is docked, drag it so that it floats somewhere where you'd like to position it, on either monitor.
 

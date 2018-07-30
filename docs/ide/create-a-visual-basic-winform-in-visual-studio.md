@@ -77,7 +77,7 @@ Now that we've added a button control to create an action, let's add a label con
 
 1. In the **Form1.vb &#91;Design&#93;** window, double-click the **Click this** button to open the **Form1.vb** window.
 
-      (Alternatively, you can expand **Form1.vb** in the **Solution Explorer** window, and then click **Form1**.)
+      (Alternatively, you can expand **Form1.vb** in **Solution Explorer**, and then click **Form1**.)
 
 2. In the **Form1.vb** window, between the **Private Sub** line and the **End Sub** line, type or paste `lblHelloWorld.Text = "Hello World!"`.
 

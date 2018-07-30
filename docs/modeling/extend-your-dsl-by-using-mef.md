@@ -104,7 +104,7 @@ You can extend your domain-specific language (DSL) by using Managed Extensibilit
 
 6.  In the Properties window, make sure that at least one of the properties named **Uses...** is `true`.
 
-7.  In the Solution Explorer toolbar, click **Transform All Templates**.
+7.  In the **Solution Explorer** toolbar, click **Transform All Templates**.
 
      Subsidiary files appear underneath each of the files that you added.
 

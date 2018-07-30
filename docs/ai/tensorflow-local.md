@@ -46,7 +46,7 @@ Download this [GitHub repository](https://github.com/Microsoft/samples-for-ai) c
 
 ![Open solution](media\tensorflow-local\open-solution.png)
 
-- Find the MNIST Project in the **Solution Explorer**, right-click and select **Set as StartUp Project**.
+- Find the MNIST Project in **Solution Explorer**, right-click and select **Set as StartUp Project**.
 
 - Click **Start**.
 
