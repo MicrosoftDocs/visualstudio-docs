@@ -64,13 +64,13 @@ Visual Studio does not have a solution template for creating native UI applicati
 
     After clicking OK, the **WeatherApp** solution consists of a single project named **WeatherApp**.
 
-2.  If you want to target iOS, add an iOS project to the solution. Right-click the solution name in the **Solution Explorer** and select **Add** and **New Project**.  In the **New Project** dialog, at the left select **Visual C#**, and then **iOS** and **Universal**. (If it's not there, you might have to install Xamarin or enable the Visual Studio 2017 feature, see [Setup and install](../cross-platform/setup-and-install.md).) In the list of templates, select **Single View App (iOS)**. Name it **WeatherApp.iOS**.
+2.  If you want to target iOS, add an iOS project to the solution. Right-click the solution name in **Solution Explorer** and select **Add** and **New Project**.  In the **New Project** dialog, at the left select **Visual C#**, and then **iOS** and **Universal**. (If it's not there, you might have to install Xamarin or enable the Visual Studio 2017 feature, see [Setup and install](../cross-platform/setup-and-install.md).) In the list of templates, select **Single View App (iOS)**. Name it **WeatherApp.iOS**.
 
 3.  If you want to target Android, add an Android project to the solution. In the **New Project** dialog, at the left select **Visual C#** and **Android**. In the template list, select **Blank App (Android)**. Name it **WeatherApp.Android**.
 
 4. If you want to target the Universal Windows Platform, in the **New Project** dialog, at the left select **Visual C#** and **Windows Universal**. In the template list, select **Blank App (Universal Windows)** and name it **WeatherApp.UWP**.
 
-5. For each of the application projects (iOS, Android, and UWP), right-click the **References** section in the **Solution Explorer** and select **Add Reference**. In the **Reference Manager** dialog, at the left select **Project** and **Solution**. You'll see a list of all the projects in the solution except the project whose references you're managing:
+5. For each of the application projects (iOS, Android, and UWP), right-click the **References** section in **Solution Explorer** and select **Add Reference**. In the **Reference Manager** dialog, at the left select **Project** and **Solution**. You'll see a list of all the projects in the solution except the project whose references you're managing:
 
    ![Setting a reference to the .NET Standard project](../cross-platform/media/cross-plat-xamarin-build-3.png)
 
@@ -80,7 +80,7 @@ Visual Studio does not have a solution template for creating native UI applicati
 
 6. Add the **Newtonsoft.Json** NuGet package to the .NET Standard project, which you'll use to process information retrieved from a weather data service:
 
-    -   Right-click the **WeatherApp** project in the **Solution Explorer** and select **Manage NuGet Packages...**.
+    -   Right-click the **WeatherApp** project in **Solution Explorer** and select **Manage NuGet Packages...**.
 
          In the NuGet window, select the **Browse** tab and search for **Newtonsoft**.
 
@@ -104,9 +104,9 @@ Visual Studio does not have a solution template for creating native UI applicati
 
 1.  First sign up for a free weather API key at [http://openweathermap.org/appid](http://openweathermap.org/appid). This API key will allow the application to obtain the weather for any United States zip code. (It does not work for postal codes outside of the United States.)
 
-2.  Right-click the **WeatherApp** project and select **Add > Class...**. In the **Add New Item** dialog, name the file **Weather.cs**. You'll use this class to store data from the weather data service.
+2.  Right-click the **WeatherApp** project and select **Add > Class...**. In the **Add New Item** dialog, name the file *Weather.cs*. You'll use this class to store data from the weather data service.
 
-3.  Replace the entire contents of **Weather.cs** with the following code:
+3.  Replace the entire contents of *Weather.cs* with the following code:
 
     ```csharp
     namespace WeatherApp
@@ -126,9 +126,9 @@ Visual Studio does not have a solution template for creating native UI applicati
     }
     ```
 
-4.  Add another class to the .NET Standard project named **DataService.cs**. You'll use this class to process JSON data from the weather data service.
+4.  Add another class to the .NET Standard project named `DataService.cs`. You'll use this class to process JSON data from the weather data service.
 
-5.  Replace the entire contents of **DataService.cs** with the following code:
+5.  Replace the entire contents of *DataService.cs* with the following code:
 
     ```csharp
     using System.Net.Http;
@@ -157,9 +157,9 @@ Visual Studio does not have a solution template for creating native UI applicati
     }
     ```
 
-6.  Add a third class to the .NET Standard library named **Core.cs**. You'll use this class to form a query string with a zip code, call the weather data service, and populate an instance of the **Weather** class.
+6.  Add a third class to the .NET Standard library named *Core.cs*. You'll use this class to form a query string with a zip code, call the weather data service, and populate an instance of the **Weather** class.
 
-7.  Replace the contents of **Core.cs** with the following code:
+7.  Replace the contents of *Core.cs* with the following code:
 
     ```csharp
     using System;
@@ -211,7 +211,7 @@ Visual Studio does not have a solution template for creating native UI applicati
 
 8. Replace the first occurrence of *YOUR API KEY HERE* with the API key you obtained in step 1. It still needs quotes around it!
 
-9. Delete **MyClass.cs** in the .NET Standard library because it won't be used.
+9. Delete *MyClass.cs* in the .NET Standard library because it won't be used.
 
 10. Build the **WeatherApp** project to make sure the code is correct.
 
@@ -223,10 +223,10 @@ Visual Studio does not have a solution template for creating native UI applicati
 
 ### Design the look and feel of your app
 
-1.  In the **Solution Explorer**, expand the **WeatherApp.Droid > Resources > layout** folder and open **Main.axml**. This command opens the file in the visual designer. (If a Java-related error appears, see this [blog post](http://forums.xamarin.com/discussion/32365/connection-to-the-layout-renderer-failed-in-xs-5-7-and-xamarinvs-3-9).)
+1.  In **Solution Explorer**, expand the **WeatherApp.Droid > Resources > layout** folder and open *Main.axml*. This command opens the file in the visual designer. (If a Java-related error appears, see this [blog post](http://forums.xamarin.com/discussion/32365/connection-to-the-layout-renderer-failed-in-xs-5-7-and-xamarinvs-3-9).)
 
     > [!TIP]
-    >  There are many other files in the project. Exploring them is beyond the scope of this article, but if you want to dive into the structure of an Android project a bit more, see [Part 2 Deep Dive](/xamarin/android/get-started/hello-android/hello-android-deepdive/) of the Hello Android article.
+    >  There are many other files in the project. Exploring them is beyond the scope of this article, but if you want to dive into the structure of an Android project a bit more, see [Part 2 deep dive](/xamarin/android/get-started/hello-android/hello-android-deepdive/) of the Hello Android article.
 
 2.  Open the Toolbox with **View > Other Windows > Toolbox**.
 
@@ -250,7 +250,7 @@ Visual Studio does not have a solution template for creating native UI applicati
     |**textStyle**|`bold`|
 
     > [!TIP]
-    >  Notice that many properties don't contain a drop-down list of values that you can select.  It can be difficult to guess what string value to use for any given property. For suggestions, try searching for the name of a property in the [R.attr](http://developer.android.com/reference/android/R.attr.html) class page.
+    >  Notice that many properties don't contain a drop-down list of values that you can select.  It can be difficult to guess what string value to use for any given property. For suggestions, try searching for the name of a property in the [`R.attr`](http://developer.android.com/reference/android/R.attr.html) class page.
     >
     >  Also, a quick web search often leads to a page on [http://stackoverflow.com/](http://stackoverflow.com/) where others have used the same property.
 
@@ -341,7 +341,7 @@ Visual Studio does not have a solution template for creating native UI applicati
         android:width="165dp" />
     ```
 
-11. You now know enough to build a basic UI by using the Android designer. You can also build a UI by adding markup directly to the Main.axml file of the page. To build the rest of the UI that way, switch to Source view in the designer, then paste the following markup *beneath* the `</RelativeLayout>` end tag. (They must be beneath the tag because these elements are *not* contained in the `RelativeLayout`.)
+11. You now know enough to build a basic UI by using the Android designer. You can also build a UI by adding markup directly to the *Main.axml* file of the page. To build the rest of the UI that way, switch to Source view in the designer, then paste the following markup *beneath* the `</RelativeLayout>` end tag. (They must be beneath the tag because these elements are *not* contained in the `RelativeLayout`.)
 
     ```xml
     <TextView
@@ -451,7 +451,7 @@ Visual Studio does not have a solution template for creating native UI applicati
 
 13. Open **MainActivity.cs**. Here's how the code should look:
 
-    ```
+    ```csharp
     protected override void OnCreate (Bundle bundle)
     {
     	base.OnCreate (bundle);
@@ -461,11 +461,11 @@ Visual Studio does not have a solution template for creating native UI applicati
     }
     ```
 
-14. Build the Android project to check your work. The build process adds control IDs to the **Resource.Designer.cs** file so that you can refer to controls by name in code.
+14. Build the Android project to check your work. The build process adds control IDs to the *Resource.Designer.cs* file so that you can refer to controls by name in code.
 
 ### Consume your shared code
 
-1.  Open the **MainActivity.cs** file of the **WeatherApp** project in the code editor and replace its contents with the code below. This code calls the `GetWeather` method that you defined in your shared code. Then, in the UI of the app, it shows the data that is retrieved from that method.
+1.  Open the *MainActivity.cs* file of the **WeatherApp** project in the code editor and replace its contents with the code below. This code calls the `GetWeather` method that you defined in your shared code. Then, in the UI of the app, it shows the data that is retrieved from that method.
 
     ```csharp
     using System;
@@ -539,7 +539,7 @@ The next step is to design the user interface for Windows, connect it to your sh
 
  The process of designing a native UWP user interface in a Xamarin app is no different from any other native UWP app. For this reason, the use of the designer won't be discussed here. For a detailed discussion, refer to [Creating a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md).
 
- Instead, open **MainPage.xaml** and replace the entire XAML contents with the following markup:
+ Instead, open *MainPage.xaml* and replace the entire XAML contents with the following markup:
 
 ```xaml
 <Page
@@ -628,7 +628,7 @@ The next step is to design the user interface for Windows, connect it to your sh
 
 ### Consume your shared code
 
-In the **MainPage.xaml.cs** code-behind file, add the following event handler for the button:
+In the *MainPage.xaml.cs* code-behind file, add the following event handler for the button:
 
 ```csharp
 private async void GetWeatherButton_Click(object sender, RoutedEventArgs e)
@@ -653,11 +653,11 @@ This code calls the `GetWeather` method that you defined in your shared code. `G
 
 ### Run the app and see how it looks
 
-1.  In the **Solution Explorer**, set the **WeatherApp.UWP** project as the startup project.
+1.  In **Solution Explorer**, set the **WeatherApp.UWP** project as the startup project.
 
 2.  In the **Solution Platforms** dropdown box, select **x86** and select **Local Machine** to deploy the application to the Windows 10 desktop.
 
-3.  Start the app by pressing the F5 key.
+3.  Start the app by pressing the **F5** key.
 
 4.  Type a valid five-digit United States zip code into the edit box, and press **Get Weather**. Weather data for that region then appears on the page.
 
@@ -678,10 +678,10 @@ This code calls the `GetWeather` method that you defined in your shared code. `G
 
  **Add platform-specific code in a shared project**
 
- Shared code in a .NET Standard library is platform-neutral. The library is compiled once and included in each platform-specific app package. If you want to write shared code that uses conditional compilation to isolate platform-specific code, you can use a *shared* project. For more information, see [Code Sharing Options](/xamarin/cross-platform/app-fundamentals/building-cross-platform-applications/practical-code-sharing-strategies).
+ Shared code in a .NET Standard library is platform-neutral. The library is compiled once and included in each platform-specific app package. If you want to write shared code that uses conditional compilation to isolate platform-specific code, you can use a *shared* project. For more information, see [Code sharing options](/xamarin/cross-platform/app-fundamentals/building-cross-platform-applications/practical-code-sharing-strategies).
 
 ## See also
 
-- [Xamarin Documentation](http://docs.microsoft.com/xamarin)
+- [Xamarin documentation](http://docs.microsoft.com/xamarin)
 - [Windows Dev Center](https://dev.windows.com/en-us)
-- [Swift and C# Quick Reference Poster](http://aka.ms/scposter)
+- [Swift and C# quick reference poster](http://aka.ms/scposter)
