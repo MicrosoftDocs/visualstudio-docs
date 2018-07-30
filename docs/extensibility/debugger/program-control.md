@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Program Control
+# Program control
 In Visual Studio debugging, all of the following stepping and continuing routines occur at the program level:  
   
 -   Setting the next statement, that is, setting your computer to the next instruction to be executed in a particular frame environment  
@@ -32,7 +32,7 @@ In Visual Studio debugging, all of the following stepping and continuing routine
 > [!NOTE]
 >  Viewing the call stack is implemented on the thread level. To enumerate the frame information when viewing the call stack for a thread, you must implement all the methods of the [IEnumDebugFrameInfo2](../../extensibility/debugger/reference/ienumdebugframeinfo2.md) interface.  
   
-## Methods of Program Control  
+## Methods of program control  
  The following table shows the methods of [IDebugProgram2](../../extensibility/debugger/reference/idebugprogram2.md) that must be implemented for a minimally functional debug engine (DE) and execution control.  
   
 |Method|Description|  
@@ -43,5 +43,5 @@ In Visual Studio debugging, all of the following stepping and continuing routine
   
  For multithreaded programs, you must also implement the [IDebugProgram2::EnumThreads](../../extensibility/debugger/reference/idebugprogram2-enumthreads.md) method and all the methods of the [IEnumDebugThreads2](../../extensibility/debugger/reference/ienumdebugthreads2.md) interface.  
   
-## See Also  
- [Execution Control and State Evaluation](../../extensibility/debugger/execution-control-and-state-evaluation.md)
+## See also  
+ [Execution control and state evaluation](../../extensibility/debugger/execution-control-and-state-evaluation.md)

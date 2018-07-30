@@ -16,6 +16,8 @@ ms.workload:
 
 You can use the **Publish** tool to publish ASP.NET Core apps to Azure App Service on Linux.
 
+Deployment to App Service on Linux using the **Publish** tool requires Visual Studio 2017 version 15.7.
+
 [!INCLUDE [quickstart-prereqs-azure-linux](includes/quickstart-prereqs-azure-linux.md)]
 
 ## Publish to App Service on Linux
@@ -37,6 +39,13 @@ You can use the **Publish** tool to publish ASP.NET Core apps to Azure App Servi
 1. Select **Create**. Visual Studio deploys the app to your Azure App Service, and the web app loads in your browser. The project properties **Publish** pane shows the site URL and other details.
 
     ![Publish property pane showing a profile summary](../deployment/media/quickstart-publish-app-service-summary.png)
+
+## Clean up resources
+
+In the preceding steps, you created Azure resources in a resource group. If you don't expect to need these resources in the future, you can delete them by deleting the resource group.
+From the left menu in the Azure portal, select **Resource groups** and then select **myResourceGroup**.
+On the resource group page, make sure that the listed resources are the ones you want to delete.
+Select **Delete**, type **myResourceGroup** in the text box, and then select **Delete**.
 
 ## Next steps
 
