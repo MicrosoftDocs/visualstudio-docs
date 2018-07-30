@@ -32,7 +32,7 @@ In a managed code project, open the project properties window. You can open the 
 
 - Right-clicking the project node in **Solution Explorer** and selecting **Properties**
 - Typing "project properties" in the **Quick Launch** window
-- Choosing **Alt**+**Enter** in the **Solution Explorer** window
+- Choosing **Alt**+**Enter** in **Solution Explorer**
 
 Select the **Resources** tab. You can add a *.resx* file if your project does not contain one already, add and delete different kinds of resources, and modify existing resources.
 

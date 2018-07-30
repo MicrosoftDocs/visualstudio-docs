@@ -39,7 +39,7 @@ The following procedures describe how to create the rudimentary code for a recor
 
 5.  In the **Name** text box, type a name for the recorder plug-in.
 
-     The class library is added to the Solution Explorer and the new class is opened in the Code Editor.
+     The class library is added to **Solution Explorer** and the new class is opened in the Code Editor.
 
 6.  In Solution Explorer, in the new class library project folder, right-click the **References** folder and select **Add Reference**.
 

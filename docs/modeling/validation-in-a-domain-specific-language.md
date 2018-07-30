@@ -56,7 +56,7 @@ As the author of a domain-specific language (DSL), you can define validation con
 
     3.  In the Properties window, set the **Uses**  properties to `true`. It is most convenient to set all these properties.
 
-    4.  Click **Transform All Templates** in the Solution Explorer toolbar.
+    4.  Click **Transform All Templates** in the **Solution Explorer** toolbar.
 
 2.  Write partial class definitions for one or more of your domain classes or domain relationships. Write these definitions in a new code file in the **Dsl** project.
 
