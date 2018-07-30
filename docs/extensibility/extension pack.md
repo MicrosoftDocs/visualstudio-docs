@@ -67,7 +67,7 @@ Now that the extension is published, install it in Visual Studio and test it the
 
 2. Click **Online** and then search for `Test Extension Pack`.
 
-3. Click **Download**. The extension and it's list of extensions included in the Extension Pack will then be scheduled for install.
+3. Click **Download**. The extension and its list of extensions included in the Extension Pack will then be scheduled for install.
 
 4. Below is a sample extension pack download view of 'Extensions and Updates' dialog. If you prefer to install only some of the included extensions in the Extension pack, you can modify the extension list in 'Scheduled For Install".
 
@@ -81,6 +81,6 @@ To remove the extension from your computer
 
 1. In Visual Studio, on the **Tools** menu, click **Extension and Updates...**.
 
-2. Select `Test Extension Pack` and then click **Uninstall**. The extension and it's list of extensions included in the Extension Pack will then be scheduled for uninstall.
+2. Select `Test Extension Pack` and then click **Uninstall**. The extension and its list of extensions included in the Extension Pack will then be scheduled for uninstall.
 
 3. To complete the uninstallation, close all instances of Visual Studio.
