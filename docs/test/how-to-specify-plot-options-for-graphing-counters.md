@@ -19,11 +19,11 @@ The **Plot Options** dialog box enables you to change the color and line style o
 
 ## To specify plotting options for graphs
 
-1.  In the **Load Test Analyzer**, choose **Graphs** on the **load test** toolbar.
+1.  In the **Load Test Analyzer**, choose **Graphs** on the toolbar.
 
-     This displays load test results in graphs view.
+     This displays load test results in a graph view.
 
-2.  In either the Legend or the graph, right-click the row or the current plotting line of the performance counter for which you want to change the plotting option and then select **Plot Options**.
+2.  Either in the legend or on the graph, right-click the row or the current plotting line of the performance counter for which you want to change the plotting option and then select **Plot Options**.
 
      The **Plot Options** dialog box displays.
 
