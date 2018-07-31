@@ -11,7 +11,7 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Configure ASP.NET Profiler for Load Tests Using Test Settings in Visual Studio
+# How to: Configure ASP.NET profiler for load tests using test settings in Visual Studio
 
 You can use the ASP.NET profiler diagnostic data adapter to collect ASP.NET profiler information. This diagnostic data adapter collects performance data for ASP.NET applications.
 
@@ -23,11 +23,11 @@ The ASP.NET profiler diagnostic data adapter lets you collect ASP.NET profiler d
 > [!NOTE]
 > The ASP.NET profiler diagnostic data adapter profiles the Internet Information Services (IIS) process. Therefore, it will not work against a development web server. To profile the website in your load test, you have to install a test agent on the machine on which the IIS is running. The test agent will not generate load, but will be an agent for collection only. For more information, see [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
 
-For more information, see [How to: Create a Test Setting for a Distributed Load Test](../test/how-to-create-a-test-setting-for-a-distributed-load-test.md).
+For more information, see [How to: Create a test setting for a distributed load test](../test/how-to-create-a-test-setting-for-a-distributed-load-test.md).
 
 The following procedure describes how to configure the diagnostic data adapter for the ASP.NET profiler.
 
-## To Configure the ASP.NET Profiler for Your Test Settings
+## To configure the ASP.NET profiler for your test settings
 
 Before you perform the steps in this procedure, you must open your test settings from Visual Studio and select the **Data and Diagnostics** page.
 
@@ -46,7 +46,7 @@ Before you perform the steps in this procedure, you must open your test settings
 
 4.  To enable tier interaction profiling, select **Enable Tier Interaction Profiling**.
 
-     Tier interaction profiling counts the number of requests that are sent to the web server for each artifact (for example, MyPage.aspx or CompanyLogo.gif) and the time it took to service each request. Additionally, tier interaction profiling collects which ADO.NET connections were used as a part of the page request, and how many queries and stored procedure calls were executed as a part of servicing that request.
+     Tier interaction profiling counts the number of requests that are sent to the web server for each artifact (for example, *MyPage.aspx* or *CompanyLogo.gif*) and the time it took to service each request. Additionally, tier interaction profiling collects which ADO.NET connections were used as a part of the page request, and how many queries and stored procedure calls were executed as a part of servicing that request.
 
      Two different sets of timing information are collected:
 
@@ -58,6 +58,6 @@ With the ASP.NET profiler diagnostic data adapter configured in your test settin
 
 ## See also
 
-- [Collect Diagnostic Information Using Test Settings](../test/collect-diagnostic-information-using-test-settings.md)
-- [How to: Create a Test Setting for a Distributed Load Test](../test/how-to-create-a-test-setting-for-a-distributed-load-test.md)
+- [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)
+- [How to: Create a test setting for a distributed load test](../test/how-to-create-a-test-setting-for-a-distributed-load-test.md)
 - [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md)
