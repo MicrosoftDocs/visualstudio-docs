@@ -138,7 +138,7 @@ To access the coded UI test tools and templates, install the **Coded UI test** c
 
 The remaining sections in this topic provide more detail about the steps in this procedure.
 
-For a more detailed example, see  [Walkthrough: Creating, editing and maintaining a coded UI test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md). In the walkthrough, you will create a simple Windows Presentation Foundation (WPF) application to demonstrate how to create, edit, and maintain a coded UI test. The walkthrough provides solutions for correcting tests that have been broken by various timing issues and control refactoring.
+For a more detailed example, see [Walkthrough: Creating, editing and maintaining a coded UI test](../test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md). In the walkthrough, you will create a simple Windows Presentation Foundation (WPF) application to demonstrate how to create, edit, and maintain a coded UI test. The walkthrough provides solutions for correcting tests that have been broken by various timing issues and control refactoring.
 
 ## Start and stop the application under test
 
@@ -214,9 +214,6 @@ Sometimes, when you add controls and verify their properties, you might have to 
 ![CodedUITest&#95;SelectControlKeyboard](../test/media/codeduitest_selectcontrolkeyboard.png)
 
 To use the keyboard to select a UI control, hover over the control with the mouse. Then hold down the **Ctrl** key and the **I** key at the same time. Release the keys. The control is recorded by the **Coded UI Test Builder**.
-
-> [!WARNING]
-> If you use Microsoft Lync, you must close Lync before you start the **Coded UI Test Builder**. Microsoft Lync interferes with the **Ctrl**+**I** keyboard shortcut.
 
 #### Manually record mouse hovers
 
