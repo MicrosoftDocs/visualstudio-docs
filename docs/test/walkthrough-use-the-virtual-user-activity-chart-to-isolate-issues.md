@@ -16,9 +16,9 @@ ms.technology: vs-ide-test
 
 In this walkthrough you will learn how to use the Virtual User Activity Chart to isolate errors that occurred for individual virtual users that ran your load test.
 
- The Virtual User Activity Chart lets you visualize the virtual user activity that is associated with your load test. Each row in the chart represents an individual virtual user. The Virtual User Activity Chart shows you exactly what each virtual user was executing during the test. This lets you isolate performance issues by seeing patterns of user activity, load patterns, correlate failed or slow tests, and see requests with other virtual user activity. The Virtual User Activity Chart is available only after the load after has finished running.
+The Virtual User Activity Chart lets you visualize the virtual user activity that is associated with your load test. Each row in the chart represents an individual virtual user. The Virtual User Activity Chart shows you exactly what each virtual user was executing during the test. This lets you isolate performance issues by seeing patterns of user activity, load patterns, correlate failed or slow tests, and see requests with other virtual user activity. The Virtual User Activity Chart is available only after the load after has finished running.
 
- In this walkthrough, you will complete the following tasks:
+In this walkthrough, you'll complete the following tasks:
 
 -   Learn how to use the following tools associated with the Virtual User Activity Chart:
 
@@ -28,7 +28,7 @@ In this walkthrough you will learn how to use the Virtual User Activity Chart to
 
 -   Use the Virtual User Activity Chart to analyze an error that occurred for a specific virtual user and view the problematic error type details.
 
- For more information, see [Analyze virtual user activity in the Details view](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md).
+For more information, see [Analyze virtual user activity in the Details view](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md).
 
 ## Prerequisites
 
@@ -51,15 +51,14 @@ In this walkthrough you will learn how to use the Virtual User Activity Chart to
      The remaining steps in this walkthrough assume a web application named ColorWebApp, a web performance test named *ColorWebAppTest.webtest* and a load test named *LoadTest1.loadtest*.
 
 ## Run the load test
- Run your load test to collect virtual user activity data.
 
-### Run the load test to collect virtual user activity data
+Run your load test to collect virtual user activity data.
 
 -   In the **Load Test Editor**, choose the **Run** button on the toolbar. LoadTest1 starts to run.
 
 ## Isolate issues in the Virtual User Activity Chart
 
-After you have run your load test and collected the virtual user activity data, you can view the data in the load test results by using the **Load Test Analyzer's** Details view in the **Virtual User Activity Chart**. Additionally, you can use the **Virtual User Activity Chart** to help isolate performance issues in your load test.
+After you have run your load test and collected the virtual user activity data, you can view the data in the load test results by using the **Load Test Analyzer** Details view in the **Virtual User Activity Chart**. Additionally, you can use the **Virtual User Activity Chart** to help isolate performance issues in your load test.
 
 ### To use the Virtual User Activity Chart in your load test results
 
@@ -70,7 +69,7 @@ After you have run your load test and collected the virtual user activity data, 
 2.  On the **Page Response Time** graph, right-click near one of the threshold violation icons and select **Go to user detail**.
 
     > [!NOTE]
-    > You can use the **Details** button in the **Load Test Editor's** toolbar to open the User Activity chart too. However, if you use the **Go to user detail** option, the **Virtual User Activity Chart** will automatically zoom in on the part of the test that you right clicked in the graph.
+    > You can use the **Details** button in the **Load Test Editor** toolbar to open the User Activity chart too. However, if you use the **Go to user detail** option, the **Virtual User Activity Chart** will automatically zoom in on the part of the test that you right clicked in the graph.
 
      The Details view is displayed with the **Virtual User Activity Chart** focused on the time period when the threshold violations occurred.
 
