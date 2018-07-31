@@ -1,6 +1,6 @@
 ---
 title: Options, Text Editor, C#, Formatting
-ms.date: 07/25/2018
+ms.date: 08/14/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
