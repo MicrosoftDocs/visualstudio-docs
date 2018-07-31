@@ -65,7 +65,7 @@ In Visual Studio 2017 version 15.8 and later, you can use these settings to conf
 |**Remove unnecessary casts**|When selected, removes unnecessary casts where possible when **Edit.FormatDocument** is triggered.| N/A | N/A |
 |**Remove unused variables**|When selected, removes variables that are unused when **Edit.FormatDocument** is triggered.| N/A | N/A |
 
-![Code cleanup settings for C# in Visual Studio](media/format-document-settings-expanded.png)
+![Code cleanup settings for C# in Visual Studio](media/format-document-settings.png)
 
 ## Preview windows
 
