@@ -86,7 +86,7 @@ In the code created by the "Blank Flask Web Project" template, you have a single
 
 ### Commit to source control
 
-Because you've made changes to your code and have tested them successfully, now is a great time to review and commit your changes to source control. Later steps in this tutorial remind you of appropriate time to commit to source control again, and refer you back to this section.
+Because you've made changes to your code and have tested them successfully, now is a great time to review and commit your changes to source control. Later steps in this tutorial remind you of appropriate times to commit to source control again, and refer you back to this section.
 
 1. Select the changes button along the bottom of Visual Studio (circled below), which navigates to **Team Explorer**.
 
