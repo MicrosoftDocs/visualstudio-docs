@@ -46,7 +46,7 @@ In Visual Studio 2017 version 15.8 and later, you can use these settings to conf
 > [!NOTE]
 > The first time you trigger the **FormatDocument** command in Visual Studio 2017, a yellow info bar prompts you to configure your code cleanup settings.
 
-[![Code cleanup settings for C# in Visual Studio](format-document-settings-inline.png)](format-document-settings-expanded.png#lightbox)
+[![Code cleanup settings for C# in Visual Studio](media/format-document-settings-inline.png)](media/format-document-settings-expanded.png#lightbox)
 
 |Label|Description|EditorConfig Rule| Tools>Options Rule|
 |-----------|-----------------|-----------------|-----------------|
