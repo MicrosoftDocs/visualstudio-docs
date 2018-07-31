@@ -71,7 +71,7 @@ As noted before. much of what's in a project created from the "Polls Flask Web P
 
 ## Step 5-2: Understand the data models
 
-The data models for the app are Python classes named Poll and Choice, which are defined in *models/__init__.py*. A Poll represents a question, for which a collection of Choice instances represent the available answers. A Poll also maintains the total number of votes (for any choice) and a method to calculate statistics that are used to generate views:
+The data models for the app are Python classes named Poll and Choice, which are defined in *models/\_\_init\_\_.py*. A Poll represents a question, for which a collection of Choice instances represent the available answers. A Poll also maintains the total number of votes (for any choice) and a method to calculate statistics that are used to generate views:
 
 ```python
 class Poll(object):

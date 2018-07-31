@@ -252,7 +252,7 @@ The following steps demonstrate inheritance:
     {% endblock %}
     ```
 
-1. Modify `templates/HelloDjangoApp/about.html` to also refer to the base template and override the content block:
+1. Modify *templates/HelloDjangoApp/about.html* to also refer to the base template and override the content block:
 
     ```html
     {% extends "HelloDjangoApp/layout.html" %}

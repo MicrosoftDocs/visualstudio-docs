@@ -98,7 +98,7 @@ Flask provides a function called `serve_static_file` that you can call from code
     }
     ```
 
-1. In `views.py`, add a function with the route /api/data that returns the static data file using the `send_static_file` method:
+1. In *views.py*, add a function with the route /api/data that returns the static data file using the `send_static_file` method:
 
     ```python
     @app.route('/api/data')
@@ -258,7 +258,7 @@ The following steps demonstrate inheritance:
     {% endblock %}
     ```
 
-1. Modify `templates/about.html` to also refer to the base template and override the content block:
+1. Modify *templates/about.html* to also refer to the base template and override the content block:
 
     ```html
     {% extends "layout.html" %}

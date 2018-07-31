@@ -141,7 +141,7 @@ The following steps exercise the authentication flow and describe the parts of t
 
 1. When you submit the form, Django attempts to authenticate your credentials (such as the super user's credentials). If authentication fails, you remain on the current page but `form.errors` set to true. If authentication is successful, Django navigates to the relative URL in the "next" field, `<input type="hidden" name="next" value="/" />`, which in this case is the home page (`/`).
 
-1. Now, when the home page is rendered again, the `user.is_authenticated` property is true when the *loginpartial.html* template is rendered. As a result, you see a "Hello (username)" message and "Log off". You can use `user.is_authenticated` in other parts of the app to check authentication.
+1. Now, when the home page is rendered again, the `user.is_authenticated` property is true when the *loginpartial.html* template is rendered. As a result, you see a **Hello (username)** message and **Log off**. You can use `user.is_authenticated` in other parts of the app to check authentication.
 
     ![Hello message and logoff control on the Django Web Project app page](media/django/step05-logoff-control.png)
 

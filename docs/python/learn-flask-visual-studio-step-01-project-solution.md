@@ -119,7 +119,7 @@ Now that you've configured source control for your project, you can create the v
 
     ![Add virtual environment dialog with requirements.txt message](media/tutorials-common/step01-add-virtual-environment-found-requirements.png)
 
-1. Select **Create** to accept the defaults. (You can change the name of the virtual environment if you want, which just changes the name of its subfolder, but *env* is a standard convention.)
+1. Select **Create** to accept the defaults. (You can change the name of the virtual environment if you want, which just changes the name of its subfolder, but `env` is a standard convention.)
 
 1. Consent to administrator privileges if prompted, then be patient for a few minutes while Visual Studio downloads and installs packages, which for Flask and its dependencies means expanding about a thousand files in over 100 subfolders. You can see progress in the Visual Studio **Output** window. While you're waiting, ponder the Question sections that follow. You can also see a description of Flask's dependencies on the [Flask installation](http://flask.pocoo.org/docs/1.0/installation/#installation) page (flask.pcocoo.org).
 

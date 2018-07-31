@@ -30,7 +30,7 @@ In this tutorial, you learn how to:
 ## Prerequisites
 
 - Visual Studio 2017 on Windows with the following options:
-  - The **Python development** workload (**Workload** tab in the installer). For instructions, see [Installing Python support in Visual Studio](installing-python-support-in-visual-studio.md).
+  - The **Python development** workload (**Workload** tab in the installer). For instructions, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
   - **Git for Windows** and **GitHub Extension for Visual Studio** on the **Individual components** tab under **Code tools**.
 
 Django project templates are also included with all earlier versions of Python Tools for Visual Studio, though details may differ from what's discussed in this tutorial (especially different with earlier versions of the Django framework).

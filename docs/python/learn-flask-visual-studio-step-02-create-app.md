@@ -31,7 +31,7 @@ In the code created by the "Blank Flask Web Project" template, you have a single
 
 1. In your project folder, create an app folder called `HelloFlask` (right-click the project in **Solution Explorer** and select **Add** > **New Folder**.)
 
-1. In the *HelloFlask* folder, create a file named *__init__.py* with the following contents that creates the `Flask` instance and loads the app's views (created in the next step):
+1. In the *HelloFlask* folder, create a file named *\_\_init\_\_.py* with the following contents that creates the `Flask` instance and loads the app's views (created in the next step):
 
     ```python
     from flask import Flask
@@ -40,7 +40,7 @@ In the code created by the "Blank Flask Web Project" template, you have a single
     import HelloFlask.views
     ```
 
-1. In the *HelloFlask* folder, create a file named *views.py* with the following contents. The name *views.py* is important because you used `import HelloFlask.views` within *__init__.py*; you'll see an error at run time if the names don't match.
+1. In the *HelloFlask* folder, create a file named *views.py* with the following contents. The name *views.py* is important because you used `import HelloFlask.views` within *\_\_init\_\_.py*; you'll see an error at run time if the names don't match.
 
     ```python
     from flask import Flask
@@ -52,9 +52,9 @@ In the code created by the "Blank Flask Web Project" template, you have a single
         return "Hello Flask!"
     ```
 
-    In addition to renaming the function and route to `home`, this code contains the page rendering code from *app.py* and imports the `app` object that's declared in *__init__.py*.
+    In addition to renaming the function and route to `home`, this code contains the page rendering code from *app.py* and imports the `app` object that's declared in *\_\_init\_\_.py*.
 
-1. Create a subfolder in `HelloFlask` named *templates`, which remains empty for now.
+1. Create a subfolder in *HelloFlask* named *templates*, which remains empty for now.
 
 1. In the project's root folder, rename *app.py* to *runserver.py*, and make the contents match the following code:
 
@@ -154,7 +154,7 @@ Because the return value for the view is just a string, you can build up any HTM
             content = "<strong>Hello, Flask!</strong> on " + formatted_now)
     ```
 
-1. Run the app the see the results, and observe that the inline HTML in the `content` value doesn't render *as* HTML because the templating engine (Jinja) automatically escapes HTML content. Automatic escaping prevent accidental vulnerabilities to injection attacks: developers often gather input from one page and use it as a value in another through a template placeholder. Escaping also serves as a reminder that it's again best to keep HTML out of the code.
+1. Run the app the see the results, and observe that the inline HTML in the `content` value doesn't render *as* HTML because the templating engine (Jinja) automatically escapes HTML content. Automatic escaping prevents accidental vulnerabilities to injection attacks: developers often gather input from one page and use it as a value in another through a template placeholder. Escaping also serves as a reminder that it's again best to keep HTML out of the code.
 
     Accordingly, review *templates\index.html* to contain distinct placeholders for each piece of data within the markup:
 

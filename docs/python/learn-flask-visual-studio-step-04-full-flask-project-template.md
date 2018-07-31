@@ -64,7 +64,7 @@ The "Flask Web Project" template creates the structure below. The contents are v
   - *runserver.py*, a script to run the app in a development server.
   - *requirements.txt* containing a dependency on Flask 0.x.
 - The *FlaskWeb* folder contains all the app files:
-  - *__init.py__* marks the app code as a Python module, creates the Flask object, and imports the app's views.
+  - *\_\_init.py\_\_* marks the app code as a Python module, creates the Flask object, and imports the app's views.
   - *views.py* contains the code to render pages.
   - The *static* folder contains subfolders named *content* (CSS files), *fonts* (font files), and *scripts* (JavaScript files).
   - The *templates* folder contains a *layout.html* base template along with *about.html*, *contact.html*, and *index.html* for specific pages that each extend *layout.html*.
@@ -159,7 +159,7 @@ As noted at the beginning of this article, Visual Studio provide a "Flask/Jade W
 
 To enable Jade, the project template first includes the pyjade package in *requirements.txt*. 
 
-The app's *__init__.py* file contains a line to
+The app's *\_\_init\_\_.py* file contains a line to
 
 ```python
 app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
