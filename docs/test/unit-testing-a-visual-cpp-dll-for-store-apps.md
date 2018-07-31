@@ -57,19 +57,19 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 2.  On the **Test** menu, choose **Run** and then choose **Run All**.
 
-     The test project builds and runs. The Test Explorer window appears, and the test is listed under **Passed Tests**. The Summary pane at the bottom of the window provides additional details about the selected test.
+     The test project builds and runs. The **Test Explorer** window appears, and the test is listed under **Passed Tests**. The **Summary** pane at the bottom of the window provides additional details about the selected test.
 
      ![Test Explorer](../test/media/ute_cpp_testexplorer_testmethod1.png)
 
 ##  <a name="Add_the_DLL_project_to_the_solution"></a> Add the DLL project to the solution
 
-1.  In Solution Explorer, choose the solution name. From the shortcut menu, choose **Add**, and then **Add New Project**.
+1.  In **Solution Explorer**, choose the solution name. From the shortcut menu, choose **Add**, and then **Add New Project**.
 
      ![Create the RooterLib project](../test/media/ute_cpp_windows_rooterlib_create.png)
 
 2.  In the **Add New Project** dialog box, choose **DLL (UWP apps)**.
 
-3.  Add the following code to the **RooterLib.h** file:
+3.  Add the following code to the *RooterLib.h* file:
 
     ```cpp
     // The following ifdef block is the standard way of creating macros which make exporting
@@ -97,15 +97,15 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 4.  Add the ROOTERLIB_EXPORTS symbol to the command line.
 
-    1.  In Solution Explorer, choose the **RooterLib** project, and then choose **Properties** from the shortcut menu.
+    1.  In **Solution Explorer**, choose the **RooterLib** project, and then choose **Properties** from the shortcut menu.
 
          ![Add a preprocessor symbol definition](../test/media/ute_cpp_windows_addpreprocessorsymbol.png)
 
-    2.  In the RooterLib Property Page dialog box, expand **Configuration Properties**, expand **C++** and choose **Preprocessor**.
+    2.  In the **RooterLib Property Page** dialog box, expand **Configuration Properties**, expand **C++** and choose **Preprocessor**.
 
-    3.  Choose **\<Edit...>** from the **Preprocessor Definitions** list, and then add `ROOTERLIB_EXPORTS` in the Preprocessor Definitions dialog box.
+    3.  Choose **\<Edit...>** from the **Preprocessor Definitions** list, and then add `ROOTERLIB_EXPORTS` in the **Preprocessor Definitions** dialog box.
 
-5.  Add minimal implementations of the declared functions. Open **RooterLib.cpp** and add the following code:
+5.  Add minimal implementations of the declared functions. Open *RooterLib.cpp* and add the following code:
 
     ```cpp
     // constructor
@@ -125,17 +125,17 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 1.  Add RooterLib to the RooterLibTests project.
 
-    1.  In Solution Explorer, choose the **RooterLibTests** project and then choose **References** on the shortcut menu.
+    1.  In **Solution Explorer**, choose the **RooterLibTests** project and then choose **References** on the shortcut menu.
 
-    2.  On the RooterLib Project Properties dialog box, expand **Common Properties** and choose **Framework and References**.
+    2.  On the **RooterLib Project Properties** dialog box, expand **Common Properties** and choose **Framework and References**.
 
     3.  Choose **Add New Reference**
 
     4.  In the **Add Reference** dialog box, expand **Solution** and then choose **Projects**. Then select the **RouterLib** item.
 
-2.  Include the RooterLib header file in **unittest1.cpp**.
+2.  Include the RooterLib header file in *unittest1.cpp*.
 
-    1.  Open **unittest1.cpp**.
+    1.  Open *unittest1.cpp*.
 
     2.  Add this code to below the `#include "CppUnitTest.h"` line:
 
@@ -143,7 +143,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
         #include "..\RooterLib\RooterLib.h"
         ```
 
-3.  Add a test that uses the imported function. Add the following code to **unittest1.cpp**:
+3.  Add a test that uses the imported function. Add the following code to *unittest1.cpp*:
 
     ```cpp
     TEST_METHOD(BasicTest)
@@ -166,9 +166,9 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 4.  Build the solution.
 
-     The new test appears in Test Explorer in the **Not Run Tests** node.
+     The new test appears in **Test Explorer** in the **Not Run Tests** node.
 
-5.  In Test Explorer, choose **Run All**.
+5.  In **Test Explorer**, choose **Run All**.
 
      ![Basic Test passed](../test/media/ute_cpp_testexplorer_basictest.png)
 
@@ -197,7 +197,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
     >
     > When your users change their requirements, disable the tests that are no longer correct. Write new tests and make them work one at a time, in the same incremental manner.
 
-2.  In Test Explorer, choose **Run All**.
+2.  In **Test Explorer**, choose **Run All**.
 
 3.  The test fails.
 
@@ -206,7 +206,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
     > [!TIP]
     > Verify that each test fails immediately after you have written it. This helps you avoid the easy mistake of writing a test that never fails.
 
-4.  Enhance the code under test so that the new test passes. Add the following to **RooterLib.cpp**:
+4.  Enhance the code under test so that the new test passes. Add the following to *RooterLib.cpp*:
 
     ```cpp
     #include <math.h>
@@ -227,7 +227,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
     ```
 
-5.  Build the solution and then in Test Explorer, choose **Run All**.
+5.  Build the solution and then in **Test Explorer**, choose **Run All**.
 
      Both tests pass.
 
@@ -237,7 +237,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
 ##  <a name="Debug_a_failing_test"></a> Debug a failing test
 
-1.  Add another test to **unittest1.cpp**:
+1.  Add another test to *unittest1.cpp*:
 
     ```cpp
     // Verify that negative inputs throw an exception.
@@ -269,9 +269,9 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
     ```
 
-2.  In Test Explorer, choose **Run All**.
+2.  In **Test Explorer**, choose **Run All**.
 
-     The test fails. Choose the test name in Test Explorer. The failed assertion is highlighted. The failure message is visible in the detail pane of Test Explorer.
+     The test fails. Choose the test name in **Test Explorer**. The failed assertion is highlighted. The failure message is visible in the detail pane of **Test Explorer**.
 
      ![NegativeRangeTests failed](../test/media/ute_cpp_testexplorer_negativerangetest_fail.png)
 
@@ -283,7 +283,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
          When the run stops at the breakpoint, step through the code.
 
-    3.  Add code to **RooterLib.cpp** to catch the exception:
+    3.  Add code to *RooterLib.cpp* to catch the exception:
 
         ```cpp
         #include <stdexcept>
@@ -299,7 +299,7 @@ This topic describes one way to create unit tests for a C++ DLL for Universal Wi
 
         ```
 
-    1.  In Test Explorer, choose **Run All** to test the corrected method and make sure that you haven't introduced a regression.
+    1.  In **Test Explorer**, choose **Run All** to test the corrected method and make sure that you haven't introduced a regression.
 
  All tests now pass.
 
