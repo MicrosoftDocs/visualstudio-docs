@@ -1,7 +1,7 @@
 ---
 title: "Get started with C# and ASP.NET Core in Visual Studio"
 ms.custom: ""
-ms.date: 06/27/2018
+ms.date: 07/31/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
