@@ -56,7 +56,7 @@ When you create a vsixlangpack file, you must set the `Include in Vsix` property
 
 ### Description
 
-The following example shows relevant portions of an *Extension.vsixmanifest* file, together with the corresponding *Extension.vsixlangpack* file for Spanish. The values from the language pack replace the values from the manifest if the Visual Studio locale of the target computer is set to Spanish.
+The following example shows relevant portions of an *Extension.vsixmanifest* file. The file also includes the corresponding *Extension.vsixlangpack* file for Spanish. The values from the language pack replace the values from the manifest if the Visual Studio locale of the target computer is set to Spanish.
 
 ### Code
 

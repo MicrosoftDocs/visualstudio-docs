@@ -35,14 +35,14 @@ Visual Studio enables IntelliSense hosting. IntellSense hosting lets you provide
 |IHF_READONLYCONTEXT|Setting this flag means that the context buffer is read-only and editing occurs only within the subject text.|  
 |IHF_NOSEPERATESUBJECT|Setting this flag means that there is no separate IntelliSense subject. The subject exists in the context buffer, such as in the traditional <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> IntelliSense system.|  
 |IHF_SINGLELINESUBJECT|Setting this flag means that the subject is not multi-line capable, such as in a single line edit in the **Watch** window.|  
-|IHF_FORCECOMMITTOCONTEXT|If this flag is set and the context buffer must be updated, the host enables the read-only flag on the context buffer to be ignored and edits to proceed.|  
+|IHF_FORCECOMMITTOCONTEXT|If this flag is set and the context buffer must be updated, the host enables the read-only flag on the context buffer to be ignored and edits to continue.|  
 |IHF_OVERTYPE|Editing (in subject or context) should be done in overtype mode.|  
   
 #### IVsIntellisenseHost.BeforeCompletorCommit and IVsIntellisenseHost.AfterCompletorCommit  
  These callback methods are called by the completion window before and after text is committed, to enable pre-processing and post-processing.  
   
 #### IVsIntellisenseCompletor  
- The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseCompletor> interface is a co-creatable version of the standard completion window that is used by the integrated development environment (IDE). Any <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface can quickly implement IntelliSense by using this completor interface.  
+ The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseCompletor> interface is a co-creatable version of the standard completion window that is used by the integrated development environment (IDE). Any <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface can quickly implement IntelliSense by using this complete interface.  
   
 ## See also  
  <xref:Microsoft.VisualStudio.TextManager.Interop>
