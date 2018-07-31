@@ -23,7 +23,7 @@ If you don't already have the web performance and load testing tools component i
 
 1. Open **Visual Studio Installer** from the **Start** menu of Windows. You can also access it in Visual Studio from the **New Project** dialog box, or by choosing **Tools** > **Get Tools and Features** from the menu bar.
 
-1. In the **Visual Studio Installer**, choose the **Individual components** tab, and scroll down to the **Debugging and testing** section. Select **Web performance and load testing tools**.
+1. In **Visual Studio Installer**, choose the **Individual components** tab, and scroll down to the **Debugging and testing** section. Select **Web performance and load testing tools**.
 
    ![Web performance and load testing tools component](media/web-perf-load-testing-tools-component.png)
 
