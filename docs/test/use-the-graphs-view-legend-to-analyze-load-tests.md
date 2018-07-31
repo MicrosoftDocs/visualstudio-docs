@@ -49,7 +49,7 @@ Selecting an item in the legend does the following:
 -   Lets you access the **Plot Options** dialog box for the counter.
 
 > [!TIP]
-> You can use **Graph Options drop-down** button in the **Load Test Analyzer's** toolbar and select **Show Legend** to show or hide the **Legend** panel that is associated with the graph view.
+> You can use **Graph Options drop-down** button in the **Load Test Analyzer** toolbar and select **Show Legend** to show or hide the **Legend** panel that is associated with the graph view.
 
 ## See also
 
