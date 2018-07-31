@@ -11,7 +11,7 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Create a Test Setting for a Distributed Load Test
+# How to: Create a test setting for a distributed load test
 
 Configure *test settings* for your load tests so you can distribute those tests across multiple machines using test agents and test controllers. You can also configure test settings to use *diagnostic data adapters*, which specify the kinds of data that you want to collect or how to affect the test machines when you run your load tests from Visual Studio.
 
@@ -29,15 +29,15 @@ When you run your tests, you select the test settings to use as the active test 
 
 When you add a web performance and load test project to a solution, a *Default.testsettings* file is created. The file is added automatically to the solution under the **Solution Items** folder. This file runs your tests locally without any diagnostic data adapters. You can add another *.testsettings* file, or edit a *.testsettings* file to specify diagnostic data adapters and test controllers.
 
-The test controller will have agents that can be used for each role in your test settings. For more information about test controllers and test agents, see [Managing Test Controllers and Test Agents with Visual Studio](../test/manage-test-controllers-and-test-agents.md).
+The test controller will have agents that can be used for each role in your test settings. For more information about test controllers and test agents, see [Manage test controllers and test agents with Visual Studio](../test/manage-test-controllers-and-test-agents.md).
 
 Follow these steps to create and remove test settings in your solution for load tests that you plan to run from Visual Studio.
 
-## Create a Test Setting for a Distributed Load Test
+## Create a test setting for a distributed load test
 
 ### To add a test settings for a distributed load test
 
-1.  In Solution Explorer, right-click **Solution Items**, point to **Add**, and then choose **New Item**.
+1.  In **Solution Explorer**, right-click **Solution Items**, point to **Add**, and then choose **New Item**.
 
      The **Add New Item** dialog box appears.
 
@@ -47,10 +47,10 @@ Follow these steps to create and remove test settings in your solution for load 
 
 4.  Choose **Add**.
 
-     The new test settings file appears in Solution Explorer, under the **Solution Items** folder.
+     The new test settings file appears in **Solution Explorer**, under the **Solution Items** folder.
 
     > [!NOTE]
-    > The list of test settings that Visual Studio Enterprise displays is derived from the list of test settings files in the **Solution Items** folder. For example, test settings files in the Solution Items folder are displayed when you use the **Select Active Test Settings** option on the **Test** menu. This means that if you move a test settings file to another location in your solution hierarchy, it can no longer be used as a test setting from within the Visual Studio integrated development environment.
+    > The list of test settings that Visual Studio Enterprise displays is derived from the list of test settings files in the **Solution Items** folder. For example, test settings files in the **Solution Items** folder are displayed when you use the **Select Active Test Settings** option on the **Test** menu. This means that if you move a test settings file to another location in your solution hierarchy, it can no longer be used as a test setting from within the Visual Studio integrated development environment.
 
 5.  The **Test Settings** dialog box is displayed. The **General** page is selected.
 
@@ -91,13 +91,13 @@ Follow these steps to create and remove test settings in your solution for load 
     > [!IMPORTANT]
     > The other roles that you create and define will not run tests, but will be used only to collect data according to the data and diagnostic adapters that you specify for the roles in the **Data and Diagnostic** page.
 
-16. To limit the agents that can be used for a role, select the role and then choose **Add** in the toolbar under **Agent attributes for selected rol**e.
+16. To limit the agents that can be used for a role, select the role and then choose **Add** in the toolbar under **Agent attributes for selected role**.
 
      The **Agent Selection Rule** dialog box is displayed.
 
      Type the name in **Attribute Name** and the value in **Attribute Value**, and then choose **OK**. Add as many attributes as you require.
 
-     For example, you could add an attribute that is named "RAM > 16GB" that has a value of "True" or "False" to filter on test agent machines that have more than 16GB of memory. To apply the same attribute to one or more test agents, you use the Manage Test Controller dialog box. For more information, see [Managing Test Controllers and Test Agents with Visual Studio](../test/manage-test-controllers-and-test-agents.md).
+     For example, you could add an attribute that is named "RAM > 16GB" that has a value of "True" or "False" to filter on test agent machines that have more than 16GB of memory. To apply the same attribute to one or more test agents, you use the **Manage Test Controller** dialog box. For more information, see [Manage test controllers and test agents with Visual Studio](../test/manage-test-controllers-and-test-agents.md).
 
 17. Choose **Data and Diagnostics**.
 
@@ -113,20 +113,20 @@ Follow these steps to create and remove test settings in your solution for load 
 
      For details about each diagnostic data adapter and how to configure it, you can view the associated topic in the following table.
 
-     For more information about diagnostic data adapters, see [Collect Diagnostic Information Using Test Settings](../test/collect-diagnostic-information-using-test-settings.md).
+     For more information about diagnostic data adapters, see [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md).
 
      **Diagnostic Data Adapters for Load Tests**
 
     |Diagnostic data adapter|Using in load tests|Associated topic|
     |-----------------------------|-------------------------|----------------------|
     |**ASP.NET Client Proxy for IntelliTrace and Test Impact:** This proxy lets you collect information about the http calls from a client to a web server for the IntelliTrace and Test Impact diagnostic data adapters.|![Information icon](../test/media/vc364f4.gif)<br /><br /> Unless you have a specific need to collect system information for the test agent machines, do not include this adapter. **Caution:**  We do not recommend the use of the IntelliTrace adapter in load tests because of problems that occur because of the large amount of data that is collected. <br /><br /> Test impact data is not collected by using load tests.||
-    |**IntelliTrace:** You can configure specific diagnostic trace information that is stored in a log file. A log file has an extension of .tdlog. When you run your test and a test step fails, you can create a bug. The log file that contains the diagnostic trace is automatically attached to this bug. The data that is collected in the log file increases debugging productivity by reducing the time that is required to reproduce and diagnose an error in the code. From this log file the local session can be recreated on another computer. This reduces the risk that a bug cannot be reproduced.<br /><br /> For more information, see [Collect IntelliTrace data](../test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md).|![Important icon](../test/media/vc364f3.gif)<br /><br /> We do not recommend the use of the IntelliTrace adapter in load tests because of problems that occur because of the large amount of data that is collected and logged. You should attempt to use the IntelliTrace adapter only in load tests that do not run long and do not use many test agents.|[How to: Collect IntelliTrace Data to Help Debug Difficult Issues](../test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md)|
-    |**ASP.NET Profiler:** You can create a test setting that includes ASP.NET profiling, which collects performance data on ASP.NET web applications.|The ASP.NET profiler diagnostic data adapter profiles the Internet Information Services (IIS) process, so it will not work against a development web server. To profile the website in your load test, you have to install a test agent on the machine that the IIS is running on. The test agent will not be generating load, but it will be a collection only agent. For more information, see [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).|[How to: Configure ASP.NET Profiler for Load Tests Using Test Settings](../test/how-to-configure-aspnet-profiler-for-load-tests-using-test-settings.md)|
-    |**Event log:** You can configure a test setting to include event log collecting, which will be included in the test results.||[How to: Configure Event Log Collection Using Test Settings](http://msdn.microsoft.com/en-us/48d67891-6018-4549-83e3-213d5d824a02)|
-    |**Network Emulation:** You can specify that you want to put an artificial network load on your test by using a test setting. Network emulation affects the communication to and from the machine by emulating a particular network connection speed, such as dial-up. **Note:**  Network emulation cannot be used to increase the network connection speed.|The Network Emulation adapter is ignored by load tests. Instead, load tests use the settings that are specified in the network mix of the load test scenario.<br /><br /> For more information, see [Specifying Virtual Network Types](../test/specify-virtual-network-types-in-a-load-test-scenario.md).||
+    |**IntelliTrace:** You can configure specific diagnostic trace information that is stored in a log file. A log file has an extension of *.tdlog*. When you run your test and a test step fails, you can create a bug. The log file that contains the diagnostic trace is automatically attached to this bug. The data that is collected in the log file increases debugging productivity by reducing the time that is required to reproduce and diagnose an error in the code. From this log file the local session can be recreated on another computer. This reduces the risk that a bug cannot be reproduced.<br /><br /> For more information, see [Collect IntelliTrace data](../test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md).|![Important icon](../test/media/vc364f3.gif)<br /><br /> We do not recommend the use of the IntelliTrace adapter in load tests because of problems that occur because of the large amount of data that is collected and logged. You should attempt to use the IntelliTrace adapter only in load tests that do not run long and do not use many test agents.|[How to: Collect IntelliTrace data to help debug difficult issues](../test/how-to-collect-intellitrace-data-to-help-debug-difficult-issues.md)|
+    |**ASP.NET Profiler:** You can create a test setting that includes ASP.NET profiling, which collects performance data on ASP.NET web applications.|The ASP.NET profiler diagnostic data adapter profiles the Internet Information Services (IIS) process, so it will not work against a development web server. To profile the website in your load test, you have to install a test agent on the machine that the IIS is running on. The test agent will not be generating load, but it will be a collection only agent. For more information, see [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).|[How to: Configure ASP.NET profiler for load tests using test settings](../test/how-to-configure-aspnet-profiler-for-load-tests-using-test-settings.md)|
+    |**Event log:** You can configure a test setting to include event log collecting, which will be included in the test results.||[How to: Configure event log collection using test settings](http://msdn.microsoft.com/en-us/48d67891-6018-4549-83e3-213d5d824a02)|
+    |**Network Emulation:** You can specify that you want to put an artificial network load on your test by using a test setting. Network emulation affects the communication to and from the machine by emulating a particular network connection speed, such as dial-up. **Note:**  Network emulation cannot be used to increase the network connection speed.|The Network Emulation adapter is ignored by load tests. Instead, load tests use the settings that are specified in the network mix of the load test scenario.<br /><br /> For more information, see [Specify virtual network types](../test/specify-virtual-network-types-in-a-load-test-scenario.md).||
     |**System Information:** A test setting can be set up to include the system information about the machines on which the System Information diagnostic and data collector is run. The system information is specified in the test results by using a test setting.|![Information icon](../test/media/vc364f4.gif)<br /><br /> You can collect system information from both the load agents and the system under test.|No configuration is required to collect this information.|
     |**Test Impact:** You can collect information about which methods of your applications code were used when a test case was run. This can be used together with changes to the application code that are made by developers to determine which tests were affected by those development changes.|Test impact data is not collected with load tests.||
-    |**Video Recorder:** You can create a video recording of your desktop session when you run an automated test. This can be useful to view the user actions for a coded UI test. The video can help other team members isolate application issues that are difficult to reproduce. **Note:**  When running tests remotely the video recorder will not work unless the agent is running in interactive process mode.|![Important icon](../test/media/vc364f3.gif) **Warning:**  We do not recommend the use of the Video Recorder adapter for load tests.|[How to: Include Recordings of the Screen and Voice During Tests Using Test Settings](../test/how-to-include-recordings-of-the-screen-and-voice-during-tests.md)|
+    |**Video Recorder:** You can create a video recording of your desktop session when you run an automated test. This can be useful to view the user actions for a coded UI test. The video can help other team members isolate application issues that are difficult to reproduce. **Note:**  When running tests remotely the video recorder will not work unless the agent is running in interactive process mode.|![Important icon](../test/media/vc364f3.gif) **Warning:**  We do not recommend the use of the Video Recorder adapter for load tests.|[How to: Include recordings of the screen and voice during tests using test settings](../test/how-to-include-recordings-of-the-screen-and-voice-during-tests.md)|
 
 19. Choose **Deployment**.
 
@@ -159,7 +159,7 @@ Follow these steps to create and remove test settings in your solution for load 
         > [!NOTE]
         > The **ASP.NET** in **Host type** is not supported in load tests.
 
-    2.  Use the Run test in 32-bit or 64-bit process drop-down to select whether you want the web performance and unit tests in your load test to run as 32-bit or 64-bit processes.
+    2.  Use the **Run test in 32-bit or 64-bit** process drop-down to select whether you want the web performance and unit tests in your load test to run as 32-bit or 64-bit processes.
 
         > [!NOTE]
         > For maximum flexibility, you should compile your web performance and load test projects by using the **Any CPU** configuration. Then you can run on both 32-bit and 64-bit agents. Compiling web performance and load test projects by using the **64-bit** configuration offers no advantage.
@@ -181,11 +181,11 @@ Follow these steps to create and remove test settings in your solution for load 
 
 ### To remove a test settings from your solution
 
-Under the Solution Items folder in Solution Explorer, right-click the test settings that you want to remove, and then choose **Remove**.
+Under the **Solution Items** folder in **Solution Explorer**, right-click the test settings that you want to remove, and then choose **Remove**.
 
 The test settings file is removed from your solution. This change is reflected in the list of choices for the **Select Active Test Settings** and **Edit Test Settings** options on the **Test** menu.
 
 ## See also
 
 - [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md)
-- [Collect Diagnostic Information Using Test Settings](../test/collect-diagnostic-information-using-test-settings.md)
+- [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)

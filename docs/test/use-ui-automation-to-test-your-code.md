@@ -228,7 +228,7 @@ When you perform your coded UI test, hover over the control. Then press and hold
 
 ![CodedUI&#95;Hover](../test/media/codedui_hover.png)
 
-After you generate the test method, code similar to the following example will be added to the *UIMap.Desinger.cs* file:
+After you generate the test method, code similar to the following example will be added to the *UIMap.Designer.cs* file:
 
 ```csharp
 // Mouse hover '1' label at (87, 9)

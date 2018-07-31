@@ -39,6 +39,13 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, Node.js, and 
 
     ![Publish property pane showing a profile summary](../deployment/media/quickstart-publish-app-service-summary.png)
 
+## Clean up resources
+
+In the preceding steps, you created Azure resources in a resource group. If you don't expect to need these resources in the future, you can delete them by deleting the resource group.
+From the left menu in the Azure portal, select **Resource groups** and then select **myResourceGroup**.
+On the resource group page, make sure that the listed resources are the ones you want to delete.
+Select **Delete**, type **myResourceGroup** in the text box, and then select **Delete**.
+
 ## Next steps
 
 In this quickstart, you learned how to use Visual Studio to create a publishing profile for deployment to Azure. You can also configure a publishing profile by importing publish settings from Azure App Service.

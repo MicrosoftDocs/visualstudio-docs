@@ -11,12 +11,12 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Set Up Your Test Agent to Run Tests that Interact with the Desktop
+# How to: Set up your test agent to run tests that interact with the desktop
 
 If you want to run automated tests that interact with the desktop, you must set up your agent to run as a process instead of a service. For example, if you want to run a coded UI test remotely using a test controller and test agent, or you want to run a test and capture a video recording when you run it, you must set up your agent to run as a process. When you assign agents to roles in your test settings using Visual Studio, or you assign agents to roles in your environment by using Microsoft Test Manager, you must change the set up for any agents assigned to roles that have to interact with the desktop.
 
 > [!WARNING]
-> If you use Microsoft Test Manager to set up a lab environment, it installs the test agent. You can specify in the environment creation wizard that you want to configure one of the roles to run coded UI tests.
+> If you use Microsoft Test Manager to set up a lab environment, it installs the test agent. You can specify in the **Environment Creation Wizard** that you want to configure one of the roles to run coded UI tests.
 
 > [!IMPORTANT]
 > The computer that is running an agent on which you want to run coded UI tests cannot be locked or have an active screen saver.
@@ -73,7 +73,7 @@ If you are running coded UI tests that start a browser, the service account for 
 
      A **Configuration summary** dialog box is displayed that shows the status of each of the steps to configure your test agent.
 
-9. To close the **Configuration summary** dialog box, choose **Close**. Then choose **Close** again to close the Test Agent Configuration Tool.
+9. To close the **Configuration summary** dialog box, choose **Close**. Then choose **Close** again to close the **Test Agent Configuration Tool**.
 
     > [!NOTE]
     > There is a notification area icon that runs on the computer for a test agent that is running as a process. It shows the status of the test agent. You can start, stop or restart the agent if it is running as a process using this tool. To start the test agent as a process if it is not running, choose **Start**, **All Programs**, **Microsoft Visual Studio**, **Microsoft Visual Studio Test Agent**.

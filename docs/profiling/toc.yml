@@ -399,36 +399,36 @@
           href: collecting-application-statistics-for-stand-alone-applications.md
           items:
           - name: Launch a stand-alone application with the profiler and collect application statistics by using the command line
-            href: how-to-launch-a-stand-alone-application-with-the-profiler-and-collect-application-statistics-by-using-the-command-line.md
+            href: how-to-launch-a-stand-alone-app-and-collect-application-statistics.md
           - name: Attach the profiler to a .NET Framework stand-alone application and collect application statistics by using the command line
             href: how-to-attach-the-profiler-to-a-dotnet-app-and-collect-application-statistics.md
           - name: Attach the profiler to a native stand-alone application and collect application statistics by using the command line
-            href: how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-application-statistics-by-using-the-command-line.md
+            href: how-to-attach-the-profiler-to-a-native-app-and-collect-application-statistics.md
         - name: Collecting detailed timing data for a stand-alone application by using the profiler command line
           href: collecting-detailed-timing-data-for-a-stand-alone-application.md
           items:
           - name: Instrument a stand-alone .NET Framework component and collect timing data with the profiler from the command line
-            href: how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md
+            href: how-to-instrument-a-dotnet-framework-component-and-collect-timing-data.md
           - name: Instrument a native stand-alone component and collect timing data with the profiler from the command line
-            href: how-to-instrument-a-native-stand-alone-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md
+            href: how-to-instrument-a-native-component-and-collect-timing-data.md
         - name: Collecting concurrency data for stand-alone applications by using the profiler command line
           href: collecting-concurrency-data-for-stand-alone-applications.md
           items:
           - name: Launch a stand-alone .NET Framework Application with the profiler to collect concurrency data by using the command line
             href: how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-concurrency-data.md
           - name: Launch a stand-alone native application with the profiler to collect concurrency data by using the command line
-            href: how-to-launch-a-stand-alone-native-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md
+            href: how-to-launch-a-stand-alone-native-application-to-collect-concurrency-data.md
           - name: Attach the profiler to a .NET Framework stand-alone Application to collect concurrency data by using the command line
             href: how-to-attach-the-profiler-to-a-dotnet-app-and-collect-concurrency-data.md
           - name: Attach the profiler to a Native stand-alone Application and collect concurrency data by using the command line
-            href: how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-concurrency-data-by-using-the-command-line.md
+            href: how-to-attach-the-profiler-to-a-native-app-and-collect-concurrency-data.md
         - name: Collecting .NET Framework memory data for stand-alone applications by using the profiler command line
           href: collecting-dotnet-framework-memory-data-for-stand-alone-applications.md
           items:
           - name: Launch a stand-alone .NET Framework Application with the profiler to collect memory data by using the command line
-            href: how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-memory-data-by-using-the-command-line.md
+            href: how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-memory-data.md
           - name: Attach the profiler to a .NET Framework stand-alone Application to collect memory data by using the command line
-            href: how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-memory-data-by-using-the-command-line.md
+            href: how-to-attach-the-profiler-to-a-dotnet-framework-app-to-collect-memory-data.md
           - name: Instrument a stand-alone .NET Framework component and collect memory data with the profiler by using the command line
             href: how-to-instrument-a-dotnet-framework-component-and-collect-memory-data.md
         - name: "Walkthrough: Command line profiling using sampling"
@@ -461,7 +461,7 @@
           - name: Attach the profiler to an ASP.NET Web application to collect memory data by using the command line
             href: how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-memory-data-by-using-the-command-line.md
           - name: Instrument a statically compiled ASP.NET Web application and collect memory data by using the profiler command line
-            href: how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-memory-data-by-using-the-profiler-command-line.md
+            href: how-to-instrument-a-statically-compiled-aspnet-app-and-collect-memory-data.md
           - name: Instrument a dynamically compiled ASP.NET Web application and collect memory data by using the profiler command line
             href: how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data.md
         - name: Modify Web.config files to instrument and profile dynamically compiled ASP.NET Web applications
