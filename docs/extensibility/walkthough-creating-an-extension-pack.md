@@ -7,7 +7,7 @@ ms.technology:
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "editors [Visual Studio SDK], new - extensions"
-ms.assetid: fa3b993b-ab95-47fa-a38b-b788f3a5b2d8
+ms.assetid: 5388EEBA-211D-4114-8CD9-70C899919F7E
 author: "chitray"
 ms.author: "chitray"
 manager: Meng
@@ -15,7 +15,7 @@ ms.workload:
   - "vssdk"
 ---
 # Walkthrough: Creating an Extension Pack
-An Extension Pack is a set of extensions that can be installed together. An Extension Packs enable you to easily share your favorite extensions with other users or creating a set of extensions for a particular scenario.
+An Extension Pack is a set of extensions that can be installed together. Extension Packs enable you to easily share your favorite extensions with other users or bundle a set of extensions together for a particular scenario.
   
 ## Prerequisites  
  Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
@@ -23,7 +23,7 @@ An Extension Pack is a set of extensions that can be installed together. An Exte
 The Extension Pack feature is available starting with Visual Studio 15.8 Preview 2.
   
 ## Creating an Extension with an Extension Pack Item Template  
- The Extension Pack item template creates an extension pack with set of extensions that can be installed together.
+ The Extension Pack item template creates an Extension Pack with set of extensions that can be installed together.
   
 1.  In the **New Project** dialog box, expand **Visual C#** or **Visual Basic** and then click **Extensibility**. In the **Templates** pane, select **VSIX Project**. In the **Name** box, type `Test Extension Pack`. Click **OK**.  
   
@@ -54,9 +54,9 @@ The Extension Pack feature is available starting with Visual Studio 15.8 Preview
 
 
 
-4. Vsixid of the extension to include in the Extension Pack can be available from [Visual Studio Marketplace](https://marketplace.visualstudio.com/). Find the extension you want to include and Click on **Copy ID**. You can update the existing **vsixId** in the above file or add another extension to the list.
+4. Vsixid of the extension to include in the Extension Pack can be available from [Visual Studio Marketplace](https://marketplace.visualstudio.com/). Find the extension you want to include and click on **Copy ID**. You can update the existing **vsixId** in the above file or add another extension to the list.
     
-    **NOTE** - An Extension pack can only install extensions thar are available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) or [Private gallery](../extensibility/how-to-create-an-atom-feed-for-a-private-gallery.md).
+    **NOTE** - An Extension pack can only install extensions that are available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) or [Private gallery](../extensibility/how-to-create-an-atom-feed-for-a-private-gallery.md).
 
     ![Copy VsixId from Marketplace](media/vsixid-marketplace.png)
 
@@ -72,7 +72,7 @@ Now that the extension is published, install it in Visual Studio and test it the
 
 3. Click **Download**. The extension and its list of extensions included in the Extension Pack will then be scheduled for install.
 
-4. Below is a sample extension pack download view of the **Extensions and Updates** dialog. If you prefer to install only some of the included extensions in the Extension pack, you can modify the extension list in **Scheduled For Install**.
+4. Below is a sample Extension Pack download view of the **Extensions and Updates** dialog. If you prefer to install only some of the included extensions in the Extension pack, you can modify the extension list in **Scheduled For Install**.
 
     ![Download Extension Pack from Marketplace](media/vside-extensionpack.png)
 
