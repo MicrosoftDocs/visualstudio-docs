@@ -34,7 +34,7 @@ First, you'll create an ASP.NET Core web application project. Here's how.
 
 1. In the **New ASP.NET Core Web Application** dialog box, verify that **ASP.NET Core 2.0** appears in the top drop-down menu. Then, choose **Web Application** and choose **OK**.
 
-  ![Create a C# ASP.NET Core project in Visual Studio](../ide/media/csharp-aspnet-animated-create-project.gif)
+  ![View the animated .gif file that shows how to create a C# ASP.NET Core project in Visual Studio](../ide/media/csharp-aspnet-animated-create-project.gif)
 
   Soon after, Visual Studio opens your project file.
 
@@ -65,7 +65,18 @@ Next, you'll create and run your "Hello World" web app. Here's how.
 
 1. Change the "application description" message text to read "**What's my message?**".
 
-  ![Create and run a C# ASP.NET Core web app in Visual Studio](../ide/media/csharp-aspnet-animated-hello-world.gif)
+1. Choose **IIS Express** or press **Ctrl**+**F5** to run the app and open it in a web browser.
+
+  ![View the animated .gif file that shows how to create and run a C# ASP.NET Core web app in Visual Studio](../ide/media/csharp-aspnet-animated-hello-world.gif)
+
+   > [!NOTE]
+   > If you get an error message that says, **Unable to connect to web server 'IIS Express'**, close Visual Studio and then open it by using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
+
+1. Confirm that the **About** page includes your updated text.
+
+   ![Confirm that the About page includes your updated text](../ide/media/csharp-aspnet-about-page-hello-world.png)
+
+1. Close the web browser.
 
 Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE (integrated development environment).
 
