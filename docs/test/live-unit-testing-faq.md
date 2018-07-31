@@ -12,7 +12,7 @@ ms.author: "ronpet"
 ms.workload:
   - "dotnet"
 ---
-# Live Unit Testing Frequently Asked Questions
+# Live Unit Testing frequently asked questions
 
 ## Live Unit Testing is improved and enhanced regularly. How can I find information about the latest new features and enhancements?
 
@@ -63,13 +63,13 @@ Yes. Live Unit Testing works with .NET Core and the .NET Framework. Support for 
 
 **Answer:**
 
-The **Output Window** (when the Live Unit Testing drop-down is selected) should tell you why Live Unit Testing is not working. Live Unit testing may not work for one of the following reasons:
+The **Output Window** (when the Live Unit Testing drop-down is selected) should tell you why Live Unit Testing is not working. Live Unit Testing may not work for one of the following reasons:
 
 - If NuGet packages referenced by the projects in the solution have not been restored, Live Unit Testing will not work. Doing an explicit build of the solution or restoring NuGet packages in the solution before turning on Live Unit Testing should resolve this issue.
 
 - If you are using MSTest-based tests in your projects, make sure that you remove the reference to `Microsoft.VisualStudio.QualityTools.UnitTestFramework`, and add references to the latest MSTest NuGet packages, `MSTest.TestAdapter` (a minimum version of 1.1.11 is required) and `MSTest.TestFramework` (a minimum version of 1.1.11 is required). For more information, see the "Supported test frameworks" section of the [Use Live Unit Testing in Visual Studio 2017 Enterprise Edition](live-unit-testing.md#supported-test-frameworks) article.
 
-- At least one project in your solution should have either a NuGet reference or direct reference to the xUnit, NUnit, or MSTest test framework. This project should also reference a corresponding Visual Studio test adapters NuGet package. The Visual Studio test adapter can also be referenced through a `.runsettings` file. The `.runsettings` file must have an entry like the following example:
+- At least one project in your solution should have either a NuGet reference or direct reference to the xUnit, NUnit, or MSTest test framework. This project should also reference a corresponding Visual Studio test adapters NuGet package. The Visual Studio test adapter can also be referenced through a *.runsettings* file. The *.runsettings* file must have an entry like the following example:
 
    ```xml
     <RunSettings>
@@ -85,7 +85,7 @@ The **Output Window** (when the Live Unit Testing drop-down is selected) should 
 
 - If multiple projects in the solution reference the NuGet test adapter package, each of them must be upgraded to the supported version.
 
-- Make sure the MSBuild .props file imported from the test adapter package is correctly updated as well. Check the NuGet package version/path of the import, which can usually be found near the top of the project file, like the following:
+- Make sure the MSBuild *.props* file imported from the test adapter package is correctly updated as well. Check the NuGet package version/path of the import, which can usually be found near the top of the project file, like the following:
 
    ```xml
     <Import Project="..\packages\xunit.runner.visualstudio.2.2.0\build\net20\xunit.runner.visualstudio.props" Condition="Exists('..\packages\xunit.runner.visualstudio.2.2.0\build\net20\xunit.runner.visualstudio.props')" />
@@ -140,7 +140,7 @@ Do not override `<OutDir>` directly in your build process; override `<OutputPath
 
 ## Set the location of Live Unit Testing build artifacts
 
-**I want the artifacts of a Live Unit Testing build to go to a specific location instead of the default location under the `.vs` folder. How can I change that?**
+**I want the artifacts of a Live Unit Testing build to go to a specific location instead of the default location under the *.vs* folder. How can I change that?**
 
 **Answer:**
 
@@ -152,15 +152,15 @@ Set the `LiveUnitTesting_BuildRoot` user-level environment variable to the path 
 
 There are several differences:
 
-- Running or debugging tests from the Test Explorer window runs regular binaries, whereas Live Unit Testing runs instrumented binaries. If you want to debug instrumented binaries, adding a [Debugger.Launch](xref:System.Diagnostics.Debugger.Launch) method call in your test method causes the debugger to launch whenever that method is executed (including when it is executed by Live Unit Testing), and you can then attach and debug the instrumented binary. However, our hope is that instrumentation is transparent to you for most user scenarios, and that you do not need to debug instrumented binaries.
+- Running or debugging tests from the **Test Explorer** window runs regular binaries, whereas Live Unit Testing runs instrumented binaries. If you want to debug instrumented binaries, adding a [Debugger.Launch](xref:System.Diagnostics.Debugger.Launch) method call in your test method causes the debugger to launch whenever that method is executed (including when it is executed by Live Unit Testing), and you can then attach and debug the instrumented binary. However, our hope is that instrumentation is transparent to you for most user scenarios, and that you do not need to debug instrumented binaries.
 
-- Live Unit Testing does not create a new application domain to run tests, but tests run from the Test Explorer window do create a new application domain.
+- Live Unit Testing does not create a new application domain to run tests, but tests run from the **Test Explorer** window do create a new application domain.
 
-- Live Unit Testing runs tests in each test assembly sequentially, whereas if you run multiple tests from the Test Explorer window and you selected the **Run Tests in Parallel** button, they will run in parallel.
+- Live Unit Testing runs tests in each test assembly sequentially, whereas if you run multiple tests from the **Test Explorer** window and you selected the **Run Tests in Parallel** button, they will run in parallel.
 
 - Discovery and execution of tests in Live Unit Testing uses version 2 of `TestPlatform`, whereas the **Test Explorer** window uses version 1. You won't notice a difference in most cases, though.
 
-- Test Explorer currently runs tests in a single-threaded apartment (STA) by default, whereas Live Unit Testing runs tests in a multithreaded apartment (MTA). To run MSTest tests in STA in Live Unit Testing, decorate the test method or the containing class with the `<STATestMethod>` or `<STATestClass>` attribute that can be found in the `MSTest.STAExtensions 1.0.3-beta` NuGet package. For NUnit, decorate the test method with the `<RequiresThread(ApartmentState.STA)>` attribute, and for xUnit, with the `<STAFact>` attribute.
+- **Test Explorer** currently runs tests in a single-threaded apartment (STA) by default, whereas Live Unit Testing runs tests in a multithreaded apartment (MTA). To run MSTest tests in STA in Live Unit Testing, decorate the test method or the containing class with the `<STATestMethod>` or `<STATestClass>` attribute that can be found in the `MSTest.STAExtensions 1.0.3-beta` NuGet package. For NUnit, decorate the test method with the `<RequiresThread(ApartmentState.STA)>` attribute, and for xUnit, with the `<STAFact>` attribute.
 
 ## How do I exclude tests from participating in Live Unit Testing?
 
@@ -215,7 +215,7 @@ Your solution can build even if you're not making edits if the build process of 
 
 Live Unit Testing starts a build whenever it detects that source files have changed. Because the build of your solution generates source files, Live Unit Testing will get into an infinite build loop. If, however, the inputs and outputs of the target are checked when Live Unit Testing starts the second build (after detecting the newly generated source files from the previous build), it will break out of the build loop because the inputs and outputs checks will indicate that everything is up-to-date.  
 
-## How does Live Unit testing work with the Lightweight Solution Load feature?
+## How does Live Unit testing work with the lightweight solution load feature?
 
 **Answer:**
 
