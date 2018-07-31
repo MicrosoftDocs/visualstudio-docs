@@ -1,5 +1,5 @@
 ---
-title: Options, Text Editor, C#, Formatting
+title: C# editor formatting options
 ms.date: 08/14/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -14,7 +14,6 @@ f1_keywords:
 helpviewer_keywords:
   - "formatting options [C#]"
   - "Text editor Options dialog box, formatting"
-ms.assetid: 5a7bb668-1d0c-4ffe-9508-24592813162e
 author: gewarren
 ms.author: gewarren
 manager: douge
@@ -46,9 +45,9 @@ In Visual Studio 2017 version 15.8 and later, you can use these settings to conf
 > [!NOTE]
 > The first time you trigger the **FormatDocument** command in Visual Studio 2017, a yellow info bar prompts you to configure your code cleanup settings.
 
-|Label|Description|EditorConfig Rule| Tools>Options Rule|
+|Label|Description|EditorConfig rule|Tools > Options rule|
 |-----------|-----------------|-----------------|-----------------|
-|**Apply all C# formatting rules (indentation, wrapping, spacing)**|The Format Document command always fixes formatting issues. This setting can't be changed.| [Core EditorConfig options](../../ide/create-portable-custom-editor-options.md)<br/>[.NET EditorConfig formatting options](../../ide/editorconfig-code-style-settings-reference.md#formatting-conventions) | **Text Editor** > **C#** > **Formatting** > [**Indentation**, **New Lines**, **Spacing**, **Wrapping**]|
+|**Apply all C# formatting rules (indentation, wrapping, spacing)**|The Format Document command always fixes formatting issues. This setting can't be changed.| [Core EditorConfig options](../../ide/create-portable-custom-editor-options.md)<br/>[.NET EditorConfig formatting options](../../ide/editorconfig-code-style-settings-reference.md#formatting-conventions) | **Text Editor** > **C#** > **Formatting** > **Indentation** or **New Lines** or **Spacing** or **Wrapping**|
 |**Perform addition code cleanup during formatting**|When selected, applies fixes for the rules specified below on the **Edit.FormatDocument** command.| N/A | N/A |
 |**Remove unnecessary usings**|When selected, removes unnecessary `using` directives when **Edit.FormatDocument** is triggered.| N/A | N/A|
 |**Sort usings**|When selected, sorts `using` directives when **Edit.FormatDocument** is triggered.| dotnet_sort_system_directives_first  | **Text Editor** > **C#** > **Advanced** > **Place 'System' directives first when sorting usings** |
