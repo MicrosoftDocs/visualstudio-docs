@@ -128,7 +128,7 @@ Now that you've configured source control for your project, you can create the v
 
 1. Consent to administrator privileges if prompted, then be patient for a few minutes while Visual Studio downloads and installs packages, which for Django means expanding several thousand files in about as many subfolders! You can see progress in the Visual Studio **Output** window. While you're waiting, ponder the Question sections that follow.
 
-1. On the Visual Studio Git controls (on the status bar), select the changes indicator (that shows **99**) which opens the **Changes** page in **Team Explorer**.
+1. On the Visual Studio Git controls (on the status bar), select the changes indicator (that shows **99&#42;**) which opens the **Changes** page in **Team Explorer**.
 
     Creating the virtual environment brought in thousands of changes, but you don't need to include any of them in source control because you (or anyone else cloning the project) can always recreate the environment from *requirements.txt*.
 
