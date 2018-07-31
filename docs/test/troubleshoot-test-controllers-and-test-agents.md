@@ -20,16 +20,16 @@ This article covers some common problems you might encounter when you work with 
 
 ##  Unable to collect performance counters on test agent computer
 
- When you run a load test, you might receive errors when you try to connect to a test agent computer and collect performance counters. The Remote Registry service is the service responsible for providing performance counter data to a remote computer. On some operating systems, the Remote Registry service does not start automatically. To fix this problem, manually start the Remote Registry service.
+When you run a load test, you might receive errors when you try to connect to a test agent computer and collect performance counters. The Remote Registry service is the service responsible for providing performance counter data to a remote computer. On some operating systems, the Remote Registry service does not start automatically. To fix this problem, manually start the Remote Registry service.
 
 > [!NOTE]
 > You can access the Remote Registry service in **Control Panel.** Choose **Administrative Tools** and then choose **Services**.
 
-
- Another cause of this problem is that you do not have sufficient permissions to read performance counters. For local test runs, the account of the user who is running the test must be a member of the Power Users group or higher, or be a member of the Performance Monitor Users group. For remote test runs, the account that the controller is configured to run as must be a member of the Power Users group or higher, or be a member of the Performance Monitor Users group.
+Another cause of this problem is that you do not have sufficient permissions to read performance counters. For local test runs, the account of the user who is running the test must be a member of the Power Users group or higher, or be a member of the Performance Monitor Users group. For remote test runs, the account that the controller is configured to run as must be a member of the Power Users group or higher, or be a member of the Performance Monitor Users group.
 
 ## Set the logging level on a test controller computer
- You can control the level of logging on a test controller computer. This is useful when you are trying to diagnose a problem when you are running a load test on an environment.
+
+You can control the level of logging on a test controller computer. This is useful when you are trying to diagnose a problem when you are running a load test on an environment.
 
 ### To set the logging level on a test controller computer
 
@@ -62,7 +62,7 @@ This article covers some common problems you might encounter when you work with 
 
 5.  Start the controller service. At a command prompt, type `net start vsttcontroller`.
 
- This applies to the test controller, the test agent service, and the test agent process. When diagnosing problems, it is helpful to enable logging on all three processes. The procedure to set the logging level is the same for all three processes, as specified earlier for the test controller. To set the logging levels for the test agent service and the agent process, use the following configuration files:
+This applies to the test controller, the test agent service, and the test agent process. When diagnosing problems, it is helpful to enable logging on all three processes. The procedure to set the logging level is the same for all three processes, as specified earlier for the test controller. To set the logging levels for the test agent service and the agent process, use the following configuration files:
 
 -   *QTController.exe.config* Conttoller service
 
@@ -77,17 +77,17 @@ This article covers some common problems you might encounter when you work with 
 -   *QTAgent(64).exe.config* Agent test process for 64-bit architecture.
 
 ## Bind a test controller to a network adapter
- When you try to set up a test agent, you might receive the following error:
 
- **Error 8110. Can't connect to the specified controller computer or access the controller object.**
+When you try to set up a test agent, you might receive the following error:
 
- This error can be caused by installing the test controller on a computer that has more than one network adapter.
+**Error 8110. Cannot connect to the specified controller computer or access the controller object.**
+
+This error can be caused by installing the test controller on a computer that has more than one network adapter.
 
 > [!NOTE]
 > It is also possible to install test agents successfully, and not see this problem until you try to run a test.
 
-
- To fix this error, you must bind the test controller to one of the network adapters. You have to set the `BindTo` property on the test controller, and then change the test agent to refer to the test controller by IP address instead of by name. The steps are provided in the following procedures.
+To fix this error, you must bind the test controller to one of the network adapters. You have to set the `BindTo` property on the test controller, and then change the test agent to refer to the test controller by IP address instead of by name. The steps are provided in the following procedures.
 
 ### To obtain the IP address of the network adapter
 
@@ -131,7 +131,7 @@ This article covers some common problems you might encounter when you work with 
 
 -   Run the test agent installation again. This time, specify the IP address for the test controller instead of the test controller name.
 
- This applies to the test controller, the test agent service, and the test agent process. The `BindTo` property must be set for each process that is running on a computer that has more than one network adapter. The procedure to set the `BindTo` property is the same for all three processes, as specified earlier for the test controller. To set the logging levels for the test agent service and the test agent process, use the configuration files that are listed in [Set the logging level on a test controller computer](#set-the-logging-level-on-a-test-controller-computer).
+This applies to the test controller, the test agent service, and the test agent process. The `BindTo` property must be set for each process that is running on a computer that has more than one network adapter. The procedure to set the `BindTo` property is the same for all three processes, as specified earlier for the test controller. To set the logging levels for the test agent service and the test agent process, use the configuration files that are listed in [Set the logging level on a test controller computer](#set-the-logging-level-on-a-test-controller-computer).
 
 ## See also
 
