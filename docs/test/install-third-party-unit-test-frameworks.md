@@ -38,7 +38,7 @@ If you know the framework you are interested in:
 
 2. Type the name of the framework in the **Find** box.
 
-3. Choose the framework in the results list to navigate to the Visual Studio Marketplace page for the tool.
+3. Choose the framework in the results list to navigate to the **Visual Studio Marketplace** page for the tool.
 
 To browse a list of frameworks along with other testing tools:
 
@@ -48,7 +48,7 @@ To browse a list of frameworks along with other testing tools:
 
 3. In the **Category** list (labeled as **Showing**), expand the **Tools** node and then choose **Testing**.
 
-4. Choose a framework in the results list to navigate to a Visual Studio Marketplace page for the tool.
+4. Choose a framework in the results list to navigate to a **Visual Studio Marketplace** page for the tool.
 
 ## Update to the latest test adapters
 
@@ -60,7 +60,7 @@ Update to the latest stable test adapter to experience better test discovery and
 
 2. Click on the **Updates** tab and search for NUnit or xUnit test adapters that are installed.
 
-3. Select each test adapter, and then select the latest stable version in the drop down menu.
+3. Select each test adapter, and then select the latest stable version in the drop-down menu.
 
 4. Choose the **Install** button.
 
