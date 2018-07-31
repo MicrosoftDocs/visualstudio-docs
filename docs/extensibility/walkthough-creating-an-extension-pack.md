@@ -14,7 +14,7 @@ manager: Meng
 ms.workload: 
   - "vssdk"
 ---
-# Extension Pack
+# Walkthrough: Creating an Extension Pack
 An Extension Pack is a set of extensions that can be installed together. An Extension Packs enable you to easily share your favorite extensions with other users or creating a set of extensions for a particular scenario.
   
 ## Prerequisites  
