@@ -68,7 +68,7 @@ Specifies the path to the *.vstemplate* file of one project in a multi-project t
  Multi-project templates act as containers for two or more projects. The `ProjectTemplateLink` element is used to specify the location of the *.vstemplate* file for one of the projects in the template. The *.vstemplate* file of a multi-project template contains one `ProjectTemplateLink` element for each project in the template. For more information on multi-project templates, see [How to: Create multi-project templates](../ide/how-to-create-multi-project-templates.md).  
   
 ## Example  
- This example shows a simple multi-project root *.vstemplate* file. In this example, the template contains two projects, `My Windows Application` and `My Class Library`. The `ProjectName` attribute on the `ProjectTemplateLink` element sets the name for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to assign this project. If the `ProjectName` attribute does not exist, the name of the *.vstemplate* file is used as the project name.  
+ This example shows a simple multi-project root *.vstemplate* file. In this example, the template contains two projects, `My Windows Application` and `My Class Library`. The `ProjectName` attribute on the `ProjectTemplateLink` element sets the name for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to assign this project. If the `ProjectName` attribute doesn't exist, the name of the *.vstemplate* file is used as the project name.  
   
 ```  
 <VSTemplate Version="3.0.0" Type="ProjectGroup"  
