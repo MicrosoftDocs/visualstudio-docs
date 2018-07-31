@@ -24,7 +24,7 @@ You can use customized web performance test request plug-ins with the web perfor
 
 ## To create a request-level plug-in
 
-1.  In **Solution Explorer**, right-click the solution, . select **Add** and then choose **New Project**.
+1.  In **Solution Explorer**, right-click the solution, select **Add** and then choose **New Project**.
 
      The **Add New Project** dialog box is displayed.
 
