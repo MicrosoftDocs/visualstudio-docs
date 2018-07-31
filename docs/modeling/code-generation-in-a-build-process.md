@@ -1,5 +1,5 @@
 ---
-title: Code Generation in a Build Process in Visual Studio
+title: Code Generation in a Build Process
 ms.date: 03/22/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,7 +15,7 @@ ms.technology: vs-ide-modeling
 ---
 # Code generation in a build process
 
-[Text transformation](../modeling/code-generation-and-t4-text-templates.md) can be invoked as part of the [build process](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692) of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution. There are build tasks that are specialized for text transformation. The T4 build tasks run design-time text templates, and they also compile run-time (preprocessed) text templates.
+[Text transformation](../modeling/code-generation-and-t4-text-templates.md) can be invoked as part of the [build process](http://msdn.microsoft.com/Library/a971b0f9-7c28-479d-a37b-8fd7e27ef692) of a Visual Studio solution. There are build tasks that are specialized for text transformation. The T4 build tasks run design-time text templates, and they also compile run-time (preprocessed) text templates.
 
 There are some differences in what the build tasks can do, depending on which build engine you use. When you build the solution in Visual Studio, a text template can access the Visual Studio API (EnvDTE) if the [hostspecific="true"](../modeling/t4-template-directive.md) attribute is set. But that isn't true when you build the solution from the command line or when you initiate a server build through Visual Studio. In those cases, the build is performed by MSBuild and a different T4 host is used.
 
@@ -27,27 +27,27 @@ To enable build tasks on your development computer, install Modeling SDK for Vis
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
-If [your build server](http://msdn.microsoft.com/Library/788443c3-0547-452e-959c-4805573813a9) runs on a computer on which [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is not installed, copy the following files to the build computer from your development machine. Substitute the most recent version numbers for '*'.
+If [your build server](http://msdn.microsoft.com/Library/788443c3-0547-452e-959c-4805573813a9) runs on a computer on which Visual Studio is not installed, copy the following files to the build computer from your development machine. Substitute the most recent version numbers for '*'.
 
--   $(ProgramFiles)\MSBuild\Microsoft\VisualStudio\v*.0\TextTemplating
+- $(ProgramFiles)\MSBuild\Microsoft\VisualStudio\v*.0\TextTemplating
 
-    -   Microsoft.VisualStudio.TextTemplating.Sdk.Host.*.0.dll
+    - Microsoft.VisualStudio.TextTemplating.Sdk.Host.*.0.dll
 
-    -   Microsoft.TextTemplating.Build.Tasks.dll
+    - Microsoft.TextTemplating.Build.Tasks.dll
 
-    -   Microsoft.TextTemplating.targets
+    - Microsoft.TextTemplating.targets
 
--   $(ProgramFiles)\Microsoft Visual Studio *.0\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0
+- $(ProgramFiles)\Microsoft Visual Studio *.0\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0
 
-    -   Microsoft.VisualStudio.TextTemplating.*.0.dll
+    - Microsoft.VisualStudio.TextTemplating.*.0.dll
 
-    -   Microsoft.VisualStudio.TextTemplating.Interfaces.*.0.dll (several files)
+    - Microsoft.VisualStudio.TextTemplating.Interfaces.*.0.dll (several files)
 
-    -   Microsoft.VisualStudio.TextTemplating.VSHost.*.0.dll
+    - Microsoft.VisualStudio.TextTemplating.VSHost.*.0.dll
 
--   $(ProgramFiles)\Microsoft Visual Studio *.0\Common7\IDE\PublicAssemblies\
+- $(ProgramFiles)\Microsoft Visual Studio *.0\Common7\IDE\PublicAssemblies\
 
-    -   Microsoft.VisualStudio.TextTemplating.Modeling.*.0.dll
+    - Microsoft.VisualStudio.TextTemplating.Modeling.*.0.dll
 
 ## To edit the project file
 
@@ -86,7 +86,7 @@ After that line, insert the Text Templating import:
 
 There are some properties that you can insert into your project file to control the transformation task:
 
--   Run the Transform task at the start of every build:
+- Run the Transform task at the start of every build:
 
     ```xml
     <PropertyGroup>
@@ -94,7 +94,7 @@ There are some properties that you can insert into your project file to control 
     </PropertyGroup>
     ```
 
--   Overwrite files that are read-only, for example because they are not checked out:
+- Overwrite files that are read-only, for example because they are not checked out:
 
     ```xml
     <PropertyGroup>
@@ -102,7 +102,7 @@ There are some properties that you can insert into your project file to control 
     </PropertyGroup>
     ```
 
--   Transform every template every time:
+- Transform every template every time:
 
     ```xml
     <PropertyGroup>
@@ -112,27 +112,27 @@ There are some properties that you can insert into your project file to control 
 
      By default, the T4 MSBuild task regenerates an output file if it is older than its template file, or any files that are included, or any files that have previously been read by the template or by a directive processor that it uses. Notice that this is a much more powerful dependency test than is used by the Transform All Templates command in Visual Studio, which only compares the dates of the template and output file.
 
- To perform just the text transformations in your project, invoke the TransformAll task:
+To perform just the text transformations in your project, invoke the TransformAll task:
 
- `msbuild myProject.csproj /t:TransformAll`
+`msbuild myProject.csproj /t:TransformAll`
 
- To transform a specific text template:
+To transform a specific text template:
 
- `msbuild myProject.csproj /t:Transform /p:TransformFile="Template1.tt"`
+`msbuild myProject.csproj /t:Transform /p:TransformFile="Template1.tt"`
 
- You can use wildcards in TransformFile:
+You can use wildcards in TransformFile:
 
- `msbuild dsl.csproj /t:Transform /p:TransformFile="GeneratedCode\**\*.tt"`
+`msbuild dsl.csproj /t:Transform /p:TransformFile="GeneratedCode\**\*.tt"`
 
 ## Source control
 
 There is no specific built-in integration with a source control system. However, you can add your own extensions, for example to check out and check in a generated file.By default, the text transform task avoids overwriting a file that is marked as read- only, and when such a file is encountered, an error is logged in the Visual Studio error list, and the task fails.
 
- To specify that read-only files should be overwritten, insert this property:
+To specify that read-only files should be overwritten, insert this property:
 
- `<OverwriteReadOnlyOutputFiles>true</OverwriteReadOnlyOuputFiles>`
+`<OverwriteReadOnlyOutputFiles>true</OverwriteReadOnlyOuputFiles>`
 
- Unless you customize the postprocessing step, a warning will be logged in the error list when a file is overwritten.
+Unless you customize the postprocessing step, a warning will be logged in the error list when a file is overwritten.
 
 ## Customize the build process
 
@@ -153,9 +153,9 @@ Text transformation happens before other tasks in the build process. You can def
 
 In `AfterTransform`, you can reference lists of files:
 
--   GeneratedFiles - a list of files written by the process. For those files that overwrote existing read-only files, %(GeneratedFiles.ReadOnlyFileOverwritten) will be true. These files can be checked out of source control.
+- GeneratedFiles - a list of files written by the process. For those files that overwrote existing read-only files, %(GeneratedFiles.ReadOnlyFileOverwritten) will be true. These files can be checked out of source control.
 
--   NonGeneratedFiles - a list of read-only files that were not overwritten.
+- NonGeneratedFiles - a list of read-only files that were not overwritten.
 
 For example, you define a task to check out GeneratedFiles.
 
@@ -173,9 +173,9 @@ These properties are used only by MSBuild. They do not affect code generation in
 </ItemGroup>
 ```
 
- A useful folder to redirect to is `$(IntermediateOutputPath).`
+A useful folder to redirect to is `$(IntermediateOutputPath).`
 
- If you specify and output filename, it will take precedence over the extension specified in the output directive in the templates.
+If you specify and output filename, it will take precedence over the extension specified in the output directive in the templates.
 
 ```xml
 <ItemGroup>
@@ -187,7 +187,7 @@ These properties are used only by MSBuild. They do not affect code generation in
 </ItemGroup>
 ```
 
- Specifying an OutputFileName or OutputFilePath isn't recommended if you are also transforming templates inside VS using Transform All, or running the single file generator. You will end up with different file paths depending on how you triggered the transformation. This can be very confusing.
+Specifying an OutputFileName or OutputFilePath isn't recommended if you are also transforming templates inside VS using Transform All, or running the single file generator. You will end up with different file paths depending on how you triggered the transformation. This can be very confusing.
 
 ## Add reference and include paths
 
@@ -222,7 +222,7 @@ You can set parameter values in the project file. For example, you can pass [bui
 </ItemGroup>
 ```
 
- In a text template, set `hostspecific` in the template directive. Use the [parameter](../modeling/t4-parameter-directive.md) directive to get values:
+In a text template, set `hostspecific` in the template directive. Use the [parameter](../modeling/t4-parameter-directive.md) directive to get values:
 
 ```
 <#@template language="c#" hostspecific="true"#>
@@ -245,9 +245,9 @@ Dim value = Host.ResolveParameterValue("-", "-", "parameterName")
 
 ##  <a name="msbuild"></a> Use project properties in assembly and include directives
 
-Visual Studio macros like $(SolutionDir) don't work in MSBuild. You can use project properties instead.
+Visual Studio macros like **$(SolutionDir)** don't work in MSBuild. You can use project properties instead.
 
-Edit your .csproj or .vbproj file to define a project property. This example defines a property named `myLibFolder`:
+Edit your *.csproj* or *.vbproj* file to define a project property. This example defines a property named **myLibFolder**:
 
 ```xml
 <!-- Define a project property, myLibFolder: -->
@@ -270,27 +270,25 @@ Now you can use your project property in assembly and include directives:
 <#@ include file="$(myLibFolder)\MyIncludeFile.t4" #>
 ```
 
- These directives get values from T4parameterValues both in MSBuild and in Visual Studio hosts.
+These directives get values from T4parameterValues both in MSBuild and in Visual Studio hosts.
 
 ## Q & A
 
- **Why would I want to transform templates in the build server? I already transformed templates in Visual Studio before I checked in my code.**
+**Why would I want to transform templates in the build server? I already transformed templates in Visual Studio before I checked in my code.**
 
- If you update an included file, or another file read by the template, Visual Studio doesn't transform the file automatically. Transforming templates as part of the build makes sure that everything's up to date.
+If you update an included file, or another file read by the template, Visual Studio doesn't transform the file automatically. Transforming templates as part of the build makes sure that everything's up to date.
 
- **What other options are there for transforming text templates?**
+**What other options are there for transforming text templates?**
 
--   The [TextTransform utility](../modeling/generating-files-with-the-texttransform-utility.md) can be used in command scripts. In most cases, it's easier to use MSBuild.
+- The [TextTransform utility](../modeling/generating-files-with-the-texttransform-utility.md) can be used in command scripts. In most cases, it's easier to use MSBuild.
 
--   [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md)
+- [Invoking Text Transformation in a VS Extension](../modeling/invoking-text-transformation-in-a-vs-extension.md)
 
--   [Design-time text templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md) are transformed by Visual Studio.
+- [Design-time text templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md) are transformed by Visual Studio.
 
--   [Run time text templates](../modeling/run-time-text-generation-with-t4-text-templates.md) are transformed at run time in your application.
+- [Run time text templates](../modeling/run-time-text-generation-with-t4-text-templates.md) are transformed at run time in your application.
 
 ## See also
 
-- There is good guidance in the T4 MSbuild template, $(VSToolsPath)\TextTemplating\Microsoft.TextTemplating.targets
-- [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)
-- [Oleg Sych: Understanding T4:MSBuild Integration](http://www.olegsych.com/2010/04/understanding-t4-msbuild-integration/)
-- [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
+- There is good guidance in the T4 MSbuild template at *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\msbuild\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets*
+- [Write a T4 text template](../modeling/writing-a-t4-text-template.md)
