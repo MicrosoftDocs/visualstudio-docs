@@ -146,7 +146,7 @@ Notice that statements are inserted between `<# ... #>` and expressions are inse
 
 ### The code built from the template
 
-When you save the **.tt** file, a subsidiary **.cs** or **.vb** file is generated. To see this file in Solution Explorer, expand the **.tt** file node. In a Visual Basic project, first choose **Show All Files** in the Solution Explorer toolbar.
+When you save the **.tt** file, a subsidiary **.cs** or **.vb** file is generated. To see this file in **Solution Explorer**, expand the **.tt** file node. In a Visual Basic project, first choose **Show All Files** in the **Solution Explorer** toolbar.
 
 Notice that the subsidiary file contains a partial class that contains a method called `TransformText()`. You can call this method from your application.
 

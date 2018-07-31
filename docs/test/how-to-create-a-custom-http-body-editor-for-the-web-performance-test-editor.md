@@ -11,7 +11,7 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Create a Custom HTTP Body Editor for the Web Performance Test Editor
+# How to: Create a custom HTTP body editor for the Web Performance Test Editor
 
 You can create a custom content editor that enables you to edit the string body content or the binary body content of a web service request, for example, SOAP, REST, asmx, wcf, RIA, and other web service request types.
 
@@ -38,34 +38,34 @@ These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.Web
 
 3.  In the list of templates, select **Windows Forms Control Library**.
 
-4.  In the Name text box, type a name, for example, `MessageEditors`, and choose **OK**.
+4.  In the **Name** text box, type a name, for example, `MessageEditors`, and choose **OK**.
 
     > [!NOTE]
     > This sample uses MessageEditors.
 
-     The project is added to the new solution and a <xref:System.Windows.Forms.UserControl> named UserControl1.cs is presented in the Designer.
+     The project is added to the new solution and a <xref:System.Windows.Forms.UserControl> named *UserControl1.cs* is presented in the Designer.
 
 5.  From the **Toolbox**, under the **Common Controls** category, drag a <xref:System.Windows.Forms.RichTextBox> onto the surface of UserControl1.
 
 6.  Choose the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif)) on the upper-right corner of the <xref:System.Windows.Forms.RichTextBox> control, and then select and **Dock in Parent Container**.
 
-7.  In Solution Explorer, right-click the Windows Forms Library project and select **Properties**.
+7.  In **Solution Explorer**, right-click the Windows Forms Library project and select **Properties**.
 
-8.  In the Properties, select the **Application** tab.
+8.  In the **Properties**, select the **Application** tab.
 
 9. In the **Target framework** drop-down list, select **.NET Framework 4**.
 
-10. The Target Framework Change dialog box is displayed.
+10. The **Target Framework Change** dialog box is displayed.
 
 11. Choose **Yes**.
 
-12. In Solution Explorer, right-click the **References** node and select **Add Reference**.
+12. In **Solution Explorer**, right-click the **References** node and select **Add Reference**.
 
 13. The **Add Reference** dialog box is displayed.
 
 14. Choose the .**NET** tab, scroll down, and select **Microsoft.VisualStudio.QualityTools.WebTestFramework** and then choose **OK**.
 
-15. If View Designer is not still open, in Solution Explorer, right-click **UserControl1.cs** and then select **View Designer**.
+15. If **View Designer** is not still open, in **Solution Explorer**, right-click **UserControl1.cs** and then select **View Designer**.
 
 16. On the design surface, right-click and select **View Code**.
 
@@ -115,7 +115,7 @@ These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.Web
    }
    ```
 
-## Add a class for to the Windows Control Library project
+## Add a class to the Windows Control Library project
 
 Add a class to the project. It will be used to implement the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> and <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> interfaces.
 
@@ -133,7 +133,7 @@ private MessageEditorControl messageEditorControl
 
 ### To create a class and implement the IStringHttpBodyEditorPlugin interface code
 
-1.  In Solution Explorer, right-click the Windows Forms Control Library project and select **Add New Item**.
+1.  In **Solution Explorer**, right-click the Windows Forms Control Library project and select **Add New Item**.
 
 2.  The **Add New Item** dialog box is displayed.
 
@@ -200,7 +200,7 @@ private MessageEditorControl messageEditorControl
     }
     ```
 
-## Add a IBinaryHttpBodyEditorPlugin to the Class
+## Add a IBinaryHttpBodyEditorPlugin to the class
 
 Implement the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> interface.
 
@@ -272,24 +272,24 @@ When editing of the string body is completed and the user clicks **OK** in the p
         }
     ```
 
-## Build and Deploy the Plug-ins
+## Build and deploy the plug-ins
 
 ### To build and deploy the resulting dll for the IStringHttpBodyEditorPlugin and IBinaryHttpBodyEditorPlugin
 
-1.  On the Build menu, choose **Build \<Windows Form Control Library project name>**.
+1.  On the **Build** menu, choose **Build \<Windows Form Control Library project name>**.
 
 2.  Close all instances of Visual Studio.
 
     > [!NOTE]
     > Closing Visual Studio makes sure that the *.dll* file isn't locked before you try to copy it.
 
-3.  Copy the resulting *.dll* file from your projects *bin\debug* folder (for example, *MessageEditors.dll*) to %ProgramFiles%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE\PrivateAssemblies\WebTestPlugins.
+3.  Copy the resulting *.dll* file from your projects *bin\debug* folder (for example, *MessageEditors.dll*) to *%ProgramFiles%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE\PrivateAssemblies\WebTestPlugins*.
 
 4.  Open Visual Studio.
 
      The *.dll* is now registered with Visual Studio.
 
-## Verify the Plug-ins Using a Web Performance Test
+## Verify the plug-ins using a Web Performance Test
 
 ### To test your plug-ins
 
@@ -299,17 +299,17 @@ When editing of the string body is completed and the user clicks **OK** in the p
 
 3.  When you finish the recording, in the Web Performance Test Editor, expand the request for the web service and select either a **String Body** or a **Binary Body**.
 
-4.  In the Properties window, Select either String Body or Binary Body and choose the ellipsis (…).
+4.  In the Properties window, Select either String Body or Binary Body and choose the ellipsis **(…)**.
 
      The **Edit HTTP Body Data** dialog box is displayed.
 
-5.  You can now edit the data and choose OK. This invokes the applicable GetNewValue method to update the contents in the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody>.
+5.  You can now edit the data and choose **OK**. This invokes the applicable GetNewValue method to update the contents in the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody>.
 
-## Compile the Code
+## Compile the code
 
 Verify that the Targeted framework for the Windows Control Library project is .NET Framework 4.5. By default, Windows Control Library projects target the .NET Framework 4.5 Client framework, which will not allow the inclusion of the Microsoft.VisualStudio.QualityTools.WebTestFramework reference.
 
-For more information, see [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md).
+For more information, see [Application page, project designer (C#)](../ide/reference/application-page-project-designer-csharp.md).
 
 ## See also
 
@@ -319,9 +319,9 @@ For more information, see [Application Page, Project Designer (C#)](../ide/refer
 - <xref:System.Windows.Forms.UserControl>
 - <xref:System.Windows.Forms.RichTextBox>
 - [Create custom code and plug-ins for load tests](../test/create-custom-code-and-plug-ins-for-load-tests.md)
-- [How to: Create a Request-Level Plug-In](../test/how-to-create-a-request-level-plug-in.md)
-- [Coding a custom extraction rule for a web performance test](../test/code-a-custom-extraction-rule-for-a-web-performance-test.md)
-- [Coding a custom validation rule for a web performance test](../test/code-a-custom-validation-rule-for-a-web-performance-test.md)
-- [How to: Create a Load Test Plug-In](../test/how-to-create-a-load-test-plug-in.md)
+- [How to: Create a request-level plug-in](../test/how-to-create-a-request-level-plug-in.md)
+- [Code a custom extraction rule for a web performance test](../test/code-a-custom-extraction-rule-for-a-web-performance-test.md)
+- [Code a custom validation rule for a web performance test](../test/code-a-custom-validation-rule-for-a-web-performance-test.md)
+- [How to: Create a load test plug-in](../test/how-to-create-a-load-test-plug-in.md)
 - [Generate and run a coded web performance test](../test/generate-and-run-a-coded-web-performance-test.md)
-- [How to: Create a Visual Studio Add-In for the Web Performance Test Results Viewer](../test/how-to-create-an-add-in-for-the-web-performance-test-results-viewer.md)
+- [How to: Create a Visual Studio add-in for the Web Performance Test Results Viewer](../test/how-to-create-an-add-in-for-the-web-performance-test-results-viewer.md)

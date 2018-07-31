@@ -11,7 +11,7 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Configure Network Emulation Using Test Settings in Visual Studio
+# How to: Configure network emulation using test settings in Visual Studio
 
 You can configure the diagnostic data adapter to test your application under various network environments from Visual Studio. It can also be configured to test an artificial network load, or bottleneck, when you run your tests.
 
@@ -48,7 +48,7 @@ An account that has administrator privileges must be used for network emulation.
 
  True network emulation can be used by network-based developers and testers to emulate a desired test environment, assess performance, predict the effect of change, or make decisions about technology optimization. When compared to hardware test beds, true network emulation is a much cheaper and more flexible solution.
 
-## Configure Network Emulation for Your Test Settings
+## Configure network emulation for your test settings
  Before you perform the steps in this procedure, you must open your test settings from Visual Studio and then select the **Data and Diagnostics** page.
 
 ### To configure network emulation for your test settings
@@ -78,5 +78,5 @@ An account that has administrator privileges must be used for network emulation.
 
 ## See also
 
-- [Collect Diagnostic Information Using Test Settings](../test/collect-diagnostic-information-using-test-settings.md)
+- [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)
 - [Run manual tests (VSTS)](/vsts/manual-test/getting-started/run-manual-tests)

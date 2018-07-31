@@ -8,7 +8,7 @@ ms.topic: Get-Started-Article
 description:  Learn how subscription administrators can access the administration portal and manage subscriptions acquired through Volume Licensing (VL)
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
-mearchscope: VS Subscription
+searchscope: VS Subscription
 
 ---
 # Accessing the portal and managing administrators - for subscriptions acquired through Volume Licensing (VL)

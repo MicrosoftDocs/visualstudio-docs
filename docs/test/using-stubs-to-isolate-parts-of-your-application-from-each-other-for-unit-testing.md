@@ -145,7 +145,7 @@ To use stubs, you must first generate stub types from the interface definitions.
 
 1. In Solution Explorer, expand your unit test project's **References**.
 
-   If you are working in Visual Basic, you must select **Show All Files** in the Solution Explorer toolbar, in order to see the References list.
+   If you are working in Visual Basic, you must select **Show All Files** in the **Solution Explorer** toolbar, in order to see the References list.
 
 2. Select the assembly that contains the interface definitions for which you want to create stubs.
 

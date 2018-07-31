@@ -11,13 +11,13 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Specify the Sample Rate for a Load Test Run Setting
+# How to: Specify the sample rate for a load test run setting
 
 After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the properties to meet your testing needs and goals.
 
-Using the **Load Test Editor**, you can edit a run setting's **Sample Rate** property's value in the **Properties** window. For a complete list of the run settings properties and their descriptions, see [Load Test Run Settings Properties](../test/load-test-run-settings-properties.md).
+Using the **Load Test Editor**, you can edit a run setting's **Sample Rate** property's value in the **Properties** window. For a complete list of the run settings properties and their descriptions, see [Load test run settings properties](../test/load-test-run-settings-properties.md).
 
-Choose an appropriate value for the **Sample Rate** property for the load test run setting based on the length of your load test. A smaller sample rate, such as the default value of five seconds, requires more space in the load test results database. For longer load tests, increasing the sample rate reduces the amount of data that you collect. For more information, see [How to: Specify the Sample Rate for a Load Test Run Setting](../test/how-to-specify-the-sample-rate-for-a-load-test.md).
+Choose an appropriate value for the **Sample Rate** property for the load test run setting based on the length of your load test. A smaller sample rate, such as the default value of five seconds, requires more space in the load test results database. For longer load tests, increasing the sample rate reduces the amount of data that you collect. For more information, see [How to: Specify the sample rate for a load test run setting](../test/how-to-specify-the-sample-rate-for-a-load-test.md).
 
 Here are some guidelines for sample rates:
 
@@ -38,7 +38,7 @@ Here are some guidelines for sample rates:
 
 3.  On the **View** menu, select **Properties Window**.
 
-     The load run setting's categories and properties are displayed in the Properties window.
+     The load run setting's categories and properties are displayed in the **Properties** window.
 
 4.  In the **Sample Rate** property, enter a time value that indicates the frequency at which the load test will collect performance counter data.
 
@@ -46,5 +46,5 @@ Here are some guidelines for sample rates:
 
 ## See also
 
-- [Configuring Load Test Run Settings](../test/configure-load-test-run-settings.md)
-- [Load Test Scenario Properties](../test/load-test-scenario-properties.md)
+- [Configure load test run settings](../test/configure-load-test-run-settings.md)
+- [Load test scenario properties](../test/load-test-scenario-properties.md)
