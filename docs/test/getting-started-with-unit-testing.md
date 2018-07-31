@@ -103,9 +103,9 @@ To determine what proportion of your project's code is actually being tested by 
 
 ## Use a different unit test framework
 
-You can run unit tests in Visual Studio by using third-party test frameworks such as Boost, Google, and nUnit. Use the plug-in for the framework so that Visual Studio's test runner can work with that framework.
+You can run unit tests in Visual Studio by using third-party test frameworks such as Boost, Google, and NUnit. Use the plug-in for the framework so that Visual Studio's test runner can work with that framework.
 
-Following are the steps to enable third-part test frameworks:
+Following are the steps to enable third-party test frameworks:
 
 1. Choose **Tools** > **Extensions and Updates** from the menu bar.
 
@@ -115,7 +115,7 @@ Following are the steps to enable third-part test frameworks:
 
 1. Select the framework or adapter you want to install, and then choose **Download**.
 
-1. Create a class library project, and add it to your solution.
+1. Create a class library project and add it to your solution.
 
    ![Name the class library project and add it](media/create3rdpartyunittest3.png)
 
