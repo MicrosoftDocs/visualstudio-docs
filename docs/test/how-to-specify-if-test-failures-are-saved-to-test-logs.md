@@ -12,36 +12,35 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Specify if Test Failures are Saved to Test Logs Using the Load Test Editor
+# How to: Specify if test failures are saved to test logs using the Load Test Editor
 
 After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the load test properties to meet your testing needs and goals. See [Walkthrough: Create and run a load test](../test/walkthrough-create-and-run-a-load-test.md). You can specify if you want to have the test log saved if a test fails in a load test by changing the **Save Log on Test Failure** property.
 
 > [!NOTE]
-> For a complete list of the run settings properties and their descriptions, see [Load Test Run Settings Properties](../test/load-test-run-settings-properties.md).
+> For a complete list of the run settings properties and their descriptions, see [Load test run settings properties](../test/load-test-run-settings-properties.md).
 
 
 ## To specify if the test log is saved when a test fails in a scenario
 
 1.  Open a load test.
 
-     The Load Test Editor appears. The load test tree is displayed.
+     The **Load Test Editor** appears. The load test tree is displayed.
 
 2.  In the load test trees **Run Settings** folder, choose the run settings node that you want to specify the maximum number of test iterations for.
 
 3.  On the **View** menu, select **Properties Window**.
 
-     The run settings categories and properties are displayed in the Properties window.
+     The run settings categories and properties are displayed in the **Properties** window.
 
-4.  In the **Save Log on Test Failure** property, select either True or False to specify if you want to save the test log in the event of a test failure in the scenario.
+4.  In the **Save Log on Test Failure** property, select either **True** or **False** to specify if you want to save the test log in the event of a test failure in the scenario.
 
      After you have finished changing the property, choose **Save** on the **File** menu.
 
-     The data that is saved in the log can be viewed using the Load Test Analyzer's Tables view. For more information, see [Analyze Load Test Results and Errors in the Tables View](../test/analyze-load-test-results-and-errors-in-the-tables-view.md).
+     The data that is saved in the log can be viewed using the Load Test Analyzer's Tables view. For more information, see [Analyze load test results and errors in the Tables view](../test/analyze-load-test-results-and-errors-in-the-tables-view.md).
 
 ## See also
 
-- [Editing Load Test Scenarios](../test/edit-load-test-scenarios.md)
+- [Edit load test scenarios](../test/edit-load-test-scenarios.md)
 - [Walkthrough: Create and run a load test](../test/walkthrough-create-and-run-a-load-test.md)
-- [Editing Load Test Scenarios](../test/edit-load-test-scenarios.md)
-- [How to: Configure Collecting Full Details to Enable the Virtual User Activity Chart](../test/how-to-configure-load-tests-to-collect-full-details.md)
-- [How to: Specify How Frequently Test Logs are Saved](../test/how-to-specify-how-frequently-test-logs-are-saved.md)
+- [How to: Configure collecting full details to enable the Virtual User Activity Chart](../test/how-to-configure-load-tests-to-collect-full-details.md)
+- [How to: Specify how frequently test logs are saved](../test/how-to-specify-how-frequently-test-logs-are-saved.md)

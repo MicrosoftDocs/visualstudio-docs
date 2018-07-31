@@ -14,9 +14,9 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Import Load Test Results into a Repository
+# How to: Import load test results into a repository
 
-When you run a load test, information gathered during the run is stored in the Load Test Results Repository. The Load Test Results Repository contains performance counter data and information about any errors. For more information, see [Managing Load Test Results in the Load Test Results Repository](../test/manage-load-test-results-in-the-load-test-results-repository.md).
+When you run a load test, information gathered during the run is stored in the Load Test Results Repository. The Load Test Results Repository contains performance counter data and information about any errors. For more information, see [Manage load test results in the Load Test Results Repository](../test/manage-load-test-results-in-the-load-test-results-repository.md).
 
  You can manage load test results from the Load Test Editor by using the **Open and Manage Load Test Results** dialog box. You can open, import, export, and remove load test results.
 
@@ -49,6 +49,6 @@ When you run a load test, information gathered during the run is stored in the L
 
 ## See also
 
-- [Managing Load Test Results in the Load Test Results Repository](../test/manage-load-test-results-in-the-load-test-results-repository.md)
-- [Analyze Load Test Results](../test/analyze-load-test-results-using-the-load-test-analyzer.md)
-- [How to: Export Load Test Results from a Repository](../test/how-to-export-load-test-results-from-a-repository.md)
+- [Manage load test results in the Load Test Results Repository](../test/manage-load-test-results-in-the-load-test-results-repository.md)
+- [Analyze load test results](../test/analyze-load-test-results-using-the-load-test-analyzer.md)
+- [How to: Export load test results from a repository](../test/how-to-export-load-test-results-from-a-repository.md)
