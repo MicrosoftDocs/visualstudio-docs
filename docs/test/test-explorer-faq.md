@@ -69,7 +69,7 @@ manager: douge
 
 ### 10. There is no longer a "File Path" filter in the Test Explorer search box.
 
-The file path filter in the **Test Explorer** search box was removed in Visual Studio 2017 version 15.7 preview 3. This feature had low usage, and the Test Explorer can retrieve test methods faster by excluding this feature. If this change interrupts your development flow, please let us know by submitting feedback on [developer community](https://developercommunity.visualstudio.com/).
+The file path filter in the **Test Explorer** search box was removed in Visual Studio 2017 version 15.7 preview 3. This feature had low usage, and the Test Explorer can retrieve test methods faster by excluding this feature. If this change interrupts your development flow, please let us know by submitting feedback on [Developer Community](https://developercommunity.visualstudio.com/).
 
 ## Features
 
