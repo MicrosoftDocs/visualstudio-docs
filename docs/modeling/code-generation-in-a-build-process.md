@@ -53,7 +53,7 @@ If [your build server](http://msdn.microsoft.com/Library/788443c3-0547-452e-959c
 
 You'll have to edit your project file to configure some of the features in MSBuild.
 
-In solution explorer, choose **Unload** from the context menu of your project. That allows you to edit the .csproj or .vbproj file in the XML editor.
+In **Solution Explorer**, choose **Unload** from the context menu of your project. That allows you to edit the .csproj or .vbproj file in the XML editor.
 
 When you've finished editing, choose **Reload**.
 

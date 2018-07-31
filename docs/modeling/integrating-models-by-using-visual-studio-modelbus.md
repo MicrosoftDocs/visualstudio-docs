@@ -121,10 +121,10 @@ ms.technology: vs-ide-modeling
 
 4.  If you chose to reference an element in a model, you can add a list of types that the user can select, for example Company.FamilyTree.Person.
 
-5.  Click **OK**, and then click **Transform All Templates** in the solution explorer toolbar.
+5.  Click **OK**, and then click **Transform All Templates** in the **Solution Explorer** toolbar.
 
     > [!WARNING]
-    >  If you have not selected a valid model or entity, the OK button will have no effect, even though it might appear enabled.
+    > If you have not selected a valid model or entity, the OK button will have no effect, even though it might appear enabled.
 
 6.  If you specified a list of target types such as Company.FamilyTree.Person, then you must add an assembly reference to your DSL project, referencing the DLL of the target DSL, for example Company.FamilyTree.Dsl.dll
 
@@ -137,7 +137,7 @@ ms.technology: vs-ide-modeling
 3.  In the Debugging project in the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], add files that are instances of each DSL.
 
     > [!NOTE]
-    >  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] ModelBus can only resolve references to models that are items in the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution. For example, you cannot create a reference to a model file in another part of your file system.
+    > [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] ModelBus can only resolve references to models that are items in the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution. For example, you cannot create a reference to a model file in another part of your file system.
 
 4.  Create some elements and links in the instance of the exposed DSL, and save it.
 

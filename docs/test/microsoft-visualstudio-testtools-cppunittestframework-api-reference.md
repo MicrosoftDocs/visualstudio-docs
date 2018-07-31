@@ -10,7 +10,7 @@ ms.workload:
   - "multiple"
 author: mikeblome
 ---
-# Microsoft.VisualStudio.TestTools.CppUnitTestFramework API Reference
+# Microsoft.VisualStudio.TestTools.CppUnitTestFramework API reference
 
 This topic lists the public members of the `Microsoft::VisualStudio::CppUnitTestFramework` namespace. Use these APIs to write C++ unit tests based on the Microsoft Native Unit Test Framework. There is a [Usage Example](#example) at the end of the topic.
 
@@ -638,6 +638,6 @@ public:
 
 ## See also
 
-- [Unit Test Your Code](../test/unit-test-your-code.md)
-- [Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md)
+- [Unit test your code](../test/unit-test-your-code.md)
+- [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
 

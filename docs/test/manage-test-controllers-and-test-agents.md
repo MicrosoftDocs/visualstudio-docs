@@ -22,7 +22,7 @@ To configure and monitor the test controller and any registered agents, you must
 
 For a load test project, you can also choose **Manage Test Controllers** from the **Load Test** menu.
 
-## Add a Test Agent to a Test Controller
+## Add a test agent to a test controller
 
 You might want to add a test agent to a different test controller or you might have to add a test agent to a test controller that you have just installed.
 
@@ -39,7 +39,7 @@ You might want to add a test agent to a different test controller or you might h
 
      You are presented with two options for how the test agent is going to be run:
 
-     **Service** If you do not have to run automated tests that interact with the desktop, such as coded UI tests or creating a video recording when your test runs, under **Run the test agent as**, select **Service**. The test agent will be started as a service. Choose **Next**.
+     **Service**: If you do not have to run automated tests that interact with the desktop, such as coded UI tests or creating a video recording when your test runs, under **Run the test agent as**, select **Service**. The test agent will be started as a service. Choose **Next**.
 
      You can now enter the details about the user when the test agent starts as a service.
 
@@ -54,7 +54,7 @@ You might want to add a test agent to a different test controller or you might h
         |-   If the agent user name is not in the agent service it will try to add it, which requires permissions on the test controller.|
         |-   The user who is trying to use the test controller must be in the test controller's Users account or they will be unable to run the tests against the controller.|
 
-     **Interactive Process** If you want to run automated tests that must interact with the desktop, such as coded UI tests or creating a video recording when your test runs, select **Interactive Process**. The test agent will be started as an interactive process instead of a service.
+     **Interactive Process**: If you want to run automated tests that must interact with the desktop, such as coded UI tests or creating a video recording when your test runs, select **Interactive Process**. The test agent will be started as an interactive process instead of a service.
 
      On the next page, enter the details about the user when the test agent starts as a process, and other options.
 
@@ -84,12 +84,12 @@ You might want to add a test agent to a different test controller or you might h
     > [!NOTE]
     > The default port number is 6901.
 
-4. To save your changes, choose **Apply Settings**. Close the **Configuration summary** dialog box, and then close the Test Agent Configuration Tool.
+4. To save your changes, choose **Apply Settings**. Close the **Configuration summary** dialog box, and then close the **Test Agent Configuration Tool**.
 
 > [!WARNING]
 > If the agent is currently configured to run on another test controller, you must remove the test agent from that controller.
 
-## Remove a Test Agent from a Test Controller
+## Remove a test agent from a test controller
 
 A test agent must be set to the offline state before it can be removed.
 
@@ -113,7 +113,7 @@ A test agent must be set to the offline state before it can be removed.
 
 2. If the test controller is registered with a team project, remove the agent using Microsoft Test Manager.
 
-## Change the Settings for a Test Agent
+## Change the settings for a test agent
 
 The status of the test agent can be any one of the following values:
 
@@ -154,9 +154,9 @@ Test agent weight and test agent attribute changes go into effect immediately, b
 (Optional) To change the status of a test agent, select the agent in the list and then select the action from the available choices based on the current status of the agent.
 
 > [!NOTE]
-> If your test agent is running as a process, you manage the status of the test agent from the notification area icon that runs on the computer where your test agent is installed. This shows the status of the test agent. You can start, stop or restart the agent if it is running as a process using this tool. To start the test agent as a process if it is not running, choose **Start**, **All Programs**, **Microsoft Visual Studio** , **Microsoft Visual Studio Test Agent**. This adds the notification area icon.
+> If your test agent is running as a process, you manage the status of the test agent from the notification area icon that runs on the computer where your test agent is installed. This shows the status of the test agent. You can start, stop or restart the agent if it is running as a process using this tool. To start the test agent as a process if it is not running, choose **Start** > **All Programs** > **Microsoft Visual Studio** > **Microsoft Visual Studio Test Agent**. This adds the notification area icon.
 
-## Configure a Test Controller
+## Configure a test controller
 
 To configure a test controller, you must use the **Team Test Controller Configuration Tool**. When you configure your test controller, you can register your test controller with a different team project collection, or unregister your test controller from a team project collection.
 
@@ -183,7 +183,7 @@ If you want to register your test controller with your Team Foundation Server pr
 > [!NOTE]
 > For more trouble shooting information about test controllers, see [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
 
-## Manage Your Agents when You Run Your Tests with a Test Controller
+## Manage your agents when you run your tests with a test controller
 
 When you add roles for your application to your test settings for Visual Studio, you can add agent properties for each of your roles. This determines which test agents are available for this role. When you run your tests using these test settings, the test controller that is selected for the test settings determines the availability of the required agents. These are the following situations that can occur when the agent availability is determined:
 
@@ -209,17 +209,17 @@ When you add roles for your application to your test settings for Visual Studio,
 
     -   You can change the agent properties for the role in the test settings to enable other agents that you want to use.
 
-## Load Tests from Delay-Signed Assemblies
+## Load tests from delay-signed assemblies
 
-The test controller and test agents can only load test assemblies that are strongly signed assemblies, or unsigned assemblies. Some test assemblies are delay-signed because they need to have access into production assemblies for the application. However, these assemblies are not strongly signed because they are only test assemblies and are not distributed. These assemblies cannot be loaded because they are delay-signed, so you must disable strong name verification for those assemblies on all machines where the assembly will be loaded including the test controller machine. To disable the delay-signed verification, use sn.exe. The public key token of the delay-signed assembly for which strong name verification is requested to be skipped may also need to be included.
+The test controller and test agents can only load test assemblies that are strongly signed assemblies, or unsigned assemblies. Some test assemblies are delay-signed because they need to have access into production assemblies for the application. However, these assemblies are not strongly signed because they are only test assemblies and are not distributed. These assemblies cannot be loaded because they are delay-signed, so you must disable strong name verification for those assemblies on all machines where the assembly will be loaded including the test controller machine. To disable the delay-signed verification, use *sn.exe*. The public key token of the delay-signed assembly for which strong name verification is requested to be skipped may also need to be included.
 
-Use Sn.exe (Strong Name tool) to disable the delay-signed verification.
+Use *Sn.exe* (Strong Name tool) to disable the delay-signed verification.
 
 This disables strong-name verification, for the specified assembly only, on the computer on which you run the command. You can do this only if you have sufficient permissions.
 
-After the test run has completed, re-enable the delayed-signing verification by using the SN.exe command.
+After the test run has completed, re-enable the delayed-signing verification by using the *SN.exe* command.
 
-A recommended way to disable and re-enable signing verification is to use the SN.exe commands in scripts. You can disable verification in a setup script and re-enable verification in a cleanup script.
+A recommended way to disable and re-enable signing verification is to use the *SN.exe* commands in scripts. You can disable verification in a setup script and re-enable verification in a cleanup script.
 
 ## See also
 
