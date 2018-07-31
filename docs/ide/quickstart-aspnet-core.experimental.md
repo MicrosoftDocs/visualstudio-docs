@@ -72,11 +72,7 @@ Next, you'll create and run your "Hello World" web app. Here's how.
    > [!NOTE]
    > If you get an error message that says, **Unable to connect to web server 'IIS Express'**, close Visual Studio and then open it by using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
 
-1. Confirm that the **About** page includes your updated text.
-
-   ![Confirm that the About page includes your updated text](../ide/media/csharp-aspnet-about-page-hello-world.png)
-
-1. Close the web browser.
+1. Verify that the **About** page includes your updated text.
 
 Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE (integrated development environment).
 
