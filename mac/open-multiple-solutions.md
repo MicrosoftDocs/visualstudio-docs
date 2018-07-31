@@ -1,6 +1,6 @@
 ---
 title: "How to: Open multiple solutions"
-description: Learn how to open more than one solution in Visual Studio for Mac and how to open more than one of instance of the application.
+description: Learn how to open more than one solution in Visual Studio for Mac and how to open more than one instance of the application.
 author: asb3993
 ms.author: amburns
 ms.date: 07/19/2018
