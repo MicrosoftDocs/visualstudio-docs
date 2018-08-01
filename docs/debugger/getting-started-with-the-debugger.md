@@ -274,15 +274,13 @@ In this tutorial, you will:
     Performing base class drawing tasks
     ```
 
-     In this tour, we'll take a closer look at this app using the debugger and get a look at the debugger features.
+     In this tutorial, we'll take a closer look at this app using the debugger and get a look at the debugger features.
 
 2. Stop the debugger by pressing the red stop ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button.
 
 ## Set a breakpoint and start the debugger
 
-To debug, you need to start your app with the debugger attached to the app process.
-
-1. In the `foreach` loop of the `Main` function, set a breakpoint by clicking the left margin of the first line of code.
+1. In the `foreach` loop of the `Main` function (`for` loop in C++ `main` function), set a breakpoint by clicking the left margin of the first line of code.
 
     ![Set a breakpoint](../debugger/media/get-started-set-breakpoint.png "SetABreakPoint")
 
@@ -302,7 +300,7 @@ To debug, you need to start your app with the debugger attached to the app proce
 
 Mostly, we use the keyboard shortcuts here, because it's a good way to get fast at executing your app in the debugger (equivalent commands such as menu commands are shown in parentheses).
 
-1. Press **F11** (or choose **Debug > Step Into**) several times until you pause on the `shape.Draw` method call in the Main method.
+1. Press **F11** (or choose **Debug > Step Into**) once (several times in C#) until you pause on the `shape.Draw` method call in the `Main` method (`shape->Draw` in C++).
 
 1. Press **F11** once more to advance into code for the `Rectangle` class.
 
@@ -310,15 +308,15 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we show you some other options also.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../debugger/just-my-code.md)).
 
-2. Press **F10** (or choose **Debug > Step Over**) a few times until the debugger stops on the `base.Draw` method call, and then press **F10** one more time.
+2. Press **F10** (or choose **Debug > Step Over**) a few times until the debugger stops on the `base.Draw` method call (`Shape::Draw` in C++), and then press **F10** one more time.
 
      ![Use F10 to Step Over code](../debugger/media/get-started-step-over.png "F10 Step Over")
 
-     Notice this time that the debugger does not step into the `Draw` method of the base class (`Shape`). **F10** advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing F10 on the `base.Draw` method call (instead of F11), we skipped over the implementation code for `Shape.Draw` (which maybe we're not interested in right now).
+     Notice this time that the debugger does not step into the `Draw` method of the base class (`Shape`). **F10** advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing F10 on the `base.Draw` (or `Shape::Draw`) method call (instead of **F11**), we skipped over the implementation code for `base.Draw` (which maybe we're not interested in right now).
 
 ## Navigate code using Run to Click
 
-5. In the code editor, scroll down and hover over the `Console.WriteLine` method in the `Triangle` class until the green **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left.
+5. In the code editor, scroll down and hover over the `Console.WriteLine` method (`std::cout` in C++) in the `Triangle` class until the green **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left.
 
      ![Use the Run to Click feature](../debugger/media/get-started-run-to-click.png "Run to Click")
 
@@ -329,7 +327,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
     Using this button is similar to setting a temporary breakpoint. **Run to Click** is handy for getting around quickly within a visible region of app code (you can click in any open file).
 
-    The debugger advances to the `Console.WriteLine` method implementation for the `Triangle` class.
+    The debugger advances to the `Console.WriteLine` method implementation for the `Triangle` class (`std::cout` in C++).
 
     While paused, you notice a typo! The output "Drawing a trangle" is misspelled. We can fix it right here while running the app in the debugger.
 
@@ -337,7 +335,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 1. Click into "Drawing a trangle" and type a correction, changing "trangle" to "triangle".
 
-1. Press **F11** once and you see that the debugger advances without any difficulty.
+1. Press **F11** once and you see that the debugger advances again.
 
     > [!NOTE]
     > Depending on what type of code you edit in the debugger, you may see a warning message. In some scenarios, the code will need to recompile before you can continue.
@@ -350,7 +348,7 @@ Let's say that you are done examining the `Draw` method in the `Triangle` class,
 
      This command resumes app execution (and advances the debugger) until the current function returns.
 
-     You should be back in the `foreach` loop in the `Main` method.
+     You should be back in the `foreach` loop in the `Main` method (`for` loop in C++).
 
 ## Restart your app quickly
 
@@ -358,7 +356,7 @@ Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "Res
 
 When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code.
 
-The debugger stops again at the breakpoint you set, in the `foreach` loop.
+The debugger stops again at the breakpoint you set, in the `foreach` loop (`for` loop in C++).
 
 ## Inspect variables with data tips
 
@@ -368,7 +366,7 @@ Features that allow you to inspect variables are one of the most useful features
 
 1. Hover over the `shapes` object and you see its default property value, the `Count` property.
 
-1. Expand the `shapes` object to see all its properties, such as the first index of the array `[0]`, which has a value of `Rectangle`.
+1. Expand the `shapes` object to see all its properties, such as the first index of the array `[0]`, which has a value of `Rectangle` (C#) or a memory address (C++).
 
      ![View a data tip](../debugger/media/get-started-data-tip.png "View a Data Tip")
 
@@ -399,13 +397,13 @@ Features that allow you to inspect variables are one of the most useful features
 
 ## Examine the call stack
 
-1. While paused in the `foreach` loop, click the **Call Stack** window, which is by default open in the lower right pane.
+1. While paused in the `foreach` loop (`for` loop in C++), click the **Call Stack** window, which is by default open in the lower right pane.
 
 1. Click **F11** a few times until you see the debugger pause in the `Circle.Draw` method in the code editor. Look at the **Call Stack** window.
 
 ![Examine the call stack](../debugger/media/get-started-call-stack.png "ExamineCallStack")
 
-The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Circle.Draw` method in this app). The second line shows that `Circle.Draw` was called from the `Main` method, and so on.
+The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Circle.Draw` or `Circle::Draw` method in this app). The second line shows that `Circle.Draw` was called from the `Main` method (`main` in C++), and so on.
 
 >  [!NOTE]
 > The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
@@ -418,13 +416,13 @@ You can also use right-click menus from the **Call Stack** window to do other th
 
 ## Change the execution flow
 
-1. With the debugger paused in the `Circle.Draw` method call, press **F11** a few times until the debugger pauses on the `base.Draw` method call.
+1. With the debugger paused in the `Circle.Draw` method call, press **F11** a few times until the debugger pauses on the `base.Draw` method call (`Shape::Draw` in C++).
 
-1. Use the mouse to grab the yellow arrow (the execution pointer) on the left and move the yellow arrow up one line to the `Console.WriteLine` method call.
+1. Use the mouse to grab the yellow arrow (the execution pointer) on the left and move the yellow arrow up one line to the `Console.WriteLine` (`std::cout` in C++) method call.
 
 1. Press **F11** one more time.
 
-    The debugger re-runs the `Console.WriteLine` method.
+    The debugger re-runs the `Console.WriteLine` method (`std::cout` in C++).
 
     By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger.
 
