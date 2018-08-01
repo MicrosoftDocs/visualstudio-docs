@@ -13,15 +13,15 @@ ms.workload: ["vssdk"]
 ---
 # Visual Studio C++ project extensibility and toolset integration
 
-The C++ workloads in Visual Studio include the extensible *VC Project* system that lets you integrate projects in the Visual Studio IDE and build them on the command line. The VC Project system is designed to allow you to easily plug-in new toolsets and build architectures. Currently, all C++ projects, no matter which toolset they use (MSVC, Intel, gcc, or Clang) or which OS they target (Windows, Linux, Android or iOS), use the same base VC Project system, and supply toolset-specific components to modify its behavior. This article discusses how you can follow the same patterns to extend VC Project to invoke new toolsets on new platforms.
+The C++ workloads in Visual Studio include the extensible *VC Project* system that lets you integrate projects in the Visual Studio IDE and build them on the command line. The VC Project system is designed to allow you to easily plug in new toolsets and build architectures. Currently, all C++ projects, no matter which toolset they use (MSVC, Intel, gcc, or Clang) or which OS they target (Windows, Linux, Android or iOS), use the same base VC Project system, and supply toolset-specific components to modify its behavior. This article discusses how you can follow the same patterns to extend VC Project to invoke new toolsets on new platforms.
 
 ## What VC Project does
 
-The VC Project system sits between a .vcxproj project file on disk and various Visual Studio features, such as Solution Explorer, designers, the debugger, language services, build and deployment. You can create project property pages to control all aspects of your project. Almost all interaction that occurs between the files contained in a project file, the IDE, and the toolset, happens through the project system.
+The VC Project system sits between a .vcxproj project file on disk and various Visual Studio features, such as Solution Explorer, designers, the debugger, language services, build, and deployment. You can create project property pages to control all aspects of your project. Almost all interaction that occurs between the files contained in a project file, the IDE, and the toolset, happens through the project system.
 
 Many technologies come together to make up the VC Project system:
 
-- The Microsoft Build System ([MSBuild](/visualstudio/msbuild/msbuild)) provides the build engine and the extensible XML-based format for project files. You should be familiar with basic [MSBuild concepts](/visualstudio/msbuild/msbuild-concepts) and with how [MSBuild for Visual C++](/cpp/build/msbuild-visual-cpp-overview) works in order to extend the VC Project system.
+- The Microsoft Build System ([MSBuild](../msbuild/msbuild.md)) provides the build engine and the extensible XML-based format for project files. You should be familiar with basic [MSBuild concepts](../msbuild/msbuild-concepts.md) and with how [MSBuild for Visual C++](/cpp/build/msbuild-visual-cpp-overview) works in order to extend the VC Project system.
 
 - The [Visual Studio Common Project System](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md) (CPS) provides the building blocks for the project system including the project tree, build and debugger coordination, and Visual Studio integration. For more information about how it's used in the VC Project system, see [VC Project extensibility in the Visual Studio IDE](#vc-project-extensibility-in-the-visual-studio-ide).
 
@@ -55,9 +55,9 @@ The MSBuild engine reads .vcxproj files to determine all of the items, targets, 
 </Project>
 ```
 
-Most of the properties, targets, and toolsets a project file depends on are specific to the platforms and architectures used. The VC Project system supplies a large set of Microsoft C++ .props and .targets files that control how the MSBuild system creates a product. At the top level, these includes don't define anything themselves, but import other files depending on the `$(ApplicationType)`, `$(ApplicationTypeRevision)`, `$(Platform)` and `$(PlatformToolset)` properties values. These properties match folder names under a common root directory, stored in the `$(VCTargetsPath)` property.
+Most of the properties, targets, and toolsets a project file depends on are specific to the platforms and architectures used. The VC Project system supplies a large set of Microsoft C++ *props* and *targets* files, files with a .props or .targets extension, that control how the MSBuild system creates a product. At the top level, these included files don't define anything themselves, but import other files depending on the `$(ApplicationType)`, `$(ApplicationTypeRevision)`, `$(Platform)` and `$(PlatformToolset)` properties values. These properties match folder names under a common root directory, stored in the `$(VCTargetsPath)` property.
 
-In a Developer command prompt window, the Visual Studio installation directory is recorded in the **VSINSTALLDIR** environment variable. In Visual Studio 2017, this is recorded in the `$(VSInstallDir)` property. A typical location is C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\. the `$(VCTargetsPath)` folder is found underneath the Visual Studio installation directory, in \\Common7\\IDE\\VC\\VCTargets.
+In a Developer command prompt window, the Visual Studio installation directory is recorded in the **VSINSTALLDIR** environment variable. In Visual Studio 2017, the `$(VSInstallDir)` property holds the installation directory. A typical location is C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\. the `$(VCTargetsPath)` folder is found underneath the Visual Studio installation directory, in \\Common7\\IDE\\VC\\VCTargets.
 
 Other important directories include the \\MSBuild subdirectory of the Visual Studio installation, which is stored in the `$(MSBuildExtensionsPath)` property. This folder in turn contains a versioned subfolder, stored in the `$(MSBuildToolsVersion)` property, which contains the Microsoft.Common.props file used by many other files.
 
@@ -86,7 +86,7 @@ As a typical example, the folder for the Toolset.props and Toolset.targets files
 
 Additional folders may be found in some Platform folders, namely the ImportBefore, ImportAfter, and PlatformUpgrade folders, which also have corresponding property names.
 
-Thus, the tree of imports for Microsoft C++ .props  and .targets files look like:
+Thus, the tree of imports for Microsoft C++ props and targets files look like:
 
 > $(VCTargetsPath)\\Microsoft.Cpp.Default.props  
 > &nbsp;&nbsp;&nbsp;&nbsp;$(MSBuildExtensionsPath)\\$(MSBuildToolsVersion)\\Microsoft.Common.props  
@@ -104,7 +104,7 @@ or for Windows Desktop apps,
 > &nbsp;&nbsp;&nbsp;&nbsp;$(VCTargetsPath)\\Platforms\\$(Platform)\\Platform.default.props  
 > &nbsp;&nbsp;&nbsp;&nbsp;$(VCTargetsPath)\\ImportAfter\\Default\\\*.props  
 
-The `$(_PlatformFolder)` property contains the platform folder location. This is the order used to import .props files:
+The `$(_PlatformFolder)` property contains the platform folder location. The props files are imported in this order:
 
 > $(VCTargetsPath)\\Microsoft.Cpp.props  
 > &nbsp;&nbsp;&nbsp;&nbsp;$(_PlatformFolder)\\Platform.props  
@@ -113,7 +113,7 @@ The `$(_PlatformFolder)` property contains the platform folder location. This is
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$(_PlatformFolder)\\PlatformToolsets\\$(PlatformToolset)\\Toolset.props  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$(_PlatformFolder)\\ImportAfter\\\*.props  
 
-The .targets files are imported in this order:
+The targets files are imported in this order:
 
 > $(VCTargetsPath)\Microsoft.Cpp.targets  
 > &nbsp;&nbsp;&nbsp;&nbsp;$(VCTargetsPath)\Microsoft.Cpp.Current.targets  
@@ -125,25 +125,25 @@ The .targets files are imported in this order:
 
 ### Where to add toolset and platform files
 
-To add a new `$(PlatformToolset)` folder, for example, "MyToolset" for the Win32 platform, you must create a MyToolset folder under `$(VCTargetsPath)`\\Platforms\\Win32\\PlatformToolsets, and create Toolset.props and Toolset.targets files in it. Create similar folders and Toolset.props and Toolset.targets files in each platform folder this toolset supports.
+To add a new `$(PlatformToolset)` folder for the Win32 platform, for example, "MyToolset", you must create a MyToolset folder under `$(VCTargetsPath)`\\Platforms\\Win32\\PlatformToolsets, and create Toolset.props and Toolset.targets files in it. Create similar folders and Toolset.props and Toolset.targets files in each platform folder this toolset supports.
 
 To add a new `$(Platform)` folder, for example, "MyPlatform", create a MyPlatform folder under `$(VCTargetsPath)`\\Platforms, and create Platform.props and Platform.targets files in it.
 
-Follow a similar process for `$(ApplicationType)` and `$(ApplicationTypeRevision)` folders, but note that the `$(ApplicationTypeRevision)` folder name must be a valid version string, of the form *major*.*minor*\[.*build*\[.*revision*\]\], not an arbitrary string.
+Follow a similar process for `$(ApplicationType)` and `$(ApplicationTypeRevision)` folders. Note that the `$(ApplicationTypeRevision)` folder name must be a valid version string, of the form *major*.*minor*\[.*build*\[.*revision*\]\], not an arbitrary string.
 
 If you need to define some default properties for your toolset, you can add files to the appropriate ImportBefore and ImportAfter folders.
 
-### Toolset .props  and .targets
+### Toolset props and targets files
 
-Your toolset .props  and .targets files have full control over what happens during a build when this toolset is used. They also control some user interface components in the IDE, such as what is shown in the property pages dialog, what debuggers are available, and some other aspects of project behavior.
+Your toolset props and targets files have full control over what happens during a build when this toolset is used. They also control some user interface components in the IDE, such as what is shown in the property pages dialog, what debuggers are available, and some other aspects of project behavior.
 
 ### Toolset build
 
-The VC Project system has split MSBuild constructs into .props and .targets files. For a given configuration, the .props file provides default values for all build properties, and allows each project to override any of them before they are used in .targets files. Although there is no formal restriction or enforcement of what goes in a .props file, your Toolset.props file is not expected to contain any targets, just properties.
+The VC Project system has split MSBuild constructs into props and targets files. For a given configuration, the props file provides default values for all build properties, and allows each project to override any of them before they are used in targets files. Although there are no formal restrictions or enforcement of what goes in a props file, your Toolset.props file is not expected to contain any targets, just properties.
 
-Toolset .targets files define build processes, and use the properties defined in .props and .vcxproj files.
+Toolset targets files define build processes, and use the properties defined in props and .vcxproj files.
 
-Usually you do not want your toolset to override the whole build process (although it can), but just to modify or add some build steps, or to use different build tools. There are a number of common .props and .targets files the toolset can import.
+Usually you do not want your toolset to override the whole build process (although it can), but just to modify or add some build steps, or to use different build tools. There are a number of common props and targets files the toolset can import.
 
 These files are the most useful ones to use as imports or as examples:
 
@@ -154,7 +154,7 @@ These files are the most useful ones to use as imports or as examples:
    Sets defaults for toolsets that use the Microsoft compilers and target Windows.
 
 - $(VCTargetsPath)\\Microsoft.CppCommon.targets  
-   This file defines the main parts of the native build process, and also imports these additional .targets files:
+   This file defines the main parts of the native build process, and also imports these additional targets files:
 
    - $(VCTargetsPath)\\Microsoft.CppBuild.targets  
    - $(VCTargetsPath)\\Microsoft.BuildSteps.targets  
@@ -172,9 +172,9 @@ The C++ build follows three major steps, referenced by the `BuildSteps` Property
 
 - `BuildLink`
 
-Each step can be executed separately, so targets running in one step cannot rely on the item groups and properties defined in the targets which run as a part of a different step. This was done to allow certain build performance optimizations, and though not used by default, we still encourage you to honor this separation.
+Each step can be executed separately, so targets running in one step cannot rely on the item groups and properties defined in the targets that run as a part of a different step. This was done to allow certain build performance optimizations, and though not used by default, you are still encouraged to honor this separation.
 
-The order of the targets inside each step is controlled by the usual MSBuild ordering (that is, the `DependsOn`, `BeforeTargets` and `AfterTargets` attributes), but to give you more control, we also provide a number of properties you can add to a new target:
+The order of the targets inside each step is controlled by the usual MSBuild ordering (that is, the `DependsOn`, `BeforeTargets` and `AfterTargets` attributes), but to give you more control, there are a number of properties you can add to a new target:
 
 ```xml
 <Target
@@ -204,7 +204,7 @@ Here is an example:
 </BuildCompileTargets>
 ```
 
-Note that targets that produce .lib files run as part of the `BuildCompile` step.
+Targets that produce .lib files run as part of the `BuildCompile` step.
 
 If you look at the targets, such as `_ClCompile`, they don't do anything directly by themselves, but instead depend on other targets:
 
@@ -232,17 +232,17 @@ The toolset targets can override the `ClCompile` target, that is, they can conta
 </Target>
 ```
 
-Despite its name, created before Visual Studio implemented cross-platform support, the `ClCompile` target does not have to call CL.exe, but can call Clang, gcc, or other compilers by using appropriate MSBuild tasks.
+Despite its name, which was created before Visual Studio implemented cross-platform support, the `ClCompile` target does not have to call CL.exe, but can call Clang, gcc, or other compilers by using appropriate MSBuild tasks.
 
-Note that the target does not have any dependencies except the `SelectClCompile` target. This is required for the single file compile command to work in the IDE.
+In this case, the `ClCompile` target does not have any dependencies except the `SelectClCompile` target. This is required for the single file compile command to work in the IDE.
 
-If you want to add a new target to the build process for your toolset, you can add it to any of the properties used in `DependsOnTargets` or use `AfterTargets` or `BeforeTargets` attributes.
+If you want to add a new target to the build process for your toolset, you can add it to any of the properties used in `DependsOnTargets`, or use `AfterTargets` or `BeforeTargets` attributes.
 
 The targets included in `$(ComputeCompileInputsTargets)` are also used by the design-time build to get IntelliSense information. For more information, see the [Design-time targets for IntelliSense information](#design-time-targets-for-intellisense-information) section.
 
 ### MSBuild tasks
 
-To invoke an actual build tool, the target needs to call an MSBuild task. There is a basic [Exec task](/visualstudio/msbuild/exec-task) that allows you to specify a command line to run. However, build tools usually have many options and many inputs and outputs to track for incremental builds, so it makes more sense to have special tasks for them. For instance, the `CL` task translates MSBuild properties into CL.exe switches, writes them into a response file, and calls CL.exe. It also tracks all input and output files for the subsequent incremental builds. For more information, see [incremental build and up-to-date check](#incremental-build-and-up-to-date-check).
+To invoke an actual build tool, the target needs to call an MSBuild task. There is a basic [Exec task](../msbuild/exec-task.md) that allows you to specify a command line to run. However, build tools usually have many options and many inputs and outputs to track for incremental builds, so it makes more sense to have special tasks for them. For instance, the `CL` task translates MSBuild properties into CL.exe switches, writes them into a response file, and calls CL.exe. It also tracks all input and output files for the subsequent incremental builds. For more information, see [incremental build and up-to-date check](#incremental-build-and-up-to-date-check).
 
 The Microsoft.Cpp.Common.Tasks.dll contains code to implement these tasks:
 
@@ -268,51 +268,51 @@ The Microsoft.Cpp.Common.Tasks.dll contains code to implement these tasks:
 
 - `SetEnv`
 
-If you have a tool which performs the same action and with similar command line switches (as clang-cl and CL do) you can use the same task for them.
+If you have a tool that performs the same action and with similar command line switches (as clang-cl and CL do) you can use the same task for them.
 
 If you need to create a new task for a build tool, you can choose from the following options:
 
-1. If you are not going to use this task very often or a few seconds don't matter for your build you can use  MSBuild 'inline' tasks:
+1. If you are going to use this task rarely, or if a few seconds don't matter for your build, you can use MSBuild 'inline' tasks:
 
    - Xaml task (a custom build rule)
 
      For an example of a Xaml task declaration, see $(VCTargetsPath)\\BuildCustomizations\\masm.xml, and for an example of usage, see $(VCTargetsPath)\\BuildCustomizations\\masm.targets.
 
-   - [Code task](/visualstudio/msbuild/msbuild-inline-tasks)
+   - [Code task](../msbuild/msbuild-inline-tasks.md)
 
-1. If you want better task performance or just need more complex functionality, use the regular MSBuild [task writing](/visualstudio/msbuild/task-writing) process.
+1. If you want better task performance or just need more complex functionality, use the regular MSBuild [task writing](../msbuild/task-writing.md) process.
 
-   If not all inputs and outputs of the tool are listed on the tool command line, as in the `CL`, `midl`, and `rc` cases, and you want automatic input and output file tracking and tlog creation as described in the next section, derive your task from `TrackedVCToolTask`.
+   If not all inputs and outputs of the tool are listed on the tool command line, as in the `CL`, `MIDL`, and `RC` cases, and if you want automatic input and output file tracking and tlog file creation as described in the next section, derive your task from `TrackedVCToolTask`.
 
 ### Incremental build and up-to-date check
 
 MSBuild targets have `Inputs` and `Outputs` attributes, and if you specify them, MSBuild calls the target only if any of the inputs has a newer timestamp than all outputs. However, native source files often include or import other files, and native build tools produce different outputs depending on the tool options, so it is hard to specify all possible inputs and outputs in MSBuild targets.
 
-As a result, we use a different technique to support incremental builds. During the build, most of the targets don't specify inputs and outputs and thus always run. But the tasks targets call write information about all inputs and outputs into .tlog files, which then are used by subsequent builds to check what has changed and needs to be rebuilt, and what is up-to-date.
+As a result, a different technique supports incremental builds. During the build, most of the targets don't specify inputs and outputs and thus always run. But the tasks targets call write information about all inputs and outputs into *tlog* files, files that have a .tlog extension, that then are used by subsequent builds to check what has changed and needs to be rebuilt, and what is up-to-date.
 
 To determine all the inputs and outputs, VC Project tasks use tracker.exe and the [FileTracker](/dotnet/api/microsoft.build.utilities.filetracker) class provided by MSBuild.
 
-Microsoft.Build.CPPTasks.Common.dll contains the `TrackedVCToolTask` public abstract base class, which most VC Project tasks derive from.
+Microsoft.Build.CPPTasks.Common.dll contains the `TrackedVCToolTask` public abstract base class. Most VC Project tasks are derived from this class.
 
-## Use of .tlog files
+## Use of tlog files
 
-There are three types of .tlog files: *read*, *write*, and *command line*. Read and write .tlog filess are used by incremental builds as well as the up-to-date check in the IDE. Command line .tlog files are only used in incremental builds.
+There are three types of tlog files: *read*, *write*, and *command line*. Read and write tlog files are used by incremental builds as well as the up-to-date check in the IDE. Command line tlog files are only used in incremental builds.
 
-MSBuild provides these helper classes to read and write .tlog files:
+MSBuild provides these helper classes to read and write tlog files:
 
 - [CanonicalTrackedInputFiles](/dotnet/api/microsoft.build.utilities.canonicaltrackedinputfiles)
 
 - [CanonicalTrackedOutputFiles](/dotnet/api/microsoft.build.utilities.canonicaltrackedoutputfiles)
 
-The [FlatTrackingData](/dotnet/api/microsoft.build.utilities.flattrackingdata) class can be used to read both read and write .tlog files and identify inputs which are newer than outputs, or if an output is missing. This is used in the up-to-date check.
+The [FlatTrackingData](/dotnet/api/microsoft.build.utilities.flattrackingdata) class can be used to access both read and write tlog files and identify inputs that are newer than outputs, or if an output is missing. It's used in the up-to-date check.
 
-Command line .tlog files contain information about command lines used in the build. They are only used for incremental builds, not up-to-date checks, so the internal format is determined by the MSBuild task which produces them.
+Command line tlog files contain information about command lines used in the build. They are only used for incremental builds, not up-to-date checks, so the internal format is determined by the MSBuild task that produces them.
 
-If .tlog files are created by a task, we recommend you use these helper classes to create them. However, because the default VC Project up-to-date check now relies solely on .tlog files, sometimes it's more convenient to produce them in a target without use of a task. You can do this by using the `WriteLinesToFile` task. For an example, see the `_WriteMasmTlogs` target in $(VCTargetsPath)\\BuildCustomizations\\masm.targets.
+If tlog files are created by a task, it's best to use these helper classes to create them. However, because the default VC Project up-to-date check now relies solely on tlog files, sometimes it's more convenient to produce them in a target without use of a task. You can do this by using the `WriteLinesToFile` task. For an example, see the `_WriteMasmTlogs` target in $(VCTargetsPath)\\BuildCustomizations\\masm.targets.
 
-### Read .tlog format
+### Read tlog format
 
-*Read .tlog* files (\*.read.\*.tlog) contain information about source files, or *sources*, and the files they require, their *dependencies*.
+*Read tlog* files (\*.read.\*.tlog) contain information about source files, or *sources*, and the files they require, their *dependencies*.
 
 A `^` at the beginning of a line indicates one or more sources. Multiple sources that share the same dependencies are separated by `|`.
 
@@ -335,9 +335,9 @@ F:\TEST\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\CLASS1.H
 
 It's not required to have file names in upper case, but it's a convenience for some tools.
 
-### Write .tlog format
+### Write tlog format
 
-*Write .tlog* (\*.write.\*.tlog) files connect sources and outputs.
+*Write tlog* (\*.write.\*.tlog) files connect sources and outputs.
 
 A `^` at the beginning of the line indicates sources. Multiple source files should be separated by '|'.
 
@@ -358,13 +358,13 @@ In the IDE, projects use a set of MSBuild targets to get additional information 
 
 For general information about design-time builds, see the CPS documentation for [Design-time builds](https://github.com/dotnet/project-system/blob/master/docs/design-time-builds.md).
 
-Note that the `CompileDesignTime` and `Compile` targets mentioned in the Design-time builds documentation never run for VC projects. VC projects use different design-time targets to get IntelliSense information.
+The `CompileDesignTime` and `Compile` targets mentioned in the design-time builds documentation never run for VC projects. VC projects use different design-time targets to get IntelliSense information.
 
 ### Design-time targets for IntelliSense information
 
 The design-time targets used in VC projects are defined in $(VCTargetsPath)\\Microsoft.Cpp.DesignTime.targets
 
-The target which collects compile options for IntelliSense is `GetClCommandLines`:
+The `GetClCommandLines` target collects compile options for IntelliSense:
 
 ```xml
 <Target
@@ -373,26 +373,25 @@ The target which collects compile options for IntelliSense is `GetClCommandLines
   DependsOnTargets="$(DesignTimeBuildInitTargets);$(ComputeCompileInputsTargets)">
 ```
 
-`DesignTimeBuildInitTargets` – design-time only targets, which are required for design-time build initialization. Among other things, these disable some of the regular build functionality to improve performance.
+`DesignTimeBuildInitTargets` – design-time only targets, required for design-time build initialization. Among other things, these disable some of the regular build functionality to improve performance.
 
-`ComputeCompileInputsTargets` – a set of targets which modify compiler options and items. These run in both design-time and regular builds.
+`ComputeCompileInputsTargets` – a set of targets that modifies compiler options and items. These targets run in both design-time and regular builds.
 
-The target calls the `CLCommandLine` task to create the command line to use for IntelliSense. Again, despite its name, it can handle not only CL options, but Clang and gcc as well. The type of the compiler switches is controlled by the `ClangMode` property.
+The target calls the `CLCommandLine` task to create the command line to use for IntelliSense. Again, despite its name, it can handle not only CL options, but Clang and gcc options as well. The type of the compiler switches is controlled by the `ClangMode` property.
 
 Currently, the command line produced by the `CLCommandLine` task always uses CL switches (even in Clang mode) because this was easier for the IntelliSense engine to parse.
 
-If you are adding a target which runs before compilation (regular or design-time), make sure it does not break design-time builds or affect performance. The simplest way to test this is to open a Developer command prompt and run this command:
+If you are adding a target that runs before compilation (regular or design-time), make sure it does not break design-time builds or affect performance. The simplest way to test this is to open a Developer command prompt and run this command:
 
 > msbuild /p:SolutionDir=<solution dir with trailing backslash>;Configuration=Debug;Platform=Win32;BuildingInsideVisualStudio=true;DesignTimebuild=true /t:\_PerfIntellisenseInfo /v:d /fl /fileloggerparameters:PerformanceSummary \*.vcxproj`
 
-This command produces a detailed build log in msbuild.log that has a performance summary for the targets and tasks at the end.
+This command produces a detailed build log, msbuild.log, that has a performance summary for the targets and tasks at the end.
 
-Make sure to use `Condition ="'$(DesignTimeBuild)' != 'true'"` in all operations which only make sense for regular builds and not for design-time builds.
+Make sure to use `Condition ="'$(DesignTimeBuild)' != 'true'"` in all operations that only make sense for regular builds and not for design-time builds.
 
-### Design-time targets which generate sources
+### Design-time targets that generate sources
 
-*Note: this feature is disabled by default for Desktop native projects
-and currently not supported on cached projects*.
+*This feature is disabled by default for Desktop native projects and is not currently supported on cached projects*.
 
 If `GeneratorTarget` metadata is defined for a project item, the target is run automatically when the project is loaded and when the source file is changed.
 
@@ -424,7 +423,7 @@ To get unsaved content of the source files by using `Task.HostObject`, the targe
 
 ## VC Project extensibility in the Visual Studio IDE
 
-The VC Project system is based on the [VS Project System](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md), and uses its extensibility points. Note that the VC Project hierarchy implementation is VC-specific and not based on CPS, so extensibility is limited to project items.
+The VC Project system is based on the [VS Project System](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md), and uses its extensibility points. However, the VC Project hierarchy implementation is VC-specific and not based on CPS, so extensibility is limited to project items.
 
 VC Project supports these extensibility points:
 
@@ -432,7 +431,7 @@ VC Project supports these extensibility points:
 
 For general design information, see [Platform Extensibility - Part 1](http://blogs.msdn.com/b/vsproject/archive/2009/06/10/platform-extensibility-part-1.aspx) and [Platform extensibility - Part 2](http://blogs.msdn.com/b/vsproject/archive/2009/06/18/platform-extensibility-part-2.aspx).
 
-In simple terms, what you see in the Project Properties UI for VC Projects is defined by *rule* files. A rule file specifies a set of properties to show on a property page, as well as how and where they should be saved in the project file. Rule files are .xml files that use xaml format, and the types used for their serialization are described in [Microsoft.Build.Framework.XamlTypes](/dotnet/api/microsoft.build.framework.xamltypes). For more information about the use of rule files in VC Projects, see [Property Page XML rule files](/cpp/ide/property-page-xml-files).
+In simple terms, what you see in the Project Properties UI for VC Projects is defined by *rule* files. A rule file specifies a set of properties to show on a property page, as well as how and where they should be saved in the project file. Rule files are .xml files that use Xaml format, and the types used for their serialization are described in [Microsoft.Build.Framework.XamlTypes](/dotnet/api/microsoft.build.framework.xamltypes). For more information about the use of rule files in VC Projects, see [Property Page XML rule files](/cpp/ide/property-page-xml-files).
 
 The rule files must be added to the `PropertyPageSchema` item group:
 
@@ -465,7 +464,7 @@ If you want to use an existing rule, but need to add or remove (that is, hide) j
 
 ### Override a rule
 
-If you want your toolset to use most of the VC Project default rules, but to replace just one or a few of them (For example, the C/C++ rule to show different compiler switches), you can provide a rule with the same name and display name and include it in the `PropertyPageSchema` item group after the import of default cpp targets. Only one rule with a given name is used in the project, and the last one included into the `PropertyPageSchema` item group wins.
+Perhaps you want your toolset to use most of the VC Project default rules, but to replace just one or a few of them. For example, say you only want to change the C/C++ rule to show different compiler switches. You can provide a new rule with the same name and display name as the existing rule, and include it in the `PropertyPageSchema` item group after the import of default cpp targets. Only one rule with a given name is used in the project, and the last one included into the `PropertyPageSchema` item group wins.
 
 ### Rule format and main types
 
@@ -520,7 +519,7 @@ The default VC ProjectItemsSchema is found in the $(VCTargetsPath)\\1033\\Projec
 </ProjectSchemaDefinitions>
 ```
 
-Then in .targets, add:
+Then in the targets file, add:
 
 ```xml
 <ItemGroup>
@@ -574,13 +573,13 @@ For projects that do not define `ApplicationTypeRevision`:
 
 For projects that define `ApplicationTypeRevision`:
 
-1. A higher revision folder exists. For instance, for a Windows Store project, the revision folders under the '$(VCTargetPath)\\Application Type\\Windows Store' folder are checked, and if a version number (say, 8.1) exists that's higher than currently defined in the project (say, 8.0), then that project can be upgraded.
+1. A higher revision folder exists. For example, in a Windows Store project the revision folders under the '$(VCTargetPath)\\Application Type\\Windows Store' folder are checked. If a version number (say, 8.1) exists that's higher than the version currently defined in the project (say, 8.0), then that project can be upgraded.
 
 1. Property `_UpgradePlatformToolsetFor_<safe_toolset_name>` is defined for the current toolset and its value is not equal to the current toolset.
 
 In the property names above, \<safe_toolset_name> is a placeholder for the toolset name with all non-alphanumeric characters replaced by an underscore (`_`).
 
-If the upgrade toolset is always the same for a given old toolset, you can define `_UpgradePlatformToolsetFor_*` properties in a .props file and install it under $(VCTargetsPath)\\ImportBefore\\Default or $(VCTargetsPath)\\ImportAfter\\Default folders. Make sure the name of this .props file is unique.
+If the upgrade toolset is always the same for a given old toolset, you can define `_UpgradePlatformToolsetFor_*` properties in a props file and install it under $(VCTargetsPath)\\ImportBefore\\Default or $(VCTargetsPath)\\ImportAfter\\Default folders. Make sure the name of this props file is unique.
 
 If the upgrade toolset is different for different AppTypes or platforms, you can use
 
@@ -590,7 +589,7 @@ and
 
 `\Platforms\<MyPlatform>\Default.props`
 
-if the AppType or platform are yours, or use
+if these files belong to your toolset, or use
 
 `$(VCTargetPath)\ApplicationType\Windows Store\ImportBefore\*.props`
 
@@ -610,13 +609,13 @@ When a project can be upgraded, it participates in *Solution Retargeting*. For m
 
 If you want to adorn project names in **Solution Explorer** when projects use a particular toolset, define
 
-> \_PlatformToolsetShortNameFor\_*toolsetname*
+> \_PlatformToolsetShortNameFor\_*toolset_name*
 
-where *toolsetname* is the short name for the toolset. This is only used in Visual C++ for old toolsets, but it can be used for any toolset. For examples of short name definitions, see the Microsoft.Cpp.Default.props file. For examples of usage, see the Microsoft.Cpp.Platform.targets file.
+where *toolset_name* is the short name for the toolset. This is only used in Visual C++ for old toolsets, but it can be used for any toolset. For examples of short name definitions, see the Microsoft.Cpp.Default.props file. For examples of usage, see the Microsoft.Cpp.Platform.targets file.
 
 ### Custom project upgrade
 
-VC Project supports MEF extensibility for 'project upgrader' objects. Which object is used should be also defined in targets:
+VC Project supports MEF extensibility for 'project upgrader' objects. The upgrader object to use should be also defined in targets:
 
 ```xml
 <PropertyGroup>
@@ -654,7 +653,7 @@ VCDefaultProjectUpgrader {get;set; }
 
 ## VC Project Cache and extensibility
 
-To improve performance when working with big C++ solutions in VS 2017, the [VC Project cache](https://blogs.msdn.microsoft.com/vcblog/2016/10/05/faster-c-solution-load-with-vs-15/) was introduced. It's implemented as a SQLite database which is populated with project data, and then used to load VC projects without loading MSBuild or CPS projects into memory.
+To improve performance when working with big C++ solutions in VS 2017, the [VC Project cache](https://blogs.msdn.microsoft.com/vcblog/2016/10/05/faster-c-solution-load-with-vs-15/) was introduced. It's implemented as a SQLite database populated with project data, and then used to load VC projects without loading MSBuild or CPS projects into memory.
 
 However, because there are no CPS objects present for VC projects loaded from cache, the extension's MEF components which import `UnconfiguredProject` or `ConfiguredProject` cannot be created. To support extensibility, the VC Project cache is not used when it's detected that a project uses (or is likely to use) MEF extensions.
 
@@ -662,14 +661,14 @@ These project types are always fully loaded:
 
 - Startup projects (Debugger MEF extensions are always created for them)
 
-- Projects which have custom project upgrader (they define a 'VCProjectUpgraderObjectName' property)
+- Projects that have a custom project upgrader (they define a 'VCProjectUpgraderObjectName' property)
 
-- Projects which don't target Desktop Windows (they define an 'ApplicationType' property)
+- Projects that don't target Desktop Windows (they define an 'ApplicationType' property)
 
-- Shared Items projects (.vcxitems) and projects which reference them (they import .vcxitems projects).
+- Shared Items projects (.vcxitems) and projects that reference them (they import .vcxitems projects).
 
-If none of the above conditions are detected, a project cache is created which includes all the data from the MSBuild project required to answer 'get' questions of `VCProjectEngine` interfaces. This means that all modifications at the MSBuild .props  and .targets file level done by an extension should just work in projects loaded from cache.
+If none of the above conditions are detected, a project cache is created that includes all the data from the MSBuild project required to answer 'get' questions of `VCProjectEngine` interfaces. Thus, all modifications at the MSBuild props and targets file level done by an extension should just work in projects loaded from cache.
 
 ## Shipping your extension
 
-For information on how to create VSIX files, see [Shipping Visual Studio Extensions](/visualstudio/extensibility/shipping-visual-studio-extensions). For information on how to add files to special install locations, for example, to add files under $(VCTargetsPath), see [Installing outside the extensions folder](/visualstudio/extensibility/set-install-root).
+For information on how to create VSIX files, see [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md). For information on how to add files to special install locations, for example, to add files under $(VCTargetsPath), see [Installing outside the extensions folder](../extensibility/set-install-root.md).
