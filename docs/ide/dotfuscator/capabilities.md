@@ -24,7 +24,7 @@ manager: douge
 This page focuses on the capabilities of Dotfuscator Community Edition (Dotfuscator CE) with some references to advanced options available through [upgrades][upgrades].
 
 Dotfuscator is a *post-build* system for .NET applications.
-With Dotfuscator CE, Visual Studio users are able to [obfuscate assemblies][obfuscation] and inject [active defense][checks] into the application - all without Dotfuscator needing to access the original source code.
+With Dotfuscator CE, Visual Studio users are able to [obfuscate assemblies][obfuscation] and inject [active defense measures][checks] into the application - all without Dotfuscator needing to access the original source code.
 Dotfuscator protects your application in multiple ways, creating a layered protection strategy.
 
 Dotfuscator CE supports a wide range of .NET assembly and application types, including [Universal Windows Platform (UWP)][uwp] and [Xamarin][xamarin].
