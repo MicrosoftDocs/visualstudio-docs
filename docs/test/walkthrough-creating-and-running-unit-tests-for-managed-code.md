@@ -145,7 +145,7 @@ There are at least three behaviors that need to be checked:
 
 - The method throws an <xref:System.ArgumentOutOfRangeException> if the debit amount is greater than the balance.
 
-- The method throws <xref:System.ArgumentOutOfRangeException> if the debit amount is less than zero.
+- The method throws an <xref:System.ArgumentOutOfRangeException> if the debit amount is less than zero.
 
 - If the debit amount is valid, the method subtracts the debit amount from the account balance.
 
@@ -204,7 +204,7 @@ A test method must meet the following requirements:
 
 ### Analyze the test results
 
-The test result contains a message that describes the failure. For the `AreEquals` method, the message displays what was expected (the **Expected\<*value*>** parameter) and what was actually received (the **Actual\<*value*>** parameter). You expected the balance to decrease, but instead it actually increased by the amount of the withdrawal.
+The test result contains a message that describes the failure. For the `AreEqual` method, the message displays what was expected (the **Expected\<*value*>** parameter) and what was actually received (the **Actual\<*value*>** parameter). You expected the balance to decrease, but instead it increased by the amount of the withdrawal.
 
 The unit test has uncovered a bug: the amount of the withdrawal is *added* to the account balance when it should be *subtracted*.
 
