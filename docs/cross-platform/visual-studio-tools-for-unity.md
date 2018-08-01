@@ -48,4 +48,4 @@ Visual Studio for Mac also supports Unity projects. For more information, see th
 
 ## Next steps
 
-* [Getting started with Visual Studio Tools for Unity](getting-started-with-visual-studio-tools-for-unity.md)
+* [Get started with Visual Studio Tools for Unity](getting-started-with-visual-studio-tools-for-unity.md)

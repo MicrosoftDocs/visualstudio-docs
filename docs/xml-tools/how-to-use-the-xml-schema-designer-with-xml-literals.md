@@ -31,7 +31,7 @@ This topic describes how to view a schema associated with an XML literal in a Vi
 
 2.  Save the file in some location with the name *PurchaseOrderSchema.xsd*.
 
-3.  In the Solution Explorer, right-click the project's name, select **Add**, and then select **Existing Item**. The **AddExisting Item** dialog box appears. Browse to the *PurchaseOrderSchema.xsd* file, select it, and then click **Add**.
+3.  In **Solution Explorer**, right-click the project's name, select **Add**, and then select **Existing Item**. The **AddExisting Item** dialog box appears. Browse to the *PurchaseOrderSchema.xsd* file, select it, and then click **Add**.
 
      The XMLLiterals project now contains two files: *Module1.vb* and *PurchaseOrderSchema.xsd*.
 

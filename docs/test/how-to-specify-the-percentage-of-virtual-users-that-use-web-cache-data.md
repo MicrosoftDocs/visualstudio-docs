@@ -11,11 +11,11 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Specify the Percentage of Virtual Users that Use Web Cache Data
+# How to: Specify the percentage of virtual users that use web cache data
 
-After you create your load test with the **New Load Test Wizard**, you can change the scenarios properties to meet your testing needs and goals by using the **Load Test Editor**. For a full list of the load test scenario properties and their descriptions, see [Load Test Scenario Properties](../test/load-test-scenario-properties.md).
+After you create your load test with the **New Load Test Wizard**, you can change the scenarios properties to meet your testing needs and goals by using the **Load Test Editor**. For a full list of the load test scenario properties and their descriptions, see [Load test scenario properties](../test/load-test-scenario-properties.md).
 
-The **Percentage of new Users** property is set in the Properties window. You edit load test scenario properties in the Load Test Editor.
+The **Percentage of new Users** property is set in the **Properties** window. You edit load test scenario properties in the **Load Test Editor**.
 
 The **Percentage of new Users** property affects the way in which the load test simulates the caching that would be performed by a web browser. By default, the **Percentage of new Users** property is set to 0%. If the value for the **Percentage of new Users** property is set to 100%, each web performance test run in a load test is treated like a first time user to the website who does not have any content from the website in their browser cache from previous visits. Thus, all requests in the web test, including all dependent requests such as images, are downloaded.
 
@@ -34,7 +34,7 @@ If you are load testing a website that has a significant number of return users 
 
 3. On the **View** menu, select **Properties Window**.
 
-     The scenario's categories and properties are displayed in the Properties window.
+     The scenario's categories and properties are displayed in the **Properties** window.
 
 4. Set the value for the **Percentage of New Users** property by entering a number for the percentage of new users.
 
@@ -42,8 +42,8 @@ If you are load testing a website that has a significant number of return users 
 
 ## See also
 
-- [Edit Load Test Scenarios](../test/edit-load-test-scenarios.md)
+- [Edit load test scenarios](../test/edit-load-test-scenarios.md)
 - [Walkthrough: Create and run a load test](../test/walkthrough-create-and-run-a-load-test.md)
 - [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md)
-- [Load Test Scenario Properties](../test/load-test-scenario-properties.md)
-- [Edit Load Patterns to Model Virtual User Activities](../test/edit-load-patterns-to-model-virtual-user-activities.md)
+- [Load test scenario properties](../test/load-test-scenario-properties.md)
+- [Edit load patterns to model virtual user activities](../test/edit-load-patterns-to-model-virtual-user-activities.md)

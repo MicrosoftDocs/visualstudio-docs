@@ -64,13 +64,13 @@ Visual Studio does not have a solution template for creating native UI applicati
 
     After clicking OK, the **WeatherApp** solution consists of a single project named **WeatherApp**.
 
-2.  If you want to target iOS, add an iOS project to the solution. Right-click the solution name in the **Solution Explorer** and select **Add** and **New Project**.  In the **New Project** dialog, at the left select **Visual C#**, and then **iOS** and **Universal**. (If it's not there, you might have to install Xamarin or enable the Visual Studio 2017 feature, see [Setup and install](../cross-platform/setup-and-install.md).) In the list of templates, select **Single View App (iOS)**. Name it **WeatherApp.iOS**.
+2.  If you want to target iOS, add an iOS project to the solution. Right-click the solution name in **Solution Explorer** and select **Add** and **New Project**.  In the **New Project** dialog, at the left select **Visual C#**, and then **iOS** and **Universal**. (If it's not there, you might have to install Xamarin or enable the Visual Studio 2017 feature, see [Setup and install](../cross-platform/setup-and-install.md).) In the list of templates, select **Single View App (iOS)**. Name it **WeatherApp.iOS**.
 
 3.  If you want to target Android, add an Android project to the solution. In the **New Project** dialog, at the left select **Visual C#** and **Android**. In the template list, select **Blank App (Android)**. Name it **WeatherApp.Android**.
 
 4. If you want to target the Universal Windows Platform, in the **New Project** dialog, at the left select **Visual C#** and **Windows Universal**. In the template list, select **Blank App (Universal Windows)** and name it **WeatherApp.UWP**.
 
-5. For each of the application projects (iOS, Android, and UWP), right-click the **References** section in the **Solution Explorer** and select **Add Reference**. In the **Reference Manager** dialog, at the left select **Project** and **Solution**. You'll see a list of all the projects in the solution except the project whose references you're managing:
+5. For each of the application projects (iOS, Android, and UWP), right-click the **References** section in **Solution Explorer** and select **Add Reference**. In the **Reference Manager** dialog, at the left select **Project** and **Solution**. You'll see a list of all the projects in the solution except the project whose references you're managing:
 
    ![Setting a reference to the .NET Standard project](../cross-platform/media/cross-plat-xamarin-build-3.png)
 
@@ -80,7 +80,7 @@ Visual Studio does not have a solution template for creating native UI applicati
 
 6. Add the **Newtonsoft.Json** NuGet package to the .NET Standard project, which you'll use to process information retrieved from a weather data service:
 
-    -   Right-click the **WeatherApp** project in the **Solution Explorer** and select **Manage NuGet Packages...**.
+    -   Right-click the **WeatherApp** project in **Solution Explorer** and select **Manage NuGet Packages...**.
 
          In the NuGet window, select the **Browse** tab and search for **Newtonsoft**.
 
@@ -223,7 +223,7 @@ Visual Studio does not have a solution template for creating native UI applicati
 
 ### Design the look and feel of your app
 
-1.  In the **Solution Explorer**, expand the **WeatherApp.Droid > Resources > layout** folder and open *Main.axml*. This command opens the file in the visual designer. (If a Java-related error appears, see this [blog post](http://forums.xamarin.com/discussion/32365/connection-to-the-layout-renderer-failed-in-xs-5-7-and-xamarinvs-3-9).)
+1.  In **Solution Explorer**, expand the **WeatherApp.Droid > Resources > layout** folder and open *Main.axml*. This command opens the file in the visual designer. (If a Java-related error appears, see this [blog post](http://forums.xamarin.com/discussion/32365/connection-to-the-layout-renderer-failed-in-xs-5-7-and-xamarinvs-3-9).)
 
     > [!TIP]
     >  There are many other files in the project. Exploring them is beyond the scope of this article, but if you want to dive into the structure of an Android project a bit more, see [Part 2 deep dive](/xamarin/android/get-started/hello-android/hello-android-deepdive/) of the Hello Android article.
@@ -653,7 +653,7 @@ This code calls the `GetWeather` method that you defined in your shared code. `G
 
 ### Run the app and see how it looks
 
-1.  In the **Solution Explorer**, set the **WeatherApp.UWP** project as the startup project.
+1.  In **Solution Explorer**, set the **WeatherApp.UWP** project as the startup project.
 
 2.  In the **Solution Platforms** dropdown box, select **x86** and select **Local Machine** to deploy the application to the Windows 10 desktop.
 
