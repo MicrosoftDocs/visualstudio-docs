@@ -57,7 +57,7 @@ The Extension Pack item template creates an Extension Pack with set of extension
 
     ![Copy VsixId from Marketplace](media/vsixid-marketplace.png)
 
-5. Build the project and upload your extension to the Marketplace. see [Uploading extension to the Marketplace](../extensibility/walkthrough-publishing-a-visual-studio-extension.md). 
+5. Build the project and upload your extension to the Marketplace. See [Publishing a Visual Studio extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md). 
     
 > [!NOTE]
 > An Extension pack can only install extensions that are available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) or [Private gallery](../extensibility/how-to-create-an-atom-feed-for-a-private-gallery.md).
