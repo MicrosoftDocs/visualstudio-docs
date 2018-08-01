@@ -429,6 +429,8 @@ You can also use right-click menus from the **Call Stack** window to do other th
     > [!WARNING]
     > Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer cannot revert your application to an earlier app state.
 
+1. Press **F5** to continue running the app.
+
     Congratulations on completing this tutorial!
 
 ## Next steps
