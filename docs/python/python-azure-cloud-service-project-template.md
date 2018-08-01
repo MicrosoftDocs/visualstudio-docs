@@ -71,7 +71,7 @@ Note that due to limitations in the emulator it is not possible to debug your Py
 
 To open the **Publish** wizard, select the role project in **Solution Explorer** and select **Build** > **Publish** from the main menu, or right-click the project and select **Publish**.
 
-The publishing process involves two phases. First, Visual Studio creates a single package containing all the roles for your cloud service. This package is what's deployed to Azure, which initializes one or more virtual machines for each role and deploy the source.
+The publishing process involves two phases. First, Visual Studio creates a single package containing all the roles for your cloud service. This package is what's deployed to Azure, which initializes one or more virtual machines for each role and deploys the source.
 
 As each virtual machine activates, it executes the *ConfigureCloudService.ps1* script and installs any dependencies. This script by default installs a recent version of Python from [NuGet](https://www.nuget.org/packages?q=Tags%3A%22python%22+Authors%3A%22Python+Software+Foundation%22) and any packages specified in a *requirements.txt* file.
 

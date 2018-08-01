@@ -75,7 +75,7 @@ If desired, you can also install the `bottle` package using the process in those
 
 Publishing to Azure App Service from Visual Studio 2017 copies only the files in your project to the server. It's necessary, therefore, to create the necessary files to configure the server environment.
 
-1. In Visual Studio **Solution Explorer**, right-click the project and select **Add** > **New Item*. In the dialog that appears, select the **Azure web.config (Fast CGI)** template and select **OK**. This creates a *web.config* file in your project root.
+1. In Visual Studio **Solution Explorer**, right-click the project and select **Add** > **New Item**. In the dialog that appears, select the **Azure web.config (Fast CGI)** template and select **OK**. This creates a *web.config* file in your project root.
 
 1. Modify the `PythonHandler` entry in *web.config* so that the path matches the Python installation on the server (see [IIS Configuration Reference](https://www.iis.net/configreference) (iis.net) for exact details). For example, for Python 3.6.1 x64 the entry should appear as follows:
 
@@ -213,7 +213,7 @@ Eventually you may want to maintain your own *web.config* file and use *requirem
 
 ## Remote debugging on Azure App Service
 
-When you publish a Debug configuration from Visual Studio 2015, the process automatically creates a *web.debug.config* file and adds a *ptvsd* folder containing the necessary debugging tools.
+When you publish a **Debug** configuration from Visual Studio 2015, the process automatically creates a *web.debug.config* file and adds a *ptvsd* folder containing the necessary debugging tools.
 
 With Visual Studio 2017, you instead add these components directly to the project. Right-click the project in **Solution Explorer**, select **Add** > **New Item**, and select the **Azure Remote debugging web.config** template. A debugging *web.debug.config* file and the *ptvsd* tool folder appear in your project.
 

@@ -36,17 +36,17 @@ Provides basic information and commands for the environment:
 | **Visit the distributor's website** | Opens a browser to the URL provided by the Python distribution. Python 3.x, for example, goes to python.org. |
 | **Open interactive window** | Opens the [interactive (REPL) window](python-interactive-repl-in-visual-studio.md) for this environment within Visual Studio, applying any [startup scripts (see below)](#startup-scripts). |
 | **Explore interactive scripts** | See [startup scripts](#startup-scripts). |
-| **Use IPython interactive mode** | When set, opens the **Interactive Window** with IPython by default. This enables inline plots as well as the extended IPython syntax such as `name?` to view help and `!command` for shell commands. This option is recommended when using an Anaconda distribution, as it requires extra packages. For more information, see [Use IPython in the Interactive Window](interactive-repl-ipython.md). |
+| **Use IPython interactive mode** | When set, opens the **Interactive** window with IPython by default. This enables inline plots as well as the extended IPython syntax such as `name?` to view help and `!command` for shell commands. This option is recommended when using an Anaconda distribution, as it requires extra packages. For more information, see [Use IPython in the Interactive window](interactive-repl-ipython.md). |
 | **Open in PowerShell** | Starts the interpreter in a PowerShell command window. |
 | (Folder and program links) | Provide you quick access to the environment's installation folder, the *python.exe* interpreter, and the *pythonw.exe* interpreter. The first opens in Windows Explorer, the latter two open a console window. |
 
 ### Startup scripts
 
-As you use interactive windows in your everyday workflow, you likely develop helper functions that you use regularly. For example, you may create a function that opens a DataFrame in Excel, and then save that code as a startup script so that it's always available in the interactive window.
+As you use interactive windows in your everyday workflow, you likely develop helper functions that you use regularly. For example, you may create a function that opens a DataFrame in Excel, and then save that code as a startup script so that it's always available in the **Interactive** window.
 
-Startup scripts contain code that the **Interactive Window** loads and runs automatically, including imports, function definitions, and literally anything else. Such scripts are referenced in two ways:
+Startup scripts contain code that the **Interactive** window loads and runs automatically, including imports, function definitions, and literally anything else. Such scripts are referenced in two ways:
 
-1. When you install an environment, Visual Studio creates a folder *Documents\Visual Studio 2017\Python Scripts\\<environment>* where &lt;environment&gt; matches the name of the environment. You can easily navigate to the environment-specific folder with the **Explore interactive scripts** command. When you start the **Interactive Window** for that environment, it loads and runs whatever *.py* files are found here in alphabetical order.
+1. When you install an environment, Visual Studio creates a folder *Documents\Visual Studio 2017\Python Scripts\\\<environment>* where &lt;environment&gt; matches the name of the environment. You can easily navigate to the environment-specific folder with the **Explore interactive scripts** command. When you start the **Interactive** window for that environment, it loads and runs whatever *.py* files are found here in alphabetical order.
 
 1. The **Scripts** control in **Tools** > **Options** > **Python Tools** > **Interactive Windows** tab (see [Interactive windows options](python-support-options-and-settings-in-visual-studio.md#interactive-windows-options)) is intended to specify an additional folder for startup scripts that are loaded and run in all environments. However, this feature doesn't work at present.
 
@@ -60,12 +60,12 @@ If available, contains details as described in the table below. If this tab isn'
 | --- | --- |
 | **Description** | The name to give the environment. |
 | **Prefix path** | The base folder location of the interpreter. By filling this value and clicking **Auto Detect**, Visual Studio attempts to fill in the other fields for you. |
-| **Interpreter path** | The path to the interpreter executable, commonly the prefix path followed by *python.exe* |
-| **Windowed interpreter** | The path to the non-console executable, often the prefix path followed by *pythonw.exe*. |
+| **Interpreter path** | The path to the interpreter executable, commonly the prefix path followed by **python.exe** |
+| **Windowed interpreter** | The path to the non-console executable, often the prefix path followed by **pythonw.exe**. |
 | **Library path**<br/>(if available) | Specifies the root of the standard library, but this value may be ignored if Visual Studio is able to request a more accurate path from the interpreter. |
 | **Language version** | Selected from the drop-down menu. |
-| **Architecture** | Normally detected and filled in automatically, otherwise specifies 32-bit or 64-bit. |
-| **Path environment variable** | The environment variable that the interpreter uses to find search paths. Visual Studio changes the value of the variable when starting Python so that it contains the project's search paths. Typically this property should be set to `PYTHONPATH`, but some interpreters use a different value. |
+| **Architecture** | Normally detected and filled in automatically, otherwise specifies **32-bit** or **64-bit**. |
+| **Path environment variable** | The environment variable that the interpreter uses to find search paths. Visual Studio changes the value of the variable when starting Python so that it contains the project's search paths. Typically this property should be set to **PYTHONPATH**, but some interpreters use a different value. |
 
 ## Packages tab
 
@@ -93,7 +93,7 @@ Installing a package creates subfolders within the environment's *Lib* folder on
 
 ### Grant administrator privileges for package install
 
-When installing packages into an environment that's located in a protected area of the file system, such as *c:\Program Files\Anaconda3\Lib*, Visual Studio must run `pip install` elevated to allow it to create package subfolders. When elevation is required, Visual Studio displays the prompt, **Administrator privileges may be required to install, update or remove packages for this environment**":
+When installing packages into an environment that's located in a protected area of the file system, such as *c:\Program Files\Anaconda3\Lib*, Visual Studio must run `pip install` elevated to allow it to create package subfolders. When elevation is required, Visual Studio displays the prompt, **Administrator privileges may be required to install, update or remove packages for this environment**:
 
 ![Elevation prompt for package installation](media/environments-pip-elevate.png)
 
