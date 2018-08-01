@@ -30,7 +30,7 @@ You can buy [Visual Studio Professional and Visual Studio Enterprise subscriptio
 
 0.	Select the Azure subscription to use for billing. You can create a new Azure subscription if you don't have one.
 
-	<img alt="Select Azure subscription for biling" src="_img/buy-vs-subscriptions/buy-vs-sub-Azure-sub.png" style="border: 1px solid #CCCCCC" />
+	<img alt="Select Azure subscription for billing" src="_img/buy-vs-subscriptions/buy-vs-sub-Azure-sub.png" style="border: 1px solid #CCCCCC" />
 
 0.	Select the number of subscriptions to buy.
 

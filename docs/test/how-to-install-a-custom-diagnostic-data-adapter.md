@@ -11,7 +11,7 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Install a Custom Diagnostic Data Adapter
+# How to: Install a custom diagnostic data adapter
 
 If you have created a custom diagnostic data adapter, or you have been provided with a custom diagnostic data adapter to use, you can install your diagnostic data adapter assembly by copying the assembly file for it into the correct directory on your local machine.
 
@@ -19,7 +19,7 @@ If you have created a custom diagnostic data adapter, or you have been provided 
 
  Use the following procedure to install your custom diagnostic adapter in the appropriate locations. You will need administrative permissions on any machine where you install the diagnostic data adapter.
 
-## Installing a Custom Diagnostic Data Adapter
+## Install a custom diagnostic data adapter
 
 ### To install a custom diagnostic data adapter
 
@@ -29,9 +29,9 @@ If you have created a custom diagnostic data adapter, or you have been provided 
 
      The files to copy are:
 
-    -   The diagnostic data adapter assembly (.dll) (required).
+    -   The diagnostic data adapter assembly (*.dll*) (required).
 
-    -   The debug data file (.pdb) for your adapter (optional).
+    -   The debug data file (*.pdb*) for your adapter (optional).
 
     -   The configuration file for your adapter (`<diagnostic data adapter name>.dll.config`), if you have default configuration settings (optional).
 
@@ -44,18 +44,18 @@ If you have created a custom diagnostic data adapter, or you have been provided 
 
 2.  To select your diagnostic data adapter for a test, you must first select an existing test settings or create a new one from Microsoft Test Manager or Visual Studio and then select your diagnostic data adapter on the **Data and Diagnostics** tab of the selected test settings.
 
-3.  If you have created and installed a diagnostic data adapter configuration editor, to configure your diagnostic data adapter for your test settings, choose **Configure** next to your adapter and make any changes. Then choose **Save**. For more information about how to create a configuration editor for your diagnostic data collector, see [How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter](../test/how-to-create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md).
+3.  If you have created and installed a diagnostic data adapter configuration editor, to configure your diagnostic data adapter for your test settings, choose **Configure** next to your adapter and make any changes. Then choose **Save**. For more information about how to create a configuration editor for your diagnostic data collector, see [How to: Create a custom editor for data for your diagnostic data adapter](../test/how-to-create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md).
 
-4.  If you are running your tests from Microsoft Test Manager, you can assign these test settings to your test plan before you run your tests or use the **Run with Options** command to assign test settings and override test settings. For more information about test settings, see [Collect Diagnostic Information Using Test Settings](../test/collect-diagnostic-information-using-test-settings.md).
+4.  If you are running your tests from Microsoft Test Manager, you can assign these test settings to your test plan before you run your tests or use the **Run with Options** command to assign test settings and override test settings. For more information about test settings, see [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md).
 
-     If you are running your tests from Visual Studio, you must set these test settings to be active. For more information about test settings, see [Collect Diagnostic Information Using Test Settings](../test/collect-diagnostic-information-using-test-settings.md).
+     If you are running your tests from Visual Studio, you must set these test settings to be active. For more information about test settings, see [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md).
 
 5.  Run your tests using the test settings with the diagnostic data adapter selected.
 
 ## See also
 
-- [How to: Create a Diagnostic Data Adapter](../test/how-to-create-a-diagnostic-data-adapter.md)
-- [How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter](../test/how-to-create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md)
-- [Sample Project for Creating a Diagnostic Data Adapter](../test/sample-project-for-creating-a-diagnostic-data-adapter.md)
-- [Creating a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine](../test/create-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md)
-- [Collect Diagnostic Information Using Test Settings](../test/collect-diagnostic-information-using-test-settings.md)
+- [How to: Create a diagnostic data adapter](../test/how-to-create-a-diagnostic-data-adapter.md)
+- [How to: Create a custom editor for data for your diagnostic data adapter](../test/how-to-create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md)
+- [Sample project for creating a diagnostic data adapter](../test/sample-project-for-creating-a-diagnostic-data-adapter.md)
+- [Create a diagnostic data adapter to collect custom data or affect a test machine](../test/create-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md)
+- [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)
