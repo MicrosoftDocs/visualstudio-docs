@@ -10,7 +10,7 @@ ms.workload:
   - "uwp"
 author: gewarren
 ---
-# Set a Unique Automation Property for UWP Controls for Testing
+# Set a unique automation property for UWP controls for testing
 
 If you want to run coded UI tests for your XAML-based UWP application, each control must be identified by a unique automation property. You can assign a unique automation property based on the type of XAML control in your application.
 
@@ -48,7 +48,7 @@ Set the **AutomationProperties.Name** to **ButtonY** explicitly in the XAML for 
 
 ## Assign unique names
 
-In Blend for Visual Studio, you can select an option to assign unique names to interactive elements such as buttons, list boxes, combo boxes, and text boxes. This gives the controls unique values for **AutomationProperties.Name**.
+In Blend for Visual Studio, you can select an option to assign unique names to interactive elements such as buttons, list boxes, combo boxes, and text boxes, which gives the controls unique values for **AutomationProperties.Name**.
 
 To assign unique names to existing controls, select **Tools** > **Name Interactive Elements**.
 
@@ -134,7 +134,7 @@ You can use a control template so that each instance of a specific type obtains 
 </Style>
 ```
 
-When you define two instances of a button using this control template, the automation id is set to the unique content string for the controls in the template, as shown in the following XAML:
+When you define two instances of a button using this control template, the automation ID is set to the unique content string for the controls in the template, as shown in the following XAML:
 
 ```xaml
 <Button Content="Button1" Style="{StaticResource MyButton}" Width="140"/>
@@ -143,7 +143,7 @@ When you define two instances of a button using this control template, the autom
 
 ### Dynamic controls
 
-If you have controls that are created dynamically from your code and not created statically or through templates in XAML files, you must set the **Content** or **Name** properties for the control. This makes sure that each dynamic control has a unique automation property. For example, if you have a check box that must be displayed when you select a list item, you can set these properties, as shown here:
+If you have controls that are created dynamically from your code and not created statically or through templates in XAML files, you must set the **Content** or **Name** properties for the control. This action makes sure that each dynamic control has a unique automation property. For example, if you have a check box that must be displayed when you select a list item, you can set these properties, as shown here:
 
 ```csharp
 private void CreateCheckBox(string txt, StackPanel panel)
@@ -159,4 +159,4 @@ private void CreateCheckBox(string txt, StackPanel panel)
 
 ## See also
 
-- [Test UWP apps with Coded UI tests](../test/test-uwp-app-with-coded-ui-test.md)
+- [Test UWP apps with coded UI tests](../test/test-uwp-app-with-coded-ui-test.md)

@@ -5,7 +5,7 @@ ms.author: jaunger
 manager: evelynp
 ms.date: 01/12/2018
 ms.topic: Get-Started-Article
-description:  Learn the Opsgility training benefit included with sekected Visual Studio subscription.
+description:  Learn the Opsgility training benefit included with selected Visual Studio subscription.
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
