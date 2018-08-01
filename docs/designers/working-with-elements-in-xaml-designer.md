@@ -23,14 +23,14 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
 
 -   In XAML Designer, do one of the following:
 
-    -   Double-click an element in the **Toolbox** (or select an element in the Toolbox and press Enter).
+    -   Double-click an element in the **Toolbox** (or select an element in the Toolbox and press **Enter**).
 
     -   Drag an element from the **Toolbox** to the artboard.
 
     -   In the **Toolbox**, select one of the drawing tools (for example, [Ellipse](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.ellipse.aspx) or [Rectangle](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.shapes.rectangle.aspx)), and then draw an element in the active panel.
 
 ## Changing the layering order of elements
- When there are two elements on the artboard in XAML Designer, one element will appear in front of the other in the layering order. At the bottom of the list of elements in the Document Outline window is the front-most element (except for when the **ZIndex** property for an element is set). When you insert an element into a page, form, or layout container, the element is automatically placed in front of other elements in the active container element. To change the order of elements, you can use the **Order** commands or drag the elements in the object tree in the Document Outline window.
+ When there are two elements on the artboard in XAML Designer, one element will appear in front of the other in the layering order. At the bottom of the list of elements, in the Document Outline window is the front-most element (except for when the **ZIndex** property for an element is set). When you insert an element into a page, form, or layout container, the element is automatically placed in front of other elements in the active container element. To change the order of elements, you can use the **Order** commands or drag the elements in the object tree in the Document Outline window.
 
 #### To change the layering order
 
@@ -53,11 +53,11 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
 ## Changing the alignment of an element
  You can align elements in the artboard by using menu commands or by dragging elements to snaplines.
 
- A *snapline* is  a visual cue that helps you align  an element relative to other elements in the app.
+ A *snapline* is a visual cue that helps you align an element relative to other elements in the app.
 
 #### To align two or more elements by using menu commands
 
-1.  Select the elements that you want to align. You can select more than one element by pressing and holding the Ctrl key while you select the elements.
+1.  Select the elements that you want to align. You can select more than one element by pressing and holding the **Ctrl** key while you select the elements.
 
 2.  Select one of the following properties under **HorizontalAlignment** in the **Layout** section of the Properties window: **Left**, **Center**, **Right**, or **Stretch**.
 
@@ -94,7 +94,7 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
 
 #### To group elements into a new layout container
 
-1.  Select the elements that you want to group. (To select multiple elements, press and hold the Ctrl key while you click them.)
+1.  Select the elements that you want to group. (To select multiple elements, press and hold the **Ctrl** key while you click them.)
 
 2.  Right-click the selected elements, point to **Group Into**, and then click the type of layout container in which you want the group to reside.
 
@@ -112,7 +112,7 @@ You can add elements—controls, layouts, and shapes—to your app in XAML, in c
 
 #### To reset the element layout
 
--   In the Document Outline window or the artboard, right-click the element, choose **Layout**, **Reset** *PropertyName*, where *PropertyName* is the property that you want to reset (or choose **Layout**, **Reset All** to reset all the layout properties for the element).
+-   In the Document Outline window or the artboard, right-click the element, choose **Layout** > **Reset** *PropertyName*, where *PropertyName* is the property that you want to reset (or choose **Layout** > **Reset All** to reset all the layout properties for the element).
 
 ## See also
 

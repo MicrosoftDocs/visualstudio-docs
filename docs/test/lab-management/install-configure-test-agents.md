@@ -20,10 +20,12 @@ You might also consider if it's better to use [build or release management](use-
 
 ## System requirements
 
+The following table shows the system requirements for installing the test agent or test controller for Visual Studio 2017:
+
 | Item | Requirements |
 | ---- | ------------ |
-| **Agent** | Windows 10<br />Windows 8, Windows 8.1<br />Windows 7 Service Pack 1<br />Windows Server 2016 Standard and Datacenter<br />Windows Server 2012, Windows Server 2012 R2 |
-| **Controller** | Windows 10<br />Windows 8, Windows 8.1<br />Windows 7 Service Pack 1<br />Windows Server 2016 Standard and Datacenter<br />Windows Server 2012, Windows Server 2012 R2 |
+| **Agent** | Windows 10<br />Windows 8, Windows 8.1<br />Windows 7 Service Pack 1<br />Windows Server 2016 Standard and Datacenter<br />Windows Server 2012 R2 |
+| **Controller** | Windows 10<br />Windows 8, Windows 8.1<br />Windows 7 Service Pack 1<br />Windows Server 2016 Standard and Datacenter<br />Windows Server 2012 R2 |
 | **.NET Framework** | .NET Framework 4.5 |
 
 ## Install the test controller and test agents

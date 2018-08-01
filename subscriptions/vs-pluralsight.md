@@ -85,7 +85,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 ## Frequently asked questions
 
 ### Q: I have a Visual Studio Enterprise subscription, but I don't see the Pluralsight tile on the Benefits page. What's wrong?
-A: Not all Visual Studio Enterprise subscriptions include the Pluralsight benefit.  Check the [eligility table](#eligibility) table to see whether your subscription is eligible.
+A: Not all Visual Studio Enterprise subscriptions include the Pluralsight benefit.  Check the [eligibility table](#eligibility) table to see whether your subscription is eligible.
 
 ### Q: Do I have access to any customized learning  playlists or channels?
 A: Yes, as a Visual Studio subscriber you get access to expert channels as part of your Pluralsight training benefit. These channels have been specially curated by Microsoft experts and are geared towards learning in the areas of .Net, Azure, DevOps and Mobility. Activate your Pluralsight benefit through your Visual Studio subscription portal [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) to get access to these channels on your Pluralsight landing page –
@@ -99,7 +99,7 @@ A: Yes, as a Visual Studio subscriber you get access to expert channels as part 
 
 ### Q: What happens when my Pluralsight subscription runs out?
 A:  At the end of your free Pluralsight subscription, you have two options:
-- You get free 12-month access (Check the [eligility table](#eligibility) table to see whether your subscription is eligible) to a limited set of 50 courses in one of three key areas including: app development on the cloud; AI, machine learning and data; and DevOps in the cloud. Watch for an email from Pluralsight to claim your free access after expiration. You can see a [list of courses](https://help.pluralsight.com/help/which-courses-are-included-with-the-visual-studio-benefit) available under each partial library.
+- You get free 12-month access (Check the [eligibility table](#eligibility) table to see whether your subscription is eligible) to a limited set of 50 courses in one of three key areas including: app development on the cloud; AI, machine learning and data; and DevOps in the cloud. Watch for an email from Pluralsight to claim your free access after expiration. You can see a [list of courses](https://help.pluralsight.com/help/which-courses-are-included-with-the-visual-studio-benefit) available under each partial library.
 - You may choose to purchase a subscription directly from Pluralsight at a 10% discount which gives you access to their full course catalog.  Please contact [Pluralsight](http://www.pluralsight.com) for full details.
 
 ### Q: My company renews their Visual Studio subscription through an Enterprise Agreement. Does the Pluralsight benefit reset?

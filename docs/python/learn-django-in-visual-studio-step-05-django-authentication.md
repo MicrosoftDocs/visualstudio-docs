@@ -17,7 +17,7 @@ ms.workload:
 
 **Previous step: [Use the full Django Web Project template](learn-django-in-visual-studio-step-04-full-django-project-template.md)**
 
-Because authentication is a common need for web apps, the "Django Web Project" template includes a basic authentication flow. (The "Polls Django Web Project" template discussed in step 6 of this tutorial also includes the same flow.) When using any of the Django project templates, Visual Studio includes all the necessary modules for authentication in the Django project's `settings.py`.
+Because authentication is a common need for web apps, the "Django Web Project" template includes a basic authentication flow. (The "Polls Django Web Project" template discussed in step 6 of this tutorial also includes the same flow.) When using any of the Django project templates, Visual Studio includes all the necessary modules for authentication in the Django project's *settings.py*.
 
 In this step you learn:
 
@@ -28,15 +28,15 @@ In this step you learn:
 
 The following steps exercise the authentication flow and describe the parts of the project that are involved:
 
-1. If you've not already followed the instructions in the `readme.html` file in the project root to create a super user (administrator) account, do so now.
+1. If you've not already followed the instructions in the *readme.html* file in the project root to create a super user (administrator) account, do so now.
 
-1. Run the app from Visual Studio using **Debug** > **Start Debugging** (F5). When the app appears in the browser, observe that **Log in** appears on the upper right of the nav bar.
+1. Run the app from Visual Studio using **Debug** > **Start Debugging** (**F5**). When the app appears in the browser, observe that **Log in** appears on the upper right of the nav bar.
 
     ![Login control on the Django Web Project app page](media/django/step05-login-control.png)
 
-1. Open `templates/app/layout.html` and observe that the `<div class="navbar ...>` element contains the tag `{% include app/loginpartial.html %}`. The `{% include %}` tag instructs Django's templating system to pull in the contents of the included file at this point in the containing template.
+1. Open *templates/app/layout.html* and observe that the `<div class="navbar ...>` element contains the tag `{% include app/loginpartial.html %}`. The `{% include %}` tag instructs Django's templating system to pull in the contents of the included file at this point in the containing template.
 
-1. Open `templates/app/loginpartial.html` and observe how it uses the conditional tag `{% if user.is_authenticated %}` along with an `{% else %}` tag to render different UI elements depending on whether the user has authenticated:
+1. Open *templates/app/loginpartial.html* and observe how it uses the conditional tag `{% if user.is_authenticated %}` along with an `{% else %}` tag to render different UI elements depending on whether the user has authenticated:
 
     ```html
     {% if user.is_authenticated %}
@@ -57,7 +57,7 @@ The following steps exercise the authentication flow and describe the parts of t
     {% endif %}
     ```
 
-1. Because no user is authenticated when you first start the app, this template code renders only the "Log in" link to the relative path "login". As specified in `urls.py` (as shown in the previous section), that route is mapped to the `django.contrib.auth.views.login` view. That view receives the following data:
+1. Because no user is authenticated when you first start the app, this template code renders only the "Log in" link to the relative path "login". As specified in *urls.py* (as shown in the previous section), that route is mapped to the `django.contrib.auth.views.login` view. That view receives the following data:
 
     ```python
     {
@@ -71,7 +71,7 @@ The following steps exercise the authentication flow and describe the parts of t
     }
     ```
 
-    Here, `template_name` identifies the template for the login page, in this case `templates/app/login.html`. The `extra_context` property is added to the default context data given to the template. Finally, `authentication_form` specifies a form class to use with the login' in the template it appears as the `form` object. The default value is `AuthenticationForm` (from `django.contrib.auth.views`); the Visual Studio project template instead uses the form defined in the app's `forms.py` file:
+    Here, `template_name` identifies the template for the login page, in this case *templates/app/login.html*. The `extra_context` property is added to the default context data given to the template. Finally, `authentication_form` specifies a form class to use with the login; in the template it appears as the `form` object. The default value is `AuthenticationForm` (from `django.contrib.auth.views`); the Visual Studio project template instead uses the form defined in the app's *forms.py* file:
 
     ```python
     from django import forms
@@ -92,7 +92,7 @@ The following steps exercise the authentication flow and describe the parts of t
 
     As you can see, this form class derives from `AuthenticationForm` and specifically overrides the username and password fields to add placeholder text. The Visual Studio template includes this explicit code on the assumption that you likely want to customize the form, such as adding password strength validation.
 
-1. When you navigate to the login page, then, the app renders the `login.html` template. The variables `{{ form.username }}` and `{{ form.password }}` render the `CharField` forms from `BootstrapAuthenticationForm`. There's also a built-in section to show validation errors, and a ready-made element for social logins if you choose to add those services.
+1. When you navigate to the login page, then, the app renders the *login.html* template. The variables `{{ form.username }}` and `{{ form.password }}` render the `CharField` forms from `BootstrapAuthenticationForm`. There's also a built-in section to show validation errors, and a ready-made element for social logins if you choose to add those services.
 
     ```html
     {% extends "app/layout.html" %}
@@ -141,13 +141,13 @@ The following steps exercise the authentication flow and describe the parts of t
 
 1. When you submit the form, Django attempts to authenticate your credentials (such as the super user's credentials). If authentication fails, you remain on the current page but `form.errors` set to true. If authentication is successful, Django navigates to the relative URL in the "next" field, `<input type="hidden" name="next" value="/" />`, which in this case is the home page (`/`).
 
-1. Now, when the home page is rendered again, the `user.is_authenticated` property is true when the `loginpartial.html` template is rendered. As a result, you see a "Hello (username)" message and "Log off". You can use `user.is_authenticated` in other parts of the app to check authentication.
+1. Now, when the home page is rendered again, the `user.is_authenticated` property is true when the *loginpartial.html* template is rendered. As a result, you see a **Hello (username)** message and **Log off**. You can use `user.is_authenticated` in other parts of the app to check authentication.
 
     ![Hello message and logoff control on the Django Web Project app page](media/django/step05-logoff-control.png)
 
 1. To check whether the authenticated user is authorized to access specific resources, you need to retrieve user-specific permissions from your database. For more information, see [Using the Django authentication system](https://docs.djangoproject.com/en/2.0/topics/auth/default/#permissions-and-authorization) (Django docs).
 
-1. The super user or administrator, in particular, is authorized to access the built-in Django administrator interfaces using the relative URLs "/admin/" and "/admin/doc/". To enable these interfaces, open the Django project's `urls.py` and remove the comments from the following entries:
+1. The super user or administrator, in particular, is authorized to access the built-in Django administrator interfaces using the relative URLs "/admin/" and "/admin/doc/". To enable these interfaces, open the Django project's *urls.py* and remove the comments from the following entries:
 
     ```python
     from django.conf.urls import include
@@ -166,7 +166,7 @@ The following steps exercise the authentication flow and describe the parts of t
 
     ![Django administrator interface](media/django/step05-administrator-interface.png)
 
-1. The final part to the authentication flow is logging off. As you can see in `loginpartial.html`, the **Log off** link simply does a POST to the relative URL "/login", which is handled by the built-in view `django.contrib.auth.views.logout`. This view doesn't display any UI and just navigates to the home page (as shown in `urls.py` for the "^logout$" pattern). If you want to display a logoff page, first change the URL pattern as follows to add a "template_name" property and remove the "next_page" property:
+1. The final part to the authentication flow is logging off. As you can see in *loginpartial.html*, the **Log off** link simply does a POST to the relative URL "/login", which is handled by the built-in view `django.contrib.auth.views.logout`. This view doesn't display any UI and just navigates to the home page (as shown in *urls.py* for the "^logout$" pattern). If you want to display a logoff page, first change the URL pattern as follows to add a "template_name" property and remove the "next_page" property:
 
     ```python
     url(r'^logout$',
@@ -178,7 +178,7 @@ The following steps exercise the authentication flow and describe the parts of t
         name='logout')
     ```
 
-    Then create `templates/app/loggedoff.html` with the following (minimal) contents:
+    Then create *templates/app/loggedoff.html* with the following (minimal) contents:
 
     ```html
     {% extends "app/layout.html" %}
@@ -193,7 +193,7 @@ The following steps exercise the authentication flow and describe the parts of t
 
 1. When you're all done, stop the server and once again commit your changes to source control.
 
-### Question: what is the purpose of the {% crsf_token %} tag that appears in the \<form\> elements?
+### Question: What is the purpose of the {% crsf_token %} tag that appears in the \<form\> elements?
 
 Answer: The `{% crsf_token %}` tag includes Django's built-in [cross-site request forgery (crsf) protection](https://docs.djangoproject.com/en/2.0/ref/csrf/) (Django docs). You typically add this tag to any element that involves POST, PUT, or DELETE request methods, such as a form. The template rendering function (`render`) then inserts the necessary protection.
 

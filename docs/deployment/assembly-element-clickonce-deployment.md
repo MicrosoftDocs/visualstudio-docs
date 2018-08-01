@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;assembly&gt; Element (ClickOnce Deployment)
+# &lt;assembly&gt; element (ClickOnce deployment)
 The top-level element for the deployment manifest.  
   
 ## Syntax  
@@ -31,7 +31,7 @@ The top-level element for the deployment manifest.
 />  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `assembly` element is the root element and is required. Its first contained element must be an `assemblyIdentity` element. The manifest elements must be in the following namespaces: `urn:schemas-microsoft-com:asm.v1`, `urn:schemas-microsoft-com:asm.v2`, and `http://www.w3.org/2000/09/xmldsig#`. Child elements of the assembly must also be in these namespaces, by inheritance or by tagging.  
   
  The `assembly` element has the following attribute.  
@@ -58,6 +58,6 @@ The top-level element for the deployment manifest.
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">  
 ```  
   
-## See Also  
- [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md)   
- [\<assembly> Element](../deployment/assembly-element-clickonce-application.md)
+## See also  
+ [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)   
+ [\<assembly> element](../deployment/assembly-element-clickonce-application.md)

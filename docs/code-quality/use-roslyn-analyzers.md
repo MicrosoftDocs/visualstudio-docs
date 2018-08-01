@@ -73,7 +73,7 @@ The following screenshot shows the same three violations as they appear in the *
 
 You can change the severity of a rule from **Solution Explorer**, or within the *\<projectname>.ruleset* file that is added to the solution after you change the severity of a rule in **Solution Explorer**.
 
-![Ruleset file in Solution Explorer](media/ruleset-in-solution-explorer.png)
+![Rule set file in Solution Explorer](media/ruleset-in-solution-explorer.png)
 
 ### To set rule severity from Solution Explorer
 
@@ -93,7 +93,7 @@ You can change the severity of a rule from **Solution Explorer**, or within the 
 
 1. In the **Action** column, select the value to open a drop-down list, and select the desired severity from the list.
 
-   ![Ruleset file open in editor](media/ruleset-file-in-editor.png)
+   ![Rule set file open in editor](media/ruleset-file-in-editor.png)
 
 ## Suppress violations
 

@@ -12,7 +12,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Use MSBuild Project SDKs
+# How to: Use MSBuild project SDKs
 
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 15.0 introduced the concept of the "project SDK", which simplifies using software development kits that require properties and targets to be imported.
 
@@ -40,9 +40,9 @@ During evaluation of the project, [!INCLUDE[vstecmsbuild](../extensibility/inter
 </Project>
 ```
 
-## Referencing a Project SDK
+## Reference a project SDK
 
- There are three ways to reference a project SDK
+ There are three ways to reference a project SDK:
 
 1. Use the `Sdk` attribute on the `<Project/>` element:
 
@@ -53,6 +53,9 @@ During evaluation of the project, [!INCLUDE[vstecmsbuild](../extensibility/inter
     ```
 
     An implicit import is added to the top and bottom of the project as discussed above.  The format of the `Sdk` attribute is `Name[/Version]` where Version is optional.  For example, you can specify `My.Custom.Sdk/1.2.3`.
+
+    > [!NOTE]
+    > This is currently the only supported way to reference a project SDK in Visual Studio for Mac.
 
 2. Use the top-level `<Sdk/>` element:
 
@@ -82,7 +85,7 @@ During evaluation of the project, [!INCLUDE[vstecmsbuild](../extensibility/inter
 
    When using the `<Import/>` element, you can specify an optional `Version` attribute as well.  For example, you can specify `<Import Project="Sdk.props" Sdk="My.Custom.Sdk" Version="1.2.3" />`.
 
-## How Project SDKs are Resolved
+## How project SDKs are resolved
 
 When evaluating the import, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] dynamically resolves the path to the project SDK based on the name and version you specified.  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] also has a list of registered SDK resolvers which are plug-ins that locate project SDKs on your machine.  These plug-ins include:
 
@@ -103,11 +106,11 @@ The NuGet-based SDK resolver supports specifying a version in your [global.json]
 }
 ```
 
-Only one version of each project SDK can be used during a build.  If you are referencing two different versions of the same project SDK, MSBuild will emit a warning.  It is recommended to **not** specify a version in your projects if a version is specified in your `global.json`.  
+Only one version of each project SDK can be used during a build.  If you are referencing two different versions of the same project SDK, MSBuild will emit a warning.  It is recommended to **not** specify a version in your projects if a version is specified in your *global.json*.  
 
-## See Also
+## See also
 
- [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
- [Customize Your Build](../msbuild/customize-your-build.md)   
- [Packages, Metadata, and Frameworks](/dotnet/core/packages)   
+ [MSBuild concepts](../msbuild/msbuild-concepts.md)   
+ [Customize your build](../msbuild/customize-your-build.md)   
+ [Packages, metadata, and frameworks](/dotnet/core/packages)   
  [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj)

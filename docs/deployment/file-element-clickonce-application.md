@@ -25,7 +25,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;file&gt; Element (ClickOnce Application)
+# &lt;file&gt; element (ClickOnce application)
 Identifies all nonassembly files downloaded and used by the application.  
   
 ## Syntax  
@@ -79,7 +79,7 @@ Identifies all nonassembly files downloaded and used by the application.
 </file>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `file` element is optional. The element has the following attributes.  
   
 |Attribute|Description|  
@@ -194,5 +194,5 @@ Identifies all nonassembly files downloaded and used by the application.
 </file>  
 ```  
   
-## See Also  
- [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)
+## See also  
+ [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

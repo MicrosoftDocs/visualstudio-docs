@@ -18,7 +18,7 @@ The Immutability API of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md
 > [!NOTE]
 >  A locking policy can be circumvented by using reflection. It provides a clear boundary for third-party developers, but does not provide strong security.
 
- More information and samples are available at the Visual Studio [Visualization and Modeling SDK](https://code.msdn.microsoft.com/Visualization-and-Modeling-313535db) Web site.
+ More information and samples are available at the Visual Studio [Visualization and Modeling SDK](https://code.msdn.microsoft.com/Visualization-and-Modeling-313535db) website.
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
