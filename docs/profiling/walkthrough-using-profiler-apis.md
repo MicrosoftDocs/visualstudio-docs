@@ -44,7 +44,7 @@ ProfileLevel.Global,
 DataCollection.CurrentId);  
 ```  
   
- You can turn off data collection at the command line without the using an API call. The following steps assume your command line build environment is configured to run the profiling tools and as your development tools. This includes the settings necessary for VSInstr and VSPerfCmd. See Command-Line Profiling Tools.  
+ You can turn off data collection at the command line without using an API call. The following steps assume your command line build environment is configured to run the profiling tools and as your development tools. This includes the settings necessary for VSInstr and VSPerfCmd. See [Command-Line Profiling Tools](../profiling/using-the-profiling-tools-from-the-command-line).  
   
 ## Limit data collection using profiler APIs  
   
@@ -53,7 +53,7 @@ DataCollection.CurrentId);
 1.  Create a new C# project in Visual Studio, or use a command line build, depending on your preference.  
   
     > [!NOTE]
-    >  Your build must reference the *Microsoft.VisualStudio.Profiler.dll* library, located in the*Microsoft Visual Studio 9\Team Tools\Performance Tools* directory.  
+    >  Your build must reference the *Microsoft.VisualStudio.Profiler.dll* library, located in the *Microsoft Visual Studio 9\Team Tools\Performance Tools* directory.  
   
 2.  Copy and paste the following code into your project:  
   
@@ -63,47 +63,51 @@ DataCollection.CurrentId);
     using System.Text;  
     using Microsoft.VisualStudio.Profiler;  
   
-    namespace ConsoleApplication2  
+    namespace ConsoleApplication1  
     {  
         class Program  
         {  
             public class A  
             {  
-             private int _x;  
+                private int _x;  
   
-             public A(int x)  
-             {  
-              _x = x;  
-             }  
+                public A(int x)  
+                {  
+                    _x = x;  
+                }  
   
-             public int DoNotProfileThis()  
-             {  
-              return _x * _x;  
-             }  
+                public int DoNotProfileThis()  
+                {  
+                    return _x * _x;  
+                }  
   
-             public int OnlyProfileThis()  
-             {  
-              return _x + _x;  
-             }  
+                public int OnlyProfileThis()  
+                {  
+                    return _x + _x;  
+                }  
   
-             public static void Main()  
-             {  
-            DataCollection.StopProfile(  
-            ProfileLevel.Global,  
-            DataCollection.CurrentId);  
-              A a;  
-              a = new A(2);  
-              int x;      
-              Console.WriteLine("2 square is {0}", a.DoNotProfileThis());  
-              DataCollection.StartProfile(  
-                  ProfileLevel.Global,  
-                  DataCollection.CurrentId);  
-              x = a.OnlyProfileThis();  
-              DataCollection.StopProfile(  
-                  ProfileLevel.Global,   
-                  DataCollection.CurrentId);  
-              Console.WriteLine("2 doubled is {0}", x);  
-             }  
+                public static void Main()  
+                {  
+                    DataCollection.StopProfile(  
+                    ProfileLevel.Global,  
+                    DataCollection.CurrentId); 
+
+                    A a = new A(2);  
+                    Console.WriteLine("2 square is {0}", a.DoNotProfileThis()); 
+
+                    DataCollection.StartProfile(  
+                    ProfileLevel.Global,  
+                    DataCollection.CurrentId);
+
+                    int x;  
+                    x = a.OnlyProfileThis();  
+
+                    DataCollection.StopProfile(  
+                    ProfileLevel.Global,   
+                    DataCollection.CurrentId);  
+
+                    Console.WriteLine("2 doubled is {0}", x);  
+                }  
             }  
   
         }  
@@ -138,19 +142,19 @@ DataCollection.CurrentId);
   
 2.  To profile a managed application, type the following command to set the appropriate environment variables:  
   
-     **VsPefCLREnv /traceon**  
+     **VsPerfCLREnv /traceon**  
   
-3.  Type the following command:**VSInstr \<filename>.exe**  
+3.  Type the following command: **VSInstr \<filename>.exe**  
   
-4.  Type the following command:**VSPerfCmd /start:trace /output:\<filename>.vsp**  
+4.  Type the following command: **VSPerfCmd /start:trace /output:\<filename>.vsp**  
   
-5.  Type the following command:**VSPerfCmd /globaloff**  
+5.  Type the following command: **VSPerfCmd /globaloff**  
   
 6.  Execute your program.  
   
-7.  Type the following command:**VSPerfCmd /shutdown**  
+7.  Type the following command: **VSPerfCmd /shutdown**  
   
-8.  Type the following command:**VSPerfReport /calltrace:\<filename>.vsp**  
+8.  Type the following command: **VSPerfReport /calltrace:\<filename>.vsp**  
   
      A .*csv* file is created in the current directory with the resulting performance data.  
   
