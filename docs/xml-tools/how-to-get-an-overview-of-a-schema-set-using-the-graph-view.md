@@ -27,10 +27,10 @@ This topic describes how to use the [Graph View](../xml-tools/graph-view.md) to 
 
 5.  Select the Graph View from the **XSD Toolbar**.
 
-6.  Select **Schema Set** node in the **XML Schema Explorer** and drag the node to design suface of the Graph View. You should see all the global nodes, and arrows connecting the nodes that have relationships.
+6.  Select **Schema Set** node in the **XML Schema Explorer** and drag the node to design surface of the Graph View. You should see all the global nodes, and arrows connecting the nodes that have relationships.
 
      ![Graph View](../xml-tools/media/relationshipingraphview.gif)
 
 7.  Click on any node on the design surface and look at the breadcrumb bar to see where the selected node is located in the schema set.
 
-8.  Rick-click on any element node on the desing surface and select **Generate Sample XML** to see the XML instance document.
+8.  Rick-click on any element node on the design surface and select **Generate Sample XML** to see the XML instance document.

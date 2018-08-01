@@ -14,8 +14,8 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Sending Events
-The mechanism for communication between the debugger and the debug engine (DE) is an event model based on DCOM. Events are sent as COM objects, and each event has parameters that specify the following:  
+# Send events
+The mechanism for communication between the debugger and the debug engine (DE) is an event model based on DCOM. Events are sent as COM objects, and each event has parameters that specify:  
   
 -   The DE that called the event.  
   
@@ -27,16 +27,16 @@ The mechanism for communication between the debugger and the debug engine (DE) i
   
  All debug events are sent using the method [IDebugEventCallback2::Event](../../extensibility/debugger/reference/idebugeventcallback2-event.md).  
   
-## In This Section  
- [Event Sources](../../extensibility/debugger/event-sources-visual-studio-sdk.md)  
+## In this section  
+ [Event sources](../../extensibility/debugger/event-sources-visual-studio-sdk.md)  
  Explains the two sources of events: the debug engine (DE) and the session debug manager (SDM).  
   
- [Supported Event Types](../../extensibility/debugger/supported-event-types.md)  
+ [Supported event types](../../extensibility/debugger/supported-event-types.md)  
  Discusses the currently supported event types: asynchronous and synchronous.  
   
- [Event Descriptions](../../extensibility/debugger/event-descriptions.md)  
+ [Event descriptions](../../extensibility/debugger/event-descriptions.md)  
  Defines events and the reasons for their use.  
   
-## Related Sections  
- [Creating a Custom Debug Engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)  
+## Related sections  
+ [Creating a custom debug engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)  
  Describes how a DE works with the interpreter or operating system to provide debugging services.

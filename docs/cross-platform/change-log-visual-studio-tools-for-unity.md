@@ -481,7 +481,7 @@ Visual Studio Tools for Unity change log.
 
     -   Added an option to configure the visibility of MonoBehavior messages.
 
-    -   Removed Visual Studio property pages that are not relevent to Unity projects.
+    -   Removed Visual Studio property pages that are not relevant to Unity projects.
 
 ### Bug fixes
 

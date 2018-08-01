@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "xplat-cplusplus"
 ---
-# Install And Configure Tools to Build using iOS
+# Install and configure tools to build using iOS
 
 You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and deploy iOS code to the iOS Simulator or to an iOS device, but because of licensing restrictions, the code must be built and run remotely on a Mac. To build and run iOS apps using Visual Studio, you need to set up and configure the remote agent, [vcremote](https://go.microsoft.com/fwlink/p/?LinkId=534988), on your Mac. The remote agent handles build requests from Visual Studio and runs the app on an iOS device connected to the Mac, or in the iOS Simulator on the Mac.
 
@@ -44,11 +44,11 @@ To install and use the remote agent to develop code for iOS, you must first have
 
 - An iOS signing identity configured in Xcode
 
-   For detailed information on obtaining an iOS Signing Identity, see [Maintaining Your Signing Identities and Certificates](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html) in the iOS Developer Library. To see or set your signing identity in Xcode, open the **Xcode** menu and choose **Preferences**. Select **Accounts** and choose your Apple ID, and then choose the **View Details** button.
+   For detailed information on obtaining an iOS Signing Identity, see [Maintain your signing identities and certificates](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingCertificates/MaintainingCertificates.html) in the iOS Developer Library. To see or set your signing identity in Xcode, open the **Xcode** menu and choose **Preferences**. Select **Accounts** and choose your Apple ID, and then choose the **View Details** button.
 
 - If you are using an iOS device for development, a Provisioning Profile configured in Xcode for your device
 
-   For detailed information on creating provisioning Profiles, see [Creating Provisioning Profiles Using Member Center](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingProfiles/MaintainingProfiles.html#//apple_ref/doc/uid/TP40012582-CH30-SW24) in the iOS Developer Library.
+   For detailed information on creating provisioning Profiles, see [Create provisioning profiles using Member Center](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/MaintainingProfiles/MaintainingProfiles.html#//apple_ref/doc/uid/TP40012582-CH30-SW24) in the iOS Developer Library.
 
 - [Node.js](https://nodejs.org/)
 
@@ -64,7 +64,7 @@ To install and use the remote agent to develop code for iOS, you must first have
 
 When you install Visual C++ for Cross-Platform Mobile Development, Visual Studio can communicate with [vcremote](https://go.microsoft.com/fwlink/p/?LinkId=534988), a remote agent running on your Mac to transfer files, build and run your iOS app, and send debugging commands.
 
-Before you install the remote agent, make sure you have satisfied the [Prerequisites](#Prerequisites) and installed [Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md#install-the-tools).
+Before you install the remote agent, make sure you have satisfied the [Prerequisites](#Prerequisites) and installed [Visual C++ for cross-platform mobile development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md#install-the-tools).
 
 ###  <a name="DownloadInstall"></a> To download and install the remote agent
 
@@ -119,7 +119,7 @@ Once you have started the remote agent, you can use it from Visual Studio until 
 
 #### To stop the remote agent
 
-- In the Terminal window vcremote is running in, enter `Control+C`.
+- In the Terminal window vcremote is running in, enter **Control**+**C**.
 
 ##  <a name="ConfigureVS"></a> Configure the remote agent in Visual Studio
 
@@ -152,7 +152,7 @@ To connect to the remote agent from Visual Studio, you must specify the remote c
 
    If the pairing does not succeed, verify that the remote agent is running by following the steps in [Start the remote agent](#Start). If too much time has passed since the remote agent PIN was generated, follow the steps in [Generate a new security PIN](#GeneratePIN) on the Mac and then try again. If you are using the host name of your Mac, try using the IP address in the **Host Name** field instead.
 
-1. Update the folder name in the **Remote Root** field to specify the folder used by the remote agent in your home (~) directory on the Mac. By default, the remote agent uses /Users/`username`/vcremote as the remote root.
+1. Update the folder name in the **Remote Root** field to specify the folder used by the remote agent in your home (*~*) directory on the Mac. By default, the remote agent uses /Users/`username`/vcremote as the remote root.
 
 1. Choose **OK** to save the remote pairing connection settings.
 
@@ -214,7 +214,7 @@ You can configure the remote agent using various command line options. For examp
 
    `vcremote --serverDir directory_path`
 
-   where *directory_path* is the location on your Mac to place log files, builds, and server certificates. By default, this location is /Users/*username*/vcremote. Builds are organized by build number in this location.
+   where *directory_path* is the location on your Mac to place log files, builds, and server certificates. By default, this location is */Users/\<username>/vcremote*. Builds are organized by build number in this location.
 
 - To use a background process to capture `stdout` and `stderr` to a file named server.log, enter:
 
@@ -230,4 +230,4 @@ You can configure the remote agent using various command line options. For examp
 
 ## See also
 
-- [Install Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)
+- [Install Visual C++ for cross-platform mobile development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md)
