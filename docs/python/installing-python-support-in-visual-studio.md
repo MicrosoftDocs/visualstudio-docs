@@ -35,7 +35,7 @@ To quickly test Python support after following the installation steps, Open the 
 
 1. Download and run the latest Visual Studio 2017 installer. If you have Visual Studio installed already, run the Visual Studio Installer, select the **Modify** option (see [Modify Visual Studio](../install/modify-visual-studio.md)) and go to step 2.
 
-    ![INCLUDE[install-vs](include/install-vs.md)]
+    ![INCLUDE[install-vs](includes/install-vs.md)]
 
 1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload.
 

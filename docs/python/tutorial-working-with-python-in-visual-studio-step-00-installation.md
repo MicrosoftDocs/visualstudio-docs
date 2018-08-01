@@ -20,7 +20,7 @@ ms.workload:
 
 1. Download and run the latest Visual Studio 2017 installer for Windows (Python support is present in release 15.2 and later). If you have Visual Studio installed already, run the Visual Studio installer and go to step 2.
 
-    ![INCLUDE[install-vs](include/install-vs.md)]
+    ![INCLUDE[install-vs](includes/install-vs.md)]
 
 1. The installer presents you with a list of workloads, which are groups of related options for specific development areas. For Python, select the **Python development** workload and select **Install**:
 
