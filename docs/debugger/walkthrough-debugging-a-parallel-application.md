@@ -59,9 +59,9 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
   
 1.  In Visual Studio, on the **File** menu, point to **New** and then click **Project**.  
   
-2.  In the **Installed Templates** pane, select either Visual C#, Visual Basic, or Visual C++. For the managed languages, ensure that [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] is displayed in the framework box.  
+2.  Select either **Visual C#**, **Visual Basic**, or **Visual C++**. For the managed languages, ensure that [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] is displayed in the framework box.  
   
-3.  Select **Console Application** and then click **OK**. Remain in Debug configuration, which is the default.  
+3.  Under **Windows Desktop**, choose **Console Application** and then click **OK**. Remain in Debug configuration, which is the default.  
   
 4.  Open the .cpp, .cs, or .vb code file in the project. Delete its contents to create an empty code file.  
   
