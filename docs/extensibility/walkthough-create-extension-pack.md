@@ -56,12 +56,12 @@ The Extension Pack item template creates an Extension Pack with set of extension
 4. The vsixid of the extension to include in the Extension Pack can be found on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/). Find the extension you want to include and click on **Copy ID**. You can update the existing **vsixId** in the above file or add another extension to the list.
 
     ![Copy VsixId from Marketplace](media/vsixid-marketplace.png)
+
+5. Build the project and upload your extension to the Marketplace. see [Uploading extension to the Marketplace](../extensibility/walkthrough-publishing-a-visual-studio-extension.md). 
     
 > [!NOTE]
 > An Extension pack can only install extensions that are available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) or [Private gallery](../extensibility/how-to-create-an-atom-feed-for-a-private-gallery.md).
-
-5. Build the project and upload your extension to the Marketplace. see [Uploading extension to the Marketplace](../extensibility/walkthrough-publishing-a-visual-studio-extension.md). 
-  
+ 
 ## Install the Extension Pack from the Visual Studio Marketplace
 
 Now that the extension is published, install it in Visual Studio and test it there.
