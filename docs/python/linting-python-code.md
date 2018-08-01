@@ -48,7 +48,7 @@ For example, to suppress the "missing docstring" warnings shown in the previous 
 
 1. In Visual Studio Solution Explorer, right-click your project, select **Add** > **Existing Item**, navigate to the new *.pylintrc* file, select it, and select **Add**.
 
-1. Open the file for editing, which has several settings you can work with. To disable a warning, locate the `[MESSAGES CONTROL]` section, then locate the `disable` setting in that section. There's a long string of specific messages, to which you can append whichever warnings you want. In the example here, append `,missing-docstring` (including the leading comma).
+1. Open the file for editing, which has several settings you can work with. To disable a warning, locate the `[MESSAGES CONTROL]` section, then locate the `disable` setting in that section. There's a long string of specific messages, to which you can append whichever warnings you want. In the example here, append `,missing-docstring` (including the delineating comma).
 
 1. Save the *.pylintrc* file and run PyLint again to see that the warnings are now suppressed.
 

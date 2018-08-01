@@ -98,7 +98,7 @@ One of Visual Studio's strengths is its powerful debugger. For Python in particu
 
 For more information:
 
-- Video: [Debug Python 3m 32s](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=Ep5dp5LWE_3805918567)
+- Video: [Debugging Python 3m 32s](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=Ep5dp5LWE_3805918567)
 - Docs: [Debug Python](debugging-python-in-visual-studio.md)
 - Docs: [Python/C++ mixed-mode debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md)
 - Docs: [Remote debugging on Linux](debugging-python-code-on-remote-linux-machines.md)
@@ -113,7 +113,7 @@ Profiling explores how time is being spent within your application. Visual Studi
 
 For more information:
 
-- Video: [Profile Python 3m 00s](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=s6FoC6LWE_1005918567)
+- Video: [Profiling Python 3m 00s](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=s6FoC6LWE_1005918567)
 - Docs: [Python profiling tools](profiling-python-code-in-visual-studio.md)
 - General Visual Studio feature docs: [Profiling Feature Tour](../profiling/profiling-feature-tour.md). (Not all Visual Studio profiling features are available for Python).
 
@@ -125,7 +125,7 @@ Discover, run, and manage tests in Visual Studio **Test Explorer**, and easily d
 
 For more information:
 
-- Video: [Test Python 2m 31s](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=hb46k6LWE_405918567)
+- Video: [Testing Python 2m 31s](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=hb46k6LWE_405918567)
 - Docs: [Unit testing tools for Python](unit-testing-python-in-visual-studio.md)
 - General Visual Studio feature docs: [Unit test your code](../test/unit-test-your-code.md).
 
@@ -158,7 +158,7 @@ A. The main offering in this area is the [Qt Project](https://www.qt.io/qt-for-a
 
 **Q. Can a Python project produce a stand-alone executable?**
 
-A. Python is generally an interpreted language, with which code is run on demand in a suitable Python-capable environment such as Visual Studio and web servers. Visual Studio itself does not at present provide the means to create a stand-alone executable, which essentially means a program with an embedded Python interpreter. However, there are various means within the Python community to create executables as described on [StackOverflow](http://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency). CPython also supports being embedded within a native application, as described on the blog post, [Use CPython's embeddable zip file](https://blogs.msdn.microsoft.com/pythonengineering/2016/04/26/cpython-embeddable-zip-file/).
+A. Python is generally an interpreted language, with which code is run on demand in a suitable Python-capable environment such as Visual Studio and web servers. Visual Studio itself does not at present provide the means to create a stand-alone executable, which essentially means a program with an embedded Python interpreter. However, there are various means within the Python community to create executables as described on [StackOverflow](http://stackoverflow.com/questions/5458048/how-to-make-a-python-script-standalone-executable-to-run-without-any-dependency). CPython also supports being embedded within a native application, as described on the blog post, [Using CPython's embeddable zip file](https://blogs.msdn.microsoft.com/pythonengineering/2016/04/26/cpython-embeddable-zip-file/).
 
 ## Features matrix
 

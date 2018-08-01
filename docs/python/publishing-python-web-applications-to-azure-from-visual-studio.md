@@ -179,7 +179,7 @@ Publishing to Azure App Service from Visual Studio 2017 copies only the files in
 ## Publish to App Service - Visual Studio 2015
 
 > [!Note]
-> A short video of this process can be found on [Visual Studio Python tutorial: Build a website](https://www.youtube.com/watch?v=FJx5mutt1uk&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=6) (youtube.com, 3m10s).
+> A short video of this process can be found on [Visual Studio Python tutorial: Building a website](https://www.youtube.com/watch?v=FJx5mutt1uk&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=6) (youtube.com, 3m10s).
 
 1. In **Solution Explorer**, right-click the project and select **Publish**.
 
