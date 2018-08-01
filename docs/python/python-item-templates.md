@@ -47,7 +47,7 @@ The following table briefly explains the effect of each item template within a P
 >
 > ![Changing the publish configuration](media/template-web-publish-config.png)
 
-## See also
+### See also
 
 - [Manage Python projects - Project templates](managing-python-projects-in-visual-studio.md#project-templates)
 - [Python web project templates](python-web-application-project-templates.md)
