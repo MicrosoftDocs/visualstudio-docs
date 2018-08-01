@@ -16,9 +16,7 @@ ms.workload:
 ---
 # Tutorial: Learn to debug using Visual Studio
 
-This topic introduces the features of the Visual Studio debugger in a step-by-step walkthrough. If you want a higher-level view of the debugger features, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md). When you *debug your app*, it usually means that you are running your application with the debugger attached. When you do this, the debugger provides many ways to see what your code is doing while it runs. You can step through your code and look at the values stored in variables, you can set watches on variables to see when values change, you can examine the execution path of your code, et al. If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this topic.
-
-You can either read along to see the features of the debugger or you can download the complete sample used in the feature tour and follow the steps yourself. To download the sample and follow along, go to [Photo Viewer Demo](https://code.msdn.microsoft.com/windowsdesktop/WPF-Photo-Viewer-Demo-be75662a).
+This article introduces the features of the Visual Studio debugger in a step-by-step walkthrough. If you want a higher-level view of the debugger features, see [Debugger Feature Tour](../debugger/debugger-feature-tour.md). When you *debug your app*, it usually means that you are running your application with the debugger attached. When you do this, the debugger provides many ways to see what your code is doing while it runs. You can step through your code and look at the values stored in variables, you can set watches on variables to see when values change, you can examine the execution path of your code, see whether a branch of code is running, and so on. If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this article.
 
 |         |         |
 |---------|---------|
@@ -33,7 +31,6 @@ In this tutorial, you will:
 > * Learn commands to step through code in the debugger
 > * Inspect variables in data tips and debugger windows
 > * Examine the call stack
-> * Use the Exception Helper
 
 ## Prerequisites
 
@@ -263,7 +260,7 @@ In this tutorial, you will:
 
 1. Press **F5** (**Debug > Start Debugging**) or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar.
 
-     F5 starts the app with the debugger attached to the app process, but right now we haven't added any breakpoints or done anything special to examine the code. So the app just loads and you see the console output.
+     **F5** starts the app with the debugger attached to the app process, but right now we haven't done anything special to examine the code. So the app just loads and you see the console output.
 
     ```
     Drawing a rectangle
@@ -362,7 +359,7 @@ The debugger stops again at the breakpoint you set, in the `foreach` loop (`for`
 
 Features that allow you to inspect variables are one of the most useful features of the debugger, and there are different ways to do it. Often, when you try to debug an issue, you are attempting to find out whether variables are storing the values that you expect them to have at a particular time.
 
-1. While paused on the `foreach` loop, press **F11** once.
+1. While paused on the `foreach` loop (`for` loop in C++), press **F11** once.
 
 1. Hover over the `shapes` object and you see its default property value, the `Count` property.
 
@@ -385,7 +382,7 @@ Features that allow you to inspect variables are one of the most useful features
 
 2. Next, look at the **Locals** window, in a tab next to the **Autos** window.
 
-    The **Locals** window shows you the variables that are in the current scope.
+    The **Locals** window shows you the variables that are in the current [scope](https://www.wikipedia.org/wiki/Scope_(computer_science)).
 
 ## Set a watch
 
@@ -422,7 +419,7 @@ You can also use right-click menus from the **Call Stack** window to do other th
 
 1. Press **F11** one more time.
 
-    The debugger re-runs the `Console.WriteLine` method (`std::cout` in C++).
+    The debugger reruns the `Console.WriteLine` method (`std::cout` in C++).
 
     By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger.
 
