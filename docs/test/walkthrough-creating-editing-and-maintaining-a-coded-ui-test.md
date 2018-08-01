@@ -32,23 +32,23 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
 
 7.  Choose **OK**.
 
-     The WPF Designer for Visual Studio opens and displays MainWindow of the project.
+     The **WPF Designer for Visual Studio** opens and displays MainWindow of the project.
 
 8.  If the toolbox is not currently open, open it. Choose the **View** menu, and then choose **Toolbox**.
 
 9. Under the **All WPF Controls** section, drag a **Button**, **CheckBox** and **ProgressBar** control onto the MainWindow in the design surface.
 
-10. Select the Button control. In the Properties window, change the value for the **Name** property from \<No Name> to button1. Then change the value for the **Content** property from Button to Start.
+10. Select the **Button** control. In the **Properties** window, change the value for the **Name** property from \<No Name> to button1. Then change the value for the **Content** property from Button to Start.
 
-11. Select the ProgressBar control. In the Properties window, change the value for the **Name** property from \<No Name> to progressBar1. Then change the value for the **Maximum** property from **100** to **10000**.
+11. Select the **ProgressBar** control. In the **Properties** window, change the value for the **Name** property from \<No Name> to progressBar1. Then change the value for the **Maximum** property from **100** to **10000**.
 
-12. Select the Checkbox control. In the Properties window, change the value for the **Name** property from \<No Name> to checkBox1 and clear the **IsEnabled** property.
+12. Select the **Checkbox** control. In the **Properties** window, change the value for the **Name** property from \<No Name> to checkBox1 and clear the **IsEnabled** property.
 
      ![Simple WPF Application](../test/media/codedui_wpfapp.png)
 
 13. Double-click the button control to add a click event handler.
 
-     The MainWindow.xmal.cs is displayed in the Code Editor with the cursor in the new button1_Click method.
+     The *MainWindow.xmal.cs* is displayed in the Code Editor with the cursor in the new button1_Click method.
 
 14. At the top of the MainWindow class, add a delegate. The delegate will be used for the progress bar. To add the delegate, add the following code:
 
@@ -135,7 +135,7 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
 
      The **UIMap - Coded UI Test Builder** dialog appears, and the Visual Studio window is minimized.
 
-     For more information about the options in the dialog box, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md).
+     For more information about the options in the dialog box, see [Create coded UI tests](../test/use-ui-automation-to-test-your-code.md).
 
 1. Choose **Start Recording** on the **UIMap - Coded UI Test Builder** dialog.
 
@@ -178,7 +178,7 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
 
 3. In the *CodedUITest1.cs* file, locate the **CodedUITestMethod** method, right-click and select **Run Tests**, or run the test from **Test Explorer**.
 
-   While the coded UI test runs, the SimpleWPFApp is visible. It conducts the steps that you did in the previous procedure. However, when the test tries to select the check box for the check box control, the **Test Results** window shows that the test failed. This is because the test tries to select the check box but is not aware that the check box control is disabled until the progress bar is 100% complete. You can correct this and similar issues by using the various `UITestControl.WaitForControlXXX()` methods that are available for coded UI testing. The next procedure will demonstrate using the `WaitForControlEnabled()` method to correct the issue that caused this test to fail. For more information, see [Making Coded UI Tests Wait For Specific Events During Playback](../test/making-coded-ui-tests-wait-for-specific-events-during-playback.md).
+   While the coded UI test runs, the SimpleWPFApp is visible. It conducts the steps that you did in the previous procedure. However, when the test tries to select the check box for the check box control, the **Test Results** window shows that the test failed. This is because the test tries to select the check box but is not aware that the check box control is disabled until the progress bar is 100% complete. You can correct this and similar issues by using the various `UITestControl.WaitForControlXXX()` methods that are available for coded UI testing. The next procedure will demonstrate using the `WaitForControlEnabled()` method to correct the issue that caused this test to fail. For more information, see [Make coded UI tests wait for specific events during playback](../test/making-coded-ui-tests-wait-for-specific-events-during-playback.md).
 
 ## Edit and rerun the coded UI test
 
@@ -308,7 +308,7 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
 
 10. In **Solution Explorer**, open the *UIMap.Designer.cs* file.
 
-11. In the UIMap.Designer.cs file, locate the **UIStartButton1** property. Notice the `SearchProperties` is set to `"buttonA"`:
+11. In the *UIMap.Designer.cs* file, locate the **UIStartButton1** property. Notice the `SearchProperties` is set to `"buttonA"`:
 
     ```csharp
     public WpfButton UIStartButton1
@@ -328,7 +328,7 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
             }
     ```
 
-     Now you can modify the coded UI test to use the newly mapped control. As pointed out in the previous procedure if you want to override any methods or properties in the coded UI test, you must do so in the UIMap.cs file.
+     Now you can modify the coded UI test to use the newly mapped control. As pointed out in the previous procedure if you want to override any methods or properties in the coded UI test, you must do so in the *UIMap.cs* file.
 
 12. In the *UIMap.cs* file, add a constructor and specify the `SearchProperties` property of the `UIStartButton` property to use the `AutomationID` property with a value of `"buttonA":`
 
@@ -347,18 +347,18 @@ In this walkthrough, you'll learn how to create, edit, and maintain a coded UI t
 
 ## Videos
 
-![link to video](../data-tools/media/playvideo.gif) [Getting started with Coded UI tests](http://go.microsoft.com/fwlink/?LinkID=230573)
+![link to video](../data-tools/media/playvideo.gif) [Get started with coded UI tests](http://go.microsoft.com/fwlink/?LinkID=230573)
 
-![link to video](../data-tools/media/playvideo.gif) [Maintenance And debugging of coded UI tests](http://go.microsoft.com/fwlink/?LinkID=230574)
+![link to video](../data-tools/media/playvideo.gif) [Maintenance and debugging of coded UI tests](http://go.microsoft.com/fwlink/?LinkID=230574)
 
 ![link to video](../data-tools/media/playvideo.gif) [Hand coding coded UI tests](http://go.microsoft.com/fwlink/?LinkID=230575)
 
 ## FAQ
 
-[Coded UI Tests FAQ](https://social.msdn.microsoft.com/Forums/en-US/3a74dd2c-cef8-4923-abbf-7a91f489e6c4/faqs?forum=vsautotest)
+[Coded UI tests FAQ](https://social.msdn.microsoft.com/Forums/en-US/3a74dd2c-cef8-4923-abbf-7a91f489e6c4/faqs?forum=vsautotest)
 
 ## See also
 
-- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
-- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
-- [Editing Coded UI Tests Using the Coded UI Test Editor](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md)
+- [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)
+- [Supported configurations and platforms for coded UI tests and action recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+- [Edit coded UI tests using the coded UI test editor](../test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md)

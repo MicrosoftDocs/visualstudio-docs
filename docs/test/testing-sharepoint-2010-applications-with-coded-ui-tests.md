@@ -10,7 +10,7 @@ ms.workload:
   - "multiple"
 author: gewarren
 ---
-# Test SharePoint applications with Coded UI tests
+# Test SharePoint applications with coded UI tests
 
 Including coded UI tests in a SharePoint application lets you verify that the whole application, including its UI controls, is functioning correctly. Coded UI tests can also validate values and logic in the user interface.
 
@@ -22,7 +22,7 @@ To learn more about the benefits of using coded UI tests, see [Use UI automation
 
 ## Create a coded UI test for a SharePoint app
 
-[Creating coded UI tests](../test/use-ui-automation-to-test-your-code.md) for your SharePoint applications is the same as creating tests for other types of applications. Record and playback is supported for all controls on the **Web Editing** interface. The interface for selecting categories and web parts are all standard web controls.
+[Create coded UI tests](../test/use-ui-automation-to-test-your-code.md) for your SharePoint applications is the same as creating tests for other types of applications. Record and playback is supported for all controls on the **Web Editing** interface. The interface for selecting categories and web parts are all standard web controls.
 
 ![SharePoint web parts](../test/media/cuit_sharepoint.png)
 
@@ -88,8 +88,8 @@ If you are recording actions on a non-empty cell, then recording gets a little m
 
 ## See also
 
-- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
-- [Create SharePoint Solutions](../sharepoint/create-sharepoint-solutions.md)
-- [Verifying and Debugging SharePoint Code](../sharepoint/verifying-and-debugging-sharepoint-code.md)
-- [Building and Debugging SharePoint Solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
-- [Profiling the Performance of SharePoint Applications](../sharepoint/profiling-the-performance-of-sharepoint-applications.md)
+- [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)
+- [Create SharePoint solutions](../sharepoint/create-sharepoint-solutions.md)
+- [Verify and debug SharePoint code](../sharepoint/verifying-and-debugging-sharepoint-code.md)
+- [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
+- [Profile the performance of SharePoint applications](../sharepoint/profiling-the-performance-of-sharepoint-applications.md)
