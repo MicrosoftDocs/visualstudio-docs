@@ -12,7 +12,7 @@ metadata:
   author: gewarren
   manager: douge
 abstract:
-  description: Binary code analysis for managed code will be deprecated in the next major version of Visual Studio. The tool that's being deprecated is commonly known as FxCop. This page is designed to help you learn how to migrate from FxCop to the new way of analyzing managed code using analyzers.
+  description: Learn how to analyze code for the first time or migrate from FxCop to the new way of analyzing managed code using analyzers.
 
 sections:
 
@@ -39,7 +39,7 @@ sections:
           src: https://docs.microsoft.com/media/common/i_config-tools.svg
         title: Configure and use analyzers
 
-- title: If you're a legacy FxCop user...
+- title: If you're an FxCop user...
   items:
   - type: list
     style: cards
@@ -47,7 +47,7 @@ sections:
     columns: 3
     items:
       - href: roslyn-analyzers-overview.md#roslyn-analyzers-vs-static-code-analysis
-        html: <p>Learn the differences between legacy FxCop and analyzer package code analysis.</p>
+        html: <p>Learn the differences between static (FxCop) and analyzer package code analysis.</p>
         image:
           src: https://docs.microsoft.com/media/common/i_learn-about.svg
         title: What's different?
@@ -61,7 +61,7 @@ sections:
         image:
           src: https://docs.microsoft.com/media/common/i_cligeneric.svg
         title: Command-line usage
-      - href:
+      - href: analyzer-rule-sets.md
         html: <p>Learn about analyzer package rule sets.</p>
         image:
           src: https://docs.microsoft.com/media/common/i_code-samples.svg
