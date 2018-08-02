@@ -1,7 +1,7 @@
 ---
 title: "Debugger Settings and Preparation | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "08/01/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "reference"
 f1_keywords: 
@@ -44,9 +44,6 @@ This section describes the debugger-related property settings, and the preparati
   
  [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)  
  Describes how to debug 64-bit applications.  
-  
- [Debugging and the Hosting Process](../debugger/debugging-and-the-hosting-process.md)  
- Describes different aspects of the hosting process.  
   
  [How to: Specify a .NET Framework Version For Debugging](../debugger/how-to-specify-a-dotnet-framework-version-for-debugging.md)  
  Describes how to set a registry key to indicate to the debugger which version to use.  
