@@ -25,7 +25,7 @@ This article introduces the features of the Visual Studio debugger in a step-by-
 |---------|---------|
 |  ![movie camera icon for video](../install/media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugger-Feature-tour-of-Visual-studio-2017-sqwiwLD6D_1111787171) on debugging that shows similar steps. |
 
-Although the demo app is C#, the features are applicable to C++, Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted).
+Although the demo app is C# and C++, the features are applicable to Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted). The screenshots are in C#.
 
 In this tutorial, you will:
 
@@ -289,6 +289,8 @@ In this tutorial, you will:
     Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. 
 
 6. Press **F5** or the **Start Debugging** button, the app starts, and the debugger runs to the line of code where you set the breakpoint.
+
+    ![Hit a breakpoint](../debugger/media/get-started-hit-breakpoint.png "HitABreakPoint")
 
     The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
 
