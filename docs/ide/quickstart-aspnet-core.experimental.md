@@ -65,7 +65,7 @@ Next, you'll create and run your "Hello World" web app. Here's how.
 
 1. In the **Solution Explorer**, expand **About.cshtml**, and then choose **About.cshtml.cs**.
 
-1. Change the "application description" text to read "**What's my message?**".
+1. Change the "application description" message text to read "**What's my message?**".
 
 1. Choose **IIS Express** or press **Ctrl**+**F5** to run the app and open it in a web browser.
 
