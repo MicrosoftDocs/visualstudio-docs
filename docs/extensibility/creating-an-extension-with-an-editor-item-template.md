@@ -1,4 +1,4 @@
----
+e---
 title: "Creating an Extension with an Editor Item Template | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -20,7 +20,7 @@ You can use item templates that are included in the Visual Studio SDK to create 
 ## Prerequisites  
  Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
   
-## Creat a classifier extension  
+## Create a classifier extension  
  The Editor Classifier item template creates an editor classifier that colors the appropriate text (in this case, everything) in any text file.  
   
 1.  In the **New Project** dialog box, expand **Visual C#** or **Visual Basic** and then click **Extensibility**. In the **Templates** pane, select **VSIX Project**. In the **Name** box, type `TestClassifier`. Click **OK**.  
