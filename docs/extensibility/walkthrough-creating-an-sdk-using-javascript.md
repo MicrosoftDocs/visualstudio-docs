@@ -89,9 +89,9 @@ This walkthrough teaches how to use JavaScript to create a simple math SDK as a 
   
 13. Add subfolders under Redist to create this folder structure:  
   
-     *\Redist\CommonConfiguration\Neutral\SimpleMath\js\*  
+     *\Redist\CommonConfiguration\Neutral\SimpleMath\js\\*  
   
-14. On the shortcut menu for the **\js\** folder, choose **Add** > **New Item**.  
+14. On the shortcut menu for the **\js\\** folder, choose **Add** > **New Item**.  
   
 15. Under **Visual C# items**, select the **Web** category, and then select the **JavaScript File** item. Name the file `arithmetic.js`, and then choose the **Add** button.  
   
