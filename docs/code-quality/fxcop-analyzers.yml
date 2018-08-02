@@ -38,6 +38,11 @@ sections:
         image:
           src: https://docs.microsoft.com/media/common/i_config-tools.svg
         title: Configure and use analyzers
+      - href: use-roslyn-analyzers.md#command-line-usage
+        html: <p>Learn how to use analyzers from the command line.</p>
+        image:
+          src: https://docs.microsoft.com/media/common/i_cligeneric.svg
+        title: Command-line usage
 
 - title: If you're an FxCop user...
   items:
@@ -66,6 +71,14 @@ sections:
         image:
           src: https://docs.microsoft.com/media/common/i_code-samples.svg
         title: Rule sets
+
+- title: Related links
+  items:
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 3
+    items:
       - href: code-analysis-for-c-cpp-overview.md
         html: <p>Learn how to run code analysis on native C++ code. Analysis of managed C++ code is deprecated.</p>
         image:
