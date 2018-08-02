@@ -10,13 +10,13 @@ ms.workload:
   - "cplusplus"
 author: mikeblome
 ---
-# How to: Write Unit tests for C++ DLLs
+# How to: Write unit tests for C++ DLLs
 
 This walkthrough describes how to develop a native C++ DLL using test-first methodology. The basic steps are as follows:
 
-1.  [Create a Native Test Project](#create_test_project). The test project is located in the same solution as the DLL project.
+1.  [Create a native test project](#create_test_project). The test project is located in the same solution as the DLL project.
 
-2.  [Create a DLL Project](#create_dll_project). This walkthrough creates a new DLL, but the procedure for testing an existing DLL is similar.
+2.  [Create a DLL project](#create_dll_project). This walkthrough creates a new DLL, but the procedure for testing an existing DLL is similar.
 
 3.  [Make the DLL functions visible to the tests](#make_functions_visible).
 
@@ -32,9 +32,9 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 ##  <a name="create_test_project"></a> Create a native unit test project
 
-1.  On the **File** menu, choose **New | Project**.
+1.  On the **File** menu, choose **New** > **Project**.
 
-     In the dialog box, expand **Installed | Templates | Visual C++ | Test**.
+     In the dialog box, expand **Installed** > **Templates** > **Visual C++** > **Test**.
 
      Choose the **Native Unit Test Project** template, or whatever installed framework you prefer. If you choose another template such as Google Test or Boost.Test, the basic principles are the same although some details will differ.
 
@@ -69,11 +69,11 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
          Notice that the `Assert` class provides several static methods that you can use to verify results in test methods.
 
-    2.  On the **Test** menu, choose **Run | All Tests**.
+    2.  On the **Test** menu, choose **Run** > **All Tests**.
 
          The test builds and runs.
 
-         Test Explorer appears.
+         **Test Explorer** appears.
 
          The test appears under **Passed Tests**.
 
@@ -93,13 +93,13 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
      ![C++ project wizard set for DLL and Export Symbols](../test/media/utecpp06.png)
 
-3.  Declare an exported function in the principal .h file:
+3.  Declare an exported function in the principal *.h* file:
 
      ![New DLL code project and .h file with API macros](../test/media/utecpp07.png)
 
      The declarator `__declspec(dllexport)` causes the public and protected members of the class to be visible outside the DLL. For more information, see [Using dllimport and dllexport in C++ Classes](/cpp/cpp/using-dllimport-and-dllexport-in-cpp-classes).
 
-4.  In the principal .cpp file, add a minimal body for the function:
+4.  In the principal *.cpp* file, add a minimal body for the function:
 
     ```cpp
         // Find the square root of a number.
@@ -113,7 +113,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 1.  Add the DLL project to the project references of the test project:
 
-    1.  Open the properties of the test project and choose **Common Properties**, **Framework and References**.
+    1.  Open the properties of the test project and choose **Common Properties** > **Framework and References**.
 
          ![C++ project properties | Framework and References](../test/media/utecpp08.png)
 
@@ -123,7 +123,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
          ![C++ project properties | Add New Reference](../test/media/utecpp09.png)
 
-2.  In the principal unit test .cpp file, include the .h file of the DLL code:
+2.  In the principal unit test *.cpp* file, include the *.h* file of the DLL code:
 
     ```cpp
     #include "..\RootFinder\RootFinder.h"
@@ -151,9 +151,9 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 4.  Build the solution.
 
-     The new test appears in Test Explorer.
+     The new test appears in **Test Explorer**.
 
-5.  In Test Explorer, choose **Run All**.
+5.  In **Test Explorer**, choose **Run All**.
 
      ![Unit Test Explorer &#45; Basic Test passed](../test/media/utecpp10.png)
 
@@ -180,7 +180,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
     >
     > When your users change their requirements, disable the tests that are no longer correct. Write new tests and make them work one at a time, in the same incremental manner.
 
-2.  Build the solution, and then in Test Explorer, choose **Run All**.
+2.  Build the solution, and then in **Test Explorer**, choose **Run All**.
 
      The new test fails.
 
@@ -208,7 +208,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
     }
     ```
 
-4.  Build the solution and then in Test Explorer, choose **Run All**.
+4.  Build the solution and then in **Test Explorer**, choose **Run All**.
 
      Both tests pass.
 
@@ -256,7 +256,7 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 3.  Open (or double-click) the failed test.
 
-     The failed assertion is highlighted. The failure message is visible in the detail pane of Test Explorer.
+     The failed assertion is highlighted. The failure message is visible in the detail pane of **Test Explorer**.
 
      ![NegativeRangeTests failed](../test/media/ute_cpp_testexplorer_negativerangetest_fail.png)
 
@@ -323,8 +323,8 @@ This walkthrough describes how to develop a native C++ DLL using test-first meth
 
 ## See also
 
-- [Adding unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)
+- [Add unit tests to existing C++ applications](../test/unit-testing-existing-cpp-applications-with-test-explorer.md)
 - [Using Microsoft.VisualStudio.TestTools.CppUnitTestFramework](how-to-use-microsoft-test-framework-for-cpp.md)
-- [Debugging Native Code](../debugger/debugging-native-code.md)
-- [Walkthrough: Creating and Using a Dynamic Link Library (C++)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)
-- [Importing and Exporting](/cpp/build/importing-and-exporting)
+- [Debug native code](../debugger/debugging-native-code.md)
+- [Walkthrough: Creating and using a dynamic link library (C++)](/cpp/build/walkthrough-creating-and-using-a-dynamic-link-library-cpp)
+- [Import and export](/cpp/build/importing-and-exporting)

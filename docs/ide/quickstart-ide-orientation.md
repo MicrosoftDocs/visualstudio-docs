@@ -10,7 +10,7 @@ manager: douge
 ms.workload:
   - "multiple"
 experimental: true​
-experiment_id: "92a235b7-7520-4b"
+experiment_id: "7b7f8053-75fc-4d"
 ---
 # Quickstart: First look at the Visual Studio IDE
 

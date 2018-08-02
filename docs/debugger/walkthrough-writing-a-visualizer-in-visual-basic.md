@@ -33,9 +33,9 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
   
 1.  On the **File** menu, choose **New** and click **New Project**.  
   
-2.  In the **New Project** dialog box, under **Project Type**s, click **Visual Basic**.  
+2.  In the **New Project** dialog box, select **Visual Basic**.  
   
-3.  In the **Templates** box, click **Class Library**.  
+3.  Under **.NET Standard**, click **Class Library**.  
   
 4.  In the **Name** box, type an appropriate name for the class library, such as **MyFirstVisualizer**.  
   
@@ -160,7 +160,7 @@ This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprv
   
 1.  On the **File** menu, click **Add**, and then click **New Project**.  
   
-2.  In the **Add New Project** dialog box, in the **Templates** box, click **Console Application**.  
+2.  In the **Add New Project** dialog box, select **Visual Basic**, and then click **Console Application**.  
   
 3.  In the **Name** box, type a meaningful name for the console application, such as **MyTestConsole**.  
   
