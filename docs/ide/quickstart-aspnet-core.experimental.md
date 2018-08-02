@@ -65,7 +65,7 @@ Next, you'll create and run your "Hello World" web app. Here's how.
 
 1. In the **Solution Explorer**, expand **About.cshtml**, and then choose **About.cshtml.cs**.
 
-1. Change the "application description" message text to read "**What's my message?**".
+1. Change the "application description" text to read "**What's my message?**".
 
 1. Choose **IIS Express** or press **Ctrl**+**F5** to run the app and open it in a web browser.
 
@@ -76,17 +76,16 @@ Next, you'll create and run your "Hello World" web app. Here's how.
 
 1. Verify that the **About** page includes your updated text.
 
+1. Close the web browser.
+
 Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE (integrated development environment).
 
 ## Next steps
 
-To learn more, continue with the following tutorials:
+To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
 > [Get started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)
->
-> [!div class="nextstepaction"]
-> [Get started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)
 
 ## See also
 
