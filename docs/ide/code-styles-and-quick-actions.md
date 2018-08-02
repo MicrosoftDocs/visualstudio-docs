@@ -31,7 +31,7 @@ Code style settings for .NET can also be managed with an [EditorConfig](../ide/e
 
 ## Format Document command
 
-In Visual Studio 2017 version 15.8 and later, you can configure the **Format Document** command (**Edit** > **Advanced** > **Format Document**) to perform additional code cleanup on a file, such as remove and sort usings or apply code-style preferences. You can define which settings you want **Format Document** to apply on the [**Formatting** options page](options-text-editor-csharp-formatting.md#format-document-settings).
+In Visual Studio 2017 version 15.8 and later, you can configure the **Format Document** command (**Edit** > **Advanced** > **Format Document**) to perform additional code cleanup on a file, such as remove and sort usings or apply code-style preferences. You can define which settings you want **Format Document** to apply on the [**Formatting** options page](reference/options-text-editor-csharp-formatting.md#format-document-settings).
 
 Code cleanup respects settings configured in an *.editorconfig* file, or lacking that rule or file, those set in **Tools** > **Options** > **Text Editor** > **C#** > [**Code Style** or **Formatting**].
 
