@@ -1,4 +1,4 @@
-e---
+---
 title: "Creating an Extension with an Editor Item Template | Microsoft Docs"
 ms.custom: ""
 ms.date: "11/04/2016"
@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Creat an extension with an editor item template
+# Create an extension with an editor item template
 You can use item templates that are included in the Visual Studio SDK to create basic editor extensions that add classifiers, adornments, and margins to the editor. The editor item templates are available for Visual C# or Visual Basic VSIX projects.  
   
 ## Prerequisites  
