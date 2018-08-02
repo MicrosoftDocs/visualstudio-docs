@@ -49,10 +49,6 @@ Creates a *.zip* archive from the contents of a directory.
 ```xml  
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
-    <PropertyGroup>
-      <ZipOutputPath>$(MSBuildProjectDirectory)</ZipOutputPath>
-    </PropertyGroup>
-
     <Target Name="ZipOutputPath" AfterTargets="Build">
         <ZipDirectory
             SourceDirectory="$(OutputPath)"
