@@ -5,6 +5,9 @@ ms.custom: "mvc"
 ms.date: "08/01/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
+dev_langs: 
+  - "CSharp"
+  - "C++"
 helpviewer_keywords:
   - "debugger"
 ms.assetid: 62734c0d-a75a-4576-8f73-0e97c19280e1
@@ -398,18 +401,18 @@ Features that allow you to inspect variables are one of the most useful features
 
 1. Click **F11** a few times until you see the debugger pause in the `Circle.Draw` method in the code editor. Look at the **Call Stack** window.
 
-![Examine the call stack](../debugger/media/get-started-call-stack.png "ExamineCallStack")
+    ![Examine the call stack](../debugger/media/get-started-call-stack.png "ExamineCallStack")
 
-The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Circle.Draw` or `Circle::Draw` method in this app). The second line shows that `Circle.Draw` was called from the `Main` method (`main` in C++), and so on.
+    The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Circle.Draw` or `Circle::Draw` method in this app). The second line shows that `Circle.Draw` was called from the `Main` method (`main` in C++), and so on.
 
->  [!NOTE]
-> The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
+    >  [!NOTE]
+    > The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
 
-The call stack is a good way to examine and understand the execution flow of an app.
+    The call stack is a good way to examine and understand the execution flow of an app.
 
-You can double-click a line of code to go look at that source code and that also changes the current scope being inspected by the debugger. This action does not advance the debugger.
+    You can double-click a line of code to go look at that source code and that also changes the current scope being inspected by the debugger. This action does not advance the debugger.
 
-You can also use right-click menus from the **Call Stack** window to do other things. For example, you can insert breakpoints into specified functions, advance the debugger using **Run to Cursor**, and go examine source code. For more information, see [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md).
+    You can also use right-click menus from the **Call Stack** window to do other things. For example, you can insert breakpoints into specified functions, advance the debugger using **Run to Cursor**, and go examine source code. For more information, see [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md).
 
 ## Change the execution flow
 
