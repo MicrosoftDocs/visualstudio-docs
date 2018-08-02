@@ -91,18 +91,18 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
   
 9. In **Solution Explorer**, open the shortcut menu for **Solution 'NativeMath'**, and then choose **Open Folder in File Explorer**.  
   
-10. In **File Explorer**, copy *$SolutionRoot$\NativeMath\NativeMath.h*, and then in **Solution Explorer**, under the **NativeMathVSIX** project, paste it in the *$SolutionRoot$\NativeMathVSIX\DesignTime\CommonConfiguration\Neutral\Include* folder.  
+10. In **File Explorer**, copy *$SolutionRoot$\NativeMath\NativeMath.h*, and then in **Solution Explorer**, under the **NativeMathVSIX** project, paste it in the *$SolutionRoot$\NativeMathVSIX\DesignTime\CommonConfiguration\Neutral\Include\\* folder.  
   
-     Copy *$SolutionRoot$\Debug\NativeMath\NativeMath.lib*, and then paste it in the *$SolutionRoot$\NativeMathVSIX\DesignTime\Debug\x86* folder.  
+     Copy *$SolutionRoot$\Debug\NativeMath\NativeMath.lib*, and then paste it in the *$SolutionRoot$\NativeMathVSIX\DesignTime\Debug\x86\\* folder.  
   
-     Copy *$SolutionRoot$\Debug\NativeMath\NativeMath.dll* and paste it in the *$SolutionRoot$\NativeMathVSIX\Redist\Debug\x86* folder.  
+     Copy *$SolutionRoot$\Debug\NativeMath\NativeMath.dll* and paste it in the *$SolutionRoot$\NativeMathVSIX\Redist\Debug\x86\\* folder.  
   
      Copy *$SolutionRoot$\Debug\NativeMathWRT\NativeMathWRT.dll* and paste it in the *$SolutionRoot$\NativeMathVSIX\Redist\Debug\x86* folder.  
      Copy *$SolutionRoot$\Debug\NativeMathWRT\NativeMathWRT.winmd* and paste it in the *$SolutionRoot$\NativeMathVSIX\References\CommonConfiguration\Neutral* folder.  
   
      Copy *$SolutionRoot$\Debug\NativeMathWRT\NativeMathWRT.pri* and paste it in the *$SolutionRoot$\NativeMathVSIX\References\CommonConfiguration\Neutral* folder.  
   
-11. In the *$SolutionRoot$\NativeMathVSIX\DesignTime\Debug\x86* folder, create a text file that's named *NativeMathSDK.props*, and then paste the following contents in it:  
+11. In the *$SolutionRoot$\NativeMathVSIX\DesignTime\Debug\x86\\* folder, create a text file that's named *NativeMathSDK.props*, and then paste the following contents in it:  
   
     [!code-xml[CreatingAnSDKUsingCpp#7](../extensibility/codesnippet/XML/walkthrough-creating-an-sdk-using-cpp_7.xml)]  
   
