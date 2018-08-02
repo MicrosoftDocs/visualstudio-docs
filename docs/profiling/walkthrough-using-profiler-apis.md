@@ -14,7 +14,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Walkthrough: using profiler APIs
+# Walkthrough: Using profiler APIs
+
 The walkthrough uses a C# application to demonstrate how to use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools APIs. You will use the profiler APIs to limit the amount of data that is collected during instrumentation profiling.  
   
  The steps in this walkthrough generally apply to a C/C++ application. For each language, you will have to configure your build environment appropriately.  
@@ -44,7 +45,7 @@ ProfileLevel.Global,
 DataCollection.CurrentId);  
 ```  
   
- You can turn off data collection at the command line without using an API call. The following steps assume your command line build environment is configured to run the profiling tools and as your development tools. This includes the settings necessary for VSInstr and VSPerfCmd. See [Command-Line Profiling Tools](../profiling/using-the-profiling-tools-from-the-command-line).  
+ You can turn off data collection at the command line without using an API call. The following steps assume your command line build environment is configured to run the profiling tools and as your development tools. This includes the settings necessary for VSInstr and VSPerfCmd. See [Command-line profiling tools](../profiling/using-the-profiling-tools-from-the-command-line.md).  
   
 ## Limit data collection using profiler APIs  
   
