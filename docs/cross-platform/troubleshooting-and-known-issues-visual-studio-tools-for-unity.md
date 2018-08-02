@@ -11,7 +11,7 @@ manager: crdun
 ms.workload:
   - "unity"
 ---
-# Troubleshooting and Known Issues (Visual Studio Tools for Unity)
+# Troubleshooting and known issues (Visual Studio Tools for Unity)
 
 In this section, you'll find solutions to common issues with Visual Studio Tools for Unity, descriptions of known issues, and learn how you can help improve Visual Studio Tools for Unity by reporting errors.
 
@@ -48,7 +48,7 @@ This should fix your issue. In case you are still experiencing the problem, run 
 
 Several Unity plugins like Parse, FMOD, UMP (Universal Media Player), ZFBrowser, or Embedded Browser are using native threads. It’s an issue when a plugin ends up attaching a native thread to the runtime, which then does blocking calls to the OS. This means Unity can't interrupt that thread for the debugger (or domain reload) and hang.
 
-For FMOD, there is a workaround, you can pass FMOD_STUDIO_INIT_SYNCHRONOUS_UPDATE initialization [flag](https://www.fmod.org/docs/content/generated/FMOD_STUDIO_INITFLAGS.html) to disable asynchronous processing and perform all processing on the main thread.
+For FMOD, there is a workaround, you can pass `FMOD_STUDIO_INIT_SYNCHRONOUS_UPDATE` initialization [flag](https://www.fmod.org/docs/content/generated/FMOD_STUDIO_INITFLAGS.html) to disable asynchronous processing and perform all processing on the main thread.
 
 ## Incompatible project in Visual Studio
 
@@ -98,7 +98,7 @@ USB is super-fast for debugging, and Visual Studio Tools for Unity is now able t
 
 Try upgrading your Visual Studio 2015 to update 3.
 
-## Known Issues
+## Known issues
 
  There are known issues in Visual Studio Tools for Unity that result from how the debugger interacts with Unity's older version of the C# compiler. We're working to help fix these problems, but you might experience the following issues in the meantime:
 
@@ -108,7 +108,7 @@ Try upgrading your Visual Studio 2015 to update 3.
 
 - Stepping into and out of methods sometimes behaves incorrectly, especially in iterators or within switch statements.
 
-## Reporting Errors
+## Report errors
 
  Please help us improve the quality of Visual Studio Tools for Unity by sending error reports when you experience crashing, freezes, or other errors. This helps us investigate and fix problems in Visual Studio Tools for Unity. Thank you!
 

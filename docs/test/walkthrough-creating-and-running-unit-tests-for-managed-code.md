@@ -27,7 +27,7 @@ For information about how to run tests from a command line, see [VSTest.Console.
 
 ## Prerequisites
 
-- The Bank project. See [Sample Project for Creating Unit Tests](../test/sample-project-for-creating-unit-tests.md).
+- The Bank project. See [Sample project for creating unit tests](../test/sample-project-for-creating-unit-tests.md).
 
 ## Create a project to test
 
@@ -78,7 +78,7 @@ public void Debit(double amount)
 
 1. On the **File** menu, select **Add** > **New Project**.
 
-2. In the New Project dialog box, expand **Installed**, expand **Visual C#**, and then choose **Test**.
+2. In the **New Project** dialog box, expand **Installed**, expand **Visual C#**, and then choose **Test**.
 
 3. From the list of templates, select **Unit Test Project**.
 
@@ -88,9 +88,9 @@ public void Debit(double amount)
 
 5. In the **BankTests** project, add a reference to the **Bank** project.
 
-   In Solution Explorer, select **References** in the **BankTests** project and then choose **Add Reference** from the context menu.
+   In **Solution Explorer**, select **References** in the **BankTests** project and then choose **Add Reference** from the context menu.
 
-6. In the Reference Manager dialog box, expand **Solution** and then check the **Bank** item.
+6. In the **Reference Manager** dialog box, expand **Solution** and then check the **Bank** item.
 
 ## Create the test class
 
@@ -145,7 +145,7 @@ There are at least three behaviors that need to be checked:
 
 - The method throws an <xref:System.ArgumentOutOfRangeException> if the debit amount is greater than the balance.
 
-- The method throws <xref:System.ArgumentOutOfRangeException> if the debit amount is less than zero.
+- The method throws an <xref:System.ArgumentOutOfRangeException> if the debit amount is less than zero.
 
 - If the debit amount is valid, the method subtracts the debit amount from the account balance.
 
@@ -204,7 +204,7 @@ A test method must meet the following requirements:
 
 ### Analyze the test results
 
-The test result contains a message that describes the failure. For the `AreEquals` method, the message displays what was expected (the **Expected\<*value*>** parameter) and what was actually received (the **Actual\<*value*>** parameter). You expected the balance to decrease, but instead it actually increased by the amount of the withdrawal.
+The test result contains a message that describes the failure. For the `AreEqual` method, the message displays what was expected (the **Expected\<*value*>** parameter) and what was actually received (the **Actual\<*value*>** parameter). You expected the balance to decrease, but instead it increased by the amount of the withdrawal.
 
 The unit test has uncovered a bug: the amount of the withdrawal is *added* to the account balance when it should be *subtracted*.
 
@@ -224,7 +224,7 @@ m_balance -= amount;
 
 ### Rerun the test
 
-In Test Explorer, choose **Run All** to rerun the test. The red/green bar turns green to indicate that the test passed, and the test is moved to the **Passed Tests** group.
+In **Test Explorer**, choose **Run All** to rerun the test. The red/green bar turns green to indicate that the test passed, and the test is moved to the **Passed Tests** group.
 
 ## Use unit tests to improve your code
 

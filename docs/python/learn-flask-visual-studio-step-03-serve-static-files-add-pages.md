@@ -29,7 +29,7 @@ In this step, you learn how to:
 
 ## Step 3-1: Become familiar with item templates
 
-As you develop a Flask app, you typically add many more Python, HTML, CSS, and JavaScript files. For each file type (as well as other files like `web.config` that you may need for deployment), Visual Studio provides convenient [item templates](python-item-templates.md) to get you started.
+As you develop a Flask app, you typically add many more Python, HTML, CSS, and JavaScript files. For each file type (as well as other files like *web.config* that you may need for deployment), Visual Studio provides convenient [item templates](python-item-templates.md) to get you started.
 
 To see available templates, go to **Solution Explorer**, right-click the folder in which you want to create the item, select **Add** > **New Item**:
 
@@ -37,27 +37,27 @@ To see available templates, go to **Solution Explorer**, right-click the folder 
 
 To use a template, select the desired template, specify a name for the file, and select **OK**. Adding an item in this manner automatically adds the file to your Visual Studio project and marks the changes for source control.
 
-### Question: how does Visual Studio know which item templates to offer?
+### Question: How does Visual Studio know which item templates to offer?
 
-Answer: The Visual Studio project file (`.pyproj`) contains a project type identifier that marks it as a Python project. Visual Studio uses this type identifier to show only those item templates that are suitable for the project type. This way, Visual Studio can supply a rich set of item templates for many project types without asking you to sort through them every time.
+Answer: The Visual Studio project file (*.pyproj*) contains a project type identifier that marks it as a Python project. Visual Studio uses this type identifier to show only those item templates that are suitable for the project type. This way, Visual Studio can supply a rich set of item templates for many project types without asking you to sort through them every time.
 
 ## Step 3-2: Serve static files from your app
 
 In a web app built with Python (using any framework), your Python files always run on the web host's server and are never transmitted to a user's computer. Other files, however, such as CSS and JavaScript, are used exclusively by the browser, so the host server simply delivers them as-is whenever they're requested. Such files are referred to as "static" files, and Flask can deliver them automatically without you needing to write any code. Within HTML files, for example, you can just refer to static files using a relative path in the project. The first section in this step adds a CSS file to your existing page template.
 
-When you need to deliver a static file from code, such as through an API endpoint implementation, Flask provides a convenient method that lets you refer to files using relative paths within a folder named `static` (in the project root). The second section in this step demonstrates that method using a simple static data file.
+When you need to deliver a static file from code, such as through an API endpoint implementation, Flask provides a convenient method that lets you refer to files using relative paths within a folder named *static* (in the project root). The second section in this step demonstrates that method using a simple static data file.
 
-In either case, you can organize files under `static` however you like.
+In either case, you can organize files under *static* however you like.
 
 ### Use a static file in a template
 
-1. In **Solution Explorer**, right-click the "HelloFlask" folder in the Visual Studio project, select **Add** > **New folder**, and name the folder `static`.
+1. In **Solution Explorer**, right-click the **HelloFlask** folder in the Visual Studio project, select **Add** > **New folder**, and name the folder `static`.
 
-1. Right-click the `static` folder and select **Add** > **New item**. In the dialog that appears, select the "Stylesheet" template, name the file `site.css`, and select **OK**. The `site.css` file appears in the project and is opened in the editor. Your folder structure should appear similar to the following image:
+1. Right-click the **static** folder and select **Add** > **New item**. In the dialog that appears, select the **Stylesheet** template, name the file `site.css`, and select **OK**. The **site.css** file appears in the project and is opened in the editor. Your folder structure should appear similar to the following image:
 
     ![Static file structure as shown in Solution Explorer](media/flask/step03-static-file-structure.png)
 
-1. Replace the contents of `site.css` with the following code and save the file:
+1. Replace the contents of *site.css* with the following code and save the file:
 
     ```css
     .message {
@@ -66,7 +66,7 @@ In either case, you can organize files under `static` however you like.
     }
     ```
 
-1. Replace the contents of the app's `templates/index.html` file with the following code, which replaces the `<strong>` element used in step 2 with a `<span>` that references the `message` style class. Using a style class in this way gives you much more flexibility in styling the element.
+1. Replace the contents of the app's *templates/index.html* file with the following code, which replaces the `<strong>` element used in step 2 with a `<span>` that references the `message` style class. Using a style class in this way gives you much more flexibility in styling the element.
 
     ```html
     <html>
@@ -84,11 +84,11 @@ In either case, you can organize files under `static` however you like.
 
 ### Serve a static file from code
 
-Flask provides a function called `serve_static_file` that you can call from code to refer to any file within the project's `static` folder. The following process creates a simple API endpoint that returns a static data file).
+Flask provides a function called `serve_static_file` that you can call from code to refer to any file within the project's *static* folder. The following process creates a simple API endpoint that returns a static data file).
 
-1. If you haven't done so already, create a `static` folder: in **Solution Explorer**, right-click the "HelloFlask" folder in the Visual Studio project, select **Add** > **New folder**, and name the folder `static`.
+1. If you haven't done so already, create a *static* folder: in **Solution Explorer**, right-click the **HelloFlask** folder in the Visual Studio project, select **Add** > **New folder**, and name the folder `static`.
 
-1. In the `static` folder, create a static JSON data file named `data.json` with the following contents (which are meaningless sample data):
+1. In the *static* folder, create a static JSON data file named *data.json* with the following contents (which are meaningless sample data):
 
     ```json
     {
@@ -98,7 +98,7 @@ Flask provides a function called `serve_static_file` that you can call from code
     }
     ```
 
-1. In `views.py`, add a function with the route /api/data that returns the static data file using the `send_static_file` method:
+1. In *views.py*, add a function with the route /api/data that returns the static data file using the `send_static_file` method:
 
     ```python
     @app.route('/api/data')
@@ -108,13 +108,13 @@ Flask provides a function called `serve_static_file` that you can call from code
 
 1. Run the app and navigate to the /api/data endpoint to see that the static file is returned. Stop the app when you're done.
 
-### Question: are there any conventions for organizing static files?
+### Question: Are there any conventions for organizing static files?
 
-Answer: You can add other CSS, JavaScript, and HTML files in your `static` folder however you want. A typical way to organize static files is to create subfolders named `fonts`, `scripts`, and `content` (for stylesheets and any other files).
+Answer: You can add other CSS, JavaScript, and HTML files in your *static* folder however you want. A typical way to organize static files is to create subfolders named *fonts*, *scripts*, and *content* (for stylesheets and any other files).
 
-### Question: how do I handle URL variables and query parameters in an API?
+### Question: How do I handle URL variables and query parameters in an API?
 
-Answer: See the answer in step 1-4 for [Question: how does Flask work with variable URL routes and query parameters?](learn-flask-visual-studio-step-01-project-solution.md#qa-url-variables)
+Answer: See the answer in step 1-4 for [Question: How does Flask work with variable URL routes and query parameters?](learn-flask-visual-studio-step-01-project-solution.md#qa-url-variables)
 
 ## Step 3-3: Add a page to the app
 
@@ -122,16 +122,16 @@ Adding another page to the app means the following:
 
 - Add a Python function that defines the view.
 - Add a template for the page's markup.
-- Add the necessary routing to the Django project's `urls.py` file.
+- Add the necessary routing to the Flask project's *urls.py* file.
 
 The following steps add an "About" page to the "HelloFlask" project, and links to that page from the home page:
 
-1. In **Solution Explorer**, right-click the `templates` folder, select **Add** > **New item**, select the "HTML Page" item template, name the file `about.html`, and select **OK**.
+1. In **Solution Explorer**, right-click the **templates** folder, select **Add** > **New item**, select the **HTML Page** item template, name the file `about.html`, and select **OK**.
 
     > [!Tip]
     > If the **New Item** command doesn't appear on the **Add** menu, make sure that you've stopped the app so that Visual Studio exits debugging mode.
 
-1. Replace the contents of `about.html` with the following markup (you replace the explicit link to the home page with a simple navigation bar in step 3-4):
+1. Replace the contents of *about.html* with the following markup (you replace the explicit link to the home page with a simple navigation bar in step 3-4):
 
     ```html
     <html>
@@ -146,7 +146,7 @@ The following steps add an "About" page to the "HelloFlask" project, and links t
     </html>
     ```
 
-1. Open the app's `views.py` file and add a function named `about` that uses the template:
+1. Open the app's *views.py* file and add a function named `about` that uses the template:
 
     ```python
     @app.route('/about')
@@ -157,13 +157,13 @@ The following steps add an "About" page to the "HelloFlask" project, and links t
             content = "Example app page for Flask.")
     ```
 
-1. Open the `templates/index.html` file and add the following line immediately within the `<body>` element to link to the About page (again, you replace this link with a nav bar in step 3-4):
+1. Open the *templates/index.html* file and add the following line immediately within the `<body>` element to link to the About page (again, you replace this link with a nav bar in step 3-4):
 
     ```html
     <div><a href="about">About</a></div>
     ```
 
-1. Save all the files using the **File** > **Save All** menu command, or just press or Ctrl+Shift+S. (Technically, this step isn't needed as running the project in Visual Studio saves files automatically. Nevertheless, it's a good command to know about!)
+1. Save all the files using the **File** > **Save All** menu command, or just press **Ctrl**+**Shift**+**S**. (Technically, this step isn't needed as running the project in Visual Studio saves files automatically. Nevertheless, it's a good command to know about!)
 
 1. Run the project to observe the results and check navigation between pages. Stop the app when done.
 
@@ -181,13 +181,13 @@ Flask's templating system (Jinja by default) provides two means for reusing spec
 
 - *Inheritance* uses the `{% extends <template_path> %}` at the beginning of a page template to specify a shared base template that the referring template then builds upon. Inheritance is commonly used to define a shared layout, nav bar, and other structures for an app's pages, such that referring templates need only add or modify specific areas of the base template called *blocks*.
 
-In both cases, `<template_path>` is relative to the app's `templates` folder (`../` or `./` are also allowed).
+In both cases, `<template_path>` is relative to the app's *templates* folder (`../` or `./` are also allowed).
 
 A base template delineates *blocks* using `{% block <block_name> %}` and `{% endblock %}` tags. If a referring template then uses tags with the same block name, its block content override that of the base template.
 
 The following steps demonstrate inheritance:
 
-1. In the app's `templates` folder, create a new HTML file (using the **Add** > **New item** context menu or **Add** > **HTML Page**) called `layout.html`, and replace its contents with the markup below. You can see that this template contains a block named "content" that is all that the referring pages need to replace:
+1. In the app's *templates* folder, create a new HTML file (using the **Add** > **New item** context menu or **Add** > **HTML Page**) called *layout.html*, and replace its contents with the markup below. You can see that this template contains a block named "content" that is all that the referring pages need to replace:
 
     ```html
     <!DOCTYPE html>
@@ -217,7 +217,7 @@ The following steps demonstrate inheritance:
     </html>
     ```
 
-1. Add the following styles to the app's `static/site.css` file (this walkthrough isn't attempting to demonstrate responsive design here; these styles are simply to generate an interesting result):
+1. Add the following styles to the app's *static/site.css* file (this walkthrough isn't attempting to demonstrate responsive design here; these styles are simply to generate an interesting result):
 
     ```css
     .navbar {
@@ -249,7 +249,7 @@ The following steps demonstrate inheritance:
     }
     ```
 
-1. Modify `templates/index.html` to refer to the base template and override the content block. You can see that by using inheritance, this template becomes simple:
+1. Modify *templates/index.html* to refer to the base template and override the content block. You can see that by using inheritance, this template becomes simple:
 
     ```html
     {% extends "layout.html" %}
@@ -258,7 +258,7 @@ The following steps demonstrate inheritance:
     {% endblock %}
     ```
 
-1. Modify `templates/about.html` to also refer to the base template and override the content block:
+1. Modify *templates/about.html* to also refer to the base template and override the content block:
 
     ```html
     {% extends "layout.html" %}

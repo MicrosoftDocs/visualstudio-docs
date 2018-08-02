@@ -35,7 +35,7 @@ Logs a message during a build.
 ## Remarks  
  The `Message` task allows [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] projects to issue messages to loggers at different steps in the build process.  
   
- If the `Condition` parameter evaluates to `true`, the value of the `Text` parameter will be logged and the build will continue to execute. If a `Condition` parameter does not exist, the message text is logged. For more information on logging, see [Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md).  
+ If the `Condition` parameter evaluates to `true`, the value of the `Text` parameter will be logged and the build will continue to execute. If a `Condition` parameter does not exist, the message text is logged. For more information on logging, see [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md).  
   
  By default, the message is sent to the MSBuild console logger. This can be changed by setting the <xref:Microsoft.Build.Tasks.TaskExtension.Log%2A> parameter. The logger interprets the `Importance` parameter.  
   
@@ -56,4 +56,4 @@ Logs a message during a build.
   
 ## See also  
  [Task reference](../msbuild/msbuild-task-reference.md)   
- [Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md)
+ [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)

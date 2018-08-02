@@ -18,11 +18,11 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Select a Load Test Results Repository
+# How to: Select a load test results repository
 
 You are not limited to a local results store. Frequently, load tests are run on a remote set of Agent computers. Agents, together with a controller, can generate more simulated load than any single computer. For more information, see [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md).
 
-Test results from your agents or your local computer can be saved to any SQL server on which you have created a load test results store. In either case, you must identify where you want to store your load test results by using the Administer Test Controllers window.
+Test results from your agents or your local computer can be saved to any SQL server on which you have created a load test results store. In either case, you must identify where you want to store your load test results by using the **Administer Test Controllers** window.
 
 For more information about agents, see [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md).
 
@@ -30,12 +30,12 @@ For more information about agents, see [Test controllers and test agents](config
 
 1.  In **Solution Explorer**, open your load test file.
 
-2.  From the **Load Test** toolbar, choose **Manage Test Controllers**. The Manage Test Controller dialog box is displayed. If you are using an agent remotely, you must select a controller.
+2.  From the **Load Test** toolbar, choose **Manage Test Controllers**. The **Manage Test Controller** dialog box is displayed. If you are using an agent remotely, you must select a controller.
 
      ![Load test results store connection properties](../test/media/loadtestconnectionproperties.png)
 Load test results store connection properties
 
-3.  In the **Load test results store**, click (…) to display the **Connection Properties** dialog box.
+3.  In the **Load test results store**, click **(…)** to display the **Connection Properties** dialog box.
 
 4.  In **Server Name**, type the name of the server where you have run the `LoadTest` scripts.
 
@@ -52,5 +52,5 @@ Load test results store connection properties
 
 ## See also
 
-- [Managing Load Test Results in the Load Test Results Repository](../test/manage-load-test-results-in-the-load-test-results-repository.md)
+- [Manage load test results in the Load Test Results Repository](../test/manage-load-test-results-in-the-load-test-results-repository.md)
 - [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md)
