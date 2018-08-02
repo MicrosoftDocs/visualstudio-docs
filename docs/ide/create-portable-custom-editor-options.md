@@ -17,7 +17,7 @@ In Visual Studio 2017, you can add an [EditorConfig](http://editorconfig.org/) f
 EditorConfig settings are supported by numerous code editors and IDEs, including Visual Studio. It's a portable component that travels with your code, and can enforce coding styles even outside of Visual Studio.
 
 > [!NOTE]
-> When you add an EditorConfig file to your project in Visual Studio, the formatting of existing code is not changed unless you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D**). However, any new lines of code are formatted according to the EditorConfig settings.
+> When you add an EditorConfig file to your project in Visual Studio, the formatting of existing code is not changed unless you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D** in the default profile). However, any new lines of code are formatted according to the EditorConfig settings. You can define which EditorConfig settings you want **Format Document** to apply on the [**Formatting** options page](options-text-editor-csharp-formatting.md#format-document-settings).
 
 ## Coding consistency
 
