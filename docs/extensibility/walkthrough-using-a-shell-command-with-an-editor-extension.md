@@ -14,46 +14,46 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Walkthrough: Using a Shell Command with an Editor Extension
+# Walkthrough: Use a shell command with an editor extension
 From a VSPackage, you can add features such as menu commands to the editor. This walkthrough shows how to add an adornment to a text view in the editor by invoking a menu command.  
   
- This walkthrough demonstrates the use of a VSPackage together with a Managed Extensibility Framework (MEF) component part. You must use a VSPackage to register the menu command with the Visual Studio shell, and you can use the command to access the MEF component part.  
+ This walkthrough demonstrates the use of a VSPackage together with a Managed Extensibility Framework (MEF) component part. You must use a VSPackage to register the menu command with the Visual Studio shell. And, you can use the command to access the MEF component part.  
   
 ## Prerequisites  
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
+ Starting in Visual Studio 2015, you don't install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
   
-## Creating an Extension with a Menu Command  
+## Create an extension with a menu command  
  Create a VSPackage that puts a menu command named **Add Adornment** on the **Tools** menu.  
   
-1.  Create a C# VSIX project named `MenuCommandTest`, and add a Custom Command item template name **AddAdornment**. For more information, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md).  
+1.  Create a C# VSIX project named `MenuCommandTest`, and add a Custom Command item template name **AddAdornment**. For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).  
   
-2.  A solution named MenuCommandTest is opened. The MenuCommandTestPackage file has the code that creates the menu command and puts it on the **Tools** menu. At this point, the command just causes a message box to be displayed. Later steps show how to change this to display the comment adornment.  
+2.  A solution named MenuCommandTest opens. The MenuCommandTestPackage file has the code that creates the menu command and puts it on the **Tools** menu. At this point, the command just causes a message box to appear. Later, steps show how to change this to display the comment adornment.  
   
-3.  Open the source.extension.vsixmanifest file in the VSIX Manifest Editor. The `Assets` tab should have a row for a Microsoft.VisualStudio.VsPackage named MenuCommandTest.  
+3.  Open the *source.extension.vsixmanifest* file in the VSIX Manifest Editor. The `Assets` tab should have a row for a Microsoft.VisualStudio.VsPackage named MenuCommandTest.  
   
-4.  Save and close the Source.extension.vsixmanifest file.  
+4.  Save and close the *source.extension.vsixmanifest* file.  
   
-## Adding a MEF Extension to the Command Extension  
+## Add a MEF extension to the command extension  
   
 1.  In **Solution Explorer**, right-click the solution node, click **Add**, and then click **New Project**. In the **Add New Project** dialog box, click **Extensibility** under **Visual C#**, then **VSIX Project**. Name the project `CommentAdornmentTest`.  
   
-2.  Because this project will interact with the strongly-named VSPackage assembly, you must sign the assembly. You can reuse the key file already created for the VSPackage assembly.  
+2.  Because this project will interact with the strongly named VSPackage assembly, you must sign the assembly. You can reuse the key file already created for the VSPackage assembly.  
   
     1.  Open the project properties and select the **Signing** tab.  
   
     2.  Select **Sign the assembly**.  
   
-    3.  Under **Choose a strong name key file**, select the Key.snk file that was generated for the MenuCommandTest assembly.  
+    3.  Under **Choose a strong name key file**, select the *Key.snk* file that was generated for the MenuCommandTest assembly.  
   
-## Referring to the MEF Extension in the VSPackage Project  
+## Refer to the MEF extension in the VSPackage project  
  Because you are adding a MEF component to the VSPackage, you must specify both kinds of assets in the manifest.  
   
 > [!NOTE]
 >  For more information about MEF, see [Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index).  
   
-#### To refer to the MEF component in the VSPackage project  
+### To refer to the MEF component in the VSPackage project  
   
-1.  In the MenuCommandTest project, open the source.extension.vsixmanifest file in the VSIX Manifest Editor.  
+1.  In the MenuCommandTest project, open the *source.extension.vsixmanifest* file in the VSIX Manifest Editor.  
   
 2.  On the **Assets** tab, click **New**.  
   
@@ -63,13 +63,13 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 5.  In the **Project** list, choose **CommentAdornmentTest**.  
   
-6.  Save and close the source.extension.vsixmanifest file.  
+6.  Save and close the *source.extension.vsixmanifest* file.  
   
 7.  Make sure that the MenuCommandTest project has a reference to the CommentAdornmentTest project.  
   
 8.  In the CommentAdornmentTest project, set the project to produce an assembly. In the **Solution Explorer**, select the project and look in the **Properties** window for the **Copy Build Output to OutputDirectory** property, and set it to **true**.  
   
-## Defining a Comment Adornment  
+## Define a comment adornment  
  The comment adornment itself consists of an <xref:Microsoft.VisualStudio.Text.ITrackingSpan> that tracks the selected text, and some strings that represent the author and the description of the text.  
   
 #### To define a comment adornment  
@@ -104,7 +104,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 4.  The file should contain a class named `CommentAdornment`.  
   
-    ```  
+    ```csharp  
     internal class CommentAdornment  
     ```  
   
@@ -127,8 +127,8 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     }  
     ```  
   
-## Creating a Visual Element for the Adornment  
- You must also define a visual element for your adornment. For this walkthrough, define a control that inherits from the Windows Presentation Foundation (WPF) class <xref:System.Windows.Controls.Canvas>.  
+## Create a visual element for the adornment  
+ Define a visual element for your adornment. For this walkthrough, define a control that inherits from the Windows Presentation Foundation (WPF) class <xref:System.Windows.Controls.Canvas>.  
   
 1.  Create a class in the CommentAdornmentTest project, and name it `CommentBlock`.  
   
@@ -251,7 +251,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     }  
     ```  
   
-## Adding an IWpfTextViewCreationListener  
+## Add an IWpfTextViewCreationListener  
  The <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewCreationListener> is a MEF component part that you can use to listen to view creation events.  
   
 1.  Add a class file to the CommentAdornmentTest project and name it `Connector`.  
@@ -300,10 +300,10 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     }  
     ```  
   
-## Defining an Adornment Layer  
+## Define an adornment layer  
  To add a new adornment, you must define an adornment layer.  
   
-#### To define an adornment layer  
+### To define an adornment layer  
   
 1.  In the `Connector` class, declare a public field of type <xref:Microsoft.VisualStudio.Text.Editor.AdornmentLayerDefinition>, and export it with a <xref:Microsoft.VisualStudio.Utilities.NameAttribute> that specifies a unique name for the adornment layer and an <xref:Microsoft.VisualStudio.Utilities.OrderAttribute> that defines the Z-order relationship of this adornment layer to the other text view layers (text, caret, and selection).  
   
@@ -315,7 +315,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
     ```  
   
-## Providing Comment Adornments  
+## Provide comment adornments  
  When you define an adornment, also implement a comment adornment provider and a comment adornment manager. The comment adornment provider keeps a list of comment adornments, listens to <xref:Microsoft.VisualStudio.Text.ITextBuffer.Changed> events on the underlying text buffer, and deletes comment adornments when the underlying text is deleted.  
   
 1.  Add a new class file to the CommentAdornmentTest project and name it `CommentAdornmentProvider`.  
@@ -500,7 +500,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     }  
     ```  
   
-## Managing Comment Adornments  
+## Manage comment adornments  
  The comment adornment manager creates the adornment and adds it to the adornment layer. It listens to the <xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged> and <xref:Microsoft.VisualStudio.Text.Editor.ITextView.Closed> events so that it can move or delete the adornment. It also listens to the `CommentsChanged` event that is fired by the comment adornment provider when comments are added or removed.  
   
 1.  Add a class file to the CommentAdornmentTest project and name it `CommentAdornmentManager`.  
@@ -548,7 +548,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     }  
     ```  
   
-6.  Add the `Create()` method that gets a provider or creates one if required.  
+6.  Add the `Create()` method that gets a provider or creates one if necessary.  
   
     ```csharp  
     public static CommentAdornmentManager Create(IWpfTextView view)  
@@ -619,7 +619,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
      [!code-csharp[VSSDKMenuCommandTest#35](../extensibility/codesnippet/CSharp/walkthrough-using-a-shell-command-with-an-editor-extension_3.cs)]
      [!code-vb[VSSDKMenuCommandTest#35](../extensibility/codesnippet/VisualBasic/walkthrough-using-a-shell-command-with-an-editor-extension_3.vb)]  
   
-## Using the Menu Command to Add the Comment Adornment  
+## Use the menu command to add the comment adornment  
  You can use the menu command to create a comment adornment by implementing the `MenuItemCallback` method of the VSPackage.  
   
 1.  Add the following references to the MenuCommandTest project:  
@@ -630,7 +630,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
     -   Microsoft.VisualStudio.Text.UI.Wpf  
   
-2.  Open the AddAdornment.cs file and add the following `using` statements.  
+2.  Open the *AddAdornment.cs* file and add the following `using` statements.  
   
     ```csharp  
     using Microsoft.VisualStudio.TextManager.Interop;  
@@ -639,7 +639,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     using CommentAdornmentTest;  
     ```  
   
-3.  Delete the ShowMessageBox() method and add the following command handler.  
+3.  Delete the `ShowMessageBox()` method and add the following command handler.  
   
     ```csharp  
     private void AddAdornmentHandler(object sender, EventArgs e)  
@@ -659,7 +659,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     }  
     ```  
   
-5.  If this text view is an instance of an editor text view, you can cast it to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsUserData> interface and then get the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewHost> and its associated <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextView>. Use the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewHost> to call the `Connector.Execute()` method, which gets the comment adornment provider and adds the adornment. The command handler should now look like this:  
+5.  If this text view is an instance of an editor text view, you can cast it to the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsUserData> interface and then get the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewHost> and its associated <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextView>. Use the <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewHost> to call the `Connector.Execute()` method, which gets the comment adornment provider and adds the adornment. The command handler should now look like this code:  
   
     ```csharp  
     private void AddAdornmentHandler(object sender, EventArgs e)  
@@ -706,17 +706,17 @@ From a VSPackage, you can add features such as menu commands to the editor. This
     }  
     ```  
   
-## Building and Testing the Code  
+## Build and test the code  
   
 1.  Build the solution and start debugging. The experimental instance should appear.  
   
 2.  Create a text file. Type some text and then select it.  
   
-3.  On the **Tools** menu, click **Invoke Add Adornment**. A balloon should be displayed on the right side of the text window, and should contain text that resembles the following text.  
+3.  On the **Tools** menu, click **Invoke Add Adornment**. A balloon should display on the right side of the text window, and should contain text that resembles the following text.  
   
      YourUserName  
   
      Fourscore...  
   
-## See Also  
- [Walkthrough: Linking a Content Type to a File Name Extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)
+## See also  
+ [Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)

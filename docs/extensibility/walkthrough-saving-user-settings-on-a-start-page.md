@@ -12,12 +12,12 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Walkthrough: Saving User Settings on a Start Page
-You can persist user settings for your start page. By following this walkthrough, you can create a control that saves a setting to the registry when the user clicks a button, and then retrieves that setting every time the Start Page loads. Because the Start Page project template includes a customizable user control, and the default Start Page XAML calls that control, you do not have to modify the Start Page itself.  
+# Walkthrough: Save user settings on a start page
+You can persist user settings for your start page. By following this walkthrough, you can create a control that saves a setting to the registry when the user clicks a button, and then retrieves that setting every time the Start Page loads. Because the Start Page project template includes a customizable user control, and the default Start Page XAML calls that control, you don't have to modify the Start Page itself.  
   
- The settings store that is instantiated in this walkthrough is an instance of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore> interface, which reads and writes to the following registry location when it is called: HKCU\Software\Microsoft\VisualStudio\14.0\\*CollectionName*  
+ The settings store that is instantiated in this walkthrough is an instance of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore> interface, which reads and writes to the following registry location when it's called: HKCU\Software\Microsoft\VisualStudio\14.0\\*CollectionName*  
   
- When it is running in the experimental instance of Visual Studio, the settings store reads and writes to HKCU\Software\Microsoft\VisualStudio\14.0Exp\\*CollectionName.*  
+ When it's running in the experimental instance of Visual Studio, the settings store reads and writes to HKCU\Software\Microsoft\VisualStudio\14.0Exp\\*CollectionName.*  
   
  For more information about how to persist settings, see [Extending User Settings and Options](../extensibility/extending-user-settings-and-options.md).  
   
@@ -28,11 +28,11 @@ You can persist user settings for your start page. By following this walkthrough
 >   
 >  You can download the Start Page project template by using **Extension Manager**.  
   
-## Setting Up the Project  
+## Setting up the project  
   
-#### To configure the project for this walkthrough  
+### To configure the project for this walkthrough  
   
-1.  Create a Start Page project as described in [Creating a Custom Start Page](creating-a-custom-start-page.md). Name the project **SaveMySettings**.  
+1.  Create a Start Page project as described in [Create a custom start page](creating-a-custom-start-page.md). Name the project **SaveMySettings**.  
   
 2.  In **Solution Explorer**, add the following assembly references to the StartPageControl project:  
   
@@ -44,17 +44,17 @@ You can persist user settings for your start page. By following this walkthrough
   
     -   Microsoft.VisualStudio.Shell.Interop.11.0  
   
-3.  Open MyControl.xaml.  
+3.  Open *MyControl.xaml*.  
   
 4.  From the XAML pane, in the top-level <xref:System.Windows.Controls.UserControl> element definition, add the following event declaration after the namespace declarations.  
   
-    ```  
+    ```csharp 
     Loaded="OnLoaded"  
     ```  
   
-5.  In the design pane, click the main area of the control, and then press DELETE.  
+5.  In the design pane, click the main area of the control, and then press **Delete**.  
   
-     This removes the <xref:System.Windows.Controls.Border> element and everything in it, and leaves only the top-level <xref:System.Windows.Controls.Grid> element.  
+     This step removes the <xref:System.Windows.Controls.Border> element and everything in it, and leaves only the top level <xref:System.Windows.Controls.Grid> element.  
   
 6.  From the **Toolbox**, drag a <xref:System.Windows.Controls.StackPanel> control to the grid.  
   
@@ -70,13 +70,13 @@ You can persist user settings for your start page. By following this walkthrough
     </StackPanel>  
     ```  
   
-## Implementing the User Control  
+## Implement the user control  
   
-#### To implement the user control  
+### To implement the user control  
   
 1.  In the XAML pane, right-click the `Click` attribute of the <xref:System.Windows.Controls.Button> element, and then click **Navigate to Event Handler**.  
   
-     This opens MyControl.xaml.cs, and creates a stub handler for the `Button_Click` event.  
+     This step opens *MyControl.xaml.cs*, and creates a stub handler for the `Button_Click` event.  
   
 2.  Add the following `using` statements to the top of the file.  
   
@@ -131,7 +131,7 @@ You can persist user settings for your start page. By following this walkthrough
     }  
     ```  
   
-     This writes the content of the text box to a "MySetting" field in a "MySettings" collection in the registry. If the collection does not exist, it is created.  
+     This writes the content of the text box to a "MySetting" field in a "MySettings" collection in the registry. If the collection does not exist, it's created.  
   
 5.  Add the following handler for the `OnLoaded` event of the user control.  
   
@@ -145,23 +145,23 @@ You can persist user settings for your start page. By following this walkthrough
     }  
     ```  
   
-     This sets the text of the text box to the current value of "MySetting".  
+     This code sets the text of the text box to the current value of "MySetting".  
   
 6.  Build the user control.  
   
-7.  In **Solution Explorer**, open source.extension.vsixmanifest.  
+7.  In **Solution Explorer**, open *source.extension.vsixmanifest*.  
   
 8.  In the manifest editor, set **Product Name** to **Save My Settings Start Page**.  
   
-     This sets the name of the Start Page as it is to appear in the **Customize Start Page** list in the **Options** dialog box.  
+     This feature sets the name of the Start Page as it's to appear in the **Customize Start Page** list in the **Options** dialog box.  
   
-9. Build StartPage.xaml.  
+9. Build *StartPage.xaml*.  
   
-## Testing the Control  
+## Test the control  
   
-#### To test the user control  
+### To test the user control  
   
-1.  Press F5.  
+1.  Press **F5**.  
   
      The experimental instance of Visual Studio opens.  
   
@@ -171,7 +171,7 @@ You can persist user settings for your start page. By following this walkthrough
   
      Click **OK**.  
   
-4.  Close the Start Page if it is open, and then, on the **View** menu, click **Start Page**.  
+4.  Close the Start Page if it's open, and then, on the **View** menu, click **Start Page**.  
   
 5.  On the Start Page, click the **MyControl** tab.  
   
@@ -185,17 +185,17 @@ You can persist user settings for your start page. By following this walkthrough
   
 9. Close the Start Page and then open it again.  
   
-     The word "Dog" should be displayed in the text box, even though the setting was not saved. This happens because Visual Studio keeps tool windows in memory, even if they are closed, until Visual Studio itself is closed.  
+     The word "Dog" should be displayed in the text box, even though you didn't save the setting because Visual Studio keeps tool windows in memory, even if they are closed, until Visual Studio itself closes.  
   
 10. Close the experimental instance of Visual Studio.  
   
-11. Press F5 to re-open the experimental instance.  
+11. Press **F5** to reopen the experimental instance.  
   
 12. The word "Cat" should be displayed in the text box.  
   
-## Next Steps  
- You can modify this user control to save and retrieve any number of custom settings by using different values from different event handlers to get and set the `SettingsStore` property. As long as you use a different `propertyName` parameter for each call to <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore.SetString%2A>, the values will not overwrite one another in the registry.  
+## Next steps  
+ You can modify this user control to save and retrieve any number of custom settings by using different values from different event handlers to get and set the `SettingsStore` property. As long as you use a different `propertyName` parameter for each call to <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore.SetString%2A>, the values don't overwrite one another in the registry.  
   
-## See Also  
+## See also  
  <xref:EnvDTE80.DTE2?displayProperty=fullName>     
- [Adding Visual Studio Commands to a Start Page](../extensibility/adding-visual-studio-commands-to-a-start-page.md)
+ [Adding Visual Studio commands to a start page](../extensibility/adding-visual-studio-commands-to-a-start-page.md)
