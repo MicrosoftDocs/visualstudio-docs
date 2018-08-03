@@ -54,14 +54,6 @@ While Dotfuscator Community Edition provides a basic level of protection, **_Pre
   * Additional [application defense behaviors][check-actions].
   * The ability to provide a warning period before an application's end-of-life deadline.
   * The ability to notify application code during an end-of-life warning period or after the deadline.
-  * Telemetry encryption.
-* *Application Monitoring*
-  * The ability to collect and save collected information during temporary network outages.
-  * The ability to collect personally identifiable information.
-  * Unlimited use of [feature tracking][features].
-  * The ability to track exceptions caught and thrown by your code, in addition to unhandled exceptions.
-  * The ability to track exceptions in `.dll` assemblies.
-  * Telemetry encryption.
 
 Dotfuscator Professional is the industry standard [.NET Obfuscator][net-obfuscator] and is suitable for enterprise developers requiring ongoing support, maintenance, and product updates.
 Additionally, Dotfuscator Professional offers tighter integration with Visual Studio and is licensed for commercial use.
@@ -82,7 +74,6 @@ For more information about the advanced application protection features of Dotfu
 [pruning]:  https://www.preemptive.com/products/dotfuscator/features#pruning
 
 [check-actions]:  https://www.preemptive.com/dotfuscator/pro/userguide/en/protection_checks_overview.html#actions
-[features]:  https://www.preemptive.com/dotfuscator/pro/userguide/en/instrumentation_features.html
 
 [net-obfuscator]:  https://www.preemptive.com/products/dotfuscator/overview
 [eval]:  https://www.preemptive.com/eval-request
