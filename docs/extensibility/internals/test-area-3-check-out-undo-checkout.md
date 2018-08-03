@@ -52,7 +52,7 @@ The following are specific test cases for the Checkout/Undo Checkout test area.
   
 ### Case 3a: Check Out
 
-his section focuses on the operation of the check-out command.  
+This section focuses on the operation of the check-out command.  
   
 |Action|Test Steps|Expected Results to Verify|  
 |------------|----------------|--------------------------------|  
