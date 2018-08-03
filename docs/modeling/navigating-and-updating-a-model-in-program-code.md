@@ -16,37 +16,6 @@ ms.technology: vs-ide-modeling
 
 You can write code to create and delete model elements, set their properties, and create and delete links between elements. All changes must be made within a transaction. If the elements are viewed on a diagram, the diagram will be "fixed up" automatically at the end of the transaction.
 
-## In this Topic
- [An Example DSL Definition](#example)
-
- [Navigating the Model](#navigation)
-
- [Accessing Class Information](#metadata)
-
- [Perform Changes inside a Transaction](#transaction)
-
- [Creating Model Elements](#elements)
-
- [Creating Relationship Links](#links)
-
- [Deleting Elements](#deleteelements)
-
- [Deleting Relationship Links](#deletelinks)
-
- [Reordering the Links of a Relationship](#reorder)
-
- [Locks](#locks)
-
- [Copy and Paste](#copy)
-
- [Navigating and Updating Diagrams](#diagrams)
-
- [Navigating between Shapes and Elements](#views)
-
- [Properties of Shapes and Connectors](#shapeProperties)
-
- [DocView and DocData](#docdata)
-
 ##  <a name="example"></a> An Example DSL Definition
  This is the main part of DslDefinition.dsl for the examples in this topic:
 
