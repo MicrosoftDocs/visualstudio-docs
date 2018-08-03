@@ -17,8 +17,8 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Commands and menus that use interop assemblies
-A VSPackage that implements menu and toolbar commands by using interop assemblies must:  
+# Commands and menus that use Interop assemblies
+A VSPackage that implements menu and toolbar commands by using Interop assemblies must:  
   
 -   Inform the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) about the commands it supports and whether they are currently enabled.  
   
@@ -29,16 +29,16 @@ A VSPackage that implements menu and toolbar commands by using interop assemblie
  The following section describes how to do these tasks.  
   
 ## In this section  
- [Determine command status by using interop assemblies](../../extensibility/internals/determining-command-status-by-using-interop-assemblies.md)  
+ [Determine command status by using Interop assemblies](../../extensibility/internals/determining-command-status-by-using-interop-assemblies.md)  
  Describes how a VSPackage notifies the IDE about which commands it supports and whether they are currently enabled.  
   
- [Command contracts in interop assemblies](../../extensibility/internals/command-contracts-in-interop-assemblies.md)  
- Provides a definition of the basic command contract used by all VSPackages implementing commands using interop assemblies.
+ [Command contracts in Interop assemblies](../../extensibility/internals/command-contracts-in-interop-assemblies.md)  
+ Provides a definition of the basic command contract used by all VSPackages implementing commands using Interop assemblies.
   
  [Command implementation](../../extensibility/internals/command-implementation.md)  
  Provides an overview of how a VSPackage implements a command.  
   
- [Register interop assembly command handlers](../../extensibility/internals/registering-interop-assembly-command-handlers.md)  
+ [Register Interop assembly command handlers](../../extensibility/internals/registering-interop-assembly-command-handlers.md)  
  Describes the registry entries required to notify the IDE that a VSPackage provides a command handler.  
   
 ## Related sections  

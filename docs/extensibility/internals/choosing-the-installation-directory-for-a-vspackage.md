@@ -18,7 +18,7 @@ ms.workload:
 A VSPackage and its supporting files must be on a user's file system. The location depends on whether the VSPackage is managed or unmanaged, your side-by-side versioning scheme, and user choice.  
   
 ## Unmanaged VSPackages  
- An unmanaged VSPackage is a COM server that can be installed in any location. Its registration information must accurately reflect its location. Your installer user interface (UI) should provide a default location as a subdirectory of the `ProgramFilesFolder` Windows installer property value. For example:  
+ An unmanaged VSPackage is a COM server that can be installed in any location. Its registration information must accurately reflect its location. Your installer user interface (UI) should provide a default location as a subdirectory of the `ProgramFilesFolder` Windows Installer property value. For example:  
   
 *&lt;ProgramFilesFolder&gt;\\&lt;MyCompany&gt;\\&lt;MyVSPackageProduct&gt;\V1.0\\*
   

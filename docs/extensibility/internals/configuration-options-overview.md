@@ -20,7 +20,7 @@ Projects in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] can sup
   
  Configurations typically consist of two parts: the configuration name (such as *Debug* or *Release*) and the platform settings. A configuration's platform name identifies the environment that the configuration targets, such as an API set or operating system platform. Users of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] cannot create a platform; they must choose from the selections a project VSPackage allows. When a user installs a VSPackage, the delivery platform created during development of the package can surface any platform name desired based on any criteria set by the package creator. The user can then select from the list of platforms made available through the VSPackage when the property pages are instantiated.  
   
- Platform names are optional since not all projects support the concept of platforms. When a configuration lacks a platform name, the string *N/A* is displayed in the UI.  
+ Platform names are optional since not all projects support the concept of platforms. When a configuration lacks a platform name, the string **N/A** is displayed in the UI.  
   
  Each solution has its own set of configurations, only one of which can be active at a time. A solution configuration is a set of no more than one configuration from each project. The "no more than" stipulation is due to the option to exclude a project from a solution configuration. Users can create their own custom solution configurations.  
   
@@ -56,7 +56,7 @@ Configuration interfaces
   
 -   `IVsProjectCfg2` is marked optional in the configuration object, but is needed for output grouping support.  
   
--   The config provider object is marked as an optional object, but the option is where to implement it. You may implement the object on the project object or on a separate object.  
+-   The Config Provider object is marked as an optional object, but the option is where to implement it. You may implement the object on the project object or on a separate object.  
   
 -   `IVsCfgProvider2` is needed for platform support and configuration editing. `IVsCfgProvider` is sufficient if you do not implement that functionality.  
   

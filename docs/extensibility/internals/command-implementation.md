@@ -51,11 +51,11 @@ if ( null != mcs )
 ```  
   
 ## Implement commands  
- There are a number of ways to implement commands. If you want a static menu command, which is a command that always appears the same way and on the same menu, create the command by using <xref:System.ComponentModel.Design.MenuCommand> as shown in the examples in the previous section. To create a static command, you must provide an event handler that is responsible for executing the command. Because the command is always enabled and visible, you do not have to provide its status to Visual Studio. If you want to change the status of a command depending on certain conditions, you can create the command as an instance of the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> class and, in its constructor, provide an event handler to execute the command and a query-status handler to notify Visual Studio when the status of the command changes. You can also implement <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> as part of a command class or, you can implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> if you are providing a command as part of a project. The two interfaces and the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> class all have methods that notify Visual Studio of a change in the status of a command, and other methods that provide the execution of the command.  
+ There are a number of ways to implement commands. If you want a static menu command, which is a command that always appears the same way and on the same menu, create the command by using <xref:System.ComponentModel.Design.MenuCommand> as shown in the examples in the previous section. To create a static command, you must provide an event handler that is responsible for executing the command. Because the command is always enabled and visible, you do not have to provide its status to Visual Studio. If you want to change the status of a command depending on certain conditions, you can create the command as an instance of the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> class and, in its constructor, provide an event handler to execute the command and a `QueryStatus` handler to notify Visual Studio when the status of the command changes. You can also implement <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> as part of a command class or, you can implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> if you are providing a command as part of a project. The two interfaces and the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> class all have methods that notify Visual Studio of a change in the status of a command, and other methods that provide the execution of the command.  
   
  When a command is added to the command service, it becomes one of a chain of commands. When you implement the status notification and execution methods for the command, take care to provide only for that particular command and to pass all other cases on to the other commands in the chain. If you fail to pass the command on (usually by returning <xref:Microsoft.VisualStudio.OLE.Interop.Constants.OLECMDERR_E_NOTSUPPORTED>), Visual Studio may stop working properly.  
   
-## Query status methods  
+## QueryStatus methods  
  If you are implementing either the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method or the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.QueryStatusCommand%2A> method, check for the GUID of the command set to which the command belongs and the ID of the command. Follow these guidelines:  
   
 -   If the GUID is not recognized, your implementation of either method must return <xref:Microsoft.VisualStudio.OLE.Interop.Constants.OLECMDERR_E_UNKNOWNGROUP>.  
@@ -87,7 +87,7 @@ Also, make sure that the current context is not an automation function, unless y
   
 To indicate that you support a particular command, return <xref:Microsoft.VisualStudio.VSConstants.S_OK>. For all other commands, return <xref:Microsoft.VisualStudio.OLE.Interop.Constants.OLECMDERR_E_NOTSUPPORTED>.  
   
-In the following example, the query-status method first makes sure that the context is not an automation function, then finds the correct command-set GUID and command ID. The command itself is set to be enabled and supported. No other commands are supported.  
+In the following example, the `QueryStatus` method first makes sure that the context is not an automation function, then finds the correct command-set GUID and command ID. The command itself is set to be enabled and supported. No other commands are supported.  
   
 ```  
 public int QueryStatus(ref Guid pguidCmdGroup, uint cCmds, OLECMD[] prgCmds, IntPtr pCmdText)  
@@ -110,7 +110,7 @@ public int QueryStatus(ref Guid pguidCmdGroup, uint cCmds, OLECMD[] prgCmds, Int
 ```  
   
 ## Execution methods  
- Implementation of the execute method resembles implementation of the query-status method. First, make sure that the context is not an automation function. Then, test for both the GUID and the command ID. If the GUID or command ID is not recognized, return <xref:Microsoft.VisualStudio.OLE.Interop.Constants.OLECMDERR_E_NOTSUPPORTED>.  
+ Implementation of the `Exec` method resembles implementation of the `QueryStatus` method. First, make sure that the context is not an automation function. Then, test for both the GUID and the command ID. If the GUID or command ID is not recognized, return <xref:Microsoft.VisualStudio.OLE.Interop.Constants.OLECMDERR_E_NOTSUPPORTED>.  
   
  To handle the command, execute it and return <xref:Microsoft.VisualStudio.VSConstants.S_OK> if the execution succeeds. Your command is responsible for error detection and notification; therefore, return an error code if the execution fails. The following example demonstrates how the execution method should be implemented.  
   
