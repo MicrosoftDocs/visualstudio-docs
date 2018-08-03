@@ -53,9 +53,9 @@ ms.workload:
 2.  Override the <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> method in the `ThisAddIn` class. Return an instance of the class that you want to expose to other solutions.  
   
 ### Define the class you want to expose to other solutions  
- At a minimum, the class you want to expose must be public, it must have the <xref:System.Runtime.InteropServices.ComVisibleAttribute> attribute set to **true**, and it must expose the [IDispatch](https://msdn.microsoft.com/library/windows/desktop/ms221608.aspx) interface.  
+ At a minimum, the class you want to expose must be public, it must have the <xref:System.Runtime.InteropServices.ComVisibleAttribute> attribute set to **true**, and it must expose the [IDispatch](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) interface.  
   
- The recommended way to expose the [IDispatch](https://msdn.microsoft.com/library/windows/desktop/ms221608.aspx) interface is to perform the following steps:  
+ The recommended way to expose the [IDispatch](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) interface is to perform the following steps:  
   
 1.  Define an interface that declares the members that you want to expose to other solutions. You can define this interface in your VSTO Add-in project. However, you might want to define this interface in a separate class library project if you want to expose the class to non-VBA solutions, so that the solutions that call your VSTO Add-in can reference the interface without referencing your VSTO Add-in project.  
   
@@ -79,7 +79,7 @@ ms.workload:
 ### Expose classes to VBA  
  When you perform the steps provided above, VBA code can call only the methods that you declare in the interface. VBA code cannot call any other methods in your class, including methods that your class obtains from base classes such as <xref:System.Object>.  
   
- You can alternatively expose the [IDispatch](https://msdn.microsoft.com/library/windows/desktop/ms221608.aspx) interface by setting the <xref:System.Runtime.InteropServices.ClassInterfaceAttribute> attribute to the AutoDispatch or AutoDual value of the <xref:System.Runtime.InteropServices.ClassInterfaceType> enumeration. If you expose the interface, you do not have to declare the methods in a separate interface. However, VBA code can call any public and non-static methods in your class, including methods obtained from base classes such as <xref:System.Object>. In addition, out-of-process clients that use early binding cannot call your class.  
+ You can alternatively expose the [IDispatch](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch) interface by setting the <xref:System.Runtime.InteropServices.ClassInterfaceAttribute> attribute to the AutoDispatch or AutoDual value of the <xref:System.Runtime.InteropServices.ClassInterfaceType> enumeration. If you expose the interface, you do not have to declare the methods in a separate interface. However, VBA code can call any public and non-static methods in your class, including methods obtained from base classes such as <xref:System.Object>. In addition, out-of-process clients that use early binding cannot call your class.  
   
 ###  <a name="outofproc"></a> Expose classes to out-of-process clients  
  If you want to expose a class in your VSTO Add-in to out-of-process clients, you should derive the class from <xref:System.Runtime.InteropServices.StandardOleMarshalObject> to ensure that out-of-process clients can call your exposed VSTO Add-in object. Otherwise, attempts to get an instance of your exposed object in an out-of-process client might fail unexpectedly.  
