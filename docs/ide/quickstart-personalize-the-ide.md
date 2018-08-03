@@ -91,11 +91,19 @@ Now we'll customize some text colors for the editor. First, let's create a new X
 
 We explored just a couple ways of customizing the colors in Visual Studio. We hope that you'll explore the other customization options in the **Options** dialog box, to truly make Visual Studio your own.
 
+## Next steps
+
+> [!div class="nextstepaction"]
+> [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
+
+> [!div class="nextstepaction"]
+> [Quickstart: Write code in the editor](../ide/quickstart-editor.md)
+
+> [!div class="nextstepaction"]
+> [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)
+
 ## See also
 
-- [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
-- [Quickstart: Coding in the editor](../ide/quickstart-editor.md)
-- [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)
 - [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md)
 - [Customize the editor](../ide/customizing-the-editor.md)
 - [Visual Studio IDE Overview](../ide/visual-studio-ide.md)
