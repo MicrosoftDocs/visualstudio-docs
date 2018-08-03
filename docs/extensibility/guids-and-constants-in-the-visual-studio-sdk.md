@@ -15,19 +15,19 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# GUIDs and Constants in the Visual Studio SDK
+# GUIDs and constants in the Visual Studio SDK
 The <xref:Microsoft.VisualStudio.VSConstants> class provides access to a selection of environment GUIDs and constants.  
   
-## In This Section  
+## In this section  
  [IDE GUIDs](../extensibility/ide-guids.md)  
  Lists GUIDs provided by <xref:Microsoft.VisualStudio.VSConstants>.  
   
- [IDE Constants](../extensibility/ide-constants.md)  
+ [IDE constants](../extensibility/ide-constants.md)  
  Lists SDK constants provided by <xref:Microsoft.VisualStudio.VSConstants>.  
   
-## Related Sections  
- [COM Constants in Managed Code](../extensibility/com-constants-in-managed-code.md)  
- Lists the standard COM constants available to managed code from the managed package framework (MPF).  
+## Related sections  
+ [COM constants in managed code](../extensibility/com-constants-in-managed-code.md)  
+ Lists the standard COM constants available to managed code from the Managed Package Framework (MPF).  
   
- [IDE-Defined Commands for Extending Project Systems](../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)  
+ [IDE-defined commands for extending project systems](../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)  
  Lists different types of command items used for extending project systems.

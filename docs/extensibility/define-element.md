@@ -15,8 +15,8 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Define Element
-Defines a symbol name and value pair. This symbol can be evaluated by conditional attributes. For more information, see [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md). See also the [Symbols Element](../extensibility/symbols-element.md).  
+# Define element
+Defines a symbol name and value pair. This symbol can be evaluated by conditional attributes. For more information, see [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md). See also the [Symbols element](../extensibility/symbols-element.md).  
   
 ## Syntax  
   
@@ -24,7 +24,7 @@ Defines a symbol name and value pair. This symbol can be evaluated by conditiona
 <Define name="Mode" value="Standard" />  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -33,16 +33,16 @@ Defines a symbol name and value pair. This symbol can be evaluated by conditiona
 |---------------|-----------------|  
 |name|Required. The name of the symbol:<br /><br /> name="Mode"|  
 |value|Required. The value of the symbol:<br /><br /> value="Standard"|  
-|Condition|Optional. For more information, see [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
+|Condition|Optional. For more information, see [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
   
-### Child Elements  
+### Child elements  
  None.  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
-|[CommandTable Element](../extensibility/commandtable-element.md)|Defines all the elements that represent commands that a VSPackage provides to the integrated development environment (IDE). For example, menu items, menus, toolbars, and combo boxes.|  
+|[CommandTable element](../extensibility/commandtable-element.md)|Defines all the elements that represent commands that a VSPackage provides to the integrated development environment (IDE). For example, menu items, menus, toolbars, and combo boxes.|  
   
 ## Example  
   
@@ -51,5 +51,5 @@ Defines a symbol name and value pair. This symbol can be evaluated by conditiona
 <Define name="MODE" value="Standard"/>  
 ```  
   
-## See Also  
- [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+## See also  
+ [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

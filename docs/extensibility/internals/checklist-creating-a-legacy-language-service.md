@@ -15,10 +15,10 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Checklist: Creating a Legacy Language Service
-The following checklist summarizes the basic steps you must take in order to create a language service for the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] core editor. To integrate your language service into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you must create a debug expression evaluator. For more information, see [Writing a CLR Expression Evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md) in the [Visual Studio Debugger Extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md).  
+# Checklist: Create a legacy language service
+The following checklist summarizes the basic steps you must take in order to create a language service for the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] core editor. To integrate your language service into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you must create a debug expression evaluator. For more information, see [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md) in the [Visual Studio debugger extensibility](../../extensibility/debugger/visual-studio-debugger-extensibility.md).  
   
-## Steps for Creating a Language Service  
+## Steps to create a language service  
   
 1.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage> interface.  
   
@@ -30,14 +30,14 @@ The following checklist summarizes the basic steps you must take in order to cre
   
      The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo> interface is the starting point of interaction between the core editor and the language service.  
   
-### Optional Features  
+### Optional features  
  The following features are optional and can be implemented in any order. These features increase the functionality of your language service.  
   
 -   Syntax coloring  
   
      Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface. Your implementation of this interface should the parser information to return the appropriate color information.  
   
-     The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetColorizer%2A> method returns the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface. A separate colorizer instance is created for each text buffer, so you should implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface separately. For more information, see [Syntax Coloring in a Legacy Language Service](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md).  
+     The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageInfo.GetColorizer%2A> method returns the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface. A separate colorizer instance is created for each text buffer, so you should implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer> interface separately. For more information, see [Syntax coloring in a legacy language service](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md).  
   
 -   Code window  
   
@@ -54,8 +54,8 @@ The following checklist summarizes the basic steps you must take in order to cre
     -   Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.AddCommandFilter%2A> method and pass in your <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> implementation.  
   
     -   Call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.RemoveCommandFilter%2A> method when you detach from the view so that these commands are no longer passed to you.  
-  
-     Commands that must be handled depend on the services that are provided. For more information, see [Important Commands for Language Service Filters](../../extensibility/internals/important-commands-for-language-service-filters.md).  
+   
+    Commands that must be handled depend on the services that are provided. For more information, see [Important commands for language service filters](../../extensibility/internals/important-commands-for-language-service-filters.md).  
   
     > [!NOTE]
     >  The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextViewFilter> interface must be implemented on the same object as the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface.  
@@ -64,13 +64,13 @@ The following checklist summarizes the basic steps you must take in order to cre
   
      Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompletionSet> interface.  
   
-     Support the statement completion command (that is, <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID>) and call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.UpdateCompletionStatus%2A> method in the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface, passing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompletionSet> interface. For more information, see [Statement Completion in a Legacy Language Service](../../extensibility/internals/statement-completion-in-a-legacy-language-service.md).  
+     Support the statement completion command (that is, <xref:Microsoft.VisualStudio.VSConstants.VSStd2KCmdID>) and call the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView.UpdateCompletionStatus%2A> method in the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextView> interface, passing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompletionSet> interface. For more information, see [Statement completion in a legacy language service](../../extensibility/internals/statement-completion-in-a-legacy-language-service.md).  
   
 -   Method tips  
   
      Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsMethodData> interface to provide data for the method tip window.  
   
-     Install the text view filter to handle commands appropriately, so that you know when to show a method data tip window. For more information, see [Parameter Info in a Legacy Language Service](../../extensibility/internals/parameter-info-in-a-legacy-language-service1.md).  
+     Install the text view filter to handle commands appropriately, so that you know when to show a method data tip window. For more information, see [Parameter Info in a legacy language service](../../extensibility/internals/parameter-info-in-a-legacy-language-service1.md).  
   
 -   Error markers  
   
@@ -80,7 +80,7 @@ The following checklist summarizes the basic steps you must take in order to cre
   
      Typically each error marker manages an item in the task list window.  
   
--   Task List items  
+-   Task list items  
   
      Implement a task item class providing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsTaskItem> interface.  
   
@@ -106,20 +106,20 @@ The following checklist summarizes the basic steps you must take in order to cre
   
 -   Outlining  
   
-     There are several options for supporting outlining. For example, you can support the **Collapse to Definitions** command, provide editor-controlled outline regions, or support client-controlled regions. For more information, see [How to: Provide Expanded Outlining Support in a Legacy Language Service](../../extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md).  
+     There are several options for supporting outlining. For example, you can support the **Collapse to Definitions** command, provide editor-controlled outline regions, or support client-controlled regions. For more information, see [How to: Provide expanded outlining support in a legacy language service](../../extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md).  
   
 -   Language service registration  
   
-     For more information about how to register a language service, see [Registering a Legacy Language Service](../../extensibility/internals/registering-a-legacy-language-service2.md) and [Managing VSPackages](../../extensibility/managing-vspackages.md).  
+     For more information about how to register a language service, see [Register a legacy language service](../../extensibility/internals/registering-a-legacy-language-service2.md) and [Manage VSPackages](../../extensibility/managing-vspackages.md).  
   
--   Context-sensitive Help  
+-   Context-sensitive help  
   
      Provide context to the editor in one of the following ways:  
   
     -   Provide context for text markers by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerContextProvider> interface.  
   
- Provide all user context by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider> interface.  
-  
-## See Also  
- [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)   
- [Writing a CLR Expression Evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)
+    -   Provide all user context by implementing the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageContextProvider> interface.  
+   
+## See also  
+ [Develop a legacy language service](../../extensibility/internals/developing-a-legacy-language-service.md)   
+ [Write a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)

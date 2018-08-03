@@ -15,7 +15,7 @@ ms.workload:
 
 # Step 6: Work with Git
 
-**Previous step: [Installing packages and managing your Python environment](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)**
+**Previous step: [Install packages and manage your Python environment](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)**
 
 Visual Studio provides direct integration with local Git repositories and remote repositories on services like GitHub and Visual Studio Team Services. The integration includes cloning a repository, committing changes, and managing branches.
 
@@ -27,7 +27,7 @@ This article provides a basic overview of creating a local Git repository for an
 
     ![Additional information appears when hovering over a Git control on the Visual Studio window](media/working-with-git-01.png)
 
-1. When you create a new repository or select any of the Git controls, Visual Studio opens the **Team Explorer** window. (You can open the window at any time with the **View > Team Explorer** menu command.) The window has three main panes, which you switch between using the drop-down on the **Team Explorer** header. The **Sync** pane, which provides publishing operations, also appears when you select the Push control (the up arrow icon):
+1. When you create a new repository or select any of the Git controls, Visual Studio opens the **Team Explorer** window. (You can open the window at any time with the **View** > **Team Explorer** menu command.) The window has three main panes, which you switch between using the drop-down on the **Team Explorer** header. The **Sync** pane, which provides publishing operations, also appears when you select the **Push** control (the up arrow icon):
 
     ![Team Explorer in Visual Studio after creating a local repository](media/working-with-git-02.png)
 
@@ -43,15 +43,15 @@ This article provides a basic overview of creating a local Git repository for an
 
     ![Team Explorer in Visual Studio showing branches](media/working-with-git-04.png)
 
-1. Selecting the Git control with the repository name ("CosineWave" in a previous image), **Team Explorer** shows a **Connect** interface with which you can quickly switch to another repository entirely.
+1. Selecting the Git control with the repository name (**CosineWave** in a previous image), **Team Explorer** shows a **Connect** interface with which you can quickly switch to another repository entirely.
 
-1. When using a local repository, committed changes go directly into the repository. If you're connected to a remote repository, select the drop-down header in **Team Explorer**, choose **Sync** to switch to the **Synchronization** section, and work with the pull and fetch commands presented there.
+1. When using a local repository, committed changes go directly into the repository. If you're connected to a remote repository, select the drop-down header in **Team Explorer**, choose **Sync** to switch to the **Synchronization** section, and work with the **Pull** and **Fetch** commands presented there.
 
 ## Go deeper
 
-For a short walkthrough of creating a project from a remote Git repository, see [Quickstart: clone a repository of Python code in Visual Studio](quickstart-03-python-in-visual-studio-project-from-repository.md).
+For a short walkthrough of creating a project from a remote Git repository, see [Quickstart: Clone a repository of Python code in Visual Studio](quickstart-03-python-in-visual-studio-project-from-repository.md).
 
-For a much more comprehensive tutorial, including handling merge conflicts, reviewing code with pull requests, rebasing, and cherry-picking changes between branches, see [Getting Started with Git and VSTS](/vsts/git/gitquickstart?toc=/visualstudio/version-control/toc.json&bc=/vsts/git/breadcrumb/vc/toc.json&view=vsts&tabs=visual-studio).
+For a much more comprehensive tutorial, including handling merge conflicts, reviewing code with pull requests, rebasing, and cherry-picking changes between branches, see [Get started with Git and VSTS](/vsts/git/gitquickstart?toc=/visualstudio/version-control/toc.json&bc=/vsts/git/breadcrumb/vc/toc.json&view=vsts&tabs=visual-studio).
 
 ## Tutorial review
 
@@ -59,14 +59,14 @@ Congratulations on completing this tutorial on Python in Visual Studio. In this 
 
 - Create projects and view a project's contents.
 - Use the code editor and run a project.
-- Use the interactive window to develop new code and easily copy that code into the editor.
+- Use the **Interactive** window to develop new code and easily copy that code into the editor.
 - Run a completed program in the Visual Studio debugger.
-- Install packages and manage Python environments
-- Work with code in a Git repository
+- Install packages and manage Python environments.
+- Work with code in a Git repository.
 
-From here, explore the Concepts and How-to Guides, including the following articles:
+From here, explore the Concepts and How-to guides, including the following articles:
 
-- [Creating a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md)
-- [Publishing to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)
+- [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md)
+- [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)
 - [Profiling](profiling-python-code-in-visual-studio.md)
 - [Unit testing](unit-testing-python-in-visual-studio.md)

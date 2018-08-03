@@ -37,12 +37,11 @@ When multiple VSPackages are added to Visual Studio, the user interface (UI) may
     <ButtonText>Test Command</ButtonText>
   </Strings>
 </Button>
-
 ```
 
- In the example, if the parent group, `MyMenuGroup`, is a child of a top-level menu such as the **Tools** menu, the command will be visible on that menu, but the package that executes the command will not be loaded until the command is clicked by a user. However, by programming the command to implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface, you can enable the package to be loaded when the menu that contains the command is first expanded.
+In the example, if the parent group, `MyMenuGroup`, is a child of a top-level menu such as the **Tools** menu, the command will be visible on that menu, but the package that executes the command will not be loaded until the command is clicked by a user. However, by programming the command to implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface, you can enable the package to be loaded when the menu that contains the command is first expanded.
 
- Notice that delayed loading may also improve start-up performance.
+Notice that delayed loading may also improve start-up performance.
 
 ## Current Context and the Visibility of Commands
  You can program VSPackage commands to be visible or hidden, depending on the current state of the VSPackage data or the actions that are currently relevant. You can enable the VSPackage to set the state of its commands, typically by using an implementation of the <xref:EnvDTE.IDTCommandTarget.QueryStatus%2A> method from the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface, but this requires the VSPackage to be loaded before it can execute the code. Instead, we recommend that you enable the IDE to manage the visibility of the commands without loading the package. To do this, in the .vsct file, associate commands with one or more special UI contexts. These UI contexts are identified by a GUID known as a *command context GUID*.
@@ -80,7 +79,7 @@ When multiple VSPackages are added to Visual Studio, the user interface (UI) may
 
 -   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.CodeWindow_guid>
 
- These GUIDs are marked as active or inactive, depending on the current state of the IDE. Multiple UI contexts can be active at the same time.
+These GUIDs are marked as active or inactive, depending on the current state of the IDE. Multiple UI contexts can be active at the same time.
 
 ### Hiding and Displaying Commands Based on Context
  You can display or hide a package command in the IDE without loading the package itself. To do this, define the command in the .vsct file of the package by using the `DefaultDisabled`, `DefaultInvisible`, and `DynamicVisibility` command flags and adding one or more [VisibilityItem](../../extensibility/visibilityitem-element.md) elements to the [VisibilityConstraints](../../extensibility/visibilityconstraints-element.md) section. When a specified command context `GUID` becomes active, the command is displayed without loading the package.
@@ -102,11 +101,11 @@ When multiple VSPackages are added to Visual Studio, the user interface (UI) may
 
  The command is set to be enabled and displayed whenever a solution exists; that is, whenever one of the following command context GUIDs is active:
 
--   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_EmptySolution>
+-   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.EmptySolution_guid>
 
--   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_SolutionHasMultipleProjects>
+-   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionHasMultipleProjects_guid>
 
--   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT_SolutionHasSingleProject>
+-   <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionHasSingleProject_guid>
 
 In the example, notice that every command flag is a separate [Command Flag](../../extensibility/command-flag-element.md) element.
 

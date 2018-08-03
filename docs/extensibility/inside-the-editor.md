@@ -14,20 +14,20 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Inside the Editor
+# Inside the editor
 The editor is composed of a number of different subsystems, which are designed to keep the editor text model separate from the text view and the user interface.  
   
  These sections describe different aspects of the editor:  
   
--   [Overview of the Subsystems](../extensibility/inside-the-editor.md#overview)  
+-   [Overview of the subsystems](../extensibility/inside-the-editor.md#overview-of-the-subsystems)  
   
--   [The Text Model](../extensibility/inside-the-editor.md#textmodel)  
+-   [The text model](../extensibility/inside-the-editor.md#the-text-model)  
   
--   [The Text View](../extensibility/inside-the-editor.md#textview)  
+-   [The text view](../extensibility/inside-the-editor.md#the-text-view)  
   
  These sections describe the features of the editor:  
   
--   [Tags and Classifiers](../extensibility/inside-the-editor.md#tagsandclassifiers)  
+-   [Tags and classifiers](../extensibility/inside-the-editor.md#tags-and-classifiers)  
   
 -   [Adornments](../extensibility/inside-the-editor.md#adornments)  
   
@@ -35,15 +35,15 @@ The editor is composed of a number of different subsystems, which are designed t
   
 -   [Outlining](../extensibility/inside-the-editor.md#outlining)  
   
--   [Mouse Bindings](../extensibility/inside-the-editor.md#mousebindings)  
+-   [Mouse bindings](../extensibility/inside-the-editor.md#mousebindings)  
   
--   [Editor Operations](../extensibility/inside-the-editor.md#editoroperations)  
+-   [Editor operations](../extensibility/inside-the-editor.md#editoroperations)  
   
 -   [IntelliSense](../extensibility/inside-the-editor.md#intellisense)  
   
-##  <a name="overview"></a> Overview of the Subsystems  
+## Overview of the Subsystems  
   
-### Text Model Subsystem  
+### Text model subsystem  
  The text model subsystem is responsible for representing text and enabling its manipulation. The text model subsystem contains the <xref:Microsoft.VisualStudio.Text.ITextBuffer> interface, which describes the sequence of characters that is to be displayed by the editor. This text can be modified, tracked, and otherwise manipulated in many ways. The text model also provides types for the following aspects:  
   
 -   A service that associates text with files, and manages reading and writing them in the file system.  
@@ -54,27 +54,27 @@ The editor is composed of a number of different subsystems, which are designed t
   
  The text model subsystem is free of user interface (UI) concepts. For example, it is not responsible for text formatting or text layout, and it has no knowledge of visual adornments that may be associated with the text.  
   
- The public types of the text model subsystem are contained in Microsoft.VisualStudio.Text.Data.dll and Microsoft.VisualStudio.CoreUtility.dll, which depend only on the .NET Framework base class library and the Managed Extensibility Framework (MEF).  
+ The public types of the text model subsystem are contained in *Microsoft.VisualStudio.Text.Data.dll* and *Microsoft.VisualStudio.CoreUtility.dll*, which depend only on the .NET Framework base class library and the Managed Extensibility Framework (MEF).  
   
-### Text View Subsystem  
+### Text view subsystem  
  The text view subsystem is responsible for formatting and displaying text. The types in this subsystem are divided into two layers, depending on whether the types rely on Windows Presentation Foundation (WPF). The most important types are <xref:Microsoft.VisualStudio.Text.Editor.ITextView> and <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextView>, which control the set of text lines that are to be displayed, and also the caret, the selection, and the facilities for adorning the text by using WPF UI elements. This subsystem also provides margins around the text display area. These margins can be extended, and can contain different kinds of content and visual effects. Examples of margins are line number displays and scroll bars.  
   
- The public types of the text view subsystem are contained in Microsoft.VisualStudio.Text.UI.dll and Microsoft.VisualStudio.Text.UI.Wpf.dll. The first assembly contains the platform-independent elements, and the second contains the WPF-specific elements.  
+ The public types of the text view subsystem are contained in *Microsoft.VisualStudio.Text.UI.dll* and *Microsoft.VisualStudio.Text.UI.Wpf.dll*. The first assembly contains the platform-independent elements, and the second contains the WPF-specific elements.  
   
-### Classification Subsystem  
+### Classification subsystem  
  The classification subsystem is responsible for determining font properties for text. A classifier breaks the text into different classes, for example, "keyword" or "comment". The classification format map relates these classes to actual font properties, for example, "Blue Consolas 10 pt". This information is used by the text view when it formats and renders text. Tagging, which is described in more detail later in this topic, enables data to be associated with spans of text.  
   
  The public types of the classification subsystem are contained in Microsoft.VisualStudio.Text.Logic.dll, and they interact with the visual aspects of classification, which are contained in Microsoft.VisualStudio.Text.UI.Wpf.dll.  
   
-### Operations Subsystem  
+### Operations subsystem  
  The operations subsystem defines editor behavior. It provides the implementation for Visual Studio editor commands and the undo system.  
   
-## A Closer Look at the Text Model and the Text View  
+## A closer look at the text model and the text view  
   
-###  <a name="textmodel"></a> The Text Model  
+### The text model  
  The text model subsystem consists of different groupings of text types. These include the text buffer, text snapshots, and text spans.  
   
-#### Text Buffers and Text Snapshots  
+#### Text buffers and text snapshots  
  The <xref:Microsoft.VisualStudio.Text.ITextBuffer> interface represents a sequence of Unicode characters that are encoded by using UTF-16, which is the encoding used by the `String` type in the .NET Framework. A text buffer can be persisted as a file system document, but this is not required.  
   
  The <xref:Microsoft.VisualStudio.Text.ITextBufferFactoryService> is used to create an empty text buffer, or a text buffer that is initialized from a string or from <xref:System.IO.TextReader>. The text buffer can be persisted to the file system as an <xref:Microsoft.VisualStudio.Text.ITextDocument>.  
@@ -83,11 +83,11 @@ The editor is composed of a number of different subsystems, which are designed t
   
  A text buffer can go through many versions during its lifetime. A new version is generated every time the buffer is edited, and an immutable <xref:Microsoft.VisualStudio.Text.ITextSnapshot> represents the contents of that version of the buffer. Because text snapshots are immutable, you can access a text snapshot on any thread, without restrictions, even if the text buffer it represents continues to change.  
   
-#### Text Snapshots and Text Snapshot Lines  
+#### Text snapshots and text snapshot lines  
  You can view the contents of a text snapshot as a sequence of characters or as a sequence of lines. Characters and lines are both indexed starting at zero. An empty text snapshot contains zero characters and one empty line. A line is delimited by any valid Unicode line-break character sequence, or by the beginning or end of the buffer. Line-break characters are explicitly represented in the text snapshot, and the line breaks in a text snapshot do not all have to be the same.  
   
 > [!NOTE]
->  For more information about line-break characters in the Visual Studio editor, see [Encodings and Line Breaks](../ide/encodings-and-line-breaks.md).  
+>  For more information about line-break characters in the Visual Studio editor, see [Encodings and line breaks](../ide/encodings-and-line-breaks.md).  
   
  A line of text is represented by an <xref:Microsoft.VisualStudio.Text.ITextSnapshotLine> object, which can be obtained from a text snapshot for a particular line number or for a particular character position.  
   
@@ -103,7 +103,7 @@ The editor is composed of a number of different subsystems, which are designed t
   
  A <xref:Microsoft.VisualStudio.Text.NormalizedSpanCollection> is a list of spans in the order of the Start properties of the spans. In the list, overlapping or abutting spans are merged. For example, given the set of spans [5..9), [0..1), [3..6), and [9..10), the normalized list of spans is [0..1), [3..10).  
   
-#### ITextEdit, TextVersion and Text Change Notifications  
+#### ITextEdit, TextVersion and text change notifications  
  The content of a text buffer can be changed by using an <xref:Microsoft.VisualStudio.Text.ITextEdit> object. Creating such an object (by using one of the `CreateEdit()` methods of <xref:Microsoft.VisualStudio.Text.ITextBuffer>) starts a text transaction that consists of text edits. Every edit is a replacement of some span of text in the buffer by a string. The coordinates and content of every edit are expressed relative to the snapshot of the buffer when the transaction was started. The <xref:Microsoft.VisualStudio.Text.ITextEdit> object adjusts the coordinates of edits that are affected by other edits in the same transaction.  
   
  For example, consider a text buffer that contains this string:  
@@ -128,14 +128,14 @@ abXefYj
   
  <xref:Microsoft.VisualStudio.Text.ITextBuffer> also provides `Insert()`, `Delete()`, and `Replace()` methods that resemble those found on the <xref:Microsoft.VisualStudio.Text.ITextEdit> interface. Calling these has the same effect as creating an <xref:Microsoft.VisualStudio.Text.ITextEdit> object, making the similar call, and then applying the edit.  
   
-#### Tracking Points and Tracking Spans  
+#### Tracking points and tracking spans  
  An <xref:Microsoft.VisualStudio.Text.ITrackingPoint> represents a character position in a text buffer. If the buffer is edited in a way that causes the position of the character to shift, the tracking point shifts with it. For example, if a tracking point refers to position 10 in a buffer, and five characters are inserted at the beginning of the buffer, the tracking point then refers to position 15. If an insertion happens at precisely the position denoted by the tracking point, its behavior is determined by its <xref:Microsoft.VisualStudio.Text.PointTrackingMode>, which can be either `Positive` or `Negative`. If the tracking mode is positive, the tracking point refers to the same character, which is now at the end of the insertion; if the tracking mode is negative, the tracking point refers to the first inserted character at the original position. If the character at the position that is represented by a tracking point is deleted, the tracking point shifts to the first character that follows the deleted range. For example, if a tracking point refers to the character at position 5, and the characters at positions 3 through 6 are deleted, the tracking point refers to the character at position 3.  
   
  An <xref:Microsoft.VisualStudio.Text.ITrackingSpan> represents a range of characters instead of just one position. Its behavior is determined by its <xref:Microsoft.VisualStudio.Text.SpanTrackingMode>. If the span tracking mode is <xref:Microsoft.VisualStudio.Text.SpanTrackingMode>, the tracking span grows to incorporate text inserted at its edges; if the span tracking mode is <xref:Microsoft.VisualStudio.Text.SpanTrackingMode>, the tracking span does not incorporate text inserted at its edges. However, if the span tracking mode is <xref:Microsoft.VisualStudio.Text.SpanTrackingMode>, an insertion pushes the current position toward the start, and if the span tracking mode <xref:Microsoft.VisualStudio.Text.SpanTrackingMode>, an insertion pushes the current position toward the end.  
   
  You can get the position of a tracking point or the span of a tracking span for any snapshot of the text buffer to which they belong. Tracking points and tracking spans may be safely referenced from any thread.  
   
-#### Content Types  
+#### Content types  
  Content types are a mechanism for defining different kinds of content. A content type can be a file type such as "text", "code", or "binary", or a technology type such as "xml", "vb", or "c#". For example, the word "using" is a keyword in both C# and Visual Basic, but not in other programming languages. Therefore, the definition of this keyword would be limited to the "c#" and "vb" content types.  
   
  Content types are used as a filter for adornments and other elements of the editor. Many editor features and extension points are defined per content type; for example, text coloring is different for plain text files, XML files, and Visual Basic source code files. Text buffers are generally assigned a content type when they are created, and the content type of a text buffer can be changed.  
@@ -144,18 +144,18 @@ abXefYj
   
  Developers can define their own content types and register them by using the <xref:Microsoft.VisualStudio.Utilities.IContentTypeRegistryService>. Many editor features can be defined with respect to a specific content type by using the <xref:Microsoft.VisualStudio.Utilities.ContentTypeAttribute>. For example, editor margins, adornments, and mouse handlers can be defined so that they apply only to editors that display particular content types.  
   
-###  <a name="textview"></a> The Text View  
+###  The text view  
  The view part of the model view controller (MVC) pattern defines the text view, the formatting of the view, graphic elements such as the scroll bar, and the caret. All presentation elements of the Visual Studio editor are based on WPF.  
   
-#### Text Views  
+#### Text views  
  The <xref:Microsoft.VisualStudio.Text.Editor.ITextView> interface is a platform-independent representation of a text view. It is used primarily to display text documents in a window, but it can also be used for other purposes, for example, in a tooltip.  
   
  The text view references different kinds of text buffers. The <xref:Microsoft.VisualStudio.Text.Editor.ITextView.TextViewModel%2A> property refers to an <xref:Microsoft.VisualStudio.Text.Editor.ITextViewModel> object that points to these three different text buffers: the data buffer, which is the top data-level buffer, the edit buffer, in which editing occurs, and the visual buffer, which is the buffer that is displayed in the text view.  
   
  The text is formatted based on the classifiers that are attached to the underlying text buffer, and is adorned by using the adornment providers that are attached to the text view itself.  
   
-#### The Text View Coordinate System  
- The text view coordinate system specifies positions in the text view. In this coordinate system, the x value 0.0 corresponds to the left edge of the text being displayed, and the y value 0.0 corresponds to the top edge of the text being displayed .The x coordinate increases from left to right, and the y coordinate increases from top to bottom.  
+#### The text view coordinate system  
+ The text view coordinate system specifies positions in the text view. In this coordinate system, the x value 0.0 corresponds to the left edge of the text being displayed, and the y value 0.0 corresponds to the top edge of the text being displayed. The x coordinate increases from left to right, and the y coordinate increases from top to bottom.  
   
  A viewport (the part of the text visible in the text window) cannot be scrolled in the same manner horizontally as it is scrolled vertically. A viewport is scrolled horizontally by changing its left coordinate so that it moves with respect to the drawing surface. However, a viewport can be scrolled vertically only by changing the rendered text, which causes a <xref:Microsoft.VisualStudio.Text.Editor.ITextView.LayoutChanged> event to be raised.  
   
@@ -166,17 +166,17 @@ abXefYj
   
  The <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewMarginProvider> interface handles the creation and placement of margins. Margins can be ordered with respect to other margins. Higher-priority margins are located closer to the text view. For example, if there are two left margins, margin A and margin B, and margin B has a lower priority than margin A, margin B appears to the left of margin A.  
   
-#### The Text View Host  
+#### The text view host  
  The <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewHost> interface contains the text view and any abutting decorations that accompany the view, for example, scroll bars. The text view host also contains margins that are attached to a border of the view.  
   
-#### Formatted Text  
+#### Formatted text  
  The text that is displayed in a text view is composed of <xref:Microsoft.VisualStudio.Text.Formatting.ITextViewLine> objects. Every text-view line corresponds to one line of text in the text view. Long lines in the underlying text buffer can be either partially obscured (if word wrapping is not enabled) or broken into multiple text-view lines. The <xref:Microsoft.VisualStudio.Text.Formatting.ITextViewLine> interface contains methods and properties for mapping between coordinates and characters, and for the adornments that may be associated with the line.  
   
  <xref:Microsoft.VisualStudio.Text.Formatting.ITextViewLine> objects are created by using an <xref:Microsoft.VisualStudio.Text.Formatting.IFormattedLineSource> interface. If you are just concerned about the text that is currently displayed in the view, you can ignore the formatting source. If you are interested in the format of text that is not displayed in the view (for example, to support a rich-text cut and paste), you can use <xref:Microsoft.VisualStudio.Text.Formatting.IFormattedLineSource> to format text in a text buffer.  
   
  The text view formats one <xref:Microsoft.VisualStudio.Text.ITextSnapshotLine> at a time.  
   
-## Editor Features  
+## Editor features  
  The features of the editor are designed so that the definition of the feature is separate from its implementation. The editor includes these features:  
   
 -   Tags and classifiers  
@@ -193,12 +193,12 @@ abXefYj
   
 -   IntelliSense  
   
-###  <a name="tagsandclassifiers"></a> Tags and Classifiers  
+### Tags and classifiers  
  Tags are markers that are associated with a span of text. They can be presented in different ways, for example, by using text coloring, underlines, graphics, or pop-ups. Classifiers are one kind of tag.  
   
  Other kinds of tags are <xref:Microsoft.VisualStudio.Text.Tagging.TextMarkerTag> for text highlighting, <xref:Microsoft.VisualStudio.Text.Tagging.OutliningRegionTag> for outlining, and <xref:Microsoft.VisualStudio.Text.Tagging.ErrorTag> for compile errors.  
   
-#### Classification Types  
+#### Classification types  
  An <xref:Microsoft.VisualStudio.Text.Classification.IClassificationType> interface represents an equivalence class, which is an abstract category of text. Classification types can multiple-inherit from other classification types. For example, programming language classifications might include "keyword", "comment", and "identifier", which all inherit from "code". Natural language classification types might include "noun", "verb", and "adjective", which all inherit from "natural language".  
   
 #### Classifications  
@@ -207,7 +207,7 @@ abXefYj
 #### Classifiers  
  An <xref:Microsoft.VisualStudio.Text.Classification.IClassifier> is a mechanism that breaks text into a set of classifications. Classifiers must be defined for specific content types and instantiated for specific text buffers. Clients must implement <xref:Microsoft.VisualStudio.Text.Classification.IClassifier> to participate in text classification.  
   
-#### Classifier Aggregators  
+#### Classifier aggregators  
  A classifier aggregator is a mechanism that combines all the classifiers for one text buffer into just one set of classifications. For example, both a C# classifier and an English language classifier could create classifications over a comment in a C# file. Consider this comment:  
   
 ```  
@@ -218,14 +218,14 @@ abXefYj
   
  A classifier aggregator is also a classifier because it breaks text into a set of classifications. The classifier aggregator also ensures that there are no overlapping classifications and that the classifications are sorted. Individual classifiers are free to return any set of classifications, in any order, and overlapping in any way.  
   
-#### Classification Formatting and Text Coloring  
+#### Classification formatting and text coloring  
  Text formatting is an example of a feature that is built on text classification. It is used by the text view layer to determine the display of text in an application. The text formatting area is dependent on WPF, but the logical definition of classifications is not.  
   
  A classification format is a set of formatting properties for a specific classification type. These formats inherit from the format of the parent of the classification type.  
   
  An <xref:Microsoft.VisualStudio.Text.Classification.IClassificationFormatMap> is a map from a classification type to a set of text formatting properties. The implementation of the format map in the editor handles all the exports of classification formats.  
   
-###  <a name="adornments"></a> Adornments  
+###   Adornments  
  Adornments are graphic effects that are not directly related to the font and color of the characters in the text view. For example, the red squiggle underline that is used to mark non-compiling code in many programming languages is an embedded adornment, and tooltips are pop-up adornments. Adornments are derived from <xref:System.Windows.UIElement> and implement <xref:Microsoft.VisualStudio.Text.Tagging.ITag>. Two specialized types of adornment tag are the <xref:Microsoft.VisualStudio.Text.Tagging.SpaceNegotiatingAdornmentTag>, for adornments that occupy the same space as the text in a view, and the <xref:Microsoft.VisualStudio.Text.Tagging.ErrorTag>, for the squiggle underline.  
   
  Embedded adornments are graphics that form part of the formatted text view. They are organized in different Z-order layers. There are three built-in layers, as follows: text, the caret, and the selection. However, developers can define more layers and put them in order with respect to one another. The three kinds of embedded adornments are text-relative adornments (which move when the text moves, and are deleted when the text is deleted), view-relative adornments (which have to do with non-text parts of the view), and owner-controlled adornments (the developer must manage their placement).  
@@ -260,21 +260,21 @@ P: ABCDEvwxyz
   
  An elision buffer is a special kind of projection buffer. It is primarily used for outlining and for operations that expand and collapse blocks of text. An elision buffer is based on just one source buffer, and the spans in the elision buffer must be ordered the same as they are ordered in the source buffer.  
   
-##### The Buffer Graph  
+#### The buffer graph  
  The <xref:Microsoft.VisualStudio.Text.Projection.IBufferGraph> interface enables mapping across a graph of projection buffers. All the text buffers and projection buffers are collected in a directed acyclic graph, much like the abstract syntax tree that is produced by a language compiler. The graph is defined by the top buffer, which can be any text buffer. The buffer graph can map from a point in the top buffer to a point in a source buffer, or from a span in the top buffer to a set of spans in a source buffer. Similarly, it can map a point or span from a source buffer to a point in the top buffer. Buffer graphs are created by using the <xref:Microsoft.VisualStudio.Text.Projection.IBufferGraphFactoryService>.  
   
-##### Events and Projection Buffers  
+#### Events and projection buffers  
  When a projection buffer is modified, the modifications are sent from the projection buffer to the buffers that depend on it. After all the buffers are modified, buffer change events are raised, starting with the deepest buffer.  
   
 ###  <a name="outlining"></a> Outlining  
  Outlining is the ability to expand or collapse different blocks of text in a text view. Outlining is defined as a kind of <xref:Microsoft.VisualStudio.Text.Tagging.ITag>, in the same way as adornments are defined. A <xref:Microsoft.VisualStudio.Text.Tagging.OutliningRegionTag> is a tag that defines a text region that can be expanded or collapsed. To use outlining, you must import the <xref:Microsoft.VisualStudio.Text.Outlining.IOutliningManagerService> to get an <xref:Microsoft.VisualStudio.Text.Outlining.IOutliningManager>. The outlining manager enumerates, collapses, and expands the different blocks, which are represented as <xref:Microsoft.VisualStudio.Text.Outlining.ICollapsible> objects, and raises events accordingly.  
   
-###  <a name="mousebindings"></a> Mouse Bindings  
+###  <a name="mousebindings"></a> Mouse bindings  
  Mouse bindings link mouse movements to different commands. Mouse bindings are defined by using an <xref:Microsoft.VisualStudio.Text.Editor.IMouseProcessorProvider>, and key bindings are defined by using an <xref:Microsoft.VisualStudio.Text.Editor.IKeyProcessorProvider>. The <xref:Microsoft.VisualStudio.Text.Editor.IWpfTextViewHost> automatically instantiates all bindings and connects them to mouse events in the view.  
   
  The <xref:Microsoft.VisualStudio.Text.Editor.IMouseProcessor> interface contains pre-process and post-process event handlers for different mouse events. To handle one of the events, you can override some of the methods in <xref:Microsoft.VisualStudio.Text.Editor.MouseProcessorBase>.  
   
-###  <a name="editoroperations"></a> Editor Operations  
+###  <a name="editoroperations"></a> Editor operations  
  Editor operations can be used to automate interaction with the editor, for scripting or other purposes. You can import the <xref:Microsoft.VisualStudio.Text.Operations.IEditorOperationsFactoryService> to access operations on a given <xref:Microsoft.VisualStudio.Text.Editor.ITextView>. You can then use these objects to modify the selection, scroll the view, or move the caret to different parts of the view.  
   
 ###  <a name="intellisense"></a> IntelliSense  
@@ -282,6 +282,6 @@ P: ABCDEvwxyz
   
  Statement completion provides pop-up lists of potential completions for method names, XML elements, and other coding or markup elements. In general, a user gesture invokes a completion session. The session displays the list of potential completions, and the user can select one or dismiss the list. The <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionBroker> is responsible for creating and triggering the <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSession>. The <xref:Microsoft.VisualStudio.Language.Intellisense.ICompletionSource> computes the <xref:Microsoft.VisualStudio.Language.Intellisense.CompletionSet> of completion items for the session.  
   
-## See Also  
- [Language Service and Editor Extension Points](../extensibility/language-service-and-editor-extension-points.md)   
- [Editor Imports](../extensibility/editor-imports.md)
+## See also  
+ [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md)   
+ [Editor imports](../extensibility/editor-imports.md)

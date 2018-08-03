@@ -12,25 +12,13 @@ ms.technology: vs-ide-modeling
 ---
 # How to: Add a Drag-and-Drop Handler
 
-You can add handlers for drag-and-drop events to your DSL, so that users can drag items onto your diagram from other diagrams or from other parts of Visual Studio. You can also add handlers for events such as double-clicks. Together, drag-and-drop and double-click handlers are known as *gesture handlers*.
+You can add handlers for drag-and-drop events to your DSL, so that users can drag items onto your diagram from other diagrams or from other parts of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can also add handlers for events such as double-clicks. Together, drag-and-drop and double-click handlers are known as *gesture handlers*.
 
 This topic discusses drag-and-drop gestures that originate on other diagrams. For move and copy events within a single diagram, consider the alternative of defining a subclass of `ElementOperations`. For more information, see [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md). You might also be able to customize the DSL definition.
 
-## In this topic
+## Defining Gesture Handlers by Overriding ShapeElement Methods
 
--   The first two sections describe alternative methods of defining a gesture handler:
-
-    -   [Defining Gesture Handlers by Overriding ShapeElement methods](#overrideShapeElement). `OnDragDrop`, `OnDoubleClick`, `OnDragOver`, and other methods can be overridden.
-
-    -   [Defining Gesture Handlers by using MEF](#MEF). Use this method if you want third-party developers to be able to define their own handlers to your DSL. Users can choose to install the third-party extensions after they have installed your DSL.
-
--   [How to Decode the Dragged Item](#extracting). Elements can be dragged from any window or from the desktop, as well as from a DSL.
-
--   [How to Get the Original Dragged Item](#getOriginal). If the dragged item is a DSL element, you can open the source model and access the element.
-
--   [Using Mouse Actions: Dragging Compartment Items](#mouseActions). This sample demonstrates a lower-level handler that intercepts mouse actions on a shape's fields. The example lets the user re-order the items in a compartment by dragging with the mouse.
-
-##  <a name="overrideShapeElement"></a> Defining Gesture Handlers by Overriding ShapeElement Methods
+`OnDragDrop`, `OnDoubleClick`, `OnDragOver`, and other methods can be overridden.
 
 Add a new code file to your DSL project. For a gesture handler, you usually must have at least the following `using` statements:
 
@@ -80,11 +68,13 @@ In the new file, define a partial class for the shape or diagram class that shou
 
 Define `IsAcceptableDropItem(e)` to determine whether the dragged item is acceptable, and ProcessDragDropItem(e) to update your model when the item is dropped. These methods must first extract the item from the event arguments. For information about how to do that, see [How to get a reference to the dragged item](#extracting).
 
-##  <a name="MEF"></a> Defining Gesture Handlers by using MEF
+## Define Gesture Handlers by using MEF
+
+Use this method if you want third-party developers to be able to define their own handlers to your DSL. Users can choose to install the third-party extensions after they have installed your DSL.
 
 MEF (Managed Extensibility Framework) lets you define components that can be installed with minimal configuration. For more information, see [Managed Extensibility Framework (MEF)](/dotnet/framework/mef/index).
 
-#### To define a MEF gesture handler
+### To define a MEF gesture handler
 
 1.  Add to your **Dsl** and **DslPackage** projects the **MefExtension** files that are described in [Extend your DSL by using MEF](../modeling/extend-your-dsl-by-using-mef.md).
 
@@ -122,7 +112,9 @@ MEF (Managed Extensibility Framework) lets you define components that can be ins
 
 3.  Add partial class definitions for the target shape, connector or diagram classes, and define the methods `IsAcceptableDropItem()` and `ProcessDragDropItem()`. These methods must begin by extracting the dragged item from the event arguments. For more information, see [How to get a reference to the dragged item](#extracting).
 
-##  <a name="extracting"></a> How to decode the dragged item
+## How to decode the dragged item
+
+Elements can be dragged from any window or from the desktop, as well as from a DSL.
 
 When the user drags an item onto your diagram, or from one part of your diagram to another, information about the item that is being dragged is available in `DiagramDragEventArgs`. Because the drag operation could have started at any object on the screen, the data can be available in any one of a variety of formats. Your code must recognize the formats with which it is capable of dealing.
 
@@ -154,9 +146,11 @@ To discover the formats in which your drag source information is available, run 
 
 `DiagramDragEventArgs` also has properties that indicate the current mouse pointer position and whether the user is pressing the CTRL, ALT, or SHIFT keys.
 
-##  <a name="getOriginal"></a> How to get the original of a dragged element
+## How to get the original of a dragged element
 
-The `Data` and `Prototype` properties of the event arguments contain only a reference to the dragged shape. Usually, if you want to create an object in the target DSL that is derived from the prototype in some way, you need to obtain access to the original, for example, reading the file contents, or navigating to the model element represented by a shape.  You can use Visual Studio Model Bus to help with this.
+If the dragged item is a DSL element, you can open the source model and access the element.
+
+The `Data` and `Prototype` properties of the event arguments contain only a reference to the dragged shape. Usually, if you want to create an object in the target DSL that is derived from the prototype in some way, you need to obtain access to the original, for example, reading the file contents, or navigating to the model element represented by a shape. You can use Visual Studio Model Bus to help with this.
 
 ### To prepare a DSL project for Model Bus
 
@@ -168,7 +162,7 @@ The `Data` and `Prototype` properties of the event arguments contain only a refe
 
     3.  Click **Transform All Templates** and rebuild the solution.
 
-###  <a name="mbr"></a> To send an object from a source DSL
+### To send an object from a source DSL
 
 1.  In your ElementOperations subclass, override `Copy()` so that it encodes a Model Bus Reference (MBR) into the IDataObject. This method will be called when the user starts to drag from the source diagram. The encoded MBR will then be available in the IDataObject when the user drops in the target diagram.
 
@@ -278,16 +272,16 @@ The `Data` and `Prototype` properties of the event arguments contain only a refe
 -   The following code sample accepts an object dropped from a UML diagram.
 
     ```csharp
-      using Microsoft.VisualStudio.ArchitectureTools.Extensibility;
-      using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml;
-      using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation;
-      using Microsoft.VisualStudio.Modeling;
-      using Microsoft.VisualStudio.Modeling.Diagrams;
-      using Microsoft.VisualStudio.Modeling.Diagrams.ExtensionEnablement;
-      using Microsoft.VisualStudio.Uml.Classes;
-      using System;
-      using System.ComponentModel.Composition;
-      using System.Linq;
+    using Microsoft.VisualStudio.ArchitectureTools.Extensibility;
+    using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Uml;
+    using Microsoft.VisualStudio.ArchitectureTools.Extensibility.Presentation;
+    using Microsoft.VisualStudio.Modeling;
+    using Microsoft.VisualStudio.Modeling.Diagrams;
+    using Microsoft.VisualStudio.Modeling.Diagrams.ExtensionEnablement;
+    using Microsoft.VisualStudio.Uml.Classes;
+    using System;
+    using System.ComponentModel.Composition;
+    using System.Linq;
     ...
     partial class TargetShape
     {
@@ -322,9 +316,9 @@ The `Data` and `Prototype` properties of the event arguments contain only a refe
     }  }  }
     ```
 
-##  <a name="mouseActions"></a> Using Mouse Actions: Dragging Compartment Items
+## Using Mouse Actions: Dragging Compartment Items
 
-You can write a handler that intercepts mouse actions on a shape's fields. The following example lets the user re-order the items in a compartment by dragging with the mouse.
+You can write a handler that intercepts mouse actions on a shape's fields. The following example lets the user reorder the items in a compartment by dragging with the mouse.
 
 To build this example, create a solution by using the **Class Diagrams** solution template. Add a code file and add the following code. Adjust the namespace to be the same as your own.
 

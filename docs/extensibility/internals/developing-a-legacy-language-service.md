@@ -20,45 +20,45 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Developing a Legacy Language Service
+# Develop a legacy language service
 This section links to topics that help you create a legacy language service.  
   
- Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement a language service, see [Editor and Language Service Extensions](../../extensibility/editor-and-language-service-extensions.md).  
+ Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement a language service, see [Editor and language service extensions](../../extensibility/editor-and-language-service-extensions.md).  
   
 > [!NOTE]
 >  We recommend that you begin to use the new editor API as soon as possible. This will improve the performance of your language service and let you take advantage of new editor features.  
   
-## In This Section  
- [Model of a Legacy Language Service](../../extensibility/internals/model-of-a-legacy-language-service.md)  
+## In this section  
+ [Model of a legacy language service](../../extensibility/internals/model-of-a-legacy-language-service.md)  
  Provides a model of a minimal language service for the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] core editor. You can use this model as a guide for creating your own language service.  
   
- [Legacy Language Service Interfaces](../../extensibility/internals/legacy-language-service-interfaces.md)  
+ [Legacy language service interfaces](../../extensibility/internals/legacy-language-service-interfaces.md)  
  Discusses the objects required to implement a language service and provides a listing of additional objects that you can use to provide syntax highlighting, method data, and other features.  
   
- [Intercepting Legacy Language Service Commands](../../extensibility/internals/intercepting-legacy-language-service-commands.md)  
+ [Intercept legacy language service commands](../../extensibility/internals/intercepting-legacy-language-service-commands.md)  
  Describes how to insert a command filter into your language service to intercept commands that the text view would otherwise handle.  
   
- [Registering a Legacy Language Service](../../extensibility/internals/registering-a-legacy-language-service2.md)  
+ [Register a legacy language service](../../extensibility/internals/registering-a-legacy-language-service2.md)  
  Provides information about how to register your language service by using [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  
   
- [Language Service Support for Debugging](../../extensibility/internals/language-service-support-for-debugging.md)  
+ [Language service support for debugging](../../extensibility/internals/language-service-support-for-debugging.md)  
  Describes how a language service can provide features to support a debugger.  
   
- [Checklist: Creating a Legacy Language Service](../../extensibility/internals/checklist-creating-a-legacy-language-service.md)  
+ [Checklist: Create a legacy language service](../../extensibility/internals/checklist-creating-a-legacy-language-service.md)  
  Provides step-by-step instructions for creating and integrating a language service for the core editor.  
   
-## Related Sections  
- [Syntax Coloring in a Legacy Language Service](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)  
+## Related sections  
+ [Syntax coloring in a legacy language service](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)  
  Discusses how to implement syntax highlighting in your language service.  
   
- [Statement Completion in a Legacy Language Service](../../extensibility/internals/statement-completion-in-a-legacy-language-service.md)  
+ [Statement completion in a legacy language service](../../extensibility/internals/statement-completion-in-a-legacy-language-service.md)  
  Discusses statement completion, the process by which a language service helps users finish a language keyword or element that they have started typing.  
   
- [Parameter Info in a Legacy Language Service](../../extensibility/internals/parameter-info-in-a-legacy-language-service1.md)  
+ [Parameter Info in a legacy language service](../../extensibility/internals/parameter-info-in-a-legacy-language-service1.md)  
  Describes how to provide method tips for overloaded functions and methods.  
   
- [How to: Provide Hidden Text Support in a Legacy Language Service](../../extensibility/internals/how-to-provide-hidden-text-support-in-a-legacy-language-service.md)  
+ [How to: Provide hidden text support in a legacy language service](../../extensibility/internals/how-to-provide-hidden-text-support-in-a-legacy-language-service.md)  
  Explains the purpose of a hidden text region and provides instructions about how to implement a hidden text region.  
   
- [How to: Provide Expanded Outlining Support in a Legacy Language Service](../../extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md)  
+ [How to: Provide expanded outlining support in a legacy language service](../../extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md)  
  Explains the two options that extend outlining support for your language beyond supporting the *Collapse to Definitions* command.
