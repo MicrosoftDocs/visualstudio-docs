@@ -151,14 +151,21 @@ Nobody gets code right the first time, and one of the things you might have to c
 
 ## Next steps
 
-You've completed this Quickstart for the Visual Studio editor. Next, you might try out some of the other Quickstarts for the Visual Studio development environment such as [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md) or [Quickstart: Personalize Visual Studio](../ide/quickstart-personalize-the-ide.md), look at more ways to [Navigate code](../ide/navigating-code.md), or check out the links to more information about the features we looked at. Otherwise, happy coding!
+You've completed this Quickstart for the Visual Studio editor. Next, you might try out some of the other Quickstarts for the Visual Studio development environment.
+
+> [!div class="nextstepaction"]
+- [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
+
+> [!div class="nextstepaction"]
+- [Quickstart: Personalize Visual Studio](../ide/quickstart-personalize-the-ide.md)
+
+> [!div class="nextstepaction"]
+> [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)
 
 ## See also
 
-- [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
-- [Quickstart: Personalize Visual Studio](../ide/quickstart-personalize-the-ide.md)
-- [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)
 - [Code snippets](../ide/code-snippets.md)
+- [Navigate code](../ide/navigating-code.md)
 - [Outlining](../ide/outlining.md)
 - [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)
 - [Refactoring](../ide/refactoring-in-visual-studio.md)
