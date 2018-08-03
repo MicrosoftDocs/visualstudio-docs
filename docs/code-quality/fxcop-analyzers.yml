@@ -21,7 +21,7 @@ sections:
   - type: list
     style: cards
     className: cardsM
-    columns: 3
+    columns: 2
     items:
       - href: roslyn-analyzers-overview.md
         html: <p>Learn what analyzers are.</p>
@@ -49,7 +49,7 @@ sections:
   - type: list
     style: cards
     className: cardsM
-    columns: 3
+    columns: 2
     items:
       - href: roslyn-analyzers-overview.md#roslyn-analyzers-vs-static-code-analysis
         html: <p>Learn the differences between static (FxCop) and analyzer package code analysis.</p>
@@ -72,12 +72,12 @@ sections:
           src: https://docs.microsoft.com/media/common/i_code-samples.svg
         title: Rule sets
 
-- title: Related links
+- title: Related articles
   items:
   - type: list
     style: cards
     className: cardsM
-    columns: 3
+    columns: 2
     items:
       - href: code-analysis-for-c-cpp-overview.md
         html: <p>Learn how to run code analysis on native C++ code. Analysis of managed C++ code is deprecated.</p>

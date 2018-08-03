@@ -72,7 +72,7 @@ You cannot set the severity of rules from analyzers that were installed as a Vis
 > [Install Roslyn analyzers in Visual Studio](../code-quality/install-roslyn-analyzers.md)
 
 > [!div class="nextstepaction"]
-> [Use Roslyn analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)-
+> [Use Roslyn analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
 
 ## See also
 

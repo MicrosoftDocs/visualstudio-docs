@@ -51,13 +51,13 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
 
 The properties of the attribute include:
 
-- **Rule Category** - The category in which the rule is defined. For more information about code analysis rule categories, see [Managed code warnings](../code-quality/code-analysis-for-managed-code-warnings.md).
+- **Category** - The category in which the rule is defined. For more information about code analysis rule categories, see [Managed code warnings](../code-quality/code-analysis-for-managed-code-warnings.md).
 
-- **Rule Id** - The identifier of the rule. Support includes both a short and long name for the rule identifier. The short name is CAXXXX; the long name is CAXXXX:FriendlyTypeName.
+- **CheckId** - The identifier of the rule. Support includes both a short and long name for the rule identifier. The short name is CAXXXX; the long name is CAXXXX:FriendlyTypeName.
 
 - **Justification** - The text that is used to document the reason for suppressing the message.
 
-- **Message Id** - Unique identifier of a problem for each message.
+- **MessageId** - Unique identifier of a problem for each message.
 
 - **Scope** - The target on which the warning is being suppressed. If the target is not specified, it is set to the target of the attribute. Supported scopes include the following:
 

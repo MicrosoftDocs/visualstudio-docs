@@ -44,9 +44,9 @@ Use the following guidelines to determine which version of the FxCop analyzers p
 |Visual Studio 2015 Update 1|Version 1.1.0, for example https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/1.1.|
 |Visual Studio 2015 RTW|Version 1.0.1, for example https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/1.0.1|
 
-On Visual Studio 2017 version 15.5 and later, you can also install a custom [Microsoft code analysis VSIX extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017) that contains all of the analyzers for managed projects.
-
 ## To install FxCop analyzers as a VSIX
+
+On Visual Studio 2017 version 15.5 and later, you can install the Microsoft [code analysis VSIX extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017) that contains all of the FxCop analyzers for managed projects.
 
 1. In Visual Studio, select **Tools** > **Extensions and Updates**.
 
