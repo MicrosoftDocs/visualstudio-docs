@@ -30,6 +30,9 @@
     items:
     - name: Migrate from FxCop
       href: fxcop-analyzers.yml
+      items:
+      - name: Install FxCop analyzers
+        href: install-fxcop-analyzers.md
     - name: Install Roslyn analyzers
       href: install-roslyn-analyzers.md
     - name: Configure and use Roslyn analyzers
