@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Install FxCop analyzers in Visual Studio
 
-Microsoft created a set of analyzers, called [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers), that contains the most important "FxCop" rules from static code analysis converted to Roslyn analyzers. You can install these FxCop analyzers either as a NuGet package, or as a VSIX extension to Visual Studio. To learn about the pros and cons of each, see [NuGet package versus extension](roslyn-analyzers-overview.md#nuget-package-versus-vsix-extension).
+Microsoft created a set of analyzers, called [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers), that contains the most important "FxCop" rules from static code analysis, converted to Roslyn analyzers. You can install these FxCop analyzers either as a NuGet package or as a VSIX extension to Visual Studio. To learn about the pros and cons of each, see [NuGet package vs. VSIX extension](roslyn-analyzers-overview.md#nuget-package-versus-vsix-extension).
 
 ## To install FxCop analyzers as a NuGet package
 
@@ -27,7 +27,7 @@ Microsoft created a set of analyzers, called [Microsoft.CodeAnalysis.FxCopAnalyz
    >
    > ![NuGet.org page showing Package Manager Console command](media/nuget-package-manager-command.png)
 
-   The analyzer assemblies are installed and appear in **Solution Explorer** under **References** > **Analyzers**.
+   The analyzer assemblies are installed, and they appear in **Solution Explorer** under **References** > **Analyzers**.
 
    ![Analyzers node in Solution Explorer](media/solution-explorer-analyzers-node.png)
 
@@ -46,7 +46,7 @@ Use the following guidelines to determine which version of the FxCop analyzers p
 
 ## To install FxCop analyzers as a VSIX
 
-On Visual Studio 2017 version 15.5 and later, you can install the Microsoft [code analysis VSIX extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017) that contains all of the FxCop analyzers for managed projects.
+On Visual Studio 2017 version 15.5 and later, you can install the [Microsoft Code Analysis 2017](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017) extension that contains all of the FxCop analyzers for managed projects.
 
 1. In Visual Studio, select **Tools** > **Extensions and Updates**.
 

@@ -21,7 +21,7 @@ ms.workload:
 
 It is often useful to indicate that a warning is not applicable. This indicates to team members that the code was reviewed, and that the warning can be suppressed. In-source suppression (ISS) uses the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to suppress a warning. The attribute can be placed close to the code segment that generated the warning. You can add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the source file by typing it in, or you can use the shortcut menu on a warning in the **Error List** to add it automatically.
 
-The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is a conditional attribute which is included in the IL metadata of your managed code assembly, only if the CODE_ANALYSIS compilation symbol is defined at compile time.
+The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is a conditional attribute, which is included in the IL metadata of your managed code assembly, only if the CODE_ANALYSIS compilation symbol is defined at compile time.
 
 In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE in the header file to add the attribute.
 
@@ -153,7 +153,7 @@ Global-level suppressions are the only way to suppress messages that refer to co
 `[module: SuppressMessage("Microsoft.Design", "CA1055:AbstractTypesDoNotHavePublicConstructors", Scope="member", Target="Microsoft.Tools.FxCop.Type..ctor()")]`
 
 > [!NOTE]
-> `Target` always contains the fully-qualified item name.
+> `Target` always contains the fully qualified item name.
 
 ## Global suppression file
 
