@@ -21,7 +21,7 @@ Enumerates the various source files contained in the data source.
 ## Syntax  
   
 ```  
-IDiaEnumSourceFiles : IUknown  
+IDiaEnumSourceFiles : IUnknown  
 ```  
   
 ## Methods in Vtable Order  
