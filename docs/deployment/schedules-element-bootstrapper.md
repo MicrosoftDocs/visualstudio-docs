@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;Schedules&gt; Element (Bootstrapper)
+# &lt;Schedules&gt; element (bootstrapper)
 The `Schedules` element contains `Schedule` elements, which define specific times at which commands defined by the `Command` element should be run.  
   
 ## Syntax  
@@ -35,7 +35,7 @@ The `Schedules` element contains `Schedule` elements, which define specific time
 </Schedules>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `Schedules` element is a child of the `Product` element. Each `Product` element might have at most one `Schedules` element. The `Schedules` element has no attributes.  
   
 ## Schedule  
@@ -58,6 +58,6 @@ The `Schedules` element contains `Schedule` elements, which define specific time
 ## AfterPackage  
  The `AfterPackage` element instructs the installer to execute a command after the specified package is installed.  
   
-## See Also  
- [\<Product> Element](../deployment/product-element-bootstrapper.md)   
- [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)
+## See also  
+ [\<Product> element](../deployment/product-element-bootstrapper.md)   
+ [Product and package schema reference](../deployment/product-and-package-schema-reference.md)

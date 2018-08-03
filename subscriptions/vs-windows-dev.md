@@ -18,7 +18,7 @@ Your Windows Developer Account, included with selected Visual Studio subscriptio
 
 To use your Windows Developer Account, you’ll need to set up an account or sign in using an existing account.
 
-We recommend that you create a "private" browser window for this process.  For example, in Google Chrome, create a new "incongnito" window.  In Internet Explorer, create a new "InPRivate" window.
+We recommend that you create a "private" browser window for this process.  For example, in Google Chrome, create a new "incongnito" window.  In Internet Explorer, create a new "InPrivate" window.
 
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 

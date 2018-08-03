@@ -22,7 +22,7 @@ If you don't have the **Desktop development with C++** workload installed, open 
 
 Boost.Test requires [Boost](http://www.boost.org/)! If you do not have Boost installed, we recommend that you use the Vcpkg package manager.
 
-1. Follow the instructions at [Vcpkg: a C++ Package Manager for Windows](/cpp/vcpkg) to install vcpkg (if you don't already have it).
+1. Follow the instructions at [Vcpkg: a C++ package manager for Windows](/cpp/vcpkg) to install vcpkg (if you don't already have it).
 
 1. Install the Boost.Test dynamic or static library:
 
@@ -36,7 +36,7 @@ Boost.Test requires [Boost](http://www.boost.org/)! If you do not have Boost ins
 
 ## Add the item template (Visual Studio 2017 version 15.6 and later)
 
-1. To create a .cpp file for your tests, right-click on the project node in **Solution Explorer** and choose **Add New Item**.
+1. To create a *.cpp* file for your tests, right-click on the project node in **Solution Explorer** and choose **Add New Item**.
 
    ![Boost.Test Item Template](media/boost_test_item_template.png)
 
@@ -53,7 +53,8 @@ In Visual Studio 2017 version 15.5, no pre-configured test project or item templ
 1. In the left pane, choose **Visual C++** > **Windows Desktop**, and then choose the **Windows Console Application** template.
 
 1. Give the project a name and choose **OK**.
-1. Delete the `main` function in the .cpp file.
+
+1. Delete the `main` function in the *.cpp* file.
 
 1. If you are using the single-header or dynamic library version of Boost.Test, go to [Add include directives](#add-include-directives). If you are using the static library version, then you have to perform some additional configuration:
 
@@ -68,19 +69,19 @@ In Visual Studio 2017 version 15.5, no pre-configured test project or item templ
         <VcpkgEnabled>true</VcpkgEnabled>
     </PropertyGroup>
     ```
-   c. Save and close the \*.vcxproj file, and then reload the project.
+   c. Save and close the *\*.vcxproj* file, and then reload the project.
 
    d. To open the **Property Pages**, right-click on the project node and choose **Properties**.
 
    d. Expand **C/C++** > **Code Generation**, and then select **Runtime Library**. Select **/MTd** for debug static runtime library or **/MT** for release static runtime library.
 
-   f. Expand **Linker > System**. Verify that **SubSystem** is set to **Console**.
+   f. Expand **Linker** > **System**. Verify that **SubSystem** is set to **Console**.
 
    g. Choose **OK** to close the property pages.
 
 ## Add include directives
 
-1. In your test .cpp file, add any needed `#include` directives to make your program's types and functions visible to the test code. Typically, the program is up one level in the folder hierarchy. If you type `#include "../"`, an IntelliSense window appears and enables you to select the full path to the header file.
+1. In your test *.cpp* file, add any needed `#include` directives to make your program's types and functions visible to the test code. Typically, the program is up one level in the folder hierarchy. If you type `#include "../"`, an IntelliSense window appears and enables you to select the full path to the header file.
 
    ![Add #include directives](media/cpp-gtest-includes.png)
 
@@ -106,7 +107,7 @@ The following example is sufficient for the test to be discoverable in **Test Ex
 #include "../MyProgram/MyClass.h" // project being tested
 #include <string>
 
-BOOST_AUTO_TEST_CASE(my\_boost_test)
+BOOST_AUTO_TEST_CASE(my_boost_test)
 {
 	std::string expected_value = "Bill";
 
@@ -118,7 +119,9 @@ BOOST_AUTO_TEST_CASE(my\_boost_test)
 ```
 
 ## Write and run tests
-You are now ready to write and run Boost Tests. See the [Boost Test Library Documentation](http://www.boost.org/doc/libs/release/libs/test/doc/html/index.html) for information about the test macros. See [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md) for information about discovering, running, and grouping your tests by using **Test Explorer**.
+
+You're now ready to write and run Boost tests. See the [Boost test library documentation](http://www.boost.org/doc/libs/release/libs/test/doc/html/index.html) for information about the test macros. See [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md) for information about discovering, running, and grouping your tests by using **Test Explorer**.
 
 ## See also
-[Writing Unit Tests for C/C++](writing-unit-tests-for-c-cpp.md)
+
+- [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md)

@@ -15,11 +15,11 @@ ms.workload:
 ---
 # Install cross-platform Mobile development with C++
 
-You can use C++ in Visual Studio to build Windows Desktop apps, Universal Windows Platform (UWP) apps, Linux apps, and now, apps for Android and iOS. The **Mobile development with C++** workload is an installable set of components in Visual Studio that includes cross-platform iOS, Android, and UWP Visual Studio templates. It installs the cross-platform tools and SDKs you need to get started quickly, without having to locate, download, and configure them yourself. You can use these tools in Visual Studio to easily create, edit, debug, and test your cross-platform projects. This topic describes how to install the tools and third-party software required to develop cross-platform apps in C++ using Visual Studio. For an overview, see [Visual C++ Cross-Platform Mobile](https://go.microsoft.com/fwlink/p/?LinkId=536383)
+You can use C++ in Visual Studio to build Windows Desktop apps, Universal Windows Platform (UWP) apps, Linux apps, and now, apps for Android and iOS. The **Mobile development with C++** workload is an installable set of components in Visual Studio that includes cross-platform iOS, Android, and UWP Visual Studio templates. It installs the cross-platform tools and SDKs you need to get started quickly, without having to locate, download, and configure them yourself. You can use these tools in Visual Studio to easily create, edit, debug, and test your cross-platform projects. This topic describes how to install the tools and third-party software required to develop cross-platform apps in C++ using Visual Studio. For an overview, see [Visual C++ cross-platform mobile](https://go.microsoft.com/fwlink/p/?LinkId=536383)
 
 ## Requirements
 
-- For installation requirements, see [Visual Studio Product Family System Requirements](/visualstudio/productinfo/vs2017-system-requirements-vs).
+- For installation requirements, see [Visual Studio product family system requirements](/visualstudio/productinfo/vs2017-system-requirements-vs).
 
    > [!IMPORTANT]
    > If you are using Windows 7 or Windows Server 2008 R2, you can develop code for Windows Desktop applications, Android Native Activity apps and libraries, and apps and code libraries for iOS, but not Windows Phone or UWP apps.
@@ -34,7 +34,7 @@ To build apps for specific device platforms, there are some additional requireme
 
 ## Get the tools
 
-Mobile development with C++ is available in Visual Studio Community, Professional, and Enterprise editions. To get Visual Studio, go to the [Visual Studio Downloads](https://go.microsoft.com/fwlink/p/?linkid=517106) page. The cross-platform mobile development tools are available starting in Visual Studio 2015 Update 2 or later.
+Mobile development with C++ is available in Visual Studio Community, Professional, and Enterprise editions. To get Visual Studio, go to the [Visual Studio downloads](https://go.microsoft.com/fwlink/p/?linkid=517106) page. The cross-platform mobile development tools are available starting in Visual Studio 2015 Update 2 or later.
 
 ## Install the tools
 
@@ -99,7 +99,7 @@ If you are using Visual Studio 2015, its installer includes an option to install
 
 ## Install tools for iOS
 
-You can use Visual C++ for Cross-Platform Mobile Development to edit, debug, and deploy iOS code to the iOS Simulator or to an iOS device, but because of licensing restrictions, the code must be built remotely on a Mac. To build and run iOS apps using Visual Studio, you must set up and configure the remote agent on your Mac. For detailed installation instructions, prerequisites and configuration options, see [Install And Configure Tools to Build using iOS](install-and-configure-tools-to-build-using-ios.md). If you're not building for iOS, you can skip this step.
+You can use Visual C++ for Cross-Platform Mobile Development to edit, debug, and deploy iOS code to the iOS Simulator or to an iOS device, but because of licensing restrictions, the code must be built remotely on a Mac. To build and run iOS apps using Visual Studio, you must set up and configure the remote agent on your Mac. For detailed installation instructions, prerequisites and configuration options, see [Install and configure tools to build using iOS](../cross-platform/install-and-configure-tools-to-build-using-ios.md). If you're not building for iOS, you can skip this step.
 
 ## Install or update dependencies manually
 
@@ -112,23 +112,23 @@ Read the following information and use these links to install dependencies manua
 
 - [Java SE Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-   By default, the installer puts the Java tools in C:\Program Files (x86)\Java.
+   By default, the installer puts the Java tools in *C:\Program Files (x86)\Java*.
 
 - [Android SDK](https://developer.android.com/sdk/index.html#command-tools)
 
-   During the installation, update the APIs as recommended. Make sure that at least the SDK for Android 5.0 Lollipop (API level 21) is installed. By default, the installer puts the Android SDK in C:\Program Files (x86)\Android\android-sdk.
+   During the installation, update the APIs as recommended. Make sure that at least the SDK for Android 5.0 Lollipop (API level 21) is installed. By default, the installer puts the Android SDK in *C:\Program Files (x86)\Android\android-sdk*.
 
    You can run the SDK Manager app in the Android SDK directory again to update the SDK and install optional tools and additional API levels. Updates may fail to install unless you use **Run as administrator** to run the SDK Manager app. If you have problems building an Android app, check the SDK Manager for updates to your installed SDKs.
 
-   To use some of the Android emulators that come with the Android SDK, you must install the optional Intel HAXM drivers. You may have to remove the Hyper-V feature from Windows to install the Intel HAXM drivers successfully. You must restore the Hyper-V feature to use the Windows Phone emulators and the Microsoft Visual Studio Emulator for Android. For more information, see [Android Emulator Hardware Acceleration](https://docs.microsoft.com/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?tabs=vswin).
+   To use some of the Android emulators that come with the Android SDK, you must install the optional Intel HAXM drivers. You may have to remove the Hyper-V feature from Windows to install the Intel HAXM drivers successfully. You must restore the Hyper-V feature to use the Windows Phone emulators and the Microsoft Visual Studio Emulator for Android. For more information, see [Android Emulator hardware acceleration](https://docs.microsoft.com/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?tabs=vswin).
 
 - [Android NDK](https://developer.android.com/tools/sdk/ndk/index.html)
 
-   By default, the installer puts the Android NDK in C:\ProgramData\Microsoft\AndroidNDK. You can download and install the Android NDK again to update the NDK installation.
+   By default, the installer puts the Android NDK in *C:\ProgramData\Microsoft\AndroidNDK*. You can download and install the Android NDK again to update the NDK installation.
 
 - [Apache Ant](https://ant.apache.org/bindownload.cgi)
 
-   By default, the installer puts Apache Ant in C:\Program Files (x86)\Microsoft Visual Studio 14.0\Apps.
+   By default, the installer puts Apache Ant in *C:\Program Files (x86)\Microsoft Visual Studio 14.0\Apps*.
 
 - [Microsoft Visual Studio Emulator for Android](https://aka.ms/vscomemudownload)
 
@@ -148,7 +148,7 @@ In most cases, Visual Studio can detect the configurations for the third-party s
 
 1. Choose **OK** to save the custom tool folder locations.
 
-## See Also
+## See also
 
-- [Install And Configure Tools to Build using iOS](install-and-configure-tools-to-build-using-ios.md)
-- [Visual C++ Cross-Platform Mobile](https://go.microsoft.com/fwlink/p/?LinkId=536383)
+- [Install and configure tools to build using iOS](install-and-configure-tools-to-build-using-ios.md)
+- [Visual C++ cross-platform mobile](https://go.microsoft.com/fwlink/p/?LinkId=536383)

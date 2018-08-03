@@ -19,10 +19,10 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# CallTarget Task
+# CallTarget task
 Invokes the specified targets within the project file.  
   
-## Task Parameters  
+## Task parameters  
  The following table describes the parameters of the `CallTarget` task.  
   
 |Parameter|Description|  
@@ -35,9 +35,9 @@ Invokes the specified targets within the project file.
 ## Remarks  
  If a target specified in `Targets` fails and `RunEachTargetSeparately` is `true`, the task continues to build the remaining targets.  
   
- If you want to build the default targets, use the [MSBuild Task](../msbuild/msbuild-task.md) and set the `Projects` parameter equal to `$(MSBuildProjectFile)`.  
+ If you want to build the default targets, use the [MSBuild task](../msbuild/msbuild-task.md) and set the `Projects` parameter equal to `$(MSBuildProjectFile)`.  
   
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  
   
 ## Example  
  The following example calls `TargetA` from inside `CallOtherTargets`.  
@@ -57,6 +57,6 @@ Invokes the specified targets within the project file.
 </Project>  
 ```  
   
-## See Also  
- [Task Reference](../msbuild/msbuild-task-reference.md)   
+## See also  
+ [Task reference](../msbuild/msbuild-task-reference.md)   
  [Targets](../msbuild/msbuild-targets.md)

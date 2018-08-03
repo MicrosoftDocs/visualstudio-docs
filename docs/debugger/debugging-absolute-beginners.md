@@ -2,9 +2,9 @@
 title: "Debugging code for absolute beginners"
 description: "If you are debugging for the first time, learn a few principles to help you run your app in debugging mode with Visual Studio"
 ms.custom: ""
-ms.date: "06/18/2018"
+ms.date: "07/06/2018"
 ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
+ms.topic: "tutorial"
 helpviewer_keywords:
   - "debugger"
 author: "mikejo5000"
@@ -35,7 +35,7 @@ It helps to clarify the problem that you ran into before you try to fix it. We e
 
 ## Examine your assumptions
 
-Before you investigate a bug or an error, think of the assumptions that made you expect a certain result. Hidden or unknown assumptions can get in the way of identifying a problem even when you are looking right at the cause of the problem in a debugger. You may have a long list of possible assumptions! Here are are few questions to ask yourself to challenge your assumptions.
+Before you investigate a bug or an error, think of the assumptions that made you expect a certain result. Hidden or unknown assumptions can get in the way of identifying a problem even when you are looking right at the cause of the problem in a debugger. You may have a long list of possible assumptions! Here are a few questions to ask yourself to challenge your assumptions.
 
 * Are you using the right API (that is, the right object, function, method, or property)? An API that you're using might not do what you think it does. (After you examine the API call in the debugger, fixing it may require a trip to the documentation to help identify the correct API.)
 
@@ -211,8 +211,8 @@ Next, we will create an application that has a few bugs.
 
     ```csharp
     foreach (Galaxy theGalaxy in theGalaxies)
-        {
-            Console.WriteLine(theGalaxy.Name + "  " + theGalaxy.MegaLightYears + ",  " + theGalaxy.GalaxyType);
+    {
+        Console.WriteLine(theGalaxy.Name + "  " + theGalaxy.MegaLightYears + ",  " + theGalaxy.GalaxyType);
     }    
     ```
 
@@ -316,7 +316,7 @@ When you find the region of code with the problem, use the debugger to investiga
 
 * [Inspect variables](../debugger/view-data-values-in-data-tips-in-the-code-editor.md) and check whether they contain the type of values that they should contain. If you find a bad value, find out where the bad value was set (to find where the value was set, you might need to either restart the debugger, look at the [call stack](../debugger/how-to-use-the-call-stack-window.md), or both).
 
-* Check whether your application is executing the code that you expect. (For example, in the sample application, we expected the code for the switch statement to set the galaxy type to Irregular, but the the app skipped the code due to the typo.)
+* Check whether your application is executing the code that you expect. (For example, in the sample application, we expected the code for the switch statement to set the galaxy type to Irregular, but the app skipped the code due to the typo.)
 
 > [!TIP]
 > You use a debugger to help you find bugs. A debugging tool can find bugs *for you* only if it knows the intent of your code. A tool can only know the intent of your code if you, the developer, express that intent. Writing [unit tests](../test/improve-code-quality.md) is how you do that.

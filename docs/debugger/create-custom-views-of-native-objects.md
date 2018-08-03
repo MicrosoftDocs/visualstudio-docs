@@ -2,7 +2,7 @@
 title: "Create custom views of native objects"
 description: Use the Natvis framework to customize the way that Visual Studio displays native types in the debugger
 ms.custom: ""
-ms.date: "06/27/2017"
+ms.date: "067/20/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
@@ -625,7 +625,7 @@ The following intrinsic functions are supported:
 </Type>  
 ```  
   
- You can see an example of the UIVisualizer in the Image Watch extension used to view in-memory bitmaps: [ImageWatch](https://visualstudiogallery.msdn.microsoft.com/e682d542-7ef3-402c-b857-bbfba714f78d)  
+ You can see an example of the UIVisualizer in the Image Watch extension used to view in-memory bitmaps: [ImageWatch](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.ImageWatch2017)  
   
 ### CustomVisualizer element  
  `CustomVisualizer` is an extensibility point that specifies a VSIX extension that you can write to control the visualization in code that runs in Visual Studio. For more information about writing VSIX extensions, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). Writing a custom visualizer is a lot more work than writing an XML natvis definition, but you are free from constraints about what natvis supports or doesn't support. Custom visualizers have access to the full set of debugger extensibility APIs, which can be used to query and modify the debuggee process or communicate with other parts of Visual Studio.  

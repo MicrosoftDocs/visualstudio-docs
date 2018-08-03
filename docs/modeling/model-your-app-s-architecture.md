@@ -63,7 +63,7 @@ To help ensure that your software system or application meets your users' needs,
 ##  <a name="BigDecisions"></a> Architectural Patterns
  Early in a development, you have to choose the major technologies and elements on which the design depends. The areas in which these choices must be made include the following:
 
--   Base technology choices, such as the choice between a database and a file system, and the choice between a networked application and a Web client, and so on.
+-   Base technology choices, such as the choice between a database and a file system, and the choice between a networked application and a web client, and so on.
 
 -   Frameworks choices, such as a choice between Windows Workflow Foundation or ADO.NET Entity Framework.
 
@@ -76,7 +76,7 @@ To help ensure that your software system or application meets your users' needs,
 ##  <a name="Patterns"></a> Design Patterns
  A design pattern is an outline of how to design a particular aspect of the software, especially one that recurs in different parts of the system. By adopting a uniform approach across the project, you can reduce the cost of design, ensure consistency in the user interface, and reduce the cost of understanding and changing the code.
 
- Some general design patterns such as Observer are well-known and widely applicable. In addition, there are patterns that are applicable just to your project. For example, in a Web sales system, there will be several operations in the code where changes are made to a customer's order. To ensure that the state of the order is accurately displayed at every stage, all these operations must follow a particular protocol to update the database.
+ Some general design patterns such as Observer are well-known and widely applicable. In addition, there are patterns that are applicable just to your project. For example, in a web sales system, there will be several operations in the code where changes are made to a customer's order. To ensure that the state of the order is accurately displayed at every stage, all these operations must follow a particular protocol to update the database.
 
  Part of the work of software architecture is to determine what patterns should be adopted across the design. This is usually an ongoing task, because new patterns and improvements to existing patterns will be discovered as the project progresses. It is helpful to organize the development plan so that you exercise each of your major design patterns at an early stage.
 

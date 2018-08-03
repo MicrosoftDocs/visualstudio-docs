@@ -17,11 +17,11 @@ Gets or sets the content of the element.
 
 ## Syntax
 
-```
+```xaml
 elem.Value
 ```
 
-## Property Value/Return Value
+## Property value/return value
 
 A <xref:System.String> that represents the concatenated contents of the element.
 
@@ -32,5 +32,5 @@ This property is equivalent to the <xref:System.Xml.Linq.XElement.Value%2A> prop
 ## See also
 
 - <xref:System.Xml.Linq.XElement.Value%2A?displayProperty=fullName>
-- [XElement Class Dynamic Properties](../designers/xelement-class-dynamic-properties.md)
+- [XElement class dynamic properties](../designers/xelement-class-dynamic-properties.md)
 - [Xml](../designers/xml-xelement-dynamic-property.md)

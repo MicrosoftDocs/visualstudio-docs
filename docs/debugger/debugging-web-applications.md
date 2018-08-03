@@ -35,6 +35,6 @@ This section explains how to debug several types of Web applications.
 ## See Also  
  [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
- [Debugger Basics](../debugger/debugger-basics.md)   
+ [Debugger Basics](../debugger/getting-started-with-the-debugger.md)   
  [Debugging in Visual Studio](../debugger/index.md)  
  [Debugger Feature Tour](../debugger/debugger-feature-tour.md)

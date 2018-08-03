@@ -13,10 +13,10 @@ author: mikejo5000
 ms.author: mikejo
 manager: douge
 ---
-# How to: Ignore Errors in Tasks
+# How to: Ignore errors in tasks
 Sometimes you want a build to be tolerant of faults in certain tasks. If those non-critical tasks fail, you want the build to continue because it can still produce the required output. For example, if a project uses a `SendMail` task to send an e-mail message after each component is built, you might consider it acceptable for the build to proceed to completion even when the mail servers are unavailable and the status messages cannot be sent. Or, for example, if intermediate files are usually deleted during the build, you might consider it acceptable for the build to proceed to completion even when those files cannot be deleted.  
   
-## Using the ContinueOnError Attribute  
+## Use the ContinueOnError attribute  
  The `ContinueOnError` attribute of the `Task` element controls whether a build stops or continues when a task failure occurs. This attribute also controls whether errors are treated as errors or warnings when the build continues.  
   
  The `ContinueOnError` attribute can contain one of the following values:  
@@ -56,7 +56,7 @@ Sometimes you want a build to be tolerant of faults in certain tasks. If those n
 </Project>  
 ```  
   
-## See Also
+## See also
 [MSBuild](../msbuild/msbuild.md)  
- [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Tasks](../msbuild/msbuild-tasks.md)
+[Task reference](../msbuild/msbuild-task-reference.md)   
+[Tasks](../msbuild/msbuild-tasks.md)

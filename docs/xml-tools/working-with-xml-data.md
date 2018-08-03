@@ -51,8 +51,8 @@ Provides information about XML technologies, including XML, Document Type Defini
 [Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)
 Provides an explanation of the design-time tools for creating datasets.
 
-[XML Web services in managed code](http://msdn.microsoft.com/c9a7dc25-3e68-4723-bfb7-de4320830196)
-Discusses how to create and deploy XML Web services and how to access XML Web services.
+[XML web services in managed code](http://msdn.microsoft.com/c9a7dc25-3e68-4723-bfb7-de4320830196)
+Discusses how to create and deploy XML web services and how to access XML web services.
 
 ## See also
 

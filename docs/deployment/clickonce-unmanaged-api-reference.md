@@ -31,13 +31,13 @@ manager: douge
 ms.workload: 
   - "cplusplus"
 ---
-# ClickOnce Unmanaged API Reference
+# ClickOnce unmanaged API reference
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] unmanaged public APIs from dfshim.dll.  
   
 ## CleanOnlineAppCache  
  Cleans or uninstalls all online applications from the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application cache.  
   
-### Return Value  
+### Return value  
  If successful, returns S_OK; otherwise, returns an HRESULT that represents the failure. If a managed exception occurs, returns 0x80020009 (DISP_E_EXCEPTION).  
   
 ### Remarks  
@@ -61,7 +61,7 @@ ms.workload:
 |`pwzDeploymentProvider`|A pointer to a buffer to receive a NULL-terminated string that specifies the deployment provider from the manifest, if present. Otherwise, an empty string is returned.|LPWSTR|  
 |`pdwProviderBufferLength`|A pointer to a DWORD that is the length of the `pwzProviderBufferLength`.|LPDWORD|  
   
-### Return Value  
+### Return value  
  If successful, returns S_OK; otherwise, returns an HRESULT that represents the failure. Returns HRESULTFROMWIN32(ERROR_INSUFFICIENT_BUFFER) if a buffer is too small.  
   
 ### Remarks  
@@ -82,8 +82,8 @@ ms.workload:
 |`data`|Reserved for future use. Must be NULL.|LPVOID|  
 |`flags`|Reserved for future use. Must be 0.|DWORD|  
   
-### Return Value  
+### Return value  
  If successful, returns S_OK; otherwise, returns an HRESULT that represents the failure. If a managed exception occurs, returns 0x80020009 (DISP_E_EXCEPTION).  
   
-## See Also  
+## See also  
  <xref:System.Deployment.Application.DeploymentServiceCom.CleanOnlineAppCache%2A>

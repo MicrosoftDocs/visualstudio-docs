@@ -15,9 +15,9 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Evaluating Locals
+# Evaluate locals
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+>  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  [GetPropertyInfo](../../extensibility/debugger/reference/idebugproperty2-getpropertyinfo.md) is called to obtain the value of a local, as well as the local's name and type. Since the value of a local is dependent on the current state of the program, the local's value must be obtained from memory. The [IDebugBinder](../../extensibility/debugger/reference/idebugbinder.md) object is used to bind the [IDebugField](../../extensibility/debugger/reference/idebugfield.md) object representing the local to the appropriate location in memory containing the value. This location in memory is represented by an [IDebugObject](../../extensibility/debugger/reference/idebugobject.md) object.  
   
@@ -31,7 +31,7 @@ ms.workload:
   
 4.  Returns a generic object that contains the local's value. In C#, this is an `object`, and in C++, this is a `VARIANT`.  
   
-## Managed Code  
+## Managed code  
  This is an implementation of a function that retrieves the value of a local in managed code.  
   
 ```csharp  
@@ -73,7 +73,7 @@ namespace EEMC
 }  
 ```  
   
-## Unmanaged Code  
+## Unmanaged code  
  This is an implementation of a function that retrieves the value of a local in unmanaged code. `FieldGetType` is shown in [Getting Local Values](../../extensibility/debugger/getting-local-values.md).  
   
 ```cpp  
@@ -186,7 +186,7 @@ HRESULT FieldGetPrimitiveValue(
 }  
 ```  
   
-## See Also  
- [Sample Implementation of Locals](../../extensibility/debugger/sample-implementation-of-locals.md)   
- [Getting Local Values](../../extensibility/debugger/getting-local-values.md)   
- [Evaluation Context](../../extensibility/debugger/evaluation-context.md)
+## See also  
+ [Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md)   
+ [Get local values](../../extensibility/debugger/getting-local-values.md)   
+ [Evaluation context](../../extensibility/debugger/evaluation-context.md)

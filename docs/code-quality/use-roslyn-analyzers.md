@@ -73,7 +73,7 @@ The following screenshot shows the same three violations as they appear in the *
 
 You can change the severity of a rule from **Solution Explorer**, or within the *\<projectname>.ruleset* file that is added to the solution after you change the severity of a rule in **Solution Explorer**.
 
-![Ruleset file in Solution Explorer](media/ruleset-in-solution-explorer.png)
+![Rule set file in Solution Explorer](media/ruleset-in-solution-explorer.png)
 
 ### To set rule severity from Solution Explorer
 
@@ -93,7 +93,7 @@ You can change the severity of a rule from **Solution Explorer**, or within the 
 
 1. In the **Action** column, select the value to open a drop-down list, and select the desired severity from the list.
 
-   ![Ruleset file open in editor](media/ruleset-file-in-editor.png)
+   ![Rule set file open in editor](media/ruleset-file-in-editor.png)
 
 ## Suppress violations
 
@@ -109,7 +109,11 @@ There are multiple ways to suppress rule violations:
 
    ![Suppress diagnostic from quick actions menu](media/suppress-diagnostic-from-editor.png)
 
-- To suppress a diagnostic from the **Error List**, right-click on the error, warning, or message, and select **Suppress** > **In Source** or **Suppress** > **In Suppression File**.
+- To suppress a diagnostic from the **Error List**, see [Suppress violations from the Error List](#suppress-violations-from-the-error-list).
+
+### Suppress violations from the Error List
+
+You can suppress one or many diagnostics from the **Error List** by selecting the ones you want to suppress, and then right-clicking and selecting **Suppress** > **In Source** or **Suppress** > **In Suppression File**.
 
    - If you select **In Source**, the **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning](/dotnet/visual-basic/language-reference/directives/directives) directive that's added to the source code.
 
@@ -120,6 +124,10 @@ There are multiple ways to suppress rule violations:
       ![Preview of adding SuppressMessage attribute to suppression file](media/preview-changes-in-suppression-file.png)
 
    In the **Preview Changes** dialog, select **Apply**.
+
+The **Error List** displays diagnostics, or rule violations, from both live code analysis and build. Since the build diagnostics can be stale, for example, if you've edited the code to fix the violation but haven't rebuilt, you cannot suppress these diagnostics from the **Error List**. However, diagnostics from live analysis, or IntelliSense, are always up-to-date with current sources, and can be suppressed from the **Error List**. If the suppression option is disabled in the right-click, or context, menu, it's likely because you have one or more build diagnostics in your selection. To exclude the build diagnostics from your selection, switch the **Error List** source filter from **Build + IntelliSense** to **Intellisense Only**. Then, select the diagnostics you want to suppress and proceed as described previously.
+
+![Error List source filter in Visual Studio](media/error-list-filter.png)
 
 > [!NOTE]
 > In a .NET Core project, if you add a reference to a project that has NuGet analyzers, those analyzers are automatically added to the dependent project too. To disable this behavior, for example if the dependent project is a unit test project, mark the NuGet package as private in the *.csproj* or *.vbproj* file of the referenced project:

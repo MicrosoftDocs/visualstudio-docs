@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# AsyncVoidMethodBuilder.m_objectIdForDebugger Field
+# AsyncVoidMethodBuilder.m_objectIdForDebugger field
 Represents the lazily initialized object used by the debugger to uniquely identify this builder.  
   
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>  
@@ -25,10 +25,10 @@ Represents the lazily initialized object used by the debugger to uniquely identi
   
 ## Syntax  
   
-```  
+```csharp  
 .field private object m_objectIdForDebugger  
 ```  
   
-## See Also  
+## See also  
  <xref:System.Runtime.CompilerServices.AsyncVoidMethodBuilder>   
- [Parallel Extension Internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)
+ [Parallel extension internals for the .NET Framework](../../extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md)

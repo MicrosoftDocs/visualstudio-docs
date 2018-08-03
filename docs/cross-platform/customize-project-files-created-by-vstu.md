@@ -1,7 +1,7 @@
 ---
 title: "Customize Project Files Created by VSTU | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "07/26/2018"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: 60b8cc1d-cacc-404d-b768-77e81bc354f8
@@ -11,7 +11,7 @@ manager: crdun
 ms.workload:
   - "unity"
 ---
-# Customize Project Files Created by VSTU
+# Customize project files created by VSTU
 Visual Studio Tools for Unity provides a Unity-style callback during project file generation. Register with the `VisualStudioIntegration.ProjectFileGeneration` event to modify the project file whenever it's regenerated.
 
 ## Demonstrates
@@ -20,6 +20,7 @@ Visual Studio Tools for Unity provides a Unity-style callback during project fil
 ## Example
 
 ```csharp
+#if ENABLE_VSTU
 using System;
 using System.IO;
 using System.Linq;
@@ -59,7 +60,8 @@ public class ProjectFileHook
         };
     }
 }
+#endif
 ```
 
-## See Also
- [Example: Log Callback](../cross-platform/share-the-unity-log-callback-with-vstu.md)
+## See also
+ [Example: Log callback](../cross-platform/share-the-unity-log-callback-with-vstu.md)

@@ -16,7 +16,7 @@ ms.workload:
   - "multiple"
 author: gewarren
 ---
-# Use Code Coverage to determine how much code is being tested
+# Use code coverage to determine how much code is being tested
 
 To determine what proportion of your project's code is actually being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To guard effectively against bugs, your tests should exercise or 'cover' a large proportion of your code.
 
@@ -45,7 +45,7 @@ Code coverage is an option when you run test methods using Test Explorer. The re
 > - if you are working with unmanaged (native) code, use a debug build
 > - make sure that you are generating .pdb (symbol) files for each assembly.
 
-If you don't get the results you expect, see [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md). . Don't forget to run code coverage again after updating your code. Coverage results and code coloring are not automatically updated after you modify your code or when you run tests.
+If you don't get the results you expect, see [Troubleshooting code coverage](../test/troubleshooting-code-coverage.md). Don't forget to run code coverage again after updating your code. Coverage results and code coloring are not automatically updated after you modify your code or when you run tests.
 
 ## Report in blocks or lines
 
@@ -57,7 +57,7 @@ Some users prefer a count of lines because the percentages correspond more close
 
 ## Manage code coverage results
 
-The Code Coverage Results window usually shows the result of the most recent run. The results will vary if you change your test data, or if you run only some of your tests each time.
+The **Code Coverage Results** window usually shows the result of the most recent run. The results will vary if you change your test data, or if you run only some of your tests each time.
 
 The code coverage window can also be used to view previous results, or results obtained on other computers.
 
@@ -65,13 +65,13 @@ You can merge the results of several runs, for example from runs that use differ
 
 -   **To view a previous set of results**, select it from the drop-down menu. The menu shows a temporary list that is cleared when you open a new solution.
 
--   **To view results from a previous session**, choose **Import Code Coverage Results**, navigate to the TestResults folder in your solution, and import a .coverage file.
+-   **To view results from a previous session**, choose **Import Code Coverage Results**, navigate to the **TestResults** folder in your solution, and import a *.coverage* file.
 
-    The coverage coloring might be incorrect if the source code has changed since the .coverage file was generated.
+    The coverage coloring might be incorrect if the source code has changed since the *.coverage* file was generated.
 
--   **To make results readable as text**, choose **Export Code Coverage Results**. This generates a readable .coveragexml file which you could process with other tools or send easily in mail.
+-   **To make results readable as text**, choose **Export Code Coverage Results**. This generates a readable *.coveragexml* file which you could process with other tools or send easily in mail.
 
--   **To send results to someone else**, send either a .coverage file or an exported .coveragexml file. They can then import the file. If they have the same version of the source code, they can see coverage coloring.
+-   **To send results to someone else**, send either a *.coverage* file or an exported *.coveragexml* file. They can then import the file. If they have the same version of the source code, they can see coverage coloring.
 
 ## Merge results from different runs
 
@@ -239,15 +239,15 @@ Use the following macros:
 
 ### Include or exclude additional elements
 
-Code coverage analysis is performed only on assemblies that are loaded and for which a .pdb file is available in the same directory as the .dll or .exe file. Therefore in some circumstances, you can extend the set of assemblies that is included by getting copies of the appropriate .pdb files.
+Code coverage analysis is performed only on assemblies that are loaded and for which a *.pdb* file is available in the same directory as the *.dll* or *.exe* file. Therefore in some circumstances, you can extend the set of assemblies that is included by getting copies of the appropriate *.pdb* files.
 
-You can exercise more control over which assemblies and elements are selected for code coverage analysis by writing a .runsettings file. For example, you can exclude assemblies of particular kinds without having to add attributes to their classes. For more information, see [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md).
+You can exercise more control over which assemblies and elements are selected for code coverage analysis by writing a *.runsettings* file. For example, you can exclude assemblies of particular kinds without having to add attributes to their classes. For more information, see [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md).
 
 ## Analyze code coverage in the build service
 
 When you check in your code, your tests will run on the build server, along with all the other tests from other team members. (If you haven't already set this up, see [Run tests in your build process](http://msdn.microsoft.com/Library/d05743a1-c5cf-447e-bed9-bed3cb595e38).) It's useful to analyze code coverage on the build service, because that gives the most up-to-date and comprehensive picture of coverage in the whole project. It will also include automated system tests and other coded tests that you don't usually run on the development machines.
 
-1. In Team Explorer, open **Builds**, and then add or edit a build definition.
+1. In **Team Explorer**, open **Builds**, and then add or edit a build definition.
 
 2. On the **Process** page, expand **Automated Tests**, **Test Source**, **Run Settings**. Set **Type of Run Settings File** to **Code Coverage Enabled**.
 
@@ -260,9 +260,9 @@ When you check in your code, your tests will run on the build server, along with
 
 After the build runs, the code coverage results are attached to the test run and appear in the build summary.
 
-## Analyze Code Coverage in a Command Line
+## Analyze code coverage from the command line
 
-To run tests from the command line, use vstest.console.exe. Code coverage is an option of the vstest.console.exe utility.
+To run tests from the command line, use *vstest.console.exe*. Code coverage is an option of the *vstest.console.exe* utility.
 
 1.  Launch the Visual Studio Developer Command Prompt:
 
@@ -272,12 +272,14 @@ To run tests from the command line, use vstest.console.exe. Code coverage is an 
 
     `vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage`
 
+For more information, see [VSTest.Console.exe command-line options](vstest-console-options.md).
+
 ## Troubleshoot
 
-If you do not see code coverage results, the [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md) topic might help you.
+If you do not see code coverage results, the [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md) topic might help you.
 
 ## See also
 
-- [Customizing Code Coverage Analysis](../test/customizing-code-coverage-analysis.md)
-- [Troubleshooting Code Coverage](../test/troubleshooting-code-coverage.md)
-- [Unit Test Your Code](../test/unit-test-your-code.md)
+- [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
+- [Troubleshooting code coverage](../test/troubleshooting-code-coverage.md)
+- [Unit test your code](../test/unit-test-your-code.md)

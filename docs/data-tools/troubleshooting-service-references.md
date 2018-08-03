@@ -47,12 +47,12 @@ When a user accesses a Web-hosted WCF service over a remote desktop connection a
 
 To fix this error:
 
-1.  In the Web site project, open the **Properties** pages.
+1.  In the website project, open the **Properties** pages.
 
 2.  On the **Start Options** tab, clear the **NTLM Authentication** check box.
 
     > [!NOTE]
-    > You should turn off NTLM authentication only for Web sites that exclusively contain WCF services. Security for WCF services is managed through the configuration in the *web.config* file. This makes NTLM authentication unnecessary.
+    > You should turn off NTLM authentication only for websites that exclusively contain WCF services. Security for WCF services is managed through the configuration in the *web.config* file. This makes NTLM authentication unnecessary.
 
 ## Access level for generated classes setting has no effect
 

@@ -11,7 +11,7 @@ manager: crdun
 ms.workload:
   - "unity"
 ---
-# Change Log (Visual Studio Tools for Unity, Windows)
+# Change log (Visual Studio Tools for Unity, Windows)
 Visual Studio Tools for Unity change log.
 
 ## 3.7.0.1
@@ -481,7 +481,7 @@ Visual Studio Tools for Unity change log.
 
     -   Added an option to configure the visibility of MonoBehavior messages.
 
-    -   Removed Visual Studio property pages that are not relevent to Unity projects.
+    -   Removed Visual Studio property pages that are not relevant to Unity projects.
 
 ### Bug fixes
 
