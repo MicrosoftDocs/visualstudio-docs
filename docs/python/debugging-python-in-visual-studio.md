@@ -191,7 +191,7 @@ The **Debug Interactive** window has its own set of options, which you can acces
 
 ## Use the legacy debugger
 
-Visual Studio 2017 versions 15.8 and later use a debugger based on ptvsd version 4.1+. This version of ptvsd is compatible with Python 3.7 and Python 3.5 and later. If you're using Python 2.6, 3.1 to 3.4, or IronPython, Visual Studio shows the error, **Debugger does not support this Python environment**:
+Visual Studio 2017 versions 15.8 and later use a debugger based on ptvsd version 4.1+. This version of ptvsd is compatible with Python 2.7 and Python 3.5+. If you're using Python 2.6, 3.1 to 3.4, or IronPython, Visual Studio shows the error, **Debugger does not support this Python environment**:
 
 ![Debugger does not support this Python environment error when using the debugger](media/debugging-experimental-incompatible-error.png)
 
@@ -205,7 +205,7 @@ The error, **Debugger package could not be loaded**, appears when you've install
 
 In this case, select **Use the legacy debugger** to set the **Use legacy debugger** option, and restart the debugger.
 
-The warning, **Debugger package could not be loaded**, appears when you've installed an earlier 4.0.x version of ptvsd:
+The warning, **Debugger package is outdated**, appears when you've installed an earlier 4.x version of ptvsd:
 
 ![Debugger package is outdated warning when using the debugger](media/debugging-experimental-version-warning.png)
 
