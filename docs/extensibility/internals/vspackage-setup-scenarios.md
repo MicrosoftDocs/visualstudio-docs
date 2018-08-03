@@ -25,7 +25,7 @@ The scenarios discussed in this topic are not your only choices, but they are pr
 
 ### Make your components independent
 
-Once you identify and populate a component, assign a `GUID`, and deploy the component, you cannot change its composition. If you do change a component's composition, the resulting component must be a new component with a new `GUID`. Given these facts, the greatest versioning flexibility is afforded by making each component independent, self-reliant unit. For more information about rules governing components, see [Changing the Component Code](http://msdn.microsoft.com/library/aa367849\(VS.85\).aspx) and [What Happens if the Component Rules Are Broken?](http://msdn.microsoft.com/library/aa372795\(VS.85\).aspx).
+Once you identify and populate a component, assign a `GUID`, and deploy the component, you cannot change its composition. If you do change a component's composition, the resulting component must be a new component with a new `GUID`. Given these facts, the greatest versioning flexibility is afforded by making each component independent, self-reliant unit. For more information about rules governing components, see [Changing the Component Code](/windows/desktop/Msi/changing-the-component-code) and [What Happens if the Component Rules Are Broken?](http://msdn.microsoft.com/library/aa372795\(VS.85\).aspx).
 
 ### Do not mix shared and private resources in a component
 
@@ -35,14 +35,14 @@ For example, registry values used to register your VSPackage with the [!INCLUDE[
 
 ## Scenario 1: Shared VSPackage
 
-In this scenario, a shared VSPackage (a single binary that supports multiple versions of Visual Studio is shipped in a Windows Installer package. Registering with each version of Visual Studio is controlled by user-selectable features. It also means that when assigned to separate features, each component can be selected individually for installation or uninstallation, putting the user in control of integrating the VSPackage into different versions of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. (See [Windows Installer Features](http://msdn.microsoft.com/library/aa372840\(VS.85\).aspx) for more information on using features in Windows Installer packages.)
+In this scenario, a shared VSPackage (a single binary that supports multiple versions of Visual Studio is shipped in a Windows Installer package. Registering with each version of Visual Studio is controlled by user-selectable features. It also means that when assigned to separate features, each component can be selected individually for installation or uninstallation, putting the user in control of integrating the VSPackage into different versions of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. (See [Windows Installer Features](/windows/desktop/Msi/windows-installer-features) for more information on using features in Windows Installer packages.)
 
 ![VS Shared VSPackage installer](../../extensibility/internals/media/vs_sharedpackage.gif "VS_SharedPackage")
 
 As shown in the illustration, shared components are made part of the Feat_Common feature, which is always installed. By making the Feat_VS2002 and Feat_VS2003 features visible, users can choose at install-time into which versions of Visual Studio they want the VSPackage to integrate. Users can also use Windows Installer maintenance mode to add or remove features, which in this case adds or removes the VSPackage registration information from different versions of Visual Studio.
 
 > [!NOTE]
-> Setting a feature's Display column to 0 hides it. A low Level column value, such as 1, ensures it will always be installed. For more information, see [INSTALLLEVEL Property](http://msdn.microsoft.com/library/aa369536\(VS.85\).aspx) and [Feature Table](http://msdn.microsoft.com/library/aa368585.aspx).
+> Setting a feature's Display column to 0 hides it. A low Level column value, such as 1, ensures it will always be installed. For more information, see [INSTALLLEVEL Property](/windows/desktop/Msi/installlevel) and [Feature Table](/windows/desktop/Msi/feature-table).
 
 ## Scenario 2: Shared VSPackage Update
 
@@ -53,7 +53,7 @@ In this scenario, an updated version of the VSPackage installer in scenario 1 is
 
 ![VS Shared VS Package Update installer](../../extensibility/internals/media/vs_sharedpackageupdate.gif "VS_SharedPackageUpdate")
 
-This scenario presents a new VSPackage installer, taking advantage of Windows Installer's support for minor upgrades. Users simply install version 1.1 and it upgrades version 1.0. However, it is not necessary to have version 1.0 on the system. The same installer will install version 1.1 on a system without version 1.0. The advantage to provide minor upgrades in this manner is that it is not necessary to go through the work of developing an upgrade installer and a full-product installer. One installer does both jobs. A security fix or service pack might instead take advantage of Windows Installer patches. For more information, see [Patching and Upgrades](http://msdn.microsoft.com/library/aa370579\(VS.85\).aspx).
+This scenario presents a new VSPackage installer, taking advantage of Windows Installer's support for minor upgrades. Users simply install version 1.1 and it upgrades version 1.0. However, it is not necessary to have version 1.0 on the system. The same installer will install version 1.1 on a system without version 1.0. The advantage to provide minor upgrades in this manner is that it is not necessary to go through the work of developing an upgrade installer and a full-product installer. One installer does both jobs. A security fix or service pack might instead take advantage of Windows Installer patches. For more information, see [Patching and Upgrades](/windows/desktop/Msi/patching-and-upgrades).
 
 ## Scenario 3: Side-by-Side VSPackage
 
@@ -75,5 +75,5 @@ For more information on deployment of side-by-side assemblies, see [Simplifying 
 
 ## See Also
 
-[Windows Installer](http://msdn.microsoft.com/library/cc185688\(VS.85\).aspx)  
+[Windows Installer](/windows/desktop/Msi/windows-installer-portal)  
 [Supporting Multiple Versions of Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md)
