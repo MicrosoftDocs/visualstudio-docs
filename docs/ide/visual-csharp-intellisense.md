@@ -35,7 +35,7 @@ The completion list in C# is also smart enough to filter out irrelevant tokens a
 
 ### Code snippets in completion lists
 
-In C#, the completion list includes code snippets to help you easily insert predefined bodies of code into your program. Code snippets appear in the completion list as the snippet's [shortcut text](../ide/code-snippets-schema-reference.md#shortcut). For more information about code snippets that are available in C# by default, see [C# code snippets](../ide/visual-csharp-code-snippets.md).
+In C#, the completion list includes code snippets to help you easily insert predefined bodies of code into your program. Code snippets appear in the completion list as the snippet's [shortcut text](../ide/code-snippets-schema-reference.md#shortcut-element). For more information about code snippets that are available in C# by default, see [C# code snippets](../ide/visual-csharp-code-snippets.md).
 
 ### Language keywords in completion lists
 
