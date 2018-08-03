@@ -187,48 +187,44 @@ The **Debug Interactive** window has its own set of options, which you can acces
 
 ![Debug Interactive Window Options](media/debugging-interactive-options.png)
 
-## Use the experimental debugger
+<a name="use-the-experimental-debugger"></a>
 
-Starting with Visual Studio 2017 Preview 4.0, you can opt into using the "experimental debugger", which is based on ptvsd version 4.1+. To opt in, select the **Tools** > **Options** menu command, then navigate to **Python** > **Experimental** in the Options dialog box and select **Use experimental debugger**.
+## Use the legacy debugger
 
-The experimental debugger is compatible with only limited Python environments, as described in the following table:
+Visual Studio 2017 versions 15.8 and later use a debugger based on ptvsd version 4.1+. This version of ptvsd is compatible with Python 3.7 and Python 3.5 and later. If you're using Python 2.6, 3.1 to 3.4, or IronPython, Visual Studio shows the error, **Debugger does not support this Python environment**:
 
-| Python version | Compatible with the experimental debugger |
-| --- | --- |
-| 2.6 | No |
-| 2.7 | Yes |
-| 3.1 to 3.4 | No |
-| 3.5 and later | Yes |
-| IronPython | No |
+![Debugger does not support this Python environment error when using the debugger](media/debugging-experimental-incompatible-error.png)
 
-If you attempt to use the experimental debugger with an incompatible environment, Visual Studio shows the error, **Debugger is incompatible with this environment**:
+In these cases you must use the older debugger (which is the default in Visual Studio 2017 versions 15.7 and earlier). Select the **Tools** > **Options** menu command, navigate to **Python** > **Debugging**, and select the **Use legacy debugger** option.
 
-![Debugger is incompatible with this environment error when using the experimental debugger](media/debugging-experimental-incompatible-error.png)
+If you've installed an older version of ptvsd in the current environment (such as an earlier 4.0.x version, or a 3.x version required for remote debugging), Visual Studio may show an error or warning.
 
-Select the **Disable the experimental debugger** command, which clears the **Use experimental debugger** option.
+The error, **Debugger package could not be loaded**, appears when you've installed ptvsd 3.x:
 
-> [!Note]
-> The warning is not presently shown for Python 3.3 and 3.4.
+![Debugger package could not be loaded error when using the debugger](media/debugging-experimental-version-error.png)
 
-If you've installed an older version of ptvsd in the current environment (such as an earlier 4.0.x version of a 3.x version required for remote debugging), Visual Studio shows either the error **Debugger package could not be loaded**, or the warning, **Debugger package is outdated**:
+In this case, select **Use the legacy debugger** to set the **Use legacy debugger** option, and restart the debugger.
 
-![Debugger package could not be loaded error when using the experimental debugger](media/debugging-experimental-version-error.png)
+The warning, **Debugger package could not be loaded**, appears when you've installed an earlier 4.0.x version of ptvsd:
 
-![Debugger package is outdated warning when using the experimental debugger](media/debugging-experimental-version-warning.png)
-
-To manage your ptvsd installation, use the  **Packages** tab in the **Python Environments** window, or use the following commands from the command line:
-
-```powershell
-# Uninstalling ptvsd causes VS to default to its bundled 4.1.x version.
-pip uninstall ptvsd
-
-# Upgrading ptvsd gives you the latest version, which may be newer than the bundled version.
-# -pre is required to allow pre-release versions as currently required by the experimental debugger.
-pip install --upgrade ptvsd -pre
-```
+![Debugger package is outdated warning when using the debugger](media/debugging-experimental-version-warning.png)
 
 > [!Important]
 > Although you may choose to ignore the warning for some versions of ptvsd, Visual Studio may not work correctly.
+
+To manage your ptvsd installation:
+
+1. Navigate to the **Packages** tab in the **Python Environments** window.
+
+1. Enter "ptvsd" in the search box and examine the installed version of ptvsd:
+
+    ![Checking the ptvsd version in the Python Environments window](media/debugging-experimental-check-ptvsd.png)
+
+1. If the version is lower than 4.1.1a9 (the version bundled with Visual Studio), select the **X** to the right of the package to uninstall the older version. Visual Studio then uses its bundled version. (You can also uninstall from PowerShell using `pip uninstall ptvsd`.)
+
+1. Alternately, you can update the ptvsd package to its newest version. Enter `ptvsd --upgrade -pre` in the search box, then select **Run command: pip install ptvsd --upgrade -pre**. (You can also use the same command from PowerShell.)
+
+    ![Giving the upgrade command in the Python Environments window](media/debugging-experimental-upgrade-ptvsd.png)
 
 ## See also
 
