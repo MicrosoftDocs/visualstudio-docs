@@ -55,7 +55,7 @@ The code above is almost equivalent to:
 
 except that a failing **PexAssume** results in no test cases. In the case of an **if** statement, IntelliTest generates a separate test case to cover the **then** branch of the **if** statement.
 
-**PexAssume** also contains specialzed nested classes for assumptions on string, arrays, and collections.
+**PexAssume** also contains specialized nested classes for assumptions on string, arrays, and collections.
 
 <a name="pexassert"></a>
 ## PexAssert
