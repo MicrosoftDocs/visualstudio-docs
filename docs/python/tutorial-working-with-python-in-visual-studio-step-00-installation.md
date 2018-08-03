@@ -30,7 +30,7 @@ ms.workload:
 
     ![Python development workload in the Visual Studio installer](media/installation-python-workload.png)
 
-1. To quickly test Python support, launch Visual Studio, press Alt+I to open the Python Interactive window, and enter `2+2`. If you don't see the output of `4`, recheck your steps.
+1. To quickly test Python support, launch Visual Studio, press **Alt**+**I** to open the **Python Interactive** window, and enter `2+2`. If you don't see the output of **4**, recheck your steps.
 
     ![Testing Python through the interactive window](media/installation-interactive-test.png)
 
@@ -41,6 +41,6 @@ ms.workload:
 
 ## See also
 
-- [Manually identifying an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
-- [Install Python support in Visual Studio 2015 and earlier](installing-python-support-in-visual-studio.md).
-- [Install locations](installing-python-support-in-visual-studio.md#install-locations).
+- [Manually identify an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)
+- [Install Python support in Visual Studio 2015 and earlier](installing-python-support-in-visual-studio.md)
+- [Install locations](installing-python-support-in-visual-studio.md#install-locations)

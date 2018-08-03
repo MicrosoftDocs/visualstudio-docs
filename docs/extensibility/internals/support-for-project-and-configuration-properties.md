@@ -7,7 +7,7 @@ ms.technology:
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "project properties, supporting with Visual Studio SDK"
-  - "configuration properties, suppporting with Visual Studio SDK"
+  - "configuration properties, supporting with Visual Studio SDK"
 ms.assetid: 9fcfaa0f-7b41-4b68-82ec-7a151dca5d7e
 author: "gregvanl"
 ms.author: "gregvanl"

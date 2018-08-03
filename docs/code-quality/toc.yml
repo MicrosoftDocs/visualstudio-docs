@@ -28,28 +28,33 @@
   items:
   - name: Code analysis for managed code
     items:
-    - name: Install Roslyn Analyzers
+    - name: Migrate from FxCop
+      href: fxcop-analyzers.yml
+      items:
+      - name: Install FxCop analyzers
+        href: install-fxcop-analyzers.md
+    - name: Install Roslyn analyzers
       href: install-roslyn-analyzers.md
-    - name: Configure and Use Roslyn Analyzers
+    - name: Configure and use Roslyn analyzers
       href: use-roslyn-analyzers.md
-    - name: Enable Automatic Code Analysis
+    - name: Enable automatic code analysis
       href: how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md
-    - name: Enable Full Solution Analysis
+    - name: Enable full solution analysis
       href: how-to-enable-and-disable-full-solution-analysis-for-managed-code.md
     - name: Automatic feature suspension
       href: automatic-feature-suspension.md
-    - name: Run Code Analysis Manually
+    - name: Run code analysis manually
       href: how-to-run-code-analysis-manually-for-managed-code.md
-    - name: Suppress Warnings
+    - name: Suppress warnings
       href: in-source-suppression-overview.md
       items:
-      - name: Suppress Code Analysis Warnings for Generated Code
+      - name: Suppress code analysis warnings for generated code
         href: how-to-suppress-code-analysis-warnings-for-generated-code.md
-    - name: Customize the Code Analysis Dictionary
+    - name: Customize the code analysis dictionary
       href: how-to-customize-the-code-analysis-dictionary.md
-    - name: Anonymous Methods and Code Analysis
+    - name: Anonymous methods and code analysis
       href: anonymous-methods-and-code-analysis.md
-    - name: Create a Work Item for a Managed Code Defect
+    - name: Create a work item for a managed code defect
       href: how-to-create-a-work-item-for-a-managed-code-defect.md
   - name: Code analysis for C/C++
     items:
