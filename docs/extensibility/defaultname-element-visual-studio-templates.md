@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# DefaultName Element (Visual Studio Templates)
+# DefaultName element (Visual Studio templates)
 Specifies the name that the Visual Studio project system will generate for the project or item when it is created.  
   
  \<VSTemplate>  
@@ -31,22 +31,22 @@ Specifies the name that the Visual Studio project system will generate for the p
 </DefaultName>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements  
  None.  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|Required element.<br /><br /> Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.|  
   
-## Text Value  
+## Text value  
  A text value is required.  
   
  This text specifies the default name of the project or item.  
@@ -79,6 +79,6 @@ Specifies the name that the Visual Studio project system will generate for the p
 </VSTemplate>  
 ```  
   
-## See Also  
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
+## See also  
+ [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)   
+ [Creating project and item templates](../ide/creating-project-and-item-templates.md)

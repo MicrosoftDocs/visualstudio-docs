@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# CustomParameters Element (Visual Studio Templates)
+# CustomParameters element (Visual Studio templates)
 Groups the custom parameters that are to be passed to the template wizard when the wizard makes parameter replacements.  
   
 ## Syntax  
@@ -28,19 +28,19 @@ Groups the custom parameters that are to be passed to the template wizard when t
 </CustomParameters>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |[CustomParameter](../extensibility/customparameter-element-visual-studio-templates.md)|Optional element.<br /><br /> Contains a custom parameter name and value to use when a project or item is created from the template. There may be zero or more `CustomParameter` elements in a `CustomParameters` element.|  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
@@ -58,7 +58,7 @@ Groups the custom parameters that are to be passed to the template wizard when t
 </CustomParameters>  
 ```  
   
-## See Also  
- [CustomParameter Element (Visual Studio Templates)](../extensibility/customparameter-element-visual-studio-templates.md)   
- [Template Parameters](../ide/template-parameters.md)   
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
+## See also  
+ [CustomParameter element (Visual Studio templates)](../extensibility/customparameter-element-visual-studio-templates.md)   
+ [Template parameters](../ide/template-parameters.md)   
+ [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)

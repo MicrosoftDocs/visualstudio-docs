@@ -15,13 +15,13 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Font and Color Overview
+# Font and color overview
 This topic discusses text font and color settings in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). It also introduces the concepts of Categories and Display Items, and it describes how VSPackages and the core editor use text attributes.  
   
-## The Fonts and Colors Property Page  
+## The Fonts and Colors Property page  
  You can manage attributes of displayed text in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) through the **Fonts and Colors** property page. To find the **Fonts and Colors** property page, on the **Tools** menu, click **Options**. Expand **Environment**, and then click **Fonts and Colors**.  
   
-## Categories and Display Items  
+## Categories and display items  
  Fonts and colors are organized into **Categories** and **Display Items**.  
   
 -   A **Category** is a logical or functional container for a number of **Display Items**.  
@@ -32,7 +32,7 @@ This topic discusses text font and color settings in the [!INCLUDE[vsprvs](../co
   
  Each **Display Item** is uniquely defined within the **Category** that contains it. Consequently, more than one **Category** can have a **Display Item** with the same name.  
   
-## VSPackage Control of Fonts and Colors  
+## VSPackage control of fonts and colors  
  The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] allows VSPackages to:  
   
 -   Define font and color **Categories**.  
@@ -53,7 +53,7 @@ This topic discusses text font and color settings in the [!INCLUDE[vsprvs](../co
   
 -   A more general alternative supports all other **Categories** and user interface components other than the source editor when displaying text. For more information, see <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider>.  
   
-## Core Editor Text Settings  
+## Core editor text settings  
  Font and color settings for the core editor of a language service object are governed by the **Text EditorCategory** found in the **Show settings for** drop-down box of the **Fonts and Colors** property page.  
   
  When working with editors, you should use the specialized font and color control mechanism that the language service provides to control and extend the **Text Editor** settings. The mechanism is referred to as *syntax coloring* and provides:  
@@ -68,12 +68,12 @@ This topic discusses text font and color settings in the [!INCLUDE[vsprvs](../co
   
 -   The ability to both use built-in display items from the **Text EditorCategory** and to extend them.  
   
-     For more information, see [How to: Use Built-In Colorable Items](../extensibility/internals/how-to-use-built-in-colorable-items.md) and [Custom Colorable Items](../extensibility/internals/custom-colorable-items.md).  
+     For more information, see [How to: Use built-in colorable items](../extensibility/internals/how-to-use-built-in-colorable-items.md) and [Custom colorable items](../extensibility/internals/custom-colorable-items.md).  
   
 -   Automatic persistence of the current state of both built-in and custom display items with the **Text Editor** category.  
   
- For more information on syntax coloring see [Syntax Coloring in a Legacy Language Service](../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md).  
+ For more information on syntax coloring see [Syntax coloring in a legacy language service](../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md).  
   
-## See Also  
- [Legacy Interfaces in the Editor](../extensibility/legacy-interfaces-in-the-editor.md)   
- [Syntax Coloring in a Legacy Language Service](../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)
+## See also  
+ [Legacy interfaces in the editor](../extensibility/legacy-interfaces-in-the-editor.md)   
+ [Syntax coloring in a legacy language service](../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)
