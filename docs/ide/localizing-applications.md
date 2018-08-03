@@ -43,7 +43,7 @@ ms.workload:
  Provides links to pages about creating Windows applications that support multiple cultures.
 
  [Globalization and Localization](http://msdn.microsoft.com/Library/8ef3838e-9d05-4236-9dd0-ceecff9df80d)
- Provides links to pages about creating Web applications that support multiple cultures.
+ Provides links to pages about creating web applications that support multiple cultures.
 
  [Best Practices for Developing World-Ready Applications](http://msdn.microsoft.com/Library/f08169c7-aad8-4ec3-9a21-9ebd3b89986c)
  Provides information on programming for an international audience, such as design issues and terminology.

@@ -23,9 +23,9 @@ ms.technology: vs-ide-modeling
 
 You can visualize dependencies across your code by creating a code map. Code maps help you see how the code fits together without reading through files and lines of code.
 
-![View dependencies across your solutions](../modeling/media/codemapsmainintro.png)
+![View dependencies with code maps in Visual Studio](../modeling/media/codemapsmainintro.png)
 
-To use code maps, you need Visual Studio Enterprise or Professional edition. The code map functionality in Professional edition is slightly more limited than in Enterprise edition.
+To create and edit code maps, you need Visual Studio Enterprise edition. In Visual Studio Community and Professional editions, you can open diagrams that were generated in Enterprise edition, but you cannot edit them.
 
 > [!NOTE]
 > Before you share maps created in Visual Studio Enterprise with others who use Visual Studio Professional, make sure that all the items on the map (such as hidden items, expanded groups, and cross-group links) are visible.

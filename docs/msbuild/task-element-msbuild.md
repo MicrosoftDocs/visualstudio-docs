@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Task Element (MSBuild)
+# Task element (MSBuild)
 Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] task. The element name is determined by the name of the task being created.  
 
  \<Project>  
@@ -35,7 +35,7 @@ Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/
 </Task>  
 ```  
 
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
 
 ### Attributes  
@@ -43,16 +43,16 @@ Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/
 |Attribute|Description|  
 |---------------|-----------------|  
 |`Condition`|Optional attribute. Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|  
-|`ContinueOnError`|Optional attribute. Can contain one of the following values:<br /><br /> -   **WarnAndContinue** or **true**. When a task fails, subsequent tasks in the [Target](../msbuild/target-element-msbuild.md) element and the build continue to execute, and all errors from the task are treated as warnings.<br />-   **ErrorAndContinue**. When a task fails, subsequent tasks in the `Target` element and the build continue to execute, and all errors from the task are treated as errors.<br />-   **ErrorAndStop** or **false** (default). When a task fails, the remaining tasks in the `Target` element and the build aren't executed, and the entire `Target` element and the build is considered to have failed.<br /><br /> Versions of the .NET Framework before 4.5 supported only the `true` and `false` values.<br /><br /> For more information, see [How to: Ignore Errors in Tasks](../msbuild/how-to-ignore-errors-in-tasks.md).|  
+|`ContinueOnError`|Optional attribute. Can contain one of the following values:<br /><br /> -   **WarnAndContinue** or **true**. When a task fails, subsequent tasks in the [Target](../msbuild/target-element-msbuild.md) element and the build continue to execute, and all errors from the task are treated as warnings.<br />-   **ErrorAndContinue**. When a task fails, subsequent tasks in the `Target` element and the build continue to execute, and all errors from the task are treated as errors.<br />-   **ErrorAndStop** or **false** (default). When a task fails, the remaining tasks in the `Target` element and the build aren't executed, and the entire `Target` element and the build is considered to have failed.<br /><br /> Versions of the .NET Framework before 4.5 supported only the `true` and `false` values.<br /><br /> For more information, see [How to: Ignore errors in tasks](../msbuild/how-to-ignore-errors-in-tasks.md).|  
 |`Parameter`|Required if the task class contains one or more properties labeled with the `[Required]` attribute.<br /><br /> A user-defined task parameter that contains the parameter value as its value. There can be any number of parameters in the `Task` element, with each attribute mapping to a .NET property in the task class.|  
 
-### Child Elements  
+### Child elements  
 
 |Element|Description|  
 |-------------|-----------------|  
 |[Output](../msbuild/output-element-msbuild.md)|Stores outputs from the task in the project file. There may be zero or more `Output` elements in a task.|  
 
-### Parent Elements  
+### Parent elements  
 
 |Element|Description|  
 |-------------|-----------------|  
@@ -80,7 +80,7 @@ Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/
 </Target>  
 ```  
 
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)   
+ [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

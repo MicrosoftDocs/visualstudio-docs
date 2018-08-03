@@ -44,7 +44,7 @@ A blank **Value** indicates that the specific visualizer cannot recognize the st
 
 ### View JSON string data
 
-A well-formed JSON string will appear similar to the following illustration in the JSON visualizer. Malformed JSON may display an error icon (or blank if unrecognized).
+A well-formed JSON string will appear similar to the following illustration in the JSON visualizer. Malformed JSON may display an error icon (or blank if unrecognized). If you see an error icon, copy and paste the JSON string into a JSON linting tool such as [JSLint](https://www.jslint.com/) to identify the JSON error.
 
 ![JSON String Visualizer](../debugger/media/dbg-tips-string-visualizer-json.png "JSON String Visualizer")
 

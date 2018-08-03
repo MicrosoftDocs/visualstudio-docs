@@ -21,18 +21,18 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Create a Product Manifest
+# How to: Create a product manifest
 To deploy prerequisites for your application, you can create a bootstrapper package. A bootstrapper package contains a single product manifest file but a package manifest for each locale. The package manifest contains localization-specific aspects of your package. This includes strings, end-user license agreements, and the language packs.  
   
- For more information about product manifests, see [How to: Create a Package Manifest](../deployment/how-to-create-a-package-manifest.md).  
+ For more information about product manifests, see [How to: Create a package manifest](../deployment/how-to-create-a-package-manifest.md).  
   
-## Creating the Product Manifest  
+## Create the product manifest  
   
 #### To create the product manifest  
   
 1.  Create a directory for the bootstrapper package. This example uses C:\package.  
   
-2.  In Visual Studio, create a new XML file called `product.xml`, and save it to the C:\package folder.  
+2.  In Visual Studio, create a new XML file called *product.xml*, and save it to the *C:\package* folder.  
   
 3.  Add the following XML to describe the XML namespace and product code for the package. Replace the product code with a unique identifier for the package.  
   
@@ -50,7 +50,7 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
       </RelatedProducts>  
     ```  
   
-5.  Add XML to list all the files that are in the bootstrapper package. This example uses the package file name CorePackage.msi.  
+5.  Add XML to list all the files that are in the bootstrapper package. This example uses the package file name *CorePackage.msi*.  
   
     ```xml  
     <PackageFiles>  
@@ -58,9 +58,9 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
     </PackageFiles>  
     ```  
   
-6.  Copy or move the CorePackage.msi file to the C:\package folder.  
+6.  Copy or move the *CorePackage.msi* file to the *C:\package* folder.  
   
-7.  Add XML to install the package by using bootstrapper commands. The bootstrapper automatically adds the **/qn** flag to the .msi file, which will install silently. If the file is an .exe, the bootstrapper runs the .exe file by using the shell. The following XML shows no arguments to CorePackage.msi, but you can put command line argument into the Arguments attribute.  
+7.  Add XML to install the package by using bootstrapper commands. The bootstrapper automatically adds the **/qn** flag to the *.msi* file, which will install silently. If the file is an *.exe*, the bootstrapper runs the *.exe* file by using the shell. The following XML shows no arguments to *CorePackage.msi*, but you can put command line argument into the `Arguments` attribute.  
   
     ```xml  
     <Commands>  
@@ -108,7 +108,7 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
     </Commands>  
     ```  
   
-12. Move the C:\package folder to the Visual Studio bootstrapper directory. For Visual Studio 2010, this is the \Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages directory.  
+12. Move the *C:\package* folder to the Visual Studio bootstrapper directory. For Visual Studio 2010, this is the *\Program Files\Microsoft SDKs\Windows\v7.0A\Bootstrapper\Packages* directory.  
   
 ## Example  
  The product manifest contains installation instructions for custom prerequisites.  
@@ -154,5 +154,5 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
 </Product>  
 ```  
   
-## See Also  
- [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)
+## See also  
+ [Product and package schema reference](../deployment/product-and-package-schema-reference.md)

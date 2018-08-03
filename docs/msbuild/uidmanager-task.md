@@ -22,10 +22,10 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# UidManager Task
+# UidManager task
 The <xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or removes unique identifiers (UIDs), in order to localize all [!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] elements that are included in the source [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files.  
   
-## Task Parameters  
+## Task parameters  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -50,10 +50,10 @@ The <xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or rem
 </Project>  
 ```  
   
-## See Also  
- [WPF MSBuild Reference](../msbuild/wpf-msbuild-reference.md)   
- [Task Reference](../msbuild/wpf-msbuild-task-reference.md)   
- [MSBuild Reference](../msbuild/msbuild-reference.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Building a WPF Application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)   
- [How to: Localize an Application](/dotnet/framework/wpf/advanced/how-to-localize-an-application)
+## See also  
+ [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)   
+ [Task reference](../msbuild/wpf-msbuild-task-reference.md)   
+ [MSBuild reference](../msbuild/msbuild-reference.md)   
+ [Task reference](../msbuild/msbuild-task-reference.md)   
+ [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf)   
+ [How to: Localize an application](/dotnet/framework/wpf/advanced/how-to-localize-an-application)

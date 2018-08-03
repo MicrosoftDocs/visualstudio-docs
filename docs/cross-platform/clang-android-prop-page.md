@@ -45,7 +45,7 @@ ms.workload:
   - "xplat-cplusplus"
 ---
 
-# Clang Project Properties (Android C++)
+# Clang project properties (Android C++)
 
 Property | Description | Choices
 --- | ---| ---

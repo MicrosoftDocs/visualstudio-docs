@@ -25,7 +25,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Security, Versioning, and Manifest Issues in ClickOnce Deployments
+# Security, versioning, and manifest issues in ClickOnce deployments
 
 There are a variety of issues with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] security, application versioning, and manifest syntax and semantics that can cause a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment not to succeed.
 
@@ -37,15 +37,15 @@ Due to the risk of exposing applications to security elevation attacks, [!INCLUD
 
 In some cases, your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application may attempt to run with administrator permissions because of installer detection logic on [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)]. In this case, you can set the `requestedExecutionLevel` attribute in the application manifest to `asInvoker`. This will cause the application itself to run without elevation. [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)] automatically adds this attribute to all application manifests.
 
-If you are developing an application that requires administrator permissions for the entire lifetime of the application, you should consider deploying the application by using Windows Installer (MSI) technology instead. For more information, see [Windows Installer Basics](../extensibility/internals/windows-installer-basics.md).
+If you are developing an application that requires administrator permissions for the entire lifetime of the application, you should consider deploying the application by using Windows Installer (MSI) technology instead. For more information, see [Windows Installer basics](../extensibility/internals/windows-installer-basics.md).
 
-## Online Application Quotas and Partial Trust Applications
+## Online application quotas and partial trust applications
 
 If your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application runs online instead of through an installation, it must fit within the quota set aside for online applications. Also, a network application that runs in partial trust, such as with a restricted set of security permissions, cannot be larger than half of the quota size.
 
-For more information, and instructions about how to change the online application quota, see [ClickOnce Cache Overview](../deployment/clickonce-cache-overview.md).
+For more information, and instructions about how to change the online application quota, see [ClickOnce cache overview](../deployment/clickonce-cache-overview.md).
 
-## Versioning Issues
+## Versioning issues
 
 You may experience problems if you assign strong names to your assembly and increment the assembly version number to reflect an application update. Any assembly compiled with a reference to a strong-named assembly must itself be recompiled, or the assembly will try to reference the older version. The assembly will try this because the assembly is using the old version value in its bind request.
 
@@ -53,11 +53,11 @@ For example, say that you have a strong-named assembly in its own project with v
 
 This error can occur only if you are editing your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests manually; you should not experience this error if you generate your deployment using Visual Studio.
 
-## Specifying Individual .NET Framework Assemblies in the Manifest
+## Specify individual .NET Framework assemblies in the manifest
 
 Your application will fail to load if you have manually edited a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment to reference an older version of a [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] assembly. For example, if you added a reference to the System.Net assembly for a version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] prior to the version specified in the manifest, then an error would occur. In general, you should not attempt to specify references to individual [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] assemblies, as the version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] against which your application runs is specified as a dependency in the application manifest.
 
-## Manifest Parsing Issues
+## Manifest parsing issues
 
 The manifest files that are used by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] are XML files, and they must be both well-formed and valid: they must obey the XML syntax rules and only use elements and attributes defined in the relevant XML schema.
 
@@ -67,15 +67,15 @@ If you have manually edited your deployment or application manifests, you may ha
 
 - A description of the syntax error, and the line number and character position where the error occurred.
 
-- The name of an element or attribute used in violation of the manifest's schema. If you have added XML manually to your manifests, you will have to compare your additions to the manifest schemas. For more information, see [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md) and [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md).
+- The name of an element or attribute used in violation of the manifest's schema. If you have added XML manually to your manifests, you will have to compare your additions to the manifest schemas. For more information, see [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md) and [ClickOnce application manifest](../deployment/clickonce-application-manifest.md).
 
 - An ID conflict. Dependency references in deployment and application manifests must be unique in both their `name` and `publicKeyToken` attributes. If both attributes match between any two elements within a manifest, manifest parsing will not succeed.
 
-## Precautions When Manually Changing Manifests or Applications
+## Precautions when manually changing manifests or applications
 
 When you update an application manifest, you must re-sign both the application manifest and the deployment manifest. The deployment manifest contains a reference to the application manifest that includes that file's hash and its digital signature.
 
-### Precautions with Deployment Provider Usage
+### Precautions with deployment provider usage
 
 The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest has a `deploymentProvider` property which points to the full path of the location from where the application should be installed and serviced:
 
@@ -90,8 +90,8 @@ If you want to move or copy an application, you must also update the `deployment
 > [!NOTE]
 > Every time that you update the manifest you must also sign it again.
 
-## See Also
+## See also
 
-[Troubleshooting ClickOnce Deployments](../deployment/troubleshooting-clickonce-deployments.md)  
-[Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)  
-[Choosing a ClickOnce Deployment Strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
+[Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)  
+[Securw ClickOnce applications](../deployment/securing-clickonce-applications.md)  
+[Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)

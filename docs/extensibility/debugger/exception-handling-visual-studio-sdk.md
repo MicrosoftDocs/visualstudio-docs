@@ -14,10 +14,10 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Exception Handling (Visual Studio SDK)
+# Exception handling (Visual Studio SDK)
 The following describes the process that occurs when exceptions are thrown.  
   
-## Exception Handling Process  
+## Exception handling process  
   
 1.  When an exception is first thrown, but before it is handled by the exception handler in the program being debugged, the debug engine (DE) sends an [IDebugExceptionEvent2](../../extensibility/debugger/reference/idebugexceptionevent2.md) to the session debug manager (SDM) as a stopping event. The `IDebugExceptionEvent2` is sent if only the settings for the exception (specified in the Exceptions dialog box in the debug package) specify that the user wants to stop on first-chance exception notifications.  
   
@@ -45,5 +45,5 @@ The following describes the process that occurs when exceptions are thrown.
   
 10. If the method returns S_OK, calls `IDebugExceptionEvent2::PassToDebuggee`.  
   
-## See Also  
- [Calling Debugger Events](../../extensibility/debugger/calling-debugger-events.md)
+## See also  
+ [Call debugger events](../../extensibility/debugger/calling-debugger-events.md)

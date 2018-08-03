@@ -122,7 +122,7 @@ implement a specific interface and behave in different
 ways depending on usage.
 
 <a name="existing-classes"></a>
-## Instantiating existing classes
+## Instantiate existing classes
 
 **What's the problem?**
 
@@ -215,7 +215,7 @@ behavior, but this behavior must still be manually defined.
 Instead of hard-coded values in mock objects, 
 IntelliTest can generate the values. Just as 
 it enables [parameterized unit testing](test-generation.md#parameterized-unit-testing), 
-IntelliTest  also enables parameterized mMocks.
+IntelliTest  also enables parameterized mocks.
 
 Parameterized mocks have two different execution modes:
 
@@ -254,7 +254,7 @@ arrays and strings required to trigger interesting
 program behaviors.
 
 <a name="additional-inputs"></a>
-## Obtaining additional inputs
+## Obtain additional inputs
 
 The [PexChoose](static-helper-classes.md#pexchoose) static class can be used to obtain additional inputs to a test, and can be used to implement [parameterized mocks](#parameterized-mocks).
 

@@ -18,7 +18,7 @@ Run settings files are optional. If you don't require any special configuration,
 
 ## Specify a run settings file
 
-Run settings files can be used to configure tests that are run from the command line, in the IDE, or in a [build workflow](/vsts/pipelines/test/getting-started-with-continuous-testing?view=vsts) using Visual Studio Team Services (VSTS) or Team Foundation Server (TFS).
+Run settings files can be used to configure tests that are run from the [command line](vstest-console-options.md), in the IDE, or in a [build workflow](/vsts/pipelines/test/getting-started-with-continuous-testing?view=vsts) using Visual Studio Team Services (VSTS) or Team Foundation Server (TFS).
 
 ### Specify a run settings file in the IDE
 
@@ -39,6 +39,8 @@ To run tests from the command line, use *vstest.console.exe* and specify the set
    ```cmd
    vstest.console.exe MyTestAssembly.dll /EnableCodeCoverage /Settings:CodeCoverage.runsettings
    ```
+
+For more information, see [VSTest.Console.exe command-line options](vstest-console-options.md).
 
 ## Customize tests
 

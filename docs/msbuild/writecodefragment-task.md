@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# WriteCodeFragment Task
+# WriteCodeFragment task
 Generates a temporary code file from the specified generated code fragment. Does not delete the file.  
   
 ## Parameters  
@@ -33,8 +33,8 @@ Generates a temporary code file from the specified generated code fragment. Does
 |`OutputFile`|Optional <xref:Microsoft.Build.Framework.ITaskItem> output parameter.<br /><br /> Specifies the path of the file that was generated. If this parameter is set by using a file name, the destination folder is prepended to the file name. If it is set by using a root, the destination folder is ignored.<br /><br /> If this parameter is not set, the output file name is the destination folder, an arbitrary file name, and the default file name extension for the specified language.|  
   
 ## Remarks  
- In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
+ In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)

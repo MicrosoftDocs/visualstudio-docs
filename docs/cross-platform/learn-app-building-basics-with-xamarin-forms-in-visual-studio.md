@@ -4,6 +4,7 @@ ms.custom: ""
 ms.date: "03/30/2018"
 ms.topic: "conceptual"
 ms.assetid: d22b5186-9e03-4e85-afc9-7cbe28522a6d
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-mobile
 author: charlespetzold
 ms.author: chape
@@ -48,11 +49,11 @@ These steps create a Xamarin.Forms solution that contains a .NET Standard class 
 
     If the template is not there, you might have to install Xamarin or enable the Visual Studio 2017 feature. See [Setup and install](../cross-platform/setup-and-install.md).
 
-2.  After clicking OK, you'll have the opportunity to select some options. Pick **Blank App** and **.NET Standard**:
+2.  After clicking **OK**, you'll have the opportunity to select some options. Pick **Blank App** and **.NET Standard**:
 
     ![Creating a new Cross Platform App project](../cross-platform/media/crossplat-xamarin-formsguide-3.png "CrossPlat Xamarin FormsGuide 3")
 
-3.  After clicking OK to create the solution, you'll have a solution with four projects:
+3.  After clicking **OK** to create the solution, you'll have a solution with four projects:
 
     -   **WeatherApp**: the .NET Standard library where you'll write code that is shared across platforms, including common business logic and UI code using Xamarin.Forms.
 
@@ -111,7 +112,7 @@ The following steps then add code to the .NET Standard library to access and sto
 
 1.  Right-click the **WeatherApp** project and select **Add > Class...**. In the **Add New Item** dialog, name the file **Weather.cs**. You'll use this class to store data from the weather data service.
 
-2.  Replace the entire contents of **Weather.cs** with the following code:
+2.  Replace the entire contents of *Weather.cs* with the following code:
 
     ```csharp
     namespace WeatherApp
@@ -267,7 +268,7 @@ Xamarin.Forms lets you implement shared UI code in the .NET Standard library. In
     }
     ```
 
-4.  To open **WeatherPage** as the first screen when the app launches, replace the default constructor in **App.xaml.cs** with the following code:
+4.  To open **WeatherPage** as the first screen when the app launches, replace the default constructor in *App.xaml.cs* with the following code:
 
     ```csharp
     public App()
@@ -399,7 +400,7 @@ Xamarin.Forms renders native UI controls for each platform so that your app auto
 
      Although not shown here, you can use the `OnPlatform` tag in XAML files to select a property value that's specific to the current platform on which the app is running (see [Essential XAML Syntax](/xamarin/xamarin-forms/xaml/xaml-basics/essential-xaml-syntax/).) In the code-behind file, you can determine what platform the application is running on by comparing the [`Device.RuntimePlatform`](https://developer.xamarin.com/api/property/Xamarin.Forms.Device.RuntimePlatform/) property with constants defined in the [`Device`](https://developer.xamarin.com/api/type/Xamarin.Forms.Device/) class named [`Device.iOS`](https://developer.xamarin.com/api/field/Xamarin.Forms.Device.iOS/), [`Device.Android`](https://developer.xamarin.com/api/field/Xamarin.Forms.Device.Android/), and [`Device.UWP`](https://developer.xamarin.com/api/field/Xamarin.Forms.Device.UWP/).
 
-2.  In **WeatherPage.xaml.cs**, replace the `GetWeatherBtn_Clicked` event handler with the code below. This code verifies that there's a zip code in the entry field and retrieves data for that zip code. It then sets the whole page's binding context to the resulting `Weather` instance. The code concludes by setting the button text to "Search Again." Each label in the UI binds to a property of the `Weather` class. When you set the screen's binding context to a `Weather` instance, those labels update automatically.
+2.  In *WeatherPage.xaml.cs*, replace the `GetWeatherBtn_Clicked` event handler with the code below. This code verifies that there's a zip code in the entry field and retrieves data for that zip code. It then sets the whole page's binding context to the resulting `Weather` instance. The code concludes by setting the button text to "Search Again." Each label in the UI binds to a property of the `Weather` class. When you set the screen's binding context to a `Weather` instance, those labels update automatically.
 
     ```csharp
     private async void GetWeatherBtn_Clicked(object sender, EventArgs e)
