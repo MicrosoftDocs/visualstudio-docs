@@ -56,11 +56,11 @@ sections:
         image:
           src: https://docs.microsoft.com/media/common/i_learn-about.svg
         title: What's different?
-      - href: install-roslyn-analyzers.md#to-install-nuget-analyzer-packages
-        html: <p>Learn how to install analyzer packages using Nuget.</p>
+      - href: install-fxcop-analyzers.md
+        html: <p>Learn how to install the FxCop analyzer package.</p>
         image:
           src: https://docs.microsoft.com/media/common/i_setup.svg
-        title: Install analyzers
+        title: Install FxCop analyzers
       - href: use-roslyn-analyzers.md#command-line-usage
         html: <p>If you typically run code analysis from the command line, learn how to use analyzers from the command line.</p>
         image:
