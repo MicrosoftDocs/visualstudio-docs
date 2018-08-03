@@ -55,7 +55,7 @@ In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and M
 
      Replace "MyDiagramClass" with the name of the diagram partial class that is defined in Dsl\GeneratedCode\Diagrams.cs. You can also retrieve the correct namespace from the file Dsl\GeneratedCode\Diagrams.cs.
 
-    ```
+    ```csharp
     using System;
     using Microsoft.VisualStudio.Modeling.Diagrams;
 
