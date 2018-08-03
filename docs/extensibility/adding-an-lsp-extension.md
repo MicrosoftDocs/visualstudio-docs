@@ -106,26 +106,6 @@ Next create a new blank VSIXProject by navigating to **File** > **New Project** 
 
 ![create vsix project](media/lsp-vsix-project.png)
 
-For the preview release, VS support for the LSP will be in the form of a VSIX ([Microsoft.VisualStudio.LanguageServer.Client.Preview](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview)). Extension developers who wish to create an extension using LSP language servers must take a dependency on this VSIX. Therefore, customers wishing to install a language server extension **must first install the Language Server Protocol Client Preview VSIX.**
-
-To define the VSIX dependency, open the VSIX manifest designer for your VSIX (by double-clicking the *source.extension.vsixmanifest* file in your project) and navigate to **Dependencies**:
-
-![add reference to language server protocol client](media/lsp-reference-lsp-dependency.png)
-
-Create a new dependency like the following:
-
-![define language server protocol client dependency](media/lsp-define-lsp-dependency.png)
-
-* **Source**: Defined manually
-* **Name**: Language Server Protocol Client Preview
-* **Identifier**: Microsoft.VisualStudio.LanguageServer.Client.Preview
-* **Version Range**: [1.0,2.0)
-* **How is dependency resolved**: Installed by User
-* **Download URL**: [https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview](https://marketplace.visualstudio.com/items?itemName=vsext.LanguageServerClientPreview)
-
-> [!NOTE]
-> The **Download URL** must be filled in so users installing your extension know how to install the required dependency.
-
 ### Language server and runtime installation
 
 By default, the extensions created to support LSP-based language servers in Visual Studio will not contain the language servers themselves or the runtimes needed to execute them. Extension developers are responsible for distributing the language servers and the runtimes needed. There are several ways to do so:
