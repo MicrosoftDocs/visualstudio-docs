@@ -92,7 +92,7 @@ You can extend your domain-specific language (DSL) by using Managed Extensibilit
 
 3.  Add the following line to the existing file that is named **DslPackage\Commands.vsct**:
 
-    ```
+    ```xml
     <Include href="MefExtension\CommandExtensionVSCT.vsct"/>
     ```
 
@@ -171,7 +171,7 @@ You can extend your domain-specific language (DSL) by using Managed Extensibilit
 
  `QueryStatus()` is called whenever the user right-clicks the diagram. It should inspect the current selection and set `command.Enabled` to indicate when the command is applicable.
 
-```
+```csharp
 using System.ComponentModel.Composition;
 using System.Linq;
 using Company.MyDsl; // My DSL
@@ -241,7 +241,7 @@ namespace MyMefExtension
 
  You can write handlers to deal with drags from other DSL models and UML models. For more information, see [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md).
 
-```
+```csharp
 
 using System.ComponentModel.Composition;
 using System.Linq;
@@ -318,7 +318,7 @@ namespace MefExtension
 
  For more information, see [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md).
 
-```
+```csharp
 using Company.MyDsl;
 using Company.MyDsl.ExtensionEnablement;
 using Microsoft.VisualStudio.Modeling.Validation;

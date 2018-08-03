@@ -41,7 +41,7 @@ You can embed a DSL diagram in a Windows Control, which appears in the [!INCLUDE
 
 4.  Add a new file to the DslPackage project, with the following content:
 
-    ```
+    ```csharp
     using System.Windows.Forms;
     namespace Company.MyDSL
     {
@@ -71,7 +71,7 @@ You can embed a DSL diagram in a Windows Control, which appears in the [!INCLUDE
 
 2.  In the custom code file, override further methods to the DocView class:
 
-    ```
+    ```csharp
 
     partial class MyDSLDocView
     {
@@ -114,7 +114,7 @@ You can embed a DSL diagram in a Windows Control, which appears in the [!INCLUDE
 
 3.  In the code behind the user control, insert methods to listen for elements added and removed:
 
-    ```
+    ```csharp
 
           public partial class UserControl1 : UserControl { ...
 

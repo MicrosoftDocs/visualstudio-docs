@@ -89,7 +89,7 @@ using System.Linq;
 
 2.  You can now define a gesture handler as a MEF component:
 
-    ```
+    ```csharp
 
     // This attribute is defined in the generated file
     // DslPackage\MefExtension\DesignerExtensionMetaDataAttribute.cs:
@@ -172,7 +172,7 @@ using System.Linq;
 
 1.  In your ElementOperations subclass, override `Copy()` so that it encodes a Model Bus Reference (MBR) into the IDataObject. This method will be called when the user starts to drag from the source diagram. The encoded MBR will then be available in the IDataObject when the user drops in the target diagram.
 
-    ```
+    ```csharp
 
     using Microsoft.VisualStudio.Modeling;
     using Microsoft.VisualStudio.Modeling.Shell;
@@ -233,7 +233,7 @@ using System.Linq;
 
 3.  The following sample illustrates how to get access to the source model element:
 
-    ```
+    ```csharp
     partial class MyTargetShape // or diagram or connector
     {
       internal void ProcessDragDropItem(DiagramDragEventArgs diagramDragEventArgs)
