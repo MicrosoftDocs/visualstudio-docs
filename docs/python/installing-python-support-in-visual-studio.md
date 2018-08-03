@@ -87,7 +87,7 @@ If you encounter problems installing or running Python in Visual Studio, try the
 
 1. In the installer, select **Modify**.
 
-1. Select **Programming Languages > Python Tools for Visual Studio** and then **Next**:
+1. Select **Programming Languages** > **Python Tools for Visual Studio** and then **Next**:
 
     ![PTVS option in Visual Studio 2015 installer](media/installation-vs2015.png)
 
