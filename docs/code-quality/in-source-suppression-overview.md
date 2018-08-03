@@ -1,5 +1,5 @@
 ---
-title: Suppress code analysis warnings in Visual Studio
+title: Suppress code analysis warnings
 ms.date: 08/03/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
@@ -21,7 +21,7 @@ ms.workload:
 
 It is often useful to indicate that a warning is not applicable. This indicates to team members that the code was reviewed, and that the warning can be suppressed. In-source suppression (ISS) uses the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to suppress a warning. The attribute can be placed close to the code segment that generated the warning. You can add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the source file by typing it in, or you can use the shortcut menu on a warning in the **Error List** to add it automatically.
 
-The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is a conditional attribute which is included in the IL metadata of your managed code assembly, only if the CODE_ANALYSIS compilation symbol is defined at compile time.
+The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is a conditional attribute, which is included in the IL metadata of your managed code assembly, only if the CODE_ANALYSIS compilation symbol is defined at compile time.
 
 In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE in the header file to add the attribute.
 
@@ -53,13 +53,13 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
 
 The properties of the attribute include:
 
-- **Rule Category** - The category in which the rule is defined. For more information about code analysis rule categories, see [Managed code warnings](../code-quality/code-analysis-for-managed-code-warnings.md).
+- **Category** - The category in which the rule is defined. For more information about code analysis rule categories, see [Managed code warnings](../code-quality/code-analysis-for-managed-code-warnings.md).
 
-- **Rule Id** - The identifier of the rule. Support includes both a short and long name for the rule identifier. The short name is CAXXXX; the long name is CAXXXX:FriendlyTypeName.
+- **CheckId** - The identifier of the rule. Support includes both a short and long name for the rule identifier. The short name is CAXXXX; the long name is CAXXXX:FriendlyTypeName.
 
 - **Justification** - The text that is used to document the reason for suppressing the message.
 
-- **Message Id** - Unique identifier of a problem for each message.
+- **MessageId** - Unique identifier of a problem for each message.
 
 - **Scope** - The target on which the warning is being suppressed. If the target is not specified, it is set to the target of the attribute. Supported scopes include the following:
 
