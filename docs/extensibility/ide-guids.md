@@ -18,7 +18,7 @@ ms.workload:
 
 The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some parts of the integrated development environment (IDE) as listed in the table below.
 
-## Core Systems
+## Core systems
 
 |Constant|GUID|
 |--------------|----------|
@@ -33,7 +33,7 @@ The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some part
 |<xref:Microsoft.VisualStudio.VSConstants.GUID_TextEditorFactory>|8B382828-6202-11d1-8870-0000F87579D2|
 |<xref:Microsoft.VisualStudio.VSConstants.GUID_VsNewProjectPseudoFolder>|DCF2A94A-45B0-11d1-ADBF-00C04FB6BE4C|
 
-## Broadly Visible Components
+## Broadly visible components
 
 |Constant|GUID|
 |--------------|----------|
@@ -43,7 +43,7 @@ The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some part
 |<xref:Microsoft.VisualStudio.VSConstants.SID_SUIHostCommandDispatcher>|e69cd190-1276-11d1-9f64-00a0c911004f|
 |<xref:Microsoft.VisualStudio.VSConstants.SID_SVsGeneralOutputWindowPane>|65482c72-defa-41b7-902c-11c091889c83|
 
-## Files, Virtual and Physical Folders and SubProjects
+## Files, virtual and physical folders and subProjects
 
 |Constant|GUID|
 |--------------|----------|
@@ -52,7 +52,7 @@ The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some part
 |<xref:Microsoft.VisualStudio.VSConstants.GUID_ItemType_SubProject>|EA6618E8-6E24-4528-94BE-6889FE16485C|
 |<xref:Microsoft.VisualStudio.VSConstants.GUID_ItemType_VirtualFolder>|6bb5f8f0-4483-11d3-8bcf-00c04f8ec28c|
 
-## UI Contexts
+## UI contexts
 
 |Constant|GUID|
 |--------------|----------|
@@ -68,7 +68,7 @@ The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some part
 |<xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionHasMultipleProjects_guid>|93694fa0-0397-11d1-9f4e-00a0c911004f|
 |<xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionHasSingleProject_guid>|adfc4e66-0397-11d1-9f4e-00a0c911004f|
 
-## Output Pane
+## Output pane
 
 |Constant|GUID|
 |--------------|----------|
@@ -79,7 +79,7 @@ The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some part
 |<xref:Microsoft.VisualStudio.VSConstants.OutputWindowPaneGuid.StoreValidationPane_guid>|54065C74-1B11-4249-9EA7-5540D1A6D528|
 |<xref:Microsoft.VisualStudio.VSConstants.SID_SVsGeneralOutputWindowPane>|65482c72-defa-41b7-902c-11c091889c83|
 
-## Command Sets and Properties
+## Command sets and properties
 
 |Constant|GUID|
 |--------------|----------|
@@ -92,7 +92,7 @@ The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some part
 |--------------|----------|
 |<xref:Microsoft.VisualStudio.VSConstants.IID_IUnknown>|00000000-0000-0000-C000-000000000046|
 
-## Task List GUIDs
+## Task list GUIDs
 
 |Constant|GUID|
 |--------------|----------|
@@ -108,7 +108,7 @@ The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some part
 |<xref:Microsoft.VisualStudio.VSConstants.CLSID_VsTaskList>|BC5955D5-aa0d-11d0-a8c5-00a0c921a4d2|
 |<xref:Microsoft.VisualStudio.VSConstants.CLSID_VsTaskListPackage>|4A9B7E50-aa16-11d0-a8c5-00a0c921a4d2|
 
-## Component Selector Page GUIDs
+## Component selector page GUIDs
 
 |Constants|GUID|
 |---------------|----------|
@@ -116,7 +116,7 @@ The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some part
 |<xref:Microsoft.VisualStudio.VSConstants.GUID_COMPlusPage>|9A341D95-5A64-11d3-BFF9-00C04F990235|
 |<xref:Microsoft.VisualStudio.VSConstants.GUID_SolutionPage>|9A341D97-5A64-11d3-BFF9-00C04F990235|
 
-## Miscellaneous Shell GUIDs
+## Miscellaneous shell GUIDs
 
 |Constants|GUID|
 |---------------|----------|
@@ -126,6 +126,6 @@ The <xref:Microsoft.VisualStudio.VSConstants> class publishes GUIDs of some part
 
 ## See also
 
-- [COM Constants in Managed Code](../extensibility/com-constants-in-managed-code.md)
-- [IDE Constants](../extensibility/ide-constants.md)
-- [IDE-Defined Commands for Extending Project Systems](../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)
+- [COM constants in managed code](../extensibility/com-constants-in-managed-code.md)
+- [IDE constants](../extensibility/ide-constants.md)
+- [IDE-defined commands for extending project s    ystems](../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)

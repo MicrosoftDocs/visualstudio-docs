@@ -104,13 +104,10 @@ Congratulations on completing this Quickstart! We hope you learned a little bit 
 
 ## Next steps
 
-To learn more, continue with the following tutorials:
+To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
 > [Get started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)
->
-> [!div class="nextstepaction"]
-> [Get started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)
 
 ## See also
 
