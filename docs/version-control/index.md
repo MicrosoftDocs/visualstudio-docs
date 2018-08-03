@@ -19,7 +19,7 @@ ms.workload:
 Version control systems help you track changes to code over time. As you make changes, the version control system takes a snapshot of your files. The version control system saves that snapshot permanently so you can recall it later if you need it. Visual Studio provides [Git](/vsts/git/index) and [Team Foundation Version Control (TFVC)](/vsts/tfvc/index). To decide between the two systems, see [Choosing the right version control for your project](/vsts/tfvc/comparison-git-tfvc?toc=/visualstudio/version-control/toc.json&bc=/vsts/git/breadcrumb/vc/toc.json).
 
 ## Git
-Git is the most commonly used version control system today and is quickly becoming the standard for version control. Git is a distributed version control system, meaning your local copy of code is a complete version control repository. These fully-functional local repositories make it is easy to work offline or remotely. You commit your work locally, and then sync your copy of the repository with the copy on the server. This paradigm differs from centralized version control where clients must synchronize code with a server before creating new versions of code.
+Git is the most commonly used version control system today and is quickly becoming the standard for version control. Git is a distributed version control system, meaning your local copy of code is a complete version control repository. These fully functional local repositories make it is easy to work offline or remotely. You commit your work locally, and then sync your copy of the repository with the copy on the server. This paradigm differs from centralized version control where clients must synchronize code with a server before creating new versions of code.
 
 <ul class="panelContent cardsFTitle">
     <li>

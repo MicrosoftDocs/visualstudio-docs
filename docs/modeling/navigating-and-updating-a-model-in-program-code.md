@@ -451,18 +451,18 @@ FamilyTreeDiagram diagram =
 -   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.Show%2A> - makes the shape visible after a `Hide()`
 
 ###  <a name="merge"></a> Creating an Element and its Shape
- When you create an element and link it into the tree of embedding relationships, a shape is automatically created and associated with it. This is done by the "fixup" rules that execute at the end of the transaction. However, the shape will appear in an automatically-assigned location, and its shape, color and other features will have default values. To control how the shape is created, you can use the merge function. You must first add the elements you want to add into an ElementGroup, and then merge the group into the diagram.
 
- This method:
+When you create an element and link it into the tree of embedding relationships, a shape is automatically created and associated with it. This is done by the "fixup" rules that execute at the end of the transaction. However, the shape will appear in an automatically assigned location, and its shape, color and other features will have default values. To control how the shape is created, you can use the merge function. You must first add the elements you want to add into an ElementGroup, and then merge the group into the diagram.
+
+This method:
 
 -   Sets the name, if you have assigned a property as the element name.
 
 -   Observes any Element Merge Directives that you specified in the DSL Definition.
 
- This example creates a shape at the mouse position, when the user double-clicks the diagram. In the DSL Definition for this sample, the `FillColor` property of `ExampleShape` has been exposed.
+This example creates a shape at the mouse position, when the user double-clicks the diagram. In the DSL Definition for this sample, the `FillColor` property of `ExampleShape` has been exposed.
 
 ```
-
 using Microsoft.VisualStudio.Modeling;
 using Microsoft.VisualStudio.Modeling.Diagrams;
 partial class MyDiagram
