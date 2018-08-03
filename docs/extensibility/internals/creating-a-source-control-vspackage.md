@@ -20,7 +20,7 @@ This documentation includes links to the architecture overview of a source-contr
   
  With a source control VSPackage, you can create a deep integration path for source control to integrate with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. It enables the package to bypass the default source control UI hosted by [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], respond to source control requests from the project system, and interact with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] components such as **Solution Explorer**. The [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] empowers [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] partners with a mechanism to create a VSPackage that can integrate with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] using a service model.  
   
-## In This Section  
+## In this section  
  [Get started](../../extensibility/internals/getting-started-with-source-control-vspackages.md)  
  Discusses the source control package, which is a more advanced alternative to the source control plug-in for implementing source control features in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].  
   
