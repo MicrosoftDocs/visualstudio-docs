@@ -79,7 +79,7 @@ Although **Solution Explorer** is where you manage project files, the *editor* w
         print(cos(radians(i)))
     ```
 
-1. Run the program again with **Ctrl**+**F5** or **Debug** > **Start without Debugging**. Close the **Output** window when you're done.
+1. Run the program again with **Ctrl**+**F5** or **Debug** > **Start without Debugging**. Close the output window when you're done.
 
 ## Next step
 

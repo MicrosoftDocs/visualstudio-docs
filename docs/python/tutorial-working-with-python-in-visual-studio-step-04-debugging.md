@@ -57,7 +57,7 @@ In addition to managing projects, providing a rich editing experience, and the *
 
     ![Breakpoint UI experience for Python](media/vs-getting-started-python-19-debugging2b.png)
 
-1. Observe the debugging toolbar (shown below) along the top of the Visual Studio Window. This toolbar provides quick access to the most common debugging commands (which can also be found on the **Debug** menu):
+1. Observe the debugging toolbar (shown below) along the top of the Visual Studio window. This toolbar provides quick access to the most common debugging commands (which can also be found on the **Debug** menu):
 
     ![Essential debugging toolbar buttons](media/vs-getting-started-python-20-debugging3.png)
 
@@ -94,14 +94,14 @@ In addition to managing projects, providing a rich editing experience, and the *
 1. To run the program to completion, disable the breakpoint by right-clicking and selecting **Disable breakpoint** (**Ctrl**+**F9**). Then select **Continue** (or press **F5**) to run the program. When the program ends, Visual Studio stops its debugging session and returns to its editing mode. Note that you can also delete the breakpoint by clicking its dot, but this also deletes any condition you've set.
 
 > [!Tip]
-> In some situations, such as a failure to launch the Python interpreter itself, the **Output** window may appear only briefly and then close automatically without giving you a chance to see any errors messages. If this happens, right-click the project in **Solution Explorer**, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This argument causes the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter **Ctrl**+**Z** > **Enter** to exit.
+> In some situations, such as a failure to launch the Python interpreter itself, the output window may appear only briefly and then close automatically without giving you a chance to see any errors messages. If this happens, right-click the project in **Solution Explorer**, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This argument causes the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter **Ctrl**+**Z** > **Enter** to exit.
 
 ## Next step
 
 > [!div class="nextstepaction"]
 > [Install packages in your Python environment](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)
 
-### Go deeper
+## Go deeper
 
 - [Debugging](debugging-python-in-visual-studio.md)
 - [Debugging in Visual Studio](../debugger/debugger-feature-tour.md) provides full documentation of Visual Studio's debugging features.
