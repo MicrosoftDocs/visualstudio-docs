@@ -20,7 +20,7 @@ Visual Studio 2017 includes a core set of .NET Compiler Platform (*Roslyn*) anal
 
 ## To install NuGet analyzer packages
 
-1. Find the analyzer package you want to install on www.nuget.org.
+1. Find the analyzer package you want to install on www.nuget.org. For example, you may want to [install the Microsoft FxCop analyzers](install-fxcop-analyzers.md#to-install-fxcop-analyzers-as-a-nuget-package) to check your code for security and performance issues, among others.
 
 1. Install the package in Visual Studio, using either the [Package Manager Console](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console) or the [Package Manager UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console).
 
@@ -42,7 +42,7 @@ Visual Studio 2017 includes a core set of .NET Compiler Platform (*Roslyn*) anal
 
 1. Expand **Online** in the left pane, and then select **Visual Studio Marketplace**.
 
-1. In the search box, type the name of the analyzer extension you want to install.
+1. In the search box, type the name of the analyzer extension you want to install. For example, you may want to [install the Microsoft FxCop analyzers](install-fxcop-analyzers.md#to-install-fxcop-analyzers-as-a-vsix) to check your code for security and performance issues, among others.
 
 1. Select **Download**.
 

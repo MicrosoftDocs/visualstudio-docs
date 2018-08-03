@@ -14,7 +14,9 @@ ms.workload:
 ---
 # Install FxCop analyzers in Visual Studio
 
-Microsoft created a set of analyzers, called [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers), that contains the most important "FxCop" rules from static code analysis, converted to Roslyn analyzers. You can install these FxCop analyzers either as a NuGet package or as a VSIX extension to Visual Studio. To learn about the pros and cons of each, see [NuGet package vs. VSIX extension](roslyn-analyzers-overview.md#nuget-package-versus-vsix-extension).
+Microsoft created a set of analyzers, called [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers), that contains the most important "FxCop" rules from static code analysis, converted to Roslyn analyzers. These analyzers check your code for security, performance, and design issues, among others.
+
+You can install these FxCop analyzers either as a NuGet package or as a VSIX extension to Visual Studio. To learn about the pros and cons of each, see [NuGet package vs. VSIX extension](roslyn-analyzers-overview.md#nuget-package-versus-vsix-extension).
 
 ## To install FxCop analyzers as a NuGet package
 
