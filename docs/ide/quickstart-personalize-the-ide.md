@@ -94,10 +94,10 @@ We explored just a couple ways of customizing the colors in Visual Studio. We ho
 ## Next steps
 
 > [!div class="nextstepaction"]
-- [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
+> [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
 
 > [!div class="nextstepaction"]
-- [Quickstart: Write code in the editor](../ide/quickstart-editor.md)
+> [Quickstart: Write code in the editor](../ide/quickstart-editor.md)
 
 > [!div class="nextstepaction"]
 > [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)

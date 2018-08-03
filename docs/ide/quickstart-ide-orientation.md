@@ -101,10 +101,10 @@ Should you encounter any problems while you're using Visual Studio, or if you ha
 We've looked at just a few of the features of Visual Studio to get acquainted with the user interface. To explore further:
 
 > [!div class="nextstepaction"]
-- [Quickstart: Personalize the IDE](../ide/quickstart-personalize-the-ide.md)
+> [Quickstart: Personalize the IDE](../ide/quickstart-personalize-the-ide.md)
 
 > [!div class="nextstepaction"]
-- [Quickstart: Write code in the editor](../ide/quickstart-editor.md)
+> [Quickstart: Write code in the editor](../ide/quickstart-editor.md)
 
 > [!div class="nextstepaction"]
 > [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)

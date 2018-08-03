@@ -173,10 +173,10 @@ If you want to check that your unit test is working, choose **Test** > **Run** >
 Congratulations on completing this Quickstart! Next, you might want to explore some of the other Quickstarts for Visual Studio, or learn more about how to [Create projects and solutions](../ide/creating-solutions-and-projects.md).
 
 > [!div class="nextstepaction"]
-- [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
+> [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
 
 > [!div class="nextstepaction"]
-- [Quickstart: Personalize Visual Studio](../ide/quickstart-personalize-the-ide.md)
+> [Quickstart: Personalize Visual Studio](../ide/quickstart-personalize-the-ide.md)
 
 > [!div class="nextstepaction"]
 > [Quickstart: Coding in the editor](../ide/quickstart-editor.md)
