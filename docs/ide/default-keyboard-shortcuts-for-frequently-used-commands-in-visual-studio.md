@@ -51,7 +51,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 |Commands|Keyboard shortcuts [Contexts]|
 |--------------|-------------------------------------|
 |Edit.BreakLine|**Enter** [Text Editor, Report Designer, Windows Forms Designer]<br /><br /> or **Shift+Enter** [Text Editor]|
-|Edit.CollapsetoDefinitions|**Ctrl+M**, **Ctrl+O** [Text Editor]|
+|Edit.CollapseToDefinitions|**Ctrl+M**, **Ctrl+O** [Text Editor]|
 |Edit.CommentSelection|**Ctrl+K**, **Ctrl+C** [Text Editor]|
 |Edit.CompleteWord|**Alt+Right Arrow** [Text Editor, Workflow Designer]<br /><br /> or **Ctrl+Spacebar** [Text Editor, Workflow Designer]<br /><br /> or **Ctrl+K**, **W** [Workflow Designer]<br /><br /> or **Ctrl+K, Ctrl+W** [Workflow Designer]|
 |Edit.Copy|**Ctrl+C** [Global]<br /><br /> or **Ctrl+Insert** [Global]|
