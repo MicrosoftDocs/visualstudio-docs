@@ -13,9 +13,14 @@ metadata:
   manager: douge
 abstract:
   description: Learn how to analyze code for the first time, or how to migrate from FxCop to the new way of analyzing managed code using analyzers.
-
+  aside:
+    image:
+      alt: Common management tasks logo
+      height: 133
+      width: 48
+      src: media/illustrations/bcs-partner-advanced-management-settings-8.svg
+    title:
 sections:
-
 - title: If you're new to code analysis...
   items:
   - type: list
