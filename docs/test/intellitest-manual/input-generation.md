@@ -12,7 +12,7 @@ ms.workload:
   - "multiple"
 author: gewarren
 ---
-# Input generatation using dynamic symbolic execution
+# Input generation using dynamic symbolic execution
 
 IntelliTest generates inputs for 
 [parameterized unit tests](test-generation.md#parameterized-unit-testing)
