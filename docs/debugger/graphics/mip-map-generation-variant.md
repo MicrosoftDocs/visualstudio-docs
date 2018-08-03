@@ -26,7 +26,7 @@ Enables mip-maps on textures that are not render targets.
   
 -   The BindFlags member has only the D3D11_BIND_SHADER_RESOURCE flag set.  
   
--   The Usage member is set to either D3D11_USAGE_DEFUALT or D3D11_USAGE_IMMUTABLE.  
+-   The Usage member is set to either D3D11_USAGE_DEFAULT or D3D11_USAGE_IMMUTABLE.  
   
 -   The CPUAccessFlags member is set to 0 (no CPU access).  
   
