@@ -342,7 +342,7 @@ Groups individual `Import` elements.
 ```xml
 <Imports>
     <Import>... </Import>
-<Imports>
+</Imports>
 ```
 
 |Child element|Description|
@@ -377,7 +377,7 @@ Groups individual `Keyword` elements. The code snippet keywords are used by Visu
 <Keywords>
     <Keyword>... </Keyword>
     <Keyword>... </Keyword>
-<Keywords>
+</Keywords>
 ```
 
 |Child element|Description|
@@ -555,7 +555,7 @@ Specifies how Visual Studio inserts the code snippet.
 ```xml
 <SnippetType>
     SurroundsWith/Expansion
-<SnippetType>
+</SnippetType>
 ```
 
 |Parent element|Description|
@@ -578,7 +578,7 @@ Groups individual `SnippetType` elements. If the `SnippetTypes` element is not p
 <SnippetTypes>
     <SnippetType>... </SnippetType>
     <SnippetType>... </SnippetType>
-<SnippetTypes>
+</SnippetTypes>
 ```
 
 |Child element|Description|
@@ -596,7 +596,7 @@ Specifies the title for the code snippet. The title stored in the `Title` elemen
 ```xml
 <Title>
     Code Snippet Title
-<Title>
+</Title>
 ```
 
 |Parent element|Description|
