@@ -23,7 +23,7 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
     ![Creating a new project with the Blank Flask Web Project template](media/quickstart-python-06-blank-flask-template.png)
 
-1. Visual Studio prompts you with a dialog that says **This project requires external packages.** This dialog appears because the template includes a *requirements.txt* file specifying a dependency on Flask. Visual Studio can install the packages automatically, and gives you the option to install the *virtual environment*. Using a virtual environment is recommended over installing into a global environment, so select **Install into a virtual environment** to continue.
+1. Visual Studio prompts you with a dialog that says **This project requires external packages.** This dialog appears because the template includes a *requirements.txt* file specifying a dependency on Flask. Visual Studio can install the packages automatically, and gives you the option to install them into a *virtual environment*. Using a virtual environment is recommended over installing into a global environment, so select **Install into a virtual environment** to continue.
 
     ![Installing Flask into a virtual environment](media/quickstart-python-07-install-into-virtual-environment.png)
 

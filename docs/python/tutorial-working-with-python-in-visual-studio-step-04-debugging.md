@@ -39,10 +39,10 @@ In addition to managing projects, providing a rich editing experience, and the *
     main()
     ```
 
-1. Check that the code works properly by pressing **F5** or selecting the **Debug** > **Start Debugging** menu command. This command runs the code in the debugger, but because you haven't done anything to pause the program while it's running, it just prints a wave pattern for a few iterations. Press any key to close the **Output** window.
+1. Check that the code works properly by pressing **F5** or selecting the **Debug** > **Start Debugging** menu command. This command runs the code in the debugger, but because you haven't done anything to pause the program while it's running, it just prints a wave pattern for a few iterations. Press any key to close the output window.
 
     > [!Tip]
-    > To close the **Output** window automatically when the program completes, replace the `main()` call with the following code:
+    > To close the output window automatically when the program completes, replace the `main()` call with the following code:
     >
     > ```python
     > if __name__ == "__main__":
