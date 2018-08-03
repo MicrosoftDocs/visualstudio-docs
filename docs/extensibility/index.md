@@ -9,7 +9,7 @@ description: Learn about Visual Studio extensibility.
 ms.workload: 
   - apexprodleads
 ---
-# Visual Studio Extensibility Documentation
+# Visual Studio extensibility documentation
 
 Visual Studio gives you a lot of extensibility options. You can extend Visual Studio itself, add source code analyzers for the "Roslyn" compiler, or even create your own SDKs.
 

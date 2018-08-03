@@ -14,10 +14,10 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Use Linked Undo Management
+# How to: Use linked undo management
 Linked undo allows the user to simultaneously undo the same edits in multiple files. For example, simultaneous text changes across multiple program files, such as a header file and a Visual C++ file, is a linked undo transaction. Linked undo capability is built into the environment's implementation of the undo manager, and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLinkedUndoTransactionManager> lets you manipulate this capability. Linked undo is implemented by a parent undo unit that can link separate undo stacks together to be treated as a single undo unit. The procedure for using linked undo is detailed in the following section.  
   
-### To use linked undo  
+## To use linked undo  
   
 1.  Call `QueryService` on `SVsLinkedUndoManager` to get a pointer to `IVsLinkedUndoTransactionManager`.  
   
@@ -26,10 +26,10 @@ Linked undo allows the user to simultaneously undo the same edits in multiple fi
 3.  Call <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLinkedUndoTransactionManager.CloseLinkedUndo%2A> to roll back all of the linked undo units as one.  
   
     > [!NOTE]
-    >  To implement linked undo management in an editor, add undo management. For more information on implementing linked undo management, see [How to: Implement Undo Management](../extensibility/how-to-implement-undo-management.md).  
+    >  To implement linked undo management in an editor, add undo management. For more information on implementing linked undo management, see [How to: Implement undo management](../extensibility/how-to-implement-undo-management.md).  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompoundAction>   
  [IOleParentUndoUnit](http://msdn.microsoft.com/library/windows/desktop/ms682151)   
  [IOleUndoUnit](http://msdn.microsoft.com/library/windows/desktop/ms678476)   
- [How to: Implement Undo Management](../extensibility/how-to-implement-undo-management.md)
+ [How to: Implement undo management](../extensibility/how-to-implement-undo-management.md)
