@@ -12,7 +12,7 @@ metadata:
   author: gewarren
   manager: douge
 abstract:
-  description: Learn how to analyze code for the first time or migrate from FxCop to the new way of analyzing managed code using analyzers.
+  description: Learn how to analyze code for the first time, or how to migrate from FxCop to the new way of analyzing managed code using analyzers.
 
 sections:
 
