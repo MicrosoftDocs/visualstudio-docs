@@ -34,7 +34,7 @@ sections:
           src: https://docs.microsoft.com/media/common/i_learn-about.svg
         title: Analyzers overview
       - href: install-roslyn-analyzers.md
-        html: <p>Learn how to install analyzers as a Nuget package or Visual Studio extension.</p>
+        html: <p>Learn how to install analyzers as a NuGet package or Visual Studio extension.</p>
         image:
           src: https://docs.microsoft.com/media/common/i_setup.svg
         title: Install analyzers
