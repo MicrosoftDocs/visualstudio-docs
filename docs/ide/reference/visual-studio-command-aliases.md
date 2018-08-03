@@ -87,7 +87,7 @@ The table below contains a list of the pre-defined Visual Studio command aliases
 |New Project|np NewProj|File.NewProject|
 |[Open File Command](../../ide/reference/open-file-command.md)|of Open|File.OpenFile|
 |[Open Project Command](../../ide/reference/open-project-command.md)|op|File.OpenProject|
-|Collapse to Definitions/Stop Outlining|OutlineDefs StopOutlining|Edit.CollapsetoDefinitions|
+|Collapse to Definitions/Stop Outlining|OutlineDefs StopOutlining|Edit.CollapseToDefinitions|
 |Step Over|p|Debug.StepOver|
 |Parameter Information|ParamInfo|Edit.ParameterInfo|
 |Step Out|pr|Debug.StepOut|
