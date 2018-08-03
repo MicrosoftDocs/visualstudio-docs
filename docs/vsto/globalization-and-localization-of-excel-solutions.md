@@ -67,7 +67,7 @@ ms.workload:
   
  Excel interprets any strings in accordance with the LCID that is passed with the string. This can be a problem if the format of the string does not correspond to the LCID that is passed. Excel solutions created by using the Office development tools in Visual Studio use the LCID 1033 (en-US) when passing all data. Excel displays the data according to the regional settings and Excel user interface language. Visual Basic for Applications (VBA) also works this way; strings are formatted as en-US and VBA almost always passes 0 (language neutral) as the LCID. For example, the following VBA code displays a correctly formatted value for May 12, 2004, in accordance with the current user locale setting:  
   
-```  
+```vb
 'VBA  
 Application.ActiveCell.Value2 = "05/12/04"  
 ```  

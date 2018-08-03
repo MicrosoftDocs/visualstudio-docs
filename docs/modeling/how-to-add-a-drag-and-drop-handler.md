@@ -44,14 +44,13 @@ In the new file, define a partial class for the shape or diagram class that shou
             e.Effect = System.Windows.Forms.DragDropEffects.Copy;
           }
         }
-
     ```
 
 -   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnDragDrop%2A> - This method is called if the user releases the mouse button while the mouse pointer rests over this shape or diagram, if `OnDragOver(DiagramDragEventArgs e)` previously set `e.Effect` to a value other than `None`.
 
     ```csharp
     public override void OnDragDrop(DiagramDragEventArgs e)
-        {
+    {
           if (!IsAcceptableDropItem(e))
           {
             base.OnDragDrop(e);
@@ -60,8 +59,7 @@ In the new file, define a partial class for the shape or diagram class that shou
           { // Process the dragged item, for example merging a copy into the diagram
             ProcessDragDropItem(e); // To be defined
           }
-        }
-
+    }
     ```
 
 -   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.OnDoubleClick%2A> - This method is called when the user double-clicks the shape or diagram.
@@ -142,7 +140,6 @@ To discover the formats in which your drag source information is available, run 
             == "3866d10c-cc4e-438b-b46f-bb24380e1678"); // Accept UML class shapes.
      // Or, from another DSL: SourceNamespace.SourceShapeClass.DomainClassId
     }
-
     ```
 
      To accept UML shapes, determine the Guids of the UML shape classes by experiment. Remember that there is usually more than one type of element on any diagram. Remember also that an object dragged from a DSL or UML diagram is the shape, not the model element.
@@ -157,7 +154,7 @@ The `Data` and `Prototype` properties of the event arguments contain only a refe
 
 ### To prepare a DSL project for Model Bus
 
-1.  Make the source DSL accessible by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Model Bus:
+1.  Make the source DSL accessible by Visual Studio Model Bus:
 
     1.  Download and install the Visual Studio Model Bus extension, if it is not already installed. For more information, see [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
 
