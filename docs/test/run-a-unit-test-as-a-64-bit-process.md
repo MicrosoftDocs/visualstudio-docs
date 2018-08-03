@@ -33,4 +33,4 @@ If you have a 64-bit machine, you can run unit tests and capture code coverage i
 ## See also
 
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
-- [Unit Test Your Code](../test/unit-test-your-code.md)
+- [Unit test your code](../test/unit-test-your-code.md)

@@ -19,8 +19,8 @@ This section describes the procedures and options for collecting memory allocati
   
 |Task|Related content|  
 |----------|---------------------|  
-|**Start an application and profile .NET memory**|-   [How to: Launch a .NET Framework application with the profiler to collect memory data](../profiling/how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-memory-data-by-using-the-command-line.md)|  
-|**Attach the profiler to a .NET application**|-   [How to: Attach the profiler to a .NET Framework application to collect memory data](../profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-memory-data-by-using-the-command-line.md)|  
+|**Start an application and profile .NET memory**|-   [How to: Launch a .NET Framework application with the profiler to collect memory data](../profiling/how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-memory-data.md)|  
+|**Attach the profiler to a .NET application**|-   [How to: Attach the profiler to a .NET Framework application to collect memory data](../profiling/how-to-attach-the-profiler-to-a-dotnet-framework-app-to-collect-memory-data.md)|  
 |**Instrument an application to collect .NET memory data**|-   [How to: Instrument a stand-alone .NET Framework component and collect memory data with the profiler](../profiling/how-to-instrument-a-dotnet-framework-component-and-collect-memory-data.md)|  
   
 ## Related tasks

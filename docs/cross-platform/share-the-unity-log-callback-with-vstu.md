@@ -1,7 +1,7 @@
 ---
 title: "Share the Unity Log Callback with VSTU | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "07/26/2018"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: 5d71f906-6e50-4399-b59b-d38c6dfef7ee
@@ -20,6 +20,7 @@ Visual Studio Tools for Unity registers a log callback with Unity to be able to 
 ## Example
 
 ```csharp
+#if ENABLE_VSTU
 using System;
 
 using UnityEngine;
@@ -38,6 +39,7 @@ public class LogCallbackHook
         };
     }
 }
+#endif
 ```
 
 ## See also

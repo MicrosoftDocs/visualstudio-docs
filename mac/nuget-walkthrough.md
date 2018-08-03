@@ -55,7 +55,7 @@ Once the NuGet package has been added and the project references updated you can
 Ensure that you add any required `using` directives to the top of your file:
 
 ```csharp
-using Newtownsoft.json;
+using Newtonsoft.Json;
 ```
 
 Most NuGet provide additional information, such as a README or Project page link to the Nuget source. You can normally find a link to this in the package blurb on the Add Packages page:

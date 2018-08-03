@@ -21,7 +21,7 @@ Benefits are grouped into three categories:
 The Tools category provides access to a wide variety of benefits, including flagship benefits such as the [Visual Studio IDE](vs-ide-benefit.md), [Visual Studio Team Services](vs-vsts.md), and [Azure](vs-azure.md).  Depending on your subscription level, you'll also see Windows and Office 365 Developer accounts, Visual Studio App Center, and benefits from partners such as WhiteSource Bolt and ModernRequirements.
 
 ## Professional Development
-To help you continously enhance your skillset and keep up with the latest technologies, we provide access to some of the best online training available from industry leaders. Examples of the great content available include:
+To help you continuously enhance your skillset and keep up with the latest technologies, we provide access to some of the best online training available from industry leaders. Examples of the great content available include:
 - Azure App Insights and Azure Cosmos DB by Opsgility
 - Cross-platform Mobile Developer by Xamarin University
 - Microsoft Azure for .Net Developers, and other great content from Pluralsight
@@ -32,7 +32,7 @@ To help you continously enhance your skillset and keep up with the latest techno
 ## Support
 As a Visual Studio subscriber, you also have access to various types of support in case you have a question or need technical assistance.
 - Paid subscriptions include access to professional technical support incidents to resolve problems with tools and applications running in dev/test environments.
-- Need technical documentation or product information?  Get immediate help from the Conceirge Chat service.
+- Need technical documentation or product information?  Get immediate help from the Concierge Chat service.
 - Get help from community members in the Priority Support forums.  If the community members can't answer your question, Microsoft's experts will provide an answer.
 - Have questions about Azure?  Check out the Azure Community and Azure Advisory Chat services.
 

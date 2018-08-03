@@ -16,13 +16,13 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Provide Expanded Outlining Support in a Legacy Language Service
+# How to: Provide expanded outlining support in a legacy language service
 There are two options for extending outlining support for your language beyond supporting the **Collapse to Definitions** command. You can add editor-controlled outline regions and add client-controlled outline regions.  
   
-## Adding Editor-controlled Outline Regions  
+## Adding editor-controlled outline regions  
  Use this approach to create an outline region and then allow the editor to handle whether the region is expanded, collapsed, and so forth. Of the two options for providing outlining support, this option is the least robust. For this option, you create a new outline region over a specified span of text using <xref:Microsoft.VisualStudio.TextManager.Interop.IVsOutliningSession.AddOutlineRegions%2A>. After this region is created, its behavior is controlled by the editor. Use the following procedure to implement editor-controlled outline regions.  
   
-#### To implement an editor-controlled outline region  
+### To implement an editor-controlled outline region  
   
 1.  Call `QueryService` for <xref:Microsoft.VisualStudio.TextManager.Interop.SVsTextManager>  
   
@@ -36,10 +36,10 @@ There are two options for extending outlining support for your language beyond s
   
      This method allows you to specify the span of text to outline, whether existing outline regions are removed or preserved, and whether the outline region is expanded or collapsed by default.  
   
-## Adding Client-controlled Outline Regions  
- Use this approach to implement client-controlled (or smart) outlining like that used by the [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] language services. A language service that manages its own outlining monitors the text buffer contents in order to destroy old outline regions when they becomes invalid and to create new outline regions as needed.  
+## Add client-controlled outline regions  
+ Use this approach to implement client-controlled (or smart) outlining like that used by the [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] language services. A language service that manages its own outlining monitors the text buffer contents in order to destroy old outline regions when they become invalid and to create new outline regions as needed.  
   
-#### To implement a client-controlled outline region  
+### To implement a client-controlled outline region  
   
 1.  Call `QueryService` for <xref:Microsoft.VisualStudio.TextManager.Interop.SVsTextManager>. This returns a pointer to <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiddenTextManager>.  
   

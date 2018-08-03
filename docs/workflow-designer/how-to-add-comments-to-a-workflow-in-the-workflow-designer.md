@@ -51,7 +51,7 @@ To facilitate creating larger, more complicated workflows, .NET Framework 4.5 al
 
 1. To display the annotation outside the activity's designer, hover over the annotation area in the activity's designer and click the **Unpin** icon
 
-   ![Annotation displayed outside an activity's designe](../workflow-designer/media/annotationoutsidedesigner.png)
+   ![Annotation displayed outside an activity's designer](../workflow-designer/media/annotationoutsidedesigner.png)
 
 ## Showing or hiding all annotations
 

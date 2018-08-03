@@ -17,13 +17,14 @@ ms.workload:
 
 Learn how [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) makes developers more productive than ever. Take advantage of our performance and productivity improvements like navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in the **Test Explorer**, Go To All (**Ctrl**+**T**) to navigate to file/type/member/symbol declarations, an intelligent **Exception Helper**, code style configuration and enforcement, and many refactorings and code fixes.
 
-##  I'm used to my keyboard shortcuts from a different extension/editor/IDE.
+## I'm used to my keyboard shortcuts from a different extension/editor/IDE
 
 **New in Visual Studio 2017 version 15.8** If you're coming from another IDE or coding environment, you can change your keyboard scheme to *Visual Studio Code* or *ReSharper (Visual Studio)*:
 
 ![Keyboard Schemes in Visual Studio](../ide/media/VS2017Guide-Keyboard.png)
 
 Some extensions also offer keyboard schemes:
+
 - [HotKeys for Visual Studio (ReSharper/IntelliJ)](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.HotKeys)
 - [Emacs Emulation](https://marketplace.visualstudio.com/items?itemName=JustinClareburtMSFT.EmacsEmulation)
 - [VSVim](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim)
@@ -52,23 +53,29 @@ The following are popular Visual Studio shortcuts:
 
 Learn more keyboard shortcuts and commands in Visual Studio in [our documentation](..\ide\tips-and-tricks-for-visual-studio.md).
 
-## I need a way to quickly navigate to files or types.
-Visual Studio 2017 has a feature called **Go To All** (**Ctrl**+**T**). Go To All enables you to quickly jump to any file, type, member, or symbol declaration.
-- Change the location of this search bar or turn off the 'live navigation preview' with the **gear** icon
+## I need a way to quickly navigate to files or types
+
+Visual Studio 2017 has a feature called **Go To All** (**Ctrl**+**T**). **Go To All** enables you to quickly jump to any file, type, member, or symbol declaration.
+
+- Change the location of this search bar or turn off the 'live navigation preview' with the **gear** icon.
 - Filter results using our query syntax (for example, "t mytype"). You can also scope your search to just the current document.
 - camelCase matching is supported!
 
 ![Go To All in Visual Studio](../ide/media/VS2017Guide-go-to-all.png)
 
-## My team enforces code style rules on our codebase.
+## My team enforces code style rules on our codebase
+
 You can use an *.editorconfig* file to codify coding conventions and have them travel with your source.
-- We recommend installing the [EditorConfig language services extension](https://aka.ms/editorconfig) for adding and editing an *.editorconfig* file in Visual Studio.
-- Check out the [documentation](https://aka.ms/editorconfigDocs) for all .NET coding convention options.
-- See [this gist](https://gist.github.com/kuhlenh/5471666a7a2c57fea427e81cf0a41da8) for an example *.editorconfig*.
+
+- You can install the [EditorConfig language services extension](https://aka.ms/editorconfig), which makes it easy to add and edit an *.editorconfig* file in Visual Studio.
+- Try out the [IntelliCode extension for Visual Studio](/visualstudio/intellicode/intellicode-visual-studio). This experimental extension infers your code styles from existing code, and then creates a non-empty *.editorconfig* file with your code style preferences already defined.
+- Check out the [.NET coding convention options](https://aka.ms/editorconfigDocs) documentation.
+- See [this gist](https://gist.github.com/kuhlenh/5471666a7a2c57fea427e81cf0a41da8) for an example *.editorconfig* file.
 
 ![Code style enforcement in Visual Studio](../ide/media/VSGuide_CodeStyle.png)
 
-## I need more refactorings and code fixes.
+## I need more refactorings and code fixes
+
 Visual Studio 2017 comes with a lot of refactorings, code generation actions, and code fixes. Red squiggles represent errors, green squiggles represent warnings, and three gray dots represent code suggestions. You can access code fixes by clicking the lightbulb/screwdriver icon or by pressing **Ctrl**+**.** or **Alt**+**Enter**. Each fix comes with a preview window that shows a live code diff of how the fix works.
 
 - Popular quick fixes and refactorings include:
@@ -92,6 +99,7 @@ Visual Studio 2017 comes with a lot of refactorings, code generation actions, an
 ![Refactorings in Visual Studio](../ide/media/VSGuide_CodeAnalysis.png)
 
 ## I need Find Usages, Go To Implementation, Navigate To Decompiled Assemblies
+
 Visual Studio 2017 has many features to help you search and navigate your codebase. Read more about [Code navigation features](../ide/navigating-code.md)
 
 | Feature | Shortcut | Details/Improvements |
@@ -105,16 +113,20 @@ Visual Studio 2017 has many features to help you search and navigate your codeba
 
 ![Go To All and Find All References](../ide/media/VSIDE_Productivity_Navigation.png)
 
-## I want to run and see my unit tests.
+## I want to run and see my unit tests
+
 We made a lot of improvements to the testing experience in Visual Studio 2017. Use either of our unit testing experiences with the MSTest v1, MSTest v2, NUnit, or XUnit test frameworks.
+
 - **Test Explorer** test discovery is fast in version 15.6 (for best results, upgrade to the latest version of your test adapter).
 - Organize your tests in Test Explorer with our new *hierarchical sorting* in version 15.6.
 - [Live unit testing](../test/live-unit-testing.md) continuously runs tests impacted by your code changes and updates inline editor icons to let you know the status of your tests. Include or exclude specific tests or test projects from your *Live Test Set*.
 
 ![Hierarchy view for Text Explorer in Visual Studio](../ide/media/VSGuide_Testing.png)
 
-## I want to debug my code.
-We've added a ton of new debugging capabilities in Visual Studio 2017.
+## I want to debug my code
+
+We've added a ton of new debugging capabilities in Visual Studio 2017:
+
 - *Run to click* allows you to hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line.
 - The new **Exception Helper** puts the most important information, like which variable is 'null' in a NullReferenceException, at the top-level in the dialog.
 - [Step Back](../debugger/how-to-use-intellitrace-step-back.md) debugging enables you to go back to previous breakpoints or steps and view the state of the application as it was in the past.
@@ -122,19 +134,22 @@ We've added a ton of new debugging capabilities in Visual Studio 2017.
 
 ![New Exception Helper in Visual Studio 2017](../ide/media/VSGuide_Debugging.png)
 
-## I want to use version control with my projects.
+## I want to use version control with my projects
+
 You can use git or TFVC to store and update your code in Visual Studio.
+
 - Organize your local changes with **Team Explorer** and use the status bar to track pending commits and changes.
 - Set up continuous integration and delivery for your projects inside of Visual Studio with our [Continuous delivery tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) extension and adopt the agile developer workflow.
 
 ![Source control in Visual Studio](../ide/media/VSIDE_Productivity_SourceControl.png)
 
 ## What other features do I need to know about?
+
 Here is a list of editor and productivity features to make writing code more efficient. Some features may need to be enabled because they are off-by-default (they may index things on your machine, are controversial, or are currently experimental).
 
 | Feature | Details | How to enable |
 |-|-|-|
-| Locate File in Solution Explorer | Highlights the active file in the Solution Explorer | **Tools** > **Options** > **Projects and Solutions** > **Track Active Item in Solution Explorer** |
+| Locate File in Solution Explorer | Highlights the active file in **Solution Explorer** | **Tools** > **Options** > **Projects and Solutions** > **Track Active Item in Solution Explorer** |
 | Add usings for types in reference assemblies and NuGet packages | Shows a lightbulb with a code fix to install a NuGet package for an unreferenced type | **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Suggest usings for types in reference assemblies** and **Suggest usings for types in NuGet packages** |
 | Enable full solution analysis | See all errors in your solution in the **Error List** | **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Enable full solution analysis** |
 | Enable navigation to decompiled sources | Allow Go To Definition on types/members from external sources and use the ILSpy decompiler to show method bodies | **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Enable navigation to decompiled sources** |
@@ -143,6 +158,8 @@ Here is a list of editor and productivity features to make writing code more eff
 | [Code snippets](../ide/visual-csharp-code-snippets.md) | Help stub out common boilerplate |  Type a snippet name and press **Tab** twice. |
 
 ## Missing a feature that makes you productive or experiencing poor performance?
+
 There are several ways to leave us feedback:
+
 - .NET feature requests can be filed on our [GitHub repo](https://github.com/dotnet/roslyn/issues).
 - Visual Studio feature requests, bugs, and performance issues can be filed by using the **Send Feedback** icon at the top-right of your Visual Studio window.

@@ -2,7 +2,7 @@
 title: "Learn to debug multithreaded applications"
 description: Debug using the Parallel Stacks and Parallel Watch windows in Visual Studio
 ms.custom: "H1HackMay2017"
-ms.date: "06/02/2017"
+ms.date: "08/01/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
@@ -41,9 +41,9 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
      The **New Project** dialog box appears.  
   
-2.  In the **Project Type**s box, click the language of your choice: **Visual C#**, **Visual C++**, or **Visual Basic**.  
+2.  Click the language of your choice: **Visual C#**, **Visual C++**, or **Visual Basic**.  
   
-3.  In the **Templates** box, choose **Console App**.  
+3.  Under **Windows Desktop**, choose **Console App**.  
   
 4.  In the **Name** box, type the name MyThreadWalkthroughApp.  
   

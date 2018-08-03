@@ -47,7 +47,7 @@ The Django management console is accessed through various commands on the **Proj
 
     ![Console](media/template-django-console-shell.png)
 
-- **Django Sync DB**: executes `manage.py syncdb` in an interactive window:
+- **Django Sync DB**: executes `manage.py syncdb` in an **Interactive** window:
 
     ![Console](media/template-django-console-sync-db.png)
 
