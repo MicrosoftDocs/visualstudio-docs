@@ -17,22 +17,22 @@ These general guidelines might be helpful if you are generating program code or 
  Design-time T4 templates are templates that generate code in your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project at design time. For more information, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md).
 
  Generate variable aspects of the application.
- Code generation is most useful for those aspects of the application that might change during the project, or will change between different versions of the application. Separate these variable aspects from the more invariant aspects so that you can more easily determine what has to be generated. For example, if your application provides a Web site, separate the standard page serving functions from the logic that defines the navigation paths from one page to another.
+ Code generation is most useful for those aspects of the application that might change during the project, or will change between different versions of the application. Separate these variable aspects from the more invariant aspects so that you can more easily determine what has to be generated. For example, if your application provides a website, separate the standard page serving functions from the logic that defines the navigation paths from one page to another.
 
  Encode the variable aspects in one or more source models.
  A model is a file or database that each template reads to obtain specific values for variable parts of the code that is to be generated. Models can be databases, XML files of your own design, diagrams, or domain-specific languages. Typically, one model is used to generate many files in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. Each file is generated from a separate template.
 
- You can use more than one model in a project. For example, you might define a model for navigation between Web pages, and a separate model for the layout of the pages.
+ You can use more than one model in a project. For example, you might define a model for navigation between web pages, and a separate model for the layout of the pages.
 
  Focus the model on the users' needs and vocabulary, not on your implementation.
- For example, in a Web site application, you would expect the model to refer to Web pages and hyperlinks.
+ For example, in a website application, you would expect the model to refer to web pages and hyperlinks.
 
- Ideally, choose a form of presentation that suits the kind of information that the model represents. For example, a model of navigation paths through a Web site could be a diagram of boxes and arrows.
+ Ideally, choose a form of presentation that suits the kind of information that the model represents. For example, a model of navigation paths through a website could be a diagram of boxes and arrows.
 
  Test the generated code.
  Use manual or automated tests to verify that the resulting code works as the users require. Avoid generating tests from the same model from which the code is generated.
 
- In some cases, general tests can be performed on the model directly. For example, you could write a test that ensures that every page in the Web site can be reached by navigation from any other.
+ In some cases, general tests can be performed on the model directly. For example, you could write a test that ensures that every page in the website can be reached by navigation from any other.
 
  Allow for custom code: generate partial classes.
  Allow for code that you write by hand in addition to the generated code. It is unusual for a code generation scheme to be able to account for all possible variations that might arise. Therefore, you should expect to add to or override some of the generated code. Where the generated material is in a .NET language such as [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], two strategies are especially useful:

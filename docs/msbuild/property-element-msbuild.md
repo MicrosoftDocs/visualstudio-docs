@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Property Element (MSBuild)
+# Property element (MSBuild)
 Contains a user defined property name and value. Every property used in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project must be specified as a child of a `PropertyGroup` element.  
 
  \<Project>  
@@ -33,7 +33,7 @@ Contains a user defined property name and value. Every property used in an [!INC
 </Property>  
 ```  
 
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
 
 ### Attributes  
@@ -42,22 +42,22 @@ Contains a user defined property name and value. Every property used in an [!INC
 |---------------|-----------------|  
 |`Condition`|Optional attribute.<br /><br /> Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|  
 
-### Child Elements  
+### Child elements  
  None.  
 
-### Parent Elements  
+### Parent elements  
 
 |Element|Description|  
 |-------------|-----------------|  
 |[PropertyGroup](../msbuild/propertygroup-element-msbuild.md)|Grouping element for properties.|  
 
-## Text Value  
+## Text value  
  A text value is optional.  
 
  This text specifies the property value and may contain XML.  
 
 ## Remarks  
- Property names are limited to ASCII chars only. Property values are referenced in the project by placing the property name between "`$(`" and "`)`". For example, `$(builddir)\classes` would resolve to "build\classes", if the `builddir` property had the value `build`. For more information on properties, see [MSBuild Properties](../msbuild/msbuild-properties.md).  
+ Property names are limited to ASCII chars only. Property values are referenced in the project by placing the property name between "`$(`" and "`)`". For example, `$(builddir)\classes` would resolve to *build\classes*, if the `builddir` property had the value `build`. For more information on properties, see [MSBuild properties](../msbuild/msbuild-properties.md).  
 
 ## Example  
  The following code sets the `Optimization` property to `false` and the `DefaultVersion` property to `1.0` if the `Version` property is empty.  
@@ -69,6 +69,6 @@ Contains a user defined property name and value. Every property used in an [!INC
 </PropertyGroup>  
 ```  
 
-## See Also
-[MSBuild Properties](../msbuild/msbuild-properties.md)  
- [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
+## See also
+[MSBuild properties](../msbuild/msbuild-properties.md)  
+ [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

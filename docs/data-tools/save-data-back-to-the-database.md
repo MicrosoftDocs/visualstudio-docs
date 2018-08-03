@@ -179,7 +179,7 @@ You can commit the pending changes to the dataset by calling the <xref:System.Da
     > [!NOTE]
     > You can prevent the adapter from automatically committing the changes when you call the `Fill` method by setting the `AcceptChangesDuringFill` property of the adapter to `false`. If it's set to `false`, then the <xref:System.Data.DataRow.RowState%2A> of each row that's inserted during the fill is set to <xref:System.Data.DataRowState.Added>.
 
-- After you send dataset changes to another process, such as an XML Web service.
+- After you send dataset changes to another process, such as an XML web service.
 
     > [!CAUTION]
     > Committing the change this way erases any change information. Do not commit changes until after you finish performing operations that require your application to know what changes have been made in the dataset.

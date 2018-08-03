@@ -24,7 +24,7 @@ ms.workload:
   - "multiple"
 ---
 # Create bootstrapper packages
-The Setup program is a generic installer that can be configured to detect and install redistributable components such as Windows Installer (.msi) files and executable programs. The installer is also known as a bootstrapper. It is programmed through a set of XML manifests that specify the metadata to manage the installation of the component.  Each redistributable component, or prerequisite, that appears in the **Prerequisites** dialog box for ClickOnce is a bootstrapper package. A bootstrapper package is a group of directories and files that contain manifest files that describe how the prerequisite should be installed. 
+The Setup program is a generic installer that can be configured to detect and install redistributable components such as Windows Installer (*.msi*) files and executable programs. The installer is also known as a bootstrapper. It is programmed through a set of XML manifests that specify the metadata to manage the installation of the component.  Each redistributable component, or prerequisite, that appears in the **Prerequisites** dialog box for ClickOnce is a bootstrapper package. A bootstrapper package is a group of directories and files that contain manifest files that describe how the prerequisite should be installed. 
   
 The bootstrapper first detects whether any of the prerequisites are already installed. If prerequisites are not installed, first the bootstrapper shows the license agreements. Second, after the end user accepts the license agreements, the installation begins for the prerequisites. Otherwise, if all the prerequisites are detected, the bootstrapper just starts the application installer.  
   
@@ -39,7 +39,7 @@ To create a bootstrapper package, you have to create a product manifest and, for
   
 After these files are created, put the product manifest file into a folder named for the custom bootstrapper. The package manifest file goes into a folder named for the locale. For example, if the package manifest file is for English redistribution, put the file into a folder called en. Repeat this process for each locale, such as ja for Japanese and de for German. The final custom bootstrapper package could have the following folder structure.  
 
-    ```
+    ```xml
     CustomBootstrapperPackage
       product.xml
       CustomBootstrapper.msi
@@ -54,7 +54,7 @@ After these files are created, put the product manifest file into a folder named
         package.xml
     ```
   
-Next, copy the redistributable files into the bootstrapper folder location. For more information, see [How to: Create a Localized Bootstrapper Package](../deployment/how-to-create-a-localized-bootstrapper-package.md).
+Next, copy the redistributable files into the bootstrapper folder location. For more information, see [How to: Create a localized bootstrapper package](../deployment/how-to-create-a-localized-bootstrapper-package.md).
  
     *\Program Files\Microsoft Visual Studio 14.0\SDK\Bootstrapper\Packages*
     
@@ -72,7 +72,7 @@ On 64-bit systems, use the following registry key:
   
 Each redistributable component appears in its own subfolder under the packages directory. The product manifest and redistributable files must be put into this subfolder. Localized versions of the component and package manifests must be put in subfolders named according to Culture Name.  
   
-After these files are copied into the bootstrapper folder, the bootstrapper package automatically appears in the Visual Studio **Prerequisites** dialog box. If your custom bootstrapper package does not appear, close and then reopen the **Prerequisites** dialog box. For more information, see [Prerequisites Dialog Box](../ide/reference/prerequisites-dialog-box.md).  
+After these files are copied into the bootstrapper folder, the bootstrapper package automatically appears in the Visual Studio **Prerequisites** dialog box. If your custom bootstrapper package does not appear, close and then reopen the **Prerequisites** dialog box. For more information, see [Prerequisites dialog box](../ide/reference/prerequisites-dialog-box.md).  
   
 The following table shows the properties that are automatically populated by the bootstrapper.  
   
@@ -86,22 +86,22 @@ The following table shows the properties that are automatically populated by the
 |[AdminUser](/windows/desktop/Msi/adminuser)|This property is set if the user has administrator privileges. Values are true or false.|  
 |InstallMode|The installation mode indicates where the component needs to be installed from. Values include the following:<br /><br /> -   HomeSite - prerequisites are installed from the vendor's Web site.<br />-   SpecificSite - prerequisites are installed from the location that you select.<br />-   SameSite - prerequisites are installed from the same location as the application.|  
   
-## Separating Redistributables from Application Installations  
+## Separate redistributables from application installations  
 You can prevent your redistributable files from being deployed in Setup projects. To do this, create a redistributable list in the RedistList folder in your .NET Framework directory:  
   
 `%ProgramFiles%\Microsoft.NET\RedistList`  
   
-The redistributable list is an XML file that you should name using the following format: *Company Name*.*Component Name*.RedistList.xml. So, for example, if the component is called DataWidgets made by Acme, use *Acme.DataWidgets.RedistList.xml*. An example of the redistributable list's contents might resemble this:  
+The redistributable list is an XML file that you should name using the following format: *\<Company Name>.\<Component Name>.RedistList.xml*. So, for example, if the component is called DataWidgets made by Acme, use *Acme.DataWidgets.RedistList.xml*. An example of the redistributable list's contents might resemble this:  
   
-```  
+```xml  
 <?xml version="1.0" encoding="UTF-8"?>  
 <FileList Redist="Acme.DataWidgets" >  
 <File AssemblyName="Acme.DataGrid" Version="1.0.0.0" PublicKeyToken="b03f5f7f11d50a3a" Culture="neutral" ProcessorArchitecture="MSIL" InGAC="true" />  
 </FileList>  
 ```  
   
-## See Also  
- [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)   
- [Prerequisites Dialog Box](../ide/reference/prerequisites-dialog-box.md)   
- [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)   
- [Use the Visual Studio 2005 Bootstrapper to Kick-Start Your Installation](http://go.microsoft.com/fwlink/?LinkId=107537)
+## See also  
+ [How to: Install prerequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)   
+ [Prerequisites dialog box](../ide/reference/prerequisites-dialog-box.md)   
+ [Product and package schema reference](../deployment/product-and-package-schema-reference.md)   
+ [Use the Visual Studio 2005 bootstrapper to kick-start your installation](http://go.microsoft.com/fwlink/?LinkId=107537)

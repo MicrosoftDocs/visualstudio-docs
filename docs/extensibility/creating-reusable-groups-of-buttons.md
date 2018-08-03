@@ -16,18 +16,18 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Creating Reusable Groups of Buttons
-A command group is a collection of commands that always appear together on a menu or toolbar. Any command group can be re-used by assigning it to different parent menus in the CommandPlacements section of the .vsct file.  
+# Create reusable groups of buttons
+A command group is a collection of commands that always appear together on a menu or toolbar. Any command group can be re-used by assigning it to different parent menus in the CommandPlacements section of the *.vsct* file.  
   
  Command groups typically contain buttons, but they can also contain other menus or combo boxes.  
   
-### To create a reusable group of buttons  
+## To create a reusable group of buttons  
   
-1.  Create a VSIX project named `ReusableButtons`. For more information, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md).  
+1.  Create a VSIX project named `ReusableButtons`. For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).  
   
-2.  When the project opens, add a custom command item template named **ReusableCommand**. In the **Solution Explorer**, right-click the project node and select **Add / New Item**. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Custom Command**. In the **Name** field at the bottom of the window, change the command file name to **ReusableCommand.cs**.  
+2.  When the project opens, add a custom command item template named **ReusableCommand**. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. In the **Add New Item** dialog, go to **Visual C#** > **Extensibility** and select **Custom Command**. In the **Name** field at the bottom of the window, change the command file name to *ReusableCommand.cs*.  
   
-3.  In the .vsct file, go to the Symbols section and find the GuidSymbol element that contains groups and commands for the project. It should be named guidReusableCommandPackageCmdSet.  
+3.  In the *.vsct* file, go to the Symbols section and find the GuidSymbol element that contains groups and commands for the project. It should be named guidReusableCommandPackageCmdSet.  
   
 4.  Add an IDSymbol for each button that you will add to the group, as in the following example.  
   
@@ -51,7 +51,7 @@ A command group is a collection of commands that always appear together on a men
     </Groups>  
     ```  
   
-### To create a group of buttons for reuse  
+## To create a group of buttons for reuse  
   
 1.  You can put a command or menu in a group either by using the group as a parent in the definition of the command or menu, or by putting the command or menu in the group by using the CommandPlacements section.  
   
@@ -80,7 +80,7 @@ A command group is a collection of commands that always appear together on a men
     > [!NOTE]
     >  The value of the Priority field determines the position of the command in the new command group. Priorities set in the CommandPlacement element override those set in the item definition. Commands that have lower priority values are displayed before commands that have higher priority values. Duplicate priority values are permitted, but the relative position of commands that have the same priority value cannot be guaranteed because the order in which the **devenv /setup** command creates the final interface from the registry may not be consistent.  
   
-### To put a reusable group of buttons on a menu  
+## To put a reusable group of buttons on a menu  
   
 1.  Create an entry in the `CommandPlacements` section. Set the GUID and ID of the `CommandPlacement` element to those of your group, and set the parent GUID and ID to those of the target location.  
   
@@ -95,7 +95,7 @@ A command group is a collection of commands that always appear together on a men
     </CommandTable>  
     ```  
   
-     A command group can be included on more than one menu. The parent menu can be one that you created, one that is supplied by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (as described in ShellCmdDef.vsct or SharedCmdDef.vsct), or one that is defined in another VSPackage. The number of parenting layers is unlimited as long as the parent menu is eventually connected to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or to a shortcut menu that is displayed by a VSPackage.  
+     A command group can be included on more than one menu. The parent menu can be one that you created, one that is supplied by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (as described in *ShellCmdDef.vsct* or *SharedCmdDef.vsct*), or one that is defined in another VSPackage. The number of parenting layers is unlimited as long as the parent menu is eventually connected to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or to a shortcut menu that is displayed by a VSPackage.  
   
      The following example puts the group on the **Solution Explorer** toolbar, to the right of the other buttons.  
   

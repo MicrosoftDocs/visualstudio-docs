@@ -17,7 +17,7 @@ ms.workload:
 # How to: Update the Status Bar
 The **Status Bar** is a control bar located at the bottom of many application windows that contains one or more status text lines or indicators.  
   
-### To update the Status Bar  
+## To update the Status Bar  
   
 1.  Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> on each individual view object (DocView) that your editor provides, such as a form view and a code view.  
   
@@ -26,7 +26,7 @@ The **Status Bar** is a control bar located at the bottom of many application wi
     > [!NOTE]
     >  The IDE calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo%2A> only when your document window is initially activated. For the remainder of the time that your document window is active, you must update the **Status Bar** information as the state of your editor changes.  
   
-## Robust Programming  
+## Robust programming  
  A **Status Bar** contains four separate fields:  
   
 -   Status text  
@@ -37,11 +37,11 @@ The **Status Bar** is a control bar located at the bottom of many application wi
   
 -   Editor information  
   
- For more information, see [Status Bars](/cpp/mfc/status-bars).  
+ For more information, see [Status bars](/cpp/mfc/status-bars).  
   
  The IDE automatically calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser.SetInfo%2A> method of your <xref:Microsoft.VisualStudio.Shell.Interop.IVsStatusbarUser> implementation when your document window is activated.  
   
  The VSPackage implementer is responsible for updating the status text in the status bar. The IDE resets this string to "READY" if the status text field is set to empty text ("") at idle time.  
   
-## See Also  
- [Status Bars](/cpp/mfc/status-bars)
+## See also  
+ [Status bars](/cpp/mfc/status-bars)

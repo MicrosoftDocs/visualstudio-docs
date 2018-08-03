@@ -63,7 +63,7 @@ To access the **Services** page, select a project node in **Solution Explorer**,
 
  **Web settings service location**
 
- Specifies the location of the profile (Web settings) service.
+ Specifies the location of the profile (web settings) service.
 
  **Advanced**
 

@@ -26,10 +26,10 @@ ms.workload:
   
  The following sections describe the different types of digital certificates used in Authenticode, how certificates are validated using Certificate Authorities (CAs), the role of time-stamping in certificates, and the methods of storage available for certificates.  
   
-## Authenticode and Code Signing  
+## Authenticode and code signing  
  A *digital certificate* is a file that contains a cryptographic public/private key pair, along with metadata describing the publisher to whom the certificate was issued and the agency that issued the certificate.  
   
- There are various types of Authenticode certificates. Each one is configured for different types of signing. For [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications, you must have an Authenticode certificate that is valid for code signing. If you attempt to sign a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application with another type of certificate, such as a digital e-mail certificate, it will not work. For more information, see [Introduction to Code Signing](http://go.microsoft.com/fwlink/?LinkId=179452).  
+ There are various types of Authenticode certificates. Each one is configured for different types of signing. For [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications, you must have an Authenticode certificate that is valid for code signing. If you attempt to sign a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application with another type of certificate, such as a digital e-mail certificate, it will not work. For more information, see [Introduction to code signing](http://go.microsoft.com/fwlink/?LinkId=179452).  
   
  You can obtain a certificate for code signing in one of three ways:  
   
@@ -37,10 +37,10 @@ ms.workload:
   
 -   Receive one from a group in your organization responsible for creating digital certificates.  
   
--   Generate your own certificate by using the New-SelfSignedCertificate PowerShell cmdlet, or by using MakeCert.exe, which is included with the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)].  
+-   Generate your own certificate by using the New-SelfSignedCertificate PowerShell cmdlet, or by using *MakeCert.exe*, which is included with the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)].  
   
-### How Using Certificate Authorities Helps Users  
- A certificate generated using New-SelfSignedCertificate or the MakeCert.exe utility is commonly called a *self-cert* or a *test cert*. This kind of certificate works much the same way that a .snk file works in the .NET Framework. It consists solely of a public/private cryptographic key pair, and contains no verifiable information about the publisher. You can use self-certs to deploy [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications with high trust on an intranet. However, when these applications run on a client computer, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will identify them as coming from an Unknown Publisher. By default, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications signed with self-certs and deployed over the Internet cannot utilize Trusted Application Deployment.  
+### How using certificate authorities helps users  
+ A certificate generated using New-SelfSignedCertificate or the *MakeCert.exe* utility is commonly called a *self-cert* or a *test cert*. This kind of certificate works much the same way that a *.snk* file works in the .NET Framework. It consists solely of a public/private cryptographic key pair, and contains no verifiable information about the publisher. You can use self-certs to deploy [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications with high trust on an intranet. However, when these applications run on a client computer, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will identify them as coming from an Unknown Publisher. By default, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications signed with self-certs and deployed over the Internet cannot utilize Trusted Application Deployment.  
   
  By contrast, if you receive a certificate from a CA, such as a certificate vendor, or a department within your enterprise, the certificate offers more security for your users. It not only identifies the publisher of the signed software, but it verifies that identity by checking with the CA that signed it. If the CA is not the root authority, Authenticode will also "chain" back to the root authority to verify that the CA is authorized to issue certificates. For greater security, you should use a certificate issued by a CA whenever possible.  
   
@@ -51,7 +51,7 @@ ms.workload:
   
  To include a timestamp in an application server, a timestamp server must be available. For information about how to select a timestamp server, see [How to: Sign Application and Deployment Manifests](../ide/how-to-sign-application-and-deployment-manifests.md).  
   
-### Updating Expired Certificates  
+### Update expired certificates  
  In earlier versions of the .NET Framework, updating an application whose certificate had expired could cause that application to stop functioning. To resolve this problem, use one of the following methods:  
   
 -   Update the .NET Framework to version 2.0 SP1 or later on Windows XP, or version 3.5 or later on Windows Vista.  
@@ -60,12 +60,12 @@ ms.workload:
   
 -   Create a command-line assembly that updates the certificate. Step-by-step information about this process can be found at [Microsoft Support Article 925521](http://go.microsoft.com/fwlink/?LinkId=179454).  
   
-### Storing Certificates  
+### Store certificates  
   
--   You can store certificates as a .pfx file on your file system, or you can store them inside of a key container. A user on a Windows domain can have a number of key containers. By default, MakeCert.exe will store certificates in your personal key container, unless you specify that it should save it to a .pfx instead. Mage.exe and MageUI.exe, the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] tools for creating [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments, enable you to use certificates stored in either fashion.  
+-   You can store certificates as a *.pfx* file on your file system, or you can store them inside of a key container. A user on a Windows domain can have a number of key containers. By default, *MakeCert.exe* will store certificates in your personal key container, unless you specify that it should save it to a *.pfx* instead. *Mage.exe* and *MageUI.exe*, the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] tools for creating [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments, enable you to use certificates stored in either fashion.  
   
-## See Also  
- [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
- [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
- [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md)   
+## See also  
+ [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)   
+ [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md)   
+ [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md)   
  [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)

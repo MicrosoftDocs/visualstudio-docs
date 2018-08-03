@@ -11,7 +11,7 @@ manager: crdun
 ms.workload:
   - "multiple"
 ---
-# Cross-Platform mobile development in Visual Studio
+# Cross-platform mobile development in Visual Studio
 
 You can build apps for Android, iOS, and Windows devices by using Visual Studio.  As you design your app, use tools in Visual Studio to easily add connected services such as Office 365, Azure App Service, and Application Insights.
 
@@ -158,6 +158,6 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
 ## See Also
 
-- [Add Office 365 API's to a Visual Studio project](http://msdn.microsoft.com/library/office/dn605899\(v=office.15\).aspx)
+- [Add Office 365 APIs to a Visual Studio project](http://msdn.microsoft.com/library/office/dn605899\(v=office.15\).aspx)
 - [Azure App Services - Mobile Apps](https://azure.microsoft.com/services/app-service/mobile/)
 - [Visual Studio App Center](https://docs.microsoft.com/appcenter)

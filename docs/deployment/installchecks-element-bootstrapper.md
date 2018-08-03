@@ -18,12 +18,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;InstallChecks&gt; Element (Bootstrapper)
+# &lt;InstallChecks&gt; element (bootstrapper)
 The `InstallChecks` element supports starting a variety of tests against the local computer to make sure that all of the appropriate prerequisites for an application have been installed.  
   
 ## Syntax  
   
-```  
+```xml  
 <InstallChecks>  
     <AssemblyCheck   
         Property  
@@ -142,7 +142,7 @@ The `InstallChecks` element supports starting a variety of tests against the loc
 ## Example  
  The following code example demonstrates the `InstallChecks` element as it is used in the product file for the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].  
   
-```  
+```xml  
 <InstallChecks>  
     <ExternalCheck Property="DotNetInstalled" PackageFile="dotnetchk.exe" />  
     <RegistryCheck Property="IEVersion" Key="HKLM\Software\Microsoft\Internet Explorer" Value="Version" />  
@@ -157,7 +157,7 @@ The `InstallChecks` element supports starting a variety of tests against the loc
 |`FailIf`|If any `FailIf` condition evaluates to true, the package will fail. The rest of the conditions will not be evaluated.|  
 |`BypassIf`|If any `BypassIf` condition evaluates to true, the package will be bypassed. The rest of the conditions will not be evaluated.|  
   
-## Predefined Properties  
+## Predefined properties  
  The following table lists the `BypassIf` and `FailIf` elements:  
   
 |Property|Notes|Possible Values|  
@@ -170,11 +170,11 @@ The `InstallChecks` element supports starting a variety of tests against the loc
   
  For example, to block installation on a computer running Windows 95, use code such as the following:  
   
-```  
+```xml  
 <!-- Block install on Windows 95 -->  
     <FailIf Property="Version9X" Compare="VersionLessThan" Value="4.10" String="InvalidPlatform"/>  
 ```  
   
-## See Also  
- [\<Commands> Element](../deployment/commands-element-bootstrapper.md)   
- [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)
+## See also  
+ [\<Commands> element](../deployment/commands-element-bootstrapper.md)   
+ [Product and package schema reference](../deployment/product-and-package-schema-reference.md)

@@ -3,7 +3,7 @@ title: "JavaScript Console commands in Visual Studio | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/17/2017"
 ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
+ms.topic: "reference"
 helpviewer_keywords: 
   - "JavaScript Console commands [UWP apps]"
   - "JavaScript debugging, console [UWP apps]"

@@ -149,13 +149,13 @@ ms.workload:
   
     |File Name|Description|  
     |---------------|-----------------|  
-    |_catalogsmasterpage\_|The custom master page.|  
+    |\_catalogsmasterpage\_|The custom master page.|  
     |images_|The image file in the SharePoint file system.|  
     |SitePages_|The site page.|  
   
 3.  Choose the **Finish** button to import the selected items.  
   
-4.  In **Solution Explorer**, choose the _catalogsmasterpage\_ node, and set the value of its **Deployment Conflict Resolution** property to **Automatic**.  
+4.  In **Solution Explorer**, choose the \_catalogsmasterpage\_ node, and set the value of its **Deployment Conflict Resolution** property to **Automatic**.  
   
      This helps ensure that any deployment conflicts are resolved automatically.  
   

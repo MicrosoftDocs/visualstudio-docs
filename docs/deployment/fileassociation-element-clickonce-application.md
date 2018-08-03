@@ -18,12 +18,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;fileAssociation&gt; Element (ClickOnce Application)
+# &lt;fileAssociation&gt; element (ClickOnce application)
 Identifies a file extension to be associated with the application.  
   
 ## Syntax  
   
-```  
+```xml  
 <fileAssociation  
     xmlns="urn:schemas-microsoft-com:clickonce.v1"  
     extension  
@@ -33,7 +33,7 @@ Identifies a file extension to be associated with the application.
 />  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `fileAssociation` element is optional. The element has the following attributes.  
   
 |Attribute|Description|  
@@ -51,7 +51,7 @@ Identifies a file extension to be associated with the application.
 ## Example  
  The following code example illustrates `fileAssociation` elements in an application manifest for a text editor application deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]. This code example also includes the [\<file> Element](../deployment/file-element-clickonce-application.md) required by the `defaultIcon` attribute.  
   
-```  
+```xml  
 <file name="text.ico" size="4286">  
   <hash>  
     <dsig:Transforms>  
@@ -74,5 +74,5 @@ Identifies a file extension to be associated with the application.
 <fileAssociation xmlns="urn:schemas-microsoft-com:clickonce.v1" extension=".writing" description="Writings (ClickOnce)" progid="Writing.Document" defaultIcon="writing.ico" />  
 ```  
   
-## See Also  
- [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)
+## See also  
+ [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

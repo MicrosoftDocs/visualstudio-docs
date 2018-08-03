@@ -33,7 +33,7 @@ To begin this tutorial, you need a multithreaded application project. Follow the
   
 2.  In the **Project Type**s box, click the language of your choice: **Visual Basic**, **Visual C#**, or **Visual C++**.  
   
-3.  In the **Templates** box, choose **Console App**.  
+3.  Under **Windows Desktop**, choose **Console App**.  
   
 4.  In the **Name** box, type the name MyThreadWalkthroughApp.  
   

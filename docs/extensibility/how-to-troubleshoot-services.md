@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Troubleshoot Services
+# How to: Troubleshoot services
 There are several common problems that can occur when you try to get a service:  
   
 -   The service is not registered with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
@@ -33,11 +33,11 @@ IVsActivityLog log =
 if (log == null) return;  
 ```  
   
-### To troubleshoot a service  
+## To troubleshoot a service  
   
-1.  Examine the system registry to see whether the service has been correctly registered. For more information, see [How to: Provide a Service](../extensibility/how-to-provide-a-service.md).  
+1.  Examine the system registry to see whether the service has been correctly registered. For more information, see [How to: Provide a service](../extensibility/how-to-provide-a-service.md).  
   
-     The following .reg file fragment shows how the SVsTextManager service might be registered:  
+     The following *.reg* file fragment shows how the SVsTextManager service might be registered:  
   
     ```  
     [HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\<version number>\Services\{F5E7E71D-1401-11d1-883B-0000F87579D2}]  
@@ -55,7 +55,7 @@ if (log == null) return;
   
 3.  Be sure the VSPackage requesting the service has been sited. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] sites a VSPackage after constructing it and before calling <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A>.  
   
-     If you have code in a VSPackage constructor that needs a service, move it to the Initialize method.  
+     If you have code in a VSPackage constructor that needs a service, move it to the `Initialize` method.  
   
 4.  Be sure that you are using the correct service provider.  
   
@@ -63,7 +63,7 @@ if (log == null) return;
   
      If a tool window hosts a user control or any other control container, the container will be sited by the Windows component model and will not have access to any [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] services. You can call <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> to get a VSPackage service provider from within a control container.  
   
-## See Also  
- [List of Available Services](../extensibility/internals/list-of-available-services.md)   
- [Using and Providing Services](../extensibility/using-and-providing-services.md)   
- [Service Essentials](../extensibility/internals/service-essentials.md)
+## See also  
+ [List of available services](../extensibility/internals/list-of-available-services.md)   
+ [Use and provide services](../extensibility/using-and-providing-services.md)   
+ [Service essentials](../extensibility/internals/service-essentials.md)

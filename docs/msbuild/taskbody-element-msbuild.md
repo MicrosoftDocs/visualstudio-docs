@@ -19,8 +19,8 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# TaskBody Element (MSBuild)
-Contains the data that is passed to a `UsingTask``TaskFactory`. For more information, see [UsingTask Element (MSBuild)](../msbuild/usingtask-element-msbuild.md).  
+# TaskBody element (MSBuild)
+Contains the data that is passed to a `UsingTask` `TaskFactory`. For more information, see [UsingTask element (MSBuild)](../msbuild/usingtask-element-msbuild.md).  
 
  \<Project>  
  \<UsingTask>  
@@ -32,7 +32,7 @@ Contains the data that is passed to a `UsingTask``TaskFactory`. For more informa
 <TaskBody Evaluate="true/false" />  
 ```  
 
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
 
 ### Attributes  
@@ -41,13 +41,13 @@ Contains the data that is passed to a `UsingTask``TaskFactory`. For more informa
 |---------------|-----------------|  
 |`Evaluate`|Optional Boolean attribute.<br /><br /> If `true`, MSBuild evaluates any inner elements, and expands items and properties before it passes the information to the `TaskFactory` when the task is instantiated.|  
 
-### Child Elements  
+### Child elements  
 
 |Element|Description|  
 |-------------|-----------------|  
 |Data|The text between the `TaskBody` tags is sent verbatim to the `TaskFactory`.|  
 
-### Parent Elements  
+### Parent elements  
 
 |Element|Description|  
 |-------------|-----------------|  
@@ -69,7 +69,7 @@ Contains the data that is passed to a `UsingTask``TaskFactory`. For more informa
 </UsingTask>  
 ```  
 
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)   
+ [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

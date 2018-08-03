@@ -27,11 +27,11 @@ To access this dialog box, select a project node in **Solution Explorer**, and t
 
 **Grant the application access to its site of origin**
 
-If you select this check box, the application can access the Web site or server share on which it is published. By default, this option is selected.
+If you select this check box, the application can access the website or server share on which it is published. By default, this option is selected.
 
 **Debug this application as if it were downloaded from the following URL**
 
-If you have to allow the application to access the Web site or server share corresponding to the **Installation URL** you specified on the **Publish** page, enter that URL here. This option is available only when **Grant the application access to its site of origin** is selected.
+If you have to allow the application to access the website or server share corresponding to the **Installation URL** you specified on the **Publish** page, enter that URL here. This option is available only when **Grant the application access to its site of origin** is selected.
 
 ## See also
 

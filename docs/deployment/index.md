@@ -3,6 +3,7 @@ layout: LandingPage
 title: Deploying your Apps in Visual Studio | Microsoft Docs
 description: Learn how use Visual Studio 2017 to deploy applications, services, and components.
 ms.topic: landing-page
+ms.prod: visual-studio-dev15
 ms.technology: vs-ide-deployment
 ms.author: "mikejo"
 author: "mikejo5000"
@@ -44,7 +45,7 @@ Visual Studio provides several different tools to help you deploy your apps.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Deploy to a Local Folder</h3>
+                        <h3>Deploy to a local folder</h3>
                     </div>
                 </div>
             </div>
@@ -62,14 +63,14 @@ Visual Studio provides several different tools to help you deploy your apps.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Deploy to a Website or Network Share</h3>
+                        <h3>Deploy to a website or network share</h3>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-        <li>
+    <li>
         <a href="quickstart-deploy-to-azure.md">
         <div class="cardSize">
             <div class="cardPadding">
@@ -81,6 +82,24 @@ Visual Studio provides several different tools to help you deploy your apps.
                     </div>
                     <div class="cardText">
                         <h3>Deploy to Azure App Service</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="quickstart-deploy-to-linux.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/common/i_get-started.svg" alt="Deploy to Azure App Service">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Deploy to App Service on Linux</h3>
                     </div>
                 </div>
             </div>

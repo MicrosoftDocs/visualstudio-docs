@@ -20,17 +20,11 @@ Visual Studio provides many powerful features to help you analyze performance is
 
 The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If the **CPU Usage** tool described here does not give you the data that you need, the [other profiling tools](../profiling/Profiling-Tools.md) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time.
 
-> [!NOTE]
-> For .NET Core and ASP.NET Core, the CPU Usage tool currently does not provide accurate results with portable PBDs. Use full PDBs instead.
-
 ## Create a project
 
 1. In Visual Studio, choose **File** > **New Project**.
 
 1. Under **Visual C#**, choose **Web**, and then in the middle pane choose **ASP.NET Web Application (.NET Framework)**.
-
-    > [!NOTE]
-    > The CPU Usage tool is not currently supported in ASP.NET Core.
 
 1. Type a name like **MyProfilingApp_MVC** and click **OK**.
 

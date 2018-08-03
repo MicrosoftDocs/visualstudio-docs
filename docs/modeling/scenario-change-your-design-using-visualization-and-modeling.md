@@ -49,11 +49,11 @@ To find out more about these tools and the scenarios that they support, see:
 
 ## Scenario overview
 
-This scenario describes episodes from the software development lifecycles of two fictitious companies: Dinner Now and Lucerne Publishing. Dinner Now provides a Web-based meal delivery service in Seattle. Customers can order meals and pay for them on the Dinner Now Web site. The orders are then sent to the appropriate local restaurant for delivery. Lucerne Publishing, a company in New York, runs several businesses both off and on the Web. For example, they run a Web site where customers can post restaurant reviews.
+This scenario describes episodes from the software development lifecycles of two fictitious companies: Dinner Now and Lucerne Publishing. Dinner Now provides a Web-based meal delivery service in Seattle. Customers can order meals and pay for them on the Dinner Now website. The orders are then sent to the appropriate local restaurant for delivery. Lucerne Publishing, a company in New York, runs several businesses both off and on the Web. For example, they run a website where customers can post restaurant reviews.
 
 Lucerne recently acquired Dinner Now and wants to make the following changes:
 
-- Integrate their Web sites by adding restaurant review capabilities to Dinner Now.
+- Integrate their websites by adding restaurant review capabilities to Dinner Now.
 
 - Replace Dinner Now's payment system with Lucerne's system.
 

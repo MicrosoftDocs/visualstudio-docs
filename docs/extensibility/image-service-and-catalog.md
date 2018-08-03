@@ -10,7 +10,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Image Service and Catalog
+# Image service and catalog
 This cookbook contains guidance and best practices for adopting the Visual Studio Image Service and Image Catalog introduced in Visual Studio 2015.  
   
  The image service introduced in Visual Studio 2015 lets developers get the best images for the device and the user's chosen theme to display the image, including correct theming for the context in which they are displayed. Adopting the image service will help eliminate major pain points related to asset maintenance, HDPI scaling, and theming.  
@@ -38,7 +38,7 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
   
  ![Image Service Before and After](../extensibility/media/image-service-before-and-after.png "Image Service Before and After")  
   
-## How it works  
+## How it works
  The image service can supply a bitmapped image suitable for any supported UI framework:  
   
 -   WPF: BitmapSource  
@@ -61,7 +61,7 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
   
  **Image manifest files**  
   
- Image manifest (.imagemanifest) files are XML files that define a set of image assets, the monikers that represent those assets, and the real image or images that represent each asset. Image manifests can define standalone images or image lists for legacy UI support. Additionally, there are attributes that can be set either on the asset or on the individual images behind each asset to change when and how those assets are displayed.  
+ Image manifest (*.imagemanifest*) files are XML files that define a set of image assets, the monikers that represent those assets, and the real image or images that represent each asset. Image manifests can define standalone images or image lists for legacy UI support. Additionally, there are attributes that can be set either on the asset or on the individual images behind each asset to change when and how those assets are displayed.  
   
  **Image manifest schema**  
   
@@ -123,7 +123,7 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 |ManifestFolder|The folder containing the manifest file|  
 |MyDocuments|The full path of the My Documents folder of the current user|  
 |ProgramFiles|The value of the %ProgramFiles% environment variable|  
-|System|The Windows\System32 folder|  
+|System|The *Windows\System32* folder|  
 |WinDir|The value of the %WinDir% environment variable|  
   
  **Image**  
@@ -160,7 +160,8 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 |-|-|  
 |**Attribute**|**Definition**|  
 |Uri|[Required] A URI that defines where the image can be loaded from. It can be one of the following:<br /><br /> -   A [Pack URI](/dotnet/framework/wpf/app-development/pack-uris-in-wpf) using the application:/// authority<br />-   An absolute component resource reference<br />-   A path to a file containing a native resource|  
-|Background|[Optional] Indicates what on kind of background the source is intended to be used.<br /><br /> It can be one of the following:<br /><br /> *Light:* The source can be used on a light background.<br /><br /> *Dark:*The source can be used on a dark background.<br /><br /> *HighContrast:* The source can be used on any background in High Contrast mode.<br /><br /> *HighContrastLight:* The source can be used on a light background in High Contrast mode.<br /><br /> *HighContrastDark:* The source can be used on a dark background in High Contrast mode.<br /><br /> If the Background attribute is omitted, the source can be used on any background.<br /><br /> If Background is *Light*, *Dark*, *HighContrastLight*, or *HighContrastDark*, the source's colors are never inverted. If Background is omitted or set to *HighContrast*, the inversion of the source's colors is controlled by the image's **AllowColorInversion** attribute.|  
+|Background|[Optional] Indicates what on kind of background the source is intended to be used.<br /><br /> It can be one of the following:<br /><br /> *Light:* The source can be used on a light background.<br /><br /> *Dark:* The source can be used on a dark background.<br /><br /> *HighContrast:* The source can be used on any background in High Contrast mode.<br /><br /> *HighContrastLight:* The source can be used on a light background in High Contrast mode.<br /><br /> *HighContrastDark:* The source can be used on a dark background in High Contrast mode.<br /><br /> If the Background attribute is omitted, the source can be used on any background.<br /><br /> If Background is *Light*, *Dark*, *HighContrastLight*, or *HighContrastDark*, the source's colors are never inverted. If Background is omitted or set to *HighContrast*, the inversion of the source's colors is controlled by the image's **AllowColorInversion** attribute.|  
+
 |||  
   
  A \<Source> element can have exactly one of the following optional subelements:  
@@ -210,37 +211,37 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 ### First steps (managed)  
  To use the image service, you need to add references to some or all of the following assemblies to your project:  
   
--   **Microsoft.VisualStudio.ImageCatalog.dll**  
+-   *Microsoft.VisualStudio.ImageCatalog.dll*  
   
-    -   Required if you use the built-in image catalog KnownMonikers  
+    -   Required if you use the built-in image catalog **KnownMonikers**.  
   
--   **Microsoft.VisualStudio.Imaging.dll**  
+-   *Microsoft.VisualStudio.Imaging.dll*  
   
-    -   Required if you use **CrispImage** and **ImageThemingUtilities** in your WPF UI  
+    -   Required if you use **CrispImage** and **ImageThemingUtilities** in your WPF UI.
   
--   **Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll**  
+-   *Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll*  
   
-    -   Required if you use the **ImageMoniker** and **ImageAttributes** types  
+    -   Required if you use the **ImageMoniker** and **ImageAttributes** types.  
   
-    -   **EmbedInteropTypes** should be set to true  
+    -   **EmbedInteropTypes** should be set to true.  
   
--   **Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime**  
+-   *Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime*  
   
-    -   Required if you use the **IVsImageService2** type  
+    -   Required if you use the **IVsImageService2** type.  
   
-    -   **EmbedInteropTypes** should be set to true  
+    -   **EmbedInteropTypes** should be set to true.  
   
--   **Microsoft.VisualStudio.Utilities.dll**  
+-   *Microsoft.VisualStudio.Utilities.dll*  
   
-    -   Required if you use the **BrushToColorConverter** for the ImageThemingUtilities.**ImageBackgroundColor** in your WPF UI  
+    -   Required if you use the **BrushToColorConverter** for the **ImageThemingUtilities.ImageBackgroundColor** in your WPF UI.  
   
--   **Microsoft.VisualStudio.Shell.\<VSVersion>.0**  
+-   *Microsoft.VisualStudio.Shell.\<VSVersion>.0*  
   
-    -   Required if you use the **IVsUIObject** type  
+    -   Required if you use the **IVsUIObject** type.  
   
--   **Microsoft.VisualStudio.Shell.Interop.10.0.dll**  
+-   *Microsoft.VisualStudio.Shell.Interop.10.0.dll*  
   
-    -   Required if you use the WinForms-related UI helpers  
+    -   Required if you use the WinForms-related UI helpers.  
   
     -   **EmbedInteropTypes** should be set to true  
   
@@ -307,9 +308,9 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
   
  Updating existing WPF UI is a relatively simple process that consists of three basic steps:  
   
-1.  Replace all \<Image> elements in your UI with \<CrispImage> elements  
+1.  Replace all \<Image> elements in your UI with \<CrispImage> elements.  
   
-2.  Change all the Source attributes to Moniker attributes  
+2.  Change all the Source attributes to Moniker attributes.  
   
     -   If the image never changes and you are using **KnownMonikers**, then statically bind that property to the **KnownMoniker**. (See the above example.)  
   
@@ -394,11 +395,11 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
 ```  
   
 ## How do I use image monikers in a new tool window?  
- The VSIX package project template was updated for Visual Studio 2015. To create a new tool window, right-click on the VSIX project and select "Add New Item..." (Ctrl+Shift+A). Under the Extensibility node for the project language, select "Custom Tool Window," give the tool window a name, and press the "Add" button.  
+ The VSIX package project template was updated for Visual Studio 2015. To create a new tool window, right-click on the VSIX project and select **Add** > **New Item** (**Ctrl**+**Shift**+**A**). Under the Extensibility node for the project language, select **Custom Tool Window**, give the tool window a name, and press the **Add** button.  
   
  These are the key places to use monikers in a tool window. Follow the instructions for each:  
   
-1.  The tool window tab when the tabs get small enough (also used in the Ctrl+Tab window switcher).  
+1.  The tool window tab when the tabs get small enough (also used in the **Ctrl**+**Tab** window switcher).  
   
      Add this line to the constructor for the class that derives from the **ToolWindowPane** type:  
   
@@ -409,7 +410,7 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
   
 2.  The command to open the tool window.  
   
-     In the .vsct file for the package, edit the tool window's command button:  
+     In the *.vsct* file for the package, edit the tool window's command button:  
   
     ```xml  
     <Button guid="guidPackageCmdSet" id="CommandId" priority="0x0100" type="Button">  
@@ -430,7 +431,7 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
   
  These are the key places to use monikers in a tool window. Follow the instructions for each:  
   
-1.  The tool window tab when the tabs get small enough (also used in the Ctrl+Tab window switcher).  
+1.  The tool window tab when the tabs get small enough (also used in the **Ctrl**+**Tab** window switcher).  
   
     1.  Remove these lines (if they exist) in the constructor for the class that derives from the **ToolWindowPane** type:  
   
@@ -439,14 +440,14 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
         this.BitmapIndex = <Value>;  
         ```  
   
-    2.  See step #1 of the "How Do I Use Image Monikers in a New Tool Window?" section above.  
+    2.  See step #1 of the "How do I use image monikers in a new tool window?" section above.  
   
 2.  The command to open the tool window.  
   
-    -   See step #2 of the "How Do I Use Image Monikers in a New Tool Window?" section above.  
+    -   See step #2 of the "How do I use image monikers in a new tool window?" section above.  
   
 ## How do I use image monikers in a .vsct file?  
- Update your .vsct file as indicated by the commented lines below:  
+ Update your *.vsct* file as indicated by the commented lines below:  
   
 ```xml  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -488,7 +489,7 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
   
  **What if my .vsct file also needs to be read by older versions of Visual Studio?**  
   
- Older versions of Visual Studio do not recognize the **IconIsMoniker** command flag. You can use images from the image service on versions of Visual Studio that support it, but continue to use old-style images on older versions of Visual Studio. To do this, you'd leave the .vsct file unchanged (and therefore compatible with older versions of Visual Studio), and create a CSV (comma-separated values) file that maps from GUID/ID pairs defined in a .vsct file's \<Bitmaps> element to image moniker GUID/ID pairs.  
+ Older versions of Visual Studio do not recognize the **IconIsMoniker** command flag. You can use images from the image service on versions of Visual Studio that support it, but continue to use old-style images on older versions of Visual Studio. To do this, you'd leave the *.vsct* file unchanged (and therefore compatible with older versions of Visual Studio), and create a CSV (comma-separated values) file that maps from GUID/ID pairs defined in a *.vsct* file's \<Bitmaps> element to image moniker GUID/ID pairs.  
   
  The format of the mapping CSV file is:  
   
@@ -504,7 +505,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 [ProvideMenuResource("MyPackage.ctmenu", 1, IconMappingFilename="IconMappings.csv")]  
 ```  
   
- The **IconMappingFilename** is either a relative path implicitly rooted at $PackageFolder$ (as in the example above), or an absolute path explicitly rooted at a directory defined by an environment variable, such as @"%UserProfile%\dir1\dir2\MyMappingFile.csv".  
+ The **IconMappingFilename** is either a relative path implicitly rooted at $PackageFolder$ (as in the example above), or an absolute path explicitly rooted at a directory defined by an environment variable, such as *@"%UserProfile%\dir1\dir2\MyMappingFile.csv"*.  
   
 ## How do I port a project system?  
  **How to supply ImageMonikers for a project**  
@@ -525,7 +526,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
   
  **Using the Project System Extensibility SDK**  
   
- Follow the instructions at [Provide custom icons for the Project Type/Item type](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/scenario/provide_custom_icons_for_the_project_or_item_type.md) to customize your CPS images. More information about CPS can be found at [Visual Studio Project System Extensibility Documentation](https://github.com/Microsoft/VSProjectSystem)  
+ Follow the instructions at [Provide custom icons for the Project Type/Item type](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/scenario/provide_custom_icons_for_the_project_or_item_type.md) to customize your CPS images. More information about CPS can be found at [Visual Studio Project System extensibility documentation](https://github.com/Microsoft/VSProjectSystem)  
   
  **Manually use ImageMonikers**  
   
@@ -575,7 +576,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
   
         -   \<moniker> should be replaced with the **KnownMoniker** that matches the image but with the "KnownMonikers." removed from the name.  
   
-    -   Add <Import Manifest="$(ManifestFolder)\\<Relative install dir path to\>\Microsoft.VisualStudio.ImageCatalog.imagemanifest" /\> to the top of the \<Symbols> section.  
+    -   Add <Import Manifest="$(ManifestFolder)\\<Relative install dir path to *\>\Microsoft.VisualStudio.ImageCatalog.imagemanifest" /\*> to the top of the \<Symbols> section.  
   
         -   The relative path is determined by the deployment location defined in the setup authoring for the manifest.  
   
@@ -659,15 +660,15 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
   
  **ManifestFromResources**  
   
- The Manifest from Resources Tool takes a list of image resources (PNG or XAML) and generates an image manifest file for using those images with the image service.  
+ The Manifest from Resources tool takes a list of image resources (PNG or XAML) and generates an image manifest file for using those images with the image service.  
   
  **ManifestToCode**  
   
- The Manifest to Code Tool takes an image manifest file and generates a wrapper file for referencing the manifest values in code (C++, C#, or VB) or .vsct files.  
+ The Manifest to Code tool takes an image manifest file and generates a wrapper file for referencing the manifest values in code (C++, C#, or VB) or *.vsct* files.  
   
  **ImageLibraryViewer**  
   
- The Image Library Viewer Tool can load image manifests and allows the user to manipulate them in the same way Visual Studio would to make sure the manifest is authored correctly. The user can alter background, sizes, DPI setting, High Contrast, and other settings. It also displays loading information to find errors in the manifests and displays source information for each image in the manifest.  
+ The Image Library Viewer tool can load image manifests and allows the user to manipulate them in the same way Visual Studio would to make sure the manifest is authored correctly. The user can alter background, sizes, DPI setting, High Contrast, and other settings. It also displays loading information to find errors in the manifests and displays source information for each image in the manifest.  
   
 ## FAQ  
   
@@ -677,13 +678,13 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
   
 -   How do I deploy an image manifest with my extension?  
   
-    -   Add the .imagemanifest file to your project.  
+    -   Add the *.imagemanifest* file to your project.  
   
     -   Set "Include in VSIX" to True.  
   
 -   I am updating my CPS Project System. What happened to **ImageName** and **StockIconService**?  
   
-    -   o   These were removed when CPS was updated to use monikers. You no longer need to call the **StockIconService**, just pass the desired **KnownMoniker** to the method or property using the **ToProjectSystemType()** extension method in the CPS utilities. You can find a mapping from **ImageName** to **KnownMonikers** below:  
+    -   These were removed when CPS was updated to use monikers. You no longer need to call the **StockIconService**, just pass the desired **KnownMoniker** to the method or property using the **ToProjectSystemType()** extension method in the CPS utilities. You can find a mapping from **ImageName** to **KnownMonikers** below:  
   
         |||  
         |-|-|  

@@ -16,8 +16,8 @@ Visual Studio gives you a lot of extensibility options. You can create your own 
 ## Extend Visual Studio  
  You can use the Visual Studio SDK to extend just about every part of Visual Studio: commands, menus, windows, editors, and projects. To find out more, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
-## Create Your Own SDKs  
- Find out how to create, package, and deploy your own platform and extension SDKs: [Creating a Software Development Kit](../extensibility/creating-a-software-development-kit.md).  
+## Create your own SDKs  
+ Find out how to create, package, and deploy your own platform and extension SDKs: [Create a software development kit](../extensibility/creating-a-software-development-kit.md).  
   
-## Roslyn Extensibility  
- Find out how to use Roslyn for extensibility: [.NET Compiler Platform ("Roslyn") Extensibility](../extensibility/dotnet-compiler-platform-roslyn-extensibility.md).
+## Roslyn extensibility  
+ Find out how to use Roslyn for extensibility: [.NET Compiler Platform ("Roslyn") extensibility](../extensibility/dotnet-compiler-platform-roslyn-extensibility.md).
