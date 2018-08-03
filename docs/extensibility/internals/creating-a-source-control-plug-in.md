@@ -29,7 +29,7 @@ The Visual Studio SDK provides resources that enable you to add source control c
  [Test guide](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)  
  Provides guidance about how to test the installation and operation of a source control plug-in.  
   
-## Related Sections  
+## Related sections  
  [Create a source control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)  
  Discusses how to create a source control VSPackage that not only supplies source control functionality but replaces [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] source control UI.  
   
