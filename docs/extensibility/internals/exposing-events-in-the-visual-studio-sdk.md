@@ -24,7 +24,7 @@ ms.workload:
   
 1.  The environment starts.  
   
-2.  It reads from the registry all value names under the **Automation**, **AutomationEvents** and **AutomationProperties** keys of all VSPackages, and stores those names in a table.  
+2.  It reads from the registry all value names under the **Automation**, **AutomationEvents**, and **AutomationProperties** keys of all VSPackages, and stores those names in a table.  
   
 3.  An automation consumer calls, in this example, `DTE.Events.AutomationProjectsEvents` or `DTE.Events.AutomationProjectItemsEvents`.  
   
@@ -60,7 +60,7 @@ ms.workload:
  ![Visual Studio project events](../../extensibility/internals/media/projectevents.gif "ProjectEvents")  
 Automation model for events  
   
- The class `CProjectEventsContainer` represents the source object for *BscProjectsEvents*, while `CProjectItemsEventsContainer` represents the source object for *BscProjectItemsEvents*.  
+ The class `CProjectEventsContainer` represents the source object for *BscProjectsEvents*, and `CProjectItemsEventsContainer` represents the source object for *BscProjectItemsEvents*.  
   
  In most cases, you must return a new object for every event request because most event objects take a filter object. When you fire your event, check this filter to verify that the event handler is being called.  
   
