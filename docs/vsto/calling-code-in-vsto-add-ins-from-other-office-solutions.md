@@ -94,18 +94,18 @@ ms.workload:
  [!code-csharp[Trin_AddInInteropWalkthrough#1](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/ThisAddIn.cs#1)]
  [!code-vb[Trin_AddInInteropWalkthrough#1](../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/ThisAddIn.vb#1)]  
   
- When your VSTO Add-in is loaded, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] calls the <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> method. The runtime assigns the returned object to the <xref:Microsoft.Office.Core.COMAddIn.Object?displayProperty=nameWithType> property of a <xref:Microsoft.Office.Core.COMAddIn> object that represents your VSTO Add-in. This <xref:Microsoft.Office.Core.COMAddIn> object is available to other Office solutions, and to solutions that automate Office.  
+ When your VSTO Add-in is loaded, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] calls the <xref:Microsoft.Office.Tools.AddInBase.RequestComAddInAutomationService%2A> method. The runtime assigns the returned object to the COMAddIn.Object property of a <xref:Microsoft.Office.Core.COMAddIn> object that represents your VSTO Add-in. This <xref:Microsoft.Office.Core.COMAddIn> object is available to other Office solutions, and to solutions that automate Office.  
   
 ## Access objects from other solutions  
  To call the exposed object in your VSTO Add-in, perform the following steps in the client solution:  
   
 1.  Get the <xref:Microsoft.Office.Core.COMAddIn> object that represents the exposed VSTO Add-in. Clients can access all of the available VSTO Add-ins by using the `Application.COMAddIns` property in the object model of the host Office application.  
   
-2.  Access the <xref:Microsoft.Office.Core.COMAddIn.Object> property of the <xref:Microsoft.Office.Core.COMAddIn> object. This property returns the exposed object from the VSTO Add-in.  
+2.  Access the COMAddIn.Object property of the <xref:Microsoft.Office.Core.COMAddIn> object. This property returns the exposed object from the VSTO Add-in.  
   
 3.  Call the members of the exposed object.  
   
- The way that you use the return value of the <xref:Microsoft.Office.Core.COMAddIn.Object> property is different for VBA clients and non-VBA clients. For out-of-process clients, additional code is necessary to avoid a possible race condition.  
+ The way that you use the return value of the COMAddIn.Object property is different for VBA clients and non-VBA clients. For out-of-process clients, additional code is necessary to avoid a possible race condition.  
   
 ### Access objects from VBA solutions  
  The following code example demonstrates how to use VBA to call a method that is exposed by a VSTO Add-in. This VBA macro calls a method named `ImportData` that is defined in a VSTO Add-in that is named **ExcelImportData**. To see this code in the context of a larger walkthrough, see [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md).  
@@ -121,7 +121,7 @@ End Sub
 ```  
   
 ### Access objects from non-VBA solutions  
- In a non-VBA solution, you must cast the <xref:Microsoft.Office.Core.COMAddIn.Object> property value to the interface it implements, and then you can call the exposed methods on the interface object. The following code example demonstrates how to call the `ImportData` method from a different VSTO Add-in that was created by using the Office developer tools in Visual Studio.  
+ In a non-VBA solution, you must cast the COMAddIn.Object property value to the interface it implements, and then you can call the exposed methods on the interface object. The following code example demonstrates how to call the `ImportData` method from a different VSTO Add-in that was created by using the Office developer tools in Visual Studio.  
   
 ```vb  
 Dim addIn As Office.COMAddIn = Globals.ThisAddIn.Application.COMAddIns.Item("ExcelImportData")  
@@ -137,7 +137,7 @@ ExcelImportData.IAddInUtilities utilities = (ExcelImportData.IAddInUtilities)add
 utilities.ImportData();  
 ```  
   
- In this example, if you try to cast the value of the <xref:Microsoft.Office.Core.COMAddIn.Object> property to the `AddInUtilities` class rather than the `IAddInUtilities` interface, the code will throw an <xref:System.InvalidCastException>.  
+ In this example, if you try to cast the value of the COMAddIn.Object property to the `AddInUtilities` class rather than the `IAddInUtilities` interface, the code will throw an <xref:System.InvalidCastException>.  
   
 ## See also  
  [Program VSTO Add-Ins](../vsto/programming-vsto-add-ins.md)   
