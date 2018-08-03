@@ -13,15 +13,18 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Overriding and Extending the Generated Classes
+
 Your DSL Definition is a platform on which you can build a powerful set of tools that are based on a domain-specific language. Many extensions and adaptations can be made by overriding and extending the classes that are generated from the DSL Definition. These classes include not just the domain classes that you have explicitly defined in the DSL Definition diagram, but also other classes that define the toolbox, explorer, serialization, and so on.
 
 ## Extensibility Mechanisms
- Several mechanisms are provided to allow you to extend the generated code.
+
+Several mechanisms are provided to allow you to extend the generated code.
 
 ### Overriding methods in a partial class
- Partial class definitions allow a class to be defined in more than one place. This allows you to separate the generated code from the code that you write yourself. In your manually-written code, you can override classes inherited by the generated code.
 
- For example, if in your DSL Definition you define a domain class named `Book`, you could write custom code that adds override methods:
+Partial class definitions allow a class to be defined in more than one place. This allows you to separate the generated code from the code that you write yourself. In your manually written code, you can override classes inherited by the generated code.
+
+For example, if in your DSL Definition you define a domain class named `Book`, you could write custom code that adds override methods:
 
  `public partial class Book`
 
@@ -38,7 +41,7 @@ Your DSL Definition is a platform on which you can build a powerful set of tools
  `} }`
 
 > [!NOTE]
->  To override methods in a generated class, always write your code in a file that is separated from the generated files. Typically, the file is contained in a folder that is named CustomCode. If you make changes to the generated code, they will be lost when you regenerate the code from the DSL Definition.
+> To override methods in a generated class, always write your code in a file that is separated from the generated files. Typically, the file is contained in a folder that is named CustomCode. If you make changes to the generated code, they will be lost when you regenerate the code from the DSL Definition.
 
  To discover what methods you can override, type **override** in the class, followed by a space. The IntelliSense tooltip will tell you what methods can be overridden.
 

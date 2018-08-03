@@ -71,7 +71,7 @@ The properties of the attribute include:
 
     - Member
 
-- **Target** - An identifier that is used to specify the target on which the warning is being suppressed. It must contain a fully-qualified item name.
+- **Target** - An identifier that is used to specify the target on which the warning is being suppressed. It must contain a fully qualified item name.
 
 ## SuppressMessage usage
 
@@ -153,7 +153,7 @@ Global-level suppressions are the only way to suppress messages that refer to co
 `[module: SuppressMessage("Microsoft.Design", "CA1055:AbstractTypesDoNotHavePublicConstructors", Scope="member", Target="Microsoft.Tools.FxCop.Type..ctor()")]`
 
 > [!NOTE]
-> `Target` always contains the fully-qualified item name.
+> `Target` always contains the fully qualified item name.
 
 ## Global suppression file
 
