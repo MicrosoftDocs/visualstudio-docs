@@ -18,7 +18,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Expose Lists of Symbols Provided by the Library to the Object Manager
+# How to: Expose Lists of symbols provided by the library to the object manager
 The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** and **Find Symbol Results**, pass requests for new data to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] object manager. The object manager finds the appropriate libraries and requests new lists of symbols. The libraries respond by providing requested data to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] object manager through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2> interface. The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] object manager calls the methods in <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2> interface to obtain the data and uses it to populate or update the views of the symbol-browsing tools.  
   
  A library may get requests for data when the tool is invoked, the node is expanded, or the view is refreshed. When a symbol-browsing tool is invoked for the first time, the object manager requests the library to provide the top-level list. When the user expands a list node, the library provides a list of children under that node. Every object manager inquiry contains an index of the item of interest. To display a new list, the object manager must determine how many items are in the list, the type of the items, their names, accessibility, and other properties.  
@@ -28,9 +28,8 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
 >   
 >  For native code symbol provider implementation, use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectList2> interface.  
   
-## Providing Lists of Symbols to the Object Manager  
   
-#### To provide lists of symbols to the object manager  
+## To provide lists of symbols to the object manager  
   
 1.  Get the number of items in the list of symbols by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleObjectList2.GetItemCount%2A> method. The following example demonstrates how the object manager obtains the information on the number of items in the list.  
   
@@ -463,8 +462,8 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
   
     ```  
   
-## See Also  
- [Supporting Symbol-Browsing Tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)   
- [How to: Register a Library with the Object Manager](../../extensibility/internals/how-to-register-a-library-with-the-object-manager.md)   
- [How to: Identify Symbols in a Library](../../extensibility/internals/how-to-identify-symbols-in-a-library.md)   
- [Legacy Language Service Extensibility](../../extensibility/internals/legacy-language-service-extensibility.md)
+## See also  
+ [Support symbol-browsing tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)   
+ [How to: Register a library with the object manager](../../extensibility/internals/how-to-register-a-library-with-the-object-manager.md)   
+ [How to: Identify symbols in a library](../../extensibility/internals/how-to-identify-symbols-in-a-library.md)   
+ [Legacy language service extensibility](../../extensibility/internals/legacy-language-service-extensibility.md)
