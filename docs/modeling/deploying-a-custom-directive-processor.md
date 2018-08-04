@@ -137,7 +137,7 @@ There are several ways of creating a .vsix file. The following procedure describ
 
  Place the following attribute on your package class:
 
-```
+```csharp
 [ProvideDirectiveProcessor(typeof(DirectiveProcessorClass), "DirectiveProcessorName", "Directive processor description.")]
 ```
 

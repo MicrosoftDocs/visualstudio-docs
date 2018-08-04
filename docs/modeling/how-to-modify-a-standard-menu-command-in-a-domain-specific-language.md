@@ -53,7 +53,7 @@ Create a new file that contains a partial declaration of the command set class.
 
 3.  In the new file, write a partial declaration that has the same namespace and name as the generated partial class. For example:
 
-    ```
+    ```csharp
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.Design;

@@ -57,7 +57,7 @@ You can add menu commands to your domain-specific language (DSL) so that your us
 
 2.  In the `Commands` element, define one or more buttons and a group. A *button* is an item on the menu. A *group* is a section in the menu. To define these items, add the following elements:
 
-    ```
+    ```xml
     <!-- Define a group - a section in the menu -->
     <Groups>
       <Group guid="guidCustomMenuCmdSet" id="grpidMyMenuGroup" priority="0x0100">
@@ -88,7 +88,7 @@ You can add menu commands to your domain-specific language (DSL) so that your us
 
      To do this, add the following elements in the `CommandTable` element after the `Commands` element.
 
-    ```
+    ```xml
     <VisibilityConstraints>
       <!-- Ensures the command is only loaded for this DSL -->
       <VisibilityItem guid="guidCustomMenuCmdSet" id="cmdidMyContextMenuCommand"
@@ -98,7 +98,7 @@ You can add menu commands to your domain-specific language (DSL) so that your us
 
 4.  Define the names that you used for the guids and ids. To do this, add a `Symbols` element in the `CommandTable` element after the `Commands` element.
 
-    ```
+    ```xml
     <Symbols>
       <!-- Substitute a unique GUID for the placeholder: -->
       <GuidSymbol name="guidCustomMenuCmdSet"
@@ -165,7 +165,7 @@ You can add menu commands to your domain-specific language (DSL) so that your us
 ### Extend the Command Set class
  Your command set code will typically need to import the following namespaces:
 
-```
+```csharp
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
@@ -177,7 +177,7 @@ using Microsoft.VisualStudio.Modeling.Shell;
 
  Adjust the namespace and the class name to match those in the generated CommandSet.cs:
 
-```
+```csharp
 namespace Company.Language1 /* Make sure this is correct */
 {
   // Same class as the generated class.
@@ -192,7 +192,7 @@ namespace Company.Language1 /* Make sure this is correct */
 
  In this example, the command is visible only when the user has selected a particular type of shape, and is enabled only when at least one of the selected elements is in a particular state. The example is based on the Class Diagram DSL template, and ClassShape and ModelClass are types that are defined in the DSL:
 
-```
+```csharp
 private void OnStatusMyContextMenuCommand(object sender, EventArgs e)
 {
   MenuCommand command = sender as MenuCommand;
@@ -238,7 +238,7 @@ private void OnStatusMyContextMenuCommand(object sender, EventArgs e)
 
  In this example, `ClassShape`, `ModelClass`, and `Comment` are types that are defined in the DSL, which is derived from the Class Diagram DSL template.
 
-```
+```csharp
 private void OnMenuMyContextMenuCommand(object sender, EventArgs e)
 {
   MenuCommand command = sender as MenuCommand;
@@ -280,7 +280,7 @@ private void OnMenuMyContextMenuCommand(object sender, EventArgs e)
 ### Register the command
  Repeat in C# the declarations of the GUID and ID values that you made in the Symbols section of CommandSet.vsct:
 
-```
+```csharp
 private Guid guidCustomMenuCmdSet =
     new Guid("00000000-0000-0000-0000-000000000000");
 private const int grpidMyMenuGroup = 0x01001;
@@ -294,7 +294,7 @@ private const int cmdidMyContextMenuCommand = 1;
 
  Register your menu commands as part of this command set. `GetMenuCommands()` is called once when the diagram is initialized:
 
-```
+```csharp
 protected override IList<MenuCommand> GetMenuCommands()
 {
   // Get the list of generated commands.

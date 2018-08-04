@@ -785,7 +785,7 @@ The sections in the following table include commands that are global in that you
 |Edit.CollapseAllOutlining|**Ctrl+M, Ctrl+A**|
 |Edit.CollapseCurrentRegion|**Ctrl+M, Ctrl+S**|
 |Edit.CollapseTag|**Ctrl+M, Ctrl+T**|
-|Edit.CollapsetoDefinitions|**Ctrl+M, Ctrl+O**|
+|Edit.CollapseToDefinitions|**Ctrl+M, Ctrl+O**|
 |Edit.CommentSelection|**Ctrl+K, Ctrl+C**|
 |Edit.CompleteWord|**Ctrl+Space**<br /><br /> or<br /><br /> **Alt+Right Arrow**|
 |Edit.CopyParameterTip|**Ctrl+Shift+Alt+C**|

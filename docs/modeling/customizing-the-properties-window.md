@@ -126,7 +126,7 @@ You can customize the appearance and behavior of the properties window in your d
 ### Setting a Property Editor
  Add a CLR attribute to the domain property, in the following form:
 
-```
+```csharp
 [System.ComponentModel.Editor (
    typeof(AnEditor),
    typeof(System.Drawing.Design.UITypeEditor))]
@@ -145,7 +145,7 @@ You can customize the appearance and behavior of the properties window in your d
 
 2.  Select the new property. In the **Custom Attribute** field in the Properties window, enter the following attribute. To enter this attribute, click the ellipsis **[...]** and then enter the attribute name and the parameters separately:
 
-    ```
+    ```csharp
     [System.ComponentModel.Editor (
        typeof(System.Windows.Forms.Design.FileNameEditor)
        , typeof(System.Drawing.Design.UITypeEditor))]
@@ -178,7 +178,7 @@ You can customize the appearance and behavior of the properties window in your d
 
  For example:
 
-```
+```csharp
 internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
 {
   protected override void InitializeDialog(System.Windows.Forms.OpenFileDialog openFileDialog)
@@ -193,7 +193,7 @@ internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
 
  To use this editor, set the **Custom Attribute** of a domain property to:
 
-```
+```csharp
 [System.ComponentModel.Editor (
    typeof(MyNamespace.TextFileNameEditor)
    , typeof(System.Drawing.Design.UITypeEditor))]
@@ -210,7 +210,7 @@ internal class TextFileNameEditor : System.Windows.Forms.Design.FileNameEditor
 
  To define a list of standard values, you add to your domain property a CLR attribute that has the following form:
 
-```
+```csharp
 [System.ComponentModel.TypeConverter
 (typeof(MyTypeConverter))]
 

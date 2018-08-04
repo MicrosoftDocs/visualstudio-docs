@@ -17,33 +17,22 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Customizing Tools and the Toolbox
+
 You must define toolbox items for the elements that you want to let users add to their models. There are two kinds of tools: element tools and connection tools. In the generated designer, a user can select an element tool to drag shapes to the diagram, and can select a connection tool to draw links between the shapes. In general, element tools let users add instances of domain classes to their models, and connection tools let them add instances of domain relationships.
-
- In this topic:
-
--   [How the Toolbox is Defined](#ToolboxDef)
-
--   [Customizing Element Tools](#customizing)
-
--   [Creating Groups of Elements from a Tool](#groups)
-
--   [Customizing Connection Tools](#connections)
 
 ##  <a name="ToolboxDef"></a> How the toolbox is defined
  In the DSL Explorer, expand the Editor node and the nodes underneath it. Typically you will see a hierarchy that resembles this:
 
 ```
-
 Editor
      Toobox Tabs
         MyDsl          //a tab
            Tools
                ExampleElement      // an element tool
                ExampleRelationship // a connection tool
-
 ```
 
- In this part of DSL Explorer, you can:
+In this part of DSL Explorer, you can:
 
 -   Create new tabs. Tabs define the section headings in the toolbox.
 
@@ -56,13 +45,13 @@ Editor
 -   Delete tabs and tools.
 
 > [!IMPORTANT]
->  To add or paste items in a DSL Explorer, right-click the grandparent of the new node. For example, to add a tool, right-click the tab, and not the **Tools** node. To add a tab, right-click the **Editor** node.
+> To add or paste items in a DSL Explorer, right-click the grandparent of the new node. For example, to add a tool, right-click the tab, and not the **Tools** node. To add a tab, right-click the **Editor** node.
 
- The **Toolbox Icon** property of every tool references a 16x16 bitmap file. These files are usually kept in the **Dsl\Resources** folder.
+The **Toolbox Icon** property of every tool references a 16x16 bitmap file. These files are usually kept in the **Dsl\Resources** folder.
 
- The **Class** property of an element tool refers to a concrete domain class. By default, the tool will create instances of this class. However, you can write code to have the tool create groups of elements, or elements of different types.
+The **Class** property of an element tool refers to a concrete domain class. By default, the tool will create instances of this class. However, you can write code to have the tool create groups of elements, or elements of different types.
 
- The **Connection Builder** property of a connection tool refers to a connection builder, which defines what types of elements the tool can connect, and what relationships it creates between them. Connection builders are defined as nodes in the DSL Explorer. Connection builders are created automatically when you define domain relationships, but you can write code to customize them.
+The **Connection Builder** property of a connection tool refers to a connection builder, which defines what types of elements the tool can connect, and what relationships it creates between them. Connection builders are defined as nodes in the DSL Explorer. Connection builders are created automatically when you define domain relationships, but you can write code to customize them.
 
 #### To add a tool to the toolbox
 
