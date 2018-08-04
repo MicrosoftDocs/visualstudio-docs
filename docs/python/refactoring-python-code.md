@@ -38,7 +38,7 @@ Visual Studio provides several commands for automatically transforming and clean
 ## Extract method
 
 1. Select the lines of code or the expression to extract into a separate method.
-1. Select the **Edit** > **Refactor** > Extract method** menu command or type **Ctrl**+**R** > **M**.
+1. Select the **Edit** > **Refactor** > **Extract method** menu command or type **Ctrl**+**R** > **M**.
 1. In the dialog that appears, enter a new method name, indicate where to extract it to, and select any closure variables. Variables not selected for closure are turned into method arguments:
 
   ![Extract method dialog](media/code-refactor-extract-method-1.png)

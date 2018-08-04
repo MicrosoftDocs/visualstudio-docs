@@ -37,7 +37,7 @@ The completed sample from this walkthrough can be found on [python-samples-vs-cp
     > [!Tip]
     > Installing the **Data science and analytical applications** workload also includes Python and the **Python native development tools** option by default.
 
-For more information, see [Install Python Support for Visual Studio](installing-python-support-in-visual-studio.md), including using other versions of Visual Studio. If you install Python separately, be sure to select **Download debugging symbols** and **Download debug binaries** under **Advanced Options** in the installer. This option ensures that you have the necessary debug libraries available if you choose to do a debug build.
+For more information, see [Install Python support for Visual Studio](installing-python-support-in-visual-studio.md), including using other versions of Visual Studio. If you install Python separately, be sure to select **Download debugging symbols** and **Download debug binaries** under **Advanced Options** in the installer. This option ensures that you have the necessary debug libraries available if you choose to do a debug build.
 
 ## Create the Python application
 
@@ -118,18 +118,18 @@ For more information, see [Install Python Support for Visual Studio](installing-
     | Tab | Property | Value |
     | --- | --- | --- |
     | **General** | **General** > **Target Name** | Specify the name of the module as you want to refer to it from Python in `from...import` statements. You use this same name in the C++ when defining the module for Python. If you want to use the name of the project as the module name, leave the default value of **$(ProjectName)**. |
-    | | **General** > **Target Extension** | **.pyd** |
-    | | **Project Defaults** > **Configuration Type** | **Dynamic Library (.dll)** |
+    | | **General** > **Target Extension** | `.pyd` |
+    | | **Project Defaults** > **Configuration Type** | `Dynamic Library (.dll)` |
     | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder as appropriate for your installation, for example, *c:\Python36\include*.  |
     | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | Add `Py_LIMITED_API;` to the beginning of the string (including the semicolon). This definition restricts some of the functions you can call from Python and makes the code more portable between different versions of Python. |
-    | **C/C++** > **Code Generation** | **Runtime Library** | Multi-threaded DLL (/MD) (see Warning below) |
+    | **C/C++** > **Code Generation** | **Runtime Library** | `Multi-threaded DLL (/MD)` (see Warning below) |
     | **Linker** > **General** | **Additional Library Directories** | Add the Python *libs* folder containing *.lib* files as appropriate for your installation, for example, *c:\Python36\libs*. (Be sure to point to the *libs* folder that contains *.lib* files, and *not* the *Lib* folder that contains *.py* files.) |
 
     > [!Tip]
     > If you don't see the C/C++ tab in the project properties, it's because the project doesn't contain any files that it identifies as C/C++ source files. This condition can occur if you create a source file without a *.c* or *.cpp* extension. For example, if you accidentally entered `module.coo` instead of `module.cpp` in the new item dialog earlier, then Visual Studio creates the file but doesn't set the file type to "C/C+ Code," which is what activates the C/C++ properties tab. Such misidentification remains the case even if you rename the file with `.cpp`. To set the file type properly, right-click the file in **Solution Explorer**, select **Properties**, then set  **File Type** to **C/C++ Code**.
 
     > [!Warning]
-    > Always set the **C/C++** > **Code Generation** > **Runtime Library** option to **Multi-threaded DLL (/MD)**, even for a debug configuration, because this setting is what the non-debug Python binaries are built with. If you happen to set the **Multi-threaded Debug DLL (/MDd)** option, building a Debug configuration produces error **C1189: Py_LIMITED_API is incompatible with Py_DEBUG, Py_TRACE_REFS, and Py_REF_DEBUG**. Furthermore, if you remove `Py_LIMITED_API` to avoid the build error, Python crashes when attempting to import the module. (The crash happens within the DLL's call to `PyModule_Create` as described later, with the output message of **Fatal Python error: PyThreadState_Get: no current thread**.)
+    > Always set the **C/C++** > **Code Generation** > **Runtime Library** option to **Multi-threaded DLL (/MD)**, even for a debug configuration, because this setting is what the non-debug Python binaries are built with. If you happen to set the **Multi-threaded Debug DLL (/MDd)** option, building a **Debug** configuration produces error **C1189: Py_LIMITED_API is incompatible with Py_DEBUG, Py_TRACE_REFS, and Py_REF_DEBUG**. Furthermore, if you remove `Py_LIMITED_API` to avoid the build error, Python crashes when attempting to import the module. (The crash happens within the DLL's call to `PyModule_Create` as described later, with the output message of **Fatal Python error: PyThreadState_Get: no current thread**.)
     >
     > The /MDd option is used to build the Python debug binaries (such as *python_d.exe*), but selecting it for an extension DLL still causes the build error with `Py_LIMITED_API`.
 
@@ -216,7 +216,7 @@ If you're working with Python 2.7, refer instead to [Extending Python 2.7 with C
     ```
 
 1. Set the target configuration to **Release** and build the C++ project again to verify your code. If you encounter errors, check the following cases:
-    - Unable to locate *Python.h* (**E1696: cannot open source file "Python.h"** and/or ***C1083: Cannot open include file: "Python.h": No such file or directory**): verify that the path in **C/C++** > **General** > **Additional Include Directories** in the project properties points to your Python installation's *include* folder. See step 6 under [Create the core C++ project](#create-the-core-c-project).
+    - Unable to locate *Python.h* (**E1696: cannot open source file "Python.h"** and/or **C1083: Cannot open include file: "Python.h": No such file or directory**): verify that the path in **C/C++** > **General** > **Additional Include Directories** in the project properties points to your Python installation's *include* folder. See step 6 under [Create the core C++ project](#create-the-core-c-project).
     - Unable to locate Python libraries: verify that the path in **Linker** > **General** > **Additional Library Directories** in the project properties points to your Python installation's *libs* folder. See step 6 under [Create the core C++ project](#create-the-core-c-project).
     - Linker errors related to target architecture: change the C++ target's project architecture to match that of your Python installation. For example, if you're targeting x64 with the C++ project but your Python installation is x86, change the C++ project to target x86.
 

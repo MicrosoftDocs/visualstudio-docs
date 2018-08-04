@@ -25,7 +25,7 @@ To change the environment for a project, right-click the **Python Environments**
 
 ![Add/Remove Python Environments dialog](media/environments-add-remove.png)
 
-Once you select **OK**, all the selected environments appear **Python Environments** node. The currently activated environment appears in bold:
+Once you select **OK**, all the selected environments appear under the **Python Environments** node. The currently activated environment appears in bold:
 
 ![Multiple Python environments shown in Solution Explorer](media/environments-project-multiple.png)
 
