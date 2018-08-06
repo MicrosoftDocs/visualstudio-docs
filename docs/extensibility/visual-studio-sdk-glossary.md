@@ -150,7 +150,7 @@ This glossary provides definitions for terms that are used in the [!INCLUDE[vsip
  Editor that can be used independent of any particular project type. Such editors have EditorFactories registered in the registry. This allows the IDE to locate and invoke the editor.  
   
  standard OS editor  
- An embedding that isn't Visual-Studio-specific. It is registered using the well-known Win32 keys (for example, the Win32 Explorer knows how to invoke). If such an editor can be embedded, the editor still shows up in its place in the IDE. Otherwise, a separate top-level window is created for such editors.  
+ An embedding that isn't Visual Studio-specific. It is registered using the well-known Win32 keys (for example, the Win32 Explorer knows how to invoke). If such an editor can be embedded, the editor still shows up in its place in the IDE. Otherwise, a separate top-level window is created for such editors.  
   
  subcontext bag  
  An `IVsUserContext` object linked to a context bag. The object holds lookup keywords, **F1** keywords, and attributes for a selection within an IDE component. Examples of subcontext include a command in a tool window, or a keyword in an editor.  

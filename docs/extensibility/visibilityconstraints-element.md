@@ -22,7 +22,7 @@ The VisibilityConstraints element determines the static visibility of groups of 
   
 ## Syntax  
   
-```csharp  
+```xml  
 <VisibilityConstraints>  
   <VisibilityConstraint>... </VisibilityConstraint>  
   <VisibilityConstraint>... </VisibilityConstraint>  
@@ -53,7 +53,7 @@ The VisibilityConstraints element determines the static visibility of groups of 
   
 ## Example  
   
-```csharp  
+```xml  
 <VisibilityConstraints>  
   <VisibilityItem guid="cmdSetGuidMyProductCommands"     id="cmdidAddWidget"  
     context="guidNotViewSourceMode"/>  
