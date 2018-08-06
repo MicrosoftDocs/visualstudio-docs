@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Mac) | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/05/2018"
+ms.date: "08/06/2018"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: 33a6ac54-d997-4308-b5a0-af7387460849
@@ -13,6 +13,50 @@ ms.workload:
 ---
 # Change Log (Visual Studio Tools for Unity, Mac)
 Visual Studio Tools for Unity change log.
+
+## 1.6.0.2
+ Released 2018-07-24
+
+### Bug fixes
+
+-   **Integration:**
+
+     -   Rollback workaround for a Unity performance bug (as Unity fixed this issue).
+     
+## 1.6.0.1
+ Released 2018-07-10
+
+### Bug fixes
+
+-   **Integration:**
+
+     -   Fixed Shader code coloration support.
+     
+## 1.6.0.0
+ Released 2018-06-26
+
+### Bug fixes
+
+-   **Wizards:**
+
+    -   Fixed typo with OnApplicationFocus message.
+
+-   **Project Generation:**
+
+     -   Transient workaround for a Unity performance bug : cache MonoIslands when generating projects.
+     
+     -   Do not convert portable pdb to mdb anymore when using the new Unity runtime.
+     
+## 1.5.0.2
+ Released 2018-04-18
+ 
+### New Features
+
+-   **Integration:**
+
+    -   Added support for basic Shader code completion.
+    
+    -   Added support for toggling comments in Shader files.
 
 ## 1.5.0.1
  Released 2018-03-28
