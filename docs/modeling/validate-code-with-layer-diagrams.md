@@ -183,7 +183,7 @@ are shown immediately in the Visual Studio Error List window.
 
 -   Use a text editor to open the modeling project (.modelproj) file, and then include the following property:
 
-```
+```xml
 <ValidateArchitecture>true</ValidateArchitecture>
 ```
 
