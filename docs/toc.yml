@@ -5,12 +5,10 @@
   items:
     - name: About Visual Studio 2017
       href: ide/visual-studio-ide.md
-    - name: Personalize theme and text colors
-      href: ide/quickstart-personalize-the-ide.md
-    - name: Intro to projects and solutions
-      href: ide/quickstart-projects-solutions.md
     - name: Intro to the code editor
       href: ide/quickstart-editor.md
+    - name: Intro to projects and solutions
+      href: ide/quickstart-projects-solutions.md
     - name: More Visual Studio features
       href: ide/advanced-feature-overview.md
 - name: Installation
@@ -622,6 +620,8 @@
   - name: Customize the IDE
     href: ide/personalizing-the-visual-studio-ide.md
     items:
+    - name: "Quickstart: Personalize theme and text colors"
+      href: ide/quickstart-personalize-the-ide.md
     - name: Change fonts and colors
       href: ide/how-to-change-fonts-and-colors-in-visual-studio.md
     - name: Customize menus and toolbars

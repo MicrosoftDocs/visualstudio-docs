@@ -151,14 +151,6 @@ Nobody gets code right the first time, and one of the things you might have to c
 
 ## Next steps
 
-You've completed this Quickstart for the Visual Studio editor. Next, you might try out some of the other Quickstarts for the Visual Studio development environment.
-
-> [!div class="nextstepaction"]
-> [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
-
-> [!div class="nextstepaction"]
-> [Quickstart: Personalize Visual Studio](../ide/quickstart-personalize-the-ide.md)
-
 > [!div class="nextstepaction"]
 > [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)
 

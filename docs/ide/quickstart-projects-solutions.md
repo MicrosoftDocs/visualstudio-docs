@@ -170,19 +170,9 @@ The line in the C# code file that contains the <xref:System.Runtime.CompilerServ
 
 If you want to check that your unit test is working, choose **Test** > **Run** > **All Tests** from the menu bar. A window called **Test Explorer** opens, and you should see that the **TestGetCurrentDate** test passes.
 
-Congratulations on completing this Quickstart! Next, you might want to explore some of the other Quickstarts for Visual Studio, or learn more about how to [Create projects and solutions](../ide/creating-solutions-and-projects.md).
-
-> [!div class="nextstepaction"]
-> [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
-
-> [!div class="nextstepaction"]
-> [Quickstart: Personalize Visual Studio](../ide/quickstart-personalize-the-ide.md)
-
-> [!div class="nextstepaction"]
-> [Quickstart: Coding in the editor](../ide/quickstart-editor.md)
-
 ## See also
 
+- [Create projects and solutions](../ide/creating-solutions-and-projects.md)
 - [Manage project and solution properties](../ide/managing-project-and-solution-properties.md)
 - [Manage references in a project](../ide/managing-references-in-a-project.md)
 - [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)

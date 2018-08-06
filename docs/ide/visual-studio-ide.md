@@ -240,23 +240,35 @@ Let's set a breakpoint to see the value of the `username` variable while the pro
 
 To get more details about debugging in Visual Studio, see [Debugger feature tour](../debugger/debugger-feature-tour.md).
 
+## Customize Visual Studio
+
+You can personalize the Visual Studio user interface, including change the default color theme. To change to the **Dark** theme:
+
+1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
+
+1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
+
+   The color theme for the entire IDE changes to **Dark**.
+
+   ![Visual Studio in dark theme](media/quickstart-personalize-dark-theme.png)
+
+To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../ide/personalizing-the-visual-studio-ide.md).
+
 ## Next steps
 
 Explore Visual Studio further by following along with one of the *quickstart* articles. Quickstarts are designed to help new users get acquainted with Visual Studio in a short amount of time.
 
-- Learn how to change the color theme in [Quickstart: Personalize the Visual Studio IDE](quickstart-personalize-the-ide.md)
+- Get acquainted with the code editor in [Quickstart: Use the code editor](quickstart-editor.md)
 
 - Learn how Visual Studio organizes code in [Quickstart: Projects and solutions](quickstart-projects-solutions.md)
 
-- Get acquainted with the code editor in [Quickstart: Use the code editor](quickstart-editor.md)
-
 If you're ready to dive into more coding, one of the following language-specific quickstarts is a good next step:
 
-- [Quickstart: Use Visual Studio to create your first Python web app](quickstart-python.md)
+- [Use Visual Studio to create your first Python web app](quickstart-python.md)
 
-- [Quickstart: Use Visual Studio to create your first C# web app](quickstart-aspnet-core.md)
+- [Use Visual Studio to create your first C# web app](quickstart-aspnet-core.md)
 
-- [Quickstart: Use Visual Studio to create your first Node.js app](quickstart-nodejs.md)
+- [Use Visual Studio to create your first Node.js app](quickstart-nodejs.md)
 
 - [Get started with C++ in Visual Studio](getting-started-with-cpp-in-visual-studio.md)
 
