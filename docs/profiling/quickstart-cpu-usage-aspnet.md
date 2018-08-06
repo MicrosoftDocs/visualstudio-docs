@@ -26,9 +26,6 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
 1. Under **Visual C#**, choose **Web**, and then in the middle pane choose **ASP.NET Web Application (.NET Framework)**.
 
-    > [!NOTE]
-    > The CPU Usage tool is not currently supported in ASP.NET Core.
-
 1. Type a name like **MyProfilingApp_MVC** and click **OK**.
 
 1. In the dialog box that appears, choose **MVC** in the middle pane, and then click **OK**.

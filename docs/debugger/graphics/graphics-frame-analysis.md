@@ -73,7 +73,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 #### Table  
  The table of numbers below the timeline shows the relative performance of each rendering variant for each draw call with respect to your app's default rendering. Each column displays a different rendering variant and each row represents a different draw call that's identified in the left-most column; from here you can follow a link to the event in the Graphics Event List window.  
   
- ![The summary table shows different varients.](media/pix_frame_analysis_summary.png "pix_frame_analysis_summary")  
+ ![The summary table shows different variants.](media/pix_frame_analysis_summary.png "pix_frame_analysis_summary")  
   
  The second left-most column in the Summary Table displays your app's baseline rendering time—that is, the length of time it takes for your app's default rendering to complete the draw call. The remaining columns show the relative performance of each rendering variant as a percentage of the Baseline so that it's easier to see whether performance is improved. Percentages larger than 100 percent took longer than the Baseline—that is, performance went down—and percentages smaller than 100 percent took less time—performance went up.  
   
@@ -82,7 +82,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 #### "Hot" draw calls  
  To bring attention to draw calls that consume a greater proportion of overall rendering time or that might be unusually slow for reasons that could be avoided, the row that contains these "hot" draw calls is shaded red when its own Baseline timing is more than one standard deviation longer than the mean Baseline timing of all draw calls in the frame.  
   
- ![This DrawIndexed call has hot and cold varients.](media/pix_frame_analysis_hot_calls.png "pix_frame_analysis_hot_calls")  
+ ![This DrawIndexed call has hot and cold variants.](media/pix_frame_analysis_hot_calls.png "pix_frame_analysis_hot_calls")  
   
 #### Statistical significance  
  To bring attention to rendering variations that have the highest relevance, Frame Analysis determines the statistical significance of each rendering variant and displays the significant ones as boldface. It displays the ones that improve performance as green and the ones that reduce performance as red. It displays results that are not statistically significant as normal type.  
@@ -97,7 +97,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
 #### Platforms that do not support hardware counters  
  Most platforms don't fully support hardware GPU counters—these include all GPUs currently offered by Intel, AMD, and nVidia. When there are no hardware counters to collect, only one Details table is displayed and it contains the mean absolute timing of all variants.  
   
- ![The details table and some playback varients.](media/pix_frame_analysis_details.png "pix_frame_analysis_details")  
+ ![The details table and some playback variants.](media/pix_frame_analysis_details.png "pix_frame_analysis_details")  
   
 #### Platforms that support hardware counters  
  For platforms that support hardware GPU counters—for example, the nVidia T40 SOC and all Qualcomm SOCs—several Details tables are displayed, one for each variant. Every available hardware counter is collected for each rendering variant and displayed in its own Details table.  

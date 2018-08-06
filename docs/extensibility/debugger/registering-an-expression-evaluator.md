@@ -98,7 +98,7 @@ namespace EEMC
  The EE DLL implements the `DllRegisterServer` function to register itself with the  COM environment as well as Visual Studio.  
   
 > [!NOTE]
->  Yoou can find the MyCEE code sample registry code in the file *dllentry.cpp*, which is located in the VSIP installation under EnVSDK\MyCPkgs\MyCEE.  
+>  You can find the MyCEE code sample registry code in the file *dllentry.cpp*, which is located in the VSIP installation under EnVSDK\MyCPkgs\MyCEE.  
   
 ### DLL server process  
  When registering the EE, the DLL server:  

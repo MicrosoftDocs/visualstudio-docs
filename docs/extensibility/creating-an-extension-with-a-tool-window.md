@@ -12,23 +12,23 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Creating an Extension with a Tool Window
+# Create an extension with a tool window
 In this procedure, you learn how to use the VSIX project template and the **Custom Tool Window** item template to create an extension with a tool window.  
   
 ## Prerequisites  
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
+ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
   
-### Creating a Tool Window  
+### Create a tool window  
   
-1.  Create a VSIX project named **FirstWindow**. You can find the VSIX project template in the **New Project** dialog under **Visual C# / Extensibility**.  
+1.  Create a VSIX project named **FirstWindow**. You can find the VSIX project template in the **New Project** dialog under **Visual C#** > **Extensibility**.  
   
-2.  When the project opens, add a tool window item template named **MyWindow**. In the **Solution Explorer**, right-click the project node and select **Add / New Item**. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Custom Tool Window**. In the **Name** field at the bottom of the window, change the tool window file name to **MyWindow.cs**.  
+2.  When the project opens, add a tool window item template named **MyWindow**. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. In the **Add New Item** dialog, go to **Visual C#** > **Extensibility** and select **Custom Tool Window**. In the **Name** field at the bottom of the window, change the tool window file name to *MyWindow.cs*.  
   
 3.  Build the project and start debugging.  
   
-     The experimental instance of Visual Studio appears. For more information about the experimental instance, see [The Experimental Instance](../extensibility/the-experimental-instance.md).  
+     The experimental instance of Visual Studio appears. For more information about the experimental instance, see [The experimental instance](../extensibility/the-experimental-instance.md).  
   
-4.  In the experimental instance, go to **View / Other Windows**.  
+4.  In the experimental instance, go to **View** > **Other Windows**.  
   
      You should see a menu item for **MyWindow**. Click it.  
   

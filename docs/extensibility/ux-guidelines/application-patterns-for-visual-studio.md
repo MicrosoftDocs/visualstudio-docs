@@ -269,7 +269,7 @@ This section describes how to choose the correct dialog pattern within Visual St
 Dialogs in Visual Studio follow one of two basic styles:  
   
 #### Standard (unthemed)  
-The majority of dialogs are standard utility dialogs and should be unthemed. Do not re-template common controls or attempt to create stylized "modern" buttons or controls. Controls and chrome appearance follow [standard Windows Desktop interaction guidelines for dialog boxes](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742499\(v=vs.85\).aspx).  
+The majority of dialogs are standard utility dialogs and should be unthemed. Do not re-template common controls or attempt to create stylized "modern" buttons or controls. Controls and chrome appearance follow [standard Windows Desktop interaction guidelines for dialog boxes](/windows/desktop/uxguide/win-dialog-box).  
   
 #### Themed  
 Specialty "signature" dialogs may be themed. Themed dialogs have a distinct appearance, which also has some special interaction patterns associated with the style. Theme your dialog only if it meets these requirements:  
