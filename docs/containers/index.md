@@ -24,10 +24,10 @@ featureFlags:
                             <ul id="get-started1" class="cardsL">
                                 <li>
                                     <div class="cardSize">
-                                        <div class="cardPadding">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
-                                                    <h3>Tools</h3>
+                                                    <h4>Tools</h4>
                                                     <ul class="noBullet">
                                                         <li><a class="barLink" href="http://wwww.docker.com/docker-windows">Docker for Windows</a></li>
                                                         <li><a class="barLink" href="">Docker Tools in Visual Studio</a></li>
@@ -38,10 +38,10 @@ featureFlags:
                                         </div>
                                     </div>
                                     <div class="cardSize">
-                                        <div class="cardPadding">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
-                                                    <h3>.NET Core</h3>
+                                                    <h4>.NET Core</h4>
                                                     <ul class="noBullet">
                                                         <li><a class="barLink" href="/dotnet/core/docker/intro-net-docker">Introduction to .NET and Docker</a></li>
                                                         <li><a class="barLink" href="/dotnet/core/docker/docker-basics-dotnet-core">Learn Docker Basics</a></li>
@@ -52,22 +52,10 @@ featureFlags:
                                         </div>
                                     </div>
                                     <div class="cardSize">
-                                        <div class="cardPadding">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
-                                                    <h3>.NET Framework</h3>
-                                                    <ul class="noBullet">
-                                                        <li><a class="barLink" href="/dotnet/framework/docker/console">Console Apps</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="cardSize">
-                                        <div class="cardPadding">
-                                            <div class="card">
-                                                <div class="cardText">
-                                                    <h3>ASP.NET</h3>
+                                                    <h4>ASP.NET</h4>
                                                     <ul class="noBullet">
                                                         <li><a class="barLink" href="/aspnet/core/host-and-deploy/docker/visual-studio-tools-for-docker?view=aspnetcore-2.1">ASP.NET Docker Tools</a></li>
                                                         <li><a class="barLink" href="/azure/vs-azure-tools-docker-hosting-web-apps-in-docker">Deploy to Azure Container Registry (ACR)</a></li>
@@ -77,10 +65,10 @@ featureFlags:
                                         </div>
                                     </div>
                                     <div class="cardSize">
-                                        <div class="cardPadding">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
-                                                    <h3>Microservices</h3>
+                                                    <h4>Microservices</h4>
                                                     <ul class="noBullet">
                                                         <li><a class="barLink" href="/dotnet/standard/containerized-lifecycle-architecture/">Microservices architecture guide</a></li>
                                                     </ul>
@@ -92,10 +80,10 @@ featureFlags:
                             </ul>
                         </td>
                         <td>
-                            <ul id="get-started2" class="cardsL">>
+                            <ul id="get-started2" class="cardsL">
                                 <li>
                                     <div class="cardSize">
-                                        <div class="cardPadding">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
                                                     <h3>Azure</h3>
@@ -109,10 +97,10 @@ featureFlags:
                                         </div>
                                     </div>
                                     <div class="cardSize">
-                                        <div class="cardPadding">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
-                                                    <h3>Kubernetes</h3>
+                                                    <h4>Kubernetes</h4>
                                                     <ul class="noBullet">
                                                         <li><a class="barLink" href="/azure/aks/">Azure Kubernetes Service (AKS)</a></li>
                                                         <li><a class="barLink" href="/azure/container-service/kubernetes">Azure Container Service - Kubernetes</a></li>
@@ -129,14 +117,14 @@ featureFlags:
                                         </div>
                                     </div>
                                     <div class="cardSize">
-                                        <div class="cardPadding">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
                                         <div class="card">
                                             <div class="cardText">
                                                 <h3>Videos</h3>
                                                 <ul class="noBullet">
                                                     <li>
                                                         <a class="barLink" href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T111">
-                                                        <img src="media/index/i_video.svg" alt="">
+                                                        <img src="/media/index/i_video.svg" alt="">
                                                         Channel 9: Docker Development
                                                     </a>
                                                 </li>
