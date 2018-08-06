@@ -4,6 +4,7 @@ hide_bc: true
 title: Container Development Tools Documentation
 description: Learn how to build and manage container-based apps and services. Get documentation, example code, tutorials, and more.
 ms.topic: hub-page
+ROBOTS: NOINDEX,NOFOLLOW
 featureFlags:
 - clicktale
 ---
@@ -97,12 +98,8 @@ featureFlags:
                                     <div class="cardSize">
                                         <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
-                                                <div class="cardImageOuter">
-                                                    <div class="cardImage">
-                                                        <img data-hoverimage="https://docs.microsoft.com/media/logos/logo_azure.svg" src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="" />
-                                                    </div>
-                                                </div>
                                                 <div class="cardText">
+                                                    <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="">
                                                     <h3>Azure</h3>
                                                     <ul class="noBullet">
                                                         <li><a class="barLink" href="/azure/containers/">Azure Container Development</a></li>
