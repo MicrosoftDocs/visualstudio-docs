@@ -118,7 +118,7 @@ ms.workload:
  Environment-level notifications should be surfaced in the Visual Studio Notifications hub, not the Windows notification area.  
   
 ####  <a name="BKMK_NotificationBubbles"></a> Notification bubbles  
- Notification bubbles can appear as informational within an editor/designer or as part of the Windows Notification area. The user perceives these bubbles as issues that they can resolve later, which is a benefit for noncritical notifications. Bubbles are inappropriate for critical information that the user must solve right away. If you do use notification bubbles in Visual Studio, follow the [Windows Desktop guidance for notification bubbles](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742472\(v=vs.85\).aspx).  
+ Notification bubbles can appear as informational within an editor/designer or as part of the Windows Notification area. The user perceives these bubbles as issues that they can resolve later, which is a benefit for noncritical notifications. Bubbles are inappropriate for critical information that the user must solve right away. If you do use notification bubbles in Visual Studio, follow the [Windows Desktop guidance for notification bubbles](/windows/desktop/uxguide/mess-notif).  
   
  ![Notification bubble](../../extensibility/ux-guidelines/media/0901-07_notificationbubbles.png "0901-07_NotificationBubbles")  
   

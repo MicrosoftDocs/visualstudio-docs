@@ -73,7 +73,7 @@ You can install a domain-specific language on your own computer or on other comp
 
     2.  Insert the following line before `<SupportedProducts>`:
 
-        ```
+        ```xml
         <InstalledByMsi>true</InstalledByMsi>
         ```
 

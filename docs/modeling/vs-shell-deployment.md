@@ -20,7 +20,7 @@ An isolated shell lets you determine which Visual Studio functionality you need 
 
 2.  Under `<SupportedProducts>` insert:
 
-    ```
+    ```xml
     <IsolatedShell Version="1.0">MyIsolatedShell</IsolatedShell>
     ```
 

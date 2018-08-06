@@ -91,7 +91,8 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
   * **HKLM\Software\Microsoft\VisualStudio\{Version}**: Registry keys created by MSI installers and per-machine extensions.
   * **HKCU\Software\Microsoft\VisualStudio\{Version}**: Registry keys created by Visual Studio to store user-specific settings.
   * **HKCU\Software\Microsoft\VisualStudio\{Version}_Config**: A copy of Visual Studio HKLM key above, plus the registry keys merged from *.pkgdef* files by extensions.
-* To reduce the impact on the registry, Visual Studio now uses the [RegLoadAppKey](https://msdn.microsoft.com/en-us/library/windows/desktop/ms724886(v=vs.85).aspx) function to store registry keys in a private binary file under *[VSAPPDATA]\privateregistry.bin*. Only a very small number of Visual Studio-specific keys remain in the system registry.
+* To reduce the impact on the registry, Visual Studio now uses the [RegLoadAppKey](/windows/desktop/api/winreg/nf-winreg-regloadappkeya) function to store registry keys in a private binary file under *[VSAPPDATA]\privateregistry.bin*. Only a very small number of Visual Studio-specific keys remain in the system registry.
+
 * Existing code running inside the Visual Studio process is not impacted. Visual Studio will redirect all registry operations under the HKCU Visual Studio-specific key to the private registry. Reading and writing to other registry locations will continue to use the system registry.
 * External code will need to load and read from this file for Visual Studio registry entries.
 
