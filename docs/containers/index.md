@@ -92,7 +92,7 @@ featureFlags:
                             </ul>
                         </td>
                         <td>
-                            <ul id="get-started2" class="cardsL">>
+                            <ul id="get-started2" class="cardsL">
                                 <li>
                                     <div class="cardSize">
                                         <div class="cardPadding" style="padding-bottom: 0;">
@@ -136,7 +136,7 @@ featureFlags:
                                                 <ul class="noBullet">
                                                     <li>
                                                         <a class="barLink" href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T111">
-                                                        <img src="/media/index/i_video.svg" alt="">
+                                                        <img src="/media/common/i_video.svg" alt="">
                                                         Channel 9: Docker Development
                                                     </a>
                                                 </li>
