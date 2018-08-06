@@ -98,7 +98,7 @@ featureFlags:
                                         <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
-                                                    <h3>Azure</h3>
+                                                    <img src="/media/logos/logo_azure.svg" alt=""> <h3>Azure</h3>
                                                     <ul class="noBullet">
                                                         <li><a class="barLink" href="/azure/containers/">Azure Container Development</a></li>
                                                         <li><a class="barLink" href="/azure/docker/">Docker on Azure</a></li>
