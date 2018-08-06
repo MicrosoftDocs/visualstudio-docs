@@ -27,7 +27,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 1.  Create a C# VSIX project named `MenuCommandTest`, and add a Custom Command item template name **AddAdornment**. For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).  
   
-2.  A solution named MenuCommandTest opens. The MenuCommandTestPackage file has the code that creates the menu command and puts it on the **Tools** menu. At this point, the command just causes a message box to appear. Later, steps show how to change this to display the comment adornment.  
+2.  A solution named MenuCommandTest opens. The MenuCommandTestPackage file has the code that creates the menu command and puts it on the **Tools** menu. At this point, the command just causes a message box to appear. Later steps will show how to change this to display the comment adornment.  
   
 3.  Open the *source.extension.vsixmanifest* file in the VSIX Manifest Editor. The `Assets` tab should have a row for a Microsoft.VisualStudio.VsPackage named MenuCommandTest.  
   
@@ -37,7 +37,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
   
 1.  In **Solution Explorer**, right-click the solution node, click **Add**, and then click **New Project**. In the **Add New Project** dialog box, click **Extensibility** under **Visual C#**, then **VSIX Project**. Name the project `CommentAdornmentTest`.  
   
-2.  Because this project will interact with the strongly named VSPackage assembly, you must sign the assembly. You can reuse the key file already created for the VSPackage assembly.  
+2.  Because this project will interact with the strong-named VSPackage assembly, you must sign the assembly. You can reuse the key file already created for the VSPackage assembly.  
   
     1.  Open the project properties and select the **Signing** tab.  
   

@@ -33,7 +33,7 @@ Set up language-based features such as outlining by defining the kinds of text r
 ## Implement an outlining tagger  
  Outlining regions are marked by a kind of tag (<xref:Microsoft.VisualStudio.Text.Tagging.OutliningRegionTag>). This tag provides the standard outlining behavior. The outlined region can be expanded or collapsed. The outlined region is marked by a Plus sign (**+**) if it's collapsed or a Minus sign (**-**) if it's expanded, and the expanded region is demarcated by a vertical line.  
   
- The following steps show how to define a tagger that creates outlining regions for all the regions delimited by the brackets (**[**) and (**]**).  
+ The following steps show how to define a tagger that creates outlining regions for all the regions delimited by the brackets (**[**,**]**).  
   
 ### To implement an outlining tagger  
   

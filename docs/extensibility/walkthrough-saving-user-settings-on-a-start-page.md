@@ -12,12 +12,12 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Walkthrough: Save user settings on a start page
-You can persist user settings for your start page. By following this walkthrough, you can create a control that saves a setting to the registry when the user clicks a button, and then retrieves that setting every time the Start Page loads. Because the Start Page project template includes a customizable user control, and the default Start Page XAML calls that control, you don't have to modify the Start Page itself.  
+# Walkthrough: Save user settings on a Start Page
+You can persist user settings for your Start Page. By following this walkthrough, you can create a control that saves a setting to the registry when the user clicks a button, and then retrieves that setting every time the Start Page loads. Because the Start Page project template includes a customizable user control, and the default Start Page XAML calls that control, you don't have to modify the Start Page itself.  
   
- The settings store that is instantiated in this walkthrough is an instance of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore> interface, which reads and writes to the following registry location when it's called: HKCU\Software\Microsoft\VisualStudio\14.0\\*CollectionName*  
+ The settings store that is instantiated in this walkthrough is an instance of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWritableSettingsStore> interface, which reads and writes to the following registry location when it's called: **HKCU\Software\Microsoft\VisualStudio\14.0\\\<CollectionName>**  
   
- When it's running in the experimental instance of Visual Studio, the settings store reads and writes to HKCU\Software\Microsoft\VisualStudio\14.0Exp\\*CollectionName.*  
+ When it's running in the experimental instance of Visual Studio, the settings store reads and writes to **HKCU\Software\Microsoft\VisualStudio\14.0Exp\\\<CollectionName>.**  
   
  For more information about how to persist settings, see [Extending User Settings and Options](../extensibility/extending-user-settings-and-options.md).  
   
@@ -32,7 +32,7 @@ You can persist user settings for your start page. By following this walkthrough
   
 ### To configure the project for this walkthrough  
   
-1.  Create a Start Page project as described in [Create a custom start page](creating-a-custom-start-page.md). Name the project **SaveMySettings**.  
+1.  Create a Start Page project as described in [Create a custom Start Page](creating-a-custom-start-page.md). Name the project **SaveMySettings**.  
   
 2.  In **Solution Explorer**, add the following assembly references to the StartPageControl project:  
   
@@ -48,7 +48,7 @@ You can persist user settings for your start page. By following this walkthrough
   
 4.  From the XAML pane, in the top-level <xref:System.Windows.Controls.UserControl> element definition, add the following event declaration after the namespace declarations.  
   
-    ```csharp 
+    ```xml 
     Loaded="OnLoaded"  
     ```  
   
@@ -198,4 +198,4 @@ You can persist user settings for your start page. By following this walkthrough
   
 ## See also  
  <xref:EnvDTE80.DTE2?displayProperty=fullName>     
- [Adding Visual Studio commands to a start page](../extensibility/adding-visual-studio-commands-to-a-start-page.md)
+ [Adding Visual Studio commands to a Start Page](../extensibility/adding-visual-studio-commands-to-a-start-page.md)
