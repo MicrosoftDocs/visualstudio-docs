@@ -73,7 +73,7 @@ You can organize files using any folder structure within *static* that you like,
     }
     ```
 
-1. Replace the contents of the app's *templates/HelloDjangoApp/index.html* file with the following code, which replaces the `<strong>` element used in step 2 with a `<span>` that references the `message` style class. Using a style class in this way gives you much more flexibility in styling the element. (If you haven't moved *index.html* into a subfolder in *templates* when using VS 2017 15.7 and earlier, refer to [template namespacing](learn-django-in-visual-studio-step-02-create-an-app.md#template-namespacing) in step 2.)
+1. Replace the contents of the app's *templates/HelloDjangoApp/index.html* file with the following code, which replaces the `<strong>` element used in step 2 with a `<span>` that references the `message` style class. Using a style class in this way gives you much more flexibility in styling the element. (If you haven't moved *index.html* into a subfolder in *templates* when using VS 2017 15.7 and earlier, refer to [template namespacing](learn-django-in-visual-studio-step-02-create-an-app.md#template-namespacing) in step 2-4.)
 
     ```html
     <html>
