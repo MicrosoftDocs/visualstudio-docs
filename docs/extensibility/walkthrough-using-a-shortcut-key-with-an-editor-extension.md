@@ -14,17 +14,17 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Walkthrough: Using a Shortcut Key with an Editor Extension
+# Walkthrough: Use a shortcut key with an editor extension
 You can respond to shortcut keys in your editor extension. The following walkthrough shows how to add a view adornment to a text view by using a shortcut key. This walkthrough is based on the viewport adornment editor template, and it allows you to add the adornment by using the + character.  
   
 ## Prerequisites  
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
+ Starting in Visual Studio 2015, you don't install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
   
-## Creating a Managed Extensibility Framework (MEF) Project  
+## Create a Managed Extensibility Framework (MEF) Project  
   
 1.  Create a C# VSIX project. (In the **New Project** dialog, select **Visual C# / Extensibility**, then **VSIX Project**.) Name the solution `KeyBindingTest`.  
   
-2.  Add an Editor Text Adornment item template to the project and name it `KeyBindingTest`. For more information, see [Creating an Extension with an Editor Item Template](../extensibility/creating-an-extension-with-an-editor-item-template.md).  
+2.  Add an Editor Text Adornment item template to the project and name it `KeyBindingTest`. For more information, see [Create an Extension with an Editor Item Template](../extensibility/creating-an-extension-with-an-editor-item-template.md).  
   
 3.  Add the following references and set **CopyLocal** to `false`:  
   
@@ -51,10 +51,10 @@ In the KeyBindingTestTextViewCreationListener.cs class file, change the name of 
     public AdornmentLayerDefinition editorAdornmentLayer;  
     ```  
 
-## Handling TYPECHAR Command
+## Handle TYPECHAR command
 Prior to Visual Studio 2017 version 15.6 the only way to handle commands in an editor extension was implementing an <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> based command filter. Visual Studio 2017 version 15.6 introduced a modern simplified approach based on editor command handlers. The next two sections demonstrate how to handle a command using both the legacy and modern approach.
 
-## Defining the Command Filter (prior to Visual Studio 2017 version 15.6)
+## Define the command filter (prior to Visual Studio 2017 version 15.6)
 
  The command filter is an implementation of <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>, which handles the command by instantiating the adornment.  
   
@@ -105,7 +105,7 @@ Prior to Visual Studio 2017 version 15.6 the only way to handle commands in an e
     }  
     ```  
   
-7.  Implement the `Exec()` method so that it adds a purple box to the view if a + character is typed.  
+7.  Implement the `Exec()` method so that it adds a purple box to the view if a plus sign (**+**) character is typed.  
   
     ```csharp  
     int IOleCommandTarget.Exec(ref Guid pguidCmdGroup, uint nCmdID, uint nCmdexecopt, IntPtr pvaIn, IntPtr pvaOut)  
@@ -129,7 +129,7 @@ Prior to Visual Studio 2017 version 15.6 the only way to handle commands in an e
   
     ```  
   
-## Adding the Command Filter (prior to Visual Studio 2017 version 15.6)
+## Add the command filter (prior to Visual Studio 2017 version 15.6)
  The adornment provider must add a command filter to the text view. In this example, the provider implements <xref:Microsoft.VisualStudio.Editor.IVsTextViewCreationListener> to listen to text view creation events. This adornment provider also exports the adornment layer, which defines the Z-order of the adornment.  
   
 1.  In the KeyBindingTestTextViewCreationListener file, add the following using statements:  
@@ -234,7 +234,7 @@ The command handler is an implementation of <xref:Microsoft.VisualStudio.Command
     } 
     ```  
   
-6.  Implement the `ExecuteCommand()` method so that it adds a purple box to the view if a + character is typed. 
+6.  Implement the `ExecuteCommand()` method so that it adds a purple box to the view if a plus sign (**+**) character is typed. 
   
     ```csharp  
     public bool ExecuteCommand(TypeCharCommandArgs args, CommandExecutionContext executionContext)
@@ -253,7 +253,7 @@ The command handler is an implementation of <xref:Microsoft.VisualStudio.Command
         return false;
     }
     ```  
- 7. Copy adornment layer definition from KeyBindingTestTextViewCreationListener.cs file to the KeyBindingCommandHandler.cs and then delete KeyBindingTestTextViewCreationListener.cs file:
+ 7. Copy adornment layer definition from *KeyBindingTestTextViewCreationListener.cs* file to the *KeyBindingCommandHandler.cs* and then delete *KeyBindingTestTextViewCreationListener.cs* file:
  
     ```csharp  
     /// <summary>
@@ -266,11 +266,11 @@ The command handler is an implementation of <xref:Microsoft.VisualStudio.Command
     private AdornmentLayerDefinition editorAdornmentLayer;    
     ```  
 
-## Making the Adornment Appear on Every Line  
+## Make the adornment appear on every line  
 
-The original adornment appeared on every character 'a' in a text file. Now that we have changed the code to add the adornment in response to the '+' character, it adds the adornment only on the line where the '+' is typed. We can change the adornment code so that the adornment once more appears on every 'a'.  
+The original adornment appeared on every character 'a' in a text file. Now that we have changed the code to add the adornment in response to the **+** character, it adds the adornment only on the line where the **+** character is typed. We can change the adornment code so that the adornment once more appears on every 'a'.  
   
-In the KeyBindingTest.cs file, change the CreateVisuals() method to iterate through all the lines in the view to decorate the 'a' character.  
+In the *KeyBindingTest.cs* file, change the `CreateVisuals()` method to iterate through all the lines in the view to decorate the 'a' character.  
   
 ```csharp  
 private void CreateVisuals(ITextViewLine line)  
@@ -314,10 +314,10 @@ private void CreateVisuals(ITextViewLine line)
 }  
 ```  
   
-## Building and Testing the Code  
+## Build and test the code  
   
 1.  Build the KeyBindingTest solution and run it in the experimental instance.  
   
-2.  Create or open a text file. Type some words containing the character 'a', and then type + anywhere in the text view.  
+2.  Create or open a text file. Type some words containing the character 'a', and then type **+** anywhere in the text view.  
   
      A purple square should appear on every 'a' character in the file.
