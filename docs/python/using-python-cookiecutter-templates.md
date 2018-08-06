@@ -33,7 +33,7 @@ The Cookiecutter home page displays a list of templates to choose from, organize
 
 | Group | Description |
 | --- | --- |
-| **Installed** | Templates that have been installed to your local computer. When an online template is used, its repository is automatically cloned to a subfolder of *~/.cookiecutters*. You can delete a selected installed template by pressing **Del**. |
+| **Installed** | Templates that have been installed to your local computer. When an online template is used, its repository is automatically cloned to a subfolder of *~/.cookiecutters*. You can delete a selected installed template by pressing **Delete**. |
 | **Recommended** | Templates loaded from the recommended feed. The default feed is curated by Microsoft. See [Cookiecutter options](#cookiecutter-options) below for details on customizing the feed. |
 | **GitHub** | GitHub search results for the cookiecutter keyword. Results from GitHub come back paginated, if more results are available, **Load More** appears at the end of the list. |
 | **Custom** | When a custom location is entered in the search box, it appears in this group. You can either type in a full path to the GitHub repository, or the full path to a folder on your local disk. |

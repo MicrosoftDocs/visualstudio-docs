@@ -118,12 +118,12 @@ For more information, see [Install Python support for Visual Studio](installing-
     | Tab | Property | Value |
     | --- | --- | --- |
     | **General** | **General** > **Target Name** | Specify the name of the module as you want to refer to it from Python in `from...import` statements. You use this same name in the C++ when defining the module for Python. If you want to use the name of the project as the module name, leave the default value of **$(ProjectName)**. |
-    | | **General** > **Target Extension** | `.pyd` |
-    | | **Project Defaults** > **Configuration Type** | `Dynamic Library (.dll)` |
-    | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder as appropriate for your installation, for example, *c:\Python36\include*.  |
+    | | **General** > **Target Extension** | **.pyd** |
+    | | **Project Defaults** > **Configuration Type** | **Dynamic Library (.dll)** |
+    | **C/C++** > **General** | **Additional Include Directories** | Add the Python *include* folder as appropriate for your installation, for example, `c:\Python36\include`.  |
     | **C/C++** > **Preprocessor** | **Preprocessor Definitions** | Add `Py_LIMITED_API;` to the beginning of the string (including the semicolon). This definition restricts some of the functions you can call from Python and makes the code more portable between different versions of Python. |
-    | **C/C++** > **Code Generation** | **Runtime Library** | `Multi-threaded DLL (/MD)` (see Warning below) |
-    | **Linker** > **General** | **Additional Library Directories** | Add the Python *libs* folder containing *.lib* files as appropriate for your installation, for example, *c:\Python36\libs*. (Be sure to point to the *libs* folder that contains *.lib* files, and *not* the *Lib* folder that contains *.py* files.) |
+    | **C/C++** > **Code Generation** | **Runtime Library** | **Multi-threaded DLL (/MD)** (see Warning below) |
+    | **Linker** > **General** | **Additional Library Directories** | Add the Python *libs* folder containing *.lib* files as appropriate for your installation, for example, `c:\Python36\libs`. (Be sure to point to the *libs* folder that contains *.lib* files, and *not* the *Lib* folder that contains *.py* files.) |
 
     > [!Tip]
     > If you don't see the C/C++ tab in the project properties, it's because the project doesn't contain any files that it identifies as C/C++ source files. This condition can occur if you create a source file without a *.c* or *.cpp* extension. For example, if you accidentally entered `module.coo` instead of `module.cpp` in the new item dialog earlier, then Visual Studio creates the file but doesn't set the file type to "C/C+ Code," which is what activates the C/C++ properties tab. Such misidentification remains the case even if you rename the file with `.cpp`. To set the file type properly, right-click the file in **Solution Explorer**, select **Properties**, then set  **File Type** to **C/C++ Code**.
@@ -207,7 +207,7 @@ If you're working with Python 2.7, refer instead to [Extending Python 2.7 with C
     };
     ```
 
-1. Add a method that Python calls when it loads the module, which must be named `PyInit_<module-name>`, where *&lt;module_name&gt;* exactly matches the C++ project's **General** > **Target Name** property (that is, it matches the filename of the *.pyd* built by the project).
+1. Add a method that Python calls when it loads the module, which must be named `PyInit_<module-name>`, where &lt;module-name&gt; exactly matches the C++ project's **General** > **Target Name** property (that is, it matches the filename of the *.pyd* built by the project).
 
     ```cpp
     PyMODINIT_FUNC PyInit_superfastcode() {
