@@ -23,9 +23,6 @@ featureFlags:
                         <td width="50%">
                             <ul id="get-started1" class="cardsL">
                                 <li>
-        
-                                </li>
-                                <li>
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
