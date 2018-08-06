@@ -10,12 +10,11 @@ featureFlags:
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1 class="visually-hidden">Container Development Tools</h1>
         <ul id="get-started1" class="cardsL">
             <li>
                 <div class="container intro">
-                    <h4 class="likeAnH1">Container development tools</h2>
-                    <p>Explore container development with quickstarts, overviews, and tutorials.</p>
+                    <h2 class="likeAnH1">Develop with containers</h2>
+                    <p>Explore Docker and Kubernetes tools, and Azure services for managing container-based development projects.</p>
                 </div>
             </li>
             <li>
@@ -53,18 +52,6 @@ featureFlags:
                                                         <li>
                                                             <a class="barLink" href="https://docs.microsoft.com/dotnet/core/docker/building-net-docker-images"><img src="https://docs.microsoft.com/media/common/i_build.svg" alt="">Build Docker Images</a>
                                                         </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="cardSize">
-                                        <div class="cardPadding" style="padding-bottom: 0;">
-                                            <div class="card">
-                                                <div class="cardText">
-                                                    <h4>.NET Framework</h4>
-                                                    <ul class="noBullet">
-                                                        <li><a class="barLink" href="https://docs.microsoft.com/dotnet/framework/docker/console"><img src="https://docs.microsoft.com/media/logos/logo_NET.svg" alt="">Console Apps</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
