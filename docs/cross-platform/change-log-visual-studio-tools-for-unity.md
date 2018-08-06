@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/07/2018"
+ms.date: "08/06/2018"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
@@ -13,6 +13,79 @@ ms.workload:
 ---
 # Change log (Visual Studio Tools for Unity, Windows)
 Visual Studio Tools for Unity change log.
+
+## 3.8.0.4
+ Released 2018-08-14
+ 
+### New Features
+
+-   **Evaluation:**
+
+    -   Added support for pointer values.
+    
+    -   Added support for generic methods.
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Smart reload with multiple projects changed.
+
+## 3.8.0.3
+ Released 2018-07-24
+ 
+### Bug fixes
+
+-   **Project Generation:**
+
+    -   Rollback workaround for a Unity performance bug (as Unity fixed this issue).
+
+## 3.8.0.2
+ Released 2018-07-10
+ 
+### Bug fixes
+
+-   **Project Generation:**
+
+    -   Transient workaround for a Unity performance bug : cache MonoIslands when generating projects.
+    
+## 3.8.0.1
+ Released 2018-06-26
+ 
+### New Features
+
+-   **Debugging:**
+
+    -   Added support for UserLog and UserBreak commands.
+    
+    -   Added lazy type-load support (optimizing the network load and debugger response latency).
+       
+### Bug fixes
+
+-   **Evaluation:**
+
+    -   Improved binary-operator expression evaluation and method search.
+
+## 3.8.0.0
+ Released 2018-05-30
+ 
+### New Features
+
+-   **Debugging:**
+
+    -   Added support for displaying variables in async constructs.
+    
+    -   Added support for processing nested types when setting breakpoints, to prevent warnings with compiler constructs.
+    
+-   **Integration:**
+
+    -   Added support for textmate grammars for Shaders (so now the C++ workload is no more needed for Shader code coloration).
+    
+### Bug fixes
+
+-   **Project Generation:**
+
+    -   Do not convert portable pdb to mdb anymore when using the new Unity runtime.
 
 ## 3.7.0.1
  Released 2018-05-07
