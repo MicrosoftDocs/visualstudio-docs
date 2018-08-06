@@ -13,7 +13,7 @@ featureFlags:
         <ul id="get-started1" class="cardsL">
             <li>
                 <div class="container intro">
-                    <h2 class="likeAnH1">Get started with container development</h2>
+                    <h2 class="likeAnH1">Container development tools</h2>
                     <p>Explore container development with quickstarts, overviews, and tutorials.</p>
                 </div>
             </li>
@@ -91,7 +91,7 @@ featureFlags:
                                 </li>
                             </ul>
                         </td>
-                        </td>
+                        <td>
                             <ul id="get-started2" class="cardsL">>
                                 <li>
                                     <div class="cardSize">
