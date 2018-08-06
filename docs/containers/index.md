@@ -24,7 +24,7 @@ featureFlags:
                             <ul id="get-started1" class="cardsL">
                                 <li>
                                     <div class="cardSize">
-                                        <div class="cardPadding">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
                                                     <h3>Tools</h3>
@@ -38,7 +38,7 @@ featureFlags:
                                         </div>
                                     </div>
                                     <div class="cardSize">
-                                        <div class="cardPadding">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
                                                     <h3>.NET Core</h3>
@@ -52,7 +52,7 @@ featureFlags:
                                         </div>
                                     </div>
                                     <div class="cardSize">
-                                        <div class="cardPadding">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
                                                     <h3>.NET Framework</h3>
@@ -64,7 +64,7 @@ featureFlags:
                                         </div>
                                     </div>
                                     <div class="cardSize">
-                                        <div class="cardPadding">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
                                                     <h3>ASP.NET</h3>
@@ -77,7 +77,7 @@ featureFlags:
                                         </div>
                                     </div>
                                     <div class="cardSize">
-                                        <div class="cardPadding">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
                                                     <h3>Microservices</h3>
@@ -95,7 +95,7 @@ featureFlags:
                             <ul id="get-started2" class="cardsL">>
                                 <li>
                                     <div class="cardSize">
-                                        <div class="cardPadding">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
                                                     <h3>Azure</h3>
@@ -109,7 +109,7 @@ featureFlags:
                                         </div>
                                     </div>
                                     <div class="cardSize">
-                                        <div class="cardPadding">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
                                                     <h3>Kubernetes</h3>
@@ -129,14 +129,14 @@ featureFlags:
                                         </div>
                                     </div>
                                     <div class="cardSize">
-                                        <div class="cardPadding">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
                                         <div class="card">
                                             <div class="cardText">
                                                 <h3>Videos</h3>
                                                 <ul class="noBullet">
                                                     <li>
                                                         <a class="barLink" href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T111">
-                                                        <img src="media/index/i_video.svg" alt="">
+                                                        <img src="/media/index/i_video.svg" alt="">
                                                         Channel 9: Docker Development
                                                     </a>
                                                 </li>
