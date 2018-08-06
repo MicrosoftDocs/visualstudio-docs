@@ -240,31 +240,30 @@ Let's set a breakpoint to see the value of the `username` variable while the pro
 
 To get more details about debugging in Visual Studio, see [Debugger feature tour](../debugger/debugger-feature-tour.md).
 
-## Customize Visual Studio
+## Next steps
 
-You can personalize the Visual Studio user interface, including change the default color theme. To change to the **Dark** theme:
+Explore Visual Studio further by following along with one of the *quickstart* articles. Quickstarts are designed to help new users get acquainted with Visual Studio in a short amount of time.
 
-1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
+- Learn how to change the color theme in [Quickstart: Personalize the Visual Studio IDE](quickstart-personalize-the-ide.md)
 
-1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
+- Learn how Visual Studio organizes code in [Quickstart: Projects and solutions](quickstart-projects-solutions.md)
 
-   The color theme for the entire IDE changes to **Dark**.
+- Get acquainted with the code editor in [Quickstart: Use the code editor](quickstart-editor.md)
 
-   ![VS in a dark theme](media/quickstart-personalize-dark-theme.png)
+If you're ready to dive into more coding, one of the following language-specific quickstarts is a good next step:
 
-To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../ide/personalizing-the-visual-studio-ide.md).
+- [Quickstart: Use Visual Studio to create your first Python web app](quickstart-python.md)
 
-## Learn more
+- [Quickstart: Use Visual Studio to create your first C# web app](quickstart-aspnet-core.md)
 
-Do you want to create an app for an Android or iOS phone? How about a 3D game, or a cloud-enabled app? To learn about these and other features of Visual Studio, see [Features of Visual Studio 2017](../ide/advanced-feature-overview.md).
+- [Quickstart: Use Visual Studio to create your first Node.js app](quickstart-nodejs.md)
 
-If you just want to get started coding now, choose one of the Quickstart topics from the table of contents, such as [Create your first ASP.NET Core web app](quickstart-aspnet-core.md).
-
-You can also check out the free Visual Studio courses available on [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033).
+- [Get started with C++ in Visual Studio](getting-started-with-cpp-in-visual-studio.md)
 
 ## See also
 
-* [More Visual Studio features](../ide/advanced-feature-overview.md)
-* [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
-* [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
-* [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
+- Discover [more Visual Studio features](../ide/advanced-feature-overview.md)
+- Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
+- Read [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
+- Check out the free Visual Studio courses at [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)
+- Download Visual Studio at [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
