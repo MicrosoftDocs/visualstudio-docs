@@ -68,7 +68,7 @@ In the new file, define a partial class for the shape or diagram class that shou
 
 Define `IsAcceptableDropItem(e)` to determine whether the dragged item is acceptable, and ProcessDragDropItem(e) to update your model when the item is dropped. These methods must first extract the item from the event arguments. For information about how to do that, see [How to get a reference to the dragged item](#extracting).
 
-## Defining Gesture Handlers by using MEF
+## Define Gesture Handlers by using MEF
 
 Use this method if you want third-party developers to be able to define their own handlers to your DSL. Users can choose to install the third-party extensions after they have installed your DSL.
 
