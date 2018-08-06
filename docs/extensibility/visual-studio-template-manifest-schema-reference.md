@@ -10,45 +10,45 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Visual Studio Template Manifest Schema Reference
-This schema describes the format of the Visual Studio template manifest (.vstman) files generated for Visual Studio project or item templates, and describes the location and other relevant information about the template.  
+# Visual Studio template manifest schema reference
+This schema describes the format of the Visual Studio template manifest (*.vstman*) files that are generated for Visual Studio project or item templates. The schema also describes the location and other relevant information about the template.  
   
  : Because there are separate item and project template directories, a manifest should never have a mix of item and project templates.  
   
 > [!IMPORTANT]
 >  This manifest is available starting in Visual Studio 2017.  
   
-## VSTemplateManifest Element  
+## VSTemplateManifest element  
  The root element of the manifest.  
   
 ### Attributes  
   
 -   **Version**: A string representing the version of the template manifest. Required.  
   
--   **Locale**: A string representing the locale or locales of the template manifest. The locale value applies to all templates, so you  must use a separate manifest for each locale. Optional.  
+-   **Locale**: A string representing the locale or locales of the template manifest. The locale value applies to all templates. You  must use a separate manifest for each locale. Optional.  
   
-### Child Elements  
+### Child elements  
   
 -   **VSTemplateContainer** Optional.  
   
 -   **VSTemplateDir** Optional.  
   
-### Parent Element  
+### Parent element  
  None.  
   
 ## VSTemplateContainer  
  The container of the template manifest elements. A manifest has one template container for each template it defines.  
   
 ### Attributes  
- **VSTemplateType** : A string value that specifies the type of the template (`"Project"`, `"Item"`, or `"ProjectGroup"`). Required  
+ **VSTemplateType**: A string value that specifies the type of the template (`"Project"`, `"Item"`, or `"ProjectGroup"`). Required  
   
-### Child Elements  
+### Child elements  
   
--   **RelativePathOnDisk**:  The relative path of the template file on disk. This location also defines the placement of the template in the template tree shown in the **New Project** or **New Item** dialog. For templates deployed as a directory and individual files, this path refers to the directory containing the template files. For templates deployed as a .zip file, this path should be the path to the .zip file.  
+-   **RelativePathOnDisk**:  The relative path of the template file on disk. This location also defines the placement of the template in the template tree shown in the **New Project** or **New Item** dialog. For templates deployed as a directory and individual files, this path refers to the directory containing the template files. For templates deployed as a *.zip* file, this path should be the path to the *.zip* file.  
   
--   **VSTemplateHeader** : A [TemplateData](../extensibility/templatedata-element-visual-studio-templates.md) element that describes the header.  
+-   **VSTemplateHeader: A [TemplateData](../extensibility/templatedata-element-visual-studio-templates.md) element that describes the header.  
   
-### Parent Element  
+### Parent element  
  **VSTemplateManifest**  
   
 ## VSTemplateDir  
@@ -59,17 +59,17 @@ This schema describes the format of the Visual Studio template manifest (.vstman
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements  
   
 -   **RelativePath**: The path of the template. There can  be only one entry per path, so the first one will win for all manifests.  
   
 -   **LocalizedName**: A **NameDescriptionIcon** element that specifies the localized name. Optional.  
   
--   **SortOrder** :A string that specifies the sort order. Optional.  
+-   **SortOrder**: A string that specifies the sort order. Optional.  
   
 -   **ParentFolderOverrideName**: The overridden name of the parent folder. Optional. This element has a **Name** attribute, which is a string value that specifies the name.  
   
-### Parent Element  
+### Parent element  
  **VSTemplateManifest**  
   
 ## NameDescriptionIcon  
@@ -79,16 +79,16 @@ This schema describes the format of the Visual Studio template manifest (.vstman
   
 -   **Package**: A string value that specifies the package. Optional.  
   
--   **ID**:  A string value that specifies the ID. Optional.  
+-   **ID**: A string value that specifies the ID. Optional.  
   
-### Child Elements  
+### Child elements  
  None.  
   
-### Parent Element  
+### Parent element  
  **LocalizedName**  
   
 ## Examples  
- The following is an example of a project template .vstman file.  
+ The following code is an example of a project template *.vstman* file.  
   
 ```xml  
 <VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">  
@@ -114,9 +114,9 @@ This schema describes the format of the Visual Studio template manifest (.vstman
   
 ```  
   
- The following is an example of an item template .vstman file.  
+ The following code is an example of an item template *.vstman* file.  
   
-```  
+```xml  
 VSTemplateManifest Version="1.0" Locale="1033" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">  
   <VSTemplateContainer TemplateType="Item">  
     <RelativePathOnDisk>CSharp\1033\ItemTemplate1</RelativePathOnDisk>  

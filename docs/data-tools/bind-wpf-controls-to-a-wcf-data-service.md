@@ -20,23 +20,24 @@ ms.workload:
 ---
 # Bind WPF controls to a WCF data service
 
-In this walkthrough, you will create a WPF application that contains data-bound controls. The controls are bound to customer records that are encapsulated in a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)]. You will also add buttons that customers can use to view and update records.
+In this walkthrough, you will create a WPF application that contains data-bound controls. The controls are bound to customer records that are encapsulated in a WCF Data Service. You will also add buttons that customers can use to view and update records.
 
 This walkthrough illustrates the following tasks:
 
 - Creating an Entity Data Model that is generated from data in the AdventureWorksLT sample database.
 
-- Creating a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] that exposes the data in the Entity Data Model to a WPF application.
+- Creating a WCF Data Service that exposes the data in the Entity Data Model to a WPF application.
 
 - Creating a set of data-bound controls by dragging items from the **Data Sources** window to the WPF designer.
 
 - Creating buttons that navigate forward and backward through customer records.
 
-- Creating a button that saves changes to data in the controls to the [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] and the underlying data source.
+- Creating a button that saves changes to data in the controls to the WCF Data Service and the underlying data source.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
 ## Prerequisites
+
 You need the following components to complete this walkthrough:
 
 -   Visual Studio
@@ -54,9 +55,8 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 -   WPF data binding. For more information, see [Data Binding overview](/dotnet/framework/wpf/data/data-binding-overview).
 
 ## Create the service project
-Start this walkthrough by creating a project for a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)].
 
-### To create the service project
+Start this walkthrough by creating a project for a WCF Data Service:
 
 1.  Start Visual Studio.
 
@@ -66,16 +66,15 @@ Start this walkthrough by creating a project for a [!INCLUDE[ss_data_service](..
 
 4.  Select the **ASP.NET Web Application** project template.
 
-5.  In the **Name** box, type `AdventureWorksService` and click **OK**.
+5.  In the **Name** box, type **AdventureWorksService** and click **OK**.
 
-     Visual Studio creates the `AdventureWorksService` project.
+     Visual Studio creates the **AdventureWorksService** project.
 
 6.  In **Solution Explorer**, right-click **Default.aspx** and select **Delete**. This file is not necessary in this walkthrough.
 
 ## Create an Entity Data Model for the service
-To expose data to an application by using a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)], you must define a data model for the service. The [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] supports two types of data models: Entity Data Models, and custom data models that are defined by using common language runtime (CLR) objects that implement the <xref:System.Linq.IQueryable%601> interface. In this walkthrough, you create an Entity Data Model for the data model.
 
-### To create an Entity Data Model
+To expose data to an application by using a WCF Data Service, you must define a data model for the service. The WCF Data Service supports two types of data models: Entity Data Models, and custom data models that are defined by using common language runtime (CLR) objects that implement the <xref:System.Linq.IQueryable%601> interface. In this walkthrough, you create an Entity Data Model for the data model.
 
 1.  On the **Project** menu, click **Add New Item**.
 
@@ -100,9 +99,8 @@ To expose data to an application by using a [!INCLUDE[ss_data_service](../data-t
 8.  Click **Finish**.
 
 ## Create the service
-Create a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] to expose the data in the Entity Data Model to a WPF application.
 
-### To create the service
+Create a WCF Data Service to expose the data in the Entity Data Model to a WPF application:
 
 1.  On the **Project** menu, select **Add New Item**.
 
@@ -113,23 +111,21 @@ Create a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md
      Visual Studio adds the `AdventureWorksService.svc` to the project.
 
 ## Configure the service
-You must configure the service to operate on the Entity Data Model that you created.
 
-### To configure the service
+You must configure the service to operate on the Entity Data Model that you created:
 
-1.  In the `AdventureWorks.svc` code file, replace the `AdventureWorksService` class declaration with the following code.
+1.  In the `AdventureWorks.svc` code file, replace the **AdventureWorksService** class declaration with the following code.
 
      [!code-csharp[Data_WPFWCF#1](../data-tools/codesnippet/CSharp/bind-wpf-controls-to-a-wcf-data-service_1.cs)]
      [!code-vb[Data_WPFWCF#1](../data-tools/codesnippet/VisualBasic/bind-wpf-controls-to-a-wcf-data-service_1.vb)]
 
-     This code updates the `AdventureWorksService` class, so that it derives from a <xref:System.Data.Services.DataService%601> that operates on the `AdventureWorksLTEntities` object context class in your Entity Data Model. It also updates the `InitializeService` method to allow clients of the service full read/write access to the `SalesOrderHeader` entity.
+     This code updates the **AdventureWorksService** class, so that it derives from a <xref:System.Data.Services.DataService%601> that operates on the `AdventureWorksLTEntities` object context class in your Entity Data Model. It also updates the `InitializeService` method to allow clients of the service full read/write access to the `SalesOrderHeader` entity.
 
 2.  Build the project, and verify that it builds without errors.
 
 ## Create the WPF client application
-To display the data from the [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)], create a new WPF application with a data source that is based on the service. Later in this walkthrough, you will add data-bound controls to the application.
 
-### To create the WPF client application
+To display the data from the WCF Data Service, create a new WPF application with a data source that is based on the service. Later in this walkthrough, you will add data-bound controls to the application.
 
 1.  In **Solution Explorer**, right-click the solution node, click **Add**, and select **New Project**.
 
@@ -155,7 +151,7 @@ To display the data from the [!INCLUDE[ss_data_service](../data-tools/includes/s
 
      Visual Studio searches the current solution for available services, and adds `AdventureWorksService.svc` to the list of available services in the **Services** box.
 
-9. In the **Namespace** box, type `AdventureWorksService`.
+9. In the **Namespace** box, type **AdventureWorksService**.
 
 10. In the **Services** box, click **AdventureWorksService.svc**, and then click **OK**.
 
@@ -165,10 +161,9 @@ To display the data from the [!INCLUDE[ss_data_service](../data-tools/includes/s
 
      Visual Studio adds nodes that represent the data returned by the service to the **Data Sources** window.
 
-## Define the user interface of the window
-Add several buttons to the window by modifying the XAML in the WPF designer. Later in this walkthrough, you will add code that enables users to view and update sales records by using these buttons.
+## Define the user interface
 
-### To create the window layout
+Add several buttons to the window by modifying the XAML in the WPF designer. Later in this walkthrough, you will add code that enables users to view and update sales records by using these buttons.
 
 1.  In **Solution Explorer**, double-click **MainWindow.xaml**.
 
@@ -189,9 +184,8 @@ Add several buttons to the window by modifying the XAML in the WPF designer. Lat
 3.  Build the project.
 
 ## Create the data-bound controls
-Create controls that display customer records by dragging the `SalesOrderHeaders` node from the **Data Sources** window to the designer.
 
-### To create the data-bound controls
+Create controls that display customer records by dragging the `SalesOrderHeaders` node from the **Data Sources** window to the designer.
 
 1.  In the **Data Sources** window, click the drop-down menu for the **SalesOrderHeaders** node, and select **Details**.
 
@@ -228,9 +222,8 @@ Create controls that display customer records by dragging the `SalesOrderHeaders
     -   **Sales Order Number**
 
 ## Load the data from the service
-Use the service proxy object to load sales data from the service. Then assign the returned data to the data source for the <xref:System.Windows.Data.CollectionViewSource> in the WPF window.
 
-### To load the data from the service
+Use the service proxy object to load sales data from the service. Then assign the returned data to the data source for the <xref:System.Windows.Data.CollectionViewSource> in the WPF window.
 
 1.  In the designer, to create the `Window_Loaded` event handler, double-click the text that reads: **MainWindow**.
 
@@ -240,9 +233,8 @@ Use the service proxy object to load sales data from the service. Then assign th
      [!code-vb[Data_WPFWCF#2](../data-tools/codesnippet/VisualBasic/bind-wpf-controls-to-a-wcf-data-service_2.vb)]
 
 ## Navigate sales records
-Add code that enables users to scroll through sales records by using the **\<** and **>** buttons.
 
-### To enable users to navigate sales records
+Add code that enables users to scroll through sales records by using the **\<** and **>** buttons.
 
 1.  In the designer, double-click the **<** button on the window surface.
 
@@ -262,10 +254,9 @@ Add code that enables users to scroll through sales records by using the **\<** 
      [!code-csharp[Data_WPFWCF#4](../data-tools/codesnippet/CSharp/bind-wpf-controls-to-a-wcf-data-service_4.cs)]
      [!code-vb[Data_WPFWCF#4](../data-tools/codesnippet/VisualBasic/bind-wpf-controls-to-a-wcf-data-service_4.vb)]
 
-## Saving changes to sales records
-Add code that enables users to both view and save changes to sales records by using the **Save changes** button.
+## Save changes to sales records
 
-### To add the ability to save changes to sales records
+Add code that enables users to both view and save changes to sales records by using the **Save changes** button:
 
 1.  In the designer, double-click the **Save Changes** button.
 
@@ -276,10 +267,9 @@ Add code that enables users to both view and save changes to sales records by us
      [!code-csharp[Data_WPFWCF#5](../data-tools/codesnippet/CSharp/bind-wpf-controls-to-a-wcf-data-service_5.cs)]
      [!code-vb[Data_WPFWCF#5](../data-tools/codesnippet/VisualBasic/bind-wpf-controls-to-a-wcf-data-service_5.vb)]
 
-## Testing the application
-Build and run the application to verify that you can view and update customer records.
+## Test the application
 
-### To test the application
+Build and run the application to verify that you can view and update customer records:
 
 1.  On **Build** menu, click **Build Solution**. Verify that the solution builds without errors.
 
