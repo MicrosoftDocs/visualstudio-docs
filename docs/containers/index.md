@@ -20,23 +20,9 @@ featureFlags:
             <li>
                 <table>
                     <tr>
-                        <td width="50%">
-                            <ul id="get-started1" class="cardsL">
+                        <td width="33%">
+                            <ul id="dotnet" class="cardsL">
                                 <li>
-                                    <div class="cardSize">
-                                        <div class="cardPadding" style="padding-bottom: 0;">
-                                            <div class="card">
-                                                <div class="cardText">
-                                                    <h4>Tools</h4>
-                                                    <ul class="noBullet">
-                                                        <li><a class="barLink" href="http://wwww.docker.com/docker-windows"><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker for Windows</a></li>
-                                                        <li><a class="barLink" href=""><img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="">Docker Tools in Visual Studio</a></li>
-                                                        <li><a class="barLink" href="https://docs.microsoft.com/visualstudio/install/build-tools-container"><img src="https://docs.microsoft.com/media/common/i_build.svg" alt="">Running build tools in a container</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <div class="cardSize">
                                         <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
@@ -86,7 +72,7 @@ featureFlags:
                             </ul>
                         </td>
                         <td>
-                            <ul id="get-started2" class="cardsL">
+                            <ul id="azure-and-tools" class="cardsL">
                                 <li>
                                     <div class="cardSize">
                                         <div class="cardPadding" style="padding-bottom: 0;">
@@ -114,6 +100,41 @@ featureFlags:
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="cardSize">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
+                                            <div class="card">
+                                                <div class="cardText">
+                                                    <h4>Tools</h4>
+                                                    <ul class="noBullet">
+                                                        <li><a class="barLink" href="http://wwww.docker.com/docker-windows"><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker for Windows</a></li>
+                                                        <li><a class="barLink" href=""><img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="">Docker Tools in Visual Studio</a></li>
+                                                        <li><a class="barLink" href="https://docs.microsoft.com/visualstudio/install/build-tools-container"><img src="https://docs.microsoft.com/media/common/i_build.svg" alt="">Running build tools in a container</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardSize">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
+                                        <div class="card">
+                                            <div class="cardText">
+                                                <h4>Videos</h4>
+                                                <ul class="noBullet">
+                                                    <li>
+                                                        <a class="barLink" href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T111">
+                                                        <img src="https://docs.microsoft.com/media/common/i_video.svg" alt="">
+                                                        Channel 9: Docker Development
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul id="kubernetes" class="cardsL">
+                                <li>
                                     <div class="cardSize">
                                         <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
