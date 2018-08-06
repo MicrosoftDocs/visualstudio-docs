@@ -99,7 +99,7 @@ featureFlags:
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage">
-                                                        <img data-hoverimage="/media/logos/logo_azure.svg" src="/media/logos/logo_azure.svg" alt="" />
+                                                        <img data-hoverimage="https://docs.microsoft.com/media/logos/logo_azure.svg" src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -141,7 +141,7 @@ featureFlags:
                                                 <ul class="noBullet">
                                                     <li>
                                                         <a class="barLink" href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T111">
-                                                        <img src="/media/common/i_video.svg" alt="">
+                                                        <img src="https://docs.microsoft.com/media/common/i_video.svg" alt="">
                                                         Channel 9: Docker Development
                                                     </a>
                                                 </li>
