@@ -27,6 +27,7 @@ featureFlags:
                                         <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
+                                                    <h3>.NET</h3>
                                                     <h4>.NET Core</h4>
                                                     <ul class="noBullet">
                                                         <li>
@@ -78,7 +79,7 @@ featureFlags:
                                         <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
-                                                    <h4>Azure</h4>
+                                                    <h3>Azure</h3>
                                                     <ul class="noBullet">
                                                         <li>
                                                             <a class="barLink" href="https://docs.microsoft.com/azure/containers/">
@@ -104,7 +105,7 @@ featureFlags:
                                         <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
-                                                    <h4>Tools</h4>
+                                                    <h3>Tools</h3>
                                                     <ul class="noBullet">
                                                         <li><a class="barLink" href="http://wwww.docker.com/docker-windows"><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker for Windows</a></li>
                                                         <li><a class="barLink" href=""><img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="">Docker Tools in Visual Studio</a></li>
@@ -112,21 +113,6 @@ featureFlags:
                                                     </ul>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="cardSize">
-                                        <div class="cardPadding" style="padding-bottom: 0;">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h4>Videos</h4>
-                                                <ul class="noBullet">
-                                                    <li>
-                                                        <a class="barLink" href="https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T111">
-                                                        <img src="https://docs.microsoft.com/media/common/i_video.svg" alt="">
-                                                        Channel 9: Docker Development
-                                                    </a>
-                                                </li>
-                                            </ul>
                                         </div>
                                     </div>
                                 </li>
@@ -139,14 +125,14 @@ featureFlags:
                                         <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
-                                                    <h4>Kubernetes</h4>
+                                                    <h3>Kubernetes</h3>
                                                     <ul class="noBullet">
                                                         <li><a class="barLink" href="/azure/aks/"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Azure Kubernetes Service (AKS)</a></li>
                                                         <li><a class="barLink" href="https://docs.microsoft.com/azure/container-service/kubernetes">Azure Container Service - Kubernetes</a></li>
                                                         <li><a class="barLink" href="https://docs.microsoft.com/azure/dev-spaces/"><img src="media/AzureDevSpaceController_50x.svg" alt="">Azure Dev Spaces</a></li>
                                                         <li><a class="barLink" href="https://docs.microsoft.com/visualstudio/kubernetes/"><img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="">Visual Studio Tools for Kubernetes</a></li>
                                                     </ul>
-                                                    <h4>External</h4>
+                                                    <h3>External</h3>
                                                     <ul class="noBullet">
                                                         <li><a class="barLink" href="https://kubernetes.io"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Kubernetes</a></li>
                                                         <li><a class="barLink" href="https://helm.sh"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Helm</a></li>
