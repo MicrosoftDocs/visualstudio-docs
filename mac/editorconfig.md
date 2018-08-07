@@ -11,7 +11,7 @@ ms.assetid: 26A0DE31-2FBF-4E1B-99FB-083111AA1680
 
 # Creating and editing a custom EditorConfig file
 
-In Visual Studio for Mac, you can add an [EditorConfig](http://editorconfig.org/) file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase. The settings declared in the EditorConfig file take precedence over global Visual Studio for Mac text editor settings. Using EditorConfig within your project or codebase allows you to set your coding style, preferences, and warnings for your project. Because the EditorConfig file is part of your codebase, it makes it easier for all users to adhere to the coding practices of a project, regardless of the IDE or code editor that they use.
+In Visual Studio for Mac, you can add an [EditorConfig](http://editorconfig.org/) file to your project or solution to enforce consistent coding styles for everyone that works in the codebase. The settings declared in the EditorConfig file take precedence over global Visual Studio for Mac text editor settings. Using an EditorConfig file within your project or codebase allows you to set your coding style, preferences, and warnings for your project. Because the file is part of your codebase, it makes it easier for all users to adhere to the coding practices of a project, regardless of the IDE or code editor that they use.
 
 [EditorConfig](http://editorconfig.org/) files are supported on many IDEs and code editors, including Visual Studio 2017. 
 
@@ -28,7 +28,7 @@ The editor in Visual Studio for Mac supports the core set of [EditorConfig prope
 - `insert_final_newline`
 - `root`
 
-EditorConfig also supports [Code style formatting](https://docs.microsoft.com/visualstudio/ide/editorconfig-code-style-settings-reference) in C#.
+EditorConfig also supports [Coding conventions](https://docs.microsoft.com/visualstudio/ide/editorconfig-code-style-settings-reference) in C#.
 
 ## Add an EditorConfig file to a project
 
@@ -65,7 +65,7 @@ EditorConfig also supports [Code style formatting](https://docs.microsoft.com/vi
     csharp_new_line_before_open_brace = none
     ```
 
-4. Adding the file does not automatically update your settings. To reflect the settings from the `.editorconfig` file, select the project node and choose **Edit > Format > Format Document** from the menu bar:
+4. While adding the automatically update your settings for any new code that you add, existing code will need to be reformatted. To reflect the settings from the `.editorconfig` file, select the project node and choose **Edit > Format > Format Document** from the menu bar:
 
     ![Format Document menu item](media/editorconfig-image2.png)
 
