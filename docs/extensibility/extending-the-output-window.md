@@ -22,7 +22,7 @@ The **Output** window is a set of read/write text panes. Visual Studio has these
 ## Create an extension that uses the Output pane  
  You can make an extension that exercises different aspects of the Output pane.  
   
-1.  Create a VSIX project named `TestOutput` with a menu command named **TestOutput**. For more information, see [Create an extension with a menu Ccommand](../extensibility/creating-an-extension-with-a-menu-command.md).  
+1.  Create a VSIX project named `TestOutput` with a menu command named **TestOutput**. For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).  
   
 2.  Add the following references:  
   

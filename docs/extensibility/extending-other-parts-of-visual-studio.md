@@ -27,11 +27,11 @@ There are many more parts of the Visual Studio UI that you can extend. Here we s
   
 -   [Create a Windows Forms Toolbox Control](../extensibility/creating-a-windows-forms-toolbox-control.md)  
   
-## Extend the status Bar  
+## Extend the status bar  
  Learn how to read and write to the status bar and the progress bar, and how to provide animations and other UI: [Extend the status bar](../extensibility/extending-the-status-bar.md).  
   
-## Create custom start pages  
- Learn how to make your own start page, either from scratch or from a downloadable start page sample: [Create a custom start page](../extensibility/creating-a-custom-start-page.md).  
+## Create custom Start Pages  
+ Learn how to make your own start page, either from scratch or from a downloadable start page sample: [Create a custom Start Page](../extensibility/creating-a-custom-start-page.md).  
   
 ## Write to the Activity log  
  Learn how to write to the Activity Log: [How to: Use the Activity log](../extensibility/how-to-use-the-activity-log.md).

@@ -56,7 +56,7 @@ internal IEditorOptionsFactoryService m_editorOptions = null;
 ## Import the service provider  
  You can also import a <xref:Microsoft.VisualStudio.Shell.SVsServiceProvider> (found in the assembly Microsoft.VisualStudio.Shell.Immutable.10.0) in the same way to get access to Visual Studio services:  
   
-```  
+```csharp  
 [Import]  
 internal SVsServiceProvider ServiceProvider = null;   
 ```  

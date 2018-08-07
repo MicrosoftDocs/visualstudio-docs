@@ -42,7 +42,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
   
 1.  In *DynamicMenuPackage.vsct*, define the command IDs. Go to the Symbols section and replace the IDSymbol elements in the **guidDynamicMenuPackageCmdSet** GuidSymbol block. You need to define IDSymbol elements for the two groups, the menu controller, the placeholder command, and the anchor command.  
   
-    ```csharp  
+    ```xml  
     <GuidSymbol name="guidDynamicMenuPackageCmdSet" value="{ your GUID here }">  
         <IDSymbol name="MyToolbarItemGroup" value="0x1020" />  
         <IDSymbol name="MyMenuControllerGroup" value="0x1025" />  
@@ -57,7 +57,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
   
 2.  In the Groups section, delete the existing groups and add the two groups you just defined:  
   
-    ```csharp  
+    ```xml  
     <Groups>  
         <!-- The group that adds the MenuController on the Solution Explorer toolbar.   
              The 0x4000 priority adds this group after the group that contains the  
@@ -74,7 +74,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
   
      Add the MenuController. Set the DynamicVisibility command flag, since it is not always visible. The ButtonText is not displayed.  
   
-    ```csharp  
+    ```xml  
     <Menus>  
         <!-- The MenuController to display on the Solution Explorer toolbar.  
              Place it in the ToolbarItemGroup.-->  
@@ -94,7 +94,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
   
      The anchor button holds the icon and the tooltip text. The parent of the anchor button is also the **MyMenuControllerGroup**. You add the NoShowOnMenuController command flag to make sure the button doesn't actually appear in the menu controller dropdown, and the FixMenuController command flag to make it the permanent anchor.  
   
-    ```csharp  
+    ```xml  
     <!-- The placeholder for the dynamic items that expand to N items at runtime. -->  
     <Buttons>  
         <Button guid="guidDynamicMenuPackageCmdSet" id="cmdidMyDynamicStartCommand" priority="0x1000" >  
@@ -129,7 +129,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
   
 5.  Add a VisibilityConstraints section outside the Commands section just before the Symbols section. (You may get a warning if you add it after Symbols.) This section makes sure that the menu controller appears only when a solution with multiple projects is loaded.  
   
-    ```csharp]  
+    ```xml  
     <VisibilityConstraints>  
          <!--Make the MenuController show up only when there is a solution with more than one project loaded-->  
         <VisibilityItem guid="guidDynamicMenuPackageCmdSet" id="MyMenuController" context="UICONTEXT_SolutionHasMultipleProjects"/>  
@@ -315,7 +315,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
   
 ## Implement the command ID match predicate  
   
-1.  Now implement the match predicate. We need to determine two things: first, whether the command ID is valid (it is greater than or equal to the declared command ID), and second, whether it specifies a possible project (it is less than the number of projects in the solution).  
+Now implement the match predicate. We need to determine two things: first, whether the command ID is valid (it is greater than or equal to the declared command ID), and second, whether it specifies a possible project (it is less than the number of projects in the solution).
   
     ```csharp  
     private bool IsValidDynamicItem(int commandId)  

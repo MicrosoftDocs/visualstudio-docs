@@ -46,5 +46,3 @@ Projects and solutions are the ways Visual Studio organizes code and resource fi
   
  [Manage universal Windows projects](../extensibility/managing-universal-windows-projects.md)  
  Explains how to manage universal projects.  
-  
-## Related sections

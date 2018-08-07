@@ -55,5 +55,3 @@ Commands are the way you add actions and processes to Visual Studio. In most cas
   
  [Localize menu commands](../extensibility/localizing-menu-commands.md)  
  Explains how to localize menu commands.  
-  
-## Related sections
