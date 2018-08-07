@@ -135,36 +135,40 @@ ms.topic: hub-page
                                             <div class="cardText">
                                                 <h3>Tutorials</h3>
                                                 <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
-                                                <ul class="noBullet">
+                                                <ul class="noBullet">                                                    <li>
+                                                        <a class="barLink" href="/go/azure/">
+                                                            <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="">
+                                                            C++</a>
+                                                    </li>
                                                     <li>
                                                         <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
-                                                            <img src="media/index/logo_NET.svg" alt="">
-                                                            .NET</a>
+                                                            <img src="https://docs.microsoft.com/media/index/logo_CSharp.svg" alt="">
+                                                            C#</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
+                                                            <img src="https://docs.microsoft.com/media/index/logo_vb.svg" alt="">
+                                                            Visual Basic</a>
                                                     </li>
                                                     <li>
                                                         <a class="barLink" href="/python/azure/">
-                                                            <img src="media/index/logo_python.svg" alt="">
+                                                            <img src="https://docs.microsoft.com/media/index/logo_python.svg" alt="">
                                                             Python</a>
                                                     </li>
                                                     <li>
                                                         <a class="barLink" href="/java/azure/">
-                                                            <img src="media/index/logo_java.svg" alt="">
+                                                            <img src="https://docs.microsoft.com/media/index/logo_java.svg" alt="">
                                                             Java</a>
                                                     </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
                                                     <li>
-                                                        <a class="barLink" href="/azure/app-service-web/app-service-web-get-started-php">
-                                                            <img src="media/index/logo_PHP.svg" alt="">
-                                                            PHP</a>
-                                                    </li>
-                                                    <li>
                                                         <a class="barLink" href="/javascript/azure/">
-                                                            <img src="media/index/logo_nodejs.svg" alt="">
+                                                            <img src="https://docs.microsoft.com/media/index/logo_nodejs.svg" alt="">
                                                             Node.js</a>
                                                     </li>
                                                     <li>
-                                                        <a class="barLink" href="/go/azure/">
-                                                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_Go-lightblue.svg" alt="">
-                                                            Go</a>
+                                                        <a class="barLink" href="/azure/app-service-web/app-service-web-get-started-php">
+                                                            <img src="https://docs.microsoft.com/media/index/logo_TS.svg" alt="">
+                                                            TypeScript</a>
                                                     </li>
                                                 </ul></td></tr></table>
                                                <h4>App Models</h4>
@@ -186,25 +190,45 @@ ms.topic: hub-page
                                         <div class="card">
                                             <div class="cardText">
                                                 <h3>Get up and running with a Quickstart</h3>
+                                                <h4>Build Hello, World in your language of choice.</h4>
+                                                 <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
                                                 <ul class="noBullet">
-                                                    <li><a class="barLink" href="/azure/sql-database/">SQL database as a service</a></li>
-                                                    <li><a class="barLink" href="/azure/sql-data-warehouse/">SQL Data Warehouse as a service</a></li>
-                                                    <li><a class="barLink" href="/azure/postgresql/">PostgreSQL database as a service</a></li>
-                                                    <li><a class="barLink" href="/azure/mysql/">MySQL database as a service</a></li>
-                                                </ul>
-                                                <h4>NoSQL</h4>
-                                                <ul class="noBullet">
-                                                    <li><a class="barLink" href="/azure/cosmos-db/">Azure Cosmos DB</a></li>
-                                                </ul>
-                                                <h4>Storage</h4>
-                                                <ul class="noBullet">
-                                                    <li><a class="barLink" href="/azure/storage/">Blob Storage</a></li>
-                                                </ul>
-                                                <h4>AI and Cognitive Services</h4>
-                                                <ul class="noBullet">
-                                                    <li><a class="barLink" href="/azure/machine-learning/">Machine Learning </a></li>
-                                                    <li><a class="barLink" href="/azure/cognitive-services/">Cognitive Services</a></li>
-                                                </ul>
+                                                    <li>
+                                                        <a class="barLink" href="/go/azure/">
+                                                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_Cplusplus.svg" alt="">
+                                                            C++</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
+                                                            <img src="https://docs.microsoft.com/media/index/logo_CSharp.svg" alt="">
+                                                            C#</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
+                                                            <img src="https://docs.microsoft.com/media/index/logo_vb.svg" alt="">
+                                                            Visual Basic</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="barLink" href="/python/azure/">
+                                                            <img src="https://docs.microsoft.com/media/index/logo_python.svg" alt="">
+                                                            Python</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="barLink" href="/java/azure/">
+                                                            <img src="https://docs.microsoft.com/media/index/logo_java.svg" alt="">
+                                                            Java</a>
+                                                    </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
+                                                    <li>
+                                                        <a class="barLink" href="/javascript/azure/">
+                                                            <img src="https://docs.microsoft.com/media/index/logo_nodejs.svg" alt="">
+                                                            Node.js</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="barLink" href="/azure/app-service-web/app-service-web-get-started-php">
+                                                            <img src="https://docs.microsoft.com/media/index/logo_TS.svg" alt="">
+                                                            TypeScript</a>
+                                                    </li>
+                                                </ul></td></tr></table>
                                             </div>
                                         </div>
                                     </div>
