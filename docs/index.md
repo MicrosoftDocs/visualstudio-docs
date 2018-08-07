@@ -92,7 +92,7 @@ ms.topic: hub-page
                                                     <li><a class="barLink" href="/visualstudio/install/install-visual-studio">Download and Install</a></li>
                                                     <li><a class="barLink" href="/visualstudio/install/create-an-offline-installation-of-visual-studio">No network connection? Install offline</a></li>
                                                     <li><a class="barLink" href="">Update Visual Studio</a></li>
-                                                    <li><a class="barLink" href="">Modify Visual Studio</a></li>
+                                                    <li><a class="barLink" href="">Modify a Visual Studio installation</a></li>
                                                     <li><a class="barLink" href="">Uninstall Visual Studio</a></li>
                                                 </ul>
                                             </div>
@@ -118,7 +118,7 @@ ms.topic: hub-page
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Tutorials</h3>
+                                                <h3>Beginner Tutorials</h3>
                                                 <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
                                                 <ul class="noBullet">                                                    <li>
                                                         <a class="barLink" href="/go/azure/">
@@ -184,7 +184,7 @@ ms.topic: hub-page
                                                         <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
                                                             <img src="https://docs.microsoft.com/media/index/logo_vb.svg" alt="">
                                                             Visual Basic</a>
-                                                    </li>
+                                                    </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
                                                     <li>
                                                         <a class="barLink" href="/python/azure/">
                                                             <img src="https://docs.microsoft.com/media/index/logo_python.svg" alt="">
@@ -213,7 +213,7 @@ ms.topic: hub-page
                             </li>
                         </ul>
                      <div>
-                        <ul>
+                        <ul class="cardsL">
                             <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
@@ -236,7 +236,7 @@ ms.topic: hub-page
                                                         <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="">
                                                             Universal Windows App</a>
-                                                    </li>
+                                                    </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
                                                     <li>
                                                         <a class="barLink" href="/python/azure/">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="">
@@ -256,6 +256,11 @@ ms.topic: hub-page
                                                         <a class="barLink" href="/azure/app-service-web/app-service-web-get-started-php">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="">
                                                             Web  App - Node.js</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="barLink" href="/azure/app-service-web/app-service-web-get-started-php">
+                                                            <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="">
+                                                            Azure Services</a>
                                                     </li>
                                                 </ul></td></tr></table>
                                             </div>
