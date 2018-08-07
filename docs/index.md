@@ -156,14 +156,6 @@ ms.topic: hub-page
                                                             TypeScript</a>
                                                     </li>
                                                 </ul></td></tr></table>
-                                               <h4>App Models</h4>
-                                                <ul class="noBullet">
-                                                    <li><a class="barLink" href="/azure/app-service-web/">Web Apps</a></li>
-                                                    <li><a class="barLink" href="/azure/azure-functions/">Serverless Functions</a></li>
-                                                    <li><a class="barLink" href="/azure/containers/">Containers</a></li>
-                                                    <li><a class="barLink" href="/azure/aks/">Microservices with Kubernetes</a></li>
-                                                    <li><a class="barLink" href="/azure/service-fabric/">Microservices with Service Fabric</a></li>
-                                                </ul>
                                             </div>
                                         </div>
                                     </div>
