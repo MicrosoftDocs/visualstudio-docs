@@ -2,7 +2,7 @@
 title: "Analyze CPU usage data (C++)"
 description: "Measure app performance in C++ using the CPU Usage diagnostics tool"
 ms.custom: ""
-ms.date: "12/05/2017"
+ms.date: "08/06/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 f1_keywords: 
@@ -28,11 +28,13 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 
 2. Under **Visual C++**, choose **Windows Desktop**, and then in the middle pane choose **Windows Console Application**.
 
+    If you don't see the **Windows Console Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
+
 3. Type a name like **Diagnostics_Get_Started_Native** and click **OK**.
 
     Visual Studio creates the project.
 
-4. In MyDbgApp.cpp, replace the following code
+4. In *MyDbgApp.cpp*, replace the following code
 
     ```c++
     int main()
