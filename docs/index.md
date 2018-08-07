@@ -83,10 +83,10 @@ ms.topic: hub-page
                                             <div class="cardText">
                                                 <h3>Download and Install</h3>
                                                 <ul class="noBullet">
-                                                    <li><a class="barLink" href="/visualstudio/install/install-visual-studio"><img  src="https://docs.microsoft.com/media/common/i_setup.svg" alt="" />Download and Install</a></li>
-                                                    <li><a class="barLink" href="/visualstudio/install/create-an-offline-installation-of-visual-studio">No network connection? Install offline</a></li>
+                                                    <li><a class="barLink" href="/visualstudio/install/install-visual-studio"><img  src="https://docs.microsoft.com/media/common/i_download-install.svg" alt="" />Download and Install</a></li>
+                                                    <li><a class="barLink" href="/visualstudio/install/create-an-offline-installation-of-visual-studio"><img  src="https://docs.microsoft.com/media/common/i_offline.svg" alt="" />No network connection? Install offline</a></li>
                                                     <li><a class="barLink" href=""><img src="https://docs.microsoft.com/media/common/i_upgrade.svg" alt="" />Update Visual Studio</a></li>
-                                                    <li><a class="barLink" href="">Modify a Visual Studio installation</a></li>
+                                                    <li><a class="barLink" href=""><img  src="https://docs.microsoft.com/media/common/i_setup.svg" alt="" />Modify a Visual Studio installation</a></li>
                                                     <li><a class="barLink" href="">Uninstall Visual Studio</a></li>
                                                 </ul>
                                             </div>
@@ -102,7 +102,7 @@ ms.topic: hub-page
                                                 <h3>Learn how to use Visual Studio</h3>
                                                 <ul class="noBullet">
                                                     <li><a class="barLink" href="ide/visual-studio-ide.md"><img  src="https://docs.microsoft.com/media/common/i_overview.svg" alt="" />Overview of the development environment</a></li>
-                                                    <li><a class="barLink" href="/visualstudio/ide/quickstart-ide-orientation">Start a guided tour</a></li>
+                                                    <li><a class="barLink" href="/visualstudio/ide/quickstart-ide-orientation"><img  src="https://docs.microsoft.com/media/common/i_roadmap.svg" alt="" />Start a guided tour</a></li>
                                                 </ul>
                                             </div>
                                         </div>
