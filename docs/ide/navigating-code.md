@@ -78,7 +78,7 @@ Go To has the following commands, which are available in the **Edit** menu under
 
 - **Go to File** (**Ctrl**+**1**, **Ctrl**+**F**): Move to the specified file in the solution.
 
-- **Go to Recent File** (**Ctrl**+**1**, **Ctrl**+**R**): Move to the specified, recently edited file in the solution (new in Visual Studio 2017 version 15.8).
+- **Go to Recent File** (**Ctrl**+**1**, **Ctrl**+**R**): Move to the specified, recently visited file in the solution (new in Visual Studio 2017 version 15.8).
 
 - **Go to Type** (**Ctrl**+**1**, **Ctrl**+**T**): Move to the specified type in the solution.
 
