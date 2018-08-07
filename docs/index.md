@@ -83,11 +83,12 @@ ms.topic: hub-page
                                             <div class="cardText">
                                                 <h3>Download and Install</h3>
                                                 <ul class="noBullet">
-                                                    <li><a class="barLink" href="/visualstudio/install/install-visual-studio"><img  src="https://docs.microsoft.com/media/common/i_download-install.svg" alt="" />Download and Install</a></li>
+                                                    <li><a class="barLink" href="/visualstudio/install/install-visual-studio"><img  src="https://docs.microsoft.com/media/common/i_download-install.svg" alt="" />Download and Install Visual Studio</a></li>
                                                     <li><a class="barLink" href="/visualstudio/install/create-an-offline-installation-of-visual-studio"><img  src="https://docs.microsoft.com/media/common/i_offline.svg" alt="" />No network connection? Install offline</a></li>
                                                     <li><a class="barLink" href=""><img src="https://docs.microsoft.com/media/common/i_upgrade.svg" alt="" />Update Visual Studio</a></li>
                                                     <li><a class="barLink" href=""><img  src="https://docs.microsoft.com/media/common/i_setup.svg" alt="" />Modify a Visual Studio installation</a></li>
-                                                    <li><a class="barLink" href="">Uninstall Visual Studio</a></li>
+                                                    <li><a class="barLink" href=""><img  src="https://docs.microsoft.com/media/common/i_library.svg" alt="" />Install the Help Viewer</a></li>
+                                                    <li><a class="barLink" href="/visualstudio/install/visual-studio-administrator-guide"><img  src="https://docs.microsoft.com/media/common/i_advanced.svg" alt="" />More installation choices...</a></li>
                                                 </ul>
                                             </div>
                                         </div>
