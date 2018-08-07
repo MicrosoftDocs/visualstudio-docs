@@ -11,13 +11,13 @@ ms.assetid: 26A0DE31-2FBF-4E1B-99FB-083111AA1680
 
 # Creating and editing a custom EditorConfig file
 
-In Visual Studio for Mac, you can add an [EditorConfig](http://editorconfig.org/) file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase. The settings declared in the EditorConfig file take precedence over global Visual Studio text editor settings. Using EditorConfig within your project or codebase allows you to set your coding style, preferences, and warnings for your project. This makes it easier for all Visual Studio for Mac users to adhere to the coding practices of a project.
+In Visual Studio for Mac, you can add an [EditorConfig](http://editorconfig.org/) file to your project or solution to enforce consistent coding styles for everyone that works in the codebase. The settings declared in the EditorConfig file take precedence over global Visual Studio for Mac text editor settings. Using an EditorConfig file within your project or codebase allows you to set your coding style, preferences, and warnings for your project. Because the file is part of your codebase, it makes it easier for all users to adhere to the coding practices of a project, regardless of the IDE or code editor that they use.
 
 [EditorConfig](http://editorconfig.org/) files are supported on many IDEs and code editors, including Visual Studio 2017. 
 
 ## Supported settings
 
-The editor in Visual Studio supports the core set of [EditorConfig properties](http://editorconfig.org/#supported-properties):
+The editor in Visual Studio for Mac supports the core set of [EditorConfig properties](http://editorconfig.org/#supported-properties):
 
 - `indent_style`
 - `indent_size`
@@ -28,19 +28,25 @@ The editor in Visual Studio supports the core set of [EditorConfig properties](h
 - `insert_final_newline`
 - `root`
 
-EditorConfig also supports [Code style formatting](https://docs.microsoft.com/visualstudio/ide/editorconfig-code-style-settings-reference) in C#.
+EditorConfig also supports [Coding conventions](https://docs.microsoft.com/visualstudio/ide/editorconfig-code-style-settings-reference) in C#.
 
 ## Add an EditorConfig file to a project
 
 ### Adding a new EditorConfig file
 
-1. Open your project in Visual Studio for Mac. Select the project node that you wish to add files to.
+1. Open your project in Visual Studio for Mac. Select either the solution or project node that you wish to add the EditorConfig file to. Adding the file to the solution directory applies the .editorconfig settings to all projects in the solution. 
 
-2. With the project node selected, go to **File > New File…** in the menu bar to open the **New File** dialog.
+2. Right-click on the node and select **Add > New File…** to open the **New File** dialog:
+
+    ![Content menu items](media/editorconfig-image0.png)
 
 3. Choose **Misc > Empty Text File** and give it the **Name** `.editorconfig`. Press **New** to create the file and open it in the editor:
 
     ![New file dialog](media/editorconfig-image1.png)
+
+    Adding the item at the solution level automatically creates and nests it in a **Solution Items** folder:
+
+    ![Solution item displayed in solution pad](media/editorconfig-image1a.png)
 
 4. Edit the file. For example:
 
@@ -59,7 +65,7 @@ EditorConfig also supports [Code style formatting](https://docs.microsoft.com/vi
     csharp_new_line_before_open_brace = none
     ```
 
-4. Adding the file does not automatically update your settings. To reflect the settings from the `.editorconfig` file, select the project node and choose **Edit > Format > Format Document** from the menu bar:
+4. While adding the automatically update your settings for any new code that you add, existing code will need to be reformatted. To reflect the settings from the `.editorconfig` file, select the project node and choose **Edit > Format > Format Document** from the menu bar:
 
     ![Format Document menu item](media/editorconfig-image2.png)
 
@@ -67,20 +73,32 @@ EditorConfig also supports [Code style formatting](https://docs.microsoft.com/vi
 
 If you're working with a project or solution that already contains an `.editorconfig` file, there is nothing that you need to do to apply the settings. Any new lines of code are formatted according to the EditorConfig settings. You should note that while Visual Studio for Mac will respect `.editorconfig` files at the solution level, they might not appear in the solution pad due to the fact the files beginning with `.` are hidden files in macOS.
 
-You may want to reuse an existing `.editorconfig` file in your project. To add an existing file, you first need to display hidden files in Finder by entering the following command in **Terminal**:
+You may want to reuse an existing `.editorconfig` file in your project. To add an existing file, do the following:
 
-```bash
-$ defaults write com.apple.Finder AppleShowAllFiles true
-$ killall Finder
-```
+1. Right-click on the folder you wish to add it to and select **Add > Add Files…**.
 
-Once the `.editorconfig` file is visible, drag it to your project node. When you're presented with the following dialog, select the **Copy the file to the directory** option and select **OK**:
+2. Browse to the directory of the required file. 
 
-![Format Document menu item](media/editorconfig-image3.png)
+3. Files beginning with `.` (such as `.editorconfig`) are hidden files in macOS,  so press **Command + Shift + .** to make the `.editorconfig` file visible.
 
-To reflect the settings from the `.editorconfig` file, select the project node and choose **Edit > Format > Format Document** from the menu bar.
+4. Select the `.editorconfig` file and click **Open**:
+
+    ![adding a new file window](media/editorconfig-image3b.png)
+
+5. When you're presented with the following dialog, select the **Copy the file to the directory** option and select **OK**:
+
+    ![Add file to folder dialog options](media/editorconfig-image3.png)
+
+### Reflecting .editorconfig settings
+
+Once you add an EditorConfig file to your codebase, any new code added is automatically formatted according to the specified settings. Existing code doesn't automatically reflect the settings unless you  format the codebase.
+
+To reflect the settings from the `.editorconfig` file, select the solution node and choose **Edit > Format > Format Document** from the menu bar:
+
+![Format document from the menu bar](media/editorconfig-image3a.png)
 
 ## Editing an EditorConfig file
+
 
 EditorConfig files use a straightforward file layout to specify settings, which is explained below using a previous example:
 
