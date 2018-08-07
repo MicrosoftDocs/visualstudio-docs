@@ -40,7 +40,7 @@ If you disable automatic file restore, a quick way to navigate to files you want
 
 - In Visual Studio 2017 version 15.8 and later, you can jump to the last edit location in a solution using **Edit** > **Go To** > **Go To Last Edit Location**, or by pressing **Ctrl**+**Shift**+**Backspace**.
 
-- Use **Go To Recent File** to see a list of recently visited files in a solution. Select **Edit** > **Go To** > **Go To Recent File**, or press **Ctrl**+**1**, **Ctrl**+**R**.
+- In Visual Studio 2017 version 15.8 and later, use **Go To Recent File** to see a list of recently visited files in a solution. Select **Edit** > **Go To** > **Go To Recent File**, or press **Ctrl**+**1**, **Ctrl**+**R**.
 
 ## Configure debugging options
 

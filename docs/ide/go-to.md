@@ -51,11 +51,12 @@ To narrow your search to a specific type of code element, you can either specify
 
 Prefix | Icon | Shortcut | Description
 :----: | ---- | -------- | ---
-\#     | ![Symbol Icon](media/gotoall_symbolicon.png) | **Ctrl**+**1**, **Ctrl**+**S** | Go to the specified symbol
-f      | ![File Icon](media/gotoall_fileicon.png)     | **Ctrl**+**1**, **Ctrl**+**F** | Go to the specified file
-m      | ![Member Icon](media/gotoall_membericon.png) | **Ctrl**+**1**, **Ctrl**+**M** | Go to the specified member
-t      | ![Type Icon](media/gotoall_typeicon.png)     | **Ctrl**+**1**, **Ctrl**+**T** | Go to the specified type
-:      | ![Line Icon](media/gotoall_lineicon.png)     | **Ctrl**+**G**         | Go to the specified line number
+:      | ![Line icon](media/gotoall-line-icon.png)     | **Ctrl**+**G**         | Go to the specified line number
+f      | ![Files icon](media/gotoall-files-icon.png)     | **Ctrl**+**1**, **Ctrl**+**F** | Go to the specified file
+f      | ![Recent files icon](media/gotoall-recent-files-icon.png)     | **Ctrl**+**1**, **Ctrl**+**F** | Go to the specified recent file
+t      | ![Types icon](media/gotoall-types-icon.png)     | **Ctrl**+**1**, **Ctrl**+**T** | Go to the specified type
+m      | ![Members icon](media/gotoall-members-icon.png) | **Ctrl**+**1**, **Ctrl**+**M** | Go to the specified member
+\#     | ![Symbols icon](media/gotoall-symbols-icon.png) | **Ctrl**+**1**, **Ctrl**+**S** | Go to the specified symbol
 
 ### Filter to a specific location
 
@@ -74,7 +75,7 @@ If you use [camel casing](https://en.wikipedia.org/wiki/Camel_case) in your code
 
 ## Settings
 
-Selecting the gear icon ![Gear Icon](media/gotoall_gear.png) lets you change how this feature works:
+Selecting the gear icon ![Gear icon](media/gotoall_gear.png) lets you change how this feature works:
 
 Setting | Description
 ------- | ---
