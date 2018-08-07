@@ -39,7 +39,6 @@ The context menu on the **Python Environments** node also provides additional co
 | **Add Existing Virtual Environment** | Prompts you to select a folder containing a virtual environment and adds it to the list under **Python Environments**, but does not activate it. See [Activate an existing virtual environment](#activate-an-existing-virtual-environment). |
 | **Create Conda environment** | Switches to the **Python Environments** *window* in which you enter a name for the environment and specify its base interpreter. |
 
-<a name="using-virtual-environments"></a>
 ## Use virtual environments
 
 A virtual environment is a unique combination of a specific Python interpreter and a specific set of libraries that is different from other global and conda environments. A virtual environment is specific to a project and is maintained in a project folder. That folder contains the environment's installed libraries along with a *pyvenv.cfg* file that specifies the path to the environment's *base interpreter* elsewhere on the file system. (That is, a virtual environment doesn't contain a copy of the interpreter, only a link to it.) 
