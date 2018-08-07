@@ -21,26 +21,6 @@ In this tutorial for Visual Basic (VB), you'll use Visual Studio to create and r
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-## Before you begin
-
-Here's a quick FAQ to introduce you to some key concepts.
-
-### What is Visual Basic?
-
-Visual Basic is a type-safe programming language that's designed to be easy to learn. It is derived from BASIC, which means "Beginner's All-purpose Symbolic Instruction Code".
-
-### What is Visual Studio?
-
-Visual Studio is an integrated development suite of productivity tools for developers. Think of it as a program you can use to create programs and applications.
-
-### What is a console app?
-
-A console app takes input and displays output in a command-line window, a.k.a. a console.
-
-### What is .NET Core?
-
-.NET Core is the evolutionary next step of the .NET Framework. Where the .NET Framework allowed you to share code across programming languages, .NET Core adds the ability to share code across platforms. Even better, it's open source. (Both the .NET Framework and .NET Core include libraries of prebuilt functionality as well as a common language runtime (CLR), which acts as a virtual machine in which to run your code.)
-
 ## Start developing
 
 Ready to start developing? Let's go!
@@ -135,11 +115,30 @@ Let's create an app that prompts you for your name and then displays it along wi
 
     ![Console window showing the CaluculateThis app, which includes prompts on which actions to take.](../ide/media/vb-console-calculate-this.png)
 
+## Quick answers FAQ
+
+Here's a quick FAQ to introduce you to some key concepts.
+
+### What is Visual Basic?
+
+Visual Basic is a type-safe programming language that's designed to be easy to learn. It is derived from BASIC, which means "Beginner's All-purpose Symbolic Instruction Code".
+
+### What is Visual Studio?
+
+Visual Studio is an integrated development suite of productivity tools for developers. Think of it as a program you can use to create programs and applications.
+
+### What is a console app?
+
+A console app takes input and displays output in a command-line window, a.k.a. a console.
+
+### What is .NET Core?
+
+.NET Core is the evolutionary next step of the .NET Framework. Where the .NET Framework allowed you to share code across programming languages, .NET Core adds the ability to share code across platforms. Even better, it's open source. (Both the .NET Framework and .NET Core include libraries of prebuilt functionality as well as a common language runtime (CLR), which acts as a virtual machine in which to run your code.)
+
 ## Next steps
 
 Congratulations on completing this tutorial! To learn even more about Visual Basic and the Visual Studio IDE, see the following pages.
 
-* [Visual Basic guide](/dotnet/visual-basic/index)
 * [What's new in Visual Basic](/dotnet/visual-basic/getting-started/whats-new)
 * [IntelliSense for Visual Basic code files](visual-basic-specific-intellisense.md)
 * [Visual Basic language reference](/dotnet/visual-basic/language-reference/index)
