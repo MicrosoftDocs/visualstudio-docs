@@ -184,7 +184,7 @@ ms.topic: hub-page
                                                         <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
                                                             <img src="https://docs.microsoft.com/media/index/logo_vb.svg" alt="">
                                                             Visual Basic</a>
-                                                    </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
+                                                    </li>
                                                     <li>
                                                         <a class="barLink" href="/python/azure/">
                                                             <img src="https://docs.microsoft.com/media/index/logo_python.svg" alt="">
