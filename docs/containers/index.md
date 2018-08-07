@@ -1,6 +1,5 @@
 ---
 layout: HubPage
-hide_bc: true
 title: Container Development Tools Documentation
 description: Learn how to build and manage container-based apps and services. Get documentation, example code, tutorials, and more.
 ms.topic: hub-page
@@ -105,11 +104,11 @@ featureFlags:
                                         <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
-                                                    <h3>Tools</h3>
+                                                    <h3>Visual Studio</h3>
                                                     <ul class="noBullet">
-                                                        <li><a class="barLink" href="http://wwww.docker.com/docker-windows"><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker for Windows</a></li>
-                                                        <li><a class="barLink" href=""><img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="">Docker Tools in Visual Studio</a></li>
+                                                        <li><a class="barLink" href=""><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker Tools in Visual Studio</a></li>
                                                         <li><a class="barLink" href="https://docs.microsoft.com/visualstudio/install/build-tools-container"><img src="https://docs.microsoft.com/media/common/i_build.svg" alt="">Running build tools in a container</a></li>
+                                                        <li><a class="barLink" href="https://docs.microsoft.com/visualstudio/kubernetes/"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Visual Studio Tools for Kubernetes</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -130,10 +129,10 @@ featureFlags:
                                                         <li><a class="barLink" href="/azure/aks/"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Azure Kubernetes Service (AKS)</a></li>
                                                         <li><a class="barLink" href="https://docs.microsoft.com/azure/container-service/kubernetes">Azure Container Service - Kubernetes</a></li>
                                                         <li><a class="barLink" href="https://docs.microsoft.com/azure/dev-spaces/"><img src="media/AzureDevSpaceController_50x.svg" alt="">Azure Dev Spaces</a></li>
-                                                        <li><a class="barLink" href="https://docs.microsoft.com/visualstudio/kubernetes/"><img src="https://docs.microsoft.com/media/logos/logo_visual-studio.svg" alt="">Visual Studio Tools for Kubernetes</a></li>
                                                     </ul>
                                                     <h3>External</h3>
                                                     <ul class="noBullet">
+                                                        <li><a class="barLink" href="http://wwww.docker.com/docker-windows"><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker for Windows</a></li>
                                                         <li><a class="barLink" href="https://kubernetes.io"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Kubernetes</a></li>
                                                         <li><a class="barLink" href="https://helm.sh"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Helm</a></li>
                                                     </ul>
