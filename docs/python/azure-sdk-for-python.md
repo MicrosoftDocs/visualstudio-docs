@@ -36,21 +36,20 @@ Documentation can be found on [azure-sdk-for-python.readthedocs.org](https://doc
 
 The [Azure SDK for Python Developer Center](http://azure.microsoft.com/develop/python/) also has a number of helpful resources, including a number of tutorials:
 
-- Creating web apps with [Django](/azure/app-service-web/web-sites-python-create-deploy-django-app) [Flask](/azure/app-service-web/web-sites-python-create-deploy-flask-app), and [Bottle](/azure/app-service-web/web-sites-python-create-deploy-bottle-app).
+- Creating web apps with [Django](/azure/app-service-web/web-sites-python-create-deploy-django-app), [Flask](/azure/app-service-web/web-sites-python-create-deploy-flask-app), and [Bottle](/azure/app-service-web/web-sites-python-create-deploy-bottle-app).
 - [Blob storage](/azure/storage/storage-python-how-to-use-blob-storage)
 - [Table storage](/azure/storage/storage-python-how-to-use-table-storage)
 - [Queue storage](/azure/storage/storage-python-how-to-use-queue-storage)
 - [Azure Cosmos DB](/azure/cosmos-db/sql-api-python-application)
-- [Service Bus Queues](/azure/service-bus-messaging/service-bus-python-how-to-use-queues)
-- [Service Bus Topics/Subscriptions](/azure/service-bus-messaging/service-bus-python-how-to-use-topics-subscriptions)
-- [Service Management](/azure/cloud-services/cloud-services-python-how-to-use-service-management)
+- [Service Bus queues](/azure/service-bus-messaging/service-bus-python-how-to-use-queues)
+- [Service Bus topics/subscriptions](/azure/service-bus-messaging/service-bus-python-how-to-use-topics-subscriptions)
+- [Service management](/azure/cloud-services/cloud-services-python-how-to-use-service-management)
 
 For public APIs without documentation, the unit tests in the [SDK GitHub repository](https://github.com/Azure/azure-sdk-for-python) are a good source of information:
 
 - [Storage unit tests](https://github.com/Azure/azure-storage-python/tree/master/tests)
 - [Service Bus unit tests](https://github.com/Azure/azure-sdk-for-python/tree/master/azure-servicebus/tests)
-- [Service Management unit tests](https://github.com/Azure/azure-sdk-for-python/tree/master/azure-servicemanagement-legacy/tests)
-- [Resource Management unit tests](https://github.com/Azure/azure-sdk-for-python/tree/master/azure-mgmt/tests)
+- [Service management unit tests](https://github.com/Azure/azure-sdk-for-python/tree/master/azure-servicemanagement-legacy/tests)
 
 ## Support
 

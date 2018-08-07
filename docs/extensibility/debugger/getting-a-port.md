@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Getting a Port
+# Get a port
 A port represents a connection to a machine on which processes are running. That machine could be the local machine or a remote machine (which could possibly be running a non-Windows-based operating system; see [Ports](../../extensibility/debugger/ports.md) for more information).  
   
  A port is represented by the [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md) interface. It is used to obtain information about processes running on the machine the port is connected to.  
@@ -93,8 +93,8 @@ HRESULT CDebugEngine::ResumeProcess(IDebugProcess2 *pDebugProcess)
 }  
 ```  
   
-## See Also  
- [Registering the Program](../../extensibility/debugger/registering-the-program.md)   
- [Enabling a Program to Be Debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)   
- [Port Suppliers](../../extensibility/debugger/port-suppliers.md)   
+## See also  
+ [Registering the program](../../extensibility/debugger/registering-the-program.md)   
+ [Enabling a program to be debugged](../../extensibility/debugger/enabling-a-program-to-be-debugged.md)   
+ [Port suppliers](../../extensibility/debugger/port-suppliers.md)   
  [Ports](../../extensibility/debugger/ports.md)

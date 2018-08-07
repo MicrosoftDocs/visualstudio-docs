@@ -60,4 +60,4 @@ Stops a build and logs an error based on an evaluated conditional statement.
   
 ## See also  
  [Task reference](../msbuild/msbuild-task-reference.md)   
- [Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md)
+ [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)

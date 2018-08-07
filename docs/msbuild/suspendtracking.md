@@ -27,11 +27,11 @@ Suspends tracking in the current context.
 HRESULT WINAPI SuspendTracking(void);  
 ```  
   
-## Return Value  
+## Return value  
  An **HRESULT** with the **SUCCEEDED** bit set if tracking was suspended.  
   
 ## Requirements  
- **Header:** FileTracker.h  
+ **Header:** *FileTracker.h*  
   
-## See Also  
+## See also  
  [ResumeTracking](../msbuild/resumetracking.md)

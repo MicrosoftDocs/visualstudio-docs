@@ -32,7 +32,7 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
   
 -   Visual Studio.  
   
-## Creating the Projects  
+## Create the projects  
   
 #### To create a project that uses an on-demand assembly  
   

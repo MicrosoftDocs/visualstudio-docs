@@ -15,7 +15,7 @@ ms.workload:
 You can configure MSBuild targets and tasks to run out-of-process with MSBuild so that you can target contexts that differ from the one you are running on. For example, you can target a 32-bit .NET Framework 2.0 application while the development computer is running on a 64-bit .NET Framework 4.5 operating system. You can also target computers that run with the .NET Framework 4 or earlier. The combination of 32- or 64-bitness and the specific .NET Framework version is known as the *target context*.  
   
 ## Installation  
- The .NET Framework 4.5 and 4.5.1 replace the common language runtime (CLR), targets, tasks, and tools of the .NET Framework 4 without renaming them. The .NET Framework 4.5.1 is installed as part [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)].  
+ The .NET Framework 4.5 and 4.5.1 replace the common language runtime (CLR), targets, tasks, and tools of the .NET Framework 4 without renaming them. The .NET Framework 4.5.1 is installed as part of [!INCLUDE[vs_dev12](../extensibility/includes/vs_dev12_md.md)].  
   
  If you want to install MSBuild separately from Visual Studio, you can download the installation package from [MSBuild download](http://go.microsoft.com/fwlink/?LinkId=309745). You must also install the .NET Framework versions you wish to use.  
   

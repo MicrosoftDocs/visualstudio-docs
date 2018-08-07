@@ -10,12 +10,11 @@ ms.workload:
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
-# Embedding a Diagram in a Windows Form
-You can embed a DSL diagram in a Windows Control, which appears in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window.
+# Embed a Diagram in a Windows Form
 
-## Embedding a Diagram
+You can embed a DSL diagram in a Windows control, which appears in the Visual Studio window.
 
-#### To embed a DSL diagram in a Windows Control
+## Embed a DSL diagram in a Windows control
 
 1.  Add a new **User Control** file to the DslPackage project.
 
@@ -28,7 +27,6 @@ You can embed a DSL diagram in a Windows Control, which appears in the [!INCLUDE
 3.  In Solution Explorer, right-click the user control file and click **View Code**. Add this constructor and variable to the code:
 
     ```csharp
-
     internal UserControl1(MyDSLDocView docView, Control content)
       : this()
     {
@@ -36,12 +34,11 @@ You can embed a DSL diagram in a Windows Control, which appears in the [!INCLUDE
       this.docView = docView;
     }
     private MyDSLDocView docView;
-
     ```
 
 4.  Add a new file to the DslPackage project, with the following content:
 
-    ```
+    ```csharp
     using System.Windows.Forms;
     namespace Company.MyDSL
     {
@@ -60,19 +57,17 @@ You can embed a DSL diagram in a Windows Control, which appears in the [!INCLUDE
             }
             return container;
     } } } }
-
     ```
 
-5.  To test the DSL, press F5 and open a sample model file. The diagram appears inside the control. The toolbox and other features work normally.
+5.  To test the DSL, press **F5** and open a sample model file. The diagram appears inside the control. The toolbox and other features work normally.
 
-#### Updating the Form using Store Events
+## Update the form using store events
 
-1.  In the form designer, add a **ListBox** named `listBox1`. This will display a list of the elements in the model. It will be kept in synchronism with the model using *store events*. For more information, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).
+1.  In the form designer, add a **ListBox** named `listBox1`. This will display a list of the elements in the model. It is synchronized with the model using *store events*. For more information, see [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md).
 
 2.  In the custom code file, override further methods to the DocView class:
 
-    ```
-
+    ```csharp
     partial class MyDSLDocView
     {
      /// <summary>
@@ -109,14 +104,12 @@ You can embed a DSL diagram in a Windows Control, which appears in the [!INCLUDE
      {
        container.Remove(e.ModelElement as ExampleElement);
      }
-
     ```
 
 3.  In the code behind the user control, insert methods to listen for elements added and removed:
 
-    ```
-
-          public partial class UserControl1 : UserControl { ...
+    ```csharp
+    public partial class UserControl1 : UserControl { ...
 
     private ExampleModel modelRoot;
 
@@ -138,14 +131,13 @@ You can embed a DSL diagram in a Windows Control, which appears in the [!INCLUDE
         listBox1.Items.Add(c.Name);
       }
     }
-
     ```
 
-4.  To test the DSL, press F5 and in the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open a sample model file.
+4.  To test the DSL, press **F5** and in the experimental instance of Visual Studio, open a sample model file.
 
      Notice that the list box shows a list of the elements in the model, and that it is correct after any addition or deletion, and after Undo and Redo.
 
-## See Also
+## See also
 
 - [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)

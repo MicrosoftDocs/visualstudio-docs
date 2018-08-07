@@ -16,7 +16,7 @@ searchscope: VS Subscription
 
 As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  With your [monthly Azure credit](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/), Azure is your personal sandbox for dev/test.  You can provision virtual machines, cloud services, and other Azure resources.  Credit amounts vary by subscription level.
 
-## Eligibililty
+## Eligibility
 
 | Subscription Level / Program                                 | Benefit                     | Renewable?                                                   |
 |--------------------------------------------------------------|-----------------------------|--------------------------------------------------------------|

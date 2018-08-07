@@ -36,7 +36,7 @@ Over the course of these steps you create a single Visual Studio solution that c
 ## Prerequisites
 
 - Visual Studio 2017 on Windows with the following options:
-  - The **Python development** workload (**Workload** tab in the installer). For instructions, see [Installing Python support in Visual Studio](installing-python-support-in-visual-studio.md).
+  - The **Python development** workload (**Workload** tab in the installer). For instructions, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
   - **Git for Windows** and **GitHub Extension for Visual Studio** on the **Individual components** tab under **Code tools**.
 
 Flask project templates are included with all earlier versions of Python Tools for Visual Studio, though details may differ from what's discussed in this tutorial.
@@ -51,17 +51,17 @@ Python development is not presently supported in Visual Studio for Mac. On Mac a
 
 1. In the fields at the bottom of the dialog, enter the following information (as shown in the previous graphic), then select **OK**:
 
-    - **Name**: set the name of the Visual Studio project to "BasicProject". This name is also used for the Flask project.
+    - **Name**: set the name of the Visual Studio project to **BasicProject**. This name is also used for the Flask project.
     - **Location**: specify a location in which to create the Visual Studio solution and project.
-    - **Solution name**: set to "LearningFlask", which is appropriate for the solution as a container for multiple projects in this tutorial.
+    - **Solution name**: set to **LearningFlask**, which is appropriate for the solution as a container for multiple projects in this tutorial.
     - **Create directory for solution**: Leave set (the default).
-    - **Create new Git repository**: Select this option (which is clear by default) so that Visual Studio creates a local Git repository when it creates the solution. If you don't see this option, run the Visual Studio 2017 installer and add the Git for Windows and GitHub Extension for Visual Studio on the **Individual components** tab under **Code tools**.
+    - **Create new Git repository**: Select this option (which is clear by default) so that Visual Studio creates a local Git repository when it creates the solution. If you don't see this option, run the Visual Studio 2017 installer and add the **Git for Windows** and **GitHub Extension for Visual Studio** on the **Individual components** tab under **Code tools**.
 
-1. After a moment, Visual Studio prompts you with a dialog saying "This project requires external packages" (shown below). This dialog appears because the template includes a `requirements.txt` file referencing the latest Flask 1.x package. (Select **Show required packages** to see the exact dependencies.)
+1. After a moment, Visual Studio prompts you with a dialog saying **This project requires external packages** (shown below). This dialog appears because the template includes a *requirements.txt* file referencing the latest Flask 1.x package. (Select **Show required packages** to see the exact dependencies.)
 
     ![Prompt saying that the project requires external packages](media/tutorials-common/step01-requirements-prompt-install-myself.png)
 
-1. Select the option **I will install them myself**. You create the virtual environment shortly to make sure it's excluded from source control. (The environment can always be created from `requirements.txt`.)
+1. Select the option **I will install them myself**. You create the virtual environment shortly to make sure it's excluded from source control. (The environment can always be created from *requirements.txt*.)
 
 ## Step 1-2: Examine the Git controls and publish to a remote repository
 
@@ -80,7 +80,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 
     ![Team Explorer window on the Changes page](media/flask/step01-team-explorer-changes.png)
 
-1. On the Visual Studio status bar, select the unpushed commits button (the up arrow with "2") to open the **Synchronization** page in **Team Explorer**. Because you have only a local repository, the page provides easy options to publish the repository to different remote repositories.
+1. On the Visual Studio status bar, select the unpushed commits button (the up arrow with **2**) to open the **Synchronization** page in **Team Explorer**. Because you have only a local repository, the page provides easy options to publish the repository to different remote repositories.
 
     ![Team Explorer window showing available Git repository options for source control](media/flask/step01-team-explorer.png)
 
@@ -95,7 +95,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 1. As you work through this tutorial, get into the habit of periodically using the controls in Visual Studio to commit and push changes. This tutorial reminds you at appropriate points.
 
 > [!Tip]
-> To quickly navigate within **Team Explorer**, select the header (that reads "Changes" or "Push" in the images above) to see a pop-up menu of the available pages.
+> To quickly navigate within **Team Explorer**, select the header (that reads **Changes** or **Push** in the images above) to see a pop-up menu of the available pages.
 
 ### Question: What are some advantages of using source control from the beginning of a project?
 
@@ -115,7 +115,7 @@ Now that you've configured source control for your project, you can create the v
 
     ![Add Virtual environment command in Solution Explorer](media/flask/step01-add-virtual-environment-command.png)
 
-1. An **Add Virtual Environment** dialog appears, with a message saying "We found a requirements.txt file." This message indicates that Visual Studio uses that file to configure the virtual environment.
+1. An **Add Virtual Environment** dialog appears, with a message saying **We found a requirements.txt file.** This message indicates that Visual Studio uses that file to configure the virtual environment.
 
     ![Add virtual environment dialog with requirements.txt message](media/tutorials-common/step01-add-virtual-environment-found-requirements.png)
 
@@ -123,37 +123,37 @@ Now that you've configured source control for your project, you can create the v
 
 1. Consent to administrator privileges if prompted, then be patient for a few minutes while Visual Studio downloads and installs packages, which for Flask and its dependencies means expanding about a thousand files in over 100 subfolders. You can see progress in the Visual Studio **Output** window. While you're waiting, ponder the Question sections that follow. You can also see a description of Flask's dependencies on the [Flask installation](http://flask.pocoo.org/docs/1.0/installation/#installation) page (flask.pcocoo.org).
 
-1. On the Visual Studio Git controls (on the status bar), select the changes indicator (that shows "99\*") which opens the **Changes** page in **Team Explorer**.
+1. On the Visual Studio Git controls (on the status bar), select the changes indicator (that shows **99&#42;**) which opens the **Changes** page in **Team Explorer**.
 
-    Creating the virtual environment brought in hundreds of changes, but you don't need to include any of them in source control because you (or anyone else cloning the project) can always recreate the environment from `requirements.txt`.
+    Creating the virtual environment brought in hundreds of changes, but you don't need to include any of them in source control because you (or anyone else cloning the project) can always recreate the environment from *requirements.txt*.
 
-    To exclude the virtual environment, right-click the `env` folder and select **Ignore these local items**.
+    To exclude the virtual environment, right-click the **env** folder and select **Ignore these local items**.
 
     ![Ignoring a virtual environment in source control changes](media/flask/step01-ignore-local-items.png)
 
-1. After excluding the virtual environment, the only remaining changes are to the project file and `.gitignore`. The `.gitignore` file contains an added entry for the virtual environment folder. You can double-click the file to see a diff.
+1. After excluding the virtual environment, the only remaining changes are to the project file and *.gitignore*. The *.gitignore* file contains an added entry for the virtual environment folder. You can double-click the file to see a diff.
 
 1. Enter a commit message and select the **Commit All** button, then push the commits to your remote repository if you like.
 
 ### Question: Why do I want to create a virtual environment?
 
-Answer: A virtual environment is a great way to isolate your app's exact dependencies. Such isolation avoids conflicts within a global Python environment, and aids both testing and collaboration. Over time, as you develop an app, you invariably bring in any number many helpful Python packages. By keeping packages in a project-specific virtual environment, you can easily update the project's `requirements.txt` file that describes that environment, which is included in source control. When the project is copied to any other computers, including build servers, deployment servers, and other development computers, it's easy to recreate the environment using only `requirements.txt` (which is why the environment doesn't need to be in source control). For more information, see [Using virtual environments](selecting-a-python-environment-for-a-project.md#using-virtual-environments).
+Answer: A virtual environment is a great way to isolate your app's exact dependencies. Such isolation avoids conflicts within a global Python environment, and aids both testing and collaboration. Over time, as you develop an app, you invariably bring in many helpful Python packages. By keeping packages in a project-specific virtual environment, you can easily update the project's *requirements.txt* file that describes that environment, which is included in source control. When the project is copied to any other computers, including build servers, deployment servers, and other development computers, it's easy to recreate the environment using only *requirements.txt* (which is why the environment doesn't need to be in source control). For more information, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#use-virtual-environments).
 
 ### Question: How do I remove a virtual environment that's already committed to source control?
 
-Answer: First, edit your `.gitignore` file to exclude the folder: find the section at the end with the comment `# Python Tools for Visual Studio (PTVS)` and add a new line for the virtual environment folder, such as `/BasicProject/env`. (Because Visual Studio doesn't show the file in **Solution Explorer**, open it directly using the **File** > **Open** > **File** menu command. You can also open the file from **Team Explorer**: on the **Settings** page, select **Repository Settings**, go to the **Ignore & Attributes Files** section, then select the **Edit** link next to `.gitignore`.)
+Answer: First, edit your *.gitignore* file to exclude the folder: find the section at the end with the comment `# Python Tools for Visual Studio (PTVS)` and add a new line for the virtual environment folder, such as `/BasicProject/env`. (Because Visual Studio doesn't show the file in **Solution Explorer**, open it directly using the **File** > **Open** > **File** menu command. You can also open the file from **Team Explorer**: on the **Settings** page, select **Repository Settings**, go to the **Ignore & Attributes Files** section, then select the **Edit** link next to **.gitignore**.)
 
-Second, open a command window, navigate to the folder like `BasicProject` that contains the virtual environment folder such as `env`, and run `git rm -r env`. Then commit those changes from the command line (`git commit -m 'Remove venv'`) or commit from the **Changes** page of **Team Explorer**.
+Second, open a command window, navigate to the folder like *BasicProject* that contains the virtual environment folder such as *env*, and run `git rm -r env`. Then commit those changes from the command line (`git commit -m 'Remove venv'`) or commit from the **Changes** page of **Team Explorer**.
 
 ## Step 1-4: Examine the boilerplate code
 
-1. Once project creation completes, you see the solution and project in **Solution Explorer**, where the project contains only two files, `app.py` and `requirements.txt`:
+1. Once project creation completes, you see the solution and project in **Solution Explorer**, where the project contains only two files, *app.py* and *requirements.txt*:
 
     ![Blank Flask project files in Solution Explorer](media/flask/step01-blank-flask-project-in-solution-explorer.png)
 
-1. As noted earlier, the `requirements.txt` file specifies the Flask package dependency. The presence of this file is what invites you to create a virtual environment when first creating the project.
+1. As noted earlier, the *requirements.txt* file specifies the Flask package dependency. The presence of this file is what invites you to create a virtual environment when first creating the project.
 
-1. The single `app.py` file contains three parts. First is an `import` statement for Flask, creating an instance of the `Flask` class, which is assigned to the variable `app`, and then assigning a `wsgi_app` variable (which is useful when deploying to a web host, but not used at present):
+1. The single *app.py* file contains three parts. First is an `import` statement for Flask, creating an instance of the `Flask` class, which is assigned to the variable `app`, and then assigning a `wsgi_app` variable (which is useful when deploying to a web host, but not used at present):
 
     ```python
     from flask import Flask
@@ -185,11 +185,11 @@ Second, open a command window, navigate to the folder like `BasicProject` that c
         return "Hello World!"
     ```
 
-### Question: what is the purpose of the __name__ argument to the Flask class?
+### Question: What is the purpose of the __name__ argument to the Flask class?
 
 Answer: The argument is the name of the app's module or package, and tells Flask where to look for templates, static files, and other resources that belong to the app. For apps contained in a single module, `__name__` is always the proper value. It's also important for extensions that need debugging information. For more information, and additional arguments, see the [Flask class documentation](http://flask.pocoo.org/docs/1.0/api/#flask.Flask) (flask.pocoo.org).
 
-### Question: can a function have more than one route decorator?
+### Question: Can a function have more than one route decorator?
 
 Answer: Yes, you can use as many decorators as you want if the same function serves multiple routes. For example, to use the `hello` function for both "/" and "/hello", use the following code:
 
@@ -203,7 +203,7 @@ def hello():
 
 <a name="qa-url-variables"></a>
 
-### Question: how does Flask work with variable URL routes and query parameters?
+### Question: How does Flask work with variable URL routes and query parameters?
 
 Answer: In a route, you mark any variable with `<variable_name>`, and Flask passes the variable to the function using a named argument. The variable can be part of the URL path or in a query parameter. For example, a route in the form of `'/hello/<name>` generates a string argument called `name` to the function, and using `?message=<msg>` in the route parses the value given for the "message=" query parameter and passes it to the function as `msg`:
 
@@ -219,15 +219,15 @@ Query parameters are also available through the `request.args` property, specifi
 
 ### Question: Can Visual Studio generate a requirements.txt file from a virtual environment after I install other packages?
 
-Answer: Yes. Expand the **Python Environments** node, right-click your virtual environment, and select the **Generate requirements.txt** command. It's good to use this command periodically as you modify the environment, and commit changes to `requirements.txt` to source control along with any other code changes that depend on that environment. If you set up continuous integration on a build server, you should generate the file and commit changes whenever you modify the environment.
+Answer: Yes. Expand the **Python Environments** node, right-click your virtual environment, and select the **Generate requirements.txt** command. It's good to use this command periodically as you modify the environment, and commit changes to *requirements.txt* to source control along with any other code changes that depend on that environment. If you set up continuous integration on a build server, you should generate the file and commit changes whenever you modify the environment.
 
 ## Step 1-5: Run the project
 
-1. In Visual Studio, select **Debug** > **Start Debugging** (F5) or use the **Web Server** button on the toolbar (the browser you see may vary):
+1. In Visual Studio, select **Debug** > **Start Debugging** (**F5**) or use the **Web Server** button on the toolbar (the browser you see may vary):
 
     ![Run web server toolbar button in Visual Studio](media/tutorials-common/run-web-server-toolbar-button.png)
 
-1. Either command assigns a random port number to the PORT environment variable, then runs `python app.py`. The code starts the app using that port within Flask's development server. If Visual Studio says "Failed to start debugger" with a message about having no startup file, right-click `app.py` in **Solution Explorer** and select **Set as Startup File**.
+1. Either command assigns a random port number to the PORT environment variable, then runs `python app.py`. The code starts the app using that port within Flask's development server. If Visual Studio says **Failed to start debugger** with a message about having no startup file, right-click **app.py** in **Solution Explorer** and select **Set as Startup File**.
 
 1. When the server starts, you see a console window open that displays the server log. Visual Studio then automatically opens a browser to `http://localhost:<port>`, where you should see the message rendered by the `hello` function:
 

@@ -17,7 +17,7 @@ ms.workload:
 # Registering Verbs for File Name Extensions
 The association of a file name extension with an application generally has a preferred action that occurs when a user double-clicks a file. This preferred action is linked to a verb, for example open, that corresponds to the action.  
   
- You can register verbs that are associated with a programmatic identifier (ProgID) for an extension by using the Shell key located at HKEY_CLASSES_ROOT\\*progid*\shell. For more information, see [File Types](http://msdn.microsoft.com/library/windows/desktop/cc144148\(v=vs.85\).aspx).  
+ You can register verbs that are associated with a programmatic identifier (ProgID) for an extension by using the Shell key located at HKEY_CLASSES_ROOT\\*progid*\shell. For more information, see [File Types](/windows/desktop/shell/fa-file-types).  
   
 ## Registering Standard Verbs  
  The operating system recognizes the following standard verbs:  
