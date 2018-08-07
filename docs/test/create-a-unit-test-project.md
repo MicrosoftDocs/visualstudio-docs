@@ -36,9 +36,10 @@ Unit tests often mirror the structure of the code under test. For example, a uni
 5.  If the code that you want to test is in another location, see [Managing references in a project](../ide/managing-references-in-a-project.md) for information about adding references.
 
 ## Next steps
- **Writing unit tests**
 
  See one of the following sections:
+
+**Writing unit tests**
 
 -   [Unit test your code](../test/unit-test-your-code.md)
 
@@ -46,6 +47,6 @@ Unit tests often mirror the structure of the code under test. For example, a uni
 
 -   [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
 
- **Running unit tests**
+**Running unit tests**
 
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
