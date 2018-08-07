@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# VSCT XML Schema Reference
+# VSCT XML schema reference
 Provides a table of Command Table Compiler schema elements, with allowed child elements and attributes for each.  
   
  An XML-based command table configuration (.vsct) file defines the command elements that a VSPackage provides to the integrated development environment (IDE). These elements include menu items, menus, toolbars, and combo boxes.  
@@ -23,7 +23,7 @@ Provides a table of Command Table Compiler schema elements, with allowed child e
 > [!NOTE]
 >  The VSCT compiler can run a preprocessor on the .vsct file. Because this is typically the C++ preprocessor, you can define includes and macros that have the same syntax that is used in C++ files. Examples of this are provided in the .vsct file that the **New Project** wizard creates for a VSPackage project.  
   
-## Optional Elements  
+## Optional elements  
  Some VSCT elements are optional. If a `Parent` argument is not specified, Group_Undefined:0 will be implied. If an `Icon` argument is not specified, guidOfficeIcon:msotcidNoIcon will be implied. When a shortcut key is defined, the emulation, which is typically unused, is optional.  
   
  Bitmap items may be embedded at compile time by specifying the location of the bitmap strip in the `href` argument. The bitmap strip is copied during the merge rather than extracted from the resources of the DLL. When an `href` argument is provided, the `usedList` argument becomes optional, and all slots in the bitmap strip are considered used.  
@@ -36,39 +36,39 @@ Provides a table of Command Table Compiler schema elements, with allowed child e
   
  XML comments may be used, but round-trip graphical user interface (GUI) tools might discard them. The contents of \<Annotation> elements are guaranteed to be maintained regardless of format.  
   
-## Schema Hierarchy  
+## Schema hierarchy  
  A .vsct file has the following major elements.  
   
- [CommandTable Element](../extensibility/commandtable-element.md)  
+ [CommandTable element](../extensibility/commandtable-element.md)  
   
- [Extern Element](../extensibility/extern-element.md)  
+ [Extern element](../extensibility/extern-element.md)  
   
- [Include Element](../extensibility/include-element.md)  
+ [Include element](../extensibility/include-element.md)  
   
- [Define Element](../extensibility/define-element.md)  
+ [Define element](../extensibility/define-element.md)  
   
- [Commands Element](../extensibility/commands-element.md)  
+ [Commands element](../extensibility/commands-element.md)  
   
- [CommandPlacements Element](../extensibility/commandplacements-element.md)  
+ [CommandPlacements element](../extensibility/commandplacements-element.md)  
   
- [VisibilityConstraints Element](../extensibility/visibilityconstraints-element.md)  
+ [VisibilityConstraints element](../extensibility/visibilityconstraints-element.md)  
   
- [KeyBindings Element](../extensibility/keybindings-element.md)  
+ [KeyBindings element](../extensibility/keybindings-element.md)  
   
- [UsedCommands Element](../extensibility/usedcommands-element.md)  
+ [UsedCommands element](../extensibility/usedcommands-element.md)  
   
- [Parent Element](../extensibility/parent-element.md)  
+ [Parent element](../extensibility/parent-element.md)  
   
- [Icon Element](../extensibility/icon-element.md)  
+ [Icon element](../extensibility/icon-element.md)  
   
- [Strings Element](../extensibility/strings-element.md)  
+ [Strings element](../extensibility/strings-element.md)  
   
- [Command Flag Element](../extensibility/command-flag-element.md)  
+ [Command Flag element](../extensibility/command-flag-element.md)  
   
- [Symbols Element](../extensibility/symbols-element.md)  
+ [Symbols element](../extensibility/symbols-element.md)  
   
- [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md)  
+ [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md)  
   
-## See Also  
- [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
- [Command Routing in VSPackages](../extensibility/internals/command-routing-in-vspackages.md)
+## See also  
+ [How VSPackages add user interface elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
+ [Command routing in VSPackages](../extensibility/internals/command-routing-in-vspackages.md)

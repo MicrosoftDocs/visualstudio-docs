@@ -16,15 +16,16 @@ ms.workload:
   - "data-storage"
 ---
 # Create a database and add tables in Visual Studio
+
 You can use Visual Studio to create and update a local database file in SQL Server Express LocalDB. You can also create a database by executing Transact-SQL statements in the **SQL Server Object Explorer** tool window in Visual Studio. In this topic, we'll create an *.mdf* file and add tables and keys by using the Table Designer.
 
 ## Prerequisites
+
 To complete this walkthrough, you must have the optional **Data storage and processing** workload installed in Visual Studio. To install it, open **Visual Studio Installer** and choose the **Workloads** tab. Under **Web & Cloud**, choose **Data storage and processing**. Choose the **Modify** button to add the workload to Visual Studio.
 
 ## Create a project and a local database file
 
-### To create a project and a database file
-1.  Create a Windows Forms project that's named `SampleDatabaseWalkthrough`.
+1.  Create a Windows Forms project that's named **SampleDatabaseWalkthrough**.
 
 2.  On the menu bar, select **Project** > **Add New Item**.
 
@@ -35,6 +36,7 @@ To complete this walkthrough, you must have the optional **Data storage and proc
 4.  Name the database **SampleDatabase**, and then select the **Add** button.
 
 ### To add a data source
+
 5.  If the **Data Sources** window isn't open, open it by selecting the **Shift**+**Alt**+**D** keys or, on the menu bar, select **View** > **Other Windows** > **Data Sources**.
 
 6.  In the **Data Sources** window, select the **Add New Data Source** link.
@@ -52,6 +54,7 @@ To complete this walkthrough, you must have the optional **Data storage and proc
 11. One the **Choose your Database Objects** page, you'll see a message that says the database doesn't contain any objects. Choose **Finish**.
 
 ### To view properties of the data connection
+
 You can view the connection string for the *SampleDatabase.mdf* file by opening the properties window of the data connection:
 
 -   In Visual Studio, select **View** > **SQL Server Object Explorer** if that window isn't already open. Open the properties window by expanding the **Data Connections** node, opening the shortcut menu for *SampleDatabase.mdf*, and then selecting **Properties**.
@@ -59,9 +62,11 @@ You can view the connection string for the *SampleDatabase.mdf* file by opening 
 -   Alternatively, you can select **View** > **Server Explorer**, if that window isn't already open. Open the properties window by expanding the **Data Connections** node. Open the shortcut menu for *SampleDatabase.mdf*, and then select **Properties**.
 
 ## Create tables and keys by using Table Designer
+
 In this section, you'll create two tables, a primary key in each table, and a few rows of sample data. You'll also create a foreign key to specify how records in one table correspond to records in the other table.
 
 ### To create the Customers table
+
 1.  In **Server Explorer** or **SQL Server Object Explorer**, expand the **Data Connections** node, and then expand the **SampleDatabase.mdf** node.
 
 2.  Open the shortcut menu for **Tables**, and then select **Add New Table**.
@@ -98,6 +103,7 @@ In this section, you'll create two tables, a primary key in each table, and a fe
     Your changes are saved to the local database file.
 
 ### To create the Orders table
+
 1.  Add another table, and then add a row for each entry in the following table:
 
     |Column name|Data type|Allow nulls|
@@ -122,11 +128,12 @@ In this section, you'll create two tables, a primary key in each table, and a fe
     Your changes are saved to the local database file.
 
 ### To create a foreign key
+
 1.  In the context pane on the right side of the grid, open the shortcut menu for **Foreign Keys**, and then select **Add New Foreign Key**, as the following illustration shows.
 
      ![Adding a foreign key in Table Designer](../data-tools/media/foreignkey.png)
 
-2.  In the text box that appears, replace **ToTable** with `Customers`.
+2.  In the text box that appears, replace **ToTable** with **Customers**.
 
 3.  In the T-SQL pane, update the last line to match the following sample:
 
@@ -141,8 +148,6 @@ In this section, you'll create two tables, a primary key in each table, and a fe
     Your changes are saved to the local database file.
 
 ## Populate the tables with data
-
-### To populate the tables with data
 
 1.  In **Server Explorer** or **SQL Server Object Explorer**, expand the node for the sample database.
 
