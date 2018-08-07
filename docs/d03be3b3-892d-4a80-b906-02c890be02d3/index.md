@@ -137,7 +137,7 @@ featureFlags:
                                                     <h3>Kubernetes</h3>
                                                     <ul class="noBullet">
                                                         <li><a class="barLink" href="/azure/aks/"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Azure Kubernetes Service (AKS)</a></li>
-                                                        <li><a class="barLink" href="https://docs.microsoft.com/azure/container-service/kubernetes">Azure Container Service - Kubernetes</a></li>
+                                                        <li><a class="barLink" href="https://docs.microsoft.com/azure/container-service/kubernetes"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Azure Container Service - Kubernetes</a></li>
                                                         <li><a class="barLink" href="https://docs.microsoft.com/azure/dev-spaces/"><img src="media/AzureDevSpaceController_50x.svg" alt="">Azure Dev Spaces</a></li>
                                                     </ul>
                                                 </div>
