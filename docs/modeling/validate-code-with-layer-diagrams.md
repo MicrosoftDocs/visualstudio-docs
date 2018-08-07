@@ -87,7 +87,7 @@ are shown immediately in the Visual Studio Error List window.
 * Adding a new dependency validation project triggers a project update.
 
 ##  <a name="SupportsValidation"></a> See if an item supports validation
- You can link layers to Web sites, Office documents, plain text files, and files in projects that are shared across multiple apps, but the validation process won't include them. Validation errors won't appear for references to projects or assemblies that are linked to separate layers when no dependencies appear between those layers. Such references are not considered dependencies unless the code uses those references.
+ You can link layers to websites, Office documents, plain text files, and files in projects that are shared across multiple apps, but the validation process won't include them. Validation errors won't appear for references to projects or assemblies that are linked to separate layers when no dependencies appear between those layers. Such references are not considered dependencies unless the code uses those references.
 
 1.  On the dependency diagram, select one or more layers, right-click your selection, and then click **View Links**.
 
@@ -183,7 +183,7 @@ are shown immediately in the Visual Studio Error List window.
 
 -   Use a text editor to open the modeling project (.modelproj) file, and then include the following property:
 
-```
+```xml
 <ValidateArchitecture>true</ValidateArchitecture>
 ```
 

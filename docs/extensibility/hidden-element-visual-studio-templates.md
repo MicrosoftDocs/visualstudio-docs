@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Hidden Element (Visual Studio Templates)
+# Hidden element (Visual Studio templates)
 Specifies whether the template appears in either the **New Project** or **Add New Item** dialog box.  
   
  \<VSTemplate>  
@@ -29,22 +29,22 @@ Specifies whether the template appears in either the **New Project** or **Add Ne
 <Hidden> true/false </Hidden>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements  
  None.  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|Required element.<br /><br /> Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.|  
   
-## Text Value  
+## Text value  
  A text value is required.  
   
  The text must be either `true` or `false`, indicating whether or not the template will appear in the **New Project** or **Add New Item** dialog boxes.  
@@ -82,6 +82,6 @@ Specifies whether the template appears in either the **New Project** or **Add Ne
 </VSTemplate>  
 ```  
   
-## See Also  
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
+## See also  
+ [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)   
+ [Create project and item templates](../ide/creating-project-and-item-templates.md)

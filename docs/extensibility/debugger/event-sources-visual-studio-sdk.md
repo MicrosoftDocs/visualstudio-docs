@@ -14,13 +14,13 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Event Sources (Visual Studio SDK)
-There are two sources of events: the debug engine (DE) and the session debug manager (SDM). Events sent from a DE have a non-NULL engine, while events sent from the SDM have a NULL engine.  
+# Event sources (Visual Studio SDK)
+There are two sources of events: the debug engine (DE) and the Session Debug Manager (SDM). Events sent from a DE have a non-NULL engine, while events sent from the SDM have a NULL engine.  
   
 ## Example  
  The following example shows how to send the **IDebugProgramCreateEvent2** from the DE to the SDM.  
   
-```  
+```csharp  
 CDebugProgramCreateEvent* pProgramCreateEvent = new CDebugProgramCreateEvent();  
 if (FAILED(pCallback->Event(m_pEngine, NULL, m_pProgram, NULL, pProgramCreateEvent, IID_IDebugProgramCreateEvent2, EVENT_ASYNCHRONOUS)))  
 {  
@@ -69,5 +69,5 @@ HRESULT CEvent::SendAsynchronousEvent(IDebugEventCallback2 *pCallback, IDebugEng
   
 ```  
   
-## See Also  
- [Sending Events](../../extensibility/debugger/sending-events.md)
+## See also  
+ [Sending events](../../extensibility/debugger/sending-events.md)

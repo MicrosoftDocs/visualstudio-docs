@@ -98,7 +98,7 @@ We have an empty project. Let's add a code file.
 
 ## Add a second project
 
-It is common for solutions to contain more than one project, and often these projects reference each other. Some projects in a solution might be class libraries, some executable applications, and some might be unit test projects or web sites.
+It is common for solutions to contain more than one project, and often these projects reference each other. Some projects in a solution might be class libraries, some executable applications, and some might be unit test projects or websites.
 
 Let's add a unit test project to our solution. This time we'll start from a project template so we don't have to add an additional code file to the project.
 
@@ -172,11 +172,17 @@ If you want to check that your unit test is working, choose **Test** > **Run** >
 
 Congratulations on completing this Quickstart! Next, you might want to explore some of the other Quickstarts for Visual Studio, or learn more about how to [Create projects and solutions](../ide/creating-solutions-and-projects.md).
 
+> [!div class="nextstepaction"]
+> [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
+
+> [!div class="nextstepaction"]
+> [Quickstart: Personalize Visual Studio](../ide/quickstart-personalize-the-ide.md)
+
+> [!div class="nextstepaction"]
+> [Quickstart: Coding in the editor](../ide/quickstart-editor.md)
+
 ## See also
 
-- [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
-- [Quickstart: Personalize the Visual Studio IDE and editor](../ide/quickstart-personalize-the-ide.md)
-- [Quickstart: Coding in the editor](../ide/quickstart-editor.md)
 - [Manage project and solution properties](../ide/managing-project-and-solution-properties.md)
 - [Manage references in a project](../ide/managing-references-in-a-project.md)
 - [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)

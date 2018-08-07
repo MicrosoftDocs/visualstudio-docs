@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Enable AutoStart for CD Installations
+# How to: Enable AutoStart for CD installations
 When deploying a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by means of removable media such as CD-ROM or DVD-ROM, you can enable `AutoStart` so that the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is automatically launched when the media is inserted.  
   
  `AutoStart` can be enabled on the **Publish** page of the **Project Designer**.  
@@ -38,8 +38,8 @@ When deploying a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md
   
 5.  Select the **For CD installations, automatically start Setup when CD is inserted** check box.  
   
-     An Autorun.inf file will be copied to the publish location when the application is published.  
+     An *Autorun.inf* file will be copied to the publish location when the application is published.  
   
-## See Also  
- [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
- [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
+## See also  
+ [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)   
+ [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)

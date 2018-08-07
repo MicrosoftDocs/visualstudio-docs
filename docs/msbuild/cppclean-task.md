@@ -34,9 +34,7 @@ Deletes the temporary files that MSBuild creates when a Visual C++ project is bu
 |**DoDelete**|Optional **Boolean** parameter.<br /><br /> If `true`, clean temporary build files.|  
 |**FilePatternsToDeleteOnClean**|Required `String` parameter.<br /><br /> Specifies a semicolon-delimited list of file extensions of files to clean.|  
 |**FilesExcludedFromClean**|Optional `String` parameter.<br /><br /> Specifies a semicolon-delimited list of files not to clean.|  
-|**FoldersToClean**|Required `String` parameter.<br /><br /> Specifies a semicolon-delimited list of directories to clean. You can specify a full or a relative path, and the path can contain the wildcard symbol (**\***).|  
-  
-## Remarks  
+|**FoldersToClean**|Required `String` parameter.<br /><br /> Specifies a semicolon-delimited list of directories to clean. You can specify a full or a relative path, and the path can contain the wildcard symbol (*).|  
   
 ## See also  
  [Task reference](../msbuild/msbuild-task-reference.md)

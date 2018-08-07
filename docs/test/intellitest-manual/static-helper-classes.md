@@ -19,7 +19,7 @@ IntelliTest provides a set of static helper class that can be used when authorin
 * [PexAssume](#pexassume): used to define assumptions on inputs, and is useful for filtering undesirable inputs
 * [PexAssert](#pexassert): a simple assertion class for use if your test framework does not provide one
 * [PexChoose](#pexchoose): a stream of additional test inputs that IntelliTest manages
-* [PexObserve](#pexobserve): logs concrete values and, optionaly, validates them in the generated code
+* [PexObserve](#pexobserve): logs concrete values and, optionally, validates them in the generated code
 
 Some classes allow you to interact with the IntelliTest reasoning engine at a low-level:
 
@@ -55,7 +55,7 @@ The code above is almost equivalent to:
 
 except that a failing **PexAssume** results in no test cases. In the case of an **if** statement, IntelliTest generates a separate test case to cover the **then** branch of the **if** statement.
 
-**PexAssume** also contains specialzed nested classes for assumptions on string, arrays, and collections.
+**PexAssume** also contains specialized nested classes for assumptions on string, arrays, and collections.
 
 <a name="pexassert"></a>
 ## PexAssert

@@ -1,5 +1,5 @@
 ---
-title: Use and configure Roslyn analyzers in Visual Studio
+title: Use and configure Roslyn analyzers
 ms.date: 03/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
@@ -73,7 +73,7 @@ The following screenshot shows the same three violations as they appear in the *
 
 You can change the severity of a rule from **Solution Explorer**, or within the *\<projectname>.ruleset* file that is added to the solution after you change the severity of a rule in **Solution Explorer**.
 
-![Ruleset file in Solution Explorer](media/ruleset-in-solution-explorer.png)
+![Rule set file in Solution Explorer](media/ruleset-in-solution-explorer.png)
 
 ### To set rule severity from Solution Explorer
 
@@ -93,7 +93,7 @@ You can change the severity of a rule from **Solution Explorer**, or within the 
 
 1. In the **Action** column, select the value to open a drop-down list, and select the desired severity from the list.
 
-   ![Ruleset file open in editor](media/ruleset-file-in-editor.png)
+   ![Rule set file open in editor](media/ruleset-file-in-editor.png)
 
 ## Suppress violations
 
@@ -135,6 +135,31 @@ The **Error List** displays diagnostics, or rule violations, from both live code
 > ```xml
 > <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.0" PrivateAssets="all" />
 > ```
+
+## Command-line usage
+
+When you build your project at the command line, rule violations appear in the build output if the following conditions are met:
+
+- The analyzers are installed as a Nuget package and not as a VSIX extension.
+
+- One or more rules are violated in the project's code.
+
+- The [severity](#rule-severity) of a violated rule is set to either **warning**, in which case violations don't cause build to fail, or **error**, in which case violations cause build to fail.
+
+The verbosity of the build output does not affect whether rule violations are shown. Even with **quiet** verbosity, rule violations appear in the build output.
+
+> [!TIP]
+> If you're accustomed to running static code analysis from the command line, either with *FxCopCmd.exe* or through msbuild with the **RunCodeAnalysis** flag, here's how to do that with Roslyn analyzers.
+
+To see analyzer violations at the command line when you build your project using msbuild, run a command like this:
+
+```cmd
+msbuild myproject.csproj /target:rebuild /verbosity:minimal
+```
+
+The following image shows the command-line build output from building a project that contains an analyzer rule violation:
+
+![MSBuild output with rule violation](media/command-line-build-analyzers.png)
 
 ## See also
 

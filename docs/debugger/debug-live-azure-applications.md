@@ -4,7 +4,7 @@ ms.description: "Learn how to set snappoints and view snapshots with the Snapsho
 ms.custom: "mvc"
 ms.date: "03/16/2018"
 ms.technology: "vs-ide-debug"
-ms.topic: "tutorial"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugger"
 ms.assetid: adb22512-4d4d-40e5-9564-1af421b7087e

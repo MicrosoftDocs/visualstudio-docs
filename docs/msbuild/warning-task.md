@@ -21,11 +21,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Warning Task
+# Warning task
 Logs a warning during a build based on an evaluated conditional statement.  
   
 ## Parameters  
- The folowing table describes the parameters of the `Warning` task.  
+ The following table describes the parameters of the `Warning` task.  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -37,9 +37,9 @@ Logs a warning during a build based on an evaluated conditional statement.
 ## Remarks  
  The `Warning` task allows [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] projects to check for the presence of a required configuration or property before proceeding with the next build step.  
   
- If the `Condition` parameter of the `Warning` task evaluates to `true`, the value of the `Text` parameter is logged and the build continues to execute. If a `Condition` parameter does not exist, the warning text is logged. For more information on logging, see [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md).  
+ If the `Condition` parameter of the `Warning` task evaluates to `true`, the value of the `Text` parameter is logged and the build continues to execute. If a `Condition` parameter does not exist, the warning text is logged. For more information on logging, see [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md).  
   
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  
   
 ## Example  
  The following code example checks for properties that are set on the command line. If there are no properties set, the project raises a warning event, and logs the value of the `Text` parameter of the `Warning` task.  
@@ -58,6 +58,6 @@ Logs a warning during a build based on an evaluated conditional statement.
 </Project>  
 ```  
   
-## See Also  
- [Obtaining Build Logs](../msbuild/obtaining-build-logs-with-msbuild.md)   
- [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
+## See also  
+ [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)   
+ [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

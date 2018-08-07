@@ -13,7 +13,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Comparing properties and items
+# Compare properties and items
 MSBuild properties and items are both used to pass information to tasks, evaluate conditions, and store values that can be referenced throughout the project file.  
   
 -   Properties are name-value pairs. For more information, see [MSBuild properties](../msbuild/msbuild-properties.md).  

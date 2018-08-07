@@ -16,10 +16,10 @@ manager: douge
 ms.workload:
   - "vssdk"
 ---
-# Visual Studio Template Schema Reference
-This section contains information about XML elements in .vstemplate files, which are files that store metadata for project templates, item templates, and Starter Kits.
+# Visual Studio template schema reference
+This section contains information about XML elements in *.vstemplate* files, which are files that store metadata for project templates, item templates, and Starter Kits.
 
- You can use vstemplate.xsd to validate custom .vstemplate files. This file is available at ..\\*Visual Studio installation folder*\Xml\Schemas\1033\vstemplate.xsd.
+ You can use *vstemplate.xsd* to validate custom *.vstemplate* files. This file is available at *..\\\<Visual Studio installation folder>\Xml\Schemas\1033\vstemplate.xsd*.
 
 |Element|Child Elements|Attributes|
 |-------------|--------------------|----------------|
@@ -78,4 +78,4 @@ This section contains information about XML elements in .vstemplate files, which
 
 ## See also
 
-- [Create Project and Item Templates](../ide/creating-project-and-item-templates.md)
+- [Create project and item templates](../ide/creating-project-and-item-templates.md)

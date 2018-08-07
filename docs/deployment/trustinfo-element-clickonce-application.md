@@ -25,7 +25,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;trustInfo&gt; Element (ClickOnce Application)
+# &lt;trustInfo&gt; element (ClickOnce application)
 Describes the minimum security permissions required for the application to run on the client computer.  
   
 ## Syntax  
@@ -62,7 +62,7 @@ Describes the minimum security permissions required for the application to run o
 </trustInfo>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `trustInfo` element is required and is in the `asm.v2` namespace. It has no attributes and contains the following elements.  
   
 ## security  
@@ -263,6 +263,6 @@ Describes the minimum security permissions required for the application to run o
 </trustInfo>  
 ```  
   
-## See Also  
- [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md)   
- [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)
+## See also  
+ [Trusted Application Deployment overview](../deployment/trusted-application-deployment-overview.md)   
+ [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

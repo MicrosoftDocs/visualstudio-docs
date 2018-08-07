@@ -71,15 +71,15 @@ Most numeric values displayed in a table for performance counters are cumulative
 |**Request**|The URL of the request. For example, *home.html*, or *orange-arrow.gif*.|Yes|
 |**Scenario**|The name of the scenario.|Yes|
 |**Test**|The name of the test.|Yes|
-|**Total**|The total number of this Web performance test request issued during the load test run. The total includes passed and failed requests, but does not include cached requests, because they are not issued to the Web server.|Yes|
+|**Total**|The total number of this web performance test request issued during the load test run. The total includes passed and failed requests, but does not include cached requests, because they are not issued to the web server.|Yes|
 |**Passed**|The number of times the request was issued and passed.|No|
 |**Failed**|The number of times the request was issued and failed. The entries in this column appear as hyperlinks. You can choose any hyperlink to view a list of the individual errors in the **Load Test Errors** dialog box. For more information, see [Analyze load test results](../test/analyze-load-test-results-using-the-load-test-analyzer.md).|Yes|
 |**Cached**|The total number of times the request was already cached.|No|
 |**Requests/Sec**|The rate per second of the request during the load test run.|No|
 |**Passed/Sec**|The rate per second of this request during the load test run, for the instances of this request that passed.|No|
 |**Failed/Sec**|The rate per second of this request during the load test run, for the instances of this request that failed.|No|
-|**First Byte Time**|The average time to receive the first byte of the response, measured from the time the request was sent to the Web server. The units are seconds.|No|
-|**Response Time**|The average time to receive the entire response to a request, measured from the time the request was sent to the Web server. The units are seconds.|Yes|
+|**First Byte Time**|The average time to receive the first byte of the response, measured from the time the request was sent to the web server. The units are seconds.|No|
+|**Response Time**|The average time to receive the entire response to a request, measured from the time the request was sent to the web server. The units are seconds.|Yes|
 |**Content Length**|The average length of the content of the response to the request. The units are bytes.|Yes|
 
 ## The Tests table
@@ -101,11 +101,11 @@ Most numeric values displayed in a table for performance counters are cumulative
 |**Test Time**|The average time to execute the test during the load test run. The units are seconds.|Yes|
 |**90% Test Time**|The 90th percentile value for Test Time.|No|
 |**95% Test Time**|The 95th percentile value for Test Time.|Yes|
-|**Requests/Test**|The average number of requests in the test if it is a Web performance test.|No|
+|**Requests/Test**|The average number of requests in the test if it is a web performance test.|No|
 
 ## The Transactions table
 
- The **Transactions** table displays a list of transactions that occurred during a load test run. Transactions refer to either transactions defined in a Web performance test, or timers defined in a unit test. Transaction does not refer to database transactions.
+ The **Transactions** table displays a list of transactions that occurred during a load test run. Transactions refer to either transactions defined in a web performance test, or timers defined in a unit test. Transaction does not refer to database transactions.
 
  The following table lists the columns in the **Transactions** table.
 
@@ -118,10 +118,10 @@ Most numeric values displayed in a table for performance counters are cumulative
 |**Scenario**|The name of the scenario.|Yes|
 |**Test**|The name of the test.|Yes|
 |**Total**|The total number of transactions issued during the load test run.|Yes|
-|**Transaction Time**|The time to execute the transaction during a load test run. For Web performance tests, think time is included in the calculation. The units are seconds.|No|
-|**Response Time**|The response time for the Web performance test transaction in a load test run. Response Time is different from Transaction Time in that Response Time does not include any think time that occurred during the transaction. The units are seconds.|No|
+|**Transaction Time**|The time to execute the transaction during a load test run. For web performance tests, think time is included in the calculation. The units are seconds.|No|
+|**Response Time**|The response time for the web performance test transaction in a load test run. Response Time is different from Transaction Time in that Response Time does not include any think time that occurred during the transaction. The units are seconds.|No|
 |**Ave. Transaction Time**|The average transaction time. This time includes think times. For example, if you have three requests and each has a think time, this time will include those think times and the actual time to execute requests.|No|
-|**Ave. Response Time**|The average response time for a Web performance test transaction in a load test run. Response Time is different from Transaction Time in that Response Time does not include any think time that occurred during the transaction. The units are seconds.|No|
+|**Ave. Response Time**|The average response time for a web performance test transaction in a load test run. Response Time is different from Transaction Time in that Response Time does not include any think time that occurred during the transaction. The units are seconds.|No|
 |**Min Response Time**|This does not include think times.|No|
 |**Max Response Time**|This does not include think times.|No|
 |**Median Response Time**|This does not include think times.|No|
@@ -160,14 +160,14 @@ The **Load Test Errors** table contains the following columns:
 |------------|-----------------|
 |**Time**|The time during the load test at which the error occurred.|
 |**Agent**|The name of the agent computer on which the error occurred. This is important when you run load tests using test controllers and test agents. For more information, see [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).|
-|**Test**|The name of the Web performance test in which the error occurred.|
+|**Test**|The name of the web performance test in which the error occurred.|
 |**Scenario**|The name of the scenario in which the error occurred.|
 |**Request**|The URL of the request in which the error occurred.|
 |**Type**|The type of the error. For example, HttpError.|
 |**SubType**|The subtype of the error. For example, LoadTestException.|
 |**Text**|The text of the error message. For example, 404 - NotFound.|
 |**Stack**|The entries in this column are either empty, or the word **Stack** is formatted as a hyperlink. You can choose the hyperlink to view a stack trace of the error.|
-|**Details**|The entries in this column are either empty, or the word **TestLog** is formatted as a hyperlink. This link can help you isolate errors in the load test. For example, choosing the **TestLog** link on a Web Performance test request error will open up the results for the Web Performance test in the Web Performance Test Results Viewer and highlight the request error.|
+|**Details**|The entries in this column are either empty, or the word **TestLog** is formatted as a hyperlink. This link can help you isolate errors in the load test. For example, choosing the **TestLog** link on a web performance test request error will open up the results for the web performance test in the Web Performance Test Results Viewer and highlight the request error.|
 
 > [!NOTE]
 > You can sort the table by choosing the column headers.

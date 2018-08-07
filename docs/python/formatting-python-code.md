@@ -13,20 +13,20 @@ ms.workload:
   - data-science
 ---
 
-# Formatting Python code
+# Format Python code
 
-Visual Studio lets you quick reformat code to match pre-configured formatting options.
+Visual Studio lets you quickly reformat code to match pre-configured formatting options.
 
-- To format a selection: select **Edit > Advanced > Format Selection** or press Ctrl+E,F.
-- To format the whole file: select **Edit > Advanced > Format Document** or press Ctrl+E,D.
+- To format a selection: select **Edit** > **Advanced** > **Format Selection** or press **Ctrl**+**E** > **F**.
+- To format the whole file: select **Edit** > **Advanced** > **Format Document** or press **Ctrl**+**E** > **D**.
 
-Options are set through **Tools > Options > Text Editor > Python > Formatting** and its nested tabs. You need to select **Show all settings** for these options to appear:
+Options are set through **Tools** > **Options** > **Text Editor** > **Python** > **Formatting** and its nested tabs. You need to select **Show all settings** for these options to appear:
 
 ![Python formatting options in Visual Studio](media/options-editor-formatting.png)
 
 Formatting options by default are set to match a superset of the [PEP 8 style guide](http://www.python.org/dev/peps/pep-0008/). The **General** tab determines when formatting is applied; settings for the other three tabs are described in this article.
 
-[Python support in Visual Studio](installing-python-support-in-visual-studio.md) also adds the useful [Fill Comment Paragraph](#fill-comment-paragraph-command) command to the **Edit > Advanced** menu as described in a later section.
+[Python support in Visual Studio](installing-python-support-in-visual-studio.md) also adds the useful [**Fill Comment Paragraph**](#fill-comment-paragraph-command) command to the **Edit** > **Advanced** menu as described in a later section.
 
 ## Spacing
 
@@ -38,7 +38,7 @@ Formatting options by default are set to match a superset of the [PEP 8 style gu
 
 Examples for the various options are provided in the following tables:
 
-| Class Definitions option | Checked | Cleared |
+| Class definitions option | Checked | Cleared |
 | --- | --- | --- | 
 | Insert space between a class declaration's name and bases list | `class X (object): pass` | `class X(object): pass` | 
 | Insert space within bases list parentheses | `class X( object ): pass` | `class X(object): pass` |
@@ -46,7 +46,7 @@ Examples for the various options are provided in the following tables:
 
 <br/>
 
-| Function Definitions option | Checked | Cleared |
+| Function definitions option | Checked | Cleared |
 | --- | --- | --- |
 | Insert space between a function declaration's name and parameter list | `def X (): pass` | `def X(): pass` | 
 | Insert space within parameter list parentheses | `def X( a, b ): pass` | `def X(a, b): pass` |
@@ -105,7 +105,7 @@ The **Statements** options control automatic rewriting of various statements int
 
 ## Fill Comment Paragraph command
 
-**Edit > Advanced > Fill Comment Paragraph** (Ctrl+E, P) reflows and formats comment text, combining short lines together and breaking up long ones.
+**Edit** > **Advanced** > **Fill Comment Paragraph** (**Ctrl**+**E** > **P**) reflows and formats comment text, combining short lines together and breaking up long ones.
 
 For example:
 

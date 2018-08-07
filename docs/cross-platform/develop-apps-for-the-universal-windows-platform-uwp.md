@@ -48,4 +48,4 @@ If you have existing Windows Store 8.1 apps, Windows Phone 8.1 apps, or Universa
 After you create your Universal Windows app, you must package your app to install it on a Windows 10 device or submit it to the Windows Store. See [Packaging apps](/windows/uwp/packaging/index).
 
 ## See also
-[Cross-Platform Mobile Development in Visual Studio](../cross-platform/cross-platform-mobile-development-in-visual-studio.md)
+[Cross-platform mobile development in Visual Studio](../cross-platform/cross-platform-mobile-development-in-visual-studio.md)

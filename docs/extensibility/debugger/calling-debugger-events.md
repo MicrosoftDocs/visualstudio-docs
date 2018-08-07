@@ -14,7 +14,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Calling Debugger Events
+# Call debugger events
 Events in debugging sessions occur in a specific order.  
   
 ## Discussion  
@@ -44,5 +44,5 @@ Events in debugging sessions occur in a specific order.
   
 12. [Exception handling](../../extensibility/debugger/exception-handling-visual-studio-sdk.md)  
   
-## See Also  
- [Creating a Custom Debug Engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)
+## See also  
+ [Creating a custom debug engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)
