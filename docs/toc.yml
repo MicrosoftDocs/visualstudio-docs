@@ -5,9 +5,9 @@
   items:
     - name: About Visual Studio 2017
       href: ide/visual-studio-ide.md
-    - name: Intro to the code editor
+    - name: About the code editor
       href: ide/quickstart-editor.md
-    - name: Intro to projects and solutions
+    - name: About projects and solutions
       href: ide/quickstart-projects-solutions.md
     - name: More Visual Studio features
       href: ide/advanced-feature-overview.md
