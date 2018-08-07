@@ -19,7 +19,8 @@ As a subscription administrator, you can make changes to the subscriptions assig
 You can edit a subscriber’s information to correct errors or update information. 
 
 To edit a subscriber, select the ellipses (…) that appear next to the subscriber’s email address when you hover your mouse over it. A dropdown will appear.  Select **Edit** to modify the subscriber’s details. You can also double-click on the subscriber's row in the grid to open the edit window.
-    ![Select subscriber to edit](_img\edit-license\select-subscriber.png)
+> [!div class="mx-imgBorder"]
+> ![Select subscriber to edit](_img\edit-license\select-subscriber.png)
 
 You can update the subscriber’s first name, last name, country, language and downloads. Edit the subscriber’s information, and then click **Save**.
 
@@ -36,12 +37,14 @@ You can edit multiple subscribers at once using the bulk edit process. This feat
 1.	To edit multiple subscribers at once, navigate to the Subscribers tab. In the ribbon at the top, click **Bulk Edit**. 
 
 2.  Bulk edit uses an Excel template to make edits to subscriber information. In the Bulk Edit box, click **Export this excel** to download the current list of subscribers including all of their information. 
-    ![Editing a License - Export Bulk Edits List](_img\edit-license\edit-license-bulk-edit-export.png)
+    > [!div class="mx-imgBorder"]
+    > ![Editing a License - Export Bulk Edits List](_img\edit-license\edit-license-bulk-edit-export.png)
 
 3.	Next, save the file locally so you can easily find it and make any necessary changes prior to uploading it. To ensure a successful upload, **don’t edit the subscription level or the subscription GUID** as doing so will cause the upload to fail. 
 
 4.	Return to the Visual Studio Subscriptions Administration portal and in the Bulk Edit dialog box, click **Browse**. Select the Excel file you saved and click **OK**. You will see the upload progress on the screen.
-    ![Editing a License - Bulk Edits File Upload](_img\edit-license\edit-license-bulk-file-upload1.png)
+    > [!div class="mx-imgBorder"]    
+    > ![Editing a License - Bulk Edits File Upload](_img\edit-license\edit-license-bulk-file-upload1.png)
 
 5.	Once you’ve uploaded the file, you will see a notification letting you know it was successful. At this point, your edits will be reflected in the subscriber information. 
 
