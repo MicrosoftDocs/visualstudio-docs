@@ -3,7 +3,7 @@ ms.topic: include
 ---
 ### Create a project using Django 2.0
 
-At present, the blank Django Web Project template uses the latest Django 1.x version. To use Django 2.x, the quickest means is to import Django 2.x files into a Django 1.x project. By following that process, you take advantage of other details handled by the Visual Studio project template.
+At present, the Blank Django Web Project template uses the latest Django 1.x version. To use Django 2.x, the quickest means is to import Django 2.x files into a Django 1.x project. By following that process, you take advantage of other details handled by the Visual Studio project template.
 
 1. Create a Django 1.x project using the "Blank Django Web Project" template as described in the previous section. However, at the **This project requires external dependencies** prompt, select **I will install them myself**. You choose this option to avoid installing dependencies that are uninstalled in a later step.
 
