@@ -22,7 +22,7 @@ In the previous steps of this tutorial, you've learned how to create a minimal F
 In this step, you learn how to:
 
 > [!div class="checklist"]
-> - Use Visual Studio item templates to quickly new files of different types with convenient boilerplate code (step 3-1)
+> - Use Visual Studio item templates to quickly add new files of different types with convenient boilerplate code (step 3-1)
 > - Serve static files from code (step 3-2, optional)
 > - Add additional pages to the app (step 3-3)
 > - Use template inheritance to create a header and nav bar that's used across pages (step 3-4)
@@ -84,7 +84,7 @@ In either case, you can organize files under *static* however you like.
 
 ### Serve a static file from code
 
-Flask provides a function called `serve_static_file` that you can call from code to refer to any file within the project's *static* folder. The following process creates a simple API endpoint that returns a static data file).
+Flask provides a function called `serve_static_file` that you can call from code to refer to any file within the project's *static* folder. The following process creates a simple API endpoint that returns a static data file.
 
 1. If you haven't done so already, create a *static* folder: in **Solution Explorer**, right-click the **HelloFlask** folder in the Visual Studio project, select **Add** > **New folder**, and name the folder `static`.
 
@@ -183,7 +183,7 @@ Flask's templating system (Jinja by default) provides two means for reusing spec
 
 In both cases, `<template_path>` is relative to the app's *templates* folder (`../` or `./` are also allowed).
 
-A base template delineates *blocks* using `{% block <block_name> %}` and `{% endblock %}` tags. If a referring template then uses tags with the same block name, its block content override that of the base template.
+A base template delineates *blocks* using `{% block <block_name> %}` and `{% endblock %}` tags. If a referring template then uses tags with the same block name, its block content overrides that of the base template.
 
 The following steps demonstrate inheritance:
 

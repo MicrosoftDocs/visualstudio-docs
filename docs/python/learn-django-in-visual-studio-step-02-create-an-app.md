@@ -124,7 +124,7 @@ To experiment with different regular expressions, try online tools such as [rege
 
 ## Step 2-3: Render a view using HTML
 
-The `index` function that you have so far in *views.py* generates nothing more than a plain-text HTTP response for the page. Most real-world web pages, of course, respond with rich HTML pages that often incorporate live data. Indeed, the primary reason to define a view using a function is so you can generated that content dynamically.
+The `index` function that you have so far in *views.py* generates nothing more than a plain-text HTTP response for the page. Most real-world web pages, of course, respond with rich HTML pages that often incorporate live data. Indeed, the primary reason to define a view using a function is so you can generate that content dynamically.
 
 Because the argument to `HttpResponse` is just a string, you can build up any HTML you like within a string. As a simple example, replace the `index` function with the following code (keeping the existing `from` statements), which generates an HTML response using dynamic content that's updated every time you refresh the page:
 
@@ -144,7 +144,7 @@ def index(request):
 Run the project again to see a message like "**Hello Django!** on Monday, 16 April, 2018 at 16:28:10". Refresh the page to update the time and confirm that the content is being generated with each request. Stop the server when you're done.
 
 > [!Tip]
-> A shortcut to stopping and restarting the project is to use the **Debug** > **Restart** menu command (**Ctrl**+**Shift**+**F5**) or the restart button on the debugging toolbar:
+> A shortcut to stopping and restarting the project is to use the **Debug** > **Restart** menu command (**Ctrl**+**Shift**+**F5**) or the **Restart** button on the debugging toolbar:
 >
 > ![Restart button on the debugging toolbar in Visual Studio](media/debugging-restart-toolbar-button.png)
 
@@ -205,7 +205,7 @@ The following steps demonstrate the use of page templates:
 
     The first argument to `render`, as you can see, is the request object, followed by the relative path to the template file within the app's *templates* folder. A template file is named for the view it supports, if appropriate. The third argument to `render` is then a dictionary of variables that the template refers to. You can include objects in the dictionary, in which case a variable in the template can refer to `{{ object.property }}`.
 
-1. Run the project and observe the output. You should see a similar message to that seen step 2-2, indicating that the template works.
+1. Run the project and observe the output. You should see a similar message to that seen in step 2-2, indicating that the template works.
 
     Observe, however, that the HTML you used in the `content` property renders only as plain text because the `render` function automatically escapes that HTML. Automatic escaping prevent accidental vulnerabilities to injection attacks: developers often gather input from one page and use it as a value in another through a template placeholder. Escaping also serves as a reminder that it's again best to keep HTML in the page template and out of the code. Fortunately, it's a simple matter to create additional variables where needed. For example, change *index.html* with *templates* to match the following markup, which adds a page title and keeps all formatting in the page template:
 

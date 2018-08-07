@@ -22,7 +22,7 @@ In the previous steps of this tutorial, you've learned how to create a minimal D
 In this step, you learn how to:
 
 > [!div class="checklist"]
-> - Use Visual Studio item templates to quickly new files of different types with convenient boilerplate code (step 3-1)
+> - Use Visual Studio item templates to quickly add new files of different types with convenient boilerplate code (step 3-1)
 > - Configure the Django project to serve static files (step 3-2)
 > - Add additional pages to the app (step 3-3)
 > - Use template inheritance to create a header and nav bar that's used across pages (step 3-4)
@@ -181,7 +181,7 @@ A base template delineates blocks using `{% block <block_name> %}` and `{% endbl
 
 The following steps demonstrate inheritance:
 
-1. In the app's *templates/HelloDjangoApp* folder, create a new HTML file (using the **Add** > **New item** context menu or **Add** > **HTML Page**) called `layout.html`, and replace its contents with the markup below. You can see that this template contains a block named "content" that is all that the referring pages need to replace:
+1. In the app's *templates/HelloDjangoApp* folder, create a new HTML file (using the **Add** > **New item** context menu or **Add** > **HTML Page**) called *layout.html*, and replace its contents with the markup below. You can see that this template contains a block named "content" that is all that the referring pages need to replace:
 
     ```html
     <!DOCTYPE html>

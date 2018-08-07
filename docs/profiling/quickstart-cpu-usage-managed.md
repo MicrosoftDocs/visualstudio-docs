@@ -2,7 +2,7 @@
 title: "Analyze CPU usage data (managed code)"
 description: "Measure app performance in C# and Visual Basic using the CPU Usage diagnostics tool"
 ms.custom: "mvc"
-ms.date: "12/05/2017"
+ms.date: "08/06/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords:
@@ -25,6 +25,8 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 1. In Visual Studio, choose **File** > **New Project**.
 
 2. Under **Visual C#** or **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+
+    If you don't see the **Console App** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **.NET Desktop development** workload, then choose **Modify**.
 
 3. Type a name like **MyProfilerApp** and click **OK**.
 
