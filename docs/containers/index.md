@@ -49,8 +49,8 @@ featureFlags:
                                                 <div class="cardText">
                                                     <h4>ASP.NET</h4>
                                                     <ul class="noBullet">
-                                                        <li><a class="barLink" href="https://docs.microsoft.com/aspnet/core/host-and-deploy/docker/visual-studio-tools-for-docker?view=aspnetcore-2.1">ASP.NET Docker Tools</a></li>
-                                                        <li><a class="barLink" href="https://docs.microsoft.com/azure/vs-azure-tools-docker-hosting-web-apps-in-docker">Deploy to Azure Container Registry (ACR)</a></li>
+                                                        <li><a class="barLink" href="https://docs.microsoft.com/aspnet/core/host-and-deploy/docker/visual-studio-tools-for-docker?view=aspnetcore-2.1"><img src="https://docs.microsoft.com/media/common/i_web.svg" alt="">ASP.NET Docker Tools</a></li>
+                                                        <li><a class="barLink" href="https://docs.microsoft.com/azure/vs-azure-tools-docker-hosting-web-apps-in-docker"><img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="">Deploy to Azure Container Registry (ACR)</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -62,7 +62,7 @@ featureFlags:
                                                 <div class="cardText">
                                                     <h4>Microservices</h4>
                                                     <ul class="noBullet">
-                                                        <li><a class="barLink" href="https://docs.microsoft.com/dotnet/standard/containerized-lifecycle-architecture/">Microservices architecture guide</a></li>
+                                                        <li><a class="barLink" href="https://docs.microsoft.com/dotnet/standard/containerized-lifecycle-architecture/"><img src="https://docs.microsoft.com/media/common/i_architecture.svg" alt="">Microservices architecture guide</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -78,7 +78,7 @@ featureFlags:
                                         <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
-                                                    <h3>Azure</h3>
+                                                    <h3>Azure Container Services</h3>
                                                     <ul class="noBullet">
                                                         <li>
                                                             <a class="barLink" href="https://docs.microsoft.com/azure/containers/">
@@ -93,6 +93,16 @@ featureFlags:
                                                         <li>
                                                             <a class="barLink" href="https://docs.microsoft.com/azure/container-registry/">
                                                                 <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="">Azure Container Registry (ACR)
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="barLink" href="https://docs.microsoft.com/azure/container-registry/container-registry-tutorial-quick-build">
+                                                                <img src="https://docs.microsoft.com/media/common/i_build.svg" alt="">Azure Container Builder
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="barLink" href="https://docs.microsoft.com/azure/container-instances/container-instances-tutorial-prepare-app">
+                                                                <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="">Azure Container Instances
                                                             </a>
                                                         </li>
                                                     </ul>
@@ -130,6 +140,10 @@ featureFlags:
                                                         <li><a class="barLink" href="https://docs.microsoft.com/azure/container-service/kubernetes">Azure Container Service - Kubernetes</a></li>
                                                         <li><a class="barLink" href="https://docs.microsoft.com/azure/dev-spaces/"><img src="media/AzureDevSpaceController_50x.svg" alt="">Azure Dev Spaces</a></li>
                                                     </ul>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="cardText">
                                                     <h3>External</h3>
                                                     <ul class="noBullet">
                                                         <li><a class="barLink" href="http://wwww.docker.com/docker-windows"><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker for Windows</a></li>
