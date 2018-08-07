@@ -65,7 +65,7 @@ The **Polls \<framework> Web Project** templates create a starter web app throug
 
 ## Install project requirements
 
-When creating a project from a framework-specific template, a dialog appears to help you install the necessary packages using pip. We also recommend using a [virtual environment](selecting-a-python-environment-for-a-project.md#using-virtual-environments) for web projects so that the correct dependencies are included when you publish your web site:
+When creating a project from a framework-specific template, a dialog appears to help you install the necessary packages using pip. We also recommend using a [virtual environment](selecting-a-python-environment-for-a-project.md#use-virtual-environments) for web projects so that the correct dependencies are included when you publish your web site:
 
 ![Dialog that installs needed packages for a project template](media/template-web-requirements-txt-wizard.png)
 

@@ -53,7 +53,7 @@ Project Property Pages dialog box with field format and tree structure
   
  The second type of property pages displayed in the samples hosts a form of the properties grid, as shown in the following screenshot.  
   
- ![VC Propery Pages](../../extensibility/internals/media/vsvcproppages.gif "vsVCPropPages")  
+ ![VC Property Pages](../../extensibility/internals/media/vsvcproppages.gif "vsVCPropPages")  
 Property Pages dialog box with properties grid  
   
  The interfaces `IVSMDPropertyBrowser` and `IVSMDPropertyGrid` (declared in vsmanaged.h) are used to create and populate the properties grid within a dialog box or window.  

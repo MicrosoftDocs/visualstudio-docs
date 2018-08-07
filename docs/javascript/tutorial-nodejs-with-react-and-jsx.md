@@ -89,7 +89,7 @@ This app requires a number of npm modules to run correctly.
 
     The project's *package.json* file is updated with the new package information including the package version.
 
-1. Instead of using the UI to search for and add the rest of the packages one at a time, paste the following code into package.json. Replace the `dependencies` section with this code:
+1. Instead of using the UI to search for and add the rest of the packages one at a time, paste the following code into package.json. To do this, replace the `dependencies` section with this code:
 
     ```js
     "dependencies": {
@@ -104,9 +104,11 @@ This app requires a number of npm modules to run correctly.
     }
     ```
 
+    If there is no `dependencies` section in your version of the blank template, you must add it instead of replace the existing section.
+
 1. Right-click **npm** node in your project and choose **Update npm Packages**.
 
-    Select the **Output** window to see progress on installing the packages. Installation may take a few minutes and you may not see results immediately.
+    In the lower pane, select the **Output** window to see progress on installing the packages. Installation may take a few minutes and you may not see results immediately. Too see the output, make sure that you select **Npm** in the **Show output from** field in the **Output** window.
 
     Here are the npm modules as they appear in Solution Explorer after they are installed.
 
@@ -138,7 +140,7 @@ For this simple app, you add the new project files in the project root. (In most
 
 ## Add app code
 
-1. Open *server.js* and replace the code with the following code:
+1. Open *server.js* and replace the existing code with the following code:
 
     ```javascript
     'use strict';

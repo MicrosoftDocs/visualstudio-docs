@@ -15,10 +15,10 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Visual Studio SDK Reference
+# Visual Studio SDK reference
 This section contains information about Visual Studio namespaces, related namespaces, and other areas of interest for developers who use the Visual Studio SDK.  
   
-## In This Section  
+## In this section  
  <xref:Microsoft.VisualStudio.TextManager.Interop>  
  Legacy interop interfaces used for the editor and language services.  
   

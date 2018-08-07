@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Create a network installation of Visual Studio 2017
 
-Commonly, an enterprise administrator creates a network install point for deployment to client workstations. We've designed Visual Studio 2017 to enable you to cache the files for the initial installation along with all product updates to a single folder. (This process is also referred to as _creating a layout_.) We've done this so that client workstations can use the same network location to manage their installation even if they haven't yet updated to the latest servicing update.
+Typically, an enterprise administrator creates a network install point for deployment to client workstations. We've designed Visual Studio 2017 to enable you to cache the files for the initial installation along with all product updates to a single folder. (This process is also referred to as _creating a layout_.) We've done this so that client workstations can use the same network location to manage their installation even if they haven't yet updated to the latest servicing update.
 
  > [!NOTE]
  > If you have multiple editions of Visual Studio in use within your enterprise (for example, both Visual Studio Professional and Visual Studio Enterprise), you must create a separate network install share for each edition.

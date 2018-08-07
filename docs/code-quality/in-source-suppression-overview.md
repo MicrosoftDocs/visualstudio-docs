@@ -1,6 +1,6 @@
 ---
-title: Suppress code analysis warnings in Visual Studio
-ms.date: 01/29/2018
+title: Suppress code analysis warnings
+ms.date: 08/03/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: "conceptual"
@@ -21,7 +21,7 @@ ms.workload:
 
 It is often useful to indicate that a warning is not applicable. This indicates to team members that the code was reviewed, and that the warning can be suppressed. In-source suppression (ISS) uses the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to suppress a warning. The attribute can be placed close to the code segment that generated the warning. You can add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the source file by typing it in, or you can use the shortcut menu on a warning in the **Error List** to add it automatically.
 
-The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is a conditional attribute which is included in the IL metadata of your managed code assembly, only if the CODE_ANALYSIS compilation symbol is defined at compile time.
+The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is a conditional attribute, which is included in the IL metadata of your managed code assembly, only if the CODE_ANALYSIS compilation symbol is defined at compile time.
 
 In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE in the header file to add the attribute.
 
@@ -29,7 +29,9 @@ In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE
 > You should not use in-source suppressions on release builds, to prevent shipping the in-source suppression metadata accidentally. Additionally, because of the processing cost of in-source suppression, the performance of your application can be degraded.
 
 > [!NOTE]
-> If you migrate a project to Visual Studio 2017, you might suddenly be faced with an overwhelming number of code analysis warnings. If you aren't ready to fix the warnings and want to temporarily turn code analysis off, open the project's property pages (**Project** > **\<project> Properties**) and go to the **Code Analysis** tab. Deselect **Enable Code Analysis on Build**, and then rebuild your project. Alternatively, you can select a different, smaller rule set to run against the code. Remember to turn code analysis back on when you are ready to fix the warnings.
+> If you migrate a project to Visual Studio 2017, you might suddenly be faced with a large number of code analysis warnings. These warnings are coming from [Roslyn analyzers](roslyn-analyzers-overview.md). If you aren't ready to fix the warnings, you can suppress all of them by choosing **Analyze** > **Run Code Analysis and Suppress Active Issues**.
+>
+> ![Run code analysis and suppress issues in Visual Studio](media/suppress-active-issues.png)
 
 ## SuppressMessage attribute
 
@@ -51,13 +53,13 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
 
 The properties of the attribute include:
 
-- **Rule Category** - The category in which the rule is defined. For more information about code analysis rule categories, see [Managed code warnings](../code-quality/code-analysis-for-managed-code-warnings.md).
+- **Category** - The category in which the rule is defined. For more information about code analysis rule categories, see [Managed code warnings](../code-quality/code-analysis-for-managed-code-warnings.md).
 
-- **Rule Id** - The identifier of the rule. Support includes both a short and long name for the rule identifier. The short name is CAXXXX; the long name is CAXXXX:FriendlyTypeName.
+- **CheckId** - The identifier of the rule. Support includes both a short and long name for the rule identifier. The short name is CAXXXX; the long name is CAXXXX:FriendlyTypeName.
 
 - **Justification** - The text that is used to document the reason for suppressing the message.
 
-- **Message Id** - Unique identifier of a problem for each message.
+- **MessageId** - Unique identifier of a problem for each message.
 
 - **Scope** - The target on which the warning is being suppressed. If the target is not specified, it is set to the target of the attribute. Supported scopes include the following:
 
@@ -71,7 +73,7 @@ The properties of the attribute include:
 
     - Member
 
-- **Target** - An identifier that is used to specify the target on which the warning is being suppressed. It must contain a fully-qualified item name.
+- **Target** - An identifier that is used to specify the target on which the warning is being suppressed. It must contain a fully qualified item name.
 
 ## SuppressMessage usage
 
@@ -153,7 +155,7 @@ Global-level suppressions are the only way to suppress messages that refer to co
 `[module: SuppressMessage("Microsoft.Design", "CA1055:AbstractTypesDoNotHavePublicConstructors", Scope="member", Target="Microsoft.Tools.FxCop.Type..ctor()")]`
 
 > [!NOTE]
-> `Target` always contains the fully-qualified item name.
+> `Target` always contains the fully qualified item name.
 
 ## Global suppression file
 
