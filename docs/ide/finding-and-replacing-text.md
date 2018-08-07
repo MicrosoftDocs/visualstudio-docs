@@ -106,12 +106,15 @@ Use the following keys and actions for multi-caret selection behaviors:
 
 |Shortcut|Action|
 |-|-|
-|**Alt** + click|Add or remove a location or selection|
-|**Alt** + double-click|Add a word selection|
-|**Shift**+**Alt** + click|Set a box selection|
+|**Ctrl**+**Alt** + click|Add a secondary caret|
+|**Ctrl**+**Alt** + double-click|Add a secondary word selection|
+|**Ctrl**+**Alt** + click + drag|Add a secondary selection|
+|**Shift**+**Alt**+**.**|Add the next matching text as a selection|
+|**Ctrl**+**Shift**+**Alt**+**,**|Add all matching text as selections|
+|**Shift**+**Alt**+**,**|Remove last selected occurrence|
+|**Ctrl**+**Shift**+**Alt**+**.**|Skip next matching occurrence|
+|**Alt** + click|Add a box selection|
 |**Esc** or click|Clear all selections|
-|**Shift**+**Alt**+**Ins**|Add the next matching text as a selection|
-|**Ctrl**+**Ins**|Add all matching text as selections|
 
 Some of the commands are also available on the **Edit** menu, under **Multiple Carets**:
 
