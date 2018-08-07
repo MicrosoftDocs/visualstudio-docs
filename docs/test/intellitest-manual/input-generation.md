@@ -12,7 +12,7 @@ ms.workload:
   - "multiple"
 author: gewarren
 ---
-# Input generatation using dynamic symbolic execution
+# Input generation using dynamic symbolic execution
 
 IntelliTest generates inputs for 
 [parameterized unit tests](test-generation.md#parameterized-unit-testing)
@@ -99,7 +99,7 @@ number of blocks in all methods that have been reached
 so far by the analysis (as opposed to all methods 
 that exist in the assembly under test) is ten.
 Later in the analysis, as more reachable methods
-are discovered, both the numerator (5 in this eaxmple)
+are discovered, both the numerator (5 in this example)
 and the denominator (10) may increase.
 
 <a name="integers-and-floats"></a>

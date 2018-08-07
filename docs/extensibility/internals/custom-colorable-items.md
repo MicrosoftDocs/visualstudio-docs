@@ -15,25 +15,25 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Custom Colorable Items
+# Custom colorable items
 You can override the list of types for colorizing, such as keywords and comments, by implementing custom colorable items as part of your language service.  
   
-## User Settings of Colorable Items  
+## User settings of colorable items  
  You can display the **Fonts and Colors** dialog box by selecting **Options** on the **Tools** menu, and then selecting **Fonts and Colors** under **Environment**. When you select a display, such as **Text Editor** or **Command Window**, the **Display items** list box shows all the colorable items for that display. You can view and change the font, size, foreground color, and background color for each colorable item. Your choices are stored in a cache in the registry and accessed by the colorable item name.  
   
-## Presentation of Colorable Items  
+## Presentation of colorable items  
  Because the IDE handles user overrides of colorable items in the **Fonts and Colors** dialog box, you need only supply each custom colorable item with a name. This name is what appears in the **Display items** list. The colorable items appear in alphabetical order. To group your language service's custom colorable items, you can begin each name with your language name, for example **NewLanguage - Comment** and **NewLanguage - Keyword**.  
   
 > [!CAUTION]
->  You should include the language name in the colorable item name to avoid collisions with existing colorable item names. If you change the name of one of your colorable items during development, you must reset the cache that was created the first time your colorable items were accessed. You can reset the experimental cache with the CreateExpInstance tool, which is installed with the Visual Studio SDK, typically in the directory  
+>  You should include the language name in the colorable item name to avoid collisions with existing colorable item names. If you change the name of one of your colorable items during development, you must reset the cache that was created the first time your colorable items were accessed. You can reset the experimental cache with the **CreateExpInstance** tool, which is installed with the Visual Studio SDK, typically in the directory:  
 >   
->  **C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin**  
+>  *C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin*
 >   
->  To reset the cache, call `CreateExpInstance /Reset`. For more information about CreateExpInstance, see [CreateExpInstance Utility](../../extensibility/internals/createexpinstance-utility.md).  
+>  To reset the cache, enter **CreateExpInstance /Reset**. For more information about **CreateExpInstance**, see [CreateExpInstance utility](../../extensibility/internals/createexpinstance-utility.md).  
   
  The first item in your list of colorable items is never referenced. The first item corresponds to a colorable item index of 0, and [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] always supplies the default text colors and attributes for that item. The easiest way of dealing with this unreferenced item is to supply a placeholder colorable item in your list as the first item.  
   
-## Implementing Custom Colorable Items  
+## Implement custom colorable items  
   
 1.  Define what must be colorized in your language, for example Keyword, Operator, and Identifier.  
   
@@ -61,9 +61,9 @@ You can override the list of types for colorizing, such as keywords and comments
   
  For an example of how to implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorableItem> and <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiColorItem> interfaces, see <xref:Microsoft.VisualStudio.TextManager.Interop.IVsHiColorItem>.  
   
-## See Also  
- [Model of a Legacy Language Service](../../extensibility/internals/model-of-a-legacy-language-service.md)   
- [Syntax Coloring in Custom Editors](../../extensibility/syntax-coloring-in-custom-editors.md)   
- [Syntax Coloring in a Legacy Language Service](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)   
- [Implementing Syntax Coloring](../../extensibility/internals/implementing-syntax-coloring.md)   
- [How to: Use Built-In Colorable Items](../../extensibility/internals/how-to-use-built-in-colorable-items.md)
+## See also  
+ [Model of a legacy language service](../../extensibility/internals/model-of-a-legacy-language-service.md)   
+ [Syntax coloring in custom editors](../../extensibility/syntax-coloring-in-custom-editors.md)   
+ [Syntax coloring in a legacy language service](../../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)   
+ [Implement syntax coloring](../../extensibility/internals/implementing-syntax-coloring.md)   
+ [How to: Use built-in colorable items](../../extensibility/internals/how-to-use-built-in-colorable-items.md)

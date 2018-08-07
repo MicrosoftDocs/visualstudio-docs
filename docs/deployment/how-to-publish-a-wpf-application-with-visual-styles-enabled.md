@@ -155,8 +155,9 @@ cd "%UserProfile%\Documents\Visual Studio 2010\Projects\MyWPFProject\publish\App
   
  After you have performed these steps, you can move the published files to the location from which you want end users to install the application. If you intend to update the solution often, you can move these commands into a script and run the script each time that you publish a new version.  
   
-## See also  
- [Troubleshoot specific errors in ClickOnce deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)   
- [Visual styles overview](/windows/desktop/Controls/visual-styles-overview)   
- [Enable visual styles](https://msdn.microsoft.com/library/bb773175.aspx)   
- [Command prompts](/dotnet/framework/tools/developer-command-prompt-for-vs)
+## See also
+
+-[Troubleshooting Specific Errors in ClickOnce Deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)
+- [Visual Styles Overview](/windows/desktop/Controls/visual-styles-overview)
+- [Enabling Visual Styles](/windows/desktop/Controls/cookbook-overview)
+- [Command Prompts](/dotnet/framework/tools/developer-command-prompt-for-vs)
