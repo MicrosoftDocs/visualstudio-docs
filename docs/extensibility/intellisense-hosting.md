@@ -42,7 +42,7 @@ Visual Studio enables IntelliSense hosting. IntellSense hosting lets you provide
  These callback methods are called by the completion window before and after text is committed, to enable pre-processing and post-processing.  
   
 #### IVsIntellisenseCompletor  
- The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseCompletor> interface is a co-creatable version of the standard completion window that is used by the integrated development environment (IDE). Any <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface can quickly implement IntelliSense by using this complete interface.  
+ The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseCompletor> interface is a co-creatable version of the standard completion window that is used by the integrated development environment (IDE). Any <xref:Microsoft.VisualStudio.TextManager.Interop.IVsIntellisenseHost> interface can quickly implement IntelliSense by using this completor interface.  
   
 ## See also  
  <xref:Microsoft.VisualStudio.TextManager.Interop>

@@ -20,7 +20,7 @@ Transactions make sure that changes that were made to the store are treated as a
 ## Opening a transaction
  The most convenient method of managing a transaction is with a `using` statement enclosed in a `try...catch` statement:
 
-```
+```csharp
 Store store; ...
 try
 {
@@ -57,7 +57,7 @@ catch (Exception ex)
 
 2.  Explicitly roll back the transaction:
 
-    ```
+    ```csharp
     this.Store.TransactionManager.CurrentTransaction.Rollback();
     ```
 
@@ -87,13 +87,13 @@ catch (Exception ex)
 ## Transaction state
  In some cases you need to avoid propagating a change if the change is caused by undoing or redoing a transaction. This can happen, for example, if you write a property value handler that can update another value in the Store. Because the undo operation resets all the values in the Store to their previous states, it is not necessary to compute updated values. Use this code:
 
-```
+```csharp
 if (!this.Store.InUndoRedoOrRollback) {...}
 ```
 
  Rules can fire when the store is initially being loaded from a file. To avoid responding to these changes, use:
 
-```
+```csharp
 if (!this.Store.InSerializationTransaction) {...}
 
 ```

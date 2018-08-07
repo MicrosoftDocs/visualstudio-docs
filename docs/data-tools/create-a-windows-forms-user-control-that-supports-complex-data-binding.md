@@ -31,7 +31,7 @@ When authoring controls for use in data-binding scenarios you need to implement 
 |Implement the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute> on controls, like a <xref:System.Windows.Forms.DataGridView>, that display lists (or tables) of data. (This process is described in this walkthrough page.)|
 |Implement the <xref:System.ComponentModel.LookupBindingPropertiesAttribute> on controls, like a <xref:System.Windows.Forms.ComboBox>, that display lists (or tables) of data but also need to present a single column or property. For more information, see [Create a Windows Forms user control that supports lookup data binding](../data-tools/create-a-windows-forms-user-control-that-supports-lookup-data-binding.md).|
 
- This walkthrough creates a complex control that displays rows of data from a table. This example uses the `Customers` table from the Northwind sample database. The complex user control will display the customers table in a <xref:System.Windows.Forms.DataGridView> in the custom control.
+This walkthrough creates a complex control that displays rows of data from a table. This example uses the `Customers` table from the Northwind sample database. The complex user control will display the customers table in a <xref:System.Windows.Forms.DataGridView> in the custom control.
 
 During this walkthrough, you will learn how to:
 
@@ -69,9 +69,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create a Windows Forms application
 
- The first step is to create a **Windows Forms Application**.
-
-### To create the new Windows project
+The first step is to create a **Windows Forms Application**:
 
 1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
@@ -85,9 +83,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Add a user control to the project
 
-Because this walkthrough creates a complex data-bindable control from a **User Control**, you must add a **User Control** item to the project.
-
-### To add a user control to the project
+Because this walkthrough creates a complex data-bindable control from a **User Control**, add a **User Control** item to the project:
 
 1. From the **Project** menu, choose **Add User Control**.
 
@@ -97,17 +93,11 @@ Because this walkthrough creates a complex data-bindable control from a **User C
 
 ## Design the ComplexDataGridView control
 
-This step adds a <xref:System.Windows.Forms.DataGridView> to the user control.
-
-### To design the ComplexDataGridView control
-
-- Drag a <xref:System.Windows.Forms.DataGridView> from the **Toolbox** onto the user control's design surface.
+To add a <xref:System.Windows.Forms.DataGridView> to the user control, drag a <xref:System.Windows.Forms.DataGridView> from the **Toolbox** onto the user control's design surface.
 
 ## Add the required data-binding attribute
 
-For complex controls that support data binding, you can implement the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute>.
-
-### To implement the ComplexBindingProperties attribute
+For complex controls that support data binding, you can implement the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute>:
 
 1. Switch the **ComplexDataGridView** control to code view. (On the **View** menu, select **Code**.)
 
@@ -118,11 +108,9 @@ For complex controls that support data binding, you can implement the <xref:Syst
 
 1. From the **Build** menu, choose **Build Solution**.
 
-## Creating a data source from your database
+## Create a data source from your database
 
-This step uses the **Data Source Configuration** wizard to create a data source based on the `Customers` table in the Northwind sample database.
-
-### To create the data source
+Use the **Data Source Configuration** wizard to create a data source based on the `Customers` table in the Northwind sample database:
 
 1.  On the **Data** menu, click **Show Data Sources**.
 
@@ -148,9 +136,7 @@ This step uses the **Data Source Configuration** wizard to create a data source 
 
 ## Set the Customers table to use the ComplexDataGridView control
 
-Within the **Data Sources** window, you can set the control to be created prior to dragging items onto your form.
-
-### To set the Customers table to bind to the ComplexDataGridView control
+Within the **Data Sources** window, you can set the control to be created prior to dragging items onto your form:
 
 1. Open **Form1** in the designer.
 
@@ -164,15 +150,9 @@ Within the **Data Sources** window, you can set the control to be created prior 
 
 ## Add controls to the form
 
-You can create the data-bound controls by dragging items from the **Data Sources** window onto your form.
+You can create the data-bound controls by dragging items from the **Data Sources** window onto your form. Drag the main **Customers** node from the **Data Sources** window onto the form. Verify that the **ComplexDataGridView** control is used to display the table's data.
 
-### To create data-bound controls on the form
-
-Drag the main **Customers** node from the **Data Sources** window onto the form. Verify that the **ComplexDataGridView** control is used to display the table's data.
-
-## Running the application
-
-### To run the application
+## Run the application
 
 Press **F5** to run the application.
 

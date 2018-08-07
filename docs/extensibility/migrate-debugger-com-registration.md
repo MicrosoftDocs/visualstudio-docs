@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Migrate 64-bit debugger COM class registration
 
-For debugger extensions that register COM classes in HKEY_CLASSES_ROOT by using regasm, regsvr32, or directly writing to the registry and loaded into *msvsmon.exe* (the remote debugger), it's now possible to provide this registration to msvsmon without needing to write to HKEY_CLASSES_ROOT. This affects legacy .NET debugger expression evaluators, or debugs engines that are configured to load in the *msvsmon.exe* process.
+For debugger extensions that register COM classes in HKEY_CLASSES_ROOT by using regasm, regsvr32, or directly writing to the registry and loaded into *msvsmon.exe* (the remote debugger), it's now possible to provide this registration to msvsmon without needing to write to HKEY_CLASSES_ROOT. This affects legacy .NET debugger expression evaluators or debug engines that are configured to load in the *msvsmon.exe* process.
 
 ## msvsmon-comclass-def
 
