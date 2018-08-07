@@ -84,11 +84,8 @@ ms.topic: hub-page
                                                 <h3>Download and Install</h3>
                                                 <ul class="noBullet">
                                                     <li><a class="barLink" href="/visualstudio/install/install-visual-studio"><img  src="https://docs.microsoft.com/media/common/i_download-install.svg" alt="" />Download and Install Visual Studio</a></li>
-                                                    <li><a class="barLink" href="/visualstudio/install/create-an-offline-installation-of-visual-studio"><img  src="https://docs.microsoft.com/media/common/i_offline.svg" alt="" />No network connection? Install offline</a></li>
-                                                    <li><a class="barLink" href=""><img src="https://docs.microsoft.com/media/common/i_upgrade.svg" alt="" />Update Visual Studio</a></li>
-                                                    <li><a class="barLink" href=""><img  src="https://docs.microsoft.com/media/common/i_setup.svg" alt="" />Modify a Visual Studio installation</a></li>
-                                                    <li><a class="barLink" href=""><img  src="https://docs.microsoft.com/media/common/i_library.svg" alt="" />Install the Help Viewer</a></li>
-                                                    <li><a class="barLink" href="/visualstudio/install/visual-studio-administrator-guide"><img  src="https://docs.microsoft.com/media/common/i_advanced.svg" alt="" />More installation choices...</a></li>
+                                                    <li><a class="barLink" href=""><img src="https://docs.microsoft.com/media/common/i_upgrade.svg" alt="" />Update Visual Studio 2017</a></li>
+                                                    <li><a class="barLink" href=""><img  src="https://docs.microsoft.com/media/common/i_setup.svg" alt="" />Add or remove features</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -102,8 +99,7 @@ ms.topic: hub-page
                                             <div class="cardText">
                                                 <h3>Learn how to use Visual Studio</h3>
                                                 <ul class="noBullet">
-                                                    <li><a class="barLink" href="ide/visual-studio-ide.md"><img  src="https://docs.microsoft.com/media/common/i_overview.svg" alt="" />Overview of the development environment</a></li>
-                                                    <li><a class="barLink" href="/visualstudio/ide/quickstart-ide-orientation"><img  src="https://docs.microsoft.com/media/common/i_roadmap.svg" alt="" />Start a guided tour</a></li>
+                                                    <li><a class="barLink" href="ide/visual-studio-ide.md"><img  src="https://docs.microsoft.com/media/common/i_overview.svg" alt="" />Start a guided tour</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -129,26 +125,16 @@ ms.topic: hub-page
                                                         <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_vb.svg" alt="">
                                                             Visual Basic</a>
-                                                    </li>
+                                                    </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
                                                     <li>
                                                         <a class="barLink" href="/python/azure/">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_python.svg" alt="">
                                                             Python</a>
                                                     </li>
                                                     <li>
-                                                        <a class="barLink" href="/java/azure/">
-                                                            <img src="https://docs.microsoft.com/media/logos/logo_java.svg" alt="">
-                                                            Java</a>
-                                                    </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
-                                                    <li>
                                                         <a class="barLink" href="/javascript/azure/">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="">
                                                             Node.js</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="barLink" href="/azure/app-service-web/app-service-web-get-started-php">
-                                                            <img src="https://docs.microsoft.com/media/logos/logo_TS.svg" alt="">
-                                                            TypeScript</a>
                                                     </li>
                                                 </ul></td></tr></table>
                                             </div>
@@ -179,26 +165,16 @@ ms.topic: hub-page
                                                         <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_vb.svg" alt="">
                                                             Visual Basic</a>
-                                                    </li>
+                                                    </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
                                                     <li>
                                                         <a class="barLink" href="/python/azure/">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_python.svg" alt="">
                                                             Python</a>
                                                     </li>
                                                     <li>
-                                                        <a class="barLink" href="/java/azure/">
-                                                            <img src="https://docs.microsoft.com/media/logos/logo_java.svg" alt="">
-                                                            Java</a>
-                                                    </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
-                                                    <li>
                                                         <a class="barLink" href="/javascript/azure/">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="">
                                                             Node.js</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="barLink" href="/azure/app-service-web/app-service-web-get-started-php">
-                                                            <img src="https://docs.microsoft.com/media/logos/logo_TS.svg" alt="">
-                                                            TypeScript</a>
                                                     </li>
                                                 </ul></td></tr></table>
                                             </div>
