@@ -49,13 +49,13 @@ By default, the specified item is searched for in all solution items. However, y
 To narrow your search to a specific type of code element, you can either specify a prefix in the search box, or select one of the five filter icons:
 
 Prefix | Icon | Shortcut | Description
-:----: | ---- | -------- | ---
-:      | ![Line icon](media/gotoall-line-icon.png)     | **Ctrl**+**G**         | Go to the specified line number
-f      | ![Files icon](media/gotoall-files-icon.png)     | **Ctrl**+**1**, **Ctrl**+**F** | Go to the specified file
-f      | ![Recent files icon](media/gotoall-recent-files-icon.png)     | **Ctrl**+**1**, **Ctrl**+**F** | Go to the specified, recently visited file
-t      | ![Types icon](media/gotoall-types-icon.png)     | **Ctrl**+**1**, **Ctrl**+**T** | Go to the specified type
-m      | ![Members icon](media/gotoall-members-icon.png) | **Ctrl**+**1**, **Ctrl**+**M** | Go to the specified member
-\#     | ![Symbols icon](media/gotoall-symbols-icon.png) | **Ctrl**+**1**, **Ctrl**+**S** | Go to the specified symbol
+:-: | - | - | -
+:| ![Line icon](media/gotoall-line-icon.png) | **Ctrl**+**G**         | Go to the specified line number
+f| ![Files icon](media/gotoall-files-icon.png) | **Ctrl**+**1**, **Ctrl**+**F** | Go to the specified file
+r| ![Recent files icon](media/gotoall-recent-files-icon.png) | **Ctrl**+**1**, **Ctrl**+**F** | Go to the specified, recently visited file
+t| ![Types icon](media/gotoall-types-icon.png) | **Ctrl**+**1**, **Ctrl**+**T** | Go to the specified type
+m| ![Members icon](media/gotoall-members-icon.png) | **Ctrl**+**1**, **Ctrl**+**M** | Go to the specified member
+\#| ![Symbols icon](media/gotoall-symbols-icon.png) | **Ctrl**+**1**, **Ctrl**+**S** | Go to the specified symbol
 
 ### Filter to a specific location
 
