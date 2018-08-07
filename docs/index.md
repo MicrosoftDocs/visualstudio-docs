@@ -175,7 +175,7 @@ ms.topic: hub-page
                                         <div class="card">
                                             <div class="cardText">
                                                 <h3>In a hurry? Get up and running with a Quickstart</h3>
-                                                <h4>Build "Hello, World" in the language ofj your choice.</h4>
+                                                <h4>Build "Hello, World" in the language of your choice.</h4>
                                                  <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
                                                 <ul class="noBullet">
                                                     <li>
@@ -212,6 +212,58 @@ ms.topic: hub-page
                                                         <a class="barLink" href="/azure/app-service-web/app-service-web-get-started-php">
                                                             <img src="https://docs.microsoft.com/media/index/logo_TS.svg" alt="">
                                                             TypeScript</a>
+                                                    </li>
+                                                </ul></td></tr></table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                     <div>
+                        <ul>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardText">
+                                                <h3>Or choose an App Model to get started with a particular type of app</h3>
+                                                 <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
+                                                <ul class="noBullet">
+                                                    <li>
+                                                        <a class="barLink" href="/go/azure/">
+                                                            <img src="https://docs.microsoft.com/en-us/media/logos/logo_NETCore.svg" alt="">
+                                                            .NET Core Console App</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
+                                                            <img src="https://docs.microsoft.com/media/logos/logo_C++.svg" alt="">
+                                                            C++ Console App</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
+                                                            <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="">
+                                                            Universal Windows App</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="barLink" href="/python/azure/">
+                                                            <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="">
+                                                            Windows Desktop App</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="barLink" href="/java/azure/">
+                                                            <img src="https://docs.microsoft.com/media/common/i_mobile.svg" alt="">
+                                                            Mobile App</a>
+                                                    </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
+                                                    <li>
+                                                        <a class="barLink" href="/javascript/azure/">
+                                                            <img src="https://docs.microsoft.com/media/logos/logo_NET.svg" alt="">
+                                                            Web App - ASP.NET</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="barLink" href="/azure/app-service-web/app-service-web-get-started-php">
+                                                            <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="">
+                                                            Web  App - Node.js</a>
                                                     </li>
                                                 </ul></td></tr></table>
                                             </div>
