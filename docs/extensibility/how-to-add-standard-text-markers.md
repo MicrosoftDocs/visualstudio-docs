@@ -31,7 +31,7 @@ Use the following procedure to create one of the default text marker types provi
   
 ### To add a custom command to the context menu  
   
-1.  Before the **Context** menu is displayed, the environment calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.GetMarkerCommandInfo%2A> method and passes you a pointer to the text marker affected and the number of the command item in the context menu.  
+1.  Before the Context menu is displayed, the environment calls the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerClient.GetMarkerCommandInfo%2A> method and passes you a pointer to the text marker affected and the number of the command item in the context menu.  
   
      For example, the breakpoint-specific commands on the context menu include **Remove Breakpoint** through **New Breakpoint**, as displayed in the following screenshot.  
   

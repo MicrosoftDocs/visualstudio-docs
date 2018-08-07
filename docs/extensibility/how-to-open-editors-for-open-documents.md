@@ -17,7 +17,7 @@ ms.workload:
 # How to: Open editors for open documents
 Before a project opens a document window, the project first must determine whether the file is already open in the document window for another editor. The file can be either open in a project-specific editor, or one of the standard editors registered with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
-## Open a projectsSpecific editor  
+## Open a project specific editor  
  Use the following procedure to open a project-specific editor for a file that is already open.  
   
 ### To open a project-specific editor for an open file  

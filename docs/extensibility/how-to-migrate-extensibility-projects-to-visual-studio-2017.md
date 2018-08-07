@@ -12,7 +12,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Migrate extensibilitypProjects to Visual Studio 2017
+# How to: Migrate extensibility projects to Visual Studio 2017
 
 This document explains how to upgrade extensibility projects to Visual Studio 2017. In addition to describing how to update the project files, it also describes how to upgrade from extension manifest version 2 (VSIX v2) to the new version 3 VSIX manifest format (VSIX v3).
 
@@ -23,7 +23,7 @@ Make sure your installation includes the following workloads:
 * .NET desktop development
 * Visual Studio extension development
 
-## Open VSIX solution in Visual Studio 2017
+## Open VSIX Solution in Visual Studio 2017
 
 All VSIX projects will require a major version one-way upgrade to Visual Studio 2017.
 

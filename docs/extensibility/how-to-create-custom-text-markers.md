@@ -29,18 +29,18 @@ If you want to create a custom text marker to emphasize or organize code, you mu
   
 1.  Create a registry entry as follows:  
   
-     *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\<Version>\Text Editor\External Markers\\\<MarkerGUID>*  
+     **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\<Version>\Text Editor\External Markers\\\<MarkerGUID>**  
   
-     `<MarkerGUID>`is a `GUID` used to identify the marker being added  
+     *\<MarkerGUID>* is a `GUID` used to identify the marker being added  
   
      `<Version>` is the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], for example 8.0  
   
      `<PackageGUID>` is the GUID of the VSPackage implementing the automation object.  
   
     > [!NOTE]
-    >  The root path of *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\<Version>* can be overridden with an alternate root when the Visual Studio shell is initialized, for more information see, [Command-line switches](../extensibility/command-line-switches-visual-studio-sdk.md).  
+    >  The root path of **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\<Version>** can be overridden with an alternate root when the Visual Studio shell is initialized, for more information see, [Command-line switches](../extensibility/command-line-switches-visual-studio-sdk.md).  
   
-2.  Create four values under *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\<Version>\Text Editor\External Markers\\\<MarkerGUID>*  
+2.  Create four values under **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\\<Version>\Text Editor\External Markers\\\<MarkerGUID>**  
   
     -   (Default)  
   
@@ -68,7 +68,7 @@ If you want to create a custom text marker to emphasize or organize code, you mu
   
     1.  A user starts the IDE for the first time.  
   
-    2.  A user selects the **Reset Defaults** button under the **Fonts and Colors** property page in the *Environment* folder, located on the left pane of the **Options** dialog box obtained from the **Tools** menu of the IDE.  
+    2.  A user selects the **Reset Defaults** button under the **Fonts and Colors** property page in the **Environment** folder, located on the left pane of the **Options** dialog box obtained from the **Tools** menu of the IDE.  
   
 2.  Implement the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextMarkerTypeProvider.GetTextMarkerType%2A> method, specifying which `IVsPackageDefinedTextMarkerType` implementation should be returned based on the marker type GUID specified in the method call.  
   
