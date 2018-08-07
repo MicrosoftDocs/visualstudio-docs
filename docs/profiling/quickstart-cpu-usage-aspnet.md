@@ -2,7 +2,7 @@
 title: "Analyze CPU usage data (ASP.NET)"
 description: "Measure app performance in ASP.NET apps using the CPU Usage diagnostics tool"
 ms.custom: "mvc"
-ms.date: "12/05/2017"
+ms.date: "08/06/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 helpviewer_keywords: 
@@ -25,6 +25,8 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 1. In Visual Studio, choose **File** > **New Project**.
 
 1. Under **Visual C#**, choose **Web**, and then in the middle pane choose **ASP.NET Web Application (.NET Framework)**.
+
+    If you don't see the **ASP.NET Web Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 
 1. Type a name like **MyProfilingApp_MVC** and click **OK**.
 
