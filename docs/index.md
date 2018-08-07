@@ -87,23 +87,10 @@ ms.topic: hub-page
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Learn how to use Visual Studio</h3>
+                                                <h3>Download and Install</h3>
                                                 <ul class="noBullet">
-                                                    <li><a class="barLink" href="ide/visual-studio-ide.md">Overview of the development environment</a></li>
-                                                    <li><a class="barLink" href="/visualstudio/ide/quickstart-ide-orientation">Start a guided tour</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h3>Install Visual Studio</h3>
-                                                <ul class="noBullet">
-                                                    <li><a class="barLink" href="/visualstudio/install/install-visual-studio">Typical Install</a></li>
-                                                    <li><a class="barLink" href="/visualstudio/install/create-an-offline-installation-of-visual-studio">Install Visual Studio offline</a></li>
+                                                    <li><a class="barLink" href="/visualstudio/install/install-visual-studio">Download and Install</a></li>
+                                                    <li><a class="barLink" href="/visualstudio/install/create-an-offline-installation-of-visual-studio">No network connection? Install offline</a></li>
                                                     <li><a class="barLink" href="">Update Visual Studio</a></li>
                                                     <li><a class="barLink" href="">Modify Visual Studio</a></li>
                                                     <li><a class="barLink" href="">Uninstall Visual Studio</a></li>
@@ -113,7 +100,20 @@ ms.topic: hub-page
                                     </div>
                                 </div>
                             </li>
-                            <li>
+                            <li> 
+                               <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardText">
+                                                <h3>Learn how to use Visual Studio</h3>
+                                                <ul class="noBullet">
+                                                    <li><a class="barLink" href="ide/visual-studio-ide.md">Overview of the development environment</a></li>
+                                                    <li><a class="barLink" href="/visualstudio/ide/quickstart-ide-orientation">Start a guided tour</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -174,8 +174,8 @@ ms.topic: hub-page
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Get up and running with a Quickstart</h3>
-                                                <h4>Build Hello, World in your language of choice.</h4>
+                                                <h3>In a hurry? Get up and running with a Quickstart</h3>
+                                                <h4>Build "Hello, World" in the language ofj your choice.</h4>
                                                  <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
                                                 <ul class="noBullet">
                                                     <li>
