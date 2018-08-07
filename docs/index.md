@@ -77,21 +77,15 @@ ms.topic: hub-page
                         <a href="#get-started1"></a>
                         <ul id="get-started1" class="cardsL">
                             <li>
-                                <div class="container intro">
-                                    <h2 class="likeAnH1">Get started with Visual Studio</h2>
-                                    <p>Learn how to develop and deploy apps and services with quickstarts, samples, and tutorials.</p>
-                                </div>
-                            </li>
-                            <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
                                                 <h3>Download and Install</h3>
                                                 <ul class="noBullet">
-                                                    <li><a class="barLink" href="/visualstudio/install/install-visual-studio"><img data-hoverimage="https://docs.microsoft.com/media/common/i_setup.svg" src="https://docs.microsoft.com/media/common/i_setup.svg" alt="" />Download and Install</a></li>
+                                                    <li><a class="barLink" href="/visualstudio/install/install-visual-studio"><img  src="https://docs.microsoft.com/media/common/i_setup.svg" alt="" />Download and Install</a></li>
                                                     <li><a class="barLink" href="/visualstudio/install/create-an-offline-installation-of-visual-studio">No network connection? Install offline</a></li>
-                                                    <li><a class="barLink" href=""><img data-hoverimage="https://docs.microsoft.com/media/common/i_upgrade.svg" src="https://docs.microsoft.com/media/common/i_upgrade.svg" alt="" />Update Visual Studio</a></li>
+                                                    <li><a class="barLink" href=""><img src="https://docs.microsoft.com/media/common/i_upgrade.svg" alt="" />Update Visual Studio</a></li>
                                                     <li><a class="barLink" href="">Modify a Visual Studio installation</a></li>
                                                     <li><a class="barLink" href="">Uninstall Visual Studio</a></li>
                                                 </ul>
@@ -107,7 +101,7 @@ ms.topic: hub-page
                                             <div class="cardText">
                                                 <h3>Learn how to use Visual Studio</h3>
                                                 <ul class="noBullet">
-                                                    <li><a class="barLink" href="ide/visual-studio-ide.md"><img data-hoverimage="https://docs.microsoft.com/media/common/i_overview.svg" src="https://docs.microsoft.com/media/common/i_overview.svg" alt="" />Overview of the development environment</a></li>
+                                                    <li><a class="barLink" href="ide/visual-studio-ide.md"><img  src="https://docs.microsoft.com/media/common/i_overview.svg" alt="" />Overview of the development environment</a></li>
                                                     <li><a class="barLink" href="/visualstudio/ide/quickstart-ide-orientation">Start a guided tour</a></li>
                                                 </ul>
                                             </div>
@@ -219,7 +213,7 @@ ms.topic: hub-page
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Or choose an App Model to get started with a particular type of app</h3>
+                                                <h3>Or choose an App Model to get started</h3>
                                                  <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
                                                 <ul class="noBullet">
                                                     <li>
@@ -229,7 +223,7 @@ ms.topic: hub-page
                                                     </li>
                                                     <li>
                                                         <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
-                                                            <img src="https://docs.microsoft.com/media/logos/logo_C++.svg" alt="">
+                                                            <img src="https://docs.microsoft.com/media/logos/logo_CPlusPlus.svg" alt="">
                                                             C++ Console App</a>
                                                     </li>
                                                     <li>
@@ -244,7 +238,7 @@ ms.topic: hub-page
                                                     </li>
                                                     <li>
                                                         <a class="barLink" href="/java/azure/">
-                                                            <img src="https://docs.microsoft.com/media/common/i_mobile.svg" alt="">
+                                                            <img src="https://docs.microsoft.com/media/common/i_mobile-app-developement.svg" alt="">
                                                             Mobile App</a>
                                                     </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
                                                     <li>
@@ -267,11 +261,6 @@ ms.topic: hub-page
                                         </div>
                                     </div>
                                 </div>
-                            </li>
-                            <li class="bottomRightItem">
-                                <a href="https://docs.microsoft.com/azure/index#pivot=products&panel=all">
-                                    <button style="cursor: pointer;position: relative; background: #0050C5; border:none; padding:8px 16px; padding-right:30px;color: white; font-size:14px;">View all Azure Services<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 14" style="fill:white;height: 14px;position: absolute;bottom: 13px;right: 12px;width: 1em;"><path d="M7.4 7L1 .6l.6-.6 7 7-7 7-.6-.7L7.4 7z" /></svg></button>
-                                </a>
                             </li>
                         </ul>
                     </li>
