@@ -24,7 +24,7 @@ Visual Studio Tools for Unity change log.
      -   Rollback workaround for a Unity performance bug (as Unity fixed this issue).
      
 ## 1.6.0.1
- Released 2018-07-10
+ Released July 10, 2018
 
 ### Bug fixes
 
@@ -33,7 +33,7 @@ Visual Studio Tools for Unity change log.
      -   Fixed Shader code coloration support.
      
 ## 1.6.0.0
- Released 2018-06-26
+ Released June 26, 2018
 
 ### Bug fixes
 
@@ -43,12 +43,12 @@ Visual Studio Tools for Unity change log.
 
 -   **Project Generation:**
 
-     -   Transient workaround for a Unity performance bug : cache MonoIslands when generating projects.
+     -   Transient workaround for a Unity performance bug: cache MonoIslands when generating projects.
      
      -   Do not convert portable pdb to mdb anymore when using the new Unity runtime.
      
 ## 1.5.0.2
- Released 2018-04-18
+ Released April 18, 2018
  
 ### New Features
 
@@ -59,7 +59,7 @@ Visual Studio Tools for Unity change log.
     -   Added support for toggling comments in Shader files.
 
 ## 1.5.0.1
- Released 2018-03-28
+ Released March 28, 2018
  
 ### New Features
 
@@ -68,7 +68,7 @@ Visual Studio Tools for Unity change log.
     -   Added support for extra templates in the Unity Project Explorer.
 
 ## 1.5.0.0
- Released 2018-03-21
+ Released March 21, 2018
  
 ### New Features
 
@@ -77,7 +77,7 @@ Visual Studio Tools for Unity change log.
     -   Added support for detecting and attaching to Android players connected through USB.
 
 ## 1.4.0.3
- Released 2018-03-05
+ Released March 5, 2018
  
 ### New Features
 
@@ -90,7 +90,7 @@ Visual Studio Tools for Unity change log.
     -   Added option panel for dedicated settings.
 
 ## 1.4.0.2
- Released 2018-01-24
+ Released January 24, 2018
  
 ### Bug fixes
 
@@ -105,7 +105,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed notifications when detecting a new player.
 
 ## 1.4.0.1
- Released 2018-01-23
+ Released January 23, 2018
  
 ### Bug fixes
 
@@ -114,7 +114,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed Expand/Collapse folders on double-click
 
 ## 1.4.0.0
- Released 2017-12-13
+ Released December 13, 2017
  
 ### New Features
 
@@ -129,7 +129,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed automatic pdb to mdb debug symbol conversion.
 
 ## 1.3.0.1
- Released 2017-12-12
+ Released December 12, 2017
  
 ### Bug fixes
 
@@ -142,7 +142,7 @@ Visual Studio Tools for Unity change log.
     -   Refresh roslyn context before inserting method.
 
 ## 1.3.0.0
- Released 2017-11-20
+ Released November 20, 2017
  
 ### New Features
 
@@ -153,7 +153,7 @@ Visual Studio Tools for Unity change log.
     -   Added support for the new completion API in VS for Mac 7.4.
 
 ## 1.2.0.0
- Released 2017-10-23
+ Released October 23, 2017
  
 ### New Features
 
@@ -170,7 +170,7 @@ Visual Studio Tools for Unity change log.
     -   Do not force the AllowAttachedDebuggingOfEditor Unity flag as the default is now 'true'.
 
 ## 1.1.0.3
- Released 2017-10-23
+ Released October 23, 2017
  
 ### New Features
 
@@ -179,7 +179,7 @@ Visual Studio Tools for Unity change log.
     -   Added support for .NET 4.6 profile.
 
 ## 1.1.0.2
- Released 2017-08-08
+ Released August 8, 2017
  
 ### New Features
 
@@ -192,7 +192,7 @@ Visual Studio Tools for Unity change log.
     -   Always enable unsafe compilation switch when Unity 5.6 is used.
 
 ## 1.1.0.1
- Released 2017-07-20
+ Released July 20, 2017
  
 ### New Features
 
@@ -201,7 +201,7 @@ Visual Studio Tools for Unity change log.
     -   Added support for localized resources.
 
 ## 1.1.0.0
- Released 2017-07-12
+ Released July 12, 2017
  
 ### New Features
 
@@ -224,7 +224,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed shader error message when compiling.
 
 ## 1.0.0.1
- Released 2017-05-04
+ Released May 4, 2017
  
 ### Bug fixes
 
@@ -233,4 +233,4 @@ Visual Studio Tools for Unity change log.
     -   Fixed active document tracking with hybrid and regular projects.
 
 ## 1.0.0.0
- Released 2017-05-03
+ Released May 3, 2017
