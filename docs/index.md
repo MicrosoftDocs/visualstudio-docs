@@ -87,9 +87,9 @@ ms.topic: hub-page
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Deploy infrastructure</h3>
+                                                <h3>Learn how to use Visual Studio</h3>
                                                 <ul class="noBullet">
-                                                    <li><a class="barLink" href="/azure/virtual-machines/linux/">Linux virtual machines</a></li>
+                                                    <li><a class="barLink" href="ide/visual-studio-ide">Overview</a></li>
                                                     <li><a class="barLink" href="/azure/virtual-machines/windows/">Windows virtual machines</a></li>
                                                 </ul>
                                             </div>
@@ -100,7 +100,7 @@ ms.topic: hub-page
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Secure and manage resources</h3>
+                                                <h3>Install Visual Studio</h3>
                                                 <ul class="noBullet">
                                                     <li><a class="barLink" href="/azure/security-center/">Azure Security Center</a></li>
                                                     <li><a class="barLink" href="/azure/monitoring-and-diagnostics/">Azure Monitor</a></li>
@@ -133,7 +133,7 @@ ms.topic: hub-page
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Develop apps</h3>
+                                                <h3>Tutorials</h3>
                                                 <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
                                                 <ul class="noBullet">
                                                     <li>
@@ -185,8 +185,7 @@ ms.topic: hub-page
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Manage data and AI</h3>
-                                                <h4>Relational Databases</h4>
+                                                <h3>Get up and running with a Quickstart</h3>
                                                 <ul class="noBullet">
                                                     <li><a class="barLink" href="/azure/sql-database/">SQL database as a service</a></li>
                                                     <li><a class="barLink" href="/azure/sql-data-warehouse/">SQL Data Warehouse as a service</a></li>
@@ -211,89 +210,6 @@ ms.topic: hub-page
                                     </div>
                                 </div>
                             </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h3>Command-line tools</h3>
-                                                <ul class="noBullet">
-                                                    <li>
-                                                        <a class="barLink" href="/cli/azure">
-                                                            <img src="media/index/azure_dev-7.svg" alt="">
-                                                            Azure CLI
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="barLink" href="/powershell/azure/overview">
-                                                            <img src="media/index/azure_dev-8.svg" alt="">
-                                                            Azure PowerShell
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h3>DevOps</h3>
-                                                <ul class="noBullet">
-                                                    <li>
-                                                        <a class="barLink" href="/azure/ansible/">
-                                                            <img src="media/index/ansible.svg" alt="">
-                                                            Ansible
-                                                        </a>
-                                                    </li>
-													<li>
-                                                        <a class="barLink" href="/azure/chef">
-                                                            <img src="chef/media/Chef_Regular.svg" alt="">
-                                                            Chef
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="barLink" href="/azure/jenkins">
-                                                            <img src="https://docs.microsoft.com/media/logos/logo_jenkins.svg" alt="">
-                                                            Jenkins
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="barLink" href="/azure/terraform">
-                                                            <img src="https://docs.microsoft.com/media/logos/logo_terraform.svg" alt="">
-                                                            Terraform
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="barLink" href="https://docs.microsoft.com/vsts/deploy-azure/">
-                                                            <img src="https://docs.microsoft.com/media/logos/logo_vs-team-services.svg" alt="">
-                                                            Visual Studio Team Services
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="barLink" href="https://docs.microsoft.com/azure/devops">
-                                                            <img src="https://docs.microsoft.com/media/logos/logo_vs-team-services.svg" alt="">
-                                                            Learn DevOps with Azure
-                                                        </a>
-                                                    </li>
-													<li>
-                                                        <a class="barLink" href="/azure/devops-project/">
-                                                            <img src="https://docs.microsoft.com/media/logos/logo_vs-team-services.svg" alt="">
-                                                            Azure DevOps Project
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
                             <li class="bottomRightItem">
                                 <a href="https://docs.microsoft.com/azure/index#pivot=products&panel=all">
                                     <button style="cursor: pointer;position: relative; background: #0050C5; border:none; padding:8px 16px; padding-right:30px;color: white; font-size:14px;">View all Azure Services<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 14" style="fill:white;height: 14px;position: absolute;bottom: 13px;right: 12px;width: 1em;"><path d="M7.4 7L1 .6l.6-.6 7 7-7 7-.6-.7L7.4 7z" /></svg></button>
