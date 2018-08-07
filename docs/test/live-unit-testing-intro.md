@@ -36,6 +36,6 @@ To learn more about Live Unit Testing:
    > [!VIDEO https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105/player]
 
 ## Related resources
-[Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
-[Unit test your code](unit-test-your-code.md)
+- [Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
+- [Unit test your code](unit-test-your-code.md)
 
