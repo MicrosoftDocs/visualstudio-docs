@@ -15,7 +15,7 @@ ms.workload:
 Visual Studio Tools for Unity change log.
 
 ## 1.6.0.2
- Released 2018-07-24
+ Released July 24, 2018
 
 ### Bug fixes
 
