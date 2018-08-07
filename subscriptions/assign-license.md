@@ -61,7 +61,7 @@ Here's how to assign a Visual Studio subscription license to a new user so that 
     > [!div class="mx-imgBorder"]
     > ![Download the Excel template to upload multiple subscribers](media\download-template-upload-subscribers.png)
 
-    > ![NOTE]
+    > [!NOTE]
     > Always download the latest version of this template. If you use an older version, your bulk upload may fail.
 
 1. In the Excel spreadsheet, fill out the fields with the information for the individuals that you want to assign subscriptions to. (*Reference* is an optional field.) Save the file locally after you're done.
