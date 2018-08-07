@@ -89,8 +89,8 @@ ms.topic: hub-page
                                             <div class="cardText">
                                                 <h3>Learn how to use Visual Studio</h3>
                                                 <ul class="noBullet">
-                                                    <li><a class="barLink" href="ide/visual-studio-ide">Overview</a></li>
-                                                    <li><a class="barLink" href="/azure/virtual-machines/windows/">Windows virtual machines</a></li>
+                                                    <li><a class="barLink" href="ide/visual-studio-ide.md">Overview of the development environment</a></li>
+                                                    <li><a class="barLink" href="/visualstudio/ide/quickstart-ide-orientation">Start a guided tour</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -102,26 +102,11 @@ ms.topic: hub-page
                                             <div class="cardText">
                                                 <h3>Install Visual Studio</h3>
                                                 <ul class="noBullet">
-                                                    <li><a class="barLink" href="/azure/security-center/">Azure Security Center</a></li>
-                                                    <li><a class="barLink" href="/azure/monitoring-and-diagnostics/">Azure Monitor</a></li>
-                                                    <li><a class="barLink" href="/azure/application-insights/">Azure Application Insights</a></li>
-                                                    <li><a class="barLink" href="/azure/cost-management/">Azure Cost Management</a></li>
-                                                    <li><a class="barLink" href="/azure/backup/">Azure Backup</a></li>
-                                                    <li><a class="barLink" href="/azure/site-recovery/">Azure Site Recovery</a></li>
-                                                    <li><a class="barLink" href="/azure/migrate/">Azure Migrate</a></li>
-                                                    <li><a class="barLink" href="/azure/azure-policy/">Azure Policy</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h3>Hybrid</h3>
-                                                <ul class="noBullet">
-                                                    <li><a class="barLink" href="/azure/azure-stack/">Azure Stack</a></li>
+                                                    <li><a class="barLink" href="/visualstudio/install/install-visual-studio">Typical Install</a></li>
+                                                    <li><a class="barLink" href="/visualstudio/install/create-an-offline-installation-of-visual-studio">Install Visual Studio offline</a></li>
+                                                    <li><a class="barLink" href="">Update Visual Studio</a></li>
+                                                    <li><a class="barLink" href="">Modify Visual Studio</a></li>
+                                                    <li><a class="barLink" href="">Uninstall Visual Studio</a></li>
                                                 </ul>
                                             </div>
                                         </div>
