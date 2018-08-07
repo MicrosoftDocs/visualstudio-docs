@@ -182,8 +182,8 @@ You can also use the following attributes to exclude individual methods from Liv
 
 ## See also
 
-[Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)  
-[Live Unit Testing blog](https://go.microsoft.com/fwlink/?linkid=842514)  
-[Live Unit Testing FAQ](live-unit-testing-faq.md)  
-[Channel 9 video: Live Unit Testing in Visual Studio 2017](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105)  
+- [Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
+- [Live Unit Testing blog](https://go.microsoft.com/fwlink/?linkid=842514)
+- [Live Unit Testing FAQ](live-unit-testing-faq.md)
+- [Channel 9 video: Live Unit Testing in Visual Studio 2017](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105)
 

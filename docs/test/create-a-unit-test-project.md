@@ -41,11 +41,11 @@ Unit tests often mirror the structure of the code under test. For example, a uni
 
 **Writing unit tests**
 
--   [Unit test your code](../test/unit-test-your-code.md)
+- [Unit test your code](../test/unit-test-your-code.md)
 
--   [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
+- [Writing unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
 
--   [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
+- [Use the MSTest framework in unit tests](using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md)
 
 **Running unit tests**
 
