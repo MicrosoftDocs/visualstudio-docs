@@ -43,7 +43,7 @@ ms.workload:
 
 - If you're sure that the ASP.NET MVC controller action has no harmful side effects.
 
-- If you're sure the application is validating the antiforgery token through a different way.
+- If you're sure that the application is validating the antiforgery token through a different way.
 
 ## Pseudo-code Examples
 
