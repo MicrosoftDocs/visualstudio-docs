@@ -116,7 +116,7 @@ featureFlags:
                                                 <div class="cardText">
                                                     <h3>Visual Studio</h3>
                                                     <ul class="noBullet">
-                                                        <li><a class="barLink" href=""><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker Tools in Visual Studio</a></li>
+                                                        <li><a class="barLink" href="https://docs.microsoft.com/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker"><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker Tools in Visual Studio</a></li>
                                                         <li><a class="barLink" href="https://docs.microsoft.com/visualstudio/install/build-tools-container"><img src="https://docs.microsoft.com/media/common/i_build.svg" alt="">Running build tools in a container</a></li>
                                                         <li><a class="barLink" href="https://docs.microsoft.com/visualstudio/kubernetes/"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Visual Studio Tools for Kubernetes</a></li>
                                                     </ul>
