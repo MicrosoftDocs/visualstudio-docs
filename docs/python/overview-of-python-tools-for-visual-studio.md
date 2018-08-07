@@ -79,7 +79,7 @@ Visual Studio helps you manage the complexity of a project as it grows over time
 
 Project and item templates automate the process of setting up different types of projects and files, saving you valuable time and relieving you from managing intricate and error-prone details. Visual Studio provides templates for web, Azure, data science, console, and other types of projects, along with templates for files like Python classes, unit tests, Azure web configuration, HTML, and even Django apps.
 
-[![Python project and item templates in Visual Studio](media/project-and-item-templates.png)](media/project-and-item-templates.png)
+[![Python project and item templates in Visual Studio](media/project-and-item-templates.png)](media/project-and-item-templates.png#lightbox)
 
 For more information:
 
@@ -109,7 +109,7 @@ For more information:
 
 Profiling explores how time is being spent within your application. Visual Studio supports profiling with CPython-based interpreters and includes the ability to compare performance between different profiling runs.
 
-[![Visual Studio profiler results for a Python project](media/profiling-results.png)](media/profiling-results.png)
+[![Visual Studio profiler results for a Python project](media/profiling-results.png)](media/profiling-results.png#lightbox)
 
 For more information:
 
