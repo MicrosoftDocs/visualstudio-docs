@@ -12,24 +12,24 @@ ms.assetid: 553d5e07-3e19-4aba-b490-6c7dd05fd82e
 manager: "douge"
 ---
 # MenuCommands Vs. OleMenuCommands
-You can create menu commands by deriving either from <xref:System.ComponentModel.Design.MenuCommand> or from <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object, and impementling the appropriate event handlers. In the majority of cases you can use <xref:System.ComponentModel.Design.MenuCommand>, as the VSPackage project template does, but occasionally you may need to use <xref:Microsoft.VisualStudio.Shell.OleMenuCommand>.  
+You can create menu commands by deriving either from <xref:System.ComponentModel.Design.MenuCommand> or from <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object, and implementing the appropriate event handlers. In the majority of cases you can use <xref:System.ComponentModel.Design.MenuCommand>, as the VSPackage project template does, but occasionally you may need to use <xref:Microsoft.VisualStudio.Shell.OleMenuCommand>.  
   
- The commands that a VSPackage makes available to the IDE must be visible and enabled before a user can use them. When commands are created in a .vsct file by using the Visual Studio Package project template, they are visible and enabled by default. Setting some command flags, such as `DynamicItemStart`, can change the default behavior. The visibility, enabled status, and other properties of a command can also be changed in code at run time by accessing the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object that is associated with the command.  
+ The commands that a VSPackage makes available to the IDE must be visible and enabled before a user can use them. When commands are created in a *.vsct* file by using the Visual Studio Package project template, they are visible and enabled by default. Setting some command flags, such as `DynamicItemStart`, can change the default behavior. The visibility, enabled status, and other properties of a command can also be changed in code at run time by accessing the <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object that is associated with the command.  
   
 ## Prerequisites  
  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
-## Template Locations for the Visual Studio Package Template  
- You can find the Visual Studio Package template in the **New Project** dialog under **Visual Basic / Extensibility**, **C# / Extensibility**, or **Other Project Types / Extensibility**.  
+## Template locations for the Visual Studio package template  
+ You can find the Visual Studio Package template in the **New Project** dialog under **Visual Basic** > **Extensibility** > **C#** > **Extensibility**, or **Other Project Types** > **Extensibility**.  
   
-## Creating a Command  
- All commands, command groups, menus, toolbars, and tool windows are defined in the .vsct file. For more information, see [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).  
+## Create a command  
+ All commands, command groups, menus, toolbars, and tool windows are defined in the *.vsct* file. For more information, see [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).  
   
- If you are creating a VSPackage by using the package template, select **Menu Command** to create a .vsct file and define a default menu command. For more information, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md).  
+ If you are creating a VSPackage by using the package template, select **Menu Command** to create a *.vsct* file and define a default menu command. For more information, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).  
   
-#### To add a command to the IDE  
+### To add a command to the IDE  
   
-1.  Open the .vsct file.  
+1.  Open the *.vsct* file.  
   
 2.  In the `Symbols` section, find the [GuidSymbol](../extensibility/guidsymbol-element.md) element that contains the groups and commands.  
   
@@ -69,11 +69,11 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
          Omitting the `priority` attribute sets its value to 0.  
   
-    3.  Set the `type` attribute. In most cases, its value will be `"Button"`. For descriptions of other valid button types, see [Button Element](../extensibility/button-element.md).  
+    3.  Set the `type` attribute. In most cases, its value will be `"Button"`. For descriptions of other valid button types, see [Button element](../extensibility/button-element.md).  
   
 5.  In the button definition, create a [Strings](../extensibility/strings-element.md) element that contains a [ButtonText](../extensibility/buttontext-element.md) element to contain the name of the menu as it appears in the IDE, and a [CommandName](../extensibility/commandname-element.md) element to contain the name of the command that is used to access the menu in the **Command** window.  
   
-     If the button text string includes the '&' character, the user can open the menu by pressing ALT plus the character that immediately follows the '&'.  
+     If the button text string includes the '&' character, the user can open the menu by pressing **Alt** plus the character that immediately follows the '&'.  
   
      Adding a `Tooltip` element will cause the contained text to appear when a user hovers the pointer over the button.  
   
@@ -114,11 +114,11 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
          Creating multiple command placements that have the same GUID:ID and have different parents causes a menu to appear in multiple locations. For more information, see [CommandPlacements](../extensibility/commandplacements-element.md) element.  
   
-     For more information about command groups and parenting, see [Creating Reusable Groups of Buttons](../extensibility/creating-reusable-groups-of-buttons.md).  
+     For more information about command groups and parenting, see [Create reusable groups of buttons](../extensibility/creating-reusable-groups-of-buttons.md).  
   
  At this point, the command will be visible in the IDE, but will have no functionality. If the command was created by the package template, by default it will have a click handler that displays a message.  
   
-## Handling the New Command  
+## Handle the new command  
  Most commands in managed code can be handled by the Managed Package Framework (MPF) by associating the command with a <xref:System.ComponentModel.Design.MenuCommand> object or <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> object and implementing its event handlers.  
   
  For code that uses the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface directly for command handling, you must implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface and its methods. The two most important methods are <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A>.  
@@ -166,7 +166,7 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
 6.  Implement the method that handles the command.  
   
-#### To implement QueryStatus  
+### To implement QueryStatus  
   
 1.  The QueryStatus event occurs before a command is displayed. This enables properties of that command to be set in the event handler before it reaches the user. Only commands that are added as <xref:Microsoft.VisualStudio.Shell.OleMenuCommand> objects can access this method.  
   
@@ -192,14 +192,14 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
  The MPF automatically handles the case of unsupported or unknown groups. Unless a command has been added to the <xref:Microsoft.VisualStudio.Shell.OleMenuCommandService> by using the <xref:System.ComponentModel.Design.IMenuCommandService.AddCommand%2A> method, the command is not supported.  
   
-### Handling Commands By Using the IOleCommandTarget Interface  
+### Handle commands by using the IOleCommandTarget interface  
  For code that uses the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface directly, the VSPackage must implement both the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> methods of the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface. If the VSPackage implements a project hierarchy, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.QueryStatusCommand%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy.ExecCommand%2A> methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> interface should be implemented instead.  
   
  Both the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> methods are designed to receive a single command set `GUID` and an array of command IDs as input. We recommend that VSPackages fully support this concept of multiple IDs in one call. However, as long as a VSPackage is not called from other VSPackages, you can assume that the command array contains only one command ID because the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> and <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> methods are executed in a well-defined order. For more information about routing, see [Command Routing in VSPackages](../extensibility/internals/command-routing-in-vspackages.md).  
   
  For code that uses the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface directly for command handling, you must implement the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method in the VSPackage as follows to handle commands.  
   
-##### To implement the QueryStatus method  
+#### To implement the QueryStatus method  
   
 1.  Return <xref:Microsoft.VisualStudio.VSConstants.S_OK> for valid commands.  
   
@@ -241,14 +241,14 @@ You can create menu commands by deriving either from <xref:System.ComponentModel
   
  The VSPackage implementation of the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.Exec%2A> method must also return specific error codes, depending on whether the command is supported and whether the command was handled successfully.  
   
-##### To implement the Exec method  
+#### To implement the Exec method  
   
 -   If the command `GUID` is unknown, return `OLECMDERR_E_UNKNOWNGROUP`.  
   
 -   If the `GUID` is known but the command ID is unknown, return `OLECMDERR_E_NOTSUPPORTED`.  
   
--   If the `GUID` and command ID match the GUID:ID pair that is used by the command in the .vsct file, execute the code that is associated with the command and return <xref:Microsoft.VisualStudio.VSConstants.S_OK>.  
+-   If the `GUID` and command ID match the GUID:ID pair that is used by the command in the *.vsct* file, execute the code that is associated with the command and return <xref:Microsoft.VisualStudio.VSConstants.S_OK>.  
   
-## See Also  
- [VSCT XML Schema Reference](../extensibility/vsct-xml-schema-reference.md)   
- [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)
+## See also  
+ [VSCT XML schema reference](../extensibility/vsct-xml-schema-reference.md)   
+ [Extend menus and commands](../extensibility/extending-menus-and-commands.md)
