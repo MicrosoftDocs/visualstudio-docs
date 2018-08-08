@@ -15,10 +15,10 @@ At present, the **Blank Django Web Project template** uses the latest Django 1.x
 
 1. In Visual Studio, replace the Django 1.x files in the project with the Django 2.x files as follows:
 
-  1. In **Solution Explorer**, delete **manage.py** and the Django app folder.
-  1. Right-click the project, select the **Add** > **Existing Item** command, navigate to and select the **manage.py** file created in Step 4, and select **OK**. Visual Studio then copies that file into the project.
-  1. Right-click the project again, select the **Add** > **Existing Folder** command, navigate to and select the app folder created in Step 4, and select **OK**. Visual Studio then copies that entire folder and its four files into the project.
-  1. Right-click **manage.py** and select **Set as Startup File**.
+    1. In **Solution Explorer**, delete **manage.py** and the Django app folder.
+    1. Right-click the project, select the **Add** > **Existing Item** command, navigate to and select the **manage.py** file created in Step 4, and select **OK**. Visual Studio then copies that file into the project.
+    1. Right-click the project again, select the **Add** > **Existing Folder** command, navigate to and select the app folder created in Step 4, and select **OK**. Visual Studio then copies that entire folder and its four files into the project.
+    1. Right-click **manage.py** and select **Set as Startup File**.
 
   > [!Important]
   > The app name shown in the Visual Studio project must match the `<project_name>` used with the `django-admin` utility because the utility uses that name as a namespace inside the Python code files.
