@@ -20,7 +20,7 @@ You can register your tool windows using <xref:Microsoft.VisualStudio.Shell.Prov
   
 ## Example  
   
-```csharp  
+```cshrp  
   
 [ProvideToolWindow(typeof(PersistedWindowPane), Style = MsVsShell.VsDockStyle.Tabbed, Window = "3ae79031-e1bc-11d0-8f78-00a0c9110057")]
 [ProvideToolWindow(typeof(DynamicWindowPane), PositionX=250, PositionY=250, Width=160, Height=180, Transient=true)]
