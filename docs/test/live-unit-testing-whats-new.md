@@ -59,6 +59,6 @@ In addition to these major additions, Live Unit Testing includes the following e
    - For MSTest: `[TestCategory("SkipWhenLiveUnitTesting")]`
 
 ## See also
-[Introducing Live Unit Testing](live-unit-testing-intro.md)   
-[Live Unit Testing with Visual Studio 2017](live-unit-testing.md)
+- [Introducing Live Unit Testing](live-unit-testing-intro.md)   
+- [Live Unit Testing with Visual Studio 2017](live-unit-testing.md)
 

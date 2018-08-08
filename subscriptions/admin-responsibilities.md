@@ -60,6 +60,7 @@ External contractors may bring licenses to engage with your Visual Studio-licens
 
 ## Track user assignment and process orders
 Visual Studio subscriptions administrators are expected to track Visual Studio usage and process orders for any increases in usage on the schedule outlined in their Volume Licensing agreement or Microsoft Products and Services Agreement. The new Visual Studio Subscriptions Administration portal has made this simple with a helpful tracker showing your available and used licenses.
+
 ### High water mark of usage
 **Your company's obligation to purchase Visual Studio subscriptions takes effect immediately when:**
 - A license is assigned to a user.
