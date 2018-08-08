@@ -54,14 +54,14 @@ The Visual Studio subscriptions portal brings together all your Visual Studio su
 
 ### Which subscription am I using?
 On the Benefits page, the subscription in use will be prominently displayed in the blue banner.  It's also displayed in the upper-right of the page.
-
-   ![The active subscription](_img\manage-vs-subscriptions\current-subscription-cropped.png)
+> [!div class="mx-imgBorder"]
+> ![The active subscription](_img\manage-vs-subscriptions\current-subscription-cropped.png)
 
 ### To switch between subscriptions, you can:
 - Click on the drop-down in the top right and choose the subscription from the list
 - Click on the Subscriptions tab and then click on the desired subscription
-
-   ![Switching subscriptions](_img\manage-vs-subscriptions\change-subscription-resized.png)
+> [!div class="mx-imgBorder"]
+> ![Switching subscriptions](_img\manage-vs-subscriptions\change-subscription-resized.png)
 
 ### If your subscription is not visible...
 - It may be expired.  Only active subscriptions are displayed in the Subscriber Portal.
@@ -98,7 +98,8 @@ You can easily change the contact information and preferences in your profile.
 3.	On the **About** tab, you can change your name, email, country/region, profile picture and contact preferences.  On the **Preferences** tab, you can select your preferred language, date and time patterns, time zone, and user interface theme.  
 4.	When you’ve finalized your changes, click **Save**. 
 5.  Click your browser's **back** button to return to the Benefits page. 
-    ![Editing Profile Information](_img\manage-vs-subscriptions\edit-profile-resized.png)
+    > [!div class="mx-imgBorder"]    
+    > ![Editing Profile Information](_img\manage-vs-subscriptions\edit-profile-resized.png)
 
 
 ### Linking my subscription to existing VSTS or Azure subscriptions
@@ -111,7 +112,8 @@ To add an alternate account:
 2. Click on the **Subscriptions** tab.
 3. Under **Related Links**, choose **Add alternate account**.
 4. Enter your work/school account email address and click **Add**. 
-    ![Alternate Account](_img\manage-vs-subscriptions\alternate-account-resized.png)
+    > [!div class="mx-imgBorder"]
+    > ![Alternate Account](_img\manage-vs-subscriptions\alternate-account-resized.png)
 
 Once you have added an alternate account, you can update or remove it at any time by clicking the **Subscriptions** tab and choosing the appropriate option in the **Related Links** section.  
 

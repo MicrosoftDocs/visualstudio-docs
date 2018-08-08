@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# SccEnumChangedFiles Function
+# SccEnumChangedFiles function
 Given a list of local files, this function determines which files are different from the corresponding versions in the source code control database.  
   
 ## Syntax  
@@ -31,7 +31,7 @@ SCCRTN SccEnumChangedFiles(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  pContext  
  [in] The source control plug-in context pointer.  
   
@@ -47,7 +47,7 @@ SCCRTN SccEnumChangedFiles(
  plIsFileDifferent  
  [in, out] Array of values indicating the difference status of each file (array must have at least `cFiles` entries). Nonzero means that the file is different.  
   
-## Return Value  
+## Return value  
  The source control plug-in implementation of this function is expected to return one of the following values:  
   
 |Value|Description|  
@@ -55,5 +55,5 @@ SCCRTN SccEnumChangedFiles(
 |SCC_OK|Operation completed successfully.|  
 |SCC_UNSPECIFIEDERROR|Generic error.|  
   
-## See Also  
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
+## See also  
+ [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)

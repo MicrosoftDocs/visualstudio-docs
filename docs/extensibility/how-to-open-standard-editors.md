@@ -15,12 +15,12 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Open Standard Editors
+# How to: Open standard editors
 When you open a standard editor, you let the IDE determine a standard editor for a designated file type, instead of specifying a project-specific editor for the file.  
   
  Complete the following procedure to implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.OpenItem%2A> method. This will open a project file in a standard editor.  
   
-### To implement the OpenItem method with a standard editor  
+## To implement the OpenItem method with a standard editor  
   
 1.  Call <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable> (`RDT_EditLock`) to determine whether the document data object file is already open.  
   
@@ -46,9 +46,9 @@ When you open a standard editor, you let the IDE determine a standard editor for
   
      If the document view or document view object was successfully sited in a window frame, the object is initialized with its data by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData2.LoadDocData%2A>.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider>   
- [Opening and Saving Project Items](../extensibility/internals/opening-and-saving-project-items.md)   
- [How to: Open Project-Specific Editors](../extensibility/how-to-open-project-specific-editors.md)   
- [How to: Open Editors for Open Documents](../extensibility/how-to-open-editors-for-open-documents.md)   
- [Displaying Files By Using the Open File Command](../extensibility/internals/displaying-files-by-using-the-open-file-command.md)
+ [Open and save project items](../extensibility/internals/opening-and-saving-project-items.md)   
+ [How to: Open project-specific editors](../extensibility/how-to-open-project-specific-editors.md)   
+ [How to: Open editors for open documents](../extensibility/how-to-open-editors-for-open-documents.md)   
+ [Display files by using the Open File command](../extensibility/internals/displaying-files-by-using-the-open-file-command.md)
