@@ -20,10 +20,10 @@ ms.workload:
 |Breaking Change|Non Breaking|
 
 ## Cause
- An ASP.NET MVC controller action method is not marked with [ValidateAntiforgeryTokenAttribute](/previous-versions/aspnet/web-frameworks/dd492108%28v%3dvs.118%29), or an attribute specifying the HTTP verb, such as [HttpGetAttribute](/previous-versions/aspnet/web-frameworks/ee470993%28v%3dvs.118%29) or [AcceptVerbsAttribute](/previous-versions/aspnet/web-frameworks/dd470553%28v%3dvs.118%29).  
+ An ASP.NET MVC controller action method isn't marked with [ValidateAntiforgeryTokenAttribute](/previous-versions/aspnet/web-frameworks/dd492108%28v%3dvs.118%29), or an attribute specifying the HTTP verb, such as [HttpGetAttribute](/previous-versions/aspnet/web-frameworks/ee470993%28v%3dvs.118%29) or [AcceptVerbsAttribute](/previous-versions/aspnet/web-frameworks/dd470553%28v%3dvs.118%29).  
 
 ## Rule Description
- When designing an ASP.NET MVC controller, be mindful of cross-site request forgery attacks.  A cross-site request forgery attack can send malicious requests from an authenticated user to your ASP.NET MVC controller.  See [XSRF/CSRF Prevention in ASP.NET MVC and Web Pages](/aspnet/mvc/overview/security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages) for more details.
+ When designing an ASP.NET MVC controller, be mindful of cross-site request forgery attacks.  A cross-site request forgery attack can send malicious requests from an authenticated user to your ASP.NET MVC controller.  For more information, see [XSRF/CSRF Prevention in ASP.NET MVC and Web Pages](/aspnet/mvc/overview/security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages).
  
  This rule checks that ASP.NET MVC controller action methods have either:
 
@@ -33,17 +33,17 @@ ms.workload:
 
 ## How to Fix Violations
 
-- For ASP.NET MVC controller actions that handle HTTP GET requests and do *not* have potentially harmful side effects, add an [HttpGetAttribute](/previous-versions/aspnet/web-frameworks/ee470993%28v%3dvs.118%29) to the method.
+- For ASP.NET MVC controller actions that handle HTTP GET requests and *don't* have potentially harmful side effects, add an [HttpGetAttribute](/previous-versions/aspnet/web-frameworks/ee470993%28v%3dvs.118%29) to the method.
 
-    - If you have an ASP.NET MVC controller action that handles HTTP GET requests and *does* have potentially harmful side effects, such as modifying sensitive data, then your application is vulnerable to cross-site request forgery attacks.  You will need to redesign your application so that only HTTP POST, PUT, or DELETE requests can perform sensitive operations.
+    - If you have an ASP.NET MVC controller action that handles HTTP GET requests and *does* have potentially harmful side effects such as modifying sensitive data, then your application is vulnerable to cross-site request forgery attacks.  You'll need to redesign your application so that only HTTP POST, PUT, or DELETE requests do sensitive operations.
 
-- For ASP.NET MVC controller actions that handle HTTP POST, PUT, and/or DELETE requests, add [ValidateAntiforgeryTokenAttribute](/previous-versions/aspnet/web-frameworks/dd492108%28v%3dvs.118%29) and attribute(s) specifying the allowed HTTP verbs ([AcceptVerbsAttribute](/previous-versions/aspnet/web-frameworks/dd470553%28v%3dvs.118%29), [HttpPostAttribute](/previous-versions/aspnet/web-frameworks/ee264023%28v%3dvs.118%29), [HttpPutAttribute](/previous-versions/aspnet/web-frameworks/ee470909%28v%3dvs.118%29), and/or [HttpDeleteAttribute](/previous-versions/aspnet/web-frameworks/ee470917%28v%3dvs.118%29)).  Additionally, you need to call [HtmlHelper.AntiForgeryToken()](/previous-versions/aspnet/web-frameworks/dd504812%28v%3dvs.118%29) from your MVC view or Razor web page (see [Examining the Edit Methods and Edit View](/aspnet/mvc/overview/getting-started/introduction/examining-the-edit-methods-and-edit-view) for an example).
+- For ASP.NET MVC controller actions that handle HTTP POST, PUT, or DELETE requests, add [ValidateAntiforgeryTokenAttribute](/previous-versions/aspnet/web-frameworks/dd492108%28v%3dvs.118%29) and attribute(s) specifying the allowed HTTP verbs ([AcceptVerbsAttribute](/previous-versions/aspnet/web-frameworks/dd470553%28v%3dvs.118%29), [HttpPostAttribute](/previous-versions/aspnet/web-frameworks/ee264023%28v%3dvs.118%29), [HttpPutAttribute](/previous-versions/aspnet/web-frameworks/ee470909%28v%3dvs.118%29), or [HttpDeleteAttribute](/previous-versions/aspnet/web-frameworks/ee470917%28v%3dvs.118%29)).  Additionally, you need to call [HtmlHelper.AntiForgeryToken()](/previous-versions/aspnet/web-frameworks/dd504812%28v%3dvs.118%29) from your MVC view or Razor web page (see [Examining the Edit Methods and Edit View](/aspnet/mvc/overview/getting-started/introduction/examining-the-edit-methods-and-edit-view) for an example).
 
 ## When to Suppress Warnings
 
-- If you're sure that the ASP.NET MVC controller action has no harmful side effects.
+- It is safe to suppress a warning from this rule if the ASP.NET MVC controller action has no harmful side effects.
 
-- If you're sure that the application is validating the antiforgery token through a different way.
+- It is safe to suppress a warning from this rule if the application is validating the antiforgery token through a different way.
 
 ## Pseudo-code Examples
 
