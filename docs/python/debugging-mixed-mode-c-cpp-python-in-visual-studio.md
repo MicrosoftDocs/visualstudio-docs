@@ -72,7 +72,7 @@ Using this method, be aware that you can't debug the *py.exe* launcher itself, b
 
 For all previous versions of Visual Studio, direct mixed-mode debugging is enabled only when launching a Python project in Visual Studio because C/C++ projects use only the native debugger. You can, however, attach the debugger separately:
 
-1. Start the C++ project without debugging (**Debug** > **Start without debugging** or **Ctrl**+**F5**).
+1. Start the C++ project without debugging (**Debug** > **Start without Debugging** or **Ctrl**+**F5**).
 1. Select **Debug** > **Attach to Process**. In the dialog that appears, select the appropriate process, then use the **Select** button to open the **Select Code Type** dialog in which you can select **Python**:
 
     ![Selecting Python as the debugging type when attaching a debugger](media/mixed-mode-debugging-attach-type.png)
