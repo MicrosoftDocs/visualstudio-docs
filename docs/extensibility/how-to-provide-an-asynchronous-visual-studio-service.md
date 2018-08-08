@@ -162,7 +162,7 @@ public sealed class TestAsyncPackage : AsyncPackage
   
 2.  Build and run the code. When the experimental instance of Visual Studio appears, open a solution. This causes the `AsyncPackage` to autoload. When the initializer has run, you should find a file in the location you specified.  
   
-## Use an asynchronous aervice in a command handler  
+## Use an asynchronous service in a command handler  
  Here's an example of how to use an asynchronous service in a menu command. You can use the procedure shown here to use the service in other non-asynchronous methods.  
   
 1.  Add a menu command to your project. (In the **Solution Explorer**, select the project node, right-click, and select **Add** > **New Item** > **Extensibility** > **Custom Command**.) Name the command file *TestAsyncCommand.cs*.  
