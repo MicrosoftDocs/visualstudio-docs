@@ -862,7 +862,7 @@ Dim name = customer.name
 
 ### Use inferred names
 
-These Quick Actions point out when inferred member names can be used in anonymous types or use C# 7.1's inferred tuple element names.
+These Quick Actions point out when inferred member names, or C# 7.1's inferred tuple element names, can be used in anonymous types.
 
 ```csharp
 // Before
@@ -917,7 +917,7 @@ Console.WriteLine($"{x} {y}");
 
 ### Make method synchronous
 
-When using the `async` or `Async` keyword on a method, it is expected that inside that method the `await` or `Await` keyword will also be used.  However, if this isn't the case, a Quick Action appears that makes the method synchronous by removing the `async` or `Async` keyword and changing the return type. Use the **Make method synchronous** option from the Quick Actions menu.
+When using the `async` or `Async` keyword on a method, it's expected that inside that method the `await` or `Await` keyword is also used.  However, if this isn't the case, a Quick Action appears that makes the method synchronous by removing the `async` or `Async` keyword and changing the return type. Use the **Make method synchronous** option from the Quick Actions menu.
 
 ```csharp
 // Before
