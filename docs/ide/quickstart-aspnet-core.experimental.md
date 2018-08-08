@@ -86,7 +86,7 @@ To learn more, continue with the following tutorials:
 > [Get started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)
 >
 > [!div class="nextstepaction"]
-> [Get started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)
+> [Create a Razor Pages web app with ASP.NET Core](/aspnet/core/tutorials/razor-pages/?view=aspnetcore-2.1)
 
 ## See also
 

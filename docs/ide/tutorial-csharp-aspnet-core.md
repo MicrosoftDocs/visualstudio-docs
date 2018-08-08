@@ -1,7 +1,7 @@
 ---
 title: "Get started with C# and ASP.NET Core in Visual Studio"
 ms.custom: ""
-ms.date: 07/31/2018
+ms.date: 08/08/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -21,22 +21,6 @@ ms.workload:
 In this tutorial for C# development with ASP.NET Core using Visual Studio, you'll create a C# ASP.NET Core web app, add code to it, explore some features of the IDE, and run the app.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
-
-## Before you begin
-
-Here's a quick FAQ to introduce you to some key concepts.
-
-### What is C#?
-
-[C#](/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework) is a type-safe and object-oriented programming language that's designed to be both robust and easy to learn.
-
-### What is ASP.NET Core?
-
-ASP.NET Core is an open-source and cross-platform framework for building internet-connected applications, such as web apps and services. ASP.NET Core apps can run on either .NET Core or the .NET Framework. You can develop and run your ASP.NET Core apps cross-platform on Windows, Mac, and Linux. ASP.NET Core is open source at [GitHub](https://github.com/aspnet/home).
-
-### What is Visual Studio?
-
-Visual Studio is an integrated development suite of productivity tools for developers. Think of it as a program you can use to create programs and applications.
 
 ## Start developing
 
@@ -176,11 +160,29 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
    ![Select the Stop Debugging button on the toolbar](../ide/media/csharp-aspnet-stop-debugging.png)
 
+## Quick answers FAQ
+
+Here's a quick FAQ to introduce you to some key concepts.
+
+### What is C#?
+
+[C#](/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework) is a type-safe and object-oriented programming language that's designed to be both robust and easy to learn.
+
+### What is ASP.NET Core?
+
+ASP.NET Core is an open-source and cross-platform framework for building internet-connected applications, such as web apps and services. ASP.NET Core apps can run on either .NET Core or the .NET Framework. You can develop and run your ASP.NET Core apps cross-platform on Windows, Mac, and Linux. ASP.NET Core is open source at [GitHub](https://github.com/aspnet/home).
+
+### What is Visual Studio?
+
+Visual Studio is an integrated development suite of productivity tools for developers. Think of it as a program you can use to create programs and applications.
+
 ## Next steps
 
-Congratulations on completing this tutorial! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To see the app running on a public server, select the following button.
+Congratulations on completing this tutorial! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To learn more about creating a web app or website with C# and ASP.NET, see the following content:
 
 > [!div class="nextstepaction"]
-> [Deploy the app to Azure App Service](..//deployment/quickstart-deploy-to-azure.md)
+> [Create a Razor Pages web app with ASP.NET Core](/aspnet/core/tutorials/razor-pages/?view=aspnetcore-2.1)
 
-You can also learn about using the Model-View-Controller (MVC) framework in ASP.NET Core by following the tutorial, [Get started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x).
+## See also
+
+[Publish your web app to Azure App Service by using Visual Studio](..//deployment/quickstart-deploy-to-azure.md)
