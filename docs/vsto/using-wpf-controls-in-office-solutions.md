@@ -121,6 +121,5 @@ For more information about adding WPF controls to Windows Forms controls and for
 - [Custom task panes](../vsto/custom-task-panes.md)
 - [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
 - [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)
-- [How to: Add an actions pane to Word documents or Excel workbooks](../vsto/how-to-add-an-actions-pane-to-word-documents-or-excel-workbooks.md)
 - [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md)
 - [How to: Add a form region to an Outlook Add-in project](../vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md)
