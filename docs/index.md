@@ -183,8 +183,7 @@ ms.topic: hub-page
                                 </div>
                             </li>
                         </ul>
-                     </li>
-                     <li>
+                     <div>
                         <ul class="cardsL">
                             <li>
                                 <div class="cardSize">
