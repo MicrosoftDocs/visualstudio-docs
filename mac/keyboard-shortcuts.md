@@ -1,8 +1,8 @@
 ---
 title: "Source Editor Common Keyboard Shortcuts"
 description: "This article describes some common keyboard shortcuts in Visual Studio for Mac's source editor"
-author: asb3993
-ms.author: amburns
+author: conceptdev
+ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: 48E06A61-7294-4EC8-A09D-1763C32AD910
 ---
