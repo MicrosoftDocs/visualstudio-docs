@@ -1,17 +1,19 @@
 ---
 title: "CA3147: Mark verb handlers with ValidateAntiforgeryToken"
-ms.date: 08/04/2018
+ms.date: 08/08/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
-ms.assetid: 
 author: dotpaul
 ms.author: paulming
-manager: 
+manager: douge
+dev_langs:
+ - "CSharp"
 ms.workload:
   - "multiple"
 ---
 # CA3147: Mark verb handlers with ValidateAntiforgeryToken
+
 |||
 |-|-|
 |TypeName|MarkVerbHandlersWithValidateAntiforgeryToken|
@@ -20,32 +22,36 @@ ms.workload:
 |Breaking Change|Non Breaking|
 
 ## Cause
- An ASP.NET MVC controller action method isn't marked with [ValidateAntiforgeryTokenAttribute](/previous-versions/aspnet/web-frameworks/dd492108%28v%3dvs.118%29), or an attribute specifying the HTTP verb, such as [HttpGetAttribute](/previous-versions/aspnet/web-frameworks/ee470993%28v%3dvs.118%29) or [AcceptVerbsAttribute](/previous-versions/aspnet/web-frameworks/dd470553%28v%3dvs.118%29).  
 
-## Rule Description
- When designing an ASP.NET MVC controller, be mindful of cross-site request forgery attacks.  A cross-site request forgery attack can send malicious requests from an authenticated user to your ASP.NET MVC controller.  For more information, see [XSRF/CSRF Prevention in ASP.NET MVC and Web Pages](/aspnet/mvc/overview/security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages).
- 
- This rule checks that ASP.NET MVC controller action methods have either:
+An ASP.NET MVC controller action method isn't marked with <xref:Microsoft.AspNetCore.Mvc.ValidateAntiForgeryTokenAttribute?displayProperty=fullName>, or an attribute specifying the HTTP verb, such as <xref:Microsoft.AspNetCore.Mvc.HttpGetAttribute?displayProperty=fullName> or <xref:Microsoft.AspNetCore.Mvc.AcceptVerbsAttribute?displayProperty=fullName>.
 
-- [ValidateAntiforgeryTokenAttribute](/previous-versions/aspnet/web-frameworks/dd492108%28v%3dvs.118%29) and specify allowed HTTP verbs, not including HTTP GET.
+## Rule description
 
-- Or, specify HTTP GET as an allowed verb.
+When designing an ASP.NET MVC controller, be mindful of cross-site request forgery attacks. A cross-site request forgery attack can send malicious requests from an authenticated user to your ASP.NET MVC controller. For more information, see [XSRF/CSRF prevention in ASP.NET MVC and web pages](/aspnet/mvc/overview/security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages).
 
-## How to Fix Violations
+This rule checks that ASP.NET MVC controller action methods either:
 
-- For ASP.NET MVC controller actions that handle HTTP GET requests and *don't* have potentially harmful side effects, add an [HttpGetAttribute](/previous-versions/aspnet/web-frameworks/ee470993%28v%3dvs.118%29) to the method.
+- Have the <xref:Microsoft.AspNetCore.Mvc.ValidateAntiForgeryTokenAttribute> and specify allowed HTTP verbs, not including HTTP GET.
 
-    - If you have an ASP.NET MVC controller action that handles HTTP GET requests and *does* have potentially harmful side effects such as modifying sensitive data, then your application is vulnerable to cross-site request forgery attacks.  You'll need to redesign your application so that only HTTP POST, PUT, or DELETE requests do sensitive operations.
+- Specify HTTP GET as an allowed verb.
 
-- For ASP.NET MVC controller actions that handle HTTP POST, PUT, or DELETE requests, add [ValidateAntiforgeryTokenAttribute](/previous-versions/aspnet/web-frameworks/dd492108%28v%3dvs.118%29) and attribute(s) specifying the allowed HTTP verbs ([AcceptVerbsAttribute](/previous-versions/aspnet/web-frameworks/dd470553%28v%3dvs.118%29), [HttpPostAttribute](/previous-versions/aspnet/web-frameworks/ee264023%28v%3dvs.118%29), [HttpPutAttribute](/previous-versions/aspnet/web-frameworks/ee470909%28v%3dvs.118%29), or [HttpDeleteAttribute](/previous-versions/aspnet/web-frameworks/ee470917%28v%3dvs.118%29)).  Additionally, you need to call [HtmlHelper.AntiForgeryToken()](/previous-versions/aspnet/web-frameworks/dd504812%28v%3dvs.118%29) from your MVC view or Razor web page (see [Examining the Edit Methods and Edit View](/aspnet/mvc/overview/getting-started/introduction/examining-the-edit-methods-and-edit-view) for an example).
+## How to Fix violations
 
-## When to Suppress Warnings
+- For ASP.NET MVC controller actions that handle HTTP GET requests and don't have potentially harmful side effects, add an <xref:Microsoft.AspNetCore.Mvc.HttpGetAttribute> to the method.
 
-- It is safe to suppress a warning from this rule if the ASP.NET MVC controller action has no harmful side effects.
+   - If you have an ASP.NET MVC controller action that handles HTTP GET requests and has potentially harmful side effects such as modifying sensitive data, then your application is vulnerable to cross-site request forgery attacks.  You'll need to redesign your application so that only HTTP POST, PUT, or DELETE requests perform sensitive operations.
 
-- It is safe to suppress a warning from this rule if the application is validating the antiforgery token through a different way.
+- For ASP.NET MVC controller actions that handle HTTP POST, PUT, or DELETE requests, add <xref:Microsoft.AspNetCore.Mvc.ValidateAntiForgeryTokenAttribute> and attributes specifying the allowed HTTP verbs (<xref:Microsoft.AspNetCore.Mvc.AcceptVerbsAttribute>, <xref:Microsoft.AspNetCore.Mvc.HttpPostAttribute>, <xref:Microsoft.AspNetCore.Mvc.HttpPutAttribute>, or <xref:Microsoft.AspNetCore.Mvc.HttpDeleteAttribute>). Additionally, you need to call <xref:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.AntiForgeryToken%2A?displayProperty=nameWithType> from your MVC view or Razor web page. For an example, see [Examining the edit methods and edit view](/aspnet/mvc/overview/getting-started/introduction/examining-the-edit-methods-and-edit-view).
 
-## Pseudo-code Examples
+## When to suppress warnings
+
+It's safe to suppress a warning from this rule if:
+
+- The ASP.NET MVC controller action has no harmful side effects.
+
+- The application validates the antiforgery token in a different way.
+
+## ValidateAntiForgeryTokenAttribute example
 
 ### Violation
 
@@ -58,7 +64,7 @@ namespace TestNamespace
     {
         public ActionResult TransferMoney(string toAccount, string amount)
         {
-            // You don't want an attacker specify to who and how much money to transfer.
+            // You don't want an attacker to specify to who and how much money to transfer.
 
             return null;
         }
@@ -87,6 +93,8 @@ namespace TestNamespace
     }
 }
 ```
+
+## HttpGetAttribute example
 
 ### Violation
 
