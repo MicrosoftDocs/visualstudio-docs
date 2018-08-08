@@ -14,15 +14,15 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Managing Project Loading in a Solution
+# Manage project loading in a solution
 Visual Studio solutions can contain a large number of projects. The default Visual Studio behavior is to load all the projects in a solution at the time the solution is opened, and not to allow the user to access any of the projects until all of them have finished loading. When the process of project loading will last more than two minutes, a progress bar is displayed showing the number of projects loaded and the total number of projects. The user can unload projects while working in a solution with multiple projects, but this procedure has some disadvantages: the unloaded projects are not built as part of a Rebuild Solution command, and IntelliSense descriptions of types and members of closed projects are not displayed.  
   
  Developers can reduce solution load times and manage project loading behavior by creating a solution load manager. The solution load manager can make sure that projects are loaded before starting a background build, delay background loading until other background tasks are complete, and perform other project load management tasks.  
   
-## Creating a solution load manager  
+## Create a solution load manager  
  Developers can create a solution load manager by implementing <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadManager> and advising Visual Studio that the solution load manager is active.  
   
-#### Activating a solution load manager  
+### Activate a solution load manager  
  Visual Studio allows only one solution load manager at a given time, so you must advise Visual Studio when you want to activate your solution load manager. If a second solution load manager is activated later on, your solution load manager will be disconnected.  
   
  You must get the <xref:Microsoft.VisualStudio.Shell.Interop.SVsSolution> service  and set the <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID4> property:  
@@ -43,7 +43,7 @@ pSolution.SetProperty((int)__VSPROPID4.VSPROPID_ActiveSolutionLoadManager, objLo
 > [!NOTE]
 >  For more information about autoloading packages, see [Loading VSPackages](../extensibility/loading-vspackages.md).  
   
- Since Visual Studio recognizes only the last solution load manager to be activated, general solution load managers should always detect whether there is an existing load manager before activating themselves. If calling GetProperty() on the solution service for <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID4> returns `null`, there is no active solution load manager. If it does not return null, check whether the object is the same as your solution load manager.  
+ Since Visual Studio recognizes only the last solution load manager to be activated, general solution load managers should always detect whether there is an existing load manager before activating themselves. If calling `GetProperty()` on the solution service for <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID4> returns `null`, there is no active solution load manager. If it does not return null, check whether the object is the same as your solution load manager.  
   
  If the solution load manager is meant to manage only a few types of solution, the VSPackage can subscribe to solution load events (by calling <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.AdviseSolutionEvents%2A>), and use the event handler for <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnBeforeOpenSolution%2A> to activate the solution load manager.  
   
@@ -53,7 +53,7 @@ pSolution.SetProperty((int)__VSPROPID4.VSPROPID_ActiveSolutionLoadManager, objLo
   
  If you need a solution load manager only to persist global project load properties (for example, properties set on an Options page), you can activate the solution load manager in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3.OnAfterOpenProject%2A> event handler, persist the setting in the solution properties, then deactivate the solution load manager.  
   
-## Handling solution load events  
+## Handle solution load events  
  To subscribe to solution load events, call <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.AdviseSolutionEvents%2A> when you activate your solution load manager. If you implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents>, you can respond to events that relate to different project loading properties.  
   
 -   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnBeforeOpenSolution%2A>: This event is fired before a solution is opened.
@@ -68,7 +68,7 @@ pSolution.SetProperty((int)__VSPROPID4.VSPROPID_ActiveSolutionLoadManager, objLo
   
 -   <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionLoadEvents.OnAfterLoadProjectBatch%2A>: This event is fired after a batch of projects has been loaded.  
   
-## Detecting and managing solution and project loading  
+## Detect and manage solution and project loading  
  In order to detect the load state of projects and solutions, call <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolution.GetProperty%2A> with the following values:  
   
 -   <xref:Microsoft.VisualStudio.Shell.Interop.__VSPROPID4>: `var` returns `true` if the solution and all its projects are loaded, otherwise `false`.  

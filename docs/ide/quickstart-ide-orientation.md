@@ -9,7 +9,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
-experimental: true​
+experimental: true
 experiment_id: "7b7f8053-75fc-4d"
 ---
 # Quickstart: First look at the Visual Studio IDE
@@ -109,4 +109,5 @@ We've looked at just a few of the features of Visual Studio to get acquainted wi
 ## See also
 
 - [Overview of the Visual Studio IDE](../ide/visual-studio-ide.md)
+- [More features of Visual Studio 2017](../ide/advanced-feature-overview.md)
 - [Change theme and font colors](../ide/quickstart-personalize-the-ide.md)

@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# SccEndBatch Function
+# SccEndBatch function
 This function concludes a batch of source control operations. These batches may not be nested.  
   
 ## Syntax  
@@ -25,10 +25,10 @@ This function concludes a batch of source control operations. These batches may 
 SCCRTN SccEndBatch(void);  
 ```  
   
-#### Parameters  
+## Parameters  
  None.  
   
-## Return Value  
+## Return value  
  The source control plug-in implementation of this function is expected to return one of the following values:  
   
 |Value|Description|  
@@ -39,6 +39,6 @@ SCCRTN SccEndBatch(void);
 ## Remarks  
  Source control batches are used to execute the same source control operations across multiple projects or multiple contexts. Batches can be used to eliminate redundant dialog boxes from the user experience during a batched operation. The [SccBeginBatch](../extensibility/sccbeginbatch-function.md) and the `SccEndBatch` function are used as a pair to indicate the beginning and end of an operation. They cannot be nested.  
   
-## See Also  
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
+## See also  
+ [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)   
  [SccBeginBatch](../extensibility/sccbeginbatch-function.md)

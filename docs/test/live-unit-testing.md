@@ -97,7 +97,7 @@ At any time, you can temporarily pause or completely stop Live Unit Testing. You
 
 - **Options**, which opens the **Options** dialog described in the [Configure Live Unit Testing](#configure-live-unit-testing) section.
 
-##	View coverage visualization in the editor as you type
+## View coverage visualization in the editor as you type
 
 Once enabled, Live Unit Testing updates each line of code in the Visual Studio editor to show you whether the code you're writing is covered by unit tests and whether the tests that cover it are passing.  The following figure shows lines of code with both passing and failing tests, as well as lines of code that are not covered by tests. Lines decorated with a green "✓" are covered only by passing tests, lines decorated with a red "x" are covered by one or more failing tests, and lines decorated by a blue  "➖" are not covered by any test.
 
@@ -182,8 +182,8 @@ You can also use the following attributes to exclude individual methods from Liv
 
 ## See also
 
-[Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
-[Live Unit Testing blog](https://go.microsoft.com/fwlink/?linkid=842514)
-[Live Unit Testing FAQ](live-unit-testing-faq.md)
-[Channel 9 video: Live Unit Testing in Visual Studio 2017](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105)
+- [Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
+- [Live Unit Testing blog](https://go.microsoft.com/fwlink/?linkid=842514)
+- [Live Unit Testing FAQ](live-unit-testing-faq.md)
+- [Channel 9 video: Live Unit Testing in Visual Studio 2017](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105)
 
