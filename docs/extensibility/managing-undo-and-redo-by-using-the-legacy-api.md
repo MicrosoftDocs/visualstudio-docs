@@ -30,5 +30,3 @@ Editors must support undo operations that let users reverse their recent changes
 ## Reference  
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsChangeTrackingUndoManager>  
  Provides undo management for an editor that supports multiple views.  
-  
-## Related sections
