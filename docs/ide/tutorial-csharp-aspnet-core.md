@@ -1,5 +1,6 @@
 ---
 title: "Get started with C# and ASP.NET Core in Visual Studio"
+description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
 ms.custom: ""
 ms.date: 08/08/2018
 ms.prod: visual-studio-dev15
@@ -16,7 +17,7 @@ ms.workload:
   - "aspnet"
   - "dotnetcore"
 ---
-# Get started with C# and ASP.NET in Visual Studio
+# Tutorial: Get started with C# and ASP.NET Core in Visual Studio
 
 In this tutorial for C# development with ASP.NET Core using Visual Studio, you'll create a C# ASP.NET Core web app, add code to it, explore some features of the IDE, and run the app.
 
@@ -34,7 +35,7 @@ First, you'll create a ASP.NET Core project. The project type comes with all the
 
 2. From the top menu bar, choose **File** > **New** > **Project**.
 
-3. In the **New Project** dialog box in the left pane, expand **Visual C#**, expand **Web**, and then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**, name the file *MyCoreApp*, and then choose **OK**.
+3. In the **New Project** dialog box in the left pane, expand **Visual C#**, expand **Web**, and then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**. Then, name the file *MyCoreApp* and choose **OK**.
 
    ![ASP.NET Core Web Application project template in the New Project dialog box in the Visual Studio IDE](../ide/media/new-project-csharp-aspnet-mycoreapp.png)
 
@@ -46,17 +47,21 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 1. Select the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
 
-   ![Select the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vs-open-visual-studio-installer-generic.png)
+   ![Select the Open Visual Studio Installer link from the New Project dialog box](../ide/media/open-visual-studio-installer.png)
 
 2. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, and then choose **Modify**.
 
-   ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/asp-dot-net-web-dev-workload.png)
+   ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/quickstart-aspnet-workload.png)
+
+   (You might have to close Visual Studio before you can continue installing the new workload.)
 
 ##### Option 2: Use the Tools menu bar
 
-1. Cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features**.
+1. Cancel out of the **New Project** dialog box. Then, from the top menu bar, choose **Tools** > **Get Tools and Features**.
 
 2. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, and then choose **Modify**.
+
+   (You might have to close Visual Studio before you can continue installing the new workload.)
 
 #### Add a project template
 
