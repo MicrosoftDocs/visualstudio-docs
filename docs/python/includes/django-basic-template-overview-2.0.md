@@ -20,8 +20,8 @@ At present, the **Blank Django Web Project template** uses the latest Django 1.x
     1. Right-click the project again, select the **Add** > **Existing Folder** command, navigate to and select the app folder created in Step 4, and select **OK**. Visual Studio then copies that entire folder and its four files into the project.
     1. Right-click **manage.py** and select **Set as Startup File**.
 
-  > [!Important]
-  > The app name shown in the Visual Studio project must match the `<project_name>` used with the `django-admin` utility because the utility uses that name as a namespace inside the Python code files.
+    > [!Important]
+    > The app name shown in the Visual Studio project must match the `<project_name>` used with the `django-admin` utility because the utility uses that name as a namespace inside the Python code files.
 
 1. Open *requirements.txt*, change its contents to `django >=2.0, <3`, and save the file.
 
