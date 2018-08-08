@@ -59,7 +59,7 @@ Specifies the assembly reference to add when the item is added to a project.
 ## Example  
  The following example illustrates the `TemplateContent` element of an item template. This XML adds references to the *System.dll* and *System.Data.dll* assemblies.  
   
-```  
+```xml  
 <TemplateContent>  
     <References>  
         <Reference>  
