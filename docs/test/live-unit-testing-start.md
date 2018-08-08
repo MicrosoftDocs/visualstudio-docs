@@ -353,7 +353,7 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
 
 ---
 
-This provides enough information for a preliminary investigation of the bug. Either `TestHasEmbeddedSpaces` (the test routine), made an incorrect assumption, or `HasEmbeddedSpaces` does not correctly recognize all embedded spaces. To diagnose and correct the problem, start with the `StringLibrary.HasEmbeddedSpaces` method:
+This provides enough information for a preliminary investigation of the bug. Either `TestHasEmbeddedSpaces` (the test routine) made an incorrect assumption, or `HasEmbeddedSpaces` does not correctly recognize all embedded spaces. To diagnose and correct the problem, start with the `StringLibrary.HasEmbeddedSpaces` method:
 
 # [C#](#tab/csharp)
 1. Look at the comparison in the `HasEmbeddedSpaces` method. It considers an embedded space to be U+0020. However, the Unicode Standard includes a number of other space characters. This suggests that the library code has incorrectly tested for a whitespace character.
