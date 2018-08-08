@@ -62,12 +62,12 @@
         - name: LINQ to XML dynamic properties
           href: linq-to-xml-dynamic-properties.md
           items:
-          - name: XAttribute Class dynamic properties
+          - name: XAttribute class dynamic properties
             href: xattribute-class-dynamic-properties.md
             items:
             - name: Value (XAttribute dynamic property)
               href: value-xattribute-dynamic-property.md
-          - name: XElement Class dynamic properties
+          - name: XElement class dynamic properties
             href: xelement-class-dynamic-properties.md
             items:
             - name: Attribute (XElement dynamic property)
@@ -94,10 +94,6 @@
               href: l2dbform-xaml-source-code.md
             - name: L2DBForm.xaml.cs source code
               href: l2dbform-xaml-cs-source-code.md
-  - name: Windows Forms
-    items:
-    - name:
-      href: 
   - name: Work with 3D assets for games and apps
     href: working-with-3-d-assets-for-games-and-apps.md
     items:
