@@ -46,6 +46,6 @@ The VSIXInstaller will detect earlier versions of Visual Studio and inform the u
 
 ## See also
 
- [VSIX extension schema 1.0 reference](http://msdn.microsoft.com/en-us/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)
- [Anatomy of a VSIX package](../extensibility/anatomy-of-a-vsix-package.md)
+ [VSIX extension schema 1.0 reference](http://msdn.microsoft.com/en-us/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)   
+ [Anatomy of a VSIX package](../extensibility/anatomy-of-a-vsix-package.md)   
  [Prepare extensions for Windows Installer deployment](../extensibility/preparing-extensions-for-windows-installer-deployment.md)
