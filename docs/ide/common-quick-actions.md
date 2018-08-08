@@ -862,7 +862,7 @@ Dim name = customer.name
 
 ### Use inferred names
 
-These Quick Actions point out when inferred member names, or C# 7.1's inferred tuple element names, can be used in anonymous types.
+This Quick Action points out when code can be simplified to use inferred member names in anonymous types, or inferred element names in tuples.
 
 ```csharp
 // Before
