@@ -1,5 +1,6 @@
 ---
 title: "Get started with Visual Basic in Visual Studio"
+description: "Learn how to create Visual Basic console apps in Visual Studio, step-by-step."
 ms.custom: ""
 ms.date: 08/08/2018
 ms.prod: visual-studio-dev15
