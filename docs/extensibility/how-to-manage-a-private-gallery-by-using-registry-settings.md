@@ -15,11 +15,11 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Manage a Private Gallery By Using Registry Settings
-If you are an administrator or the developer of an Isolated Shell extension, you can control access to the controls, templates, and tools in the Visual Studio Gallery, the Samples Gallery, or private galleries. To make a gallery available or unavailable, create a .pkgdef file that describes the modified registry keys and their values.  
+# How to: Manage a private gallery by using registry settings
+If you are an administrator or the developer of an Isolated Shell extension, you can control access to the controls, templates, and tools in the Visual Studio Gallery, the Samples Gallery, or private galleries. To make a gallery available or unavailable, create a *.pkgdef* file that describes the modified registry keys and their values.  
   
-## Managing Private Galleries  
- You can create a .pkgdef file to control access to galleries on multiple computers. This file must have the following format.  
+## Manage private galleries  
+ You can create a *.pkgdef* file to control access to galleries on multiple computers. This file must have the following format.  
   
 ```  
 [$RootKey$\ExtensionManager\Repositories\{UniqueGUID}]  
@@ -41,14 +41,14 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
   
  The `Disabled` value is optional. By default, a gallery is enabled.  
   
- The `Priority` value determines the order in which the galleries are listed in the Options dialog box. Visual Studio Gallery has priority 10 and the Samples Gallery has priority 20. Private galleries start at priority 100. If several galleries have the same priority value, the order in which they appear is determined by the values of their localized `DisplayName` attributes.  
+ The `Priority` value determines the order in which the galleries are listed in the **Options** dialog box. Visual Studio Gallery has priority 10 and the Samples Gallery has priority 20. Private galleries start at priority 100. If several galleries have the same priority value, the order in which they appear is determined by the values of their localized `DisplayName` attributes.  
   
  The `Protocol` value is required for Atom-based or SharePoint-based galleries.  
   
  Either `DisplayName`, or both `DisplayNameResourceID` and `DisplayNamePackageGuid`, must be specified. If all are specified, then the `DisplayNameResourceID` and `DisplayNamePackageGuid` pair is used.  
   
-## Disabling the Visual Studio Gallery Using a .pkgdef File  
- You can disable a gallery in a .pkgdef file. The following entry disables the Visual Studio Gallery:  
+## Disable the Visual Studio Gallery using a .pkgdef file  
+ You can disable a gallery in a *.pkgdef* file. The following entry disables the Visual Studio Gallery:  
   
 ```  
 [$RootKey$\ExtensionManager\Repositories\{0F45E408-7995-4375-9485-86B8DB553DC9}]  
@@ -64,5 +64,5 @@ DisplayNamePackageGuid={GUID} (REG_SZ)
   
 ```  
   
-## See Also  
- [Private Galleries](../extensibility/private-galleries.md)
+## See also  
+ [Private galleries](../extensibility/private-galleries.md)

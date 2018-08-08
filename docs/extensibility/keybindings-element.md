@@ -17,43 +17,43 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# KeyBindings Element
+# KeyBindings element
 The KeyBindings element groups KeyBinding elements and other KeyBindings groupings.  
   
 ## Syntax  
   
-```  
+```xml  
 <KeyBindings>  
   <KeyBinding>... </KeyBinding>  
   <KeyBinding>... </KeyBinding>  
 </KeyBindings>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
   
 |Attribute|Description|  
 |---------------|-----------------|  
-|Condition|Optional. See [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
+|Condition|Optional. See [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
   
-### Child Elements  
+### Child elements  
   
 |Element|Description|  
 |-------------|-----------------|  
-|[KeyBinding Element](../extensibility/keybinding-element.md)|Specifies keyboard shortcuts for the commands.|  
+|[KeyBinding element](../extensibility/keybinding-element.md)|Specifies keyboard shortcuts for the commands.|  
 |[KeyBindings](../extensibility/keybindings-element.md)|Groups KeyBinding elements and other KeyBindings groupings.|  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
-|[CommandTable Element](../extensibility/commandtable-element.md)|Defines all the elements that represent commands.|  
+|[CommandTable element](../extensibility/commandtable-element.md)|Defines all the elements that represent commands.|  
   
 ## Example  
   
-```  
+```xml  
 <KeyBindings>  
   <KeyBinding guid="guidWidgetPackage" id="cmdidUpdateWidget"   
     editor="guidWidgetEditor" key1="VK_F5"/>  
@@ -62,6 +62,6 @@ The KeyBindings element groups KeyBinding elements and other KeyBindings groupin
 </KeyBindings>  
 ```  
   
-## See Also  
- [KeyBinding Element](../extensibility/keybinding-element.md)   
- [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+## See also  
+ [KeyBinding element](../extensibility/keybinding-element.md)   
+ [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
