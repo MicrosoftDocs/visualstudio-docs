@@ -147,7 +147,7 @@ ms.topic: hub-page
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>In a hurry? Get up and running with a Quickstart</h3>
+                                                <h3>In a hurry? Try a 5-minute Quickstart</h3>
                                                 <h4>Build "Hello, World" in the language of your choice.</h4>
                                                  <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
                                                 <ul class="noBullet">
