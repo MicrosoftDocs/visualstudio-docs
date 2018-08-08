@@ -291,6 +291,7 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
     [!code-csharp[The TestHasEmbeddedSpaces test method](samples/snippets/csharp/lut-start/unittest2.cs#3)]
 
 1. When the test executes, Live Unit Testing indicates that the `TestHasEmbeddedSpaces` method has failed, as the following figure shows:
+
    ![The Test Explorer reporting a failed test.](media/lut-start/test-failure.png)
 
 1. Select the window that displays the library code. Note that Live Unit Testing has expanded code coverage to the `HasEmbeddedSpaces` method. It also reports the test failure by adding a red  "🞩" to lines covered by failing tests.
