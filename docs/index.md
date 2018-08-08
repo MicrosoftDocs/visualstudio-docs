@@ -240,7 +240,7 @@ ms.topic: hub-page
                                 </div>
                             </li>
                         </ul>
-                    </li>
+                    </div>
                 </ul>
             </li>
             <li>
