@@ -17,7 +17,7 @@ ms.workload:
 # Register verbs for file name extensions
 The association of a file name extension with an application generally has a preferred action that occurs when a user double-clicks a file. This preferred action is linked to a verb, for example open, that corresponds to the action.  
   
- You can register verbs that are associated with a programmatic identifier (ProgID) for an extension by using the Shell key located at *HKEY_CLASSES_ROOT\{progid}\shell*. For more information, see [File types](http://msdn.microsoft.com/library/windows/desktop/cc144148\(v=vs.85\).aspx).  
+ You can register verbs that are associated with a programmatic identifier (ProgID) for an extension by using the Shell key located at **HKEY_CLASSES_ROOT\{progid}\shell**. For more information, see [File types](http://msdn.microsoft.com/library/windows/desktop/cc144148\(v=vs.85\).aspx).  
   
 ## Register standard verbs  
  The operating system recognizes the following standard verbs:  
@@ -39,7 +39,7 @@ The association of a file name extension with an application generally has a pre
   
  Project files should be registered to start a new instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] when a user opens the file. The following example illustrates a standard verb registration for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project.  
   
-```csharp  
+```  
 [HKEY_CLASSES_ROOT\.csproj]  
 @="VisualStudio.csproj.8.0"  
   
@@ -70,7 +70,7 @@ The association of a file name extension with an application generally has a pre
   
  To open a file in an existing instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], register a DDEEXEC key. The following example illustrates a standard verb registration for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] *.cs* file.  
   
-```csharp  
+```  
 [HKEY_CLASSES_ROOT\.cs]  
 @="VisualStudio.cs.8.0"  
   
