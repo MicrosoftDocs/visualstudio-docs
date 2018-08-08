@@ -256,11 +256,11 @@ To learn about other ways you can personalize the IDE, see [Personalize Visual S
 
 ## Next steps
 
-Explore Visual Studio further by following along with one of the *quickstart* articles. Quickstarts are designed to help new users get acquainted with Visual Studio in a short amount of time.
+Explore Visual Studio further by following along with one of these introductory articles:
 
-- Get acquainted with the code editor in [Quickstart: Use the code editor](quickstart-editor.md)
+- Get acquainted with the code editor in [Learn to use the code editor](quickstart-editor.md)
 
-- Learn how Visual Studio organizes code in [Quickstart: Projects and solutions](quickstart-projects-solutions.md)
+- Learn how Visual Studio organizes code in [Learn about projects and solutions](quickstart-projects-solutions.md)
 
 If you're ready to dive into more coding, one of the following language-specific quickstarts is a good next step:
 
