@@ -74,6 +74,7 @@ ms.topic: hub-page
                 <a href="#get-started">Get Started</a>
                 <ul id="get-started">
                     <li>
+                        <a href="#get-started1"></a>
                         <ul id="get-started1" class="cardsL">
                             <li>
                                 <div class="cardSize">
@@ -184,7 +185,7 @@ ms.topic: hub-page
                         </ul>
                      </li>
                      <li>
-                        <ul id="get-started2" class="cardsL">
+                        <ul class="cardsL">
                             <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
