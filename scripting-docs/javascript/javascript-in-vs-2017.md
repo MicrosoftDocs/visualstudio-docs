@@ -177,7 +177,7 @@ A few of them are listed below, but for a full set of all options available, [se
 Given a project with the following setup:
 
 - project's source files are in `wwwroot/js`
-- project's lib files are in `wwwrrot/lib`
+- project's lib files are in `wwwroot/lib`
 - `bootstrap`, `jquery`, `jquery-validation`, and `jquery-validation-unobtrusive` are listed in the `bower.json`
 - `kendo-ui` has been manually added to the lib folder
 
