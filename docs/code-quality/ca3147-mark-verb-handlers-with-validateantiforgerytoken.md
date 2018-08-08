@@ -1,5 +1,5 @@
 ---
-title: "CA3147: Mark verb handlers with ValidateAntiforgeryToken"
+title: "CA3147: Mark verb handlers with ValidateAntiForgeryToken"
 ms.date: 08/08/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
@@ -12,11 +12,11 @@ dev_langs:
 ms.workload:
   - "multiple"
 ---
-# CA3147: Mark verb handlers with ValidateAntiforgeryToken
+# CA3147: Mark verb handlers with ValidateAntiForgeryToken
 
 |||
 |-|-|
-|TypeName|MarkVerbHandlersWithValidateAntiforgeryToken|
+|TypeName|MarkVerbHandlersWithValidateAntiForgeryToken|
 |CheckId|CA3147|
 |Category|Microsoft.Security|
 |Breaking Change|Non Breaking|
@@ -35,11 +35,11 @@ This rule checks that ASP.NET MVC controller action methods either:
 
 - Specify HTTP GET as an allowed verb.
 
-## How to Fix violations
+## How to fix violations
 
 - For ASP.NET MVC controller actions that handle HTTP GET requests and don't have potentially harmful side effects, add an <xref:Microsoft.AspNetCore.Mvc.HttpGetAttribute> to the method.
 
-   - If you have an ASP.NET MVC controller action that handles HTTP GET requests and has potentially harmful side effects such as modifying sensitive data, then your application is vulnerable to cross-site request forgery attacks.  You'll need to redesign your application so that only HTTP POST, PUT, or DELETE requests perform sensitive operations.
+   If you have an ASP.NET MVC controller action that handles HTTP GET requests and has potentially harmful side effects such as modifying sensitive data, then your application is vulnerable to cross-site request forgery attacks.  You'll need to redesign your application so that only HTTP POST, PUT, or DELETE requests perform sensitive operations.
 
 - For ASP.NET MVC controller actions that handle HTTP POST, PUT, or DELETE requests, add <xref:Microsoft.AspNetCore.Mvc.ValidateAntiForgeryTokenAttribute> and attributes specifying the allowed HTTP verbs (<xref:Microsoft.AspNetCore.Mvc.AcceptVerbsAttribute>, <xref:Microsoft.AspNetCore.Mvc.HttpPostAttribute>, <xref:Microsoft.AspNetCore.Mvc.HttpPutAttribute>, or <xref:Microsoft.AspNetCore.Mvc.HttpDeleteAttribute>). Additionally, you need to call <xref:Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.AntiForgeryToken%2A?displayProperty=nameWithType> from your MVC view or Razor web page. For an example, see [Examining the edit methods and edit view](/aspnet/mvc/overview/getting-started/introduction/examining-the-edit-methods-and-edit-view).
 
@@ -51,7 +51,7 @@ It's safe to suppress a warning from this rule if:
 
 - The application validates the antiforgery token in a different way.
 
-## ValidateAntiForgeryTokenAttribute example
+## ValidateAntiForgeryToken attribute example
 
 ### Violation
 
@@ -94,7 +94,7 @@ namespace TestNamespace
 }
 ```
 
-## HttpGetAttribute example
+## HttpGet attribute example
 
 ### Violation
 
