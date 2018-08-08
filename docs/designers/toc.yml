@@ -50,11 +50,9 @@
       - name: Accessibility products and services for Blend
         href: accessibility-products-and-services-blend.md
   - name: Windows Presentation Foundation (WPF)
+    href: getting-started-with-wpf.md
     items:
-    - name: Get started with WPF
-      href: getting-started-with-wpf.md
-      items:
-      - name: Introduction to WPF
+      - name: WPF overview
         href: introduction-to-wpf.md
       - name: WPF data binding with LINQ to XML
         href: wpf-data-binding-with-linq-to-xml-overview.md
@@ -82,18 +80,18 @@
               href: value-xelement-dynamic-property.md
             - name: Xml (XElement dynamic property)
               href: xml-xelement-dynamic-property.md
-        - name: Example
-          href: wpf-data-binding-using-linq-to-xml-example.md
-          items:
-          - name: Build and run the LinqToXmlDataBinding example
-            href: how-to-build-and-run-the-linqtoxmldatabinding-example.md
-          - name: "Walkthrough: LINQ to XML data binding"
-            href: walkthrough-linqtoxmldatabinding-example.md
+          - name: Example
+            href: wpf-data-binding-using-linq-to-xml-example.md
             items:
-            - name: L2DBForm.xaml source code
-              href: l2dbform-xaml-source-code.md
-            - name: L2DBForm.xaml.cs source code
-              href: l2dbform-xaml-cs-source-code.md
+            - name: Build and run the LinqToXmlDataBinding example
+              href: how-to-build-and-run-the-linqtoxmldatabinding-example.md
+            - name: "Walkthrough: LINQ to XML data binding"
+              href: walkthrough-linqtoxmldatabinding-example.md
+              items:
+              - name: L2DBForm.xaml source code
+                href: l2dbform-xaml-source-code.md
+              - name: L2DBForm.xaml.cs source code
+                href: l2dbform-xaml-cs-source-code.md
   - name: Work with 3D assets for games and apps
     href: working-with-3-d-assets-for-games-and-apps.md
     items:
