@@ -43,7 +43,7 @@ As instructed, construct a URL using the secret from *web.debug.config*, which i
 
 ![Determining the debugger endpoint in an Azure App Service](media/azure-remote-debugging-secret.png)
 
-The URL you now need is in the form `wss://<secret>@<site_name>.azurewebsites.net/ptvsd` where you replace &lt;secret&gt;and &lt;site_name&gt; in the string with your specific values.
+The URL you now need is in the form `wss://<secret>@<site_name>.azurewebsites.net/ptvsd` where you replace &lt;secret&gt; and &lt;site_name&gt; in the string with your specific values.
 
 To attach the debugger, select **Debug** > **Attach to Process**, select **Python remote debugging** in the **Transport** dropdown, enter the URL into the **Qualifier textbox**, and press **Enter**. If Visual Studio can successfully connect to App Service, it shows a single Python process in the list. Select it and then **Attach** to start debugging:
 
