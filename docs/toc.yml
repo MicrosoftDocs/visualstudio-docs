@@ -483,7 +483,7 @@
       items:
       - name: Create a WPF app with C# or Visual Basic
         href: ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md
-      - name: "Tutorial 1: Create a Picture Viewer (C#)"
+      - name: "Tutorial 1: Create a picture viewer (C#)"
         href: ide/tutorial-1-create-a-picture-viewer.md
         items:
         - name: "Step 1: Create a Windows Forms Application Project"
@@ -508,7 +508,7 @@
           href: ide/step-10-write-code-for-additional-buttons-and-a-check-box.md
         - name: "Step 11: Run Your Program and Try Other Features"
           href: ide/step-11-run-your-program-and-try-other-features.md
-      - name: "Tutorial 2: Create a Timed Math Quiz (C#)"
+      - name: "Tutorial 2: Create a timed math quiz (C#)"
         href: ide/tutorial-2-create-a-timed-math-quiz.md
         items:
         - name: "Step 1: Create a Project and Add Labels to Your Form"
@@ -527,11 +527,11 @@
           href: ide/step-7-add-multiplication-and-division-problems.md
         - name: "Step 8: Customize the Quiz"
           href: ide/step-8-customize-the-quiz.md
-      - name: "Tutorial 3: Create a Matching Game (C#)"
+      - name: "Tutorial 3: Create a matching game (C#)"
         href: ide/tutorial-3-create-a-matching-game.md
-      - name: "Step 1: Create a Project and Add a Table to Your Form"
-        href: ide/step-1-create-a-project-and-add-a-table-to-your-form.md
         items:
+        - name: "Step 1: Create a Project and Add a Table to Your Form"
+          href: ide/step-1-create-a-project-and-add-a-table-to-your-form.md
         - name: "Step 2: Add a Random Object and a List of Icons"
           href: ide/step-2-add-a-random-object-and-a-list-of-icons.md
         - name: "Step 3: Assign a Random Icon to Each Label"
@@ -657,12 +657,12 @@
       href: ide/reference/accessibility-products-and-services-from-microsoft.md
     - name: Resources for Designing Accessible Applications
       href: ide/reference/resources-for-designing-accessible-applications.md
-  - name: Globalizing and Localizing Applications
+  - name: Globalize and localize apps
     href: ide/globalizing-and-localizing-applications.md
     items:
-    - name: Introduction to International Applications Based on the .NET Framework
+    - name: Intro to international .NET Framework apps
       href: ide/introduction-to-international-applications-based-on-the-dotnet-framework.md
-    - name: Localizing Applications
+    - name: Localize apps
       href: ide/localizing-applications.md
       items:
       - name: Hierarchical Organization of Resources for Localization
@@ -673,12 +673,12 @@
         href: ide/version-numbers-for-main-and-localized-satellite-assemblies.md
       - name: Neutral Resources Languages for Localization
         href: ide/neutral-resources-languages-for-localization.md
-    - name: Globalizing Applications
+    - name: Globalize apps
       href: ide/globalizing-applications.md
       items:
       - name: Culture-Specific Classes for Global Windows Forms and Web Forms
         href: ide/culture-specific-classes-for-global-windows-forms-and-web-forms.md
-    - name: Creating Applications in Bi-directional Languages
+    - name: Create apps in bi-directional languages
       href: ide/creating-applications-in-bi-directional-languages.md
 - name: Reference
   items:
