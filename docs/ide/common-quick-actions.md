@@ -96,7 +96,7 @@ private void MyMethod()
 
 ### Make method asynchronous
 
-When using the `await` or `Await` keyword inside of a method, it is expected that the method itself is marked with the `async` or `Async` keyword.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method asynchronous. Use the **Make method/Function asynchronous** option from the Quick Actions menu.
+When using the `await` or `Await` keyword inside of a method, it is expected that the method itself is marked with the `async` or `Async` keyword.  However, if this isn't the case, a Quick Action will appear that makes the method asynchronous. Use the **Make method/Function asynchronous** option from the Quick Actions menu.
 
 ```csharp
 // Before
@@ -136,7 +136,7 @@ End Function
 
 ### Remove unnecessary usings/Imports
 
-The **Remove Unnecessary Usings/Imports** Quick Action will remove any unused `using` and `Import` statements for the current file.  When you select this item, unused namespace imports will be immediately removed.
+The **Remove Unnecessary Usings/Imports** Quick Action removes any unused `using` and `Import` statements for the current file.  When you select this item, unused namespace imports are removed.
 
 |  Applicable Languages |  Supported Version |
 |  -------------------- | ----------------  |
@@ -144,7 +144,7 @@ The **Remove Unnecessary Usings/Imports** Quick Action will remove any unused `u
 
 ### Remove unnecessary cast
 
-If you cast a type to another type which doesn't require a cast, the **Remove Unnecessary Cast** Quick Action item will remove the cast from your code.
+If you cast a type to another type which doesn't require a cast, the **Remove Unnecessary Cast** Quick Action item removes the unnecessary cast.
 
 ```csharp
 // before
@@ -862,7 +862,7 @@ Dim name = customer.name
 
 ### Use inferred names
 
-These Quick Actions point out when users can use inferred member names in anonymous types or use C# 7.1's inferred tuple element names.
+These Quick Actions point out when inferred member names can be used in anonymous types or use C# 7.1's inferred tuple element names.
 
 ```csharp
 // Before
@@ -891,7 +891,7 @@ var tuple = (age, name);
 
 ### Deconstruct tuple declaration
 
-This Quick Action enables you to deconstruct tuple variable declarations.
+This Quick Action enables deconstructing tuple variable declarations.
 
 ```csharp
 // Before
@@ -917,7 +917,7 @@ Console.WriteLine($"{x} {y}");
 
 ### Make method synchronous
 
-When using the `async` or `Async` keyword on a method, it is expected that somewhere inside that method the `await` or `Await` keyword will also be used.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method synchronous by removing the `async` or `Async` keyword and changing the return type. Use the **Make method synchronous** option from the Quick Actions menu.
+When using the `async` or `Async` keyword on a method, it is expected that inside that method the `await` or `Await` keyword will also be used.  However, if this isn't the case, a Quick Action appears that makes the method synchronous by removing the `async` or `Async` keyword and changing the return type. Use the **Make method synchronous** option from the Quick Actions menu.
 
 ```csharp
 // Before
