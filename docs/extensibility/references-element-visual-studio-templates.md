@@ -60,7 +60,7 @@ Groups the assembly references that the template adds to projects.
 ## Example  
  The following example illustrates the `TemplateContent` element of an item template. This XML adds references to the *System.dll* and *System.Data.dll* assemblies.  
   
-```  
+```xml  
 <TemplateContent>  
     <References>  
         <Reference>  
