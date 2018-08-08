@@ -76,7 +76,7 @@ SCCRTN SccGet(
   
  Finally, even if a source control plug-in specified the `SCC_CAP_GET_NOUI` flag on initialization, indicating that it does not have a user interface for a Get command, this function may still be called by the IDE to retrieve files. The flag simply means that the IDE does not display a Get menu item and that the plug-in is not expected to provide any UI.  
   
-## Rename Files and SccGet  
+## Rename files and SccGet  
  Situation: a user checks out a file, for example, *a.txt*, and modifies it. Before *a.txt* can be checked in, a second user renames *a.txt* to *b.txt* in the source control database, checks out *b.txt*, makes some modifications to the file, and checks the file in. The first user wants the changes made by the second user so the first user renames their local version of *a.txt* file to *b.txt* and does a get on the file. However, the local cache that keeps track of version numbers still thinks the first version of *a.txt* is stored locally and so source control cannot resolve the differences.  
   
  There are two ways to resolve this situation where the local cache of source control versions becomes out of sync with the source control database:  
