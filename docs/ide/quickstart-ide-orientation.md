@@ -9,7 +9,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
-experimental: true​
+experimental: true
 experiment_id: "7b7f8053-75fc-4d"
 ---
 # Quickstart: First look at the Visual Studio IDE
