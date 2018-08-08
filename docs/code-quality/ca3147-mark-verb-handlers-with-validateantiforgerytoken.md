@@ -5,7 +5,7 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
 ms.assetid: 
-author: paulming
+author: dotpaul
 ms.author: paulming
 manager: 
 ms.workload:
