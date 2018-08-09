@@ -50,6 +50,8 @@ The following list shows the allowable values, and you can specify multiple valu
 - event
 - delegate
 - parameter
+- local
+- local_function
 
 ### Accessibility levels of symbols
 
