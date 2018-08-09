@@ -33,7 +33,7 @@ First, you'll create a ASP.NET Core project. The project type comes with all the
 
 1. Open Visual Studio 2017.
 
-2. From the top menu bar, choose **File** > **New** > **Project**.
+2. From the top menu bar, choose **File** > **New** > **Project**. This project template contains all the files you need for a website, before you've even added anything!
 
 3. In the **New Project** dialog box in the left pane, expand **Visual C#**, expand **Web**, and then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**. Then, name the file *MyCoreApp* and choose **OK**.
 
@@ -70,16 +70,6 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 2. Select **ASP.NET Core 2.0** from the top drop-down menu. (If you don't see **ASP.NET Core 2.0** in the list, install it by following the **Download** link that should appear in a yellow bar near the top of the dialog box.) Choose **OK**.
 
    ![New ASP.NET Core Web Application dialog box](../ide/media/new-project-csharp-aspnet-web-app-mvc.png)
-
-### About your solution
-
-This solution follows the Model-View-Controller (MVC) architectural pattern that separates an app into three main components:
-
-* **Models** include classes that represent the data of the app. The model classes use validation logic to enforce business rules for that data. Typically, model objects retrieve and store model state in a database.
-* **Views** are the components that display the app's user interface (UI). Generally, this UI displays the model data.
-* **Controllers** include classes that handle browser requests. They retrieve model data and call view templates that return a response. In an MVC app, the view displays only the information; the controller handles and responds to user input and interaction.
-
-The MVC pattern helps you create apps that are easier to test and update than traditional monolithic apps.
 
 ### Tour your solution
 
@@ -127,7 +117,7 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
    ![Select About in the browser window for your app](../ide/media/csharp-aspnet-browser-page.png)
 
- Among other things, the **About** page in the browser renders the text that is set in the *HomeController.cs* file.
+  Among other things, the **About** page in the browser renders the text that is set in the *HomeController.cs* file.
 
    ![View the text on the About page](../ide/media/csharp-aspnet-browser-page-about.png)
 
