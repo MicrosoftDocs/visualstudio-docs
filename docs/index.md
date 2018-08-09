@@ -84,8 +84,8 @@ ms.topic: hub-page
                                                 <h3>Download and Install</h3>
                                                 <ul class="noBullet">
                                                     <li><a class="barLink" href="/visualstudio/install/install-visual-studio"><img  src="https://docs.microsoft.com/media/common/i_download-install.svg" alt="" />Download and Install Visual Studio</a></li>
-                                                    <li><a class="barLink" href=""><img src="https://docs.microsoft.com/media/common/i_upgrade.svg" alt="" />Update Visual Studio 2017</a></li>
-                                                    <li><a class="barLink" href=""><img  src="https://docs.microsoft.com/media/common/i_setup.svg" alt="" />Add or remove features</a></li>
+                                                    <li><a class="barLink" href="/visualstudio/install/update-visual-studio"><img src="https://docs.microsoft.com/media/common/i_upgrade.svg" alt="" />Update Visual Studio 2017</a></li>
+                                                    <li><a class="barLink" href="/visualstudio/install/modify-visual-studio"><img  src="https://docs.microsoft.com/media/common/i_setup.svg" alt="" />Add or remove features</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -112,27 +112,32 @@ ms.topic: hub-page
                                                 <h3>Beginner Tutorials</h3>
                                                 <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
                                                 <ul class="noBullet">                                                    <li>
-                                                        <a class="barLink" href="/go/azure/">
+                                                        <a class="barLink" href="/cpp/build/vscpp-step-0-installation">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="">
                                                             C++</a>
                                                     </li>
                                                     <li>
-                                                        <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
+                                                        <a class="barLink" href="/visualstudio/ide/tutorial-csharp-aspnet-core">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_CSharp.svg" alt="">
                                                             C#</a>
                                                     </li>
                                                     <li>
-                                                        <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
+                                                        <a class="barLink" href="/visualstudio/ide/tutorial-visual-basic-console">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_vb.svg" alt="">
                                                             Visual Basic</a>
                                                     </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
                                                     <li>
-                                                        <a class="barLink" href="/python/azure/">
+                                                        <a class="barLink" href="/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-01-create-project">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_python.svg" alt="">
                                                             Python</a>
                                                     </li>
                                                     <li>
-                                                        <a class="barLink" href="/javascript/azure/">
+                                                        <a class="barLink" href="/visualstudio/rtvs/getting-started-with-r">
+                                                            <img src="https://docs.microsoft.com/media/logos/logo_R.svg" alt="">
+                                                            Python</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="barLink" href="/visualstudio/javascript/tutorial-nodejs/">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="">
                                                             Node.js</a>
                                                     </li>
@@ -152,27 +157,27 @@ ms.topic: hub-page
                                                  <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
                                                 <ul class="noBullet">
                                                     <li>
-                                                        <a class="barLink" href="/go/azure/">
+                                                        <a class="barLink" href="/visualstudio/ide/getting-started-with-cpp-in-visual-studio">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="">
                                                             C++</a>
                                                     </li>
                                                     <li>
-                                                        <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
+                                                        <a class="barLink" href="/visualstudio/ide/quickstart-aspnet-core">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_CSharp.svg" alt="">
                                                             C#</a>
                                                     </li>
                                                     <li>
-                                                        <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
+                                                        <a class="barLink" href="/visualstudio/ide/quickstart-visual-basic-console">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_vb.svg" alt="">
                                                             Visual Basic</a>
                                                     </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
                                                     <li>
-                                                        <a class="barLink" href="/python/azure/">
+                                                        <a class="barLink" href="/visualstudio/ide/quickstart-python">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_python.svg" alt="">
                                                             Python</a>
                                                     </li>
                                                     <li>
-                                                        <a class="barLink" href="/javascript/azure/">
+                                                        <a class="barLink" href="/visualstudio/ide/quickstart-nodejs">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="">
                                                             Node.js</a>
                                                     </li>
@@ -190,48 +195,48 @@ ms.topic: hub-page
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Or choose an App Model to get started</h3>
+                                                <h3>Or choose an app or service type to get started</h3>
                                                  <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
                                                 <ul class="noBullet">
                                                     <li>
-                                                        <a class="barLink" href="/go/azure/">
+                                                        <a class="barLink" href="/dotnet/core/get-started?tabs=windows">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_NETCore.svg" alt="">
                                                             .NET Core Console App</a>
                                                     </li>
                                                     <li>
-                                                        <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
+                                                        <a class="barLink" href="/cpp/build/vscpp-step-1-create">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_CPlusPlus.svg" alt="">
                                                             C++ Console App</a>
                                                     </li>
                                                     <li>
-                                                        <a class="barLink" href="/dotnet/azure/?view=azure-dotnet">
+                                                        <a class="barLink" href="/visualstudio/ide/quickstart-uwp-csharp">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="">
                                                             Universal Windows App</a>
                                                     </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
                                                     <li>
-                                                        <a class="barLink" href="/python/azure/">
+                                                        <a class="barLink" href="/visualstudio/ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="">
                                                             Windows Desktop App</a>
                                                     </li>
                                                     <li>
-                                                        <a class="barLink" href="/java/azure/">
+                                                        <a class="barLink" href="/visualstudio/cross-platform/cross-platform-mobile-development-in-visual-studio">
                                                             <img src="https://docs.microsoft.com/media/common/i_mobile-app-developement.svg" alt="">
                                                             Mobile App</a>
                                                     </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
                                                     <li>
-                                                        <a class="barLink" href="/javascript/azure/">
+                                                        <a class="barLink" href="/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-2.1">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_NET.svg" alt="">
                                                             Web App - ASP.NET</a>
                                                     </li>
                                                     <li>
-                                                        <a class="barLink" href="/azure/app-service-web/app-service-web-get-started-php">
+                                                        <a class="barLink" href="/visualstudio/javascript/tutorial-nodejs">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="">
                                                             Web  App - Node.js</a>
                                                     </li>
                                                     <li>
-                                                        <a class="barLink" href="/azure/app-service-web/app-service-web-get-started-php">
+                                                        <a class="barLink" href="/azure/app-service/">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="">
-                                                            Azure Services</a>
+                                                            Azure App Services</a>
                                                     </li>
                                                 </ul></td></tr></table>
                                             </div>
