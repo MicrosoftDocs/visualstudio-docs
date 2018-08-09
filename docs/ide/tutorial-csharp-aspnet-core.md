@@ -37,7 +37,7 @@ First, you'll create a ASP.NET Core project. The project type comes with all the
 
 3. In the **New Project** dialog box in the left pane, expand **Visual C#**, expand **Web**, and then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**. Then, name the file *MyCoreApp* and choose **OK**.
 
-   ![ASP.NET Core Web Application project template in the New Project dialog box in the Visual Studio IDE](../ide/media/new-project-csharp-aspnet-mycoreapp.png)
+   ![ASP.NET Core Web Application project template in the New Project dialog box in the Visual Studio IDE](../ide/media/csharp-aspnet-choose-template-name-mycoreapp-mvc.png)
 
 #### Add a workload (optional)
 
@@ -47,7 +47,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 1. Select the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
 
-   ![Select the Open Visual Studio Installer link from the New Project dialog box](../ide/media/open-visual-studio-installer.png)
+   ![Select the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vs-open-visual-studio-installer-generic.png)
 
 2. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, and then choose **Modify**.
 
@@ -67,7 +67,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 1. In the **New ASP.NET Core Web Application** dialog box, choose the **Web Application (Model-View-Controller)** project template.
 
-2. Select **ASP.NET Core 2.0** from the top drop-down menu. (If you don't see **ASP.NET Core 2.0** in the list, install it by following the **Download** link that should appear in a yellow bar near the top of the dialog box.) Choose **OK**.
+2. Verify that **ASP.NET Core 2.0** appears in the top drop-down menu. Then, choose **OK**.
 
    ![New ASP.NET Core Web Application dialog box](../ide/media/new-project-csharp-aspnet-web-app-mvc.png)
 
@@ -85,7 +85,7 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
  1. The project template creates a solution with a single ASP.NET Core project that is named **MyCoreApp**. Expand the project node to expose its contents.
 
-    ![ASP.NET Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-mycoreapp.png)
+    ![ASP.NET Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-mycoreapp-mvc.png)
 
  1. Open the *HomeController.cs* file from the **Controllers** folder.
 
@@ -114,7 +114,7 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
      ![Configuration files in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-config-files.png)
 
-## Run and debug the application
+## Run, debug, and add code to the app
 
 1. Choose the **IIS Express** button in the IDE to build and run the app in Debug mode. (Alternatively, press **F5**, or choose **Debug > Start Debugging** from the menu bar.)
 
