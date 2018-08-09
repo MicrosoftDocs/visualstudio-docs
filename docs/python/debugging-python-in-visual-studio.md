@@ -75,7 +75,7 @@ Once stopped at a breakpoint, you have various ways to step through code or run 
 | **Step Out** | **Shift**+**F11** | Runs code until the end of the current function, then steps to the calling statement.  This command is useful when you don't need to debug the remainder of the current function. |
 | **Run to Cursor** | **Ctrl**+**F10** | Runs code up to the location of the caret in the editor. This command allows you to easily skip over a segment of code that you don't need to debug. |
 | **Set Next Statement** | **Ctrl**+**Shift**+**F10** | Changes the current run point in the code to the location of the  caret. This command allows you to omit a segment of code from being run at all, such as when you know the code is faulty or produces an unwanted side-effect. |
-| **Show Next Statement** | **Alt**+**Num**+**&#42;**| Returns you to the next statement to run. This command is helpful if you've been looking around in your code and don't remember where the debugger is stopped. |
+| **Show Next Statement** | **Alt**+**Num** **&#42;**| Returns you to the next statement to run. This command is helpful if you've been looking around in your code and don't remember where the debugger is stopped. |
 
 ### Inspect and modify values
 
@@ -144,11 +144,11 @@ By default, the debugger starts your program with the standard Python launcher, 
 
 | Option | Description |
 | --- | --- |
-| **Search Paths** | These values match what's shown in the project's Search Paths node in **Solution Explorer**. You can modify this value here, but it's easier to use **Solution Explorer** that lets you browse folders and automatically converts paths to relative form. |
+| **Search Paths** | These values match what's shown in the project's **Search Paths** node in **Solution Explorer**. You can modify this value here, but it's easier to use **Solution Explorer** that lets you browse folders and automatically converts paths to relative form. |
 | **Script Arguments** | These arguments are added to the command used to launch your script, appearing after your script's filename. The first item here is available to your script as `sys.argv[1]`, the second as `sys.argv[2]`, and so on. |
 | **Interpreter Arguments** | These arguments are added to the launcher command line before the name of your script. Common arguments here are `-W ...` to control warnings, `-O` to slightly optimize your program, and `-u` to use unbuffered IO. IronPython users are likely to use this field to pass `-X` options, such as `-X:Frames` or `-X:MTA`. |
 | **Interpreter Path** | Overrides the path associated with the current environment. The value may be useful for launching your script with a non-standard interpreter. |
-| **Environment Variables** | In this multi-line text box, add entries of the form \<NAME>=\<VALUE>. Because this setting is applied last, on top of any existing global environment variables, and after `PYTHONPATH` is set according to the Search Paths setting, it can be used to manually override any of those other variables. |
+| **Environment Variables** | In this multi-line text box, add entries of the form \<NAME>=\<VALUE>. Because this setting is applied last, on top of any existing global environment variables, and after `PYTHONPATH` is set according to the **Search Paths** setting, it can be used to manually override any of those other variables. |
 
 ## Immediate and Interactive windows
 

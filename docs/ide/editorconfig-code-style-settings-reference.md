@@ -1281,7 +1281,7 @@ This rule concerns whether an open brace `{` should be placed on the same line a
 
 | Value | Description
 | ------------- |:-------------|
-| accessors, anonymous_methods, anonymous_types, control_blocks, events, indexers, lambdas, local_functions, methods, object_collection, properties, types.<br>(For multiple kinds, separate with ','). | Require braces to be on a new line for the specified code elements (also known as "Allman" style) |
+| accessors, anonymous_methods, anonymous_types, control_blocks, events, indexers, lambdas, local_functions, methods, object_collection_array_initializers, properties, types.<br>(For multiple kinds, separate with ','). | Require braces to be on a new line for the specified code elements (also known as "Allman" style) |
 | all | Require braces to be on a new line for all expressions ("Allman" style) |
 | none | Require braces to be on the same line for all expressions ("K&R") |
 
