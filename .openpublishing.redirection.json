@@ -2717,6 +2717,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "scripting-docs/chakra-hosting/javascript-runtime-hosting.md",
+            "redirect_url": "/microsoft-edge/hosting/javascript-runtime-hosting",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "scripting-docs/javascript/advanced/index.md",
             "redirect_url": "/script/javascript/advanced/advanced-javascript",
             "redirect_document_id": false
