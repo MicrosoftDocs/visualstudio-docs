@@ -127,7 +127,7 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
    ![Select About in the browser window for your app](../ide/media/csharp-aspnet-browser-page.png)
 
-  Among other things, the **About** page in the browser renders the text that is set in the *HomeController.cs* file.
+   Among other things, the **About** page in the browser renders the text that is set in the *HomeController.cs* file.
 
    ![View the text on the About page](../ide/media/csharp-aspnet-browser-page-about.png)
 
@@ -137,7 +137,7 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
 1. Set a breakpoint in the first line of the **About** method. To do this, click in the margin or set the cursor on the line and press **F9**.
 
-  This line sets some data in the **ViewData** collection that is rendered in the CSHTML page at *Views/Home/About.cshtml*.
+   This line sets some data in the **ViewData** collection that is rendered in the CSHTML page at *Views/Home/About.cshtml*.
 
    ![Set a breakpoint in the first line of the About method in About.cshtml.  ](../ide/media/csharp-aspnet-home-controller-code-set-breakpoint.png)
 
@@ -167,7 +167,7 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
 ## Quick answers FAQ
 
-Here's a quick FAQ to introduce you to some key concepts.
+Here's a quick FAQ to confirm some key concepts.
 
 ### What is C#?
 

@@ -104,13 +104,10 @@ Congratulations on completing this Quickstart! We hope you learned a little bit 
 
 ## Next steps
 
-To learn more, continue with the following tutorials:
+To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
 > [Get started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)
->
-> [!div class="nextstepaction"]
-> [Create a Razor Pages web app with ASP.NET Core](/aspnet/core/tutorials/razor-pages/?view=aspnetcore-2.1)
 
 ## See also
 
