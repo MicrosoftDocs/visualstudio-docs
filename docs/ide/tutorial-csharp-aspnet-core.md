@@ -112,7 +112,7 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
     You can put static site content&mdash;such as CSS, images, and JavaScript libraries&mdash;directly in the paths where you want them.
 
-1. There are several configuration files that manage the project, its packages, and the app at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in *appsettings.json*. However, you can override these settings by providing an *appsettings.Development.json* file. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
+1. There are several configuration files that manage the project, its packages, and the app at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in *appsettings.json*. However, you can override these settings by using *appsettings.Development.json*. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
 
      ![Configuration files in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-config-files.png)
 
