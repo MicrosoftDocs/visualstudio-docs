@@ -22,11 +22,7 @@ In this tutorial for Visual Basic (VB), you'll use Visual Studio to create and r
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-## Start developing
-
-Ready to start developing? Let's go!
-
-### Create a project
+## Create a project
 
 First, we'll create a Visual Basic application project. The project type comes with all the template files you'll need, before you've even added anything!
 
@@ -38,11 +34,11 @@ First, we'll create a Visual Basic application project. The project type comes w
 
    ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](../ide/media/new-project-vb-dotnetcore-whatisyourname-console-app.png)
 
-#### Add a workgroup (optional)
+### Add a workgroup (optional)
 
 If you don't see the **Console App (.NET Core)** project template, you can get it by adding the **.NET Core cross-platform development** workload. You can add this workload in one of the two following ways, depending on which Visual Studio 2017 updates are installed on your machine.
 
-##### Option 1: Use the New Project dialog box
+#### Option 1: Use the New Project dialog box
 
 1. Click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
 
@@ -52,7 +48,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
    ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/dot-net-core-xplat-dev-workload.png)
 
-##### Option 2: Use the Tools menu bar
+#### Option 2: Use the Tools menu bar
 
 1. Cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features**.
 
@@ -77,7 +73,7 @@ Let's create an app that prompts you for your name and then displays it along wi
 
     This code replaces the existing <xref:System.Console.WriteLine%2A>, <xref:System.Console.Write%2A>, and <xref:System.Console.ReadKey%2A> statements.
 
- ![Code window showing the What Is Your Name code](../ide/media/vb-codewindow-what-name.png)
+   ![Code window showing the What Is Your Name code](../ide/media/vb-codewindow-what-name.png)
 
 1. When the console window opens, enter your name. Your console window should look similar to the following screenshot:
 
