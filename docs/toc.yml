@@ -1,10 +1,15 @@
 - name: Visual Studio documentation
   href: ide/index.md
 - name: Overview
-  href: ide/visual-studio-ide.md
   expanded: true
   items:
-    - name: Advanced features
+    - name: About Visual Studio 2017
+      href: ide/visual-studio-ide.md
+    - name: About the code editor
+      href: ide/quickstart-editor.md
+    - name: About projects and solutions
+      href: ide/quickstart-projects-solutions.md
+    - name: More Visual Studio features
       href: ide/advanced-feature-overview.md
 - name: Installation
   items:
@@ -105,12 +110,6 @@
   items:
   - name: Visual Studio orientation
     href: ide/quickstart-ide-orientation.md
-  - name: Projects and solutions
-    href: ide/quickstart-projects-solutions.md
-  - name: Use the editor
-    href: ide/quickstart-editor.md
-  - name: Personalize theme and text colors
-    href: ide/quickstart-personalize-the-ide.md
   - name: "C++: Create a console app"
     href: ide/getting-started-with-cpp-in-visual-studio.md
   - name: "Python: Create a web app"
@@ -623,6 +622,8 @@
   - name: Customize the IDE
     href: ide/personalizing-the-visual-studio-ide.md
     items:
+    - name: "Quickstart: Personalize theme and text colors"
+      href: ide/quickstart-personalize-the-ide.md
     - name: Change fonts and colors
       href: ide/how-to-change-fonts-and-colors-in-visual-studio.md
     - name: Customize menus and toolbars

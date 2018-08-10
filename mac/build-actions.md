@@ -1,8 +1,8 @@
 ---
 title: "Build Actions"
 description: "This article describes the various build actions that can be used for C# projects"
-author: asb3993
-ms.author: amburns
+author: conceptdev
+ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: 5399BCB1-E317-4C7B-87B1-C531E985DE6E
 ---

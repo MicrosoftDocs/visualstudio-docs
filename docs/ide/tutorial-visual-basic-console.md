@@ -1,7 +1,8 @@
 ---
 title: "Get started with Visual Basic in Visual Studio"
+description: "Learn how to create Visual Basic console apps in Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: 12/08/2017
+ms.date: 08/08/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -15,31 +16,11 @@ dev_langs:
 ms.workload:
   - "multiple"
 ---
-# Get started with Visual Basic in Visual Studio
+# Tutorial: Get started with Visual Basic in Visual Studio
 
-In this tutorial for Visual Basic (VB), you'll use Visual Studio to create and run a few different console apps, and explore some features of the [Visual Studio integrated development environment (IDE)](visual-studio-ide.md) while you do so.
+In this tutorial for Visual Basic (VB), you'll use Visual Studio to create and run a few different console apps and explore some features of the [Visual Studio integrated development environment (IDE)](visual-studio-ide.md) while you do so.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
-
-## Before you begin
-
-Here's a quick FAQ to introduce you to some key concepts.
-
-### What is Visual Basic?
-
-Visual Basic is a type-safe programming language that's designed to be easy to learn. It is derived from BASIC, which means "Beginner's All-purpose Symbolic Instruction Code".
-
-### What is Visual Studio?
-
-Visual Studio is an integrated development suite of productivity tools for developers. Think of it as a program you can use to create programs and applications.
-
-### What is a console app?
-
-A console app takes input and displays output in a command-line window, a.k.a. a console.
-
-### What is .NET Core?
-
-.NET Core is the evolutionary next step of the .NET Framework. Where the .NET Framework allowed you to share code across programming languages, .NET Core adds the ability to share code across platforms. Even better, it's open source. (Both the .NET Framework and .NET Core include libraries of prebuilt functionality as well as a common language runtime (CLR), which acts as a virtual machine in which to run your code.)
 
 ## Start developing
 
@@ -67,7 +48,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
   ![Click the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vs-open-visual-studio-installer-generic.png)
 
-2. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
+1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
    ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/dot-net-core-xplat-dev-workload.png)
 
@@ -75,7 +56,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. Cancel out of the **New Project** dialog box and from the top menu bar, choose **Tools** > **Get Tools and Features**.
 
-2. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
+1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
 ## Create a "What Is Your Name" application
 
@@ -83,7 +64,7 @@ Let's create an app that prompts you for your name and then displays it along wi
 
 1. If it is not already open, then open your *WhatIsYourName* project.
 
-2. Enter the following Visual Basic code immediately after the opening bracket that follows the `Sub Main(args As String())` line and before the `End Sub` line:
+1. Enter the following Visual Basic code immediately after the opening bracket that follows the `Sub Main(args As String())` line and before the `End Sub` line:
 
      ```vb
      Console.WriteLine(vbCrLf + "What is your name? ")
@@ -98,19 +79,19 @@ Let's create an app that prompts you for your name and then displays it along wi
 
  ![Code window showing the What Is Your Name code](../ide/media/vb-codewindow-what-name.png)
 
-3. When the console window opens, enter your name. Your console window should look similar to the following screenshot:
+1. When the console window opens, enter your name. Your console window should look similar to the following screenshot:
 
    ![Console window showing What Is Your Name, the time and date, and Press any key to continue message](../ide/media/vb-console-what-name.png)
 
-5. Press any key to close the console window.
+1. Press any key to close the console window.
 
 ## Create a "Calculate This" application
 
 1. Open Visual Studio 2017, and then from the top menu bar, choose **File** > **New** > **Project**.
 
-2. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *CalculateThis*.
+1. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *CalculateThis*.
 
-3. Enter the following code between the `Module Program` line and `End Module` line:
+1. Enter the following code between the `Module Program` line and `End Module` line:
 
    ```vb
    Public num1 As Integer
@@ -131,16 +112,39 @@ Let's create an app that prompts you for your name and then displays it along wi
 
    ![Code window showing the Calculate This code](../ide/media/vb-codewindow-calculate-this.png)
 
-4. Click **CalculateThis** to run your program. Your console window should look similar to the following screenshot:
+1. Click **CalculateThis** to run your program. Your console window should look similar to the following screenshot:
 
     ![Console window showing the CaluculateThis app, which includes prompts on which actions to take.](../ide/media/vb-console-calculate-this.png)
 
+## Quick answers FAQ
+
+Here's a quick FAQ to highlight some key concepts.
+
+### What is Visual Basic?
+
+Visual Basic is a type-safe programming language that's designed to be easy to learn. It is derived from BASIC, which means "Beginner's All-purpose Symbolic Instruction Code".
+
+### What is Visual Studio?
+
+Visual Studio is an integrated development suite of productivity tools for developers. Think of it as a program you can use to create programs and applications.
+
+### What is a console app?
+
+A console app takes input and displays output in a command-line window, a.k.a. a console.
+
+### What is .NET Core?
+
+.NET Core is the evolutionary next step of the .NET Framework. Where the .NET Framework allowed you to share code across programming languages, .NET Core adds the ability to share code across platforms. Even better, it's open source. (Both the .NET Framework and .NET Core include libraries of prebuilt functionality as well as a common language runtime (CLR), which acts as a virtual machine in which to run your code.)
+
 ## Next steps
 
-Congratulations on completing this tutorial! To learn even more about Visual Basic and the Visual Studio IDE, see the following pages.
+Congratulations on completing this tutorial! To learn even more, see the following tutorial.
 
-* [Visual Basic guide](/dotnet/visual-basic/index)
+> [!div class="nextstepaction"]
+> [Video tutorial: Visual Basic fundamentals for absolute beginners](https://mva.microsoft.com/en-us/training-courses/visual-basic-fundamentals-for-absolute-beginners-16507)
+
+## See also
+
 * [What's new in Visual Basic](/dotnet/visual-basic/getting-started/whats-new)
 * [IntelliSense for Visual Basic code files](visual-basic-specific-intellisense.md)
 * [Visual Basic language reference](/dotnet/visual-basic/language-reference/index)
-* [Visual Basic fundamentals for absolute beginners](https://mva.microsoft.com/en-us/training-courses/visual-basic-fundamentals-for-absolute-beginners-16507) video course
