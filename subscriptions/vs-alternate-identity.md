@@ -39,20 +39,20 @@ For all subscriptions, you can add a "work or school account" so you can use tha
 
 2. Go to **Subscriptions**.
 
-
-   ![Add alternate account - go to subscriptions in VS](_img/vs-alternate-identity/my-vs-subscriptions.png)
+    > [!div class="mx-imgBorder"]
+    > ![Add alternate account - go to subscriptions in VS](_img/vs-alternate-identity/my-vs-subscriptions.png)
 
 3. Choose **Add alternate account**.
-
-   ![Choose add alternate account ](_img/vs-alternate-identity/choose-add-alternate-account.png)
+    > [!div class="mx-imgBorder"]
+    > ![Choose add alternate account ](_img/vs-alternate-identity/choose-add-alternate-account.png)
 
 4. Add your work or school account.
-
-   ![Add work or school account](_img/vs-alternate-identity/enter-alternate-account-my-visual-studio-com-portal.png)
+    > [!div class="mx-imgBorder"]
+    > ![Add work or school account](_img/vs-alternate-identity/enter-alternate-account-my-visual-studio-com-portal.png)
 
 5. Use your work or school account to sign in to Visual Studio Team Services (https://{youraccount}.visualstudio.com).
-
-   ![Use your work or school account](_img/vs-alternate-identity/sign-in-with-alternate-account.png)
+    > [!div class="mx-imgBorder"]
+    > ![Use your work or school account](_img/vs-alternate-identity/sign-in-with-alternate-account.png)
 
 Your alternate account is added to the Visual Studio subscription, allowing both identities to utilize the benefits of the subscription that require you to sign in with the alternate account (IDE, VSTS, and Azure).
 
