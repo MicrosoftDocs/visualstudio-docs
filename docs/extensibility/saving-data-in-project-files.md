@@ -16,18 +16,18 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Saving Data in Project Files
+# Save data in project files
 A project subtype can save and retrieve subtype-specific data in the project file. The Managed Package Framework (MPF) provides two interfaces to accomplish this task:  
   
 -   The <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> interface allows to access property values from the **MSBuild** section of the project file. The methods provided by <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage> can be called by any user whenever the user needs to load or save build related data.  
   
 -   The <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> is used to persist non-build related data in free-form XML. The methods provided by <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment> are called by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] whenever [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] needs to persist non-build related data in the project file.  
   
- For more information on how to persist build and non-build related data, see [Persisting Data in the MSBuild Project File](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md).  
+ For more information on how to persist build and non-build related data, see [Persist data in the MSBuild project file](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md).  
   
-## Saving and retrieving build related data  
+## Save and retrieve build related data  
   
-#### To save a build related data in the project file  
+### To save a build related data in the project file  
   
 -   Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetPropertyValue%2A> method to save a full path of the project file.  
   
@@ -42,7 +42,7 @@ A project subtype can save and retrieve subtype-specific data in the project fil
         (uint)_PersistStorageType.PST_PROJECT_FILE, newFullPath));  
     ```  
   
-#### To retrieve build related data from the project file  
+### To retrieve build related data from the project file  
   
 -   Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.GetPropertyValue%2A> method to retrieve a full path of the project file.  
   
@@ -57,9 +57,9 @@ A project subtype can save and retrieve subtype-specific data in the project fil
         (uint)_PersistStorageType.PST_PROJECT_FILE, out fullPath));  
     ```  
   
-## Saving and retrieving non-build related data  
+## Save and retrieve non-build related data  
   
-#### To save non-build related data in the project file  
+### To save non-build related data in the project file  
   
 1.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.IsFragmentDirty%2A> method to determine whether an XML fragment has changed since it was last saved to its current file.  
   
@@ -140,7 +140,7 @@ A project subtype can save and retrieve subtype-specific data in the project fil
     }  
     ```  
   
-#### To retrieve non-build related data in the project file  
+### To retrieve non-build related data in the project file  
   
 1.  Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IPersistXMLFragment.InitNew%2A> method to initialize the project extension properties and other build-independent data. This method is called if there is no XML configuration data present in the project file.  
   
@@ -203,7 +203,7 @@ A project subtype can save and retrieve subtype-specific data in the project fil
     ```  
   
 > [!NOTE]
->  All code examples provided in this topic are parts of a larger example in [VSSDK Samples](http://aka.ms/vs2015sdksamples).  
+>  All code examples provided in this topic are parts of a larger example in [VSSDK samples](http://aka.ms/vs2015sdksamples).  
   
-## See Also  
- [Persisting Data in the MSBuild Project File](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md)
+## See also  
+ [Persist data in the MSBuild project file](../extensibility/internals/persisting-data-in-the-msbuild-project-file.md)

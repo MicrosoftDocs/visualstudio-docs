@@ -32,7 +32,7 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 1. Under **Local Git Repositories**, select the **Clone** command, then enter `https://github.com/gregmalcolm/python_koans` in the URL field, enter a folder for the cloned files, and select the **Clone** button.
 
     > [!Tip]
-    > The folder you specify in Team Explorer is the exact folder to receive the cloned files. Unlike the `git clone` command, creating a clone in Team Explorer does not automatically create a subfolder with the name of the repository.
+    > The folder you specify in **Team Explorer** is the exact folder to receive the cloned files. Unlike the `git clone` command, creating a clone in **Team Explorer** does not automatically create a subfolder with the name of the repository.
 
 1. When cloning is complete, the repository name appears in the **Local Git Repositories** list. Double-click that name to navigate to the repository dashboard in **Team Explorer**.
 

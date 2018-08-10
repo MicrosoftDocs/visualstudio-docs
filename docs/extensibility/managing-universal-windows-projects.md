@@ -12,19 +12,19 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Managing Universal Windows Projects
-Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8.1, allowing developers to use code and other assets on both platforms. The shared code and resources are kept in a shared project, while the platform-specific code and resources are kept in separate projects, one for Windows and the other for Windows Phone. For more information about universal Windows apps, see [Universal Windows Apps](http://msdn.microsoft.com/library/windows/apps/dn609832.aspx). Visual Studio extensions that manage projects should be aware that universal Windows app projects have a structure that differs from single-platform apps. This walkthrough shows you how to navigate the shared project and manage the shared items.  
+# Manage Universal Windows projects
+Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8.1, allowing developers to use code and other assets on both platforms. The shared code and resources are kept in a shared project, while the platform-specific code and resources are kept in separate projects, one for Windows and the other for Windows Phone. For more information about universal Windows apps, see [Universal Windows apps](http://msdn.microsoft.com/library/windows/apps/dn609832.aspx). Visual Studio extensions that manage projects should be aware that universal Windows app projects have a structure that differs from single-platform apps. This walkthrough shows you how to navigate the shared project and manage the shared items.  
   
 ## Prerequisites  
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
+ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
   
 ### Navigate the shared project  
   
-1.  Create a C# VSIX project named **TestUniversalProject**. (**File, New, Project** and then **C#, Extensibility, Visual Studio Package**). Add a **Custom Command** project item template (on the Solution Explorer, right-click the project node and select **Add / New Item**, then go to **Extensibility**). Name the file **TestUniversalProject**.  
+1.  Create a C# VSIX project named **TestUniversalProject**. (**File** > **New** > **Project** and then **C#** > **Extensibility** > **Visual Studio Package**). Add a **Custom Command** project item template (on the **Solution Explorer**, right-click the project node and select **Add** > **New Item**, then go to **Extensibility**). Name the file **TestUniversalProject**.  
   
-2.  Add a reference to Microsoft.VisualStudio.Shell.Interop.12.1.DesignTime.dll and Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime.dll (in the **Extensions** section).  
+2.  Add a reference to *Microsoft.VisualStudio.Shell.Interop.12.1.DesignTime.dll* and *Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime.dll* (in the **Extensions** section).  
   
-3.  Open TestUniversalProject.cs and add the following `using` statements:  
+3.  Open *TestUniversalProject.cs* and add the following `using` statements:  
   
     ```csharp  
     using EnvDTE;  
@@ -37,7 +37,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
     using System.Windows.Forms;  
     ```  
   
-4.  In the TestUniversalProject class add a private field pointing to the **Output** window.  
+4.  In the `TestUniversalProject` class add a private field pointing to the **Output** window.  
   
     ```csharp  
     public sealed class TestUniversalProject   
@@ -288,7 +288,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
     output.OutputStringThreadSafe("set active project: " + platformCaption +'\n');  
     ```  
   
-16. Now try it out. Press F5 to launch the experimental instance. Create a C# universal hub app project in the experimental instance (in the **New Project** dialog box, **Visual C# / Windows / Windows 8 / Universal / Hub App**). After the solution is loaded, go to the **Tools** menu and click **Invoke TestUniversalProject**, and then check the text in the **Output** pane. You should see something like the following:  
+16. Now try it out. Press F5 to launch the experimental instance. Create a C# universal hub app project in the experimental instance (in the **New Project** dialog box, **Visual C#** > **Windows** > **Windows 8** > **Universal** > **Hub App**). After the solution is loaded, go to the **Tools** menu and click **Invoke TestUniversalProject**, and then check the text in the **Output** pane. You should see something like the following:  
   
     ```  
     Found shared project: HubApp.Shared  
@@ -350,7 +350,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
     output.OutputStringThreadSafe(string.Format("Shared item full path: {0}\n", fullPath));  
     ```  
   
-4.  Now try it out. Press F5 to launch the experimental instance. Create a C# universal hub app project in the experimental instance (in the **New Project** dialog box, **Visual C# / Windows / Windows 8 / Universal / Hub App**) go to the **Tools** menu and click **Invoke TestUniversalProject**, and then check the text in the **Output** pane. You should see something like the following:  
+4.  Now try it out. Press **F5** to launch the experimental instance. Create a C# universal hub app project in the experimental instance (in the **New Project** dialog box, **Visual C#** > **Windows** > **Windows 8** > **Universal** > **Hub App**) go to the **Tools** menu and click **Invoke TestUniversalProject**, and then check the text in the **Output** pane. You should see something like the following:  
   
     ```  
     Found shared project: HubApp.Shared  
@@ -404,7 +404,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
                 SectionPage.xaml.cs  
     ```  
   
-### Detecting changes in platform projects and shared projects  
+### Detect changes in platform projects and shared projects  
   
 1.  You can use hierarchy and project events to detect changes in shared projects, just as you can for platform projects. However, the project items in the shared project are not visible, which means that certain events do not fire when shared project items are changed.  
   
@@ -420,9 +420,9 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
   
      In this procedure you add an event listener to a shared project and a platform project. Then, when you rename one file in a shared project and another file in a platform project, you can see the events that are fired for each rename operation.  
   
-2.  Add an event listener. Add a new class file to the project and call it HierarchyEventListener.cs.  
+2.  Add an event listener. Add a new class file to the project and call it *HierarchyEventListener.cs*.  
   
-3.  Open the HierarchyEventListener.cs file and add the following using statements:  
+3.  Open the *HierarchyEventListener.cs* file and add the following using statements:  
   
     ```csharp  
     using Microsoft.VisualStudio.Shell.Interop;  
@@ -550,7 +550,7 @@ Universal Windows apps are apps that target both Windows 8.1 and Windows Phone 8
     this.ModifyFileNameInProject(sharedHier, fullPath);  
     ```  
   
-11. Build and run the project. Create a C# universal hub app in the experimental instance, go to the **Tools** menu and click **Invoke TestUniversalProject**, and check the text in the general output pane. The name of the first item in the shared project (we expect it to be the App.xaml file) should be changed, and you should see that the <xref:EnvDTE.ProjectItemsEventsClass.ItemRenamed> event has fired. In this case, since renaming App.xaml causes App.xaml.cs to be renamed as well, you should see four events (two for each platform project). (DTE events do not track the items in the shared project.) You should see two <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchyEvents.OnItemDeleted%2A> events (one for each of platform projects), but no <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchyEvents.OnItemAdded%2A> events.  
+11. Build and run the project. Create a C# universal hub app in the experimental instance, go to the **Tools** menu and click **Invoke TestUniversalProject**, and check the text in the general output pane. The name of the first item in the shared project (we expect it to be the *App.xaml* file) should be changed, and you should see that the <xref:EnvDTE.ProjectItemsEventsClass.ItemRenamed> event has fired. In this case, since renaming *App.xaml* causes *App.xaml.cs* to be renamed as well, you should see four events (two for each platform project). (DTE events do not track the items in the shared project.) You should see two <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchyEvents.OnItemDeleted%2A> events (one for each of platform projects), but no <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchyEvents.OnItemAdded%2A> events.  
   
 12. Now try renaming a file in a platform project, and you can see the difference in the events that get fired. Add the following code in `ShowMessageBox` after the call to `ModifyFileName`.  
   

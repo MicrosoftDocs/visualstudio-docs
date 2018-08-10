@@ -1,6 +1,6 @@
 ---
 title: "Quickstart: Create your first console app in Visual Studio with Visual Basic"
-description: "Learn how to create a simple console app in Visual Studio with Visual Basic, step-by-step."
+description: "Learn how to create a simple Hello World console app in Visual Studio with Visual Basic, step-by-step."
 ms.custom: ""
 ms.date: 12/10/2017
 ms.prod: visual-studio-dev15

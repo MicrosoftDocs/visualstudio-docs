@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# ProjectType Element (Visual Studio Templates)
+# ProjectType element (Visual Studio templates)
 Categorizes the project template so that it appears under the specified group in the **New Project** or **Add New Item** dialog box.  
   
 > [!WARNING]
@@ -28,26 +28,26 @@ Categorizes the project template so that it appears under the specified group in
   
 ## Syntax  
   
-```  
+```xml  
 <ProjectType> CSharp/VisualBasic/VC/Web </ProjectType>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attribute, child elements, and parent elements.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements  
  None.  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.|  
   
-## Text Value  
+## Text value  
  A text value is required.  
   
  This value specifies the type of project the template will create, and must contain one of the following values:  
@@ -92,7 +92,7 @@ Categorizes the project template so that it appears under the specified group in
 </VSTemplate>  
 ```  
   
-## See Also  
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)   
- [ProjectSubType Element (Visual Studio Templates)](../extensibility/projectsubtype-element-visual-studio-templates.md)
+## See also  
+ [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)   
+ [Create project and item templates](../ide/creating-project-and-item-templates.md)   
+ [ProjectSubType element (Visual Studio templates)](../extensibility/projectsubtype-element-visual-studio-templates.md)

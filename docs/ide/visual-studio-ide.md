@@ -14,13 +14,13 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Visual Studio overview
+# Welcome to the Visual Studio IDE
 
 The Visual Studio *integrated development environment* is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to ease the software development process.
 
 Visual Studio is available for Windows and Mac. [Visual Studio for Mac](/visualstudio/mac/) has many of the same features as Visual Studio 2017, and is optimized for developing cross-platform and mobile apps.
 
-This article focuses on Visual Studio 2017 for Windows. It introduces you to the basic features of the IDE. We'll walk through some things you can do with Visual Studio, including creating a simple project, using [IntelliSense](using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution. We'll also take a tour of the various tool windows.
+This overview article focuses on Visual Studio 2017 for Windows. It introduces you to the basic features of the IDE. We'll walk through some things you can do with Visual Studio, including creating a simple project, using [IntelliSense](using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution. We'll also take a tour of the various tool windows.
 
 ## Install the Visual Studio IDE
 
@@ -58,7 +58,7 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
 - [IntelliSense](../ide/using-intellisense.md)
 
-   IntelliSense is a term for a set of features that display information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information elsewhere. IntelliSense features vary by language. For more information, see [C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ IntelliSense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), and [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows how IntelliSense displays a member list for a type:
+   IntelliSense is a term for a set of features that displays information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information elsewhere. IntelliSense features vary by language. For more information, see [C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ IntelliSense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), and [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows how IntelliSense displays a member list for a type:
 
    ![Visual Studio Member List](../ide/media/intellisense-list-members.png)
 
@@ -250,21 +250,32 @@ You can personalize the Visual Studio user interface, including change the defau
 
    The color theme for the entire IDE changes to **Dark**.
 
-   ![VS in a dark theme](media/quickstart-personalize-dark-theme.png)
+   ![Visual Studio in dark theme](media/quickstart-personalize-dark-theme.png)
 
 To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../ide/personalizing-the-visual-studio-ide.md).
 
-## Learn more
+## Next steps
 
-Do you want to create an app for an Android or iOS phone? How about a 3D game, or a cloud-enabled app? To learn about these and other features of Visual Studio, see [Features of Visual Studio 2017](../ide/advanced-feature-overview.md).
+Explore Visual Studio further by following along with one of these introductory articles:
 
-If you just want to get started coding now, choose one of the Quickstart topics from the table of contents, such as [Create your first ASP.NET Core web app](quickstart-aspnet-core.md).
+- Get acquainted with the code editor in [Learn to use the code editor](quickstart-editor.md)
 
-You can also check out the free Visual Studio courses available on [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033).
+- Learn how Visual Studio organizes code in [Learn about projects and solutions](quickstart-projects-solutions.md)
+
+If you're ready to dive into more coding, one of the following language-specific quickstarts is a good next step:
+
+- [Use Visual Studio to create your first Python web app](quickstart-python.md)
+
+- [Use Visual Studio to create your first C# web app](quickstart-aspnet-core.md)
+
+- [Use Visual Studio to create your first Node.js app](quickstart-nodejs.md)
+
+- [Get started with C++ in Visual Studio](getting-started-with-cpp-in-visual-studio.md)
 
 ## See also
 
-* [More Visual Studio features](../ide/advanced-feature-overview.md)
-* [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
-* [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
-* [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
+- Discover [more Visual Studio features](../ide/advanced-feature-overview.md)
+- Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
+- Read [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
+- Check out the free Visual Studio courses at [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)
+- Download Visual Studio at [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
