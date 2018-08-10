@@ -2,7 +2,7 @@
 title: "Get started with C# and ASP.NET Core in Visual Studio"
 description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
 ms.custom: ""
-ms.date: 08/08/2018
+ms.date: 08/10/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -23,11 +23,7 @@ In this tutorial for C# development with ASP.NET Core using Visual Studio, you'l
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-## Start developing
-
-Ready to start developing? Let's go!
-
-### Create a project
+## Create a project
 
 First, you'll create a ASP.NET Core project. The project type comes with all the template files you'll need for a website, before you've even added anything!
 
@@ -39,11 +35,11 @@ First, you'll create a ASP.NET Core project. The project type comes with all the
 
    ![ASP.NET Core Web Application project template in the New Project dialog box in the Visual Studio IDE](../ide/media/csharp-aspnet-choose-template-name-mycoreapp-mvc.png)
 
-#### Add a workload (optional)
+### Add a workload (optional)
 
 If you don't see the **ASP.NET Core Web Application** project template, you can get it by adding the **ASP.NET and web development** workload. You can add this workload in one of the two following ways, depending on which Visual Studio 2017 updates are installed on your machine.
 
-##### Option 1: Use the New Project dialog box
+#### Option 1: Use the New Project dialog box
 
 1. Select the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
 
@@ -55,7 +51,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
    (You might have to close Visual Studio before you can continue installing the new workload.)
 
-##### Option 2: Use the Tools menu bar
+#### Option 2: Use the Tools menu bar
 
 1. Cancel out of the **New Project** dialog box. Then, from the top menu bar, choose **Tools** > **Get Tools and Features**.
 
@@ -63,7 +59,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
    (You might have to close Visual Studio before you can continue installing the new workload.)
 
-#### Add a project template
+### Add a project template
 
 1. In the **New ASP.NET Core Web Application** dialog box, choose the **Web Application (Model-View-Controller)** project template.
 
@@ -112,7 +108,7 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
     You can put static site content&mdash;such as CSS, images, and JavaScript libraries&mdash;directly in the paths where you want them.
 
-1. There are several configuration files that manage the project, its packages, and the app at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in *appsettings.json*. However, you can override these settings by using *appsettings.Development.json*. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
+ 1. There are several configuration files that manage the project, its packages, and the app at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in *appsettings.json*. However, you can override these settings by using *appsettings.Development.json*. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
 
      ![Configuration files in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-config-files.png)
 
