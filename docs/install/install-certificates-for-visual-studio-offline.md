@@ -30,7 +30,7 @@ There are three options for installing or updating certificates in an offline en
 
 When you create a network layout, the necessary certificates are downloaded to the Certificates folder. You can then manually install the certificates by double-clicking each of the certificate files, and then clicking through the Certificate Manager wizard. If asked for a password, leave it blank.
 
-**Update**: For Visual Studio 2017 version 15.8 Preview 5 or later, you can manually install the certificates by right-clicking each of the certificate files, selecting Install Certificate, and then clicking through the Certificate Manager wizard.
+**Update**: For Visual Studio 2017 version 15.8 Preview 2 or later, you can manually install the certificates by right-clicking each of the certificate files, selecting Install Certificate, and then clicking through the Certificate Manager wizard.
 
 ### Option 2 - Distribute trusted root certificates in an enterprise environment
 
@@ -57,7 +57,7 @@ If you are scripting the deployment of Visual Studio in an offline environment t
 
    certmgr.exe -add -c certificates\vs_installer_opc.SignCertificates.p12 -n "Microsoft Root Certificate Authority" -s -r LocalMachine root
    ```
-   **Update**: For Visual Studio 2017 version 15.8 Preview 5 or later, create the batch file with the following commands:
+   **Update**: For Visual Studio 2017 version 15.8 Preview 2 or later, create the batch file with the following commands:
 
    ```cmd
    certmgr.exe -add [layout path]\certificates\manifestSignCertificates.cer -n "Microsoft Root Certificate Authority 2011" -s -r LocalMachine root
@@ -89,7 +89,7 @@ The three .P12 files in this folder each contain an intermediate certificate and
     * Root certificate: **Microsoft Root Certificate Authority**
         * Required. This certificate ships with systems running Windows 7 or later.
 
-**Update**: For Visual Studio 2017 version 15.8 Preview 5 or later, the Visual Studio Installer requires only the root certificates to be installed on the system.
+**Update**: For Visual Studio 2017 version 15.8 Preview 2 or later, the Visual Studio Installer requires only the root certificates to be installed on the system.
 
 ## Why are the certificates from the Certificates folder not installed automatically?
 
