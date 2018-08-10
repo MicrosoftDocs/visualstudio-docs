@@ -106,7 +106,7 @@ The MVC pattern helps you create apps that are easier to test and update than tr
     >[!NOTE]
     > To learn more about Razor, see the [Get started with C# and ASP.NET using the Razor syntax](/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c) page.
 
- 1. The solution also contains a *wwwroot* folder that is the root for your website. Expand the folder to view its contents.
+ 1. The project also contains a **wwwroot** folder that is the root for your website. Expand the folder to view its contents.
 
      ![wwwroot folder in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-wwwroot.png)
 
