@@ -29,11 +29,11 @@ Ready to start developing? Let's go!
 
 ### Create a project
 
-First, you'll create a ASP.NET Core project. The project type comes with all the template files you'll need, before you've even added anything.
+First, you'll create a ASP.NET Core project. The project type comes with all the template files you'll need for a website, before you've even added anything!
 
 1. Open Visual Studio 2017.
 
-2. From the top menu bar, choose **File** > **New** > **Project**. This project template contains all the files you need for a website, before you've even added anything!
+2. From the top menu bar, choose **File** > **New** > **Project**. 
 
 3. In the **New Project** dialog box in the left pane, expand **Visual C#**, expand **Web**, and then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**. Then, name the file *MyCoreApp* and choose **OK**.
 
@@ -91,37 +91,37 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
      ![HomeController.cs file in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-home-controller.png)
 
- 1. View the *HomeController.cs*
+ 1. View the *HomeController.cs* file.
 
      ![HomeController.cs in the Visual Studio code window](../ide/media/csharp-aspnet-home-controller-code.png)
 
- 1. The project also has a **Views** folder that contains other folders that map to each controller (as well as one for **Shared** views). For example, the view CSHTML file (an extension of HTML) for the */Home/About* path would be at *Views/Home/About.cshtml*. Open that file.
+ 1. The project also has a **Views** folder that contains subfolders that map to each controller. For example, the view CSHTML file (an extension of HTML) for the */Home/About* path would be at *Views/Home/About.cshtml*. Open that file.
 
      ![About.cshtml file in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-view-about.png)
 
- 1. This CSHTML file uses the Razor syntax to render HTML based on a combination of standard tags and inline C#.
+    This CSHTML file uses the Razor syntax to render HTML based on a combination of standard tags and inline C#.
 
      ![About.cshtml in the Visual Studio code window](../ide/media/csharp-aspnet-about-cshtml-code.png)
 
-   >[!NOTE]
-   > To learn more about this, see the [Get started with C# and ASP.NET using the Razor syntax](/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c) page.
+    >[!NOTE]
+    > To learn more about Razor, see the [Get started with C# and ASP.NET using the Razor syntax](/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c) page.
 
- 1. The solution also contains a *wwwroot* folder that is the root for your website. You can put static site content, such as CSS, images, and JavaScript libraries, directly at the paths you'd want them to be at when the site is deployed.
+    The solution also contains a *wwwroot* folder that is the root for your website. You can put static site content&mdash;such as CSS, images, and JavaScript libraries&mdash;directly in the paths where you want them.
 
      ![wwwroot folder in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-wwwroot.png)
 
- 1. There are also a variety of configuration files that serve to manage the project, its packages, and the application at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in *appsettings.json*. However, you can override some/all of these settings on a per-environment basis, such as by providing an *appsettings.Development.json* file for the **Development** environment.
+    There are also a several configuration files that manage the project, its packages, and the app at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in *appsettings.json*. However, you can override these settings by providing an *appsettings.Development.json* file for the **Development** environment.
 
      ![Configuration files in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-config-files.png)
 
-## Run, debug, and add code to the app
+## Run, debug, and make changes
 
 1. Choose the **IIS Express** button in the IDE to build and run the app in Debug mode. (Alternatively, press **F5**, or choose **Debug > Start Debugging** from the menu bar.)
 
-   ![Select the IIS Express button in Visual Studio](../ide/media/csharp-aspnet-iis-express-button.png)
+     ![Select the IIS Express button in Visual Studio](../ide/media/csharp-aspnet-iis-express-button.png)
 
-  > [!NOTE]
-  > If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then open it by using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
+     > [!NOTE]
+     > If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then open it by using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
 
 1. Visual Studio launches a browser window. Select **About**.
 
