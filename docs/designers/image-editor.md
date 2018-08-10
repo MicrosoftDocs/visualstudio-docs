@@ -16,13 +16,13 @@ ms.workload:
 ---
 # Image editor
 
-This document describes how to work with the Visual Studio Image Editor to view and modify texture and image resources.
+This article describes how to work with the Visual Studio **Image Editor** to view and modify texture and image resources.
 
- You can use the Image Editor to work with the kinds of rich texture and image formats that are used in DirectX app development—this includes support for popular image file formats and color encodings, features such as alpha-channels and MIP-mapping, and many of the highly-compressed, hardware-accelerated texture formats that DirectX supports.
+You can use the **Image Editor** to work with the kinds of rich texture and image formats that are used in DirectX app development. This includes support for popular image file formats and color encodings, features such as alpha-channels and MIP-mapping, and many of the highly-compressed, hardware-accelerated texture formats that DirectX supports.
 
 ## Supported formats
 
-The Image Editor supports these image formats:
+The **Image Editor** supports the following image formats:
 
 |Format name|File Name Extension|
 |-----------------|-------------------------|
@@ -38,65 +38,75 @@ The Image Editor supports these image formats:
 
 This section describes how to add an image to your Visual Studio project and configure it for your requirements.
 
-### To add an image to your project
+### Add an image to your project
 
-1.  In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add** > **New Item**.
+1. In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add** > **New Item**.
 
-2.  In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select an appropriate file format for the image. For information about how to choose a file format based on your requirements, see the following section.
+2. In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select an appropriate file format for the image. For information about how to choose a file format based on your requirements, see the following section.
 
-3.  Specify the **Name** of the image file, and the **Location** where you want it to be created.
+   > [!NOTE]
+   > If you don't see the **Graphics** category in the **Add New Item** dialog, you may need to install the **Image and 3D model editors** component. Close the dialog and then select **Tools** > **Get Tools and Features** from the menu bar, to open the **Visual Studio Installer**. Select the **Individual components** tab, and then select the **Image and 3D model editors** component under the **Games and Graphics** category. Select **Modify**.
+   >
+   > ![Image and 3D model editors component](media/image-3d-model-editors-component.png)
+   >
+   > If you have the **Image and 3D model editors** component installed and still don't see the **Graphics** template category, note that this category only appears for certain project types, for example, console applications.
 
-4.  Choose the **Add** button.
+3. Specify the **Name** of the image file, and the **Location** where you want it to be created.
+
+4. Choose the **Add** button.
 
 ### Choose the image format
 
-Depending on how you plan to use the image, certain file formats might be more appropriate than others. For example, some formats might not support a feature that you need—like, transparency or a specific color format—or might not provide suitable compression for the kind of image content you have planned.
+Depending on how you plan to use the image, certain file formats might be more appropriate than others. For example, some formats might not support a feature that you need, for example, transparency or a specific color format. Some formats might not provide suitable compression for the kind of image content you have planned.
 
- The following information can help you choose an image format that meets your needs.
+The following information can help you choose an image format that meets your needs:
 
- **Bitmap Image (.bmp)**
- The bitmap image format. An uncompressed image format that supports 24-bit color. The bitmap format doesn't support transparency.
+**Bitmap Image (.bmp)**
 
- **GIF Image (.gif)**
- The Graphics Interchange Format (GIF) image format. An LZW-compressed, lossless image format that supports up to 256 colors. Unsuitable for photographs and images that have a significant amount of color detail, but provides good compression ratios for low-color images that have a high degree of color coherence.
+The bitmap image format. An uncompressed image format that supports 24-bit color. The bitmap format doesn't support transparency.
 
- **JPG Image (.jpg)**
- The Joint Photographic Experts Group (JPEG) image format. A highly-compressed, lossy image format that supports 24-bit color and is suitable for general-purpose compression of images that have a high degree of color coherence.
+**GIF Image (.gif)**
 
- **PNG Image (.png)**
- The Portable Network Graphics (PNG) image format. A moderately-compressed, lossless image format that supports 24-bit color and alpha transparency. It is suitable for both natural and artificial images, but does not provide compression ratios as good as lossy formats such as JPG or GIF.
+The Graphics Interchange Format (GIF) image format. An LZW-compressed, lossless image format that supports up to 256 colors. Unsuitable for photographs and images that have a significant amount of color detail, but provides good compression ratios for low-color images that have a high degree of color coherence.
 
- **TIFF Image (.tif)**
- The Tagged Image File Format (TIFF or TIF) image format. A flexible image format that supports several compression schemes.
+**JPG Image (.jpg)**
 
- **DDS Texture (.dds)**
- The DirectDraw Surface (DDS) texture format. A highly-compressed, lossy texture format that supports 24-bit color and alpha transparency. Its compression ratios can be as high as 8:1. It's based on S3 Texture compression, which can be decompressed on graphics hardware.
+The Joint Photographic Experts Group (JPEG) image format. A highly-compressed, lossy image format that supports 24-bit color and is suitable for general-purpose compression of images that have a high degree of color coherence.
 
- **TGA Image (.tga)**
- The Truevision Graphics Adapter (TGA) image format (also known as Targa). An RLE-compressed, lossless image format that supports both color-mapped (color palette) or direct-color images of up to 24-bit color and alpha transparency. Unsuitable for photographs and images that have a significant amount of color detail, but provides good compression ratios for images that have long spans of identical colors.
+**PNG Image (.png)**
+
+The Portable Network Graphics (PNG) image format. A moderately-compressed, lossless image format that supports 24-bit color and alpha transparency. It is suitable for both natural and artificial images, but does not provide compression ratios as good as lossy formats such as JPG or GIF.
+
+**TIFF Image (.tif)**
+
+The Tagged Image File Format (TIFF or TIF) image format. A flexible image format that supports several compression schemes.
+
+**DDS Texture (.dds)**
+
+The DirectDraw Surface (DDS) texture format. A highly-compressed, lossy texture format that supports 24-bit color and alpha transparency. Its compression ratios can be as high as 8:1. It's based on S3 Texture compression, which can be decompressed on graphics hardware.
+
+**TGA Image (.tga)**
+
+The Truevision Graphics Adapter (TGA) image format (also known as Targa). An RLE-compressed, lossless image format that supports both color-mapped (color palette) or direct-color images of up to 24-bit color and alpha transparency. Unsuitable for photographs and images that have a significant amount of color detail, but provides good compression ratios for images that have long spans of identical colors.
 
 ### Configure the image
 
-Before you begin to work with the image that you just created, you can change its default configuration. For example, you can change its dimensions or the color format that it uses. For information about how to configure these and other properties of the image, see [Image properties](#ImageProperties).
+Before you begin to work with the image that you just created, you can change its default configuration. For example, you can change its dimensions or the color format that it uses. For information about how to configure these and other properties of the image, see [Image properties](#image-properties).
 
 > [!NOTE]
->  Before you save your work, make sure to set the **Color Format** property if you want to use a specific color format. If the file format supports compression, you can adjust the compression settings when you save the file for the first time or when you choose **Save As**.
+> Before you save your work, make sure to set the **Color Format** property if you want to use a specific color format. If the file format supports compression, you can adjust the compression settings when you save the file for the first time or when you choose **Save As**.
 
 ## Work with the Image Editor
 
-This section describes how to use the Image Editor to modify textures and images.
+This section describes how to use the **Image Editor** to modify textures and images.
 
-### Image Editor toolbars
+Commands that affect the state of the **Image Editor** are located on the **Image Editor Mode** toolbar together with advanced commands. The toolbar is located along the topmost edge of the **Image Editor** design surface. Drawing tools are located on the **Image Editor** toolbar along the leftmost edge of the **Image Editor** design surface.
 
-The Image Editor toolbars contain commands that help you work with images.
+### Image Editor Mode toolbar
 
- Commands that affect the state of the Image Editor are located on the **Image Editor Mode** toolbar together with advanced commands. The toolbar is located along the topmost edge of the Image Editor design surface. Drawing tools are located on the **Image Editor** toolbar along the leftmost edge of the Image Editor design surface.
+![Image Editor mode toolbar in Visual Studio](../designers/media/digit-tre-modal-toolbar.png)
 
- Here's the **Image Editor Mode** toolbar:
-
- ![The Image Editor modal toolbar.](../designers/media/digit-tre-modal-toolbar.png)
-
- This table describes the items on the **Image Editor Mode** toolbar, which are listed in the order in which they appear from left to right.
+The following table describes the items on the **Image Editor Mode** toolbar, which are listed in the order in which they appear from left to right:
 
 |Toolbar Item|Description|
 |------------------|-----------------|
@@ -114,13 +124,13 @@ The Image Editor toolbars contain commands that help you work with images.
 |**Red Channel**<br /><br /> **Green Channel**<br /><br /> **Blue Channel**<br /><br /> **Alpha Channel**|Enables or disables the specific color channel. **Note:**  By systematically enabling or disabling color channels, you can isolate problems that are related to one or more of them. For example, you could identify incorrect alpha transparency.|
 |**Background**|Enables or disables display of the background through transparent parts of the image. You can configure how the background is displayed by choosing from these options:<br /><br /> **Checkerboard**<br /> Uses a green color together with the specified background color to display the background as a checkerboard pattern. You can use this option to help make transparent parts of the image more apparent.<br /><br /> White Background<br /> Uses the color white to display the background.<br /><br /> Black Background<br /> Uses the color black to display the background.<br /><br /> Animate Background<br /> Pans the checkerboard pattern slowly. You can use this option to help make transparent parts of the image more apparent.|
 |**Properties**|Alternately opens or closes the **Properties** window.|
-|**Advanced**|Contains additional commands and options.<br /><br /> **Filters**<br /><br /> Provides several common image filters: **Black and White**, **Blur**, **Brighten**, **Darken**, **Edge Detection**, **Emboss**, **Invert Colors**, **Ripple**, **Sepia Tone**, and **Sharpen**.<br /><br /> **Graphics Engines**<br /><br /> **Render with D3D11**<br /> Uses Direct3D 11 to render the Image Editor design surface.<br /><br /> **Render with D3D11WARP**<br /> Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the Image Editor design surface.<br /><br /> **Tools**<br /><br /> **Flip Horizontal**<br /> Transposes the image around its horizontal, or x, axis.<br /><br /> **Flip Vertical**<br /> Transposes the image around its vertical, or y, axis.<br /><br /> **Generate Mips**<br /> Generates MIP levels for an image. If MIP levels already exist, they are recreated from the largest MIP level. Any changes that were made to smaller MIP levels are lost. To save the MIP levels that you have generated, you must use the *.dds* format to save the image.<br /><br /> **View**<br /><br /> **Frame Rate**<br /> When enabled, displays the frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second. **Tip:** You can choose the **Advanced** button to run the last command again.|
+|**Advanced**|Contains additional commands and options.<br /><br /> **Filters**<br /><br /> Provides several common image filters: **Black and White**, **Blur**, **Brighten**, **Darken**, **Edge Detection**, **Emboss**, **Invert Colors**, **Ripple**, **Sepia Tone**, and **Sharpen**.<br /><br /> **Graphics Engines**<br /><br /> **Render with D3D11**<br /> Uses Direct3D 11 to render the **Image Editor** design surface.<br /><br /> **Render with D3D11WARP**<br /> Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the **Image Editor** design surface.<br /><br /> **Tools**<br /><br /> **Flip Horizontal**<br /> Transposes the image around its horizontal, or x, axis.<br /><br /> **Flip Vertical**<br /> Transposes the image around its vertical, or y, axis.<br /><br /> **Generate Mips**<br /> Generates MIP levels for an image. If MIP levels already exist, they are recreated from the largest MIP level. Any changes that were made to smaller MIP levels are lost. To save the MIP levels that you have generated, you must use the *.dds* format to save the image.<br /><br /> **View**<br /><br /> **Frame Rate**<br /> When enabled, displays the frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second. **Tip:** You can choose the **Advanced** button to run the last command again.|
 
- Here's the **Image Editor** toolbar.
+### Image Editor toolbar
 
- ![Image Editor toolbar](../designers/media/digit-tre-toolbar.png)
+![Image Editor toolbar](../designers/media/digit-tre-toolbar.png)
 
- The following table describes the items on the **Image Editor** toolbar, which are listed in the order in which they appear from top to bottom.
+The following table describes the items on the **Image Editor** toolbar, which are listed in the order in which they appear from top to bottom:
 
 |Toolbar Item|Description|
 |------------------|-----------------|
@@ -137,22 +147,24 @@ The Image Editor toolbars contain commands that help you work with images.
 
 ### Work with MIP levels
 
-Some image formats—for example, DirectDraw Surface (*.dds*)—support MIP levels for texture-space Level-of-Detail (LOD). For information about how to generate and work with MIP levels, see [How to: Create and modify MIP levels](../designers/how-to-create-and-modify-mip-levels.md)
+Some image formats, for example, DirectDraw Surface (*.dds*), support MIP levels for texture-space Level-of-Detail (LOD). For information about how to generate and work with MIP levels, see [How to: Create and modify MIP levels](../designers/how-to-create-and-modify-mip-levels.md)
 
 ### Work with transparency
 
-Some image formats—for example, DirectDraw Surface (*.dds*)—support transparency. There are several ways you can use transparency, depending on the tool that you're using. To specify the level of transparency for a color selection, in the **Properties** window, set the **A** (alpha) component of the color selection. Here's how different kinds of tools control how transparency is applied:
+Some image formats, for example, DirectDraw Surface (*.dds*), support transparency. There are several ways you can use transparency, depending on the tool that you're using. To specify the level of transparency for a color selection, in the **Properties** window, set the **A** (alpha) component of the color selection.
+
+The following table describes how different kinds of tools control how transparency is applied:
 
 |Tool|Description|
 |----------|-----------------|
 |**Pencil**, **Brush**, **Airbrush**, **Line**, **Rectangle**, **Rounded Rectangle**, **Ellipse**, **Text**|To blend the active color selection together with the image, in the **Properties** window, expand the **Channels** property group and set the **Draw** checkbox on the **Alpha** channel, and then draw normally.<br /><br /> To draw by using the active color selection and leave the alpha value of the image in place, clear the **Draw** checkbox of the **Alpha** channel, and then draw normally.|
 |**Fill**|To blend the active color selection together with the image, just choose the area to fill.<br /><br /> To use the active color selection—including the value of the alpha channel—to overwrite the image, press and hold **Shift** and then choose the area to fill.|
 
-### Image properties<a name="ImageProperties"></a>
+### Image properties
 
 You can use the **Properties** window to specify various properties of the image. For example, you can set the width and height properties to resize the image.
 
-The following table describes image properties.
+The following table describes image properties:
 
 |Property|Description|
 |--------------|-----------------|
@@ -169,37 +181,35 @@ The following table describes image properties.
 |Depth Slice|The current depth slice. Only the first slice can be viewed; all other slices are lost when you save the image.|
 
 > [!NOTE]
->  Because the **Rotate by** property applies to all tools and selected regions, it always appears at the bottom of the **Properties** window together with other tool properties. **Rotate by** is always displayed because the whole image is implicitly selected when there is no other selection or active tool. For more information about the **Rotate by** property, see [Tool properties](#ToolProperties).
+> Because the **Rotate by** property applies to all tools and selected regions, it always appears at the bottom of the **Properties** window together with other tool properties. **Rotate by** is always displayed because the whole image is implicitly selected when there is no other selection or active tool. For more information about the **Rotate by** property, see [Tool properties](#tool -properties).
 
-#### Resize images
+### Resize images
 
-Here are two ways to resize an image. In both cases, the Image Editor uses bi-linear interpolation to resample the image.
+There are two ways to resize an image. In both cases, the **Image Editor** uses bilinear interpolation to resample the image.
 
--   In the **Properties** window, specify new values for the **Width** and **Height** properties.
+- In the **Properties** window, specify new values for the **Width** and **Height** properties.
 
--   Select the entire image and use the border markers to resize the image.
+- Select the entire image and use the border markers to resize the image.
 
-### Work with tools
+### Selected regions
 
-#### Selected regions
+Selections in the **Image Editor** define regions of the image that are active. Active regions are affected by tools and transformations. When there is an active selection, areas outside the selected region are not affected by most tools and transformations. If there is not an active selection, the entire image is active.
 
-Selections in the Image Editor define regions of the image that are active—that is, the region will be affected by tools and transformations. When there is an active selection, areas outside the selected region are not affected by most tools and transformations. If there is not an active selection, the entire image is active.
+Most tools (**Pencil**, **Brush**, **Airbrush**, **Fill**, **Eraser**, and 2D primitives) and transformations (**Rotate**, **Trim**, **Invert Colors**, **Flip Horizontal**, and **Flip Vertical**) are constrained or defined by the active selection. However, some tools (**Eyedropper** and **Text**) and transformations (**Generate Mips**) aren't affected by any active selection. These tools always behave as if the entire image is the active selection.
 
-Most tools—**Pencil**, **Brush**, **Airbrush**, **Fill**, **Eraser**, and 2D primitives—and transformations—**Rotate**, **Trim**, **Invert Colors**, **Flip Horizontal**, and **Flip Vertical**—are constrained or defined by the active selection. However, some tools—**Eyedropper** and **Text**—and transformations—**Generate Mips**—are not affected by any active selection; these tools always behave as if the entire image is the active selection.
+While you're selecting a region, you can press and hold **Shift** to make a proportional (square) selection. Otherwise, the selection is not constrained.
 
-While you are selecting a region, you can press and hold **Shift** to make a proportional (square) selection; otherwise, the selection is not constrained.
+#### Resize selections
 
-##### Resize selections
+After you select a region, you can resize it or its image contents by changing the size of the selection marker. While you're resizing the selected region, you can use the following modifier keys to change the behavior of the selected region as you resize it:
 
-After you select a region, you can resize it or its image contents by changing the size of the selection marker. While you are resizing the selected region, you can use the following modifier keys to change the behavior of the selected region as you resize it (press and hold the key as you resize).
+**Ctrl** - Copies the contents of the selected region before it's resized. This leaves the original image intact while the copy is resized.
 
-Ctrl&mdash;Copies the contents of the selected region before it's resized. This leaves the original image intact while the copy is resized.
+**Shift** - Resizes the selected region in proportion to its original size.
 
-Shift&mdash;Resizes the selected region in proportion to its original size.
+**Alt** - Changes the size of the selection region. This leaves the image unmodified.
 
-Alt&mdash;Changes the size of the selection region. This leaves the image unmodified.
-
-Here are the valid modifier key combinations:
+The following table describes the valid modifier key combinations:
 
 |Ctrl|Shift|Alt|Description|
 |----------|-----------|---------|-----------------|
@@ -210,13 +220,13 @@ Here are the valid modifier key combinations:
 |**Ctrl**|||Copies and then resizes the content of the selected region.|
 |**Ctrl**|**Shift**||Copies and then proportionally resizes the content of the selected region.|
 
-#### Tool properties <a name="ToolProperties"></a> 
+### Tool properties
 
 While a tool is selected, you can use the **Properties** window to specify details about how it affects the image. For example, you can set the thickness of the **Pencil** tool or the color of the **Brush** tool.
 
 You can set both a foreground color and a background color. Both support an alpha channel to provide user-defined opacity. The settings apply to all tools. If you use a mouse, the left mouse button corresponds to the foreground color, and the right mouse button corresponds to the background color.
 
-The following table describes tool properties.
+The following table describes tool properties"
 
 |Tool|Properties|
 |----------|----------------|
