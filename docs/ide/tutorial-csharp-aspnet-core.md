@@ -106,11 +106,13 @@ The MVC pattern helps you create apps that are easier to test and update than tr
     >[!NOTE]
     > To learn more about Razor, see the [Get started with C# and ASP.NET using the Razor syntax](/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c) page.
 
-    The solution also contains a *wwwroot* folder that is the root for your website. You can put static site content&mdash;such as CSS, images, and JavaScript libraries&mdash;directly in the paths where you want them.
+ 1. The solution also contains a *wwwroot* folder that is the root for your website. Expand the folder to view its contents.
 
      ![wwwroot folder in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-wwwroot.png)
 
-    There are also a several configuration files that manage the project, its packages, and the app at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in *appsettings.json*. However, you can override these settings by providing an *appsettings.Development.json* file for the **Development** environment.
+    You can put static site content&mdash;such as CSS, images, and JavaScript libraries&mdash;directly in the paths where you want them.
+
+1. There are several configuration files that manage the project, its packages, and the app at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in *appsettings.json*. However, you can override these settings by providing an *appsettings.Development.json* file. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
 
      ![Configuration files in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-config-files.png)
 
@@ -167,7 +169,7 @@ The MVC pattern helps you create apps that are easier to test and update than tr
 
 ## Quick answers FAQ
 
-Here's a quick FAQ to confirm some key concepts.
+Here's a quick FAQ to highlight some key concepts.
 
 ### What is C#?
 

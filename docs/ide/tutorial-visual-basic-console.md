@@ -118,7 +118,7 @@ Let's create an app that prompts you for your name and then displays it along wi
 
 ## Quick answers FAQ
 
-Here's a quick FAQ to introduce you to some key concepts.
+Here's a quick FAQ to highlight some key concepts.
 
 ### What is Visual Basic?
 
@@ -141,7 +141,7 @@ A console app takes input and displays output in a command-line window, a.k.a. a
 Congratulations on completing this tutorial! To learn even more, see the following tutorial.
 
 > [!div class="nextstepaction"]
-> [Video tutorial: Visual Basic fundamentals for absolute beginners](https://mva.microsoft.com/en-us/training-courses/visual-basic-fundamentals-for-absolute-beginners-16507) video course
+> [Video tutorial: Visual Basic fundamentals for absolute beginners](https://mva.microsoft.com/en-us/training-courses/visual-basic-fundamentals-for-absolute-beginners-16507)
 
 ## See also
 
