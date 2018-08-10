@@ -1,7 +1,7 @@
 ---
 ms.topic: include
 ---
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [../Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, contact us by [live chat](https://visualstudio.microsoft.com/vs/support/#talktous) for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
+Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](../troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, contact us by [live chat](https://visualstudio.microsoft.com/vs/support/#talktous) (English only). 
 
 Here are a few more support options:
 
