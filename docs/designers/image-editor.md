@@ -1,13 +1,12 @@
 ---
 title: Image Editor
-ms.date: 11/04/2016
+ms.date: 08/10/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
 ms.topic: conceptual
 f1_keywords:
   - "vs.graphics.designer.imageeditor"
   - "vs.graphics.imageeditor"
-ms.assetid: fc71d502-c548-4863-8afc-12a1d3ec90d4
 author: gewarren
 ms.author: gewarren
 manager: douge
@@ -228,7 +227,7 @@ While a tool is selected, you can use the **Properties** window to specify detai
 
 You can set both a foreground color and a background color. Both support an alpha channel to provide user-defined opacity. The settings apply to all tools. If you use a mouse, the left mouse button corresponds to the foreground color, and the right mouse button corresponds to the background color.
 
-The following table describes tool properties"
+The following table describes tool properties:
 
 |Tool|Properties|
 |----------|----------------|
