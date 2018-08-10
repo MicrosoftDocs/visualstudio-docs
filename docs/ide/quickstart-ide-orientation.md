@@ -101,15 +101,13 @@ Should you encounter any problems while you're using Visual Studio, or if you ha
 We've looked at just a few of the features of Visual Studio to get acquainted with the user interface. To explore further:
 
 > [!div class="nextstepaction"]
-> [Quickstart: Personalize the IDE](../ide/quickstart-personalize-the-ide.md)
+> [Learn about the code editor](../ide/quickstart-editor.md)
 
 > [!div class="nextstepaction"]
-> [Quickstart: Write code in the editor](../ide/quickstart-editor.md)
-
-> [!div class="nextstepaction"]
-> [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)
+> [Learn about projects and solutions](../ide/quickstart-projects-solutions.md)
 
 ## See also
 
 - [Overview of the Visual Studio IDE](../ide/visual-studio-ide.md)
-- [Features of Visual Studio 2017](../ide/advanced-feature-overview.md)
+- [More features of Visual Studio 2017](../ide/advanced-feature-overview.md)
+- [Change theme and font colors](../ide/quickstart-personalize-the-ide.md)
