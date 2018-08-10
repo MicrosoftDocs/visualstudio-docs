@@ -13,7 +13,7 @@ manager: douge
 
 Visual Studio provides several different tools to help you create apps using JavaScript or TypeScript.
 
-<h2>Experience Visual Studio with 5-minute Quickstarts</h2>
+<h2>Learn to use JavaScript in Visual Studio with 5-minute Quickstarts</h2>
 
 <ul class="panelContent cardsFTitle">
     <li>
