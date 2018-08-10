@@ -2,7 +2,7 @@
 title: "Get started with Visual Basic in Visual Studio"
 description: "Learn how to create Visual Basic console apps in Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: 08/08/2018
+ms.date: 08/10/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -42,11 +42,11 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. Click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
 
-  ![Click the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vs-open-visual-studio-installer-generic.png)
+   ![Click the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vs-open-visual-studio-installer-generic.png)
 
 1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
-   ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/dot-net-core-xplat-dev-workload.png)
+   ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/quickstart-aspnet-workload.png)
 
 #### Option 2: Use the Tools menu bar
 
@@ -104,7 +104,7 @@ Let's create an app that prompts you for your name and then displays it along wi
    End Sub
    ```
 
-  Your code window should look like the following screenshot:
+   Your code window should look like the following screenshot:
 
    ![Code window showing the Calculate This code](../ide/media/vb-codewindow-calculate-this.png)
 
