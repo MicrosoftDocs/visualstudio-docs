@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Tutorial: Get started with C# and ASP.NET Core in Visual Studio
 
-In this tutorial for C# development with ASP.NET Core using Visual Studio, you'll create a C# ASP.NET Core web app, add code to it, explore some features of the IDE, and run the app.
+In this tutorial for C# development with ASP.NET Core using Visual Studio, you'll create a C# ASP.NET Core web app, make changes to it, explore some features of the IDE, and run the app.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
@@ -45,7 +45,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
    ![Select the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vs-open-visual-studio-installer-generic.png)
 
-2. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, and then choose **Modify**.
+1. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, and then choose **Modify**.
 
    ![.NET Core cross-platform development workload in the Visual Studio Installer](../ide/media/quickstart-aspnet-workload.png)
 
@@ -55,7 +55,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 1. Cancel out of the **New Project** dialog box. Then, from the top menu bar, choose **Tools** > **Get Tools and Features**.
 
-2. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, and then choose **Modify**.
+1. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, and then choose **Modify**.
 
    (You might have to close Visual Studio before you can continue installing the new workload.)
 
@@ -63,7 +63,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 1. In the **New ASP.NET Core Web Application** dialog box, choose the **Web Application (Model-View-Controller)** project template.
 
-2. Verify that **ASP.NET Core 2.0** appears in the top drop-down menu. Then, choose **OK**.
+1. Verify that **ASP.NET Core 2.0** appears in the top drop-down menu. Then, choose **OK**.
 
    ![New ASP.NET Core Web Application dialog box](../ide/media/new-project-csharp-aspnet-web-app-mvc.png)
 
