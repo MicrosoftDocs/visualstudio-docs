@@ -1,25 +1,33 @@
 ---
 layout: LandingPage
+title: Create JavaScript apps in Visual Studio | Microsoft Docs
+description: Learn how use Visual Studio 2017 to create applications.
 ms.topic: landing-page
-title: JavaScript | Microsoft Docs
+ms.prod: visual-studio-dev15
+ms.technology: vs-ide-nodejs
+ms.author: "mikejo"
+author: "mikejo5000"
+manager: douge
 ---
-# JavaScript Technologies in Visual Studio
+# JavaScript in Visual Studio
 
-This page provides links to JavaScript and TypeScript-based documentation to enable you to write apps in Visual Studio using these languages.
+Visual Studio provides several different tools to help you create apps using JavaScript or TypeScript.
+
+<h2>Experience Visual Studio with 5-minute Quickstarts</h2>
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/visualstudio/nodejs/tutorial-nodejs">
+        <a href="https://docs.microsoft.com/visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_nodejs.svg" alt="">
+                            <img src="/media/logos/logo_nodejs.svg" alt="Create a basic Node.js app">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Learn about Tools for Node.js</h3>
+                        <h3>Create a basic Node.js app</h3>
                     </div>
                 </div>
             </div>
@@ -27,35 +35,58 @@ This page provides links to JavaScript and TypeScript-based documentation to ena
         </a>
     </li>
     <li>
+        <a href="https://docs.microsoft.com/visualstudio/javascript/quickstart-vuejs-with-nodejs">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/logos/logo_nodejs.svg" alt="Create a Vue.js app">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Create a Vue.js app</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+        <li>
         <a href="https://docs.microsoft.com/windows/uwp/get-started/create-a-hello-world-app-js-uwp">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_windows.svg" alt="">
+                            <img src="/media/logos/logo_windows.svg" alt="Create a UWP app">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get Started with Universal Windows Apps (UWP)</h3>
+                        <h3>Create a Universal Windows App (UWP)</h3>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
+</ul>
+
+<h2>Go deeper with tutorials</h2>
+
+<ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/azure/app-service-web/app-service-web-nodejs-get-started">
+        <a href="https://docs.microsoft.com/visualstudio/javascript/tutorial-nodejs">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_nodejs.svg" alt="">
+                            <img src="/media/logos/logo_nodejs.svg" alt="Create a Node.js app with Express">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get Started with Azure and Node.js</h3>
+                        <h3>Create a Node.js app with Express</h3>
                     </div>
                 </div>
             </div>
@@ -63,35 +94,54 @@ This page provides links to JavaScript and TypeScript-based documentation to ena
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/visualstudio/cross-platform/tools-for-cordova/">
+        <a href="https://docs.microsoft.com/visualstudio/javascript/tutorial-nodejs-with-react-and-jsx">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_cordova.svg" alt="">
+                            <img src="/media/logos/logo_nodejs.svg" alt="Create a Node.js app with React">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Tools for Apache Cordova</h3>
+                        <h3>Create a Node.js app with React</h3>
                     </div>
                 </div>
             </div>
         </div>
         </a>
     </li>
-    <li>
+        <li>
         <a href="https://docs.microsoft.com/aspnet/core/client-side/angular">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_net.svg" alt="">
+                            <img src="/media/logos/logo_net.svg" alt="Create an app with ASP.NET and AngularJS">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Get Started with ASP.NET and frameworks like AngularJS</h3>
+                        <h3>Create an app with ASP.NET and AngularJS</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    </li>
+        <li>
+        <a href="https://docs.microsoft.com/visualstudio/cross-platform/tools-for-cordova/first-steps/build-your-first-app?view=toolsforcordova-2017">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="/media/logos/logo_cordova.svg" alt="Create an app with Apache Cordova">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Create an app with Apache Cordova</h3>
                     </div>
                 </div>
             </div>
