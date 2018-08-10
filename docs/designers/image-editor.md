@@ -18,7 +18,7 @@ ms.workload:
 
 This article describes how to work with the Visual Studio **Image Editor** to view and modify texture and image resources.
 
-You can use the **Image Editor** to work with the kinds of rich texture and image formats that are used in DirectX app development. This includes support for popular image file formats and color encodings, features such as alpha-channels and MIP-mapping, and many of the highly-compressed, hardware-accelerated texture formats that DirectX supports.
+You can use the **Image Editor** to work with the kinds of rich texture and image formats that are used in DirectX app development. This includes support for popular image file formats and color encodings, features such as alpha-channels and MIP-mapping, and many of the highly compressed, hardware-accelerated texture formats that DirectX supports.
 
 ## Supported formats
 
@@ -71,11 +71,11 @@ The Graphics Interchange Format (GIF) image format. An LZW-compressed, lossless 
 
 **JPG Image (.jpg)**
 
-The Joint Photographic Experts Group (JPEG) image format. A highly-compressed, lossy image format that supports 24-bit color and is suitable for general-purpose compression of images that have a high degree of color coherence.
+The Joint Photographic Experts Group (JPEG) image format. A highly compressed, lossy image format that supports 24-bit color and is suitable for general-purpose compression of images that have a high degree of color coherence.
 
 **PNG Image (.png)**
 
-The Portable Network Graphics (PNG) image format. A moderately-compressed, lossless image format that supports 24-bit color and alpha transparency. It is suitable for both natural and artificial images, but does not provide compression ratios as good as lossy formats such as JPG or GIF.
+The Portable Network Graphics (PNG) image format. A moderately compressed, lossless image format that supports 24-bit color and alpha transparency. It is suitable for both natural and artificial images, but does not provide compression ratios as good as lossy formats such as JPG or GIF.
 
 **TIFF Image (.tif)**
 
@@ -83,7 +83,7 @@ The Tagged Image File Format (TIFF or TIF) image format. A flexible image format
 
 **DDS Texture (.dds)**
 
-The DirectDraw Surface (DDS) texture format. A highly-compressed, lossy texture format that supports 24-bit color and alpha transparency. Its compression ratios can be as high as 8:1. It's based on S3 Texture compression, which can be decompressed on graphics hardware.
+The DirectDraw Surface (DDS) texture format. A highly compressed, lossy texture format that supports 24-bit color and alpha transparency. Its compression ratios can be as high as 8:1. It's based on S3 Texture compression, which can be decompressed on graphics hardware.
 
 **TGA Image (.tga)**
 
@@ -91,7 +91,7 @@ The Truevision Graphics Adapter (TGA) image format (also known as Targa). An RLE
 
 ### Configure the image
 
-Before you begin to work with the image that you just created, you can change its default configuration. For example, you can change its dimensions or the color format that it uses. For information about how to configure these and other properties of the image, see [Image properties](#image-properties).
+Before you begin to work with the image that you created, you can change its default configuration. For example, you can change its dimensions or the color format that it uses. For information about how to configure these and other properties of the image, see [Image properties](#image-properties).
 
 > [!NOTE]
 > Before you save your work, make sure to set the **Color Format** property if you want to use a specific color format. If the file format supports compression, you can adjust the compression settings when you save the file for the first time or when you choose **Save As**.
@@ -112,7 +112,7 @@ The following table describes the items on the **Image Editor Mode** toolbar, wh
 |------------------|-----------------|
 |**Select**|Enables selection of a rectangular region of an image. After you select a region, you can cut, copy, move, scale, rotate, flip, or delete it. When there is an active selection, drawing tools only affect the selected region.|
 |**Irregular Selection**|Enables selection of an irregular region of an image. After you select a region, you can cut, copy, move, scale, rotate, flip, or delete it. When there is an active selection, drawing tools only affect the selected region.|
-|**Wand Selection**|Enables selection of a similarly-colored region of an image. The *tolerance*—that is, the maximum difference between adjacent colors within which they are considered similar—can be configured to include a smaller or wider range of similar colors. After you select a region, you can cut, copy, move, scale, rotate, flip, or delete it. When there is an active selection, drawing tools only affect the selected region.|
+|**Wand Selection**|Enables selection of a similarly colored region of an image. The *tolerance*—that is, the maximum difference between adjacent colors within which they are considered similar—can be configured to include a smaller or wider range of similar colors. After you select a region, you can cut, copy, move, scale, rotate, flip, or delete it. When there is an active selection, drawing tools only affect the selected region.|
 |**Pan**|Enables movement of the image relative to the window frame. In **Pan** mode, select a point on the image and then move it around.<br /><br /> You can temporarily activate **Pan** mode by pressing and holding the **Ctrl** key.|
 |**Zoom**|Enables the display of more or less image detail relative to the window frame. In **Zoom** mode, select a point on the image and then move it right or down to zoom in, or left or up to zoom out.<br /><br /> You can zoom in or out by pressing and holding **Ctrl** while you either use the mouse wheel or press the plus sign (**+**) or minus sign (**-**).|
 |**Zoom to Actual Size**|Displays the image by using a 1:1 relationship between the pixels of the image and the pixels of the screen.|
