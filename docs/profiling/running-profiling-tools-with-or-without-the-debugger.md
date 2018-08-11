@@ -14,7 +14,7 @@ ms.workload:
 # Run profiling tools with or without the debugger
 Visual Studio now offers you a choice of performance tools, some of which (for example, **CPU Usage** and **Memory Usage**) can be run with or without the debugger. Non-debugger performance tools are intended to run on Release configurations, while debugger-integrated tools are intended to run on Debug configurations.  
 
-You can use the profiling tools with no debugger attached with Windows 7 and later. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
+You can use the profiling tools without the debugger with Windows 7 and later. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
   
 ## Should I run the tool with or without the debugger?  
  Debugger-integrated performance tools let you do a lot of things non-debugger tools cannot, for example set breakpoints and inspect variable values. Non-debugger tools give you an experience that is closer to what users of the released application will see.  
