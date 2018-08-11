@@ -18,7 +18,7 @@ You have several options for running and managing your diagnostics session. For 
 
 Here, we show you how to collect and analyze CPU usage with release builds. To analyze CPU usage while debugging, see [Beginner's guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md).
 
-Windows 7 or later is required to use the profiling tool shown in this topic, the [Performance Profiler](../profiling/profiling-feature-tour.md).
+Windows 7 or later is required to use the profiling tool shown in this article, which is the [Performance Profiler](../profiling/profiling-feature-tour.md).
   
 ##  Collect CPU usage data  
   
