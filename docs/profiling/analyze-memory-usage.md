@@ -18,6 +18,8 @@ Use the debugger-integrated **Memory Usage** diagnostic tool to find memory leak
 -   You can also compare (diff) two snapshots of an app to find areas in your code that cause the memory use to increase over time.  
 
 For detailed instructions, see the [Analyze memory usage](../profiling/memory-usage.md) tutorial. To analyze memory usage without attaching the debugger, see [Memory usage without the debugger](memory-usage-without-debugging2.md).
+
+You can use the profiling tools with no debugger attached with Windows 7 and later. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
   
 ## Blogs and videos  
 
