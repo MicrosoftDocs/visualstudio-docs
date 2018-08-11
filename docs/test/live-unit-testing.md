@@ -60,10 +60,10 @@ You can configure Live Unit Testing by selecting **Tools** > **Options** from th
 
 The configurable options include:
 
-- Whether Live Unit Testing pauses when a solution is built and debugged
-
+- Whether Live Unit Testing pauses when a solution is built and debugged.
 - Whether Live Unit Testing pauses when a system's battery power falls below a specified threshold.
 - Whether Live Unit Testing runs automatically when a solution is opened.
+- Whether to enable debug symbol and XML documentation content generation.
 - The directory in which to store persisted data.
    The **Delete Persisted Data** button allows you to delete all persisted data. This is useful when Live Unit Testing is behaving in unpredictable or unexpected ways, which suggests that the persisted data has become corrupted.
 - The interval after which a test case times out; the default is 30 seconds.
