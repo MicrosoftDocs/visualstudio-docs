@@ -23,12 +23,12 @@ Visual Studio Dev Essentials members are eligible to create a free account that 
 ## Activation steps
 1.  Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 2.  Locate the Xamarin University Training tile in the Professional Development section and click on the **Activate** link at the bottom left of the benefit tile.
-
-    <img alt="Xamarin University Training Benefit Tile" src="_img/vs-xamarin/vs-xamarin-tile.png" style="border: 1px solid #CCCCCC" />
+    > [!div class="mx-imgBorder"]
+    > ![Xamarin University Training Benefit Tile](_img/vs-xamarin/vs-xamarin-tile.png)
 
 3.	You will be redirected to a Xamarin University web page entitled "Xamarin University Mobile Training for Microsoft Visual Studio".  Click **Activate My Subscription Now**.
-
-    <img alt="Activate My Subscription Now" src="_img/vs-xamarin/vs-xamarin-activate.png" style="border: 1px solid #CCCCCC" />
+    > [!div class="mx-imgBorder"]
+    > ![Activate My Subscription Now](_img/vs-xamarin/vs-xamarin-activate.png)
 
     > [!NOTE]
     > Depending on your screen resolution and zoom level, you may need to scroll down to see the **Activate My Subscription Now** button.
@@ -42,24 +42,24 @@ Visual Studio Dev Essentials members are eligible to create a free account that 
     > 5. Activate the Xamarin University Training benefit again.
 
 4.	You'll see a sign-in page, with a notice that Xamarin recently moved to Microsoft authentication.  Click **Connect with Microsoft**.
-
-    <img alt="Connect with Microsoft" src="_img/vs-xamarin/vs-xamarin-connect.png" style="border: 1px solid #CCCCCC" />
+    > [!div class="mx-imgBorder"]
+    > ![Connect with Microsoft](_img/vs-xamarin/vs-xamarin-connect.png)
 
 5. Next, you'll be asked to grant permission for Xamarin University to sign you in and access your email address and basic profile.  Click **Yes** to continue. You can change the application permissions later if you wish.
-
-    <img alt="Approve access" src="_img/vs-xamarin/vs-xamarin-access.png" style="border: 1px solid #CCCCCC" />
+    > [!div class="mx-imgBorder"]
+    > ![Approve access](_img/vs-xamarin/vs-xamarin-access.png)
 
     > [!NOTE]
     > Since signing in is necessary to use the Xamarin University benefit, clicking **No** will return you to the previous page and you will not be able to continue to the training.
 
 
 6. You'll see a welcome message about your new account.  Click **Start Learning**.
-
-    <img alt="Welcome message" src="_img/vs-xamarin/vs-xamarin-confirm.png" style="border: 1px solid #CCCCCC" />
+    > [!div class="mx-imgBorder"]
+    > ![Welcome message](_img/vs-xamarin/vs-xamarin-confirm.png)
 
 7. That's it!  You'll see the Xamarin University portal, and you're ready to start learning.
-
-     <img alt="Xamarin University portal" src="_img/vs-xamarin/vs-xamarin-portal.png" style="border: 1px solid #CCCCCC" />
+    > [!div class="mx-imgBorder"]
+    > ![Xamarin University portal](_img/vs-xamarin/vs-xamarin-portal.png)
 
 ## Eligibility
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
