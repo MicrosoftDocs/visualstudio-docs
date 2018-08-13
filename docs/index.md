@@ -188,12 +188,12 @@ ms.topic: hub-page
                                                         <a class="barLink" href="/visualstudio/ide/quickstart-uwp-csharp">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="">
                                                             Universal Windows Platform app</a>
-                                                    </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
+                                                    </li>
                                                     <li>
                                                         <a class="barLink" href="/visualstudio/ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="">
                                                             Windows Desktop app</a>
-                                                    </li>
+                                                    </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
                                                     <li>
                                                         <a class="barLink" href="/visualstudio/cross-platform/cross-platform-mobile-development-in-visual-studio">
                                                             <img src="https://docs.microsoft.com/media/common/i_mobile-app-developement.svg" alt="">
@@ -208,12 +208,7 @@ ms.topic: hub-page
                                                     <li>
                                                         <a class="barLink" href="/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-2.1">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_NET.svg" alt="">
-                                                            Web app with ASP.NET</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="barLink" href="/visualstudio/javascript/tutorial-nodejs">
-                                                            <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="">
-                                                            Web  app with Node.js</a>
+                                                            Web app with ASP.NET Core</a>
                                                     </li>
                                                     <li>
                                                         <a class="barLink" href="/azure/app-service/">
