@@ -84,15 +84,11 @@ ms.topic: hub-page
                                                 <h3>Download and Install</h3>
                                                 <ul class="noBullet">
                                                     <li><a class="barLink" href="/visualstudio/install/install-visual-studio"><img  src="https://docs.microsoft.com/media/common/i_download-install.svg" alt="" />Download and Install Visual Studio</a></li>
-                                                    <li><a class="barLink" href="/visualstudio/install/update-visual-studio"><img src="https://docs.microsoft.com/media/common/i_upgrade.svg" alt="" />Update Visual Studio 2017</a></li>
-                                                    <li><a class="barLink" href="/visualstudio/install/modify-visual-studio"><img  src="https://docs.microsoft.com/media/common/i_setup.svg" alt="" />Add or remove features</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </li>
-                            <li> 
                                <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -100,11 +96,19 @@ ms.topic: hub-page
                                                 <h3>Learn how to use Visual Studio</h3>
                                                 <ul class="noBullet">
                                                     <li><a class="barLink" href="ide/visual-studio-ide.md"><img  src="https://docs.microsoft.com/media/common/i_overview.svg" alt="" />Start a guided tour</a></li>
+                                                    <li><a class="barLink" href="ide/visual-studio-ide.md"><img  src="https://docs.microsoft.com/media/common/i_code-edit.svg" alt="" />Write and edit code</a></li>
+                                                    <li><a class="barLink" href="ide/index-writing-code.md"><img  src="https://docs.microsoft.com/media/common/i_build.svg" alt="" />Build your code</a></li>
+                                                    <li><a class="barLink" href="ide/walkthrough-building-an-application"><img  src="https://docs.microsoft.com/media/common/i_debug.svg" alt="" />Debug your code</a></li>
+                                                    <li><a class="barLink" href="debugger/getting-started-with-the-debugger.md"><img  src="https://docs.microsoft.com/media/common/i_test.svg" alt="" />Test your code</a></li>
+                                                    <li><a class="barLink" href="test/getting-started-with-unit-testing.md"><img  src="https://docs.microsoft.com/media/common/i_generic-database.svg" alt="" />Access data</a></li>
+                                                    <li><a class="barLink" href="data-tools/accessing-data-in-visual-studio.md"><img  src="https://docs.microsoft.com/media/common/i_overview.svg" alt="" />Start a guided tour</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </li>
+                            <li>
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -129,11 +133,6 @@ ms.topic: hub-page
                                                     <li>
                                                         <a class="barLink" href="/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-01-create-project">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_python.svg" alt="">
-                                                            Python</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="barLink" href="/visualstudio/rtvs/getting-started-with-r">
-                                                            <img src="https://docs.microsoft.com/media/logos/logo_R.svg" alt="">
                                                             Python</a>
                                                     </li>
                                                     <li>
