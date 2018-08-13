@@ -77,18 +77,6 @@ ms.topic: hub-page
                         <a href="#get-started1"></a>
                         <ul id="get-started1" class="cardsL">
                             <li>
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardText">
-                                                <h3>Download and Install</h3>
-                                                <ul class="noBullet">
-                                                    <li><a class="barLink" href="/visualstudio/install/install-visual-studio"><img  src="https://docs.microsoft.com/media/common/i_download-install.svg" alt="" />Download and Install Visual Studio</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                                <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
@@ -98,7 +86,7 @@ ms.topic: hub-page
                                                     <li><a class="barLink" href="ide/visual-studio-ide.md"><img  src="https://docs.microsoft.com/media/common/i_overview.svg" alt="" />Start a guided tour</a></li>
                                                     <li><a class="barLink" href="ide/visual-studio-ide.md"><img  src="https://docs.microsoft.com/media/common/i_code-edit.svg" alt="" />Write and edit code</a></li>
                                                     <li><a class="barLink" href="ide/index-writing-code.md"><img  src="https://docs.microsoft.com/media/common/i_build.svg" alt="" />Build your code</a></li>
-                                                    <li><a class="barLink" href="ide/walkthrough-building-an-application"><img  src="https://docs.microsoft.com/media/common/i_debug.svg" alt="" />Debug your code</a></li>
+                                                    <li><a class="barLink" href="ide/walkthrough-building-an-application.md"><img  src="https://docs.microsoft.com/media/common/i_debug.svg" alt="" />Debug your code</a></li>
                                                     <li><a class="barLink" href="debugger/getting-started-with-the-debugger.md"><img  src="https://docs.microsoft.com/media/common/i_test.svg" alt="" />Test your code</a></li>
                                                     <li><a class="barLink" href="test/getting-started-with-unit-testing.md"><img  src="https://docs.microsoft.com/media/common/i_generic-database.svg" alt="" />Access data</a></li>
                                                     <li><a class="barLink" href="data-tools/accessing-data-in-visual-studio.md"><img  src="https://docs.microsoft.com/media/common/i_overview.svg" alt="" />Start a guided tour</a></li>
