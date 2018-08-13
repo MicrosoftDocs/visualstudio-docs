@@ -8,7 +8,7 @@ ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
 manager: douge
-ms.workload: 
+ms.workload:
   - python
   - data-science
 ---
@@ -43,7 +43,7 @@ For more information, see [Install Python support for Visual Studio](installing-
 
 1. Create a new Python project in Visual Studio by selecting **File** > **New** > **Project**. Search for "Python", select the **Python Application** template, give it a suitable name and location, and select **OK**.
 
-1. Working with C++ requires that you use a 32-bit Python interpreter (Python 3.6 recommended). In the **Solution Explorer** window of Visual Studio, expand the project node, then expand the **Python Environments** node. If you don't see a 32-bit environment as the default (either in bold, or labeled with **global default**), then follow the instructions on [Select a Python environment for a project](selecting-a-python-environment-for-a-project.md). If you don't have a 32-bit interpreter installed, see [Install Python interpreters](installing-python-interpreters.md).
+1. Working with C++ requires that you use a 32-bit Python interpreter (Python 3.6 or above recommended). In the **Solution Explorer** window of Visual Studio, expand the project node, then expand the **Python Environments** node. If you don't see a 32-bit environment as the default (either in bold, or labeled with **global default**), then follow the instructions on [Select a Python environment for a project](selecting-a-python-environment-for-a-project.md). If you don't have a 32-bit interpreter installed, see [Install Python interpreters](installing-python-interpreters.md).
 
 1. In the project's *.py* file, paste the following code that benchmarks the computation of a hyperbolic tangent (implemented without using the math library for easier comparison). Feel free to enter the code manually to experience some of the [Python editing features](editing-python-code-in-visual-studio.md).
 
