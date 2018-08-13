@@ -88,8 +88,7 @@ ms.topic: hub-page
                                                     <li><a class="barLink" href="ide/index-writing-code.md"><img  src="https://docs.microsoft.com/media/common/i_build.svg" alt="" />Build your code</a></li>
                                                     <li><a class="barLink" href="ide/walkthrough-building-an-application.md"><img  src="https://docs.microsoft.com/media/common/i_debug.svg" alt="" />Debug your code</a></li>
                                                     <li><a class="barLink" href="debugger/getting-started-with-the-debugger.md"><img  src="https://docs.microsoft.com/media/common/i_test.svg" alt="" />Test your code</a></li>
-                                                    <li><a class="barLink" href="test/getting-started-with-unit-testing.md"><img  src="https://docs.microsoft.com/media/common/i_generic-database.svg" alt="" />Access data</a></li>
-                                                    <li><a class="barLink" href="data-tools/accessing-data-in-visual-studio.md"><img  src="https://docs.microsoft.com/media/common/i_overview.svg" alt="" />Start a guided tour</a></li>
+                                                    <li><a class="barLink" href="test/getting-started-with-unit-testing.md"><img  src="https://docs.microsoft.com/media/common/i_generic-database.svg" alt="" />Access data locally or in the cloud</a></li>
                                                 </ul>
                                             </div>
                                         </div>
