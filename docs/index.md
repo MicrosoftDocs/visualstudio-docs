@@ -101,7 +101,7 @@ ms.topic: hub-page
                                     <div class="cardPadding">
                                         <div class="card">
                                             <div class="cardText">
-                                                <h3>Beginner Tutorials</h3>
+                                                <h3>Choose a programming language for a beginner tutorial</h3>
                                                 <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
                                                 <ul class="noBullet">                                                    <li>
                                                         <a class="barLink" href="/cpp/build/vscpp-step-0-installation">
