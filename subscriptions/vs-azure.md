@@ -91,7 +91,7 @@ If you can purchase a subscription directly, please do one of the following:
 
 Compare all the [subscriptions and their benefits](https://visualstudio.microsoft.com/vs/pricing/).
 
-If you have another active Visual Studio subscription at the **same** subscription level under a Microsoft account, you can link it to this Azure benefit by adding an [alternate account](manage-vs-subscriptions.md#linking-my-subscription-to-existing-vsts-or-azure-subscriptions) in the Visual Studio subscription portal. If this doesn’t work, you can also try [transferring your Azure benefit](/azure/billing/billing-subscription-transfer/) to the active Visual Studio subscription.
+If you have another active Visual Studio subscription at the **same** subscription level under a Microsoft account, you can link it to this Azure benefit by adding an [alternate account](manage-vs-subscriptions.md#linking-my-subscription-to-existing-azure-devops-or-azure-subscriptions) in the Visual Studio subscription portal. If this doesn’t work, you can also try [transferring your Azure benefit](/azure/billing/billing-subscription-transfer/) to the active Visual Studio subscription.
 
 If you have another active Visual Studio subscription at a **different** subscription level and under a Microsoft account, contact [Azure support](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade) for assistance.
 
@@ -107,4 +107,4 @@ If you believe you’ve received this email in error, please contact [Azure cust
     - Technical Support: [https://azure.microsoft.com/support/options/](https://azure.microsoft.com/support/options/)
     - [Azure documentation](/azure/)
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+-  Have a question about Visual Studio IDE, Azure DevOps or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
