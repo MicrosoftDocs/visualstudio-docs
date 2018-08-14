@@ -69,7 +69,7 @@ Subscribers sign in to [https://my.visualstudio.com](https://my.visualstudio.com
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Visual Studio Team Services</h3>
+                        <h3>Azure DevOps</h3>
                     </div>
                 </div>
             </div>
@@ -169,7 +169,7 @@ To make your subscription even more useful, we add and update the subscription b
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-azure">Azure</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-visual-studio-app-center">Visual Studio App Center</a></li>
-                            <li><a href="/visualstudio/subscriptions/vs-vsts">Visual Studio Team Services</a></li>
+                            <li><a href="/visualstudio/subscriptions/vs-vsts">Azure DevOps</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-office-dev">Office 365 Developer Subscription</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-pbi">Windows Developer Account</a></li>
                             <li>PowerBI Pro</li>
