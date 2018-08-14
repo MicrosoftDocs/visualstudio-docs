@@ -43,6 +43,14 @@ You can set and clear the **Word wrap** option. When this option is set, the por
     > [!NOTE]
     >  These reminder arrows are not added to your code: they are for display purposes only.
 
+## Known issues
+
+If you are familiar with word wrap in Notepad++, Sublime Text or Visual Studio Code, be aware of the following issues where Visual Studio behaves differently to other editors:
+
+* [Triple click doesn't select whole line](https://developercommunity.visualstudio.com/content/problem/268989/triple-click-doesnt-select-whole-line-when-word-wr.html)
+* [Cut command doesn't delete whole line](https://developercommunity.visualstudio.com/content/problem/138259/cut-command-should-delete-logical-line.html)
+* [Pressing End key twice does not move cursor to end of line](https://developercommunity.visualstudio.com/content/problem/138274/pressing-end-key-twice-should-move-cursor-to-end-o.html)
+
 ## See also
 
 - [Customizing the Editor](../../ide/customizing-the-editor.md)
