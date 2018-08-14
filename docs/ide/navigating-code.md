@@ -1,6 +1,6 @@
 ---
-title: Navigate code in Visual Studio
-ms.date: 09/26/2017
+title: Code navigation commands
+ms.date: 08/14/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -74,15 +74,23 @@ Go To has the following commands, which are available in the **Edit** menu under
 
 - **Go To Line** (**Ctrl**+**G**): Move to the specified line number in the active document.
 
-- **Go to All** (**Ctrl**+**T** or **Ctrl**+**,**): Move to the specified line, type, file, member, or symbol.
+- **Go To All** (**Ctrl**+**T** or **Ctrl**+**,**): Move to the specified line, type, file, member, or symbol.
 
-- **Go to File** (**Ctrl**+**1**, **Ctrl**+**F**): Move to the specified file in the solution.
+- **Go To File** (**Ctrl**+**1**, **Ctrl**+**F**): Move to the specified file in the solution.
 
-- **Go to Type** (**Ctrl**+**1**, **Ctrl**+**T**): Move to the specified type in the solution.
+- **Go To Recent File** (**Ctrl**+**1**, **Ctrl**+**R**): Move to the specified, recently visited file in the solution (new in Visual Studio 2017 version 15.8).
 
-- **Go to Member** (**Ctrl**+**1**, **Ctrl**+**M**): Move to the specified member in the solution.
+- **Go To Type** (**Ctrl**+**1**, **Ctrl**+**T**): Move to the specified type in the solution.
 
-- **Go to Symbol** (**Ctrl**+**1**, **Ctrl**+**S**): Move to the specified symbol in the solution.
+- **Go To Member** (**Ctrl**+**1**, **Ctrl**+**M**): Move to the specified member in the solution.
+
+- **Go To Symbol** (**Ctrl**+**1**, **Ctrl**+**S**): Move to the specified symbol in the solution.
+
+In Visual Studio 2017 version 15.8 and later, the following **Go To** navigation commands are also available:
+
+- **Go To Next Issue in File** (**Alt**+**PgDn**) and **Go To Previous Issue in File** (**Alt**+**PgUp**)
+
+- **Go To Last Edit Location** (**Ctrl**+**Shift**+**Backspace**)
 
 See more about these commands in the [Find code using Go To commands](../ide/go-to.md) topic.
 

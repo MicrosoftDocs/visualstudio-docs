@@ -13,6 +13,7 @@ ms.author: tglee
 manager: douge
 ms.workload:
   - "multiple"
+ROBOTS: NOINDEX
 ---
 # Install Visual Studio 2017 on low bandwidth or unreliable network environments
 
