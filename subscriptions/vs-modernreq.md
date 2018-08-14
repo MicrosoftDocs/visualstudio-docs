@@ -13,7 +13,7 @@ searchscope: VS Subscription
 
 # The MODERNRequirements4TFS benefit in Visual Studio subscriptions
 
-Selected Visual Studio subscriptions include a six month subscription for MODERNRequirements SmartOffice 4TFS and ModernRequirements4TFS.  MODERNRequirements SmartOffice4TFS extends the capabilities of TFS or Visual Studio Team Services with Microsoft Word-based reporting, and quick, simplified rich text authoring.  ModernRequirements4TFS provides work item baselining and HTML5 simulation capabilities.
+Selected Visual Studio subscriptions include a six month subscription for MODERNRequirements SmartOffice 4TFS and ModernRequirements4TFS.  MODERNRequirements SmartOffice4TFS extends the capabilities of TFS or Azure DevOps with Microsoft Word-based reporting, and quick, simplified rich text authoring.  ModernRequirements4TFS provides work item baselining and HTML5 simulation capabilities.
 
 
 ## Activation steps
@@ -96,4 +96,4 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 ## Support resources
 -  Need help with ModernRequirements products?  Please visit https://www.modernrequirements.com/support-2/.
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+-  Have a question about Visual Studio IDE, Azure DevOps or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
