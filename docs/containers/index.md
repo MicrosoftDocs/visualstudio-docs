@@ -72,7 +72,7 @@ featureFlags:
                             </ul>
                         </td>
                         <td>
-                            <ul id="azure-and-tools" class="cardsL">
+                            <ul id="azure" class="cardsL">
                                 <li>
                                     <div class="cardSize">
                                         <div class="cardPadding" style="padding-bottom: 0;">
@@ -85,9 +85,11 @@ featureFlags:
                                                                 <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="">Azure Container Development
                                                             </a>
                                                         </li>
+                                                        <li><a class="barLink" href="/azure/aks/"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Azure Kubernetes Service (AKS)</a></li>
+                                                        <li><a class="barLink" href="https://docs.microsoft.com/azure/dev-spaces/"><img src="media/AzureDevSpaceController_50x.svg" alt="">Azure Dev Spaces</a></li>
                                                         <li>
-                                                            <a class="barLink" href="https://docs.microsoft.com/azure/docker/">
-                                                                <img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker on Azure
+                                                            <a class="barLink" href="https://docs.microsoft.com/azure/container-instances/container-instances-tutorial-prepare-app">
+                                                                <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="">Azure Container Instances
                                                             </a>
                                                         </li>
                                                         <li>
@@ -101,24 +103,10 @@ featureFlags:
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a class="barLink" href="https://docs.microsoft.com/azure/container-instances/container-instances-tutorial-prepare-app">
-                                                                <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="">Azure Container Instances
+                                                            <a class="barLink" href="https://docs.microsoft.com/azure/docker/">
+                                                                <img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker on Azure
                                                             </a>
                                                         </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="cardSize">
-                                        <div class="cardPadding" style="padding-bottom: 0;">
-                                            <div class="card">
-                                                <div class="cardText">
-                                                    <h3>Visual Studio</h3>
-                                                    <ul class="noBullet">
-                                                        <li><a class="barLink" href="https://docs.microsoft.com/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker"><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker Tools in Visual Studio</a></li>
-                                                        <li><a class="barLink" href="https://docs.microsoft.com/visualstudio/install/build-tools-container"><img src="https://docs.microsoft.com/media/common/i_build.svg" alt="">Running build tools in a container</a></li>
-                                                        <li><a class="barLink" href="https://docs.microsoft.com/visualstudio/kubernetes/"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Visual Studio Tools for Kubernetes</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -128,19 +116,24 @@ featureFlags:
                             </ul>
                         </td>
                         <td>
-                            <ul id="kubernetes" class="cardsL">
+                            <ul id="visualstudio" class="cardsL">
                                 <li>
                                     <div class="cardSize">
                                         <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
-                                                    <h3>Kubernetes</h3>
+                                                    <h3>Visual Studio</h3>
                                                     <ul class="noBullet">
-                                                        <li><a class="barLink" href="/azure/aks/"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Azure Kubernetes Service (AKS)</a></li>
-                                                        <li><a class="barLink" href="https://docs.microsoft.com/azure/dev-spaces/"><img src="media/AzureDevSpaceController_50x.svg" alt="">Azure Dev Spaces</a></li>
+                                                        <li><a class="barLink" href="https://docs.microsoft.com/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker"><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker Tools in Visual Studio</a></li>
+                                                        <li><a class="barLink" href="https://docs.microsoft.com/visualstudio/install/build-tools-container"><img src="https://docs.microsoft.com/media/common/i_build.svg" alt="">Running build tools in a container</a></li>
+                                                        <li><a class="barLink" href="/visualstudio/deployment/tutorial-kubernetes-tools"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Visual Studio Tools for Kubernetes</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="cardSize">
+                                        <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
                                                     <h3>Other sites</h3>
