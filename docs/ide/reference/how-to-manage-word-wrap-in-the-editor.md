@@ -15,16 +15,11 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Manage Word Wrap in the Editor
+# How to: Manage word wrap in the editor
 
 You can set and clear the **Word wrap** option. When this option is set, the portion of a long line that extends beyond the current width of the Code Editor window is displayed on the next line. When this option is cleared, for example, to facilitate the use of line numbering, you can scroll to the right to see the ends of long lines.
 
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in **Help** depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
-
-## Procedure
-
-### To set word wrap preferences
+## To set word wrap preferences
 
 1.  On the **Tools** menu, select **Options**.
 
@@ -41,11 +36,11 @@ You can set and clear the **Word wrap** option. When this option is set, the por
 4.  Select the **Show visual glyphs for Word Wrap** option if you prefer to display a return-arrow indicator where a long line wraps onto a second line. Clear this option if you prefer not to display indicator arrows.
 
     > [!NOTE]
-    >  These reminder arrows are not added to your code: they are for display purposes only.
+    > These reminder arrows are not added to your code; they are for display purposes only.
 
 ## Known issues
 
-If you are familiar with word wrap in Notepad++, Sublime Text or Visual Studio Code, be aware of the following issues where Visual Studio behaves differently to other editors:
+If you're familiar with word wrap in Notepad++, Sublime Text, or Visual Studio Code, be aware of the following issues where Visual Studio behaves differently to other editors:
 
 * [Triple click doesn't select whole line](https://developercommunity.visualstudio.com/content/problem/268989/triple-click-doesnt-select-whole-line-when-word-wr.html)
 * [Cut command doesn't delete whole line](https://developercommunity.visualstudio.com/content/problem/138259/cut-command-should-delete-logical-line.html)
