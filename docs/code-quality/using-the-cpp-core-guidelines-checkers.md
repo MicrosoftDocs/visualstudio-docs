@@ -1,6 +1,6 @@
 ---
 title: Using the C++ Core Guidelines checkers
-ms.date: 11/04/2016
+ms.date: 08/14/2018
 ms.topic: "conceptual"
 author: mikeblome
 ms.author: mblome
@@ -21,7 +21,7 @@ The C++ Core Guidelines are a portable set of guidelines, rules, and best practi
 
  ![Property page for Code Analysis General settings](media/cppcorecheck_codeanalysis_general.png)
 
- A subset of C++ Core Check rules is included in the default rule set that runs when code analysis is enabled. To enable additional Core Check rules, click on the dropdown and choose which rule sets you want to include:
+ A subset of C++ Core Check rules is included in the Microsoft Native Recommended rule set that runs by default when code analysis is enabled. To enable additional Core Check rules, click on the dropdown and choose which rule sets you want to include:
 
  ![Dropdown for additional C++ Core Check rule sets](media/cppcorecheck_codeanalysis_extensions.png)
 
