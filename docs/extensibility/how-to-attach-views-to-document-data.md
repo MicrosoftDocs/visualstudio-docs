@@ -14,10 +14,10 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Attach Views to Document Data
+# How to: Attach views to document data
 If you have a new document view, you may be able to attach it to an existing document data object.  
   
-### To determine if you can attach a view to an existing document data object  
+## To determine if you can attach a view to an existing document data object  
   
 1.  Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A>.  
   
@@ -36,9 +36,9 @@ If you have a new document view, you may be able to attach it to an existing doc
     > [!NOTE]
     >  To determine whether you can work with an existing document data object, you can also use private knowledge of the interface implementation by casting a pointer to the actual [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] class of your private implementation. For example, all standard editors implement `IVsPersistFileFormat`, which inherits from <xref:Microsoft.VisualStudio.OLE.Interop.IPersist>. Thus, you can call `QueryInterface` for <xref:Microsoft.VisualStudio.OLE.Interop.IPersist.GetClassID%2A>, and if the class ID on the existing document data object matches your implementation's class ID, then you can work with the document data object.  
   
-## Robust Programming  
- When Visual Studio calls your implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> method, it passes back a pointer to the existing document data object in the `punkDocDataExisting` parameter, if one exists. Examine the document data object returned in `punkDocDataExisting` to determine if the document data object is appropriate for your editor as outlined in the note in step 4 of the procedure in this topic. If it is appropriate, then your editor factory should provide a second view for the data as outlined in [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md). If not, then it should display an appropriate error message.  
+## Robust programming  
+ When Visual Studio calls your implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory.CreateEditorInstance%2A> method, it passes back a pointer to the existing document data object in the `punkDocDataExisting` parameter, if one exists. Examine the document data object returned in `punkDocDataExisting` to determine if the document data object is appropriate for your editor as outlined in the note in step 4 of the procedure in this topic. If it is appropriate, then your editor factory should provide a second view for the data as outlined in [Support multiple document views](../extensibility/supporting-multiple-document-views.md). If not, then it should display an appropriate error message.  
   
-## See Also  
- [Supporting Multiple Document Views](../extensibility/supporting-multiple-document-views.md)   
- [Document Data and Document View in Custom Editors](../extensibility/document-data-and-document-view-in-custom-editors.md)
+## See also  
+ [Support multiple document views](../extensibility/supporting-multiple-document-views.md)   
+ [Document data and document view in custom editors](../extensibility/document-data-and-document-view-in-custom-editors.md)

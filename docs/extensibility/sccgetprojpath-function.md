@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# SccGetProjPath Function
+# SccGetProjPath function
 This function prompts the user for a project path, which is a string that is meaningful only to the source control plug-in. It is called when the user is:  
   
 -   Creating a new project  
@@ -40,7 +40,7 @@ SCCRTN SccGetProjPath (
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  pvContext  
  [in] The source control plug-in context structure.  
   
@@ -75,7 +75,7 @@ SCCRTN SccGetProjPath (
 |TRUE|A new project was created.|  
 |FALSE|An existing project was selected.|  
   
-## Return Value  
+## Return value  
  The source control plug-in implementation of this function is expected to return one of the following values:  
   
 |Value|Description|  
@@ -102,6 +102,6 @@ SCCRTN SccGetProjPath (
   
  For example, if a user in the **New Project** wizard in Visual Studio adds his or her project to source control, Visual Studio calls this function, and the plug-in determines if it is okay to create a new project in the source control system to contain the Visual Studio project. If the user clicks **Cancel** before completing the wizard, the project is never created. If the user clicks **OK**, Visual Studio calls `SccOpenProject`, passing in `SCC_OPT_CREATEIFNEW`, and the source controlled project is created at that time.  
   
-## See Also  
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)   
+## See also  
+ [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)   
  [SccOpenProject](../extensibility/sccopenproject-function.md)

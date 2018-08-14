@@ -161,7 +161,7 @@ Following the best advice on agile development, we will develop the template in 
 
 The test code requires a class for each node in the file. Therefore, some of the compilation errors will go away if you append these lines to the template, and then save it:
 
-```
+```csharp
 class Catalog {}
 class Artist {}
 class Song {}

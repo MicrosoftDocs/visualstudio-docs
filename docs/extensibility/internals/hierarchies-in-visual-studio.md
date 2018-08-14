@@ -20,7 +20,7 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
   
  In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you manage project hierarchies by using the hierarchy interface, <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> interface redirects commands you invoke from project items to the appropriate hierarchy window instead of the standard command handler.  
   
-## Project Hierarchies  
+## Project hierarchies  
  Each project hierarchy contains items that you can view and edit. These items vary depending on project type. For example, a database project might contain stored procedures, database views, and database tables. A programming-language project, on the other hand, will likely include source files and resource files for bitmaps and dialog boxes. Hierarchies can be nested, which gives you some added flexibility when you create a project hierarchy.  
   
  When you create a new project type, the project type controls the complete set of items that can be edited in it. However, projects can contain items for which they do not have editing support. For example, Visual C++ projects can contain HTML files, even though Visual C++ does not provide any customized editor for the HTML file type.  
@@ -29,7 +29,7 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
   
  When a user opens an item in an editor, the hierarchy that controls that item is selected and becomes the active hierarchy. The selected hierarchy determines the set of commands available to act on the item. Tracking user focus in this manner enables the hierarchy to reflect the user's current context.  
   
-## See Also  
- [Project Types](../../extensibility/internals/project-types.md)   
- [Selection and Currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)   
- [VSSDK Samples](http://aka.ms/vs2015sdksamples)
+## See also  
+ [Project types](../../extensibility/internals/project-types.md)   
+ [Selection and currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)   
+ [VSSDK samples](http://aka.ms/vs2015sdksamples)

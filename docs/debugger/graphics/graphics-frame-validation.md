@@ -19,7 +19,7 @@ Visual Studio 2017 and greater support the **Frame Validation** tool.  The Frame
 
 ![Frame Validation](media/gfx_diag_frame_validation.png)
 
-Click the **Run Validation** button at the top left corner to initiate the analysis.  It may take several minutes to complete depending on the complexity of the frame.  The data which appears here is a combination from two sources: the messages that D3D itself emits when [SDK Layers](https://msdn.microsoft.com/library/windows/desktop/ff476881(v=vs.85).aspx) is enabled, and data that is collected from the tool's own internal state tracking. Once complete, you will see several columns of data:
+Click the **Run Validation** button at the top left corner to initiate the analysis.  It may take several minutes to complete depending on the complexity of the frame.  The data which appears here is a combination from two sources: the messages that D3D itself emits when [SDK Layers](/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers) is enabled, and data that is collected from the tool's own internal state tracking. Once complete, you will see several columns of data:
 
 **Column**|**Description**
 ---|---

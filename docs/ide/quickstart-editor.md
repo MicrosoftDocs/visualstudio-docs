@@ -1,5 +1,5 @@
 ---
-title: Introduction to editing in Visual Studio
+title: Introduction to editing
 ms.date: 11/30/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -12,13 +12,13 @@ dev_langs:
 ms.workload:
   - "multiple"
 ---
-# Quickstart: Use the code editor
+# Learn to use the code editor
 
 In this 10-minute introduction to the code editor in Visual Studio, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
-This quickstart assumes you're already familiar with a programming language. If you aren't, we suggest you look at one of the programming quickstarts first, such as create a web app with [Python](../ide/quickstart-python.md) or [C#](../ide/tutorial-csharp-aspnet-core.md), or create a console app with [Visual Basic](../ide/quickstart-visual-basic-console.md) or [C++](../ide/getting-started-with-cpp-in-visual-studio.md).
+This article assumes you're already familiar with a programming language. If you aren't, we suggest you look at one of the programming quickstarts first, such as create a web app with [Python](../ide/quickstart-python.md) or [C#](../ide/tutorial-csharp-aspnet-core.md), or create a console app with [Visual Basic](../ide/quickstart-visual-basic-console.md) or [C++](../ide/getting-started-with-cpp-in-visual-studio.md).
 
 ## Create a new code file
 
@@ -151,14 +151,13 @@ Nobody gets code right the first time, and one of the things you might have to c
 
 ## Next steps
 
-You've completed this Quickstart for the Visual Studio editor. Next, you might try out some of the other Quickstarts for the Visual Studio development environment such as [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md) or [Quickstart: Personalize Visual Studio](../ide/quickstart-personalize-the-ide.md), look at more ways to [Navigate code](../ide/navigating-code.md), or check out the links to more information about the features we looked at. Otherwise, happy coding!
+> [!div class="nextstepaction"]
+> [Learn about projects and solutions](../ide/quickstart-projects-solutions.md)
 
 ## See also
 
-- [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
-- [Quickstart: Personalize Visual Studio](../ide/quickstart-personalize-the-ide.md)
-- [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)
 - [Code snippets](../ide/code-snippets.md)
+- [Navigate code](../ide/navigating-code.md)
 - [Outlining](../ide/outlining.md)
 - [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)
 - [Refactoring](../ide/refactoring-in-visual-studio.md)

@@ -23,16 +23,16 @@ Getting help via the Concierge Chat service is very easy.
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
 2. Locate the Concierge Chat tile in the Support section of the benefits page and click on **Chat now**.
-
-    ![Concierge Chat Tile](_img/vs-concierge-chat/vs-concierge-chat-tile.png)
+    > [!div class="mx-imgBorder"]
+    > ![Concierge Chat Tile](_img/vs-concierge-chat/vs-concierge-chat-tile.png)
 
 3. Click **Continue**.
 
 4. A chat window will open, and you'll see a counter showing your position in the queue.
 
 5. When an agent is available, the chat will start.
-
-    ![Concierge Chat Session](_img/vs-concierge-chat/vs-concierge-chat-session.png)
+    > [!div class="mx-imgBorder"]
+    > ![Concierge Chat Session](_img/vs-concierge-chat/vs-concierge-chat-session.png)
 
 ## Eligibility
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |

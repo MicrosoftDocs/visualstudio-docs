@@ -1,6 +1,6 @@
 ---
 title: Using EditorConfig settings in Visual Studio
-ms.date: 12/13/2017
+ms.date: 08/01/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "editorconfig [Visual Studio]"
@@ -17,7 +17,7 @@ In Visual Studio 2017, you can add an [EditorConfig](http://editorconfig.org/) f
 EditorConfig settings are supported by numerous code editors and IDEs, including Visual Studio. It's a portable component that travels with your code, and can enforce coding styles even outside of Visual Studio.
 
 > [!NOTE]
-> When you add an EditorConfig file to your project in Visual Studio, the formatting of existing code is not changed unless you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D**). However, any new lines of code are formatted according to the EditorConfig settings.
+> When you add an EditorConfig file to your project in Visual Studio, the formatting of existing code is not changed unless you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D** in the default profile). However, any new lines of code are formatted according to the EditorConfig settings. You can define which EditorConfig settings you want **Format Document** to apply on the [**Formatting** options page](reference/options-text-editor-csharp-formatting.md#format-document-settings).
 
 ## Coding consistency
 
@@ -75,9 +75,15 @@ If you remove an EditorConfig file from your project or codebase, you must close
    csharp_new_line_before_open_brace = methods
    ```
 
-Alternatively, you can install the [EditorConfig Language Service extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig). After you install this extension, simply choose **Add** > **.editorconfig File** from the right-click or context menu of the solution node, project node, or any folder in Solution Explorer.
+### Other ways to add an EditorConfig file
 
-![Add .editorconfig file with extension](media/editorconfig-extension-add.png)
+There are a couple other ways you can add an EditorConfig file to your project:
+
+- Install the [EditorConfig Language Service extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig) to more easily add an empty *.editorconfig* file to your project. After you install this extension, simply choose **Add** > **.editorconfig File** from the right-click or context menu of the solution node, project node, or any folder in **Solution Explorer**. This extension also improves the editing experience for the *.editorconfig* file.
+
+   ![Add .editorconfig file with extension](media/editorconfig-extension-add.png)
+
+- Try out the [IntelliCode extension](/visualstudio/intellicode/intellicode-visual-studio). This experimental extension infers your code styles from existing code, and then creates a non-empty *.editorconfig* file with your code style preferences already defined.
 
 ## Override EditorConfig settings
 

@@ -47,21 +47,22 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 1.  Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
 2.  Locate the Azure tile in the Tools section on the Benefits page and click **Activate** link at the bottom of the benefit tile.
-
-    ![Azure Tile](_img\vs-azure\vs-azure-tile.png)
+    > [!div class="mx-imgBorder"]
+    > ![Azure Tile](_img\vs-azure\vs-azure-tile.png)
 
 3.	Fill in the required information to create your Azure subscription, click the checkbox to accept the terms & conditions, and click **Sign up**:
-
-    ![Azure Sign-up](_img\vs-azure\vs-azure-sign-up-cropped.png)
+    > [!div class="mx-imgBorder"]
+    > ![Azure Sign-up](_img\vs-azure\vs-azure-sign-up-cropped.png)
 
 4.	When your account is ready, you’ll have the option to choose an Azure support plan (sold separately), or get started with your Azure subscription.
-
-    ![Azure Getting Ready](_img\vs-azure\vs-azure-getting-ready-cropped.png)
+    > [!div class="mx-imgBorder"]
+    > ![Azure Getting Ready](_img\vs-azure\vs-azure-getting-ready-cropped.png)
 
 5.	The Azure Dashboard will load, and on your first use, you’ll have the option to take a tour.  The tour consists of a series of screen tips that will point out how you can accomplish a variety of tasks and find relevant information.  Completing or closing the tour will display the Azure Dashboard.
 
 6.	Bookmark the [Azure Portal](https://portal.azure.com) for easy access in the future.
-![Azure Dashboard](_img\vs-azure\vs-azure-dashboard-cropped.png)
+    > [!div class="mx-imgBorder"]
+    > ![Azure Dashboard](_img\vs-azure\vs-azure-dashboard-cropped.png)
 
 ## FAQ
 
