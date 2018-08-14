@@ -32,13 +32,13 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
 
 4.	In the **Activate your account** section of the page, you’ll be guided through four steps:
 
-    - [Install](https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt) the WhiteSource Bolt extension from Microsoft Visual Studio marketplace. If you don’t have permissions to install extensions, see [Install free extensions for VSTS](/vsts/marketplace/install-vsts-extension?view=vsts).
+    - [Install](https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt) the WhiteSource Bolt extension from Microsoft Visual Studio marketplace. If you don’t have permissions to install extensions, see [Install free extensions for Azure DevOps](/azure/devops/marketplace/install-vsts-extension?view=vsts).
 
-    Click the green **Install** button if you are using VSTS, or the **Download** button for Team Foundation Server.  For this example, we will use VSTS.
+    Click the green **Install** button if you are using Azure DevOps, or the **Download** button for Team Foundation Server.  For this example, we will use Azure DevOps.
     > [!div class="mx-imgBorder"]
     > ![WhiteSource Benefit Install Extension](_img\vs-whitesource\vs-whitesource-download-install.png)
 
-    - Next, select the VSTS account you want to use and click **Confirm**.  (If you have not yet set up VSTS, visit the [Benefits](https://my.visualstudio.com/benefits) page and activate your VSTS benefit.)
+    - Next, select the Azure DevOps account you want to use and click **Confirm**.  (If you have not yet set up Azure DevOps, visit the [Benefits](https://my.visualstudio.com/benefits) page and activate your Azure DevOps benefit.)
     > [!div class="mx-imgBorder"]
     > ![WhiteSource Benefit Confirm Account](_img\vs-whitesource\vs-whitesource-confirm-account.png)
 
@@ -46,7 +46,7 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
     > [!div class="mx-imgBorder"]
     > ![WhiteSource Benefit Install Complete](_img\vs-whitesource\vs-whitesource-install-complete.png)
 
-5.  Open your Visual Studio Team Services (VSTS) project dashboard, click on the **Build & Release** menu and choose **WhiteSource Bolt**.
+5.  Open your Azure DevOps project dashboard, click on the **Build & Release** menu and choose **WhiteSource Bolt**.
     > [!div class="mx-imgBorder"]
     > ![WhiteSource Benefit Add Extension](_img\vs-whitesource\vs-whitesource-installed-cropped.png)
 
