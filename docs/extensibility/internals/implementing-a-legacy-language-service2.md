@@ -247,7 +247,7 @@ namespace TestLanguagePackage
             TextSpan          span,  
             string            filename,  
             string            message,  
-            TastPriority      priority,  
+            TaskPriority      priority,  
             TaskCategory      category,  
             MARKERTYPE        markerType,  
             TaskErrorCategory errorCategory)  

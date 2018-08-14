@@ -2,8 +2,8 @@
 title: "Visual Studio for Mac Troubleshooting"
 description: "Common issues and resolutions for Visual Studio for Mac users."
 ms.topic: troubleshooting
-author: asb3993
-ms.author: amburns
+author: conceptdev
+ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: CE860D79-E29E-4B93-B094-BE74B35FC1C2
 ---

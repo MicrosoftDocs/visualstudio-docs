@@ -3,7 +3,7 @@ title: The Office 365 Developer Benefit in Visual Studio Subscriptions | Microso
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
-ms.date: 11/12/2018
+ms.date: 11/12/2017
 ms.topic: Get-Started-Article
 description:  Learn about the Office 365 Developer benefit included in your Visual Studio subscription.
 ms.prod: vs-subscription
@@ -24,28 +24,28 @@ Subscribers with selected Visual Studio Enterprise subscriptions receive the Off
 3. Once the sign-in process is complete, you should see the Subscriptions Benefits page.  If you have more than one subscription, you can switch between the subscriptions by clicking the drop-down arrow in the top right corner, below the black ribbon.  The Office 365 Developer Subscription benefit tile is in the Tools category.  Use the arrow to the right of the row of tiles to scroll until the Office tile is visible.
 
 4. Locate the Office 365 Developer Subscription tile in the Tools section.  Click on the **Get Code** link at the bottom of the benefit tile.   When the code has been retrieved, click **Activate**.
-
-    ![Office 365 Dev Benefit Tile](_img\vs-office-dev\vs-office-dev-tile.png)
+    > [!div class="mx-imgBorder"]
+    > ![Office 365 Dev Benefit Tile](_img\vs-office-dev\vs-office-dev-tile.png)
 
 5.	The next step is to create an account.  Provide your contact information, and click **Next**.
-
-    ![Office 365 Dev Benefit Account](_img\vs-office-dev\vs-office-dev-account-cropped.png)
+    > [!div class="mx-imgBorder"]
+    > ![Office 365 Dev Benefit Account](_img\vs-office-dev\vs-office-dev-account-cropped.png)
 
 6.	Provide the requested information about where you’ll be using the subscription and click **Next**.  The information is used to determine subscription availability and any applicable taxes.
-
-    ![Office 365 Dev Benefit Contact Information](_img\vs-office-dev\vs-office-dev-contact-cropped.png)
+    > [!div class="mx-imgBorder"]
+    > ![Office 365 Dev Benefit Contact Information](_img\vs-office-dev\vs-office-dev-contact-cropped.png)
 
 7.	Create your username and password for your account.
-
-    ![Office 365 Dev Benefit User Name](_img\vs-office-dev\vs-office-dev-username-cropped.png)
+    > [!div class="mx-imgBorder"]
+    > ![Office 365 Dev Benefit User Name](_img\vs-office-dev\vs-office-dev-username-cropped.png)
 
 8.	Provide a phone number and choose whether to receive a confirmation code via phone or text.  This helps us ensure the account is being created by a real person. Enter the code you receive and click **Next**.
 
 9.	You may be asked to sign in at this point.  If you have more than one account shown on the Office 365 login page, please choose the account you associated with this subscription.
 
 10.	The next page will confirm that your subscription is available to you at no cost.  Click **Next** to continue.
-
-    ![Office 365 Dev Benefit How Does This Look](_img\vs-office-dev\vs-office-dev-price.png)
+    > [!div class="mx-imgBorder"]
+    > ![Office 365 Dev Benefit How Does This Look](_img\vs-office-dev\vs-office-dev-price.png)
 
 11.	In finalizing "Step 3”, you will be asked to select a "Payment Method.”  There are two Payment Options available.  The first option would be to add a **Credit Card** (as displayed below), and the second option is **Invoice**.  In both cases, a $0.00 order is submitted by clicking **Place Order**.
 
@@ -53,8 +53,8 @@ Subscribers with selected Visual Studio Enterprise subscriptions receive the Off
     > For subscribers who don’t want to provide a Credit Card, select the **Invoice** payment method.  You can also select **Pay by the year** to limit the receipt of invoices to once per year.
 
 12.	At this point, you have successfully redeemed your Office 365 Developer Subscription benefit.  You’ll see a page confirming your order.  The page will provide a link to the [sign-in page](https://portal.office.com "Office 365 sign-in page").  We recommend bookmarking the page for later use.  You’ll also want to record the user ID shown on the page.  (You will also receive a welcome email at the address you provided when you set up the account.)  Click **Start setup** to continue.
-
-    ![Office 365 Dev Benefit Order Confirmed](_img\vs-office-dev\vs-office-dev-confirm.png)
+    > [!div class="mx-imgBorder"]
+    > ![Office 365 Dev Benefit Order Confirmed](_img\vs-office-dev\vs-office-dev-confirm.png)
 
 ## Eligibility
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
@@ -81,8 +81,8 @@ A:  Setting up the Office 365 Developer subscription benefit
     > To sign in to https://portal.office.com, you will need to use your new Office 365 Developer Subscription User ID that you created in Step 7 above.
 
 2. After clicking **Start Setup**, “Step 1” will ask to connect to an existing domain you already own, or to continue using the tenant setup during redemption process.  In the example below, we’ve opted to continue using our appsbyjane2017.onmicrosoft.com” domain.
-
-    ![Office 365 Dev Benefit Admin Center](_img\vs-office-dev\vs-office-dev-admin-cropped.png)
+    > [!div class="mx-imgBorder"]
+    > ![Office 365 Dev Benefit Admin Center](_img\vs-office-dev\vs-office-dev-admin-cropped.png)
 
 
 3.	Step 2 allows administrators to add users to the Office 365 account.  Add your desired users, and click **Next**.
@@ -99,11 +99,11 @@ A:  Setting up the Office 365 Developer subscription benefit
     - OneDrive for Business
 
 5.	Choose your preferred language and click **Install**.
+    > [!div class="mx-imgBorder"]
+    > ![Office 365 Dev Benefit Install Apps](_img\vs-office-dev\vs-office-dev-install-cropped.png)
 
-    ![Office 365 Dev Benefit Install Apps](_img\vs-office-dev\vs-office-dev-install-cropped.png)
 
-
-6. Click **Run** to begin the installation immediately, or click **Save** to save the installation package to your PC and install later.
+6.  Click **Run** to begin the installation immediately, or click **Save** to save the installation package to your PC and install later.
 
 7.	When the User Account Control dialog appears, click **Yes** to allow Office to install on your computer.
 

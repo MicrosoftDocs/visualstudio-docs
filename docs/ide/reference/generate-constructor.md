@@ -50,7 +50,7 @@ This code generation applies to:
 
 1. Select **Generate constructor** from the drop-down menu.
 
-   The **Pick memebers** dialog box opens.
+   The **Pick members** dialog box opens.
 
 1. Pick the members you want to include as constructor parameters. You can order them using the up and down arrows. Choose **OK**.
 

@@ -16,36 +16,36 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Elimination of ~SAK Files
-In Source Control Plug-in API 1.2, the ~SAK files have been replaced by capability flags and new functions that detect whether a source control plug-in supports the MSSCCPRJ file and shared checkouts.  
+# Elimination of ~SAK files
+In Source Control Plug-in API 1.2, the *~SAK* files have been replaced by capability flags and new functions that detect whether a source control plug-in supports the *MSSCCPRJ* file and shared checkouts.  
   
-## ~SAK Files  
- Visual Studio .NET 2003 created temporary files prefixed with ~SAK. These files are used to determine if a source control plug-in supports:  
+## ~SAK files  
+Visual Studio .NET 2003 created temporary files prefixed with *~SAK*. These files are used to determine if a source control plug-in supports:  
   
--   The MSSCCPRJ.SCC file.  
+- The *MSSCCPRJ.SCC* file.  
   
--   Multiple (shared) checkouts.  
+- Multiple (shared) checkouts.  
+    
+For plug-ins that support advanced functions provided in the Source Control Plug-in API 1.2, the IDE can detect these capabilities without creating the temporary files through the use of new capabilities, flags, and functions, detailed in the following sections.  
   
- For plug-ins that support advanced functions provided in the Source Control Plug-in API 1.2, the IDE can detect these capabilities without creating the temporary files through the use of new capabilities, flags, and functions, detailed in the following sections.  
-  
-## New Capability Flags  
+## New capability flags  
  `SCC_CAP_SCCFILE`  
   
  `SCC_CAP_MULTICHECKOUT`  
   
-## New Functions  
+## New functions  
  [SccWillCreateSccFile](../../extensibility/sccwillcreatesccfile-function.md)  
   
  [SccIsMultiCheckoutEnabled](../../extensibility/sccismulticheckoutenabled-function.md)  
   
  If a source control plug-in supports multiple (shared) checkouts, then it declares the `SCC_CAP_MULTICHECKOUT` capability and implements the `SccIsMultiCheckOutEnabled` function. This function is called whenever a checkout operation occurs on any of the source-controlled projects.  
   
- If a source control plug-in supports the creation and use of an MSSCCPRJ.SCC file, then it declares the `SCC_CAP_SCCFILE` capability and implements the [SccWillCreateSccFile](../../extensibility/sccwillcreatesccfile-function.md). This function is called with a list of files. The function returns `TRUE/FALSE` for each file to indicate whether Visual Studio should use an MSSCCPRJ.SCC file for it. If the source control plug-in chooses not to support these new capabilities and functions, it can use the following registry key to disable the creation of these files:  
+ If a source control plug-in supports the creation and use of an *MSSCCPRJ.SCC* file, then it declares the `SCC_CAP_SCCFILE` capability and implements the [SccWillCreateSccFile](../../extensibility/sccwillcreatesccfile-function.md). This function is called with a list of files. The function returns `TRUE' or 'FALSE` for each file to indicate whether Visual Studio should use an *MSSCCPRJ.SCC* file for it. If the source control plug-in chooses not to support these new capabilities and functions, it can use the following registry key to disable the creation of these files:  
   
- [HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\SourceControl] "DoNotCreateTemporaryFilesInSourceControl"=dword:00000001  
+ **[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\SourceControl]DoNotCreateTemporaryFilesInSourceControl** = *dword:00000001*  
   
 > [!NOTE]
->  If this registry key is set to dword:00000000, it is equivalent to the key being nonexistent, and Visual Studio still attempts to create the temporary files. However, if the registry key is set to dword:00000001, Visual Studio does not attempt to create the temporary files. Instead it assumes that the source control plug-in does not support the MSSCCPRJ.SCC file and does not support shared checkouts.  
+>  If this registry key is set to *dword:00000000*, it is equivalent to the key being nonexistent, and Visual Studio still attempts to create the temporary files. However, if the registry key is set to *dword:00000001*, Visual Studio does not attempt to create the temporary files. Instead it assumes that the source control plug-in does not support the *MSSCCPRJ.SCC* file and does not support shared checkouts.  
   
-## See Also  
- [What's New in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)
+## See also  
+ [What's new in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)

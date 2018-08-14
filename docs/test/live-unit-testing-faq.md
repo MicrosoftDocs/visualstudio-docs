@@ -71,13 +71,13 @@ The **Output Window** (when the Live Unit Testing drop-down is selected) should 
 
 - At least one project in your solution should have either a NuGet reference or direct reference to the xUnit, NUnit, or MSTest test framework. This project should also reference a corresponding Visual Studio test adapters NuGet package. The Visual Studio test adapter can also be referenced through a *.runsettings* file. The *.runsettings* file must have an entry like the following example:
 
-   ```xml
-    <RunSettings>
-       <RunConfiguration>
+```xml
+<RunSettings>
+    <RunConfiguration>
           <TestAdaptersPaths>path-to-your-test-adapter</TestAdaptersPaths>
-       </RunConfiguration>
-    </RunSettings>
-   ```
+     </RunConfiguration>
+</RunSettings>
+```
 
 ## Why does Live Unit Testing show incorrect coverage after you upgrade the test adapter referenced in your Visual Studio Projects to the supported version?
 
@@ -262,4 +262,4 @@ You can do several things to collect more detailed logs:
 
 ## See also
 
-[Live Unit Testing](live-unit-testing.md)
+- [Live Unit Testing](live-unit-testing.md)

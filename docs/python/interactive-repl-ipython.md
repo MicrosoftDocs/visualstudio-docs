@@ -76,7 +76,7 @@ For this walkthrough you should have the [Anaconda](https://www.continuum.io) en
 
 IPython has many other useful features such as escaping to the system shell, variable substitution, capturing output, etc. Refer to the [IPython documentation](http://ipython.org/documentation.html) for more.
 
-## See also
+### See also
 
 - To use Jupyter easily and without installation, try the free [Azure Notebooks hosted service](https://notebooks.azure.com/) that lets you keep and share your notebooks with others.
 

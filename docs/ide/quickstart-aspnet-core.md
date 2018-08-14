@@ -1,6 +1,6 @@
 ---
 title: "Use Visual Studio to create an ASP.NET Core web app in C#"
-description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
+description: "Learn how to create a simple Hello World web app in Visual Studio with C# and ASP.NET Core, step-by-step."
 ms.custom: mvc
 ms.date: 07/20/2018
 ms.prod: visual-studio-dev15
@@ -104,13 +104,10 @@ Congratulations on completing this Quickstart! We hope you learned a little bit 
 
 ## Next steps
 
-To learn more, continue with the following tutorials:
+To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
 > [Get started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)
->
-> [!div class="nextstepaction"]
-> [Get started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)
 
 ## See also
 

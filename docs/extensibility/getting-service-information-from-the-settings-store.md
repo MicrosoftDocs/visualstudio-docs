@@ -12,14 +12,14 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Getting Service Information from the Settings Store
+# Get service information from the settings store
 You can use the settings store to find all available services or to determine whether a particular service is installed. You must know the type of the service class.  
   
-### To list the available services  
+## To list the available services  
   
-1.  Create a VSIX project named FindServicesExtension and then add a custom command named FindServicesCommand. For more information about how to create a custom command, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)  
+1.  Create a VSIX project named `FindServicesExtension` and then add a custom command named `FindServicesCommand`. For more information about how to create a custom command, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md)  
   
-2.  In FindServicesCommand.cs, add the following using statements:  
+2.  In *FindServicesCommand.cs*, add the following using statements:  
   
     ```vb  
     using System.Collections.Generic;  
@@ -28,7 +28,7 @@ You can use the settings store to find all available services or to determine wh
     using System.Windows.Forms;  
     ```  
   
-3.  Get the configuration settings store, then find the subcollection named Services. This collection includes all the available services. In the MenuItemCommand method, remove the existing code and replace it with the following:  
+3.  Get the configuration settings store, then find the subcollection named Services. This collection includes all the available services. In the `MenuItemCommand` method, remove the existing code and replace it with the following:  
   
     ```  
     private void MenuItemCallback(object sender, EventArgs e)  
@@ -55,7 +55,7 @@ You can use the settings store to find all available services or to determine wh
   
      To verify these settings, you can use the registry editor.  
   
-## Finding a Specific Service  
+## Find a specific service  
  You can also use the <xref:Microsoft.VisualStudio.Settings.SettingsStore.CollectionExists%2A> method to determine whether a particular service is installed. You must know the type of the service class.  
   
 1.  In the MenuItemCallback of the project you created in the previous procedure, search the configuration settings store for the `Services` collection that has the subcollection named by the GUID of the service. In this case we will look for the Help service.  
