@@ -89,7 +89,7 @@ Retail subscriptions can be transferred to another user by contacting Customer S
 
 
 ## Managing my profile
-The subscriptions portal allows you to create and manage a profile to make management of your subscriptions easy.  You can make changes to your identity information and associate other sign-in identities from existing Azure and VSTS accounts to your subscriptions using alternate identities. 
+The subscriptions portal allows you to create and manage a profile to make management of your subscriptions easy.  You can make changes to your identity information and associate other sign-in identities from existing Azure and Azure DevOps accounts to your subscriptions using alternate identities. 
 
 ### Changing profile information
 You can easily change the contact information and preferences in your profile.  
@@ -102,8 +102,8 @@ You can easily change the contact information and preferences in your profile.
     > ![Editing Profile Information](_img\manage-vs-subscriptions\edit-profile-resized.png)
 
 
-### Linking my subscription to existing VSTS or Azure subscriptions
-If you sign in to your subscription using a personal Microsoft account (MSA) and have a subscription that includes Visual Studio Team Services or Microsoft Azure using a work or school account managed by Azure, you can link the two subscriptions. This is called an "alternate account" and allows you to keep using your MSA to sign in to your subscription while having access to existing Azure, VSTS or IDE resources that are associated with your school or work accounts. 
+### Linking my subscription to existing Azure DevOps or Azure subscriptions
+If you sign in to your subscription using a personal Microsoft account (MSA) and have a subscription that includes Azure DevOps or Microsoft Azure using a work or school account managed by Azure, you can link the two subscriptions. This is called an "alternate account" and allows you to keep using your MSA to sign in to your subscription while having access to existing Azure, Azure DevOps or IDE resources that are associated with your school or work accounts. 
 
 Even if both accounts use the same email address, you need to add your work/school account as an alternate to use your benefits across both accounts. 
 
