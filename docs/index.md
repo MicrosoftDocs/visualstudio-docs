@@ -85,10 +85,10 @@ ms.topic: hub-page
                                                 <ul class="noBullet">
                                                     <li><a class="barLink" href="ide/visual-studio-ide.md"><img  src="https://docs.microsoft.com/media/common/i_overview.svg" alt="" />Start a guided tour</a></li>
                                                     <li><a class="barLink" href="ide/index-writing-code.md"><img  src="https://docs.microsoft.com/media/common/i_code-edit.svg" alt="" />Write and edit code</a></li>
-                                                    <li><a class="barLink" href="ide/walkthrough-building-an-application.md"><img  src="https://docs.microsoft.com/media/common/i_build.svg" alt="" />Build your code</a></li>
+                                                    <li><a class="barLink" href="ide/compiling-and-building-in-visual-studio.md"><img  src="https://docs.microsoft.com/media/common/i_build.svg" alt="" />Build your code</a></li>
                                                     <li><a class="barLink" href="debugger/getting-started-with-the-debugger.md"><img  src="https://docs.microsoft.com/media/common/i_debug.svg" alt="" />Debug your code</a></li>
                                                     <li><a class="barLink" href="test/getting-started-with-unit-testing.md"><img  src="https://docs.microsoft.com/media/common/i_test.svg" alt="" />Test your code</a></li>
-                                                    <li><a class="barLink" href="data-tools/accessing-data-in-visual-studio.md"><img  src="https://docs.microsoft.com/media/common/i_generic-database.svg" alt="" />Access data locally or in the cloud</a></li>
+                                                    <li><a class="barLink" href="data-tools/create-a-sql-database-by-using-a-designer.md"><img  src="https://docs.microsoft.com/media/common/i_generic-database.svg" alt="" />Access data locally or in the cloud</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -188,12 +188,12 @@ ms.topic: hub-page
                                                     <li>
                                                         <a class="barLink" href="/visualstudio/ide/quickstart-uwp-csharp">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="">
-                                                            Universal Windows Platform app</a>
+                                                            Universal Windows app</a>
                                                     </li>
                                                     <li>
                                                         <a class="barLink" href="/visualstudio/ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="">
-                                                            Windows Desktop app</a>
+                                                            Windows desktop app</a>
                                                     </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
                                                     <li>
                                                         <a class="barLink" href="/visualstudio/cross-platform/cross-platform-mobile-development-in-visual-studio">
@@ -201,7 +201,7 @@ ms.topic: hub-page
                                                             Mobile app</a>
                                                     </li>
                                                     <li>
-                                                        <a class="barLink" href="visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity
+                                                        <a class="barLink" href="/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity
 ">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="">
                                                             Unity game</a>
@@ -210,11 +210,6 @@ ms.topic: hub-page
                                                         <a class="barLink" href="/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-2.1">
                                                             <img src="https://docs.microsoft.com/media/logos/logo_NET.svg" alt="">
                                                             Web app with ASP.NET Core</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="barLink" href="/azure/app-service/">
-                                                            <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="">
-                                                            Azure App Services</a>
                                                     </li>
                                                 </ul></td></tr></table>
                                             </div>
