@@ -3,7 +3,6 @@ layout: HubPage
 title: Container Development Tools Documentation
 description: Learn how to build and manage container-based apps and services. Get documentation, example code, tutorials, and more.
 ms.topic: hub-page
-ROBOTS: NOINDEX,NOFOLLOW
 featureFlags:
 - clicktale
 ---
@@ -50,7 +49,7 @@ featureFlags:
                                                     <h4>ASP.NET</h4>
                                                     <ul class="noBullet">
                                                         <li><a class="barLink" href="https://docs.microsoft.com/aspnet/core/host-and-deploy/docker/visual-studio-tools-for-docker?view=aspnetcore-2.1"><img src="https://docs.microsoft.com/media/common/i_web.svg" alt="">ASP.NET Docker Tools</a></li>
-                                                        <li><a class="barLink" href="https://docs.microsoft.com/azure/vs-azure-tools-docker-hosting-web-apps-in-docker"><img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="">Deploy to Azure Container Registry (ACR)</a></li>
+                                                        <li><a class="barLink" href="https://docs.microsoft.com/azure/vs-azure-tools-docker-hosting-web-apps-in-docker"><img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="">Deploy to Azure Container Registry</a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -80,26 +79,21 @@ featureFlags:
                                                 <div class="cardText">
                                                     <h3>Azure</h3>
                                                     <ul class="noBullet">
-                                                        <li>
-                                                            <a class="barLink" href="https://docs.microsoft.com/azure/containers/">
-                                                                <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="">Azure Container Development
-                                                            </a>
-                                                        </li>
-                                                        <li><a class="barLink" href="/azure/aks/"><img src="https://docs.microsoft.com/media/logos/logo_kubernetes.svg" alt="">Azure Kubernetes Service (AKS)</a></li>
+                                                        <li><a class="barLink" href="/azure/aks/"><img src="https://docs.microsoft.com/azure/media/index/ContainerService.svg" alt="">Azure Kubernetes Service (AKS)</a></li>
                                                         <li><a class="barLink" href="https://docs.microsoft.com/azure/dev-spaces/"><img src="media/AzureDevSpaceController_50x.svg" alt="">Azure Dev Spaces</a></li>
                                                         <li>
                                                             <a class="barLink" href="https://docs.microsoft.com/azure/container-instances/container-instances-tutorial-prepare-app">
-                                                                <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="">Azure Container Instances
+                                                                <img src="https://docs.microsoft.com/azure/media/index/ContainerInstances.svg" alt="">Azure Container Instances
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a class="barLink" href="https://docs.microsoft.com/azure/container-registry/">
-                                                                <img src="https://docs.microsoft.com/media/logos/logo_azure.svg" alt="">Azure Container Registry (ACR)
+                                                                <img src="https://docs.microsoft.com/azure/media/index/container-registry.svg" alt="">Azure Container Registry
                                                             </a>
                                                         </li>
                                                         <li>
                                                             <a class="barLink" href="https://docs.microsoft.com/azure/container-registry/container-registry-tutorial-quick-build">
-                                                                <img src="https://docs.microsoft.com/media/common/i_build.svg" alt="">Azure Container Builder
+                                                                <img src="https://docs.microsoft.com/media/common/i_build.svg" alt="">Azure Container Registry Build
                                                             </a>
                                                         </li>
                                                         <li>
