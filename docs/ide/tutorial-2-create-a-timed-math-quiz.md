@@ -14,6 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # Tutorial 2: Create a timed math quiz
+
 In this tutorial, you build a quiz in which the quiz taker must answer four random arithmetic problems within a specified time. You learn how to:
 
 -   Generate random numbers by using the <xref:System.Random> class.
@@ -24,17 +25,16 @@ In this tutorial, you build a quiz in which the quiz taker must answer four rand
 
 -   Perform basic arithmetic operations in code.
 
- When you finish, your quiz will look like the following picture, except with different numbers.
+When you finish, your quiz will look like the following picture, except with different numbers:
 
- ![Math quiz with four problems](../ide/media/express_finishedquiz.png)
-Quiz that you create in this tutorial
+![Math quiz with four problems](../ide/media/express_finishedquiz.png)
 
 ## Tutorial links
 
- To download a completed version of the quiz, see [Complete math quiz tutorial sample](http://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).
+To download a completed version of the quiz, see [Complete math quiz tutorial sample](http://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).
 
 > [!NOTE]
->  This tutorial covers both Visual C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.
+> This tutorial covers both Visual C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.
 
 ## Related topics
 

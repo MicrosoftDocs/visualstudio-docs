@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# ProvideDefaultName Element (Visual Studio Templates)
+# ProvideDefaultName element (Visual Studio templates)
 Specifies whether the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project system will generate a default name for the template in the **Add New Item** or **New Project** dialog box.  
   
  \<VSTemplate>  
@@ -25,11 +25,11 @@ Specifies whether the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 
   
 ## Syntax  
   
-```  
+```xml  
 <ProvideDefaultName> true/false </ProvideDefaultName>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -38,13 +38,13 @@ Specifies whether the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 
 ### Child Elements  
  None.  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|Required element.<br /><br /> Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.|  
   
-## Text Value  
+## Text value  
  A text value is required.  
   
  The text must be either `true` or `false`, indicating whether or not to generate a default name for the template in the **Add New Item** or **New Project** dialog box.  
@@ -75,6 +75,6 @@ Specifies whether the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 
 </VSTemplate>  
 ```  
   
-## See Also  
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
+## See also  
+ [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)   
+ [Create project and item templates](../ide/creating-project-and-item-templates.md)

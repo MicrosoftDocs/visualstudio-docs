@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Django in Visual Studio, step 4
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically the features provided by the Django Web Project template.
-ms.date: 04/25/2018
+ms.date: 08/13/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -26,7 +26,7 @@ In this step you now:
 > - Understand the views and page templates created by the project template, which consist of three pages that inherit from a base page template and that employs static JavaScript libraries like jQuery and Bootstrap (step 4-2)
 > - Understand the URL routing provided by the template (step 4-3)
 
-The template also provides basic authentication, which is covered in the Step 5.
+The template also provides basic authentication, which is covered in Step 5.
 
 ## Step 4-1: Create a project from the template
 

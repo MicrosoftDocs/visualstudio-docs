@@ -21,13 +21,11 @@ with comparisons between cloud and standard Visual Studio subscriptions, details
 A: No. All Visual Studio cloud subscriptions must be purchased using an Azure subscription. (Think of it as your Azure billing account.)
 
 ### Q: What types of Azure subscriptions can be used to buy Visual Studio cloud subscriptions?
-A: Almost all Azure subscriptions can be used--we support Azure subscriptions connected to your
+A: Most Azure subscriptions can be used--we support Azure subscriptions connected to your
 [Enterprise Agreement (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/), Azure subscriptions set up by
-Cloud Solution Providers (CSPs), Azure subscriptions set up through Microsoft Open License resellers, Pay-As-You-Go Azure subscriptions, and
-you can even buy using Azure subscriptions that Visual Studio subscribers set up as a subscriber benefit (but no, you can't use your monthly credit to
-pay for more Visual Studio subscriptions).
+Cloud Solution Providers (CSPs), Azure subscriptions set up through Microsoft Open License resellers, and Pay-As-You-Go Azure subscriptions.
 
-The only notable exclusion is that you cannot use the [Azure Free Trial](https://azure.microsoft.com/pricing/free-trial/).
+Some types of Azure subscriptions, including [Azure Free Trial](https://azure.microsoft.com/pricing/free-trial/) and subscriptions included as subscriber benefits in Visual Studio subscriptions cannot be used.
 
 ### Q: Am I required to buy other Azure services?
 A: Not at all. If you only want to buy Visual Studio cloud subscriptions via Azure, you can do that.

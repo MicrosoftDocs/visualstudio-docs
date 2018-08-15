@@ -83,7 +83,7 @@ When a web project is started for debugging, Visual Studio starts a local web se
 
 In the **Debug** group:
 
-- **Search Paths**, **Script Arguments**, **Interpreter Arguments**, and **Interpreter Path**: these options are the same as for [normal debugging](debugging-python-in-visual-studio.md)
+- **Search Paths**, **Script Arguments**, **Interpreter Arguments**, and **Interpreter Path**: these options are the same as for [normal debugging](debugging-python-in-visual-studio.md).
 - **Launch URL**: specifies the URL that is opened in your browser. It defaults to `localhost`.
 - **Port Number**: the port to use if none is specified in the URL (Visual Studio selects one automatically by default). This setting allows you to override the default value of the `SERVER_PORT` environment variable, which is used by the templates to configure the port the local debug server listens on.
 

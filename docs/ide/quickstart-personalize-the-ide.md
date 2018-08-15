@@ -12,7 +12,7 @@ ms.workload:
 ---
 # Quickstart: Personalize the Visual Studio IDE and Editor
 
-In this 5-10 minute quickstart, we'll customize the Visual Studio color theme and two text colors in the text editor.
+In this 5-10 minute quickstart, we'll customize the Visual Studio color theme by selecting the dark theme. We'll also customize the colors for two different types of text in the text editor.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
@@ -91,19 +91,7 @@ Now we'll customize some text colors for the editor. First, let's create a new X
 
 We explored just a couple ways of customizing the colors in Visual Studio. We hope that you'll explore the other customization options in the **Options** dialog box, to truly make Visual Studio your own.
 
-## Next steps
-
-> [!div class="nextstepaction"]
-> [Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
-
-> [!div class="nextstepaction"]
-> [Quickstart: Write code in the editor](../ide/quickstart-editor.md)
-
-> [!div class="nextstepaction"]
-> [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)
-
 ## See also
 
-- [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md)
 - [Customize the editor](../ide/customizing-the-editor.md)
 - [Visual Studio IDE Overview](../ide/visual-studio-ide.md)

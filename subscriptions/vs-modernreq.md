@@ -19,24 +19,24 @@ Selected Visual Studio subscriptions include a six month subscription for MODERN
 ## Activation steps
 1.	To use your MODERNRequirementsTFS benefit, sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 2.  Locate the MODERNRequirements4TFS tile in the Tools section, and click on the **Get Code** link at the bottom left of the tile.
-
-    ![ModernRequirements Benefit Tile](_img\vs-modernreq\vs-modernreq-tile.png)
+    > [!div class="mx-imgBorder"]
+    > ![ModernRequirements Benefit Tile](_img\vs-modernreq\vs-modernreq-tile.png)
 
 2.	You’ll receive a notification that the code was successfully retrieved.  Click **Activate**.
 
 3.  You’ll be redirected to the ModernRequirements website to create your account and download the software.  On the landing page, provide the requested contact information, and click **Get License Key and Download**.
-
-    ![ModernRequirements Landing Page](_img\vs-modernreq\vs-modernreq-landing.png)
+    > [!div class="mx-imgBorder"]
+    > ![ModernRequirements Landing Page](_img\vs-modernreq\vs-modernreq-landing.png)
 
 
 4.	The next page contains your license key.  Please review the information about the installations provided on the page, then click on the blue **To download the software please click here** link in the middle of the page.
-
-    ![ModernRequirements License Key](_img\vs-modernreq\vs-modernreq-license-new-resized.png)
+    > [!div class="mx-imgBorder"]
+    > ![ModernRequirements License Key](_img\vs-modernreq\vs-modernreq-license-new-resized.png)
 
 
 5.	On the Download Page, you have the option to install the MODERNRequirements suites, or install individual modules from the SMARTOffice4TFS suite.  The right options for you will depend on your preferences, as well as which version of TFS you have installed.  Be sure to familiarize yourself with the information on the page to help you select the right version of the products for you.
-
-    ![ModernRequirement Download Options](_img\vs-modernreq\vs-modernreq-download-page-new.png)
+    > [!div class="mx-imgBorder"]
+    > ![ModernRequirement Download Options](_img\vs-modernreq\vs-modernreq-download-page-new.png)
 
 6.	For this example, we’ll choose SMARTOffice4TFS.  The download dialog will appear, providing three options for downloading and saving the .zip file.  We’ll choose **Save** so that we have a copy of the package in the Downloads folder of the PC.
 
@@ -52,7 +52,8 @@ Selected Visual Studio subscriptions include a six month subscription for MODERN
     - SmartVisio4TFS_Online
     - SmartWord4TFS_Online
 
-    ![ModernRequirement Download Options](_img\vs-modernreq\vs-modernreq-downloaded-cropped.png)
+    > [!div class="mx-imgBorder"]
+    > ![ModernRequirement Download Options](_img\vs-modernreq\vs-modernreq-downloaded-cropped.png)
 
 11.	Right click in the folder and choose **Extract All**.  Specify a location where you would like the files to be extracted, and click **Extract**.
 

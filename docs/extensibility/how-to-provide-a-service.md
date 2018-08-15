@@ -14,21 +14,21 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Provide a Service
+# How to: Provide a service
 A VSPackage can provide services that other VSPackages can use. To provide a service, a VSPackage must register the service with Visual Studio and add the service.  
   
  The <xref:Microsoft.VisualStudio.Shell.Package> class implements both <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider> and <xref:System.ComponentModel.Design.IServiceContainer>. <xref:System.ComponentModel.Design.IServiceContainer> contains callback methods that provide  services on demand.  
   
- For more information about services, see [Service Essentials](../extensibility/internals/service-essentials.md) .  
+ For more information about services, see [Service essentials](../extensibility/internals/service-essentials.md) .  
   
 > [!NOTE]
 >  When a VSPackage is about to be unloaded, Visual Studio waits until all requests for services that a VSPackage provides have been delivered. It does not allow new requests for these services. You should not explicitly call the <xref:Microsoft.VisualStudio.Shell.Interop.IProfferService.RevokeService%2A> method to revoke a service when unloading.  
   
-#### Implementing a service  
+## Implement a service  
   
-1.  Create a VSIX project (**File > New > Project > Visual C# > Extensibility > VSIX Project**).  
+1.  Create a VSIX project (**File** > **New** > **Project** > **Visual C#** > **Extensibility** > **VSIX Project**).  
   
-2.  Add a VSPackage to the project. Select the project node in the **Solution Explorer** and click **Add > New item > Visual C# Items > Extensibility > Visual Studio Package**.  
+2.  Add a VSPackage to the project. Select the project node in the **Solution Explorer** and click **Add** > **New item** > **Visual C# Items** > **Extensibility** > **Visual Studio Package**.  
   
 3.  To implement a service, you need to create three types:  
   
@@ -71,7 +71,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
   
     ```  
   
-### Registering a service  
+### Register a service  
   
 1.  To register a service, add the <xref:Microsoft.VisualStudio.Shell.ProvideServiceAttribute> to the VSPackage that provides the service. Here is an example:  
   
@@ -88,7 +88,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
     > [!NOTE]
     >  To register a service that replaces another service with the same name, use the <xref:Microsoft.VisualStudio.Shell.ProvideServiceOverrideAttribute>. Note that only one override of a service is allowed.  
   
-### Adding a Service  
+### Add a service  
   
 1.  In the VSPackage initializer, add the service and add a callback method to create the services. Here is the change to make to the <xref:Microsoft.VisualStudio.Shell.Package.Initialize%2A> method:  
   
@@ -135,7 +135,7 @@ A VSPackage can provide services that other VSPackages can use. To provide a ser
   
      The value of `helloString` should be "Hello".  
   
-## See Also  
- [How to: Get a Service](../extensibility/how-to-get-a-service.md)   
- [Using and Providing Services](../extensibility/using-and-providing-services.md)   
- [Service Essentials](../extensibility/internals/service-essentials.md)
+## See also  
+ [How to: Get a service](../extensibility/how-to-get-a-service.md)   
+ [Use and provide services](../extensibility/using-and-providing-services.md)   
+ [Service essentials](../extensibility/internals/service-essentials.md)

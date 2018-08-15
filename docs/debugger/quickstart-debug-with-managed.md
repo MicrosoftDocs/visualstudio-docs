@@ -30,7 +30,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
     Visual Studio creates the project.
 
-4. In Program.cs or Module1.vb, replace the following code
+4. In *Program.cs* or *Module1.vb*, replace the following code
 
     ```csharp
     class Program

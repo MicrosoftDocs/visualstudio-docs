@@ -14,7 +14,7 @@ ms.workload:
 ---
 # How to: Implement the find and replace mechanism
 
-Visual Studio provides two ways of implementing Find/Replace. One way is to pass a text image to the shell and let it handle searching, highlighting, and replacing text. This allows users to specify multiple text spans. Alternatively, your VSPackage can control this functionality itself. In both cases you must notify the shell about the current target and the targets for all open documents.
+Visual Studio provides two ways of implementing find/replace. One way is to pass a text image to the shell and let it handle searching, highlighting, and replacing text. This allows users to specify multiple text spans. Alternatively, your VSPackage can control this functionality itself. In both cases you must notify the shell about the current target and the targets for all open documents.
 
 ## To implement find/replace
 
