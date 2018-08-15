@@ -11,9 +11,9 @@ ms.author: "corob"
 manager: douge
 ms.workload: ["vssdk"]
 ---
-# Visual Studio C++ project extensibility and toolset integration
+# Visual Studio C++ Project system extensibility and toolset integration
 
-The C++ workloads in Visual Studio all use the extensible *VC Project* system, a project build system that's integrated into the Visual Studio IDE, and also works on the command line. The VC Project system is designed to allow you to easily plug in new toolsets and build architectures. Currently, all C++ projects use the same base VC Project system, whether they use MSVC, Intel, gcc, or Clang toolsets, or whether they target Windows, Linux, Android, or iOS platforms. Visual Studio supplies toolset-specific components to modify project behavior. You can follow the same patterns to extend VC Project to invoke new toolsets on new platforms inside Visual Studio or at the command line.
+The *Visual C++ Project system* (VC Project) is a project build system that's designed to allow you to easily plug in new toolsets and target build architectures and platforms. VC Project is used to build all kinds of C++ projects in Visual Studio, with MSVC, Intel, gcc, or Clang toolsets and others, for Windows, Linux, Android, or iOS platforms, and more. You can follow the same patterns to extend VC Project to integrate new toolsets and to target new platforms.
 
 ## What VC Project does
 
@@ -31,7 +31,7 @@ You can customize the existing VC Project build system to add build steps or new
 
 ## C++ MSBuild targets extensibility
 
-The MSBuild engine reads .vcxproj files to determine all of the items, targets, and properties needed to build a particular configuration of your project. At a minimum, MSBuild expects .vcxproj files to have a small set of groups and imports, as in this example:
+VC Project uses .vcxproj files to specify the toolset, targets, and properties needed to build a particular configuration of your project. At a minimum, .vcxproj files muat have a small set of groups and imports, as in this example:
 
 ```xml
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="<http://schemas.microsoft.com/developer/msbuild/2003>">
@@ -55,7 +55,7 @@ The MSBuild engine reads .vcxproj files to determine all of the items, targets, 
 </Project>
 ```
 
-Most of the properties, targets, and toolsets a project file depends on are specific to the platforms and architectures used. The VC Project system supplies a large set of Microsoft C++ *props* and *targets* files, files with a .props or .targets extension, that control how the MSBuild system creates a product. At the top level, these included files don't define anything themselves, but import other files depending on the `$(ApplicationType)`, `$(ApplicationTypeRevision)`, `$(Platform)` and `$(PlatformToolset)` properties values. These properties match folder names under a common root directory, stored in the `$(VCTargetsPath)` property.
+Most of the properties, targets, and toolsets a project file depends on are specific to the platforms and architectures used. The VC Project system supplies a large set of Microsoft C++ *props* and *targets* files, files with a .props or .targets extension, that control how the MSBuild system creates a product. At the top level, the included **Microsoft.Cpp.props** and **Microsoft.Cpp.targets** files don't define anything themselves, but import other files depending on the `$(ApplicationType)`, `$(ApplicationTypeRevision)`, `$(Platform)` and `$(PlatformToolset)` properties values. These properties match folder names under a common root directory, stored in the `$(VCTargetsPath)` property.
 
 In a Developer command prompt window, the Visual Studio installation directory is recorded in the **VSINSTALLDIR** environment variable. In Visual Studio 2017, the `$(VSInstallDir)` property holds the installation directory. A typical location is C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\\. the `$(VCTargetsPath)` folder is found underneath the Visual Studio installation directory, in \\Common7\\IDE\\VC\\VCTargets.
 
@@ -64,21 +64,21 @@ Other important directories include the \\MSBuild subdirectory of the Visual Stu
 The `$(VCTargetsPath)` folder is the root of a hierarchy of subfolders for each combination of toolset and application type. The hierarchy is shown here in plain text for literal folder names and as `$(PropertyName)` for folder names that depend on the platform, app type, version, or toolset:
 
 > `$(VCTargetsPath)`\\  
-> &nbsp;&nbsp;&nbsp;&nbsp;Platforms\\  
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(PlatformFolder)`\\  
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PlatformToolsets\\  
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(PlatformToolset)`  
 > &nbsp;&nbsp;&nbsp;&nbsp;Application Type\\  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(ApplicationType)`\\  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(ApplicationTypeRevision)`\\  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Platforms\\  
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(Platform)`\\  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PlatformToolsets\\  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(PlatformToolset)`  
+> &nbsp;&nbsp;&nbsp;&nbsp;Platforms\\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Used when `$(ApplicationType)` is empty, for Windows Desktop projects)  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(Platform)`\\  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PlatformToolsets\\  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(PlatformToolset)`  
 
 The Platforms folder at the top level contains the folders and files used for Windows Desktop applications. All other application types have their files under the Application Type folder, in an application-type-specific folder whose name is stored in the `$(ApplicationType)` property. This folder has versioned subfolders, and the active version name is stored in the `$(ApplicationTypeRevision)` property. Each versioned folder has a Platforms subfolder.
 
-Within each Platforms folder, you'll find platform-specific folders, whose names are stored in the `$(_PlatformFolder)` property. These folders in turn have a PlatformToolsets folder, which contains one or more folders for supported toolset versions, stored in the `$(PlatformToolset)` property. This folder has the app type- and toolset-specific Toolset.props and Toolset.targets files.
+Within each Platforms folder, you'll find platform-specific `$(Platform)` folders, whose names are stored in the `$(_PlatformFolder)` property. These folders in turn have a PlatformToolsets folder, which contains one or more folders for supported toolset versions, stored in the `$(PlatformToolset)` property. This folder has the app type- and toolset-specific Toolset.props and Toolset.targets files.
 
 As an example, the folder for Windows Store apps for Windows 10 on Win32 that use the Visual Studio 2017 (v141) platform toolset is:
 
@@ -104,7 +104,7 @@ or for Windows Desktop apps,
 > &nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\Platforms\\`$(Platform)`\\Platform.default.props  
 > &nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\ImportAfter\\Default\\\*.props  
 
-The `$(_PlatformFolder)` property holds the platform folder location. The props files are imported in this order:
+The `$(_PlatformFolder)` property holds the `$(Platform)` platform folder location. The props files are imported in this order:
 
 > `$(VCTargetsPath)`\\Microsoft.Cpp.props  
 > &nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\Platform.props  
@@ -120,14 +120,14 @@ The targets files are imported in this order:
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\Platform.targets  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\Microsoft.Cpp.Platform.targets  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\ImportBefore\*.targets  
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\PlatformToolsets\`$(PlatformToolset)`\Toolset.target  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\PlatformToolsets\\`$(PlatformToolset)`\Toolset.target  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\ImportAfter \*.targets  
 
-### Where to add toolset and platform files
+### To add a new toolset
 
-To add a new "MyToolset" `$(PlatformToolset)` folder for the Win32 platform, you must create a `$(VCTargetsPath)`\\Platforms\\Win32\\PlatformToolsets\\MyToolset folder, and create Toolset.props and Toolset.targets files in it. Create similar folders and Toolset.props and Toolset.targets files in each platform folder this toolset supports.
+To add a new toolset, say, "MyToolset", for the Win32 platform, you must create a `$(VCTargetsPath)`\\Platforms\\Win32\\PlatformToolsets\\MyToolset folder, and create Toolset.props and Toolset.targets files in it. Create similar "MyToolset" folders and Toolset.props and Toolset.targets files in each platform folder this toolset supports.
 
-To add a new "MyPlatform" `$(Platform)` folder, create a `$(VCTargetsPath)`\\Platforms\\MyPlatform folder, and create Platform.props and Platform.targets files in it.
+To add a new "MyPlatform" folder, create a `$(VCTargetsPath)`\\Platforms\\MyPlatform folder, and create Platform.props and Platform.targets files in it.
 
 Follow a similar process for `$(ApplicationType)` and `$(ApplicationTypeRevision)` folders. The `$(ApplicationTypeRevision)` folder name must be a valid version string, of the form *major*.*minor*\[.*build*\[.*revision*\]\], not an arbitrary string.
 
@@ -139,11 +139,9 @@ Your toolset props and targets files have full control over what happens during 
 
 ### Toolset build
 
-The VC Project system has split MSBuild constructs into props and targets files. For a given configuration, the props file provides default values for all build properties, and allows each project to override any of them before they are used in targets files. Although there are no formal restrictions or enforcement of what goes in a props file, your Toolset.props file isn't expected to contain any targets, just properties.
+For a given toolset, the Toolset.props file provides default values for all build properties. The Toolset.targets file defines the build process, and uses the properties defined in .props and .vcxproj files.
 
-Toolset targets files define build processes, and use the properties defined in props and .vcxproj files.
-
-Usually you don't want your toolset to override the whole build process, although it can. You just want to modify or add some build steps, or to use different build tools. To accomplish this goal, there are a number of common props and targets files your toolset can import. These files are the most useful ones to use as imports or as examples:
+Although a toolset can override the entire build process, usually you just want your toolset to modify or add some build steps, or to use different build tools, as part of an existing build process. To accomplish this goal, there are a number of common props and targets files your toolset can import. Depending on what you want your toolset to do, these files may be useful to use as imports or as examples:
 
 - `$(VCTargetsPath)`\\Microsoft.Cpp.WindowsSDK.props  
    This file determines the Windows SDK location, and defines some important properties for apps targeting Windows.
@@ -158,11 +156,11 @@ Usually you don't want your toolset to override the whole build process, althoug
    - `$(VCTargetsPath)`\\Microsoft.BuildSteps.targets  
    - `$(MSBuildToolsPath)`\\Microsoft.Common.Targets  
 
-   Most user-defined toolsets should use this file, as it defines the C++ build process.
+   Most user-defined toolsets should use the Microsoft.CppCommon.targets file, as it defines the C++ build process.
 
-### MSBuild C++ build process
+### The C++ build process defined by Microsoft.CppCommon.targets
 
-The C++ build follows three major steps, referenced by the `BuildSteps` property group:
+These targets represent the main steps of the C++ build:
 
 - `BuildGenerateSources`
 
@@ -170,9 +168,9 @@ The C++ build follows three major steps, referenced by the `BuildSteps` property
 
 - `BuildLink`
 
-Each step can be executed separately, so targets running in one step can't rely on the item groups and properties defined in the targets that run as a part of a different step. This division allows certain build performance optimizations, and although it's not used by default, you're still encouraged to honor this separation.
+Because each build step may be executed independently, targets running in one step can't rely on the item groups and properties defined in the targets that run as a part of a different step. This division allows certain build performance optimizations. Although it's not used by default, you're still encouraged to honor this separation.
 
-The order of the targets inside each step is controlled by the usual MSBuild ordering, that is, the `DependsOn`, `BeforeTargets` and `AfterTargets` attributes. However, to give you more control, there are a number of properties you can add to a new target:
+The order of the targets inside each step is controlled by the usual MSBuild ordering, that is, `DependsOnTargets` attributes specify `BeforeTargets`, `Targets`, and `AfterTargets` properties. You can use these properties to control when a new target you add runs during the build.
 
 ```xml
 <Target
@@ -202,7 +200,7 @@ Here is an example that creates the compilation targets, compiles, generates and
 </BuildCompileTargets>
 ```
 
-Targets that produce .lib files run as part of the `BuildCompile` step.
+Note that targets that produce .lib files run as part of the `BuildCompile` step.
 
 If you look at the targets, such as `_ClCompile`, they don't do anything directly by themselves, but instead depend on other targets:
 
@@ -232,9 +230,7 @@ The toolset targets can override the `ClCompile` target, that is, they can conta
 
 Despite its name, which was created before Visual Studio implemented cross-platform support, the `ClCompile` target does not have to call CL.exe. It can also call Clang, gcc, or other compilers by using appropriate MSBuild tasks.
 
-In this case, the `ClCompile` target does not have any dependencies except the `SelectClCompile` target. This dependency is required for the single file compile command to work in the IDE.
-
-If you want to add a new target to the build process for your toolset, you can add it to any of the properties used in `DependsOnTargets`, or use `AfterTargets` or `BeforeTargets` attributes.
+The `ClCompile` target should not have any dependencies except the `SelectClCompile` target. This is required for the single file compile command to work in the IDE.
 
 The targets included in `$(ComputeCompileInputsTargets)` are also used by the design-time build to get IntelliSense information. For more information, see the [Design-time targets for IntelliSense information](#design-time-targets-for-intellisense-information) section.
 
