@@ -53,7 +53,12 @@ In some cases, you may need to explicitly restore the NuGet packages referenced 
 
 ## Configure Live Unit Testing
 
-You can configure Live Unit Testing by selecting **Tools** > **Options** from the top-level Visual Studio menu, and then selecting **Live Unit Testing** in the left pane of the **Options** dialog. The following figure shows the Live Unit Testing configuration options available in the dialog.
+You can configure Live Unit Testing by selecting **Tools** > **Options** from the top-level Visual Studio menu bar, and then selecting **Live Unit Testing** in the left pane of the **Options** dialog.
+
+> [!TIP]
+> Once Live Unit Testing is enabled (see the next section, [Start, pause, and stop Live Unit Testing](#start-pause-and-stop-live-unit-testing)), you can also open the **Options** dialog by selecting **Test** > **Live Unit Testing** > **Options**.
+
+The following figure shows the Live Unit Testing configuration options available in the dialog:
 
   ![Image](./media/lut-options.png)
 
@@ -84,8 +89,6 @@ The configurable options include:
    You can also display verbose output in the Live Unit Testing **Output** window by assigning a value of "1" to a user-level environment variable named `VS_UTE_DIAGNOSTICS`, and then restarting Visual Studio.
 
    To capture detailed MSBuild log messages from Live Unit Testing in a file, set the `LiveUnitTesting_BuildLog` user-level environment variable to the name of the file to contain the log.
-
-Once Live Unit Testing is enabled (see the next section, [Start, pause, and stop Live Unit Testing](#start-pause-and-stop-live-unit-testing), you can also open the **Options** dialog by selecting **Test** > **Live Unit Testing** > **Options**.
 
 ## Start, pause, and stop Live Unit Testing
 
