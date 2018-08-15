@@ -11,7 +11,7 @@ featureFlags:
         <ul id="get-started1" class="cardsL">
             <li>
                 <div class="container intro">
-                    <h2 class="likeAnH1">Develop with containers</h2>
+                    <h2 class="likeAnH1">Develop with containers in Visual Studio</h2>
                     <p>Explore Docker and Kubernetes tools, and Azure services for managing container-based development projects.</p>
                 </div>
             </li>
@@ -116,7 +116,7 @@ featureFlags:
                                         <div class="cardPadding" style="padding-bottom: 0;">
                                             <div class="card">
                                                 <div class="cardText">
-                                                    <h3>Visual Studio</h3>
+                                                    <h3>Visual Studio Tools</h3>
                                                     <ul class="noBullet">
                                                         <li><a class="barLink" href="https://docs.microsoft.com/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker"><img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">Docker Tools in Visual Studio</a></li>
                                                         <li><a class="barLink" href="https://docs.microsoft.com/visualstudio/install/build-tools-container"><img src="https://docs.microsoft.com/media/common/i_build.svg" alt="">Running build tools in a container</a></li>
