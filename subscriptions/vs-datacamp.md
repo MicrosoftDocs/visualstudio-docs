@@ -88,4 +88,4 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
     - [DataCamp Help Center](https://support.datacamp.com/hc), where search support topics and see request user questions.
     - [Submit a support request](https://support.datacamp.com/hc/requests/new)
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+-  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

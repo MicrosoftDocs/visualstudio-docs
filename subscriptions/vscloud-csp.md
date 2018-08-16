@@ -20,7 +20,7 @@ Visual Studio Enterprise and Visual Studio Professional cloud subscriptions for 
 
 ## Prerequisites
 You must first set up your customer tenant in the Partner Center and create an Azure subscription for this tenant.
-[Learn more](https://docs.microsoft.com/vsts/billing/csp/set-up-csp-customer)
+[Learn more](https://docs.microsoft.com/azure/devops/billing/csp/set-up-csp-customer)
 
 ## How to buy
 

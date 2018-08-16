@@ -42,7 +42,7 @@ The subscriber you designated will now appear in the center of the page, and her
 The new administrator can now sign in to the [management portal](https://manage.visualstudio.com), select the same Azure subscription that was used to purchase the cloud subscriptions from the list in the upper left corner of the page, and begin to manage those subscriptions. 
 
 > [!NOTE]
-> If you see users with access to edit your cloud subscriptions that you didn't establish as administrators, they may have roles in the underlying Azure subscription that allow them to manage subscriptions.  Those roles include:  owner, contributor, service admin, or co-admin.  For more information, visit https://docs.microsoft.com/vsts/billing/add-backup-billing-managers?view=vsts
+> If you see users with access to edit your cloud subscriptions that you didn't establish as administrators, they may have roles in the underlying Azure subscription that allow them to manage subscriptions.  Those roles include:  owner, contributor, service admin, or co-admin.  For more information, visit https://docs.microsoft.com/azure/devops/billing/add-backup-billing-managers?view=vsts
 
 For information about Visual Studio Cloud subscriptions, see the [Overview](vscloud-overview.md) under Buying Cloud Subscriptions. To purchase Visual Studio Cloud subscriptions, visit the Visual Studio Marketplace at [https://marketplace.visualstudio.com/subscriptions](https://marketplace.visualstudio.com/subscription). 
 
