@@ -63,4 +63,4 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 -  For other Azure Community resources, please visit the Azure Community [Support page](https://azure.microsoft.com/support/forums/).
 -  [Azure documentation](/azure/).
 -  Need assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions?  Contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Azure DevOps or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+-  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
