@@ -108,4 +108,4 @@ A:  No.  The Pluralsight benefit is single use only, tied to the individual.  On
 ## Support resources
 -  [Pluralsight Help Center](https://help.pluralsight.com/help) provides assistance with taking Pluralsight courses or using the Pluralsight website.
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Azure DevOps or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+-  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
