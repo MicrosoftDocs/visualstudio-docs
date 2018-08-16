@@ -18,7 +18,7 @@ Visual Studio subscriptions offer the most comprehensive set of resources for yo
 Benefits are grouped into three categories:
 
 ## Tools
-The Tools category provides access to a wide variety of benefits, including flagship benefits such as the [Visual Studio IDE](vs-ide-benefit.md), [Azure DevOps](vs-azure-devops.md), and [Azure](vs-azure.md).  Depending on your subscription level, you'll also see Windows and Office 365 Developer accounts, Visual Studio App Center, and benefits from partners such as WhiteSource Bolt and ModernRequirements.
+The Tools category provides access to a wide variety of benefits, including flagship benefits such as the [Visual Studio IDE](vs-ide-benefit.md), [Azure DevOps Services](vs-azure-devops.md), and [Azure](vs-azure.md).  Depending on your subscription level, you'll also see Windows and Office 365 Developer accounts, Visual Studio App Center, and benefits from partners such as WhiteSource Bolt and ModernRequirements.
 
 ## Professional Development
 To help you continuously enhance your skillset and keep up with the latest technologies, we provide access to some of the best online training available from industry leaders. Examples of the great content available include:
