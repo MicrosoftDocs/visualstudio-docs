@@ -23,7 +23,7 @@ The portal is organized in six pages.  Each page provides you with access to dif
 The tools and services included with your subscription are displayed as "tiles" on the Benefits page.  Not all benefits are included with all subscriptions. The tiles are grouped into three categories:  Tools, Professional Development, and Support.  If you're using Visual Studio Dev Essentials, you'll also see a category entitled Featured, which may contain selected benefits from the other three categories.
 
 ### Tools
-The Tools category is where you'll find the core development tools, such as the Visual Studio IDE, Azure DevOps, as well as tools provided by our partners.  You'll also see services such as Azure and Visual Studio App Center.
+The Tools category is where you'll find the core development tools, such as the Visual Studio IDE, Azure DevOps Services, as well as tools provided by our partners.  You'll also see services such as Azure and Visual Studio App Center.
 
 ### Professional Development
 This category contains benefits such as online training from Microsoft and our partners, as well a subscription to MSDN Magazine, all to help you advance your development skills and stay abreast of all things code.
@@ -40,7 +40,7 @@ To make it simple for subscribers who have multiple subscriptions associated wit
 Visit the Product Keys page to obtain keys to install and activate products, and to see what keys you have already claimed.  You can even export a list of all of your keys for safekeeping.
 
 ## [Subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs)
-The Subscriptions page provides you with the capabilities to see which subscriptions you own, switch between subscriptions, renew them, and activate new subscriptions. You can also associate subscriptions you access using your Microsoft Account with an alternate account that's already associated with existing Visual Studio IDE, Azure DevOps, or Azure resources.
+The Subscriptions page provides you with the capabilities to see which subscriptions you own, switch between subscriptions, renew them, and activate new subscriptions. You can also associate subscriptions you access using your Microsoft Account with an alternate account that's already associated with existing Visual Studio IDE, Azure DevOps Services, or Azure resources.
 
 ## Support
 
@@ -48,4 +48,4 @@ In addition to the individual benefits found in the Support category on the Bene
 
 ## [Marketplace](https://marketplace.visualstudio.com/)
 
-Need to renew a Visual Studio cloud subscription?  Want to download the latest extensions for the Visual Studio family of products?  The Marketplace helps users find extensions, tools, and services that make Azure DevOps, Team Foundation Server, and Visual Studio Code even better. You can even become a publisher, and publish your own extensions on the Marketplace.
+Need to renew a Visual Studio cloud subscription?  Want to download the latest extensions for the Visual Studio family of products?  The Marketplace helps users find extensions, tools, and services that make Azure DevOps Services, Team Foundation Server, and Visual Studio Code even better. You can even become a publisher, and publish your own extensions on the Marketplace.
