@@ -49,6 +49,7 @@
 ##### [VLSC Admin Migration FAQs](vlsc-admin-faq.md)
 ##### Onboarding Your Organization
 ###### [Post Migration Onboarding](post-migration-onboarding.md)
+###### [Open, Open License Migration](open-migratio.md)
 ###### [Onboarding Email Communications](volume-license-onboarding-email.md)
 ###### [Find Your PCN](find-pcn.md)
 ###### [Find Your Primary Contact](find-primary-contact.md)
