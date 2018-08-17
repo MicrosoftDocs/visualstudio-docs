@@ -21,7 +21,7 @@ Developing apps for modern platforms involves many more activities than just wri
 
 ## Agile tools
 
-Reference link: [About Agile tools and Agile project management](/vsts/work/backlogs/overview?view=vsts) (using Visual Studio Team Services or TFS, including Team Explorer Everywhere)
+Reference link: [About Agile tools and Agile project management](/azure/devops/work/backlogs/overview?view=vsts) (using Visual Studio Team Services or TFS, including Team Explorer Everywhere)
 
 General Comment: all planning and tracking features are independent of project type and coding languages.
 
@@ -54,8 +54,8 @@ General Comment: Although these design features are either independent of coding
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
-|[Use Team Foundation Version Control](/vsts/tfvc/overview?view=vsts) or Visual Studio Team Services|Yes|Unity projects are simply a collection of files that can be placed into version control systems like any other project, but there are a few special considerations described after this table.|
-|[Getting started with Git in Team Services](/vsts/git/gitquickstart?view=vsts&tabs=visual-studio)|Yes|See notes after the table.|
+|[Use Team Foundation Version Control](/azure/devops/tfvc/overview?view=vsts) or Visual Studio Team Services|Yes|Unity projects are simply a collection of files that can be placed into version control systems like any other project, but there are a few special considerations described after this table.|
+|[Getting started with Git in Team Services](/azure/devops/git/gitquickstart?view=vsts&tabs=visual-studio)|Yes|See notes after the table.|
 |[Improve Code Quality](../test/improve-code-quality.md)|Yes||
 |[Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)|Yes||
 |[Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)|Yes||
@@ -69,12 +69,12 @@ General Comment: Although these design features are either independent of coding
 3.  Binary assets in a Unity project—such as textures or audio files—can take up a large amount of storage. Various source control systems like Git store a unique copy of a file for every change that is made, even if the change affects only a small portion of the file. This can cause the Git repository to become bloated. To address this, Unity developers often elect to add only final assets to their repository, and use a different means of keeping a working history of their assets, such as OneDrive, DropBox, or git-annex. This approach works because such assets typically don't need to be versioned along with source code changes. Developers also typically set the project editor's Asset Serialization Mode to Force Text to store scene files in text rather than binary format, which allows for merges in source control. For details, see [Editor Settings](http://docs.unity3d.com/Manual/class-EditorManager.html) (Unity documentation).
 
 ## Build
- Reference link: **[Build and Release](/vsts/build-release/index)**
+ Reference link: **[Build and Release](/azure/devops/build-release/index)**
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
 |On-premises TFS server|Possible|Unity projects are built through the Unity environment and not through the Visual Studio build system (building within the Visual Studio Tools for Unity will compile the scripts but not produce an executable). It is possible to [build Unity projects from the command line](http://docs.unity3d.com/Manual/CommandLineArguments.html) (Unity documentation), so it possible to configure an MSBuild process on a TFS server to execute the appropriate Unity commands, provided that Unity itself is installed on that computer.<br /><br /> Unity also offers [Unity Cloud Build](https://build.cloud.unity3d.com/landing/), which monitors a Git or SVN repository and runs periodic builds. At present it does not work with Team Foundation Version Control or Visual Studio Team Services.|
-|On-premises build server linked to Visual Studio Team Services|Possible|Given the same conditions as above, it is further possible to direct builds triggered through Visual Studio Team Services to use an on-premises TFS computer.  See [Build and release agents](/vsts/build-release/concepts/agents/agents) for instructions.|
+|On-premises build server linked to Visual Studio Team Services|Possible|Given the same conditions as above, it is further possible to direct builds triggered through Visual Studio Team Services to use an on-premises TFS computer.  See [Build and release agents](/azure/devops/build-release/concepts/agents/agents) for instructions.|
 |Hosted controller service of Visual Studio Team Services|No|Unity builds are not presently supported.|
 |Build definitions with pre- and post-scripts|Yes|A custom build definition that uses the Unity command line to run a build can also be configured for pre- and post-build scripts.|
 |Continuous integration including gated check-ins|Yes|Gated check-ins for TFVC only as Git works on a pull-request model rather than check-ins.|
@@ -104,7 +104,7 @@ Reference link: **[Improve code quality](../test/improve-code-quality.md)**
 
 ## Release management
 
-Reference link: [Build and release overview](/vsts/pipelines/overview?view=vsts)
+Reference link: [Build and release overview](/azure/devops/pipelines/overview?view=vsts)
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|

@@ -10,7 +10,6 @@ ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
 ---
-
 # Buy and manage Visual Studio cloud subscriptions for your customers
 
 Partners in the [Cloud Solution Provider (CSP)](https://partner.microsoft.com/en-US/cloud-solution-provider) program can purchase
@@ -19,8 +18,9 @@ Visual Studio Enterprise and Visual Studio Professional cloud subscriptions for 
 [Compare cloud subscription options](https://visualstudio.microsoft.com/vs/pricing)
 
 ## Prerequisites
+
 You must first set up your customer tenant in the Partner Center and create an Azure subscription for this tenant.
-[Learn more](https://docs.microsoft.com/vsts/billing/csp/set-up-csp-customer)
+[Learn more](/azure/devops/billing/csp/set-up-csp-customer)
 
 ## How to buy
 
