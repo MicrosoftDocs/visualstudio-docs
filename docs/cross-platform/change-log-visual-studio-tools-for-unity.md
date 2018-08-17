@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 ms.custom: ""
-ms.date: "05/07/2018"
+ms.date: "08/06/2018"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
@@ -14,8 +14,81 @@ ms.workload:
 # Change log (Visual Studio Tools for Unity, Windows)
 Visual Studio Tools for Unity change log.
 
+## 3.8.0.4
+ Released August 14, 2018
+ 
+### New Features
+
+-   **Evaluation:**
+
+    -   Added support for pointer values.
+    
+    -   Added support for generic methods.
+
+### Bug fixes
+
+-   **Integration:**
+
+    -   Smart reload with multiple projects changed.
+
+## 3.8.0.3
+ Released July 24, 2018
+ 
+### Bug fixes
+
+-   **Project Generation:**
+
+    -   Rolled back the workaround for a Unity performance bug that has been fixed by Unity.
+
+## 3.8.0.2
+ Released July 7, 2018
+ 
+### Bug fixes
+
+-   **Project Generation:**
+
+    -   Transient workaround for a Unity performance bug: cache MonoIslands when generating projects.
+    
+## 3.8.0.1
+ Released June 26, 2018
+ 
+### New Features
+
+-   **Debugging:**
+
+    -   Added support for UserLog and UserBreak commands.
+    
+    -   Added lazy type-load support (optimizing the network load and debugger response latency).
+       
+### Bug fixes
+
+-   **Evaluation:**
+
+    -   Improved binary-operator expression evaluation and method search.
+
+## 3.8.0.0
+ Released May 30, 2018
+ 
+### New Features
+
+-   **Debugging:**
+
+    -   Added support for displaying variables in async constructs.
+    
+    -   Added support for processing nested types when setting breakpoints, to prevent warnings with compiler constructs.
+    
+-   **Integration:**
+
+    -   Added support for textmate grammars for Shaders (the C++ workload is no longer needed for Shader code coloration).
+    
+### Bug fixes
+
+-   **Project Generation:**
+
+    -   Do not convert portable pdb to mdb anymore when using the new Unity runtime.
+
 ## 3.7.0.1
- Released 2018-05-07
+ Released May 7, 2018
 
 ### Bug fixes
 
@@ -24,7 +97,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed dependency issue when using experimental builds.
 
 ## 3.7.0.0
- Released 2018-05-07
+ Released May 7, 2018
 
 ### New Features
 
@@ -53,7 +126,7 @@ Visual Studio Tools for Unity change log.
     -   Exclude package manager compilation units from generation.
 
 ## 3.6.0.5
- Released 2018-03-13
+ Released March 13, 2018
 
 ### New Features
 
@@ -72,7 +145,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed setting the next statement.
 
 ## 3.6.0.4
- Released 2018-03-05
+ Released March 5, 2018
 
 ### Bug fixes
 
@@ -85,7 +158,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed timing issues with 2018.1 and plugin activation.
 
 ## 3.6.0.3
- Released 2018-02-23
+ Released February 23, 2018
 
 ### New Features
 
@@ -104,7 +177,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed breaking on exceptions that are thrown outside of usercode.
 
 ## 3.6.0.2
- Released 2018-02-07
+ Released February 7, 2018
 
 ### New Features
 
@@ -119,7 +192,7 @@ Visual Studio Tools for Unity change log.
     -   Only reload projects on external change (with throttling).
 
 ## 3.6.0.1
- Released 2018-01-24
+ Released January 24, 2018
 
 ### Bug fixes
 
@@ -130,7 +203,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed indirect call to EditorPrefs.GetBool impacting the inspector while trying to change array size.
 
 ## 3.6.0.0
- Released 2018-01-10
+ Released January 10, 2018
 
 ### New Features
 
@@ -165,7 +238,7 @@ Visual Studio Tools for Unity change log.
     -   Refresh roslyn context before inserting method.
 
 ## 3.5.0.3
- Released 2018-01-09
+ Released January 9, 2018
 
 ### Bug fixes
 
@@ -174,7 +247,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed automatic pdb to mdb debug symbol conversion.
 
 ## 3.5.0.2
- Released 2017-12-04
+ Released December 4, 2017
 
 ### New Features
 
@@ -207,7 +280,7 @@ Visual Studio Tools for Unity change log.
     -   Do not force the AllowAttachedDebuggingOfEditor Unity flag as the default is now 'true'.
 
 ## 3.4.0.2
- Released 2017-09-19
+ Released September 19, 2017
 
 ### New Features
 
@@ -238,7 +311,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed reference to Microsoft.CSharp for 4.6 API level.
 
 ## 3.3.0.2
- Released 2017-08-15
+ Released August 15, 2017
 
 ### Bug fixes
 
@@ -247,7 +320,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed the Visual Studio solution generation on Unity 5.5 and previous versions.
 
 ## 3.3.0.0
- Released 2017-08-14
+ Released August 14, 2017
 
 ### New Features
 
@@ -276,7 +349,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed defines with API levels.
 
 ## 3.2.0.0
- Released 2017-05-10
+ Released May 10, 2017
 
 ### New Features
 
@@ -293,7 +366,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed flickering with Unity messages.
 
 ## 3.1.0.0
- Released 2017-04-07
+ Released April 7, 2017
 
 ### New Features
 
@@ -322,12 +395,12 @@ Visual Studio Tools for Unity change log.
     -   Removed assembly version post-processing.
 
 ## 3.0.0.1
- Released 2017-03-07
+ Released March 7, 2017
 
 ### This version includes all new features and bug fixes introduced with 2.8.x series.
 
 ## 2.8.2.0 - 3.0 Preview 3
- Released 2017-01-25
+ Released January 25, 2017
 
 ### Bug fixes
 
@@ -336,7 +409,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed regression where Plugins projects where referenced twice, first as a binary DLL then as a project reference.
 
 ## 2.8.1.0 - 3.0 Preview 2
- Released 2017-01-23
+ Released January 23, 2017
 
 ### Bug fixes
 
@@ -363,7 +436,7 @@ Visual Studio Tools for Unity change log.
     -   Switched to https to target the remote Unity documentation.
 
 ## 2.8.0.0 - 3.0 Preview
- Released 2016-11-17
+ Released November 17, 2016
 
 ### New Features
 
@@ -430,7 +503,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed bug that prevented compilation when compiling a script with a web encoded file name.
 
 ## 2.3.0.0
- Released 2016-07-14
+ Released July 14, 2016
 
 ### New Features
 
@@ -465,7 +538,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed several expression evaluation issues.
 
 ## 2.2.0.0
- Released 2016-02-04
+ Released February 4, 2016
 
 ### New Features
 
@@ -512,7 +585,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed issues with uninstallation of VSTU when the same version of VSTU is installed for multiple different versions of Visual Studio. For example, when VSTU **2015** 2.1.0.0 and VSTU **2013** 2.1.0.0 were both installed.
 
 ## 2.1.0.0
- Released 2015-09-08
+ Released September 8, 2015
 
 ### New Features
 
@@ -533,7 +606,7 @@ Visual Studio Tools for Unity change log.
 -   Fixed hit-count breakpoints in Visual Studio 2015.
 
 ## 2.0.0.0
- Released 2015-07-20
+ Released July 20, 2015
 
 ### Bug fixes
 
@@ -568,7 +641,7 @@ Visual Studio Tools for Unity change log.
     -   Fixed inspecting empty arrays.
 
 ## 1.9.9.0 - 2.0 Preview 2
- Released 2015-04-02
+ Released April 2, 2015
 
 ### New features
 
@@ -657,7 +730,7 @@ Visual Studio Tools for Unity change log.
 -   **UI:** Support Visual Studio themes for context menu and icons.
 
 ## 1.9.8.0 - 2.0 Preview
- Released 2014-11-12
+ Released November 12, 2014
 
 ### New features
 
@@ -696,7 +769,7 @@ Visual Studio Tools for Unity change log.
 -   Do not register the log callback if we don't have to.
 
 ## 1.9.2.0
- Released 2014-10-09
+ Released October 9, 2014
 
 ### New features
 
@@ -719,7 +792,7 @@ Visual Studio Tools for Unity change log.
 -   Fix bug where all assets were included in the project files if the extension filter was empty.
 
 ## 1.9.1.0
- Released 2014-09-22
+ Released September 22, 2014
 
 ### New features
 
@@ -764,7 +837,7 @@ Visual Studio Tools for Unity change log.
 -   Fix opening scripts with VSTU in 64 bits versions of Unity.
 
 ## 1.9.0.0
- Released 2014-07-29
+ Released July 29, 2014
 
 ### New features
 
@@ -812,7 +885,7 @@ Visual Studio Tools for Unity change log.
 >  C# being the predominant language in the Unity ecosystem - the new Sample Assets are in C#, the Unity documentation will default to C# - we removed our basic support for UnityScript and Boo to better focus on the C# experience. As a result, VSTU solutions are now C# only and are much faster to load.
 
 ## 1.8.2.0
- Released 2014-01-07
+ Released January 7, 2014
 
 ### New features
 
@@ -839,7 +912,7 @@ Visual Studio Tools for Unity change log.
 -   Prevent crash in Unity when the version specific generated assembly if out of sync.
 
 ## 1.8.1.0
- Released 2013-11-21
+ Released November 21, 2013
 
 ### New features
 
@@ -872,7 +945,7 @@ Visual Studio Tools for Unity change log.
 -   Fixed opening scripts from Unity to not confuse the ALT+TAB order for Unity 4.2 and above.
 
 ## 1.8.0.0
- Released 2013-09-24
+ Released September 24, 2013
 
 ### New features
 
@@ -913,7 +986,7 @@ Visual Studio Tools for Unity change log.
 -   Fixed changing values of Booleans in the local view.
 
 ## 1.2.2.0
- Released 2013-07-09
+ Released July 9, 2013
 
 ### Bug fixes
 
@@ -936,7 +1009,7 @@ Visual Studio Tools for Unity change log.
 -   Fixed handling of Unity 4.2 Beta assemblies.
 
 ## 1.2.1.0
- Released 2013-04-09
+ Released April 9, 2013
 
 ### Bug fixes
 
@@ -949,7 +1022,7 @@ Visual Studio Tools for Unity change log.
 -   Fixed binding of breakpoints in some external DLLs.
 
 ## 1.2.0.0
- Released 2013-03-25
+ Released March 25, 2013
 
 ### New features
 
@@ -1016,10 +1089,10 @@ Visual Studio Tools for Unity change log.
 -   Fixed bug UVS-11: Locals in coroutines.
 
 ## 1.1.0.0 - Beta release
- Released 2014-10-09
+ Released March, 9, 2013
 
 ## 1.0.13.0
- Released 2013-01-21
+ Released January 21, 2013
 
 ### Bug fixes
 
@@ -1042,7 +1115,7 @@ Visual Studio Tools for Unity change log.
 -   Fixed handling of long messages sent from Unity to UnityVS. Before that, long messages could crash our messaging part of UnityVS. As a consequence, sometimes UnityVS wouldn't open a file from Unity.
 
 ## 1.0.12.0
- Released 2013-01-03
+ Released January 3, 2013
 
 ### Bug fixes
 
@@ -1061,7 +1134,7 @@ Visual Studio Tools for Unity change log.
 -   Fixed an API glitch where user code could not participate in the log callback handler.
 
 ## 1.0.11.0
- Released 2012-11-28
+ Released November 28, 2012
 
 ### New features
 
@@ -1092,7 +1165,7 @@ Visual Studio Tools for Unity change log.
 -   Fixed crash if we can't inject our icon in Visual Studio's status bar.
 
 ## 1.0.10.0
- Released 2012-10-09
+ Released October 9, 2012
 
 ### Bug Fixes
 
@@ -1105,7 +1178,7 @@ Visual Studio Tools for Unity change log.
 -   Fixed how assemblies are retrieved from Unity to avoid locking files and confuse the Unity build process.
 
 ## 1.0.9.0
- Released 2012-10-03
+ Released October 3, 2012
 
 ### Bug fixes
 
@@ -1124,7 +1197,7 @@ Visual Studio Tools for Unity change log.
 -   Fixed bug UVS-21: Invalid pointer when evaluating a method invocation to Unity Math API.
 
 ## 1.0.8.0
- Released 2012-09-26
+ Released September 26, 2012
 
 ### Bug fixes
 
@@ -1135,7 +1208,7 @@ Visual Studio Tools for Unity change log.
 -   Fixed how UnityVS is registered on Visual Studio 2010.
 
 ## 1.0.7.0
- Released 2012-09-14
+ Released September 14, 2012
 
 ### New features
 
@@ -1151,10 +1224,10 @@ Visual Studio Tools for Unity change log.
 >  Because of the Visual Studio 2012 support, we had to rename a few files and move some other around. The UnityVS package to import Unity is now named either UnityVS 2010 or UnityVS 2012, for respectively Visual Studio 2010 and Visual Studio 2012. This version also requires that the UnityVS project files are regenerated.
 
 ## 1.0.6.0 - Internal build
- Released 2012-09-12
+ Released September 12, 2012
 
 ## 1.0.5.0
- Released 2012-09-10
+ Released September 10, 2012
 
 ### Bug fixes
 
@@ -1163,7 +1236,7 @@ Visual Studio Tools for Unity change log.
 -   Fixed detection of Unity instances when Unity was connected to the Asset server. This triggered failures to open files from Unity and the automatic connection of the Visual Studio debugger.
 
 ## 1.0.4.0
- Released 2012-09-05
+ Released September 5, 2012
 
 ### New features
 
@@ -1176,7 +1249,7 @@ Visual Studio Tools for Unity change log.
 -   Fixed UnityVS crash while debugging caused by exceptions thrown by methods or properties inside Unity.
 
 ## 1.0.3.0
- Released 2012-09-04
+ Released September 4, 2012
 
 ### New features
 
@@ -1191,7 +1264,7 @@ Visual Studio Tools for Unity change log.
 -   Fixed random VS crash caused by our custom status bar.
 
 ## 1.0.2.0
- Released 2012-08-30
+ Released August 30, 2012
 
 ### Bug fixes
 
@@ -1202,7 +1275,7 @@ Visual Studio Tools for Unity change log.
 -   Fixed bug in how scripting assemblies were retrieved from Unity with Unity 4 b7.
 
 ## 1.0.1.0
- Released 2012-08-28
+ Released August 28, 2012
 
 ### New features
 
@@ -1219,4 +1292,4 @@ Visual Studio Tools for Unity change log.
 -   Fixed completion for dll inside the Asset folder for UnityScript and Boo.
 
 ## 1.0.0.0 - Initial release
- Released 2012-08-22
+ Released August 22, 2012
