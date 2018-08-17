@@ -18,7 +18,7 @@ Run settings files are optional. If you don't require any special configuration,
 
 ## Specify a run settings file
 
-Run settings files can be used to configure tests that are run from the [command line](vstest-console-options.md), in the IDE, or in a [build workflow](/vsts/pipelines/test/getting-started-with-continuous-testing?view=vsts) using Visual Studio Team Services (VSTS) or Team Foundation Server (TFS).
+Run settings files can be used to configure tests that are run from the [command line](vstest-console-options.md), in the IDE, or in a [build workflow](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts) using Visual Studio Team Services (VSTS) or Team Foundation Server (TFS).
 
 ### Specify a run settings file in the IDE
 
@@ -249,4 +249,4 @@ These settings are specific to the test adapter that runs test methods that have
 ## See also
 
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
-- [Visual Studio test task (VSTS)](/vsts/pipelines/tasks/test/vstest?view=vsts)
+- [Visual Studio test task (VSTS)](/azure/devops/pipelines/tasks/test/vstest?view=vsts)
