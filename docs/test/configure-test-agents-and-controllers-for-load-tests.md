@@ -15,7 +15,7 @@ ms.technology: vs-ide-test
 Visual Studio can generate simulated load for your app by using physical or virtual machines. These machines must be set up as a single test controller and one or more test agents. You can use the test controller and test agents to generate more load than a single computer can generate alone.
 
 > [!NOTE]
-> You can also use cloud-based load testing to provide virtual machines that generate the load of many users accessing your website at the same time. Learn more about cloud-based load testing at [Run load tests using VSTS](/vsts/load-test/get-started-simple-cloud-load-test).
+> You can also use cloud-based load testing to provide virtual machines that generate the load of many users accessing your website at the same time. Learn more about cloud-based load testing at [Run load tests using VSTS](/azure/devops/load-test/get-started-simple-cloud-load-test).
 
 ## Load simulation architecture
 
