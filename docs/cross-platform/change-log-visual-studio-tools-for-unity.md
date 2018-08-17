@@ -38,7 +38,7 @@ Visual Studio Tools for Unity change log.
 
 -   **Project Generation:**
 
-    -   Rollback workaround for a Unity performance bug (as Unity fixed this issue).
+    -   Rolled back the workaround for a Unity performance bug that has been fixed by Unity.
 
 ## 3.8.0.2
  Released July 7, 2018
@@ -47,7 +47,7 @@ Visual Studio Tools for Unity change log.
 
 -   **Project Generation:**
 
-    -   Transient workaround for a Unity performance bug : cache MonoIslands when generating projects.
+    -   Transient workaround for a Unity performance bug: cache MonoIslands when generating projects.
     
 ## 3.8.0.1
  Released June 26, 2018
@@ -79,7 +79,7 @@ Visual Studio Tools for Unity change log.
     
 -   **Integration:**
 
-    -   Added support for textmate grammars for Shaders (so now the C++ workload is no more needed for Shader code coloration).
+    -   Added support for textmate grammars for Shaders (the C++ workload is no longer needed for Shader code coloration).
     
 ### Bug fixes
 
