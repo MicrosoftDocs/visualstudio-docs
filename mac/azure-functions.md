@@ -50,23 +50,6 @@ The new project contains the following files:
 
 Now that you've created a new Azure Functions project in Visual Studio for Mac, you can test out the default HTTP-triggered function from your local machine.
 
-<!--
-## Create an Azure storage account
-
-[Describe why this step is necessary and what it does]
-
-1. Log on to your account at [https://portal.azure.com](https://portal.azure.com).
-2. Under the **Favorites** section, located on the left of the screen, select **Storage Accounts**:
-    ![]()
-3. Select **Add** to create a new storage account:
-    ![]()
-4. Enter a globally unique name for the **Name** and reuse it for the **Resource group**. You can keep all the other items as their default.
-    ![]()
-5. Click **Create**. It might take a few minutes to create the storage account. You'll get a notification once it has been successfully created.
-6. Select the **Go to resource** button from the notification:
-    ![]()
--->
-
 ## Testing the function locally
 
 With Azure Functions support in Visual Studio for Mac you can test and debug your function on your local development computer.
@@ -85,7 +68,7 @@ With Azure Functions support in Visual Studio for Mac you can test and debug you
 
     ![http request in browser](media/azure-functions-httpreq.png)
 
-## Creating a new function
+## Adding another function to your project
 
 Function Templates enable you to quickly create new functions using the most common triggers and templates. To create another type of function, do the following:
 
@@ -105,7 +88,7 @@ You can use the above procedure to add more functions to your function app proje
 
 1. Right-click on the project name and select **Publish > Publish to Azure…**:
     ![Publish to azure menu option](media/azure-functions-image5.png)
-2. If you've already connect your Azure account to Visual  Studio for Mac a list of available app services are displayed, as illustrated below. If you haven't logged in, you'll be prompted to do so:
+2. If you've already connected your Azure account to Visual  Studio for Mac a list of available app services are displayed, as illustrated below. If you haven't logged in, you'll be prompted to do so:
     ![Publish to azure menu option](media/azure-functions-image6.png)
 3. From the **Publish to Azure App Service** dialog, you can either select an existing app service or create a new one by clicking **New**.
 4. In the **Create new App Service** dialog, enter your settings:
@@ -116,7 +99,10 @@ You can use the above procedure to add more functions to your function app proje
     |**App Service Name**|A globally unique name that  identifies your new function app.|
     |**Subscription**|The Azure subscription to use.|
     |**[Resource Group](../articles/azure-resource-manager/resource-group-overview.md)**|Name of the resource group in which to create your function app. Choose **+** to create a new resource group.|
-    |**[Service Plan](../articles/azure-functions/functions-scale.md)**|Choose an existing plan or create a custom plan. For custom make sure to choose the **Consumption** under **Pricing**. Also, choose a Location in a region near you or near other services your functions access.|
+    |**[Service Plan](../articles/azure-functions/functions-scale.md)**|Choose an existing plan or create a custom plan. Choose a Location in a region near you or near other services your functions access.|
+
+    > [!CAUTION]
+    > There is a bug in the 7.6 version of Visual Studio for Mac that will cause publishing to fail with a provisioning error if you attempt to create a custom service plan with the **Pricing** set to **Consumption**. This will be fixed in the next service release.
 
 5. Click **Next** to create a storage account. An Azure storage account is required by the Functions runtime. Click **Custom** to create a general purpose storage account, or use an existing one:
 
@@ -124,22 +110,28 @@ You can use the above procedure to add more functions to your function app proje
 
 6. Click **Create** to create a function app and related resources in Azure with these settings and deploy your function project code.
 
+7. You may be prompted with a dialog during publishing informing you to "Update Functions Version on Azure". Click **Yes**:
+ 
+    ![Publish to azure menu option](media/azure-functions-image12.png)
+
+> [!CAUTION]
+> There is a bug in the 7.6 version of Visual Studio for Mac where the `FUNCTIONS_EXTENSION_VERSION` is not correctly set to "beta", meaning that your function may not run. To fix this, go to your [Function app settings](#function-app-settings) and set `FUNCTIONS_EXTENSION_VERSION` from "-1" to "beta".
+
 ## Function app settings
 
 Any settings you added in the local.settings.json must be also added to the function app in Azure. These settings are not uploaded automatically when you publish the project.
 
 To access your app settings, go to the azure portal at [https://ms.portal.azure.com/](https://ms.portal.azure.com/). Under **Functions Apps**, select **Function Apps** and highlight your function name:
 
-![zure functions menu](media/azure-functions-image9.png)
+![azure functions menu](media/azure-functions-image9.png)
 
 From the **Overview** tab select **Application settings** under **Configured features**:
 
 ![Over tab of azure function](media/azure-functions-image10.png)
 
-
 From here you can set Application Settings for the function app, where you can add new application settings or modify existing ones:
 
-![aplication settings area of azure portal](media/azure-functions-image11.png)
+![application settings area of azure portal](media/azure-functions-image11.png)
 
 One important setting you may need to set is `FUNCTIONS_EXTENSION_VERSION`. When publishing from Visual Studio for Mac, this value should be set to **beta**.
 
@@ -170,15 +162,3 @@ One important setting you may need to set is `FUNCTIONS_EXTENSION_VERSION`. When
 - **Image Resizer** – This function creates resized images whenever a blob is added to a container. The template takes path and connection string for the trigger, a small image output, and a medium image output.
 
 - **SAS token** – This function generates a SAS token for a given Azure Storage container and blob name. In addition to the function name, this template also takes a path and connection property. The path property is the path within your storage account that the trigger will monitor. The connection account is the name of the app setting containing your storage account connection string. The **Access rights** also need to be set. Authorization level controls whether the function requires an API key and which key to use; Function uses a function key; Admin uses your master key. For more information, see the [C# Azure Function for generating SAS tokens](https://azure.microsoft.com/resources/samples/functions-dotnet-sas-token/) sample.
-
- 
-
-##  Publish the project to Azure
-
-To deploy function projects to Azure you need to have an Azure subscription. If you don't already have a subscription, you can get one for free from https://azure.com/free.
-
-1. In the **Solution Pad**, right-click the project and select **Publish > Publish to Azure**:
-
-    ![Publish option in Visual Studio for Mac](media/.png)
-
-2. If you haven't already connected Visual Studio for Mac to your Azure subscription, sign in when prompted.
