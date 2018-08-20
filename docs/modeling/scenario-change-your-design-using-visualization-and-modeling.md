@@ -210,7 +210,7 @@ As their work progresses, the teams update their work items to reflect the time 
 
 See:
 
-- [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)
+- [About Agile tools and Agile project management](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)
 
 - [Charts, dashboards, and reports for Visual Studio ALM](http://msdn.microsoft.com/Library/1f28ba6c-c5e5-46d3-9209-ede24ae78e48)
 
