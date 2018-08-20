@@ -80,7 +80,7 @@ Function Templates enable you to quickly create new functions using the most com
 
     ![new azure function dialog](media/azure-functions-image4.png)
 
-    A list of the Azure Function templates are provided in the following section.
+    A list of the Azure Function templates are provided in the [Available function templates](#available-function-templates) section.
 
 You can use the above procedure to add more functions to your function app project. Each function in the project can have a different trigger, but a function must have exactly one trigger. For more information, see [Azure Functions triggers and bindings concepts](https://docs.microsoft.com/azure/azure-functions/functions-triggers-bindings).
 
