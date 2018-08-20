@@ -46,7 +46,7 @@ The new project contains the following files:
 
 * **your-function-name.cs** – This class contains boilerplate code for the function that you selected. It contains a **FunctionName** attribute with the function name, and a trigger attribute that specifies what triggers the function (eg. a HTTP request). For more information on the function method, refer to the [Azure Functions C# developer reference](https://docs.microsoft.com/azure/azure-functions/functions-dotnet-class-library) article.
 * **host.json** – This file describes the global configuration options for Functions host. For an example file and information on the available settings for this file, see the [host.json reference for Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-host-json).
-* **local.settings.json** – This file contains all the settings for running functions locally. These settings are used by the Azure Functions Core Tools. For more information, see [Local settings file](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local#local-settings-file) in the Azure Functions Core Tools article.
+* **local.settings.json** – This file contains all the settings for running functions locally. These settings are used by the Azure Functions Core Tools. For more information, see [Local settings file](https://docs.microsoft.com/azure/azure-functions/functions-run-local#local-settings-file) in the Azure Functions Core Tools article.
 
 Now that you've created a new Azure Functions project in Visual Studio for Mac, you can test out the default HTTP-triggered function from your local machine.
 
@@ -88,8 +88,7 @@ You can use the above procedure to add more functions to your function app proje
 
 1. Right-click on the project name and select **Publish > Publish to Azure…**:
     ![Publish to azure menu option](media/azure-functions-image5.png)
-2. If you've already connected your Azure account to Visual  Studio for Mac a list of available app services are displayed, as illustrated below. If you haven't logged in, you'll be prompted to do so:
-    ![Publish to azure menu option](media/azure-functions-image6.png)
+2. If you've already connected your Azure account to Visual  Studio for Mac a list of available app services are displayed. If you haven't logged in, you'll be prompted to do so.
 3. From the **Publish to Azure App Service** dialog, you can either select an existing app service or create a new one by clicking **New**.
 4. In the **Create new App Service** dialog, enter your settings:
     ![Publish to azure menu option](media/azure-functions-image7.png)
