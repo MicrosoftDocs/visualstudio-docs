@@ -11,18 +11,20 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Structure your modeling solution
+
 To use models effectively in a development project, the team members must be able to work on models of different parts of the project at the same time. This topic suggests a scheme for dividing the application into different parts that correspond to the layers in an overall layering diagram.
 
- To start on a project or subproject quickly, it is useful to have a project template that follows the project structure that you have chosen. This topic describes how to create and use such a template.
+To start on a project or subproject quickly, it is useful to have a project template that follows the project structure that you have chosen. This topic describes how to create and use such a template.
 
- This topic assumes that you are working on a project that is large enough to require several team members, and perhaps has several teams. The code and models of the project are stored on a source control system such as [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]. At least some team members use Visual Studio to develop models, and other team members can view the models by using other Visual Studio versions.
+This topic assumes that you are working on a project that is large enough to require several team members, and perhaps has several teams. The code and models of the project are stored on a source control system such as [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]. At least some team members use Visual Studio to develop models, and other team members can view the models by using other Visual Studio versions.
 
- To see which versions of Visual Studio support each tool and modeling feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+To see which versions of Visual Studio support each tool and modeling feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
 ## Solution structure
- In a medium or large project, the structure of the team is based on the structure of the application. Each team uses a Visual Studio solution.
 
-#### To divide an application into layers
+In a medium or large project, the structure of the team is based on the structure of the application. Each team uses a Visual Studio solution.
+
+### To divide an application into layers
 
 1.  Base the structure of your solutions on the structure of your application, such as web application, service application, or desktop application. A variety of common architectures is discussed in [Application Archetypes in the Microsoft Application Architecture Guide](http://go.microsoft.com/fwlink/?LinkId=196681).
 
@@ -38,7 +40,7 @@ To use models effectively in a development project, the team members must be abl
 
      You can achieve this by using either of the following procedures. The first alternative creates a separate modeling project for each layer, and the second creates a single modeling project that is shared between the layers.
 
-    ###### To use a separate modeling project for each layer
+#### To use a separate modeling project for each layer
 
     1.  Create a modeling project in each layer solution.
 
@@ -64,7 +66,7 @@ To use models effectively in a development project, the team members must be abl
 
      However, because the models are separate, it is difficult to refer to common concepts. Each model must have its own copy of the elements on which it is dependent from other layers and the architecture. The dependency diagram in each layer must be kept in sync with the Architecture dependency diagram. It is difficult to maintain synchronization when these elements change, although you could develop tools to accomplish this.
 
-    ###### To use a separate package for each layer
+#### To use a separate package for each layer
 
     1.  In the solution for each layer, add the Architecture modeling project. In Solution Explorer, right-click the solution node, point to **Add**, and then click **Existing Project**. The single modeling project can now be accessed from every solution: the Architecture project, and the development project for each layer.
 
@@ -79,11 +81,12 @@ To use models effectively in a development project, the team members must be abl
      Although concurrent work on different packages can cause some conflicts, they are fairly easy to manage because the packages are stored in separate files.
 
 ## Creating architecture templates
- In practice, you will not create all your Visual Studio solutions at the same time, but add them as the project progresses. You will probably also use the same solution structure in future projects.  To help you create new solutions quickly, you can create a solution or project template. You can capture the template in a Visual Studio Integration Extension (VSIX) so that it is easy to distribute and to install on other computers.
 
- For example, if you frequently use solutions that have Presentation, Business, and Data layers, you can configure a template that will create new solutions that have that structure.
+In practice, you will not create all your Visual Studio solutions at the same time, but add them as the project progresses. You will probably also use the same solution structure in future projects.  To help you create new solutions quickly, you can create a solution or project template. You can capture the template in a Visual Studio Integration Extension (VSIX) so that it is easy to distribute and to install on other computers.
 
-#### To create a solution template
+For example, if you frequently use solutions that have Presentation, Business, and Data layers, you can configure a template that will create new solutions that have that structure.
+
+### To create a solution template
 
 1.  [Download and install the Export Template Wizard](http://go.microsoft.com/fwlink/?LinkId=196686), if you have not already done this.
 
@@ -93,13 +96,11 @@ To use models effectively in a development project, the team members must be abl
 
 4.  Following the instructions in the wizard, select the projects that you want to include in the template, provide a name and description for the template, and specify an output location.
 
-> [!NOTE]
->  The material in this topic is abstracted and paraphrased from the Visual Studio Architecture Tooling Guidance, written by the Visual Studio ALM Rangers, which is a collaboration between Most Valued Professionals (MVPs), Microsoft Services, and the Visual Studio product team and writers. [Click here to download the complete Guidance package.](http://go.microsoft.com/fwlink/?LinkID=191984)
-
 ## Related materials
- [Organizing and Managing Your Models](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-9-Organizing-and-Managing-Your-Models/) - video by Clint Edmondson.
 
- [Visual Studio Architecture Tooling Guidance](../modeling/visual-studio-architecture-tooling-guidance.md) - Further guidance on managing models in a team
+[Organizing and Managing Your Models](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-9-Organizing-and-Managing-Your-Models/) - video by Clint Edmondson.
+
+[Visual Studio Architecture Tooling Guidance](../modeling/visual-studio-architecture-tooling-guidance.md) - Further guidance on managing models in a team
 
 ## See Also
 
