@@ -179,7 +179,7 @@ Collecting call information might slow down your application significantly. It m
 
 ### Blogs
 
-[Visual Studio ALM + Team Foundation Server](http://go.microsoft.com/fwlink/?LinkID=201340)
+[Microsoft DevOps](https://blogs.msdn.microsoft.com/devops/)
 
 ### Forums
 
