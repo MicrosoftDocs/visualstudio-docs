@@ -69,7 +69,7 @@ Once you've successfully authenticated, you can see a list of repositories that 
 This dialog is organized with the following nodes:
 
 - Azure DevOps Services account or Collection – This displays all accounts connected to the Microsoft account that you logged in with
-- Team Projects – You can have a number of team projects. A team project is where source code, work items, and automated builds are hosted.
+- Team Projects – In each account or Collection, you can have a number of team projects. A team project is where source code, work items, and automated builds are hosted.
 
 At this point, you can search and filter by the name of a project or account.
 
