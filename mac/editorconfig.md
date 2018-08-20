@@ -65,13 +65,13 @@ EditorConfig also supports [Coding conventions](https://docs.microsoft.com/visua
     csharp_new_line_before_open_brace = none
     ```
 
-4. While adding the automatically update your settings for any new code that you add, existing code will need to be reformatted. To reflect the settings from the `.editorconfig` file, select the project node and choose **Edit > Format > Format Document** from the menu bar:
+4. The settings from the `.editorconfig` file will apply to any new code that you write, but existing code may need to be reformatted to be consistent with the new settings. To apply the settings from the `.editorconfig` file to an existing source file, open the file and choose **Edit > Format > Format Document** from the menu bar::
 
     ![Format Document menu item](media/editorconfig-image2.png)
 
 ### Adding an existing EditorConfig file
 
-If you're working with a project or solution that already contains an `.editorconfig` file, there is nothing that you need to do to apply the settings. Any new lines of code are formatted according to the EditorConfig settings. You should note that while Visual Studio for Mac will respect `.editorconfig` files at the solution level, they might not appear in the solution pad due to the fact the files beginning with `.` are hidden files in macOS.
+If you're working with a project or solution that already contains an `.editorconfig` file, there is nothing that you need to do to apply the settings. Any new lines of code are formatted according to the EditorConfig settings. 
 
 You may want to reuse an existing `.editorconfig` file in your project. To add an existing file, do the following:
 
@@ -136,7 +136,7 @@ For more information on available EditorConfig settings, see the [.NET coding co
 
 ## Override EditorConfig Settings
 
-It's possible to have more than one `.editorconfig` file in each solution. Visual Studio for Mac reads `.editorconfig` files from top to bottom in the solution, adding and overriding settings as it goes. This means that the settings in the `.editorconfig` _closest_ to the file you're editing will take precedence. 
+It's possible to have more than one `.editorconfig` file in each solution. Visual Studio for Mac reads `.editorconfig` files from top to bottom in the solution, adding and overriding settings as it goes.This means that the settings in the `.editorconfig` _closest_ to the file you're editing will take precedence. Settings are taken from the `.editorconfig` file the same folder (if it exists), then the `.editorconfig` in parent folder (if that exists), etc. until it finds `root=true`.  
 
 If you want to ensure that _no_ settings from any higher-level `.editorconfig` files are applied to this part of the codebase, add the `root=true` property to the top of the lower-level `.editorconfig` file:
 

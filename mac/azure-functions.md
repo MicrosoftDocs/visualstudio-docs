@@ -98,8 +98,8 @@ You can use the above procedure to add more functions to your function app proje
     |---------|---------|
     |**App Service Name**|A globally unique name that  identifies your new function app.|
     |**Subscription**|The Azure subscription to use.|
-    |**[Resource Group](../azure/azure-resource-manager/resource-group-overview.md)**|Name of the resource group in which to create your function app. Choose **+** to create a new resource group.|
-    |**[Service Plan](../azure/azure-functions/functions-scale.md)**|Choose an existing plan or create a custom plan. Choose a Location in a region near you or near other services your functions access.|
+    |**[Resource Group](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)**|Name of the resource group in which to create your function app. Choose **+** to create a new resource group.|
+    |**[Service Plan](https://docs.microsoft.com/azure/azure-functions/functions-scale)**|Choose an existing plan or create a custom plan. Choose a Location in a region near you or near other services your functions access.|
 
     > [!CAUTION]
     > There is a bug in the 7.6 version of Visual Studio for Mac that will cause publishing to fail with a provisioning error if you attempt to create a custom service plan with the **Pricing** set to **Consumption**. This will be fixed in the next service release.
