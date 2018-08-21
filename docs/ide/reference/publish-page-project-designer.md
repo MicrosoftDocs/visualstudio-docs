@@ -31,13 +31,13 @@ The **Publish** page of the **Project Designer** is used to configure properties
 
  **Installation Folder URL**
 
- Optional. Specifies a Web site to which users go to install the application. This is necessary only when it differs from the **Publishing Location**, for example, when the application is published to a staging server.
+ Optional. Specifies a website to which users go to install the application. This is necessary only when it differs from the **Publishing Location**, for example, when the application is published to a staging server.
 
  **Install Mode and Settings**
 
  Determines whether the application is run directly from the **Publishing Location** (when **The application is available online only** is selected) or is installed and added to the **Start** menu and the **Add or Remove Programs** item in **Control Panel** (when **The application is available offline as well** is selected).
 
- For WPF Web Browser Applications, the **The application is available offline as well** option is disabled, because such applications are available only online.
+ For WPF web browser apps, the **The application is available offline as well** option is disabled, because such applications are available only online.
 
  **Application Files**
 

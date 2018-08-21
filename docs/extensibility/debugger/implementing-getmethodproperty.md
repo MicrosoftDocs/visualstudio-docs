@@ -15,9 +15,9 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Implementing GetMethodProperty
+# Implement GetMethodProperty
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+>  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  Visual Studio calls the debug engine's (DE) [GetDebugProperty](../../extensibility/debugger/reference/idebugstackframe2-getdebugproperty.md), which in turn calls [GetMethodProperty](../../extensibility/debugger/reference/idebugexpressionevaluator-getmethodproperty.md) to obtain information about the current method on the stack frame.  
   
@@ -31,7 +31,7 @@ ms.workload:
   
 4.  Returns the `IDebugProperty2` interface from the `CFieldProperty` object.  
   
-## Managed Code  
+## Managed code  
  This example shows an implementation of `IDebugExpressionEvaluator::GetMethodProperty` in managed code.  
   
 ```csharp  
@@ -63,7 +63,7 @@ namespace EEMC
 }  
 ```  
   
-## Unmanaged Code  
+## Unmanaged code  
  This example shows an implementation of `IDebugExpressionEvaluator::GetMethodProperty` in unmanaged code.  
   
 ```  
@@ -121,5 +121,5 @@ STDMETHODIMP CExpressionEvaluator::GetMethodProperty(
 }  
 ```  
   
-## See Also  
- [Sample Implementation of Locals](../../extensibility/debugger/sample-implementation-of-locals.md)
+## See also  
+ [Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md)

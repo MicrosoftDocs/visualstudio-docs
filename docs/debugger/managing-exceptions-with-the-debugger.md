@@ -191,4 +191,4 @@ To add conditional exceptions, choose the **Edit condition** icon in the Excepti
  [How to: Examine System Code After an Exception](../debugger/how-to-examine-system-code-after-an-exception.md)   
  [How to: Use Native Run-Time Checks](../debugger/how-to-use-native-run-time-checks.md)   
  [Using Run-Time Checks Without the C Run-Time Library](../debugger/using-run-time-checks-without-the-c-run-time-library.md)   
- [Debugger Basics](../debugger/debugger-basics.md)
+ [Debugger Basics](../debugger/getting-started-with-the-debugger.md)

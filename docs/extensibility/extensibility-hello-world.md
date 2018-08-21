@@ -10,7 +10,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Creating your First Extension: Hello World
+# Create your first extension: Hello World
 
 This Hello World example walks you through creating your first extension for Visual Studio. This tutorial will show you how to add a new command to Visual Studio.
 
@@ -23,7 +23,7 @@ In the process, you will learn how to:
 
 For this example, you'll use Visual C# to add a custom menu button named "Say Hello World!" that looks like this:
 
-![hello world command](media/hello-world-say-hello-world.png)
+![Hello World command](media/hello-world-say-hello-world.png)
 
 ## Prerequisites
 
@@ -51,7 +51,7 @@ Step 2. Right-click the project (not the solution). On the context menu, click *
 
 Step 3. Go back to the **Extensibility** section, and then click **Custom Command**.
 
-Step 4. In the **Name** field at the bottom, give it a name, for instance Command.cs.
+Step 4. In the **Name** field at the bottom, give it a name, for instance *Command.cs*.
 
 ![custom command](media/hello-world-custom-command.png)
 
@@ -65,11 +65,11 @@ At this point, the Button you're adding is pretty generic. You'll have to modify
 
 * The CS file is where you can define actions, such as the click handler.
 
-Step 1. In **Solution Explorer**, find the VSCT file for your new command. In this case, it will be called CommandPackage.vsct.
+Step 1. In **Solution Explorer**, find the VSCT file for your new command. In this case, it will be called *CommandPackage.vsct*.
 
 ![command package vsct](media/hello-world-command-package-vsct.png)
 
-Step 2. Change the `ButtonText` parameter to "Say Hello World!"
+Step 2. Change the `ButtonText` parameter to `Say Hello World!`.
 
 ```xml
   ...
@@ -83,7 +83,7 @@ Step 2. Change the `ButtonText` parameter to "Say Hello World!"
   ...
 ```
 
-Step 3. Go back to **Solution Explorer** and find the Command.cs file. Change the string `message` for the command `string.Format(..)` to "Hello World!"
+Step 3. Go back to **Solution Explorer** and find the *Command.cs* file. Change the string `message` for the command `string.Format(..)` to `Hello World!`.
 
 ```csharp
   ...
@@ -112,7 +112,7 @@ You can now run the source code in the Visual Studio Experimental Instance.
 
 Step 1. Click **Start** in the Toolbar. This will build your project and start the debugger, launching a new instance of Visual Studio called the **Experimental Instance**.
 
-You will see the words "Experimental Instance" in the Visual Studio title bar.
+You will see the words **Experimental Instance** in the Visual Studio title bar.
 
 ![experimental instance title bar](media/hello-world-exp-instance.png)
 
@@ -120,12 +120,12 @@ Step 2. On the **Tools** menu of the **Experimental Instance**, click **Say Hell
 
 ![final result](media/hello-world-final-result.png)
 
-You should see the output from your new custom command, in this case the dialog in the center of the screen that gives you the "Hello World!" message.
+You should see the output from your new custom command, in this case the dialog in the center of the screen that gives you the **Hello World!** message.
 
 ## Next steps
 
 Now that you know the basics of working with Visual Studio Extensibility, here's where you can learn more:
 
-* [Starting to Develop Visual Studio Extensions](starting-to-develop-visual-studio-extensions.md) - Samples, tutorials. and publishing your extension.
-* [What's New in the Visual Studio 2017 SDK](what-s-new-in-the-visual-studio-2017-sdk.md) -New extensibility features in Visual Studio 2017
+* [Start to develop Visual Studio extensions](starting-to-develop-visual-studio-extensions.md) - Samples, tutorials. and publishing your extension.
+* [What's new in the Visual Studio 2017 SDK](what-s-new-in-the-visual-studio-2017-sdk.md) -New extensibility features in Visual Studio 2017
 * [Inside the Visual Studio SDK](internals/inside-the-visual-studio-sdk.md) - Learn the details of Visual Studio Extensibility

@@ -14,23 +14,23 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# m_action Field
+# m_action field
 The delegate that represents the code to execute in the <xref:System.Threading.Tasks.Task> object.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   
- **Assembly:** mscorlib (in mscorlib.dll)  
+ **Assembly:** mscorlib (in *mscorlib.dll*)  
   
- Because you cannot access this internal member from the .NET Framework, the following syntax is provided in Common Intermediate Language (CIL).  
+ Because you can't access this internal member from the .NET Framework, the following syntax is provided in Common Intermediate Language (CIL).  
   
 ## Syntax  
   
-```  
+```csharp  
 .field assembly object m_action  
 ```  
   
 ## Remarks  
  This is the `action` parameter in the <xref:System.Threading.Tasks.Task.%23ctor%2A> constructor.  
   
-## See Also  
- [Task Class](../../extensibility/debugger/task-class-internal-members.md)
+## See also  
+ [Task class](../../extensibility/debugger/task-class-internal-members.md)

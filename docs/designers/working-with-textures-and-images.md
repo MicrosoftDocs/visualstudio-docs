@@ -16,7 +16,7 @@ ms.workload:
 You can use the Image Editor in Visual Studio to create and modify textures and images. The Image Editor supports rich texture and image formats like those that are used in DirectX app development.
 
 > [!NOTE]
-> The Image Editor doesn't support low-color images like icons or cursors. To create or modify those kinds of images, use the [Image Editor for Icons (C++)](/cpp/windows/image-editor-for-icons).
+> The Image Editor doesn't support low-color images like icons or cursors. To create or modify those kinds of images, use the [Image Editor for icons (C++)](/cpp/windows/image-editor-for-icons).
 
 ## Textures and images
 
@@ -49,4 +49,4 @@ Cube maps can contain different types of dataâ€”for example, colors or normalsâ€
 |Title|Description|
 |-----------|-----------------|
 |[Image Editor](../designers/image-editor.md)|Describes how to use the Image Editor to work with textures and images.|
-|[Image Editor Examples](../designers/image-editor-examples.md)|Provides links to topics that demonstrate how to use the Image Editor to perform common image processing tasks.|
+|[Image Editor examples](../designers/image-editor-examples.md)|Provides links to topics that demonstrate how to use the Image Editor to perform common image processing tasks.|

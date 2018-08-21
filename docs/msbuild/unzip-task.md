@@ -25,10 +25,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Unzip Task
-Unzips a `.zip` archive to the specified location.
+# Unzip task
+Unzips a *.zip* archive to the specified location.
 
-**Note:** The `Unzip` task is available in MSBuild 15.8 and above only.
+>[!NOTE]
+>The `Unzip` task is available in MSBuild 15.8 and above only.
   
 ## Parameters  
  The following table describes the parameters of the `Unzip` task.  
@@ -41,7 +42,7 @@ Unzips a `.zip` archive to the specified location.
 |`SourceFiles`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies one or more the files to unzip. When specifying multiple files they are unzipped in order to the same folder.|
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  
   
 ## Example  
  The following example unzips an archive and overwrites any read-only files.
@@ -60,6 +61,6 @@ Unzips a `.zip` archive to the specified location.
 </Project>
 ```
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)

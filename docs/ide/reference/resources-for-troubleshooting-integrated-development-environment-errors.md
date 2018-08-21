@@ -102,17 +102,17 @@ Not all error messages have a specific associated Help topic. If the information
 
 ## Knowledge Base articles
 
-You can search the Knowledge Base (KB) online for articles about product issues. Not all issues have a corresponding KB article, but errors encountered by a significant number of customers are typically documented. You can access KB articles on the [Microsoft Support](https://support.microsoft.com) Web site.
+You can search the Knowledge Base (KB) online for articles about product issues. Not all issues have a corresponding KB article, but errors encountered by a significant number of customers are typically documented. You can access KB articles on the [Microsoft Support](https://support.microsoft.com) website.
 
 ## Developer forums
 
 Forums let you interact with other developers, and also Microsoft employees. If you encounter an error that you cannot find a resolution for, you can post questions about the issue on a forum. You can also search the newsgroups to see whether others have posted about the same issue.
 
-You can access forums, blogs, chats, and other resources on the [Microsoft Technical Communities](https://techcommunity.microsoft.com/t5/Communities/ct-p/communities) Web site.
+You can access forums, blogs, chats, and other resources on the [Microsoft Technical Communities](https://techcommunity.microsoft.com/t5/Communities/ct-p/communities) website.
 
 ## Product support
 
-If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Support](http://go.microsoft.com/fwlink/?linkid=1782) Web site. For information about product support available in your area, see [Talk to Us](../../ide/talk-to-us.md).
+If you still have questions after you try the other resources, you can contact Microsoft support services by visiting the [Microsoft Support](http://go.microsoft.com/fwlink/?linkid=1782) website. For information about product support available in your area, see [Talk to Us](../../ide/talk-to-us.md).
 
 ## See also
 

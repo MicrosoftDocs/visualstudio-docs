@@ -15,14 +15,14 @@ manager: douge
 ms.workload:
   - "vssdk"
 ---
-# Implementing Custom Categories and Display Items
+# Implement custom categories and display items
 A VSPackage can provide control of the fonts and colors of its text to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) through custom categories and display items.
 
  Custom categories and display items are on the **Fonts and Colors** property page. To open the **Fonts and Colors** property page, on the **Tools** menu, click **Options**. Expand **Environment** and then click **Fonts and Colors**.
 
  When using this mechanism, VSPackages must implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider> interface and its associated interfaces.
 
- In principle, this mechanism can be used to modify all existing **Display items** and the **Categories** that contain them. However, it should not be used to modify the **Text EditorCategory** or its **Display items**. For more information, see [Font and Color Overview](../extensibility/font-and-color-overview.md).
+ In principle, this mechanism can be used to modify all existing **Display items** and the **Categories** that contain them. However, it should not be used to modify the **Text EditorCategory** or its **Display items**. For more information, see [Font and color overview](../extensibility/font-and-color-overview.md).
 
  To implement custom **Categories** or **Display items**, a VSPackage must:
 
@@ -38,11 +38,11 @@ A VSPackage can provide control of the fonts and colors of its text to the [!INC
 
 -   Handle font and color changes.
 
- For information, see [Accessing Stored Font and Color Settings](../extensibility/accessing-stored-font-and-color-settings.md).
+ For information, see [Access stored font and color settings](../extensibility/accessing-stored-font-and-color-settings.md).
 
 ## To create or identify categories
 
--   Construct a special type of category registry entry under [HKLM\SOFTWARE\Microsoft \Visual Studio\\*\<Visual Studio version>*\FontAndColors\\`<Category>`]
+-   Construct a special type of category registry entry under *[HKLM\SOFTWARE\Microsoft \Visual Studio\\*\<Visual Studio version>*\FontAndColors\\`<Category>`]*
 
      *\<Category>* is the non-localized name of the category.
 
@@ -55,9 +55,9 @@ A VSPackage can provide control of the fonts and colors of its text to the [!INC
 
  The service specified in the registry must provide an implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> for the corresponding category.
 
-## To Create or Identify Groups
+## To create or identify groups
 
--   Construct a special type of category registry entry under [HKLM\SOFTWARE\Microsoft \Visual Studio\\*\<Visual Studio version>*\FontAndColors\\*\<group>*]
+-   Construct a special type of category registry entry under *[HKLM\SOFTWARE\Microsoft \Visual Studio\\*\<Visual Studio version>*\FontAndColors\\*\<group>*]*
 
      *\<group>* is the non-localized name of the group.
 
@@ -70,7 +70,7 @@ A VSPackage can provide control of the fonts and colors of its text to the [!INC
 
  The service specified in the registry must provide an implementation of <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup> for the corresponding group.
 
-## To Implement IDE Support
+## To implement IDE support
 
 -   Implement <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider.GetObject%2A>, which returns either an <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults> interface or an <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup> interface to the IDE for each **Category** or group GUID supplied.
 
@@ -103,7 +103,7 @@ A VSPackage can provide control of the fonts and colors of its text to the [!INC
 
  Updating the cache is done through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager> interface and can be performed globally or just on selected items.
 
-## To Handle Font and Color Changes
+## To handle font and color changes
  To properly support the colorization of text that a VSPackage displays, the colorization service supporting the VSPackage must respond to the user-initiated changes made through the **Fonts and Colors** properties page. A VSPackage does this by:
 
 -   Handling IDE-generated events by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorEvents> interface.
@@ -114,12 +114,12 @@ A VSPackage can provide control of the fonts and colors of its text to the [!INC
 
 -   Polling the IDE for changes.
 
-     This can be done through the system-implemented <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface. Although primarily for support of persistence, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> method can be used to obtain font and color information for **Display items**. For more information, see [Accessing Stored Font and Color Settings](../extensibility/accessing-stored-font-and-color-settings.md).
+     This can be done through the system-implemented <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface. Although primarily for support of persistence, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage.GetItem%2A> method can be used to obtain font and color information for **Display items**. For more information, see [Access stored font and color settings](../extensibility/accessing-stored-font-and-color-settings.md).
 
     > [!NOTE]
     >  To ensure that the results obtained by polling are correct, it may be useful to use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorCacheManager> interface to determine if a cache flush and update are needed prior to calling the retrieval methods of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage> interface.
 
-## See Also
+## See also
 
 - <xref:Microsoft.VisualStudio.OLE.Interop.IServiceProvider.QueryService%2A>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaults>
@@ -127,7 +127,7 @@ A VSPackage can provide control of the fonts and colors of its text to the [!INC
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorStorage>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorGroup>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsFontAndColorDefaultsProvider>
-- [Getting Font and Color Information for Text Colorization](../extensibility/getting-font-and-color-information-for-text-colorization.md)
-- [Accessing Stored Font and Color Settings](../extensibility/accessing-stored-font-and-color-settings.md)
-- [How to: Access the Built-in Fonts and Color Scheme](../extensibility/how-to-access-the-built-in-fonts-and-color-scheme.md)
-- [Font and Color Overview](../extensibility/font-and-color-overview.md)
+- [Get font and color information for text colorization](../extensibility/getting-font-and-color-information-for-text-colorization.md)
+- [Access stored font and color settings](../extensibility/accessing-stored-font-and-color-settings.md)
+- [How to: Access the built-in fonts and color scheme](../extensibility/how-to-access-the-built-in-fonts-and-color-scheme.md)
+- [Font and color overview](../extensibility/font-and-color-overview.md)

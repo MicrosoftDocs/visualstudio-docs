@@ -2,7 +2,7 @@
 title: "Analyze CPU usage data (C++)"
 description: "Measure app performance in C++ using the CPU Usage diagnostics tool"
 ms.custom: ""
-ms.date: "12/05/2017"
+ms.date: "08/06/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "quickstart"
 f1_keywords: 
@@ -22,17 +22,21 @@ The Visual Studio provides many powerful features to help you analyze performanc
 
 The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If the **CPU Usage** tool described here does not give you the data that you need, the [other profiling tools](../profiling/profiling-feature-tour.md) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time. The Diagnostics hub offers you a lot of other options to record and analyze this kind of data.
 
+Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window). On Windows 7 and later, you can use the post-mortem tool, the [Performance Profiler](../profiling/profiling-feature-tour.md).
+
 ## Create a project
 
 1. In Visual Studio, choose **File** > **New Project**.
 
 2. Under **Visual C++**, choose **Windows Desktop**, and then in the middle pane choose **Windows Console Application**.
 
+    If you don't see the **Windows Console Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
+
 3. Type a name like **Diagnostics_Get_Started_Native** and click **OK**.
 
     Visual Studio creates the project.
 
-4. In MyDbgApp.cpp, replace the following code
+4. In *MyDbgApp.cpp*, replace the following code
 
     ```c++
     int main()

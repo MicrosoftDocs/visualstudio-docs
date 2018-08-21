@@ -13,9 +13,9 @@ manager: douge
 ms.workload:
   - "vssdk"
 ---
-# Contained Languages
+# Contained languages
 
-*Contained languages* are languages that are contained by other languages. For example, HTML in [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] pages may contain [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] scripts. A dual-language architecture is required for the .aspx file editor to provide IntelliSense, colorization, and other editing features for both the HTML and the scripting language.
+*Contained languages* are languages that are contained by other languages. For example, HTML in [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] pages may contain [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] scripts. A dual-language architecture is required for the *.aspx* file editor to provide IntelliSense, colorization, and other editing features for both the HTML and the scripting language.
 
 ## Implementation
 
@@ -27,7 +27,7 @@ The most important interface you need to implement for contained languages is th
 
 3.  The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBufferCoordinator> interface, which is the text buffer coordinator object, provides the basic services that are required to map locations in a primary file into the secondary language's buffer.
 
-     For example, in a single .aspx file, the primary file includes the ASP, HTML, and all the code that is contained. However, the secondary buffer includes just the contained code together with any class definitions, to make the secondary buffer a valid code file. The buffer coordinator handles the work of coordinating edits from one buffer to the other.
+     For example, in a single *.aspx* file, the primary file includes the ASP, HTML, and all the code that is contained. However, the secondary buffer includes just the contained code together with any class definitions, to make the secondary buffer a valid code file. The buffer coordinator handles the work of coordinating edits from one buffer to the other.
 
 4.  The <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBufferCoordinator.SetSpanMappings%2A> method, which is the primary language, tells the buffer coordinator what text within its buffer is mapped to corresponding text in the secondary buffer.
 

@@ -23,6 +23,9 @@ manager: "ghogen"
 
 JavaScript is a first-class language in Visual Studio. You can use most or all of the standard editing aids (code snippets, IntelliSense, and so on) when you write JavaScript code in the Visual Studio IDE. You can write JavaScript code for many application types and services.
 
+> [!NOTE]
+> We have joined the community-wide effort to make [MDN web docs](https://developer.mozilla.org/en-US/) the web’s one-stop, premiere development resource, by redirecting all (500+ pages) of Microsoft’s JavaScript API reference from docs.microsoft.com to their MDN counterparts. For details, see this [announcement](https://blogs.windows.com/msedgedev/2018/06/26/chakra-docs-mdn-web-docs/).
+
 ## <a name="ES6"></a> Support for ECMAScript 2015 (ES6) and beyond
 
 Visual Studio now supports syntax for ECMAScript language updates such as ECMAScript 2015/2016.
@@ -177,7 +180,7 @@ A few of them are listed below, but for a full set of all options available, [se
 Given a project with the following setup:
 
 - project's source files are in `wwwroot/js`
-- project's lib files are in `wwwrrot/lib`
+- project's lib files are in `wwwroot/lib`
 - `bootstrap`, `jquery`, `jquery-validation`, and `jquery-validation-unobtrusive` are listed in the `bower.json`
 - `kendo-ui` has been manually added to the lib folder
 

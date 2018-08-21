@@ -15,13 +15,13 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Enumerating Locals
+# Enumerate locals
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+>  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
  When Visual Studio is ready to populate the **Locals** window, it calls [EnumChildren](../../extensibility/debugger/reference/idebugproperty2-enumchildren.md) on the [IDebugProperty2](../../extensibility/debugger/reference/idebugproperty2.md) object returned from [GetMethodProperty](../../extensibility/debugger/reference/idebugexpressionevaluator-getmethodproperty.md) (see [Implementing GetMethodProperty](../../extensibility/debugger/implementing-getmethodproperty.md)). `IDebugProperty2::EnumChildren` returns an [IEnumDebugPropertyInfo2](../../extensibility/debugger/reference/ienumdebugpropertyinfo2.md) object.  
   
- This implementation of `IDebugProperty2::EnumChildren` performs the following tasks:  
+ Implementing `IDebugProperty2::EnumChildren` performs the following tasks:  
   
 1.  Ensures this is representing a method.  
   
@@ -37,7 +37,7 @@ ms.workload:
   
 4.  Returns the `IEnumDebugProperty2Info2` interface from the `CEnumPropertyInfo` object.  
   
-## Managed Code  
+## Managed code  
  This example shows an implementation of `IDebugProperty2::EnumChildren` in managed code.  
   
 ```csharp  
@@ -116,7 +116,7 @@ namespace EEMC
 }  
 ```  
   
-## Unmanaged Code  
+## Unmanaged code  
  This example shows an implementation of `IDebugProperty2::EnumChildren` in unmanaged code.  
   
 ```cpp  
@@ -242,7 +242,7 @@ STDMETHODIMP CFieldProperty::EnumChildren(
 }  
 ```  
   
-## See Also  
- [Sample Implementation of Locals](../../extensibility/debugger/sample-implementation-of-locals.md)   
- [Implementing GetMethodProperty](../../extensibility/debugger/implementing-getmethodproperty.md)   
- [Evaluation Context](../../extensibility/debugger/evaluation-context.md)
+## See also  
+ [Sample implementation of locals](../../extensibility/debugger/sample-implementation-of-locals.md)   
+ [Implement GetMethodProperty](../../extensibility/debugger/implementing-getmethodproperty.md)   
+ [Evaluation context](../../extensibility/debugger/evaluation-context.md)

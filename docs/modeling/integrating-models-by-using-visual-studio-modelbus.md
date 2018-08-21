@@ -121,10 +121,10 @@ ms.technology: vs-ide-modeling
 
 4.  If you chose to reference an element in a model, you can add a list of types that the user can select, for example Company.FamilyTree.Person.
 
-5.  Click **OK**, and then click **Transform All Templates** in the solution explorer toolbar.
+5.  Click **OK**, and then click **Transform All Templates** in the **Solution Explorer** toolbar.
 
     > [!WARNING]
-    >  If you have not selected a valid model or entity, the OK button will have no effect, even though it might appear enabled.
+    > If you have not selected a valid model or entity, the OK button will have no effect, even though it might appear enabled.
 
 6.  If you specified a list of target types such as Company.FamilyTree.Person, then you must add an assembly reference to your DSL project, referencing the DLL of the target DSL, for example Company.FamilyTree.Dsl.dll
 
@@ -137,7 +137,7 @@ ms.technology: vs-ide-modeling
 3.  In the Debugging project in the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], add files that are instances of each DSL.
 
     > [!NOTE]
-    >  [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] ModelBus can only resolve references to models that are items in the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution. For example, you cannot create a reference to a model file in another part of your file system.
+    > [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] ModelBus can only resolve references to models that are items in the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution. For example, you cannot create a reference to a model file in another part of your file system.
 
 4.  Create some elements and links in the instance of the exposed DSL, and save it.
 
@@ -176,7 +176,7 @@ ms.technology: vs-ide-modeling
 
  In the code file where you will create references, you will typically have to import these namespaces:
 
-```
+```csharp
 // The namespace of the DSL you want to reference:
 using Fabrikam.FamilyTree;  // Exposed DSL
 using Fabrikam.FamilyTree.ModelBusAdapters;
@@ -193,7 +193,7 @@ using System.Linq;
 > [!NOTE]
 >  You must dispose an Adapter when you have finished with it. The most convenient way to achieve this is with a `using` statement. The following example illustrates this.
 
-```
+```csharp
 // The file path of a model instance of the FamilyTree DSL:
 string targetModelFile = "TudorFamilyTree.ftree";
 // Get the ModelBus service:
@@ -229,7 +229,7 @@ using (FamilyTreeAdapter adapter =
 
  If you want to be able to use `modelReference` later, you can store it in a domain property that has the External Type `ModelBusReference`:
 
-```
+```csharp
 using Transaction t = this.Store.TransactionManager
     .BeginTransaction("keep reference"))
 {
@@ -243,7 +243,7 @@ using Transaction t = this.Store.TransactionManager
 ### To create a reference to an element
  The adapter that you created for the model can be used to create and resolve references.
 
-```
+```csharp
 // person is an element in the FamilyTree model:
 ModelBusReference personReference =
   adapter.GetElementReference(person);
@@ -256,7 +256,7 @@ ModelBusReference personReference =
 
  You can create an adapter from an MBR. From the adapter, you can obtain the root of the model. You can also resolve MBRs that refer to specific elements within the model.
 
-```
+```csharp
 using Microsoft.VisualStudio.Modeling.Integration; ...
 ModelBusReference elementReference = ...;
 
@@ -336,7 +336,7 @@ using (FamilyTreeAdapter adapter =
 ## Serializing a ModelBusReference
  If you want to store a `ModelBusReference` (MBR) in the form of a string, you can serialize it:
 
-```
+```csharp
 string serialized = modelBus.SerializeReference(elementReference);
 // Store it anywhere, then get it back again:
 ModelBusReference elementReferenceRestored =
@@ -350,7 +350,7 @@ ModelBusReference elementReferenceRestored =
 
  To serialize relative to a path:
 
-```
+```csharp
 elementReference.ReferenceContext.Add(
    ModelBusReferencePropertySerializer.FilePathSaveContextKey,
    currentProjectFilePath);
@@ -359,7 +359,7 @@ string serialized = modelBus.SerializeReference(elementReference);
 
  To retrieve the reference from the string:
 
-```
+```csharp
 ReferenceContext context = new ReferenceContext();
 context.Add(ModelBusReferencePropertySerializer.FilePathLoadContextKey,
     currentProjectFilePath);
@@ -385,11 +385,11 @@ ModelBusReference elementReferenceRestored =
 ## To Create a Model
 
 ### Creating, opening and editing a model
- The following fragment is taken from the State Machine sample on the VMSDK Web site. It illustrates the use of ModelBusReferences to create and open a model, and to obtain the diagram associated with the model.
+ The following fragment is taken from the State Machine sample on the VMSDK website. It illustrates the use of ModelBusReferences to create and open a model, and to obtain the diagram associated with the model.
 
  In this sample, the name of the target DSL is StateMachine. Several names are derived from it, such as the name of the model class and the name of the ModelBusAdapter.
 
-```
+```csharp
 using Fabrikam.StateMachine.ModelBusAdapters;
 using Microsoft.VisualStudio.Modeling;
 using Microsoft.VisualStudio.Modeling.Diagrams;
@@ -441,7 +441,7 @@ using (StateMachineAdapter adapter =
 ## Validating references
  The BrokenReferenceDetector tests all the domain properties in a Store that can hold ModelBusReferences. It calls the action you that provide where any action is found. This is particularly useful for validation methods. The following validation method tests the store on an attempt to save the model, and reports broken references in the errors window:
 
-```
+```csharp
 [ValidationMethod(ValidationCategories.Save)]
 public void ValidateModelBusReferences(ValidationContext context)
 {
@@ -483,7 +483,7 @@ private const string INVALID_REF_FORMAT =
 
 -   Several CLR attributes are added to the domain property. You can see them in the Custom Attributes field in the Properties window. In **Dsl\GeneratedCode\DomainClasses.cs**, you can see the attributes on the property declaration:
 
-    ```
+    ```csharp
     [System.ComponentModel.TypeConverter(typeof(
     Microsoft.VisualStudio.Modeling.Integration.ModelBusReferenceTypeConverter))]
     [System.ComponentModel.Editor(typeof(

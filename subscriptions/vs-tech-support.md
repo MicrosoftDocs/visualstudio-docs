@@ -17,7 +17,8 @@ Resolve break-fix issues in non-production environments. (Benefit must be activa
    > [!NOTE]
    > Not all subscriptions at a given level are eligible to receive support incidents. Subscriptions acquired through FTE, NFR, MPN, MCT and other programs do not receive support incidents. If your subscription is not eligible to receive technical support incidents, the Technical Support tile will not appear in your available benefits.
 
-   ![Technical Support Benefit Tile](_img\vs-tech-support\vs-tech-support-tile.png)
+> [!div class="mx-imgBorder"]
+> ![Technical Support Benefit Tile](_img\vs-tech-support\vs-tech-support-tile.png)
 
 
 1.	To begin using your Technical Support benefit, click on **Chat to activate** on the Technical Support tile. 
@@ -25,8 +26,8 @@ Resolve break-fix issues in non-production environments. (Benefit must be activa
 3.  To complete the process, you will need to provide the representative with:
     - The email address you use to sign in to your subscription
     - The Subscription ID which can be found on the [Subscriptions](https://my.visualstudio.com/subscriptions) tab.
-
-    ![Technical Support Benefit Find Subscription ID](_img\vs-tech-support\vs-tech-support-subID-cropped.png)
+    > [!div class="mx-imgBorder"]
+    > ![Technical Support Benefit Find Subscription ID](_img\vs-tech-support\vs-tech-support-subID-cropped.png)
 
 
     > [!NOTE]
@@ -40,11 +41,13 @@ Once you have your Contract ID and Access ID set up, when you need support you c
 ### Submit an incident online
 
 1.  To [submit an incident online](http://support.microsoft.com/oas/), specify the product you need help with. You can either select from the various lists, or search for it by name. To submit an incident for Visual Studio Enterprise 2017, for example, click on **Visual Studio** in the **Developer Tools** group.
-    ![Technical Support Benefit Select Incident Product](_img\vs-tech-support\vs-tech-support-select-product.png)
+    > [!div class="mx-imgBorder"]    
+    > ![Technical Support Benefit Select Incident Product](_img\vs-tech-support\vs-tech-support-select-product.png)
 
 2.	Choose the product for which you need support. (For example, click on **Visual Studio Enterprise 2017** in the Visual Studio product list.)
 3.	On the **Create an incident** page, select the applicable problem type from the drop-down list. For our example, we’ll choose **Integrated Development Environment (IDE)**.
-    ![Technical Support Benefit Create Incident](_img\vs-tech-support\vs-tech-support-create-incident.png)
+    > [!div class="mx-imgBorder"]    
+    > ![Technical Support Benefit Create Incident](_img\vs-tech-support\vs-tech-support-create-incident.png)
 
 4.	Then choose the **Category** that best fits your question/issue. For our example, we’ll choose **Architect tools.**
 5.	Click **Start Request**.
@@ -54,7 +57,8 @@ Once you have your Contract ID and Access ID set up, when you need support you c
     - Enter your Access ID and Contract ID
     - Click **Add**
 7.	Once your support contract has been added, it will appear in the Professional Support Contract list. Choose it, and click **Continue**.
-     ![Technical Support Benefit Payment](_img\vs-tech-support\vs-tech-support-payment.png)
+    > [!div class="mx-imgBorder"]     
+    > ![Technical Support Benefit Payment](_img\vs-tech-support\vs-tech-support-payment.png)
 
 8.	Provide your contact information and preferred contact method, and click **Continue**.
 9.	Provide a title for your support incident, and then describe your issue.

@@ -26,9 +26,9 @@ The Model editor supports these model formats:
 
 |Format Name|File Extension|Supported Operations (View, Edit, Create)|
 |-----------------|--------------------|-------------------------------------------------|
-|AutoDesk FBX Interchange File|.fbx|View, Edit, Create|
-|Collada DAE File|.dae|View, Edit (Modifications to Collada DAE files are saved by using the FBX format.)|
-|OBJ|.obj|View, Edit (Modifications to OBJ files are saved by using the FBX format.)|
+|AutoDesk FBX Interchange File|*.fbx*|View, Edit, Create|
+|Collada DAE File|*.dae*|View, Edit (Modifications to Collada DAE files are saved by using the FBX format.)|
+|OBJ|*.obj*|View, Edit (Modifications to OBJ files are saved by using the FBX format.)|
 
 ## Get started
 
@@ -36,20 +36,20 @@ This section describes how to add a 3D model to your Visual Studio project and p
 
 ### To add a 3D model to your project
 
-1. In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add** > **New Item**.
+1. In **Solution Explorer**, open the shortcut menu for the project to which you want to add the image, and then choose **Add** > **New Item**.
 
 2. In the **Add New Item** dialog box, under the **Graphics** category, select **3D Scene (.fbx)**.
 
    ![Add New Item dialog with 3D scene selected](media/add-new-3d-scene.png)
 
-3. Enter the **Name** of the model file, and then select **Add**.
+   > [!NOTE]
+   > If you don't see the **Graphics** category in the **Add New Item** dialog, you may need to install the **Image and 3D model editors** component. Close the dialog and then select **Tools** > **Get Tools and Features** from the menu bar, to open the **Visual Studio Installer**. Select the **Individual components** tab, and then select the **Image and 3D model editors** component under the **Games and Graphics** category. Select **Modify**.
+   >
+   > ![Image and 3D model editors component](media/image-3d-model-editors-component.png)
+   >
+   > If you have the **Image and 3D model editors** component installed and still don't see the **Graphics** template category, note that this category only appears for certain project types, for example, console applications.
 
-> [!NOTE]
-> If you don't see the **Graphics** category in the **Add New Item** dialog, you may need to install the **Image and 3D model editors** component. Close the dialog and then select **Tools** > **Get Tools and Features** from the menu bar, to open the **Visual Studio Installer**. Select the **Individual components** tab, and then select the **Image and 3D model editors** component under the **Games and Graphics** category. Select **Modify**.
->
-> ![Image and 3D model editors component](media/image-3d-model-editors-component.png)
->
-> If you have the **Image and 3D model editors** component installed and still don't see the **Graphics** template category, note that this category only appears for certain project types, for example console applications.
+3. Enter the **Name** of the model file, and then select **Add**.
 
 ### Axis orientation
 
@@ -57,7 +57,7 @@ Visual Studio supports every orientation of the 3D axis, and loads axis orientat
 
 ### Begin your 3D model
 
-In the Model Editor, each new object always begins as one of the basic 3D shapes—or *primitives*—that are built into the Model Editor. To create new and unique objects you add a primitive to the scene and then change its shape by modifying its vertices. For complex shapes, you add additional vertices by using extrusion or subdivision and then modify them. For information about how to add a primitive object to your scene, see [Creating and importing 3D objects](#Adding3DObjects). For information about how to add more vertices to an object, see [Modifying objects](#ModifyingObjects).
+In the Model Editor, each new object always begins as one of the basic 3D shapes—or *primitives*—that are built into the Model Editor. To create new and unique objects you add a primitive to the scene and then change its shape by modifying its vertices. For complex shapes, you add additional vertices by using extrusion or subdivision and then modify them. For information about how to add a primitive object to your scene, see [Create and import 3D objects](#Adding3DObjects). For information about how to add more vertices to an object, see [Modify objects](#ModifyingObjects).
 
 ## Work with the Model Editor
 
@@ -78,8 +78,8 @@ This table describes the items on the **Model Editor Mode** toolbar, which are l
 |Toolbar Item|Description|
 |------------------|-----------------|
 |**Select**|Enables selection of points, edges, faces, or objects in the scene, depending on the active selection mode.|
-|**Pan**|Enables movement of a 3D scene relative to the window frame. To pan, select a point in the scene and move it around.<br /><br /> In **Select** mode, you can press and hold Ctrl to activate **Pan** mode temporarily.|
-|**Zoom**|Enables the display of more or less scene detail relative to the window frame. In **Zoom** mode, select a point in the scene and then move it right or down to zoom in, or left or up to zoom out.<br /><br /> In **Select** mode, you can zoom in or out by using the mouse wheel while you press and hold Ctrl.|
+|**Pan**|Enables movement of a 3D scene relative to the window frame. To pan, select a point in the scene and move it around.<br /><br /> In **Select** mode, you can press and hold **Ctrl** to activate **Pan** mode temporarily.|
+|**Zoom**|Enables the display of more or less scene detail relative to the window frame. In **Zoom** mode, select a point in the scene and then move it right or down to zoom in, or left or up to zoom out.<br /><br /> In **Select** mode, you can zoom in or out by using the mouse wheel while you press and hold **Ctrl**.|
 |**Orbit**|Positions the view on a circular path around the selected object. If no object is selected, the path is centered on the scene origin. **Note:**  This mode has no effect when **Orthographic** projection is enabled.|
 |**World Local**|When this item is enabled, transformations on the selected object occur in world-space. Otherwise, transformations on the selected object occur in local-space.|
 |**Pivot Mode**|When this item is enabled, transformations affect the location and orientation of the *pivot point* of the selected object (The pivot point defines the center of translation, scaling, and rotation operations.) Otherwise, transformations affect the location and orientation of the object's geometry, relative to the pivot point.|
@@ -123,8 +123,8 @@ The following table describes the primary view controls.
 
 |View Control|Description|
 |------------------|-----------------|
-|**Pan**|Enables movement of a 3D scene relative to the window frame. To pan, select a point in the scene and move it around.<br /><br /> In **Select** mode, you can press and hold Ctrl to activate **Pan** mode temporarily.|
-|**Zoom**|Enables the display of more or less scene detail relative to the window frame. In **Zoom** mode, select a point in the scene and then move it right or down to zoom in, or left or up to zoom out.<br /><br /> In **Select** mode, you can zoom in or out by using the mouse wheel while you press and hold Ctrl.|
+|**Pan**|Enables movement of a 3D scene relative to the window frame. To pan, select a point in the scene and move it around.<br /><br /> In **Select** mode, you can press and hold **Ctrl** to activate **Pan** mode temporarily.|
+|**Zoom**|Enables the display of more or less scene detail relative to the window frame. In **Zoom** mode, select a point in the scene and then move it right or down to zoom in, or left or up to zoom out.<br /><br /> In **Select** mode, you can zoom in or out by using the mouse wheel while you press and hold **Ctrl**.|
 |**Orbit**|Positions the view on a circular path around the selected object. If no object is selected, the path is centered on the scene origin. **Note:**  This mode has no effect when **Orthographic** projection is enabled.|
 |**Frame Object**|Frames the selected object so that it's located in the center of the view.|
 
@@ -139,13 +139,13 @@ You might find it useful to view a 3D scene from a known position and angle, for
 
 ### View additional geometry details
 
-To better understand a 3D object or scene, you can view additional geometry details such as per-vertex normals, per-face normals, the pivot points of the active selection, and other details. To enable or disable them, on the **Model Editor** toolbar, choose **Scripts**, **View**, and then choose the one you want.
+To better understand a 3D object or scene, you can view additional geometry details such as per-vertex normals, per-face normals, the pivot points of the active selection, and other details. To enable or disable them, on the **Model Editor** toolbar, choose **Scripts** > **View**, and then choose the one you want.
 
-### Create and import 3D objects
+### Create and import 3D objects <a name="Adding3DObjects"></a>
 
 To add a predefined 3D shape to the scene, in the **Toolbox**, select the one you want and then move it to the design surface. New shapes are positioned at the origin of the scene. The Model Editor provides seven shapes: **Cone**, **Cube**, **Cylinder**, **Disc**, **Plane**, **Sphere**, and **Teapot**.
 
-To import a 3D object from a file, on the **Model Editor** toolbar, choose **Advanced**, **Scene Management**, **Import**, and then specify the file that you want to import.
+To import a 3D object from a file, on the **Model Editor** toolbar, choose **Advanced** > **Scene Management** > **Import** > and then specify the file that you want to import.
 
 ### Transform objects
 
@@ -172,7 +172,7 @@ You can transform and object either by using modeling tools or by setting proper
 
 By using the modeling tools, you can create transformations quickly but not precisely. By setting the object properties, you can specify transformations precisely but not quickly. We recommend that you use the modeling tools to get "close enough" to the transformations you want, and then fine-tune the property values.
 
-If you don't want to use manipulators, you can enable free-form mode. On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Free-form Manipulation** to enable (or disable) free-form mode. In free-form mode, you can begin a manipulation at any point on the design surface instead of a point on the manipulator. In free-form mode, you can constrain changes to certain axes by locking the ones you don't want to change. On the **Model Editor Mode** toolbar, choose any combination of the **Lock X**, **Lock Y**, and **Lock Z** buttons.
+If you don't want to use manipulators, you can enable free-form mode. On the **Model Editor** toolbar, choose **Scripts** > **Tools** > **Free-form Manipulation** to enable (or disable) free-form mode. In free-form mode, you can begin a manipulation at any point on the design surface instead of a point on the manipulator. In free-form mode, you can constrain changes to certain axes by locking the ones you don't want to change. On the **Model Editor Mode** toolbar, choose any combination of the **Lock X**, **Lock Y**, and **Lock Z** buttons.
 
 You might find it useful to work with objects by using snap-to-grid. On the **Model Editor Mode** toolbar, choose **Snap** to enable (or disable) snap-to-grid. When snap-to-grid is enabled, translation, rotation, and scaling transformations are constrained to predefined increments.
 
@@ -180,13 +180,13 @@ You might find it useful to work with objects by using snap-to-grid. On the **Mo
 
 The pivot point of an object defines its center of rotation and scaling. You can change the pivot point of an object to change how it's affected by rotation and scaling transformations. On the **Model Editor Mode** toolbar, choose **Pivot Mode** to enable (or disabled) pivot mode. When pivot mode is enabled, a small axis indicator appears at the pivot point of the selected object. You can then use the **Translation** and **Rotation** tools to manipulate the pivot point.
 
-For a demonstration that shows how to use the pivot point, see [How to: Modify the Pivot Point of a 3D Model](../designers/how-to-modify-the-pivot-point-of-a-3-d-model.md).
+For a demonstration that shows how to use the pivot point, see [How to: Modify the pivot point of a 3D model](../designers/how-to-modify-the-pivot-point-of-a-3-d-model.md).
 
 ### World and local modes
 
 Translation and rotation can occur in either the local coordinate system (or *local frame-of-reference*) of the object, or in the coordinate system of the world (or the *world frame-of-reference*). The world frame-of-reference is independent of the rotation of the object. Local mode is the default. To enable (or disable) world mode, on the **Model Editor Mode** toolbar, choose the **WorldLocal** button.
 
-### Modify objects
+### Modify objects <a name="ModifyingObjects"></a>
 
 You can change the shape of a 3D object by moving or deleting its vertices, edges, and faces. By default, the Model Editor is in *object mode*, so that you can select and transform entire objects. To select points, edges, or faces, choose the appropriate selection mode. On the **Model Editor Mode** toolbar, choose **Selection modes**, and then choose the mode that you want.
 
@@ -196,13 +196,13 @@ You can change the shape of a 3D object by moving or deleting its vertices, edge
 
 1. In face-select mode, select the face you want to extrude.
 
-2. On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Extrude**.
+2. On the **Model Editor** toolbar, choose **Scripts** > **Tools** > **Extrude**.
 
 #### To subdivide faces
 
 1. In face-select mode, select the faces you want to subdivide. Because subdivision creates new edge data, subdividing all faces at once gives more-consistent results when the faces are adjacent.
 
-2. On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Subdivide**.
+2. On the **Model Editor** toolbar, choose **Scripts** > **Tools** > **Subdivide**.
 
  You can also triangulate faces, merge objects, and convert polygon selections into new objects. Triangulation creates additional edges such that a non-triangular face is converted to an optimal number of triangles; however, it doesn't provide additional geometric detail. Merging combines selected objects into one object. New objects can be created from a polygon selection.
 
@@ -210,19 +210,19 @@ You can change the shape of a 3D object by moving or deleting its vertices, edge
 
 1. In face-select mode, select the face you want to triangulate.
 
-2. On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Triangulate**.
+2. On the **Model Editor** toolbar, choose **Scripts** > **Tools** > **Triangulate**.
 
 #### To merge objects
 
 1. In object-select mode, select the objects you want to merge.
 
-2. On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Merge Objects**.
+2. On the **Model Editor** toolbar, choose **Scripts** > **Tools** > **Merge Objects**.
 
 #### To create an object from a polygon selection
 
 1. In face-select mode, select the faces you want to create a new object from.
 
-2. On the **Model Editor** toolbar, choose **Scripts**, **Tools**, **Create New Object from Polygon Selection**.
+2. On the **Model Editor** toolbar, choose **Scripts** > **Tools** > **Create New Object from Polygon Selection**.
 
 ### Work with materials and shaders
 
@@ -232,9 +232,9 @@ The Model Editor provides these default materials:
 
 |Material|Description|
 |--------------|-----------------|
-|Unlit|Renders a surface without any simulated lighting.|
-|Lambert|Renders a surface with simulated ambient lighting and diffuse lighting.|
-|Phong|Renders a surface with simulated ambient lighting, diffuse lighting, and specular highlights.|
+|**Unlit**|Renders a surface without any simulated lighting.|
+|**Lambert**|Renders a surface with simulated ambient lighting and diffuse lighting.|
+|**Phong**|Renders a surface with simulated ambient lighting, diffuse lighting, and specular highlights.|
 
 Each of these materials applies one texture on the surface of an object. You can set a different texture for each object that uses the material.
 
@@ -242,17 +242,17 @@ To modify how a particular object reacts to the different light sources in the s
 
 |Lighting Property|Description|
 |-----------------------|-----------------|
-|Ambient|Describes how the surface is affected by ambient lighting.|
-|Diffuse|Describes how the surface is affected by directional and point lights.|
-|Emissive|Describes how the surface emits light, independent of other lighting.|
-|Specular|Describes how the surface reflects directional and point lights.|
-|Specular Power|Describes the breadth and intensity of specular highlights.|
+|**Ambient**|Describes how the surface is affected by ambient lighting.|
+|**Diffuse**|Describes how the surface is affected by directional and point lights.|
+|**Emissive**|Describes how the surface emits light, independent of other lighting.|
+|**Specular**|Describes how the surface reflects directional and point lights.|
+|**Specular Power**|Describes the breadth and intensity of specular highlights.|
 
 Depending on what a material supports, you can change its lighting properties, textures, and other data. In **Select** mode, select the object whose material you want to change, and then in the **Properties** window, change the **MaterialAmbient**, **MaterialDiffuse**, **MaterialEmissive**, **MaterialSpecular**, **MaterialSpecularPower**, or other available property. A material can expose up to eight textures, whose properties are named sequentially from **Texture1** to **Texture8**.
 
-To remove all materials from an object, on the **Model Editor** toolbar, choose **Scripts**, **Materials**, **Remove Materials**.
+To remove all materials from an object, on the **Model Editor** toolbar, choose **Scripts** > **Materials** > **Remove Materials**.
 
-You can use the **Shader Designer** to create custom shader materials that you can apply to objects in your 3D scene. For information about how to create custom shader materials, see [Shader Designer](../designers/shader-designer.md). For information about how to apply a custom shader material to an object, see [How to: Apply a Shader to a 3D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).
+You can use the **Shader Designer** to create custom shader materials that you can apply to objects in your 3D scene. For information about how to create custom shader materials, see [Shader Designer](../designers/shader-designer.md). For information about how to apply a custom shader material to an object, see [How to: Apply a shader to a 3D model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).
 
 ### Scene management
 
@@ -266,65 +266,65 @@ You can construct a hierarchy of objects either by making one of them the parent
 
 1. In **Select** mode, select two or more objects. The first one you select will be the parent object.
 
-2. On the **Model Editor** toolbar, choose **Scripts**, **Scene Management**, **Attach to Parent**.
+2. On the **Model Editor** toolbar, choose **Scripts** > **Scene Management** > **Attach to Parent**.
 
 #### To create a hierarchy of sibling objects
 
 1. In **Select** mode, select two or more objects. A placeholder object is created and becomes their parent object.
 
-2. On the **Model Editor** toolbar, choose **Scripts**, **Scene Management**, **Create Group**.
+2. On the **Model Editor** toolbar, choose **Scripts** > **Scene Management** > **Create Group**.
 
-The Model Editor uses a white wireframe to identify the first selected object, which becomes the parent. Other objects in the selection have a blue wireframe. By default, placeholder nodes are not displayed. To display placeholder nodes, on the **Model Editor** toolbar, choose **Scripts**, **Scene Management**, **Show Placeholder Nodes**. You can work with placeholder nodes just as you work with non-placeholder objects.
+The Model Editor uses a white wireframe to identify the first selected object, which becomes the parent. Other objects in the selection have a blue wireframe. By default, placeholder nodes are not displayed. To display placeholder nodes, on the **Model Editor** toolbar, choose **Scripts** > **Scene Management** > **Show Placeholder Nodes**. You can work with placeholder nodes just as you work with non-placeholder objects.
 
-To remove the parent-child association between two objects, select the child object, and then on the **Model Editor** toolbar, choose **Scripts**, **Scene Management**, **Detach from Parent**. When you detach the parent from a child object, the child object becomes a root object in the scene.
+To remove the parent-child association between two objects, select the child object, and then on the **Model Editor** toolbar, choose **Scripts** > **Scene Management** > **Detach from Parent**. When you detach the parent from a child object, the child object becomes a root object in the scene.
 
 ## Keyboard shortcuts
 
 |Command|Keyboard shortcuts|
 |-------------|------------------------|
-|Switch to **Select** mode|Ctrl+G, Gtrl+Q<br /><br /> S|
-|Switch to **Zoom** mode|Ctrl+G, Ctrl+Z<br /><br /> Z|
-|Switch to **Pan** mode|Ctrl+G, Ctrl+P<br /><br /> K|
-|Select all|Ctrl+A|
-|Delete the current selection|Delete|
-|Cancel the current selection|Escape|
-|Zoom in|Mouse wheel forward<br /><br /> Ctrl+Mouse wheel forward<br /><br /> Shift+Mouse wheel forward<br /><br /> Ctrl+PageUp<br /><br /> Plus Sign (+)|
-|Zoom out|Mouse wheel backward<br /><br /> Ctrl+Mouse wheel backward<br /><br /> Shift+Mouse wheel backward<br /><br /> Ctrl+PageDown<br /><br /> Minus Sign (-)|
-|Pan the camera up|PageDown|
-|Pan the camera down|PageUp|
-|Pan the camera left|Mouse wheel left<br /><br /> Ctrl+PageDown|
-|Pan the camera right|Mouse wheel right<br /><br /> Ctrl+PageDown|
-|View top of model|Ctrl+L, Ctrl+T<br /><br /> T|
-|View bottom of model|Ctrl+L, Ctrl+U|
-|View left side of model|Ctrl+L, Ctrl+L|
-|View right side of model|Ctrl+L, Ctrl+R|
-|View front of model|Ctrl+L, Ctrl+F|
-|View back of model|Ctrl+L, Ctrl+B|
-|Frame object in window|F|
-|Toggle wireframe mode|Ctrl+L, Ctrl+W|
-|Toggle snap-to-grid|Ctrl+G, Ctrl+N|
-|Toggle pivot mode|Ctrl+G, Ctrl+V|
-|Toggle x-axis restriction|Ctrl+L, Ctrl+X|
-|Toggle y-axis restriction|Ctrl+L, Ctrl+Y|
-|Toggle z-axis restriction|Ctrl+L, Ctrl+Z|
-|Switch to translation mode|Ctrl+G, Ctrl+W<br /><br /> W|
-|Switch to scale mode|Ctrl+G, Ctrl+E<br /><br /> E|
-|Switch to rotation mode|Ctrl+G, Ctrl+R<br /><br /> R|
-|Switch to point-select mode|Ctrl+L, Ctrl+1|
-|Switch to edge-select mode|Ctrl+L, Ctrl+2|
-|Switch to face-select mode|Ctrl+L, Ctrl+3|
-|Switch to object-select mode|Ctrl+L, Ctrl+4|
-|Switch to orbit (camera) mode|Ctrl+G, Ctrl+O|
-|Select next object in scene|Tab|
-|Select previous object in scene|Shift+Tab|
-|Manipulate the selected object based on the current tool.|The arrow keys|
-|Deactivate current manipulator|Q|
-|Rotate camera|Alt+Drag with left mouse button|
+|Switch to **Select** mode|**Ctrl**+**G**, **Ctrl**+**Q**<br /><br /> **S**|
+|Switch to **Zoom** mode|**Ctrl**+**G**, **Ctrl**+**Z**<br /><br /> **Z**|
+|Switch to **Pan** mode|**Ctrl**+**G**, **Ctrl**+**P**<br /><br /> **K**|
+|Select all|**Ctrl**+**A**|
+|Delete the current selection|**Delete**|
+|Cancel the current selection|**Escape** (**Esc**)|
+|Zoom in|**Mouse wheel forward**<br /><br /> **Ctrl**+**Mouse wheel forward**<br /><br /> **Shift**+**Mouse wheel forward**<br /><br /> **Ctrl**+**PageUp**<br /><br /> Plus Sign (**+**)|
+|Zoom out|**Mouse wheel backward**<br /><br /> **Ctrl**+**Mouse wheel backward**<br /><br /> **Shift**+**Mouse wheel backward**<br /><br /> **Ctrl**+**PageDown**<br /><br /> Minus Sign (**-**)|
+|Pan the camera up|**PageDown**|
+|Pan the camera down|**PageUp**|
+|Pan the camera left|**Mouse wheel left**<br /><br /> **Ctrl**+**PageDown**|
+|Pan the camera right|**Mouse wheel right**<br /><br /> **Ctrl**+**PageDown**|
+|View top of model|**Ctrl**+**L**, **Ctrl**+**T**<br /><br /> **T**|
+|View bottom of model|**Ctrl**+**L**, **Ctrl**+**U**|
+|View left side of model|**Ctrl**+**L**, **Ctrl**+**L**|
+|View right side of model|**Ctrl**+**L**, **Ctrl**+**R**|
+|View front of model|**Ctrl**+**L**, **Ctrl**+**F**|
+|View back of model|**Ctrl**+**L**, **Ctrl**+**B**|
+|Frame object in window|**F**|
+|Toggle wireframe mode|**Ctrl**+**L**, **Ctrl**+**W**|
+|Toggle snap-to-grid|**Ctrl**+**G**, **Ctrl**+**N**|
+|Toggle pivot mode|**Ctrl**+**G**, **Ctrl**+**V**|
+|Toggle x-axis restriction|**Ctrl**+**L**, **Ctrl**+**X**|
+|Toggle y-axis restriction|**Ctrl**+**L**, **Ctrl**+**Y**|
+|Toggle z-axis restriction|**Ctrl**+**L**, **Ctrl**+**Z**|
+|Switch to translation mode|**Ctrl**+**G**, **Ctrl**+**W**<br /><br /> **W**|
+|Switch to scale mode|**Ctrl**+**G**, **Ctrl**+**E**<br /><br /> **E**|
+|Switch to rotation mode|**Ctrl**+**G**, **Ctrl**+**R**<br /><br /> **R**|
+|Switch to point-select mode|**Ctrl**+**L**, **Ctrl**+**1**|
+|Switch to edge-select mode|**Ctrl**+**L**, **Ctrl**+**2**|
+|Switch to face-select mode|**Ctrl**+**L**, **Ctrl**+**3**|
+|Switch to object-select mode|**Ctrl**+**L**, **Ctrl**+**4**|
+|Switch to orbit (camera) mode|**Ctrl**+**G**, **Ctrl**+**O**|
+|Select next object in scene|**Tab**|
+|Select previous object in scene|**Shift**+**Tab**|
+|Manipulate the selected object based on the current tool.|The **Arrow** keys|
+|Deactivate current manipulator|**Q**|
+|Rotate camera|**Alt**+**Drag** with left mouse button|
 
 ## Related topics
 
 |Title|Description|
 |-----------|-----------------|
-|[Working with 3D Assets for Games and Apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the Visual Studio tools that you can use to work with graphics assets such as textures and images, 3D models, and shader effects.|
+|[Working with 3D assets for games and apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the Visual Studio tools that you can use to work with graphics assets such as textures and images, 3D models, and shader effects.|
 |[Image Editor](../designers/image-editor.md)|Describes how to use the Visual Studio Image Editor to work with textures and images.|
 |[Shader Designer](../designers/shader-designer.md)|Describes how to use the Visual Studio Shader Designer to work with shaders.|

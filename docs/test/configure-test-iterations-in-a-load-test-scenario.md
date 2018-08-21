@@ -33,7 +33,7 @@ The **Maximum Test Iterations** property controls the maximum number of test ite
  When the scenario iteration count is met, the scenario will stop running, but any other active scenarios will continue to run.
 
 > [!NOTE]
-> A related property is the **Unique** property on a Web test data source, which moves sequentially through the data, row-by-row, but only one time for each record. For more information, see [Add a data source to a web performance test](../test/add-a-data-source-to-a-web-performance-test.md).
+> A related property is the **Unique** property on a web test data source, which moves sequentially through the data, row-by-row, but only one time for each record. For more information, see [Add a data source to a web performance test](../test/add-a-data-source-to-a-web-performance-test.md).
 
  The **Maximum Test Iterations** property is useful for a variety of situations. Some load testers prefer to conduct iteration-based testing, whereas other load testers prefer to conduct duration-based testing.
 

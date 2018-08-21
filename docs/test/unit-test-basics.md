@@ -18,7 +18,7 @@ Check that your code is working as expected by creating and running unit tests. 
 
 Unit testing has the greatest effect on the quality of your code when it's an integral part of your software development workflow. As soon as you write a function or other block of application code, create unit tests that verify the behavior of the code in response to standard, boundary, and incorrect cases of input data, and that check any explicit or implicit assumptions made by the code. With *test driven development*, you create the unit tests before you write the code, so you use the unit tests as both design documentation and functional specifications.
 
-You can quickly generate test projects and test methods from your code, or manually create the tests as you need them. When you use IntelliTest to explore your .NET code, you can generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. Find out how to [generate unit tests for your code](http://msdn.microsoft.com/library/dn823749.aspx).
+You can quickly generate test projects and test methods from your code, or manually create the tests as you need them. When you use IntelliTest to explore your .NET code, you can generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. Find out how to [generate unit tests for your code](generate-unit-tests-for-your-code-with-intellitest.md).
 
 Test Explorer can also run third-party and open source unit test frameworks that have implemented Test Explorer add-on interfaces. You can add many of these frameworks through the Visual Studio Extension Manager and the Visual Studio gallery. See [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
 
@@ -34,7 +34,7 @@ For an introduction to unit testing that takes you directly into coding, see one
 
 ## The MyBank solution example
 
-In this topic, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code, However, the concepts are easily transferred to other languages and frameworks.
+In this topic, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code. However, the concepts are easily transferred to other languages and frameworks.
 
  ![MyBank Solution](../test/media/ute_mybanksolution.png)
 
@@ -46,13 +46,13 @@ In this topic, we use the development of a fictional application called `MyBank`
 
 -   `BankDb`
 
- Our first attempt at designing the `Accounts` project contain a class to hold basic information about an account, an interface that specifies the common functionality of any type of account, like depositing and withdrawing assets from the account, and a class derived from the interface that represents a checking account. We begin the Accounts projects by creating the following source files:
+ Our first attempt at designing the `Accounts` project contains a class to hold basic information about an account, an interface that specifies the common functionality of any type of account, like depositing and withdrawing assets from the account, and a class derived from the interface that represents a checking account. We begin the Accounts projects by creating the following source files:
 
 -   *AccountInfo.cs* defines the basic information for an account.
 
 -   *IAccount.cs* defines a standard `IAccount` interface for an account, including methods to deposit and withdraw assets from an account and to retrieve the account balance.
 
--   *CheckingAccount.cs* contains the `CheckingAccount` class that implements the `IAccounts` interface for a checking account.
+-   *CheckingAccount.cs* contains the `CheckingAccount` class that implements the `IAccount` interface for a checking account.
 
 We know from experience that one thing a withdrawal from a checking account must do is to make sure that the amount withdrawn is less than the account balance. So we override the `IAccount.Withdraw` method in `CheckingAccount` with a method that checks for this condition. The method might look like this:
 
@@ -119,7 +119,7 @@ It is often quicker to generate the unit test project and unit test stubs from y
 
  Each unit test project contains classes that mirror the names of the classes in the code project. In our example, the `AccountsTests` project would contain the following classes:
 
--   `AccountInfoTests` class contains the unit test methods for the `AccountInfo` class in the `BankAccount` project
+-   `AccountInfoTests` class contains the unit test methods for the `AccountInfo` class in the `Accounts` project
 
 -   `CheckingAccountTests` class contains the unit test methods for `CheckingAccount` class.
 
@@ -305,7 +305,7 @@ The attributed method runs once for each row in the table. **Test Explorer** rep
 
  Learn more about [code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) .
 
- **Q: How can I test methods in my code that have external dependencies?**
+ **Q: Can I test methods in my code that have external dependencies?**
 
  **A:** Yes. If you have Visual Studio Enterprise, Microsoft Fakes can be used with test methods that you write by using unit test frameworks for managed code.
 

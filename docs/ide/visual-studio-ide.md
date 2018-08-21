@@ -14,71 +14,89 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Visual Studio IDE overview
+# Welcome to the Visual Studio IDE
 
-The Visual Studio interactive development environment (IDE) is a creative launching pad that you can use to view and edit code, and then debug, build, and publish an app.
+The Visual Studio *integrated development environment* is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to ease the software development process.
 
 Visual Studio is available for Windows and Mac. [Visual Studio for Mac](/visualstudio/mac/) has many of the same features as Visual Studio 2017, and is optimized for developing cross-platform and mobile apps.
 
-This article focuses on Visual Studio 2017 for Windows. It introduces you to the basic features of the IDE. We'll walk through some things you can do with Visual Studio, including creating a simple project, using IntelliSense as a coding aid, and debugging an app to see the value of a variable during the program's execution. We'll also take a tour of the various tool windows.
+This overview article focuses on Visual Studio 2017 for Windows. It introduces you to the basic features of the IDE. We'll walk through some things you can do with Visual Studio, including creating a simple project, using [IntelliSense](using-intellisense.md) as a coding aid, and debugging an app to see the value of a variable during the program's execution. We'll also take a tour of the various tool windows.
 
 ## Install the Visual Studio IDE
 
 To get started, [download Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) and install it on your system.
 
-The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation. The quickstart topics, such as [Get started with C++ in Visual Studio](getting-started-with-cpp-in-visual-studio.md), contain instructions for installing other workloads.
+The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
 
-![Visual Studio Installer](../ide/media/overview-net-core-workload.png)
+![.NET Core cross-platform development workload in Visual Studio Installer](../ide/media/dotnet-core-cross-platform-workload.png)
 
-When you start Visual Studio for the first time, you can optionally sign in using your Microsoft account, or your work or school account.
+When you start Visual Studio for the first time, you can optionally [sign in](signing-in-to-visual-studio.md) using your Microsoft account, or your work or school account.
 
 ## Tour of the IDE
 
-To give you a high-level visual overview of Visual Studio, the following image shows Visual Studio with an open project along with several key tool windows you will most likely use:
+To give you a high-level visual overview of Visual Studio, the following image shows Visual Studio with an open project and several key tool windows you'll likely use:
 
 ![The Visual Studio IDE](../ide/media/visualstudioide.png)
 
-- [Solution Explorer](../ide/solutions-and-projects-in-visual-studio.md) lets you view, navigate, and manage your code files. Solution Explorer can help organize your code by grouping the files into solutions and projects.
+- [**Solution Explorer**](../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](quickstart-projects-solutions.md).
 
-- The [editor](../ide/writing-code-in-the-code-and-text-editor.md) window, where you'll likely spend a majority of your time, shows your code and enables you to edit source code and design a UI.
+- The [editor window](../ide/writing-code-in-the-code-and-text-editor.md) (center), where you'll likely spend a majority of your time, displays file contents. This is where you can edit code or design a user interface such as a window with buttons and text boxes.
 
-- The [Output window](../ide/reference/output-window.md) is where Visual Studio sends its notifications, such as debugging and error messages, compiler warnings, publishing status messages, and more. Each message source has its own tab.
+- The [Output window](../ide/reference/output-window.md) (bottom center) is where Visual Studio sends notifications such as debugging and error messages, compiler warnings, publishing status messages, and more. Each message source has its own tab.
 
-- [Team Explorer (VSTS)](/vsts/user-guide/work-team-explorer) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/vsts/tfvc/overview).
+- [Team Explorer](/vsts/user-guide/work-team-explorer) (bottom right) lets you track work items and share code with others using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/vsts/tfvc/overview).
 
-Following are some other popular productivity features in Visual Studio:
+### Popular productivity features
 
-- [Refactoring](../ide/refactoring-in-visual-studio.md) includes operations such as intelligent renaming of variables, moving selected lines of code into a separate function, moving code to other locations, reordering function parameters, and more.
+Some of the popular features in Visual Studio that help you to be more productive as you develop software include:
 
-   ![Refactoring](../ide/media/VSIDE_refactor.png)
+- [Refactoring](../ide/refactoring-in-visual-studio.md)
 
-- [IntelliSense](../ide/using-intellisense.md) is an umbrella term for a set of popular features that display type information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information in a separate help window. IntelliSense features vary by language. For more information, see [C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ IntelliSense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), and [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows some IntelliSense features at work:
+   Refactoring includes operations such as intelligent renaming of variables, extracting one or more lines of code into a new method, changing the order of method parameters, and more.
 
-   ![Visual Studio Member List](../ide/media/vs2017_Intellisense.png)
+   ![Refactoring in Visual Studio](../ide/media/refactoring-menu.png)
 
-- The [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md) search box is a great way to rapidly find what you need in Visual Studio. Just start typing in the name of whatever you are looking for, and Visual Studio lists results that take you exactly where you want to go. **Quick Launch** also shows links that start **Visual Studio Installer** for any workload or individual component.
+- [IntelliSense](../ide/using-intellisense.md)
 
-   ![Quick Launch search box](../ide/media/VSIDE_Tour_QuickLaunch.png)
+   IntelliSense is a term for a set of features that displays information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, which saves you from having to look up type information elsewhere. IntelliSense features vary by language. For more information, see [C# IntelliSense](../ide/visual-csharp-intellisense.md), [Visual C++ IntelliSense](../ide/visual-cpp-intellisense.md), [JavaScript IntelliSense](../ide/javascript-intellisense.md), and [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md). The following illustration shows how IntelliSense displays a member list for a type:
 
-- **Squiggles** are wavy underlines that alert you to errors or potential problems in your code in real time as you type. This enables you to fix them immediately without waiting for the error to be discovered during compilation or run time. If you hover over the squiggle, you see additional information about the error. A light bulb may also appear in the left margin with actions to fix the error. For more information, see [Quick Actions](../ide/quick-actions.md).
+   ![Visual Studio Member List](../ide/media/intellisense-list-members.png)
 
-   ![Squiggles](../ide/media/vs2017_squiggle.png)
+- [Quick Launch](../ide/reference/quick-launch-environment-options-dialog-box.md)
 
-- The [Call Hierarchy](../ide/reference/call-hierarchy.md) window can be opened on the text editor context menu to show the methods that call, and are called by, the method under the caret (insertion point).
+   Visual Studio can seem overwhelming at times with so many menus, options, and properties. The **Quick Launch** search box is a great way to rapidly find what you need in Visual Studio. When you start typing the name of something you're looking for, Visual Studio lists results that take you exactly where you need to go. If you need to add functionality to Visual Studio, for example to add support for an additional programming language, **Quick Launch** provides results that open Visual Studio Installer to install a workload or individual component.
 
-   ![Call Hierarchy window](../ide/media/VSIDE_call_hierarchy.png)
+   ![Quick Launch search box in Visual Studio](../ide/media/quick-launch-nuget.png)
 
-- [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) enables you to find references and changes to your code, linked bugs, work items, code reviews, and unit tests, all without leaving the editor.
+- Squiggles and [Quick Actions](../ide/quick-actions.md)
+
+   Squiggles are wavy underlines that alert you to errors or potential problems in your code as you type. These visual clues enable you to fix problems immediately without waiting for the error to be discovered during build or when you run the program. If you hover over a squiggle, you see additional information about the error. A light bulb may also appear in the left margin with actions, known as Quick Actions, to fix the error.
+
+   ![Squiggles in Visual Studio](../ide/media/squiggles-error.png)
+
+- [Call Hierarchy](../ide/reference/call-hierarchy.md)
+
+   The **Call Hierarchy** window shows the methods that call a selected method. This can be useful information when you're thinking about changing or removing the method, or when you're trying to track down a bug.
+
+   ![Call Hierarchy window](../ide/reference/media/call-hierarchy-csharp-expanded.png)
+
+- [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)
+
+   CodeLens helps you find references to your code, changes to your code, linked bugs, work items, code reviews, and unit tests, all without leaving the editor.
 
    ![CodeLens](../ide/media/codelensoverview.png)
 
-- The [Peek to Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) window shows a method or type definition inline, without navigating away from your current context.
+- [Go To Definition](../ide/go-to-and-peek-definition.md)
 
-   ![Peek to Definition](../ide/media/VSIDE_peek_definition.png)
+  The Go To Definition feature takes you directly to the location where a function or type is defined.
 
-- The [Go To Definition](../ide/go-to-and-peek-definition.md) context menu option takes you directly to the place where the function or object is defined. Other navigation commands are also available by right-clicking in the editor.
+   ![Go to Definition](../ide/media/go-to-definition-menu.png)
 
-   ![Go to Definition](../ide/media/VSIDE_go_to_definition.png)
+- [Peek To Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)
+
+   The **Peek Definition** window shows the definition of a method or type without actually opening a separate file.
+
+   ![Peek to Definition](../ide/media/peek-definition.png)
 
 ## Create a program
 
@@ -86,24 +104,22 @@ Let's dive in and create a new, simple program.
 
 1. Open Visual Studio. On the menu, choose **File** > **New** > **Project**.
 
-  ![File > New Project on menu bar](../ide/media/VSIDE_Tour_NewProject1.png)
+   ![File > New Project on menu bar](../ide/media/file-new-project-menu.png)
 
 1. The **New Project** dialog box shows several project *templates*. A template contains the basic files and settings needed for a given project type. Choose the **.NET Core** category under **Visual C#**, and then choose the **Console App (.NET Core)** template. In the **Name** text box, type **HelloWorld**, and then select the **OK** button.
 
-  ![.NET Core app template](../ide/media/overview-new-project-dialog.png)
+   ![.NET Core app template](../ide/media/overview-new-project-dialog.png)
 
-   Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console window.
+   Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console (program output) window.
 
   > [!NOTE]
-  > If you don't see the **.NET Core** category, you need to install the **.NET Core cross-platform development** workload. To do this, choose the **Open Visual Studio Installer** link on the bottom left of the **New Project** dialog. After **Visual Studio Installer** opens, scroll down and select the **.NET Core cross-platform development** workload, and then select **Modify**.
+  > If you don't see the **.NET Core** category, you need to install the **.NET Core cross-platform development** workload. To do this, choose the **Open Visual Studio Installer** link on the bottom left of the **New Project** dialog. After Visual Studio Installer opens, scroll down and select the **.NET Core cross-platform development** workload, and then select **Modify**.
 
    Shortly, you should see something like the following:
 
    ![Visual Studio IDE](../ide/media/overview-ide-console-app.png)
 
-   The C# code for your application is shown in the editor window, which takes up most of the space. Notice that the text is automatically colorized to indicate different aspects of the code, such as keywords and types. In addition, small, vertical dashed lines in the code indicate which braces match one another, and line numbers help you locate code later. You can choose the small, boxed minus signs to collapse or expand code. This code outlining feature lets you hide code you don't need, helping to minimize onscreen clutter.
-
-   The project files are listed on the right side in a window called **Solution Explorer**.
+   The C# code for your application shows in the editor window, which takes up most of the space. Notice that the text is automatically colorized to indicate different parts of the code, such as keywords and types. In addition, small, vertical dashed lines in the code indicate which braces match one another, and line numbers help you locate code later. You can choose the small, boxed minus signs to collapse or expand blocks of code. This code outlining feature lets you hide code you don't need, helping to minimize onscreen clutter. The project files are listed on the right side in a window called **Solution Explorer**.
 
   ![Visual Studio IDE with red boxes](../ide/media/overview-ide-console-app-red-boxes.png)
 
@@ -152,7 +168,7 @@ First, let's rename the `name` variable:
 
 1. Double-click the `name` variable to select it.
 
-1. Type in the new name for the variable, `username`.
+1. Type in the new name for the variable, **username**.
 
    Notice that a gray box appears around the variable, and a light bulb appears in the margin.
 
@@ -200,7 +216,7 @@ First, let's rename the `name` variable:
 
 ## Debug code
 
-When you write code, you need to run it and test it for bugs. Visual Studio's debugging system lets you step through code one statement at a time and inspect variables as you go. You can set breakpoints that are only hit when a specified condition is true. You can monitor the values of variables as the code runs, and more.
+When you write code, you need to run it and test it for bugs. Visual Studio's debugging system lets you step through code one statement at a time and inspect variables as you go. You can set *breakpoints* that stop execution of the code at a particular line. You can observe how the value of a variable changes as the code runs, and more.
 
 Let's set a breakpoint to see the value of the `username` variable while the program is "in flight".
 
@@ -226,7 +242,7 @@ To get more details about debugging in Visual Studio, see [Debugger feature tour
 
 ## Customize Visual Studio
 
-You can personalize the IDE, including changing the default color theme. To change to the **Dark** theme:
+You can personalize the Visual Studio user interface, including change the default color theme. To change to the **Dark** theme:
 
 1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
 
@@ -234,21 +250,32 @@ You can personalize the IDE, including changing the default color theme. To chan
 
    The color theme for the entire IDE changes to **Dark**.
 
-   ![VS in a dark theme](media/quickstart-personalize-dark-theme.png)
+   ![Visual Studio in dark theme](media/quickstart-personalize-dark-theme.png)
 
 To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../ide/personalizing-the-visual-studio-ide.md).
 
-## Learn more
+## Next steps
 
-Do you want to create an app for an Android or iOS phone? How about a 3D game, or a cloud-enabled app? To learn about these and other features of Visual Studio, see [Features of Visual Studio 2017](../ide/advanced-feature-overview.md).
+Explore Visual Studio further by following along with one of these introductory articles:
 
-If you're just ready to get started coding now, choose one of the Quickstart topics from the table of contents, such as [Create your first ASP.NET Core web app](quickstart-aspnet-core.md).
+- Get acquainted with the code editor in [Learn to use the code editor](quickstart-editor.md)
 
-You can also check out the free Visual Studio courses available on [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033).
+- Learn how Visual Studio organizes code in [Learn about projects and solutions](quickstart-projects-solutions.md)
+
+If you're ready to dive into more coding, one of the following language-specific quickstarts is a good next step:
+
+- [Use Visual Studio to create your first Python web app](quickstart-python.md)
+
+- [Use Visual Studio to create your first C# web app](quickstart-aspnet-core.md)
+
+- [Use Visual Studio to create your first Node.js app](quickstart-nodejs.md)
+
+- [Get started with C++ in Visual Studio](getting-started-with-cpp-in-visual-studio.md)
 
 ## See also
 
-* [More Visual Studio features](../ide/advanced-feature-overview.md)
-* [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
-* [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
-* [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
+- Discover [more Visual Studio features](../ide/advanced-feature-overview.md)
+- Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/)
+- Read [The Visual Studio blog](https://blogs.msdn.microsoft.com/visualstudio/)
+- Check out the free Visual Studio courses at [Microsoft Virtual Academy](https://mva.microsoft.com/product-training/visual-studio-courses#!index=2&lang=1033)
+- Download Visual Studio at [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)

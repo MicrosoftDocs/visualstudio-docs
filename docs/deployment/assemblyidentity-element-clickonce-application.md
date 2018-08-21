@@ -19,12 +19,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;assemblyIdentity&gt; Element (ClickOnce Application)
+# &lt;assemblyIdentity&gt; element (ClickOnce application)
 Identifies the application deployed in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.  
   
 ## Syntax  
   
-```  
+```xml
   
       <assemblyIdentity   
    name  
@@ -35,7 +35,7 @@ Identifies the application deployed in a [!INCLUDE[ndptecclick](../deployment/in
 />  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `assemblyIdentity` element is required. It contains no child elements and has the following attributes.  
   
 |Attribute|Description|  
@@ -53,7 +53,7 @@ Identifies the application deployed in a [!INCLUDE[ndptecclick](../deployment/in
   
 ### Code  
   
-```  
+```xml  
 <asmv1:assemblyIdentity   
   name="My Application Deployment.exe"   
   version="1.0.0.0"   
@@ -63,6 +63,6 @@ Identifies the application deployed in a [!INCLUDE[ndptecclick](../deployment/in
   type="win32" />  
 ```  
   
-## See Also  
- [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)   
- [\<assemblyIdentity> Element](../deployment/assemblyidentity-element-clickonce-deployment.md)
+## See also  
+ [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)   
+ [\<assemblyIdentity> element](../deployment/assemblyidentity-element-clickonce-deployment.md)

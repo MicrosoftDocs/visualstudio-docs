@@ -49,11 +49,11 @@ To find out more about these tools and the scenarios that they support, see:
 
 ## Scenario overview
 
-This scenario describes episodes from the software development lifecycles of two fictitious companies: Dinner Now and Lucerne Publishing. Dinner Now provides a Web-based meal delivery service in Seattle. Customers can order meals and pay for them on the Dinner Now Web site. The orders are then sent to the appropriate local restaurant for delivery. Lucerne Publishing, a company in New York, runs several businesses both off and on the Web. For example, they run a Web site where customers can post restaurant reviews.
+This scenario describes episodes from the software development lifecycles of two fictitious companies: Dinner Now and Lucerne Publishing. Dinner Now provides a Web-based meal delivery service in Seattle. Customers can order meals and pay for them on the Dinner Now website. The orders are then sent to the appropriate local restaurant for delivery. Lucerne Publishing, a company in New York, runs several businesses both off and on the Web. For example, they run a website where customers can post restaurant reviews.
 
 Lucerne recently acquired Dinner Now and wants to make the following changes:
 
-- Integrate their Web sites by adding restaurant review capabilities to Dinner Now.
+- Integrate their websites by adding restaurant review capabilities to Dinner Now.
 
 - Replace Dinner Now's payment system with Lucerne's system.
 
@@ -212,7 +212,7 @@ See:
 
 - [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)
 
-- [Charts, dashboards, and reports for Visual Studio ALM](http://msdn.microsoft.com/Library/1f28ba6c-c5e5-46d3-9209-ede24ae78e48)
+- [Charts, dashboards, and widgets (VSTS)](/vsts/report/dashboards/overview?view=vsts)
 
 - [Create your backlog and tasks using Project](http://msdn.microsoft.com/Library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)
 

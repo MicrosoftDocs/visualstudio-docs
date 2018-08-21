@@ -25,7 +25,7 @@ This section describes the procedures and options for collecting memory allocati
 |Task|Related Content|  
 |----------|---------------------|  
 |**Attach the profiler to a running ASP.NET application**|-   [How to: Attach the profiler to an ASP.NET web application to collect memory data](../profiling/how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-memory-data-by-using-the-command-line.md)|  
-|**Instrument statically compiled binaries**|-   [How to: Instrument a statically compiled ASP.NET application and collect memory data](../profiling/how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-memory-data-by-using-the-profiler-command-line.md)|  
+|**Instrument statically compiled binaries**|-   [How to: Instrument a statically compiled ASP.NET application and collect memory data](../profiling/how-to-instrument-a-statically-compiled-aspnet-app-and-collect-memory-data.md)|  
 |**Instrument dynamically compiled binaries**|-   [How to: Instrument a dynamically compiled ASP.NET application and collect memory data](../profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data.md)|  
   
 ## Related tasks

@@ -21,12 +21,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Specify the ClickOnce Offline or Online Install Mode
+# How to: Specify the ClickOnce offline or online install mode
 The `Install Mode` for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application determines whether the application will be available offline or online. When you choose **The application is available online only**, the user must have access to the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] publishing location (either a Web page or a file share) in order to run the application. When you choose **The application is available offline as well**, the application adds entries to the **Start** menu and the **Add or Remove Programs** dialog box; the user is able to run the application when they are not connected.  
   
  The `Install Mode` can be set on the **Publish** page of the **Project Designer**.  
   
- **Note** The `Install Mode` can also be set using the Publish wizard. For more information, see [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).  
+ **Note** The `Install Mode` can also be set using the Publish wizard. For more information, see [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md).  
   
 ### To make a ClickOnce application available online only  
   
@@ -46,7 +46,7 @@ The `Install Mode` for a [!INCLUDE[ndptecclick](../deployment/includes/ndpteccli
   
      When installed, the application adds entries to the **Start** menu and to **Add or Remove Programs** in Control Panel.  
   
-## See Also  
- [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md)   
- [How to: Publish a ClickOnce Application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)   
- [Choosing a ClickOnce Deployment Strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
+## See also  
+ [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)   
+ [How to: Publish a ClickOnce application using the Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)   
+ [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)

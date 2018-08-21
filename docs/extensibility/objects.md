@@ -17,19 +17,19 @@ ms.workload:
 # Objects
 The following reference information explains objects that are used to create an instance of the core text editor.  
   
-## In This Section  
+## In this section  
  [VSCodeWindow Object](../extensibility/vscodewindow-object.md)  
  Describes the code window object, a specialized document window that can enclose one or more text views.  
   
- [VSCodeWindowManager Object](../extensibility/vscodewindowmanager-object.md)  
+ [VSCodeWindowManager object](../extensibility/vscodewindowmanager-object.md)  
  Describes the code window manager object that is implemented by the language service and is responsible for managing adornments.  
   
- [VSTextBuffer Object](../extensibility/vstextbuffer-object.md)  
+ [VSTextBuffer object](../extensibility/vstextbuffer-object.md)  
  Describes the text buffer object, which represents a stream of Unicode text, the data for a file.  
   
- [VSTextView Object](../extensibility/vstextview-object.md)  
+ [VSTextView object](../extensibility/vstextview-object.md)  
  Describes the text view, a window that lets users view and edit Unicode text of the text buffer.  
   
-## Related Sections  
- [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md)  
+## Related sections  
+ [Visual Studio SDK reference](../extensibility/visual-studio-sdk-reference.md)  
  Presents a list of reference topics.

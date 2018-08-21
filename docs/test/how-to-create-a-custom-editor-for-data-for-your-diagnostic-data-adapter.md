@@ -11,7 +11,7 @@ manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ---
-# How to: Create a Custom Editor for Data for Your Diagnostic Data Adapter
+# How to: Create a custom editor for data for your diagnostic data adapter
 
 When you create a diagnostic data adapter, you might want to enable the end user to configure specific data when your custom diagnostic data adapter is selected for their test settings. For example, you can select the configuration data that specifies which registry keys to extract, what level of network load to simulate, or in which directory to find temporary files or work files to attach.
 
@@ -21,14 +21,14 @@ To create your own editor, you will create a user control that implements <xref:
 
 Your diagnostic data adapter can use a <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorConfigurationEditorAttribute> to specify the editor class to use for editing diagnostic data configuration settings.
 
-You also specify the default configuration data that you want to use.  See [Sample Project for Creating a Diagnostic Data Adapter](../test/sample-project-for-creating-a-diagnostic-data-adapter.md) for sample default configuration.
+You also specify the default configuration data that you want to use.  See [Sample project for creating a diagnostic data adapter](../test/sample-project-for-creating-a-diagnostic-data-adapter.md) for sample default configuration.
 
 Use the following procedure to create a custom editor to update data for your test settings when your custom data diagnostic adapter is used.
 
 > [!NOTE]
-> To create a custom editor, you must first create your diagnostic data adapter that has the <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorConfigurationEditorAttribute> applied to the class. You can use the optional <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorConfigurationEditorAttribute.HelpUri*> property in that attribute to specify the help content source for your editor. For more information about how to create your diagnostic data adapter, see [How to: Create a Diagnostic Data Adapter](../test/how-to-create-a-diagnostic-data-adapter.md).
+> To create a custom editor, you must first create your diagnostic data adapter that has the <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorConfigurationEditorAttribute> applied to the class. You can use the optional <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorConfigurationEditorAttribute.HelpUri*> property in that attribute to specify the help content source for your editor. For more information about how to create your diagnostic data adapter, see [How to: Create a diagnostic data adapter](../test/how-to-create-a-diagnostic-data-adapter.md).
 
-For a complete example diagnostic data adapter project, including a custom configuration editor, see [Sample Project for Creating a Diagnostic Data Adapter](../test/sample-project-for-creating-a-diagnostic-data-adapter.md).
+For a complete example diagnostic data adapter project, including a custom configuration editor, see [Sample project for creating a diagnostic data adapter](../test/sample-project-for-creating-a-diagnostic-data-adapter.md).
 
 ## To create a custom editor for your diagnostic data adapter
 
@@ -170,9 +170,9 @@ For a complete example diagnostic data adapter project, including a custom confi
 
 12. Edit the fields in your custom editor as required, and then choose **Save**.
 
-13. If you are running your tests from Microsoft Test Manager, you can assign these test settings to your test plan before you run your tests, or use the **Run with Options** command to assign test settings and override test settings. For more information about test settings, see [Collect Diagnostic Information Using Test Settings](../test/collect-diagnostic-information-using-test-settings.md).
+13. If you are running your tests from Microsoft Test Manager, you can assign these test settings to your test plan before you run your tests, or use the **Run with Options** command to assign test settings and override test settings. For more information about test settings, see [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md).
 
-14. Before you can use your new configuration editor with a diagnostic data adapter, you must apply the <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorConfigurationEditorAttribute> to each diagnostic data adapter class that you want to use the editor, and recompile and reinstall them on the client computer. For more information about how to install diagnostic data adapters and configuration editors, see [How to: Install a Custom Diagnostic Data Adapter](../test/how-to-install-a-custom-diagnostic-data-adapter.md).
+14. Before you can use your new configuration editor with a diagnostic data adapter, you must apply the <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorConfigurationEditorAttribute> to each diagnostic data adapter class that you want to use the editor, and recompile and reinstall them on the client computer. For more information about how to install diagnostic data adapters and configuration editors, see [How to: Install a custom diagnostic data adapter](../test/how-to-install-a-custom-diagnostic-data-adapter.md).
 
 15. Run your tests using the test settings with your diagnostic data adapter selected.
 
@@ -185,6 +185,6 @@ For a complete example diagnostic data adapter project, including a custom confi
 - <xref:Microsoft.VisualStudio.TestTools.Execution.IDataCollectorConfigurationEditor>
 - <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorConfigurationEditorAttribute>
 - <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorConfigurationEditorAttribute>
-- [Creating a Diagnostic Data Adapter to Collect Custom Data or Affect a Test Machine](../test/create-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md)
-- [Collect Diagnostic Information Using Test Settings](../test/collect-diagnostic-information-using-test-settings.md)
-- [Sample Project for Creating a Diagnostic Data Adapter](../test/sample-project-for-creating-a-diagnostic-data-adapter.md)
+- [Create a diagnostic data adapter to collect custom data or affect a test machine](../test/create-a-diagnostic-data-adapter-to-collect-custom-data-or-affect-a-test-machine.md)
+- [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)
+- [Sample project for creating a diagnostic data adapter](../test/sample-project-for-creating-a-diagnostic-data-adapter.md)

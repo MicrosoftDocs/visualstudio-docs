@@ -19,15 +19,15 @@ manager: douge
 ms.workload:
   - "vssdk"
 ---
-# IDE Constants
+# IDE constants
 
 The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are specific to the integrated development environment (IDE) and that were previously defined only in header files.
 
-## Logical and Physical Views
+## Logical and physical views
 
 |Value|Description|
 |-----------|-----------------|
-|<xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID.Code_guid>|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` handlers should pass this value to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method to get the **Open With** dialog box, in this case on possible Code views.|
+|<xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID.Code_guid>|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` handlers should pass this value to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method to get the **Open With** dialog box, in this case on possible code views.|
 |<xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID.Debugging_guid>|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` handlers pass this value to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method to get the **Open With** dialog box, in this case populated with possible <xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID.Debugging_guid> debugging views which map to the same view as <xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID.Code_guid>.|
 |<xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID.Designer_guid>|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` handlers pass this value to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method to get the **Open With** dialog box, in this case to **View Form** designer views.|
 |<xref:Microsoft.VisualStudio.VSConstants.LOGVIEWID.Primary_guid>|<xref:Microsoft.VisualStudio.VSConstants.GUID_VSStandardCommandSet97> `cmdidOpenWith` handlers pass this value to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method to get the **Open With** dialog box, in this case the default/primary view of the editor factory.|
@@ -43,7 +43,7 @@ The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are 
 |[CEF.OpenFile](<xref:Microsoft.VisualStudio.VSConstants.CEF#Microsoft_VisualStudio_VSConstants_CEF_OpenFile>)|Combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A> method, this flag is mutually exclusive of [CEF.CloneFile](<xref:Microsoft.VisualStudio.VSConstants.CEF#Microsoft_VisualStudio_VSConstants_CEF_CloneFile>).|
 |[CEF.Silent](<xref:Microsoft.VisualStudio.VSConstants.CEF#Microsoft_VisualStudio_VSConstants_CEF_Silent>)|Combined bitwise as the first parameter of the <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A> method, this indicates the editor factory should create the editor without displaying a user interface (UI).|
 
-## Visual Studio Errors
+## Visual Studio errors
 
 |Value|Description|
 |-----------|-----------------|
@@ -59,7 +59,7 @@ The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are 
 |<xref:Microsoft.VisualStudio.VSConstants.VS_E_UNSUPPORTEDFORMAT>|The <xref:Microsoft.VisualStudio.Package.EditorFactory.CreateEditorInstance%2A> method returns this value if the document has a format that cannot be opened in the editor.|
 |<xref:Microsoft.VisualStudio.VSConstants.VS_E_WIZARDBACKBUTTONPRESS>|An HRESULT value that indicates that the user hit the back button in a Visual Studio wizard.|
 
-## Visual Studio Constants
+## Visual Studio constants
 
 |Value|Description|
 |-----------|-----------------|
@@ -99,7 +99,7 @@ The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are 
 |<xref:Microsoft.VisualStudio.VSConstants.VSSELELEMID>|5|
 |<xref:Microsoft.VisualStudio.VSConstants.VSSELELEMID>|1|
 
-## Component Selector Dialog Constants
+## Component selector dialog constants
 
 |Constant|Value|
 |--------------|-----------|
@@ -112,6 +112,6 @@ The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are 
 |<xref:Microsoft.VisualStudio.VSConstants.CPPM_QUERYCANSELECT>|WM_USER + 1286|
 |<xref:Microsoft.VisualStudio.VSConstants.CPPM_SETMULTISELECT>|WM_USER + 1289|
 
-## See Also
+## See also
 
-- [IDE-Defined Commands for Extending Project Systems](../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)
+- [IDE-defined commands for extending project systems](../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)

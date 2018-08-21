@@ -23,7 +23,7 @@ ms.workload:
   - "office"
 ---
 # Outlook object model overview
-  To develop VSTO Add-ins for Microsoft Office Outlook, you can interact with the objects that are provided by the Outlook object model. The Outlook object model provides classes and interfaces that represent items in the user interface. For example, the <xref:Microsoft.Office.Interop.Outlook.Application> object represents the entire application, the <xref:Microsoft.Office.Interop.Outlook.MAPIFolder> object represents a folder that contains e-mail messages or other items, and the <xref:Microsoft.Office.Interop.Outlook.MailItem> object represents an e-mail message.  
+  To develop VSTO Add-ins for Microsoft Office Outlook, you can interact with the objects that are provided by the Outlook object model. The Outlook object model provides classes and interfaces that represent items in the user interface. For example, the <xref:Microsoft.Office.Interop.Outlook.Application> object represents the entire application, the <xref:Microsoft.Office.Interop.Outlook.Folder> object represents a folder that contains e-mail messages or other items, and the <xref:Microsoft.Office.Interop.Outlook.MailItem> object represents an e-mail message.  
   
  This topic provides a brief overview of some of the main objects in the Outlook object model. For resources where you can learn more about the entire Outlook object model, see [Use the Outlook object model documentation](#refdoc).  
   
@@ -40,7 +40,7 @@ ms.workload:
   
 -   <xref:Microsoft.Office.Interop.Outlook.Inspector>  
   
--   <xref:Microsoft.Office.Interop.Outlook.MAPIFolder>  
+-   <xref:Microsoft.Office.Interop.Outlook.Folder>  
   
 -   <xref:Microsoft.Office.Interop.Outlook.MailItem>  
   
@@ -53,7 +53,7 @@ ms.workload:
 ### Application object  
  The <xref:Microsoft.Office.Interop.Outlook.Application> object represents the Outlook application, and it is the highest-level object in the Outlook object model. Some of the most important members of this object include:  
   
--   The [CreateItem](http://msdn.microsoft.com/771707fb-5f34-473d-9fdf-09a6a7f55ece) method which you can use to create a new item such as an e-mail message, task, or appointment.  
+-   The [CreateItem](/previous-versions/office/developer/office-2003/aa220082(v=office.11)) method which you can use to create a new item such as an e-mail message, task, or appointment.  
   
 -   The <xref:Microsoft.Office.Interop.Outlook._Application.Explorers%2A> property, which you can use to access the windows that display the contents of a folder in the Outlook user interface (UI).  
   
@@ -73,7 +73,7 @@ ms.workload:
   
 -   Use the <xref:Microsoft.Office.Interop.Outlook._Application.ActiveExplorer%2A> method of the <xref:Microsoft.Office.Interop.Outlook.Application> object to get the <xref:Microsoft.Office.Interop.Outlook.Explorer> that currently has focus.  
   
--   Use the `GetExplorer` method of the <xref:Microsoft.Office.Interop.Outlook.MAPIFolder> object to get the <xref:Microsoft.Office.Interop.Outlook.Explorer> for the current folder.  
+-   Use the `GetExplorer` method of the <xref:Microsoft.Office.Interop.Outlook.Folder> object to get the <xref:Microsoft.Office.Interop.Outlook.Explorer> for the current folder.  
   
 ### Inspector object  
  The <xref:Microsoft.Office.Interop.Outlook.Inspector> object represents a window that displays a single item such as an e-mail message, task, or appointment. The <xref:Microsoft.Office.Interop.Outlook.Inspector> object includes methods and properties that you can use to modify the window, and events that are raised when the window changes.  
@@ -86,14 +86,14 @@ ms.workload:
   
 -   Use the `GetInspector` method of a specific item, such as a <xref:Microsoft.Office.Interop.Outlook.MailItem> or <xref:Microsoft.Office.Interop.Outlook.AppointmentItem>, to retrieve the Inspector that is associated with it.  
   
-### MAPIFolder object  
- The <xref:Microsoft.Office.Interop.Outlook.MAPIFolder> object represents a folder that contains e-mail messages, contacts, tasks, and other items. Outlook provides 16 default <xref:Microsoft.Office.Interop.Outlook.MAPIFolder> objects.  
+### Folder object  
+ The <xref:Microsoft.Office.Interop.Outlook.Folder> object represents a folder that contains e-mail messages, contacts, tasks, and other items. Outlook provides 16 default <xref:Microsoft.Office.Interop.Outlook.Folder> objects.  
   
- The default <xref:Microsoft.Office.Interop.Outlook.MAPIFolder> objects are defined by the <xref:Microsoft.Office.Interop.Outlook.OlDefaultFolders> enumeration values. For example,  
+ The default <xref:Microsoft.Office.Interop.Outlook.Folder> objects are defined by the <xref:Microsoft.Office.Interop.Outlook.OlDefaultFolders> enumeration values. For example,  
   
  Microsoft.Office.Interop.Outlook.OlDefaultFolders.olFolderInbox corresponds to the **Inbox** folder in Outlook.  
   
- For an example that shows how to access a default <xref:Microsoft.Office.Interop.Outlook.MAPIFolder> and create a new <xref:Microsoft.Office.Interop.Outlook.MAPIFolder>, see [How to: Programmatically create custom folder items](../vsto/how-to-programmatically-create-custom-folder-items.md).  
+ For an example that shows how to access a default <xref:Microsoft.Office.Interop.Outlook.Folder> and create a new <xref:Microsoft.Office.Interop.Outlook.Folder>, see [How to: Programmatically create custom folder items](../vsto/how-to-programmatically-create-custom-folder-items.md).  
   
 ### MailItem object  
  The <xref:Microsoft.Office.Interop.Outlook.MailItem> object represents an e-mail message. <xref:Microsoft.Office.Interop.Outlook.MailItem> objects are usually in folders, such as **Inbox**, **Sent Items**, and **Outbox**. <xref:Microsoft.Office.Interop.Outlook.MailItem> exposes properties and methods that can be used to create and send e-mail messages.  
@@ -108,7 +108,7 @@ ms.workload:
 ### TaskItem object  
  The <xref:Microsoft.Office.Interop.Outlook.TaskItem> object represents a task to be performed within a specified time frame. <xref:Microsoft.Office.Interop.Outlook.TaskItem> objects are located in the **Tasks** folder.  
   
- To create a task, use the [CreateItem](http://msdn.microsoft.com/771707fb-5f34-473d-9fdf-09a6a7f55ece) method of the <xref:Microsoft.Office.Interop.Outlook.Application> object, and pass in the value <xref:Microsoft.Office.Interop.Outlook.OlItemType.olTaskItem> for the parameter.  
+ To create a task, use the [CreateItem](/previous-versions/office/developer/office-2003/aa220082(v=office.11)) method of the <xref:Microsoft.Office.Interop.Outlook.Application> object, and pass in the value <xref:Microsoft.Office.Interop.Outlook.OlItemType.olTaskItem> for the parameter.  
   
 ### ContactItem object  
  The <xref:Microsoft.Office.Interop.Outlook.ContactItem>object represents a contact in the **Contacts** folder. <xref:Microsoft.Office.Interop.Outlook.ContactItem> objects contain a variety of contact information for the people they represent, such as street addresses, e-mail addresses, and phone numbers.  

@@ -19,11 +19,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# FindInList Task
+# FindInList task
 In a specified list, finds an item that has the matching itemspec.  
   
 ## Parameters  
- The following table describes the parameters of the [FindInList Task](../msbuild/findinlist-task.md).  
+ The following table describes the parameters of the [FindInList task](../msbuild/findinlist-task.md).  
   
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -35,8 +35,8 @@ In a specified list, finds an item that has the matching itemspec.
 |`MatchFileNameOnly`|Optional `Boolean` parameter.<br /><br /> If `true`, match against just the file name part of the itemspec; otherwise, match against the whole itemspec. Default value is `true`.|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)

@@ -10,7 +10,7 @@ ms.workload:
   - "multiple"
 author: gewarren
 ---
-# Using HTML5 Controls in Coded UI Tests
+# Using HTML5 controls in coded UI tests
 
 Coded UI tests include support for some of the HTML5 controls that are included in Internet Explorer 9 and Internet Explorer 10.
 
@@ -80,7 +80,7 @@ See [HTMLVideoElement](https://developer.mozilla.org/docs/Web/HTML/Element/video
 
 ## See also
 
-- [HTML Elements](https://developer.mozilla.org/docs/Web/HTML/Element)
-- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
-- [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md)
-- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+- [HTML elements](https://developer.mozilla.org/docs/Web/HTML/Element)
+- [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)
+- [Create coded UI tests](../test/use-ui-automation-to-test-your-code.md)
+- [Supported configurations and platforms for coded UI tests and action recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
