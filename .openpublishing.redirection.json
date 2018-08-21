@@ -5886,7 +5886,11 @@
             "source_path": "docs/cross-platform/overview-of-visual-studio-tools-for-unity.md",
             "redirect_url": "/visualstudio/cross-platform/visual-studio-tools-for-unity",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/sharepoint/requirements-for-developing-sharepoint-solutions.md",
+            "redirect_url": "/visualstudio/sharepoint/getting-started-sharepoint-development-in-visual-studio",
+            "redirect_document_id": false
         }
-
     ]
 }
