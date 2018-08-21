@@ -342,7 +342,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="/azure/devops">
+                                <a href="/vsts">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

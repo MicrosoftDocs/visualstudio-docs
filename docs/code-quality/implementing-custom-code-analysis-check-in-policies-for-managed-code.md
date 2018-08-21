@@ -54,7 +54,7 @@ To create a custom rule set for a team project, you first create a special folde
 
 1. In **Source Control Explorer**, right-click the new folder, and then click **Add Items to Folder**.
 
-     For more information, see [Git and VSTS](/azure/devops/git/overview).
+     For more information, see [Git and VSTS](/vsts/git/overview).
 
 2. Click the rule set file that you created, and then click **Finish**.
 

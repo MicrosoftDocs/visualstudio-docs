@@ -41,5 +41,5 @@ See the [MSBuild](/visualstudio/msbuild/msbuild) content for more information on
 
 ## Building from Visual Studio Team Services
 
-* [Build your Xamarin App](/azure/devops/pipelines/apps/mobile/xamarin?view=vsts&tabs=vsts)
+* [Build your Xamarin App](/vsts/pipelines/apps/mobile/xamarin?view=vsts&tabs=vsts)
 * [Continuous Integration with Xamarin](https://developer.xamarin.com/guides/cross-platform/ci/)
