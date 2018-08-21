@@ -229,25 +229,6 @@ There are some important differences between coroutines and TAP / async-await:
 > [!NOTE]
 > As of Unity 2018.2, debugging async methods with break points isn't fully supported; however, [this functionality is expected in Unity 2018.3](https://twitter.com/jbevain/status/900043560665235456).
 
-### Dynamic binding
-
-In C#, type is normally checked at compile time. The `dynamic` keyword allows you to create constructs where type isn't resolved or checked until runtime. This feature allows functionality similar to dynamically typed languages such as JavaScript, but opens the door for errors. In practice, it's commonly used to access dynamic form data.
-
-```csharp
-    private void Start()
-    {
-        dynamic d = 100;
-        d += 6;
-        d += ", one hundred and six.";
-        Debug.Log($"Value of d is {d}");
-        // Output:
-        // Value of d is 106, one hundred and six.
-    }
-```
-
-> [!NOTE]
-> When using the .NET Standard 2.0 API compatibility level, the [Microsoft.CSharp package](https://www.nuget.org/packages/Microsoft.CSharp/) must be added from NuGet for this functionality. This isn't necessary when using the .NET 4.x API compatibility level.
-
 ### nameof operator
 
 The `nameof` operator gets the string name of a variable, type, or member. Some cases where `nameof` comes in handy are logging errors, and getting the string name of an enum:
