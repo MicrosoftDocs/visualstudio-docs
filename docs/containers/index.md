@@ -8,7 +8,7 @@ featureFlags:
 ---
 <div id="main" class="v2">
     <div class="container">
-        <ul id="get-started1" class="cardsL">
+        <ul id="get-started1" class="noBullet">
             <li>
                 <div class="container intro">
                     <h2 class="likeAnH1">Develop with containers in Visual Studio</h2>
