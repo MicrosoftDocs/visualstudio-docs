@@ -288,7 +288,7 @@ For more information, see the [Visual Studio and Xamarin](../cross-platform/visu
 
 #### Xamarin.Android Designer split-view editor
 
-Also **new in 15.**: We've made significant improvements to the designer experience for Xamarin.Android. A highlight is the new split-view editor that allows you to create, edit, and preview your layouts at the same time.
+Also **new in 15.8**: We've made significant improvements to the designer experience for Xamarin.Android. A highlight is the new split-view editor that allows you to create, edit, and preview your layouts at the same time.
 
 ![The Xamarin.Adroid Designer split-view editor](../ide/media/android-designer-split-view.png)
 
