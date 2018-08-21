@@ -1,6 +1,6 @@
 ---
 title: "TF Version Control"
-description: "Connecting to Team Foundation Server or Azure DevOps Services with Team Foundation version control."
+description: "Connecting to Team Foundation Server or Azure DevOps Services with Team Foundation Version Control (TFVC)."
 author: conceptdev
 ms.author: crdun
 ms.date: 05/03/2018
@@ -9,18 +9,18 @@ ms.technology: vs-ide-general
 ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
 ---
 
-# Connecting to Team Foundation version control 
+# Connecting to Team Foundation Version Control 
 
 > [!NOTE]
 > **Note**: Team Foundation Version Control support is currently in preview and some functionality is not yet fully working. We'd love feedback from you on any issues at [Developer Community](https://developercommunity.visualstudio.com/spaces/41/index.html). More changes are still to come!
 
-Azure DevOps provides two models of version control: Git, which is distributed version control, and Team Foundation Version Control (TFVC), which is centralized version control. This article provides an overview and a starting point for using Team Foundation Version Control with Visual Studio for Mac.
+Azure DevOps provides two models of version control: Git, which is distributed version control, and Team Foundation Version Control (TFVC), which is centralized version control. This article provides an overview and a starting point for using TFVC with Visual Studio for Mac.
 
 ## Requirements
 
 * Visual Studio Community, Professional, or Enterprise for Mac version 7.5 or later.
 * Azure DevOps Services, or Team Foundation Server 2013 and later.
-* A Project in Azure DevOps Services or Team Foundation Server, configured to use Team Foundation Version Control.
+* A project in Azure DevOps Services or Team Foundation Server, configured to use Team Foundation Version Control.
 
 ## Installation
 
@@ -42,7 +42,7 @@ For information on what's new in each release, see the [Release Notes](https://d
 
 ## Using the add-in
 
-Once the extension is installed, select the **Version Control > Azure DevOps > Open from Remote Repository** menu item. 
+Once the extension is installed, select the **Version Control > TFS/VSTS > Open from Remote Repository** menu item. 
 
 Choose either Azure DevOps Services or Team Foundation Server to get started and press **Continue**:
 
@@ -68,8 +68,8 @@ Once you've successfully authenticated, you can see a list of repositories that 
 
 This dialog is organized with the following nodes:
 
-- Azure DevOps organization or Collection – This displays all accounts connected to the Microsoft account that you logged in with
-- Team Projects – In each account or Collection, you can have a number of team projects. A team project is where source code, work items, and automated builds are hosted.
+- Azure DevOps organization or collection – This displays all organizations connected to the Microsoft account you logged in with.
+- Projects - In each organization or collection, you can have a number of projects. A project is where source code, work items, and automated builds are hosted.
 
 At this point, you can search and filter by the name of a project or account.
 
@@ -97,7 +97,7 @@ Set the name and local path for your new workspace and select **Create Workspace
 
 Once you've created a workspace and mapped your project, you can start working with the _Source Code Explorer_.
 
-To open the Source Code Explorer, select the **Version Control > Azure DevOps > Source Control Explorer**:
+To open the Source Code Explorer, select the **Version Control > TFS/VSTS > Source Control Explorer**:
 
 ![Menu item to open the source code explorer](media/tfvc-source-control-explorer.png)
 
@@ -154,7 +154,7 @@ The following options can be used to authenticate with a server:
 
 To use basic authentication it is necessary to enable **Alternative authentication credentials** in Azure DevOps Services, by following the steps below:
 
-1. Sign in as the account owner to your Visual Studio account (https://{youraccount}.visualstudio.com).
+1. Sign in to your Azure DevOps Services organization as the owner (https://dev.azure.com/{organization}/{project}).
 2. From your account toolbar, select the gear icon and select **Policy**:
     
     ![Policy settings option selected](media/tfvc-auth2.png) 
@@ -171,7 +171,7 @@ In Source Control Explorer, press the **Manage Workspaces** Button. Follow the s
 
 ### I do not see any / all of my projects
 
-After authenticating you should see the list of projects. By default, only TFS projects to  are shown. To see other types of projects, check the "See all projects" box.
+After authenticating you should see the list of projects. By default, only TFS projects are shown. To see other types of projects, check the "See all projects" box.
 
 Keep in mind that projects that are on the server will not appear if you don't have the correct privileges.
 
