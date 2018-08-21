@@ -19,7 +19,7 @@ featureFlags:
                 <table>
                     <tr>
                         <td width="33%">
-                            <ul id="dotnet" class="cardsL">
+                            <ul id="dotnet" class="noBullet">
                                 <li>
                                     <div class="cardSize">
                                         <div class="cardPadding" style="padding-bottom: 0;">
