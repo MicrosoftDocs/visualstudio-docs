@@ -159,35 +159,6 @@ You can also use expression-bodied members in read-only properties:
 public string PlayerHealthUiText => $"Player health: {Health}";
 ```
 
-### Null-conditional operator
-
-The [`?.` null-conditional operator](https://docs.microsoft.com/dotnet/csharp/language-reference/operators/null-conditional-operators) simplifies the syntax for checking for null values. With .NET 4.x, it takes less code to guard against null reference exceptions:
-
-```csharp
-// .NET 3.5
-    GameObject go = GameObject.Find("nope");
-    if (go != null)
-        go.SetActive(false);
-
-// .NET 4.x
-     GameObject go = GameObject.Find("nope");
-     go?.SetActive(false);
-```
-
-The null-conditional operator works well with the C# [events](https://docs.microsoft.com/dotnet/csharp/programming-guide/events/) feature:
-
-```csharp
-// .NET 3.5
-if (PlayerRespawned != null)
-    PlayerRespawned.Invoke();
-
-// .NET 4.x
-PlayerRespawned?.Invoke();
-```
-
-> [!NOTE]
-> Using the null-conditional operator on components or other fields of a MonoBehaviour may not always work as expected. For example, `GetComponent<AudioSource>()?.Play()` will give a missing component exception in the Unity editor if there is no AudioSource component attached to the game object. This is because null-conditional and null-coalescing operators check for null differently than the == operator in Unity, which you can read more about in this [blog post](https://blogs.unity3d.com/2014/05/16/custom-operator-should-we-keep-it/).
-
 ### Task-based Asynchronous Pattern (TAP)
 
 [Asynchronous programming](https://docs.microsoft.com/dotnet/csharp/async) allows time consuming operations to take place without causing your application to become unresponsive. This functionality also allows your code to wait for time consuming operations to finish before continuing with code that depends on the results of these operations. For example, you could wait for a file to load or a network operation to complete.
