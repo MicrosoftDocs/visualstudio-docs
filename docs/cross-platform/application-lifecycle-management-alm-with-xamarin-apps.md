@@ -18,7 +18,7 @@ Developing apps for modern platforms involves many more activities than just wri
 
 Visual Studio, together with Visual Studio Team Services and Team Foundation Server, provides a variety of DevOps capabilities. Many of these are wholly applicable to cross-platform projects. This is especially true with Xamarin apps, because they're built with C# and .NET, around which some DevOps tools are built. Other tools require tight integration with build and runtime environments. Because Xamarin apps run on non-Windows platforms and use the Mono implementation of .NET, Xamarin provides specialized tools for certain needs.
 
-The following tables identify which Visual Studio DevOps features you can expect to work well with a Xamarin project, and which ones have limitations. Refer to the linked documentation for details on the features themselves.
+The following tables identify which DevOps features in Visual Studio you can expect to work well with a Xamarin project, and which ones have limitations. Refer to the linked documentation for details on the features themselves.
 
 ## Agile tools
 

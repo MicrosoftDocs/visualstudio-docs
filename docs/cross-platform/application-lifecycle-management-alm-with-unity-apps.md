@@ -16,7 +16,7 @@ Developing apps for modern platforms involves many more activities than just wri
 
 Visual Studio, together with Visual Studio Team Services and Team Foundation Server, provides a variety of DevOps capabilities. Many of these are applicable to cross-platform projects, including games and immersive graphical apps created with Unity&mdash;especially when using C# as a scripting language. However, because Unity has its own development environment and runtime engine, a number of DevOps features don't apply as they would to other kinds of projects built in Visual Studio.
 
-The following tables identify how Visual Studio DevOps features apply or don't apply when working with Unity. Refer to the linked documentation for details on the features themselves.
+The following tables identify how DevOps features in Visual Studio apply or don't apply when working with Unity. Refer to the linked documentation for details on the features themselves.
 
 ## Agile tools
 
