@@ -132,7 +132,7 @@ And, for more information about what's new in the [Continuous delivery tools for
 
 #### Keep keybinding profiles consistent
 
-**New in 15.8**: Now, you can keep your keybindings consistent across tools with two new keyboard profiles: Visual Studio Code and ReSharper (Visual Studio). You can find these schemes under **Tools** > **Options** > **Genera**l > **Keyboard** and the top drop-down menu.
+**New in 15.8**: Now, you can keep your keybindings consistent across tools with two new keyboard profiles: Visual Studio Code and ReSharper (Visual Studio). You can find these schemes under **Tools** > **Options** > **General** > **Keyboard** and the top drop-down menu.
 
   ![New keybinding profiles for Visual Studio Code and ReSharper](../ide/media/vs-keyboard-mappings-code-resharper.png)
 
