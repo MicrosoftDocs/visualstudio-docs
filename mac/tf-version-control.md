@@ -24,7 +24,7 @@ Azure DevOps provides two models of version control: Git, which is distributed v
 
 ## Installation
 
-In Visual Studio for Mac, choose **Visual Studio > Extensions...** from the menu. In the **Gallery** tab, select **Version Control > Team Foundation Version Control for Azure DevOps** and click **Install…**:
+In Visual Studio for Mac, choose **Visual Studio > Extensions...** from the menu. In the **Gallery** tab, select **Version Control > Team Foundation Version Control for TFS and VSTS** and click **Install…**:
 
   ![Extension manager](media/tfvc-install.png) 
 
