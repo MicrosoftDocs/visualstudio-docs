@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2017"
 description: "Learn about the new features in Visual Studio 2017."
 ms.custom: ""
-ms.date: 05/09/2018
+ms.date: 08/20/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -21,7 +21,7 @@ ms.workload:
 ---
 # What&#39;s new in Visual Studio 2017
 
-**Updated for the [15.7 release](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default)**
+**Updated for the [15.8 release](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default)**
 
 Looking to upgrade from a previous version of Visual Studio? Here's what Visual Studio 2017 can offer you: Unparalleled productivity for any dev, any app, and any platform. Use Visual Studio 2017 to develop apps for Android, iOS, Windows, Linux, web, and cloud. Code fast, debug and diagnose with ease, test often, and release with confidence. You can also extend and customize Visual Studio by building your own extensions. Use version control, be agile, and collaborate efficiently with this release!
 
@@ -31,7 +31,7 @@ Here's a high-level recap of the changes that were made since the previous versi
 * **[Performance and productivity](#performance-and-productivity)**. We have focused on new and modern mobile, cloud, and desktop development capabilities. And, we've also improved the overall acquisition, performance, and general developer productivity experiences. Visual Studio starts faster, is more responsive, and uses less memory than before.
 * **[Cloud app development with Azure](#cloud-app-development-with-azure)**. A built-in suite of Azure tools enable you to easily create cloud-first apps powered by Microsoft Azure. Visual Studio makes it easy to configure, build, debug, package, and deploy apps and services on Azure.
 * **[Windows app development](#windows-app-development)**. Use the UWP templates in Visual Studio 2017 to create a single project for all Windows 10 devices &ndash; PC, tablet, phone, Xbox, HoloLens, Surface Hub, and more. Then, produce an app package and submit it to Microsoft Store from within Visual Studio to get your app out to customers.
-* **[Mobile app development](#mobile-app-development)**. In Visual Studio 2017, you can innovate and get results fast with Xamarin, which unifies your multi-platform mobile requirements by using one core codebase and set of skills. Go mobile with your existing teams, technology investments, and C# code to deliver consumer-grade experiences ahead of schedule and under budget. Accelerate every step of the mobile lifecycle to deliver world-class consumer experiences or a portfolio of productivity apps to empower your workforce.
+* **[Mobile app development](#mobile-app-development)**. In Visual Studio 2017, you can innovate and get results fast with Xamarin, which unifies your multi-platform mobile requirements by using one core codebase and set of skills. Go mobile with your existing teams, technology investments, and C# code to deliver consumer-grade experiences ahead of schedule and under budget. Accelerate every step of the mobile lifecycle to deliver world-class consumer experiences or a portfolio of productivity apps to empower your workforce. (And **new in 15.8**: Mobile app developers who use Hyper-V have access to a fast Android emulator that always supports the latest Android APIs, works with Google Play Services out of the box, and supports all features of the Android emulator, including camera, geolocation, and Quick Boot.)
 * **[Cross-platform development](#cross-platform-development)**. Seamlessly deliver software to any targeted platform. Extend DevOps processes to SQL Server through Redgate Data Tools and safely automate database deployments from Visual Studio. Or, use .NET Core to write apps and libraries that run unmodified across Windows, Linux, and macOS operating systems. (And **new in 15.3**: Get side-by-side support for .NET Core 2.0 SDKs.)
 * **[Games development](#games-development)**. With Visual Studio Tools for Unity (VSTU), you can use Visual Studio to write game and editor scripts in C# and then use its powerful debugger to find and fix errors. The latest release of VSTU includes syntax coloring for Unity's ShaderLab shader language, better debugger visualizations, and improved code generation for the MonoBehavior wizard. VSTU also brings your Unity project files, console messages, and the ability to start your game into Visual Studio so you can spend less time switching to and from the Unity Editor while writing code.
 * **[AI development](#ai-development)**. With Visual Studio Tools for AI (**new in 15.5**), you can use the productivity features of Visual Studio to accelerate AI innovation. Build, test, and deploy Deep Learning / AI solutions that seamlessly integrate with Azure Machine Learning for robust experimentation capabilities, such as submitting data preparation and model training jobs transparently to different compute targets. And, Visual Studio Tools for AI provides support for custom metrics and run history tracking, which enables data science reproducibility and auditing.
@@ -129,6 +129,12 @@ For more information about automated tests, see the [CI/CD pipeline for automate
 And, for more information about what's new in the [Continuous delivery tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) DevLabs extension, see the [Commit with confidence: Commit time code quality](https://blogs.msdn.microsoft.com/visualstudio/2017/08/21/committing-with-confidence-commit-time-code-quality-information-updated/) blog post.
 
 ### Visual Studio IDE enhancements
+
+#### Keep keybinding profiles consistent
+
+**New in 15.8**: Now, you can keep your keybindings consistent across tools with two new keyboard profiles: Visual Studio Code and ReSharper (Visual Studio). You can find these schemes under **Tools** > **Options** > **Genera**l > **Keyboard** and the top drop-down menu.
+
+  ![New keybinding profiles for Visual Studio Code and ReSharper](../ide/media/vs-keyboard-mappings-code-resharper.png)
 
 #### Use new refactorings
 
@@ -273,6 +279,20 @@ For more information, see the [Visual Studio and Xamarin](../cross-platform/visu
 **New in 15.4**: Xamarin Live enables developers to continuously deploy, test, and debug their apps, directly on iOS and Android devices. After you download the Xamarin Live Player&mdash;available in the App Store or on Google Play&mdash;you can pair your device with Visual Studio and revolutionize the way you build mobile apps. This functionality is now included in Visual Studio and can be enabled by going to **Tools** > **Options** > **Xamarin** > **Other** > **Enable Xamarin Live Player**.
 
 ![Animation of the Xamarin Live Player pair, deployment, and live edit modes](../ide/media/xamarinliveplayer.gif)
+
+### Support for Google Android Emulator
+
+**New in 15.8**: When you use Hyper-V, now you can use Google's Android Emulator side-by-side with other technologies that are based on Hyper-V, such as Hyper-V virtual machines, Docker tooling, the HoloLens emulator, and more. (This feature requires Windows 10 April 2018 Update or later.)
+
+![The Google Android emulator on Hyper-V technologies](../ide/media/xamarin-hyperv-android-emulator.png)
+
+#### Xamarin.Android Designer split-view editor
+
+Also **new in 15.**: We've made significant improvements to the designer experience for Xamarin.Android. A highlight is the new split-view editor that allows you to create, edit, and preview your layouts at the same time.
+
+![The Xamarin.Adroid Designer split-view editor](../ide/media/android-designer-split-view.png)
+
+For more information, see [Hardware acceleration for emulator performance](/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?tabs=vswin#hyper-v-overview)
 
 ### Visual Studio App Center
 
