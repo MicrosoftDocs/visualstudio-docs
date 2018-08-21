@@ -8,7 +8,7 @@
 ## [Cross-Platform Mobile Development](cross-platform/cross-platform-mobile-development-in-visual-studio.md)
 ## [Visual Basic](/dotnet/visual-basic)
 ## [Visual C#](/dotnet/csharp)
-## [Visual C++](/cpp/visual-cpp-in-visual-studio-2015)
+## [Visual C++](/cpp/visual-cpp-in-visual-studio)
 ## [JavaScript](javascript/javascript-in-visual-studio.md)
 ## [Python](python/getting-started-with-python.md)
 ## [Visual F#](/dotnet/fsharp/)
