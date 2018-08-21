@@ -97,7 +97,7 @@ Set the name and local path for your new workspace and select **Create Workspace
 
 Once you've created a workspace and mapped your project, you can start working with the _Source Code Explorer_.
 
-To open the Source Code Explorer, select the **Version Control > TFS/VSTS > Source Control Explorer**:
+To open the Source Code Explorer, select the **Version Control > TFS/VSTS > Source Control Explorer** menu item:
 
 ![Menu item to open the source code explorer](media/tfvc-source-control-explorer.png)
 
