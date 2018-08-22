@@ -12,7 +12,7 @@ searchscope: VS Subscription
 ---
 # Buy and manage Visual Studio cloud subscriptions for your customers
 
-Partners in the [Cloud Solution Provider (CSP)](https://partner.microsoft.com/en-US/cloud-solution-provider) program can purchase
+Partners in the [Cloud Solution Provider (CSP)](https://partner.microsoft.com/cloud-solution-provider) program can purchase
 Visual Studio Enterprise and Visual Studio Professional cloud subscriptions for their customers.
 
 [Compare cloud subscription options](https://visualstudio.microsoft.com/vs/pricing)
@@ -20,7 +20,7 @@ Visual Studio Enterprise and Visual Studio Professional cloud subscriptions for 
 ## Prerequisites
 
 You must first set up your customer tenant in the Partner Center and create an Azure subscription for this tenant.
-[Learn more](/azure/devops/billing/csp/set-up-csp-customer)
+[Learn more](/vsts/billing/csp/set-up-csp-customer)
 
 ## How to buy
 
@@ -87,9 +87,10 @@ We offer a 5% discount on the 6th unit you buy (for a given customer) each month
 subscription option. One row shows a "Minimum Value" of 0, which you should interpret as the base price for units 1 through 5. The other row shows a "Minimum Value" of 5,
 so this is the 5% discount price that applies to units 6 and above.
 
-
 ## Frequently asked questions
+
 ### Q: How are **monthly** cloud subscription charges processed?
+
 A: At the first purchase, we bill a prorated quantity to cover the remaining days in the current month. For instance, if a purchase of 10 Visual Studio Professional monthly
 cloud subscriptions was made on April 15, then we would charge 5 units because there are 15 days left in the 30-day month, or 50% and we prorate the units charged by 50%.
 On the first of May, and each month thereafter until you cancel, the full 10 units will be billed.
@@ -98,18 +99,20 @@ When you increase the paid quantity later, we also prorate the increased units t
 Professional monthly cloud subscription on May 10, we would bill roughly 0.677 units (21 days remaining in the 31-day month of May).
 
 ### Q: How are **annual** cloud subscription charges processed?
+
 A: At each purchase, we bill the full quantity purchased immediately. Charges are not spread over the year and there is no prorating. If you buy annual cloud subscriptions
 at different times in the year, you will have subscriptions renewing in different months. We do not make all of a customer's annual cloud subscriptions coterminous as is
 common with Microsoft volume licensing agreement purchasing.
 
-### Q: How do cancelations work?
+### Q: How do cancellations work?
+
 A: When you cancel a Visual Studio cloud subscription, you are canceling automatic renewal. The subscription continues until its normal renewal date and then simply expires.
 At expiration, the Visual Studio subscriber can no longer use Visual Studio or any other benefits from the subscription.
 
-With monthly cloud subscriptions, cancelations take effect the first day of the next month. If you only cancel some of your customer's monthly cloud subscriptions,
+With monthly cloud subscriptions, cancellations take effect the first day of the next month. If you only cancel some of your customer's monthly cloud subscriptions,
 be sure to remove users on the first of the next month to ensure that the correct people continue to have active subscriptions assigned.
 
-For annual cloud subscriptions, cancelations take effect the first day of the month following 12 months from the original purchase, or 12 months from the last annual
+For annual cloud subscriptions, cancellations take effect the first day of the month following 12 months from the original purchase, or 12 months from the last annual
 renewal charge. For instance, if you bought a Visual Studio Enterprise annual cloud subscription on January 3, 2018 then it remains active until February 1, 2019 when
 it automatically renews for another year. If you cancel at any time between then and February 1, 2020 then the subscription will expire on February 1, 2020. There is no
 rebate for canceling part way through the subscription year with annual cloud subscriptions.
