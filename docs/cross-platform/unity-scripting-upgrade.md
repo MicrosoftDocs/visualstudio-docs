@@ -311,6 +311,10 @@ public class UsingStaticExample: MonoBehaviour
 }
 ```
 
+## IL2CPP Considerations
+
+When exporting your game to platforms like iOS, Unity will use its IL2CPP engine to "transpile" IL to C++ code which is then compiled using the native compiler of the target platform. In this scenario, there are several .NET features which are not supported, such as parts of Reflection, and usage of the dynamic keyword. While you can control using these features in your own code, you may run into problems using 3rd party DLLs and SDKs which were not written with Unity and IL2CPP in mind. For more information on this topic, please see the [Scripting Restrictions](https://docs.unity3d.com/Manual/ScriptingRestrictions.html) docs on Unity's site.
+
 ## .NET 4.x Sample Unity Project
 
 The sample contains examples of several .NET 4.x features. You can download the project or view the source code on [GitHub](https://github.com/dantogno/unity-scripting-upgrade).
