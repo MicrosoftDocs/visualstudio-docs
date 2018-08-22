@@ -4,9 +4,9 @@ ms.custom: ""
 ms.date: "07/18/2017"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.historicaldebug.overview"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugger, recording execution history"
   - "debugging, recording execution history"
   - "IntelliTrace [Visual Studio ALM]"
@@ -20,7 +20,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # IntelliTrace
@@ -169,7 +169,7 @@ To control how much call information that IntelliTrace collects, specify only th
 
 By default, IntelliTrace collects data for selected IntelliTrace events only. This might or might not slow down your application, depending on the structure and organization of your code. For example, if IntelliTrace records an event often, this might slow down your application. It might also make you consider refactoring your application.
 
-Collecting call information might slow down your application significantly. It might also increase the size of any IntelliTrace log files (.iTrace files) that you're saving to disk. To minimize these effects, collect call information only for the modules you care about.  To change the maximum size of your .iTrace files, go to **Tools**, **Options**, **IntelliTrace**, **Advanced**. 
+Collecting call information might slow down your application significantly. It might also increase the size of any IntelliTrace log files (.iTrace files) that you're saving to disk. To minimize these effects, collect call information only for the modules you care about.  To change the maximum size of your .iTrace files, go to **Tools**, **Options**, **IntelliTrace**, **Advanced**.
 
 ## In this section
 
@@ -179,7 +179,7 @@ Collecting call information might slow down your application significantly. It m
 
 ### Blogs
 
-[Visual Studio ALM + Team Foundation Server](http://go.microsoft.com/fwlink/?LinkID=201340)
+[Microsoft DevOps](https://blogs.msdn.microsoft.com/devops/)
 
 ### Forums
 

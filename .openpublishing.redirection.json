@@ -5888,10 +5888,14 @@
             "redirect_document_id": false
         },
         {
+<<<<<<< HEAD
             "source_path": "subscriptions/vs-vsts.md",
             "redirect_url": "subscriptions/vs-azure-devops.md",
+=======
+            "source_path": "docs/sharepoint/requirements-for-developing-sharepoint-solutions.md",
+            "redirect_url": "/visualstudio/sharepoint/getting-started-sharepoint-development-in-visual-studio",
+>>>>>>> 4330e920c15f6c5870d3e472aa09d02c22c4aada
             "redirect_document_id": false
         }
-
     ]
 }

@@ -61,7 +61,9 @@ For most programming languages, Just My Code is enabled by default.
 ##  <a name="BKMK_C___Just_My_Code"></a> C++ Just My Code  
   
 ###  <a name="BKMK_CPP_User_and_non_user_code"></a> User and non-user code  
- C++ Just My Code is different than .NET Framework and JavaScript Just My Code because the stepping behavior is independent of the call stack behavior.  
+C++ Just My Code is different than .NET Framework and JavaScript Just My Code because the stepping behavior is independent of the call stack behavior.  
+
+Starting in Visual Studio 2017 15.8, you can specify whether to enable Just My Code for C++ using **Tools** > **Options** > **Debugging** > **General** > **Enable Just My Code** (it is enabled by default). This is equivalent to using the [/JMC (Just my code debugging)](/cpp/build/reference/jmc) compiler switch.
   
  **Call stacks**  
   
@@ -82,7 +84,7 @@ For most programming languages, Just My Code is enabled by default.
 ###  <a name="BKMK_CPP_Stepping_behavior"></a> Stepping behavior  
  When you **Step Into** (Keyboard shortcut: F11) non-user code from user code, the debugger steps over the code to the next line of user-code. When you **Step Out** (Keyboard: Shift + F11), the debugger runs to the next line of user code. If no user code is encountered, then execution continues until the app exits, a breakpoint is hit, or an exception occurs.  
   
- If the debugger breaks in non-user code (for example, if a Break All command stops in non-user code), stepping continues in the non-user code.  
+ If the debugger breaks in non-user code (for example, if a Break All command stops in non-user code), stepping continues in the non-user code.
   
 ###  <a name="BKMK_CPP_Exception_behavior"></a> Exception behavior  
  When the debugger hits an exception, it stops on the exception regardless of whether it is in user or non-user code. The **User-unhandled** options in the **Exceptions** dialog box are ignored.  
