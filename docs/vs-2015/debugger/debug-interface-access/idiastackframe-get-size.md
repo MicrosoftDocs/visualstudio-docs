@@ -1,0 +1,48 @@
+---
+title: "IDiaStackFrame::get_size | Microsoft Docs"
+ms.custom: ""
+ms.date: "2018-06-30"
+ms.prod: "visual-studio-dev14"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-debug"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+dev_langs: 
+  - "C++"
+helpviewer_keywords: 
+  - "IDiaStackFrame::get_size method"
+ms.assetid: 71e2f5ab-4aa8-4922-aa8a-b7db97ee143c
+caps.latest.revision: 11
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: "ghogen"
+---
+# IDiaStackFrame::get_size
+[!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
+
+The latest version of this topic can be found at [IDiaStackFrame::get_size](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiastackframe-get-size).  
+  
+Retrieves the size of the stack frame in bytes.  
+  
+## Syntax  
+  
+```cpp#  
+HRESULT get_size (   
+   DWORD* pRetVal  
+);  
+```  
+  
+#### Parameters  
+ `pRetVal`  
+ [out] Returns the size of the stack frame in bytes.  
+  
+## Return Value  
+ If successful, returns `S_OK`. Returns `S_FALSE` if the property is not supported. Otherwise, returns an error code.  
+  
+## See Also  
+ [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
+
+
+

@@ -43,7 +43,7 @@ This walkthrough illustrates the following tasks:
 
 ## Prerequisites
 
-- Supported editions of Microsoft Windows and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
+- Supported editions of Microsoft Windows and SharePoint.
 
 - Visual Studio 2017 or an edition of Visual Studio Application Lifecycle Management (ALM).
 

@@ -1,0 +1,53 @@
+---
+title: "IDiaSession::findInjectedSource | Microsoft Docs"
+ms.custom: ""
+ms.date: "2018-06-30"
+ms.prod: "visual-studio-dev14"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-debug"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+dev_langs: 
+  - "C++"
+helpviewer_keywords: 
+  - "IDiaSession::findInjectedSource method"
+ms.assetid: 907531b6-1ef8-4153-986d-b72611a1632d
+caps.latest.revision: 13
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: "ghogen"
+---
+# IDiaSession::findInjectedSource
+[!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
+
+The latest version of this topic can be found at [IDiaSession::findInjectedSource](https://docs.microsoft.com/visualstudio/debugger/debug-interface-access/idiasession-findinjectedsource).  
+  
+Retrieves a list of sources that has been placed into the symbol store by attribute providers or other components of the compilation process.  
+  
+## Syntax  
+  
+```cpp#  
+HRESULT findInjectedSource (   
+   LPCOLESTR                 srcFile,  
+   IDiaEnumInjectedSources** ppResult  
+);  
+```  
+  
+#### Parameters  
+ srcFile  
+ [in] Name of the source file for which to search.  
+  
+ ppResult  
+ [out] Returns an [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md) object that contains a list of all of the injected sources.  
+  
+## Return Value  
+ If successful, returns `S_OK`; otherwise, returns an error code.  
+  
+## See Also  
+ [IDiaEnumInjectedSources](../../debugger/debug-interface-access/idiaenuminjectedsources.md)   
+ [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
+
+
+
