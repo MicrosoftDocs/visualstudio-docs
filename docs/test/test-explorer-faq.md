@@ -71,6 +71,14 @@ manager: douge
 
 The file path filter in the **Test Explorer** search box was removed in Visual Studio 2017 version 15.7 preview 3. This feature had low usage, and the Test Explorer can retrieve test methods faster by excluding this feature. If this change interrupts your development flow, please let us know by submitting feedback on [Developer Community](https://developercommunity.visualstudio.com/).
 
+### 11. In Visual Studio 2017 version 15.8 my tests are discovered, but don't execute.
+
+All test projects must include their .NET test adapter NuGet reference in their .csproj file. If they don't, the following test output appears on the project if discovery by a test adapter extension is kicked off after a build, or if the user tries to run the selected tests: 
+
+**Test project {} does not reference any .NET NuGet adapter. Test discovery or execution might not work for this project. It is recommended to reference NuGet test adapters in each .NET test project in the solution.**
+
+Instead of using test adapter extensions, projects are required to use test adapter NuGet packages. This greatly improves performance and causes fewer issues with continuous integration. Read more about .NET Test Adapter Extension deprecation in the [release notes](/visualstudio/releasenotes/vs2017-preview-relnotes#testadapterextension).
+
 ## Features
 
 ### How can I turn on feature flags to try out new testing features?
