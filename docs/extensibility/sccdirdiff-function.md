@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# SccDirDiff Function
+# SccDirDiff function
 This function displays the differences between the current local directory on the client disk and the corresponding project under source control.  
   
 ## Syntax  
@@ -31,7 +31,7 @@ SCCRTN SccDirDiff(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  pContext  
  [in] The source control plug-in context structure.  
   
@@ -47,7 +47,7 @@ SCCRTN SccDirDiff(
  pvOptions  
  [in] Source control plug-in-specific options.  
   
-## Return Value  
+## Return value  
  The source control plug-in implementation of this function is expected to return one of the following values:  
   
 |Value|Description|  
@@ -77,5 +77,5 @@ SCCRTN SccDirDiff(
 > [!NOTE]
 >  This function uses the same command flags as the [SccDiff](../extensibility/sccdiff-function.md). However, a source control plug-in may choose to not support the "quick-diff" operation for directories.  
   
-## See Also  
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
+## See also  
+ [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)

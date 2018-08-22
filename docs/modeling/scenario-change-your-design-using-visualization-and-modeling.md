@@ -212,7 +212,7 @@ See:
 
 - [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)
 
-- [Charts, dashboards, and reports for Visual Studio ALM](http://msdn.microsoft.com/Library/1f28ba6c-c5e5-46d3-9209-ede24ae78e48)
+- [Charts, dashboards, and widgets (VSTS)](/vsts/report/dashboards/overview?view=vsts)
 
 - [Create your backlog and tasks using Project](http://msdn.microsoft.com/Library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)
 

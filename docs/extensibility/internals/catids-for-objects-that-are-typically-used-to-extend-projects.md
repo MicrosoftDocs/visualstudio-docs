@@ -16,8 +16,8 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# CATIDs for Objects That Are Typically Used to Extend Projects
-The following table lists CATIDs that are used to extend `Project` and `ProjectItem` automation objects for [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)], [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)], and [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] projects. These CATIDs are defined in VSLangProj.olb.  
+# CATIDs for objects that are typically used to extend projects
+The following table lists CATIDs that are used to extend `Project` and `ProjectItem` automation objects for [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)], [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)], and [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] projects. These CATIDs are defined in *VSLangProj.olb*.  
   
 ## Listing of CATIDs  
   
@@ -27,7 +27,7 @@ The following table lists CATIDs that are used to extend `Project` and `ProjectI
 |<xref:VSLangProj.PrjCATID.prjCATIDProjectItem>|{610D4615-D0D5-11D2-8599-006097C68E81}|  
   
 ## Visual Basic CATIDs  
- The following table lists CATIDs that are used to extend [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] browse objects. They are all defined in VSLangProj.olb.  
+ The following table lists CATIDs that are used to extend [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] browse objects. They are all defined in *VSLangProj.olb*.  
   
 |Name|GUID|  
 |----------|----------|  
@@ -38,7 +38,7 @@ The following table lists CATIDs that are used to extend `Project` and `ProjectI
 |<xref:VSLangProj.PrjBrowseObjectCATID.prjCATIDVBReferenceBrowseObject>|{2289B812-8191-4e81-B7B3-174045AB0CB5}|  
   
 ## Visual C# CATIDs  
- The following CATIDs can be used to extend [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] browse objects. They are all defined in VSLangProj.olb.  
+ The following CATIDs can be used to extend [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] browse objects. They are all defined in *VSLangProj.olb*.  
   
 |Name|GUID|  
 |----------|----------|  
@@ -69,7 +69,7 @@ const LPOLESTR CVCFileNode::s_wszCATID = L"{EE8299C9-19B6-4f20-ABEA-E1FD9A33B683
   
 |Name|GUID|  
 |----------|----------|  
-|`CVCAssemblyReferenceNode` **:**|{FE8299C9-19B6-4f20-ABEA-E1FD9A33B683}|  
+|`CVCAssemblyReferenceNode`|{FE8299C9-19B6-4f20-ABEA-E1FD9A33B683}|  
 |`CVCProjectReferenceNode`|{593DCFCE-20A7-48e4-ACA1-49ADE9049887}|  
 |`CVCActiveXReferenceNode`|{9E8182D3-C60A-44f4-A74B-14C90EF9CACE}|  
 |`CVCReferences`|{FE8299CA-19B6-4f20-ABEA-E1FD9A33B683}|  
@@ -90,6 +90,6 @@ const LPOLESTR CVCReferences::s_wszCATID = L"{FE8299CA-19B6-4f20-ABEA-E1FD9A33B6
 |[!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)]|{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}|  
 |[!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]|{F184B08F-C81C-45F6-A57F-5ABD9991F28F}|  
   
-## See Also  
- [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)   
- [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md)
+## See also  
+ [Add project and project item templates](../../extensibility/internals/adding-project-and-project-item-templates.md)   
+ [Register project and item templates](../../extensibility/internals/registering-project-and-item-templates.md)

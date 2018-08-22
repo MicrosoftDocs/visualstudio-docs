@@ -23,9 +23,9 @@ The concurrency method of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.m
 |Task|Related content|  
 |----------|---------------------|  
 |**Start a .NET Framework application and profile concurrency data**|-   [How to: Launch a .NET Framework application to collect concurrency data](../profiling/how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-concurrency-data.md)|  
-|**Start a C/C++ application and profile concurrency data**|-   [How to: Launch a native application to collect concurrency data](../profiling/how-to-launch-a-stand-alone-native-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md)|  
+|**Start a C/C++ application and profile concurrency data**|-   [How to: Launch a native application to collect concurrency data](../profiling/how-to-launch-a-stand-alone-native-application-to-collect-concurrency-data.md)|  
 |**Attach the profiler to a running .NET Framework application**|-   [How to: Attach the profiler to a .NET Framework application to collect concurrency data](../profiling/how-to-attach-the-profiler-to-a-dotnet-app-and-collect-concurrency-data.md)|  
-|**Attach the profiler to a running C/C++ application**|-   [How to: Attach the profiler to a native application and collect concurrency data](../profiling/how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-concurrency-data-by-using-the-command-line.md)|  
+|**Attach the profiler to a running C/C++ application**|-   [How to: Attach the profiler to a native application and collect concurrency data](../profiling/how-to-attach-the-profiler-to-a-native-app-and-collect-concurrency-data.md)|  
   
 ## Related tasks
   

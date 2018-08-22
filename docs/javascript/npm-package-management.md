@@ -20,7 +20,7 @@ ms.workload:
 npm allows you to install and manage packages for use in your Node.js applications. If you're unfamiliar with
 npm and want to learn more, go to the [npm documentation](https://docs.npmjs.com/).
 
-Visual Studio makes it easy to interact with npm and issue npm commands through the UI or using or directly. You can use the following methods:
+Visual Studio makes it easy to interact with npm and issue npm commands through the UI or directly. You can use the following methods:
 * [Install packages from Solution Explorer](#npmInstallWindow)
 * [Manage installed packages from Solution Explorer](#solutionExplorer)
 * [Use the `.npm` command in the Node.js Interactive Window](#interactive)

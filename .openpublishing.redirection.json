@@ -1,6 +1,11 @@
 {
     "redirections": [
         {
+            "source_path": "docs/debugger/debug-interface-access/dia2dump-cpp-source-file.md",
+            "redirect_url": "/visualstudio/debugger/debug-interface-access/dia2dump-sample",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/extensibility/shell/shell-isolated-or-integrated.md",
             "redirect_url": "https://vspartner.com/pages/vsshells",
             "redirect_document_id": false
@@ -1666,6 +1671,51 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/profiling/how-to-launch-a-stand-alone-native-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-native-application-to-collect-concurrency-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-native-app-and-collect-concurrency-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-memory-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-app-to-collect-memory-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-memory-data-by-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-statically-compiled-aspnet-app-and-collect-memory-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-memory-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-memory-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-launch-a-stand-alone-application-with-the-profiler-and-collect-application-statistics-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-app-and-collect-application-statistics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-application-statistics-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-native-app-and-collect-application-statistics",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-dotnet-framework-component-and-collect-timing-data",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/profiling/how-to-instrument-a-native-stand-alone-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-native-component-and-collect-timing-data",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/profiling/how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md",
             "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-concurrency-data",
             "redirect_document_id": false
@@ -2291,6 +2341,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/vsto/updating-ribbon-customizations-in-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md",
+            "redirect_url": "/visualstudio/vsto/update-ribbon-customizations-in-office-projects-to-migrate-to-dotnet-framework-4-or-4-5",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/vsto/you-must-explicitly-enable-access-to-the-microsoft-office-visual-basic-for-applications-project-system-before-you-can-create-or-open-a-----for-the-microsoft-office-system-project.md",
             "redirect_url": "/visualstudio/vsto/enable-access-to-vba-to-create-or-open-a-visual-studio-tools-for-office-system-project",
             "redirect_document_id": false
@@ -2572,8 +2627,98 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "scripting-docs/javascript/javascript-language-reference.md",
+            "redirect_url": "/microsoft-edge/dev-guide/whats-new/javascript-version-information",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/what-s-new-in-javascript.md",
+            "redirect_url": "/microsoft-edge/dev-guide#javascript",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/advanced/conditional-compilation-javascript.md",
+            "redirect_url": "/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/121hztk3(v%3dvs.84)",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/advanced/conditional-compilation-variables-javascript.md",
+            "redirect_url": "/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/s59bkzce(v%3dvs.84)",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/reference/javascript-errors.md",
+            "redirect_url": "/microsoft-edge/devtools-guide/console/error-and-status-codes",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/reference/javascript-run-time-errors.md",
+            "redirect_url": "/microsoft-edge/devtools-guide/console/error-and-status-codes#javascript-run-time-errors",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/reference/javascript-syntax-errors.md",
+            "redirect_url": "/microsoft-edge/devtools-guide/console/error-and-status-codes#javascript-syntax-errors",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/reference/javascript-reference.md",
+            "redirect_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/javascript/reference/javascript-version-information.md",
+            "redirect_url": "/microsoft-edge/dev-guide/whats-new/javascript-version-information",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/jswinrt/using-the-windows-runtime-in-javascript.md",
+            "redirect_url": "/microsoft-edge/windows-runtime/using-the-windows-runtime-in-javascript",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/jswinrt/considerations-when-using-the-windows-runtime-api.md",
+            "redirect_url": "/microsoft-edge/windows-runtime/considerations-when-using-the-windows-runtime-api",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/jswinrt/using-windows-runtime-asynchronous-methods.md",
+            "redirect_url": "/microsoft-edge/windows-runtime/using-windows-runtime-asynchronous-methods",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/jswinrt/special-error-properties-from-asynchronous-windows-runtime-methods.md",
+            "redirect_url": "/microsoft-edge/windows-runtime/special-error-properties-from-asynchronous-windows-runtime-methods",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/jswinrt/handling-windows-runtime-events-in-javascript.md",
+            "redirect_url": "/microsoft-edge/windows-runtime/handling-windows-runtime-events-in-javascript",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/jswinrt/javascript-representation-of-windows-runtime-types.md",
+            "redirect_url": "/microsoft-edge/windows-runtime/javascript-representation-of-windows-runtime-types",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/jswinrt/windows-runtime-datetime-and-timespan-representations.md",
+            "redirect_url": "/microsoft-edge/windows-runtime/windows-runtime-datetime-and-timespan-representations",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/jswinrt/error-codes-for-windows-runtime-apps-using-javascript.md",
+            "redirect_url": "/microsoft-edge/windows-runtime/error-codes-for-windows-runtime-apps-using-javascript",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "scripting-docs/chakra-hosting/index.md",
             "redirect_url": "/script/chakra-hosting/javascript-runtime-hosting",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "scripting-docs/chakra-hosting/javascript-runtime-hosting.md",
+            "redirect_url": "/microsoft-edge/hosting/javascript-runtime-hosting",
             "redirect_document_id": false
         },
         {
@@ -5741,7 +5886,11 @@
             "source_path": "docs/cross-platform/overview-of-visual-studio-tools-for-unity.md",
             "redirect_url": "/visualstudio/cross-platform/visual-studio-tools-for-unity",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/sharepoint/requirements-for-developing-sharepoint-solutions.md",
+            "redirect_url": "/visualstudio/sharepoint/getting-started-sharepoint-development-in-visual-studio",
+            "redirect_document_id": false
         }
-
     ]
 }

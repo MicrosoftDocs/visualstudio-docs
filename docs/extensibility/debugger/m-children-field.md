@@ -14,25 +14,25 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# m_children Field
+# m_children field
 The list of child tasks that are registered with this task.  
   
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
   
- **Assembly:** mscorlib (in mscorlib.dll)  
+ **Assembly:** mscorlib (in *mscorlib.dll*)  
   
- Because you cannot access this internal member from the .NET Framework, the following syntax is provided in Common Intermediate Language (CIL).  
+ Because you can't access this internal member from the .NET Framework, the following syntax is provided in Common Intermediate Language (CIL).  
   
 ## Syntax  
   
-```  
+```csharp 
 .field public class System.Collections.Generic.List`1<class System.Threading.Tasks.Task> m_children  
 ```  
   
 ## Remarks  
  While the task is running, only the thread that executes the task should access this array.  
   
- If the task is completed, other threads can access this field as long as they do not add anything to it or remove anything from it.  
+ If the task is completed, other threads can access this field as long as they don't add anything to it or remove anything from it.  
   
-## See Also  
- [ContingentProperties Class](../../extensibility/debugger/contingentproperties-class-internal-members.md)
+## See also  
+ [ContingentProperties class](../../extensibility/debugger/contingentproperties-class-internal-members.md)

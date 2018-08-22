@@ -17,8 +17,8 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Extern Element
-The Extern element references any external header (.h) files to merge with the .vsct file at compile time. The files to be merged must be on the Include path given to the VSCT compiler or referenced by an [Include Element](../extensibility/include-element.md). The files may be other .vsct files or C++ header files.  
+# Extern element
+The Extern element references any external header (*.h*) files to merge with the *.vsct* file at compile time. The files to be merged must be on the Include path given to the VSCT compiler or referenced by an [Include element](../extensibility/include-element.md). The files may be other *.vsct* files or C++ header files.  
   
  Definitions in header files must be of the form "#define [Symbol] [Value]"  The value may be another symbol if it is previously defined. Definitions may be used in conditional statements of command items. Any symbol not actually used will be discarded.  
   
@@ -27,11 +27,11 @@ Extern Element
   
 ## Syntax  
   
-```  
+```xml  
 <Extern href="stdidcmd.h" />  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -39,24 +39,24 @@ Extern Element
 |Attribute|Description|  
 |---------------|-----------------|  
 |href|Required. The path to the header file:<br /><br /> href="stdidcmd.h"|  
-|Condition|Optional. See [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
+|Condition|Optional. See [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
 |language|Optional. The default language of all [\<Strings>](../extensibility/strings-element.md) elements in the command table:<br /><br /> language="en-us"|  
   
-### Child Elements  
+### Child elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |None.|None.|  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
-|[CommandTable Element](../extensibility/commandtable-element.md)|Defines all of the elements that represent commands — that is, menu items, menus, toolbars, and combo boxes — that a VSPackage provides to the IDE.|  
+|[CommandTable element](../extensibility/commandtable-element.md)|Defines all of the elements that represent commands — that is, menu items, menus, toolbars, and combo boxes — that a VSPackage provides to the IDE.|  
   
 ## Example  
   
-```  
+```xml  
 <?xml version="1.0" encoding="utf-8"?>  
 <CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-  
   18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">  
@@ -66,7 +66,7 @@ Extern Element
 </CommandTable>  
 ```  
   
-## See Also  
- [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)   
- [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
- [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
+## See also  
+ [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)   
+ [How VSPackages add user interface elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
+ [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

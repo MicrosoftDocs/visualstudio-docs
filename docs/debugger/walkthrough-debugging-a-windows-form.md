@@ -45,27 +45,25 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
   
 2.  In the Project Types pane, open the **Visual Basic**, **Visual C#**, or **Visual C++** node, then  
   
-    1.  For Visual Basic or Visual C#, select the **Windows** node, then select **Windows Form Application** in the **Templates** pane.  
+    1.  For Visual Basic or Visual C#, select **Windows Desktop** > **Windows Form App**.  
   
-    2.  For Visual C++, select the **CLR** node, then select **Windows Form Application** in the **Templates** pane..  
+    2.  For Visual C++, select **Windows Desktop Application**.  
   
-3.  In the **Templates** pane, select **Windows Application**.  
+3.  In the **Name** box, give the project a unique name (for example, Walkthrough_SimpleDebug).  
   
-4.  In the **Name** box, give the project a unique name (for example, Walkthrough_SimpleDebug).  
-  
-5.  Click **OK**.  
+4.  Click **OK**.  
   
      Visual Studio creates a new project and displays a new form in the Windows Forms designer. For more information, see [Windows Forms Designer](http://msdn.microsoft.com/en-us/3c3d61f8-f36c-4d41-b9c3-398376fabb15).  
   
-6.  On the **View** menu, select **Toolbox**.  
+5.  On the **View** menu, select **Toolbox**.  
   
      The Toolbox opens. For more information, see [Toolbox](../ide/reference/toolbox.md).  
   
-7.  In the Toolbox, click on the **Button** control and drag the control to the Form design surface. Drop the button on the form.  
+6.  In the Toolbox, click on the **Button** control and drag the control to the Form design surface. Drop the button on the form.  
   
-8.  In the Toolbox, click on the **TextBox** control and drag the control to the Form design surface. Drop the **TextBox** on the form.  
+7.  In the Toolbox, click on the **TextBox** control and drag the control to the Form design surface. Drop the **TextBox** on the form.  
   
-9. On the form design surface, double-click the button.  
+8. On the form design surface, double-click the button.  
   
      This takes you to the code page. The cursor should be in `button1_Click`.  
   

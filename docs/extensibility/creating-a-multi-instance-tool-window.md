@@ -15,21 +15,21 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Creating a Multi-Instance Tool Window
+# Create a multi-instance tool window
 You can program a tool window so that multiple instances of it can be open simultaneously. By default, tool windows can have only one instance open.  
   
  When you use a multi-instance tool window, you can show several related sources of information at the same time. For example, you could put a multi-line <xref:System.Windows.Forms.TextBox> control in a multi-instance tool window so that several code snippets are simultaneously available during a programming session. Also, for example, you could put a <xref:System.Windows.Forms.DataGrid> control and a drop-down list box in a multi-instance tool window so that several real-time data sources can be tracked simultaneously.  
   
-## Creating a Basic (Single-Instance) Tool Window  
+## Create a basic (single-instance) tool window  
   
 1.  Create a project named **MultiInstanceToolWindow** using the VSIX template, and add a custom tool window item template named **MIToolWindow**.  
   
     > [!NOTE]
-    >  For more information about creating an extension with a tool window, see [Creating an Extension with a Tool Window](../extensibility/creating-an-extension-with-a-tool-window.md).  
+    >  For more information about creating an extension with a tool window, see [Create an extension with a tool window](../extensibility/creating-an-extension-with-a-tool-window.md).  
   
-## Making a tool window multi-instance  
+## Make a tool window multi-instance  
   
-1.  Open the **MIToolWindowPackage.cs** file and find the `ProvideToolWindow` attribute. and the `MultiInstances=true` parameter, as shown in the following example:  
+1.  Open the *MIToolWindowPackage.cs* file and find the `ProvideToolWindow` attribute. and the `MultiInstances=true` parameter, as shown in the following example:  
   
     ```csharp  
     [PackageRegistration(UseManagedResourcesOnly = true)]  
@@ -41,7 +41,7 @@ You can program a tool window so that multiple instances of it can be open simul
     {. . .}  
     ```  
   
-2.  In the MIToolWindowCommand.cs file, find the ShowToolWindos() method. In this method, call the <xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow%2A> method and set its `create` flag to `false` so that it will iterate through existing tool window instances until an available `id` is found.  
+2.  In the *MIToolWindowCommand.cs* file, find the `ShowToolWindos()` method. In this method, call the <xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow%2A> method and set its `create` flag to `false` so that it will iterate through existing tool window instances until an available `id` is found.  
   
 3.  To create a tool window instance, call the <xref:Microsoft.VisualStudio.Shell.Package.FindToolWindow%2A> method and set its `id` to an available value and its `create` flag to `true`.  
   

@@ -46,7 +46,7 @@ To differentiate between violations from Roslyn analyzers and static code analys
 
 ![Tool column in Error List](media/code-analysis-tool-in-error-list.png)
 
-## NuGet package vs. extension
+## NuGet package versus VSIX extension
 
 .NET Compiler Platform analyzers can be installed per-project via a NuGet package, or Visual Studio-wide as a Visual Studio extension. There are some key behavior differences between these two methods of [installing analyzers](../code-quality/install-roslyn-analyzers.md).
 
@@ -68,8 +68,11 @@ You cannot set the severity of rules from analyzers that were installed as a Vis
 
 ## Next steps
 
-- [Install Roslyn analyzers in Visual Studio](../code-quality/install-roslyn-analyzers.md)
-- [Use Roslyn analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
+> [!div class="nextstepaction"]
+> [Install Roslyn analyzers in Visual Studio](../code-quality/install-roslyn-analyzers.md)
+
+> [!div class="nextstepaction"]
+> [Use Roslyn analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
 
 ## See also
 

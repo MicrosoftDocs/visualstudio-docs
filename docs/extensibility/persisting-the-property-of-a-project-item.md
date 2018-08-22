@@ -14,14 +14,14 @@ manager: douge
 ms.workload:
   - "vssdk"
 ---
-# Persisting the Property of a Project Item
+# Persist the property of a project item
 You may want to persist a property you add to a project item, such as the author of a source file. You can do this by storing the property in the project file.
 
  The first step to persist a property in a project file is to obtain the hierarchy of the project as an <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy> interface. You can obtain this interface either by using Automation or by using <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection>. Once you obtain the interface, you can use it to determine which project item is currently selected. Once you have the project item ID, you can use <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildPropertyStorage.SetItemAttribute%2A> to add the property.
 
- In the following procedures, you persist the VsPkg.cs property `Author` with the value `Tom` in the project file.
+ In the following procedures, you persist the *VsPkg.cs* property `Author` with the value `Tom` in the project file.
 
-### To obtain the project hierarchy with the DTE object
+## To obtain the project hierarchy with the DTE object
 
 1.  Add the following code to your VSPackage:
 
@@ -35,7 +35,7 @@ You may want to persist a property you add to a project item, such as the author
     solution.GetProjectOfUniqueName(uniqueName, out hierarchy);
     ```
 
-### To persist the project item property with the DTE object
+## To persist the project item property with the DTE object
 
 1.  Add the following code to the code given in the method in the previous procedure:
 
@@ -52,7 +52,7 @@ You may want to persist a property you add to a project item, such as the author
     }
     ```
 
-### To obtain the project hierarchy using IVsMonitorSelection
+## To obtain the project hierarchy using IVsMonitorSelection
 
 1.  Add the following code to your VSPackage:
 
@@ -96,9 +96,7 @@ You may want to persist a property you add to a project item, such as the author
     }
     ```
 
-2.
-
-### To persist the selected project item property, given the project hierarchy
+## To persist the selected project item property, given the project hierarchy
 
 1.  Add the following code to the code given in the method in the previous procedure:
 
@@ -111,7 +109,7 @@ You may want to persist a property you add to a project item, such as the author
     }
     ```
 
-### To verify that the property is persisted
+## To verify that the property is persisted
 
 1.  Start [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and then open or create a solution.
 
@@ -120,7 +118,7 @@ You may want to persist a property you add to a project item, such as the author
 3.  Use a breakpoint or otherwise determine that your VSPackage is loaded and that SetItemAttribute runs.
 
     > [!NOTE]
-    > You can autoload a VSPackage in the UI context <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionExists_guid>. For more information, see [Loading VSPackages](../extensibility/loading-vspackages.md).
+    > You can autoload a VSPackage in the UI context <xref:Microsoft.VisualStudio.VSConstants.UICONTEXT.SolutionExists_guid>. For more information, see [Load VSPackages](../extensibility/loading-vspackages.md).
 
 4.  Close [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and then open the project file in Notepad. You should see the \<Author> tag with the value Tom, as follows:
 
@@ -132,4 +130,4 @@ You may want to persist a property you add to a project item, such as the author
 
 ## See also
 
-- [Custom Tools](../extensibility/internals/custom-tools.md)
+- [Custom tools](../extensibility/internals/custom-tools.md)

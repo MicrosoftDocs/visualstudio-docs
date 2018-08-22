@@ -23,7 +23,7 @@ There are three main ways to change the set of activities that are displayed in 
 
 ## Using breadcrumb navigation
 
-1.  Double-click an activity of Workflow Designer to change the root activity to the clicked activity. The clicked activity is then fully-expanded at the root and its ancestors are shown in the breadcrumb bar. This is sometimes called drilling in or out of an activity.
+1.  Double-click an activity of Workflow Designer to change the root activity to the clicked activity. The clicked activity is then fully expanded at the root and its ancestors are shown in the breadcrumb bar. This is sometimes called drilling in or out of an activity.
 
 2.  To navigate to an ancestor of the current root activity, click the activity in the breadcrumb bar.
 

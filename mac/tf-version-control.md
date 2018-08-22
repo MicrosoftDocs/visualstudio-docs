@@ -1,8 +1,8 @@
 ---
 title: "TF Version Control"
 description: "Connecting to Team Foundation Server or Visual Studio Team Services with Team Foundation version control."
-author: asb3993
-ms.author: amburns
+author: conceptdev
+ms.author: crdun
 ms.date: 05/03/2018
 ms.topic: article
 ms.technology: vs-ide-general

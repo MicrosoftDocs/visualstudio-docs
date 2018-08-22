@@ -27,7 +27,7 @@ When you create or update a tool window in your extension, you can add the same 
   
 -   The ability to filter searches by specific fields or aspects of the search targets.  
   
- By following this walkthrough, you'll learn how to perform the following tasks:  
+By following this walkthrough, you'll learn how to perform the following tasks:  
   
 1.  Create a VSPackage project.  
   

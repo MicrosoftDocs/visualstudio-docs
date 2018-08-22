@@ -83,7 +83,7 @@ Turns on automatic evaluation of properties and implicit function calls in varia
 Tells the Visual Studio debugger to get source files from source servers that implement the SrcSrv (`srcsrv.dll`) protocol. Team Foundation Server and the Debugging Tools for Windows are two source servers that implement the protocol. For more information about SrcSrv setup, see the [SrcSrv](https://msdn.microsoft.com/library/windows/hardware/ff558791(v=vs.85).aspx) documentation. In addition, see [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).  
   
 > [!IMPORTANT]
->  Because reading .pdb files can execute arbitrary code in the files, make sure that you trust the server.  
+> Because reading *.pdb* files can execute arbitrary code in the files, make sure that you trust the server.  
   
 - **Print source server diagnostic messages to the Output window**
     When source server support is enabled, this setting turns on diagnostic display.  

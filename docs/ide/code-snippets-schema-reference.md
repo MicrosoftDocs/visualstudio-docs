@@ -18,9 +18,9 @@ ms.workload:
 ---
 # Code snippets schema reference
 
-IntelliSense Code Snippets are pre-authored pieces of code that are ready to be inserted into your application with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can increase productivity by providing code snippets that reduce the amount of time spent typing repetitive code or searching for samples. You can use the IntelliSense Code Snippet XML schema to create your own code snippets and add them to the code snippets that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] already includes.
+IntelliSense Code Snippets are pre-authored pieces of code that are ready to be inserted into your application with Visual Studio. You can increase productivity by providing code snippets that reduce the amount of time spent typing repetitive code or searching for samples. You can use the IntelliSense Code Snippet XML schema to create your own code snippets and add them to the code snippets that Visual Studio already includes.
 
-##  <a name="assembly"></a> Assembly element
+## Assembly element
 
 Specifies the name of the assembly referenced by the code snippet.
 
@@ -34,11 +34,11 @@ The text value of the **Assembly** element is either the friendly text name of t
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Reference element](../ide/code-snippets-schema-reference.md#reference)|Contains information about assembly references required by the code snippet.|
+|[Reference element](../ide/code-snippets-schema-reference.md#reference-element)|Contains information about assembly references required by the code snippet.|
 
  A text value is required. This text specifies the assembly that the code snippet references.
 
-##  <a name="author"></a> Author element
+## Author element
 
 Specifies the name of the snippet author. The **Code Snippets Manager** displays the name stored in the `Author` element of the code snippet.
 
@@ -50,11 +50,11 @@ Specifies the name of the snippet author. The **Code Snippets Manager** displays
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Header element](../ide/code-snippets-schema-reference.md#header)|Contains general information about the code snippet.|
+|[Header element](../ide/code-snippets-schema-reference.md#header-element)|Contains general information about the code snippet.|
 
  A text value is required. This text specifies the author of the code snippet.
 
-## <a name="code" /> Code element
+## Code element
 
 Provides a container for short code blocks.
 
@@ -132,9 +132,9 @@ There are three attributes available for the Code element:
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Snippet element](../ide/code-snippets-schema-reference.md#snippet)|Contains the references, imports, declarations, and code for the code snippet.|
+|[Snippet element](../ide/code-snippets-schema-reference.md#snippet-element)|Contains the references, imports, declarations, and code for the code snippet.|
 
-##  <a name="codesnippet"></a> CodeSnippet element
+## CodeSnippet element
 
 Allows you to specify a heading and multiple IntelliSense Code Snippets, which you can insert into Visual Studio code files.
 
@@ -151,16 +151,16 @@ Allows you to specify a heading and multiple IntelliSense Code Snippets, which y
 
 |Child element|Description|
 |-------------------|-----------------|
-|[Header element](../ide/code-snippets-schema-reference.md#header)|Required element. Contains general information about the code snippet. There must be exactly one `Header` element in a code snippet.|
-|[Snippet element](../ide/code-snippets-schema-reference.md#snippet)|Required element. Contains the code that will be inserted by Visual Studio. There must be exactly one `Snippet` element in a code snippet.|
+|[Header element](../ide/code-snippets-schema-reference.md#header-element)|Required element. Contains general information about the code snippet. There must be exactly one `Header` element in a code snippet.|
+|[Snippet element](../ide/code-snippets-schema-reference.md#snippet-element)|Required element. Contains the code that will be inserted by Visual Studio. There must be exactly one `Snippet` element in a code snippet.|
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[CodeSnippets element](../ide/code-snippets-schema-reference.md#codesnippets)|Root element of the code snippet XML schema.|
+|[CodeSnippets element](../ide/code-snippets-schema-reference.md#codesnippets-element)|Root element of the code snippet XML schema.|
 
-##  <a name="codesnippets"></a> CodeSnippets element
+## CodeSnippets element
 
-Groups [CodeSnippet](../ide/code-snippets-schema-reference.md#codesnippet) elements. The `CodeSnippets` element is the root element of the code snippet XML schema.
+Groups [CodeSnippet](../ide/code-snippets-schema-reference.md#codesnippet-element) elements. The `CodeSnippets` element is the root element of the code snippet XML schema.
 
 ```xml
 <CodeSnippets>
@@ -172,7 +172,7 @@ Groups [CodeSnippet](../ide/code-snippets-schema-reference.md#codesnippet) eleme
 |-------------------|-----------------|
 |[CodeSnippet element](../ide/code-snippets-schema-reference.md#codesnippet)|Optional element. Parent element for all code snippet data. There may be zero or more `CodeSnippet` elements in a `CodeSnippets` element.|
 
-##  <a name="declarations"></a> Declarations element
+## Declarations element
 
 Specifies the literals and objects that make up the parts of a code snippet that you can edit.
 
@@ -185,14 +185,14 @@ Specifies the literals and objects that make up the parts of a code snippet that
 
 |Child element|Description|
 |-------------------|-----------------|
-|[Literal element](../ide/code-snippets-schema-reference.md#literal)|Optional element. Defines the literals of the code snippet that you can edit. There may be zero or more `Literal` elements in a `Declarations` element.|
-|[Object element](../ide/code-snippets-schema-reference.md#object)|Optional element. Defines the objects of the code snippet that you can edit. There may be zero or more `Object` elements in a `Declarations` element.|
+|[Literal element](../ide/code-snippets-schema-reference.md#literal-element)|Optional element. Defines the literals of the code snippet that you can edit. There may be zero or more `Literal` elements in a `Declarations` element.|
+|[Object element](../ide/code-snippets-schema-reference.md#object-element)|Optional element. Defines the objects of the code snippet that you can edit. There may be zero or more `Object` elements in a `Declarations` element.|
 
 |Parent element|Description|
 |--------------------|-----------------|
 |[Snippet element](../ide/code-snippets-schema-reference.md#snippet)|Contains the references, imports, declarations, and code for the code snippet.|
 
-##  <a name="default"></a> Default element
+## Default element
 
 Specifies the default value of the literal or object for an IntelliSense Code Snippet.
 
@@ -204,12 +204,12 @@ Specifies the default value of the literal or object for an IntelliSense Code Sn
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Literal element](../ide/code-snippets-schema-reference.md#literal)|Defines the literal fields of the code snippet that you can edit.|
-|[Object element](../ide/code-snippets-schema-reference.md#object)|Defines the object fields of the code snippet that you can edit.|
+|[Literal element](../ide/code-snippets-schema-reference.md#literal-element)|Defines the literal fields of the code snippet that you can edit.|
+|[Object element](../ide/code-snippets-schema-reference.md#object-element)|Defines the object fields of the code snippet that you can edit.|
 
  A text value is required. This text specifies the default value of the literal or object that fills the fields of the code snippet that you can edit.
 
-##  <a name="description"></a> Description element
+## Description element
 
 Specifies descriptive information about the contents of an IntelliSense Code Snippet.
 
@@ -221,11 +221,11 @@ Specifies descriptive information about the contents of an IntelliSense Code Sni
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Header element](../ide/code-snippets-schema-reference.md#header)|Contains general information about the code snippet.|
+|[Header element](../ide/code-snippets-schema-reference.md#header-element)|Contains general information about the code snippet.|
 
  A text value is required. This text describes the code snippet.
 
-##  <a name="function"></a> Function element
+## Function element
 
 Specifies a function to execute when the literal or object receives focus in Visual Studio.
 
@@ -240,12 +240,12 @@ Specifies a function to execute when the literal or object receives focus in Vis
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Literal element](../ide/code-snippets-schema-reference.md#literal)|Defines the literal fields of the code snippet that you can edit.|
-|[Object element](../ide/code-snippets-schema-reference.md#object)|Defines the object fields of the code snippet that you can edit.|
+|[Literal element](../ide/code-snippets-schema-reference.md#literal-element)|Defines the literal fields of the code snippet that you can edit.|
+|[Object element](../ide/code-snippets-schema-reference.md#object-element)|Defines the object fields of the code snippet that you can edit.|
 
  A text value is required. This text specifies a function to execute when the literal or object field receives focus in Visual Studio.
 
-##  <a name="header"></a> Header element
+## Header element
 
 Specifies general information about the IntelliSense Code Snippet.
 
@@ -263,19 +263,19 @@ Specifies general information about the IntelliSense Code Snippet.
 
 |Child element|Description|
 |-------------------|-----------------|
-|[Author element](../ide/code-snippets-schema-reference.md#author)|Optional element. The name of the person or company that authored the code snippet. There may be zero or one `Author` elements in a `Header` element.|
-|[Description element](../ide/code-snippets-schema-reference.md#description)|Optional element. A description of the code snippet. There may be zero or one `Description` elements in a `Header` element.|
-|[HelpUrl element](../ide/code-snippets-schema-reference.md#helpurl)|Optional element. A URL that contains more information about the code snippet. There may be zero or one `HelpURL` elements in a Header element. **Note:**  Visual Studio does not use the `HelpUrl` element. The element is part of the IntelliSense Code Snippet XML schema and any code snippet containing the element will validate, but the value of the element is never used.|
-|[Keywords element](../ide/code-snippets-schema-reference.md#keywords)|Optional element. Groups `Keyword` elements. There may be zero or one `Keywords` elements in a `Header` element.|
-|[Shortcut element](../ide/code-snippets-schema-reference.md#shortcut)|Optional element. Specifies the shortcut text that can be used to insert the snippet. There may be zero or one `Shortcut` elements in a `Header` element.|
-|[SnippetTypes element](../ide/code-snippets-schema-reference.md#snippettypes)|Optional element. Groups `SnippetType` elements. There may be zero or one `SnippetTypes` elements in a `Header` element. If there are no `SnippetTypes` elements, the code snippet is always valid.|
-|[Title element](../ide/code-snippets-schema-reference.md#title)|Required element. The friendly name of the code snippet. There must be exactly one `Title` element in a `Header` element.|
+|[Author element](../ide/code-snippets-schema-reference.md#author-element)|Optional element. The name of the person or company that authored the code snippet. There may be zero or one `Author` elements in a `Header` element.|
+|[Description element](../ide/code-snippets-schema-reference.md#description-element)|Optional element. A description of the code snippet. There may be zero or one `Description` elements in a `Header` element.|
+|[HelpUrl element](../ide/code-snippets-schema-reference.md#helpurl-element)|Optional element. A URL that contains more information about the code snippet. There may be zero or one `HelpURL` elements in a Header element. **Note:**  Visual Studio does not use the `HelpUrl` element. The element is part of the IntelliSense Code Snippet XML schema and any code snippet containing the element will validate, but the value of the element is never used.|
+|[Keywords element](../ide/code-snippets-schema-reference.md#keywords-element)|Optional element. Groups `Keyword` elements. There may be zero or one `Keywords` elements in a `Header` element.|
+|[Shortcut element](../ide/code-snippets-schema-reference.md#shortcut-element)|Optional element. Specifies the shortcut text that can be used to insert the snippet. There may be zero or one `Shortcut` elements in a `Header` element.|
+|[SnippetTypes element](../ide/code-snippets-schema-reference.md#snippettypes-element)|Optional element. Groups `SnippetType` elements. There may be zero or one `SnippetTypes` elements in a `Header` element. If there are no `SnippetTypes` elements, the code snippet is always valid.|
+|[Title element](../ide/code-snippets-schema-reference.md#title-element)|Required element. The friendly name of the code snippet. There must be exactly one `Title` element in a `Header` element.|
 
 |Parent element|Description|
 |--------------------|-----------------|
 |[CodeSnippet element](../ide/code-snippets-schema-reference.md#codesnippet)|Parent element for all code snippet data.|
 
-##  <a name="helpurl"></a> HelpUrl element
+## HelpUrl element
 
 Specifies a URL that provides more information about a code snippet.
 
@@ -290,11 +290,11 @@ Specifies a URL that provides more information about a code snippet.
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Header element](../ide/code-snippets-schema-reference.md#header)|Contains general information about the code snippet.|
+|[Header element](../ide/code-snippets-schema-reference.md#header-element)|Contains general information about the code snippet.|
 
 A text value is optional. This text specifies the URL to visit for more information about a code snippet.
 
-##  <a name="id"></a> ID element
+## ID element
 
 Specifies a unique identifier for a `Literal` or `Object` element. No two literals or objects in the same code snippet can have the same text value in their `ID` elements. Literals and objects cannot contain an `ID` element with a value of end. The value `$end$` is reserved, and is used to mark the location to place the cursor after the code snippet is inserted.
 
@@ -306,12 +306,12 @@ Specifies a unique identifier for a `Literal` or `Object` element. No two litera
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Literal element](../ide/code-snippets-schema-reference.md#literal)|Defines the literal fields of the code snippet that you can edit.|
-|[Object element](../ide/code-snippets-schema-reference.md#object)|Defines the object fields of the code snippet that you can edit.|
+|[Literal element](../ide/code-snippets-schema-reference.md#literal-element)|Defines the literal fields of the code snippet that you can edit.|
+|[Object element](../ide/code-snippets-schema-reference.md#object-element)|Defines the object fields of the code snippet that you can edit.|
 
 A text value is required. This text specifies the unique identifier for the object or literal.
 
-##  <a name="import"></a> Import element
+## Import element
 
 Specifies the imported namespaces used by an IntelliSense Code Snippet.
 
@@ -326,13 +326,13 @@ Specifies the imported namespaces used by an IntelliSense Code Snippet.
 
 |Child element|Description|
 |-------------------|-----------------|
-|[Namespace element](../ide/code-snippets-schema-reference.md#namespace)|Required element. Specifies the namespace used by the code snippet. There must be exactly one `Namespace` element in an `Import` element.|
+|[Namespace element](../ide/code-snippets-schema-reference.md#namespace-element)|Required element. Specifies the namespace used by the code snippet. There must be exactly one `Namespace` element in an `Import` element.|
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Imports element](../ide/code-snippets-schema-reference.md#imports)|Grouping element for **Import** elements.|
+|[Imports element](../ide/code-snippets-schema-reference.md#imports-element)|Grouping element for **Import** elements.|
 
-##  <a name="imports"></a> Imports element
+## Imports element
 
 Groups individual `Import` elements.
 
@@ -342,18 +342,18 @@ Groups individual `Import` elements.
 ```xml
 <Imports>
     <Import>... </Import>
-<Imports>
+</Imports>
 ```
 
 |Child element|Description|
 |-------------------|-----------------|
-|[Import element](../ide/code-snippets-schema-reference.md#import)|Optional element. Contains the imported namespaces for the code snippet. There may be zero or more **Import** elements in an `Imports` element.|
+|[Import element](../ide/code-snippets-schema-reference.md#import-element)|Optional element. Contains the imported namespaces for the code snippet. There may be zero or more **Import** elements in an `Imports` element.|
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Snippet element](../ide/code-snippets-schema-reference.md#snippet)|Contains the references, imports, declarations, and code for the code snippet.|
+|[Snippet element](../ide/code-snippets-schema-reference.md#snippet-element)|Contains the references, imports, declarations, and code for the code snippet.|
 
-##  <a name="keyword"></a> Keyword element
+## Keyword element
 
 Specifies a custom keyword for the code snippet. The code snippet keywords are used by Visual Studio and represent a standard way for online content providers to add custom keywords for searching or categorization.
 
@@ -365,11 +365,11 @@ Specifies a custom keyword for the code snippet. The code snippet keywords are u
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Keywords element](../ide/code-snippets-schema-reference.md#keywords)|Groups individual `Keyword` elements.|
+|[Keywords element](../ide/code-snippets-schema-reference.md#keywords-element)|Groups individual `Keyword` elements.|
 
 A text value is required. The keyword for the code snippet.
 
-##  <a name="keywords"></a> Keywords element
+## Keywords element
 
 Groups individual `Keyword` elements. The code snippet keywords are used by Visual Studio and represent a standard way for online content providers to add custom keywords for searching or categorization
 
@@ -377,18 +377,18 @@ Groups individual `Keyword` elements. The code snippet keywords are used by Visu
 <Keywords>
     <Keyword>... </Keyword>
     <Keyword>... </Keyword>
-<Keywords>
+</Keywords>
 ```
 
 |Child element|Description|
 |-------------------|-----------------|
-|[Keyword element](../ide/code-snippets-schema-reference.md#keyword)|Optional element. Contains individual keywords for the code snippet. There may be zero or more `Keyword` elements in a `Keywords` element.|
+|[Keyword element](../ide/code-snippets-schema-reference.md#keyword-element)|Optional element. Contains individual keywords for the code snippet. There may be zero or more `Keyword` elements in a `Keywords` element.|
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Header element](../ide/code-snippets-schema-reference.md#header)|Contains general information about the code snippet.|
+|[Header element](../ide/code-snippets-schema-reference.md#header-element)|Contains general information about the code snippet.|
 
-##  <a name="literal"></a> Literal element
+## Literal element
 
 Defines the literals of the code snippet that you can edit. The `Literal` element is used to identify a replacement for a piece of code that is entirely contained within the snippet, but will likely be customized after it is inserted into the code. For example, literal strings, numeric values, and some variable names should be declared as literals.
 
@@ -409,16 +409,16 @@ Literals and objects cannot contain an **ID** element with a value of selected o
 
 |Child element|Description|
 |-------------------|-----------------|
-|[Default element](../ide/code-snippets-schema-reference.md#default)|Required element. Specifies the literal's default value when you insert the code snippet. There must be exactly one `Default` element in a `Literal` element.|
-|[Function element](../ide/code-snippets-schema-reference.md#function)|Optional element. Specifies a function to execute when the literal receives focus in Visual Studio. There may be zero or one `Function` elements in a `Literal` element.|
-|[ID element](../ide/code-snippets-schema-reference.md#id)|Required element. Specifies a unique identifier for the literal. There must be exactly one `ID` element in a `Literal` element.|
-|[ToolTip element](../ide/code-snippets-schema-reference.md#tooltip)|Optional element. Describes the expected value and usage of the literal. There may be zero or one **Tooltip** elements in a `Literal` element.|
+|[Default element](../ide/code-snippets-schema-reference.md#default-element)|Required element. Specifies the literal's default value when you insert the code snippet. There must be exactly one `Default` element in a `Literal` element.|
+|[Function element](../ide/code-snippets-schema-reference.md#function-element)|Optional element. Specifies a function to execute when the literal receives focus in Visual Studio. There may be zero or one `Function` elements in a `Literal` element.|
+|[ID element](../ide/code-snippets-schema-reference.md#id-element)|Required element. Specifies a unique identifier for the literal. There must be exactly one `ID` element in a `Literal` element.|
+|[ToolTip element](../ide/code-snippets-schema-reference.md#tooltip-element)|Optional element. Describes the expected value and usage of the literal. There may be zero or one **Tooltip** elements in a `Literal` element.|
 
 |Parent element|Description|
 |--------------------|-----------------|
 |[Declarations element](../ide/code-snippets-schema-reference.md#declarations)|Contains the literals and objects of a code snippet that you can edit.|
 
-##  <a name="namespace"></a> Namespace element
+## Namespace element
 
 Specifies the namespace that must be imported for the code snippet to compile and run. The namespace specified in the `Namespace` element is automatically added to an `Imports` statement at the beginning of the code, if it does not already exist.
 
@@ -433,11 +433,11 @@ Specifies the namespace that must be imported for the code snippet to compile an
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Import element](../ide/code-snippets-schema-reference.md#import)|Imports the specified namespace.|
+|[Import element](../ide/code-snippets-schema-reference.md#import-element)|Imports the specified namespace.|
 
- A text value is required. This text specifies a namespace that the code snippet assumes is imported.
+A text value is required. This text specifies a namespace that the code snippet assumes is imported.
 
-##  <a name="object"></a> Object element
+## Object element
 
 Defines the objects of the code snippet that you can edit. The `Object` element is used to identify an item that is required by the code snippet but is likely to be defined outside of the snippet itself. For example, Windows Forms controls, ASP.NET controls, object instances, and type instances should be declared as objects. Object declarations require that a type be specified, which is done with the `Type` element.
 
@@ -457,17 +457,17 @@ Defines the objects of the code snippet that you can edit. The `Object` element 
 
 |Child element|Description|
 |-------------------|-----------------|
-|[Default element](../ide/code-snippets-schema-reference.md#default)|Required element. Specifies the literal's default value when you insert the code snippet. There must be exactly one `Default` element in a `Literal` element.|
-|[Function element](../ide/code-snippets-schema-reference.md#function)|Optional element. Specifies a function to execute when the literal receives focus in Visual Studio. There may be zero or one `Function` elements in a `Literal` element.|
-|[ID element](../ide/code-snippets-schema-reference.md#id)|Required element. Specifies a unique identifier for the literal. There must be exactly one `ID` element in a `Literal` element.|
-|[ToolTip element](../ide/code-snippets-schema-reference.md#tooltip)|Optional element. Describes the expected value and usage of the literal. There may be zero or one **Tooltip** elements in a `Literal` element.|
-|[Type element](../ide/code-snippets-schema-reference.md#type)|Required element. Specifies the type of the object. There must be exactly one `Type` element in an `Object` element.|
+|[Default element](../ide/code-snippets-schema-reference.md#default-element)|Required element. Specifies the literal's default value when you insert the code snippet. There must be exactly one `Default` element in a `Literal` element.|
+|[Function element](../ide/code-snippets-schema-reference.md#function-element)|Optional element. Specifies a function to execute when the literal receives focus in Visual Studio. There may be zero or one `Function` elements in a `Literal` element.|
+|[ID element](../ide/code-snippets-schema-reference.md#id-element)|Required element. Specifies a unique identifier for the literal. There must be exactly one `ID` element in a `Literal` element.|
+|[ToolTip element](../ide/code-snippets-schema-reference.md#tooltip-element)|Optional element. Describes the expected value and usage of the literal. There may be zero or one **Tooltip** elements in a `Literal` element.|
+|[Type element](../ide/code-snippets-schema-reference.md#type-element)|Required element. Specifies the type of the object. There must be exactly one `Type` element in an `Object` element.|
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Declarations element](../ide/code-snippets-schema-reference.md#declarations)|Contains the literals and objects of a code snippet that you can edit.|
+|[Declarations element](../ide/code-snippets-schema-reference.md#declarations-element)|Contains the literals and objects of a code snippet that you can edit.|
 
-##  <a name="reference"></a> Reference element
+## Reference element
 
 Specifies information about the assembly references required by the code snippet.
 
@@ -480,14 +480,14 @@ Specifies information about the assembly references required by the code snippet
 
 |Child element|Description|
 |-------------------|-----------------|
-|[Assembly element](../ide/code-snippets-schema-reference.md#assembly)|Required element. Contains the name of the assembly referenced by the code snippet. There must be exactly one `Assembly` element in a `Reference` element.|
-|[Url element](../ide/code-snippets-schema-reference.md#url)|Optional element. Contains a URL that provides more information about the referenced assembly. There may be zero or one `Url` elements in a `Reference` element.|
+|[Assembly element](../ide/code-snippets-schema-reference.md#assembly-element)|Required element. Contains the name of the assembly referenced by the code snippet. There must be exactly one `Assembly` element in a `Reference` element.|
+|[Url element](../ide/code-snippets-schema-reference.md#url-element)|Optional element. Contains a URL that provides more information about the referenced assembly. There may be zero or one `Url` elements in a `Reference` element.|
 
 |Parent element|Description|
 |--------------------|-----------------|
 |[References element](../ide/code-snippets-schema-reference.md#references)|Grouping element for `Reference` elements.|
 
-##  <a name="references"></a> References element
+## References element
 
 Groups individual `Reference` elements.
 
@@ -499,13 +499,13 @@ Groups individual `Reference` elements.
 
 |Child element|Description|
 |-------------------|-----------------|
-|[Reference element](../ide/code-snippets-schema-reference.md#reference)|Optional element. Contains information about assembly references for the code snippet. There may be zero or more `Reference` elements in a `References` element.|
+|[Reference element](../ide/code-snippets-schema-reference.md#reference-element)|Optional element. Contains information about assembly references for the code snippet. There may be zero or more `Reference` elements in a `References` element.|
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Snippet element](../ide/code-snippets-schema-reference.md#snippet)|Contains the references, imports, declarations, and code for the code snippet.|
+|[Snippet element](../ide/code-snippets-schema-reference.md#snippet-element)|Contains the references, imports, declarations, and code for the code snippet.|
 
-##  <a name="shortcut"></a> Shortcut element
+## Shortcut element
 
 Specifies the shortcut text used to insert the snippet. The text value of a `Shortcut` element can only contain alphanumeric characters, hyphens ( - ), and underscores ( _ ).
 
@@ -520,11 +520,11 @@ Specifies the shortcut text used to insert the snippet. The text value of a `Sho
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Header element](../ide/code-snippets-schema-reference.md#header)|Contains general information about the code snippet.|
+|[Header element](../ide/code-snippets-schema-reference.md#header-element)|Contains general information about the code snippet.|
 
  A text value is optional. This text is used as a shortcut for inserting the code snippet.
 
-##  <a name="snippet"></a> Snippet element
+## Snippet element
 
 Specifies the references, imports, declarations, and code for the code snippet.
 
@@ -539,30 +539,30 @@ Specifies the references, imports, declarations, and code for the code snippet.
 
 |Child element|Description|
 |-------------------|-----------------|
-|[Code element](../ide/code-snippets-schema-reference.md#code)|Required element. Specifies the code that you want to insert into a documentation file. There must be exactly one `Code` element in a `Snippet` element.|
-|[Declarations element](../ide/code-snippets-schema-reference.md#declarations)|Optional element. Specifies the literals and objects that make up the parts of a code snippet that you can edit. There may be zero or one `Declarations` elements in a `Snippet` element.|
-|[Imports element](../ide/code-snippets-schema-reference.md#imports)|Optional element. Groups individual `Import` elements. There may be zero or one `Imports` elements in a `Snippet` element.|
+|[Code element](../ide/code-snippets-schema-reference.md#code-element)|Required element. Specifies the code that you want to insert into a documentation file. There must be exactly one `Code` element in a `Snippet` element.|
+|[Declarations element](../ide/code-snippets-schema-reference.md#declarations-element)|Optional element. Specifies the literals and objects that make up the parts of a code snippet that you can edit. There may be zero or one `Declarations` elements in a `Snippet` element.|
+|[Imports element](../ide/code-snippets-schema-reference.md#imports-element)|Optional element. Groups individual `Import` elements. There may be zero or one `Imports` elements in a `Snippet` element.|
 ||Optional element. Groups individual `Reference` elements. There may be zero or one `References` elements in a `Snippet` element.|
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[CodeSnippet element](../ide/code-snippets-schema-reference.md#codesnippet)|Allows you to specify a heading and multiple IntelliSense Code Snippets, which you can insert into Visual Studio code files.|
+|[CodeSnippet element](../ide/code-snippets-schema-reference.md#codesnippet-element)|Allows you to specify a heading and multiple IntelliSense Code Snippets, which you can insert into Visual Studio code files.|
 
-##  <a name="snippettype"></a> SnippetType element
+## SnippetType element
 
 Specifies how Visual Studio inserts the code snippet.
 
 ```xml
 <SnippetType>
     SurroundsWith/Expansion
-<SnippetType>
+</SnippetType>
 ```
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[SnippetTypes element](../ide/code-snippets-schema-reference.md#snippettypes)|Groups `SnippetType` elements.|
+|[SnippetTypes element](../ide/code-snippets-schema-reference.md#snippettypes-element)|Groups `SnippetType` elements.|
 
- The text value must be one of the following values:
+The text value must be one of the following values:
 
 -   `SurroundsWith`: allows the code snippet to be placed around a selected piece of code.
 
@@ -570,7 +570,7 @@ Specifies how Visual Studio inserts the code snippet.
 
 -   `Refactoring`: specifies that the code snippet is used during C# refactoring. `Refactoring` cannot be used in custom code snippets.
 
-##  <a name="snippettypes"></a> SnippetTypes element
+## SnippetTypes element
 
 Groups individual `SnippetType` elements. If the `SnippetTypes` element is not present, the code snippet can be inserted anywhere in the code.
 
@@ -578,34 +578,34 @@ Groups individual `SnippetType` elements. If the `SnippetTypes` element is not p
 <SnippetTypes>
     <SnippetType>... </SnippetType>
     <SnippetType>... </SnippetType>
-<SnippetTypes>
+</SnippetTypes>
 ```
 
 |Child element|Description|
 |-------------------|-----------------|
-|[SnippetType element](../ide/code-snippets-schema-reference.md#snippettype)|Optional element. Specifies how Visual Studio inserts the code snippet into the code. There may be zero or more `SnippetType` elements in a `SnippetTypes` element.|
+|[SnippetType element](../ide/code-snippets-schema-reference.md#snippettype-element)|Optional element. Specifies how Visual Studio inserts the code snippet into the code. There may be zero or more `SnippetType` elements in a `SnippetTypes` element.|
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Header element](../ide/code-snippets-schema-reference.md#header)|Specifies general information about the code snippet.|
+|[Header element](../ide/code-snippets-schema-reference.md#header-element)|Specifies general information about the code snippet.|
 
-##  <a name="title"></a> Title element
+## Title element
 
 Specifies the title for the code snippet. The title stored in the `Title` element of the code snippet appears in the **Code Snippet Picker** and in the code snippet's description in the **Code Snippets Manager**.
 
 ```xml
 <Title>
     Code Snippet Title
-<Title>
+</Title>
 ```
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Header element](../ide/code-snippets-schema-reference.md#header)|Specifies general information about the code snippet.|
+|[Header element](../ide/code-snippets-schema-reference.md#header-element)|Specifies general information about the code snippet.|
 
  A text value is required. This text specifies the title of the code snippet.
 
-##  <a name="tooltip"></a> ToolTip element
+## ToolTip element
 
 Describes the expected value and usage of a literal or object in a code snippet, which Visual Studio displays in a ToolTip when it inserts the code snippet into a project. The ToolTip text is displayed when the mouse hovers over the literal or object after the code snippet has been inserted.
 
@@ -617,12 +617,12 @@ Describes the expected value and usage of a literal or object in a code snippet,
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Literal element](../ide/code-snippets-schema-reference.md#literal)|Defines the literal fields of the code snippet that you can edit.|
-|[Object element](../ide/code-snippets-schema-reference.md#object)|Defines the object fields of the code snippet that you can edit.|
+|[Literal element](../ide/code-snippets-schema-reference.md#literal-element)|Defines the literal fields of the code snippet that you can edit.|
+|[Object element](../ide/code-snippets-schema-reference.md#object-element)|Defines the object fields of the code snippet that you can edit.|
 
  A text value is required. This text specifies the ToolTip description to be associated with the object or literal in the code snippet.
 
-##  <a name="type"></a> Type element
+## Type element
 
 Specifies the type of the object. The `Object` element is used to identify an item that is required by the code snippet but is likely to be defined outside of the snippet itself. For example, Windows Forms controls, ASP.NET controls, object instances, and type instances should be declared as objects. Object declarations require that a type be specified, which is done with the `Type` element.
 
@@ -634,11 +634,11 @@ Specifies the type of the object. The `Object` element is used to identify an it
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Object element](../ide/code-snippets-schema-reference.md#object)|Defines the object fields of the code snippet that you can edit.|
+|[Object element](../ide/code-snippets-schema-reference.md#object-element)|Defines the object fields of the code snippet that you can edit.|
 
  A text value is required. This text specifies the type of the object.
 
-##  <a name="url"></a> Url element
+## Url element
 
 Specifies a URL that provides more information about the referenced assembly.
 
@@ -653,11 +653,11 @@ Specifies a URL that provides more information about the referenced assembly.
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Reference element](../ide/code-snippets-schema-reference.md#reference)|Specifies the assembly references required by the code snippet.|
+|[Reference element](../ide/code-snippets-schema-reference.md#reference-element)|Specifies the assembly references required by the code snippet.|
 
- A text value is required. This text specifies a URL with more information about the referenced assembly. This URL is displayed when the reference cannot be added to the project.
+A text value is required. This text specifies a URL with more information about the referenced assembly. This URL is displayed when the reference cannot be added to the project.
 
 ## See also
 
 - [Code snippets](../ide/code-snippets.md)
-- [Walkthrough: Creating a code snippet](../ide/walkthrough-creating-a-code-snippet.md)
+- [Walkthrough: Create a code snippet](../ide/walkthrough-creating-a-code-snippet.md)

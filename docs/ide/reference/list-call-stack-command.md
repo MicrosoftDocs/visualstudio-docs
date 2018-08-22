@@ -78,7 +78,7 @@ Debug.ListCallStack [/Count:number] [/ShowTypes:yes|no]
 
  Thread:`n`
 
- Optional. Displays the callstack for thread `n`. If no thread is specified, diplays the callstack for the current thread.
+ Optional. Displays the callstack for thread `n`. If no thread is specified, displays the callstack for the current thread.
 
 ## Remarks
  Changes made to the arguments or switches apply to future invocations of this command. If you issue Debug.ListCallStackby itself, the entire call stack displays. If you specify an index, for example,

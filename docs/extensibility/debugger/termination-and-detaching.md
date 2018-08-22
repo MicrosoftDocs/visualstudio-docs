@@ -15,13 +15,13 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Termination and Detaching
-The following describes normal termination.  
+# Termination and detaching
+The following section describes normal termination.  
   
 ## Discussion  
- After the [IDebugLoadCompleteEvent2](../../extensibility/debugger/reference/idebugloadcompleteevent2.md) or [IDebugEntryPointEvent2](../../extensibility/debugger/reference/idebugentrypointevent2.md) interface continues, if there are no breakpoints, exceptions, run-time errors, or infinite loops in the application to be debugged, the program being debugged will run to completion. This is normal termination.  
+ After the [IDebugLoadCompleteEvent2](../../extensibility/debugger/reference/idebugloadcompleteevent2.md) or [IDebugEntryPointEvent2](../../extensibility/debugger/reference/idebugentrypointevent2.md) interface continues, if there are no breakpoints, exceptions, run-time errors, or infinite loops in the application to be debugged, the program being debugged runs to completion. This process is normal termination.  
   
- You must send an [IDebugProgramDestroyEvent2](../../extensibility/debugger/reference/idebugprogramdestroyevent2.md) to implement normal termination. This requires implementing the [IDebugProgramDestroyEvent2::GetExitCode](../../extensibility/debugger/reference/idebugprogramdestroyevent2-getexitcode.md) method.  
+ You must send an [IDebugProgramDestroyEvent2](../../extensibility/debugger/reference/idebugprogramdestroyevent2.md) to implement normal termination. Normal termination requires running the [IDebugProgramDestroyEvent2::GetExitCode](../../extensibility/debugger/reference/idebugprogramdestroyevent2-getexitcode.md) method.  
   
-## See Also  
- [Creating a Custom Debug Engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)
+## See also  
+ [Creating a custom debug engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)

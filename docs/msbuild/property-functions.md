@@ -138,7 +138,7 @@ $([MSBuild]::Method(Parameters))
 For example, to add together two properties that have numeric values, use the following code.
 
 ```fundamental
-$([MSBuild]::Add($(NumberOne), $(NumberTwo))
+$([MSBuild]::Add($(NumberOne), $(NumberTwo)))
 ```
 
 Here is a list of MSBuild property functions:

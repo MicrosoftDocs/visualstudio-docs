@@ -1,8 +1,8 @@
 ---
 title: "Introducing Visual Studio for Mac"
 description: "This article introduces the features of Visual Studio for Mac"
-author: asb3993
-ms.author: amburns
+author: conceptdev
+ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: 3A130EC1-DD8C-4125-9034-B08D7AF7EA65
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Use Visual Studio to create an ASP.NET Core web app in C#"
-description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
+description: "Learn how to create a simple Hello World web app in Visual Studio with C# and ASP.NET Core, step-by-step."
 ms.custom: mvc
 ms.date: 07/20/2018
 ms.prod: visual-studio-dev15
@@ -15,10 +15,12 @@ dev_langs:
 ms.workload:
   - "aspnet"
   - "dotnetcore"
+experimental: true​
+experiment_id: eb51ee6c-71a8-45
 ---
 # Quickstart: Use Visual Studio to create your first ASP.NET Core web app
 
-In this 5-10 minute introduction to how to use Visual Studio, you'll create a simple "Hello World" app by using an ASP.NET project template and the C# programming language.
+In this 5-10 minute introduction to how to use Visual Studio, you'll create a simple "Hello World" web app by using an ASP.NET project template and the C# programming language.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
@@ -36,13 +38,14 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
    > [!NOTE]
    > If you don't see the **.NET Core** project template category, choose the **Open Visual Studio Installer** link in the left pane.
-   >![Open Visual Studio Installer from the new project dialog box](../ide/media/open-visual-studio-installer.png)
+   >
+   > ![Open Visual Studio Installer from the new project dialog box](../ide/media/open-visual-studio-installer.png)
    >
    > The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, and then choose **Modify**.
    >
    > ![ASP.NET workload in VS Installer](../ide/media/quickstart-aspnet-workload.png)
    >
-   >(You might have to close Visual Studio before you can continue installing the new workload.)
+   > (You might have to close Visual Studio before you can continue installing the new workload.)
 
 1. In the **New ASP.NET Core Web Application** dialog box, verify that **ASP.NET Core 2.0** appears in the top drop-down menu. Then, choose **Web Application** and choose **OK**.
 
@@ -50,7 +53,7 @@ First, you'll create an ASP.NET Core web application project. The project type c
 
 Soon after, Visual Studio opens your project file.
 
-## Create the application
+## Create the app
 
 1. In the **Solution Explorer**, expand the **Pages** folder, and then choose **About.cshtml**.
 
@@ -80,7 +83,7 @@ Soon after, Visual Studio opens your project file.
 
    ![Change the default message text for the application description area in the Visual Studio editor](../ide/media/csharp-aspnet-about-cshtml-cs-message.png)
 
-## Run the application
+## Run the app
 
 1. Press **Ctrl**+**F5** to run the app and open it in a web browser.
 
@@ -101,13 +104,10 @@ Congratulations on completing this Quickstart! We hope you learned a little bit 
 
 ## Next steps
 
-To learn more, continue with the following tutorials:
+To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
 > [Get started with C# and ASP.NET in Visual Studio](tutorial-csharp-aspnet-core.md)
->
-> [!div class="nextstepaction"]
-> [Get started with ASP.NET Core MVC and Visual Studio](/aspnet/core/tutorials/first-mvc-app/start-mvc?tabs=aspnetcore2x)
 
 ## See also
 

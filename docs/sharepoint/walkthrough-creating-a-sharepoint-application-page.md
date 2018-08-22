@@ -38,7 +38,7 @@ This walkthrough illustrates the following tasks:
 
 ## Prerequisites
 
-- Supported editions of Windows and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
+- Supported editions of Windows and SharePoint.
 
 ## Create a SharePoint project
 

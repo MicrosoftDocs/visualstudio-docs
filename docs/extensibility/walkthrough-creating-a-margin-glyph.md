@@ -14,28 +14,28 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Walkthrough: Creating a Margin Glyph
+# Walkthrough: Create a margin glyph
 You can customize the appearance of editor margins by using custom editor extensions. This walkthrough puts a custom glyph on the indicator margin whenever the word "todo" appears in a code comment.  
   
 ## Prerequisites  
- Starting in Visual Studio 2015, you do not install the Visual Studio SDK from the download center. It is included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
+ Starting in Visual Studio 2015, you don't install the Visual Studio SDK from the download center. It's included as an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).  
   
-## Creating a MEF Project  
+## Create a MEF project  
   
 1.  Create a C# VSIX project. (In the **New Project** dialog, select **Visual C# / Extensibility**, then **VSIX Project**.) Name the solution `TodoGlyphTest`.  
   
-2.  Add an Editor Classifier project item. For more information, see [Creating an Extension with an Editor Item Template](../extensibility/creating-an-extension-with-an-editor-item-template.md).  
+2.  Add an Editor Classifier project item. For more information, see [Create an extension with an editor item template](../extensibility/creating-an-extension-with-an-editor-item-template.md).  
   
 3.  Delete the existing class files.  
   
-## Defining the Glyph  
- Define a glyph by implementing the <xref:Microsoft.VisualStudio.Text.Editor.IGlyphFactory> interface.  
+## Define the glyph  
+ Define a glyph by running the <xref:Microsoft.VisualStudio.Text.Editor.IGlyphFactory> interface.  
   
-#### To define the glyph  
+### To define the glyph  
   
 1.  Add a class file and name it `TodoGlyphFactory`.  
   
-2.  Add the following using declarations.  
+2.  Add the following code by using declarations.  
   
      [!code-csharp[VSSDKTodoGlyphTest#1](../extensibility/codesnippet/CSharp/walkthrough-creating-a-margin-glyph_1.cs)]
      [!code-vb[VSSDKTodoGlyphTest#1](../extensibility/codesnippet/VisualBasic/walkthrough-creating-a-margin-glyph_1.vb)]  
@@ -65,10 +65,10 @@ You can customize the appearance of editor margins by using custom editor extens
      [!code-csharp[VSSDKTodoGlyphTest#6](../extensibility/codesnippet/CSharp/walkthrough-creating-a-margin-glyph_6.cs)]
      [!code-vb[VSSDKTodoGlyphTest#6](../extensibility/codesnippet/VisualBasic/walkthrough-creating-a-margin-glyph_6.vb)]  
   
-## Defining a Todo Tag and Tagger  
- Define the relationship between the UI element that you defined in the previous steps and the indicator margin by creating a tag type and tagger, and exporting it by using a tagger provider.  
+## Define a Todo tag and tagger  
+ Define the relationship between the UI element that you defined in the previous steps and the indicator margin. Create a tag type and tagger and export it by using a tagger provider.  
   
-#### To define a todo tag and tagger  
+### To define a todo tag and tagger  
   
 1.  Add a new class file to the project and name it `TodoTagger`.  
   
@@ -122,17 +122,17 @@ You can customize the appearance of editor margins by using custom editor extens
      [!code-csharp[VSSDKTodoGlyphTest#16](../extensibility/codesnippet/CSharp/walkthrough-creating-a-margin-glyph_16.cs)]
      [!code-vb[VSSDKTodoGlyphTest#16](../extensibility/codesnippet/VisualBasic/walkthrough-creating-a-margin-glyph_16.vb)]  
   
-## Building and Testing the Code  
+## Build and test the code  
  To test this code, build the TodoGlyphTest solution and run it in the experimental instance.  
   
-#### To build and test the TodoGlyphTest solution  
+### To build and test the TodoGlyphTest solution  
   
 1.  Build the solution.  
   
-2.  Run the project by pressing F5. A second instance of Visual Studio is instantiated.  
+2.  Run the project by pressing **F5**. A second instance of Visual Studio starts.  
   
 3.  Make sure that the indicator margin is showing. (On the **Tools** menu, click **Options**. On the **Text Editor** page, make sure that **Indicator margin** is selected.)  
   
 4.  Open a code file that has comments. Add the word "todo" to one of the comment sections.  
   
-5.  A light blue circle that has a dark blue outline should appear in the indicator margin to the left of the code window.
+5.  A light blue circle with a dark blue outline appears in the indicator margin to the left of the code window.
