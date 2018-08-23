@@ -20,7 +20,6 @@ helpviewer_keywords:
 # optional metadata
 
 #ROBOTS:
-#ms.technology:
 #keywords:
 #ms.devlang: [LANGUAGES]
 #manager: [MICROSOFT ALIAS]
@@ -28,23 +27,40 @@ helpviewer_keywords:
 ---
 # Configure trust settings for files and folders
 
-## Metadata
+In previous versions of Visual Studio, projects with the Mark of the Web were blocked from opening until the user explicitly apporved them. To help you keep your Visual Studio secure, we've extended this type of check to include the opening of files and folders.
 
-The full metadata block is above (in the [raw Markdown](https://raw.githubusercontent.com/dotnet/docs/master/styleguide/template.md)), divided into required fields and optional fields. Some key notes:
+These additional checks are disabled by default.
 
-- You **must** have a space between the colon (:) and the value for a metadata element.
-- If an optional metadata element doesn't have a value, comment out the element with a # or remove it (don't leave it blank or use "na"). If you're adding a value to an element that was commented out, be sure to remove the #.
-- Colons in a value (for example, a title) break the metadata parser. In this case, surround the title with double quotes (for example, `title: "Writing .NET Core console apps: An advanced step-by-step guide"`).
-- **title**: Appears in search engine results. The title shouldn't be identical to the title in your H1 heading, and it should contain 60 characters or less.
-- **description**: Summarizes the content of the article. It's usually shown in the search results page, but it isn't used for search ranking. Its length should be 115-145 characters including spaces.
-- **author**, **manager**, **ms.author**: The author field should contain the **GitHub username** of the author, not his/her alias.  The "manager" and "ms.author" fields, on the other hand, should contain Microsoft aliases.
-- **ms.topic**: The topic type. The most common value is `article`. Other common values used are `get-started-article`, `managed-reference`, and `reference`.
-- **ms.devlang** defines the language filter displayed for the topic. Some of the supported values are: dotnet, cpp, csharp, fsharp, vb, powershell and xml.
-- **ms.prod**: Product identification used for BI purposes. Possible values are `.net-core` for topics on the .NET Core Guide, `.net-framework` for topics on the .NET Framework Guide and `.net` for all other topics.
-- **ms.technology**: Additional BI classification. Some of the supported values are: `devlang-csharp` for C# topics, `devlang-fsharp` for F# topics, and `devlang-visual-basic` for VB topics. For other guides, the values will vary, so ask a member of the team for guidance.
-- **helpviewer_keywords**: Entries are used for the offline books index (functionality in Visual Studio).
+> [!WARNING]
+> You should still ensure any files, folders or solutions come from a trusted person or a trusted location before approving them. 
 
-## Basic Markdown, GFM, and special characters
+## Configure your trust settings
+To change your trust settings, follow these steps:
+
+1. Open **Tools** > **Options** > **Trust Settings** and click on the _Configure Trust Settings_ link in the pane.
+2. Choose what level of checks you'd like for files and folders. You can have different checks for each one. Your options are:
+    1. No verification: Visual Studio will not perform any checks.
+    2. Verify mark of the web attribute: Visual Studio will block and ask for permission to open if the file or folder has the mark of the web attribute.
+    3. Verify path is trusted: Visual Studio will block and ask for permission to open if the file or folder path is not part of the Trusted Paths list.
+
+![Trust verification options](../media/trustsettings-verification.png)
+
+## Add trusted paths
+To add trusted paths, follow these steps:
+
+1.  Open **Tools** > **Options** > **Trust Settings** and click on the _Configure Trust Settings_ link in the pane.
+2.  Click **Add** in the Trust Settings dialog and select **File** or **Folder**.
+3.  Navigate to and select the file or folder you'd like to add to the trusted list using the File/Folder Explorer.
+4.  Your path will now appear in the Trusted Paths list.
+
+![Added trusted paths](../media/trustsettings.png)
+
+## Remove trusted paths
+To remove trusted paths, follow these steps:
+1.  Open **Tools** > **Options** > **Trust Settings** and click on the _Configure Trust Settings_ link in the pane.
+2.  Select the path you'd like to remove in the Trusted Paths list and click **Remove** in the Trust Settings dialog.
+    * To select multiple entries, hold down **Shift** as you click on the paths.
+3.  The selected path(s) will disappear from the Trusted Paths list. 
 
 All basic and GitHub Flavored Markdown (GFM) is supported. For more information on these, see:
 
