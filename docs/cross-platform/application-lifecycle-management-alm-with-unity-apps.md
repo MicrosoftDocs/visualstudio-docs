@@ -14,13 +14,13 @@ ms.workload:
 
 Developing apps for modern platforms involves many more activities than just writing code. These activities, referred to as DevOps (development + operations), span the app's complete life cycle and include planning and tracking work, designing and implementing code, managing a source code repository, running builds, managing continuous integrations and deployments, testing (including unit tests and UI tests), running various forms of diagnostics in both development and production environments, and monitoring app performance and user behaviors in real time through telemetry and analytics.
 
-Visual Studio, together with Visual Studio Team Services and Team Foundation Server, provides a variety of DevOps capabilities. Many of these are applicable to cross-platform projects, including games and immersive graphical apps created with Unity&mdash;especially when using C# as a scripting language. However, because Unity has its own development environment and runtime engine, a number of DevOps features don't apply as they would to other kinds of projects built in Visual Studio.
+Visual Studio, together with Azure DevOps and Team Foundation Server, provides a variety of DevOps capabilities. Many of these are applicable to cross-platform projects, including games and immersive graphical apps created with Unity&mdash;especially when using C# as a scripting language. However, because Unity has its own development environment and runtime engine, a number of DevOps features don't apply as they would to other kinds of projects built in Visual Studio.
 
 The following tables identify how DevOps features in Visual Studio apply or don't apply when working with Unity. Refer to the linked documentation for details on the features themselves.
 
 ## Agile tools
 
-Reference link: [About Agile tools and Agile project management](/vsts/work/backlogs/overview?view=vsts) (using Visual Studio Team Services or TFS, including Team Explorer Everywhere)
+Reference link: [About Agile tools and Agile project management](/vsts/work/backlogs/overview?view=vsts) (using Azure DevOps or TFS, including Team Explorer Everywhere)
 
 General Comment: all planning and tracking features are independent of project type and coding languages.
 
@@ -53,8 +53,8 @@ General Comment: Although these design features are either independent of coding
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
-|[Use Team Foundation Version Control](/vsts/tfvc/overview?view=vsts) or Visual Studio Team Services|Yes|Unity projects are simply a collection of files that can be placed into version control systems like any other project, but there are a few special considerations described after this table.|
-|[Getting started with Git in Team Services](/vsts/git/gitquickstart?view=vsts&tabs=visual-studio)|Yes|See notes after the table.|
+|[Use Team Foundation Version Control](/vsts/tfvc/overview?view=vsts) or Azure DevOps|Yes|Unity projects are simply a collection of files that can be placed into version control systems like any other project, but there are a few special considerations described after this table.|
+|[Getting started with Git in Azure DevOps](/vsts/git/gitquickstart?view=vsts&tabs=visual-studio)|Yes|See notes after the table.|
 |[Improve Code Quality](../test/improve-code-quality.md)|Yes||
 |[Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)|Yes||
 |[Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)|Yes||
@@ -73,9 +73,9 @@ Reference link: **[Build and Release](/vsts/build-release/index)**
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
-|On-premises TFS server|Possible|Unity projects are built through the Unity environment and not through the Visual Studio build system (building within the Visual Studio Tools for Unity will compile the scripts but not produce an executable). It is possible to [build Unity projects from the command line](http://docs.unity3d.com/Manual/CommandLineArguments.html) (Unity documentation), so it possible to configure an MSBuild process on a TFS server to execute the appropriate Unity commands, provided that Unity itself is installed on that computer.<br /><br /> Unity also offers [Unity Cloud Build](https://build.cloud.unity3d.com/landing/), which monitors a Git or SVN repository and runs periodic builds. At present it does not work with Team Foundation Version Control or Visual Studio Team Services.|
-|On-premises build server linked to Visual Studio Team Services|Possible|Given the same conditions as above, it is further possible to direct builds triggered through Visual Studio Team Services to use an on-premises TFS computer. See [Build and release agents](/vsts/build-release/concepts/agents/agents) for instructions.|
-|Hosted controller service of Visual Studio Team Services|No|Unity builds are not presently supported.|
+|On-premises TFS server|Possible|Unity projects are built through the Unity environment and not through the Visual Studio build system (building within the Visual Studio Tools for Unity will compile the scripts but not produce an executable). It is possible to [build Unity projects from the command line](http://docs.unity3d.com/Manual/CommandLineArguments.html) (Unity documentation), so it possible to configure an MSBuild process on a TFS server to execute the appropriate Unity commands, provided that Unity itself is installed on that computer.<br /><br /> Unity also offers [Unity Cloud Build](https://build.cloud.unity3d.com/landing/), which monitors a Git or SVN repository and runs periodic builds. At present it does not work with Team Foundation Version Control or Azure DevOps Services.|
+|On-premises build server linked to Azure DevOps Services|Possible|Given the same conditions as above, it is further possible to direct builds triggered through Azure DevOps Services to use an on-premises TFS computer. See [Build and release agents](/vsts/build-release/concepts/agents/agents) for instructions.|
+|Hosted controller service of Azure DevOps Services|No|Unity builds are not presently supported.|
 |Build definitions with pre- and post-scripts|Yes|A custom build definition that uses the Unity command line to run a build can also be configured for pre- and post-build scripts.|
 |Continuous integration including gated check-ins|Yes|Gated check-ins for TFVC only as Git works on a pull-request model rather than check-ins.|
 
@@ -110,7 +110,7 @@ Reference link: [Build and release overview](/vsts/pipelines/overview?view=vsts)
 |-------------|--------------------------|-------------------------|
 |Manage release processes|Yes||
 |Deployment to servers for side-loading via scripts|Yes||
-|Upload to app store|Partial|Extensions are available that can automate this process for some app stores. See [Extensions for Visual Studio Team Services](https://marketplace.visualstudio.com/VSTS); for example, the [extension for Google Play](https://marketplace.visualstudio.com/items?itemName=ms-vsclient.google-play).|
+|Upload to app store|Partial|Extensions are available that can automate this process for some app stores. See [Extensions for Azure DevOps](https://marketplace.visualstudio.com/VSTS); for example, the [extension for Google Play](https://marketplace.visualstudio.com/items?itemName=ms-vsclient.google-play).|
 
 ## Monitor with HockeyApp
 
