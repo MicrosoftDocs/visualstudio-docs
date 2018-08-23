@@ -121,5 +121,5 @@ You can navigate in Visual Studio more easily by using the keyboard shortcuts in
 ## See also
 
 - [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md)
-- [Keyboard shortcuts (Azure DevOps)](/azure/devops/collaborate/keyboard-shortcuts)
+- [Keyboard shortcuts (Azure DevOps)](/vsts/collaborate/keyboard-shortcuts)
 - [Visual Studio tips and tricks blog](http://blogs.msdn.com/b/zainnab)
