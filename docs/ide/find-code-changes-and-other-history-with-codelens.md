@@ -58,7 +58,7 @@ You need:
 
 - Visual Studio Enterprise or Visual Studio Professional
 
-- Team Foundation Server 2013 or later, Visual Studio Team Services, or Git
+- Team Foundation Server 2013 or later, Azure DevOps Services, or Git
 
 - [Skype for Business](/skypeforbusiness/), or Lync 2010 or later, to contact your team from the code editor
 
@@ -74,7 +74,7 @@ For file types other than *.cs* or *.vb*, you get CodeLens details for the entir
 
 Code element-level indicators let you see who changed your code, and what changes they made. Code element-level indicators are available for C# and Visual Basic code.
 
-This is what you see when you use Team Foundation Version Control (TFVC) in Team Foundation Server or Visual Studio Team Services:
+This is what you see when you use Team Foundation Version Control (TFVC) in Azure DevOps:
 
 ![CodeLens: Get change history for your code in TFVC](../ide/media/codelens-code-changes.png)
 
@@ -251,7 +251,7 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 
 - If your code is stored in TFS, make sure that code indexing is turned on by using the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](/tfs/server/ref/command-line/tfsconfig-cmd).
 
-- TFS-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. Confirm that you have [team member permissions](/vsts/work/scale/multiple-teams).
+- TFS-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. Confirm that you have [team member permissions](/azure/devops/work/scale/multiple-teams).
 
 - Unit test indicators don't appear when application code doesn't have unit tests. Test status indicators appear automatically in test projects. If you know that your application code has unit tests, but the test indicators don't appear, try building the solution (**Ctrl**+**Shift**+**B**).
 
