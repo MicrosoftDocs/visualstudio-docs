@@ -23,7 +23,7 @@ Administrators of version control for Team Foundation can add the Code Analysis 
 
 ## To open the Code Analysis Policy editor
 
-1. In **Team Explorer**, right-click the team project, click **Team Project Settings**, and then click **Source Control**.
+1. In **Team Explorer**, right-click the project, click **Team Project Settings**, and then click **Source Control**.
 
      The **Source Control** dialog box appears.
 
