@@ -46,7 +46,7 @@ You can use the WPF Tree visualizer to explore the visual tree of a WPF object, 
   
 ### To search the properties list  
   
--   In the **Properties of** _Name_**:**_Type_ pane, type the string your want to search for in the **Filter** box.  
+-   In the **Properties of** _Name_**:**_Type_ pane, type the string you want to search for in the **Filter** box.  
   
      The WPF Tree visualizer immediately finds the properties that match the string you have typed; now, the list displays only those properties matching the string you have typed. Type more characters to find a more-accurate match.  
   
