@@ -146,7 +146,7 @@ how to start the Node.js process. Details of the implementation can be seen at
 * You can connect to the running container via SSH for investigations. This is easily done using the Azure Portal. Select the App Service, and scroll down
 the list of tools until reaching **SSH** under the **Development Tools** section.
 * To aid in troubleshooting, go to the **Diagnostics logs** settings for the App Service, and change the **Docker Container logging** setting
-from **Off** to **File System**. Logs are created in the container under */home/LogFiles/*_docker.log*, and can be accessed on the box using SSH or FTP(S).
+from **Off** to **File System**. Logs are created in the container under */home/LogFiles/*_docker.log*, and can be accessed on the toolbox using SSH or FTP(S).
 * A custom domain name may be assigned to the site, rather than the *.azurewebsites.net URL assigned by default. For more details, see the topic [Map Custom Domain](/azure/app-service/app-service-web-tutorial-custom-domain).
 * Deploying to a staging site for further testing before moving into production is a best practice. For details on how to configure this, see the topic
 [Create staging environments](/azure/app-service/web-sites-staged-publishing).
