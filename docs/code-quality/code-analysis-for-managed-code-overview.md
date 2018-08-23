@@ -69,7 +69,7 @@ You can accomplish this by specifying check-in policies. For more information, s
 
 ## Team build integration
 
-You can use the integrated features of the build system to run the analysis tool as part of the build process. For more information, see [Build and release (Azure Pipelines)](/azure/devops/build-release/index).
+You can use the integrated features of the build system to run the analysis tool as part of the build process. For more information, see [Build and release (Azure Pipelines)](/vsts/build-release/index).
 
 ## See also
 

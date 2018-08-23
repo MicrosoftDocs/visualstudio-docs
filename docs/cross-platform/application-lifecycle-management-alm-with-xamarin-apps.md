@@ -1,7 +1,6 @@
 ---
 title: "Application Lifecycle Management (ALM) with Xamarin apps | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: 08/21/2018
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 ms.assetid: ff978cc2-5a25-46d6-921b-e51adaa65992
@@ -11,21 +10,19 @@ manager: crdun
 ms.workload:
   - "xamarin"
 ---
-# Application Lifecycle Management (ALM) with Xamarin apps
+# DevOps with Xamarin apps
 
 Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, and Windows using C#, .NET, and Visual Studio. Xamarin allows a large portion of code to be shared between platforms, with only a small percentage needing to be platform-specific. For more information on Xamarin itself, see [Visual Studio and Xamarin](../cross-platform/visual-studio-and-xamarin.md).
 
-Developing apps for modern platforms involves many more activities than just writing code. These activities, referred to as DevOps (development + operations), span the app's complete lifecycle and include planning and tracking work, designing and implementing code, managing a source code repository, running builds, managing continuous integrations and deployments, testing (including unit tests and UI tests), running various forms of diagnostics in both development and production environments, and monitoring app performance and user behaviors in real time through telemetry and analytics.
+Developing apps for modern platforms involves many more activities than just writing code. These activities, referred to as DevOps (development + operations), span the app's complete life cycle and include planning and tracking work, designing and implementing code, managing a source code repository, running builds, managing continuous integrations and deployments, testing (including unit tests and UI tests), running various forms of diagnostics in both development and production environments, and monitoring app performance and user behaviors in real time through telemetry and analytics.
 
-Visual Studio together with Visual Studio Team Services and Team Foundation Server provide a variety of DevOps capabilities, also referred to as Application Lifecycle Management or ALM. Many of these are wholly applicable to cross-platform projects.
+Visual Studio, together with Visual Studio Team Services and Team Foundation Server, provides a variety of DevOps capabilities. Many of these are wholly applicable to cross-platform projects. This is especially true with Xamarin apps, because they're built with C# and .NET, around which some DevOps tools are built. Other tools require tight integration with build and runtime environments. Because Xamarin apps run on non-Windows platforms and use the Mono implementation of .NET, Xamarin provides specialized tools for certain needs.
 
-This is especially true with Xamarin apps because they are built with C# and .NET, around which some ALM tools are built. Other tools, require tight integration with build and runtime environments. Because Xamarin apps run on non-Windows platforms and use the Mono implementation of .NET, Xamarin provides specialized tools for certain needs.
-
-The tables below identifies which Visual Studio ALM features you can expect to work well with a Xamarin project, and which ones have limitations. Refer to the linked documentation for details on the features themselves.
+The following tables identify which DevOps features in Visual Studio you can expect to work well with a Xamarin project, and which ones have limitations. Refer to the linked documentation for details on the features themselves.
 
 ## Agile tools
 
-Reference link: **[About Agile tools and Agile project management](/azure/devops/work/backlogs/overview?view=vsts)**
+Reference link: **[About Agile tools and Agile project management](/vsts/work/backlogs/overview?view=vsts)**
 
 General Comment: all planning and tracking features are independent of project type and coding languages.
 
@@ -58,21 +55,21 @@ Design features are independent of coding language, or work with .NET languages 
 
 |Feature|Supported with Xamarin|Additional Comments|
 |-------------|----------------------------|-------------------------|
-|[Use Team Foundation Version Control](/azure/devops/tfvc/overview?view=vsts) or Visual Studio Team Services|Yes||
-|[Getting started with Git in Team Services](/azure/devops/git/gitquickstart?view=vsts&tabs=visual-studio)|Yes||
+|[Use Team Foundation Version Control](/vsts/tfvc/overview?view=vsts) or Visual Studio Team Services|Yes||
+|[Getting started with Git in Team Services](/vsts/git/gitquickstart?view=vsts&tabs=visual-studio)|Yes||
 |[Improve Code Quality](../test/improve-code-quality.md)|Yes||
 |[Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)|Yes|Except across platform-specific boundaries where the implementation isn't resolved until run time.|
 |[Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)|Yes||
 
 ## Build
 
-Reference link: **[Build and release](/azure/devops/pipelines/index?view=vsts)**
+Reference link: **[Build and release](/vsts/pipelines/index?view=vsts)**
 
 |Feature|Supported with Xamarin|Additional Comments|
 |-------------|----------------------------|-------------------------|
-|On-premises TFS server|Yes|Build machines must have Xamarin installed and can be linked to an OSX computer to build for iOS. See [Use TFVC](/azure/devops/tfvc/overview?view=vsts)|
-|On-premises build server linked to Visual Studio Team Services|Yes|See [Build and release agents](/azure/devops/pipelines/agents/agents?view=vsts) for instructions.|
-|Hosted controller service of Visual Studio Team Services|Yes|See [Build your Xamarin app](/azure/devops/pipelines/apps/mobile/xamarin?view=vsts&tabs=vsts).|
+|On-premises TFS server|Yes|Build machines must have Xamarin installed and can be linked to an OSX computer to build for iOS. See [Use TFVC](/vsts/tfvc/overview?view=vsts)|
+|On-premises build server linked to Visual Studio Team Services|Yes|See [Build and release agents](/vsts/pipelines/agents/agents?view=vsts) for instructions.|
+|Hosted controller service of Visual Studio Team Services|Yes|See [Build your Xamarin app](/vsts/pipelines/apps/mobile/xamarin?view=vsts&tabs=vsts).|
 |Build definitions with pre- and post-scripts|Yes||
 |Continuous integration including gated check-ins|Yes|Gated check-ins for TFVC only as Git works on a pull-request model rather than check-ins.|
 
@@ -84,7 +81,7 @@ Reference link: **[Build and release](/azure/devops/pipelines/index?view=vsts)**
 |Manual testing|Yes||
 |Test Manager (record and playback tests)|Yes|Windows devices and Android emulators only from Visual Studio. Recording for all devices is possible with [Xamarin Test Recorder](/appcenter/test-cloud/uitest/).|
 |Code coverage|n/a||
-|[Unit test your code](../test/unit-test-your-code.md)|Yes|For Windows and Android targets, the built-in MSTest tools can be used. To run unit tests on Windows, Android, and iOS, Xamarin recommends NUnit. See [Use TFVC](/azure/devops/tfvc/overview?view=vsts).|
+|[Unit test your code](../test/unit-test-your-code.md)|Yes|For Windows and Android targets, the built-in MSTest tools can be used. To run unit tests on Windows, Android, and iOS, Xamarin recommends NUnit. See [Use TFVC](/vsts/tfvc/overview?view=vsts).|
 |[Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)|Windows only|Visual Studio's UI test recorder is Windows only. For all platforms, see [Xamarin.UITest](/appcenter/test-cloud/uitest/).|
 
 ## Improve code quality
@@ -101,7 +98,7 @@ Reference link: **[Improve Code Quality](../test/improve-code-quality.md)**
 
 ## Release management
 
-Reference link: **[Build and release in VSTS and TFS](/azure/devops/pipelines/overview?view=vsts)**
+Reference link: **[Build and release in VSTS and TFS](/vsts/pipelines/overview?view=vsts)**
 
 |Feature|Supported with Xamarin|Additional Comments|
 |-------------|----------------------------|-------------------------|

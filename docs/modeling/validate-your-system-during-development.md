@@ -36,7 +36,7 @@ Visual Studio can help keep your software consistent with the users' requirement
 
 ## See also
 
-- [Testing the application](/azure/devops/test/overview?view=vsts)
+- [Testing the application](/vsts/test/overview?view=vsts)
 - [Model user requirements](../modeling/model-user-requirements.md)
 - [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)
 

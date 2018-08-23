@@ -1,7 +1,6 @@
 ---
 title: "Application Lifecycle Management (ALM) with Unity Apps | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: 08/21/2018
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: 2dc61e63-9ba2-4c16-b1ad-f46249e576b6
@@ -11,17 +10,17 @@ manager: crdun
 ms.workload:
   - "unity"
 ---
-# Application Lifecycle Management (ALM) with Unity apps
+# DevOps with Unity apps
 
-Developing apps for modern platforms involves many more activities than just writing code. These activities, referred to as DevOps (development + operations) span the app's complete lifecycle and include planning and tracking work, designing and implementing code, managing a source code repository, running builds, managing continuous integrations and deployments, testing (including unit tests and UI tests), running various forms of diagnostics in both development and production environments, and monitoring app performance and user behaviors in real time through telemetry and analytics.
+Developing apps for modern platforms involves many more activities than just writing code. These activities, referred to as DevOps (development + operations), span the app's complete life cycle and include planning and tracking work, designing and implementing code, managing a source code repository, running builds, managing continuous integrations and deployments, testing (including unit tests and UI tests), running various forms of diagnostics in both development and production environments, and monitoring app performance and user behaviors in real time through telemetry and analytics.
 
- Visual Studio together with Visual Studio Team Services and Team Foundation Server provide a variety of DevOps capabilities, also referred to as Application Lifecycle Management or ALM. Many of these are applicable to cross-platform projects, including games and immersive graphical apps created with Unity—especially when using C# as a scripting language. However, because Unity has its own development environment and runtime engine, a number of ALM features don't apply as they would to other kinds of projects built in Visual Studio.
+Visual Studio, together with Visual Studio Team Services and Team Foundation Server, provides a variety of DevOps capabilities. Many of these are applicable to cross-platform projects, including games and immersive graphical apps created with Unity&mdash;especially when using C# as a scripting language. However, because Unity has its own development environment and runtime engine, a number of DevOps features don't apply as they would to other kinds of projects built in Visual Studio.
 
- The tables below identifies how Visual Studio ALM features apply or don't apply when working with Unity. Refer to the linked documentation for details on the features themselves.
+The following tables identify how DevOps features in Visual Studio apply or don't apply when working with Unity. Refer to the linked documentation for details on the features themselves.
 
 ## Agile tools
 
-Reference link: [About Agile tools and Agile project management](/azure/devops/work/backlogs/overview?view=vsts) (using Visual Studio Team Services or TFS, including Team Explorer Everywhere)
+Reference link: [About Agile tools and Agile project management](/vsts/work/backlogs/overview?view=vsts) (using Visual Studio Team Services or TFS, including Team Explorer Everywhere)
 
 General Comment: all planning and tracking features are independent of project type and coding languages.
 
@@ -54,32 +53,33 @@ General Comment: Although these design features are either independent of coding
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
-|[Use Team Foundation Version Control](/azure/devops/tfvc/overview?view=vsts) or Visual Studio Team Services|Yes|Unity projects are simply a collection of files that can be placed into version control systems like any other project, but there are a few special considerations described after this table.|
-|[Getting started with Git in Team Services](/azure/devops/git/gitquickstart?view=vsts&tabs=visual-studio)|Yes|See notes after the table.|
+|[Use Team Foundation Version Control](/vsts/tfvc/overview?view=vsts) or Visual Studio Team Services|Yes|Unity projects are simply a collection of files that can be placed into version control systems like any other project, but there are a few special considerations described after this table.|
+|[Getting started with Git in Team Services](/vsts/git/gitquickstart?view=vsts&tabs=visual-studio)|Yes|See notes after the table.|
 |[Improve Code Quality](../test/improve-code-quality.md)|Yes||
 |[Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)|Yes||
 |[Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)|Yes||
 
- Special considerations for version control with Unity:
+Special considerations for version control with Unity:
 
-1.  Unity tracks metadata about game assets in a single, opaque library that is hidden by default. To keep files and metadata in sync, it is necessary to make the metadata visible and to store it in more-manageable chunks. For details, refer to [Using External Version Control Systems with Unity](http://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html) (Unity documentation).
+1. Unity tracks metadata about game assets in a single, opaque library that is hidden by default. To keep files and metadata in sync, it is necessary to make the metadata visible and to store it in more-manageable chunks. For details, refer to [Using External Version Control Systems with Unity](http://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html) (Unity documentation).
 
-2.  Not all files and folders in a Unity project are appropriate for source control, as is also described in the link above. The Assets and ProjectSettings folders should be added, but the Library and Temp folders should not. For an additional list of generated files that would not go into source control, see the discussion [How to use Git for Unity3D source control?](http://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control) on StackOverflow. Many developers have also blogged on this subject independently.
+2. Not all files and folders in a Unity project are appropriate for source control, as is also described in the link above. The Assets and ProjectSettings folders should be added, but the Library and Temp folders should not. For an additional list of generated files that would not go into source control, see the discussion [How to use Git for Unity3D source control?](http://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control) on StackOverflow. Many developers have also blogged on this subject independently.
 
-3.  Binary assets in a Unity project—such as textures or audio files—can take up a large amount of storage. Various source control systems like Git store a unique copy of a file for every change that is made, even if the change affects only a small portion of the file. This can cause the Git repository to become bloated. To address this, Unity developers often elect to add only final assets to their repository, and use a different means of keeping a working history of their assets, such as OneDrive, DropBox, or git-annex. This approach works because such assets typically don't need to be versioned along with source code changes. Developers also typically set the project editor's Asset Serialization Mode to Force Text to store scene files in text rather than binary format, which allows for merges in source control. For details, see [Editor Settings](http://docs.unity3d.com/Manual/class-EditorManager.html) (Unity documentation).
+3. Binary assets in a Unity project—such as textures or audio files—can take up a large amount of storage. Various source control systems like Git store a unique copy of a file for every change that is made, even if the change affects only a small portion of the file. This can cause the Git repository to become bloated. To address this, Unity developers often elect to add only final assets to their repository, and use a different means of keeping a working history of their assets, such as OneDrive, DropBox, or git-annex. This approach works because such assets typically don't need to be versioned along with source code changes. Developers also typically set the project editor's Asset Serialization Mode to Force Text to store scene files in text rather than binary format, which allows for merges in source control. For details, see [Editor Settings](http://docs.unity3d.com/Manual/class-EditorManager.html) (Unity documentation).
 
 ## Build
- Reference link: **[Build and Release](/azure/devops/build-release/index)**
+
+Reference link: **[Build and Release](/vsts/build-release/index)**
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
 |On-premises TFS server|Possible|Unity projects are built through the Unity environment and not through the Visual Studio build system (building within the Visual Studio Tools for Unity will compile the scripts but not produce an executable). It is possible to [build Unity projects from the command line](http://docs.unity3d.com/Manual/CommandLineArguments.html) (Unity documentation), so it possible to configure an MSBuild process on a TFS server to execute the appropriate Unity commands, provided that Unity itself is installed on that computer.<br /><br /> Unity also offers [Unity Cloud Build](https://build.cloud.unity3d.com/landing/), which monitors a Git or SVN repository and runs periodic builds. At present it does not work with Team Foundation Version Control or Visual Studio Team Services.|
-|On-premises build server linked to Visual Studio Team Services|Possible|Given the same conditions as above, it is further possible to direct builds triggered through Visual Studio Team Services to use an on-premises TFS computer.  See [Build and release agents](/azure/devops/build-release/concepts/agents/agents) for instructions.|
+|On-premises build server linked to Visual Studio Team Services|Possible|Given the same conditions as above, it is further possible to direct builds triggered through Visual Studio Team Services to use an on-premises TFS computer. See [Build and release agents](/vsts/build-release/concepts/agents/agents) for instructions.|
 |Hosted controller service of Visual Studio Team Services|No|Unity builds are not presently supported.|
 |Build definitions with pre- and post-scripts|Yes|A custom build definition that uses the Unity command line to run a build can also be configured for pre- and post-build scripts.|
 |Continuous integration including gated check-ins|Yes|Gated check-ins for TFVC only as Git works on a pull-request model rather than check-ins.|
 
-## Testing
+## Test
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
@@ -104,13 +104,13 @@ Reference link: **[Improve code quality](../test/improve-code-quality.md)**
 
 ## Release management
 
-Reference link: [Build and release overview](/azure/devops/pipelines/overview?view=vsts)
+Reference link: [Build and release overview](/vsts/pipelines/overview?view=vsts)
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
 |Manage release processes|Yes||
 |Deployment to servers for side-loading via scripts|Yes||
-|Upload to app store|Partial|Extensions are available that can automate this process for some app stores.  See [Extensions for Visual Studio Team Services](https://marketplace.visualstudio.com/VSTS); for example, the [extension for Google Play](https://marketplace.visualstudio.com/items?itemName=ms-vsclient.google-play).|
+|Upload to app store|Partial|Extensions are available that can automate this process for some app stores. See [Extensions for Visual Studio Team Services](https://marketplace.visualstudio.com/VSTS); for example, the [extension for Google Play](https://marketplace.visualstudio.com/items?itemName=ms-vsclient.google-play).|
 
 ## Monitor with HockeyApp
 

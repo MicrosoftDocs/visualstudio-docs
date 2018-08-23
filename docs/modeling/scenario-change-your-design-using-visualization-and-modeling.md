@@ -210,7 +210,7 @@ As their work progresses, the teams update their work items to reflect the time 
 
 See:
 
-- [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)
+- [About Agile tools and Agile project management](/vsts/boards/backlogs/overview?view=vsts)
 
 - [Charts, dashboards, and widgets (VSTS)](/vsts/report/dashboards/overview?view=vsts)
 
@@ -232,13 +232,13 @@ To make sure that the code conforms to the design, the teams configure their bui
 
 See:
 
-- [Testing the application](/azure/devops/test/overview?view=vsts)
+- [Testing the application](/vsts/test/overview?view=vsts)
 
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)
 
 - [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)
 
-- [Build and release](/azure/devops/build-release/index)
+- [Build and release](/vsts/build-release/index)
 
 ## Update the System Using Visualization and Modeling
 
