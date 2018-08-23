@@ -19,18 +19,18 @@ ms.workload:
 
 A code analysis check-in policy specifies a set of rules that members of an Azure DevOps project must run on source code before it is checked in to version control. Microsoft provides a set of standard *rule sets* that group code analysis rules into functional areas. *Custom check-in policy rule sets* specify a set of code analysis rules that are specific to a project. A rule set is stored in a .ruleset file.
 
-Check-in policies are set at the project level and specified by the location of a .ruleset file in the version control tree. There are no restrictions on the version control location of the team policy custom rule set.
+Check-in policies are set at the Azure DevOps project level and specified by the location of a .ruleset file in the version control tree. There are no restrictions on the version control location of the team policy custom rule set.
 
 Code analysis is configured for the individual code projects in the properties window for each project. A custom rule set for a code project is specified by the physical location of the .ruleset file on the local computer. When a .ruleset file is specified that is located on the same drive as the code project, Visual Studio uses a relative path to the file in the project configuration.
 
-A suggested practice for creating a project custom rule set is to store the check-in policy .ruleset file in a special folder that is not a part of any code project. If you store the file in a dedicated folder, you can apply permissions that restrict who can edit the rule file, and you can easily move the directory structure that contains the project to another directory or computer.
+A suggested practice for creating an Azure DevOps project custom rule set is to store the check-in policy .ruleset file in a special folder that is not a part of any code project. If you store the file in a dedicated folder, you can apply permissions that restrict who can edit the rule file, and you can easily move the directory structure that contains the project to another directory or computer.
 
 ## Create the Project Custom Check-in Rule Set
 
-To create a custom rule set for a project, you first create a special folder for the check-in policy rule set in **Source Control Explorer**. Then you create the rule set file and add the file to version control. Finally, you specify the rule set as the code analysis check-in policy for the project.
+To create a custom rule set for an Azure DevOps project, you first create a special folder for the check-in policy rule set in **Source Control Explorer**. Then you create the rule set file and add the file to version control. Finally, you specify the rule set as the code analysis check-in policy for the project.
 
 > [!NOTE]
-> To create a folder in a project, you first must map the project root to a location on the local computer.
+> To create a folder in an Azure DevOps project, you first must map the project root to a location on the local computer.
 
 ### To create the version control folder for the check-in policy rule set
 
@@ -65,7 +65,7 @@ To create a custom rule set for a project, you first create a special folder for
 4. In the **Check-in** dialog box, you  have the option to add a comment and then click **Check In**.
 
     > [!NOTE]
-    > If you have already configured a code analysis check-in policy for your project and you have selected the **Enforce check-in to only contain files that are part of current solution**, you will trigger a policy failure warning. In the Policy Failure dialog box, select **Override policy failure and continue checkin**. Add a required comment, and then click **OK**.
+    > If you have already configured a code analysis check-in policy for your Azure DevOps project and you have selected the **Enforce check-in to only contain files that are part of current solution**, you will trigger a policy failure warning. In the Policy Failure dialog box, select **Override policy failure and continue checkin**. Add a required comment, and then click **OK**.
 
 ### To specify the rule set file as the check-in policy
 
