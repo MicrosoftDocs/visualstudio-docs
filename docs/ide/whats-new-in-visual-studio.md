@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2017"
 description: "Learn about the new features in Visual Studio 2017."
 ms.custom: ""
-ms.date: 08/20/2018
+ms.date: 08/21/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -129,6 +129,12 @@ For more information about automated tests, see the [CI/CD pipeline for automate
 And, for more information about what's new in the [Continuous delivery tools for Visual Studio](https://marketplace.visualstudio.com/items?itemName=VSIDEDevOpsMSFT.ContinuousDeliveryToolsforVisualStudio) DevLabs extension, see the [Commit with confidence: Commit time code quality](https://blogs.msdn.microsoft.com/visualstudio/2017/08/21/committing-with-confidence-commit-time-code-quality-information-updated/) blog post.
 
 ### Visual Studio IDE enhancements
+
+#### Multi-caret editing
+
+**New in 15.8**: Editing multiple locations in a file, simultaneously, is now easy. Start by creating insertion points and selections at multiple locations in a file. Then, use the multi-caret editing feature to make the same edit in two or more places at the same time.
+
+For more information, see the [Multi-caret selection](finding-and-replacing-text.md#multi-caret-selection) section of the of the [Find and replace text](finding-and-replacing-text.md) page.
 
 #### Keep keybinding profiles consistent
 
