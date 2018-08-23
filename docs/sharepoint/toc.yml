@@ -4,8 +4,6 @@
   - name: Getting Started in SharePoint Development
     href: getting-started-sharepoint-development-in-visual-studio.md
     items:
-    - name: Requirements for Developing SharePoint Solutions
-      href: requirements-for-developing-sharepoint-solutions.md
     - name: Additional Information for SharePoint Errors
       href: additional-information-for-sharepoint-errors.md
   - name: Developing SharePoint Solutions

@@ -27,8 +27,7 @@ Identifies the assembly that should be executed when this [!INCLUDE[ndptecclick]
 ## Syntax  
   
 ```xml  
-  
-      <entryPoint  
+<entryPoint  
    name  
 >  
    <assemblyIdentity  

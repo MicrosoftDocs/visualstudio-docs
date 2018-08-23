@@ -1,0 +1,52 @@
+---
+title: "IDebugErrorBreakpoint2::GetPendingBreakpoint | Microsoft Docs"
+ms.custom: ""
+ms.date: "2018-06-30"
+ms.prod: "visual-studio-dev14"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-sdk"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "IDebugErrorBreakpoint2::GetPendingBreakpoint"
+helpviewer_keywords: 
+  - "IDebugErrorBreakpoint2::GetPendingBreakpoint"
+ms.assetid: 59d0defc-99fd-445c-bdac-8224d5dea3f9
+caps.latest.revision: 11
+ms.author: "gregvanl"
+manager: "ghogen"
+---
+# IDebugErrorBreakpoint2::GetPendingBreakpoint
+[!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
+
+The latest version of this topic can be found at [IDebugErrorBreakpoint2::GetPendingBreakpoint](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugerrorbreakpoint2-getpendingbreakpoint).  
+  
+Gets the pending breakpoint that caused the error.  
+  
+## Syntax  
+  
+```cpp#  
+HRESULT GetPendingBreakpoint (   
+   IDebugPendingBreakpoint2** ppPendingBreakpoint  
+);  
+```  
+  
+```csharp  
+int GetPendingBreakpoint (   
+   out IDebugPendingBreakpoint2 ppPendingBreakpoint  
+);  
+```  
+  
+#### Parameters  
+ `ppPendingBreakpoint`  
+ [out] Returns an [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md) object that represents the pending breakpoint that failed to be bound.  
+  
+## Return Value  
+ If successful, returns `S_OK`; otherwise, returns an error code.  
+  
+## See Also  
+ [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md)   
+ [IDebugPendingBreakpoint2](../../../extensibility/debugger/reference/idebugpendingbreakpoint2.md)
+

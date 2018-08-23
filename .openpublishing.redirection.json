@@ -5878,6 +5878,26 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/welcome-to-visual-studio-2015.md",
+            "redirect_url": "/visualstudio/",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/what-s-new-in-visual-studio-2015.md",
+            "redirect_url": "/visualstudio/ide/whats-new-in-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/install/install-visual-studio-2015.md",
+            "redirect_url": "/visualstudio/install/install-visual-studio",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/porting-migrating-and-upgrading-visual-studio-projects.md",
+            "redirect_url": "/visualstudio/port-migrate-and-upgrade-visual-studio-projects",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "mac/benefits-vsmac-over-xs.md",
             "redirect_url": "/visualstudio/mac/",
             "redirect_document_id": false
@@ -5886,7 +5906,11 @@
             "source_path": "docs/cross-platform/overview-of-visual-studio-tools-for-unity.md",
             "redirect_url": "/visualstudio/cross-platform/visual-studio-tools-for-unity",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/sharepoint/requirements-for-developing-sharepoint-solutions.md",
+            "redirect_url": "/visualstudio/sharepoint/getting-started-sharepoint-development-in-visual-studio",
+            "redirect_document_id": false
         }
-
     ]
 }
