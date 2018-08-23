@@ -18,7 +18,7 @@ The Visual Studio Kubernetes Tools help streamline the development of containeri
 
 To leverage this new functionality, you'll need:
 
-- The latest preview of [Visual Studio 2017](https://visualstudio.microsoft.com/vs/preview) with the Azure development workload.
+- The latest version of [Visual Studio 2017](https://visualstudio.microsoft.com/download) with the *ASP.NET and web development* workload.
 
 - The [Kubernetes tools for Visual Studio](https://aka.ms/get-vsk8stools), available as a separate download.
 
