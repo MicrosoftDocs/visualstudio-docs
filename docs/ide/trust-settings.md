@@ -27,7 +27,7 @@ helpviewer_keywords:
 ---
 # Configure trust settings for files and folders
 
-In previous versions of Visual Studio, projects with the Mark of the Web were blocked from opening until the user explicitly approved them. To help you keep your Visual Studio secure, we've extended this type of check to include the opening of files and folders.
+In previous versions of Visual Studio, projects with the mark of the web were blocked from opening until the user explicitly approved them. To help you keep your Visual Studio secure, we've extended this type of check to include the opening of files and folders.
 
 These additional checks are disabled by default.
 
@@ -39,9 +39,9 @@ To change your trust settings, follow these steps:
 
 1. Open **Tools** > **Options** > **Trust Settings** and click on the _Configure Trust Settings_ link in the pane.
 2. Choose what level of checks you'd like for files and folders. You can have different checks for each one. Your options are:
-    1. No verification: Visual Studio will not perform any checks.
+    1. No verification: Visual Studio won't perform any checks.
     2. Verify mark of the web attribute: Visual Studio will block and ask for permission to open if the file or folder has the mark of the web attribute.
-    3. Verify path is trusted: Visual Studio will block and ask for permission to open if the file or folder path is not part of the Trusted Paths list.
+    3. Verify path is trusted: Visual Studio will block and ask for permission to open if the file or folder path isn't part of the Trusted Paths list.
 
 ![Trust verification options](../media/trustsettings-verification.PNG)
 
