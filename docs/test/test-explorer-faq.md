@@ -34,7 +34,7 @@ manager: douge
   ![Plus symbol summary line](media/testex-plussymbol.png)
 
 ## Assembly-based discovery
-### Assembly-based discovery is no longer working for my project. How do I turn it back on?
+**Assembly-based discovery is no longer working for my project. How do I turn it back on?**
 
   Go to **Tools** > **Options** > **Test** and check the box for **Additionally discover tests from built assemblies after builds.**
 
