@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2006: Use SafeHandle to encapsulate native resources](https://docs.microsoft.com/visualstudio/code-quality/ca2006-use-safehandle-to-encapsulate-native-resources).
 
+|||
+|-|-|
 |TypeName|UseSafeHandleToEncapsulateNativeResources|
 |CheckId|CA2006|
 |Category|Microsoft.Reliability|

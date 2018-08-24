@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1302: Do not hardcode locale specific strings](https://docs.microsoft.com/visualstudio/code-quality/ca1302-do-not-hardcode-locale-specific-strings).
 
+|||
+|-|-|
 |TypeName|DoNotHardcodeLocaleSpecificStrings|
 |CheckId|CA1302|
 |Category|Microsoft.Globalization|

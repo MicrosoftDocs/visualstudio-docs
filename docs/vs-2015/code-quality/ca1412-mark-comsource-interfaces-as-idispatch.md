@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1412: Mark ComSource Interfaces as IDispatch](https://docs.microsoft.com/visualstudio/code-quality/ca1412-mark-comsource-interfaces-as-idispatch).
 
+|||
+|-|-|
 |TypeName|MarkComSourceInterfacesAsIDispatch|
 |CheckId|CA1412|
 |Category|Microsoft.Interoperability|

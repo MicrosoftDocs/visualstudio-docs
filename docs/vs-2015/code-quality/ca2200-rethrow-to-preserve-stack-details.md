@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2200: Rethrow to preserve stack details](https://docs.microsoft.com/visualstudio/code-quality/ca2200-rethrow-to-preserve-stack-details).
 
+|||
+|-|-|
 |TypeName|RethrowToPreserveStackDetails|
 |CheckId|CA2200|
 |Category|Microsoft.Usage|

@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1035: ICollection implementations have strongly typed members](https://docs.microsoft.com/visualstudio/code-quality/ca1035-icollection-implementations-have-strongly-typed-members).
 
+|||
+|-|-|
 |TypeName|ICollectionImplementationsHaveStronglyTypedMembers|
 |CheckId|CA1035|
 |Category|Microsoft.Design|

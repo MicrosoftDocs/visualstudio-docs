@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1809: Avoid excessive locals](https://docs.microsoft.com/visualstudio/code-quality/ca1809-avoid-excessive-locals).
 
+|||
+|-|-|
 |TypeName|AvoidExcessiveLocals|
 |CheckId|CA1809|
 |Category|Microsoft.Performance|

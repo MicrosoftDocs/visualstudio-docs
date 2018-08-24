@@ -30,6 +30,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1013: Overload operator equals on overloading add and subtract](https://docs.microsoft.com/visualstudio/code-quality/ca1013-overload-operator-equals-on-overloading-add-and-subtract).
 
+|||
+|-|-|
 |TypeName|OverloadOperatorEqualsOnOverloadingAddAndSubtract|
 |CheckId|CA1013|
 |Category|Microsoft.Design|

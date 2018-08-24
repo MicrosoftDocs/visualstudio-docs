@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1009: Declare event handlers correctly](https://docs.microsoft.com/visualstudio/code-quality/ca1009-declare-event-handlers-correctly).
 
+|||
+|-|-|
 |TypeName|DeclareEventHandlersCorrectly|
 |CheckId|CA1009|
 |Category|Microsoft.Design|

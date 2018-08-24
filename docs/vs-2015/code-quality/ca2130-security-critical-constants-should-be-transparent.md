@@ -22,6 +22,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2130: Security critical constants should be transparent](https://docs.microsoft.com/visualstudio/code-quality/ca2130-security-critical-constants-should-be-transparent).
 
+|||
+|-|-|
 |TypeName|ConstantsShouldBeTransparent|
 |CheckId|CA2130|
 |Category|Microsoft.Security|

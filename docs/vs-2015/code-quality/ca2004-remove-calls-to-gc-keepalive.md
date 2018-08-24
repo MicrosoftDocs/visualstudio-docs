@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2004: Remove calls to GC.KeepAlive](https://docs.microsoft.com/visualstudio/code-quality/ca2004-remove-calls-to-gc-keepalive).
 
+|||
+|-|-|
 |TypeName|RemoveCallsToGCKeepAlive|
 |CheckId|CA2004|
 |Category|Microsoft.Reliability|

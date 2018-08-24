@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1300: Specify MessageBoxOptions](https://docs.microsoft.com/visualstudio/code-quality/ca1300-specify-messageboxoptions).
 
+|||
+|-|-|
 |TypeName|SpecifyMessageBoxOptions|
 |CheckId|CA1300|
 |Category|Microsoft.Globalization|

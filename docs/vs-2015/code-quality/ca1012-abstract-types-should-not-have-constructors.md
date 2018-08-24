@@ -25,6 +25,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1012: Abstract types should not have constructors](https://docs.microsoft.com/visualstudio/code-quality/ca1012-abstract-types-should-not-have-constructors).
 
+|||
+|-|-|
 |TypeName|AbstractTypesShouldNotHaveConstructors|
 |CheckId|CA1012|
 |Category|Microsoft.Design|

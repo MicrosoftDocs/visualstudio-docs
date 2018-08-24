@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2107: Review deny and permit only usage](https://docs.microsoft.com/visualstudio/code-quality/ca2107-review-deny-and-permit-only-usage).
 
+|||
+|-|-|
 |TypeName|ReviewDenyAndPermitOnlyUsage|
 |CheckId|CA2107|
 |Category|Microsoft.Security|

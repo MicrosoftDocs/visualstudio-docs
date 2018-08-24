@@ -27,6 +27,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2136: Members should not have conflicting transparency annotations](https://docs.microsoft.com/visualstudio/code-quality/ca2136-members-should-not-have-conflicting-transparency-annotations).
 
+|||
+|-|-|
 |TypeName|TransparencyAnnotationsShouldNotConflict|
 |CheckId|CA2136|
 |Category|Microsoft.Security|

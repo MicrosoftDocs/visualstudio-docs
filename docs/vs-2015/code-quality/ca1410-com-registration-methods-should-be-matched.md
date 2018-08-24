@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1410: COM registration methods should be matched](https://docs.microsoft.com/visualstudio/code-quality/ca1410-com-registration-methods-should-be-matched).
 
+|||
+|-|-|
 |TypeName|ComRegistrationMethodsShouldBeMatched|
 |CheckId|CA1410|
 |Category|Microsoft.Interoperability|

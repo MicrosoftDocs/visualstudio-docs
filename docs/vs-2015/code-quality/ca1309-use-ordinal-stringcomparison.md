@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1309: Use ordinal StringComparison](https://docs.microsoft.com/visualstudio/code-quality/ca1309-use-ordinal-stringcomparison).
 
+|||
+|-|-|
 |TypeName|UseOrdinalStringComparison|
 |CheckId|CA1309|
 |Category|Microsoft.Globalization|

@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1600: Do not use idle process priority](https://docs.microsoft.com/visualstudio/code-quality/ca1600-do-not-use-idle-process-priority).
 
+|||
+|-|-|
 |TypeName|DoNotUseIdleProcessPriority|
 |CheckId|CA1600|
 |Category|Microsoft.Mobility|

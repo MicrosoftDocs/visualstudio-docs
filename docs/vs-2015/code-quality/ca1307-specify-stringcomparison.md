@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1307: Specify StringComparison](https://docs.microsoft.com/visualstudio/code-quality/ca1307-specify-stringcomparison).
 
+|||
+|-|-|
 |TypeName|SpecifyStringComparison|
 |CheckId|CA1307|
 |Category|Microsoft.Globalization|

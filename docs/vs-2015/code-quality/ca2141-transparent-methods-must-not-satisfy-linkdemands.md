@@ -22,6 +22,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2141:Transparent methods must not satisfy LinkDemands](https://docs.microsoft.com/visualstudio/code-quality/ca2141-transparent-methods-must-not-satisfy-linkdemands).
 
+|||
+|-|-|
 |TypeName|TransparentMethodsMustNotSatisfyLinkDemands|
 |CheckId|CA2141|
 |Category|Microsoft.Security|

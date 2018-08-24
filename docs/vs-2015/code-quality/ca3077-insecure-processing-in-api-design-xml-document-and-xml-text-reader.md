@@ -19,6 +19,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA3077: Insecure Processing in API Design, XML Document and XML Text Reader](https://docs.microsoft.com/visualstudio/code-quality/ca3077-insecure-processing-in-api-design-xml-document-and-xml-text-reader).
 
+|||
+|-|-|
 |TypeName|InsecureDTDProcessingInAPIDesign|
 |CheckId|CA3077|
 |Category|Microsoft.Security|

@@ -22,6 +22,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2132: Default constructors must be at least as critical as base type default constructors](https://docs.microsoft.com/visualstudio/code-quality/ca2132-default-constructors-must-be-at-least-as-critical-as-base-type-default-constructors).
 
+|||
+|-|-|
 |TypeName|DefaultConstructorsMustHaveConsistentTransparency|
 |CheckId|CA2132|
 |Category|Microsoft.Security|

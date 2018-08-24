@@ -20,6 +20,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2151: Fields with critical types should be security critical](https://docs.microsoft.com/visualstudio/code-quality/ca2151-fields-with-critical-types-should-be-security-critical).
 
+|||
+|-|-|
 |TypeName||
 |CheckId|CA2151|
 |Category|Microsoft.Security|

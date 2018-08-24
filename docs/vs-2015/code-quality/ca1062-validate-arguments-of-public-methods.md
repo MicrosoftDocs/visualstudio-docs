@@ -27,6 +27,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1062: Validate arguments of public methods](https://docs.microsoft.com/visualstudio/code-quality/ca1062-validate-arguments-of-public-methods).
 
+|||
+|-|-|
 |TypeName|ValidateArgumentsOfPublicMethods|
 |CheckId|CA1062|
 |Category|Microsoft.Design|

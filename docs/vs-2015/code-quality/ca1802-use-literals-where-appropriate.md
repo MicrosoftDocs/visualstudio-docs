@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1802: Use Literals Where Appropriate](https://docs.microsoft.com/visualstudio/code-quality/ca1802-use-literals-where-appropriate).
 
+|||
+|-|-|
 |TypeName|UseLiteralsWhereAppropriate|
 |CheckId|CA1802|
 |Category|Microsoft.Performance|

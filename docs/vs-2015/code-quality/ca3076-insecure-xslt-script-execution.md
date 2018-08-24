@@ -19,6 +19,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA3076: Insecure XSLT Script Execution](https://docs.microsoft.com/visualstudio/code-quality/ca3076-insecure-xslt-script-execution).
 
+|||
+|-|-|
 |TypeName|InsecureXSLTScriptExecution|
 |CheckId|CA3076|
 |Category|Microsoft.Security|

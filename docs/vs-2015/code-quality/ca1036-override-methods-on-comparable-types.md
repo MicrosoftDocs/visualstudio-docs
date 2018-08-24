@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1036: Override methods on comparable types](https://docs.microsoft.com/visualstudio/code-quality/ca1036-override-methods-on-comparable-types).
 
+|||
+|-|-|
 |TypeName|OverrideMethodsOnComparableTypes|
 |CheckId|CA1036|
 |Category|Microsoft.Design|

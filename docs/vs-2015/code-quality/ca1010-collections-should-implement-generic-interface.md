@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1010: Collections should implement generic interface](https://docs.microsoft.com/visualstudio/code-quality/ca1010-collections-should-implement-generic-interface).
 
+|||
+|-|-|
 |TypeName|CollectionsShouldImplementGenericInterface|
 |CheckId|CA1010|
 |Category|Microsoft.Design|

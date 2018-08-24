@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1019: Define accessors for attribute arguments](https://docs.microsoft.com/visualstudio/code-quality/ca1019-define-accessors-for-attribute-arguments).
 
+|||
+|-|-|
 |TypeName|DefineAccessorsForAttributeArguments|
 |CheckId|CA1019|
 |Category|Microsoft.Design|

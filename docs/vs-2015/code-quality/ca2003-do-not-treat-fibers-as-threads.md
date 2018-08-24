@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2003: Do not treat fibers as threads](https://docs.microsoft.com/visualstudio/code-quality/ca2003-do-not-treat-fibers-as-threads).
 
+|||
+|-|-|
 |TypeName|DoNotTreatFibersAsThreads|
 |CheckId|CA2003|
 |Category|Microsoft.Reliability|

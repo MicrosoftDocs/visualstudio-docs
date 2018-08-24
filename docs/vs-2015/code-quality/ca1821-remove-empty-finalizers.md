@@ -25,6 +25,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1821: Remove empty finalizers](https://docs.microsoft.com/visualstudio/code-quality/ca1821-remove-empty-finalizers).
 
+|||
+|-|-|
 |TypeName|RemoveEmptyFinalizers|
 |CheckId|CA1821|
 |Category|Microsoft.Performance|

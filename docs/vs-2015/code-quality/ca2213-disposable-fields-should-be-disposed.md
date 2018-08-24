@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2213: Disposable fields should be disposed](https://docs.microsoft.com/visualstudio/code-quality/ca2213-disposable-fields-should-be-disposed).
 
+|||
+|-|-|
 |TypeName|DisposableFieldsShouldBeDisposed|
 |CheckId|CA2213|
 |Category|Microsoft.Usage|

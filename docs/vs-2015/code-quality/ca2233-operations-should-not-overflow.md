@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2233: Operations should not overflow](https://docs.microsoft.com/visualstudio/code-quality/ca2233-operations-should-not-overflow).
 
+|||
+|-|-|
 |TypeName|OperationsShouldNotOverflow|
 |CheckId|CA2233|
 |Category|Microsoft.Usage|

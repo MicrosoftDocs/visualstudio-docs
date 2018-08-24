@@ -22,6 +22,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2138: Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute](https://docs.microsoft.com/visualstudio/code-quality/ca2138-transparent-methods-must-not-call-methods-with-the-suppressunmanagedcodesecurity-attribute).
 
+|||
+|-|-|
 |TypeName|TransparentMethodsMustNotCallSuppressUnmanagedCodeSecurityMethods|
 |CheckId|CA2138|
 |Category|Microsoft.Security|

@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2103: Review imperative security](https://docs.microsoft.com/visualstudio/code-quality/ca2103-review-imperative-security).
 
+|||
+|-|-|
 |TypeName|ReviewImperativeSecurity|
 |CheckId|CA2103|
 |Category|Microsoft.Security|

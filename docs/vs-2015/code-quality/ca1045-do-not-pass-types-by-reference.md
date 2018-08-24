@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1045: Do not pass types by reference](https://docs.microsoft.com/visualstudio/code-quality/ca1045-do-not-pass-types-by-reference).
 
+|||
+|-|-|
 |TypeName|DoNotPassTypesByReference|
 |CheckId|CA1045|
 |Category|Microsoft.Design|

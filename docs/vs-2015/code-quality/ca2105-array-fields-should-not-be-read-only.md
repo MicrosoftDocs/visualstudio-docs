@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2105: Array fields should not be read only](https://docs.microsoft.com/visualstudio/code-quality/ca2105-array-fields-should-not-be-read-only).
 
+|||
+|-|-|
 |TypeName|ArrayFieldsShouldNotBeReadOnly|
 |CheckId|CA2105|
 |Category|Microsoft.Security|

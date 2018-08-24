@@ -22,6 +22,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2144: Transparent code should not load assemblies from byte arrays](https://docs.microsoft.com/visualstudio/code-quality/ca2144-transparent-code-should-not-load-assemblies-from-byte-arrays).
 
+|||
+|-|-|
 |TypeName|TransparentMethodsShouldNotLoadAssembliesFromByteArrays|
 |CheckId|CA2144|
 |Category|Microsoft.Security|

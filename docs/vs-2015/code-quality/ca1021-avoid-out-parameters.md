@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1021: Avoid out parameters](https://docs.microsoft.com/visualstudio/code-quality/ca1021-avoid-out-parameters).
 
+|||
+|-|-|
 |TypeName|AvoidOutParameters|
 |CheckId|CA1021|
 |Category|Microsoft.Design|

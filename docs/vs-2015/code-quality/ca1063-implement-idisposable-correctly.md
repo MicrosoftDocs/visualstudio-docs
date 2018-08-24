@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1063: Implement IDisposable correctly](https://docs.microsoft.com/visualstudio/code-quality/ca1063-implement-idisposable-correctly).
 
+|||
+|-|-|
 |TypeName|ImplementIDisposableCorrectly|
 |CheckId|CA1063|
 |Category|Microsoft.Design|

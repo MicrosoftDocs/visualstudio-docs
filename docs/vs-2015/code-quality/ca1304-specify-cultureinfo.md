@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1304: Specify CultureInfo](https://docs.microsoft.com/visualstudio/code-quality/ca1304-specify-cultureinfo).
 
+|||
+|-|-|
 |TypeName|SpecifyCultureInfo|
 |CheckId|CA1304|
 |Category|Microsoft.Globalization|

@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2109: Review visible event handlers](https://docs.microsoft.com/visualstudio/code-quality/ca2109-review-visible-event-handlers).
 
+|||
+|-|-|
 |TypeName|ReviewVisibleEventHandlers|
 |CheckId|CA2109|
 |Category|Microsoft.Security|

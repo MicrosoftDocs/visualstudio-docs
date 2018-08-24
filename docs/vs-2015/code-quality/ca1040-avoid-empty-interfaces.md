@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1040: Avoid empty interfaces](https://docs.microsoft.com/visualstudio/code-quality/ca1040-avoid-empty-interfaces).
 
+|||
+|-|-|
 |TypeName|AvoidEmptyInterfaces|
 |CheckId|CA1040|
 |Category|Microsoft.Design|

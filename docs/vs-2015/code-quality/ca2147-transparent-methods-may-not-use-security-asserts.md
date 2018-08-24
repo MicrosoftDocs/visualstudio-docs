@@ -27,6 +27,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2147: Transparent methods may not use security asserts](https://docs.microsoft.com/visualstudio/code-quality/ca2147-transparent-methods-may-not-use-security-asserts).
 
+|||
+|-|-|
 |TypeName|SecurityTransparentCodeShouldNotAssert|
 |CheckId|CA2147|
 |Category|Microsoft.Security|

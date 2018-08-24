@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1023: Indexers should not be multidimensional](https://docs.microsoft.com/visualstudio/code-quality/ca1023-indexers-should-not-be-multidimensional).
 
+|||
+|-|-|
 |TypeName|IndexersShouldNotBeMultidimensional|
 |CheckId|CA1023|
 |Category|Microsoft.Design|

@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1030: Use events where appropriate](https://docs.microsoft.com/visualstudio/code-quality/ca1030-use-events-where-appropriate).
 
+|||
+|-|-|
 |TypeName|UseEventsWhereAppropriate|
 |CheckId|CA1030|
 |Category|Microsoft.Design|

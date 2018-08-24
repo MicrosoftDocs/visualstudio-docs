@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2001: Avoid calling problematic methods](https://docs.microsoft.com/visualstudio/code-quality/ca2001-avoid-calling-problematic-methods).
 
+|||
+|-|-|
 |TypeName|AvoidCallingProblematicMethods|
 |CheckId|CA2001|
 |Category|Microsoft.Reliability|

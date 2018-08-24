@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1504: Review misleading field names](https://docs.microsoft.com/visualstudio/code-quality/ca1504-review-misleading-field-names).
 
+|||
+|-|-|
 |TypeName|ReviewMisleadingFieldNames|
 |CheckId|CA1504|
 |Category|Microsoft.Maintainability|

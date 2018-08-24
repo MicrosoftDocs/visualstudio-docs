@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1017: Mark assemblies with ComVisibleAttribute](https://docs.microsoft.com/visualstudio/code-quality/ca1017-mark-assemblies-with-comvisibleattribute).
 
+|||
+|-|-|
 |TypeName|MarkAssembliesWithComVisible|
 |CheckId|CA1017|
 |Category|Microsoft.Design|

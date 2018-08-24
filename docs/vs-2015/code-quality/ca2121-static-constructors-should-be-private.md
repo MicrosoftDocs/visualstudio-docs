@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2121: Static constructors should be private](https://docs.microsoft.com/visualstudio/code-quality/ca2121-static-constructors-should-be-private).
 
+|||
+|-|-|
 |TypeName|StaticConstructorsShouldBePrivate|
 |CheckId|CA2121|
 |Category|Microsoft.Security|

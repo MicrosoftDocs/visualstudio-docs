@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2217: Do not mark enums with FlagsAttribute](https://docs.microsoft.com/visualstudio/code-quality/ca2217-do-not-mark-enums-with-flagsattribute).
 
+|||
+|-|-|
 |TypeName|DoNotMarkEnumsWithFlags|
 |CheckId|CA2217|
 |Category|Microsoft.Usage|

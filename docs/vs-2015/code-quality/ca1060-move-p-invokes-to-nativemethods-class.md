@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1060: Move P-Invokes to NativeMethods class](https://docs.microsoft.com/visualstudio/code-quality/ca1060-move-p-invokes-to-nativemethods-class).
 
+|||
+|-|-|
 |TypeName|MovePInvokesToNativeMethodsClass|
 |CheckId|CA1060|
 |Category|Microsoft.Design|

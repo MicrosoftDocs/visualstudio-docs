@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1028: Enum storage should be Int32](https://docs.microsoft.com/visualstudio/code-quality/ca1028-enum-storage-should-be-int32).
 
+|||
+|-|-|
 |TypeName|EnumStorageShouldBeInt32|
 |CheckId|CA1028|
 |Category|Microsoft.Design|

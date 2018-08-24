@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1700: Do not name enum values &#39;Reserved&#39;](https://docs.microsoft.com/visualstudio/code-quality/ca1700-do-not-name-enum-values-reserved).
 
+|||
+|-|-|
 |TypeName|DoNotNameEnumValuesReserved|
 |CheckId|CA1700|
 |Category|Microsoft.Naming|

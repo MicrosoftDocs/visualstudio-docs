@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1020: Avoid namespaces with few types](https://docs.microsoft.com/visualstudio/code-quality/ca1020-avoid-namespaces-with-few-types).
 
+|||
+|-|-|
 |TypeName|AvoidNamespacesWithFewTypes|
 |CheckId|CA1020|
 |Category|Microsoft.Design|

@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2114: Method security should be a superset of type](https://docs.microsoft.com/visualstudio/code-quality/ca2114-method-security-should-be-a-superset-of-type).
 
+|||
+|-|-|
 |TypeName|MethodSecurityShouldBeASupersetOfType|
 |CheckId|CA2114|
 |Category|Microsoft.Security|

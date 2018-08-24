@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1506: Avoid excessive class coupling](https://docs.microsoft.com/visualstudio/code-quality/ca1506-avoid-excessive-class-coupling).
 
+|||
+|-|-|
 |TypeName|AvoidExcessiveClassCoupling|
 |CheckId|CA1506|
 |Category|Microsoft.Maintainability|

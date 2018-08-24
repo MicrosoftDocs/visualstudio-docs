@@ -22,6 +22,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2137: Transparent methods must contain only verifiable IL](https://docs.microsoft.com/visualstudio/code-quality/ca2137-transparent-methods-must-contain-only-verifiable-il).
 
+|||
+|-|-|
 |TypeName|TransparentMethodsMustBeVerifiable|
 |CheckId|CA2137|
 |Category|Microsoft.Security|

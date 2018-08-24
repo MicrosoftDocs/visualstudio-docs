@@ -27,6 +27,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2231: Overload operator equals on overriding ValueType.Equals](https://docs.microsoft.com/visualstudio/code-quality/ca2231-overload-operator-equals-on-overriding-valuetype-equals).
 
+|||
+|-|-|
 |TypeName|OverloadOperatorEqualsOnOverridingValueTypeEquals|
 |CheckId|CA2231|
 |Category|Microsoft.Usage|

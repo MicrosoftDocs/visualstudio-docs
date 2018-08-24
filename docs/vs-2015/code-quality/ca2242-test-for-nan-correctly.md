@@ -25,6 +25,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2242: Test for NaN correctly](https://docs.microsoft.com/visualstudio/code-quality/ca2242-test-for-nan-correctly).
 
+|||
+|-|-|
 |TypeName|TestForNaNCorrectly|
 |CheckId|CA2242|
 |Category|Microsoft.Usage|

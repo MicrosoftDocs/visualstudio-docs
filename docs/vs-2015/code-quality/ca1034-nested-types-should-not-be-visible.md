@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1034: Nested types should not be visible](https://docs.microsoft.com/visualstudio/code-quality/ca1034-nested-types-should-not-be-visible).
 
+|||
+|-|-|
 |TypeName|NestedTypesShouldNotBeVisible|
 |CheckId|CA1034|
 |Category|Microsoft.Design|

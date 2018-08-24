@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1002: Do not expose generic lists](https://docs.microsoft.com/visualstudio/code-quality/ca1002-do-not-expose-generic-lists).
 
+|||
+|-|-|
 |TypeName|DoNotExposeGenericLists|
 |CheckId|CA1002|
 |Category|Microsoft.Design|

@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2204: Literals should be spelled correctly](https://docs.microsoft.com/visualstudio/code-quality/ca2204-literals-should-be-spelled-correctly).
 
+|||
+|-|-|
 |TypeName|LiteralsShouldBeSpelledCorrectly|
 |CheckId|CA2204|
 |Category|Microsoft.Usage|

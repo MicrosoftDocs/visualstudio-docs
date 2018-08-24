@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1008: Enums should have zero value](https://docs.microsoft.com/visualstudio/code-quality/ca1008-enums-should-have-zero-value).
 
+|||
+|-|-|
 |TypeName|EnumsShouldHaveZeroValue|
 |CheckId|CA1008|
 |Category|Microsoft.Design|

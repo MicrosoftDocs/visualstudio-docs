@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1505: Avoid unmaintainable code](https://docs.microsoft.com/visualstudio/code-quality/ca1505-avoid-unmaintainable-code).
 
+|||
+|-|-|
 |TypeName|AvoidUnmantainableCode|
 |CheckId|CA1505|
 |Category|Microsoft.Maintainability|

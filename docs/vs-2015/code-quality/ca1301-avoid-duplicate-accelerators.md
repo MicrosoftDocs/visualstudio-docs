@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1301: Avoid duplicate accelerators](https://docs.microsoft.com/visualstudio/code-quality/ca1301-avoid-duplicate-accelerators).
 
+|||
+|-|-|
 |TypeName|AvoidDuplicateAccelerators|
 |CheckId|CA1301|
 |Category|Microsoft.Globalization|

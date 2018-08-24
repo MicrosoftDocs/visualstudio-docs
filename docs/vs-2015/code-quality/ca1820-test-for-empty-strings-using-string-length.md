@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1820: Test for empty strings using string length](https://docs.microsoft.com/visualstudio/code-quality/ca1820-test-for-empty-strings-using-string-length).
 
+|||
+|-|-|
 |TypeName|TestForEmptyStringsUsingStringLength|
 |CheckId|CA1820|
 |Category|Microsoft.Performance|

@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2210: Assemblies should have valid strong names](https://docs.microsoft.com/visualstudio/code-quality/ca2210-assemblies-should-have-valid-strong-names).
 
+|||
+|-|-|
 |TypeName|AssembliesShouldHaveValidStrongNames|
 |CheckId|CA2210|
 |Category|Microsoft.Design|

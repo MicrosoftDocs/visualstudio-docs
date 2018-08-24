@@ -19,6 +19,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2153: Avoid Handling Corrupted State Exceptions](https://docs.microsoft.com/visualstudio/code-quality/ca2153-avoid-handling-corrupted-state-exceptions).
 
+|||
+|-|-|
 |TypeName|AvoidHandlingCorruptedStateExceptions|
 |CheckId|CA2153|
 |Category|Microsoft.Security|

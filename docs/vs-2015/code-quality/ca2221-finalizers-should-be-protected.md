@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2221: Finalizers should be protected](https://docs.microsoft.com/visualstudio/code-quality/ca2221-finalizers-should-be-protected).
 
+|||
+|-|-|
 |TypeName|FinalizersShouldBeProtected|
 |CheckId|CA2221|
 |Category|Microsoft.Usage|

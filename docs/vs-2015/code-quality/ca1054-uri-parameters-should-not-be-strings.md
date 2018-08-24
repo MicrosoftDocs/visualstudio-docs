@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1054: URI parameters should not be strings](https://docs.microsoft.com/visualstudio/code-quality/ca1054-uri-parameters-should-not-be-strings).
 
+|||
+|-|-|
 |TypeName|UriParametersShouldNotBeStrings|
 |CheckId|CA1054|
 |Category|Microsoft.Design|

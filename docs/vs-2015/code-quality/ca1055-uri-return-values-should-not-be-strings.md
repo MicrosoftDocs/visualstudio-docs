@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1055: URI return values should not be strings](https://docs.microsoft.com/visualstudio/code-quality/ca1055-uri-return-values-should-not-be-strings).
 
+|||
+|-|-|
 |TypeName|UriReturnValuesShouldNotBeStrings|
 |CheckId|CA1055|
 |Category|Microsoft.Design|

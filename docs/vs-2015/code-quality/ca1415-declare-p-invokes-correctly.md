@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1415: Declare P-Invokes correctly](https://docs.microsoft.com/visualstudio/code-quality/ca1415-declare-p-invokes-correctly).
 
+|||
+|-|-|
 |TypeName|DeclarePInvokesCorrectly|
 |CheckId|CA1415|
 |Category|Microsoft.Interoperability|

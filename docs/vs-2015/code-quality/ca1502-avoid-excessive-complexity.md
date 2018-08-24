@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1502: Avoid excessive complexity](https://docs.microsoft.com/visualstudio/code-quality/ca1502-avoid-excessive-complexity).
 
+|||
+|-|-|
 |TypeName|AvoidExcessiveComplexity|
 |CheckId|CA1502|
 |Category|Microsoft.Maintainability|

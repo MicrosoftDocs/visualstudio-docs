@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1721: Property names should not match get methods](https://docs.microsoft.com/visualstudio/code-quality/ca1721-property-names-should-not-match-get-methods).
 
+|||
+|-|-|
 |TypeName|PropertyNamesShouldNotMatchGetMethods|
 |CheckId|CA1721|
 |Category|Microsoft.Naming|

@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1039: Lists are strongly typed](https://docs.microsoft.com/visualstudio/code-quality/ca1039-lists-are-strongly-typed).
 
+|||
+|-|-|
 |TypeName|ListsAreStronglyTyped|
 |CheckId|CA1039|
 |Category|Microsoft.Design|

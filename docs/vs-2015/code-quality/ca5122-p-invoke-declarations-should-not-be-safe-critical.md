@@ -20,6 +20,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA5122 P-Invoke declarations should not be safe critical](https://docs.microsoft.com/visualstudio/code-quality/ca5122-p-invoke-declarations-should-not-be-safe-critical).
 
+|||
+|-|-|
 |TypeName|PInvokesShouldNotBeSafeCriticalFxCopRule|
 |CheckId|CA5122|
 |Category|Microsoft.Security|

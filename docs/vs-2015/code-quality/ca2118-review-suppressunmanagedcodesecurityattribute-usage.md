@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2118: Review SuppressUnmanagedCodeSecurityAttribute usage](https://docs.microsoft.com/visualstudio/code-quality/ca2118-review-suppressunmanagedcodesecurityattribute-usage).
 
+|||
+|-|-|
 |TypeName|ReviewSuppressUnmanagedCodeSecurityUsage|
 |CheckId|CA2118|
 |Category|Microsoft.Security|

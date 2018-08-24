@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1811: Avoid uncalled private code](https://docs.microsoft.com/visualstudio/code-quality/ca1811-avoid-uncalled-private-code).
 
+|||
+|-|-|
 |TypeName|AvoidUncalledPrivateCode|
 |CheckId|CA1811|
 |Category|Microsoft.Performance|

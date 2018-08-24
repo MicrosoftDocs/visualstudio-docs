@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1024: Use properties where appropriate](https://docs.microsoft.com/visualstudio/code-quality/ca1024-use-properties-where-appropriate).
 
+|||
+|-|-|
 |TypeName|UsePropertiesWhereAppropriate|
 |CheckId|CA1024|
 |Category|Microsoft.Design|

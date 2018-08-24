@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2237: Mark ISerializable types with SerializableAttribute](https://docs.microsoft.com/visualstudio/code-quality/ca2237-mark-iserializable-types-with-serializableattribute).
 
+|||
+|-|-|
 |TypeName|MarkISerializableTypesWithSerializable|
 |CheckId|CA2237|
 |Category|Microsoft.Usage|

@@ -22,6 +22,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2143: Transparent methods should not use security demands](https://docs.microsoft.com/visualstudio/code-quality/ca2143-transparent-methods-should-not-use-security-demands).
 
+|||
+|-|-|
 |TypeName|TransparentMethodsShouldNotDemand|
 |CheckId|CA2143|
 |Category|Microsoft.Security|

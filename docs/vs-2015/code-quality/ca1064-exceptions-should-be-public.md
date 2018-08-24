@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1064: Exceptions should be public](https://docs.microsoft.com/visualstudio/code-quality/ca1064-exceptions-should-be-public).
 
+|||
+|-|-|
 |TypeName|ExceptionsShouldBePublic|
 |CheckId|CA1064|
 |Category|Microsoft.Design|

@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1804: Remove unused locals](https://docs.microsoft.com/visualstudio/code-quality/ca1804-remove-unused-locals).
 
+|||
+|-|-|
 |TypeName|RemoveUnusedLocals|
 |CheckId|CA1804|
 |Category|Microsoft.Performance|

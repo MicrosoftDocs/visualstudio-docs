@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1032: Implement standard exception constructors](https://docs.microsoft.com/visualstudio/code-quality/ca1032-implement-standard-exception-constructors).
 
+|||
+|-|-|
 |TypeName|ImplementStandardExceptionConstructors|
 |CheckId|CA1032|
 |Category|Microsoft.Design|

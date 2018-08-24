@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1027: Mark enums with FlagsAttribute](https://docs.microsoft.com/visualstudio/code-quality/ca1027-mark-enums-with-flagsattribute).
 
+|||
+|-|-|
 |TypeName|MarkEnumsWithFlags|
 |CheckId|CA1027|
 |Category|Microsoft.Design|

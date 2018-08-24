@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1052: Static holder types should be sealed](https://docs.microsoft.com/visualstudio/code-quality/ca1052-static-holder-types-should-be-sealed).
 
+|||
+|-|-|
 |TypeName|StaticHolderTypesShouldBeSealed|
 |CheckId|CA1052|
 |Category|Microsoft.Design|

@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1041: Provide ObsoleteAttribute message](https://docs.microsoft.com/visualstudio/code-quality/ca1041-provide-obsoleteattribute-message).
 
+|||
+|-|-|
 |TypeName|ProvideObsoleteAttributeMessage|
 |CheckId|CA1041|
 |Category|Microsoft.Design|

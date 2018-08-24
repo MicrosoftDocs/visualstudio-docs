@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1003: Use generic event handler instances](https://docs.microsoft.com/visualstudio/code-quality/ca1003-use-generic-event-handler-instances).
 
+|||
+|-|-|
 |TypeName|UseGenericEventHandlerInstances|
 |CheckId|CA1003|
 |Category|Microsoft.Design|

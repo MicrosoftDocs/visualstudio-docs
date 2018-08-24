@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1724: Type Names Should Not Match Namespaces](https://docs.microsoft.com/visualstudio/code-quality/ca1724-type-names-should-not-match-namespaces).
 
+|||
+|-|-|
 |TypeName|TypeNamesShouldNotMatchNamespaces|
 |CheckId|CA1724|
 |Category|Microsoft.Naming|

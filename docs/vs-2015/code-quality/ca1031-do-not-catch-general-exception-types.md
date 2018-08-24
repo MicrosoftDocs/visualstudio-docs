@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1031: Do not catch general exception types](https://docs.microsoft.com/visualstudio/code-quality/ca1031-do-not-catch-general-exception-types).
 
+|||
+|-|-|
 |TypeName|DoNotCatchGeneralExceptionTypes|
 |CheckId|CA1031|
 |Category|Microsoft.Design|

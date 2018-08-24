@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1018: Mark attributes with AttributeUsageAttribute](https://docs.microsoft.com/visualstudio/code-quality/ca1018-mark-attributes-with-attributeusageattribute).
 
+|||
+|-|-|
 |TypeName|MarkAttributesWithAttributeUsage|
 |CheckId|CA1018|
 |Category|Microsoft.Design|

@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2230: Use params for variable arguments](https://docs.microsoft.com/visualstudio/code-quality/ca2230-use-params-for-variable-arguments).
 
+|||
+|-|-|
 |TypeName|UseParamsForVariableArguments|
 |CheckId|CA2230|
 |Category|Microsoft.Usage|

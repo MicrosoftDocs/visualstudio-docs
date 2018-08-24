@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1800: Do not cast unnecessarily](https://docs.microsoft.com/visualstudio/code-quality/ca1800-do-not-cast-unnecessarily).
 
+|||
+|-|-|
 |TypeName|DoNotCastUnnecessarily|
 |CheckId|CA1800|
 |Category|Microsoft.Performance|

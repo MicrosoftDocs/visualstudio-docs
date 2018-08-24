@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1306: Set locale for data types](https://docs.microsoft.com/visualstudio/code-quality/ca1306-set-locale-for-data-types).
 
+|||
+|-|-|
 |TypeName|SetLocaleForDataTypes|
 |CheckId|CA1306|
 |Category|Microsoft.Globalization|

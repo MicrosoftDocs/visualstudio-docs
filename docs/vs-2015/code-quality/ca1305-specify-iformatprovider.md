@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1305: Specify IFormatProvider](https://docs.microsoft.com/visualstudio/code-quality/ca1305-specify-iformatprovider).
 
+|||
+|-|-|
 |TypeName|SpecifyIFormatProvider|
 |CheckId|CA1305|
 |Category|Microsoft.Globalization|

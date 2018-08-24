@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2235: Mark all non-serializable fields](https://docs.microsoft.com/visualstudio/code-quality/ca2235-mark-all-non-serializable-fields).
 
+|||
+|-|-|
 |TypeName|MarkAllNonSerializableFields|
 |CheckId|CA2235|
 |Category|Microsoft.Usage|

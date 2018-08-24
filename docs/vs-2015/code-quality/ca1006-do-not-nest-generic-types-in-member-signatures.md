@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1006: Do not nest generic types in member signatures](https://docs.microsoft.com/visualstudio/code-quality/ca1006-do-not-nest-generic-types-in-member-signatures).
 
+|||
+|-|-|
 |TypeName|DoNotNestGenericTypesInMemberSignatures|
 |CheckId|CA1006|
 |Category|Microsoft.Design|

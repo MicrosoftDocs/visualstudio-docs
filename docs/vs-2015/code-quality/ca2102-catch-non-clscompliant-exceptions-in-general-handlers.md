@@ -25,6 +25,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2102: Catch non-CLSCompliant exceptions in general handlers](https://docs.microsoft.com/visualstudio/code-quality/ca2102-catch-non-clscompliant-exceptions-in-general-handlers).
 
+|||
+|-|-|
 |TypeName|CatchNonClsCompliantExceptionsInGeneralHandlers|
 |CheckId|CA2102|
 |Category|Microsoft.Security|

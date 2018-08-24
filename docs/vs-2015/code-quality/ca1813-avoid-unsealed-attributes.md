@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1813: Avoid unsealed attributes](https://docs.microsoft.com/visualstudio/code-quality/ca1813-avoid-unsealed-attributes).
 
+|||
+|-|-|
 |TypeName|AvoidUnsealedAttributes|
 |CheckId|CA1813|
 |Category|Microsoft.Performance|

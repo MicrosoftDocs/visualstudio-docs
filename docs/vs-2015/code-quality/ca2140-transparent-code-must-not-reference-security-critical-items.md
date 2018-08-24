@@ -28,6 +28,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2140: Transparent code must not reference security critical items](https://docs.microsoft.com/visualstudio/code-quality/ca2140-transparent-code-must-not-reference-security-critical-items).
 
+|||
+|-|-|
 |TypeName|TransparentMethodsMustNotReferenceCriticalCode|
 |CheckId|CA2140|
 |Category|Microsoft.Security|

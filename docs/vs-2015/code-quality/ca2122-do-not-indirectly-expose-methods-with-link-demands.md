@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2122: Do not indirectly expose methods with link demands](https://docs.microsoft.com/visualstudio/code-quality/ca2122-do-not-indirectly-expose-methods-with-link-demands).
 
+|||
+|-|-|
 |TypeName|DoNotIndirectlyExposeMethodsWithLinkDemands|
 |CheckId|CA2122|
 |Category|Microsoft.Security|

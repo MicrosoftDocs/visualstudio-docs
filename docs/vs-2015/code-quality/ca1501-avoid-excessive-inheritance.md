@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1501: Avoid excessive inheritance](https://docs.microsoft.com/visualstudio/code-quality/ca1501-avoid-excessive-inheritance).
 
+|||
+|-|-|
 |TypeName|AvoidExcessiveInheritance|
 |CheckId|CA1501|
 |Category|Microsoft.Maintainability|

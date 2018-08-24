@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1400: P-Invoke entry points should exist](https://docs.microsoft.com/visualstudio/code-quality/ca1400-p-invoke-entry-points-should-exist).
 
+|||
+|-|-|
 |TypeName|PInvokeEntryPointsShouldExist|
 |CheckId|CA1400|
 |Category|Microsoft.Interoperability|

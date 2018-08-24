@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2112: Secured types should not expose fields](https://docs.microsoft.com/visualstudio/code-quality/ca2112-secured-types-should-not-expose-fields).
 
+|||
+|-|-|
 |TypeName|SecuredTypesShouldNotExposeFields|
 |CheckId|CA2112|
 |Category|Microsoft.Security|

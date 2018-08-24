@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1050: Declare types in namespaces](https://docs.microsoft.com/visualstudio/code-quality/ca1050-declare-types-in-namespaces).
 
+|||
+|-|-|
 |TypeName|DeclareTypesInNamespaces|
 |CheckId|CA1050|
 |Category|Microsoft.Design|

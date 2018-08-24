@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2120: Secure serialization constructors](https://docs.microsoft.com/visualstudio/code-quality/ca2120-secure-serialization-constructors).
 
+|||
+|-|-|
 |TypeName|SecureSerializationConstructors|
 |CheckId|CA2120|
 |Category|Microsoft.Security|

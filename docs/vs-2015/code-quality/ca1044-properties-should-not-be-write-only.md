@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1044: Properties should not be write only](https://docs.microsoft.com/visualstudio/code-quality/ca1044-properties-should-not-be-write-only).
 
+|||
+|-|-|
 |TypeName|PropertiesShouldNotBeWriteOnly|
 |CheckId|CA1044|
 |Category|Microsoft.Design|

@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2117: APTCA types should only extend APTCA base types](https://docs.microsoft.com/visualstudio/code-quality/ca2117-aptca-types-should-only-extend-aptca-base-types).
 
+|||
+|-|-|
 |TypeName|AptcaTypesShouldOnlyExtendAptcaBaseTypes|
 |CheckId|CA2117|
 |Category|Microsoft.Security|

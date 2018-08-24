@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1409: Com visible types should be creatable](https://docs.microsoft.com/visualstudio/code-quality/ca1409-com-visible-types-should-be-creatable).
 
+|||
+|-|-|
 |TypeName|ComVisibleTypesShouldBeCreatable|
 |CheckId|CA1409|
 |Category|Microsoft.Interoperability|

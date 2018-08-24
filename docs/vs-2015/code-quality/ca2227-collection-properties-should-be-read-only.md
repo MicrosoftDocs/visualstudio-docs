@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2227: Collection properties should be read only](https://docs.microsoft.com/visualstudio/code-quality/ca2227-collection-properties-should-be-read-only).
 
+|||
+|-|-|
 |TypeName|CollectionPropertiesShouldBeReadOnly|
 |CheckId|CA2227|
 |Category|Microsoft.Usage|

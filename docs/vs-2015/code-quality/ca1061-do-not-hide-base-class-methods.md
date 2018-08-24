@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1061: Do not hide base class methods](https://docs.microsoft.com/visualstudio/code-quality/ca1061-do-not-hide-base-class-methods).
 
+|||
+|-|-|
 |TypeName|DoNotHideBaseClassMethods|
 |CheckId|CA1061|
 |Category|Microsoft.Design|

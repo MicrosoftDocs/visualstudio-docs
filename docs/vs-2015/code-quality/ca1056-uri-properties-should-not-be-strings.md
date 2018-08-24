@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1056: URI properties should not be strings](https://docs.microsoft.com/visualstudio/code-quality/ca1056-uri-properties-should-not-be-strings).
 
+|||
+|-|-|
 |TypeName|UriPropertiesShouldNotBeStrings|
 |CheckId|CA1056|
 |Category|Microsoft.Design|

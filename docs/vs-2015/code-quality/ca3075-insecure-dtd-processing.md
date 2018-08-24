@@ -19,6 +19,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA3075: Insecure DTD Processing](https://docs.microsoft.com/visualstudio/code-quality/ca3075-insecure-dtd-processing).
 
+|||
+|-|-|
 |TypeName|InsecureDTDProcessing|
 |CheckId|CA3075|
 |Category|Microsoft.Security|

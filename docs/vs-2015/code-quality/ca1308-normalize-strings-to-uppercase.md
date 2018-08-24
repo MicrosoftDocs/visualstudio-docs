@@ -26,6 +26,8 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA1308: Normalize strings to uppercase](https://docs.microsoft.com/visualstudio/code-quality/ca1308-normalize-strings-to-uppercase).
 
+|||
+|-|-|
 |TypeName|NormalizeStringsToUppercase|
 |CheckId|CA1308|
 |Category|Microsoft.Globalization|
