@@ -1,0 +1,52 @@
+---
+title: "IDebugPortSupplier2::EnumPorts | Microsoft Docs"
+ms.custom: ""
+ms.date: "2018-06-30"
+ms.prod: "visual-studio-dev14"
+ms.reviewer: ""
+ms.suite: ""
+ms.technology: 
+  - "vs-ide-sdk"
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+f1_keywords: 
+  - "IDebugPortSupplier2::EnumPorts"
+helpviewer_keywords: 
+  - "IDebugPortSupplier2::EnumPorts"
+ms.assetid: 88b57fd2-eba1-44fa-bd34-cf2ad2b1ff87
+caps.latest.revision: 11
+ms.author: "gregvanl"
+manager: "ghogen"
+---
+# IDebugPortSupplier2::EnumPorts
+[!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
+
+The latest version of this topic can be found at [IDebugPortSupplier2::EnumPorts](https://docs.microsoft.com/visualstudio/extensibility/debugger/reference/idebugportsupplier2-enumports).  
+  
+Retrieves a list of all the ports supplied by a port supplier.  
+  
+## Syntax  
+  
+```cpp#  
+HRESULT EnumPorts(   
+   IEnumDebugPorts2** ppEnum  
+);  
+```  
+  
+```csharp  
+int EnumPorts(   
+   out IEnumDebugPorts2 ppEnum  
+);  
+```  
+  
+#### Parameters  
+ `ppEnum`  
+ [out] Returns an [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md) object containing a list of ports supplied.  
+  
+## Return Value  
+ If successful, returns `S_OK`; otherwise, returns an error code.  
+  
+## See Also  
+ [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md)   
+ [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md)
+
