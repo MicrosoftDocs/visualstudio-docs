@@ -16,7 +16,7 @@ Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, 
 
 Developing apps for modern platforms involves many more activities than just writing code. These activities, referred to as DevOps (development + operations), span the app's complete life cycle and include planning and tracking work, designing and implementing code, managing a source code repository, running builds, managing continuous integrations and deployments, testing (including unit tests and UI tests), running various forms of diagnostics in both development and production environments, and monitoring app performance and user behaviors in real time through telemetry and analytics.
 
-Visual Studio, together with Azure DevOps and Team Foundation Server, provides a variety of DevOps capabilities. Many of these are wholly applicable to cross-platform projects. This is especially true with Xamarin apps, because they're built with C# and .NET, around which some DevOps tools are built. Other tools require tight integration with build and runtime environments. Because Xamarin apps run on non-Windows platforms and use the Mono implementation of .NET, Xamarin provides specialized tools for certain needs.
+Visual Studio, together with Azure DevOps Services and Team Foundation Server, provides a variety of DevOps capabilities. Many of these are wholly applicable to cross-platform projects. This is especially true with Xamarin apps, because they're built with C# and .NET, around which some DevOps tools are built. Other tools require tight integration with build and runtime environments. Because Xamarin apps run on non-Windows platforms and use the Mono implementation of .NET, Xamarin provides specialized tools for certain needs.
 
 The following tables identify which DevOps features in Visual Studio you can expect to work well with a Xamarin project, and which ones have limitations. Refer to the linked documentation for details on the features themselves.
 
@@ -55,8 +55,8 @@ Design features are independent of coding language, or work with .NET languages 
 
 |Feature|Supported with Xamarin|Additional Comments|
 |-------------|----------------------------|-------------------------|
-|[Use Team Foundation Version Control](/vsts/tfvc/overview?view=vsts) or Azure DevOps Services|Yes||
-|[Getting started with Git in Azure DevOps](/vsts/git/gitquickstart?view=vsts&tabs=visual-studio)|Yes||
+|[Use Team Foundation Version Control (TFVC)](/vsts/tfvc/overview?view=vsts) or Azure Repos|Yes||
+|[Getting started with Git in Azure Repos](/vsts/git/gitquickstart?view=vsts&tabs=visual-studio)|Yes||
 |[Improve Code Quality](../test/improve-code-quality.md)|Yes||
 |[Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)|Yes|Except across platform-specific boundaries where the implementation isn't resolved until run time.|
 |[Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)|Yes||
@@ -98,13 +98,13 @@ Reference link: **[Improve Code Quality](../test/improve-code-quality.md)**
 
 ## Release management
 
-Reference link: **[Build and release in Azure DevOps and TFS](/vsts/pipelines/overview?view=vsts)**
+Reference link: **[Build and release in Azure Pipelines and TFS](/vsts/pipelines/overview?view=vsts)**
 
 |Feature|Supported with Xamarin|Additional Comments|
 |-------------|----------------------------|-------------------------|
 |Manage release processes|Yes||
 |Deployment to servers for side-loading via scripts|Yes||
-|Upload to app store|Partial|Extensions are available that can automate this process for some app stores.  See [Extensions for Azure DevOps](https://marketplace.visualstudio.com/VSTS); for example, the [extension for Google Play](https://marketplace.visualstudio.com/items?itemName=ms-vsclient.google-play).|
+|Upload to app store|Partial|Extensions are available that can automate this process for some app stores.  See [Extensions for Azure DevOps Services](https://marketplace.visualstudio.com/VSTS); for example, the [extension for Google Play](https://marketplace.visualstudio.com/items?itemName=ms-vsclient.google-play).|
 
 ## Monitor with HockeyApp
 

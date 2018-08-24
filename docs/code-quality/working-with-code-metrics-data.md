@@ -97,9 +97,9 @@ You can select and copy a selected row of code metrics data to the clipboard as 
 
 ## Creating a work item based on code metric results
 
-You can create an [Azure DevOps](/vsts/index) work item that is based on results in the **Code Metric Results** window. When the work item is created, Visual Studio automatically enters a title in the **Title** field and code metrics data under the **History** tab.
+You can create an [Azure Boards](/vsts/index) work item that is based on results in the **Code Metric Results** window. When the work item is created, Visual Studio automatically enters a title in the **Title** field and code metrics data under the **History** tab.
 
-For more information about Azure DevOps work items, see [Work items](/vsts/work/work-items/index).
+For more information about Azure Boards work items, see [Work items](/vsts/work/work-items/index).
 
 ### To create a work item based on a result
 
