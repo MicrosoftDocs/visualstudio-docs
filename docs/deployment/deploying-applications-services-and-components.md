@@ -109,7 +109,7 @@ You can enable more sophisticated development and testing by deploying your appl
 
 ## DevOps deployment
 
-In a team environment, you can use Azure DevOps to enable continuous deployment of your app. For more information, see [Azure Pipelines](/vsts/build-release/index) and [Deploy to Azure](/vsts/deploy-azure/index).
+In a team environment, you can use Azure DevOps Services to enable continuous deployment of your app. For more information, see [Azure Pipelines](/vsts/build-release/index) and [Deploy to Azure](/vsts/deploy-azure/index).
 
 ## Deployment for other app types
 

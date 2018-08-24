@@ -74,7 +74,7 @@ For file types other than *.cs* or *.vb*, you get CodeLens details for the entir
 
 Code element-level indicators let you see who changed your code, and what changes they made. Code element-level indicators are available for C# and Visual Basic code.
 
-This is what you see when you use Team Foundation Version Control (TFVC) in Azure DevOps:
+This is what you see when you use Team Foundation Version Control (TFVC) in Team Foundation Server or Azure DevOps Services: 
 
 ![CodeLens: Get change history for your code in TFVC](../ide/media/codelens-code-changes.png)
 

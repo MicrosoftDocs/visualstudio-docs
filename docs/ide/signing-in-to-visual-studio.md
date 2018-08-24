@@ -31,7 +31,7 @@ Here's a full list of what you can expect and what you can do after you sign in:
 
 - **Extend the Visual Studio trial period** - You can use Visual Studio Professional or Visual Studio Enterprise for an additional 90 days, instead of being limited to the trial period of 30 days.
 
-- **Unlock Visual Studio if you use an account that's associated with a Visual Studio subscription or an Azure DevOps organization**. See [How to unlock Visual Studio](../ide/how-to-unlock-visual-studio.md).
+- **Unlock Visual Studio if you use an account that's associated with a Visual Studio subscription or an Azure DevOps Services organization**. See [How to unlock Visual Studio](../ide/how-to-unlock-visual-studio.md).
 
 - **Automatically connect to services such as Azure and Azure DevOps Services** in the IDE without prompting again for credentials for the same account.
 
