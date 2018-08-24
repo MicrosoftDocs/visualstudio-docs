@@ -41,6 +41,7 @@ If you don't see all your subscriptions, you may have one or more assigned to a 
 
 ## Support resources
 
--  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
--  Complete [Azure DevOps Services documentation](/azure/devops/).
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions support](https://visualstudio.microsoft.com/subscriptions/support/).
+- Have a question about Visual Studio IDE, Azure DevOps, or other Visual Studio products or services?  Visit [Visual Studio support](https://visualstudio.microsoft.com/support/).
+- [Azure DevOps documentation](/azure/devops/).
+

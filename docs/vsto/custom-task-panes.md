@@ -202,17 +202,17 @@ ms.workload:
 ### PowerPoint events  
  To monitor the state of document windows in PowerPoint, you can handle the following events:  
   
--   <xref:Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterNewPresentation>  
+-   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterNewPresentation](/previous-versions/office/developer/office-2010/ff761105(v%3doffice.14))
   
--   <xref:Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterPresentationOpen>  
+-   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.AfterPresentationOpen](/previous-versions/office/developer/office-2010/ff762843(v%3doffice.14))
   
--   <xref:Microsoft.Office.Interop.PowerPoint.EApplication_Event.NewPresentation>  
+-   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.NewPresentation](/previous-versions/office/developer/office-2010/ff761498(v%3doffice.14))
   
--   <xref:Microsoft.Office.Interop.PowerPoint.EApplication_Event.PresentationOpen>  
+-   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.PresentationOpen](/previous-versions/office/developer/office-2010/ff760423(v=office.14))
   
--   <xref:Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowActivate>  
+-   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowActivate](/previous-versions/office/developer/office-2010/ff761153(v=office.14)) 
   
--   <xref:Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowDeactivate>  
+-   [Microsoft.Office.Interop.PowerPoint.EApplication_Event.WindowDeactivate](/previous-versions/office/developer/office-2010/ff763093(v=office.14))
   
 ## See also  
  [How to: Add a custom task pane to an application](../vsto/how-to-add-a-custom-task-pane-to-an-application.md)   
