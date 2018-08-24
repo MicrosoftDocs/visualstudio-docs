@@ -29,7 +29,7 @@ First, you'll create an ASP.NET Core Web API project. The project type comes wit
 
 1. From the top menu bar, choose **File** > **New** > **Project**.
 
-1. In the **New Project** dialog box, in the left pane, expand **Visual F##**, then choose **Web**. In the middle pane, choose **ASP.NET Core Web Application**, then choose **OK**.
+1. In the **New Project** dialog box, in the left pane, expand **Visual F#**, then choose **Web**. In the middle pane, choose **ASP.NET Core Web Application**, then choose **OK**.
 
      If you don't see the **.NET Core** project template category, choose the **Open Visual Studio Installer** link in the left pane. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 
@@ -56,7 +56,7 @@ The code is straightforward. An F# array of values is bound to the `values` name
 
 It should look like this in the editor:
 
-![Solution Explorer with Controllers folder expanded in F# Web API project](../ide/media/hello-world-fs-sln-explorer.png)
+![Modified Get member](../ide/media/hello-world-fs-get-member.png)
 
 ## Run the application
 
