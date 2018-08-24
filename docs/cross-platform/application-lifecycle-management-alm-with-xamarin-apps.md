@@ -68,8 +68,8 @@ Reference link: **[Build and release](/vsts/pipelines/index?view=vsts)**
 |Feature|Supported with Xamarin|Additional Comments|
 |-------------|----------------------------|-------------------------|
 |On-premises TFS server|Yes|Build machines must have Xamarin installed and can be linked to an OSX computer to build for iOS. See [Use TFVC](/vsts/tfvc/overview?view=vsts)|
-|On-premises build server linked to Azure DevOps Services|Yes|See [Build and release agents](/vsts/pipelines/agents/agents?view=vsts) for instructions.|
-|Hosted controller service of Azure DevOps Services|Yes|See [Build your Xamarin app](/vsts/pipelines/apps/mobile/xamarin?view=vsts&tabs=vsts).|
+|On-premises build server linked to Azure Pipelines|Yes|See [Build and release agents](/vsts/pipelines/agents/agents?view=vsts) for instructions.|
+|Hosted controller service of Azure Pipelines|Yes|See [Build your Xamarin app](/vsts/pipelines/apps/mobile/xamarin?view=vsts&tabs=vsts).|
 |Build definitions with pre- and post-scripts|Yes||
 |Continuous integration including gated check-ins|Yes|Gated check-ins for TFVC only as Git works on a pull-request model rather than check-ins.|
 
