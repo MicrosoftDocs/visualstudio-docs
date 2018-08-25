@@ -15,7 +15,7 @@ ms.workload:
 ---
 # How to: Create a Work Item for a Managed Code Defect
 
-You can use the work item tracking feature to log work item from within Visual Studio. To use this feature, your project must be part of Team Project in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)].
+You can use the work item tracking feature to log work item from within Visual Studio. To use this feature, your project must be part of an Azure DevOps project in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)].
 
 ## To create a work item for managed code defect
 
