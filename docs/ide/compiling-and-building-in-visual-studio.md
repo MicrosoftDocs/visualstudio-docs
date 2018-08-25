@@ -22,7 +22,7 @@ By building your code often, you can quickly identify compile-time errors, such 
 
 A successful build is essentially a validation that the application's source code contains correct syntax and that all static references to libraries, assemblies, and other components have been resolved. This produces an application executable that can then be tested for proper functioning in both a [debugging environment](../debugger/index.md) and through a variety of manual and automated tests to [validate code quality](../test/improve-code-quality.md). Once the application has been fully tested, you can then compile a release version to deploy to your customers. For an introduction to this process, see [Walkthrough: Building an application](../ide/walkthrough-building-an-application.md).
 
-Within the Visual Studio product family, there are four methods you can use to build an application: the Visual Studio IDE, the MSBuild command-line tools, Team Foundation Build, and Azure DevOps Services:
+There are four methods you can use to build an application: the Visual Studio IDE, the MSBuild command-line tools, Team Foundation Build, and Azure DevOps Services:
 
 | Build Method | Benefits |
 | --- |--- | --- |
