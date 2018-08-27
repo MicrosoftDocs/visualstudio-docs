@@ -71,7 +71,7 @@ The added files are:
 
 - a Helm chart, and a *charts* folder. These yaml files make up the Helm chart for the application, which you can use to deploy it to Kubernetes. For more information on Helm, see [https://www.helm.sh](https://www.helm.sh).
 
-- *azds.yaml*. This contains settings for Azure Dev Spaces, which provides a rapid, iterative debugging experience in Azure Kubernetes Service. For more information, please reference [the Azure Dev Spaces documentation](https://docs.microsoft.com/en-us/azure/dev-spaces/azure-dev-spaces).
+- *azds.yaml*. This contains settings for Azure Dev Spaces, which provides a rapid, iterative debugging experience in Azure Kubernetes Service. For more information, please reference [the Azure Dev Spaces documentation](https://docs.microsoft.com/azure/dev-spaces/azure-dev-spaces).
 
 ## Publish to Azure Kubernetes Service (AKS)
 
