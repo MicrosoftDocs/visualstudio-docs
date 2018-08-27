@@ -1078,7 +1078,7 @@ Code examples:
 
 ```csharp
 // csharp_style_expression_bodied_indexers = true
-public T this[int i] => _value[i];
+public T this[int i] => _values[i];
 
 // csharp_style_expression_bodied_indexers = false
 public T this[int i] { get { return _values[i]; } }
