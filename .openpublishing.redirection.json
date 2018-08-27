@@ -2336,6 +2336,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/vs-2015/misc/warning-the-dependency-file-in-project-project-cannot-be-copied-to-the-run-directory-because-it-would-overwrite-the-reference-file.md",
+            "redirect_url": "/visualstudio/vs-2015/misc/warning-the-dependency-file-in-project-project-cannot-be-copied",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/vsto/index.md",
             "redirect_url": "/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio",
             "redirect_document_id": false
