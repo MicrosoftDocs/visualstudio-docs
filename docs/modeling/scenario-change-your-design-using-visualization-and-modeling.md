@@ -212,7 +212,7 @@ See:
 
 - [About Agile tools and Agile project management](/vsts/boards/backlogs/overview?view=vsts)
 
-- [Charts, dashboards, and widgets (VSTS)](/vsts/report/dashboards/overview?view=vsts)
+- [Charts, dashboards, and widgets (Azure DevOps Services)](/vsts/report/dashboards/overview?view=vsts)
 
 - [Create your backlog and tasks using Project](http://msdn.microsoft.com/Library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)
 
