@@ -14,7 +14,7 @@ ms.workload:
 
 Developing apps for modern platforms involves many more activities than just writing code. These activities, referred to as DevOps (development + operations), span the app's complete life cycle and include planning and tracking work, designing and implementing code, managing a source code repository, running builds, managing continuous integrations and deployments, testing (including unit tests and UI tests), running various forms of diagnostics in both development and production environments, and monitoring app performance and user behaviors in real time through telemetry and analytics.
 
-Visual Studio, together with Azure DevOps Services, provides a variety of DevOps capabilities. Many of these are applicable to cross-platform projects, including games and immersive graphical apps created with Unity&mdash;especially when using C# as a scripting language. However, because Unity has its own development environment and runtime engine, a number of DevOps features don't apply as they would to other kinds of projects built in Visual Studio.
+Visual Studio, together with Azure DevOps Services and Team Foundation Server, provides a variety of DevOps capabilities. Many of these are applicable to cross-platform projects, including games and immersive graphical apps created with Unity&mdash;especially when using C# as a scripting language. However, because Unity has its own development environment and runtime engine, a number of DevOps features don't apply as they would to other kinds of projects built in Visual Studio.
 
 The following tables identify how DevOps features in Visual Studio apply or don't apply when working with Unity. Refer to the linked documentation for details on the features themselves.
 
@@ -53,7 +53,7 @@ General Comment: Although these design features are either independent of coding
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
-|[Use Team Foundation Version Control (TFVC)](/vsts/tfvc/overview?view=vsts) or Azure DevOps Services|Yes|Unity projects are simply a collection of files that can be placed into version control systems like any other project, but there are a few special considerations described after this table.|
+|[Use Team Foundation Version Control (TFVC)](/vsts/tfvc/overview?view=vsts) or Azure Repos|Yes|Unity projects are simply a collection of files that can be placed into version control systems like any other project, but there are a few special considerations described after this table.|
 |[Getting started with Git in Azure Repos](/vsts/git/gitquickstart?view=vsts&tabs=visual-studio)|Yes|See notes after the table.|
 |[Improve Code Quality](../test/improve-code-quality.md)|Yes||
 |[Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)|Yes||
