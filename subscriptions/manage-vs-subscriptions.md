@@ -89,7 +89,9 @@ Retail subscriptions can be transferred to another user by contacting Customer S
 
 
 ## Managing my profile
+
 The subscriptions portal allows you to create and manage a profile to make management of your subscriptions easy.  You can make changes to your identity information and associate other sign-in identities from existing Azure and Azure DevOps Services accounts to your subscriptions using alternate identities. 
+
 
 ### Changing profile information
 You can easily change the contact information and preferences in your profile.  
