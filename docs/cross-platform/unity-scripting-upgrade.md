@@ -317,7 +317,7 @@ When exporting your game to platforms like iOS, Unity will use its IL2CPP engine
 
 ## .NET 4.x Sample Unity Project
 
-The sample contains examples of several .NET 4.x features. You can download the project or view the source code on [GitHub](https://github.com/dantogno/unity-scripting-upgrade).
+The sample contains examples of several .NET 4.x features. You can download the project or view the source code on [GitHub](https://github.com/Microsoft/unity-scripting-upgrade).
 
 ## Additional resources
 
