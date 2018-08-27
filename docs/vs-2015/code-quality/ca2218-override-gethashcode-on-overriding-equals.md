@@ -26,7 +26,9 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [CA2218: Override GetHashCode on overriding Equals](https://docs.microsoft.com/visualstudio/code-quality/ca2218-override-gethashcode-on-overriding-equals).
 
-TypeName|OverrideGetHashCodeOnOverridingEquals|
+|||
+|-|-|
+|TypeName|OverrideGetHashCodeOnOverridingEquals|
 |CheckId|CA2218|
 |Category|Microsoft.Usage|
 |Breaking Change|Non Breaking|

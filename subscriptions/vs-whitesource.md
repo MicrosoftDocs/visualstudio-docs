@@ -34,11 +34,13 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
 
     - [Install](https://marketplace.visualstudio.com/items?itemName=whitesource.ws-bolt) the WhiteSource Bolt extension from Microsoft Visual Studio marketplace. If you don’t have permissions to install extensions, see [Install free extensions for Azure DevOps](/vsts/marketplace/install-vsts-extension?view=vsts).
 
+
     Click the green **Install** button if you are using Azure DevOps Services, or the **Download** button for Team Foundation Server.  For this example, we will use Azure DevOps Services.
     > [!div class="mx-imgBorder"]
     > ![WhiteSource Benefit Install Extension](_img\vs-whitesource\vs-whitesource-download-install.png)
 
     - Next, select the Azure DevOps Services account you want to use and click **Confirm**.  (If you have not yet set up Azure DevOps Services, visit the [Benefits](https://my.visualstudio.com/benefits) page and activate your Azure DevOps Services benefit.)
+
     > [!div class="mx-imgBorder"]
     > ![WhiteSource Benefit Confirm Account](_img\vs-whitesource\vs-whitesource-confirm-account.png)
 
