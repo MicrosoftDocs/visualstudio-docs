@@ -84,9 +84,34 @@ The file path filter in the **Test Explorer** search box was removed in Visual S
 
 All test projects must include their .NET test adapter NuGet reference in their .csproj file. If they don't, the following test output appears on the project if discovery by a test adapter extension is kicked off after a build, or if the user tries to run the selected tests: 
 
-**Test project {} does not reference any .NET NuGet adapter. Test discovery or execution might not work for this project. It is recommended to reference NuGet test adapters in each .NET test project in the solution.**
+```
+Test project {} does not reference any .NET NuGet adapter. Test discovery or execution might not work for this project. It is recommended to reference NuGet test adapters in each .NET test project in the solution.
+```
 
 Instead of using test adapter extensions, projects are required to use test adapter NuGet packages. This greatly improves performance and causes fewer issues with continuous integration. Read more about .NET Test Adapter Extension deprecation in the [release notes](/visualstudio/releasenotes/vs2017-preview-relnotes#testadapterextension).
+
+> [!NOTE]
+> If you are using the NUnit 2 Test Adapter and are unable to migrate to the NUnit 3 test adapter, you can turn off this new discovery behavior in Visual Studio Update 15.8 in Tools > Options > Test. 
+
+  ![Test Explorer Adapter behavior in tools options](media/testex-adapterbehavior.png)
+
+## UWP TestContainer was not found
+**My UWP tests are no longer being executed in Visual Studio 2017 version 15.7 and higher.**
+
+Recent UWP test projects specify a test platform build property that allows better performance for identifying test apps. If you have a UWP test project that was initialized before Visual Studio Update 15.7 you may see the following error in Output > Tests:
+
+```
+System.AggregateException: One or more errors occurred. ---> System.InvalidOperationException: The following TestContainer was not found {} at Microsoft.VisualStudio.TestWindow.Controller.TestContainerProvider <GetTestContainerAsync>d__61.MoveNext()
+```
+To fix this, update your test project build property to the following:
+```
+<UnitTestPlatformVersion Condition="'$(UnitTestPlatformVersion)' == ''">$(VisualStudioVersion)</UnitTestPlatformVersion>
+```
+Update the TestPlatform SDK version to the following:
+```
+<SDKReference Include="TestPlatform.Universal, Version=$(UnitTestPlatformVersion)" />
+```
+
 
 ## Using feature flags
 **How can I turn on feature flags to try out new testing features?**
