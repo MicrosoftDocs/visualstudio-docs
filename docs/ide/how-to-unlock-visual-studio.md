@@ -21,7 +21,7 @@ You can evaluate Visual Studio for free up to 30 days. Signing into the IDE exte
 
 ## To unlock Visual Studio using an online subscription
 
-To unlock Visual Studio using an MSDN or Visual Studio Team Service subscription associated with a Microsoft account, or a work or school account:
+To unlock Visual Studio using an MSDN or Azure DevOps Services subscription associated with a Microsoft account, or a work or school account:
 
 1. Click on the **Sign in** button in the upper right corner of the IDE (or go to **File** > **Account Settings** to open the **Account Settings** dialog and click on the **Sign in** button).
 
