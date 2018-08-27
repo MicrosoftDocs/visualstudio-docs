@@ -20,7 +20,7 @@ The following tables identify how DevOps features in Visual Studio apply or don'
 
 ## Agile tools
 
-Reference link: [About Agile tools and Agile project management](/vsts/work/backlogs/overview?view=vsts) (using Azure DevOps Services or TFS, including Team Explorer Everywhere)
+Reference link: [About Agile tools and Agile project management](/vsts/work/backlogs/overview?view=vsts) (using Azure Boards or TFS, including Team Explorer Everywhere)
 
 General Comment: all planning and tracking features are independent of project type and coding languages.
 
@@ -53,7 +53,7 @@ General Comment: Although these design features are either independent of coding
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
-|[Use Team Foundation Version Control](/vsts/tfvc/overview?view=vsts) or Azure DevOps Services|Yes|Unity projects are simply a collection of files that can be placed into version control systems like any other project, but there are a few special considerations described after this table.|
+|[Use Team Foundation Version Control](/vsts/tfvc/overview?view=vsts) or Azure Repos|Yes|Unity projects are simply a collection of files that can be placed into version control systems like any other project, but there are a few special considerations described after this table.|
 |[Getting started with Git in Team Services](/vsts/git/gitquickstart?view=vsts&tabs=visual-studio)|Yes|See notes after the table.|
 |[Improve Code Quality](../test/improve-code-quality.md)|Yes||
 |[Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)|Yes||
