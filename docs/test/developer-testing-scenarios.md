@@ -76,7 +76,7 @@ shows the percentage of the code that was run in
 each assembly, class, and method. In addition, the
 source editor shows you which code has been tested.
 
-![Test with Visual Studio Team Services and Team Foundation Server](media/devtest-codecoverage.png)
+![Test with Azure DevOps Services and Team Foundation Server](media/devtest-codecoverage.png)
 
 * [Using code coverage to determine how much code is being tested](using-code-coverage-to-determine-how-much-code-is-being-tested.md)
 * [Unit testing, code coverage and code clone analysis with Visual Studio (Lab)](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Unit%20Testing,%20Code%20Coverage%20and%20Code%20Clone%20Analysis%20with%20Visual%20Studio%202015.docx)
