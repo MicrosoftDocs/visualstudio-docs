@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Install test agents and test controllers
 
-For test scenarios that use Visual Studio and Visual Studio Team Services (VSTS) or Team Foundation Server (TFS), you don't need a test controller. Agents for Visual Studio handle orchestration by communicating with VSTS or TFS. A scenario could be that you run continuous tests for build and release workflows in VSTS or TFS.
+For test scenarios that use Visual Studio and Azure DevOps Services or Team Foundation Server (TFS), you don't need a test controller. Agents for Visual Studio handle orchestration by communicating with Azure DevOps Services or TFS. A scenario could be that you run continuous tests for build and release workflows in Azure DevOps Services or TFS.
 
 You might also consider if it's better to use [build or release management](use-build-or-rm-instead-of-lab-management.md) instead of lab management.
 
@@ -54,9 +54,9 @@ You can mix different versions of TFS, Microsoft Test Manager (MTM), the test co
 
 We recommend that you use agents for Visual Studio in all new automated testing scenarios. You can use the *Deploy Test Agents* task in a build definition to download and install the test agents on your machine.
 
-The following table shows the scenarios supported by Agents for Visual Studio 2013, and the alternatives for Team Foundation Server (TFS) 2015 and VSTS:
+The following table shows the scenarios supported by Agents for Visual Studio 2013, and the alternatives for Team Foundation Server (TFS) 2015 and Azure DevOps Services:
 
-| Scenarios supported by Agents for Visual Studio 2013 | Alternative in TFS and VSTS |
+| Scenarios supported by Agents for Visual Studio 2013 | Alternative in TFS and Azure DevOps Services |
 | --- | --- |
 | Build-Deploy-Test workflow in Visual Studio | Users can use a [build definition](/vsts/build-release/) (not a XAML build) for build, deploy, and test scenarios in TFS. |
 | Load testing (performance testing) using on-premises remote machines | Use Test Controller and Test Agents 2013 Update 5 to run load tests on-premises. |
