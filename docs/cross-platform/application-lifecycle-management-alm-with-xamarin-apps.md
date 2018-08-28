@@ -55,8 +55,8 @@ Design features are independent of coding language, or work with .NET languages 
 
 |Feature|Supported with Xamarin|Additional Comments|
 |-------------|----------------------------|-------------------------|
-|[Use Team Foundation Version Control](/vsts/tfvc/overview?view=vsts) or Azure DevOps Services|Yes||
-|[Getting started with Git in Team Services](/vsts/git/gitquickstart?view=vsts&tabs=visual-studio)|Yes||
+|[Use Team Foundation Version Control (TFVC)](/vsts/tfvc/overview?view=vsts) or Azure Repos|Yes||
+|[Getting started with Git in Azure Repos](/vsts/git/gitquickstart?view=vsts&tabs=visual-studio)|Yes||
 |[Improve Code Quality](../test/improve-code-quality.md)|Yes||
 |[Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)|Yes|Except across platform-specific boundaries where the implementation isn't resolved until run time.|
 |[Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)|Yes||
@@ -68,8 +68,8 @@ Reference link: **[Build and release](/vsts/pipelines/index?view=vsts)**
 |Feature|Supported with Xamarin|Additional Comments|
 |-------------|----------------------------|-------------------------|
 |On-premises TFS server|Yes|Build machines must have Xamarin installed and can be linked to an OSX computer to build for iOS. See [Use TFVC](/vsts/tfvc/overview?view=vsts)|
-|On-premises build server linked to Azure DevOps Services|Yes|See [Build and release agents](/vsts/pipelines/agents/agents?view=vsts) for instructions.|
-|Hosted controller service of Azure DevOps Services|Yes|See [Build your Xamarin app](/vsts/pipelines/apps/mobile/xamarin?view=vsts&tabs=vsts).|
+|On-premises build server linked to Azure Pipelines|Yes|See [Build and release agents](/vsts/pipelines/agents/agents?view=vsts) for instructions.|
+|Hosted controller service of Azure Pipelines|Yes|See [Build your Xamarin app](/vsts/pipelines/apps/mobile/xamarin?view=vsts&tabs=vsts).|
 |Build definitions with pre- and post-scripts|Yes||
 |Continuous integration including gated check-ins|Yes|Gated check-ins for TFVC only as Git works on a pull-request model rather than check-ins.|
 
@@ -98,7 +98,7 @@ Reference link: **[Improve Code Quality](../test/improve-code-quality.md)**
 
 ## Release management
 
-Reference link: **[Build and release in VSTS and TFS](/vsts/pipelines/overview?view=vsts)**
+Reference link: **[Build and release in Azure Pipelines and TFS](/vsts/pipelines/overview?view=vsts)**
 
 |Feature|Supported with Xamarin|Additional Comments|
 |-------------|----------------------------|-------------------------|
