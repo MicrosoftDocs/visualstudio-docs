@@ -178,7 +178,7 @@ For a complete example diagnostic data adapter project, including a custom confi
 
      The data file that you specified in your editor is attached to your test results.
 
- For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data while testing (VSTS)](/vsts/manual-test/collect-diagnostic-data) or [Collect diagnostic data in manual tests (VSTS)](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests).
+ For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data while testing (Azure DevOps Services)](/vsts/manual-test/collect-diagnostic-data) or [Collect diagnostic data in manual tests (Azure DevOps Services)](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests).
 
 ## See also
 
