@@ -353,7 +353,7 @@ ms.topic: hub-page
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>DevOps</h3>
-                                                    <p>Continuously build and release your apps in the cloud, and implement Agile practices with VSTS.</p>
+                                                    <p>Continuously build and release your apps in the cloud, and implement Agile practices with Azure DevOps Services.</p>
                                                 </div>
                                             </div>
                                         </div>
