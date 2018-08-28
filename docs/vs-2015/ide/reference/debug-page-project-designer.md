@@ -31,7 +31,7 @@ WARNING]
   
  Use the **Debug** page of the **Project Designer** to set properties for debugging behavior in a Visual Basic or C# project.  
   
- To access the **Debug** page, select a project node in **Solution Explorer**. On the **Project** menu, choose *ProjectName***Properties**. When the **Project Designer** appears, click the **Debug** tab.  
+ To access the **Debug** page, select a project node in **Solution Explorer**. On the **Project** menu, choose _ProjectName_**Properties**. When the **Project Designer** appears, click the **Debug** tab.  
   
 ## Configuration and Platform  
  The following options allow you to select the configuration and platform to display or modify.  

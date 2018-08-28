@@ -37,7 +37,7 @@ You can install a domain-specific language on your own computer or on other comp
   
     1.  In **Solution Explorer**, right-click the **DslPackage** project, and then click **Open Folder in Windows Explorer**.  
   
-    2.  Locate the file **bin\\\*\\***YourProject***.DslPackage.vsix**  
+    2.  Locate the file **bin\\\*\\**_YourProject_**.DslPackage.vsix**  
   
 2.  Copy the **.vsix** file to the target computer on which you want to install the DSL. This can be your own computer or another one.  
   

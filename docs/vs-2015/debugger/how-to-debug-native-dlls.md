@@ -61,7 +61,7 @@ NOTE]
   
 5.  In the **Command Arguments** box, specify any necessary arguments for the executable.  
   
- If you do not specify the executable in the *Project***Property Pages** dialog box, the [Executable for Debugging Session Dialog Box](../debugger/executable-for-debugging-session-dialog-box.md) appears when you start debugging.  
+ If you do not specify the executable in the _Project_**Property Pages** dialog box, the [Executable for Debugging Session Dialog Box](../debugger/executable-for-debugging-session-dialog-box.md) appears when you start debugging.  
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   

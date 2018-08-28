@@ -214,6 +214,6 @@ You can debug development builds of various Unity players with Visual Studio.
 |Open the MonoBehavior Wizard|**Ctrl**+**Shift**+**M**|**EditorContextMenus.CodeWindow.ImplementMonoBehaviours**|
 |Open the Unity Project Explorer|**Alt**+**Shift**+**E**|**View.UnityProjectExplorer**|
 |Access Unity documentation|**Ctrl**+**Alt**+**M, Ctrl**+**H**|**Help.UnityAPIReference**|
-|Attach to Unity debugger (player or editor)|***no default***|**Debug.AttachUnityDebugger**|
+|Attach to Unity debugger (player or editor)|**_no default_**|**Debug.AttachUnityDebugger**|
 
  You can change the shortcut key combinations if you don't like the default. For information on how to change it, see [Identify and customize keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).

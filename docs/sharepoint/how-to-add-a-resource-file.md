@@ -35,7 +35,7 @@ ms.workload:
   
 4.  In the **Add Resource** dialog box, choose a culture for the resource file, such as English (United States).  
   
-     This step adds a global resource file to your solution in the format, Resource*x***.***culture***.**resx, such as, *Resource1.en-US.resx*.  
+     This step adds a global resource file to your solution in the format, Resource_x_**.**_culture_**.**resx, such as, *Resource1.en-US.resx*.  
   
 5.  When the **Resource Editor** opens in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], add resources to the resource file.  
   
@@ -45,7 +45,7 @@ ms.workload:
   
 2.  In **Solution Explorer**, open the shortcut menu for the name of a feature under the **Features** node, and then choose **Add Feature Resource**.  
   
-     This step adds a resource file to the feature in the format, *ResourceFileName***.***culture***.**resx, such as, *Feature1.en-US.resx*.  
+     This step adds a resource file to the feature in the format, _ResourceFileName_**.**_culture_**.resx**, such as, *Feature1.en-US.resx*.  
   
 3.  When the **Resource Editor** opens in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], add resources to the resource file.  
   

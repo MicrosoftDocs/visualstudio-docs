@@ -45,7 +45,7 @@ Validating* entity classes is the process of confirming that the values entered 
   
     1.  Expand the **Method Name** list.  
   
-    2.  Locate the **On***COLUMNNAME***Changing** method for the column you want to add validation to.  
+    2.  Locate the **On**_COLUMNNAME_**Changing** method for the column you want to add validation to.  
   
     3.  An `On`*COLUMNNAME*`Changing` method is added to the partial class.  
   
@@ -94,7 +94,7 @@ Validating* entity classes is the process of confirming that the values entered 
   
     1.  Expand the **Method Name** list.  
   
-    2.  Click **Update***ENTITYCLASSNAME*.  
+    2.  Click **Update**_ENTITYCLASSNAME_.  
   
     3.  An `Update`*ENTITYCLASSNAME* method is added to the partial class.  
   
