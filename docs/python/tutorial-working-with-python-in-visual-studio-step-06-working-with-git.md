@@ -17,7 +17,7 @@ ms.workload:
 
 **Previous step: [Install packages and manage your Python environment](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)**
 
-Visual Studio provides direct integration with local Git repositories and remote repositories on services like GitHub and Visual Studio Team Services. The integration includes cloning a repository, committing changes, and managing branches.
+Visual Studio provides direct integration with local Git repositories and remote repositories on services like GitHub and Azure Repos. The integration includes cloning a repository, committing changes, and managing branches.
 
 This article provides a basic overview of creating a local Git repository for an existing project, and familiarizing yourself with some of Visual Studio's Git-related features.
 
