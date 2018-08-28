@@ -166,7 +166,7 @@ ms.topic: hub-page
                                                                 </li>
                                                                 <li>
                                                                     <a class="barLink" href="/visualstudio/ide/quickstart-fsharp">
-                                                                        <img src="https://docs.microsoft.com/en-us/dotnet/images/hub/fsharp.svg" alt="F# logo">
+                                                                        <img src="https://docs.microsoft.com/dotnet/images/hub/fsharp.svg" alt="F# logo">
                                                                         F#
                                                                     </a>
                                                                 </li>
