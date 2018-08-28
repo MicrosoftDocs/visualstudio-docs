@@ -100,8 +100,6 @@ Use this command to run the installation:
 | zh-CN | Chinese - Simplified |
 | zh-TW | Chinese - Traditional |
 
-## Get support
-
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
