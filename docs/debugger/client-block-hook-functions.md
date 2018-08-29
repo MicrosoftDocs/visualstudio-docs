@@ -45,5 +45,5 @@ typedef void (__cdecl *_CRT_DUMP_CLIENT)
   
 ## See Also  
  [Debug Hook Function Writing](../debugger/debug-hook-function-writing.md)   
- [crt_dbg2 Sample](http://msdn.microsoft.com/21e1346a-6a17-4f57-b275-c76813089167)   
+ [crt_dbg2 Sample](https://msdn.microsoft.com/library/21e1346a-6a17-4f57-b275-c76813089167)   
  [_CrtReportBlockType](/cpp/c-runtime-library/reference/crtreportblocktype)
