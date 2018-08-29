@@ -52,13 +52,13 @@ You can mix different versions of TFS, Microsoft Test Manager (MTM), the test co
 
 ## Upgrade from Visual Studio 2013 test agents
 
-We recommend that you use agents for Visual Studio in all new automated testing scenarios. You can use the *Deploy Test Agents* task in a build definition to download and install the test agents on your machine.
+We recommend that you use agents for Visual Studio in all new automated testing scenarios. You can use the *Deploy Test Agents* task in a build pipeline to download and install the test agents on your machine.
 
 The following table shows the scenarios supported by Agents for Visual Studio 2013, and the alternatives for Team Foundation Server (TFS) 2015 and Azure Test Plans:
 
 | Scenarios supported by Agents for Visual Studio 2013 | Alternative in TFS and Azure Test Plans |
 | --- | --- |
-| Build-Deploy-Test workflow in Visual Studio | Users can use a [build definition](/vsts/build-release/) (not a XAML build) for build, deploy, and test scenarios in TFS. |
+| Build-Deploy-Test workflow in Visual Studio | Users can use a [build pipeline](/vsts/build-release/) (not a XAML build) for build, deploy, and test scenarios in TFS. |
 | Load testing (performance testing) using on-premises remote machines | Use Test Controller and Test Agents 2013 Update 5 to run load tests on-premises. |
 | Remote execution of automated tests from Microsoft Test Manager using a lab environment | Currently there is no alternative for this scenario. We recommend you use the Run Functional Tests task in build and release definitions (not in a XAML build) to execute tests remotely. |
 | Developers executing remote tests in Visual Studio | No longer supported. |
