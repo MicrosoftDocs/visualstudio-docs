@@ -1,6 +1,6 @@
 ---
 title: "Create an Offline Installation of Visual Studio"
-description: "Find out how to install Visual Studio offline."
+description: "Learn how to install Visual Studio offline."
 ms.custom: ""
 ms.date: 08/28/2018
 ms.technology: vs-acquisition
@@ -19,16 +19,16 @@ ms.workload:
 ---
 # Create an offline installation of Visual Studio 2017
 
-We designed Visual Studio 2017 to work well in a variety of network and computer configurations. We recommend that you try the [Visual Studio web installer](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)&mdash;it's a small file and allows you to stay current with all the latest fixes and features.
+We designed Visual Studio 2017 to work well in a variety of network and computer configurations. While we recommend that you try the [Visual Studio web installer](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)&mdash;which is a small file and allows you to stay current with all the latest fixes and features&mdash;we understand that you might not be able to.
 
-However, if your internet connection is unavailable or unreliable, you can use the command line to create a local cache of the files after you download a small bootstrapper. You can then use the local cache to install Visual Studio. This process replaces the ISO files that were available for previous versions.
+For example, you might have an internet connection that is unavailable, unreliable, or has low bandwidth. If so, you can use the command line to create a local cache of the files after you download a small bootstrapper. You can then use the local cache to install Visual Studio. This process replaces the ISO files that were available for previous versions.
 
 > [!NOTE]
 > If you are an enterprise administrator who wants to perform a deployment of Visual Studio 2017 to a network of client workstations that are firewalled from the internet, see our [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) and [Install certificates required for Visual Studio offline installation](../install/install-certificates-for-visual-studio-offline.md) pages.
 
 ## Step 1 - Download the Visual Studio bootstrapper
 
-Start by downloading the Visual Studio bootstrapper for your chosen edition of Visual Studio. 
+Start by downloading the Visual Studio bootstrapper for your chosen edition of Visual Studio.
 
 Your setup file&mdash;or to be more specific, a bootstrapper file&mdash;will match or be similar to one of the following.
 
@@ -58,7 +58,7 @@ You must have an internet connection to complete this step. To create a local la
 
    ```vs_community.exe --layout c:\vs2017layout --lang en-US```
 
-If you want to install a language other than English, change `en-US` to a locale from the list at the bottom of this page. Use this [list of the components and workloads available](workload-and-component-ids.md) to further customize your installation cache as necessary.
+If you want to install a language other than English, change `en-US` to a locale from the [List of language locales](#list-of-language-locales). Then, use the [list of the components and workloads available](workload-and-component-ids.md) to further customize your installation cache.
 
 > [!IMPORTANT]
 > A complete Visual Studio 2017 layout requires at least 35 GB of disk space and can take some time to download. See [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) for information on how to create a layout with only the components you want to install.
@@ -68,7 +68,7 @@ If you want to install a language other than English, change `en-US` to a locale
 > [!TIP]
 > When you run from a local install cache, setup uses the local versions of each of these files. But if you select components during installation that aren't in the cache, we attempt to download them from the internet.
 
-To ensure that you only install the files you've downloaded, use the same command-line options that you used to create the layout cache. For example, if you created a layout cache with the following command:
+To ensure that you install only the files that you've previously downloaded, use the same command-line options that you used to create the layout cache. For example, if you created a layout cache with the following command:
 
 ```vs_community.exe --layout c:\vs2017layout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US```
 
@@ -77,7 +77,7 @@ Use this command to run the installation:
 ```c:\vs2017layout\vs_community.exe --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional```
 
 > [!NOTE]
-> If you get an error that a signature is invalid, you must install updated certificates. Open the Certificates folder in your offline cache. Double-click each of the certificate files, and then click through the Certificate Manager wizard. If asked for a password, leave it blank.
+> If you get an error that a signature is invalid, you must install updated certificates. Open the Certificates folder in your offline cache. Double-click each of the certificate files, and then click through the Certificate Manager wizard. If you're asked for a password, leave it blank.
 
 ## List of language locales
 
