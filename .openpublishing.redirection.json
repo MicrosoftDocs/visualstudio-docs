@@ -6661,6 +6661,121 @@
             "source_path": "docs/sharepoint/requirements-for-developing-sharepoint-solutions.md",
             "redirect_url": "/visualstudio/sharepoint/getting-started-sharepoint-development-in-visual-studio",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-memory-data-with-the-profiler-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-dotnet-framework-component-and-collect-memory-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-launch-a-stand-alone-native-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-native-application-to-collect-concurrency-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running-on-the-remote-computer.md",
+            "redirect_url": "/visualstudio/debugger/error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running-on-the-remote-computer.md",
+            "redirect_url": "/visualstudio/debugger/error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-memory-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-memory-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data-by-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/collecting-application-statistics-for-aspnet-web-applications-using-the-profiler-sampling-method-from-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-concurrency-data-for-an-aspnet-web-application?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-and-collect-application-statistics-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-dotnet-app-and-collect-application-statistics?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/misc/error-the-dependency-file-in-project-project-cannot-be-copied-to-the-run-directory-because-it-would-conflict-with-dependency-file.md",
+            "redirect_url": "/visualstudio/misc/error-dependency-file?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-launch-a-stand-alone-application-with-the-profiler-and-collect-application-statistics-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-app-and-collect-application-statistics?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/deployment/walkthrough-manually-deploying-a-clickonce-application-that-does-not-require-re-signing-and-that-preserves-branding-information.md",
+            "redirect_url": "/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-memory-data-by-using-the-profiler-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-statically-compiled-aspnet-app-and-collect-memory-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-memory-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-app-to-collect-memory-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-native-app-and-collect-concurrency-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user-can-be-dangerous-if-the-following-information-looks-suspicious-or-you-are-unsure-do-not-attach-to-this-process.md",
+            "redirect_url": "/visualstudio/debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-does-not-have-permission-to-connect-to-this-computer.md",
+            "redirect_url": "/visualstudio/debugger/error-the-microsoft-visual-studio-remote-debugging-monitor-no-permission?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-dotnet-framework-component-and-collect-timing-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-application-statistics-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-native-app-and-collect-application-statistics?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-statically-compiled-aspnet-and-collect-detailed-timing-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/collecting-detailed-timing-data-for-an-aspnet-web-application-using-the-profiler-instrumentation-method-from-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/collecting-detailed-timing-data-aspnet-profiler-instrumentation-method?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-launch-a-stand-alone-dotnet-framework-app-to-collect-concurrency-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-instrument-a-dynamically-compiled-aspnet-app-and-collect-timing-data?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-concurrency-data-by-using-the-command-line.md",
+            "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-dotnet-app-and-collect-concurrency-data?view=vs-2015",
+            "redirect_document_id": false
         }
     ]
 }
