@@ -51,7 +51,6 @@ To completely remove all installations of Visual Studio 2017 as well as the Visu
 
 ## See also
 
-* [Install Visual Studio](install-visual-studio.md)
 * [Modify Visual Studio 2017](modify-visual-studio.md)
 * [Update Visual Studio](update-visual-studio.md)
-* [Remove Visual Studio](remove-visual-studio.md)
+* [Uninstall Visual Studio for Mac](/visualstudio/mac/uninstall)
