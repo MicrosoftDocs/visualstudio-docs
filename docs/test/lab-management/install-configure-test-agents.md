@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Install test agents and test controllers
 
-For test scenarios that use Visual Studio and Azure DevOps Services or Team Foundation Server (TFS), you don't need a test controller. Agents for Visual Studio handle orchestration by communicating with Azure DevOps Services or TFS. A scenario could be that you run continuous tests for build and release workflows in Azure DevOps Services or TFS.
+For test scenarios that use Visual Studio and Azure Pipelines or Team Foundation Server (TFS), you don't need a test controller. Agents for Visual Studio handle orchestration by communicating with Azure Pipelines or TFS. A scenario could be that you run continuous tests for build and release workflows in Azure Pipelines or TFS.
 
 You might also consider if it's better to use [build or release management](use-build-or-rm-instead-of-lab-management.md) instead of lab management.
 
