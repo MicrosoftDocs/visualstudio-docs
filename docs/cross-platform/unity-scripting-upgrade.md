@@ -2,7 +2,7 @@
 title: "Using .NET 4.x in Unity"
 author: dantogno
 ms.author: v-davian
-ms.date: "08/08/2018"
+ms.date: "08/29/2018"
 ms.topic: "conceptual"
 ms.assetid: E2C9420F-A5D5-4472-9020-2B63FB27A133
 ms.technology: vs-unity-tools
@@ -78,7 +78,19 @@ In addition to new C# syntax and language features, the .NET 4.x scripting runti
 
 1. In your Unity project's root **Assets** folder, create a new folder named **Plugins**. Plugins is a special folder name in Unity. See the [Unity documentation](https://docs.unity3d.com/Manual/Plugins.html) for more information.
 
-1. Paste the **Newtonsoft.Json.dll** file into your Unity project's **Plugins** directory. You can now use code in the Json.NET package.
+1. Paste the **Newtonsoft.Json.dll** file into your Unity project's **Plugins** directory.
+
+1. Create a file named **link.xml** in your Unity project's **Assets** directory and add the following XML.  This will ensure Unity's bytecode stripping process does not remove necessary data when exporting to an IL2CPP platform.  While this step is specific to this library, you may run into problems with other libraries that use Reflection in similar ways.  For more information, please see [Unity's docs](https://docs.unity3d.com/Manual/IL2CPP-BytecodeStripping.html) on this topic.
+
+```xml
+<linker>
+  <assembly fullname="System.Core">
+    <type fullname="System.Linq.Expressions.Interpreter.LightLambda" preserve="all" />
+  </assembly>
+</linker>
+```
+
+With everything in place, you can now use the Json.NET package.
 
 ```csharp
 using Newtonsoft.Json;
@@ -107,6 +119,8 @@ public class JSONTest : MonoBehaviour
     }
 }
 ```
+
+This is a simple example of using a library which has no dependencies, but not that many NuGet packages rely on other NuGet packages and you would need to download these dependencies manually and add them to the project in the same way.
 
 ## New syntax and language features
 
@@ -313,7 +327,9 @@ public class UsingStaticExample: MonoBehaviour
 
 ## IL2CPP Considerations
 
-When exporting your game to platforms like iOS, Unity will use its IL2CPP engine to "transpile" IL to C++ code which is then compiled using the native compiler of the target platform. In this scenario, there are several .NET features which are not supported, such as parts of Reflection, and usage of the dynamic keyword. While you can control using these features in your own code, you may run into problems using 3rd party DLLs and SDKs which were not written with Unity and IL2CPP in mind. For more information on this topic, please see the [Scripting Restrictions](https://docs.unity3d.com/Manual/ScriptingRestrictions.html) docs on Unity's site.
+When exporting your game to platforms like iOS, Unity will use its IL2CPP engine to "transpile" IL to C++ code which is then compiled using the native compiler of the target platform. In this scenario, there are several .NET features which are not supported, such as parts of Reflection, and usage of the `dynamic` keyword. While you can control using these features in your own code, you may run into problems using 3rd party DLLs and SDKs which were not written with Unity and IL2CPP in mind. For more information on this topic, please see the [Scripting Restrictions](https://docs.unity3d.com/Manual/ScriptingRestrictions.html) docs on Unity's site.
+
+Additionally, as mentioned in the Json.NET example above, Unity will attempt to strip out unused code during the IL2CPP export process.  While this typically isn't an issue, with libraries that use Reflection, it can accidentally strip out properties or methods that will be called at runtime that can't be determined at export time.  To fix these issues, add a **link.xml** file to your project which contains a list of assemblies and namespaces to not run the stripping process against.  For full details, please see [Unity's docs on bytecode stripping](https://docs.unity3d.com/Manual/IL2CPP-BytecodeStripping.html).
 
 ## .NET 4.x Sample Unity Project
 
