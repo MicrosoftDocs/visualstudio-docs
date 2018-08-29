@@ -82,13 +82,13 @@ In addition to new C# syntax and language features, the .NET 4.x scripting runti
 
 1. Create a file named **link.xml** in your Unity project's **Assets** directory and add the following XML.  This will ensure Unity's bytecode stripping process does not remove necessary data when exporting to an IL2CPP platform.  While this step is specific to this library, you may run into problems with other libraries that use Reflection in similar ways.  For more information, please see [Unity's docs](https://docs.unity3d.com/Manual/IL2CPP-BytecodeStripping.html) on this topic.
 
-```xml
-<linker>
-  <assembly fullname="System.Core">
-    <type fullname="System.Linq.Expressions.Interpreter.LightLambda" preserve="all" />
-  </assembly>
-</linker>
-```
+    ```xml
+    <linker>
+      <assembly fullname="System.Core">
+        <type fullname="System.Linq.Expressions.Interpreter.LightLambda" preserve="all" />
+      </assembly>
+    </linker>
+    ```
 
 With everything in place, you can now use the Json.NET package.
 
@@ -120,7 +120,7 @@ public class JSONTest : MonoBehaviour
 }
 ```
 
-This is a simple example of using a library which has no dependencies, but not that many NuGet packages rely on other NuGet packages and you would need to download these dependencies manually and add them to the project in the same way.
+This is a simple example of using a library which has no dependencies. When NuGet packages rely on other NuGet packages, you would need to download these dependencies manually and add them to the project in the same way.
 
 ## New syntax and language features
 
