@@ -141,4 +141,4 @@ For more information, see the [Change installation locations in Visual Studio](c
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
 * [Create an offline installation of Visual Studio 2017](create-an-offline-installation-of-visual-studio.md)
 * [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
-* [Setup and Install Visual Studio for Mac](/visualstudio/mac/installation)
+* [Setup and install Visual Studio for Mac](/visualstudio/mac/installation)
