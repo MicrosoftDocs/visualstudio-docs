@@ -96,6 +96,6 @@ scriptProperties.SetProperty(SCRIPTPROP_STRCOMPINST,
 ```  
   
 ## See Also  
- [Defining Document Compatibility](http://msdn.microsoft.com/library/cc288325)   
+ [Defining Document Compatibility](https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/compatibility/cc288325(v=vs.85))   
  [IActiveScriptProperty](../../winscript/reference/iactivescriptproperty.md)   
  [Version Information](../../javascript/reference/javascript-version-information.md)
