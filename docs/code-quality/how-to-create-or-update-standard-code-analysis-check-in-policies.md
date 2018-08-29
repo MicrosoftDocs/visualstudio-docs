@@ -31,7 +31,7 @@ After you specify a check-in policy for managed code, team members can synchroni
 
 ## To open the check-in policy editor
 
-1. In Team Explorer, right-click the project name, point to **Azure DevOps Project Settings**, and then click **Source Control**.
+1. In Team Explorer, right-click the project name, point to **Project Settings**, and then click **Source Control**.
 
 1. In the **Source Control** dialog box, select the **Check-in Policy** tab.
 

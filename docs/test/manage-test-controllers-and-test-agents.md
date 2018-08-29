@@ -98,7 +98,7 @@ A test agent must be set to the offline state before it can be removed.
 
 ### To remove a test agent from a test controller
 
-1. If the test controller is not registered with an Azure DevOps Project, follow these steps.
+1. If the test controller is not registered with a project, follow these steps.
 
     1. From Visual Studio open the test settings file for your test project, choose **Role** and choose **Manage Test Controllers** from the drop down for the **Controller** field.
 
@@ -111,7 +111,7 @@ A test agent must be set to the offline state before it can be removed.
         > [!NOTE]
         > Removing a test agent just disassociates it from the test controller. To completely uninstall the test agent, use the  **Programs and Features** Control Panel on the test agent computer.
 
-2. If the test controller is registered with an Azure DevOps Project, remove the agent using Microsoft Test Manager.
+2. If the test controller is registered with a project, remove the agent using Microsoft Test Manager.
 
 ## Change the settings for a test agent
 
@@ -129,7 +129,7 @@ You can change the status and other settings for a test agent using the followin
 ### To change the settings of a test agent
 
 > [!NOTE]
-> If the test agent is registered to a test controller that is registered with an Azure DevOps Project, change the settings in Microsoft Test Manager.
+> If the test agent is registered to a test controller that is registered with a project, change the settings in Microsoft Test Manager.
 
 1. To configure and monitor the test controller and any registered agents for a load test, choose the **Load Test** menu in Visual Studio and then choose **Manage Test Controllers**. For any other tests, open the test settings file for your test project in Visual Studio, choose **Role** and choose **Manage Test Controllers** from the drop down for the **Controller** field.
 
@@ -147,7 +147,7 @@ You can change the status and other settings for a test agent using the followin
 |-------------------------|-----------------|
 |**Weighting**|Used to distribute load when you use test agents with different performance levels. For example, a test agent with a weighting of 100 receives two times the load as a test agent with a weighting of 50.|
 |**IP Switching**|Used to configure IP switching. IP switching allows a test agent to send requests to a server by using a range of IP addresses. This simulates calls that come from different client computers.<br /><br /> IP Switching is important if your load test is accessing a web farm. Most load balancers establish affinity between a client and a particular web server by using the client's IP address. If all requests seem like they are coming from a single client, the load balancer will not balance the load. To obtain good load balance in the web farm, make sure that requests come from a range of IP addresses. **Note:**  You can specify a network adapter, or use **(All unassigned)** to automatically select one that is currently not being used. <br /><br /> To use the IP switching feature, the Visual Studio Test Agent service must be running as a user in the Administrators group for that agent computer. This user is selected during agent setup, but can be changed by modifying the properties of the service and restarting it.<br /><br /> To verify that IP switching is working correctly, enable IIS logging on the web server, use the IIS logging functionality to verify that requests are coming from the IP addresses that you configured.|
-|**Attributes**|Set of name/value pairs that can be used in test agent selection. For example, a test might require a particular OS. You can add attributes in the **Roles** tab of your test settings file and they can be used to select a test agent that has matching attributes. If you want to run a test on multiple machines, create an attribute in the test settings role that is configured to run your tests, and then configure a matching attribute on each test agent that you want to use in that role.. **Note:**  This setting is only available for test agents that are registered with a test controller that is not registered to an Azure DevOps Project, because these attributes are only used in test settings for Visual Studio.|
+|**Attributes**|Set of name/value pairs that can be used in test agent selection. For example, a test might require a particular OS. You can add attributes in the **Roles** tab of your test settings file and they can be used to select a test agent that has matching attributes. If you want to run a test on multiple machines, create an attribute in the test settings role that is configured to run your tests, and then configure a matching attribute on each test agent that you want to use in that role.. **Note:**  This setting is only available for test agents that are registered with a test controller that is not registered to a project, because these attributes are only used in test settings for Visual Studio.|
 
 Test agent weight and test agent attribute changes go into effect immediately, but do not affect tests that are running. The IP Address Range takes effect after the test controller is restarted.
 
@@ -158,12 +158,12 @@ Test agent weight and test agent attribute changes go into effect immediately, b
 
 ## Configure a test controller
 
-To configure a test controller, you must use the **Team Test Controller Configuration Tool**. When you configure your test controller, you can register your test controller with a different Azure DevOps Project collection, or unregister your test controller from an Azure DevOps Project collection.
+To configure a test controller, you must use the **Team Test Controller Configuration Tool**. When you configure your test controller, you can register your test controller with a different project collection, or unregister your test controller from a project collection.
 
-If you want to register your test controller with your Team Foundation Server project collection, the account that you use for the test controller service must be a member of the Project Collection Test Service Accounts group for the Azure DevOps Project Collection, or the account that you use to run the test controller configuration tool must be a Project Collection Administrator.
+If you want to register your test controller with your Team Foundation Server project collection, the account that you use for the test controller service must be a member of the Project Collection Test Service Accounts group for the Project Collection, or the account that you use to run the test controller configuration tool must be a Project Collection Administrator.
 
 > [!NOTE]
-> If you unregister a test controller from an Azure DevOps Project collection that has existing environments in an Azure DevOps Project collection, the environments are still maintained if you moved that Azure DevOps Project collection and re-register the test controller to that moved Azure DevOps Project collection.
+> If you unregister a test controller from a project collection that has existing environments in a project collection, the environments are still maintained if you moved that project collection and re-register the test controller to that moved project collection.
 
 ### To configure a test controller
 
@@ -176,7 +176,7 @@ If you want to register your test controller with your Team Foundation Server pr
     > [!NOTE]
     > Null passwords are not supported for user accounts.
 
-4. (Optional) If you do not want to use your test controller with a lab environment, but only to run tests from Visual Studio, clear **Register with Azure DevOps Project Collection**.
+4. (Optional) If you do not want to use your test controller with a lab environment, but only to run tests from Visual Studio, clear **Register with Project Collection**.
 
 5. (Optional) To configure your test controller for load testing, select **Configure for load testing**. Then type your SQL Server instance in **Create load test results database in the following SQL Server instance**.
 
