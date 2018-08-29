@@ -34,9 +34,9 @@ Here are examples of common lab environment topologies:
 |---|---|
 |  ![movie camera icon for video](../../install/media/video-icon.png)  |    [Watch a video](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Managing-lab-environments-for-testing) on managing lab environments for testing. |
 
-## Use the cloud with Team Services or Team Foundation Server Build and Release
+## Use the cloud with Azure Pipelines or Team Foundation Server Build and Release
 
-You can perform automated testing and build-deploy-test automation using the [Build and Release](/vsts/build-release/) features in Team Foundation Server (TFS) and Azure DevOps Services. Some of the benefits are:
+You can perform automated testing and build-deploy-test automation using the [Build and Release](/vsts/build-release/) features in Team Foundation Server (TFS) and Azure Pipelines. Some of the benefits are:
 
 * You do not need a Build controller or Test controller.
 * The Test agent is installed through a task as part of the build or release.
@@ -80,7 +80,7 @@ There are two types of lab environments that you can create with Visual Studio L
 
 - **Virtual machine templates:** A virtual machine template is a virtual machine that has had its name and other identifiers removed. When a VM template is deployed in an SCVMM environment, Microsoft Test Manager generates new identifiers. This allows you deploy multiple copies of a virtual machine in the same environment, or multiple environments, and then run the virtual machines simultaneously.
 
-- **Stored Virtual Machines:** A virtual machine that is stored in your Team Project library and includes unique identifiers.
+- **Stored Virtual Machines:** A virtual machine that is stored in your project library and includes unique identifiers.
 
 > [!NOTE]
 > Lab Management does not support SCVMM 2016.
@@ -114,9 +114,9 @@ Here are some additional concepts that you should be familiar with before you co
 |Term|Description|
 |----------|-----------------|
 |Lab Center|The area of Microsoft Test Manager where you create and manage lab environments.|
-|Team Project Lab|The collection of lab environments that have been set up so you can connect to them and run their virtual machines.|
-|Team Project Library|An archive of stored virtual machines, templates, and stored lab environments that have been imported into the host group of your team project. You can use the items in your library with SCVMM environments; however, you can’t add them directly to a standard environment. You can’t run the items in your library; instead you use them to deploy a new environment.|
-|Deployed Environment|A lab environment that has been deployed to your team project lab so that you can connect to it and run its machines.|
+|Azure DevOps Project Lab|The collection of lab environments that have been set up so you can connect to them and run their virtual machines.|
+|Azure DevOps Project Library|An archive of stored virtual machines, templates, and stored lab environments that have been imported into the host group of your project. You can use the items in your library with SCVMM environments; however, you can’t add them directly to a standard environment. You can’t run the items in your library; instead you use them to deploy a new environment.|
+|Deployed Environment|A lab environment that has been deployed to your project lab so that you can connect to it and run its machines.|
 
 For more information about lab management, see:
 
@@ -129,7 +129,7 @@ For more information about lab management, see:
 
 For information about setting up environments, see:
 
-* [Build and Release cloud environments](use-build-or-rm-instead-of-lab-management.md)
+* [Azure Pipelines](use-build-or-rm-instead-of-lab-management.md)
 * [Standard lab environments](https://msdn.microsoft.com/library/ee390842.aspx)
 * [SCVMM (virtual) environments](https://msdn.microsoft.com/library/ee943322.aspx)
 * [Creating and using a network isolated environment](https://msdn.microsoft.com/library/ee518924.aspx)

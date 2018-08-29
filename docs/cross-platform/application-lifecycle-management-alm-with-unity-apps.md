@@ -104,7 +104,7 @@ Reference link: **[Improve code quality](../test/improve-code-quality.md)**
 
 ## Release management
 
-Reference link: [Build and release overview](/vsts/pipelines/overview?view=vsts)
+Reference link: [Build and release in Azure Pipelines and TFS](/vsts/pipelines/overview?view=vsts)
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
