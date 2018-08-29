@@ -14,7 +14,7 @@ author: gewarren
 ---
 # Use Build and Release Management instead of Lab Management for automated testing
 
-If you use Microsoft Test Manager (MTM) and Lab Management for automated testing or for build-deploy-test automation, this topic explains how you can achieve the same goals using the [Build and Release](/vsts/build-release/) features in Team Foundation Server (TFS) and Azure DevOps Services.
+If you use Microsoft Test Manager (MTM) and Lab Management for automated testing or for build-deploy-test automation, this topic explains how you can achieve the same goals using the [Build and Release](/vsts/build-release/) features in Team Foundation Server (TFS) and Azure Test Plans.
 
 ## Build-deploy-test automation
 
@@ -62,7 +62,7 @@ The following table summarizes the typical activities you perform in Lab Center,
 
 A network isolated lab environment is a group of SCVMM virtual machines that can be cloned safely without causing network conflicts. This was done in MTM using a series of instructions that used a set of network interface cards to configure the virtual machines in a private network, and another set of network interface cards to configure the virtual machines in a public network.
 
-However, Azure DevOps Services and TFS, in conjunction with the SCVMM build and deploy task, can be used to manage SCVMM environments, provision isolated virtual networks, and implement build-deploy-test scenarios. For example, you can use the task to:
+However, Azure Test Plans and TFS, in conjunction with the SCVMM build and deploy task, can be used to manage SCVMM environments, provision isolated virtual networks, and implement build-deploy-test scenarios. For example, you can use the task to:
 
 * Create, restore, and delete checkpoints
 * Create new virtual machines using a template
