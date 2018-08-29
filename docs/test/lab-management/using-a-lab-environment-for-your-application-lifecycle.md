@@ -115,7 +115,7 @@ Here are some additional concepts that you should be familiar with before you co
 |----------|-----------------|
 |Lab Center|The area of Microsoft Test Manager where you create and manage lab environments.|
 |Azure DevOps Project Lab|The collection of lab environments that have been set up so you can connect to them and run their virtual machines.|
-|Azure DevOps Project Library|An archive of stored virtual machines, templates, and stored lab environments that have been imported into the host group of your Azure DevOps Projects. You can use the items in your library with SCVMM environments; however, you can’t add them directly to a standard environment. You can’t run the items in your library; instead you use them to deploy a new environment.|
+|Azure DevOps Project Library|An archive of stored virtual machines, templates, and stored lab environments that have been imported into the host group of your Azure DevOps Project. You can use the items in your library with SCVMM environments; however, you can’t add them directly to a standard environment. You can’t run the items in your library; instead you use them to deploy a new environment.|
 |Deployed Environment|A lab environment that has been deployed to your Azure DevOps Project lab so that you can connect to it and run its machines.|
 
 For more information about lab management, see:
