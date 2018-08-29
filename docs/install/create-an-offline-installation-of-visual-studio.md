@@ -1,6 +1,6 @@
 ---
 title: "Create an Offline Installation of Visual Studio"
-description: "Learn how to install Visual Studio offline."
+description: "Learn how to install Visual Studio offline when you have an unreliable internet connection or low bandwidth."
 ms.custom: ""
 ms.date: 08/28/2018
 ms.technology: vs-acquisition
@@ -21,10 +21,18 @@ ms.workload:
 
 We designed Visual Studio 2017 to work well in a variety of network and computer configurations. While we recommend that you try the [Visual Studio web installer](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)&mdash;which is a small file and allows you to stay current with all the latest fixes and features&mdash;we understand that you might not be able to.
 
-For example, you might have an internet connection that is unavailable, unreliable, or has low bandwidth. If so, you can use the command line to create a local cache of the files after you download a small bootstrapper. You can then use the local cache to install Visual Studio. This process replaces the ISO files that were available for previous versions.
+For example, you might have a slow internet connection, an ureliable one, or one that has low bandwidth. If so, you have a few options:
+
+* You can download the web installer and then use the new **Download all, then install** option, which is available in Visual Studio 2017 version 15.8 or later. Then, you can install Visual Studio from your hard drive.
+
+   ![The "Download all, then install" option](media/download-all-then-install.png "The "Download all, then install" option")
+
+* You can use the command line to create a local cache of the files after you download a small bootstrapper. Then, you can then use the local cache to install Visual Studio. (This process replaces the ISO files that were available for previous versions.)
 
 > [!NOTE]
 > If you are an enterprise administrator who wants to perform a deployment of Visual Studio 2017 to a network of client workstations that are firewalled from the internet, see our [Create a network installation of Visual Studio 2017](../install/create-a-network-installation-of-visual-studio.md) and [Install certificates required for Visual Studio offline installation](../install/install-certificates-for-visual-studio-offline.md) pages.
+
+Here's how to create an offline installation by using a local cache. You must have an internet connection to complete the first two steps.
 
 ## Step 1 - Download the Visual Studio bootstrapper
 
@@ -40,7 +48,7 @@ Your setup file&mdash;or to be more specific, a bootstrapper file&mdash;will mat
 
 ## Step 2 - Create a local install cache
 
-You must have an internet connection to complete this step. To create a local layout, open a command prompt and use one of the commands from the following examples. The examples here assume that you're using the Community edition of Visual Studio; adjust the command as appropriate for your edition.
+To create a local layout, open a command prompt and use one of the commands from the following examples. The examples here assume that you're using the Community edition of Visual Studio; adjust the command as appropriate for your edition.
 
 - For .NET web and .NET desktop development, run:
 
