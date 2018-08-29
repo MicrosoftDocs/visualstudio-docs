@@ -69,7 +69,7 @@ To create a custom rule set for an Azure DevOps project, you first create a spec
 
 ### To specify the rule set file as the check-in policy
 
-1. On the **Team** menu, point to **Team Project Settings**, and then click **Source Control**.
+1. On the **Team** menu, point to **Azure DevOps Project Settings**, and then click **Source Control**.
 
 2. Click **Check-in Policy**, and then click **Add**.
 

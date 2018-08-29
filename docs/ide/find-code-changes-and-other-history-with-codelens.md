@@ -257,7 +257,7 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 
 ### Q: Why don't I see the work item details for a commit?
 
-**A:** This might happen because CodeLens can't find the work items in TFS. Check that you're connected to the team project that has those work items, and that you have permissions to see those work items. Work item details might not also not show if the commit description has incorrect information about the work item IDs in TFS.
+**A:** This might happen because CodeLens can't find the work items in TFS. Check that you're connected to the Azure DevOps Project that has those work items, and that you have permissions to see those work items. Work item details might not also not show if the commit description has incorrect information about the work item IDs in TFS.
 
 ### Q: Why don't I see the Skype indicators?
 

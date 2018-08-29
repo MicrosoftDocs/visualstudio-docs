@@ -80,7 +80,7 @@ There are two types of lab environments that you can create with Visual Studio L
 
 - **Virtual machine templates:** A virtual machine template is a virtual machine that has had its name and other identifiers removed. When a VM template is deployed in an SCVMM environment, Microsoft Test Manager generates new identifiers. This allows you deploy multiple copies of a virtual machine in the same environment, or multiple environments, and then run the virtual machines simultaneously.
 
-- **Stored Virtual Machines:** A virtual machine that is stored in your Team Project library and includes unique identifiers.
+- **Stored Virtual Machines:** A virtual machine that is stored in your Azure DevOps Project library and includes unique identifiers.
 
 > [!NOTE]
 > Lab Management does not support SCVMM 2016.
@@ -114,9 +114,9 @@ Here are some additional concepts that you should be familiar with before you co
 |Term|Description|
 |----------|-----------------|
 |Lab Center|The area of Microsoft Test Manager where you create and manage lab environments.|
-|Team Project Lab|The collection of lab environments that have been set up so you can connect to them and run their virtual machines.|
-|Team Project Library|An archive of stored virtual machines, templates, and stored lab environments that have been imported into the host group of your team project. You can use the items in your library with SCVMM environments; however, you can’t add them directly to a standard environment. You can’t run the items in your library; instead you use them to deploy a new environment.|
-|Deployed Environment|A lab environment that has been deployed to your team project lab so that you can connect to it and run its machines.|
+|Azure DevOps Project Lab|The collection of lab environments that have been set up so you can connect to them and run their virtual machines.|
+|Azure DevOps Project Library|An archive of stored virtual machines, templates, and stored lab environments that have been imported into the host group of your Azure DevOps Projects. You can use the items in your library with SCVMM environments; however, you can’t add them directly to a standard environment. You can’t run the items in your library; instead you use them to deploy a new environment.|
+|Deployed Environment|A lab environment that has been deployed to your Azure DevOps Project lab so that you can connect to it and run its machines.|
 
 For more information about lab management, see:
 
