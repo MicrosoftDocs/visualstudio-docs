@@ -36,7 +36,7 @@ searchScope: []
                                 </a>
                             </li>
 							<li>
-                                <a href="/azure/devops/" title="Visual Studio Team Services">
+                                <a href="/azure/devops/" title="Azure DevOps Services">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -46,7 +46,7 @@ searchScope: []
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Visual Studio Team Services</h3>
+                                                    <h3>Azure DevOps Services</h3>
                                                     <p>Increase team productivity with Agile project tools and reports. Build, test, and deploy projects from source control with modern CI/CD tools.</p>
                                                 </div>
                                             </div>
