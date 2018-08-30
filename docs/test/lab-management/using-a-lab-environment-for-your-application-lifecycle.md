@@ -36,7 +36,7 @@ Here are examples of common lab environment topologies:
 
 ## Use the cloud with Team Services or Team Foundation Server Build and Release
 
-You can perform automated testing and build-deploy-test automation using the [Build and Release](/vsts/build-release/) features in Team Foundation Server (TFS) and Azure DevOps Services. Some of the benefits are:
+You can perform automated testing and build-deploy-test automation using the [Build and Release](/vsts/build-release/) features in Team Foundation Server (TFS) and Azure Test Plans. Some of the benefits are:
 
 * You do not need a Build controller or Test controller.
 * The Test agent is installed through a task as part of the build or release.
