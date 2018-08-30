@@ -249,7 +249,7 @@ VSDoc is no longer supported in favor of [JSDoc](http://usejsdoc.org/about-getti
 
 ### `.intellisense.js` extensions
 
-Previously, you could author [IntelliSense extensions](https://msdn.microsoft.com/en-us/library/hh874692.aspx) which would allow you to add custom completion results for third-party libraries.
+Previously, you could author [IntelliSense extensions](https://msdn.microsoft.com/library/hh874692.aspx) which would allow you to add custom completion results for third-party libraries.
 These extensions were fairly difficult to write and installing and referencing them was cumbersome, so going forward the new language service won't support these files.
 As an easier alternative, you can write a TypeScript definition file to provide the same IntelliSense benefits as the old `.intellisense.js` extensions.
 You can learn more about declaration (`.d.ts`) file authoring [here](http://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html).

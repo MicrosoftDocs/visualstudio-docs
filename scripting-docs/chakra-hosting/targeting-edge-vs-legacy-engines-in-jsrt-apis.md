@@ -18,7 +18,7 @@ Starting in Windows 10, one of the changes that we've made to Chakra (the JavaSc
   
 -   The old Chakra engine (also called the *legacy engine* or jscript9.dll below) that ships with and supports Internet Explorer 11. This engine is frozen in time and will remain fundamentally unchanged from Win8.1/IE11 release.  
   
--   The new Chakra engine (also called the *Edge engine* or chakra.dll below) that ships with and supports the new browser in Windows 10, Microsoft Edge. This engine will be continually updated and will support a "living" [Edge](http://blogs.msdn.com/b/ie/archive/2014/11/11/living-on-the-edge-our-next-step-in-interoperability.aspx) engine. A living Edge engine implies that unlike the legacy engine, the Edge engine would not carry forward any form of versioning script functionality to opt into.  
+-   The new Chakra engine (also called the *Edge engine* or chakra.dll below) that ships with and supports the new browser in Windows 10, Microsoft Edge. This engine will be continually updated and will support a "living" [Edge](https://blogs.msdn.microsoft.com/ie/2014/11/11/living-on-the-edge-our-next-step-in-helping-the-web-just-work/) engine. A living Edge engine implies that unlike the legacy engine, the Edge engine would not carry forward any form of versioning script functionality to opt into.  
   
  When creating an app using the JavaScript Runtime Hosting (JsRT) API, you can choose to target either the legacy or the Edge engine.  
   
