@@ -144,7 +144,6 @@ If you choose to ignore a notification, Visual Studio stops showing it. If you w
 
 ## See also
 
-* [Install Visual Studio 2017](install-visual-studio.md)
 * [Modify Visual Studio 2017](modify-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
-* [Visual Studio Administrators Guide](visual-studio-administrator-guide.md)
+* [Update Visual Studio for Mac](/visualstudio/mac/update)
