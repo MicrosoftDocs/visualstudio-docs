@@ -25,9 +25,10 @@ For example, you might have a slow internet connection, an ureliable one, or one
 
 ## Option 1: Use the "Download all, then install" feature
 
-After you download the web installer, select the new **Download all, then install** option, which is available from the Visual Studio Installer in Visual Studio 2017 version 15.8 or later. Then, continue with your installation.
+[**New in 15.8**](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&view=vs-2017#install
+): After you download the web installer, select the new **Download all, then install** option from the Visual Studio Installer. Then, continue with your installation.
 
-   ![The "Download all, then install" option](media/download-all-then-install.png "The "Download all, then install" option")
+   ![The "Download all, then install" option](media/download-all-then-install.png)
 
 ## Option 2: Use the command line to create a local cache
 
@@ -42,9 +43,7 @@ Here's how to create an offline installation by using a local cache.
 
 You must have an internet connection to complete this step.
 
-Start by downloading the Visual Studio bootstrapper for your chosen edition of Visual Studio.
-
-Your setup file&mdash;or bootstrapper&mdash;will match or be similar to one of the following.
+Start by downloading the Visual Studio bootstrapper for your chosen edition of Visual Studio. Your setup file&mdash;or bootstrapper&mdash;will match or be similar to one of the following.
 
 | Edition                    | File                                                                    |
 |----------------------------|-------------------------------------------------------------------------|
@@ -56,7 +55,7 @@ Your setup file&mdash;or bootstrapper&mdash;will match or be similar to one of t
 
 You must have an internet connection to complete this step.
 
-To create a local layout, open a command prompt and use one of the commands from the following examples. The examples here assume that you're using the Community edition of Visual Studio; adjust the command as appropriate for your edition.
+Open a command prompt and use one of the commands from the following examples. The examples that are listed here assume that you're using the Community edition of Visual Studio; adjust the command as appropriate for your edition.
 
 - For .NET web and .NET desktop development, run:
 
