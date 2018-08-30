@@ -25,9 +25,9 @@ Once you've [installed Python support in Visual Studio 2017](installing-python-s
 
 1. Launch Visual Studio.
 
-1. Select **View** > **Team Explorer** to open the **Team Explorer** window in which you can connect to GitHub or Visual Studio Team Services, or clone a repository. (If you don't see the **Connect** page shown below, select the plug icon on the top toolbar, which takes you to that page.)
+1. Select **View** > **Team Explorer** to open the **Team Explorer** window in which you can connect to GitHub or Azure Repos, or clone a repository. (If you don't see the **Connect** page shown below, select the plug icon on the top toolbar, which takes you to that page.)
 
-    ![Team explorer window showing Visual Studio Team Services, GitHub, and cloning a repository](media/team-explorer.png)
+    ![Team explorer window showing Azure Repos, GitHub, and cloning a repository](media/team-explorer.png)
 
 1. Under **Local Git Repositories**, select the **Clone** command, then enter `https://github.com/gregmalcolm/python_koans` in the URL field, enter a folder for the cloned files, and select the **Clone** button.
 
