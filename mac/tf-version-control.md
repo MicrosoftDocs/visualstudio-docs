@@ -44,15 +44,15 @@ For information on what's new in each release, see the [Release Notes](https://d
 
 Once the extension is installed, select the **Version Control > TFS/Azure Repos > Open from Remote Repository** menu item. 
 
-Choose either Azure DevOps Services or Team Foundation Server to get started and press **Continue**:
+Choose either Azure Repos or Team Foundation Server to get started and press **Continue**:
 
   ![Connect with a Server](media/tfvc-choose-server-type.png)
 
-### Azure DevOps Services Authentication
+### Azure Repos Authentication
 
-When you select a project that is hosted on Azure DevOps Services, you're prompted to enter your Microsoft account details:
+When you select a project that is hosted on Azure Repos, you're prompted to enter your Microsoft account details:
 
-  ![Connect with an Azure DevOps Services Server](media/tfvc-vsts-login.png)
+  ![Connect with an Azure Repos Server](media/tfvc-vsts-login.png)
 
 ### TFS Authentication
 
