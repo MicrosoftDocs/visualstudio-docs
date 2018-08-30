@@ -45,7 +45,7 @@ This walkthrough illustrates the following tasks:
 
 - Supported editions of Microsoft Windows and SharePoint.
 
-- Visual Studio 2017 or an edition of Azure DevOps Services.
+- Visual Studio 2017 or Azure DevOps Services.
 
 ## Create an empty SharePoint project
 

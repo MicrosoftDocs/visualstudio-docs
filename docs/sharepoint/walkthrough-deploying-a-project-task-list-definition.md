@@ -28,7 +28,7 @@ This walkthrough shows you how to use [!INCLUDE[vs_dev11_long](../sharepoint/inc
 
 - Supported editions of Microsoft Windows and SharePoint.
 
-- Visual Studio 2017 or an edition of Azure DevOps Services.
+- Visual Studio 2017 or Azure DevOps Services.
 
 ## Create a SharePoint list
 
