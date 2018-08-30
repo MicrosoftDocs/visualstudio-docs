@@ -129,7 +129,7 @@ For more information about lab management, see:
 
 For information about setting up environments, see:
 
-* [Azure Pipelines](use-build-or-rm-instead-of-lab-management.md)
+* [Build and release cloud environments](use-build-or-rm-instead-of-lab-management.md)
 * [Standard lab environments](https://msdn.microsoft.com/library/ee390842.aspx)
 * [SCVMM (virtual) environments](https://msdn.microsoft.com/library/ee943322.aspx)
 * [Creating and using a network isolated environment](https://msdn.microsoft.com/library/ee518924.aspx)
