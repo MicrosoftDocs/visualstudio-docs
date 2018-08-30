@@ -14,7 +14,7 @@ ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
 > [!NOTE]
 > **Note**: Team Foundation Version Control support is currently in preview and some functionality is not yet fully working. We'd love feedback from you on any issues at [Developer Community](https://developercommunity.visualstudio.com/spaces/41/index.html). More changes are still to come!
 
-Azure DevOps Services provides two models of version control: Git, which is distributed version control, and Team Foundation Version Control (TFVC), which is centralized version control. This article provides an overview and a starting point for using TFVC with Visual Studio for Mac.
+Azure Repos provides two models of version control: Git, which is distributed version control, and Team Foundation Version Control (TFVC), which is centralized version control. This article provides an overview and a starting point for using TFVC with Visual Studio for Mac.
 
 ## Requirements
 
@@ -24,7 +24,7 @@ Azure DevOps Services provides two models of version control: Git, which is dist
 
 ## Installation
 
-In Visual Studio for Mac, choose **Visual Studio > Extensions...** from the menu. In the **Gallery** tab, select **Version Control > Team Foundation Version Control for TFS and Azure Repos** and click **Install…**:
+In Visual Studio for Mac, choose **Visual Studio > Extensions...** from the menu. In the **Gallery** tab, select **Version Control > Team Foundation Version Control for TFS and VSTS** and click **Install…**:
 
   ![Extension manager](media/tfvc-install.png) 
 
@@ -42,9 +42,9 @@ For information on what's new in each release, see the [Release Notes](https://d
 
 ## Using the add-in
 
-Once the extension is installed, select the **Version Control > TFS/Azure Repos > Open from Remote Repository** menu item. 
+Once the extension is installed, select the **Version Control > TFS/VSTS > Open from Remote Repository** menu item. 
 
-Choose either Azure Repos or Team Foundation Server to get started and press **Continue**:
+Choose either VSTS or Team Foundation Server to get started and press **Continue**:
 
   ![Connect with a Server](media/tfvc-choose-server-type.png)
 
@@ -52,7 +52,7 @@ Choose either Azure Repos or Team Foundation Server to get started and press **C
 
 When you select a project that is hosted on Azure Repos, you're prompted to enter your Microsoft account details:
 
-  ![Connect with an Azure Repos Server](media/tfvc-vsts-login.png)
+  ![Connect with Azure Repos](media/tfvc-vsts-login.png)
 
 ### TFS Authentication
 
@@ -97,7 +97,7 @@ Set the name and local path for your new workspace and select **Create Workspace
 
 Once you've created a workspace and mapped your project, you can start working with the _Source Code Explorer_.
 
-To open the Source Code Explorer, select the **Version Control > TFS/Azure Repos > Source Control Explorer** menu item:
+To open the Source Code Explorer, select the **Version Control > TFS/VSTS > Source Control Explorer** menu item:
 
 ![Menu item to open the source code explorer](media/tfvc-source-control-explorer.png)
 
