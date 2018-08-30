@@ -1,6 +1,6 @@
 ---
 title: Visual Studio Feedback Client 2017 workload and component IDs
-description: "Use Visual Studio workload and component IDs to provide rich feedback for Visual Studio Team Services or Team Foundation Server"
+description: "Use Visual Studio workload and component IDs to provide rich feedback for Azure DevOps Services or Team Foundation Server"
 keywords:
 author: TerryGLee
 ms.author: tglee
@@ -37,7 +37,7 @@ For more information about how to use these IDs, see [Use Command-Line Parameter
 
 **ID:** Microsoft.VisualStudio.Workload.FeedbackClient
 
-**Description:** Feedback client allows Stakeholders to provide rich feedback for Visual Studio Team Services or Team Foundation Server.
+**Description:** Feedback client allows Stakeholders to provide rich feedback for Azure DevOps Services or Team Foundation Server.
 
 ### Components included by this workload
 

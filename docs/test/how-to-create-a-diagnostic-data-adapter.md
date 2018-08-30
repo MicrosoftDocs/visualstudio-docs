@@ -251,7 +251,7 @@ To create a *diagnostic data adapter*, you create a class library using Visual S
     >
     > There are other examples of configuration files in the following path based on your installation directory: *Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors*.
 
-     For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data in manual tests (VSTS)](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests).
+     For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data in manual tests (Azure Test Plans)](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests).
 
      For more information about installing the configuration file, see [How to: Install a custom diagnostic data adapter](../test/how-to-install-a-custom-diagnostic-data-adapter.md)
 
@@ -259,7 +259,7 @@ To create a *diagnostic data adapter*, you create a class library using Visual S
 
 13. For information about installing your custom editor, see [How to: Install a custom diagnostic data adapter](../test/how-to-install-a-custom-diagnostic-data-adapter.md).
 
-14. For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data in manual tests (VSTS)](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests).
+14. For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data in manual tests (Azure Test Plans)](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests).
 
 15. To select your diagnostic data adapter, you must first select an existing test settings or create a new one from Microsoft Test Manager or Visual Studio. The adapter is displayed on the **Data and Diagnostics** tab of your test settings with the friendly name that you assigned to the class.
 
@@ -279,6 +279,6 @@ To create a *diagnostic data adapter*, you create a class library using Visual S
 - <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorFriendlyNameAttribute>
 - <xref:Microsoft.VisualStudio.TestTools.Execution.DataCollectorEnabledByDefaultAttribute>
 - [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)
-- [Collect diagnostic data in manual tests (VSTS)](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests)
-- [Collect diagnostic data while testing (VSTS)](/vsts/manual-test/collect-diagnostic-data)
+- [Collect diagnostic data in manual tests (Azure Test Plans)](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests)
+- [Collect diagnostic data while testing (Azure Test Plans)](/vsts/manual-test/collect-diagnostic-data)
 - [How to: Create a custom editor for data for your diagnostic data adapter](../test/how-to-create-a-custom-editor-for-data-for-your-diagnostic-data-adapter.md)

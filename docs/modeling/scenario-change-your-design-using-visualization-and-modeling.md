@@ -210,9 +210,9 @@ As their work progresses, the teams update their work items to reflect the time 
 
 See:
 
-- [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)
+- [About Agile tools and Agile project management](/vsts/boards/backlogs/overview?view=vsts)
 
-- [Charts, dashboards, and widgets (VSTS)](/vsts/report/dashboards/overview?view=vsts)
+- [Charts, dashboards, and widgets (Azure DevOps Services)](/vsts/report/dashboards/overview?view=vsts)
 
 - [Create your backlog and tasks using Project](http://msdn.microsoft.com/Library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)
 

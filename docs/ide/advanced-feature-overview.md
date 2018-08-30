@@ -12,7 +12,7 @@ ms.workload:
 ---
 # Features of Visual Studio 2017
 
-The [Visual Studio IDE overview](../ide/visual-studio-ide.md) topic gives a basic introduction to Visual Studio. This article describes features that might be more appropriate for experienced developers, or those who are already familiar with Visual Studio.
+The [Visual Studio IDE overview](../ide/visual-studio-ide.md) article gives a basic introduction to Visual Studio. This article describes features that might be more appropriate for experienced developers, or those who are already familiar with Visual Studio.
 
 ## Modular installation
 
@@ -50,7 +50,7 @@ For more information, see [Move to the cloud With Visual Studio and Azure](https
 
 ## Create apps for the web
 
-The web drives our modern world, and Visual Studio can help you write apps for it. You can create web apps using ASP.NET, Node.js, Python, JavaScript and TypeScript. Visual Studio understands web frameworks like Angular, jQuery, Express, and more. ASP.NET Core and .NET Core run on Windows, Mac, and Linux operating systems. [ASP.NET Core](http://www.asp.net/core/overview) is a major update to MVC, WebAPI and SignalR, and runs on Windows, Mac, and Linux.  ASP.NET Core has been designed from the ground up to provide you with a lean and composable .NET stack for building modern cloud-based web apps and services.
+The web drives our modern world, and Visual Studio can help you write apps for it. You can create web apps using ASP.NET, Node.js, Python, JavaScript, and TypeScript. Visual Studio understands web frameworks like Angular, jQuery, Express, and more. ASP.NET Core and .NET Core run on Windows, Mac, and Linux operating systems. [ASP.NET Core](http://www.asp.net/core/overview) is a major update to MVC, WebAPI and SignalR, and runs on Windows, Mac, and Linux.  ASP.NET Core has been designed from the ground up to provide you with a lean and composable .NET stack for building modern cloud-based web apps and services.
 
 For more information, see [Modern web tooling](https://visualstudio.microsoft.com/vs/modern-web-tooling/).
 
@@ -58,7 +58,7 @@ For more information, see [Modern web tooling](https://visualstudio.microsoft.co
 
 You can use Visual Studio to build apps and games for macOS, Linux, and Windows, as well as for Android, iOS, and other [mobile devices](https://visualstudio.microsoft.com/vs/mobile-app-development/).
 
-- Build [.NET Core](/dotnet/core/) apps that run on Windows, macOS and Linux.
+- Build [.NET Core](/dotnet/core/) apps that run on Windows, macOS, and Linux.
 
 - Build mobile apps for iOS, Android, and Windows in C# and F# by using [Xamarin](https://developer.xamarin.com/guides/cross-platform/windows/visual-studio/).
 
@@ -74,7 +74,7 @@ You can use Visual Studio to build apps and games for macOS, Linux, and Windows,
 
 **Server Explorer** helps you browse and manage SQL Server instances and assets locally, remotely, and on Azure, Salesforce.com, Office 365, and websites. To open **Server Explorer**, on the main menu, choose **View** > **Server Explorer**. See [Add new connections](../data-tools/add-new-connections.md) for more information on using Server Explorer.
 
-[SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt) is a powerful development environment for SQL Server, Azure SQL Database and Azure SQL Data Warehouse. It enables you to build, debug, maintain, and refactor databases. You can work with a database project, or directly with a connected database instance on- or off-premises.
+[SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt) is a powerful development environment for SQL Server, Azure SQL Database, and Azure SQL Data Warehouse. It enables you to build, debug, maintain, and refactor databases. You can work with a database project, or directly with a connected database instance on- or off-premises.
 
 **SQL Server Object Explorer** in Visual Studio provides a view of your database objects similar to SQL Server Management Studio. SQL Server Object Explorer enables you to do light-duty database administration and design work, including editing table data, comparing schemas, executing queries by using contextual menus right from SQL Server Object Explorer, and more.
 
@@ -94,19 +94,19 @@ When your application is ready to deploy to users or customers, Visual Studio pr
 
 ## Manage your source code and collaborate with others
 
-You can manage your source code in Git repos hosted by any provider, including GitHub. Or use [Visual Studio Team Services (VSTS)](/vsts/index) to manage code alongside bugs and work items for your whole project. See [Get started with Git and Team Services (VSTS)](/vsts/git/gitquickstart?tabs=visual-studio) to learn more about managing Git repos in Visual Studio using Team Explorer. Visual Studio also has other built-in source control features. To learn more about them, see [New Git features in Visual Studio 2017 (blog)](https://blogs.msdn.microsoft.com/visualstudioalm/2017/03/06/new-git-features-in-visual-studio-2017/).
+You can manage your source code in Git repos hosted by any provider, including GitHub. Or use [Azure DevOps Services](/vsts/index) to manage code alongside bugs and work items for your whole project. See [Get started with Git and Azure Repos](/vsts/git/gitquickstart?tabs=visual-studio) to learn more about managing Git repos in Visual Studio using Team Explorer. Visual Studio also has other built-in source control features. To learn more about them, see [New Git features in Visual Studio 2017 (blog)](https://blogs.msdn.microsoft.com/visualstudioalm/2017/03/06/new-git-features-in-visual-studio-2017/).
 
-Visual Studio Team Services is a cloud-based service for hosting software projects and enabling collaboration in teams. VSTS supports both Git and Team Foundation Source Control systems, as well as Scrum, CMMI and Agile development methodologies. Team Foundation Version Control (TFVC) uses a single, centralized server repository to track and version files. Local changes are always checked in to the central server where other developers can get the latest changes.
+Azure DevOps Services are cloud-based services for planning, hosting, automating, and deploying software and enabling collaboration in teams. Azure DevOps Services support both Git repos (distributed version control) and Team Foundation Version Control (centralized version control), as well as pipelines for continuous build and release (CI/CD) of code stored in version control systems. Azure DevOps Services also support Scrum, CMMI and Agile development methodologies. 
 
 Team Foundation Server (TFS) is the application lifecycle management hub for Visual Studio. It enables everyone involved with the development process to participate using a single solution. TFS is useful for managing heterogeneous teams and projects, too.
 
-If you have a Visual Studio Team Services account or a Team Foundation Server on your network, you connect to it through the **Team Explorer** window in Visual Studio. From this window you can check code into or out of source control, manage work items, start builds, and access team rooms and workspaces. You can open **Team Explorer** from the **Quick Launch** box, or on the main menu from **View** > **Team Explorer** or from **Team** > **Manage Connections**.
+If you have an Azure DevOps Services organization or a Team Foundation Server on your network, you connect to it through the **Team Explorer** window in Visual Studio. From this window you can check code into or out of source control, manage work items, start builds, and access team rooms and workspaces. You can open **Team Explorer** from the **Quick Launch** box, or on the main menu from **View** > **Team Explorer** or from **Team** > **Manage Connections**.
 
-The following image shows the **Team Explorer** window for a solution that is hosted in VSTS.
+The following image shows the **Team Explorer** window for a solution that is hosted in Azure DevOps Services.
 
 ![Visual Studio Team Explorer](../ide/media/vs2017_teamexplorer.png)
 
-You can also automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in. For more information, see [Build and release (VSTS and TFS)](/vsts/build-release/index).
+You can also automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in. For more information, see [Azure Pipelines](/vsts/build-release/index).
 
 ## Extend Visual Studio
 
