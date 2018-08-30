@@ -45,7 +45,7 @@ The self-service provisioning features of Lab Center have two distinct goals:
 
 * Provide a simpler way to manage the infrastructure. Managing VM and environment templates and automatically creating private networks to isolate clones of environments from each other were examples of infrastructure management.
 
-* Provide a simpler way for teams to consume the virtual machines in their test and deployment activities. Making lab environments accessible through the same team project security model, and integrated use of those virtual machines in test scenarios were examples of easy consumption.
+* Provide a simpler way for teams to consume the virtual machines in their test and deployment activities. Making lab environments accessible through the same project security model, and integrated use of those virtual machines in test scenarios were examples of easy consumption.
 
 However, given the evolution of richer public and private cloud management systems such as [Microsoft Azure](https://azure.microsoft.com/) and [Microsoft Azure Stack](https://azure.microsoft.com/overview/azure-stack/), there is no evolution of infrastructure management features in TFS 2017 and beyond. Instead, the focus on easy consumption of resources managed through such cloud infrastructures continues.
 
