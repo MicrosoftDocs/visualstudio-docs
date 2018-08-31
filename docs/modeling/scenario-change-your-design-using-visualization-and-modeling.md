@@ -212,7 +212,7 @@ See:
 
 - [About Agile tools and Agile project management](/azure/devops/boards/backlogs/overview?view=vsts)
 
-- [Charts, dashboards, and widgets (Azure DevOps Services)](/vsts/report/dashboards/overview?view=vsts)
+- [Charts, dashboards, and widgets (Azure DevOps Services)](/azure/devops/report/dashboards/overview?view=vsts)
 
 - [Create your backlog and tasks using Project](http://msdn.microsoft.com/Library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)
 
@@ -238,7 +238,7 @@ See:
 
 - [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)
 
-- [Build and release](/azure/devops/pipelines/index)
+- [Azure Pipelines](/azure/devops/pipelines/index)
 
 ## Update the System Using Visualization and Modeling
 
