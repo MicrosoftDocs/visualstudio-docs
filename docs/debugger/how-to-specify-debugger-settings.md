@@ -39,6 +39,6 @@ In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can specify va
   
 ## See Also  
  [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md)   
- [Edit and Continue, Debugging, Options Dialog Box](http://msdn.microsoft.com/Library/009d225f-ef65-463f-a146-e4c518f86103)   
+ [Edit and Continue, Debugging, Options Dialog Box](https://msdn.microsoft.com/library/bcew296c.aspx)   
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Common Macros for Build Commands and Properties](/cpp/ide/common-macros-for-build-commands-and-properties)
