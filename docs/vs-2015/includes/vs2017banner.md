@@ -1,1 +1,1 @@
-This article applies to Visual Studio 2015. Use the version selector at the top left to select the Visual Studio 2017 documentation.
+This article applies to Visual Studio 2015. Use the version selector at the top left to select the Visual Studio 2017 documentation. We recommend Visual Studio 2017. [Download now](https://www.visualstudio.com/downloads?utm_source=web&utm_medium=documentation&utm_campaign=vs2017upgrade&utm_term=vs2017)
