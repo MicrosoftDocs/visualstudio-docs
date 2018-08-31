@@ -44,7 +44,7 @@ Use the following topics to help with understanding and creating unit tests:
 |**Isolating unit tests**|-   [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)|
 |**Use code coverage to identify what proportion of your project's code is tested:** Learn about the code coverage feature of Visual Studio testing tools.|-   [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)|
 |**Perform stress and performance analysis by using load tests:** You can create a load test and add your unit tests to it to help isolate performance and stress issues in your application.|-   [Load testing (Azure Test Plans and TFS)](/azure/devops/test/load-test/index/)|
-|**Set quality gates:** You can create quality gates to enforce that tests are run before code is checked in or merged, to help ensure the quality of the code.|-   [Check-in policies (Azure Repos TFVC)](/vsts/tfvc/add-check-policies)|
+|**Set quality gates:** You can create quality gates to enforce that tests are run before code is checked in or merged, to help ensure the quality of the code.|-   [Check-in policies (Azure Repos TFVC)](/azure/devops/repos/tfvc/add-check-policies)|
 |**Set testing options:** For example, you can specify where test results are stored.|[Configure unit tests by using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)|
 
 ## API reference documentation
