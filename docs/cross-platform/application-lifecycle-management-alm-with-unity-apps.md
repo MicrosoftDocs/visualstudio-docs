@@ -69,7 +69,7 @@ Special considerations for version control with Unity:
 
 ## Build
 
-Reference link: **[Build and Release](/azure/devops/pipelines/index)**
+Reference link: **[Azure Pipelines](/azure/devops/pipelines/index)**
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
