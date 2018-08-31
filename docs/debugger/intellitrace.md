@@ -40,7 +40,7 @@ You can use IntelliTrace in Visual Studio Enterprise edition (but not the Profes
 |||
 |-|-|
 |**Debug my application with IntelliTrace:**<br /><br /> - Show me past events.<br />- Show me call information with past events.<br />- Save my IntelliTrace session.<br />- Control the data that IntelliTrace collects.|- [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />- [IntelliTrace Features](../debugger/intellitrace-features.md)<br />- [Historical Debugging](../debugger/historical-debugging.md)<br />- [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md)|
-|**Collect IntelliTrace data during a test session in Test Manager**|- [Collect more diagnostic data in manual tests](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests)|
+|**Collect IntelliTrace data during a test session in Test Manager**|- [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests)|
 |**Collect IntelliTrace data from deployed applications**|- [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)|
 |**Start debugging from an IntelliTrace log file (.iTrace file).**|- [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)|
 
@@ -83,7 +83,7 @@ You can save IntelliTrace data from these sources:
 
 - Your application crashes on a test computer but runs successfully on a development computer.
 
-     You can collect IntelliTrace data from Microsoft Test Manager, save the data to an .iTrace file, and attach this file to a Team Foundation Server work item for later investigation. See [Collect more diagnostic data in manual tests](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests) and [Use saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md).
+     You can collect IntelliTrace data from Microsoft Test Manager, save the data to an .iTrace file, and attach this file to a Team Foundation Server work item for later investigation. See [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests) and [Use saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md).
 
 - A bug or crash happens in a deployed application.
 
