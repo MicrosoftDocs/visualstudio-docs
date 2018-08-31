@@ -63,7 +63,7 @@ Design features are independent of coding language, or work with .NET languages 
 
 ## Build
 
-Reference link: **[Build and release](/azure/devops/pipelines/index?view=vsts)**
+Reference link: **[Azure Pipelines](/azure/devops/pipelines/index?view=vsts)**
 
 |Feature|Supported with Xamarin|Additional Comments|
 |-------------|----------------------------|-------------------------|
