@@ -330,7 +330,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
      Information about your build system, either `"TeamBuild"` or `"MSBuild"`, and these required properties:  
 
-    -   **BuildLabel** (for TeamBuild): The build name and number. This label is also used as the name of the deployment event. For more info about build numbers, see [Use build numbers to give meaningful names to completed builds](https://docs.microsoft.com/azure/devops/pipelines/build/options).  
+    -   **BuildLabel** (for TeamBuild): The build name and number. This label is also used as the name of the deployment event. For more info about build numbers, see [Use build numbers to give meaningful names to completed builds](/azure/devops/pipelines/build/options).  
 
     -   **SymbolPath** (Recommended): The list of URIs for your symbols (PDB file) locations separated by semi-colons. These URIs can be URLs or UNCs. This makes it easier for Visual Studio to find the matching symbols to help you with debugging.  
 
