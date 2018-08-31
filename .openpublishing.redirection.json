@@ -1301,6 +1301,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/install/install-vs-inconsistent-quality-network.md",
+            "redirect_url": "/visualstudio/install/create-an-offline-installation-of-visual-studio",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/modeling/add-stereotypes-to-uml-model-elements.md",
             "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
             "redirect_document_id": false
