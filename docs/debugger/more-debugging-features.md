@@ -19,7 +19,7 @@ ms.workload:
 # More Debugging Features
 This section contains additional features that you can use with the Visual Studio debugger.  
   
- For a list of tips and tricks to make debugging faster and easier, see [Debugging Tips and Tricks](http://blogs.msdn.com/b/visualstudio/archive/2015/05/22/debugging-tips-and-tricks.aspx).  
+ For a list of tips and tricks to make debugging faster and easier, see [Debugging Tips and Tricks](https://blogs.msdn.microsoft.com/visualstudio/2015/05/22/debugging-tips-and-tricks/).  
   
 ## Additional Features  
  [Inspect XAML properties while debugging](../debugger/inspect-xaml-properties-while-debugging.md)  
