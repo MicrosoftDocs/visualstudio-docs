@@ -14,11 +14,11 @@ author: gewarren
 ---
 # Use Build and Release Management instead of Lab Management for automated testing
 
-If you use Microsoft Test Manager (MTM) and Lab Management for automated testing or for build-deploy-test automation, this topic explains how you can achieve the same goals using the [Build and Release](/vsts/build-release/) features in Team Foundation Server (TFS) and Azure DevOps Services.
+If you use Microsoft Test Manager (MTM) and Lab Management for automated testing or for build-deploy-test automation, this topic explains how you can achieve the same goals using the [Build and Release](/vsts/build-release/) features in Team Foundation Server (TFS) and Azure Test Plans.
 
 ## Build-deploy-test automation
 
-MTM and Lab Management rely on a XAML build definition to automate build, deployment, and testing of your applications. The XAML build relies on various constructs created in MTM such as a lab environment, test suites, and testing settings, and on various infrastructure components such as a Build controller, Build agents, Test controller, and Test agents to achieve this goal. You can accomplish the same with fewer steps using Build or Release Management in TFS and Team Services.
+MTM and Lab Management rely on a XAML build definition to automate build, deployment, and testing of your applications. The XAML build relies on various constructs created in MTM such as a lab environment, test suites, and testing settings, and on various infrastructure components such as a Build controller, Build agents, Test controller, and Test agents to achieve this goal. You can accomplish the same with fewer steps using Build or Release Management in TFS and Azure Pipelines.
 
 | Steps | With XAML Build | With Build or Release Management |
 |-------|----------------------|-----------------|
@@ -49,7 +49,7 @@ The self-service provisioning features of Lab Center have two distinct goals:
 
 However, given the evolution of richer public and private cloud management systems such as [Microsoft Azure](https://azure.microsoft.com/) and [Microsoft Azure Stack](https://azure.microsoft.com/overview/azure-stack/), there is no evolution of infrastructure management features in TFS 2017 and beyond. Instead, the focus on easy consumption of resources managed through such cloud infrastructures continues.
 
-The following table summarizes the typical activities you perform in Lab Center, and how you can accomplish them through SCVMM or Azure (if they are infrastructure management activities) or through TFS and Team Services (if they are test or deployment activities):
+The following table summarizes the typical activities you perform in Lab Center, and how you can accomplish them through SCVMM or Azure (if they are infrastructure management activities) or through TFS and Azure DevOps Services (if they are test or deployment activities):
 
 | Steps | With Lab Center | With Build or Release Management |
 |-------|----------------------|-----------------|
@@ -62,7 +62,7 @@ The following table summarizes the typical activities you perform in Lab Center,
 
 A network isolated lab environment is a group of SCVMM virtual machines that can be cloned safely without causing network conflicts. This was done in MTM using a series of instructions that used a set of network interface cards to configure the virtual machines in a private network, and another set of network interface cards to configure the virtual machines in a public network.
 
-However, Azure DevOps Services and TFS, in conjunction with the SCVMM build and deploy task, can be used to manage SCVMM environments, provision isolated virtual networks, and implement build-deploy-test scenarios. For example, you can use the task to:
+However, Azure Test Plans and TFS, in conjunction with the SCVMM build and deploy task, can be used to manage SCVMM environments, provision isolated virtual networks, and implement build-deploy-test scenarios. For example, you can use the task to:
 
 * Create, restore, and delete checkpoints
 * Create new virtual machines using a template

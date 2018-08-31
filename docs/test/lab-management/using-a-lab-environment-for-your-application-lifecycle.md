@@ -34,9 +34,9 @@ Here are examples of common lab environment topologies:
 |---|---|
 |  ![movie camera icon for video](../../install/media/video-icon.png)  |    [Watch a video](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Managing-lab-environments-for-testing) on managing lab environments for testing. |
 
-## Use the cloud with Team Services or Team Foundation Server Build and Release
+## Use the cloud with Azure Pipelines or Team Foundation Server Build and Release
 
-You can perform automated testing and build-deploy-test automation using the [Build and Release](/vsts/build-release/) features in Team Foundation Server (TFS) and Azure DevOps Services. Some of the benefits are:
+You can perform automated testing and build-deploy-test automation using the [Build and Release](/vsts/build-release/) features in Team Foundation Server (TFS) and Azure Test Plans. Some of the benefits are:
 
 * You do not need a Build controller or Test controller.
 * The Test agent is installed through a task as part of the build or release.
@@ -129,7 +129,7 @@ For more information about lab management, see:
 
 For information about setting up environments, see:
 
-* [Build and Release cloud environments](use-build-or-rm-instead-of-lab-management.md)
+* [Build and release cloud environments](use-build-or-rm-instead-of-lab-management.md)
 * [Standard lab environments](https://msdn.microsoft.com/library/ee390842.aspx)
 * [SCVMM (virtual) environments](https://msdn.microsoft.com/library/ee943322.aspx)
 * [Creating and using a network isolated environment](https://msdn.microsoft.com/library/ee518924.aspx)
