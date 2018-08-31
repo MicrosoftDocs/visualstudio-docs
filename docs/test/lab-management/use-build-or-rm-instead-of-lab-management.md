@@ -39,7 +39,7 @@ Some of the benefits of using Build or Release Management for this scenario are:
 
 ## Self-service management of SCVMM environments
 
-The [Test Center in Microsoft Test Manager](/vsts/manual-test/mtm/guidance-mtm-usage) supports the ability to manage a library of environment templates as well as provision environments on demand using an [SCVMM server](/system-center/vmm/overview?view=sc-vmm-1801).
+The [Test Center in Microsoft Test Manager](/azure/devops/test/mtm/guidance-mtm-usage) supports the ability to manage a library of environment templates as well as provision environments on demand using an [SCVMM server](/system-center/vmm/overview?view=sc-vmm-1801).
 
 The self-service provisioning features of Lab Center have two distinct goals:
 
