@@ -79,4 +79,4 @@ An account that has administrator privileges must be used for network emulation.
 ## See also
 
 - [Collect diagnostic information using test settings](../test/collect-diagnostic-information-using-test-settings.md)
-- [Run manual tests (Azure Test Plans)](/vsts/manual-test/getting-started/run-manual-tests)
+- [Run manual tests (Azure Test Plans)](/azure/devops/test/run-manual-tests)

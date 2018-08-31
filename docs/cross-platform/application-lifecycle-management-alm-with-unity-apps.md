@@ -20,7 +20,7 @@ The following tables identify how DevOps features in Visual Studio apply or don'
 
 ## Agile tools
 
-Reference link: [About Agile tools and Agile project management](/vsts/work/backlogs/overview?view=vsts) (using Azure Boards or TFS, including Team Explorer Everywhere)
+Reference link: [About Agile tools and Agile project management](/azure/devops/boards/backlogs/overview?view=vsts) (using Azure Boards or TFS, including Team Explorer Everywhere)
 
 General Comment: all planning and tracking features are independent of project type and coding languages.
 
@@ -53,8 +53,8 @@ General Comment: Although these design features are either independent of coding
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
-|[Use Team Foundation Version Control (TFVC)](/vsts/tfvc/overview?view=vsts) or Azure Repos|Yes|Unity projects are simply a collection of files that can be placed into version control systems like any other project, but there are a few special considerations described after this table.|
-|[Getting started with Git in Azure Repos](/vsts/git/gitquickstart?view=vsts&tabs=visual-studio)|Yes|See notes after the table.|
+|[Use Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts) or Azure Repos|Yes|Unity projects are simply a collection of files that can be placed into version control systems like any other project, but there are a few special considerations described after this table.|
+|[Getting started with Git in Azure Repos](/azure/devops/repos/git/gitquickstart?view=vsts&tabs=visual-studio)|Yes|See notes after the table.|
 |[Improve Code Quality](../test/improve-code-quality.md)|Yes||
 |[Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)|Yes||
 |[Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)|Yes||
@@ -69,12 +69,12 @@ Special considerations for version control with Unity:
 
 ## Build
 
-Reference link: **[Build and Release](/vsts/build-release/index)**
+Reference link: **[Azure Pipelines](/azure/devops/pipelines/index)**
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
 |On-premises Team Foundation Server (TFS)|Possible|Unity projects are built through the Unity environment and not through the Visual Studio build system (building within the Visual Studio Tools for Unity will compile the scripts but not produce an executable). It is possible to [build Unity projects from the command line](http://docs.unity3d.com/Manual/CommandLineArguments.html) (Unity documentation), so it possible to configure an MSBuild process on a TFS server to execute the appropriate Unity commands, provided that Unity itself is installed on that computer.<br /><br /> Unity also offers [Unity Cloud Build](https://build.cloud.unity3d.com/landing/), which monitors a Git or SVN repository and runs periodic builds. At present it does not work with TFVC or Azure DevOps Services.|
-|On-premises build server linked to Azure DevOps Services|Possible|Given the same conditions as above, it is further possible to direct builds triggered through Azure DevOps Services to use an on-premises TFS computer. See [Build and release agents](/vsts/build-release/concepts/agents/agents) for instructions.|
+|On-premises build server linked to Azure DevOps Services|Possible|Given the same conditions as above, it is further possible to direct builds triggered through Azure DevOps Services to use an on-premises TFS computer. See [Build and release agents](/azure/devops/pipelines/agents/agents) for instructions.|
 |Hosted controller service of Azure DevOps Services|No|Unity builds are not presently supported.|
 |Build definitions with pre- and post-scripts|Yes|A custom build definition that uses the Unity command line to run a build can also be configured for pre- and post-build scripts.|
 |Continuous integration including gated check-ins|Yes|Gated check-ins for TFVC only as Git works on a pull-request model rather than check-ins.|
@@ -104,7 +104,7 @@ Reference link: **[Improve code quality](../test/improve-code-quality.md)**
 
 ## Release management
 
-Reference link: [Build and release in Azure Pipelines and TFS](/vsts/pipelines/overview?view=vsts)
+Reference link: [Build and release in Azure Pipelines and TFS](/azure/devops/pipelines/overview?view=vsts)
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
