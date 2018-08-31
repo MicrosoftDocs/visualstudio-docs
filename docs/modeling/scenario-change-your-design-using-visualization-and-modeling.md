@@ -238,7 +238,7 @@ See:
 
 - [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)
 
-- [Build and release](/vsts/build-release/index)
+- [Build and release](/azure/devops/pipelines/index)
 
 ## Update the System Using Visualization and Modeling
 

@@ -14,7 +14,7 @@ author: gewarren
 ---
 # Use Build and Release Management instead of Lab Management for automated testing
 
-If you use Microsoft Test Manager (MTM) and Lab Management for automated testing or for build-deploy-test automation, this topic explains how you can achieve the same goals using the [Build and Release](/vsts/build-release/) features in Team Foundation Server (TFS) and Azure Test Plans.
+If you use Microsoft Test Manager (MTM) and Lab Management for automated testing or for build-deploy-test automation, this topic explains how you can achieve the same goals using the [Build and Release](/azure/devops/pipelines/index) features in Team Foundation Server (TFS) and Azure Test Plans.
 
 ## Build-deploy-test automation
 
@@ -24,7 +24,7 @@ MTM and Lab Management rely on a XAML build definition to automate build, deploy
 |-------|----------------------|-----------------|
 | Identify the machines to deploy the build to and run tests. | Create a standard lab environment in MTM with those machines. | n/a |
 | Identify the tests to be run. | Create a test suite in MTM, create test cases, and associate automation with each test case. Create test settings in MTM identifying the role of machines in the lab environment in which tests should be run. | Create automated test suite in MTM in the same manner if you plan to manage your testing through test plans. Alternatively, you can skip this if you want to run tests directly from test binaries produced by your builds. There is no need to create test settings in either case. |
-| Automate deployment and testing. | Create a XAML build definition using LabDefaultTemplate.*.xaml. Specify the build, test suites, and lab environment in the build definition. | Create a [build or release definition](/vsts/build-release/) with a single environment. Run the same deployment script (from the XAML build definition) using the Command line task, and run automated tests using Test Agent Deployment and Run Functional Tests tasks. Specify the list of machines and their credentials as inputs to these tasks. |
+| Automate deployment and testing. | Create a XAML build definition using LabDefaultTemplate.*.xaml. Specify the build, test suites, and lab environment in the build definition. | Create a [build or release definition](/azure/devops/pipelines/index) with a single environment. Run the same deployment script (from the XAML build definition) using the Command line task, and run automated tests using Test Agent Deployment and Run Functional Tests tasks. Specify the list of machines and their credentials as inputs to these tasks. |
 
 Some of the benefits of using Build or Release Management for this scenario are:
 
