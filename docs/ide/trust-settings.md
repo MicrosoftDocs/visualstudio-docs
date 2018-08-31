@@ -1,12 +1,10 @@
 ---
-# required/recommended metadata
-
 title: Trust Settings for Files and Folders
 description: Learn how to change trust settings for files and folders to keep Visual Studio secure.
 author: abuchholtzau
 ms.author: allisb
 ms.date: 08/23/2018
-ms.topic: reference
+ms.topic: conceptual
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 helpviewer_keywords: 
@@ -16,14 +14,6 @@ helpviewer_keywords:
     - "mark of the web"
     - "trusted files"
     - "trusted folders"
-
-# optional metadata
-
-#ROBOTS:
-#keywords:
-#ms.devlang: [LANGUAGES]
-#manager: [MICROSOFT ALIAS]
-
 ---
 # Configure trust settings for files and folders
 
@@ -37,18 +27,18 @@ These additional checks are disabled by default.
 ## Configure your trust settings
 To change your trust settings, follow these steps:
 
-1. Open **Tools** > **Options** > **Trust Settings** and click on the _Configure Trust Settings_ link in the pane.
+1. Open **Tools** > **Options** > **Trust Settings** and click on the **Configure Trust Settings** link in the pane.
 2. Choose what level of checks you'd like for files and folders. You can have different checks for each one. Your options are:
-    1. No verification: Visual Studio won't perform any checks.
-    2. Verify mark of the web attribute: Visual Studio will block and ask for permission to open if the file or folder has the mark of the web attribute.
-    3. Verify path is trusted: Visual Studio will block and ask for permission to open if the file or folder path isn't part of the Trusted Paths list.
+    * No verification: Visual Studio won't perform any checks.
+    * Verify mark of the web attribute: Visual Studio will block and ask for permission to open if the file or folder has the mark of the web attribute.
+    * Verify path is trusted: Visual Studio will block and ask for permission to open if the file or folder path isn't part of the Trusted Paths list.
 
 ![Trust verification options](../media/trustsettings-verification.PNG)
 
 ## Add trusted paths
 To add trusted paths, follow these steps:
 
-1.  Open **Tools** > **Options** > **Trust Settings** and click on the _Configure Trust Settings_ link in the pane.
+1.  Open **Tools** > **Options** > **Trust Settings** and click on the **Configure Trust Settings** link in the pane.
 2.  Click **Add** in the Trust Settings dialog and select **File** or **Folder**.
 3.  Navigate to and select the file or folder you'd like to add to the trusted list using the File/Folder Explorer.
 4.  Your path will now appear in the Trusted Paths list.
@@ -57,7 +47,7 @@ To add trusted paths, follow these steps:
 
 ## Remove trusted paths
 To remove trusted paths, follow these steps:
-1.  Open **Tools** > **Options** > **Trust Settings** and click on the _Configure Trust Settings_ link in the pane.
+1.  Open **Tools** > **Options** > **Trust Settings** and click on the **Configure Trust Settings** link in the pane.
 2.  Select the path you'd like to remove in the Trusted Paths list and click **Remove** in the Trust Settings dialog.
     * To select multiple entries, hold down **Shift** as you click on the paths.
-3.  The selected path(s) will disappear from the Trusted Paths list. 
+3.  The selected path(s) are removed from the Trusted Paths list. 
