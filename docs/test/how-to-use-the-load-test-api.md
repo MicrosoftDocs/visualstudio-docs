@@ -24,7 +24,7 @@ You can also create plug-ins for web performance tests. For more information, se
 
 ## To use the LoadTesting namespace
 
-1.  Open a web performance and load test Project that contains a load test.
+1.  Open a web performance and load test project that contains a load test.
 
 2.  Add a Visual C# or a Visual Basic class library project to your test solution.
 
