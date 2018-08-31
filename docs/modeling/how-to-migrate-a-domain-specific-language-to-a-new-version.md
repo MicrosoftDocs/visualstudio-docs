@@ -55,7 +55,7 @@ You can migrate projects that define and use domain-specific language to [!INCLU
 
     1.  Click **Convert**.
 
-         Before each project file is converted, a copy of *_project_**.csproj** is saved as _project_**.vs2008.csproj**
+         Before each project file is converted, a copy of _project_**.csproj** is saved as _project_**.vs2008.csproj**
 
          A copy of each _solution_**.sln** is saved as _solution_**.vs2008.sln**
 
