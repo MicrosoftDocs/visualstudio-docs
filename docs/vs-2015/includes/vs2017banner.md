@@ -1,1 +1,1 @@
-The new home for Visual Studio documentation is [Visual Studio 2017 Documentation](http://docs.microsoft.com/visualstudio) on docs.microsoft.com.
+This article applies to Visual Studio 2015. Use the version selector at the top left to select the Visual Studio 2017 documentation.
