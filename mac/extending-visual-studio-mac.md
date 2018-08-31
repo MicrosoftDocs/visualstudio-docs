@@ -51,7 +51,7 @@ They also have their corresponding `assembly:AddinDependency ` attributes added 
 
 ## Extensions and extension points
 
-An extension point is a placeholder that defines a data structure (a type), while an extension defines data that conforms to a structure specified by a specific extension point. Extension points specify what type of extension they can accept in their declaration. Extensions are declared using type names or extension paths. See the [Extension Point reference](http://monoaddins.codeplex.com/wikipage?title=Extension%20Points&referringTitle=Description%20of%20Add-ins%20and%20Add-in%20Roots) for a more in-depth explanation on how to create the extension point that you need.
+An extension point is a placeholder that defines a data structure (a type), while an extension defines data that conforms to a structure specified by a specific extension point. Extension points specify what type of extension they can accept in their declaration. Extensions are declared using type names or extension paths. See the [Extension Point reference](https://github.com/mono/mono-addins/wiki/Extension-Points) for a more in-depth explanation on how to create the extension point that you need.
 
 The extension/extension point architecture keeps the development of Visual Studio for Mac fast and modular. 
 
