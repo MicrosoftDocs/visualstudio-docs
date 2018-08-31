@@ -435,7 +435,7 @@ You can analyze Coded UI tests using coded UI test logs. Coded UI test logs filt
 
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
 
-- [Run tests in your build process](/vsts/build-release/test/getting-started-with-continuous-testing)
+- [Run tests in your build process](/azure/devops/pipelines/test/getting-started-with-continuous-testing)
 
 - [How to: Set up your test agent to run tests that interact with the desktop](http://msdn.microsoft.com/Library/3a94dd07-6d17-402c-ae8f-7947143755c9)
 
