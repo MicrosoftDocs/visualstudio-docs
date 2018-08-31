@@ -82,6 +82,8 @@
       items:
       - name: "Visual Studio subscriptions: Administrator overview"
         href: /visualstudio/subscriptions/admin-responsibilities
+    - name: Manage trust settings
+      href: ide/trust-settings
     - name: Help Viewer Administrator Guide
       href: ide/help-viewer-administrator-guide.md
       items:
