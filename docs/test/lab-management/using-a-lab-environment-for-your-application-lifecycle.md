@@ -85,7 +85,7 @@ There are two types of lab environments that you can create with Visual Studio L
 > [!NOTE]
 > Lab Management does not support SCVMM 2016.
 
-For information about SCVMM, see [Virtual Machine Manager](/vsts/build-release/apps/cd/scvmm/configure-scvmm).
+For information about SCVMM, see [Virtual Machine Manager](/azure/devops/pipelines/).
 
 Standard environments and SCVMM environments support many of the same features. However, there are some important differences to consider. The following table compares the features that are available for standard environments and SCVMM environments.
 

@@ -69,4 +69,4 @@ However, Azure Test Plans and TFS, in conjunction with the SCVMM build and deplo
 * Start and stop virtual machines
 * Run custom PowerShell scripts for SCVMM
 
-For more information, see [Create a virtual network isolated environment for build-deploy-test scenarios](/vsts/build-release/actions/virtual-networks/create-virtual-network).
+For more information, see [Create a virtual network isolated environment for build-deploy-test scenarios](/azure/devops/pipelines/targets/create-virtual-network).
