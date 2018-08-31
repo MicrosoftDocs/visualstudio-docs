@@ -36,7 +36,7 @@ Visual Studio testing tools can help you and your team develop and sustain high 
 
 ## Related scenarios
 
-* [Exploratory & manual testing (Azure Test Plans)](/vsts/manual-test/)
+* [Exploratory & manual testing (Azure Test Plans)](/azure/devops/test/index)
 * [Load testing (Azure Test Plans)](/vsts/load-test/index)
 * [Continuous testing (Azure Test Plans)](/azure/devops/pipelines/)
 * [Code analysis tools](../code-quality/analyzing-application-quality-by-using-code-analysis-tools.md)
