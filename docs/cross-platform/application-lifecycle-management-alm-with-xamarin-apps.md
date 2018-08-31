@@ -55,7 +55,7 @@ Design features are independent of coding language, or work with .NET languages 
 
 |Feature|Supported with Xamarin|Additional Comments|
 |-------------|----------------------------|-------------------------|
-|[Use Team Foundation Version Control (TFVC)](/vsts/tfvc/overview?view=vsts) or Azure Repos|Yes||
+|[Use Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts) or Azure Repos|Yes||
 |[Getting started with Git in Azure Repos](/azure/devops/repos/git/gitquickstart?view=vsts&tabs=visual-studio)|Yes||
 |[Improve Code Quality](../test/improve-code-quality.md)|Yes||
 |[Find code changes and other history](../ide/find-code-changes-and-other-history-with-codelens.md)|Yes|Except across platform-specific boundaries where the implementation isn't resolved until run time.|
@@ -67,7 +67,7 @@ Reference link: **[Build and release](/vsts/pipelines/index?view=vsts)**
 
 |Feature|Supported with Xamarin|Additional Comments|
 |-------------|----------------------------|-------------------------|
-|On-premises TFS server|Yes|Build machines must have Xamarin installed and can be linked to an OSX computer to build for iOS. See [Use TFVC](/vsts/tfvc/overview?view=vsts)|
+|On-premises TFS server|Yes|Build machines must have Xamarin installed and can be linked to an OSX computer to build for iOS. See [Use TFVC](/azure/devops/repos/tfvc/overview?view=vsts)|
 |On-premises build server linked to Azure Pipelines|Yes|See [Build and release agents](/vsts/pipelines/agents/agents?view=vsts) for instructions.|
 |Hosted controller service of Azure Pipelines|Yes|See [Build your Xamarin app](/vsts/pipelines/apps/mobile/xamarin?view=vsts&tabs=vsts).|
 |Build definitions with pre- and post-scripts|Yes||
@@ -81,7 +81,7 @@ Reference link: **[Build and release](/vsts/pipelines/index?view=vsts)**
 |Manual testing|Yes||
 |Test Manager (record and playback tests)|Yes|Windows devices and Android emulators only from Visual Studio. Recording for all devices is possible with [Xamarin Test Recorder](/appcenter/test-cloud/uitest/).|
 |Code coverage|n/a||
-|[Unit test your code](../test/unit-test-your-code.md)|Yes|For Windows and Android targets, the built-in MSTest tools can be used. To run unit tests on Windows, Android, and iOS, Xamarin recommends NUnit. See [Use TFVC](/vsts/tfvc/overview?view=vsts).|
+|[Unit test your code](../test/unit-test-your-code.md)|Yes|For Windows and Android targets, the built-in MSTest tools can be used. To run unit tests on Windows, Android, and iOS, Xamarin recommends NUnit. See [Use TFVC](/azure/devops/repos/tfvc/overview?view=vsts).|
 |[Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)|Windows only|Visual Studio's UI test recorder is Windows only. For all platforms, see [Xamarin.UITest](/appcenter/test-cloud/uitest/).|
 
 ## Improve code quality
