@@ -231,7 +231,7 @@ You have to set a few environment variables and use proper command-line options 
 
 #### To add the Microsoft.CppCoreCheck package to your project in Visual Studio 2015
 
-1.  In **Solution Explorer**, right-click to open the context menu of your Project in the Solution that you want to add the package to. Choose **Manage NuGet Packages** to open the **NuGet Package Manager**.
+1.  In **Solution Explorer**, right-click to open the context menu of your project in the solution that you want to add the package to. Choose **Manage NuGet Packages** to open the **NuGet Package Manager**.
 
 2.  In the **NuGet Package Manager** window, search for Microsoft.CppCoreCheck.
 
