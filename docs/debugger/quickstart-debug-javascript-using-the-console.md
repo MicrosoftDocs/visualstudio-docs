@@ -252,4 +252,4 @@ ms.workload:
  [Debug HTML, CSS, and JavaScript sample code](../debugger/debug-html-css-and-javascript-sample-code.md)   
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)   
  [Debug a WebView control](../debugger/debug-a-webview-control.md)   
- [Product Support and Accessibility](https://msdn.microsoft.com/library/tzbxw1af(VS.120).aspx)
+ [Product Support and Accessibility](https://visualstudio.microsoft.com/vs/support/)
