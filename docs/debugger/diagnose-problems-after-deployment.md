@@ -35,11 +35,11 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
  
  ####  <a name="TFS2017"></a> Team Foundation Server 2017
 
- Set up your build definition to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.
+ Set up your build pipeline to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.
   
-1.  If you already have a build definition using the ASP.NET Core (.NET Framework) template, you can either [Edit your build definition or create a new build definition.](/azure/devops/pipelines/get-started-designer)
+1.  If you already have a build pipeline using the ASP.NET Core (.NET Framework) template, you can either [Edit your build pipeline or create a new build pipeline.](/azure/devops/pipelines/get-started-designer)
   
-     ![View build definition in TFS 2017](../debugger/media/ffr_tfs2017viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")
+     ![View build pipeline in TFS 2017](../debugger/media/ffr_tfs2017viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")
   
 2.  If you create a new template, choose the ASP.NET Core (.NET Framework) template. 
   
@@ -49,7 +49,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
      If you use a custom template, make sure the template has an activity to index your source. You'll later add an MSBuild argument to specify where to save the symbols files.
   
-     ![Set up symbols path in build definition TFS 2017](../debugger/media/ffr_tfs2017builddefsymbolspath.png "FFR_TFS2013BuildDefSymbolsPath")  
+     ![Set up symbols path in build pipeline TFS 2017](../debugger/media/ffr_tfs2017builddefsymbolspath.png "FFR_TFS2013BuildDefSymbolsPath")  
   
      For more about symbols, see [Publish symbol data](/azure/devops/pipelines/tasks/build/index-sources-publish-symbols).  
   
@@ -64,11 +64,11 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
     Go to [Step 2: Release your app](#DeployRelease)  
 
 ####  <a name="TFS2013"></a> Team Foundation Server 2013  
- Set up your build definition to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.  
+ Set up your build pipeline to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.  
 
-1.  [Edit your build definition or create a new build definition.](/azure/devops/pipelines/get-started-designer)  
+1.  [Edit your build pipeline or create a new build pipeline.](/azure/devops/pipelines/get-started-designer)  
 
-     ![View build definition in TFS 2013](../debugger/media/ffr_tfs2013viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")  
+     ![View build pipeline in TFS 2013](../debugger/media/ffr_tfs2013viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")  
 
 2.  Choose the default template (TfvcTemplate.12.xaml) or your own custom template.  
 
@@ -78,7 +78,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
      If you use a custom template, make sure the template has an activity to index your source. You'll later add an MSBuild argument to specify where to save the symbols files.  
 
-     ![Set up symbols path in build definition TFS 2013](../debugger/media/ffr_tfs2013builddefsymbolspath.png "FFR_TFS2013BuildDefSymbolsPath")  
+     ![Set up symbols path in build pipeline TFS 2013](../debugger/media/ffr_tfs2013builddefsymbolspath.png "FFR_TFS2013BuildDefSymbolsPath")  
 
      For more about symbols, see [Publish symbol data](/azure/devops/pipelines/tasks/build/index-sources-publish-symbols).  
 
@@ -113,11 +113,11 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
 1.  Install Visual Studio 2013 (any edition) on your Team Foundation build server.  
 
-2.  In your build definition, specify where to save the symbols so that your source is indexed automatically.  
+2.  In your build pipeline, specify where to save the symbols so that your source is indexed automatically.  
 
      If you use a custom template, make sure that the template has an activity to index your source.  
 
-3.  Add these MSBuild arguments to your build definition:  
+3.  Add these MSBuild arguments to your build pipeline:  
 
     -   **/p:VisualStudioVersion=12.0**  
 
