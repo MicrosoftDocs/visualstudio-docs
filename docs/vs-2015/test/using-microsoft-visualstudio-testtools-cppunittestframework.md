@@ -21,9 +21,9 @@ The latest version of this topic can be found at [Using Microsoft.VisualStudio.T
   
 This topic lists the public members of the `Microsoft::VisualStudio::CppUnitTestFramework` namespace.  
   
- The header files are located in the  *VisualStudio2012[x86]InstallFolder***\VC\UnitTest\include** folder.  
+ The header files are located in the  _VisualStudio2012[x86]InstallFolder_**\VC\UnitTest\include** folder.  
   
- The lib files are located in the  *VisualStudio2012[x86]InstallFolder***\VC\UnitTest\lib** folder.  
+ The lib files are located in the  _VisualStudio2012[x86]InstallFolder_**\VC\UnitTest\lib** folder.  
   
 ##  <a name="BKMK_In_this_topic"></a> In this topic  
  [CppUnitTest.h](#BKMK_CppUnitTest_h)  

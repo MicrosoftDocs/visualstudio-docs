@@ -171,7 +171,7 @@ This walkthrough shows how to add a DLL reference to a custom Start Page. The ex
   
 1.  Copy your XAML file, and any supporting text files or markup files, to the *%USERPROFILE%\My Documents\Visual Studio 2015\StartPages\\* folder.  
   
-2.  If your start page references any controls or types in assemblies that are not installed by Visual Studio, copy the assemblies and then paste them in *Visual Studio installation folder***\Common7\IDE\PrivateAssemblies\\**.  
+2.  If your start page references any controls or types in assemblies that are not installed by Visual Studio, copy the assemblies and then paste them in _Visual Studio installation folder_**\Common7\IDE\PrivateAssemblies\\**.  
   
 3.  At a Visual Studio command prompt, type **devenv /rootsuffix Exp** to open an experimental instance of Visual Studio.  
   

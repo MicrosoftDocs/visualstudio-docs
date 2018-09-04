@@ -101,11 +101,11 @@ The Roaming Extension Manager tracks all the extensions you install, but you can
 
 When you use the Roaming Extension Manager, there are three icon types on your list:
 
-* ![Roamed icon](../ide/media/vs2017ide-roamedicon.png) ***Roamed***: An extension that is part of this Roaming List, but not installed on your machine.
+* ![Roamed icon](../ide/media/vs2017ide-roamedicon.png) **_Roamed_**: An extension that is part of this Roaming List, but not installed on your machine.
   (You can install these by using the **Download** button.)
-* ![Roamed & Installed icon](../ide/media/vs2017ide-roamedinstalledicon.png) ***Roamed & Installed***: All extensions that are part of this Roaming List and installed in your dev environment.
+* ![Roamed & Installed icon](../ide/media/vs2017ide-roamedinstalledicon.png) **_Roamed & Installed_**: All extensions that are part of this Roaming List and installed in your dev environment.
   (If you decide you do not want to roam, you can remove these by using the **Stop Roaming** button.)
-* ![Installed icon](../ide/media/vs2017ide-installedicon.png) ***Installed***: All extensions that are installed in this environment, but are not part of your Roaming List.
+* ![Installed icon](../ide/media/vs2017ide-installedicon.png) **_Installed_**: All extensions that are installed in this environment, but are not part of your Roaming List.
   (You can add extensions to the Roaming List by using the **Start Roaming** button.)
 
 Any extension that you download while you are signed in is added to your list as **Roamed & Installed**. The extension then becomes part of your Roaming list, which gives you access to it from any machine.

@@ -58,11 +58,11 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
   
 1.  In **Solution Explorer**, choose or open the project.  
   
-2.  On the menu bar, choose **Build**, and then choose either **Build***ProjectName* or **Rebuild***ProjectName*.  
+2.  On the menu bar, choose **Build**, and then choose either **Build**_ProjectName_ or **Rebuild**_ProjectName_.  
   
-    -   Choose **Build***ProjectName* to build only those project components that have changed since the most recent build.  
+    -   Choose **Build**_ProjectName_ to build only those project components that have changed since the most recent build.  
   
-    -   Choose **Rebuild***ProjectName* to "clean" the project and then build the project files and all project components.  
+    -   Choose **Rebuild**_ProjectName_ to "clean" the project and then build the project files and all project components.  
   
 ### To build only the startup project and its dependencies  
   

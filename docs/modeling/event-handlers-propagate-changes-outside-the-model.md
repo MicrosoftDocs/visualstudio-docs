@@ -31,7 +31,7 @@ The graphical surface and other user interface controls are examples of external
 
     -   `ElementDeleted` - triggered after a model element, relationship, shape or connector has been deleted. You can still access the property values of the element, but it will have no relationships to other elements.
 
-2.  Add a partial class definition for *YourDsl***DocData** in a separate code file in the **DslPackage** project.
+2.  Add a partial class definition for _YourDsl_**DocData** in a separate code file in the **DslPackage** project.
 
 3.  Write the code of the event as a method, as in the following example. It can be `static`, unless you want to access `DocData`.
 
