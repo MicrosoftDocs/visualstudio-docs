@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Flask in Visual Studio, step 5
 description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically the features of the Polls Flask Web Project and Polls Flask/Jade Web Project templates.
-ms.date: 05/25/2018
+ms.date: 09/04/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
