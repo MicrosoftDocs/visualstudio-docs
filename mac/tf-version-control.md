@@ -14,7 +14,7 @@ ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
 > [!NOTE]
 > **Note**: Team Foundation Version Control support is currently in preview and some functionality is not yet fully working. We'd love feedback from you on any issues at [Developer Community](https://developercommunity.visualstudio.com/spaces/41/index.html). More changes are still to come!
 
-Azure DevOps provides two models of version control: Git, which is distributed version control, and Team Foundation Version Control (TFVC), which is centralized version control. This article provides an overview and a starting point for using TFVC with Visual Studio for Mac.
+Azure Repos provides two models of version control: Git, which is distributed version control, and Team Foundation Version Control (TFVC), which is centralized version control. This article provides an overview and a starting point for using TFVC with Visual Studio for Mac.
 
 ## Requirements
 
@@ -44,15 +44,15 @@ For information on what's new in each release, see the [Release Notes](https://d
 
 Once the extension is installed, select the **Version Control > TFS/VSTS > Open from Remote Repository** menu item. 
 
-Choose either Azure DevOps Services or Team Foundation Server to get started and press **Continue**:
+Choose either VSTS or Team Foundation Server to get started and press **Continue**:
 
   ![Connect with a Server](media/tfvc-choose-server-type.png)
 
-### Azure DevOps Services Authentication
+### Azure Repos Authentication
 
-When you select a project that is hosted on Azure DevOps Services, you're prompted to enter your Microsoft account details:
+When you select a project that is hosted on Azure Repos, you're prompted to enter your Microsoft account details:
 
-  ![Connect with a VSTS Server](media/tfvc-vsts-login.png)
+  ![Connect with Azure Repos](media/tfvc-vsts-login.png)
 
 ### TFS Authentication
 
@@ -68,10 +68,10 @@ Once you've successfully authenticated, you can see a list of repositories that 
 
 This dialog is organized with the following nodes:
 
-- Azure DevOps organization or collection – This displays all organizations connected to the Microsoft account you logged in with.
+- Azure DevOps Services organization or collection – This displays all organizations connected to the Microsoft account you logged in with.
 - Projects - In each organization or collection, you can have a number of projects. A project is where source code, work items, and automated builds are hosted.
 
-At this point, you can search and filter by the name of a project or account.
+At this point, you can search and filter by the name of a project or organization.
 
 ### Adding a new server
 
@@ -117,7 +117,7 @@ Many of these actions are available through context actions on the project:
 
 ## Managing workspaces
 
-If you haven't already create a workspace, as described in the [Creating a workspace](#creating-a-new-workspace) section, you'll notice that the Source Code Explorer is empty:
+If you haven't already created a workspace, as described in the [Creating a workspace](#creating-a-new-workspace) section, you'll notice that the Source Code Explorer is empty:
 
 ![empty source code explorer](media/tfvc-setup-empty-sce.png) 
 
@@ -129,11 +129,11 @@ To set up your remote project with a local workspace, use the following steps:
     
     ![Create a new workspace dialog showing default options](media/tfvc-workspace1.png) 
 
-1. Select the "$" folder to map all Team projects on your server to the same workspace, or select an individual project, and click **OK**:
+1. Select the "$" folder to map all projects on your server to the same workspace, or select an individual project, and click **OK**:
     
     ![Browse for folder dialog showing all projects](media/tfvc-workspace2.png) 
 
-1. Select the location on your local machine that you wish mp the project(s) to and click **Select Folder**.
+1. Select the location on your local machine that you wish to map the project(s) to and click **Select Folder**.
 1. Confirm the details of the new workspace by pressing **OK**
     
     ![Create new workspace dialog with working folder added](media/tfvc-workspace3.png) 
@@ -167,7 +167,7 @@ To use basic authentication it is necessary to enable **Alternative authenticati
 
 To set up Team Foundation Version Control (TFVC) on your dev machine, you **must** create a workspace, as described in the [Managing workspaces](#managing-workspaces) section.
 
-In Source Control Explorer, press the **Manage Workspaces** Button. Follow the steps to map the team project to a folder on your dev machine.
+In Source Control Explorer, press the **Manage Workspaces** Button. Follow the steps to map the project to a folder on your dev machine.
 
 ### I do not see any / all of my projects
 
