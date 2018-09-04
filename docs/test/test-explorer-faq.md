@@ -89,14 +89,14 @@ All test projects must include their .NET test adapter NuGet reference in their 
 Instead of using test adapter extensions, projects are required to use test adapter NuGet packages. This greatly improves performance and causes fewer issues with continuous integration. Read more about .NET Test Adapter Extension deprecation in the [release notes](/visualstudio/releasenotes/vs2017-preview-relnotes#testadapterextension).
 
 > [!NOTE]
-> If you are using the NUnit 2 Test Adapter and are unable to migrate to the NUnit 3 test adapter, you can turn off this new discovery behavior in Visual Studio Update 15.8 in **Tools** > **Options** > **Test**. 
+> If you are using the NUnit 2 Test Adapter and are unable to migrate to the NUnit 3 test adapter, you can turn off this new discovery behavior in Visual Studio version 15.8 in **Tools** > **Options** > **Test**. 
 
   ![Test Explorer Adapter behavior in tools options](media/testex-adapterbehavior.png)
 
 ## UWP TestContainer was not found
 **My UWP tests are no longer being executed in Visual Studio 2017 version 15.7 and higher.**
 
-Recent UWP test projects specify a test platform build property that allows better performance for identifying test apps. If you have a UWP test project that was initialized before Visual Studio Update 15.7 you may see the following error in **Output** > **Tests**:
+Recent UWP test projects specify a test platform build property that allows better performance for identifying test apps. If you have a UWP test project that was initialized before Visual Studio version 15.7 you may see the following error in **Output** > **Tests**:
 
 **System.AggregateException: One or more errors occurred. ---> System.InvalidOperationException: The following TestContainer was not found {} at Microsoft.VisualStudio.TestWindow.Controller.TestContainerProvider <GetTestContainerAsync>d__61.MoveNext()**
   
