@@ -21,7 +21,7 @@ In July 2018, all Open License customers will be migrated to the new [Visual Stu
 
 - Current Subscriptions Administrators in the Volume License Service Center (VLSC) who are managing Open Licenses will receive an email inviting them to sign in to the new portal using the email address provided in that email.
 
-- Once they sign in, they will have access to their company’s subscriptions.
+- After they sign in, they will have access to their company’s subscriptions.
 
 After the migration date, both customers and Partners will fall into one of the scenarios listed below. 
 
