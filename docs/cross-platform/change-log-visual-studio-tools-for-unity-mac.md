@@ -21,7 +21,7 @@ Visual Studio Tools for Unity change log.
 
 -   **Integration:**
 
-     -   Rollback workaround for a Unity performance bug (as Unity fixed this issue).
+     -   Rolled back the workaround for a Unity performance bug that has been fixed by Unity.
      
 ## 1.6.0.1
  Released July 10, 2018
