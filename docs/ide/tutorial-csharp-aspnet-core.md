@@ -2,7 +2,7 @@
 title: "Get started with C# and ASP.NET Core in Visual Studio"
 description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
 ms.custom: ""
-ms.date: 08/10/2018
+ms.date: 09/05/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -25,7 +25,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ## Create a project
 
-First, you'll create a ASP.NET Core project. The project type comes with all the template files you'll need for a website, before you've even added anything!
+First, you'll create a ASP.NET Core project. The project type comes with all the template files you'll need for a fully functional website, before you've even added anything!
 
 1. Open Visual Studio 2017.
 
