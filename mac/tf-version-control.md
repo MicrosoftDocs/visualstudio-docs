@@ -3,7 +3,7 @@ title: "Team Foundation Version Control (TFVC)"
 description: "Connecting to Team Foundation Server or Azure DevOps Services with Team Foundation Version Control (TFVC)."
 author: conceptdev
 ms.author: crdun
-ms.date: 05/03/2018
+ms.date: 09/05/2018
 ms.topic: article
 ms.technology: vs-ide-general
 ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
@@ -42,11 +42,13 @@ For information on what's new in each release, see the [Release Notes](https://d
 
 ## Using the add-in
 
-Once the extension is installed, select the **Version Control > TFS/VSTS > Open from Remote Repository** menu item. 
+Once the extension is installed, select the **Version Control > TFS/Azure DevOps > Open from Remote Repository** menu item.
+
+  ![Menu item to open the extension](media/tfvc-source-control-explorer-devops.png)
 
 Choose either VSTS or Team Foundation Server to get started and press **Continue**:
 
-  ![Connect with a Server](media/tfvc-choose-server-type.png)
+  ![Connect with a Server](media/tfvc-choose-server-type-devops.png)
 
 ### Azure Repos Authentication
 
@@ -81,7 +83,7 @@ To add a new server to the list, press the **Add Host** button on the **Open fro
 
 Select the provider from the list, and enter your credentials:
 
-![Dialog showing option for source control provider](media/tfvc-add-new-creds.png)
+![Dialog showing option for source control provider](media/tfvc-add-new-creds-devops.png)
 
 ## Creating a new workspace
 
@@ -97,9 +99,7 @@ Set the name and local path for your new workspace and select **Create Workspace
 
 Once you've created a workspace and mapped your project, you can start working with the _Source Code Explorer_.
 
-To open the Source Code Explorer, select the **Version Control > TFS/VSTS > Source Control Explorer** menu item:
-
-![Menu item to open the source code explorer](media/tfvc-source-control-explorer.png)
+To open the Source Code Explorer, select the **Version Control > TFS/Azure DevOps > Source Control Explorer** menu item.
 
 The Source Code Explorer enables you to navigate through all the mapped projects, their files, and  folders. It also allows you to perform all the basic source control actions such as:
 
