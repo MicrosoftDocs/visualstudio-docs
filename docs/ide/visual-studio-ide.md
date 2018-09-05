@@ -268,6 +268,8 @@ If you're ready to dive into more coding, one of the following language-specific
 
 - [Use Visual Studio to create your first C# web app](quickstart-aspnet-core.md)
 
+- [Use Visual Studio to create your first F# web app](quickstart-fsharp.md)
+
 - [Use Visual Studio to create your first Node.js app](quickstart-nodejs.md)
 
 - [Get started with C++ in Visual Studio](getting-started-with-cpp-in-visual-studio.md)

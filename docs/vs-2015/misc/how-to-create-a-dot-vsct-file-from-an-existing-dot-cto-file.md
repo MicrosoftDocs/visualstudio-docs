@@ -26,7 +26,7 @@ You can create an XML-based .vsct file from an existing binary .cto file. Doing 
   
 3.  At the Visual Studio Command Prompt, go to the directory that contains the .cto and .ctsym files.  
   
-4.  Type **vsct.exe** *ctofilename***.cto** *vsctfilename***.vsct -S***symfilename***.ctsym**.  
+4.  Type **vsct.exe** _ctofilename_**.cto** _vsctfilename_**.vsct -S**_symfilename_**.ctsym**.  
   
      `ctofilename` is the name of the .cto file, `vsctfilename` is the name of the vsct file you want to create, and `symfilename` is the name of the .ctsym file.  
   
