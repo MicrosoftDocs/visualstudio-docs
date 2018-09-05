@@ -102,7 +102,7 @@ Object dump complete.
   
 -   The memory allocation number, which is `18` in this example  
   
--   The [block type](http://msdn.microsoft.com/en-us/e2f42faf-0687-49e7-aa1f-916038354f97), which is `normal` in this example.  
+-   The [block type](https://msdn.microsoft.com/library/e2f42faf-0687-49e7-aa1f-916038354f97), which is `normal` in this example.  
   
 -   The hexadecimal memory location, which is `0x00780E80` in this example.  
   

@@ -54,7 +54,7 @@ To create a custom rule set for an Azure DevOps project, you first create a spec
 
 1. In **Source Control Explorer**, right-click the new folder, and then click **Add Items to Folder**.
 
-     For more information, see [Git and Azure Repos](/vsts/git/overview).
+     For more information, see [Git and Azure Repos](/azure/devops/repos/git/overview).
 
 2. Click the rule set file that you created, and then click **Finish**.
 
@@ -69,7 +69,7 @@ To create a custom rule set for an Azure DevOps project, you first create a spec
 
 ### To specify the rule set file as the check-in policy
 
-1. On the **Team** menu, point to **Team Project Settings**, and then click **Source Control**.
+1. On the **Team** menu, point to **Project Settings**, and then click **Source Control**.
 
 2. Click **Check-in Policy**, and then click **Add**.
 
