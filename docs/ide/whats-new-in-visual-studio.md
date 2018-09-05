@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2017"
 description: "Learn about the new features in Visual Studio 2017."
 ms.custom: ""
-ms.date: 08/21/2018
+ms.date: 09/04/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -27,14 +27,14 @@ Looking to upgrade from a previous version of Visual Studio? Here's what Visual 
 
 Here's a high-level recap of the changes that were made since the previous version, Visual Studio 2015:
 
-* **[Redefined fundamentals](#redefined-fundamentals)**. A new setup experience means that you can install more quickly and install what you want when you need it. Whether you want to load large solutions and projects, or work on folders of code, or even on a single file of code, Visual Studio starts faster. And, Visual Studio helps you stay focused on the big picture, especially for teams embracing DevOps.
-* **[Performance and productivity](#performance-and-productivity)**. We have focused on new and modern mobile, cloud, and desktop development capabilities. And, we've also improved the overall acquisition, performance, and general developer productivity experiences. Visual Studio starts faster, is more responsive, and uses less memory than before.
+* **[Redefined fundamentals](#redefined-fundamentals)**. A new setup experience means that you can install more quickly and install what you want when you need it.
+* **[Performance and productivity](#performance-and-productivity)**. We have focused on new and modern mobile, cloud, and desktop development capabilities. And, Visual Studio starts faster, is more responsive, and uses less memory than before.
 * **[Cloud app development with Azure](#cloud-app-development-with-azure)**. A built-in suite of Azure tools enable you to easily create cloud-first apps powered by Microsoft Azure. Visual Studio makes it easy to configure, build, debug, package, and deploy apps and services on Azure.
-* **[Windows app development](#windows-app-development)**. Use the UWP templates in Visual Studio 2017 to create a single project for all Windows 10 devices &ndash; PC, tablet, phone, Xbox, HoloLens, Surface Hub, and more. Then, produce an app package and submit it to Microsoft Store from within Visual Studio to get your app out to customers.
-* **[Mobile app development](#mobile-app-development)**. In Visual Studio 2017, you can innovate and get results fast with Xamarin, which unifies your multi-platform mobile requirements by using one core codebase and set of skills. Go mobile with your existing teams, technology investments, and C# code to deliver consumer-grade experiences ahead of schedule and under budget. Accelerate every step of the mobile lifecycle to deliver world-class consumer experiences or a portfolio of productivity apps to empower your workforce. (And **new in 15.8**: Mobile app developers who use Hyper-V have access to a fast Android emulator that always supports the latest Android APIs, works with Google Play Services out of the box, and supports all features of the Android emulator, including camera, geolocation, and Quick Boot.)
-* **[Cross-platform development](#cross-platform-development)**. Seamlessly deliver software to any targeted platform. Extend DevOps processes to SQL Server through Redgate Data Tools and safely automate database deployments from Visual Studio. Or, use .NET Core to write apps and libraries that run unmodified across Windows, Linux, and macOS operating systems. (And **new in 15.3**: Get side-by-side support for .NET Core 2.0 SDKs.)
-* **[Games development](#games-development)**. With Visual Studio Tools for Unity (VSTU), you can use Visual Studio to write game and editor scripts in C# and then use its powerful debugger to find and fix errors. The latest release of VSTU includes syntax coloring for Unity's ShaderLab shader language, better debugger visualizations, and improved code generation for the MonoBehavior wizard. VSTU also brings your Unity project files, console messages, and the ability to start your game into Visual Studio so you can spend less time switching to and from the Unity Editor while writing code.
-* **[AI development](#ai-development)**. With Visual Studio Tools for AI (**new in 15.5**), you can use the productivity features of Visual Studio to accelerate AI innovation. Build, test, and deploy Deep Learning / AI solutions that seamlessly integrate with Azure Machine Learning for robust experimentation capabilities, such as submitting data preparation and model training jobs transparently to different compute targets. And, Visual Studio Tools for AI provides support for custom metrics and run history tracking, which enables data science reproducibility and auditing.
+* **[Windows app development](#windows-app-development)**. Use the UWP templates in Visual Studio 2017 to create a single project for all Windows 10 devices &ndash; PC, tablet, phone, Xbox, HoloLens, Surface Hub, and more.
+* **[Mobile app development](#mobile-app-development)**. Innovate and get results fast with Xamarin, which unifies your multi-platform mobile requirements to one core codebase and set of skills.
+* **[Cross-platform development](#cross-platform-development)**. Seamlessly deliver software to any targeted platform. Extend DevOps processes to SQL Server through Redgate Data Tools and safely automate database deployments from Visual Studio. Or, use .NET Core to write apps and libraries that run unmodified across Windows, Linux, and macOS operating systems.
+* **[Games development](#games-development)**. With Visual Studio Tools for Unity (VSTU), you can use Visual Studio to write game and editor scripts in C# and then use its powerful debugger to find and fix errors. 
+* **[AI development](#ai-development)**. With Visual Studio Tools for AI, you can use the productivity features of Visual Studio to accelerate AI innovation. Build, test, and deploy Deep Learning / AI solutions that seamlessly integrate with Azure Machine Learning for robust experimentation capabilities.
 
 > [!NOTE]
 > For a complete list of new features and functionality in Visual Studio 2017, see the [Current release notes](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default). And for a peek at future feature offerings, see the [Preview release notes](/visualstudio/releasenotes/vs2017-preview-relnotes?context=visualstudio/default).
@@ -101,11 +101,11 @@ The Roaming Extension Manager tracks all the extensions you install, but you can
 
 When you use the Roaming Extension Manager, there are three icon types on your list:
 
-* ![Roamed icon](../ide/media/vs2017ide-roamedicon.png) ***Roamed***: An extension that is part of this Roaming List, but not installed on your machine.
+* ![Roamed icon](../ide/media/vs2017ide-roamedicon.png) **_Roamed_**: An extension that is part of this Roaming List, but not installed on your machine.
   (You can install these by using the **Download** button.)
-* ![Roamed & Installed icon](../ide/media/vs2017ide-roamedinstalledicon.png) ***Roamed & Installed***: All extensions that are part of this Roaming List and installed in your dev environment.
+* ![Roamed & Installed icon](../ide/media/vs2017ide-roamedinstalledicon.png) **_Roamed & Installed_**: All extensions that are part of this Roaming List and installed in your dev environment.
   (If you decide you do not want to roam, you can remove these by using the **Stop Roaming** button.)
-* ![Installed icon](../ide/media/vs2017ide-installedicon.png) ***Installed***: All extensions that are installed in this environment, but are not part of your Roaming List.
+* ![Installed icon](../ide/media/vs2017ide-installedicon.png) **_Installed_**: All extensions that are installed in this environment, but are not part of your Roaming List.
   (You can add extensions to the Roaming List by using the **Start Roaming** button.)
 
 Any extension that you download while you are signed in is added to your list as **Roamed & Installed**. The extension then becomes part of your Roaming list, which gives you access to it from any machine.

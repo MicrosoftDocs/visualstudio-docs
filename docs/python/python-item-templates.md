@@ -1,7 +1,7 @@
 ---
 title: Item templates for Python projects
 description: A reference list of item templates for Python project that are available through the Add > New Item dialog in Visual Studio.
-ms.date: 04/25/2018
+ms.date: 09/04/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -47,7 +47,7 @@ The following table briefly explains the effect of each item template within a P
 >
 > ![Changing the publish configuration](media/template-web-publish-config.png)
 
-### See also
+## See also
 
 - [Manage Python projects - Project templates](managing-python-projects-in-visual-studio.md#project-templates)
 - [Python web project templates](python-web-application-project-templates.md)

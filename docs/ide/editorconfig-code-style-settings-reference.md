@@ -86,6 +86,8 @@ The following list shows the allowable language convention rules:
         - dotnet\_style\_prefer\_inferred\_anonymous\_type\_member_names
         - dotnet\_style\_prefer\_auto\_properties
         - dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
+        - dotnet\_style\_prefer\_conditional\_expression\_over\_assignment
+        - dotnet\_style\_prefer\_conditional\_expression\_over\_return
     - ["Null" checking preferences](#null_checking)
         - dotnet\_style\_coalesce_expression
         - dotnet\_style\_null_propagation
@@ -1078,7 +1080,7 @@ Code examples:
 
 ```csharp
 // csharp_style_expression_bodied_indexers = true
-public T this[int i] => _value[i];
+public T this[int i] => _values[i];
 
 // csharp_style_expression_bodied_indexers = false
 public T this[int i] { get { return _values[i]; } }
