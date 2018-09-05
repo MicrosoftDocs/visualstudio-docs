@@ -1,5 +1,5 @@
 ---
-title: "Upgrading Custom Project and Item Templates for Visual Studio “15” | Microsoft Docs"
+title: "Upgrading Custom Project and Item Templates for Visual Studio 2017 | Microsoft Docs"
 ms.custom: ""
 ms.date: "2018-06-30"
 ms.reviewer: ""
