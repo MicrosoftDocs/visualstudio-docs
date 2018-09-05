@@ -24,7 +24,7 @@ manager: douge
 
   Build your project and make sure assembly-based discovery is turned on in **Tools** > **Options** > **Test**.
 
-  [Real time test discovery](https://go.microsoft.com/fwlink/?linkid=862824) is source-based test discovery. It can’t discover tests that use theories, custom adapters, custom traits, `#ifdef` statements, etc. because they are defined at runtime. A build is required for those tests to be accurately discovered. In the 15.6 Previews, assembly-based discovery (the traditional discoverer) runs only after builds. This setting means Real Time Test Discovery discovers as many tests as it can while you are editing, and assembly-based discovery allows dynamically defined tests to appear after a build. Real Time Test Discovery improves responsiveness, but stills allow you to get complete and accurate results after a build.
+  [Real time test discovery](https://go.microsoft.com/fwlink/?linkid=862824) is source-based test discovery. It can’t discover tests that use theories, custom adapters, custom traits, `#ifdef` statements, etc. because they are defined at runtime. A build is required for those tests to be accurately discovered. In the Visual Studio 2017 version 15.6 previews, assembly-based discovery (the traditional discoverer) runs only after builds. This setting means Real Time Test Discovery discovers as many tests as it can while you are editing, and assembly-based discovery allows dynamically defined tests to appear after a build. Real Time Test Discovery improves responsiveness, but stills allow you to get complete and accurate results after a build.
 
 ## Test Explorer '+' (plus) symbol
 **What does the '+' (plus) symbol that appears in the top line of Test Explorer mean?**
@@ -102,14 +102,16 @@ Recent UWP test projects specify a test platform build property that allows bett
   
 To fix this:
 - Update your test project build property to the following:
+
 ```XML
 <UnitTestPlatformVersion Condition="'$(UnitTestPlatformVersion)' == ''">$(VisualStudioVersion)</UnitTestPlatformVersion>
 ```
+
 - Update the TestPlatform SDK version to the following:
+
 ```XML
 <SDKReference Include="TestPlatform.Universal, Version=$(UnitTestPlatformVersion)" />
 ```
-
 
 ## Using feature flags
 **How can I turn on feature flags to try out new testing features?**
