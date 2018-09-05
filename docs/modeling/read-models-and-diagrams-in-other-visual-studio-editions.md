@@ -30,7 +30,7 @@ When you open a model in a version of Visual Studio that does not support model 
 -   The two diagram files for the diagram that you want to read, for example, **MyDiagram.classdiagram and MyDiagram.classdiagram.layout**.
 
     > [!NOTE]
-    >  For dependency diagrams, you should also have the file that is named *MyDiagram***.layerdiagram.suppressions**.
+    >  For dependency diagrams, you should also have the file that is named _MyDiagram_**.layerdiagram.suppressions**.
 
 -   The modeling project file (**MyModel.modelproj**)
 

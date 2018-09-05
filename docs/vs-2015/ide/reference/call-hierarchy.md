@@ -32,7 +32,7 @@ Call Hierarchy enables you to navigate through your code by displaying all calls
 ## Using Call Hierarchy  
  To display the **Call Hierarchy** window, right-click the name of a method, property, or constructor call, and then click **View Call Hierarchy**.  
   
- The member name appears in a tree view pane in the **Call Hierarchy** window. If you expand the member node, **Calls To***member name* and **Calls From***member name* subnodes appear. The following illustration shows these nodes in the **Call Hierarchy** window.  
+ The member name appears in a tree view pane in the **Call Hierarchy** window. If you expand the member node, **Calls To**_member name_ and **Calls From**_member name_ subnodes appear. The following illustration shows these nodes in the **Call Hierarchy** window.  
   
  ![Call Hierarchy with one node open](../../ide/reference/media/onenode.png "OneNode")  
 Call Hierarchy window  

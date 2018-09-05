@@ -72,7 +72,7 @@ Deleting an element usually causes related elements to be deleted also. All rela
 >  To add program code to your DSL definition, create a separate code file in the **Dsl** project and write partial definitions to augment the classes in the Generated Code folder. For more information, see [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).
 
 ##  <a name="closure"></a> Defining a Delete Closure
- The deletion operation uses the class *YourModel***DeleteClosure** to determine which elements to delete, given an initial selection. It calls `ShouldVisitRelationship()` and `ShouldVisitRolePlayer()` repeatedly, walking the graph of relationships. You can override these methods. ShouldVisitRolePlayer is provided with the identity of a link and the element at one of the link's roles. It should return one of the following values:
+ The deletion operation uses the class _YourModel_**DeleteClosure** to determine which elements to delete, given an initial selection. It calls `ShouldVisitRelationship()` and `ShouldVisitRolePlayer()` repeatedly, walking the graph of relationships. You can override these methods. ShouldVisitRolePlayer is provided with the identity of a link and the element at one of the link's roles. It should return one of the following values:
 
 -   **VisitorFilterResult.Yes**- The element should be deleted and the walker should proceed to try the element's other links.
 

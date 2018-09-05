@@ -26,12 +26,12 @@ manager: "ghogen"
 The latest version of this topic can be found at [Debug Page, Project Designer](https://docs.microsoft.com/visualstudio/ide/reference/debug-page-project-designer).  
   
   
-WARNING]
+> [!WARNING]
 >  This topic does not apply to Windows Store apps. See [Start a debug session (VB, C#, C++ and XAML)](../../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md) in the Windows Dev Center.  
   
  Use the **Debug** page of the **Project Designer** to set properties for debugging behavior in a Visual Basic or C# project.  
   
- To access the **Debug** page, select a project node in **Solution Explorer**. On the **Project** menu, choose *ProjectName***Properties**. When the **Project Designer** appears, click the **Debug** tab.  
+ To access the **Debug** page, select a project node in **Solution Explorer**. On the **Project** menu, choose _ProjectName_**Properties**. When the **Project Designer** appears, click the **Debug** tab.  
   
 ## Configuration and Platform  
  The following options allow you to select the configuration and platform to display or modify.  

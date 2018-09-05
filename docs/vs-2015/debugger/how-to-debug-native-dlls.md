@@ -34,7 +34,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [How to: Debug Native DLLs](https://docs.microsoft.com/visualstudio/debugger/how-to-debug-native-dlls).  
   
-NOTE]
+> [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  
   
  When you debug a DLL, you can start debugging from:  
@@ -61,7 +61,7 @@ NOTE]
   
 5.  In the **Command Arguments** box, specify any necessary arguments for the executable.  
   
- If you do not specify the executable in the *Project***Property Pages** dialog box, the [Executable for Debugging Session Dialog Box](../debugger/executable-for-debugging-session-dialog-box.md) appears when you start debugging.  
+ If you do not specify the executable in the _Project_**Property Pages** dialog box, the [Executable for Debugging Session Dialog Box](../debugger/executable-for-debugging-session-dialog-box.md) appears when you start debugging.  
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   
