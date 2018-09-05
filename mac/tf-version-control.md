@@ -42,7 +42,9 @@ For information on what's new in each release, see the [Release Notes](https://d
 
 ## Using the add-in
 
-Once the extension is installed, select the **Version Control > TFS/VSTS > Open from Remote Repository** menu item. 
+Once the extension is installed, select the **Version Control > TFS/Azure DevOps > Open from Remote Repository** menu item.
+
+  ![Menu item to open the source code explorer](media/tfvc-source-control-explorer-devops.png)
 
 Choose either VSTS or Team Foundation Server to get started and press **Continue**:
 
@@ -97,9 +99,7 @@ Set the name and local path for your new workspace and select **Create Workspace
 
 Once you've created a workspace and mapped your project, you can start working with the _Source Code Explorer_.
 
-To open the Source Code Explorer, select the **Version Control > TFS/Azure DevOps > Source Control Explorer** menu item:
-
-![Menu item to open the source code explorer](media/tfvc-source-control-explorer-devops.png)
+To open the Source Code Explorer, select the **Version Control > TFS/Azure DevOps > Source Control Explorer** menu item.
 
 The Source Code Explorer enables you to navigate through all the mapped projects, their files, and  folders. It also allows you to perform all the basic source control actions such as:
 
