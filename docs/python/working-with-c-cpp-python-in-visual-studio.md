@@ -23,7 +23,12 @@ Modules written in C++ (or C) are commonly used to extend the capabilities of a 
 
 This article walks through building a C++ extension module for CPython that computes a hyperbolic tangent and calls it from Python code. The routine is implemented first in Python to demonstrate the relative performance gain of implementing the same routine in C++.
 
-This article also demonstrates two ways to make the C++ available to Python. First is to use the standard CPython extensions as described in the [Python documentation](https://docs.python.org/3/c-api/). The second uses [pybind11](https://github.com/pybind/pybind11), which is recommended for C++ 11 because of its simplicity. A comparison between these and other means is found under [alternative approaches](#alternative-approaches) at the end of this article.
+This article also demonstrates two ways to make the C++ available to Python:
+
+- The standard CPython extensions as described in the [Python documentation](https://docs.python.org/3/c-api/)
+- [PyBind11](https://github.com/pybind/pybind11), which is recommended for C++ 11 because of its simplicity.
+
+A comparison between these and other means is found under [alternative approaches](#alternative-approaches) at the end of this article.
 
 The completed sample from this walkthrough can be found on [python-samples-vs-cpp-extension](https://github.com/Microsoft/python-sample-vs-cpp-extension) (GitHub).
 
@@ -152,7 +157,7 @@ Follow the instructions in this section to create two identical C++ projects nam
 
 1. Build the C++ project again to confirm that your code is correct.
 
-1. If you haven't already done so, repeat the steps above to create a second project names "superfastcode2" with identical contents.
+1. If you haven't already done so, repeat the steps above to create a second project named "superfastcode2" with identical contents.
 
 ## Convert the C++ projects to extensions for Python
 
@@ -277,7 +282,7 @@ The alternate method, described in the following steps, installs the module in t
 
 1. Create a file named *setup.py* in the C++ project by right-clicking the project and selecting **Add** > **New Item**. Then select **C++ File (.cpp)**, name the file `setup.py`, and select **OK** (naming the file with the *.py* extension makes Visual Studio recognize it as Python despite using the C++ file template). When the file appears in the editor, paste the following code into it as appropriate to the extension method:
 
-    **CPython extensions (superfastcode project)**
+    **CPython extensions (superfastcode project):**
 
     ```python
     from distutils.core import setup, Extension, DEBUG
@@ -292,7 +297,7 @@ The alternate method, described in the following steps, installs the module in t
 
     See [Building C and C++ extensions](https://docs.python.org/3/extending/building.html) (python.org) for documentation on this script.
 
-    **PyBind11 (superfastcode2 project)**
+    **PyBind11 (superfastcode2 project):**
 
     ```python
     import os, sys
@@ -391,7 +396,7 @@ There are a variety of means to create Python extensions as described in the fol
 | Approach | Vintage | Representative user(s) | Pro(s) | Con(s) |
 | --- | --- | --- | --- | --- |
 | C/C++ extension modules for CPython | 1991 | Standard Library | [Extensive documentation and tutorials](https://docs.python.org/3/c-api/). Total control. | Compilation, portability, reference management. High C knowledge. |
-| [pybind11](https://github.com/pybind/pybind11) (Recommended for C++) | 2015 |  | Lightweight, header-only library for creating Python bindings of existing C++ code. Few dependencies. PyPy compatibility. | Newer, less mature. Heavy use of C++11 features. Short list of supported compilers (Visual Studio is included). |
+| [PyBind11](https://github.com/pybind/pybind11) (Recommended for C++) | 2015 |  | Lightweight, header-only library for creating Python bindings of existing C++ code. Few dependencies. PyPy compatibility. | Newer, less mature. Heavy use of C++11 features. Short list of supported compilers (Visual Studio is included). |
 | Cython (Recommnded for C) | 2007 | [gevent](http://www.gevent.org/), [kivy](https://kivy.org/) | Python-like. Highly mature. High performance. | Compilation, new syntax, new toolchain. |
 | [Boost.Python](https://www.boost.org/doc/libs/1_66_0/libs/python/doc/html/index.html) | 2002 | | Works with just about every C++ compiler. | Large and complex suite of libraries; contains many workarounds for old compilers. |
 | ctypes | 2003 | [oscrypto](https://github.com/wbond/oscrypto) | No compilation, wide availability. | Accessing and mutating C structures cumbersome and error prone. |
