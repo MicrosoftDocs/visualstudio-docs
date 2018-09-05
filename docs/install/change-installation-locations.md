@@ -52,5 +52,5 @@ Here's how.
 
 * [Install Visual Studio 2017](install-visual-studio.md)
 * [Update Visual Studio 2017](update-visual-studio.md)
-* [Modify Visual Studio 2027](update-visual-studio.md)
+* [Modify Visual Studio 2017](update-visual-studio.md)
 * [Uninstall Visual Studio 2017](uninstall-visual-studio.md)
