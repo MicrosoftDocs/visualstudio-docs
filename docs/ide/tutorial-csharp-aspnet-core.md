@@ -19,7 +19,7 @@ ms.workload:
 ---
 # Tutorial: Get started with C# and ASP.NET Core in Visual Studio
 
-In this tutorial for C# development with ASP.NET Core using Visual Studio, you'll create a C# ASP.NET Core web app, make changes to it, explore some features of the IDE, and run the app.
+In this tutorial for C# development with ASP.NET Core using Visual Studio, you'll create a C# ASP.NET Core web app, make changes to it, explore some features of the IDE, and then run the app.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
@@ -61,11 +61,11 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 ### Add a project template
 
-1. In the **New ASP.NET Core Web Application** dialog box, choose the **Web Application (Model-View-Controller)** project template.
+1. In the **New ASP.NET Core Web Application** dialog box, choose the **Web Application** project template.
 
-1. Verify that **ASP.NET Core 2.0** appears in the top drop-down menu. Then, choose **OK**.
+1. Verify that **ASP.NET Core 2.1** appears in the top drop-down menu. Then, choose **OK**.
 
-   ![New ASP.NET Core Web Application dialog box](../ide/media/new-project-csharp-aspnet-web-app-mvc.png)
+   ![New ASP.NET Core Web Application dialog box](../ide/media/new-project-csharp-aspnet-razor-web-app.png)
 
 ### About your solution
 
