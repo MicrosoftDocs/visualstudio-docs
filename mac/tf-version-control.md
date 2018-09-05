@@ -44,7 +44,7 @@ For information on what's new in each release, see the [Release Notes](https://d
 
 Once the extension is installed, select the **Version Control > TFS/Azure DevOps > Open from Remote Repository** menu item.
 
-  ![Menu item to open the source code explorer](media/tfvc-source-control-explorer-devops.png)
+  ![Menu item to open the extension](media/tfvc-source-control-explorer-devops.png)
 
 Choose either VSTS or Team Foundation Server to get started and press **Continue**:
 
