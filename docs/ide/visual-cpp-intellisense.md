@@ -26,7 +26,7 @@ For a list of the icons and their meanings, see [Class View and Object Browser i
 
 ![Visual C&#43;&#43; Complete Word window](../ide/media/vs2015_cpp_complete_word.png)
 
-The first time member list is invoked it only shows members that are accessible for the current context. If you press **Ctrl**+**J** after that, it shows all members regardless of accessibility. If you invoke it a third time, an even wider list of program elements is shown. You can turn off member list in the **Options** dialog box, under **Text Editor** > **C/C++** > **General** > **Auto list members**.
+The first time the member list is invoked, it only shows members that are accessible for the current context. If you press **Ctrl**+**J** after that, it shows all members regardless of accessibility. If you invoke it a third time, an even wider list of program elements is shown. You can turn off member list in the **Options** dialog box, under **Text Editor** > **C/C++** > **General** > **Auto list members**.
 
 ![Visual C&#43;&#43; Member List](../ide/media/vs2015_cpp_list_members.png)
 
@@ -62,19 +62,19 @@ Consider an OpenGLES Application that's configured to build for Android and iOS.
 
 Notice the following:
 
-- The `#ifdef` branch on line 6 is grayed out to indicate inactive region, because `__ANDROID__` is not defined for iOS project.
+- The `#ifdef` branch on line 6 is grayed out to indicate an inactive region, because `__ANDROID__` is not defined for the iOS project.
 
-- The greeting variable at line 11 is initialized with identifier `HELLO`, which now has red squiggle. This is because no identifier `HELLO` is defined in the currently active iOS project.
+- The greeting variable at line 11 is initialized with the identifier `HELLO`, which now has a red squiggle. This is because no identifier `HELLO` is defined in the currently active iOS project.
 
-- Line 12 has purple squiggle on identifier `BYE`; this identifier is not defined in currently inactive **Android.NativeActivity** project.
+- Line 12 has a purple squiggle on the identifier `BYE` because this identifier isn't defined in the (currently) inactive **Android.NativeActivity** project. Even though this line compiles when iOS is the active project, it won't compile when Android is the active project. Since this is shared code, you should correct the code even though it compiles in the currently active configuration.
 
 If you change the active project to Android, the squiggles change:
 
-- The `#else` branch on line 8 is grayed out to indicate inactive region, because `__ANDROID__` is defined for Android project.
+- The `#else` branch on line 8 is grayed out to indicate an inactive region, because `__ANDROID__` is defined for Android project.
 
-- The greeting variable at line 11 is initialized with identifier `HELLO`, which has a purple squiggle. This is because no identifier `HELLO` is defined in the currently inactive iOS project. While in Android project line 11 would compile, it won't in iOS. Since this is shared code, that is something you should change even though it compiles in the currently active configuration.
+- The greeting variable at line 11 is initialized with identifier `HELLO`, which has a purple squiggle. This is because no identifier `HELLO` is defined in the currently inactive iOS project.
 
-- Line 12 has red squiggle on identifier `BYE`; this identifier is not defined in the currently selected active project.
+- Line 12 has a red squiggle on the identifier `BYE` because this identifier is not defined in the active project.
 
 ## IntelliSense for stand-alone files
 
