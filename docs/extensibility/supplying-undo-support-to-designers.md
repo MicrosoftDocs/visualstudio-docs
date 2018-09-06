@@ -25,7 +25,7 @@ Designers, like editors, typically need to support undo operations so that users
   
 -   Supply persistence and CodeDOM support by implementing the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService> and the <xref:System.ComponentModel.Design.IComponentChangeService> classes.  
   
- For more information on writing designers using [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], see [Extending Design-Time Support](https://msdn.microsoft.com/Library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2).  
+ For more information on writing designers using [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], see [Extending Design-Time Support](http://msdn.microsoft.com/Library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2).  
   
  The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides a default undo infrastructure by:  
   
@@ -100,4 +100,4 @@ Designers, like editors, typically need to support undo operations so that users
 ## See Also  
  <xref:System.ComponentModel.Design.UndoEngine>   
  <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine>   
- [Extending Design-Time Support](https://msdn.microsoft.com/Library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)
+ [Extending Design-Time Support](http://msdn.microsoft.com/Library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)
