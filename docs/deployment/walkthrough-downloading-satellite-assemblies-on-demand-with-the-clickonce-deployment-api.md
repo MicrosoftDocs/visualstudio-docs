@@ -29,13 +29,13 @@ Windows Forms applications can be configured for multiple cultures through the u
   
  As discussed in [Localize ClickOnce applications](../deployment/localizing-clickonce-applications.md), you can include multiple satellite assemblies for multiple cultures within the same [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment. By default, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will download all of the satellite assemblies in your deployment to the client machine, although a single client will probably require only one satellite assembly.  
   
- This walkthrough demonstrates how to mark your satellite assemblies as optional, and download only the assembly a client machine needs for its current culture settings. The following procedure uses the tools available in the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. You can also perform this task in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  Also see [Walkthrough: Download satellite assemblies on demand with the ClickOnce deployment API using the Designer](/previous-versions/visualstudio/visual-studio-2012/ms366788(v=vs.110)) or [Walkthrough: Download satellite assemblies on demand with the ClickOnce deployment API using the Designer](/previous-versions/visualstudio/visual-studio-2013/ms366788(v=vs.120)).  
+ This walkthrough demonstrates how to mark your satellite assemblies as optional, and download only the assembly a client machine needs for its current culture settings. The following procedure uses the tools available in the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. You can also perform this task in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  Also see [Walkthrough: Download satellite assemblies on demand with the ClickOnce deployment API using the Designer](http://msdn.microsoft.com/library/ms366788\(v=vs.110\)) or [Walkthrough: Download satellite assemblies on demand with the ClickOnce deployment API using the Designer](http://msdn.microsoft.com/library/ms366788\(v=vs.120\)).  
   
 > [!NOTE]
 >  For testing purposes, the following code example programmatically sets the culture to `ja-JP`. See the "Next Steps" section later in this topic for information on how to adjust this code for a production environment.  
   
 ## Prerequisites  
- This topic assumes that you know how to add localized resources to your application using Visual Studio. For detailed instructions, see [Walkthrough: Localize Windows forms](/previous-versions/visualstudio/visual-studio-2010/y99d1cd3(v=vs.100)).  
+ This topic assumes that you know how to add localized resources to your application using Visual Studio. For detailed instructions, see [Walkthrough: Localize Windows forms](https://msdn.microsoft.com/library/vstudio/y99d1cd3\(v=vs.100\).aspx).  
   
 ### To download satellite assemblies on demand  
   
