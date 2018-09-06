@@ -18,13 +18,17 @@ ms.workload:
 
 If you are developing a Node.js app with a lot of npm packages, it's not uncommon to run into warnings or errors when you build your project if one or more packages has been updated. Sometimes, a version conflict results, or a package version has been deprecated. Here are a couple of quick tips to help you configure your [package.json](https://docs.npmjs.com/files/package.json) file and understand what is going on when you see warnings or errors. This is not a complete guide to *package.json* and is focused only on npm package versioning.
 
-The npm package versioning system has strict rules. Let's say you have a package in your app with a version of 5.2.1. In this example:
+The npm package versioning system has strict rules. The version format follows here:
 
-* 5 is the major version
-* 2 is the minor version
-* 1 is the patch number
+    [major].[minor].[patch]
 
-When the major version of a package changes, the package includes breaking changes and you may need to resolve them in your app. Fixing the issue may involve making changes to your code or updating other related npm packages to different package versions. When the minor version of a package changes, new features have been added to the package, but the new package should not introduce any breaking changes to your app. Changes to the patch number include bug fixes and should not introduce any breaking changes to your app.
+Let's say you have a package in your app with a version of 5.2.1. 5 is the major version, 2 is the minor version, and 1 is the patch.
+
+* In a major version update, the package includes new features that are backwards-incompatible, that is, breaking changes.
+* In a minor version update, new features have been added to the package that are backwards-compatible with earlier package versions.
+* In a patch update, one or more bug fixes are included. Bug fixes are always backwards-compatible.
+
+It's worth noting that some npm package features have dependencies. For example, to use a new feature of the TypeScript compiler package (ts-loader) with webpack, it is possible you would also need to update the webpack npm package and the webpack-cli package.
 
 To help manage package versioning, npm supports several notations that you can use in the *package.json*. You can use these notations to control the type of package updates that you want to accept in your app.
 
