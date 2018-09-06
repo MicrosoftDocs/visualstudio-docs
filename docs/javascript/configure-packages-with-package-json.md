@@ -30,34 +30,34 @@ To help manage package versioning, npm supports several notations that you can u
 
 Let's say you are using React and need to include the **react** and **react-dom** npm package. You could specify that in several ways in your *package.json* file. For example, you can specify use of the exact version of a package as follows.
 
-    ```json
-    "dependencies": {
-      "react": "16.4.2",
-      "react-dom": "16.4.2",
-    },
-    ```
+  ```json
+  "dependencies": {
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+  },
+  ```
 
 Using the preceding notation, npm will always get the exact version specified, 16.4.2.
 
 You can use a special notation to limit updates to patch updates (bug fixes). In this example:
 
-    ```json
-    "dependencies": {
-      "react": "~16.4.2",
-      "react-dom": "~16.4.2",
-    },
-    ```
+  ```json
+  "dependencies": {
+    "react": "~16.4.2",
+    "react-dom": "~16.4.2",
+  },
+  ```
 
 you use the tilde (~) character to tell npm to only update a package when it is patched. So, npm can update react 16.4.2 to 16.4.3 (or 16.4.4, etc.), but it will not accept an update to the major or minor version. So, 16.4.2 will not get updated to 16.5.0.
 
 You can also use the caret (^) symbol to specify that npm can update the minor version number.
 
-    ```json
-    "dependencies": {
-      "react": "^16.4.2",
-      "react-dom": "^16.4.2",
-    },
-    ```
+  ```json
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+  },
+  ```
 
 Using this notation, npm can update react 16.4.2 to 16.5.0 (or 16.5.1, 16.6.0, etc.), but it will not accept an update to the major version. So, 16.4.2 will not get updated to 17.0.0.
 
