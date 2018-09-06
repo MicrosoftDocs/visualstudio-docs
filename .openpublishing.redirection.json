@@ -6781,6 +6781,16 @@
             "source_path": "docs/vs-2015/profiling/how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-concurrency-data-by-using-the-command-line.md",
             "redirect_url": "/visualstudio/profiling/how-to-attach-the-profiler-to-a-dotnet-app-and-collect-concurrency-data?view=vs-2015",
             "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/debugger/what’s-new-for-the-debugger-in-visual-studio-2015.md",
+            "redirect_url": "/visualstudio/debugger/what-s-new-for-the-debugger-in-visual-studio-2015?view=vs-2015",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "docs/vs-2015/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-%2215%22.md",
+            "redirect_url": "/visualstudio/extensibility/upgrading-custom-project-and-item-templates-for-visual-studio-2017?view=vs-2015",
+            "redirect_document_id": false
         }
     ]
 }
