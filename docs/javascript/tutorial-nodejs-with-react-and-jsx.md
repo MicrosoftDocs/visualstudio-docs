@@ -115,7 +115,7 @@ This app requires a number of npm modules to run correctly.
 
 1. Instead of using the UI to search for and add the rest of the packages one at a time, paste the following code into package.json. To do this, add a `dependencies` section with this code:
 
-    ```js
+    ```json
     "dependencies": {
       "express": "~4.16.3",
       "path": "~0.12.7",
