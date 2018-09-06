@@ -27,7 +27,7 @@ You can use the Shader Designer to create pixel shaders interactively instead of
 
 The Shader Designer saves shaders in the Directed Graph Shader Language (DGSL) format, which is an XML format that's based on Directed Graph Markup Language (DGML). You can apply DGSL shaders directly to 3D models in the Model Editor. However, before you can use a DGSL shader in your app, you must export it to a format that DirectX understands—for example, HLSL.
 
-Because DGSL is compatible with DGML, you can use tools that are designed to analyze DGML documents to analyze your DGSL shaders. For information about DGML, see [Understanding Directed Graph Markup Language (DGML)](../modeling/customize-code-maps-by-editing-the-dgml-files).
+Because DGSL is compatible with DGML, you can use tools that are designed to analyze DGML documents to analyze your DGSL shaders. For information about DGML, see [Understanding Directed Graph Markup Language (DGML)](http://msdn.microsoft.com/library/ee842619.aspx).
 
 ## Related topics
 

@@ -96,4 +96,4 @@ In XAML Designer, you can set data binding properties by using the artboard and 
 ## See also
 
 - [Create a UI by using XAML Designer](../designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md)
-- [Add Value Converter dialog box](https://msdn.microsoft.com/library/c5f3d110-a541-4b55-8bca-928f77778af8)
+- [Add Value Converter dialog box](https://msdn.microsoft.com/c5f3d110-a541-4b55-8bca-928f77778af8)
