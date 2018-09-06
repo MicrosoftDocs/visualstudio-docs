@@ -87,7 +87,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
       TargetFramework=".NETCore,version=v4.5"
       AppliesTo="WindowsAppContainer"
       SupportsMultipleVersions="Error"
-      MoreInfo="https://msdn.microsoft.com/">
+      MoreInfo="http://www.msdn.microsoft.com/">
     </FileList>
     ```
 
@@ -99,7 +99,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
       TargetFramework=".NETCore,version=v4.5"
       AppliesTo="WindowsAppContainer"
       SupportsMultipleVersions="Error"
-      MoreInfo="https://msdn.microsoft.com/">
+      MoreInfo="http://www.msdn.microsoft.com/">
     </FileList>
     ```  
   
@@ -160,7 +160,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
   
 6.  In the details pane, choose the **Simple Math SDK** extension.  
   
-     Additional information about your SDK appears. You can choose the **More Information** link to open https://msdn.microsoft.com/, as you specified in the SDKManifest.xml file earlier in this walkthrough.  
+     Additional information about your SDK appears. You can choose the **More Information** link to open http://www.msdn.microsoft.com, as you specified in the SDKManifest.xml file earlier in this walkthrough.  
   
 7.  In the **Reference Manager** dialog box, select the **Simple Math SDK** check box, and then choose the **OK** button.  
   
@@ -237,5 +237,5 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
   
 ## See also  
  [Walkthrough: Create an SDK using C++](../extensibility/walkthrough-creating-an-sdk-using-cpp.md)   
- [Walkthrough: Create an SDK using JavaScript](../extensibility/walkthrough-creating-an-sdk-using-javascript.md)   
+ [Walkthrough: Create an SDK using JavaScript](http://msdn.microsoft.com/en-us/6195ff56-4a27-45fc-bd29-4b0451225f4b)   
  [Create a Software Development Kit](../extensibility/creating-a-software-development-kit.md)

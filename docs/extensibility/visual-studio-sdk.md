@@ -62,7 +62,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
 ## Other Visual Studio SDK resources  
  If you have questions about the VSSDK or want to share your experiences developing extensions, you can use the [Visual Studio Extensibility Forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx) or the [ExtendVS Gitter Chatroom](https://gitter.im/Microsoft/extendvs).  
   
- You can find more information in the [VSX Arcana blog](https://blogs.msdn.microsoft.com/vsx/) and a number of blogs written by Microsoft MVPs:  
+ You can find more information in the [VSX Arcana blog](http://blogs.msdn.com/b/vsx/) and a number of blogs written by Microsoft MVPs:  
   
 -   [Favorite Visual Studio extensions](http://geekswithblogs.net/sdorman/archive/2014/10/05/favorite-visual-studio-extensions.aspx)  
   
