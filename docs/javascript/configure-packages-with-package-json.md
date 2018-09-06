@@ -16,17 +16,17 @@ ms.workload:
 ---
 # package.json configuration
 
-If you are developing a Node.js app with a lot of npm packages, it's not uncommon to run into warnings or errors when you build your project if one or more packages has been updated. Sometimes, a version conflict results, or a package version has been deprecated. Here are a couple of quick tips to help you configure your [package.json](https://docs.npmjs.com/files/package.json) file and understand what is going on when you see warnings or errors.
+If you are developing a Node.js app with a lot of npm packages, it's not uncommon to run into warnings or errors when you build your project if one or more packages has been updated. Sometimes, a version conflict results, or a package version has been deprecated. Here are a couple of quick tips to help you configure your [package.json](https://docs.npmjs.com/files/package.json) file and understand what is going on when you see warnings or errors. This is not a complete guide to *package.json* and is focused only on npm package versioning.
 
 The npm package versioning system has strict rules. Let's say you have a package in your app with a version of 5.2.1. In this example:
 
 * 5 is the major version
 * 2 is the minor version
-* 1 is the revision number
+* 1 is the patch number
 
-When the major version of a package changes, the package includes breaking changes and you may need to resolve them in your app. Fixing the issue may involve making changes to your code or updating other npm packages to different package versions. When the minor version of a package changes, new features have been added to the package, but the new package should not introduce any breaking changes to your app. Changes to the revision number include bug fixes and also should not introduce any breaking changes to your app.
+When the major version of a package changes, the package includes breaking changes and you may need to resolve them in your app. Fixing the issue may involve making changes to your code or updating other related npm packages to different package versions. When the minor version of a package changes, new features have been added to the package, but the new package should not introduce any breaking changes to your app. Changes to the patch number include bug fixes and should not introduce any breaking changes to your app.
 
-To help manage package versioning, npm supports several notations that you can use in the *package.json*. You can use this feature to control the type of package updates that you want to accept in your app.
+To help manage package versioning, npm supports several notations that you can use in the *package.json*. You can use these notations to control the type of package updates that you want to accept in your app.
 
 Let's say you are using React and need to include the **react** and **react-dom** npm package. You could specify that in several ways in your *package.json* file. For example, you can specify use of the exact version of a package as follows.
 
@@ -39,7 +39,7 @@ Let's say you are using React and need to include the **react** and **react-dom*
 
 Using the preceding notation, npm will always get the exact version specified, 16.4.2.
 
-You can use a special notation to limit updates to bug fixes (revision number updates). In this example:
+You can use a special notation to limit updates to patch updates (bug fixes). In this example:
 
     ```js
     "dependencies": {
@@ -48,7 +48,7 @@ You can use a special notation to limit updates to bug fixes (revision number up
     },
     ```
 
-you use the tilde (~) character to tell npm to only update a package when it is patched, that is, a bug fix is rolled out. So, npm can update react 16.4.2 to 16.4.3 (or 16.4.4, etc.), but it will not accept an update to the major or minor version. So, 16.4.2 will not get updated to 16.5.0.
+you use the tilde (~) character to tell npm to only update a package when it is patched. So, npm can update react 16.4.2 to 16.4.3 (or 16.4.4, etc.), but it will not accept an update to the major or minor version. So, 16.4.2 will not get updated to 16.5.0.
 
 You can also use the caret (^) symbol to specify that npm can update the minor version number.
 
@@ -61,6 +61,6 @@ You can also use the caret (^) symbol to specify that npm can update the minor v
 
 Using this notation, npm can update react 16.4.2 to 16.5.0 (or 16.5.1, 16.6.0, etc.), but it will not accept an update to the major version. So, 16.4.2 will not get updated to 17.0.0.
 
-When npm updates packages, it generates a *package-lock.json* file, which lists the actual npm package versions used in your app. While *package.json* controls the direct dependencies for your app, it does not control nested dependencies (other npm packages required by a particular npm package). You can use the *package-lock.json* file in your development cycle if you need to make sure that other developers and testers are using the exact packages that you are using. are For more information, see [package-lock.json](https://docs.npmjs.com/files/package-lock.json) in the npm documentation.
+When npm updates packages, it generates a *package-lock.json* file, which lists the actual npm package versions used in your app, including all nested packages. While *package.json* controls the direct dependencies for your app, it does not control nested dependencies (other npm packages required by a particular npm package). You can use the *package-lock.json* file in your development cycle if you need to make sure that other developers and testers are using the exact packages that you are using, including nested packages. For more information, see [package-lock.json](https://docs.npmjs.com/files/package-lock.json) in the npm documentation.
 
 For Visual Studio, the *package-lock.json* file is not added to your project, but you can find it in the project folder.
