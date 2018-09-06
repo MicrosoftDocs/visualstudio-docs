@@ -169,7 +169,7 @@ In the desktop projects, the **Core** subgroup doesn't appear by default. You ca
 </PropertyGroup>
 ```
 
-Make sure to select the **Windows** check box on this subgroup. You should then be able to use Windows Runtime elements. However, you'll also want to add <xref:System.Runtime>, in which the Windows Runtime defines some standard classes and interfaces, such as <xref:System.Collections.IEnumerable>, that are used throughout the Windows Runtime libraries. For information about how to add <xref:System.Runtime>, see [Managed desktop apps and Windows Runtime](/previous-versions/windows/apps/jj856306(v=win.10)#consuming-standard-windows-runtime-types).
+Make sure to select the **Windows** check box on this subgroup. You should then be able to use Windows Runtime elements. However, you'll also want to add <xref:System.Runtime>, in which the Windows Runtime defines some standard classes and interfaces, such as <xref:System.Collections.IEnumerable>, that are used throughout the Windows Runtime libraries. For information about how to add <xref:System.Runtime>, see [Managed desktop apps and Windows Runtime](http://msdn.microsoft.com/library/windows/apps/jj856306.aspx#consuming_standard_windows_runtime_types).
 
 ### Extensions subgroup
 

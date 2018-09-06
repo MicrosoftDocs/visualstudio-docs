@@ -37,7 +37,7 @@ If you plan on distributing your application to an international audience, you'l
 
 ## See also
 
-- [Best practices for developing world-ready applications](/dotnet/standard/globalization-localization/best-practices-for-developing-world-ready-apps) provides background information on programming for an international audience.
+- [Best practices for developing world-ready applications](http://msdn.microsoft.com/Library/f08169c7-aad8-4ec3-9a21-9ebd3b89986c) provides background information on programming for an international audience.
 - [Class library overview](/dotnet/standard/class-library-overview) introduces the classes, interfaces, and value types that expedite and optimize the development process and provide access to system functionality.
 - <xref:System.Globalization> points out the classes in this namespace, which define culture-related information, including the language, the country/region, the calendars in use, the format patterns for dates, currency and numbers, and the sort order for strings.
 - <xref:System.Resources> points out the classes and interfaces in this namespace, which allows developers to create, store, and manage various culture-specific resources used in an application.
