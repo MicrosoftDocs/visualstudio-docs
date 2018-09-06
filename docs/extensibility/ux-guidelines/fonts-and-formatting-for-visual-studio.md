@@ -460,5 +460,5 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 -   Bolded environment font text should follow default line height spacing and padding.  
   
 ## See Also  
- [MSDN: Fonts (Windows)](/windows/desktop/uxguide/vis-fonts)   
- [MSDN: User Interface Text (Windows)](/windows/desktop/uxguide/text-ui)
+ [MSDN: Fonts (Windows)](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742483\(v=vs.85\).aspx)   
+ [MSDN: User Interface Text (Windows)](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742478\(v=vs.85\).aspx)
