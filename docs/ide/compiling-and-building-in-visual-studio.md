@@ -50,4 +50,4 @@ From there, you can explore a variety of other tasks:
 
 ## See also
 
-- [Building (compiling) website projects](http://msdn.microsoft.com/Library/a9cbb88c-8fff-4c67-848b-98fbfd823193)
+- [Building (compiling) website projects](https://msdn.microsoft.com/Library/a9cbb88c-8fff-4c67-848b-98fbfd823193)
