@@ -36,9 +36,9 @@ The KeyBinding element specifies keyboard shortcuts for the commands.
 |guid|Required.|  
 |id|Required.|  
 |editor|Required. The editor GUID indicates the editing context for which this keyboard shortcut will be active. The global binding scope value is "guidVSStd97".|  
-|key1|Required. Valid values include all typable alphanumerics, and also two-digit hexadecimal values preceded by 0x and [VK_constants](/windows/desktop/inputdev/virtual-key-codes).|  
+|key1|Required. Valid values include all typable alphanumerics, and also two-digit hexadecimal values preceded by 0x and [VK_constants](https://msdn.microsoft.com/library/windows/desktop/dd375731.aspx).|  
 |mod1|Optional. Any combination of **Ctrl**, **Alt**, and **Shift** separated by space.|  
-|key2|Optional. Valid values include all typable alphanumerics, and also two-digit hexadecimal values preceded by 0x and [VK_constants](/windows/desktop/inputdev/virtual-key-codes).|  
+|key2|Optional. Valid values include all typable alphanumerics, and also two-digit hexadecimal values preceded by 0x and [VK_constants](https://msdn.microsoft.com/library/windows/desktop/dd375731.aspx).|  
 |mod2|Optional. Any combination of **Ctrl**, **Alt**, and **Shift** separated by space.|  
 |emulator|Optional.|  
 |Condition|Optional. See [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
