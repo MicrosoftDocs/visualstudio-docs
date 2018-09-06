@@ -27,7 +27,7 @@ After you make changes to deployment properties in the application manifest for 
  Another scenario where you might re-sign the manifests is when your customers want to sign the application and deployment manifests with their own certificate.  
   
 ## Re-sign the Application and Deployment Manifests  
- This procedure assumes that you have already made changes to your application manifest file (*.manifest*). For more information, see [How to: Change deployment properties](https://msdn.microsoft.com/library/66052a3a-8127-4964-8147-2477ef5d1472).  
+ This procedure assumes that you have already made changes to your application manifest file (*.manifest*). For more information, see [How to: Change deployment properties](http://msdn.microsoft.com/en-us/66052a3a-8127-4964-8147-2477ef5d1472).  
   
 #### To re-sign the application and deployment manifests with Mage.exe  
   

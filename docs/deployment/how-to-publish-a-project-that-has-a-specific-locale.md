@@ -159,6 +159,6 @@ It is not uncommon for an application to contain components that have different 
   
 ## See also  
  [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)   
- [Macros development environment](/previous-versions/visualstudio/visual-studio-2010/fb30sxt3(v=vs.100))   
- [Macro Explorer window](/previous-versions/visualstudio/visual-studio-2010/wwkx67sw(v=vs.100))   
- [How to: Edit and programmatically create macros](/previous-versions/visualstudio/visual-studio-2010/k91y6132(v=vs.100))
+ [Macros development environment](http://msdn.microsoft.com/en-us/d23105d8-34fe-4ad9-8278-fae2c660aeac)   
+ [Macro Explorer window](http://msdn.microsoft.com/en-us/762169e6-f83f-44b4-bffa-d0f107cae9a3)   
+ [How to: Edit and programmatically create macros](http://msdn.microsoft.com/en-us/6716f820-1feb-48ad-a718-27eb6b473c5a)
