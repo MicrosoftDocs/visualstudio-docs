@@ -19,7 +19,7 @@ The following procedure below explains how to clear the undo stack.
   
 ## To clear the undo stack  
   
-1.  To clear the undo stack use the [IOleUndoManager::DiscardFrom](/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-discardfrom) method. The following is an example of this:  
+1.  To clear the undo stack use the [IOleUndoManager::DiscardFrom](http://msdn.microsoft.com/library/windows/desktop/ms693799) method. The following is an example of this:  
   
     ```  
     HRESULT CCmdWindow::ClearUndoStack()  
