@@ -5,7 +5,7 @@ ms.author: jaunger
 manager: evelynp
 ms.date: 10/03/2017
 ms.topic: Get-Started-Article
-description:  Learn how to get the most out of your Visual Studio subscriptions
+description: Learn how to get the most out of your Visual Studio subscriptions
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
 searchscope: VS Subscription
@@ -26,22 +26,22 @@ The steps to use your subscription for the first time depend on how you obtained
 
 If you've purchased a Visual Studio subscription through the Microsoft Store, the activation steps can be initiated from the payment **Confirmation Page** or **Confirmation Email.**
 
-1.	On the “Confirmation Page” or in the “Confirmation Email”, click on **Click here to sign in**. You will be redirected to https://my.visualstudio.com/subscriptions/activate.
-2.	Enter the email address you'll use to sign in to the Subscriber Portal and click **Continue**.
-3.	Depending on the email address, you may be redirected to the Microsoft Account sign-in page, or your company/school's sign-in page.
-4.	Enter your password, or complete sign in requirements.
-5.	Enter the Product Key provided in your confirmation page or welcome email, and click **Activate**.
+1. On the “Confirmation Page” or in the “Confirmation Email”, click on **Click here to sign in**. You will be redirected to https://my.visualstudio.com/subscriptions/activate.
+2. Enter the email address you'll use to sign in to the Subscriber Portal and click **Continue**.
+3. Depending on the email address, you may be redirected to the Microsoft Account sign-in page, or your company/school's sign-in page.
+4. Enter your password, or complete sign in requirements.
+5. Enter the Product Key provided in your confirmation page or welcome email, and click **Activate**.
 
 #### Work/School accounts
 
 If your subscription was provided by your work/school, you will have received a welcome email.
 
-1.	Visit the [Subscriber Portal](https://my.visualstudio.com/)
-2.	Enter the email address that was assigned the new Visual Studio subscription. This address is also identified in the subscriber welcome email. Please check junk mail folders if the welcome email was not received.
-3.	Click **Continue**
-4.	You will be redirected to your corporate sign-in page.
-5.	Enter your password.
-6.	Click **Sign in**.
+1. Visit the [Subscriber Portal](https://my.visualstudio.com/)
+2. Enter the email address that was assigned the new Visual Studio subscription. This address is also identified in the subscriber welcome email. Please check junk mail folders if the welcome email was not received.
+3. Click **Continue**
+4. You will be redirected to your corporate sign-in page.
+5. Enter your password.
+6. Click **Sign in**.
 
 #### Visual Studio Marketplace
 
@@ -51,12 +51,12 @@ If you purchased a monthly or annual cloud subscription from the Visual Studio M
 
 If your organization has an Azure Active Directory, but you don't have an Azure Active Directory account you may need to leverage the **personal** options provided during the sign in process.
 
-1.	Please go to the [Subscriber Portal](https://my.visualstudio.com)
-2.	Enter the email address that was assigned the new Visual Studio subscription. This address is also identified in the subscriber **Welcome Letter**. (Check your junk mail folders if you didn't receive the welcome email.)
-3.	Click **Continue**
-4.	You will be redirected to a **Decision Page**.  Select **Work or school account** if your subscription is assigned to a **Work or school** account associated with an Azure Active Directory (AAD) tenant. Select **Personal** if the subscription is associated with a **corporate** email address, but has also been converted to a **personal** Microsoft Account (MSA)
-5.	Enter your password
-6.	Click **Sign in**
+1. Please go to the [Subscriber Portal](https://my.visualstudio.com)
+2. Enter the email address that was assigned the new Visual Studio subscription. This address is also identified in the subscriber **Welcome Letter**. (Check your junk mail folders if you didn't receive the welcome email.)
+3. Click **Continue**
+4. You will be redirected to a **Decision Page**.  Select **Work or school account** if your subscription is assigned to a **Work or school** account associated with an Azure Active Directory (AAD) tenant. Select **Personal** if the subscription is associated with a **corporate** email address, but has also been converted to a **personal** Microsoft Account (MSA)
+5. Enter your password
+6. Click **Sign in**
 
 ## Managing multiple subscriptions
 
@@ -106,16 +106,16 @@ Retail subscriptions can be transferred to another user by contacting Customer S
 
 ## Managing my profile
 
-The subscriptions portal lets you create and manage a profile to make subscriptions management easy. You can make changes to your identity information, and you can associate your subscriptions with other sign-in identities from existing Azure accounts or Azure DevOps Services organizations using alternate identities.
+The subscriptions portal lets you create and manage a profile, making subscriptions management easy. You can make changes to your identity information, and you can associate your subscriptions with other sign-in identities from existing Azure accounts or Azure DevOps organizations using alternate identities.
 
 ### Changing profile information
 
 You can easily change the contact information and preferences in your profile.
 
-1.	Click on your name in the upper right corner of the Subscriber Portal.
-2.	Click the **Edit profile** button.
-3.	On the **About** tab, you can change your name, email, country/region, profile picture and contact preferences. On the **Preferences** tab, you can select your preferred language, date and time patterns, time zone, and user interface theme.
-4.	When you’ve finalized your changes, click **Save**.
+1. Click on your name in the upper right corner of the Subscriber Portal.
+2. Click the **Edit profile** button.
+3. On the **About** tab, you can change your name, email, country/region, profile picture and contact preferences. On the **Preferences** tab, you can select your preferred language, date and time patterns, time zone, and user interface theme.
+4. When you’ve finalized your changes, click **Save**.
 5. Click your browser's **back** button to return to the Benefits page.
 
     > [!div class="mx-imgBorder"]
