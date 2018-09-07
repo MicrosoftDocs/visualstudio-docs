@@ -15,7 +15,7 @@ ms.workload:
 You can add elements—controls, layouts, and shapes—to your app in XAML, in code, or by using XAML Designer. This topic describes how to work with elements in XAML Designer in Visual Studio or Blend for Visual Studio.
 
 ## Adding an element to a layout
- *Layout* is the process of sizing and positioning elements in a UI. To position visual elements, you must put them in a layout [Panel](/uwp/api/Windows.UI.Xaml.Controls.Panel). A  `Panel` has a child property which is a collection of [FrameworkElement](/uwp/api/Windows.UI.Xaml.FrameworkElement) types. You can use various  `Panel` child elements, such as [Canvas](/uwp/api/Windows.UI.Xaml.Controls.Canvas), [StackPanel](/uwp/api/Windows.UI.Xaml.Controls.StackPanel), and [Grid]/uwp/api/Windows.UI.Xaml.Controls.Grid), to serve as layout containers and to position and arrange the elements on a page.
+ *Layout* is the process of sizing and positioning elements in a UI. To position visual elements, you must put them in a layout [Panel](/uwp/api/Windows.UI.Xaml.Controls.Panel). A  `Panel` has a child property which is a collection of [FrameworkElement](/uwp/api/Windows.UI.Xaml.FrameworkElement) types. You can use various  `Panel` child elements, such as [Canvas](/uwp/api/Windows.UI.Xaml.Controls.Canvas), [StackPanel](/uwp/api/Windows.UI.Xaml.Controls.StackPanel), and [Grid](/uwp/api/Windows.UI.Xaml.Controls.Grid), to serve as layout containers and to position and arrange the elements on a page.
 
  By default, a `Grid` panel is used as the top-level layout container within a page or form. You can add layout panels, controls, or other elements within the top-level page layout.
 
