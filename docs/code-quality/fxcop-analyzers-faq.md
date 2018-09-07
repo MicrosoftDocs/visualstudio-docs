@@ -20,10 +20,10 @@ It can be a little confusing to understand the differences between legacy FxCop 
 
 Legacy FxCop runs post-build analysis on a compiled assembly. It runs as a separate executable called **FxCopCmd.exe**. FxCopCmd.exe loads the compiled assembly, runs code analysis, and then reports the results (or *diagnostics*).
 
-FxCop analyzers are based on the .NET Compiler Platform ("Roslyn"). You [install them as a NuGet package](install-fxcop-analyzers?view=vs-2017#to-install-fxcop-analyzers-as-a-nuget-package) that's referenced by the project or solution. FxCop analyzers run source-code based analysis during compiler execution. FxCop analyzers are hosted within the compiler process, either **csc.exe** or **vbc.exe**, and run analysis when the project is built. Analyzer results are reported along with compiler results.
+FxCop analyzers are based on the .NET Compiler Platform ("Roslyn"). You [install them as a NuGet package](install-fxcop-analyzers.md?view=vs-2017#to-install-fxcop-analyzers-as-a-nuget-package) that's referenced by the project or solution. FxCop analyzers run source-code based analysis during compiler execution. FxCop analyzers are hosted within the compiler process, either **csc.exe** or **vbc.exe**, and run analysis when the project is built. Analyzer results are reported along with compiler results.
 
 > [!NOTE]
-> You can also [install FxCop analyzers as a Visual Studio extension](install-fxcop-analyzers?view=vs-2017#to-install-fxcop-analyzers-as-a-vsix). In this case, the analyzers execute as you type in the code editor, but they don't execute at build time. If you want to run FxCop analyzers as part of continuous integration (CI), install them as a NuGet package instead.
+> You can also [install FxCop analyzers as a Visual Studio extension](install-fxcop-analyzers.md?view=vs-2017#to-install-fxcop-analyzers-as-a-vsix). In this case, the analyzers execute as you type in the code editor, but they don't execute at build time. If you want to run FxCop analyzers as part of continuous integration (CI), install them as a NuGet package instead.
 
 ## Does the Run Code Analysis command run FxCop analyzers?
 
