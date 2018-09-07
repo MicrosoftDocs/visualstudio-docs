@@ -51,7 +51,7 @@ On a UML class diagram, you can add *operations* to classes and interfaces. An o
 |Property|Default|Description|  
 |--------------|-------------|-----------------|  
 |**Name**|(a new name)|Should be unique within the containing type.|  
-|**Parameters**|(none)|A list that has the form *name***:***Type***,** *name***:***Type***, ….** Click **[…]** to edit the list.<br /><br /> The types can be primitive types, or types that are defined in the model. If you enter a name for a new type in this property, a type will be added to the **Unspecified Types** section of UML Model Explorer.|  
+|**Parameters**|(none)|A list that has the form _name_**:**_Type_**,** _name_**:**_Type_**, ….** Click **[…]** to edit the list.<br /><br /> The types can be primitive types, or types that are defined in the model. If you enter a name for a new type in this property, a type will be added to the **Unspecified Types** section of UML Model Explorer.|  
 |**Return Type**|(none)|**(none)**, or a primitive type, or a type that is defined in the model. If you enter a name for a new type in this property, a type will be added to the **Unspecified Types** section of UML Model Explorer.|  
 |**Postconditions**|(none)|An optional condition specifying a relationship between the state of the system before and after the operation's execution.|  
 |**Preconditions**|(none)|An optional condition specifying the assumptions about the state of the system before the operation begins execution.|  

@@ -103,7 +103,7 @@ If you are using Visual Studio Enterprise (only), you can view code maps for the
 
 ## Change the optional information displayed  
   
--   Right-click the **Call Stack** window and set or clear **Show \<***the information that you want***>**.  
+-   Right-click the **Call Stack** window and set or clear **Show \<**_the information that you want_**>**.  
   
 ## <a name="bkmk_symbols"></a> Load Symbols for a module
 In the **Call Stack** window, you can load debugging symbols for code that does not currently have symbols loaded. These symbols can be .NET Framework or system symbols downloaded from the Microsoft public symbol servers or symbols in a symbol path on the computer that you are debugging.  

@@ -46,7 +46,7 @@ ms.workload:
   
      ![The Options button in Outlook 2013 Preview](../vsto/media/vsto-office2013-optionsbutton.png "The Options button in Outlook 2013 Preview")  
   
-3.  In the *ApplicationName***Options** dialog box, choose the **Customize Ribbon** button.  
+3.  In the _ApplicationName_**Options** dialog box, choose the **Customize Ribbon** button.  
   
      The following figure shows the **Options** dialog box and the **Customize Ribbon** button in Excel 2010. The location of this button is similar in all other applications listed in the "Applies to" section near the top of this topic.  
   
