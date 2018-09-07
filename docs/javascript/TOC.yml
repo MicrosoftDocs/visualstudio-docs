@@ -27,5 +27,7 @@
     href: /visualstudio/ide/javascript-intellisense?toc=/visualstudio/javascript/toc.json
 - name: Resources
   items:
+  - name: package.json configuration
+    href: configure-packages-with-package-json.md
   - name: Wiki page for Node.js tools
     href: https://github.com/Microsoft/nodejstools
