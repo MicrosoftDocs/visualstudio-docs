@@ -48,7 +48,7 @@ The XAML Designer in Visual Studio provides a visual interface to help you desig
  Resize handles appear on selected controls and enable you to resize the control. When you resize a control, width and height values typically appear to help you size the control. For more information about manipulating controls in **Design** view, see [Working with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md).
 
  **Margins**
- Margins represent the amount of fixed space between the edge of a control and the edge of its container. You can set the margins of a control by using the [Margin](/uwp/api/Windows.UI.Xaml.FrameworkElement#Windows_UI_Xaml_FrameworkElement_Margin) properties under **Layout** in the Properties window.
+ Margins represent the amount of fixed space between the edge of a control and the edge of its container. You can set the margins of a control by using the [Margin](/uwp/api/windows.ui.xaml.frameworkelement.margin) properties under **Layout** in the Properties window.
 
  **Margin adorners**
  You can use margin adorners to change the margins of an element relative to its layout container. When a margin adorner is open, a margin is not set and the margin adorner displays a broken chain. When the margin is not set, elements remain in place when the layout container is resized at run time. When a margin adorner is closed, a margin adorner displays an unbroken chain, and elements move with the margin as the layout container is resized at run time (the margin remains fixed).
