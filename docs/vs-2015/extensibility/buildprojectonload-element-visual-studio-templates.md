@@ -65,7 +65,7 @@ Builds only new projects as you create and add them to a solution. The entire so
         <Description>A basic template</Description>  
         <Icon>TemplateIcon.ico</Icon>  
         <ProjectType>CSharp</ProjectType>  
-        <BuildProjectOnload>true</BuildProjectOnLoad>  
+        <BuildProjectOnLoad>true</BuildProjectOnLoad>  
     </TemplateData>  
     <TemplateContent>  
         <Project File="MyTemplate.csproj">  
