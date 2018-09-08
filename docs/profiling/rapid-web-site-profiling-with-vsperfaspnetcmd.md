@@ -76,7 +76,7 @@ To collect tier interaction data with instrumentation data:
 
 To collect tier interaction data with .NET memory data:
 
-**vsperfaspnetcmd /memory**[**:lifetime**] **/tip***websiteUrl*
+**vsperfaspnetcmd /memory**[**:lifetime**] **/tip**_websiteUrl_
 
 ## Use the /NoWait option
 
@@ -84,7 +84,7 @@ By default, the command prompt does not return after a **vsperfaspnetcmd** comma
 
 To begin profiling:
 
-**vsperfaspnetcmd** [*/Options*] **/nowait***websiteUrl*
+**vsperfaspnetcmd** [*/Options*] **/nowait**_websiteUrl_
 
 To end profiling:
 

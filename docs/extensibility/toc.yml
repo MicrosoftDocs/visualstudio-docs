@@ -429,7 +429,7 @@
     href: walkthrough-publishing-a-visual-studio-extension.md
   - name: "Walkthrough: Publishing a Visual Studio Extension via command line"
     href: walkthrough-publishing-a-visual-studio-extension-via-command-line.md
-    name: "Walkthrough: Create an Extension Pack"
+  - name: "Walkthrough: Create an Extension Pack"
     href: walkthough-create-extension-pack.md
   - name: Add a Dependency to a VSIX Package
     href: how-to-add-a-dependency-to-a-vsix-package.md

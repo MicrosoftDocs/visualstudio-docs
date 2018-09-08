@@ -66,7 +66,7 @@ ms.workload:
   
 ### To download assemblies instead of loading cached copies  
   
-1.  On the menu bar, choose **Project**, *ProjectName***Properties**.  
+1.  On the menu bar, choose **Project**, _ProjectName_**Properties**.  
   
 2.  On the **Application** page, choose **Assembly Information**.  
   

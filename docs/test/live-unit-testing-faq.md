@@ -14,15 +14,13 @@ ms.workload:
 ---
 # Live Unit Testing frequently asked questions
 
-## Live Unit Testing is improved and enhanced regularly. How can I find information about the latest new features and enhancements?
-
-**Answer:**
+## Latest features
+**Live Unit Testing is improved and enhanced regularly. How can I find information about the latest new features and enhancements?**
 
 To learn about the new features and enhancements that have been made to Live Unit Testing starting with Visual Studio 2017 version 15.3, see [What's New in Live Unit Testing](live-unit-testing-whats-new.md).
 
-## What test frameworks does Live Unit Testing support and what are the minimum supported versions?
-
-**Answer:**
+## Supported frameworks and versions
+**What test frameworks does Live Unit Testing support and what are the minimum supported versions?**
 
 Live Unit Testing works with the three popular unit testing frameworks listed in the table that follows. The minimum supported version of their adapters and frameworks is also listed in the table. The unit testing frameworks are all available from NuGet.org.
 
@@ -53,15 +51,13 @@ If you have older MSTest based test projects that reference `Microsoft.VisualStu
 
 In some cases, you may need to explicitly restore the NuGet packages referenced by the projects in the solution in order for Live Unit Testing to work. You can restore the packages either by doing an explicit build of the solution (select **Build**, **Rebuild Solution** from the top-level Visual Studio menu), or by right-clicking on the solution and selecting **Restore NuGet Packages** before enabling Living Unit Testing.
 
-## Does Live Unit Testing work with .NET Core?
-
-**Answer:**
+## .NET Core support
+**Does Live Unit Testing work with .NET Core?**
 
 Yes. Live Unit Testing works with .NET Core and the .NET Framework. Support for .NET Core was added recently in Visual Studio 2017 version 15.3. Upgrade to this version of Visual Studio if you want Live Unit Testing support for .NET Core.
 
-## Why doesn't Live Unit Testing work when I turn it on?
-
-**Answer:**
+## Configuration
+**Why doesn't Live Unit Testing work when I turn it on?**
 
 The **Output Window** (when the Live Unit Testing drop-down is selected) should tell you why Live Unit Testing is not working. Live Unit Testing may not work for one of the following reasons:
 
@@ -79,9 +75,8 @@ The **Output Window** (when the Live Unit Testing drop-down is selected) should 
 </RunSettings>
 ```
 
-## Why does Live Unit Testing show incorrect coverage after you upgrade the test adapter referenced in your Visual Studio Projects to the supported version?
-
-**Answer:**
+## Incorrect coverage after upgrade
+**Why does Live Unit Testing show incorrect coverage after you upgrade the test adapter referenced in your Visual Studio Projects to the supported version?**
 
 - If multiple projects in the solution reference the NuGet test adapter package, each of them must be upgraded to the supported version.
 
@@ -91,9 +86,8 @@ The **Output Window** (when the Live Unit Testing drop-down is selected) should 
     <Import Project="..\packages\xunit.runner.visualstudio.2.2.0\build\net20\xunit.runner.visualstudio.props" Condition="Exists('..\packages\xunit.runner.visualstudio.2.2.0\build\net20\xunit.runner.visualstudio.props')" />
    ```
 
-## Can I customize my Live Unit Testing builds?
-
-**Answer:**
+## Customize builds
+**Can I customize my Live Unit Testing builds?**
 
 If your solution requires custom steps to build for instrumentation (Live Unit Testing) that are not required for the "regular" non-instrumented build, then you can add code to your project or *.targets* files that checks for the `BuildingForLiveUnitTesting` property and performs custom pre/post build steps. You can also choose to remove certain build steps (like publishing or generating packages) or to add build steps (like copying prerequisites) to a Live Unit Testing build based on this project property. Customizing your build based on this property does not alter your regular build in any way, and only impacts Live Unit Testing builds.
 
@@ -106,10 +100,7 @@ For example, there may be a target that produces NuGet packages during a regular
 ```
 
 ## Error messages with &lt;OutputPath&gt; or &lt;OutDir&gt;
-
 **Why do I get the following error when Live Unit Testing tries to build my solution: "...appears to unconditionally set `<OutputPath>` or `<OutDir>`. Live Unit Testing will not execute tests from the output assembly"?**
-
-**Answer:**
 
 You can get this error if the build process for your solution unconditionally overrides `<OutputPath>` or `<OutDir>` so that it is not a subdirectory of `<BaseOutputPath>`. In such cases, Live Unit Testing will not work because it also overrides these values to ensure that build artifacts are dropped to a folder under `<BaseOutputPath>`. If you must override the location where you want your build artifacts to be dropped in a regular build, override the `<OutputPath>` conditionally based on `<BaseOutputPath>`.
 
@@ -138,17 +129,13 @@ This ensures that `<OutputPath>` lies within the `<BaseOutputPath>` folder.
 
 Do not override `<OutDir>` directly in your build process; override `<OutputPath>` instead to drop build artifacts to a specific location.
 
-## Set the location of Live Unit Testing build artifacts
-
+## Set the location of build artifacts
 **I want the artifacts of a Live Unit Testing build to go to a specific location instead of the default location under the *.vs* folder. How can I change that?**
-
-**Answer:**
 
 Set the `LiveUnitTesting_BuildRoot` user-level environment variable to the path where you want the Live Unit Testing build artifacts to be dropped. 
 
-## How is running tests from Test Explorer window different from running tests in Live Unit Testing?
-
-**Answer:**
+## Test Explorer vs. Live Unit Testing test runs 
+**How is running tests from Test Explorer window different from running tests in Live Unit Testing?**
 
 There are several differences:
 
@@ -162,9 +149,8 @@ There are several differences:
 
 - **Test Explorer** currently runs tests in a single-threaded apartment (STA) by default, whereas Live Unit Testing runs tests in a multithreaded apartment (MTA). To run MSTest tests in STA in Live Unit Testing, decorate the test method or the containing class with the `<STATestMethod>` or `<STATestClass>` attribute that can be found in the `MSTest.STAExtensions 1.0.3-beta` NuGet package. For NUnit, decorate the test method with the `<RequiresThread(ApartmentState.STA)>` attribute, and for xUnit, with the `<STAFact>` attribute.
 
-## How do I exclude tests from participating in Live Unit Testing?
-
-**Answer:**
+## Exclude tests
+**How do I exclude tests from participating in Live Unit Testing?**
 
 See the "Include and exclude test projects and test methods" section of the [Use Live Unit Testing in Visual Studio 2017 Enterprise Edition](live-unit-testing.md#include-and-exclude-test-projects-and-test-methods) article for the user-specific setting. Including or excluding tests is useful when you want to run a specific set of tests for a particular edit session or to persist your own personal preferences.
  
@@ -191,9 +177,8 @@ public class Class1
 }
 ```
 
-## Why are Win32 PE headers different in instrumented assemblies built by Live Unit testing?
-
-**Answer:**
+## Win32 PE headers
+**Why are Win32 PE headers different in instrumented assemblies built by Live Unit testing?**
 
 This issue is fixed and does not exist in Visual Studio 2017 version 15.3. Upgrade to this version of Visual Studio.
 
@@ -207,48 +192,40 @@ For older versions of Visual Studio 2017, there is a known bug that may result i
 
 Tests that rely on these values may fail when executed by Live Unit testing.
 
-## Why does Live Unit testing keep building my solution all the time even if I am not making any edits?
-
-**Answer:**
+## Continuous builds
+**Why does Live Unit testing keep building my solution all the time even if I am not making any edits?**
 
 Your solution can build even if you're not making edits if the build process of your solution generates source code that is part of the solution itself, and your build target files do not have appropriate inputs and outputs specified. Targets should be given a list of inputs and outputs so that MSBuild can perform the appropriate up-to-date checks and determine whether a new build is required.
 
 Live Unit Testing starts a build whenever it detects that source files have changed. Because the build of your solution generates source files, Live Unit Testing will get into an infinite build loop. If, however, the inputs and outputs of the target are checked when Live Unit Testing starts the second build (after detecting the newly generated source files from the previous build), it will break out of the build loop because the inputs and outputs checks will indicate that everything is up-to-date.  
 
-## How does Live Unit testing work with the lightweight solution load feature?
-
-**Answer:**
+## Lightweight solution load
+**How does Live Unit testing work with the lightweight solution load feature?**
 
 Live Unit Testing currently doesn't work well with the lightweight solution load feature. It works only after at least one of the test projects is loaded. Until then, it won't work because Live Unit Testing is dependent on at least one of the test projects referencing a test adapter (MSTest, xUnit, or NUnit) being loaded.
 
 > [!NOTE]
 > Lightweight solution load is no longer available in Visual Studio 2017 version 15.5 and later. In Visual Studio 2017 version 15.5 and later, large solutions that contain managed code load much faster than previously, even without lightweight solution load.
 
-## Why doesn't Live Unit Testing capture coverage from a new process created by a test?
-
-**Answer:**
+## New process coverage
+**Why doesn't Live Unit Testing capture coverage from a new process created by a test?**
 
 This is a known issue and should be fixed in a subsequent update of Visual Studio 2017.
 
-## Why does nothing happen after I include or exclude tests from the Live Test set?
-
-**Answer:**
+## Including or Excluding tests not working
+**Why does nothing happen after I include or exclude tests from the Live Test set?**
 
 This issue is fixed and does not exist in Visual Studio 2017 version 15.3. Upgrade to this version of Visual Studio.
 
 For older versions of Visual Studio 2017, this is a known issue. To work around this issue, you will need to make an edit to any file after you have included or excluded tests. 
 
-## Live Unit Testing and editor icons
-
+## Editor icons
 **Why do I not see any icons in the editor even though Live Unit Testing seems to be running the tests based on the messages in the Output window?**
-
-**Answer:**
 
 You might not see icons in the editor if the assemblies that Live Unit Testing is operating on aren't instrumented for any reason. For example, Live Unit Testing is not compatible with projects that set `<UseHostCompilerIfAvailable>false</UseHostCompilerIfAvailable>`. In this case, your build process needs to be updated to either remove this setting or to change it to `true` for Live Unit Testing to work. 
 
-## How do I collect more detailed logs to file bug reports?
-
-**Answer:**
+## Capture logs
+**How do I collect more detailed logs to file bug reports?**
 
 You can do several things to collect more detailed logs:
 
