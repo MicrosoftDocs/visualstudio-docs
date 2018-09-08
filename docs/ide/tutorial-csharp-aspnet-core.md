@@ -33,7 +33,7 @@ First, you'll create a ASP.NET Core project. The project type comes with all the
 
 3. In the **New Project** dialog box in the left pane, expand **Visual C#**, expand **Web**, and then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application**. Then, name the file *MyCoreApp* and choose **OK**.
 
-   ![ASP.NET Core Web Application project template in the New Project dialog box in the Visual Studio IDE](../ide/media/csharp-aspnet-choose-template-name-mycoreapp-mvc.png)
+   ![ASP.NET Core Web Application project template in the New Project dialog box in the Visual Studio IDE](../ide/media/csharp-aspnet-choose-template-name-razor-mycoreapp-file.png)
 
 ### Add a workload (optional)
 
@@ -43,7 +43,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 1. Select the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
 
-   ![Select the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vs-open-visual-studio-installer-generic.png)
+   ![Select the Open Visual Studio Installer link from the New Project dialog box](../ide/media/open-visual-studio-installer-mycoreapp.png)
 
 1. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, and then choose **Modify**.
 
@@ -69,21 +69,15 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 ### About your solution
 
-This solution follows the Model-View-Controller (MVC) architectural pattern that separates an app into three main components:
-
-* **Models** include classes that represent the data of the app. The model classes use validation logic to enforce business rules for that data. Typically, model objects retrieve and store model state in a database.
-* **Views** are the components that display the app's user interface (UI). Generally, this UI displays the model data.
-* **Controllers** include classes that handle browser requests. They retrieve model data and call view templates that return a response. In an MVC app, the view displays only the information; the controller handles and responds to user input and interaction.
-
-The MVC pattern helps you create apps that are easier to test and update than traditional monolithic apps.
+This solution follows the Razor Page design pattern. It is different than the [Model-View-Controller (MVC)](/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-2.1&tabs=aspnetcore2x) design pattern in that its streamlined to include the model and controller code within the Razor Page itself.
 
 ## Tour your solution
 
- 1. The project template creates a solution with a single ASP.NET Core project that is named **MyCoreApp**. Expand the project node to expose its contents.
+ 1. The project template creates a solution with a single ASP.NET Core project that is named _MyCoreApp_. Choose the **Solution Explorer** tab to view its contents.
 
-    ![ASP.NET Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-mycoreapp-mvc.png)
+    ![ASP.NET Solution Explorer in Visual Studio for Razor Pages solution that is named MyCoreApp](../ide/media/csharp-aspnet-razor-solution-explorer-mycoreapp.png)
 
- 1. Open the *HomeController.cs* file from the **Controllers** folder.
+ 1. Expand the **Pages** folder, and then choose the .
 
      ![HomeController.cs file in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-home-controller.png)
 
@@ -98,9 +92,6 @@ The MVC pattern helps you create apps that are easier to test and update than tr
     This CSHTML file uses the Razor syntax to render HTML based on a combination of standard tags and inline C#.
 
      ![About.cshtml in the Visual Studio code window](../ide/media/csharp-aspnet-about-cshtml-code.png)
-
-    >[!NOTE]
-    > To learn more about Razor, see the [Get started with C# and ASP.NET using the Razor syntax](/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c) page.
 
  1. The project also contains a **wwwroot** folder that is the root for your website. Expand the folder to view its contents.
 
@@ -183,9 +174,6 @@ Visual Studio is an integrated development suite of productivity tools for devel
 
 Congratulations on completing this tutorial! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE. To learn more about creating a web app or website with C# and ASP.NET, continue with the following tutorials:
 
-> [!div class="nextstepaction"]
-> [Create an MVC web app with ASP.NET Core](/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-2.1&tabs=aspnetcore2x)
->
 > [!div class="nextstepaction"]
 > [Create a Razor Pages web app with ASP.NET Core](/aspnet/core/tutorials/razor-pages/?view=aspnetcore-2.1)
 
