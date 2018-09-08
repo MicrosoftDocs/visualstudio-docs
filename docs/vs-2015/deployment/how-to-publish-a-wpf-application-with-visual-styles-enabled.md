@@ -48,7 +48,7 @@ Visual styles enable the appearance of common controls to change based on the th
   
     ###### To open the manifest file in a Visual Basic project  
   
-    1.  On the menu bar, choose **Project**, *ProjectName***Properties**, where *ProjectName* is the name of your WPF project.  
+    1.  On the menu bar, choose **Project**, _ProjectName_**Properties**, where *ProjectName* is the name of your WPF project.  
   
          The property pages for your WPF project appear.  
   
@@ -58,7 +58,7 @@ Visual styles enable the appearance of common controls to change based on the th
   
     ###### To open the manifest file in a C# project  
   
-    1.  On the menu bar, choose **Project**, *ProjectName***Properties**, where *ProjectName* is the name of your WPF project.  
+    1.  On the menu bar, choose **Project**, _ProjectName_**Properties**, where *ProjectName* is the name of your WPF project.  
   
          The property pages for your WPF project appear.  
   

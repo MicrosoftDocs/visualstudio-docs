@@ -755,7 +755,7 @@ Wraps the Visual C++ compiler tool, cl.exe. The compiler produces executable (.e
   
     -   **EnableAllWarnings** - **/Wall**  
   
-     For more information, see the **/W***n* option in [/w, /W0, /W1, /W2, /W3, /W4, /w1, /w2, /w3, /w4, /Wall, /wd, /we, /wo, /Wv, /WX (Warning Level)](http://msdn.microsoft.com/library/d6bc7bf5-c754-4879-909c-8e3a67e2629f).  
+     For more information, see the **/W**_n_ option in [/w, /W0, /W1, /W2, /W3, /W4, /w1, /w2, /w3, /w4, /Wall, /wd, /we, /wo, /Wv, /WX (Warning Level)](http://msdn.microsoft.com/library/d6bc7bf5-c754-4879-909c-8e3a67e2629f).  
   
 -   **WholeProgramOptimization**  
   

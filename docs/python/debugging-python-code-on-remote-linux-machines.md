@@ -1,7 +1,7 @@
 ---
 title: Debugging Python code on remote Linux computers
 description: How to use Visual Studio to debug Python code running on remote Linux computers, including necessary configuration steps, security, and troubleshooting.
-ms.date: 06/26/2018
+ms.date: 09/03/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -121,6 +121,9 @@ In these steps, we set a simple breakpoint to stop the remote process.
 
     | Visual Studio version | Python tools/ptvsd version |
     | --- | --- |
+    | 2017 15.8 | 4.1.1a9 (legacy debugger: 3.2.1.0) |
+    | 2017 15.7 | 4.1.1a1 (legacy debugger: 3.2.1.0) |
+    | 2017 15.4, 15.5, 15.6 | 3.2.1.0 |
     | 2017 15.3 | 3.2.0 |
     | 2017 15.2 | 3.1.0 |
     | 2017 15.0, 15.1 | 3.0.0 |

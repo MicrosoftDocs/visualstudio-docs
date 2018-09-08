@@ -30,7 +30,7 @@ The latest version of this topic can be found at [How to: Use the WPF Tree Visua
   
 You can use the WPF Tree visualizer to explore the visual tree of a WPF object, and to view the WPF dependency properties for the objects that are contained in that tree. For more information about visual trees, see [Trees in WPF](http://msdn.microsoft.com/library/e83f25e5-d66b-4fc7-92d2-50130c9a6649). For more information about dependency properties, see [Dependency Properties Overview](http://msdn.microsoft.com/library/d119d00c-3afb-48d6-87a0-c4da4f83dee5).  
   
- When you open the WPF Tree visualizer, you will see two panes: the **Visual Tree** on the left and the **Properties of** *Name***:***Type* pane on the right. Select any object in the **Visual Tree** pane, and the **Properties of** *Name***:***Type* pane is automatically updated to show the properties for that object.  
+ When you open the WPF Tree visualizer, you will see two panes: the **Visual Tree** on the left and the **Properties of** _Name_**:**_Type_ pane on the right. Select any object in the **Visual Tree** pane, and the **Properties of** _Name_**:**_Type_ pane is automatically updated to show the properties for that object.  
   
 ### To open the WPF Tree visualizer  
   
@@ -54,7 +54,7 @@ You can use the WPF Tree visualizer to explore the visual tree of a WPF object, 
   
 ### To search the properties list  
   
--   In the **Properties of** *Name***:***Type* pane, type the string your want to search for in the **Filter** box.  
+-   In the **Properties of** _Name_**:**_Type_ pane, type the string your want to search for in the **Filter** box.  
   
      The WPF Tree visualizer immediately finds the properties that match the string you have typed; now, the list displays only those properties matching the string you have typed. Type more characters to find a more-accurate match.  
   
