@@ -29,7 +29,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
 
 - Record specific events
 
-     Examine related code, data that appears in the **Locals** window during debugger events, and function call information
+   Examine related code, data that appears in the **Locals** window during debugger events, and function call information
 
 - Debug errors that are hard to reproduce or that happen in deployment
 
@@ -123,9 +123,7 @@ By default, IntelliTrace records only IntelliTrace events: debugger events, exce
 
 - **.NET Framework events**
 
-     By default, IntelliTrace records the most common .NET Framework events. For example:
-
-    - For a Check Checkbox event, IntelliTrace collects the checkbox state and text.
+   By default, IntelliTrace records the most common .NET Framework events. For example, ror a Check Checkbox event, IntelliTrace collects the checkbox state and text.
 
 - **SharePoint 2010 and SharePoint 2013 application events**
 
@@ -174,7 +172,9 @@ Collecting call information might slow down your application significantly. It m
 ## In this section
 
 [IntelliTrace Features](../debugger/intellitrace-features.md)
+
 [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md)
+
 [Use saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)
 
 ### Blogs

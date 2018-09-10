@@ -12,6 +12,7 @@ ms.workload:
   - "multiple"
 ---
 # Diagnose problems after deployment
+
 To diagnose issues in your ASP.NET web app after deployment by using IntelliTrace, include build information with your release to let Visual Studio automatically find the correct source files and symbol files that are required to debug the IntelliTrace log.
 
  If you are using Microsoft Monitoring Agent to control IntelliTrace, you also need to set up set up application performance monitoring on your web server. This records diagnostic events while your app runs and saves the events to an IntelliTrace log file. You can then look at the events in Visual Studio Enterprise (but not Professional or Community editions), go to the code where an event happened, look at the recorded values at that point in time, and move forwards or backwards through the code that ran. After you find and fix the problem, repeat the cycle to build, release, and monitor your release so you can resolve future potential problems earlier and faster.
@@ -228,7 +229,11 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
      ![Go to application code from performance event](../debugger/media/ffr_itsummarypageperformancegotocode.png "FFR_ITSummaryPagePerformanceGoToCode")
 
-     Now you can review other recorded values, the call stack, step through your code, or use the **IntelliTrace** window to [move backwards or forwards "in time" between other methods](../debugger/intellitrace.md) that were called during this performance event. [What's all these other events and information in the IntelliTrace log?](../debugger/using-saved-intellitrace-data.md)[What else can I do from here?](#WhatElse)[Want more information about performance events?](https://blogs.msdn.microsoft.com/devops/2013/09/20/performance-details-in-intellitrace/)
+     Now you can review other recorded values, the call stack, step through your code, or use the **IntelliTrace** window to [move backwards or forwards "in time" between other methods](../debugger/intellitrace.md) that were called during this performance event.
+
+    - [What's all these other events and information in the IntelliTrace log?](../debugger/using-saved-intellitrace-data.md)
+    - [What else can I do from here?](#WhatElse)
+    - [Want more information about performance events?](https://blogs.msdn.microsoft.com/devops/2013/09/20/performance-details-in-intellitrace/)
 
 ### Diagnose an exception
 
@@ -242,7 +247,9 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
      ![Go to application code from an exception event](../debugger/media/ffr_itsummarypageexceptiongotocode.png "FFR_ITSummaryPageExceptionGoToCode")
 
-     Now you can review other recorded values, the call stack, or use the **IntelliTrace** window to [move backwards or forwards "in time" between other recorded events](../debugger/intellitrace.md), related code, and the values recorded at those points in time. [What's all these other events and information in the IntelliTrace log?](../debugger/using-saved-intellitrace-data.md)
+     Now you can review other recorded values, the call stack, or use the **IntelliTrace** window to [move backwards or forwards "in time" between other recorded events](../debugger/intellitrace.md), related code, and the values recorded at those points in time.
+
+     [What's all these other events and information in the IntelliTrace log?](../debugger/using-saved-intellitrace-data.md)
 
 ###  <a name="WhatElse"></a> What else can I do from here?
 
