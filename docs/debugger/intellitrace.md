@@ -4,9 +4,9 @@ ms.custom: ""
 ms.date: "07/18/2017"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.historicaldebug.overview"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugger, recording execution history"
   - "debugging, recording execution history"
   - "IntelliTrace [Visual Studio ALM]"
@@ -20,7 +20,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # IntelliTrace
@@ -40,7 +40,7 @@ You can use IntelliTrace in Visual Studio Enterprise edition (but not the Profes
 |||
 |-|-|
 |**Debug my application with IntelliTrace:**<br /><br /> - Show me past events.<br />- Show me call information with past events.<br />- Save my IntelliTrace session.<br />- Control the data that IntelliTrace collects.|- [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />- [IntelliTrace Features](../debugger/intellitrace-features.md)<br />- [Historical Debugging](../debugger/historical-debugging.md)<br />- [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md)|
-|**Collect IntelliTrace data during a test session in Test Manager**|- [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests)|
+|**Collect IntelliTrace data during a test session in Test Manager**|- [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)|
 |**Collect IntelliTrace data from deployed applications**|- [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)|
 |**Start debugging from an IntelliTrace log file (.iTrace file).**|- [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)|
 
@@ -83,7 +83,7 @@ You can save IntelliTrace data from these sources:
 
 - Your application crashes on a test computer but runs successfully on a development computer.
 
-     You can collect IntelliTrace data from Microsoft Test Manager, save the data to an .iTrace file, and attach this file to a Team Foundation Server work item for later investigation. See [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests) and [Use saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md).
+     You can collect IntelliTrace data from Microsoft Test Manager, save the data to an .iTrace file, and attach this file to a Team Foundation Server work item for later investigation. See [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts) and [Use saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md).
 
 - A bug or crash happens in a deployed application.
 
@@ -169,7 +169,7 @@ To control how much call information that IntelliTrace collects, specify only th
 
 By default, IntelliTrace collects data for selected IntelliTrace events only. This might or might not slow down your application, depending on the structure and organization of your code. For example, if IntelliTrace records an event often, this might slow down your application. It might also make you consider refactoring your application.
 
-Collecting call information might slow down your application significantly. It might also increase the size of any IntelliTrace log files (.iTrace files) that you're saving to disk. To minimize these effects, collect call information only for the modules you care about.  To change the maximum size of your .iTrace files, go to **Tools**, **Options**, **IntelliTrace**, **Advanced**. 
+Collecting call information might slow down your application significantly. It might also increase the size of any IntelliTrace log files (.iTrace files) that you're saving to disk. To minimize these effects, collect call information only for the modules you care about.  To change the maximum size of your .iTrace files, go to **Tools**, **Options**, **IntelliTrace**, **Advanced**.
 
 ## In this section
 
