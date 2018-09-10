@@ -111,7 +111,7 @@ Visual Studio Emulator for Android runs as a virtual machine on Hyper-V, the vir
   
 |Requirement|How to check and enable this requirement|  
 |-----------------|----------------------------------------------|  
-|Hyper-V must be installed|Follow the same instructions used to [enable Hyper-V for the Windows Phone emulator](https://msdn.microsoft.com/en-us/library/windows/apps/jj863509\(v=vs.105\).aspx).<br /><br /> Check the status of the **Hyper-V Virtual Machine Management** service in the Services snap-in.|  
+|Hyper-V must be installed|Follow the same instructions used to [enable Hyper-V for the Windows Phone emulator](https://docs.microsoft.com/previous-versions/windows/apps/jj863509(v=vs.105)).<br /><br /> Check the status of the **Hyper-V Virtual Machine Management** service in the Services snap-in.|  
 |Hyper-V must be running.|For more info about managing services, see the following topics:<br /><br /> -   [Start, stop, pause, resume, or restart a service](https://technet.microsoft.com/library/cc736564\(v=WS.10\).aspx)<br />-   [Configure how a service is started](https://technet.microsoft.com/%20library/cc739213\(v=ws.10\))|  
   
  You have to be a member of the local Hyper-V Administrators group.  

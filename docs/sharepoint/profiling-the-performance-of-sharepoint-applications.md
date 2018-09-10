@@ -59,7 +59,7 @@ Coded UI tests automatically drive your SharePoint application through its user 
 |Title|Description|
 |-----------|-----------------|
 |[Walkthrough: Profile a SharePoint application](../sharepoint/walkthrough-profiling-a-sharepoint-application.md)|Demonstrates how to perform a sampling profile analysis on a SharePoint application.|
-|[Performance test your app before release](/vsts/test/load-test/run-performance-tests-app-before-release?view=vsts)|Describes how to create load tests, which help you stress test SharePoint applications.|
+|[Performance test your app before release](/azure/devops/test/load-test/run-performance-tests-app-before-release?view=vsts)|Describes how to create load tests, which help you stress test SharePoint applications.|
 |[Unit Test Your Code](/visualstudio/test/unit-test-your-code)|Describes how to find logic errors in your code by using unit tests.|
 |[Testing SharePoint 2010 Applications with Coded UI Tests](/visualstudio/test/testing-sharepoint-2010-applications-with-coded-ui-tests)|Describes how to test the user interface of your SharePoint applications.|
 

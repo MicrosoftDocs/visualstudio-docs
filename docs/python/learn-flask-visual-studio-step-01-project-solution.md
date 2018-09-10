@@ -90,7 +90,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 
     ![Team Explorer window for pushing to an existing remote repository](media/flask/step01-push-to-github.png)
 
-    If you don't have an existing repository, the **Publish to GitHub** and **Push to Visual Studio Team Services** options let you create one directly from within Visual Studio.
+    If you don't have an existing repository, the **Publish to GitHub** and **Push to Azure DevOps** options let you create one directly from within Visual Studio.
 
 1. As you work through this tutorial, get into the habit of periodically using the controls in Visual Studio to commit and push changes. This tutorial reminds you at appropriate points.
 

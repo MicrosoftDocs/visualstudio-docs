@@ -35,11 +35,11 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
  
  ####  <a name="TFS2017"></a> Team Foundation Server 2017
 
- Set up your build definition to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.
+ Set up your build pipeline to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.
   
-1.  If you already have a build definition using the ASP.NET Core (.NET Framework) template, you can either [Edit your build definition or create a new build definition.](http://msdn.microsoft.com/Library/1c2eca2d-9a65-477e-9b23-0678ff7882ee)
+1.  If you already have a build pipeline using the ASP.NET Core (.NET Framework) template, you can either [Edit your build pipeline or create a new build pipeline.](/azure/devops/pipelines/get-started-designer)
   
-     ![View build definition in TFS 2017](../debugger/media/ffr_tfs2017viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")
+     ![View build pipeline in TFS 2017](../debugger/media/ffr_tfs2017viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")
   
 2.  If you create a new template, choose the ASP.NET Core (.NET Framework) template. 
   
@@ -49,9 +49,9 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
      If you use a custom template, make sure the template has an activity to index your source. You'll later add an MSBuild argument to specify where to save the symbols files.
   
-     ![Set up symbols path in build definition TFS 2017](../debugger/media/ffr_tfs2017builddefsymbolspath.png "FFR_TFS2013BuildDefSymbolsPath")  
+     ![Set up symbols path in build pipeline TFS 2017](../debugger/media/ffr_tfs2017builddefsymbolspath.png "FFR_TFS2013BuildDefSymbolsPath")  
   
-     For more about symbols, see [Publish symbol data](http://msdn.microsoft.com/Library/bd6977ca-e30a-491a-a153-671d81222ce6).  
+     For more about symbols, see [Publish symbol data](/azure/devops/pipelines/tasks/build/index-sources-publish-symbols).  
   
 4.  Add this MSBuild argument to include your TFS and symbols locations in the build manifest file:  
   
@@ -64,11 +64,11 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
     Go to [Step 2: Release your app](#DeployRelease)  
 
 ####  <a name="TFS2013"></a> Team Foundation Server 2013  
- Set up your build definition to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.  
+ Set up your build pipeline to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.  
 
-1.  [Edit your build definition or create a new build definition.](http://msdn.microsoft.com/Library/1c2eca2d-9a65-477e-9b23-0678ff7882ee)  
+1.  [Edit your build pipeline or create a new build pipeline.](/azure/devops/pipelines/get-started-designer)  
 
-     ![View build definition in TFS 2013](../debugger/media/ffr_tfs2013viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")  
+     ![View build pipeline in TFS 2013](../debugger/media/ffr_tfs2013viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")  
 
 2.  Choose the default template (TfvcTemplate.12.xaml) or your own custom template.  
 
@@ -78,9 +78,9 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
      If you use a custom template, make sure the template has an activity to index your source. You'll later add an MSBuild argument to specify where to save the symbols files.  
 
-     ![Set up symbols path in build definition TFS 2013](../debugger/media/ffr_tfs2013builddefsymbolspath.png "FFR_TFS2013BuildDefSymbolsPath")  
+     ![Set up symbols path in build pipeline TFS 2013](../debugger/media/ffr_tfs2013builddefsymbolspath.png "FFR_TFS2013BuildDefSymbolsPath")  
 
-     For more about symbols, see [Publish symbol data](http://msdn.microsoft.com/Library/bd6977ca-e30a-491a-a153-671d81222ce6).  
+     For more about symbols, see [Publish symbol data](/azure/devops/pipelines/tasks/build/index-sources-publish-symbols).  
 
 4.  Add this MSBuild argument to include your TFS and symbols locations in the build manifest file:  
 
@@ -113,11 +113,11 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
 1.  Install Visual Studio 2013 (any edition) on your Team Foundation build server.  
 
-2.  In your build definition, specify where to save the symbols so that your source is indexed automatically.  
+2.  In your build pipeline, specify where to save the symbols so that your source is indexed automatically.  
 
      If you use a custom template, make sure that the template has an activity to index your source.  
 
-3.  Add these MSBuild arguments to your build definition:  
+3.  Add these MSBuild arguments to your build pipeline:  
 
     -   **/p:VisualStudioVersion=12.0**  
 
@@ -170,7 +170,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
  **/p:BuildSymbolStorePath=**\<*path to symbols*>  
 
 ##  <a name="DeployRelease"></a> Step 2: Release your app  
- If you use the [Web.Deploy package](http://msdn.microsoft.com/library/dd394698.aspx) that was created by your build process to deploy your app, the build manifest is automatically renamed from "*ProjectName*.BuildInfo.config" to "BuildInfo.config" and is put in the same folder with your app's Web.config file on your web server.  
+ If you use the [Web.Deploy package](https://msdn.microsoft.com/library/dd394698.aspx) that was created by your build process to deploy your app, the build manifest is automatically renamed from "*ProjectName*.BuildInfo.config" to "BuildInfo.config" and is put in the same folder with your app's Web.config file on your web server.  
 
  If you use other methods to deploy your app, make sure that the build manifest is renamed from "*ProjectName*.BuildInfo.config" to "BuildInfo.config" and is put in the same folder with your app's Web.config file on the web server.  
 
@@ -228,7 +228,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
      ![Go to application code from performance event](../debugger/media/ffr_itsummarypageperformancegotocode.png "FFR_ITSummaryPagePerformanceGoToCode")  
 
-     Now you can review other recorded values, the call stack, step through your code, or use the **IntelliTrace** window to [move backwards or forwards "in time" between other methods](../debugger/intellitrace.md) that were called during this performance event. [What's all these other events and information in the IntelliTrace log?](../debugger/using-saved-intellitrace-data.md)[What else can I do from here?](#WhatElse)[Want more information about performance events?](http://blogs.msdn.com/b/visualstudioalm/archive/2013/09/20/performance-details-in-intellitrace.aspx)  
+     Now you can review other recorded values, the call stack, step through your code, or use the **IntelliTrace** window to [move backwards or forwards "in time" between other methods](../debugger/intellitrace.md) that were called during this performance event. [What's all these other events and information in the IntelliTrace log?](../debugger/using-saved-intellitrace-data.md)[What else can I do from here?](#WhatElse)[Want more information about performance events?](https://blogs.msdn.microsoft.com/devops/2013/09/20/performance-details-in-intellitrace/)  
 
 ### Diagnose an exception  
 
@@ -330,7 +330,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
      Information about your build system, either `"TeamBuild"` or `"MSBuild"`, and these required properties:  
 
-    -   **BuildLabel** (for TeamBuild): The build name and number. This label is also used as the name of the deployment event. For more info about build numbers, see [Use build numbers to give meaningful names to completed builds](http://msdn.microsoft.com/Library/1f302e9d-4b0a-40b5-8009-b69ca6f988c3).  
+    -   **BuildLabel** (for TeamBuild): The build name and number. This label is also used as the name of the deployment event. For more info about build numbers, see [Use build numbers to give meaningful names to completed builds](/azure/devops/pipelines/build/options).  
 
     -   **SymbolPath** (Recommended): The list of URIs for your symbols (PDB file) locations separated by semi-colons. These URIs can be URLs or UNCs. This makes it easier for Visual Studio to find the matching symbols to help you with debugging.  
 
@@ -390,7 +390,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
      ![Open from source control &#45; migrated](../debugger/media/ffr_openprojectfromsourcecontrol_migrated.png "FFR_OpenProjectFromSourceControl_Migrated")  
 
 ####  <a name="WhatWorkspace"></a> Q: What's a workspace?  
- **A:** Your [workspace stores a copy of the source](http://msdn.microsoft.com/Library/1d7f6ed8-ec7c-48f8-86da-9aea55a90d5a) so you can develop and test it separately before you check in your work. If you don't have already have a workspace that's specifically mapped to the found solution or project, then Visual Studio prompts you to choose an available workspace or create a new workspace with your computer name as the default workspace name.  
+ **A:** Your [workspace stores a copy of the source](/azure/devops/repos/tfvc/create-work-workspaces) so you can develop and test it separately before you check in your work. If you don't have already have a workspace that's specifically mapped to the found solution or project, then Visual Studio prompts you to choose an available workspace or create a new workspace with your computer name as the default workspace name.  
 
 ####  <a name="UntrustedSymbols"></a> Q: Why do I get this message about untrusted symbols?  
  ![Debug with untrusted symbols path?](../debugger/media/ffr_ituntrustedsymbolpaths.png "FFR_ITUntrustedSymbolPaths")  
