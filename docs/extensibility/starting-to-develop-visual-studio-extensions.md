@@ -70,7 +70,7 @@ If you've never written a Visual Studio extension before, you probably have some
 
 -   Basic VSPackages: [Creating an Extension with a VSPackage](../extensibility/creating-an-extension-with-a-vspackage.md)
 
--   VSIX project template: [Getting Started with the VSIX Project Template](../extensibility/getting-started-with-the-vsix-project-template.md) 
+-   VSIX project template: [Getting Started with the VSIX Project Template](../extensibility/getting-started-with-the-vsix-project-template.md)
 
 ## How do I get my extension to look like Visual Studio?
  Get great tips for designing the UI for your extension in [Visual Studio User Experience Guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md).
@@ -81,4 +81,4 @@ If you've never written a Visual Studio extension before, you probably have some
 ## How can I distribute my extension?
  You can install your extension on another computer or send it to your friends as a .vsix file, which you install by double-clicking it. You can find out more about VSIX packages at [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md).
 
- You can also publish your extension on the Visual Studio Marketplace, which makes it visible to large numbers of Visual Studio customers. For an example of packaging an extension to the Marketplace, see [Walkthrough: Publishing a Visual Studio Extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md). For more information about what you need to do to publish on the Marketplace, see [Products and Extensions for Visual Studio](/azure/devops/extend/overview).
+ You can also publish your extension on the Visual Studio Marketplace, which makes it visible to large numbers of Visual Studio customers. For an example of packaging an extension to the Marketplace, see [Walkthrough: Publishing a Visual Studio Extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md). For more information about what you need to do to publish on the Marketplace, see [Products and Extensions for Visual Studio](/azure/devops/extend/overview?view=vsts).

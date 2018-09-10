@@ -4,11 +4,11 @@ ms.date: 05/02/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "lab environment, test lab"
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
@@ -36,7 +36,7 @@ Here are examples of common lab environment topologies:
 
 ## Use the cloud with Azure Pipelines or Team Foundation Server Build and Release
 
-You can perform automated testing and build-deploy-test automation using the [build and release](/azure/devops/pipelines/index) features in Team Foundation Server (TFS) and Azure Test Plans. Some of the benefits are:
+You can perform automated testing and build-deploy-test automation using the [build and release](/azure/devops/pipelines/index?view=vsts) features in Team Foundation Server (TFS) and Azure Test Plans. Some of the benefits are:
 
 * You do not need a Build controller or Test controller.
 * The Test agent is installed through a task as part of the build or release.
@@ -85,7 +85,7 @@ There are two types of lab environments that you can create with Visual Studio L
 > [!NOTE]
 > Lab Management does not support SCVMM 2016.
 
-For information about SCVMM, see [Virtual Machine Manager](/azure/devops/pipelines/).
+For information about SCVMM, see [Virtual Machine Manager](/azure/devops/pipelines/?view=vsts).
 
 Standard environments and SCVMM environments support many of the same features. However, there are some important differences to consider. The following table compares the features that are available for standard environments and SCVMM environments.
 

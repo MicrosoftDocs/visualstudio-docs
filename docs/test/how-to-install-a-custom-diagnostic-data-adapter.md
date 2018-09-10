@@ -40,7 +40,7 @@ If you have created a custom diagnostic data adapter, or you have been provided 
     > [!NOTE]
     > Although your diagnostic data adapter and your configuration editor can be created in the same project and built into the same assembly, you can use separate projects and create separate assemblies for them, if you prefer.
 
-     For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests).
+     For more information about how to configure your test settings to use an environment when you run your tests, see [Collect diagnostic data in manual tests (Azure Test Plans)](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts).
 
 2.  To select your diagnostic data adapter for a test, you must first select an existing test settings or create a new one from Microsoft Test Manager or Visual Studio and then select your diagnostic data adapter on the **Data and Diagnostics** tab of the selected test settings.
 
