@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "build platforms [Visual Studio]"
 ms.assetid: c1e5da1b-cda1-4545-b46c-0440fba27485
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Understanding Build Platforms

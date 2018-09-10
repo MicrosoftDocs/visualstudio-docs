@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, domain properties"
 ms.assetid: d1772463-0eb1-40a5-b7c0-9a008bc76760
 caps.latest.revision: 45
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # How to Define a Domain-Specific Language
@@ -116,7 +116,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
 -   The root class appears at the upper-left of the DSL Definition diagram, under **Classes and Relationships**. Rename it to a name different from the DSL. For example, a DSL named **MusicLibrary** might have a root class named **Music**.  
   
--   The diagram class appears at the lower right of the DSL Definition diagram, in the **Diagram Elements** column. You might have to scroll to the right to see it. It is typically named *YourDsl***Diagram**.  
+-   The diagram class appears at the lower right of the DSL Definition diagram, in the **Diagram Elements** column. You might have to scroll to the right to see it. It is typically named _YourDsl_**Diagram**.  
   
 -   If you used the **Task Flow** template and you want to create diagrams with swimlanes, keep and rename the Actor domain class and ActorSwimlane shape.  
   
@@ -217,11 +217,11 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
   
 2.  **Build and run the DSL.** Press F5 or CTRL+F5 to run a new instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] in experimental mode. In the experimental instance of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], open or create a file that has the file name extension of your DSL.  
   
-3.  **Open the Explorer.** At the side of the diagram is the language explorer window, which is usually named *YourLanguage* Explorer. If you do not see this window, it might be on a tab underneath Solution Explorer. If you cannot find it, on the **View** menu, point to **Other Windows**, and then click *YourLanguage***Explorer**.  
+3.  **Open the Explorer.** At the side of the diagram is the language explorer window, which is usually named *YourLanguage* Explorer. If you do not see this window, it might be on a tab underneath Solution Explorer. If you cannot find it, on the **View** menu, point to **Other Windows**, and then click _YourLanguage_**Explorer**.  
   
      Your explorer presents a tree view of the model.  
   
-4.  **Create new elements.** Right-click the root node at the top, and then click **Add New***YourClass*.  
+4.  **Create new elements.** Right-click the root node at the top, and then click **Add New**_YourClass_.  
   
      A new instance of your class appears in your language Explorer.  
   
@@ -617,7 +617,7 @@ To define a domain-specific language (DSL), you create a [!INCLUDE[vsprvs](../in
 |In DSL Explorer, I cannot add to a collection. For example, when I right-click Tools, there is no "Add Tool" command in the menu.<br /><br /> In the explorer for my DSL, I cannot add an element to a list.|Right-click the item above the node that you are trying. When you want to add to a list, the Add command is not in the list node, but in its owner.|  
 |I created a domain class, but I can't create instances in the language explorer.|Every domain class except the root must be the target of an embedding relationship.|  
 |In the explorer for my DSL, elements are shown only with their type names.|In the DSL Definition, select a domain property of the class and in the Properties window, set **Is Element Name** to true.|  
-|My DSL always opens in the XML editor.|This can happen because of an error while the file was being read. However, even after you fix that error, you must explicitly reset the editor to be your DSL designer.<br /><br /> Right-click the project item, click **Open With** and select *YourLanguage***Designer (Default)**.|  
+|My DSL always opens in the XML editor.|This can happen because of an error while the file was being read. However, even after you fix that error, you must explicitly reset the editor to be your DSL designer.<br /><br /> Right-click the project item, click **Open With** and select _YourLanguage_**Designer (Default)**.|  
 |The toolbox of my DSL does not appear after I changed the assembly names.|Inspect and update **DslPackage\GeneratedCode\Package.tt** For more information, see [How to: Change the Namespace of a Domain-Specific Language](../modeling/how-to-change-the-namespace-of-a-domain-specific-language.md).|  
 |The toolbox of my DSL does not appear, but I have not changed the assembly name.<br /><br /> Or, a message box appears reporting the failure to load an extension.|Reset the experimental instance, and rebuild your solution.<br /><br /> 1.  At the Windows Start menu, under **All Programs**, expand [!INCLUDE[vssdk_current_long](../includes/vssdk-current-long-md.md)], then **Tools**, and then click **Reset the Microsoft Visual Studio Experimental Instance**.<br />2.  On the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]**Build** menu, click **Rebuild Solution**.|  
   

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "trusted application deployment, Trusted Publishers"
 ms.assetid: 35fe324c-45a1-4509-b7be-5c18b4b1b4ab
 caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications

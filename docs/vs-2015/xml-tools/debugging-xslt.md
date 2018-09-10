@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 344940bd-c41e-4ed9-8458-3e3aa8e6bb37
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Debugging XSLT

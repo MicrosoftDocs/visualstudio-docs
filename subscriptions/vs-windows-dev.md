@@ -23,12 +23,12 @@ We recommend that you create a "private" browser window for this process.  For e
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
 2. Locate the Windows Developer Account tile in the Tools section and click on the **Get Code** link at the bottom of the benefit tile.  Copy the code to your clipboard, then click **Activate**.
-
-    ![Windows Developer Benefit Tile](_img\vs-windows-dev\vs-windows-dev-tile.png)
+    > [!div class="mx-imgBorder"]
+    > ![Windows Developer Benefit Tile](_img\vs-windows-dev\vs-windows-dev-tile.png)
 
 2. On the [https://developer.microsoft.com](https://developer.microsoft.com) site you can begin the registration process.  Click **Sign up** to continue.
-
-    ![Windows Developer Benefit Registration](_img\vs-windows-dev\vs-windows-dev-register1-cropped.png)
+    > [!div class="mx-imgBorder"]
+    > ![Windows Developer Benefit Registration](_img\vs-windows-dev\vs-windows-dev-register1-cropped.png)
 
 3. Sign in to your subscription.  If you have multiple accounts, choose the one associated with your Enterprise subscription.
 4. On the next page, select the country or region where you live or where your business is located, and then click **Next**.
@@ -37,8 +37,8 @@ We recommend that you create a "private" browser window for this process.  For e
 7. Provide your contact information and preferred email language, then click **Next**.
 8. You may be asked to verify your password.  Enter it and click **Sign in**.
 9. On the Registration – Payment page, paste the code you copied earlier into the Promo Code field.  The page will update to show that *no payment is required*.  Click **Next**.
-
-    ![Windows Developer Benefit Registration](_img\vs-windows-dev\vs-windows-dev-promo-cropped.png)
+    > [!div class="mx-imgBorder"]
+    > ![Windows Developer Benefit Registration](_img\vs-windows-dev\vs-windows-dev-promo-cropped.png)
 
 10.	Review your account information, review the App Developer Agreement, and click the checkbox to indicate your acceptance of the terms and conditions.  Then click **Finish**.
 11. Click **Go to dashboard** to begin using your Windows Developer Account!
@@ -63,4 +63,4 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 * Need help with using your Windows Developer account?  Check out the [support](https://developer.microsoft.com/windows/support) resources on the [Windows Dev Center](https://developer.microsoft.com/windows).
 * [Windows Development](/windows/)
 * For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
-* Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+* Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

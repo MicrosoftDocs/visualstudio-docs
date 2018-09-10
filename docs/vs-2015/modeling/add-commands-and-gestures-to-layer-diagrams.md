@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: ac9c417b-0b40-4a90-86f5-ee3cbdce030b
 caps.latest.revision: 40
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Add commands and gestures to layer diagrams

@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "MSBuild, RemoveDir task"
 ms.assetid: 7ab214be-26b2-4bcd-9de8-c1b2091c0b74
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # RemoveDir Task

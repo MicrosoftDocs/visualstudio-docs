@@ -18,7 +18,7 @@ helpviewer_keywords:
 ms.assetid: 94dbfd55-b300-4b49-9049-0831ed849486
 caps.latest.revision: 56
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # UML Class Diagrams: Guidelines

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "deployment update, alternative locations"
 ms.assetid: 7faacd35-2638-492d-80f6-6b57e5f820de
 caps.latest.revision: 17
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Specify an Alternate Location for Deployment Updates

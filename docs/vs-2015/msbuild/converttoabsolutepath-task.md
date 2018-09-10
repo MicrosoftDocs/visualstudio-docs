@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "MSBuild, ConvertToAbsolutePath task"
 ms.assetid: f1af2cb8-b4ef-4a72-be80-22fa526c4491
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # ConvertToAbsolutePath Task

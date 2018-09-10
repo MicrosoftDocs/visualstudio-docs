@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "EndEdit method"
 ms.assetid: 61af4798-eef7-468c-b229-5e1497febb2f
 caps.latest.revision: 16
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Commit in-process edits on data-bound controls before saving data

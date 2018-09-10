@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4f4b5f10-7314-4725-8c6e-e72f52eff918
 caps.latest.revision: 16
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Writing Unit tests for C/C++ with the Microsoft Unit Testing Framework for C++

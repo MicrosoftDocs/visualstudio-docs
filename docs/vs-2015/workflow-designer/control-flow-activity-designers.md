@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: ba74af23-5398-4e62-bd90-c50612e3bfef
 caps.latest.revision: 7
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Control Flow Activity Designers

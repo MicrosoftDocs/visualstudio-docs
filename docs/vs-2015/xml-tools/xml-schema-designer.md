@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ffdf63ee-faa6-45b7-bbf9-a5644dc8aca2
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # XML Schema Designer

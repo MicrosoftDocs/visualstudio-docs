@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Tutorial 1: Create a Picture Viewer

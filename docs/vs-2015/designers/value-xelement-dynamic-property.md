@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b30e770d-9646-4632-9738-cc9f51bb2343
 caps.latest.revision: 4
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Value (XElement Dynamic Property)

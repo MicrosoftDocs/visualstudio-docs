@@ -58,3 +58,29 @@ If there is a *tsconfig.json* file present in the folder, you can right-click a 
 > [!NOTE]
 > You can find more information about *tsconfig.json* in the 
 [tsconfig.json TypeScript Handbook page](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
+
+## Unit Tests
+You can enable the unit test integration in Visual Studio by specifying a test root in your *package.json*:
+
+```json
+{
+    // ...
+    "vsTest":{
+        "testRoot": "./tests"
+    }
+    // ...
+}
+```
+
+The test runner enumerates the locally installed packages to determine which test framework to use.
+If none of the supported frameworks are recognized, the test runner defaults to *ExportRunner*. The other
+supported frameworks are:
+* Mocha ([mochajs.org](http://mochajs.org/))
+* Jasmine ([Jasmine.github.io](https://jasmine.github.io/))
+* Tape ([github.com/substack/tape](https://github.com/substack/tape))
+
+After opening Test Explorer (choose **Test** > **Windows** > **Test Explorer**), Visual Studio discovers and displays tests.
+
+> [!NOTE]
+> The test runner will only enumerate the JavaScript files in the test root, if your application is written in
+> TypeScript you need to build those first.

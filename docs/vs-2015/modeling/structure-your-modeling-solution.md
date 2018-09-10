@@ -10,7 +10,7 @@ ms.topic: "article"
 ms.assetid: 2ba70ba4-2cea-4e01-93c2-055903d59470
 caps.latest.revision: 16
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Structure your modeling solution

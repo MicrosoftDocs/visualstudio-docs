@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: a1df6c38-a3d1-4a3f-82bc-c8f363ab916e
 caps.latest.revision: 18
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Link UML model updates by using transactions

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "value JavaScript XML tag"
 ms.assetid: 983e31de-cb1d-411e-b60d-eea6698a26f6
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # &lt;value&gt; (JavaScript)

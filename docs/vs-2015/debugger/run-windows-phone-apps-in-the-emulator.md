@@ -216,7 +216,7 @@ The Windows Phone emulator provides a virtualized environment in which you can d
   
 #### To disable frame rate counters in the emulator before capturing screenshots  
   
--   Specify a release build in Visual Studio. After specifying a release build, launch your app by selecting the **Deploy *[app name]*** link on the **Build** menu.  
+-   Specify a release build in Visual Studio. After specifying a release build, launch your app by selecting the **Deploy _[app name]_** link on the **Build** menu.  
   
 -   Alternately, you can comment out the line of code in the app.xaml.cs or app.xaml.vb file that sets the value of `EnableFrameRateCounter` to `true`.
 

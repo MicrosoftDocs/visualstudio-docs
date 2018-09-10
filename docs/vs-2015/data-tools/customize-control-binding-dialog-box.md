@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Customize Control Binding dialog box"
 ms.assetid: abcc0be3-a18e-4f47-b354-d6b0c618e087
 caps.latest.revision: 9
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

@@ -21,7 +21,7 @@ helpviewer_keywords:
 ms.assetid: 07efcd17-2a96-4052-9957-6dcccbb725ee
 caps.latest.revision: 50
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # UML Activity Diagrams: Reference

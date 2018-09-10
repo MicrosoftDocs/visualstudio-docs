@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: a33ac8fc-4ba0-4850-b71b-014dc8674e54
 caps.latest.revision: 31
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Use models in your development process

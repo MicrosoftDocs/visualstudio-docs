@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dc8edb13-1b23-47d7-b859-8c6f7888c1a9
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Step 8: Customize the Quiz

@@ -17,7 +17,7 @@
 ## Using Subscriber Benefits
 ### Tools
 #### [Visual Studio IDE ](vs-ide-benefit.md)
-#### [Visual Studio Team Services](vs-vsts.md)
+#### [Azure DevOps Services](vs-azure-devops.md)
 #### [Azure Credit](vs-azure.md)
 #### [Visual Studio App Center](vs-visual-studio-app-center.md)
 #### [Parasoft ](vs-parasoft.md)
@@ -49,6 +49,7 @@
 ##### [VLSC Admin Migration FAQs](vlsc-admin-faq.md)
 ##### Onboarding Your Organization
 ###### [Post Migration Onboarding](post-migration-onboarding.md)
+###### [Open and Open License Migration](open-migration.md)
 ###### [Onboarding Email Communications](volume-license-onboarding-email.md)
 ###### [Find Your PCN](find-pcn.md)
 ###### [Find Your Primary Contact](find-primary-contact.md)

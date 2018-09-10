@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "code analysis, source suppression"
 ms.assetid: f1a2dc6a-a9eb-408c-9078-2571e57d207d
 caps.latest.revision: 42
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # In Source Suppression Overview

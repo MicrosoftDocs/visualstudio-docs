@@ -204,7 +204,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
 
  Add a User Control file to the DslPackage project. Add a Panel in which the diagram can be displayed. Add buttons and other controls. In the code view of the form, add the following code, adjusting the names to your DSL:
 
-```
+```csharp
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

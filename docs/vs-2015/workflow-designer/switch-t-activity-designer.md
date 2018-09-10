@@ -12,8 +12,8 @@ f1_keywords:
   - "System.Activities.Statements.Switch`1.UI"
 ms.assetid: 18a6c96e-49a9-4356-ab61-fbd7e3ab44bb
 caps.latest.revision: 3
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Switch&lt;T&gt; Activity Designer

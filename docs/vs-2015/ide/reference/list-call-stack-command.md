@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Debug.ListCallStack command"
 ms.assetid: a8b20bf2-81d2-4069-aea8-23e6b15b4347
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # List Call Stack Command

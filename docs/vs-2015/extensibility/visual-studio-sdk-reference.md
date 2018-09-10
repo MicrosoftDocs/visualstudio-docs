@@ -230,7 +230,7 @@ This section contains information about Visual Studio namespaces, related namesp
  <xref:Microsoft.VisualStudio.Threading>  
  Used for Visual Studio threading.  
   
- <xref:Microsoft.VisualStudio.Connected> Services?qualifyHint=False&autoUpgrade=True  
+ <xref:Microsoft.VisualStudio.Connected Services?qualifyHint=False&autoUpgrade=True> 
  Used for Visual Studio connected services.  
   
  [IntelliSenseHostFlags](../extensibility/intellisensehostflags.md) enumeration  
@@ -260,52 +260,52 @@ This section contains information about Visual Studio namespaces, related namesp
  [Glossary](../extensibility/visual-studio-sdk-glossary.md)  
  Gives a list of helpful terms and their definitions for use when you are reading the Visual Studio SDK documentation.  
   
- <xref:Microsoft.VisualStudio.Build.BuildEngine>  
+ <xref:Microsoft.Build.BuildEngine>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Construction>  
+ <xref:Microsoft.Build.Construction>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Conversion>  
+ <xref:Microsoft.Build.Conversion>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Debugging>  
+ <xref:Microsoft.Build.Debugging>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Evaluation>  
+ <xref:Microsoft.Build.Evaluation>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Exceptions>  
+ <xref:Microsoft.Build.Exceptions>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Execution>  
+ <xref:Microsoft.Build.Execution>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Framework>  
+ <xref:Microsoft.Build.Framework>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Framework.XamlTypes>  
+ <xref:Microsoft.Build.Framework.XamlTypes>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Logging>  
+ <xref:Microsoft.Build.Logging>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Tasks>  
+ <xref:Microsoft.Build.Tasks>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Tasks.Deployment.Bootstrapper>  
+ <xref:Microsoft.Build.Tasks.Deployment.Bootstrapper>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Tasks.Deployment.ManifestUtilities>  
+ <xref:Microsoft.Build.Tasks.Deployment.ManifestUtilities>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Tasks.Hosting>  
+ <xref:Microsoft.Build.Tasks.Hosting>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Tasks.Xaml>  
+ <xref:Microsoft.Build.Tasks.Xaml>  
  Used for MSBuild.  
   
- <xref:Microsoft.VisualStudio.Build.Utilities>  
+ <xref:Microsoft.Build.Utilities>  
  Used for MSBuild.  
   
 ## Related Sections  

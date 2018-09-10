@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "themes, options"
 ms.assetid: 71150631-4674-4568-bce8-570bef3780ad
 caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Themes, Workflow Designer, Options Dialog Box (Legacy)

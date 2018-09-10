@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "application icons [Visual Studio]"
 ms.assetid: ad8e14ed-adc2-45b6-a0be-818b16d5616f
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Specify an Application Icon (Visual Basic, C#)

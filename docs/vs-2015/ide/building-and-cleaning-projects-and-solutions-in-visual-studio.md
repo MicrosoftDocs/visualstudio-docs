@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "builds [Visual Studio], preparing"
 ms.assetid: 710891fd-379e-42c2-a84b-44a7af694ca0
 caps.latest.revision: 37
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Building and Cleaning Projects and Solutions in Visual Studio
@@ -58,11 +58,11 @@ By using the procedures in this topic, you can build, rebuild, or clean all or s
   
 1.  In **Solution Explorer**, choose or open the project.  
   
-2.  On the menu bar, choose **Build**, and then choose either **Build***ProjectName* or **Rebuild***ProjectName*.  
+2.  On the menu bar, choose **Build**, and then choose either **Build**_ProjectName_ or **Rebuild**_ProjectName_.  
   
-    -   Choose **Build***ProjectName* to build only those project components that have changed since the most recent build.  
+    -   Choose **Build**_ProjectName_ to build only those project components that have changed since the most recent build.  
   
-    -   Choose **Rebuild***ProjectName* to "clean" the project and then build the project files and all project components.  
+    -   Choose **Rebuild**_ProjectName_ to "clean" the project and then build the project files and all project components.  
   
 ### To build only the startup project and its dependencies  
   

@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: a21fb4fe-134b-40b0-8497-86b842940ca1
 caps.latest.revision: 7
 author: "steved0x"
-ms.author: "sdanie"
+ms.author: gewarren
 manager: "erikre"
 ---
 # Add Parameters and Add Arguments Dialog Boxes

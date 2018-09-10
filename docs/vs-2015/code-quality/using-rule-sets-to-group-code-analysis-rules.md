@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "code analysis, rule sets"
 ms.assetid: ed0f3a2a-1516-42e2-92de-b8986dc75d42
 caps.latest.revision: 38
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Using Rule Sets to Group Code Analysis Rules

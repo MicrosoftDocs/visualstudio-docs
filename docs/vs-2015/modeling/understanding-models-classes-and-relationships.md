@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, models"
 ms.assetid: 2ecd569c-b369-41ea-b78e-a61b62e2e4e9
 caps.latest.revision: 37
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Understanding Models, Classes and Relationships

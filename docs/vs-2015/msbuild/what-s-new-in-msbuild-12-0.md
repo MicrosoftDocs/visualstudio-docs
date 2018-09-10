@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9976a6ad-c052-4017-b848-35b5ae4a2f66
 caps.latest.revision: 26
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # What&#39;s New in MSBuild 12.0
@@ -43,6 +43,6 @@ MSBuild is now installed as part of Visual Studio rather than as part of the .NE
 -   `MSBuildToolsPath` and `MSBuildFrameworkToolsPath` have 32-bit equivalents—`MSBuildToolsPath32` and `MSBuildFrameworkToolsPath32`—that always point to the 32-bit location, regardless of whether 32-bit or 64-bit MSBuild is being used.
 
 ## See Also
-[MSBuild](MSBuild1.md)
+[MSBuild](msbuild.md)
 
 

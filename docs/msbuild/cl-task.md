@@ -746,7 +746,7 @@ Wraps the Visual C++ compiler tool, *cl.exe*. The compiler produces executable (
   
     -   **EnableAllWarnings** - **/Wall**  
   
-     For more information, see the **/W***n* option in [/w, /W0, /W1, /W2, /W3, /W4, /w1, /w2, /w3, /w4, /Wall, /wd, /we, /wo, /Wv, /WX (Warning level)](/cpp/build/reference/compiler-option-warning-level).  
+     For more information, see the **/W**_n_ option in [/w, /W0, /W1, /W2, /W3, /W4, /w1, /w2, /w3, /w4, /Wall, /wd, /we, /wo, /Wv, /WX (Warning level)](/cpp/build/reference/compiler-option-warning-level).  
   
 -   **WholeProgramOptimization**  
   

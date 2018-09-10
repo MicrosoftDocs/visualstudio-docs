@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f9ec9724-7571-4777-8ff8-d9be012eae8f
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Keyboard shortcuts and modifier keys in Blend

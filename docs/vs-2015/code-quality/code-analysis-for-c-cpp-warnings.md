@@ -22,7 +22,7 @@ helpviewer_keywords:
 ms.assetid: 28f3fda6-35e8-485b-9755-1991aaccec3f
 caps.latest.revision: 43
 author: "corob-msft"
-ms.author: "corob"
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Code Analysis for C/C++ Warnings

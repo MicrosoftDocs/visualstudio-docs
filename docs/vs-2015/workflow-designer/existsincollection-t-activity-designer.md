@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.ExistsInCollection`1.UI"
 ms.assetid: 0acf9a13-caf5-4bb4-ba22-ec37d2b7267a
 caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # ExistsInCollection&lt;T&gt; Activity Designer

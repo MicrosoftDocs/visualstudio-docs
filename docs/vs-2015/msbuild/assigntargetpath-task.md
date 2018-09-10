@@ -16,8 +16,8 @@ dev_langs:
   - "jsharp"
 ms.assetid: 0e830e31-3bcf-4259-b2a8-a5df49b92d51
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # AssignTargetPath Task

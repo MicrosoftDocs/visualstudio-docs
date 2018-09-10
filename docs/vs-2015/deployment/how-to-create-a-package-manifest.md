@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "dependencies, custom bootstrapper packages"
 ms.assetid: 5aecc507-2764-42f2-ae6f-c227971cf0af
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Create a Package Manifest

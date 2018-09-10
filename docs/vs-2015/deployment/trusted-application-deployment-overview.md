@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "trusted application deployment"
 ms.assetid: b24a1702-8fbe-45b1-87a0-9618a0708f1d
 caps.latest.revision: 33
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Trusted Application Deployment Overview

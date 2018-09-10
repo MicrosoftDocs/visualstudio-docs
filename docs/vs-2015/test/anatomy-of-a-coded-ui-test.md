@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "coded UI tests"
 ms.assetid: 9c5d82fc-3fb7-4bb1-a9ac-ac1fa3a4b500
 caps.latest.revision: 25
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Anatomy of a Coded UI Test

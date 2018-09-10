@@ -43,7 +43,7 @@ You can customize the way Visual Studio displays data types in debugger variable
 > [!CAUTION]
 >  The structure of this file and the syntax of autoexp rules might change from one release of Visual Studio to the next.  
   
- Native type views can also be customized by writing an expression evaluator add-in. For more information, see [EEAddIn Sample: Debugging Expression Evaluator Add-In](http://msdn.microsoft.com/en-us/d4f6b068-c812-45bc-9ec0-7e0363c4bb9e).  
+ Native type views can also be customized by writing an expression evaluator add-in. For more information, see [EEAddIn Sample: Debugging Expression Evaluator Add-In](https://msdn.microsoft.com/library/d4f6b068-c812-45bc-9ec0-7e0363c4bb9e).  
   
 ## See Also  
  [Using DebuggerTypeProxy Attribute](../debugger/using-debuggertypeproxy-attribute.md)   

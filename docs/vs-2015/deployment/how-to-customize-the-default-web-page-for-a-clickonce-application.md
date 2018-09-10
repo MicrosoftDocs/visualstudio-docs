@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "publishing, ClickOnce"
 ms.assetid: 418de18c-bee9-4f24-9cd9-0252d175070d
 caps.latest.revision: 16
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Customize the Default Web Page for a ClickOnce Application

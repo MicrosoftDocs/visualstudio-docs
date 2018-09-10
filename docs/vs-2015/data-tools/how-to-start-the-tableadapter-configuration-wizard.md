@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "TableAdapter Configuration Wizard"
 ms.assetid: 301f2dcd-ed72-4229-80ef-3b59cb062d5d
 caps.latest.revision: 11
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

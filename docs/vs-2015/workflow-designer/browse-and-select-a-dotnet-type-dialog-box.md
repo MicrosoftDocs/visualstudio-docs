@@ -12,8 +12,8 @@ f1_keywords:
   - "ActivityTypeResolver.UI"
 ms.assetid: 864b60b6-a070-4e5c-aa5b-a25341b57ea6
 caps.latest.revision: 13
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Browse and Select a .NET Type Dialog Box

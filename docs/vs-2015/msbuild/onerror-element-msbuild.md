@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "<OnError Element [MSBuild]"
 ms.assetid: 765767d3-ecb7-4cd9-ba1e-d9468964dddc
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # OnError Element (MSBuild)

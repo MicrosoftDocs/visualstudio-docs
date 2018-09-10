@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 64674976-841f-43cb-8e61-0645c8a89eec
 caps.latest.revision: 7
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Invoking Text Transformation in a VS Extension

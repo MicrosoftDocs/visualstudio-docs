@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "Adventure Works sample database"
 ms.assetid: ed1291f6-604c-4972-ae22-0345c6dea12e
 caps.latest.revision: 56
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

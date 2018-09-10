@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "Publish Version property"
 ms.assetid: 06f15504-6385-40a6-b01d-cd90ca36dc73
 caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Set the ClickOnce Publish Version

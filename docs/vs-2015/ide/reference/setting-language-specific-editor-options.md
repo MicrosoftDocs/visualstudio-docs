@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "editor settings"
 ms.assetid: ba64d517-a60d-409b-9860-5d75065a5bb7
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Setting Language-Specific Editor Options
@@ -25,7 +25,7 @@ manager: "ghogen"
 The latest version of this topic can be found at [Setting Language-Specific Editor Options](https://docs.microsoft.com/visualstudio/ide/reference/setting-language-specific-editor-options).  
   
   
-INCLUDE[vsprvs](../../includes/vsprvs-md.md)] offers a variety of Text Editor options that apply to specific programming languages.  
+[!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] offers a variety of Text Editor options that apply to specific programming languages.  
   
 ## In This Section  
  [Options, Text Editor, Basic (Visual Basic)](../../ide/reference/options-text-editor-basic-visual-basic.md)  

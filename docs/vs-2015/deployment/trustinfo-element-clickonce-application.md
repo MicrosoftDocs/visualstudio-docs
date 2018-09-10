@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "<trustInfo> element [ClickOnce application manifest]"
 ms.assetid: 8a813a74-e158-4308-be78-565937f6af83
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;trustInfo&gt; Element (ClickOnce Application)

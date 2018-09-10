@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.Rethrow.UI"
 ms.assetid: 9cfa2eda-395f-4cf3-9154-83fadd4f7452
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Rethrow Activity Designer
@@ -31,7 +31,7 @@ The **Rethrow** activity designer is used to create and configure a <xref:System
   
 |Property Name|Required|Usage|  
 |-------------------|--------------|-----------|  
-|<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the optional friendly name of the <xref:System.Activities.Statements.ReThrow> activity. The default is Rethrow.|  
+|<xref:System.Activities.Activity.DisplayName%2A>|False|Specifies the optional friendly name of the <xref:System.Activities.Statements.Rethrow> activity. The default is Rethrow.|  
   
 ## See Also  
  [Collection](../workflow-designer/collection-activity-designers.md)   

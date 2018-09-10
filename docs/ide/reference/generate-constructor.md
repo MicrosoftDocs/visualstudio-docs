@@ -4,8 +4,8 @@ ms.date: 01/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
-author: "kuhlenh"
-ms.author: "kaseyu"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "dotnet"
@@ -50,7 +50,7 @@ This code generation applies to:
 
 1. Select **Generate constructor** from the drop-down menu.
 
-   The **Pick memebers** dialog box opens.
+   The **Pick members** dialog box opens.
 
 1. Pick the members you want to include as constructor parameters. You can order them using the up and down arrows. Choose **OK**.
 

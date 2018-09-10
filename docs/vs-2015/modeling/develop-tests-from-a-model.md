@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 40f87192-ba85-4552-8804-314a678261ae
 caps.latest.revision: 22
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Develop tests from a model

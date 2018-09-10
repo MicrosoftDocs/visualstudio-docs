@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "application updates"
 ms.assetid: a3f23f05-e7f1-4620-b23c-2d68f9643684
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Manage Updates for a ClickOnce Application
@@ -31,7 +31,7 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [How to: Manage Updates for a ClickOnce Application](https://docs.microsoft.com/visualstudio/deployment/how-to-manage-updates-for-a-clickonce-application).  
   
-INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications can check for updates automatically or programmatically. As a developer, you have lots of flexibility in specifying when and how update checks are performed, whether updates are mandatory, and where the application should check for updates.  
+[!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications can check for updates automatically or programmatically. As a developer, you have lots of flexibility in specifying when and how update checks are performed, whether updates are mandatory, and where the application should check for updates.  
   
  You can configure the application to check for updates automatically before the application starts, or at set intervals after the application starts. In addition you can specify a minimum required version; that is, an update is installed if the user's version is lower than the required version.  
   

@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "Choose Element [MSBuild]"
 ms.assetid: 7b8b025a-d944-4f5c-9018-c89fc2ef146d
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Choose Element (MSBuild)

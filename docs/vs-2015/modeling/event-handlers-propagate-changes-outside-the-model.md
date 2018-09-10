@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, events"
 ms.assetid: 0ac8d1e4-239f-4370-ba1d-3769bb38b8a5
 caps.latest.revision: 20
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Event Handlers Propagate Changes Outside the Model
@@ -37,7 +37,7 @@ In Visualization and Modeling SDK, you can define store event handlers to propag
   
     -   `ElementDeleted` – triggered after a model element, relationship, shape or connector has been deleted. You can still access the property values of the element, but it will have no relationships to other elements.  
   
-2.  Add a partial class definition for *YourDsl***DocData** in a separate code file in the **DslPackage** project.  
+2.  Add a partial class definition for _YourDsl_**DocData** in a separate code file in the **DslPackage** project.  
   
 3.  Write the code of the event as a method, as in the following example. It can be `static`, unless you want to access `DocData`.  
   

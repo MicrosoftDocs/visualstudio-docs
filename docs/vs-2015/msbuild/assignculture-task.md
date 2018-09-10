@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "AssignCulture task [MSBuild]"
 ms.assetid: 8f8314cc-82a6-4f16-a62d-b9f0d1d5e274
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # AssignCulture Task

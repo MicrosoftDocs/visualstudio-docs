@@ -53,11 +53,14 @@ To add multiple class diagrams, repeat the steps in this procedure.
 
 ## Add a class diagram based on existing types
 
-In **Solution Explorer**, open the class file context menu and then choose **View Class Diagram**.
+In **Solution Explorer**, open a class file's context menu (right-click) and then choose **View Class Diagram**.
 
 -or-
 
 In **Class View**, open the namespace or type context menu and then choose **View Class Diagram**.
+
+> [!TIP]
+> If **Class View** is not open, open **Class View** from the **View** menu.
 
 ## To display the contents of a complete project in a class diagram
 

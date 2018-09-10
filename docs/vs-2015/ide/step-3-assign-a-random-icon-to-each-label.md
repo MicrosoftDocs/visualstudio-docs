@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 0ba5ed7a-9aaa-41f4-95d2-e3c2d567bc79
 caps.latest.revision: 33
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Step 3: Assign a Random Icon to Each Label

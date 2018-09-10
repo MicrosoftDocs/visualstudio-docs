@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "accessibility [Visual Studio]"
 ms.assetid: d71a4cc1-d352-4164-8538-3f9fa070a331
 caps.latest.revision: 30
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Use the Keyboard Exclusively
@@ -28,7 +28,7 @@ manager: "ghogen"
 The latest version of this topic can be found at [How to: Use the Keyboard Exclusively](https://docs.microsoft.com/visualstudio/ide/reference/how-to-use-the-keyboard-exclusively).  
   
   
-INCLUDE[vsprvs](../../includes/vsprvs-md.md)] provides many default shortcut key combinations to make it easy to navigate and code within the integrated development environment (IDE). For a full listing of shortcut keys used in Visual Studio, see [Default Keyboard Shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md). For information on keyboard shortcuts available for other Microsoft products, see [http://www.microsoft.com/enable/products/keyboard.aspx](http://go.microsoft.com/fwlink/?LinkID=40400).  
+[!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] provides many default shortcut key combinations to make it easy to navigate and code within the integrated development environment (IDE). For a full listing of shortcut keys used in Visual Studio, see [Default Keyboard Shortcuts](../../ide/default-keyboard-shortcuts-in-visual-studio.md). For information on keyboard shortcuts available for other Microsoft products, see [http://www.microsoft.com/enable/products/keyboard.aspx](http://go.microsoft.com/fwlink/?LinkID=40400).  
   
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  

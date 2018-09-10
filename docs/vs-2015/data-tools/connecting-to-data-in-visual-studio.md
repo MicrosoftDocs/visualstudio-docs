@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "data [Visual Studio], connecting to data"
 ms.assetid: 92f76990-204b-4270-a96a-294e409b79f4
 caps.latest.revision: 30
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

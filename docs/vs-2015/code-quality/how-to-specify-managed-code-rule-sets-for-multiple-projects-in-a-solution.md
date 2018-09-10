@@ -13,8 +13,8 @@ f1_keywords:
   - "vs.codeanalysis.propertypages.solution"
 ms.assetid: 92dc3250-a010-4396-b515-f03a0b30cd2a
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # How to: Specify Managed Code Rule Sets for Multiple Projects in a Solution

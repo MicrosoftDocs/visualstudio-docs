@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Presentation.View.DesignTimeVariable.UI"
 ms.assetid: 0318dfb0-bf8f-4f92-9b86-ae4c1b2161ad
 caps.latest.revision: 14
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Use the Variable Designer

@@ -13,8 +13,8 @@ f1_keywords:
   - "vs.codeanalysis.propertypages.asp"
 ms.assetid: b3000b31-fd9d-489e-81a2-a4bee49453ba
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # How to: Configure Code Analysis for an ASP.NET Web Application

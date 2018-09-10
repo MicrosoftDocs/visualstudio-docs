@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "MSBuild, additional resources"
 ms.assetid: 3206dc09-daa4-43c4-8073-731a82e36a89
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Additional Resources for MSBuild
@@ -43,7 +43,7 @@ The following Web sites and forums can help you find answers to common questions
  A community forum dedicated to [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)].  
   
 ## See Also  
- [MSBuild](MSBuild1.md)   
+ [MSBuild](msbuild.md)   
  [MSBuild Concepts](../msbuild/msbuild-concepts.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)
 

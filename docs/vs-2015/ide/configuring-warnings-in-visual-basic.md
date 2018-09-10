@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "warnings, configuring"
 ms.assetid: 99cf4781-bd4d-47b4-91b9-217933509f82
 caps.latest.revision: 37
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Configuring Warnings in Visual Basic

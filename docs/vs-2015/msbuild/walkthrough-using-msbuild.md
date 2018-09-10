@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "MSBuild, tutorial"
 ms.assetid: b8a8b866-bb07-4abf-b9ec-0b40d281c310
 caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Walkthrough: Using MSBuild
@@ -581,7 +581,7 @@ $(PropertyName)
  To learn how to create a simple project file one step at a time, try out the [Walkthrough: Creating an MSBuild Project File from Scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md).  
   
 ## See Also
-[MSBuild Overview](MSBuild1.md)  
+[MSBuild Overview](msbuild.md)  
  [MSBuild Reference](../msbuild/msbuild-reference.md)
 
 

@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "publishing, ClickOnce"
 ms.assetid: abab6d34-c3c2-45c1-a8b6-43c7d3131e7a
 caps.latest.revision: 34
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # ClickOnce Security and Deployment
@@ -29,7 +29,7 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [ClickOnce Security and Deployment](https://docs.microsoft.com/visualstudio/deployment/clickonce-security-and-deployment).  
   
-INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] is a deployment technology that enables you to create self-updating Windows-based applications that can be installed and run with minimal user interaction. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides full support for publishing and updating applications deployed with ClickOnce technology if you have developed your projects with Visual Basic and Visual C#. For information about deploying Visual C++ applications, see [ClickOnce Deployment for Visual C++ Applications](http://msdn.microsoft.com/library/9988c546-0936-452c-932f-9c76daa42157).  
+[!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] is a deployment technology that enables you to create self-updating Windows-based applications that can be installed and run with minimal user interaction. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] provides full support for publishing and updating applications deployed with ClickOnce technology if you have developed your projects with Visual Basic and Visual C#. For information about deploying Visual C++ applications, see [ClickOnce Deployment for Visual C++ Applications](http://msdn.microsoft.com/library/9988c546-0936-452c-932f-9c76daa42157).  
   
  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment overcomes three major issues in deployment:  
   

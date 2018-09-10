@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 624e96d4-6d27-4195-8ac2-2f3835f6c57e
 caps.latest.revision: 4
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # L2DBForm.xaml Source Code

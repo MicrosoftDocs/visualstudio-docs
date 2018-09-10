@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "MSBuild, formatting item collections"
 ms.assetid: 3cae844c-7c6d-4144-82dc-efad10ba458f
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Display an Item List Separated with Commas

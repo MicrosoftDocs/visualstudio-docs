@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 16ac2422-e720-4e3a-b511-bc2a54201a86
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Step 1: Create a Windows Forms Application Project

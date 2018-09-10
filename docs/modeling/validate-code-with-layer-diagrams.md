@@ -183,7 +183,7 @@ are shown immediately in the Visual Studio Error List window.
 
 -   Use a text editor to open the modeling project (.modelproj) file, and then include the following property:
 
-```
+```xml
 <ValidateArchitecture>true</ValidateArchitecture>
 ```
 
@@ -213,7 +213,7 @@ are shown immediately in the Visual Studio Error List window.
 
  For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors). For more information about [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)], see:
 
--   [Build and release](/vsts/build-release/index)
+-   [Azure Pipelines](/azure/devops/pipelines/index)
 
 -   [Use the Default Template for your build process](http://msdn.microsoft.com/Library/43930b12-c21b-4599-a980-2995e3d16e31)
 

@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Django in Visual Studio, step 3
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically demonstrating how to serve static files, add pages to the app, and use template inheritance
-ms.date: 06/27/2018
+ms.date: 08/13/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -22,7 +22,7 @@ In the previous steps of this tutorial, you've learned how to create a minimal D
 In this step, you learn how to:
 
 > [!div class="checklist"]
-> - Use Visual Studio item templates to quickly new files of different types with convenient boilerplate code (step 3-1)
+> - Use Visual Studio item templates to quickly add new files of different types with convenient boilerplate code (step 3-1)
 > - Configure the Django project to serve static files (step 3-2)
 > - Add additional pages to the app (step 3-3)
 > - Use template inheritance to create a header and nav bar that's used across pages (step 3-4)
@@ -73,7 +73,7 @@ You can organize files using any folder structure within *static* that you like,
     }
     ```
 
-1. Replace the contents of the app's *templates/HelloDjangoApp/index.html* file with the following code, which replaces the `<strong>` element used in step 2 with a `<span>` that references the `message` style class. Using a style class in this way gives you much more flexibility in styling the element. (If you haven't moved *index.html* into a subfolder in *templates*, refer to [template namespacing](learn-django-in-visual-studio-step-02-create-an-app.md#template-namespacing) in step 2.)
+1. Replace the contents of the app's *templates/HelloDjangoApp/index.html* file with the following code, which replaces the `<strong>` element used in step 2 with a `<span>` that references the `message` style class. Using a style class in this way gives you much more flexibility in styling the element. (If you haven't moved *index.html* into a subfolder in *templates* when using VS 2017 15.7 and earlier, refer to [template namespacing](learn-django-in-visual-studio-step-02-create-an-app.md#template-namespacing) in step 2-4.)
 
     ```html
     <html>
@@ -181,7 +181,7 @@ A base template delineates blocks using `{% block <block_name> %}` and `{% endbl
 
 The following steps demonstrate inheritance:
 
-1. In the app's *templates/HelloDjangoApp* folder, create a new HTML file (using the **Add** > **New item** context menu or **Add** > **HTML Page**) called `layout.html`, and replace its contents with the markup below. You can see that this template contains a block named "content" that is all that the referring pages need to replace:
+1. In the app's *templates/HelloDjangoApp* folder, create a new HTML file (using the **Add** > **New item** context menu or **Add** > **HTML Page**) called *layout.html*, and replace its contents with the markup below. You can see that this template contains a block named "content" that is all that the referring pages need to replace:
 
     ```html
     <!DOCTYPE html>

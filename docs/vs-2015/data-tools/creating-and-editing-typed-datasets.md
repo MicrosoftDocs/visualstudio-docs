@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "Dataset Designer"
 ms.assetid: cd0dbe93-be9b-41e4-bc39-e9300678c1f2
 caps.latest.revision: 26
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

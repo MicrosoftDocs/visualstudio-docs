@@ -14,8 +14,8 @@ dev_langs:
   - "aspx"
 ms.assetid: 36f913c0-f5a7-4831-83a0-baba721ac95c
 caps.latest.revision: 18
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Create a SQL database by using a script

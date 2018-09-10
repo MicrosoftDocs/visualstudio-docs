@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "saving data"
 ms.assetid: efd6135a-40cf-4b0d-8f8b-41a5aaea7057
 caps.latest.revision: 12
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Save data from an object to a database

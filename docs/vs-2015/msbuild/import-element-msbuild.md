@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "<Import> element [MSBuild]"
 ms.assetid: 3bfecaf1-69fd-4008-b651-c9dafd4389d9
 caps.latest.revision: 32
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Import Element (MSBuild)

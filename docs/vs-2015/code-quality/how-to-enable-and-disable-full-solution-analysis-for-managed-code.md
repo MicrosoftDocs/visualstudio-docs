@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "full solution analysis"
 ms.assetid: 04315147-5792-47f0-8b5f-9ac8413c6a57
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # How to: Enable and Disable Full Solution Analysis for Managed Code

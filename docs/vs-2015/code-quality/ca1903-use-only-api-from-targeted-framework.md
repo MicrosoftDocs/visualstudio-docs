@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1903"
 ms.assetid: efdb5cc7-bbd8-4fa7-9fff-02b91e59350e
 caps.latest.revision: 9
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1903: Use only API from targeted framework

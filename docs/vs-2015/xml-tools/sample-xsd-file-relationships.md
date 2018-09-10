@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 60126510-b7dd-4cb4-92d3-9883590b92f2
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Sample XSD File: Relationships

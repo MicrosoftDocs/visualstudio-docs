@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "text templates, template code"
 ms.assetid: bad198b9-57a4-4777-bd5b-ab6336c825f3
 caps.latest.revision: 34
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Text Template Control Blocks

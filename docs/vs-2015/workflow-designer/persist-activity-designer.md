@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.Persist.UI"
 ms.assetid: be8648dd-3eb9-4a50-8ec1-57a8be804692
 caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Persist Activity Designer

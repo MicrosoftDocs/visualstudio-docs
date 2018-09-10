@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 20489db9-7441-4f8b-97de-c72070d569b1
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Tips and Tricks for Visual Studio

@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8e90b252-646e-4449-a898-5f03e40df87d
 caps.latest.revision: 4
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # WPF Data Binding Using LINQ to XML Example

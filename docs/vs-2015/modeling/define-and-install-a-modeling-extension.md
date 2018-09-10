@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: 82a58dc5-c7cf-4521-a6da-7ff09cd0de9d
 caps.latest.revision: 39
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Define and install a modeling extension
@@ -115,7 +115,7 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
   
     1.  In **Solution Explorer**, on the shortcut menu of your project, and then choose **Open Folder in Windows Explorer**.  
   
-    2.  Locate the file **bin\\\*\\***YourProject***.vsix**  
+    2.  Locate the file **bin\\\*\\**_YourProject_**.vsix**  
   
 2.  Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
   

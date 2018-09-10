@@ -224,7 +224,7 @@ public class Program
 ## DynamicView and the Watch window  
  Some scripting languages (e.g. JavaScript or Python) use dynamic or [duck typing](https://en.wikipedia.org/wiki/Duck_typing), and .NET languages (in version 4.0 and later) support objects that are difficult to observe using the normal debugging windows, because they may have runtime properties and methods that cannot be displayed.  
   
- When the Watch window displays a or an object created from a type that implements the [IDynamicMetaObjectProvider Interface](../Topic/IDynamicMetaObjectProvider%20Interface.md), the debugger adds a special **Dynamic View**  node to the **Autos** display. This node shows the dynamic members of the dynamic object but does not allow editing of the member values.  
+ When the Watch window displays a or an object created from a type that implements the <xref:System.Dynamic.IDynamicMetaObjectProvider>, the debugger adds a special **Dynamic View**  node to the **Autos** display. This node shows the dynamic members of the dynamic object but does not allow editing of the member values.  
   
  If you right-click any child of a **Dynamic View** and choose **Add Watch**, the debugger inserts a new watch variable that casts an object to a dynamic object. In other words, **object Name** becomes (**(dynamic)object).Name**.  
   

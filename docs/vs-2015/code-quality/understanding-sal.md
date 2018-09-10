@@ -12,7 +12,7 @@ ms.topic: "article"
 ms.assetid: a94d6907-55f2-4874-9571-51d52d6edcfd
 caps.latest.revision: 20
 author: "corob-msft"
-ms.author: "corob"
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Understanding SAL

@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Project Designer, Code Analysis page"
 ms.assetid: 71743d26-4da5-4f7d-a403-7ab96cf2ef2e
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Code Analysis, Project Designer

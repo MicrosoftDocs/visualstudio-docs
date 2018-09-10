@@ -31,7 +31,7 @@ To install a VSPackage, a Windows Installer package must contain database entrie
   
 - Integrate the VSPackage in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] by calling **devenv.exe /setup** (using the CustomAction table).  
   
-   For more information, see [Windows Installer](http://msdn.microsoft.com/library/cc185688\(VS.85\).aspx).  
+For more information, see [Windows Installer](/windows/desktop/Msi/windows-installer-portal).
   
 ## Setup tools  
 A variety of third-party setup tools provide a development environment for Windows Installer packages. The following free tools are available:  

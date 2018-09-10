@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 586f9ba5-4d01-4a1d-b001-32e2efaa4f24
 caps.latest.revision: 13
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Install a UML profile

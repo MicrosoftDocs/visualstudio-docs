@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a1c8f833-c918-4a86-9679-d2a791f938a9
 caps.latest.revision: 6
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Could not retrieve schema information for database object &lt;object name&gt;

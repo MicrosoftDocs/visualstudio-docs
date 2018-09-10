@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, application settings"
 ms.assetid: 891caba6-faef-4a3c-8f71-60e6fadb60eb
 caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # ClickOnce and Application Settings

@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "Advanced Security Settings dialog box"
 ms.assetid: 2e7aefe9-6d20-4f3e-b257-aee1ebcc6f5d
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Advanced Security Settings Dialog Box

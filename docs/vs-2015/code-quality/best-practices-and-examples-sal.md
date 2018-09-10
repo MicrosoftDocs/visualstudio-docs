@@ -12,7 +12,7 @@ ms.topic: "article"
 ms.assetid: 666276fb-99c2-4dc9-8bac-d74861c203ea
 caps.latest.revision: 14
 author: "corob-msft"
-ms.author: "corob"
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Best Practices and Examples (SAL)

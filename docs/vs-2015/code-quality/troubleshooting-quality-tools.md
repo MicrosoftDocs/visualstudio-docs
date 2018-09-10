@@ -14,7 +14,7 @@ helpviewer_keywords:
 ms.assetid: 535b9e67-ce9e-4a3e-8d28-9365f257036e
 caps.latest.revision: 19
 author: "erickson-doug"
-ms.author: "douge"
+ms.author: gewarren
 manager: "douge"
 ---
 # Troubleshooting Quality Tools

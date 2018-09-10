@@ -28,8 +28,8 @@ helpviewer_keywords:
   - "LIB task (MSBuild (Visual C++))"
 ms.assetid: e062c7f9-cc69-4a83-9361-1bb5355e5fe8
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # LIB Task
@@ -47,7 +47,7 @@ Wraps the Microsoft 32-Bit Library Manager tool, lib.exe. The Library Manager cr
 |---------------|-----------------|  
 |**AdditionalDependencies**|Optional **String[]** parameter.<br /><br /> Specifies additional items to add to the command line.|  
 |**AdditionalLibraryDirectories**|Optional **String[]** parameter.<br /><br /> Overrides the environment library path. Specify a directory name.<br /><br /> For more information, see [/LIBPATH (Additional Libpath)](http://msdn.microsoft.com/library/7240af0b-9a3d-4d53-8169-2a92cd6958ba).|  
-|**AdditionalOptions**|Optional **String** parameter.<br /><br /> A list of lib.exe options as specified on the command line. For example, **"***/option1 /option2 /option#*". Use this parameter to specify lib.exe options that are not represented by any other **LIB** task parameter.<br /><br /> For more information, see [Running LIB](http://msdn.microsoft.com/library/d54f5c81-7147-4b2c-a8db-68ce6eb1eabd).|  
+|**AdditionalOptions**|Optional **String** parameter.<br /><br /> A list of lib.exe options as specified on the command line. For example, **"_/option1 /option2 /option#_". Use this parameter to specify lib.exe options that are not represented by any other **LIB** task parameter.<br /><br /> For more information, see [Running LIB](http://msdn.microsoft.com/library/d54f5c81-7147-4b2c-a8db-68ce6eb1eabd).|  
 |**DisplayLibrary**|Optional **String** parameter.<br /><br /> Displays information about the output library. Specify a file name to redirect the information to a file. Specify "CON" or nothing to redirect the information to the console.<br /><br /> This parameter corresponds to the **/LIST** option of lib.exe.|  
 |**ErrorReporting**|Optional **String** parameter.<br /><br /> Specifies how to send internal error information to Microsoft if lib.exe fails at runtime.<br /><br /> Specify one of the following values, each of which corresponds to a command-line option.<br /><br /> -   **NoErrorReport** - **/ERRORREPORT:NONE**<br />-   **PromptImmediately** - **/ERRORREPORT:PROMPT**<br />-   **QueueForNextLogin** - **/ERRORREPORT:QUEUE**<br />-   **SendErrorReport** - **/ERRORREPORT:SEND**<br /><br /> For more information, see the **/ERRORREPORT** command-line option at [Running LIB](http://msdn.microsoft.com/library/d54f5c81-7147-4b2c-a8db-68ce6eb1eabd).|  
 |**ExportNamedFunctions**|Optional **String[]** parameter.<br /><br /> Specifies one or more functions to export.<br /><br /> This parameter corresponds to the **/EXPORT:** option of lib.exe.|  

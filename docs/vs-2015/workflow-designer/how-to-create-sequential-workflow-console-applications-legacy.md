@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "console applications, sequential workflow"
 ms.assetid: 9f7be7fa-551f-42c6-a9bb-f5ae8ab83625
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Create Sequential Workflow Console Applications (Legacy)

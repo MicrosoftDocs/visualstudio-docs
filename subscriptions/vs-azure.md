@@ -47,21 +47,22 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 1.  Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
 2.  Locate the Azure tile in the Tools section on the Benefits page and click **Activate** link at the bottom of the benefit tile.
-
-    ![Azure Tile](_img\vs-azure\vs-azure-tile.png)
+    > [!div class="mx-imgBorder"]
+    > ![Azure Tile](_img\vs-azure\vs-azure-tile.png)
 
 3.	Fill in the required information to create your Azure subscription, click the checkbox to accept the terms & conditions, and click **Sign up**:
-
-    ![Azure Sign-up](_img\vs-azure\vs-azure-sign-up-cropped.png)
+    > [!div class="mx-imgBorder"]
+    > ![Azure Sign-up](_img\vs-azure\vs-azure-sign-up-cropped.png)
 
 4.	When your account is ready, you’ll have the option to choose an Azure support plan (sold separately), or get started with your Azure subscription.
-
-    ![Azure Getting Ready](_img\vs-azure\vs-azure-getting-ready-cropped.png)
+    > [!div class="mx-imgBorder"]
+    > ![Azure Getting Ready](_img\vs-azure\vs-azure-getting-ready-cropped.png)
 
 5.	The Azure Dashboard will load, and on your first use, you’ll have the option to take a tour.  The tour consists of a series of screen tips that will point out how you can accomplish a variety of tasks and find relevant information.  Completing or closing the tour will display the Azure Dashboard.
 
 6.	Bookmark the [Azure Portal](https://portal.azure.com) for easy access in the future.
-![Azure Dashboard](_img\vs-azure\vs-azure-dashboard-cropped.png)
+    > [!div class="mx-imgBorder"]
+    > ![Azure Dashboard](_img\vs-azure\vs-azure-dashboard-cropped.png)
 
 ## FAQ
 
@@ -90,7 +91,7 @@ If you can purchase a subscription directly, please do one of the following:
 
 Compare all the [subscriptions and their benefits](https://visualstudio.microsoft.com/vs/pricing/).
 
-If you have another active Visual Studio subscription at the **same** subscription level under a Microsoft account, you can link it to this Azure benefit by adding an [alternate account](manage-vs-subscriptions.md#linking-my-subscription-to-existing-vsts-or-azure-subscriptions) in the Visual Studio subscription portal. If this doesn’t work, you can also try [transferring your Azure benefit](/azure/billing/billing-subscription-transfer/) to the active Visual Studio subscription.
+If you have another active Visual Studio subscription at the **same** subscription level under a Microsoft account, you can link it to this Azure benefit by adding an [alternate account](manage-vs-subscriptions.md#linking-my-subscription-to-existing-azure-devops-services-or-azure-subscriptions) in the Visual Studio subscription portal. If this doesn’t work, you can also try [transferring your Azure benefit](/azure/billing/billing-subscription-transfer/) to the active Visual Studio subscription.
 
 If you have another active Visual Studio subscription at a **different** subscription level and under a Microsoft account, contact [Azure support](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade) for assistance.
 
@@ -106,4 +107,4 @@ If you believe you’ve received this email in error, please contact [Azure cust
     - Technical Support: [https://azure.microsoft.com/support/options/](https://azure.microsoft.com/support/options/)
     - [Azure documentation](/azure/)
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+-  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

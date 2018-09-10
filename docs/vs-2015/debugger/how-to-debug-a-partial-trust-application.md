@@ -46,7 +46,7 @@ Applies to Windows and console applications.
   
 ### To choose a zone for your partial-trust application  
   
-1.  From the **Project** menu, choose *Projectname***Properties**.  
+1.  From the **Project** menu, choose _Projectname_**Properties**.  
   
 2.  In the *Projectname* property pages, click the **Security** page.  
   
@@ -74,7 +74,7 @@ Applies to Windows and console applications.
   
 ### To view extra permissions added while debugging  
   
-1.  From the **Project** menu, choose *Projectname***Properties**.  
+1.  From the **Project** menu, choose _Projectname_**Properties**.  
   
 2.  In the *Projectname* property pages, click the **Security** page.  
   

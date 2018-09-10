@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 9aabe67a-1720-4bbf-80d3-822b3ccf75c0
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Configuring Targets and Tasks

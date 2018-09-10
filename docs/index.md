@@ -70,6 +70,191 @@ ms.topic: hub-page
         <h1>Visual Studio Documentation</h1>
         <ul class="pivots">
             <li>
+                <li>
+                <a href="#get-started">Get Started</a>
+                <ul id="get-started">
+                    <li>
+                        <a href="#get-started1"></a>
+                        <ul id="get-started1" class="cardsL">
+                            <li>
+                               <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardText">
+                                                <h3>Learn how to use Visual Studio</h3>
+                                                <ul class="noBullet">
+                                                    <li><a class="barLink" href="ide/visual-studio-ide.md"><img  src="https://docs.microsoft.com/media/common/i_overview.svg" alt="" />Start a guided tour</a></li>
+                                                    <li><a class="barLink" href="ide/index-writing-code.md"><img  src="https://docs.microsoft.com/media/common/i_code-edit.svg" alt="" />Write and edit code</a></li>
+                                                    <li><a class="barLink" href="ide/compiling-and-building-in-visual-studio.md"><img  src="https://docs.microsoft.com/media/common/i_build.svg" alt="" />Build your code</a></li>
+                                                    <li><a class="barLink" href="debugger/getting-started-with-the-debugger.md"><img  src="https://docs.microsoft.com/media/common/i_debug.svg" alt="" />Debug your code</a></li>
+                                                    <li><a class="barLink" href="test/getting-started-with-unit-testing.md"><img  src="https://docs.microsoft.com/media/common/i_test.svg" alt="" />Test your code</a></li>
+                                                    <li><a class="barLink" href="data-tools/create-a-sql-database-by-using-a-designer.md"><img  src="https://docs.microsoft.com/media/common/i_generic-database.svg" alt="" />Access data locally or in the cloud</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardText">
+                                                <h3>Get started with a tutorial</h3>
+                                                <h4>Choose a programming language</h4>
+                                                <table cellpadding="0" cellspacing="0" border="0">
+                                                    <tr>
+                                                        <td style="border-top-color:transparent!important;padding-left:0;">
+                                                            <ul class="noBullet">
+                                                                <li>
+                                                                    <a class="barLink" href="/cpp/build/vscpp-step-0-installation">
+                                                                        <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="">
+                                                                        C++
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="barLink" href="/visualstudio/ide/tutorial-csharp-aspnet-core">
+                                                                        <img src="https://docs.microsoft.com/media/logos/logo_CSharp.svg" alt="">
+                                                                        C#
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="barLink" href="/visualstudio/ide/tutorial-visual-basic-console">
+                                                                        <img src="https://docs.microsoft.com/media/logos/logo_vb.svg" alt="">
+                                                                        Visual Basic
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </td>
+                                                        <td style="border-top-color:transparent!important;padding-left:0;">
+                                                            <ul class="noBullet">
+                                                                <li>
+                                                                    <a class="barLink" href="/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-01-create-project">
+                                                                        <img src="https://docs.microsoft.com/media/logos/logo_python.svg" alt="">
+                                                                        Python</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="barLink" href="/visualstudio/javascript/tutorial-nodejs/">
+                                                                        <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="">
+                                                                        Node.js</a>
+                                                                </li>
+                                                            </ul>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardText">
+                                                <h3>Try a 5-minute Quickstart</h3>
+                                                <h4>Build "Hello, World" in the language of your choice.</h4>
+                                                <table cellpadding="0" cellspacing="0" border="0">
+                                                    <tr>
+                                                        <td style="border-top-color:transparent!important;padding-left:0;">
+                                                            <ul class="noBullet">
+                                                                <li>
+                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-aspnet-core">
+                                                                        <img src="https://docs.microsoft.com/media/logos/logo_CSharp.svg" alt="">
+                                                                        C#
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-fsharp">
+                                                                        <img src="https://docs.microsoft.com/dotnet/images/hub/fsharp.svg" alt="F# logo">
+                                                                        F#
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-visual-basic-console">
+                                                                        <img src="https://docs.microsoft.com/media/logos/logo_vb.svg" alt="">
+                                                                        Visual Basic
+                                                                    </a>
+                                                            </ul>
+                                                        </td>
+                                                        <td style="border-top-color:transparent!important;padding-left:0;">
+                                                            <ul class="noBullet">
+                                                                <li>
+                                                                    <a class="barLink" href="/visualstudio/ide/getting-started-with-cpp-in-visual-studio">
+                                                                        <img src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg" alt="">
+                                                                        C++
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-python">
+                                                                        <img src="https://docs.microsoft.com/media/logos/logo_python.svg" alt="">
+                                                                        Python
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="barLink" href="/visualstudio/ide/quickstart-nodejs">
+                                                                        <img src="https://docs.microsoft.com/media/logos/logo_nodejs.svg" alt="">
+                                                                        Node.js
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </td>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                     <div>
+                        <ul class="cardsL">
+                            <li>
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardText">
+                                                <h3>Or choose what you want to develop</h3>
+                                                 <table cellpadding="0" cellspacing="0" border="0"><tr><td style="border-top-color:transparent!important;padding-left:0;">
+                                                <ul class="noBullet">
+                                                    <li>
+                                                        <a class="barLink" href="/visualstudio/ide/quickstart-uwp-csharp">
+                                                            <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="">
+                                                            Universal Windows app</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="barLink" href="/visualstudio/ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic">
+                                                            <img src="https://docs.microsoft.com/media/logos/logo_windows.svg" alt="">
+                                                            Windows desktop app</a>
+                                                    </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
+                                                    <li>
+                                                        <a class="barLink" href="/visualstudio/cross-platform/cross-platform-mobile-development-in-visual-studio">
+                                                            <img src="https://docs.microsoft.com/media/common/i_mobile-app-developement.svg" alt="">
+                                                            Mobile app</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="barLink" href="/visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity
+">
+                                                            <img src="https://docs.microsoft.com/media/logos/logo_unity.svg" alt="">
+                                                            Unity game</a>
+                                                    </li></ul></td><td style="border-top-color:transparent!important;padding-left:0;"><ul class="noBullet">
+                                                    <li>
+                                                        <a class="barLink" href="/aspnet/core/tutorials/razor-pages/razor-pages-start?view=aspnetcore-2.1">
+                                                            <img src="https://docs.microsoft.com/media/logos/logo_NET.svg" alt="">
+                                                            Web app with ASP.NET Core</a>
+                                                    </li>
+                                                </ul></td></tr></table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </ul>
+            </li>
+            <li>
                 <a href="#features">Tasks</a>
                 <ul id="features">
                     <li>
@@ -171,7 +356,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="https://go.microsoft.com/fwlink/?linkid=865130">
+                                <a href="/visualstudio/version-control/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -190,7 +375,7 @@ ms.topic: hub-page
                                 </a>
                             </li>
                             <li>
-                                <a href="/vsts">
+                                <a href="/azure/devops/">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -201,7 +386,7 @@ ms.topic: hub-page
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>DevOps</h3>
-                                                    <p>Continuously build and release your apps in the cloud, and implement Agile practices with VSTS.</p>
+                                                    <p>Continuously build and release your apps in the cloud, and implement Agile practices with Azure DevOps Services.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -279,6 +464,25 @@ ms.topic: hub-page
                                                 <div class="cardText">
                                                     <h3>Collaborate</h3>
                                                     <p>Share, edit, and debug code in a collaborative, real-time environment. </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/visualstudio/containers">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img data-scaleimage="https://docs.microsoft.com/media/illustrations/virtualization-containers-about.svg" src="https://docs.microsoft.com/media/illustrations/virtualization-containers-about.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Develop with Containers</h3>
+                                                    <p>Use containers to isolate modular components and improve scalability.</p>
                                                 </div>
                                             </div>
                                         </div>

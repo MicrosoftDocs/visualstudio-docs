@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "refactoring [C#]"
 ms.assetid: a39e656a-f81f-4c87-b484-a23168ff1dfc
 caps.latest.revision: 23
-author: "BillWagner"
-ms.author: "wiwagn"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Refactoring (C#)

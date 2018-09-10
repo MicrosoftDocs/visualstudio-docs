@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "manifests [ClickOnce], file element"
 ms.assetid: 56e3490c-eed5-4841-b1bf-eefe778b6ac9
 caps.latest.revision: 26
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;file&gt; Element (ClickOnce Application)

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "n-tier applications, about n-tier applications"
 ms.assetid: 1020581d-eaaa-41a2-aca4-bf4c212895f6
 caps.latest.revision: 29
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # N-Tier Data Applications Overview

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "comment shapes"
 ms.assetid: d54005d5-a29d-4c4e-b153-feb6e84dd44f
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Add Comments to Class Diagrams (Class Designer)

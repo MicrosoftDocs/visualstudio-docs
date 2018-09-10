@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "refactoring, classes"
 ms.assetid: dcf07bb4-fa3b-4224-9dec-566fd924a8ce
 caps.latest.revision: 30
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Refactoring Classes and Types (Class Designer)

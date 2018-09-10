@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: c69fe3c7-f797-4e90-b21c-f2cc4dddf152
 caps.latest.revision: 13
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Sample Excel Extension: ActionFilter Class

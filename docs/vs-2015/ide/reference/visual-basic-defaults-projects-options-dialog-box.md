@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Option Strict statement, setting in the IDE"
 ms.assetid: 2465cd9d-18b6-4c4a-b1ea-86dbab23fc79
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Visual Basic Defaults, Projects, Options Dialog Box

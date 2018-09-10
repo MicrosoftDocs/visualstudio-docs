@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, update strategies"
 ms.assetid: d8b6e7bb-4ea0-47f3-91cd-48580bdceccc
 caps.latest.revision: 25
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Choosing a ClickOnce Update Strategy
@@ -28,7 +28,7 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [Choosing a ClickOnce Update Strategy](https://docs.microsoft.com/visualstudio/deployment/choosing-a-clickonce-update-strategy).  
   
-INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] can provide automatic application updates. A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application periodically reads its deployment manifest file to see whether updates to the application are available. If available, the new version of the application is downloaded and run. For efficiency, only those files that have changed are downloaded.  
+[!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] can provide automatic application updates. A [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application periodically reads its deployment manifest file to see whether updates to the application are available. If available, the new version of the application is downloaded and run. For efficiency, only those files that have changed are downloaded.  
   
  When designing a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application, you have to determine which strategy the application will use to check for available updates. There are three basic strategies that you can use: checking for updates on application startup, checking for updates after application startup (running in a background thread), or providing a user interface for updates.  
   

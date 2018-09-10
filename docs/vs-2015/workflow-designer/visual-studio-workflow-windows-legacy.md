@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "workflows, designer windows"
 ms.assetid: 78526446-d165-4367-982c-b2cf269fa22b
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Visual Studio Workflow Windows (Legacy)

@@ -12,8 +12,8 @@ f1_keywords:
   - "System.Activities.Statements.Catch`1.UI"
 ms.assetid: 02a326c2-4009-442f-b7cb-e42121fd2992
 caps.latest.revision: 8
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # TryCatch Activity Designer

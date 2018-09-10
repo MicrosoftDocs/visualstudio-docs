@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bc8df61c-19af-40ab-a871-315807e5f4bf
 caps.latest.revision: 6
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Mixed Minimum Rules rule set

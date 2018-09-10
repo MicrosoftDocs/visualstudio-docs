@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "file encoding, bi-directional languages"
 ms.assetid: cb52b732-b395-4ba1-a3ef-104b3942a12a
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Save and Open Files with Encoding

@@ -28,8 +28,8 @@ helpviewer_keywords:
   - "<dependency> element [ClickOnce deployment manifest]"
 ms.assetid: 9b4d2082-0347-4922-ac70-85f11b913039
 caps.latest.revision: 29
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;dependency&gt; Element (ClickOnce Deployment)

@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "find in files command"
 ms.assetid: 2fc78bfe-b339-4599-97f9-4cafd8a194d9
 caps.latest.revision: 18
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Find in Files Command

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "ReviewUnusedParameters"
 ms.assetid: 5d73545c-e153-4b7c-a7b2-be6bf5aca5be
 caps.latest.revision: 31
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1801: Review unused parameters

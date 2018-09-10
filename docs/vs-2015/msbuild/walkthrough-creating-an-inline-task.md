@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "MSBuild, tasks"
 ms.assetid: 438194cb-668c-41a9-a7e2-c118d14c1ea7
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Walkthrough: Creating an Inline Task

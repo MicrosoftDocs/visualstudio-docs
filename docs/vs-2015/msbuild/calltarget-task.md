@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "MSBuild, CallTarget task"
 ms.assetid: bb1fe2c4-4383-436f-8326-c24cc4a46150
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # CallTarget Task

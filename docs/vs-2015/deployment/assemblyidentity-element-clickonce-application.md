@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "<assemblyIdentity> element [ClickOnce application manifest]"
 ms.assetid: f48e9531-efac-4d11-8166-f63a5ece1ac5
 caps.latest.revision: 22
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;assemblyIdentity&gt; Element (ClickOnce Application)

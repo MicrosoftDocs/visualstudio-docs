@@ -21,17 +21,17 @@ Selected Visual Studio subscriptions include one year of access to on-demand tra
 2.  Locate the Opsgility tile in the Tools section on the Benefits page and click **Activate** link at the bottom of the benefit tile.
 
 3.	To use your Opsgility benefit, click on the **Get Code** link at the bottom of the benefit tile.   You’ll receive a notification that the coupon code has been successfully retrieved.  Click **Activate** to proceed.
-
-    ![Opsgility Benefit Tile](_img\vs-opsgility\vs-opsgility-tile.png)
+    > [!div class="mx-imgBorder"]
+    > ![Opsgility Benefit Tile](_img\vs-opsgility\vs-opsgility-tile.png)
 
 
 4.	You’ll be redirected to the [Opsgility Online Training for Visual Studio Enterprise](https://www.opsgility.com/vse) landing page.  (You may be offered an opportunity to start a chat session with a Support Specialist.  If you don’t wish to start a chat, you can minimize that window.)  Fill out the requested contact information and click **Register**.
-
-    ![Opsgility Benefit Landing Page](_img\vs-opsgility\vs-opsgility-registration.png)
+    > [!div class="mx-imgBorder"]
+    > ![Opsgility Benefit Landing Page](_img\vs-opsgility\vs-opsgility-registration.png)
 
 5.	That’s all there is to it!  You’re ready to start learning.  To help you get started, there is list of suggested learning tracks provided on the left side of the page.  Enjoy!
-
-    ![Opsgility Benefit Home Page](_img\vs-opsgility\vs-opsgility-home-cropped.png)
+    > [!div class="mx-imgBorder"]
+    > ![Opsgility Benefit Home Page](_img\vs-opsgility\vs-opsgility-home-cropped.png)
 
 ## Eligibility
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
@@ -50,4 +50,4 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 ## Support resources
 -  Need help with Opsgility?  Submit a support ticket via the [Contact Us](https://www.opsgility.com/SupportTicket) page.
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+-  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

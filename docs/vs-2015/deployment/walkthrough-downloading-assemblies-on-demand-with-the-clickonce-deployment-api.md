@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "on-demand assemblies, ClickOnce"
 ms.assetid: d20e2789-8621-4806-b5b7-841122da1456
 caps.latest.revision: 18
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API

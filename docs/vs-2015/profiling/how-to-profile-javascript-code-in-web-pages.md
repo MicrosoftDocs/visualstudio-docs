@@ -24,7 +24,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [How to: Profile JavaScript Code in Web Pages](https://docs.microsoft.com/visualstudio/profiling/how-to-profile-javascript-code-in-web-pages).  
   
-INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools can collect performance data for JavaScript code that executes in an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application, an arbitrary Web page, or JavaScript application by using the instrumentation profiling method.  
+[!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Profiling Tools can collect performance data for JavaScript code that executes in an [!INCLUDE[vstecasp](../includes/vstecasp-md.md)] Web application, an arbitrary Web page, or JavaScript application by using the instrumentation profiling method.  
   
  **Requirements**  
   

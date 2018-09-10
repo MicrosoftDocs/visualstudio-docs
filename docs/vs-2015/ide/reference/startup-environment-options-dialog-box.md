@@ -13,8 +13,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Startup"
 ms.assetid: 9d517203-3c62-4660-b7b4-ea7d032dcb1e
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Startup, Environment, Options Dialog Box

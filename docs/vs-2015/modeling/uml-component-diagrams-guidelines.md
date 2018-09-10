@@ -16,7 +16,7 @@ helpviewer_keywords:
 ms.assetid: 6c1bdd60-369e-477e-83ed-7f6fe75c9f0b
 caps.latest.revision: 37
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # UML Component Diagrams: Guidelines

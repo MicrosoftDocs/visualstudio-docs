@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "unit tests, samples"
 ms.assetid: db80aaf2-0652-4d3f-a8c5-2a98fd8502a2
 caps.latest.revision: 32
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Sample Project for Creating Unit Tests

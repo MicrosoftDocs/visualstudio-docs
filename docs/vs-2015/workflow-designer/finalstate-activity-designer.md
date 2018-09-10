@@ -10,7 +10,7 @@ ms.topic: "reference"
 ms.assetid: aa186893-8775-40dd-981f-8593ead831d0
 caps.latest.revision: 5
 author: "steved0x"
-ms.author: "sdanie"
+ms.author: gewarren
 manager: "erikre"
 ---
 # FinalState Activity Designer

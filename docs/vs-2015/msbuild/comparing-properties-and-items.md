@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "msbuild, msbuild properties"
 ms.assetid: b9da45ae-d6a6-4399-8628-397deed31486
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Comparing Properties and Items
@@ -25,7 +25,7 @@ The latest version of this topic can be found at [Comparing Properties and Items
   
 MSBuild properties and items are both used to pass information to tasks, evaluate conditions, and store values that can be referenced throughout the project file.  
   
--   Properties are name-value pairs. For more information, see [MSBuild Properties](MSBuild%20Properties.md).  
+-   Properties are name-value pairs. For more information, see [MSBuild Properties](msbuild-properties1.md).  
   
 -   Items are objects that typically represent files. Item objects can have associated metadata collections. Metadata are name-value pairs. For more information, see [Items](../msbuild/msbuild-items.md).  
   

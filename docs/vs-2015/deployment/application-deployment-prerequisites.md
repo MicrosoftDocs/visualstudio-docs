@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "dependencies, ClickOnce"
 ms.assetid: fc6e047e-ad94-44e8-8ff5-b6d1f4ca7735
 caps.latest.revision: 53
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Application Deployment Prerequisites

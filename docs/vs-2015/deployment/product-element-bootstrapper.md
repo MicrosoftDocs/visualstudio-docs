@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "<product> element [bootstrapper]"
 ms.assetid: 52b414af-ec80-4d2f-ad14-902543cd268e
 caps.latest.revision: 10
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;Product&gt; Element (Bootstrapper)

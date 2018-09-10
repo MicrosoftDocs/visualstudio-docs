@@ -13,8 +13,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Notifications"
 ms.assetid: 71cf7380-f2c6-436f-a17c-fdd5f90f5865
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Notifications, Environment, Options Dialog Box

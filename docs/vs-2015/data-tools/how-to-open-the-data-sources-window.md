@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Data Sources Window, opening"
 ms.assetid: baca4d29-ab45-4d68-83e3-d8a227847dbf
 caps.latest.revision: 21
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

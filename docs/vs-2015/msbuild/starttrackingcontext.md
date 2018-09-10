@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "StartTrackingContext"
 ms.assetid: 720cd295-38e7-4974-86db-b8106b1207ba
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # StartTrackingContext

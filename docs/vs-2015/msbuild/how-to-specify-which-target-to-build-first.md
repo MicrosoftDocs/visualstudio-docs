@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "MSBuild, DefaultTargets attribute"
 ms.assetid: a580ba5b-2919-42d2-ae38-1af991e0205a
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Specify Which Target to Build First
@@ -77,7 +77,7 @@ A project file can contain one or more `Target` elements that define how the pro
      `msbuild <file name>.proj /t:Clean;Compile`  
   
 ## See Also
-  [MSBuild](MSBuild1.md)  
+  [MSBuild](msbuild.md)  
  [Targets](../msbuild/msbuild-targets.md)   
  [How to: Clean a Build](../msbuild/how-to-clean-a-build.md)
 

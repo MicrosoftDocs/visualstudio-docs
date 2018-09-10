@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "Remove Parameters refactoring [C#]"
 ms.assetid: f4fc3265-0ef8-4398-a691-c338178697a6
 caps.latest.revision: 24
-author: "BillWagner"
-ms.author: "wiwagn"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Remove Parameters Refactoring (C#)

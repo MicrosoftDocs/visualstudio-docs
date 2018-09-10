@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "/lcid Devenv switch"
 ms.assetid: 3a3f4e70-ea66-4351-9d62-acb1dec30e8e
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # /LCID (devenv.exe)

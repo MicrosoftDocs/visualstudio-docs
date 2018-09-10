@@ -17,7 +17,7 @@ helpviewer_keywords:
   - "unit tests, authoring"
 ms.assetid: 2b018b18-b412-4e0e-b0ee-b580a2f3ba9c
 caps.latest.revision: 85
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Walkthrough: Creating and Running Unit Tests for Managed Code

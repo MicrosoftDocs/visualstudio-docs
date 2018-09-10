@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "objects [Visual Studio], referencing"
 ms.assetid: 05d1c51b-44f3-4973-8a11-6c919b08ad62
 caps.latest.revision: 55
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Managing references in a project

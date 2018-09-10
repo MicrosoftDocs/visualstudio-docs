@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: b5bfa61e-ea59-4c3b-b5af-53475d7d13cd
 caps.latest.revision: 39
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Extend UML models and diagrams

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "MSBuild, XmlPoke task"
 ms.assetid: 6ba1953c-be3b-4df8-8561-e133408f8270
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # XmlPoke Task

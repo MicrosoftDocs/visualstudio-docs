@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "CA1822"
 ms.assetid: 743f0af7-41d1-4852-8d97-af0688b31118
 caps.latest.revision: 19
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA1822: Mark members as static

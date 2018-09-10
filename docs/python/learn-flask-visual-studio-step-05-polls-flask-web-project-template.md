@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Flask in Visual Studio, step 5
 description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically the features of the Polls Flask Web Project and Polls Flask/Jade Web Project templates.
-ms.date: 05/25/2018
+ms.date: 09/04/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -24,7 +24,7 @@ In this step you learn how to:
 > [!div class="checklist"]
 > - Create a project from the template and initialize the database (step 5-1)
 > - Understand the data models (step 5-2)
-> - Understand the backing data stores and (step 5-3)
+> - Understand the backing data stores (step 5-3)
 > - Understand the poll detail and results views (step 5-4)
 
 Visual Studio also provides the "Polls Flask/Jade Web Project" template which produces an identical app, but uses the Jade extension for the Jinja templating engine. For details, see [Step 4 - The Flask/Jade Web Project template](learn-flask-visual-studio-step-04-full-flask-project-template.md#the-flaskjade-web-project-template).
@@ -35,7 +35,7 @@ Visual Studio also provides the "Polls Flask/Jade Web Project" template which pr
 
 1. In the new project dialog, search for and select the **Polls Flask Web Project** template, call the project "FlaskPolls", and select **OK**.
 
-1. Like the other project templates in Visual Studio, the "Polls Flask Web Project" template includes a *requirements.txt* file, Visual Studio prompts asks where to install those dependencies. Choose the option, **Install into a virtual environment**, and in the **Add Virtual Environment** dialog select **Create** to accept the defaults. (This template requires Flask as well as the azure-storage and pymongo packages; the "Polls Flask/Jade Web Project" also required pyjade.)
+1. Like the other project templates in Visual Studio, the "Polls Flask Web Project" template includes a *requirements.txt* file, Visual Studio asks where to install those dependencies. Choose the option, **Install into a virtual environment**, and in the **Add Virtual Environment** dialog select **Create** to accept the defaults. (This template requires Flask as well as the azure-storage and pymongo packages; the "Polls Flask/Jade Web Project" also requires pyjade.)
 
 1. Set the **FlaskPolls** project to be the default for the Visual Studio solution by right-clicking that project in **Solution Explorer** and selecting **Set as Startup Project**. The startup project, which is shown in bold, is what's run when you start the debugger.
 
@@ -351,7 +351,7 @@ Running a web app on your development computer is just one step in making the ap
 
 - Add a repository implementation that uses another production-level data store such as PostgreSQL, MySQL, and SQL Server (all of which can be hosted on Azure). You can also use the [Azure SDK for Python](azure-sdk-for-python.md) to work with Azure storage services like tables and blobs as well as Cosmos DB.
 
-- Set up a continuous integration/continuous deployment pipeline on a service like Visual Studio Team Services (VSTS). In addition to working with source control (on VSTS, GitHub, or elsewhere), you can have VSTS automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for additional tests before deploying to production. VSTS, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see:
+- Set up a continuous integration/continuous deployment pipeline on a service like Azure Pipelines. In addition to working with source control (on Azure Repos, GitHub, or elsewhere), you can have Azure Test Plans automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for additional tests before deploying to production. Azure DevOps Services, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see:
 
-  - [Create a CI/CD pipeline for Python with the Azure DevOps project](/azure/devops-project/azure-devops-project-python?view=vsts)
+  - [Create a CI/CD pipeline for Python with Azure DevOps Projects](/azure/devops-project/azure-devops-project-python?view=vsts)
   - [Python development in Azure with Visual Studio Team Services (video, 11m 21s)](https://azure.microsoft.com/resources/videos/connect-2017-python-development-in-azure-with-visual-studio-team-services/).

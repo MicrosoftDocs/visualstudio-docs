@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 09e1b9f7-5916-4ed6-a001-5c2d7e710682
 caps.latest.revision: 23
 author: "corob-msft"
-ms.author: "corob"
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Demo Sample

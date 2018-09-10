@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "class structure"
 ms.assetid: 37908cb7-f77b-4698-a4f9-3c21e5440fee
 caps.latest.revision: 29
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Working with Class Diagrams (Class Designer)

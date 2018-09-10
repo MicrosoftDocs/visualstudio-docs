@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Workflow Designer [WFD], overview"
 ms.assetid: 4cd062b1-b496-4668-bbc1-ee85545e066d
 caps.latest.revision: 17
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Developing Applications with the Workflow Designer

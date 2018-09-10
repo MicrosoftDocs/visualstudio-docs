@@ -33,8 +33,8 @@ helpviewer_keywords:
   - "Link task (MSBuild (Visual C++))"
 ms.assetid: 0a61f168-3113-4fa7-83a3-d9142e2a33f8
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Link Task
@@ -76,7 +76,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
      Optional **String** parameter.  
   
-     A list of linker options as specified on the command line. For example, **"***/option1 /option2 /option#*". Use this parameter to specify linker options that are not represented by any other **Link** task parameter.  
+     A list of linker options as specified on the command line. For example, **"**_/option1 /option2 /option#_". Use this parameter to specify linker options that are not represented by any other **Link** task parameter.  
   
      For more information, see [Linker Options](http://msdn.microsoft.com/library/c1d51b8a-bd23-416d-81e4-900e02b2c129).  
   

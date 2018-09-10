@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "data [Visual Basic], loading into datasets"
 ms.assetid: 7ab436d4-54ba-4621-902f-3f193279e18c
 caps.latest.revision: 16
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

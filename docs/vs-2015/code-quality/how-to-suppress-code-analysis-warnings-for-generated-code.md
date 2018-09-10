@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3a96434e-d419-43a7-81ba-95cccac835b8
 caps.latest.revision: 7
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # How to: Suppress Code Analysis Warnings for Generated Code

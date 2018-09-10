@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "displaying table information"
 ms.assetid: fc4b9055-2bf3-4028-8aad-9489820d69f6
 caps.latest.revision: 16
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

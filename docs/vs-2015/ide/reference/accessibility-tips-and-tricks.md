@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "accessibility [Visual Studio]"
 ms.assetid: 6b491d88-f79e-4686-8841-857624bdcfda
 caps.latest.revision: 26
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Accessibility Tips and Tricks
@@ -23,7 +23,7 @@ manager: "ghogen"
 The latest version of this topic can be found at [Accessibility Tips and Tricks](https://docs.microsoft.com/visualstudio/ide/reference/accessibility-tips-and-tricks).  
   
   
-INCLUDE[vsprvs](../../includes/vsprvs-md.md)] includes built-in accessibility features so you can easily work from the keyboard and use screen readers or other assistive technology devices. The topic includes some suggestions for optimizing [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] for accessibility as well as some useful shortcut key combinations.  
+[!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] includes built-in accessibility features so you can easily work from the keyboard and use screen readers or other assistive technology devices. The topic includes some suggestions for optimizing [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] for accessibility as well as some useful shortcut key combinations.  
   
 > [!NOTE]
 >  The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/en-us/22c4debb-4e31-47a8-8f19-16f328d7dcd3).  

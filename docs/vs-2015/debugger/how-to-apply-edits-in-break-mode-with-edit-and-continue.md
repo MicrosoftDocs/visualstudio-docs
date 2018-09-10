@@ -53,7 +53,7 @@ You can use Edit and Continue to edit your code in Break mode, and then continue
   
 -   Debugging optimized code.  
   
--   Debugging managed code when the target is a 64-bit application. If you want to use Edit and Continue, you must set the target to x86. (*Project***Properties**, **Compile** tab, **Advanced Compiler** setting.).  
+-   Debugging managed code when the target is a 64-bit application. If you want to use Edit and Continue, you must set the target to x86. (_Project_**Properties**, **Compile** tab, **Advanced Compiler** setting.).  
   
 -   Debugging an old version of your code after a new version failed to build due to build errors.  
   

@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "MSBuild, Exec task"
 ms.assetid: c9b7525a-b1c9-40fc-8bce-77a5b8f960d8
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Exec Task

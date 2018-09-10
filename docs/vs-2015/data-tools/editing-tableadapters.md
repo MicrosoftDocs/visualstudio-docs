@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "data [Visual Studio], table adapter queries"
 ms.assetid: 8c06b306-24d0-4521-948d-07e3b7badd95
 caps.latest.revision: 24
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

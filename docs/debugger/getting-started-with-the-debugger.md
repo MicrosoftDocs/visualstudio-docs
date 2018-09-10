@@ -25,7 +25,7 @@ This article introduces the features of the Visual Studio debugger in a step-by-
 |---------|---------|
 |  ![movie camera icon for video](../install/media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugger-Feature-tour-of-Visual-studio-2017-sqwiwLD6D_1111787171) on debugging that shows similar steps. |
 
-Although the demo app is C# and C++, the features are applicable to Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted). The screenshots are in C#.
+Although the demo app is C# and C++, the features are applicable to Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted). The screenshots are in C#. To switch between the C# and C++ sample code, use the language filter in the upper right of the page.
 
 In this tutorial, you will:
 

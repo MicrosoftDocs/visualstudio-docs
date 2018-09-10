@@ -143,7 +143,7 @@ To see what symbols are available in the export table of a DLL, use `dumpbin /ex
   
 -   To change the search paths, choose an unselected path or choose **New** and enter a new path. Choose **Load** to search the paths again and load the symbol file if it is found.  
   
--   Choose **Browse and find***executable-name***...** to override any symbol options and retry the search paths. The symbol file is loaded if it is found, or a File Explorer is displayed for you to manually select the symbol file.  
+-   Choose **Browse and find**_executable-name_**...** to override any symbol options and retry the search paths. The symbol file is loaded if it is found, or a File Explorer is displayed for you to manually select the symbol file.  
   
 -   Choose **Change Symbol Settings ...** to display the **Debugging** > **Symbols** page of the VS Options dialog.  
   
@@ -249,6 +249,6 @@ To see what symbols are available in the export table of a DLL, use `dumpbin /ex
      Note that both **Allow source server for partial trust assemblies (Managed only)** and **Always run untrusted source server commands without prompting** can increase the security risks discussed above.  
   
 ## See Also  
-[Understanding Symbol Files and Visual Studio Symbol Settings](https://blogs.msdn.microsoft.com/visualstudioalm/2015/01/05/understanding-symbol-files-and-visual-studios-symbol-settings/)
+[Understanding Symbol Files and Visual Studio Symbol Settings](https://blogs.msdn.microsoft.com/devops/2015/01/05/understanding-symbol-files-and-visual-studios-symbol-settings/)
 
-[.NET Remote Symbol Loading Changes in Visual Studio 2012 and 2013](http://blogs.msdn.com/b/visualstudioalm/archive/2013/10/16/net-remote-symbol-loading-changes-in-visual-studio-2012-and-2013.aspx)
+[.NET Remote Symbol Loading Changes in Visual Studio 2012 and 2013](https://blogs.msdn.microsoft.com/devops/2013/10/16/net-remote-symbol-loading-changes-in-visual-studio-2012-and-2013/)

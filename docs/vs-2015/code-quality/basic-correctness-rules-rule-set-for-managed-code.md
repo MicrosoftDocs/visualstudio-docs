@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 631f0daf-1d42-4c90-a7dc-1a6a9de64c93
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Basic Correctness Rules rule set for managed code

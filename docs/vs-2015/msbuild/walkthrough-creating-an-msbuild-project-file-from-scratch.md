@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "MSBuild, tutorial"
 ms.assetid: e3acff7c-cb4e-4ae1-8be2-a871bcff847b
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Walkthrough: Creating an MSBuild Project File from Scratch
@@ -483,7 +483,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
  Visual Studio can automatically do much of the work that is shown in this walkthrough. To learn how to use Visual Studio to create, edit, build, and test MSBuild project files, see [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md).  
   
 ## See Also  
-[MSBuild Overview](MSBuild1.md)  
+[MSBuild Overview](msbuild.md)  
  [MSBuild Reference](../msbuild/msbuild-reference.md)
 
 

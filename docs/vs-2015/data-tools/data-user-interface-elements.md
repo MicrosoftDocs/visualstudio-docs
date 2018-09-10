@@ -41,8 +41,8 @@ helpviewer_keywords:
   - "data [Visual Studio], dialog boxes"
 ms.assetid: 90943baf-5bd1-4eef-927f-f82485979fde
 caps.latest.revision: 18
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

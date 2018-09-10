@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "data, samples and walkthroughs"
 ms.assetid: 4a11401c-69b8-44e1-a01b-e0cef3223df4
 caps.latest.revision: 4
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

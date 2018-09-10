@@ -15,7 +15,7 @@ helpviewer_keywords:
 ms.assetid: 2903bec7-a93b-46a6-aac6-994ac4f3f1a7
 caps.latest.revision: 57
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Layer Diagrams: Guidelines

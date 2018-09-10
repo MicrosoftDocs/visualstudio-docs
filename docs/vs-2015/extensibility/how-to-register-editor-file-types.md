@@ -38,7 +38,7 @@ The easiest way to register editor file types is by using the registration attri
   
      Where ".Sample" is the extension that is registered for this editor, and "32" is its priority level.  
   
-     The `projectGuid` is the GUID for miscellaneous file types, defined in <xref:Microsoft.VisualStudio.VSConstants.CLSID_MiscellaneousFilesProject>. The miscellaneous file type is provided, so that the resulting file is not going to be a part of the build process.  
+     The `projectGuid` is the GUID for miscellaneous file types, defined in <xref:Microsoft.VisualStudio.VSConstants.CLSID.MiscellaneousFilesProject_guid>. The miscellaneous file type is provided, so that the resulting file is not going to be a part of the build process.  
   
      `TemplateDir` represents the folder that contains the template files that are included with the managed basic editor sample.  
   

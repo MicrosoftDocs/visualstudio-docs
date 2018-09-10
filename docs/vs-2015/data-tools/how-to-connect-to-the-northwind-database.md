@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Northwind sample database"
 ms.assetid: cc6cb79f-d035-41f8-b398-8d4a45922bfb
 caps.latest.revision: 29
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

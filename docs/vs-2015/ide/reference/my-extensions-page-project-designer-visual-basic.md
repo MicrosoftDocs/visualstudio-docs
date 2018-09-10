@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "My Extensions page in Project Designer"
 ms.assetid: 2f08494e-84c1-444b-872b-900fbbcf0364
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # My Extensions Page, Project Designer (Visual Basic)

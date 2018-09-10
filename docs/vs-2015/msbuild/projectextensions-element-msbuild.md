@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "ProjectExtensions element [MSBuild]"
 ms.assetid: f95f312f-ff92-41eb-9469-ad99e236a307
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # ProjectExtensions Element (MSBuild)
@@ -79,6 +79,6 @@ Allows [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] project files to
   
 ## See Also  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)  
- [MSBuild](MSBuild1.md)
+ [MSBuild](msbuild.md)
 
 

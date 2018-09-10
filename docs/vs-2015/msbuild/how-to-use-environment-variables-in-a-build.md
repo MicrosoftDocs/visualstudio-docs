@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "MSBuild, environment variables"
 ms.assetid: 7f9e4469-8865-4b59-aab3-3ff26bd36e77
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Use Environment Variables in a Build
@@ -69,7 +69,7 @@ When you build projects, it is often necessary to set build options using inform
   
 ## See Also  
 
-[MSBuild](MSBuild1.md)
+[MSBuild](msbuild.md)
 
 [MSBuild Properties](../msbuild/msbuild-properties1.md)
 

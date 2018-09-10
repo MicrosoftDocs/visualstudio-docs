@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "PropertyGroup element [MSBuild]"
 ms.assetid: ff1e6c68-b9a1-4263-a1ce-dc3b829a64d4
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # PropertyGroup Element (MSBuild)
@@ -79,7 +79,7 @@ Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md
   
 ## See Also  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)  
- [MSBuild Properties](MSBuild%20Properties.md)
+ [MSBuild Properties](msbuild-properties1.md)
 
 
 

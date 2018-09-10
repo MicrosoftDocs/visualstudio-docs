@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "text, case"
 ms.assetid: b04d1327-a45e-4c12-a0d0-67672b3fa855
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Change Text Case in the Editor

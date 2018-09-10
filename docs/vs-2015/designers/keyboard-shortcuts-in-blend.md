@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 3a1b6830-30c2-4a36-bd14-6961f5edf9cb
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Keyboard shortcuts in Blend

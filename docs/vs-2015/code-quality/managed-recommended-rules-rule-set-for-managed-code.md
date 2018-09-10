@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1d1160f8-4e51-4e70-99cd-82ad10ee7b32
 caps.latest.revision: 12
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Managed Recommended Rules rule set for managed code

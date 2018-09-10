@@ -15,21 +15,21 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# VSIX Project Template
-You can use the VSIX Project template to wrap one or more Visual Studio extensions in a VSIX project, and then publish the package on the [Visual Studio Gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site.  
+# VSIX project template
+You can use the VSIX Project template to wrap one or more Visual Studio extensions in a VSIX project, and then publish the package on the [Visual Studio gallery](http://go.microsoft.com/fwlink/?LinkID=123847) Web site.  
   
  VSIX deployment supports VSPackages, assemblies, MEF components, project templates, item templates, toolbox controls, and custom extension types.  
   
 > [!NOTE]
 >  To use VSIX projects, you must install the Visual Studio SDK. For more information about the Visual Studio SDK, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
-## Where to Find the VSIX Project Template  
+## Where to find the VSIX project template  
  The VSIX Project template is available in the **New Project** dialog box. Expand either the **Visual Basic** node or the **Visual C#** node, and then choose **Extensibility**.  
   
 > [!TIP]
->  You should make sure that .NET Framework 4.5 or higher is specified in the dropdown at the top of the **New Project** dialog box.  
+>  You should make sure that .NET Framework 4.5 or higher is specified in the drop-down list box at the top of the **New Project** dialog box.  
   
-## Uses of the VSIX Project Template  
+## Uses of the VSIX project template  
  The VSIX project template has two main uses:  
   
 -   To deploy project templates, item templates, and other extensions that do not already have VSIX support.  
@@ -38,16 +38,16 @@ You can use the VSIX Project template to wrap one or more Visual Studio extensio
   
  You do not have to use the VSIX Project template to deploy VSPackages or other kinds of extensions that already have VSIX support.  
   
-## Packaging an Extension in an Empty VSIX Project  
+## Packaging an extension in an empty VSIX project  
  You can package an existing extension, or an extension that does not already have VSIX support, by wrapping it in an empty VSIX project. The extension to be wrapped must be of a type that is supported by the [VSIX schema](../extensibility/vsix-extension-schema-2-0-reference.md).  
   
-#### To package an extension by using a VSIX project  
+### To package an extension by using a VSIX project  
   
 1.  Build the projects that make up your extension.  
   
 2.  Create a VSIX project by using the **VSIX Project** template.  
   
-     Source.extension.vsixmanifest opens in **Manifest Designer**.  
+     *Source.extension.vsixmanifest* opens in **Manifest Designer**.  
   
 3.  On the **Assets** tab, choose the **New** button.  
   
@@ -75,8 +75,8 @@ You can use the VSIX Project template to wrap one or more Visual Studio extensio
   
 8.  Build the solution.  
   
-     [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] builds a .vsix file that contains a VSIX manifest file, a [Content_Types].xml file, and all of the extension assets that you added to the project.  
+     [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] builds a *.vsix* file that contains a VSIX manifest file, a [Content_Types]*.xml* file, and all of the extension assets that you added to the project.  
   
-## See Also  
- [VSIX Extension Schema 2.0 Reference](../extensibility/vsix-extension-schema-2-0-reference.md)   
- [Finding and Using Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md)
+## See also  
+ [VSIX extension schema 2.0 reference](../extensibility/vsix-extension-schema-2-0-reference.md)   
+ [Find and use Visual Studio extensions](../ide/finding-and-using-visual-studio-extensions.md)

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, URL activation"
 ms.assetid: db31a16b-960f-4264-91d7-c7c40f876068
 caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Disable URL Activation of ClickOnce Applications

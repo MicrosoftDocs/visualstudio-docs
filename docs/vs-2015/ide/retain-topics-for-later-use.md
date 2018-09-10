@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "Favorites tab [Help Viewer 2.0]"
 ms.assetid: f0a4c657-001d-4604-a403-d46f15782724
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Retain Topics for Later Use

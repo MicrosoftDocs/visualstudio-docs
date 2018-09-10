@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bf7bbc2c-71dc-4cac-a6fc-add6b27d92ed
 caps.latest.revision: 5
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Use Breakpoints with XSLT

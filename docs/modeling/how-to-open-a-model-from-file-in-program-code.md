@@ -60,7 +60,7 @@ You can open DSL models in any application.
 
  The other domain class in this DSL is Person.
 
-```
+```csharp
 using System;
 using Microsoft.VisualStudio.Modeling;
 using Company.FamilyTree; // Your DSL namespace
@@ -99,7 +99,7 @@ namespace StandaloneReadDslConsole
 ## Saving to a File
  The following addition to the previous code makes a change to the model and then saves it to a file.
 
-```
+```csharp
 using (Transaction t =
   store.TransactionManager.BeginTransaction("update model"))
 {

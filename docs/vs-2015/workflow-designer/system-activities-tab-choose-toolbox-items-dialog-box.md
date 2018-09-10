@@ -12,8 +12,8 @@ f1_keywords:
   - "VS.CHOOSEITEMS.SYSTEM.ACTIVITIES COMPONENTS"
 ms.assetid: cef390cd-eeda-42e6-9d2e-18c8325a4f06
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # System.Activities Tab, Choose Toolbox Items Dialog Box

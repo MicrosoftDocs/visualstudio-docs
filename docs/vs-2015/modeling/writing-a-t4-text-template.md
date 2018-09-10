@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "text templates, functions that generate text"
 ms.assetid: 94328da7-953b-4e92-9587-648543d1f732
 caps.latest.revision: 45
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Writing a T4 Text Template

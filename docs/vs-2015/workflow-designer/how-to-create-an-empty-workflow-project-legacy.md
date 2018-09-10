@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "workflows, empty workflow projects"
 ms.assetid: f81b9cf2-9adb-47a2-936b-cb1851614e19
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Create an Empty Workflow Project (Legacy)

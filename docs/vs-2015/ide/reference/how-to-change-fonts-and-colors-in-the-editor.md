@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "editors, text color"
 ms.assetid: 3f7629d1-1cdf-4046-9a31-0632517f234d
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Change Fonts and Colors in the Editor

@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Add Existing Item command"
 ms.assetid: 41f56131-d4c7-4f81-83b7-bdac713ea870
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Add Existing Item Command

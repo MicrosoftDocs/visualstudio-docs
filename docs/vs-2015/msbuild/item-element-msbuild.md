@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "<Item> Element [MSBuild]"
 ms.assetid: dcef5f91-0613-4bfc-8ee9-d7004bb6d3a9
 caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Item Element (MSBuild)
@@ -95,7 +95,7 @@ Contains a user-defined item and its metadata. Every item that is used in a [!IN
   
 ## See Also  
  [Items](../msbuild/msbuild-items.md)   
- [MSBuild Properties](MSBuild%20Properties.md)   
+ [MSBuild Properties](msbuild-properties1.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
 
 

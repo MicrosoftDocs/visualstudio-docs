@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "MSBuild (Visual C++), RC task"
 ms.assetid: 2fd26c75-a056-4dda-9f7e-2f90d3748d88
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # RC Task
@@ -43,7 +43,7 @@ Wraps the Microsoft Windows Resource Compiler tool, rc.exe. The **RC** task comp
 |Parameter|Description|  
 |---------------|-----------------|  
 |**AdditionalIncludeDirectories**|Optional **String[]** parameter.<br /><br /> Adds a directory to the list of directories that are searched for include files.<br /><br /> For more information, see the **/I** option in [Using RC (The RC Command Line)](http://go.microsoft.com/fwlink/?LinkId=155730) on the MSDN Web site.|  
-|**AdditionalOptions**|Optional **String** parameter.<br /><br /> A list of command-line optionsor example, **"***/option1 /option2 /option#*". Use this parameter to specify command-line options that are not represented by any other **RC** task parameter.<br /><br /> For more information, see the options in [Using RC (The RC Command Line)](http://go.microsoft.com/fwlink/?LinkId=155730) on the MSDN Web site.|  
+|**AdditionalOptions**|Optional **String** parameter.<br /><br /> A list of command-line optionsor example, **"**_/option1 /option2 /option#_". Use this parameter to specify command-line options that are not represented by any other **RC** task parameter.<br /><br /> For more information, see the options in [Using RC (The RC Command Line)](http://go.microsoft.com/fwlink/?LinkId=155730) on the MSDN Web site.|  
 |**Culture**|Optional **String** parameter.<br /><br /> Specifies a locale ID that represents the culture used in the resources.<br /><br /> For more information, see the **/l** option in [Using RC (The RC Command Line)](http://go.microsoft.com/fwlink/?LinkId=155730) on the MSDN Web site.|  
 |**IgnoreStandardIncludePath**|Optional **Boolean** parameter.<br /><br /> If `true`, prevents the resource compiler from checking the INCLUDE environment variable when it searches for header files or resource files.<br /><br /> For more information, see the **/x** option in [Using RC (The RC Command Line)](http://go.microsoft.com/fwlink/?LinkId=155730) on the MSDN Web site.|  
 |**NullTerminateStrings**|Optional **Boolean** parameter.<br /><br /> If `true`, null-terminates all strings in the string table.<br /><br /> For more information, see the **/n** option in [Using RC (The RC Command Line)](http://go.microsoft.com/fwlink/?LinkId=155730) on the MSDN Web site.|  

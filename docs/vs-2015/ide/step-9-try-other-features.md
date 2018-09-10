@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1b0c5c80-e5a6-4f69-a4a4-0e89a82d4de0
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Step 9: Try Other Features

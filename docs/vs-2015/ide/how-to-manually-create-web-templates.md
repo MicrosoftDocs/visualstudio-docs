@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "project templates [Visual Studio], Web"
 ms.assetid: 731c4027-a152-48c5-bfc4-93490bf1949f
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Manually Create Web Templates

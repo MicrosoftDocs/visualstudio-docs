@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "field JavaScript XML tag"
 ms.assetid: c494bae0-3095-42a3-aa0a-4c415188c65c
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # &lt;field&gt; (JavaScript)

@@ -10,7 +10,7 @@ ms.topic: "reference"
 ms.assetid: f42d3115-2ed2-4941-8f1e-92dac41c30fa
 caps.latest.revision: 3
 author: "steved0x"
-ms.author: "sdanie"
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Use Search in the Workflow Designer

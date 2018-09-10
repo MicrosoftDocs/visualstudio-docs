@@ -25,7 +25,7 @@ helpviewer_keywords:
 ms.assetid: 81f0c9e8-f471-4de5-aac4-99db336a8809
 caps.latest.revision: 27
 author: "corob-msft"
-ms.author: "corob"
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Code Analysis for C/C++ Overview

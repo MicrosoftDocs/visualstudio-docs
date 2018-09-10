@@ -13,8 +13,8 @@ f1_keywords:
   - "vs.codeanalysis.selecttfsruleset"
 ms.assetid: 9b02f934-2db6-41ec-aaff-9c31ceec2f04
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # How to: Synchronize Code Project Rule Sets with Team Project Check-in Policy

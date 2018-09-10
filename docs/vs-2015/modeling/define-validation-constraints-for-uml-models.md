@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 87b3b0da-122d-4121-9318-200c38ff49d0
 caps.latest.revision: 49
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Define validation constraints for UML models
@@ -371,7 +371,7 @@ context.LogError(... , usecase);
   
     1.  In **Solution Explorer**, on the shortcut menu of the VSIX project, choose **Open Folder in Windows Explorer**.  
   
-    2.  Locate the file **bin\\\*\\***YourProject***.vsix**  
+    2.  Locate the file **bin\\\*\\**_YourProject_**.vsix**  
   
 2.  Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
   

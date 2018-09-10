@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "unit tests, running"
 ms.assetid: d23a9ee7-58e3-4e8b-a38c-b2207ea73fea
 caps.latest.revision: 27
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Run a unit test as a 64-bit process

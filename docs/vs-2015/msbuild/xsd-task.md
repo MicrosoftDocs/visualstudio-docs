@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "MSBuild (Visual C++), XSD task"
 ms.assetid: 15c99f5c-7124-4bbc-bc03-70c7bcce8893
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # XSD Task

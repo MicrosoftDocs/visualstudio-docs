@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Visual C#, default snippets"
 ms.assetid: dbea3dd6-e650-4190-b874-c9f097d7de6e
 caps.latest.revision: 37
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Visual C# Code Snippets
@@ -63,7 +63,7 @@ Code snippets are ready-made snippets of code you can quickly insert into your c
 |mbox|Creates a call to <xref:System.Windows.Forms.MessageBox.Show%2A?displayProperty=fullName>. You may have to add a reference to System.Windows.Forms.dll.|Inside a method, an indexer, a property accessor, or an event accessor.|  
 |namespace|Creates a [namespace](http://msdn.microsoft.com/library/0a788423-9110-42e0-97d9-bda41ca4870f) declaration.|Inside a namespace (including the global namespace).|  
 |prop|Creates an [auto-implemented property](http://msdn.microsoft.com/library/aa55fa97-ccec-431f-b5e9-5ac789fd32b7) declaration.|Inside a class or a struct.|  
-ropfull|Creates a property declaration with get and set accessors.|Inside a class or a struct.|  
+|propfull|Creates a property declaration with get and set accessors.|Inside a class or a struct.|  
 |propg|Creates a read-only [auto-implemented property](http://msdn.microsoft.com/library/aa55fa97-ccec-431f-b5e9-5ac789fd32b7) with a private "set" accessor.|Inside a class or a struct.|  
 |sim|Creates a [static](http://msdn.microsoft.com/library/5509e215-2183-4da3-bab4-6b7e607a4fdf)[int](http://msdn.microsoft.com/library/212447b4-5d2a-41aa-88ab-84fe710bdb52) Main method declaration.|Inside a class or a struct.|  
 |struct|Creates a [struct](http://msdn.microsoft.com/library/ff3dd9b7-dc93-4720-8855-ef5558f65c7c) declaration.|Inside a namespace (including the global namespace), a class, or a struct.|  

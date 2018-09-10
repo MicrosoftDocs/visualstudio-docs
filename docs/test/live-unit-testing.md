@@ -12,7 +12,6 @@ ms.author: "ronpet"
 ms.workload:
   - "dotnet"
 ---
-
 # Live Unit Testing with Visual Studio 2017
 
 As you are developing an application, Live Unit Testing automatically runs any impacted unit tests in the background and presents the results and code coverage live in the Visual Studio IDE in real time. As you modify your code, Live Unit Testing provides feedback on how your changes impacted existing tests and whether the new code you've added is covered by one or more existing tests. This will gently remind you to write unit tests as you are making bug fixes or adding new features.
@@ -54,29 +53,42 @@ In some cases, you may need to explicitly restore the NuGet packages referenced 
 
 ## Configure Live Unit Testing
 
-You can configure Live Unit Testing by selecting **Tools** > **Options** from the top-level Visual Studio menu, and then selecting **Live Unit Testing** in the left pane of the **Options** dialog. The following figure shows the Live Unit Testing configuration options available in the dialog.
+You can configure Live Unit Testing by selecting **Tools** > **Options** from the top-level Visual Studio menu bar, and then selecting **Live Unit Testing** in the left pane of the **Options** dialog.
+
+> [!TIP]
+> Once Live Unit Testing is enabled (see the next section, [Start, pause, and stop Live Unit Testing](#start-pause-and-stop-live-unit-testing)), you can also open the **Options** dialog by selecting **Test** > **Live Unit Testing** > **Options**.
+
+The following figure shows the Live Unit Testing configuration options available in the dialog:
 
   ![Image](./media/lut-options.png)
 
 The configurable options include:
 
-- Whether Live Unit Testing pauses when a solution is built and debugged
+- Whether Live Unit Testing pauses when a solution is built and debugged.
 
 - Whether Live Unit Testing pauses when a system's battery power falls below a specified threshold.
+
 - Whether Live Unit Testing runs automatically when a solution is opened.
+
+- Whether to enable debug symbol and XML documentation comment generation.
+
 - The directory in which to store persisted data.
-   The **Delete Persisted Data** button allows you to delete all persisted data. This is useful when Live Unit Testing is behaving in unpredictable or unexpected ways, which suggests that the persisted data has become corrupted.
+
+- The ability to delete all persisted data. This is useful when Live Unit Testing is behaving in unpredictable or unexpected ways, which suggests that the persisted data has become corrupted.
+   
 - The interval after which a test case times out; the default is 30 seconds.
+
 - The maximum number of test processes that Live Unit Testing creates.
+
 - The maximum amount of memory that Live Unit Testing processes can consume.
+
 - The level of information written to the Live Unit Testing **Output** window.
+
    Options include no logging (**None**), error messages only (**Error**), error and informational messages (**Info**, the default), or all detail (**Verbose**).
 
-You can also display verbose output in the Live Unit Testing **Output** window by assigning a value of "1" to a user-level environment variable named `VS_UTE_DIAGNOSTICS` and restarting Visual Studio.
+   You can also display verbose output in the Live Unit Testing **Output** window by assigning a value of "1" to a user-level environment variable named `VS_UTE_DIAGNOSTICS`, and then restarting Visual Studio.
 
-To capture detailed MSBuild log messages from Live Unit Testing to a file, set the `LiveUnitTesting_BuildLog` user-level environment variable to the name of the file to contain the log.
-
-Once Live Unit Testing is enabled (see the next section, [Start, pause, and stop Live Unit Testing](#start-pause-and-stop-live-unit-testing), you can also open the **Options** dialog by selecting **Test** > **Live Unit Testing** > **Options**.
+   To capture detailed MSBuild log messages from Live Unit Testing in a file, set the `LiveUnitTesting_BuildLog` user-level environment variable to the name of the file to contain the log.
 
 ## Start, pause, and stop Live Unit Testing
 
@@ -97,7 +109,7 @@ At any time, you can temporarily pause or completely stop Live Unit Testing. You
 
 - **Options**, which opens the **Options** dialog described in the [Configure Live Unit Testing](#configure-live-unit-testing) section.
 
-##	View coverage visualization in the editor as you type
+## View coverage visualization in the editor as you type
 
 Once enabled, Live Unit Testing updates each line of code in the Visual Studio editor to show you whether the code you're writing is covered by unit tests and whether the tests that cover it are passing.  The following figure shows lines of code with both passing and failing tests, as well as lines of code that are not covered by tests. Lines decorated with a green "✓" are covered only by passing tests, lines decorated with a red "x" are covered by one or more failing tests, and lines decorated by a blue  "➖" are not covered by any test.
 
@@ -182,8 +194,8 @@ You can also use the following attributes to exclude individual methods from Liv
 
 ## See also
 
-[Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
-[Live Unit Testing blog](https://go.microsoft.com/fwlink/?linkid=842514)
-[Live Unit Testing FAQ](live-unit-testing-faq.md)
-[Channel 9 video: Live Unit Testing in Visual Studio 2017](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105)
+- [Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
+- [Live Unit Testing blog](https://go.microsoft.com/fwlink/?linkid=842514)
+- [Live Unit Testing FAQ](live-unit-testing-faq.md)
+- [Channel 9 video: Live Unit Testing in Visual Studio 2017](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105)
 

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "logging [MSBuild]"
 ms.assetid: fa34810d-185a-4d22-92bd-9852915e5f1d
 caps.latest.revision: 14
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Build Loggers

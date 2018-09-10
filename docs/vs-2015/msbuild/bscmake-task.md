@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "BscMake task (MSBuild (Visual C++))"
 ms.assetid: bb98fc67-cad8-43a7-9598-60df6d734db2
 caps.latest.revision: 10
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # BscMake Task

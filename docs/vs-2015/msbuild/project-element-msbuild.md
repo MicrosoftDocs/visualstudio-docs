@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "Project element [MSBuild]"
 ms.assetid: d1cda56a-dbef-4109-9201-39e962e3f653
 caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Project Element (MSBuild)
@@ -84,6 +84,6 @@ Required root element of an [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.
  [How to: Specify Which Target to Build First](../msbuild/how-to-specify-which-target-to-build-first.md)   
  [Command-Line Reference](../msbuild/msbuild-command-line-reference.md)   
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   
- [MSBuild](MSBuild1.md)
+ [MSBuild](msbuild.md)
 
 

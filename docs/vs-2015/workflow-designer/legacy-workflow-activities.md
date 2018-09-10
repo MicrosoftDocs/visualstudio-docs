@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "workflow activities"
 ms.assetid: 4af7a06b-1e82-43c8-aec8-0dc5fb63d08a
 caps.latest.revision: 8
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Legacy Workflow Activities

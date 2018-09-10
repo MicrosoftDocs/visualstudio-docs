@@ -13,7 +13,7 @@ helpviewer_keywords:
 ms.assetid: e5e1d70a-3539-4321-a3b1-89e86e4d6430
 caps.latest.revision: 36
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Define a gesture handler on a modeling diagram
@@ -356,7 +356,7 @@ foreach (IElement element in modelStore.AllInstances<IUseCase>) {...}
   
     1.  In **Solution Explorer**, on the shortcut menu of the VSIX project, choose **Open Folder in Windows Explorer**.  
   
-    2.  Locate the file **bin\\\*\\***YourProject***.vsix**  
+    2.  Locate the file **bin\\\*\\**_YourProject_**.vsix**  
   
 2.  Copy the **.vsix** file to the target computer on which you want to install the extension. This can be your own computer or another one.  
   

@@ -26,8 +26,8 @@ helpviewer_keywords:
   - "Task List, comment tasks"
 ms.assetid: 88327e04-fa3e-48db-995b-ad89e0dc4ed2
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Task List, Environment, Options Dialog Box

@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: dc2746f4-0b5c-4674-9ef7-f40f94150f52
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Step 5: Add Controls to Your Form

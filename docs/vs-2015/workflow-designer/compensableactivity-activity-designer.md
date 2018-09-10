@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.CompensableActivity.UI"
 ms.assetid: e0340d89-d39e-4a52-8557-13e27040d7b5
 caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # CompensableActivity Activity Designer

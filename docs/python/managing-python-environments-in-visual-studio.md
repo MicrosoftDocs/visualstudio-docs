@@ -41,7 +41,7 @@ Global environments are available to all projects on the computer. In Visual Stu
 
 Because packages installed into a global environment are available to all projects that use that environment, conflicts may occur when two projects require incompatible packages or different versions of the same package. Virtual environments avoid such conflicts by using the interpreter and standard library from a global environment but maintaining their own package stores in isolated folders.
 
-In Visual Studio, you can create a virtual environment for a specific project, which is stored in a subfolder in the project. Visual Studio provides a command to generate a *requirements.txt* file from the virtual environment, making it easy to recreate the environment on other computers. For more information, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#using-virtual-environments).
+In Visual Studio, you can create a virtual environment for a specific project, which is stored in a subfolder in the project. Visual Studio provides a command to generate a *requirements.txt* file from the virtual environment, making it easy to recreate the environment on other computers. For more information, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#use-virtual-environments).
 
 ### Conda environments
 

@@ -28,8 +28,8 @@ helpviewer_keywords:
   - "user interface, culture setting"
 ms.assetid: b0788993-e62d-4f68-8235-5f87b1d48525
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Introduction to International Applications Based on the .NET Framework

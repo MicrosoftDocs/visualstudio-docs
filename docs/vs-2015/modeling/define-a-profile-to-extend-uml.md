@@ -17,7 +17,7 @@ helpviewer_keywords:
 ms.assetid: 776589cb-f89d-48d5-aafa-04a4c074b0d6
 caps.latest.revision: 44
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Define a profile to extend UML
@@ -346,7 +346,7 @@ You can define a *UML profile* to customize the standard model elements for spec
   
 2.  Ensure that each Moniker name is in the form /profileName/nodeName. The profileName is the value of the name attribute in the root profile node. The nodeName is the value of the name attribute of a metaclass, externalType, or enumerationType.  
   
-3.  Ensure the syntax is as described here, and as demonstrated in *drive***:\Program Files\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft\Architecture Tools\UmlProfiles\\**.  
+3.  Ensure the syntax is as described here, and as demonstrated in _drive_**:\Program Files\Microsoft Visual Studio [version]\Common7\IDE\Extensions\Microsoft\Architecture Tools\UmlProfiles\\**.  
   
 4.  Uninstall the faulty extension. On the **Tools** menu, click **Extensions and Updates**.  
   

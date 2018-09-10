@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 63279da9-69ac-49ad-ac7d-43957c45e0ce
 caps.latest.revision: 8
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # API Reference for T4 Text Templates

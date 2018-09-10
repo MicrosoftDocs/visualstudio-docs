@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "code analysis, check-in policies"
 ms.assetid: d1b3b04f-4dd9-40e6-b2d4-b414d33fb647
 caps.latest.revision: 10
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # How to: Enforce Maintainable Code with a Code Analysis Check-in Policy

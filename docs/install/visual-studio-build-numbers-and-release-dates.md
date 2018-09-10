@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: douge
-ms.date: 08/02/2018
+ms.date: 09/06/2018
 ms.topic: reference
 helpviewer_keywords:
 ms.prod: visual-studio-dev15
@@ -19,6 +19,13 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.8.3 | Release | September 6, 2018 | 15.8.28010.2019 |
+| 15.8.2 | Release | August 28, 2018 | 15.8.28010.2016 |
+| 15.0.18 | Release | August 28, 2018 | 15.0.26228.52 |
+| 15.9.0 Preview 1 | Preview | August 20, 2018 | 15.9.28016.0 |
+| 15.8.1 | Release | August 17, 2018 | 15.8.28010.2003 |
+| 15.8.0 | Release | August 14, 2018 | 15.8.28010.0 |
+| 15.0.17 | Release | August 14, 2018 | 15.0.26228.49 |
 | 15.7.6 | Release | August 2, 2018 | 15.7.27703.2047 |
 | 15.0.16 | Release | August 2, 2018 | 15.0.26228.48 |
 | 15.8.0 Preview 5 | Preview | July 26, 2018 | 15.8.27924.0 |
@@ -134,16 +141,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.1 Preview 1 | Preview | March 7, 2017 | 15.0.26304.0 |
 | 15.0.0 | Release | March 7, 2017 | 15.0.26228.4 |
 
-## Get support
-
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
-
-Here are a few more support options:
-
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 

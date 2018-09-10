@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "BuildLog.htm"
 ms.assetid: 56420efd-6a95-464e-b890-e2b38c48d66a
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # VC++ Project Settings, Projects and Solutions, Options Dialog Box

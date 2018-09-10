@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "Output Element [MSBuild]"
 ms.assetid: 34bc7cd1-efd3-4b57-b691-4584eeb6a0e9
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Output Element (MSBuild)

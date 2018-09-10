@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, user interface"
 ms.assetid: 81ae6b35-6819-41d0-953b-6b4ed81f9227
 caps.latest.revision: 27
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Overview of the Domain-Specific Language Tools User Interface

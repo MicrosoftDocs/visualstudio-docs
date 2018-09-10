@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: fed7bc08-295a-46d6-9fd8-fb537f1f75f1
 caps.latest.revision: 44
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Add custom architecture validation to layer diagrams

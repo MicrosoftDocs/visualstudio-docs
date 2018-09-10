@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "databases, samples"
 ms.assetid: 821de34b-eaa9-40af-b9aa-b8305de16899
 caps.latest.revision: 31
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Installing database systems, tools, and samples

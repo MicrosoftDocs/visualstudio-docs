@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "MSBuild, reserved properties"
 ms.assetid: 99333e61-83c9-4804-84e3-eda297c2478d
 caps.latest.revision: 34
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # MSBuild Reserved and Well-Known Properties
@@ -28,7 +28,7 @@ manager: "ghogen"
 The latest version of this topic can be found at [MSBuild Reserved and Well-Known Properties](https://docs.microsoft.com/visualstudio/msbuild/msbuild-reserved-and-well-known-properties).  
   
   
-INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] provides a set of predefined properties that store information about the project file and the [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] binaries. These properties are evaluated in the same manner as other [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] properties. For example, to use the `MSBuildProjectFile` property, you type `$(MSBuildProjectFile)`.  
+[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] provides a set of predefined properties that store information about the project file and the [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] binaries. These properties are evaluated in the same manner as other [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] properties. For example, to use the `MSBuildProjectFile` property, you type `$(MSBuildProjectFile)`.  
   
  MSBuild uses the values in the following table to predefine reserved and well-known properties. Reserved properties cannot be overridden, but well-known properties can be overridden by using identically named environment properties, global properties, or properties that are declared in the project file.  
   
@@ -63,7 +63,7 @@ INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] provides a set of predefi
   
 ## See Also  
  [MSBuild Reference](../msbuild/msbuild-reference.md)
- [MSBuild Properties](MSBuild%20Properties.md)
+ [MSBuild Properties](msbuild-properties1.md)
 
 
 

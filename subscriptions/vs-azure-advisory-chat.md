@@ -20,16 +20,16 @@ Get help starting with Azure in real time! Includes advisory for Azure PaaS serv
 Using the Azure Advisory Chat is easy.
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 2. Locate the Azure Advisory Chat tile in the Support section, and click **Chat now**.
-
-    ![Azure Advisory Chat Tile](_img/vs-azure-advisory/vs-azure-advisory-tile.png)
+    > [!div class="mx-imgBorder"]
+    > ![Azure Advisory Chat Tile](_img/vs-azure-advisory/vs-azure-advisory-tile.png)
 
 3. You'll see a notification that the service is currently offered in English only with the exception of support for account, billing, and subscription issues.  Click **Continue**.
-
-    ![Azure Advisory Chat Disclaimer](_img/vs-azure-advisory/vs-azure-advisory-disclaimer.png)
+    > [!div class="mx-imgBorder"]
+    > ![Azure Advisory Chat Disclaimer](_img/vs-azure-advisory/vs-azure-advisory-disclaimer.png)
 
 4. That's all there is to it.  A chat window will open, and you'll see a status letting you know where you are in the queue.  Your chat will be answered by the next available expert.
-
-    ![Azure Advisory Chat](_img/vs-azure-advisory/vs-azure-advisory-chat.png)
+    > [!div class="mx-imgBorder"]
+    > ![Azure Advisory Chat](_img/vs-azure-advisory/vs-azure-advisory-chat.png)
 
 ## Eligibility
 
@@ -51,4 +51,4 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Support Resources
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+-  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

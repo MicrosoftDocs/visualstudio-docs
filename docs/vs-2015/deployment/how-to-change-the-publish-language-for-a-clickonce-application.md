@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "publishing, ClickOnce"
 ms.assetid: ef5024c4-cda1-4970-bc75-32a2a10c92c3
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Change the Publish Language for a ClickOnce Application

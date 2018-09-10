@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, Domain-Specific Language Explorer"
 ms.assetid: d2926444-9408-41d8-a27e-3fd0c416f9ac
 caps.latest.revision: 22
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Customizing the Model Explorer

@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 2697fd5d-b936-4b6b-b87b-be64825dc7a4
 caps.latest.revision: 4
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Controlling the Visibility of an Icon or Decorator

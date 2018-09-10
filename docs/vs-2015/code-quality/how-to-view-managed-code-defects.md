@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "code, viewing defects"
 ms.assetid: 58aa6c23-d0b3-414d-930d-82e676cb7e5f
 caps.latest.revision: 15
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # How to: View Managed Code Defects

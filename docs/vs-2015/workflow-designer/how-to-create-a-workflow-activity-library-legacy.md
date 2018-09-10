@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "projects, workflow activity libraries"
 ms.assetid: fb5aa940-2ae8-4b52-b52c-51c20861a7b4
 caps.latest.revision: 8
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Create a Workflow Activity Library (Legacy)

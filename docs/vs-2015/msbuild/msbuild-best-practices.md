@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "MSBuild, best practices"
 ms.assetid: 90ef8693-e921-410a-a377-fe4d13f58c48
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # MSBuild Best Practices

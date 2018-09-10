@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, image shape"
 ms.assetid: 9ce00ccd-07f2-4640-ac96-2a60481d0d72
 caps.latest.revision: 27
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Properties of Image Shapes

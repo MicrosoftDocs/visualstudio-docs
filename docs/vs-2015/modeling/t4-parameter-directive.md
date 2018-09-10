@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 1d590387-1d9d-40a5-a72c-65fae7a8bdf3
 caps.latest.revision: 5
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # T4 Parameter Directive

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "versioning, assemblies"
 ms.assetid: 5489aea1-57b4-4561-9bb4-24d490269602
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Version Numbers for Main and Localized Satellite Assemblies

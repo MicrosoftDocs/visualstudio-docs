@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "accessibility, Web applications"
 ms.assetid: 426bf023-bb34-43c4-9edb-c307191c8170
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Resources for Designing Accessible Applications

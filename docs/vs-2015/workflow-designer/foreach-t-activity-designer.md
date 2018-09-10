@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.ForEach`1.UI"
 ms.assetid: 67097b3a-fcf5-4a72-beb1-2c7784151a86
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # ForEach&lt;T&gt; Activity Designer

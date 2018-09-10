@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "GetDeploymentDataFromManifest [ClickOnce unmanaged]"
 ms.assetid: ec002138-4054-456d-bcc1-79ac2f4a4fd7
 caps.latest.revision: 8
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # ClickOnce Unmanaged API Reference
@@ -30,7 +30,7 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [ClickOnce Unmanaged API Reference](https://docs.microsoft.com/visualstudio/deployment/clickonce-unmanaged-api-reference).  
   
-INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] unmanaged public APIs from dfshim.dll.  
+[!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] unmanaged public APIs from dfshim.dll.  
   
 ## CleanOnlineAppCache  
  Cleans or uninstalls all online applications from the [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application cache.  

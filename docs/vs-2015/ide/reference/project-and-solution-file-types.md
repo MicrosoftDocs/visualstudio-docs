@@ -32,8 +32,8 @@ helpviewer_keywords:
   - "file types"
 ms.assetid: 0ba5007b-465d-4efa-b1e4-f0ee68527649
 caps.latest.revision: 24
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Project and Solution File Types
@@ -42,7 +42,7 @@ manager: "ghogen"
 The latest version of this topic can be found at [Project and Solution File Types](https://docs.microsoft.com/visualstudio/ide/reference/project-and-solution-file-types).  
   
   
-INCLUDE[vsprvs](../../includes/vsprvs-md.md)] supports many file types. In a particular installation, the installed components determine which file types are supported. This topic lists solution and project file types that are supported in some typical installations. For information about other file types, search by using the file name extensions for each type.  
+[!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] supports many file types. In a particular installation, the installed components determine which file types are supported. This topic lists solution and project file types that are supported in some typical installations. For information about other file types, search by using the file name extensions for each type.  
   
 ## Solution Files (.sln and .suo)  
  [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] uses two file types (.sln and .suo) to store settings specific to solutions. These files, known collectively as solution files, provide Solution Explorer with the information it needs to display a graphical interface for managing your files. They allow you to concentrate on your projects and final goals rather than on the environment itself each time you return to your development tasks.  

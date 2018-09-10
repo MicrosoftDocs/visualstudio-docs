@@ -11,8 +11,8 @@ f1_keywords:
   - "System.ServiceModel.Activities.CorrelationScope.UI"
 ms.assetid: 75f20664-9042-464d-8e2b-148d365a2286
 caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # CorrelationScope Activity Designer

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "WCF services, walkthrough"
 ms.assetid: 5fef1a64-27a4-4f10-aa57-29023e28a2d6
 caps.latest.revision: 29
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Walkthrough: Creating a simple WCF Service in Windows Forms

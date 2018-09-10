@@ -35,7 +35,7 @@ helpviewer_keywords:
 ms.assetid: c9f04cfa-72bd-419d-a952-616eed01472e
 caps.latest.revision: 129
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Analyze and model your architecture

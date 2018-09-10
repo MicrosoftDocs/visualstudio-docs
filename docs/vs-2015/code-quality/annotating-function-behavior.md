@@ -24,7 +24,7 @@ f1_keywords:
 ms.assetid: c0aa268d-6fa3-4ced-a8c6-f7652b152e61
 caps.latest.revision: 13
 author: "corob-msft"
-ms.author: "corob"
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Annotating Function Behavior

@@ -2,7 +2,7 @@
 title: "Create a Node.js and React app"
 description: In this tutorial, you create an app in using Node.js tools for Visual Studio
 ms.custom: "mvc"
-ms.date: "05/23/2018"
+ms.date: "09/06/2018"
 ms.technology: vs-nodejs
 ms.topic: "tutorial"
 ms.devlang: javascript
@@ -25,6 +25,30 @@ In this tutorial, you learn how to:
 > * Add React code to your app
 > * Transpile JSX
 > * Attach the debugger
+
+## Before you begin
+
+Here's a quick FAQ to introduce you to some key concepts.
+
+### What is Node.js?
+
+Node.js is a server-side JavaScript runtime environment that executes JavaScript server-side.
+
+### What is npm?
+
+npm is the default package manager for the Node.js. The package manager makes it easier for programmers to publish and share source code of Node.js libraries and is designed to simplify installation, updating, and uninstallation of libraries.
+
+### What is React?
+
+React is a front-end framework to create a UI.
+
+### What is JSX?
+
+JSX is a JavaScript syntax extension, typically used with React to describe UI elements. JSX code must be transpiled to plain JavaScript before it can run in a browser.
+
+### What is webpack?
+
+webpack bundles JavaScript files so they can run in a browser. It can also transform or package other resources and assets. It is often used to specify a compiler, such as Babel or TypeScript, to transpile JSX or TypeScript code to plain JavaScript.
 
 ## Prerequisites
 
@@ -56,13 +80,15 @@ First, create a Node.js web application project.
 
     ![Node.js project in Solution Explorer](../javascript/media/tutorial-nodejs-react-project-structure.png)
 
-    * Highlighted in bold is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, since the project file does not make custom changes to the Node.js project source.
+    (1) Highlighted in **bold** is your project, using the name you gave in the **New Project** dialog box. In the file system, this project is represented by a *.njsproj* file in your project folder. You can set properties and environment variables associated with the project by right-clicking the project and choosing **Properties**. You can do round-tripping with other development tools, because the project file does not make custom changes to the Node.js project source.
 
-    * At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
+    (2) At the top level is a solution, which by default has the same name as your project. A solution, represented by a *.sln* file on disk, is a container for one or more related projects.
 
-    * The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box.
+    (3) The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box or install and update packages using the settings in *package.json* and right-click options in the npm node.
 
-    * Project files such as *server.js* show up under the project node. *server.js* is the project startup file.
+    (4) *package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages. For more information on this file, see [package.json configuration](../javascript/configure-packages-with-package-json.md)
+
+    (5) Project files such as *server.js* show up under the project node. *server.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
 
 ## Add npm packages
 
@@ -89,24 +115,26 @@ This app requires a number of npm modules to run correctly.
 
     The project's *package.json* file is updated with the new package information including the package version.
 
-1. Instead of using the UI to search for and add the rest of the packages one at a time, paste the following code into package.json. Replace the `dependencies` section with this code:
+1. Instead of using the UI to search for and add the rest of the packages one at a time, paste the following code into package.json. To do this, add a `dependencies` section with this code:
 
-    ```js
+    ```json
     "dependencies": {
-      "express": "4.16.2",
-      "path": "0.12.7",
-      "react": "16.4.0",
-      "react-dom": "16.4.0",
-      "ts-loader": "4.0.1",
-      "typescript": "2.7.2",
-      "webpack": "4.1.1",
-      "webpack-cli": "2.0.11"
+      "express": "~4.16.3",
+      "path": "~0.12.7",
+      "react": "~16.4.2",
+      "react-dom": "~16.4.2",
+      "ts-loader": "~4.5.0",
+      "typescript": "~2.9.2",
+      "webpack": "~4.17.1",
+      "webpack-cli": "~2.1.5"
     }
     ```
 
+    If there is already a `dependencies` section in your version of the blank template, just replace it with the preceding JSON code. For more information on use of this file, see [package.json configuration](../javascript/configure-packages-with-package-json.md)
+
 1. Right-click **npm** node in your project and choose **Update npm Packages**.
 
-    Select the **Output** window to see progress on installing the packages. Installation may take a few minutes and you may not see results immediately.
+    In the lower pane, select the **Output** window to see progress on installing the packages. Installation may take a few minutes and you may not see results immediately. To see the output, make sure that you select **Npm** in the **Show output from** field in the **Output** window.
 
     Here are the npm modules as they appear in Solution Explorer after they are installed.
 
@@ -138,7 +166,7 @@ For this simple app, you add the new project files in the project root. (In most
 
 ## Add app code
 
-1. Open *server.js* and replace the code with the following code:
+1. Open *server.js* and replace the existing code with the following code:
 
     ```javascript
     'use strict';
@@ -262,7 +290,7 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
 
     ![Run webpack](../javascript/media/tutorial-nodejs-react-run-webpack.png)
 
-    If you see any errors instead of the preceding output, you must resolve them before your app will work. If your npm package versions are different than the versions shown in this tutorial, that can be a source of errors. One way to fix errors is to use the exact versions shown in the earlier steps. Also, if one or more of these package versions has been deprecated and results in an error, you may need to install a more recent version to fix errors.
+    If you see any errors instead of the preceding output, you must resolve them before your app will work. If your npm package versions are different than the versions shown in this tutorial, that can be a source of errors. One way to fix errors is to use the exact versions shown in the earlier steps. Also, if one or more of these package versions has been deprecated and results in an error, you may need to install a more recent version to fix errors. For information on using *package.json* to control npm package versions, see [package.json configuration](../javascript/configure-packages-with-package-json.md).
 
 1. In Solution Explorer, right-click the project node and choose **Add** > **Existing Folder**, then choose the *dist* folder and choose **Select Folder**.
 

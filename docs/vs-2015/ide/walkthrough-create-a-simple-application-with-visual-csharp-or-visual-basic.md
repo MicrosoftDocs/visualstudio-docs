@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 ms.assetid: f84339c7-d617-4f56-bfcd-af2215c347ba
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Walkthrough: Create a Simple Application with Visual C# or Visual Basic
@@ -333,7 +333,7 @@ By completing this walkthrough, you’ll become familiar with many of the tools,
  Congratulations on completing this walkthrough! You can find the .exe you built under your solution and project directory (…\HelloWPFApp\HelloWPFApp\bin\Release\\). If you want to explore more examples, see [Visual Studio Samples](../ide/visual-studio-samples.md).  
   
 ## See Also  
- [What's New in Visual Studio 2015](../ide/what-s-new-in-visual-studio-2015.md)   
+ [What's New in Visual Studio 2015](../what-s-new-in-visual-studio-2015.md)   
  [Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)   
  [Productivity Tips](../ide/productivity-tips-for-visual-studio.md)
 

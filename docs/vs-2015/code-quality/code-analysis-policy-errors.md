@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "policy errors, code analysis"
 ms.assetid: d1f221cd-68c0-4277-9397-b76ad0dbae77
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Code Analysis Policy Errors

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "rule sets, creating for PolicyActivity"
 ms.assetid: f272489d-3342-4511-8b59-6a0fd7a42d70
 caps.latest.revision: 4
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Create a PolicyActivity Rule Set (Legacy)

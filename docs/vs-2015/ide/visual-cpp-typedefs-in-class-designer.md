@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Class Designer [Visual Studio], typedefs"
 ms.assetid: c1984108-71fc-4d3a-b4d4-3eac2c6b4ebf
 caps.latest.revision: 16
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Visual C++ Typedefs in Class Designer

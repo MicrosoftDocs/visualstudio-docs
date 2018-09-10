@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "related tables, saving"
 ms.assetid: 68bae3f6-ec9b-45ee-a33a-69395029f54c
 caps.latest.revision: 29
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Hierarchical update

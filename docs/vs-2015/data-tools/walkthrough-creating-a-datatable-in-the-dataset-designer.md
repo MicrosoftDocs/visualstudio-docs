@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "data [Visual Studio], Dataset Designer"
 ms.assetid: abf0a2b5-e4e5-422e-97ef-55a0e35a82df
 caps.latest.revision: 10
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

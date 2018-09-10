@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "Touch task [MSBuild]"
 ms.assetid: 8a978645-1393-4904-ae69-42afabd8c109
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Touch Task

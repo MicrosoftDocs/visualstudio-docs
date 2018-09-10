@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 61acde79-e115-4bad-bb06-1fbe37717a3e
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Step 4: Lay Out Your Form with a TableLayoutPanel Control

@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: af8eb0f3-bf6a-4d1c-ab47-dcd88ab04efa
 caps.latest.revision: 11
-author: "BrianPeek"
-ms.author: "brpeek"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Walkthrough: Creating a Realistic 3-D Billiard Ball

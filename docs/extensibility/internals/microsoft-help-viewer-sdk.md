@@ -814,7 +814,7 @@ To test this as if deployed:
 12. Within the Contoso IDE, choose the F1 key to test F1 functionality.  
   
 ### Additional Resources  
-For the Runtime API, see [Windows Help API](http://msdn.microsoft.com/library/windows/desktop/hh447318\(v=vs.85\).aspx).  
+For the Runtime API, see [Windows Help API](/previous-versions/windows/desktop/helpapi/helpapi-portal).  
   
 For additional information on how to leverage the Help API, see [Help Viewer Code Examples](http://visualstudiogallery.msdn.microsoft.com/f08f296f-7076-4aec-8da3-8f0fbe04461e)  
   

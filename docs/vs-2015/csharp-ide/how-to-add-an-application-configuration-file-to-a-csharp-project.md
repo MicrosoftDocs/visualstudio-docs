@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "app.config files, adding to C# projects"
 ms.assetid: 9caf6bb0-c2fc-4ab6-ba69-bed3b880fbf8
 caps.latest.revision: 20
-author: "BillWagner"
-ms.author: "wiwagn"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # How to: Add an Application Configuration File to a C# Project

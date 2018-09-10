@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "warnings, naming"
 ms.assetid: f97223ce-1d39-4134-81c9-fff2c75d979b
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Naming Warnings

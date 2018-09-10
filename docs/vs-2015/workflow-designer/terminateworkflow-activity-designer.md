@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.TerminateWorkflow.UI"
 ms.assetid: 08e632ed-0724-4fb4-9df1-f8d443eaf0ac
 caps.latest.revision: 4
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # TerminateWorkflow Activity Designer

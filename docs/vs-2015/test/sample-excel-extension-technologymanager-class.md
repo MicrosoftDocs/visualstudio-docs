@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 8a7b760d-b5ac-4451-9593-6ac1a0b95cdb
 caps.latest.revision: 11
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Sample Excel Extension: TechnologyManager Class

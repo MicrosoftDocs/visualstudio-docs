@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "MSBuild, reserved XML characters"
 ms.assetid: 1ae37275-96bf-4e6e-897b-6b048e5bbe93
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Use Reserved XML Characters in Project Files
@@ -77,6 +77,6 @@ When you author project files, you might need to use reserved XML characters, fo
   
 ## See Also  
  [MSBuild Reference](../msbuild/msbuild-reference.md)
- [MSBuild](MSBuild1.md)
+ [MSBuild](msbuild.md)
 
 

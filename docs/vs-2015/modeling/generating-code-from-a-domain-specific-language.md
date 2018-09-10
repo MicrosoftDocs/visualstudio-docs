@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e3706cc9-2afd-456a-a879-68425a248ebc
 caps.latest.revision: 15
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Generating Code from a Domain-Specific Language

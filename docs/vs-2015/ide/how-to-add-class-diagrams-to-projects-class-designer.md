@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Class Designer [Visual Studio], opening"
 ms.assetid: 0eac1b54-2711-4e4b-9654-a0c429c08c8f
 caps.latest.revision: 43
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Add Class Diagrams to Projects (Class Designer)

@@ -9,16 +9,16 @@ ms.technology:
   - "vs-ide-general"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-f1_keywords: 
-  - "VS.ToolsOptionsPages.Text_Editor.C\C++.Advanced"
+f1_keywords:
+  - "VS.ToolsOptionsPages.Text_Editor.C\\C++.Advanced"
   - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.Advanced"
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.Advanced"
 helpviewer_keywords: 
   - "Text Editor Options dialog box, advanced"
 ms.assetid: 67c82ae5-fddd-49df-baec-8e7498b156f3
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Options, Text Editor, C/C++, Advanced

@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "editing queries"
 ms.assetid: aac7b7b4-bd91-4225-95d4-a07643568c43
 caps.latest.revision: 10
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

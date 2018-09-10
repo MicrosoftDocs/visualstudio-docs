@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "code analysis, migrating check-in policy"
 ms.assetid: 458eb3b8-bb5e-4056-82b7-7079ce9c4089
 caps.latest.revision: 31
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # How to: Create or Update Standard Code Analysis Check-in Policies

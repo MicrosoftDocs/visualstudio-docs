@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: e24436a5-7f97-401b-bc83-20d188d10d5b
 caps.latest.revision: 9
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # How to: Use Transactions to Update the Model

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "text templates, custom directive hosts"
 ms.assetid: 254540d9-90d6-42de-8c1c-068affd56e83
 caps.latest.revision: 49
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Walkthrough: Connecting a Host to a Generated Directive Processor

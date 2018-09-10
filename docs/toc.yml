@@ -1,10 +1,15 @@
 - name: Visual Studio documentation
   href: ide/index.md
 - name: Overview
-  href: ide/visual-studio-ide.md
   expanded: true
   items:
-    - name: Advanced features
+    - name: About Visual Studio 2017
+      href: ide/visual-studio-ide.md
+    - name: About the code editor
+      href: ide/quickstart-editor.md
+    - name: About projects and solutions
+      href: ide/quickstart-projects-solutions.md
+    - name: More Visual Studio features
       href: ide/advanced-feature-overview.md
 - name: Installation
   items:
@@ -23,8 +28,6 @@
       href: install/create-an-offline-installation-of-visual-studio.md
     - name: Install required certificates for offline installation
       href: install/install-certificates-for-visual-studio-offline.md
-    - name: Install on low-bandwidth or unreliable network environments
-      href: install/install-vs-inconsistent-quality-network.md
   - name: Change installation locations
     href: install/change-installation-locations.md
   - name: Troubleshoot installation issues
@@ -105,12 +108,6 @@
   items:
   - name: Visual Studio orientation
     href: ide/quickstart-ide-orientation.md
-  - name: Projects and solutions
-    href: ide/quickstart-projects-solutions.md
-  - name: Use the editor
-    href: ide/quickstart-editor.md
-  - name: Personalize theme and text colors
-    href: ide/quickstart-personalize-the-ide.md
   - name: "C++: Create a console app"
     href: ide/getting-started-with-cpp-in-visual-studio.md
   - name: "Python: Create a web app"
@@ -119,6 +116,8 @@
     href: ide/quickstart-nodejs.md
   - name: "C#: Create a web app"
     href: ide/quickstart-aspnet-core.md
+  - name: "F#: Create a web service"
+    href: ide/quickstart-fsharp.md
   - name: "C#: Create a UWP app"
     href: ide/quickstart-uwp-csharp.md
   - name: "Visual Basic: Create a console app"
@@ -483,71 +482,73 @@
       items:
       - name: Create a WPF app with C# or Visual Basic
         href: ide/walkthrough-create-a-simple-application-with-visual-csharp-or-visual-basic.md
-      - name: "Tutorial 1: Create a Picture Viewer (C#)"
-        href: ide/tutorial-1-create-a-picture-viewer.md
+      - name: Windows Forms app tutorials
         items:
-        - name: "Step 1: Create a Windows Forms Application Project"
-          href: ide/step-1-create-a-windows-forms-application-project.md
-        - name: "Step 2: Run Your Program"
-          href: ide/step-2-run-your-program.md
-        - name: "Step 3: Set Your Form Properties"
-          href: ide/step-3-set-your-form-properties.md
-        - name: "Step 4: Lay Out Your Form with a TableLayoutPanel Control"
-          href: ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md
-        - name: "Step 5: Add Controls to Your Form"
-          href: ide/step-5-add-controls-to-your-form.md
-        - name: "Step 6: Name Your Button Controls"
-          href: ide/step-6-name-your-button-controls.md
-        - name: "Step 7: Add Dialog Components to Your Form"
-          href: ide/step-7-add-dialog-components-to-your-form.md
-        - name: "Step 8: Write Code for the Show a Picture Button Event Handler"
-          href: ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md
-        - name: "Step 9: Review, Comment, and Test Your Code"
-          href: ide/step-9-review-comment-and-test-your-code.md
-        - name: "Step 10: Write Code for Additional Buttons and a Check Box"
-          href: ide/step-10-write-code-for-additional-buttons-and-a-check-box.md
-        - name: "Step 11: Run Your Program and Try Other Features"
-          href: ide/step-11-run-your-program-and-try-other-features.md
-      - name: "Tutorial 2: Create a Timed Math Quiz (C#)"
-        href: ide/tutorial-2-create-a-timed-math-quiz.md
-        items:
-        - name: "Step 1: Create a Project and Add Labels to Your Form"
-          href: ide/step-1-create-a-project-and-add-labels-to-your-form.md
-        - name: "Step 2: Create a Random Addition Problem"
-          href: ide/step-2-create-a-random-addition-problem.md
-        - name: "Step 3: Add a Countdown Timer"
-          href: ide/step-3-add-a-countdown-timer.md
-        - name: "Step 4: Add the CheckTheAnswer() Method"
-          href: ide/step-4-add-the-checktheanswer-parens-method.md
-        - name: "Step 5: Add Enter Event Handlers for the NumericUpDown Controls"
-          href: ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md
-        - name: "Step 6: Add a Subtraction Problem"
-          href: ide/step-6-add-a-subtraction-problem.md
-        - name: "Step 7: Add Multiplication and Division Problems"
-          href: ide/step-7-add-multiplication-and-division-problems.md
-        - name: "Step 8: Customize the Quiz"
-          href: ide/step-8-customize-the-quiz.md
-      - name: "Tutorial 3: Create a Matching Game (C#)"
-        href: ide/tutorial-3-create-a-matching-game.md
-      - name: "Step 1: Create a Project and Add a Table to Your Form"
-        href: ide/step-1-create-a-project-and-add-a-table-to-your-form.md
-        items:
-        - name: "Step 2: Add a Random Object and a List of Icons"
-          href: ide/step-2-add-a-random-object-and-a-list-of-icons.md
-        - name: "Step 3: Assign a Random Icon to Each Label"
-          href: ide/step-3-assign-a-random-icon-to-each-label.md
-        - name: "Step 4: Add a Click Event Handler to Each Label"
-          href: ide/step-4-add-a-click-event-handler-to-each-label.md
-        - name: "Step 5: Add Label References"
-          href: ide/step-5-add-label-references.md
-        - name: "Step 6: Add a Timer"
-          href: ide/step-6-add-a-timer.md
-        - name: "Step 7: Keep Pairs Visible"
-          href: ide/step-7-keep-pairs-visible.md
-        - name: "Step 8: Add a Method to Verify Whether the Player Won"
-          href: ide/step-8-add-a-method-to-verify-whether-the-player-won.md
-        - name: "Step 9: Try Other Features"
-          href: ide/step-9-try-other-features.md
+        - name: "Tutorial 1: Create a picture viewer (C#)"
+          href: ide/tutorial-1-create-a-picture-viewer.md
+          items:
+          - name: "Step 1: Create a Windows Forms Application Project"
+            href: ide/step-1-create-a-windows-forms-application-project.md
+          - name: "Step 2: Run Your Program"
+            href: ide/step-2-run-your-program.md
+          - name: "Step 3: Set Your Form Properties"
+            href: ide/step-3-set-your-form-properties.md
+          - name: "Step 4: Lay Out Your Form with a TableLayoutPanel Control"
+            href: ide/step-4-lay-out-your-form-with-a-tablelayoutpanel-control.md
+          - name: "Step 5: Add Controls to Your Form"
+            href: ide/step-5-add-controls-to-your-form.md
+          - name: "Step 6: Name Your Button Controls"
+            href: ide/step-6-name-your-button-controls.md
+          - name: "Step 7: Add Dialog Components to Your Form"
+            href: ide/step-7-add-dialog-components-to-your-form.md
+          - name: "Step 8: Write Code for the Show a Picture Button Event Handler"
+            href: ide/step-8-write-code-for-the-show-a-picture-button-event-handler.md
+          - name: "Step 9: Review, Comment, and Test Your Code"
+            href: ide/step-9-review-comment-and-test-your-code.md
+          - name: "Step 10: Write Code for Additional Buttons and a Check Box"
+            href: ide/step-10-write-code-for-additional-buttons-and-a-check-box.md
+          - name: "Step 11: Run Your Program and Try Other Features"
+            href: ide/step-11-run-your-program-and-try-other-features.md
+        - name: "Tutorial 2: Create a timed math quiz (C#)"
+          href: ide/tutorial-2-create-a-timed-math-quiz.md
+          items:
+          - name: "Step 1: Create a Project and Add Labels to Your Form"
+            href: ide/step-1-create-a-project-and-add-labels-to-your-form.md
+          - name: "Step 2: Create a Random Addition Problem"
+            href: ide/step-2-create-a-random-addition-problem.md
+          - name: "Step 3: Add a Countdown Timer"
+            href: ide/step-3-add-a-countdown-timer.md
+          - name: "Step 4: Add the CheckTheAnswer() Method"
+            href: ide/step-4-add-the-checktheanswer-parens-method.md
+          - name: "Step 5: Add Enter Event Handlers for the NumericUpDown Controls"
+            href: ide/step-5-add-enter-event-handlers-for-the-numericupdown-controls.md
+          - name: "Step 6: Add a Subtraction Problem"
+            href: ide/step-6-add-a-subtraction-problem.md
+          - name: "Step 7: Add Multiplication and Division Problems"
+            href: ide/step-7-add-multiplication-and-division-problems.md
+          - name: "Step 8: Customize the Quiz"
+            href: ide/step-8-customize-the-quiz.md
+        - name: "Tutorial 3: Create a matching game (C#)"
+          href: ide/tutorial-3-create-a-matching-game.md
+          items:
+          - name: "Step 1: Create a Project and Add a Table to Your Form"
+            href: ide/step-1-create-a-project-and-add-a-table-to-your-form.md
+          - name: "Step 2: Add a Random Object and a List of Icons"
+            href: ide/step-2-add-a-random-object-and-a-list-of-icons.md
+          - name: "Step 3: Assign a Random Icon to Each Label"
+            href: ide/step-3-assign-a-random-icon-to-each-label.md
+          - name: "Step 4: Add a Click Event Handler to Each Label"
+            href: ide/step-4-add-a-click-event-handler-to-each-label.md
+          - name: "Step 5: Add Label References"
+            href: ide/step-5-add-label-references.md
+          - name: "Step 6: Add a Timer"
+            href: ide/step-6-add-a-timer.md
+          - name: "Step 7: Keep Pairs Visible"
+            href: ide/step-7-keep-pairs-visible.md
+          - name: "Step 8: Add a Method to Verify Whether the Player Won"
+            href: ide/step-8-add-a-method-to-verify-whether-the-player-won.md
+          - name: "Step 9: Try Other Features"
+            href: ide/step-9-try-other-features.md
   - name: Access data...
     href: data-tools/accessing-data-in-visual-studio.md
   - name: Design user interfaces...
@@ -594,8 +595,8 @@
         href: ide/how-to-configure-projects-to-target-multiple-platforms.md
     - name: MSBuild...
       href: msbuild/msbuild.md
-    - name: VSTS and TFS...
-      href: /vsts/build-release/index
+    - name: Azure Pipelines and TFS...
+      href: /azure/devops/pipelines/index
     - name: Specify Build Events (Visual Basic)
       href: ide/how-to-specify-build-events-visual-basic.md
     - name: Specify Build Events (C#)
@@ -621,6 +622,8 @@
   - name: Customize the IDE
     href: ide/personalizing-the-visual-studio-ide.md
     items:
+    - name: "Quickstart: Personalize theme and text colors"
+      href: ide/quickstart-personalize-the-ide.md
     - name: Change fonts and colors
       href: ide/how-to-change-fonts-and-colors-in-visual-studio.md
     - name: Customize menus and toolbars
@@ -657,12 +660,12 @@
       href: ide/reference/accessibility-products-and-services-from-microsoft.md
     - name: Resources for Designing Accessible Applications
       href: ide/reference/resources-for-designing-accessible-applications.md
-  - name: Globalizing and Localizing Applications
+  - name: Globalize and localize apps
     href: ide/globalizing-and-localizing-applications.md
     items:
-    - name: Introduction to International Applications Based on the .NET Framework
+    - name: Intro to international .NET Framework apps
       href: ide/introduction-to-international-applications-based-on-the-dotnet-framework.md
-    - name: Localizing Applications
+    - name: Localize apps
       href: ide/localizing-applications.md
       items:
       - name: Hierarchical Organization of Resources for Localization
@@ -673,12 +676,12 @@
         href: ide/version-numbers-for-main-and-localized-satellite-assemblies.md
       - name: Neutral Resources Languages for Localization
         href: ide/neutral-resources-languages-for-localization.md
-    - name: Globalizing Applications
+    - name: Globalize apps
       href: ide/globalizing-applications.md
       items:
       - name: Culture-Specific Classes for Global Windows Forms and Web Forms
         href: ide/culture-specific-classes-for-global-windows-forms-and-web-forms.md
-    - name: Creating Applications in Bi-directional Languages
+    - name: Create apps in bi-directional languages
       href: ide/creating-applications-in-bi-directional-languages.md
 - name: Reference
   items:

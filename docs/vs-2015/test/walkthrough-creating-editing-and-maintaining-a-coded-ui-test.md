@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f7c25ba7-5c9c-455b-9242-701cda56f90c
 caps.latest.revision: 43
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Walkthrough: Creating, Editing and Maintaining a Coded UI Test

@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f6337c35-acae-4c5f-b5d9-ac5ff687ef18
 caps.latest.revision: 18
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Customizing Code Coverage Analysis
@@ -102,7 +102,7 @@ By default, the Visual Studio Code Coverage tool analyzes all solution assemblie
 ### Regular expressions  
  Include and exclude nodes use regular expressions. For more information, see [Using Regular Expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md). Regular expressions are not the same as wildcards. In particular:  
   
-1.  **.\*** matches a string of any characters  
+1.  **\.\*** matches a string of any characters  
   
 2.  **\\.** matches a dot ".")  
   

@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "components [.NET Framework], deploying"
 ms.assetid: 63fcdd5b-2e54-4210-9038-65bc23167725
 caps.latest.revision: 35
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Deploying Applications, Services, and Components

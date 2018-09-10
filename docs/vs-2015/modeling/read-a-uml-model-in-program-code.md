@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 0f63105e-6079-498a-94f1-318c0f5f9621
 caps.latest.revision: 25
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Read a UML model in program code

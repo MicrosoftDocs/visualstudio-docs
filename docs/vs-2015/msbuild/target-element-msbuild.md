@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "<Target> element [MSBuild]"
 ms.assetid: 350f6fc2-86b3-45f2-a31e-ece0e6bd4dca
 caps.latest.revision: 38
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Target Element (MSBuild)

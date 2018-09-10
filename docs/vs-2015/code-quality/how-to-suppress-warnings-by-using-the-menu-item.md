@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "code analysis, suppressing warnings"
 ms.assetid: 36bd1850-dcde-4ed0-9bc3-0b83df434362
 caps.latest.revision: 26
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # How to: Suppress Warnings by Using the Menu Item

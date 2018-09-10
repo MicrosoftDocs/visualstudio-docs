@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, diagram"
 ms.assetid: 259836b0-783c-46a0-b7c7-dc4b2f7b4a81
 caps.latest.revision: 33
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Customizing Presentation on the Diagram

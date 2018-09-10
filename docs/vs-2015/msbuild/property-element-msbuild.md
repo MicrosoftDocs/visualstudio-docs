@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "Property Element [MSBuild]"
 ms.assetid: 69ab08ab-3e76-41dd-a01b-49aa1d2e0cac
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Property Element (MSBuild)
@@ -66,7 +66,7 @@ Contains a user defined property name and value. Every property used in an [!INC
  This text specifies the property value and may contain XML.  
   
 ## Remarks  
- Property names are limited to ASCII chars only. Property values are referenced in the project by placing the property name between "`$(`" and "`)`". For example, `$(builddir)\classes` would resolve to "build\classes", if the `builddir` property had the value `build`. For more information on properties, see [MSBuild Properties](MSBuild%20Properties.md).  
+ Property names are limited to ASCII chars only. Property values are referenced in the project by placing the property name between "`$(`" and "`)`". For example, `$(builddir)\classes` would resolve to "build\classes", if the `builddir` property had the value `build`. For more information on properties, see [MSBuild Properties](msbuild-properties1.md).  
   
 ## Example  
  The following code sets the `Optimization` property to `false` and the `DefaultVersion` property to `1.0` if the `Version` property is empty.  
@@ -79,7 +79,7 @@ Contains a user defined property name and value. Every property used in an [!INC
 ```  
   
 ## See Also
-[MSBuild Properties](MSBuild%20Properties.md)  
+[MSBuild Properties](msbuild-properties1.md)  
  [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
 
 

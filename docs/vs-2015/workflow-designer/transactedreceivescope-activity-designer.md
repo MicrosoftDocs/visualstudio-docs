@@ -11,8 +11,8 @@ f1_keywords:
   - "System.ServiceModel.Activities.TransactedReceiveScope.UI"
 ms.assetid: 7ca93aad-4e83-4d81-90f4-998ee114d9b6
 caps.latest.revision: 4
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # TransactedReceiveScope Activity Designer

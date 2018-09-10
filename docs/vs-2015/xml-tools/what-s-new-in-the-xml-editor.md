@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: bd335a8d-6692-4a4c-9b5f-aa98f1fcaba3
 caps.latest.revision: 9
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # What&#39;s New in the XML Editor

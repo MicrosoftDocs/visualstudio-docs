@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Workflow Designer [WFD], debugging workflows"
 ms.assetid: d71308cf-d464-4536-8711-0d0a8eadb255
 caps.latest.revision: 10
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Debugging Workflows with the Workflow Designer

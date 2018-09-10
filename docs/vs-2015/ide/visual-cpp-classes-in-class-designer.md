@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Class Designer [Visual Studio], classes"
 ms.assetid: 75e56f8c-11ef-42a3-b7ec-3d2cf25c581b
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Visual C++ Classes in Class Designer

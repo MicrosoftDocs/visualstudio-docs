@@ -9,7 +9,7 @@ ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
-experimental: true​
+experimental: true
 experiment_id: "7b7f8053-75fc-4d"
 ---
 # Quickstart: First look at the Visual Studio IDE
@@ -100,12 +100,14 @@ Should you encounter any problems while you're using Visual Studio, or if you ha
 
 We've looked at just a few of the features of Visual Studio to get acquainted with the user interface. To explore further:
 
-- Take a more in-depth tour of Visual Studio, and even dabble in debugging, in [Overview of the Visual Studio IDE](../ide/visual-studio-ide.md)
+> [!div class="nextstepaction"]
+> [Learn about the code editor](../ide/quickstart-editor.md)
 
-- Browse the **General user interface elements** section of the VS documentation, which goes into more depth about windows such as the [Error List](../ide/reference/error-list-window.md), [Output window](../ide/reference/output-window.md), [Properties window](../ide/reference/properties-window.md), and [Options dialog box](../ide/reference/options-dialog-box-visual-studio.md)
+> [!div class="nextstepaction"]
+> [Learn about projects and solutions](../ide/quickstart-projects-solutions.md)
 
 ## See also
 
-- [Quickstart: Personalize the IDE](../ide/personalizing-the-visual-studio-ide.md)
-- [Quickstart: Write code in the editor](../ide/quickstart-editor.md)
-- [Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)
+- [Overview of the Visual Studio IDE](../ide/visual-studio-ide.md)
+- [More features of Visual Studio 2017](../ide/advanced-feature-overview.md)
+- [Change theme and font colors](../ide/quickstart-personalize-the-ide.md)

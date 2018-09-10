@@ -22,7 +22,7 @@ helpviewer_keywords:
 ms.assetid: 70cbe55d-4b33-4355-b0a7-88c770a6f75c
 caps.latest.revision: 84
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Validate code with layer diagrams

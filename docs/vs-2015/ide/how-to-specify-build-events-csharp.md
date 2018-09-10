@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "builds [Visual Studio], events"
 ms.assetid: b4ce1ad9-5215-4b6f-b6a2-798b249aa335
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Specify Build Events (C#)

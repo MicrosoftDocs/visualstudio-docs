@@ -12,7 +12,7 @@ f1_keywords:
 ms.assetid: f6e8b5cc-7fb8-4699-9703-f3c9fc7cc316
 caps.latest.revision: 7
 author: "steved0x"
-ms.author: "sdanie"
+ms.author: gewarren
 manager: "erikre"
 ---
 # Transition Activity Designer

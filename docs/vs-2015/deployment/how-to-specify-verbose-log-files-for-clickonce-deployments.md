@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, logging"
 ms.assetid: 0807a28d-2e40-4a51-ab10-308d808ded6b
 caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Specify Verbose Log Files for ClickOnce Deployments
@@ -27,7 +27,7 @@ manager: "wpickett"
 
 The latest version of this topic can be found at [How to: Specify Verbose Log Files for ClickOnce Deployments](https://docs.microsoft.com/visualstudio/deployment/how-to-specify-verbose-log-files-for-clickonce-deployments).  
   
-INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] maintains activity log files for all deployments. These logs document details pertaining to installing, initializing, updating, and uninstalling a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment. To increase the detail that [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] writes to these log files, use Registry Editor (**regedit.exe**) to specify the verbosity level.  
+[!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] maintains activity log files for all deployments. These logs document details pertaining to installing, initializing, updating, and uninstalling a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] deployment. To increase the detail that [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] writes to these log files, use Registry Editor (**regedit.exe**) to specify the verbosity level.  
   
 > [!CAUTION]
 >  If you use Registry Editor incorrectly, you may cause serious problems that may require you to reinstall the operating system. Use Registry Editor at your own risk.  

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "msbuild, special characters to escape"
 ms.assetid: 5b5172c3-41e4-4f38-a16f-2aeac831a5fc
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Special Characters to Escape

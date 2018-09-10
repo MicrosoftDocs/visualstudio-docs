@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 525815c8-2845-45e8-be96-100d1f144725
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Tutorial 3: Create a Matching Game

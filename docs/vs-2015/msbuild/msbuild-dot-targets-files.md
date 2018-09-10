@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "MSBuild, .Targets files"
 ms.assetid: f6d98eb4-d2fa-49b7-8e3c-bae1ca3cf596
 caps.latest.revision: 20
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # MSBuild .Targets Files
@@ -29,7 +29,7 @@ manager: "ghogen"
 The latest version of this topic can be found at [MSBuild .Targets Files](https://docs.microsoft.com/visualstudio/msbuild/msbuild-dot-targets-files).  
   
   
-INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] includes several .targets files that contain items, properties, targets, and tasks for common scenarios. These files are automatically imported into most [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project files to simplify maintenance and readability.  
+[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] includes several .targets files that contain items, properties, targets, and tasks for common scenarios. These files are automatically imported into most [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project files to simplify maintenance and readability.  
   
  Projects typically import one or more .targets files to define their build process. For example a [!INCLUDE[csprcs](../includes/csprcs-md.md)] project created by [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] will import Microsoft.CSharp.targets which imports Microsoft.Common.targets. The [!INCLUDE[csprcs](../includes/csprcs-md.md)] project itself will define the items and properties specific to that project, but the standard build rules for a [!INCLUDE[csprcs](../includes/csprcs-md.md)] project are defined in the imported .targets files.  
   
@@ -49,6 +49,6 @@ INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] includes several .targets
 ## See Also  
  [Import Element (MSBuild)](../msbuild/import-element-msbuild.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)  
- [MSBuild](MSBuild1.md)
+ [MSBuild](msbuild.md)
 
 

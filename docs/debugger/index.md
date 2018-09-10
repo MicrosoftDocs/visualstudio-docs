@@ -200,7 +200,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
 
 <ul class="panelContent cardsW">
     <li>
-        <a href="https://msdn.microsoft.com/library/ee661590.aspx">
+        <a href="/visualstudio/debugger/api-reference-for-intellitrace-extensibility">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

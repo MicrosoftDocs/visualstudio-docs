@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6ce16f06-1978-4e19-8cdc-441ee65a3fb2
 caps.latest.revision: 4
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # MSI and VSIX Deployment of a DSL
@@ -37,7 +37,7 @@ You can install a domain-specific language on your own computer or on other comp
   
     1.  In **Solution Explorer**, right-click the **DslPackage** project, and then click **Open Folder in Windows Explorer**.  
   
-    2.  Locate the file **bin\\\*\\***YourProject***.DslPackage.vsix**  
+    2.  Locate the file **bin\\\*\\**_YourProject_**.DslPackage.vsix**  
   
 2.  Copy the **.vsix** file to the target computer on which you want to install the DSL. This can be your own computer or another one.  
   

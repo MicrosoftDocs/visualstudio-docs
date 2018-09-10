@@ -67,7 +67,7 @@ By using the **Call Stack** window, you can view the function or procedure calls
   
 ### To change the optional information displayed  
   
--   Right-click the **Call Stack** window and set or clear **Show \<***the information that you want***>**.  
+-   Right-click the **Call Stack** window and set or clear **Show \<**_the information that you want_**>**.  
   
 ### To display non-user code frames in the Call Stack window  
   

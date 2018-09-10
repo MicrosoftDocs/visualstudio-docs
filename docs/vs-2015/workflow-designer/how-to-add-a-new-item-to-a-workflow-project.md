@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: 5c6180ca-af10-4513-b0cb-7d478fd84eab
 caps.latest.revision: 14
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Add a New Item to a Workflow Project

@@ -20,8 +20,8 @@ helpviewer_keywords:
   - ".NET Framework Client Profile"
 ms.assetid: 830e3e45-9a93-4279-a249-75b84599aefb
 caps.latest.revision: 32
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Troubleshooting .NET Framework Targeting Errors

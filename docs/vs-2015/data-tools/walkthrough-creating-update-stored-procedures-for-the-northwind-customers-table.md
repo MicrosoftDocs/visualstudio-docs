@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "O/R Designer, stored procedures"
 ms.assetid: 6fd9e7e0-6862-44d3-9710-acc5a72d4ffd
 caps.latest.revision: 18
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

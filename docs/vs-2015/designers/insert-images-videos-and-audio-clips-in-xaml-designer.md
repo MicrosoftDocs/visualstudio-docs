@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: ff707aca-6bc5-4a2d-834b-bb6511a7b8f6
 caps.latest.revision: 13
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Insert images, videos, and audio clips in XAML Designer

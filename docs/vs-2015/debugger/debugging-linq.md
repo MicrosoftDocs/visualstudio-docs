@@ -31,7 +31,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [Debugging LINQ](https://docs.microsoft.com/visualstudio/debugger/debugging-linq).  
   
-INCLUDE[vsprvs](../includes/vsprvs-md.md)] supports the debugging of language integrated query (LINQ) code, with some limitations. Most debugging features work with LINQ statements, including stepping, setting breakpoints, and viewing results in debugger windows. This topic describes the major limitations of LINQ debugging.  
+[!INCLUDE[vsprvs](../includes/vsprvs-md.md)] supports the debugging of language integrated query (LINQ) code, with some limitations. Most debugging features work with LINQ statements, including stepping, setting breakpoints, and viewing results in debugger windows. This topic describes the major limitations of LINQ debugging.  
   
 ##  <a name="BKMK_ViewingLINQResults"></a> Viewing LINQ Results  
  You can view the result of a LINQ statement by using DataTips, the Watch window, and the QuickWatch dialog box. When you use a source window, you can pause the pointer on a query in the source window and a DataTip will appear. You can copy a LINQ variable and paste it into the Watch window or QuickWatch dialog box.  

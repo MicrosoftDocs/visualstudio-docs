@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "msbuild, Item functions"
 ms.assetid: 5e6df3cc-2db8-4cbd-8fdd-3ffd03ac0876
 caps.latest.revision: 32
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Item Functions

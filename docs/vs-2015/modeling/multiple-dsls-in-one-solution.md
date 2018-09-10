@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7e668620-6217-4e87-aea7-e9036776c8e4
 caps.latest.revision: 5
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Multiple DSLs in One Solution
@@ -46,7 +46,7 @@ You can package several DSLs as part of a single solution so that they are insta
   
 2.  Combine the VSIX manifests of the DSLs:  
   
-    1.  Open *YourVsixProject***\source.extension.manifest**.  
+    1.  Open _YourVsixProject_**\source.extension.manifest**.  
   
     2.  For each DSL, choose **Add Content** and add:  
   
@@ -58,7 +58,7 @@ You can package several DSLs as part of a single solution so that they are insta
   
 3.  Build the solution.  
   
- The resulting VSIX will install both DSLs. You can test them by using F5, or deploy *YourVsixProject***\bin\Debug\\\*.vsix**.  
+ The resulting VSIX will install both DSLs. You can test them by using F5, or deploy _YourVsixProject_**\bin\Debug\\\*.vsix**.  
   
 ## See Also  
  [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md)   

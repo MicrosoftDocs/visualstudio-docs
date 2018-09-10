@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a68886da-7416-4785-8145-3796bb382cba
 caps.latest.revision: 7
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Accessing Visual Studio or other Hosts from a Text Template

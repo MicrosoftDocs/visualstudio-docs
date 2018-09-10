@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 31827b17-f933-413d-b28a-b19f903b64ca
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Suppress Compiler Warnings
@@ -57,7 +57,7 @@ You can declutter a build log by specifying one or more kinds of compiler warnin
   
 2.  On the menu bar, choose **Project**, **Unload Project**.  
   
-3.  In **Solution Explorer**, open the shortcut menu for the project, and then choose **Edit***ProjectName***.vbproj**.  
+3.  In **Solution Explorer**, open the shortcut menu for the project, and then choose **Edit**_ProjectName_**.vbproj**.  
   
      The project file is opened in the code editor.  
   

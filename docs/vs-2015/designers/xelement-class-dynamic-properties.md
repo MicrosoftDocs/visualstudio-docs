@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a9795dba-2afc-45f7-9b53-c6c67a23c40b
 caps.latest.revision: 4
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # XElement Class Dynamic Properties
@@ -20,7 +20,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [XElement Class Dynamic Properties](https://docs.microsoft.com/visualstudio/designers/xelement-class-dynamic-properties).  
   
-This section describes the dynamic properties of the <xref:System.Xml.Linq.XElemen?displayProperty=fullName>[t](<!-- TODO: review code entity reference <xref:assetId:///t?qualifyHint=False&amp;autoUpgrade=True>  -->) class.  
+This section describes the dynamic properties of the <xref:System.Xml.Linq.XElement?displayProperty=fullName>[t](<!-- TODO: review code entity reference <xref:assetId:///t?qualifyHint=False&amp;autoUpgrade=True>  -->) class.  
   
 ## In This Section  
   

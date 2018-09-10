@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "queries [Visual Studio], TableAdapters"
 ms.assetid: 104d1d19-b5a9-4071-b81e-1b3af08e9c7b
 caps.latest.revision: 24
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Create parameterized TableAdapter queries

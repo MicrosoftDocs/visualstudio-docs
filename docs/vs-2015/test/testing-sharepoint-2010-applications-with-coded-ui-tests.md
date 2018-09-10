@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 51b53778-469c-4cc9-854c-4e4992d6389b
 caps.latest.revision: 32
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Testing SharePoint 2010 Applications with Coded UI Tests

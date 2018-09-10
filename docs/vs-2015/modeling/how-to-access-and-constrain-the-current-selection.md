@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language, accessing the current selection"
 ms.assetid: 2990981e-dfae-416f-b0d0-7197f1242dfa
 caps.latest.revision: 16
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # How to: Access and Constrain the Current Selection

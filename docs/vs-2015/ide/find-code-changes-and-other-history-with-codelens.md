@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: f697d7b4-704e-4cac-b13a-bc57d2ff8318
 caps.latest.revision: 134
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Find code changes and other history with CodeLens

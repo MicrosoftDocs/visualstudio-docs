@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "projects, workflow"
 ms.assetid: 32299555-662c-469d-a90d-89f4700dc78c
 caps.latest.revision: 6
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Create Workflow Projects (Legacy)

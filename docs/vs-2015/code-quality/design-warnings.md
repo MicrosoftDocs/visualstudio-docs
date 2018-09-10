@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "warnings, design"
 ms.assetid: 34e65a18-560c-423f-814f-519089e318cf
 caps.latest.revision: 27
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Design Warnings

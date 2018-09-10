@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Development Edition, rule sets"
 ms.assetid: bcc42508-9592-4802-9f66-a50111641d73
 caps.latest.revision: 26
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # How to: Create a Custom Rule Set

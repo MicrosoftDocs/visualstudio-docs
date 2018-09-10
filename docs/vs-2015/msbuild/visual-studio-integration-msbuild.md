@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "MSBuild, design-time target execution"
 ms.assetid: 06cd6d7f-8dc1-4e49-8a72-cc9e331d7bca
 caps.latest.revision: 26
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Visual Studio Integration (MSBuild)

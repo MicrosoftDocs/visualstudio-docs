@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "64-bit applications [Visual Studio]"
 ms.assetid: 87399e20-5510-41e4-b5b7-4a87c5773f21
 caps.latest.revision: 25
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Deploying Prerequisites for 64-bit Applications

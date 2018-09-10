@@ -15,8 +15,8 @@ api_type:
   - "Assembly"
 ms.assetid: 019733d2-e050-4120-b537-831cd3fc008e
 caps.latest.revision: 4
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Value (XAttribute Dynamic Property)

@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 024392a2-2c04-404f-a27b-7273553c3b60
 caps.latest.revision: 18
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Getting Started with Domain-Specific Languages

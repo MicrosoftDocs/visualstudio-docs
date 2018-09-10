@@ -8,8 +8,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 38840167-c3f8-4cb3-8d15-8af04a0a20a1
 caps.latest.revision: 14
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Install SQL Server sample databases

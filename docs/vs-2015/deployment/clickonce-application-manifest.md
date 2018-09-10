@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "ClickOnce, application manifests"
 ms.assetid: 29570cec-4e53-4660-a850-abc4fa150243
 caps.latest.revision: 25
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # ClickOnce Application Manifest

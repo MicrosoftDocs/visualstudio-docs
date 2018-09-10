@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "data [Windows Forms], displaying"
 ms.assetid: 0163a34a-38cb-40b9-8f38-3058a90caf21
 caps.latest.revision: 31
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Bind Windows Forms controls to data

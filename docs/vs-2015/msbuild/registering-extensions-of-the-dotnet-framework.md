@@ -15,8 +15,8 @@ helpviewer_keywords:
   - ".NET Framework extensions, registering"
 ms.assetid: deee6f53-ea87-4b88-a120-bea589822e03
 caps.latest.revision: 8
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Registering Extensions of the .NET Framework

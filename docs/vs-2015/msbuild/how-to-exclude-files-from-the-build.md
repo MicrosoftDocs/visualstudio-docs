@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "wildcards, MSBuild"
 ms.assetid: 1be36e45-01da-451c-972d-f9fc0e7d663c
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Exclude Files from the Build
@@ -129,7 +129,7 @@ In a project file you can use wildcards to include all the files in one director
   
 ## See Also  
  [Items](../msbuild/msbuild-items.md)   
- [MSBuild](MSBuild1.md)
+ [MSBuild](msbuild.md)
  [How to: Select the Files to Build](../msbuild/how-to-select-the-files-to-build.md)
 
 

@@ -45,11 +45,14 @@ Please follow these steps to add a new subscriber with a directory account.
 1. Visit the [Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx) (VLSC) and sign in.
 2. From the VLSC Admin page, click **Subscriptions** and then **Visual Studio Subscriptions**.
 
-    ![Subscriptions menu](_img//vlsc/vlsc-subscriptions.png)
+    > [!div class="mx-imgBorder"]
+    > ![Subscriptions menu](_img//vlsc/vlsc-subscriptions.png)
+
 
 3. Click the **Agreement Number** associated with the Visual Studio Subscription.
 
-    ![Select agreement](_img/vlsc/vlsc-agreement.png)
+    > [!div class="mx-imgBorder"]
+    > ![Select agreement](_img/vlsc/vlsc-agreement.png)
 
 4. Click **Assign Subscription**.
 5. Select the desired **Subscription Level**.

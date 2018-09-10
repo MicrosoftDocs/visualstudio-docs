@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "project item templates, metadata files"
 ms.assetid: 77bc53d4-d607-4820-a032-7e3b365891b5
 caps.latest.revision: 23
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Create Item Templates
@@ -26,9 +26,7 @@ manager: "ghogen"
 The steps in the [first procedure](../ide/how-to-create-item-templates.md#export_template) of this topic show you how to create an item template by using the **Export Template** wizard. If your template will consist of multiple files, see [How to: Create Multi-file Item Templates](../ide/how-to-create-multi-file-item-templates.md).  
   
  The wizard does a lot of work for you to create the basic template, but in many cases you will need to manually modify the .vstemplate file after you have exported the template. For example, if you want the item to appear in the **Add New Item** dialog for a [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app project, you’ll have to perform a few extra steps. The [second procedure](../ide/how-to-create-item-templates.md#modify_template) in this topic helps you accomplish that task.  
-  
- To specify that your template should only appear for only certain project sub-types, such as Office, Database or Web, see [this section](../ide/how-to-create-multi-file-item-templates.md#enable_templates).  
-  
+ 
  In some cases you may want or need to create an item template manually from scratch. The [third procedure](../ide/how-to-create-item-templates.md#create_template) shows how to do that.  
   
  See the [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md) for information about the elements that can be used in the .vstemplate file.  

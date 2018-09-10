@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "classes [Visual Studio], designing"
 ms.assetid: 381481a2-87f4-475b-a780-18e85c8af350
 caps.latest.revision: 25
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Designing Classes and Types (Class Designer)

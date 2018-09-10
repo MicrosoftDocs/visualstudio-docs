@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "TableAdapters, adding functionality"
 ms.assetid: 418249c8-c7f3-47ef-a94c-744cb6fe6aaf
 caps.latest.revision: 14
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Extend the functionality of a TableAdapter

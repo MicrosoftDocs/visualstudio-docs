@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "MSBuild, DependsOn properties"
 ms.assetid: cb077613-4a59-41b7-96ec-d8516689163c
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Extend the Visual Studio Build Process

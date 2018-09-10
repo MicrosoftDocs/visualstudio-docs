@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "mdb files"
 ms.assetid: 3ffa1aa9-17e4-422c-a02f-09224828cdfc
 caps.latest.revision: 29
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

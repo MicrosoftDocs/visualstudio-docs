@@ -58,7 +58,7 @@ You need:
 
 - Visual Studio Enterprise or Visual Studio Professional
 
-- Team Foundation Server 2013 or later, Visual Studio Team Services, or Git
+- Team Foundation Server 2013 or later, Azure DevOps Services, or Git
 
 - [Skype for Business](/skypeforbusiness/), or Lync 2010 or later, to contact your team from the code editor
 
@@ -74,7 +74,7 @@ For file types other than *.cs* or *.vb*, you get CodeLens details for the entir
 
 Code element-level indicators let you see who changed your code, and what changes they made. Code element-level indicators are available for C# and Visual Basic code.
 
-This is what you see when you use Team Foundation Version Control (TFVC) in Team Foundation Server or Visual Studio Team Services:
+This is what you see when you use Team Foundation Version Control (TFVC) in Team Foundation Server or Azure DevOps Services: 
 
 ![CodeLens: Get change history for your code in TFVC](../ide/media/codelens-code-changes.png)
 
@@ -200,7 +200,7 @@ You can discover unit tests that exist for your C# or Visual Basic code without 
 
 1. Go to application code that has associated [unit test code](../test/unit-test-your-code.md).
 
-2. If you have not already, build your application to load the CodeLens test indicators. Make sure [discovery by built assemblies](../test/test-explorer-faq.md#3-assembly-based-discovery-is-no-longer-working-for-my-project-how-do-i-turn-it-back-on) is turned on.
+2. If you have not already, build your application to load the CodeLens test indicators. Make sure [discovery by built assemblies](../test/test-explorer-faq.md#assembly-based-discovery) is turned on.
 
 3. Review the tests for the code by pressing **Alt**+**3**.
 
@@ -257,7 +257,7 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 
 ### Q: Why don't I see the work item details for a commit?
 
-**A:** This might happen because CodeLens can't find the work items in TFS. Check that you're connected to the team project that has those work items, and that you have permissions to see those work items. Work item details might not also not show if the commit description has incorrect information about the work item IDs in TFS.
+**A:** This might happen because CodeLens can't find the work items in TFS. Check that you're connected to the project that has those work items, and that you have permissions to see those work items. Work item details might not also not show if the commit description has incorrect information about the work item IDs in TFS.
 
 ### Q: Why don't I see the Skype indicators?
 
@@ -289,7 +289,7 @@ To use the keyboard:
 
 4. Press **Tab** to go to the **Show settings for** list, and then press **Down Arrow** to select **CodeLens**.
 
-### Q: Can I move the CodeLens heads-up display?
+### Q: Can I move the CodeLens `head`s-up display?
 
 **A:** Yes, choose ![Dock icon](../ide/media/codelensdockwindow.png) to dock CodeLens as a window.
 
@@ -321,7 +321,8 @@ To use the keyboard:
 
 ### Q: My CodeLens test indicators no longer appear in my file when I first open my solution. How can I load them?
 
-**A:** Rebuild your project to get CodeLens test indicators to load in your file. Make sure [discovery by built assemblies](../test/test-explorer-faq.md#3-assembly-based-discovery-is-no-longer-working-for-my-project-how-do-i-turn-it-back-on) is turned on. To improve performance, Visual Studio no longer fetches source information for test indicators when code files are loaded. Test indicators are loaded after a build, or when you navigate to a test by double-clicking on it in **Test Explorer**.
+**A:** Rebuild your project to get CodeLens test indicators to load in your file. Make sure [discovery by built assemblies](../test/test-explorer-faq.md#assembly-based-discovery
+) is turned on. To improve performance, Visual Studio no longer fetches source information for test indicators when code files are loaded. Test indicators are loaded after a build, or when you navigate to a test by double-clicking on it in **Test Explorer**.
 
 ## See also
 

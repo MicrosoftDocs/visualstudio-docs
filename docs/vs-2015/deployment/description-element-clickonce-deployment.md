@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "<description> element [ClickOnce deployment manifest]"
 ms.assetid: 18f6919e-a3ab-4942-a57d-167fabfac44e
 caps.latest.revision: 21
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # &lt;description&gt; Element (ClickOnce Deployment)

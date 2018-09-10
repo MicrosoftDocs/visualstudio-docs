@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "MSBuild, Csc task"
 ms.assetid: d8c19b36-f5ca-484b-afa6-8ff3b90e103a
 caps.latest.revision: 30
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Csc Task

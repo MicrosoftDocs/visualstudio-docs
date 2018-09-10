@@ -67,7 +67,7 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
     "culture"="neutral"
     "version"=15.0.0.0
     ```
-    At runtime, the Visual Studio pkgdef subsystem will merge these entries into the Visual Studio process's runtime configuration file (under *[VSAPPDATA]\devenv.exe.config*) as [`<codeBase>`](https://msdn.microsoft.com/en-us/library/efs781xb(v=vs.110).aspx) elements. This is the recommended way to let the Visual Studio process find your assembly, because it avoids searching through probing paths.
+    At runtime, the Visual Studio pkgdef subsystem will merge these entries into the Visual Studio process's runtime configuration file (under *[VSAPPDATA]\devenv.exe.config*) as [`<codeBase>`](/dotnet/framework/configure-apps/file-schema/runtime/codebase-element) elements. This is the recommended way to let the Visual Studio process find your assembly, because it avoids searching through probing paths.
 
 ### Reacting to this breaking change
 
@@ -81,7 +81,7 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
 
 ### Global COM registration
 
-* Previously, Visual Studio installed many registry keys into the HKEY_CLASSES_ROOT and HKEY_LOCAL_MACHINE hives to support native COM registration. To eliminate this impact, Visual Studio now uses [Registration-Free Activation for COM components](https://msdn.microsoft.com/en-us/library/ms973913.aspx).
+* Previously, Visual Studio installed many registry keys into the HKEY_CLASSES_ROOT and HKEY_LOCAL_MACHINE hives to support native COM registration. To eliminate this impact, Visual Studio now uses [Registration-Free Activation for COM components](https://msdn.microsoft.com/library/ms973913.aspx).
 * As a result, most TLB / OLB / DLL files under %ProgramFiles(x86)%\Common Files\Microsoft Shared\MSEnv are no longer installed by default by Visual Studio. These files are now installed under [INSTALLDIR] with corresponding Registration-Free COM manifests used by the Visual Studio host process.
 * As a result, external code that relies on global COM registration for Visual Studio COM interfaces will no longer find these registrations. Code running inside Visual Studio process will not see a difference.
 
@@ -91,7 +91,8 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
   * **HKLM\Software\Microsoft\VisualStudio\{Version}**: Registry keys created by MSI installers and per-machine extensions.
   * **HKCU\Software\Microsoft\VisualStudio\{Version}**: Registry keys created by Visual Studio to store user-specific settings.
   * **HKCU\Software\Microsoft\VisualStudio\{Version}_Config**: A copy of Visual Studio HKLM key above, plus the registry keys merged from *.pkgdef* files by extensions.
-* To reduce the impact on the registry, Visual Studio now uses the [RegLoadAppKey](https://msdn.microsoft.com/en-us/library/windows/desktop/ms724886(v=vs.85).aspx) function to store registry keys in a private binary file under *[VSAPPDATA]\privateregistry.bin*. Only a very small number of Visual Studio-specific keys remain in the system registry.
+* To reduce the impact on the registry, Visual Studio now uses the [RegLoadAppKey](/windows/desktop/api/winreg/nf-winreg-regloadappkeya) function to store registry keys in a private binary file under *[VSAPPDATA]\privateregistry.bin*. Only a very small number of Visual Studio-specific keys remain in the system registry.
+
 * Existing code running inside the Visual Studio process is not impacted. Visual Studio will redirect all registry operations under the HKCU Visual Studio-specific key to the private registry. Reading and writing to other registry locations will continue to use the system registry.
 * External code will need to load and read from this file for Visual Studio registry entries.
 
@@ -99,5 +100,5 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
 
 * External code should be converted to use Registration-Free activation for COM components as well.
 * External components can find the Visual Studio location [by following the guidance here](https://blogs.msdn.microsoft.com/heaths/2016/09/15/changes-to-visual-studio-15-setup).
-* We recommend that external components use the [External Settings Manager](https://msdn.microsoft.com/en-us/library/microsoft.visualstudio.settings.externalsettingsmanager.aspx) instead of reading/writing directly to Visual Studio registry keys.
+* We recommend that external components use the [External Settings Manager](/dotnet/api/microsoft.visualstudio.settings.externalsettingsmanager) instead of reading/writing directly to Visual Studio registry keys.
 * Check whether the components your extension is using may have implemented another technique for registration. For example, debugger extensions may be able to take advantage of the new [msvsmon JSON-file COM registration](migrate-debugger-COM-registration.md).

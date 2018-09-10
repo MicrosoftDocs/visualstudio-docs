@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "testing code, automated tests"
 ms.assetid: c191de3e-3f3b-471e-b828-29ec24e80e2c
 caps.latest.revision: 64
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Unit Test Your Code

@@ -11,7 +11,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a03c2e83-a41f-4854-bcf2-fcaa277a819d
 caps.latest.revision: 18
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Isolating Code Under Test with Microsoft Fakes

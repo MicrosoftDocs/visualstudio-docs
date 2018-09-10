@@ -28,8 +28,8 @@ helpviewer_keywords:
   - "localization [Visual Studio], culture-specific classes"
 ms.assetid: 0d06a0a4-f887-4f7c-bde7-1d543c06f803
 caps.latest.revision: 11
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Culture-Specific Classes for Global Windows Forms and Web Forms

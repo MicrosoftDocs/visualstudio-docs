@@ -10,8 +10,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4c51bb8a-fcfa-46aa-ab61-634be84c4a7a
 caps.latest.revision: 11
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # CA5350: Do Not Use Weak Cryptographic Algorithms

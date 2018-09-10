@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 56133e65-81f3-44c3-bc28-ffdd0671a0d2
 caps.latest.revision: 6
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Create an association (relationship) between LINQ to SQL classes (O/R Designer)

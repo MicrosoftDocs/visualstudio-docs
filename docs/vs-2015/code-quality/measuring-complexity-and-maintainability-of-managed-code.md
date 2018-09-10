@@ -22,7 +22,7 @@ helpviewer_keywords:
 ms.assetid: 952b6f2e-584f-4c97-a5ba-42d7bd47a576
 caps.latest.revision: 16
 author: "erickson-doug"
-ms.author: "douge"
+ms.author: gewarren
 manager: "douge"
 ---
 # Measuring Complexity and Maintainability of Managed Code

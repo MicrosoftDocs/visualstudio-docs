@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: b8d7cf43-d1f2-4f3d-adb0-4f3a6428edc0
 caps.latest.revision: 7
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Introduction to WPF

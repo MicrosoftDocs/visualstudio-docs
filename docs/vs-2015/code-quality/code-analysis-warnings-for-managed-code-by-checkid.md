@@ -261,8 +261,8 @@ f1_keywords:
   - "CA5122"
 ms.assetid: 5cb221f6-dc59-4abf-9bfa-adbd6f907f96
 caps.latest.revision: 23
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Code Analysis Warnings for Managed Code by CheckId

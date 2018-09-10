@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "reference"
 ms.assetid: be18aa36-7909-4dd6-a786-b46959675a58
 caps.latest.revision: 3
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Runtime Activity Designers

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "caching (MSBuild)"
 ms.assetid: 853a21ed-69f7-4817-af00-57f73e2c74b5
 caps.latest.revision: 15
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Using Memory Efficiently When You Build Large Projects

@@ -26,8 +26,8 @@ helpviewer_keywords:
   - "security, ClickOnce"
 ms.assetid: 04b104d0-0bd3-4ccb-b164-1de92d234487
 caps.latest.revision: 33
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Code Access Security for ClickOnce Applications

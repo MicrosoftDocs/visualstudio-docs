@@ -65,11 +65,11 @@ As an organization, you might want to require that all check-ins satisfy certain
 
 - Code analysis is run as part of the most recent build.
 
-You can accomplish this by specifying check-in policies. For more information, see [Enhancing Code Quality with Team Project Check-in Policies](../code-quality/enhancing-code-quality-with-team-project-check-in-policies.md).
+You can accomplish this by specifying check-in policies. For more information, see [Enhancing Code Quality with Project Check-in Policies](../code-quality/enhancing-code-quality-with-team-project-check-in-policies.md).
 
 ## Team build integration
 
-You can use the integrated features of the build system to run the analysis tool as part of the build process. For more information, see [Build and release (VSTS)](/vsts/build-release/index).
+You can use the integrated features of the build system to run the analysis tool as part of the build process. For more information, see [Azure Pipelines](/azure/devops/pipelines/index).
 
 ## See also
 

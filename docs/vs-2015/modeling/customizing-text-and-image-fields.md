@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: a7259fc0-5afa-4356-b27e-5641e01628a9
 caps.latest.revision: 4
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Customizing Text and Image Fields

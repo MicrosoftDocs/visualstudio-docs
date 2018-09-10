@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Workflow.Activities.Design.OperationPickerDialog.UI"
 ms.assetid: bc3ec902-7797-494e-af48-e70c97eb6779
 caps.latest.revision: 10
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Choose Operation Dialog Box (Legacy)

@@ -12,7 +12,7 @@ helpviewer_keywords:
 ms.assetid: 4e28b0e6-ce8f-45ee-9e3a-e4d600a0ad81
 caps.latest.revision: 21
 author: "alexhomer1"
-ms.author: "ahomer"
+ms.author: gewarren
 manager: "douge"
 ---
 # Generate files from a UML model

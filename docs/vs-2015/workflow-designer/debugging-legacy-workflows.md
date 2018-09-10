@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "debugging workflows"
 ms.assetid: e6097b47-760a-4b30-a92c-ae70cdbda49f
 caps.latest.revision: 8
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # Debugging Legacy Workflows

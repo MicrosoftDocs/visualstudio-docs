@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "When Element [MSBuild]"
 ms.assetid: dd54258e-f4fb-448f-9da4-d1817e0cbaf2
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # MSBuild Conditional Constructs
@@ -35,7 +35,7 @@ manager: "ghogen"
 The latest version of this topic can be found at [MSBuild Conditional Constructs](https://docs.microsoft.com/visualstudio/msbuild/msbuild-conditional-constructs).  
   
   
-INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] provides a mechanism for either/or processing with the [Choose](../msbuild/choose-element-msbuild.md), [When](../msbuild/when-element-msbuild.md), and [Otherwise](../msbuild/otherwise-element-msbuild.md) elements.  
+[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] provides a mechanism for either/or processing with the [Choose](../msbuild/choose-element-msbuild.md), [When](../msbuild/when-element-msbuild.md), and [Otherwise](../msbuild/otherwise-element-msbuild.md) elements.  
   
 ## Using the Choose Element  
  The `Choose` element contains a series of `When` elements with `Condition` attributes that are tested in order from top to bottom until one evaluates to `true`. If more than one `When` element evaluates to `true`, only the first one is used. An `Otherwise` element, if present, will be evaluated if no condition on a `When` element evaluates to `true`.  

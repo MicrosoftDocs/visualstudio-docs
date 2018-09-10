@@ -29,8 +29,8 @@ helpviewer_keywords:
   - "MIDL task (MSBuild (Visual C++))"
 ms.assetid: 727efa8c-3336-40b8-8bef-ae6cbd77a422
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # MIDL Task
@@ -56,7 +56,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      Optional **String** parameter.  
   
-     A list of command-line options. For example, **"***/option1 /option2 /option#*". Use this parameter to specify command-line options that are not represented by any other MIDL task parameter.  
+     A list of command-line options. For example, **"**_/option1 /option2 /option#_". Use this parameter to specify command-line options that are not represented by any other MIDL task parameter.  
   
      For more information, see "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
   

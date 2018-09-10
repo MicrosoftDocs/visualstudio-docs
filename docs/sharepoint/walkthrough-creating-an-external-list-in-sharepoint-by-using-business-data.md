@@ -43,7 +43,7 @@ This walkthrough illustrates the following tasks:
 
 You need the following components to complete this walkthrough:
 
-- Supported editions of Windows and SharePoint. For more information, see [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
+- Supported editions of Windows and SharePoint.
 
 - Access to the AdventureWorks sample database. For more information about how to install the AdventureWorks database, see [SQL Server Sample Databases](http://go.microsoft.com/fwlink/?LinkID=117483).
 

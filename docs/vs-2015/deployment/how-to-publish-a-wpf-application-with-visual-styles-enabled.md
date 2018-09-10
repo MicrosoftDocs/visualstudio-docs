@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 73b22b02-fc75-42aa-82d3-51fdcaf8e5c8
 caps.latest.revision: 5
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Publish a WPF Application with Visual Styles Enabled
@@ -48,7 +48,7 @@ Visual styles enable the appearance of common controls to change based on the th
   
     ###### To open the manifest file in a Visual Basic project  
   
-    1.  On the menu bar, choose **Project**, *ProjectName***Properties**, where *ProjectName* is the name of your WPF project.  
+    1.  On the menu bar, choose **Project**, _ProjectName_**Properties**, where *ProjectName* is the name of your WPF project.  
   
          The property pages for your WPF project appear.  
   
@@ -58,7 +58,7 @@ Visual styles enable the appearance of common controls to change based on the th
   
     ###### To open the manifest file in a C# project  
   
-    1.  On the menu bar, choose **Project**, *ProjectName***Properties**, where *ProjectName* is the name of your WPF project.  
+    1.  On the menu bar, choose **Project**, _ProjectName_**Properties**, where *ProjectName* is the name of your WPF project.  
   
          The property pages for your WPF project appear.  
   

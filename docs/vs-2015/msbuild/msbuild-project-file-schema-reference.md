@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "MSBuild, file schema"
 ms.assetid: d9a68146-1f43-4621-ac78-2c8c3f400936
 caps.latest.revision: 22
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # MSBuild Project File Schema Reference
@@ -63,6 +63,6 @@ Provides a table of all the [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.
  [Task Reference](../msbuild/msbuild-task-reference.md)   
  [Conditions](../msbuild/msbuild-conditions.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)  
- [MSBuild](MSBuild1.md)
+ [MSBuild](msbuild.md)
 
 

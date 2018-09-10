@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "DataRow object"
 ms.assetid: d7cde25e-cef5-4559-b994-be00e258ac1f
 caps.latest.revision: 16
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

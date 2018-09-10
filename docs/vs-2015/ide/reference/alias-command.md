@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "alias command"
 ms.assetid: bdf857df-b5d5-450f-8c10-a6fd4dccc130
 caps.latest.revision: 19
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Alias Command

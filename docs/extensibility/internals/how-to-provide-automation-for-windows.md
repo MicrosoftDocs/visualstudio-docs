@@ -15,13 +15,13 @@ manager: douge
 ms.workload:
   - "vssdk"
 ---
-# How to: Provide Automation for Windows
+# How to: Provide automation for windows
 You can provide automation for document and tool windows. Providing automation is advisable whenever you want to make automation objects available on a window, and the environment does not already provide a ready-made automation object, as it does with a task list.
 
-## Automation for Tool Windows
+## Automation for tool windows
  The environment provides automation on a tool window by returning a standard <xref:EnvDTE.Window> object as explained in the following procedure:
 
-#### To provide automation for tool windows
+### To provide automation for tool windows
 
 1.  Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowFrame.GetProperty%2A> method via the environment with <xref:Microsoft.VisualStudio.Shell.Interop.__VSFPROPID> as `VSFPROPID` parameter to get the `Window` object.
 
@@ -31,11 +31,11 @@ You can provide automation for document and tool windows. Providing automation i
 
 4.  If calling `QueryInterface` for `IExtensibleObject` and `IVsExtensibleObject` fails, then the environment calls `QueryInterface` for `IDispatch`.
 
-## Automation for Document Windows
+## Automation for document windows
  A standard <xref:EnvDTE.Document> object is also available from the environment, although an editor can have its own implementation of the <xref:EnvDTE.Document> object by implementing `IExtensibleObject` interface and responding to `GetAutomationObject`.
 
- In addition, an editor can provide a VSPackage-specific automation object, retrieved through the <xref:EnvDTE.Document.Object%2A> method, by implementing the `IVsExtensibleObject` or `IExtensibleObject` interfaces. The [VSSDK Samples](http://aka.ms/vs2015sdksamples) contributes an RTF document-specific automation object.
+ In addition, an editor can provide a VSPackage-specific automation object, retrieved through the <xref:EnvDTE.Document.Object%2A> method, by implementing the `IVsExtensibleObject` or `IExtensibleObject` interfaces. The [VSSDK samples](http://aka.ms/vs2015sdksamples) contributes an RTF document-specific automation object.
 
-## See Also
-
-- <xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject>
+## See also
+    
+<xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibleObject>

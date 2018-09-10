@@ -11,8 +11,8 @@ f1_keywords:
   - "System.Activities.Statements.ClearCollection`1.UI"
 ms.assetid: db0e5da2-7b5a-4f1a-864c-f3aeeeeb51a7
 caps.latest.revision: 7
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # ClearCollection&lt;T&gt; Activity Designer

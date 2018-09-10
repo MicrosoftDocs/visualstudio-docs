@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "conditions [MSBuild]"
 ms.assetid: 9d7aa308-b667-48ed-b4c9-a61e49eb0a85
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # MSBuild Conditions
@@ -29,7 +29,7 @@ manager: "ghogen"
 The latest version of this topic can be found at [MSBuild Conditions](https://docs.microsoft.com/visualstudio/msbuild/msbuild-conditions).  
   
   
-INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] supports a specific set of conditions that can be applied wherever a `Condition` attribute is allowed. The following table explains those conditions.  
+[!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] supports a specific set of conditions that can be applied wherever a `Condition` attribute is allowed. The following table explains those conditions.  
   
 |Condition|Description|  
 |---------------|-----------------|  

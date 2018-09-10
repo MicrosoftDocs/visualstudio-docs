@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "IntelliSense [JavaScript], extending"
 ms.assetid: 004e1ab6-bd7a-4327-9e01-89b9be96ba2f
 caps.latest.revision: 43
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Extending JavaScript IntelliSense

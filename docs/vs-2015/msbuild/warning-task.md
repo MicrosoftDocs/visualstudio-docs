@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "MSBuild, Warning task"
 ms.assetid: 96ba5507-8b43-4f54-a1d7-9b15644dd56c
 caps.latest.revision: 21
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # Warning Task

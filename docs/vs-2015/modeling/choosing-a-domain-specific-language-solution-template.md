@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Domain-Specific Language Tools, solution templates"
 ms.assetid: 9c05955f-1548-4df6-b09b-4b348823c237
 caps.latest.revision: 26
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # Choosing a Domain-Specific Language Solution Template

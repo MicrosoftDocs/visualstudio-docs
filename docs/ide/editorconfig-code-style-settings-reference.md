@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "EditorConfig coding conventions"
   - "language conventions [EditorConfig]"
   - "formatting conventions [EditorConfig]"
-author: "kuhlenh"
-ms.author: "kaseyu"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
@@ -51,7 +51,8 @@ The following table lists the possible severity values and their effects:
 
 Severity | Effect
 :------- | ------
-`none` or `silent` | Do not show anything to the user when this rule is violated. Code generation features will generate code in this style, however. Rules with `none` severity never appear in the *Quick Actions and Refactorings* menu. In most cases, this is considered "disabled" or "ignored".
+`none` | Do not show anything to the user when this rule is violated. Code generation features generate code in this style, however. Rules with `none` severity never appear in the **Quick Actions and Refactorings** menu. In most cases, this is considered "disabled" or "ignored".
+`silent` (also `refactoring` in Visual Studio 2017 version 15.8) | Do not show anything to the user when this rule is violated. Code generation features generate code in this style, however. Rules with `silent` severity participate in cleanup as well as appear in the **Quick Actions and Refactorings** menu.
 `suggestion` | When this style rule is violated, show it to the user as a suggestion. Suggestions appear as three gray dots under the first two characters.
 `warning` | When this style rule is violated, show a compiler warning.
 `error` | When this style rule is violated, show a compiler error.
@@ -72,6 +73,11 @@ The following list shows the allowable language convention rules:
         - csharp\_preferred\_modifier_order
         - visual\_basic\_preferred\_modifier_order
         - dotnet\_style\_readonly\_field
+    - [Parentheses preferences](#parentheses)
+        - dotnet\_style\_parentheses\_in\_arithmetic\_binary\_operators
+        - dotnet\_style\_parentheses\_in\_other\_binary\_operators
+        - dotnet\_style\_parentheses\_in\_other\_operators
+        - dotnet\_style\_parentheses\_in\_relational\_binary\_operators
     - [Expression-level preferences](#expression_level)
         - dotnet\_style\_object_initializer
         - dotnet\_style\_collection_initializer
@@ -80,6 +86,8 @@ The following list shows the allowable language convention rules:
         - dotnet\_style\_prefer\_inferred\_anonymous\_type\_member_names
         - dotnet\_style\_prefer\_auto\_properties
         - dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
+        - dotnet\_style\_prefer\_conditional\_expression\_over\_assignment
+        - dotnet\_style\_prefer\_conditional\_expression\_over\_return
     - ["Null" checking preferences](#null_checking)
         - dotnet\_style\_coalesce_expression
         - dotnet\_style\_null_propagation
@@ -304,7 +312,7 @@ The following table shows the rule names, rule IDs, applicable programming langu
 
 | Rule name | Rule ID | Applicable languages | Visual Studio default | Visual Studio 2017 version |
 | --------- | ------- | -------------------- | ----------------------| ----------------  |
-| dotnet_style_require_ accessibility_modifiers | IDE0040 | C# and Visual Basic | for_non_interface_members:none | 15.5 |
+| dotnet_style_require_accessibility_modifiers | IDE0040 | C# and Visual Basic | for_non_interface_members:none | 15.5 |
 | csharp_preferred_modifier_order | IDE0036 | C# | public, private, protected, internal, static, extern, new, virtual, abstract, sealed, override, readonly, unsafe, volatile, async:none | 15.5 |
 | visual_basic_preferred_modifier_order | IDE0036 | Visual Basic | Partial, Default, Private, Protected, Public, Friend, NotOverridable, Overridable, MustOverride, Overloads, Overrides, MustInherit, NotInheritable, Static, Shared, Shadows, ReadOnly, WriteOnly, Dim, Const,WithEvents, Widening, Narrowing, Custom, Async:none | 15.5 |
 | dotnet_style_readonly_field | IDE0044 | C# and Visual Basic | true:suggestion | 15.7 |
@@ -404,6 +412,122 @@ csharp_preferred_modifier_order = public,private,protected,internal,static,exter
 visual_basic_preferred_modifier_order = Partial,Default,Private,Protected,Public,Friend,NotOverridable,Overridable,MustOverride,Overloads,Overrides,MustInherit,NotInheritable,Static,Shared,Shadows,ReadOnly,WriteOnly,Dim,Const,WithEvents,Widening,Narrowing,Custom,Async:suggestion
 ```
 
+#### <a name="parentheses"></a>Parentheses preferences
+
+The style rules in this section concern parentheses preferences, including the use of parentheses for arithmetic, relational, and other binary operators.
+
+The following table shows the rule names, rule IDs, applicable programming languages, default values, and first supported version of Visual Studio:
+
+| Rule name | Rule ID | Applicable languages | Visual Studio default | Visual Studio 2017 version |
+| --------- | ------- | -------------------- | ----------------------| ---- |
+| dotnet_style_parentheses_in_arithmetic_binary_operators | IDE0047 | C# and Visual Basic | always_for_clarity:none | 15.8 |
+| dotnet_style_parentheses_in_relational_binary_operators | IDE0047 | C# and Visual Basic | always_for_clarity:none | 15.8 |
+| dotnet_style_parentheses_in_other_binary_operators | IDE0047 | C# and Visual Basic | always_for_clarity:none | 15.8 |
+| dotnet_style_parentheses_in_other_operators | IDE0047 | C# and Visual Basic | never_if_unnecessary:none | 15.8 |
+
+**dotnet\_style\_parentheses\_in\_arithmetic\_binary_operators**
+
+- When this rule is set to **always_for_clarity**, prefer parentheses to clarify arithmetic operator (`*`, `/`, `%`, `+`, `-`, `<<`, `>>`, `&`, `^`, `|`) precedence.
+- When this rule is set to **never_if_unnecessary**, prefer to not have parentheses when arithmetic operator (`*`, `/`, `%`, `+`, `-`, `<<`, `>>`, `&`, `^`, `|`) precedence is obvious.
+
+Code examples:
+
+```csharp
+// dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity
+var v = a + (b * c);
+
+// dotnet_style_parentheses_in_arithmetic_binary_operators = never_if_unnecessary
+var v = a + b * c;
+```
+
+```vb
+' dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity
+Dim v = a + (b * c)
+
+' dotnet_style_parentheses_in_arithmetic_binary_operators = never_if_unnecessary
+Dim v = a + b * c
+```
+
+**dotnet\_style\_parentheses\_in\_relational\_binary_operators**
+
+- When this rule is set to **always_for_clarity**, prefer parentheses to clarify relational operator (`>`, `<`, `<=`, `>=`, `is`, `as`, `==`, `!=`) precedence .
+- When this rule is set to **never_if_unnecessary**, prefer to not have parentheses when relational operator (`>`, `<`, `<=`, `>=`, `is`, `as`, `==`, `!=`) precedence is obvious.
+
+Code examples:
+
+```csharp
+// dotnet_style_parentheses_in_relational_binary_operators = always_for_clarity
+var v = (a < b) == (c > d);
+
+// dotnet_style_parentheses_in_relational_binary_operators = never_if_unnecessary
+var v = a < b == c > d;
+```
+
+```vb
+' dotnet_style_parentheses_in_relational_binary_operators = always_for_clarity
+Dim v = (a < b) = (c > d)
+
+' dotnet_style_parentheses_in_relational_binary_operators = never_if_unnecessary
+Dim v = a < b = c > d
+```
+
+**dotnet\_style\_parentheses\_in\_other\_binary_operators**
+
+- When this rule is set to **always_for_clarity**, prefer parentheses to clarify other binary operator (`&&`, `||`, `??`) precedence.
+- When this rule is set to **never_if_unnecessary**, prefer to not have parentheses when other binary operator (`&&`, `||`, `??`) precedence is obvious.
+
+Code examples:
+
+```csharp
+// dotnet_style_parentheses_in_other_binary_operators = always_for_clarity
+var v = a || (b && c);
+
+// dotnet_style_parentheses_in_other_binary_operators = never_if_unnecessary
+var v = a || b && c;
+```
+
+```vb
+' dotnet_style_parentheses_in_other_binary_operators = always_for_clarity
+Dim v = a OrElse (b AndAlso c)
+
+' dotnet_style_parentheses_in_other_binary_operators = never_if_unnecessary
+Dim v = a OrElse b AndAlso c
+```
+
+**dotnet\_style\_parentheses\_in\_other_operators**
+
+- When this rule is set to **always_for_clarity**, prefer parentheses to clarify operator precedence.
+- When this rule is set to **never_if_unnecessary**, prefer to not have parentheses when operator precedence is obvious.
+
+Code examples:
+
+```csharp
+// dotnet_style_parentheses_in_other_operators = always_for_clarity
+var v = (a.b).Length;
+
+// dotnet_style_parentheses_in_other_operators = never_if_unnecessary
+var v = a.b.Length;
+```
+
+```vb
+' dotnet_style_parentheses_in_other_operators = always_for_clarity
+Dim v = (a.b).Length
+
+' dotnet_style_parentheses_in_other_operators = never_if_unnecessary
+Dim v = a.b.Length
+```
+
+These rules could appear in an *.editorconfig* file as follows:
+
+```EditorConfig
+# CSharp and Visual Basic code style settings:
+[*.{cs,vb}]
+dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity:none
+dotnet_style_parentheses_in_relational_binary_operators = always_for_clarity:none
+dotnet_style_parentheses_in_other_binary_operators = always_for_clarity:none
+dotnet_style_parentheses_in_other_operators = never_if_unnecessary:none
+```
+
 #### <a name="expression_level"></a>Expression-level preferences
 
 The style rules in this section concern expression-level preferences, including the use of object initializers, collection initializers, explicit or inferred tuple names, and inferred anonymous types.
@@ -419,6 +543,8 @@ The following table shows the rule names, rule IDs, applicable programming langu
 | dotnet_style_prefer_inferred_anonymous_type_member_names | IDE0037 | C# and Visual Basic | true:suggestion | 15.6 |
 | dotnet_style_prefer_auto_properties | IDE0032 | C# and Visual Basic | true:none | 15.7 |
 | dotnet_style_prefer_is_null_check_over_reference_equality_method | IDE0041 | C# and Visual Basic | true:suggestion | 15.7 |
+| dotnet_style_prefer_conditional_expression_over_assignment | IDE0045 | C# and Visual Basic | true:none | 15.8 |
+| dotnet_style_prefer_conditional_expression_over_return | IDE0046 | C# and Visual Basic | true:none | 15.8 |
 
 **dotnet\_style\_object_initializer**
 
@@ -615,6 +741,78 @@ If Object.ReferenceEquals(value, Nothing)
 End If
 ```
 
+
+
+**dotnet\_style\_prefer\_conditional\_expression\_over_assignment**
+
+- When this rule is set to **true**, prefer assignments with a ternary conditional over an if-else statement.
+- When this rule is set to **false**, prefer assignments with an if-else statement over a ternary conditional.
+
+Code examples:
+
+```csharp
+// dotnet_style_prefer_conditional_expression_over_assignment = true
+string s = expr ? "hello" : "world";
+
+// dotnet_style_prefer_conditional_expression_over_assignment = false
+string s;
+if (expr)
+{
+    s = "hello";
+}
+else
+{
+    s = "world";
+}
+```
+
+```vb
+' dotnet_style_prefer_conditional_expression_over_assignment = true
+Dim s As String = If(expr, "hello", "world")
+
+' dotnet_style_prefer_conditional_expression_over_assignment = false
+Dim s As String
+If expr Then
+    s = "hello"
+Else
+    s = "world"
+End If
+```
+
+**dotnet\_style\_prefer\_conditional\_expression\_over_return**
+
+- When this rule is set to **true**, prefer return statements to use a ternary conditional over an if-else statement.
+- When this rule is set to **false**, prefer return statements to use an if-else statement over a ternary conditional.
+
+Code examples:
+
+```csharp
+// dotnet_style_prefer_conditional_expression_over_return = true
+return expr ? "hello" : "world"
+
+// dotnet_style_prefer_conditional_expression_over_return = false
+if (expr)
+{
+    return "hello";
+}
+else
+{
+    return "world";
+}
+```
+
+```vb
+' dotnet_style_prefer_conditional_expression_over_return = true
+Return If(expr, "hello", "world")
+
+' dotnet_style_prefer_conditional_expression_over_return = false
+If expr Then
+    Return "hello"
+Else
+    Return "world"
+End If
+```
+
 These rules could appear in an *.editorconfig* file as follows:
 
 ```EditorConfig
@@ -626,6 +824,8 @@ dotnet_style_explicit_tuple_names = true:suggestion
 dotnet_style_prefer_inferred_tuple_names = true:suggestion
 dotnet_style_prefer_inferred_anonymous_type_member_names = true:suggestion
 dotnet_style_prefer_auto_properties = true:none
+dotnet_style_prefer_conditional_expression_over_assignment = true:suggestion
+dotnet_style_prefer_conditional_expression_over_return = true:suggestion
 ```
 
 #### <a name="null_checking"></a>Null-checking preferences
@@ -880,7 +1080,7 @@ Code examples:
 
 ```csharp
 // csharp_style_expression_bodied_indexers = true
-public T this[int i] => _value[i];
+public T this[int i] => _values[i];
 
 // csharp_style_expression_bodied_indexers = false
 public T this[int i] { get { return _values[i]; } }
@@ -1281,7 +1481,7 @@ This rule concerns whether an open brace `{` should be placed on the same line a
 
 | Value | Description
 | ------------- |:-------------|
-| accessors, anonymous_methods, anonymous_types, control_blocks, events, indexers, lambdas, local_functions, methods, object_collection, properties, types.<br>(For multiple kinds, separate with ','). | Require braces to be on a new line for the specified code elements (also known as "Allman" style) |
+| accessors, anonymous_methods, anonymous_types, control_blocks, events, indexers, lambdas, local_functions, methods, object_collection_array_initializers, properties, types.<br>(For multiple kinds, separate with ','). | Require braces to be on a new line for the specified code elements (also known as "Allman" style) |
 | all | Require braces to be on a new line for all expressions ("Allman" style) |
 | none | Require braces to be on the same line for all expressions ("K&R") |
 
@@ -1961,12 +2161,14 @@ csharp_preserve_single_line_blocks = true
 ```
 
 ## Example EditorConfig file
+
 To help you get started, here is an example *.editorconfig* file with the default options:
 
 ```EditorConfig
 ###############################
 # Core EditorConfig Options   #
 ###############################
+
 root = true
 
 # All files
@@ -1982,6 +2184,7 @@ charset = utf-8-bom
 ###############################
 # .NET Coding Conventions     #
 ###############################
+
 [*.{cs,vb}]
 # Organize usings
 dotnet_sort_system_directives_first = true
@@ -1996,6 +2199,12 @@ dotnet_style_qualification_for_event = false:none
 dotnet_style_predefined_type_for_locals_parameters_members = true:none
 dotnet_style_predefined_type_for_member_access = true:none
 
+# Parentheses preferences
+dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity:silent
+dotnet_style_parentheses_in_relational_binary_operators = always_for_clarity:silent
+dotnet_style_parentheses_in_other_binary_operators = always_for_clarity:silent
+dotnet_style_parentheses_in_other_operators = never_if_unnecessary:silent
+
 # Modifier preferences
 dotnet_style_require_accessibility_modifiers = for_non_interface_members:none
 dotnet_style_readonly_field = true:suggestion
@@ -2006,10 +2215,12 @@ dotnet_style_collection_initializer = true:suggestion
 dotnet_style_explicit_tuple_names = true:suggestion
 dotnet_style_null_propagation = true:suggestion
 dotnet_style_coalesce_expression = true:suggestion
-dotnet_style_prefer_is_null_check_over_reference_equality_method = true:none
-dotnet_style_prefer_inferred_tuple_names = true:suggestion
-dotnet_style_prefer_inferred_anonymous_type_member_names = true:suggestion
-dotnet_style_prefer_auto_properties = true:none
+dotnet_style_prefer_is_null_check_over_reference_equality_method = true:silent
+dotnet_prefer_inferred_tuple_names = true:suggestion
+dotnet_prefer_inferred_anonymous_type_member_names = true:suggestion
+dotnet_style_prefer_auto_properties = true:silent
+dotnet_style_prefer_conditional_expression_over_assignment = true:silent
+dotnet_style_prefer_conditional_expression_over_return = true:silent
 
 ###############################
 # Naming Conventions          #
@@ -2029,6 +2240,7 @@ dotnet_naming_symbols.constant_fields.required_modifiers          = const
 ###############################
 # C# Coding Conventions       #
 ###############################
+
 [*.cs]
 # var preferences
 csharp_style_var_for_built_in_types = true:none
@@ -2064,6 +2276,7 @@ csharp_style_inlined_variable_declaration = true:suggestion
 ###############################
 # C# Formatting Rules         #
 ###############################
+
 # New line preferences
 csharp_new_line_before_open_brace = all
 csharp_new_line_before_else = true
@@ -2098,12 +2311,11 @@ csharp_preserve_single_line_blocks = true
 ###############################
 # VB Coding Conventions       #
 ###############################
+
 [*.vb]
 # Modifier preferences
 visual_basic_preferred_modifier_order = Partial,Default,Private,Protected,Public,Friend,NotOverridable,Overridable,MustOverride,Overloads,Overrides,MustInherit,NotInheritable,Static,Shared,Shadows,ReadOnly,WriteOnly,Dim,Const,WithEvents,Widening,Narrowing,Custom,Async:suggestion
-
 ```
-
 
 ## See also
 

@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "TableAdapter.Update method"
 ms.assetid: cdc8a8e4-a5fa-40dd-9221-97b8571d802a
 caps.latest.revision: 10
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 robots: noindex,nofollow
 ---

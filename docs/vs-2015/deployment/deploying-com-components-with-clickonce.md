@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "components, deploying"
 ms.assetid: 1a4c7f4c-7a41-45f2-9af4-8b1666469b89
 caps.latest.revision: 14
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # Deploying COM Components with ClickOnce

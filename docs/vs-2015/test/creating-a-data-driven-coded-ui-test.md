@@ -13,7 +13,7 @@ helpviewer_keywords:
   - "coded UI tests, data-driven"
 ms.assetid: 5838f02d-001f-49ce-adce-c9ea1afaec2f
 caps.latest.revision: 58
-ms.author: "mlearned"
+ms.author: gewarren
 manager: "douge"
 ---
 # Creating a Data-Driven Coded UI Test

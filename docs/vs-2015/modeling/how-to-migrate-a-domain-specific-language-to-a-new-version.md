@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 6a1ae073-443e-45ca-8bc9-9b944362b449
 caps.latest.revision: 16
-author: "alancameronwills"
-ms.author: "awills"
+author: gewarren
+ms.author: gewarren
 manager: "douge"
 ---
 # How to: Migrate a Domain-Specific Language to a New Version
@@ -62,9 +62,9 @@ You can migrate projects that define and use domain-specific language to [!INCLU
   
     1.  Click **Convert**.  
   
-         Before each project file is converted, a copy of *project***.csproj** is saved as *project***.vs2008.csproj**  
+         Before each project file is converted, a copy of _project_**.csproj** is saved as _project_**.vs2008.csproj**  
   
-         A copy of each *solution***.sln** is saved as *solution***.vs2008.sln**  
+         A copy of each _solution_**.sln** is saved as _solution_**.vs2008.sln**  
   
     2.  Investigate any failed conversions that are reported.  
   

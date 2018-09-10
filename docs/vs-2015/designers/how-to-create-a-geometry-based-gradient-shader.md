@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 4b204405-ba95-4c5e-bd51-ec033a3ebfb6
 caps.latest.revision: 20
-author: "BrianPeek"
-ms.author: "brpeek"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # How to: Create a Geometry-Based Gradient Shader

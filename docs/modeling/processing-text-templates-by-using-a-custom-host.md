@@ -31,7 +31,7 @@ If your application uses a set of templates that are fixed at compile time, it i
 
 To execute a text template, you call the ProcessTemplate method of <xref:Microsoft.VisualStudio.TextTemplating.Engine?displayProperty=fullName>:
 
-```
+```csharp
 using Microsoft.VisualStudio.TextTemplating;
 ...
 Engine engine = new Engine();

@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "instance stepping"
 ms.assetid: aedc06af-d58a-44d6-aee4-f397f1f923a0
 caps.latest.revision: 5
-author: "ErikRe"
-ms.author: "erikre"
+author: gewarren
+ms.author: gewarren
 manager: "erikre"
 ---
 # How to: Change the Debug Stepping Option (Legacy)

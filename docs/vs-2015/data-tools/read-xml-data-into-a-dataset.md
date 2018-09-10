@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "datasets [Visual Basic], reading XML data"
 ms.assetid: fae72958-0893-47d6-b3dd-9d42418418e4
 caps.latest.revision: 21
-author: "mikeblome"
-ms.author: "mblome"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Read XML data into a dataset
@@ -149,7 +149,7 @@ ADO.NET provides simple methods for working with XML data. In this walkthrough, 
   
     -   One button reads the XML file into the dataset and displays it in the <xref:System.Windows.Forms.DataGridView> control.  
   
-    -   A second button extracts the schema from the dataset, and through a <xref:System.IO.StringWriter%2C> displays it in the <xref:System.Windows.Forms.TextBox> control.  
+    -   A second button extracts the schema from the dataset, and through a <xref:System.IO.StringWriter> displays it in the <xref:System.Windows.Forms.TextBox> control.  
   
 #### To add controls to the form  
   

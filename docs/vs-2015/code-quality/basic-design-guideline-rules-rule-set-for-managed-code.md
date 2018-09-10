@@ -11,8 +11,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 ms.assetid: 7eb384f5-f961-400b-b151-115d92addc6a
 caps.latest.revision: 13
-author: "stevehoag"
-ms.author: "shoag"
+author: gewarren
+ms.author: gewarren
 manager: "wpickett"
 ---
 # Basic Design Guideline Rules rule set for managed code

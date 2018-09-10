@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "templates [Visual Studio], about templates"
 ms.assetid: a6ce501a-699b-4e3e-ade8-c81895645c20
 caps.latest.revision: 12
-author: "kempb"
-ms.author: "kempb"
+author: gewarren
+ms.author: gewarren
 manager: "ghogen"
 ---
 # Creating Project and Item Templates
@@ -29,7 +29,7 @@ manager: "ghogen"
 
 The latest version of this topic can be found at [Creating Project and Item Templates](https://docs.microsoft.com/visualstudio/ide/creating-project-and-item-templates).  
   
-INCLUDE[vsprvs](../includes/vsprvs-md.md)] project and item templates provide reusable stubs that give users some basic code and structure that they can use for their own purposes.  
+[!INCLUDE[vsprvs](../includes/vsprvs-md.md)] project and item templates provide reusable stubs that give users some basic code and structure that they can use for their own purposes.  
   
 ## Visual Studio Templates  
  A number of predefined project and item templates are installed when you install [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. The [!INCLUDE[vbprvb](../includes/vbprvb-md.md)] and [!INCLUDE[csprcs](../includes/csprcs-md.md)] Windows Forms Application and Class Library templates that are available in the **New Project** dialog box are examples of project templates. Installed item templates are available in the **Add New Item** dialog box, and include items such as code files, XML files, HTML pages, and Style Sheets.  

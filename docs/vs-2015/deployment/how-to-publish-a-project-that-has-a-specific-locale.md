@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "macros, publishing with"
 ms.assetid: 7c4cd83a-f985-4c85-9022-fadb5dbd2b39
 caps.latest.revision: 13
-author: "stevehoag"
-ms.author: "shoag"
+author: mikejo5000
+ms.author: mikejo
 manager: "wpickett"
 ---
 # How to: Publish a Project That Has a Specific Locale

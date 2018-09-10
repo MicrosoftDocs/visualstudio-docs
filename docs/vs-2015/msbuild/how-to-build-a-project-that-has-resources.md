@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "MSBuild, building a project with resources"
 ms.assetid: d07ac73f-2c2d-4e9a-812a-6dcb632bafe2
 caps.latest.revision: 17
-author: "kempb"
-ms.author: "kempb"
+author: mikejo5000
+ms.author: mikejo
 manager: "ghogen"
 ---
 # How to: Build a Project That Has Resources
@@ -82,7 +82,7 @@ If you are building localized versions of a project, all user interface elements
 ```  
   
 ## See Also  
-[MSBuild](MSBuild1.md)  
+[MSBuild](msbuild.md)  
  [GenerateResource Task](../msbuild/generateresource-task.md)   
  [Csc Task](../msbuild/csc-task.md)   
  [Resgen.exe (Resource File Generator)](http://msdn.microsoft.com/library/8ef159de-b660-4bec-9213-c3fbc4d1c6f4)
