@@ -596,7 +596,7 @@
     - name: MSBuild...
       href: msbuild/msbuild.md
     - name: Azure Pipelines and TFS...
-      href: /azure/devops/pipelines/index
+      href: /azure/devops/pipelines/index?view=vsts
     - name: Specify Build Events (Visual Basic)
       href: ide/how-to-specify-build-events-visual-basic.md
     - name: Specify Build Events (C#)
