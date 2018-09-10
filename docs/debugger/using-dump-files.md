@@ -49,7 +49,7 @@ Dump files with or without heaps; create a dump file; open a dump file; find the
 
 -   Visual Studio can debug dump files of native apps from ARM devices. Visual Studio can also debug apps dump files of managed apps from ARM devices, but only in the native debugger.
 
--   To debug [kernel-mode](http://msdn.microsoft.com/library/windows/hardware/ff551880.aspx) dump files, download the debugging tools for Windows that is part of the [Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk).
+-   To debug [kernel-mode](/windows-hardware/drivers/debugger/kernel-mode-dump-files) dump files, download the debugging tools for Windows that is part of the [Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk).
 
 -   Visual Studio can't debug dump files saved in the older dump format known as a [full user-mode dump](http://msdn.microsoft.com/library/windows/hardware/ff545506.aspx). Note that a full user-mode dump is not the same a dump with heap.
 

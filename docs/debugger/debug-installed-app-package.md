@@ -31,7 +31,7 @@ You can debug any installed app package by clicking **Debug > Other Debug Target
 * HoloLens
 * IoT
 
-For more information about these features, see the blog post on updates for [debugging installed app packages](https://blogs.msdn.microsoft.com/visualstudioalm/2016/03/30/updates-for-debugging-installed-app-packages-in-visual-studio-2015-update-2/) and the post on [building Universal Windows Apps (UWP)](https://blogs.msdn.microsoft.com/visualstudio/2016/08/02/universal-windows-apps-targeting-windows-10-anniversary-sdk/).
+For more information about these features, see the blog post on updates for [debugging installed app packages](https://blogs.msdn.microsoft.com/devops/2016/03/30/updates-for-debugging-installed-app-packages-in-visual-studio-2015-update-2/) and the post on [building Universal Windows Apps (UWP)](https://blogs.msdn.microsoft.com/visualstudio/2016/08/02/universal-windows-apps-targeting-windows-10-anniversary-sdk/).
 
 ## Debug an Installed App Package or Running App on a Local Machine or Device
 

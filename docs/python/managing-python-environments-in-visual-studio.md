@@ -1,7 +1,7 @@
 ---
 title: Manage Python environments and interpreters
 description: Use the Python Environments window to manage global, virtual, and conda environments, installing Python interpreters and packages, and assigning environments to Visual Studio projects.
-ms.date: 07/23/2018
+ms.date: 09/10/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -33,7 +33,7 @@ If you want to install packages in an environment, refer to the [Packages tab re
 
 ### Global environments
 
-Each Python installation (for example, Python 2.7, Python 3.6, Anaconda 4.4.0, etc., see [Install Python interpreters](installing-python-interpreters.md)) maintains its own global environment. Each environment is composed of the specific Python interpreter, its standard library, and a set of pre-installed packages. Installing a package into a global environment makes it available to all projects using that environment. If the environment is located in a protect area of the file system (within *c:\program files*, for example), then installing packages requires administrator privileges.
+Each Python installation (for example, Python 2.7, Python 3.6, Python 3.7, Anaconda 4.4.0, etc., see [Install Python interpreters](installing-python-interpreters.md)) maintains its own global environment. Each environment is composed of the specific Python interpreter, its standard library, and a set of pre-installed packages. Installing a package into a global environment makes it available to all projects using that environment. If the environment is located in a protect area of the file system (within *c:\program files*, for example), then installing packages requires administrator privileges.
 
 Global environments are available to all projects on the computer. In Visual Studio, you select one global environment as the default, which is used for all projects unless you specifically choose a different one for a project. For more information, see [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
@@ -71,6 +71,9 @@ For Visual Studio 2017 version 15.6 and earlier, you can use conda environments 
 Visual Studio 2017 version 15.7 and later detects conda environments automatically and displays them in the **Python Environments** window as described in the next section.
 
 ## The Python Environments window
+
+> [!Note]
+> The screenshots shown in this section represent Visual Studio 15.8. You may see slightly different UI depending on your version of Visual Studio.
 
 The environments that Visual Studio knows about are displayed in the **Python Environments** window. To open the window, use one of the following methods:
 

@@ -57,7 +57,7 @@ There are three ways that you can begin debugging a WCF service:
   
 -   The service must be part of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution you are debugging.  
   
--   The service must be hosted. It may be part of a Web Site Project (File System and HTTP), Web Application Project (File System and HTTP), or WCF Service Library project. WCF Service Library projects can be either Service Libraries or Workflow Service Libraries.  
+-   The service must be hosted. It may be part of a Web Site project (File System and HTTP), Web Application project (File System and HTTP), or WCF Service Library project. WCF Service Library projects can be either Service Libraries or Workflow Service Libraries.  
   
 -   The service must be invoked from a WCF client.  
   

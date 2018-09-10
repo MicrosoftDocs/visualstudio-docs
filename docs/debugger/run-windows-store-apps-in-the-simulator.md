@@ -103,7 +103,7 @@ The Visual Studio simulator for UWP apps is a desktop application that simulates
      ![Screenshot settings context menu](../debugger/media/simulator_screenshotsettingscntxmnu.png "SIMULATOR_ScreenShotSettingsCntxMnu")  
   
 ##  <a name="BKMK_Simulate_network_connection_properties"></a> Simulate network connection properties  
- You can help your app's users manage the cost of metered network connections by maintaining awareness of network connection cost or data plan status changes and enabling your app to use this information to avoid incurring additional costs for roaming or exceeding a specified data transfer limit. The [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) APIs lets you respond to [NetworkStatusChanged](/uwp/api/windows.networking.connectivity.networkinformation) and [TriggerType](/uwp/api/windows.applicationmodel.background.systemtrigger) events that sign. See [Quickstart: Managing metered network cost constraints](http://msdn.microsoft.com/library/windows/apps/Hh750310.aspx).  
+ You can help your app's users manage the cost of metered network connections by maintaining awareness of network connection cost or data plan status changes and enabling your app to use this information to avoid incurring additional costs for roaming or exceeding a specified data transfer limit. The [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity) APIs lets you respond to [NetworkStatusChanged](/uwp/api/windows.networking.connectivity.networkinformation) and [TriggerType](/uwp/api/windows.applicationmodel.background.systemtrigger) events that sign. See [Quickstart: Managing metered network cost constraints](https://msdn.microsoft.com/library/windows/apps/Hh750310.aspx).  
   
  To debug or test your network cost-aware code, the simulator can mimic properties of a network that are exposed through the [ConnectionProfile](/uwp/api/windows.networking.connectivity.connectionprofile) object returned by [GetInternetConnectionProfile](/uwp/api/windows.networking.connectivity.networkinformation).
   
@@ -127,17 +127,17 @@ The Visual Studio simulator for UWP apps is a desktop application that simulates
   
  **More information about managing network connections**  
   
- [Quickstart: Managing metered network cost constraints](http://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)  
+ [Quickstart: Managing metered network cost constraints](https://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)  
   
- [Network information sample](http://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)  
+ [Network information sample](https://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)  
   
  [Analyze energy use](../profiling/analyze-energy-use-in-store-apps.md)  
   
  [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity)  
   
- [How to respond to system events with background tasks](http://msdn.microsoft.com/en-us/f7c86e86-a7ae-4abb-a923-76b03337a80a)  
+ [How to respond to system events with background tasks](/previous-versions/windows/apps/hh977058(v=win.10))  
   
- [How to trigger suspend, resume, and background events in UWP apps](http://msdn.microsoft.com/library/windows/apps/hh974425.aspx)  
+ [How to trigger suspend, resume, and background events in UWP apps](/visualstudio/debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio)  
   
 ##  <a name="BKMK_Navigate_the_simulator_with_the_keyboard"></a> Navigate the simulator with the keyboard  
  You can navigate the simulator toolbar by pressing **CTRL + ALT + Up Arrow** to switch focus from the simulator window to the simulator toolbar. Use the **Up Arrow** and the **Down Arrow** to move between toolbar buttons.  
