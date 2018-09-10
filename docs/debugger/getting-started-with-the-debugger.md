@@ -366,7 +366,9 @@ Features that allow you to inspect variables are one of the most useful features
 
 1. Expand the `shapes` object to see all its properties, such as the first index of the array `[0]`, which has a value of `Rectangle` (C#) or a memory address (C++).
 
-     ![View a data tip](../debugger/media/get-started-data-tip.png "View a Data Tip")
+     ![View a data tip](../debugger/media/get-started-data-tip.gif "View a Data Tip")
+
+    You can further expand objects to view their properties, such as the `Height` property of the rectangle.
 
     Often, when debugging, you want a quick way to check property values on objects, and the data tips are a good way to do it.
 
