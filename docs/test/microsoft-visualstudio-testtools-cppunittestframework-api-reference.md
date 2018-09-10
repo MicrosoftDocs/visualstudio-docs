@@ -18,7 +18,7 @@ This topic lists the public members of the `Microsoft::VisualStudio::CppUnitTest
 
  The lib files are located in the  _VisualStudio2012[x86]InstallFolder_**\VC\UnitTest\lib** folder.
 
-Header and lib paths are automatically configured in a Native Test Project.
+Header and lib paths are automatically configured in a Native Test project.
 
 ##  <a name="In_this_topic"></a> In this topic
  [CppUnitTest.h](#cppUnitTest_h)

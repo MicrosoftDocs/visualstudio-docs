@@ -11,9 +11,9 @@ Once you've [installed Visual Studio Tools for AI](installation.md), you can eas
 
 2. Launch Visual Studio.
 
-3. Select **View > Team Explorer...** to open the **Team Explorer** window in which you can connect to GitHub or Visual Studio Team Services, or clone a repository.
+3. Select **View > Team Explorer...** to open the **Team Explorer** window in which you can connect to GitHub or Azure DevOps, or clone a repository.
 
-    ![Team explorer window showing Visual Studio Team Services, GitHub, and cloning a repository](media\create-project-repo\team-explorer.png)
+    ![Team explorer window showing Azure DevOps, GitHub, and cloning a repository](media\create-project-repo\team-explorer.png)
 
 4. In the URL field under **Local Git Repositories**, enter `https://github.com/Microsoft/samples-for-ai`, enter a folder for the cloned files, and select **Clone**.
 

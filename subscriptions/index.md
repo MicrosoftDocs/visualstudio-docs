@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Subscriptions 
+title: Visual Studio Subscriptions
 Author: evanwindom
 Ms.author: tglee
 Manager: lank
@@ -59,7 +59,7 @@ Subscribers sign in to [https://my.visualstudio.com](https://my.visualstudio.com
         </a>
     </li>
     <li>
-        <a href="/vsts/">
+        <a href="/azure/devops/">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -69,7 +69,7 @@ Subscribers sign in to [https://my.visualstudio.com](https://my.visualstudio.com
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Visual Studio Team Services</h3>
+                        <h3>Azure DevOps Services</h3>
                     </div>
                 </div>
             </div>
@@ -129,7 +129,7 @@ Subscribers sign in to [https://my.visualstudio.com](https://my.visualstudio.com
             </div>
         </div>
         </a>
-    </li>   
+    </li>
 </ul>
 
 ---
@@ -153,7 +153,7 @@ To make your subscription even more useful, we add and update the subscription b
                             <li><a href="/visualstudio/subscriptions/vs-ide-benefit">Visual Studio</a></li>
                             <li>Visual Studio for Mac</li>
                             <li>Team Foundation Server and TFS CAL</li>
-                        </ul>                        
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -169,11 +169,11 @@ To make your subscription even more useful, we add and update the subscription b
                         <ul>
                             <li><a href="/visualstudio/subscriptions/vs-azure">Azure</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-visual-studio-app-center">Visual Studio App Center</a></li>
-                            <li><a href="/visualstudio/subscriptions/vs-vsts">Visual Studio Team Services</a></li>
+                            <li><a href="/visualstudio/subscriptions/vs-vsts">Azure DevOps Services</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-office-dev">Office 365 Developer Subscription</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-pbi">Windows Developer Account</a></li>
                             <li>PowerBI Pro</li>
-                        </ul>                        
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -195,7 +195,7 @@ To make your subscription even more useful, we add and update the subscription b
                             <li><a href="/visualstudio/subscriptions/vs-tech-support">Microsoft Professional Technical Support incidents</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-azure-advisory-chat">Azure Advisory Chat</a></li>
                             <li><a href="/visualstudio/subscriptions/vs-azure-community">Azure Community</a></li>
-                        </ul>                        
+                        </ul>
                     </div>
                 </div>
             </div>

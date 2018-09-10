@@ -63,4 +63,4 @@ When you are debugging an executable that is not part of your Visual Studio solu
 ## See Also  
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)   
  [Debugger Security](../debugger/debugger-security.md)   
- [DBG Files](http://msdn.microsoft.com/en-us/91e449e9-8b65-4123-960f-2107cd1f1cfd)
+ [DBG Files](/previous-versions/visualstudio/visual-studio-2010/da528y14(v=vs.100))
