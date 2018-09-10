@@ -34,6 +34,8 @@ Visual Studio's **Python Environments** window (shown below in a wide, expanded 
 
 ![Expanded view of the Python Environments window](media/environments-expanded-view.png)
 
+Use the **Open interactive window** command to run Python interactively within the context of Visual Studio. Use the **Open in PowerShell** command to open a separate command window in the folder of the selected environment. From that command window you can run any python script. 
+
 For more information:
 
 - Video (2m 35s): [Manage Python environments](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121?l=qrDmN4LWE_8305918567)
@@ -57,7 +59,7 @@ For more information:
 
 ## Interactive window
 
-For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well.
+For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well. (To open a separate command prompt, select your desired environment in the **Python Environments** window, then select the **Open in PowerShell** command as explained earlier under [Support for multiple interpreters](#support-for-multiple=interpreters).)
 
 ![Python interactive window in Visual Studio](media/interactive-window.png)
 
