@@ -73,7 +73,7 @@ Visual Studio 2017 version 15.7 and later detects conda environments automatical
 ## The Python Environments window
 
 > [!Note]
-> The screenshots shown in this section represent Visual Studio 15.8. You may see slightly different UI depending on your version of Visual Studio.
+> The screenshots shown in this section represent Visual Studio 15.8. You may see different UI depending on your version of Visual Studio.
 
 The environments that Visual Studio knows about are displayed in the **Python Environments** window. To open the window, use one of the following methods:
 
