@@ -131,7 +131,7 @@ searchScope: []
                                 </a>
                             </li>
                             <li>
-                                <a href="/subscriptions/" title="Visual Studio Subscriptions">
+                                <a href="/visualstudio/subscriptions/" title="Visual Studio Subscriptions">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
