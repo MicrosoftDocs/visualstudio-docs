@@ -77,7 +77,7 @@ VSPerfCmd [/U] [/options]
   
 |Option|Description|  
 |------------|-----------------|  
-|**Admin:Security** \<**ALLOW&#124;DENY**> *Right*[ *Right*] \<*User*&#124;*Group*>|Allows or denies the specified user or group access to profiling services.<br /><br /> `Right` can be:<br /><br /> CrossSession - gives the user access to the service to do cross session profiling.<br /><br /> SampleProfiling - gives the user access to the driver to enable sampling profiling. Also used to access kernel transition information during trace profiling.<br /><br /> FullAccess - gives the user both CrossSession and SampleProfiling access.|  
+|**Admin:Security**, \<**ALLOW&#124;DENY**>, *Right*[ *Right*], \<*User*&#124;*Group*>|Allows or denies the specified user or group access to profiling services.<br /><br /> `Right` can be:<br /><br /> CrossSession - gives the user access to the service to do cross session profiling.<br /><br /> SampleProfiling - gives the user access to the driver to enable sampling profiling. Also used to access kernel transition information during trace profiling.<br /><br /> FullAccess - gives the user both CrossSession and SampleProfiling access.|  
 |**Admin:Security, List**|Lists the current state of profiling services and lists user permissions.|  
 |**Admin:** \<*Service*&#124;*Driver*>\<**START**&#124;**STOP**&#124;**INSTALL**&#124;**UNINSTALL**>|Starts, stops, installs, or uninstalls the profiling service component (service) or kernel mode device driver (driver).|  
 |**Admin:** \<*Service*&#124;*Driver*>**AutoStart**\<**ON**&#124;**OFF**>|Enables or disables automatically starting the profiling service (service) or kernel mode device driver (driver) after a restart.|  

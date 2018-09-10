@@ -238,7 +238,7 @@ See:
 
 - [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)
 
-- [Azure Pipelines](/azure/devops/pipelines/index)
+- [Azure Pipelines](/azure/devops/pipelines/index?view=vsts)
 
 ## Update the System Using Visualization and Modeling
 
