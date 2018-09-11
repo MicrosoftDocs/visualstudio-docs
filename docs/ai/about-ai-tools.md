@@ -43,4 +43,4 @@ This extension makes it easy to train models on your local computer or you can s
 Currently this extension supports Windows 64-bit operating systems
 
 # Support
-Support for this extension is provided on our [GitHub Issue Tracker](http://github.com/Microsoft/vs-tools-for-ai/issues). You can submit a bug report, a feature suggestion or participate in discussions.
+Support for this extension is provided on our [GitHub Issue Tracker](http://github.com/Microsoft/vs-tools-for-ai/issues). You can submit a bug report, a feature suggestion or participate in discussions. 
