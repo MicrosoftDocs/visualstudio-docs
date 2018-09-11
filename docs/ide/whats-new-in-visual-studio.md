@@ -33,7 +33,7 @@ Here's a high-level recap of the changes that were made since the previous versi
 * **[Windows app development](#windows-app-development)**. Use the UWP templates in Visual Studio 2017 to create a single project for all Windows 10 devices &ndash; PC, tablet, phone, Xbox, HoloLens, Surface Hub, and more.
 * **[Mobile app development](#mobile-app-development)**. Innovate and get results fast with Xamarin, which unifies your multi-platform mobile requirements to one core codebase and set of skills.
 * **[Cross-platform development](#cross-platform-development)**. Seamlessly deliver software to any targeted platform. Extend DevOps processes to SQL Server through Redgate Data Tools and safely automate database deployments from Visual Studio. Or, use .NET Core to write apps and libraries that run unmodified across Windows, Linux, and macOS operating systems.
-* **[Games development](#games-development)**. With Visual Studio Tools for Unity (VSTU), you can use Visual Studio to write game and editor scripts in C# and then use its powerful debugger to find and fix errors. 
+* **[Games development](#games-development)**. With Visual Studio Tools for Unity (VSTU), you can use Visual Studio to write game and editor scripts in C# and then use its powerful debugger to find and fix errors.
 * **[AI development](#ai-development)**. With Visual Studio Tools for AI, you can use the productivity features of Visual Studio to accelerate AI innovation. Build, test, and deploy Deep Learning / AI solutions that seamlessly integrate with Azure Machine Learning for robust experimentation capabilities.
 
 > [!NOTE]
@@ -298,7 +298,7 @@ Also **new in 15.8**: We've made significant improvements to the designer experi
 
 ![The Xamarin.Adroid Designer split-view editor](../ide/media/android-designer-split-view.png)
 
-For more information, see [Hardware acceleration for emulator performance](/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?tabs=vswin#hyper-v-overview)
+For more information, see [Hardware acceleration for emulator performance](/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?tabs=vswin)
 
 ### Visual Studio App Center
 

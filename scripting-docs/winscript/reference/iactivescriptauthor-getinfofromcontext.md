@@ -98,5 +98,5 @@ HRESULT GetInfoFromContext(
 ## Remarks  
   
 ## See Also  
- [IProvideMultipleClassInfo Interface](https://msdn.microsoft.com/library/microsoft.visualstudio.ole.interop.iprovidemultipleclassinfo.aspx)   
+ [IProvideMultipleClassInfo Interface](https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.ole.interop.iprovidemultipleclassinfo)   
  [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)

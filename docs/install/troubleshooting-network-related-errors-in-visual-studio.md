@@ -67,7 +67,7 @@ This error generally occurs when users are connected to the internet through a p
 
 ## Error: “The underlying connection was closed”
 
-If you are using Visual Studio in a private network that has a firewall, Visual Studio might not be able to connect to some network resources. These resources can include Visual Studio Team Services (VSTS) for sign-in and licensing, NuGet, and Azure services. If Visual Studio fails to connect to one of these resources, you might see the following error message:
+If you are using Visual Studio in a private network that has a firewall, Visual Studio might not be able to connect to some network resources. These resources can include Azure DevOps Services for sign-in and licensing, NuGet, and Azure services. If Visual Studio fails to connect to one of these resources, you might see the following error message:
 
   **The underlying connection was closed: An unexpected error occurred on send**
 
@@ -97,7 +97,7 @@ Enable connections for the following URLs:
 
 - cdn.vsassets.io (hosts content delivery network, or CDN, content)
 
-- &#42;.gallerycdn.vsassets.io (hosts VSTS extensions)
+- &#42;.gallerycdn.vsassets.io (hosts Azure DevOps Services extensions)
 
 - static2.sharepointonline.com (hosts resources that Visual Studio uses in the Office UI Fabric kit, such as fonts)
 

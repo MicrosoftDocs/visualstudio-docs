@@ -595,8 +595,8 @@
         href: ide/how-to-configure-projects-to-target-multiple-platforms.md
     - name: MSBuild...
       href: msbuild/msbuild.md
-    - name: VSTS and TFS...
-      href: /vsts/build-release/index
+    - name: Azure Pipelines and TFS...
+      href: /azure/devops/pipelines/index?view=vsts
     - name: Specify Build Events (Visual Basic)
       href: ide/how-to-specify-build-events-visual-basic.md
     - name: Specify Build Events (C#)
@@ -749,6 +749,8 @@
           href: ide/reference/tabs-and-windows-environment-options-dialog-box.md
         - name: Environment - Task List
           href: ide/reference/task-list-environment-options-dialog-box.md
+        - name: Environment - Trust Settings
+          href: ide/reference/trust-settings.md
         - name: Environment - Web Browser
           href: ide/reference/web-browser-environment-options-dialog-box.md
       - name: Text Editor Options Dialog Box

@@ -170,7 +170,7 @@ Groups [CodeSnippet](../ide/code-snippets-schema-reference.md#codesnippet-elemen
 
 |Child element|Description|
 |-------------------|-----------------|
-|[CodeSnippet element](../ide/code-snippets-schema-reference.md#codesnippet)|Optional element. Parent element for all code snippet data. There may be zero or more `CodeSnippet` elements in a `CodeSnippets` element.|
+|[CodeSnippet element](../ide/code-snippets-schema-reference.md#codesnippet-element)|Optional element. Parent element for all code snippet data. There may be zero or more `CodeSnippet` elements in a `CodeSnippets` element.|
 
 ## Declarations element
 
@@ -190,7 +190,7 @@ Specifies the literals and objects that make up the parts of a code snippet that
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Snippet element](../ide/code-snippets-schema-reference.md#snippet)|Contains the references, imports, declarations, and code for the code snippet.|
+|[Snippet element](../ide/code-snippets-schema-reference.md#snippet-element)|Contains the references, imports, declarations, and code for the code snippet.|
 
 ## Default element
 
@@ -273,7 +273,7 @@ Specifies general information about the IntelliSense Code Snippet.
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[CodeSnippet element](../ide/code-snippets-schema-reference.md#codesnippet)|Parent element for all code snippet data.|
+|[CodeSnippet element](../ide/code-snippets-schema-reference.md#codesnippet-element)|Parent element for all code snippet data.|
 
 ## HelpUrl element
 
@@ -416,7 +416,7 @@ Literals and objects cannot contain an **ID** element with a value of selected o
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[Declarations element](../ide/code-snippets-schema-reference.md#declarations)|Contains the literals and objects of a code snippet that you can edit.|
+|[Declarations element](../ide/code-snippets-schema-reference.md#declarations-element)|Contains the literals and objects of a code snippet that you can edit.|
 
 ## Namespace element
 
@@ -485,7 +485,7 @@ Specifies information about the assembly references required by the code snippet
 
 |Parent element|Description|
 |--------------------|-----------------|
-|[References element](../ide/code-snippets-schema-reference.md#references)|Grouping element for `Reference` elements.|
+|[References element](../ide/code-snippets-schema-reference.md#references-element)|Grouping element for `Reference` elements.|
 
 ## References element
 
