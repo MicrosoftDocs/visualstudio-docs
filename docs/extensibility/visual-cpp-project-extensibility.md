@@ -49,7 +49,7 @@ All .vcxproj files import these files:
 <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
 ```
 
-These files don't define much themselves. They import other files based on certain property values:
+These files define little by themselves. Instead, they import other files based on these property values:
 
 - `$(ApplicationType)`
 
@@ -453,7 +453,7 @@ The Visual C++ Project system is based on the [VS Project System](https://github
 
 For general design information, see [Platform Extensibility - Part 1](http://blogs.msdn.com/b/vsproject/archive/2009/06/10/platform-extensibility-part-1.aspx) and [Platform extensibility - Part 2](http://blogs.msdn.com/b/vsproject/archive/2009/06/18/platform-extensibility-part-2.aspx).
 
-In simple terms, what you see in the Project Properties UI for VC Projects is defined by *rule* files. A rule file specifies a set of properties to show on a property page, and how and where they should be saved in the project file. Rule files are .xml files that use Xaml format, and the types used for their serialization are described in [Microsoft.Build.Framework.XamlTypes](/dotnet/api/microsoft.build.framework.xamltypes). For more information about the use of rule files in VC Projects, see [Property Page XML rule files](/cpp/ide/property-page-xml-files).
+In simple terms, the property pages you see in the **Project Properties** dialog for a C++ project are defined by *rule* files. A rule file specifies a set of properties to show on a property page, and how and where they should be saved in the project file. Rule files are .xml files that use Xaml format. The types used to serialize them are described in [Microsoft.Build.Framework.XamlTypes](/dotnet/api/microsoft.build.framework.xamltypes). For more information about the use of rule files in projects, see [Property Page XML rule files](/cpp/ide/property-page-xml-files).
 
 The rule files must be added to the `PropertyPageSchema` item group:
 
@@ -470,9 +470,9 @@ The rule files must be added to the `PropertyPageSchema` item group:
 
 > `Project` | `File` | `PropertySheet`
 
-CPS supports other values for context type, but they are not used in VC projects.
+CPS supports other values for context type, but they are not used in Visual C++ projects.
 
-If the rule should be visible in more than one context, use semi-colons (`;`) to separate the context values, as shown here:
+If the rule should be visible in more than one context, use semi-colons (**;**) to separate the context values, as shown here:
 
 ```xml
 <PropertyPageSchema Include="$(MyFolder)\MyRule.xml">
@@ -494,7 +494,7 @@ attributes that affect how the rule looks in the UI.
   xmlns="http://schemas.microsoft.com/build/2009/properties">
 ```
 
-The `PageTemplate` attribute defines how the rule is displayed in the Property Pages UI. The attribute can have one of these values:
+The `PageTemplate` attribute defines how the rule is displayed in the **Property Pages** dialog. The attribute can have one of these values:
 
 |Attribute|Description|
 |-|-|
@@ -519,9 +519,9 @@ Perhaps you want your toolset to use most of the .vcxproj default rules, but to 
 
 #### Project items
 
-The ProjectItemsSchema file defines the `ContentType` and `ItemType` values for Items that are treated as Project Items, and defines `FileExtension` elements to determine which Item group a new file is added to.
+The *ProjectItemsSchema.xml* file defines the `ContentType` and `ItemType` values for Items that are treated as Project Items, and defines `FileExtension` elements to determine which Item group a new file is added to.
 
-The default ProjectItemsSchema is found in the `$(VCTargetsPath)`\\*1033*\\*ProjectItemsSchema.xml* file. To extend it, you must create a schema file with a new name, such as *MyProjectItemsSchema.xml*:
+The default ProjectItemsSchema file is found in `$(VCTargetsPath)`\\*1033*\\*ProjectItemsSchema.xml*. To extend it, you must create a schema file with a new name, such as *MyProjectItemsSchema.xml*:
 
 ```xml
 <ProjectSchemaDefinitions xmlns="http://schemas.microsoft.com/build/2009/properties">
@@ -555,7 +555,7 @@ The Debug service in Visual Studio supports extensibility for the Debug engine. 
 
 - [MIEngine, open source project that supports lldb debugging](https://github.com/Microsoft/MIEngine)
 
-- [VS debug engine sample](https://code.msdn.microsoft.com/windowsdesktop/Visual-Studio-Debug-Engine-c2e21c0e)
+- [Visual Studio debug engine sample](https://code.msdn.microsoft.com/windowsdesktop/Visual-Studio-Debug-Engine-c2e21c0e)
 
 To specify the Debug engines and other properties for the debug session, you must implement a [Debug Launcher](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/extensibility/IDebugLaunchProvider.md) MEF component, and add a `debugger` rule. For an example, see the `$(VCTargetsPath)`\\1033\\debugger\_local\_windows.xml file.
 
@@ -581,69 +581,27 @@ To use a custom up-to-date check:
 
 ## Project upgrade
 
-### Default VC Project upgrader
+### Default .vcxproj project upgrader
 
-The default VC Project upgrader changes the `PlatformToolset`, `ApplicationTypeRevision`, MSBuild toolset version and .Net framework. The last two are always changed to the Visual Studio version defaults, but `PlatformToolset` and `ApplicationTypeRevision` can be controlled by special MSBuild properties.
+The default .vcxproj project upgrader changes the `PlatformToolset`, `ApplicationTypeRevision`, MSBuild toolset version and .Net framework. The last two are always changed to the Visual Studio version defaults, but `PlatformToolset` and `ApplicationTypeRevision` can be controlled by special MSBuild properties.
 
-The decision whether a project can be upgraded or not is based on these criteria:
+The upgrader uses these criteria to decide whether a project can be upgraded or not:
 
-For projects that don't define `ApplicationTypeRevision`, property `_UpgradePlatformToolsetFor_<safe_toolset_name>` is defined for the current toolset, and its value is not equal to the current toolset.
+1. For projects that define `ApplicationType` and `ApplicationTypeRevision`, there's a folder with a higher revision number than the current one.
 
-For projects that define `ApplicationTypeRevision`,
+1. The property `_UpgradePlatformToolsetFor_<safe_toolset_name>` is defined for the current toolset, and its value is not equal to the current toolset.
 
-1. A higher revision folder exists. For example, in a Windows Store project the revision folders under the `$(VCTargetPath)`\\Application Type\\Windows Store folder are checked. If a version number (say, 8.1) exists that's higher than the version currently defined in the project (say, 8.0), then that project can be upgraded.
+   In these property names, *\<safe_toolset_name>* represents the toolset name with all non-alphanumeric characters replaced by an underscore (**\_**).
 
-1. Property `_UpgradePlatformToolsetFor_<safe_toolset_name>` is defined for the current toolset, and its value is not equal to the current toolset.
+When a project can be upgraded, it participates in *Solution Retargeting*. For more information, see [IVsTrackProjectRetargeting2](/dotnet/api/microsoft.visualstudio.shell.interop.ivstrackprojectretargeting2).
 
-In the property names above, \<safe_toolset_name> represents the toolset name with all non-alphanumeric characters replaced by an underscore (`_`).
+If you want to adorn project names in **Solution Explorer** when projects use a specific toolset, define a `_PlatformToolsetShortNameFor_<safe_toolset_name>` property.
 
-If the upgrade toolset is always the same for a given old toolset, you can define `_UpgradePlatformToolsetFor_*` properties in a props file and install it under `$(VCTargetsPath)`\\ImportBefore\\Default or `$(VCTargetsPath)`\\ImportAfter\\Default folders. Make sure the name of this props file is unique.
+For examples of `_UpgradePlatformToolsetFor_<safe_toolset_name>` and `_PlatformToolsetShortNameFor_<safe_toolset_name>` property definitions, see the Microsoft.Cpp.Default.props file. For examples of usage, see the `$(VCTargetPath)`\\*Microsoft.Cpp.Default.props* file.
 
-If the upgrade toolset is different for different AppTypes or platforms, you can use
+### Custom project upgrader
 
-`$(VCTargetPath)\ApplicationType\<MyAppType>\Default.props`
-
-and
-
-`\Platforms\<MyPlatform>\Default.props`
-
-files, if these files belong to your toolset, or use
-
-`$(VCTargetPath)\ApplicationType\Windows Store\ImportBefore\*.props`
-
-or
-
-`\Platforms\Win32\ImportBefore\*.props`
-
-if you're extending the existing ones. You can also use an ImportAfter folder in all these locations.
-
-For an example definition of `_UpgradePlatformToolsetFor_*`, see `$(VCTargetPath)`\\Platforms\\Win32\\Platform.Default.props.
-
-You only need to define `_UpgradePlatformToolsetFor_v150` as v150 to log a message that upgrade isn't required, instead of 'not available', if a project or config already uses this toolset.
-
-When a project can be upgraded, it participates in *Solution Retargeting*. For more information, see [IVsTrackProjectRetargeting2](/dotnet/api/microsoft.visualstudio.shell.interop.ivstrackprojectretargeting2?view=visualstudiosdk-2017).
-
-If you want to adorn project names in **Solution Explorer** when projects use a particular toolset, define
-
-`_PlatformToolsetShortNameFor_<toolset_name>`
-
-where \<*toolset_name*> is the short name for the toolset. Short names are only used in Visual C++ for old toolsets, but you can use one for any toolset. For examples of short name definitions, see the Microsoft.Cpp.Default.props file. For examples of usage, see the Microsoft.Cpp.Platform.targets file.
-
-### Custom project upgrade
-
-VC Project supports MEF extensibility for 'project upgrader' objects. The upgrader object to use should be also defined in targets:
-
-```xml
-<PropertyGroup>
-  <VCProjectUpgraderObjectName>MyProjectUpgrader</VCProjectUpgraderObjectName>
-</PropertyGroup>
-```
-
-To disable upgrade, use a `NoUpgrade` value:
-
-`<VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>`
-
-Define your upgrader class implementation by using these properties and the `IProjectRetargetHandler` interface:
+To use a custom project upgrader object, implement an MEF component, as shown here:
 
 ```csharp
 /// </summary>
@@ -654,36 +612,59 @@ Define your upgrader class implementation by using these properties and the `IPr
 [PartMetadata(ProjectCapabilities.Requires, ProjectCapabilities.VisualC)]
 
 internal class MyProjectUpgrader: IProjectRetargetHandler
+{
+    // ...
+}
 ```
 
-The default VC Project upgrader is `VCDefaultProjectUpgrader`. It can be imported and called as desired:
+Your code can import and call the default .vcxproj upgrader object:
 
 ```csharp
+// ...
 [Import("VCDefaultProjectUpgrader")]
 
-IProjectRetargetHandler Lazy<IProjectRetargetHandler>
-VCDefaultProjectUpgrader {get;set; }
+    IProjectRetargetHandler Lazy<IProjectRetargetHandler>
+    VCDefaultProjectUpgrader { get; set; }
+// ...
 ```
 
-`IProjectRetargetHandler` is defined in Microsoft.VisualStudio.ProjectSystem.VS.dll and is similar to `IVsRetargetProjectAsync`.
+`IProjectRetargetHandler` is defined in *Microsoft.VisualStudio.ProjectSystem.VS.dll* and is similar to `IVsRetargetProjectAsync`.
 
-## VC Project Cache and extensibility
+Define the `VCProjectUpgraderObjectName` property to tell the project system to use your custom upgrader object:
 
-To improve performance when working with large C++ solutions in VS 2017, the [VC Project cache](https://blogs.msdn.microsoft.com/vcblog/2016/10/05/faster-c-solution-load-with-vs-15/) was introduced. It's implemented as a SQLite database populated with project data, and then used to load VC projects without loading MSBuild or CPS projects into memory.
+```xml
+<PropertyGroup>
+  <VCProjectUpgraderObjectName>MyProjectUpgrader</VCProjectUpgraderObjectName>
+</PropertyGroup>
+```
 
-However, because there are no CPS objects present for VC projects loaded from cache, the extension's MEF components that import `UnconfiguredProject` or `ConfiguredProject` cannot be created. To support extensibility, the VC Project cache isn't used when Visual Studio detects that a project uses (or is likely to use) MEF extensions.
+#### Disable project upgrade
 
-These project types are always fully loaded:
+To disable project upgrades, use a `NoUpgrade` value:
 
-- Startup projects, because Debugger MEF extensions are always created for them
+```xml
+<PropertyGroup>
+  <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+</PropertyGroup>
+```
 
-- Projects that have a custom project upgrader, that is, they define a 'VCProjectUpgraderObjectName' property
+## Project cache and extensibility
 
-- Projects that don't target Desktop Windows, that is, they define an 'ApplicationType' property
+To improve performance when working with large C++ solutions in Visual Studio 2017, the [project cache](https://blogs.msdn.microsoft.com/vcblog/2016/10/05/faster-c-solution-load-with-vs-15/) was introduced. It's implemented as a SQLite database populated with project data, and then used to load projects without loading MSBuild or CPS projects into memory.
+
+However, because there are no CPS objects present for .vcxproj projects loaded from cache, the extension's MEF components that import `UnconfiguredProject` or `ConfiguredProject` can`t be created. To support extensibility, the project cache isn't used when Visual Studio detects that a project uses (or is likely to use) MEF extensions.
+
+These project types are always fully loaded and have CPS objects in memory, so all MEF extensions are created for them:
+
+- Startup projects
+
+- Projects that have a custom project upgrader, that is, they define a `VCProjectUpgraderObjectName` property
+
+- Projects that don't target Desktop Windows, that is, they define an `ApplicationType` property
 
 - Shared Items projects (.vcxitems) and any projects that reference them by import of .vcxitems projects.
 
-If none of the above conditions are detected, a project cache is created that includes all the data from the MSBuild project required to answer 'get' questions of `VCProjectEngine` interfaces. This means all modifications at the MSBuild props and targets file level done by an extension should just work in projects loaded from cache.
+If none of the above conditions are detected, a project cache is created that includes all the data from the MSBuild project required to answer `get` queries on `VCProjectEngine` interfaces. This means all modifications at the MSBuild props and targets file level done by an extension should just work in projects loaded from cache.
 
 ## Shipping your extension
 
@@ -696,4 +677,3 @@ The Microsoft Build System ([MSBuild](../msbuild/msbuild.md)) provides the build
 The Managed Extensibility Framework ([MEF](/dotnet/framework/mef/)) provides the extension APIs that are used by CPS and the Visual C++ project system. For an overview of how MEF is used by CPS, see [MEF](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/overview/mef.md).
 
 You can customize the existing build system to add build steps or new file types. For more information, see [MSBuild (Visual C++) Overview](/cpp/build/msbuild-visual-cpp-overview) and [Working with project properties](/cpp/ide/working-with-project-properties).
-
