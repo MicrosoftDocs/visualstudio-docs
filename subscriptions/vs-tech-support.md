@@ -30,8 +30,8 @@ Resolve break-fix issues in non-production environments. (Benefit must be activa
     > ![Technical Support Benefit Find Subscription ID](_img\vs-tech-support\vs-tech-support-subID-cropped.png)
 
 
-    > [!NOTE]
-    > To activate your support account in a language other than English, choose your country from [this list](https://support.microsoft.com/help/14084/activate-support-contract).   
+> [!NOTE]
+> To activate your support account in a language other than English, choose your country from [this list](https://support.microsoft.com/help/14084/activate-support-contract).   
 
 
 ## How to submit an incident
