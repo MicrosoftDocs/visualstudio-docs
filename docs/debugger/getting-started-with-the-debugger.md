@@ -25,7 +25,7 @@ This article introduces the features of the Visual Studio debugger in a step-by-
 |---------|---------|
 |  ![movie camera icon for video](../install/media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugger-Feature-tour-of-Visual-studio-2017-sqwiwLD6D_1111787171) on debugging that shows similar steps. |
 
-Although the demo app is C# and C++, the features are applicable to Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted). The screenshots are in C#. To switch between the C# and C++ sample code, use the language filter in the upper right of this page.
+Although the demo app is C# and C++, the features are applicable to Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted). The screenshots are in C#. To switch between the C# and C++ sample code in this article, use the language filter in the upper right of this page.
 
 In this tutorial, you will:
 
@@ -302,7 +302,7 @@ In this tutorial, you will:
 
 Mostly, we use the keyboard shortcuts here, because it's a good way to get fast at executing your app in the debugger (equivalent commands such as menu commands are shown in parentheses).
 
-1. While paused in the `shape.Draw` method call in the `Main` method (`shape->Draw` in C++), press **F11** to advance into code for the `Rectangle` class.
+1. While paused in the `shape.Draw` method call in the `Main` method (`shape->Draw` in C++), press **F11** (or choose **Debug > Step Into**) to advance into code for the `Rectangle` class.
 
      ![Use F11 to Step Into code](../debugger/media/get-started-f11.png "F11 Step Into")
 
