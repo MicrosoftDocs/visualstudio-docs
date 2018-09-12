@@ -33,8 +33,8 @@
     <LinkedServerProject>
     </LinkedServerProject>
   </PropertyGroup>
-  <!-- This property group is only here to support building this project using the 
-       MSBuild 3.5 toolset. In order to work correctly with this older toolset, it needs 
+  <!-- This property group is only here to support building this project using the
+       MSBuild 3.5 toolset. In order to work correctly with this older toolset, it needs
        to set the TargetFrameworkVersion to v3.5 -->
   <PropertyGroup Condition="'$(MSBuildToolsVersion)' == '3.5'">
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
@@ -132,7 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\AppManifest.xml" />
-    <None Include="My Project\DataSources\AdventureWorksSilverlightApp.AdventureWorksService.AdventureWorksLTEntities.datasource" />
+    <None Include="My Project\DataSources\adventure-works-lt-silverlight.datasource" />
     <None Include="Service References\AdventureWorksService\service.edmx" />
   </ItemGroup>
   <ItemGroup>
@@ -150,7 +150,7 @@
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.VisualBasic.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
