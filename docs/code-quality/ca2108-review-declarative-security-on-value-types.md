@@ -36,7 +36,7 @@ Value types are allocated and initialized by their default constructors before o
 
 ## How to fix violations
 
-You cannot fix a violation of this rule unless you remove the security check from the type, and use method level security checks in its place. Note that fixing the violation in this manner will not prevent callers with inadequate permissions from obtaining instances of the value type. You must ensure that an instance of the value type, in its default state, does not expose sensitive information, and cannot be used in a harmful manner.
+You cannot fix a violation of this rule unless you remove the security check from the type, and use method level security checks in its place. Fixing the violation in this manner does not prevent callers with inadequate permissions from obtaining instances of the value type. You must ensure that an instance of the value type, in its default state, does not expose sensitive information, and cannot be used in a harmful manner.
 
 ## When to suppress warnings
 
@@ -44,7 +44,7 @@ You can suppress a warning from this rule if any caller can obtain instances of 
 
 ## Example 1
 
-The following example shows a library containing a value type that violates this rule. Note that the `StructureManager` type assumes that a caller that passes an instance of the value type has permission to create or access the instance.
+The following example shows a library containing a value type that violates this rule. The `StructureManager` type assumes that a caller that passes an instance of the value type has permission to create or access the instance.
 
 [!code-csharp[FxCop.Security.DemandOnValueType#1](../code-quality/codesnippet/CSharp/ca2108-review-declarative-security-on-value-types_1.cs)]
 

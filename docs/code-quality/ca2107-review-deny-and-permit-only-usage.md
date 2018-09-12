@@ -39,7 +39,7 @@ ms.workload:
 
 - If the Deny or PermitOnly occurs in the same stack frame as the demand that causes the stack walk, the security actions have no effect.
 
-- Values that are used to construct path-based permissions can usually be specified in multiple ways. Denying access to one form of the path does not deny access to all forms. For example, if a file share \\\Server\Share is mapped to a network drive X:, to deny access to a file on the share, you must deny \\\Server\Share\File, X:\File and every other path that accesses the file.
+- Values that are used to construct path-based permissions can usually be specified in multiple ways. Denying access to one form of the path does not deny access to all forms. For example, if a file share \\\Server\Share is mapped to a network drive X:, to deny access to a file on the share, you must deny \\\Server\Share\File, X:\File, and every other path that accesses the file.
 
 - An <xref:System.Security.CodeAccessPermission.Assert%2A?displayProperty=fullName> can terminate a stack walk before the Deny or PermitOnly is reached.
 

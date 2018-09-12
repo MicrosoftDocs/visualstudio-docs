@@ -35,7 +35,7 @@ ms.workload:
  If this rule is violated, a malicious caller can bypass the link demand merely by calling the unsecured method.
 
 ## How to fix violations
- To fix a violation of this rule, apply the same link demand to the overide method or implementation. If this is not possible, mark the method with a full demand or remove the attribute altogether.
+ To fix a violation of this rule, apply the same link demand to the override method or implementation. If this is not possible, mark the method with a full demand or remove the attribute altogether.
 
 ## When to suppress warnings
  Do not suppress a warning from this rule.
