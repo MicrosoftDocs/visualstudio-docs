@@ -40,7 +40,7 @@ This rule splits the parameter name into tokens based on the camel casing conven
 
 ## How to fix violations
 
-To fix a violation of this rule, change the parameter to a <xref:System.Uri> type; this is a breaking change. Alternately, provide an overload of the method which takes a <xref:System.Uri> parameter; this is a nonbreaking change.
+To fix a violation of this rule, change the parameter to a <xref:System.Uri> type; this is a breaking change. Alternately, provide an overload of the method that takes a <xref:System.Uri> parameter; this is a non-breaking change.
 
 ## When to suppress warnings
 

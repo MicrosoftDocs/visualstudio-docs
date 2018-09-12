@@ -39,7 +39,7 @@ ms.workload:
  To fix a violation of this rule, add a get accessor to the property. Alternatively, if the behavior of a write-only property is necessary, consider converting this property to a method.
 
 ## When to suppress warnings
- It is strongly recommended that you do not suppress a warning from this rule.
+ It is recommended that you do not suppress a warning from this rule.
 
 ## Example
  In the following example, `BadClassWithWriteOnlyProperty` is a type with a write-only property. `GoodClassWithReadWriteProperty` contains the corrected code.
