@@ -96,6 +96,8 @@ For more information, see [Install Python support for Visual Studio](installing-
 
 Follow the instructions in this section to create two identical C++ projects named "superfastcode" and "superfastcode2". Later you'll use different means in each project to expose the C++ code to Python.
 
+1. Make sure the `PYTHONHOME` environment variable is set to the Python interpreter you want to use. The C++ projects in Visual Studio rely on this variable to locate files such as *python.h*, which are used when creating a Python extension.
+
 1. Right-click the solution in **Solution Explorer** and select **Add** > **New Project**. A Visual Studio solution can contain both Python and C++ projects together (which is one of the advantages of using Visual Studio for Python).
 
 1. Search on "C++", select **Empty project**, specify the name "superfastcode" ("superfastcode2" for the second project), and select **OK**.
