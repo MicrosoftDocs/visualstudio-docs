@@ -108,7 +108,7 @@ All folder names under the *Platforms* folder for each `$(ApplicationType)` and 
 
 To add a new application type, create a *MyApplicationType* folder under `$(VCTargetsPath)`*\\Application Type\\* and create a *Defaults.props* file in it. At least one revision is required for an application type, so also create a `$(VCTargetsPath)`*\\Application Type\\MyApplicationType\\1.0* folder, and create a *Defaults.props* file in it. You should also create a `$(VCTargetsPath)`*\\ApplicationType\\MyApplicationType\\1.0\\Platforms* folder and create at least one platform in it.
 
-`$(ApplicationType)` and `$(ApplicationTypeRevision)` properties are not visible in the UI. They are defined in the project templates and cannot be changed after the project is created.
+`$(ApplicationType)` and `$(ApplicationTypeRevision)` properties aren't visible in the user interface. They are defined in the project templates and cannot be changed after the project is created.
 
 
 ## The .vcxproj import tree
@@ -131,7 +131,7 @@ Windows Desktop projects don't define `$(ApplicationType)`, so they only import
 > &nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*Platforms*\\`$(Platform)`\\*Platform.default.props*  
 > &nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*ImportAfter*\\*Default*\\\*.*props*  
 
-We'll use the `$(_PlatformFolder)` property to hold the `$(Platform)` platform folder locations. This is 
+We'll use the `$(_PlatformFolder)` property to hold the `$(Platform)` platform folder locations. This property is 
 
 > `$(VCTargetsPath)`\\*Platforms*\\`$(Platform)`
 
@@ -164,7 +164,7 @@ If you need to define some default properties for your toolset, you can add file
 
 ## Author Toolset.props and Toolset.targets files
 
-Toolset.props and Toolset.targets files have full control over what happens during a build when this toolset is used. They can also control some of the UI in the IDE such as the content in the **Property Pages** dialog, what debuggers are available, and some other aspects of project behavior.
+Toolset.props and Toolset.targets files have full control over what happens during a build when this toolset is used. They can also control the available debuggers, some of the IDE user interface, such as the content in the **Property Pages** dialog, and some other aspects of project behavior.
 
 Although a toolset can override the entire build process, usually you just want your toolset to modify or add some build steps, or to use different build tools, as part of an existing build process. To accomplish this goal, there are a number of common props and targets files your toolset can import. Depending on what you want your toolset to do, these files may be useful to use as imports or as examples:
 
@@ -190,7 +190,7 @@ Although a toolset can override the entire build process, usually you just want 
 
 The default C++ build process is defined in *Microsoft.CppCommon.targets*. The targets there don’t call any specific build tools; they specify the main build steps, their order and dependencies.
 
-The C++ build has 3 main steps which are represented by the following targets:
+The C++ build has three main steps, which are represented by the following targets:
 
 - `BuildGenerateSources`
 
@@ -260,9 +260,9 @@ Because the `ClCompile` target is defined as an empty target in *Microsoft.CppBu
 </Target>
 ```
 
-Despite the name `ClCompile`, which was created before Visual Studio implemented cross-platform support, the `ClCompile` target does not have to call CL.exe. It can also call Clang, gcc, or other compilers by using appropriate MSBuild tasks.
+Despite the name `ClCompile`, which was created before Visual Studio implemented cross-platform support, the `ClCompile` target doesn't have to call CL.exe. It can also call Clang, gcc, or other compilers by using appropriate MSBuild tasks.
 
-The `ClCompile` target should not have any dependencies except the `SelectClCompile` target. This is required for the single file compile command to work in the IDE.
+The `ClCompile` target should not have any dependencies except the `SelectClCompile` target, which is required for the single file compile command to work in the IDE.
 
 ## MSBuild tasks to use in toolset targets
 
@@ -300,45 +300,45 @@ If you need to create a new task for a build tool, you can choose from the follo
 
    - Xaml task (a custom build rule)
 
-     For an example of a Xaml task declaration, see `$(VCTargetsPath)`\\*BuildCustomizations*\\*masm.xml*, and for an example of usage, see `$(VCTargetsPath)`\\*BuildCustomizations*\\*masm.targets*.
+     For one example of a Xaml task declaration, see `$(VCTargetsPath)`\\*BuildCustomizations*\\*masm.xml*, and for its usage, see `$(VCTargetsPath)`\\*BuildCustomizations*\\*masm.targets*.
 
    - [Code task](../msbuild/msbuild-inline-tasks.md)
 
 1. If you want better task performance or just need more complex functionality, use the regular MSBuild [task writing](../msbuild/task-writing.md) process.
 
-   If not all inputs and outputs of the tool are listed on the tool command line, as in the `CL`, `MIDL`, and `RC` cases, and if you want automatic input and output file tracking and tlog file creation, derive your task from `TrackedVCToolTask`.
+   If not all inputs and outputs of the tool are listed on the tool command line, as in the `CL`, `MIDL`, and `RC` cases, and if you want automatic input and output file tracking and .tlog file creation, derive your task from `TrackedVCToolTask`.
 
 ## Incremental builds and up-to-date checks
 
-The default MSBuild incremental build targets use `Inputs` and `Outputs` attributes. If you specify them, MSBuild calls the target only if any of the inputs has a newer timestamp than all outputs. However, source files often include or import other files, and build tools produce different outputs depending on the tool options. As a result, it is hard to specify all possible inputs and outputs in MSBuild targets.
+The default MSBuild incremental build targets use `Inputs` and `Outputs` attributes. If you specify them, MSBuild calls the target only if any of the inputs has a newer timestamp than all outputs. Because source files often include or import other files, and build tools produce different outputs depending on the tool options, it is hard to specify all possible inputs and outputs in MSBuild targets.
 
-To manage this problem, the C++ build uses a different technique to support incremental builds. Most targets don't specify inputs and outputs, and therefore always run during the build. The tasks called by targets write information about all inputs and outputs into *tlog* files that have a .tlog extension. The tlog files are used by later builds to check what has changed and needs to be rebuilt, and what is up-to-date.
+To manage this problem, the C++ build uses a different technique to support incremental builds. Most targets don't specify inputs and outputs, and as a result, always run during the build. The tasks called by targets write information about all inputs and outputs into *tlog* files that have a .tlog extension. The .tlog files are used by later builds to check what has changed and needs to be rebuilt, and what is up-to-date.
 
 To determine all the inputs and outputs, native tool tasks use tracker.exe and the [FileTracker](/dotnet/api/microsoft.build.utilities.filetracker) class provided by MSBuild.
 
 Microsoft.Build.CPPTasks.Common.dll defines the `TrackedVCToolTask` public abstract base class. Most of the native tool tasks are derived from this class.
 
-## Tlog files
+## .tlog files
 
-There are three types of tlog files: *read*, *write*, and *command-line*. Read and write tlog files are used by incremental builds and by the up-to-date check in the IDE. Command-line tlog files are only used in incremental builds.
+There are three types of .tlog files: *read*, *write*, and *command-line*. Read and write .tlog files are used by incremental builds and by the up-to-date check in the IDE. Command-line .tlog files are only used in incremental builds.
 
-MSBuild provides these helper classes to read and write tlog files:
+MSBuild provides these helper classes to read and write .tlog files:
 
 - [CanonicalTrackedInputFiles](/dotnet/api/microsoft.build.utilities.canonicaltrackedinputfiles)
 
 - [CanonicalTrackedOutputFiles](/dotnet/api/microsoft.build.utilities.canonicaltrackedoutputfiles)
 
-The [FlatTrackingData](/dotnet/api/microsoft.build.utilities.flattrackingdata) class can be used to access both read and write tlog files and identify inputs that are newer than outputs, or if an output is missing. It's used in the up-to-date check.
+The [FlatTrackingData](/dotnet/api/microsoft.build.utilities.flattrackingdata) class can be used to access both read and write .tlog files and identify inputs that are newer than outputs, or if an output is missing. It's used in the up-to-date check.
 
-Command-line tlog files contain information about command lines used in the build. They are only used for incremental builds, not up-to-date checks, so the internal format is determined by the MSBuild task that produces them.
+Command-line .tlog files contain information about command lines used in the build. They are only used for incremental builds, not up-to-date checks, so the internal format is determined by the MSBuild task that produces them.
 
-If tlog files are created by a task, it's best to use these helper classes to create them. However, because the default up-to-date check now relies solely on tlog files, sometimes it's more convenient to produce them in a target without a task. You can write them by using the `WriteLinesToFile` task. For an example, see the `_WriteMasmTlogs` target in `$(VCTargetsPath)`\\*BuildCustomizations*\\*masm.targets*.
+If .tlog files are created by a task, it's best to use these helper classes to create them. However, because the default up-to-date check now relies solely on .tlog files, sometimes it's more convenient to produce them in a target without a task. You can write them by using the `WriteLinesToFile` task. See the `_WriteMasmTlogs` target in `$(VCTargetsPath)`\\*BuildCustomizations*\\*masm.targets* as an example.
 
-### Read tlog format
+### Read .tlog format
 
-*Read* tlog files (\*.read.\*.tlog) contain information about source files and their dependencies.
+*Read* .tlog files (\*.read.\*.tlog) contain information about source files and their dependencies.
 
-A caret (**^**) at the beginning of a line indicates one or more sources. Multiple sources that share the same dependencies are separated by a vertical bar (**\|**).
+A caret (**^**) at the beginning of a line indicates one or more sources. Sources that share the same dependencies are separated by a vertical bar (**\|**).
 
 Dependency files are listed after the sources, each on its own line. All file names are full paths.
 
@@ -359,9 +359,9 @@ F:\TEST\CONSOLEAPPLICATION1\CONSOLEAPPLICATION1\CLASS1.H
 
 It isn't required to write file names in upper case, but it's a convenience for some tools.
 
-### Write tlog format
+### Write .tlog format
 
-*Write* tlog (\*.write.\*.tlog) files connect sources and outputs.
+*Write* .tlog (\*.write.\*.tlog) files connect sources and outputs.
 
 A caret (**^**) at the beginning of a line indicates one or more sources. Multiple sources are separated by a vertical bar (**\|**).
 
@@ -380,7 +380,7 @@ F:\TEST\CONSOLEAPPLICATION1\DEBUG\CONSOLEAPPLICATION1.PDB
 
 In the IDE, .vcxproj projects use a set of MSBuild targets to get additional information from the project and to regenerate output files. Some of these targets are only used in design-time builds, but many of them are used in both regular builds and design-time builds.
 
-For general information about design-time builds, see the CPS documentation for [Design-time builds](https://github.com/dotnet/project-system/blob/master/docs/design-time-builds.md). Note that this documentation is only partly applicable to Visual C++ projects.
+For general information about design-time builds, see the CPS documentation for [Design-time builds](https://github.com/dotnet/project-system/blob/master/docs/design-time-builds.md). This documentation is only partly applicable to Visual C++ projects.
 
 The `CompileDesignTime` and `Compile` targets mentioned in the design-time builds documentation never run for .vcxproj projects. Visual C++ .vcxproj projects use different design-time targets to get IntelliSense information.
 
@@ -405,7 +405,7 @@ The target calls the `CLCommandLine` task to create the command line to use for 
 
 Currently, the command line produced by the `CLCommandLine` task always uses CL switches (even in Clang mode) because they're easier for the IntelliSense engine to parse.
 
-If you're adding a target that runs before compilation, whether regular or design-time, make sure it does not break design-time builds or affect performance. The simplest way to test your target is to open a Developer command prompt and run this command:
+If you're adding a target that runs before compilation, whether regular or design-time, make sure it doesn't break design-time builds or affect performance. The simplest way to test your target is to open a Developer command prompt and run this command:
 
 > msbuild /p:SolutionDir=*solution-directory-with-trailing-backslash*;Configuration=Debug;Platform=Win32;BuildingInsideVisualStudio=true;DesignTimebuild=true /t:\_PerfIntellisenseInfo /v:d /fl /fileloggerparameters:PerformanceSummary \*.vcxproj
 
@@ -470,7 +470,7 @@ The rule files must be added to the `PropertyPageSchema` item group:
 
 > `Project` | `File` | `PropertySheet`
 
-CPS supports other values for context type, but they are not used in Visual C++ projects.
+CPS supports other values for context type, but they aren't used in Visual C++ projects.
 
 If the rule should be visible in more than one context, use semi-colons (**;**) to separate the context values, as shown here:
 
@@ -483,7 +483,7 @@ If the rule should be visible in more than one context, use semi-colons (**;**) 
 #### Rule format and main types
 
 The rule format is straightforward, so this section only describes the
-attributes that affect how the rule looks in the UI.
+attributes that affect how the rule looks in the user interface.
 
 ```xml
 <Rule
@@ -499,7 +499,7 @@ The `PageTemplate` attribute defines how the rule is displayed in the **Property
 |Attribute|Description|
 |-|-|
 `generic`|All properties are shown on one page under Category headings<br/>The rule can be visible for `Project` and `PropertySheet` contexts, but not `File`.<br/><br/> Example: `$(VCTargetsPath)`\\*1033*\\*general.xml*
-`tool`|Categories are shown as subpages.<br/>The rule can be visible in all contexts, `Project`, `PropertySheet` and `File`.<br/>The rule is visible in Project Properties only if the project has items with the `ItemType` defined in `Rule.DataSource`, unless the rule name is included in the `ProjectTools` item group.<br/><br/>Example: `$(VCTargetsPath)`\\*1033*\\*clang.xml*
+`tool`|Categories are shown as subpages.<br/>The rule can be visible in all contexts: `Project`, `PropertySheet` and `File`.<br/>The rule is visible in Project Properties only if the project has items with the `ItemType` defined in `Rule.DataSource`, unless the rule name is included in the `ProjectTools` item group.<br/><br/>Example: `$(VCTargetsPath)`\\*1033*\\*clang.xml*
 `debugger`|The page is shown as a part of the Debugging page.<br/>Categories are currently ignored.<br/>The rule name should match the Debug Launcher MEF object's `ExportDebugger` attribute.<br/><br/>Example: `$(VCTargetsPath)`\\*1033*\\*debugger\_local\_windows.xml*
 *custom*| Custom template. The name of the template should match the `ExportPropertyPageUIFactoryProvider` attribute of the `PropertyPageUIFactoryProvider` MEF object. See **Microsoft.VisualStudio.ProjectSystem.Designers.Properties.IPropertyPageUIFactoryProvider**.<br/><br/> Example: `$(VCTargetsPath)`\\*1033*\\*userMacros.xml*
 
@@ -565,7 +565,7 @@ To specify the Debug engines and other properties for the debug session, you mus
 
 ### Build up-To-date check
 
-By default, the build up-to-date check requires Read tlog and Write tlog files to be created in the `$(TlogLocation)` folder during build for all build inputs and outputs.
+By default, the build up-to-date check requires read .tlog and write .tlog files to be created in the `$(TlogLocation)` folder during build for all build inputs and outputs.
 
 To use a custom up-to-date check:
 
@@ -652,7 +652,7 @@ To disable project upgrades, use a `NoUpgrade` value:
 
 To improve performance when working with large C++ solutions in Visual Studio 2017, the [project cache](https://blogs.msdn.microsoft.com/vcblog/2016/10/05/faster-c-solution-load-with-vs-15/) was introduced. It's implemented as a SQLite database populated with project data, and then used to load projects without loading MSBuild or CPS projects into memory.
 
-However, because there are no CPS objects present for .vcxproj projects loaded from cache, the extension's MEF components that import `UnconfiguredProject` or `ConfiguredProject` can`t be created. To support extensibility, the project cache isn't used when Visual Studio detects that a project uses (or is likely to use) MEF extensions.
+Because there are no CPS objects present for .vcxproj projects loaded from cache, the extension's MEF components that import `UnconfiguredProject` or `ConfiguredProject` can`t be created. To support extensibility, the project cache isn't used when Visual Studio detects whether a project uses (or is likely to use) MEF extensions.
 
 These project types are always fully loaded and have CPS objects in memory, so all MEF extensions are created for them:
 
@@ -664,7 +664,7 @@ These project types are always fully loaded and have CPS objects in memory, so a
 
 - Shared Items projects (.vcxitems) and any projects that reference them by import of .vcxitems projects.
 
-If none of the above conditions are detected, a project cache is created that includes all the data from the MSBuild project required to answer `get` queries on `VCProjectEngine` interfaces. This means all modifications at the MSBuild props and targets file level done by an extension should just work in projects loaded from cache.
+If none of these conditions are detected, a project cache is created. The cache includes all the data from the MSBuild project required to answer `get` queries on `VCProjectEngine` interfaces. This means all modifications at the MSBuild props and targets file level done by an extension should just work in projects loaded from cache.
 
 ## Shipping your extension
 
