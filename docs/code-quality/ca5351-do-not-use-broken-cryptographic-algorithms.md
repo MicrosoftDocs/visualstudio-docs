@@ -12,6 +12,7 @@ ms.workload:
   - "multiple"
 ---
 # CA5351 Do Not Use Broken Cryptographic Algorithms
+
 |||
 |-|-|
 |TypeName|DoNotUseBrokenCryptographicAlgorithms|
@@ -20,67 +21,69 @@ ms.workload:
 |Breaking Change|Non Breaking|
 
 > [!NOTE]
->  This warning was last updated on November 2015.
+> This warning was last updated on November 2015.
 
 ## Cause
- Hashing functions such as <xref:System.Security.Cryptography.MD5> and encryption algorithms such as <xref:System.Security.Cryptography.DES> and <xref:System.Security.Cryptography.RC2> can expose significant risk and may result in the exposure of sensitive information through trivial attack techniques, such as brute force attacks and hash collisions.
 
- The cryptographic algorithms list below are subject to known cryptographic attacks. The cryptographic hash algorithm <xref:System.Security.Cryptography.MD5> is subject to hash collision attacks.  Depending on the usage, a hash collision may lead to impersonation, tampering, or other kinds of attacks on systems that rely on the unique cryptographic output of a hashing function. The encryption algorithms <xref:System.Security.Cryptography.DES> and <xref:System.Security.Cryptography.RC2> are subject to cryptographic attacks that may result in unintended disclosure of encrypted data.
+Hashing functions such as <xref:System.Security.Cryptography.MD5> and encryption algorithms such as <xref:System.Security.Cryptography.DES> and <xref:System.Security.Cryptography.RC2> can expose significant risk and may result in the exposure of sensitive information through trivial attack techniques, such as brute force attacks and hash collisions.
 
-## Rule Description
- Broken cryptographic algorithms are not  considered secure and their use should be discouraged. The MD5 hash algorithm is susceptible to known collision attacks, though the specific vulnerability will vary based on the context of use.  Hashing algorithms used to ensure data integrity (e.g., file signature or digital certificate) are particularly vulnerable.  In this context, attackers could generate two separate pieces of data, such that benign data can be substituted with malicious data, without changing the hash value or invalidating an associated digital signature.
+The cryptographic algorithms list below are subject to known cryptographic attacks. The cryptographic hash algorithm <xref:System.Security.Cryptography.MD5> is subject to hash collision attacks.  Depending on the usage, a hash collision may lead to impersonation, tampering, or other kinds of attacks on systems that rely on the unique cryptographic output of a hashing function. The encryption algorithms <xref:System.Security.Cryptography.DES> and <xref:System.Security.Cryptography.RC2> are subject to cryptographic attacks that may result in unintended disclosure of encrypted data.
 
- For encryption algorithms:
+## Rule description
 
--   <xref:System.Security.Cryptography.DES> encryption contains a small key size, which could be brute-forced in less than a day.
+Broken cryptographic algorithms are not  considered secure and their use should be discouraged. The MD5 hash algorithm is susceptible to known collision attacks, though the specific vulnerability will vary based on the context of use.  Hashing algorithms used to ensure data integrity (e.g., file signature or digital certificate) are particularly vulnerable.  In this context, attackers could generate two separate pieces of data, such that benign data can be substituted with malicious data, without changing the hash value or invalidating an associated digital signature.
 
--   <xref:System.Security.Cryptography.RC2> encryption is susceptible to a related-key attack, where the attacker finds mathematical relationships between all key values.
+For encryption algorithms:
 
- This rule triggers when it finds any of the above cryptographic functions in source code and throws a warning to the user.
+- <xref:System.Security.Cryptography.DES> encryption contains a small key size, which could be brute-forced in less than a day.
 
-## How to Fix Violations
- Use cryptographically stronger options:
+- <xref:System.Security.Cryptography.RC2> encryption is susceptible to a related-key attack, where the attacker finds mathematical relationships between all key values.
 
--   For MD5, use hashes in the [SHA-2](/windows/desktop/SecCrypto/hash-and-signature-algorithms) family (e.g. <xref:System.Security.Cryptography.SHA512>, <xref:System.Security.Cryptography.SHA384>, <xref:System.Security.Cryptography.SHA256>).
+This rule triggers when it finds any of the above cryptographic functions in source code and throws a warning to the user.
 
--   For DES and RC2, use <xref:System.Security.Cryptography.Aes> encryption.
+## How to fix violations
 
-## When to Suppress Warnings
- Do not suppress a warning from this rule, unless it's been reviewed by a cryptographic expert.
+Use cryptographically stronger options:
 
-## Pseudo-code Example
- The following pseudo-code sample illustrates the pattern detected by this rule and possible alternatives.
+- For MD5, use hashes in the [SHA-2](/windows/desktop/SecCrypto/hash-and-signature-algorithms) family (e.g. <xref:System.Security.Cryptography.SHA512>, <xref:System.Security.Cryptography.SHA384>, <xref:System.Security.Cryptography.SHA256>).
+
+- For DES and RC2, use <xref:System.Security.Cryptography.Aes> encryption.
+
+## When to suppress warnings
+
+Do not suppress a warning from this rule, unless it's been reviewed by a cryptographic expert.
+
+## Pseudo-code Examples
+
+The following pseudo-code samples illustrates the pattern detected by this rule and possible alternatives.
 
 ### MD5 Hashing Violation
 
-```
+```csharp
 using System.Security.Cryptography;
 ...
 var hashAlg = MD5.Create();
-
 ```
 
-### Solution
+Solution:
 
-```
+```csharp
 using System.Security.Cryptography;
 ...
 var hashAlg = SHA256.Create();
-
 ```
 
 ### RC2 Encryption Violation
 
-```
+```csharp
 using System.Security.Cryptography;
 ...
 RC2 encAlg = RC2.Create();
-
 ```
 
-### Solution
+Solution:
 
-```
+```csharp
 using System.Security.Cryptography;
 ...
 using (AesManaged encAlg = new AesManaged())
@@ -89,18 +92,17 @@ using (AesManaged encAlg = new AesManaged())
 }
 ```
 
-### DES <br /><br />Encryption Violation
+### DES Encryption Violation
 
-```
+```csharp
 using System.Security.Cryptography;
 ...
 DES encAlg = DES.Create();
-
 ```
 
-### Solution
+Solution:
 
-```
+```csharp
 using System.Security.Cryptography;
 ...
 using (AesManaged encAlg = new AesManaged())
