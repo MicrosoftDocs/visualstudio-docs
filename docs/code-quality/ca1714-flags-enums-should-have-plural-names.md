@@ -37,7 +37,7 @@ ms.workload:
  Make the name of the enumeration a plural word, or remove the <xref:System.FlagsAttribute> attribute if multiple enumeration values should not be specified simultaneously.
 
 ## When to suppress warnings
- It is safe to suppress a violation if the name is a plural word but does not end in 's'. For example, if the multiple-day enumeration that was described previously were named 'DaysOfTheWeek', this would violate the logic of the rule but not its intent. Such violations should be suppressd.
+ It is safe to suppress a violation if the name is a plural word but does not end in 's'. For example, if the multiple-day enumeration that was described previously were named 'DaysOfTheWeek', this would violate the logic of the rule but not its intent. Such violations should be suppressed.
 
 ## Related rules
  [CA1027: Mark enums with FlagsAttribute](../code-quality/ca1027-mark-enums-with-flagsattribute.md)

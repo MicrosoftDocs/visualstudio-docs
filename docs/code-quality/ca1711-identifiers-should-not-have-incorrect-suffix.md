@@ -27,12 +27,14 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- An identifier has an incorrect suffix.
+
+An identifier has an incorrect suffix.
 
 ## Rule description
- By convention, only the names of types that extend certain base types or that implement certain interfaces, or types derived from these types, should end with specific reserved suffixes. Other type names should not use these reserved suffixes.
 
- The following table lists the reserved suffixes and the base types and interfaces with which they are associated.
+By convention, only the names of types that extend certain base types or that implement certain interfaces, or types derived from these types, should end with specific reserved suffixes. Other type names should not use these reserved suffixes.
+
+The following table lists the reserved suffixes and the base types and interfaces with which they are associated.
 
 |Suffix|Base type/Interface|
 |------------|--------------------------|
@@ -47,26 +49,29 @@ ms.workload:
 |Stack|<xref:System.Collections.Stack?displayProperty=fullName>|
 |Stream|<xref:System.IO.Stream?displayProperty=fullName>|
 
- In addition, the following suffixes should **not** be used:
+In addition, the following suffixes should **not** be used:
 
-- Delegate
+- `Delegate`
 
-- Enum
+- `Enum`
 
-- Impl - use 'Core' instead
+- `Impl` (use `Core` instead)
 
-- Ex or similar suffix to distinguish it from an earlier version of the same type
+- `Ex` or similar suffix to distinguish it from an earlier version of the same type
 
- Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
+Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
 
 ## How to fix violations
- Remove the suffix from the type name.
+
+Remove the suffix from the type name.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule unless the suffix has an unambiguous meaning in the application domain.
+
+Do not suppress a warning from this rule unless the suffix has an unambiguous meaning in the application domain.
 
 ## Related rules
- [CA1710: Identifiers should have correct suffix](../code-quality/ca1710-identifiers-should-have-correct-suffix.md)
+
+- [CA1710: Identifiers should have correct suffix](../code-quality/ca1710-identifiers-should-have-correct-suffix.md)
 
 ## See also
 
