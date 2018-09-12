@@ -306,9 +306,11 @@ Each time you make changes to *app.tsx*, you must rerun the webpack command.
 
 ## Run the app
 
-1. Make sure that Chrome is selected as the current debug target.
+1. Select Chrome as the current debug target.
 
     ![Select Chrome as debug target](../javascript/media/tutorial-nodejs-react-debug-target.png)
+
+    If Chrome is available on your machine, but does not show up as an option, choose **Browse With** from the debug target dropdown list, and select Chrome as the default browser target (choose **Set as Default**).
 
 1. To run the app, press **F5** (**Debug** > **Start Debugging**) or the green arrow button.
 
@@ -355,6 +357,8 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 1. Switch to Visual Studio and set a breakpoint in *app-bundle.js* code in the `render()` function as shown in the following illustration:
 
     ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
+
+    To find the `render()` function in *app-bundle.js*, use **Ctrl**+**F** (**Edit** > **Find and Replace** > **Quick Find**).
 
 1. With Chrome selected as the debug target in Visual Studio, press **Ctrl**+**F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
 
