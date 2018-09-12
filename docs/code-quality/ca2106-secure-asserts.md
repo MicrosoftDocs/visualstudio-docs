@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2106: Secure asserts
+
 |||
 |-|-|
 |TypeName|SecureAsserts|
@@ -28,15 +29,16 @@ ms.workload:
 ## Cause
  A method asserts a permission and no security checks are performed on the caller.
 
-## Rule Description
+## Rule description
  Asserting a security permission without performing any security checks can leave an exploitable security weakness in your code. A security stack walk stops when a security permission is asserted. If you assert a permission without performing any checks on the caller, the caller could indirectly execute code by using your permissions. Asserts without security checks are permissible only when you are sure that the assert cannot be used in a harmful manner. An assert is harmless if the code you call is harmless, or users cannot pass arbitrary information to code that you call.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, add a security demand to the method or its declaring type.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Suppress a warning from this rule only after a careful security review.
 
-## See Also
- <xref:System.Security.CodeAccessPermission.Assert%2A?displayProperty=fullName>
- [Secure Coding Guidelines](/dotnet/standard/security/secure-coding-guidelines)
+## See also
+
+- <xref:System.Security.CodeAccessPermission.Assert%2A?displayProperty=fullName>
+- [Secure Coding Guidelines](/dotnet/standard/security/secure-coding-guidelines)

@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2114: Method security should be a superset of type
+
 |||
 |-|-|
 |TypeName|MethodSecurityShouldBeASupersetOfType|
@@ -28,13 +29,13 @@ ms.workload:
 ## Cause
  A type has declarative security and one of its methods has declarative security for the same security action, and the security action is not [Link Demands](/dotnet/framework/misc/link-demands), and the permissions checked by the type are not a subset of the permissions checked by the method.
 
-## Rule Description
+## Rule description
  A method should not have both a method-level and type-level declarative security for the same action. The two checks are not combined; only the method-level demand is applied. For example, if a type demands permission `X`, and one of its methods demands permission `Y`, code does not have to have permission `X` to execute the method.
 
-## How to Fix Violations
+## How to fix violations
  Review your code to make sure that both actions are required. If both actions are required, make sure that the method-level action includes the security specified at the type level. For example, if your type demands permission `X`, and its method must also demand permission `Y`, the method should explicitly demand `X` and `Y`.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning from this rule if the method does not require the security specified by the type. However, this is not an ordinary scenario and might indicate a need for a careful design review.
 
 ## Example
@@ -45,16 +46,21 @@ ms.workload:
  [!code-csharp[FxCop.Security.MethodLevelSecurity#1](../code-quality/codesnippet/CSharp/ca2114-method-security-should-be-a-superset-of-type_1.cs)]
 
 ## Example
- The following application code demonstrates the vulnerability of the library by calling the method even though it does not meet the type-level security requirement.
 
- [!code-csharp[FxCop.Security.TestMethodLevelSecurity#1](../code-quality/codesnippet/CSharp/ca2114-method-security-should-be-a-superset-of-type_2.cs)]
+The following application code demonstrates the vulnerability of the library by calling the method even though it does not meet the type-level security requirement.
 
- This example produces the following output.
+[!code-csharp[FxCop.Security.TestMethodLevelSecurity#1](../code-quality/codesnippet/CSharp/ca2114-method-security-should-be-a-superset-of-type_2.cs)]
 
- **[All permissions] Personal information: 6/16/1964 12:00:00 AM**
-**[No write permission (demanded by type)] Personal information: 6/16/1964 12:00:00 AM**
-**[No read permission (demanded by method)] Could not access personal information: Request failed.**
-## See Also
- [Secure Coding Guidelines](/dotnet/standard/security/secure-coding-guidelines)
- [Link Demands](/dotnet/framework/misc/link-demands)
- [Data and Modeling](/dotnet/framework/data/index)
+This example produces the following output:
+
+```txt
+[All permissions] Personal information: 6/16/1964 12:00:00 AM
+[No write permission (demanded by type)] Personal information: 6/16/1964 12:00:00 AM
+[No read permission (demanded by method)] Could not access personal information: Request failed.
+```
+
+## See also
+
+- [Secure Coding Guidelines](/dotnet/standard/security/secure-coding-guidelines)
+- [Link Demands](/dotnet/framework/misc/link-demands)
+- [Data and Modeling](/dotnet/framework/data/index)

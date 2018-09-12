@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2108: Review declarative security on value types
+
 |||
 |-|-|
 |TypeName|ReviewDeclarativeSecurityOnValueTypes|
@@ -28,13 +29,13 @@ ms.workload:
 ## Cause
  A public or protected value type is secured by a [Data and Modeling](/dotnet/framework/data/index) or [Link Demands](/dotnet/framework/misc/link-demands).
 
-## Rule Description
+## Rule description
  Value types are allocated and initialized by their default constructors before other constructors execute. If a value type is secured by a Demand or LinkDemand, and the caller does not have permissions that satisfy the security check, any constructor other than the default will fail, and a security exception will be thrown. The value type is not deallocated; it is left in the state set by its default constructor. Do not assume that a caller that passes an instance of the value type has permission to create or access the instance.
 
-## How to Fix Violations
+## How to fix violations
  You cannot fix a violation of this rule unless you remove the security check from the type, and use method level security checks in its place. Note that fixing the violation in this manner will not prevent callers with inadequate permissions from obtaining instances of the value type. You must ensure that an instance of the value type, in its default state, does not expose sensitive information, and cannot be used in a harmful manner.
 
-## When to Suppress Warnings
+## When to suppress warnings
  You can suppress a warning from this rule if any caller can obtain instances of the value type in its default state without posing a threat to security.
 
 ## Example
@@ -47,11 +48,15 @@ ms.workload:
 
  [!code-csharp[FxCop.Security.TestDemandOnValueType#1](../code-quality/codesnippet/CSharp/ca2108-review-declarative-security-on-value-types_2.cs)]
 
- This example produces the following output.
+This example produces the following output:
 
- **Structure custom constructor: Request failed.**
-**New values SecuredTypeStructure 100 100**
-**New values SecuredTypeStructure 200 200**
-## See Also
- [Link Demands](/dotnet/framework/misc/link-demands)
- [Data and Modeling](/dotnet/framework/data/index)
+```txt
+Structure custom constructor: Request failed.
+New values SecuredTypeStructure 100 100
+New values SecuredTypeStructure 200 200
+```
+
+## See also
+
+- [Link Demands](/dotnet/framework/misc/link-demands)
+- [Data and Modeling](/dotnet/framework/data/index)
