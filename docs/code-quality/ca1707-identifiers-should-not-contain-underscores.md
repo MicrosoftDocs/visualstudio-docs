@@ -26,7 +26,7 @@ ms.workload:
 |Breaking Change|Breaking - when raised on assemblies<br /><br /> Non-breaking - when raised on type parameters|
 
 ## Cause
- The name of an identifier contains the underscore (_) character.
+ The name of an identifier contains the underscore (\_) character.
 
 ## Rule description
  By convention, identifier names do not contain the underscore (_) character. The rule checks namespaces, types, members, and parameters.
