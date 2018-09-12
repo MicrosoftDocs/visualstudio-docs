@@ -27,7 +27,7 @@ ms.workload:
 ## Cause
  The name of an externally visible identifier includes a term for which an alternative, preferred term exists. Alternatively, the name includes the term Flag or Flags.
 
-## Rule Description
+## Rule description
  This rule parses an identifier into tokens. Each single token and each contiguous dual token combination is compared to terms that are built into the rule and in the Deprecated section of any custom dictionaries. The following table shows the terms that are built into the rule and their preferred alternatives.
 
 |Obsolete term|Preferred term|
@@ -57,11 +57,11 @@ ms.workload:
 |Wouldnt|WouldNot|
 |Writeable|Writable|
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, replace the term with the preferred alternative term.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Suppress a warning from this rule only if the name of the identifier is intentional and relates specifically to the original term instead of the preferred term.
 
-## Related Rules
+## Related rules
  [Naming Warnings](../code-quality/naming-warnings.md)

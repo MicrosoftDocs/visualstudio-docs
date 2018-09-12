@@ -36,7 +36,7 @@ ms.workload:
 
  The name of an identifier contains an acronym of three or more uppercase letters.
 
-## Rule Description
+## Rule description
  Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
 
  By convention, parameter names use camel casing; namespace, type, and member names use Pascal casing. In a camel-cased name, the first letter is lowercase, and the first letter of any remaining words in the name is in uppercase. Examples of camel-cased names are "packetSniffer", "ioFile", and "fatalErrorCode". In a Pascal-cased name, the first letter is uppercase, and the first letter of any remaining words in the name is in uppercase. Examples of Pascal-cased names are "PacketSniffer", "IOFile", and "FatalErrorCode".
@@ -47,13 +47,13 @@ ms.workload:
 
  'ID' is special-cased to cause a violation of this rule. 'Id' is not an acronym but is an abbreviation for 'identification'.
 
-## How to Fix Violations
+## How to fix violations
  Change the name so that it is cased correctly.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress this warning if you have your own naming conventions, or if the identifier represents a proper name, for example, the name of a company or a technology.
 
  You can also add specific terms, abbreviations, and acronyms that to a code analysis custom dictionary. Terms specified in the custom dictionary will not cause violations of this rule. For more information, see [How to: Customize the Code Analysis Dictionary](../code-quality/how-to-customize-the-code-analysis-dictionary.md)
 
-## Related Rules
+## Related rules
  [CA1708: Identifiers should differ by more than case](../code-quality/ca1708-identifiers-should-differ-by-more-than-case.md)
