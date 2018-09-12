@@ -1,7 +1,7 @@
 ---
 title: "Visual C++ project extensibility"
 ms.custom: ""
-ms.date: "08/01/2018"
+ms.date: "09/12/2018"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 dev_langs: 
