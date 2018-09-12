@@ -28,13 +28,13 @@ ms.workload:
 ## Cause
  A method performs an arithmetic operation and does not validate the operands beforehand to prevent overflow.
 
-## Rule Description
+## Rule description
  Arithmetic operations should not be performed without first validating the operands to make sure that the result of the operation is not outside the range of possible values for the data types involved. Depending on the execution context and the data types involved, arithmetic overflow can result in either a <xref:System.OverflowException?displayProperty=fullName> or the most significant bits of the result discarded.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, validate the operands before you perform the operation.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning from this rule if the possible values of the operands will never cause the arithmetic operation to overflow.
 
 ## Example of a Violation
@@ -106,7 +106,7 @@ End Sub
 
 3.  Select **Check for arithmetic overflow/underflow** and click **OK**.
 
-## See Also
+## See also
  <xref:System.OverflowException?displayProperty=fullName>
  [C# Operators](/dotnet/csharp/language-reference/operators/index)
  [Checked and Unchecked](/dotnet/csharp/language-reference/keywords/checked-and-unchecked)

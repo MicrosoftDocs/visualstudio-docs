@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2243: Attribute string literals should parse correctly
+
 |||
 |-|-|
 |TypeName|AttributeStringLiteralsShouldParseCorrectly|
@@ -28,17 +29,17 @@ ms.workload:
 ## Cause
  An attribute's string literal parameter does not parse correctly for a URL, GUID, or Version.
 
-## Rule Description
+## Rule description
  Since attributes are derived from <xref:System.Attribute?displayProperty=fullName>, and attributes are used at compile time, only constant values can be passed to their constructors. Attribute parameters that must represent URLs, GUIDs and Versions cannot be typed as <xref:System.Uri?displayProperty=fullName>, <xref:System.Guid?displayProperty=fullName>, and <xref:System.Version?displayProperty=fullName>, because these types cannot be represented as constants. Instead, they must be represented by strings.
 
  Because the parameter is typed as a string, it is possible that an incorrectly formatted parameter could be passed at compile time.
 
  This rule uses a naming heuristic to find parameters that represent a uniform resource identifier (URI), a Globally Unique Identifier (GUID) or a Version and verifies that the passed value is correct.
 
-## How to Fix Violations
+## How to fix violations
  Change the parameter string to a correctly formed URL, GUID, or Version.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning from this rule if the parameter does not represent a URL, GUID, or Version.
 
 ## Example
@@ -48,11 +49,12 @@ ms.workload:
 
  The rule is triggered by the following:
 
--   Parameters that contain 'version' and cannot be parsed to System.Version.
+- Parameters that contain 'version' and cannot be parsed to System.Version.
 
--   Parameters that contain 'guid' and cannot be parsed to System.Guid.
+- Parameters that contain 'guid' and cannot be parsed to System.Guid.
 
--   Parameters that contain 'uri', 'urn', or 'url' and cannot be parsed to System.Uri.
+- Parameters that contain 'uri', 'urn', or 'url' and cannot be parsed to System.Uri.
 
-## See Also
- [CA1054: URI parameters should not be strings](../code-quality/ca1054-uri-parameters-should-not-be-strings.md)
+## See also
+
+- [CA1054: URI parameters should not be strings](../code-quality/ca1054-uri-parameters-should-not-be-strings.md)
