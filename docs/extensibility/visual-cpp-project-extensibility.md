@@ -13,7 +13,7 @@ ms.workload: ["vssdk"]
 ---
 # Visual Studio C++ Project system extensibility and toolset integration
 
-The *Visual C++ Project system* is used by .vcxproj files. It's based on the [Visual Studio Common Project System (CPS)]((https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md) and provides additional, C++ specific extensibility points for easy integration of new toolsets, build architectures and target platforms. 
+The *Visual C++ Project system* is used by .vcxproj files. It's based on the [Visual Studio Common Project System (CPS)](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md) and provides additional, C++ specific extensibility points for easy integration of new toolsets, build architectures and target platforms. 
 
 ## C++ MSBuild targets structure
 
@@ -133,14 +133,14 @@ The targets files are imported in this order:
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*Platform.targets*  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(VCTargetsPath)`\\*Microsoft.Cpp.Platform.targets*  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*ImportBefore*\\\*.*targets*  
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*PlatformToolsets*\\`$(PlatformToolset)`\\\*Toolset.target*  
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*PlatformToolsets*\\`$(PlatformToolset)`\\*Toolset.target*  
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`$(_PlatformFolder)`\\*ImportAfter*\\\*.*targets*  
 
 If you need to define some default properties for your toolset, you can add files to the appropriate ImportBefore and ImportAfter folders.
 
 ## Author Toolset.props and Toolset.targets files
 
-Toolset.props and Toolset.targets files have full control over what happens during a build when this toolset is used. They can also control the available debuggers, some of the IDE user interface, such as the content in the **Property Pages** dialog, and some other aspects of project behavior.
+*Toolset.props* and *Toolset.targets* files have full control over what happens during a build when this toolset is used. They can also control the available debuggers, some of the IDE user interface, such as the content in the **Property Pages** dialog, and some other aspects of project behavior.
 
 Although a toolset can override the entire build process, usually you just want your toolset to modify or add some build steps, or to use different build tools, as part of an existing build process. To accomplish this goal, there are a number of common props and targets files your toolset can import. Depending on what you want your toolset to do, these files may be useful to use as imports or as examples:
 
@@ -212,7 +212,7 @@ See the *Microsoft.CppBuild.targets* file for examples of the targets that are i
 </BuildCompileTargets>
 ```
 
-If you look at the targets, such as `_ClCompile`, they don't do anything directly by themselves, but instead depend on other targets, including `ClCompile`:
+If you look at the targets, such as `_ClCompile`, you'll see they don't do anything directly by themselves, but instead depend on other targets, including `ClCompile`:
 
 ```xml
 <Target Name="_ClCompile"
@@ -395,7 +395,7 @@ Make sure to use `Condition ="'$(DesignTimeBuild)' != 'true'"` in all operations
 
 If `GeneratorTarget` metadata is defined for a project item, the target is run automatically both when the project is loaded and when the source file is changed.
 
-For instance, to automatically generate .cpp or .h files from .xaml files, the `$(VSInstallDir)`\\MSBuild\\Microsoft\\WindowsXaml\\v15.0\\\*\\Microsoft.Windows.UI.Xaml.CPP.Targets files define these entities:
+For instance, to automatically generate .cpp or .h files from .xaml files, the `$(VSInstallDir)`\\*MSBuild*\\*Microsoft*\\*WindowsXaml*\\*v15.0*\\\*\\*Microsoft.Windows.UI.Xaml.CPP.Targets* files define these entities:
 
 ```xml
 <ItemDefinitionGroup>
@@ -421,9 +421,9 @@ To use `Task.HostObject` to get the unsaved content of source files, the targets
 @="{83046B3F-8984-444B-A5D2-8029DEE2DB70}"
 ```
 
-## .vcxproj extensibility in the Visual Studio IDE
+## Project extensibility in the Visual Studio IDE
 
-The Visual C++ Project system is based on the [VS Project System](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md), and uses its extensibility points. However, the project hierarchy implementation is specific to Visual C++ and not based on CPS, so hierarchy extensibility is limited to project items.
+The Visual C++ project system is based on the [VS Project System](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md), and uses its extensibility points. However, the project hierarchy implementation is specific to Visual C++ and not based on CPS, so hierarchy extensibility is limited to project items.
 
 ### Project property pages
 
@@ -436,7 +436,7 @@ The rule files must be added to the `PropertyPageSchema` item group:
 ```xml
 <ItemGroup>
   <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\general.xml;"/>
-  <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\\general\_file.xml">
+  <PropertyPageSchema Include="$(VCTargetsPath)$(LangID)\general_file.xml">
     <Context>File</Context>
   </PropertyPageSchema>
 </ItemGroup>
@@ -491,7 +491,7 @@ If you want to use an existing rule, but need to add or remove (that is, hide) j
 
 #### Override a rule
 
-Perhaps you want your toolset to use most of the .vcxproj default rules, but to replace just one or a few of them. For example, say you only want to change the C/C++ rule to show different compiler switches. You can provide a new rule with the same name and display name as the existing rule, and include it in the `PropertyPageSchema` item group after the import of default cpp targets. Only one rule with a given name is used in the project, and the last one included into the `PropertyPageSchema` item group wins.
+Perhaps you want your toolset to use most of the project default rules, but to replace just one or a few of them. For example, say you only want to change the C/C++ rule to show different compiler switches. You can provide a new rule with the same name and display name as the existing rule, and include it in the `PropertyPageSchema` item group after the import of default cpp targets. Only one rule with a given name is used in the project, and the last one included into the `PropertyPageSchema` item group wins.
 
 #### Project items
 
@@ -573,7 +573,7 @@ When a project can be upgraded, it participates in *Solution Retargeting*. For m
 
 If you want to adorn project names in **Solution Explorer** when projects use a specific toolset, define a `_PlatformToolsetShortNameFor_<safe_toolset_name>` property.
 
-For examples of `_UpgradePlatformToolsetFor_<safe_toolset_name>` and `_PlatformToolsetShortNameFor_<safe_toolset_name>` property definitions, see the Microsoft.Cpp.Default.props file. For examples of usage, see the `$(VCTargetPath)`\\*Microsoft.Cpp.Default.props* file.
+For examples of `_UpgradePlatformToolsetFor_<safe_toolset_name>` and `_PlatformToolsetShortNameFor_<safe_toolset_name>` property definitions, see the *Microsoft.Cpp.Default.props* file. For examples of usage, see the `$(VCTargetPath)`\\*Microsoft.Cpp.Platform.targets* file.
 
 ### Custom project upgrader
 
@@ -598,7 +598,7 @@ Your code can import and call the default .vcxproj upgrader object:
 ```csharp
 // ...
 [Import("VCDefaultProjectUpgrader")]
-
+// ...
     IProjectRetargetHandler Lazy<IProjectRetargetHandler>
     VCDefaultProjectUpgrader { get; set; }
 // ...
