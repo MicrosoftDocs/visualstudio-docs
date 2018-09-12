@@ -34,7 +34,7 @@ You can also follow [Install Python and the SDK](https://docs.microsoft.com/azur
 
 Documentation can be found on [azure-sdk-for-python.readthedocs.org](https://docs.microsoft.com/en-us/python/azure/?view=azure-python).
 
-The [Azure SDK for Python Developer Center](http://azure.microsoft.com/develop/python/) also has a number of helpful resources, including a number of tutorials:
+The [Azure SDK for Python Developer Center](https://azure.microsoft.com/develop/python/) also has a number of helpful resources, including a number of tutorials:
 
 - Creating web apps with [Django](/azure/app-service-web/web-sites-python-create-deploy-django-app), [Flask](/azure/app-service-web/web-sites-python-create-deploy-flask-app), and [Bottle](/azure/app-service-web/web-sites-python-create-deploy-bottle-app).
 - [Blob storage](/azure/storage/storage-python-how-to-use-blob-storage)

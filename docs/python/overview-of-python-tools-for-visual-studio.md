@@ -59,7 +59,7 @@ For more information:
 
 ## Interactive window
 
-For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well. (To open a separate command prompt, select your desired environment in the **Python Environments** window, then select the **Open in PowerShell** command as explained earlier under [Support for multiple interpreters](#support-for-multiple=interpreters).)
+For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well. (To open a separate command prompt, select your desired environment in the **Python Environments** window, then select the **Open in PowerShell** command as explained earlier under [Support for multiple interpreters](#support-for-multipleiinterpreters).)
 
 ![Python interactive window in Visual Studio](media/interactive-window.png)
 
@@ -280,17 +280,17 @@ Visual Studio 2015 and earlier are available at [visualstudio.microsoft.com/vs/o
 
 1. Git support for Visual Studio 2012 is available in the Visual Studio Tools for Git extension, available on the [Visual Studio Gallery](http://visualstudiogallery.msdn.microsoft.com/abafc7d6-dcaa-40f4-8a5e-d6724bdb980c).
 
-1. Deployment to Azure Web Site requires [Azure SDK for .NET 2.1 - Visual Studio 2010 SP1](http://go.microsoft.com/fwlink/?LinkId=313855). Later versions don't support Visual Studio 2010.
+1. Deployment to Azure Web Site requires [Azure SDK for .NET 2.1 - Visual Studio 2010 SP1](https://go.microsoft.com/fwlink/?LinkId=313855). Later versions don't support Visual Studio 2010.
 
-1. Support for Azure Web Role and Worker Role requires [Azure SDK for .NET 2.3 - VS 2012](http://go.microsoft.com/fwlink/?LinkId=323511) or later.
+1. Support for Azure Web Role and Worker Role requires [Azure SDK for .NET 2.3 - VS 2012](https://go.microsoft.com/fwlink/?LinkId=323511) or later.
 
-1. Support for Azure Web Role and Worker Role requires [Azure SDK for .NET 2.3 - VS 2013](http://go.microsoft.com/fwlink/?LinkId=323510) or later.
+1. Support for Azure Web Role and Worker Role requires [Azure SDK for .NET 2.3 - VS 2013](https://go.microsoft.com/fwlink/?LinkId=323510) or later.
 
 1. Django template editor in Visual Studio 2013 has some known issues that are resolved by installing Update 2.
 
-1. Requires Windows 8 or later. Visual Studio 2013 Express for Web doesn't have the **Attach to Process** dialog, but Azure Web Site remote debugging is still possible using the **Attach Debugger (Python)** command in **Server Explorer**. Remote debugging requires [Azure SDK for .NET 2.3 - Visual Studio 2013](http://go.microsoft.com/fwlink/?LinkId=323510) or later.
+1. Requires Windows 8 or later. Visual Studio 2013 Express for Web doesn't have the **Attach to Process** dialog, but Azure Web Site remote debugging is still possible using the **Attach Debugger (Python)** command in **Server Explorer**. Remote debugging requires [Azure SDK for .NET 2.3 - Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=323510) or later.
 
-1. Requires Windows 8 or later. **Attach Debugger (Python)** command in **Server Explorer** requires [Azure SDK for .NET 2.3 - Visual Studio 2013](http://go.microsoft.com/fwlink/?LinkId=323510) or later.
+1. Requires Windows 8 or later. **Attach Debugger (Python)** command in **Server Explorer** requires [Azure SDK for .NET 2.3 - Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=323510) or later.
 
 1. Requires Windows 8 or later.
 
