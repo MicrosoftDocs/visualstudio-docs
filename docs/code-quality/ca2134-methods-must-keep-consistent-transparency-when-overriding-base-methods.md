@@ -26,15 +26,15 @@ ms.workload:
 
  The rule is applied when overriding a virtual method or implementing an interface.
 
-## Rule Description
+## Rule description
  This rule fires on attempts to change the security accessibility of a method further up the inheritance chain. For example, if a virtual method in a base class is transparent or safe-critical, then the derived class must override it with a transparent or safe-critical method. Conversely, if the virtual is security critical, the derived class must override it with a security critical method. The same rule applies for implementing interface methods.
 
  Transparency rules are enforced when the code is JIT compiled instead of at runtime, so that the transparency calculation does not have dynamic type information. Therefore, the result of the transparency calculation must be able to be determined solely from the static types being JIT-compiled, regardless of the dynamic type.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, change the transparency of the method that is overriding a virtual method or implementing an interface to match the transparency of the virtual or interface method.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress warnings from this rule. Violations of this rule will result in a runtime <xref:System.TypeLoadException> for assemblies that use level 2 transparency.
 
 ## Examples
@@ -42,5 +42,5 @@ ms.workload:
 ### Code
  [!code-csharp[FxCop.Security.CA2134.MethodsMustOverrideWithConsistentTransparency#1](../code-quality/codesnippet/CSharp/ca2134-methods-must-keep-consistent-transparency-when-overriding-base-methods_1.cs)]
 
-## See Also
+## See also
  [Security-Transparent Code, Level 2](/dotnet/framework/misc/security-transparent-code-level-2)
