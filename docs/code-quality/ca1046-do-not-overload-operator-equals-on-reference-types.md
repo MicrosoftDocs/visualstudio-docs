@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1046: Do not overload operator equals on reference types
+
 |||
 |-|-|
 |TypeName|DoNotOverloadOperatorEqualsOnReferenceTypes|
@@ -28,13 +29,13 @@ ms.workload:
 ## Cause
  A public or nested public reference type overloads the equality operator.
 
-## Rule Description
+## Rule description
  For reference types, the default implementation of the equality operator is almost always correct. By default, two references are equal only if they point to the same object.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, remove the implementation of the equality operator.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning from this rule when the reference type behaves like a built-in value type. If it is meaningful to do addition or subtraction on instances of the type, it is probably correct to implement the equality operator and suppress the violation.
 
 ## Example
@@ -43,19 +44,25 @@ ms.workload:
  [!code-csharp[FxCop.Design.RefTypesNoEqualityOp#1](../code-quality/codesnippet/CSharp/ca1046-do-not-overload-operator-equals-on-reference-types_1.cs)]
 
 ## Example
- The following application compares some references.
 
- [!code-csharp[FxCop.Design.TestRefTypesNoEqualityOp#1](../code-quality/codesnippet/CSharp/ca1046-do-not-overload-operator-equals-on-reference-types_2.cs)]
+The following application compares some references.
 
- This example produces the following output.
+[!code-csharp[FxCop.Design.TestRefTypesNoEqualityOp#1](../code-quality/codesnippet/CSharp/ca1046-do-not-overload-operator-equals-on-reference-types_2.cs)]
 
- **a = new (2,2) and b = new (2,2) are equal? No**
-**c and a are equal? Yes**
-**b and a are == ? No**
-**c and a are == ? Yes**
-## Related Rules
- [CA1013: Overload operator equals on overloading add and subtract](../code-quality/ca1013-overload-operator-equals-on-overloading-add-and-subtract.md)
+This example produces the following output:
 
-## See Also
- <xref:System.Object.Equals%2A?displayProperty=fullName>
- [Equality Operators](/dotnet/standard/design-guidelines/equality-operators)
+```txt
+a = new (2,2) and b = new (2,2) are equal? No
+c and a are equal? Yes
+b and a are == ? No
+c and a are == ? Yes
+```
+
+## Related rules
+
+[CA1013: Overload operator equals on overloading add and subtract](../code-quality/ca1013-overload-operator-equals-on-overloading-add-and-subtract.md)
+
+## See also
+
+- <xref:System.Object.Equals%2A?displayProperty=fullName>
+- [Equality Operators](/dotnet/standard/design-guidelines/equality-operators)
