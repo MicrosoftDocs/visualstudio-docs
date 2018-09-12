@@ -31,7 +31,7 @@ The cryptographic algorithms list below are subject to known cryptographic attac
 
 ## Rule description
 
-Broken cryptographic algorithms are not  considered secure and their use should be discouraged. The MD5 hash algorithm is susceptible to known collision attacks, though the specific vulnerability will vary based on the context of use.  Hashing algorithms used to ensure data integrity (e.g., file signature or digital certificate) are particularly vulnerable.  In this context, attackers could generate two separate pieces of data, such that benign data can be substituted with malicious data, without changing the hash value or invalidating an associated digital signature.
+Broken cryptographic algorithms are not  considered secure and their use should be discouraged. The MD5 hash algorithm is susceptible to known collision attacks, though the specific vulnerability will vary based on the context of use.  Hashing algorithms used to ensure data integrity (for example, file signature or digital certificate) are particularly vulnerable.  In this context, attackers could generate two separate pieces of data, such that benign data can be substituted with malicious data, without changing the hash value or invalidating an associated digital signature.
 
 For encryption algorithms:
 
@@ -45,7 +45,7 @@ This rule triggers when it finds any of the above cryptographic functions in sou
 
 Use cryptographically stronger options:
 
-- For MD5, use hashes in the [SHA-2](/windows/desktop/SecCrypto/hash-and-signature-algorithms) family (e.g. <xref:System.Security.Cryptography.SHA512>, <xref:System.Security.Cryptography.SHA384>, <xref:System.Security.Cryptography.SHA256>).
+- For MD5, use hashes in the [SHA-2](/windows/desktop/SecCrypto/hash-and-signature-algorithms) family (for example, <xref:System.Security.Cryptography.SHA512>, <xref:System.Security.Cryptography.SHA384>, <xref:System.Security.Cryptography.SHA256>).
 
 - For DES and RC2, use <xref:System.Security.Cryptography.Aes> encryption.
 
@@ -55,7 +55,7 @@ Do not suppress a warning from this rule, unless it's been reviewed by a cryptog
 
 ## Pseudo-code Examples
 
-The following pseudo-code samples illustrates the pattern detected by this rule and possible alternatives.
+The following pseudo-code samples illustrate the pattern detected by this rule and possible alternatives.
 
 ### MD5 Hashing Violation
 
