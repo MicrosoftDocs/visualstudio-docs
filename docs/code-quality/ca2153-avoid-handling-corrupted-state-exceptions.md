@@ -33,13 +33,13 @@ This warning triggers when catching CSEs with a general handler that catches all
 
 ## How to fix violations
 
-To resolve this warning you should do one of the following:
+To resolve this warning, do one of the following:
 
 - Remove the `HandleProcessCorruptedStateExceptions` attribute. This reverts to the default runtime behavior where CSEs are not passed to catch handlers.
 
-- Remove the general catch handler in preference of handlers that catch specific exception types. This may include CSEs assuming the handler code can safely handle them (very rare).
+- Remove the general catch handler in preference of handlers that catch specific exception types. This may include CSEs assuming the handler code can safely handle them (rare).
 
-- Re-throw the CSE in the catch handler which ensures the exception is passed to the caller and will result in ending the running process.
+- Rethrow the CSE in the catch handler, which ensures the exception is passed to the caller and will result in ending the running process.
 
 ## When to suppress warnings
 
@@ -113,7 +113,7 @@ void TestMethod1()
 
 ### Solution 3
 
-Re-throw the exception.
+Rethrow the exception.
 
 ```csharp
 void TestMethod1()

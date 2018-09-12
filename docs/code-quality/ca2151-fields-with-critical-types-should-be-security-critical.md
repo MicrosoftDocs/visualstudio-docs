@@ -44,7 +44,7 @@ To use security critical types, the code that references the type must be either
 
 ## How to fix violations
 
-To fix a violation of this rule, mark the field with the <xref:System.Security.SecurityCriticalAttribute> attribute, or make the type that is referenced by the field eith security transparent or safe critical.
+To fix a violation of this rule, mark the field with the <xref:System.Security.SecurityCriticalAttribute> attribute, or make the type that is referenced by the field either security transparent or safe critical.
 
 ```csharp
 // Fix 1: Make the referencing field security critical
