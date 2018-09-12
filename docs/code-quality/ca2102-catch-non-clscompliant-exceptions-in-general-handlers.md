@@ -43,7 +43,7 @@ ms.workload:
 ## When to suppress warnings
  It is safe to suppress a warning from this rule if the try block does not contain any statements that might generate a non-CLS compliant exception. Because any native or managed code might throw a non-CLS compliant exception, this requires knowledge of all code that can be executed in all code paths inside the try block. Notice that non-CLS compliant exceptions are not thrown by the common language runtime.
 
-## Example
+## Example 1
  The following example shows an MSIL class that throws a non-CLS compliant exception.
 
 ```
@@ -60,7 +60,7 @@ ms.workload:
 }
 ```
 
-## Example
+## Example 2
  The following example shows a method that contains a general catch block that satisfies the rule.
 
  [!code-csharp[FxCop.Security.CatchNonClsCompliantException#1](../code-quality/codesnippet/CSharp/ca2102-catch-non-clscompliant-exceptions-in-general-handlers_1.cs)]

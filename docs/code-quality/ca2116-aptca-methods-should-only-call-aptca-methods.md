@@ -50,17 +50,17 @@ A partially trusted caller `X` can call method `M1`, causing `M1` to call `M2`. 
 ## When to suppress warnings
  To safely suppress a warning from this rule, you must ensure that the functionality exposed by your method does not directly or indirectly allow callers to access sensitive information, operations, or resources that can be used in a destructive manner.
 
-## Example
+## Example 1
  The following example uses two assemblies and a test application to illustrate the security vulnerability detected by this rule. The first assembly does not have the APTCA attribute and should not be accessible to partially trusted callers (represented by `M2` in the previous discussion).
 
  [!code-csharp[FxCop.Security.NoAptca#1](../code-quality/codesnippet/CSharp/ca2116-aptca-methods-should-only-call-aptca-methods_1.cs)]
 
-## Example
+## Example 2
  The second assembly is fully trusted and allows partially trusted callers (represented by `M1` in the previous discussion).
 
  [!code-csharp[FxCop.Security.YesAptca#1](../code-quality/codesnippet/CSharp/ca2116-aptca-methods-should-only-call-aptca-methods_2.cs)]
 
-## Example
+## Example 3
  The test application (represented by `X` in the previous discussion) is partially trusted.
 
  [!code-csharp[FxCop.Security.TestAptcaMethods#1](../code-quality/codesnippet/CSharp/ca2116-aptca-methods-should-only-call-aptca-methods_3.cs)]

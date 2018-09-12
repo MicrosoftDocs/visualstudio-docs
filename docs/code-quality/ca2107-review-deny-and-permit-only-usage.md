@@ -51,14 +51,14 @@ ms.workload:
 ## When to suppress warnings
  Suppress a warning from this rule only after you complete a security review.
 
-## Example
+## Example 1
  The following example demonstrates some limitations of Deny.
 
  The following library contains a class that has two methods that are identical except for the security demands that protect them.
 
  [!code-csharp[FxCop.Security.PermitAndDeny#1](../code-quality/codesnippet/CSharp/ca2107-review-deny-and-permit-only-usage_1.cs)]
 
-## Example
+## Example 2
  The following application demonstrates the effects of Deny on the secured methods from the library.
 
  [!code-csharp[FxCop.Security.TestPermitAndDeny#1](../code-quality/codesnippet/CSharp/ca2107-review-deny-and-permit-only-usage_2.cs)]

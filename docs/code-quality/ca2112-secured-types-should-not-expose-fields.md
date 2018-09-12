@@ -45,12 +45,12 @@ ms.workload:
 
  [!code-csharp[FxCop.Security.LinkDemandOnField#1](../code-quality/codesnippet/CSharp/ca2112-secured-types-should-not-expose-fields_1.cs)]
 
-## Example
+## Example 1
  The application cannot create an instance because of the link demand that protects the secured type. The following class enables the application to obtain an instance of the secured type.
 
  [!code-csharp[FxCop.Security.LDOnFieldsDistributor#1](../code-quality/codesnippet/CSharp/ca2112-secured-types-should-not-expose-fields_2.cs)]
 
-## Example
+## Example 2
  The following application illustrates how, without permission to access a secured type's methods, code can access its fields.
 
  [!code-csharp[FxCop.Security.TestLinkDemandOnFields#1](../code-quality/codesnippet/CSharp/ca2112-secured-types-should-not-expose-fields_3.cs)]

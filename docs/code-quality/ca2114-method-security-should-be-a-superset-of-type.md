@@ -38,14 +38,15 @@ ms.workload:
 ## When to suppress warnings
  It is safe to suppress a warning from this rule if the method does not require the security specified by the type. However, this is not an ordinary scenario and might indicate a need for a careful design review.
 
-## Example
- The following example uses environment permissions to demonstrate the dangers of violating this rule. In this example, the application code creates an instance of the secured type before denying the permission required by the type. In a real-world threat scenario, the application would require another way to obtain an instance of the object.
+## Example 1
 
- In the following example, the library demands write permission for a type and read permission for a method.
+The following example uses environment permissions to demonstrate the dangers of violating this rule. In this example, the application code creates an instance of the secured type before denying the permission required by the type. In a real-world threat scenario, the application would require another way to obtain an instance of the object.
 
- [!code-csharp[FxCop.Security.MethodLevelSecurity#1](../code-quality/codesnippet/CSharp/ca2114-method-security-should-be-a-superset-of-type_1.cs)]
+In the following example, the library demands write permission for a type and read permission for a method.
 
-## Example
+[!code-csharp[FxCop.Security.MethodLevelSecurity#1](../code-quality/codesnippet/CSharp/ca2114-method-security-should-be-a-superset-of-type_1.cs)]
+
+## Example 2
 
 The following application code demonstrates the vulnerability of the library by calling the method even though it does not meet the type-level security requirement.
 

@@ -38,12 +38,12 @@ ms.workload:
 ## When to suppress warnings
  You can suppress a warning from this rule if any caller can obtain instances of the value type in its default state without posing a threat to security.
 
-## Example
+## Example 1
  The following example shows a library containing a value type that violates this rule. Note that the `StructureManager` type assumes that a caller that passes an instance of the value type has permission to create or access the instance.
 
  [!code-csharp[FxCop.Security.DemandOnValueType#1](../code-quality/codesnippet/CSharp/ca2108-review-declarative-security-on-value-types_1.cs)]
 
-## Example
+## Example 2
  The following application demonstrates the library's weakness.
 
  [!code-csharp[FxCop.Security.TestDemandOnValueType#1](../code-quality/codesnippet/CSharp/ca2108-review-declarative-security-on-value-types_2.cs)]
