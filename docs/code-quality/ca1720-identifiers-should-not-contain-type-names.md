@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1720: Identifiers should not contain type names
+
 |||
 |-|-|
 |TypeName|IdentifiersShouldNotContainTypeNames|
@@ -32,96 +33,96 @@ ms.workload:
 
  The name of an externally visible member contains a language-specific data type name.
 
-## Rule Description
+## Rule description
  Names of parameters and members are better used to communicate their meaning than to describe their type, which is expected to be provided by development tools. For names of members, if a data type name must be used, use a language-independent name instead of a language-specific one. For example, instead of the C# type name 'int', use the language-independent data type name, Int32.
 
  Each discrete token in the name of the parameter or member is checked against the following language-specific data type names, in a case-insensitive manner:
 
--   Bool
+- Bool
 
--   WChar
+- WChar
 
--   Int8
+- Int8
 
--   UInt8
+- UInt8
 
--   Short
+- Short
 
--   UShort
+- UShort
 
--   Int
+- Int
 
--   UInt
+- UInt
 
--   Integer
+- Integer
 
--   UInteger
+- UInteger
 
--   Long
+- Long
 
--   ULong
+- ULong
 
--   Unsigned
+- Unsigned
 
--   Signed
+- Signed
 
--   Float
+- Float
 
--   Float32
+- Float32
 
--   Float64
+- Float64
 
- In addition, the names of a parameter are also checked against the following language-independent data type names, in a case-insensitive manner:
+In addition, the names of a parameter are also checked against the following language-independent data type names, in a case-insensitive manner:
 
--   Object
+- Object
 
--   Obj
+- Obj
 
--   Boolean
+- Boolean
 
--   Char
+- Char
 
--   String
+- String
 
--   SByte
+- SByte
 
--   Byte
+- Byte
 
--   UByte
+- UByte
 
--   Int16
+- Int16
 
--   UInt16
+- UInt16
 
--   Int32
+- Int32
 
--   UInt32
+- UInt32
 
--   Int64
+- Int64
 
--   UInt64
+- UInt64
 
--   IntPtr
+- IntPtr
 
--   Ptr
+- Ptr
 
--   Pointer
+- Pointer
 
--   UInptr
+- UInptr
 
--   UPtr
+- UPtr
 
--   UPointer
+- UPointer
 
--   Single
+- Single
 
--   Double
+- Double
 
--   Decimal
+- Decimal
 
--   Guid
+- Guid
 
-## How to Fix Violations
+## How to fix violations
  **If fired against a parameter:**
 
  Replace the data type identifier in the name of the parameter with either a term that better describes its meaning or a more generic term, such as 'value'.
@@ -130,10 +131,10 @@ ms.workload:
 
  Replace the language-specific data type identifier in the name of the member with a term that better describes its meaning, a language-independent equivalent, or a more generic term, such as 'value'.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Occasional use of type-based parameter and member names might be appropriate. However, for new development, no known scenarios occur where you should suppress a warning from this rule. For libraries that have previous shipped, you might have to suppress a warning from this rule.
 
-## Related Rules
+## Related rules
  [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md)
 
  [CA1708: Identifiers should differ by more than case](../code-quality/ca1708-identifiers-should-differ-by-more-than-case.md)

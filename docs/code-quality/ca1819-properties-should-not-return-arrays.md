@@ -14,10 +14,14 @@ ms.assetid: 85fcf312-57f8-438a-8b10-34441fe0bdeb
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA1819: Properties should not return arrays
+
 |||
 |-|-|
 |TypeName|PropertiesShouldNotReturnArrays|
@@ -28,13 +32,13 @@ ms.workload:
 ## Cause
  A public or protected property in a public type returns an array.
 
-## Rule Description
+## Rule description
  Arrays returned by properties are not write-protected, even if the property is read-only. To keep the array tamper-proof, the property must return a copy of the array. Typically, users will not understand the adverse performance implications of calling such a property. Specifically, they might use the property as an indexed property.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, either make the property a method or change the property to return a collection.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Attributes can contain properties that return arrays, but cannot contain properties that return collections. You can suppress a warning that is raised for a property of an attribute that is derived from the <xref:System.Attribute> class. Otherwise, do not suppress a warning from this rule.
 
 ## Example Violation
@@ -85,5 +89,5 @@ ms.workload:
  [!code-vb[FxCop.Performance.PropertyModifyFixed#1](../code-quality/codesnippet/VisualBasic/ca1819-properties-should-not-return-arrays_5.vb)]
  [!code-csharp[FxCop.Performance.PropertyModifyFixed#1](../code-quality/codesnippet/CSharp/ca1819-properties-should-not-return-arrays_5.cs)]
 
-## Related Rules
+## Related rules
  [CA1024: Use properties where appropriate](../code-quality/ca1024-use-properties-where-appropriate.md)
