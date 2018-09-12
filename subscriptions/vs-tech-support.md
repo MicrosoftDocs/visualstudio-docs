@@ -26,6 +26,7 @@ Resolve break-fix issues in non-production environments. (Benefit must be activa
 3.  To complete the process, you will need to provide the representative with:
     - The email address you use to sign in to your subscription
     - The Subscription ID which can be found on the [Subscriptions](https://my.visualstudio.com/subscriptions) tab.
+
     > [!div class="mx-imgBorder"]
     > ![Technical Support Benefit Find Subscription ID](_img\vs-tech-support\vs-tech-support-subID-cropped.png)
 
