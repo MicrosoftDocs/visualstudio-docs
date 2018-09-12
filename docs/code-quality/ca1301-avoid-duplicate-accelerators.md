@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1301: Avoid duplicate accelerators
+
 |||
 |-|-|
 |TypeName|AvoidDuplicateAccelerators|
@@ -28,15 +29,15 @@ ms.workload:
 ## Cause
  A type extends <xref:System.Windows.Forms.Control?displayProperty=fullName> and contains two or more top level controls that have identical access keys that are stored in a resource file.
 
-## Rule Description
+## Rule description
  An access key, also known as an accelerator, enables keyboard access to a control by using the ALT key. When multiple controls have duplicate access keys, the behavior of the access key is not well defined. The user might not be able to access the intended control by using the access key and a control other than the one that is intended might be enabled.
 
  The current implementation of this rule ignores menu items. However, menu items in the same submenu should not have identical access keys.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, define unique access keys for all controls.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.
 
 ## Example
@@ -44,6 +45,7 @@ ms.workload:
 
  [!code-csharp[FxCop.Globalization.AvoidDuplicateAccels#1](../code-quality/codesnippet/CSharp/ca1301-avoid-duplicate-accelerators_1.cs)]
 
-## See Also
- <xref:System.Resources.ResourceManager?displayProperty=fullName>
- [Resources in Desktop Apps](/dotnet/framework/resources/index)
+## See also
+
+- <xref:System.Resources.ResourceManager?displayProperty=fullName>
+- [Resources in Desktop Apps](/dotnet/framework/resources/index)

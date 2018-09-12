@@ -28,17 +28,18 @@ ms.workload:
 ## Cause
  A string comparison operation that is nonlinguistic does not set the <xref:System.StringComparison> parameter to either **Ordinal** or **OrdinalIgnoreCase**.
 
-## Rule Description
+## Rule description
  Many string operations, most important the <xref:System.String.Compare%2A?displayProperty=fullName> and <xref:System.String.Equals%2A?displayProperty=fullName> methods, now provide an overload that accepts a <xref:System.StringComparison?displayProperty=fullName> enumeration value as a parameter.
 
  When you specify either **StringComparison.Ordinal** or **StringComparison.OrdinalIgnoreCase**, the string comparison will be nonlinguistic. That is, the features that are specific to the natural language are ignored when comparison decisions are made. This means the decisions are based on simple byte comparisons and ignore casing or equivalence tables that are parameterized by culture. As a result, by explicitly setting the parameter to either the **StringComparison.Ordinal** or **StringComparison.OrdinalIgnoreCase**, your code often gains speed, increases correctness, and becomes more reliable.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, change the string comparison method to an overload that accepts the <xref:System.StringComparison?displayProperty=fullName> enumeration as a parameter, and specify either **Ordinal** or **OrdinalIgnoreCase**. For example, change `String.Compare(str1, str2)` to `String.Compare(str1, str2, StringComparison.Ordinal)`.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning from this rule when the library or application is intended for a limited local audience or when the semantics of the current culture should be used.
 
-## See Also
- [Globalization Warnings](../code-quality/globalization-warnings.md)
- [CA1307: Specify StringComparison](../code-quality/ca1307-specify-stringcomparison.md)
+## See also
+
+- [Globalization Warnings](../code-quality/globalization-warnings.md)
+- [CA1307: Specify StringComparison](../code-quality/ca1307-specify-stringcomparison.md)
