@@ -17,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1726: Use preferred terms
+
 |||
 |-|-|
 |TypeName|UsePreferredTerms|
@@ -25,37 +26,39 @@ ms.workload:
 |Breaking Change|Breaking - when fired on assemblies<br /><br /> Non-breaking - when fired on type parameters|
 
 ## Cause
- The name of an externally visible identifier includes a term for which an alternative, preferred term exists. Alternatively, the name includes the term Flag or Flags.
+
+The name of an externally visible identifier includes a term for which an alternative, preferred term exists. Or, the name includes the term Flag or Flags.
 
 ## Rule description
- This rule parses an identifier into tokens. Each single token and each contiguous dual token combination is compared to terms that are built into the rule and in the Deprecated section of any custom dictionaries. The following table shows the terms that are built into the rule and their preferred alternatives.
+
+This rule parses an identifier into tokens. Each single token and each contiguous dual token combination is compared to terms that are built into the rule and in the Deprecated section of any custom dictionaries. The following table shows the terms that are built into the rule and their preferred alternatives.
 
 |Obsolete term|Preferred term|
 |-------------------|--------------------|
-|Arent|AreNot|
-|Cancelled|Canceled|
-|Cant|Cannot|
-|ComPlus|EnterpriseServices|
-|Couldnt|CouldNot|
-|Didnt|DidNot|
-|Doesnt|DoesNot|
-|Dont|DoNot|
-|Flag or Flags|There is no replacement term. Do not use.|
-|Hadnt|HadNot|
-|Hasn't|HasNot|
-|Havent|HaveNot|
-|Indices|Indexes|
-|Isnt|IsNot|
-|LogIn|LogOn|
-|LogOut|LogOff|
-|Shouldnt|ShouldNot|
-|SignOn|SignIn|
-|SignOff|SignOut|
-|Wasnt|WasNot|
-|Werent|WereNot|
-|Wont|WillNot|
-|Wouldnt|WouldNot|
-|Writeable|Writable|
+|`Arent`|`AreNot`|
+|`Cancelled`|`Canceled`|
+|`Cant`|`Cannot`|
+|`ComPlus`|`EnterpriseServices`|
+|`Couldnt`|`CouldNot`|
+|`Didnt`|`DidNot`|
+|`Doesnt`|`DoesNot`|
+|`Dont`|`DoNot`|
+|`Flag` or `Flags`|There is no replacement term. Do not use.|
+|`Hadnt`|`HadNot`|
+|`Hasnt`|`HasNot`|
+|`Havent`|`HaveNot`|
+|`Indices`|`Indexes`|
+|`Isnt`|`IsNot`|
+|`LogIn`|`LogOn`|
+|`LogOut`|`LogOff`|
+|`Shouldnt`|`ShouldNot`|
+|`SignOn`|`SignIn`|
+|`SignOff`|`SignOut`|
+|`Wasnt`|`WasNot`|
+|`Werent`|`WereNot`|
+|`Wont`|`WillNot`|
+|`Wouldnt`|`WouldNot`|
+|`Writeable`|`Writable`|
 
 ## How to fix violations
  To fix a violation of this rule, replace the term with the preferred alternative term.
