@@ -310,7 +310,7 @@ Each time you make changes to *app.tsx*, you must rerun the webpack command.
 
     ![Select Chrome as debug target](../javascript/media/tutorial-nodejs-react-debug-target.png)
 
-    If Chrome is available on your machine, but does not show up as an option, choose **Browse With** from the debug target dropdown list, and add Chrome.
+    If Chrome is available on your machine, but does not show up as an option, choose **Browse With** from the debug target dropdown list, and select Chrome as the default browser target (choose **Set as Default**).
 
 1. To run the app, press **F5** (**Debug** > **Start Debugging**) or the green arrow button.
 
