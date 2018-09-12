@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1707: Identifiers should not contain underscores
+
 |||
 |-|-|
 |TypeName|IdentifiersShouldNotContainUnderscores|
@@ -26,20 +27,24 @@ ms.workload:
 |Breaking Change|Breaking - when raised on assemblies<br /><br /> Non-breaking - when raised on type parameters|
 
 ## Cause
- The name of an identifier contains the underscore (\_) character.
+
+The name of an identifier contains the underscore (\_) character.
 
 ## Rule description
- By convention, identifier names do not contain the underscore (_) character. The rule checks namespaces, types, members, and parameters.
 
- Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
+By convention, identifier names do not contain the underscore (\_) character. The rule checks namespaces, types, members, and parameters.
+
+Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
 
 ## How to fix violations
- Remove all underscore characters from the name.
+
+Remove all underscore characters from the name.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule.
+
+Do not suppress a warning from this rule.
 
 ## Related rules
- [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md)
 
- [CA1708: Identifiers should differ by more than case](../code-quality/ca1708-identifiers-should-differ-by-more-than-case.md)
+- [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md)
+- [CA1708: Identifiers should differ by more than case](../code-quality/ca1708-identifiers-should-differ-by-more-than-case.md)
