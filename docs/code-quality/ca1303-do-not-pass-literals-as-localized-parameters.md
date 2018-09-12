@@ -51,7 +51,7 @@ ms.workload:
 ## When to suppress warnings
  It is safe to suppress a warning from this rule if the code library will not be localized, or if the string is not exposed to the end user or a developer using the code library.
 
- Users can eliminate noise against methods which should not be passed localized strings by either renaming the parameter or property named, or by marking these items as conditional.
+ Users can eliminate noise against methods that should not be passed localized strings by either renaming the parameter or property named, or by marking these items as conditional.
 
 ## Example
  The following example shows a method that throws an exception when either of its two arguments are out of range. For the first argument, the exception constructor is passed a literal string, which violates this rule. For the second argument, the constructor is correctly passed a string retrieved through a <xref:System.Resources.ResourceManager>.
