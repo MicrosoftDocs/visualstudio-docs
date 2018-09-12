@@ -35,7 +35,7 @@ ms.workload:
 ## Rule description
  Get methods and properties should have names that clearly distinguish their function.
 
- Naming conventions provide a common look for libraries that target the common language runtime. This reduces the time that is required to learn a new software library, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
+ Naming conventions provide a common look for libraries that target the common language runtime. This consistency reduces the time that's required to learn a new software library and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
 
 ## How to fix violations
  Change the name so that it does not match the name of a method that is prefixed with 'Get'.

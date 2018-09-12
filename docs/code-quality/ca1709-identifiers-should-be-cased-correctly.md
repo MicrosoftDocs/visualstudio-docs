@@ -23,7 +23,7 @@ ms.workload:
 |TypeName|IdentifiersShouldBeCasedCorrectly|
 |CheckId|CA1709|
 |Category|Microsoft.Naming|
-|Breaking Change|Breaking - when raised on assemblies, namespaces, types, members and parameters.<br /><br /> Non-breaking - when fired on generic type parameters.|
+|Breaking Change|Breaking - when raised on assemblies, namespaces, types, members, and parameters.<br /><br /> Non-breaking - when fired on generic type parameters.|
 
 ## Cause
  The name of an identifier is not cased correctly.
@@ -37,13 +37,13 @@ ms.workload:
  The name of an identifier contains an acronym of three or more uppercase letters.
 
 ## Rule description
- Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
+ Naming conventions provide a common look for libraries that target the common language runtime. This consistency reduces the learning curve that's required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
 
- By convention, parameter names use camel casing; namespace, type, and member names use Pascal casing. In a camel-cased name, the first letter is lowercase, and the first letter of any remaining words in the name is in uppercase. Examples of camel-cased names are "packetSniffer", "ioFile", and "fatalErrorCode". In a Pascal-cased name, the first letter is uppercase, and the first letter of any remaining words in the name is in uppercase. Examples of Pascal-cased names are "PacketSniffer", "IOFile", and "FatalErrorCode".
+ By convention, parameter names use camel casing, and namespace, type, and member names use Pascal casing. In a camel-cased name, the first letter is lowercase, and the first letter of any remaining words in the name is uppercase. Examples of camel-cased names are `packetSniffer`, `ioFile`, and `fatalErrorCode`. In a Pascal-cased name, the first letter is uppercase, and the first letter of any remaining words in the name is uppercase. Examples of Pascal-cased names are `PacketSniffer`, `IOFile`, and `FatalErrorCode`.
 
  This rule splits the name into words based on the casing and checks any two-letter words against a list of common two-letter words, such as "In" or "My". If a match is not found, the word is assumed to be an acronym. In addition, this rule assumes it has found an acronym when the name contains either four uppercase letters in a row or three uppercase letters in a row at the end of the name.
 
- By convention, two-letter acronyms use all uppercase letters, and acronyms of three or more characters use Pascal casing. The following examples use this naming convention: 'DB', 'CR', 'Cpa', and 'Ecma'. The following examples violate the convention: 'Io', 'XML', and 'DoD', and for nonparameter names, 'xp' and 'cpl'.
+ By convention, two-letter acronyms use all uppercase letters, and acronyms of three or more characters use Pascal casing. The following examples use this naming convention: 'DB', 'CR', 'Cpa', and 'Ecma'. The following examples violate the convention: 'Io', 'XML', and 'DoD', and for non-parameter names, 'xp' and 'cpl'.
 
  'ID' is special-cased to cause a violation of this rule. 'Id' is not an acronym but is an abbreviation for 'identification'.
 
