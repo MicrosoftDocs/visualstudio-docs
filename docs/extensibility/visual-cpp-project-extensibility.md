@@ -15,30 +15,6 @@ ms.workload: ["vssdk"]
 
 The *Visual C++ Project system* is used by .vcxproj files. It's based on the [Visual Studio Common Project System (CPS)]((https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md) and provides additional, C++ specific extensibility points for easy integration of new toolsets, build architectures and target platforms. 
 
-A .vcxproj file specifies the toolset, targets, and properties needed to build a particular configuration of your project. At a minimum, .vcxproj files must have a small set of groups and imports, as in this example:
-
-```xml
-<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="<http://schemas.microsoft.com/developer/msbuild/2003>">
-  <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|Win32">  
-      <Configuration>Debug</Configuration>  
-      <Platform>Win32</Platform>  
-    </ProjectConfiguration>
-  </ItemGroup>
-  <PropertyGroup Label="Globals">
-    <ApplicationType>Windows Store</ApplicationType>  
-    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
-  </PropertyGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Label="Configuration">
-    <PlatformToolset>v141</PlatformToolset>
-  </PropertyGroup>
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-  <!-- ... -->
-  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-</Project>
-```
-
 ## C++ MSBuild targets structure
 
 All .vcxproj files import these files:
