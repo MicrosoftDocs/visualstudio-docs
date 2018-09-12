@@ -30,11 +30,11 @@ ms.workload:
  An attribute's string literal parameter does not parse correctly for a URL, GUID, or Version.
 
 ## Rule description
- Since attributes are derived from <xref:System.Attribute?displayProperty=fullName>, and attributes are used at compile time, only constant values can be passed to their constructors. Attribute parameters that must represent URLs, GUIDs and Versions cannot be typed as <xref:System.Uri?displayProperty=fullName>, <xref:System.Guid?displayProperty=fullName>, and <xref:System.Version?displayProperty=fullName>, because these types cannot be represented as constants. Instead, they must be represented by strings.
+ Since attributes are derived from <xref:System.Attribute?displayProperty=fullName>, and attributes are used at compile time, only constant values can be passed to their constructors. Attribute parameters that must represent URLs, GUIDs, and Versions cannot be typed as <xref:System.Uri?displayProperty=fullName>, <xref:System.Guid?displayProperty=fullName>, and <xref:System.Version?displayProperty=fullName>, because these types cannot be represented as constants. Instead, they must be represented by strings.
 
  Because the parameter is typed as a string, it is possible that an incorrectly formatted parameter could be passed at compile time.
 
- This rule uses a naming heuristic to find parameters that represent a uniform resource identifier (URI), a Globally Unique Identifier (GUID) or a Version and verifies that the passed value is correct.
+ This rule uses a naming heuristic to find parameters that represent a uniform resource identifier (URI), a Globally Unique Identifier (GUID), or a Version, and verifies that the passed value is correct.
 
 ## How to fix violations
  Change the parameter string to a correctly formed URL, GUID, or Version.
@@ -47,7 +47,7 @@ ms.workload:
 
  [!code-csharp[FxCop.Usage.AttributeStringLiteralsShouldParseCorrectly#1](../code-quality/codesnippet/CSharp/ca2243-attribute-string-literals-should-parse-correctly_1.cs)]
 
- The rule is triggered by the following:
+ The rule is triggered by the following parameters:
 
 - Parameters that contain 'version' and cannot be parsed to System.Version.
 
