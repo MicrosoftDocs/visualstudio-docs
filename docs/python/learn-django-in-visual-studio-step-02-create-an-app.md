@@ -120,7 +120,7 @@ Answer: In the regular expressions that define URL patterns, ^ means "start of l
 
 If you don't use a trailing $ in a regular expression, as with `^home`, then URL pattern matches *any* URL that begins with "home" such as "home", "homework", "homestead", and "home192837".
 
-To experiment with different regular expressions, try online tools such as [regex101.com](https://regex101.com) at [pythex.org](http://www.pythex.org).
+To experiment with different regular expressions, try online tools such as [regex101.com](https://regex101.com) at [pythex.org](https://www.pythex.org).
 
 ## Step 2-3: Render a view using HTML
 

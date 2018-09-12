@@ -39,7 +39,7 @@ As a programming language, Python is:
 
 To learn more about the language, start with [Python for Beginners](https://www.python.org/about/gettingstarted/) on python.org.
 
-To install Python itself, visit [http://python.org/download/](http://python.org/download/).
+To install Python itself, visit [https://www.python.org/download/](https://www.python.org/download/).
  
   
 ## Python Tools for Visual Studio
