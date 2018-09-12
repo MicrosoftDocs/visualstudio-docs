@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1711: Identifiers should not have incorrect suffix
+
 |||
 |-|-|
 |TypeName|IdentifiersShouldNotHaveIncorrectSuffix|
@@ -28,7 +29,7 @@ ms.workload:
 ## Cause
  An identifier has an incorrect suffix.
 
-## Rule Description
+## Rule description
  By convention, only the names of types that extend certain base types or that implement certain interfaces, or types derived from these types, should end with specific reserved suffixes. Other type names should not use these reserved suffixes.
 
  The following table lists the reserved suffixes and the base types and interfaces with which they are associated.
@@ -48,25 +49,26 @@ ms.workload:
 
  In addition, the following suffixes should **not** be used:
 
--   Delegate
+- Delegate
 
--   Enum
+- Enum
 
--   Impl - use 'Core' instead
+- Impl - use 'Core' instead
 
--   Ex or similar suffix to distinguish it from an earlier version of the same type
+- Ex or similar suffix to distinguish it from an earlier version of the same type
 
  Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
 
-## How to Fix Violations
+## How to fix violations
  Remove the suffix from the type name.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule unless the suffix has an unambiguous meaning in the application domain.
 
-## Related Rules
+## Related rules
  [CA1710: Identifiers should have correct suffix](../code-quality/ca1710-identifiers-should-have-correct-suffix.md)
 
-## See Also
- [Attributes](/dotnet/standard/design-guidelines/attributes)
- [Handling and raising events](/dotnet/standard/events/index)
+## See also
+
+- [Attributes](/dotnet/standard/design-guidelines/attributes)
+- [Handling and raising events](/dotnet/standard/events/index)
