@@ -2,7 +2,7 @@
 title: "Get started with C# and ASP.NET Core in Visual Studio"
 description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
 ms.custom: ""
-ms.date: 09/05/2018
+ms.date: 09/13/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -77,21 +77,21 @@ This solution follows the Razor Page design pattern. It is different than the [M
 
     ![ASP.NET Solution Explorer in Visual Studio for Razor Pages solution that is named MyCoreApp](../ide/media/csharp-aspnet-razor-solution-explorer-mycoreapp.png)
 
- 1. Expand the **Pages** folder, and then choose the .
+ 1. Expand the **Pages** folder, and then expand *About.cshtml*.
 
-     ![HomeController.cs file in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-home-controller.png)
+     ![The About.cshtml file in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-razor-solution-explorer-aboutcshtml.png)
 
- 1. View the *HomeController.cs* file.
+ 1. View the *About.cshtml* file in the code window.
 
-     ![HomeController.cs in the Visual Studio code window](../ide/media/csharp-aspnet-home-controller-code.png)
+     ![View the About.cshtml file in the Visual Studio code window](../ide/media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code.png)
 
- 1. The project also has a **Views** folder that contains subfolders that map to each controller. For example, the view CSHTML file (an extension of HTML) for the */Home/About* path would be at *Views/Home/About.cshtml*. Open that file.
+ 1. Choose the *About.cshtml.cs* file.
 
-     ![About.cshtml file in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-view-about.png)
+     ![Choose the About.cshtml.cs file in the Visual Studio code window](../ide/media/csharp-aspnet-razor-solution-explorer-aboutcshtmlcs.png)
 
-    This CSHTML file uses the Razor syntax to render HTML based on a combination of standard tags and inline C#.
+ 1. View the *About.cshtml.cs* file in the code window.
 
-     ![About.cshtml in the Visual Studio code window](../ide/media/csharp-aspnet-about-cshtml-code.png)
+     ![View the About.cshtml file in the Visual Studio code window](../ide/media/csharp-aspnet-razor-aboutcshtmlcs-mycoreapp-code.png)
 
  1. The project also contains a **wwwroot** folder that is the root for your website. Expand the folder to view its contents.
 
