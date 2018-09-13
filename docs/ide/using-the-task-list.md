@@ -59,7 +59,7 @@ Because `TODO` is a predefined token, this comment appears as a `TODO` task in t
 
 ### Custom tokens
 
-By default, Visual Studio includes the following tokens: `HACK`, `TODO`, `UNDONE`, and `NOTE`. They are not case-sensitive.
+By default, Visual Studio includes the following tokens: `HACK`, `TODO`, and `UNDONE`. They are not case-sensitive.
 
 You can also create your own custom tokens. To create a custom token:
 
