@@ -326,4 +326,4 @@ When you find the region of code with the problem, use the debugger to investiga
 In this article, you've learned a few general debugging concepts. Next, you can start learning how to debug with Visual Studio.
 
 > [!div class="nextstepaction"]
-> [Debugger feature tour](../debugger/debugger-feature-tour.md)
+> [Learn to debug using Visual Studio](../debugger/getting-started-with-the-debugger.md)
