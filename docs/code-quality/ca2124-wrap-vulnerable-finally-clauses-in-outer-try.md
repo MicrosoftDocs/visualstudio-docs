@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA2124: Wrap vulnerable finally clauses in outer try
+
 |||
 |-|-|
 |TypeName|WrapVulnerableFinallyClausesInOuterTry|
@@ -28,26 +29,25 @@ ms.workload:
 ## Cause
  In versions 1.0 and 1.1 of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], a public or protected method contains a `try`/`catch`/`finally` block. The `finally` block appears to reset security state and is not enclosed in a `finally` block.
 
-## Rule Description
+## Rule description
  This rule locates `try`/`finally` blocks in code that targets versions 1.0 and 1.1 of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] that might be vulnerable to malicious exception filters present in the call stack. If sensitive operations such as impersonation occur in the try block, and an exception is thrown, the filter can execute before the `finally` block. For the impersonation example, this means that the filter would execute as the impersonated user. Filters are currently implementable only in Visual Basic.
 
-> [!WARNING]
->  **Note** In versions 2.0 and later of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], the runtime automatically protects a `try`/`catch`/ `finally` block from malicious exception filters, if the reset occurs directly within the method that contains the exception block.
+> [!NOTE]
+> In versions 2.0 and later of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], the runtime automatically protects a `try`/`catch`/ `finally` block from malicious exception filters, if the reset occurs directly within the method that contains the exception block.
 
-## How to Fix Violations
+## How to fix violations
  Place the unwrapped `try`/`finally` in an outer try block. See the second example that follows. This forces the `finally` to execute before filter code.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.
 
-## Pseudo-code Example
+## Pseudo-code example
 
 ### Description
- The following pseudo-code illustrates the pattern detected by this rule.
 
-### Code
+The following pseudo-code illustrates the pattern detected by this rule.
 
-```
+```csharp
 try {
    // Do some work.
    Impersonator imp = new Impersonator("John Doe");
@@ -59,10 +59,9 @@ finally {
 }
 ```
 
-## Example
- The following pseudo-code shows the pattern that you can use to protect your code and satisfy this rule.
+The following pseudo-code shows the pattern that you can use to protect your code and satisfy this rule.
 
-```
+```csharp
 try {
      try {
         // Do some work.

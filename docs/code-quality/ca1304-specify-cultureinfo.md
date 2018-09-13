@@ -71,9 +71,10 @@ The following example shows the effect of current culture on the default <xref:S
 
 This example produces the following output:
 
-**6/4/1900 12:15:12 PM**
-
-**06/04/1900 12:15:12**
+```txt
+6/4/1900 12:15:12 PM
+06/04/1900 12:15:12
+```
 
 ## Related rules
 

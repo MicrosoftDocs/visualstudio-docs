@@ -39,7 +39,7 @@ As a programming language, Python is:
 
 To learn more about the language, start with [Python for Beginners](https://www.python.org/about/gettingstarted/) on python.org.
 
-To install Python itself, visit [http://python.org/download/](http://python.org/download/).
+To install Python itself, visit [https://www.python.org/download/](https://www.python.org/download/).
  
   
 ## Python Tools for Visual Studio
@@ -77,26 +77,27 @@ The main offering for building a UI with Python is the [Qt Project](https://www.
 The Azure SDK for Python, which supports Windows, Mac, and Linux, makes it easy to consume and manage Microsoft Azure Services. Refer to the following resources for details: 
 
 - To install the SDK, use the [Python Package Index](https://pypi.python.org/pypi/azure) or follow [Install Python and the SDK](https://azure.microsoft.com/documentation/articles/python-how-to-install/) in the Azure documentation. 
-- [Azure SDK for Python Developer Center](http://azure.microsoft.com/en-us/develop/python/) has lots of help from installation to documentation with tutorials.  Some highlights follow:  
+- [Azure SDK for Python Developer Center](https://azure.microsoft.com/develop/python/) has lots of help from installation to documentation with tutorials.  Some highlights follow:  
 - How-to Guides:
-  - [Storage Blob](http://azure.microsoft.com/en-us/develop/python/how-to-guides/blob-service/)  
-  - [Storage Queue](http://azure.microsoft.com/en-us/develop/python/how-to-guides/queue-service/)  
-  - [Storage Table](http://azure.microsoft.com/en-us/develop/python/how-to-guides/table-service/)  
-  - [Service Bus Queues](http://azure.microsoft.com/en-us/develop/python/how-to-guides/service-bus-queues/)   - [Service Bus Topics/Subscriptions](http://azure.microsoft.com/en-us/develop/python/how-to-guides/service-bus-topics/) 
-  - [Service Management](http://azure.microsoft.com/en-us/develop/python/how-to-guides/service-management/)  
- 
-  
-  
-## Scientific Computing  
+  - [Storage Blob](https://azure.microsoft.com/develop/python/how-to-guides/blob-service/)  
+  - [Storage Queue](https://azure.microsoft.com/develop/python/how-to-guides/queue-service/)  
+  - [Storage Table](https://azure.microsoft.com/develop/python/how-to-guides/table-service/)  
+  - [Service Bus Queues](https://azure.microsoft.com/develop/python/how-to-guides/service-bus-queues/)
+  - [Service Bus Topics/Subscriptions](https://azure.microsoft.com/develop/python/how-to-guides/service-bus-topics/) 
+  - [Service Management](https://azure.microsoft.com/develop/python/how-to-guides/service-management/)  
+
+## Scientific Computing
+
 In addition to all the Python data-scientist libraries, the Python Tools for Visual Studio support IPython and IPython Notebooks, which can be hosted in Azure.
 
 We recommend obtaining IPython and scientific computing libraries (matplotlib, scipy, numpy, etc.) from [University of California, Irvine](http://www.lfd.uci.edu/~gohlke/pythonlibs/#scipy-stack).  
   
 ## See Also  
- [Getting Started with PTVS: Setting up Visual Studio](../python/getting-started-with-ptvs-setting-up-visual-studio.md)   
- [Getting Started with PTVS: Start Coding (Projects)](../python/getting-started-with-ptvs-start-coding-projects.md)   
- [Getting Started with PTVS: Editing Code](../python/getting-started-with-ptvs-editing-code.md)   
- [Getting Started with PTVS: Debugging](../python/getting-started-with-ptvs-debugging.md)   
- [Getting Started with PTVS: Interactive Python](../python/getting-started-with-ptvs-interactive-python.md)   
- [Getting Started with PTVS: Building a Website in Azure](../python/getting-started-with-ptvs-building-a-website-in-azure.md)
+
+[Getting Started with PTVS: Setting up Visual Studio](../python/getting-started-with-ptvs-setting-up-visual-studio.md)
+[Getting Started with PTVS: Start Coding (Projects)](../python/getting-started-with-ptvs-start-coding-projects.md)
+[Getting Started with PTVS: Editing Code](../python/getting-started-with-ptvs-editing-code.md)
+[Getting Started with PTVS: Debugging](../python/getting-started-with-ptvs-debugging.md)
+[Getting Started with PTVS: Interactive Python](../python/getting-started-with-ptvs-interactive-python.md)
+[Getting Started with PTVS: Building a Website in Azure](../python/getting-started-with-ptvs-building-a-website-in-azure.md)
 

@@ -28,15 +28,15 @@ ms.workload:
 ## Cause
  A platform invoke member allows for partially trusted callers, has a string parameter, and does not explicitly marshal the string.
 
-## Rule Description
+## Rule description
  When you convert from Unicode to ANSI, it is possible that not all Unicode characters can be represented in a specific ANSI code page. *Best-fit mapping* tries to solve this problem by substituting a character for the character that cannot be represented. The use of this feature can cause a potential security vulnerability because you cannot control the character that is chosen. For example, malicious code could intentionally create a Unicode string that contains characters that are not found in a particular code page, which are converted to file system special characters such as '..' or '/'. Note also that security checks for special characters frequently occur before the string is converted to ANSI.
 
  Best-fit mapping is the default for the unmanaged conversion, WChar to MByte. Unless you explicitly disable best-fit mapping, your code might contain an exploitable security vulnerability because of this issue.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, explicitly marshal string data types.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.
 
 ## Example

@@ -190,6 +190,8 @@ You're next going to run the app with the Visual Studio debugger attached. Befor
 
     ![Select the debug target](../javascript/media/tutorial-nodejs-deploy-target.png)
 
+    To add a different browser target, such as Chrome, select **Browse With**.
+
 1. Press **F5** (**Debug** > **Start Debugging**) to run the application.
 
     The debugger pauses at the breakpoint you set. Now, you can inspect your app state.

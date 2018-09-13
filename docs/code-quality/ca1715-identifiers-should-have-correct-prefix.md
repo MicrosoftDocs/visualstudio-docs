@@ -14,6 +14,10 @@ ms.assetid: cf45f8df-6855-4cb6-a4e2-7cfed714cf2f
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CPP
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
@@ -32,7 +36,7 @@ ms.workload:
 
  The name of a generic type parameter on an externally visible type or method does not start with an uppercase 'T'.
 
-## Rule Description
+## Rule description
  By convention, the names of certain programming elements start with a specific prefix.
 
  Interface names should start with an uppercase 'I' followed by another uppercase letter. This rule reports violations for interface names such as 'MyInterface' and 'IsolatedInterface'.
@@ -41,10 +45,10 @@ ms.workload:
 
  Naming conventions provide a common look for libraries that target the common language runtime. This reduces the learning curve that is required for new software libraries, and increases customer confidence that the library was developed by someone who has expertise in developing managed code.
 
-## How to Fix Violations
+## How to fix violations
  Rename the identifier so that it is correctly prefixed.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.
 
 ## Example
@@ -75,5 +79,5 @@ ms.workload:
  [!code-csharp[FxCop.Naming.IdentifiersShouldHaveCorrectPrefix4#1](../code-quality/codesnippet/CSharp/ca1715-identifiers-should-have-correct-prefix_4.cs)]
  [!code-vb[FxCop.Naming.IdentifiersShouldHaveCorrectPrefix4#1](../code-quality/codesnippet/VisualBasic/ca1715-identifiers-should-have-correct-prefix_4.vb)]
 
-## Related Rules
+## Related rules
  [CA1722: Identifiers should not have incorrect prefix](../code-quality/ca1722-identifiers-should-not-have-incorrect-prefix.md)

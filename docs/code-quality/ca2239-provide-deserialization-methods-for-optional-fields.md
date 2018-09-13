@@ -14,10 +14,14 @@ ms.assetid: 6480ff5e-0caa-4707-814e-2f927cdafef5
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA2239: Provide deserialization methods for optional fields
+
 |||
 |-|-|
 |TypeName|ProvideDeserializationMethodsForOptionalFields|
@@ -28,13 +32,13 @@ ms.workload:
 ## Cause
  A type has a field that is marked with the <xref:System.Runtime.Serialization.OptionalFieldAttribute?displayProperty=fullName> attribute and the type does not provide de-serialization event handling methods.
 
-## Rule Description
+## Rule description
  The <xref:System.Runtime.Serialization.OptionalFieldAttribute> attribute has no effect on serialization; a field marked with the attribute is serialized. However, the field is ignored on de-serialization and retains the default value associated with its type. De-serialization event handlers should be declared to set the field during the de-serialization process.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, add de-serialization event handling methods to the type.
 
-## When to Suppress Warnings
+## When to suppress warnings
  It is safe to suppress a warning from this rule if the field should be ignored during the de-serialization process.
 
 ## Example
@@ -43,7 +47,7 @@ ms.workload:
  [!code-csharp[FxCop.Usage.OptionalFields#1](../code-quality/codesnippet/CSharp/ca2239-provide-deserialization-methods-for-optional-fields_1.cs)]
  [!code-vb[FxCop.Usage.OptionalFields#1](../code-quality/codesnippet/VisualBasic/ca2239-provide-deserialization-methods-for-optional-fields_1.vb)]
 
-## Related Rules
+## Related rules
  [CA2236: Call base class methods on ISerializable types](../code-quality/ca2236-call-base-class-methods-on-iserializable-types.md)
 
  [CA2240: Implement ISerializable correctly](../code-quality/ca2240-implement-iserializable-correctly.md)

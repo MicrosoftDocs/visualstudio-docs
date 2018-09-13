@@ -14,10 +14,15 @@ ms.assetid: 07b604e5-5579-4df9-a578-dadd0d8370a7
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CPP
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA2126: Type link demands require inheritance demands
+
 |||
 |-|-|
 |TypeName|TypeLinkDemandsRequireInheritanceDemands|
@@ -28,13 +33,13 @@ ms.workload:
 ## Cause
  A public unsealed type is protected with a link demand, has an overridable method, and neither the type nor the method is protected with an inheritance demand.
 
-## Rule Description
+## Rule description
  A link demand on a method or its declaring type requires the immediate caller of the method to have the specified permission. An inheritance demand on a method requires an overriding method to have the specified permission. An inheritance demand on a type requires a deriving class to have the specified permission.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, secure the type or the method with an inheritance demand for the same permission as the link demand.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.
 
 ## Example
@@ -44,7 +49,7 @@ ms.workload:
  [!code-vb[FxCop.Security.TypesWithLinkDemands#1](../code-quality/codesnippet/VisualBasic/ca2126-type-link-demands-require-inheritance-demands_1.vb)]
  [!code-csharp[FxCop.Security.TypesWithLinkDemands#1](../code-quality/codesnippet/CSharp/ca2126-type-link-demands-require-inheritance-demands_1.cs)]
 
-## Related Rules
+## Related rules
  [CA2108: Review declarative security on value types](../code-quality/ca2108-review-declarative-security-on-value-types.md)
 
  [CA2112: Secured types should not expose fields](../code-quality/ca2112-secured-types-should-not-expose-fields.md)
@@ -53,6 +58,7 @@ ms.workload:
 
  [CA2123: Override link demands should be identical to base](../code-quality/ca2123-override-link-demands-should-be-identical-to-base.md)
 
-## See Also
- [Secure Coding Guidelines](/dotnet/standard/security/secure-coding-guidelines)
- [Link Demands](/dotnet/framework/misc/link-demands)
+## See also
+
+- [Secure Coding Guidelines](/dotnet/standard/security/secure-coding-guidelines)
+- [Link Demands](/dotnet/framework/misc/link-demands)

@@ -28,13 +28,13 @@ ms.workload:
 ## Cause
  A platform invoke method is incorrectly declared.
 
-## Rule Description
+## Rule description
  A platform invoke method accesses unmanaged code and is defined by using the `Declare` keyword in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or the <xref:System.Runtime.InteropServices.DllImportAttribute?displayProperty=fullName>. Currently, this rule looks for platform invoke method declarations that target Win32 functions that have a pointer to an OVERLAPPED structure parameter and the corresponding managed parameter is not a pointer to a <xref:System.Threading.NativeOverlapped?displayProperty=fullName> structure.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, correctly declare the platform invoke method.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.
 
 ## Example
@@ -42,5 +42,5 @@ ms.workload:
 
  [!code-csharp[FxCop.Interoperability.DeclarePInvokes#1](../code-quality/codesnippet/CSharp/ca1415-declare-p-invokes-correctly_1.cs)]
 
-## See Also
+## See also
  [Interoperating with Unmanaged Code](/dotnet/framework/interop/index)

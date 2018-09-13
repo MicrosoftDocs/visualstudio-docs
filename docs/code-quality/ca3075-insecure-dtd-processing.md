@@ -22,49 +22,49 @@ ms.workload:
 ## Cause
  If you use insecure <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A> instances or reference external entity sources, the parser may accept untrusted input and disclose sensitive information to attackers.
 
-## Rule Description
+## Rule description
  A *Document Type Definition (DTD)* is one of two ways an XML parser can determine the validity of a document, as defined by the  [World Wide Web Consortium (W3C) Extensible Markup Language (XML) 1.0](http://www.w3.org/TR/2008/REC-xml-20081126/). This rule seeks properties and instances where untrusted data is accepted to warn developers about potential [Information Disclosure](/dotnet/framework/wcf/feature-details/information-disclosure) threats, which may lead to [Denial of Service (DoS)](/dotnet/framework/wcf/feature-details/denial-of-service) attacks. This rule triggers when:
 
--   DtdProcessing is enabled on the <xref:System.Xml.XmlReader> instance, which resolves external XML entities using <xref:System.Xml.XmlUrlResolver>.
+- DtdProcessing is enabled on the <xref:System.Xml.XmlReader> instance, which resolves external XML entities using <xref:System.Xml.XmlUrlResolver>.
 
--   The <xref:System.Xml.XmlNode.InnerXml%2A> property in the XML is set.
+- The <xref:System.Xml.XmlNode.InnerXml%2A> property in the XML is set.
 
--   <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A> property is set  to Parse    .
+- <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A> property is set  to Parse    .
 
--   Untrusted input is processed using <xref:System.Xml.XmlResolver> instead of <xref:System.Xml.XmlSecureResolver> .
+- Untrusted input is processed using <xref:System.Xml.XmlResolver> instead of <xref:System.Xml.XmlSecureResolver> .
 
--   The XmlReader.<xref:System.Xml.XmlReader.Create%2A> method is invoked with an insecure <xref:System.Xml.XmlReaderSettings> instance or no instance at all.
+- The XmlReader.<xref:System.Xml.XmlReader.Create%2A> method is invoked with an insecure <xref:System.Xml.XmlReaderSettings> instance or no instance at all.
 
--   <xref:System.Xml.XmlReader> is created with insecure default settings or values    .
+- <xref:System.Xml.XmlReader> is created with insecure default settings or values    .
 
  In each of these cases, the outcome is the same: the contents from either the file system or network shares from the machine where the XML is processed will be exposed to the attacker, which may then be used as a DoS vector.
 
-## How to Fix Violations
+## How to fix violations
 
--   Catch and process all XmlTextReader exceptions properly to avoid path information disclosure    .
+- Catch and process all XmlTextReader exceptions properly to avoid path information disclosure    .
 
--   Use the <xref:System.Xml.XmlSecureResolver> to restrict the resources      that the XmlTextReader can access.
+- Use the <xref:System.Xml.XmlSecureResolver> to restrict the resources      that the XmlTextReader can access.
 
--   Do not allow the <xref:System.Xml.XmlReader> to open any external resources by setting the <xref:System.Xml.XmlResolver> property to **null**.
+- Do not allow the <xref:System.Xml.XmlReader> to open any external resources by setting the <xref:System.Xml.XmlResolver> property to **null**.
 
--   Ensure that the <xref:System.Data.DataViewManager.DataViewSettingCollectionString%2A> property of <xref:System.Data.DataViewManager> is assigned from a trusted source.
+- Ensure that the <xref:System.Data.DataViewManager.DataViewSettingCollectionString%2A> property of <xref:System.Data.DataViewManager> is assigned from a trusted source.
 
  .NET 3.5 and earlier
 
--   Disable DTD processing if you are dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.ProhibitDtd%2A> property to **true** .
+- Disable DTD processing if you are dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.ProhibitDtd%2A> property to **true** .
 
--   XmlTextReader class has a full trust inheritance demand.
+- XmlTextReader class has a full trust inheritance demand.
 
  .NET 4 and later
 
--   Avoid enabling DtdProcessing if you're dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A?displayProperty=nameWithType>  property to **Prohibit** or **Ignore**.
+- Avoid enabling DtdProcessing if you're dealing with untrusted sources by setting the <xref:System.Xml.XmlReaderSettings.DtdProcessing%2A?displayProperty=nameWithType>  property to **Prohibit** or **Ignore**.
 
--   Ensure that the Load() method takes an XmlReader instance in all InnerXml cases.
+- Ensure that the Load() method takes an XmlReader instance in all InnerXml cases.
 
 > [!NOTE]
 >  This rule might report false positives on some valid XmlSecureResolver instances. We're working on solving this issue by mid 2016.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Unless you're sure that the input is known to be from a trusted source, do not suppress a rule from this warning.
 
 ## Pseudo-code Examples
