@@ -84,6 +84,7 @@
       "defaultDevLang": "csharp",
       "ms.prod": "visual-studio-dev15",
       "searchScope": ["VS IDE"],
+      "hideScope": true,
       "uhfHeaderId": "MSDocsHeader-VisualStudio",
       "titleSuffix": "Visual Studio",
       "featureFlags": [
@@ -97,6 +98,10 @@
       },
       "feedback_system": {
         "vs-2015/**/*": "None"
+      },
+      "searchScope": {
+        "extensibility/**/*.md": ["VS Extensibility"],
+        "vs-2015/extensibility/**/*.md": ["VS Extensibility"]
       }
     },
 
