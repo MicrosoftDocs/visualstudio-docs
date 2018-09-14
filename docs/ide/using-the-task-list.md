@@ -59,9 +59,9 @@ Because `TODO` is a predefined token, this comment appears as a `TODO` task in t
 
 ### Custom tokens
 
-By default, Visual Studio includes the following tokens: `HACK`, `TODO`, `UNDONE`, and `NOTE`. They are not case-sensitive.
+By default, Visual Studio includes the following tokens: `HACK`, `TODO`, `UNDONE`, and `UnresolvedMergeConflict`. They are not case-sensitive. You can also create your own custom tokens.
 
-You can also create your own custom tokens. To create a custom token:
+To create a custom token:
 
 1. On the **Tools** menu, choose **Options**.
 
@@ -71,9 +71,11 @@ You can also create your own custom tokens. To create a custom token:
 
    ![Visual Studio Task List](../ide/media/vs2015_task_list_options.png)
 
-3. In the **Tokens** category, in the **Name** text box, enter your token name, for example **BUG**.
+3. In the **Name** text box, enter your token name, for example **BUG**.
 
-4. In the **Priority** drop-down list, choose a default priority for the new token. Choose the **Add** button.
+4. In the **Priority** drop-down list, choose a default priority for the new token.
+
+5. Choose **Add**.
 
 ### C++ TODO comments
 

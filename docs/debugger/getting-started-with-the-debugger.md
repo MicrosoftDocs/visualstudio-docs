@@ -438,4 +438,4 @@ Features that allow you to inspect variables are one of the most useful features
 In this tutorial, you've learned how to start the debugger, step through code, and inspect variables. You may want to get a high-level look at debugger features along with links to more information.
 
 > [!div class="nextstepaction"]
-> [Debugger feature tour](../debugger/debugger-feature-tour.md)
+> [Debugger tips and tricks](../debugger/debugger-tips-and-tricks.md)
