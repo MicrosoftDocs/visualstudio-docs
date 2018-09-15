@@ -9,7 +9,7 @@ Statuses and their meanings
 Statuses indicate where the feedback currently is in its lifecycle. Taking action on an item moves it along the workflow, and automatically tags the item with a new status. The statuses associated with Suggestions are listed below, with a description of their meaning and color indicators.
 
 
- 
+
 This is a newly reported suggestion. No action has been taken on it yet. The front-line support will do some preliminary checks to make sure we can proceed further.  You should hear from us within 5 business days on our next steps. 
 
  
@@ -58,27 +58,3 @@ The voting system in User Voice operates differently from the votes in Developer
 How long can I expect actions to take?
 We are fully committed to listening to feedback and taking actions to provide valuable experiences to our customers. Actions to feedback are prioritized based on severity and impact to the broader community, so we may not be able to respond personally to every item – but please be assured that your feedback gets to the right team and is evaluated carefully.
 The response time depends on the state your feedback is in. Please review the definitions and meaning of states in this document to understand the response times.
-
-
-Problem: FAQ
-How is my feedback prioritized?
-We receive a very large number of valuable suggestions from our customers. We prioritize action on feedback based on the severity and impact to the broader community and the strategic roadmap of the product. While we fully appreciate all the feedback, we may not always be able to respond personally to all the feedback. Please be assured that all your feedback gets to the right person and team. 
-We truly value the time you invest in making Visual Studio better.
-
-
-What actions can I take if I am not satisfied with the resolution?
-How will I get notified of progress on my feedback?
-
-Why can’t I add problem on the Developer Community website
-
--	How can I increase changes of problems getting fixed
-
--	Premium paid customer – 
-
--	How do I get fixes/latest products
-
--	Does MS care/listen – our culture
-
--	What if I have a problem with an add in
-
--	What if I have a coding questios
