@@ -8,32 +8,32 @@ UserVoice site is now read only and new suggestions can only be added only on De
 Statuses and their meanings
 Statuses indicate where the feedback currently is in its lifecycle. Taking action on an item moves it along the workflow, and automatically tags the item with a new status. The statuses associated with Suggestions are listed below, with a description of their meaning and color indicators.
 
-This is a newly reported suggestion. No action has been taken on it yet. The front-line support will do some preliminary checks to make sure we can proceed further.  You should hear from us within 5 business days on our next steps. 
+![New](../ide/media/SuggestStates/new.png)
+<br>This is a newly reported suggestion. No action has been taken on it yet. The front-line support will do some preliminary checks to make sure we can proceed further.  You should hear from us within 5 business days on our next steps. 
 
+ ![Under Review](../ide/media/SuggestStates/underreview.png)
+<br>This status indicates that your suggestion has been queued up for prioritization.  Feature suggestions are prioritized based on the value to our broader developer community and the product roadmap. We may not be able to pursue this one immediately, but we will continue to monitor it up to 90 days for community input
+
+![On Roadmap](../ide/media/SuggestStates/new.png)
+<br>Suggestion in this state indicates that it has been determined that this item has a broad community impact and will help improve the product experience. The feature has been added to the product roadmap, you should expect more updates as we make progress.
+
+![Need More Info](../ide/media/SuggestStates/NeedMoreINfo.png)
+<br>If an item is in this state it means that we do not have complete details to fully understand this suggestion. For us to progress this idea we need better understanding. In the comments we will provide the description of the additional information required to get a deeper understanding of the suggestion.
  
-This status indicates that your suggestion has been queued up for prioritization.  Feature suggestions are prioritized based on the value to our broader developer community and the product roadmap. We may not be able to pursue this one immediately, but we will continue to monitor it up to 90 days for community input
+ ![Closed - Other Product](../ide/media/SuggestStates/ClosedOtherProduct.png)
+<br>The suggestion proposed does not apply to the products in scope for Developer Community. Where possible, we will provide details on where you could share your ideas for that product
 
-On Roadmap
-Suggestion in this state indicates that it has been determined that this item has a broad community impact and will help improve the product experience. The feature has been added to the product roadmap, you should expect more updates as we make progress.
+![Closed - Duplicate](../ide/media/SuggestStates/underreview.png)
+<br>This indicates that the proposed suggestion appears to be identical to an existing idea. The link to follow and vote on the original suggestion will be provided in the comments.
 
+![Closed - Not Enough Info](../ide/media/SuggestStates/ClosedNotEnoughInfo.png) 
+<br>This state indicates that even after several attempts, we haven’t received enough information to understand this suggestion fully.  The item is being closed as we are unable to take any further action at this stage. You may request to reactivate the ticket when you have the additional information.
 
- 
-If an item is in this state it means that we do not have complete details to fully understand this suggestion. For us to progress this idea we need better understanding. In the comments we will provide the description of the additional information required to get a deeper understanding of the suggestion.
+![Completed - Preview](../ide/media/SuggestStates/CompletedPreview.png)
+<br>When the suggestion has this status, it means the feature is now available in the preview. The preview can be downloaded using the link provided in the comments to check out the feature and give any further feedback.
 
- 
-The suggestion proposed does not apply to the products in scope for Developer Community. Where possible, we will provide details on where you could share your ideas for that product
-
-Closed - duplicate
-This indicates that the proposed suggestion appears to be identical to an existing idea. The link to follow and vote on the original suggestion will be provided in the comments.
-
-
- 
-This state indicates that even after several attempts, we haven’t received enough information to understand this suggestion fully.  The item is being closed as we are unable to take any further action at this stage. You may request to reactivate the ticket when you have the additional information.
-
- 
-When the suggestion has this status, it means the feature is now available in the preview. The preview can be downloaded using the link provided in the comments to check out the feature and give any further feedback.
-Completed - Released
-This state indicates that the feature has been released in the latest product update. The update can be downloaded using the link provided in the comments.
+![Completed - Released](../ide/media/SuggestStates/CompletedPreview.png)
+<br>This state indicates that the feature has been released in the latest product update. The update can be downloaded using the link provided in the comments.
 
 FAQ
 
