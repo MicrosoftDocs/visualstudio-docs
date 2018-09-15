@@ -8,8 +8,6 @@ UserVoice site is now read only and new suggestions can only be added only on De
 Statuses and their meanings
 Statuses indicate where the feedback currently is in its lifecycle. Taking action on an item moves it along the workflow, and automatically tags the item with a new status. The statuses associated with Suggestions are listed below, with a description of their meaning and color indicators.
 
-
-
 This is a newly reported suggestion. No action has been taken on it yet. The front-line support will do some preliminary checks to make sure we can proceed further.  You should hear from us within 5 business days on our next steps. 
 
  
