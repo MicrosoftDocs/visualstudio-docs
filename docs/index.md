@@ -244,11 +244,6 @@ ms.topic: hub-page
                                                             <img src="https://docs.microsoft.com/media/logos/logo_NET.svg" alt="">
                                                             Web app with ASP.NET Core</a>
                                                     </li>
-                                                    <li>
-                                                        <a class="barLink" href="/visualstudio/containers">
-                                                            <img src="https://docs.microsoft.com/media/logos/logo_docker.svg" alt="">
-                                                            Use Docker containers</a>
-                                                    </li>
                                                 </ul></td></tr></table>
                                             </div>
                                         </div>
