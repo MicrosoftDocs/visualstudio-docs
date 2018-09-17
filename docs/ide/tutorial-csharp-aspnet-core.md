@@ -69,7 +69,7 @@ If you don't see the **ASP.NET Core Web Application** project template, you can 
 
 ### About your solution
 
-This solution follows the Razor Page design pattern. It is different than the [Model-View-Controller (MVC)](/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-2.1&tabs=aspnetcore2x) design pattern in that its streamlined to include the model and controller code within the Razor Page itself.
+This solution follows the **Razor Page** design pattern. It is different than the [Model-View-Controller (MVC)](/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-2.1&tabs=aspnetcore2x) design pattern in that its streamlined to include the model and controller code within the Razor Page itself.
 
 ## Tour your solution
 
