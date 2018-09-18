@@ -24,6 +24,8 @@ You are not limited to a local results store. Frequently, load tests are run on 
 
 Test results from your agents or your local computer can be saved to any SQL server on which you have created a load test results store. In either case, you must identify where you want to store your load test results by using the **Administer Test Controllers** window.
 
+For more information about agents, see [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md).
+
 ## Identify a results store for load test data
 
 1.  In **Solution Explorer**, open your load test file.
