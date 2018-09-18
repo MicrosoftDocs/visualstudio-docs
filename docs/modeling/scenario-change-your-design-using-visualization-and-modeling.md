@@ -176,7 +176,7 @@ Dinner Now must estimate the cost of meeting the new requirement. This depends p
 
  **Dependency Diagram**
 
-To make sure that conflicts with the design do not occur during code development, the teams uses dependency validation on builds that are run on Team Foundation Build. They also create a custom MSBuild task to require dependency validation in their check-in operations. They use build reports to collect validation errors.
+To make sure that conflicts with the design do not occur during code development, the teams uses dependency validation on builds that are run on Azure DevOps. They also create a custom MSBuild task to require dependency validation in their check-in operations. They use build reports to collect validation errors.
 
 See:
 
@@ -228,7 +228,7 @@ As the teams complete each task, they check their code into Team Foundation vers
 
 Dinner Now has a large collection of automated tests, which Lucerne can reuse because almost all still apply. Lucerne can also build on these tests and add new ones to cover new functionality. Both also use Visual Studio to run manual tests.
 
-To make sure that the code conforms to the design, the teams configure their builds in Team Foundation Build to include dependency validation. If any conflicts occur, a report is generated with the details.
+To make sure that the code conforms to the design, the teams configure their builds in Azure Pipelines to include dependency validation. If any conflicts occur, a report is generated with the details.
 
 See:
 
