@@ -1,5 +1,5 @@
 ---
-title: "Use Build or Release Management for automated testing in Visual Studio"
+title: "Use build or release management for automated testing"
 ms.date: 03/02/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
@@ -12,7 +12,7 @@ ms.workload:
   - "multiple"
 author: gewarren
 ---
-# Use Build and Release Management instead of Lab Management for automated testing
+# Use Azure Test Plans instead of Lab Management for automated testing
 
 If you use Microsoft Test Manager (MTM) and Lab Management for automated testing or for build-deploy-test automation, this topic explains how you can achieve the same goals using the [build and release](/azure/devops/pipelines/index?view=vsts) features in Team Foundation Server (TFS) and Azure Test Plans.
 
@@ -58,7 +58,7 @@ The following table summarizes the typical activities you perform in Lab Center,
 | Connect to machines. | Open the lab environment in Environment viewer. | Use SCVMM administration console directly to connect to the virtual machines. Alternatively, use the IP address or DNS names of the virtual machines to open remote desktop sessions. |
 | Take a checkpoint of an environment, or restore an environment to a clean checkpoint. | Open the lab environment in Environment viewer. Select the option to take a checkpoint or to restore to a previous checkpoint. | Use SCVMM administration console directly to perform these operations on virtual machines. Or, to perform these steps as part of a larger automation, include the checkpoint tasks from the [SCVMM Integration extension](https://marketplace.visualstudio.com/items?itemname=ms-vscs-rm.scvmmapp) as part of the environment in a release definition. |
 
-## Creation of network isolated environments
+## Create network-isolated environments
 
 A network isolated lab environment is a group of SCVMM virtual machines that can be cloned safely without causing network conflicts. This was done in MTM using a series of instructions that used a set of network interface cards to configure the virtual machines in a private network, and another set of network interface cards to configure the virtual machines in a public network.
 
