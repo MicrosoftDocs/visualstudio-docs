@@ -40,7 +40,7 @@ Whether you choose best of breed Coded UI Tests or generic browser-based UI test
 ![UI testing with coded UI](media/devtest-codeduitest.png)
 
 * [Use UI automation to test your code](use-ui-automation-to-test-your-code.md)
-* [Get started creating, editing and maintaining a coded UI test](walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
+* [Get started creating, editing, and maintaining a coded UI test](walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md)
 * [Test UWP apps with coded UI tests](test-uwp-app-with-coded-ui-test.md)
 * [Test SharePoint applications with coded UI tests](testing-sharepoint-2010-applications-with-coded-ui-tests.md)
 * [Introduction to coded UI tests with Visual Studio Enterprise (Lab)](http://download.microsoft.com/download/6/2/B/62B60ECE-B9DC-4E8A-A97C-EA261BFB935E/Docs/Introduction%20to%20Coded%20UI%20Tests%20with%20Visual%20Studio%20Enterprise%202015.docx)
@@ -68,9 +68,9 @@ Code coverage is an option when you run test methods using Test Explorer. The re
 * [Test Explorer FAQ](test-explorer-faq.md)
 * [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md)
 
-Visual Studio is also extensible and opens the door for third-party unit testing adapters such as NUnit and xUnit.net. In addition, the code clone capability goes hand-in-hand with delivering high quality software by helping you identify blocks of semantically similar code which may be candidates for common bug fixes or refactoring.
+Visual Studio is also extensible and opens the door for third-party unit testing adapters such as NUnit and xUnit.net. In addition, the code clone capability goes hand-in-hand with delivering high-quality software by helping you identify blocks of semantically similar code that may be candidates for common bug fixes or refactoring.
 
-![Third party test integration](media/devtest-thirdparty.png)
+![Third-party test integration](media/devtest-thirdparty.png)
 
 ## See also
 

@@ -13,7 +13,7 @@ ms.technology: vs-ide-test
 ---
 # How to: Set up your test agent to run tests that interact with the desktop
 
-If you want to run automated tests that interact with the desktop, you must set up your agent to run as a process instead of a service. For example, if you want to run a coded UI test remotely using a test controller and test agent, or you want to run a test and capture a video recording when you run it, you must set up your agent to run as a process. When you assign agents to roles in your test settings using Visual Studio, or you assign agents to roles in your environment by using Microsoft Test Manager, you must change the set up for any agents assigned to roles that have to interact with the desktop.
+If you want to run automated tests that interact with the desktop, you must set up your agent to run as a process instead of a service. For example, if you want to run a coded UI test remotely using a test controller and test agent, or you want to run a test and capture a video recording when you run it, you must set up your agent to run as a process. When you assign agents to roles in your test settings using Visual Studio, or you assign agents to roles in your environment by using Microsoft Test Manager, you must change the setup for any agents assigned to roles that have to interact with the desktop.
 
 > [!WARNING]
 > If you use Microsoft Test Manager to set up a lab environment, it installs the test agent. You can specify in the **Environment Creation Wizard** that you want to configure one of the roles to run coded UI tests.
@@ -55,9 +55,9 @@ Use the following procedure to set up any agents that are assigned to a role tha
 
     -   If you want to use the IntelliTrace or the network emulation data and diagnostic adapter, the user account must be a member of the Administrators group. If the machine that is running the test agent is running an OS that has Least-Privileged User Account, you have to run it as an administrator also (elevated). If the agent user name is not in the agent service it will try to add it, which requires permissions on the test controller.
 
-    -   The user trying to use the test controller must be in the test controller's Users account or the they will not be able to run the tests against the controller.
+    -   The user trying to use the test controller must be in the test controller's Users account or they won't be able to run the tests against the controller.
 
-6.  To make sure that a computer that has a test agent can run tests after rebooting, you can set up the computer to log on automatically as the test agent user. Select **Log on automatically**. This will store the user name and password in an encrypted form in the registry.
+6.  To make sure that a computer that has a test agent can run tests after rebooting, you can set up the computer to sign in automatically as the test agent user. Select **Log on automatically**. This will store the user name and password in an encrypted form in the registry.
 
     > [!NOTE]
     > When you are connected to the lab environment using a remote desktop or guest-based connection, you might experience frequent, unexpected disconnects. One possible cause of the loss of the connection is that the machine is configured to automatically log onto the network.
@@ -78,7 +78,7 @@ Use the following procedure to set up any agents that are assigned to a role tha
     > [!NOTE]
     > There is a notification area icon that runs on the computer for a test agent that is running as a process. It shows the status of the test agent. You can start, stop or restart the agent if it is running as a process using this tool. To start the test agent as a process if it is not running, choose **Start** > **Visual Studio** > **Microsoft Visual Studio Test Agent**.
 
-     If the test controller for this test agent is registered with Team Foundation Server, the status of a test agent that is running as an interactive process is displayed in the **Controllers** view in the **Lab Center** for Microsoft Test Manager. It is listed with a preceding asterisk symbol to denote that it is running as an interactive process. To restart this test agent you must use the tool that runs on the computer for the test agent and not the **Controllers** view.
+     If the test controller for this test agent is registered with Team Foundation Server, the status of a test agent that is running as an interactive process is displayed in the **Controllers** view in the **Lab Center** for Microsoft Test Manager. It is listed with a preceding asterisk symbol to denote that it is running as an interactive process. To restart this test agent, you must use the tool that runs on the computer for the test agent and not the **Controllers** view.
 
 ## See also
 

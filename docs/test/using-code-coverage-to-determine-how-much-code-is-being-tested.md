@@ -28,7 +28,7 @@ Code coverage is an option when you run test methods using Test Explorer. The re
 
 ## Requirements
 
-The code coverage features is available only in Visual Studio Enterprise edition.
+The code coverage feature is available only in Visual Studio Enterprise edition.
 
 ## To analyze code coverage on unit tests in Test Explorer
 
@@ -69,7 +69,7 @@ You can merge the results of several runs, for example from runs that use differ
 
    The coverage coloring might be incorrect if the source code has changed since the *.coverage* file was generated.
 
-- **To make results readable as text**, choose **Export Code Coverage Results**. This generates a readable *.coveragexml* file which you could process with other tools or send easily in mail.
+- **To make results readable as text**, choose **Export Code Coverage Results**. This generates a readable *.coveragexml* file, which you could process with other tools or send easily in mail.
 
 - **To send results to someone else**, send either a *.coverage* file or an exported *.coveragexml* file. They can then import the file. If they have the same version of the source code, they can see coverage coloring.
 
@@ -77,7 +77,7 @@ You can merge the results of several runs, for example from runs that use differ
 
 In some situations, different blocks in your code will be used depending on the test data. Therefore, you might want to combine the results from different test runs.
 
-For example, suppose that when you run a test with input "2", you find that 50% of a particular function is covered. When you run the test a second time with the input "-2" you see in the coverage coloring view that the other 50% of the function is covered. Now you merge the results from the two test runs, and the report and coverage coloring view show that 100% of the function was covered.
+For example, suppose that when you run a test with input "2", you find that 50% of a particular function is covered. When you run the test a second time with the input "-2", you see in the coverage coloring view that the other 50% of the function is covered. Now you merge the results from the two test runs, and the report and coverage coloring view show that 100% of the function was covered.
 
 Use ![Icon for Merge button in Code Coverage window](../test/media/codecoverage-mergeicon.png) **Merge Code Coverage Results** to do this. You can choose any combination of recent runs or imported results. If you want to combine exported results, you must import them first.
 
@@ -252,7 +252,7 @@ When you check in your code, your tests run on the build server along with tests
 
 To run tests from the command line, use *vstest.console.exe*. Code coverage is an option of the *vstest.console.exe* utility.
 
-1. Launch the Developer Command Prompt for Visual Stduio:
+1. Launch the Developer Command Prompt for Visual Studio:
 
    In the Windows **Start** menu, choose **Visual Studio 2017** > **Developer Command Prompt for VS 2017**.
 
@@ -266,7 +266,7 @@ For more information, see [VSTest.Console.exe command-line options](vstest-conso
 
 ## Troubleshoot
 
-If you do not see code coverage results, the [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md) topic might help you.
+If you do not see code coverage results, the [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md) article might help you.
 
 ## See also
 
