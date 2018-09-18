@@ -29,7 +29,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 </ItemGroup>  
 ```  
   
- The item *file2.cs* doesn't replace the item *file1.cs*; instead, the file name is appended to the list of values for the `Compile` item type. You can't remove an item from an item type during the evaluation phase of a build.  
+ The item *file2.cs* doesn't replace the item *file1.cs*; instead, the file name is appended to the list of values for the `Compile` item type.
   
  The following XML creates the same item type by declaring both files in one `Include` attribute. Notice that the file names are separated by a semicolon.  
   
@@ -174,7 +174,7 @@ For more information about wildcard characters, see [How to: Select the files to
  Starting in the .NET Framework 3.5, `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements. The attributes in this section are valid when they are specified for an item in an `ItemGroup` that's in a `Target`.  
   
 ###  <a name="BKMK_RemoveAttribute"></a> Remove attribute  
- Items in an `ItemGroup` of a target may contain the `Remove` attribute, which removes specific items (files) from the item type. This attribute was introduced in the .NET Framework 3.5.  
+ The `Remove` attribute removes specific items (files) from the item type. This attribute was introduced in the .NET Framework 3.5, but was only supported inside targets until MSBuild 15.0.
   
  The following example removes every *.config* file from the Compile item type.  
   
