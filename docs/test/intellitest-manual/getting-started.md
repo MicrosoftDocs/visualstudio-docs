@@ -1,14 +1,14 @@
 ---
-title: "Creating unit test method stubs with the Create Unit Tests command"
+title: "Introduction to IntelliTest"
 ms.date: 05/02/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IntelliTest, Get started"
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
