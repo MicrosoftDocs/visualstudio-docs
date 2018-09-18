@@ -431,7 +431,7 @@ You can analyze Coded UI tests using coded UI test logs. Coded UI test logs filt
 
 ## What's next?
 
-**Additional options for running coded UI tests:** You can run coded UI tests directly from Visual Studio, as described earlier in this topic. Additionally, you can run automated UI tests from Microsoft Test Manager, or from Team Foundation Build. When coded UI tests are automated, they have to interact with the desktop when you run them, unlike other automated tests.
+**Additional options for running coded UI tests:** You can run coded UI tests directly from Visual Studio, as described earlier in this topic. Additionally, you can run automated UI tests from Microsoft Test Manager, or using Azure Pipelines. When coded UI tests are automated, they have to interact with the desktop when you run them, unlike other automated tests.
 
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
 

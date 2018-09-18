@@ -246,20 +246,7 @@ You can exercise more control over which assemblies and elements are selected fo
 
 ## Analyze code coverage in Azure Pipelines
 
-When you check in your code, your tests will run on the build server along with tests from other team members. It's useful to analyze code coverage in Azure Pipelines to get the most up-to-date and comprehensive picture of coverage in the whole project. It also includes automated system tests and other coded tests that you don't usually run on the development machines. For more information, see [Run unit tests with your builds](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts).
-
-1. In **Team Explorer**, open **Builds**, and then add or edit a build definition.
-
-2. On the **Process** page, expand **Automated Tests** > **Test Source** > **Run Settings**. Set **Type of Run Settings File** to **Code Coverage Enabled**.
-
-   If you have more than one Test Source definition, repeat this step for each one.
-
-   ![Setting the build definition for code coverage](../test/media/codecoverage-plaincc.png)
-
-> [!TIP]
-> If there's no field named **Type of Run Settings File**, change the **Test Runner** property. Under **Automated Tests**, select **Test Assembly** and choose the ellipsis button **[...]** at the end of the line. In the **Add/Edit Test Run** dialog box, under **Test Runner**, choose **Visual Studio Test Runner**.
-
-After the build runs, the code coverage results are attached to the test run and appear in the build summary.
+When you check in your code, your tests run on the build server along with tests from other team members. It's useful to analyze code coverage in Azure Pipelines to get the most up-to-date and comprehensive picture of coverage in the whole project. It also includes automated system tests and other coded tests that you don't usually run on the development machines. For more information, see [Run unit tests with your builds](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts).
 
 ## Analyze code coverage from the command line
 

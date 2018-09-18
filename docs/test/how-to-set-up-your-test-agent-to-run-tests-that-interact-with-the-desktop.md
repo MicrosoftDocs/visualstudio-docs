@@ -26,11 +26,11 @@ If you are running coded UI tests that start a browser, the service account for 
 > [!IMPORTANT]
 > If you are running a coded UI test that starts a browser as part of a build definition, the service account for the build service is used to start that browser. This service account must be the same as the user account that is the active user on this computer. If it is not the same user account, the browser will not start.
 
- Use the following procedure to set up any agents that are assigned to a role that performs a task that needs to interact with the desktop.
+Use the following procedure to set up any agents that are assigned to a role that performs a task that needs to interact with the desktop.
 
 ## To set up an agent to run as a process
 
-1.  To configure the test agent you have installed to run as a process, go to **Start**, **All Programs**, **Microsoft Visual Studio**, **Microsoft Visual Studio Test Agent Configuration Tool**.
+1.  To configure the test agent you have installed to run as a process, go to **Start** > **Visual Studio** > **Microsoft Visual Studio Test Agent Configuration Tool**.
 
      The **Configure Test Agent** dialog box is displayed.
 
@@ -76,7 +76,7 @@ If you are running coded UI tests that start a browser, the service account for 
 9. To close the **Configuration summary** dialog box, choose **Close**. Then choose **Close** again to close the **Test Agent Configuration Tool**.
 
     > [!NOTE]
-    > There is a notification area icon that runs on the computer for a test agent that is running as a process. It shows the status of the test agent. You can start, stop or restart the agent if it is running as a process using this tool. To start the test agent as a process if it is not running, choose **Start**, **All Programs**, **Microsoft Visual Studio**, **Microsoft Visual Studio Test Agent**.
+    > There is a notification area icon that runs on the computer for a test agent that is running as a process. It shows the status of the test agent. You can start, stop or restart the agent if it is running as a process using this tool. To start the test agent as a process if it is not running, choose **Start** > **Visual Studio** > **Microsoft Visual Studio Test Agent**.
 
      If the test controller for this test agent is registered with Team Foundation Server, the status of a test agent that is running as an interactive process is displayed in the **Controllers** view in the **Lab Center** for Microsoft Test Manager. It is listed with a preceding asterisk symbol to denote that it is running as an interactive process. To restart this test agent you must use the tool that runs on the computer for the test agent and not the **Controllers** view.
 
