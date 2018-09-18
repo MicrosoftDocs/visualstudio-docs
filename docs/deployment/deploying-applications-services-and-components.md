@@ -5,12 +5,12 @@ ms.custom: "mvc"
 ms.date: 06/22/2018
 ms.technology: vs-ide-deployment
 ms.topic: "quickstart"
-dev_langs: 
+dev_langs:
   - "FSharp"
   - "VB"
   - "CSharp"
   - "C++"
-helpviewer_keywords: 
+helpviewer_keywords:
   - ".NET applications, deploying"
   - "components [Visual Studio], deploying"
   - "installers"
@@ -22,7 +22,7 @@ ms.assetid: 63fcdd5b-2e54-4210-9038-65bc23167725
 author: mikejo5000
 ms.author: mikejo
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 
@@ -40,7 +40,7 @@ Deployment to a local folder is typically used for testing, or to begin a staged
 
     ![Choose Publish](../deployment/media/quickstart-publish.png)
 
-- **Visual C++ runtime**: You can deploy the Visual C++ runtime using local deployment or static linking. For more information, see [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp). 
+- **Visual C++ runtime**: You can deploy the Visual C++ runtime using local deployment or static linking. For more information, see [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp).
 
 ## Publish to Azure
 
@@ -71,7 +71,7 @@ Deployment to a local folder is typically used for testing, or to begin a staged
 
     You can also deploy ASP.NET applications and services in a number of other ways. For more information, see [Deploying ASP.NET web applications and services](http://www.asp.net/aspnet/overview/deployment).
 
-- **Visual C++ runtime**: You can deploy the Visual C++ runtime using central deployment. For more information, see [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp). 
+- **Visual C++ runtime**: You can deploy the Visual C++ runtime using central deployment. For more information, see [Deploying Native Desktop Applications (Visual C++)](/cpp/ide/deploying-native-desktop-applications-visual-cpp).
 
 - **Windows desktop** You can publish a Windows desktop application to a web server or a network file share using ClickOnce deployment. Users can then install the application with a single click. For more information, see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) and [Deploy a native app using ClickOnce](/cpp/ide/clickonce-deployment-for-visual-cpp-applications).
 
@@ -109,7 +109,7 @@ You can enable more sophisticated development and testing by deploying your appl
 
 ## DevOps deployment
 
-In a team environment, you can use Azure Pipelines to enable continuous deployment of your app. For more information, see [Azure Pipelines](/azure/devops/pipelines/index) and [Deploy to Azure](/azure/devops/deploy-azure/index).
+In a team environment, you can use Azure Pipelines to enable continuous deployment of your app. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts) and [Deploy to Azure](/azure/devops/deploy-azure/index?view=vsts).
 
 ## Deployment for other app types
 
@@ -117,7 +117,7 @@ In a team environment, you can use Azure Pipelines to enable continuous deployme
 | --- | --- | --- |
 | **Office app** | You can publish an add-in for Office from Visual Studio. | [Deploy and publish your Office add-in](https://dev.office.com/docs/add-ins/publish/publish) |
 | **WCF or OData service**  | Other applications can use WCF RIA services that you deploy to a web server. | [Developing and deploying WCF Data Services](/dotnet/framework/data/wcf/developing-and-deploying-wcf-data-services) |
-| **LightSwitch** | LightSwitch is no longer supported in Visual Studio 2017, but can still be deployed from Visual Studio 2015 and earlier. | [Deploying LightSwitch Applications](https://msdn.microsoft.com/Library/4818d933-295c-4ecc-9148-7ad9ca28dcdb) | 
+| **LightSwitch** | LightSwitch is no longer supported in Visual Studio 2017, but can still be deployed from Visual Studio 2015 and earlier. | [Deploying LightSwitch Applications](https://msdn.microsoft.com/Library/4818d933-295c-4ecc-9148-7ad9ca28dcdb) |
 
 ## Next steps
 

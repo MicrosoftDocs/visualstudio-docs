@@ -1,5 +1,5 @@
 ---
-title: Working with Python Tutorial, Step 6, working with Git
+title: Working with Python Tutorial, Step 6, work with Git
 description: Step 6 of a core walkthrough of Python in Visual Studio, covering Visual Studio's Git-related features.
 ms.date: 06/26/2018
 ms.prod: visual-studio-dev15

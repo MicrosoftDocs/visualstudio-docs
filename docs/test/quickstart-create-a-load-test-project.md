@@ -53,7 +53,7 @@ In this section, we'll create a C# load test project. You can also create a Visu
 
    The **New Load Test Wizard** opens.
 
-1. Select the **On-premises Load Test** option, and then choose **Next**. You can learn more about cloud-based load testing [here](/azure/devops/test/load-test/get-started-simple-cloud-load-test).
+1. Select the **On-premises Load Test** option, and then choose **Next**. You can learn more about cloud-based load testing [here](/azure/devops/test/load-test/get-started-simple-cloud-load-test?view=vsts).
 
    ![New load test wizard - first page](media/load-test-wizard-page-1.png)
 

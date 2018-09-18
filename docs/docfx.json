@@ -97,6 +97,10 @@
       },
       "feedback_system": {
         "vs-2015/**/*": "None"
+      },
+      "searchScope": {
+        "extensibility/**/*.md": ["VS Extensibility"],
+        "vs-2015/extensibility/**/*.md": ["VS Extensibility"]
       }
     },
 

@@ -14,10 +14,15 @@ ms.assetid: e9789a2c-2540-42a1-8705-ae7104011194
 author: gewarren
 ms.author: gewarren
 manager: douge
+dev_langs:
+ - CPP
+ - CSharp
+ - VB
 ms.workload:
   - "multiple"
 ---
 # CA1034: Nested types should not be visible
+
 |||
 |-|-|
 |TypeName|NestedTypesShouldNotBeVisible|
@@ -26,9 +31,10 @@ ms.workload:
 |Breaking Change|Breaking|
 
 ## Cause
- An externally visible type contains an externally visible type declaration. Nested enumerations and protected types are exempt from this rule.
 
-## Rule Description
+An externally visible type contains an externally visible type declaration. Nested enumerations and protected types are exempt from this rule.
+
+## Rule description
  A nested type is a type declared within the scope of another type. Nested types are useful for encapsulating private implementation details of the containing type. Used for this purpose, nested types should not be externally visible.
 
  Do not use externally visible nested types for logical grouping or to avoid name collisions; instead, use namespaces.
@@ -37,10 +43,10 @@ ms.workload:
 
  Protected types can be used in subclasses and nested types in advance customization scenarios.
 
-## How to Fix Violations
+## How to fix violations
  If you do not intend the nested type to be externally visible, change the type's accessibility. Otherwise, remove the nested type from its parent. If the purpose of the nesting is to categorize the nested type, use a namespace to create the hierarchy instead.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.
 
 ## Example

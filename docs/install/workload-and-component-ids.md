@@ -5,7 +5,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: douge
-ms.date: 05/07/2018
+ms.date: 08/14/2018
 ms.topic: reference
 helpviewer_keywords:
   - "workload ID, Visual Studio"
@@ -19,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # Visual Studio 2017 workload and component IDs
+
+**Updated for the [15.8 release](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default)**
 
 Click the edition names in the following table to see the available workload and component IDs you need to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest.
 

@@ -28,11 +28,11 @@ ms.workload:
 ## Cause
  A resource file was built using a version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] that is not currently supported.
 
-## Rule Description
+## Rule description
  Resource files that were built by using pre-release versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] might not be usable by supported versions of the .NET Framework.
 
-## How to Fix Violations
+## How to fix violations
  To fix a violation of this rule, build the resource using a supported version of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]k.
 
-## When to Suppress Warnings
+## When to suppress warnings
  Do not suppress a warning from this rule.

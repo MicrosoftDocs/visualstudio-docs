@@ -113,7 +113,7 @@ A Choice is related to a Poll through the `poll` field, contains a description i
 
 The full list of field types is `CharField` (limited text) `TextField` (unlimited text), `EmailField`, `URLField`, `DateTimeField`, `IntegerField`, `DecimalField`, `BooleanField`, `ForeignKey`, and `ManyToMany`. Each field takes some attributes, like `max_length`. The `blank=True` attribute means the field is optional; `null=true` means that a value is optional. There is also a `choices` attribute that limits values to values in an array of data value/display value tuples. (See the [Model field reference](https://docs.djangoproject.com/en/2.0/ref/models/fields/) in the Django documentation.)
 
-You can confirm exactly what's stored in the database by examining the *db.sqlite3* file in the project using a tool like the [SQLite browser](http://sqlitebrowser.org/). In the database, you see that a foreign key field like `poll` in the Choice model is stored as `poll_id`; Django handles the mapping automatically.
+You can confirm exactly what's stored in the database by examining the *db.sqlite3* file in the project using a tool like the [SQLite browser](https://sqlitebrowser.org/). In the database, you see that a foreign key field like `poll` in the Choice model is stored as `poll_id`; Django handles the mapping automatically.
 
 In general, working with your database in Django means working exclusively through your models so that Django can manage the underlying database on your behalf.
 
@@ -149,7 +149,7 @@ def seed(request):
     return HttpResponseRedirect(reverse('app:home'))
 ```
 
-To see the effect, run the app first to see that no polls yet exist. Then visit the "/seed" URL, and when the app returns to the home page you should see that polls have become available. Again, feel free to examine the raw *db.sqlite3* file with a tool like the [SQLite browser](http://sqlitebrowser.org/).
+To see the effect, run the app first to see that no polls yet exist. Then visit the "/seed" URL, and when the app returns to the home page you should see that polls have become available. Again, feel free to examine the raw *db.sqlite3* file with a tool like the [SQLite browser](https://sqlitebrowser.org/).
 
 ![Polls Django Web Project app with a seeded database](media/django/step06-app-with-seeded-database.png)
 

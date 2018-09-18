@@ -28,11 +28,11 @@ ms.workload:
 ## Cause
  A timer has an interval set to occur more than one time per second.
 
-## Rule Description
+## Rule description
  Do not poll more often than one time per second or use timers that occur more frequently than one time per second. Higher-frequency periodic activity will keep the CPU busy and interfere with power-saving idle timers that turn off the display and hard disks.
 
-## How to Fix Violations
+## How to fix violations
  Set timer intervals to occur less than one time per second.
 
-## When to Suppress Warnings
+## When to suppress warnings
  This rule should be suppressed only if firing the timer more than one time per second is required and mobility considerations can safely be ignored.

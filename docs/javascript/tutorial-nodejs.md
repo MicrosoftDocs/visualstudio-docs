@@ -79,7 +79,7 @@ In this tutorial, you begin with a simple project containing code for a Node.js 
 
     (3) The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box or install and update packages using the settings in *package.json* and right-click options in the npm node.
 
-    (4) *package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages.
+    (4) *package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages. For more information on this file, see [package.json configuration](../javascript/configure-packages-with-package-json.md)
 
     (5) Project files such as *app.js* show up under the project node. *app.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
 
@@ -189,6 +189,8 @@ You're next going to run the app with the Visual Studio debugger attached. Befor
 1. Select the debug target in the Debug toolbar.
 
     ![Select the debug target](../javascript/media/tutorial-nodejs-deploy-target.png)
+
+    To add a different browser target, such as Chrome, select **Browse With**.
 
 1. Press **F5** (**Debug** > **Start Debugging**) to run the application.
 
