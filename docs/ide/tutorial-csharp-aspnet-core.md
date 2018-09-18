@@ -2,7 +2,7 @@
 title: "Get started with C# and ASP.NET Core in Visual Studio"
 description: "Learn how to create an ASP.NET Core web app in Visual Studio with C#, step-by-step."
 ms.custom: ""
-ms.date: 09/13/2018
+ms.date: 09/17/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -93,66 +93,79 @@ This solution follows the **Razor Page** design pattern. It is different than th
 
      ![View the About.cshtml file in the Visual Studio code window](../ide/media/csharp-aspnet-razor-aboutcshtmlcs-mycoreapp-code.png)
 
- 1. The project also contains a **wwwroot** folder that is the root for your website. Expand the folder to view its contents.
+ 1. The project contains a **wwwroot** folder that is the root for your website. Expand the folder to view its contents.
 
-     ![wwwroot folder in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-wwwroot.png)
+     ![wwwroot folder in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-razor-solution-explorer-wwwroot.png)
 
     You can put static site content&mdash;such as CSS, images, and JavaScript libraries&mdash;directly in the paths where you want them.
 
- 1. There are several configuration files that manage the project, its packages, and the app at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in *appsettings.json*. However, you can override these settings by using *appsettings.Development.json*. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
+ 1. The project also contains configuration files that manage the web app at runtime. The default application [configuration](/aspnet/core/fundamentals/configuration) is stored in *appsettings.json*. However, you can override these settings by using *appsettings.Development.json*. Expand the **appsettings.json** file to view the **appsettings.Development.json** file.
 
-     ![Configuration files in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-config-files.png)
+     ![Configuration files in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-razor-solution-explorer-appsettingsjson.png)
 
 ## Run, debug, and make changes
 
 1. Choose the **IIS Express** button in the IDE to build and run the app in Debug mode. (Alternatively, press **F5**, or choose **Debug > Start Debugging** from the menu bar.)
 
-     ![Select the IIS Express button in Visual Studio](../ide/media/csharp-aspnet-iis-express-button.png)
+     ![Select the IIS Express button in Visual Studio](../ide/media/csharp-aspnet-razor-iisexpress.png)
 
      > [!NOTE]
      > If you get an error message that says **Unable to connect to web server 'IIS Express'**, close Visual Studio and then open it by using the **Run as administrator** option from the right-click or context menu. Then, run the application again.
 
-1. Visual Studio launches a browser window. Select **About**.
+1. Visual Studio launches a browser window. You should then see **Home**, **About**, and **Contact** pages in the menu bar. (If you do not, choose the "hamburger" menu item to view them.)
 
-   ![Select About in the browser window for your app](../ide/media/csharp-aspnet-browser-page.png)
+    ![Select the "hamburger" menu item from the menu bar in your web app](../ide/media/csharp-aspnet-razor-browser-page.png)
 
-   Among other things, the **About** page in the browser renders the text that is set in the *HomeController.cs* file.
+1. Choose **About** from the menu bar.
+
+   ![Select About in the browser window's menu bar for your app](../ide/media/csharp-aspnet-razor-browser-page-about-menu.png)
+
+   Among other things, the **About** page in the browser renders the text that is set in the *About.cshtml* file.
 
    ![View the text on the About page](../ide/media/csharp-aspnet-browser-page-about.png)
 
-1. Keep the browser window open and return to Visual Studio. Open *Controllers/HomeController.cs* if it's not already open.
+1. Keep the browser window open and return to Visual Studio.
 
-   ![Open the HomeController.cs file from the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-solution-explorer-home-controller.png)
+1. In Visual Studio, choose *About.cshtml*. Then, delete the word _changed_ and in its place, add the words _file and directory_.
 
-1. Set a breakpoint in the first line of the **About** method. To do this, click in the margin or set the cursor on the line and press **F9**.
+    ![Change the text in the About.cshtml file](../ide/media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code-changed.png)
 
-   This line sets some data in the **ViewData** collection that is rendered in the CSHTML page at *Views/Home/About.cshtml*.
+1. Choose **About.cshtml.cs**. Then, clean up the `using` directives at the top of the file by using a simple shortcut.
 
-   ![Set a breakpoint in the first line of the About method in About.cshtml.  ](../ide/media/csharp-aspnet-home-controller-code-set-breakpoint.png)
+   Choose any of the grayed-out `using` directives and a [Quick Actions](../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Choose the light bulb, and then choose **Remove Unnecessary Usings**.
 
-1. Return to the browser and refresh the **About** page. This will trigger the breakpoint in Visual Studio.
+   ![Remove unnecessary Usings in the About.cshtml.cs file](../ide/media/csharp-aspnet-razor-remove-unnecessary-usings.png)
 
-1. In Visual Studio, mouse over the **ViewData** member to view its data.
+     The unnecessary `using` directives are deleted from the file.
 
-   ![View the ViewData member of the About method to see more info](../ide/media/csharp-aspnet-home-controller-view-breakpoint-info.png)
+1. Next, in the `OnGet()` method, change the body to the following code:
 
-1. Remove the application breakpoint using the same method you used to add it.
+     ```csharp
+     public void OnGet()
+     {
+         string directory = Environment.CurrentDirectory;
+     Message = String.Format("Your directory is {0}.", directory);
+     }
+    ```
+1. You'll see two wavy underlines appear under **Environment** and **String**, because these types are not in scope.
 
-1. Open *Views/Home/About.cshtml*.
+   ![Errors marked with wavy underlines in OnGet method](../ide/media/csharp-aspnet-razor-add-new-on-get-method.png)
 
-   ![Select About.cshtml in the Solution Explorer](../ide/media/csharp-aspnet-solution-explorer-view-about.png)
+    Open the **Error List** toolbar to see the same errors listed there. (If you don't see the **Error List** toolbar, choose **View** > **Error List** from the top menu bar.)
 
-1. Change the text **"additional"** to **"changed"** and save the file.
+   ![Error List in Visual Studio](../ide/media/csharp-aspnet-razor-error-list.png)
 
-   ![Change the text that reads "additional" to text that reads "changed"](../ide/media/csharp-aspnet-about-cshtml-code-change.png)
+1. Let's fix this. In the code editor window, place your cursor on either line that contains the error, then choose the Quick Actions light bulb in the left margin. Then, from the drop-down menu, choose **using System;** to add this directive to the top of your file and resolve the errors.
 
-1. Return to the browser window to see the updated text. (Refresh the browser if you don't see the text that you changed.)
+   ![Add the "using System;" directive](../ide/media/csharp-aspnet-razor-add-usings.png)
 
-    ![Refresh the browser window to see your changed text](../ide/media/csharp-aspnet-browser-page-about-changed.png)
+1. Press **Ctrl**+**F5** to run the application and open it in a web browser.
 
-1. Choose the **Stop Debugging** button from the toolbar to stop debugging. (Alternatively, press **Shift**+**F5**, or choose **Debug** > **Stop Debugging** from the menu bar.)
+1. At the top of the web site, choose **About** to see both the text you changed in the _About.cshtml_ file and the directory message you that you added to the `OnGet()` method in the _About.cshtml_ file.
 
-   ![Select the Stop Debugging button on the toolbar](../ide/media/csharp-aspnet-stop-debugging.png)
+   ![View the updated About page that includes the changes you made](../ide/media/csharp-aspnet-razor-browser-page-about-changed.png)
+
+1. Close the web browser, and then close Visual Studio.
 
 ## Quick answers FAQ
 
