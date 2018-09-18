@@ -1,6 +1,6 @@
 ---
-title: "Configure a Visual Studio Test Agent to Run Tests that Interact with the Desktop"
-ms.date: 10/20/2016
+title: Configure a test agent
+ms.date: 09/18/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "agents, configuring for interaction with desktop"
