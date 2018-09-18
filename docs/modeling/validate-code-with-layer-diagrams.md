@@ -174,31 +174,32 @@ In this release of Visual Studio, dependency validation occurs in real time, and
 |Hide all suppressed errors from the **Error List** window|Right-click anywhere in the **Error List** window, point to **Manage Validation Errors**, and then click **Hide All Suppressed Errors**.|
 
 ##  <a name="ValidateAuto"></a> Validate code automatically
- You can perform layer validation every time that you run a local build. If your team uses Azure Pipelines, you can perform layer validation with gated check-ins, which you can specify by creating a custom MSBuild task, and use build reports to collect validation errors. To create gated check-in builds, see [Use a gated check-in build process to validate changes](http://msdn.microsoft.com/Library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec).
+
+You can perform layer validation every time that you run a local build. If your team uses Azure DevOps, you can perform layer validation with gated check-ins, which you can specify by creating a custom MSBuild task, and use build reports to collect validation errors. To create gated check-in builds, see [Use a gated check-in build process to validate changes](http://msdn.microsoft.com/Library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec).
 
 #### To validate code automatically during a local build
 
--   Use a text editor to open the modeling project (.modelproj) file, and then include the following property:
+Use a text editor to open the modeling project (.modelproj) file, and then include the following property:
 
 ```xml
 <ValidateArchitecture>true</ValidateArchitecture>
 ```
 
- \- or -
+\- or -
 
 1.  In **Solution Explorer**, right-click the modeling project that contains the dependency diagram or diagrams, and then click **Properties**.
 
 2.  In the **Properties** window, set the modeling project's **Validate Architecture** property to **True**.
 
-     This includes the modeling project in the validation process.
+    This includes the modeling project in the validation process.
 
 3.  In **Solution Explorer**, click the dependency diagram  (.layerdiagram) file that you want to use for validation.
 
 4.  In the **Properties** window, make sure that the diagram's **Build Action** property is set to **Validate**.
 
-     This includes the dependency diagram  in the validation process.
+    This includes the dependency diagram  in the validation process.
 
- To manage errors in the Error List window, see [Manage Validation Errors](#ManageErrors).
+To manage errors in the Error List window, see [Manage Validation Errors](#ManageErrors).
 
 ##  <a name="TroubleshootingValidation"></a> Troubleshoot layer validation issues
  The following table describes layer validation issues and their resolution. These issues differ from errors that result from conflicts between the code and the design. For more information about these errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).
