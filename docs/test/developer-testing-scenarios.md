@@ -18,8 +18,7 @@ Maintain code health with unit testing. Visual Studio provides a wide range of p
 
 ## Avoid regressions and achieve code coverage with IntelliTest
 
-In traditional unit test suites, each test case represents an exemplary usage scenario, and the assertions embody the relationship between the input and output.  Verifying a few such scenarios
-might well be enough, but experienced developers know that bugs lurk even in well-tested code, when correct but untested inputs provoke wrong responses.
+In traditional unit test suites, each test case represents an exemplary usage scenario, and the assertions embody the relationship between the input and output.  Verifying a few such scenarios might well be enough, but experienced developers know that bugs lurk even in well-tested code, when correct but untested inputs provoke wrong responses.
 
 Improve coverage, and avoid regressions with IntelliTest. IntelliTest dramatically reduces the effort to create and maintain unit tests for new or existing code.
 
