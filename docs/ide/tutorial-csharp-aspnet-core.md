@@ -159,13 +159,13 @@ This solution follows the **Razor Page** design pattern. It is different than th
 
    ![Add the "using System;" directive](../ide/media/csharp-aspnet-razor-add-usings.png)
 
-1. Press **Ctrl**+**F5** to run the application and open it in a web browser.
+1. Press **Ctrl**+**S** to save your changes and refresh your app in the web browser.
 
-1. At the top of the web site, choose **About** to see both the text you changed in the **About.cshtml** file and the directory message you that you added to the `OnGet()` method in the _About.cshtml_ file.
+1. At the top of the web site, choose **About** to view your changes. You should see both the text you changed in the **About.cshtml** file and the directory message you that you added to the `OnGet()` method in the _About.cshtml_ file.
 
    ![View the updated About page that includes the changes you made](../ide/media/csharp-aspnet-razor-browser-page-about-changed.png)
 
-1. Close the web browser, and then close Visual Studio.
+1. Close the web browser, press **Shift**+**F5** to stop debugging, and then close Visual Studio.
 
 ## Quick answers FAQ
 
