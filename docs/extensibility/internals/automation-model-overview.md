@@ -38,7 +38,7 @@ The automation model consists of a set of objects against which you can write a 
 -   Build  
 
   
-For more information on automation, see [Automation and extensibility for Visual Studio](../extensibility-in-visual-studio). This document and the documents it provides links to, help you make decisions regarding how you should provide automation for your VSPackage.  
+For more information on automation, see [Automation and extensibility for Visual Studio](../extensibility-in-visual-studio.md). This document and the documents it provides links to, help you make decisions regarding how you should provide automation for your VSPackage.  
   
 ## See also  
  [How to: Create an add-in](https://msdn.microsoft.com/Library/50be56d2-e3a5-4cd2-8569-2a0666b268ce)

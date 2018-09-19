@@ -656,7 +656,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
  Check [http://github.com/Microsoft/VSSDK-Extensibility-Samples](http://github.com/Microsoft/VSSDK-Extensibility-Samples) for the latest samples.  
   
 ### Tooling  
- A set of support tools for the Image Service was created to aid in creating/updating UI that works with the Image Service. For more information about each tool, check the documentation that comes with the tools. The tools are included as part of the [Visual Studio 2015 SDK.](/visualstudio/extensibility/visual-studio-sdk)  
+ A set of support tools for the Image Service was created to aid in creating/updating UI that works with the Image Service. For more information about each tool, check the documentation that comes with the tools. The tools are included as part of the [Visual Studio 2015 SDK](visual-studio-sdk.md).
   
  **ManifestFromResources**  
   
