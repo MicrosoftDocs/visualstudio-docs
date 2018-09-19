@@ -1,5 +1,5 @@
 ---
-title: How to buy Visual Studio Enterprise and Visual Studio Professional cloud subscriptions
+title: How to purchase Visual Studio cloud subscriptions
 author: evanwindom
 ms.author: jaunger
 manager: evelynp
