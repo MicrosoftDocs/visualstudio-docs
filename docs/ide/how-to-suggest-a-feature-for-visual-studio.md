@@ -8,10 +8,10 @@ UserVoice site is now read only and new suggestions can only be added only on De
 Statuses and their meanings
 Statuses indicate where the feedback currently is in its lifecycle. Taking action on an item moves it along the workflow, and automatically tags the item with a new status. The statuses associated with Suggestions are listed below, with a description of their meaning and color indicators.
 
-![New](../ide/media/SuggestStates/new.jpg)
+![New](../ide/media/SuggestStates/New.jpg)
 <br>This is a newly reported suggestion. No action has been taken on it yet. The front-line support will do some preliminary checks to make sure we can proceed further.  You should hear from us within 5 business days on our next steps. 
 
- ![Under Review](../ide/media/SuggestStates/underreview.jpg)
+ ![Under Review](../ide/media/SuggestStates/UnderReview.jpg)
 <br>This status indicates that your suggestion has been queued up for prioritization.  Feature suggestions are prioritized based on the value to our broader developer community and the product roadmap. We may not be able to pursue this one immediately, but we will continue to monitor it up to 90 days for community input
 
 ![On Roadmap](../ide/media/SuggestStates/OnRoadmap.jpg)
