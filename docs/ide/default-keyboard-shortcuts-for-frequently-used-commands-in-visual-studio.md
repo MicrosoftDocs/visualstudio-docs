@@ -144,7 +144,7 @@ You can access frequently used commands in Visual Studio by choosing these defau
 |View.ObjectBrowser|**Ctrl+Alt+J** [Global]|
 |View.Output|**Ctrl+Alt+O** [Global]|
 |View.PropertiesWindow|**F4**|
-|View.Refresh|**F5** [Team Explorer, Team Foundation Build Detail Editor]|
+|View.Refresh|**F5** [Team Explorer]|
 |View.ServerExplorer|**Ctrl+Alt+S** [Global]|
 |View.ShowSmartTag|**Ctrl+.** [Global]<br /><br /> or **Shift+Alt+F10** [Global, HTML Editor Design View]|
 |View.SolutionExplorer|**Ctrl+Alt+L** [Global]|

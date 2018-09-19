@@ -46,16 +46,14 @@ To make sure that code doesn't conflict with its design, validate your code with
 
 -   Visual Studio
 
--   Visual Studio on your Team Foundation Build server to validate code automatically with Team Foundation Build
-
 -   A solution that has a modeling project with a dependency diagram. This dependency diagram  must be linked to artifacts in C# or Visual Basic projects that you want to validate. See [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md).
 
- To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
- You can validate code manually from an open dependency diagram  in Visual Studio or from a command prompt. You can also validate code automatically when running local builds or Team Foundation Build. See [Channel 9 Video: Design and validate your architecture using dependency diagrams](http://go.microsoft.com/fwlink/?LinkID=252073).
+You can validate code manually from an open dependency diagram in Visual Studio or from a command prompt. You can also validate code automatically when running local builds or Azure Pipelines builds. See [Channel 9 Video: Design and validate your architecture using dependency diagrams](http://go.microsoft.com/fwlink/?LinkID=252073).
 
 > [!IMPORTANT]
->  If you want to run layer validation with Team Foundation Build, you must also install the same version of Visual Studio on your build server.
+> If you want to run layer validation using Team Foundation Server, you must also install the same version of Visual Studio on your build server.
 
 -   [See if an item supports validation](#SupportsValidation)
 
@@ -71,8 +69,7 @@ To make sure that code doesn't conflict with its design, validate your code with
 
 ## Live dependency validation
 
-In this release of Visual Studio, dependency validation occurs in real time, and errors
-are shown immediately in the Visual Studio Error List window.
+In this release of Visual Studio, dependency validation occurs in real time, and errors are shown immediately in the Visual Studio Error List window.
 
 * Live validation is supported for C# and Visual Basic.NET.
 
@@ -177,51 +174,32 @@ are shown immediately in the Visual Studio Error List window.
 |Hide all suppressed errors from the **Error List** window|Right-click anywhere in the **Error List** window, point to **Manage Validation Errors**, and then click **Hide All Suppressed Errors**.|
 
 ##  <a name="ValidateAuto"></a> Validate code automatically
- You can perform layer validation every time that you run a local build. If your team uses Team Foundation Build, you can perform layer validation with gated check-ins, which you can specify by creating a custom MSBuild task, and use build reports to collect validation errors. To create gated check-in builds, see [Use a gated check-in build process to validate changes](http://msdn.microsoft.com/Library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec).
+
+You can perform layer validation every time that you run a local build. If your team uses Azure DevOps, you can perform layer validation with gated check-ins, which you can specify by creating a custom MSBuild task, and use build reports to collect validation errors. To create gated check-in builds, see [Use a gated check-in build process to validate changes](http://msdn.microsoft.com/Library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec).
 
 #### To validate code automatically during a local build
 
--   Use a text editor to open the modeling project (.modelproj) file, and then include the following property:
+Use a text editor to open the modeling project (.modelproj) file, and then include the following property:
 
 ```xml
 <ValidateArchitecture>true</ValidateArchitecture>
 ```
 
- \- or -
+\- or -
 
 1.  In **Solution Explorer**, right-click the modeling project that contains the dependency diagram or diagrams, and then click **Properties**.
 
 2.  In the **Properties** window, set the modeling project's **Validate Architecture** property to **True**.
 
-     This includes the modeling project in the validation process.
+    This includes the modeling project in the validation process.
 
 3.  In **Solution Explorer**, click the dependency diagram  (.layerdiagram) file that you want to use for validation.
 
 4.  In the **Properties** window, make sure that the diagram's **Build Action** property is set to **Validate**.
 
-     This includes the dependency diagram  in the validation process.
+    This includes the dependency diagram  in the validation process.
 
- To manage errors in the Error List window, see [Manage Validation Errors](#ManageErrors).
-
-#### To validate code automatically during a Team Foundation Build
-
-1.  In **Team Explorer**, double-click the build definition, and then click **Process**.
-
-2.  Under **Build process parameters**, expand **Compilation**, and type the following in the **MSBuild Arguments** parameter:
-
-     `/p:ValidateArchitecture=true`
-
- For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors). For more information about [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)], see:
-
--   [Azure Pipelines](/azure/devops/pipelines/index?view=vsts)
-
--   [Use the Default Template for your build process](http://msdn.microsoft.com/Library/43930b12-c21b-4599-a980-2995e3d16e31)
-
--   [Modify a Legacy Build that is Based on UpgradeTemplate.xaml](http://msdn.microsoft.com/Library/ee1a8259-1dd1-4a10-9563-66c5446ef41c)
-
--   [Customize your build process template](http://msdn.microsoft.com/Library/b94c58f2-ae6f-4245-bedb-82cd114f6039)
-
--   [Monitor Progress of a Running Build](http://msdn.microsoft.com/Library/e51e3bad-2d1d-4b7b-bfcc-c43439c6c8ef)
+To manage errors in the Error List window, see [Manage Validation Errors](#ManageErrors).
 
 ##  <a name="TroubleshootingValidation"></a> Troubleshoot layer validation issues
  The following table describes layer validation issues and their resolution. These issues differ from errors that result from conflicts between the code and the design. For more information about these errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).

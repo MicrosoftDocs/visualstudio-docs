@@ -757,12 +757,6 @@ The sections in the following table include commands that are global in that you
 |TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI|**Shift+Alt+L**|
 |View.Refresh|**F5**|
 
-##  Team Foundation Build Detail Editor
-
-|Command|Keyboard shortcut|
-|-------------|-----------------------|
-|View.Refresh|**F5**|
-
 ##  Test Explorer
 
 |Command|Keyboard shortcut|
