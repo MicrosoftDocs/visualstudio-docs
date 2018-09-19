@@ -81,17 +81,17 @@ This solution follows the **Razor Page** design pattern. It is different than th
 
      ![The About.cshtml file in the Solution Explorer in Visual Studio](../ide/media/csharp-aspnet-razor-solution-explorer-aboutcshtml.png)
 
- 1. View the *About.cshtml* file in the code window.
+ 1. View the **About.cshtml** file in the code editor.
 
-     ![View the About.cshtml file in the Visual Studio code window](../ide/media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code.png)
+     ![View the About.cshtml file in the Visual Studio code editor](../ide/media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code.png)
 
- 1. Choose the *About.cshtml.cs* file.
+ 1. Choose the **About.cshtml.cs** file.
 
-     ![Choose the About.cshtml.cs file in the Visual Studio code window](../ide/media/csharp-aspnet-razor-solution-explorer-aboutcshtmlcs.png)
+     ![Choose the About.cshtml.cs file in the Visual Studio code editor](../ide/media/csharp-aspnet-razor-solution-explorer-aboutcshtmlcs.png)
 
- 1. View the *About.cshtml.cs* file in the code window.
+ 1. View the **About.cshtml.cs** file in the code editor.
 
-     ![View the About.cshtml file in the Visual Studio code window](../ide/media/csharp-aspnet-razor-aboutcshtmlcs-mycoreapp-code.png)
+     ![View the About.cshtml file in the Visual Studio code editor](../ide/media/csharp-aspnet-razor-aboutcshtmlcs-mycoreapp-code.png)
 
  1. The project contains a **wwwroot** folder that is the root for your website. Expand the folder to view its contents.
 
@@ -105,7 +105,7 @@ This solution follows the **Razor Page** design pattern. It is different than th
 
 ## Run, debug, and make changes
 
-1. Choose the **IIS Express** button in the IDE to build and run the app in Debug mode. (Alternatively, press **F5**, or choose **Debug > Start Debugging** from the menu bar.)
+1. Choose the **IIS Express** button in the IDE to build and run the app in Debug mode. (Alternatively, press **F5**, or choose **Debug** > **Start Debugging** from the menu bar.)
 
      ![Select the IIS Express button in Visual Studio](../ide/media/csharp-aspnet-razor-iisexpress.png)
 
@@ -122,21 +122,21 @@ This solution follows the **Razor Page** design pattern. It is different than th
 
    Among other things, the **About** page in the browser renders the text that is set in the *About.cshtml* file.
 
-   ![View the text on the About page](../ide/media/csharp-aspnet-browser-page-about.png)
+   ![View the text on the About page](../ide/media/csharp-aspnet-razor-browser-page-about.png)
 
 1. Keep the browser window open and return to Visual Studio.
 
-1. In Visual Studio, choose *About.cshtml*. Then, delete the word _changed_ and in its place, add the words _file and directory_.
+1. In Visual Studio, choose **About.cshtml**. Then, delete the word _changed_ and in its place, add the words _file and directory_.
 
     ![Change the text in the About.cshtml file](../ide/media/csharp-aspnet-razor-aboutcshtml-mycoreapp-code-changed.png)
 
-1. Choose **About.cshtml.cs**. Then, clean up the `using` directives at the top of the file by using a simple shortcut.
+1. Choose **About.cshtml.cs**. Then, clean up the `using` directives at the top of the file by using the following shortcut:
 
    Choose any of the grayed-out `using` directives and a [Quick Actions](../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Choose the light bulb, and then choose **Remove Unnecessary Usings**.
 
    ![Remove unnecessary Usings in the About.cshtml.cs file](../ide/media/csharp-aspnet-razor-remove-unnecessary-usings.png)
 
-     The unnecessary `using` directives are deleted from the file.
+     Visual Studio deletes the unnecessary `using` directives from the file.
 
 1. Next, in the `OnGet()` method, change the body to the following code:
 
@@ -147,7 +147,7 @@ This solution follows the **Razor Page** design pattern. It is different than th
      Message = String.Format("Your directory is {0}.", directory);
      }
     ```
-1. You'll see two wavy underlines appear under **Environment** and **String**, because these types are not in scope.
+1. Notice that two wavy underlines appear under **Environment** and **String**. The wavy underlines appear because these types are not in scope.
 
    ![Errors marked with wavy underlines in OnGet method](../ide/media/csharp-aspnet-razor-add-new-on-get-method.png)
 
@@ -155,13 +155,13 @@ This solution follows the **Razor Page** design pattern. It is different than th
 
    ![Error List in Visual Studio](../ide/media/csharp-aspnet-razor-error-list.png)
 
-1. Let's fix this. In the code editor window, place your cursor on either line that contains the error, then choose the Quick Actions light bulb in the left margin. Then, from the drop-down menu, choose **using System;** to add this directive to the top of your file and resolve the errors.
+1. Let's fix this. In the code editor, place your cursor on either line that contains the error, and then choose the Quick Actions light bulb in the left margin. Then, from the drop-down menu, choose **using System;** to add this directive to the top of your file and resolve the errors.
 
    ![Add the "using System;" directive](../ide/media/csharp-aspnet-razor-add-usings.png)
 
 1. Press **Ctrl**+**F5** to run the application and open it in a web browser.
 
-1. At the top of the web site, choose **About** to see both the text you changed in the _About.cshtml_ file and the directory message you that you added to the `OnGet()` method in the _About.cshtml_ file.
+1. At the top of the web site, choose **About** to see both the text you changed in the **About.cshtml** file and the directory message you that you added to the `OnGet()` method in the _About.cshtml_ file.
 
    ![View the updated About page that includes the changes you made](../ide/media/csharp-aspnet-razor-browser-page-about-changed.png)
 
