@@ -1035,7 +1035,7 @@
   - name: Release notes & system requirements
     items:
     - name: Current release notes
-      href: /visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default?contextView=vs-2017
+      href: /visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017
     - name: Preview release notes
       href: /visualstudio/releasenotes/vs2017-preview-relnotes?context=visualstudio/default
     - name: Release notes history
