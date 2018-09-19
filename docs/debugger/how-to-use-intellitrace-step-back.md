@@ -2,7 +2,7 @@
 title: "View a snapshot using IntelliTrace step-back"
 ms.description: "Learn how to take snapshots, and view snapshots with IntelliTrace step-back"
 ms.custom: "mvc"
-ms.date: "05/01/2018"
+ms.date: "09/19/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "tutorial"
 ms.assetid: 7c60d929-d993-49dc-9db3-43b30be9912b
@@ -16,7 +16,7 @@ ms.workload:
 
 IntelliTrace step-back automatically takes a snapshot of your application at every breakpoint and debugger step event. The recorded snapshots enable you to go back to previous breakpoints or steps and view the state of the application as it was in the past. IntelliTrace step-back can save you time when you want to see the previous application state but don't want to restart debugging or recreate the desired app state.
 
-IntelliTrace step-back is available starting in Visual Studio Enterprise 2017 version 15.5 and higher, and it requires Windows 10 Anniversary Update or above. The feature is currently supported for debugging ASP.NET, WinForms, WPF, managed console apps, and managed class libraries. Starting with Visual Studio 2017 Enterprise version 15.7 preview 1, the feature is also supported for ASP.NET Core and .NET Core. Debugging UWP applications is not currently supported.
+IntelliTrace step-back is available starting in Visual Studio Enterprise 2017 version 15.5 and higher, and it requires Windows 10 Anniversary Update or above. The feature is currently supported for debugging ASP.NET, WinForms, WPF, managed console apps, and managed class libraries. Starting with Visual Studio 2017 Enterprise version 15.7, the feature is also supported for ASP.NET Core and .NET Core. Starting with Visual Studio 2017 Enterprise version 15.9 Preview 2, the feature is also supported for native apps targeting Windows. Debugging UWP applications is not currently supported.
 
 In this tutorial, you will:
 
@@ -31,6 +31,8 @@ In this tutorial, you will:
 
 1. Open **Tools** > **Options** > **IntelliTrace** settings, and select the option **IntelliTrace events and snapshots**. 
 
+    Starting in Visual Studio 2017 Enterprise version 15.9 Preview 2, this option is **IntelliTrace snapshots (managed and native)**. 
+
     ![Enable IntelliTrace Events and Snapshots mode](../debugger/media/intellitrace-enable-snapshots.png "Enable IntelliTrace Events and Snapshots mode")
 
 1. If you want to configure options for viewing snapshots on exceptions, choose **IntelliTrace** > **Advanced** from the **Options** dialog box.
@@ -42,7 +44,7 @@ In this tutorial, you will:
     When you enable events and snapshots, taking snapshots on exceptions is also enabled by default. You can disable snapshots on exceptions by deselecting **Collect snapshots on exception events**. When this feature is enabled, snapshots are taken for unhandled exceptions. For handled exceptions, snapshots are taken only if the exception is thrown and if it is not a re-throw of an previously-thrown exception. You can set a maximum number of snapshots on exceptions by selecting a value from the drop-down list. The maximum applies for each time that your app enters break mode (such as when your app hits a breakpoint).
 
     > [!NOTE]
-    > Snapshots are taken only for exception events that IntelliTrace records. You can specify what events IntelliTrace records by selecting **Tools** > **Options** > **IntelliTrace Events**.
+    > Snapshots are taken only for exception events that IntelliTrace records. For managed code, you can specify what events IntelliTrace records by selecting **Tools** > **Options** > **IntelliTrace Events**.
 
 1. In your project, set one or more breakpoints and start debugging (press **F5**), or start debugging by stepping through your code (**F10** or **F11**).
 
