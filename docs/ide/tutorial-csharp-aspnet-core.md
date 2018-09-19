@@ -161,11 +161,11 @@ This solution follows the **Razor Page** design pattern. It is different than th
 
 1. Press **Ctrl**+**S** to save your changes and refresh your app in the web browser.
 
-1. At the top of the web site, choose **About** to view your changes. You should see both the text you changed in the **About.cshtml** file and the directory message you that you added to the `OnGet()` method in the _About.cshtml_ file.
+1. At the top of the web site, choose **About** to view your changes.
 
    ![View the updated About page that includes the changes you made](../ide/media/csharp-aspnet-razor-browser-page-about-changed.png)
 
-1. Close the web browser, press **Shift**+**F5** to stop debugging, and then close Visual Studio.
+1. Close the web browser, press **Shift**+**F5** to stop Debug mode, and then close Visual Studio.
 
 ## Quick answers FAQ
 
