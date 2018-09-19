@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "EditorConfig coding conventions"
   - "language conventions [EditorConfig]"
   - "formatting conventions [EditorConfig]"
-author: gewarren
+author: kuhlenh
 ms.author: gewarren
 manager: douge
 ms.prod: visual-studio-dev15
