@@ -127,7 +127,7 @@ Describe your app's architecture at a high level by creating *dependency diagram
     -   Select one or more layers or dependencies, right-click, and then click **Properties**. In the **Properties** window, edit the **Color** property.
 
 ##  <a name="Validate"></a> Validate the code against the diagram
- When you have edited the diagram, you can validate it against the code manually at any time or automatically every time that you run a local build or [!INCLUDE[esprbuild](../misc/includes/esprbuild_md.md)].
+ When you have edited the diagram, you can validate it against the code manually at any time or automatically every time that you build.
 
  See:
 
@@ -145,7 +145,7 @@ Describe your app's architecture at a high level by creating *dependency diagram
  To resolve these errors, update the code until no more errors appear during validation. This is usually an iterative process. For more information about these errors, see [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md).
 
 > [!NOTE]
->  As you develop or refactor the code, you might have new artifacts to link to the dependency diagram. However, this might not be necessary, for example, when you have layers that represent existing namespaces, and the new code only adds more material to those namespaces.
+> As you develop or refactor the code, you might have new artifacts to link to the dependency diagram. However, this might not be necessary, for example, when you have layers that represent existing namespaces, and the new code only adds more material to those namespaces.
 
  During the development process, you might want to suppress some of the reported conflicts during validation. For example, you might want to suppress errors that you are already addressing or that are not relevant to your particular scenario. When you suppress an error, it is a good practice to log a work item in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. To perform this task, see [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md).
 
