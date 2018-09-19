@@ -1,16 +1,16 @@
 ---
-title: "Get started with unit testing in Visual Studio"
+title: Get started with unit testing
 ms.date: 05/02/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "unit testing, create unit test plans"
+author: gewarren
 ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
-author: gewarren
 ---
 # Get started with unit testing
 
@@ -97,9 +97,7 @@ Use **Test Explorer** to run unit tests from Visual Studio or third-party unit t
 
 ## Use code coverage to determine how much code is being tested
 
-To determine what proportion of your project's code is actually being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To guard effectively against bugs, your tests should exercise or 'cover' a large proportion of your code. To learn how, see [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
-
-![Using code coverage to determine how much code is being tested](media/codecoverage.png)
+To determine what proportion of your project's code is actually being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To guard effectively against bugs, your tests should exercise a large proportion of your code. To learn how, see [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
 ## Use a different unit test framework
 
