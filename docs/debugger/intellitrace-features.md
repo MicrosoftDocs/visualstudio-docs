@@ -44,7 +44,7 @@ If you're debugging, stop debugging. Go to **Tools > Options > IntelliTrace > In
 
 ## <a name="Snapshots"></a> Collect snapshots
 
-This isn't enabled by default, but IntelliTrace can capture snapshots of your application at every breakpoint and debugger step event, and you can view these snapshots in a historical debugging session. A snapshot gives you a view of your full application state. To enable the capture of snapshots, go to **Tools > Options > IntelliTrace > General**, and select **IntelliTrace snapshots (managed and native)**. For more information, see [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md)
+This isn't enabled by default, but IntelliTrace can capture snapshots of your application at every breakpoint and debugger step event, and you can view these snapshots in a historical debugging session. A snapshot gives you a view of your full application state. To enable the capture of snapshots, go to **Tools > Options > IntelliTrace > General**, and select **IntelliTrace snapshots (managed and native)**. For more information, see [View snapshots using IntelliTrace step-back](../debugger/view-historical-application-state.md)
 
 Snapshots are available in Visual Studio Enterprise 2017 version 15.5 and higher, and it requires Windows 10 Anniversary Update or above.  For .NET Core and ASP.NET Core apps, Visual Studio Enterprise 2017 version 15.7 is required. For native apps targeting Windows, Visual Studio Enterprise 2017 version 15.9 Preview 2 is required.
 

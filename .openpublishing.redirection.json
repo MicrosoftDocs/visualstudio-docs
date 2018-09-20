@@ -701,6 +701,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/debugger/how-to-use-intellitrace-step-back.md",
+            "redirect_url": "/visualstudio/debugger/view-historical-application-state",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/deployment/installshield-limited-edition.md",
             "redirect_url": "/visualstudio/deployment/deploying-applications-services-and-components",
             "redirect_document_id": false
