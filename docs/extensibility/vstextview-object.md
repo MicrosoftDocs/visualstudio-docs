@@ -24,7 +24,7 @@ The text view is a window that lets users view and edit the Unicode text of the 
   
 |Interface|Description|  
 |---------------|-----------------|  
-|[IDropSource](http://msdn.microsoft.com/library/windows/desktop/ms690071)|Standard OLE interface.|  
+|[IDropSource](/windows/desktop/api/oleidl/nn-oleidl-idropsource)|Standard OLE interface.|  
 |<xref:Microsoft.VisualStudio.OLE.Interop.IDropTarget>|Standard OLE interface.|  
 |<xref:Microsoft.VisualStudio.OLE.Interop.IObjectWithSite>|Standard OLE interface.|  
 |<xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>|Standard OLE interface.|  
@@ -35,6 +35,6 @@ The text view is a window that lets users view and edit the Unicode text of the 
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsThreadSafeTextView>|Performs operations on the view from a different thread.|  
   
 ## See also  
- [Figures edit](http://msdn.microsoft.com/en-us/f08872bd-fd9c-4e36-8cf2-a2a2622ef986)   
+ [Figures edit](https://www.microsoft.com/download/details.aspx?id=55984)   
  [VSTextBuffer object](../extensibility/vstextbuffer-object.md)   
  [Accessing theText view by using the legacy API](../extensibility/accessing-thetext-view-by-using-the-legacy-api.md)
