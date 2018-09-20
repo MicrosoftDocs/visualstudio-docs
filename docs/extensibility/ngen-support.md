@@ -20,7 +20,7 @@ Below is an excerpt from MSDN that explains what "ngen" does:
 
 >The Native Image Generator (*Ngen.exe*) is a tool that improves the performance of managed applications. *Ngen.exe* creates native images, which are files containing compiled processor-specific machine code, and installs them into the native image cache on the local computer. The runtime can use native images from the cache instead of using the just-in-time (JIT) compiler to compile the original assembly.
 >
->from [Ngen.exe (Native Image Generator)](https://msdn.microsoft.com/en-us/library/6t9t5wcf(v=vs.110).aspx)
+>from [Ngen.exe (Native Image Generator)](/dotnet/framework/tools/ngen-exe-native-image-generator)
 
 In order to "ngen" an assembly, the VSIX must be installed "per-instance per-machine". This can be enabled by checking the "all-users" checkbox in the `extension.vsixmanifest` designer:
 
@@ -39,7 +39,7 @@ There are 4 properties that can be set:
         b. X86
         c. X64
         d. All
-4. **Ngen Priority** (integer between 1 and 3) - The Ngen Priority level is documented at [Ngen.exe priority levels](https://msdn.microsoft.com/en-us/library/6t9t5wcf(v=vs.110).aspx#Anchor_3).
+4. **Ngen Priority** (integer between 1 and 3) - The Ngen Priority level is documented at [Ngen.exe priority levels](/dotnet/framework/tools/ngen-exe-native-image-generator#priority-levels).
 
 Here's a look at the **Properties** window in action:
 
