@@ -53,4 +53,4 @@ You cannot use a Windows Installer package (MSI) to deploy a VSIX package. Howev
   
 ## See also  
  [Visual Studio installer deployment](https://msdn.microsoft.com/library/121be21b-b916-43e2-8f10-8b080516d2a0)   
- [Walkthrough: Create a custom action](http://msdn.microsoft.com/en-us/4bd4b63a-2b91-431e-839c-5752443f0eaf)
+ [Walkthrough: Create a custom action](/previous-versions/visualstudio/visual-studio-2010/d9k65z2d(v=vs.100))
