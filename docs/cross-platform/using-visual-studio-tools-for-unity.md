@@ -89,14 +89,6 @@ To create empty MonoBehavior method definitions with the MonoBehavior wizard:
 
      ![View the Unity Project Explorer window.](../cross-platform/media/vstu_view_unity_project_explorer.png "vstu_view_unity_project_explorer")
 
-## Unity Error List
-
- You can view messages from the Unity console inside Visual Studio when it's connected to a Unity instance. This includes errors and warnings from Unity. The messages are displayed in Visual Studio's **Error List** window; error messages from Unity are displayed on the **Errors** tab, warning messages on the **Warnings** tab, and other messages—for example, messages sent by using the Debug.Log Unity API—are displayed on the **Messages** tab.
-
- In order to see the messages, your Unity project must be connected to Visual Studio as described in the [Unity debugging](#unity-debugging) section.
-
- If you don't want to see errors, warnings, and messages from Unity in Visual Studio's **Error List** window, you can disable them in the Configuration menu.
-
 ## Unity debugging
 
  Visual Studio Tools for Unity lets you debug both editor and game scripts for your Unity project using Visual Studio's powerful debugger.

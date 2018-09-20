@@ -6,8 +6,8 @@ ms.topic: "conceptual"
 ms.assetid: fd39882e-06d1-4b39-80d2-4d07b6e4f8f5
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-mobile
-author: charlespetzold
-ms.author: chape
+author: conceptdev
+ms.author: crdun
 manager: crdun
 ms.workload:
   - "xamarin"

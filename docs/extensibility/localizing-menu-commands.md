@@ -31,7 +31,7 @@ You can provide localized text for menu and toolbar commands by creating localiz
   
 2.  Make a copy of *filename.en-US.vsct* for each localized language.  
   
-     Name each copy *filename.{Locale}.vsct*, where *{Locale}* is a particular culture name. For a list of culture name values, see [Locale IDs assigned by Microsoft](https://msdn.microsoft.com/en-us/library/windows/apps/jj657969.aspx).  
+     Name each copy *filename.{Locale}.vsct*, where *{Locale}* is a particular culture name. For a list of culture name values, see [Locale IDs assigned by Microsoft](/windows/uwp/publish/supported-languages).  
   
      These *filename.Locale.vsct* files will contain the localized menu text for your package.  
   
