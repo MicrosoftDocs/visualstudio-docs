@@ -25,7 +25,7 @@ To get started:
 
 - Follow the [installation instructions](installing-python-support-in-visual-studio.md) to set up the Python workload.
 - Familiarize yourself with the Python capabilities of Visual Studio through the sections in this article. You can also [Watch a video series (Microsoft Virtual Academy)](https://mva.microsoft.com/en-US/training-courses/python-tools-for-visual-studio-2017-18121) for an introduction to Python in Visual Studio (22 minutes total).
-- Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/default&bc=/visualstudio/python/_breadcrumb/toc.json).
+- Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).
 - Follow the [Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) tutorial for a full end-to-end experience.
 
 ## Support for multiple interpreters
