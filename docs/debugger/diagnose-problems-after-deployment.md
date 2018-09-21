@@ -11,7 +11,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Diagnose problems after deployment
+# Diagnose problems after deployment using IntelliTrace
 
 To diagnose issues in your ASP.NET web app after deployment by using IntelliTrace, include build information with your release to let Visual Studio automatically find the correct source files and symbol files that are required to debug the IntelliTrace log.
 
@@ -21,48 +21,27 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
  **You'll need:**
 
--   Visual Studio 2017, Visual Studio 2015, or Team Foundation Server 2017, 2015, 2013, 2012, or 2010 to set up your build
+-   Visual Studio, Azure DevOps, or Team Foundation Server 2017, 2015, 2013, 2012, or 2010 to set up your build
 
 -   Microsoft Monitoring Agent to monitor your app and record diagnostic data
 
 -   Visual Studio Enterprise (but not Professional or Community editions) to review diagnostic data and debug your code with IntelliTrace
 
 ##  <a name="SetUpBuild"></a> Step 1: Include build information with your release
- Set up your build process to create a build manifest (BuildInfo.config file) for your web project and include this manifest with your release. This manifest contains information about the project, source control, and build system that were used to create a specific build. This information helps Visual Studio find the matching source and symbols after you open the IntelliTrace log to review the recorded events.
+ Set up your build process to create a build manifest (*BuildInfo.config* file) for your web project and include this manifest with your release. This manifest contains information about the project, source control, and build system that were used to create a specific build. This information helps Visual Studio find the matching source and symbols after you open the IntelliTrace log to review the recorded events.
 
 ###  <a name="AutomatedBuild"></a> Create the build manifest for an automated build using Team Foundation Server
 
  Follow these steps whether you use Team Foundation Version Control or Git.
 
- ####  <a name="TFS2017"></a> Team Foundation Server 2017
+####  <a name="TFS2017"></a> Azure DevOps and Team Foundation Server 2017
 
- Set up your build pipeline to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.
+Visual Studio 2017 does not include the *BuildInfo.config* file, which was deprecated and then removed. To debug ASP.NET web apps after deployment, use one of the following methods:
 
-1.  If you already have a build pipeline using the ASP.NET Core (.NET Framework) template, you can either [Edit your build pipeline or create a new build pipeline.](/azure/devops/pipelines/get-started-designer?view=vsts)
+* For deployment to Azure, use [Application Insights](https://docs.microsoft.com/en-us/azure/application-insights/).
 
-     ![View build pipeline in TFS 2017](../debugger/media/ffr_tfs2017viewbuilddefinition.png "FFR_TFS2013ViewBuildDefinition")
+* If you need to use IntelliTrace, open the project in Visual Studio and load the symbol files from the matching build. You can load symbol files from the **Modules** window or by configuring symbols in **Tools** > **Options** > **Debugging** > **Symbols**.
 
-2.  If you create a new template, choose the ASP.NET Core (.NET Framework) template.
-
-     ![Choose build process template &#45; TFS 2017](../debugger/media/ffr_tfs2017buildprocesstemplate.png "FFR_TFS2013BuildProcessTemplate")
-
-3.  Specify where to save the symbols (PDB) file so that your source is indexed automatically.
-
-     If you use a custom template, make sure the template has an activity to index your source. You'll later add an MSBuild argument to specify where to save the symbols files.
-
-     ![Set up symbols path in build pipeline TFS 2017](../debugger/media/ffr_tfs2017builddefsymbolspath.png "FFR_TFS2013BuildDefSymbolsPath")
-
-     For more about symbols, see [Publish symbol data](/azure/devops/pipelines/tasks/build/index-sources-publish-symbols?view=vsts).
-
-4.  Add this MSBuild argument to include your TFS and symbols locations in the build manifest file:
-
-     **/p:IncludeServerNameInBuildInfo=True**
-
-     Anyone who can access your web server can see these locations in the build manifest. Make sure that your source server is secure.
-
-6.  Run a new build.
-
-    Go to [Step 2: Release your app](#DeployRelease)
 
 ####  <a name="TFS2013"></a> Team Foundation Server 2013
  Set up your build pipeline to add the locations of your source, build, and symbols to the build manifest (BuildInfo.config file). Team Foundation Build automatically creates this file and puts it in your project's output folder.
