@@ -1,6 +1,6 @@
 ---
 title: Shader Designer
-ms.date: 11/04/2016
+ms.date: 09/21/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-designers
 ms.topic: conceptual
@@ -34,6 +34,9 @@ The **Shader Designer** supports these shader formats:
 ## Get started
 
 This section describes how to add a DGSL shader to your Visual Studio C++ project and provides basic information to help you get started.
+
+> [!NOTE]
+> Automatic build integration of graphics items like shader graphs (.dgsl files) is only supported for C++ projects.
 
 ### To add a DGSL shader to your project
 
