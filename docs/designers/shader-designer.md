@@ -33,7 +33,7 @@ The **Shader Designer** supports these shader formats:
 
 ## Get started
 
-This section describes how to add a DGSL shader to your Visual Studio project and provides basic information to help you get started.
+This section describes how to add a DGSL shader to your Visual Studio C++ project and provides basic information to help you get started.
 
 ### To add a DGSL shader to your project
 
@@ -43,7 +43,7 @@ This section describes how to add a DGSL shader to your Visual Studio project an
 
    ![Image and 3D model editors component](media/image-3d-model-editors-component.png)
 
-2. In **Solution Explorer**, open the shortcut menu for the project to which you want to add the shader, and then choose **Add** > **New Item**.
+2. In **Solution Explorer**, open the shortcut menu for the C++ project to which you want to add the shader, and then choose **Add** > **New Item**.
 
 3. In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select **Visual Shader Graph (.dgsl)**.
 
