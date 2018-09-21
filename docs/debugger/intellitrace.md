@@ -39,7 +39,7 @@ You can use IntelliTrace in Visual Studio Enterprise edition (but not the Profes
 
 |||
 |-|-|
-|**Debug my application with IntelliTrace:**<br /><br /> - Show me past events.<br />- Show me call information with past events.<br />- Save my IntelliTrace session.<br />- Control the data that IntelliTrace collects.|- [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md)<br />- [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />- [IntelliTrace Features](../debugger/intellitrace-features.md)<br />- [Historical Debugging](../debugger/historical-debugging.md)|
+|**Debug my application with IntelliTrace:**<br /><br /> - Show me past events.<br />- Show me call information with past events.<br />- Save my IntelliTrace session.<br />- Control the data that IntelliTrace collects.|- [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md)<br />- [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />- [IntelliTrace Features](../debugger/intellitrace-features.md)<br />- [Historical Debugging](../debugger/historical-debugging.md)|
 |**Collect IntelliTrace data during a test session in Test Manager**|- [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)|
 |**Collect IntelliTrace data from deployed applications**|- [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)|
 |**Start debugging from an IntelliTrace log file (.iTrace file).**|- [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)|
@@ -143,7 +143,7 @@ By default, IntelliTrace records only IntelliTrace events: debugger events, exce
 
 You can configure IntelliTrace to capture snapshots at every breakpoint and debugger step event. IntelliTrace records the full application state at each snapshot, which allows you to view complex variables and to evaluate expressions.
 
-See [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md).
+See [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md).
 
 **Collect function call information**
 
