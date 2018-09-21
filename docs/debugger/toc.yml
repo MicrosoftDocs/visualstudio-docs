@@ -22,7 +22,7 @@
     href: debug-live-azure-applications.md
   - name: Debug managed and native code
     href: how-to-debug-managed-and-native-code.md
-  - name: View historical application state
+  - name: Inspect previous app states
     href: view-historical-application-state.md
   - name: Debugging for absolute beginners
     href: debugging-absolute-beginners.md

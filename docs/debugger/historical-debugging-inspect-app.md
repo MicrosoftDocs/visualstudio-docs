@@ -73,5 +73,5 @@ private static int AddInt(int add)
 
 This procedure just scratched the surface of what you can do with historical debugging.
 
-- To view snapshots while debugging, see [View snapshots using IntelliTrace step-back](../debugger/view-historical-application-state.md).
+- To view snapshots while debugging, see [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md).
 - To find out more about the different settings and the effects of the different buttons in the navigation gutter, see [IntelliTrace Features](../debugger/intellitrace-features.md).

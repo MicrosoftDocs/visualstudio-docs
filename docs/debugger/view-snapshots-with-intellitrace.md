@@ -21,4 +21,4 @@ You can navigate and view snapshots by using the **Step Backward** and **Step Fo
 
 ![Step Backward and Forward Buttons](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
-For more information, see [View snapshots using IntelliTrace step-back](../debugger/view-historical-application-state.md).
+For more information, see [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md).

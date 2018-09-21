@@ -80,5 +80,5 @@ You can use IntelliTrace to collect information about specific events or categor
 
 You can use some of the advanced features of IntelliTrace with historical debugging:
 
- - To view snapshots, see [View snapshots using IntelliTrace step-back](../debugger/view-historical-application-state.md)
+ - To view snapshots, see [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md)
  - To learn how to inspect variables and navigate code, see [Inspect your app with historical debugging](../debugger/historical-debugging-inspect-app.md)
