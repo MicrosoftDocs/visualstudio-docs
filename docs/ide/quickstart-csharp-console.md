@@ -52,27 +52,21 @@ If you click the **HelloWorld** button from the toolbar, you can run the program
 
   ![Click the Hello World button to run the program in Debug mode](../ide/media/csharp-console-hello-world-button.png)
 
-When you do this, the console window is visible for only a moment before it closes. This happens because the `Main` method terminates after its single statement executes, and so the application ends.
+When you do this, the console window is visible only for a moment before it closes. This happens because the `Main` method terminates after its single statement executes, and so the application ends.
 
 ### Add some code
-
-Let's add some code to pause the application.
 
 1. Add the following code immediately after the call to the <xref:System.Console.WriteLine%2A> method:
 
    ```csharp
-   Console.ReadLine;
+   Console.ReadLine();
    ```
 
-    It should look like this in the IDE:
+1. Verify that it looks like this in the code editor:
 
    ![Add code to pause the Hello World app](../ide/media/csharp-console-helloworld-add-code.png)
 
-    This code pauses the program until you press a key.
-
-1. On the menu bar, select **Build** > **Build Solution**.
-
-   This compiles your program into an intermediate language (IL) that's converted into binary code by a just-in-time (JIT) compiler.
+   This code pauses the application in the console window until you press the **ENTER** key.
 
 ## Run the application
 
@@ -82,10 +76,9 @@ Let's add some code to pause the application.
 
 1. View the "Hello World!" message, and then press **ENTER** to close the console window.
 
-   ![Console window showing Hello World](../ide/media/csharp-console-hello-world.png)
+   ![Console window showing Hello World!](../ide/media/csharp-console-hello-world.png)
 
 1. Close the **Output** pane in Visual Studio.
-
 
    ![Close the Output pane in Visual Studio](../ide/media/csharp-hello-world-close-output-pane.png)
 
@@ -93,7 +86,7 @@ Let's add some code to pause the application.
 
 ## Next steps
 
-Congratulations on completing this Quickstart! We hope you learned a little bit about C# and the Visual Studio IDE. To learn more, continue with the following tutorial.
+Congratulations on completing this Quickstart! We hope you learned a little bit about C# and the Visual Studio IDE. To learn more, continue with the following tutorials.
 
 > [!div class="nextstepaction"]
-> [Get started with C# in Visual Studio](tutorial-csharp-console.md)
+> [C# Tutorials](/dotnet/csharp/tutorials/)
