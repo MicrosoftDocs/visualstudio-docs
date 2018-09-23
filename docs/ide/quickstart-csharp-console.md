@@ -1,5 +1,5 @@
 ---
-title: "Quickstart: Create your first console app in Visual Studio with C#"
+title: "Quickstart: Use Visual Studio to create your first C# console app"
 description: "Learn how to create a simple Hello World console app in Visual Studio with C#, step-by-step."
 ms.custom: ""
 ms.date: 09/21/2018
@@ -16,9 +16,9 @@ dev_langs:
 ms.workload:
   - "multiple"
 ---
-# Quickstart: Create your first console app in Visual Studio with C#
+# Quickstart: Use Visual Studio to create your first C# console app
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# application that runs on the console.
+In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# app that runs on the console.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page to install it for free.
 
@@ -48,7 +48,7 @@ After you select your C# project template and name your project, Visual Studio c
 
 (To do this, it calls the <xref:System.Console.WriteLine%2A> method to display the literal string "Hello World!" in the console window.)
 
-![View the default Hello World code from the template](../ide/media/csharp-console-helloworld-template.png)
+   ![View the default Hello World code from the template](../ide/media/csharp-console-helloworld-template.png)
 
 If you press **F5**, you can run the program in Debug mode. However, the console window is visible only for a moment before it closes.
 
@@ -74,9 +74,13 @@ Let's add some code to pause the application so that the console window doesn't 
 
    ![Click the Hello World button to run the program from the toolbar](../ide/media/csharp-console-hello-world-button.png)
 
-1. View the "Hello World!" message, and then press **ENTER** to close the console window.
+1. View your app in the console window.
 
    ![Console window showing Hello World!](../ide/media/csharp-console-hello-world.png)
+
+### Close the application
+
+1. Press **ENTER** to close the console window.
 
 1. Close the **Output** pane in Visual Studio.
 
