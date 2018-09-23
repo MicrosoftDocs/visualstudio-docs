@@ -48,7 +48,7 @@ After you select your C# project template and name your project, Visual Studio c
 
 ![View the default Hello World code from the template](../ide/media/csharp-console-helloworld-template.png)
 
-If you click the **HelloWorld** button in the IDE, you can run the program in Debug mode.
+If you click the **HelloWorld** button from the toolbar, you can run the program in Debug mode.
 
   ![Click the Hello World button to run the program in Debug mode](../ide/media/csharp-console-hello-world-button.png)
 
@@ -56,16 +56,19 @@ When you do this, the console window is visible for only a moment before it clos
 
 ### Add some code
 
-Let's add some code to pause the application and then ask for user input.
+Let's add some code to pause the application.
 
 1. Add the following code immediately after the call to the <xref:System.Console.WriteLine%2A> method:
 
    ```csharp
-   Console.Write("Press any key to continue...");
-   Console.ReadKey(true);
+   Console.ReadLine;
    ```
 
-    This pauses the program until you press a key.
+    It should look like this in the IDE:
+
+   ![Add code to pause the Hello World app](../ide/media/csharp-console-helloworld-add-code.png)
+
+    This code pauses the program until you press a key.
 
 1. On the menu bar, select **Build** > **Build Solution**.
 
@@ -77,9 +80,14 @@ Let's add some code to pause the application and then ask for user input.
 
    ![Click the Hello World button to run the program from the toolbar](../ide/media/csharp-console-hello-world-button.png)
 
-1. Press any key to close the console window.
+1. View the "Hello World!" message, and then press **ENTER** to close the console window.
 
-   ![Console window showing Hello World and Press any key to continue](../ide/media/csharp-console-hello-world-press-any-key.png)
+   ![Console window showing Hello World](../ide/media/csharp-console-hello-world.png)
+
+1. Close the **Output** pane in Visual Studio.
+
+
+   ![Close the Output pane in Visual Studio](../ide/media/csharp-hello-world-close-output-pane.png)
 
 1. Close Visual Studio.
 
