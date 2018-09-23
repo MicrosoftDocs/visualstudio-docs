@@ -44,17 +44,19 @@ First, you'll create a C# application project. The project type comes with all t
 
 ## Create the application
 
-After you select your C# project template and name your project, Visual Studio creates a simple "Hello World" application for you. It calls the <xref:System.Console.WriteLine%2A> method to display the literal string "Hello World!" in the console window.
+After you select your C# project template and name your project, Visual Studio creates a simple "Hello World" application for you. 
+
+(To do this, it calls the <xref:System.Console.WriteLine%2A> method to display the literal string "Hello World!" in the console window.)
 
 ![View the default Hello World code from the template](../ide/media/csharp-console-helloworld-template.png)
 
-If you click the **HelloWorld** button from the toolbar, you can run the program in Debug mode.
+If you press **F5**, you can run the program in Debug mode. However, the console window is visible only for a moment before it closes.
 
-  ![Click the Hello World button to run the program in Debug mode](../ide/media/csharp-console-hello-world-button.png)
-
-When you do this, the console window is visible only for a moment before it closes. This happens because the `Main` method terminates after its single statement executes, and so the application ends.
+(This happens because the `Main` method terminates after its single statement executes, and so the application ends.)
 
 ### Add some code
+
+Let's add some code to pause the application so that the console window doesn't close until you press **ENTER**.
 
 1. Add the following code immediately after the call to the <xref:System.Console.WriteLine%2A> method:
 
@@ -66,11 +68,9 @@ When you do this, the console window is visible only for a moment before it clos
 
    ![Add code to pause the Hello World app](../ide/media/csharp-console-helloworld-add-code.png)
 
-   This code pauses the application in the console window until you press the **ENTER** key.
-
 ## Run the application
 
-1. Click the **HelloWorld** button on the toolbar. (Or, you can press **F5**.)
+1. Click the **HelloWorld** button on the toolbar to run the application in Debug mode. (Or, you can press **F5**.)
 
    ![Click the Hello World button to run the program from the toolbar](../ide/media/csharp-console-hello-world-button.png)
 
