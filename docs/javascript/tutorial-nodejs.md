@@ -2,7 +2,7 @@
 title: "Create a Node.js and Express app"
 description: In this tutorial, you create an app in using Node.js tools for Visual Studio
 ms.custom: ""
-ms.date: "06/27/2018"
+ms.date: "09/24/2018"
 ms.technology: vs-nodejs
 ms.topic: "tutorial"
 ms.devlang: javascript
