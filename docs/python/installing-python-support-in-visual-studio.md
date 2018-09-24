@@ -21,8 +21,6 @@ To install Python support for Visual Studio (also known as Python Tools for Visu
 - [Visual Studio 2015](#visual-studio-2015)
 - [Visual Studio 2013 and earlier](#visual-studio-2013-and-earlier)
 
-For Visual Studio 2015 and earlier you also need to separately [install a Python interpreter](installing-python-interpreters.md) of your choice (Python  3.5 and earlier; 3.6+ is not supported in Visual Studio 2015 and generates a message like **Unsupported Python version 3.6**). The same page also contains instructions for adding an existing Python interpreter to Visual Studio 2017.
-
 To quickly test Python support after following the installation steps, open the **Python Interactive** window by pressing **Alt**+**I** and entering `2+2`. If you don't see the output of `4`, recheck your steps.
 
 > [!Tip]
@@ -91,7 +89,7 @@ If you encounter problems installing or running Python in Visual Studio, try the
 
     ![PTVS option in Visual Studio 2015 installer](media/installation-vs2015.png)
 
-1. Once Visual Studio setup is complete, [install a Python interpreter of your choice](installing-python-interpreters.md). If you already have an interpreter installed and Visual Studio doesn't detect it automatically, see [Manually identify an existing environment](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
+1. Once Visual Studio setup is complete, [install a Python interpreter of your choice](installing-python-interpreters.md). Visual Studio 2015 supports only Python 3.5 and earlier; later versions generate a message like **Unsupported Python version 3.6**). If you already have an interpreter installed and Visual Studio doesn't detect it automatically, see [Manually identify an existing environment](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
 
 ## Visual Studio 2013 and earlier
 
