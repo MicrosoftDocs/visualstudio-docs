@@ -137,7 +137,7 @@
   - name: Visual Basic in Visual Studio
     href: ide/tutorial-visual-basic-console.md
   - name: Debug in Visual Studio
-    href: debugger/getting-started-with-the-debugger.md?context=visualstudio/default
+    href: debugger/getting-started-with-the-debugger.md?context=visualstudio/default&contextView=vs-2017
 - name: How-to guides
   items:
   - name: Develop
@@ -1035,25 +1035,25 @@
   - name: Release notes & system requirements
     items:
     - name: Current release notes
-      href: /visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default
+      href: /visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017
     - name: Preview release notes
-      href: /visualstudio/releasenotes/vs2017-preview-relnotes?context=visualstudio/default
+      href: /visualstudio/releasenotes/vs2017-preview-relnotes?context=visualstudio/default&contextView=vs-2017
     - name: Release notes history
-      href: /visualstudio/releasenotes/vs2017-relnotes-history?context=visualstudio/default
+      href: /visualstudio/releasenotes/vs2017-relnotes-history?context=visualstudio/default&contextView=vs-2017
     - name: Release rhythm
-      href: /visualstudio/productinfo/vs2017-release-rhythm?context=visualstudio/default
+      href: /visualstudio/productinfo/vs2017-release-rhythm?context=visualstudio/default&contextView=vs-2017
     - name: Visual Studio roadmap
-      href: /visualstudio/productinfo/vs2018-roadmap?context=visualstudio/default
+      href: /visualstudio/productinfo/vs2018-roadmap?context=visualstudio/default&contextView=vs-2017
     - name: System requirements
-      href: /visualstudio/productinfo/vs2017-system-requirements-vs?context=visualstudio/default
+      href: /visualstudio/productinfo/vs2017-system-requirements-vs?context=visualstudio/default&contextView=vs-2017
     - name: Platform compatibility
-      href: /visualstudio/productinfo/vs2017-compatibility-vs?context=visualstudio/default
+      href: /visualstudio/productinfo/vs2017-compatibility-vs?context=visualstudio/default&contextView=vs-2017
     - name: Licensing
       href: https://visualstudio.microsoft.com/license-terms/
     - name: Distributable code
-      href: /visualstudio/productinfo/2017-redistribution-vs?context=visualstudio/default
+      href: /visualstudio/productinfo/2017-redistribution-vs?context=visualstudio/default&contextView=vs-2017
     - name: Support lifecycle and servicing
-      href: /visualstudio/productinfo/vs-servicing-vs?context=visualstudio/default
+      href: /visualstudio/productinfo/vs-servicing-vs?context=visualstudio/default&contextView=vs-2017
   - name: Report a problem with Visual Studio
     href: ide/how-to-report-a-problem-with-visual-studio-2017.md
     items:
