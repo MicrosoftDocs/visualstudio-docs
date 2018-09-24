@@ -47,8 +47,6 @@ This section describes how to add an image to your Visual Studio project and con
    > If you don't see the **Graphics** category in the **Add New Item** dialog, you may need to install the **Image and 3D model editors** component. Close the dialog and then select **Tools** > **Get Tools and Features** from the menu bar, to open the **Visual Studio Installer**. Select the **Individual components** tab, and then select the **Image and 3D model editors** component under the **Games and Graphics** category. Select **Modify**.
    >
    > ![Image and 3D model editors component](media/image-3d-model-editors-component.png)
-   >
-   > If you have the **Image and 3D model editors** component installed and still don't see the **Graphics** template category, note that this category only appears for certain project types, for example, console applications.
 
    For information about how to choose a file format based on your requirements, see [Choose the image format](#choose-the-image-format).
 
