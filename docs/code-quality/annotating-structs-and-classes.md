@@ -19,6 +19,7 @@ f1_keywords:
   - "_Field_size_bytes_full_"
   - "_Field_size_full_"
   - "_Field_size_full_opt_"
+  - "_Field_z_"
 ms.assetid: b8278a4a-c86e-4845-aa2a-70da21a1dd52
 author: mikeblome
 ms.author: mblome
@@ -46,6 +47,10 @@ You can annotate struct and class members by using annotations that act like inv
 -   `_Field_size_full_(size)`, `_Field_size_full_opt_(size)`, `_Field_size_bytes_full_(size)`, `_Field_size_bytes_full_opt_(size)`
 
      A field that has both readable and writable size in elements (or bytes) as specified by `size`.
+
+-   `_Field_z_`
+
+     A field that has a null-terminated string.
 
 -   `_Struct_size_bytes_(size)`
 
