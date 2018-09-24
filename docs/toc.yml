@@ -114,12 +114,14 @@
     href: ide/quickstart-python.md
   - name: "Node.js: Create a web app"
     href: ide/quickstart-nodejs.md
-  - name: "C#: Create a web app"
-    href: ide/quickstart-aspnet-core.md
   - name: "F#: Create a web service"
     href: ide/quickstart-fsharp.md
+  - name: "C#: Create a web app"
+    href: ide/quickstart-aspnet-core.md
   - name: "C#: Create a UWP app"
     href: ide/quickstart-uwp-csharp.md
+  - name: "C#: Create a console app"
+    href: ide/quickstart-csharp-console.md
   - name: "Visual Basic: Create a console app"
     href: ide/quickstart-visual-basic-console.md
 - name: Tutorials
