@@ -1,7 +1,7 @@
 ---
 title: "Debug using the Just-In-Time Debugger | Microsoft Docs"
 ms.custom: ""
-ms.date: "07/06/17"
+ms.date: "09/24/18"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -42,6 +42,8 @@ You can enable or disable Just-In-Time debugging from the Visual Studio **Tools 
 4.  In the **Enable Just-In-Time debugging of these types of code** box, select or clear the relevant program types: **Managed**, **Native**, or **Script**.
 
 5.  Click **OK**.
+
+    If you enable the Just-in-Time debugger, but you don't see it on an application crash or exception, see [Just-In-Time debugging errors](#jit_errors).
 
 Just-In-Time debugging may still be enabled even if Visual Studio is no longer installed on your computer. When Visual Studio is not installed, you cannot disable Just-In-Time debugging from the Visual Studio **Options** dialog box. In that case, you can disable Just-In-Time debugging by editing the Windows registry.
 
@@ -146,28 +148,33 @@ static void Main(string[] args)
 
  You can start debugging at this point. If this were a real application, you would need to find out why the code is throwing the exception.
 
-## Just-In-Time debugging errors
- if you don't see the dialog when the program crashes, this might due to Windows Error Reporting settings on your computer. For more information, see [.WER Settings](/windows-hardware/drivers/dashboard/windows-error-reporting-getting-started).
+## <a name="jit_errors"></a> Just-In-Time debugging errors
+ If you don't see the dialog when the program crashes and need to enable the feature, this might due to Windows Error Reporting settings on your computer. Make sure to add a **Disabled** value to the following registry keys and set the value to 1:
 
- You might see the following error messages that are associated with Just-In-Time debugging.
+* HKLM\Software\Microsoft\Windows\Windows Error Reporting
+* HKLM\Software\WOW6432Node\Microsoft\Windows\Windows Error Reporting
+ 
+For more information about these settings, see [.WER Settings](https://docs.microsoft.com/windows/desktop/wer/wer-settings).
 
--   **Unable to attach to the crashing process. The specified program is not a Windows or MS-DOS program.**
+In addition, you might see the following error messages that are associated with Just-In-Time debugging.
 
-     This error occurs when you try to attach to a process running as another user.
+- **Unable to attach to the crashing process. The specified program is not a Windows or MS-DOS program.**
 
-     To work around this problem, start Visual Studio, open the **Attach to Process** dialog box from the **Debug** menu, and find the process you want to debug in the **Available Processes** list. If you do not know the name of the process, look at the **Visual Studio Just-In-Time Debugger** dialog and note the process ID. Select the process in the **Available Processes** list and click **Attach**. In the **Visual Studio Just-In-Time Debugger** dialog, click **No** to dismiss the dialog box.
+    This error occurs when you try to attach to a process running as another user.
 
--   **Debugger could not be started because no user is logged on.**
+    To work around this problem, start Visual Studio, open the **Attach to Process** dialog box from the **Debug** menu, and find the process you want to debug in the **Available Processes** list. If you do not know the name of the process, look at the **Visual Studio Just-In-Time Debugger** dialog and note the process ID. Select the process in the **Available Processes** list and click **Attach**. In the **Visual Studio Just-In-Time Debugger** dialog, click **No** to dismiss the dialog box.
 
-     This error occurs when Just-In-Time debugging tries to start Visual Studio on a machine where there is no user logged onto the console. Because no user is logged on, there is no user session to display the Just-In-Time debugging dialog box.
+- **Debugger could not be started because no user is logged on.**
 
-     To fix this problem, log onto the machine.
+    This error occurs when Just-In-Time debugging tries to start Visual Studio on a machine where there is no user logged onto the console. Because no user is logged on, there is no user session to display the Just-In-Time debugging dialog box.
 
--   **Class not registered.**
+    To fix this problem, log onto the machine.
 
-     This error indicates that the debugger tried to create a COM class that is not registered, probably due to an installation problem.
+- **Class not registered.**
 
-     To fix this problem, use the setup disk to reinstall or repair your Visual Studio installation.
+    This error indicates that the debugger tried to create a COM class that is not registered, probably due to an installation problem.
+
+    To fix this problem, use the setup disk to reinstall or repair your Visual Studio installation.
 
 ## See Also
  [Debugger Security](../debugger/debugger-security.md)
