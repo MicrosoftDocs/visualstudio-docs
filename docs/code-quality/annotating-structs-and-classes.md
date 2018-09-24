@@ -54,8 +54,6 @@ You can annotate struct and class members by using annotations that act like inv
 
 -   `_Struct_size_bytes_(size)`
 
-     A field that has both readable and writable size in elements (or bytes) as specified by `size`.
-
      Applies to struct or class declaration.  Indicates that a valid object of that type may be larger than the declared type, with the number of bytes being specified by `size`.  For example:
 
     ```cpp
