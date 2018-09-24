@@ -22,8 +22,8 @@
     href: debug-live-azure-applications.md
   - name: Debug managed and native code
     href: how-to-debug-managed-and-native-code.md
-  - name: View snapshots using IntelliTrace step-back
-    href: how-to-use-intellitrace-step-back.md
+  - name: Inspect previous app states
+    href: view-historical-application-state.md
   - name: Debugging for absolute beginners
     href: debugging-absolute-beginners.md
 - name: How-to guides
@@ -324,7 +324,9 @@
   - name: IntelliTrace
     href: intellitrace.md
     items:
-    - name: "Walkthrough: Using IntelliTrace"
+    - name: View snapshots with IntelliTrace
+      href: view-snapshots-with-intellitrace.md
+    - name: View events with IntelliTrace
       href: walkthrough-using-intellitrace.md
     - name: IntelliTrace features
       href: intellitrace-features.md
@@ -334,10 +336,11 @@
       href: historical-debugging-inspect-app.md
     - name: Diagnose problems after deployment
       href: diagnose-problems-after-deployment.md
-    - name: Using the IntelliTrace stand-alone collector
-      href: using-the-intellitrace-stand-alone-collector.md
-    - name: Using the Microsoft Monitoring Agent
-      href: using-the-microsoft-monitoring-agent.md
+      items:
+      - name: Using the IntelliTrace stand-alone collector
+        href: using-the-intellitrace-stand-alone-collector.md
+      - name: Using the Microsoft Monitoring Agent
+        href: using-the-microsoft-monitoring-agent.md
     - name: Using saved IntelliTrace data
       href: using-saved-intellitrace-data.md
     - name: API Reference for IntelliTrace Extensibility

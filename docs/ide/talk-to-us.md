@@ -16,7 +16,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Talk to us
+# Visual Studio product feedback
 
 We're interested in your ideas for improving our products and documentation. We can't always respond personally, but we'll make sure that your feedback gets to the right person or team.
 

@@ -174,7 +174,7 @@ a name="introduction"></a> This walkthrough provides an introduction to Windows 
      Or like this in Visual Basic:  
   
     ```xaml  
-    NavigationWindow x:Class="MainWindow"  
+    <NavigationWindow x:Class="MainWindow"  
             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"  
@@ -203,7 +203,7 @@ a name="introduction"></a> This walkthrough provides an introduction to Windows 
      Your ExpenseReportPage.xaml file should now look like this in C#:  
   
     ```xaml  
-    Page x:Class="ExpenseIt.ExpenseReportPage"  
+    <Page x:Class="ExpenseIt.ExpenseReportPage"  
           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"   
