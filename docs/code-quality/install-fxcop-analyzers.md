@@ -20,7 +20,7 @@ You can install these FxCop analyzers either as a NuGet package or as a VSIX ext
 
 ## To install FxCop analyzers as a NuGet package
 
-1. [Determine which analyzer package version](#analyzer-package-versions) to install, based on your version of Visual Studio.
+1. [Determine which analyzer package version](#fxcopanalyzers-package-versions) to install, based on your version of Visual Studio.
 
 1. Install the package in Visual Studio, using either the [Package Manager Console](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console) or the [Package Manager UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console).
 
