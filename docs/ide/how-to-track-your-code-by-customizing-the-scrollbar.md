@@ -16,7 +16,7 @@ When you are working with long code files, it can be hard to keep track of where
 
 ## Annotations
 
-You can set up the scroll bar to show annotations such as code changes, breakpoints, bookmarks, errors, and caret position.
+You can select whether the scroll bar shows annotations such as code changes, breakpoints, bookmarks, errors, and caret position.
 
    1. Open the **Scroll Bars** options page by choosing **Tools** > **Options** > **Text Editor** > **All Languages** > **Scroll Bars**.
 
@@ -32,11 +32,11 @@ You can set up the scroll bar to show annotations such as code changes, breakpoi
 
 Try it out by opening a large code file and replacing some text that occurs in several places in the file. The scroll bar shows you the effect of the replacements, so you can back out your changes if you replaced something you shouldn't have.
 
-Here's how the scroll bar looks after a search for a string. Notice that all instances of the string appear.
+Here's how the scroll bar looks after a search for a string. Notice that all instances of the string appear in the scroll bar.
 
 ![Visual Studio scroll bar after searching for a string](../ide/media/enhancedscrollbarsearch.png)
 
-Here's the scroll bar after replacing all the instances of the string. You can see that the operation caused some errors.
+Here's the scroll bar after replacing all the instances of the string. The red marks in the scroll bar show where the text replacement introduced errors.
 
 ![Visual Studio scroll bar after replacing a string with errors](../ide/media/enhancedscrollbarreplace.png)
 
@@ -46,7 +46,7 @@ The scroll bar has two modes: bar mode and map mode.
 
 ### Bar mode
 
-*Bar mode* displays annotation indicators on the scroll bar, and clicking on the scroll bar scrolls the page up or done but does not jump to that location in the file.
+*Bar mode* displays annotation indicators on the scroll bar. Clicking on the scroll bar scrolls the page up or down but does not jump to that location in the file.
 
 ### Map mode
 
