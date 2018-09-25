@@ -41,7 +41,7 @@ Also see these tutorials for other using Azure services with Python:
   - [Build a Docker Python and PostgreSQL web app in Azure](/azure/app-service/containers/tutorial-docker-python-postgresql-app)
 - Azure Storage:
   - [Blob storage](/azure/storage/blobs/storage-quickstart-blobs-python)
-  - [Table storage and Cosmos DB](s/azure/cosmos-db/table-storage-how-to-use-python)
+  - [Table storage and Cosmos DB](/azure/cosmos-db/table-storage-how-to-use-python)
   - [Queue storage](/azure/storage/queues/storage-python-how-to-use-queue-storage)
   - [Flask and Cosmos DB](/azure/cosmos-db/sql-api-python-application)
 - Service Bus
