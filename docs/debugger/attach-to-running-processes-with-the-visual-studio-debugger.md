@@ -59,7 +59,7 @@ To quickly reattach to a process you attached to previously, see [Reattach to a 
   > - For client-side script debugging, script debugging must be enabled in the browser. 
   > - For debugging client-side script on Chrome, choose **Webkit** as the code type. Depending on your app type, you may need to start the Chrome browser in debugging mode (type `chrome.exe --remote-debugging-port=9222` from a command line).
   
-1.  In the **Available processes** list, select the process or processes you want to attach to.  
+1.  In the **Available processes** list, find and select the process or processes you want to attach to.  
 
   - To quickly select a process, type its name or first letter in the **Filter processes** box. 
   - If you don't know the process name, browse through the running processes, or see [Common debugging scenarios](#BKMK_Scenarios) for some common process names. 
@@ -99,7 +99,7 @@ You can also select a remote computer in the **Attach to Process** dialog box, v
   
   The **Available Processes** list is displayed automatically when you open the **Processes** dialog box, but processes can start and stop in the background while the dialog box is open, so the contents may not always be current. You can select **Refresh** at any time to see the current list of running processes. 
      
-1.  In the **Available processes** list, select the process or processes you want to attach to.  
+1.  In the **Available processes** list, find and select the process or processes you want to attach to.  
 
   - To quickly select a process, type its name or first letter in the **Filter processes** box. 
   - If you don't know the process name, browse through the running processes, or see [Common debugging scenarios](#BKMK_Scenarios) for some common process names. 
