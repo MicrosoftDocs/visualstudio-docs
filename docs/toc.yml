@@ -390,7 +390,7 @@
             href: ide/editorconfig-code-style-settings-reference.md
           - name: .NET naming conventions
             href: ide/editorconfig-naming-conventions.md
-      - name: Customize the scrollbar
+      - name: Customize the scroll bar
         href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md
       - name: Set bookmarks in code
         href: ide/setting-bookmarks-in-code.md
