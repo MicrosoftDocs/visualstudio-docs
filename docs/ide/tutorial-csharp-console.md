@@ -2,7 +2,7 @@
 title: "Get started with C# console apps in Visual Studio"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: ""
-ms.date: 09/26/2018
+ms.date: 09/27/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
@@ -125,7 +125,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
    ![Choose the Calculator button to run the app from the toolbar](../ide/media/csharp-console-calculator-button.png)
 
-1. View your app in the console window. When you follow the prompts, your app should look similar to the following screenshot: 
+1. View your app in the console window. When you follow the prompts, your app should look similar to the following screenshot:
 
     ![Console window showing the Calculator app, which includes prompts on which actions to take.](../ide/media/csharp-console-calculator.png)
 
@@ -135,7 +135,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. Close the **Output** pane in Visual Studio.
 
-   ![Close the Output pane in Visual Studio](../ide/media/csharp-calculator-close-ouput-pane.png)
+   ![Close the Output pane in Visual Studio](../ide/media/csharp-calculator-close-output-pane.png)
 
 1. Close Visual Studio.
 
