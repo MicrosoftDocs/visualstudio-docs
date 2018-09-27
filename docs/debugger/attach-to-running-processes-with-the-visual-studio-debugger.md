@@ -49,14 +49,10 @@ To debug a process on a remote computer, see [Attach to a process on a remote co
 **To attach to a process on your local computer:**  
 
 1.  In Visual Studio, select **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**) to open the **Attach to Process** dialog box.
-  **Connection type** should be **Default**, and **Connection target** should be your local machine name. 
   
-  > [!NOTE]
-  > The **Connection type** setting persists between debugging sessions. The **Connection target** setting persists between debugging sessions only if a successful debugging connection occurred with that target.
+  **Connection type** should be set to **Default**. **Connection target** should be your local machine name. 
   
   ![DBG_Basics_Attach_To_Process](../debugger/media/DBG_Basics_Attach_To_Process.png "DBG_Basics_Attach_To_Process") 
-  
-1.  Make sure the type of code you plan to debug is listed in the **Attach to** field. The default **Automatic** setting works for most app types. To select the code types manually, click **Select**. In the **Select Code Type** dialog box, select **Debug these code types**, select the code types to debug, and then select **OK**.
   
 1.  In the **Available processes** list, find and select the process or processes you want to attach to.  
 
@@ -72,10 +68,18 @@ To debug a process on a remote computer, see [Attach to a process on a remote co
   >[!TIP]
   >Processes can start and stop in the background while the **Attach to Process** dialog box is open, so the list of running processes may not always be current. You can select **Refresh** at any time to see the current list. 
   
+1.  In the **Attach to** field, make sure the type of code you plan to debug is listed. The default **Automatic** setting works for most app types. 
+  
+  To select code types manually:
+    1. Click **Select**. 
+    1. In the **Select Code Type** dialog box, select **Debug these code types**.
+    1. Select the code types you want to debug.
+    1. Select **OK**.
+  
 1.  Select **Attach**.
   
 >[!NOTE]
->You can be attached to multiple apps when you are debugging, but only one app is active in the debugger at a time. You can set the active app in the Visual Studio **Debug Location** toolbar or **Processes** window.  
+>You can be attached to multiple apps for debugging, but only one app is active in the debugger at a time. You can set the active app in the Visual Studio **Debug Location** toolbar or **Processes** window.  
 
 ##  <a name="BKMK_Attach_to_a_process_on_a_remote_computer"></a> Attach to a process on a remote computer  
 
@@ -87,14 +91,13 @@ For more complete instructions for debugging ASP.NET applications that have been
 
 1.  In Visual Studio, select **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**) to open the **Attach to Process** dialog box.
   
-1.  **Connection type** should be **Default** for most cases. 
-  In the **Connection target** box, select the remote computer, using one of the following methods:
+1.  **Connection type** should be **Default** for most cases. In the **Connection target** box, select the remote computer, using one of the following methods:
 
   - Select the drop-down arrow next to **Connection target**, and select the computer name from the drop-down list.  
   - Type the computer name in the **Connection target** box.
       
       > [!NOTE]
-      > If you can't connect using the remote computer name, try the IP and port address (for example, `123.45.678.9:4022`). 4022 is the default port for the Visual Studio 2017 x64 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).  
+      > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4022 is the default port for the Visual Studio 2017 x64 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).  
       
   - Select the **Find** button next to the **Connection target** box to open the **Remote Connections** dialog box. The **Remote Connections** dialog box lists all the devices that are on your local subnet or directly attached to your computer. You may need to [open UDP port 3702](../debugger/remote-debugger-port-assignments.md) on the server to discover remote devices. Select the computer or device you want, and then click **Select**. 
   
@@ -117,10 +120,18 @@ For more complete instructions for debugging ASP.NET applications that have been
       >[!NOTE]
       >If you try to attach to a process owned by an untrusted user account, a security warning dialog box confirmation will appear. For more information see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md).  
       
+1.  In the **Attach to** field, make sure the type of code you plan to debug is listed. The default **Automatic** setting works for most app types. 
+  
+  To select code types manually:
+    1. Click **Select**. 
+    1. In the **Select Code Type** dialog box, select **Debug these code types**.
+    1. Select the code types you want to debug.
+    1. Select **OK**.
+  
 1.  Select **Attach**.
   
 >[!NOTE]
->You can be attached to multiple apps when you are debugging, but only one app is active in the debugger at a time. You can set the active app in the Visual Studio **Debug Location** toolbar or **Processes** window.  
+>You can be attached to multiple apps for debugging, but only one app is active in the debugger at a time. You can set the active app in the Visual Studio **Debug Location** toolbar or **Processes** window.  
 
 In some cases, when you debug in a Remote Desktop (Terminal Services) session, the **Available processes** list will not display all available processes. If you are running Visual Studio as a user who has a limited user account, the **Available processes** list will not show processes that are running in Session 0, which is used for services and other server processes, including *w3wp.exe*. You can solve the problem by running [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] under an administrator account or by running [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] from the server console instead of a Terminal Services session. 
 
