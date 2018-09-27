@@ -46,6 +46,8 @@ If you're familiar with word wrap in Notepad++, Sublime Text, or Visual Studio C
 * [Cut command doesn't delete whole line](https://developercommunity.visualstudio.com/content/problem/138259/cut-command-should-delete-logical-line.html)
 * [Pressing End key twice does not move cursor to end of line](https://developercommunity.visualstudio.com/content/problem/138274/pressing-end-key-twice-should-move-cursor-to-end-o.html)
 
+You can [vote for these issues](https://visualstudio.uservoice.com/forums/121579-visual-studio-ide/suggestions/35458984-fix-known-issues-in-word-wrap) on the Visual Studio UserVoice.
+
 ## See also
 
 - [Customizing the Editor](../../ide/customizing-the-editor.md)
