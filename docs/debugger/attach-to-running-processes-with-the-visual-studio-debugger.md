@@ -31,7 +31,7 @@ ms.workload:
   - "multiple"
 ---
 # Attach to running processes with the Visual Studio debugger
-You can attach the Visual Studio debugger to a running process on a local or remote computer. After the process is running, in Visual Studio, click **Debug** > **Attach to Process** or press **Ctrl**+**Alt**+**P** to use the **Attach to Process** dialog box to attach to the process.
+You can attach the Visual Studio debugger to a running process on a local or remote computer. After the process is running, select **Debug** > **Attach to Process** or press **Ctrl**+**Alt**+**P** in Visual Studio, and use the **Attach to Process** dialog to attach the debugger to the process.
 
 You can use **Attach to Process** to debug running apps on local or remote computers, debug multiple processes simultaneously, debug apps that were not created in Visual Studio, or debug any app you did not start from Visual Studio with the debugger attached. For example, if you are running an app without the debugger and hit an exception, you can then attach the debugger to the process running the app and begin debugging.
 
@@ -56,23 +56,21 @@ To debug a process on a remote computer, see [Attach to a process on a remote co
   
   ![DBG_Basics_Attach_To_Process](../debugger/media/DBG_Basics_Attach_To_Process.png "DBG_Basics_Attach_To_Process") 
   
-1.  Make sure the type of code you plan to debug is listed in the **Attach to** field. If not, select **Select** to display the **Select Code Type** dialog box. The default **Automatically determine the type of code to debug** setting works for most app types. To select the code types manually, select **Debug these code types**, select the code types to debug, and then select **OK**.
-  
-  > [!NOTE]
-  > - For client-side script debugging, script debugging must be enabled in the browser. 
-  > - For debugging client-side script on Chrome, choose **Webkit** as the code type. Depending on your app type, you may need to start the Chrome browser in debugging mode (type `chrome.exe --remote-debugging-port=9222` from a command line).
+1.  Make sure the type of code you plan to debug is listed in the **Attach to** field. The default **Automatic** setting works for most app types. To select the code types manually, click **Select**. In the **Select Code Type** dialog box, select **Debug these code types**, select the code types to debug, and then select **OK**.
   
 1.  In the **Available processes** list, find and select the process or processes you want to attach to.  
 
   - To quickly select a process, type its name or first letter in the **Filter processes** box. 
-  - If you don't know the process name, browse through the running processes, or see [Common debugging scenarios](#BKMK_Scenarios) for some common process names. 
+  
+  - If you don't know the process name, browse through the list, or see [Common debugging scenarios](#BKMK_Scenarios) for some common process names. 
+  
   - To find processes running under all user accounts, select the **Show processes from all users** check box.
       
       >[!NOTE]
       >If you try to attach to a process owned by an untrusted user account, a security warning dialog box confirmation will appear. For more information see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md).  
   
-  >[!NOTE]
-  >The **Available processes** list is displayed automatically when you open the **Attach to Process** dialog box, but processes can start and stop in the background while the dialog box is open, so the list may not always be current. You can select **Refresh** at any time to see the current list of running processes. 
+  >[!TIP]
+  >Processes can start and stop in the background while the **Attach to Process** dialog box is open, so the list of running processes may not always be current. You can select **Refresh** at any time to see the current list. 
   
 1.  Select **Attach**.
   
@@ -103,14 +101,17 @@ For more complete instructions for debugging ASP.NET applications that have been
   > [!NOTE]
   > The **Connection type** setting persists between debugging sessions. The **Connection target** setting persists between debugging sessions only if a successful debugging connection occurred with that target.
 
-1.  Click **Refresh**.
-  
-  The **Available Processes** list is displayed automatically when you open the **Processes** dialog box, but processes can start and stop in the background while the dialog box is open, so the list may not always be current. You can select **Refresh** at any time to see the current list of running processes. 
+1.  Click **Refresh** to populate the **Available processes** list.
+     
+     >[!TIP]
+     >Processes can start and stop in the background while the **Attach to Process** dialog box is open, so the list of running processes may not always be current. You can select **Refresh** at any time to see the current list. 
      
 1.  In the **Available processes** list, find and select the process or processes you want to attach to.  
 
   - To quickly select a process, type its name or first letter in the **Filter processes** box. 
-  - If you don't know the process name, browse through the running processes, or see [Common debugging scenarios](#BKMK_Scenarios) for some common process names. 
+  
+  - If you don't know the process name, browse through the list, or see [Common debugging scenarios](#BKMK_Scenarios) for some common process names. 
+  
   - To find processes running under all user accounts, select the **Show processes from all users** check box.
       
       >[!NOTE]
@@ -134,11 +135,13 @@ You can quickly reattach to processes that you were previously attached to by ch
 
 ## <a name="BKMK_Scenarios"></a> Common debugging scenarios
 
-To help you determine whether to use **Attach to process** and what process to attach to, the following table shows a few common debugging scenarios, with links to more instructions where available. (The list is not exhaustive.) 
+To help you determine whether to use **Attach to Process** and what process to attach to, the following table shows a few common debugging scenarios, with links to more instructions where available. (The list is not exhaustive.) 
 
 For some app types, like Universal Windows App (UWP) apps, you don't attach directly to a process name, but use the **Debug Installed App Package** menu option in Visual Studio instead (see table).
 
 For the debugger to attach to code written in C++, the code needs to emit `DebuggableAttribute`. You can add this to your code automatically by linking with the [/ASSEMBLYDEBUG](/cpp/build/reference/assemblydebug-add-debuggableattribute) linker option.
+
+For client-side script debugging, script debugging must be enabled in the browser. For debugging client-side script on Chrome, choose **Webkit** as the code type, and depending on your app type, you may need to start the  browser in debugging mode (type `chrome.exe --remote-debugging-port=9222` from a command line).
 
 To quickly select a running process to attach the debugger to, in Visual Studio, type **Ctrl**+**Alt**+**P**, and then type the first letter of the process name.
 
