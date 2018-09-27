@@ -34,9 +34,9 @@ First, you'll create a C# application project. The project type comes with all t
 
    ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](../ide/media/new-project-csharp-dotnetcore-helloworld-console-app.png)
 
-     If you don't see the **Console App (.NET Core)** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
+     If you don't see the **Console App (.NET Core)** project template, choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
 
-   ![Click the Open Visual Studio Installer link from the New Project dialog box](../ide/media/csharp-open-visual-studio-installer-hello-world.png)
+   ![Choose the Open Visual Studio Installer link from the New Project dialog box](../ide/media/csharp-open-visual-studio-installer-hello-world.png)
 
      The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
@@ -70,9 +70,9 @@ Let's add some code to pause the application so that the console window doesn't 
 
 ## Run the application
 
-1. Click the **HelloWorld** button on the toolbar to run the application in Debug mode. (Or, you can press **F5**.)
+1. Choose the **HelloWorld** button on the toolbar to run the application in Debug mode. (Or, you can press **F5**.)
 
-   ![Click the Hello World button to run the program from the toolbar](../ide/media/csharp-console-hello-world-button.png)
+   ![Choose the Hello World button to run the app from the toolbar](../ide/media/csharp-console-hello-world-button.png)
 
 1. View your app in the console window.
 
@@ -93,4 +93,4 @@ Let's add some code to pause the application so that the console window doesn't 
 Congratulations on completing this Quickstart! We hope you learned a little bit about C# and the Visual Studio IDE. To learn more, continue with the following tutorials.
 
 > [!div class="nextstepaction"]
-> [C# Tutorials](/dotnet/csharp/tutorials/)
+> [Get started with a C# console app in Visual Studio](tutorial-csharp-console.md)
