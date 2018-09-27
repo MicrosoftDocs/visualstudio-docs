@@ -25,7 +25,7 @@ The Quick Actions in this section fix errors in code that would cause a build to
 
 ### Correct misspelled symbol or keyword
 
-If you accidentally misspell a type or keyword in Visual Studio, this Quick Action automatically corrects it for you. You'll see these items in the light bulb menu as **"Change '*misspelled word*' to '*correct word*'**.  For example:
+If you accidentally misspell a type or keyword in Visual Studio, this Quick Action automatically corrects it for you. You'll see these items in the light bulb menu as **"Change '*misspelled word*' to '*correct word*'**. For example:
 
 ```csharp
 // Before
@@ -94,49 +94,11 @@ private void MyMethod()
 | ------- | -------------------- | ----------------  |
 | CS8300, BC37284  | C# and Visual Basic | Visual Studio 2017 version 15.3 |
 
-### Make method asynchronous
-
-When using the `await` or `Await` keyword inside of a method, it is expected that the method itself is marked with the `async` or `Async` keyword.  However, if this isn't the case, a Quick Action will appear that makes the method asynchronous. Use the **Make method/Function asynchronous** option from the Quick Actions menu.
-
-```csharp
-// Before
-int MyAsyncMethod()
-{
-    return await Task.Run(...);
-}
-
-// Make method asynchronous
-
-// After
-async Task<int> MyAsyncMethod()
-{
-    return await Task.Run(...);
-}
-```
-
-```vb
-' Before
-Function MyAsyncMethod() as Integer
-    Return  Await Task.Run(...)
-End Function
-
-' Make method asynchronous
-
-' After
-Async Function MyAsyncMethod() As Task(Of Integer)
-    Return Await Task.Run(...)
-End Function
-```
-
-|  Error ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| CS4032, BC37057 | C# and Visual Basic | Visual Studio 2017 |
-
 ## Actions that remove unnecessary code
 
 ### Remove unnecessary usings/Imports
 
-The **Remove Unnecessary Usings/Imports** Quick Action removes any unused `using` and `Import` statements for the current file.  When you select this item, unused namespace imports are removed.
+The **Remove Unnecessary Usings/Imports** Quick Action removes any unused `using` and `Import` statements for the current file. When you select this item, unused namespace imports are removed.
 
 |  Applicable Languages |  Supported Version |
 |  -------------------- | ----------------  |
@@ -490,7 +452,7 @@ End Select
 
 ### Convert to interpolated string
 
-[Interpolated strings](/dotnet/csharp/language-reference/keywords/interpolated-strings) are an easy way to express strings with embedded variables, similar to the **[String.Format](https://msdn.microsoft.com/library/system.string.format.aspx)** method.  This Quick Action recognizes cases where strings are concatenated, or using **String.Format**, and changes the usage to an interpolated string.
+[Interpolated strings](/dotnet/csharp/language-reference/keywords/interpolated-strings) are an easy way to express strings with embedded variables, similar to the **[String.Format](https://msdn.microsoft.com/library/system.string.format.aspx)** method. This Quick Action recognizes cases where strings are concatenated, or using **String.Format**, and changes the usage to an interpolated string.
 
 ```csharp
 // Before
@@ -917,7 +879,7 @@ Console.WriteLine($"{x} {y}");
 
 ### Make method synchronous
 
-When using the `async` or `Async` keyword on a method, it's expected that inside that method the `await` or `Await` keyword is also used.  However, if this isn't the case, a Quick Action appears that makes the method synchronous by removing the `async` or `Async` keyword and changing the return type. Use the **Make method synchronous** option from the Quick Actions menu.
+When using the `async` or `Async` keyword on a method, it's expected that inside that method the `await` or `Await` keyword is also used. However, if this isn't the case, a Quick Action appears that makes the method synchronous by removing the `async` or `Async` keyword and changing the return type. Use the **Make method synchronous** option from the Quick Actions menu.
 
 ```csharp
 // Before
@@ -952,6 +914,44 @@ End Function
 |  Error ID | Applicable Languages |  Supported Version |
 | ------- | -------------------- | ----------------  |
 | CS1998, BC42356 | C# and Visual Basic | Visual Studio 2015 Update 2 |
+
+### Make method asynchronous
+
+When using the `await` or `Await` keyword inside of a method, it's expected that the method is marked with the `async` or `Async` keyword. However, if this isn't the case, a Quick Action appears that makes the method asynchronous. Use the **Make method/Function asynchronous** option from the Quick Actions menu.
+
+```csharp
+// Before
+int MyAsyncMethod()
+{
+    return await Task.Run(...);
+}
+
+// Make method asynchronous
+
+// After
+async Task<int> MyAsyncMethod()
+{
+    return await Task.Run(...);
+}
+```
+
+```vb
+' Before
+Function MyAsyncMethod() as Integer
+    Return  Await Task.Run(...)
+End Function
+
+' Make method asynchronous
+
+' After
+Async Function MyAsyncMethod() As Task(Of Integer)
+    Return Await Task.Run(...)
+End Function
+```
+
+|  Error ID | Applicable Languages |  Supported Version |
+| ------- | -------------------- | ----------------  |
+| CS4032, BC37057 | C# and Visual Basic | Visual Studio 2017 |
 
 ## See also
 
