@@ -143,7 +143,7 @@ For the debugger to attach to code written in C++, the code needs to emit `Debug
 
 For client-side script debugging, script debugging must be enabled in the browser. For debugging client-side script on Chrome, choose **Webkit** as the code type, and depending on your app type, you may need to start the  browser in debugging mode (type `chrome.exe --remote-debugging-port=9222` from a command line).
 
-To quickly select a running process to attach the debugger to, in Visual Studio, type **Ctrl**+**Alt**+**P**, and then type the first letter of the process name.
+To quickly select a running process to attach to, in Visual Studio, type **Ctrl**+**Alt**+**P**, and then type the first letter of the process name.
 
 |Scenario|Debug method|Process name|Notes and links|
 |-|-|-|-|
