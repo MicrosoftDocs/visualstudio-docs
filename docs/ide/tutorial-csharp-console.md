@@ -60,7 +60,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. In the **New Project** dialog box in the left pane, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *Calculator*.
 
-1. Enter the following code after the curly brace that appears beneath the `static void Main(string[] args)` line:
+1. Enter or paste the following code after the curly brace that appears beneath the `static void Main(string[] args)` line:
 
    ```C#
    // Declare variables and then instantiate to zero
@@ -103,7 +103,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
       break;
     // Return text for an incorrect option entry
     default:
-      Console.WriteLine("That is an incorrect entry, please try again.");
+      Console.WriteLine("That is an incorrect option entry, please try again.");
       break;
    }
 
@@ -112,13 +112,27 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
    Console.ReadKey();
    ```
 
-   Your code editor should look like the following screenshot:
+   Your code editor window should look like the following screenshot:
 
    ![Code editor showing the C# Console Calculator](../ide/media/csharp-console-calculator-code.png)
 
-1. Choose **Calculator** to run your program, or press **F5**. Your console window should look similar to the following screenshot:
+1. Choose **Calculator** to run your program, or press **F5**.
 
-    ![Console window showing the Calculator app, which includes prompts on which actions to take.](../ide/media/csharp-console-calculator.png) 
+   ![Choose the Calculator button to run the app from the toolbar](../ide/media/csharp-console-calculator-button.png)
+
+1. View your app in the console window. When you follow the prompts, your app should look similar to the following screenshot: 
+
+    ![Console window showing the Calculator app, which includes prompts on which actions to take.](../ide/media/csharp-console-calculator.png)
+
+### Close the app
+
+1. Press any key to close the calculator app.
+
+1. Close the **Output** pane in Visual Studio.
+
+   ![Close the Output pane in Visual Studio](../ide/media/csharp-calculator-close-ouput-pane.png)
+
+1. Close Visual Studio.
 
 ## Quick answers FAQ
 
@@ -126,7 +140,7 @@ Here's a quick FAQ to highlight some key concepts.
 
 ### What is C#?
 
-C# is a type-safe programming language that's designed to be easy to learn. With C#, you can create apps that run on .NET Core, such as Windows client applications, XML Web services, distributed components, client-server applications, database applications, and more.
+C# is a type-safe programming language that runs on the .NET Framework and .NET Core. With C#, you can create Windows applications, client-server applications, database applications, XML Web services, distributed components, and more.
 
 ### What is Visual Studio?
 
@@ -138,7 +152,9 @@ A console app takes input and displays output in a command-line window, a.k.a. a
 
 ### What is .NET Core?
 
-.NET Core is the evolutionary next step of the .NET Framework. Where the .NET Framework allowed you to share code across programming languages, .NET Core adds the ability to share code across platforms. Even better, it's open source. (Both the .NET Framework and .NET Core include libraries of prebuilt functionality as well as a common language runtime (CLR), which acts as a virtual machine in which to run your code.)
+.NET Core is the evolutionary next step of the .NET Framework. Where the .NET Framework allowed you to share code across programming languages, .NET Core adds the ability to share code across platforms. Even better, it's open source.
+
+(Both the .NET Framework and .NET Core include libraries of prebuilt functionality. They also include a common language runtime (CLR), which acts as a virtual machine in which to run your code.)
 
 ## Next steps
 
