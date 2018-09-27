@@ -136,9 +136,9 @@
     href: javascript/tutorial-nodejs.md
   - name: C# in Visual Studio
     items:
-    - name: C#: Create a web app
+    - name: "C#: Create a web app"
       href: ide/tutorial-csharp-aspnet-core.md
-    - name: C#: Create a console app
+    - name: "C#: Create a console app"
       href: ide/tutorial-csharp-console.md
   - name: Visual Basic in Visual Studio
     href: ide/tutorial-visual-basic-console.md
