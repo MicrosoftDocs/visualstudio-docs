@@ -60,11 +60,6 @@ To debug a process on a remote computer, see [Attach to a process on a remote co
   
   - If you don't know the process name, browse through the list, or see [Common debugging scenarios](#BKMK_Scenarios) for some common process names. 
   
-  - To find processes running under all user accounts, select the **Show processes from all users** check box.
-      
-      >[!NOTE]
-      >If you try to attach to a process owned by an untrusted user account, a security warning dialog box confirmation will appear. For more information see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md).  
-  
   >[!TIP]
   >Processes can start and stop in the background while the **Attach to Process** dialog box is open, so the list of running processes may not always be current. You can select **Refresh** at any time to see the current list. 
   
@@ -164,7 +159,7 @@ To quickly select a running process to attach to, in Visual Studio, type **Ctrl*
 |Debug a C#, Visual Basic, or C++ app on the local machine|Use either [standard debugging](../debugger/getting-started-with-the-debugger.md) or **Attach to Process**|*\<appname>.exe*|In most scenarios, use standard debugging and not **Attach to Process**.|
 |Remote debug a Windows desktop app|Remote tools|N/A| See [Remote debug a C# or Visual Basic app](../debugger/remote-debugging-csharp.md) or [Remote debug a C++ app](../debugger/remote-debugging-cpp.md)|
 |Debug ASP.NET apps on the local machine after starting the app without the debugger|Use **Attach to Process**|*iiexpress.exe*|This may be helpful to make your app load faster, such as (for example) when profiling. |
-|Debug other supported app types on a server process|Use remote tools (if server is remote) and **Attach to Process**|*chrome.exe*, *iexplore.exe*, or other processes|See [Remote debugging](../debugger/remote-debugging.md).|
+|Debug other supported app types on a server process|Use remote tools (if server is remote) and **Attach to Process**|*chrome.exe*, *iexplore.exe*, or other processes|If necessary, use Resource Monitor to help identify the process. See [Remote debugging](../debugger/remote-debugging.md).|
 |Remote debug a Universal Windows App (UWP), OneCore, HoloLens, or IoT app|Debug installed app package|N/A|See [Debug an installed app package](debug-installed-app-package.md) instead of using **Attach to Process**|
 |Debug a Universal Windows App (UWP), OneCore, HoloLens, or IoT app that you didn't start from Visual Studio|Debug installed app package|N/A|See [Debug an installed app package](debug-installed-app-package.md) instead of using **Attach to Process**|  
   
