@@ -121,7 +121,7 @@
   - name: Debugger tips and tricks
     href: debugger-tips-and-tricks.md
     items:
-    - name: Attach to running processes with the Visual Studio debugger
+    - name: Attach to running processes with the debugger
       href: attach-to-running-processes-with-the-visual-studio-debugger.md
     - name: Debug at design time
       href: walkthrough-debugging-at-design-time.md
