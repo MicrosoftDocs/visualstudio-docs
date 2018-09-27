@@ -10,7 +10,7 @@ manager: douge
 ms.workload:
   - "dotnet"
 ---
-# Add a parameter to a method uisng a Quick Action
+# Add a parameter to a method using a Quick Action
 
 This code generation applies to:
 

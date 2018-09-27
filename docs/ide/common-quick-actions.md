@@ -106,7 +106,7 @@ The **Remove Unnecessary Usings/Imports** Quick Action removes any unused `using
 
 ### Remove unnecessary cast
 
-If you cast a type to another type which doesn't require a cast, the **Remove Unnecessary Cast** Quick Action item removes the unnecessary cast.
+If you cast a type to another type that doesn't require a cast, the **Remove Unnecessary Cast** Quick Action item removes the unnecessary cast.
 
 ```csharp
 // before
@@ -484,7 +484,7 @@ Dim s As String = $"My string with {num} in the middle"
 
 ### Use object initializers
 
-This Quick Action enables you to use [object initializers](/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers) rather than invoking tne constructor and having additional lines of assignment statements.
+This Quick Action enables you to use [object initializers](/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers) rather than invoking the constructor and having additional lines of assignment statements.
 
 ```csharp
 // Before
