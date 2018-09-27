@@ -1,6 +1,6 @@
 ---
 title: "CA1724: Type Names Should Not Match Namespaces"
-ms.date: 11/04/2016
+ms.date: 09/28/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-code-analysis
 ms.topic: reference
@@ -17,7 +17,7 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# CA1724: Type Names Should Not Match Namespaces
+# CA1724: Type names should not match namespaces
 
 |||
 |-|-|
@@ -28,15 +28,15 @@ ms.workload:
 
 ## Cause
 
-A type name matches a .NET Framework namespace name in a case-insensitive comparison.
+A type name matches a referenced namespace name that has one or more externally visible types. The name comparison is case-insensitive.
 
 ## Rule description
 
-Type names should not match the names of namespaces that are defined in the .NET Framework class library. Violating this rule can reduce the usability of the library.
+User-created type names should not match the names of referenced namespaces that have externally visible types. Violating this rule can reduce the usability of your library.
 
 ## How to fix violations
 
-Select a type name that does not match the name of a .NET Framework class library namespace.
+Rename the type such that it doesn't match the name of a referenced namespace that has externally visible types.
 
 ## When to suppress warnings
 
