@@ -31,7 +31,7 @@ ms.workload:
 
 ## Cause
 
-A platform invoke method is defined and a method with the equivalent functionality exists in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] class library.
+A platform invoke method is defined and a method with the equivalent functionality exists in the .NET Framework class library.
 
 ## Rule description
 
