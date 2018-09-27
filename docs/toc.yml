@@ -281,6 +281,8 @@
             href: ide/reference/generate-field-property-local.md
           - name: Generate constructor
             href: ide/reference/generate-constructor.md
+          - name: Add parameter to method
+            href: ide/reference/add-parameter.md
           - name: Generate override
             href: ide/reference/generate-override.md
           - name: Generate Equals and GetHashCode method overrides
