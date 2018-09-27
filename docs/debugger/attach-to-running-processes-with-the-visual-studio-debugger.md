@@ -33,7 +33,7 @@ ms.workload:
 # Attach to running processes with the Visual Studio debugger
 You can attach the Visual Studio debugger to a running process on a local or remote computer. After the process is running, in Visual Studio, click **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**) to open the **Attach to Process** dialog box.
 
-You can use **Attach to Process** to debug running apps on local or remote computers, debug multiple processes simultaneously, or debug apps that were not created in Visual Studio. **Attach to Process** is useful for debugging any app you did not start from Visual Studio with the debugger attached. For example, if you are running an app without the debugger and hit an exception, you can then attach the debugger to the process running the app and begin debugging.
+You can use **Attach to Process** to debug running apps on local or remote computers, debug multiple processes simultaneously, debug apps that were not created in Visual Studio, or debug any app you did not start from Visual Studio with the debugger attached. For example, if you are running an app without the debugger and hit an exception, you can then attach the debugger to the process running the app and begin debugging.
 
 For information about basic debugging in Visual Studio, see [Getting started with the debugger](../debugger/getting-started-with-the-debugger.md).
 
@@ -44,14 +44,15 @@ For information about basic debugging in Visual Studio, see [Getting started wit
 
 To quickly reattach to a process you attached to previously, see [Reattach to a process](#BKMK_reattach). To debug a process on a remote computer, see [Attach to a process on a remote computer](#BKMK_Attach_to_a_process_on_a_remote_computer).
 
+**To attach to a process on your local computer:**  
+
 1.  In Visual Studio, select **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**) to open the **Attach to Process** dialog box.
-  
-  ![DBG_Basics_Attach_To_Process](../debugger/media/DBG_Basics_Attach_To_Process.png "DBG_Basics_Attach_To_Process") 
-  
   **Connection type** should be **Default**, and **Connection target** should be your local machine name. 
   
   > [!NOTE]
   > The **Connection type** setting persists between debugging sessions. The **Connection target** setting persists between debugging sessions only if a successful debugging connection occurred with that target.
+  
+  ![DBG_Basics_Attach_To_Process](../debugger/media/DBG_Basics_Attach_To_Process.png "DBG_Basics_Attach_To_Process") 
   
 1.  Make sure the type of code you plan to debug is listed in the **Attach to** field. If not, select **Select** to display the **Select Code Type** dialog box. The default **Automatically determine the type of code to debug** setting works for most app types. To select the code types manually, select **Debug these code types**, select the code types to debug, and then select **OK**.
   
@@ -64,6 +65,7 @@ To quickly reattach to a process you attached to previously, see [Reattach to a 
   - To quickly select a process, type its name or first letter in the **Filter processes** box. 
   - If you don't know the process name, browse through the running processes, or see [Common debugging scenarios](#BKMK_Scenarios) for some common process names. 
   - To find processes running under all user accounts, select the **Show processes from all users** check box.
+    
     >[!NOTE]
     >If you try to attach to a process owned by an untrusted user account, a security warning dialog box confirmation will appear. For more information see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md).  
   
@@ -79,17 +81,19 @@ To quickly reattach to a process you attached to previously, see [Reattach to a 
 
 You can also select a remote computer in the **Attach to Process** dialog box, view a list of available processes running on that computer, and attach to one or more of the processes for debugging. The remote debugger (*msvsmon.exe*) must be running on the remote computer. For more information, see [Remote debugging](../debugger/remote-debugging.md). For more complete instructions for debugging ASP.NET applications that have been deployed to IIS, see [Remote debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md).
 
-**To attach to a process on a remote computer:**  
+**To attach to a running process on a remote computer:**  
 
 1.  In Visual Studio, select **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**) to open the **Attach to Process** dialog box.
   
-1.  **Connection type** should be **Default** for most cases. In the **Connection target** box, select the remote computer, using one of the following methods:
+1.  **Connection type** should be **Default** for most cases. 
+  In the **Connection target** box, select the remote computer, using one of the following methods:
 
   - Select the drop-down arrow next to **Connection target**, and select the computer name from the drop-down list.  
   - Type the computer name in the **Connection target** box.
-  
+    
     > [!NOTE]
     > If you can't connect using the remote computer name, try the IP and port address (for example, `123.45.678.9:4022`). 4022 is the default port for the Visual Studio 2017 x64 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).  
+    
   - Select the **Find** button next to the **Connection target** box to open the **Remote Connections** dialog box. The **Remote Connections** dialog box lists all the devices that are on your local subnet or directly attached to your computer. You may need to [open UDP port 3702](../debugger/remote-debugger-port-assignments.md) on the server to discover remote devices. Select the computer or device you want, and then click **Select**. 
   
   > [!NOTE]
@@ -104,15 +108,16 @@ You can also select a remote computer in the **Attach to Process** dialog box, v
   - To quickly select a process, type its name or first letter in the **Filter processes** box. 
   - If you don't know the process name, browse through the running processes, or see [Common debugging scenarios](#BKMK_Scenarios) for some common process names. 
   - To find processes running under all user accounts, select the **Show processes from all users** check box.
+    
     >[!NOTE]
     >If you try to attach to a process owned by an untrusted user account, a security warning dialog box confirmation will appear. For more information see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md).  
-  
+    
 1.  Select **Attach**.
   
 >[!NOTE]
 >You can be attached to multiple apps when you are debugging, but only one app is active in the debugger at a time. You can set the active app in the Visual Studio **Debug Location** toolbar or **Processes** window.  
 
-In some cases, when you debug in a Remote Desktop (Terminal Services) session, the **Available processes** list will not display all available processes. If you are running Visual Studio as a user who has a limited user account, the **Available processes** list will not show processes that are running in Session 0, which is used for services and other server processes, including *w3wp.exe*. You can solve the problem by running [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] under an administrator account or by running [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] from the server console instead of a Terminal Services session. If neither of those workarounds is possible, a third option is to attach to the process by running `vsjitdebugger.exe -p` \<ProcessId> from the Windows command line. You can determine the process id using *tlist.exe*. To obtain *tlist.exe*, download and install Debugging Tools for Windows, available at  [WDK and WinDbg downloads](/windows-hardware/drivers/download-the-wdk).
+In some cases, when you debug in a Remote Desktop (Terminal Services) session, the **Available processes** list will not display all available processes. If you are running Visual Studio as a user who has a limited user account, the **Available processes** list will not show processes that are running in Session 0, which is used for services and other server processes, including *w3wp.exe*. You can solve the problem by running [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] under an administrator account or by running [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] from the server console instead of a Terminal Services session. If neither of those workarounds is possible, a third option is to attach to the process by running `vsjitdebugger.exe -p <ProcessId>` from the Windows command line. You can determine the process id using *tlist.exe*. To obtain *tlist.exe*, download and install Debugging Tools for Windows, available at  [WDK and WinDbg downloads](/windows-hardware/drivers/download-the-wdk).
 
 ## <a name="BKMK_reattach"></a> Reattach to a process
 
@@ -123,7 +128,7 @@ You can quickly reattach to processes that you were previously attached to by ch
 
 ## <a name="BKMK_Scenarios"></a> Common debugging scenarios
 
-To help you determine whether to use **Attach to process** and what process to attach to, the following table shows a few common debugging scenarios, with links to more instructions where available. The list is not exhaustive. To quickly locate a process to attach to, type **Ctrl**+**Alt**+**P**, and then type the first letter of the process name.
+To help you determine whether to use **Attach to process** and what process to attach to, the following table shows a few common debugging scenarios, with links to more instructions where available. (The list is not exhaustive.) To quickly select the process to attach to, type **Ctrl**+**Alt**+**P**, and then type the first letter of the process name.
 
 For some app types, like Universal Windows App (UWP) apps, you don't attach directly to a process name, but use the **Debug Installed App Package** menu option in Visual Studio instead (see table).
 
@@ -143,7 +148,7 @@ For the debugger to attach to code written in C++, the code needs to emit `Debug
   
 ## Use debugger features
 
-To use the full features of the Visual Studio debugger (like hitting breakpoints) when attaching to a process, the executable must exactly match your local source and symbols (that is, the debugger must be able to load the correct [symbol (.pbd) files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)). By default, this requires a debug build.
+To use the full features of the Visual Studio debugger (like hitting breakpoints) when attaching to a process, the executable must exactly match your local source and symbols (that is, the debugger must be able to load the correct [symbol (.pbd) files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md). By default, this requires a debug build.
 
 For remote debugging scenarios, you must have the source code (or a copy of the source code) already open in Visual Studio. The compiled app binaries on the remote machine must come from the same build as on the local machine.
 
@@ -160,7 +165,7 @@ In some local debugging scenarios, you can debug in Visual Studio with no access
   
  If you want more specific information about why the debugger failed to attach to a code type, you can try to reattach to only that code type.  
   
- **To obtain specific information about why a code type failed to attach**  
+ **To obtain specific information about why a code type failed to attach:**  
   
 1.  Detach from the process. On the **Debug** menu, select **Detach All**.  
   
@@ -176,7 +181,7 @@ In some local debugging scenarios, you can debug in Visual Studio with no access
   
     5.  In the **Attach to Process** dialog box, select **Attach**.  
   
-     This time, the attach will fail completely, and you will get a specific error message.  
+    This time, the attach will fail completely, and you will get a specific error message.  
   
 ## See also  
  [Debug multiple processes](../debugger/debug-multiple-processes.md)   
