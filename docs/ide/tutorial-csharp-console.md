@@ -30,7 +30,7 @@ First, we'll create a C# application project. The project type comes with all th
 
 2. From the top menu bar, choose **File** > **New** > **Project**.
 
-3. In the **New Project** dialog box in the left pane, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *HelloWorld*.
+3. In the **New Project** dialog box in the left pane, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the file *Calculator*.
 
    ![Console App (.NET Core) project template in the New Project dialog box in the Visual Studio IDE](../ide/media/new-project-csharp-calculator-console-app.png)
 
@@ -42,7 +42,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. Choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
 
-   ![Choose the Open Visual Studio Installer link from the New Project dialog box](../ide/media/vs-open-visual-studio-installer-generic.png)
+   ![Choose the Open Visual Studio Installer link from the New Project dialog box](../ide/media/csharp-open-visual-studio-installer-generic-dark.png)
 
 1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
@@ -54,7 +54,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
-## Create a "Calculate This" application
+## Create a "C# Console Calculator" app
 
 1. Open Visual Studio 2017, and then from the top menu bar, choose **File** > **New** > **Project**.
 
@@ -63,30 +63,63 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 1. Enter the following code after the curly brace that appears beneath the `static void Main(string[] args)` line:
 
    ```C#
-       double num1;
-       double num2;
-       double answer;
-       string ops;
+      //Declare variables and then instantiate to zero
+      int num1 = 0; int num2 = 0;
 
-       Console.WriteLine("Console Calculator in C#"\r)
-       Console.WriteLine("------------------------"\r)
-       Console.WriteLine("Please enter the operation to perform"\r)
-       num1 = Console.ReadLine()
-       Console.WriteLine("Type another number to add to it and press Enter")
-       num2 = Console.ReadLine()
-       answer = num1 + num2
-       Console.WriteLine("The answer is " & answer)
-       Console.ReadLine()
-   End Sub
+      // Display as the C# console calculator app
+      Console.WriteLine("Console Calculator in C#\r");
+      Console.WriteLine("------------------------\n");
+            
+      // The user types the first number
+      Console.WriteLine("Type any number and then press Enter");
+      num1 = Convert.ToInt32(Console.ReadLine());
+
+      // The user types the second number
+      Console.WriteLine("Type a number greater than 0 and then press Enter");
+      num2 = Convert.ToInt32(Console.ReadLine());
+
+      // The user chooses an option
+      Console.WriteLine("Choose an option from the following list:");
+      Console.WriteLine("\ta - Add");
+      Console.WriteLine("\tb - Subtract");
+      Console.WriteLine("\tc - Multiply");
+      Console.WriteLine("\td - Divide");
+      Console.Write("Your option? ");
+
+      // Use a switch to perform the math
+      switch (Console.ReadLine())
+        {   
+          case"a":
+            Console.WriteLine("Your result: " + num1 + " + " + num2 + " = " + (num1 + num2));
+            break;
+          case "b":
+            Console.WriteLine("Your result: " + num1 + " - " + num2 + " = " + (num1 - num2));
+            break;
+          case "c":
+            Console.WriteLine("Your result: " + num1 + " * " + num2 + " = " + (num1 * num2));
+                break;
+            case "d":
+              Console.WriteLine("Your result: " + num1 + " / " + num2 + " = " + (num1 / num2));
+                break;
+            // Return text for an incorrect entry
+            default:
+              Console.WriteLine("That is an incorrect entry, please try again.");
+                break;
+            }
+
+            // Wait for the user to respond before closing
+            Console.Write("Press any key to close the C# Console Calculator...");
+            Console.ReadKey();
+        }
    ```
 
-   Your code window should look like the following screenshot:
+   Your code editor should look like the following:
 
-   ![Code window showing the Calculate This code](../ide/media/vb-codewindow-calculate-this.png)
+   ![Code editor showing the C# Console Calculator](../ide/media/csharp-console-calculator-code.png)
 
 1. Choose **Calculator** to run your program, or press **F5**. Your console window should look similar to the following screenshot:
 
-    ![Console window showing the Calculator app, which includes prompts on which actions to take.](../ide/media/vb-console-calculate-this.png)
+    ![Console window showing the Calculator app, which includes prompts on which actions to take.](../ide/media/csharp-console-calculator.png) 
 
 ## Quick answers FAQ
 
@@ -94,7 +127,7 @@ Here's a quick FAQ to highlight some key concepts.
 
 ### What is C#?
 
-C# is a type-safe programming language that's designed to be easy to learn. With C#, you can create apps that run on the .NET Framework, to include Windows client applications, XML Web services, distributed components, client-server applications, database applications, and more.
+C# is a type-safe programming language that's designed to be easy to learn. With C#, you can create apps that run on .NET Core, such as Windows client applications, XML Web services, distributed components, client-server applications, database applications, and more.
 
 ### What is Visual Studio?
 
