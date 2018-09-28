@@ -135,7 +135,11 @@
   - name: Node.js in Visual Studio
     href: javascript/tutorial-nodejs.md
   - name: C# in Visual Studio
-    href: ide/tutorial-csharp-aspnet-core.md
+    items:
+    - name: "C#: Create a web app"
+      href: ide/tutorial-csharp-aspnet-core.md
+    - name: "C#: Create a console app"
+      href: ide/tutorial-csharp-console.md
   - name: Visual Basic in Visual Studio
     href: ide/tutorial-visual-basic-console.md
   - name: Debug in Visual Studio
@@ -281,6 +285,8 @@
             href: ide/reference/generate-field-property-local.md
           - name: Generate constructor
             href: ide/reference/generate-constructor.md
+          - name: Add parameter to method
+            href: ide/reference/add-parameter.md
           - name: Generate override
             href: ide/reference/generate-override.md
           - name: Generate Equals and GetHashCode method overrides
@@ -390,7 +396,7 @@
             href: ide/editorconfig-code-style-settings-reference.md
           - name: .NET naming conventions
             href: ide/editorconfig-naming-conventions.md
-      - name: Customize the scrollbar
+      - name: Customize the scroll bar
         href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md
       - name: Set bookmarks in code
         href: ide/setting-bookmarks-in-code.md
