@@ -1,6 +1,6 @@
 ---
 title: "Dependency Diagrams Reference"
-ms.date: 11/04/2016
+ms.date: 09/28/2018
 ms.topic: reference
 f1_keywords:
   - "vs.teamarch.layerdiagram.layerexplorer.artifactlink"
@@ -23,11 +23,14 @@ ms.workload:
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
-# Dependency Diagrams: Reference
+# Dependency diagrams: reference
 
 In Visual Studio, you can use a *dependency diagram* to visualize the high-level, logical architecture of your system. A dependency diagram organizes the physical artifacts in your system into logical, abstract groups called *layers*. These layers describe major tasks that the artifacts perform or the major components of your system. Each layer can also contain nested layers that describe more detailed tasks.
 
 To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+
+> [!NOTE]
+> Dependency diagrams are not supported for .NET Core projects in Visual Studio 2017.
 
 You can specify the intended or existing dependencies between layers. These dependencies, which are represented as arrows, indicate which layers can use or currently use the functionality represented by other layers. By organizing your system into layers that describe distinct roles and functions, a dependency diagram can help make it easier for you to understand, reuse, and maintain your code.
 
@@ -73,22 +76,22 @@ For more information about linking layers and artifacts, see:
 
 -   [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)
 
-#### To examine the linked artifacts
+### Examine the linked artifacts
 
--   On the dependency diagram, open the shortcut menu for one or more layers, and then choose **View Links**.
+On the dependency diagram, open the shortcut menu for one or more layers, and then choose **View Links**.
 
-     **Layer Explorer** opens and shows the artifacts that are linked to the selected layers. **Layer Explorer** has a column that shows each of the properties of the artifact links.
+**Layer Explorer** opens and shows the artifacts that are linked to the selected layers. **Layer Explorer** has a column that shows each of the properties of the artifact links.
 
-    > [!NOTE]
-    > If you cannot see all of these properties, expand the **Layer Explorer** window.
+> [!NOTE]
+> If you cannot see all of these properties, expand the **Layer Explorer** window.
 
-    |**Column in Layer Explorer**|**Description**|
-    |----------------------------------|---------------------|
-    |**Categories**|The kind of artifact, such as a class, namespace, source file, and so on|
-    |**Layer**|The layer that links to the artifact|
-    |**Supports Validation**|If **True**, then the layer validation process can verify that the project conforms to dependencies to or from this element.<br /><br /> If **False**, then the link does not participate in the layer validation process.<br /><br /> For more information, see [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md).|
-    |**Identifier**|The reference to the linked artifact|
+|**Column in Layer Explorer**|**Description**|
+|----------------------------------|---------------------|
+|**Categories**|The kind of artifact, such as a class, namespace, source file, and so on|
+|**Layer**|The layer that links to the artifact|
+|**Supports Validation**|If **True**, then the layer validation process can verify that the project conforms to dependencies to or from this element.<br /><br /> If **False**, then the link does not participate in the layer validation process.<br /><br /> For more information, see [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md).|
+|**Identifier**|The reference to the linked artifact|
 
-## See Also
+## See also
 
 - [Create models for your app](../modeling/create-models-for-your-app.md)
