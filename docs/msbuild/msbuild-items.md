@@ -54,25 +54,26 @@ MSBuild items are inputs into the build system, and they typically represent fil
  By default, the items of an item type are separated by semicolons (;) when it's expanded. You can use the syntax @(\<ItemType>, '\<separator>') to specify a separator other than the default. For more information, see [How to: Display an item list separated with commas](../msbuild/how-to-display-an-item-list-separated-with-commas.md).  
   
 ##  Use wildcards to specify items  
- You can use the **, \*, and ? wildcard characters to specify a group of files as inputs for a build instead of listing each file separately.  
-  
--   The ? wildcard character matches a single character.  
-  
--   The * wildcard character matches zero or more characters.  
-  
--   The ** wildcard character sequence matches a partial path.  
 
-For example, you can specify all the *.cs* files in the directory that contains the project file by using the following element in your project file.  
+You can use the `**`, `*`, and `?` wildcard characters to specify a group of files as inputs for a build instead of listing each file separately.
+  
+- The `?` wildcard character matches a single character.
+- The `*` wildcard character matches zero or more characters.
+- The `**` wildcard character sequence matches a partial path.
+
+For example, you can specify all the `.cs` files in the directory that contains the project file by using the following element in your project file.
 
 ```xml  
 <CSFile Include="*.cs"/>  
 ```  
 
-The following element selects all *.vb* files on the *D:* drive:  
+The following element selects all `.vb` files on the `D:` drive:
 
 ```xml  
 <VBFile Include="D:/**/*.vb"/>  
 ```  
+
+If you would like to include literal `*` or `?` characters in an item without wildcard expansion, you must [escape the wildcard characters](../msbuild/how-to-escape-special-characters-in-msbuild.md).
 
 For more information about wildcard characters, see [How to: Select the files to build](../msbuild/how-to-select-the-files-to-build.md).  
 
