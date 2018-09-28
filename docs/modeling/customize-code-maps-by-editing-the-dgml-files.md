@@ -24,12 +24,13 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Customize code maps by editing the DGML files
-To customize a code map, you can edit a map's Directed Graph Markup Language (.dgml) file. For example, you can edit elements to specify custom styles, assign properties and categories to code elements and links, or link documents or URLs to code elements or to links. For more information about DGML elements, see [Directed Graph Markup Language (DGML) reference](../modeling/directed-graph-markup-language-dgml-reference.md).
 
- Edit the code map's .dgml file in a text or XML editor. If the map is part of your Visual Studio solution, select it in **Solution Explorer**, open the shortcut menu, and choose **Open With**, **XML (Text) Editor**.
+To customize a code map, you can edit its Directed Graph Markup Language (.dgml) file. For example, you can edit elements to specify custom styles, assign properties and categories to code elements and links, or link documents or URLs to code elements or to links. For more information about DGML elements, see [Directed Graph Markup Language (DGML) reference](../modeling/directed-graph-markup-language-dgml-reference.md).
+
+Edit the code map's .dgml file in a text or XML editor. If the map is part of your Visual Studio solution, select it in **Solution Explorer**, open the shortcut menu, and choose **Open With**, **XML (Text) Editor**.
 
 > [!NOTE]
->  To create code maps, you must have Visual Studio Enterprise. When you edit a code map in Visual Studio, it cleans up any unused DGML elements and attributes by deleting them when you save the .dgml file. It also creates code elements automatically when you manually add new links. When you save the .dgml file, any attributes that you added to an element might rearrange themselves in alphabetical order.
+> To create code maps, you must have Visual Studio Enterprise edition. When you edit a code map in Visual Studio, it cleans up any unused DGML elements and attributes by deleting them when you save the .dgml file. It also creates code elements automatically when you manually add new links. When you save the .dgml file, any attributes that you added to an element might rearrange themselves in alphabetical order.
 
 ## <a name="OrganizeNodes"></a> Group code elements
  You can add new groups or convert existing nodes into a group.

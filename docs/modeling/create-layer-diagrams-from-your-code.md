@@ -34,7 +34,10 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 >
 > Instead, add a new dependency diagram to the modeling project. Copy the elements from the source diagram to the new diagram. Save both the modeling project and the new dependency diagram.
 
-### To add a new dependency diagram to a modeling project
+### Add a new dependency diagram to a modeling project
+
+> [!NOTE]
+> Dependency diagrams are not supported for .NET Core projects in Visual Studio 2017.
 
 1.  On the **Architecture** menu, choose **New Dependency Diagram**.
 
