@@ -83,21 +83,21 @@ In this release of Visual Studio, dependency validation occurs in real time, and
 
 * Adding a new dependency validation project triggers a project update.
 
-##  <a name="SupportsValidation"></a> See if an item supports validation
+## <a name="SupportsValidation"></a> See if an item supports validation
  You can link layers to websites, Office documents, plain text files, and files in projects that are shared across multiple apps, but the validation process won't include them. Validation errors won't appear for references to projects or assemblies that are linked to separate layers when no dependencies appear between those layers. Such references are not considered dependencies unless the code uses those references.
 
 1.  On the dependency diagram, select one or more layers, right-click your selection, and then click **View Links**.
 
 2.  In **Layer Explorer**, look at the **Supports Validation** column. If the value is false, the item does not support validation.
 
-##  <a name="IncludeReferences"></a> Include other .NET assemblies and projects for validation
+## <a name="IncludeReferences"></a> Include other .NET assemblies and projects for validation
  When you drag items to the dependency diagram, references to the corresponding .NET assemblies or projects are added automatically to the **Layer References** folder in the modeling project. This folder contains references to the assemblies and projects that are analyzed during validation. You can include other .NET assemblies and projects for validation without manually dragging them to the dependency diagram.
 
 1.  In **Solution Explorer**, right-click the modeling project or the **Layer References** folder, and then click **Add Reference**.
 
 2.  In the **Add Reference** dialog box, select the assemblies or projects, and then click **OK**.
 
-##  <a name="ValidateManually"></a> Validate code manually
+## <a name="ValidateManually"></a> Validate code manually
  If you have an open dependency diagram  that is linked to solution items, you can run the **Validate** shortcut command from the diagram. You can also use the command prompt to run the **msbuild** command with the **/p:ValidateArchitecture** custom property set to **True**. For example, as you make changes in the code, perform layer validation regularly so that you can catch dependency conflicts early.
 
 #### To validate code from an open dependency diagram
@@ -154,7 +154,7 @@ In this release of Visual Studio, dependency validation occurs in real time, and
 
  For more information about validation errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).
 
-###  <a name="ManageErrors"></a> Manage validation errors
+### <a name="ManageErrors"></a> Manage validation errors
  During the development process, you might want to suppress some of the reported conflicts during validation. For example, you might want to suppress errors that you are already addressing or that are not relevant to your particular scenario. When you suppress an error, it is a good practice to log a work item in [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)].
 
 > [!WARNING]
@@ -173,7 +173,7 @@ In this release of Visual Studio, dependency validation occurs in real time, and
 |Restore all suppressed errors in the **Error List** window|Right-click anywhere in the **Error List** window, point to **Manage Validation Errors**, and then click **Show All Suppressed Errors**.|
 |Hide all suppressed errors from the **Error List** window|Right-click anywhere in the **Error List** window, point to **Manage Validation Errors**, and then click **Hide All Suppressed Errors**.|
 
-##  <a name="ValidateAuto"></a> Validate code automatically
+## <a name="ValidateAuto"></a> Validate code automatically
 
 You can perform layer validation every time that you run a local build. If your team uses Azure DevOps, you can perform layer validation with gated check-ins, which you can specify by creating a custom MSBuild task, and use build reports to collect validation errors. To create gated check-in builds, see [Use a gated check-in build process to validate changes](http://msdn.microsoft.com/Library/9cfc8b9c-1023-40fd-8ab5-1b1bd9c172ec).
 
@@ -201,14 +201,14 @@ Use a text editor to open the modeling project (.modelproj) file, and then inclu
 
 To manage errors in the Error List window, see [Manage Validation Errors](#ManageErrors).
 
-##  <a name="TroubleshootingValidation"></a> Troubleshoot layer validation issues
+## <a name="TroubleshootingValidation"></a> Troubleshoot layer validation issues
  The following table describes layer validation issues and their resolution. These issues differ from errors that result from conflicts between the code and the design. For more information about these errors, see [Understand and resolve layer validation errors](#UnderstandingValidationErrors).
 
 |**Issue**|**Possible Cause**|**Resolution**|
 |---------------|------------------------|--------------------|
 |Validation errors do not occur as expected.|Validation does not work on dependency diagrams that are copied from other dependency diagrams in Solution Explorer and that are in the same modeling project. dependency diagrams that are copied in this way contain the same references as the original dependency diagram.|Add a new dependency diagram  to the modeling project.<br /><br /> Copy the elements from the source dependency diagram  to the new diagram.|
 
-##  <a name="UnderstandingValidationErrors"></a> Understanding and Resolving Layer Validation Errors
+## <a name="UnderstandingValidationErrors"></a> Understanding and Resolving Layer Validation Errors
  When you validate code against a dependency diagram, validation errors occur when the code conflicts with the design. For example, the following conditions might cause validation errors to occur:
 
 -   An artifact is assigned to the wrong layer. In this case, move the artifact.

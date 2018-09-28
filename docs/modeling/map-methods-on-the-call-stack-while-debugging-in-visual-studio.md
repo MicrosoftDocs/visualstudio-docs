@@ -60,7 +60,7 @@ Create a code map to visually trace the call stack while you're debugging. You c
 
  For details of the commands and actions you can use when working with code maps, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).
 
-##  <a name="MapStack"></a> Map the call stack
+## <a name="MapStack"></a> Map the call stack
 
 1.  Start debugging. (Keyboard: **F5**)
 
@@ -74,17 +74,17 @@ Create a code map to visually trace the call stack while you're debugging. You c
 
      The map will update automatically while you continue debugging. See [Update the map with the next call stack](#UpdateMap).
 
-##  <a name="MakeNotes"></a> Make notes about the code
+## <a name="MakeNotes"></a> Make notes about the code
  Add comments to track what's happening in the code. To add a new line in a comment, press **Shift + Return**.
 
  ![Add comment to call stack on code map](../debugger/media/debuggermap_addcomment.png)
 
-##  <a name="UpdateMap"></a> Update the map with the next call stack
+## <a name="UpdateMap"></a> Update the map with the next call stack
  Run your app to the next breakpoint or step into a function. The map adds a new call stack.
 
  ![Update code map with next call stack](../debugger/media/debuggermap_addclearcallstack.png)
 
-##  <a name="AddRelatedCode"></a> Add related code to the map
+## <a name="AddRelatedCode"></a> Add related code to the map
  Now you've got a map - what next? If you're working with C# or Visual Basic, add items, such as fields, properties, and other methods, to track what's happening in the code.
 
  Double-click a method to see its code definition, or use the shortcut menu for the method. (Keyboard: Select the method on the map and press **F12**)
@@ -108,7 +108,7 @@ Create a code map to visually trace the call stack while you're debugging. You c
 
  ![Methods that use a field on call stack code map](../debugger/media/debuggermap_foundallreferences.png)
 
-##  <a name="FindBugs"></a> Find bugs using the map
+## <a name="FindBugs"></a> Find bugs using the map
  Visualizing your code can help you find bugs faster. For example, suppose you're investigating a bug in a drawing program. When you draw a line and try to undo it, nothing happens until you draw another line.
 
  So you set breakpoints in the `clear`, `undo`, and `Repaint` methods, start debugging, and build a map like this one:
@@ -121,7 +121,7 @@ Create a code map to visually trace the call stack while you're debugging. You c
 
  ![Add new method call to call stack on code map](../debugger/media/debuggermap_addnewcallforrepaint.png)
 
-##  <a name="QA"></a> Q & A
+## <a name="QA"></a> Q & A
 
 -   **Not all calls appear on the map. Why?**
 

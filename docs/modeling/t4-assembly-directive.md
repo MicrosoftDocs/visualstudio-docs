@@ -59,7 +59,7 @@ In a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] design-time text 
 
 -   The assembly containing your DSL.
 
-##  <a name="msbuild"></a> Using project properties in both MSBuild and Visual Studio
+## <a name="msbuild"></a> Using project properties in both MSBuild and Visual Studio
  Visual Studio macros like $(SolutionDir) don't work in MSBuild. If you want to transform templates in your build machine, you have to use project properties instead.
 
  Edit your .csproj or .vbproj file to define a project property. This example defines a property named `myLibFolder`:

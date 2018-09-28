@@ -57,7 +57,7 @@ The following table describes the elements that you can use on a dependency diag
 |4|**Comment**|Use to add general notes to the diagram or elements on the diagram.|
 |5|**Comment Link**|Use to link comments to elements on the diagram.|
 
-##  <a name="Explorer"></a> Layer Explorer
+## <a name="Explorer"></a> Layer Explorer
 
 You can link each layer to artifacts in your solution, such as projects, classes, namespaces, project files, and other parts of your software. The number on a layer shows the number of artifacts that are linked to the layer. However, when reading the number of artifacts on a layer, remember the following:
 

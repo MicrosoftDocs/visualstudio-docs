@@ -163,7 +163,7 @@ Dinner Now must estimate the cost of meeting the new requirement. This depends p
 |------------------|-------------------|
 |*Code-based class diagram*<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).|Existing classes in code.|
 
-###  <a name="ValidatingCode"></a> Keep Code Consistent with the Design
+### <a name="ValidatingCode"></a> Keep Code Consistent with the Design
  Dinner Now must make sure that the updated code stays consistent with the design. They create dependency diagrams that describe the layers of functionality in the system, specify the permitted dependencies between them, and associate solution artifacts to those layers.
 
 |**Diagram**|**Describes**|

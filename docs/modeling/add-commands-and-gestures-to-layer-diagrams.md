@@ -102,7 +102,7 @@ You can define context menu commands and gesture handlers on dependency diagrams
 
      To uninstall it, use **Extensions and Updates** on the **Tools** menu.
 
-##  <a name="command"></a> Defining a Menu Command
+## <a name="command"></a> Defining a Menu Command
  You can add more menu command definitions to an existing gesture or command project. Each command is defined by a class that has the following characteristics:
 
 -   The class is declared as follows:
@@ -207,7 +207,7 @@ namespace MyLayerExtension // Change to your preference.
 }
 ```
 
-##  <a name="gesture"></a> Defining a Gesture Handler
+## <a name="gesture"></a> Defining a Gesture Handler
  A gesture handler responds when the user drags items onto the dependency diagram, and when the user double-clicks anywhere in the diagram.
 
  To your existing command or gesture handler VSIX project, you can add a code file that defines a gesture handler:
