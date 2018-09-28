@@ -114,7 +114,7 @@ When you select a time period in the graphs and choose **view details**, a detai
 
 You can also use the graphs to determine whether there are CPU bound or GPU bound performance bottlenecks.
 
-## Analyze performance (JavaScript)
+## Analyze performance (JavaScript UWP)
 
 For UWP apps, you can use the JavaScript Memory tool and the HTML UI Responsiveness tool.
 
@@ -150,8 +150,8 @@ Here is a table that lists the different tools Visual Studio offers and the diff
   
 |Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core| 
 |----------------------|---------------------|-------------|-------------|  
-|[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes| 
 |[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|
+|[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes| 
 |[GPU Usage](../debugger/gpu-usage.md)|yes|yes|no| 
 |[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|
 |[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|yes|
