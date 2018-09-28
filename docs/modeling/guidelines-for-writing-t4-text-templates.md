@@ -11,16 +11,16 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Guidelines for Writing T4 Text Templates
-These general guidelines might be helpful if you are generating program code or other application resources in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. They are not fixed rules.
+These general guidelines might be helpful if you are generating program code or other application resources in Visual Studio. They are not fixed rules.
 
 ## Guidelines for Design-Time T4 Templates
- Design-time T4 templates are templates that generate code in your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project at design time. For more information, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md).
+ Design-time T4 templates are templates that generate code in your Visual Studio project at design time. For more information, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md).
 
  Generate variable aspects of the application.
  Code generation is most useful for those aspects of the application that might change during the project, or will change between different versions of the application. Separate these variable aspects from the more invariant aspects so that you can more easily determine what has to be generated. For example, if your application provides a website, separate the standard page serving functions from the logic that defines the navigation paths from one page to another.
 
  Encode the variable aspects in one or more source models.
- A model is a file or database that each template reads to obtain specific values for variable parts of the code that is to be generated. Models can be databases, XML files of your own design, diagrams, or domain-specific languages. Typically, one model is used to generate many files in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. Each file is generated from a separate template.
+ A model is a file or database that each template reads to obtain specific values for variable parts of the code that is to be generated. Models can be databases, XML files of your own design, diagrams, or domain-specific languages. Typically, one model is used to generate many files in a Visual Studio project. Each file is generated from a separate template.
 
  You can use more than one model in a project. For example, you might define a model for navigation between web pages, and a separate model for the layout of the pages.
 
@@ -123,7 +123,7 @@ class FabrikamTemplate : MyStandardRunTimeTemplate
  Try to avoid mixing computation and text blocks. In each text template, use the first \<# code block #> to set variables and perform complex computations. From the first text block down to the end of the template or the first \<#+ class feature block #>, avoid long expressions, and avoid loops and conditionals unless they contain text blocks. This practice makes the template easier to read and maintain.
 
  Don't use `.tt` for include files
- Use a different file name extension such as `.ttinclude` for include files. Use `.tt` only for files that you want to be processed either as run-time or design-time text templates. In some cases, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] recognizes `.tt` files and automatically sets their properties for processing.
+ Use a different file name extension such as `.ttinclude` for include files. Use `.tt` only for files that you want to be processed either as run-time or design-time text templates. In some cases, Visual Studio recognizes `.tt` files and automatically sets their properties for processing.
 
  Start each template as a fixed prototype.
  Write an example of the code or text that you want to generate, and make sure that it is correct. Then change its extension to .tt and incrementally insert code that modifies the content by reading the model.

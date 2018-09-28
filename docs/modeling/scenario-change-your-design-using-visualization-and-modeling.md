@@ -106,7 +106,7 @@ Both teams also use dependency validation to make sure that code under developme
 - [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)
 
 > [!NOTE]
-> Some versions of Visual Studio support dependency validation and read-only versions of code maps for visualization and modeling. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+> Some versions of Visual Studio support dependency validation and read-only versions of code maps for visualization and modeling. To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
 ## Understand and communicate information about the system
 
@@ -163,12 +163,12 @@ Dinner Now must estimate the cost of meeting the new requirement. This depends p
 |------------------|-------------------|
 |*Code-based class diagram*<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).|Existing classes in code.|
 
-###  <a name="ValidatingCode"></a> Keep Code Consistent with the Design
+### <a name="ValidatingCode"></a> Keep Code Consistent with the Design
  Dinner Now must make sure that the updated code stays consistent with the design. They create dependency diagrams that describe the layers of functionality in the system, specify the permitted dependencies between them, and associate solution artifacts to those layers.
 
 |**Diagram**|**Describes**|
 |-----------------|-------------------|
-|*Dependency diagram*<br /><br /> See:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />- [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)|The logical architecture of the code.<br /><br /> A dependency diagram organizes and maps the artifacts in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution to abstract groups called *layers*. These layers identify the roles, tasks, or functions that these artifacts perform in the system.<br /><br /> Layer diagrams are useful for describing the intended design of the system and validating evolving code against that design.<br /><br /> To create layers, drag items from Solution Explorer, code maps, Class View, and Object Browser. To draw new layers, use the toolbox or right-click the diagram surface.<br /><br /> To view existing dependencies, right-click the layer diagram surface, and then click **Generate Dependencies**. To specify intended dependencies, draw new dependencies.|
+|*Dependency diagram*<br /><br /> See:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />- [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)|The logical architecture of the code.<br /><br /> A dependency diagram organizes and maps the artifacts in a Visual Studio solution to abstract groups called *layers*. These layers identify the roles, tasks, or functions that these artifacts perform in the system.<br /><br /> Layer diagrams are useful for describing the intended design of the system and validating evolving code against that design.<br /><br /> To create layers, drag items from Solution Explorer, code maps, Class View, and Object Browser. To draw new layers, use the toolbox or right-click the diagram surface.<br /><br /> To view existing dependencies, right-click the layer diagram surface, and then click **Generate Dependencies**. To specify intended dependencies, draw new dependencies.|
 
  For example, the following dependency diagram describes dependencies between layers and the number of artifacts that are associated with each layer:
 
@@ -218,7 +218,7 @@ See:
 
 ### <a name="TestValidateCheckInCode"></a> Test, Validate, and Check In Code
 
-As the teams complete each task, they check their code into Team Foundation version control and receive reminders from Team Foundation Server, if they forget. Before Team Foundation Server accepts their check-ins, the teams run unit tests and dependency validation to verify the code against their test cases and the design. They use Team Foundation Server to run builds, automated unit tests, and dependency validation regularly. This helps make sure that the code meets the following criteria:
+As the teams complete each task, they check their code into source control and receive reminders from Team Foundation Server, if they forget. Before Team Foundation Server accepts their check-ins, the teams run unit tests and dependency validation to verify the code against their test cases and the design. They use Team Foundation Server to run builds, automated unit tests, and dependency validation regularly. This helps make sure that the code meets the following criteria:
 
 - It works.
 

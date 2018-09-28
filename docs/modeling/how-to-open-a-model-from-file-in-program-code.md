@@ -13,14 +13,14 @@ ms.technology: vs-ide-modeling
 # How to: Open a Model from File in Program Code
 You can open DSL models in any application.
 
- From a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extension, you can use ModelBus for this purpose. ModelBus provides standard mechanism for referencing a model or elements in a model, and for finding the model if it has moved. For more information, see [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md).
+ From a Visual Studio extension, you can use ModelBus for this purpose. ModelBus provides standard mechanism for referencing a model or elements in a model, and for finding the model if it has moved. For more information, see [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md).
 
 ## Target Framework
  Set the **Target framework** of your application project to **.NET Framework 4**.
 
 #### To set the Target framework
 
-1.  Open the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project for the application in which you want to read a DSL model.
+1.  Open the Visual Studio project for the application in which you want to read a DSL model.
 
 2.  In **Solution Explorer**, right-click the project and then click **Properties**.
 
@@ -30,7 +30,7 @@ You can open DSL models in any application.
 >  You might need to do this even if you selected **.NET Framework 4** in the project creation dialog box. The target framework should not be **.NET Framework 4 Client Profile**.
 
 ## References
- You have to add these references to your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] application project:
+ You have to add these references to your Visual Studio application project:
 
 -   `Microsoft.VisualStudio.Modeling.Sdk.11.0`
 

@@ -13,7 +13,7 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Deploying Domain-Specific Language Solutions
-You can install a domain-specific language on your own computer or on other computers. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] must already be installed on the target computer.
+You can install a domain-specific language on your own computer or on other computers. Visual Studio must already be installed on the target computer.
 
 -   [MSI and VSIX Deployment of a DSL](../modeling/msi-and-vsix-deployment-of-a-dsl.md)
 
