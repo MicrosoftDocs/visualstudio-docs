@@ -113,7 +113,7 @@ In Visual Studio, users can validate the source code in a project against a laye
 
      To uninstall it, use **Extensions and Updates** on the **Tools** menu.
 
-## <a name="programming"></a> Programming Validation
+##  <a name="programming"></a> Programming Validation
  To define a layer validation extension, you define a class that has the following characteristics:
 
 -   The overall form of the declaration is as follows:
@@ -182,7 +182,7 @@ In Visual Studio, users can validate the source code in a project against a laye
 
  Links from layers to elements in the code have the category "Represents".
 
-## <a name="debugging"></a> Debugging Validation
+##  <a name="debugging"></a> Debugging Validation
  To debug your layer validation extension, press CTRL+F5. An experimental instance of Visual Studio opens. In this instance, open or create a layer model. This model must be associated with code, and must have at least one dependency.
 
 ### Test with a Solution that contains Dependencies
@@ -210,7 +210,7 @@ In Visual Studio, users can validate the source code in a project against a laye
 
 To install your validation extension on a computer on which a suitable version of Visual Studio is installed, open the VSIX file on the target computer.
 
-## <a name="example"></a> Example code
+##  <a name="example"></a> Example code
 
 ```csharp
 using System;
