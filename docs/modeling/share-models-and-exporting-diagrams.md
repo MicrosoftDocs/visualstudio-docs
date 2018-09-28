@@ -23,8 +23,6 @@ In Visual Studio, you can share models and diagrams with colleagues in several w
 
  Different users can work at the same time on a model, but should work on different packages.
 
- We recommend that you use [!INCLUDE[esprscc](../code-quality/includes/esprscc_md.md)].
-
  For suggestions about organizing models in a medium or large project, see [Structure your modeling solution](../modeling/structure-your-modeling-solution.md).
 
 ## Reading and Reviewing Models

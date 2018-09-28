@@ -11,7 +11,7 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Customizing Copy Behavior
-In a domain-specific language (DSL) created with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can alter what happens when the user copies and pastes elements.
+In a domain-specific language (DSL) created with the Visual Studio Visualization and Modeling SDK, you can alter what happens when the user copies and pastes elements.
 
 ## Standard Copy and Paste Behavior
  To enable copying, set the **Enable Copy Paste** property of the **Editor** node in DSL Explorer.

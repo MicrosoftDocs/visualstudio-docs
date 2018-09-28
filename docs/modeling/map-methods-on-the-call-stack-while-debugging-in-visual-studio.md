@@ -153,7 +153,7 @@ Create a code map to visually trace the call stack while you're debugging. You c
 
 -   **Can I share the map with others?**
 
-     You can export the map, send it to others if you have Microsoft Outlook, or save it to your solution so you can check it into Team Foundation version control.
+     You can export the map, send it to others if you have Microsoft Outlook, or save it to your solution so you can check it into source control.
 
      ![Share call stack code map with others](../debugger/media/debuggermap_sharewithothers.png)
 

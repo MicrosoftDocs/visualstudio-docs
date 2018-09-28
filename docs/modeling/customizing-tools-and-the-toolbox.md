@@ -71,9 +71,9 @@ The **Connection Builder** property of a connection tool refers to a connection 
 
      **For a connector tool:** Set the **Connection Builder** property of the tool to one of the items that are offered in the drop-down list. Connection builders are automatically created when you map a connector to a domain relationship. If you have recently created a connector, you would normally select the associated connection builder.
 
-5.  To test the DSL, press F5 or CTRL+F5, and in the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open a sample model file. The new tool should appear on the toolbox. Drag it onto the diagram to verify that it creates a new element.
+5.  To test the DSL, press F5 or CTRL+F5, and in the experimental instance of Visual Studio, open a sample model file. The new tool should appear on the toolbox. Drag it onto the diagram to verify that it creates a new element.
 
-     If the tool does not appear, stop the experimental [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In the Windows **Start** menu, run **Reset the Microsoft Visual Studio 2010 Experimental Instance**. On the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]**Build** menu, click **Rebuild Solution**. Then test the DSL again.
+     If the tool does not appear, stop the experimental Visual Studio. In the Windows **Start** menu, run **Reset the Microsoft Visual Studio 2010 Experimental Instance**. On the Visual Studio**Build** menu, click **Rebuild Solution**. Then test the DSL again.
 
 ## <a name="customizing"></a> Customizing Element Tools
  By default, the tool will create a single instance of the specified class, but you can vary this in two ways:

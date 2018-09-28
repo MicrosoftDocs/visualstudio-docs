@@ -12,7 +12,7 @@ ms.technology: vs-ide-modeling
 ---
 # Update Shapes and Connectors to Reflect the Model
 
-In a domain-specific language in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can make the appearance of a shape reflect the state of the underlying model.
+In a domain-specific language in Visual Studio, you can make the appearance of a shape reflect the state of the underlying model.
 
 The code examples in this topic should be added to a `.cs` file in your `Dsl` project. You need these statements in each file:
 

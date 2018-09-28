@@ -15,7 +15,7 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Overview of the Domain-Specific Language Tools User Interface
-When you first open a Domain-Specific Language Tools (DSL Tools) solution in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the user interface will resemble the following picture.
+When you first open a Domain-Specific Language Tools (DSL Tools) solution in Visual Studio, the user interface will resemble the following picture.
 
  ![dsl designer](../modeling/media/dsl_designer.png)
 

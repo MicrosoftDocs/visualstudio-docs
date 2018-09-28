@@ -34,19 +34,14 @@ ms.workload:
   - "multiple"
 ---
 # Analyze and model your architecture
-Make sure your app meets architectural requirements by using
-Visual Studio architecture and modeling tools to design and model
-your app.
 
-* Understand existing program code more easily by using
-Visual Studio to visualize the code's structure, behavior, and
-relationships.
+Make sure your app meets architectural requirements by using Visual Studio architecture and modeling tools to design and model your app.
 
-* Educate your team in the need for respecting
-architectural dependencies.
+* Understand existing program code more easily by using Visual Studio to visualize the code's structure, behavior, and relationships.
 
-* Create models at different levels of detail throughout the
-application lifecycle as part of your development process.
+* Educate your team in the need for respecting architectural dependencies.
+
+* Create models at different levels of detail throughout the application lifecycle as part of your development process.
 
 See [Scenario: Change your design using visualization and modeling](../modeling/scenario-change-your-design-using-visualization-and-modeling.md).
 
