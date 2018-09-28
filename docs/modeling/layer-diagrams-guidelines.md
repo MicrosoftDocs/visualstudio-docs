@@ -18,7 +18,7 @@ ms.technology: vs-ide-modeling
 # Dependency Diagrams: Guidelines
 Describe your app's architecture at a high level by creating *dependency diagrams* in Visual Studio. Make sure that your code stays consistent with this design by validating your code with a dependency diagram. You can also include layer validation in your build process. See [Channel 9 Video: Design and validate your architecture using dependency diagrams](http://go.microsoft.com/fwlink/?LinkID=252073).
 
- To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+ To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
 ## What is a dependency diagram?
  Like a traditional architecture diagram, a dependency diagram identifies the major components or functional units of the design and their interdependencies. Each node on the diagram, called a *layer*, represents a logical group of namespaces, projects, or other artifacts. You can draw the dependencies that should exist in your design. Unlike a traditional architecture diagram, you can verify that the actual dependencies in the source code conform to the intended dependencies that you have specified. By making validation part of a regular build on [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], you can ensure that the program code continues to adhere to the system's architecture through future changes. See [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md).

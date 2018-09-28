@@ -17,7 +17,7 @@ ms.technology: vs-ide-modeling
 ---
 # Create dependency diagrams from your code
 
-To visualize your software system's high-level, logical architecture, create a *dependency diagram* in Visual Studio. To make sure that your code stays consistent with this design, validate your code with a dependency diagram. You can create dependency diagrams for Visual C# and Visual Basic projects. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+To visualize your software system's high-level, logical architecture, create a *dependency diagram* in Visual Studio. To make sure that your code stays consistent with this design, validate your code with a dependency diagram. You can create dependency diagrams for Visual C# and Visual Basic projects. To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
 ![Create a dependency diagram](../modeling/media/layerdiagramvisualizecode.png)
 
@@ -25,7 +25,7 @@ A dependency diagram lets you organize Visual Studio solution items into logical
 
 [Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)
 
-##  <a name="CreateDiagram"></a> Create a dependency diagram
+## <a name="CreateDiagram"></a> Create a dependency diagram
 
 Before you create a dependency diagram, make sure your solution has a modeling project.
 
@@ -34,7 +34,7 @@ Before you create a dependency diagram, make sure your solution has a modeling p
 >
 > Instead, add a new dependency diagram to the modeling project. Copy the elements from the source diagram to the new diagram. Save both the modeling project and the new dependency diagram.
 
-#### To add a new dependency diagram to a modeling project
+### To add a new dependency diagram to a modeling project
 
 1.  On the **Architecture** menu, choose **New Dependency Diagram**.
 
@@ -49,7 +49,7 @@ Before you create a dependency diagram, make sure your solution has a modeling p
      Choose **Create a new modeling project** to add a new modeling project to the solution.
 
     > [!NOTE]
-    >  The dependency diagram must exist inside a modeling project. However, you can link it to items anywhere in the solution.
+    > The dependency diagram must exist inside a modeling project. However, you can link it to items anywhere in the solution.
 
 5.  Make sure to save both the modeling project and the dependency diagram.
 
@@ -120,7 +120,7 @@ Before you create a dependency diagram, make sure your solution has a modeling p
  A dependency exists wherever an artifact that is associated with one layer has a reference to an artifact that is associated with another layer. For example, a class in one layer declares a variable that has a class in another layer. You can reverse-engineer existing dependencies for artifacts that are linked to layers on the diagram.
 
 > [!NOTE]
->  Dependencies cannot be reverse-engineered for certain kinds of artifacts. For example, no dependencies will be reverse-engineered from or to a layer that is linked to a text file. To see which artifacts have dependencies that you can reverse-engineer, open the shortcut menu for one or multiple layers, and then choose **View Links**. In **Layer Explorer**, examine the **Supports Validation** column. Dependencies will not be reverse-engineered for artifacts for which this column shows **False**.
+> Dependencies cannot be reverse-engineered for certain kinds of artifacts. For example, no dependencies will be reverse-engineered from or to a layer that is linked to a text file. To see which artifacts have dependencies that you can reverse-engineer, open the shortcut menu for one or multiple layers, and then choose **View Links**. In **Layer Explorer**, examine the **Supports Validation** column. Dependencies will not be reverse-engineered for artifacts for which this column shows **False**.
 
 -   Select one or multiple layers, open the shortcut menu for a selected layer, and then choose **Generate Dependencies**.
 

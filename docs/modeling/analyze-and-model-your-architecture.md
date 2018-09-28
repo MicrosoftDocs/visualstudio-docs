@@ -61,7 +61,7 @@ See [Scenario: Change your design using visualization and modeling](../modeling/
 |**Generate text using T4 templates**:<br /><br /> -   Use text blocks and control logic inside templates to generate text-based files.<br /> - T4 template build with MSBuild included in Visual Studio|-   [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md)|
 |**Share models, diagrams, and code maps using Team Foundation version control**:<br /><br /> -   Put code maps, projects, and dependency diagrams under Team Foundation version control so you can share them.| |
 
-To see which versions of Visual Studio support each feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)
+To see which editions of Visual Studio support each feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport)
 
 ## Types of models and typical uses
 
