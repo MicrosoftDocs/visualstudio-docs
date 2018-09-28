@@ -404,6 +404,7 @@ There are a variety of means to create Python extensions as described in the fol
 | ctypes | 2003 | [oscrypto](https://github.com/wbond/oscrypto) | No compilation, wide availability. | Accessing and mutating C structures cumbersome and error prone. |
 | SWIG | 1996 | [crfsuite](http://www.chokkan.org/software/crfsuite/) | Generate bindings for many languages at once. | Excessive overhead if Python is the only target. |
 | cffi | 2013 | [cryptography](https://cryptography.io/en/latest/), [pypy](https://pypy.org/) | Ease of integration, PyPy compatibility. | Newer, less mature. |
+| [cppyy](https://cppyy.readthedocs.io/en/latest/) | 2017 | | Similar to cffi using C++. | Newer, may have some issues with VS 2017. |  
 
 ## See also
 

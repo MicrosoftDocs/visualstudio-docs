@@ -82,11 +82,14 @@ To describe the modifiers of the symbols you want the naming rule to apply to, s
 
 The following list shows the allowable values, and you can specify multiple values by separating them with a comma.
 
-- abstract or must_inherit
-- async
-- const
-- readonly
-- static or shared
+- `abstract` or `must_inherit`
+- `async`
+- `const`
+- `readonly`
+- `static` or `shared`
+
+   > [!NOTE]
+   > If you have a naming rule for `static` or `shared` symbols, it is also applied to `const` symbols because they are implicitly static. If you don't want the `static` naming rule to apply to `const` symbols, create a separate naming rule for `const` symbols.
 
 `required_modifiers` is an optional property. If you omit this property, your naming rule will apply to all modifiers.
 
