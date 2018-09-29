@@ -62,7 +62,7 @@ If you don't see the **Console App (.NET Core)** project template, you can get i
 
 1. Enter or paste the following code into the code editor:
 
-    ```C#
+    ```csharp
     using System;
 
     namespace Calculator
