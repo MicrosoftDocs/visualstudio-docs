@@ -65,26 +65,26 @@ ms.workload:
  Lists the characters that may have to be "escaped" to be interpreted correctly. An escape sequence is a series of characters that signifies that what follows is an alternative interpretation.  
   
 ## See also  
- [MSBuild overview  ](../msbuild/msbuild.md)
- Introduces [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] and provides links to topics that explain how to use it to build projects.  
+ [MSBuild overview](../msbuild/msbuild.md)     
+ Introduces [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] and provides links to topics that explain  how to use it to build projects.  
   
- <xref:Microsoft.Build.Conversion>  
+ [Microsoft.Build.Conversion](https://docs.microsoft.com/en-us/dotnet/api/microsoft.build.conversion)  
  Contains the Conversion namespace reference.  
   
- <xref:Microsoft.Build.Evaluation>  
+ [Microsoft.Build.Evaluation](https://docs.microsoft.com/en-us/dotnet/api/microsoft.build.evaluation)  
  Contains the Evaluation namespace reference.  
   
- <xref:Microsoft.Build.Execution>  
+ [Microsoft.Build.Execution](https://docs.microsoft.com/en-us/dotnet/api/microsoft.build.execution)  
  Contains the Execution namespace reference.  
   
- <xref:Microsoft.Build.Framework>  
+ [Microsoft.Build.Framework](https://docs.microsoft.com/en-us/dotnet/api/microsoft.build.framework)  
  Contains the Framework namespace reference.  
   
- <xref:Microsoft.Build.Logging>  
+ [Microsoft.Build.Logging](https://docs.microsoft.com/en-us/dotnet/api/microsoft.build.logging) 
  Contains the Logging namespace reference.  
   
- <xref:Microsoft.Build.Tasks>  
+ [Microsoft.Build.Tasks](https://docs.microsoft.com/en-us/dotnet/api/microsoft.build.tasks)  
  Contains the Tasks namespace reference.  
   
- <xref:Microsoft.Build.Utilities>  
+ [Microsoft.Build.Utilities](https://docs.microsoft.com/en-us/dotnet/api/microsoft.build.utilities)
  Contains the Utilities namespace reference.
