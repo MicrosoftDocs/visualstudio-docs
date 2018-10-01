@@ -55,6 +55,9 @@ Start by downloading the Visual Studio bootstrapper for your chosen edition of V
 
 You must have an internet connection to complete this step.
 
+> [!IMPORTANT]
+> If you install Visual Studio Community 2017, you must activate it within 30 days of installation. This requires an internet connection.
+
 Open a command prompt and use one of the commands from the following examples. The examples that are listed here assume that you're using the Community edition of Visual Studio; adjust the command as appropriate for your edition.
 
 - For .NET web and .NET desktop development, run:
