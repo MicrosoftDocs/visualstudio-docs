@@ -20,7 +20,7 @@ When you open a model in a version of Visual Studio that does not support model 
 ## Obtaining Access to a Model and Diagrams
  To read a dependency diagram, you must first use Visual Studio to open the modeling project, and then open the diagram within it.
 
- For this reason, if you want to read a dependency diagram, you must also have access to the modeling project in which it was created. You can do this either by accessing the project from [!INCLUDE[esprscc](../code-quality/includes/esprscc_md.md)], or by obtaining a copy of the project files.
+ For this reason, if you want to read a dependency diagram, you must also have access to the modeling project in which it was created. You can do this either by accessing the project from source control, or by obtaining a copy of the project files.
 
 > [!NOTE]
 >  This does not apply to code maps and .NET class diagrams generated from code. Those diagrams can be viewed independently of a modeling project.
@@ -47,7 +47,7 @@ When you open a model in a version of Visual Studio that does not support model 
 
  You can save these changes. If you want to make your changes visible to other users, you must at least send the updated **.layout** files.
 
-##  <a name="RelatedTopics"></a> Related Topics
+## <a name="RelatedTopics"></a> Related Topics
 
 |Title|Description|
 |-----------|-----------------|
