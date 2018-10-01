@@ -68,23 +68,23 @@ ms.workload:
  [MSBuild overview](../msbuild/msbuild.md)     
  Introduces [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] and provides links to topics that explain  how to use it to build projects.  
   
- [Microsoft.Build.Conversion](https://docs.microsoft.com/en-us/dotnet/api/microsoft.build.conversion)  
+ [Microsoft.Build.Conversion](https://docs.microsoft.com/dotnet/api/microsoft.build.conversion)  
  Contains the Conversion namespace reference.  
   
- [Microsoft.Build.Evaluation](https://docs.microsoft.com/en-us/dotnet/api/microsoft.build.evaluation)  
+ [Microsoft.Build.Evaluation](https://docs.microsoft.com/dotnet/api/microsoft.build.evaluation)  
  Contains the Evaluation namespace reference.  
   
- [Microsoft.Build.Execution](https://docs.microsoft.com/en-us/dotnet/api/microsoft.build.execution)  
+ [Microsoft.Build.Execution](https://docs.microsoft.com/dotnet/api/microsoft.build.execution)  
  Contains the Execution namespace reference.  
   
- [Microsoft.Build.Framework](https://docs.microsoft.com/en-us/dotnet/api/microsoft.build.framework)  
+ [Microsoft.Build.Framework](https://docs.microsoft.com/dotnet/api/microsoft.build.framework)  
  Contains the Framework namespace reference.  
   
- [Microsoft.Build.Logging](https://docs.microsoft.com/en-us/dotnet/api/microsoft.build.logging) 
+ [Microsoft.Build.Logging](https://docs.microsoft.com/dotnet/api/microsoft.build.logging) 
  Contains the Logging namespace reference.  
   
- [Microsoft.Build.Tasks](https://docs.microsoft.com/en-us/dotnet/api/microsoft.build.tasks)  
+ [Microsoft.Build.Tasks](https://docs.microsoft.com/dotnet/api/microsoft.build.tasks)  
  Contains the Tasks namespace reference.  
   
- [Microsoft.Build.Utilities](https://docs.microsoft.com/en-us/dotnet/api/microsoft.build.utilities)
+ [Microsoft.Build.Utilities](https://docs.microsoft.com/dotnet/api/microsoft.build.utilities)
  Contains the Utilities namespace reference.
