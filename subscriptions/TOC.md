@@ -31,7 +31,7 @@
 ### [Professional Development](professional-development.md)
 #### [LinkedIn Learning](vs-linkedin-learning.md)
 #### [DataCamp](vs-datacamp.md)
-#### [Opsgility](vs-opsgility.md)
+#### [Skill Me Up](vs-opsgility.md)
 #### [Pluralsight](vs-pluralsight.md)
 #### [Xamarin University Training](vs-xamarin.md)
 #### [MSDN Magazine subscription](vs-msdn.md)
