@@ -92,7 +92,7 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
    ![Go to Definition](../ide/media/go-to-definition-menu.png)
 
-- [Peek To Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)
+- [Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md)
 
    The **Peek Definition** window shows the definition of a method or type without actually opening a separate file.
 
