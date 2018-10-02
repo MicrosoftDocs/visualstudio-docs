@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Visual Studio 2017 workload and component IDs
 
-**Updated for the [15.8 release](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default)**
+**Updated for the [15.8 release](/visualstudio/releasenotes/vs2017-relnotes?context=visualstudio/default&contextView=vs-2017)**
 
 Click the edition names in the following table to see the available workload and component IDs you need to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest.
 

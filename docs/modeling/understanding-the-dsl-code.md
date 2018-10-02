@@ -13,7 +13,7 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Understanding the DSL Code
-A Domain-Specific Language (DSL) solution generates an API that you can use to read and update instances of the DSL in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. This API is defined in the code that is generated from the DSL definition. This topic describes the generated API.
+A Domain-Specific Language (DSL) solution generates an API that you can use to read and update instances of the DSL in Visual Studio. This API is defined in the code that is generated from the DSL definition. This topic describes the generated API.
 
 ## The example solution: Component Diagrams
  To create the solution that is the source of most of the examples in this topic, create a DSL from the **Component Models** solution template. This is one of the standard templates that appears when you create a new DSL solution.
@@ -26,7 +26,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
  ![Components and interconnected ports](../modeling/media/componentsample.png)
 
 ## The Structure of the DSL Solution
- The **Dsl** project defines the API for your DSL. The **DslPackage** project defines how it integrates with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can also add your own projects, which can also contain code generated from the model.
+ The **Dsl** project defines the API for your DSL. The **DslPackage** project defines how it integrates with Visual Studio. You can also add your own projects, which can also contain code generated from the model.
 
 ### The code directories
  Most of the code in each of these projects is generated from **Dsl\DslDefinition.dsl**. The generated code is in the **Generated Code** folder. To see a generated file, click **[+]** next to the generating **.tt** file.
@@ -47,7 +47,7 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
 
      For example, if you set the **Has Custom Constructor** option of a domain class, and then build the solution, you will see error messages. When you double-click one of these error messages, you will see comments in the generated code that explain what your custom code should provide.
 
--   Write your own text templates to generate code specific to your application. You can use include files to share parts of the templates that are common to many projects, and you can create [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project templates to set up projects that are initialized with your own file structure.
+-   Write your own text templates to generate code specific to your application. You can use include files to share parts of the templates that are common to many projects, and you can create Visual Studio project templates to set up projects that are initialized with your own file structure.
 
 ## Generated Files in Dsl
  The following generated files appear in the **Dsl** project.
@@ -179,10 +179,10 @@ A Domain-Specific Language (DSL) solution generates an API that you can use to r
 
  Sets up the toolbox by installing element group prototypes into the element tools. Copies of these prototypes are merged with the target elements when the user runs the tool.
 
- You could override `CreateElementPrototype()` to define a toolbox item that creates a group of several objects. For example, you could define an item to represent objects that have sub-components. After changing the code, reset the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to clear the toolbox cache.
+ You could override `CreateElementPrototype()` to define a toolbox item that creates a group of several objects. For example, you could define an item to represent objects that have sub-components. After changing the code, reset the experimental instance of Visual Studio to clear the toolbox cache.
 
 ## Generated files in the DslPackage project
- DslPackage couples the DSL model to the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] shell, managing the window, toolbox, and menu commands. Most of the classes are double derived, so that you can override any of their methods.
+ DslPackage couples the DSL model to the Visual Studio shell, managing the window, toolbox, and menu commands. Most of the classes are double derived, so that you can override any of their methods.
 
  `CommandSet.cs`
 
@@ -273,7 +273,7 @@ namespace Company.EmbedInForm
 
  `EditorFactory.cs`
 
- Instantiates `DocData` and `DocView`. It fulfills a standard interface that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] uses to open an editor when your DSL package starts. It is referenced in the `ProvideEditorFactory` attribute in Package.cs
+ Instantiates `DocData` and `DocView`. It fulfills a standard interface that Visual Studio uses to open an editor when your DSL package starts. It is referenced in the `ProvideEditorFactory` attribute in Package.cs
 
  `GeneratedVSCT.vsct`
 
@@ -329,7 +329,7 @@ explorerWindow.TreeContainer.ObjectModelBrowser.SelectedNode = treeNode;
 
  `Package.cs`
 
- This file defines how the DSL integrates into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Attributes on the package class register the DSL as the handler for files that have your file extension, define its toolbox, and define how to open a new window. The Initialize() method is called one time when the first DSL is loaded into a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] instance.
+ This file defines how the DSL integrates into Visual Studio. Attributes on the package class register the DSL as the handler for files that have your file extension, define its toolbox, and define how to open a new window. The Initialize() method is called one time when the first DSL is loaded into a Visual Studio instance.
 
  `Source.extension.vsixmanifest`
 

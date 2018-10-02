@@ -13,14 +13,14 @@ ms.technology: vs-ide-modeling
 # How to: Migrate a Domain-Specific Language to a New Version
 You can migrate projects that define and use domain-specific language to [!INCLUDE[vs2010](../misc/includes/vs2010_md.md)] from the version of [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] that was distributed with [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)].
 
- A migration tool is provided as part of [!INCLUDE[vssdk_current_long](../misc/includes/vssdk_current_long_md.md)]. The tool converts [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects and solutions that use or define DSL Tools.
+ A migration tool is provided as part of [!INCLUDE[vssdk_current_long](../misc/includes/vssdk_current_long_md.md)]. The tool converts Visual Studio projects and solutions that use or define DSL Tools.
 
- You must run the migration tool explicitly: it is not launched automatically when you open a solution in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The tool and detailed guidance document can be found at this path:
+ You must run the migration tool explicitly: it is not launched automatically when you open a solution in Visual Studio. The tool and detailed guidance document can be found at this path:
 
  **%Program Files%\Microsoft Visual Studio 2010 SDK\VisualStudioIntegration\Tools\DSLTools\DslProjectsMigrationTool.exe**
 
 ## Before you Migrate your DSL Projects
- The migration tool modifies [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project files (**.csproj**) and solution files (**.sln**).
+ The migration tool modifies Visual Studio project files (**.csproj**) and solution files (**.sln**).
 
 #### To prepare projects for migration.
 

@@ -24,9 +24,9 @@ The text buffer object represents a stream of Unicode text, which is generally a
   
 |Method|Description|  
 |------------|-----------------|  
-|[IOleCommandTarget](http://msdn.microsoft.com/library/windows/desktop/ms683797)|Standard OLE interface. Used for undo/redo handling in the buffer.|  
-|[IPersistFile](http://msdn.microsoft.com/library/windows/desktop/ms687223)|Standard OLE interface.|  
-|[IPersistStream](http://msdn.microsoft.com/library/windows/desktop/ms690091)|Standard OLE interface.|  
+|[IOleCommandTarget](/windows/desktop/api/docobj/nn-docobj-iolecommandtarget)|Standard OLE interface. Used for undo/redo handling in the buffer.|  
+|[IPersistFile](/windows/desktop/api/objidl/nn-objidl-ipersistfile)|Standard OLE interface.|  
+|[IPersistStream](/windows/desktop/api/objidl/nn-objidl-ipersiststream)|Standard OLE interface.|  
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsCompoundAction>|Enables the creation of compounds actions (that is, actions that are grouped in a single undo/redo unit).|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData>|Enables persistence of document data managed by the text buffer.|  
 |<xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>|Provides basic services; used by many clients.|  
@@ -43,4 +43,4 @@ The text buffer object represents a stream of Unicode text, which is generally a
 ## See also  
  <xref:Microsoft.VisualStudio.TextManager.Interop.IVsTextBuffer>   
  <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView>   
- [Figures edit](http://msdn.microsoft.com/en-us/f08872bd-fd9c-4e36-8cf2-a2a2622ef986)
+ [Figures edit](https://www.microsoft.com/download/details.aspx?id=55984)

@@ -32,7 +32,7 @@ ms.workload:
 |Breaking Change|Non Breaking|
 
 ## Cause
- A method passes a string literal as a parameter to a constructor or method in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] class library and that string should be localizable.
+ A method passes a string literal as a parameter to a constructor or method in the .NET Framework class library and that string should be localizable.
 
  This warning is raised when a literal string is passed as a value to a parameter or property and one or more of the following cases is true:
 

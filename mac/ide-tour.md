@@ -92,7 +92,7 @@ Visual Studio for Mac integrates with Git and Subversion source control systems.
 
 ![Branch name to indicate project under source control](media/ide-tour-image22.png)
 
-Files with uncommitted changed have an annotation on their icons in the Solution Pane, as illustrated in the following image:
+Files with uncommitted changes have an annotation on their icons in the Solution Pane, as illustrated in the following image:
 
 ![Uncommitted files in solution pad](media/ide-tour-image23.png)
 

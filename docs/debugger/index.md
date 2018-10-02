@@ -104,7 +104,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/visualstudio/debugger/how-to-use-intellitrace-step-back">
+        <a href="https://docs.microsoft.com/visualstudio/debugger/view-historical-application-state">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -114,7 +114,7 @@ The Visual Studio debugger helps you observe the run-time behavior of your progr
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>View IntelliTrace snapshots (Visual Studio Enterprise)</h3>
+                        <h3>Inspect previous app states (Visual Studio Enterprise)</h3>
                     </div>
                 </div>
             </div>

@@ -374,5 +374,4 @@ Running a web app on your development computer is just one step in making the ap
 - Set up a continuous integration/continuous deployment pipeline on a service like Azure Pipelines. In addition to working with source control (on Azure Repos, GitHub, or elsewhere), you can have Azure Test Plans automatically run your unit tests as a pre-requisite for release, and also configure the pipeline to deploy to a staging server for additional tests before deploying to production. Azure DevOps Services, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see:
 
   - [Create a CI/CD pipeline for Python with Azure DevOps Projects](/azure/devops-project/azure-devops-project-python?view=vsts)
-  - [Python development in Azure with Visual Studio Team Services (video, 11m 21s)](https://azure.microsoft.com/resources/videos/connect-2017-python-development-in-azure-with-visual-studio-team-services/).
-
+  - [Python development in Azure with Azure DevOps (video, 11m 21s)](https://azure.microsoft.com/resources/videos/connect-2017-python-development-in-azure-with-visual-studio-team-services/).

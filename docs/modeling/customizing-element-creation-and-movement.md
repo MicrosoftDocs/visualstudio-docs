@@ -115,7 +115,7 @@ The role of an Element Merge Directive
 
          Rebuilding will take longer than usual because the generated code will be updated from text templates to conform to the new DSL Definition.
 
-    2.  When the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] has started, open a model file of your DSL. Create some example elements.
+    2.  When the experimental instance of Visual Studio has started, open a model file of your DSL. Create some example elements.
 
     3.  Drag from the **Example Element** tool onto an existing shape.
 
@@ -188,7 +188,7 @@ The role of an Element Merge Directive
 
 6.  Test the DSL:
 
-    1.  Press F5 to rebuild the solution. When the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] opens, open an instance of your DSL.
+    1.  Press F5 to rebuild the solution. When the experimental instance of Visual Studio opens, open an instance of your DSL.
 
     2.  Create new elements in several ways:
 
@@ -301,7 +301,7 @@ The role of an Element Merge Directive
 
 9. Save the solution, and then transform the templates by clicking the rightmost button on the **Solution Explorer** toolbar.
 
-10. Build and run the solution. A new instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] appears.
+10. Build and run the solution. A new instance of Visual Studio appears.
 
 11. In **Solution Explorer**, open Sample.mydsl. The diagram and the **ComponentLanguage Toolbox** appear.
 

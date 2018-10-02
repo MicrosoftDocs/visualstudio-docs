@@ -24,7 +24,7 @@ The text template transformation process takes a text template file as the input
 |Component|Description|Customizable (Yes/No)|
 |---------------|-----------------|------------------------------|
 |Engine|The engine component controls the text template transformation process|No.|
-|Host|The host is the interface between the engine and the user environment. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is a host of the text transformation process.|Yes. You can write a custom host.|
+|Host|The host is the interface between the engine and the user environment. Visual Studio is a host of the text transformation process.|Yes. You can write a custom host.|
 |Directive Processors|Directive processors are classes that handle directives in text templates. You can use directives to provide data to a text template from an input source.|Yes. You can write custom directive processors|
 
 ## The Engine
@@ -43,7 +43,7 @@ The text template transformation process takes a text template file as the input
 
 -   Setting the default extension for the generated output file.
 
--   Handling text template transformation errors. For example, the host can display the errors in the user interface or write them to a file. (In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], errors are displayed in the Error Message Window.)
+-   Handling text template transformation errors. For example, the host can display the errors in the user interface or write them to a file. (In Visual Studio, errors are displayed in the Error Message Window.)
 
 -   Providing a required parameter value if a user has called a directive without providing a value. The directive processor can specify the name of the directive and the parameter and ask the host to provide a default value if it has one.
 

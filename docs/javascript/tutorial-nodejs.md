@@ -2,7 +2,7 @@
 title: "Create a Node.js and Express app"
 description: In this tutorial, you create an app in using Node.js tools for Visual Studio
 ms.custom: ""
-ms.date: "06/27/2018"
+ms.date: "09/24/2018"
 ms.technology: vs-nodejs
 ms.topic: "tutorial"
 ms.devlang: javascript
@@ -186,11 +186,11 @@ You're next going to run the app with the Visual Studio debugger attached. Befor
 
 ## Run the application
 
-1. Select the debug target in the Debug toolbar.
+1. Select the debug target in the Debug toolbar, such as Edge or Chrome.
 
     ![Select the debug target](../javascript/media/tutorial-nodejs-deploy-target.png)
 
-    To add a different browser target, such as Chrome, select **Browse With**.
+    If Chrome is available on your machine, but does not show up as an option, choose **Browse With** from the debug target dropdown list, and select Chrome as the default browser target (choose **Set as Default**).
 
 1. Press **F5** (**Debug** > **Start Debugging**) to run the application.
 
