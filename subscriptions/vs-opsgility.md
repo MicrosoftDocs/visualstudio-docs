@@ -1,9 +1,9 @@
 ---
 title: The Skill Me Up - Powered by Opsgility Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 09/19/2018
+ms.author: lank
+manager: lank
+ms.date: 10/02/2018
 ms.topic: Get-Started-Article
 description:  Learn about the Skill Me Up - Powered by Opsgility training benefit included with selected Visual Studio subscription.
 ms.prod: vs-subscription
@@ -23,7 +23,7 @@ Selected Visual Studio subscriptions include up to sixe months of access to expe
     > ![Opsgility Benefit Tile](_img\vs-opsgility\vs-opsgility-tile.png)
 
 
-3.	You’ll be redirected to the [Opsgility Online Training for Visual Studio Enterprise](https://www.opsgility.com/vse) landing page.  (You may be offered an opportunity to start a chat session with a Support Specialist.  If you don’t wish to start a chat, you can minimize that window.)  Fill out the requested contact information, check the box to accepts the terms and conditions, then click **Register**.
+3.	You’ll be redirected to the appropriate Skill Me UP landing page for your subscription.  (You may be offered an opportunity to start a chat session with a Support Specialist.  If you don’t wish to start a chat, you can minimize that window.)  Fill out the requested contact information, check the box to accepts the terms and conditions, then click **Register**.
     > [!div class="mx-imgBorder"]
     > ![Opsgility Benefit Landing Page](_img\vs-opsgility\vs-vse-landing-page.png)
 
