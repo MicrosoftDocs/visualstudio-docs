@@ -1,5 +1,5 @@
 ---
-title: .NET coding convention settings For EditorConfig in Visual Studio
+title: .NET coding convention settings For EditorConfig
 ms.date: 06/14/2018
 ms.topic: reference
 dev_langs:
@@ -23,7 +23,9 @@ ms.workload:
 
 In Visual Studio 2017, you can define and maintain consistent code style in your codebase with the use of an [EditorConfig](../ide/create-portable-custom-editor-options.md) file. EditorConfig includes several core formatting properties, such as `indent_style` and `indent_size`. In Visual Studio, .NET coding conventions settings can also be configured using an EditorConfig file. EditorConfig files allow you to enable or disable individual .NET coding conventions, and to configure the degree to which you want the convention enforced via a severity level. To learn more about how to use EditorConfig to enforce consistency in your codebase, read [Create portable custom editor options](../ide/create-portable-custom-editor-options.md).
 
-See the end of this document for an example .editorconfig.
+See the end of this article for an [example .editorconfig file](#example-editorconfig-file).
+
+## Convention categories
 
 There are three supported .NET coding convention categories:
 
