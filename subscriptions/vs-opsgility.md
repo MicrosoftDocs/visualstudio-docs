@@ -8,7 +8,7 @@ ms.topic: Get-Started-Article
 description:  Learn about the Skill Me Up - Powered by Opsgility training benefit included with selected Visual Studio subscription.
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
-searchscope: VS Subscription
+searchscope: VS Subscriptions
 ---
 
 # The Skill Me Up - Powered by Opsgility training benefit in Visual Studio subscriptions
