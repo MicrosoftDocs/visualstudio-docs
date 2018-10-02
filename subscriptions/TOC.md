@@ -17,7 +17,7 @@
 ## Using Subscriber Benefits
 ### Tools
 #### [Visual Studio IDE ](vs-ide-benefit.md)
-#### [Azure DevOps Services](vs-azure-devops.md)
+#### [Azure DevOps](vs-azure-devops.md)
 #### [Azure Credit](vs-azure.md)
 #### [Visual Studio App Center](vs-visual-studio-app-center.md)
 #### [Parasoft ](vs-parasoft.md)
