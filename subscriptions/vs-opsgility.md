@@ -1,17 +1,17 @@
 ---
-title: The Opsgility Benefit in Visual Studio Subscriptions | Microsoft Docs
+title: The Skill Me Up - Powered by Opsgility Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 09/19/2018
+ms.author: lank
+manager: lank
+ms.date: 10/02/2018
 ms.topic: Get-Started-Article
-description:  Learn about the Opsgility training benefit included with selected Visual Studio subscription.
+description:  Learn about the Skill Me Up - Powered by Opsgility training benefit included with selected Visual Studio subscription.
 ms.prod: vs-subscription
 ms.technology: vs-subscriptions
-searchscope: VS Subscription
+searchscope: VS Subscriptions
 ---
 
-# The Opsgility training benefit in Visual Studio subscriptions
+# The Skill Me Up - Powered by Opsgility training benefit in Visual Studio subscriptions
 
 Selected Visual Studio subscriptions include up to six months of access to expert, on-demand training with access to live lab environments and certification learning paths.
 
@@ -23,22 +23,21 @@ Selected Visual Studio subscriptions include up to six months of access to exper
     > ![Opsgility Benefit Tile](_img\vs-opsgility\vs-opsgility-tile.png)
 
 
-3.	You’ll be redirected to the [Opsgility Online Training for Visual Studio Enterprise](https://www.opsgility.com/vse) landing page.  (You may be offered an opportunity to start a chat session with a Support Specialist.  If you don’t wish to start a chat, you can minimize that window.)  Fill out the requested contact information and click **Register**.
+3.	You’ll be redirected to the appropriate Skill Me UP landing page for your subscription.  (You may be offered an opportunity to start a chat session with a Support Specialist.  If you don’t wish to start a chat, you can minimize that window.)  Fill out the requested contact information, check the box to accepts the terms and conditions, then click **Register**.
     > [!div class="mx-imgBorder"]
-    > ![Opsgility Benefit Landing Page](_img\vs-opsgility\vs-opsgility-registration.png)
+    > ![Opsgility Benefit Landing Page](_img\vs-opsgility\vs-vse-landing-page.png)
 
-4.	That’s all there is to it!  You’re ready to start learning.  To help you get started, there is list of suggested learning tracks provided on the left side of the page.  Enjoy!
-    > [!div class="mx-imgBorder"]
-    > ![Opsgility Benefit Home Page](_img\vs-opsgility\vs-opsgility-home-cropped.png)
+4.	That’s all there is to it!  You’re ready to start learning!  
+
 
 ## Eligibility
 | Subscription level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail | 12 months       |  No.  Available to new subscribers only          |
-| Visual Studio Professional (Standard, annual cloud) | VL, Azure, Retail                                       | 6 months                                                            |No.  Available to new subscribers only         |
-| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 6 months                                             |  No.  Available to new subscribers only         |
-| MSDN Platforms (Standard)                                          | VL, Retail                                              | 6 months                                              | No.  Available to new subscribers only         |
-| Visual Studio Dev Essentials | NA  | 3 months | No.  Available to new subscribers only  |
+| Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail | 6 months       |  No.  Available to new subscribers only          |
+| Visual Studio Professional (Standard, annual cloud) | VL, Azure, Retail                                       | 3 months                                                            |No.  Available to new subscribers only         |
+| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 3 months                                             |  No.  Available to new subscribers only         |
+| MSDN Platforms (Standard)                                          | VL, Retail                                              | 3 months                                              | No.  Available to new subscribers only         |
+| Visual Studio Dev Essentials | NA  | Not available | NA  |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
 *Excludes:  Microsoft Partner Network (MPN), Microsoft Valued Partner (MVP), Microsoft Certified Trainer, BizSpark, Imagine, NFR, FTE*
