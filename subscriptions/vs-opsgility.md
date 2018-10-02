@@ -13,7 +13,7 @@ searchscope: VS Subscription
 
 # The Skill Me Up - Powered by Opsgility training benefit in Visual Studio subscriptions
 
-Selected Visual Studio subscriptions include up to sixe months of access to expert on-demand training with access to live lab environments and certification learning paths.
+Selected Visual Studio subscriptions include up to six months of access to expert, on-demand training with access to live lab environments and certification learning paths.
 
 ## Activation steps
 1.  Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
@@ -31,7 +31,7 @@ Selected Visual Studio subscriptions include up to sixe months of access to expe
 
 
 ## Eligibility
-| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
+| Subscription level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, annual cloud)   | VL, Azure, Retail | 6 months       |  No.  Available to new subscribers only          |
 | Visual Studio Professional (Standard, annual cloud) | VL, Azure, Retail                                       | 3 months                                                            |No.  Available to new subscribers only         |
