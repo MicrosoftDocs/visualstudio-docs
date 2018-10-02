@@ -99,7 +99,9 @@ The impact on overall stepping performance depends on your application. The over
 ## Known Issues  
 * If you are using IntelliTrace events and snapshots mode on versions of Windows older than Windows 10 Fall Creators Update (RS3), and if the debug platform target of the application is set to x86, IntelliTrace does not take snapshots.
 
-    Workaround:
+    Workarounds:
+    * If you are on the Windows 10 Anniversary Update (RS1) and below version 10.0.14393.2273, [install KB4103720](https://support.microsoft.com/help/4103720/windows-10-update-kb4103720). 
+    * If you are on the Windows 10 Creators Update (RS2) and below version 10.0.15063.1112, [install KB4103722](https://support.microsoft.com/help/4103722/windows-10-update-4103722).
     * Install or upgrade to Windows 10 Fall Creators Update (RS3). 
     * Alternatively: 
         1. Install the VC++ 2015.3 v140 toolset for desktop (x86, x64) component from the Visual Studio installer.
