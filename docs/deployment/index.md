@@ -112,6 +112,42 @@ Visual Studio provides several different tools to help you deploy your apps.
 
 <ul class="panelContent cardsFTitle">
     <li>
+        <a href="/aspnet/core/tutorials/publish-to-azure-webapp-using-vs">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="Deploy ASP.NET to Azure">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Deploy ASP.NET to Azure</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
+        <a href="tutorial-import-publish-settings-iis.md">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="Import publish settings and deploy to IIS">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Import publish settings and deploy ASP.NET to IIS</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
         <a href="/dotnet/core/deploying/deploy-with-vs">
         <div class="cardSize">
             <div class="cardPadding">
@@ -148,17 +184,17 @@ Visual Studio provides several different tools to help you deploy your apps.
         </a>
     </li>
     <li>
-        <a href="/aspnet/core/tutorials/publish-to-azure-webapp-using-vs">
+        <a href="tutorial-import-publish-settings-azure.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="Deploy ASP.NET to Azure">
+                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="Import publish settings and deploy to Azure App Service">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Deploy ASP.NET to Azure</h3>
+                        <h3>Import publish settings and deploy to Azure App Service</h3>
                     </div>
                 </div>
             </div>
@@ -195,42 +231,6 @@ Visual Studio provides several different tools to help you deploy your apps.
                     </div>
                     <div class="cardText">
                         <h3>Deploy Python to Azure</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="tutorial-import-publish-settings-azure.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="Import publish settings and deploy to Azure App Service">
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Import publish settings and deploy to Azure App Service</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="tutorial-import-publish-settings-iis.md">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_net.svg" alt="Import publish settings and deploy to IIS">
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Import publish settings and deploy to IIS</h3>
                     </div>
                 </div>
             </div>
