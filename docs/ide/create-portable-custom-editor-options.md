@@ -122,7 +122,7 @@ The following example shows the indent state of a C# code snippet before and aft
 
 ![Text Editor tab setting](../ide/media/vside_editorconfig_tabsetting.png)
 
-As expected, pressing the **Tab** key on the next line indents the line by adding four additional white space characters.
+As expected, pressing the **Tab** key on the next line indents the line by adding four additional white-space characters.
 
 ![Code before using EditorConfig](../ide/media/vside_editorconfig_before.png)
 
