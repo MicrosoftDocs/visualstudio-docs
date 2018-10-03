@@ -30,7 +30,7 @@ You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version
 
 - Select **Development time IIS support** when installing Visual Studio. (If necessary, rerun the Visual Studio Installer, select **Modify**, and add this component.)
 - Be running Visual Studio as an administrator. 
-- Install and correctly configure IIS, the appropriate version of ASP.NET and/or ASP.NET Core, and the IIS application pools. For details, see [Configure IIS for ASP.NET and ASP.NET Core](#configure-iis-for-asp-net-and-asp-net-core).
+- Install and correctly configure IIS, the appropriate version of ASP.NET and/or ASP.NET Core, and the IIS application pools. For details, see [Configure IIS for ASP.NET and ASP.NET Core](#configure-iis-for-aspnet-and-aspnet-core).
 
 >[!NOTE]
 >The following steps and settings apply only to debugging apps on a local server. Debugging apps on a remote IIS server uses **Attach to Process**, and ignores these settings. For more information and instructions for remote debugging ASP.NET apps on IIS, see [Remote debug ASP.NET on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) or [Remote debug ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md).
@@ -198,7 +198,7 @@ For more information about configuring IIS for ASP.NET and ASP.NET Core, see [II
    
    1. In the IIS Manager **Connections** pane, select **Application Pools**. 
    1. To create a new application pool, select **Add Application Pool** in the **Actions** pane, or right-click **Application Pools** and select **Add Application Pool**.
-   1. To reconfigure an app pool, select the app pool in the **Application Pools** list and select **Basic settings** in the **Actions** pane, or right-click the app pool and select **Basic Settings**.
+   1. To reconfigure an application pool, select the app pool in the **Application Pools** list and select **Basic settings** in the **Actions** pane, or right-click the app pool and select **Basic Settings**.
    1. In the **Add Application Pool** or **Edit Application Pool** dialog, under **.NET CLR settings**, choose the setting you want: **Version 4.0.x** for ASP.NET 4.x, **Version 2.0.x** for ASP.NET 3.x, or **No Managed Code** for ASP.NET Core. 
    1. Select **OK**.  
    
