@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Walkthrough: Create a simple application with C# or Visual Basic
 
-By completing this walkthrough, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a simple "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
+By completing this walkthrough, you'll become familiar with many of the tools, dialog boxes, and designers that you can use when you develop applications with Visual Studio. You'll create a "Hello, World" application, design the UI, add code, and debug errors, while you learn about working in the integrated development environment ([IDE](visual-studio-ide.md)).
 
 ## Configure the IDE
 
@@ -82,7 +82,7 @@ Your window should resemble the following illustration:
 
 ![TextBlock control on the Greetings form](../ide/media/exploreide-greetingswithtextblockonly.png)
 
-The XAML markup should look something like the following:
+The XAML markup should look something like the following example:
 
 ```xaml
 <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" RenderTransformOrigin="4.08,2.312" Margin="237,57,221,238"><Run Text="TextBlock"/><InlineUIContainer><TextBlock TextWrapping="Wrap" Text="TextBlock"/>
@@ -96,7 +96,7 @@ The XAML markup should look something like the following:
    Text="Select a message option and then choose the Display button."
    ```
 
-2. Re-center the TextBlock if necessary, and save your changes by pressing **Ctrl**+**S** or using the **File** menu item.
+2. Center the TextBlock again if necessary, and save your changes by pressing **Ctrl**+**S** or using the **File** menu item.
 
 Next, you'll add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) controls to the form.
 
@@ -128,7 +128,7 @@ You can now add display text for each RadioButton control. The following procedu
 
 ### Set a radio button to be checked by default
 
-In this step we'll set HelloButton to be checked by default so that one of the two radio buttons is always selected.
+In this step, we'll set HelloButton to be checked by default so that one of the two radio buttons is always selected.
 
 In the XAML view, locate the markup for HelloButton and add an **IsChecked** attribute:
 
