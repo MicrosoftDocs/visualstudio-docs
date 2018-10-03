@@ -1,5 +1,5 @@
 ---
-title: .NET coding convention settings For EditorConfig in Visual Studio
+title: .NET coding convention settings For EditorConfig
 ms.date: 06/14/2018
 ms.topic: reference
 dev_langs:
@@ -23,7 +23,9 @@ ms.workload:
 
 In Visual Studio 2017, you can define and maintain consistent code style in your codebase with the use of an [EditorConfig](../ide/create-portable-custom-editor-options.md) file. EditorConfig includes several core formatting properties, such as `indent_style` and `indent_size`. In Visual Studio, .NET coding conventions settings can also be configured using an EditorConfig file. EditorConfig files allow you to enable or disable individual .NET coding conventions, and to configure the degree to which you want the convention enforced via a severity level. To learn more about how to use EditorConfig to enforce consistency in your codebase, read [Create portable custom editor options](../ide/create-portable-custom-editor-options.md).
 
-See the end of this document for an example .editorconfig.
+See the end of this article for an [example .editorconfig file](#example-editorconfig-file).
+
+## Convention categories
 
 There are three supported .NET coding convention categories:
 
@@ -124,7 +126,7 @@ The style rules in this section are applicable to both C# and Visual Basic. To s
 
 #### <a name="this_and_me"></a>"This." and "Me." qualifiers
 
-This style rule (rule IDs IDE0003 and IDE0009) can be applied to fields, properties, methods or events. A value of **true** means prefer the code symbol to be prefaced with `this.` in C# or `Me.` in Visual Basic. A value of **false** means prefer the code element _not_ to be prefaced with `this.` or `Me.`.
+This style rule (rule IDs IDE0003 and IDE0009) can be applied to fields, properties, methods, or events. A value of **true** means prefer the code symbol to be prefaced with `this.` in C# or `Me.` in Visual Basic. A value of **false** means prefer the code element _not_ to be prefaced with `this.` or `Me.`.
 
 The following table shows the rule names, applicable programming languages, and default values:
 
@@ -240,7 +242,7 @@ dotnet_style_qualification_for_event = false:suggestion
 
 #### <a name="language_keywords"></a>Language keywords instead of framework type names for type references
 
-This style rule can be applied to local variables, method parameters, and class members, or as a separate rule to type member access expressions. A value of **true** means prefer the language keyword (e.g. `int` or `Integer`) instead of the type name (e.g. `Int32`) for types that have a keyword to represent them. A value of **false** means prefer the type name instead of the language keyword.
+This style rule can be applied to local variables, method parameters, and class members, or as a separate rule to type member access expressions. A value of **true** means prefer the language keyword (for example, `int` or `Integer`) instead of the type name (for example, `Int32`) for types that have a keyword to represent them. A value of **false** means prefer the type name instead of the language keyword.
 
 The following table shows the rule names, rules IDs, applicable programming languages, and default values:
 
@@ -450,7 +452,7 @@ Dim v = a + b * c
 
 **dotnet\_style\_parentheses\_in\_relational\_binary_operators**
 
-- When this rule is set to **always_for_clarity**, prefer parentheses to clarify relational operator (`>`, `<`, `<=`, `>=`, `is`, `as`, `==`, `!=`) precedence .
+- When this rule is set to **always_for_clarity**, prefer parentheses to clarify relational operator (`>`, `<`, `<=`, `>=`, `is`, `as`, `==`, `!=`) precedence.
 - When this rule is set to **never_if_unnecessary**, prefer to not have parentheses when relational operator (`>`, `<`, `<=`, `>=`, `is`, `as`, `==`, `!=`) precedence is obvious.
 
 Code examples:
@@ -677,8 +679,8 @@ Dim anon = New With {.name = name, .age = age}
 
 **dotnet\_style\_prefer\_auto\_properties**
 
-- When this rule is set to **true**, prefer auto-properties over properties with private backing fields.
-- When this rule is set to **false**, prefer properties with private backing fields over auto-properties.
+- When this rule is set to **true**, prefer autoproperties over properties with private backing fields.
+- When this rule is set to **false**, prefer properties with private backing fields over autoproperties.
 
 Code examples:
 
@@ -1584,7 +1586,7 @@ try {
 
 **csharp\_new\_line\_before\_members\_in\_object_initializers**
 
-- When this rule is set to **true**, require members of object intiializers to be on separate lines.
+- When this rule is set to **true**, require members of object initializers to be on separate lines.
 - When this rule is set to **false**, require members of object initializers to be on the same line.
 
 Code examples:
