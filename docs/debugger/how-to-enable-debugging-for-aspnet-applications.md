@@ -22,7 +22,7 @@ ms.workload:
 ---
 # Debug ASP.NET or ASP.NET Core apps in Visual Studio
 
-You can debug ASP.NET and ASP.NET Core apps from Visual Studio. The process differs between ASP.NET and ASP.NET Core apps, and between IIS Express and local IIS server. 
+You can debug ASP.NET and ASP.NET Core apps from Visual Studio. The process differs between ASP.NET and ASP.NET Core, and whether you are running it on IIS Express or a local IIS server. 
 
 The built-in, preconfigured IIS Express server is included by default with Visual Studio, and is the easiest way to debug an ASP.NET or ASP.NET Core app. New ASP.NET and ASP.NET Core projects in Visual Studio are already configured to debug with IIS Express. It is ideal for initial debugging and testing. 
 
@@ -187,7 +187,7 @@ For more information about configuring IIS for ASP.NET and ASP.NET Core, see [II
      1. For ASP.NET support, under **Application Development**, select **ASP.NET 4.7** (and/or 3.5, if necessary for your app(s)). 
      1. Select **OK**.
      
-   - To install ASP.NET Core support, install the ASP.NET Core Hosting Bundle, which allows IIS to support ASP.NET Core apps in a reverse proxy configuration. For details and instructions, see [Install the .NET Core Hosting Bundle](https://docs.microsoft.com/aspnet/core/host-and-deploy/iis/index#install-the-net-core-hosting-bundle). 
+   - To install ASP.NET Core support, install the ASP.NET Core Module, which allows IIS to support ASP.NET Core apps in a reverse proxy configuration. For details and instructions, see [Install the .NET Core Hosting Bundle](https://docs.microsoft.com/aspnet/core/host-and-deploy/iis/index#install-the-net-core-hosting-bundle). 
    
 1. If necessary, create or configure application pools in Internet Information Services (IIS) Manager. 
    
