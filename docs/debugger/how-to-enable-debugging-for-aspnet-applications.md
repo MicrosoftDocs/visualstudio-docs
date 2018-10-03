@@ -22,9 +22,9 @@ ms.workload:
 ---
 # Debug ASP.NET or ASP.NET Core apps in Visual Studio
 
-You can debug ASP.NET and ASP.NET Core apps from Visual Studio. The process differs between ASP.NET and ASP.NET Core apps, and whether they are hosted on built-in IIS Express or on a local IIS server. 
+You can debug ASP.NET and ASP.NET Core apps from Visual Studio. The process differs between ASP.NET and ASP.NET Core apps, and whether the app is hosted on IIS Express or on a local IIS server. 
 
-The built-in, preconfigured IIS Express server is included by default with Visual Studio, and is the easiest way to debug an ASP.NET or ASP.NET Core app. It deploys the app automatically when you debug, and is ideal for initial debugging and testing. New ASP.NET and ASP.NET Core projects in Visual Studio are already configured to debug with IIS Express. 
+The built-in, preconfigured IIS Express server is included by default with Visual Studio, and is the easiest way to debug an ASP.NET or ASP.NET Core app. New ASP.NET and ASP.NET Core projects in Visual Studio are already configured to debug with IIS Express. It is ideal for initial debugging and testing. 
 
 You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version 8.0 or higher) that has been configured to run the app. To debug ASP.NET apps on local IIS in Visual Studio, you must:
 
@@ -33,7 +33,7 @@ You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version
 - Install and correctly configure IIS, the appropriate version of ASP.NET and/or ASP.NET Core, and the IIS application pools. For details, see [Configure IIS for ASP.NET and ASP.NET Core](#configure-iis-for-asp-net-and-asp-net-core).
 
 >[!NOTE]
->The following steps and settings apply only to debugging apps on a local IIS server. Debugging apps on a remote IIS server uses **Attach to Process**, and ignores these settings. For more information and instructions for remote debugging ASP.NET apps on IIS, see [Remote debug ASP.NET on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) or [Remote debug ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md).
+>The following steps and settings apply only to debugging apps on a local server. Debugging apps on a remote IIS server uses **Attach to Process**, and ignores these settings. For more information and instructions for remote debugging ASP.NET apps on IIS, see [Remote debug ASP.NET on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) or [Remote debug ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md).
 
 ## Debug ASP.NET apps
 
@@ -48,13 +48,13 @@ You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version
    - For IIS Express, select **IIS Express** from the dropdown.
    - For local IIS,
      1. Select **Local IIS** from the dropdown.
-     1. Next to the **Project URL** field, select *Create Virtual Directory**, if you have not added the app in IIS Manager.
+     1. Next to the **Project URL** field, select *Create Virtual Directory**, if you have not yet added the app in IIS Manager.
    
 1. Under **Debuggers**, select **ASP.NET**.
    
-   ![ASP.NET IIS Express debugger settings](media/dbg-aspnet-enable-debugging.png "ASP.NET IIS Express debugger settings")
+   ![ASP.NET debugger settings](media/dbg-aspnet-enable-debugging2.png "ASP.NET debugger settings")
    
-1. Use **File** > **Save Selected Items** or **Ctrl**+**S** to save any configuration changes. 
+1. Use **File** > **Save Selected Items** or **Ctrl**+**S** to save any changes. 
    
 1. To debug the app, in your project, set breakpoints on some code. In the Visual Studio toolbar, make sure the configuration is set to **Debug**, and the browser you want appears in **IIS Express (\<Browser name>)** or **Local IIS (\<Browser name>)** in the emulator field. 
    
@@ -79,9 +79,9 @@ You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version
    
 1. Under **Environment variables**, make sure that **ASPNETCORE_ENVIRONMENT** is present with a value of **Development**. If not, select **Add** and add it.
    
-   ![ASP.NET Core IIS Express debugger settings](../debugger/media/dbg-aspnet-enable-debugging1.png "ASP.NET Core IIS Express debugger settings")
+   ![ASP.NET Core debugger settings](../debugger/media/dbg-aspnet-enable-debugging3.png "ASP.NET Core debugger settings")
    
-1. Use **File** > **Save Selected Items** or **Ctrl**+**S** to save any configuration changes. 
+1. Use **File** > **Save Selected Items** or **Ctrl**+**S** to save any changes. 
    
 1. To debug the app, in your project, set breakpoints on some code. In the Visual Studio toolbar, make sure the configuration is set to **Debug**, and either **IIS Express**, or the new IIS profile name, appears in the emulator field. 
    
@@ -99,24 +99,23 @@ If you are able to connect and hit the breakpoint by using **Attach to Process**
 
 ## Configure debugging in the web.config file  
 
-*Web.config* files must be configured correctly for debugging. The **Properties** settings in previous sections update the *web.config* files, but you can also configure them manually. 
+ASP.NET projects have *web.config* files by default, which contain both app configuration and launch information, including debug settings. The *web.config* files must be configured correctly for debugging. The **Properties** settings in previous sections update the *web.config* files, but you can also configure them manually. 
 
-ASP.NET projects have *web.config* files by default, which contain both app configuration and launch information. 
+> [!NOTE]
+> ASP.NET Core projects do not initially have *web.config* files, but use *appsettings.json* and *launchSettings.json* files for app configuration and launch information. Deploying the app creates a *web.config* file or files in the project, but they do not typically contain debug information.
 
-ASP.NET Core projects do not initially have *web.config* files, but use *appsettings.json* files for app configuration, and profiles (*launchSettings.json*) for launch information. Deploying the app creates the *web.config* file or files. 
+**To manually configure a *web.config* file for debugging:**
 
 > [!TIP]
 > Your deployment process may update the *web.config* settings, so before trying to debug, make sure the *web.config* is configured for debugging.
   
-**To manually configure a *web.config* file for debugging:**
-
-1. In Visual Studio, open the project's *web.config* file.  
+1. In Visual Studio, open the ASP.NET project's *web.config* file.  
   
 2. *Web.config* is an XML file, so contains nested sections marked by tags. Locate the `configuration/system.web/compilation` section. (If the `compilation` element does not exist, create it.)
   
 3. Ensure that the `debug` attribute in the `compilation` element is set to `true`. (If the `compilation` element does not contain a `debug` attribute, add it and set it to `true`.) 
   
-  For ASP.NET apps, if you are using local IIS instead of the default IIS Express server, ensure that the `targetFramework` attribute value in the `compilation` element matches the framework on the IIS server.
+  If you are using local IIS instead of the default IIS Express server, ensure that the `targetFramework` attribute value in the `compilation` element matches the framework on the IIS server.
   
   The `compilation` element of the *web.config* file should look like the following example:
 
@@ -136,13 +135,13 @@ ASP.NET Core projects do not initially have *web.config* files, but use *appsett
 
 [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] automatically detects any changes to *web.config* files and applies the new configuration settings. You do not have to restart the computer or the IIS server for changes to take effect.  
   
-A website can contain several virtual directories and subdirectories, with *web.config* files in each one. [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] apps inherit configuration settings from *web.config* files at higher levels in the URL path. The hierarchical *web.config* file settings apply to all [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] apps below them in the hierarchy. Setting a different configuration in a *web.config* file lower in the hierarchy overrides the higher file.  
+A website can contain several virtual directories and subdirectories, with *web.config* files in each one. [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] apps inherit configuration settings from *web.config* files at higher levels in the URL path. The hierarchical *web.config* file settings apply to all [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] apps below them in the hierarchy. Setting a different configuration in a *web.config* file lower in the hierarchy overrides the settings in the higher file.  
   
 For example, if you specify `debug="true"` in *www.microsoft.com/aaa/web.config*, any app in the *aaa* folder or in any subfolder of *aaa* inherits that setting, except if one of those apps overrides the setting with its own *web.config* file.  
   
 ## Publish to IIS in debug mode using the file system
 
-There are different ways to publish apps to IIS. These steps show how to create and use a debug Publish profile by using the file system. To do this, you must be running Visual Studio as an administrator. 
+There are different ways to publish apps to IIS. These steps show how to create and deploy a debug Publish profile using the file system. To do this, you must be running Visual Studio as an administrator. 
 
 > [!IMPORTANT]
 >  If you change your code or rebuild, you must repeat these steps to republish. 
@@ -170,7 +169,7 @@ There are different ways to publish apps to IIS. These steps show how to create 
     ![Publish to IIS](media/dbg-aspnet-local-iis-select-site.png "Publish to IIS")
 
 > [!IMPORTANT]
-> Debug mode greatly reduces the performance of your [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] app. For best app performance, set `debug="false"` in the *web.config* and specify a Release build when you deploy a release app or conduct performance measurements.  
+> Debug mode greatly reduces the performance of your [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] app. For best app performance, set `debug="false"` in the *web.config* and specify a Release build when you deploy a production app or conduct performance measurements.  
 
 ## Configure IIS for ASP.NET and ASP.NET Core
 
@@ -190,37 +189,34 @@ For more information about configuring IIS for ASP.NET and ASP.NET Core, see [II
      
    - To install ASP.NET Core support, install the ASP.NET Core Module, which allows IIS to support ASP.NET Core apps in a reverse proxy configuration. For more information, see [Install the .NET Core Hosting Bundle](https://docs.microsoft.com/aspnet/core/host-and-deploy/iis/index#install-the-net-core-hosting-bundle). 
    
-1. To configure application pools, in Internet Information Services (IIS) Manager **Connections** pane, select **Application Pools**. 
+1. If necessary, create or configure application pools in Internet Information Services (IIS) Manager. 
    
-   The **Application Pools** pane lists the **DefaultAppPool** and any app pools that were automatically created by installing ASP.NET. 
+   The **Application Pools** pane in IIS Manager lists the **DefaultAppPool** and any app pools that were automatically created by installing ASP.NET. 
    - If you installed ASP.NET, the DefaultAppPool is automatically configured to run the highest installed version of ASP.NET. (For ASP.NET 4.x, the .NET CLR version is v4.0.) 
    - If you installed ASP.NET Core but not ASP.NET, the DefaultAppPool is automatically configured to run under .NET Core (.NET CLR = No Managed Code). 
-   - If you installed both ASP.NET and ASP.NET Core, the DefaultAppPool is preconfigured to support the latest version of ASP.NET. To support both ASP.NET and ASP.NET Core apps, you can reconfigure the DefaultAppPool to support ASP.NET Core (No Managed Code), and reconfigure the ASP.NET apps to run in the existing .NET 4.5 app pool instead. Or, you can continue to run ASP.NET 4.5 apps in the DefaultAppPool, and create a new app pool to support ASP.NET Core apps. 
+   To support both ASP.NET and ASP.NET Core apps, create a new application pool with **.NET CLR = No Managed Code** to support ASP.NET Core, and configure the ASP.NET Core apps to run in that app pool. (Or, you can reconfigure the DefaultAppPool to support ASP.NET Core, and reconfigure the ASP.NET apps to run in the preconfigured .NET 4.5 app pool instead.) 
    
-   **To change the settings for an application pool:** 
-   1. In the **Application Pools** list, select the app pool, and select **Basic settings** in the **Actions** pane, or right-click the app pool and select **Basic Settings**.
-   1. Under **.NET CLR settings**, choose the setting you want: **Version 4.0.x** for ASP.NET 4.x, **Version 2.0.x** for ASP.NET 3.x, or **No Managed Code** for ASP.NET Core. 
+   1. In the IIS Manager **Connections** pane, select **Application Pools**. 
+   1. To create a new application pool, select **Add Application Pool** in the **Actions** pane, or right-click **Application Pools** and select **Add Application Pool**.
+   1. To reconfigure an app pool, select the app pool in the **Application Pools** list and select **Basic settings** in the **Actions** pane, or right-click the app pool and select **Basic Settings**.
+   1. In the **Add Application Pool** or **Edit Application Pool** dialog, under **.NET CLR settings**, choose the setting you want: **Version 4.0.x** for ASP.NET 4.x, **Version 2.0.x** for ASP.NET 3.x, or **No Managed Code** for ASP.NET Core. 
    1. Select **OK**.  
    
-   **To create a new application pool:**
-   1. In the IIS Manager **Connections** pane, select **Application Pools**, and select **Add Application Pool** in the **Actions** pane, or right-click **Application Pools** and select **Add Application Pool**. 
-   1. In the **Name** field, type a name for the new app pool.
-   1. Under **.NET CLR settings**, choose the setting you want: **Version 4.0.x** for ASP.NET 4.x, **Version 2.0.x** for ASP.NET 3.x, or **No Managed Code** for ASP.NET Core. 
-   1. Select **OK**.  
+1. If necessary, add your app to IIS and assign its application pool, or reassign the app pool for an existing app.
    
-   **To reassign an app to a different application pool:**
-   1. In the IIS Manager **Connections** pane, select the app, and select **Basic settings** in the **Actions** pane. 
-   1. Under **Application pool**, select the app pool you want. 
-   1. Select **OK**.  
+   >[!NOTE]
+   >Deploying an ASP.NET app to IIS in Visual Studio automatically adds it in IIS Manager, so you may not need to add the app manually, unless you need to reconfigure it before deployment. To update the list of existing apps in IIS, right-click the website in the IIS Manager **Connections** pane, and select **Refresh**. 
    
-1. If necessary, add your app to IIS and assign its application pool.
+   **To add an app to IIS:**
    1. In the Internet Information Services (IIS) Manager **Connections** pane, right-click **Default Web Site** and select **Add Application**.
    2. Under **Alias**, type the app name. Under **Application Pool**, select the appropriate app pool.
    3. Under **Physical path**, enter the location of the app on your machine. 
    4. Select **OK**.  
    
-   >[!NOTE]
-   >When you deploy an ASP.NET app in Visual Studio, it is automatically added to IIS, so you may not need to add the app to IIS manually, unless you need to configure it. To update the list of existing apps in IIS, right-click **Default Web Site** in the IIS Manager **Connections** pane, and select **Refresh**. 
+   **To reassign an app to a different application pool:**
+   1. In the IIS Manager **Connections** pane, select the app and select **Basic settings** in the **Actions** pane. 
+   1. Under **Application pool**, select the app pool you want. 
+   1. Select **OK**.  
    
 
 ## See also  
