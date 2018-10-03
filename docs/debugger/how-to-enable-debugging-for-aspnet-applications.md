@@ -22,15 +22,15 @@ ms.workload:
 ---
 # Debug ASP.NET or ASP.NET Core apps in Visual Studio
 
-You can debug ASP.NET and ASP.NET Core apps from Visual Studio. The process differs between ASP.NET and ASP.NET Core apps, and whether the app is hosted on IIS Express or on a local IIS server. 
+You can debug ASP.NET and ASP.NET Core apps from Visual Studio. The process differs between ASP.NET and ASP.NET Core apps, and between IIS Express and local IIS server. 
 
 The built-in, preconfigured IIS Express server is included by default with Visual Studio, and is the easiest way to debug an ASP.NET or ASP.NET Core app. New ASP.NET and ASP.NET Core projects in Visual Studio are already configured to debug with IIS Express. It is ideal for initial debugging and testing. 
 
-You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version 8.0 or higher) that has been configured to run the app. To debug ASP.NET apps on local IIS in Visual Studio, you must:
+You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version 8.0 or higher) that is configured to run the app. To debug ASP.NET apps on local IIS in Visual Studio, you must:
 
 - Select **Development time IIS support** when installing Visual Studio. (If necessary, rerun the Visual Studio Installer, select **Modify**, and add this component.)
 - Be running Visual Studio as an administrator. 
-- Install and correctly configure IIS, the appropriate version of ASP.NET and/or ASP.NET Core, and the IIS application pools. For details, see [Configure IIS for ASP.NET and ASP.NET Core](#configure-iis-for-aspnet-and-aspnet-core).
+- Install and correctly configure IIS, the appropriate version of ASP.NET and/or ASP.NET Core, and application pools. For details, see [Configure IIS for ASP.NET and ASP.NET Core](#configure-iis-for-aspnet-and-aspnet-core).
 
 >[!NOTE]
 >The following steps and settings apply only to debugging apps on a local server. Debugging apps on a remote IIS server uses **Attach to Process**, and ignores these settings. For more information and instructions for remote debugging ASP.NET apps on IIS, see [Remote debug ASP.NET on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) or [Remote debug ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md).
@@ -187,36 +187,36 @@ For more information about configuring IIS for ASP.NET and ASP.NET Core, see [II
      1. For ASP.NET support, under **Application Development**, select **ASP.NET 4.7** (and/or 3.5, if necessary for your app(s)). 
      1. Select **OK**.
      
-   - To install ASP.NET Core support, install the ASP.NET Core Module, which allows IIS to support ASP.NET Core apps in a reverse proxy configuration. For more information, see [Install the .NET Core Hosting Bundle](https://docs.microsoft.com/aspnet/core/host-and-deploy/iis/index#install-the-net-core-hosting-bundle). 
+   - To install ASP.NET Core support, install the ASP.NET Core Hosting Bundle, which allows IIS to support ASP.NET Core apps in a reverse proxy configuration. For details and instructions, see [Install the .NET Core Hosting Bundle](https://docs.microsoft.com/aspnet/core/host-and-deploy/iis/index#install-the-net-core-hosting-bundle). 
    
 1. If necessary, create or configure application pools in Internet Information Services (IIS) Manager. 
    
-   The **Application Pools** pane in IIS Manager lists the **DefaultAppPool** and any app pools that were automatically created by installing ASP.NET. 
-   - If you installed ASP.NET, the DefaultAppPool is automatically configured to run the highest installed version of ASP.NET. (For ASP.NET 4.x, the .NET CLR version is v4.0.) 
-   - If you installed ASP.NET Core but not ASP.NET, the DefaultAppPool is automatically configured to run under .NET Core (.NET CLR = No Managed Code). 
-   - To support both ASP.NET and ASP.NET Core apps, create a new application pool with **.NET CLR = No Managed Code** to support ASP.NET Core, and configure the ASP.NET Core apps to run in that app pool. (Or, you can reconfigure the DefaultAppPool to support ASP.NET Core, and reconfigure the ASP.NET apps to run in the preconfigured .NET 4.5 app pool instead.) 
-   
    1. In the IIS Manager **Connections** pane, select **Application Pools**. 
-   1. To create a new application pool, select **Add Application Pool** in the **Actions** pane, or right-click **Application Pools** and select **Add Application Pool**.
-   1. To reconfigure an application pool, select the app pool in the **Application Pools** list and select **Basic settings** in the **Actions** pane, or right-click the app pool and select **Basic Settings**.
-   1. In the **Add Application Pool** or **Edit Application Pool** dialog, under **.NET CLR settings**, choose the setting you want: **Version 4.0.x** for ASP.NET 4.x, **Version 2.0.x** for ASP.NET 3.x, or **No Managed Code** for ASP.NET Core. 
+   1. To create a new application pool, right-click and select **Add Application Pool**, or select **Add Application Pool** in the **Actions** pane.
+   1. Or, to reconfigure an application pool, right-click the app pool in the **Application Pools** list and select **Basic settings**, or select **Basic Settings** in the **Actions** pane.
+   1. In the **Add Application Pool** or **Edit Application Pool** dialog, under **.NET CLR settings**, choose the correct setting: **Version 4.0.x** for ASP.NET 4.x, **Version 2.0.x** for ASP.NET 3.x, or **No Managed Code** for ASP.NET Core. 
    1. Select **OK**.  
-   
-1. If necessary, add your app to IIS and assign its application pool, or reassign the app pool for an existing app.
    
    >[!NOTE]
-   >Deploying an ASP.NET app to IIS in Visual Studio automatically adds it in IIS Manager, so you may not need to add the app manually, unless you need to reconfigure it before deployment. To update the list of existing apps in IIS, right-click the website in the IIS Manager **Connections** pane, and select **Refresh**. 
+   >The **Application Pools** pane in IIS Manager lists the **DefaultAppPool** and any app pools that were automatically created by installing ASP.NET or ASP.NET Core Module. 
+   >- If you installed ASP.NET, the DefaultAppPool is automatically configured to run the highest installed version of ASP.NET. (For ASP.NET 4.x, the .NET CLR version is v4.0.) 
+   >- If you installed ASP.NET Core but not ASP.NET, the DefaultAppPool is automatically configured to run under .NET Core (.NET CLR = No Managed Code). 
+   >- To support both ASP.NET and ASP.NET Core apps, they must run under different application pools. 
    
-   **To add an app to IIS:**
-   1. In the Internet Information Services (IIS) Manager **Connections** pane, right-click **Default Web Site** and select **Add Application**.
-   2. Under **Alias**, type the app name. Under **Application Pool**, select the appropriate app pool.
-   3. Under **Physical path**, enter the location of the app on your machine. 
-   4. Select **OK**.  
+1. If necessary, add your app to IIS, and assign or reassign its application pool.
+   - To add an app:
+     1. In the Internet Information Services (IIS) Manager **Connections** pane, under **Sites**, right-click the website and select **Add Application**.
+     2. Under **Alias**, type the app name. Under **Application Pool**, select the appropriate app pool.
+     3. Under **Physical path**, enter the location of the app on your machine. 
+     4. Select **OK**.  
    
-   **To reassign an app to a different application pool:**
-   1. In the IIS Manager **Connections** pane, select the app and select **Basic settings** in the **Actions** pane. 
-   1. Under **Application pool**, select the app pool you want. 
-   1. Select **OK**.  
+   - To reassign an application pool:
+     1. In the IIS Manager **Connections** pane, select the app, and select **Basic settings** in the **Actions** pane. 
+     1. Under **Application pool**, select the correct app pool. 
+     1. Select **OK**.  
+   
+   >[!NOTE]
+   >Deploying an ASP.NET app to IIS in Visual Studio automatically adds it in IIS Manager, so you may not need to add an app manually, unless you need to configure it before deployment. To update the list of existing apps in IIS, right-click **Sites** in the IIS Manager **Connections** pane, and select **Refresh**. 
    
 
 ## See also  
