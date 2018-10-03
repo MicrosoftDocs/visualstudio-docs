@@ -24,13 +24,14 @@ ms.workload:
 
 You can debug ASP.NET and ASP.NET Core apps from Visual Studio. The process differs between ASP.NET and ASP.NET Core apps, and whether they are hosted on built-in IIS Express or on a local IIS server. 
 
-The built-in, preconfigured IIS Express server is included by default with Visual Studio, and is the easiest way to debug an ASP.NET or ASP.NET Core app. It is deploys the app automatically when you debug, and is ideal for initial debugging and testing. New ASP.NET and ASP.NET Core projects in Visual Studio are already configured to debug with IIS Express. 
+The built-in, preconfigured IIS Express server is included by default with Visual Studio, and is the easiest way to debug an ASP.NET or ASP.NET Core app. It deploys the app automatically when you debug, and is ideal for initial debugging and testing. New ASP.NET and ASP.NET Core projects in Visual Studio are already configured to debug with IIS Express. 
 
 You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version 8.0 or higher) that has been configured to run the app. To debug ASP.NET apps on local IIS in Visual Studio, you must:
 
 - Select **Development time IIS support** when installing Visual Studio. (If necessary, rerun the Visual Studio Installer, select **Modify**, and add this component.)
 - Be running Visual Studio as an administrator. 
-- Install and correctly configure IIS, the appropriate version of ASP.NET and/or ASP.NET Core, and the IIS application pools. For more information, see 
+- Install and correctly configure IIS, the appropriate version of ASP.NET and/or ASP.NET Core, and the IIS application pools. For details, see [Configure IIS for ASP.NET and ASP.NET Core](#configure-iis-for-asp-net-and-asp-net-core).
+
 >[!NOTE]
 >The following steps and settings apply only to debugging apps on a local IIS server. Debugging apps on a remote IIS server uses **Attach to Process**, and ignores these settings. For more information and instructions for remote debugging ASP.NET apps on IIS, see [Remote debug ASP.NET on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) or [Remote debug ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md).
 
@@ -173,7 +174,7 @@ There are different ways to publish apps to IIS. These steps show how to create 
 
 ## Configure IIS for ASP.NET and ASP.NET Core
 
-For more information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) and [Host ASP.NET Core on Windows with IIS](https://docs.microsoft.com/aspnet/core/host-and-deploy/iis/index). 
+For more information about configuring IIS for ASP.NET and ASP.NET Core, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) and [Host ASP.NET Core on Windows with IIS](https://docs.microsoft.com/aspnet/core/host-and-deploy/iis/index). 
    
 1. Install IIS, ASP.NET, and/or ASP.NET Core.
    - To install IIS and ASP.NET in Windows Server: 
