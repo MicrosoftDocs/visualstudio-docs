@@ -22,7 +22,7 @@ This page walks you through uninstalling Visual Studio, our integrated suite of 
 
 1. Find the Visual Studio Installer on your computer.
 
-     For example, on a computer running Windows 10 Anniversary Update, select **Start** and scroll to the letter **V**, where it is listed as **Visual Studio Installer**.
+     For example, on a computer running Windows 10 Anniversary Update or later, select **Start** and scroll to the letter **V**, where it is listed as **Visual Studio Installer**.
 
      ![Visual Studio Installer](media/vs2017-locate-the-visual-studio-installer.PNG "Locate the Microsoft Visual Studio Installer")
 
