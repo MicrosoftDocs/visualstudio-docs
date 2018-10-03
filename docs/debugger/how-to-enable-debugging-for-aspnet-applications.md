@@ -48,7 +48,7 @@ You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version
    - For IIS Express, select **IIS Express** from the dropdown.
    - For local IIS,
      1. Select **Local IIS** from the dropdown.
-     1. Next to the **Project URL** field, select *Create Virtual Directory**, if you have not yet added the app in IIS Manager.
+     1. Next to the **Project URL** field, select **Create Virtual Directory**, if you have not yet added the app in IIS Manager.
    
 1. Under **Debuggers**, select **ASP.NET**.
    
@@ -95,7 +95,7 @@ If local IIS debugging cannot progress to the breakpoint, follow these steps to 
    
 2. From Visual Studio, select **Debug > Attach to Process** or press **Ctrl**+**Alt**+**P**, and connect to the ASP.NET or ASP.NET Core process (typically **w3wp.exe** or **dotnet.exe**). For more information, see [Attach to Process](attach-to-running-processes-with-the-visual-studio-debugger.md) and [How to find the name of the ASP.NET process](how-to-find-the-name-of-the-aspnet-process.md).
 
-If you are able to connect and hit the breakpoint by using **Attach to Process**, but not by using **Debug** > **Start Debugging** or **F5**, a setting is probably incorrect in the project properties. If you use a HOSTS file, make sure it is configured correctly.
+If you are able to connect and hit the breakpoint by using **Attach to Process**, but not by using **Debug** > **Start Debugging** or **F5**, a setting is probably incorrect in the project properties. If you use a HOSTS file, make sure it is also configured correctly.
 
 ## Configure debugging in the web.config file  
 
@@ -148,7 +148,7 @@ There are different ways to publish apps to IIS. These steps show how to create 
 
 1. In Visual Studio, right-click the project and choose **Publish**.
 
-3. Choose **IIS, FTP, etc.** and click **Publish**.
+3. Choose **IIS, FTP, etc** and click **Publish**.
 
     ![Publish to IIS](media/dbg-aspnet-local-iis.png "Publish to IIS")
 
@@ -169,7 +169,7 @@ There are different ways to publish apps to IIS. These steps show how to create 
     ![Publish to IIS](media/dbg-aspnet-local-iis-select-site.png "Publish to IIS")
 
 > [!IMPORTANT]
-> Debug mode greatly reduces the performance of your [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] app. For best app performance, set `debug="false"` in the *web.config* and specify a Release build when you deploy a production app or conduct performance measurements.  
+> Debug mode greatly reduces the performance of your app. For best performance, set `debug="false"` in the *web.config* and specify a Release build when you deploy a production app or conduct performance measurements.  
 
 ## Configure IIS for ASP.NET and ASP.NET Core
 
@@ -194,7 +194,7 @@ For more information about configuring IIS for ASP.NET and ASP.NET Core, see [II
    The **Application Pools** pane in IIS Manager lists the **DefaultAppPool** and any app pools that were automatically created by installing ASP.NET. 
    - If you installed ASP.NET, the DefaultAppPool is automatically configured to run the highest installed version of ASP.NET. (For ASP.NET 4.x, the .NET CLR version is v4.0.) 
    - If you installed ASP.NET Core but not ASP.NET, the DefaultAppPool is automatically configured to run under .NET Core (.NET CLR = No Managed Code). 
-   To support both ASP.NET and ASP.NET Core apps, create a new application pool with **.NET CLR = No Managed Code** to support ASP.NET Core, and configure the ASP.NET Core apps to run in that app pool. (Or, you can reconfigure the DefaultAppPool to support ASP.NET Core, and reconfigure the ASP.NET apps to run in the preconfigured .NET 4.5 app pool instead.) 
+   - To support both ASP.NET and ASP.NET Core apps, create a new application pool with **.NET CLR = No Managed Code** to support ASP.NET Core, and configure the ASP.NET Core apps to run in that app pool. (Or, you can reconfigure the DefaultAppPool to support ASP.NET Core, and reconfigure the ASP.NET apps to run in the preconfigured .NET 4.5 app pool instead.) 
    
    1. In the IIS Manager **Connections** pane, select **Application Pools**. 
    1. To create a new application pool, select **Add Application Pool** in the **Actions** pane, or right-click **Application Pools** and select **Add Application Pool**.
