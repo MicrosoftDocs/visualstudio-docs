@@ -22,32 +22,24 @@ ms.workload:
 ---
 # Debug ASP.NET or ASP.NET Core apps in Visual Studio
 
-You can debug ASP.NET and ASP.NET Core apps from Visual Studio. The process differs between ASP.NET and ASP.NET Core, and whether you are running it on IIS Express or a local IIS server. 
-
-The built-in, preconfigured IIS Express server is included by default with Visual Studio, and is the easiest way to debug an ASP.NET or ASP.NET Core app. New ASP.NET and ASP.NET Core projects in Visual Studio are already configured to debug with IIS Express. It's ideal for initial debugging and testing. 
-
-You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version 8.0 or higher) that is configured to run the app. See [Prerequisites for debugging on local IIS](#prerequisites-for-debugging-on-local-iis). 
+You can debug ASP.NET and ASP.NET Core apps in Visual Studio. The process differs between ASP.NET and ASP.NET Core, and whether you run it on IIS Express or a local IIS server. 
 
 >[!NOTE]
 >The following steps and settings apply only to debugging apps on a local server. Debugging apps on a remote IIS server uses **Attach to Process**, and ignores these settings. For more information and instructions for remote debugging ASP.NET apps on IIS, see [Remote debug ASP.NET on an IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) or [Remote debug ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md).
 
-## Prerequisites for debugging on local IIS
+The built-in IIS Express server is included with Visual Studio. It is the default debug server for ASP.NET and ASP.NET Core projects, and is preconfigured. It's the easiest way to debug, and ideal for initial debugging and testing. 
 
-To debug an ASP.NET or ASP.NET Core app on a local IIS server in Visual Studio, you must:
+You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version 8.0 or higher) that is configured to run the app, if you meet the following requirements: 
 
+<a name="iis"></a>
 - Select **Development time IIS support** when installing Visual Studio. (If necessary, rerun the Visual Studio Installer, select **Modify**, and add this component.)
 - Be running Visual Studio as an administrator. 
-- Install and correctly configure IIS with the appropriate version(s) of ASP.NET and/or ASP.NET Core. 
-- Be able to run the app on IIS without errors.
+- Install and correctly configure IIS with the appropriate version(s) of ASP.NET and/or ASP.NET Core. For more information and instructions, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) or [Host ASP.NET Core on Windows with IIS](https://docs.microsoft.com/aspnet/core/host-and-deploy/iis/index).
+- Make sure the app runs on IIS without errors.
 
-For more information and instructions, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) or [Host ASP.NET Core on Windows with IIS](https://docs.microsoft.com/aspnet/core/host-and-deploy/iis/index).
+## Debug ASP.NET apps 
 
-## Debug ASP.NET apps
-
->[!NOTE]
->The IIS Express server is preconfigured, and IIS Express debug settings are already selected for new ASP.NET projects. 
->
->For local IIS debugging, make sure you have met all the requirements in [Prerequisites for debugging on local IIS](#prerequisites-for-debugging-on-local-iis). 
+IIS Express is the default, and is preconfigured. If you're debugging on Local IIS, make sure you meet the [requirements for local IIS debugging](#iis). 
 
 1. Select the ASP.NET project in Visual Studio **Solution Explorer** and click the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
    
@@ -57,7 +49,7 @@ For more information and instructions, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NE
    - For IIS Express, select **IIS Express** from the dropdown.
    - For local IIS,
      1. Select **Local IIS** from the dropdown.
-     1. Next to the **Project URL** field, select **Create Virtual Directory**, if you haven't yet added the app in IIS Manager.
+     1. Next to the **Project URL** field, select **Create Virtual Directory**, if you haven't yet set up the app in IIS.
    
 1. Under **Debuggers**, select **ASP.NET**.
    
@@ -71,10 +63,7 @@ For more information and instructions, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NE
 
 ## Debug ASP.NET Core apps 
 
->[!NOTE]
->The IIS Express server is preconfigured, and IIS Express debug settings are already selected for new ASP.NET Core projects. 
->
->For local IIS debugging, make sure you have met all the requirements in [Prerequisites for debugging on local IIS](#prerequisites-for-debugging-on-local-iis). 
+IIS Express is the default, and is preconfigured. If you're debugging on Local IIS, make sure you meet the [requirements for local IIS debugging](#iis). 
 
 1. Select the ASP.NET Core project in Visual Studio **Solution Explorer** and click the **Properties** icon, press **Alt**+**Enter**, or right-click and choose **Properties**.
 
@@ -115,11 +104,11 @@ ASP.NET projects have *web.config* files by default, which contain both app conf
 > [!NOTE]
 > ASP.NET Core projects do not initially have *web.config* files, but use *appsettings.json* and *launchSettings.json* files for app configuration and launch information. Deploying the app creates a *web.config* file or files in the project, but they do not typically contain debug information.
 
-**To manually configure a *web.config* file for debugging:**
-
 > [!TIP]
 > Your deployment process may update the *web.config* settings, so before trying to debug, make sure the *web.config* is configured for debugging.
   
+**To manually configure a *web.config* file for debugging:**
+
 1. In Visual Studio, open the ASP.NET project's *web.config* file.  
   
 2. *Web.config* is an XML file, so contains nested sections marked by tags. Locate the `configuration/system.web/compilation` section. (If the `compilation` element doesn't exist, create it.)
