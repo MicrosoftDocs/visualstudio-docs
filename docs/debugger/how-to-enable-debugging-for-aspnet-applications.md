@@ -29,7 +29,7 @@ You can debug ASP.NET and ASP.NET Core apps in Visual Studio. The process differ
 
 The built-in IIS Express server is included with Visual Studio. It is the default debug server for ASP.NET and ASP.NET Core projects, and is preconfigured. It's the easiest way to debug, and ideal for initial debugging and testing. 
 
-You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version 8.0 or higher) that is configured to run the app, if you meet the following requirements: 
+You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version 8.0 or higher) that is configured to run the app. You must meet the following requirements: 
 
 <a name="iis"></a>
 - Select **Development time IIS support** when installing Visual Studio. (If necessary, rerun the Visual Studio Installer, select **Modify**, and add this component.)
