@@ -299,7 +299,7 @@ The sections in the following table include commands that are global in that you
 |--------------|------------------------|
 |Team.Git.GoToGitBranches|**Ctrl+0, Ctrl+N**<br /><br /> or<br /><br /> **Ctrl+0, N**|
 |Team.Git.GoToGitChanges|**Ctrl+0, Ctrl+G**<br /><br /> or<br /><br /> **Ctrl+0, G**|
-|Team.Git.GoToGitCommits|**Ctrl+0, Ctrl+O**<br /><br /> or<br /><br /> **Ctrl+0, O**|
+|Team.Git.GoToGitCommits|**Ctrl+0, Ctrl+O**<br /><br /> or<br /><br /> **Ctrl+0, Ctrl+O**|
 |Team.TeamExplorerSearch|**Ctrl+'**|
 
 ###  <a name="bkmk_TFcontext"></a> Team Foundation context menus
