@@ -24,7 +24,7 @@ ms.workload:
 
 You can debug ASP.NET and ASP.NET Core apps from Visual Studio. The process differs between ASP.NET and ASP.NET Core, and whether you are running it on IIS Express or a local IIS server. 
 
-The built-in, preconfigured IIS Express server is included by default with Visual Studio, and is the easiest way to debug an ASP.NET or ASP.NET Core app. New ASP.NET and ASP.NET Core projects in Visual Studio are already configured to debug with IIS Express. It is ideal for initial debugging and testing. 
+The built-in, preconfigured IIS Express server is included by default with Visual Studio, and is the easiest way to debug an ASP.NET or ASP.NET Core app. New ASP.NET and ASP.NET Core projects in Visual Studio are already configured to debug with IIS Express. It's ideal for initial debugging and testing. 
 
 You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version 8.0 or higher) that is configured to run the app. See [Prerequisites for debugging on local IIS](#prerequisites-for-debugging-on-local-iis). 
 
@@ -57,7 +57,7 @@ For more information and instructions, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NE
    - For IIS Express, select **IIS Express** from the dropdown.
    - For local IIS,
      1. Select **Local IIS** from the dropdown.
-     1. Next to the **Project URL** field, select **Create Virtual Directory**, if you have not yet added the app in IIS Manager.
+     1. Next to the **Project URL** field, select **Create Virtual Directory**, if you haven't yet added the app in IIS Manager.
    
 1. Under **Debuggers**, select **ASP.NET**.
    
@@ -67,7 +67,7 @@ For more information and instructions, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NE
    
 1. To debug the app, in your project, set breakpoints on some code. In the Visual Studio toolbar, make sure the configuration is set to **Debug**, and the browser you want appears in **IIS Express (\<Browser name>)** or **Local IIS (\<Browser name>)** in the emulator field. 
    
-1. To start debugging, select **IIS Express (\<Browser name>)** or **Local IIS (\<Browser name>)** in the toolbar, select **Start Debugging** from the **Debug** menu, or press **F5**. The debugger pauses at the breakpoints. If the debugger cannot hit the breakpoints, see [Troubleshoot debugging](#troubleshoot-debugging).
+1. To start debugging, select **IIS Express (\<Browser name>)** or **Local IIS (\<Browser name>)** in the toolbar, select **Start Debugging** from the **Debug** menu, or press **F5**. The debugger pauses at the breakpoints. If the debugger can't hit the breakpoints, see [Troubleshoot debugging](#troubleshoot-debugging).
 
 ## Debug ASP.NET Core apps 
 
@@ -96,17 +96,17 @@ For more information and instructions, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NE
    
 1. To debug the app, in your project, set breakpoints on some code. In the Visual Studio toolbar, make sure the configuration is set to **Debug**, and either **IIS Express**, or the new IIS profile name, appears in the emulator field. 
    
-1. To start debugging, select **IIS Express** or **\<IIS profile name>** in the toolbar, select **Start Debugging** from the **Debug** menu, or press **F5**. The debugger pauses at the breakpoints. If the debugger cannot hit the breakpoints, see [Troubleshoot debugging](#troubleshoot-debugging).
+1. To start debugging, select **IIS Express** or **\<IIS profile name>** in the toolbar, select **Start Debugging** from the **Debug** menu, or press **F5**. The debugger pauses at the breakpoints. If the debugger can't hit the breakpoints, see [Troubleshoot debugging](#troubleshoot-debugging).
 
 ## Troubleshoot debugging
 
-If local IIS debugging cannot progress to the breakpoint, follow these steps to troubleshoot. 
+If local IIS debugging can't progress to the breakpoint, follow these steps to troubleshoot. 
 
 1. Start the web app from IIS, and make sure it runs correctly. Leave the web app running.
    
 2. From Visual Studio, select **Debug > Attach to Process** or press **Ctrl**+**Alt**+**P**, and connect to the ASP.NET or ASP.NET Core process (typically **w3wp.exe** or **dotnet.exe**). For more information, see [Attach to Process](attach-to-running-processes-with-the-visual-studio-debugger.md) and [How to find the name of the ASP.NET process](how-to-find-the-name-of-the-aspnet-process.md).
 
-If you are able to connect and hit the breakpoint by using **Attach to Process**, but not by using **Debug** > **Start Debugging** or **F5**, a setting is probably incorrect in the project properties. If you use a HOSTS file, make sure it is also configured correctly.
+If you can connect and hit the breakpoint by using **Attach to Process**, but not by using **Debug** > **Start Debugging** or **F5**, a setting is probably incorrect in the project properties. If you use a HOSTS file, make sure it's also configured correctly.
 
 ## Configure debugging in the web.config file  
 
@@ -122,11 +122,11 @@ ASP.NET projects have *web.config* files by default, which contain both app conf
   
 1. In Visual Studio, open the ASP.NET project's *web.config* file.  
   
-2. *Web.config* is an XML file, so contains nested sections marked by tags. Locate the `configuration/system.web/compilation` section. (If the `compilation` element does not exist, create it.)
+2. *Web.config* is an XML file, so contains nested sections marked by tags. Locate the `configuration/system.web/compilation` section. (If the `compilation` element doesn't exist, create it.)
   
-3. Ensure that the `debug` attribute in the `compilation` element is set to `true`. (If the `compilation` element does not contain a `debug` attribute, add it and set it to `true`.) 
+3. Make sure that the `debug` attribute in the `compilation` element is set to `true`. (If the `compilation` element doesn't contain a `debug` attribute, add it and set it to `true`.) 
   
-  If you are using local IIS instead of the default IIS Express server, ensure that the `targetFramework` attribute value in the `compilation` element matches the framework on the IIS server.
+  If you are using local IIS instead of the default IIS Express server, make sure that the `targetFramework` attribute value in the `compilation` element matches the framework on the IIS server.
   
   The `compilation` element of the *web.config* file should look like the following example:
 
@@ -144,7 +144,7 @@ ASP.NET projects have *web.config* files by default, which contain both app conf
   </configuration>  
   ```
 
-[!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] automatically detects any changes to *web.config* files and applies the new configuration settings. You do not have to restart the computer or the IIS server for changes to take effect.  
+[!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] automatically detects any changes to *web.config* files and applies the new configuration settings. You don't have to restart the computer or the IIS server for changes to take effect.  
   
 A website can contain several virtual directories and subdirectories, with *web.config* files in each one. [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] apps inherit configuration settings from *web.config* files at higher levels in the URL path. The hierarchical *web.config* file settings apply to all [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] apps below them in the hierarchy. Setting a different configuration in a *web.config* file lower in the hierarchy overrides the settings in the higher file.  
   
