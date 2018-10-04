@@ -263,9 +263,9 @@ The sections in the following table include commands that are global in that you
 |Project.AddNewItem|**Ctrl+Shift+A**|
 |Project.ClassWizard|**Ctrl+Shift+X**|
 |Project.Override|**Ctrl+Alt+Ins**|
-|Project.Previewchanges|**Alt+;**, **Alt+C**|
-|Project.Publishselectedfiles|**Alt+;**, **Alt+P**|
-|Project.Replaceselectedfilesfromserver|**Alt+;**, **Alt+R**|
+|Project.Previewchanges|**Alt+;** then **Alt+C**|
+|Project.Publishselectedfiles|**Alt+;** then **Alt+P**|
+|Project.Replaceselectedfilesfromserver|**Alt+;** then **Alt+R**|
 
 ###  <a name="bkmk_projectContext"></a> Project and solution context menus
 
@@ -289,9 +289,9 @@ The sections in the following table include commands that are global in that you
 
 |Commands|Keyboard shortcuts|
 |--------------|------------------------|
-|SolutionExplorer.OpenFilesFilter|**Ctrl+[**, **O** (letter 'O')<br /><br /> or<br /><br /> **Ctrl+[, Ctrl+O** (letter 'O')|
-|SolutionExplorer.PendingChangesFilter|**Ctrl+[**, **P**<br /><br /> or<br /><br /> **Ctrl+[, Ctrl+P**|
-|SolutionExplorer.SyncWithActiveDocument|**Ctrl+[**, **S**<br /><br /> or<br /><br /> **Ctrl+[, Ctrl+S**|
+|SolutionExplorer.OpenFilesFilter|**Ctrl+[**, **O** (letter 'O')<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+O** (letter 'O')|
+|SolutionExplorer.PendingChangesFilter|**Ctrl+[**, **P**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+P**|
+|SolutionExplorer.SyncWithActiveDocument|**Ctrl+[**, **S**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+S**|
 
 ###  <a name="bkmk_team"></a> Team
 
