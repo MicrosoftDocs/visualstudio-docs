@@ -20,18 +20,21 @@ Create your best work. Work anywhere with apps that are always updated. Office 3
 Follow these steps to download and activate Office 365:
 1. Sign in to your Visual Studio Enterprise subscription.  
 2. Click on **Downloads** tab.
-3. You'll see a list of featured downloads. In the Office list, choose **Office 365**
-4. To install Office 365, you'll need a product key.  Click on the **Get key** link.
-5. A fly-out window will show you any keys you've already claimed.  To obtain a new key, click **Claim key**.
-6. Record the key you just claimed. 
-7. Close the fly-out window.
-8. Click the **Download** button. 
-9. Sign in with your Microsoft account. (If you're already signed in, click **Next**.)
-10. Enter your product key, country or region, and language, then click **Next**.
-11. Click **Next** again.
-12. Click **Install** to install the Office applications. 
+3. You'll see a list of featured downloads. In the Office list, choose **Office Professional Plus 2019**
+0. You'll see two listings.  The listing for Office 365 is the second one.  Verify that the first and last drop-down lists, which determine the architecture and media type, read **UNK** and **OTH**, respectively.   
+0. To install Office 365, you'll need a product key.  Click on the **Get key** link under the second listing.
+0. A fly-out window will show you any keys you've already claimed.  To obtain a new key, click **Claim key**.
+0. Record the key you just claimed. (You can always return to this list to see it again.)
+0. Close the fly-out window.
+0. Click the **Download** button. 
+0. Sign in with your Microsoft account. (If you're already signed in, click **Next**.)
+0. Enter your product key, country or region, and language, then click **Next**.
+0. Click **Next** again.
+0. Click **Install** to install the Office applications. 
 
+## Next steps
 
+If you're planning to develop applications for Office, you'll want to activate your [Office Developer Subscription](vs-office-dev.md)
 
 
 ## Eligibility
