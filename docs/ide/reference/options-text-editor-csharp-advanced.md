@@ -26,6 +26,61 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
    Enables code analysis on all files in the solution, not just open code files. For more information, see [Full solution analysis](../../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md).
 
+## Using Directives
+
+- Place 'System' directives first when sorting usings
+
+   When selected whenever you select “Sort Usings” or “Remove and Sort”, Visual Studio will sort the usings statements and ensure that all the system directives are ordered first.
+
+Pre Sort
+
+    using AutoMapper;
+    using FluentValidation;
+    using System.Collections.Generic;
+    using System.Linq;
+    using Newtonsoft.Json;
+    using System;
+
+After Sort
+
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using AutoMapper;
+    using FluentValidation;
+    using Newtonsoft.Json;
+
+- Separate using directive groups
+
+   When selected, whenever you select “Sort Usings” or “Remove and Sort”, Visual Studio will sort the usings by directive group.
+
+Pre Sort
+
+    using AutoMapper;
+    using FluentValidation;
+    using System.Collections.Generic;
+    using System.Linq;
+    using Newtonsoft.Json;
+    using System;
+
+After Sort
+
+    using AutoMapper;
+    
+    using FluentValidation;
+    
+    using Newtonsoft.Json;
+    
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
+- Add usings for types in reference assemblies and NuGet packages 
+
+   When selected, Shows a lightbulb with a code fix to install a NuGet package for an unreferenced type
+
+![nuget](/docs/images/nuget-lightbulb.png)
+  
 ## Highlighting
 
 - Highlight references to symbol under cursor
