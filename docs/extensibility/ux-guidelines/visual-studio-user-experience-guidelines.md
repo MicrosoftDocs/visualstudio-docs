@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio User Experience Guidelines | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/04/2016"
+ms.date: "10/05/2018"
 ms.technology: 
   - "vs-ide-sdk"
 ms.topic: "conceptual"
@@ -13,14 +13,14 @@ ms.workload:
   - "vssdk"
 ---
 # Visual Studio User Experience Guidelines
-The Visual Studio User Experience Guidelines are intended for those who design new features for Visual Studio. These guidelines contain information about common user models and interaction patterns so that designers of new user interfaces (UI) can create user experiences that are seamless and consistent within the development environment.  
+Follow the Visual Studio User Experience Guidelines if you design new features for Visual Studio. These guidelines contain information about common user models and interaction patterns so that designers of new user interfaces (UI) can create user experiences that are seamless and consistent within the development environment.  
   
- Developing software for Microsoft products means understanding the guidance provided by Windows. There are three important resources to be aware of:  
+If you develop software for Microsoft products, learn to use these resources:
   
--   The [Windows User Experience Interaction Guidelines](https://msdn.microsoft.com/en-us/library/aa511258.aspx). These guidelines are the basics for Windows desktop behavior and appearance.  
+-   The [Windows User Experience Interaction Guidelines](https://developer.microsoft.com/windows/desktop) are the basics for Windows desktop behavior and appearance.  
   
 -   These Visual Studio guidelines, which are platform-specific guidelines that supersede the general Windows guidelines wherever appropriate to our environment.  
   
 -   The [patterns and guides for Windows Store apps](https://dev.windows.com/en-us/design/interaction-ux) are a reference for emerging patterns that may be used in some instances within Visual Studio.  
   
- These guidelines give you information about what to do when designing for Visual Studio, and in some cases information regarding how to do it is also included. For more detailed implementation information and to learn about specific application programming interfaces (APIs) that allow you to write code for solutions that integrate into the Visual Studio integrated development environment (IDE), use the [Visual Studio Software Development Kit (SDK)](https://msdn.microsoft.com/en-us/library/bb166441.aspx).
+These guidelines give you information about what to do when designing for Visual Studio, and in some cases information regarding how to do it is also included. For more detailed implementation information and to learn about specific application programming interfaces (APIs) that allow you to write code for solutions that integrate into the Visual Studio integrated development environment (IDE), use the [Visual Studio Software Development Kit (SDK)](../visual-studio-sdk.md).

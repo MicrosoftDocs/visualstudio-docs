@@ -153,5 +153,5 @@ The majority of Visual Studio dialogs are [Utility dialog layout](../../extensib
   
 ## See Also  
  [Application Patterns for Visual Studio](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md)   
- [Controls (Windows)](https://msdn.microsoft.com/library/windows/desktop/dn742399.aspx)   
- [Dialog Boxes (Windows)](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742499\(v=vs.85\).aspx)
+ [Controls (Windows)](/windows/desktop/uxguide/controls)   
+ [Dialog Boxes (Windows)](/windows/desktop/uxguide/win-dialog-box)
