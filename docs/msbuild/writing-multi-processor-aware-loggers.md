@@ -70,7 +70,7 @@ As an alternative, you can create a custom forwarding logger. By creating a cust
  To attach either a ConfigurableForwardingLogger or a custom forwarding logger, use the `-distributedlogger` switch (`-dl` for short) in an *MSBuild.exe* command-line build. The format for specifying the names of the logger types and classes is the same as that for the `-logger` switch, except that a distributed logger always has two logging classes instead of one, the forwarding logger and the central logger. The following is an example of how to attach a custom forwarding logger named XMLForwardingLogger.  
   
 ```cmd  
-msbuild.exe myproj.proj/distributedlogger:XMLCentralLogger,MyLogger,Version=1.0.2,Culture=neutral*XMLForwardingLogger,MyLogger,Version=1.0.2,Culture=neutral  
+msbuild.exe myproj.proj -distributedlogger:XMLCentralLogger,MyLogger,Version=1.0.2,Culture=neutral*XMLForwardingLogger,MyLogger,Version=1.0.2,Culture=neutral  
 ```  
   
 > [!NOTE]
