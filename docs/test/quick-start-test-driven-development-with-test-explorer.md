@@ -33,7 +33,7 @@ We recommend that you create unit tests to help keep your code working correctly
 
     1.  Create a test project.
 
-         In the **New Project** dialog box, expand **Visual Basic** > **Visual C#** or **Visual C++**, and then choose **Test**.
+         In the **New Project** dialog box, expand **Visual Basic** or **Visual C#** or **Visual C++**, and then choose **Test**.
 
          Select **Unit Test Project**.
 
