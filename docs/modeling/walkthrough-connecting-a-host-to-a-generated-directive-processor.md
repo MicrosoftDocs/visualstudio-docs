@@ -39,7 +39,7 @@ To define a DSL, you must have installed the following components:
 
 |||
 |-|-|
-|[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579)|
+|Visual Studio|[http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579)|
 |[!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580)|
 |Visual Studio Visualization and Modeling SDK||
 
@@ -70,13 +70,13 @@ In this walkthrough, you use the Domain-Specific Language Designer Wizard to cre
 
 3.  On the **Debug** menu, click **Start Debugging**.
 
-     A second instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] opens.
+     A second instance of Visual Studio opens.
 
 4.  In the experimental build, in **Solution Explorer**, double-click the file **sample.min**.
 
      The file opens in the designer. Notice that the model has two elements, ExampleElement1 and ExampleElement2, and a link between them.
 
-5.  Close the second instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+5.  Close the second instance of Visual Studio.
 
 6.  Save the solution, and then close the Domain-Specific Language Designer.
 

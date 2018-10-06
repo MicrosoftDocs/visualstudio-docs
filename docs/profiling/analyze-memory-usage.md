@@ -11,13 +11,13 @@ ms.workload:
   - "multiple"
 ---
 # Analyze memory usage
-Use the debugger-integrated **Memory Usage** diagnostic tool to find memory leaks and inefficient memory usage. The Memory Usage tool lets you take one or more *snapshots* of the managed and native memory heap. You can collect snapshots of .NET, native, or mixed mode (.NET and native) apps.  
+Use the debugger-integrated **Memory Usage** diagnostic tool to find memory leaks and inefficient memory usage. The Memory Usage tool lets you take one or more *snapshots* of the managed and native memory heap. You can collect snapshots of .NET, ASP.NET, native, or mixed mode (.NET and native) apps.  
   
 -   You can analyze a single snapshot to understand the relative impact of the object types on memory use, and to find code in your app that uses memory inefficiently.  
   
 -   You can also compare (diff) two snapshots of an app to find areas in your code that cause the memory use to increase over time.  
 
-For detailed instructions, see the [Analyze memory usage](../profiling/memory-usage.md) tutorial. To analyze memory usage without attaching the debugger, see [Memory usage without the debugger](memory-usage-without-debugging2.md).
+For detailed instructions, see the [Analyze memory usage](../profiling/memory-usage.md) tutorial.  Currently, to measure memory usage for a .NET Core app, you need to use the tool with the debugger attached. For other managed and native apps, you can use the tool either with or without the debugger attached.
 
 You can use the profiling tools without the debugger with Windows 7 and later. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
   

@@ -37,7 +37,7 @@ ms.workload:
  Select a name that is unique when it is compared to other identifiers in a case-insensitive manner.
 
 ## When to suppress warnings
- Do not suppress a warning from this rule. The library might not be usable in all available languages in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
+ Do not suppress a warning from this rule. The library might not be usable in all available languages in the .NET Framework.
 
 ## Example of a Violation
  The following example demonstrates a violation of this rule.

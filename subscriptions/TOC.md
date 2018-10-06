@@ -17,7 +17,7 @@
 ## Using Subscriber Benefits
 ### Tools
 #### [Visual Studio IDE ](vs-ide-benefit.md)
-#### [Azure DevOps Services](vs-azure-devops.md)
+#### [Azure DevOps](vs-azure-devops.md)
 #### [Azure Credit](vs-azure.md)
 #### [Visual Studio App Center](vs-visual-studio-app-center.md)
 #### [Parasoft ](vs-parasoft.md)
@@ -31,7 +31,7 @@
 ### [Professional Development](professional-development.md)
 #### [LinkedIn Learning](vs-linkedin-learning.md)
 #### [DataCamp](vs-datacamp.md)
-#### [Opsgility](vs-opsgility.md)
+#### [Skill Me Up](vs-opsgility.md)
 #### [Pluralsight](vs-pluralsight.md)
 #### [Xamarin University Training](vs-xamarin.md)
 #### [MSDN Magazine subscription](vs-msdn.md)

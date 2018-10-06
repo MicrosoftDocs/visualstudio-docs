@@ -45,4 +45,4 @@ ms.workload:
  Select a name that does not appear in the list of keywords.
 
 ## When to suppress warnings
- You can suppress a warning from this rule if you are convinced that the identifier will not confuse users of the API, and that  the library is usable in all available languages in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
+ You can suppress a warning from this rule if you are convinced that the identifier will not confuse users of the API, and that  the library is usable in all available languages in the .NET Framework.

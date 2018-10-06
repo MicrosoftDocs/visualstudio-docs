@@ -721,6 +721,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "docs/deployment/deploy-iis-with-web-deploy.md",
+            "redirect_url": "/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy-on-iis-80-or-later",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "docs/designers/index.md",
             "redirect_url": "/visualstudio/designers/designing-user-interfaces",
             "redirect_document_id": false

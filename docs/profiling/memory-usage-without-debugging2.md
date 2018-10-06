@@ -1,7 +1,7 @@
 ---
 title: "Analyze Memory Usage without the VS Debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "11/04/2016"
+ms.date: "09/28/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 dev_langs: 
@@ -24,7 +24,7 @@ You can use the **Memory Usage** tool without debugging to do the following
   
 -   Compare snapshots to find the root cause of memory issues.  
   
- This topic describes how use the Memory Usage tool to analyze a UWP XAML app. If you want to analyze memory use in UWP app that uses JavaScript and HTML, see [Analyze memory usage (JavaScript)](../profiling/javascript-memory.md).  
+ Currently, to measure memory usage for a .NET Core app, you need to use the tool with the debugger attached. For other managed and native apps, you can use the tool either with or without the debugger attached. The screenshots in this topic show a UWP XAML app. If you want to analyze memory use in UWP app that uses JavaScript and HTML, see [Analyze memory usage (JavaScript)](../profiling/javascript-memory.md).
   
 ## Start a Memory Usage diagnostic session  
   

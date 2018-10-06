@@ -60,9 +60,9 @@ Note that to load and analyze a delay-signed assembly, you must disable verifica
 
 Use one of the following procedures:
 
-- Use the Assembly Linker tool (Al.exe) provided by the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] SDK.
+- Use the Assembly Linker tool (Al.exe) provided by the .NET Framework SDK.
 
-- For the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] v1.0 or v1.1, use either the <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName> or <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName> attribute.
+- For the .NET Framework v1.0 or v1.1, use either the <xref:System.Reflection.AssemblyKeyFileAttribute?displayProperty=fullName> or <xref:System.Reflection.AssemblyKeyNameAttribute?displayProperty=fullName> attribute.
 
 - For the [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)], use either the `/keyfile` or `/keycontainer` compiler option [/KEYFILE (Specify Key or Key Pair to Sign an Assembly)](/cpp/build/reference/keyfile-specify-key-or-key-pair-to-sign-an-assembly) or [/KEYCONTAINER (Specify a Key Container to Sign an Assembly)](/cpp/build/reference/keycontainer-specify-a-key-container-to-sign-an-assembly) linker option in C++).
 
@@ -86,7 +86,7 @@ Use one of the following procedures:
 
 ### Sign your assembly with a strong name outside Visual Studio
 
-Use the strong name tool (Sn.exe) that is provided by the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] SDK. For more information, see [Sn.exe (Strong Name Tool)](/dotnet/framework/tools/sn-exe-strong-name-tool).
+Use the strong name tool (Sn.exe) that is provided by the .NET Framework SDK. For more information, see [Sn.exe (Strong Name Tool)](/dotnet/framework/tools/sn-exe-strong-name-tool).
 
 ## When to suppress warnings
 
