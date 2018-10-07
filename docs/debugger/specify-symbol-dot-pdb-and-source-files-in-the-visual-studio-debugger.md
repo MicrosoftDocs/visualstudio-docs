@@ -53,7 +53,7 @@ The debugger only loads *.pdb* files that exactly match the *.pdb* files created
 
 When you build a project from the Visual Studio IDE with the standard **Debug** build configuration, the C++ and managed compilers create the appropriate symbol files for your code. You can also set compiler options in code to create the symbol files.  
   
-**C/C++ options**  
+### C/C++ options 
 
 A *.pdb* file for C/C++ is created when you build with [/ZI or /Zi](/cpp/build/reference/z7-zi-zi-debug-information-format).  
   
@@ -65,11 +65,11 @@ A *.pdb* file for C/C++ is created when you build with [/ZI or /Zi](/cpp/build/r
     
     The *VC\<x>.pdb* file stores all debugging information for the individual *.obj* files, and resides in the same directory as the project makefile. Each time it creates an *.obj* file, the C/C++ compiler merges debug information into *VC\<x>.pdb*. So even if every source file includes common header files such as *\<windows.h>*, the typedefs from those headers are stored only once, rather than in every *.obj* file. The inserted information includes type information, but does not include symbol information, such as function definitions.  
   
-  - *project.pdb* 
+  - *\<project>.pdb* 
     
-    The *project.pdb* file stores all debug information for the project's *.exe* file, and resides in the *\debug* subdirectory. The *project.pdb* file contains full debug information, including function prototypes, not just the type information found in *VC\<x>.pdb*. 
+    The *\<project>.pdb* file stores all debug information for the project's *.exe* file, and resides in the *\debug* subdirectory. The *\<project>.pdb* file contains full debug information, including function prototypes, not just the type information found in *VC\<x>.pdb*. 
   
-  Both the *VC\<x>.pdb* and *project.pdb* files allow incremental updates. The linker also embeds the path to the *.pdb* files in the *.exe* or *.dll* file that it creates.  
+  Both the *VC\<x>.pdb* and *\<project>.pdb* files allow incremental updates. The linker also embeds the path to the *.pdb* files in the *.exe* or *.dll* file that it creates.  
   
 - <a name="use-dumpbin-exports"></a>Use `dumpbin /exports` to see the symbols available in the export table of a DLL. 
   
@@ -77,11 +77,11 @@ A *.pdb* file for C/C++ is created when you build with [/ZI or /Zi](/cpp/build/r
   
   To load the DLL export tables when debugging C\C++ apps, select **Load DLL exports (native only)** in **Tools** > **Options** > **Debugging** > **General**.  For more information, see [dumpbin /exports](/cpp/build/reference/dash-exports).  
   
-**.NET Framework options**  
+### .NET Framework options 
   
 Build with **/debug** to create a *.pdb* file. You can build applications with **/debug:full** or **/debug:pdbonly**. Building with **/debug:full** generates debuggable code. Building with **/debug:pdbonly** generates *.pdb* files, but does not generate the `DebuggableAttribute` that tells the JIT compiler that debug information is available. Use **/debug:pdbonly** if you want to generate *.pdb* files for a release build that you do not want to be debuggable. For more information, see [/debug (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/debug-compiler-option) or [/debug (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/debug).  
   
-**Web applications**  
+### Web applications  
   
 Set the *web.config* file of your ASP.NET application to debug mode. Debug mode causes ASP.NET to generate symbols for dynamically generated files and enables the debugger to attach to the ASP.NET application. Visual Studio sets this automatically when you start to debug, if you created your project from the web projects template.  
 
