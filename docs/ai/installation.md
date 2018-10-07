@@ -25,7 +25,7 @@ To install, download from the [Visual Studio Marketplace](http://aka.ms/vstoolsf
 
 1. **Tools** > **Extensions and Updates**
 
-![install CUDA on Windows](media\installation\extensions.png)
+Install CUDA on Windows
 
 1. **Search** in upper right-hand corner for "Tools for AI"
 2. Select **Visual Studio Tools for AI**
@@ -80,7 +80,7 @@ Python has been the primary programming language for deep learning applications.
 
 Deep learning frameworks rely on pip for their own installation.
 
-![install Python on Windows](media\installation\install_python_win.png)
+Install Python on Windows
 
 Then, we need to verify whether Python 3.5 is installed correctly, and upgrade pip to the latest version by executing the following commands in a terminal:
 
