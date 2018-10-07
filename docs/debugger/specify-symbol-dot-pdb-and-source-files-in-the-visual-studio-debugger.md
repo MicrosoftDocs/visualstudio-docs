@@ -53,21 +53,29 @@ The debugger only loads *.pdb* files that exactly match the *.pdb* files created
 
 When you build a project from the Visual Studio IDE with the standard **Debug** build configuration, the C++ and managed compilers create the appropriate symbol files for your code. You can also set compiler options in code to create the symbol files.  
   
-**C++ options**  
+**C/C++ options**  
+
+A *.pdb* file for C/C++ is created when you build with [/ZI or /Zi](/cpp/build/reference/z7-zi-zi-debug-information-format).  
   
-A *.pdb* file is created when you build with [/ZI or /Zi](/cpp/build/reference/z7-zi-zi-debug-information-format) (for C/C++).  
+- In [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], the [/Fd](/cpp/build/reference/fd-program-database-file-name) option names the *.pdb* file the compiler creates. When you create a project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] using wizards, the **/Fd** option is set to create a *.pdb* file named *\<project>.pdb*.  
   
-In [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], the [/Fd](/cpp/build/reference/fd-program-database-file-name) option names the *.pdb* file the compiler creates. When you create a project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] using wizards, the **/Fd** option is set to create a *.pdb* file named *\<project>.pdb*.  
+  If you build your C/C++ application using a makefile, and you specify **/ZI** or **/Zi** without **/Fd**, the compiler creates two *.pdb* files:  
   
-If you build your C/C++ application using a makefile, and you specify **/ZI** or **/Zi** without **/Fd**, you end up with two *.pdb* files:  
+  - *VC\<x>.pdb*, where *\<x>* represents the version of Visual C++, for example *VC11.pdb* 
+    
+    The *VC\<x>.pdb* file stores all debugging information for the individual *.obj* files, and resides in the same directory as the project makefile. Each time it creates an *.obj* file, the C/C++ compiler merges debug information into *VC\<x>.pdb*. So even if every source file includes common header files such as *\<windows.h>*, the typedefs from those headers are stored only once, rather than in every *.obj* file. The inserted information includes type information, but does not include symbol information, such as function definitions.  
   
-- *VC\<x>.pdb*, where *\<x>* represents the version of Visual C++, for example *VC11.pdb*. This file stores all debugging information for the individual *.obj* files and resides in the same directory as the project makefile.  
+  - *project.pdb* 
+    
+    The *project.pdb* file stores all debug information for the project's *.exe* file, and resides in the *\debug* subdirectory. The *project.pdb* file contains full debug information, including function prototypes, not just the type information found in *VC\<x>.pdb*. 
   
-- *project.pdb*. This file stores all debug information for the *.exe* file. For C/C++, it resides in the *\debug* subdirectory.  
+  Both the *VC\<x>.pdb* and *project.pdb* files allow incremental updates. The linker also embeds the path to the *.pdb* files in the *.exe* or *.dll* file that it creates.  
   
-Each time it creates an *.obj* file, the C/C++ compiler merges debug information into *VC\<x>.pdb*. The inserted information includes type information, but does not include symbol information, such as function definitions. So even if every source file includes common header files such as *\<windows.h>*, the typedefs from those headers are stored only once, rather than in every *.obj* file.  
+- <a name="use-dumpbin-exports"></a>Use `dumpbin /exports` to see the symbols available in the export table of a DLL. 
   
-The linker creates *project.pdb*, which contains debug information for the project's *.exe* file. The *project.pdb* file contains full debug information, including function prototypes, not just the type information found in *VC\<x>.pdb*. Both *.pdb* files allow incremental updates. The linker also embeds the path to the *.pdb* file in the *.exe* or *.dll* file that it creates.  
+  Symbolic information from DLL export tables can be useful for working with Windows messages, Windows procedures (WindowProcs), COM objects, marshaling, or any DLL you don't have symbols for. Symbols are available for any 32-bit system DLL. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. By reading the `dumpbin /exports` output, you can see the exact function names, including non-alphanumeric characters. Seeing exact function names is useful for setting a breakpoint on a function, because function names can be truncated elsewhere in the debugger. 
+  
+  To load the DLL export tables when debugging C\C++ apps, select **Load DLL exports (native only)** in **Tools** > **Options** > **Debugging** > **General**.  For more information, see [dumpbin /exports](/cpp/build/reference/dash-exports).  
   
 **.NET Framework options**  
   
@@ -134,7 +142,7 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
      >Only the specified folder is searched. You must add entries for any subfolders that you want to search.  
    
    - To add a new VSTS Symbol Server location, 
-     1. Select the ![Tools&#47; Options&#47; Debugging&#47;Symbols new server icon](media/dbg-vsts-symbol.png "Tools &#45; Options &#45; Debugging &#45; Symbols new server icon") icon in the toolbar. 
+     1. Select the ![Tools&#47; Options&#47; Debugging&#47;Symbols new server icon](media/dbg_tools_options_foldersicon.png "Tools &#45; Options &#45; Debugging &#45; Symbols new server icon") icon in the toolbar. 
      1. In the **Connect to VSTS Symbol Server** dialog, choose one of the available symbol servers, and select **Connect**.  
    
    - To change the loading order for the symbol locations, use **Ctrl**+**Up** and **Ctrl**+**Down**, or the **Up** and **Down** arrow icons. 
@@ -151,9 +159,9 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
   
 1. Specify the modules that you want the debugger to load from the **Symbol file (.pdb) locations** when it starts.  
   
-  -  Select **Load all modules, unless excluded** (the default) to load all the symbols for all modules in the symbol file location, except modules you specifically exclude. To exclude certain modules, select **Specify excluded modules**, select the **+** icon, type the names of the modules to exclude in the field, and select **OK**.  
+  -  Select **Load all modules, unless excluded** (the default) to load all the symbols for all modules in the symbol file location, except modules you specifically exclude. To exclude certain modules, select **Specify excluded modules**, select the **+** icon, type the names of the modules to exclude, and select **OK**.  
   
-  -  To load only modules you specify from the symbol file locations, select **Load only specified modules**. Select **Specify included modules**, list only the modules you want symbol files loaded for, and then select **OK**. The symbol files for other modules are not loaded.  
+  -  To load only modules you specify from the symbol file locations, select **Load only specified modules**. Select **Specify included modules**, select the **+** icon, type the names of the modules to include, and then select **OK**. The symbol files for other modules are not loaded.  
   
 1.  Select **OK**.
 
@@ -162,9 +170,8 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
 You can select additional symbol options in **Tools** > **Options** > **Debugging** > **General** (or **Debug** > **Options** > **General**):  
 
 - **Load DLL exports (native only)**  
-  Loads DLL export tables. Symbolic information from DLL export tables can be useful for working with Windows messages, Windows procedures (WindowProcs), COM objects, marshaling, or any DLL you don't have symbols for. Reading DLL export information involves some overhead, so loading export tables is turned off by default.  
   
-  To see what symbols are available in the export table of a DLL, use `dumpbin /exports`. Symbols are available for any 32-bit system DLL. By reading the `dumpbin /exports` output, you can see the exact function name, including non-alphanumeric characters. Seeing the exact function name is useful for setting a breakpoint on a function, because function names might be truncated elsewhere in the debugger. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. For more information, see [dumpbin /exports](/cpp/build/reference/dash-exports).  
+  Loads DLL export tables. Reading DLL export information involves some overhead, so loading export tables is turned off by default. To see what symbols are available in the export table of a DLL, [use dumpbin /exports](#use-dumpbin-exports) in a C/C++ build command line.  
   
 - **Enable address level debugging** and **Show disassembly if source not available**  
   
@@ -214,17 +221,17 @@ There are several ways for the debugger to break into code that does not have sy
 -  Switch to a different thread.  
 -  Change the stack frame by double-clicking a frame in the **Call Stack** window.  
    
-When one of these happens, the debugger displays the **No Symbols Loaded** page to help you find and load the necessary symbols.  
+When this happens, the debugger displays the **No Symbols Loaded** page to help you find and load the necessary symbols.  
   
- ![No Symbols Loaded page](../debugger/media/dbg_nosymbolsloaded.png "DBG_NoSymbolsLoaded")  
+ ![No Symbols Loaded page](../debugger/media/dbg-nosymbolsloaded.png "DBG_NoSymbolsLoaded")  
   
 **To use the No Symbols Loaded document page to help find and load missing symbols:**  
   
--   To change the search path, select an unselected path, or select **New** and enter a new path. Select **Load** to search the paths again and load the symbol file if it is found.  
+-   To change the search path, select an unselected path, or select **New Path** or **New VSTS Path** and enter a new path. Select **Load** to search the paths again and load the symbol file if it is found.  
 -   To override any symbol options and retry the search paths, select **Browse and find \<executable-name>**. The symbol file is loaded if it is found, or **File Explorer** opens so you can manually select the symbol file.  
 -   To open the **Options** > **Debugging** > **Symbols** page, select **Change Symbol Settings**.  
--   To show the disassembly in a new window one time, select **view disassembly**. (To always show the disassembly when source or symbol files are not found, select that option in **Options** > **Debugging** > **General**.) 
-
+-   To show the disassembly in a new window one time, select **view disassembly**, or select **Options dialog** to set the option to always show the disassembly when source or symbol files are not found. 
+-   To show the locations searched and the outcome, expand **Symbol load information**. 
 ## See also  
 [Understand symbol files and Visual Studio symbol settings](https://blogs.msdn.microsoft.com/devops/2015/01/05/understanding-symbol-files-and-visual-studios-symbol-settings/)
 
