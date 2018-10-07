@@ -41,7 +41,7 @@ A *.pdb* file holds debugging and project state information that allows incremen
 
 Symbol files also show the location of the source files, and optionally, the server to retrieve them from.
   
-The debugger only loads *.pdb* files that exactly match the *.pdb* files created when an app was built (that is, the original *.pdb* files or copies). This exact duplication is necessary because compilers are optimized for speed, in addition to creating correct and efficient code, so the actual layout of apps can change even if the code itself has not changed. For more information, see [Why does Visual Studio require debugger symbol files to exactly match the binary files that they were built with?](https://blogs.msdn.microsoft.com/jimgries/2007/07/06/why-does-visual-studio-require-debugger-symbol-files-to-exactly-match-the-binary-files-that-they-were-built-with/)
+The debugger only loads *.pdb* files that exactly match the *.pdb* files created when an app was built (that is, the original *.pdb* files or copies). This exact duplication is necessary because the actual layout of apps can change even if the code itself has not changed. For more information, see [Why does Visual Studio require debugger symbol files to exactly match the binary files that they were built with?](https://blogs.msdn.microsoft.com/jimgries/2007/07/06/why-does-visual-studio-require-debugger-symbol-files-to-exactly-match-the-binary-files-that-they-were-built-with/)
 
 > [!TIP]
 > If you want to debug code outside your project source code, such as Windows code or third-party code your project calls, you must specify the location of the external code's *.pdb* files (and optionally, the source files), which must exactly match the builds in the apps. 
@@ -61,17 +61,17 @@ In [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)], the [/Fd](/cpp/bui
   
 If you build your C/C++ application using a makefile, and you specify **/ZI** or **/Zi** without **/Fd**, you end up with two *.pdb* files:  
   
-- *VC\<x>.pdb*, where \<x> represents the version of Visual C++, for example *VC11.pdb*. This file stores all debugging information for the individual *.obj* files and resides in the same directory as the project makefile.  
+- *VC\<x>.pdb*, where *\<x>* represents the version of Visual C++, for example *VC11.pdb*. This file stores all debugging information for the individual *.obj* files and resides in the same directory as the project makefile.  
   
 - *project.pdb*. This file stores all debug information for the *.exe* file. For C/C++, it resides in the *\debug* subdirectory.  
   
-Each time it creates an *.obj* file, the C/C++ compiler merges debug information into *VC\<x>.pdb*. The inserted information includes type information, but does not include symbol information, such as function definitions. So even if every source file includes common header files such as *\<windows.h>*, the typedefs from those headers are stored only once, rather than being in every *.obj* file.  
+Each time it creates an *.obj* file, the C/C++ compiler merges debug information into *VC\<x>.pdb*. The inserted information includes type information, but does not include symbol information, such as function definitions. So even if every source file includes common header files such as *\<windows.h>*, the typedefs from those headers are stored only once, rather than in every *.obj* file.  
   
 The linker creates *project.pdb*, which contains debug information for the project's *.exe* file. The *project.pdb* file contains full debug information, including function prototypes, not just the type information found in *VC\<x>.pdb*. Both *.pdb* files allow incremental updates. The linker also embeds the path to the *.pdb* file in the *.exe* or *.dll* file that it creates.  
   
 **.NET Framework options**  
   
-Build with **/debug** to create a *.pdb* file. You can build applications with **/debug:full** or **/debug:pdbonly**. Building with **/debug:full** generates debuggable code. Building with **/debug:pdbonly** generates *.pdb* files, but does not generate the `DebuggableAttribute` that tells the JIT compiler that debug information is available. Use **/debug:pdbonly** if you want to generate *.pdb* files for a release build that you do not want to be debuggable. For more information, see [/debug (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/debug-compiler-option) or [/debug (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/debug).  
+Build with **/debug** to create a *.pdb* file. You can build applications with **/debug:full** or **/debug:pdbonly**. Building with **/debug:full** generates debuggable code. Building with **/debug:pdbonly** generates *.pdb* files, but does not generate the `DebuggableAttribute` that tells the JIT compiler that debug information is available. Use **/debug:pdbonly** if you want to generate *.pdb* files for a release build that you do not want to be debuggable. For more information, see [/debug (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/debug-compiler-option) or [/debug (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/debug).  
   
 **Web applications**  
   
@@ -95,7 +95,7 @@ The debugger also searches for symbol files in the following locations:
   
     - Specified network, internet, or local symbol servers and locations, such as the Microsoft Symbol Servers if selected. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can download debugging symbol files from symbol servers that implement the `symsrv` protocol. [Visual Studio Team Foundation Server](http://msdn.microsoft.com/Library/bd6977ca-e30a-491a-a153-671d81222ce6) and the [Debugging Tools for Windows](http://msdn.microsoft.com/library/windows/hardware/ff551063\(v=VS.85\).aspx) are two tools that can use symbol servers. Symbol servers you might use include:  
       
-      **Public Microsoft Symbol Servers**: To debug a crash that occurs during a call to a system DLL or to a third-party library, you often need system *.pdb* files, which contain symbols for Windows DLLs, *.exe* files, and device drivers. You can get symbols for Windows operating systems, MDAC, IIS, ISA, and the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] from the public Microsoft Symbol Servers. 
+      **Public Microsoft Symbol Servers**: To debug a crash that occurs during a call to a system DLL or to a third-party library, you often need system *.pdb* files. System *.pdb* files contain symbols for Windows DLLs, *.exe* files, and device drivers. You can get symbols for Windows operating systems, MDAC, IIS, ISA, and the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] from the public Microsoft Symbol Servers. 
       
       **Symbol servers on an internal network or on your local machine**: Your team or company can create symbol servers for your own products, and as a cache for symbols from external sources. You might have a symbol server on your own machine. 
       
@@ -153,7 +153,7 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
   
   -  Select **Load all modules, unless excluded** (the default) to load all the symbols for all modules in the symbol file location, except modules you specifically exclude. To exclude certain modules, select **Specify excluded modules**, select the **+** icon, type the names of the modules to exclude in the field, and select **OK**.  
   
-  -  To load only modules you specify from the symbol file locations, select **Load only specified modules**. Select **Specify included modules**, list only the modules you want symbol files to be loaded for, and then select **OK**. The symbol files for other modules are not loaded.  
+  -  To load only modules you specify from the symbol file locations, select **Load only specified modules**. Select **Specify included modules**, list only the modules you want symbol files loaded for, and then select **OK**. The symbol files for other modules are not loaded.  
   
 1.  Select **OK**.
 
@@ -162,17 +162,19 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
 You can select additional symbol options in **Tools** > **Options** > **Debugging** > **General** (or **Debug** > **Options** > **General**):  
 
 - **Load DLL exports (native only)**  
-  Loads DLL export tables. Symbolic information from DLL export tables can be useful if you are working with Windows messages, Windows procedures (WindowProcs), COM objects, marshaling, or any DLL you don't have symbols for. Reading DLL export information involves some overhead, so loading export tables is turned off by default.  
+  Loads DLL export tables. Symbolic information from DLL export tables can be useful for working with Windows messages, Windows procedures (WindowProcs), COM objects, marshaling, or any DLL you don't have symbols for. Reading DLL export information involves some overhead, so loading export tables is turned off by default.  
   
   To see what symbols are available in the export table of a DLL, use `dumpbin /exports`. Symbols are available for any 32-bit system DLL. By reading the `dumpbin /exports` output, you can see the exact function name, including non-alphanumeric characters. Seeing the exact function name is useful for setting a breakpoint on a function, because function names might be truncated elsewhere in the debugger. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. For more information, see [dumpbin /exports](/cpp/build/reference/dash-exports).  
   
 - **Enable address level debugging** and **Show disassembly if source not available**  
+  
   Always shows the disassembly when source or symbol files are not found.  
   
   ![Options &#47; Debugging  &#47; General disassembly options](../debugger/media/dbg_options_general_disassembly_checkbox.png "Options &#47; Debugging  &#47; General disassembly options")  
   <a name="BKMK_Use_symbol_servers_to_find_symbol_files_not_on_your_local_machine"></a>
 - **Enable source server support**  
-  Uses Source Server to help debug an app when there is no source code on the local machine, or the *.pdb* file does not match the source code. Source Server takes requests for files and returns the actual files from source control. Source Server runs by using a DLL named *srcsrv.dll* to read the app's *.pdb* file, which contains pointers to the source code repository, as well as commands used to retrieve source code from the repository. You can limit the commands that *srcsrv.dll* can execute from the app's *.pdb* file by listing the allowed commands in a file named *srcsrv.ini*, which you place in the same folder as *srcsrv.dll* and *devenv.exe*.  
+  
+  Uses Source Server to help debug an app when there is no source code on the local machine, or the *.pdb* file does not match the source code. Source Server takes requests for files and returns the actual files from source control. Source Server runs by using a DLL named *srcsrv.dll* to read the app's *.pdb* file. The *.pdb* files contains pointers to the source code repository, as well as commands used to retrieve source code from the repository. You can limit the commands that *srcsrv.dll* can execute from the app's *.pdb* file by listing the allowed commands in a file named *srcsrv.ini*. Place the *srcsrv.ini* file in the same folder as *srcsrv.dll* and *devenv.exe*.  
   
   >[!IMPORTANT]
   >Arbitrary commands can be embedded in an app's *.pdb* file, so make sure to put only the commands you want to execute into a *srcsrv.ini* file. Any attempt to execute a command not in the *srcsvr.ini* file will cause a confirmation dialog box to appear. For more information, see [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md). No validation is done on command parameters, so be careful with trusted commands. For example, if you listed *cmd.exe* in your *srcsrv.ini*, a malicious user might specify parameters on *cmd.exe* that would make it dangerous.  
@@ -193,12 +195,12 @@ You can use the **Modules** window to load symbols or change symbol options whil
 **To change symbol locations or options while debugging:**
 
 1. To open the **Modules** window, while debugging, select **Debug** > **Windows** > **Modules**. 
-1. In the **Modules** window, right-click the **Symbol Status** or **Symbol File** headers, or any module that was not found, not opened, or skipped. 
+1. In the **Modules** window, right-click the **Symbol Status** or **Symbol File** headers, or any module. 
 1. In the context menu, select one of the following options:  
   
 |Option|Description|  
 |------------|-----------------|  
-|**Load Symbols**|Attempts to load symbols from locations specified on the **Options** > **Debugging** > **Symbols** page. If the symbol file cannot be found, **File Explorer** launches so you can specify a new location to search.|  
+|**Load Symbols**|Appears for modules with skipped, not found, or not loaded symbols. Attempts to load symbols from locations specified on the **Options** > **Debugging** > **Symbols** page. If the symbol file is not found or not loaded, launches **File Explorer** so you can specify a new location to search.|  
 |**Symbol Load Information**|Shows the location of a loaded symbol file, or the locations that were searched if the debugger cannot find the file.|  
 |**Symbol Settings**|Opens the **Options** > **Debugging** > **Symbols** page, where you can edit and add symbol locations.|  
 |**Always Load Automatically**|Adds the selected symbol file to the list of files that are automatically loaded by the debugger.|  
@@ -225,4 +227,5 @@ When one of these happens, the debugger displays the **No Symbols Loaded** page 
 
 ## See also  
 [Understand symbol files and Visual Studio symbol settings](https://blogs.msdn.microsoft.com/devops/2015/01/05/understanding-symbol-files-and-visual-studios-symbol-settings/)
+
 [.NET remote symbol loading changes in Visual Studio 2012 and 2013](https://blogs.msdn.microsoft.com/devops/2013/10/16/net-remote-symbol-loading-changes-in-visual-studio-2012-and-2013/)
