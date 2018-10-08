@@ -34,7 +34,7 @@ ms.workload:
 
 Program database (*.pdb*) files, also called symbol files, map identifiers and statements in your project's source code to corresponding identifiers and instructions in compiled apps. 
 
-When you build a project from the Visual Studio IDE with the standard Debug build configuration, the compiler creates the appropriate symbol files. You can also [set symbol options in code](#command-line-symbol-options). 
+When you build a project from the Visual Studio IDE with the standard Debug build configuration, the compiler creates the appropriate symbol files. You can also [set symbol options in code](#compiler-symbol-options). 
 
 The *.pdb* file holds debugging and project state information that allows incremental linking of a Debug configuration of your app. The Visual Studio debugger uses *.pdb* files to determine two key pieces of information while debugging:
 
@@ -158,7 +158,7 @@ You can select additional symbol options in **Tools** > **Options** > **Debuggin
   
   ![Enable source server options](../debugger/media/dbg_options_general_enablesrcsrvr_checkbox.png "DBG_Options_General_EnableSrcSrvr_checkbox")  
 
-## Command line symbol options  
+## Compiler symbol options  
 
 When you build a project from the Visual Studio IDE with the standard **Debug** build configuration, the C++ and managed compilers create the appropriate symbol files for your code. You can also set compiler options in code. 
 
