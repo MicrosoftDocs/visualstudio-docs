@@ -40,7 +40,7 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |**/Framework: [*framework version*]**|Target .NET Framework version to be used for test execution.<br />Valid values are Framework35, Framework40, Framework45, and FrameworkUap10.<br />If the target framework is specified as **Framework35**, the tests run in CLR 4.0 "compatibly mode".<br />Example: `/Framework:framework40`|
 |**/TestCaseFilter:[*expression*]**|Run tests that match the given expression.<br /><Expression\> is of the format <property\>=<value\>[&#124;<Expression\>].<br />Example: `/TestCaseFilter:"Priority=1"`<br />Example: `/TestCaseFilter:"TestCategory=Nightly&#124;FullyQualifiedName=Namespace.ClassName.MethodName"`<br />The **/TestCaseFilter** command-line option cannot be used with the **/Tests** command-line option. <br />For information about creating and using expressions, see [TestCase filter](https://github.com/Microsoft/vstest-docs/blob/master/docs/filter.md).|
 |**/?**|Displays usage information.|
-|**/Logger:[*uri/friendlyname*]**|Specify a logger for test results.<br />Example: To log results into a Visual Studio Test Results File (TRX), use **/Logger:trx**.<br />Example: To publish test results to Team Foundation Server, use TfsPublisher:<br />**/logger:TfsPublisher;**<br />**Collection=<team project url\>;**<br />**BuildName=<build name\>;**<br />**TeamProject=<team project name\>;**<br />**[;Platform=<Defaults to "Any CPU">]**<br />**[;Flavor=<Defaults to "Debug">]**<br />**[;RunTitle=<title\>]**|
+|**/Logger:[*uri/friendlyname*]**|Specify a logger for test results.<br />Example: To log results into a Visual Studio Test Results File (TRX), use **/Logger:trx**.<br />Example: To publish test results to Team Foundation Server, use TfsPublisher:<br />**/logger:TfsPublisher;**<br />**Collection=<project url\>;**<br />**BuildName=<build name\>;**<br />**TeamProject=<project name\>;**<br />**[;Platform=<Defaults to "Any CPU">]**<br />**[;Flavor=<Defaults to "Debug">]**<br />**[;RunTitle=<title\>]**|
 |**/ListTests:[*file name*]**|Lists discovered tests from the given test container.|
 |**/ListDiscoverers**|Lists installed test discoverers.|
 |**/ListExecutors**|Lists installed test executors.|
@@ -48,6 +48,10 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |**/ListSettingsProviders**|Lists installed test settings providers.|
 |**/Blame**|Tracks the tests as they're executing and, if the test host process crashes, emits the tests names in their sequence of execution up to and including the specific test that was running at the time of the crash. This output makes it easier to isolate the offending test and diagnose further. [More information](https://github.com/Microsoft/vstest-docs/blob/master/docs/extensions/blame-datacollector.md).|
 |**/Diag:[*file name*]**|Writes diagnostic trace logs to the specified file.|
+|**/ResultsDirectory:[*path*]**|Test results directory will be created in specified path if not exists.<br />Example: `/ResultsDirectory:<pathToResultsDirectory>`|
+|**/ParentProcessId:[*parentProcessId*]**|Process Id of the Parent Process responsible for launching current process.|
+|**/Port:[*port*]**|The Port for socket connection and receiving the event messages.|
+|**/Collect:[*dataCollector friendlyName*]**|Enables data collector for the test run. [More information](https://aka.ms/vstest-collect).|
 
 > [!TIP]
 > The options and values are not case-sensitive.

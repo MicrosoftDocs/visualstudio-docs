@@ -6,8 +6,8 @@ ms.topic: "conceptual"
 ms.assetid: fd39882e-06d1-4b39-80d2-4d07b6e4f8f5
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-mobile
-author: charlespetzold
-ms.author: chape
+author: conceptdev
+ms.author: crdun
 manager: crdun
 ms.workload:
   - "xamarin"
@@ -48,7 +48,7 @@ These actions create a solution with four projects: a shared .NET Standard 2.0 l
 
   ![Select the Visual Studio Emulator for Android as a debug target](../cross-platform/media/crossplat-xamarin-verify-3.png "CrossPlat Xamarin Verify 3")
 
-  For more detailed information, see [Introducing Visual Studio's Emulator for Android](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/12/introducing-visual-studio-s-emulator-for-android.aspx) (Visual Studio ALM blog). If you encounter problems getting the emulator to work, see [Troubleshoot the Visual Studio Emulator for Android](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md). You can also create new device profiles for the emulator by selecting **Tools > Android > Android Emulator Manager**.
+  For more detailed information, see [Introducing Visual Studio's Emulator for Android](https://blogs.msdn.microsoft.com/devops/2014/11/12/introducing-visual-studios-emulator-for-android/) on the Microsoft DevOps blog. If you encounter problems getting the emulator to work, see [Troubleshoot the Visual Studio Emulator for Android](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md). You can also create new device profiles for the emulator by selecting **Tools > Android > Android Emulator Manager**.
 
 3. Press **F5** to compile and deploy the program to the Android device or emulator.
 

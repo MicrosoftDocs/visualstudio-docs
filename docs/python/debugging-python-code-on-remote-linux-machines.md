@@ -1,7 +1,7 @@
 ---
 title: Debugging Python code on remote Linux computers
 description: How to use Visual Studio to debug Python code running on remote Linux computers, including necessary configuration steps, security, and troubleshooting.
-ms.date: 06/26/2018
+ms.date: 09/03/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: conceptual
@@ -94,7 +94,7 @@ In these steps, we set a simple breakpoint to stop the remote process.
 1. In the **Connection Target** field (**Qualifier** on older versions), enter `tcp://<secret>@<ip_address>:5678` where `<secret>` is the string passed `enable_attach` in the Python code, `<ip_address>` is that of the remote computer (which can be either an explicit address or a name like myvm.cloudapp.net), and `:5678` is the remote debugging port number.
 
     > [!Warning]
-    > If you're making a connection over the public internet, you should be using `tcps` instead and following the instruction below to [Secure the debugger connection with SSL](#securing-the-debugger-connection-with-ssl).
+    > If you're making a connection over the public internet, you should be using `tcps` instead and following the instruction below to [Secure the debugger connection with SSL](#secure-the-debugger-connection-with-ssl).
 
 1. Press **Enter** to populate the list of available ptvsd processes on that computer:
 
@@ -121,6 +121,9 @@ In these steps, we set a simple breakpoint to stop the remote process.
 
     | Visual Studio version | Python tools/ptvsd version |
     | --- | --- |
+    | 2017 15.8 | 4.1.1a9 (legacy debugger: 3.2.1.0) |
+    | 2017 15.7 | 4.1.1a1 (legacy debugger: 3.2.1.0) |
+    | 2017 15.4, 15.5, 15.6 | 3.2.1.0 |
     | 2017 15.3 | 3.2.0 |
     | 2017 15.2 | 3.1.0 |
     | 2017 15.0, 15.1 | 3.0.0 |
@@ -140,7 +143,7 @@ By default, the connection to the ptvsd remote debug server is secured only by t
 
     When prompted, use the hostname or IP address (whichever you use to connect) for the **Common Name** when prompted by openssl.
 
-    (See [Self-signed certificates](http://docs.python.org/3/library/ssl.html#self-signed-certificates) in the Python `ssl` module docs for additional details. Note that the command in those docs generates only a single combined file.)
+    (See [Self-signed certificates](https://docs.python.org/3/library/ssl.html#self-signed-certificates) in the Python `ssl` module docs for additional details. Note that the command in those docs generates only a single combined file.)
 
 1. In the code, modify the call to `enable_attach` to include `certfile` and `keyfile` arguments using the filenames as the values (these arguments have the same meaning as for the standard `ssl.wrap_socket` Python function):
 

@@ -15,15 +15,15 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Designer Initialization and Metadata Configuration
+# Designer initialization and metadata configuration
 Manipulation of the metadata and filter attributes associated with a designer or designer component provides a mechanism for applications to define which tools are used by a particular designer to handle different <xref:System.Type> objects (such as data structures, classes, or graphical entities), when the designer is available, and how the Visual Studio IDE is configured to support the designer (for instance which **Toolbox** category or tab is available).  
   
  The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides several mechanisms to facilitate the control of a designer's or designer component's initialization and the manipulation of its metadata by a VSPackage.  
   
-## Initializing Metadata and Configuration Information  
+## Initialize metadata and configuration information  
  Because they are loaded on demand, VSPackages may not have been loaded by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment prior to the instantiation of a designer. Therefore, VSPackages cannot use the standard mechanism for configuring a designer or designer component on creation, which is to handle a <xref:System.ComponentModel.Design.IDesignerEventService.DesignerCreated> event. Instead, a VSPackage implements an instance of the <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> interface and  registers itself to provide customizations, referred to as design surface extensions.  
   
-### Customizing Initialization  
+### Customize initialization  
  Customizing a designer, a component, or a designer surface, involves:  
   
 1.  Modifying the designer metadata and effectively changing how a certain <xref:System.Type> is accessed or converted.  
@@ -36,7 +36,7 @@ Manipulation of the metadata and filter attributes associated with a designer or
   
 3.  Modification of the user environment by activating appropriate **Toolbox** categories or by restricting the designer's applicability by applying an instance of the <xref:System.ComponentModel.ToolboxItemFilterAttribute> class to the designer.  
   
-### Designer Initialization by a VSPackage  
+### Designer initialization by a VSPackage  
  A VSPackage should handle designer initialization by:  
   
 1.  Creating an object implementing the <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> class.  
@@ -60,7 +60,7 @@ Manipulation of the metadata and filter attributes associated with a designer or
   
 2.  It is possible to explicitly restrict an implementation of the <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension> object to specific designers, by applying instances of <xref:System.ComponentModel.ToolboxItemFilterAttribute> to that implementation. For more information on **Toolbox** item filtering, see the <xref:System.ComponentModel.ToolboxItemFilterAttribute> and <xref:System.ComponentModel.ToolboxItemFilterType>.  
   
-## Additional Metadata Provisioning  
+## Additional metadata provisioning  
  A VSPackage can change the configuration of a designer or designer component other than at design time.  
   
  The <xref:Microsoft.VisualStudio.Shell.Design.ProvideDesignerMetadataAttribute> class can be used programmatically, or be applied to a VSPackage providing a designer.  
@@ -90,8 +90,8 @@ Manipulation of the metadata and filter attributes associated with a designer or
 > [!NOTE]
 >  At the present time, the design surface only supports creating components, and therefore only components can have local metadata. In the example above, we were attempting to modify a property, such as the `Color` property of an object. If `false` was passed in for the global flag, `CustomBrowser` would never appear because the designer never actually creates an instance of `Color`. Setting the global flag to `false` is useful for components, such as controls, timers, and dialog boxes.  
   
-## See Also  
+## See also  
  <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtension>   
  <xref:Microsoft.VisualStudio.Shell.Design.DesignSurfaceExtensionAttribute>   
  <xref:System.ComponentModel.ToolboxItemFilterType>   
- [Extending Design-Time Support](http://msdn.microsoft.com/Library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)
+ [Extend design-time support](https://msdn.microsoft.com/Library/d6ac8a6a-42fd-4bc8-bf33-b212811297e2)

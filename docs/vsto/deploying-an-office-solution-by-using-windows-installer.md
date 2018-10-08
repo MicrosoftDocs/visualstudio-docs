@@ -520,7 +520,7 @@ To modify custom properties, you create a program that removes the document-leve
   
 9. On the menu bar, choose **Build** > **Build OfficeAddInSetup**.  
   
-   After the build completes, you can locate the *setup.exe* file of the **OfficeAddInSetup** project at the following location: *OfficeAddInSetupProjectRoot***\OfficeAddInSetup\Express\SingleImage\DiskImages\DISK1\**  
+   After the build completes, you can locate the *setup.exe* file of the **OfficeAddInSetup** project at the following location: _OfficeAddInSetupProjectRoot_**\OfficeAddInSetup\Express\SingleImage\DiskImages\DISK1\**  
   
   
 ## See also  

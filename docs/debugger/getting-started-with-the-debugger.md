@@ -25,7 +25,7 @@ This article introduces the features of the Visual Studio debugger in a step-by-
 |---------|---------|
 |  ![movie camera icon for video](../install/media/video-icon.png "Watch a video")  |    [Watch a video](https://mva.microsoft.com/en-US/training-courses-embed/getting-started-with-visual-studio-2017-17798/Debugger-Feature-tour-of-Visual-studio-2017-sqwiwLD6D_1111787171) on debugging that shows similar steps. |
 
-Although the demo app is C# and C++, the features are applicable to Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted). The screenshots are in C#.
+Although the demo app is C# and C++, the features are applicable to Visual Basic, JavaScript, and other languages supported by Visual Studio (except where noted). The screenshots are in C#. To switch between the C# and C++ sample code in this article, use the language filter in the upper right of this page.
 
 In this tutorial, you will:
 
@@ -280,9 +280,9 @@ In this tutorial, you will:
 
 ## Set a breakpoint and start the debugger
 
-1. In the `foreach` loop of the `Main` function (`for` loop in C++ `main` function), set a breakpoint by clicking the left margin of the first line of code.
+1. In the `foreach` loop of the `Main` function (`for` loop in C++ `main` function), set a breakpoint by clicking the left margin of the following line of code:
 
-    ![Set a breakpoint](../debugger/media/get-started-set-breakpoint.png "SetABreakPoint")
+    `shape.Draw()` (or, `shape->Draw()` in C++)
 
     A red circle appears where you set the breakpoint.
 
@@ -290,7 +290,7 @@ In this tutorial, you will:
 
 6. Press **F5** or the **Start Debugging** button, the app starts, and the debugger runs to the line of code where you set the breakpoint.
 
-    ![Hit a breakpoint](../debugger/media/get-started-hit-breakpoint.png "HitABreakPoint")
+    ![Set and hit a breakpoint](../debugger/media/get-started-set-breakpoint.gif)
 
     The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
 
@@ -302,9 +302,7 @@ In this tutorial, you will:
 
 Mostly, we use the keyboard shortcuts here, because it's a good way to get fast at executing your app in the debugger (equivalent commands such as menu commands are shown in parentheses).
 
-1. Press **F11** (or choose **Debug > Step Into**) once (several times in C#) until you pause on the `shape.Draw` method call in the `Main` method (`shape->Draw` in C++).
-
-1. Press **F11** once more to advance into code for the `Rectangle` class.
+1. While paused in the `shape.Draw` method call in the `Main` method (`shape->Draw` in C++), press **F11** (or choose **Debug > Step Into**) to advance into code for the `Rectangle` class.
 
      ![Use F11 to Step Into code](../debugger/media/get-started-f11.png "F11 Step Into")
 
@@ -358,19 +356,19 @@ Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "Res
 
 When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code.
 
-The debugger stops again at the breakpoint you set, in the `foreach` loop (`for` loop in C++).
+The debugger stops again at the breakpoint you set, on the `shape.Draw()` method (`shape->Draw()` in C++).
 
 ## Inspect variables with data tips
 
 Features that allow you to inspect variables are one of the most useful features of the debugger, and there are different ways to do it. Often, when you try to debug an issue, you are attempting to find out whether variables are storing the values that you expect them to have at a particular time.
 
-1. While paused on the `foreach` loop (`for` loop in C++), press **F11** once.
-
-1. Hover over the `shapes` object and you see its default property value, the `Count` property.
+1. While paused on the `shape.Draw()` method (`shape->Draw()` in C++), hover over the `shapes` object and you see its default property value, the `Count` property.
 
 1. Expand the `shapes` object to see all its properties, such as the first index of the array `[0]`, which has a value of `Rectangle` (C#) or a memory address (C++).
 
-     ![View a data tip](../debugger/media/get-started-data-tip.png "View a Data Tip")
+     ![View a data tip](../debugger/media/get-started-data-tip.gif "View a Data Tip")
+
+    You can further expand objects to view their properties, such as the `Height` property of the rectangle.
 
     Often, when debugging, you want a quick way to check property values on objects, and the data tips are a good way to do it.
 
@@ -440,4 +438,4 @@ Features that allow you to inspect variables are one of the most useful features
 In this tutorial, you've learned how to start the debugger, step through code, and inspect variables. You may want to get a high-level look at debugger features along with links to more information.
 
 > [!div class="nextstepaction"]
-> [Debugger feature tour](../debugger/debugger-feature-tour.md)
+> [Debugger tips and tricks](../debugger/debugger-tips-and-tricks.md)

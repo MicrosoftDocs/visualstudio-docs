@@ -18,6 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # CA1036: Override methods on comparable types
+
 |||
 |-|-|
 |TypeName|OverrideMethodsOnComparableTypes|
@@ -26,26 +27,35 @@ ms.workload:
 |Breaking Change|Non-breaking|
 
 ## Cause
- A public or protected type implements the <xref:System.IComparable?displayProperty=fullName> interface and does not override <xref:System.Object.Equals%2A?displayProperty=fullName> or does not overload the language-specific operator for equality, inequality, less than, or greater than. The rule does not report a violation if the type inherits only an implementation of the interface.
+ A public or protected type implements the <xref:System.IComparable?displayProperty=fullName> interface and does not override <xref:System.Object.Equals%2A?displayProperty=fullName> or does not overload the language-specific operator for equality, inequality, less-than, or greater-than. The rule does not report a violation if the type inherits only an implementation of the interface.
 
-## Rule Description
- Types that define a custom sort order implement the <xref:System.IComparable> interface. The <xref:System.IComparable.CompareTo%2A> method returns an integer value that indicates the correct sort order for two instances of the type. This rule identifies types that set a sort order; this implies that the ordinary meaning of equality, inequality, less than, and greater than do not apply. When you provide an implementation of <xref:System.IComparable>, you must usually also override <xref:System.Object.Equals%2A> so that it returns values that are consistent with <xref:System.IComparable.CompareTo%2A>. If you override <xref:System.Object.Equals%2A> and are coding in a language that supports operator overloads, you should also provide operators that are consistent with <xref:System.Object.Equals%2A>.
+## Rule description
 
-## How to Fix Violations
- To fix a violation of this rule, override <xref:System.Object.Equals%2A>. If your programming language supports operator overloading, supply the following operators:
+Types that define a custom sort order implement the <xref:System.IComparable> interface. The <xref:System.IComparable.CompareTo%2A> method returns an integer value that indicates the correct sort order for two instances of the type. This rule identifies types that set a sort order. Setting a sort order implies that the ordinary meaning of equality, inequality, less-than, and greater-than don't apply. When you provide an implementation of <xref:System.IComparable>, you must usually also override <xref:System.Object.Equals%2A> so that it returns values that are consistent with <xref:System.IComparable.CompareTo%2A>. If you override <xref:System.Object.Equals%2A> and are coding in a language that supports operator overloads, you should also provide operators that are consistent with <xref:System.Object.Equals%2A>.
 
--   op_Equality
+## How to fix violations
 
--   op_Inequality
+To fix a violation of this rule, override <xref:System.Object.Equals%2A>. If your programming language supports operator overloading, supply the following operators:
 
--   op_LessThan
+- op_Equality
 
--   op_GreaterThan
+- op_Inequality
 
- In C#, the tokens that are used to represent these operators are as follows: ==, !=, \<, and >.
+- op_LessThan
 
-## When to Suppress Warnings
- It is safe to suppress a warning from this rule when the violation is caused by missing operators and your programming language does not support operator overloading, as is the case with Visual Basic. It is also safe to suppress a warning for from this rule when it fires on equality operators other than op_Equality if you determine that implementing the operators does not make sense in your application context. However, you should always over op_Equality and the == operator if you override Object.Equals.
+- op_GreaterThan
+
+In C#, the tokens that are used to represent these operators are as follows:
+
+```csharp
+==
+!=
+<
+>
+```
+
+## When to suppress warnings
+ It is safe to suppress a warning from rule CA1036 when the violation is caused by missing operators and your programming language does not support operator overloading, as is the case with Visual Basic. It is also safe to suppress a warning for from this rule when it fires on equality operators other than op_Equality if you determine that implementing the operators does not make sense in your application context. However, you should always over op_Equality and the == operator if you override Object.Equals.
 
 ## Example
  The following example contains a type that correctly implements <xref:System.IComparable>. Code comments identify the methods that satisfy various rules that are related to <xref:System.Object.Equals%2A> and the <xref:System.IComparable> interface.
@@ -57,7 +67,8 @@ ms.workload:
 
  [!code-csharp[FxCop.Design.TestIComparable#1](../code-quality/codesnippet/CSharp/ca1036-override-methods-on-comparable-types_2.cs)]
 
-## See Also
- <xref:System.IComparable?displayProperty=fullName>
- <xref:System.Object.Equals%2A?displayProperty=fullName>
- [Equality Operators](/dotnet/standard/design-guidelines/equality-operators)
+## See also
+
+- <xref:System.IComparable?displayProperty=fullName>
+- <xref:System.Object.Equals%2A?displayProperty=fullName>
+- [Equality Operators](/dotnet/standard/design-guidelines/equality-operators)

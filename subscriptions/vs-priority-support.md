@@ -15,7 +15,7 @@ searchscope: VS Subscription
 
 The Priority Support benefit provides you with access to a variety of support community forums where you can search existing posts or asks new questions.  If the community does not respond to your question within two days, Microsoft's support team will provide a response.
 
-Subscribers with selected Visual Studio subscriptions are eligible to receive priority support via a large number of forums covering a variety of topics.
+Subscribers with selected Visual Studio subscriptions are eligible to receive priority support via a large number of forums covering a variety of topics.  Click on any of the links below to go directly to that forum.  
 
 ## Included forums
 
@@ -240,4 +240,4 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Support resources
 -  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+-  Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).

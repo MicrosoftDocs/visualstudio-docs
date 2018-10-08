@@ -2,7 +2,7 @@
 title: "Write JavaScript code in Visual Studio without a solution or project"
 description: Visual Studio provides support for creating code without a dependence on a project file or solution file
 ms.custom: ""
-ms.date: "06/06/2018"
+ms.date: "09/24/2018"
 ms.technology: vs-nodejs
 ms.topic: "conceptual"
 ms.devlang: javascript
@@ -25,7 +25,7 @@ for building TypeScript files, managing npm packages, and running npm scripts.
 To get started, select **Open Folder** from the Start Page that appears when you open Visual Studio, or you can select **File** > **Open** > **Folder** from the toolbar. Solution Explorer displays all the files in the folder, and you can open any of the files to begin editing. In the background, Visual Studio indexes the files to enable npm, build, and debug features.
 
 > [!IMPORTANT]
-> Many of the features described in this article, including npm integration, require Visual Studio 2017 version 15.8 Preview 3.
+> Many of the features described in this article, including npm integration, require Visual Studio 2017 version 15.8.
 
 ## npm integration
 
@@ -58,3 +58,29 @@ If there is a *tsconfig.json* file present in the folder, you can right-click a 
 > [!NOTE]
 > You can find more information about *tsconfig.json* in the 
 [tsconfig.json TypeScript Handbook page](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
+
+## Unit Tests
+You can enable the unit test integration in Visual Studio by specifying a test root in your *package.json*:
+
+```json
+{
+    // ...
+    "vsTest":{
+        "testRoot": "./tests"
+    }
+    // ...
+}
+```
+
+The test runner enumerates the locally installed packages to determine which test framework to use.
+If none of the supported frameworks are recognized, the test runner defaults to *ExportRunner*. The other
+supported frameworks are:
+* Mocha ([mochajs.org](http://mochajs.org/))
+* Jasmine ([Jasmine.github.io](https://jasmine.github.io/))
+* Tape ([github.com/substack/tape](https://github.com/substack/tape))
+
+After opening Test Explorer (choose **Test** > **Windows** > **Test Explorer**), Visual Studio discovers and displays tests.
+
+> [!NOTE]
+> The test runner will only enumerate the JavaScript files in the test root, if your application is written in
+> TypeScript you need to build those first.

@@ -40,41 +40,41 @@ Examples for the various options are provided in the following tables:
 
 | Class definitions option | Checked | Cleared |
 | --- | --- | --- | 
-| Insert space between a class declaration's name and bases list | `class X (object): pass` | `class X(object): pass` | 
-| Insert space within bases list parentheses | `class X( object ): pass` | `class X(object): pass` |
-| Insert space within empty bases list parentheses | `class X( ): pass` | `class X(): pass` |
+| **Insert space between a class declaration's name and bases list** | `class X (object): pass` | `class X(object): pass` | 
+| **Insert space within bases list parentheses** | `class X( object ): pass` | `class X(object): pass` |
+| **Insert space within empty bases list parentheses** | `class X( ): pass` | `class X(): pass` |
 
 <br/>
 
 | Function definitions option | Checked | Cleared |
 | --- | --- | --- |
-| Insert space between a function declaration's name and parameter list | `def X (): pass` | `def X(): pass` | 
-| Insert space within parameter list parentheses | `def X( a, b ): pass` | `def X(a, b): pass` |
-| Insert space within empty parameter list parentheses | `def X( ): pass` | `def X(): pass` |
-| Insert spaces around '=' in default parameter values | `includes X(a = 42): pass` | `includes X(a=42): pass` |
-| Insert space before and after return annotation operators | `includes X() -> 42: pass` | `includes X()->42: pass` |
+| **Insert space between a function declaration's name and parameter list** | `def X (): pass` | `def X(): pass` | 
+| **Insert space within parameter list parentheses** | `def X( a, b ): pass` | `def X(a, b): pass` |
+| **Insert space within empty parameter list parentheses** | `def X( ): pass` | `def X(): pass` |
+| **Insert spaces around '=' in default parameter values** | `includes X(a = 42): pass` | `includes X(a=42): pass` |
+| **Insert space before and after return annotation operators** | `includes X() -> 42: pass` | `includes X()->42: pass` |
 
 <br/>
 
 | Operators option | Checked | Cleared |
 | --- | --- | --- |
-| Insert spaces around binary operators | `a + b` | `a+b` |
-| Insert spaces around assignments | `a = b` | `a=b` |
+| **Insert spaces around binary operators** | `a + b` | `a+b` |
+| **Insert spaces around assignments** | `a = b` | `a=b` |
 
 <br/>
 
 | Expression spacing option | Checked | Cleared |
 | --- | --- | --- |
-| Insert space between a function call's name and argument list | `X ()` | `X()` |
-| Insert space within empty argument list parentheses | `X( )` | `X()` |
-| Insert space within argument list parentheses | `X( a, b )` | `X(a, b)` |
-| Insert space within parentheses of expression | `( a )` | `(a)` |
-| Insert space within empty tuple parentheses | `( )` | `()` |
-| Insert space within tuple parentheses | `( a, b )` | `(a, b)` |
-| Insert space within empty square brackets | `[ ]` | `[]` |
-| Insert spaces within square brackets of lists | `[ a, b ]` | `[a, b]` |
-| Insert space before open square bracket | `x [i]` | `x[i]` |
-| Insert space within square brackets | `x[ i ]` | `x[i]` |
+| **Insert space between a function call's name and argument list** | `X ()` | `X()` |
+| **Insert space within empty argument list parentheses** | `X( )` | `X()` |
+| **Insert space within argument list parentheses** | `X( a, b )` | `X(a, b)` |
+| **Insert space within parentheses of expression** | `( a )` | `(a)` |
+| **Insert space within empty tuple parentheses** | `( )` | `()` |
+| **Insert space within tuple parentheses** | `( a, b )` | `(a, b)` |
+| **Insert space within empty square brackets** | `[ ]` | `[]` |
+| **Insert spaces within square brackets of lists** | `[ a, b ]` | `[a, b]` |
+| **Insert space before open square bracket** | `x [i]` | `x[i]` |
+| **Insert space within square brackets** | `x[ i ]` | `x[i]` |
 
 <br/>
 
@@ -84,9 +84,9 @@ The **Statements** options control automatic rewriting of various statements int
 
 | Option | Before formatting | After formatting |
 | --- | --- | --- |
-| Place imported modules on new line | `import sys, pickle` | `import sys`<br/>`import pickle` |
-| Remove unnecessary semicolons | `x = 42;` | `x = 42` |
-| Place multiple statements on new lines | `x = 42; y = 100` | `x = 42`<br/>`y = 100` |
+| **Place imported modules on new line** | `import sys, pickle` | `import sys`<br/>`import pickle` |
+| **Remove unnecessary semicolons** | `x = 42;` | `x = 42` |
+| **Place multiple statements on new lines** | `x = 42; y = 100` | `x = 42`<br/>`y = 100` |
 
 ## Wrapping
 

@@ -1,12 +1,12 @@
 ---
 title: "IntelliTrace | Microsoft Docs"
 ms.custom: ""
-ms.date: "07/18/2017"
+ms.date: "09/19/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.historicaldebug.overview"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "debugger, recording execution history"
   - "debugging, recording execution history"
   - "IntelliTrace [Visual Studio ALM]"
@@ -20,7 +20,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 ---
 # IntelliTrace
@@ -29,7 +29,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
 
 - Record specific events
 
-     Examine related code, data that appears in the **Locals** window during debugger events, and function call information
+   Examine related code, data that appears in the **Locals** window during debugger events, and function call information
 
 - Debug errors that are hard to reproduce or that happen in deployment
 
@@ -39,8 +39,8 @@ You can use IntelliTrace in Visual Studio Enterprise edition (but not the Profes
 
 |||
 |-|-|
-|**Debug my application with IntelliTrace:**<br /><br /> - Show me past events.<br />- Show me call information with past events.<br />- Save my IntelliTrace session.<br />- Control the data that IntelliTrace collects.|- [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />- [IntelliTrace Features](../debugger/intellitrace-features.md)<br />- [Historical Debugging](../debugger/historical-debugging.md)<br />- [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md)|
-|**Collect IntelliTrace data during a test session in Test Manager**|- [Collect more diagnostic data in manual tests](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests)|
+|**Debug my application with IntelliTrace:**<br /><br /> - Show me past events.<br />- Show me call information with past events.<br />- Save my IntelliTrace session.<br />- Control the data that IntelliTrace collects.|- [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md)<br />- [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />- [IntelliTrace Features](../debugger/intellitrace-features.md)<br />- [Historical Debugging](../debugger/historical-debugging.md)|
+|**Collect IntelliTrace data during a test session in Test Manager**|- [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts)|
 |**Collect IntelliTrace data from deployed applications**|- [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md)|
 |**Start debugging from an IntelliTrace log file (.iTrace file).**|- [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)|
 
@@ -48,9 +48,9 @@ You can use IntelliTrace in Visual Studio Enterprise edition (but not the Profes
 
 |||
 |-|-|
-|**Supported**|- Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br/>You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br/>To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md).<br/> To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](/azure/vs-azure-tools-intellitrace-debug-published-cloud-services).|
-|**Limited support**|- .NET Core and ASP.NET Core apps supported for certain events only (MVC Controller, ADO.NET, and HTTPClicent events) in local debugging. The Standalone Collector is not supported for .NET Core or ASP.NET Core apps.<br />- F# apps on an experimental basis<br />- UWP apps supported for events only|
-|**Not supported**|- C++, other languages, and script<br />- Windows Services, Silverlight, Xbox, or [!INCLUDE[winmobile](../debugger/includes/winmobile_md.md)] apps|
+|**Full support**|- Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br/>You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br/>To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](../sharepoint/walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md).<br/> To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](/azure/vs-azure-tools-intellitrace-debug-published-cloud-services).|
+|**Limited support**|- Native apps targeting Windows support viewing snapshots using IntelliTrace step-back. Only debugger and exception events are supported.<br />- .NET Core and ASP.NET Core apps supported for certain events only (MVC Controller, ADO.NET, and HTTPClicent events) in local debugging. The Standalone Collector is not supported for .NET Core or ASP.NET Core apps.<br />- F# apps on an experimental basis<br />- UWP apps supported for events only|
+|**Not supported**|- Other languages and script<br />- Windows Services, Silverlight, Xbox, or [!INCLUDE[winmobile](../debugger/includes/winmobile_md.md)] apps|
 
 > [!NOTE]
 > If you want to debug a process that is already running, you can collect IntelliTrace events only (no call information). You can attach to a 32-bit or 64-bit process on the local machine only. Events that occur before you attach to the process are not collected.
@@ -83,7 +83,7 @@ You can save IntelliTrace data from these sources:
 
 - Your application crashes on a test computer but runs successfully on a development computer.
 
-     You can collect IntelliTrace data from Microsoft Test Manager, save the data to an .iTrace file, and attach this file to a Team Foundation Server work item for later investigation. See [Collect more diagnostic data in manual tests](/vsts/manual-test/mtm/collect-more-diagnostic-data-in-manual-tests) and [Use saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md).
+     You can collect IntelliTrace data from Microsoft Test Manager, save the data to an .iTrace file, and attach this file to a Team Foundation Server work item for later investigation. See [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts) and [Use saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md).
 
 - A bug or crash happens in a deployed application.
 
@@ -123,9 +123,7 @@ By default, IntelliTrace records only IntelliTrace events: debugger events, exce
 
 - **.NET Framework events**
 
-     By default, IntelliTrace records the most common .NET Framework events. For example:
-
-    - For a Check Checkbox event, IntelliTrace collects the checkbox state and text.
+   By default, IntelliTrace records the most common .NET Framework events. For example, ror a Check Checkbox event, IntelliTrace collects the checkbox state and text.
 
 - **SharePoint 2010 and SharePoint 2013 application events**
 
@@ -145,7 +143,7 @@ By default, IntelliTrace records only IntelliTrace events: debugger events, exce
 
 You can configure IntelliTrace to capture snapshots at every breakpoint and debugger step event. IntelliTrace records the full application state at each snapshot, which allows you to view complex variables and to evaluate expressions.
 
-See [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md).
+See [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md).
 
 **Collect function call information**
 
@@ -169,17 +167,19 @@ To control how much call information that IntelliTrace collects, specify only th
 
 By default, IntelliTrace collects data for selected IntelliTrace events only. This might or might not slow down your application, depending on the structure and organization of your code. For example, if IntelliTrace records an event often, this might slow down your application. It might also make you consider refactoring your application.
 
-Collecting call information might slow down your application significantly. It might also increase the size of any IntelliTrace log files (.iTrace files) that you're saving to disk. To minimize these effects, collect call information only for the modules you care about.  To change the maximum size of your .iTrace files, go to **Tools**, **Options**, **IntelliTrace**, **Advanced**. 
+Collecting call information might slow down your application significantly. It might also increase the size of any IntelliTrace log files (.iTrace files) that you're saving to disk. To minimize these effects, collect call information only for the modules you care about.  To change the maximum size of your .iTrace files, go to **Tools**, **Options**, **IntelliTrace**, **Advanced**.
 
 ## In this section
 
 [IntelliTrace Features](../debugger/intellitrace-features.md)
+
 [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md)
+
 [Use saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)
 
 ### Blogs
 
-[Visual Studio ALM + Team Foundation Server](http://go.microsoft.com/fwlink/?LinkID=201340)
+[Microsoft DevOps](https://blogs.msdn.microsoft.com/devops/)
 
 ### Forums
 

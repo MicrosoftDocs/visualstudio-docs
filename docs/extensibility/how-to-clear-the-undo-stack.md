@@ -14,12 +14,12 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# How to: Clear the Undo Stack
+# How to: Clear the undo stack
 The following procedure below explains how to clear the undo stack.  
   
-### To clear the undo stack  
+## To clear the undo stack  
   
-1.  To clear the undo stack use the [IOleUndoManager::DiscardFrom](http://msdn.microsoft.com/library/windows/desktop/ms693799) method. The following is an example of this:  
+1.  To clear the undo stack use the [IOleUndoManager::DiscardFrom](/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-discardfrom) method. The following is an example of this:  
   
     ```  
     HRESULT CCmdWindow::ClearUndoStack()  
@@ -39,5 +39,5 @@ The following procedure below explains how to clear the undo stack.
     }  
     ```  
   
-## See Also  
- [How to: Implement Undo Management](../extensibility/how-to-implement-undo-management.md)
+## See also  
+ [How to: Implement undo management](../extensibility/how-to-implement-undo-management.md)

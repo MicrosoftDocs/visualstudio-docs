@@ -39,7 +39,11 @@ A program database (.pdb) file, also called a symbol file, maps the identifiers 
 A symbol file also contains the original location of the source files, and optionally, the location of a source server where the source files can be retrieved from.
   
 > [!TIP]
-> If you want to debug code outside your project source code, such as Windows code or third-party code your project calls, you have to specify the location of the .pdb (and optionally, the source files of the external code) and those files need to exactly match the build of the executables.  
+> If you want to debug code outside your project source code, such as Windows code or third-party code your project calls, you have to specify the location of the .pdb (and optionally, the source files of the external code) and those files need to exactly match the build of the executables. 
+
+##  How can I manage symbol files while debugging? 
+
+The **Modules** window can tell you what code modules the debugger is treating as user code, or My Code, and the symbol loading status for the module. You can also use this window to load symbols while debugging. For more information, see [Get more familiar with how the debugger attaches to your app](../debugger/debugger-tips-and-tricks.md#modules_window).
  
 ##  <a name="BKMK_Find_symbol___pdb__files"></a> Where does the debugger search for symbol files? 
   
@@ -143,7 +147,7 @@ To see what symbols are available in the export table of a DLL, use `dumpbin /ex
   
 -   To change the search paths, choose an unselected path or choose **New** and enter a new path. Choose **Load** to search the paths again and load the symbol file if it is found.  
   
--   Choose **Browse and find***executable-name***...** to override any symbol options and retry the search paths. The symbol file is loaded if it is found, or a File Explorer is displayed for you to manually select the symbol file.  
+-   Choose **Browse and find**_executable-name_**...** to override any symbol options and retry the search paths. The symbol file is loaded if it is found, or a File Explorer is displayed for you to manually select the symbol file.  
   
 -   Choose **Change Symbol Settings ...** to display the **Debugging** > **Symbols** page of the VS Options dialog.  
   
@@ -209,7 +213,7 @@ To see what symbols are available in the export table of a DLL, use `dumpbin /ex
 4.  The source information of the .pdb of the module. This can be the location of the source file when the module was built, or it can be a command to a source server.  
   
 ###  <a name="BKMK_Find_and_load_source_files_with_the_No_Source___No_Symbols_Loaded_pages"></a> Find and load source files with the No Source/No Symbols Loaded pages  
- When the debugger breaks execution at a location where the source file is not available, it will display the **No Source Loaded** or **No Symbols Loaded** pages that can help you find the source file. The **No Symbols Loaded** appears when the debugger cannot find a symbol (.pdb) file for the executable file to complete its search. The No Symbols page provides options to search for the file. If the .pdb is found of after you execute one of the options and the debugger can retrieve the source file using the information in the symbols file, the source is displayed. Otherwise, a **No Source Loaded** page appears that describes the issue. The page displays option links that can perform actions that might resolve the issue.  
+ When the debugger breaks execution at a location where the source file is not available, it will display the **No Source Loaded** or **No Symbols Loaded** pages that can help you find the source file. The **No Symbols Loaded** appears when the debugger cannot find a symbol (.pdb) file for the executable file to complete its search. The No Symbols page provides options to search for the file. If the .pdb is found after you execute one of the options and the debugger can retrieve the source file using the information in the symbols file, the source is displayed. Otherwise, a **No Source Loaded** page appears that describes the issue. The page displays option links that can perform actions that might resolve the issue.  
   
 ###  <a name="BKMK_Add_source_file_search_paths_to_a_solution"></a> Add source file search paths to a solution  
  You can specify a network or local directories to search for source files.  
@@ -249,6 +253,6 @@ To see what symbols are available in the export table of a DLL, use `dumpbin /ex
      Note that both **Allow source server for partial trust assemblies (Managed only)** and **Always run untrusted source server commands without prompting** can increase the security risks discussed above.  
   
 ## See Also  
-[Understanding Symbol Files and Visual Studio Symbol Settings](https://blogs.msdn.microsoft.com/visualstudioalm/2015/01/05/understanding-symbol-files-and-visual-studios-symbol-settings/)
+[Understanding Symbol Files and Visual Studio Symbol Settings](https://blogs.msdn.microsoft.com/devops/2015/01/05/understanding-symbol-files-and-visual-studios-symbol-settings/)
 
-[.NET Remote Symbol Loading Changes in Visual Studio 2012 and 2013](http://blogs.msdn.com/b/visualstudioalm/archive/2013/10/16/net-remote-symbol-loading-changes-in-visual-studio-2012-and-2013.aspx)
+[.NET Remote Symbol Loading Changes in Visual Studio 2012 and 2013](https://blogs.msdn.microsoft.com/devops/2013/10/16/net-remote-symbol-loading-changes-in-visual-studio-2012-and-2013/)

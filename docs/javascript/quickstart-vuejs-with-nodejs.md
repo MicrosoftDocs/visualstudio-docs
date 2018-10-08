@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Use Visual Studio to create your first Vue.js app"
 description: In this quickstart, you create a Vue.js app in Visual Studio using the Node.js Tools for Visual Studio
-ms.date: 11/15/2017
+ms.date: 09/24/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-nodejs
 ms.topic: quickstart
@@ -20,7 +20,7 @@ ms.workload:
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create and run a simple Vue.js web application. If you haven't already installed Visual Studio 2017, go to the [Visual Studio downloads](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs) page to install it for free.
 
 > [!IMPORTANT]
-> This article requires the Vue.js template, which is available starting in Visual Studio 2017 version 15.8 Preview 3.
+> This article requires the Vue.js template, which is available starting in Visual Studio 2017 version 15.8.
 
 ## Create a project
 

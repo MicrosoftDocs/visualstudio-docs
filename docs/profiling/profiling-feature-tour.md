@@ -28,6 +28,9 @@ While you are debugging, you can use the **Diagnostic Tools** window to analyze 
 
 The **Diagnostic Tools** window is often the preferred way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. If you want more information on different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](#which-tool-should-i-use).
 
+> ![NOTE]
+> You can use the post-mortem tools with Windows 7 and later. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
+
 ## Analyze CPU Usage
 
 The CPU Usage tool is a good place to start analyzing your app's performance. It will tell you more about CPU resources that your app is consuming. For a more detailed walkthrough of the CPU Usage tool, see [Beginner's guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md).
@@ -79,9 +82,9 @@ In your UWP apps, you can enable **UI Analysis** in the **Diagnostic Tools** win
 
 ![View UI analysis events in the diagnostic tools](../profiling/media/prof-tour-ui-analysis.png "Diagnostic Tools View UI Analysis Events")
 
-## Profile release builds without the debugger
+## <a name="post_mortem"></a> Profile release builds without the debugger
 
-Profiling tools like CPU Usage and Memory Usage can be used with the debugger (see earlier sections), or you can run profiling tools using the Performance Profiler, which is intended to provide analysis for **Release** builds. In the Performance Profiler, you can collect diagnostic info while the app is running, and then examine the collected information after the app is stopped. For more information on these different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+Profiling tools like CPU Usage and Memory Usage can be used with the debugger (see earlier sections), or you can run profiling tools post-mortem using the Performance Profiler, which is intended to provide analysis for **Release** builds. In the Performance Profiler, you can collect diagnostic info while the app is running, and then examine the collected information after the app is stopped. For more information on these different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
 ![Performance Profiler](../profiling/media/prof-tour-performance-profiler.png "Performance Profiler")
 
@@ -111,7 +114,7 @@ When you select a time period in the graphs and choose **view details**, a detai
 
 You can also use the graphs to determine whether there are CPU bound or GPU bound performance bottlenecks.
 
-## Analyze performance (JavaScript)
+## Analyze performance (JavaScript UWP)
 
 For UWP apps, you can use the JavaScript Memory tool and the HTML UI Responsiveness tool.
 
@@ -147,8 +150,8 @@ Here is a table that lists the different tools Visual Studio offers and the diff
   
 |Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core| 
 |----------------------|---------------------|-------------|-------------|  
+|[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes| 
-|[CPU Usage](../profiling/cpu-usage.md)|yes (see note)|yes|yes (see note)|
 |[GPU Usage](../debugger/gpu-usage.md)|yes|yes|no| 
 |[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|
 |[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|yes|
@@ -157,9 +160,6 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |[Network Usage](../profiling/network-usage.md)|no|yes|no|
 |[HTML UI responsiveness](../profiling/html-ui-responsiveness.md)|no|yes for HTML, no for XAML|no| 
 |[JavaScript Memory](../profiling/javascript-memory.md)|no|yes for HTML, no for XAML|no|
-
-> [!NOTE]
-> For .NET Core and ASP.NET Core, the CPU Usage tool currently does not provide accurate results with portable PBDs. Use full PDBs instead.
 
 ## See also  
  [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)

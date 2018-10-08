@@ -14,11 +14,11 @@ author: mikeblome
 
 This topic lists the public members of the `Microsoft::VisualStudio::CppUnitTestFramework` namespace. Use these APIs to write C++ unit tests based on the Microsoft Native Unit Test Framework. There is a [Usage Example](#example) at the end of the topic.
 
- The header files are located in the  *VisualStudio2012[x86]InstallFolder***\VC\UnitTest\include** folder.
+ The header files are located in the  _VisualStudio2012[x86]InstallFolder_**\VC\UnitTest\include** folder.
 
- The lib files are located in the  *VisualStudio2012[x86]InstallFolder***\VC\UnitTest\lib** folder.
+ The lib files are located in the  _VisualStudio2012[x86]InstallFolder_**\VC\UnitTest\lib** folder.
 
-Header and lib paths are automatically configured in a Native Test Project.
+Header and lib paths are automatically configured in a Native Test project.
 
 ##  <a name="In_this_topic"></a> In this topic
  [CppUnitTest.h](#cppUnitTest_h)

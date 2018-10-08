@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Flask in Visual Studio, step 1
 description: A walkthrough of Flask basics in the context of Visual Studio projects.
-ms.date: 06/04/2018
+ms.date: 09/04/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -31,7 +31,7 @@ In this tutorial, you learn how to:
 Over the course of these steps you create a single Visual Studio solution that contains three separate projects. You create the project using different Flask project templates that are included with Visual Studio. By keeping the projects in the same solution, you can easily switch back and forth between different files for comparison.
 
 > [!Note]
-> This tutorial differs from the [Flask Quickstart](../ide/quickstart-python.md?context=visualstudio/python/default) in that you learn more about Flask as well as how to use the different Flask project templates that provide a more extensive starting point for your own projects. For example, the project templates automatically install the Flask package when creating a project, rather than needing you to install the package manually as shown in the Quickstart.
+> This tutorial differs from the [Flask Quickstart](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json) in that you learn more about Flask as well as how to use the different Flask project templates that provide a more extensive starting point for your own projects. For example, the project templates automatically install the Flask package when creating a project, rather than needing you to install the package manually as shown in the Quickstart.
 
 ## Prerequisites
 
@@ -90,7 +90,7 @@ Because you selected the **Create new Git repository** in the **New Project** di
 
     ![Team Explorer window for pushing to an existing remote repository](media/flask/step01-push-to-github.png)
 
-    If you don't have an existing repository, the **Publish to GitHub** and **Push to Visual Studio Team Services** options let you create one directly from within Visual Studio.
+    If you don't have an existing repository, the **Publish to GitHub** and **Push to Azure DevOps** options let you create one directly from within Visual Studio.
 
 1. As you work through this tutorial, get into the habit of periodically using the controls in Visual Studio to commit and push changes. This tutorial reminds you at appropriate points.
 
@@ -137,7 +137,7 @@ Now that you've configured source control for your project, you can create the v
 
 ### Question: Why do I want to create a virtual environment?
 
-Answer: A virtual environment is a great way to isolate your app's exact dependencies. Such isolation avoids conflicts within a global Python environment, and aids both testing and collaboration. Over time, as you develop an app, you invariably bring in many helpful Python packages. By keeping packages in a project-specific virtual environment, you can easily update the project's *requirements.txt* file that describes that environment, which is included in source control. When the project is copied to any other computers, including build servers, deployment servers, and other development computers, it's easy to recreate the environment using only *requirements.txt* (which is why the environment doesn't need to be in source control). For more information, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#using-virtual-environments).
+Answer: A virtual environment is a great way to isolate your app's exact dependencies. Such isolation avoids conflicts within a global Python environment, and aids both testing and collaboration. Over time, as you develop an app, you invariably bring in many helpful Python packages. By keeping packages in a project-specific virtual environment, you can easily update the project's *requirements.txt* file that describes that environment, which is included in source control. When the project is copied to any other computers, including build servers, deployment servers, and other development computers, it's easy to recreate the environment using only *requirements.txt* (which is why the environment doesn't need to be in source control). For more information, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#use-virtual-environments).
 
 ### Question: How do I remove a virtual environment that's already committed to source control?
 

@@ -113,7 +113,7 @@ To make sure that you have access to everything you need when you use Visual Stu
 |Azure Stream Analytics <br><br>HDInsight | Management.azure.com |https|443 |Used to view, submit, run, and manage ASA jobs <br><br> Used to browse HDI clusters, and to submit, diagnose, and debug HDI jobs |
 | Azure Data Lake | &#42;.azuredatalakestore.net <br>&#42;.azuredatalakeanalytics.net | https | 443 | Used to compile, submit, view, diagnose, and debug  jobs; used to browse ADLS files; used to upload and download files |
 | Packaging Service | [account].visualstudio.com <br/> [account].*.visualstudio.com <br/> *.blob.core.windows.net <br/> registry.npmjs.org </br> nodejs.org <br/> dist.nuget.org <br/> nuget.org | https | 443 | The *.npmjs.org, *.nuget.org, and *.nodejs.org are only required for certain build task scenarios (for example: NuGet Tool Installer, Node Tool Installer) or if you intend to use public upstreams with your Feeds. The other three domains are required for core functionality of the Packaging service. |
-| VSTS | *.vsassets.io <br/> static2.sharepointonline.com  |  |  | Used to connect with VSTS |
+| Azure DevOps Services | *.vsassets.io <br/> static2.sharepointonline.com  |  |  | Used to connect with Azure DevOps Services |
 |||||||
 
 ## Troubleshoot network-related errors
@@ -122,12 +122,14 @@ Sometimes, you might run in to network- or proxy-related errors when you install
 
 ## Get support
 
-Here are a few more support options for you:
+We offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+Here are a few more support options:
+
+* Report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+* Share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
+* Track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
+* Use your [GitHub](https://github.com/) account to talk to us and other Visual Studio developers in the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).
 
 ## See also
 

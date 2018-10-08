@@ -100,7 +100,7 @@ In the next step, you create an [!INCLUDE[adonet_edm](../data-tools/includes/ado
 7.  On the **Choose your version** page, choose the **Entity Framework 5.0** option button, and then choose the **Next** button.
 
     > [!NOTE]
-    >  In order to use the latest version of the Entity Framework 6 with WCF Services, you'll need to install the WCF Data Services Entity Framework Provider NuGet package. See [Using WCF Data Services 5.6.0 with Entity Framework 6+](http://blogs.msdn.com/b/odatateam/archive/2013/10/02/using-wcf-data-services-5-6-0-with-entity-framework-6.aspx).
+    >  In order to use the latest version of the Entity Framework 6 with WCF Services, you'll need to install the WCF Data Services Entity Framework Provider NuGet package. See [Using WCF Data Services 5.6.0 with Entity Framework 6+](https://blogs.msdn.microsoft.com/odatateam/2013/10/02/using-wcf-data-services-5-6-0-with-entity-framework-6/).
 
 8.  On the **Choose Your Database Objects** page, expand the **Tables** node, select the **Customers** check box, and then choose the **Finish** button.
 

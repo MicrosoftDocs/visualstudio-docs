@@ -33,7 +33,7 @@ ms.workload:
 ## Prerequisites  
  You must have the following components to complete this walkthrough:  
   
--   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [Requirements for developing SharePoint solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.  
   
 -   Visual Studio.  
   

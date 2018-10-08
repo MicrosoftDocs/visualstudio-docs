@@ -19,7 +19,7 @@ Without fail, the code we write as software developers doesn’t always do what 
 
 A debugger, unfortunately, isn’t something that can magically reveal all the problems or “bugs” in our code. *Debugging* means to run your code step by step in a debugging tool like Visual Studio, to find the exact point where you made a programming mistake. You then understand what corrections you need to make in your code, and debugging tools often allow you to make temporary changes so you can continue running the program.
 
-Using a debugger effectively is also a skill that takes time and practice to learn, but is ultimately a fundamental task for every software developer. In this article, then, we introduce the core principles of debugging and provide tips to get you started.
+Using a debugger effectively is also a skill that takes time and practice to learn but is ultimately a fundamental task for every software developer. In this article, then, we introduce the core principles of debugging and provide tips to get you started.
 
 ## Clarify the problem by asking yourself the right questions
 
@@ -29,7 +29,7 @@ It helps to clarify the problem that you ran into before you try to fix it. We e
 
 * What happened instead?
 
-    If you ran into an error (exception) while running your app, that can be a good thing! An exception is an unexpected event encountered when running code, typically an error of some kind. A debugging tool can take you to the exact place in your code where the exception occurred, and can help you investigate possible fixes.
+    If you ran into an error (exception) while running your app, that can be a good thing! An exception is an unexpected event encountered when running code, typically an error of some kind. A debugging tool can take you to the exact place in your code where the exception occurred and can help you investigate possible fixes.
 
     If something else happened, what is the symptom of the problem? Do you already suspect where this problem occurred in your code? For example, if your code displays some text, but the text is incorrect, you know that either your data is bad or the code that set the display text has some kind of bug. By stepping through the code in a debugger, you can examine each and every change to your variables to discover exactly when and how incorrect values are assigned.
 
@@ -39,7 +39,7 @@ Before you investigate a bug or an error, think of the assumptions that made you
 
 * Are you using the right API (that is, the right object, function, method, or property)? An API that you're using might not do what you think it does. (After you examine the API call in the debugger, fixing it may require a trip to the documentation to help identify the correct API.)
 
-* Are you using an API correctly? Maybe you used the right API, but didn't use it in the right way.
+* Are you using an API correctly? Maybe you used the right API but didn't use it in the right way.
 
 * Does your code contain any typos? Some typos, like a simple misspelling of a variable name, can be difficult to see, especially when working with languages that don’t require variables to be declared before they’re used.
 
@@ -86,7 +86,7 @@ Next, we will create an application that has a few bugs.
 
     For .NET Core, in the **New Project** dialog box, choose **Visual C#**, **.NET Core** from the installed templates section, and then in the middle pane select **Console App (.NET Core)**.
 
-    If you don't see these template, you must install the appropriate workload (see earlier steps).
+    If you don't see these templates, you must install the appropriate workload (see earlier steps).
 
 1. In the **Name** field, type **ConsoleApp-FirstApp** and click **OK**.
 
@@ -222,7 +222,7 @@ Next, we will create an application that has a few bugs.
 
 1. Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**).
 
-    The app pauses at the breakpoint that you set. The yellow hightlighting indicates where the debugger is paused (the yellow line of code has not yet executed).
+    The app pauses at the breakpoint that you set. The yellow highlighting indicates where the debugger is paused (the yellow line of code has not yet executed).
 
 1. Hover over the `GalaxyType` variable on the right, and then, to the left of the wrench icon, expand `theGalaxy.GalaxyType`. You see that `GalaxyType` contains a property `MyGType`, and the property value is set to `Spiral`.
 
@@ -297,7 +297,7 @@ Next, we will create an application that has a few bugs.
 
     Looking at the code, you see a typo in the `case 'l'` statement. It should be `case 'I'`.
 
-1. Click in the code for `case 'l'`, and replace it with `case 'I'.
+1. Click in the code for `case 'l'` and replace it with `case 'I'`.
 
 1. Remove your breakpoint, and then click the **Restart** button to restart the app.
 
@@ -326,4 +326,4 @@ When you find the region of code with the problem, use the debugger to investiga
 In this article, you've learned a few general debugging concepts. Next, you can start learning how to debug with Visual Studio.
 
 > [!div class="nextstepaction"]
-> [Debugger feature tour](../debugger/debugger-feature-tour.md)
+> [Learn to debug using Visual Studio](../debugger/getting-started-with-the-debugger.md)

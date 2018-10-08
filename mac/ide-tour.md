@@ -1,8 +1,8 @@
 ---
 title: Visual Studio for Mac Tour
 description: "Visual Studio for Mac provides an integrated development environment to build .NET applications on macOS, including ASP.NET Core websites and Xamarin projects for iOS, Android, Mac, and Xamarin.Forms."
-author: asb3993
-ms.author: amburns
+author: conceptdev
+ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 ---
@@ -92,7 +92,7 @@ Visual Studio for Mac integrates with Git and Subversion source control systems.
 
 ![Branch name to indicate project under source control](media/ide-tour-image22.png)
 
-Files with uncommitted changed have an annotation on their icons in the Solution Pane, as illustrated in the following image:
+Files with uncommitted changes have an annotation on their icons in the Solution Pane, as illustrated in the following image:
 
 ![Uncommitted files in solution pad](media/ide-tour-image23.png)
 

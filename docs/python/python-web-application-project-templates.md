@@ -39,7 +39,7 @@ All **Blank \<framework> Web Project** templates create a project with more or l
 | --- | --- |
 | **Blank Bottle Web Project** | Generates a minimal app in *app.py* with a home page for `/` and a `/hello/<name>` page that echoes `<name>` using a very short inline page template. |
 | **Blank Django Web Project** | Generates a Django project with the core Django site structure but no Django apps. For more information, see [Django templates](python-django-web-application-project-template.md) and [Learn Django Step 1](learn-django-in-visual-studio-step-01-project-and-solution.md). |
-| **Blank Flask Web Project** | Generates a minimal app with a single "Hello World!" page for `/`. This app is similar to the result of following the detailed steps in [Quickstart: Use Visual Studio to create your first Python web app](../ide/quickstart-python.md?context=visualstudio/python/default). Also see [Learn Flask Step 1](learn-flask-visual-studio-step-01-project-solution.md).
+| **Blank Flask Web Project** | Generates a minimal app with a single "Hello World!" page for `/`. This app is similar to the result of following the detailed steps in [Quickstart: Use Visual Studio to create your first Python web app](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json). Also see [Learn Flask Step 1](learn-flask-visual-studio-step-01-project-solution.md).
 
 ### Web group
 
@@ -65,7 +65,7 @@ The **Polls \<framework> Web Project** templates create a starter web app throug
 
 ## Install project requirements
 
-When creating a project from a framework-specific template, a dialog appears to help you install the necessary packages using pip. We also recommend using a [virtual environment](selecting-a-python-environment-for-a-project.md#using-virtual-environments) for web projects so that the correct dependencies are included when you publish your web site:
+When creating a project from a framework-specific template, a dialog appears to help you install the necessary packages using pip. We also recommend using a [virtual environment](selecting-a-python-environment-for-a-project.md#use-virtual-environments) for web projects so that the correct dependencies are included when you publish your web site:
 
 ![Dialog that installs needed packages for a project template](media/template-web-requirements-txt-wizard.png)
 
@@ -83,7 +83,7 @@ When a web project is started for debugging, Visual Studio starts a local web se
 
 In the **Debug** group:
 
-- **Search Paths**, **Script Arguments**, **Interpreter Arguments**, and **Interpreter Path**: these options are the same as for [normal debugging](debugging-python-in-visual-studio.md)
+- **Search Paths**, **Script Arguments**, **Interpreter Arguments**, and **Interpreter Path**: these options are the same as for [normal debugging](debugging-python-in-visual-studio.md).
 - **Launch URL**: specifies the URL that is opened in your browser. It defaults to `localhost`.
 - **Port Number**: the port to use if none is specified in the URL (Visual Studio selects one automatically by default). This setting allows you to override the default value of the `SERVER_PORT` environment variable, which is used by the templates to configure the port the local debug server listens on.
 

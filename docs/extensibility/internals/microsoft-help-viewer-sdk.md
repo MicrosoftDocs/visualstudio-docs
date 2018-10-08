@@ -816,13 +816,13 @@ To test this as if deployed:
 ### Additional Resources  
 For the Runtime API, see [Windows Help API](/previous-versions/windows/desktop/helpapi/helpapi-portal).  
   
-For additional information on how to leverage the Help API, see [Help Viewer Code Examples](http://visualstudiogallery.msdn.microsoft.com/f08f296f-7076-4aec-8da3-8f0fbe04461e)  
+For additional information on how to leverage the Help API, see [Help Viewer Code Examples](https://marketplace.visualstudio.com/items?itemName=RobChandlerHelpMVP.HelpViewer20CodeExamples)  
   
 To provide feedback about these components, use [Microsoft Connect](http://connect.microsoft.com/).  
   
 Please submit feature suggestions to [Microsoft User Voice](http://visualstudio.uservoice.com/forums/121579-visual-studio)  
   
-To get additional help, try the [MSDN Developer Documentation and Help System forums](http://social.msdn.microsoft.com/Forums/devdocs/threads)  
+To get additional help, try the [MSDN Developer Documentation and Help System forums](https://social.msdn.microsoft.com/Forums)  
   
 Updates on breaking issue, please see the [Help Viewer Readme](http://go.microsoft.com/fwlink/?LinkID=231397&clcid=0x409)  
   

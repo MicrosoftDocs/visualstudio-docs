@@ -18,7 +18,7 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
  This topic explains the central features of the DSL definition.
 
 ## The DSL Definition
- When you open `Dsl\DslDefinition.dsl`, your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window resembles the following picture.
+ When you open `Dsl\DslDefinition.dsl`, your Visual Studio window resembles the following picture.
 
  ![dsl designer](../modeling/media/dsl_designer.png)
 

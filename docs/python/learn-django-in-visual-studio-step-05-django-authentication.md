@@ -1,7 +1,7 @@
 ---
 title: Tutorial - Learn Django in Visual Studio, step 5
 description: A walkthrough of Django basics in the context of Visual Studio projects, specifically authentication features as provided by the Django Web Project templates.
-ms.date: 04/25/2018
+ms.date: 08/13/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-python
 ms.topic: tutorial
@@ -193,9 +193,9 @@ The following steps exercise the authentication flow and describe the parts of t
 
 1. When you're all done, stop the server and once again commit your changes to source control.
 
-### Question: What is the purpose of the {% crsf_token %} tag that appears in the \<form\> elements?
+### Question: What is the purpose of the {% csrf_token %} tag that appears in the \<form\> elements?
 
-Answer: The `{% crsf_token %}` tag includes Django's built-in [cross-site request forgery (crsf) protection](https://docs.djangoproject.com/en/2.0/ref/csrf/) (Django docs). You typically add this tag to any element that involves POST, PUT, or DELETE request methods, such as a form. The template rendering function (`render`) then inserts the necessary protection.
+Answer: The `{% csrf_token %}` tag includes Django's built-in [cross-site request forgery (csrf) protection](https://docs.djangoproject.com/en/2.0/ref/csrf/) (Django docs). You typically add this tag to any element that involves POST, PUT, or DELETE request methods, such as a form. The template rendering function (`render`) then inserts the necessary protection.
 
 ## Next steps
 

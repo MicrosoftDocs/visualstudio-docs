@@ -20,7 +20,7 @@ ms.technology: vs-ide-modeling
 
 You must define toolbox items for the elements that you want to let users add to their models. There are two kinds of tools: element tools and connection tools. In the generated designer, a user can select an element tool to drag shapes to the diagram, and can select a connection tool to draw links between the shapes. In general, element tools let users add instances of domain classes to their models, and connection tools let them add instances of domain relationships.
 
-##  <a name="ToolboxDef"></a> How the toolbox is defined
+## <a name="ToolboxDef"></a> How the toolbox is defined
  In the DSL Explorer, expand the Editor node and the nodes underneath it. Typically you will see a hierarchy that resembles this:
 
 ```
@@ -71,11 +71,11 @@ The **Connection Builder** property of a connection tool refers to a connection 
 
      **For a connector tool:** Set the **Connection Builder** property of the tool to one of the items that are offered in the drop-down list. Connection builders are automatically created when you map a connector to a domain relationship. If you have recently created a connector, you would normally select the associated connection builder.
 
-5.  To test the DSL, press F5 or CTRL+F5, and in the experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], open a sample model file. The new tool should appear on the toolbox. Drag it onto the diagram to verify that it creates a new element.
+5.  To test the DSL, press F5 or CTRL+F5, and in the experimental instance of Visual Studio, open a sample model file. The new tool should appear on the toolbox. Drag it onto the diagram to verify that it creates a new element.
 
-     If the tool does not appear, stop the experimental [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In the Windows **Start** menu, run **Reset the Microsoft Visual Studio 2010 Experimental Instance**. On the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]**Build** menu, click **Rebuild Solution**. Then test the DSL again.
+     If the tool does not appear, stop the experimental Visual Studio. In the Windows **Start** menu, run **Reset the Microsoft Visual Studio 2010 Experimental Instance**. On the **Build** menu, click **Rebuild Solution**. Then test the DSL again.
 
-##  <a name="customizing"></a> Customizing Element Tools
+## <a name="customizing"></a> Customizing Element Tools
  By default, the tool will create a single instance of the specified class, but you can vary this in two ways:
 
 -   Define Element Merge Directives on other classes, enabling them to accept new instances of this class, and enabling them to create additional links when the new element is created. For example, you could allow the user to drop a Comment onto another element, and thereby create a reference link between the two.
@@ -86,7 +86,7 @@ The **Connection Builder** property of a connection tool refers to a connection 
 
 -   Write code to customize the tool so that it can create groups of elements. The tool is initialized by methods in ToolboxHelper.cs that you can override. For more information, see [Creating Groups of Elements from a Tool](#groups).
 
-##  <a name="groups"></a> Creating Groups of Elements from a Tool
+## <a name="groups"></a> Creating Groups of Elements from a Tool
  Each element tool contains a prototype of the elements that it should create. By default, each element tool creates a single element, but it is also possible to create a group of related objects with one tool. To do this, you initialize the tool with an <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> that contains the related items.
 
  The following example is taken from a DSL in which there is a type Transistor. Each Transistor has three named Terminals. The element tool for Transistors stores a prototype containing four model elements and three relationship links. When the user drags the tool onto the diagram, the prototype is instantiated and linked to the model root.
@@ -136,7 +136,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 
 ```
 
-##  <a name="connections"></a> Customizing Connection Tools
+## <a name="connections"></a> Customizing Connection Tools
  Usually, you create an element tool when you create a new connector class. Alternatively, you can overload one tool by allowing the types of the two ends to determine the type of the relationship. For example, you could define one connection tool that could create both Person-Person relationships and Person-Town relationships.
 
  Connection tools invoke connection builders. Use connection builders to specify how users can link elements in the generated designer. Connection builders specify the elements that can be linked and the kind of link that is created between them.

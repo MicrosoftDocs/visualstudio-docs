@@ -1,6 +1,6 @@
 ---
 title: Using the C++ Core Guidelines checkers
-ms.date: 11/04/2016
+ms.date: 08/14/2018
 ms.topic: "conceptual"
 author: mikeblome
 ms.author: mblome
@@ -19,13 +19,11 @@ The C++ Core Guidelines are a portable set of guidelines, rules, and best practi
 ## Enable the C++ Core Check guidelines in Code Analysis
  You can enable code analysis on your project by selecting the **Enable Code Analysis on Build** checkbox in the **Code Analysis** section of the **Property Pages** dialog for your project.
 
- ![Property page for Code Analysis General settings](../code-quality/media/cppcorecheck_codeanalysis_general.png)
+ ![Property page for Code Analysis General settings](media/cppcorecheck_codeanalysis_general.png)
 
- The C++ Core Check rules are extensions to the default rule sets that run when code analysis is enabled. Because the C++ Core Check rules are under development, some rules are well established, and some may not be ready for use on all code, but may still be informative. The rules are divided into two groups: released and experimental. You can choose whether to run the released or experimental rules in the properties for your project.
+ A subset of C++ Core Check rules is included in the Microsoft Native Recommended rule set that runs by default when code analysis is enabled. To enable additional Core Check rules, click on the dropdown and choose which rule sets you want to include:
 
- ![Property page for Code Analysis Extensions settings](../code-quality/media/cppcorecheck_codeanalysis_extensions.png)
-
- To enable or disable the C++ Core Check rule sets, open the **Property Pages** dialog for your project. Under **Configuration Properties**, expand  **Code Analysis**, **Extensions**. In the dropdown control next to **Enable C++ Core Check (Released)** or **Enable C++ Core Check (Experimental)**,  choose **Yes** or **No**. Choose **OK** or **Apply** to save your changes.
+ ![Dropdown for additional C++ Core Check rule sets](media/cppcorecheck_codeanalysis_extensions.png)
 
 ## Examples
  Here's an example of some of the issues that the C++ Core Check rules can find:
@@ -161,14 +159,14 @@ These macros correspond to the rule sets and expand into a space-separated list 
  ## <a name="corecheck_per_file"></a> Enabling the C++ Core Guidelines Checker on specific project files
 Sometimes it may be useful to do focused code analysis and still use the Visual Studio IDE. The following sample scenario can be used for large projects to save build time and to make it easier to filter results:
 
-1.	In the command shell set the `esp.extension` and `esp.annotationbuildlevel` environment variables.
-2.	To inherit these variables, start Visual Studio from the command shell.
-3.	Load your project and open its properties.
-4.	Enable code analysis, pick the appropriate rule sets, but do not enable code analysis extensions.
-5.	Go to the file you want to analyze with the C++ Core Guidelines Checker and open its properties.
-6.	Choose **C/C++\Command Line Options** and add `/analyze:plugin EspXEngine.dll`
-7.	Disable the use of precompiled header (**C/C++\Precompiled Headers**). This is necessary because the extensions engine may attempt to read its internal information from the precompiled header (PCH); if the PCH compiled with default project options, it will not be compatible.
-8.	Rebuild the project. The common PREFast checks should run on all files. Because the C++ Core Guidelines Checker is not enabled by default, it should only run on the file that is configured to use it.
+1. In the command shell set the `esp.extension` and `esp.annotationbuildlevel` environment variables.
+2. To inherit these variables, start Visual Studio from the command shell.
+3. Load your project and open its properties.
+4. Enable code analysis, pick the appropriate rule sets, but do not enable code analysis extensions.
+5. Go to the file you want to analyze with the C++ Core Guidelines Checker and open its properties.
+6. Choose **C/C++\Command Line Options** and add `/analyze:plugin EspXEngine.dll`
+7. Disable the use of precompiled header (**C/C++\Precompiled Headers**). This is necessary because the extensions engine may attempt to read its internal information from the precompiled header (PCH); if the PCH compiled with default project options, it will not be compatible.
+8. Rebuild the project. The common PREFast checks should run on all files. Because the C++ Core Guidelines Checker is not enabled by default, it should only run on the file that is configured to use it.
 
 ## How to use the C++ Core Guidelines Checker outside of Visual Studio
 You can use the C++ Core Guidelines checks in automated builds.
@@ -211,12 +209,12 @@ If you use a build system that doesn’t rely on MSBuild you can still run the c
 
 You have to set a few environment variables and use proper command-line options for the compiler. It is better to work under the "Native Tools Command Prompt" environment so that you don’t have to search for specific paths for the compiler, include directories, etc.
 
-1.	**Environment variables**
+1. **Environment variables**
   - `set esp.extensions=cppcorecheck.dll` This tells the engine to load the C++ Core Guidelines module.
   - `set esp.annotationbuildlevel=ignore` This disables the logic that processes SAL annotations. Annotations don’t affect code analysis in the C++ Core Guidelines Checker, yet their processing takes time (sometimes a long time). This setting is optional, but highly recommended.
   - `set caexcludepath=%include%` We highly recommend that you disable warnings which fire on standard headers. You can add more paths here, for example the path to the common headers in your project.
-2.	**Command line options**
-  - `/analyze` 	Enables code analysis (consider also using /analyze:only and /analyze:quiet).
+2. **Command line options**
+  - `/analyze`  Enables code analysis (consider also using /analyze:only and /analyze:quiet).
   - `/analyze:plugin EspXEngine.dll` This option loads the Code Analysis Extensions engine into the PREfast. This engine, in turn, loads the C++ Core Guidelines Checker.
 
 
@@ -233,7 +231,7 @@ You have to set a few environment variables and use proper command-line options 
 
 #### To add the Microsoft.CppCoreCheck package to your project in Visual Studio 2015
 
-1.  In **Solution Explorer**, right-click to open the context menu of your Project in the Solution that you want to add the package to. Choose **Manage NuGet Packages** to open the **NuGet Package Manager**.
+1.  In **Solution Explorer**, right-click to open the context menu of your project in the solution that you want to add the package to. Choose **Manage NuGet Packages** to open the **NuGet Package Manager**.
 
 2.  In the **NuGet Package Manager** window, search for Microsoft.CppCoreCheck.
 

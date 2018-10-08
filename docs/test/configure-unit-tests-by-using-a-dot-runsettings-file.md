@@ -18,7 +18,7 @@ Run settings files are optional. If you don't require any special configuration,
 
 ## Specify a run settings file
 
-Run settings files can be used to configure tests that are run from the [command line](vstest-console-options.md), in the IDE, or in a [build workflow](/vsts/pipelines/test/getting-started-with-continuous-testing?view=vsts) using Visual Studio Team Services (VSTS) or Team Foundation Server (TFS).
+Run settings files can be used to configure tests that are run from the [command line](vstest-console-options.md), in the IDE, or in a [build workflow](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts) using Azure Test Plans or Team Foundation Server (TFS).
 
 ### Specify a run settings file in the IDE
 
@@ -108,8 +108,8 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
         </Configuration>
       </DataCollector>
 
-      <!--Video data collector is only available with Visual Studio 2017 version 15.5 and higher -->
       <DataCollector uri="datacollector://microsoft/VideoRecorder/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder.VideoRecorderDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Screen and Voice Recorder">
+        <!--Video data collector is only available with Visual Studio 2017 version 15.5 and higher -->
       </DataCollector>
 
     </DataCollectors>
@@ -213,6 +213,7 @@ Test run parameters provide a way to define variables and values that are availa
 public void HomePageTest()
 {
     string appURL = TestContext.Properties["webAppUrl"];
+}
 ```
 
 To use test run parameters, add a private <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> field and a public <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> property to your test class.
@@ -228,7 +229,7 @@ To use test run parameters, add a private <xref:Microsoft.VisualStudio.TestTools
     <AssemblyResolution>
       <Directory Path="D:\myfolder\bin\" includeSubDirectories="false"/>
     </AssemblyResolution>
-</MSTest
+</MSTest>
 ```
 
 These settings are specific to the test adapter that runs test methods that have the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute> attribute.
@@ -249,4 +250,4 @@ These settings are specific to the test adapter that runs test methods that have
 ## See also
 
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
-- [Visual Studio test task (VSTS)](/vsts/pipelines/tasks/test/vstest?view=vsts)
+- [Visual Studio test task (Azure Test Plans)](/azure/devops/pipelines/tasks/test/vstest?view=vsts)

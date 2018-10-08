@@ -62,19 +62,19 @@ Set up a project that contains the code of your extension, and a VSIX project th
 
 ## Test and Deployment
 
-To test any of the extensions in this topic, build and run the solution. An experimental instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] opens. In this instance, open a DSL solution. Edit the DslDefinition diagram. The extension behavior can be seen.
+To test any of the extensions in this topic, build and run the solution. An experimental instance of Visual Studio opens. In this instance, open a DSL solution. Edit the DslDefinition diagram. The extension behavior can be seen.
 
-To deploy the extensions to the main [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], and to other computers, follow these steps:
+To deploy the extensions to the main Visual Studio, and to other computers, follow these steps:
 
 1.  Find the VSIX installation file, in your VSIX project in bin\\*\\\*.vsix
 
 2.  Copy this file to the target computer, and then in Windows Explorer (or File Explorer), double-click it.
 
-     The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Extension Manager opens to confirm that the extension has been installed.
+     The Visual Studio Extension Manager opens to confirm that the extension has been installed.
 
 To uninstall the extension, follow these steps:
 
-1.  in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], on the **Tools** menu, click **Extension Manager**.
+1.  in Visual Studio, on the **Tools** menu, click **Extension Manager**.
 
 2.  Select the extension and delete it.
 

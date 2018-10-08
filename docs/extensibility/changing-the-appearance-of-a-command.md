@@ -52,7 +52,7 @@ You can provide feedback to your user by changing the appearance of a command. F
     {  
         var command = sender as OleMenuCommand;  
         if (command.Text == "New Text")  
-            ChangeMyCommand(command.CommandID.ID, false);}  
+            ChangeMyCommand(command.CommandID.ID, false);
     }  
     ```  
   
@@ -71,7 +71,7 @@ You can provide feedback to your user by changing the appearance of a command. F
             mc.Enabled = enableCmd;  
             cmdUpdated = true;  
         }  
-        return cmdUpdated;    }  
+        return cmdUpdated;
     }  
     ```  
   

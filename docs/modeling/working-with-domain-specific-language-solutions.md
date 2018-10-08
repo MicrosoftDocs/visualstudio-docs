@@ -11,7 +11,7 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Working with Domain-Specific Language Solutions
-A domain-specific language (DSL) is created using a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution. This section is about how to set up and customize the solution.
+A domain-specific language (DSL) is created using a Visual Studio solution. This section is about how to set up and customize the solution.
 
 ## In this Section
  [About Domain-Specific Languages](../modeling/about-domain-specific-languages.md)

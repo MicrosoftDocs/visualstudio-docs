@@ -1,8 +1,8 @@
 ---
 title: "Including a NuGet package in your project"
 description: This document covers how to include a NuGet package in a Xamarin project. It walks through finding and downloading a package, as well as introducing the IDE integration features.
-author: asb3993
-ms.author: amburns
+author: conceptdev
+ms.author: crdun
 ms.date: 04/14/2017
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ---
