@@ -348,7 +348,7 @@ In the following table, any string that appears between brackets is a placeholde
 |Property (HTML Representation)|Description|  
 |--------------------------------------|-----------------|  
 |\< meta name="Microsoft.Help.Locale" content="[language-code]" />|Sets a locale for this topic. If this tag is used in a topic, it must be used just once and it must be inserted above any other Microsoft Help tags. If this tag is not used, the body text of the topic is indexed by using word breaker that is associated with the product locale, if it is specified; otherwise, the en-us word breaker is used. This tag conforms to ISOC RFC 4646. To ensure that Microsoft Help works correctly, use this property instead of the general Language attribute.|  
-|\< meta name="Microsoft.Help.TopicLocale" content="[language-code]" />|Sets a locale for this topic when other locales are also used. If this tag is used in a topic, it must be used just once. Use this tag when the catalog contains content in more than one language. Multiple topics in a catalog can have the same ID, but each must specify a unique TopicLocale. The topic that specifies a TopicLocale that matches the locale of the catalog is the the topic that is displayed in the table of contents. However, all language versions of the topic are displayed in Search results.|  
+|\< meta name="Microsoft.Help.TopicLocale" content="[language-code]" />|Sets a locale for this topic when other locales are also used. If this tag is used in a topic, it must be used just once. Use this tag when the catalog contains content in more than one language. Multiple topics in a catalog can have the same ID, but each must specify a unique TopicLocale. The topic that specifies a TopicLocale that matches the locale of the catalog is the topic that is displayed in the table of contents. However, all language versions of the topic are displayed in Search results.|  
 |\< title>[Title]\</title>|Specifies the title of this topic. This tag is required, and must be used just once in a topic. If the body of the topic does not contain a title \<div> section, this Title is displayed in the topic and in the table of contents.|  
 |\< meta name=" Microsoft.Help.Keywords" content="[aKeywordPhrase]"/>|Specifies the text of a link that is displayed in the index pane of the Help Viewer. When the link is clicked, the topic is displayed.You can specify multiple index keywords for a topic, or you can omit this tag if you do not want links to this topic to appear in the index. "K" keywords from earlier versions of Help can be converted to this property.|  
 |\< meta name="Microsoft.Help.Id" content="[TopicID]"/>|Sets the identifier for this topic. This tag is required, and must be used just once in a topic. The ID must be unique among topics in the catalog that have the same locale setting. In another topic, you can create a link to this topic by using this ID.|  
@@ -814,15 +814,15 @@ To test this as if deployed:
 12. Within the Contoso IDE, choose the F1 key to test F1 functionality.  
   
 ### Additional Resources  
-For the Runtime API, see [Windows Help API](http://msdn.microsoft.com/library/windows/desktop/hh447318\(v=vs.85\).aspx).  
+For the Runtime API, see [Windows Help API](/previous-versions/windows/desktop/helpapi/helpapi-portal).  
   
-For additional information on how to leverage the Help API, see [Help Viewer Code Examples](http://visualstudiogallery.msdn.microsoft.com/f08f296f-7076-4aec-8da3-8f0fbe04461e)  
+For additional information on how to leverage the Help API, see [Help Viewer Code Examples](https://marketplace.visualstudio.com/items?itemName=RobChandlerHelpMVP.HelpViewer20CodeExamples)  
   
 To provide feedback about these components, use [Microsoft Connect](http://connect.microsoft.com/).  
   
 Please submit feature suggestions to [Microsoft User Voice](http://visualstudio.uservoice.com/forums/121579-visual-studio)  
   
-To get additional help, try the [MSDN Developer Documentation and Help System forums](http://social.msdn.microsoft.com/Forums/devdocs/threads)  
+To get additional help, try the [MSDN Developer Documentation and Help System forums](https://social.msdn.microsoft.com/Forums)  
   
 Updates on breaking issue, please see the [Help Viewer Readme](http://go.microsoft.com/fwlink/?LinkID=231397&clcid=0x409)  
   

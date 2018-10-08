@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Features of the code editor
 
-The Visual Studio editor provides many features that make it easier for you to write and manage your code and text. You can expand and collapse different blocks of code by using outlining. You can learn more about the code by using IntelliSense, the **Object Browser**, and the Call Hierarchy. You can find code by using features such as **Go To**, **Go To Definition**, and **Find All References**. You can insert blocks of code with code snippets, and you can generate code by using features such as **Generate From Usage**. If you have never used the Visual Studio editor before, see [Edit your code](https://www.visualstudio.com/vs/features/ide/) for a quick overview.
+The Visual Studio editor provides many features that make it easier for you to write and manage your code and text. You can expand and collapse different blocks of code by using outlining. You can learn more about the code by using IntelliSense, the **Object Browser**, and the Call Hierarchy. You can find code by using features such as **Go To**, **Go To Definition**, and **Find All References**. You can insert blocks of code with code snippets, and you can generate code by using features such as **Generate From Usage**. If you have never used the Visual Studio editor before, see [Edit your code](https://visualstudio.microsoft.com/vs/features/ide/) for a quick overview.
 
 You can view your code in a number of different ways. By default, **Solution Explorer** shows your code organized by files. You can click on the **Class View** tab at the bottom of the window to view your code organized by classes.
 
@@ -45,7 +45,7 @@ You can find a number of advanced features on the **Edit** > **Advanced** menu o
 
 |||
 |-|-|
-|Format Document|Sets the proper indentation of lines of code and moves curly braces to separate lines in the document.|
+|[Format Document](code-styles-and-quick-actions.md#format-document-command)|Sets the proper indentation of lines of code and moves curly braces to separate lines in the document.|
 |Format Selection|Sets the proper indentation of lines of code and moves curly braces to separate lines in the selection.|
 |Tabify Selected Lines|Changes leading spaces to tabs where appropriate.|
 |Untabify Selected Lines|Changes leading tabs to spaces. If you want to convert all the spaces in your file to tabs (or all the tabs to spaces), you can use the `Edit.ConvertSpacesToTabs` and `Edit.ConvertTabsToSpaces` commands. These commands do not appear in Visual Studio menus, but you can call them from the **Quick Access** window or the command window.|
@@ -82,6 +82,6 @@ For more information about customizing the editor, see [Customize the editor](..
 ## See also
 
 - [Visual Studio IDE](../ide/visual-studio-ide.md)
-- [Get started with C++ in Visual Studio](../ide/quickstart-cpp.md)
+- [Get started with C++ in Visual Studio](../ide/getting-started-with-cpp-in-visual-studio.md)
 - [Get started with C# and ASP.NET in Visual Studio](../ide/tutorial-csharp-aspnet-core.md)
 - [Get started with Python in Visual Studio](../ide/quickstart-python.md)

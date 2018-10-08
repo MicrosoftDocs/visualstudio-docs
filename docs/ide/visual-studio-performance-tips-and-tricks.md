@@ -1,10 +1,9 @@
 ---
-title: Visual Studio performance tips and tricks
-ms.date: 08/31/2017
+title: Tips to improve performance
+ms.date: 08/14/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: conceptual
-ms.assetid: 2fbcb59e-e981-4b40-8b7a-c1140d31ec4b
 author: gewarren
 ms.author: gewarren
 manager: douge
@@ -18,25 +17,29 @@ Visual Studio performance recommendations are intended for low memory situations
 > [!NOTE]
 > If you’re having difficulty using the product because of memory issues, let us know through the [feedback tool](../ide/how-to-report-a-problem-with-visual-studio-2017.md).
 
-## Optimize your environment
+## Use a 64-bit OS
 
-- **Use a 64-bit OS**
+If you upgrade your system from a 32-bit version of Windows to a 64-bit version, you expand the amount of virtual memory available to Visual Studio from 2 GB to 4 GB. This enables Visual Studio to handle significantly larger workloads, even though it is 32-bit process.
 
-    If you upgrade your system from a 32-bit version of Windows to a 64-bit version, you expand the amount of virtual memory available to Visual Studio from 2 GB to 4 GB. This enables Visual Studio to handle significantly larger workloads even though it is 32-bit process.
+For more information, see [Memory limits](https://msdn.microsoft.com/library/windows/desktop/aa366778(v=vs.85).aspx#memory_limits) and [Use /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
 
-    For more information, see [Memory limits](https://msdn.microsoft.com/library/windows/desktop/aa366778(v=vs.85).aspx#memory_limits) and [Use /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
+## Disable automatic file restore
 
-## Configure solution and projects
+Visual Studio automatically reopens documents that were left open in the previous session. This can prolong the times it takes to load a solution by up to 30% or more, depending on the project type and the documents being opened. Designers like Windows Forms and XAML, and some JavaScript and typescript files, can be slow to open.
 
-If you have a very large solution with many projects, you may benefit by making the following optimizations:
+Visual Studio notifies you in a yellow bar when automatic document restore is causing a solution to load significantly slower. You can disable automatic file reopening by following these steps:
 
-- **Unload Projects**
+1. Select **Tools** > **Options** to open the **Options** dialog box.
 
-    You can manually unload rarely used individual projects from **Solution Explorer** using the right-click context menu.
+1. On the **Projects and Solution** > **General** page, deselect **Reopen documents on solution load**.
 
-- **Refactor the solution**
+If you disable automatic file restore, a quick way to navigate to files you want to open is by using one of the [Go To](../ide/go-to.md) commands:
 
-    You can split your solution into several smaller solution files with commonly used projects. This refactoring should significantly reduce memory usage for your workflow. Smaller solutions also load faster.
+- For the general **Go To** functionality, select **Edit** > **Go To** > **Go To All**, or press **Ctrl**+**T**.
+
+- In Visual Studio 2017 version 15.8 and later, you can jump to the last edit location in a solution using **Edit** > **Go To** > **Go To Last Edit Location**, or by pressing **Ctrl**+**Shift**+**Backspace**.
+
+- In Visual Studio 2017 version 15.8 and later, use **Go To Recent File** to see a list of recently visited files in a solution. Select **Edit** > **Go To** > **Go To Recent File**, or press **Ctrl**+**1**, **Ctrl**+**R**.
 
 ## Configure debugging options
 
@@ -64,32 +67,33 @@ If you are typically running low on memory during debugging sessions, you can op
 
     To disable the **Diagnostic Tools**, start a debugging session, choose **Tools** > **Options** > **Enable Diagnostic Tools**, and deselect the option.
 
-    For more information, see [Profiling Tools](../profiling/profiling-tools.md).
+    For more information, see [Profiling Tools](../profiling/profiling-feature-tour.md).
 
 ## Disable tools and extensions
 
-Some tools or extensions may to turned off to improve performance.
+Some tools or extensions can be turned off to improve performance.
 
 > [!TIP]
 > You can often isolate performance issues by turning off extensions one at a time and rechecking performance.
 
-### Managed Language Services (Roslyn)
+### Managed language service (Roslyn)
 
 For information about .NET Compiler Platform ("Roslyn") performance considerations, see [Performance considerations for large solutions](https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions).
 
 - **Disable full solution analysis**
 
-    Visual Studio performs analysis on your entire solution in order to provide a rich experience about errors before invoking a build. This feature is useful to identify errors as soon as possible. However, for very large solutions, this feature can consume significant memory resources. If you’re experiencing memory pressure or similar issues, you can disable this experience to free up these resources. By default, this option is enabled for Visual Basic and disabled for C#.
+    Visual Studio performs analysis on your entire solution in order to provide a rich experience about errors before invoking a build. This feature is useful to identify errors as soon as possible. However, for large solutions, this feature can consume significant memory resources. If you’re experiencing memory pressure or similar issues, you can disable this experience to free up these resources. By default, this option is enabled for Visual Basic and disabled for C#.
 
-    To disable **Full Solution Analysis**, choose **Tools** > **Options** > **Text Editor** > **<Visual Basic or C#>**. Then choose **Advanced** and deselect **Enable full solution analysis**.
+    To disable **Full Solution Analysis**, choose **Tools** > **Options** > **Text Editor**, then select either **Visual Basic** or **C#**. Choose **Advanced** and deselect **Enable full solution analysis**.
 
 - **Disable CodeLens**
 
-    Visual Studio performs a **Find All References** task on each method as it is displayed. CodeLens provides features such as the inline display of the number of references. The work is performed in a separate process (for example, *ServiceHub.RoslynCodeAnalysisService32*). In very large solutions or on resource constrained systems, this feature can have significant impact on performance even though it is run at a low priority. If you’re experiencing high CPU in this process, or memory issues (for example, when loading a large solution on a 4-GB machine), you can try disabling this feature to free up resources.
+    Visual Studio performs a **Find All References** task on each method as it is displayed. CodeLens provides features such as the inline display of the number of references. The work is performed in a separate process such as *ServiceHub.RoslynCodeAnalysisService32*. In large solutions, or on resource-constrained systems, this feature can have a significant impact on performance. If you’re experiencing memory issues, for example, when loading a large solution on a 4-GB machine, or high CPU usage for this process, you can disable CodeLens to free up resources.
 
     To disable **CodeLens**, choose **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens**, and deselect the feature.
 
-    This feature is available in Visual Studio Professional and Visual Studio Enterprise.
+    > [!NOTE]
+    > CodeLens is available in the Professional and Enterprise editions of Visual Studio.
 
 ### Other tools and extensions
 
@@ -122,4 +126,4 @@ For a detailed description of the CLR garbage collector, see [Fundamentals of ga
 ## See also
 
 - [Optimize Visual Studio performance](../ide/optimize-visual-studio-performance.md)
-- [Visual Studio blog - Load solutions faster with Visual Studio 2017 version 15.6](https://blogs.msdn.microsoft.com/visualstudio/2018/04/04/load-solutions-faster-with-visual-studio-2017-version-15-6/)
+- [Load solutions faster (Visual Studio blog)](https://blogs.msdn.microsoft.com/visualstudio/2018/04/04/load-solutions-faster-with-visual-studio-2017-version-15-6/)

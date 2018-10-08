@@ -15,7 +15,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# CPU Utilization Graph
+# CPU Utilization graph
 The CPU Utilization graph shows the level of utilization in an app over time. The X-axis represents the duration of the trace, and the y-axis represents the number of logical cores on the system. The graph doesn't show which specific core is active at any given time. For example, if two cores are each running at 50 percent capacity for a given time period, then this view shows one logical core being utilized.  
   
 ## CPU Utilization graph colors  
@@ -28,6 +28,6 @@ The CPU Utilization graph shows the level of utilization in an app over time. Th
   
 -   White indicates the availability of unused logical cores on the system. Those cores are available for your process if you can find more opportunities for parallelism.  
   
-## See Also  
+## See also  
  [Utilization View](../profiling/utilization-view.md)   
  [Average CPU Utilization](../profiling/average-cpu-utilization.md)

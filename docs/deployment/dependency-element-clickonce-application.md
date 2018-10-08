@@ -29,12 +29,12 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;dependency&gt; Element (ClickOnce Application)
+# &lt;dependency&gt; element (ClickOnce application)
 Identifies a platform or assembly dependency that is required for the application.  
   
 ## Syntax  
   
-```  
+```xml  
   
       <dependency>  
    <dependentOS  
@@ -82,7 +82,7 @@ Identifies a platform or assembly dependency that is required for the applicatio
 </dependency>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `dependency` element is required. There may be multiple instances of `dependency` in the same application manifest.  
   
  The `dependency` element has no attributes, and contains the following child elements.  
@@ -168,7 +168,7 @@ Identifies a platform or assembly dependency that is required for the applicatio
 ## Example  
  The following code example illustrates `dependency` elements in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. This code example is part of a larger example provided for the [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md) topic.  
   
-```  
+```xml  
 <dependency>  
   <dependentOS>  
     <osVersionInfo>  
@@ -212,6 +212,6 @@ Identifies a platform or assembly dependency that is required for the applicatio
 </dependency>  
 ```  
   
-## See Also  
- [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)   
- [\<dependency> Element](../deployment/dependency-element-clickonce-deployment.md)
+## See also  
+ [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)   
+ [\<dependency> element](../deployment/dependency-element-clickonce-deployment.md)

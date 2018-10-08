@@ -23,17 +23,17 @@ ms.workload:
 
 This topic lists common issues that may occur when you are working with Windows Communication Foundation (WCF) or WCF Data Services references in Visual Studio.
 
-## Error Returning Data from a Service
+## Error returning data from a service
 
 When you return a `DataSet` or `DataTable` from a service, you may receive a "The maximum size quota for incoming messages has been exceeded" exception. By default, the `MaxReceivedMessageSize` property for some bindings is set to a relatively small value to limit exposure to denial-of-service attacks. You can increase this value to prevent the exception. For more information, see <xref:System.ServiceModel.HttpBindingBase.MaxReceivedMessageSize%2A>.
 
 To fix this error:
 
-1.  In **Solution Explorer**, double-click the app.config file to open it.
+1.  In **Solution Explorer**, double-click the *app.config* file to open it.
 
 2.  Locate the `MaxReceivedMessageSize` property and change it to a larger value.
 
-## Cannot Find a Service in My Solution
+## Cannot find a service in my solution
 
 When you click the **Discover** button in the **Add Service References** dialog box, one or more WCF Service Library projects in the solution do not appear in the services list. This can occur if a Service Library has been added to the solution but has not yet been compiled.
 
@@ -41,26 +41,26 @@ To fix this error:
 
 -   In **Solution Explorer**, right-click the WCF Service Library project and click **Build**.
 
-## Error Accessing a Service over a Remote Desktop
+## Error accessing a service over a remote desktop
 
 When a user accesses a Web-hosted WCF service over a remote desktop connection and the user does not have administrative permissions, NTLM authentication is used. If the user does not have administrative permissions, the user may receive the following error message: "The HTTP request is unauthorized with client authentication scheme 'Anonymous'. The authentication header received from the server was 'NTLM'."
 
 To fix this error:
 
-1.  In the Web site project, open the **Properties** pages.
+1.  In the website project, open the **Properties** pages.
 
 2.  On the **Start Options** tab, clear the **NTLM Authentication** check box.
 
     > [!NOTE]
-    > You should turn off NTLM authentication only for Web sites that exclusively contain WCF services. Security for WCF services is managed through the configuration in the web.config file. This makes NTLM authentication unnecessary.
+    > You should turn off NTLM authentication only for websites that exclusively contain WCF services. Security for WCF services is managed through the configuration in the *web.config* file. This makes NTLM authentication unnecessary.
 
-## Access Level for Generated Classes Setting Has No Effect
+## Access level for generated classes setting has no effect
 
 Setting the **Access level for generated classes** option in the **Configure Service References** dialog box to **Internal** or **Friend** may not always work. Even though the option appears to be set in the dialog box, the resulting support classes are generated with an access level of `Public`.
 
 This is a known limitation of certain types, such as those serialized using the <xref:System.Xml.Serialization.XmlSerializer>.
 
-## Error Debugging Service Code
+## Error debugging service code
 
 When you step into the code for a WCF service from client code, you may receive an error related to missing symbols. This can occur when a service that was part of your solution was moved or removed from the solution.
 
@@ -78,13 +78,13 @@ To fix this error, you have to manually rebuild the service project:
 
 4.  Load the WCF service project.
 
-5.  In the **Configuration Manager** dialog box, set the **Active solution configuration** to **Debug**. For more information, see [How to: Create and Edit Configurations](../ide/how-to-create-and-edit-configurations.md).
+5.  In the **Configuration Manager** dialog box, set the **Active solution configuration** to **Debug**. For more information, see [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md).
 
 6.  In **Solution Explorer**, select the WCF service project.
 
 7.  On the **Build** menu, click **Rebuild** to rebuild the WCF service project.
 
-## WCF Data Services Do Not Display in the Browser
+## WCF Data Services do not display in the browser
 
 When it attempts to view an XML representation of data in a [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)], Internet Explorer may misinterpret the data as an RSS feed. Make sure that the option to display RSS feeds is disabled.
 
@@ -98,6 +98,6 @@ To fix this error, disable RSS feeds:
 
 4.  Click **OK** to close the **Internet Options** dialog box.
 
-## See Also
+## See also
 
 - [Windows Communication Foundation Services and WCF Data Services in Visual Studio](../data-tools/windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md)

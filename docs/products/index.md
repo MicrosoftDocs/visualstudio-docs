@@ -36,7 +36,7 @@ searchScope: []
                                 </a>
                             </li>
 							<li>
-                                <a href="https://docs.microsoft.com/vsts" title="Visual Studio Team Services">
+                                <a href="/azure/devops/" title="Azure DevOps Services">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -46,8 +46,27 @@ searchScope: []
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Visual Studio Team Services</h3>
+                                                    <h3>Azure DevOps Services</h3>
                                                     <p>Increase team productivity with Agile project tools and reports. Build, test, and deploy projects from source control with modern CI/CD tools.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/tfs/" title="Team Foundation Server">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage">
+                                                        <img data-scaleimage="./images/vs-team-services.svg" src="./images/vs-team-services.svg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <h3>Team Foundation Server</h3>
+                                                    <p>Install, upgrade, and manage your on-premises deployments.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -93,7 +112,7 @@ searchScope: []
                                 </a>
                             </li>
 							<li>
-                                <a href="https://docs.microsoft.com/appcenter" title="Visual Studio App Center">
+                                <a href="/appcenter/" title="Visual Studio App Center">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -112,7 +131,7 @@ searchScope: []
                                 </a>
                             </li>
                             <li>
-                                <a href="https://aka.ms/vs-subscriptions" title="Visual Studio App Center">
+                                <a href="/visualstudio/subscriptions/" title="Visual Studio Subscriptions">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
@@ -130,7 +149,7 @@ searchScope: []
                                     </div>
                                 </a>
                             </li>
-                        </ul>						
+                        </ul>
                     </li>
                 </ul>
             </li>

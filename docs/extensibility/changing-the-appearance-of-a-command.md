@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Changing the Appearance of a Command
+# Change the appearance of a command
 You can provide feedback to your user by changing the appearance of a command. For example, you may want a command to look different when it is unavailable. You can make commands available or unavailable, hide or show them, or check or uncheck them on the menu.  
   
  To change the appearance of a command, perform one of these actions:  
@@ -31,28 +31,28 @@ You can provide feedback to your user by changing the appearance of a command. F
   
 ### To change the appearance of a menu command  
   
-1.  Follow the instructions in [Changing the Text of a Menu Command](../extensibility/changing-the-text-of-a-menu-command.md) to create a menu item named `New Text`.  
+1.  Follow the instructions in [Change the text of a menu command](../extensibility/changing-the-text-of-a-menu-command.md) to create a menu item named `New Text`.  
   
-2.  In the ChangeMenuText.cs file, add the following using statement:  
+2.  In the *ChangeMenuText.cs* file, add the following using statement:  
   
     ```csharp  
     using System.Security.Permissions;  
     ```  
   
-3.  In the ChangeMenuTextPackageGuids.cs file, add the following line:  
+3.  In the *ChangeMenuTextPackageGuids.cs* file, add the following line:  
   
     ```csharp  
     public const string guidChangeMenuTextPackageCmdSet= "00000000-0000-0000-0000-00000000";  // get the GUID from the .vsct file  
     ```  
   
-4.  In the ChangeMenuText.cs file, replace the code in the ShowMessageBox method with the following:  
+4.  In the *ChangeMenuText.cs* file, replace the code in the ShowMessageBox method with the following:  
   
     ```csharp  
     private void ShowMessageBox(object sender, EventArgs e)  
     {  
         var command = sender as OleMenuCommand;  
         if (command.Text == "New Text")  
-            ChangeMyCommand(command.CommandID.ID, false);}  
+            ChangeMyCommand(command.CommandID.ID, false);
     }  
     ```  
   
@@ -71,18 +71,18 @@ You can provide feedback to your user by changing the appearance of a command. F
             mc.Enabled = enableCmd;  
             cmdUpdated = true;  
         }  
-        return cmdUpdated;    }  
+        return cmdUpdated;
     }  
     ```  
   
 6.  Build the project and start debugging. The experimental instance of Visual Studio should appear.  
   
-7.  On the **Tools** menu, click the **Invoke ChangeMenuText** command. At this point the command name is **Invoke ChangeMenuText**, so the command handler doesn't call ChangeMyCommand().  
+7.  On the **Tools** menu, click the **Invoke ChangeMenuText** command. At this point the command name is **Invoke ChangeMenuText**, so the command handler doesn't call **ChangeMyCommand()**.  
   
 8.  On the **Tools** menu you should now see **New Text**. Click **New Text**. The command should now be grayed out.  
   
-## See Also  
- [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)   
- [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
- [Extending Menus and Commands](../extensibility/extending-menus-and-commands.md)   
- [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+## See also  
+ [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)   
+ [How VSPackages add user interface elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
+ [Extending menus and commands](../extensibility/extending-menus-and-commands.md)   
+ [Visual Studio command table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

@@ -393,7 +393,7 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
   
 -   Color in headings should leverage existing Visual Studio brand colors, primarily the main purple, #FF68217A.  
   
--   When using color in headings, you must adhere to the [Windows color guidelines](https://msdn.microsoft.com/en-us/library/dn742482.aspx), including contrast ratio and other accessibility considerations.  
+-   When using color in headings, you must adhere to the [Windows color guidelines](/windows/desktop/uxguide/vis-color), including contrast ratio and other accessibility considerations.  
   
 ### Font size  
  Visual Studio UI design features a lighter appearance with more white space. Where possible, chrome and title bars have been reduced or removed. While information density is a requirement in Visual Studio, typography continues to be important, with an emphasis on more open line spacing and a variation of font sizes and weights.  
@@ -460,5 +460,5 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 -   Bolded environment font text should follow default line height spacing and padding.  
   
 ## See Also  
- [MSDN: Fonts (Windows)](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742483\(v=vs.85\).aspx)   
- [MSDN: User Interface Text (Windows)](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742478\(v=vs.85\).aspx)
+ [MSDN: Fonts (Windows)](/windows/desktop/uxguide/vis-fonts)   
+ [MSDN: User Interface Text (Windows)](/windows/desktop/uxguide/text-ui)

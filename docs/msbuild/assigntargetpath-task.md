@@ -16,10 +16,10 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# AssignTargetPath Task
-This task accepts a list files and adds `<TargetPath>` attributes if they are not already specified.  
+# AssignTargetPath task
+This task accepts a list of files and adds `<TargetPath>` attributes if they are not already specified.  
   
-## Task Parameters  
+## Task parameters  
  The following table describes the parameters of the `AssignTargetPath` task.  
   
 |Parameter|Description|  
@@ -29,7 +29,7 @@ This task accepts a list files and adds `<TargetPath>` attributes if they are no
 |`AssignedFiles`|Optional<br /><br /> <xref:Microsoft.Build.Framework.ITaskItem> `[]` output parameter.<br /><br /> Contains the resulting list of files.|  
   
 ## Remarks  
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  
   
 ## Example  
  The following example executes the `AssignTargetPath` task to configure a project.  
@@ -47,6 +47,6 @@ RootFolder="Resources"
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)

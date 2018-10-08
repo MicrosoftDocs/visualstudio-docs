@@ -16,7 +16,7 @@ ms.workload:
 ##  <a name="BKMK_CommonControls"></a> Common controls  
   
 ### Overview  
-Common controls make up the majority of the user interface in Visual Studio. Most common controls used in the Visual Studio interface should follow the [Windows Desktop interaction guidelines](https://msdn.microsoft.com/library/windows/desktop/dn742399.aspx). This topic is specific to Visual Studio and covers special situations or details that augment those Windows guidelines.  
+Common controls make up the majority of the user interface in Visual Studio. Most common controls used in the Visual Studio interface should follow the [Windows Desktop interaction guidelines](/windows/desktop/uxguide/controls). This topic is specific to Visual Studio and covers special situations or details that augment those Windows guidelines.  
   
 #### Common controls in this topic  
   
@@ -39,17 +39,17 @@ Common controls make up the majority of the user interface in Visual Studio. Mos
 -   [Tree views](../../extensibility/ux-guidelines/common-control-patterns-for-visual-studio.md#BKMK_TreeViews)  
   
 #### Visual style  
-The first thing to consider when styling controls is whether the controls will be used in themed UI. Controls in standard UI are non-themed UI and must follow [normal Windows Desktop style](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742399\(v=vs.85\).aspx), meaning that they are not re-templated and should appear in their default control appearance.  
+The first thing to consider when styling controls is whether the controls will be used in themed UI. Controls in standard UI are non-themed UI and must follow [normal Windows Desktop style](/windows/desktop/uxguide/controls), meaning that they are not re-templated and should appear in their default control appearance.  
   
 -   **Standard (utility) dialogs:** not themed. Don't re-template. Use basic control style defaults.  
   
 -   **Tool windows, document editors, design surfaces and themed dialogs:** Use specialized themed appearance using the color service.  
   
 ###  <a name="BKMK_Scrollbars"></a> Scroll bars  
- Scroll bars should follow [common interaction patterns for Windows scroll bars](https://msdn.microsoft.com/en-us/library/windows/desktop/bb787527\(v=vs.85\).aspx) unless they're augmented with content information, like in the code editor.  
+ Scroll bars should follow [common interaction patterns for Windows scroll bars](/windows/desktop/Controls/about-scroll-bars) unless they're augmented with content information, like in the code editor.  
   
 ###  <a name="BKMK_InputFields"></a> Input fields  
- For typical interaction behavior, follow the [Windows Desktop guidelines for text boxes](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742442\(v=vs.85\).aspx).  
+ For typical interaction behavior, follow the [Windows Desktop guidelines for text boxes](/windows/desktop/uxguide/ctrl-text-boxes).  
   
 #### Visual style  
   
@@ -72,7 +72,7 @@ The first thing to consider when styling controls is whether the controls will b
      ![Correct input field length: the input field is a reasonable width for the expected content.](../../extensibility/ux-guidelines/media/0707-02_correctinputfieldcontrol.png "0707-02_CorrectInputFieldControl")<br />Correct input field length: the input field is a reasonable width for the expected content.
   
 ###  <a name="BKMK_ComboBoxesAndDropDowns"></a> Combo boxes and drop-down lists  
-For typical interaction behavior, follow the [Windows Desktop guidelines for drop-down lists and combo boxes](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742404\(v=vs.85\).aspx).  
+For typical interaction behavior, follow the [Windows Desktop guidelines for drop-down lists and combo boxes](/windows/desktop/uxguide/ctrl-drop).  
   
 #### Visual style  
   
@@ -88,7 +88,7 @@ Combo boxes and drop-downs should be sized to fit the content, not to fit the wi
 ![Correct: the drop-down is sized to allow for translation growth, but not unnecessarily long.](../../extensibility/ux-guidelines/media/0707-04_correctdropdownlayout.png "0707-04_CorrectDropDownLayout")<br />Correct: the drop-down is sized to allow for translation growth, but not unnecessarily long. 
   
 ###  <a name="BKMK_CheckBoxes"></a> Check boxes  
-For typical interaction behavior, follow the [Windows Desktop guidelines for check boxes](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742401\(v=vs.85\).aspx).  
+For typical interaction behavior, follow the [Windows Desktop guidelines for check boxes](/windows/desktop/uxguide/ctrl-check-boxes).  
   
 #### Visual style  
   
@@ -107,7 +107,7 @@ For typical interaction behavior, follow the [Windows Desktop guidelines for che
      ![Correct: the check box is aligned with the first line of the text.](../../extensibility/ux-guidelines/media/0707-06_correctcheckboxalign.png "0707-06_CorrectCheckBoxAlign")<br />Correct: the check box is aligned with the first line of the text.
   
 ###  <a name="BKMK_RadioButtons"></a> Radio buttons  
-For typical interaction behavior, follow the [Windows Desktop guidelines for radio buttons](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742436\(v=vs.85\).aspx).  
+For typical interaction behavior, follow the [Windows Desktop guidelines for radio buttons](/windows/desktop/uxguide/ctrl-radio-buttons).  
   
 #### Visual style  
 In utility dialogs, do not style radio buttons. Use the basic style intrinsic to the control.  
@@ -116,7 +116,7 @@ In utility dialogs, do not style radio buttons. Use the basic style intrinsic to
 It's not necessary to use a group frame to enclose radio choices, unless you need to maintain group distinction in a tight layout.  
   
 ###  <a name="BKMK_GroupFrames"></a> Group frames  
-For typical interaction behavior, follow the [Windows Desktop guidelines for group frames](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742405\(v=vs.85\).aspx).  
+For typical interaction behavior, follow the [Windows Desktop guidelines for group frames](/windows/desktop/uxguide/ctrl-group-boxes).  
   
 #### Visual style  
 In utility dialogs, don't style group frames. Use the basic style intrinsic to the control.  
@@ -159,7 +159,7 @@ Key guidelines for text in dialogs:
 
 -   Labels for text boxes, list boxes, and frames in unthemed dialogs start with a verb, have an initial capital on the first word only, and end with a colon.
 
-    > Text controls in themed dialogs follow [Windows desktop UX guidelines](https://msdn.microsoft.com/library/windows/desktop/dn742479.aspx) and do not take end punctuation, with the exception of question marks in Help links.
+    > Text controls in themed dialogs follow [Windows desktop UX guidelines](/windows/desktop/uxguide/top-violations) and do not take end punctuation, with the exception of question marks in Help links.
 
 -   Labels for check boxes and option buttons start with a verb, an initial capital on the first word only, and have no ending punctuation.
 
@@ -213,7 +213,7 @@ If you want users to have the ability to copy the info, dynamic text should be i
 ##  <a name="BKMK_ButtonsAndHyperlinks"></a> Buttons and hyperlinks  
   
 ### Overview  
-Buttons and link controls (hyperlinks) should follow [basic Windows Desktop guidance on hyperlinks](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742406\(v=vs.85\).aspx) for usage, wording, sizing, and spacing.  
+Buttons and link controls (hyperlinks) should follow [basic Windows Desktop guidance on hyperlinks](/windows/desktop/uxguide/ctrl-links) for usage, wording, sizing, and spacing.  
   
 ### Choosing between buttons and links  
 Traditionally, buttons have been used for actions and hyperlinks have been reserved for navigation. Buttons may be used in all cases, but the role of links has been expanded in Visual Studio so that buttons and links are more interchangeable in some conditions.  
@@ -314,7 +314,7 @@ Sizing for graphical buttons is the same as for the short version of the **[Brow
 Hyperlinks are well suited to navigation-based actions, like opening a Help topic, modal dialog, or wizard. If a hyperlink is used for a command, it should always display a visible and noticeable change to the UI. In general, actions that commit to an action (like Save, Cancel, and Delete) are better communicated using a button.  
   
 #### Writing style  
-Follow the [Windows Desktop guidance for user interface text](https://msdn.microsoft.com/en-us/library/windows/desktop/dn742478\(v=vs.85\).aspx). Don't use "Learn more about," "Tell me more about," or "Get help with this" phrasing. Instead, phrase Help link text in terms of the primary question answered by the Help content. For example, "**How do I add a server to the Server Explorer?**"  
+Follow the [Windows Desktop guidance for user interface text](/windows/desktop/uxguide/text-ui). Don't use "Learn more about," "Tell me more about," or "Get help with this" phrasing. Instead, phrase Help link text in terms of the primary question answered by the Help content. For example, "**How do I add a server to the Server Explorer?**"  
   
 #### Visual style  
   

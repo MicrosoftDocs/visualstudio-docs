@@ -47,7 +47,12 @@ In Visual Studio, the project file is used by **Solution Explorer** to display t
 
 A project is contained within a *solution*. A solution contains one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project. A solution is described by a text file (extension *.sln*) with its own unique format; it is not intended to be edited by hand.
 
-A solution has an associated *.suo* file that stores settings, preferences, and configuration information for each user that has worked on the project.
+Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solutions:
+
+|Extension|Name|Description|
+|---------------|----------|-----------------|
+|.sln|Visual Studio Solution|Organizes projects, project items, and solution items in the solution.|
+|.suo|Solution User Options|Stores user-level settings and customizations, such as breakpoints.|
 
 ## Create new projects
 
@@ -57,9 +62,9 @@ You can also create custom project and item templates. For more information, see
 
 ## Manage projects in Solution Explorer
 
-After you create a new project, you can use **Solution Explorer** to view and manage the project and solution, and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects.
+After you create a new project, you can use **Solution Explorer** to view and manage the project and solution, and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects:
 
-![Solution Explorer](../ide/media/vs2015_solution_explorer.png "vs2015_solution_explorer")
+![Solution Explorer](../ide/media/vs2015_solution_explorer.png)
 
 ## See also
 

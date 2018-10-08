@@ -16,49 +16,48 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# SafeControls Element
-  Represents a collection of ASPX controls and Web Parts that are designated as secure for any user to access on any ASPX page on the SharePoint site.  
+# SafeControls element
+  A collection of ASPX controls and Web Parts that are designated as secure for any user to access on any ASPX page on the SharePoint site.  
   
 ## Syntax  
   
-```  
+```xml  
 <SafeControls>  
   <SafeControl.../>  
 </SafeControls>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements
   
 |Element|Description|  
 |-------------|-----------------|  
 |[SafeControl](../sharepoint/safecontrol-element.md)|Optional element.<br /><br /> Represents an ASPX control or Web Part that is designated as secure for any user to access on any ASPX page on the SharePoint site.|  
   
-### Parent Elements  
+### Parent elements
   
 |Element|Description|  
 |-------------|-----------------|  
-|[ProjectItem](../sharepoint/projectitem-element.md)|Represents a SharePoint project item. This is the required root element of the .spdata file.|  
+|[ProjectItem](../sharepoint/projectitem-element.md)|Represents a SharePoint project item. This element the required root element of the *.spdata* file.|  
   
 ## Remarks  
- For more information about safe controls, see [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md).  
+ For more information about safe controls, see [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md).  
   
-## Element Information  
+## Element information
   
 |||  
 |-|-|  
-|**Namespace**|http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel|  
+|**Namespace**|http<nolink>://schemas.microsoft.com/VisualStudio/<br>2010/SharePointTools/SharePointProjectItemModel|  
 |**Schema name**|SharePoint Project Item Schema|  
 |**Validation file**|ProjectItemModelSchema.xsd|  
 |**Can be empty**|No|  
   
-## See Also  
- [SharePoint Project Item Schema Reference](../sharepoint/sharepoint-project-item-schema-reference.md)   
- [Providing Packaging and Deployment Information in Project Items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)  
-  
+## See also
+ [SharePoint project item schema reference](../sharepoint/sharepoint-project-item-schema-reference.md)   
+ [Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)  
   

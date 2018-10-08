@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# NumberOfParentCategoriesToRollUp (Visual Studio Templates)
+# NumberOfParentCategoriesToRollUp (Visual Studio templates)
 Specifies the number of parent categories that will display the template in the **New Project** dialog box.  
   
  \<VSTemplate>  
@@ -32,22 +32,22 @@ Specifies the number of parent categories that will display the template in the 
 </NumberOfParentCategoriesToRollUp>  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
  None.  
   
-### Child Elements  
+### Child elements  
  None.  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.|  
   
-## Text Value  
+## Text value  
  An `integer` value is required.  
   
  This value specifies the number of parent categories that will display the template in the **New Project** dialog box.  
@@ -83,6 +83,6 @@ Specifies the number of parent categories that will display the template in the 
 </VSTemplate>  
 ```  
   
-## See Also  
- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)   
- [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
+## See also  
+ [Visual Studio template schema reference](../extensibility/visual-studio-template-schema-reference.md)   
+ [Creating project and item templates](../ide/creating-project-and-item-templates.md)

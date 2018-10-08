@@ -2,7 +2,7 @@
 title: "Install and use Visual Studio and Azure Services behind a firewall or proxy server | Microsoft Docs"
 description: "Review the domain URLs, ports, and protocols that you might want to whitelist or open if your organization uses a firewall or a proxy server"
 ms.custom: ""
-ms.date: 02/12/2018
+ms.date: 07/10/2018
 ms.technology: vs-acquisition
 ms.prod: visual-studio-dev15
 ms.topic: conceptual
@@ -43,7 +43,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 | download.visualstudio.com | Setup packages download location |
 | dl.xamarin.com | Setup packages download location |
 | visualstudiogallery.msdn.microsoft.com | Visual Studio Extensions download location |
-| www.visualstudio.com | Documentation location |
+| visualstudio.microsoft.com | Documentation location |
 | docs.microsoft.com | Documentation location |
 | msdn.microsoft.com | Documentation location |
 | www.microsoft.com | Documentation location |
@@ -112,7 +112,8 @@ To make sure that you have access to everything you need when you use Visual Stu
 | Snapshot <br>Debugger | 1. go.microsoft.com <br>2. management.azure.com <br> 3. &#42;azurewebsites.net <br> 4. &#42;scm.azurewebsites.net<br>5. api.nuget.org/v3/index.json <br>6. msvsmon | 1. https <br>2. https  <br>3. http <br>4. https <br>5. https <br>6. Concord <br> | 1. 443<br> 2. 443<br>3. 80  <br>4. 443<br> 5. 443<br> 6. 4022 (Visual Studio version dependent) | 1. Query .json file for app service SKU size <br>2. Various Azure RM calls <br>3. Site warmup call via  <br>4. Customer's targeted App Service Kudu endpoint <br>5. Query Site Extension version published in nuget.org <br>6. Remote debugging channel |
 |Azure Stream Analytics <br><br>HDInsight | Management.azure.com |https|443 |Used to view, submit, run, and manage ASA jobs <br><br> Used to browse HDI clusters, and to submit, diagnose, and debug HDI jobs |
 | Azure Data Lake | &#42;.azuredatalakestore.net <br>&#42;.azuredatalakeanalytics.net | https | 443 | Used to compile, submit, view, diagnose, and debug  jobs; used to browse ADLS files; used to upload and download files |
-|Packaging Service | [account].visualstudio.com <br/> [account].*.visualstudio.com <br/> *.blob.core.windows.net <br/> registry.npmjs.org </br> nodejs.org <br/> dist.nuget.org <br/> nuget.org | https | 443 | The *.npmjs.org, *.nuget.org, and *.nodejs.org are only required for certain build task scenarios (for example: NuGet Tool Installer, Node Tool Installer) or if you intend to use public upstreams with your Feeds. The other three domains are required for core functionality of the Packaging service. |
+| Packaging Service | [account].visualstudio.com <br/> [account].*.visualstudio.com <br/> *.blob.core.windows.net <br/> registry.npmjs.org </br> nodejs.org <br/> dist.nuget.org <br/> nuget.org | https | 443 | The *.npmjs.org, *.nuget.org, and *.nodejs.org are only required for certain build task scenarios (for example: NuGet Tool Installer, Node Tool Installer) or if you intend to use public upstreams with your Feeds. The other three domains are required for core functionality of the Packaging service. |
+| Azure DevOps Services | *.vsassets.io <br/> static2.sharepointonline.com  |  |  | Used to connect with Azure DevOps Services |
 |||||||
 
 ## Troubleshoot network-related errors
@@ -121,15 +122,18 @@ Sometimes, you might run in to network- or proxy-related errors when you install
 
 ## Get support
 
-Here are a few more support options for you:
+We offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+Here are a few more support options:
+
+* Report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+* Share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
+* Track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
+* Use your [GitHub](https://github.com/) account to talk to us and other Visual Studio developers in the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).
 
 ## See also
 
-* [Troubleshooting network-related errors in Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
-* [Visual Studio Administrator Guide](visual-studio-administrator-guide.md)
-* [Install Visual Studio 2017](install-visual-studio.md)
+* [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
+* [Troubleshoot network-related errors in Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
+* [Visual Studio administrator guide](visual-studio-administrator-guide.md)
+

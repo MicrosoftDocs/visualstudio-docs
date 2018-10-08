@@ -123,7 +123,7 @@ The following procedure shows how to set the minimum operating system version in
 
 1.  Create a Windows application for the project to be published. From the **File** menu, click **New**, and then click **Project**.
 
-2.  In the **New Project** dialog box, in the **Visual Basic** node, select **Windows Classic Desktop** and then the **Windows Forms App** template. Name the project `VBWinApp`.
+2.  In the **New Project** dialog box, in the **Visual Basic** node, select **Windows Desktop** and then the **Windows Forms App** template. Name the project `VBWinApp`.
 3.  With the project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
 4.  In the **Project Designer**, go to the **Publish** page and set **Publishing location** to *C:\TEMP*.

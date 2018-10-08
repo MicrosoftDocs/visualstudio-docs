@@ -14,11 +14,11 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# Walkthrough: Using a Configuration File to Define a Data Source
+# Walkthrough: Using a configuration file to define a data source
 
-This walkthrough illustrates how to use a data source defined in an *app.config* file for unit testing. You will learn how to create an app.config file that defines a data source that can be used by the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class. Tasks presented in this walkthrough include the following:
+This walkthrough illustrates how to use a data source defined in an *app.config* file for unit testing. You will learn how to create an *app.config* file that defines a data source that can be used by the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute> class. Tasks presented in this walkthrough include the following:
 
-- Creating an app.config file.
+- Creating an *app.config* file.
 
 - Defining a custom configuration section.
 
@@ -40,21 +40,21 @@ To complete this walkthrough, you need:
 
 ## Add an app.config file to the project
 
-1. If your test project already has an app.config file, go to [Define a Custom Configuration Section](#DefineCustomConfigurationSection).
+1. If your test project already has an *app.config* file, go to [Define a custom configuration section](#define-a-custom-configuration-section).
 
-2. Right-click your test project in the **Solution Explorer**, and then select **Add** > **New Item**.
+2. Right-click your test project in **Solution Explorer**, and then select **Add** > **New Item**.
 
      The **Add New Item** window opens.
 
 3. Select the **Application Configuration File** template and click **Add**.
 
-##  <a name="DefineCustomConfigurationSection"></a> Define a Custom Configuration Section
+##  Define a custom configuration section
 
 Examine the *app.config* file. It contains at least the XML declaration and a root element.
 
 ### To add the custom configuration section to the app.config file
 
-1. The root element of app.config should be the **configuration** element. Create a **configSections** element within the **configuration** element. The **configSections** should be the first element in the *app.config* file.
+1. The root element of *app.config* should be the **configuration** element. Create a **configSections** element within the **configuration** element. The **configSections** should be the first element in the *app.config* file.
 
 2. Within the **configSections** element, create a **section** element.
 
@@ -62,14 +62,14 @@ Examine the *app.config* file. It contains at least the XML declaration and a ro
 
 The **section** element should look similar to this:
 
-```
+```xml
 <section name="microsoft.visualstudio.testtools" type="Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
 ```
 
 > [!NOTE]
 > The assembly name must match the Microsoft Visual Studio .NET Framework build that you are using. Set the Version to 9.0.0.0 if you are using the Visual Studio .NET Framework 3.5. If you are using the Visual Studio .NET Framework 2.0, set the Version to 8.0.0.0.
 
-## Define Connection Strings
+## Define connection strings
 
 The connection strings define provider-specific information for accessing data sources. Connection strings defined in configuration files provide reusable data provider information across an application. In this section, you create two connection strings that will be used by data sources that are defined in the Custom Configuration Section.
 
@@ -89,7 +89,7 @@ The connection strings define provider-specific information for accessing data s
 
 In the second **add** element, create the following attributes and values for a connection to a Microsoft Excel spreadsheet:
 
-|||
+|Attribute|Values|
 |-|-|
 |`name`|`"MyExcelConn"`|
 |`connectionString`|`"Dsn=Excel Files;dbq=data.xlsx;defaultdir=.\; driverid=790;maxbuffersize=2048;pagetimeout=5"`|
@@ -97,14 +97,14 @@ In the second **add** element, create the following attributes and values for a 
 
 The **connectionStrings** element should look similar to this:
 
-```
+```xml
 <connectionStrings>
     <add name="MyJetConn" connectionString="Provider=Microsoft.Jet.OLEDB.4.0; Data Source=C:\testdatasource.accdb; Persist Security Info=False;" providerName="System.Data.OleDb" />
     <add name="MyExcelConn" connectionString="Dsn=Excel Files;dbq=data.xlsx;defaultdir=.\; driverid=790;maxbuffersize=2048;pagetimeout=5" providerName="System.Data.Odbc" />
 </connectionStrings>
 ```
 
-## Define Data Sources
+## Define data sources
 
 The data sources section contains four attributes that are used by the test engine to retrieve data from a data source.
 
@@ -137,7 +137,7 @@ In this section, you'll define two data sources to use in a unit test.
 
 In the second **add** element, create the following attributes and values for a Microsoft Excel data source:
 
-|||
+|Attribute|Values|
 |-|-|
 |`Name`|`"MyExcelDataSource"`|
 |`connectionString`|`"MyExcelConn"`|
@@ -178,9 +178,9 @@ The final *app.config* file should look similar to this:
 
 ## Create a unit test that uses data sources defined in app.config
 
-Now that an app.config file has been defined, you will create a unit test that uses data located in the data sources that are defined in the app.config file. In this section, we will:
+Now that an *app.config* file has been defined, you will create a unit test that uses data located in the data sources that are defined in the *app.config* file. In this section, we will:
 
-- Create the data sources found in the app.config file.
+- Create the data sources found in the *app.config* file.
 
 - Use the data sources in two test methods that compare the values in each data source.
 
@@ -256,7 +256,7 @@ Now that an app.config file has been defined, you will create a unit test that u
     }
     ```
 
-3. Examine the DataSource attributes. Notice the setting names from the app.config file.
+3. Examine the DataSource attributes. Notice the setting names from the *app.config* file.
 
 4. Build your solution and run MyTestMethod and MyTestMethod2 tests.
 
@@ -265,5 +265,5 @@ Now that an app.config file has been defined, you will create a unit test that u
 
 ## See also
 
-- [Unit Test Your Code](../test/unit-test-your-code.md)
-- [How To: Create a Data-Driven Unit Test](../test/how-to-create-a-data-driven-unit-test.md)
+- [Unit test your code](../test/unit-test-your-code.md)
+- [How To: Create a data-driven unit test](../test/how-to-create-a-data-driven-unit-test.md)

@@ -1,16 +1,16 @@
 ---
-title: "Get started with unit testing in Visual Studio"
+title: Get started with unit testing
 ms.date: 05/02/2017
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
 helpviewer_keywords:
   - "unit testing, create unit test plans"
+author: gewarren
 ms.author: gewarren
 manager: douge
 ms.workload:
   - "multiple"
-author: gewarren
 ---
 # Get started with unit testing
 
@@ -50,7 +50,7 @@ You can also create unit test method stubs with the **Create Unit Tests** [comma
 
 ## Run unit tests
 
-1. Open Test Explorer.
+1. Open **Test Explorer**.
 
    ![On the Test menu, open Test Explorer](media/rununittest1.png)
 
@@ -58,7 +58,7 @@ You can also create unit test method stubs with the **Create Unit Tests** [comma
 
    ![Run unit tests in Test Explorer](media/rununittest2.png)
 
-   You can see the unit tests that passed or failed in Test Explorer.
+   You can see the unit tests that passed or failed in **Test Explorer**.
 
    ![Review unit test results in Test Explorer](media/rununittest3.png)
 
@@ -85,29 +85,27 @@ For more details, see [Live unit testing](../test/live-unit-testing-intro.md).
 
 ## Generate unit tests with IntelliTest
 
-When you run IntelliTest, you can easily see which tests are failing and add any necessary code to fix them. You can select which of the generated tests to save into a test project to provide a regression suite. As you change your code, rerun IntelliTest to keep the generated tests in sync with your code changes. To learn how, see [Generating unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md).
+When you run IntelliTest, you can easily see which tests are failing and add any necessary code to fix them. You can select which of the generated tests to save into a test project to provide a regression suite. As you change your code, rerun IntelliTest to keep the generated tests in sync with your code changes. To learn how, see [Generate unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md).
 
 ![Generating unit tests with IntelliTest](media/intellitest.png)
 
 ## Run unit tests with Test Explorer
 
-Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects, group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also debug tests and analyze test performance and code coverage. To learn how, see [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md).
+Use **Test Explorer** to run unit tests from Visual Studio or third-party unit test projects, group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also debug tests and analyze test performance and code coverage. To learn how, see [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md).
 
 ![Running unit tests with Test Explorer](media/testexplorer.png)
 
 ## Use code coverage to determine how much code is being tested
 
-To determine what proportion of your project's code is actually being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To guard effectively against bugs, your tests should exercise or 'cover' a large proportion of your code. To learn how, see [Use Code Coverage to Determine How Much Code is being Tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
-
-![Using code coverage to determine how much code is being tested](media/codecoverage.png)
+To determine what proportion of your project's code is actually being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To guard effectively against bugs, your tests should exercise a large proportion of your code. To learn how, see [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
 ## Use a different unit test framework
 
-You can run unit tests in Visual Studio by using third-party test frameworks such as Boost, Google, and nUnit. Use the plug-in for the framework so that Visual Studio's test runner can work with that framework.
+You can run unit tests in Visual Studio by using third-party test frameworks such as Boost, Google, and NUnit. Use the plug-in for the framework so that Visual Studio's test runner can work with that framework.
 
-Following are the steps to enable third-part test frameworks:
+Following are the steps to enable third-party test frameworks:
 
-1. Choose **Tools** > **Extensions and Updates...** from the menu bar.
+1. Choose **Tools** > **Extensions and Updates** from the menu bar.
 
 1. In the **Extensions and Updates** dialog box, expand the **Online** category and then **Visual Studio Marketplace**. Then, choose **Tools** > **Testing**.
 
@@ -115,11 +113,11 @@ Following are the steps to enable third-part test frameworks:
 
 1. Select the framework or adapter you want to install, and then choose **Download**.
 
-1. Create a class library project, and add it to your solution.
+1. Create a class library project and add it to your solution.
 
    ![Name the class library project and add it](media/create3rdpartyunittest3.png)
 
-1. Install the plug-in. In **Solution Explorer**, select the class library project, and then choose **Manage NuGet Packages...** from its right-click or context menu.
+1. Install the plug-in. In **Solution Explorer**, select the class library project, and then choose **Manage NuGet Packages** from its right-click or context menu.
 
    ![Manage NuGet packages to install the plug-in](media/create3rdpartyunittest3a.png)
 
@@ -134,7 +132,7 @@ Following are the steps to enable third-part test frameworks:
 
    ![The reference for the 3rd-party unit test framework is added into your solution](media/create3rdpartyunittest6.png)
 
-1. From the class library project's **References** node, select **Add Reference...**.
+1. From the class library project's **References** node, select **Add Reference**.
 
    ![Add a reference to the project](media/createunittest6.png)
 
@@ -152,4 +150,4 @@ Following are the steps to enable third-part test frameworks:
 * [Generate tests with IntelliTest](generate-unit-tests-for-your-code-with-intellitest.md)
 * [Run tests with Test Explorer](run-unit-tests-with-test-explorer.md)
 * [Determine code coverage](using-code-coverage-to-determine-how-much-code-is-being-tested.md)
-* [Improve Code Quality](improve-code-quality.md)
+* [Improve code quality](improve-code-quality.md)

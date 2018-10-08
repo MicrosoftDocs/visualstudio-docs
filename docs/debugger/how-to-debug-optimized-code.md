@@ -78,11 +78,11 @@ ms.workload:
   
  When you debug optimized code, use the **Disassembly** window to see what instructions are actually created and executed. When you set breakpoints, you need to know that the breakpoint might move together with an instruction. For example, consider the following code:  
   
-```  
+```cpp
 for (x=0; x<10; x++)  
 ```  
   
- Suppose you set a breakpoint at this line. You might expect the breakpoint to be hit 10 times, but if the code is optimized, the breakpoint is hit only one time. That is because the first instruction sets the value of `x` to 0. The compiler recognizes that this only has to be done once and moves it out of the loop. The breakpoint moves with it. The instructions that compare and increment `x` remain inside the loop. When you view the **Disassembly** window, the [step unit](http://msdn.microsoft.com/en-us/8791dac9-64d1-4bb9-b59e-8d59af1833f9) is automatically set to Instruction for greater control, which is useful when you step through optimized code.  
+ Suppose you set a breakpoint at this line. You might expect the breakpoint to be hit 10 times, but if the code is optimized, the breakpoint is hit only one time. That is because the first instruction sets the value of `x` to 0. The compiler recognizes that this only has to be done once and moves it out of the loop. The breakpoint moves with it. The instructions that compare and increment `x` remain inside the loop. When you view the **Disassembly** window, the [step unit](/previous-versions/visualstudio/visual-studio-2010/ek13f001(v=vs.100)) is automatically set to Instruction for greater control, which is useful when you step through optimized code.  
   
 ## See Also  
  [Debugger Security](../debugger/debugger-security.md)   

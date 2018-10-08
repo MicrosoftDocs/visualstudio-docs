@@ -11,9 +11,9 @@ manager: douge
 ms.workload:
   - "multiple"
 ---
-# How to: Edit XML Files
+# How to: Edit XML files
 
-The XML Editor is the new editor for XML files. It can be used on a stand-alone XML file, or on a file associated with a Visual Studio project. The XML Editor is associated with the following file extensions: .config, .dtd, .xml, .xsd, .xdr, .xsl, .xslt, and .vssettings. The XML Editor is also associated with any other file type that has no specific editor registered, and that contains XML or DTD content.
+The XML Editor is the new editor for XML files. It can be used on a stand-alone XML file, or on a file associated with a Visual Studio project. The XML Editor is associated with the following file extensions: *.config*, *.dtd*, *.xml*, *.xsd*, *.xdr*, *.xsl*, *.xslt*, and *.vssettings*. The XML Editor is also associated with any other file type that has no specific editor registered, and that contains XML or DTD content.
 
 > [!NOTE]
 > XHTML documents are handled by the HTML Editor.
@@ -62,8 +62,8 @@ The XML Editor is the new editor for XML files. It can be used on a stand-alone 
 
      The XML Editor finds the schemas you add to this project and uses them for validation and IntelliSense in any XML, schema, or XSLT files that you edit while this project is open.
 
-## See Also
+## See also
 
 - [XML Editor](../xml-tools/xml-editor.md)
-- [XML Document Properties, Properties Window](../xml-tools/xml-document-properties-properties-window.md)
-- [How to: Create an XML Schema from an XML Document](../xml-tools/how-to-create-an-xml-schema-from-an-xml-document.md)
+- [XML document properties, properties window](../xml-tools/xml-document-properties-properties-window.md)
+- [How to: Create an XML schema from an XML document](../xml-tools/how-to-create-an-xml-schema-from-an-xml-document.md)

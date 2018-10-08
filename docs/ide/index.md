@@ -73,7 +73,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
     </li>
 </ul>
 
-<h2>Experience Visual Studio with 5-minute "Quickstarts"</h2>
+## Experience Visual Studio with 5-minute "Quickstarts"
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -240,7 +240,7 @@ Tutorials, videos, and other documentation show you ways to create code and apps
     </li>
 </ul>
 
-<h2>Go deeper with tutorials</h2>
+## Go deeper with tutorials
 
 <!-- Converting to icon48 format, this gets cleaner in YAML -->
 <div class="ico48Case halfStack">
@@ -254,7 +254,7 @@ src="https://docs.microsoft.com/media/logos/logo_TS.svg"><span>TypeScript</span>
 
 <div class="ico48Link"><a href="/cpp/build/vscpp-step-0-installation"><img width="48" height="48" alt="C++ tutorial"
 src="https://docs.microsoft.com/media/logos/logo_Cplusplus.svg"><span>C++</span></a></div>
-<div class="ico48Link"><a href="/visualstudio/nodejs/tutorial-nodejs"><img width="48" height="48" alt="Node.js tutorial"
+<div class="ico48Link"><a href="/visualstudio/javascript/tutorial-nodejs"><img width="48" height="48" alt="Node.js tutorial"
 src="https://docs.microsoft.com/media/logos/logo_nodejs.svg"><span>Node.js</span></a></div>
 <div class="ico48Link"><a href="/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-01-create-project"><img width="48" height="48" alt="Python tutorial"
 src="https://docs.microsoft.com/media/logos/logo_Python.svg"><span>Python</span></a></div>

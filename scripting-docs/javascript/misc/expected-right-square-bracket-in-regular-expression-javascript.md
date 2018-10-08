@@ -33,4 +33,4 @@ You attempted to create a character class for a regular expression match, but di
   
 ## See Also  
  [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   
- [Regular Expression Syntax (JavaScript)](http://msdn.microsoft.com/en-us/ab0766e1-7037-45ed-aa23-706f58358c0e)
+ [Regular Expression Syntax (JavaScript)](https://msdn.microsoft.com/library/1400241x)

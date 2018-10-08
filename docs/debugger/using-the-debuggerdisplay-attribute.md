@@ -16,7 +16,7 @@ ms.workload:
   - "multiple"
 ---
 # Using the DebuggerDisplay Attribute
-The [DebuggerDisplayAttribute Class](/dotnet/api/system.diagnostics.debuggerdisplayattribute) controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies.  
+The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies.  
   
  The `DebuggerDisplay` attribute has a single argument, which is a string to be displayed in the value column for instances of the type. This string can contain braces (`{` and `}`). Text within a pair of braces is evaluated as a field, property or method.  
   
@@ -45,7 +45,7 @@ The [DebuggerDisplayAttribute Class](/dotnet/api/system.diagnostics.debuggerdisp
   
  To build autoexp.cs, open up a Developer Command Prompt for VS2015, and run the following commands  
   
-```  
+```cmd
 cd <directory containing autoexp.cs>  
 csc /t:library autoexp.cs  
 ```  
@@ -82,6 +82,7 @@ public sealed class MyClass
     }  
 }  
 ```  
+The ",nq" suffix tells the expression evaluator to remove the quotes when displaying the final value (nq = no quotes). 
   
 ## Example  
  The following code example shows how to use `DebuggerDisplay`, together with `DebuggerBrowseable` and `DebuggerTypeProxy`. When viewed in a debugger variables window, such as the **Watch** window, it produces an expansion that looks like this:  

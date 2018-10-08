@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Code Generation and T4 Text Templates
 
-In Visual Studio, a *T4 text template* is a mixture of text blocks and control logic that can generate a text file. The control logic is written as fragments of program code in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. In Visual Studio 2015 Update 2 and later, you can use C# version 6.0 features in T4 templates directives. The generated file can be text of any kind, such as a Web page, or a resource file, or program source code in any language.
+In Visual Studio, a *T4 text template* is a mixture of text blocks and control logic that can generate a text file. The control logic is written as fragments of program code in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. In Visual Studio 2015 Update 2 and later, you can use C# version 6.0 features in T4 templates directives. The generated file can be text of any kind, such as a web page, or a resource file, or program source code in any language.
 
 There are two kinds of T4 text templates: run time and design time.
 
@@ -52,7 +52,7 @@ For more information, see [Run-Time Text Generation with T4 Text Templates](../m
 
 ## Design time T4 text templates
 
-Design time tempaltes define part of the source code and other resources of your application. Typically you use several templates that read the data in a single input file or database, and generate some of your *.cs*, *.vb*, or other source files. Each template generates one file. They are executed within Visual Studio or MSBuild.
+Design time templates define part of the source code and other resources of your application. Typically you use several templates that read the data in a single input file or database, and generate some of your *.cs*, *.vb*, or other source files. Each template generates one file. They are executed within Visual Studio or MSBuild.
 
 For example, your input data could be an XML file of configuration data. Whenever you edit the XML file during development, the text templates regenerate part of the application code. One of the templates could resemble the following example:
 

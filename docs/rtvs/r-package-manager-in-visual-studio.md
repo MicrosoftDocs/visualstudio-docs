@@ -14,7 +14,7 @@ ms.workload:
 
 # Package manager
 
-The R Tools for Visual Studio (RTVS) package manager is a UI for managing the R packages. To open it, select **R Tools > Windows > Packages** or pressing Ctrl+7.
+The R Tools for Visual Studio (RTVS) package manager is a UI for managing the R packages. To open it, select **R Tools** > **Windows** > **Packages** or pressing **Ctrl**+**7**.
 
 The package manager has three tabs. Each tab displays a list of relevant packages on the left and specific details for the selected package on the right, including the package's version, description, license, install location, and links to other relevant information. The search box on the upper right lets you filter the list.
 
@@ -37,5 +37,5 @@ The package manager has three tabs. Each tab displays a list of relevant package
 
 Packages are installed in the following locations:
 
-- Core packages that are included with RTVS are installed in `C:\Program Files\Microsoft\R Client\R_SERVER\library`
-- Additional packages are installed to `%userprofile%\Documents\R\win-library\3.3`
+- Core packages that are included with RTVS are installed in *C:\Program Files\Microsoft\R Client\R_SERVER\library*
+- Additional packages are installed to *%userprofile%\Documents\R\win-library\3.3*

@@ -11,13 +11,13 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# How to: Set Performance Data File Name Options
+# How to: Set performance data file name options
 
-By default, you save a profiling data (.vsp) file by using the following syntax:
+By default, you save a profiling data (.*vsp*) file by using the following syntax:
 
 *Path\VSP-File\YYMMDD(N)* **.vsp**
 
-You can change any naming parameter on the General page of the properties dialog box for the performance session.
+You can change any naming parameter on the **General** page of the properties dialog box for the performance session.
 
 |||
 |-|-|

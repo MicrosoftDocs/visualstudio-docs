@@ -22,12 +22,12 @@ The **WriteLine** activity designer is used to create and configure a <xref:Syst
 The <xref:System.Activities.Statements.WriteLine> activity writes text to a specified <xref:System.IO.TextWriter> object. If no <xref:System.IO.TextWriter> is specified, <xref:System.Activities.Statements.WriteLine> writes the text to the console.
 
 ### Using the WriteLine Activity Designer
- The **WriteLine** activity designer can be found in the **Primitives** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab of the Workflow Designer (Alternatively, select **Toolbar** from the **View** menu, or CTRL+ALT+X.)
 
- The **WriteLine** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.WriteLine> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of WriteLine. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **WriteLine** activity designer or in the **DisplayName** box of the property grid.
+Access the **WriteLine** activity designer in the **Primitives** category of the **Toolbox**. The **WriteLine** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. This creates a <xref:System.Activities.Statements.WriteLine> activity with a default <xref:System.Activities.Activity.DisplayName%2A> of WriteLine. The <xref:System.Activities.Activity.DisplayName%2A> can be edited in the header of the **WriteLine** activity designer or in the **DisplayName** box of the property grid.
 
 ### The WriteLine Properties
- The following table shows the <xref:System.Activities.Statements.WriteLine> properties and describes how they are used in the designer. These properties can be edited in property grid and some of them can be edited on Workflow Designerdesigner surface.
+
+The following table shows the <xref:System.Activities.Statements.WriteLine> properties and describes how they are used in the designer. These properties can be edited in property grid and some of them can be edited on Workflow Designer surface.
 
 |Property Name|Required|Usage|
 |-------------------|--------------|-----------|

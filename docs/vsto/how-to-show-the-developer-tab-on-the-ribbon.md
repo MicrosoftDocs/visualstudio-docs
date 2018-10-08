@@ -1,5 +1,5 @@
 ---
-title: "How to: Show the Developer Tab on the Ribbon | Microsoft Docs"
+title: "How to: Show the Developer tab on the ribbon"
 ms.custom: ""
 ms.date: "02/02/2017"
 ms.technology: 
@@ -17,18 +17,18 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# How to: Show the Developer Tab on the Ribbon
+# How to: Show the Developer tab on the ribbon
   To access the **Developer** tab on the ribbon of an Office application, you must configure it to show that tab because it doesn't appear by default. For example, you must show that tab if you want to add a <xref:Microsoft.Office.Tools.Word.GroupContentControl> to a document-level customization for Word.  
   
 > [!NOTE]  
->  This guidance applies to Office 2010 or later applications only. If you want to show this tab in the 2007 Microsoft Office System, see the following version of this topic [How to: Show the Developer Tab on the Ribbon](http://msdn.microsoft.com/library/bb608625(v=vs.90).aspx).  
+>  This guidance applies to Office 2010 or later applications only. If you want to show this tab in the 2007 Microsoft Office System, see the following version of this topic [How to: Show the Developer tab on the ribbon](http://msdn.microsoft.com/library/bb608625(v=vs.90).aspx).  
   
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]  
   
 > [!NOTE]  
 >  Access doesn't have a **Developer** tab.  
   
-### To show the Developer tab  
+## To show the Developer tab  
   
 1.  Start any of the Office applications supported by this topic. See the **Applies to:** note earlier in this topic.  
   
@@ -46,7 +46,7 @@ ms.workload:
   
      ![The Options button in Outlook 2013 Preview](../vsto/media/vsto-office2013-optionsbutton.png "The Options button in Outlook 2013 Preview")  
   
-3.  In the *ApplicationName***Options** dialog box, choose the **Customize Ribbon** button.  
+3.  In the _ApplicationName_**Options** dialog box, choose the **Customize Ribbon** button.  
   
      The following figure shows the **Options** dialog box and the **Customize Ribbon** button in Excel 2010. The location of this button is similar in all other applications listed in the "Applies to" section near the top of this topic.  
   
@@ -60,7 +60,7 @@ ms.workload:
   
 5.  Choose the **OK** button to close the **Options** dialog box.  
   
-## See Also  
- [Office UI Customization](../vsto/office-ui-customization.md)  
+## See also  
+ [Office UI customization](../vsto/office-ui-customization.md)  
   
   

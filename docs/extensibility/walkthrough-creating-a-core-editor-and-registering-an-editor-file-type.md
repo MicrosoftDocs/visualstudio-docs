@@ -14,32 +14,32 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Walkthrough: Creating a Core Editor and Registering an Editor File Type
-This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor when a file that has the .myext file name extension is loaded.  
+# Walkthrough: Create a core editor and registering an editor file type
+This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor when a file with the *.myext* file name extension is loaded.  
   
 ## Prerequisites  
  To follow this walkthrough, you must install the Visual Studio SDK. For more information, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).  
   
-## Locations for the Visual Studio Package Project template  
+## Locations for the Visual Studio Package project template  
  The Visual Studio Package project template can be found in three different locations in the **New Project** dialog:  
   
-1.  Under Visual Basic Extensibility. The default language of the project is Visual Basic.  
+1.  Under **Visual Basic Extensibility**. The default language of the project is Visual Basic.  
   
-2.  Under C# Extensibility. The default language of the project is C#.  
+2.  Under **C# Extensibility**. The default language of the project is C#.  
   
-3.  Under Other Project Types Extensibility. The default language of the project is C++.  
+3.  Under **Other Project Types Extensibility**. The default language of the project is C++.  
   
 ### To create the VSPackage  
   
--   Start [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and create a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] VSPackage named `MyPackage`, as outlined in [Walkthrough: Creating a Menu Command VSPackage](http://msdn.microsoft.com/en-us/d699c149-5d1e-47ff-94c7-e1222af02c32).  
+-   Start [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and create a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] VSPackage named `MyPackage`, as outlined in [Walkthrough: Create a menu command VSPackage](https://msdn.microsoft.com/library/d699c149-5d1e-47ff-94c7-e1222af02c32).  
   
 ### To add the editor factory  
   
-1.  Right-click the **MyPackage** project, point to **Add** and then click **Class**.  
+1.  Right-click the **MyPackage** project, point to **Add**, and then click **Class**.  
   
 2.  In the **Add New Item** dialog box, make sure the **Class** template is selected, type `EditorFactory.cs` for the name, and then click **Add** to add the class to your project.  
   
-     The EditorFactory.cs file should be automatically opened.  
+     The *EditorFactory.cs* file should automatically open.  
   
 3.  Reference the following assemblies from your code.  
   
@@ -66,7 +66,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 4.  Add a GUID to the `EditorFactory` class by adding the `Guid` attribute immediately before the class declaration.  
   
-     You can generate a new GUID by using the guidgen.exe program at the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt, or by clicking **Create GUID** on the **Tools** menu. The GUID used here is only an example; do not use it in your project.  
+     You can generate a new GUID by using the *guidgen.exe* program at the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command prompt, or by clicking **Create GUID** on the **Tools** menu. The GUID used here is only an example; do not use it in your project.  
   
     ```vb  
     <Guid("0eea3187-c5fa-48d4-aa72-b5eecd3b17b1")> _  
@@ -121,7 +121,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 8.  Right-click <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory>, click **Implement Interface**, and then click **Implement Interface Explicitly**.  
   
-     This adds the four methods that must be implemented in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.  
+     This step adds the four methods that must be implemented in the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.  
   
 9. Replace the contents of the `IVsEditorFactory.Close` method with the following code.  
   
@@ -315,18 +315,18 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 ### To register the editor factory  
   
-1.  In **Solution Explorer**, double-click the Resources.resx file to open it to the string table, in which the entry **String1 is** selected.  
+1.  In **Solution Explorer**, double-click the **Resources.resx** file to open it to the string table, in which the entry **String1 is** selected.  
   
-2.  Change the name of the identifier to `IDS_EDITORNAME` and the text to **MyPackage Editor.** This string will appear as the name of your editor.  
+2.  Change the name of the identifier to `IDS_EDITORNAME` and the text to **MyPackage Editor.** This string appears as the name of your editor.  
   
-3.  Open the VSPackage.resx file and add a new string, set the name to **101** and the value to `IDS_EDITORNAME`. This provides the package with a resource ID to access the string you just created.  
+3.  Open the **VSPackage.resx** file, add a new string, set the name to **101**, and set the value to `IDS_EDITORNAME`. This step provides the package with a resource ID to access the string you created.  
   
     > [!NOTE]
-    >  If the VSPackage.resx file contains another string that the `name` attribute set to **101**, substitute another unique, numeric value, here and in the following steps.  
+    >  If the **VSPackage.resx** file contains another string that the `name` attribute set to **101**, substitute another unique, numeric value, here and in the following steps.  
   
-4.  In **Solution Explorer**, open the MyPackagePackage.cs file.  
+4.  In **Solution Explorer**, open the **MyPackagePackage.cs** file.  
   
-     This is the main package file.  
+     This file is the main package file.  
   
 5.  Add the following user attributes just before the `Guid` attribute.  
   
@@ -342,7 +342,7 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
           ".myext", 32, NameResourceID = 101)]   
     ```  
   
-     The <xref:Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute> attribute associates the .myext file extension with your editor factory so that any time a file that has that extension is loaded, your editor factory is invoked.  
+     The <xref:Microsoft.VisualStudio.Shell.ProvideEditorExtensionAttribute> attribute associates the *.myext* file extension with your editor factory so that any time a file that has that extension is loaded, your editor factory is invoked.  
   
 6.  Add a private variable to the `MyPackage` class, just before the constructor, and give it the type `EditorFactory`.  
   
@@ -371,25 +371,25 @@ This walkthrough demonstrates how to create a VSPackage that starts the [!INCLUD
   
 8.  Compile the program and make sure there are no errors.  
   
-     This step registers the editor factory in the experimental registry hive for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. If you are prompted to override the resource.h file, click **OK**.  
+     This step registers the editor factory in the experimental registry hive for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. If you are prompted to override the *resource.h* file, click **OK**.  
   
-9. Create a sample file named TextFile1.myext.  
+9. Create a sample file named *TextFile1.myext*.  
   
 10. Press **F5** to open an instance of the experimental [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  
   
 11. In the experimental [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], on the **File** menu, point to **Open** and then click **File**.  
   
-12. Find TextFile1.myext and then click **Open**.  
+12. Find **TextFile1.myext** and then click **Open**.  
   
-     The file should now be loaded.  
+     The file should now load.  
   
-## Robust Programming  
- The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor handles a wide range of text-based file types and works closely with language services to provide a rich set of features such as syntax highlighting, brace matching, and IntelliSense word-completion and member-completion lists. If you are working with text-based files, then you can use the core editor together with a custom language service that supports your specific file types.  
+## Robust programming  
+ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor handles a wide range of text-based file types and works closely with language services to provide a rich set of features such as syntax highlighting, brace matching, and IntelliSense word-completion, and member-completion lists. If you are working with text-based files, you can use the core editor together with a custom language service that supports your specific file types.  
   
- A VSPackage can invoke the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor by supplying an editor factory. This editor factory is used any time a file that is associated with it is loaded. If the file is part of a project, then the core editor is automatically invoked unless overridden by your VSPackage. However, if the file is loaded outside of a project, then the core editor must be explicitly invoked by your VSPackage.  
+ A VSPackage can invoke the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core editor by supplying an editor factory. This editor factory is used any time a file that's associated with it is loaded. If the file is part of a project, the core editor is automatically invoked unless overridden by your VSPackage. However, if the file is loaded outside of a project, the core editor must be explicitly invoked by your VSPackage.  
   
- For more information about the core editor, see [Inside the Core Editor](../extensibility/inside-the-core-editor.md).  
+ For more information about the core editor, see [Inside the core editor](../extensibility/inside-the-core-editor.md).  
   
-## See Also  
- [Inside the Core Editor](../extensibility/inside-the-core-editor.md)   
- [Instantiating the Core Editor By Using the Legacy API](../extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md)
+## See also  
+ [Inside the core editor](../extensibility/inside-the-core-editor.md)   
+ [Instantiate the core editor by using the legacy API](../extensibility/instantiating-the-core-editor-by-using-the-legacy-api.md)

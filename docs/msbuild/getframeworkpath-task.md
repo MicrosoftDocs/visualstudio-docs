@@ -21,10 +21,10 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# GetFrameworkPath Task
+# GetFrameworkPath task
 Retrieves the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] assemblies.  
   
-## Task Parameters  
+## Task parameters  
  The following table describes the parameters of the `GetFrameworkPath` task.  
   
 |Parameter|Description|  
@@ -39,7 +39,7 @@ Retrieves the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdn
 ## Remarks  
  If several versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] are installed, this task returns the version that [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] is designed to run on.  
   
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension Base Class](../msbuild/taskextension-base-class.md).  
+ In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).  
   
 ## Example  
  The following example uses the `GetFrameworkPath` task to store the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] in the `FrameworkPath` property.  
@@ -56,6 +56,6 @@ Retrieves the path to the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdn
 </Project>  
 ```  
   
-## See Also  
+## See also  
  [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)
+ [Task reference](../msbuild/msbuild-task-reference.md)

@@ -22,11 +22,11 @@ Enables mip-maps on textures that are not render targets.
  If this variant shows a significant performance gain, it indicates that you are using textures without enabling mip-maps and thereby not getting the most from the texture cache.  
   
 ## Remarks  
- Mip-map generation is forced on every call to `ID3D11Device::CreateTexture2D` that creates a source texture. Specifically, mip-map generation is forced when the D3D11_TEXTUR2D_DESC object passed in `pDesc` describes an unchanging shader resource; that is:  
+ Mip-map generation is forced on every call to `ID3D11Device::CreateTexture2D` that creates a source texture. Specifically, mip-map generation is forced when the D3D11_TEXTURE2D_DESC object passed in `pDesc` describes an unchanging shader resource; that is:  
   
 -   The BindFlags member has only the D3D11_BIND_SHADER_RESOURCE flag set.  
   
--   The Usage member is set to either D3D11_USAGE_DEFUALT or D3D11_USAGE_IMMUTABLE.  
+-   The Usage member is set to either D3D11_USAGE_DEFAULT or D3D11_USAGE_IMMUTABLE.  
   
 -   The CPUAccessFlags member is set to 0 (no CPU access).  
   
@@ -41,7 +41,7 @@ Enables mip-maps on textures that are not render targets.
 ## Example  
  The **Mip-map Generation** variant can be reproduced by using code like this:  
   
-```  
+```cpp
 D3D11_TEXTURE2D_DESC texture_description;  
   
 // ...  

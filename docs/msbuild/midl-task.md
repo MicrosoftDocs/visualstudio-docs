@@ -29,11 +29,11 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# MIDL Task
-Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe. For more information, see "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+# MIDL task
+Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.exe*. For more information, see [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 ## Parameters  
- The following table describes the parameters of the **MIDL** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.  
+ The following describes the parameters of the **MIDL** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.  
   
 -   **AdditionalIncludeDirectories**  
   
@@ -41,15 +41,15 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      Adds a directory to the list of directories that are searched for imported IDL files, included header files, and application configuration files (ACF).  
   
-     For more information, see the **/I** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/I** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **AdditionalOptions**  
   
      Optional **String** parameter.  
   
-     A list of command-line options. For example, **"***/option1 /option2 /option#*". Use this parameter to specify command-line options that are not represented by any other MIDL task parameter.  
+     A list of command-line options. For example, /\<option1> /\<option2> /\<option#>. Use this parameter to specify command-line options that are not represented by any other MIDL task parameter.  
   
-     For more information, see "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **ApplicationConfigurationMode**  
   
@@ -57,7 +57,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      If `true`, lets you use some ACF keywords in the IDL file.  
   
-     For more information, see the **/app_config** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/app_config** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **ClientStubFile**  
   
@@ -65,7 +65,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      Specifies the name of the client stub file for an RPC interface.  
   
-     For more information, see the **/cstub** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site. Also see the **ServerStubFile** parameter in this table.  
+     For more information, see the **/cstub** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference). Also see the **ServerStubFile** parameter in this table.  
   
 -   **CPreprocessOptions**  
   
@@ -73,7 +73,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      Specifies options to pass to the C/C++ preprocessor. Specify a space-delimited list of preprocessor options.  
   
-     For more information, see the **/cpp_opt** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/cpp_opt** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **DefaultCharType**  
   
@@ -89,7 +89,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
     |**Unsigned**|**/char unsigned**|  
     |**Ascii**|**/char ascii7**|  
   
-     For more information, see the **/char** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/char** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **DllDataFileName**  
   
@@ -97,7 +97,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      Specifies the file name for the generated *dlldata* file for a proxy DLL.  
   
-     For more information, see the **/dlldata** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/dlldata** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **EnableErrorChecks**  
   
@@ -113,7 +113,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
     |**EnableCustom**|**/error**|  
     |**All**|**/error all**|  
   
-     For more information, see the **/error** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/error** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **ErrorCheckAllocations**  
   
@@ -121,7 +121,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      If `true`, check for out-of-memory errors.  
   
-     For more information, see the **/error allocation** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/error allocation** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **ErrorCheckBounds**  
   
@@ -129,7 +129,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      If `true`, checks the size of conformant-varying and varying arrays against the transmission length specification.  
   
-     For more information, see the **/error bounds_check** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/error bounds_check** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **ErrorCheckEnumRange**  
   
@@ -137,7 +137,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      If `true`, checks that enum values are in an allowable range.  
   
-     For more information, see the **/error enum** option in command-line help (**/?**) for midl.exe.  
+     For more information, see the **/error enum** option in command-line help (**/?**) for *midl.exe*.  
   
 -   **ErrorCheckRefPointers**  
   
@@ -145,7 +145,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      If `true`, check that no null reference pointers are passed to client stubs.  
   
-     For more information, see the **/error ref** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/error ref** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **ErrorCheckStubData**  
   
@@ -153,7 +153,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      If `true`, generates a stub that catches unmarshaling exceptions on the server side and propagates them back to the client.  
   
-     For more information, see the **/error stub_data** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/error stub_data** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **GenerateClientFiles**  
   
@@ -168,7 +168,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
     |**None**|**/client none**|  
     |**Stub**|**/client stub**|  
   
-     For more information, see the **/client** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/client** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **GenerateServerFiles**  
   
@@ -183,7 +183,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
     |**None**|**/server none**|  
     |**Stub**|**/server stub**|  
   
-     For more information, see the **/server** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/server** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **GenerateStublessProxies**  
   
@@ -191,15 +191,15 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      If `true`, generates fully interpreted stubs together with stubless proxies for object interfaces.  
   
-     For more information, see the **/Oicf** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/Oicf** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **GenerateTypeLibrary**  
   
      Optional **Boolean** parameter.  
   
-     If `true`, a type library (.tlb) file is not generated.  
+     If `true`, a type library (*.tlb*) file is not generated.  
   
-     For more information, see the **/notlb** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/notlb** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **HeaderFileName**  
   
@@ -207,7 +207,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      Specifies the name of the generated header file.  
   
-     For more information, see the **/h** or **/header** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/h** or **/header** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **IgnoreStandardIncludePath**  
   
@@ -215,7 +215,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      If `true`, the MIDL task searches only the directories specified by using the **AdditionalIncludeDirectories** switch, and ignores the current directory and the directories specified by the INCLUDE environment variable.  
   
-     For more information, see the **/no_def_idir** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/no_def_idir** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **InterfaceIdentifierFileName**  
   
@@ -223,7 +223,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      Specifies the name of the *interface identifier file* for a COM interface. This overrides the default name obtained by adding "_i.c" to the IDL file name.  
   
-     For more information, see the **/iid** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/iid** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **LocaleID**  
   
@@ -231,15 +231,15 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      Specifies the *locale identifier* that enables the use of international characters in input files, file names, and directory paths. Specify a decimal locale identifier.  
   
-     For more information, see the **/lcid** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site. Also see "Locale IDs Assigned by Microsoft" at MSDN.  
+     For more information, see the **/lcid** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference). Also see [Locale identifiers](https://docs.microsoft.com/en-us/windows/desktop/intl/locale-identifiers).  
   
 -   **MkTypLibCompatible**  
   
      Optional **Boolean** parameter.  
   
-     If `true`, requires the format of the input file to be compatible with mktyplib.exe version 2.03.  
+     If `true`, requires the format of the input file to be compatible with *mktyplib.exe* version 2.03.  
   
-     For more information, see the **/mktyplib203** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site. Also, see "ODL File Syntax" on the MSDN Web site.  
+     For more information, see the **/mktyplib203** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference). Also, see [ODL file syntax](/previous-versions/windows/desktop/automat/odl-file-syntax) on the MSDN website.  
   
 -   **OutputDirectory**  
   
@@ -247,7 +247,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      Specifies the default directory where the MIDL task writes output files.  
   
-     For more information, see the **/out** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/out** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **PreprocessorDefinitions**  
   
@@ -255,7 +255,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      Specifies one or more *defines*; that is, a name and an optional value to be passed to the C preprocessor as if by a `#define` directive. The form of each define is, *name[=value]*.  
   
-     For more information, see the **/D** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site. Also, see the **UndefinePreprocessorDefinitions** parameter in this table.  
+     For more information, see the **/D** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference). Also, see the **UndefinePreprocessorDefinitions** parameter in this table.  
   
 -   **ProxyFileName**  
   
@@ -263,7 +263,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      Specifies the name of the interface proxy file for a COM interface.  
   
-     For more information, see the **/proxy** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/proxy** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **RedirectOutputAndErrors**  
   
@@ -271,7 +271,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      Redirects output, such as error messages and warnings, from standard output to the specified file.  
   
-     For more information, see the **/o** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/o** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **ServerStubFile**  
   
@@ -279,7 +279,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      Specifies the name of the server stub file for an RPC interface.  
   
-     For more information, see the **/sstub** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site. Also, see the **ClientStubFile** parameter in this table.  
+     For more information, see the **/sstub** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference). Also, see the **ClientStubFile** parameter in this table.  
   
 -   **Source**  
   
@@ -303,7 +303,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
     |**4**|**/Zp4**|  
     |**8**|**/Zp8**|  
   
-     For more information, see the **/Zp** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site. The **/Zp** option is equivalent to the **/pack** option and the older **/align** option.  
+     For more information, see the **/Zp** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference). The **/Zp** option is equivalent to the **/pack** option and the older **/align** option.  
   
 -   **SuppressCompilerWarnings**  
   
@@ -311,7 +311,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      If `true`, suppresses warning messages from the MIDL task.  
   
-     For more information, see the **/no_warn** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/no_warn** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **SuppressStartupBanner**  
   
@@ -319,7 +319,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      If `true`, prevents the display of the copyright and version number message when the task starts.  
   
-     For more information, see the **/nologo** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/nologo** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **TargetEnvironment**  
   
@@ -336,7 +336,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
     |**Itanium**|**/env ia64**|  
     |**X64**|**/env x64**|  
   
-     For more information, see the **/env** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/env** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **TrackerLogDirectory**  
   
@@ -357,7 +357,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
     |**NewFormat**|**/newtlb**|  
     |**OldFormat**|**/oldtlb**|  
   
-     For more information, see the **/newtlb** and **/oldtlb** options in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/newtlb** and **/oldtlb** options in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **TypeLibraryName**  
   
@@ -365,7 +365,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      Specifies the name of the type library file.  
   
-     For more information, see the **/tlb** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/tlb** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **UndefinePreprocessorDefinitions**  
   
@@ -373,7 +373,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      Removes any previous definition of a name by passing the name to the C preprocessor as if by a `#undefine` directive. Specify one or more previously defined names.  
   
-     For more information, see the **/U** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site. Also, see the **PreprocessorDefinitions** parameter in this table.  
+     For more information, see the **/U** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference). Also, see the **PreprocessorDefinitions** parameter in this table.  
   
 -   **ValidateAllParameters**  
   
@@ -381,7 +381,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      If `true`, generates additional error-checking information that is used to perform integrity checks at run time. If `false`, the error-checking information is not generated.  
   
-     For more information, see the **/robust** and **/no_robust** options in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+     For more information, see the **/robust** and **/no_robust** options in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference).  
   
 -   **WarnAsError**  
   
@@ -391,7 +391,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
   
      If the **WarningLevel** MIDL task parameter is not specified, warnings at the default level, level 1, are treated as errors.  
   
-     For more information, see the **/WX** options in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site. Also, see the **WarningLevel** parameter in this table.  
+     For more information, see the **/WX** options in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference). Also, see the **WarningLevel** parameter in this table.  
   
 -   **WarningLevel**  
   
@@ -409,9 +409,7 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe
     |**3**|**/W3**|  
     |**4**|**/W4**|  
   
-     For more information, see the **/W** option in "MIDL Command-Line Reference" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site. Also, see the **WarnAsError** parameter in this table.  
+     For more information, see the **/W** option in [MIDL command-line reference](https://docs.microsoft.com/en-us/windows/desktop/Midl/midl-command-line-reference). Also, see the **WarnAsError** parameter in this table.  
   
-## Remarks  
-  
-## See Also  
- [Task Reference](../msbuild/msbuild-task-reference.md)
+## See also  
+ [Task reference](../msbuild/msbuild-task-reference.md)

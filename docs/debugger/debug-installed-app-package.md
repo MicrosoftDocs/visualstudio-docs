@@ -31,7 +31,7 @@ You can debug any installed app package by clicking **Debug > Other Debug Target
 * HoloLens
 * IoT
 
-For more information about these features, see the blog post on updates for [debugging installed app packages](https://blogs.msdn.microsoft.com/visualstudioalm/2016/03/30/updates-for-debugging-installed-app-packages-in-visual-studio-2015-update-2/) and the post on [building Universal Windows Apps (UWP)](https://blogs.msdn.microsoft.com/visualstudio/2016/08/02/universal-windows-apps-targeting-windows-10-anniversary-sdk/).
+For more information about these features, see the blog post on updates for [debugging installed app packages](https://blogs.msdn.microsoft.com/devops/2016/03/30/updates-for-debugging-installed-app-packages-in-visual-studio-2015-update-2/) and the post on [building Universal Windows Apps (UWP)](https://blogs.msdn.microsoft.com/visualstudio/2016/08/02/universal-windows-apps-targeting-windows-10-anniversary-sdk/).
 
 ## Debug an Installed App Package or Running App on a Local Machine or Device
 
@@ -85,7 +85,7 @@ When you debug an installed app package on a remote computer for the first time,
      > [!NOTE]
 > At present, an XBox or HoloLens device will restart the app with the debugger attached if it is already running.
 
-For information on advanced options for remote deployment of UWP apps, see [Deploying and debugging UWP apps](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps.md#advanced-remote-deployment-options). 
+For information on advanced options for remote deployment of UWP apps, see [Deploying and debugging UWP apps]((/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options). 
   
 ## See Also  
  [Debugging in Visual Studio](../debugger/index.md)  

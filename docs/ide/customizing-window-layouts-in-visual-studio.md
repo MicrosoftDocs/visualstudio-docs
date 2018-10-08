@@ -89,23 +89,23 @@ To return a tool window or document window to its most recent docked location, p
 
 The following illustration shows the guide diamond for document windows, which can only be docked within the editing frame:
 
-![Document window guide diamond](../ide/media/documentwindowguidediamonds.png "Documentwindowguidediamonds")
+![Document window guide diamond](../ide/media/documentwindowguidediamonds.png)
 
 Tool windows can be fastened to one side of a frame in the IDE or within the editing frame. A guide diamond appears when you drag a tool window to another location to help you to easily re-dock the window.
 
 Guide diamond for tool windows
 
-![Tool Window Guide Diamonds](../ide/media/vs10guidediamond.png "VS10GuideDiamond")
+![Tool Window Guide Diamonds](../ide/media/vs10guidediamond.png)
 
 The following illustration shows **Solution Explorer** being docked in a new location, which is shown by the blue shaded area:
 
-![Docking Solution Explorer in a new position](../ide/media/vs2015_dock_diamond.png "VS2017_Dock_diamond")
+![Docking Solution Explorer in a new position](../ide/media/vs2015_dock_diamond.png)
 
 ### Close and auto-hide tool windows
 
 You can close a tool window by clicking the **X** in the upper right of the title bar; to reopen the window, use its keyboard shortcut or menu command. Tool windows support a feature named *auto hide*, which causes a window to slide out of the way when you use a different window. When a window is auto-hidden, its name appears on a tab at the edge of the IDE. To use the window again, point to the tab so that the window slides back into view.
 
-![Auto hide](../ide/media/vs2015_auto_hide.png "vs2017_auto_hide")
+![Auto hide](../ide/media/vs2015_auto_hide.png)
 
 > [!NOTE]
 > To set whether auto hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool windows only** in the **Options** dialog box. For more information, see [General, Environment, Options dialog box](../ide/reference/general-environment-options-dialog-box.md).
@@ -162,7 +162,7 @@ First, create a test solution that has two projects, each with a different optim
 
 To switch between layouts, use the keyboard shortcuts, or from the main menu choose **Window** > **Apply Window Layout**.
 
-![Apply window layout menu](../ide/media/vs2015_applywindowlayout.png "VS2017_ApplyWindowLayout")
+![Apply window layout menu](../ide/media/vs2015_applywindowlayout.png)
 
 After applying the UI layout, note how the layout is preserved both in editing mode and in debug mode.
 
@@ -175,7 +175,7 @@ If you have a multi monitor setup at work and a single monitor laptop at home, y
 
 You can remove, rename or reorder your custom layout by choosing **Window** > **Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The bindings cannot be otherwise modified, and so you can store a maximum of 10 layouts at a time.
 
-![Manage window layouts](../ide/media/managewindowlayouts.png "ManageWindowLayouts")
+![Manage window layouts](../ide/media/managewindowlayouts.png)
 
 To remind yourself which keyboard shortcut is assigned to which layout, choose **Window** > **Apply Window Layout**.
 

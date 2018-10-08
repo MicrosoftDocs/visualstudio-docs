@@ -17,32 +17,32 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Import a Custom Master Page and Site Page with an Image
+# Walkthrough: Import a custom master page and site page with an image
   This walkthrough demonstrates how to import a SharePoint custom master page and a site page that has an image into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project.  
   
  This walkthrough shows how to accomplish the following tasks:  
   
 -   Create a custom master page and a site page by using an image in SharePoint Designer.  
   
--   Export a custom master page, image, and site page to a SharePoint solution (.wsp) file.  
+-   Export a custom master page, image, and site page to a SharePoint solution (*.wsp*) file.  
   
--   Import and deploy the .wsp file into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project by using the Import SharePoint Solution Package project.  
+-   Import and deploy the *.wsp* file into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project by using the Import SharePoint Solution Package project.  
   
  [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]  
   
 ## Prerequisites  
  You must have the following components to complete this walkthrough:  
   
--   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.  
   
 -   Visual Studio.  
   
 -   SharePoint Designer 2010.  
   
-## Create Items in SharePoint Designer  
+## Create items in SharePoint Designer
  This example shows how to create three items in SharePoint Designer for export: a custom master page, a site page that references the custom master page, and an image file to appear on the site page. The image is added to the /images/ folder in SharePoint.  
   
-#### To create a custom master page in SharePoint Designer  
+#### To create a custom master page in SharePoint Designer
   
 1.  In SharePoint Designer, in the Navigation pane, choose the **Master Pages** site object.  
   
@@ -54,7 +54,7 @@ ms.workload:
   
 5.  Replace the existing markup with the following markup.  
   
-    ```  
+    ```aspx-csharp  
     <%@ Master Language="C#" %>  
     <%@ Register tagprefix="SharePoint" namespace="Microsoft.SharePoint.WebControls" assembly="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>  
     <html dir="ltr">  
@@ -75,10 +75,10 @@ ms.workload:
   
 6.  Save the page, choose the **Master Pages** tab, and rename the master page as **mybasic1.master**.  
   
-## Add an Image to the Content Database in SharePoint Designer  
+## Add an image to the content database in SharePoint Designer
  Now you can add an image to display on the site page. The image is deployed to the SharePoint content database.  
   
-#### To add an image to the content database in SharePoint Designer  
+#### To add an image to the content database in SharePoint Designer
   
 1.  In the Navigation pane, choose the **All Files** site object, and then, in the tree view, choose the **images** folder.  
   
@@ -88,7 +88,7 @@ ms.workload:
   
 3.  Close the **Import** dialog box.  
   
-## Create a Site page  
+## Create a site page
  This basic site page uses the custom master page and displays the image that you added in the previous step.  
   
 #### To create a site page  
@@ -107,7 +107,7 @@ ms.workload:
   
 5.  Replace the existing markup with the following markup.  
   
-    ```  
+    ```aspx-csharp  
     <%@ Import Namespace="Microsoft.SharePoint.ApplicationPages" %>  
     <%@ Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>  
     <%@ Register Tagprefix="Utilities" Namespace="Microsoft.SharePoint.Utilities" Assembly="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>  
@@ -123,23 +123,23 @@ ms.workload:
   
 6.  Save the updated site page.  
   
-## Export the Items from SharePoint  
- Export the items from SharePoint to a SharePoint solution (.wsp) file.  
+## Export the items from SharePoint
+ Export the items from SharePoint to a SharePoint solution (*.wsp*) file.  
   
-#### To export items from SharePoint Designer  
+#### To export items from SharePoint Designer
   
 1.  In SharePoint Designer, in the Navigation pane, choose the **Team Site** object, and then, on the **Site** ribbon, choose **Save As Template**.  
   
 2.  In the **Save as Template** dialog box, enter a file name and template name, select the **Include Content** check box, and then choose the **OK** button.  
   
-     This saves the contents of the site in the .wsp file.  
+     This saves the contents of the site in the *.wsp* file.  
   
 3.  After the solution exports, choose the **Solution Gallery** link to display the list of available solution files.  
   
-4.  Open the shortcut menu for the new .wsp file, and then choose **Save target as** to save it to the system.  
+4.  Open the shortcut menu for the new *.wsp* file, and then choose **Save target as** to save it to the system.  
   
-## Import the Items into Visual Studio  
- Import the .wsp file into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. After the content is imported, you can customize it, add more items, and then deploy it.  
+## Import the items into Visual Studio
+ Import the *.wsp* file into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. After the content is imported, you can customize it, add more items, and then deploy it.  
   
 #### To import items from the .wsp file into Visual Studio  
   
@@ -149,15 +149,15 @@ ms.workload:
   
     |File Name|Description|  
     |---------------|-----------------|  
-    |_catalogsmasterpage\_|The custom master page.|  
+    |\_catalogsmasterpage\_|The custom master page.|  
     |images_|The image file in the SharePoint file system.|  
     |SitePages_|The site page.|  
   
 3.  Choose the **Finish** button to import the selected items.  
   
-4.  In **Solution Explorer**, choose the _catalogsmasterpage\_ node, and set the value of its **Deployment Conflict Resolution** property to **Automatic**.  
+4.  In **Solution Explorer**, choose the \_catalogsmasterpage\_ node, and set the value of its **Deployment Conflict Resolution** property to **Automatic**.  
   
-     This helps ensure that that any deployment conflicts are resolved automatically.  
+     This helps ensure that any deployment conflicts are resolved automatically.  
   
 5.  If your new master page has the same name as an existing page, make sure that the existing page is not marked as either a Default Master Page or a Custom Master Page in SharePoint Designer.  
   
@@ -167,15 +167,14 @@ ms.workload:
   
     -   If the existing master page is set as Custom Master Page, temporarily set another master page as Custom Master Page. After you deploy the files to SharePoint, set your new master page as Custom Master Page.  
   
-6.  On the menu bar, choose **Build**, **Deploy Solution**.  
+6.  On the menu bar, choose **Build** > **Deploy Solution**.  
   
 7.  Open the SharePoint site to view the deployed items.  
   
- An alternative way to import files into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and deploy them to SharePoint is to add the files into modules in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [How to: Import a Master Page or Theme](../sharepoint/how-to-import-a-master-page-or-theme.md) and [Using Modules to Include Files in the Solution](../sharepoint/using-modules-to-include-files-in-the-solution.md).  
+ An alternative way to import files into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and deploy them to SharePoint is to add the files into modules in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. [!INCLUDE[crdefault](../sharepoint/includes/crdefault-md.md)] [How to: Import a master page or theme](../sharepoint/how-to-import-a-master-page-or-theme.md) and [Use modules to include files in the Solution](../sharepoint/using-modules-to-include-files-in-the-solution.md).  
   
-## See Also  
- [Importing Items from an Existing SharePoint Site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)   
- [Creating Reusable Controls for Web Parts or Application Pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)  
-  
+## See also
+ [Importing items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
+ [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)   
+ [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)  
   

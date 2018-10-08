@@ -15,21 +15,20 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Registering an Expression Evaluator
+# Register an expression evaluator
 > [!IMPORTANT]
->  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, please see [CLR Expression Evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed Expression Evaluator Sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
+>  In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).  
   
- The expression evaluator (EE) must register itself as a class factory with both the Windows COM environment and Visual Studio. An EE is implemented as a DLL so that it may be injected into either the debug engine (DE) address space or the Visual Studio address space, depending on which entity instantiates the EE.  
+ The expression evaluator (EE) must register itself as a class factory with both the Windows COM environment and Visual Studio. An EE is set up as a DLL so that it's injected into either the debug engine (DE) address space or the Visual Studio address space, depending on which entity instantiates the EE.  
   
-## Managed Code Expression Evaluator  
- A managed code EE is implemented as a Class Library, which is a DLL that registers itself with the COM environment, typically started by a call to the VSIP program, **regpkg.exe**. The actual process of writing the registry keys for the COM environment is handled automatically.  
+## Managed code expression evaluator  
+ A managed code EE is implemented as a Class Library, which is a DLL that registers itself with the COM environment, typically started by a call to the VSIP program, *regpkg.exe*. The actual process of writing the registry keys for the COM environment is handled automatically.  
   
- A method of the main class is marked with the <xref:System.Runtime.InteropServices.ComRegisterFunctionAttribute>, indicating that that method is to be called when the DLL is being registered with COM. This registration method, often called `RegisterClass`, performs the task of registering the DLL with Visual Studio. A corresponding `UnregisterClass` (marked with the <xref:System.Runtime.InteropServices.ComUnregisterFunctionAttribute>), undoes the effects of `RegisterClass` when the DLL is uninstalled.  
-  
- The same registry entries are made as for an EE written in unmanaged code; the only difference is that there is no helper function such as `SetEEMetric` to do the work for you. An example of this registration/unregistration process looks like this:  
+ A method of the main class is marked with <xref:System.Runtime.InteropServices.ComRegisterFunctionAttribute>, indicating that the method is to be called when the DLL is being registered with COM. This registration method, often called `RegisterClass`, performs the task of registering the DLL with Visual Studio. A corresponding `UnregisterClass` (marked with the <xref:System.Runtime.InteropServices.ComUnregisterFunctionAttribute>), undoes the effects of `RegisterClass` when the DLL is uninstalled.  
+ The same registry entries are made as for an EE written in unmanaged code; the only difference is that there is no helper function such as `SetEEMetric` to do the work for you. Following is an example of the registration and unregistration process.  
   
 ### Example  
- This function shows how a managed code EE registers and unregisters itself with Visual Studio.  
+ The following function shows how a managed code EE registers and unregisters itself with Visual Studio.  
   
 ```csharp  
 namespace EEMC  
@@ -95,18 +94,18 @@ namespace EEMC
 }  
 ```  
   
-## Unmanaged Code Expression Evaluator  
+## Unmanaged code expression evaluator  
  The EE DLL implements the `DllRegisterServer` function to register itself with the  COM environment as well as Visual Studio.  
   
 > [!NOTE]
->  The MyCEE code sample registry code can be found in the file dllentry.cpp, which is located in the VSIP installation under EnVSDK\MyCPkgs\MyCEE.  
+>  You can find the MyCEE code sample registry code in the file *dllentry.cpp*, which is located in the VSIP installation under EnVSDK\MyCPkgs\MyCEE.  
   
-### DLL Server Process  
+### DLL server process  
  When registering the EE, the DLL server:  
   
 1.  Registers its class factory `CLSID` as per normal COM conventions.  
   
-2.  Calls the helper function `SetEEMetric` to register with Visual Studio the EE metrics shown in the following table. The function `SetEEMetric` and the metrics specified below are part of the dbgmetric.lib library. See [SDK Helpers for Debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md) for details.  
+2.  Calls the helper function `SetEEMetric` to register with Visual Studio the EE metrics shown in the following table. The function `SetEEMetric` and the metrics specified as follows are part of the *dbgmetric.lib* library. See [SDK helpers for debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md) for details.  
   
     |Metric|Description|  
     |------------|-----------------|  
@@ -121,7 +120,7 @@ namespace EEMC
 3.  Registers with Visual Studio by creating keys under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*X.Y*, where *X.Y* is the version of Visual Studio to register with.  
   
 ### Example  
- This function shows how an unmanaged code (C++) EE registers and unregisters itself with Visual Studio.  
+ The following function shows how an unmanaged code (C++) EE registers and unregisters itself with Visual Studio.  
   
 ```cpp  
 /*---------------------------------------------------------  
@@ -207,6 +206,6 @@ static HRESULT RegisterMetric( bool registerIt )
 }  
 ```  
   
-## See Also  
- [Writing a CLR Expression Evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)   
- [SDK Helpers for Debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)
+## See also  
+ [Writing a CLR expression evaluator](../../extensibility/debugger/writing-a-common-language-runtime-expression-evaluator.md)   
+ [SDK helpers for debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)

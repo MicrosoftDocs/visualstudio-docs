@@ -215,7 +215,7 @@ The sections in the following table include commands that are global in that you
 |EditorContextMenus.CodeWindow.CodeMap.ShowItem|**Ctrl+`**|
 |EditorContextMenus.CodeWindow.Execute|**Ctrl+Alt+F5**|
 |EditorContextMenus.CodeWindow.GoToView|**Ctrl+M, Ctrl+G**|
-|EditorContextMenus.CodeWindow.ToggleHeaderCodeFile|**Ctrl+K, Ctrl+O**|
+|EditorContextMenus.CodeWindow.ToggleHeaderCodeFile|**Ctrl+K, Ctrl+O** (letter 'O')|
 |EditorContextMenus.CodeWindow.ViewCallHierarchy|**Ctrl+K, Ctrl+T**<br /><br /> or<br /><br /> **Ctrl+K, T**|
 
 ###  <a name="bkmk_file"></a> File
@@ -226,9 +226,9 @@ The sections in the following table include commands that are global in that you
 |File.NewFile|**Ctrl+N**|
 |File.NewProject|**Ctrl+Shift+N**|
 |File.NewWebSite|**Shift+Alt+N**|
-|File.OpenFile|**Ctrl+O**|
-|File.OpenProject|**Ctrl+Shift+O**|
-|File.OpenWebSite|**Shift+Alt+O**|
+|File.OpenFile|**Ctrl+O** (letter 'O')|
+|File.OpenProject|**Ctrl+Shift+O** (letter 'O')|
+|File.OpenWebSite|**Shift+Alt+O** (letter 'O')|
 |File.Print|**Ctrl+P**|
 |File.SaveAll|**Ctrl+Shift+S**|
 |File.SaveSelectedItems|**Ctrl+S**|
@@ -263,9 +263,9 @@ The sections in the following table include commands that are global in that you
 |Project.AddNewItem|**Ctrl+Shift+A**|
 |Project.ClassWizard|**Ctrl+Shift+X**|
 |Project.Override|**Ctrl+Alt+Ins**|
-|Project.Previewchanges|**Alt+;, Alt+C**|
-|Project.Publishselectedfiles|**Alt+;, Alt+P**|
-|Project.Replaceselectedfilesfromserver|**Alt+;, Alt+R**|
+|Project.Previewchanges|**Alt+;** then **Alt+C**|
+|Project.Publishselectedfiles|**Alt+;** then **Alt+P**|
+|Project.Replaceselectedfilesfromserver|**Alt+;** then **Alt+R**|
 
 ###  <a name="bkmk_projectContext"></a> Project and solution context menus
 
@@ -283,39 +283,39 @@ The sections in the following table include commands that are global in that you
 |Refactor.ExtractMethod|**Ctrl+R, Ctrl+M**|
 |Refactor.RemoveParameters|**Ctrl+R, Ctrl+V**|
 |Refactor.Rename|**Ctrl+R, Ctrl+R**|
-|Refactor.ReorderParameters|**Ctrl+R, Ctrl+O**|
+|Refactor.ReorderParameters|**Ctrl+R, Ctrl+O** (letter 'O')|
 
 ###  <a name="bkmk_solutionexplorerGLOBAL"></a> Solution Explorer
 
 |Commands|Keyboard shortcuts|
 |--------------|------------------------|
-|SolutionExplorer.OpenFilesFilter|**Ctrl+[, O**<br /><br /> or<br /><br /> **Ctrl+[, Ctrl+O**|
-|SolutionExplorer.PendingChangesFilter|**Ctrl+[, P**<br /><br /> or<br /><br /> **Ctrl+[, Ctrl+P**|
-|SolutionExplorer.SyncWithActiveDocument|**Ctrl+[, S**<br /><br /> or<br /><br /> **Ctrl+[, Ctrl+S**|
+|SolutionExplorer.OpenFilesFilter|**Ctrl+[**, **O** (letter 'O')<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+O** (letter 'O')|
+|SolutionExplorer.PendingChangesFilter|**Ctrl+[**, **P**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+P**|
+|SolutionExplorer.SyncWithActiveDocument|**Ctrl+[**, **S**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+S**|
 
 ###  <a name="bkmk_team"></a> Team
 
 |Commands|Keyboard shortcuts|
 |--------------|------------------------|
-|Team.Git.GoToGitBranches|**Ctrl+0, Ctrl+N**<br /><br /> or<br /><br /> **Ctrl+0, N**|
-|Team.Git.GoToGitChanges|**Ctrl+0, Ctrl+G**<br /><br /> or<br /><br /> **Ctrl+0, G**|
-|Team.Git.GoToGitCommits|**Ctrl+0, Ctrl+O**<br /><br /> or<br /><br /> **Ctrl+0, O**|
+|Team.Git.GoToGitBranches|**Ctrl+0** (zero), **Ctrl+N**<br /><br /> or<br /><br /> **Ctrl+0, N**|
+|Team.Git.GoToGitChanges|**Ctrl+0** (zero), **Ctrl+G**<br /><br /> or<br /><br /> **Ctrl+0, G**|
+|Team.Git.GoToGitCommits|**Ctrl+0** (zero), **Ctrl+O** (letter 'O')<br /><br /> or<br /><br /> **Ctrl+0, O**|
 |Team.TeamExplorerSearch|**Ctrl+'**|
 
 ###  <a name="bkmk_TFcontext"></a> Team Foundation context menus
 
 |Commands|Keyboard shortcuts|
 |--------------|------------------------|
-|TeamFoundationContextMenus.Commands.GoToBuilds|**Ctrl+0, Ctrl+B**<br /><br /> or<br /><br /> **Ctrl+0, B**|
-|TeamFoundationContextMenus.Commands.GoToConnect|**Ctrl+0, Ctrl+C**<br /><br /> or<br /><br /> **Ctrl+0, C**|
-|TeamFoundationContextMenus.Commands.GoToDocuments|**Ctrl+0, Ctrl+D**<br /><br /> or<br /><br /> **Ctrl+0, D**|
-|TeamFoundationContextMenus.Commands.GoToHome|**Ctrl+0, Ctrl+H**<br /><br /> or<br /><br /> **Ctrl+0, H**|
-|TeamFoundationContextMenus.Commands.GoToMyWork|**Ctrl+0, Ctrl+M**<br /><br /> or<br /><br /> **Ctrl+0, M**|
-|TeamFoundationContextMenus.Commands.GoToPendingChanges|**Ctrl+0, Ctrl+P**<br /><br /> or<br /><br /> **Ctrl+0, P**|
-|TeamFoundationContextMenus.Commands.GoToReports|**Ctrl+0, Ctrl+R**<br /><br /> or<br /><br /> **Ctrl+0, R**|
-|TeamFoundationContextMenus.Commands.GoToSettings|**Ctrl+0, Ctrl+S**<br /><br /> or<br /><br /> **Ctrl+0, S**|
-|TeamFoundationContextMenus.Commands.GoToWebAccess|**Ctrl+0, Ctrl+A**<br /><br /> or<br /><br /> **Ctrl+0, A**|
-|TeamFoundationContextMenus.Commands.GoToWorkItems|**Ctrl+0, Ctrl+W**<br /><br /> or<br /><br /> **Ctrl+0, W**|
+|TeamFoundationContextMenus.Commands.GoToBuilds|**Ctrl+0** (zero), **Ctrl+B**<br /><br /> or<br /><br /> **Ctrl+0, B**|
+|TeamFoundationContextMenus.Commands.GoToConnect|**Ctrl+0** (zero), **Ctrl+C**<br /><br /> or<br /><br /> **Ctrl+0, C**|
+|TeamFoundationContextMenus.Commands.GoToDocuments|**Ctrl+0** (zero), **Ctrl+D**<br /><br /> or<br /><br /> **Ctrl+0, D**|
+|TeamFoundationContextMenus.Commands.GoToHome|**Ctrl+0** (zero), **Ctrl+H**<br /><br /> or<br /><br /> **Ctrl+0, H**|
+|TeamFoundationContextMenus.Commands.GoToMyWork|**Ctrl+0** (zero), **Ctrl+M**<br /><br /> or<br /><br /> **Ctrl+0, M**|
+|TeamFoundationContextMenus.Commands.GoToPendingChanges|**Ctrl+0** (zero), **Ctrl+P**<br /><br /> or<br /><br /> **Ctrl+0, P**|
+|TeamFoundationContextMenus.Commands.GoToReports|**Ctrl+0** (zero), **Ctrl+R**<br /><br /> or<br /><br /> **Ctrl+0, R**|
+|TeamFoundationContextMenus.Commands.GoToSettings|**Ctrl+0** (zero), **Ctrl+S**<br /><br /> or<br /><br /> **Ctrl+0, S**|
+|TeamFoundationContextMenus.Commands.GoToWebAccess|**Ctrl+0** (zero), **Ctrl+A**<br /><br /> or<br /><br /> **Ctrl+0, A**|
+|TeamFoundationContextMenus.Commands.GoToWorkItems|**Ctrl+0** (zero), **Ctrl+W**<br /><br /> or<br /><br /> **Ctrl+0, W**|
 
 ###  <a name="bkmk_test"></a> Test
 
@@ -373,7 +373,7 @@ The sections in the following table include commands that are global in that you
 |View.Notifications|**Ctrl+W, N**<br /><br /> or<br /><br /> **Ctrl+W, Ctrl+N**|
 |View.ObjectBrowser|**Ctrl+Alt+J**|
 |View.ObjectBrowserGoToSearchCombo|**Ctrl+K, Ctrl+R**|
-|View.Output|**Ctrl+Alt+O**|
+|View.Output|**Ctrl+Alt+O** (letter 'O')|
 |View.PopBrowseContex|**Ctrl+Shift+8**|
 |View.PropertiesWindow|**F4**|
 |View.PropertyPages|**Shift+F4**|
@@ -526,7 +526,7 @@ The sections in the following table include commands that are global in that you
 |Graphics.MovePixelSelectionLeft|**Shift+Alt+Left Arrow**|
 |Graphics.MovePixelSelectionRight|**Shift+Alt+Right Arrow**|
 |Graphics.MovePixelSelectionUp|**Shift+Alt+Up Arrow**|
-|Graphics.ZoomToActualSize|**Shift+Alt+0**|
+|Graphics.ZoomToActualSize|**Shift+Alt+0** (zero)|
 |Graphics.ZoomToFitInWindow|**Shift+Alt+9**|
 |Graphics.ZoomIn|**Shift+Alt+=**|
 |Graphics.ZoomOut|**Shift+Alt+-**|
@@ -740,7 +740,7 @@ The sections in the following table include commands that are global in that you
 |File.Rename|**F2**|
 |TeamFoundationContextMenus.Commands.GoToTeamExplorerNavigation|**Alt+Home**|
 |TeamFoundationContextMenus.Commands.GoToTeamExplorerNextSectionContent|**Alt+Down Arrow**|
-|TeamFoundationContextMenus.Commands.GoToTeamExplorerPageContent|**Alt+0**|
+|TeamFoundationContextMenus.Commands.GoToTeamExplorerPageContent|**Alt+0** (zero)|
 |TeamFoundationContextMenus.Commands.GoToTeamExplorerPreviousSectionContent|**Alt+Up Arrow**|
 |TeamFoundationContextMenus.Commands.GoToTeamExplorerSection1Content|**Alt+1**|
 |TeamFoundationContextMenus.Commands.GoToTeamExplorerSection2Content|**Alt+2**|
@@ -755,12 +755,6 @@ The sections in the following table include commands that are global in that you
 |TeamFoundationContextMenus.Commands.TeamExplorerNavigateForward|**Alt+Right Arrow**|
 |TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageCreateCopyWI|**Shift+Alt+C**|
 |TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI|**Shift+Alt+L**|
-|View.Refresh|**F5**|
-
-##  Team Foundation Build Detail Editor
-
-|Command|Keyboard shortcut|
-|-------------|-----------------------|
 |View.Refresh|**F5**|
 
 ##  Test Explorer
@@ -785,7 +779,7 @@ The sections in the following table include commands that are global in that you
 |Edit.CollapseAllOutlining|**Ctrl+M, Ctrl+A**|
 |Edit.CollapseCurrentRegion|**Ctrl+M, Ctrl+S**|
 |Edit.CollapseTag|**Ctrl+M, Ctrl+T**|
-|Edit.CollapsetoDefinitions|**Ctrl+M, Ctrl+O**|
+|Edit.CollapseToDefinitions|**Ctrl+M, Ctrl+O** (letter 'O')|
 |Edit.CommentSelection|**Ctrl+K, Ctrl+C**|
 |Edit.CompleteWord|**Ctrl+Space**<br /><br /> or<br /><br /> **Alt+Right Arrow**|
 |Edit.CopyParameterTip|**Ctrl+Shift+Alt+C**|
@@ -1094,7 +1088,7 @@ The sections in the following table include commands that are global in that you
 |WorkflowDesigner.Restore|**Ctrl+E, Ctrl+R**<br /><br /> or<br /><br /> **Ctrl+E, R**|
 |WorkflowDesigner.ShowHideArgumentDesigner|**Ctrl+E, Ctrl+A**<br /><br /> or<br /><br /> **Ctrl+E, A**|
 |WorkflowDesigner.ShowHideImportsDesigner|**Ctrl+E, Ctrl+I**<br /><br /> or<br /><br /> **Ctrl+E, I**|
-|WorkflowDesigner.ShowHideOverviewMap|**Ctrl+E, Ctrl+O**<br /><br /> or<br /><br /> **Ctrl+E, O**|
+|WorkflowDesigner.ShowHideOverviewMap|**Ctrl+E, Ctrl+O** (letter 'O')<br /><br /> or<br /><br /> **Ctrl+E, O**|
 |WorkflowDesigner.ShowHideVariableDesigner|**Ctrl+E, Ctrl+V**<br /><br /> or<br /><br /> **Ctrl+E, V**|
 |WorkflowDesigner.ToggleSelection|**Ctrl+E, Ctrl+S**<br /><br /> or<br /><br /> **Ctrl+E, S**|
 |WorkflowDesigner.ZoomIn|**Ctrl+Num +**|
@@ -1104,7 +1098,7 @@ The sections in the following table include commands that are global in that you
 
 |Commands|Keyboard shortcuts|
 |--------------|------------------------|
-|Design.FitAll|**Ctrl+0**|
+|Design.FitAll|**Ctrl+0** (zero)|
 |Design.ShowHandles|**F9**|
 |Design.ZoomIn|**Ctrl+Alt+=**|
 |Design.ZoomOut|**Ctrl+Alt+-**|

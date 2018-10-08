@@ -16,7 +16,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# SccAddFilesFromSCC Function
+# SccAddFilesFromSCC function
 This function adds a list of files from source control to the currently opened project.  
   
 ## Syntax  
@@ -35,7 +35,7 @@ SCCRTN SccAddFilesFromSCC(
 );  
 ```  
   
-#### Parameters  
+### Parameters  
  pContext  
  [in] The source control plug-in context pointer.  
   
@@ -63,7 +63,7 @@ SCCRTN SccAddFilesFromSCC(
  pbResults  
  [in, out] Array of flags that are set to indicate success (nonzero or TRUE) or failure (zero or FALSE) for each file (size of the array must be at least `cFiles` long).  
   
-## Return Value  
+## Return value  
  The source control plug-in implementation of this function is expected to return one of the following values:  
   
 |Value|Description|  
@@ -74,5 +74,5 @@ SCCRTN SccAddFilesFromSCC(
 |SCC_E_NONSPECIFICERROR|Unknown error.|  
 |SCC_I_RELOADFILE|A file or project needs to be reloaded.|  
   
-## See Also  
- [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
+## See also  
+ [Source control plug-in API functions](../extensibility/source-control-plug-in-api-functions.md)

@@ -18,11 +18,12 @@ ms.workload:
   - "data-storage"
 ---
 # Create a Windows Forms user control that supports simple data binding
+
 When displaying data on forms in Windows applications, you can choose existing controls from the **Toolbox**, or you can author custom controls if your application requires functionality that is not available in the standard controls. This walkthrough shows how to create a control that implements the <xref:System.ComponentModel.DefaultBindingPropertyAttribute>. Controls that implement the <xref:System.ComponentModel.DefaultBindingPropertyAttribute> can contain one property that can be bound to data. Such controls are similar to a <xref:System.Windows.Forms.TextBox> or <xref:System.Windows.Forms.CheckBox>.
 
- For more information on control authoring, see [Developing Windows Forms Controls at Design Time](/dotnet/framework/winforms/controls/developing-windows-forms-controls-at-design-time).
+For more information on control authoring, see [Developing Windows Forms Controls at Design Time](/dotnet/framework/winforms/controls/developing-windows-forms-controls-at-design-time).
 
- When authoring controls for use in data-binding scenarios, you should implement one of the following data-binding attributes:
+When authoring controls for use in data-binding scenarios, you should implement one of the following data-binding attributes:
 
 |Data-binding attribute usage|
 |-----------------------------------|
@@ -30,9 +31,9 @@ When displaying data on forms in Windows applications, you can choose existing c
 |Implement the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute> on controls, like a <xref:System.Windows.Forms.DataGridView>, that display lists (or tables) of data. For more information, see [Create a Windows Forms user control that supports complex data binding](../data-tools/create-a-windows-forms-user-control-that-supports-complex-data-binding.md).|
 |Implement the <xref:System.ComponentModel.LookupBindingPropertiesAttribute> on controls, like a <xref:System.Windows.Forms.ComboBox>, that display lists (or tables) of data but also need to present a single column or property. For more information, see [Create a Windows Forms user control that supports lookup data binding](../data-tools/create-a-windows-forms-user-control-that-supports-lookup-data-binding.md).|
 
- This walkthrough creates a simple control that displays data from a single column in a table. This example uses the `Phone` column of the `Customers` table from the Northwind sample database. The simple user control will display customers' phone numbers in a standard phone-number format, by using a <xref:System.Windows.Forms.MaskedTextBox> and setting the mask to a phone number.
+This walkthrough creates a simple control that displays data from a single column in a table. This example uses the `Phone` column of the `Customers` table from the Northwind sample database. The simple user control displays customers' phone numbers in a standard phone-number format, by using a <xref:System.Windows.Forms.MaskedTextBox> and setting the mask to a phone number.
 
- During this walkthrough, you will learn how to:
+During this walkthrough, you will learn how to:
 
 -   Create a new **Windows Forms Application**.
 
@@ -49,13 +50,14 @@ When displaying data on forms in Windows applications, you can choose existing c
 -   Create a form to display data in the new control.
 
 ## Prerequisites
+
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
-1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the Visual Studio Installer, SQL Server Express LocalDB can be installed as part of the **Data storage and processing** workload, or as an individual component.
+1.  If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
 
 2.  Install the Northwind sample database by following these steps:
 
-    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query...**.
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (SQL Server Object Explorer is installed as part of the **Data storage and processing** workload in the **Visual Studio Installer**.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 
        A query editor window opens.
 
@@ -63,16 +65,15 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
-       After a short time, the query finishes executing and the Northwind database is created.
+       After a short time, the query finishes running and the Northwind database is created.
 
 ## Create a Windows Forms Application
- The first step is to create a **Windows Forms Application**.
 
-#### To create the new Windows project
+The first step is to create a **Windows Forms Application**:
 
-1. In Visual Studio, on the **File** menu, select **New**, **Project...**.
+1. In Visual Studio, on the **File** menu, select **New** > **Project**.
 
-2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Classic Desktop**.
+2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
 
 3. In the middle pane, select the **Windows Forms App** project type.
 
@@ -81,20 +82,18 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      The **SimpleControlWalkthrough** project is created, and added to **Solution Explorer**.
 
 ## Add a user control to the project
- This walkthrough creates a simple data-bindable control from a **User Control**, so add a **User Control** item to the **SimpleControlWalkthrough** project.
 
-#### To add a user control to the project
+This walkthrough creates a simple data-bindable control from a **User Control**. Add a **User Control** item to the **SimpleControlWalkthrough** project:
 
 1.  From the **Project** menu, choose **Add User Control**.
 
-2.  Type `PhoneNumberBox` in the Name area, and click **Add**.
+2.  Type **PhoneNumberBox** in the Name area, and click **Add**.
 
      The **PhoneNumberBox** control is added to **Solution Explorer**, and opens in the designer.
 
 ## Design the PhoneNumberBox control
- This walkthrough expands upon the existing <xref:System.Windows.Forms.MaskedTextBox> to create the `PhoneNumberBox` control.
 
-#### To design the PhoneNumberBox control
+This walkthrough expands upon the existing <xref:System.Windows.Forms.MaskedTextBox> to create the **PhoneNumberBox** control:
 
 1.  Drag a <xref:System.Windows.Forms.MaskedTextBox> from the **Toolbox** onto the user control's design surface.
 
@@ -103,13 +102,12 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 3.  Select **Phone number** in the **Input Mask** dialog box, and click **OK** to set the mask.
 
 ## Add the required data-binding attribute
- For simple controls that support databinding, implement the <xref:System.ComponentModel.DefaultBindingPropertyAttribute>.
 
-#### To implement the DefaultBindingProperty attribute
+For simple controls that support databinding, implement the <xref:System.ComponentModel.DefaultBindingPropertyAttribute>:
 
-1.  Switch the `PhoneNumberBox` control to code view. (On the **View** menu, choose **Code**.)
+1.  Switch the **PhoneNumberBox** control to code view. (On the **View** menu, choose **Code**.)
 
-2.  Replace the code in the `PhoneNumberBox` with the following:
+2.  Replace the code in the **PhoneNumberBox** with the following:
 
      [!code-csharp[VbRaddataDisplaying#3](../data-tools/codesnippet/CSharp/create-a-windows-forms-user-control-that-supports-simple-data-binding_1.cs)]
      [!code-vb[VbRaddataDisplaying#3](../data-tools/codesnippet/VisualBasic/create-a-windows-forms-user-control-that-supports-simple-data-binding_1.vb)]
@@ -117,9 +115,8 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 3.  From the **Build** menu, choose **Build Solution**.
 
 ## Create a data source from your database
- This step uses the **Data Source Configuration**wizard to create a data source based on the `Customers` table in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information on setting up the Northwind sample database, see [How to: Install Sample Databases](../data-tools/installing-database-systems-tools-and-samples.md).
 
-#### To create the data source
+This step uses the **Data Source Configuration**wizard to create a data source based on the `Customers` table in the Northwind sample database. You must have access to the Northwind sample database to create the connection. For information on setting up the Northwind sample database, see [How to: Install sample databases](../data-tools/installing-database-systems-tools-and-samples.md).
 
 1.  On the **Data** menu, click **Show Data Sources**.
 
@@ -144,9 +141,8 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      The **NorthwindDataSet** is added to your project, and the `Customers` table appears in the **Data Sources** window.
 
 ## Set the phone column to use the PhoneNumberBox control
- Within the **Data Sources** window, you can set the control to be created prior to dragging items onto your form.
 
-#### To set the phone column to bind to the PhoneNumberBox control
+Within the **Data Sources** window, you can set the control to be created prior to dragging items onto your form:
 
 1.  Open **Form1** in the designer.
 
@@ -161,28 +157,26 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 6.  Click the drop-down arrow on the **Phone** column, and choose **PhoneNumberBox**.
 
 ## Add controls to the form
- You can create the data-bound controls by dragging items from the **Data Sources** window onto the form.
 
-#### To create data-bound controls on the form
+You can create the data-bound controls by dragging items from the **Data Sources** window onto the form.
 
--   Drag the main **Customers** node from the **Data Sources** window onto the form, and verify that the `PhoneNumberBox` control is used to display the data in the `Phone` column.
+To create data-bound controls on the form, drag the main **Customers** node from the **Data Sources** window onto the form, and verify that the **PhoneNumberBox** control is used to display the data in the **Phone** column.
 
      Data-bound controls with descriptive labels appear on the form, along with a tool strip (<xref:System.Windows.Forms.BindingNavigator>) for navigating records. A [NorthwindDataSet](../data-tools/dataset-tools-in-visual-studio.md), CustomersTableAdapter, <xref:System.Windows.Forms.BindingSource>, and <xref:System.Windows.Forms.BindingNavigator> appear in the component tray.
 
 ## Run the application
 
-#### To run the application
+Press **F5** to run the application.
 
--   Press F5 to run the application.
+## Next steps
 
-## Next Steps
- Depending on your application requirements, there are several steps you may want to perform after creating a control that supports data binding. Some typical next steps include:
+Depending on your application requirements, there are several steps you may want to perform after creating a control that supports data binding. Some typical next steps include:
 
 -   Placing your custom controls in a control library so you can reuse them in other applications.
 
 -   Creating controls that support more complex data-binding scenarios. For more information, see [Create a Windows Forms user control that supports complex data binding](../data-tools/create-a-windows-forms-user-control-that-supports-complex-data-binding.md) and [Create a Windows Forms user control that supports lookup data binding](../data-tools/create-a-windows-forms-user-control-that-supports-lookup-data-binding.md).
 
-## See Also
+## See also
 
 - [Bind Windows Forms controls to data in Visual Studio](../data-tools/bind-windows-forms-controls-to-data-in-visual-studio.md)
 - [Set the control to be created when dragging from the Data Sources window](../data-tools/set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md)

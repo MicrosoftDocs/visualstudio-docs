@@ -19,7 +19,7 @@ manager: douge
 ms.workload: 
   - "office"
 ---
-# Walkthrough: Import Items from an Existing SharePoint Site
+# Walkthrough: Import items from an existing SharePoint site
   This walkthrough demonstrates how to import items from an existing SharePoint site into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project.  
   
  This walkthrough demonstrates the following tasks:  
@@ -35,11 +35,11 @@ ms.workload:
 ## Prerequisites  
  You need the following components to complete this walkthrough:  
   
--   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint. For more information, see [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).  
+-   Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.  
   
 -   Visual Studio.  
   
-## Customizing a SharePoint Site  
+## Customize a SharePoint site
  For this example, you will create and customize a SharePoint subsite by adding a new site column to it and by creating another subsite for use later. Later, you will export the first subsite to a .wsp file and then import the custom site column into the second subsite by using the .wsp Import project.  
   
 #### To create and customize a SharePoint site  
@@ -70,7 +70,7 @@ ms.workload:
   
 13. The **Test Column** column appears under the Custom Columns heading in the Site Column Gallery.  
   
-## Exporting the SharePoint Site  
+## Exporting the SharePoint site
  Next, obtain a SharePoint setup (.wsp) file that contains the SharePoint items and elements that you want to import into your [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project. If you do not already have a .wsp file, then you must create one from an existing SharePoint site. For this example, you will export the default SharePoint site into a .wsp file.  
   
 > [!IMPORTANT]  
@@ -96,12 +96,12 @@ ms.workload:
   
 7.  In the **File Download** dialog box, choose the **Save** button to save the file on your local system, by default, in your Downloads folder.  
   
-## Importing the .wsp File  
- Now that you have a .wsp file that contains an item that you want to reuse (the custom site column Test Column), import the .wsp file to access it.  
+## Import the .wsp file
+ Now that you have a *.wsp* file that contains an item that you want to reuse (the custom site column Test Column), import the *.wsp* file to access it.  
   
 #### To import a .wsp file  
   
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **File**, **New**, **Project** to display the **New Project** dialog box. If your IDE is set to use Visual Basic development settings, on the menu bar, choose **File**, **New Project**.  
+1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box. If your IDE is set to use Visual Basic development settings, on the menu bar, choose **File** > **New Project**.  
   
 2.  Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.  
   
@@ -113,23 +113,23 @@ ms.workload:
   
 5.  In the **What is the trust level for this SharePoint solution?** section, leave the selection as **Deploy as a sandboxed solution**.  
   
-6.  In the **Specify the new project source** page, browse to the location on the system where you saved the .wsp file previously and then choose the **Next** button.  
+6.  In the **Specify the new project source** page, browse to the location on the system where you saved the *.wsp* file previously and then choose the **Next** button.  
   
     > [!NOTE]  
-    >  If you choose the **Finish** button on this page, all available items in the .wsp file will be imported.  
+    >  If you choose the **Finish** button on this page, all available items in the *.wsp* file will be imported.  
   
 7.  In the **Select items to import** box, clear all of the check boxes in the list except for **Test Column**, and then choose the **Finish** button.  
   
-     Because the list contains many items, you can choose the Ctrl + A keys to choose all items in the list, choose the Spacebar key to clear all of the check boxes, and then select only the check box next to the **Test Column** item.  
+     Because the list contains many items, you can choose the **Ctrl**+**A** keys to choose all items in the list, choose the Spacebar key to clear all of the check boxes, and then select only the check box next to the **Test Column** item.  
   
-     After the import operation is finished, a new project named **WspImportProject1** is created that contains a folder named **Fields**. In this folder is the custom site column **Test Column** and its definition file Elements.xml.  
+     After the import operation is finished, a new project named **WspImportProject1** is created that contains a folder named **Fields**. In this folder is the custom site column **Test Column** and its definition file *Elements.xml*.  
   
-## Deploying the Project  
+## Deploy the project
  Finally, deploy **WspImportProject1** to the second SharePoint subsite that you created earlier to view the custom site column.  
   
 #### To deploy the project  
   
-1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], choose the F5 key to deploy and run the .wsp import project.  
+1.  In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], choose the **F5** key to deploy and run the *.wsp* import project.  
   
 2.  On the SharePoint site, open the **Site Actions** menu, and then choose **Site Settings** to display the Site Settings page.  
   
@@ -139,9 +139,8 @@ ms.workload:
   
      Notice that the custom site column that you imported from the first SharePoint site appears in the list.  
   
-## See Also  
- [Importing Items from an Existing SharePoint Site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
- [Developing SharePoint Solutions](../sharepoint/developing-sharepoint-solutions.md)   
- [Creating Reusable Controls for Web Parts or Application Pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)  
-  
+## See also
+ [Import items from an existing SharePoint site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)   
+ [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)   
+ [Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)  
   

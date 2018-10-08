@@ -16,45 +16,14 @@ ms.technology: vs-ide-modeling
 
 You can write code to create and delete model elements, set their properties, and create and delete links between elements. All changes must be made within a transaction. If the elements are viewed on a diagram, the diagram will be "fixed up" automatically at the end of the transaction.
 
-## In this Topic
- [An Example DSL Definition](#example)
-
- [Navigating the Model](#navigation)
-
- [Accessing Class Information](#metadata)
-
- [Perform Changes inside a Transaction](#transaction)
-
- [Creating Model Elements](#elements)
-
- [Creating Relationship Links](#links)
-
- [Deleting Elements](#deleteelements)
-
- [Deleting Relationship Links](#deletelinks)
-
- [Reordering the Links of a Relationship](#reorder)
-
- [Locks](#locks)
-
- [Copy and Paste](#copy)
-
- [Navigating and Updating Diagrams](#diagrams)
-
- [Navigating between Shapes and Elements](#views)
-
- [Properties of Shapes and Connectors](#shapeProperties)
-
- [DocView and DocData](#docdata)
-
 ##  <a name="example"></a> An Example DSL Definition
  This is the main part of DslDefinition.dsl for the examples in this topic:
 
- ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt_person.png "FamilyT_Person")
+ ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt_person.png)
 
  This model is an instance of this DSL:
 
- ![Tudor Family Tree Model](../modeling/media/tudor_familytreemodel.png "Tudor_FamilyTreeModel")
+ ![Tudor Family Tree Model](../modeling/media/tudor_familytreemodel.png)
 
 ### References and Namespaces
  To run the code in this topic, you should reference:
@@ -345,7 +314,7 @@ using (Transaction t = targetDiagram.Store.
  In a DSL, the domain model element, which represents a concept such as Person or Song, is separate from the shape element, which represents what you see on the diagram. The domain model element stores the important properties and relationships of the concepts. The shape element stores the size, position and color of the object's view on the diagram, and the layout of its component parts.
 
 ### Presentation Elements
- ![Class diagram of base shape and element types](../modeling/media/dslshapesandelements.png "DSLshapesAndElements")
+ ![Class diagram of base shape and element types](../modeling/media/dslshapesandelements.png)
 
  In your DSL Definition, each element that you specify creates a class that is derived from one of the following standard classes.
 
@@ -451,18 +420,18 @@ FamilyTreeDiagram diagram =
 -   <xref:Microsoft.VisualStudio.Modeling.Diagrams.ShapeElement.Show%2A> - makes the shape visible after a `Hide()`
 
 ###  <a name="merge"></a> Creating an Element and its Shape
- When you create an element and link it into the tree of embedding relationships, a shape is automatically created and associated with it. This is done by the "fixup" rules that execute at the end of the transaction. However, the shape will appear in an automatically-assigned location, and its shape, color and other features will have default values. To control how the shape is created, you can use the merge function. You must first add the elements you want to add into an ElementGroup, and then merge the group into the diagram.
 
- This method:
+When you create an element and link it into the tree of embedding relationships, a shape is automatically created and associated with it. This is done by the "fixup" rules that execute at the end of the transaction. However, the shape will appear in an automatically assigned location, and its shape, color and other features will have default values. To control how the shape is created, you can use the merge function. You must first add the elements you want to add into an ElementGroup, and then merge the group into the diagram.
+
+This method:
 
 -   Sets the name, if you have assigned a property as the element name.
 
 -   Observes any Element Merge Directives that you specified in the DSL Definition.
 
- This example creates a shape at the mouse position, when the user double-clicks the diagram. In the DSL Definition for this sample, the `FillColor` property of `ExampleShape` has been exposed.
+This example creates a shape at the mouse position, when the user double-clicks the diagram. In the DSL Definition for this sample, the `FillColor` property of `ExampleShape` has been exposed.
 
 ```
-
 using Microsoft.VisualStudio.Modeling;
 using Microsoft.VisualStudio.Modeling.Diagrams;
 partial class MyDiagram
@@ -504,7 +473,7 @@ partial class MyDiagram
  Shapes, connectors and diagrams are subtypes of <xref:Microsoft.VisualStudio.Modeling.ModelElement> and live in the Store. You must therefore make changes to them only inside a transaction. For more information, see [How to: Use Transactions to Update the Model](../modeling/how-to-use-transactions-to-update-the-model.md).
 
 ##  <a name="docdata"></a> Document View and Document Data
- ![Class diagram of standard diagram types](../modeling/media/dsldiagramsanddocs.png "DSLDiagramsandDocs")
+ ![Class diagram of standard diagram types](../modeling/media/dsldiagramsanddocs.png)
 
 ## Store Partitions
  When a model is loaded, the accompanying diagram is loaded at the same time. Typically, the model is loaded into Store.DefaultPartition, and the diagram content is loaded into another Partition. Usually, the content of each partition is loaded and saved to a separate file.

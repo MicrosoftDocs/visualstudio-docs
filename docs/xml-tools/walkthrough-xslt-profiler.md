@@ -83,7 +83,7 @@ The procedures in the following walkthrough require Visual Studio and .NET Frame
 
 5.  You can also sort the data by clicking column names.
 
-### Select CallTree view
+### Select Call Tree View
 
 1.  Select **Call Tree View** in the **Current View** drop-down list. This view is a tree view of program execution.
 
@@ -103,6 +103,6 @@ The procedures in the following walkthrough require Visual Studio and .NET Frame
 
 4.  The process view displays a table that includes the **Process ID**, **Process Name**, **Begin Time**, and the **End Time**. Data can be sorted by clicking column names.
 
-## See Also
+## See also
 
-- [Walkthrough: Using XSLT Hierarchy](../xml-tools/walkthrough-using-xslt-hierarchy.md)
+- [Walkthrough: Using XSLT hierarchy](../xml-tools/walkthrough-using-xslt-hierarchy.md)

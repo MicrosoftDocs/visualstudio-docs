@@ -1,4 +1,5 @@
 # [Visual Studio subscriptions](index.md)
+## [What's New](whats-new-in-subscriptions.md)
 ## Subscriber Experiences
 ### [Using the Subscriber Portal](using-the-subscriber-portal.md)
 #### [Activate Retail Subscriptions](activate-store-subscriptions.md)
@@ -16,7 +17,7 @@
 ## Using Subscriber Benefits
 ### Tools
 #### [Visual Studio IDE ](vs-ide-benefit.md)
-#### [Visual Studio Team Services](vs-vsts.md)
+#### [Azure DevOps](vs-azure-devops.md)
 #### [Azure Credit](vs-azure.md)
 #### [Visual Studio App Center](vs-visual-studio-app-center.md)
 #### [Parasoft ](vs-parasoft.md)
@@ -24,17 +25,18 @@
 #### [Enterprise Mobility & Security](vs-ems.md)
 #### [Windows Developer Account](vs-windows-dev.md)
 #### [Office 365 Developer subscription](vs-office-dev.md)
+#### [Office 365 subscription](vs-office365.md)
 #### [Power BI Pro ](vs-pbi.md)
 #### [Modern Requirements4TFS](vs-modernreq.md)
 #### [Azure Pay-As-You-Go](vs-azure-payg.md)
-### Professional Development
+### [Professional Development](professional-development.md)
 #### [LinkedIn Learning](vs-linkedin-learning.md)
 #### [DataCamp](vs-datacamp.md)
-#### [Opsgility](vs-opsgility.md)
+#### [Skill Me Up](vs-opsgility.md)
 #### [Pluralsight](vs-pluralsight.md)
 #### [Xamarin University Training](vs-xamarin.md)
 #### [MSDN Magazine subscription](vs-msdn.md)
-### Support Benefits
+### [Support Benefits](technical-support.md)
 #### [Azure Advisory Chat](vs-azure-advisory-chat.md)
 #### [Azure Community](vs-azure-community.md)
 #### [Technical Support](vs-tech-support.md)
@@ -47,6 +49,8 @@
 #### [For Volume Licensing](volume-license-admins.md)
 ##### [VLSC Admin Migration FAQs](vlsc-admin-faq.md)
 ##### Onboarding Your Organization
+###### [Post Migration Onboarding](post-migration-onboarding.md)
+###### [Open and Open License Migration](open-migration.md)
 ###### [Onboarding Email Communications](volume-license-onboarding-email.md)
 ###### [Find Your PCN](find-pcn.md)
 ###### [Find Your Primary Contact](find-primary-contact.md)
@@ -64,7 +68,7 @@
 #### [Expired Subscriptions](handle-expired-license.md)
 #### [Subscribers with Personal Email Sign-ins](personal-email-sign-ins.md)
 ## Acquiring Visual Studio Subscriptions
-### [Compare Subscription Options](https://www.visualstudio.com/vs/pricing)
+### [Compare Subscription Options](https://visualstudio.microsoft.com/vs/pricing)
 ### Buying Cloud Subscriptions
 #### [Overview](vscloud-overview.md)
 #### [Billing FAQ](vscloud-billing-faq.md)
@@ -74,10 +78,9 @@
 #### [Managing subscriptions for MPN](manage-mpn-subscriptions.md)
 #### [Microsoft for Startups](program-startups.md)
 ## Resources
-### [Visual Studio License Terms](vs-license-terms.md)
 ### [Visual Studio Licensing Whitepaper](http://aka.ms/vslicensing)
-### [Compare subscription options and pricing](https://www.visualstudio.com/vs/pricing)
-### [Compare Visual Studio IDE features](https://www.visualstudio.com/vs/compare)
-### [Visual Studio Administration and Subscriptions Support](https://www.visualstudio.com/support/support-overview-vs)
-### [Volume License and Product Use Rights (PUR)](http://www.microsoft.com/licensing/product-licensing/products.aspx)
+### [Compare subscription options and pricing](https://visualstudio.microsoft.com/vs/pricing)
+### [Compare Visual Studio IDE features](https://visualstudio.microsoft.com/vs/compare)
+### [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
+### [Volume Licensing Terms](https://www.microsoft.com/en-us/licensing/product-licensing/products.aspx)
 ### [Microsoft Products and Services Agreement (MPSA)](https://www.microsoft.com/en-us/licensing/mpsa/default.aspx)

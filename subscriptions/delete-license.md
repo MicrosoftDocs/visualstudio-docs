@@ -17,5 +17,5 @@ When a subscriber no longer requires a Visual Studio subscription, such as when 
 1.	Click the name of the subscriber you want to remove. To select multiple subscribers for removal, hold down the **CTRL** key and click each subscriber you wish to remove, or press **CTRL + A** to select and remove all subscribers. The image below shows three subscribers selected.
 2.	To delete the selected subscriber(s), click **Delete**. 
 3.  When the message appears asking you to confirm the deletion, click **OK**. 
-
-![Delete Subscribers](_img\delete-license\delete-subscribers.png)
+    > [!div class="mx-imgBorder"]
+    > ![Delete subscribers](_img\delete-license\delete-subscribers.png)

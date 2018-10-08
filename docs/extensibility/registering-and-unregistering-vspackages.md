@@ -15,11 +15,11 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Registering and Unregistering VSPackages
+# Register and unregister VSPackages
 You use attributes to register a VSPackage, but  
   
-## Registering a VSPackage  
- You can use attributes to control the registration of managed VSPackages. All registration information is contained in a .pkgdef file. For more information on file-based registration, see [CreatePkgDef Utility](../extensibility/internals/createpkgdef-utility.md).  
+## Register a VSPackage  
+ You can use attributes to control the registration of managed VSPackages. All registration information is contained in a *.pkgdef* file. For more information on file-based registration, see [CreatePkgDef utility](../extensibility/internals/createpkgdef-utility.md).  
   
  The following code shows how to use the standard registration attributes to register your VSPackage.  
   
@@ -30,18 +30,18 @@ public sealed class BasicPackage : Package
 {. . .}  
 ```  
   
-## Unregistering an Extension  
+## Unregister an extension  
  If you have been experimenting with a lot of different VSPackages and want to remove them from the experimental instance, you can just run the **Reset** command. Look for **Reset the Visual Studio Experimental Instance** on the start page of your computer, or run this command from the command line:  
   
-```vb  
+```cmd  
 <location of Visual Studio 2015 install>\"Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin\CreateExpInstance.exe" /Reset /VSInstance=14.0 /RootSuffix=Exp  
 ```  
   
- If you want to uninstall an extension that you have installed on your development instance of Visual Studio, go to **Tools / Extensions and Updates**, find the extension, and click **Uninstall**.  
+ If you want to uninstall an extension that you have installed on your development instance of Visual Studio, go to **Tools** > **Extensions and Updates**, find the extension, and click **Uninstall**.  
   
  If for some reason neither of these methods succeeds at uninstalling the extension, you can unregister the VSPackage assembly from the command line as follows:  
   
-```  
+```cmd  
 <location of Visual Studio 2015 install>\"Microsoft Visual Studio 14.0\VSSDK\VisualStudioIntegration\Tools\Bin\regpkg" /unregister <pathToVSPackage assembly>  
 ```  
   
@@ -51,7 +51,7 @@ public sealed class BasicPackage : Package
   
 In certain cases you may need to create a new registration attribute for your extension. You can use registration attributes to add new registry keys or to add new values to existing keys. The new attribute must derive from <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute>, and it must override the <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute.Register%2A> and <xref:Microsoft.VisualStudio.Shell.RegistrationAttribute.Unregister%2A> methods.  
   
-### Creating a Custom Attribute  
+### Create a custom attribute  
   
 The following code shows how to create a new registration attribute.  
   
@@ -64,7 +64,7 @@ The following code shows how to create a new registration attribute.
   
  The <xref:System.AttributeUsageAttribute> is used on attribute classes to specify the program element (class, method, etc.) to which the attribute pertains, whether it can be used more than once, and whether it can be inherited.  
   
-### Creating a Registry Key  
+### Create a registry key  
   
 In the following code, the custom attribute creates a **Custom** subkey under the key for the VSPackage that is being registered.  
   
@@ -90,7 +90,7 @@ public override void Unregister(RegistrationContext context)
 }  
 ```  
   
-### Creating a New Value Under an Existing Registry Key  
+### Create a new value under an existing registry key  
   
 You can add custom values to an existing key. The following code shows how to add a new value to a VSPackage registration key.  
   
@@ -116,5 +116,5 @@ public override void Unregister(RegistrationContext context)
 }  
 ```
   
-## See Also  
+## See also  
  [VSPackages](../extensibility/internals/vspackages.md)

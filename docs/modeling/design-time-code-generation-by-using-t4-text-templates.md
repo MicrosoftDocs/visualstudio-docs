@@ -19,14 +19,14 @@ ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
 # Design-Time Code Generation by using T4 Text Templates
-Design-time T4 text templates let you generate program code and other files in your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. Typically, you write the templates so that they vary the code that they generate according to data from a *model*. A model is a file or database that contains key information about your application's requirements.
+Design-time T4 text templates let you generate program code and other files in your Visual Studio project. Typically, you write the templates so that they vary the code that they generate according to data from a *model*. A model is a file or database that contains key information about your application's requirements.
 
  For example, you could have a model that defines a workflow, either as a table or a diagram. From the model, you can generate the software that executes the workflow. When your users' requirements change, it is easy to discuss the new workflow with the users. Regenerating the code from the workflow is more reliable than updating the code by hand.
 
 > [!NOTE]
 >  A *model* is a data source that describes a particular aspect of an application. It can be any form, in any kind of file or database. It does not have to be in any particular form, such as a UML model or Domain-Specific Language model. Typical models are in the form of tables or XML files.
 
- You are probably already familiar with code generation. When you define resources in a **.resx** file in your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution, a set of classes and methods is generated automatically. The resources file makes it much easier and more reliable to edit the resources than it would be if you had to edit the classes and methods. With text templates, you can generate code in the same manner from a source of your own design.
+ You are probably already familiar with code generation. When you define resources in a **.resx** file in your Visual Studio solution, a set of classes and methods is generated automatically. The resources file makes it much easier and more reliable to edit the resources than it would be if you had to edit the classes and methods. With text templates, you can generate code in the same manner from a source of your own design.
 
  A text template contains a mixture of the text that you want to generate, and program code that generates variable parts of the text. The program code and allows you to repeat or conditionally omit parts of the generated text. The generated text can itself be program code that will form part of your application.
 
@@ -34,13 +34,13 @@ Design-time T4 text templates let you generate program code and other files in y
 
 #### To create a design-time T4 template in Visual Studio
 
-1.  Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project, or open an existing one.
+1.  Create a Visual Studio project, or open an existing one.
 
-     For example, on the **File** menu, choose **New**, **Project**.
+     For example, on the **File** menu, choose **New** > **Project**.
 
 2.  Add a text template file to your project and give it a name that has the extension **.tt**.
 
-     To do this, in **Solution Explorer**, on the shortcut menu of your project, choose **Add**, **New Item**. In the **Add New Item** dialog box select **Text Template** from the middle pane.
+     To do this, in **Solution Explorer**, on the shortcut menu of your project, choose **Add** > **New Item**. In the **Add New Item** dialog box select **Text Template** from the middle pane.
 
      Notice that the **Custom Tool** property of the file is **TextTemplatingFileGenerator**.
 
@@ -71,15 +71,15 @@ Design-time T4 text templates let you generate program code and other files in y
 ### Regenerating the code
  A template will be executed, generating the subsidiary file, in any of the following cases:
 
--   Edit the template and then change focus to a different [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window.
+-   Edit the template and then change focus to a different Visual Studio window.
 
 -   Save the template.
 
--   Click **Transform All Templates** in the **Build** menu. This will transform all the templates in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution.
+-   Click **Transform All Templates** in the **Build** menu. This will transform all the templates in the Visual Studio solution.
 
 -   In **Solution Explorer**, on the shortcut menu of any file, choose **Run Custom Tool**. Use this method to transform a selected subset of templates.
 
- You can also set up a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project so that the templates are executed when the data files that they read have changed. For more information, see [Regenerating the code automatically](#Regenerating).
+ You can also set up a Visual Studio project so that the templates are executed when the data files that they read have changed. For more information, see [Regenerating the code automatically](#Regenerating).
 
 ## Generating Variable Text
  Text templates let you use program code to vary the content of the generated file.
@@ -179,7 +179,7 @@ Design-time T4 text templates let you generate program code and other files in y
 
 3.  Save the file and inspect the generated file, which now contains the following code:
 
-    ```
+    ```csharp
     class MyGeneratedClass {
       private int P1 = 0;
       private int P2 = 0;
@@ -214,7 +214,7 @@ Design-time T4 text templates let you generate program code and other files in y
 <#@ import namespace="System.IO" #>
 ```
 
- The `assembly` directive makes the specified assembly available to your template code, in the same manner as the References section of a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project. You do not need to include a reference to System.dll, which is referenced automatically. The `import` directive lets you use types without using their fully qualified names, in the same manner as the `using` directive in an ordinary program file.
+ The `assembly` directive makes the specified assembly available to your template code, in the same manner as the References section of a Visual Studio project. You do not need to include a reference to System.dll, which is referenced automatically. The `import` directive lets you use types without using their fully qualified names, in the same manner as the `using` directive in an ordinary program file.
 
  For example, after importing **System.IO**, you could write:
 
@@ -268,8 +268,8 @@ Design-time T4 text templates let you generate program code and other files in y
 
  The type of `this.Host` (in VB, `Me.Host`) is `Microsoft.VisualStudio.TextTemplating.ITextTemplatingEngineHost`.
 
-### Getting data from [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]
- To use services provided in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], set the `hostSpecific` attribute and load the `EnvDTE` assembly. You can then use IServiceProvider.GetCOMService() to access DTE and other services. For example:
+### Getting data from Visual Studio
+ To use services provided in Visual Studio, set the `hostSpecific` attribute and load the `EnvDTE` assembly. You can then use IServiceProvider.GetCOMService() to access DTE and other services. For example:
 
 ```scr
 <#@ template hostspecific="true" language="C#" #>
@@ -287,8 +287,8 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
 > [!TIP]
 >  A text template runs in its own app domain, and services are accessed by marshaling. In this circumstance, GetCOMService() is more reliable than GetService().
 
-##  <a name="Regenerating"></a> Regenerating the code automatically
- Typically, several files in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution are generated with one input model. Each file is generated from its own template, but the templates all refer to the same model.
+## <a name="Regenerating"></a> Regenerating the code automatically
+ Typically, several files in a Visual Studio solution are generated with one input model. Each file is generated from its own template, but the templates all refer to the same model.
 
  If the source model changes, you should re-run all the templates in the solution. To do this manually, choose **Transform All Templates** on the **Build** menu.
 
@@ -298,7 +298,7 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
 > In Visual Studio 2017, the Text Template Transformation SDK and the Visual Studio Modeling SDK are installed automatically when you install specific features of Visual Studio. For more details, see
 [this blog post](https://blogs.msdn.microsoft.com/visualstudioalm/2016/12/12/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
 
-```
+```xml
 <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets" />
 <PropertyGroup>
    <TransformOnBuild>true</TransformOnBuild>
@@ -309,19 +309,19 @@ Number of projects in this VS solution:  <#= dte.Solution.Projects.Count #>
  For more information, see [Code Generation in a Build Process](../modeling/code-generation-in-a-build-process.md).
 
 ## Error reporting
- To place error and warning messages in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] error window, you can use these methods:
+ To place error and warning messages in the Visual Studio error window, you can use these methods:
 
 ```
 Error("An error message");
 Warning("A warning message");
 ```
 
-##  <a name="Converting"></a> Converting an existing file to a template
+## <a name="Converting"></a> Converting an existing file to a template
  A useful feature of templates is that they look very much like the files that they generate, together with some inserted program code. This suggests a useful method of creating a template. First create an ordinary file as a prototype, such as a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] file, and then gradually introduce generation code that varies the resulting file.
 
 #### To convert an existing file to a design-time template
 
-1.  To your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project, add a file of the type that you want to generate, such as a `.cs`, `.vb`, or `.resx` file.
+1.  To your Visual Studio project, add a file of the type that you want to generate, such as a `.cs`, `.vb`, or `.resx` file.
 
 2.  Test the new file to make sure that it works.
 
@@ -362,7 +362,7 @@ Warning("A warning message");
 |---------------|-----------|
 |Write and debug a more advanced text template, with code that uses auxiliary functions, included files, and external data.|[Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)|
 |Generate documents from templates at run time.|[Run-Time Text Generation with T4 Text Templates](../modeling/run-time-text-generation-with-t4-text-templates.md)|
-|Run text generation outside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].|[Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md)|
+|Run text generation outside Visual Studio.|[Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md)|
 |Transform your data in the form of a domain-specific language.|[Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)|
 |Write directive processors to transform your own data sources.|[Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)|
 

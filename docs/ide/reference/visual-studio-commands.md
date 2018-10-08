@@ -55,7 +55,6 @@ Visual Studio commands allow you to invoke a command from the **Command** window
 |[New File](../../ide/reference/new-file-command.md)|Creates a new file and adds it to the currently selected project.|
 |[Open File](../../ide/reference/open-file-command.md)|Opens an existing file and allows you to specify an editor.|
 |[Open Project](../../ide/reference/open-project-command.md)|Opens an existing project and allows you to add the project to the current solution.|
-|[Open Solution](../../ide/reference/open-solution-command.md)|Opens an existing solution.|
 |[Print](../../ide/reference/print-command.md)|Evaluates the expression and displays the results or the specified text.|
 |[Quick Watch Command](../../ide/reference/quick-watch-command.md)|Displays the selected or specified text in the **Expression** field of the **Quick Watch** dialog box.|
 |[Replace](../../ide/reference/replace-command.md)|Replaces text in files using a subset of the options available on the **Find and Replace** control.|
@@ -64,7 +63,7 @@ Visual Studio commands allow you to invoke a command from the **Command** window
 |[Set Current Thread](../../ide/reference/set-current-thread-command.md)|Allows you to view a particular thread.|
 |[Set Radix](../../ide/reference/set-radix-command.md)|Determines the number of bytes to view.|
 |[Shell](../../ide/reference/shell-command.md)|Launches programs from within [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] as though the command has been executed from the command prompt.|
-|[ShowWebBrowser Command](../../ide/reference/showwebbrowser-command.md)|Displays the URL you specify in a Web browser window either within the integrated development environment (IDE) or external to the IDE.|
+|[ShowWebBrowser Command](../../ide/reference/showwebbrowser-command.md)|Displays the URL you specify in a web browser window either within the integrated development environment (IDE) or external to the IDE.|
 |[Start](../../ide/reference/start-command.md)|Begins the debug process and allows you to specify how errors are handled.|
 |[Path](../../ide/reference/symbol-path-command.md)|Sets the list of directories for the debugger to search for symbols.|
 |[Toggle Breakpoint](../../ide/reference/toggle-breakpoint-command.md)|Turns the breakpoint either on or off, depending on its current state, at the current location in the file.|

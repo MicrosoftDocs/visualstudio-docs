@@ -26,7 +26,7 @@ The Data Science and Analytical Applications workload, which you select and inst
 R and Python are two of the primary scripting languages used for data science. Both languages are easy to learn and are supported by a rich ecosystem of packages. Those packages address a wide range of scenarios such as data acquisition, cleaning, model training, deployment, and plotting. F# is also a powerful functional-first .NET language that’s suited for a wide variety of data processing tasks.
 
 <!--Note link on the image because this one is large -->
-[![Screenshots of Visual Studio with R, Python, and F#](media/data-science-workload-screens.png)](media/data-science-workload-screens.png)
+[![Screenshots of Visual Studio with R, Python, and F#](media/data-science-workload-screens.png)](media/data-science-workload-screens.png#lightbox)
 
 ## Workload options
 
@@ -45,9 +45,9 @@ By default, the workload installs the following options, which you can modify in
 
 Although F# is included with a number of other workloads and Python has a workload of its own, Data Science and Analytical Applications is the only workload at present that includes R. However, you can also install R independent of the workload. On the **Individual Components** tab in the installer, select the following R options:
 
-- **Development activities > R language support**
-- **Development activities > Microsoft R Client**
-- **Compilers, build tools, and runtimes > Runtime support for R development tools**
+- **Development activities** > **R language support**
+- **Development activities** > **Microsoft R Client**
+- **Compilers, build tools, and runtimes** > **Runtime support for R development tools**
 
 ## SQL Server integration
 
@@ -71,7 +71,7 @@ To take full advantage of SQL Server integration, use the Visual Studio installe
 
 For more information:
 
-- [Working with SQL Server and R](../rtvs/sql-server.md)
+- [Work with SQL Server and R](integrating-sql-server-with-r.md)
 - [In-database Advanced Analytics with R in SQL Server 2016 (blog)](https://blogs.technet.microsoft.com/dataplatforminsider/2016/03/29/in-database-advanced-analytics-with-r-in-sql-server-2016/)
 - [Python in SQL Server 2017: enhanced in-database machine learning (blog)](https://blogs.technet.microsoft.com/dataplatforminsider/2017/04/19/python-in-sql-server-2017-enhanced-in-database-machine-learning/)
 
@@ -84,4 +84,4 @@ The Azure SDK for Python makes it easy to consume and manage Microsoft Azure ser
 Azure Notebooks (currently in preview) provides free online access to Jupyter notebooks running in the cloud on Microsoft Azure. The service includes sample notebooks in Python, R, and F# to get you started. Visit[notebooks.azure.com](https://notebooks.azure.com/).
 
 <!--Note link on the image because this one is large -->
-[![Screenshots of Azure Notebooks with the Introduction to R sample](media/data-science-workload-notebooks.png)](media/data-science-workload-notebooks.png)
+[![Screenshots of Azure Notebooks with the Introduction to R sample](media/data-science-workload-notebooks.png)](media/data-science-workload-notebooks.png#lightbox)

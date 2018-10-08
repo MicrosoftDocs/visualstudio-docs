@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Include Element
+# Include element
 The Include element specifies a file that can be located on the supplied include path for insertion into the current file.  All symbols and types defined will become part of the compiled result.  
   
 ## Syntax  
@@ -26,7 +26,7 @@ The Include element specifies a file that can be located on the supplied include
 <Include href="stdidcmd.h" />  
 ```  
   
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
   
 ### Attributes  
@@ -36,17 +36,17 @@ The Include element specifies a file that can be located on the supplied include
 |href|Required. The path to the header file:<br /><br /> href="stdidcmd.h"|  
 |Condition|Optional. See [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
   
-### Child Elements  
+### Child elements  
   
 |Element|Description|  
 |-------------|-----------------|  
 |None.|None.|  
   
-### Parent Elements  
+### Parent elements  
   
 |Element|Description|  
 |-------------|-----------------|  
-|[CommandTable Element](../extensibility/commandtable-element.md)|Defines all of the elements that represent commands — that is, menu items, menus, toolbars, and combo boxes — that a VSPackage provides to the IDE.|  
+|[CommandTable element](../extensibility/commandtable-element.md)|Defines all of the elements that represent commands — that is, menu items, menus, toolbars, and combo boxes — that a VSPackage provides to the IDE.|  
   
 ## Example  
   
@@ -54,5 +54,5 @@ The Include element specifies a file that can be located on the supplied include
 <Include href="PackagePlacements.vsct"/>  
 ```  
   
-## See Also  
- [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
+## See also  
+ [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

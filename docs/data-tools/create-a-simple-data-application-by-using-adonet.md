@@ -18,7 +18,7 @@ ms.workload:
 
 When you create an application that manipulates data in a database, you perform basic tasks such as defining connection strings, inserting data, and running stored procedures. By following this topic, you can discover how to interact with a database from within a simple Windows Forms "forms over data" application by using Visual C# or Visual Basic and ADO.NET.  All .NET data technologies—including datasets, LINQ to SQL, and Entity Framework—ultimately perform steps that are very similar to those shown in this article.
 
- This article demonstrates a simple way to get data out of a database in a very fast manner. If your application needs to modify data in non-trivial ways and update the database, you should consider using Entity Framework and using data binding to automatically sync user interface controls to changes in the underlying data.
+ This article demonstrates a simple way to get data out of a database in a fast manner. If your application needs to modify data in non-trivial ways and update the database, you should consider using Entity Framework and using data binding to automatically sync user interface controls to changes in the underlying data.
 
 > [!IMPORTANT]
 > To keep the code simple, it doesn't include production-ready exception handling.
@@ -31,7 +31,7 @@ To create the application, you'll need:
 
 -   SQL Server Express LocalDB. If you don't have SQL Server Express LocalDB, you can install it from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express).
 
-This topic assumes that you're familiar with the basic functionality of the Visual Studio IDE and can create a Windows Forms application, add forms to the project, put buttons and other controls on the forms, set properties of the controls, and code simple events. If you aren't comfortable with these tasks, we suggest that you complete the [Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md) topic before you start this walkthrough.
+This topic assumes that you're familiar with the basic functionality of the Visual Studio IDE and can create a Windows Forms application, add forms to the project, put buttons and other controls on the forms, set properties of the controls, and code simple events. If you aren't comfortable with these tasks, we suggest that you complete the [Getting started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md) topic before you start this walkthrough.
 
 ## Set up the sample database
 
@@ -39,7 +39,7 @@ Create the sample database by following these steps:
 
 1. In Visual Studio, open the **Server Explorer** window.
 
-2. Right-click on **Data Connections** and choose **Create New SQL Server Database...".
+2. Right-click on **Data Connections** and choose **Create New SQL Server Database**.
 
 3. In the **Server name** text box, enter **(localdb)\mssqllocaldb**.
 
@@ -55,21 +55,21 @@ Create the sample database by following these steps:
 
 7. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
-     After a short time, the query finishes executing and the database objects are created. The database contains two tables: Customer and Orders. These tables contain no data initially, but you can add data when you run the application that you'll create. The database also contains four simple stored procedures.
+     After a short time, the query finishes running and the database objects are created. The database contains two tables: Customer and Orders. These tables contain no data initially, but you can add data when you run the application that you'll create. The database also contains four simple stored procedures.
 
 ## Create the forms and add controls
 
-1.  Create a project for a Windows Forms application, and then name it SimpleDataApp.
+1.  Create a project for a Windows Forms application, and then name it **SimpleDataApp**.
 
-     Visual Studio creates the project and several files, including an empty Windows form that's named Form1.
+     Visual Studio creates the project and several files, including an empty Windows form that's named **Form1**.
 
 2.  Add two Windows forms to your project so that it has three forms, and then give them the following names:
 
-    -   Navigation
+    -   **Navigation**
 
-    -   NewCustomer
+    -   **NewCustomer**
 
-    -   FillOrCancel
+    -   **FillOrCancel**
 
 3.  For each form, add the text boxes, buttons, and other controls that appear in the following illustrations. For each control, set the properties that the tables describe.
 
@@ -78,7 +78,7 @@ Create the sample database by following these steps:
 
  **Navigation form**
 
- ![Navigation dialog box](../data-tools/media/simpleappnav.png "SimpleAppNav")
+ ![Navigation dialog box](../data-tools/media/simpleappnav.png)
 
 |Controls for the Navigation form|Properties|
 |--------------------------------------|----------------|
@@ -88,7 +88,7 @@ Create the sample database by following these steps:
 
  **NewCustomer form**
 
- ![Add  a new customer and place an order](../data-tools/media/simpleappnewcust.png "SimpleAppNewCust")
+ ![Add  a new customer and place an order](../data-tools/media/simpleappnewcust.png)
 
 |Controls for the NewCustomer form|Properties|
 |---------------------------------------|----------------|
@@ -103,7 +103,7 @@ Create the sample database by following these steps:
 
  **FillOrCancel form**
 
- ![fill or cancel orders](../data-tools/media/simpleappcancelfill.png "SimpleAppCancelFill")
+ ![fill or cancel orders](../data-tools/media/simpleappcancelfill.png)
 
 |Controls for the FillOrCancel form|Properties|
 |----------------------------------------|----------------|
@@ -116,9 +116,9 @@ Create the sample database by following these steps:
 |Button|Name = btnFinishUpdates|
 
 ## Store the connection string
- When your application tries to open a connection to the database, your application must have access to the connection string. To avoid entering the string manually on each form, store the string in the App.config file in your project, and create a method that returns the string when the method is called from any form in your application.
+ When your application tries to open a connection to the database, your application must have access to the connection string. To avoid entering the string manually on each form, store the string in the *App.config* file in your project, and create a method that returns the string when the method is called from any form in your application.
 
- You can find the connection string by right-clicking on the **Sales** data connection in **Server Explorer** and choosing **Properties**. Locate the **ConnectionString** property, then use Ctrl+A, Ctrl+C to select and copy the string to the clipboard.
+ You can find the connection string by right-clicking on the **Sales** data connection in **Server Explorer** and choosing **Properties**. Locate the **ConnectionString** property, then use **Ctrl**+**A**, **Ctrl**+**C** to select and copy the string to the clipboard.
 
 1.  If you're using C#, in **Solution Explorer**, expand the **Properties** node under the project, and then open the **Settings.settings** file.
     If you're using Visual Basic, in **Solution Explorer**, click **Show All Files**, expand the **My Project** node, and then open the **Settings.settings** file.
@@ -132,7 +132,7 @@ Create the sample database by following these steps:
 5.  In the **Value** column, enter your connection string (without any outside quotes), and then save your changes.
 
 > [!NOTE]
-> In a real application, you should store the connection string securely, as described in [Connection Strings and Configuration Files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files).
+> In a real application, you should store the connection string securely, as described in [Connection strings and configuration files](/dotnet/framework/data/adonet/connection-strings-and-configuration-files).
 
 ##  Write the code for the forms
 
@@ -144,7 +144,7 @@ The Navigation form opens when you run the application. The **Add an account** b
 
 #### Make the Navigation form the startup form
 
-If you're using C#, in **Solution Explorer**, open Program.cs, and then change the `Application.Run` line to this: `Application.Run(new Navigation());`
+If you're using C#, in **Solution Explorer**, open **Program.cs**, and then change the `Application.Run` line to this: `Application.Run(new Navigation());`
 
 If you're using Visual Basic, in **Solution Explorer**, open the **Properties** window, select the **Application** tab, and then select **SimpleDataApp.Navigation** in the **Startup form** list.
 

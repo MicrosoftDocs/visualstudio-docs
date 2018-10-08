@@ -6,11 +6,11 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.author: gewarren
 manager: douge
-ms.workload: 
+ms.workload:
   - "multiple"
 author: gewarren
 ---
-# Using HTML5 Controls in Coded UI Tests
+# Using HTML5 controls in coded UI tests
 
 Coded UI tests include support for some of the HTML5 controls that are included in Internet Explorer 9 and Internet Explorer 10.
 
@@ -26,21 +26,10 @@ Coded UI tests include support for some of the HTML5 controls that are included 
 > If you create a coded UI test in Internet Explorer 10, it might not run using Internet Explorer 9 or Internet Explorer 8. This is because Internet Explorer 10 includes HTML5 controls such as Audio, Video, ProgressBar and Slider. These HTML5 controls are not recognized by Internet Explorer 9, or Internet Explorer 8. Likewise, your coded UI test using Internet Explorer 9 might include some HTML5 controls that also will not be recognized by Internet Explorer 8.
 
 
-## Supported HTML5 Controls
- Coded UI tests include support for record, playback, and validation of the following HTML5 controls:
-
--   [Audio Control](#UsingHTML5ControlsCodedUITestsAudio)
-
--   [Video Control](#UsingHTML5ControlsCodedUITestsVideo)
-
--   [Slider](#UsingHTML5ControlsCodedUITestsSlider)
-
--   [ProgressBar](#UsingHTML5ControlsCodedUITestsProgressBar)
-
-###  <a name="UsingHTML5ControlsCodedUITestsAudio"></a> Audio Control
+## Audio Control
  **Audio control:** Actions on the HTML5 Audio control are correctly recorded and played back.
 
- ![HTML5 Audio control](../test/media/codedui_html5_audio.png "CodedUI_HTML5_Audio")
+ ![HTML5 Audio control](../test/media/codedui_html5_audio.png)
 
 |Action|Recording|Generated Code|
 |------------|---------------|--------------------|
@@ -51,27 +40,7 @@ Coded UI tests include support for some of the HTML5 controls that are included 
 |**Unmute audio**<br /><br /> Directly from control, or from controls context menu.|Unmute \<name> Audio|HtmlAudio.Unmute()|
 |**Change volume of audio**|Set volume of \<name> Audio to 79%|HtmlAudio.SetVolume(float)|
 
- The following properties are available for HtmlAudio and you can add an assertion on all of them:
-
-```
-string AutoPlay
-string Controls
-string CurrentSrc
-string CurrentTime
-string CurrentTimeAsString
-string Duration
-string DurationAsString
-string Ended
-string Loop
-string Muted
-string Paused
-string PlaybackRate
-string ReadyState
-string Seeking
-string Src
-string Volume
-
-```
+See [HTMLAudioElement](https://developer.mozilla.org/docs/Web/API/HTMLAudioElement) for a list of properties on which you can add an assertion.
 
  **Search properties:** The search properties for `HtmlAudio` are `Id`, `Name` and `Title`.
 
@@ -81,10 +50,10 @@ string Volume
 > The amount of time for Seek and Pause can be significant. During playback, the coded UI test will wait until the specified time in `(TimeSpan)` before Pausing the audio. If by some special circumstance, the specified time has passed before hitting the Pause command, an exception will be thrown.
 
 
-###  <a name="UsingHTML5ControlsCodedUITestsVideo"></a> Video Control
+## Video Control
  **Video control:** Actions on the HTML5 Video control are correctly recorded and played back.
 
- ![HTML5 Video control](../test/media/codedui_html5_video.png "CodedUI_HTML5_Video")
+ ![HTML5 Video control](../test/media/codedui_html5_video.png)
 
 |Action|Recording|Generated Code|
 |------------|---------------|--------------------|
@@ -95,14 +64,7 @@ string Volume
 |**Unmute video**<br /><br /> Directly from control, or from controls context menu.|Unmute \<name> Video|HtmlVideo.Unmute()|
 |**Change volume of video**|Set volume of \<name> Video to 79%||
 
- All the properties of HtmlAudio are available for HtmlVideo. In addition, the following three properties are also available. Assertion can be added on all of them.
-
-```
-string Poster
-string VideoHeight
-string VideoWidth
-
-```
+See [HTMLVideoElement](https://developer.mozilla.org/docs/Web/HTML/Element/video) for a list of properties on which you can add an assertion.
 
  **Search properties:** The search properties for `HtmlVideo` are `Id`, `Name` and `Title`.
 
@@ -111,35 +73,14 @@ string VideoWidth
 > [!NOTE]
 > If you rewind or fast forward the video using -30s or +30s labels, this will be aggregated to seek to the appropriate time.
 
+## ProgressBar
+ **ProgressBar control:** The ProgressBar is a non-interactable control. You can add assertions on the `Value` and `Max` properties of this control. For more information, see [HTMLProgressElement](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress).
 
-###  <a name="UsingHTML5ControlsCodedUITestsSlider"></a> Slider
- **Slider control:** Actions on the HTML5 Slider control are correctly recorded and played back.
-
- ![HTML5 Slider control](../test/media/codedui_html5_slider.png "CodedUI_HTML5_Slider")
-
-|Action|Recording|Generated Code|
-|------------|---------------|--------------------|
-|**Set a position in the slider**|Set position to \<x> in \<name> slider|HtmlSlider.ValueAsNumber=\<x>|
-
- The following properties are available for HtmlSlider and assertion can be added on all of them:
-
-```
-string Disabled
-string Max
-string Min
-string Required
-string Step
-string ValueAsNumber
-```
-
-###  <a name="UsingHTML5ControlsCodedUITestsProgressbar"></a> ProgressBar
- **ProgreesBar control:** The ProgressBar is a non-interactable control. You can add assertions on the `Value` and `Max` properties of this control.
-
- ![HTML5 ProgressBar control](../test/media/codedui_html5_progressbar.png "CodedUI_HTML5_ProgressBar")
+ ![HTML5 ProgressBar control](../test/media/codedui_html5_progressbar.png)
 
 ## See also
 
-- [HTML Elements](http://go.microsoft.com/fwlink/?LinkID=232441)
-- [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
-- [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md)
-- [Supported Configurations and Platforms for Coded UI Tests and Action Recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)
+- [HTML elements](https://developer.mozilla.org/docs/Web/HTML/Element)
+- [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)
+- [Create coded UI tests](../test/use-ui-automation-to-test-your-code.md)
+- [Supported configurations and platforms for coded UI tests and action recordings](../test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md)

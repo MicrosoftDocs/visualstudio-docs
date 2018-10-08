@@ -12,7 +12,7 @@ ms.workload:
   - "multiple"
 ---
 # Events (VSPerfCmd)
-The VSPerfCmd.exe **Events** option controls Event Tracing for Windows (ETW) logging. ETW data is saved to an .etl file that is separate from the profiler data file. The data can be viewed in a report using the [VSPerfReport](../profiling/vsperfreport.md) /summary:etw command.  
+The *VSPerfCmd.exe* **Events** option controls Event Tracing for Windows (ETW) logging. ETW data is saved to an .etl file that is separate from the profiler data file. The data can be viewed in a report using the [VSPerfReport](../profiling/vsperfreport.md) /summary:etw command.  
   
  The **Events** option can be called at any time before the VSPerfCmd **Shutdown** command is called to stop profiling.  
   
@@ -79,10 +79,10 @@ C:\<path>VSPerfCmd -events on, \".NET Common Language Runtime\", 0x7fffffff, 5
 ```  
   
 > [!IMPORTANT]
->  If you do not exclude the startup events, then because these events are not listed in the Managed Object Format (MOF) file, they appear as GUIDs in the report. For more information, see this page on the Microsoft Web site: [Sample Managed Object Format (MOF) File](http://go.microsoft.com/fwlink/?linkid=37118).  
+>  If you do not exclude the startup events, then because these events are not listed in the Managed Object Format (MOF) file, they appear as GUIDs in the report. For more information, see this page on the Microsoft Web site: [Sample Managed Object Format (MOF) file](http://go.microsoft.com/fwlink/?linkid=37118).  
   
-## See Also  
+## See also  
  [VSPerfCmd](../profiling/vsperfcmd.md)   
- [Profiling Stand-Alone Applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
- [Profiling ASP.NET Web Applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
- [Profiling Services](../profiling/command-line-profiling-of-services.md)
+ [Profile stand-alone applications](../profiling/command-line-profiling-of-stand-alone-applications.md)   
+ [Profile ASP.NET web applications](../profiling/command-line-profiling-of-aspnet-web-applications.md)   
+ [Profile services](../profiling/command-line-profiling-of-services.md)

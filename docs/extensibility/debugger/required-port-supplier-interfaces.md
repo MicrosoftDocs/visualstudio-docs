@@ -15,14 +15,14 @@ manager: douge
 ms.workload: 
   - "vssdk"
 ---
-# Required Port Supplier Interfaces
+# Required port supplier interfaces
 A port supplier must implement the [IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md) interface.[IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md)  
   
- Because a port supplier supplies ports, it must also implement them. Therefore, it must implement the following interfaces:  
+ A port supplier supplies ports and implements them. Therefore, it must run the following interfaces:  
   
 -   [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md)  
   
-     Describes the port and can enumerate all processes running on the port.  
+     Describes the port and enumerates all processes running on the port.  
   
 -   [IDebugPortEx2](../../extensibility/debugger/reference/idebugportex2.md)  
   
@@ -30,18 +30,18 @@ A port supplier must implement the [IDebugPortSupplier2](../../extensibility/deb
   
 -   [IDebugPortNotify2](../../extensibility/debugger/reference/idebugportnotify2.md)  
   
-     Provides a mechanism for programs running within this port's context to notify it of program node creation and destruction. For more information, see [Program Nodes](../../extensibility/debugger/program-nodes.md).  
+     Provides a mechanism for programs running within this port's context to notify it of program node creation and destruction. For more information, see [Program nodes](../../extensibility/debugger/program-nodes.md).  
   
 -   `IConnectionPointContainer`  
   
      Provides a connection point for [IDebugPortEvents2](../../extensibility/debugger/reference/idebugportevents2.md).  
   
-## Port Supplier Operation  
+## Port supplier operation  
  The [IDebugPortEvents2](../../extensibility/debugger/reference/idebugportevents2.md) sink receives notifications when process and programs are created and destroyed on a port. A port is required to send [IDebugProcessCreateEvent2](../../extensibility/debugger/reference/idebugprocesscreateevent2.md) when a process is created and [IDebugProcessDestroyEvent2](../../extensibility/debugger/reference/idebugprocessdestroyevent2.md) when a process is destroyed on the port. A port is also required to send [IDebugProgramCreateEvent2](../../extensibility/debugger/reference/idebugprogramcreateevent2.md) when a program is created and [IDebugProgramDestroyEvent2](../../extensibility/debugger/reference/idebugprogramdestroyevent2.md) when a program is destroyed in a process running on the port.  
   
  A port typically sends program create and destroy events in response to the [AddProgramNode](../../extensibility/debugger/reference/idebugportnotify2-addprogramnode.md) and [RemoveProgramNode](../../extensibility/debugger/reference/idebugportnotify2-removeprogramnode.md) methods, respectively.  
   
- Because a port can launch and terminate both physical processes and logical programs, these interfaces must also be implemented by the debug engine:  
+ Because a port can launch and terminate both physical processes and logical programs, the following interfaces must also be implemented by the debug engine:  
   
 -   [IDebugProcess2](../../extensibility/debugger/reference/idebugprocess2.md)  
   
@@ -77,5 +77,5 @@ A port supplier must implement the [IDebugPortSupplier2](../../extensibility/deb
   
      Provides a way for the SDM to attach to this program.  
   
-## See Also  
- [Implementing a Port Supplier](../../extensibility/debugger/implementing-a-port-supplier.md)
+## See also  
+ [Implementing a port supplier](../../extensibility/debugger/implementing-a-port-supplier.md)

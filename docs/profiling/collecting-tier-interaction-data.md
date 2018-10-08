@@ -17,7 +17,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Collecting tier interaction data
+# Collect tier interaction data
 
 Tier interaction profiling provides additional information about the execution times of functions of multi-tiered applications that communicate with databases through ADO.NET services. Data is collected only for synchronous function calls.
 
@@ -43,4 +43,4 @@ Because of a bug in the Performance Wizard, you must add the tier interaction da
 
 ## See also
 
-[Tier Interactions View](../profiling/tier-interactions-view.md)
+[Tier interactions view](../profiling/tier-interactions-view.md)

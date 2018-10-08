@@ -1,6 +1,6 @@
 ---
 title: Using EditorConfig settings in Visual Studio
-ms.date: 12/13/2017
+ms.date: 08/01/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "editorconfig [Visual Studio]"
@@ -16,8 +16,7 @@ In Visual Studio 2017, you can add an [EditorConfig](http://editorconfig.org/) f
 
 EditorConfig settings are supported by numerous code editors and IDEs, including Visual Studio. It's a portable component that travels with your code, and can enforce coding styles even outside of Visual Studio.
 
-> [!NOTE]
-> When you add an EditorConfig file to your project in Visual Studio, the formatting of existing code is not changed unless you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D**). However, any new lines of code are formatted according to the EditorConfig settings.
+When you add an EditorConfig file to your project in Visual Studio, the formatting of existing code is not changed unless you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D** in the default profile). However, any new lines of code are formatted according to the EditorConfig settings. You can define which EditorConfig settings you want **Format Document** to apply on the [**Formatting** options page](reference/options-text-editor-csharp-formatting.md#format-document-settings).
 
 ## Coding consistency
 
@@ -26,6 +25,9 @@ Settings in EditorConfig files enable you to maintain consistent coding styles a
 Coding conventions you use on your personal projects may differ from those used on your team's projects. For example, you might prefer that when you're coding, indenting adds a tab character. However, your team might prefer that indenting adds four space characters instead of a tab character. EditorConfig files resolve this problem by enabling you to have a configuration for each scenario.
 
 Because the settings are contained in a file in the codebase, they travel along with that codebase. As long as you open the code file in an EditorConfig-compliant editor, the text editor settings are implemented. For more information about EditorConfig files, see the [EditorConfig.org](http://editorconfig.org/) website.
+
+> [!NOTE]
+> Conventions that are set in an EditorConfig file cannot currently be enforced in a CI/CD pipeline as build errors or warnings. Any style deviations appear only in the Visual Studio editor and **Error List**.
 
 ## Supported settings
 
@@ -52,7 +54,7 @@ If you remove an EditorConfig file from your project or codebase, you must close
 
 1. Open a project or solution in Visual Studio. Select either the project or solution node, depending on whether your *.editorconfig* settings should apply to all projects in the solution or just one. You can also select a folder in your project or solution to add the *.editorconfig* file to.
 
-1. From the menu bar, choose **Project** > **Add New Item...**, or press **Ctrl**+**Shift**+**A**.
+1. From the menu bar, choose **Project** > **Add New Item**, or press **Ctrl**+**Shift**+**A**.
 
    The **Add New Item** dialog box opens.
 
@@ -75,9 +77,15 @@ If you remove an EditorConfig file from your project or codebase, you must close
    csharp_new_line_before_open_brace = methods
    ```
 
-Alternatively, you can install the [EditorConfig Language Service extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig). After you install this extension, simply choose **Add** > **.editorconfig File** from the right-click or context menu of the solution node, project node, or any folder in Solution Explorer.
+### Other ways to add an EditorConfig file
 
-![Add .editorconfig file with extension](media/editorconfig-extension-add.png)
+There are a couple other ways you can add an EditorConfig file to your project:
+
+- Install the [EditorConfig Language Service extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig) to more easily add an empty *.editorconfig* file to your project. After you install this extension, simply choose **Add** > **.editorconfig File** from the right-click or context menu of the solution node, project node, or any folder in **Solution Explorer**. This extension also improves the editing experience for the *.editorconfig* file.
+
+   ![Add .editorconfig file with extension](media/editorconfig-extension-add.png)
+
+- Try out the [IntelliCode extension](/visualstudio/intellicode/intellicode-visual-studio). This experimental extension infers your code styles from existing code, and then creates a non-empty *.editorconfig* file with your code style preferences already defined.
 
 ## Override EditorConfig settings
 
@@ -114,7 +122,7 @@ The following example shows the indent state of a C# code snippet before and aft
 
 ![Text Editor tab setting](../ide/media/vside_editorconfig_tabsetting.png)
 
-As expected, pressing the **Tab** key on the next line indents the line by adding four additional white space characters.
+As expected, pressing the **Tab** key on the next line indents the line by adding four additional white-space characters.
 
 ![Code before using EditorConfig](../ide/media/vside_editorconfig_before.png)
 
@@ -157,4 +165,4 @@ You can control the scope of your EditorConfig conventions by setting the ```roo
 - [.NET naming conventions](../ide/editorconfig-naming-conventions.md)
 - [Supporting EditorConfig for a language service](../extensibility/supporting-editorconfig.md)
 - [EditorConfig.org](http://editorconfig.org/)
-- [Writing code in the editor](writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor](writing-code-in-the-code-and-text-editor.md)

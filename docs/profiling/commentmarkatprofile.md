@@ -15,7 +15,7 @@ ms.workload:
   - "multiple"
 ---
 # CommentMarkAtProfile
-The `CommentMarkAtProfile` method inserts a timestamp value, a numeric mark, and a comment string in the .vsp file. The timestamp value can be used to synchronize external events. For the mark and comment to be inserted, profiling for the thread that contains the CommentMarkAtProfile function must be ON.  
+The `CommentMarkAtProfile` method inserts a timestamp value, a numeric mark, and a comment string in the .*vsp* file. The timestamp value can be used to synchronize external events. For the mark and comment to be inserted, profiling for the thread that contains the CommentMarkAtProfile function must be ON.  
   
 ## Syntax  
   
@@ -39,7 +39,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkAtProfile (
   
  A pointer to the text string to insert. The string must be less than 256 characters including the NULL terminator.  
   
-## Property Value/Return Value  
+## Property value/return value  
  The function indicates success or failure by using **PROFILE_COMMAND_STATUS** enumeration. The return value can be one of the following:  
   
 |Enumerator|Description|  
@@ -58,15 +58,15 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkAtProfile (
 > [!IMPORTANT]
 >  CommentMarkAtProfile methods should be used with instrumentation only.  
   
-## .NET Framework Equivalent  
- Microsoft.VisualStudio.Profiler.dll  
+## .NET Framework equivalent  
+ *Microsoft.VisualStudio.Profiler.dll*  
   
-## Function Information  
+## Function information  
   
 |||  
 |-|-|  
-|**Header**|Include VSPerf.h|  
-|**Library**|Use VSPerf.lib|  
+|**Header**|Include *VSPerf.h*|  
+|**Library**|Use *VSPerf.lib*|  
 |**Unicode**|Implemented as CommentMarkAtProfileW (Unicode) and CommentMarkAtProfileA (ANSI).|  
   
 ## Example  
@@ -110,5 +110,5 @@ void ExerciseCommentMarkAtProfile(void)
 }  
 ```  
   
-## See Also  
- [Visual Studio Profiler API Reference (Native)](../profiling/visual-studio-profiler-api-reference-native.md)
+## See also  
+ [Visual Studio Profiler API reference (native)](../profiling/visual-studio-profiler-api-reference-native.md)

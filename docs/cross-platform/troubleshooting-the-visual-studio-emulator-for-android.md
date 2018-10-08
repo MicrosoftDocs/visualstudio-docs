@@ -5,13 +5,13 @@ ms.date: "11/04/2016"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 ms.assetid: f3fb5df4-3aae-40e4-9450-bbe15b0c5af5
-author: mgmclemore
-ms.author: mamcle
+author: conceptdev
+ms.author: crdun
 manager: crdun
 ms.workload: 
   - "multiple"
 ---
-# Troubleshooting the Visual Studio Emulator for Android
+# Troubleshoot the Visual Studio Emulator for Android
 This topic contains information to help you resolve issues that you may experience when you're using the Visual Studio Emulator for Android.  
   
 > [!WARNING]
@@ -51,12 +51,12 @@ This topic contains information to help you resolve issues that you may experien
   
 -   [Emulator does not respond to multi-touch gestures](#Multitouch)  
   
--   [Support Resources](#Support)  
+-   [Support resources](#Support)  
   
 ##  <a name="BeforeYouStart"></a> Before you start  
  Before you begin troubleshooting, it may be useful to review the following topics:  
   
--   [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)  
+-   [System requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)  
   
 ##  <a name="NoInstall"></a> Emulator fails to install  
  If you don't have Hyper-V installed, you will see the following message when you try to install the emulator. You must have a machine that supports HyperV and it must be enabled.  
@@ -66,7 +66,7 @@ This topic contains information to help you resolve issues that you may experien
 > [!NOTE]
 >  This message applies both to the Visual Studio Emulator for Android and the Windows Phone Emulator. Windows 8.1 and Windows 10 support the emulator.  
   
- If you see this message, check the [System Requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md) to see whether you can run the emulator.  
+ If you see this message, check the [System requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md) to see whether you can run the emulator.  
   
 ##  <a name="DomainNetwork"></a> Cannot connect to network destinations on a domain or corporate network  
  The Visual Studio Emulator for Android appears on the network as a separate device with its own IP address. It is not joined to a Windows domain and it does not share domain or workgroup credentials with the host computer.  
@@ -173,7 +173,7 @@ This topic contains information to help you resolve issues that you may experien
   
     6.  Make sure you are running Windows 8 Professional or better (Windows Server 2008 is not supported). Windows Server 2012 is supported, but you must enable Desktop Experience.  
   
-     You can inspect the Event Viewer to see if there are any Hypervisor errors. To do this, open Event Viewer (Start key + R, then type `eventvwr`) and then select **Windows Logs**, **System**. Then filter the log by event source, setting the source to **Hyper-V-Hypervisor**. Check for errors to help identify root cause.  
+     You can inspect the Event Viewer to see if there are any Hypervisor errors. To do this, open Event Viewer (**Start key**+**R**, then type `eventvwr`) and then select **Windows Logs**, **System**. Then filter the log by event source, setting the source to **Hyper-V-Hypervisor**. Check for errors to help identify root cause.  
   
      If your processor meets the minimum requirements but hypervisor is still failing, consider finding out if there is a BIOS upgrade available for your computer. If there is one, and you choose to upgrade, be sure to observe all precautions from the manufacturer when upgrading the BIOS (such as making sure the BIOS firmware upgrade is not interrupted by a power loss, which may permanently corrupt the BIOS).  
   
@@ -187,7 +187,7 @@ This topic contains information to help you resolve issues that you may experien
   
      The following products may require upgrading for Windows 8 compliance: VirtualBox, Virtual PC 7, VMWare, some VPN clients, software firewalls, some versions of the Cisco VPN clients, and other virtualization systems. Work with the developer of the questionable virtualization software to encourage them to upgrade the software to make it compatible with Windows 8 and Hyper-V.  
   
-     As a **Workaround**, you can disable all third party drivers and applications which may be interfering with the virtual network used by the Emulator to communicate with Visual Studio. These applications may include:  
+     As a *workaround*, you can disable all third party drivers and applications which may be interfering with the virtual network used by the Emulator to communicate with Visual Studio. These applications may include:  
   
     -   Antivirus applications (which hook into the network stack)  
   
@@ -255,7 +255,7 @@ This topic contains information to help you resolve issues that you may experien
   
 -   Open Registry Editor by selecting **Run** from the Start buttons context menu, typing `regedit` in the dialog box, and choosing **OK**.  
   
--   Navigate to HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Android SDK Tools in the folder tree on the left.  
+-   Navigate to *HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Android SDK Tools* in the folder tree on the left.  
   
 -   Modify the **Path** registry variable to match the path to your Android SDK.  
   
@@ -302,7 +302,7 @@ This topic contains information to help you resolve issues that you may experien
 ##  <a name="Multitouch"></a> Emulator does not respond to multi-touch gestures  
  In some cases, the emulator will start and not respond to multi-touch either through direct interaction from your touch-enabled display or using the Multi-Touch Tool on the emulator toolbar. If this is the case, choose the **Rotate** button on the emulator toolbar and attempt to use multi-touch again. If the issue persists, read the [Emulator fails to render OpenGL content](#OpenGL) issue.  
   
-##  <a name="Support"></a> Support Resources  
+##  <a name="Support"></a> Support resources  
  If your host computer meets the system requirements and you encounter an issue not covered in this troubleshooting guide:  
   
 -   Ask a question on StackOverflow using the [android-emulator](http://stackoverflow.com/questions/tagged/android-emulator) and visual-studio tags.  

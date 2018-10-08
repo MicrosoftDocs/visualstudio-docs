@@ -10,7 +10,8 @@ ms.workload:
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-modeling
 ---
-# Getting Started with Domain-Specific Languages
+# Get Started with Domain-Specific Languages
+
 This topic explains the basic concepts in defining and using a domain-specific language (DSL) created with the Modeling SDK for Visual Studio.
 
 > [!NOTE]
@@ -19,20 +20,22 @@ This topic explains the basic concepts in defining and using a domain-specific l
 If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
 
 ## What can you do with a Domain-Specific Language?
- A domain-specific language is a notation, usually graphical, that is designed to be used for a particular purpose. By contrast, languages such as UML are general-purpose. In a DSL, you can define the types of model element and their relationships, and how they are presented on the screen.
 
- When you have designed a DSL, you can distribute it as part of a Visual Studio Integration Extension (VSIX) package. Users work with the DSL in Visual Studio:
+A domain-specific language is a notation, usually graphical, that is designed to be used for a particular purpose. By contrast, languages such as UML are general-purpose. In a DSL, you can define the types of model element and their relationships, and how they are presented on the screen.
 
- ![Family tree diagram, toolbox, and explorer](../modeling/media/familyt_instance.png "FamilyT_Instance")
+When you have designed a DSL, you can distribute it as part of a Visual Studio Integration Extension (VSIX) package. Users work with the DSL in Visual Studio:
 
- The notation is only part of a DSL. Together with the notation, your VSIX package includes tools that users can apply to help them edit and generate material from their models.
+![Family tree diagram, toolbox, and explorer](../modeling/media/familyt_instance.png)
 
- One of the principal applications of DSLs is to generate program code, configuration files, and other artifacts. Especially in large projects and product lines, where several variants of a product will be created, generating many of the variable aspects from DSLs can provide a large increase in reliability and a very rapid response to requirements changes.
+The notation is only part of a DSL. Together with the notation, your VSIX package includes tools that users can apply to help them edit and generate material from their models.
 
- The rest of this overview is a walkthrough that introduces the basic operations of creating and using a domain-specific language in Visual Studio.
+One of the principal applications of DSLs is to generate program code, configuration files, and other artifacts. Especially in large projects and product lines, where several variants of a product will be created, generating many of the variable aspects from DSLs can provide a large increase in reliability and a very rapid response to requirements changes.
+
+The rest of this overview is a walkthrough that introduces the basic operations of creating and using a domain-specific language in Visual Studio.
 
 ## Prerequisites
- To define a DSL, you must have installed the following components:
+
+To define a DSL, you must have installed the following components:
 
 |||
 |-|-|
@@ -40,14 +43,11 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 |[!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580)|
 |Modeling SDK for Visual Studio||
 
-
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
+## Create a DSL Solution
 
-## Creating a DSL Solution
- To create a new domain-specific language, you create a new Visual Studio solution by using the Domain-Specific Language project template.
-
-#### To create a DSL solution
+To create a new domain-specific language, you create a new Visual Studio solution by using the Domain-Specific Language project template.
 
 1.  On the **File** menu, point to **New**, and then click **Project**.
 
@@ -55,7 +55,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
 3.  Click **Domain-Specific Language Designer**.
 
-     ![Create DSL dialog](../modeling/media/create_dsldialog.png "Create_DSLDialog")
+     ![Create DSL dialog](../modeling/media/create_dsldialog.png)
 
 4.  In the **Name** box, type **FamilyTree**. Click **OK**.
 
@@ -78,16 +78,17 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
      A solution is generated that contains two projects. They are named Dsl and DslPackage. A diagram file opens that is named DslDefinition.dsl.
 
     > [!NOTE]
-    >  Most of the code that you can see in the folders in the two projects is generated from DslDefinition.dsl. For this reason, most modifications to your DSL are made in this file.
+    > Most of the code that you can see in the folders in the two projects is generated from DslDefinition.dsl. For this reason, most modifications to your DSL are made in this file.
 
- The user interface now resembles the following picture.
+The user interface now resembles the following picture.
 
- ![dsl designer](../modeling/media/dsl_designer.png "dsl_designer")
+![dsl designer](../modeling/media/dsl_designer.png)
 
- This solution defines a domain specific language. For more information, see [Overview of the Domain-Specific Language Tools User Interface](../modeling/overview-of-the-domain-specific-language-tools-user-interface.md).
+This solution defines a domain specific language. For more information, see [Overview of the Domain-Specific Language Tools User Interface](../modeling/overview-of-the-domain-specific-language-tools-user-interface.md).
 
 ## The important parts of the DSL solution
- Notice the following aspects of the new solution.
+
+Notice the following aspects of the new solution:
 
 -   **Dsl\DslDefinition.dsl** This is the file that you see when you create a DSL solution. Almost all the code in the solution is generated from this file, and most of the changes that you make to a DSL definition are made here. For more information, see Working with the [Working with the DSL Definition Diagram](../modeling/working-with-the-dsl-definition-diagram.md).
 
@@ -96,16 +97,17 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 -   **DslPackage project** This project contains code that allows instances of the DSL to be opened and edited in Visual Studio.
 
 ##  <a name="Debugging"></a> Running the DSL
- You can run the DSL solution as soon as you have created it. Later, you can modify the DSL definition gradually, running the solution again after each change.
 
-#### To experiment with the DSL
+You can run the DSL solution as soon as you have created it. Later, you can modify the DSL definition gradually, running the solution again after each change.
 
-1.  Click **Transform All Templates** in the Solution Explorer toolbar. This regenerates most of the source code from DslDefinition.dsl.
+### To experiment with the DSL
+
+1.  Click **Transform All Templates** in the **Solution Explorer** toolbar. This regenerates most of the source code from DslDefinition.dsl.
 
     > [!NOTE]
-    >  Whenever you change DslDefinition.dsl, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).
+    > Whenever you change *DslDefinition.dsl*, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](http://msdn.microsoft.com/b63cfe20-fe5e-47cc-9506-59b29bca768a).
 
-2.  Press F5, or on the **Debug** menu, click **Start Debugging**.
+2.  Press **F5**, or on the **Debug** menu, click **Start Debugging**.
 
      The DSL builds and is installed in the experimental instance of Visual Studio.
 
@@ -129,33 +131,35 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
 5.  Click the labels of the shapes to change them.
 
- Your experimental Visual Studio will resemble the following example:
+Your experimental Visual Studio will resemble the following example:
 
- ![](../modeling/media/dsl_min.png "DSL_min")
+![](../modeling/media/dsl_min.png)
 
 ### The Content of a Model
- The content of a file that is an instance of a DSL is called a *model*. The model contains *model**elements* and *links* between the elements. The DSL definition specifies what types of model elements and links can exist in the model. For example, in a DSL created from the Minimal Language template, there is one type of model element, and one type of link.
 
- The DSL definition can specify how the model appears on a diagram. You can choose from a variety of styles of shapes and connectors. You can specify that some shapes appear inside other shapes.
+The content of a file that is an instance of a DSL is called a *model*. The model contains *model**elements* and *links* between the elements. The DSL definition specifies what types of model elements and links can exist in the model. For example, in a DSL created from the Minimal Language template, there is one type of model element, and one type of link.
 
- You can view a model as a tree in the **Explorer** view while you are editing a model. As you add shapes to the diagram, the model elements also appear in the explorer. The explorer can be used even if there is no diagram.
+The DSL definition can specify how the model appears on a diagram. You can choose from a variety of styles of shapes and connectors. You can specify that some shapes appear inside other shapes.
 
- If you cannot see the Explorer in the debugging instance of Visual Studio, on the **View** menu point to **Other Windows**, and then click *\<Your Language>* **Explorer**.
+You can view a model as a tree in the **Explorer** view while you are editing a model. As you add shapes to the diagram, the model elements also appear in the explorer. The explorer can be used even if there is no diagram.
+
+If you cannot see the Explorer in the debugging instance of Visual Studio, on the **View** menu point to **Other Windows**, and then click *\<Your Language>* **Explorer**.
 
 ### The API of your DSL
- Your DSL generates an API that allows you to read and update models that are instances of the DSL. One application of the API is to generate text files from a model. For more information, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md).
 
- In the Debugging solution, open the template files with extension ".tt". These samples demonstrate how you can generate text from models, and allow you to test the API of your DSL. One of the samples is written in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], the other in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)].
+Your DSL generates an API that allows you to read and update models that are instances of the DSL. One application of the API is to generate text files from a model. For more information, see [Design-Time Code Generation by using T4 Text Templates](../modeling/design-time-code-generation-by-using-t4-text-templates.md).
 
- Under each template file is the file that it generates. Expand the template file in Solution Explorer, and open the generated file.
+In the Debugging solution, open the template files with extension ".tt". These samples demonstrate how you can generate text from models, and allow you to test the API of your DSL. One of the samples is written in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], the other in [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)].
 
- The template file contains a short segment of code that lists all the elements in the model.
+Under each template file is the file that it generates. Expand the template file in Solution Explorer, and open the generated file.
 
- The generated file contains the result.
+The template file contains a short segment of code that lists all the elements in the model.
 
- When you change a model file, you will see corresponding changes in generated files after you regenerate the files.
+The generated file contains the result.
 
-##### To regenerate text files after you change the model file
+When you change a model file, you will see corresponding changes in generated files after you regenerate the files.
+
+#### To regenerate text files after you change the model file
 
 1.  In the experimental instance of Visual Studio, save the model file.
 
@@ -167,31 +171,33 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
      Right-click the templates that you want to regenerate and then click **Run Custom Tool**.
 
- You can add any number of text template files to a project. Each template generates one result file.
+You can add any number of text template files to a project. Each template generates one result file.
 
 > [!NOTE]
->  When you change the DSL definition, the sample text template code will not work, unless you update it.
+> When you change the DSL definition, the sample text template code will not work, unless you update it.
 
- For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md) and [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).
+For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md) and [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md).
 
 ## Customizing the DSL
- When you want to modify the DSL definition, close the experimental instance and update the definition in the main Visual Studio instance.
+
+When you want to modify the DSL definition, close the experimental instance and update the definition in the main Visual Studio instance.
 
 > [!NOTE]
->  After you have modified the DSL definition, you might lose information in the test models that you have created by using earlier versions.  For example, the debugging solution contains a file that is named Sample, which contains some shapes and connectors. After you start to develop your DSL definition, they will not be visible, and they will be lost when you save the file.
+> After you have modified the DSL definition, you might lose information in the test models that you have created by using earlier versions.  For example, the debugging solution contains a file that is named Sample, which contains some shapes and connectors. After you start to develop your DSL definition, they will not be visible, and they will be lost when you save the file.
 
- You can make a wide variety of extensions to your DSL. The following examples will give you an impression of the possibilities.
+You can make a wide variety of extensions to your DSL. The following examples will give you an impression of the possibilities.
 
- After each change, save the DSL definition, click **Transform All Templates** in **Solution Explorer**, and then press **F5** to experiment with the changed DSL.
+After each change, save the DSL definition, click **Transform All Templates** in **Solution Explorer**, and then press **F5** to experiment with the changed DSL.
 
 ### Rename the Types and Tools
- Rename the existing domain classes and relationships. For example, starting from a Dsl Definition created from the Minimal Language template, you could perform the following renaming operations, to make the DSL represent family trees.
 
-##### To rename domain classes, relationships and tools
+Rename the existing domain classes and relationships. For example, starting from a Dsl Definition created from the Minimal Language template, you could perform the following renaming operations, to make the DSL represent family trees.
+
+#### To rename domain classes, relationships and tools
 
 1.  In the DslDefinition diagram, rename **ExampleModel** to **FamilyTreeModel**, **ExampleElement** to **Person**, **Targets** to **Parents**, and **Sources** to **Children**. You can click each label to change it.
 
-     ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt_person.png "FamilyT_Person")
+     ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt_person.png)
 
 2.  Rename the element and connector tools.
 
@@ -250,7 +256,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
     4.  Select each new decorator, and in the Properties window, set the **Position** field. This determines where the domain property value will be displayed on the shape. For example, set **InnerBottomLeft** and **InnerBottomRight**.
 
-         ![Compartment shape definition](../modeling/media/familyt_compartment.png "FamilyT_Compartment")
+         ![Compartment shape definition](../modeling/media/familyt_compartment.png)
 
 3.  Map the decorators to the properties.
 
@@ -266,7 +272,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
 6.  In a .tt file, you can add code that obtains the properties of each person.
 
- ![Family tree diagram, toolbox, and explorer](../modeling/media/familyt_instance.png "FamilyT_Instance")
+ ![Family tree diagram, toolbox, and explorer](../modeling/media/familyt_instance.png)
 
 ### Define New Classes
  You can add domain classes and relationships to a model. For example, you could create a new class to represent towns, and a new relationship to represent that a person lived in a town.
@@ -292,7 +298,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
     1.  Click the **Reference Relationship** tool, click Person and then click Town.
 
-         ![DSL definition fragment: family tree root](../modeling/media/familyt_root.png "FamilyT_Root")
+         ![DSL definition fragment: family tree root](../modeling/media/familyt_root.png)
 
         > [!NOTE]
         >  Reference relationships represent cross-references from one part of the model tree to another.
@@ -317,7 +323,7 @@ If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**
 
     2.  Use the **Diagram Element Map** tool to link the new connector to the relationship between Person and Town.
 
-         ![Family Tree definition with added shape map](../modeling/media/familyt_shapemap.png "FamilyT_ShapeMap")
+         ![Family Tree definition with added shape map](../modeling/media/familyt_shapemap.png)
 
 6.  Create an element tool for making a new Town.
 

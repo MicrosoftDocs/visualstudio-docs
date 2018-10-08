@@ -21,14 +21,13 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# &lt;entryPoint&gt; Element (ClickOnce Application)
+# &lt;entryPoint&gt; element (ClickOnce application)
 Identifies the assembly that should be executed when this [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is run on a client computer.  
   
 ## Syntax  
   
-```  
-  
-      <entryPoint  
+```xml  
+<entryPoint  
    name  
 >  
    <assemblyIdentity  
@@ -46,7 +45,7 @@ Identifies the assembly that should be executed when this [!INCLUDE[ndptecclick]
 </entryPoint>  
 ```  
   
-## Elements and Attributes  
+## Elements and attributes  
  The `entryPoint` element is required and is in the `urn:schemas-microsoft-com:asm.v2` namespace. There may only be one `entryPoint` element defined in an application manifest.  
   
  The `entryPoint` element has the following attribute.  
@@ -80,7 +79,7 @@ Identifies the assembly that should be executed when this [!INCLUDE[ndptecclick]
 ## customUX  
  Optional. Specifies that the application is installed and maintained by a custom installer, and does not create a Start menu entry, shortcut, or Add or Remove Programs entry.  
   
-```  
+```xml  
 <customUX xmlns="urn:schemas-microsoft-com:clickonce.v1" />  
 ```  
   
@@ -94,7 +93,7 @@ Identifies the assembly that should be executed when this [!INCLUDE[ndptecclick]
 ## Example  
  The following code example illustrates an `entryPoint` element in an application manifest for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. This code example is part of a larger example provided for the [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md) topic.  
   
-```  
+```xml  
 <!-- Identify the main code entrypoint. -->  
 <!-- This code runs the main method in an executable assembly. -->  
   <entryPoint>  
@@ -107,5 +106,5 @@ Identifies the assembly that should be executed when this [!INCLUDE[ndptecclick]
   </entryPoint>  
 ```  
   
-## See Also  
- [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md)
+## See also  
+ [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

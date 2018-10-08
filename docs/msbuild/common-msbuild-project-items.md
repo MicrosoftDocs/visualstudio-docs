@@ -18,16 +18,16 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Common MSBuild Project Items
-In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have several items in common. These items are defined in the file Microsoft.Build.CommonTypes.xsd.  
+# Common MSBuild project items
+In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have several items in common. These items are defined in the file *Microsoft.Build.CommonTypes.xsd*.  
   
-## Common Items  
+## Common items  
  The following is a list of all the common project items.  
   
 ### Reference  
  Represents an assembly (managed) reference in the project.  
   
-|Item Metadata Name|Description|  
+|Item metadata name|Description|  
 |---------------|-----------------|  
 |HintPath|Optional string. Relative or absolute path of the assembly.|  
 |Name|Optional string. The display name of the assembly, for example, "System.Windows.Forms."|  
@@ -39,7 +39,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 ### COMReference  
  Represents a COM (unmanaged) component reference in the project.  
   
-|Item Metadata Name|Description|  
+|Item metadata name|Description|  
 |---------------|-----------------|  
 |Name|Optional string. The display name of the component.|  
 |Guid|Optional string. A GUID for the component, in the form {12345678-1234-1234-1234-1234567891234}.|  
@@ -52,14 +52,14 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 ### COMFileReference  
  Represents a list of type libraries that feed into the ResolvedComreference target.  
   
-|Item Metadata Name|Description|  
+|Item metadata name|Description|  
 |---------------|-----------------|  
 |WrapperTool|Optional string. The name of the wrapper tool that is used on the component, for example, "tlbimp."|  
   
 ### NativeReference  
  Represents a native manifest file or a reference to such a file.  
   
-|Item Metadata Name|Description|  
+|Item metadata name|Description|  
 |---------------|-----------------|  
 |Name|Required string. The base name of the manifest file.|  
 |HintPath|Required string. The relative path of the manifest file.|  
@@ -67,16 +67,17 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 ### ProjectReference  
  Represents a reference to another project.  
   
-|Item Metadata Name|Description|  
+|Item metadata name|Description|  
 |---------------|-----------------|  
 |Name|Optional string. The display name of the reference.|  
 |Project|Optional string. A GUID for the reference, in the form {12345678-1234-1234-1234-1234567891234}.|  
 |Package|Optional string. The path of the project file that is being referenced.|  
+|ReferenceOutputAssembly|Optional boolean. If set to `false`, does not include the output of the referenced project as a [Reference](#Reference) of this project, but still ensures that the other project builds before this one. Defaults to `true`.|
   
 ### Compile  
  Represents the source files for the compiler.  
   
-|Item Metadata Name|Description|  
+|Item metadata name|Description|  
 |---------------|-----------------|  
 |DependentUpon|Optional string. Specifies the file this file depends on to compile correctly.|  
 |AutoGen|Optional boolean. Indicates whether the file was generated for the project by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE).|  
@@ -87,7 +88,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 ### EmbeddedResource  
  Represents resources to be embedded in the generated assembly.  
   
-|Item Metadata Name|Description|  
+|Item metadata name|Description|  
 |---------------|-----------------|  
 |DependentUpon|Optional string. Specifies the file this file depends on to compile correctly|  
 |Generator|Required string. The name of any file generator that is run on this item.|  
@@ -101,7 +102,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 ### Content  
  Represents files that are not compiled into the project, but may be embedded or published together with it.  
   
-|Item Metadata Name|Description|  
+|Item metadata name|Description|  
 |---------------|-----------------|  
 |DependentUpon|Optional string. Specifies the file this file depends on to compile correctly.|  
 |Generator|Required string. The name of any file generator that runs on this item.|  
@@ -116,7 +117,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 ### None  
  Represents files that should have no role in the build process.  
   
-|Item Metadata Name|Description|  
+|Item metadata name|Description|  
 |---------------|-----------------|  
 |DependentUpon|Optional string. Specifies the file this file depends on to compile correctly.|  
 |Generator|Required string. The name of any file generator that is run on this item.|  
@@ -135,5 +136,5 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 ### Import  
  Represents assemblies whose namespaces should be imported by the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler.  
   
-## See Also  
- [Common MSBuild Project Properties](../msbuild/common-msbuild-project-properties.md)
+## See also  
+ [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md)

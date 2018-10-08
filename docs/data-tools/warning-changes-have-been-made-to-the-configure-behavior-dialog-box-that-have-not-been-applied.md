@@ -15,7 +15,7 @@ ms.workload:
 
 Warning. Changes have been made to the Configure Behavior dialog box that have not been applied. Do you want to apply your changes?
 
-The **Configure Behavior** dialog box enables you to configure Insert, Update, and Delete behavior for all classes available. This message appears when you select a new **Class** and **Behavior** combination and the previous change has not yet been applied.
+The **Configure Behavior** dialog box enables you to configure `Insert`, `Update`, and `Delete` behavior for all classes available. This message appears when you select a new **Class** and **Behavior** combination and the previous change has not yet been applied.
 
 ## To apply the change and continue
 

@@ -1,11 +1,11 @@
 ---
-title: Generate a constructor in Visual Studio
+title: Generate a constructor quick action
 ms.date: 01/26/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-general
 ms.topic: reference
-author: "kuhlenh"
-ms.author: "kaseyu"
+author: gewarren
+ms.author: gewarren
 manager: douge
 ms.workload:
   - "dotnet"
@@ -48,9 +48,9 @@ This code generation applies to:
 
    ![Generate constructor preview](media/constructor1-preview-cs.png)
 
-1. Select **Generate constructor...** from the drop-down menu.
+1. Select **Generate constructor** from the drop-down menu.
 
-   The **Pick memebers** dialog box opens.
+   The **Pick members** dialog box opens.
 
 1. Pick the members you want to include as constructor parameters. You can order them using the up and down arrows. Choose **OK**.
 
@@ -147,6 +147,8 @@ This code generation applies to:
    The parameter is added to the constructor, with its type inferred from its usage.
 
    ![Generate constructor result](media/constructor4-result-cs.png)
+
+You can also add a parameter to an existing method. For more information, see [Add parameter to a method](add-parameter.md).
 
 ## <a id="create"></a> Create and initialize a field or property from a constructor parameter (C# only)
 

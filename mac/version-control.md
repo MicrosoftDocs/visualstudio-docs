@@ -1,8 +1,8 @@
 ---
 title: Version Control
 description: Using Git and Subversion in Visual Studio for Mac.
-author: asb3993
-ms.author: amburns
+author: conceptdev
+ms.author: crdun
 ms.date: 05/06/2018
 ms.assetid: 49917483-28AA-4598-A847-71F1F2E0DCB5
 ---
@@ -23,7 +23,7 @@ Git is a distributed version control system that allows teams to work on the sam
 
 Visual Studio for Mac provides support for both Git and Subversion version control systems. The following articles explore setting up Git and Subversion repositories through Visual Studio for Mac, as well as simple functionality such as reviewing, committing, and pushing changes.
 
-* [Setting Up a Git Repository](~/set-up-git-repository.md) 
-* [Working with Git](~/working-with-git.md)
-* [Setting Up a Subversion Repository](~/set-up-subversion-repository.md)
-* [Working with Subversion](~/working-with-subversion.md)
+* [Setting Up a Git Repository](set-up-git-repository.md) 
+* [Working with Git](working-with-git.md)
+* [Setting Up a Subversion Repository](set-up-subversion-repository.md)
+* [Working with Subversion](working-with-subversion.md)

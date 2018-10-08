@@ -49,11 +49,11 @@ To find out more about these tools and the scenarios that they support, see:
 
 ## Scenario overview
 
-This scenario describes episodes from the software development lifecycles of two fictitious companies: Dinner Now and Lucerne Publishing. Dinner Now provides a Web-based meal delivery service in Seattle. Customers can order meals and pay for them on the Dinner Now Web site. The orders are then sent to the appropriate local restaurant for delivery. Lucerne Publishing, a company in New York, runs several businesses both off and on the Web. For example, they run a Web site where customers can post restaurant reviews.
+This scenario describes episodes from the software development lifecycles of two fictitious companies: Dinner Now and Lucerne Publishing. Dinner Now provides a Web-based meal delivery service in Seattle. Customers can order meals and pay for them on the Dinner Now website. The orders are then sent to the appropriate local restaurant for delivery. Lucerne Publishing, a company in New York, runs several businesses both off and on the Web. For example, they run a website where customers can post restaurant reviews.
 
 Lucerne recently acquired Dinner Now and wants to make the following changes:
 
-- Integrate their Web sites by adding restaurant review capabilities to Dinner Now.
+- Integrate their websites by adding restaurant review capabilities to Dinner Now.
 
 - Replace Dinner Now's payment system with Lucerne's system.
 
@@ -106,7 +106,7 @@ Both teams also use dependency validation to make sure that code under developme
 - [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)
 
 > [!NOTE]
-> Some versions of Visual Studio support dependency validation and read-only versions of code maps for visualization and modeling. To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
+> Some versions of Visual Studio support dependency validation and read-only versions of code maps for visualization and modeling. To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
 ## Understand and communicate information about the system
 
@@ -145,13 +145,13 @@ Dinner Now must estimate the cost of meeting the new requirement. This depends p
 
  For example, the developer creates a code map. She adjusts its scope to focus on the areas that will be affected by the new scenario. These areas are selected and highlighted on the map:
 
- ![Namespace Dependency Graph](../modeling/media/namespace_reviewsystem.png "Namespace_ReviewSystem")
+ ![Namespace Dependency Graph](../modeling/media/namespace_reviewsystem.png)
 
  **Namespace code map**
 
  The developer expands the selected namespaces to see their classes, methods, and relationships:
 
- ![Expanded namespace dependency graph](../modeling/media/dep_reviewsystem.png "Dep_ReviewSystem")
+ ![Expanded namespace dependency graph](../modeling/media/dep_reviewsystem.png)
 
  **Expanded namespace code map with visible cross-group links**
 
@@ -163,20 +163,20 @@ Dinner Now must estimate the cost of meeting the new requirement. This depends p
 |------------------|-------------------|
 |*Code-based class diagram*<br /><br /> See [How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md).|Existing classes in code.|
 
-###  <a name="ValidatingCode"></a> Keep Code Consistent with the Design
+### <a name="ValidatingCode"></a> Keep Code Consistent with the Design
  Dinner Now must make sure that the updated code stays consistent with the design. They create dependency diagrams that describe the layers of functionality in the system, specify the permitted dependencies between them, and associate solution artifacts to those layers.
 
 |**Diagram**|**Describes**|
 |-----------------|-------------------|
-|*Dependency diagram*<br /><br /> See:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />- [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)|The logical architecture of the code.<br /><br /> A dependency diagram organizes and maps the artifacts in a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution to abstract groups called *layers*. These layers identify the roles, tasks, or functions that these artifacts perform in the system.<br /><br /> Layer diagrams are useful for describing the intended design of the system and validating evolving code against that design.<br /><br /> To create layers, drag items from Solution Explorer, code maps, Class View, and Object Browser. To draw new layers, use the toolbox or right-click the diagram surface.<br /><br /> To view existing dependencies, right-click the layer diagram surface, and then click **Generate Dependencies**. To specify intended dependencies, draw new dependencies.|
+|*Dependency diagram*<br /><br /> See:<br /><br /> - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)<br />- [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)<br />- [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)<br />- [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)|The logical architecture of the code.<br /><br /> A dependency diagram organizes and maps the artifacts in a Visual Studio solution to abstract groups called *layers*. These layers identify the roles, tasks, or functions that these artifacts perform in the system.<br /><br /> Layer diagrams are useful for describing the intended design of the system and validating evolving code against that design.<br /><br /> To create layers, drag items from Solution Explorer, code maps, Class View, and Object Browser. To draw new layers, use the toolbox or right-click the diagram surface.<br /><br /> To view existing dependencies, right-click the layer diagram surface, and then click **Generate Dependencies**. To specify intended dependencies, draw new dependencies.|
 
  For example, the following dependency diagram describes dependencies between layers and the number of artifacts that are associated with each layer:
 
- ![Dependency diagram of integrated payment system](../modeling/media/layer_integrated_dnlucerne.png "Layer_Integrated_DNLucerne")
+ ![Dependency diagram of integrated payment system](../modeling/media/layer_integrated_dnlucerne.png)
 
  **Dependency Diagram**
 
-To make sure that conflicts with the design do not occur during code development, the teams uses dependency validation on builds that are run on Team Foundation Build. They also create a custom MSBuild task to require dependency validation in their check-in operations. They use build reports to collect validation errors.
+To make sure that conflicts with the design do not occur during code development, the teams uses dependency validation on builds that are run on Azure DevOps. They also create a custom MSBuild task to require dependency validation in their check-in operations. They use build reports to collect validation errors.
 
 See:
 
@@ -210,15 +210,15 @@ As their work progresses, the teams update their work items to reflect the time 
 
 See:
 
-- [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503)
+- [About Agile tools and Agile project management](/azure/devops/boards/backlogs/overview?view=vsts)
 
-- [Charts, dashboards, and reports for Visual Studio ALM](http://msdn.microsoft.com/Library/1f28ba6c-c5e5-46d3-9209-ede24ae78e48)
+- [Charts, dashboards, and widgets (Azure DevOps Services)](/azure/devops/report/dashboards/overview?view=vsts)
 
 - [Create your backlog and tasks using Project](http://msdn.microsoft.com/Library/be5cef4f-755f-4ffe-8dd7-876d1e02c330)
 
 ### <a name="TestValidateCheckInCode"></a> Test, Validate, and Check In Code
 
-As the teams complete each task, they check their code into Team Foundation version control and receive reminders from Team Foundation Server, if they forget. Before Team Foundation Server accepts their check-ins, the teams run unit tests and dependency validation to verify the code against their test cases and the design. They use Team Foundation Server to run builds, automated unit tests, and dependency validation regularly. This helps make sure that the code meets the following criteria:
+As the teams complete each task, they check their code into source control and receive reminders from Team Foundation Server, if they forget. Before Team Foundation Server accepts their check-ins, the teams run unit tests and dependency validation to verify the code against their test cases and the design. They use Team Foundation Server to run builds, automated unit tests, and dependency validation regularly. This helps make sure that the code meets the following criteria:
 
 - It works.
 
@@ -228,17 +228,17 @@ As the teams complete each task, they check their code into Team Foundation vers
 
 Dinner Now has a large collection of automated tests, which Lucerne can reuse because almost all still apply. Lucerne can also build on these tests and add new ones to cover new functionality. Both also use Visual Studio to run manual tests.
 
-To make sure that the code conforms to the design, the teams configure their builds in Team Foundation Build to include dependency validation. If any conflicts occur, a report is generated with the details.
+To make sure that the code conforms to the design, the teams configure their builds in Azure DevOps to include dependency validation. If any conflicts occur, a report is generated with the details.
 
 See:
 
-- [Testing the application](https://www.visualstudio.com/docs/test/overview)
+- [Testing the application](/azure/devops/test/overview?view=vsts)
 
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)
 
 - [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)
 
-- [Build and release](/vsts/build-release/index)
+- [Azure Pipelines](/azure/devops/pipelines/index?view=vsts)
 
 ## Update the System Using Visualization and Modeling
 
@@ -272,19 +272,19 @@ For example, Dinner Now must estimate the cost of updating the PaymentProcessing
 
 The following map shows the dependencies between the PaymentProcessing class and other parts of the Dinner Now system, which appear selected:
 
-![Dependency graph for Dinner Now payment system](../modeling/media/dep_dnpayment.png "Dep_DNPayment")
+![Dependency graph for Dinner Now payment system](../modeling/media/dep_dnpayment.png)
 
 **Code map for Dinner Now payment system**
 
 The developer explores the map by expanding the PaymentProcessing class and selecting its members to see the areas that are potentially affected:
 
-![Methods inside PaymentProcessing and dependencies](../modeling/media/depgraph_expandeddn.png "DepGraph_ExpandedDN")
+![Methods inside PaymentProcessing and dependencies](../modeling/media/depgraph_expandeddn.png)
 
 **Methods inside PaymentProcessing class and their dependencies**
 
 They generate the following map for the Lucerne Payment System to inspect its classes, methods, and dependencies. The team sees that the Lucerne system might also require work to interact with the other parts of Dinner Now:
 
-![Dependency graph for Lucerne payment system](../modeling/media/depgraph_lucernepay.png "DepGraph_LucernePay")
+![Dependency graph for Lucerne payment system](../modeling/media/depgraph_lucernepay.png)
 
 **Code map for Lucerne Payment System**
 
@@ -292,7 +292,7 @@ Both teams work together to determine the changes that are required to integrate
 
 After reorganizing the code, the teams generate a new code map to see the updated structure and relationships:
 
-![Dependency graph with reorganized code](../modeling/media/depgraph_integrated.png "DepGraph_Integrated")
+![Dependency graph with reorganized code](../modeling/media/depgraph_integrated.png)
 
 **Code map with reorganized code**
 
@@ -333,7 +333,7 @@ This map shows that the PaymentApprover class is now in the DinnerNow.Business n
 
  To help Lucerne describe and discuss the entities that participate in the Process Payment use case, they draw the following class diagram:
 
- ![Process Payment entities on the class diagram](../modeling/media/uml_payentities.png "UML_PayEntities")
+ ![Process Payment entities on the class diagram](../modeling/media/uml_payentities.png)
 
  **Process Payment entities on a class diagram**
 
@@ -341,7 +341,7 @@ This map shows that the PaymentApprover class is now in the DinnerNow.Business n
 
  During development, Lucerne uses the following class diagram to describe and discuss the details of each class:
 
- ![Process Payment entity details on a class diagram](../modeling/media/uml_payment.png "UML_Payment")
+ ![Process Payment entity details on a class diagram](../modeling/media/uml_payment.png)
 
  **Process Payment details on the class diagram**
 
@@ -402,7 +402,7 @@ As a starting point to explore and discuss existing classes, you can use Class D
 
  To keep the code consistent with the design, Dinner Now and Lucerne use the following dependency diagram to validate their code as it evolves:
 
- ![Dependency diagram of integrated payment system](../modeling/media/layer_integrated_dnlucerne.png "Layer_Integrated_DNLucerne")
+ ![Dependency diagram of integrated payment system](../modeling/media/layer_integrated_dnlucerne.png)
 
  **Dependency diagram for Dinner Now integrated with Lucerne**
 
@@ -412,13 +412,13 @@ As a starting point to explore and discuss existing classes, you can use Class D
 
  The following code map shows the new calls between the Dinner Now and PaymentApprover:
 
- ![Updated dependency graph with integrated system](../modeling/media/depgraph_intsystem.png "DepGraph_IntSystem")
+ ![Updated dependency graph with integrated system](../modeling/media/depgraph_intsystem.png)
 
  **Code map with updated method calls**
 
  After they confirm that the system works as expected, Dinner Now comments out the PaymentProcessing code. The layer validation reports are clean, and the resulting code map shows that no more PaymentProcessing dependencies exist:
 
- ![Dependency graph without PaymentProcessing](../modeling/media/depgraph_nomore.png "DepGraph_NoMore")
+ ![Dependency graph without PaymentProcessing](../modeling/media/depgraph_nomore.png)
 
  **Code map without PaymentProcessing**
 

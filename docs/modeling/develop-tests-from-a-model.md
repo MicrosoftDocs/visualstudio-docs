@@ -55,7 +55,7 @@ You can use requirements and architectural models to help you organize the tests
 
 1.  In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it.
 
-     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503).
+     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/overview?view=vsts).
 
 2.  Link the requirement work item to one or more use cases in your model.
 
@@ -124,7 +124,7 @@ Assert (countAfter == countBefore = 1);
 
  From a testing point of view, a requirements model can be seen as a shorthand for the tests. Therefore, it's important to maintain the relationship between tests and model throughout the project.
 
-##  <a name="Attaching"></a> Attaching Test Cases to Model Elements
+## <a name="Attaching"></a> Attaching Test Cases to Model Elements
  If your project uses [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], you can link tests to the elements in your model. This lets you quickly find the tests affected by a change in the requirements, and helps you track the extent to which a requirement has been realized.
 
  You can link tests to all kinds of element. Here are some examples:
@@ -143,7 +143,7 @@ Assert (countAfter == countBefore = 1);
 
 1.  In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it.
 
-     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503).
+     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/overview?view=vsts).
 
 2.  Link the requirement work item to one or more elements in your model.
 

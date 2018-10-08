@@ -16,7 +16,7 @@ ms.technology: vs-ide-modeling
 ---
 # Customize File Storage and XML Serialization
 
-When the user saves an instance, or *model*, of a domain-specific language (DSL) in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], an XML file is created or updated. The file can be reloaded to recreate the model in the Store.
+When the user saves an instance, or *model*, of a domain-specific language (DSL) in Visual Studio, an XML file is created or updated. The file can be reloaded to recreate the model in the Store.
 
 You can customize the serialization scheme by adjusting the settings under **Xml Serialization Behavior** in DSL Explorer. There is a node under **Xml Serialization Behavior** for every domain class, property, and relationship. The relationships are located under their source classes. There are also nodes corresponding to the shape, connector, and diagram classes.
 
@@ -160,7 +160,7 @@ There are several methods that help avoid this situation:
 
 -   Enable validation for the DSL. In DSL Explorer, select Editor\Validation, and set the **Uses...** properties to `true`.
 
-     There is an automatically-generated validation method that checks for ambiguities. The method is in the `Load` validation category. This makes sure that the user will be warned that it might not be possible to re-open the file.
+     There is an automatically generated validation method that checks for ambiguities. The method is in the `Load` validation category. This makes sure that the user will be warned that it might not be possible to re-open the file.
 
      For more information, see [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md).
 

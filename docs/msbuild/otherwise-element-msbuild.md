@@ -21,7 +21,7 @@ manager: douge
 ms.workload: 
   - "multiple"
 ---
-# Otherwise Element (MSBuild)
+# Otherwise element (MSBuild)
 Specifies the block of code to execute if and only if the conditions of all `When` elements evaluate to `false`.  
 
  \<Project>  
@@ -35,7 +35,7 @@ Specifies the block of code to execute if and only if the conditions of all `Whe
 
 ## Syntax  
 
-```  
+```xml  
 <Otherwise>  
     <PropertyGroup>... </PropertyGroup>  
     <ItemGroup>... </ItemGroup>  
@@ -43,13 +43,13 @@ Specifies the block of code to execute if and only if the conditions of all `Whe
 </Otherwise>  
 ```  
 
-## Attributes and Elements  
+## Attributes and elements  
  The following sections describe attributes, child elements, and parent elements.  
 
 ### Attributes  
  None.  
 
-### Child Elements  
+### Child elements  
 
 |Element|Description|  
 |-------------|-----------------|  
@@ -57,7 +57,7 @@ Specifies the block of code to execute if and only if the conditions of all `Whe
 |[ItemGroup](../msbuild/itemgroup-element-msbuild.md)|Optional element.<br /><br /> Contains a set of user-defined [Item](../msbuild/item-element-msbuild.md) elements. There may be zero or more `ItemGroup` elements in an `Otherwise` element.|  
 |[PropertyGroup](../msbuild/propertygroup-element-msbuild.md)|Optional element.<br /><br /> Contains a set of user-defined [Property](../msbuild/property-element-msbuild.md) elements. There may be zero or more `PropertyGroup` elements in an `Otherwise` element.|  
 
-### Parent Elements  
+### Parent elements  
 
 |Element|Description|  
 |-------------|-----------------|  
@@ -66,7 +66,7 @@ Specifies the block of code to execute if and only if the conditions of all `Whe
 ## Remarks  
  There may be only one `Otherwise` element in a `Choose` element, and it must be last element.  
 
- The `Choose`, `When`, and `Otherwise` elements are used together to provide a way to select one section of code to execute out of a number of possible alternatives. For more information, see [Conditional Constructs](../msbuild/msbuild-conditional-constructs.md).  
+ The `Choose`, `When`, and `Otherwise` elements are used together to provide a way to select one section of code to execute out of a number of possible alternatives. For more information, see [Conditional constructs](../msbuild/msbuild-conditional-constructs.md).  
 
 ## Example  
  The following project uses the `Choose` element to select which set of property values in the `When` elements to set. If the `Condition` attributes of both `When` elements evaluate to `false`, the property values in the `Otherwise` element are set.  
@@ -116,6 +116,6 @@ Specifies the block of code to execute if and only if the conditions of all `Whe
 </Project>  
 ```  
 
-## See Also  
- [Conditional Constructs](../msbuild/msbuild-conditional-constructs.md)   
- [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
+## See also  
+ [Conditional constructs](../msbuild/msbuild-conditional-constructs.md)   
+ [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
