@@ -78,7 +78,7 @@ Namespace ImplementingCodeSnippetsPart1
 
             'check for a commit character
             If nCmdID = CUInt(VSConstants.VSStd2KCmdID.RETURN) OrElse nCmdID = CUInt(VSConstants.VSStd2KCmdID.TAB) OrElse (Char.IsWhiteSpace(typedChar) OrElse Char.IsPunctuation(typedChar)) Then
-                'check for a a selection
+                'check for a selection
                 If m_session IsNot Nothing AndAlso (Not m_session.IsDismissed) Then
                     'if the selection is fully selected, commit the current session
                     If m_session.SelectedCompletionSet.SelectionStatus.IsSelected Then
@@ -263,7 +263,7 @@ Namespace ImplementingCodeSnippetsPart2
 
             'check for a commit character
             If nCmdID = CUInt(VSConstants.VSStd2KCmdID.RETURN) OrElse nCmdID = CUInt(VSConstants.VSStd2KCmdID.TAB) OrElse (Char.IsWhiteSpace(typedChar) OrElse Char.IsPunctuation(typedChar)) Then
-                'check for a a selection
+                'check for a selection
                 If m_session IsNot Nothing AndAlso (Not m_session.IsDismissed) Then
                     'if the selection is fully selected, commit the current session
                     If m_session.SelectedCompletionSet.SelectionStatus.IsSelected Then
