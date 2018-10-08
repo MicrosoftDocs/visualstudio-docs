@@ -111,15 +111,23 @@ For best practices related to unit testing, see [Unit test basics](unit-test-bas
 
 ## Use CodeLens
 
-(Professional and Enterprise Editions only) 
-You can initialize CodeLens in any of these ways:
+**Visual Studio 2017 version 15.7 Professional and Enterprise Editions only**: 
+[CodeLens](..ide/find-code-changes-and-other-history-with-codelens.md) enables you to quickly see the status of a unit test without leaving the code editor. You can initialize CodeLens for a C++ unit test project in any of these ways:
 
-- Edit and Build your test project/solution
-- Rebuild your project/solution
-- Run test(s) from the Test Explorer Window
-- 
-- 
+- Edit and Build your test project or solution.
+- Rebuild your project or solution.
+- Run test(s) from the **Test Explorer** window.
 
+After **CodeLens** is initialized, you can see test status icons above each unit test.
+
+![C++ CodeLens Icons](media/cpp-test-codelens-icons.png)
+
+ Click on the icon for more information, or to run or debug the unit test:
+
+![C++ CodeLens Run and Debug](media/cpp-test-codelens-run-debug.png) 
+
+
+ 
 ## See also
 
 [Unit test your code](unit-test-your-code.md)
