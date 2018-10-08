@@ -25,7 +25,7 @@ As the first steps in developing this quiz, you create the project, and you add 
 > [!NOTE]
 >  This topic is part of a tutorial series about basic coding concepts. For an overview of the tutorial, see [Tutorial 2: Create a Timed Math Quiz](../ide/tutorial-2-create-a-timed-math-quiz.md).  
   
-### To create a project and and set properties for a form  
+### To create a project and set properties for a form  
   
 1.  On the menu bar, choose **File**, **New**, **Project**.  
   
