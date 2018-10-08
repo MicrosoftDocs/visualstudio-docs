@@ -28,8 +28,6 @@
       href: install/create-an-offline-installation-of-visual-studio.md
     - name: Install required certificates for offline installation
       href: install/install-certificates-for-visual-studio-offline.md
-    - name: Install on low-bandwidth or unreliable network environments
-      href: install/install-vs-inconsistent-quality-network.md
   - name: Change installation locations
     href: install/change-installation-locations.md
   - name: Troubleshoot installation issues
