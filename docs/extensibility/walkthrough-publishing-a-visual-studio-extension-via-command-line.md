@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Walkthrough: Publishing a Visual Studio extension via command line
 
-This walkthrough shows you how to publish a Visual Studio extension to the Visual Studio Marketplace using the command line. When you add your extension to the Marketplace, developers can use the **Extensions and Updates** dialog to browse there for new and updated extensions.
+This walkthrough shows you how to publish a Visual Studio extension to the Visual Studio Marketplace using the command line. When you add your extension to the Marketplace, developers can use the [**Extensions and Updates**](../ide/finding-and-using-visual-studio-extensions.md) dialog to browse there for new and updated extensions.
 
 VsixPublisher.exe is the command line tool for publishing Visual Studio extensions to the Marketplace. It can be accessed from ${VSInstallDir}\VSSDK\VisualStudioIntegration\Tools\Bin\VsixPublisher.exe. Commands available on this tool are: **publish**, **createPublisher**, **deletePublisher**, **deleteExtension**, **login**, **logout**.
 
