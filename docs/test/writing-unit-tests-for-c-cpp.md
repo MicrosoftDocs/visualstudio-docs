@@ -1,6 +1,6 @@
 ---
 title: "Write unit tests for C/C++ in Visual Studio"
-ms.date: 05/08/2018
+ms.date: 10/08/2018
 ms.prod: visual-studio-dev15
 ms.technology: vs-ide-test
 ms.topic: conceptual
@@ -27,7 +27,7 @@ Visual Studio includes these C++ test frameworks with no additional downloads re
 In addition to the installed frameworks, you can write your own test adapter for whatever framework you would like to use within Visual Studio. A test adapter can integrate unit tests with the **Test Explorer** window. Several third-party adapters are available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com). For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
 
 **Visual Studio 2017 version 15.7 (Professional and Enterprise)**
-C++ Unit Test projects support CodeLens.
+C++ Unit Test projects support [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md).
 
 **Visual Studio 2017 version 15.5**
 
