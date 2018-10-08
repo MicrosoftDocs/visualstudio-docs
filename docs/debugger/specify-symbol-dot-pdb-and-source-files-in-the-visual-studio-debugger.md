@@ -1,7 +1,7 @@
 ---
 title: "Specify symbol (.pdb) and source files in the debugger | Microsoft Docs"
 ms.custom: "H1Hack27Feb2017"
-ms.date: "04/05/2017"
+ms.date: "04/05/2018"
 ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 f1_keywords: 
@@ -67,7 +67,9 @@ The debugger also searches for symbol files in the following locations:
    
     - Any local symbol cache folder.  
   
-    - Specified network, internet, or local symbol servers and locations, such as the Microsoft Symbol Servers if selected. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can download debugging symbol files from symbol servers that implement the `symsrv` protocol. [Visual Studio Team Foundation Server](http://msdn.microsoft.com/Library/bd6977ca-e30a-491a-a153-671d81222ce6) and the [Debugging Tools for Windows](http://msdn.microsoft.com/library/windows/hardware/ff551063\(v=VS.85\).aspx) are two tools that can use symbol servers. Symbol servers you might use include:  
+    - Specified network, internet, or local symbol servers and locations, such as the Microsoft Symbol Servers if selected. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] can download debugging symbol files from symbol servers that implement the `symsrv` protocol. [Visual Studio Team Foundation Server](http://msdn.microsoft.com/Library/bd6977ca-e30a-491a-a153-671d81222ce6) and the [Debugging Tools for Windows](http://msdn.microsoft.com/library/windows/hardware/ff551063\(v=VS.85\).aspx) are two tools that can use symbol servers. 
+      
+      Symbol servers you might use include:  
       
       **Public Microsoft Symbol Servers**: To debug a crash that occurs during a call to a system DLL or to a third-party library, you often need system *.pdb* files. System *.pdb* files contain symbols for Windows DLLs, *.exe* files, and device drivers. You can get symbols for Windows operating systems, MDAC, IIS, ISA, and the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] from the public Microsoft Symbol Servers. 
       
@@ -131,9 +133,9 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
   
 You can select additional symbol options in **Tools** > **Options** > **Debugging** > **General** (or **Debug** > **Options** > **General**):  
 
-- **Load DLL exports (native only)**  
+- **Load dll exports (Native only)**  
   
-  Loads DLL export tables. Reading DLL export information involves some overhead, so loading export tables is turned off by default. To see the symbols available in the export table of a DLL, use [dumpbin /exports](#use-dumpbin-exports) in a C/C++ build command line.  
+  Loads DLL export tables for C/C++. For details, see [DLL export tables](#use-dumpbin-exports). Reading DLL export information involves some overhead, so loading export tables is turned off by default. You can also use `dumpbin /exports` in a C/C++ build command line.  
   
 - **Enable address level debugging** and **Show disassembly if source not available**  
   
@@ -213,7 +215,7 @@ During debugging, the **Modules** window shows the code modules the debugger is 
 |**Symbol Settings**|Opens the **Options** > **Debugging** > **Symbols** page, where you can edit and add symbol locations.|  
 |**Always Load Automatically**|Adds the selected symbol file to the list of files that are automatically loaded by the debugger.|  
 
-### Use the No Symbols Loaded page
+### Use the No Symbols Loaded/No Source Loaded pages
 
 There are several ways for the debugger to break into code that does not have symbol or source files available:  
 
@@ -222,7 +224,7 @@ There are several ways for the debugger to break into code that does not have sy
 -  Switch to a different thread.  
 -  Change the stack frame by double-clicking a frame in the **Call Stack** window.  
    
-When this happens, the debugger displays the **No Symbols Loaded** page to help you find and load the necessary symbols.  
+When this happens, the debugger displays the **No Symbols Loaded** or **No Source Loaded** pages to help you find and load the necessary symbols or source.  
   
  ![No Symbols Loaded page](../debugger/media/dbg-nosymbolsloaded.png "DBG_NoSymbolsLoaded")  
   
@@ -233,6 +235,26 @@ When this happens, the debugger displays the **No Symbols Loaded** page to help 
 -   To open the **Options** > **Debugging** > **Symbols** page, select **Change Symbol Settings**.  
 -   To show the disassembly in a new window one time, select **view disassembly**, or select **Options dialog** to set the option to always show the disassembly when source or symbol files are not found. 
 -   To show the locations searched and the outcome, expand **Symbol load information**. 
+
+If the debugger finds the *.pdb* file after you execute one of the options, and can retrieve the source file using the information in the *.pdb* file, it displays the source. Otherwise, it displays a **No Source Loaded** page that describes the issue, with links to actions that might resolve the issue.
+
+**Add source file search paths to a solution**
+  
+You can specify the locations the debugger searches for source files, and exclude specific files from the search.
+
+1. Select the solution in **Solution Explorer**, and then select the **Properties** icon, press **Alt**+**Enter**, or right-click and select **Properties**.
+   
+1. Select **Debug Source Files**.
+   
+1. Under **Directories containing source code**, type or select source code locations to search. Use the **New Line** icon to add more locations, the **Up** and **Down** arrow icons to reorder them, or the **X** icon to delete them.
+   
+   >[!NOTE]
+   >The debugger searches only the specified directory. You must add entries for any subdirectories that you want to search.
+   
+1. Under **Do not look for these source files**, type the names of source files to exclude from search. 
+   
+1. Select **OK** or **Apply**.
+
 
 ## See also  
 [Understand symbol files and Visual Studio symbol settings](https://blogs.msdn.microsoft.com/devops/2015/01/05/understanding-symbol-files-and-visual-studios-symbol-settings/)
