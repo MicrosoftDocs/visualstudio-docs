@@ -135,7 +135,7 @@ namespace ListViewProperties
 
         #region snippet2
         // The following code example demonstrates a ListView with hot tracking enabled.
-        // To run this example paste the following code into a Windows Form and and call
+        // To run this example paste the following code into a Windows Form and call
         // the InitializeHotTrackingListView method from the form's constructor or load-event
         // handling method.
 //<snippet2>
