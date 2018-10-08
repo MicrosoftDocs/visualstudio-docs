@@ -65,17 +65,10 @@ These Quick Actions enable you to resolve git merge conflicts by "taking a chang
 // Before
 private void MyMethod()
 {
-<<<<<<< HEAD
-    if (true)
-    {
-
-    }
-=======
     if (false)
     {
 
     }
->>>>>>> upstream
 }
 
 // Take changes from 'HEAD'
@@ -452,7 +445,7 @@ End Select
 
 ### Convert to interpolated string
 
-[Interpolated strings](/dotnet/csharp/language-reference/keywords/interpolated-strings) are an easy way to express strings with embedded variables, similar to the **[String.Format](https://msdn.microsoft.com/library/system.string.format.aspx)** method. This Quick Action recognizes cases where strings are concatenated, or using **String.Format**, and changes the usage to an interpolated string.
+[Interpolated strings](/dotnet/csharp/language-reference/keywords/interpolated-strings) are an easy way to express strings with embedded variables, similar to the **[String.Format](/dotnet/api/system.string.format#overloads)** method.  This Quick Action recognizes cases where strings are concatenated, or using **String.Format**, and changes the usage to an interpolated string.
 
 ```csharp
 // Before
