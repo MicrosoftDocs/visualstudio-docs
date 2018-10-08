@@ -207,7 +207,7 @@ ms.workload:
  The spinner (also known as a "progress ring") is an indeterminate progress indicator primarily used in relation to contextual UI. Display a spinner in close proximity to its related content, such as a textual category header, messaging, or control.  
   
 ##### Cursor feedback  
- For operations that take between 2-7 seconds, provide cursor feedback. Typically, this means using the wait cursor provided by the operating system. For guidance, see the MSDN article [Cursors.Wait Property](https://msdn.microsoft.com/en-us/library/system.windows.input.cursors.wait\(v=vs.110\).aspx).  
+ For operations that take between 2-7 seconds, provide cursor feedback. Typically, this means using the wait cursor provided by the operating system. For guidance, see the MSDN article [Cursors.Wait Property](/dotnet/api/system.windows.input.cursors.wait).  
   
 #### Progress indicator locations  
   
