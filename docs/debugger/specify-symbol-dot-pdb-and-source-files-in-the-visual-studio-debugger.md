@@ -89,7 +89,7 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
 - Specify modules that you do or don't want the debugger to automatically load symbols for.
 - Change these settings while you are actively debugging. See [Manage symbols while debugging](#manage-symbols-while-debugging). 
   
-**To specify symbol locations and loading options**
+**To specify symbol locations and loading options:**
 
 1. In Visual Studio, open **Tools** > **Options** > **Debugging** > **Symbols** (or **Debug** > **Options** > **Symbols**).  
    
@@ -238,7 +238,7 @@ When this happens, the debugger displays the **No Symbols Loaded** or **No Sourc
 
 If the debugger finds the *.pdb* file after you execute one of the options, and can retrieve the source file using the information in the *.pdb* file, it displays the source. Otherwise, it displays a **No Source Loaded** page that describes the issue, with links to actions that might resolve the issue.
 
-**Add source file search paths to a solution**
+**To add source file search paths to a solution:**
   
 You can specify the locations the debugger searches for source files, and exclude specific files from the search.
 
