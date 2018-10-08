@@ -29,7 +29,7 @@ When you create an Azure project in Azure SDK 2.3 or later, Emulator Express is 
 
 1. In the projects properties pages, select the **Web** tab.
 
-	![Properties for an Azure cloud service project](./media/vs-azure-tools-emulator-express-debug-run/web-properties.png)
+	![Properties for an Azure cloud service project](/azure/media/vs-azure-tools-emulator-express-debug-run/web-properties.png)
 
 1. Under **Local Development Server**, select **Use IIS Express option**.
 

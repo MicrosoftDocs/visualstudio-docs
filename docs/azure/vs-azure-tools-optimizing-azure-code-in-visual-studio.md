@@ -419,7 +419,7 @@ Use the diagnostics configuration designer to move diagnostic settings to the di
 2. In the **Diagnostics** section, make sure that the **Enable Diagnostics** check box is selected.
 3. Choose the **Configure** button.
 
-   ![Accessing the Enable Diagnostics option](./media/vs-azure-tools-optimizing-azure-code-in-visual-studio/IC796660.png)
+   ![Accessing the Enable Diagnostics option](/azure/media/vs-azure-tools-optimizing-azure-code-in-visual-studio/IC796660.png)
 
    See [Configuring Diagnostics for Azure Cloud Services and Virtual Machines](vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md) for more information.
 

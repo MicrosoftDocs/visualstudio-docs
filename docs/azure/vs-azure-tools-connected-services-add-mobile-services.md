@@ -39,20 +39,20 @@ You can use the Connected Services dialog to connect to Azure Mobile Services in
    
    * For .NET apps, open your project in Visual Studio, open the context menu for the **References** node in Solution Explorer, and then choose **Add Connected Service**
      
-        ![Connecting to Azure Mobile Service](./media/vs-azure-tools-connected-services-add-mobile-services/IC797635.png)
+        ![Connecting to Azure Mobile Service](/azure/media/vs-azure-tools-connected-services-add-mobile-services/IC797635.png)
    * For Apache Cordova app projects, open your project in Visual Studio, open the context menu for the project node in Solution Explorer, and then choose **Add Connected Service**.
 3. In the **Add Connected Service** dialog box, choose **Azure Mobile Services**, and then choose the **Configure** button. You may be prompted to log into Azure if you haven't already done so.
    
-    ![Adding an Azure Mobile Service](./media/vs-azure-tools-connected-services-add-mobile-services/IC797636.png)
+    ![Adding an Azure Mobile Service](/azure/media/vs-azure-tools-connected-services-add-mobile-services/IC797636.png)
 4. In the **Azure Mobile Services** dialog box, choose an existing mobile service if you have one. If you need to create a new Azure mobile service, follow the procedure below to do so. Otherwise, skip to the next step.
    
     To create a new mobile service account:
    
    1. choose the **Create Service **link at the bottom of the dialog box.
-       ![Add new mobile connected service](./media/vs-azure-tools-connected-services-add-mobile-services/IC797637.png)
+       ![Add new mobile connected service](/azure/media/vs-azure-tools-connected-services-add-mobile-services/IC797637.png)
    2. On the **Create Mobile Service** dialog box, you can choose a JavaScript backend mobile service, or a .NET backend mobile service from the **Runtime** drop-down list. 
       
-       ![Creating a mobile service](./media/vs-azure-tools-connected-services-add-mobile-services/IC797638.png)
+       ![Creating a mobile service](/azure/media/vs-azure-tools-connected-services-add-mobile-services/IC797638.png)
       
        A JavaScript backend service is simple and powerful. If you create a JavaScript backend mobile service, the server-side JavaScript code is stored in the cloud, but you can edit server scripts by using Server Explorer, or the Azure management portal. 
       

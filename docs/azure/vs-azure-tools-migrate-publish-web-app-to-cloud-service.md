@@ -61,7 +61,7 @@ If you have a connection string for your web application that uses an on-premise
 1. Select **Next >** to view a summary, then select **Publish** to start deployment.
 1. Visual Studio opens an activity log window where you can track progress:
 
-    ![VST_AzureActivityLog](./media/vs-azure-tools-migrate-publish-web-app-to-cloud-service/IC744149.png)
+    ![VST_AzureActivityLog](/azure/media/vs-azure-tools-migrate-publish-web-app-to-cloud-service/IC744149.png)
 
 1. (Optional) To cancel the deployment process, right-click the line item in the activity log and choose **Cancel and remove**. This command stops the deployment process and deletes the deployment environment from Azure. Note: to remove this deployment environment after it has been deployed, you must use the [Azure portal](https://portal.azure.com).
 1. (Optional) After your role instances have started, Visual Studio automatically shows the deployment environment in the **Server Explorer > Cloud Services** node. From here you can view the status of the individual role instances.

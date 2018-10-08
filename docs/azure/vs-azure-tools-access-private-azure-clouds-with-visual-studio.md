@@ -22,23 +22,23 @@ By default, Visual Studio supports Azure cloud REST endpoints. In this article, 
 
 1. In Visual Studio **Server Explorer**, right-click the **Azure** node and select **Manage and Filter Subscriptions**.
 
-    ![Manage subscriptions command](./media/vs-azure-tools-access-private-azure-clouds-with-visual-studio/IC790778.png)
+    ![Manage subscriptions command](/azure/media/vs-azure-tools-access-private-azure-clouds-with-visual-studio/IC790778.png)
 
 1. In the **Manage Microsoft Azure Subscriptions** dialog, select the **Certificates** tab, then select **Import**.
 
-    ![Importing Azure certificates](./media/vs-azure-tools-access-private-azure-clouds-with-visual-studio/IC790779.png)
+    ![Importing Azure certificates](/azure/media/vs-azure-tools-access-private-azure-clouds-with-visual-studio/IC790779.png)
 
 1. In the **Import Microsoft Azure Subscriptions** dialog, select **Browse**.
 
-    ![Browse button on the Import Microsoft Azure Subscriptions dialog](./media/vs-azure-tools-access-private-azure-clouds-with-visual-studio/browse-button.png)
+    ![Browse button on the Import Microsoft Azure Subscriptions dialog](/azure/media/vs-azure-tools-access-private-azure-clouds-with-visual-studio/browse-button.png)
 
 1. In the **Open** dialog, browse to the directory where you saved the publish-settings file, select the file, and then select **Open**.
 
-    ![Select the publish-settings file](./media/vs-azure-tools-access-private-azure-clouds-with-visual-studio/select-publish-settings-file.png)
+    ![Select the publish-settings file](/azure/media/vs-azure-tools-access-private-azure-clouds-with-visual-studio/select-publish-settings-file.png)
 
 1. When returned to the **Import Microsoft Azure Subscriptions** dialog, select **Import**.
 
-    ![Import the publish-settings file](./media/vs-azure-tools-access-private-azure-clouds-with-visual-studio/IC790780.png)
+    ![Import the publish-settings file](/azure/media/vs-azure-tools-access-private-azure-clouds-with-visual-studio/IC790780.png)
 
     The certificates are imported from the publish-settings file into Visual Studio, and you can now interact with your private cloud resources.
 

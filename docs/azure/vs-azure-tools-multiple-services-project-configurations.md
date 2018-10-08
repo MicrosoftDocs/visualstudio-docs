@@ -22,7 +22,7 @@ An Azure cloud service project in Visual Studio includes three configuration fil
 
 Configuration settings are managed and modified in Visual Studio using property pages for the applicable role (right-click the role and select **Properties**, or double-click the role). Changes can be scoped to whichever configuration is chosen in the **Service Configuration** drop-down. The properties for web and worker roles are similar, except where described in the following sections.
 
-![VS_Solution_Explorer_Roles_Properties](./media/vs-azure-tools-multiple-services-project-configurations/IC784076.png)
+![VS_Solution_Explorer_Roles_Properties](/azure/media/vs-azure-tools-multiple-services-project-configurations/IC784076.png)
 
 For information about the underlying schemas for the service definition and service configuration files, see the [.csdef XML Schema](cloud-services/schema-csdef-file.md) and [.cscfg XML Schema](cloud-services/schema-cscfg-file.md) articles. For more information about service configuration, see [How to Configure Cloud Services](cloud-services/cloud-services-how-to-configure-portal.md).
 

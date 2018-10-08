@@ -57,7 +57,7 @@ When you publish your Azure application, you can do one of the following tasks:
 
 1. (Optional) After your role instances have started, Visual Studio automatically shows the deployment environment in the **Cloud Services** node in Server Explorer. From here, you can see the status of the individual role instances. See [Managing Azure resources with Cloud Explorer](vs-azure-tools-resources-managing-with-cloud-explorer.md).The following illustration shows the role instances while they are still in the Initializing state:
 
-    ![VST_DeployComputeNode](./media/vs-azure-tools-publishing-a-cloud-service/IC744134.png)
+    ![VST_DeployComputeNode](/azure/media/vs-azure-tools-publishing-a-cloud-service/IC744134.png)
 
 ## Update a web role as part of the development and testing cycle
 

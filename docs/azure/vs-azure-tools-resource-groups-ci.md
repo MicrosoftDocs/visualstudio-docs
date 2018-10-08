@@ -179,19 +179,19 @@ The following procedures walk you through the steps necessary to configure conti
 ## Next steps
 Read [Azure Resource Manager overview](azure-resource-manager/resource-group-overview.md) to learn more about Azure Resource Manager and Azure resource groups.
 
-[0]: ./media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough1.png
-[1]: ./media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough2.png
-[2]: ./media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough3.png
-[3]: ./media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough4.png
-[4]: ./media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough5.png
-[5]: ./media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough6.png
-[8]: ./media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough9.png
-[9]: ./media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough10.png
-[10]: ./media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough11b.png
-[11]: ./media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough12.png
-[12]: ./media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough13.png
-[13]: ./media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough14.png
-[14]: ./media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough15.png
-[15]: ./media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough16.png
-[16]: ./media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough17.png
-[17]: ./media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough18.png
+[0]: /azure/media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough1.png
+[1]: /azure/media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough2.png
+[2]: /azure/media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough3.png
+[3]: /azure/media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough4.png
+[4]: /azure/media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough5.png
+[5]: /azure/media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough6.png
+[8]: /azure/media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough9.png
+[9]: /azure/media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough10.png
+[10]: /azure/media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough11b.png
+[11]: /azure/media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough12.png
+[12]: /azure/media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough13.png
+[13]: /azure/media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough14.png
+[14]: /azure/media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough15.png
+[15]: /azure/media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough16.png
+[16]: /azure/media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough17.png
+[17]: /azure/media/vs-azure-tools-resource-groups-ci-in-vsts/walkthrough18.png

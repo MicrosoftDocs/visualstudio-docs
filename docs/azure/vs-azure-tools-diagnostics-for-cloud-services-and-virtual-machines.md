@@ -64,20 +64,20 @@ If you're upgrading your project from Azure SDK 2.4 and earlier to Azure SDK 2.5
 ## Turn on diagnostics in cloud service projects before you deploy them
 In Visual Studio, you can collect diagnostics data for roles that run in Azure when you run the service in the emulator before deployment. All changes to diagnostics settings in Visual Studio are saved in the diagnostics.wadcfgx configuration file. These settings specify the storage account where diagnostics data is saved when you deploy your cloud service.
 
-[!INCLUDE [cloud-services-wad-warning](../includes/cloud-services-wad-warning.md)]
+[!INCLUDE [cloud-services-wad-warning](./includes/cloud-services-wad-warning.md)]
 
 ### To turn on diagnostics in Visual Studio before deployment
 
 1. On the shortcut menu for the role, select **Properties**. In the role’s **Properties** dialog box, select the **Configuration** tab.
 2. In the **Diagnostics** section, make sure that the **Enable Diagnostics** check box is selected.
    
-    ![Access the Enable Diagnostics option](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796660.png)
+    ![Access the Enable Diagnostics option](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796660.png)
 3. To specify the storage account for the diagnostics data, select the ellipsis (…) button.
    
-    ![Specify the storage account to use](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796661.png)
+    ![Specify the storage account to use](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796661.png)
 4. In the **Create Storage Connection String** dialog box, specify whether you want to connect by using the Azure storage emulator, an Azure subscription, or manually entered credentials.
    
-    ![Storage account dialog box](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796662.png)
+    ![Storage account dialog box](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796662.png)
    
    * If you select **Microsoft Azure storage emulator**, the connection string is set to `UseDevelopmentStorage=true`.
    * If you select **Your subscription**, you can select the Azure subscription that you want to use, and enter an account name. To manage your Azure subscriptions, select **Manage Accounts**.
@@ -88,7 +88,7 @@ In Visual Studio, you can collect diagnostics data for roles that run in Azure w
    > Minimum supported size for “Disk Quota in MB” is 4GB. However, if you are collecting Memory dumps, increase this to a higher value like 10GB.
    >
   
-    ![Enable Azure diagnostics and configuration](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758144.png)
+    ![Enable Azure diagnostics and configuration](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758144.png)
 6. For this example, select the **Custom plan** option, so you can customize the collected data.
 7. In the **Disk Quota in MB** box, you can set how much space to allocate in your storage account for diagnostics data. You can change or accept the default value.
 8. On each tab of diagnostics data that you want to collect, select the **Enable Transfer of \<log type\>** check box. For example, if you want to collect application logs, on the **Application Logs** tab, select the **Enable transfer of Application Logs** check box. Also, specify any other information that's required by each diagnostics data type. For configuration information for each tab, see the section **Set up diagnostics data sources** later in this article. 
@@ -104,10 +104,10 @@ In Visual Studio, you can collect diagnostics data for Azure virtual machines.
 2. Expand the **Virtual Machines** node. You can create a new virtual machine, or select an existing node.
 3. On the shortcut menu for the virtual machine you want, select **Configure**. The virtual machine configuration dialog box appears.
    
-    ![Configure an Azure virtual machine](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796663.png)
+    ![Configure an Azure virtual machine](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796663.png)
 4. If it's not already installed, add the Microsoft Monitoring Agent Diagnostics extension. With this extension, you can gather diagnostics data for the Azure virtual machine. Under **Installed Extensions**, in the **Select an available extension** drop-down list box, select **Microsoft Monitoring Agent Diagnostics**.
    
-    ![Install an Azure virtual machine extension](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766024.png)
+    ![Install an Azure virtual machine extension](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766024.png)
    
     > [!NOTE]
    > Other diagnostics extensions are available for your virtual machines. For more information, see [Virtual machine extensions and features for Windows](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-features).
@@ -118,7 +118,7 @@ In Visual Studio, you can collect diagnostics data for Azure virtual machines.
    
     Each tab (except for **General** and **Log Directories**) represents a diagnostics data source that you can collect.
    
-    ![Enable Azure diagnostics and configuration](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758144.png)
+    ![Enable Azure diagnostics and configuration](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758144.png)
    
     The default tab, **General**, offers you the following diagnostics data collection options: **Errors only**, **All information**, and **Custom plan**. The default option, **Errors only**, takes the least amount of storage because it doesn’t transfer warnings or tracing messages. The **All information** option transfers the most information and is, therefore, the most expensive option in terms of storage.
 7. For this example, select the **Custom plan** option so you can customize the data collected.
@@ -137,14 +137,14 @@ After you enable diagnostics data collection, you can choose exactly what data s
 ### Application logs
 Application logs have diagnostics information that's produced by a web application. If you want to capture application logs, select the **Enable transfer of Application Logs** check box. To increase or decrease the interval between the transfer of application logs to your storage account, change the **Transfer Period (min)** value. You also can change the amount of information captured in the log by setting the **Log level** value. For example, select **Verbose** to get more information, or select **Critical** to capture only critical errors. If you have a specific diagnostics provider that emits application logs, you can capture the logs by adding the provider’s GUID in the **Provider GUID** box.
 
-  ![Application logs](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758145.png)
+  ![Application logs](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758145.png)
 
 For more information about application logs, see [Enable diagnostics logging for Web Apps in Azure App Service](app-service/web-sites-enable-diagnostic-log.md).
 
 ### Windows event logs
 To capture Windows event logs, select the **Enable transfer of Windows Event Logs** check box. To increase or decrease the interval between the transfer of event logs to your storage account, change the **Transfer Period (min)** value. Select the check boxes for the types of events that you want to track.
 
-![Event logs](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796664.png)
+![Event logs](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796664.png)
 
 If you're using Azure SDK 2.6 or later and you want to specify a custom data source, enter it in the **\<Data source name\>** text box, and then select **Add**. The data source is added to the diagnostics.cfcfg file.
 
@@ -159,14 +159,14 @@ If you're using Azure SDK 2.5 and want to specify a custom data source, you can 
 ### Performance counters
 Performance counter information can help you locate system bottlenecks and fine-tune system and application performance. For more information, see [Create and use performance counters in an Azure application](https://msdn.microsoft.com/library/azure/hh411542.aspx). To capture performance counters, select the **Enable transfer of Performance Counters** check box. To increase or decrease the interval between the transfer of event logs to your storage account, change the **Transfer Period (min)** value. Select the check boxes for the performance counters that you want to track.
 
-![Performance counters](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758147.png)
+![Performance counters](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758147.png)
 
 To track a performance counter that isn’t listed, enter the performance counter by using the suggested syntax. and then select **Add**. The operating system on the virtual machine determines which performance counters you can track. For more information about syntax, see [Specify a counter path](https://msdn.microsoft.com/library/windows/desktop/aa373193.aspx).
 
 ### Infrastructure logs
 Infrastructure logs have information about the Azure diagnostic infrastructure, the RemoteAccess module, and the RemoteForwarder module. To collect information about infrastructure logs, select the **Enable transfer of Infrastructure Logs** check box. To increase or decrease the interval between the transfer of infrastructure logs to your storage account, change the **Transfer Period (min)** value.
 
-![Diagnostics infrastructure logs](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758148.png)
+![Diagnostics infrastructure logs](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758148.png)
 
 For more information, see [Collect logging data by using Azure Diagnostics](https://msdn.microsoft.com/library/azure/gg433048.aspx).
 
@@ -177,14 +177,14 @@ Select the check boxes of the logs that you want to collect, such as **IIS Logs*
 
 You can capture logs from any folder. Specify the path in the **Log from Absolute Directory** section, and then select **Add Directory**. The logs are captured in the specified containers.
 
-![Log directories](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796665.png)
+![Log directories](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796665.png)
 
 ### ETW logs
 If you use [Event Tracing for Windows](https://msdn.microsoft.com/library/windows/desktop/bb968803\(v=vs.85\).aspx) (ETW) and want to capture ETW logs, select the **Enable transfer of ETW Logs** check box. To increase or decrease the interval between the transfer of logs to your storage account, change the **Transfer Period (min)** value.
 
 The events are captured from event sources and event manifests that you specify. To specify an event source, in the **Event Sources** section, enter a name and then select **Add Event Source**. Similarly, you can specify an event manifest in the **Event Manifests** section, and then select **Add Event Manifest**.
 
-![ETW logs](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766025.png)
+![ETW logs](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766025.png)
 
 The ETW framework is supported in ASP.NET through classes in the [System.Diagnostics.aspx](https://msdn.microsoft.com/library/system.diagnostics(v=vs.110)) namespace. The Microsoft.WindowsAzure.Diagnostics namespace, which inherits from and extends standard [System.Diagnostics.aspx](https://msdn.microsoft.com/library/system.diagnostics(v=vs.110)) classes, enables the use of [System.Diagnostics.aspx](https://msdn.microsoft.com/library/system.diagnostics(v=vs.110)) as a logging framework in the Azure environment. For more information, see [Take control of logging and tracing in Microsoft Azure](https://msdn.microsoft.com/magazine/ff714589.aspx) and [Enable diagnostics in Azure Cloud Services and virtual machines](cloud-services/cloud-services-dotnet-diagnostics.md).
 
@@ -193,7 +193,7 @@ To capture information about when a role instance crashes, select the **Enable t
 
 The processes currently being tracked are listed in the next screenshot. Select the check boxes for the processes that you want to capture. To add another process to the list, enter the process name and then select **Add Process**.
 
-![Crash dumps](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766026.png)
+![Crash dumps](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766026.png)
 
 For more information, see [Take control of logging and tracing in Microsoft Azure](https://msdn.microsoft.com/magazine/ff714589.aspx) and [Microsoft Azure Diagnostics Part 4: Custom logging components and Azure Diagnostics 1.3 changes](http://justazure.com/microsoft-azure-diagnostics-part-4-custom-logging-components-azure-diagnostics-1-3-changes/).
 
@@ -204,11 +204,11 @@ After you’ve collected the diagnostics data for a cloud service or virtual mac
 1. Deploy your cloud service as usual, and then run it.
 2. You can view the diagnostics data either in a report that Visual Studio generates, or in tables in your storage account. To view the data in a report, open Cloud Explorer or Server Explorer, open the shortcut menu of the node for the role that you want, and then select **View Diagnostic Data**.
    
-    ![View diagnostics data](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC748912.png)
+    ![View diagnostics data](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC748912.png)
    
     A report that shows the available data appears.
    
-    ![Microsoft Azure Diagnostics report in Visual Studio](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796666.png)
+    ![Microsoft Azure Diagnostics report in Visual Studio](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796666.png)
    
     If the most recent data isn't shown, you might have to wait for the transfer period to elapse.
    
@@ -233,11 +233,11 @@ After you’ve collected the diagnostics data for a cloud service or virtual mac
 ### To view virtual machine diagnostics data
 1. On the shortcut menu for the virtual machine, select **View Diagnostics Data**.
    
-    ![View diagnostics data in an Azure virtual machine](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766027.png)
+    ![View diagnostics data in an Azure virtual machine](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766027.png)
    
     The **Diagnostics summary** dialog box appears.
    
-    ![Azure virtual machine diagnostics summary](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796667.png)  
+    ![Azure virtual machine diagnostics summary](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796667.png)  
    
     If the most recent data isn't shown, you might have to wait for the transfer period to elapse.
    
@@ -249,7 +249,7 @@ If you're investigating a problem with a cloud service that is already running, 
 ### To set up diagnostics for a running cloud service
 1. In Server Explorer, expand the **Cloud Services** node, and then expand the list of nodes to locate the role or instance (or both) that you want to investigate.
    
-    ![Configure diagnostics](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC748913.png)
+    ![Configure diagnostics](/azure/media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC748913.png)
 2. On the shortcut menu for an instance node or role node, select **Update Diagnostics Settings**, and then select the diagnostic settings that you want to collect.
    
     For information about the configuration settings, see the section **Set up diagnostics data sources** in this article. For information about how to view the diagnostics data, see the section **View the diagnostics data** in this article.

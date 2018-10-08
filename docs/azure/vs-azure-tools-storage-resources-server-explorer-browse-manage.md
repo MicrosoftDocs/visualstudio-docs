@@ -16,7 +16,7 @@ ms.author: ghogen
 ---
 # Browse and manage storage resources by using Server Explorer
 
-[!INCLUDE [storage-try-azure-tools](../includes/storage-try-azure-tools.md)]
+[!INCLUDE [storage-try-azure-tools](./includes/storage-try-azure-tools.md)]
 
 ## Overview
 
@@ -57,7 +57,7 @@ Open the shortcut menu for a blob container name in the list, and then select **
 
 When you view the contents of a blob container, it appears on a tab known as the blob container view.
 
-![Blob container view](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC749016.png)
+![Blob container view](/azure/media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC749016.png)
 
 You can perform the following operations on blobs by using the buttons in the upper-right corner of the blob container view:
 
@@ -74,11 +74,11 @@ You can perform the following operations on blobs by using the buttons in the up
 
 1. In the **Upload New File** dialog box, select the **Browse** button to specify the file that you want to upload, and then enter a folder name in the **Folder (optional)** box.
 
-   ![Uploading a file into a blob folder](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC766037.png)
+   ![Uploading a file into a blob folder](/azure/media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC766037.png)
 
    You can add subfolders in container folders by following the same step. If you don’t specify a folder name, the file is uploaded to the top level of the blob container. The file appears in the specified folder in the container.
 
-   ![Folder added to a blob container](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC766038.png)
+   ![Folder added to a blob container](/azure/media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC766038.png)
 
 1. Double-click the folder or select Enter to see the contents of the folder. When you’re in the container’s folder, you can go back to the root of the container by selecting the **Open Parent Directory** (arrow) button.
 
@@ -94,7 +94,7 @@ You can filter the blobs that are displayed by specifying a common prefix.
 
 For example, if you enter the prefix **hello** in the filter text box and then select the **Execute** (**!**) button, only blobs that begin with "hello" appear.
 
-![Filter text box](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC519076.png)
+![Filter text box](/azure/media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC519076.png)
 
 The filter text box is case-sensitive and doesn’t support filtering with wildcard characters. Blobs can be filtered only by prefix. The prefix can include a delimiter if you are using a delimiter to organize blobs in a virtual hierarchy. For example, filtering on the prefix "HelloFabric/" returns all blobs that begin with that string.
 
@@ -151,7 +151,7 @@ In Server Explorer, you can view the queues in a storage account, create and del
 
 The following image shows a queue that contains two messages:
 
-![Viewing a queue](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC651470.png)
+![Viewing a queue](/azure/media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC651470.png)
 
 For more information about storage services queues, see [Get started with Azure Queue storage using .NET](http://go.microsoft.com/fwlink/?LinkID=264702). For information about the web service for storage services queues, see [Queue Service Concepts](http://go.microsoft.com/fwlink/?LinkId=264788). For information about how to send messages to a storage services queue by using Visual Studio, see [Sending Messages to a Storage Services Queue](https://docs.microsoft.com/azure/visual-studio/vs-storage-cloud-services-getting-started-queues).
 
@@ -173,7 +173,7 @@ Azure Table storage stores large amounts of structured data. The service is a No
 1. Open the storage account node that you are interested in, and then open the **Tables** node to see a list of tables for the storage account.
 1. Open the shortcut menu for a table, and then select **View Table**.
 
-    ![An Azure table in Solution Explorer](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC744165.png)
+    ![An Azure table in Solution Explorer](/azure/media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC744165.png)
 
 The table is organized by entities (shown in rows) and properties (shown in columns). For example, the next illustration shows entities listed in Table Designer.
 
@@ -181,7 +181,7 @@ The table is organized by entities (shown in rows) and properties (shown in colu
 
 In Table Designer, open the shortcut menu for an entity (a single row) or a property (a single cell), and then select **Edit**.
 
-    ![Add or edit a table entity](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC656238.png)
+    ![Add or edit a table entity](/azure/media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC656238.png)
 
 Entities in a single table aren’t required to have the same set of properties (columns). Keep in mind the following restrictions on viewing and editing table data:
 
@@ -194,11 +194,11 @@ Entities in a single table aren’t required to have the same set of properties 
 
 1. In Table Designer, select the **Add Entity** button.
 
-    ![Add Entity button](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC655336.png)
+    ![Add Entity button](/azure/media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC655336.png)
 
 1. In the **Add Entity** dialog box, enter the values of the **PartitionKey** and **RowKey** properties.
 
-    ![Add Entity dialog box](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC655335.png)
+    ![Add Entity dialog box](/azure/media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC655335.png)
 
     Enter the values carefully. You can't change them after you close the dialog box unless you delete the entity and add it again.
 
@@ -211,7 +211,7 @@ You can customize the set of entities that appear in a table if you use the quer
 
     The **Query Builder** dialog box appears. The following illustration shows a query that's being built in the query builder.
 
-    ![Query builder](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC652231.png)
+    ![Query builder](/azure/media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC652231.png)
 1. When you’re done building the query, close the dialog box. The resulting text form of the query appears in a text box as a WCF Data Services filter.
 1. To run the query, select the green triangle icon.
 
@@ -219,7 +219,7 @@ You can also filter entity data that appears in Table Designer if you enter a WC
 
 The following illustration shows an example of a valid filter string:
 
-![Filter string](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC655337.png)
+![Filter string](/azure/media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC655337.png)
 
 ## Refresh storage data
 
@@ -258,7 +258,7 @@ There are two ways to add storage accounts by using Server Explorer. You can cre
    * The region or affinity group (such as West US or East Asia).
    * The type of replication you want to use for the storage account, such as locally redundant.
 
-   ![Create an Azure storage account](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC744166.png)
+   ![Create an Azure storage account](/azure/media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC744166.png)
 
 1. Select **Create**.
 
@@ -268,7 +268,7 @@ The new storage account appears in the **Storage** list in Solution Explorer.
 
 1. In Server Explorer, open the shortcut menu for the Azure **Storage** node, and then select **Attach External Storage**.
 
-    ![Adding an existing storage account](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC766039.png)
+    ![Adding an existing storage account](/azure/media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC766039.png)
 1. In the **Create Storage Account** dialog box, select or enter the following information:
 
    * The name of the existing storage account that you want to attach.
@@ -279,7 +279,7 @@ The new storage account appears in the **Storage** list in Solution Explorer.
 
 If you created a storage account by using the **Read-Access Geo Redundant** replication option, you can view its secondary endpoints by opening the shortcut menu for the account name, and then select **Properties**.
 
-![Storage secondary endpoints](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC766040.png)
+![Storage secondary endpoints](/azure/media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC766040.png)
 
 ### To remove a storage account from Server Explorer
 

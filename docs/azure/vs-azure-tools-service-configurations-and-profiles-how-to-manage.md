@@ -23,7 +23,7 @@ You can create multiple service configurations to use for each of your deploymen
 
 You can add, delete, rename, and modify these service configurations based on your requirements. You can manage these service configurations from Visual Studio, as shown in the following illustration.
 
-![Manage Service Configurations](./media/vs-azure-tools-service-configurations-and-profiles-how-to-manage/manage-service-config.png)
+![Manage Service Configurations](/azure/media/vs-azure-tools-service-configurations-and-profiles-how-to-manage/manage-service-config.png)
 
 You can also open the **Manage Configurations** dialog box from the role’s property pages. To open the properties for a role in your Azure project, open the shortcut menu for that role, and then choose **Properties**. On the **Settings** tab, expand the **Service Configuration** list, and then select **Manage** to open the **Manage Configurations** dialog box.
 
@@ -65,12 +65,12 @@ When you run the wizard for the first time, a default profile is created. Visual
 1. Open the shortcut menu for your Azure project, and then select **Publish**.
 2. Next to the **Target profile** list, select the **Save Profile** button, as the following illustration shows. This creates a profile for you.
    
-    ![Create an new profile](./media/vs-azure-tools-service-configurations-and-profiles-how-to-manage/create-new-profile.png)
+    ![Create an new profile](/azure/media/vs-azure-tools-service-configurations-and-profiles-how-to-manage/create-new-profile.png)
 3. After the profile is created, select **<Manage…>** in the **Target profile** list.
    
     The **Manage Profiles** dialog box appears, as the following illustration shows.
    
-    ![Manage Profiles Dialog](./media/vs-azure-tools-service-configurations-and-profiles-how-to-manage/manage-profiles.png)
+    ![Manage Profiles Dialog](/azure/media/vs-azure-tools-service-configurations-and-profiles-how-to-manage/manage-profiles.png)
 4. In the **Name** list, choose a profile, and then select **Create Copy**.
 5. Choose the **Close** button.
    

@@ -31,7 +31,7 @@ or you can use [Docker for Windows](https://www.docker.com/get-docker), which us
 If using Docker Toolbox, you'll need to [configure the Docker client](vs-azure-tools-docker-setup.md)
 
 ## 1. Create a web app
-[!INCLUDE [create-aspnet5-app](../includes/create-aspnet5-app.md)]
+[!INCLUDE [create-aspnet5-app](./includes/create-aspnet5-app.md)]
 
 ## 2. Edit your code and refresh
 To quickly iterate changes, you can start your application within a container, and continue to make changes, viewing them as you would with IIS Express.
@@ -98,4 +98,4 @@ with the production realism of developing within a Docker container.
 * [Introduction to ASP.NET Core @ build 2016 - Where You At Demo](https://channel9.msdn.com/Events/Build/2016/B810)
 * [Developing .NET apps in containers, Channel 9](https://blogs.msdn.microsoft.com/stevelasker/2016/02/19/developing-asp-net-apps-in-docker-containers/)
 
-[2]: ./media/vs-azure-tools-docker-edit-and-refresh/breakpoint.png
+[2]: /azure/media/vs-azure-tools-docker-edit-and-refresh/breakpoint.png

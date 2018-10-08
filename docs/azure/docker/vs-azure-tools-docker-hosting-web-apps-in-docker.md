@@ -33,7 +33,7 @@ To complete this tutorial:
 ## 1. Create an ASP.NET Core web app
 The following steps guide you through creating a basic ASP.NET Core app that will be used in this tutorial.
 
-[!INCLUDE [create-aspnet5-app](../includes/create-aspnet5-app.md)]
+[!INCLUDE [create-aspnet5-app](./includes/create-aspnet5-app.md)]
 
 ## 2. Publish your container to Azure Container Registry
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
@@ -53,4 +53,4 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
 You can now pull the container from the registry to any host capable of running Docker images, for example [Azure Container Instances](./container-instances/container-instances-tutorial-deploy-app.md).
 
-[0]:./media/vs-azure-tools-docker-hosting-web-apps-in-docker/vs-acr-provisioning-dialog.png
+[0]:/azure/media/vs-azure-tools-docker-hosting-web-apps-in-docker/vs-acr-provisioning-dialog.png
