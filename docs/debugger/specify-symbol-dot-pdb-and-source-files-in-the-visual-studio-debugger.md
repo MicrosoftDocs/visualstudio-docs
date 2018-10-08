@@ -34,7 +34,9 @@ ms.workload:
 
 Program database (*.pdb*) files, also called symbol files, map identifiers and statements in your project's source code to corresponding identifiers and instructions in compiled apps. 
 
-When you build a project from the Visual Studio IDE with the standard Debug build configuration, managed compilers create the appropriate symbol files. You can also [set debug options in code](#command-line-symbol-options). The *.pdb* file holds debugging and project state information that allows incremental linking of a Debug configuration of your app. The Visual Studio debugger uses *.pdb* files to determine two key pieces of information while debugging:
+When you build a project from the Visual Studio IDE with the standard Debug build configuration, the compiler creates the appropriate symbol files. You can also [set symbol options in code](#command-line-symbol-options). 
+
+The *.pdb* file holds debugging and project state information that allows incremental linking of a Debug configuration of your app. The Visual Studio debugger uses *.pdb* files to determine two key pieces of information while debugging:
 
 * The source file name and line number to display in the Visual Studio IDE.
 * Where in the app to stop for a breakpoint.
@@ -131,7 +133,7 @@ You can select additional symbol options in **Tools** > **Options** > **Debuggin
 
 - **Load DLL exports (native only)**  
   
-  Loads DLL export tables. Reading DLL export information involves some overhead, so loading export tables is turned off by default. To see the symbols available in the export table of a DLL, [use dumpbin /exports](#use-dumpbin-exports) in a C/C++ build command line.  
+  Loads DLL export tables. Reading DLL export information involves some overhead, so loading export tables is turned off by default. To see the symbols available in the export table of a DLL, use [dumpbin /exports](#use-dumpbin-exports) in a C/C++ build command line.  
   
 - **Enable address level debugging** and **Show disassembly if source not available**  
   
@@ -141,10 +143,14 @@ You can select additional symbol options in **Tools** > **Options** > **Debuggin
   <a name="BKMK_Use_symbol_servers_to_find_symbol_files_not_on_your_local_machine"></a>
 - **Enable source server support**  
   
-  Uses Source Server to help debug an app when there is no source code on the local machine, or the *.pdb* file does not match the source code. Source Server takes requests for files and returns the actual files from source control. Source Server runs by using a DLL named *srcsrv.dll* to read the app's *.pdb* file. The *.pdb* file contains pointers to the source code repository, as well as commands used to retrieve source code from the repository. You can limit the commands that *srcsrv.dll* can execute from the app's *.pdb* file by listing the allowed commands in a file named *srcsrv.ini*. Place the *srcsrv.ini* file in the same folder as *srcsrv.dll* and *devenv.exe*.  
+  Uses Source Server to help debug an app when there is no source code on the local machine, or the *.pdb* file does not match the source code. Source Server takes requests for files and returns the actual files from source control. Source Server runs by using a DLL named *srcsrv.dll* to read the app's *.pdb* file. The *.pdb* file contains pointers to the source code repository, as well as commands used to retrieve source code from the repository. 
+  
+  You can limit the commands that *srcsrv.dll* can execute from the app's *.pdb* file by listing the allowed commands in a file named *srcsrv.ini*. Place the *srcsrv.ini* file in the same folder as *srcsrv.dll* and *devenv.exe*.  
   
   >[!IMPORTANT]
-  >Arbitrary commands can be embedded in an app's *.pdb* file, so make sure to put only the commands you want to execute into a *srcsrv.ini* file. Any attempt to execute a command not in the *srcsvr.ini* file will cause a confirmation dialog box to appear. For more information, see [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md). No validation is done on command parameters, so be careful with trusted commands. For example, if you listed *cmd.exe* in your *srcsrv.ini*, a malicious user might specify parameters on *cmd.exe* that would make it dangerous.  
+  >Arbitrary commands can be embedded in an app's *.pdb* file, so make sure to put only the commands you want to execute into a *srcsrv.ini* file. Any attempt to execute a command not in the *srcsvr.ini* file will cause a confirmation dialog box to appear. For more information, see [Security Warning: Debugger Must Execute Untrusted Command](../debugger/security-warning-debugger-must-execute-untrusted-command.md). 
+  >
+  >No validation is done on command parameters, so be careful with trusted commands. For example, if you listed *cmd.exe* in your *srcsrv.ini*, a malicious user might specify parameters on *cmd.exe* that would make it dangerous.  
   
   Select this item and the child items you want. **Allow source server for partial trust assemblies (Managed only)** and **Always run untrusted source server commands without prompting** can increase the security risks.  
   
@@ -174,9 +180,9 @@ When you build a project from the Visual Studio IDE with the standard **Debug** 
   
 - <a name="use-dumpbin-exports"></a>DLL export tables
   
-  Use `dumpbin /exports` to see the symbols available in the export table of a DLL. Symbolic information from DLL export tables can be useful for working with Windows messages, Windows procedures (WindowProcs), COM objects, marshaling, or any DLL you don't have symbols for. Symbols are available for any 32-bit system DLL. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. By reading the `dumpbin /exports` output, you can see the exact function names, including non-alphanumeric characters. Seeing exact function names is useful for setting a breakpoint on a function, because function names can be truncated elsewhere in the debugger. 
+  Use `dumpbin /exports` to see the symbols available in the export table of a DLL. Symbolic information from DLL export tables can be useful for working with Windows messages, Windows procedures (WindowProcs), COM objects, marshaling, or any DLL you don't have symbols for. Symbols are available for any 32-bit system DLL. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. 
   
-  To load the DLL export tables when debugging C\C++ apps, select **Load DLL exports (native only)** in **Tools** > **Options** > **Debugging** > **General**.  For more information, see [dumpbin /exports](/cpp/build/reference/dash-exports).  
+  By reading the `dumpbin /exports` output, you can see the exact function names, including non-alphanumeric characters. Seeing exact function names is useful for setting a breakpoint on a function, because function names can be truncated elsewhere in the debugger. For more information, see [dumpbin /exports](/cpp/build/reference/dash-exports).  
   
 ### .NET Framework options 
   
